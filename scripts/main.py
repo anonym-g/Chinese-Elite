@@ -13,20 +13,17 @@ import sys
 import time
 
 try:
-    # 从 scripts 包中导入各个模块的 main 函数，并重命名以避免冲突
-    from scripts.process_list import main as process_main
-    from scripts.merge_graphs import main as merge_main
-    from scripts.clean_data import main as clean_main
+    from process_list import main as process_main
+    from merge_graphs import main as merge_main
+    from clean_data import main as clean_main
 except ImportError as e:
-    # 提供了清晰的错误提示，帮助用户解决环境问题
     print(
-        f"错误: 无法导入必要的模块。\n"
-        f"请确保 main.py 位于项目根目录，并且 'scripts' 文件夹及其中的 .py 文件都存在。\n"
+        f"错误: 无法导入必要的子模块。\n"
+        f"请确保您是从项目根目录使用 'python -m scripts.main' 命令来运行此脚本。\n"
         f"详细错误: {e}",
         file=sys.stderr
     )
     sys.exit(1)
-
 
 def run_pipeline():
     """执行完整的端到端数据处理流水线。"""

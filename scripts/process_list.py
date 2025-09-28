@@ -8,6 +8,7 @@ import pytz
 import re
 import requests
 import urllib.parse
+from config import DATA_PATH
 
 # --- 检查并导入所需模块 ---
 try:
@@ -19,8 +20,6 @@ except ImportError:
     sys.exit(1)
 
 # --- 配置 ---
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-DATA_PATH = os.path.join(PROJECT_ROOT, 'data')
 LIST_FILE_PATH = os.path.join(DATA_PATH, 'LIST.txt')
 
 WIKI_BASE_URL = "https://zh.wikipedia.org/zh-cn/"

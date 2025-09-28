@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', initialize);
 
-const DATA_FILE_URL = '../data/consolidated_graph.json';
+const DATA_FILE_URL = './consolidated_graph.json';
 
 // --- 全局变量 ---
 let fullGraphData = null;

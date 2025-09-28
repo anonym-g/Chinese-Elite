@@ -7,6 +7,7 @@ import random
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+from config import CONSOLIDATED_GRAPH_PATH
 
 # --- 配置 ---
 load_dotenv() 
@@ -17,8 +18,6 @@ MODEL_NAME = "gemini-2.5-pro"
 # gemini-2.5-flash
 
 # --- Few-shot 范例配置 ---
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-CONSOLIDATED_GRAPH_PATH = os.path.join(PROJECT_ROOT, 'data', 'consolidated_graph.json')
 NUM_NODE_SAMPLES = 24 # 每次调用时随机抽取的节点范例数量
 NUM_REL_SAMPLES = 12 # 每次调用时随机抽取的关系范例数量
 
