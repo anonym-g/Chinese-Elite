@@ -1,0 +1,261 @@
+/* docs/style.css --- DARK THEME VERSION --- */
+
+body { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0; 
+    /* --- 深色背景和浅色文字 --- */
+    background-color: #121212; 
+    color: #e9ecef; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header, .controls, #legend-container { 
+    text-align: center; 
+    padding: 0.5em; 
+    /* --- 控件区域背景色和边框 --- */
+    background-color: #1c1c1c; 
+    border-bottom: 1px solid #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.header {
+    padding: 0.8em; /* 增加一点头部内边距 */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.controls label {
+    font-size: 0.9em;
+}
+
+/* --- Legend Styling Update --- */
+#legend-container {
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    gap: 8px; /* 增加整体间距 */
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    /* --- Add Border --- */
+    border: 1px solid #495057;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    transition: background-color 0.2s;
+}
+.legend-item:hover {
+    background-color: #383838;
+}
+
+.legend-item input[type="checkbox"] {
+    margin: 0;
+}
+.legend-item .color-box {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #555; /* 边框调暗 */
+}
+.legend-item input[type="color"] {
+    width: 20px;
+    height: 20px;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+#graph-container { 
+    width: 100%; 
+    flex-grow: 1;
+    overflow: hidden;
+    /* --- 图谱区域背景色 --- */
+    background-color: #121212;
+}
+
+svg { 
+    width: 100%; 
+    height: 100%; 
+    cursor: grab;
+}
+svg:active {
+    cursor: grabbing;
+}
+
+/* --- 节点和链接样式 --- */
+.node circle { 
+    stroke: #fff; 
+    stroke-width: 2px;
+    transition: opacity 0.3s;
+}
+.node text {
+    font-size: 10px;
+    text-anchor: middle;
+    fill: #fff;
+    /* --- 文字描边为黑色,在亮色节点上保持可读性 --- */
+    stroke: #000;
+    stroke-width: 0.4px;
+    paint-order: stroke;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.link { 
+    /* --- 关系线为白色 --- */
+    stroke: #fff; 
+    stroke-opacity: 0.6; 
+    transition: stroke 0.3s, stroke-opacity 0.3s;
+}
+.link-label {
+    font-size: 8px;
+    /* --- 关系标签文字为浅灰色 --- */
+    fill: #adb5bd;
+    text-anchor: middle;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.link { 
+    /* --- 修复黑色扇形问题 --- */
+    fill: none;
+    stroke: #fff; 
+    stroke-opacity: 0.6; 
+    transition: stroke 0.3s, stroke-opacity 0.3s;
+}
+
+/* 高亮效果 (不变) */
+.node.highlight circle {
+    stroke: #f00;
+    stroke-width: 3px;
+}
+.node.faded, .link.faded, .link-label.faded {
+    opacity: 0.1 !important;
+}
+
+.tooltip { 
+    position: absolute; 
+    text-align: left; 
+    padding: 8px; 
+    font: 12px sans-serif; 
+    background: rgba(52, 58, 64, 0.9);
+    color: white;
+    border: 0px; 
+    border-radius: 8px; 
+    pointer-events: none; 
+    max-width: 300px;
+}
+
+/* --- 自定义日期输入框样式 --- */
+.date-control-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.date-input-group {
+    display: inline-flex;
+    align-items: center;
+    /* --- 边框颜色 --- */
+    border: 1px solid #495057;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.date-part {
+    width: 4em;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+    padding: 4px 0;
+    background-color: transparent;
+    color: inherit; /* 继承body的浅色文字 */
+}
+.date-part:focus {
+    outline: none;
+    /* --- 输入框聚焦时的背景色 --- */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.date-part::-webkit-outer-spin-button,
+.date-part::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.date-part {
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+#start-month, #end-month,
+#start-day, #end-day {
+    width: 2.5em;
+}
+
+/* --- 间隔控制 --- */
+.interval-control-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.date-separator {
+    font-size: 1.5em;
+    color: #888;
+    line-height: 1;
+}
+.interval-inputs {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.interval-part {
+    width: 3em;
+    border: 1px solid #495057;
+    background-color: transparent;
+    color: inherit;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px;
+}
+.interval-control-container button,
+.interval-control-container a {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.interval-control-container button {
+    border: 1px solid #6c757d;
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+.interval-control-container button:hover {
+    background-color: #495057;
+}
+.interval-control-container a {
+    color: #7bade0;
+}
+.interval-control-container a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none !important;
+}
