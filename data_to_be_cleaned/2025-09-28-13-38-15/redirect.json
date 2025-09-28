@@ -1,0 +1,570 @@
+{
+  "nodes": [
+    {
+      "id": "护法战争",
+      "type": "Event",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "抗日战争",
+      "type": "Event",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "晋冀鲁豫军区",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "第二野战军",
+      "type": "Organization",
+      "aliases": [
+        "二野",
+        "中野"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "高等军事学院",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "北伐战争",
+      "type": "Event",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中共中央长江局",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "第四次反围剿战争",
+      "type": "Event",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "第五次反围剿战争",
+      "type": "Event",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "红五军团",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "抗日军政大学",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "延安整风",
+      "type": "Movement",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "平汉战役",
+      "type": "Event",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "南京市军事管制委员会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "林副主席指示第一号令",
+      "type": "Document",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军军政大学",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "私立南开中学堂",
+      "type": "Organization",
+      "aliases": [
+        "天津南开学校"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "黄埔军校",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "男",
+        "description": "中国国民党总裁，中华民国前总统。"
+      }
+    },
+    {
+      "id": "北京故宫",
+      "type": "Location",
+      "aliases": [
+        "故宫"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "最高人民法院特别法庭",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "period": "1980 - 1981",
+        "description": "为审判林彪、江青反革命集团案而设立的特别法庭。"
+      }
+    },
+    {
+      "id": "林彪、江青反革命集团",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "官方认定的在文化大革命期间形成的两个反革命集团。"
+      }
+    },
+    {
+      "id": "国棉十七厂",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "location": "上海市",
+        "description": "王洪文从部队转业后工作的工厂。"
+      }
+    },
+    {
+      "id": "中国共产党第八届中央委员会第十二次全体会议",
+      "type": "Event",
+      "aliases": [
+        "中共八届十二中全会"
+      ],
+      "properties": {
+        "period": "1968-10",
+        "description": "中共中央全会，王洪文在此次会议上被毛泽东介绍。"
+      }
+    },
+    {
+      "id": "罗林",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女"
+      }
+    },
+    {
+      "id": "武昌中山大学",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "武汉大学的前身之一。"
+      }
+    },
+    {
+      "id": "中国人民抗日红军大学",
+      "type": "Organization",
+      "aliases": [
+        "红军大学"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "红一军团",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "红八军团",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "东北民主联军",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "东北野战军",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "第四野战军",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军政治学院",
+      "type": "Organization",
+      "aliases": [
+        "政治学院"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "中共湖北省委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘伯承",
+      "target": "中共中央长江局",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1930-08",
+        "position": "军委书记"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "红五军团",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1934",
+        "position": "参谋长"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "抗日军政大学",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1936-12",
+        "position": "副校长"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "晋冀鲁豫军区",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1945-08-25",
+        "position": "司令员"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "第二野战军",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1949-02",
+        "position": "司令员"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "南京市军事管制委员会",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1949-04",
+        "position": "主任"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "高等军事学院",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1957-09",
+        "end_date": "1958-11-17",
+        "position": "院长兼政委"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "护法战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1917",
+        "description": "任川军第五师第九旅参谋长参战"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "北伐战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1926",
+        "description": "策动四川响应北伐战争"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "第四次反围剿战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1933",
+        "description": "协助朱德、周恩来指挥作战"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "第五次反围剿战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1934"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "延安整风",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1943-09"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "平汉战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-10",
+        "description": "发起并指挥战役"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "私立南开中学堂",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1913",
+        "end_date": "1917"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "黄埔军校",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1924",
+        "position": "政治部主任"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "蒋介石",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1927",
+        "end_date": "1949",
+        "description": "在两次国共内战期间作为主要对手进行军事和政治斗争。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "北京故宫",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1966",
+        "description": "在“破四旧”期间，指示关闭故宫并派军队守护，使其免遭红卫兵冲击破坏。"
+      }
+    },
+    {
+      "source": "王洪文",
+      "target": "国棉十七厂",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1956-09",
+        "end_date": null,
+        "position": "揩车工、保全工、保卫干事、民兵连长",
+        "description": "文革后仍由该单位发放工资"
+      }
+    },
+    {
+      "source": "王洪文",
+      "target": "林彪、江青反革命集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": "被认定为集团主犯"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "武昌中山大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1927-04",
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": "理学院学习"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "中国人民抗日红军大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1936-06",
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": null
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "罗林",
+      "type": "PARENT_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": null
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "中共湖北省委",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1927-07",
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": "被派往通城从事农民运动"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "红一军团",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1932-03",
+        "end_date": null,
+        "position": "政治部主任, 政治部副主任",
+        "degree": null,
+        "description": null
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "红八军团",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1934-09",
+        "end_date": "1934-12",
+        "position": "政治部主任",
+        "degree": null,
+        "description": null
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "东北民主联军",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1945-10-31",
+        "end_date": null,
+        "position": "第二政治委员, 副政治委员",
+        "degree": null,
+        "description": null
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "东北野战军",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1948-08-14",
+        "end_date": null,
+        "position": "政治委员",
+        "degree": null,
+        "description": null
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "第四野战军",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1949",
+        "end_date": null,
+        "position": "第一政治委员",
+        "degree": null,
+        "description": null
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "中国人民解放军政治学院",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1956-03",
+        "end_date": null,
+        "position": "院长",
+        "degree": null,
+        "description": null
+      }
+    }
+  ],
+  "redirect_map": {
+    "护法战争": "護法運動",
+    "抗日战争": "中国抗日战争",
+    "晋冀鲁豫军区": "晋冀鲁豫边区",
+    "第二野战军": "中国人民解放军第二野战军",
+    "高等军事学院": "中国人民解放军高等军事学院",
+    "北伐战争": "國民革命軍北伐",
+    "中共中央长江局": "中共中央南方局",
+    "第四次反围剿战争": "中央蘇區第四次反圍剿戰爭",
+    "第五次反围剿战争": "中央苏区第五次反围剿战争",
+    "红五军团": "中国工农红军第五军团",
+    "抗日军政大学": "中国人民抗日军事政治大学",
+    "延安整风": "整風運動",
+    "平汉战役": "邯郸战役",
+    "南京市军事管制委员会": "中国人民解放军南京市军事管制委员会",
+    "林副主席指示第一号令": "林副主席第一个号令",
+    "中国人民解放军军政大学": "中国人民解放军国防大学",
+    "私立南开中学堂": "天津市南开中学",
+    "黄埔军校": "中華民國陸軍軍官學校",
+    "蒋介石": "蔣中正",
+    "北京故宫": "故宫",
+    "最高人民法院特别法庭": "林彪、江青反革命集团案",
+    "林彪、江青反革命集团": "林彪、江青反革命集团案",
+    "国棉十七厂": "裕丰纱厂旧址",
+    "中国共产党第八届中央委员会第十二次全体会议": "中国共产党第八届中央委员会",
+    "罗林": "刀郎",
+    "武昌中山大学": "国立武昌中山大学",
+    "中国人民抗日红军大学": "中国人民抗日军事政治大学",
+    "红一军团": "中国工农红军第一军团",
+    "红八军团": "中国工农红军第八军团",
+    "东北民主联军": "东北人民解放军",
+    "东北野战军": "东北人民解放军",
+    "第四野战军": "中国人民解放军第四野战军",
+    "中国人民解放军政治学院": "中国人民解放军国防大学政治学院",
+    "中共湖北省委": "中国共产党湖北省委员会"
+  }
+}

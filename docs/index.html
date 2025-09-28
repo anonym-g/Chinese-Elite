@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Elite - Interactive Graph</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>『中国精英：关系图谱』</h1>
+    </div>
+
+    <div class="controls">
+        <div class="date-control-wrapper">
+            <label for="start-date-group">开始日期:</label>
+            <div class="date-input-group" id="start-date-group">
+                <input type="text" class="date-part" id="start-year"  maxlength="4" inputmode="numeric" pattern="[0-9]*" value="1976">
+                <span>-</span>
+                <input type="text" class="date-part" id="start-month" maxlength="2" inputmode="numeric" pattern="[0-9]*" value="9">
+                <span>-</span>
+                <input type="text" class="date-part" id="start-day"   maxlength="2" inputmode="numeric" pattern="[0-9]*" value="9">
+            </div>
+        </div>
+
+        <div class="interval-control-container">
+            <div id="interval-inputs-wrapper" class="interval-inputs hidden">
+                <input type="text" class="interval-part" id="interval-year" placeholder="年" inputmode="numeric">
+                <input type="text" class="interval-part" id="interval-month" placeholder="月" inputmode="numeric">
+                <input type="text" class="interval-part" id="interval-day" placeholder="日" inputmode="numeric">
+                <button id="set-interval-btn">设置</button>
+            </div>
+            <a href="#" id="toggle-interval-btn">设置间隔</a>
+            <div class="date-separator">—</div>
+            <button id="clear-interval-btn" class="hidden">清除限制</button>
+        </div>
+
+        <div class="date-control-wrapper">
+            <label for="end-date-group">结束日期:</label>
+            <div class="date-input-group" id="end-date-group">
+                <input type="text" class="date-part" id="end-year"  maxlength="4" inputmode="numeric" pattern="[0-9]*" value="1976">
+                <span>-</span>
+                <input type="text" class="date-part" id="end-month" maxlength="2" inputmode="numeric" pattern="[0-9]*" value="10">
+                <span>-</span>
+                <input type="text" class="date-part" id="end-day"   maxlength="2" inputmode="numeric" pattern="[0-9]*" value="6">
+            </div>
+        </div>
+    </div>
+
+    <div id="legend-container"></div>
+
+    <div id="graph-container">
+        <svg id="graph"></svg>
+    </div>
+    
+    <div class="tooltip" style="opacity:0;"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
