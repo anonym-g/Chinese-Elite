@@ -1,4 +1,4 @@
-// docs/app.js --- FIXED TIME FILTERING LOGIC ---
+// docs/app.js
 
 document.addEventListener('DOMContentLoaded', initialize);
 
@@ -60,9 +60,7 @@ function getDateFromGroup(prefix) {
     const month = document.getElementById(`${prefix}-month`).value;
     const day = document.getElementById(`${prefix}-day`).value;
     if (!year || !month || !day) return null;
-    // Month is 0-indexed in JS Date
     const date = new Date(year, month - 1, day);
-    // Basic validation to prevent invalid dates like Feb 30
     if (date.getFullYear() != year || date.getMonth() + 1 != month || date.getDate() != day) {
         return null;
     }
@@ -88,7 +86,7 @@ function getNodeRadius(node) {
     return 5 + Math.sqrt(degree) * 2;
 }
 
-// --- New Interval Calculation Functions ---
+// --- 间隔计算函数 ---
 function addInterval(date, interval) {
     const newDate = new Date(date);
     if (interval.years) newDate.setFullYear(newDate.getFullYear() + interval.years);
@@ -112,7 +110,7 @@ function propagateIntervalChange(originPrefix) {
     if (originPrefix === 'start') {
         const newEndDate = addInterval(originDate, currentInterval);
         updateDateGroup('end', newEndDate);
-    } else { // originPrefix === 'end'
+    } else {
         const newStartDate = subtractInterval(originDate, currentInterval);
         updateDateGroup('start', newStartDate);
     }
@@ -163,7 +161,6 @@ function handleDatePartKeydown(event) {
         }
         updateDateGroup(prefix, currentDate);
         
-        // Manually trigger the debounced handler
         dateChangeHandler.call(document.getElementById(`${prefix}-${part}`));
     }
 }
@@ -231,7 +228,7 @@ function createLegend() {
 function renderGraph() {
     if (!fullGraphData) return;
 
-    // 1. Filter data based on date
+    // 1. 基于日期过滤数据
     const startDate = getDateFromGroup('start');
     const endDateRaw = getDateFromGroup('end');
     const endDate = endDateRaw ? new Date(endDateRaw.getTime() + 24 * 60 * 60 * 1000 - 1) : null;
@@ -240,7 +237,7 @@ function renderGraph() {
     let validRels = [];
 
     if (startDate && endDate && endDate < startDate) {
-        // Invalid date range, show nothing
+        // 无效区间
     } else {
         const effectiveStartDate = startDate || new Date(-8640000000000000);
         const effectiveEndDate = endDate || new Date(8640000000000000);
@@ -329,12 +326,12 @@ function renderGraph() {
         })).filter(link => link.source && link.target);
     }
 
-    // 2. Set up dynamic anchors
+    // 2. 设置动态锚
     visibleNodes.forEach(n => n.isAnchor = false);
     const sortedNodes = [...visibleNodes].sort((a, b) => b.degree - a.degree);
     sortedNodes.slice(0, 3).forEach(n => n.isAnchor = true);
 
-    // 3. Group links for rendering
+    // 3. 集群渲染
     const linkGroups = {};
     validRels.forEach(link => {
         const pairId = link.source.id < link.target.id ? `${link.source.id}-${link.target.id}` : `${link.target.id}-${link.source.id}`;
@@ -358,7 +355,7 @@ function renderGraph() {
         }
     });
 
-    // 4. D3 Data Join
+    // 4. D3
     const linkElements = linkGroup.selectAll("path.link")
         .data(validRels, d => `${d.source.id}-${d.target.id}-${d.type}`)
         .join("path")
@@ -386,7 +383,7 @@ function renderGraph() {
             }
         );
 
-    // 5. Setup Interactions
+    // 5. 设置间隔
     nodeElements.call(drag(simulation));
 
     nodeElements.on("mouseover", (event, d) => {
@@ -407,7 +404,7 @@ function renderGraph() {
         tooltip.style("opacity", 0);
     });
 
-    // 6. Run Simulation
+    // 6. 运行模拟
     simulation.stop();
     simulation.nodes(visibleNodes);
     simulation.force("link").links(validRels);
@@ -489,7 +486,7 @@ function drag(simulation) {
 
     function dragended(event, d) {
         if (!event.active) simulation.alphaTarget(0);
-        if (!d.isAnchor) { // Only unfix non-anchor nodes
+        if (!d.isAnchor) {
             d.fx = null;
             d.fy = null;
         }
@@ -573,7 +570,7 @@ async function initialize() {
         svg.select("#arrowhead path").style('fill', '#999');
     });
 
-    // --- New Interval Controls Event Listeners ---
+    // --- 间隔设置事件监听 ---
     const toggleBtn = document.getElementById('toggle-interval-btn');
     const intervalInputsWrapper = document.getElementById('interval-inputs-wrapper');
     const setBtn = document.getElementById('set-interval-btn');
@@ -592,7 +589,7 @@ async function initialize() {
         currentInterval = { years, months, days };
         isIntervalLocked = true;
         
-        propagateIntervalChange('start'); // Align to start date by default
+        propagateIntervalChange('start'); // 默认向起始时间对齐
         renderGraph();
         
         clearBtn.classList.remove('hidden');
@@ -606,7 +603,7 @@ async function initialize() {
     });
 
 
-    // --- Date Input Event Listeners ---
+    // --- 日期输入事件监听 ---
     document.querySelectorAll('.date-part').forEach(input => {
         input.addEventListener('keydown', handleDatePartKeydown);
         input.addEventListener('input', (e) => {

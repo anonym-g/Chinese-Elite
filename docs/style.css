@@ -26,6 +26,7 @@ body {
 }
 
 .header {
+    position: relative;
     padding: 0.8em; /* 增加一点头部内边距 */
 }
 
@@ -38,7 +39,6 @@ body {
     font-size: 0.9em;
 }
 
-/* --- Legend Styling Update --- */
 #legend-container {
     padding: 10px;
     flex-wrap: wrap;
@@ -137,7 +137,7 @@ svg:active {
     transition: stroke 0.3s, stroke-opacity 0.3s;
 }
 
-/* 高亮效果 (不变) */
+/* 高亮效果 */
 .node.highlight circle {
     stroke: #f00;
     stroke-width: 3px;
@@ -258,4 +258,24 @@ svg:active {
 
 .hidden {
     display: none !important;
+}
+
+/* --- GitHub 图标样式 --- */
+.github-link {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    line-height: 0; /* 避免 SVG 产生额外的行高影响定位 */
+}
+
+.github-link svg {
+    width: 28px;  /* 调整到更合适的尺寸 */
+    height: 28px; /* 调整到更合适的尺寸 */
+    fill: #e9ecef;
+    transition: opacity 0.2s;
+}
+
+.github-link:hover svg {
+    opacity: 0.7;
 }

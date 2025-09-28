@@ -1,0 +1,65 @@
+# .github/workflows/update_data.yml
+
+name: 自动化数据更新 (Automated Data Update)
+
+# --- 触发器 (Triggers) ---
+on:
+  # 1. 允许手动触发
+  workflow_dispatch:
+
+  # 2. 定时触发 (使用 UTC 时间)
+  schedule:
+    # 每天的 0 点 0 分执行 (UTC 时间)
+    - cron: '0 0 * * *'
+
+# --- 权限设置 (Permissions) ---
+# 需要写入权限来提交代码
+permissions:
+  contents: write
+
+# --- 任务 (Jobs) ---
+jobs:
+  update-data-job:
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 虚拟机
+
+    steps:
+      # 第 1 步：检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 第 2 步：设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13' # 您可以指定需要的 Python 版本
+
+      # 第 3 步：安装依赖项
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 第 4 步：运行数据处理流水线
+      - name: Run data processing pipeline
+        # 将之前设置的 Secret 注入为环境变量
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python run_pipeline.py
+
+      # 第 5 步：提交并推送更新
+      - name: Commit and push changes
+        run: |
+          # 配置 Git 用户信息
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # 检查 docs/consolidated_graph.json 是否有变化
+          # If git diff returns a non-zero exit code, it means there are changes.
+          if ! git diff --quiet docs/consolidated_graph.json; then
+            echo "检测到数据文件变更，正在提交..."
+            git add docs/consolidated_graph.json
+            git commit -m "自动化更新 (Automated Update): 更新 consolidated_graph.json 数据"
+            git push
+          else
+            echo "数据文件无变更，无需提交。"
+          fi

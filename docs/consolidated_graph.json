@@ -1369,12 +1369,12 @@
       ],
       "properties": {
         "period": "1959",
-        "lifetime": "1959-07 - ",
+        "lifetime": "1959-07-23 - ",
         "location": "中华人民共和国",
         "birth_place": "浙江省瑞安县",
         "death_place": null,
-        "gender": "Male",
-        "description": "现任中华人民共和国国务院总理。"
+        "gender": "男",
+        "description": "现任中华人民共和国国务院总理、中共中央政治局常委。"
       }
     },
     {
@@ -1382,13 +1382,12 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "period": "1957",
-        "lifetime": "1957-03 - ",
+        "lifetime": "1957-03-08 - ",
         "location": "中华人民共和国",
         "birth_place": "青海省西宁市",
         "death_place": null,
-        "gender": "Male",
-        "description": "现任全国人民代表大会常务委员会委员长。"
+        "gender": "男",
+        "description": "现任全国人民代表大会常务委员会委员长、中共中央政治局常委。"
       }
     },
     {
@@ -1678,7 +1677,7 @@
         "birth_place": "天津市",
         "death_place": null,
         "gender": "男",
-        "description": "中华人民共和国前国务院总理，曾任中共中央办公厅主任。"
+        "description": "中华人民共和国前国务院总理，曾任中共中央办公厅主任、中共中央政治局常委。"
       }
     },
     {
@@ -1706,7 +1705,7 @@
         "birth_place": "安徽省定远县",
         "death_place": "上海市",
         "gender": "Male",
-        "description": "中华人民共和国前国务院总理。"
+        "description": "曾任中华人民共和国国务院总理、中共中央政治局常委。"
       }
     },
     {
@@ -1863,7 +1862,8 @@
       ],
       "properties": {
         "period": "1949-10 - 1954-09",
-        "description": "中华人民共和国国务院的前身。"
+        "location": "北京",
+        "description": "中华人民共和国成立初期的中央人民政府，是国务院的前身。"
       }
     },
     {
@@ -2215,7 +2215,7 @@
       "properties": {
         "gender": "男",
         "period": null,
-        "lifetime": null,
+        "lifetime": "1916-12-01 - 2015-07-15",
         "location": null,
         "birth_place": null,
         "death_place": null,
@@ -2322,9 +2322,9 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "lifetime": "1924-12 - 2015-06-14",
-        "gender": "Male",
-        "description": "中国共产党高级领导人，曾任全国人大常委会委员长。"
+        "lifetime": "1924-12-01 - 2015-06-14",
+        "gender": "男",
+        "description": "中国共产党高级领导人，曾任全国人大常委会委员长、中共中央政治局常委。"
       }
     },
     {
@@ -2369,8 +2369,8 @@
       "aliases": [],
       "properties": {
         "lifetime": "1928-10-23 - ",
-        "gender": "Male",
-        "description": "曾任中华人民共和国国务院总理"
+        "gender": "男",
+        "description": "曾任中华人民共和国国务院总理、中共中央政治局常委。"
       }
     },
     {
@@ -2447,8 +2447,8 @@
       "aliases": [],
       "properties": {
         "lifetime": "1941-07-22 - 2024-10-08",
-        "gender": "Male",
-        "description": "曾任全国人大常委会委员长"
+        "gender": "男",
+        "description": "曾任全国人大常委会委员长、中共中央政治局常委。"
       }
     },
     {
@@ -2530,7 +2530,7 @@
       "properties": {
         "gender": "男",
         "lifetime": "1942-12-03 - ",
-        "description": "原中央政法委书记，后因腐败被判刑"
+        "description": "曾任中共中央政治局常委、中央政法委书记，后因腐败问题被判无期徒刑。"
       }
     },
     {
@@ -2573,8 +2573,8 @@
       "aliases": [],
       "properties": {
         "lifetime": "1946-11-04 - ",
-        "gender": "Male",
-        "description": "曾任全国人大常委会委员长"
+        "gender": "男",
+        "description": "曾任全国人大常委会委员长、中共中央政治局常委。"
       }
     },
     {
@@ -6440,8 +6440,8 @@
         "location": "",
         "birth_place": "",
         "death_place": "",
-        "gender": "Male",
-        "description": "中国共产党内的理论家和政治家。"
+        "gender": "男",
+        "description": "中国共产党内的理论家和政治家，曾任毛泽东秘书、中共中央政治局委员。"
       }
     },
     {
@@ -6514,7 +6514,8 @@
       "id": "中华人民共和国最高人民法院",
       "type": "Organization",
       "aliases": [
-        "最高人民法院"
+        "最高人民法院",
+        "最高法"
       ],
       "properties": {
         "period": "",
@@ -8477,7 +8478,9 @@
       "id": "旅法共产主义小组",
       "type": "Organization",
       "aliases": [],
-      "properties": {}
+      "properties": {
+        "period": "1921"
+      }
     },
     {
       "id": "觉悟社",
@@ -8505,12 +8508,8 @@
       "aliases": [],
       "properties": {
         "gender": "女",
-        "lifetime": [
-          "1917-1971",
-          "1917-12 - 1971-09-13"
-        ],
-        "description": "林彪的妻子，中共第九届中央政治局委员，林彪反革命集团案主犯之一。",
-        "period": "1917-1971"
+        "lifetime": "1917-12-02 - 1971-09-13",
+        "description": "林彪的妻子，曾任中共第九届中央政治局委员，林彪反革命集团案主犯之一，在九一三事件中坠机身亡。"
       }
     },
     {
@@ -8580,7 +8579,10 @@
       "id": "刘清扬",
       "type": "Person",
       "aliases": [],
-      "properties": {}
+      "properties": {
+        "lifetime": "1894 - 1977",
+        "gender": "女"
+      }
     },
     {
       "id": "张申府",
@@ -8648,7 +8650,10 @@
       "id": "李德 (1909年)",
       "type": "Person",
       "aliases": [],
-      "properties": {}
+      "properties": {
+        "lifetime": "1900 - 1974",
+        "gender": "男"
+      }
     },
     {
       "id": "王明",
@@ -11203,7 +11208,8 @@
       "aliases": [],
       "properties": {
         "lifetime": "1944-04-16 - ",
-        "description": "邓小平的长子。"
+        "gender": "男",
+        "description": "邓小平的长子。曾任全国政协副主席。"
       }
     },
     {
@@ -14122,7 +14128,8 @@
       "aliases": [],
       "properties": {
         "lifetime": "1949-07-03 - ",
-        "gender": "男"
+        "gender": "男",
+        "description": "曾任中共中央政治局委员、重庆市委书记，后因腐败问题被判无期徒刑。"
       }
     },
     {
@@ -16190,11 +16197,13 @@
     {
       "id": "周贻能",
       "type": "Person",
-      "aliases": [],
+      "aliases": [
+        "周劭纲"
+      ],
       "properties": {
         "lifetime": "1874 - 1942",
         "gender": "男",
-        "description": "周恩来之父",
+        "description": "周恩来之父。",
         "verified_node": true
       }
     },
@@ -16216,7 +16225,8 @@
       "properties": {
         "gender": "男",
         "description": "周恩来胞弟",
-        "verified_node": true
+        "verified_node": true,
+        "lifetime": "1899 - 1945"
       }
     },
     {
@@ -21448,9 +21458,12 @@
     },
     {
       "id": "党和国家领导人",
-      "type": "Person",
+      "type": "Movement",
       "aliases": [],
-      "properties": {}
+      "properties": {
+        "location": "中华人民共和国",
+        "description": "中华人民共和国等一党制社会主义国家的政治术语，指称中共和国家机构层面具有特定职务及级别高级领导人。"
+      }
     },
     {
       "id": "陕北",
@@ -22346,9 +22359,121 @@
         "gender": "男",
         "description": "曾任陕甘宁边区政府民政厅厅长，建议杨芝芳与高岗离婚。"
       }
+    },
+    {
+      "id": "成克杰",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1933-11-13 - 2000-09-14",
+        "gender": "男",
+        "description": "曾任全国人大常委会副委员长，后因受贿罪被判处死刑。"
+      }
+    },
+    {
+      "id": "鲍彤",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1932-11-05 - 2022-11-09",
+        "gender": "男",
+        "description": "曾任赵紫阳秘书，六四事件后被判刑。"
+      }
+    },
+    {
+      "id": "中日联合声明",
+      "type": "Document",
+      "aliases": [],
+      "properties": {
+        "period": "1972-09-29"
+      }
+    },
+    {
+      "id": "李平 (成克杰情妇)",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "与成克杰有通奸关系。",
+        "verified_node": true
+      }
+    },
+    {
+      "id": "中华民国陆军军官学校",
+      "type": "Organization",
+      "aliases": [
+        "黄埔军校"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "私立南开中学堂",
+      "type": "Organization",
+      "aliases": [
+        "天津南开学校"
+      ],
+      "properties": {
+        "verified_node": true
+      }
+    },
+    {
+      "id": "列昂尼德·勃列日涅夫",
+      "type": "Person",
+      "aliases": [
+        "勃列日涅夫"
+      ],
+      "properties": {
+        "lifetime": "1906-12-19 - 1982-11-10",
+        "gender": "男",
+        "description": "曾任苏联共产党中央委员会总书记。"
+      }
+    },
+    {
+      "id": "罗季翁·马利诺夫斯基",
+      "type": "Person",
+      "aliases": [
+        "罗季翁·雅科夫列维奇·马林诺夫斯基"
+      ],
+      "properties": {
+        "lifetime": "1898-11-23 - 1967-03-31",
+        "gender": "男",
+        "description": "苏联元帅，曾任苏联国防部长。"
+      }
     }
   ],
   "relationships": [
+    {
+      "source": "周恩来",
+      "target": "私立南开中学堂",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1913-08",
+        "end_date": "1917-06",
+        "position": null,
+        "degree": "毕业",
+        "description": ""
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "黄埔军校",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1924",
+        "end_date": "1926",
+        "position": "政治部主任",
+        "degree": null,
+        "description": ""
+      }
+    },
+    {
+      "source": "成克杰",
+      "target": "李平 (成克杰情妇)",
+      "type": "LOVER_OF",
+      "properties": {
+        "description": "与有夫之妇李平长期通奸"
+      }
+    },
     {
       "source": "刘伯承",
       "target": "陆军将校学堂",
@@ -55859,6 +55984,278 @@
         "position": null,
         "degree": null,
         "description": "作为事件的核心人物之一。"
+      }
+    },
+    {
+      "source": "中国共产党中央委员会",
+      "target": "刘少奇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1968",
+        "description": "中共八届十二中全会认定其为“叛徒、内奸、工贼”并开除出党"
+      }
+    },
+    {
+      "source": "中国共产党中央委员会",
+      "target": "赵紫阳",
+      "type": "BLOCKED",
+      "properties": {
+        "description": "中共中央认定其“犯了严重错误”"
+      }
+    },
+    {
+      "source": "高岗饶漱石事件",
+      "target": "高岗",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1954",
+        "description": "因高饶事件自杀身亡"
+      }
+    },
+    {
+      "source": "九一三事件",
+      "target": "林彪",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1971-09-13",
+        "description": "在事件中坠机身亡"
+      }
+    },
+    {
+      "source": "九一三事件",
+      "target": "叶群",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1971-09-13",
+        "description": "在事件中坠机身亡"
+      }
+    },
+    {
+      "source": "华国锋",
+      "target": "邓小平",
+      "type": "SUPERIOR_OF",
+      "properties": {
+        "start_date": "1978",
+        "end_date": "1981",
+        "description": "邓小平在十一届三中全会后，政治排名在党主席华国锋之后"
+      }
+    },
+    {
+      "source": "李鹏",
+      "target": "万里",
+      "type": "SUPERIOR_OF",
+      "properties": {
+        "start_date": "1988",
+        "end_date": "1993",
+        "description": "李鹏任国务院总理时排名高于全国人大常委会委员长万里"
+      }
+    },
+    {
+      "source": "李鹏",
+      "target": "乔石",
+      "type": "SUPERIOR_OF",
+      "properties": {
+        "start_date": "1988",
+        "end_date": "1998",
+        "description": "李鹏任国务院总理时排名高于乔石"
+      }
+    },
+    {
+      "source": "吴邦国",
+      "target": "温家宝",
+      "type": "SUPERIOR_OF",
+      "properties": {
+        "start_date": "2003",
+        "end_date": "2013",
+        "description": "胡温时代，委员长吴邦国排名也在总理温家宝之前"
+      }
+    },
+    {
+      "source": "李克强",
+      "target": "张德江",
+      "type": "SUPERIOR_OF",
+      "properties": {
+        "start_date": "2012",
+        "end_date": "2017",
+        "description": "中共十八届一中全会后，总理李克强的排名高于委员长张德江"
+      }
+    },
+    {
+      "source": "中华人民共和国最高人民法院",
+      "target": "林彪、江青反革命集团案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1980",
+        "description": "最高人民法院特别审判庭审理该案"
+      }
+    },
+    {
+      "source": "中华人民共和国最高人民法院",
+      "target": "周永康",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2015",
+        "description": "因贪污贿赂、滥用职权、泄露国家秘密等罪名被判处无期徒刑"
+      }
+    },
+    {
+      "source": "中华人民共和国最高人民法院",
+      "target": "薄熙来",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2013",
+        "description": "因贪污贿赂、滥用职权等罪名被判处无期徒刑"
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "成克杰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2000-09-14",
+        "description": "因受贿罪被以注射方式处决"
+      }
+    },
+    {
+      "source": "胡乔木",
+      "target": "毛泽东",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": "秘书"
+      }
+    },
+    {
+      "source": "鲍彤",
+      "target": "赵紫阳",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": "秘书"
+      }
+    },
+    {
+      "source": "胡锦涛",
+      "target": "中华人民共和国",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "2003",
+        "end_date": "2013",
+        "position": "国家主席",
+        "description": "第十、十一届国家主席"
+      }
+    },
+    {
+      "source": "朱镕基",
+      "target": "中华人民共和国国务院",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1998",
+        "end_date": "2003",
+        "position": "总理",
+        "description": "第九届国务院总理"
+      }
+    },
+    {
+      "source": "李瑞环",
+      "target": "中国人民政治协商会议全国委员会",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "1993",
+        "end_date": "2003",
+        "position": "主席",
+        "description": "第八、九届全国政协主席"
+      }
+    },
+    {
+      "source": "温家宝",
+      "target": "中华人民共和国国务院",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "2003",
+        "end_date": "2013",
+        "position": "总理",
+        "description": "第十、十一届国务院总理"
+      }
+    },
+    {
+      "source": "贾庆林",
+      "target": "中国人民政治协商会议全国委员会",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "2003",
+        "end_date": "2013",
+        "position": "主席",
+        "description": "第十、十一届全国政协主席"
+      }
+    },
+    {
+      "source": "张德江",
+      "target": "全国人民代表大会常务委员会",
+      "type": "WORKED_AT",
+      "properties": {
+        "start_date": "2013",
+        "end_date": "2018",
+        "position": "委员长",
+        "description": "第十二届全国人大常委会委员长"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "四人帮",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-12",
+        "end_date": "1974-12",
+        "position": null,
+        "degree": null,
+        "description": "抱病前往长沙与毛泽东讨论四届人大的人事安排，阻止了“四人帮”的“组阁计划”。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "重庆谈判",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1945-08",
+        "end_date": "1945-10",
+        "position": null,
+        "degree": null,
+        "description": "陪同毛泽东赴重庆与国民党进行谈判。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "遵义会议",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1935-01",
+        "end_date": "1935-01",
+        "position": null,
+        "degree": null,
+        "description": "在遵义会议中支持毛泽东的领导，对毛泽东重掌军权起到了决定性的作用。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "彭德怀",
+      "type": "SUPERIOR_OF",
+      "properties": {
+        "start_date": "1954",
+        "end_date": "1959",
+        "position": "副总理",
+        "degree": null,
+        "description": "彭德怀在第一、二届国务院中担任副总理。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "中日联合声明",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1972-09-29",
+        "end_date": "1972-09-29",
+        "position": null,
+        "degree": null,
+        "description": "代表中国政府签署了《中日联合声明》。"
       }
     }
   ]

@@ -1,28 +1,19 @@
-#!/usr/bin/env python3
-# scripts/main.py
+# run_pipeline.py
 
-"""
-项目主执行文件。
-按顺序执行数据处理的完整流水线：
-1. process_list: 从维基百科抓取、解析实体信息。
-2. merge_graphs: 将独立的JSON文件合并成一个主图谱。
-3. clean_data: 清理主图谱中的无效链接和问题节点。
-"""
-
-import sys
 import time
+import sys
+import os
+
+# 确保脚本可以找到 'scripts' 模块
+sys.path.append(os.path.join(os.path.dirname(__file__), 'scripts'))
 
 try:
-    from process_list import main as process_main
-    from merge_graphs import main as merge_main
-    from clean_data import main as clean_main
+    from scripts.process_list import main as process_main
+    from scripts.merge_graphs import GraphMerger
+    from scripts.clean_data import GraphCleaner
+    from scripts.config import CONSOLIDATED_GRAPH_PATH, PROCESSED_LOG_PATH, DATA_TO_BE_CLEANED_DIR, CACHE_DIR
 except ImportError as e:
-    print(
-        f"错误: 无法导入必要的子模块。\n"
-        f"请确保您是从项目根目录使用 'python -m scripts.main' 命令来运行此脚本。\n"
-        f"详细错误: {e}",
-        file=sys.stderr
-    )
+    print(f"错误: 无法导入必要的模块。请确保项目结构正确。\n详细错误: {e}", file=sys.stderr)
     sys.exit(1)
 
 def run_pipeline():
@@ -31,7 +22,7 @@ def run_pipeline():
     
     try:
         print("==================================================")
-        print("==========   启动 Chinese-Elite 数据流水线   ==========")
+        print("==========  启动 Chinese-Elite 数据流水线  ==========")
         print("==================================================")
 
         # --- 第1步：处理实体列表 ---
@@ -41,19 +32,28 @@ def run_pipeline():
 
         # --- 第2步：合并图谱 ---
         print("--- 步骤 2/3: 开始合并图谱文件 (running merge_graphs.py) ---")
-        merge_main()
+        merger = GraphMerger(
+            master_graph_path=CONSOLIDATED_GRAPH_PATH,
+            log_path=PROCESSED_LOG_PATH
+        )
+        merger.run()
         print("\n--- 步骤 2/3: 图谱文件合并完成 ---\n")
 
         # --- 第3步：清理数据 ---
         print("--- 步骤 3/3: 开始清理主图谱数据 (running clean_data.py) ---")
-        clean_main()
+        cleaner = GraphCleaner(
+            graph_path=CONSOLIDATED_GRAPH_PATH,
+            output_dir=DATA_TO_BE_CLEANED_DIR,
+            cache_dir=CACHE_DIR
+        )
+        cleaner.run()
         print("\n--- 步骤 3/3: 主图谱数据清理完成 ---\n")
 
         end_time = time.time()
         elapsed_time = end_time - start_time
 
         print("==================================================")
-        print(f"==========      数据流水线执行完毕      ==========")
+        print("=============      数据流水线执行完毕      =============")
         print(f"==========   总耗时: {elapsed_time:.2f} 秒   ==========")
         print("==================================================")
 
@@ -64,5 +64,4 @@ def run_pipeline():
 
 
 if __name__ == "__main__":
-    # 只有当这个文件被直接执行时，才会运行流水线
     run_pipeline()

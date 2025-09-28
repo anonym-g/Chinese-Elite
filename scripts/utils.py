@@ -1,101 +1,107 @@
 # scripts/utils.py
 
 import requests
-from urllib.parse import urlparse, urlunparse
+import json
+import re
+from urllib.parse import urlparse, urlunparse, quote
 from opencc import OpenCC
-import sys
+from datetime import datetime
 
-def get_simplified_wikitext(url: str) -> str | None:
-    """
-    将多种格式的中文维基百科URL转换为标准源码URL，获取其Wikitext，
-    并将其从台湾正体（繁体）转换为简体中文。
+from config import WIKI_API_URL, USER_AGENT
 
-    Args:
-        url: 中文维基百科的文章链接，例如包含 /wiki/, /zh/, /zh-cn/ 等路径。
+class WikipediaClient:
+    """用于与中文维基百科交互的客户端类。"""
 
-    Returns:
-        转换后的简体中文Wikitext字符串，若过程中发生错误则返回None。
-    """
-    
-    try:
-        # 1. 解析输入URL并提取文章标题
-        parsed_url = urlparse(url)
-        path_segments = parsed_url.path.strip('/').split('/')
-        
-        # 文章标题通常是路径的最后一部分
-        if not path_segments:
-            raise ValueError("URL路径为空或格式不正确")
-        
-        article_title = path_segments[-1]
-        
-        # 2. 构建稳定、统一的原始Wikitext获取URL (action=raw)
-        # action=raw 比 action=edit 更适合程序化获取纯文本源码
+    def __init__(self, user_agent=USER_AGENT):
+        self.session = requests.Session()
+        self.session.headers.update({'User-Agent': user_agent})
+        self.converter = OpenCC('t2s')  # 台湾正体 -> 简体
+
+    def _build_raw_url(self, article_title: str) -> str:
+        """构建稳定、统一的原始Wikitext获取URL。"""
         raw_url_parts = (
-            'https',
-            'zh.wikipedia.org',
-            '/w/index.php',
-            '',
-            f'title={article_title}&action=raw',
-            ''
+            'https', 'zh.wikipedia.org', '/w/index.php', '',
+            f'title={quote(article_title)}&action=raw', ''
         )
-        raw_url = urlunparse(raw_url_parts)
-        
-        print(f"[*] 已将URL转换为: {raw_url}")
+        return urlunparse(raw_url_parts)
 
-    except (ValueError, IndexError) as e:
-        print(f"[!] 错误：无法从输入URL '{url}' 解析文章标题 - {e}", file=sys.stderr)
+    def get_simplified_wikitext(self, article_title: str) -> tuple[str | None, str | None]:
+        """
+        获取给定维基百科文章标题的简体中文Wikitext。
+
+        Returns:
+            一个元组 (simplified_wikitext, article_title)，若失败则返回 (None, None)。
+        """
+        # 清理可能不干净的ID
+        
+        raw_url = self._build_raw_url(article_title)
+        print(f"[*] 正在获取 '{article_title}' 的Wikitext源码: {raw_url}")
+
+        try:
+            response = self.session.get(raw_url, timeout=20)
+            response.raise_for_status()
+            traditional_wikitext = response.text
+            simplified_wikitext = self.converter.convert(traditional_wikitext)
+            print("[*] Wikitext已成功获取并转换为简体中文。")
+            return simplified_wikitext, article_title
+        except requests.exceptions.RequestException as e:
+            print(f"[!] 错误：获取Wikitext失败 - {e}")
+            return None, None
+
+    def get_latest_revision_time(self, article_title: str) -> datetime | None:
+        """通过API获取页面的最新修订时间（UTC）。"""
+        params = {
+            "action": "query", "prop": "revisions", "titles": article_title,
+            "rvlimit": "1", "rvprop": "timestamp", "format": "json", "formatversion": "2"
+        }
+        try:
+            response = self.session.get(WIKI_API_URL, params=params, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+            page = data["query"]["pages"][0]
+            if "revisions" in page and page["revisions"]:
+                timestamp_str = page["revisions"][0]["timestamp"]
+                return datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+        except (requests.exceptions.RequestException, json.JSONDecodeError, KeyError, IndexError) as e:
+            print(f"[!] 警告：获取 '{article_title}' 的维基修订历史失败 - {e}")
         return None
 
-    # 3. 发起网络请求获取原始Wikitext
-    headers = {
-        'User-Agent': 'ChineseEliteExplorer/1.0 (https://github.com/anonym-g/Chinese-Elite)'
-    }
-    
-    print(f"[*] 正在获取 '{article_title}' 的Wikitext源码...")
-    try:
-        response = requests.get(raw_url, headers=headers, timeout=15)
-        response.raise_for_status()  # 如果请求失败 (如 404), 则抛出异常
-        
-        # 维基百科源码通常使用UTF-8编码
-        traditional_wikitext = response.text
-        
-    except requests.exceptions.RequestException as e:
-        print(f"[!] 错误：获取Wikitext失败 - {e}", file=sys.stderr)
-        return None
+    def check_link_status(self, node_id: str) -> tuple[str, str | None]:
+        """检查维基百科页面的状态。"""
+        try:
+            encoded_id = quote(node_id.replace(" ", "_"))
+            url = f"https://zh.wikipedia.org/w/index.php?title={encoded_id}&action=raw"
+            response = self.session.get(url, timeout=15)
 
-    # 4. 执行简繁转换（台湾正体 -> 简体）
-    print("[*] 正在将Wikitext转换为简体中文...")
-    try:
-        # 't2s.json' 是OpenCC中从繁体(Traditional)到简体(Simplified)的标准配置
-        # 它默认以台湾地区用词习惯为准，符合要求
-        cc = OpenCC('t2s')
-        simplified_wikitext = cc.convert(traditional_wikitext)
-        print("[*] 转换完成。")
-        
-        return simplified_wikitext
-        
-    except Exception as e:
-        print(f"[!] 错误：OpenCC转换失败 - {e}", file=sys.stderr)
-        return None
-
-# --- 函数使用示例与测试区 ---
-if __name__ == '__main__':
-    test_urls = [
-        "https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A",
-        "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BC%BA_(1959%E5%B9%B4)",
-        "https://zh.wikipedia.org/wiki/%E6%98%93%E4%BC%9A%E6%BB%A1"
-    ]
-
-    for i, test_url in enumerate(test_urls):
-        print(f"\n--- 测试URL {i+1} ---")
-        wikitext = get_simplified_wikitext(test_url)
-        
-        if wikitext:
-            print("\n--- 获取到的简体Wikitext源码 (前500字符) ---")
-            print(wikitext[:500] + "...")
+            if response.status_code == 404:
+                return "NO_PAGE", None
             
-            # 将完整源码写入文件以便检查
-            file_name = f"wikitext_sample_{i+1}.md"
-            with open(file_name, "w", encoding="utf-8") as f:
-                f.write(wikitext)
-            print(f"\n[*] 完整源码已保存至 {file_name}")
+            response.raise_for_status()
+            content = response.text.strip()
+            
+            if not content:
+                return "NO_PAGE", None
+
+            normalized_content = content.lower().lstrip()
+            if normalized_content.startswith(("#redirect", "#重定向")):
+                match = re.search(r'\[\[(.*?)\]\]', content)
+                if match:
+                    redirect_target = match.group(1).strip().split('#')[0]
+                    simplified_target = self.converter.convert(redirect_target)
+                    norm_simplified_target = simplified_target.replace('_', ' ').lower()
+                    norm_node_id = node_id.replace('_', ' ').lower()
+                    
+                    if norm_simplified_target == norm_node_id:
+                        return "SIMP_TRAD_REDIRECT", None
+                    else:
+                        return "REDIRECT", redirect_target
+                else:
+                    return "ERROR", "Malformed redirect"
+
+            if "{{disambig" in normalized_content or "{{hndis" in normalized_content:
+                return "DISAMBIG", None
+
+        except requests.exceptions.RequestException as e:
+            return "ERROR", str(e)
+            
+        return "OK", None
