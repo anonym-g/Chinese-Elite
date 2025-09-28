@@ -7,15 +7,9 @@ import urllib.parse
 from datetime import datetime
 import re
 from opencc import OpenCC
-
-# --- 配置 ---
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
-SOURCE_FILE_PATH = os.path.join(PROJECT_ROOT, 'data', 'consolidated_graph.json')
-CLEAN_BASE_DIR = os.path.join(PROJECT_ROOT, 'data_to_be_cleaned')
+from config import DATA_TO_BE_CLEANED_DIR, CACHE_DIR, CONSOLIDATED_GRAPH_PATH
 
 # --- 缓存配置 ---
-CACHE_DIR = os.path.join(PROJECT_ROOT, '.cache')
 CACHE_FILE_PATH = os.path.join(CACHE_DIR, 'wiki_link_status_cache.json')
 
 HEADERS = {
@@ -109,12 +103,12 @@ def check_wiki_link(node_id: str) -> tuple[str, str | None]:
 
 def main():
     """主执行函数"""
-    print(f"[*] 正在加载数据文件: {SOURCE_FILE_PATH}")
-    if not os.path.exists(SOURCE_FILE_PATH):
-        print(f"[!] 错误: 源文件不存在: {SOURCE_FILE_PATH}")
+    print(f"[*] 正在加载数据文件: {CONSOLIDATED_GRAPH_PATH}")
+    if not os.path.exists(CONSOLIDATED_GRAPH_PATH):
+        print(f"[!] 错误: 源文件不存在: {CONSOLIDATED_GRAPH_PATH}")
         return
 
-    with open(SOURCE_FILE_PATH, 'r', encoding='utf-8') as f:
+    with open(CONSOLIDATED_GRAPH_PATH, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     nodes = data.get('nodes', [])
@@ -222,7 +216,7 @@ def main():
             disambig_data['relationships'].append(rel)
 
     timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-    output_dir = os.path.join(CLEAN_BASE_DIR, timestamp)
+    output_dir = os.path.join(DATA_TO_BE_CLEANED_DIR, timestamp)
     os.makedirs(output_dir, exist_ok=True)
     print(f"\n[*] 正在创建输出目录: {output_dir}")
 
@@ -241,8 +235,8 @@ def main():
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(data_content, f, indent=2, ensure_ascii=False)
         
-    print(f"\n[*] 正在用干净的数据覆盖原始文件: {SOURCE_FILE_PATH}")
-    with open(SOURCE_FILE_PATH, 'w', encoding='utf-8') as f:
+    print(f"\n[*] 正在用干净的数据覆盖原始文件: {CONSOLIDATED_GRAPH_PATH}")
+    with open(CONSOLIDATED_GRAPH_PATH, 'w', encoding='utf-8') as f:
         json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
         
     if cache_updated:

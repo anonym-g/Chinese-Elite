@@ -6,13 +6,15 @@ import sys
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
+from config import DATA_PATH, CONSOLIDATED_GRAPH_PATH
 
 # --- 配置 ---
 load_dotenv()
 CHECK_MODEL_NAME = "gemma-3-27b-it" # 用于合并和预检的轻量级模型
 MERGE_MODEL_NAME = "gemini-2.5-flash"  # 用于复杂合并的高性能模型
-DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data')
-CONSOLIDATED_FILE_PATH = os.path.join(DATA_PATH, 'consolidated_graph.json')
+
+
+# --- 路径修改 ---
 PROCESSED_LOG_PATH = os.path.join(DATA_PATH, 'processed_files.log')
 
 
@@ -152,8 +154,8 @@ C. 中华人民共和国中央军事委员会（国家中央军委），1982年�
 
 
 def main():
-    if os.path.exists(CONSOLIDATED_FILE_PATH):
-        with open(CONSOLIDATED_FILE_PATH, 'r', encoding='utf-8') as f: master_graph = json.load(f)
+    if os.path.exists(CONSOLIDATED_GRAPH_PATH):
+        with open(CONSOLIDATED_GRAPH_PATH, 'r', encoding='utf-8') as f: master_graph = json.load(f)
     else:
         master_graph = {"nodes": [], "relationships": []}
 
@@ -171,7 +173,7 @@ def main():
     source_files_to_process = []
     for root, _, files in os.walk(DATA_PATH):
         for filename in files:
-            if filename.endswith('.json') and filename not in processed_files and filename != 'consolidated_graph.json':
+            if filename.endswith('.json') and filename not in processed_files:
                 source_files_to_process.append(os.path.join(root, filename))
 
     if not source_files_to_process:
@@ -218,7 +220,7 @@ def main():
             if canonical_id in master_nodes_map:
                 existing_node = master_nodes_map[canonical_id]
                 
-                # --- 修改部分：调用新的LLM预检函数 ---
+                # --- 调用 LLM 预检函数 ---
                 print(f"   - 发现已存在节点: '{canonical_id}'，正在进行LLM预检...")
                 if should_trigger_merge_llm(existing_node, new_node):
                     print(f"      - 预检结果: YES (检测到新信息)，启动智能合并。")
@@ -245,9 +247,9 @@ def main():
 
     master_graph['nodes'] = list(master_nodes_map.values())
     print("\n[*] 合并完成，正在保存最终结果...")
-    with open(CONSOLIDATED_FILE_PATH, 'w', encoding='utf-8') as f:
+    with open(CONSOLIDATED_GRAPH_PATH, 'w', encoding='utf-8') as f:
         json.dump(master_graph, f, indent=2, ensure_ascii=False)
-    print(f"[*] 主图谱已成功保存至: {CONSOLIDATED_FILE_PATH}")
+    print(f"[*] 主图谱已成功保存至: {CONSOLIDATED_GRAPH_PATH}")
 
     if files_processed_this_run:
         print(f"[*] 正在更新已处理文件日志...")
