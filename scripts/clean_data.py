@@ -2,248 +2,149 @@
 
 import os
 import json
-import requests
-import urllib.parse
 from datetime import datetime
-import re
-from opencc import OpenCC
-from config import DATA_TO_BE_CLEANED_DIR, CACHE_DIR, CONSOLIDATED_GRAPH_PATH
+from config import USER_AGENT
+from utils import WikipediaClient
 
-# --- 缓存配置 ---
-CACHE_FILE_PATH = os.path.join(CACHE_DIR, 'wiki_link_status_cache.json')
+class GraphCleaner:
+    """封装了清理图谱数据（验证维基链接）的逻辑。"""
 
-HEADERS = {
-    'User-Agent': 'ChineseEliteExplorer/1.0 (Data Cleaning Script)'
-}
+    def __init__(self, graph_path: str, output_dir: str, cache_dir: str):
+        self.graph_path = graph_path
+        self.output_dir = output_dir
+        self.cache_path = os.path.join(cache_dir, 'wiki_link_status_cache.json')
+        self.wiki_client = WikipediaClient(user_agent=f"{USER_AGENT} (Cleaning Script)")
+        self.link_cache = {}
+        self.cache_updated = False
 
-# --- 创建OpenCC实例 ---
-# 't2s.json' 是从繁体(Traditional)到简体(Simplified)的标准配置
-cc = OpenCC('t2s')
+    def _load_cache(self):
+        """加载链接状态缓存。"""
+        if not os.path.exists(self.cache_path):
+            return
+        try:
+            with open(self.cache_path, 'r', encoding='utf-8') as f:
+                self.link_cache = json.load(f)
+            print(f"[*] 已加载 {len(self.link_cache)} 条缓存的链接状态。")
+        except (IOError, json.JSONDecodeError) as e:
+            print(f"[!] 警告：无法读取或解析缓存文件 - {e}")
 
-def load_cache():
-    """从.cache目录加载缓存文件，如果不存在则返回空字典。"""
-    if not os.path.exists(CACHE_FILE_PATH):
-        return {}
-    try:
-        with open(CACHE_FILE_PATH, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except (IOError, json.JSONDecodeError) as e:
-        print(f"[!] 警告：无法读取或解析缓存文件 {CACHE_FILE_PATH} - {e}")
-        return {}
+    def _save_cache(self):
+        """保存更新后的链接状态缓存。"""
+        if not self.cache_updated:
+            return
+        try:
+            os.makedirs(os.path.dirname(self.cache_path), exist_ok=True)
+            with open(self.cache_path, 'w', encoding='utf-8') as f:
+                json.dump(self.link_cache, f, indent=2, ensure_ascii=False)
+            print("[*] 链接状态缓存已更新。")
+        except IOError as e:
+            print(f"[!] 警告：无法写入缓存文件 - {e}")
 
-def save_cache(cache_data):
-    """将更新后的缓存数据保存到.cache目录。"""
-    try:
-        os.makedirs(CACHE_DIR, exist_ok=True)
-        with open(CACHE_FILE_PATH, 'w', encoding='utf-8') as f:
-            json.dump(cache_data, f, indent=2, ensure_ascii=False)
-    except IOError as e:
-        print(f"[!] 警告：无法写入缓存文件 {CACHE_FILE_PATH} - {e}")
-
-
-def check_wiki_link(node_id: str) -> tuple[str, str | None]:
-    """
-    检查维基百科页面的状态，并返回状态类型和详细信息。
-
-    Returns:
-        一个元组 (status, detail)，其中 status 的可能值包括:
-        - "OK": 链接有效
-        - "SIMP_TRAD_REDIRECT": 简繁重定向，视为有效
-        - "REDIRECT": 实质性重定向, detail 为新页面标题
-        - "NO_PAGE": 页面不存在
-        - "DISAMBIG": 消歧义页
-        - "ERROR": 其他错误
-    """
-    try:
-        encoded_id = urllib.parse.quote(node_id.replace(" ", "_"))
-        url = f"https://zh.wikipedia.org/w/index.php?title={encoded_id}&action=raw"
-        response = requests.get(url, headers=HEADERS, timeout=15)
-
-        if response.status_code == 404:
-            return "NO_PAGE", None
+    def _check_nodes(self, nodes: list) -> dict:
+        """遍历所有节点，检查其维基链接状态。"""
+        problematic_nodes = {
+            "REDIRECT": {}, "NO_PAGE": set(), "DISAMBIG": set(), "ERROR": set()
+        }
         
-        response.raise_for_status()
-        content = response.text.strip()
-        
-        if not content:
-            return "NO_PAGE", None
+        for i, node in enumerate(nodes):
+            node_id = node.get('id')
+            if not node_id: continue
 
-        normalized_content = content.lower().lstrip()
-        if (normalized_content.startswith("#redirect") or 
-            normalized_content.startswith("#重定向")):
-            match = re.search(r'\[\[(.*?)\]\]', content)
-            if match:
-                redirect_target = match.group(1).strip().split('#')[0]
-                
-                # 1. 将重定向目标转换为简体中文
-                simplified_target = cc.convert(redirect_target)
+            if node.get('properties', {}).get('verified_node', False):
+                print(f"  ({i+1}/{len(nodes)}) 正在检查: '{node_id}'... [已验证, 跳过]")
+                continue
 
-                # 2. 将转换后的简体目标与node_id进行比对 (统一处理空格和大小写)
-                norm_simplified_target = simplified_target.replace('_', ' ').lower()
-                norm_node_id = node_id.replace('_', ' ').lower()
+            print(f"  ({i+1}/{len(nodes)}) 正在检查: '{node_id}'...", end='', flush=True)
 
-                if norm_simplified_target == norm_node_id:
-                    # 如果一致，说明是简繁重定向，返回一个特殊状态
-                    return "SIMP_TRAD_REDIRECT", None
-                else:
-                    # 如果不一致，说明是真正的重定向
-                    return "REDIRECT", redirect_target
-                # --- 逻辑修改结束 ---
+            if node_id in self.link_cache:
+                status = self.link_cache[node_id]['status']
+                print(f" [缓存: {status}]")
             else:
-                return "ERROR", "Malformed redirect"
+                status, detail = self.wiki_client.check_link_status(node_id)
+                self.link_cache[node_id] = {'status': status, 'detail': detail}
+                self.cache_updated = True
+                print(f" -> {status}")
 
-        if "{{disambig" in normalized_content or "{{hndis" in normalized_content:
-            return "DISAMBIG", None
+            status = self.link_cache[node_id]['status']
+            detail = self.link_cache[node_id].get('detail')
 
-    except requests.exceptions.RequestException as e:
-        print(f"     - 网络或HTTP错误: {e}")
-        return "ERROR", str(e)
+            if status == "REDIRECT":
+                problematic_nodes["REDIRECT"][node_id] = detail
+            elif status == "NO_PAGE":
+                problematic_nodes["NO_PAGE"].add(node_id)
+            elif status == "DISAMBIG":
+                problematic_nodes["DISAMBIG"].add(node_id)
+            elif status == "ERROR":
+                problematic_nodes["ERROR"].add(node_id)
         
-    return "OK", None
+        return problematic_nodes
 
-def main():
-    """主执行函数"""
-    print(f"[*] 正在加载数据文件: {CONSOLIDATED_GRAPH_PATH}")
-    if not os.path.exists(CONSOLIDATED_GRAPH_PATH):
-        print(f"[!] 错误: 源文件不存在: {CONSOLIDATED_GRAPH_PATH}")
-        return
+    def run(self):
+        """执行完整的清理流程。"""
+        if not os.path.exists(self.graph_path):
+            print(f"[!] 错误: 源文件不存在: {self.graph_path}")
+            return
 
-    with open(CONSOLIDATED_GRAPH_PATH, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+        with open(self.graph_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
 
-    nodes = data.get('nodes', [])
-    relationships = data.get('relationships', [])
-    
-    link_cache = load_cache()
-    print(f"[*] 已加载 {len(link_cache)} 条缓存的链接状态。")
-    
-    print(f"[*] 共加载 {len(nodes)} 个节点，{len(relationships)} 个关系。")
-    print("\n[*] 开始检查所有节点的维基百科链接状态...")
+        nodes = data.get('nodes', [])
+        relationships = data.get('relationships', [])
 
-    redirect_map = {}
-    no_page_ids = set()
-    disambig_ids = set()
-    error_ids = set()
-    
-    cache_updated = False
+        self._load_cache()
+        print(f"[*] 共加载 {len(nodes)} 个节点，{len(relationships)} 个关系。开始检查...")
 
-    for i, node in enumerate(nodes):
-        node_id = node.get('id')
-        if not node_id:
-            continue
+        problem_nodes = self._check_nodes(nodes)
+        all_bad_ids = set(problem_nodes["REDIRECT"].keys()) | problem_nodes["NO_PAGE"] | problem_nodes["DISAMBIG"] | problem_nodes["ERROR"]
+
+        if not all_bad_ids:
+            print("\n[+] 检查完成，未发现需要清理的节点。")
+            self._save_cache()
+            return
+
+        print(f"\n[*] 检查完成，共发现 {len(all_bad_ids)} 个需要清理的节点ID。")
         
-        if node.get('properties', {}).get('verified_node', False) is True:
-            print(f"  ({i+1}/{len(nodes)}) 正在检查: '{node_id}'... [已验证, 跳过]")
-            continue
+        cleaned_nodes = [n for n in nodes if n.get('id') not in all_bad_ids]
+        cleaned_rels = [r for r in relationships if r.get('source') not in all_bad_ids and r.get('target') not in all_bad_ids]
 
-        print(f"  ({i+1}/{len(nodes)}) 正在检查: '{node_id}'...", end='', flush=True)
-        
-        # --- 处理缓存命中和未命中的情况 ---
-        is_cached = node_id in link_cache
+        redirect_ids = set(problem_nodes["REDIRECT"].keys())
+        no_page_ids = problem_nodes["NO_PAGE"] | problem_nodes["ERROR"]
+        disambig_ids = problem_nodes["DISAMBIG"]
 
-        if is_cached:
-            cached_entry = link_cache[node_id]
-            status = cached_entry['status']
-            detail = cached_entry.get('detail')
-            print(f" [缓存: {status}]")
-        else:
-            status, detail = check_wiki_link(node_id)
-            link_cache[node_id] = {'status': status}
-            if detail:
-                link_cache[node_id]['detail'] = detail
-            cache_updated = True
+        problematic_data = {
+            'redirect': {
+                'nodes': [n for n in nodes if n.get('id') in redirect_ids],
+                'relationships': [r for r in relationships if r.get('source') in redirect_ids or r.get('target') in redirect_ids],
+                'redirect_map': problem_nodes["REDIRECT"]
+            },
+            'no_page': {
+                'nodes': [n for n in nodes if n.get('id') in no_page_ids],
+                'relationships': [r for r in relationships if r.get('source') in no_page_ids or r.get('target') in no_page_ids]
+            },
+            'disambig': {
+                'nodes': [n for n in nodes if n.get('id') in disambig_ids],
+                'relationships': [r for r in relationships if r.get('source') in disambig_ids or r.get('target') in disambig_ids]
+            }
+        }
+        ### --- 修正结束 --- ###
 
-        # --- 根据状态分类，并处理新的SIMP_TRAD_REDIRECT状态 ---
-        if status == "OK":
-            if not is_cached: print(" OK")
-        elif status == "SIMP_TRAD_REDIRECT":
-            if not is_cached: print(" -> 简繁重定向，跳过")
-        elif status == "NO_PAGE":
-            no_page_ids.add(node_id)
-            if not is_cached: print(" -> 页面不存在 (404)")
-        elif status == "REDIRECT":
-            redirect_map[node_id] = detail
-            if not is_cached: print(f" -> 发现重定向: '{detail}'")
-        elif status == "DISAMBIG":
-            disambig_ids.add(node_id)
-            if not is_cached: print(" -> 发现消歧义页")
-        elif status == "ERROR":
-            error_ids.add(node_id)
-            if not is_cached: print(f" -> 检查时发生错误: {detail}")
+        # Save results
+        timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+        current_output_dir = os.path.join(self.output_dir, timestamp)
+        os.makedirs(current_output_dir, exist_ok=True)
+        print(f"\n[*] 正在创建输出目录: {current_output_dir}")
 
-    all_bad_ids = set(redirect_map.keys()) | no_page_ids | disambig_ids | error_ids
-    if not all_bad_ids:
-        print("\n[+] 检查完成，未发现任何需要清理的节点ID。文件是干净的。")
-        if cache_updated:
-            print("[*] 正在更新链接状态缓存...")
-            save_cache(link_cache)
-        return
+        for key, content in problematic_data.items():
+            # 只有当包含节点或关系时才保存文件
+            if content.get('nodes') or content.get('relationships'):
+                filepath = os.path.join(current_output_dir, f'{key}_{timestamp}.json')
+                print(f"  - 正在保存: {os.path.basename(filepath)}")
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    json.dump(content, f, indent=2, ensure_ascii=False)
 
-    print(f"\n[*] 检查完成，共发现 {len(all_bad_ids)} 个需要清理的节点ID。")
-    print("[*] 正在按类别分离数据...")
+        print(f"\n[*] 正在用干净的数据覆盖原始文件: {self.graph_path}")
+        with open(self.graph_path, 'w', encoding='utf-8') as f:
+            json.dump({'nodes': cleaned_nodes, 'relationships': cleaned_rels}, f, indent=2, ensure_ascii=False)
 
-    cleaned_data = {'nodes': [], 'relationships': []}
-    redirect_data = {'nodes': [], 'relationships': [], 'redirect_map': redirect_map}
-    no_page_data = {'nodes': [], 'relationships': []}
-    disambig_data = {'nodes': [], 'relationships': []}
-    no_page_data['nodes_with_errors'] = []
-
-    for node in nodes:
-        node_id = node.get('id')
-        if node_id in redirect_map:
-            redirect_data['nodes'].append(node)
-        elif node_id in no_page_ids:
-            no_page_data['nodes'].append(node)
-        elif node_id in error_ids:
-             no_page_data['nodes_with_errors'].append(node)
-        elif node_id in disambig_ids:
-            disambig_data['nodes'].append(node)
-        else:
-            cleaned_data['nodes'].append(node)
-            
-    for rel in relationships:
-        source_id = rel.get('source')
-        target_id = rel.get('target')
-        if source_id not in all_bad_ids and target_id not in all_bad_ids:
-            cleaned_data['relationships'].append(rel)
-            continue
-        
-        if source_id in redirect_map or target_id in redirect_map:
-            redirect_data['relationships'].append(rel)
-        elif source_id in no_page_ids or target_id in no_page_ids or source_id in error_ids or target_id in error_ids:
-            no_page_data['relationships'].append(rel)
-        elif source_id in disambig_ids or target_id in disambig_ids:
-            disambig_data['relationships'].append(rel)
-
-    timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-    output_dir = os.path.join(DATA_TO_BE_CLEANED_DIR, timestamp)
-    os.makedirs(output_dir, exist_ok=True)
-    print(f"\n[*] 正在创建输出目录: {output_dir}")
-
-    files_to_save = {
-        f'redirect_{timestamp}.json': redirect_data,
-        f'no_page_{timestamp}.json': no_page_data,
-        f'disambig_{timestamp}.json': disambig_data
-    }
-
-    for filename, data_content in files_to_save.items():
-        if (data_content.get('nodes') or 
-            data_content.get('relationships') or 
-            data_content.get('nodes_with_errors')):
-            filepath = os.path.join(output_dir, filename)
-            print(f"  - 正在保存: {filename}")
-            with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(data_content, f, indent=2, ensure_ascii=False)
-        
-    print(f"\n[*] 正在用干净的数据覆盖原始文件: {CONSOLIDATED_GRAPH_PATH}")
-    with open(CONSOLIDATED_GRAPH_PATH, 'w', encoding='utf-8') as f:
-        json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
-        
-    if cache_updated:
-        print("[*] 正在更新链接状态缓存...")
-        save_cache(link_cache)
-        
-    print("\n[+] 清理完成！")
-
-if __name__ == '__main__':
-    main()
+        self._save_cache()
+        print("\n[+] 清理完成！")

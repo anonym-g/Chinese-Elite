@@ -46,48 +46,49 @@ Click [Here](https://anonym-g.github.io/Chinese-Elite) to begin.
 
 ```
 .
+├── .cache/                     # 存放缓存文件，如链接检查状态
 ├── .github/
 │   └── workflows/
-│       └── update_data.yml      # (有待实现) GitHub Actions 自动化工作流
+│       └── update_data.yml     # (有待实现) GitHub Actions 自动化工作流
 ├── data/
-│   ├── cleaned_data/            # 存放经手动审查和修正后的数据
+│   ├── cleaned_data/           # 存放经手动审查和修正后的数据
 │   ├── person/
-│   │   └── ...                  # 按类别存放的原始提取数据
+│   │   └── ...                 # 按类别存放的原始提取数据
 │   ├── ...
-│   ├── consolidated_graph.json  # 合并后的主图谱文件
-│   └── LIST.txt                 # 待处理的实体种子列表
-├── data_to_be_cleaned/          # 存放由脚本分离出的问题数据
-│   ├── no_page_YYYY-MM-DD-HH-MM-SS.json
-│   ├── redirect_YYYY-MM-DD-HH-MM-SS.json
-│   └── disambig_YYYY-MM-DD-HH-MM-SS.json
+│   ├── processed_files.log     # 记录已合并处理的文件名
+│   └── LIST.txt                # 待处理的实体种子列表
+├── data_to_be_cleaned/         # 存放由脚本分离出的问题数据
+│   └── ...
 ├── docs/
-│   ├── app.js                   # D3.js 可视化逻辑
-│   ├── index.html               # 可视化页面
-│   └── style.css                # 页面样式
+│   ├── app.js                  # D3.js 可视化逻辑
+│   ├── consolidated_graph.json # 合并后的主图谱文件，供前端直接读取
+│   ├── index.html              # 可视化页面
+│   └── style.css               # 页面样式
 ├── scripts/
-│   ├── clean_data.py            # 数据清洗脚本
-│   ├── merge_graphs.py          # 数据合并脚本
-│   ├── parse_gemini.py          # LLM 解析脚本
-│   ├── process_list.py          # 主处理流程脚本
-│   ├── utils.py                 # 辅助工具脚本
-│   └── main.py                  # 主执行文件
-├── .env                         # (需自行创建) 存放 API 密钥
+│   ├── prompts/                # 存放LLM的系统提示(Prompt)文本
+│   │   ├── merge_check.txt
+│   │   ├── merge_execute.txt
+│   │   └── parser_system.txt
+│   ├── clean_data.py           # 数据清洗脚本
+│   ├── config.py               # 存放所有路径和模型配置
+│   ├── merge_graphs.py         # 数据合并脚本
+│   ├── parse_gemini.py         # LLM 解析脚本
+│   ├── process_list.py         # 处理列表的核心脚本
+│   └── utils.py                # 辅助工具脚本
+├── .env                        # (需自行创建) 存放 API 密钥
 ├── .gitignore
 ├── README.md
-└── requirements.txt             # Python 依赖列表
+├── requirements.txt            # Python 依赖列表
+└── run_pipeline.py             # 完整流水线一键执行脚本
 ```
 
-首先，用户需在 `data/LIST.txt` 文件中定义一个包含实体（人物、组织、事件等）名称的种子列表。执行 `scripts/process_list.py` 脚本后，系统会读取此列表，并通过维基百科API检查每个条目的最后修订时间，以避免对未更新的页面进行重复处理。
+数据处理流程始于用户在 `data/LIST.txt` 文件中定义的实体（人物、组织、事件等）种子列表。`scripts/process_list.py` 脚本会读取此列表，并通过维基百科API检查每个条目的最后修订时间，以避免对未更新的页面进行重复处理。对于需要处理的条目，`scripts/utils.py` 会获取其Wikitext源码并进行简繁转换。
 
-对于需要处理的条目，`scripts/utils.py` 会获取其Wikitext源码并进行简繁转换。
+随后，`scripts/parse_gemini.py` 脚本会将纯文本源码提交给大语言模型（目前使用Gemini-2.5-pro）。通过一个存放于 `scripts/prompts/` 目录下的系统提示（System Prompt），模型被引导提取出结构化的节点与关系信息，并以JSON格式返回。每个处理过的条目都会在 `data/` 目录下按类别生成一个独立的JSON文件。
 
-随后，`scripts/parse_gemini.py` 脚本会将纯文本源码提交给大语言模型（目前使用Gemini-2.5-pro）。通过一个包含详细指令、输出格式定义的系统提示（System Prompt），以及包含少量样本（Few-shot Examples）的用户输入，模型被引导提取出结构化的节点与关系信息，并以JSON格式返回。每个处理过的条目都会在 `data/` 目录下生成一个独立的JSON文件。
+当生成多个独立的JSON文件后，`scripts/merge_graphs.py` 脚本负责将所有碎片化的数据智能地合并到 `docs/consolidated_graph.json` 这个主图谱文件中。为了提高效率和准确性，合并过程采用两阶段LLM调用：首先使用一个轻量级模型 (Gemma-3-27b-it) 预检新旧节点数据；如果确认需要合并，再调用一个性能更强的模型 (Gemini-2.5-flash) 将新旧信息融合成一个完整版本。
 
-当生成多个独立的JSON文件后，运行 `scripts/merge_graphs.py` 脚本。该脚本负责将所有碎片化的数据智能地合并到 `data/consolidated_graph.json` 这个主图谱文件中。
-
-为了提高效率和准确性，合并过程采用两阶段LLM调用：
-
-首先使用一个轻量级模型 (Gemma-3-27b-it) 预检新旧节点数据，判断是否存在有价值的新信息；如果确认需要合并，再调用一个性能更强的模型 (Gemini-2.5-flash) ，根据上下文逻辑，将新旧信息融合成一个完整版本。此脚本同时会处理别名映射，尽可能确保实体ID的一致性。
+项目的所有关键配置，如模型名称、文件路径等，均集中在 `scripts/config.py` 文件中，方便用户统一管理和修改。整个流程可以通过执行根目录的 `run_pipeline.py` 脚本一键启动。
 
 ### 数据结构
 
@@ -101,7 +102,7 @@ Click [Here](https://anonym-g.github.io/Chinese-Elite) to begin.
 
 ### 可视化
 
-项目在 `docs/` 目录下提供了一个基于 D3.js 构建的交互式前端可视化界面。用户通过浏览器打开 `docs/index.html` 文件，即可加载并浏览 `data/consolidated_graph.json` 中的图谱数据。
+项目在 `docs/` 目录下提供了一个基于 D3.js 构建的交互式前端可视化界面。用户通过浏览器打开 `docs/index.html` 文件，即可加载并浏览 `docs/consolidated_graph.json` 中的图谱数据。
 
 该界面支持按时间范围筛选节点和关系，通过图例动态显示或隐藏不同类型的节点，并允许用户通过点击节点来高亮其直接关联网络。
 
@@ -113,14 +114,14 @@ Click [Here](https://anonym-g.github.io/Chinese-Elite) to begin.
 2.  安装所有必要的Python依赖包：`pip install -r requirements.txt`。
 3.  在项目根目录创建 `.env` 文件，并设置你的 `GOOGLE_API_KEY`。
 4.  在 `data/LIST.txt` 中按分类填入你希望抓取的实体名称。
-5.  依次执行数据处理脚本：`python scripts/process_list.py`，然后 `python scripts/merge_graphs.py`。
+5.  执行项目根目录下的 `python run_pipeline.py` 脚本。该脚本将自动按顺序完成实体列表处理、图谱合并与数据清洗的全过程。
 6.  在浏览器中打开 `docs/index.html` 文件即可查看和交互。为避免浏览器本地文件访问限制，建议通过一个简单的本地HTTP服务器来访问该文件。
 
 ### 数据清洗与人工手动审查
 
-为保证主图谱的长期健康，可以定期运行 `scripts/clean_data.py` 脚本。它会遍历主图谱中的所有节点，检查其对应的维基百科链接状态，并将重定向、指向消歧义页或链接失效的“问题节点”及其相关关系一并分离，存入项目根目录下的 `data_to_be_cleaned/` 文件夹中，以供手动审查或修正。该脚本内置缓存机制，以加速重复检查。
+为保证主图谱的长期健康，可以定期运行 `scripts/clean_data.py` 脚本。它会遍历主图谱中的所有节点，检查其对应的维基百科链接状态，并将重定向、指向消歧义页或链接失效的“问题节点”及其相关关系一并分离，存入项目根目录下的 `data_to_be_cleaned/` 文件夹中，以供手动审查或修正。该脚本内置缓存机制（缓存位于 `.cache/` 目录），能够记录已检查过的链接状态，避免重复发起网络请求，从而显著提升后续运行的效率。
 
-手动审查完毕并修正后的数据文件，可以移入 `data/cleaned_data/` 文件夹进行归档，或直接将修正后的内容并入主图谱文件 `data/consolidated_graph.json`。
+手动审查完毕并修正后的数据文件，可以移入 `data/cleaned_data/` 文件夹进行归档，或直接将修正后的内容并入主图谱文件 `docs/consolidated_graph.json`。
 
 关于手动审查的说明：
 
@@ -140,44 +141,44 @@ Click [Here](https://anonym-g.github.io/Chinese-Elite) to begin.
 
     更改后，建议同时搜索调整relationship中使用该id的项，但也可以不调（前端渲染时，会自动移除端点不存在的冗余关系）。
 
-    最后并入主图谱文件 `data/consolidated_graph.json` 。
+    最后并入主图谱文件 `docs/consolidated_graph.json` 。
 
     例：
 
     ```sample1.json
     // 将"中苏论战"移至"aliases"数组，并将id改为"九评苏共"
-        {
-          "id": "九评苏共",
-          "type": "Event",
-          "aliases": [
-            "中苏论战"
-          ],
-          "properties": {
-            "period": "1960 - 1969",
-            "location": "中国、苏联",
-            "description": "中苏两党在意识形态上的公开论战，是文革发动的背景之一，并导致中苏关系破裂。"
-          }
-        },
+        {
+          "id": "九评苏共",
+          "type": "Event",
+          "aliases": [
+            "中苏论战"
+          ],
+          "properties": {
+            "period": "1960 - 1969",
+            "location": "中国、苏联",
+            "description": "中苏两党在意识形态上的公开论战，是文革发动的背景之一，并导致中苏关系破裂。"
+          }
+        },
     ```
 
     ```sample2.json
     // 添加 "verified_node"
-        {
-          "id": "中国共产党中央军事部",
-          "type": "Organization",
-          "aliases": [
-            "中共中央军事部",
-            "中央军事部"
-          ],
-          "properties": {
-            "period": [
-              "1925-12-12 - 1926-11",
-              "1928-7 - 1930-2"
-            ],
-            "description": "1925年12月12日，中共中央发布通告，将军事运动委员会改为中央军事部。1926年11月上旬，改为中央军事委员会。1928年7月，正式恢复设立中央军事部。1930年2月，军事部与军委合二为一。",
-            "verified_node": true
-          }
-        },
+        {
+          "id": "中国共产党中央军事部",
+          "type": "Organization",
+          "aliases": [
+            "中共中央军事部",
+            "中央军事部"
+          ],
+          "properties": {
+            "period": [
+              "1925-12-12 - 1926-11",
+              "1928-7 - 1930-2"
+            ],
+            "description": "1925年12月12日，中共中央发布通告，将军事运动委员会改为中央军事部。1926年11月上旬，改为中央军事委员会。1928年7月，正式恢复设立中央军事部。1930年2月，军事部与军委合二为一。",
+            "verified_node": true
+          }
+        },
     ```
 
 2.  **消歧义类节点**：
@@ -190,24 +191,24 @@ Click [Here](https://anonym-g.github.io/Chinese-Elite) to begin.
 
     ```sample3.json
     // "中央人民政府" -> "中华人民共和国中央人民政府 (1949年—1954年)"
-        {
-          "id": "中华人民共和国中央人民政府 (1949年—1954年)",
-          "type": "Organization",
-          "aliases": [
-            "中华人民共和国中央人民政府",
-            "中国中央人民政府",
-            "中华人民共和国中央人民政府 (1949年-1954年)",
-            "中华人民共和国中央人民政府 (1949—1954)",
-            "中华人民共和国中央人民政府 (1949-1954)",
-            "中央人民政府",
-            "中央人民政府委员会"
-          ],
-          "properties": {
-            "period": "1949-10-01 - 1954-09-27",
-            "location": "北京市",
-            "description": "1949年至1954年间、中华人民共和国成立初期的中央政府，是行使国家政权的最高机关。"
-          }
-        },
+        {
+          "id": "中华人民共和国中央人民政府 (1949年—1954年)",
+          "type": "Organization",
+          "aliases": [
+            "中华人民共和国中央人民政府",
+            "中国中央人民政府",
+            "中华人民共和国中央人民政府 (1949年-1954年)",
+            "中华人民共和国中央人民政府 (1949—1954)",
+            "中华人民共和国中央人民政府 (1949-1954)",
+            "中央人民政府",
+            "中央人民政府委员会"
+          ],
+          "properties": {
+            "period": "1949-10-01 - 1954-09-27",
+            "location": "北京市",
+            "description": "1949年至1954年间、中华人民共和国成立初期的中央政府，是行使国家政权的最高机关。"
+          }
+        },
     ```
 
 3.  **无链接类节点**：
@@ -250,48 +251,49 @@ This project leverages the power of Large Language Models to extract information
 
 ```
 .
+├── .cache/                     # Stores cache files, e.g., link status checks
 ├── .github/
 │   └── workflows/
-│       └── update_data.yml      # (To be implemented) GitHub Actions workflow for automation
+│       └── update_data.yml     # (To be implemented) GitHub Actions workflow for automation
 ├── data/
-│   ├── cleaned_data/            # Stores data that has been manually reviewed and corrected
+│   ├── cleaned_data/           # Stores data that has been manually reviewed and corrected
 │   ├── person/
-│   │   └── ...                  # Stores raw extracted data, categorized
+│   │   └── ...                 # Stores raw extracted data, categorized
 │   ├── ...
-│   ├── consolidated_graph.json  # The main, merged graph file
-│   └── LIST.txt                 # Seed list of entities to be processed
-├── data_to_be_cleaned/          # Stores problematic data separated by the cleaning script
-│   ├── no_page_YYYY-MM-DD-HH-MM-SS.json
-│   ├── redirect_YYYY-MM-DD-HH-MM-SS.json
-│   └── disambig_YYYY-MM-DD-HH-MM-SS.json
+│   ├── processed_files.log     # Logs filenames that have been merged
+│   └── LIST.txt                # Seed list of entities to be processed
+├── data_to_be_cleaned/         # Stores problematic data separated by the cleaning script
+│   └── ...
 ├── docs/
-│   ├── app.js                   # D3.js visualization logic
-│   ├── index.html               # Visualization page
-│   └── style.css                # Page stylesheet
+│   ├── app.js                  # D3.js visualization logic
+│   ├── consolidated_graph.json # The main, merged graph file for front-end access
+│   ├── index.html              # Visualization page
+│   └── style.css               # Page stylesheet
 ├── scripts/
-│   ├── clean_data.py            # Data cleaning script
-│   ├── merge_graphs.py          # Data merging script
-│   ├── parse_gemini.py          # LLM parsing script
-│   ├── process_list.py          # Main processing workflow script
-│   ├── utils.py                 # Utility script
-│   └── main.py                  # Main executable file
-├── .env                         # (Must be created manually) Stores API key
+│   ├── prompts/                # Stores system prompt text files for LLMs
+│   │   ├── merge_check.txt
+│   │   ├── merge_execute.txt
+│   │   └── parser_system.txt
+│   ├── clean_data.py           # Data cleaning script
+│   ├── config.py               # Stores all path and model configurations
+│   ├── merge_graphs.py         # Data merging script
+│   ├── parse_gemini.py         # LLM parsing script
+│   ├── process_list.py         # Core script for processing the list
+│   └── utils.py                # Utility script
+├── .env                        # (Must be created manually) Stores API key
 ├── .gitignore
 ├── README.md
-└── requirements.txt             # Python dependency list
+├── requirements.txt            # Python dependency list
+└── run_pipeline.py             # One-click script to run the entire pipeline
 ```
 
-First, a user defines a seed list of entity names (people, organizations, events, etc.) in the `data/LIST.txt` file. Executing the `scripts/process_list.py` script reads this list and checks the last revision time of each entry via the Wikipedia API to avoid reprocessing unchanged pages.
+The data processing workflow begins with a user-defined seed list of entities (people, organizations, events, etc.) in the `data/LIST.txt` file. The `scripts/process_list.py` script reads this list and checks the last revision time of each entry via the Wikipedia API to avoid reprocessing unchanged pages. For entries that need processing, `scripts/utils.py` fetches their Wikitext source and performs Simplified/Traditional Chinese conversion.
 
-For entries that need processing, `scripts/utils.py` fetches their Wikitext source and performs Simplified/Traditional Chinese conversion.
+Subsequently, the `scripts/parse_gemini.py` script submits the plain text to an LLM (currently using Gemini-2.5-pro). Guided by a System Prompt stored in the `scripts/prompts/` directory, the model is directed to extract structured nodes and relationships, returning them in JSON format. Each processed entry generates a separate JSON file in a categorized subdirectory under `data/`.
 
-Subsequently, the `scripts/parse_gemini.py` script submits the plain text to an LLM (currently using Gemini-2.5-pro). Guided by a System Prompt containing detailed instructions and output format definitions, along with user input containing few-shot examples, the model is directed to extract structured nodes and relationships, returning them in JSON format. Each processed entry generates a separate JSON file in a categorized subdirectory under `data/`.
+Once multiple individual JSON files are generated, the `scripts/merge_graphs.py` script intelligently consolidates all the fragmented data into the main graph file, `docs/consolidated_graph.json`. To improve efficiency and accuracy, the merging process employs a two-stage LLM call: first, a lightweight model (Gemma-3-27b-it) pre-checks the new and existing node data; if a merge is deemed necessary, a more powerful model (Gemini-2.5-flash) is invoked to fuse the old and new information into a comprehensive version.
 
-Once multiple individual JSON files are generated, running the `scripts/merge_graphs.py` script intelligently consolidates all the fragmented data into the main graph file, `data/consolidated_graph.json`.
-
-To improve efficiency and accuracy, the merging process employs a two-stage LLM call:
-
-First, a lightweight model (Gemma-3-27b-it) pre-checks the new and existing node data to determine if there is valuable new information. If a merge is confirmed to be necessary, a more powerful model (Gemini-2.5-flash) is invoked to logically fuse the old and new information into a comprehensive version. This script also handles alias mapping to ensure the consistency of entity IDs as much as possible.
+All key project configurations, such as model names and file paths, are centralized in the `scripts/config.py` file for easy management. The entire workflow can be initiated with a single command by executing the `run_pipeline.py` script in the project root.
 
 ### Data Structure
 
@@ -305,7 +307,7 @@ This structured design is intended to provide a solid foundation for complex net
 
 ### Visualization
 
-The project provides an interactive front-end visualization interface built with D3.js, located in the `docs/` directory. By opening the `docs/index.html` file in a browser, users can load and browse the graph data from `data/consolidated_graph.json`.
+The project provides an interactive front-end visualization interface built with D3.js, located in the `docs/` directory. By opening the `docs/index.html` file in a browser, users can load and browse the graph data from `docs/consolidated_graph.json`.
 
 The interface supports filtering nodes and relationships by a time range, dynamically showing or hiding different types of nodes through a legend, and allowing users to highlight a node's direct network by clicking on it.
 
@@ -317,14 +319,14 @@ The size of a node correlates with its degree (number of connections) within the
 2.  Install all necessary Python dependencies: `pip install -r requirements.txt`.
 3.  Create a `.env` file in the project root and set your `GOOGLE_API_KEY`.
 4.  Fill in the entity names you wish to crawl in `data/LIST.txt`, categorized accordingly.
-5.  Execute the data processing scripts in order: `python scripts/process_list.py`, then `python scripts/merge_graphs.py`.
+5.  Execute the `python run_pipeline.py` script in the project root. This script will automatically handle the entire process of entity list processing, graph merging, and data cleaning in the correct order.
 6.  Open the `docs/index.html` file in a browser to view and interact with the data. To avoid local file access restrictions in browsers, it is recommended to access this file through a simple local HTTP server.
 
 ### Data Cleaning and Manual Review
 
-To ensure the long-term health of the main graph, the `scripts/clean_data.py` script can be run periodically. It iterates through all nodes in the main graph, checks their corresponding Wikipedia link status, and separates "problem nodes"—those that are redirects, point to disambiguation pages, or have broken links—along with their associated relationships. These are saved into the `data_to_be_cleaned/` directory at the project root for manual review and correction. The script has a built-in caching mechanism to speed up repeated checks.
+To ensure the long-term health of the main graph, the `scripts/clean_data.py` script can be run periodically. It iterates through all nodes in the main graph, checks their corresponding Wikipedia link status, and separates "problem nodes"—those that are redirects, point to disambiguation pages, or have broken links—along with their associated relationships. These are saved into the `data_to_be_cleaned/` directory at the project root for manual review and correction. The script has a built-in caching mechanism (cache located in the `.cache/` directory) to remember the status of checked links, avoiding repeated network requests and significantly speeding up subsequent runs.
 
-After manual review and correction, the data files can be moved to the `data/cleaned_data/` directory for archival, or their corrected content can be merged directly into the main graph file, `data/consolidated_graph.json`.
+After manual review and correction, the data files can be moved to the `data/cleaned_data/` directory for archival, or their corrected content can be merged directly into the main graph file, `docs/consolidated_graph.json`.
 
 **Guidelines for Manual Review:**
 
@@ -344,7 +346,7 @@ After manual review and correction, the data files can be moved to the `data/cle
 
     After making changes, it is recommended to also search for and adjust items in `relationships` that use this `id`, although this is optional (the front-end rendering will automatically remove redundant relationships with non-existent endpoints).
 
-    Finally, merge the corrected data into the main graph file `data/consolidated_graph.json`.
+    Finally, merge the corrected data into the main graph file `docs/consolidated_graph.json`.
 
     Example:
 
