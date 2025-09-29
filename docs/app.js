@@ -261,14 +261,28 @@ class InteractiveGraph {
         const colorRange = nodeTypes.map(type => CONFIG.COLORS.NODE_TYPES[type] || null);
         this.colorScale.domain(nodeTypes).range(colorRange.filter(c => c)).unknown("#cccccc");
 
-        const legendContainer = d3.select("#legend-container");
-        legendContainer.selectAll("*").remove();
+        const legendContent = d3.select("#legend-container .legend-content");
+        legendContent.selectAll("*").remove();
+
+        // 记录初始高度
+        const container = document.getElementById('legend-container');
+        const originalHeight = container.offsetHeight;
+        container.style.height = originalHeight + 'px';
+
+        // 添加切换按钮事件
+        d3.select(".legend-toggle").on("click", () => {
+            container.classList.toggle("collapsed");
+        });
 
         nodeTypes.forEach(type => {
-            const item = legendContainer.append("div").attr("class", "legend-item");
-            const colorBox = item.append("div").attr("class", "color-box").style("background-color", this.colorScale(type));
+            const item = legendContent.append("div").attr("class", "legend-item");
+            const colorBox = item.append("div")
+                .attr("class", "color-box")
+                .style("background-color", this.colorScale(type));
             
-            item.append("input").attr("type", "checkbox").attr("checked", true)
+            item.append("input")
+                .attr("type", "checkbox")
+                .attr("checked", true)
                 .on("change", (e) => this._handleLegendToggle(e, type, colorBox));
             
             item.append("span").text(type);
