@@ -31,7 +31,7 @@ const CONFIG = {
            'Document': 'rgb(15, 255, 50)'
         }
     },
-    NON_DIRECTED_LINK_TYPES: new Set(['SIBLING_OF', 'LOVER_OF', 'SEXUAL_REL', 'RELATIVE_OF', 'FRIEND_OF', 'ENEMY_OF', 'MET_WITH'])
+    NON_DIRECTED_LINK_TYPES: new Set(['SIBLING_OF', 'LOVER_OF', 'RELATIVE_OF', 'FRIEND_OF', 'ENEMY_OF', 'MET_WITH'])
 };
 
 
