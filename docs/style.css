@@ -45,14 +45,20 @@ body {
 }
 
 #legend-container {
-    height: auto;
+    /* 移除 height: auto; */
     overflow: hidden;
-    /* 修改 transition 属性，加入 padding 的过渡 */
+    /* 动画过渡的目标属性是 max-height 和 padding */
     transition: max-height 0.35s ease-in-out, padding 0.35s ease-in-out;
-    /* 设置一个足够大的 max-height */
+    /* 在展开状态下，设置一个足够大的最大高度 */
     max-height: 500px; 
-    /* 将 padding 从 .legend-content 移到这里 */
     padding: 10px;
+}
+
+/* 收起状态 */
+#legend-container.collapsed {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .legend-item {
@@ -97,12 +103,6 @@ body {
     border-bottom: 1px solid #343a40;
 }
 
-#legend-container {
-    height: auto;
-    overflow: hidden;
-    transition: height 0.3s ease;
-}
-
 .legend-content {
     /* padding: 10px; */
     display: flex;
@@ -141,14 +141,6 @@ body {
     height: 1px;
     background-color: #888;
     transition: all 0.3s ease;
-}
-
-/* 收起状态 */
-#legend-container.collapsed {
-    max-height: 0;
-    /* 在收起时，同时将垂直方向的 padding 设为 0 */
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
 #legend-container.collapsed + .legend-toggle .toggle-line:first-child {

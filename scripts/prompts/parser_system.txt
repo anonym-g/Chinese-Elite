@@ -30,11 +30,11 @@
     {
       "source": "源节点的id",
       "target": "目标节点的id",
-      "type": "关系类型，严格从以下列表中选择：['BORN_IN', 'ALUMNUS_OF', 'MEMBER_OF', 'CHILD_OF', 'SPOUSE_OF', 'SIBLING_OF', 'LOVER_OF', 'SEXUAL_REL', 'PARENT_OF', 'RELATIVE_OF', 'FRIEND_OF', 'ENEMY_OF', 'WORKED_AT', 'SUBORDINATE_OF', 'SUPERIOR_OF', 'MET_WITH', 'PUSHED', 'BLOCKED', 'INFLUENCED', 'FOUNDED']",
+      "type": "关系类型，严格从以下列表中选择：['BORN_IN', 'ALUMNUS_OF', 'MEMBER_OF', 'CHILD_OF', 'SPOUSE_OF', 'SIBLING_OF', 'LOVER_OF', 'PARENT_OF', 'RELATIVE_OF', 'FRIEND_OF', 'ENEMY_OF', 'SUBORDINATE_OF', 'MET_WITH', 'PUSHED', 'BLOCKED', 'INFLUENCED', 'FOUNDED']",
       "properties": {
         "start_date": "关系开始的年份 (YYYY) 、年月 (YYYY-MM)或年月日 (YYYY-MM-DD)"（如果有多个不连续时期，建议使用数组表示）,
         "end_date": "关系结束的年份 (YYYY) 、年月 (YYYY-MM)或年月日 (YYYY-MM-DD)"（同上）,
-        "position": "任职的职务名称，仅适用于'WORKED_AT', 'MEMBER_OF', 'SUBORDINATE_OF', 'SUPERIOR_OF'关系",
+        "position": "任职的职务名称，仅适用于'MEMBER_OF', 'SUBORDINATE_OF' 关系",
         "degree": "获得的学位，仅适用于'ALUMNUS_OF'关系",
         "description": "对关系的简短补充描述，例如'作为习近平的浙江省委秘书长'"
       }
@@ -48,19 +48,16 @@
     * 所有关系的主语都是源。source ... of target.
     * `BORN_IN` (出生于): 用于描述人物的出生地点。必须是可以提取处的最精确出生地，不允许重复。源节点为'Person'类型，目标节点为'Location'类型。
     * `ALUMNUS_OF` (校友): 用于描述人物与其毕业院校的关系。源节点为'Person'类型，目标节点为'Organization'类型。
-    * `MEMBER_OF` (成员): 用于描述人物与其所属组织（如政党、政府机构、公司等）的关系。源节点为'Person'类型，目标节点为'Organization'类型。
+    * `MEMBER_OF` (成员): 用于描述人物与其所属组织（如政党、政府机构、公司等）的关系。不能用于描述人与人的关系。源节点为'Person'类型，目标节点为'Organization'类型。
     * `CHILD_OF` (子女): 用于描述亲子关系。源节点为子女，目标节点为父母。源节点和目标节点均为'Person'类型。
     * `SPOUSE_OF` (配偶): 用于描述婚姻关系。源节点和目标节点均为'Person'类型。
     * `SIBLING_OF` (兄弟姐妹): 用于描述兄弟姐妹关系。源节点和目标节点均为'Person'类型。
-    * `LOVER_OF` (恋人): 用于描述恋爱关系。源节点和目标节点均为'Person'类型。
-    * `SEXUAL_REL` (性关系): 用于描述除婚姻和恋爱以外的性关系。源节点和目标节点均为'Person'类型。
+    * `LOVER_OF` (情人): 用于描述情爱关系。源节点和目标节点均为'Person'类型。
     * `RELATIVE_OF` (亲戚): 用于描述除父母、子女、兄弟姐妹、配偶、恋人以外的其他亲戚关系，如堂兄弟姐妹、表兄弟姐妹、叔伯、姑姨等。源节点和目标节点均为'Person'类型。
     * `PARENT_OF` (父母): 用于描述亲子关系。源节点为父母，目标节点为子女。源节点和目标节点均为'Person'类型。
-    * `SUPERIOR_OF` (上级): 源节点相对目标级别更高时使用。例如，“李强在中共中央政治局常委中排名高于赵乐际”，source为“李强 (1959年)”、target为“赵乐际”时，type为“SUPERIOR_OF”。
     * `SUBORDINATE_OF` (下级): 源节点相对目标级别更低时使用。例如，“李强在中共中央政治局常委中排名低于习近平”，source为“李强 (1959年)”、target为“习近平”时，type为“SUBORDINATE_OF”。
     * `FRIEND_OF` (交好): 用于描述源节点与目标节点之间的私人友谊或密切关系。通常基于公开报道的互动、合作或共同活动。避免基于职位或组织关系进行推断。源节点、目标节点均为'Person'类型。
     * `ENEMY_OF` (交恶): 用于描述源节点与目标节点之间的敌对或对立关系。通常基于公开报道的冲突、竞争或对抗行为。避免基于职位或组织关系进行推断。源节点、目标节点均为'Person'类型。
-    * `WORKED_AT` (任职于): 仅用于描述在某个组织中拥有正式职位或长期雇佣关系。不能用于描述人与人的关系。源节点为'Person'类型，目标节点为'Organization'类型。
     * `MET_WITH` (会见): 用于描述人物之间的正式或非正式会面，特别是外交或高级商务会谈。泛用性最强的人物关系描述。源节点、目标节点均为'Person'类型。
     * `PUSHED` (推动): 用于描述源节点对人物、组织、运动（政策）、事件、文件的助力。源节点为'Person'、'Organization'、'Movement'、'Event'、'Document'类型，目标节点为'Person'、'Organization'、'Movement'、'Event'、'Document'类型。
     * `BLOCKED` (阻碍): 用于描述源节点对人物、组织、运动（政策）、事件、文件的阻碍。源节点为'Person'、'Organization'、'Movement'、'Event'、'Document'类型，目标节点为'Person'、'Organization'、'Movement'、'Event'、'Document'类型。

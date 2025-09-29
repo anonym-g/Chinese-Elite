@@ -462,11 +462,15 @@ class InteractiveGraph {
     }
 
     _handleNodeMouseover(event, d) {
+        // 如果处于高亮模式且当前节点是黯淡的，则不显示tooltip
+        if (this.state.selectedNodeId && event.currentTarget.classList.contains('faded')) return;
         this.tooltip.style("opacity", 1)
            .html(`<strong>ID:</strong> ${d.id}<br><strong>Type:</strong> ${d.type}<br><strong>度 (Degree):</strong> ${d.degree || 0}<br><strong>Desc:</strong> ${d.properties?.description || 'N/A'}`);
     }
 
     _handleLinkMouseover(event, d) {
+        // 如果处于高亮模式且当前链接是黯淡的，则不显示tooltip
+        if (this.state.selectedNodeId && event.currentTarget.classList.contains('faded')) return;
         this.tooltip.style("opacity", 1)
            .html(`<strong>Type:</strong> ${d.type}<br><strong>From:</strong> ${d.source.id}<br><strong>To:</strong> ${d.target.id}<br><strong>Desc:</strong> ${d.properties?.description || 'N/A'}`);
     }
@@ -495,23 +499,29 @@ class InteractiveGraph {
         if (!rel?.properties?.start_date) return true;
         const startDates = Array.isArray(rel.properties.start_date) ? rel.properties.start_date : [rel.properties.start_date];
         const endDates = rel.properties.end_date ? (Array.isArray(rel.properties.end_date) ? rel.properties.end_date : [rel.properties.end_date]) : [];
+        
         return startDates.some((startStr, i) => {
             const relStart = parseDate(startStr);
             if (!relStart) return false;
-            const relEnd = endDates[i] ? parseDate(endDates[i]) : end;
+
+            const relEndStr = endDates[i];
+            let relEnd = relEndStr ? parseDate(relEndStr) : end;
+
+            // --- 扩展模糊的结束日期 ---
+            relEnd = expandVagueDate(relEndStr, relEnd);
+            
             return relStart <= end && relEnd >= start;
         });
     }
 
     /**
-     * 范围过滤逻辑
-     */
+     * 范围过滤逻辑
+     */
     _isNodeActive(node, start, end) {
         if (node.type === 'Location') return true;
 
         let nodeDateProp = null;
 
-        // 先检查Person&lifetime, 因LLM输出并不总是省略空值（person通常也具有空period，会导致渲染错误）
         if (node.type === 'Person' && node.properties?.lifetime) {
             nodeDateProp = node.properties.lifetime;
         } 
@@ -524,38 +534,63 @@ class InteractiveGraph {
         const dateRanges = Array.isArray(nodeDateProp) ? nodeDateProp : [nodeDateProp];
 
         return dateRanges.some(rangeStr => {
-            let startStr, endStr;
+            let startStr = '', endStr = ''; // 初始化以防万一
+            const cleanedRangeStr = rangeStr.trim();
 
-            // 解析日期范围字符串
-            if (rangeStr.includes(' - ')) {
-                const parts = rangeStr.split(' - ');
-                startStr = parts[0]?.trim();
-                endStr = parts[1]?.trim();
-            } else if (rangeStr.trim().endsWith('-')) {
-                startStr = rangeStr.trim().slice(0, -1).trim();
-                endStr = '';
-            } else if (rangeStr.trim().startsWith('-')) {
-                startStr = '';
-                endStr = rangeStr.trim().slice(1).trim();
-            } else {
-                startStr = rangeStr.trim();
-                endStr = rangeStr.trim();
+            // --- 按优先级顺序的解析逻辑 ---
+            let parts;
+            // 1. 优先匹配最明确的分隔符 " - " (前后带空格)
+            if (cleanedRangeStr.includes(' - ')) {
+                parts = cleanedRangeStr.split(' - ');
+            } 
+            // 2. 其次匹配印刷用的长破折号 "—" 或 "–"
+            else if (cleanedRangeStr.includes('—')) {
+                parts = cleanedRangeStr.split('—');
+            } else if (cleanedRangeStr.includes('–')) {
+                parts = cleanedRangeStr.split('–');
+            }
+            // 3. 处理 "YYYY-YYYY" 这种无空格的特殊情况
+            else if (/^\d{4}\s*-\s*\d{4}$/.test(cleanedRangeStr)) {
+                parts = cleanedRangeStr.split('-');
             }
 
-            // 解析日期
-            const parsedNodeStart = parseDate(startStr);
-            const parsedNodeEnd = parseDate(endStr);
+            // 如果根据上述规则成功拆分
+            if (parts && parts.length >= 2) {
+                startStr = parts[0].trim();
+                endStr = parts.slice(1).join('').trim(); // 将剩余部分合并，以防日期本身包含分隔符
+            } 
+            // 4. 处理开放式日期 "YYYY-MM-DD - "
+            else if (cleanedRangeStr.endsWith('-')) {
+                startStr = cleanedRangeStr.slice(0, -1).trim();
+                endStr = '';
+            } 
+            // 5. 处理开放式日期 " - YYYY-MM-DD"
+            else if (cleanedRangeStr.startsWith('-')) {
+                startStr = '';
+                endStr = cleanedRangeStr.slice(1).trim();
+            } 
+            // 6. 最后，将其视为单点日期
+            else {
+                startStr = cleanedRangeStr;
+                endStr = cleanedRangeStr;
+            }
             
-            // 如果提供了日期但解析失败，返回 false 而不是 true —— 便于debug
+            const parsedNodeStart = parseDate(startStr);
+            let parsedNodeEnd = parseDate(endStr);
+            
+            // 对模糊的年/月范围进行扩展
+            if (startStr === endStr) {
+                parsedNodeEnd = expandVagueDate(startStr, parsedNodeEnd);
+            }
+            
+            // 安全检查：如果提供了日期字符串但解析失败，则过滤掉该条目
             if ((startStr && !parsedNodeStart) || (endStr && !parsedNodeEnd)) {
                 return false;
             }
 
-            // 设置日期范围边界
             const finalNodeStart = parsedNodeStart || new Date(-8640000000000000);
             const finalNodeEnd = parsedNodeEnd || new Date(8640000000000000);
 
-            // 日期范围比较：节点的时间范围必须与查询时间范围有重叠
             return finalNodeStart <= end && finalNodeEnd >= start;
         });
     }
@@ -594,7 +629,15 @@ class InteractiveGraph {
                 d.fy = null;
             }
         };
-        return d3.drag().on("start", dragstarted).on("drag", dragged).on("end", dragended);
+        return d3.drag()
+            // 用 .filter() 控制拖拽权限
+            .filter(event => {
+                // 如果没有节点被高亮，或者当前拖拽的节点不是一个黯淡的节点，则允许拖拽
+                return this.state.selectedNodeId === null || !event.target.closest('.node').classList.contains('faded');
+            })
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended);
     }
 
     _calculateLinkPath(d) {
@@ -656,6 +699,41 @@ function parseDate(dateStr) {
     if (/^\d{4}-\d{2}$/.test(dateStr)) return new Date(`${dateStr}-01T00:00:00`);
     const date = new Date(`${dateStr}T00:00:00`);
     return isNaN(date.getTime()) ? null : date;
+}
+
+/**
+ * 扩展模糊日期对象的范围。
+ * 如果原始日期字符串只是年份("YYYY")或月份("YYYY-MM")，
+ * 此函数会将其对应的、初步解析后的Date对象（默认为该周期的第一天），修正为该周期的最后一天。
+ * @param {string | undefined} originalStr - 用于判断格式的原始日期字符串 (例如 "1950", "1950-10")。
+ * @param {Date | null} parsedDate - 已经由 parseDate() 初步解析的Date对象 (例如 "1950" 会被解析成 1950-01-01)。
+ * @returns {Date | null} - 返回扩展后的Date对象（如 1950-12-31），或者在无需扩展或输入无效时返回原始的Date对象。
+ */
+function expandVagueDate(originalStr, parsedDate) {
+    // 如果原始字符串或已解析日期无效，则不进行任何操作
+    if (!originalStr || !parsedDate) {
+        return parsedDate;
+    }
+
+    const trimmedStr = originalStr.trim();
+
+    // 如果格式为 "YYYY"
+    if (/^\d{4}$/.test(trimmedStr)) {
+        const endOfYear = new Date(parsedDate);
+        endOfYear.setFullYear(endOfYear.getFullYear() + 1);
+        endOfYear.setDate(endOfYear.getDate() - 1);
+        return endOfYear; // 返回该年的12月31日
+    } 
+    // 如果格式为 "YYYY-MM"
+    else if (/^\d{4}-\d{1,2}$/.test(trimmedStr)) {
+        const endOfMonth = new Date(parsedDate);
+        endOfMonth.setMonth(endOfMonth.getMonth() + 1);
+        endOfMonth.setDate(endOfMonth.getDate() - 1);
+        return endOfMonth; // 返回该月的最后一天
+    }
+
+    // 如果是 "YYYY-MM-DD" 或其他格式，无需扩展，返回原始解析结果
+    return parsedDate;
 }
 
 function getDateFromGroup(prefix) {

@@ -126,9 +126,7 @@ class GraphCleaner:
                 'relationships': [r for r in relationships if r.get('source') in disambig_ids or r.get('target') in disambig_ids]
             }
         }
-        ### --- 修正结束 --- ###
 
-        # Save results
         timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
         current_output_dir = os.path.join(self.output_dir, timestamp)
         os.makedirs(current_output_dir, exist_ok=True)
