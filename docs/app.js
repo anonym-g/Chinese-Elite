@@ -264,14 +264,10 @@ class InteractiveGraph {
         const legendContent = d3.select("#legend-container .legend-content");
         legendContent.selectAll("*").remove();
 
-        // 记录初始高度
-        const container = document.getElementById('legend-container');
-        const originalHeight = container.offsetHeight;
-        container.style.height = originalHeight + 'px';
-
         // 添加切换按钮事件
         d3.select(".legend-toggle").on("click", () => {
-            container.classList.toggle("collapsed");
+            // container.classList.toggle("collapsed");
+            document.getElementById('legend-container').classList.toggle("collapsed");
         });
 
         nodeTypes.forEach(type => {

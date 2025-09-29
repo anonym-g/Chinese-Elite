@@ -45,10 +45,14 @@ body {
 }
 
 #legend-container {
+    height: auto;
+    overflow: hidden;
+    /* 修改 transition 属性，加入 padding 的过渡 */
+    transition: max-height 0.35s ease-in-out, padding 0.35s ease-in-out;
+    /* 设置一个足够大的 max-height */
+    max-height: 500px; 
+    /* 将 padding 从 .legend-content 移到这里 */
     padding: 10px;
-    flex-wrap: wrap;
-    font-size: 14px;
-    gap: 8px;
 }
 
 .legend-item {
@@ -70,12 +74,14 @@ body {
 .legend-item input[type="checkbox"] { 
     margin: 0; 
 }
+
 .legend-item .color-box { 
     width: 14px; 
     height: 14px; 
     border-radius: 50%; 
     border: 1px solid #555; 
 }
+
 .legend-item input[type="color"] { 
     width: 20px; 
     height: 20px; 
@@ -98,7 +104,7 @@ body {
 }
 
 .legend-content {
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -139,7 +145,10 @@ body {
 
 /* 收起状态 */
 #legend-container.collapsed {
-    height: 0 !important;
+    max-height: 0;
+    /* 在收起时，同时将垂直方向的 padding 设为 0 */
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 #legend-container.collapsed + .legend-toggle .toggle-line:first-child {
@@ -171,11 +180,13 @@ body {
     overflow: hidden; 
     background-color: #121212; 
 }
+
 svg { 
     width: 100%; 
     height: 100%; 
     cursor: grab; 
 }
+
 svg:active { 
     cursor: grabbing; 
 }
@@ -185,6 +196,7 @@ svg:active {
     stroke-width: 2px; 
     transition: opacity 0.3s; 
 }
+
 .node text { 
     font-size: 10px; 
     text-anchor: middle; 
@@ -195,12 +207,14 @@ svg:active {
     pointer-events: none; 
     transition: opacity 0.3s; 
 }
+
 .link { 
     fill: none; 
     stroke: #fff; 
     stroke-opacity: 0.6; 
     transition: stroke 0.3s, stroke-opacity 0.3s; 
 }
+
 .link-label { 
     font-size: 8px; 
     fill: #adb5bd; 
@@ -214,6 +228,7 @@ svg:active {
     stroke: #f00; 
     stroke-width: 3px; 
 }
+
 .node.faded, .link.faded, .link-label.faded { opacity: 0.1 !important; }
 
 .tooltip { 
@@ -277,6 +292,7 @@ svg:active {
     border-bottom: 5px solid #888;
     margin-bottom: 2px;
 }
+
 .arrow.up:hover {
     border-bottom-color: #fff;
 }
@@ -285,6 +301,7 @@ svg:active {
     border-top: 5px solid #888;
     margin-top: 2px;
 }
+
 .arrow.down:hover {
     border-top-color: #fff;
 }
@@ -298,10 +315,12 @@ svg:active {
     color: inherit;
     padding: 2px 0;
 }
+
 .date-part:focus {
     outline: none;
     background-color: rgba(255, 255, 255, 0.1);
 }
+
 .date-part::-webkit-outer-spin-button,
 .date-part::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -318,6 +337,7 @@ svg:active {
 
 
 /* 时间间隔 & GitHub 链接 */
+
 .interval-control-container { 
     display: flex; 
     flex-direction: column; 
@@ -325,17 +345,20 @@ svg:active {
     justify-content: center; 
     gap: 4px; 
 }
+
 .date-separator { 
     font-size: 1.5em; 
     color: #888; 
     line-height: 1; 
 }
+
 .interval-inputs { 
     display: flex; 
     gap: 5px; 
     align-items: center; 
     margin-bottom: 4px; 
 }
+
 .interval-part { 
     width: 2em; 
     border: 1px solid #495057; 
@@ -345,6 +368,7 @@ svg:active {
     border-radius: 4px; 
     padding: 4px; 
 }
+
 .interval-control-container button, .interval-control-container a { 
     font-size: 12px; 
     padding: 3px 8px; 
@@ -352,20 +376,25 @@ svg:active {
     cursor: pointer; 
     text-decoration: none; 
 }
+
 .interval-control-container button { 
     border: 1px solid #6c757d; 
     background-color: #343a40; 
     color: #f8f9fa; 
 }
+
 .interval-control-container button:hover { 
     background-color: #495057; 
 }
+
 .interval-control-container a { 
     color: #7bade0; 
 }
+
 .interval-control-container a:hover { 
     text-decoration: underline; 
 }
+
 .hidden { 
     display: none !important; 
 }
@@ -377,12 +406,76 @@ svg:active {
     transform: translateY(-50%); 
     line-height: 0; 
 }
+
 .github-link svg { 
     width: 28px; 
     height: 28px; 
     fill: #e9ecef; 
     transition: opacity 0.2s; 
 }
+
 .github-link:hover svg { 
     opacity: 0.7; 
+}
+
+/* --- 优化移动端横向布局 --- */
+@media (max-width: 768px) {
+    .controls {
+        /* 强制不换行，并调整间距以适应小屏幕 */
+        flex-wrap: nowrap;
+        gap: 8px; /* 减小控件之间的主间距 */
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .controls label {
+        display: none; /* 隐藏文字标签，节省大量空间 */
+    }
+    
+    .date-input-group {
+        padding: 2px 4px; /* 减小日期输入框的内边距 */
+        gap: 2px;       /* 减小年/月/日之间的间距 */
+    }
+
+    /* 缩小日期输入框的字体和宽度 */
+    .date-part {
+        font-size: 0.9em;
+        width: 2.1em;
+    }
+    #start-month, #end-month, #start-day, #end-day {
+        width: 1.8em;
+    }
+
+    .interval-control-container {
+        font-size: 0.9em; /* 缩小“设置间隔”等按钮的字体 */
+    }
+    .date-separator {
+        display: none; /* 隐藏日期控件之间的破折号 */
+    }
+
+    /* 调整标题和GitHub图标为移动端优化 */
+    .header h1 {
+        font-size: 1.1em;
+        margin-left: 35px; /* 为GitHub图标留出空间 */
+    }
+    .github-link {
+        right: 8px;
+    }
+    .github-link svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* 针对非常窄的屏幕做最后的兼容 */
+@media (max-width: 400px) {
+    .date-part {
+       width: 2em;
+    }
+    #start-month, #end-month, #start-day, #end-day {
+       width: 1.5em;
+    }
+    .controls {
+        gap: 5px;
+    }
 }
