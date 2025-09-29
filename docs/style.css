@@ -1,22 +1,22 @@
 /* docs/style.css --- DARK THEME VERSION --- */
 
-body { 
+body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    margin: 0; 
-    /* --- 深色背景和浅色文字 --- */
-    background-color: #121212; 
-    color: #e9ecef; 
+    margin: 0;
+    background-color: #121212;
+    color: #e9ecef;
     display: flex;
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
 }
 
-.header, .controls, #legend-container { 
-    text-align: center; 
-    padding: 0.5em; 
-    /* --- 控件区域背景色和边框 --- */
-    background-color: #1c1c1c; 
+/* 布局: 标题, 时间控制器, 图例 */
+
+.header, .controls, #legend-container {
+    text-align: center;
+    padding: 0.5em;
+    background-color: #1c1c1c;
     border-bottom: 1px solid #343a40;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
 
 .header {
     position: relative;
-    padding: 0.8em; /* 增加一点头部内边距 */
+    padding: 0.8em;
 }
 
 .header h1 {
@@ -35,161 +35,195 @@ body {
     font-size: 1.5em;
 }
 
+.controls {
+    flex-wrap: wrap;
+}
+
 .controls label {
     font-size: 0.9em;
+    margin-bottom: 4px;
 }
 
 #legend-container {
     padding: 10px;
     flex-wrap: wrap;
     font-size: 14px;
-    gap: 8px; /* 增加整体间距 */
+    gap: 8px;
 }
+
 .legend-item {
     display: flex;
     align-items: center;
     gap: 5px;
     cursor: pointer;
-    /* --- Add Border --- */
     border: 1px solid #495057;
     padding: 4px 8px;
     border-radius: 4px;
     background-color: #2a2a2a;
     transition: background-color 0.2s;
 }
+
 .legend-item:hover {
     background-color: #383838;
 }
 
-.legend-item input[type="checkbox"] {
-    margin: 0;
+.legend-item input[type="checkbox"] { 
+    margin: 0; 
 }
-.legend-item .color-box {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    border: 1px solid #555; /* 边框调暗 */
+.legend-item .color-box { 
+    width: 14px; 
+    height: 14px; 
+    border-radius: 50%; 
+    border: 1px solid #555; 
 }
-.legend-item input[type="color"] {
-    width: 20px;
-    height: 20px;
-    border: none;
-    padding: 0;
-    background: none;
-    cursor: pointer;
+.legend-item input[type="color"] { 
+    width: 20px; 
+    height: 20px; 
+    border: none; 
+    padding: 0; 
+    background: none; 
+    cursor: pointer; 
 }
+
+/* 图，以及SVG */
 
 #graph-container { 
     width: 100%; 
-    flex-grow: 1;
-    overflow: hidden;
-    /* --- 图谱区域背景色 --- */
-    background-color: #121212;
+    flex-grow: 1; 
+    overflow: hidden; 
+    background-color: #121212; 
 }
-
 svg { 
     width: 100%; 
     height: 100%; 
-    cursor: grab;
+    cursor: grab; 
 }
-svg:active {
-    cursor: grabbing;
+svg:active { 
+    cursor: grabbing; 
 }
 
-/* --- 节点和链接样式 --- */
 .node circle { 
     stroke: #fff; 
-    stroke-width: 2px;
-    transition: opacity 0.3s;
+    stroke-width: 2px; 
+    transition: opacity 0.3s; 
 }
-.node text {
-    font-size: 10px;
-    text-anchor: middle;
-    fill: #fff;
-    /* --- 文字描边为黑色,在亮色节点上保持可读性 --- */
-    stroke: #000;
-    stroke-width: 0.4px;
-    paint-order: stroke;
-    pointer-events: none;
-    transition: opacity 0.3s;
+.node text { 
+    font-size: 10px; 
+    text-anchor: middle; 
+    fill: #fff; 
+    stroke: #000; 
+    stroke-width: 0.4px; 
+    paint-order: stroke; 
+    pointer-events: none; 
+    transition: opacity 0.3s; 
 }
-
 .link { 
-    /* --- 关系线为白色 --- */
+    fill: none; 
     stroke: #fff; 
     stroke-opacity: 0.6; 
-    transition: stroke 0.3s, stroke-opacity 0.3s;
+    transition: stroke 0.3s, stroke-opacity 0.3s; 
 }
-.link-label {
-    font-size: 8px;
-    /* --- 关系标签文字为浅灰色 --- */
-    fill: #adb5bd;
-    text-anchor: middle;
-    pointer-events: none;
-    transition: opacity 0.3s;
-}
-
-.link { 
-    /* --- 修复黑色扇形问题 --- */
-    fill: none;
-    stroke: #fff; 
-    stroke-opacity: 0.6; 
-    transition: stroke 0.3s, stroke-opacity 0.3s;
+.link-label { 
+    font-size: 8px; 
+    fill: #adb5bd; 
+    text-anchor: middle; 
+    pointer-events: none; 
+    transition: opacity 0.3s; 
 }
 
-/* 高亮效果 */
-.node.highlight circle {
-    stroke: #f00;
-    stroke-width: 3px;
+/* 高亮 */
+.node.highlight circle { 
+    stroke: #f00; 
+    stroke-width: 3px; 
 }
-.node.faded, .link.faded, .link-label.faded {
-    opacity: 0.1 !important;
-}
+.node.faded, .link.faded, .link-label.faded { opacity: 0.1 !important; }
 
 .tooltip { 
     position: absolute; 
     text-align: left; 
     padding: 8px; 
     font: 12px sans-serif; 
-    background: rgba(52, 58, 64, 0.9);
-    color: white;
-    border: 0px; 
+    background: rgba(52, 58, 64, 0.9); 
+    color: white; 
     border-radius: 8px; 
     pointer-events: none; 
-    max-width: 300px;
+    max-width: 300px; 
 }
 
-/* --- 自定义日期输入框样式 --- */
+
+/* 日期输入控制器 */
+
 .date-control-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
 }
+
 .date-input-group {
     display: inline-flex;
     align-items: center;
-    /* --- 边框颜色 --- */
     border: 1px solid #495057;
     border-radius: 4px;
-    padding: 2px 5px;
+    padding: 2px 6px;
+    gap: 4px;
+}
+
+.date-input-group span {
+    color: #888;
+    padding-bottom: 2px;
+}
+
+.date-part-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 4px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transition: border-color 0.2s;
+    font-size: 0;
+    line-height: 0;
+}
+
+.arrow.up {
+    border-bottom: 5px solid #888;
+    margin-bottom: 2px;
+}
+.arrow.up:hover {
+    border-bottom-color: #fff;
+}
+
+.arrow.down {
+    border-top: 5px solid #888;
+    margin-top: 2px;
+}
+.arrow.down:hover {
+    border-top-color: #fff;
 }
 
 .date-part {
-    width: 4em;
+    width: 3.5em;
     border: none;
     text-align: center;
     font-size: 1em;
-    padding: 4px 0;
     background-color: transparent;
-    color: inherit; /* 继承body的浅色文字 */
+    color: inherit;
+    padding: 2px 0;
 }
 .date-part:focus {
     outline: none;
-    /* --- 输入框聚焦时的背景色 --- */
     background-color: rgba(255, 255, 255, 0.1);
 }
-
 .date-part::-webkit-outer-spin-button,
 .date-part::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -200,82 +234,77 @@ svg:active {
     appearance: none;
 }
 
-#start-month, #end-month,
-#start-day, #end-day {
-    width: 2.5em;
+#start-month, #end-month, #start-day, #end-day {
+    width: 2.2em;
 }
 
-/* --- 间隔控制 --- */
-.interval-control-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
+
+/* 时间间隔 & GitHub 链接 */
+.interval-control-container { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 4px; 
 }
-.date-separator {
-    font-size: 1.5em;
-    color: #888;
-    line-height: 1;
+.date-separator { 
+    font-size: 1.5em; 
+    color: #888; 
+    line-height: 1; 
 }
-.interval-inputs {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    margin-bottom: 4px;
+.interval-inputs { 
+    display: flex; 
+    gap: 5px; 
+    align-items: center; 
+    margin-bottom: 4px; 
 }
-.interval-part {
-    width: 3em;
-    border: 1px solid #495057;
-    background-color: transparent;
-    color: inherit;
-    text-align: center;
-    border-radius: 4px;
-    padding: 4px;
+.interval-part { 
+    width: 3em; 
+    border: 1px solid #495057; 
+    background-color: transparent; 
+    color: inherit; 
+    text-align: center; 
+    border-radius: 4px; 
+    padding: 4px; 
 }
-.interval-control-container button,
-.interval-control-container a {
-    font-size: 12px;
-    padding: 3px 8px;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
+.interval-control-container button, .interval-control-container a { 
+    font-size: 12px; 
+    padding: 3px 8px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    text-decoration: none; 
 }
-.interval-control-container button {
-    border: 1px solid #6c757d;
-    background-color: #343a40;
-    color: #f8f9fa;
+.interval-control-container button { 
+    border: 1px solid #6c757d; 
+    background-color: #343a40; 
+    color: #f8f9fa; 
 }
-.interval-control-container button:hover {
-    background-color: #495057;
+.interval-control-container button:hover { 
+    background-color: #495057; 
 }
-.interval-control-container a {
-    color: #7bade0;
+.interval-control-container a { 
+    color: #7bade0; 
 }
-.interval-control-container a:hover {
-    text-decoration: underline;
+.interval-control-container a:hover { 
+    text-decoration: underline; 
+}
+.hidden { 
+    display: none !important; 
 }
 
-.hidden {
-    display: none !important;
+.github-link { 
+    position: absolute; 
+    top: 50%; 
+    right: 20px; 
+    transform: translateY(-50%); 
+    line-height: 0; 
 }
-
-/* --- GitHub 图标样式 --- */
-.github-link {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    line-height: 0; /* 避免 SVG 产生额外的行高影响定位 */
+.github-link svg { 
+    width: 28px; 
+    height: 28px; 
+    fill: #e9ecef; 
+    transition: opacity 0.2s; 
 }
-
-.github-link svg {
-    width: 28px;  /* 调整到更合适的尺寸 */
-    height: 28px; /* 调整到更合适的尺寸 */
-    fill: #e9ecef;
-    transition: opacity 0.2s;
-}
-
-.github-link:hover svg {
-    opacity: 0.7;
+.github-link:hover svg { 
+    opacity: 0.7; 
 }
