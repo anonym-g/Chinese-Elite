@@ -49,8 +49,67 @@ USER_AGENT = 'ChineseEliteExplorer/1.0 (https://github.com/anonym-g/Chinese-Elit
 
 # --- 无向边配置 ---
 NON_DIRECTED_LINK_TYPES = {
-    'SIBLING_OF', 'LOVER_OF', 'SEXUAL_REL', 'RELATIVE_OF', 
+    'SIBLING_OF', 'LOVER_OF', 'RELATIVE_OF', 
     'FRIEND_OF', 'ENEMY_OF', 'MET_WITH'
+}
+
+# --- 关系清洗规则 ---
+# 定义关系类型与其端点节点类型之间的有效组合
+# 键: 关系类型
+# 值: 一个字典，包含 'source' 和 'target' 两个键，其值为允许的节点类型列表
+# 如果某个键不存在，则不进行该方向的类型检查
+RELATIONSHIP_TYPE_RULES = {
+    # --- 个人与个人 ---
+    "SPOUSE_OF":        {"source": ["Person"], "target": ["Person"]},
+    "PARENT_OF":        {"source": ["Person"], "target": ["Person"]},
+    "CHILD_OF":         {"source": ["Person"], "target": ["Person"]},
+    "SIBLING_OF":       {"source": ["Person"], "target": ["Person"]},
+    "LOVER_OF":         {"source": ["Person"], "target": ["Person"]},
+    "RELATIVE_OF":      {"source": ["Person"], "target": ["Person"]},
+    "MET_WITH":         {"source": ["Person"], "target": ["Person"]},
+
+    # --- 出生地 ---
+    "BORN_IN":          {"source": ["Person"], "target": ["Location"]},
+    
+    # --- 涉及组织 ---
+    "ALUMNUS_OF":       {
+        "source": ["Person"], 
+        "target": ["Organization"]
+    },
+    "MEMBER_OF":        {
+        "source": ["Person", "Organization"], 
+        "target": ["Organization"]
+    },
+    "SUBORDINATE_OF":   {
+        "source": ["Person", "Organization"], 
+        "target": ["Person", "Organization"]
+    },
+    "FRIEND_OF":        {
+        "source": ["Person", "Organization"], 
+        "target": ["Person", "Organization"]
+    },
+    "ENEMY_OF":         {
+        "source": ["Person", "Organization"], 
+        "target": ["Person", "Organization"]
+    },
+    "FOUNDED":          {
+        "source": ["Person", "Organization"], 
+        "target": ["Organization", "Movement"]
+    },
+    
+    # --- 通用关系 ---
+    "PUSHED":           {
+        "source": ["Person", "Organization", "Event", "Movement", "Document"], 
+        "target": ["Person", "Organization", "Event", "Movement", "Document"]
+    },
+    "BLOCKED":          {
+        "source": ["Person", "Organization", "Event", "Movement", "Document"],
+        "target": ["Person", "Organization", "Event", "Movement", "Document"]
+    },
+    "INFLUENCED":    {
+        "source": ["Person", "Organization", "Event", "Movement", "Document"],
+        "target": ["Person", "Organization", "Event", "Movement", "Document", "Location"]
+    }
 }
 
 # --- 全局配置 ---
