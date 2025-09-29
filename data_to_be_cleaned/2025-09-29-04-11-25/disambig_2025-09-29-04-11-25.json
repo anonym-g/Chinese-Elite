@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "id": "陈光美",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1907 - 1999",
+        "gender": "男"
+      }
+    },
+    {
+      "id": "陈觉民",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "王明之妹。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "陈独秀",
+      "target": "陈光美",
+      "type": "PARENT_OF",
+      "properties": {}
+    },
+    {
+      "source": "王明",
+      "target": "陈觉民",
+      "type": "SIBLING_OF",
+      "properties": {}
+    }
+  ]
+}
