@@ -47,5 +47,11 @@ WIKI_BASE_URL = "https://zh.wikipedia.org/zh-cn/"
 WIKI_API_URL = "https://zh.wikipedia.org/w/api.php"
 USER_AGENT = 'ChineseEliteExplorer/1.0 (https://github.com/anonym-g/Chinese-Elite)'
 
+# --- 无向边配置 ---
+NON_DIRECTED_LINK_TYPES = {
+    'SIBLING_OF', 'LOVER_OF', 'SEXUAL_REL', 'RELATIVE_OF', 
+    'FRIEND_OF', 'ENEMY_OF', 'MET_WITH'
+}
+
 # --- 全局配置 ---
 TIMEZONE = pytz.timezone('Asia/Shanghai')
