@@ -1,0 +1,301 @@
+{
+  "nodes": [
+    {
+      "id": "杨殷",
+      "type": "Person",
+      "aliases": [
+        "典乐",
+        "夔礼",
+        "孟揆",
+        "吕云峰"
+      ],
+      "properties": {
+        "period": null,
+        "lifetime": "1892-08 - 1929-08-30",
+        "location": null,
+        "birth_place": "香山县",
+        "death_place": null,
+        "gender": "男",
+        "description": "中国共产党早期领导人"
+      }
+    },
+    {
+      "id": "香山县",
+      "type": "Location",
+      "aliases": [],
+      "properties": {
+        "location": "广东"
+      }
+    },
+    {
+      "id": "广东",
+      "type": "Location",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "同盟会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "孙中山",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "大元帅府",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "工人运动",
+      "type": "Movement",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "粤汉铁路工人大罢工",
+      "type": "Event",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "张太雷",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "广州苏维埃政府",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中国共产党第六届中央委员会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中央政治局常委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中共中央军委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中共江苏省委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "白鑫",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "彭湃",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "陈赓",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "顾顺章",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中共中央特科",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "上海法租界",
+      "type": "Location",
+      "aliases": [
+        "法租界"
+      ],
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杨殷",
+      "target": "香山县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1892-08"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "同盟会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "杨殷",
+      "target": "孙中山",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1917",
+        "position": "卫队副官",
+        "description": "担任孙中山卫队副官"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "大元帅府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1917",
+        "position": "参军处参谋"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1922",
+        "end_date": "1929-08-30"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "工人运动",
+      "type": "PUSHED",
+      "properties": {
+        "description": "组织工人运动"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "粤汉铁路工人大罢工",
+      "type": "PUSHED",
+      "properties": {
+        "description": "组织粤汉铁路工人大罢工"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "广州苏维埃政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "代理主席",
+        "description": "张太雷阵亡后担任"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "中国共产党第六届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1928",
+        "position": "委员、政治局候补委员"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "中央政治局常委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1928-11",
+        "position": "常委"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "中共中央军委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929-01",
+        "position": "主任"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "中共江苏省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929-01",
+        "position": "军事部部长"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "彭湃",
+      "type": "FRIEND_OF",
+      "properties": {
+        "end_date": "1929-08-30",
+        "description": "与彭湃等人一同被捕并被处决"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "白鑫",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-08-24",
+        "description": "被白鑫出卖导致被捕"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "蒋介石",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-08-30",
+        "end_date": "1929-08-30",
+        "description": "被蒋介石下令枪决"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "周恩来",
+      "type": "FRIEND_OF",
+      "properties": {
+        "end_date": "1929-11-11",
+        "description": "周恩来组织中共中央特科人员为其报仇"
+      }
+    }
+  ]
+}
