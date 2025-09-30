@@ -13,7 +13,26 @@ body {
 
 /* 布局: 标题, 时间控制器, 图例 */
 
-.header, .controls, #legend-container {
+.header {
+    text-align: center;
+    padding: 0.8em;
+    background-color: #1c1c1c;
+    border-bottom: 1px solid #343a40;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1010; /* Header should be on top */
+}
+.header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 60px;
+    font-size: 1.5em;
+}
+
+.controls {
     text-align: center;
     padding: 0.5em;
     background-color: #1c1c1c;
@@ -23,16 +42,20 @@ body {
     align-items: center;
     gap: 15px;
     flex-shrink: 0;
-}
-
-.header {
     position: relative;
-    padding: 0.8em;
+    z-index: 1000;
 }
 
-.header h1 {
-    margin: 0;
-    font-size: 1.5em;
+#legend-container {
+    text-align: center;
+    padding: 0.5em;
+    background-color: #1c1c1c;
+    border-bottom: 1px solid #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
 }
 
 .controls {
@@ -45,16 +68,11 @@ body {
 }
 
 #legend-container {
-    /* 移除 height: auto; */
     overflow: hidden;
-    /* 动画过渡的目标属性是 max-height 和 padding */
     transition: max-height 0.35s ease-in-out, padding 0.35s ease-in-out;
-    /* 在展开状态下，设置一个足够大的最大高度 */
-    max-height: 500px; 
+    max-height: 500px;
     padding: 10px;
 }
-
-/* 收起状态 */
 #legend-container.collapsed {
     max-height: 0;
     padding-top: 0;
@@ -72,45 +90,40 @@ body {
     background-color: #2a2a2a;
     transition: background-color 0.2s;
 }
-
 .legend-item:hover {
     background-color: #383838;
 }
-
-.legend-item input[type="checkbox"] { 
-    margin: 0; 
+.legend-item input[type="checkbox"] {
+    margin: 0;
 }
-
-.legend-item .color-box { 
-    width: 14px; 
-    height: 14px; 
-    border-radius: 50%; 
-    border: 1px solid #555; 
+.legend-item .color-box {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #555;
 }
-
-.legend-item input[type="color"] { 
-    width: 20px; 
-    height: 20px; 
-    border: none; 
-    padding: 0; 
-    background: none; 
-    cursor: pointer; 
+.legend-item input[type="color"] {
+    width: 20px;
+    height: 20px;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
 }
 
 .legend-wrapper {
     position: relative;
     background-color: #1c1c1c;
     border-bottom: 1px solid #343a40;
+    z-index: 1000;
 }
 
 .legend-content {
-    /* padding: 10px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
 }
-
 .legend-toggle {
     position: absolute;
     bottom: -6px;
@@ -127,7 +140,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .toggle-lines {
     width: 20px;
     height: 10px;
@@ -135,115 +147,284 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
 .toggle-line {
     width: 100%;
     height: 1px;
     background-color: #888;
     transition: all 0.3s ease;
 }
-
 #legend-container.collapsed + .legend-toggle .toggle-line:first-child {
     transform: translateY(2px);
 }
-
 #legend-container.collapsed + .legend-toggle .toggle-line:last-child {
     transform: translateY(-2px);
 }
-
-/* 悬停效果 */
 .legend-toggle:hover .toggle-line {
     background-color: #fff;
 }
-
 .legend-toggle:hover .toggle-line:first-child {
     transform: translateY(1px);
 }
-
 .legend-toggle:hover .toggle-line:last-child {
     transform: translateY(-1px);
 }
 
+/* --- 搜索组件样式 --- */
+#search-trigger-container {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 1020;
+    display: flex;
+    align-items: center;
+}
+#search-toggle-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #495057;
+    background-color: #2a2a2a;
+    color: #f8f9fa;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+#search-toggle-btn.active {
+    border-radius: 8px;
+}
+#search-toggle-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+#search-toggle-btn:hover {
+    background-color: #383838;
+}
+
+#search-mode-selector {
+    position: relative;
+    margin-left: 8px;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateX(-10px);
+    width: 0;
+    visibility: hidden;
+}
+#search-trigger-container.active #search-mode-selector {
+    opacity: 1;
+    transform: translateX(0);
+    width: auto;
+    visibility: visible;
+}
+#search-mode-current {
+    display: flex;
+    align-items: center;
+    background-color: #343a40;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #6c757d;
+}
+#search-mode-current .chevron-down {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    transition: transform 0.2s;
+}
+#search-mode-current.open .chevron-down {
+    transform: rotate(180deg);
+}
+#search-mode-options {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: #2a2a2a;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    width: 100%;
+    transition: all 0.2s;
+    transform-origin: top;
+}
+#search-mode-options.collapsed {
+    transform: scaleY(0);
+    opacity: 0;
+    visibility: hidden;
+}
+#search-mode-options li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+#search-mode-options li:hover {
+    background-color: #495057;
+}
+
+#search-input-panel {
+    position: absolute;
+    left: 15px;
+    width: 260px;
+    max-width: calc(100vw - 30px);
+    background-color: #2a2a2a;
+    border: 1px solid #495057;
+    border-top: none;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    transition: transform 0.35s ease-in-out;
+    transform: translateY(-150%);
+}
+#search-input-panel.collapsed {
+    transform: translateY(-150%);
+}
+#search-input-panel:not(.collapsed) {
+    transform: translateY(0);
+}
+#search-panel-close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    color: #adb5bd;
+    font-size: 20px;
+    cursor: pointer;
+}
+.search-content {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+.search-content.active {
+    display: flex;
+}
+.search-content input,
+.search-content button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #6c757d;
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+.search-content input::placeholder {
+    color: #adb5bd;
+}
+.search-content button {
+    cursor: pointer;
+    background-color: #495057;
+}
+.search-content button:hover {
+    background-color: #6c757d;
+}
+.search-content input[type="number"] {
+    -moz-appearance: textfield; /* 针对旧版 Firefox */
+    appearance: textfield;      /* 标准属性，适用于所有现代浏览器 */
+}
+.search-content input:-webkit-autofill,
+.search-content input:-webkit-autofill:hover,
+.search-content input:-webkit-autofill:focus,
+.search-content input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #343a40 inset !important;
+    -webkit-text-fill-color: #f8f9fa !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
 /* 图，以及SVG */
-
-#graph-container { 
-    width: 100%; 
-    flex-grow: 1; 
-    overflow: hidden; 
-    background-color: #121212; 
+#graph-container {
+    width: 100%;
+    flex-grow: 1;
+    overflow: hidden;
+    background-color: #121212;
+}
+svg {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
+svg:active {
+    cursor: grabbing;
+}
+.node circle {
+    stroke: #fff;
+    stroke-width: 2px;
+    transition: opacity 0.3s, stroke 0.3s, stroke-width 0.3s;
+}
+.node text {
+    font-size: 10px;
+    text-anchor: middle;
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 0.4px;
+    paint-order: stroke;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+.link {
+    fill: none;
+    stroke: #fff;
+    stroke-opacity: 0.6;
+    transition: stroke 0.3s, stroke-opacity 0.3s, stroke-width 0.3s;
+}
+.link-label {
+    font-size: 8px;
+    fill: #adb5bd;
+    text-anchor: middle;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+.node.highlight circle {
+    stroke: #f00;
+    stroke-width: 3px;
+}
+.node.faded,
+.link.faded,
+.link-label.faded {
+    opacity: 0.1 !important;
+    pointer-events: none;
 }
 
-svg { 
-    width: 100%; 
-    height: 100%; 
-    cursor: grab; 
+/* --- 路径高亮样式修改 --- */
+.link.path-highlight {
+    stroke-opacity: 1 !important;
+    /* stroke-width 保持不变，仅靠颜色和透明度高亮 */
 }
-
-svg:active { 
-    cursor: grabbing; 
+.node.path-highlight circle {
+    stroke-width: 3px !important; /* 与单击高亮时宽度一致 */
 }
-
-.node circle { 
-    stroke: #fff; 
-    stroke-width: 2px; 
-    transition: opacity 0.3s; 
+.node.path-highlight.path-source circle {
+    stroke: #ffdd00 !important;
 }
-
-.node text { 
-    font-size: 10px; 
-    text-anchor: middle; 
-    fill: #fff; 
-    stroke: #000; 
-    stroke-width: 0.4px; 
-    paint-order: stroke; 
-    pointer-events: none; 
-    transition: opacity 0.3s; 
+.node.path-highlight.path-target circle {
+    stroke: #ff6600 !important;
 }
-
-.link { 
-    fill: none; 
-    stroke: #fff; 
-    stroke-opacity: 0.6; 
-    transition: stroke 0.3s, stroke-opacity 0.3s; 
+.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: rgba(52, 58, 64, 0.9);
+    color: white;
+    border-radius: 8px;
+    pointer-events: none;
+    max-width: 300px;
 }
-
-.link-label { 
-    font-size: 8px; 
-    fill: #adb5bd; 
-    text-anchor: middle; 
-    pointer-events: none; 
-    transition: opacity 0.3s; 
-}
-
-/* 高亮 */
-.node.highlight circle { 
-    stroke: #f00; 
-    stroke-width: 3px; 
-}
-
-.node.faded, .link.faded, .link-label.faded { opacity: 0.1 !important; }
-
-.tooltip { 
-    position: absolute; 
-    text-align: left; 
-    padding: 8px; 
-    font: 12px sans-serif; 
-    background: rgba(52, 58, 64, 0.9); 
-    color: white; 
-    border-radius: 8px; 
-    pointer-events: none; 
-    max-width: 300px; 
-}
-
 
 /* 日期输入控制器 */
-
 .date-control-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .date-input-group {
     display: inline-flex;
     align-items: center;
@@ -252,52 +433,44 @@ svg:active {
     padding: 2px 6px;
     gap: 4px;
 }
-
 .date-input-group span {
     color: #888;
     padding-bottom: 2px;
 }
-
 .date-part-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .arrow {
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
     margin: 0 4px;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     transition: border-color 0.2s;
     font-size: 0;
     line-height: 0;
 }
-
 .arrow.up {
     border-bottom: 5px solid #888;
     margin-bottom: 2px;
 }
-
 .arrow.up:hover {
     border-bottom-color: #fff;
 }
-
 .arrow.down {
     border-top: 5px solid #888;
     margin-top: 2px;
 }
-
 .arrow.down:hover {
     border-top-color: #fff;
 }
-
 .date-part {
     width: 2.2em;
     border: none;
@@ -307,12 +480,10 @@ svg:active {
     color: inherit;
     padding: 2px 0;
 }
-
 .date-part:focus {
     outline: none;
     background-color: rgba(255, 255, 255, 0.1);
 }
-
 .date-part::-webkit-outer-spin-button,
 .date-part::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -322,133 +493,171 @@ svg:active {
     -moz-appearance: textfield;
     appearance: none;
 }
-
-#start-month, #end-month, #start-day, #end-day {
+#start-month,
+#end-month,
+#start-day,
+#end-day {
     width: 2em;
 }
 
-
 /* 时间间隔 & GitHub 链接 */
-
-.interval-control-container { 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    gap: 4px; 
+.interval-control-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.date-separator {
+    font-size: 1.5em;
+    color: #888;
+    line-height: 1;
+}
+.interval-inputs {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.interval-part {
+    width: 2em;
+    border: 1px solid #495057;
+    background-color: transparent;
+    color: inherit;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px;
+}
+.interval-control-container button,
+.interval-control-container a {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.interval-control-container button {
+    border: 1px solid #6c757d;
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+.interval-control-container button:hover {
+    background-color: #495057;
+}
+.interval-control-container a {
+    color: #7bade0;
+}
+.interval-control-container a:hover {
+    text-decoration: underline;
+}
+.hidden {
+    display: none !important;
+}
+.github-link {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    line-height: 0;
+}
+.github-link svg {
+    width: 28px;
+    height: 28px;
+    fill: #e9ecef;
+    transition: opacity 0.2s;
+}
+.github-link:hover svg {
+    opacity: 0.7;
 }
 
-.date-separator { 
-    font-size: 1.5em; 
-    color: #888; 
-    line-height: 1; 
+/* --- 错误提示框样式 --- */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
-
-.interval-inputs { 
-    display: flex; 
-    gap: 5px; 
-    align-items: center; 
-    margin-bottom: 4px; 
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
 }
-
-.interval-part { 
-    width: 2em; 
-    border: 1px solid #495057; 
-    background-color: transparent; 
-    color: inherit; 
-    text-align: center; 
-    border-radius: 4px; 
-    padding: 4px; 
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d9534f;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    animation: slideIn 0.5s forwards;
+    z-index: 2000;
 }
-
-.interval-control-container button, .interval-control-container a { 
-    font-size: 12px; 
-    padding: 3px 8px; 
-    border-radius: 4px; 
-    cursor: pointer; 
-    text-decoration: none; 
+.toast.closing {
+    animation: slideOut 0.5s forwards;
 }
-
-.interval-control-container button { 
-    border: 1px solid #6c757d; 
-    background-color: #343a40; 
-    color: #f8f9fa; 
+#error-toast-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0.8;
 }
-
-.interval-control-container button:hover { 
-    background-color: #495057; 
-}
-
-.interval-control-container a { 
-    color: #7bade0; 
-}
-
-.interval-control-container a:hover { 
-    text-decoration: underline; 
-}
-
-.hidden { 
-    display: none !important; 
-}
-
-.github-link { 
-    position: absolute; 
-    top: 50%; 
-    right: 20px; 
-    transform: translateY(-50%); 
-    line-height: 0; 
-}
-
-.github-link svg { 
-    width: 28px; 
-    height: 28px; 
-    fill: #e9ecef; 
-    transition: opacity 0.2s; 
-}
-
-.github-link:hover svg { 
-    opacity: 0.7; 
+#error-toast-close:hover {
+    opacity: 1;
 }
 
 /* --- 优化移动端横向布局 --- */
 @media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.1em;
+        margin: 0 40px;
+        flex-grow: 1;
+        text-align: center;
+    }
     .controls {
-        /* 强制不换行，并调整间距以适应小屏幕 */
         flex-wrap: nowrap;
-        gap: 8px; /* 减小控件之间的主间距 */
+        gap: 8px;
         padding-left: 8px;
         padding-right: 8px;
     }
-
     .controls label {
-        display: none; /* 隐藏文字标签，节省大量空间 */
+        display: none;
     }
-    
     .date-input-group {
-        padding: 2px 4px; /* 减小日期输入框的内边距 */
-        gap: 2px;       /* 减小年/月/日之间的间距 */
+        padding: 2px 4px;
+        gap: 2px;
     }
-
-    /* 缩小日期输入框的字体和宽度 */
     .date-part {
         font-size: 0.9em;
         width: 2.1em;
     }
-    #start-month, #end-month, #start-day, #end-day {
+    #start-month,
+    #end-month,
+    #start-day,
+    #end-day {
         width: 1.8em;
     }
-
     .interval-control-container {
-        font-size: 0.9em; /* 缩小“设置间隔”等按钮的字体 */
+        font-size: 0.9em;
     }
     .date-separator {
-        display: none; /* 隐藏日期控件之间的破折号 */
-    }
-
-    /* 调整标题和GitHub图标为移动端优化 */
-    .header h1 {
-        font-size: 1.1em;
-        margin-left: 35px; /* 为GitHub图标留出空间 */
+        display: none;
     }
     .github-link {
         right: 8px;
@@ -457,15 +666,49 @@ svg:active {
         width: 24px;
         height: 24px;
     }
+    #search-trigger-container {
+        left: 8px;
+    }
+    
+    /* 1. 缩小“节点/路径”选择器 */
+    #search-mode-current {
+        padding: 6px 10px; /* 减小内边距 */
+        font-size: 0.9em;  /* 减小字体 */
+    }
+
+    #search-mode-current .chevron-down {
+        width: 16px; /* 减小下拉箭头图标 */
+        height: 16px;
+    }
+    
+    /* 2. 缩小整个搜索面板 */
+    #search-input-panel {
+        width: 240px; /* 减小面板宽度 */
+        padding: 10px; /* 减小面板内边距 */
+        left: 8px; /* 与搜索按钮左侧对齐 */
+    }
+
+    .search-content {
+        gap: 8px; /* 减小内部件间距 */
+    }
+
+    /* 3. 缩小面板内的输入框和按钮 */
+    .search-content input,
+    .search-content button {
+        padding: 6px; /* 减小内边距，从而减小高度 */
+        font-size: 0.9em; /* 减小字体 */
+    }
 }
 
-/* 针对非常窄的屏幕做最后的兼容 */
 @media (max-width: 400px) {
     .date-part {
-       width: 2em;
+        width: 2em;
     }
-    #start-month, #end-month, #start-day, #end-day {
-       width: 1.5em;
+    #start-month,
+    #end-month,
+    #start-day,
+    #end-day {
+        width: 1.5em;
     }
     .controls {
         gap: 5px;
