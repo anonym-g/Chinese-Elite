@@ -29,7 +29,7 @@
     {
       "source": "源节点的id",
       "target": "目标节点的id",
-      "type": "关系类型，严格从以下列表中选择：['BORN_IN', 'ALUMNUS_OF', 'MEMBER_OF', 'CHILD_OF', 'SPOUSE_OF', 'SIBLING_OF', 'LOVER_OF', 'PARENT_OF', 'RELATIVE_OF', 'FRIEND_OF', 'ENEMY_OF', 'SUBORDINATE_OF', 'MET_WITH', 'PUSHED', 'BLOCKED', 'INFLUENCED', 'FOUNDED']",
+      "type": "关系类型，严格从以下列表中选择：['BORN_IN', 'ALUMNUS_OF', 'MEMBER_OF', 'CHILD_OF', 'SPOUSE_OF', 'SIBLING_OF', 'LOVER_OF', 'RELATIVE_OF', 'FRIEND_OF', 'ENEMY_OF', 'SUBORDINATE_OF', 'MET_WITH', 'PUSHED', 'BLOCKED', 'INFLUENCED', 'FOUNDED']",
       "properties": {
         "start_date": "关系开始的年份 (YYYY) 、年月 (YYYY-MM)或年月日 (YYYY-MM-DD)"（如果有多个不连续时期，建议使用数组表示）,
         "end_date": "关系结束的年份 (YYYY) 、年月 (YYYY-MM)或年月日 (YYYY-MM-DD)"（同上）,
@@ -53,7 +53,6 @@
     * `SIBLING_OF` (兄弟姐妹): 用于描述兄弟姐妹关系。源节点和目标节点均为'Person'类型。
     * `LOVER_OF` (情人): 用于描述情爱关系。源节点和目标节点均为'Person'类型。
     * `RELATIVE_OF` (亲戚): 用于描述除父母、子女、兄弟姐妹、配偶、恋人以外的其他亲戚关系，如堂兄弟姐妹、表兄弟姐妹、叔伯、姑姨等。源节点和目标节点均为'Person'类型。
-    * `PARENT_OF` (父母): 用于描述亲子关系。源节点为父母，目标节点为子女。源节点和目标节点均为'Person'类型。
     * `SUBORDINATE_OF` (下级): 源节点相对目标级别更低时使用。例如，“李强在中共中央政治局常委中排名低于习近平”，source为“李强 (1959年)”、target为“习近平”时，type为“SUBORDINATE_OF”。
     * `FRIEND_OF` (交好): 用于描述源节点与目标节点之间的私人友谊或密切关系。通常基于公开报道的互动、合作或共同活动。避免基于职位或组织关系进行推断。
     * `ENEMY_OF` (交恶): 用于描述源节点与目标节点之间的敌对或对立关系。通常基于公开报道的冲突、竞争或对抗行为。避免基于职位或组织关系进行推断。

@@ -3,8 +3,8 @@
 import os
 import json
 from datetime import datetime
-from config import USER_AGENT, RELATIONSHIP_TYPE_RULES
-from utils import WikipediaClient
+from config import USER_AGENT, RELATIONSHIP_TYPE_RULES, BAIDU_BASE_URL, CDSPACE_BASE_URL
+from utils import WikipediaClient, add_title_to_list
 
 class GraphCleaner:
     """封装了清理图谱数据（验证维基链接、清理无效关系）的逻辑。"""
@@ -41,7 +41,12 @@ class GraphCleaner:
             print(f"[!] 警告：无法写入缓存文件 - {e}")
 
     def _check_nodes(self, nodes: list) -> dict:
-        """遍历所有节点，检查其维基链接状态。"""
+        """
+        遍历所有节点，检查其维基链接状态，并根据新规则执行操作：
+        1. 将所有最终有效的维基标题添加到 LIST.txt。
+        2. 仅将非简繁重定向、消歧义、不存在的页面标记为“问题节点”。
+        3. 缓存中明确记录备用来源。
+        """
         problematic_nodes = {
             "REDIRECT": {}, "NO_PAGE": set(), "DISAMBIG": set(), "ERROR": set()
         }
@@ -53,33 +58,122 @@ class GraphCleaner:
             if not node_id: continue
 
             if node.get('properties', {}).get('verified_node', False):
-                print(f"  ({i+1}/{total_nodes}) 正在检查: '{node_id}'... [已验证, 跳过]")
+                print(f"  ({i+1}/{total_nodes}) 检查: '{node_id}'... [已验证, 跳过]")
                 continue
 
-            print(f"  ({i+1}/{total_nodes}) 正在检查: '{node_id}'...", end='', flush=True)
+            print(f"  ({i+1}/{total_nodes}) 检查: '{node_id}'...", end='', flush=True)
 
+            # --- 检查逻辑 ---
+            status, detail = (None, None)
             if node_id in self.link_cache:
-                status = self.link_cache[node_id]['status']
+                cached_data = self.link_cache[node_id]
+                status = cached_data['status']
+                detail = cached_data.get('detail')
                 print(f" [缓存: {status}]")
             else:
                 status, detail = self.wiki_client.check_link_status(node_id)
-                self.link_cache[node_id] = {'status': status, 'detail': detail}
-                self.cache_updated = True
-                print(f" -> {status}")
+                print(f" -> Wiki状态: {status}")
+                # 只有有效的Wiki检查结果才被缓存
+                if status not in ["NO_PAGE", "ERROR"]:
+                     self.link_cache[node_id] = {'status': status, 'detail': detail}
+                     self.cache_updated = True
 
-            status = self.link_cache[node_id]['status']
-            detail = self.link_cache[node_id].get('detail')
-
-            if status == "REDIRECT":
+            # --- 根据状态执行不同操作 ---
+            if status == "OK":
+                add_title_to_list(node_id)
+            
+            elif status == "SIMP_TRAD_REDIRECT":
+                if detail: add_title_to_list(detail)
+                # 注意：不将 node_id 添加到 problematic_nodes
+                
+            elif status == "REDIRECT":
+                if detail: add_title_to_list(detail)
                 problematic_nodes["REDIRECT"][node_id] = detail
-            elif status == "NO_PAGE":
-                problematic_nodes["NO_PAGE"].add(node_id)
+            
             elif status == "DISAMBIG":
                 problematic_nodes["DISAMBIG"].add(node_id)
             elif status == "ERROR":
-                problematic_nodes["ERROR"].add(node_id)
+                 problematic_nodes["ERROR"].add(node_id)
+
+            # 如果维基页面不存在，则回退检查
+            elif status == "NO_PAGE":
+                print(f"  ...维基页面不存在，正在检查备用来源...", end='', flush=True)
+                final_status_for_cache = None
+                
+                # 记录备用来源
+                if self.wiki_client.check_generic_url(BAIDU_BASE_URL, node_id):
+                    print(" [备用来源: Baidu] -> 此节点保留。")
+                    final_status_for_cache = "BAIDU"
+                elif self.wiki_client.check_generic_url(CDSPACE_BASE_URL, node_id):
+                    print(" [备用来源: CDT] -> 此节点保留。")
+                    final_status_for_cache = "CDSPACE"
+                else:
+                    print(" [备用来源也不存在] -> 标记为问题节点。")
+                    problematic_nodes["NO_PAGE"].add(node_id)
+                
+                # 如果找到了备用来源，更新缓存
+                if final_status_for_cache:
+                    self.link_cache[node_id] = {'status': final_status_for_cache, 'detail': None}
+                    self.cache_updated = True
         
         return problematic_nodes
+    
+    def _sanitize_nodes(self, nodes: list) -> list:
+        """
+        移除节点中的不当属性。
+        - Person类型移除 'period'
+        - 非Person类型移除 'lifetime', 'gender', 'birth_place', 'death_place'
+        """
+        for node in nodes:
+            props = node.get('properties')
+            if not props: continue
+
+            node_type = node.get('type')
+            
+            if node_type == 'Person':
+                if 'period' in props:
+                    del props['period']
+            else:
+                for key_to_remove in ['lifetime', 'gender', 'birth_place', 'death_place']:
+                    if key_to_remove in props:
+                        del props[key_to_remove]
+        return nodes
+
+    def _deep_clean_object(self, data):
+        """
+        递归地移除字典和列表中的所有空字符串 "" 和 None/null 值。
+        """
+        if isinstance(data, dict):
+            # 使用 list() 来创建一个键的副本，以允许在迭代期间安全地删除键
+            for key in list(data.keys()):
+                value = data[key]
+                if value in (None, ""):
+                    del data[key]
+                elif isinstance(value, (dict, list)):
+                    # 递归清理嵌套的字典或列表
+                    self._deep_clean_object(value)
+                    # 如果清理后，一个字典变空了（常见于properties），也考虑是否删除它
+                    if isinstance(value, dict) and not value:
+                         del data[key]
+                elif isinstance(value, list) and not value: # 如果列表为空，也删除
+                    del data[key]
+
+        elif isinstance(data, list):
+            i = 0
+            while i < len(data):
+                item = data[i]
+                if item in (None, ""):
+                    data.pop(i)
+                elif isinstance(item, (dict, list)):
+                    self._deep_clean_object(item)
+                    # 如果清理后列表/字典变为空，也将其从列表中移除
+                    if not item:
+                        data.pop(i)
+                    else:
+                        i += 1
+                else:
+                    i += 1
+        return data
 
     def run(self):
         """执行完整的清理流程。"""
@@ -145,8 +239,18 @@ class GraphCleaner:
             good_relationships.append(rel)
         
         print(f"[*] 关系清理完成。保留了 {len(good_relationships)} 个有效关系，移除了 {len(invalid_relationships_log)} 个无效关系。")
+
+        # --- 步骤 3: 对保留的数据进行深度净化 ---
+        print("\n[*] 开始最终数据净化 (移除不当属性和空值)...")
+        # 3a: 移除节点的不当属性
+        sanitized_nodes = self._sanitize_nodes(good_nodes)
         
-        # --- 步骤 3: 整理并保存所有待清理的数据 ---
+        # 3b: 递归移除所有空值
+        final_nodes = self._deep_clean_object(sanitized_nodes)
+        final_relationships = self._deep_clean_object(good_relationships)
+        print("[+] 数据净化完成。")
+        
+        # --- 步骤 4: 整理并保存所有待清理的数据 ---
         if not all_bad_node_ids and not invalid_relationships_log:
             print("\n[+] 整体检查完成，图谱数据健康，无需执行清理操作。")
             self._save_cache()
@@ -191,10 +295,10 @@ class GraphCleaner:
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(invalid_relationships_log, f, indent=2, ensure_ascii=False)
 
-        # --- 步骤 4: 覆写主图谱文件 ---
+        # --- 步骤 5: 覆写主图谱文件 ---
         print(f"\n[*] 正在用干净的数据覆盖原始文件: {self.graph_path}")
         with open(self.graph_path, 'w', encoding='utf-8') as f:
-            json.dump({'nodes': good_nodes, 'relationships': good_relationships}, f, indent=2, ensure_ascii=False)
+            json.dump({'nodes': final_nodes, 'relationships': final_relationships}, f, indent=2, ensure_ascii=False)
 
         self._save_cache()
         print("\n[+] 清理完成！")

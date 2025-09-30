@@ -45,6 +45,8 @@ FEW_SHOT_REL_SAMPLES = 12
 # --- API 与外部服务配置 ---
 WIKI_BASE_URL = "https://zh.wikipedia.org/zh-cn/"
 WIKI_API_URL = "https://zh.wikipedia.org/w/api.php"
+BAIDU_BASE_URL = "https://baike.baidu.com/item/"
+CDSPACE_BASE_URL = "https://chinadigitaltimes.net/space/"
 USER_AGENT = 'ChineseEliteExplorer/1.0 (https://github.com/anonym-g/Chinese-Elite)'
 
 # --- 无向边配置 ---
@@ -61,7 +63,6 @@ NON_DIRECTED_LINK_TYPES = {
 RELATIONSHIP_TYPE_RULES = {
     # --- 个人与个人 ---
     "SPOUSE_OF":        {"source": ["Person"], "target": ["Person"]},
-    "PARENT_OF":        {"source": ["Person"], "target": ["Person"]},
     "CHILD_OF":         {"source": ["Person"], "target": ["Person"]},
     "SIBLING_OF":       {"source": ["Person"], "target": ["Person"]},
     "LOVER_OF":         {"source": ["Person"], "target": ["Person"]},
