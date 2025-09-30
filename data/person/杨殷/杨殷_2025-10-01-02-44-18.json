@@ -1,0 +1,324 @@
+{
+  "nodes": [
+    {
+      "id": "杨殷",
+      "type": "Person",
+      "aliases": [
+        "典乐",
+        "夔礼",
+        "孟揆",
+        "吕云峰"
+      ],
+      "properties": {
+        "lifetime": "1892-08 - 1929-08-30",
+        "gender": "男",
+        "birth_place": "香山县",
+        "description": "中国共产党早期领导人"
+      }
+    },
+    {
+      "id": "广东",
+      "type": "Location",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "香山县",
+      "type": "Location",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "中国的执政党"
+      }
+    },
+    {
+      "id": "同盟会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "中国近代第一个全国性的资产阶级革命政党"
+      }
+    },
+    {
+      "id": "孙中山",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "中国近代民主革命的伟大先行者"
+      }
+    },
+    {
+      "id": "大元帅府",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "孙中山在广州建立的政权机构"
+      }
+    },
+    {
+      "id": "张太雷",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党早期领导人"
+      }
+    },
+    {
+      "id": "中国共产党第六届中央委员会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "中国共产党在1928年至1945年间的中央领导机构"
+      }
+    },
+    {
+      "id": "中央政治局常委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "中国共产党中央政治局常务委员会的成员或机构"
+      }
+    },
+    {
+      "id": "中共中央军委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "中国共产党中央军事委员会"
+      }
+    },
+    {
+      "id": "白鑫",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "中共早期党员，后叛变"
+      }
+    },
+    {
+      "id": "彭湃",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党早期领导人，农民运动领袖"
+      }
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "中华民国政治家及军事家"
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "中华人民共和国第一任国务院总理"
+      }
+    },
+    {
+      "id": "陈赓",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "中国人民解放军大将"
+      }
+    },
+    {
+      "id": "顾顺章",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "中共早期领导人，中央特科负责人之一，后叛变"
+      }
+    },
+    {
+      "id": "中共中央特科",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "中国共产党在1927年至1935年间设立的情报和政治保卫机关"
+      }
+    },
+    {
+      "id": "上海法租界",
+      "type": "Location",
+      "aliases": [
+        "法租界"
+      ],
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杨殷",
+      "target": "香山县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "杨殷",
+      "target": "同盟会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "杨殷",
+      "target": "孙中山",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1917",
+        "position": "卫队副官"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "大元帅府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1917",
+        "position": "参军处参谋"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1922"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "中国共产党第六届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1928",
+        "position": [
+          "委员",
+          "政治局候补委员"
+        ]
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "中央政治局常委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1928-11"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "中共中央军委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929-01",
+        "position": "主任"
+      }
+    },
+    {
+      "source": "白鑫",
+      "target": "杨殷",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-08-24",
+        "description": "因告密导致杨殷被捕"
+      }
+    },
+    {
+      "source": "蒋介石",
+      "target": "杨殷",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-08-30",
+        "description": "下令枪决杨殷"
+      }
+    },
+    {
+      "source": "杨殷",
+      "target": "彭湃",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "一同被捕的中共领导人"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "白鑫",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-11-11",
+        "description": "组织刺杀白鑫为杨殷、彭湃等人报仇"
+      }
+    },
+    {
+      "source": "陈赓",
+      "target": "白鑫",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-11-11",
+        "description": "参与刺杀白鑫"
+      }
+    },
+    {
+      "source": "顾顺章",
+      "target": "白鑫",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-11-11",
+        "description": "参与刺杀白鑫"
+      }
+    },
+    {
+      "source": "中共中央特科",
+      "target": "白鑫",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-11-11",
+        "description": "执行刺杀白鑫的任务"
+      }
+    },
+    {
+      "source": "陈赓",
+      "target": "中共中央特科",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": "作为中共中央特科人员参与行动"
+      }
+    },
+    {
+      "source": "顾顺章",
+      "target": "中共中央特科",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": "作为中共中央特科人员参与行动"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "中共中央特科",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1929-11-11",
+        "description": "组织中共中央特科人员刺杀白鑫"
+      }
+    }
+  ]
+}

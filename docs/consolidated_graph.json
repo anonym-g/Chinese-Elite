@@ -359,11 +359,11 @@
       ],
       "properties": {
         "lifetime": "1898-10-24 - 1974-11-29",
-        "birth_place": "湖南省湘潭县石潭镇",
-        "death_place": "中国人民解放军总医院",
+        "birth_place": "清朝湖南省湘潭县石潭镇",
+        "death_place": "中华人民共和国北京市海淀区中国人民解放军总医院",
         "gender": "男",
         "location": "中国",
-        "description": "中华人民共和国元帅，中国共产党、国家和军队的杰出领导人，军事家、政治家。朝鲜战争期间任中国人民志愿军司令员。在文化大革命中被迫害致死。"
+        "description": "中华人民共和国元帅，中国共产党、国家和军队的杰出领导人，军事家、政治家。曾任中国人民志愿军司令员。在庐山会议上因批评大跃进被打倒，后在文化大革命中被迫害致死。"
       }
     },
     {
@@ -378,7 +378,7 @@
         "birth_place": "湖南省桑植县",
         "death_place": "北京市",
         "gender": "男",
-        "description": "中华人民共和国元帅，中国工农红军与中国人民解放军的主要创始人之一，在文化大革命中被迫害致死。曾任中华人民共和国国务院副总理、中央军事委员会副主席。",
+        "description": "中华人民共和国元帅，中国工农红军与中国人民解放军的主要创始人之一，曾与任弼时共同指挥红二方面军。曾任中华人民共和国国务院副总理、中央军事委员会副主席。在文化大革命中被迫害致死。",
         "location": "中国"
       }
     },
@@ -529,12 +529,16 @@
       "aliases": [
         "中华人民共和国中央人民政府",
         "中央人民政府",
-        "国务院"
+        "国务院",
+        "中央人民政府政务院"
       ],
       "properties": {
-        "period": "1954-09-27",
+        "period": [
+          "1949 - 1954-09-26",
+          "1954-09-27 - "
+        ],
         "location": "北京市",
-        "description": "中华人民共和国最高国家行政机关，是最高国家权力机关的执行机关。它也是中华人民共和国中央人民政府。"
+        "description": "中华人民共和国最高国家行政机关，是最高国家权力机关的执行机关。其前身是中央人民政府政务院（设立于1949年），皆属中华人民共和国中央人民政府的行政机构。国务院本身亦是中华人民共和国中央人民政府。"
       }
     },
     {
@@ -1159,11 +1163,13 @@
     {
       "id": "二月逆流",
       "type": "Event",
-      "aliases": [],
+      "aliases": [
+        "二月抗争"
+      ],
       "properties": {
         "period": "1967-02",
         "location": "北京怀仁堂",
-        "description": "中共元老对文革混乱局势的抗争，被张春桥等人称为“二月逆流”。"
+        "description": "文化大革命期间，中共元老对文革混乱局势和错误做法的抵制事件，被张春桥等人称为“二月逆流”。"
       }
     },
     {
@@ -1357,7 +1363,7 @@
       ],
       "properties": {
         "location": "中华人民共和国",
-        "description": "中华人民共和国首都，叶剑英逝世地及曾任市长地。华国锋的逝世地和长期居住地。周恩来逝世地。毛泽东逝世地。董必武逝世地。陈云逝世地。康生逝世地。江青晚年居住、逝世及审判地。姚依林的逝世地。"
+        "description": "中华人民共和国首都，叶剑英逝世地及曾任市长地。华国锋的逝世地和长期居住地。周恩来逝世地。毛泽东逝世地。董必武逝世地。陈云逝世地。康生逝世地。江青晚年居住、逝世及审判地。姚依林的逝世地。蔡畅的逝世地。任弼时逝世地。李维汉的逝世地。"
       }
     },
     {
@@ -1428,7 +1434,9 @@
     {
       "id": "长征",
       "type": "Event",
-      "aliases": [],
+      "aliases": [
+        "二万五千里长征"
+      ],
       "properties": {
         "period": "1934-10 - 1936-10",
         "location": "中国",
@@ -1785,12 +1793,13 @@
       "aliases": [
         "云时雨",
         "云泽",
-        "王自力"
+        "王自力",
+        "Ulanhu"
       ],
       "properties": {
         "lifetime": "1906-12-23 - 1988-12-08",
         "location": "中华人民共和国",
-        "birth_place": "内蒙古土默特左旗",
+        "birth_place": "归化城土默特塔布村",
         "death_place": "北京市",
         "gender": "男",
         "description": "乌兰夫是中国共产党和中华人民共和国的蒙古族高级领导人、政治人物，原正国级领导人，中国人民解放军开国上将，有“蒙古王”之称。他曾任中华人民共和国副主席，并在文革中被打倒。"
@@ -2204,7 +2213,12 @@
     {
       "id": "李铁映",
       "type": "Person",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "lifetime": "1936-09 - ",
+        "gender": "男",
+        "description": "李维汉与金维映之子，曾任全国人大常委会副委员长。"
+      }
     },
     {
       "id": "秦基伟",
@@ -2912,7 +2926,7 @@
         "birth_place": "湖南省永兴县",
         "death_place": "北京市",
         "gender": "男",
-        "description": "中国人民解放军大将，曾任国防部副部长、总参谋长、中纪委常务书记。"
+        "description": "中国人民解放军大将，曾任国防部副部长、总参谋长、中纪委常务书记，因在庐山会议支持彭德怀被打成反党集团成员。"
       }
     },
     {
@@ -3094,7 +3108,7 @@
         "birth_place": "湖南省会同县",
         "death_place": "北京市中国人民解放军总医院",
         "gender": "男",
-        "description": "中国人民解放军的主要领导人之一。中国无产阶级革命家、军事家。中国共产党、中华人民共和国政治和军事人物，原副国级领导人。1955年被授予大将军衔，位于开国十位大将第一。曾任总参谋长、国防部副部长。"
+        "description": "中国人民解放军的主要领导人之一，无产阶级革命家、军事家。中国共产党、中华人民共和国政治和军事人物，原副国级领导人。1955年被授予大将军衔，位列开国十位大将之首。曾任总参谋长、国防部副部长。1958年，在军委扩大会议上受到彭德怀等人的批判。"
       }
     },
     {
@@ -3104,9 +3118,9 @@
         "庐山会议"
       ],
       "properties": {
-        "period": "1959-07",
+        "period": "1959-07 - 1959-08",
         "location": "江西省庐山",
-        "description": "1959年中国共产党在庐山召开的中共中央政治局扩大会议和八届八中全会，会议后期转向批判彭德怀等人。"
+        "description": "1959年中国共产党在庐山召开的中共中央政治局扩大会议和八届八中全会。会议后期，彭德怀等人遭到批判。"
       }
     },
     {
@@ -4358,7 +4372,8 @@
       "aliases": [
         "共青团",
         "中国新民主主义青年团",
-        "中国共青团"
+        "中国共青团",
+        "中国社会主义青年团"
       ],
       "properties": {
         "period": "1922-present",
@@ -5304,7 +5319,7 @@
         "birth_place": "湖北省黄州府黄安县",
         "death_place": "北京市",
         "gender": "男",
-        "description": "中国革命家、政治家，中国共产党和中华人民共和国的早期领导人之一。中国共产党和中华人民共和国法官及政治人物，中国共产党创始人和第一代主要领导人之一，中华人民共和国开国元勋。曾任中华人民共和国代主席，曾与宋庆龄共同担任国家副主席。"
+        "description": "中国革命家、政治家，中国共产党和中华人民共和国的早期领导人之一。中国共产党和中华人民共和国法官及政治人物，中国共产党创始人和第一代主要领导人之一，中华人民共和国开国元勋。曾任中华人民共和国代主席，曾与宋庆龄共同担任国家副主席。被誉为“延安五老”之一。"
       }
     },
     {
@@ -5396,7 +5411,8 @@
       ],
       "properties": {
         "location": "北京市",
-        "description": "中华人民共和国的最高审判机关。"
+        "description": "中华人民共和国的最高审判机关。",
+        "period": "1954-present"
       }
     },
     {
@@ -5637,7 +5653,8 @@
         "中共中央政治局常委",
         "中共中央政治局常委会",
         "中央政治局常委会",
-        "政治局常委会"
+        "政治局常委会",
+        "中共中央常委会"
       ],
       "properties": {
         "period": "1928 - ",
@@ -5651,7 +5668,8 @@
       "aliases": [],
       "properties": {
         "gender": "女",
-        "description": "任弼时的妻子。"
+        "description": "任弼时的妻子。",
+        "lifetime": " - 2003-05-31"
       }
     },
     {
@@ -5753,11 +5771,30 @@
     {
       "id": "瞿秋白",
       "type": "Person",
-      "aliases": [],
+      "aliases": [
+        "瞿懋淼",
+        "阿双",
+        "雄魄",
+        "熊伯",
+        "铁柏",
+        "铁梅",
+        "涤梅",
+        "梅影山人",
+        "瞿艭",
+        "瞿爽",
+        "瞿霜",
+        "双林",
+        "巨缘",
+        "屈维它",
+        "维克多·斯特拉霍夫"
+      ],
       "properties": {
         "lifetime": "1899-01-29 - 1935-06-18",
         "gender": "男",
-        "description": "中国共产党早期主要领导人之一。"
+        "location": "中国",
+        "birth_place": "江苏省常州府阳湖县",
+        "death_place": "福建省长汀县",
+        "description": "中国共产党早期领袖之一，曾两度担任中国共产党实际最高领导人。中国社会主义革命家、作家、诗人、翻译家、文学评论家。"
       }
     },
     {
@@ -5769,11 +5806,11 @@
       ],
       "properties": {
         "lifetime": "1906-08-15 - 1974-01-25",
-        "location": "中国",
-        "birth_place": "安徽省泾县",
+        "location": "中华人民共和国",
+        "birth_place": "安徽省泾县厚岸村",
         "death_place": "北京市",
         "gender": "男",
-        "description": "中国共产党和中华人民共和国政治人物，原国家级副职领导人，对外工作的开拓者之一。"
+        "description": "中国共产党和中华人民共和国的早期领导人、政治人物，原国家级副职领导人，对外工作的开拓者之一。"
       }
     },
     {
@@ -5851,8 +5888,8 @@
         "关于若干历史问题的决议 (1945年)"
       ],
       "properties": {
-        "period": "1945",
-        "description": "中共七大前夕通过的重要历史决议。"
+        "period": "1945-04-20",
+        "description": "中共七大前夕通过的重要历史决议，总结了中国共产党建党以来的历史问题。"
       }
     },
     {
@@ -6090,7 +6127,7 @@
           "1907-06-14 - 1946-04-08"
         ],
         "gender": "男",
-        "description": "中国共产党早期主要领导人之一，二十八个半布尔什维克成员。"
+        "description": "中国共产党早期主要领导人之一，二十八个半布尔什维克成员，张闻天的前任（中共中央总书记）。"
       }
     },
     {
@@ -6101,7 +6138,7 @@
         "李德"
       ],
       "properties": {
-        "lifetime": "1900-1974",
+        "lifetime": "1900-09-28 - 1974-08-15",
         "gender": "男",
         "description": "共产国际派往中国的军事顾问"
       }
@@ -6325,7 +6362,7 @@
       "aliases": [],
       "properties": {
         "period": "1941-01",
-        "location": "安徽省",
+        "location": "安徽省南部",
         "description": "国民革命军与新四军之间的军事冲突。抗日战争期间国民党军队袭击新四军的事件。"
       }
     },
@@ -6400,7 +6437,8 @@
       "aliases": [
         "张应皋",
         "张荫皋",
-        "洛甫"
+        "洛甫",
+        "闻天"
       ],
       "properties": {
         "lifetime": "1900-08-30 - 1976-07-01",
@@ -6408,7 +6446,7 @@
         "birth_place": "江苏省南汇县祝桥镇",
         "death_place": "江苏省无锡市",
         "gender": "男",
-        "description": "中国共产党早期主要领导人之一，中国政治人物，原中国共产党中央委员会总书记，中华人民共和国外交部副部长。杰出的无产阶级革命家和理论家、忠诚的马克思主义者。"
+        "description": "杰出的无产阶级革命家和理论家、忠诚的马克思主义者、中国共产党早期重要领导人。中国政治人物，曾任中国共产党中央委员会总书记、中华人民共和国外交部副部长。后因在庐山会议支持彭德怀，被打成反党集团成员。"
       }
     },
     {
@@ -6418,9 +6456,9 @@
         "《修养》"
       ],
       "properties": {
-        "period": "1939",
+        "period": "1939-07",
         "location": "延安",
-        "description": "刘少奇的重要理论著作。"
+        "description": "刘少奇的著名演讲和重要理论著作，强调党员的意识形态修养。"
       }
     },
     {
@@ -6590,7 +6628,7 @@
       "aliases": [],
       "properties": {
         "lifetime": "1913-02-05 - 1995-11-29",
-        "description": "曾任中共中央政治局委员、北京市委第一书记。",
+        "description": "中国政治人物，曾任中共中央政治局委员、北京市委第一书记、北京市市长。",
         "gender": "男"
       }
     },
@@ -6932,7 +6970,8 @@
       "type": "Location",
       "aliases": [],
       "properties": {
-        "description": "周恩来的出生地，位于江苏省淮安府。"
+        "location": "江苏省 (清朝)",
+        "description": "周恩来的出生地，位于清朝江苏省淮安府，今江苏省淮安市淮安区。"
       }
     },
     {
@@ -6995,7 +7034,9 @@
       "type": "Organization",
       "aliases": [],
       "properties": {
-        "period": "1921"
+        "period": "1921",
+        "location": "法国",
+        "description": "中国共产党早期组织之一。"
       }
     },
     {
@@ -7015,7 +7056,8 @@
         "外交部"
       ],
       "properties": {
-        "description": "中华人民共和国负责外交事务的政府部门。"
+        "location": "中华人民共和国",
+        "description": "中华人民共和国政府负责外交事务的部门。"
       }
     },
     {
@@ -7071,7 +7113,12 @@
     {
       "id": "四个现代化",
       "type": "Movement",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1954",
+        "location": "中华人民共和国",
+        "description": "关于工业、农业、交通运输业和国防现代化的国家战略目标。"
+      }
     },
     {
       "id": "日内瓦会议 (1954年)",
@@ -7113,7 +7160,7 @@
       "properties": {
         "lifetime": "1901-04-13 - 1927-07-19",
         "gender": "男",
-        "description": "中国共产党早期领导人"
+        "description": "中国共产党早期领导人之一，革命烈士。"
       }
     },
     {
@@ -7136,8 +7183,8 @@
       "aliases": [],
       "properties": {
         "lifetime": "1904 - 1935-06",
-        "gender": "Male",
-        "description": "中共早期领导人，负责情报保卫工作，后叛变。中共中央特科负责人，后叛变"
+        "gender": "男",
+        "description": "中共早期领导人之一，负责情报保卫工作，中共中央特科负责人，后叛变投靠国民党。"
       }
     },
     {
@@ -7181,7 +7228,7 @@
         "陈绍禹"
       ],
       "properties": {
-        "description": "中国共产党早期领导人，被认为是“左”倾教条主义的代表，国际派代表人物，二十八个半布尔什维克之一。",
+        "description": "中国共产党早期领导人，被认为是“左”倾教条主义的代表，国际派代表人物，二十八个半布尔什维克之一，瞿秋白的政治对手。",
         "lifetime": "1904-05-23 - 1974-03-27",
         "gender": "男"
       }
@@ -7231,8 +7278,10 @@
     },
     {
       "id": "第一届全国人民代表大会",
-      "type": "Event",
-      "aliases": [],
+      "type": "Organization",
+      "aliases": [
+        "第一届全国人大"
+      ],
       "properties": {
         "period": "1954"
       }
@@ -7258,7 +7307,8 @@
       "type": "Organization",
       "aliases": [],
       "properties": {
-        "description": "中华人民共和国在朝鲜战争中派遣的军队。"
+        "description": "中华人民共和国在朝鲜战争中派遣的军队。",
+        "period": "1950 - 1958"
       }
     },
     {
@@ -7274,6 +7324,7 @@
       "type": "Person",
       "aliases": [],
       "properties": {
+        "gender": "女",
         "description": "彭德怀的第二任妻子。"
       }
     },
@@ -7282,7 +7333,8 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "description": "彭德怀的侄女。"
+        "description": "彭德怀的侄女。",
+        "gender": "女"
       }
     },
     {
@@ -7344,7 +7396,9 @@
       "type": "Event",
       "aliases": [],
       "properties": {
-        "period": "1928"
+        "period": "1928-07",
+        "location": "平江",
+        "description": "由彭德怀等人领导的武装起义。"
       }
     },
     {
@@ -7565,8 +7619,9 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "description": "中共湖南省委第一书记。",
-        "gender": "男"
+        "description": "时任中共湖南省委第一书记，因在庐山会议支持彭德怀被打成反党集团成员。",
+        "gender": "男",
+        "lifetime": "1912-11-11 - 1966-12-26"
       }
     },
     {
@@ -7807,7 +7862,7 @@
       "properties": {
         "period": "1911",
         "location": "中国",
-        "description": "推翻清朝统治的资产阶级民主革命"
+        "description": "推翻清朝统治、建立中华民国的资产阶级民主革命。"
       }
     },
     {
@@ -7991,7 +8046,8 @@
       "id": "林育英",
       "type": "Person",
       "aliases": [
-        "张浩"
+        "张浩",
+        "李复之"
       ],
       "properties": {
         "description": "林彪的堂兄，中共早期领导人。"
@@ -8224,11 +8280,17 @@
     {
       "id": "徐特立",
       "type": "Person",
-      "aliases": [],
+      "aliases": [
+        "徐懋恂",
+        "师陶"
+      ],
       "properties": {
-        "description": "毛泽东在湖南省立第一师范学校的教员，中共五老之一。",
+        "description": "中国革命家和教育家，毛泽东在湖南省立第一师范学校的教员，被誉为“延安五老”之一。",
         "gender": "男",
-        "lifetime": "1877-02-01 - 1968-11-28"
+        "lifetime": "1877-02-01 - 1968-11-28",
+        "location": "中国",
+        "birth_place": "善化县",
+        "death_place": "北京市"
       }
     },
     {
@@ -8254,7 +8316,7 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "description": "中国共产党早期领导人，新四军的创建人和主要领导人之一。",
+        "description": "中国共产党早期领导人，新四军的创建人和主要领导人之一，中共苏区中央分局书记，曾安排护送瞿秋白转移。",
         "gender": "Male",
         "lifetime": "1898-05 - 1941-03-14"
       }
@@ -8625,7 +8687,7 @@
       "properties": {
         "period": "1921-1938",
         "location": "苏联",
-        "description": "位于苏联的机构，王稼祥曾在此深造。"
+        "description": "位于苏联，是培养马克思主义理论干部的高等院校。王稼祥曾在此深造。"
       }
     },
     {
@@ -8941,7 +9003,8 @@
       "type": "Organization",
       "aliases": [],
       "properties": {
-        "description": "董必武曾就读的大学"
+        "location": "日本",
+        "description": "董必武曾就读的大学。"
       }
     },
     {
@@ -8952,7 +9015,8 @@
       ],
       "properties": {
         "gender": "女",
-        "description": "董必武女儿"
+        "lifetime": "1941 - ",
+        "description": "董必武与何连芝所生女儿。"
       }
     },
     {
@@ -8961,7 +9025,7 @@
       "aliases": [],
       "properties": {
         "period": "1905 - 1912",
-        "description": "清末由孙中山等组织的革命团体。"
+        "description": "清末由孙中山等组织的革命团体，是中国近代第一个全国性的革命政党。"
       }
     },
     {
@@ -9008,22 +9072,41 @@
     {
       "id": "中国共产党中央监察委员会",
       "type": "Organization",
-      "aliases": []
+      "aliases": [
+        "中央监察委员会"
+      ],
+      "properties": {
+        "period": "1955 - 1969",
+        "description": "中国共产党在1955年至1969年间的纪律检查机关。"
+      }
     },
     {
       "id": "武汉中学",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "location": "武汉"
+      }
     },
     {
       "id": "陈潭秋",
       "type": "Person",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "lifetime": "1896-01-04 - 1943-09-27",
+        "gender": "男",
+        "description": "中国共产党创始人之一，中共一大代表。"
+      }
     },
     {
       "id": "共产党武汉支部",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1920",
+        "location": "武汉",
+        "description": "中国共产党早期组织之一。"
+      }
     },
     {
       "id": "中国共产党第一次全国代表大会",
@@ -9039,7 +9122,10 @@
     {
       "id": "中国国民党湖北省党部",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "location": "湖北省"
+      }
     },
     {
       "id": "莫斯科中山大学",
@@ -9047,7 +9133,7 @@
       "aliases": [],
       "properties": {
         "location": "莫斯科, 苏联",
-        "description": "20世纪20年代在苏联莫斯科创办的、以孙中山名字命名的大学。邓小平、王稼祥、杨尚昆曾在此就读。",
+        "description": "20世纪20年代在苏联莫斯科创办的、以孙中山名字命名的大学。邓小平、王稼祥、杨尚昆、董必武曾在此就读。",
         "period": "1925 - 1930"
       }
     },
@@ -9130,7 +9216,11 @@
     {
       "id": "联合国宪章",
       "type": "Document",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1945",
+        "description": "联合国的基本大法。"
+      }
     },
     {
       "id": "薛暮桥",
@@ -9448,7 +9538,7 @@
       "properties": {
         "period": "1982-1992",
         "location": "北京市",
-        "description": "中国共产党在1982年至1992年期间设立的，作为废除干部领导职务终身制的过渡性机构。1982年至1992年间设立的中共中央组织机构。"
+        "description": "中国共产党在1982年至1992年期间设立的，作为废除干部领导职务终身制的过渡性机构，也是对党中央的政治辅助和咨询机构。"
       }
     },
     {
@@ -9466,7 +9556,8 @@
       "aliases": [],
       "properties": {
         "lifetime": "1904 - 1941",
-        "description": "邓小平的第二任妻子。"
+        "gender": "女",
+        "description": "中国共产党早期党员，曾为邓小平、李维汉的妻子。"
       }
     },
     {
@@ -9673,7 +9764,7 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "description": "中国现代作家、思想家。",
+        "description": "中国现代著名作家、思想家，瞿秋白在左翼文化运动中的战友。",
         "gender": "男",
         "lifetime": "1881-1925"
       }
@@ -9692,7 +9783,8 @@
       "aliases": [],
       "properties": {
         "period": "1949",
-        "description": "中华人民共和国成立初期在上海为稳定金融市场而采取的经济措施。"
+        "location": "上海",
+        "description": "中华人民共和国成立初期在上海为稳定金融市场而采取的经济斗争。"
       }
     },
     {
@@ -9719,12 +9811,18 @@
     {
       "id": "上海市人民政府",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "location": "上海市"
+      }
     },
     {
       "id": "乐至县",
       "type": "Location",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "location": "四川省"
+      }
     },
     {
       "id": "张茜 (政治人物)",
@@ -9732,24 +9830,37 @@
       "aliases": [
         "张茜",
         "张茜 (陈毅夫人)"
-      ]
+      ],
+      "properties": {
+        "lifetime": "1922-06-11 - 1974-03-20",
+        "gender": "女"
+      }
     },
     {
       "id": "陈昊苏",
       "type": "Person",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "lifetime": "1942-05 - ",
+        "gender": "男"
+      }
     },
     {
       "id": "陈丹淮",
       "type": "Person",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "lifetime": "1943-09 - ",
+        "gender": "男"
+      }
     },
     {
       "id": "陈小鲁",
       "type": "Person",
       "aliases": [],
       "properties": {
-        "gender": "男"
+        "gender": "男",
+        "lifetime": "1946-07 - 2018-02-28"
       }
     },
     {
@@ -9762,7 +9873,10 @@
     {
       "id": "中法大学",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "location": "北京"
+      }
     },
     {
       "id": "颜昌颐",
@@ -9772,7 +9886,11 @@
     {
       "id": "富田事变",
       "type": "Event",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1930",
+        "location": "江西富田"
+      }
     },
     {
       "id": "李韶九",
@@ -9797,12 +9915,19 @@
     {
       "id": "李明扬",
       "type": "Person",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "description": "中华民国国民革命军将领"
+      }
     },
     {
       "id": "黄桥战役",
       "type": "Event",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1940-10",
+        "location": "黄桥"
+      }
     },
     {
       "id": "叶飞",
@@ -9850,7 +9975,12 @@
     {
       "id": "米棉之战",
       "type": "Event",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1949",
+        "location": "上海",
+        "description": "中华人民共和国成立初期为稳定物价而采取的经济斗争。"
+      }
     },
     {
       "id": "曹荻秋",
@@ -9892,12 +10022,19 @@
     {
       "id": "胡兰畦",
       "type": "Person",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "中国现代女作家、革命活动家"
+      }
     },
     {
       "id": "外交学院",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "location": "北京"
+      }
     },
     {
       "id": "刘志坚",
@@ -10931,7 +11068,11 @@
       "type": "Organization",
       "aliases": [
         "红二方面军"
-      ]
+      ],
+      "properties": {
+        "period": "1936",
+        "description": "中国工农红军主力部队之一"
+      }
     },
     {
       "id": "罗舜初",
@@ -11253,7 +11394,8 @@
       "aliases": [
         "中央组织部",
         "中组部",
-        "中共中央组织部"
+        "中共中央组织部",
+        "中共中央组织局"
       ],
       "properties": {
         "description": "中国共产党中央委员会主管党组织和干部工作的职能部门。"
@@ -11661,10 +11803,11 @@
       "type": "Organization",
       "aliases": [
         "中共中央总书记",
-        "总书记"
+        "总书记",
+        "中央委员会总书记"
       ],
       "properties": {
-        "description": "中国共产党中央委员会的主要负责人职位，负责召集中央政治局会议。"
+        "description": "中国共产党中央委员会的最高领导人职位，负责召集中央政治局会议。"
       }
     },
     {
@@ -11806,7 +11949,7 @@
       "properties": {
         "lifetime": "1898-06-17 - 1927-12-12",
         "gender": "Male",
-        "description": "中国共产党早期领导人"
+        "description": "中国共产党早期领导人，瞿秋白的同学，介绍瞿秋白加入中国共产党。"
       }
     },
     {
@@ -13162,7 +13305,7 @@
       "type": "Location",
       "aliases": [],
       "properties": {
-        "location": "中国湖南省",
+        "location": "中国湖南省衡州府",
         "description": "罗荣桓的出生地。"
       }
     },
@@ -13294,7 +13437,10 @@
     {
       "id": "八路军",
       "type": "Organization",
-      "aliases": [],
+      "aliases": [
+        "国民革命军第八路军",
+        "国民革命军第十八集团军"
+      ],
       "properties": {
         "period": "1937-1947",
         "description": "抗日战争时期中国共产党领导的主要武装力量之一。"
@@ -13358,7 +13504,7 @@
         "lifetime": "1866-11-12 - 1925-03-12",
         "location": "中国",
         "gender": "男",
-        "description": "中国国民党创始人，中华民国国父。中国近代民主革命的先行者。中国近代民主革命的伟大先行者，中华民国和中国国民党的缔造者"
+        "description": "中国国民党创始人，中华民国国父。中国近代民主革命的伟大先行者，中华民国和中国国民党的缔造者。"
       }
     },
     {
@@ -13366,8 +13512,8 @@
       "type": "Organization",
       "aliases": [],
       "properties": {
-        "period": "1914-1919",
-        "description": "孙中山在日本东京组建的革命政党。"
+        "period": "1914 - 1919",
+        "description": "由孙中山在日本东京组建的革命政党，是中国国民党的前身之一。"
       }
     },
     {
@@ -13483,7 +13629,8 @@
       "type": "Event",
       "aliases": [],
       "properties": {
-        "period": "1949-04"
+        "period": "1949-04",
+        "location": "长江"
       }
     },
     {
@@ -13500,11 +13647,12 @@
       "id": "中国人民解放军总医院",
       "type": "Organization",
       "aliases": [
-        "301医院"
+        "301医院",
+        "三〇一医院"
       ],
       "properties": {
-        "description": "杨尚昆逝世地点",
-        "location": "北京"
+        "description": "杨尚昆、彭德怀逝世的地点。",
+        "location": "北京市"
       }
     },
     {
@@ -13567,8 +13715,9 @@
       "type": "Event",
       "aliases": [],
       "properties": {
-        "period": "1971",
-        "description": "中美两国通过乒乓球交流开启关系正常化的过程。"
+        "period": "1971-04",
+        "location": "中华人民共和国",
+        "description": "中美两国乒乓球队互访，开启两国关系正常化进程。"
       }
     },
     {
@@ -13709,7 +13858,7 @@
         "birth_place": "浙江省奉化县",
         "death_place": "台北市",
         "gender": "男",
-        "description": "中国国民党总裁，中华民国前总统。国民政府领导人。中华民国总统，中国国民党总裁"
+        "description": "中国国民党总裁，中华民国前总统，国民政府领导人。"
       }
     },
     {
@@ -14196,7 +14345,7 @@
     },
     {
       "id": "护法运动",
-      "type": "Event",
+      "type": "Movement",
       "aliases": [
         "三次革命",
         "护法战争"
@@ -14207,7 +14356,7 @@
           "1917-1922"
         ],
         "location": "中国",
-        "description": "孙中山发动的反对北洋军阀的运动，"
+        "description": "孙中山等人为维护《中华民国临时约法》而发动的，反对北洋军阀的系列军事、政治斗争。"
       }
     },
     {
@@ -14581,7 +14730,7 @@
       "type": "Organization",
       "aliases": [],
       "properties": {
-        "period": "1947-05",
+        "period": "1947-05 - 1949-12",
         "description": "中华人民共和国成立前，在中国共产党领导下成立的第一个省级少数民族自治政府。"
       }
     },
@@ -14754,7 +14903,7 @@
       "type": "Location",
       "aliases": [],
       "properties": {
-        "description": "乌兰夫的出生地，位于今内蒙古自治区境内。"
+        "description": "乌兰夫的出生地，位于今内蒙古自治区土默特左旗一带。"
       }
     },
     {
@@ -14974,12 +15123,13 @@
       "id": "刘英 (1905年10月)",
       "type": "Person",
       "aliases": [
-        "刘英"
+        "刘英",
+        "刘英 (张闻天夫人)"
       ],
       "properties": {
         "lifetime": "1905-10 - 2002-08-26",
         "gender": "女",
-        "description": "张闻天夫人，曾任中华人民共和国外交部部长助理等职。"
+        "description": "张闻天的第二任妻子，中国政治人物。曾任中华人民共和国外交部部长助理等职。"
       }
     },
     {
@@ -14996,11 +15146,11 @@
     },
     {
       "id": "二十八个半布尔什维克",
-      "type": "Movement",
+      "type": "Organization",
       "aliases": [],
       "properties": {
-        "description": "20世纪20年代后期在苏联莫斯科中山大学学习并深受王明“左”倾思想影响的中共留苏学生群体，是该校的一个政治派别。王稼祥是其中之一。",
-        "period": "1928",
+        "description": "指20世纪20年代后期在苏联莫斯科中山大学学习并深受王明“左”倾思想影响的中共留苏学生群体。该群体是该校的一个政治派别，也是一个中共党内团体。王稼祥是其中之一。",
+        "period": "1929-1935",
         "location": "苏联莫斯科"
       }
     },
@@ -15011,13 +15161,17 @@
         "马列学院"
       ],
       "properties": {
-        "location": "延安"
+        "location": "延安",
+        "description": "中国共产党在延安时期创办的培养高级理论干部的学校。"
       }
     },
     {
       "id": "少年中国学会",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1919 - 1925"
+      }
     },
     {
       "id": "沈泽民",
@@ -15137,7 +15291,8 @@
         "中共北京市委"
       ],
       "properties": {
-        "location": "北京市"
+        "location": "北京市",
+        "description": "中国共产党在北京市的领导机关。"
       }
     },
     {
@@ -15163,7 +15318,8 @@
       "type": "Location",
       "aliases": [],
       "properties": {
-        "description": "清代湖南省长沙府下辖县，今长沙市一部分。"
+        "description": "清代湖南省长沙府下辖县，今属湖南省长沙县。",
+        "location": "湖南省"
       }
     },
     {
@@ -15181,7 +15337,11 @@
       "type": "Organization",
       "aliases": [
         "红三军团"
-      ]
+      ],
+      "properties": {
+        "period": "1930 - 1935",
+        "description": "中国工农红军主力部队之一。"
+      }
     },
     {
       "id": "东北人民政府",
@@ -15241,7 +15401,7 @@
       "properties": {
         "lifetime": "1914 - ",
         "gender": "女",
-        "description": "俄罗斯人，俄语教学专家。"
+        "description": "俄罗斯人，中国俄语教学专家，北京外国语大学教授。"
       }
     },
     {
@@ -15249,7 +15409,8 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "gender": "男"
+        "gender": "男",
+        "description": "李立三的儿子。"
       }
     },
     {
@@ -15257,7 +15418,8 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "gender": "女"
+        "gender": "女",
+        "description": "李立三的女儿，南京军区总医院的护士长。"
       }
     },
     {
@@ -15348,7 +15510,10 @@
       "type": "Event",
       "aliases": [
         "中共三大"
-      ]
+      ],
+      "properties": {
+        "period": "1923-06"
+      }
     },
     {
       "id": "中国共产党第四次全国代表大会",
@@ -15375,17 +15540,30 @@
     {
       "id": "李铁林",
       "type": "Person",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "lifetime": "1943-05 - ",
+        "gender": "男",
+        "description": "李维汉与吴景之之子，曾任中央机构编制委员会办公室主任。"
+      }
     },
     {
       "id": "新民学会",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1918 - 1921",
+        "location": "长沙",
+        "description": "由毛泽东、蔡和森等人发起组织的、对中国革命进程有重要影响的青年进步团体。"
+      }
     },
     {
       "id": "噶厦",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "description": "西藏地方政府。"
+      }
     },
     {
       "id": "中央财经委员会",
@@ -15397,7 +15575,9 @@
       "type": "Event",
       "aliases": [],
       "properties": {
-        "period": "1927-08-07"
+        "period": "1927-08-07",
+        "location": "汉口",
+        "description": "中共中央在汉口召开的紧急会议，确定了土地革命和武装反抗国民党反动派的总方针。"
       }
     },
     {
@@ -15416,7 +15596,10 @@
     {
       "id": "长沙县",
       "type": "Location",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "description": "中华人民共和国湖南省长沙市下辖的县，李维汉的出生地。"
+      }
     },
     {
       "id": "莫斯科",
@@ -15639,7 +15822,8 @@
       "aliases": [],
       "properties": {
         "gender": "女",
-        "description": "王稼祥的第三任妻子。"
+        "description": "王稼祥的第三任妻子。",
+        "lifetime": "1915-02 - 2014-03-08"
       }
     },
     {
@@ -15690,7 +15874,8 @@
       "type": "Event",
       "aliases": [],
       "properties": {
-        "period": "1947-05"
+        "period": "1947-05",
+        "location": "孟良崮"
       }
     },
     {
@@ -15706,7 +15891,11 @@
     {
       "id": "上海战役",
       "type": "Event",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1949-05",
+        "location": "上海"
+      }
     },
     {
       "id": "高自立",
@@ -15803,7 +15992,11 @@
       "type": "Organization",
       "aliases": [
         "第三野战军"
-      ]
+      ],
+      "properties": {
+        "location": "中国华东",
+        "description": "中国人民解放军第三野战军的前身"
+      }
     },
     {
       "id": "区寿年",
@@ -15899,7 +16092,10 @@
     {
       "id": "葛健豪",
       "type": "Person",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "gender": "女"
+      }
     },
     {
       "id": "国际民主妇女联合会",
@@ -15929,8 +16125,7 @@
         "中国共产党第一代领导集体"
       ],
       "properties": {
-        "location": "中华人民共和国",
-        "description": ""
+        "location": "中华人民共和国"
       }
     },
     {
@@ -15940,8 +16135,7 @@
         "中国共产党第二代领导集体"
       ],
       "properties": {
-        "location": "中华人民共和国",
-        "description": ""
+        "location": "中华人民共和国"
       }
     },
     {
@@ -15951,8 +16145,7 @@
         "中国共产党第三代领导集体"
       ],
       "properties": {
-        "location": "中华人民共和国",
-        "description": ""
+        "location": "中华人民共和国"
       }
     },
     {
@@ -15962,8 +16155,7 @@
         "中国共产党第四代领导集体"
       ],
       "properties": {
-        "location": "中华人民共和国",
-        "description": ""
+        "location": "中华人民共和国"
       }
     },
     {
@@ -15973,8 +16165,7 @@
         "中国共产党第五代领导集体"
       ],
       "properties": {
-        "location": "中华人民共和国",
-        "description": ""
+        "location": "中华人民共和国"
       }
     },
     {
@@ -16812,7 +17003,9 @@
       "type": "Document",
       "aliases": [],
       "properties": {
-        "period": "1972-09-29"
+        "period": "1972-09-29",
+        "location": "北京",
+        "description": "中华人民共和国和日本国政府恢复邦交的联合声明。"
       }
     },
     {
@@ -16822,7 +17015,9 @@
         "黄埔军校"
       ],
       "properties": {
-        "location": "广州"
+        "location": "中华民国广州",
+        "period": "1924 - ",
+        "description": "中华民国陆军军官学校。"
       }
     },
     {
@@ -17275,7 +17470,11 @@
     {
       "id": "湖北省总工会",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "period": "1926",
+        "location": "湖北省"
+      }
     },
     {
       "id": "汉阳兵工厂",
@@ -17283,31 +17482,44 @@
       "aliases": [
         "湖北枪炮厂",
         "湖北兵工厂"
-      ]
+      ],
+      "properties": {
+        "location": "汉阳"
+      }
     },
     {
       "id": "许白昊",
       "type": "Person",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "description": "介绍向忠发加入中国共产党的革命活动家"
+      }
     },
     {
       "id": "中共湖北区执行委员会",
       "type": "Organization",
       "aliases": [
         "中共武汉区委执委会"
-      ]
+      ],
+      "properties": {
+        "location": "湖北省"
+      }
     },
     {
       "id": "武汉工人纠察队",
       "type": "Organization",
-      "aliases": []
+      "aliases": [],
+      "properties": {
+        "location": "武汉"
+      }
     },
     {
       "id": "陈立夫",
       "type": "Person",
       "aliases": [],
       "properties": {
-        "gender": "男"
+        "gender": "男",
+        "description": "国民党重要政治人物，CC系领导人之一"
       }
     },
     {
@@ -17333,8 +17545,8 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "gender": "Female",
-        "description": "瞿秋白的第二任妻子"
+        "gender": "女",
+        "description": "瞿秋白的第二任妻子，上海大学学生。"
       }
     },
     {
@@ -17342,8 +17554,8 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "gender": "Female",
-        "description": "瞿秋白的继女"
+        "gender": "女",
+        "description": "杨之华与沈剑龙的女儿，瞿秋白的继女。"
       }
     },
     {
@@ -17404,7 +17616,8 @@
       "type": "Organization",
       "aliases": [],
       "properties": {
-        "description": "中华苏维埃共和国的最高学府"
+        "description": "中华苏维埃共和国的最高学府",
+        "location": "中央苏区"
       }
     },
     {
@@ -17420,7 +17633,7 @@
       "type": "Person",
       "aliases": [],
       "properties": {
-        "description": "中华民国陆军中将，负责执行瞿秋白死刑"
+        "description": "中华民国陆军中将，瞿秋白在上海大学的学生，后负责羁押并执行对瞿秋白的枪决。"
       }
     },
     {
@@ -17554,7 +17767,8 @@
         "共产国际"
       ],
       "properties": {
-        "period": "1919-1943",
+        "period": "1919 - 1943",
+        "location": "莫斯科",
         "description": "各国共产党和共产主义组织的国际联合组织"
       }
     },
@@ -17693,9 +17907,15 @@
     {
       "id": "三人团",
       "type": "Organization",
-      "aliases": [],
+      "aliases": [
+        "中央三人军事小组"
+      ],
       "properties": {
-        "description": "长征初期负责军事决策的领导小组，由博古、周恩来、李德组成。"
+        "period": [
+          "长征初期",
+          "1935-03"
+        ],
+        "description": "在长征期间，曾有两个不同的领导小组被称为“三人团”。其中，一个在长征初期负责军事决策，由博古、周恩来、李德组成。另一个则在1935年3月左右成立，负责军事指挥，成员为周恩来、毛泽东、王稼祥。"
       }
     },
     {
@@ -18959,7 +19179,8 @@
       "aliases": [],
       "properties": {
         "gender": "女",
-        "description": "任弼时的妹妹。"
+        "description": "任弼时二妹",
+        "lifetime": " - 1936"
       }
     },
     {
@@ -19014,7 +19235,7 @@
       "type": "Event",
       "aliases": [],
       "properties": {
-        "period": "1926",
+        "period": "1926-12",
         "location": "四川",
         "description": "中共领导的为响应北伐战争的起义"
       }
@@ -19394,7 +19615,7 @@
       "aliases": [],
       "properties": {
         "gender": "女",
-        "description": "董必武的第三任妻子"
+        "description": "董必武的第三任妻子，育有二子一女。"
       }
     },
     {
@@ -19404,7 +19625,7 @@
       "properties": {
         "lifetime": "1938 - 2023-01-13",
         "gender": "男",
-        "description": "董必武次子"
+        "description": "董必武与何连芝所生次子。"
       }
     },
     {
@@ -19413,7 +19634,8 @@
       "aliases": [],
       "properties": {
         "gender": "男",
-        "description": "董必武三子"
+        "description": "董必武与何连芝所生幼子。",
+        "lifetime": "1945 - "
       }
     },
     {
@@ -19563,6 +19785,1268 @@
         "gender": "Female",
         "description": "李先念的次女。"
       }
+    },
+    {
+      "id": "李特特",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女"
+      }
+    },
+    {
+      "id": "王家全",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "富豪，向忠发曾为其仆人"
+      }
+    },
+    {
+      "id": "共产国际执行委员会",
+      "type": "Organization",
+      "aliases": []
+    },
+    {
+      "id": "张纪恩",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "中共中央机要处工作人员"
+      }
+    },
+    {
+      "id": "张月霞",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "Female",
+        "description": "中共地下工作人员"
+      }
+    },
+    {
+      "id": "中华人民共和国代理主席",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "代行中华人民共和国主席职权的国家领导人。"
+      }
+    },
+    {
+      "id": "库尔特·瓦尔德海姆",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "曾任联合国秘书长。"
+      }
+    },
+    {
+      "id": "湖南省苏维埃政府",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "period": "1930 - 1931"
+      }
+    },
+    {
+      "id": "李英男",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "李立三的女儿，北京外国语大学俄语学院院长。"
+      }
+    },
+    {
+      "id": "李雅兰",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "李立三的女儿，北京第二外国语学院教师。"
+      }
+    },
+    {
+      "id": "渌江中学",
+      "type": "Organization",
+      "aliases": []
+    },
+    {
+      "id": "湖南师范大学附属中学",
+      "type": "Organization",
+      "aliases": [
+        "广益中学"
+      ]
+    },
+    {
+      "id": "醴陵市",
+      "type": "Location",
+      "aliases": [
+        "醴陵县"
+      ]
+    },
+    {
+      "id": "余泽鸿",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "阿拉木图",
+      "type": "Location",
+      "aliases": []
+    },
+    {
+      "id": "瓦窑堡会议",
+      "type": "Event",
+      "aliases": [],
+      "properties": {
+        "period": "1935-12"
+      }
+    },
+    {
+      "id": "毛泽东选集",
+      "type": "Document",
+      "aliases": []
+    },
+    {
+      "id": "中国人民政治协商会议第四届全国委员会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "period": "1964 - 1978"
+      }
+    },
+    {
+      "id": "李汉辅",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "刘朝兰",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "彭真养女。"
+      }
+    },
+    {
+      "id": "太原市第五中学校",
+      "type": "Organization",
+      "aliases": [
+        "山西省省立第一中学"
+      ]
+    },
+    {
+      "id": "马克思主义",
+      "type": "Movement",
+      "aliases": []
+    },
+    {
+      "id": "冀东大暴动",
+      "type": "Event",
+      "aliases": [],
+      "properties": {
+        "period": "1938"
+      }
+    },
+    {
+      "id": "肖菊英",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1911 - 1931",
+        "gender": "女"
+      }
+    },
+    {
+      "id": "赖月明",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1914 - ",
+        "gender": "女"
+      }
+    },
+    {
+      "id": "留法勤工俭学运动",
+      "type": "Movement",
+      "aliases": [],
+      "properties": {
+        "period": "1919",
+        "location": "法国"
+      }
+    },
+    {
+      "id": "南方三年游击战争",
+      "type": "Movement",
+      "aliases": [],
+      "properties": {
+        "period": "1934 - 1937",
+        "location": "中国南方"
+      }
+    },
+    {
+      "id": "刘坤模",
+      "type": "Person",
+      "aliases": [
+        "刘细妹"
+      ],
+      "properties": {
+        "gender": "女",
+        "description": "彭德怀的第一任妻子。"
+      }
+    },
+    {
+      "id": "泾县",
+      "type": "Location",
+      "aliases": [],
+      "properties": {
+        "location": "安徽省"
+      }
+    },
+    {
+      "id": "张维英",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "张闻天与卫月莲的长女。"
+      }
+    },
+    {
+      "id": "张引娣",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "张闻天与卫月莲的二女儿。"
+      }
+    },
+    {
+      "id": "张虹生",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1939 - 2020-11-06",
+        "gender": "男",
+        "description": "张闻天与刘英的儿子。"
+      }
+    },
+    {
+      "id": "合江省 (解放区)",
+      "type": "Location",
+      "aliases": [],
+      "properties": {
+        "period": "1945-1949"
+      }
+    },
+    {
+      "id": "中共合江省委",
+      "type": "Organization",
+      "aliases": []
+    },
+    {
+      "id": "合江军区",
+      "type": "Organization",
+      "aliases": []
+    },
+    {
+      "id": "中美三个联合公报",
+      "type": "Document",
+      "aliases": [],
+      "properties": {
+        "period": [
+          "1972-02-28",
+          "1979-01-01",
+          "1982-08-17"
+        ],
+        "location": "上海/北京/华盛顿",
+        "description": "指导中美关系的基础性文件，其中《上海公报》由周恩来与尼克松共同发表。"
+      }
+    },
+    {
+      "id": "熊立诚",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "徐特立的妻子。"
+      }
+    },
+    {
+      "id": "徐守珍",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "徐特立的大女儿。"
+      }
+    },
+    {
+      "id": "徐笃本",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "徐特立的大儿子。"
+      }
+    },
+    {
+      "id": "徐陌青",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "徐特立的小女儿。"
+      }
+    },
+    {
+      "id": "徐厚本",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "徐特立的小儿子。"
+      }
+    },
+    {
+      "id": "巴黎大学",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "location": "法国"
+      }
+    },
+    {
+      "id": "延安自然科学院",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "location": "延安"
+      }
+    },
+    {
+      "id": "云亭",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "乌兰夫的配偶。"
+      }
+    },
+    {
+      "id": "云丽文",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1922 - 1995",
+        "description": "乌兰夫的配偶。"
+      }
+    },
+    {
+      "id": "云浦",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "乌兰夫的弟弟，大青山抗日游击队长。"
+      }
+    },
+    {
+      "id": "乌可力",
+      "type": "Person",
+      "aliases": [
+        "乌宾"
+      ],
+      "properties": {
+        "description": "乌兰夫的儿子。"
+      }
+    },
+    {
+      "id": "赖克游",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "曹文玉",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": " - 1961",
+        "gender": "女",
+        "description": "李维汉的第一任妻子。"
+      }
+    },
+    {
+      "id": "吴景之",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "李维汉的第三任妻子。"
+      }
+    },
+    {
+      "id": "王剑虹",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "- 1924-07",
+        "gender": "女",
+        "description": "瞿秋白的第一任妻子，上海大学学生。"
+      }
+    },
+    {
+      "id": "瞿世玮",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1875 - 1932",
+        "gender": "男",
+        "description": "瞿秋白的父亲。"
+      }
+    },
+    {
+      "id": "多余的话",
+      "type": "Document",
+      "aliases": [],
+      "properties": {
+        "period": "1935-05",
+        "description": "瞿秋白被捕后在狱中写下的文章。"
+      }
+    },
+    {
+      "id": "沈剑龙",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "杨之华的前夫，瞿独伊的生父。"
+      }
+    },
+    {
+      "id": "王定国",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1912 - 2020",
+        "gender": "女",
+        "description": "谢觉哉的第二任妻子"
+      }
+    },
+    {
+      "id": "中央人民政府内务部",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "period": "1949 - 1954"
+      }
+    },
+    {
+      "id": "中华人民共和国内务部",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "period": "1954 - 1969"
+      }
+    },
+    {
+      "id": "马日事变",
+      "type": "Event",
+      "aliases": [],
+      "properties": {
+        "period": "1927-05",
+        "location": "长沙"
+      }
+    },
+    {
+      "id": "王凌波",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "与谢觉哉同为“宁乡四髯”。"
+      }
+    },
+    {
+      "id": "姜梦周",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "与谢觉哉同为“宁乡四髯”。"
+      }
+    },
+    {
+      "id": "怀安诗社",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "period": "1941"
+      }
+    },
+    {
+      "id": "胡绩伟",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "五五宪草",
+      "type": "Document",
+      "aliases": []
+    },
+    {
+      "id": "谢放",
+      "type": "Person",
+      "aliases": [
+        "谢正行"
+      ],
+      "properties": {
+        "lifetime": "1913 - 1996-06-30",
+        "gender": "男"
+      }
+    },
+    {
+      "id": "谢群英",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女"
+      }
+    },
+    {
+      "id": "谢飘",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1939 - ",
+        "gender": "男"
+      }
+    },
+    {
+      "id": "谢列",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "谢云",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "谢亚霞",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女"
+      }
+    },
+    {
+      "id": "谢亚旭",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "高晓岚",
+      "type": "Person",
+      "aliases": [
+        "高大众"
+      ],
+      "properties": {
+        "lifetime": "1876 - 1930",
+        "gender": "Female",
+        "description": "陈独秀的原配妻子"
+      }
+    },
+    {
+      "id": "潘兰珍",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1908 - 1949",
+        "gender": "Female",
+        "description": "陈独秀的第三任妻子"
+      }
+    },
+    {
+      "id": "安庆府",
+      "type": "Location",
+      "aliases": []
+    },
+    {
+      "id": "双石镇 (荣县)",
+      "type": "Location",
+      "aliases": [],
+      "properties": {
+        "location": "荣县"
+      }
+    },
+    {
+      "id": "吴永锟",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "吴玉章的二哥。"
+      }
+    },
+    {
+      "id": "游丙莲",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "吴玉章的妻子。"
+      }
+    },
+    {
+      "id": "东京振武学校",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "location": "东京"
+      }
+    },
+    {
+      "id": "保路运动",
+      "type": "Event",
+      "aliases": [],
+      "properties": {
+        "period": "1911"
+      }
+    },
+    {
+      "id": "王天杰",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "中华民国临时政府",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "period": "1912"
+      }
+    },
+    {
+      "id": "李石曾",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "华法教育会",
+      "type": "Organization",
+      "aliases": []
+    },
+    {
+      "id": "中国青年共产党",
+      "type": "Organization",
+      "aliases": [
+        "YC团"
+      ],
+      "properties": {
+        "period": "1924-1925"
+      }
+    },
+    {
+      "id": "延安宪政促进会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "location": "延安"
+      }
+    },
+    {
+      "id": "延安大学",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "location": "延安"
+      }
+    },
+    {
+      "id": "华北大学",
+      "type": "Organization",
+      "aliases": []
+    },
+    {
+      "id": "国家语言文字工作委员会",
+      "type": "Organization",
+      "aliases": [
+        "全国文字改革委员会"
+      ]
+    },
+    {
+      "id": "范文澜",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "汉语拼音",
+      "type": "Document",
+      "aliases": []
+    },
+    {
+      "id": "成仿吾",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "中央社会主义学院",
+      "type": "Organization",
+      "aliases": []
+    },
+    {
+      "id": "葛慧敏",
+      "type": "Person",
+      "aliases": [
+        "田秉秀"
+      ],
+      "properties": {
+        "lifetime": "1919 - 1994-01-31",
+        "gender": "女",
+        "description": "谭震林第二任妻子。"
+      }
+    },
+    {
+      "id": "谭泾远",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "谭震林之女。"
+      }
+    },
+    {
+      "id": "谭晓光",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "谭震林之子。"
+      }
+    },
+    {
+      "id": "攸县",
+      "type": "Location",
+      "aliases": []
+    },
+    {
+      "id": "国家政治保卫局",
+      "type": "Organization",
+      "aliases": []
+    },
+    {
+      "id": "马家园战斗",
+      "type": "Event",
+      "aliases": []
+    },
+    {
+      "id": "蒋秀仙",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "谭震林第一任妻子。"
+      }
+    },
+    {
+      "id": "四项基本原则",
+      "type": "Document",
+      "aliases": [],
+      "properties": {
+        "period": "1979",
+        "location": "中华人民共和国",
+        "description": "邓小平提出的中国必须坚持的四项政治原则。"
+      }
+    },
+    {
+      "id": "宋惠卿",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1894-1977",
+        "gender": "女",
+        "description": "张春桥的母亲。"
+      }
+    },
+    {
+      "id": "崔万秋",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "曾任《大晚报》副刊《火炬》主编，后被证实为军统特务。"
+      }
+    },
+    {
+      "id": "陈兰 (东汉)",
+      "type": "Person",
+      "aliases": [
+        "陈兰"
+      ],
+      "properties": {
+        "gender": "女",
+        "description": "邓子恢的夫人。维基百科源码链接存在错误，指向东汉时期同名人物。"
+      }
+    },
+    {
+      "id": "邓淮生",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "邓子恢的儿子。"
+      }
+    },
+    {
+      "id": "邓小燕",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "邓子恢的女儿。"
+      }
+    },
+    {
+      "id": "陈赞雍",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "土地改革",
+      "type": "Movement",
+      "aliases": []
+    },
+    {
+      "id": "邓毅生",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1922-08-15 - 2022-07-06",
+        "gender": "男"
+      }
+    },
+    {
+      "id": "邓瑞生",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "邓建生",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "诸暨县",
+      "type": "Location",
+      "aliases": [],
+      "properties": {
+        "description": "姚文元的出生地，现为浙江省诸暨市。"
+      }
+    },
+    {
+      "id": "恩维尔·霍查",
+      "type": "Person",
+      "aliases": [
+        "霍查"
+      ],
+      "properties": {
+        "description": "阿尔巴尼亚劳动党和阿尔巴尼亚社会主义人民共和国的长期领导人。"
+      }
+    },
+    {
+      "id": "四川省仪陇县马鞍镇",
+      "type": "Location",
+      "aliases": []
+    },
+    {
+      "id": "陈伟华",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "陈云次女。"
+      }
+    },
+    {
+      "id": "井冈山革命根据地",
+      "type": "Location",
+      "aliases": [
+        "井冈山根据地"
+      ],
+      "properties": {
+        "period": "1927 - 1930",
+        "location": "江西省井冈山"
+      }
+    },
+    {
+      "id": "开州区",
+      "type": "Location",
+      "aliases": [
+        "开县"
+      ],
+      "properties": {
+        "description": "刘伯承的出生地，位于今重庆市。"
+      }
+    },
+    {
+      "id": "中共中央总学习委员会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {
+        "description": "延安整风运动期间设立的领导机构。"
+      }
+    },
+    {
+      "id": "黄花塘事件",
+      "type": "Event",
+      "aliases": [],
+      "properties": {
+        "description": "新四军内部陈毅与饶漱石之间的矛盾事件。"
+      }
+    },
+    {
+      "id": "华东行政委员会",
+      "type": "Organization",
+      "aliases": []
+    },
+    {
+      "id": "黄冈县",
+      "type": "Location",
+      "aliases": [],
+      "properties": {
+        "description": "林彪的出生地。"
+      }
+    },
+    {
+      "id": "张鹏霄",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "Male",
+        "description": "张国焘之父，曾任象山知事。"
+      }
+    },
+    {
+      "id": "萍乡县",
+      "type": "Location",
+      "aliases": []
+    },
+    {
+      "id": "刘群先",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1907 - 1942",
+        "gender": "Female",
+        "description": "博古的第一任妻子。"
+      }
+    },
+    {
+      "id": "秦肇煌",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "Male",
+        "description": "博古的父亲，清末举人。"
+      }
+    },
+    {
+      "id": "秦摩亚",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "Female",
+        "description": "博古的大女儿。"
+      }
+    },
+    {
+      "id": "秦新华",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "Female",
+        "description": "博古的二女儿。"
+      }
+    },
+    {
+      "id": "秦钢",
+      "type": "Person",
+      "aliases": [
+        "秦刚"
+      ],
+      "properties": {
+        "lifetime": "1936-12 - 2010-07-29",
+        "gender": "Male",
+        "description": "博古的儿子。"
+      }
+    },
+    {
+      "id": "秦铁",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1940 - 2012-09-18",
+        "gender": "Male",
+        "description": "博古的儿子。"
+      }
+    },
+    {
+      "id": "陈秋葵",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "谭政的第一任妻子，陈赓之妹"
+      }
+    },
+    {
+      "id": "王长德",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "谭政的第二任妻子"
+      }
+    },
+    {
+      "id": "谭星明",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女",
+        "description": "谭政女儿"
+      }
+    },
+    {
+      "id": "中国工农红军大学",
+      "type": "Organization",
+      "aliases": [
+        "中国人民抗日红军大学"
+      ],
+      "properties": {
+        "description": "中国共产党在土地革命战争时期和抗日战争时期创办的军事学校"
+      }
+    },
+    {
+      "id": "关于军队政治工作问题",
+      "type": "Document",
+      "aliases": [],
+      "properties": {
+        "period": "1944-04"
+      }
+    },
+    {
+      "id": "余文菲",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1918 - 1994-08-21",
+        "gender": "女"
+      }
+    },
+    {
+      "id": "陈晓农",
+      "type": "Person",
+      "aliases": [
+        "陈小农"
+      ],
+      "properties": {
+        "lifetime": "1946-04-16 - ",
+        "gender": "男"
+      }
+    },
+    {
+      "id": "农村人民公社工作条例",
+      "type": "Document",
+      "aliases": [
+        "六十条"
+      ],
+      "properties": {
+        "period": "1960"
+      }
+    },
+    {
+      "id": "高毅",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男",
+        "description": "高岗与杨芝芳之子"
+      }
+    },
+    {
+      "id": "横山区",
+      "type": "Location",
+      "aliases": [],
+      "properties": {
+        "location": "陕西省榆林市"
+      }
+    },
+    {
+      "id": "郭朝沛",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "郭沫若之父"
+      }
+    },
+    {
+      "id": "杜福荪",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "郭沫若之母"
+      }
+    },
+    {
+      "id": "沙湾镇 (乐山市)",
+      "type": "Location",
+      "aliases": []
+    },
+    {
+      "id": "张琼华",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1890 - 1980",
+        "description": "郭沫若的原配妻子"
+      }
+    },
+    {
+      "id": "于立忱",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1912 - 1937",
+        "description": "于立群的姐姐，郭沫若的情人"
+      }
+    },
+    {
+      "id": "郭民英",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "lifetime": "1943 - 1967",
+        "description": "郭沫若与于立群之子"
+      }
+    },
+    {
+      "id": "王芳妮",
+      "type": "Person",
+      "aliases": [
+        "陈芳妮"
+      ],
+      "properties": {
+        "lifetime": "1932-01-18 - 1985-01-27",
+        "gender": "女",
+        "description": "王明的长女。"
+      }
+    },
+    {
+      "id": "王丹丁",
+      "type": "Person",
+      "aliases": [
+        "陈丹丁"
+      ],
+      "properties": {
+        "lifetime": "1945-10-02 - ",
+        "gender": "男",
+        "description": "王明的次子。"
+      }
+    },
+    {
+      "id": "国际派 (中国共产党)",
+      "type": "Organization",
+      "aliases": [
+        "共产国际派"
+      ],
+      "properties": {
+        "description": "以王明为代表，深受共产国际和苏联经验影响的中共党内派别。"
+      }
+    },
+    {
+      "id": "上海公共租界",
+      "type": "Location",
+      "aliases": [],
+      "properties": {
+        "description": "宋庆龄出生地。"
+      }
+    },
+    {
+      "id": "上海市第三女子中学",
+      "type": "Organization",
+      "aliases": [
+        "中西女塾",
+        "中西女中"
+      ],
+      "properties": {
+        "location": "上海市"
+      }
+    },
+    {
+      "id": "中国工农红军第一军团",
+      "type": "Organization",
+      "aliases": [
+        "红一军团"
+      ]
+    },
+    {
+      "id": "延安五老",
+      "type": "Organization",
+      "aliases": [
+        "中共五老"
+      ],
+      "properties": {
+        "description": "对中共五位德高望重的革命家的称谓，包括董必武、林伯渠、徐特立、谢觉哉、吴玉章。"
+      }
+    },
+    {
+      "id": "林秉权",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "女"
+      }
+    },
+    {
+      "id": "林秉益",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "裴明伦",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "gender": "男"
+      }
     }
   ],
   "relationships": [
@@ -19622,7 +21106,7 @@
       "properties": {
         "start_date": "1964",
         "end_date": "1969",
-        "description": "四清运动中，二人产生严重分歧。毛泽东下决心要在政治上把刘少奇打倒，以“走资派”的名义在文革中将其打倒并迫害致死。"
+        "description": "在四清运动中，毛泽东与刘少奇产生严重分歧。此后，毛泽东下决心在政治上打倒刘少奇。在文化大革命中，刘少奇被毛泽东作为“党内头号走资派”和“资产阶级司令部”的主要代表进行批判和打倒，并最终迫害致死。"
       }
     },
     {
@@ -19639,8 +21123,9 @@
       "target": "刘少奇",
       "type": "BLOCKED",
       "properties": {
+        "start_date": "1966",
         "end_date": "1969-11-12",
-        "description": "被迫害致死"
+        "description": "刘少奇在文化大革命中被打倒，被撤销一切职务并开除党籍，最终被迫害致死。"
       }
     },
     {
@@ -20246,7 +21731,7 @@
       "type": "PUSHED",
       "properties": {
         "start_date": "1966-02",
-        "description": "草拟《二月提纲》"
+        "description": "主持起草《二月提纲》，试图将学术讨论与政治问题分离。"
       }
     },
     {
@@ -20449,8 +21934,9 @@
       "target": "周恩来",
       "type": "ENEMY_OF",
       "properties": {
-        "start_date": "1967-05",
-        "description": "在文革期间，江青多次利用“伍豪事件”等攻击周恩来，并在后期发起“批林批孔批周公”运动"
+        "start_date": "1966",
+        "end_date": "1976",
+        "description": "在文化大革命期间，江青等人将周恩来视为政治对手。江青多次利用“伍豪事件”等攻击周恩来，并在后期发起“批林批孔批周公”运动。"
       }
     },
     {
@@ -22540,10 +24026,10 @@
       "target": "毛泽东",
       "type": "SUBORDINATE_OF",
       "properties": {
-        "start_date": "1941-09",
-        "end_date": "1950-10",
+        "start_date": "1941-09-28",
+        "end_date": "1950-10-27",
         "position": "中共中央秘书长",
-        "description": "在毛泽东担任党主席期间，任弼时担任中共中央秘书长和中央书记处书记。"
+        "description": "任弼时在毛泽东担任党主席期间，担任中共中央秘书长、中央书记处书记，并是五大书记之一。"
       }
     },
     {
@@ -23505,8 +24991,8 @@
       "type": "MEMBER_OF",
       "properties": {
         "start_date": "1921",
-        "end_date": "1968",
-        "description": "1968年被开除，1980年被平反"
+        "end_date": "1968-10-31",
+        "description": "1921年入党，1968年被开除党籍，1980年恢复名誉。"
       }
     },
     {
@@ -23585,9 +25071,9 @@
       "target": "毛泽东",
       "type": "SUBORDINATE_OF",
       "properties": {
-        "start_date": "1935",
+        "start_date": "1945",
         "end_date": "1966",
-        "description": "在遵义会议后确立的毛泽东领导地位下工作，曾被视为接班人。"
+        "description": "在遵义会议后确立的毛泽东领导地位下，刘少奇长期在中共党内担任毛泽东的副手，并被其视为接班人。"
       }
     },
     {
@@ -23671,7 +25157,7 @@
       "properties": {
         "start_date": "1947",
         "end_date": "1954",
-        "description": "因高岗认为刘少奇偏袒彭真而产生不满，并试图挑战刘少奇的地位，后密谋取代其地位，从而引发政治斗争。"
+        "description": "因高岗认为刘少奇偏袒彭真而产生不满，并试图挑战刘少奇的地位，后密谋取代其地位，从而引发政治斗争。刘少奇与周恩来联手在1954年的中共七届四中全会上批斗高岗，促使其倒台。"
       }
     },
     {
@@ -23711,7 +25197,7 @@
       "properties": {
         "start_date": "1966",
         "end_date": "1969",
-        "description": "在文化大革命中，刘少奇被江青等人诬陷和残酷迫害，江青还号召红卫兵打倒他。"
+        "description": "在文化大革命中，江青是迫害刘少奇的主要人物之一。她诬陷和残酷迫害刘少奇，号召红卫兵打倒他，并公开称其为“党内的赫鲁晓夫”。"
       }
     },
     {
@@ -23812,7 +25298,7 @@
       "properties": {
         "start_date": "1961",
         "end_date": "1962",
-        "description": "在实地调查后，思想发生转变，开始着手纠正大跃进的错误。"
+        "description": "刘少奇在实地调查和调查研究后，认识到大跃进的严重问题，思想发生转变。他在七千人大会上提出“三分天灾，七分人祸”，并开始着手领导纠正大跃进的错误。"
       }
     },
     {
@@ -24621,7 +26107,9 @@
       "target": "山阳县 (江苏省)",
       "type": "BORN_IN",
       "properties": {
-        "start_date": "1898-03-05"
+        "start_date": "1898-03-05",
+        "end_date": "1898-03-05",
+        "description": "周恩来出生于江苏省淮安府山阳县驸马巷。"
       }
     },
     {
@@ -24664,7 +26152,8 @@
       "type": "ALUMNUS_OF",
       "properties": {
         "start_date": "1919-09-25",
-        "description": "因参与五四运动被开除，为肄业。"
+        "end_date": "1920",
+        "description": "曾在南开学校大学部（后为南开大学）文科学习，后因参加五四运动被捕并开除学籍。"
       }
     },
     {
@@ -24697,7 +26186,7 @@
       "type": "FOUNDED",
       "properties": {
         "start_date": "1921",
-        "description": "与张申府、刘清扬、赵世炎、陈公培共同建立。"
+        "description": "与张申府、刘清扬、赵世炎、陈公培共5人一起建立了旅法共产主义小组。"
       }
     },
     {
@@ -24714,7 +26203,8 @@
       "target": "中国共产党",
       "type": "MEMBER_OF",
       "properties": {
-        "start_date": "1921-03"
+        "start_date": "1921-03",
+        "position": "中央委员会副主席、中央政治局常委等"
       }
     },
     {
@@ -24791,7 +26281,9 @@
       "target": "毛泽东",
       "type": "SUBORDINATE_OF",
       "properties": {
-        "description": "在中共党内和政府体系中，周恩来长期是毛泽东的下属和主要执行者。"
+        "description": "遵义会议后，毛泽东确立了在中共的领导地位。在中共党内和政府体系中，周恩来长期作为毛泽东的下属和主要执行者，在其领导下工作。",
+        "start_date": "1935",
+        "end_date": "1976-01-08"
       }
     },
     {
@@ -24857,7 +26349,7 @@
       "type": "ENEMY_OF",
       "properties": {
         "start_date": "1931-04",
-        "description": "在顾顺章叛变后，周恩来领导的中央特科处理了其家人"
+        "description": "顾顺章叛变后，周恩来领导的中共中央特科将其家人杀害。"
       }
     },
     {
@@ -24865,7 +26357,7 @@
       "target": "刘少奇",
       "type": "FRIEND_OF",
       "properties": {
-        "description": "在反高岗事件和60年代初经济调整时期紧密合作"
+        "description": "刘少奇与周恩来在中共中央长期共事，并在反高岗事件和60年代初经济调整时期紧密合作。"
       }
     },
     {
@@ -24922,17 +26414,26 @@
       "source": "王稼祥",
       "target": "周恩来",
       "type": "SUBORDINATE_OF",
-      "properties": {
-        "start_date": "1935-03",
-        "position": "新三人团组长"
-      }
+      "properties": [
+        {
+          "start_date": "1935-03",
+          "position": "新三人团组长"
+        },
+        {
+          "start_date": "1949-10",
+          "end_date": "1951",
+          "position": "副部长",
+          "description": "在周恩来担任外交部长期间，王稼祥任副部长。"
+        }
+      ]
     },
     {
       "source": "周恩来",
       "target": "四个现代化",
       "type": "PUSHED",
       "properties": {
-        "description": "1954年首次提出，并在1975年四届全国人大上重申"
+        "start_date": "1954-09",
+        "description": "1954年在第一届全国人大上首次提出，并在1975年四届全国人大上重申。"
       }
     },
     {
@@ -24950,7 +26451,8 @@
       "type": "INFLUENCED",
       "properties": {
         "start_date": "1966",
-        "description": "在文革中努力维持国家机器运转，并设法保护部分干部和文化古迹，被称为“灭火队长”"
+        "end_date": "1976",
+        "description": "在文革中身处高位，一方面执行毛泽东的指示，另一方面尽力减少动乱影响，保护干部和文化遗产，被称为“灭火队长”。"
       }
     },
     {
@@ -24958,9 +26460,9 @@
       "target": "理查德·尼克松",
       "type": "MET_WITH",
       "properties": {
-        "start_date": "1972-02-22",
-        "end_date": "1972-02-25",
-        "description": "在北京与来访的美国总统尼克松举行会谈。"
+        "start_date": "1972-02-21",
+        "end_date": "1972-02-28",
+        "description": "在北京与到访的美国总统尼克松举行会谈，并共同发表《上海公报》。"
       }
     },
     {
@@ -24968,8 +26470,12 @@
       "target": "亨利·基辛格",
       "type": "MET_WITH",
       "properties": {
-        "start_date": "1971-07",
-        "description": "在北京与秘密访华的美国总统国家安全事务助理基辛格举行会谈。"
+        "start_date": [
+          "1971-07",
+          "1971-10",
+          "1973-11"
+        ],
+        "description": "周恩来多次与秘密访华的美国总统国家安全事务助理基辛格在北京举行会谈，商讨中美关系正常化事宜。"
       }
     },
     {
@@ -24987,7 +26493,7 @@
       "type": "MET_WITH",
       "properties": {
         "start_date": "1972-09-25",
-        "description": "在北京与来访的日本内阁总理大臣田中角荣会谈，促成中日建交。"
+        "description": "在北京与来访的日本内阁总理大臣田中角荣会谈，促成中日建交，并签署了《中日联合声明》。"
       }
     },
     {
@@ -25006,7 +26512,8 @@
       "type": "BORN_IN",
       "properties": {
         "start_date": "1898-10-24",
-        "end_date": "1898-10-24"
+        "end_date": "1898-10-24",
+        "description": "彭德怀出生于湖南湘潭县石潭镇乌石寨彭家围子。"
       }
     },
     {
@@ -25034,7 +26541,7 @@
       "target": "彭钢",
       "type": "RELATIVE_OF",
       "properties": {
-        "description": "侄女"
+        "description": "彭钢是彭德怀的侄女。"
       }
     },
     {
@@ -25451,9 +26958,9 @@
       "target": "林彪",
       "type": "ENEMY_OF",
       "properties": {
-        "start_date": "1959-08",
+        "start_date": "1959-08-01",
         "end_date": "1971",
-        "description": "在庐山会议上严厉批判彭德怀，并接替其国防部长职务，在文革中持续迫害彭。"
+        "description": "林彪在庐山会议上严厉批判彭德怀，称其为“阴谋家、野心家、伪君子”，并接替其国防部长职务，在文革中持续迫害彭。"
       }
     },
     {
@@ -26768,7 +28275,7 @@
       "target": "赖传珠",
       "type": "RELATIVE_OF",
       "properties": {
-        "description": "女儿罗北捷嫁给赖传珠之子赖克游"
+        "description": "罗荣桓之女罗北捷嫁给赖传珠之子赖克游"
       }
     },
     {
@@ -26883,7 +28390,7 @@
       "properties": {
         "start_date": "1928-04",
         "end_date": "1932-03",
-        "position": "营党代表、军委书记、政治委员"
+        "position": "军委书记、政治委员; 1928年4月至1930年8月兼任营党代表"
       }
     },
     {
@@ -26962,7 +28469,7 @@
       "type": "ENEMY_OF",
       "properties": {
         "start_date": "1919",
-        "description": "参加了长沙反对军阀张敬尧的运动。"
+        "description": "参加长沙反对军阀张敬尧和抵制日货的运动"
       }
     },
     {
@@ -27711,7 +29218,10 @@
     {
       "source": "董必武",
       "target": "中国共产党",
-      "type": "MEMBER_OF"
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1920"
+      }
     },
     {
       "source": "董必武",
@@ -27989,7 +29499,7 @@
       "type": "ENEMY_OF",
       "properties": {
         "start_date": "1958",
-        "description": "彭真领导的中央政法小组对董必武进行了不点名批判"
+        "description": "在第四届全国司法工作会议上，董必武的观点受到彭真领导的中央政法小组不点名批判。"
       }
     },
     {
@@ -28329,7 +29839,8 @@
       "target": "共产党武汉支部",
       "type": "FOUNDED",
       "properties": {
-        "start_date": "1920"
+        "start_date": "1920",
+        "description": "与陈潭秋等人共同建立。"
       }
     },
     {
@@ -28338,7 +29849,7 @@
       "type": "FOUNDED",
       "properties": {
         "start_date": "1924",
-        "description": "领导筹建"
+        "description": "领导筹建中国国民党湖北省党部。"
       }
     },
     {
@@ -28347,7 +29858,7 @@
       "type": "INFLUENCED",
       "properties": {
         "start_date": "1911",
-        "description": "参加"
+        "description": "参与辛亥革命。"
       }
     },
     {
@@ -28356,7 +29867,7 @@
       "type": "INFLUENCED",
       "properties": {
         "start_date": "1919",
-        "description": "参加"
+        "description": "在上海参加五四运动。"
       }
     },
     {
@@ -28374,7 +29885,7 @@
       "type": "INFLUENCED",
       "properties": {
         "start_date": "1934-10",
-        "description": "参加"
+        "description": "参与长征。"
       }
     },
     {
@@ -29473,7 +30984,8 @@
       "target": "中国共产党",
       "type": "MEMBER_OF",
       "properties": {
-        "start_date": "1923-11"
+        "start_date": "1923-11",
+        "end_date": "1972-01-06"
       }
     },
     {
@@ -29488,27 +31000,42 @@
     {
       "source": "陈昊苏",
       "target": "陈毅",
-      "type": "CHILD_OF"
+      "type": "CHILD_OF",
+      "properties": {
+        "description": "长子"
+      }
     },
     {
       "source": "陈丹淮",
       "target": "陈毅",
-      "type": "CHILD_OF"
+      "type": "CHILD_OF",
+      "properties": {
+        "description": "次子"
+      }
     },
     {
       "source": "陈小鲁",
       "target": "陈毅",
-      "type": "CHILD_OF"
+      "type": "CHILD_OF",
+      "properties": {
+        "description": "幼子"
+      }
     },
     {
       "source": "丛军",
       "target": "陈毅",
-      "type": "CHILD_OF"
+      "type": "CHILD_OF",
+      "properties": {
+        "description": "女儿"
+      }
     },
     {
       "source": "陈毅",
       "target": "中法大学",
-      "type": "ALUMNUS_OF"
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1923"
+      }
     },
     {
       "source": "陈毅",
@@ -29520,8 +31047,9 @@
       "target": "新四军",
       "type": "MEMBER_OF",
       "properties": {
-        "start_date": "1941-01",
-        "position": "代理军长"
+        "start_date": "1937",
+        "end_date": "1947",
+        "position": "第1支队司令员、代理军长、军长"
       }
     },
     {
@@ -29737,7 +31265,8 @@
       "target": "黄桥战役",
       "type": "PUSHED",
       "properties": {
-        "description": "指挥"
+        "description": "与粟裕等共同指挥。",
+        "start_date": "1940-10"
       }
     },
     {
@@ -29755,7 +31284,8 @@
       "type": "ENEMY_OF",
       "properties": {
         "start_date": "1943-10",
-        "description": "在“黄花塘事件”中遭受饶漱石批判"
+        "end_date": "1954",
+        "description": "1943年在“黄花塘事件”中遭饶漱石批判，1954年在高饶事件中反对饶漱石。"
       }
     },
     {
@@ -29899,12 +31429,19 @@
     {
       "source": "陈毅",
       "target": "银元之战",
-      "type": "PUSHED"
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949",
+        "description": "与陈云共同发动。"
+      }
     },
     {
       "source": "陈毅",
       "target": "米棉之战",
-      "type": "PUSHED"
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949"
+      }
     },
     {
       "source": "陈毅",
@@ -29969,7 +31506,7 @@
       "type": "ENEMY_OF",
       "properties": {
         "start_date": "1954",
-        "description": "在中共七届四中全会前后反对高岗"
+        "description": "在中共七届四中全会前后，反对高岗、饶漱石。"
       }
     },
     {
@@ -30040,8 +31577,8 @@
       "target": "陈毅",
       "type": "FRIEND_OF",
       "properties": {
-        "start_date": "1967",
-        "description": "周恩来在文化大革命期间的批斗中保护了受冲击的陈毅。"
+        "start_date": "1919",
+        "description": "早年在巴黎结识，后长期共事。周恩来在文化大革命期间的批斗中保护了受冲击的陈毅。"
       }
     },
     {
@@ -30058,7 +31595,8 @@
       "target": "林彪",
       "type": "ENEMY_OF",
       "properties": {
-        "description": "据毛泽东所述，林彪反对陈毅"
+        "end_date": "1971",
+        "description": "毛泽东称林彪反对陈毅。"
       }
     },
     {
@@ -30097,6 +31635,7 @@
         },
         {
           "start_date": "1966-01-08",
+          "end_date": "1972-01-06",
           "position": "副主席"
         }
       ]
@@ -32124,8 +33663,9 @@
       "type": "MEMBER_OF",
       "properties": {
         "start_date": "1956-09",
-        "end_date": "1969-04",
-        "position": "书记"
+        "end_date": "1966-08",
+        "position": "书记",
+        "description": "在中共八届一中全会上当选。"
       }
     },
     {
@@ -37188,8 +38728,8 @@
       "target": "万隆会议",
       "type": "INFLUENCED",
       "properties": {
-        "start_date": "1955",
-        "description": "率领中国代表团参加会议，提出“求同存异、协商一致”方针。"
+        "start_date": "1955-04",
+        "description": "率领中国代表团参加万隆会议，提出“求同存异、协商一致”方针，促进了会议的成功。"
       }
     },
     {
@@ -37197,8 +38737,8 @@
       "target": "乒乓外交",
       "type": "PUSHED",
       "properties": {
-        "start_date": "1971",
-        "description": "邀请美国乒乓球队访华，打开了中美两国人民友好往来的大门。"
+        "start_date": "1971-04",
+        "description": "正式邀请美国乒乓球队访华，打开了中美两国人民友好往来的大门。"
       }
     },
     {
@@ -38133,7 +39673,10 @@
       "target": "中华革命党",
       "type": "MEMBER_OF",
       "properties": {
-        "start_date": "1914"
+        "start_date": [
+          "1914",
+          "1915"
+        ]
       }
     },
     {
@@ -38699,7 +40242,10 @@
     {
       "source": "乌兰夫",
       "target": "归化城土默特",
-      "type": "BORN_IN"
+      "type": "BORN_IN",
+      "properties": {
+        "description": "出生于归化城土默特塔布村"
+      }
     },
     {
       "source": "乌兰夫",
@@ -38726,10 +40272,10 @@
       "target": "华国锋",
       "type": "SUBORDINATE_OF",
       "properties": {
-        "start_date": "1977-08",
+        "start_date": "1977-06",
         "end_date": "1981-06",
-        "position": "中共中央政治局委员",
-        "description": "乌兰夫在华国锋担任中共中央主席期间任政治局委员。"
+        "position": "中共中央政治局委员, 中共中央统战部部长",
+        "description": "乌兰夫在华国锋担任中共中央主席期间，曾任中共中央政治局委员、中共中央统战部部长。"
       }
     },
     {
@@ -38739,8 +40285,8 @@
       "properties": {
         "start_date": "1981-06",
         "end_date": "1985-09",
-        "position": "中共中央政治局委员",
-        "description": "乌兰夫在胡耀邦担任中共中央主席及总书记期间任政治局委员。"
+        "position": "中共中央政治局委员、中共中央统战部部长",
+        "description": "乌兰夫在胡耀邦担任中共中央主席及总书记期间，曾任中共中央政治局委员（1981年6月至1985年9月）和中共中央统战部部长（1981年6月至1982年4月）。"
       }
     },
     {
@@ -39418,7 +40964,8 @@
       "target": "刘英 (1905年10月)",
       "type": "SPOUSE_OF",
       "properties": {
-        "start_date": "1935"
+        "start_date": "1935",
+        "description": "红军长征到达陕北后结婚。"
       }
     },
     {
@@ -39598,7 +41145,7 @@
       "target": "王稼祥",
       "type": "FRIEND_OF",
       "properties": {
-        "start_date": "1934",
+        "start_date": "1934-10",
         "description": "长征途中，张闻天、王稼祥与毛泽东结成同盟，共同反对博古、李德。"
       }
     },
@@ -39607,9 +41154,9 @@
       "target": "博古",
       "type": "ENEMY_OF",
       "properties": {
-        "start_date": "1934",
+        "start_date": "1935-01",
         "end_date": "1935",
-        "description": "长征途中，张闻天与毛泽东、王稼祥结盟，激烈反对博古的军事指挥和策略。在遵义会议上，张闻天最终取代博古的总书记职务。"
+        "description": "长征途中，张闻天与毛泽东、王稼祥结盟，在遵义会议上作报告，激烈反对博古的军事路线。最终，张闻天取代博古的总书记职务。"
       }
     },
     {
@@ -39617,8 +41164,8 @@
       "target": "李德 (1900年)",
       "type": "ENEMY_OF",
       "properties": {
-        "start_date": "1934",
-        "description": "反对其在中央苏区的军事指挥。"
+        "start_date": "1935-01",
+        "description": "在遵义会议上，与毛泽东、王稼祥共同反对李德的军事指挥。"
       }
     },
     {
@@ -39646,7 +41193,7 @@
       "properties": {
         "start_date": "1959-07",
         "end_date": "1976-07-01",
-        "description": "在庐山会议上因批评“大跃进”被毛泽东划为“彭德怀反党集团”成员，并在文化大革命中持续受到迫害。"
+        "description": "在庐山会议上因批评“大跃进”，被毛泽东划为“彭、黄、张、周反党集团”成员，并在文化大革命中持续受到迫害。"
       }
     },
     {
@@ -39682,7 +41229,7 @@
       "type": "BLOCKED",
       "properties": {
         "start_date": "1959-07",
-        "description": "在庐山会议上发言，批评大跃进和人民公社化运动中的“左”倾错误。"
+        "description": "在庐山会议上作长篇发言，从理论层面系统性地批评了大跃进和人民公社化运动中的左倾错误。"
       }
     },
     {
@@ -39804,9 +41351,21 @@
       "target": "刘少奇",
       "type": "SUBORDINATE_OF",
       "properties": {
-        "start_date": "1936",
-        "position": "组织部部长",
-        "description": "在刘少奇领导的中共中央北方局任职"
+        "start_date": [
+          "1936",
+          "1954"
+        ],
+        "end_date": [
+          "1959"
+        ],
+        "position": [
+          "组织部部长",
+          "全国人大常委会副委员长"
+        ],
+        "description": [
+          "在刘少奇领导的中共中央北方局任职",
+          "在刘少奇担任全国人大常委会委员长期间任副职。"
+        ]
       }
     },
     {
@@ -39937,10 +41496,18 @@
       "target": "邓小平",
       "type": "SUBORDINATE_OF",
       "properties": {
-        "start_date": "1956-09",
-        "end_date": "1966",
-        "position": "中央书记处书记",
-        "description": "在邓小平担任总书记的中央书记处中任书记，协助总负责。"
+        "start_date": [
+          "1956-09",
+          "1978"
+        ],
+        "end_date": [
+          "1966",
+          "1987"
+        ],
+        "position": [
+          "中央书记处书记"
+        ],
+        "description": "在1956年9月至1966年期间，彭真在邓小平担任总书记的中央书记处中任书记，协助总负责。在1978年至1987年期间，彭真作为邓小平主政时期的中共八大元老之一，支持邓小平的领导核心地位。"
       }
     },
     {
@@ -39978,7 +41545,7 @@
       "type": "ENEMY_OF",
       "properties": {
         "start_date": "1966",
-        "description": "在《二月提纲》问题上与康生等人发生冲突，并被其批判"
+        "description": "在《二月提纲》问题上与康生等人发生冲突并被其批判。在《五一六通知》中，彭真被指责“背着康生同志”制定《二月提纲》。"
       }
     },
     {
@@ -39988,7 +41555,7 @@
       "properties": {
         "start_date": "1962",
         "end_date": "1976",
-        "description": "因七千人大会发言、主持制定《二月提纲》等事与毛泽东意见相左，在文革中被打倒"
+        "description": "彭真因七千人大会发言、主持制定《二月提纲》等事与毛泽东意见相左，其《二月提纲》与毛泽东发动文化大革命的意图相悖，最终被其作为“彭、罗、陆、杨反党集团”成员在文革中打倒。"
       }
     },
     {
@@ -40522,8 +42089,12 @@
       "target": "中国共产党中央委员会",
       "type": "MEMBER_OF",
       "properties": {
-        "start_date": "1927",
-        "position": "常委"
+        "start_date": [
+          "1927",
+          "1930-06"
+        ],
+        "end_date": "1930-10",
+        "position": "常委；秘书长，实际最高领导人"
       }
     },
     {
@@ -40705,8 +42276,7 @@
       "properties": {
         "start_date": "1949",
         "end_date": "1954",
-        "position": "中央人民政府委员会委员",
-        "description": "毛泽东为中央人民政府主席"
+        "description": "在中华人民共和国中央人民政府委员会中，毛泽东为主席，李立三为委员。"
       }
     },
     {
@@ -40717,7 +42287,7 @@
         "start_date": "1949-10-21",
         "end_date": "1954-09-27",
         "position": "政务委员",
-        "description": "周恩来为政务院总理"
+        "description": "在中央人民政府政务院中，周恩来是总理，李立三是政务委员。"
       }
     },
     {
@@ -40752,7 +42322,8 @@
       "target": "中华人民共和国劳动部",
       "type": "MEMBER_OF",
       "properties": {
-        "start_date": "1954-09"
+        "start_date": "1954-09",
+        "position": "部长"
       }
     },
     {
@@ -40760,6 +42331,7 @@
       "target": "中共中央工业交通工作部",
       "type": "MEMBER_OF",
       "properties": {
+        "start_date": "1955",
         "position": "副部长"
       }
     },
@@ -40859,7 +42431,8 @@
       "target": "毛泽东",
       "type": "FRIEND_OF",
       "properties": {
-        "description": "在湖南一师结识，共同创建新民学会。"
+        "start_date": "1916",
+        "description": "在湖南省立第一师范学校结识，共同创建新民学会。"
       }
     },
     {
@@ -40867,7 +42440,8 @@
       "target": "蔡和森",
       "type": "FRIEND_OF",
       "properties": {
-        "description": "在湖南一师结识，共同创建新民学会。"
+        "start_date": "1916",
+        "description": "在湖南省立第一师范学校结识，并共同创建新民学会。"
       }
     },
     {
@@ -40875,7 +42449,8 @@
       "target": "新民学会",
       "type": "FOUNDED",
       "properties": {
-        "start_date": "1918-04"
+        "start_date": "1918-04",
+        "description": "与毛泽东、蔡和森等人共同创建。"
       }
     },
     {
@@ -40920,9 +42495,9 @@
       "target": "八七会议",
       "type": "PUSHED",
       "properties": {
-        "start_date": "1927-08",
+        "start_date": "1927-08-07",
         "position": "会议主席",
-        "description": "与瞿秋白共同主持会议"
+        "description": "与瞿秋白共同主持了八七会议，对确定新的路线方针起到了关键作用。"
       }
     },
     {
@@ -40993,7 +42568,7 @@
       "type": "ENEMY_OF",
       "properties": {
         "start_date": "1933",
-        "description": "参与了对邓小平政治路线的抨击"
+        "description": "在江西苏区期间，参与了对邓小平政治路线的抨击。"
       }
     },
     {
@@ -41002,7 +42577,8 @@
       "type": "INFLUENCED",
       "properties": {
         "start_date": "1934",
-        "position": "军委二纵队司令员兼政治委员"
+        "position": "军委二纵队司令员兼政治委员",
+        "description": "作为指挥员参加了长征。"
       }
     },
     {
@@ -41107,8 +42683,9 @@
       "type": "SUBORDINATE_OF",
       "properties": {
         "start_date": "1954-09-27",
-        "position": "全国人大常委会副委员长",
-        "description": "刘少奇为委员长"
+        "end_date": "1964-12-25",
+        "position": "全国人民代表大会常务委员会副委员长",
+        "description": "在刘少奇担任全国人大常委会委员长期间任副委员长。"
       }
     },
     {
@@ -41209,7 +42786,7 @@
         "start_date": "1982-09-12",
         "end_date": "1984-08-11",
         "position": "中共中央顾问委员会副主任",
-        "description": "邓小平为主任"
+        "description": "在邓小平担任中顾委主任期间任副主任。"
       }
     },
     {
@@ -41227,7 +42804,8 @@
       "target": "金维映",
       "type": "SPOUSE_OF",
       "properties": {
-        "start_date": "1933"
+        "start_date": "1933",
+        "end_date": "1941"
       }
     },
     {
@@ -41647,8 +43225,14 @@
       "type": "MEMBER_OF",
       "properties": {
         "start_date": "1949-10",
-        "end_date": "1959",
-        "position": "副部长"
+        "end_date": [
+          "1959",
+          "1951-01"
+        ],
+        "position": [
+          "副部长",
+          "驻苏联大使"
+        ]
       }
     },
     {
@@ -41734,9 +43318,9 @@
       "target": "博古",
       "type": "ENEMY_OF",
       "properties": {
-        "start_date": "1934",
-        "end_date": "1935",
-        "description": "在长征途中与毛泽东、张闻天结成同盟，共同反对博古、李德的军事指挥。"
+        "start_date": "1934-10",
+        "end_date": "1935-01",
+        "description": "在长征途中和遵义会议上，王稼祥与毛泽东、张闻天结成同盟，共同反对博古、李德的军事指挥。"
       }
     },
     {
@@ -41744,9 +43328,9 @@
       "target": "李德 (1900年)",
       "type": "ENEMY_OF",
       "properties": {
-        "start_date": "1934",
-        "end_date": "1935",
-        "description": "在长征途中与毛泽东、张闻天结成同盟，共同反对博古、李德的军事指挥。"
+        "start_date": "1934-10",
+        "end_date": "1935-01",
+        "description": "在长征途中和遵义会议上，王稼祥与毛泽东、张闻天结成同盟，共同反对博古、李德的军事指挥。"
       }
     },
     {
@@ -41772,8 +43356,11 @@
       "target": "毛泽东",
       "type": "FRIEND_OF",
       "properties": {
-        "start_date": "1932-10",
-        "description": "在宁都会议上支持毛泽东，长征中与毛结盟，在遵义会议上支持毛的领导地位。后虽因“三和一少”受毛批评，但早期是重要政治盟友。"
+        "start_date": [
+          "1932-10",
+          "1934-10"
+        ],
+        "description": "王稼祥在宁都会议上（1932年10月）支持毛泽东。在长征途中（1934年10月起），他与毛泽东、张闻天结成同盟，共同反对博古、李德的军事路线，并在遵义会议上支持毛的领导地位。王稼祥是毛泽东早期重要的政治盟友，后虽因“三和一少”受到批评。"
       }
     },
     {
@@ -41880,7 +43467,8 @@
       "type": "INFLUENCED",
       "properties": {
         "start_date": "1934-10",
-        "description": "作为中央三人军事小组成员，参与长征的军事指挥决策。"
+        "end_date": "1935-10",
+        "description": "作为中央三人军事小组成员，参与长征的军事指挥决策，并在途中对战略方向的转变起了重要作用。"
       }
     },
     {
@@ -42386,8 +43974,14 @@
       "target": "国际民主妇女联合会",
       "type": "MEMBER_OF",
       "properties": {
-        "start_date": "1948",
-        "position": "副主席"
+        "start_date": [
+          "1946",
+          "1948"
+        ],
+        "position": [
+          "理事",
+          "副主席"
+        ]
       }
     },
     {
@@ -42397,7 +43991,11 @@
       "properties": {
         "start_date": "1949",
         "end_date": "1978",
-        "position": "主席"
+        "position": [
+          "主席",
+          "名誉主席"
+        ],
+        "description": "担任第一至三届主席，第四届名誉主席。"
       }
     },
     {
@@ -42422,7 +44020,7 @@
       "target": "长征",
       "type": "INFLUENCED",
       "properties": {
-        "start_date": "1934",
+        "start_date": "1934-10",
         "description": "参加长征，是长征中年龄最大的女红军。"
       }
     },
@@ -42483,7 +44081,8 @@
       "target": "邓小平",
       "type": "FRIEND_OF",
       "properties": {
-        "description": "社会主义战友的革命感情在法国时期一样深厚。邓小平认为除周恩来外，与李富春、蔡畅家关系最亲近。"
+        "description": "蔡畅与邓小平在法国勤工俭学时期结下深厚的社会主义战友革命感情。邓小平曾表示，除周恩来外，与李富春、蔡畅家关系最亲近。",
+        "start_date": "1919"
       }
     },
     {
@@ -46981,8 +48580,9 @@
       "target": "李立三",
       "type": "SUBORDINATE_OF",
       "properties": {
-        "start_date": "1930",
-        "description": "周恩来去苏联后，向忠发听信李立三的建议，追随其“立三路线”。"
+        "start_date": "1930-06",
+        "end_date": "1930-10",
+        "description": "在周恩来去苏联后，向忠发听信李立三的建议，追随其“立三路线”；在此期间，向忠发是名义上的总书记，而李立三是实际最高领导人。"
       }
     },
     {
@@ -51362,6 +52962,4243 @@
       "type": "INFLUENCED",
       "properties": {
         "description": "清理阶级队伍是文革期间重要的政治清洗运动。"
+      }
+    },
+    {
+      "source": "蔡畅",
+      "target": "东方劳动者共产主义大学",
+      "type": "ALUMNUS_OF"
+    },
+    {
+      "source": "李特特",
+      "target": "蔡畅",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "蔡畅",
+      "target": "第一届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954",
+        "position": "代表"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "中国共产党中央委员会总书记",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1928-06",
+        "end_date": "1931-06",
+        "position": "中央委员会总书记"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "上海县",
+      "type": "BORN_IN"
+    },
+    {
+      "source": "许白昊",
+      "target": "向忠发",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1922",
+        "description": "介绍向忠发加入中国共产党"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "中国共产党中央政治局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1927",
+        "end_date": "1931-06",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1928-07",
+        "end_date": "1931-06",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "国民政府",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1931-06",
+        "description": "被国民政府逮捕并处决"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "王家全",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": "仆人"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "第三国际",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "在共产国际的支持下成为中共领导人"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "蔡和森",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1928-11",
+        "description": "赞成并推动取消蔡和森中央政治局委员等职务"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "李立三",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-01",
+        "description": "以李立三递补蔡和森的政治局常委职位"
+      }
+    },
+    {
+      "source": "李立三",
+      "target": "向忠发",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1930"
+      }
+    },
+    {
+      "source": "王明",
+      "target": "向忠发",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1931",
+        "description": "王明逐渐掌握中共中央实际领导权，向忠发成为挂牌总书记"
+      }
+    },
+    {
+      "source": "向忠发",
+      "target": "张纪恩",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1931-06",
+        "description": "被捕后供出张纪恩所在的中共中央机要处地址"
+      }
+    },
+    {
+      "source": "董必武",
+      "target": "联合国宪章",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1945",
+        "description": "在《联合国宪章》上签字。"
+      }
+    },
+    {
+      "source": "董必武",
+      "target": "黄俊贞",
+      "type": "SPOUSE_OF"
+    },
+    {
+      "source": "董必武",
+      "target": "陈碧英",
+      "type": "SPOUSE_OF"
+    },
+    {
+      "source": "董必武",
+      "target": "何连芝",
+      "type": "SPOUSE_OF"
+    },
+    {
+      "source": "董良羽",
+      "target": "董必武",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "董良翮",
+      "target": "董必武",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "董必武",
+      "target": "库尔特·瓦尔德海姆",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1975-04",
+        "description": "逝世后，联合国秘书长库尔特·瓦尔德海姆发电悼念。"
+      }
+    },
+    {
+      "source": "共产党武汉支部",
+      "target": "中国共产党早期组织",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1920"
+      }
+    },
+    {
+      "source": "李立三",
+      "target": "醴陵市",
+      "type": "BORN_IN"
+    },
+    {
+      "source": "李立三",
+      "target": "李汉辅",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1932",
+        "end_date": "1933"
+      }
+    },
+    {
+      "source": "李人俊",
+      "target": "李一纯",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "李竞",
+      "target": "李崇善",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "李英男",
+      "target": "李立三",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "李英男",
+      "target": "李莎",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "李雅兰",
+      "target": "李立三",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "李立三",
+      "target": "渌江中学",
+      "type": "ALUMNUS_OF"
+    },
+    {
+      "source": "李立三",
+      "target": "湖南师范大学附属中学",
+      "type": "ALUMNUS_OF"
+    },
+    {
+      "source": "李立三",
+      "target": "中华人民共和国国务院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1949-10-21",
+        "end_date": "1954-09-27",
+        "position": "政务委员"
+      }
+    },
+    {
+      "source": "李立三",
+      "target": "湖南省苏维埃政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930",
+        "end_date": "1931",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "李立三",
+      "target": "中国共产党中央委员会组织部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930-03",
+        "end_date": "1930-08",
+        "position": "中共中央组织局主任"
+      }
+    },
+    {
+      "source": "李立三",
+      "target": "中国共产党中央政治局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1927",
+        "end_date": "1930",
+        "position": "第五届常务委员会委员"
+      }
+    },
+    {
+      "source": "李立三",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1955",
+        "position": "第三办公室副主任"
+      }
+    },
+    {
+      "source": "李立三",
+      "target": "中国人民政治协商会议第四届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "常务委员"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "李立三",
+      "type": "BLOCKED",
+      "properties": {
+        "description": "在文化大革命中受迫害并自杀身亡。"
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "李立三",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "李立三因受刘少奇案牵连而被迫害。"
+      }
+    },
+    {
+      "source": "中国共产党中央委员会",
+      "target": "李立三",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1980-03-20",
+        "description": "为李立三平反昭雪。"
+      }
+    },
+    {
+      "source": "彭真",
+      "target": "李立三",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1980-03-20",
+        "description": "主持李立三的追悼会。"
+      }
+    },
+    {
+      "source": "王震",
+      "target": "李立三",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1980-03-20",
+        "description": "代表中共中央在李立三的追悼会上致悼词。"
+      }
+    },
+    {
+      "source": "彭真",
+      "target": "太原市第五中学校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1922"
+      }
+    },
+    {
+      "source": "刘朝兰",
+      "target": "彭真",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": "养女"
+      }
+    },
+    {
+      "source": "彭真",
+      "target": "中国共产党中央委员会组织部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1944-03-05",
+        "position": "代理部长"
+      }
+    },
+    {
+      "source": "彭真",
+      "target": "朱德",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1959",
+        "end_date": "1966",
+        "position": "全国人大常委会副委员长",
+        "description": "在朱德担任全国人大常委会委员长期间任副职。"
+      }
+    },
+    {
+      "source": "彭真",
+      "target": "中华人民共和国宪法 (1982年)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1980",
+        "end_date": "1982",
+        "position": "宪法修改委员会副主任委员",
+        "description": "主持宪法修改工作，重建和恢复中华人民共和国的法制体系。"
+      }
+    },
+    {
+      "source": "彭真",
+      "target": "冀东大暴动",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1938",
+        "description": "作为中共中央晋察冀分局书记，参与指导了冀东大暴动。"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "华东野战军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1947-01",
+        "end_date": "1949-01",
+        "position": "司令员兼政治委员"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "肖菊英",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1930",
+        "end_date": "1931"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "赖月明",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1932",
+        "end_date": "1937"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "朱德",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1926",
+        "description": "共同发动泸顺起义，并在南昌起义后共同率领部队。"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "毛泽东",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1929",
+        "end_date": "1972",
+        "description": "长期作为毛泽东的下属和支持者，尽管在1929年曾短暂对立。"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "毛泽东",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-06",
+        "end_date": "1929-08",
+        "description": "在中共红四军第七次代表大会上批评毛泽东，并当选为前委书记取代毛泽东。"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "泸顺起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1926-12"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "孟良崮战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1947-05",
+        "description": "指挥华东野战军。"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "淮海战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1948-11",
+        "description": "作为总前委常委参与组织指挥。"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "渡江战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-04",
+        "description": "与邓小平共同指挥。"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "二月逆流",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1967-02",
+        "description": "作为核心人物被牵扯进“二月逆流”案。"
+      }
+    },
+    {
+      "source": "蔡和森",
+      "target": "陈毅",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1922",
+        "description": "经蔡和森介绍，加入中国社会主义青年团。"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "刘坤模",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1922-04",
+        "description": "第一任妻子。"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "中国工农红军第三军团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930-06",
+        "position": "总指挥"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "八路军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1937-08",
+        "position": "副总指挥"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "中华人民共和国国务院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954-09-27",
+        "end_date": "1965-01-04",
+        "position": "副总理"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "长征",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1934-10",
+        "description": "作为红三军团军团长，率部参与长征。"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "文化大革命",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1966-12",
+        "end_date": "1974-11-29",
+        "description": "在文化大革命期间遭到残酷迫害，最终身亡。"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "大跃进",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1959-07-14",
+        "description": "在庐山会议上致信毛泽东，指出大跃进中的问题和弊病。"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "庐山会议 (1959年)",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1959-07",
+        "description": "在会议期间上书毛泽东，引发会议转向对他的批判，并最终导致其政治生涯的终结。"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "蒋中正",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1938-01",
+        "description": "在抗日战争期间，曾赴洛阳和武昌与蒋介石会谈。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "彭德怀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-12-24",
+        "description": "代表中共中央在彭德怀追悼大会上致悼词，为其恢复名誉。"
+      }
+    },
+    {
+      "source": "王稼祥",
+      "target": "泾县",
+      "type": "BORN_IN"
+    },
+    {
+      "source": "王稼祥",
+      "target": "二十八个半布尔什维克",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1928",
+        "description": "王稼祥被认为是“二十八个半布尔什维克”之一。"
+      }
+    },
+    {
+      "source": "王稼祥",
+      "target": "三人团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1935-03",
+        "description": "与周恩来、毛泽东共同负责军事指挥。"
+      }
+    },
+    {
+      "source": "王稼祥",
+      "target": "遵义会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1935-01",
+        "description": "在遵义会议上发言抨击博古、李德，支持毛泽东的正确主张。"
+      }
+    },
+    {
+      "source": "王稼祥",
+      "target": "约瑟夫·斯大林",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1951-04",
+        "description": "不同意斯大林提出的以中国为主建立亚洲社会主义国家联盟的构想。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "王稼祥",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-06-10",
+        "description": "在中共七大上，就王稼祥落选中央委员一事发表讲话，列举其功劳，希望代表们选举他为候补中央委员。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "王稼祥",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1967",
+        "description": "在文化大革命期间，王稼祥遭批斗病危，在周恩来保护下才得以活下来。"
+      }
+    },
+    {
+      "source": "康生",
+      "target": "王稼祥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966-06",
+        "description": "在文化大革命期间，煽动批判王稼祥的“三和一少”路线，并喊出“打倒刘邓王”的口号。"
+      }
+    },
+    {
+      "source": "王力 (1922年)",
+      "target": "王稼祥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966-06-09",
+        "description": "作为中央文革小组成员，贴大字报首先向王稼祥发难。"
+      }
+    },
+    {
+      "source": "王稼祥",
+      "target": "毛泽东",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1932-10",
+        "description": "在宁都会议上，与大多数人意见不同，表示支持毛泽东的正确主张。",
+        "event": "宁都会议"
+      }
+    },
+    {
+      "source": "张维英",
+      "target": "张闻天",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "张引娣",
+      "target": "张闻天",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "张虹生",
+      "target": "张闻天",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "张闻天",
+      "target": "二十八个半布尔什维克",
+      "type": "MEMBER_OF"
+    },
+    {
+      "source": "张闻天",
+      "target": "中共合江省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945-12",
+        "position": "书记"
+      }
+    },
+    {
+      "source": "张闻天",
+      "target": "毛泽东",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1938",
+        "description": "反对毛泽东与江青结婚。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "周贻能",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "周恩来",
+      "target": "万冬儿",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "周恩来",
+      "target": "周恩溥",
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": "周恩来",
+      "target": "李鹏",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": "周恩来收养李鹏为义子。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "孙维世",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": "周恩来收养孙维世为养女。"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "善化县",
+      "type": "BORN_IN"
+    },
+    {
+      "source": "徐特立",
+      "target": "熊立诚",
+      "type": "SPOUSE_OF"
+    },
+    {
+      "source": "徐守珍",
+      "target": "徐特立",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "徐笃本",
+      "target": "徐特立",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "徐陌青",
+      "target": "徐特立",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "徐厚本",
+      "target": "徐特立",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "徐特立",
+      "target": "巴黎大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1919",
+        "end_date": "1924-06"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "莫斯科中山大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1928"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "毛泽东",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "作为毛泽东的老师。"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "田汉",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "作为田汉的老师。"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "毛泽东",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "互为老友"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1927"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "南昌起义",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1927"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "毛泽东",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": [
+          "1931-11",
+          "1949"
+        ],
+        "end_date": [
+          "1937-09",
+          "1949"
+        ],
+        "position": [
+          "教育部代部长",
+          "副部长"
+        ],
+        "description": [
+          "在中华苏维埃共和国任职期间",
+          "在中共中央宣传部任职期间"
+        ]
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "苏维埃大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "副校长"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "长征",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1934"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "八路军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1937",
+        "position": "高级参议"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "延安自然科学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1940",
+        "position": "院长"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "吴玉章",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "同为“延安五老”"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "谢觉哉",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "同为“延安五老”"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "中国史学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954",
+        "position": "理事"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "大跃进",
+      "type": "BLOCKED",
+      "properties": {
+        "description": "深表忧虑"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "description": "深表忧虑"
+      }
+    },
+    {
+      "source": "徐特立",
+      "target": "中国共产党第七届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "委员"
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "中华人民共和国主席",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1959-04-27",
+        "end_date": "1968-10-31",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "何宝珍",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1923-04",
+        "end_date": "1932"
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "王前",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "end_date": "1946"
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "刘寿生",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "刘允若",
+      "target": "刘少奇",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "刘少奇",
+      "target": "大跃进",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1958",
+        "end_date": "1959",
+        "description": "作为一线领导人，积极参与了大跃进的决策和推进工作。"
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "四清运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1963",
+        "description": "主持修订《后十条》，全面展开四清运动，但在运动的具体方针上与毛泽东产生分歧。"
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "论共产党员的修养",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1939-07",
+        "description": "撰写并发表了《论共产党员的修养》，成为中共党内学习的重要文献。"
+      }
+    },
+    {
+      "source": "乌兰夫",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983-06-18",
+        "end_date": "1988-03-27",
+        "position": "副主席"
+      }
+    },
+    {
+      "source": "乌兰夫",
+      "target": "中国人民政治协商会议",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1978-03",
+        "end_date": "1983-06",
+        "position": "副主席"
+      }
+    },
+    {
+      "source": "乌兰夫",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966-08",
+        "description": "因“内人党”问题被批斗，并被撤销党政军领导职务。"
+      }
+    },
+    {
+      "source": "乌兰夫",
+      "target": "内人党事件",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "description": "乌兰夫在文革期间因内人党事件受冲击。"
+      }
+    },
+    {
+      "source": "乌兰夫",
+      "target": "云亭",
+      "type": "SPOUSE_OF"
+    },
+    {
+      "source": "乌兰夫",
+      "target": "云丽文",
+      "type": "SPOUSE_OF"
+    },
+    {
+      "source": "乌兰夫",
+      "target": "云浦",
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": "乌可力",
+      "target": "乌兰夫",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "布小林",
+      "target": "布赫",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": "布小林是布赫之女"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "任裕道",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "任远志",
+      "target": "任弼时",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "任远芳",
+      "target": "任弼时",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "任远远",
+      "target": "任弼时",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "任弼时",
+      "target": "任培星",
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": "任弼时",
+      "target": "八路军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1937-08-25",
+        "position": "政治部主任"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "第三国际",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1938-07",
+        "end_date": "1940-03",
+        "position": "中国共产党驻共产国际代表"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "毛泽东",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1927-08-07",
+        "description": "在八七会议上共同反对陈独秀"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "毛泽东",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": [
+          "1931-11",
+          "1932-10"
+        ],
+        "description": "在赣南会议和宁都会议期间，批判毛泽东的经验主义思想及军事主张"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "周恩来",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1950-10-27",
+        "position": "中共五大书记",
+        "description": "作为中共五大书记之一，党内排名低于周恩来"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "刘少奇",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1950-10-27",
+        "position": "中共五大书记",
+        "description": "作为中共五大书记之一，党内排名低于刘少奇"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "朱德",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1950-10-27",
+        "position": "中共五大书记",
+        "description": "作为中共五大书记之一，党内排名低于朱德"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "贺龙",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1934-10",
+        "description": "统一指挥红二、六军团，共同领导湘鄂川黔边根据地和红二方面军"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "长征",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "领导红六军团、红二方面军参加长征并与中央红军会师"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "颜月娥",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1919"
+      }
+    },
+    {
+      "source": "罗玉英",
+      "target": "罗荣桓",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "罗北捷",
+      "target": "罗荣桓",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "罗北捷",
+      "target": "赖克游",
+      "type": "SPOUSE_OF"
+    },
+    {
+      "source": "罗荣桓",
+      "target": "中国共产党中央政治局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956-09",
+        "position": "第八届中央政治局委员"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "毛泽东",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "长期作为毛泽东的下属，并支持其军事主张"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "林彪",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1948-09",
+        "description": "在辽沈战役期间，劝说犹豫的林彪下定决心进攻锦州"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "谭政",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1961-01",
+        "position": "总政治部主任",
+        "description": "罗荣桓接替被降职的谭政，再次出任总政治部主任"
+      }
+    },
+    {
+      "source": "萧华 (上将)",
+      "target": "罗荣桓",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1963-12",
+        "position": "总政治部主任",
+        "description": "罗荣桓去世后，萧华接任总政治部主任"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "土桥一次",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1941-11",
+        "description": "在山东根据地抵抗土桥一次指挥的对沂蒙山区的扫荡"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "王道",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1944",
+        "description": "争取伪军王道部倒戈"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "古田会议",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1929-12"
+      }
+    },
+    {
+      "source": "罗荣桓",
+      "target": "中国人民解放军政治工作条例",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1954",
+        "description": "组织领导起草《中国人民解放军政治工作条例》"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "罗荣桓",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1955",
+        "description": "在罗荣桓请辞元帅军衔时，坚持授予其元帅军衔"
+      }
+    },
+    {
+      "source": "李维汉",
+      "target": "瞿秋白",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1927-08-07",
+        "description": "共同主持八七会议。"
+      }
+    },
+    {
+      "source": "李维汉",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "description": "在文化大革命中遭到迫害，被下放至湖北省咸宁市。"
+      }
+    },
+    {
+      "source": "李维汉",
+      "target": "邓小平",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1980",
+        "description": "向邓小平提出肃清“封建主义”影响的建议，并获得其认可。"
+      }
+    },
+    {
+      "source": "李维汉",
+      "target": "曹文玉",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1914",
+        "end_date": "1961"
+      }
+    },
+    {
+      "source": "李维汉",
+      "target": "吴景之",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1942"
+      }
+    },
+    {
+      "source": "李铁映",
+      "target": "金维映",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "李铁林",
+      "target": "吴景之",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "金维映",
+      "target": "邓小平",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "end_date": "1933",
+        "description": "金维映曾为邓小平的第二任妻子，后于1933年离婚。"
+      }
+    },
+    {
+      "source": "瞿秋白",
+      "target": "瞿世玮",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "瞿秋白",
+      "target": "王剑虹",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1924-01",
+        "end_date": "1924-07"
+      }
+    },
+    {
+      "source": "瞿秋白",
+      "target": "五四运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1919-05",
+        "description": "作为学生代表投入北京爱国学生运动"
+      }
+    },
+    {
+      "source": "八七会议",
+      "target": "陈独秀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-08-07",
+        "description": "在八七会议上被正式免职"
+      }
+    },
+    {
+      "source": "八七会议",
+      "target": "瞿秋白",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-08-07",
+        "description": "在八七会议上担任临时中央政治局常委，成为中共实际最高领导人"
+      }
+    },
+    {
+      "source": "王明",
+      "target": "瞿秋白",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-01",
+        "description": "参与主持中共六届四中全会，解除了瞿秋白的政治局委员职务"
+      }
+    },
+    {
+      "source": "杨之华",
+      "target": "沈剑龙",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "end_date": "1924",
+        "description": "与沈剑龙离婚后嫁与瞿秋白"
+      }
+    },
+    {
+      "source": "瞿独伊",
+      "target": "杨之华",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "瞿独伊",
+      "target": "沈剑龙",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谢觉哉",
+      "target": "王定国",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1937",
+        "end_date": "1971",
+        "description": "1971年谢觉哉逝世"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "五四运动",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1919",
+        "description": "参加了响应五四运动的斗争"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "何叔衡",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1926",
+        "description": "同为“宁乡四髯”"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "王凌波",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1926",
+        "description": "同为“宁乡四髯”"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "姜梦周",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1926",
+        "description": "同为“宁乡四髯”"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "毛泽东",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1933-05",
+        "position": "秘书",
+        "description": "任中华苏维埃共和国临时中央政府主席毛泽东的秘书"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "谢觉哉",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1921-01",
+        "description": "介绍谢觉哉加入新民学会"
+      }
+    },
+    {
+      "source": "何叔衡",
+      "target": "谢觉哉",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1921-01",
+        "description": "介绍谢觉哉加入新民学会"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "新民学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1921-01"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "中国国民党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1923-11",
+        "end_date": "1927"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1925"
+      }
+    },
+    {
+      "source": "马日事变",
+      "target": "谢觉哉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-05",
+        "description": "马日事变后，谢觉哉在白色恐怖下拒绝退党"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "徐特立",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1927",
+        "description": "共同在汉口编辑《大江报》"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "长征",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1934-10",
+        "description": "参加长征"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "怀安诗社",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1941-09"
+      }
+    },
+    {
+      "source": "胡绩伟",
+      "target": "谢觉哉",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1942-02",
+        "end_date": "1947",
+        "position": "总编辑",
+        "description": "在谢觉哉任《边区群众报》社社长期间，胡绩伟任总编辑。"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "五五宪草",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-11",
+        "description": "组织批判国民政府起草的“五五宪草”"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "王明",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1947-01",
+        "position": "主要负责人之一",
+        "description": "在王明任主任委员的中共中央法制委员会中，谢觉哉为主要负责人之一。"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "中国人民政治协商会议共同纲领",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1947",
+        "description": "在中共中央法制委员会领导起草了作为宪法雏形的《中国人民政治协商会议共同纲领》"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "中华人民共和国最高人民法院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1959-04",
+        "end_date": "1965-01",
+        "position": "院长"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "中央人民政府内务部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1949-10",
+        "end_date": "1954-09",
+        "position": "部长"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "中华人民共和国内务部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954-09",
+        "end_date": "1959-04",
+        "position": "部长"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "中国人民政治协商会议第四届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1965-01",
+        "end_date": "1971-06-15",
+        "position": "副主席"
+      }
+    },
+    {
+      "source": "谢觉哉",
+      "target": "中国共产党第八届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956-09",
+        "position": "候补委员、中央委员"
+      }
+    },
+    {
+      "source": "谢放",
+      "target": "谢觉哉",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谢群英",
+      "target": "谢觉哉",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谢飘",
+      "target": "谢觉哉",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谢飞 (官员)",
+      "target": "谢觉哉",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谢列",
+      "target": "谢觉哉",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谢云",
+      "target": "谢觉哉",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谢亚霞",
+      "target": "谢觉哉",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谢亚旭",
+      "target": "谢觉哉",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "陈独秀",
+      "target": "安庆府",
+      "type": "BORN_IN"
+    },
+    {
+      "source": "陈独秀",
+      "target": "高晓岚",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1897"
+      }
+    },
+    {
+      "source": "陈独秀",
+      "target": "潘兰珍",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1930"
+      }
+    },
+    {
+      "source": "陈独秀",
+      "target": "五四运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1919",
+        "description": "被毛泽东称为“五四运动时期的总司令”"
+      }
+    },
+    {
+      "source": "陈独秀",
+      "target": "上海共产主义小组",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1920-08"
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "陈独秀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1929-11-15",
+        "description": "因中东路事件和托派立场将其开除党籍"
+      }
+    },
+    {
+      "source": "陈独秀",
+      "target": "蔡元培",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "应蔡元培邀请任北大文科学长，共同推动新文化运动"
+      }
+    },
+    {
+      "source": "第三国际",
+      "target": "陈独秀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-07",
+        "description": "认为陈独秀对大革命失败负有领导责任，主导将其免职"
+      }
+    },
+    {
+      "source": "章士钊",
+      "target": "陈独秀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1932",
+        "description": "在陈独秀被国民党政府审判时，主动为其免费出庭辩护"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "双石镇 (荣县)",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1878-12-30"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "吴永锟",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": "二哥"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "游丙莲",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1896"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "东京振武学校",
+      "type": "ALUMNUS_OF"
+    },
+    {
+      "source": "吴玉章",
+      "target": "东方劳动者共产主义大学",
+      "type": "ALUMNUS_OF"
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国同盟会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1905",
+        "position": "评议部评议员"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "保路运动",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1911",
+        "description": "参加了保路运动"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "王天杰",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1911",
+        "description": "共同策动荣县独立"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中华民国临时政府",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1912-01",
+        "description": "参加中华民国临时政府的成立工作"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "蔡元培",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1913"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "李石曾",
+      "type": "MET_WITH",
+      "properties": {
+        "description": "共同组织华法教育会"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "华法教育会",
+      "type": "FOUNDED"
+    },
+    {
+      "source": "吴玉章",
+      "target": "杨暗公",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1924",
+        "description": "共同组织成立中国青年共产党"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国青年共产党",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1924-01-12"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1925-02",
+        "position": "四川省委书记"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "赵世炎",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1925-02",
+        "description": "由赵世炎介绍加入中国共产党"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "孙中山",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "与孙中山有深厚的历史关系"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "毛泽东",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1927",
+        "description": "共同参加国民党二届三中全会"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "南昌起义",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1927-08-01",
+        "position": "革命委员会秘书长"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "拉丁化新文字",
+      "type": "PUSHED"
+    },
+    {
+      "source": "吴玉章",
+      "target": "东方劳动者共产主义大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1933-09",
+        "end_date": "1935",
+        "position": "中国部主任"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "救国时报",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1935-11"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国抗日战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1937",
+        "description": "在西欧做国际宣传工作"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "延安宪政促进会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1939-11",
+        "position": "会长"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "鲁迅艺术学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1939-11",
+        "position": "院长"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "延安大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1939-11",
+        "position": "校长"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "谢觉哉",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "同为延安五老"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "华北大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1948-08",
+        "position": "校长"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国人民大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1950",
+        "end_date": "1966",
+        "position": "校长"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "国家语言文字工作委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "主任"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国史学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954",
+        "position": "副主席"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "郭沫若",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1954",
+        "description": "在中国史学会共同任职"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "范文澜",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1954",
+        "description": "在中国史学会共同任职"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "第一届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954",
+        "position": "代表"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中华人民共和国宪法 (1954年)",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1954-09",
+        "description": "出席第一届全国人大第一次会议讨论宪法草案"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国科学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1955",
+        "position": "哲学社会科学部委员"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "汉语拼音",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1956",
+        "description": "主持汉语拼音工作"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "郭影秋",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1966",
+        "description": "在文革中为郭影秋辩护"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "成仿吾",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1966",
+        "description": "在文革中为成仿吾辩护"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "红卫兵",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1966",
+        "description": "被红卫兵污蔑为“老走资派”"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中央社会主义学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956",
+        "end_date": "1965",
+        "position": "院长"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国共产党第六届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "委员"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国共产党第七届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "委员"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "中国共产党第八届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "委员"
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "第一届全国人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "委员"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "攸县",
+      "type": "BORN_IN"
+    },
+    {
+      "source": "谭震林",
+      "target": "葛慧敏",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1939-06",
+        "description": "第二任妻子"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "蒋秀仙",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": "第一任妻子"
+      }
+    },
+    {
+      "source": "谭泾远",
+      "target": "谭震林",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谭晓光",
+      "target": "谭震林",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "谭震林",
+      "target": "中国工农红军第十二军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930-06",
+        "position": "政治委员"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "新四军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1938-03",
+        "position": "第二支队副司令员"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "华中野战军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "政治委员"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "华东野战军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1946-09",
+        "position": "副政治委员"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "井冈山",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "参与创建井冈山根据地的斗争。"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "繁昌保卫战",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1939",
+        "description": "指挥了繁昌保卫战。"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "苏中战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "同粟裕指挥苏中战役。"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "淮海战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1948-11",
+        "description": "作为淮海战役总前委成员，参与组织指挥。"
+      }
+    },
+    {
+      "source": "谭震林",
+      "target": "渡江战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1949-04-21",
+        "description": "指挥第7、第9兵团作为中集团强渡长江。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "邓绍昌",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "邓小平",
+      "target": "国民革命军第十八集团军第129师",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "政训处主任/政治委员",
+        "start_date": "1937-12-13",
+        "end_date": "1945-08-20"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "关于建国以来党的若干历史问题的决议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1981",
+        "description": "主持制定该决议，正式否定了文化大革命，并对毛泽东的历史地位作出评价。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "中越战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1979",
+        "description": "作为中央军委领导核心，决策并领导了1979年的中越战争。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "胡耀邦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1987",
+        "description": "因对“资产阶级自由化”思潮态度不够坚决，邓小平主导了对胡耀邦的批评，导致其辞去总书记职务。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "赵紫阳",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1989",
+        "description": "因在六四事件中同情学生，赵紫阳被邓小平决定撤销所有职务。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "淮海战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1948-11",
+        "end_date": "1949-01",
+        "position": "总前敌委员会书记",
+        "description": "作为总前委书记，统一指挥中原野战军和华东野战军，对战役的胜利起到了决定性作用。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "百团大战",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1940-08",
+        "description": "作为129师政委，与刘伯承率部参加了八路军总部发起的百团大战。"
+      }
+    },
+    {
+      "source": "张春桥",
+      "target": "宋惠卿",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "张春桥",
+      "target": "华国锋",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1976-04",
+        "end_date": "1976-10-06",
+        "description": "华国锋任代总理、总理及党主席期间，张春桥任副总理及政治局常委。"
+      }
+    },
+    {
+      "source": "张春桥",
+      "target": "崔万秋",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1936",
+        "description": "在崔万秋主编的刊物上发表文章，后被官方指控为“服务于特务崔万秋麾下”。"
+      }
+    },
+    {
+      "source": "张春桥",
+      "target": "刘少奇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "description": "参与对刘少奇的批判，并指示蒯大富在社会上公开点名批判。"
+      }
+    },
+    {
+      "source": "张春桥",
+      "target": "姚文元",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1955",
+        "description": "在《解放日报》任职期间提拔姚文元，并指导其撰写《评新编历史剧〈海瑞罢官〉》。"
+      }
+    },
+    {
+      "source": "张春桥",
+      "target": "陈丕显",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1967-01",
+        "description": "通过发动“一月风暴”，打倒了以陈丕显为首的上海市委。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "张春桥",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1958",
+        "end_date": "1976",
+        "description": "多次赞赏和支持张春桥，尤其在1970年庐山会议上力保张春桥，使其免于被打倒。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "张春桥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "description": "参与策划并执行了对张春桥等四人帮成员的逮捕行动。"
+      }
+    },
+    {
+      "source": "汪东兴",
+      "target": "张春桥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "description": "负责执行在怀仁堂对张春桥的抓捕行动。"
+      }
+    },
+    {
+      "source": "林彪、江青反革命集团案",
+      "target": "张春桥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1981-01-25",
+        "description": "被作为主犯判处死刑，缓期两年执行。"
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "张春桥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1954",
+        "description": "阻止张春桥调往北京人民日报社工作。"
+      }
+    },
+    {
+      "source": "邓颖超",
+      "target": "张春桥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1973-09",
+        "description": "因其妻文静的历史问题公开羞辱张春桥，导致其政治形象受损。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "张春桥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-12",
+        "description": "向毛泽东提出张春桥的历史问题，以阻止其在四届人大上出任总理。"
+      }
+    },
+    {
+      "source": "四五运动",
+      "target": "张春桥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-04",
+        "description": "运动中出现大量“把张春桥揪出来示众”等针对他的抗议标语。"
+      }
+    },
+    {
+      "source": "邓子恢",
+      "target": "陈兰 (东汉)",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1936"
+      }
+    },
+    {
+      "source": "邓毅生",
+      "target": "邓子恢",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "邓瑞生",
+      "target": "邓子恢",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "邓淮生",
+      "target": "邓子恢",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "邓建生",
+      "target": "邓子恢",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "邓小燕",
+      "target": "邓子恢",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "邓子恢",
+      "target": "中国工农红军第十二军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930-05",
+        "position": "政治委员"
+      }
+    },
+    {
+      "source": "邓子恢",
+      "target": "中国人民政治协商会议",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1965-01",
+        "position": "第四届副主席"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "邓子恢",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1955",
+        "description": "因邓子恢在农业合作化问题上的意见，毛泽东批评其为“小脚女人”，犯了“右倾”错误。"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "邓子恢",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "description": "邓子恢在文化大革命期间遭到迫害。"
+      }
+    },
+    {
+      "source": "陈赞雍",
+      "target": "邓子恢",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1926-12",
+        "description": "介绍邓子恢加入中国共产党。"
+      }
+    },
+    {
+      "source": "邓子恢",
+      "target": "叶飞",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1947",
+        "description": "作为华东野战军领导人合影。"
+      }
+    },
+    {
+      "source": "邓子恢",
+      "target": "粟裕",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1947",
+        "description": "作为华东野战军领导人合影。"
+      }
+    },
+    {
+      "source": "五马进京",
+      "target": "邓子恢",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1953-01-05",
+        "description": "作为五位被调入京的地方军政大员之一。"
+      }
+    },
+    {
+      "source": "关于建国以来党的若干历史问题的决议",
+      "target": "邓子恢",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1981-06-27",
+        "description": "决议赞扬了邓子恢的农业责任制观点，为其恢复名誉。"
+      }
+    },
+    {
+      "source": "中国共产党中央委员会办公厅",
+      "target": "邓子恢",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1981-03-09",
+        "description": "转发为邓子恢平反的通知，为其恢复名誉。"
+      }
+    },
+    {
+      "source": "李特特",
+      "target": "李富春",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "李富春",
+      "target": "二月逆流",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1967",
+        "description": "与陈毅、叶剑英等人对文化大革命的错误做法进行抗争，被称为“二月逆流”。"
+      }
+    },
+    {
+      "source": "二月逆流",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1967",
+        "description": "二月抗争是对文化大革命早期错误做法的直接批评和抵制。"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "蔡和森",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": "通过与蔡畅的婚姻关系成为蔡和森的妹夫。"
+      }
+    },
+    {
+      "source": "徐向前",
+      "target": "中华民国陆军军官学校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1924-04",
+        "end_date": "1924-11",
+        "description": "第一期学生"
+      }
+    },
+    {
+      "source": "徐向前",
+      "target": "八路军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1937-08",
+        "position": "129师副师长"
+      }
+    },
+    {
+      "source": "徐向前",
+      "target": "华北野战军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1948-05",
+        "position": "第一兵团司令员兼政治委员"
+      }
+    },
+    {
+      "source": "徐向前",
+      "target": "赵金銮",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "徐向前",
+      "target": "朱香婵",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1919",
+        "end_date": "1924"
+      }
+    },
+    {
+      "source": "徐向前",
+      "target": "程训宣",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1929",
+        "end_date": "1931"
+      }
+    },
+    {
+      "source": "徐向前",
+      "target": "第一次国共内战",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "参与广州起义，后指挥红四方面军进行多次反围剿战争。"
+      }
+    },
+    {
+      "source": "徐向前",
+      "target": "第二次国共内战",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "指挥运城、临汾、晋中和太原等重大战役，攻占山西全境。"
+      }
+    },
+    {
+      "source": "徐向前",
+      "target": "二月逆流",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1967-02",
+        "description": "作为军队高级将领，在军委碰头会上与中央文革小组发生激烈冲突，被定性为“二月逆流”主要成员而遭批判。"
+      }
+    },
+    {
+      "source": "姚文元",
+      "target": "诸暨县",
+      "type": "BORN_IN"
+    },
+    {
+      "source": "毛泽东",
+      "target": "姚文元",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1957",
+        "description": "毛泽东在1957年多次赞许姚文元的文章，使其被上海市委器重，为其日后进入权力中心奠定基础。"
+      }
+    },
+    {
+      "source": "姚文元",
+      "target": "文化大革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": "作为中央文革小组成员和“四人帮”成员，是文化大革命中的关键人物和主要执行者之一。"
+      }
+    },
+    {
+      "source": "姚文元",
+      "target": "反右运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1957",
+        "description": "在反右运动中积极发表文章，批判了大量知识分子。"
+      }
+    },
+    {
+      "source": "姚文元",
+      "target": "吴晗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1965-11",
+        "description": "通过发表《评新编历史剧〈海瑞罢官〉》，对吴晗进行政治批判，导致其被打倒。"
+      }
+    },
+    {
+      "source": "姚文元",
+      "target": "陶铸",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1967-09",
+        "description": "通过发表《评陶铸的两本书》，对陶铸进行政治批判，导致其被打倒。"
+      }
+    },
+    {
+      "source": "姚文元",
+      "target": "周扬 (政治人物)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1967-01",
+        "description": "通过发表《评反革命两面派周扬》，批判其为“文艺黑线的总头目”。"
+      }
+    },
+    {
+      "source": "姚文元",
+      "target": "邓拓",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966-05",
+        "description": "通过发表《评“三家村”》，对邓拓进行政治批判，导致其被迫害致死。"
+      }
+    },
+    {
+      "source": "姚文元",
+      "target": "廖沫沙",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966-05",
+        "description": "通过发表《评“三家村”》，对廖沫沙进行政治批判。"
+      }
+    },
+    {
+      "source": "姚文元",
+      "target": "恩维尔·霍查",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1967-06",
+        "description": "1967年率领红卫兵代表团出使阿尔巴尼亚，受到霍查等人多次会见。"
+      }
+    },
+    {
+      "source": "朱德",
+      "target": "四川省仪陇县马鞍镇",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1886-12-01"
+      }
+    },
+    {
+      "source": "朱德",
+      "target": "毛泽东",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1928-04",
+        "description": "于井冈山会师，长期共同领导军队和国家，被称为“朱毛”。"
+      }
+    },
+    {
+      "source": "朱德",
+      "target": "毛泽东",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929",
+        "description": "在红四军第七次党代会前后，就建军原则等问题发生“朱毛之争”。"
+      }
+    },
+    {
+      "source": "朱德",
+      "target": "长征",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1934-10",
+        "end_date": "1936-10",
+        "description": "作为红军总司令，参与领导了长征。"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "朱德",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966-05",
+        "description": "在文化大革命期间，朱德受到林彪、康生、江青等人的批判和政治迫害。"
+      }
+    },
+    {
+      "source": "陈伟力",
+      "target": "陈云",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "陈伟华",
+      "target": "陈云",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "陈云",
+      "target": "中国共产党中央委员会组织部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "部长",
+        "start_date": "1937-11-29",
+        "end_date": "1944-03"
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "中华全国总工会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1948-08",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "陈云",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1958-01",
+        "description": "在南宁会议上批评陈云等人提出的“反冒进”。"
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "华国锋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1977-03",
+        "description": "在中央工作会议上发言，支持邓小平复出，反对华国锋的“两个凡是”理论。"
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "刘少奇",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1979-02",
+        "description": "作为中纪委第一书记，主持并推动了对刘少奇冤案的平反工作。"
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "潘汉年",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1981",
+        "description": "主持中纪委工作，对潘汉年案进行复查并最终平反。"
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "长征",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1934-10",
+        "position": "红五军团中央代表、军委纵队政治委员"
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "叶剑英",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1976-09",
+        "description": "在粉碎“四人帮”前，叶剑英通过王震征求陈云的意见，陈云暗示采取非常手段。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中国共产党",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1921",
+        "description": "作为中共一大代表，参与建立中国共产党"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中华人民共和国中央人民政府 (1949年—1954年)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1949-10-01",
+        "end_date": "1954-09-27",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中国抗日战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "领导中共军队参与抗日战争"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "第二次国共内战",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "领导人民解放军参与第二次国共内战"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "王明",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1938-09",
+        "description": "在中共六届六中全会上批判王明右倾投降主义"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "张国焘",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1935-09-12",
+        "description": "在俄界会议上通过决议，指出张国焘反对中央北上战略方针的错误"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "张闻天",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1935",
+        "end_date": "1938",
+        "description": "遵义会议后张闻天担任总书记，毛泽东在党内职位低于张闻天，后张闻天逐步交权"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "白鑫",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-11-11",
+        "description": "组织刺杀白鑫为杨殷、彭湃等人报仇"
+      }
+    },
+    {
+      "source": "陈赓",
+      "target": "白鑫",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-11-11",
+        "description": "参与刺杀白鑫"
+      }
+    },
+    {
+      "source": "顾顺章",
+      "target": "白鑫",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-11-11",
+        "description": "参与刺杀白鑫"
+      }
+    },
+    {
+      "source": "贺龙",
+      "target": "夏曦",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": "抵制夏曦在湘鄂西苏区推行的左倾路线和肃反扩大化。"
+      }
+    },
+    {
+      "source": "贺龙",
+      "target": "蒋中正",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": "在第一次和第二次国共内战中作为中共将领与蒋介石领导的国民政府军队作战。"
+      }
+    },
+    {
+      "source": "贺龙",
+      "target": "长征",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1935-11",
+        "description": "与任弼时等从湖南省桑植县统一指挥红二、六军团突围，开始长征。"
+      }
+    },
+    {
+      "source": "贺龙",
+      "target": "百团大战",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1940-08",
+        "description": "指挥所部参加百团大战。"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "开州区",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1892-12-04"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "程宜芝",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1910",
+        "end_date": "1957"
+      }
+    },
+    {
+      "source": "刘俊泰",
+      "target": "刘伯承",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "刘伯承",
+      "target": "泸顺起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1926-12",
+        "position": "起义军四川各路总指挥"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "毛泽东",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1932-10",
+        "description": "在宁都会议上，支持多数人意见，反对将毛泽东留在前方指挥。"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "刘伯承",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1958",
+        "description": "在军委扩大会议期间，将刘伯承作为军事教条主义的代表进行批判。"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "朱德",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1926-12",
+        "description": "与朱德、杨暗公、陈毅等共同发动泸顺起义。"
+      }
+    },
+    {
+      "source": "康生",
+      "target": "王明",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1933",
+        "position": "中共驻共产国际代表团副团长",
+        "description": "在莫斯科期间，康生是团长王明的副手，关系密切。"
+      }
+    },
+    {
+      "source": "康生",
+      "target": "谢富治",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "在文革期间联手制造“地下黑公安部案”等冤案。"
+      }
+    },
+    {
+      "source": "饶漱石",
+      "target": "毛泽东",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1952",
+        "description": "出院后执意见毛泽东并谈了三个小时。"
+      }
+    },
+    {
+      "source": "饶漱石",
+      "target": "粟裕",
+      "type": "PUSHED",
+      "properties": {
+        "description": "与康生一起鼓励粟裕向中央军委“斗胆直呈”，改变了内战南线战场的战略计划。"
+      }
+    },
+    {
+      "source": "饶漱石",
+      "target": "项英",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1941-01",
+        "description": "在皖南事变中，因项英擅自离队，提议中央撤销其职务。"
+      }
+    },
+    {
+      "source": "饶漱石",
+      "target": "中国共产主义青年团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1923"
+      }
+    },
+    {
+      "source": "饶漱石",
+      "target": "赤色职工国际",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1935",
+        "position": "中华全国总工会驻代表"
+      }
+    },
+    {
+      "source": "饶漱石",
+      "target": "华东行政委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1953-01",
+        "end_date": "1953-04",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "潘汉年",
+      "target": "饶漱石",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "在反特方面的工作由饶漱石直接领导。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "饶漱石",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-01",
+        "description": "肯定了饶漱石和叶挺在皖南事变的临机处置方案。"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "饶漱石",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1967",
+        "description": "饶漱石在文化大革命期间被重新收监。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "黄冈县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1907-12-05",
+        "end_date": "1907-12-05"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "中华民国陆军军官学校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1925",
+        "description": "黄埔军校第四期学员。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "中国共产党中央委员会副主席",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1958-05-25",
+        "end_date": "1971-09-13",
+        "position": "副主席"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "平型关战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1937-09",
+        "description": "作为115师师长，指挥了平型关战役，取得抗战以来首次大捷。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "辽沈战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1948-09",
+        "description": "作为东北野战军司令员，指挥了辽沈战役。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "平津战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1948-11",
+        "description": "统一指挥东北野战军和华北军区部队，发动平津战役。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "七千人大会",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1962-01-29",
+        "description": "在大会上发表讲话，将大跃进的错误归咎于未能遵循毛泽东的指示，从而维护了毛泽东的权威。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "文化大革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1966-05-18",
+        "description": "发表“五·一八讲话”，鼓吹对毛泽东的个人崇拜，成为文革的重要推手之一。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "中国共产党章程",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1969-04",
+        "description": "作为毛泽东的亲密战友和接班人被写入1969年九大通过的党章。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "九一三事件",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1971-09-13",
+        "end_date": "1971-09-13",
+        "description": "作为事件核心人物，携家人乘飞机出走，最终机毁人亡。"
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "张鹏霄",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "张国焘",
+      "target": "萍乡县",
+      "type": "BORN_IN"
+    },
+    {
+      "source": "张国焘",
+      "target": "五四运动",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1919",
+        "description": "担任北京学联主席，是北京学运领袖之一。"
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "李大钊",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1924",
+        "description": "据称其1924年被捕后的供词间接导致李大钊于1927年被杀害。"
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "瞿秋白",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1928",
+        "description": "共同担任中共驻共产国际代表团代表。"
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "中国工农红军第四方面军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930",
+        "position": "主要领导人"
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "长征",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1935-04",
+        "description": "率领红四方面军参与长征，并与中央红军发生分裂。"
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "朱德",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1935",
+        "end_date": "1936",
+        "description": "长征会师后共事，分裂后朱德随张国焘南下。"
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "蒋中正",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1938",
+        "description": "脱离中共后，投奔国民党，在蒋中正领导下工作。"
+      }
+    },
+    {
+      "source": "博古",
+      "target": "刘群先",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1928-05",
+        "end_date": "1942",
+        "description": "刘群先于1938年左右失踪，1942年去世。"
+      }
+    },
+    {
+      "source": "博古",
+      "target": "秦肇煌",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "秦摩亚",
+      "target": "博古",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "秦新华",
+      "target": "博古",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "秦新华",
+      "target": "李铁映",
+      "type": "SPOUSE_OF"
+    },
+    {
+      "source": "秦钢",
+      "target": "博古",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "秦铁",
+      "target": "博古",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "博古",
+      "target": "瞿秋白",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1925",
+        "description": "在上海大学师从系主任瞿秋白。"
+      }
+    },
+    {
+      "source": "博古",
+      "target": "二十八个半布尔什维克",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1928"
+      }
+    },
+    {
+      "source": "博古",
+      "target": "中国共产党中央委员会总书记",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1934-01",
+        "end_date": "1935-01",
+        "position": "总书记",
+        "description": "1931年至1934年为中共临时中央总负责人。"
+      }
+    },
+    {
+      "source": "博古",
+      "target": "遵义会议",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1935-01",
+        "description": "在遵义会议上因军事指挥错误受到批评，并失去了中共最高领导权。"
+      }
+    },
+    {
+      "source": "博古",
+      "target": "新华社",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1941-11",
+        "position": "社长"
+      }
+    },
+    {
+      "source": "谭政",
+      "target": "中国工农红军大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1936"
+      }
+    },
+    {
+      "source": "谭政",
+      "target": "陈秋葵",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1924"
+      }
+    },
+    {
+      "source": "谭政",
+      "target": "王长德",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1937-05"
+      }
+    },
+    {
+      "source": "谭星明",
+      "target": "谭政",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "陈秋葵",
+      "target": "陈赓",
+      "type": "SIBLING_OF"
+    },
+    {
+      "source": "谭政",
+      "target": "中国工农红军第十二军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931",
+        "position": "政治部主任"
+      }
+    },
+    {
+      "source": "谭政",
+      "target": "彭德怀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1959",
+        "description": "在庐山会议上反对继续整彭德怀"
+      }
+    },
+    {
+      "source": "谭政",
+      "target": "黄克诚",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1959",
+        "description": "在庐山会议上反对继续整黄克诚"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "谭政",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1960-10-20",
+        "description": "在军委扩大会议上批判谭政，指其为“反党宗派集团”首要分子，致其被降职"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "谭政",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "end_date": "1975",
+        "description": "文化大革命期间被监禁9年"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "谭政",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1975-07",
+        "description": "毛泽东在听取汇报时询问谭政去向，谭随即被解除监禁"
+      }
+    },
+    {
+      "source": "中国共产党中央委员会",
+      "target": "谭政",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1980",
+        "description": "为谭政受到的政治诬陷给予平反"
+      }
+    },
+    {
+      "source": "谭政",
+      "target": "关于军队政治工作问题",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1944-04",
+        "description": "受中共中央委托，起草并作了该报告"
+      }
+    },
+    {
+      "source": "陈伯达",
+      "target": "林彪",
+      "type": "FRIEND_OF",
+      "properties": {
+        "end_date": "1970",
+        "description": "被指充当林彪势力的主要成员，并在九届二中全会上与林彪一同行动。"
+      }
+    },
+    {
+      "source": "陈伯达",
+      "target": "农村人民公社工作条例",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1960",
+        "description": "负责起草《农村人民公社工作条例》。"
+      }
+    },
+    {
+      "source": "陈伯达",
+      "target": "九评苏共",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1962",
+        "end_date": "1963",
+        "description": "在毛泽东授意下，参与撰写批评苏联修正主义的“九评苏共”系列文章。"
+      }
+    },
+    {
+      "source": "陈伯达",
+      "target": "彭德怀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1959",
+        "description": "在1959年庐山会议后，撰写长篇论著批判彭德怀。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "陈伯达",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1970-08",
+        "description": "在中共九届二中全会期间及之后，毛泽东严厉批评陈伯达，并撰写《我的一点意见》，直接导致其政治生涯终结。"
+      }
+    },
+    {
+      "source": "周扬 (政治人物)",
+      "target": "陈伯达",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982",
+        "description": "主动接触并帮助陈伯达发表其晚年著作《求知难》。"
+      }
+    },
+    {
+      "source": "陈伯达",
+      "target": "余文菲",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1944",
+        "end_date": "1948"
+      }
+    },
+    {
+      "source": "陈晓农",
+      "target": "陈伯达",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "高毅",
+      "target": "高岗",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "高岗",
+      "target": "横山区",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1905-10-25"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "高岗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1953-12-24",
+        "description": "在政治局扩大会议上不点名批评高岗，指北京有“两个司令部”。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "高岗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1954-02",
+        "description": "在中共七届四中全会上发言批评高岗搞“独立王国”。"
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "高岗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1953-10",
+        "description": "奉毛泽东指示劝告林彪，使其不再支持高岗。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "高岗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1953-10",
+        "description": "在陈云劝说后，撤回对高岗的支持。"
+      }
+    },
+    {
+      "source": "郭洪涛",
+      "target": "高岗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1935-07",
+        "description": "在阎家洼子会议上批评高岗为“梢山主义”，使其被免职。"
+      }
+    },
+    {
+      "source": "高岗",
+      "target": "朝鲜战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "负责中国人民志愿军的后勤保障工作。"
+      }
+    },
+    {
+      "source": "高岗",
+      "target": "彭德怀",
+      "type": "MET_WITH",
+      "properties": {
+        "description": "朝鲜战争期间曾三次入朝与彭德怀协商后勤保障工作。"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "郭朝沛",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "郭沫若",
+      "target": "杜福荪",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "郭沫若",
+      "target": "沙湾镇 (乐山市)",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1892-11-16"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "张琼华",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1912"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "于立忱",
+      "type": "LOVER_OF",
+      "properties": {
+        "start_date": "1934",
+        "end_date": "1937"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "郁达夫",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1921",
+        "description": "共同创立文学学社“创造社”"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "周恩来",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "周恩来是郭沫若入党介绍人，并在其政治生涯中多次给予指导和帮助"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "毛泽东",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1945",
+        "description": "重庆谈判期间会见毛泽东并赠送手表，后多有诗词唱和"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "中华人民共和国国务院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1949-10-19",
+        "end_date": "1954-09-15",
+        "position": "副总理"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "中国史学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1951-07",
+        "end_date": "1978-06",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "胡风",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1955-04",
+        "description": "发表《反社会主义的胡风纲领》批判胡风"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "邓小平",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1976-05",
+        "description": "发表《水调歌头·庆祝无产阶级文化大革命十周年》词，其中有“走资派，奋螳臂，邓小平”等句"
+      }
+    },
+    {
+      "source": "郭沫若",
+      "target": "华国锋",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1976-10",
+        "description": "发表《水调歌头·粉碎四人帮》词，拥护华国锋"
+      }
+    },
+    {
+      "source": "郭世英",
+      "target": "于立群",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "郭民英",
+      "target": "郭沫若",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "郭民英",
+      "target": "于立群",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "王洪文",
+      "target": "许世友",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1971",
+        "description": "九一三事件后，与许世友共同负责华东地区的林彪专案工作。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "叶钻祥",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "叶剑英",
+      "target": "陈秀云",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "叶剑英",
+      "target": "冯华",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1924"
+      }
+    },
+    {
+      "source": "叶楚梅",
+      "target": "叶剑英",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "叶文珊",
+      "target": "叶剑英",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "叶剑英",
+      "target": "孙中山",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1920",
+        "end_date": "1925",
+        "description": "追随孙中山投身民主革命。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "南昌起义",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "在起义前向叶挺、贺龙预警，并在起义后劝阻追兵。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "西安事变",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "作为中共代表团成员，参与谈判促成事变和平解决。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "description": "坚决反对搞乱军队，并因此在“二月逆流”中受到批判。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "二月逆流",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "因反对文革的错误做法，与多位元帅被划为“二月逆流”的核心成员而遭批斗。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "四人帮",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "description": "策划并参与了逮捕四人帮的行动，结束了其政治生命。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "华国锋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1980-11",
+        "description": "在中央政治局会议上进行自我批评，最终促使华国锋辞职。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "陈光 (1905年)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1950",
+        "description": "与时任广东军区副司令员的陈光发生冲突，随后陈光被长期关押并最终自焚，叶剑英被认为对此负有主要责任。"
+      }
+    },
+    {
+      "source": "王明",
+      "target": "立三路线",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1930"
+      }
+    },
+    {
+      "source": "王明",
+      "target": "国际派 (中国共产党)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": "作为“国际派”的代表人物。"
+      }
+    },
+    {
+      "source": "王明",
+      "target": "博古",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1931",
+        "description": "博古接任中共中央代总书记后，继续执行王明的政治路线。"
+      }
+    },
+    {
+      "source": "王芳妮",
+      "target": "王明",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "王丹丁",
+      "target": "王明",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "遵义会议",
+      "target": "王明",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1935-01",
+        "description": "遵义会议后，毛泽东恢复军事指挥权，王明在中共中央的势力开始迅速衰落。"
+      }
+    },
+    {
+      "source": "关于若干历史问题的决议",
+      "target": "王明",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-04-20",
+        "description": "该决议正式宣布了王明“左”倾路线的错误。"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "王明",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "description": "在国内受到深入揭批，被称为“机会主义头子、苏修代理人、大叛徒”。"
+      }
+    },
+    {
+      "source": "宋庆龄",
+      "target": "上海公共租界",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1893-01-27"
+      }
+    },
+    {
+      "source": "宋庆龄",
+      "target": "上海市第三女子中学",
+      "type": "ALUMNUS_OF"
+    },
+    {
+      "source": "宋庆龄",
+      "target": "中国共产党",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927",
+        "description": "与蒋介石决裂后，支持中国共产党。"
+      }
+    },
+    {
+      "source": "宋庆龄",
+      "target": "第三国际",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1933-05",
+        "description": "秘密加入共产国际。"
+      }
+    },
+    {
+      "source": "宋庆龄",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1959-04-27",
+        "end_date": "1975-01-17",
+        "position": "副主席"
+      }
+    },
+    {
+      "source": "宋嘉澍",
+      "target": "宋庆龄",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1915",
+        "description": "极力反对其女宋庆龄与孙中山的婚事。"
+      }
+    },
+    {
+      "source": "全国人民代表大会常务委员会",
+      "target": "宋庆龄",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1981-05-16",
+        "description": "授予宋庆龄“中华人民共和国名誉主席”荣誉称号。"
+      }
+    },
+    {
+      "source": "中国共产党中央政治局",
+      "target": "宋庆龄",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1981-05-15",
+        "description": "批准宋庆龄加入中国共产党。"
+      }
+    },
+    {
+      "source": "宋美龄",
+      "target": "宋庆龄",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1981-05",
+        "description": "拒绝在宋庆龄临终前赴大陆会面。"
+      }
+    },
+    {
+      "source": "蒋经国",
+      "target": "宋庆龄",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1981-05",
+        "description": "拒绝参加宋庆龄的国葬，并称邀请为“诡诈邪恶”。"
+      }
+    },
+    {
+      "source": "聂荣臻",
+      "target": "中华民国陆军军官学校",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1925-09",
+        "position": "政治部秘书兼政治教官"
+      }
+    },
+    {
+      "source": "聂荣臻",
+      "target": "南昌起义",
+      "type": "INFLUENCED"
+    },
+    {
+      "source": "聂荣臻",
+      "target": "广州起义 (1927年)",
+      "type": "INFLUENCED"
+    },
+    {
+      "source": "聂荣臻",
+      "target": "中国工农红军第一军团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1932-03",
+        "position": "政治委员"
+      }
+    },
+    {
+      "source": "聂荣臻",
+      "target": "长征",
+      "type": "INFLUENCED"
+    },
+    {
+      "source": "聂荣臻",
+      "target": "毛泽东",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1935-01",
+        "description": "在遵义会议上支持毛泽东的主张"
+      }
+    },
+    {
+      "source": "聂荣臻",
+      "target": "八路军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1937-08",
+        "position": "115师副师长"
+      }
+    },
+    {
+      "source": "聂荣臻",
+      "target": "平型关战役",
+      "type": "INFLUENCED"
+    },
+    {
+      "source": "聂荣臻",
+      "target": "百团大战",
+      "type": "INFLUENCED"
+    },
+    {
+      "source": "聂荣臻",
+      "target": "平津战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "position": "总前委委员"
+      }
+    },
+    {
+      "source": "聂荣臻",
+      "target": "北平和平解放",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-01",
+        "description": "向毛泽东建议争取和平进入北平，并与林彪等同傅作义成功地进行了和平谈判。"
+      }
+    },
+    {
+      "source": "聂荣臻",
+      "target": "华国锋",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1976-09",
+        "description": "通过杨成武转告叶剑英，支持华国锋、叶剑英采取非常手段粉碎“四人帮”。"
+      }
+    },
+    {
+      "source": "林伯渠",
+      "target": "黄兴",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1905",
+        "description": "经黄兴、宋教仁介绍加入中国同盟会。"
+      }
+    },
+    {
+      "source": "林伯渠",
+      "target": "宋教仁",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1905",
+        "description": "经黄兴、宋教仁介绍加入中国同盟会。"
+      }
+    },
+    {
+      "source": "林伯渠",
+      "target": "程潜",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1926",
+        "description": "在国民革命军第六军中任职。"
+      }
+    },
+    {
+      "source": "林伯渠",
+      "target": "拉丁化新文字",
+      "type": "PUSHED",
+      "properties": {
+        "description": "在莫斯科期间，与瞿秋白、吴玉章等人参与设计拉丁化新文字。"
+      }
+    },
+    {
+      "source": "林伯渠",
+      "target": "中华苏维埃共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1933",
+        "position": "国民经济部部长兼财政人民委员部部长"
+      }
+    },
+    {
+      "source": "林伯渠",
+      "target": "陕甘宁边区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1937-09-06",
+        "end_date": "1948-12-26",
+        "position": "政府主席"
+      }
+    },
+    {
+      "source": "林伯渠",
+      "target": "整风运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1942-02",
+        "description": "担任陕甘宁边区学习指导委员会主任，负责在政府系统中开展整风运动。"
+      }
+    },
+    {
+      "source": "林伯渠",
+      "target": "康生",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1942",
+        "description": "反对康生发起的抢救运动。"
+      }
+    },
+    {
+      "source": "林伯渠",
+      "target": "中华人民共和国宪法 (1954年)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1954-09",
+        "description": "出席第一次会议讨论宪法草案并期间发言。"
+      }
+    },
+    {
+      "source": "林秉权",
+      "target": "林伯渠",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "林秉益",
+      "target": "林伯渠",
+      "type": "CHILD_OF"
+    },
+    {
+      "source": "江青",
+      "target": "裴明伦",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1931",
+        "end_date": "1931"
       }
     }
   ]
