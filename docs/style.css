@@ -386,20 +386,42 @@ svg:active {
     stroke: #f00;
     stroke-width: 3px;
 }
+
+/* 节点和关系线的黯淡效果 */
 .node.faded,
-.link.faded,
-.link-label.faded {
+.link.faded {
     opacity: 0.1 !important;
     pointer-events: none;
 }
 
-/* --- 路径高亮样式修改 --- */
+/* 关系文字的黯淡效果 */
+/* 这条规则的意思是：当父元素 <g class="link-label-unit faded"> 存在时，
+   让它内部的 <text class="link-label"> 元素透明度变为0.1 */
+.link-label-unit.faded .link-label {
+    opacity: 0.1 !important;
+}
+
+/* 确保黯淡的文字标签热区（矩形区域）不再响应鼠标事件 */
+.link-label-unit.faded {
+    pointer-events: none;
+}
+
+.link-label-unit {
+    cursor: pointer; /* 在整个标签单元（矩形+文字）上显示手型指针 */
+}
+
+.link-label-unit rect {
+    fill: transparent; /* 使矩形背景透明 */
+    /* 在调试时，可以临时设置一个颜色来查看热区大小，如: fill: rgba(255,0,0,0.2); */
+}
+
+/* --- 路径高亮样式 --- */
 .link.path-highlight {
     stroke-opacity: 1 !important;
     /* stroke-width 保持不变，仅靠颜色和透明度高亮 */
 }
 .node.path-highlight circle {
-    stroke-width: 3px !important; /* 与单击高亮时宽度一致 */
+    stroke-width: 3px !important;
 }
 .node.path-highlight.path-source circle {
     stroke: #ffdd00 !important;
