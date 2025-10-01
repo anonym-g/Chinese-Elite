@@ -51,7 +51,7 @@ USER_AGENT = 'ChineseEliteExplorer/1.0 (https://github.com/anonym-g/Chinese-Elit
 
 # --- 无向边配置 ---
 NON_DIRECTED_LINK_TYPES = {
-    'SIBLING_OF', 'LOVER_OF', 'RELATIVE_OF', 
+    'SPOUSE_OF', 'SIBLING_OF', 'LOVER_OF', 'RELATIVE_OF', 
     'FRIEND_OF', 'ENEMY_OF', 'MET_WITH'
 }
 

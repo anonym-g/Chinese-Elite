@@ -190,31 +190,20 @@ class GraphCleaner:
         self._load_cache()
         print(f"[*] 共加载 {len(nodes)} 个节点，{len(relationships)} 个关系。")
 
-        # --- 步骤 1: 检查节点链接状态并分离问题节点 ---
-        problem_nodes_by_category = self._check_nodes(nodes)
-        all_bad_node_ids = set(problem_nodes_by_category["REDIRECT"].keys()) | problem_nodes_by_category["NO_PAGE"] | problem_nodes_by_category["DISAMBIG"] | problem_nodes_by_category["ERROR"]
-
-        if all_bad_node_ids:
-            print(f"\n[*] 节点检查完成，共发现 {len(all_bad_node_ids)} 个需要清理的节点ID。")
-        else:
-            print("\n[+] 节点检查完成，未发现链接状态异常的节点。")
-            
-        good_nodes = [n for n in nodes if n.get('id') not in all_bad_node_ids]
-
-        # --- 步骤 2: 基于有效的节点列表，清洗关系 ---
-        good_node_ids = {n['id'] for n in good_nodes}
-        node_type_map = {n['id']: n.get('type') for n in good_nodes}
+        # --- 步骤 1: 基于有效的节点列表，清洗关系 ---
+        node_ids = {n['id'] for n in nodes}
+        node_type_map = {n['id']: n.get('type') for n in nodes}
         good_relationships = []
         invalid_relationships_log = []
 
-        print(f"\n[*] 基于 {len(good_nodes)} 个有效节点，开始清理 {len(relationships)} 个关系...")
+        print(f"\n[*] 基于 {len(nodes)} 个节点，开始清理 {len(relationships)} 个关系...")
         for rel in relationships:
             source_id = rel.get('source')
             target_id = rel.get('target')
             rel_type = rel.get('type')
 
             # 规则 1: 清理悬空关系 (节点不存在)
-            if not source_id or not target_id or source_id not in good_node_ids or target_id not in good_node_ids:
+            if not source_id or not target_id or source_id not in node_ids or target_id not in node_ids:
                 reason = f"悬空关系：源节点 '{source_id}' 或目标节点 '{target_id}' 不存在于有效节点列表中。"
                 invalid_relationships_log.append({'relationship': rel, 'reason': reason})
                 continue
@@ -239,6 +228,17 @@ class GraphCleaner:
             good_relationships.append(rel)
         
         print(f"[*] 关系清理完成。保留了 {len(good_relationships)} 个有效关系，移除了 {len(invalid_relationships_log)} 个无效关系。")
+
+        # --- 步骤 2: 检查节点链接状态并分离问题节点 ---
+        problem_nodes_by_category = self._check_nodes(nodes)
+        all_bad_node_ids = set(problem_nodes_by_category["REDIRECT"].keys()) | problem_nodes_by_category["NO_PAGE"] | problem_nodes_by_category["DISAMBIG"] | problem_nodes_by_category["ERROR"]
+
+        if all_bad_node_ids:
+            print(f"\n[*] 节点检查完成，共发现 {len(all_bad_node_ids)} 个需要清理的节点ID。")
+        else:
+            print("\n[+] 节点检查完成，未发现链接状态异常的节点。")
+            
+        good_nodes = [n for n in nodes if n.get('id') not in all_bad_node_ids]
 
         # --- 步骤 3: 对保留的数据进行深度净化 ---
         print("\n[*] 开始最终数据净化 (移除不当属性和空值)...")
@@ -269,16 +269,16 @@ class GraphCleaner:
         problematic_nodes_data = {
             'redirect': {
                 'nodes': [n for n in nodes if n.get('id') in redirect_ids],
-                'relationships': [r for r in relationships if r.get('source') in redirect_ids or r.get('target') in redirect_ids],
+                'relationships': [r for r in good_relationships if r.get('source') in redirect_ids or r.get('target') in redirect_ids],
                 'redirect_map': problem_nodes_by_category["REDIRECT"]
             },
             'no_page': {
                 'nodes': [n for n in nodes if n.get('id') in no_page_ids],
-                'relationships': [r for r in relationships if r.get('source') in no_page_ids or r.get('target') in no_page_ids]
+                'relationships': [r for r in good_relationships if r.get('source') in no_page_ids or r.get('target') in no_page_ids]
             },
             'disambig': {
                 'nodes': [n for n in nodes if n.get('id') in disambig_ids],
-                'relationships': [r for r in relationships if r.get('source') in disambig_ids or r.get('target') in disambig_ids]
+                'relationships': [r for r in good_relationships if r.get('source') in disambig_ids or r.get('target') in disambig_ids]
             }
         }
         for key, content in problematic_nodes_data.items():

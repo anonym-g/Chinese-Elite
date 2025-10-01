@@ -39,6 +39,7 @@ const CONFIG = {
 
     // 定义哪些关系类型是无向的（渲染时不需要箭头）
     NON_DIRECTED_LINK_TYPES: new Set([
+        'SPOUSE_OF',
         'SIBLING_OF', 
         'LOVER_OF', 
         'RELATIVE_OF', 
