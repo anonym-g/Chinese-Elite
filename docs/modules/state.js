@@ -86,7 +86,7 @@ export const stateManager = {
      * 设置是否处于路径高亮模式。
      * @param {boolean} isHighlighting
      */
-    setPathHighlighting: (isHighlighting) => updateState({ isPathHighlighting }),
+    setPathHighlighting: (isHighlighting) => updateState({ isPathHighlighting: isHighlighting }),
 
     /**
      * 锁定或解锁时间间隔。
