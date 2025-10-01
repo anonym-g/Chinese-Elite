@@ -553,21 +553,41 @@ svg:active {
 .hidden {
     display: none !important;
 }
-.github-link {
+.hidden {
+    display: none !important;
+}
+
+/* 社交链接容器样式 */
+.social-links {
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
-    line-height: 0;
+    display: flex; /* 让内部的图标水平排列 */
+    align-items: center;
+    gap: 15px; /* 设置图标之间的间距 */
 }
+
+/* Telegram 和 GitHub 链接的通用样式 */
+.telegram-link,
+.github-link {
+    line-height: 0; /* 移除链接的额外高度，确保图标垂直居中 */
+    transition: opacity 0.2s; /* 将悬停动画效果应用在整个链接上 */
+}
+
+/* 为链接设置悬停效果 */
+.telegram-link:hover,
+.github-link:hover {
+    opacity: 0.7; /* 悬停时整个链接（包括图标）变淡 */
+}
+
+/* 两个SVG图标的通用尺寸 */
+.telegram-link svg,
 .github-link svg {
     width: 28px;
     height: 28px;
-    fill: #e9ecef;
-    transition: opacity 0.2s;
-}
-.github-link:hover svg {
-    opacity: 0.7;
+    display: block;
+    stroke: none; 
 }
 
 /* --- 错误提示框样式 --- */
@@ -659,9 +679,12 @@ svg:active {
     .date-separator {
         display: none;
     }
-    .github-link {
-        right: 8px;
+    .social-links {
+        right: 8px; /* 调整右边距 */
+        gap: 10px;  /* 调整图标间距 */
     }
+    
+    .telegram-link svg,
     .github-link svg {
         width: 24px;
         height: 24px;
