@@ -1,0 +1,101 @@
+[
+  {
+    "relationship": {
+      "source": "王岐山",
+      "target": "MET_WITH",
+      "type": "雅克·罗格",
+      "properties": {
+        "start_date": "2004-08-29",
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": "在雅典奥运会闭幕式上从时任国际奥委会主席雅克·罗格手中接过奥运五环旗。"
+      }
+    },
+    "reason": "悬空关系：源节点 '王岐山' 或目标节点 'MET_WITH' 不存在于有效节点列表中。"
+  },
+  {
+    "relationship": {
+      "source": "习近平",
+      "target": "上山下乡运动",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1969-01",
+        "end_date": "1975",
+        "position": "知青、党支部书记",
+        "description": "被下放到延安市延川县文安驿镇公社梁家河大队插队。"
+      }
+    },
+    "reason": "类型不匹配：关系 'MEMBER_OF' (源: Person, 目标: Movement) 不符合规则 (允许源: ['Person', 'Organization'], 允许目标: ['Organization'])。"
+  },
+  {
+    "relationship": {
+      "source": "李瑞环",
+      "target": "首都机场",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1979",
+        "description": "主持兴建了首都机场1号航站楼及配套工程。"
+      }
+    },
+    "reason": "类型不匹配：关系 'PUSHED' (源: Person, 目标: Location) 不符合规则 (允许源: ['Person', 'Organization', 'Event', 'Movement', 'Document'], 允许目标: ['Person', 'Organization', 'Event', 'Movement', 'Document'])。"
+  },
+  {
+    "relationship": {
+      "source": "俞正聲",
+      "target": "习近平",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2012-11-15",
+        "end_date": "2017-10-25",
+        "description": "在习近平担任总书记期间，任中央政治局常委。"
+      }
+    },
+    "reason": "悬空关系：源节点 '俞正聲' 或目标节点 '习近平' 不存在于有效节点列表中。"
+  },
+  {
+    "relationship": {
+      "source": "习仲勋",
+      "target": "陕甘边革命根据地",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1933",
+        "description": "与刘志丹等人共同创建。"
+      }
+    },
+    "reason": "类型不匹配：关系 'FOUNDED' (源: Person, 目标: Location) 不符合规则 (允许源: ['Person', 'Organization'], 允许目标: ['Organization', 'Movement'])。"
+  },
+  {
+    "relationship": {
+      "source": "周永康",
+      "target": "石油帮",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": "周永康长期在石油系统工作，被外界认为是“石油帮”的核心成员。"
+      }
+    },
+    "reason": "类型不匹配：关系 'MEMBER_OF' (源: Person, 目标: Movement) 不符合规则 (允许源: ['Person', 'Organization'], 允许目标: ['Organization'])。"
+  },
+  {
+    "relationship": {
+      "source": "周永康",
+      "target": "江泽民派系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": "被认为是“江泽民派系”（又称“上海帮”）的重要成员。"
+      }
+    },
+    "reason": "类型不匹配：关系 'MEMBER_OF' (源: Person, 目标: Movement) 不符合规则 (允许源: ['Person', 'Organization'], 允许目标: ['Organization'])。"
+  },
+  {
+    "relationship": {
+      "source": "周永康",
+      "target": "新四人帮",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": "与薄熙来、徐才厚、令计划结成政治同盟，被称为“新四人帮”。"
+      }
+    },
+    "reason": "类型不匹配：关系 'MEMBER_OF' (源: Person, 目标: Movement) 不符合规则 (允许源: ['Person', 'Organization'], 允许目标: ['Organization'])。"
+  }
+]
