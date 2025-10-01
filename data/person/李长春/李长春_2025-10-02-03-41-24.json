@@ -1,0 +1,513 @@
+{
+  "nodes": [
+    {
+      "id": "李长春",
+      "type": "Person",
+      "aliases": [
+        "永春"
+      ],
+      "properties": {
+        "lifetime": "1944-02-01 - ",
+        "birth_place": "关东州 (日本)",
+        "gender": "男",
+        "description": "中国政治人物，原正国级领导人，中国共产党第十六届、十七届中央政治局常务委员会委员。"
+      }
+    },
+    {
+      "id": "哈尔滨工业大学",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "沈阳市人民政府",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中共沈阳市委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中共辽宁省委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "辽宁省人民政府",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中共河南省委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "河南省人民政府",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "河南省人大常委会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中国共产党中央政治局",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中共广东省委",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中国共产党中央政治局常务委员会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中央精神文明建设指导委员会",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "张淑荣",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "李长春的妻子，高级工程师。"
+      }
+    },
+    {
+      "id": "李慧镝",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "李长春长子，曾任中国移动副总裁。"
+      }
+    },
+    {
+      "id": "李素敏",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "李长春次女。"
+      }
+    },
+    {
+      "id": "王岐山",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "胡锦涛",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "刘云山",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "刘延东",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "刘淇",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "周永康",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "谷歌退出中国事件",
+      "type": "Event",
+      "aliases": [],
+      "properties": {
+        "description": "指谷歌搜索业务于2010年退出中国大陆市场的事件。"
+      }
+    },
+    {
+      "id": "河南血祸",
+      "type": "Event",
+      "aliases": [],
+      "properties": {
+        "location": "河南",
+        "description": "指1990年代河南省因不规范采浆导致艾滋病大规模传播的事件。"
+      }
+    },
+    {
+      "id": "刘全喜",
+      "type": "Person",
+      "aliases": [],
+      "properties": {
+        "description": "河南省卫生厅原厅长。"
+      }
+    },
+    {
+      "id": "孔庆仁",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "杨家岱",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "关东州 (日本)",
+      "type": "Location",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "纽约大学理工学院",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "香港理工大学",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "中国移动",
+      "type": "Organization",
+      "aliases": [],
+      "properties": {}
+    },
+    {
+      "id": "丁关根",
+      "type": "Person",
+      "aliases": [],
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李长春",
+      "target": "关东州 (日本)",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "李长春",
+      "target": "哈尔滨工业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1961",
+        "end_date": "1966",
+        "description": "电机工程系工业企业自动化专业学习"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1965-09"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "张淑荣",
+      "type": "SPOUSE_OF",
+      "properties": {}
+    },
+    {
+      "source": "李慧镝",
+      "target": "李长春",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李素敏",
+      "target": "李长春",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李长春",
+      "target": "中共沈阳市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983-04",
+        "position": "书记"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "沈阳市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983-04",
+        "end_date": "1985-04",
+        "position": "市长"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "中共辽宁省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1985-06",
+        "position": "副书记"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "辽宁省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1987-03",
+        "end_date": "1990-07",
+        "position": "省长"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "中共河南省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1992-12",
+        "end_date": "1998-03",
+        "position": "书记"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "河南省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1990-07",
+        "end_date": "1992-12",
+        "position": "省长"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "河南省人大常委会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993-04",
+        "position": "主任"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "中国共产党中央政治局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1997",
+        "position": "委员"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "中共广东省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1998-03",
+        "end_date": "2002-11",
+        "position": "书记"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2002-11-15",
+        "end_date": "2012-11-15",
+        "position": "委员"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "中央精神文明建设指导委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2002-11-15",
+        "end_date": "2013-01-18",
+        "position": "主任",
+        "description": "接替丁关根的职务"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "胡锦涛",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2002-11-15",
+        "end_date": "2012-11-15",
+        "position": "中共中央政治局常委",
+        "description": "胡锦涛任总书记期间，李长春为政治局常委。"
+      }
+    },
+    {
+      "source": "刘云山",
+      "target": "李长春",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2002-11-15",
+        "end_date": "2013-01-18",
+        "position": "中央精神文明建设指导委员会副主任",
+        "description": "在李长春担任主任期间任副主任。"
+      }
+    },
+    {
+      "source": "刘延东",
+      "target": "李长春",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2002-11-15",
+        "end_date": "2013-01-18",
+        "position": "中央精神文明建设指导委员会副主任",
+        "description": "在李长春担任主任期间任副主任。"
+      }
+    },
+    {
+      "source": "刘淇",
+      "target": "李长春",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2002-11-15",
+        "end_date": "2013-01-18",
+        "position": "中央精神文明建设指导委员会副主任",
+        "description": "在李长春担任主任期间任副主任。"
+      }
+    },
+    {
+      "source": "王岐山",
+      "target": "李长春",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1998-03",
+        "end_date": "2002-11",
+        "position": "广东省常务副省长",
+        "description": "在李长春担任中共广东省委书记期间，王岐山任常务副省长并协助其工作。"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "谷歌退出中国事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": "维基解密引述密电称，李长春与周永康共同主导了该事件。"
+      }
+    },
+    {
+      "source": "周永康",
+      "target": "谷歌退出中国事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": "维基解密引述密电称，周永康与李长春共同主导了该事件。"
+      }
+    },
+    {
+      "source": "李长春",
+      "target": "河南血祸",
+      "type": "PUSHED",
+      "properties": {
+        "description": "主政河南期间号召卖血浆，被认为应与刘全喜对河南血祸共同担当主要责任。"
+      }
+    },
+    {
+      "source": "刘全喜",
+      "target": "河南血祸",
+      "type": "PUSHED",
+      "properties": {
+        "description": "担任河南卫生厅长期间，被认为应与李长春对河南血祸共同担当主要责任。"
+      }
+    },
+    {
+      "source": "孔庆仁",
+      "target": "李长春",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": "认为李长春主政河南时期号召卖血浆，对艾滋病疫情泛滥应担当主要责任。"
+      }
+    },
+    {
+      "source": "杨家岱",
+      "target": "李长春",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": "认为李长春思想僵化，不够开明开放，导致媒体报导上政治意识的收紧。"
+      }
+    },
+    {
+      "source": "李慧镝",
+      "target": "哈尔滨工业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1990",
+        "degree": "学士学位",
+        "description": "无线电系电子工程专业"
+      }
+    },
+    {
+      "source": "李慧镝",
+      "target": "纽约大学理工学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1996",
+        "degree": "电气工程硕士学位"
+      }
+    },
+    {
+      "source": "李慧镝",
+      "target": "香港理工大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "2008",
+        "degree": "管理学博士学位"
+      }
+    },
+    {
+      "source": "李慧镝",
+      "target": "中国移动",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2012",
+        "position": "副总裁"
+      }
+    }
+  ]
+}
