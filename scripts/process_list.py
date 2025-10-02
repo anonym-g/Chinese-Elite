@@ -56,8 +56,11 @@ def parse_list_file(file_path: str) -> dict[str, list]:
                 current_category = line
                 if current_category not in categorized_items:
                     categorized_items[current_category] = []
+            elif line in ['new']:
+                return categorized_items
             elif current_category:
                 categorized_items[current_category].append(line)
+    
     return categorized_items
 
 def process_item(item_name: str, category: str, wiki_client: WikipediaClient, parser: GeminiParser):
