@@ -1,0 +1,251 @@
+{
+  "nodes": [
+    {
+      "id": "凌孜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "凌孜",
+          "叶向真",
+          "凌子"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1941-01-30 - ",
+        "birth_place": "延安",
+        "gender": "女",
+        "description": "第十一届全国政协委员，中华孔子学会副会长，北京电影制片厂原导演。"
+      }
+    },
+    {
+      "id": "叶剑英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶剑英"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国政治人物，凌孜的父亲。"
+      }
+    },
+    {
+      "id": "延安",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "延安"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "北京"
+      }
+    },
+    {
+      "id": "北京实验中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京实验中学",
+          "北京师大女附中"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "北京"
+      }
+    },
+    {
+      "id": "北京电影学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京电影学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "北京"
+      }
+    },
+    {
+      "id": "江青",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江青"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "女"
+      }
+    },
+    {
+      "id": "谢富治",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢富治"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男"
+      }
+    },
+    {
+      "id": "中华孔子学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华孔子学会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京电影制片厂",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京电影制片厂"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议第十一届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十一届全国委员会",
+          "第十一届全国政协"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2008 - 2013"
+      }
+    },
+    {
+      "id": "中华全国妇女联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国妇女联合会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "凌孜",
+      "target": "叶剑英",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "凌孜",
+      "target": "延安",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "叶剑英",
+      "target": "北京市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1949",
+        "position": "市长"
+      }
+    },
+    {
+      "source": "凌孜",
+      "target": "北京实验中学",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "凌孜",
+      "target": "北京电影学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": "导演系"
+      }
+    },
+    {
+      "source": "江青",
+      "target": "凌孜",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1966",
+        "end_date": "1976",
+        "description": "在“文化大革命”期间将凌孜送进监狱"
+      }
+    },
+    {
+      "source": "谢富治",
+      "target": "凌孜",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1966",
+        "end_date": "1976",
+        "description": "在“文化大革命”期间将凌孜送进监狱"
+      }
+    },
+    {
+      "source": "凌孜",
+      "target": "中华孔子学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "副会长"
+      }
+    },
+    {
+      "source": "凌孜",
+      "target": "北京电影制片厂",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "导演"
+      }
+    },
+    {
+      "source": "凌孜",
+      "target": "中国人民政治协商会议第十一届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "position": "委员"
+      }
+    },
+    {
+      "source": "凌孜",
+      "target": "中华全国妇女联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "description": "作为中华全国妇女联合会的代表当选第十一届全国政协委员"
+      }
+    }
+  ]
+}

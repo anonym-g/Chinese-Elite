@@ -1,0 +1,696 @@
+{
+  "nodes": [
+    {
+      "id": "中国抗日战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国抗日战争",
+          "抗战",
+          "抗日",
+          "日本侵华战争",
+          "第二次中日战争",
+          "八年抗战",
+          "十四年抗战",
+          "中国人民抗日战争",
+          "中华民国抗日战争"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": [
+          "1931-09-18 - 1937-07-07",
+          "1937-07-07 - 1945-09-09"
+        ],
+        "location": "中国",
+        "description": "1930年代至1945年中华民国与大日本帝国之间发生的战争，为第二次世界大战亚洲战场的主线之一。"
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国",
+          "中国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国抗日战争中的主要参战方。"
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "description": "中国抗日战争中的主要参战方，为战争发起国。"
+      }
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋介石",
+          "蒋中正"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "时任国民政府军事委员会委员长，中国战区最高统帅。"
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "1925年至1948年中华民国的中央政府与最高权力机关。"
+      }
+    },
+    {
+      "id": "国民革命军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军",
+          "国军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "国民政府的武装力量，中国抗日战争正面战场的主力。"
+      }
+    },
+    {
+      "id": "裕仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "裕仁",
+          "昭和天皇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "时任日本天皇，大日本帝国国家元首与军队最高统帅。"
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党与八路军、新四军的主要领导人。"
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "领导敌后战场抗日武装力量，与中国国民党建立第二次国共合作。"
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华民国执政党，领导正面战场抗战。"
+      }
+    },
+    {
+      "id": "卢沟桥事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "卢沟桥事变",
+          "七七事变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937-07-07",
+        "description": "标志着中国全面抗日战争的开始。"
+      }
+    },
+    {
+      "id": "九一八事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "九一八事变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1931-09-18",
+        "description": "日本侵占中国东北地区的开始，被视为“十四年抗战”的起点。"
+      }
+    },
+    {
+      "id": "满洲国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "满洲国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1932 - 1945",
+        "description": "日本在中国东北地区建立的傀儡政权。"
+      }
+    },
+    {
+      "id": "溥仪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "溥仪"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "清朝末代皇帝，后任满洲国执政与皇帝。"
+      }
+    },
+    {
+      "id": "汪精卫国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汪精卫国民政府",
+          "汪精卫政权"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1940-03-29 - 1945-08-16",
+        "description": "日本在中国南京扶植的傀儡政权。"
+      }
+    },
+    {
+      "id": "汪兆铭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪兆铭",
+          "汪精卫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "原中国国民党副总裁，后投靠日本，建立汪精卫国民政府。"
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战",
+          "二战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939 - 1945",
+        "description": "全球性的军事冲突。"
+      }
+    },
+    {
+      "id": "淞沪会战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "淞沪会战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937-08-13 - 1937-11-12",
+        "location": "上海",
+        "description": "中国抗日战争中首场大型会战，也是规模最大、战斗最激烈的战役之一。"
+      }
+    },
+    {
+      "id": "南京大屠杀",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南京大屠杀"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937-12-13 - ",
+        "location": "南京市 (中华民国)",
+        "description": "日军占领南京后进行的大规模屠杀、强奸以及纵火、抢劫等战争罪行与反人类罪行。"
+      }
+    },
+    {
+      "id": "何应钦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何应钦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华民国陆军一级上将，代表中国战区接受日本投降。"
+      }
+    },
+    {
+      "id": "冈村宁次",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冈村宁次"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "日本中国派遣军总司令官，代表日本在中国战区投降。"
+      }
+    },
+    {
+      "id": "日本投降",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "日本投降"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1945-08-15 - 1945-09-09",
+        "description": "标志着第二次世界大战和中国抗日战争的结束。"
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "同盟国成员，在太平洋战争爆发后对中国提供重要援助。"
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "同盟国成员，战争初期和末期对中国提供援助并对日作战。"
+      }
+    },
+    {
+      "id": "广岛与长崎原子弹爆炸",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "广岛与长崎原子弹爆炸"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1945-08-06 - 1945-08-09",
+        "description": "美国对日本广岛和长崎投下原子弹，加速了日本的投降。"
+      }
+    },
+    {
+      "id": "八月风暴行动",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "八月风暴行动"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1945-08-08",
+        "description": "苏联对日宣战并进攻中国东北的军事行动。"
+      }
+    },
+    {
+      "id": "第二次国共合作",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共合作"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937-09-22 - 1945",
+        "description": "中国国民党与中国共产党为共同抗日而结成的统一战线。"
+      }
+    },
+    {
+      "id": "十八集团军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "十八集团军",
+          "国民革命军第八路军",
+          "八路军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "由中国工农红军主力改编而成的国民革命军部队，由中国共产党领导。"
+      }
+    },
+    {
+      "id": "新四军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新四军",
+          "国民革命军陆军新编第四军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "由南方八省红军和游击队改编而成的国民革命军部队，由中国共产党领导。"
+      }
+    },
+    {
+      "id": "台儿庄战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "台儿庄战役",
+          "台儿庄大战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1938-03-16 - 1938-04-15",
+        "location": "台儿庄",
+        "description": "徐州会战中的重要战役，是抗战初期中国军队取得的一次重大胜利。"
+      }
+    },
+    {
+      "id": "李宗仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李宗仁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华民国陆军一级上将，指挥徐州会战。"
+      }
+    },
+    {
+      "id": "张自忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张自忠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "国民革命军陆军二级上将，在枣宜会战中阵亡，是二战中同盟国牺牲的最高级别将领之一。"
+      }
+    },
+    {
+      "id": "枣宜会战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "枣宜会战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1940-05 - 1940-06",
+        "location": "湖北省",
+        "description": "武汉会战后，日军为控制长江交通线、打击国军战力而发动的战役。"
+      }
+    },
+    {
+      "id": "第二次世界大战中国战区受降仪式",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战中国战区受降仪式"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1945-09-09",
+        "location": "南京",
+        "description": "中国战区接受日本投降的正式仪式。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中华民国",
+      "target": "大日本帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1937-07-07",
+        "end_date": "1945-09-09",
+        "description": "中国抗日战争的主要交战双方。"
+      }
+    },
+    {
+      "source": "九一八事变",
+      "target": "中国抗日战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": "作为“十四年抗战”的起点，揭开了日本侵华的序幕。"
+      }
+    },
+    {
+      "source": "卢沟桥事变",
+      "target": "中国抗日战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937-07-07",
+        "description": "引发中日全面战争，是“八年抗战”的起点。"
+      }
+    },
+    {
+      "source": "中国抗日战争",
+      "target": "第二次世界大战",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1941-12-09",
+        "description": "太平洋战争爆发后，中国抗日战争正式并入第二次世界大战的亚洲主战场。"
+      }
+    },
+    {
+      "source": "蒋介石",
+      "target": "国民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "军事委员会委员长",
+        "description": "作为中国战区的最高统帅，领导国民政府进行抗战。"
+      }
+    },
+    {
+      "source": "国民革命军",
+      "target": "国民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "国民革命军是国民政府的官方武装力量。"
+      }
+    },
+    {
+      "source": "裕仁",
+      "target": "大日本帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "天皇",
+        "description": "作为大日本帝国的国家元首和军队最高统帅。"
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "满洲国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1932-03-01",
+        "description": "九一八事变后，日本关东军在中国东北地区建立的傀儡政权。"
+      }
+    },
+    {
+      "source": "溥仪",
+      "target": "大日本帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": "满洲国执政、皇帝",
+        "description": "作为满洲国的傀儡元首，受日本控制。"
+      }
+    },
+    {
+      "source": "汪兆铭",
+      "target": "汪精卫国民政府",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1940-03-29",
+        "description": "在日本扶植下于南京成立傀儡政权。"
+      }
+    },
+    {
+      "source": "汪兆铭",
+      "target": "大日本帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "脱离重庆国民政府，投靠日本并合作。"
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "南京大屠杀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937-12-13",
+        "description": "日军在攻占南京后，对其部队在城内的大屠杀行为采取默许乃至纵容的态度。"
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "中国国民党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1937-09-22",
+        "end_date": "1945",
+        "description": "建立抗日民族统一战线（第二次国共合作），共同抵抗日本侵略。"
+      }
+    },
+    {
+      "source": "十八集团军",
+      "target": "国民革命军",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1937-08-22",
+        "description": "根据国共合作协议，红军主力改编为国民革命军第八路军（后改称第十八集团军）。"
+      }
+    },
+    {
+      "source": "新四军",
+      "target": "国民革命军",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1937-10-12",
+        "description": "根据国共合作协议，南方八省红军和游击队改编为国民革命军新编第四军。"
+      }
+    },
+    {
+      "source": "美国",
+      "target": "广岛与长崎原子弹爆炸",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08-06",
+        "description": "美国为加速战争结束，在日本投下原子弹。"
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "八月风暴行动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08-08",
+        "description": "苏联根据《雅尔塔协定》对日宣战，进攻中国东北。"
+      }
+    },
+    {
+      "source": "广岛与长崎原子弹爆炸",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "description": "原子弹爆炸对日本造成巨大打击，是其决定投降的关键因素之一。"
+      }
+    },
+    {
+      "source": "八月风暴行动",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "description": "苏联出兵彻底摧毁了日本关东军，断绝了日本最后的希望。"
+      }
+    },
+    {
+      "source": "冈村宁次",
+      "target": "何应钦",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1945-09-09",
+        "end_date": "1945-09-09",
+        "description": "在南京举行的第二次世界大战中国战区受降仪式上，冈村宁次代表日本向何应钦投降。"
+      }
+    },
+    {
+      "source": "李宗仁",
+      "target": "台儿庄战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "position": "第五战区司令长官",
+        "description": "作为第五战区司令长官，指挥了包括台儿庄战役在内的徐州会战。"
+      }
+    },
+    {
+      "source": "张自忠",
+      "target": "枣宜会战",
+      "type": "INFLUENCED",
+      "properties": {
+        "position": "第三十三集团军总司令",
+        "description": "在枣宜会战中率部与日军激战，最终壮烈殉国。"
+      }
+    }
+  ]
+}

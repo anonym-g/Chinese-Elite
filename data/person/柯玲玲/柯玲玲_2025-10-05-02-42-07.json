@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "柯玲玲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "柯玲玲",
+          "柯林林"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1951 - ",
+        "gender": "女",
+        "birth_place": "普宁县 (明朝)",
+        "location": "英国",
+        "description": "中国前驻英国大使柯华之女，习近平第一任妻子"
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党中央委员会总书记"
+      }
+    },
+    {
+      "id": "柯华 (外交官)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "柯华 (外交官)",
+          "柯华"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 2019-01-01",
+        "death_place": "北京",
+        "gender": "男",
+        "description": "中国前驻英国大使"
+      }
+    },
+    {
+      "id": "彭丽媛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭丽媛"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "歌唱家"
+      }
+    },
+    {
+      "id": "齐心",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "齐心"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "习近平母亲"
+      }
+    },
+    {
+      "id": "习远平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习远平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "习近平弟弟"
+      }
+    },
+    {
+      "id": "普宁县 (明朝)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "普宁县 (明朝)",
+          "普宁"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "英国",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "厦门",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "厦门"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "柯玲玲",
+      "target": "习近平",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1979",
+        "end_date": "1982",
+        "description": "第一任妻子，婚姻关系持续3年，无子女。因柯玲玲想移居英国而习近平拒绝随同等原因离婚。"
+      }
+    },
+    {
+      "source": "柯玲玲",
+      "target": "习近平",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1979",
+        "end_date": "1982",
+        "description": "因观念不合，在北京夫家“几乎日夜吵架”。"
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "彭丽媛",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1987",
+        "description": "在厦门结婚。"
+      }
+    },
+    {
+      "source": "柯玲玲",
+      "target": "柯华 (外交官)",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "习近平",
+      "target": "齐心",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "习远平",
+      "target": "习近平",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "柯玲玲",
+      "target": "普宁县 (明朝)",
+      "type": "BORN_IN",
+      "properties": {}
+    }
+  ]
+}
