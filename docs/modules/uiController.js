@@ -86,13 +86,7 @@ export class UIController {
         document.getElementById('error-toast-close').addEventListener('click', () => this._handleErrorToastClose());
 
         // --- 监听图例大小变化以调整搜索面板位置 ---
-        // 使用 ResizeObserver 持续监听图例栏的尺寸变化。
         this.legendObserver = new ResizeObserver(() => {
-            // 移除 if (this.uiState.isSearchPanelOpen) 判断条件。
-            // 这样，无论搜索框是打开还是关闭状态，
-            // 它的 top 位置都会随着图例栏高度的变化而实时更新。
-            // 这就确保了当图例栏收缩时，隐藏的搜索框也会被移动到正确的位置，
-            // 从而解决了它“露出下半截”的问题。
             this._updateSearchPanelPosition();
         });
         this.legendObserver.observe(this.legendWrapper);
@@ -103,7 +97,8 @@ export class UIController {
         const isLocked = stateManager.getState().isIntervalLocked;
         if (isLocked) {
             stateManager.propagateIntervalChange(prefix);
-        } else {
+        }
+        else {
             stateManager.setDates(getDateFromGroup('start'), getDateFromGroup('end'));
         }
     }, 300);
@@ -149,7 +144,8 @@ export class UIController {
                 prevInput.focus();
                 prevInput.setSelectionRange(prevInput.value.length, prevInput.value.length);
             }
-        } else if (event.key === 'ArrowRight' && isAtEnd) {
+        }
+        else if (event.key === 'ArrowRight' && isAtEnd) {
             const nextInput = getAdjacentInput(prefix, part, 'next');
             if (nextInput) {
                 event.preventDefault();
@@ -186,7 +182,8 @@ export class UIController {
             this._closeSearchPanel();
             this.searchModeOptions.classList.add('collapsed');
             this.searchModeCurrent.classList.remove('open');
-        } else {
+        }
+        else {
             this._openSearchPanel();
         }
     }

@@ -4,7 +4,6 @@ import { rgbToHex } from './utils.js';
 
 /**
  * GraphView 类负责所有与D3.js和SVG相关的渲染任务。
- * 它不关心应用的状态，只负责接收格式化的数据并将其绘制到屏幕上。
  */
 export class GraphView {
     constructor(selector, callbacks) {
@@ -13,83 +12,98 @@ export class GraphView {
         this.height = this.svg.node().getBoundingClientRect().height;
         this.tooltip = d3.select(".tooltip");
         
-        // callbacks 用于将视图中的事件通知给外部控制器，实现解耦
-        // 例如，当一个节点被点击时，视图本身不修改全局状态，而是调用 onNodeClick 回调
-        this.callbacks = callbacks; // { onNodeClick, onSvgClick, onLegendToggle, onColorChange }
+        this.callbacks = callbacks;
         
-        // 创建不同的SVG分组，用于控制渲染层级
         this.container = this.svg.append("g");
-
-        // 用于存放隐形关系线的图层
-        // this.linkHoverGroup = this.container.append("g").attr("class", "link-hover-area");
         this.linkGroup = this.container.append("g").attr("class", "links");
         this.linkLabelGroup = this.container.append("g").attr("class", "link-labels");
         this.nodeGroup = this.container.append("g").attr("class", "nodes");
         
-        this.colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+        this.colorScale = d3.scaleOrdinal();
         this.zoom = d3.zoom().on("zoom", (event) => this.container.attr("transform", event.transform));
         
         this.simulation = this._createSimulation();
         this._setupDefsAndZoom();
-    }
-    
-    /**
-     * 根据所有节点数据动态创建图例。
-     * @param {Array} allNodes - 完整节点列表
-     */
-    createLegend(allNodes) {
-        const nodeTypes = [...new Set(allNodes.map(n => n.type))];
-        const colorRange = nodeTypes.map(type => CONFIG.COLORS.NODE_TYPES[type] || null);
-        this.colorScale.domain(nodeTypes).range(colorRange.filter(c => c)).unknown("#cccccc");
-        
-        const legendContent = d3.select("#legend-container .legend-content");
-        legendContent.selectAll("*").remove();
+
+        this.svg.call(this.zoom).on("click", (e) => this.callbacks.onSvgClick(e));
+        this.animationSourceNode = null;
+
+        this.isInitialRender = true;
+        // 为本次加载随机选择一个起始象限 (0:右上, 1:左上, 2:左下, 3:右下)
+        this.initialQuadrant = Math.floor(Math.random() * 4);
 
         d3.select(".legend-toggle").on("click", () => {
             document.getElementById('legend-container').classList.toggle("collapsed");
         });
-
-        nodeTypes.forEach(type => {
-            const item = legendContent.append("div").attr("class", "legend-item");
-            const colorBox = item.append("div").attr("class", "color-box").style("background-color", this.colorScale(type));
-            
-            item.append("input")
-                .attr("type", "checkbox")
-                .attr("checked", true)
-                .on("change", (e) => this.callbacks.onLegendToggle(e, type, colorBox));
-            
-            item.append("span").text(type);
-            
-            item.append("input")
-                .attr("type", "color")
-                .attr("value", rgbToHex(this.colorScale(type)))
-                .on("input", (event) => {
-                    const newColor = event.target.value;
-                    const newRange = this.colorScale.range();
-                    const typeIndex = this.colorScale.domain().indexOf(type);
-                    if (typeIndex > -1) {
-                        newRange[typeIndex] = newColor;
-                        this.colorScale.range(newRange);
-                    }
-                    colorBox.style("background-color", newColor);
-                    // 通知外部颜色已改变，以便重新渲染
-                    this.callbacks.onColorChange();
-                });
-        });
     }
     
-    /**
-     * 主渲染函数。使用D3的数据绑定模式更新DOM。
-     * @param {object} graphData - 包含 { visibleNodes, validRels } 的对象
-     */
+    updateLegend(allNodes) {
+        const nodeTypes = [...new Set(allNodes.map(n => n.type))].sort();
+        
+        const oldDomain = this.colorScale.domain();
+        const oldRange = this.colorScale.range();
+        const userModifiedColors = new Map();
+        oldDomain.forEach((type, i) => {
+            userModifiedColors.set(type, oldRange[i]);
+        });
+
+        const newDomain = [...new Set([...oldDomain, ...nodeTypes])].sort();
+        
+        const newRange = newDomain.map(type => {
+            return userModifiedColors.get(type) || CONFIG.COLORS.NODE_TYPES[type] || "#cccccc";
+        });
+        
+        this.colorScale.domain(newDomain).range(newRange);
+        
+        const legendContent = d3.select("#legend-container .legend-content");
+
+        legendContent.selectAll("div.legend-item")
+            .data(nodeTypes, d => d)
+            .join(
+                enter => {
+                    const item = enter.append("div").attr("class", "legend-item");
+
+                    item.append("div")
+                        .attr("class", "color-box")
+                        .style("background-color", d => this.colorScale(d));
+                    
+                    item.append("input")
+                        .attr("type", "checkbox")
+                        .attr("checked", true)
+                        .on("change", (e, d) => this.callbacks.onLegendToggle(e, d));
+                    
+                    item.append("span").text(d => d);
+                    
+                    item.append("input")
+                        .attr("type", "color")
+                        .attr("value", d => rgbToHex(this.colorScale(d)))
+                        .on("input", (event, d) => {
+                            const newColor = event.target.value;
+                            
+                            const domain = this.colorScale.domain();
+                            const range = this.colorScale.range();
+                            const typeIndex = domain.indexOf(d);
+                            if (typeIndex > -1) {
+                                range[typeIndex] = newColor;
+                                this.colorScale.range(range);
+                            }
+                            
+                            d3.select(event.currentTarget.parentNode).select('.color-box').style('background-color', newColor);
+                            
+                            this.callbacks.onColorChange();
+                        });
+                    
+                    return item;
+                }
+            );
+    }
+    
     render(graphData) {
         const { visibleNodes, validRels } = graphData;
         
-        // 锚点逻辑：将度数最高的几个节点设为锚点，使其在布局中更稳定
         visibleNodes.forEach(n => n.isAnchor = false);
         [...visibleNodes].sort((a, b) => b.degree - a.degree).slice(0, 3).forEach(n => n.isAnchor = true);
 
-        // 分组逻辑：处理两个节点间存在多条边的情况，将它们渲染成弧线
         const linkGroups = {};
         validRels.forEach(link => {
             const pairId = link.source.id < link.target.id ? `${link.source.id}-${link.target.id}` : `${link.target.id}-${link.source.id}`;
@@ -102,71 +116,117 @@ export class GraphView {
             link.groupIndex = linkGroups[pairId].indexOf(link);
         });
 
-        // 绑定可见的样式线
         this.linkGroup.selectAll("path.link")
             .data(validRels, d => `${d.source.id}-${d.target.id}-${d.type}`)
             .join("path")
             .attr("class", "link")
             .attr("marker-end", d => !CONFIG.NON_DIRECTED_LINK_TYPES.has(d.type) ? "url(#arrowhead)" : null);
 
-        // 关系标签渲染逻辑
-        // 1. 将数据绑定到<g>元素上，每个<g>代表一个完整的“标签单元”
         const linkLabelUnits = this.linkLabelGroup.selectAll("g.link-label-unit")
             .data(validRels, d => `${d.source.id}-${d.target.id}-${d.type}`)
             .join(
                 enter => {
-                    // 为新数据创建<g>容器
                     const g = enter.append("g").attr("class", "link-label-unit");
-                    // 在<g>内部，先添加一个矩形作为背景和热区
                     g.append("rect");
-                    // 再添加文本
                     g.append("text").attr("class", "link-label").text(d => d.type);
                     return g;
                 }
             );
 
-        // 2. 将鼠标事件绑定到整个<g>分组上
         linkLabelUnits
             .on("mouseover", this._handleLinkMouseover.bind(this))
             .on("mousemove", this._handleMousemove.bind(this))
             .on("mouseout", this._handleMouseout.bind(this));
         
-        // 3. 动态计算每个文字的尺寸，并调整其背后的矩形大小
         linkLabelUnits.each(function() {
-            // 'this' 在这里指向当前的<g>元素
             const textNode = d3.select(this).select("text").node();
             try {
-                const bbox = textNode.getBBox(); // 获取文字的边界框
-                const padding = 2; // 设置矩形比文字大一点的内边距
-
+                const bbox = textNode.getBBox();
+                const padding = 2;
                 d3.select(this).select("rect")
                     .attr("x", bbox.x - padding)
                     .attr("y", bbox.y - padding)
                     .attr("width", bbox.width + (padding * 2))
                     .attr("height", bbox.height + (padding * 2))
-                    .attr("rx", 2) // 可选：给矩形加上小圆角
+                    .attr("rx", 2)
                     .attr("ry", 2);
             } catch (e) {
-                // 在某些罕见情况下 (如元素不可见)，getBBox可能会失败
                 console.error("Could not get BBox for text label", textNode.textContent, e);
             }
         });
 
-        // 绑定节点数据
         const nodeElements = this.nodeGroup.selectAll("g.node")
             .data(visibleNodes, d => d.id)
             .join(
                 enter => {
-                    // 对于新加入的节点
                     const g = enter.append("g").attr("class", "node");
-                    g.append("circle").on("click", (e, d) => this.callbacks.onNodeClick(e, d));
-                    g.append("text").attr("dy", ".3em").text(d => d.id);
+                    const source = this.animationSourceNode;
+
+                    enter.each(d => {
+                        if (d.x === undefined) {
+                            if (source) {
+                                // 如果是点击展开，节点初始位置在源节点处
+                                d.x = source.x;
+                                d.y = source.y;
+                            }
+                            else {
+                                // 如果是首次加载，则从选定的统一象限外、远距离入场
+                                const quadrantAngleMap = [
+                                    -Math.PI / 2, // 0: 右上 (TR)
+                                    Math.PI / 2,  // 1: 左下 (BL) - 调整顺序以匹配视觉象限
+                                    Math.PI,      // 2: 左上 (TL)
+                                    0,            // 3: 右下 (BR)
+                                ];
+                                const baseAngle = quadrantAngleMap[this.initialQuadrant];
+                                const randomAngleInQuadrant = baseAngle + (Math.random() - 0.5) * (Math.PI / 2);
+
+                                // 将初始距离调得更远，确保节点和连线初始时都在屏幕外
+                                const radius = Math.max(this.width, this.height);
+                                const distance = radius * 1.5 + Math.random() * radius * 0.5;
+
+                                d.x = this.width / 2 + distance * Math.cos(randomAngleInQuadrant);
+                                d.y = this.height / 2 + distance * Math.sin(randomAngleInQuadrant);
+                            }
+                        }
+                    });
+                    
+                    g.attr("transform", d => `translate(${d.x},${d.y})`);
+
+                    g.append("circle")
+                        .attr("r", 0)
+                        .on("click", (e, d) => this.callbacks.onNodeClick(e, d))
+                        .attr("fill", d => this.colorScale(d.type))
+                        .transition()
+                        .duration(750)
+                        .attr("r", d => this._getNodeRadius(d));
+
+                    g.append("text")
+                        .attr("dy", ".3em")
+                        .text(d => d?.name?.['zh-cn']?.[0] || d.id)
+                        .style("opacity", 0)
+                        .transition()
+                        .delay(200)
+                        .duration(500)
+                        .style("opacity", 1);
+                    
                     return g;
                 },
-                update => update,
+                update => {
+                    update.select("circle")
+                        .transition().duration(200)
+                        .attr("r", d => this._getNodeRadius(d))
+                        .attr("fill", d => this.colorScale(d.type));
+                    update.select("text").text(d => d?.name?.['zh-cn']?.[0] || d.id);
+                    return update;
+                },
                 exit => exit.remove()
             )
             .call(this._createDragHandler());
+            
+        // 重置动画起始节点，以免影响后续不相关的操作
+        if (this.animationSourceNode) {
+            this.animationSourceNode = null;
+        }
         
         nodeElements.select("circle")
             .transition().duration(200)
@@ -180,36 +240,121 @@ export class GraphView {
         
         this.simulation.nodes(visibleNodes);
         this.simulation.force("link").links(validRels);
+
+        // 根据是否为首次渲染，选择不同的alpha值
+        const alphaValue = this.isInitialRender ? CONFIG.SIMULATION.INITIAL_ALPHA : CONFIG.SIMULATION.REHEAT_ALPHA;
+        this.simulation.alpha(alphaValue).restart();
+
+        if (this.isInitialRender) {
+            this.isInitialRender = false;
+        }
+    }
+
+    setInitialView() {
+        const scale = CONFIG.INITIAL_ZOOM;
+        const duration = CONFIG.INITIAL_ZOOM_DURATION;
+
+        // 计算正确的平移量，使画布中心点(width/2, height/2)
+        // 在缩放后，能够对齐屏幕的中心点(width/2, height/2)。
+        const translateX = (this.width / 2) * (1 - scale);
+        const translateY = (this.height / 2) * (1 - scale);
+
+        // 创建一个包含正确平移和缩放的变换
+        const transform = d3.zoomIdentity
+            .translate(translateX, translateY)
+            .scale(scale);
+
+        // 将此变换平滑地应用到SVG上
+        this.svg.transition()
+            .duration(duration)
+            .call(this.zoom.transform, transform);
+    }
+
+    setAnimationSource(sourceNode) {
+        this.animationSourceNode = sourceNode;
+    }
+
+    _animateInNewNeighbor(data, sourceNode) {
+        const { node, links } = data;
+        const allNodes = this.simulation.nodes();
+        const allLinks = this.simulation.force("link").links();
+
+        if (node && !allNodes.find(n => n.id === node.id)) {
+            node.x = sourceNode.x;
+            node.y = sourceNode.y;
+            
+            const degreeCount = {};
+            [...allLinks, ...links].forEach(rel => {
+                const sourceId = (rel.source.id || rel.source);
+                const targetId = (rel.target.id || rel.target);
+                if (sourceId) degreeCount[sourceId] = (degreeCount[sourceId] || 0) + 1;
+                if (targetId) degreeCount[targetId] = (degreeCount[targetId] || 0) + 1;
+            });
+            allNodes.forEach(n => n.degree = degreeCount[n.id] || n.degree || 0);
+            node.degree = degreeCount[node.id] || 0;
+
+            allNodes.push(node);
+        }
+
+        links.forEach(link => {
+            link.source = allNodes.find(n => n.id === (link.source.id || link.source));
+            link.target = allNodes.find(n => n.id === (link.target.id || link.target));
+            if (link.source && link.target && !allLinks.find(l => l.source.id === link.source.id && l.target.id === link.target.id && l.type === link.type)) {
+                allLinks.push(link);
+            }
+        });
+
+        // 增量更新视图
+        this.simulation.nodes(allNodes);
+        this.simulation.force("link").links(allLinks);
+        this.nodeGroup.selectAll("g.node")
+            .data(allNodes, d => d.id)
+            .join(
+                enter => {
+                    const g = enter.append("g").attr("class", "node");
+                    g.attr("transform", d => `translate(${d.x},${d.y})`);
+                    g.append("circle")
+                        .attr("r", 0)
+                        .attr("fill", d => this.colorScale(d.type))
+                        .on("click", (e, d) => this.callbacks.onNodeClick(e, d))
+                        .transition()
+                        .duration(750)
+                        .attr("r", d => this._getNodeRadius(d));
+                    g.append("text")
+                        .attr("dy", ".3em")
+                        .text(d => d?.name?.['zh-cn']?.[0] || d.id);
+                    return g;
+                }
+            )
+            .call(this._createDragHandler())
+            .on("mouseover", this._handleNodeMouseover.bind(this))
+            .on("mousemove", this._handleMousemove.bind(this))
+            .on("mouseout", this._handleMouseout.bind(this));
+
         this.simulation.alpha(0.3).restart();
     }
 
-    /**
-     * 更新节点和连线的高亮状态（用于单击节点）。
-     * @param {string | null} selectedNodeId - 当前选中的节点ID
-     * @param {object} neighbors - 邻接信息
-     */
     updateHighlights(selectedNodeId, neighbors) {
-        // 在函数开头，强制清除所有路径高亮相关的样式
-        // 这确保了从“路径高亮”模式切换回“节点高亮”模式时，旧样式被彻底清除
         this.nodeGroup.selectAll('.node')
             .classed('path-highlight', false)
             .classed('path-source', false)
             .classed('path-target', false)
-            .select('circle').style('stroke', null); // 移除内联的stroke颜色
+            .select('circle').style('stroke', null);
 
         this.linkGroup.selectAll('.link')
             .classed('path-highlight', false)
-            .style('stroke', null); // 移除内联的stroke颜色
+            .style('stroke', null);
 
-        // --- 开始正常的节点高亮逻辑 ---
         const isHighlighting = selectedNodeId !== null;
 
+        const activeNodeIds = isHighlighting ? new Set([selectedNodeId, ...(neighbors[selectedNodeId] || [])]) : new Set();
+
         this.nodeGroup.selectAll('.node')
-            .classed('faded', isHighlighting && (d => d.id !== selectedNodeId && !neighbors[selectedNodeId]?.includes(d.id)))
+            .classed('faded', isHighlighting && (d => !activeNodeIds.has(d.id)))
             .classed('highlight', d => d.id === selectedNodeId);
         
         this.linkGroup.selectAll('.link')
-            .classed('faded', isHighlighting && (d => d.source.id !== selectedNodeId && d.target.id !== selectedNodeId))
+            .classed('faded', isHighlighting && (d => !(d.source.id === selectedNodeId || d.target.id === selectedNodeId)))
             .style('stroke', d => {
                 const isRelated = isHighlighting && (d.source.id === selectedNodeId || d.target.id === selectedNodeId);
                 if (isRelated) {
@@ -220,40 +365,29 @@ export class GraphView {
             });
 
         this.linkLabelGroup.selectAll('.link-label-unit')
-            .classed('faded', isHighlighting && (d => d.source.id !== selectedNodeId && d.target.id !== selectedNodeId));
-        
+            .classed('faded', isHighlighting && (d => !(d.source.id === selectedNodeId || d.target.id === selectedNodeId)));
+
         const selectedNode = isHighlighting ? this.simulation.nodes().find(n => n.id === selectedNodeId) : null;
         const highlightColor = selectedNode ? this.colorScale(selectedNode.type) : CONFIG.COLORS.DEFAULT_ARROW;
         this.svg.select("#arrowhead path").style('fill', highlightColor);
     }
     
-    /**
-     * 高亮显示找到的路径。
-     * @param {Array<Array<string>>} paths - 路径数组
-     * @param {string} sourceId - 源节点ID
-     * @param {string} targetId - 目标节点ID
-     * @param {object} sourceNode - 源节点对象
-     */
     highlightPaths(paths, sourceId, targetId, sourceNode) {
         this.clearAllHighlights();
         
         const highlightColor = this.colorScale(sourceNode ? sourceNode.type : 'default');
 
-        // 确保所有元素都被黯淡，包括 link-label-unit
         this.nodeGroup.selectAll(".node").classed("faded", true);
         this.linkGroup.selectAll(".link").classed("faded", true);
-        this.linkLabelGroup.selectAll(".link-label-unit").classed("faded", true); // 使用正确的选择器
+        this.linkLabelGroup.selectAll(".link-label-unit").classed("faded", true);
         
-        // 动态地、逐条地展示路径
         paths.forEach((path, i) => {
             setTimeout(() => {
-                // 清除上一条路径的高亮，为显示下一条做准备
                 this.nodeGroup.selectAll(".node.path-highlight").classed('path-highlight path-source path-target', false).select('circle').style('stroke', null);
                 this.linkGroup.selectAll(".link.path-highlight").classed('path-highlight', false).style('stroke', null);
                 
                 const pathNodeIds = new Set(path);
                 
-                // 高亮当前路径的节点
                 this.nodeGroup.selectAll('.node')
                     .filter(d => pathNodeIds.has(d.id))
                     .classed('faded', false)
@@ -262,51 +396,56 @@ export class GraphView {
                     .classed('path-target', d => d.id === targetId)
                     .select('circle').style('stroke', highlightColor);
                 
-                // 高亮当前路径的边
                 for (let j = 0; j < path.length - 1; j++) {
                     const source = path[j];
                     const target = path[j + 1];
 
-                    // 高亮路径上的关系线
                     this.linkGroup.selectAll('.link')
                         .filter(d => (d.source.id === source && d.target.id === target) || (d.source.id === target && d.target.id === source))
                         .classed('faded', false)
                         .classed('path-highlight', true)
                         .style('stroke', highlightColor);
                     
-                    // 高亮路径上的关系文字
                     this.linkLabelGroup.selectAll('.link-label-unit')
                         .filter(d => (d.source.id === source && d.target.id === target) || (d.source.id === target && d.target.id === source))
                         .classed('faded', false);
                 }
                 
                 this.svg.select("#arrowhead path").style('fill', highlightColor);
-            }, i * 2000); // 每2秒显示一条路径
+            }, i * 2000);
         });
     }
 
-    /**
-     * 清除所有的高亮效果，恢复默认视图。
-     */
     clearAllHighlights() {
         this.nodeGroup.selectAll(".node").classed("faded", false).classed("highlight", false).classed('path-highlight path-source path-target', false).select('circle').style('stroke', null);
         this.linkGroup.selectAll(".link").classed("faded", false).classed('path-highlight', false).style("stroke", null);
-        this.linkLabelGroup.selectAll(".link-label").classed("faded", false);
+        this.linkLabelGroup.selectAll(".link-label-unit").classed("faded", false);
         this.svg.select("#arrowhead path").style('fill', CONFIG.COLORS.DEFAULT_ARROW);
     }
 
-    /**
-     * 将视图平移和缩放，使指定节点居中。
-     * @param {object} nodeData - 节点数据对象
-     */
-    centerOnNode(nodeData) {
-        const scale = 1.5;
-        const x = this.width / 2 - nodeData.x * scale;
-        const y = this.height / 2 - nodeData.y * scale;
-        this.svg.transition().duration(750).call(this.zoom.transform, d3.zoomIdentity.translate(x, y).scale(scale));
+    dimGraph() {
+        this.container.transition().duration(500).style("opacity", 0.15);
     }
 
-    // --- "私有" 辅助方法 ---
+    undimGraph() {
+        this.container.transition().duration(500).style("opacity", 1);
+    }
+
+    getCenterOfView() {
+        const transform = d3.zoomTransform(this.svg.node());
+        // 将屏幕中心点坐标转换为SVG画布内的坐标
+        return {
+            x: (this.width / 2 - transform.x) / transform.k,
+            y: (this.height / 2 - transform.y) / transform.k,
+        };
+    }
+
+    centerOnNode(nodeData, scale = 1.5, duration = 750) {
+        if(!nodeData?.x || !nodeData?.y) return;
+        const x = this.width / 2 - nodeData.x * scale;
+        const y = this.height / 2 - nodeData.y * scale;
+        this.svg.transition().duration(duration).call(this.zoom.transform, d3.zoomIdentity.translate(x, y).scale(scale));
+    }
 
     _createSimulation() {
         const simulation = d3.forceSimulation()
@@ -319,13 +458,7 @@ export class GraphView {
         return simulation;
     }
 
-    /**
-     * 初始化SVG的defs（用于定义箭头等可复用元素）和zoom（缩放/平移）行为。
-     * @private
-     */
     _setupDefsAndZoom() {
-        // --- 箭头定义 ---
-        // 在<defs>中定义一个<marker>元素，作为连线的箭头
         this.svg.append('defs').append('marker')
             .attr('id', 'arrowhead')
             .attr('viewBox', '-10 -5 10 10')
@@ -340,33 +473,21 @@ export class GraphView {
             .attr('class', 'arrowhead-path')
             .style('fill', CONFIG.COLORS.DEFAULT_ARROW);
             
-        // --- Zoom/Pan 事件处理 ---
-        // 为d3.zoom()行为绑定"zoom"事件的监听器
         this.zoom.on("zoom", (event) => {
-            // 1. 应用平移和缩放变换到主容器<g>上
             this.container.attr("transform", event.transform);
-
-            // 2. 在拖拽平移图谱时，同步更新提示框的位置
-            // event.sourceEvent 保存了触发zoom的原始DOM事件（如mousemove）
             if (event.sourceEvent) {
-                // 为略微提高性能，只在提示框当前可见时 (opacity为"1") 才执行位置更新
                 if (this.tooltip.style("opacity") === "1") {
-                    // 从原始事件中获取鼠标的页面坐标，并更新提示框的CSS left和top属性
                     this.tooltip.style("left", (event.sourceEvent.pageX + 10) + "px")
                                .style("top", (event.sourceEvent.pageY + 10) + "px");
                 }
             }
         });
 
-        // 将配置好的zoom行为应用到整个SVG画布上
-        // 同时保留画布的点击事件，用于在点击空白处时取消节点高亮
         this.svg.call(this.zoom).on("click", (e) => this.callbacks.onSvgClick(e));
     }
     
-    // _handleTick 同时更新可见线和隐形区域的位置
     _handleTick() {
         this.linkGroup.selectAll("path.link").attr("d", d => this._calculateLinkPath(d));
-        // 将transform应用到g.link-label-unit上
         this.linkLabelGroup.selectAll("g.link-label-unit").attr("transform", d => this._calculateLinkLabelTransform(d));
         this.nodeGroup.selectAll("g.node").attr("transform", d => `translate(${d.x},${d.y})`);
     }
@@ -402,7 +523,7 @@ export class GraphView {
     
     _calculateLinkPath(d) {
         const targetRadius = this._getNodeRadius(d.target);
-        if (d.groupSize <= 1) { // 直线
+        if (d.groupSize <= 1) {
             const dx = d.target.x - d.source.x;
             const dy = d.target.y - d.source.y;
             const dist = Math.sqrt(dx * dx + dy * dy);
@@ -410,7 +531,8 @@ export class GraphView {
             const newTargetX = d.target.x - (dx / dist) * targetRadius;
             const newTargetY = d.target.y - (dy / dist) * targetRadius;
             return `M${d.source.x},${d.source.y}L${newTargetX},${newTargetY}`;
-        } else { // 弧线
+        }
+        else {
             const dx = d.target.x - d.source.x;
             const dy = d.target.y - d.source.y;
             const side = (d.groupIndex % 2 === 0) ? 1 : -1;
@@ -452,12 +574,26 @@ export class GraphView {
 
     _handleNodeMouseover(event, d) {
         if (event.currentTarget.classList.contains('faded')) return;
-        this.tooltip.style("opacity", 1).html(`<strong>ID:</strong> ${d.id}<br><strong>Type:</strong> ${d.type}<br><strong>度 (Degree):</strong> ${d.degree || 0}<br><strong>Desc:</strong> ${d.properties?.description || 'N/A'}`);
+        const displayName = d?.name?.['zh-cn']?.[0] || d.id;
+        this.tooltip.style("opacity", 1).html(
+            `<strong>名称:</strong> ${displayName}<br>` +
+            `<strong>ID:</strong> ${d.id}<br>` +
+            `<strong>Type:</strong> ${d.type}<br>` +
+            `<strong>度 (Degree):</strong> ${d.degree || 0}<br>` +
+            `<strong>Desc:</strong> ${d.properties?.description || 'N/A'}`
+        );
     }
 
     _handleLinkMouseover(event, d) {
         if (event.currentTarget.classList.contains('faded')) return;
-        this.tooltip.style("opacity", 1).html(`<strong>Type:</strong> ${d.type}<br><strong>From:</strong> ${d.source.id}<br><strong>To:</strong> ${d.target.id}<br><strong>Desc:</strong> ${d.properties?.description || 'N/A'}`);
+        const sourceName = d.source?.name?.['zh-cn']?.[0] || d.source.id;
+        const targetName = d.target?.name?.['zh-cn']?.[0] || d.target.id;
+        this.tooltip.style("opacity", 1).html(
+            `${sourceName} ${d.type} ${targetName}<br>` +
+            // `<strong>From:</strong> ${sourceName}<br>` +
+            // `<strong>To:</strong> ${targetName}<br>` +
+            `<strong>Desc:</strong> ${d.properties?.description || 'N/A'}`
+        );
     }
 
     _handleMousemove(event) {

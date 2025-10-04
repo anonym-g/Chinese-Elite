@@ -1,26 +1,35 @@
 // docs/modules/config.js
 
 /**
- * 全局配置文件
- * 存放应用中所有硬编码的常量和配置，便于集中管理和修改。
- */
+ * 全局配置文件
+ */
 const CONFIG = {
-    // 数据源文件的URL
-    DATA_FILE_URL: './consolidated_graph.json',
+    // DATA_FILE_URL: './data/initial.json',
+    DATA_FILE_URL: './master_graph_qcode.json',
+    DATA_DIR: './data/',
+    
+    // 全局名称到ID的映射文件
+    NAME_TO_ID_URL: './data/name_to_id.json',
 
-    // D3.js力导向图的模拟参数
+    TEMPORARY_NODE_TTL: 60000, // 1分钟
+
+    INITIAL_ZOOM: 0.7, // 初始摄像机缩放级别（小于1表示拉远）
+    INITIAL_ZOOM_DURATION: 2000, // 初始视图动画的持续时间（毫秒）
+
     SIMULATION: {
-        CHARGE_STRENGTH: -250,      // 节点间的引力/斥力强度
-        LINK_DISTANCE: 100,         // 边的理想长度
-        CENTER_X_STRENGTH: 0.01,    // 将所有节点拉向中心的X轴方向的力强度
-        CENTER_Y_STRENGTH: 0.01,    // 将所有节点拉向中心的Y轴方向的力强度
-        ANCHOR_STRENGTH: 0.3        // "锚点"节点（度数最高的节点）被拉向中心的力强度，使其更稳定
+        INITIAL_ALPHA: 0.5, // 首次加载时的初始“能量”，1.0为最大值
+        REHEAT_ALPHA: 0.3,  // 后续更新时的“能量”
+        CHARGE_STRENGTH: -250,
+        LINK_DISTANCE: 100,
+        CENTER_X_STRENGTH: 0.01,
+        CENTER_Y_STRENGTH: 0.01,
+        ANCHOR_STRENGTH: 0.4 // 锚定力（加给度最高的3个节点）
     },
 
     // 节点半径的计算参数
     NODE_RADIUS: {
-        BASE: 5,                    // 节点的基础半径
-        SCALE: 2                    // 节点半径随其度数变化的缩放因子
+        BASE: 5,
+        SCALE: 2
     },
 
     // 颜色配置
@@ -40,11 +49,11 @@ const CONFIG = {
     // 定义哪些关系类型是无向的（渲染时不需要箭头）
     NON_DIRECTED_LINK_TYPES: new Set([
         'SPOUSE_OF',
-        'SIBLING_OF', 
-        'LOVER_OF', 
-        'RELATIVE_OF', 
-        'FRIEND_OF', 
-        'ENEMY_OF', 
+        'SIBLING_OF', 
+        'LOVER_OF', 
+        'RELATIVE_OF', 
+        'FRIEND_OF', 
+        'ENEMY_OF', 
         'MET_WITH'
     ])
 };

@@ -13,7 +13,6 @@ const subscribers = new Set();
  */
 function updateState(newState) {
     _state = { ..._state, ...newState };
-    // console.log("State updated:", _state); // 用于调试，可以观察每次状态的变更
     subscribers.forEach(callback => callback(_state));
 }
 
@@ -21,9 +20,6 @@ function updateState(newState) {
  * stateManager 导出公共接口，用于管理应用状态。
  */
 export const stateManager = {
-    /**
-     * 初始化应用的默认状态。
-     */
     initialize: () => {
         _state = {
             startDate: getDateFromGroup('start'),
@@ -33,13 +29,11 @@ export const stateManager = {
             isIntervalLocked: false,
             currentInterval: { years: 0, months: 0, days: 0 },
             isPathHighlighting: false,
+            // Pinned节点现在是一个Map，记录 { nodeId -> 'click' | 'path' }
+            pinnedNodeIds: new Map(),
         };
     },
-    
-    /**
-     * 获取当前状态的一个只读副本。
-     * @returns {object} 当前应用状态
-     */
+    
     getState: () => ({ ..._state }),
 
     /**
@@ -89,10 +83,35 @@ export const stateManager = {
     setPathHighlighting: (isHighlighting) => updateState({ isPathHighlighting: isHighlighting }),
 
     /**
-     * 锁定或解锁时间间隔。
-     * @param {boolean} isLocked 
-     * @param {object} [interval] - 时间间隔对象，仅在锁定时需要
+     * 将一组节点ID添加到“钉住”列表。
+     * @param {Array<string>} nodeIds 要钉住的节点ID数组
+     * @param {'click' | 'path'} reason 钉住的原因
      */
+    pinNodes: (nodeIds, reason = 'click') => {
+        const newPinnedIds = new Map(_state.pinnedNodeIds);
+        nodeIds.forEach(id => {
+            // "click" 的优先级更高，一旦被点击过，就不应被 "path" 覆盖
+            if (newPinnedIds.get(id) !== 'click') {
+                newPinnedIds.set(id, reason);
+            }
+        });
+        updateState({ pinnedNodeIds: newPinnedIds });
+    },
+    
+    /**
+     * 从“钉住”列表中移除因为特定原因而被固定的节点。
+     * @param {'click' | 'path'} reason 要移除的原因
+     */
+    unpinNodesByReason: (reason) => {
+        const newPinnedIds = new Map();
+        for (const [id, r] of _state.pinnedNodeIds.entries()) {
+            if (r !== reason) {
+                newPinnedIds.set(id, r);
+            }
+        }
+        updateState({ pinnedNodeIds: newPinnedIds });
+    },
+
     setIntervalLock: (isLocked, interval = { years: 0, months: 0, days: 0 }) => {
         updateState({ isIntervalLocked: isLocked, currentInterval: interval });
         // 如果是锁定操作，立即根据开始日期和间隔计算结束日期并更新
@@ -116,7 +135,8 @@ export const stateManager = {
             const newEndDate = addInterval(originDate, _state.currentInterval);
             updateDateGroup('end', newEndDate);
             updateState({ startDate: originDate, endDate: newEndDate });
-        } else {
+        }
+        else {
             const newStartDate = subtractInterval(originDate, _state.currentInterval);
             updateDateGroup('start', newStartDate);
             updateState({ startDate: newStartDate, endDate: originDate });
