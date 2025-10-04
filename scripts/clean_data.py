@@ -2,303 +2,263 @@
 
 import os
 import json
-from datetime import datetime
-from config import USER_AGENT, RELATIONSHIP_TYPE_RULES, BAIDU_BASE_URL, CDSPACE_BASE_URL
-from utils import WikipediaClient, add_title_to_list
+import sys
+from datetime import datetime, timedelta
+from dotenv import load_dotenv
+from google import genai
+from google.genai import types
+import logging
+
+from config import (
+    MASTER_GRAPH_PATH, CACHE_DIR, MERGE_CHECK_MODEL,
+    PROMPTS_DIR
+)
+from utils import WikipediaClient
+
+logger = logging.getLogger(__name__)
+
+load_dotenv()
 
 class GraphCleaner:
-    """封装了清理图谱数据（验证维基链接、清理无效关系）的逻辑。"""
-
-    def __init__(self, graph_path: str, output_dir: str, cache_dir: str):
-        self.graph_path = graph_path
-        self.output_dir = output_dir
-        self.cache_path = os.path.join(cache_dir, 'wiki_link_status_cache.json')
-        self.wiki_client = WikipediaClient(user_agent=f"{USER_AGENT} (Cleaning Script)")
-        self.link_cache = {}
-        self.cache_updated = False
-
-    def _load_cache(self):
-        """加载链接状态缓存。"""
-        if not os.path.exists(self.cache_path):
-            return
-        try:
-            with open(self.cache_path, 'r', encoding='utf-8') as f:
-                self.link_cache = json.load(f)
-            print(f"[*] 已加载 {len(self.link_cache)} 条缓存的链接状态。")
-        except (IOError, json.JSONDecodeError) as e:
-            print(f"[!] 警告：无法读取或解析缓存文件 - {e}")
-
-    def _save_cache(self):
-        """保存更新后的链接状态缓存。"""
-        if not self.cache_updated:
-            return
-        try:
-            os.makedirs(os.path.dirname(self.cache_path), exist_ok=True)
-            with open(self.cache_path, 'w', encoding='utf-8') as f:
-                json.dump(self.link_cache, f, indent=2, ensure_ascii=False)
-            print("[*] 链接状态缓存已更新。")
-        except IOError as e:
-            print(f"[!] 警告：无法写入缓存文件 - {e}")
-
-    def _check_nodes(self, nodes: list) -> dict:
-        """
-        遍历所有节点，检查其维基链接状态，并根据新规则执行操作：
-        1. 将所有最终有效的维基标题添加到 LIST.txt。
-        2. 仅将非简繁重定向、消歧义、不存在的页面标记为“问题节点”。
-        3. 缓存中明确记录备用来源。
-        """
-        problematic_nodes = {
-            "REDIRECT": {}, "NO_PAGE": set(), "DISAMBIG": set(), "ERROR": set()
-        }
-        
-        total_nodes = len(nodes)
-        print(f"\n[*] 开始检查 {total_nodes} 个节点的链接状态...")
-        for i, node in enumerate(nodes):
-            node_id = node.get('id')
-            if not node_id: continue
-
-            if node.get('properties', {}).get('verified_node', False):
-                print(f"  ({i+1}/{total_nodes}) 检查: '{node_id}'... [已验证, 跳过]")
-                continue
-
-            print(f"  ({i+1}/{total_nodes}) 检查: '{node_id}'...", end='', flush=True)
-
-            # --- 检查逻辑 ---
-            status, detail = (None, None)
-            if node_id in self.link_cache:
-                cached_data = self.link_cache[node_id]
-                status = cached_data['status']
-                detail = cached_data.get('detail')
-                print(f" [缓存: {status}]")
-            else:
-                status, detail = self.wiki_client.check_link_status(node_id)
-                print(f" -> Wiki状态: {status}")
-                # 只有有效的Wiki检查结果才被缓存
-                if status not in ["NO_PAGE", "ERROR"]:
-                     self.link_cache[node_id] = {'status': status, 'detail': detail}
-                     self.cache_updated = True
-
-            # --- 根据状态执行不同操作 ---
-            if status == "OK":
-                add_title_to_list(node_id)
-            
-            elif status == "SIMP_TRAD_REDIRECT":
-                if detail: add_title_to_list(detail)
-                # 注意：不将 node_id 添加到 problematic_nodes
-                
-            elif status == "REDIRECT":
-                if detail: add_title_to_list(detail)
-                problematic_nodes["REDIRECT"][node_id] = detail
-            
-            elif status == "DISAMBIG":
-                problematic_nodes["DISAMBIG"].add(node_id)
-            elif status == "ERROR":
-                 problematic_nodes["ERROR"].add(node_id)
-
-            # 如果维基页面不存在，则回退检查
-            elif status == "NO_PAGE":
-                print(f"  ...维基页面不存在，正在检查备用来源...", end='', flush=True)
-                final_status_for_cache = None
-                
-                # 记录备用来源
-                if self.wiki_client.check_generic_url(BAIDU_BASE_URL, node_id):
-                    print(" [备用来源: Baidu] -> 此节点保留。")
-                    final_status_for_cache = "BAIDU"
-                elif self.wiki_client.check_generic_url(CDSPACE_BASE_URL, node_id):
-                    print(" [备用来源: CDT] -> 此节点保留。")
-                    final_status_for_cache = "CDSPACE"
-                else:
-                    print(" [备用来源也不存在] -> 标记为问题节点。")
-                    problematic_nodes["NO_PAGE"].add(node_id)
-                
-                # 如果找到了备用来源，更新缓存
-                if final_status_for_cache:
-                    self.link_cache[node_id] = {'status': final_status_for_cache, 'detail': None}
-                    self.cache_updated = True
-        
-        return problematic_nodes
+    """
+    一个用于对主图谱进行定期深度维护的工具。
+    - 清理过期的链接状态缓存。
+    - 尝试将临时ID节点（如BAIDU:, CDT:）升级为Q-Code节点。
+    - 使用LLM清理节点间冗余的关系。
+    """
     
-    def _sanitize_nodes(self, nodes: list) -> list:
-        """
-        移除节点中的不当属性。
-        - Person类型移除 'period'
-        - 非Person类型移除 'lifetime', 'gender', 'birth_place', 'death_place'
-        """
-        for node in nodes:
-            props = node.get('properties')
-            if not props: continue
+    def __init__(self, master_graph_path: str, cache_dir: str):
+        self.master_graph_path = master_graph_path
+        self.wiki_client = WikipediaClient()
+        try:
+            self.llm_client = genai.Client()
+        except Exception as e:
+            logger.critical(f"错误：初始化Google GenAI Client失败，请检查API密钥。错误详情: {e}")
+            sys.exit(1)
+        
+        # 加载关系清洗的Prompt
+        prompt_path = os.path.join(PROMPTS_DIR, 'clean_relations.txt')
+        try:
+            with open(prompt_path, 'r', encoding='utf-8') as f:
+                self.relation_cleaner_prompt = f.read()
+        except FileNotFoundError:
+            logger.critical(f"严重错误: '{prompt_path}'未找到关系清洗Prompt文件")
+            sys.exit(1)
 
-            node_type = node.get('type')
-            
-            if node_type == 'Person':
-                if 'period' in props:
-                    del props['period']
-            else:
-                for key_to_remove in ['lifetime', 'gender', 'birth_place', 'death_place']:
-                    if key_to_remove in props:
-                        del props[key_to_remove]
-        return nodes
+        # 定义需要进行冗余检查的关系类型
+        self.redundancy_check_relations = {"INFLUENCED", "PUSHED", "BLOCKED", "FRIEND_OF", "ENEMY_OF", "MET_WITH"}
 
-    def _deep_clean_object(self, data):
-        """
-        递归地移除字典和列表中的所有空字符串 "" 和 None/null 值。
-        """
-        if isinstance(data, dict):
-            # 使用 list() 来创建一个键的副本，以允许在迭代期间安全地删除键
-            for key in list(data.keys()):
-                value = data[key]
-                if value in (None, ""):
-                    del data[key]
-                elif isinstance(value, (dict, list)):
-                    # 递归清理嵌套的字典或列表
-                    self._deep_clean_object(value)
-                    # 如果清理后，一个字典变空了（常见于properties），也考虑是否删除它
-                    if isinstance(value, dict) and not value:
-                         del data[key]
-                elif isinstance(value, list) and not value: # 如果列表为空，也删除
-                    del data[key]
-
-        elif isinstance(data, list):
-            i = 0
-            while i < len(data):
-                item = data[i]
-                if item in (None, ""):
-                    data.pop(i)
-                elif isinstance(item, (dict, list)):
-                    self._deep_clean_object(item)
-                    # 如果清理后列表/字典变为空，也将其从列表中移除
-                    if not item:
-                        data.pop(i)
+    def _clean_stale_cache(self):
+        """清理超过一个月的BAIDU/CDT链接状态缓存。"""
+        logger.info("\n--- 步骤 1/3: 清理过期的链接状态缓存 ---")
+        one_month_ago = datetime.now() - timedelta(days=30)
+        
+        pruned_cache = {}
+        cleaned_count = 0
+        
+        for key, value in self.wiki_client.link_cache.items():
+            status = value.get('status')
+            if status in ["BAIDU", "CDT"]:
+                try:
+                    timestamp_str = value.get('timestamp')
+                    if not timestamp_str:
+                        cleaned_count += 1 # 没有时间戳的旧条目，直接清理
+                        continue
+                    timestamp = datetime.fromisoformat(timestamp_str)
+                    if timestamp > one_month_ago:
+                        pruned_cache[key] = value # 保留未过期的
                     else:
-                        i += 1
-                else:
-                    i += 1
-        return data
-
-    def run(self):
-        """执行完整的清理流程。"""
-        if not os.path.exists(self.graph_path):
-            print(f"[!] 错误: 源文件不存在: {self.graph_path}")
-            return
-
-        with open(self.graph_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-
-        nodes = data.get('nodes', [])
-        relationships = data.get('relationships', [])
-
-        self._load_cache()
-        print(f"[*] 共加载 {len(nodes)} 个节点，{len(relationships)} 个关系。")
-
-        # --- 步骤 1: 基于有效的节点列表，清洗关系 ---
-        node_ids = {n['id'] for n in nodes}
-        node_type_map = {n['id']: n.get('type') for n in nodes}
-        good_relationships = []
-        invalid_relationships_log = []
-
-        print(f"\n[*] 基于 {len(nodes)} 个节点，开始清理 {len(relationships)} 个关系...")
-        for rel in relationships:
-            source_id = rel.get('source')
-            target_id = rel.get('target')
-            rel_type = rel.get('type')
-
-            # 规则 1: 清理悬空关系 (节点不存在)
-            if not source_id or not target_id or source_id not in node_ids or target_id not in node_ids:
-                reason = f"悬空关系：源节点 '{source_id}' 或目标节点 '{target_id}' 不存在于有效节点列表中。"
-                invalid_relationships_log.append({'relationship': rel, 'reason': reason})
-                continue
-
-            # 规则 2: 清理类型不匹配的关系
-            if rel_type and rel_type in RELATIONSHIP_TYPE_RULES:
-                rule = RELATIONSHIP_TYPE_RULES[rel_type]
-                source_type = node_type_map.get(source_id)
-                target_type = node_type_map.get(target_id)
-                
-                allowed_sources = rule.get('source')
-                allowed_targets = rule.get('target')
-
-                source_ok = not allowed_sources or source_type in allowed_sources
-                target_ok = not allowed_targets or target_type in allowed_targets
-                
-                if not source_ok or not target_ok:
-                    reason = f"类型不匹配：关系 '{rel_type}' (源: {source_type}, 目标: {target_type}) 不符合规则 (允许源: {allowed_sources or 'Any'}, 允许目标: {allowed_targets or 'Any'})。"
-                    invalid_relationships_log.append({'relationship': rel, 'reason': reason})
-                    continue
-
-            good_relationships.append(rel)
+                        cleaned_count += 1 # 标记为已清理
+                except (ValueError, TypeError):
+                    cleaned_count += 1 # 格式错误或无时间戳的也一并清理
+            else:
+                pruned_cache[key] = value # 保留所有非BAIDU/CDT的条目
         
-        print(f"[*] 关系清理完成。保留了 {len(good_relationships)} 个有效关系，移除了 {len(invalid_relationships_log)} 个无效关系。")
-
-        # --- 步骤 2: 检查节点链接状态并分离问题节点 ---
-        problem_nodes_by_category = self._check_nodes(nodes)
-        all_bad_node_ids = set(problem_nodes_by_category["REDIRECT"].keys()) | problem_nodes_by_category["NO_PAGE"] | problem_nodes_by_category["DISAMBIG"] | problem_nodes_by_category["ERROR"]
-
-        if all_bad_node_ids:
-            print(f"\n[*] 节点检查完成，共发现 {len(all_bad_node_ids)} 个需要清理的节点ID。")
+        if cleaned_count > 0:
+            self.wiki_client.link_cache = pruned_cache
+            self.wiki_client.link_cache_updated = True
+            logger.info(f"清理了 {cleaned_count} 个过期的 BAIDU/CDT 缓存条目。")
         else:
-            print("\n[+] 节点检查完成，未发现链接状态异常的节点。")
+            logger.info("未发现过期的缓存条目。")
             
-        good_nodes = [n for n in nodes if n.get('id') not in all_bad_node_ids]
+    def _resolve_temporary_nodes(self, nodes: list, relationships: list) -> tuple[list, list]:
+        """遍历所有节点，尝试将临时ID (BAIDU:, CDT:) 升级为Q-Code。"""
+        logger.info("\n--- 步骤 2/3: 尝试升级临时ID节点 ---")
+        nodes_map = {n['id']: n for n in nodes}
+        id_remap = {} # 存储 old_temp_id -> new_qcode 的映射
+        nodes_to_delete = set() # 存储因合并而被删除的临时节点的ID
+        
+        # 检查 BAIDU 和 CDT 节点
+        temp_nodes = [n for n in nodes if n['id'].startswith(('BAIDU:', 'CDT:'))]
+        logger.info(f"发现 {len(temp_nodes)} 个使用临时ID的节点待检查。")
 
-        # --- 步骤 3: 对保留的数据进行深度净化 ---
-        print("\n[*] 开始最终数据净化 (移除不当属性和空值)...")
-        # 3a: 移除节点的不当属性
-        sanitized_nodes = self._sanitize_nodes(good_nodes)
+        for node in temp_nodes:
+            old_id = node['id']
+            original_name = old_id.split(':', 1)[-1]
+            
+            qcode = self.wiki_client.get_qcode(original_name)
+            if qcode:
+                logger.info(f"  - 成功升级: '{original_name}' -> {qcode}")
+                id_remap[old_id] = qcode
+                nodes_to_delete.add(old_id)
+                
+                # 如果新Q-Code已存在，则合并属性，否则直接更新ID
+                if qcode in nodes_map and nodes_map[qcode] is not node:
+                    logger.info(f"    -> [合并] Q-Code {qcode} 已存在，正在合并属性...")
+                    existing_node = nodes_map[qcode]
+                    for key, val in node.get('properties', {}).items():
+                        existing_node.setdefault('properties', {})[key] = val
+                else:
+                    node['id'] = qcode
+                    nodes_map[qcode] = node
         
-        # 3b: 递归移除所有空值
-        final_nodes = self._deep_clean_object(sanitized_nodes)
-        final_relationships = self._deep_clean_object(good_relationships)
-        print("[+] 数据净化完成。")
+        # 从图中移除已被合并的旧临时节点
+        final_nodes = [n for n in nodes if n['id'] not in nodes_to_delete]
         
-        # --- 步骤 4: 整理并保存所有待清理的数据 ---
-        if not all_bad_node_ids and not invalid_relationships_log:
-            print("\n[+] 整体检查完成，图谱数据健康，无需执行清理操作。")
-            self._save_cache()
+        # 更新关系列表中的所有ID
+        if id_remap:
+            for rel in relationships:
+                if rel.get('source') in id_remap:
+                    rel['source'] = id_remap[rel['source']]
+                if rel.get('target') in id_remap:
+                    rel['target'] = id_remap[rel['target']]
+        
+        logger.info(f"成功升级了 {len(id_remap)} 个节点。")
+        return final_nodes, relationships
+
+    def _clean_redundant_relationships(self, nodes: list, relationships: list) -> list:
+        """使用LLM清理节点对之间的冗余关系。"""
+        logger.info("\n--- 步骤 3/3: 清理冗余的关系 ---")
+        
+        # 步骤 1: 创建一个从节点Q-Code ID到可读名称的映射
+        id_to_name_map = {node['id']: node.get('name', {}).get('zh-cn', [node['id']])[0] for node in nodes}
+        
+        rels_by_pair = {}
+        for rel in relationships:
+            source, target = rel.get('source'), rel.get('target')
+            if not source or not target: continue
+            pair_key = tuple(sorted((source, target)))
+            if pair_key not in rels_by_pair:
+                rels_by_pair[pair_key] = []
+            rels_by_pair[pair_key].append(rel)
+            
+        rels_to_delete = set()
+        processed_pairs = 0
+
+        for pair_key, rels in rels_by_pair.items():
+            check_rels = [r for r in rels if r.get('type') in self.redundancy_check_relations]
+            
+            if len(check_rels) >= 2:
+                processed_pairs += 1
+                # 将ID->名称的映射传递给LLM调用函数
+                readable_source = id_to_name_map.get(pair_key[0], pair_key[0])
+                readable_target = id_to_name_map.get(pair_key[1], pair_key[1])
+                logger.info(f"  - 检查节点对 ({readable_source} <-> {readable_target}) 之间的 {len(check_rels)} 条潜在冗余关系...")
+                
+                types_to_delete = self._call_relation_cleaner_llm(check_rels, id_to_name_map)
+                
+                if types_to_delete:
+                    temp_check_rels = list(check_rels) # 创建副本以安全地查找和标记
+                    for rel_type in types_to_delete:
+                        found = False
+                        for r in temp_check_rels:
+                            if r.get('type') == rel_type:
+                                logger.info(f"    -> LLM建议删除: {r['type']}")
+                                rels_to_delete.add(id(r))
+                                temp_check_rels.remove(r) # 从副本中移除，防止同一类型被删除多次
+                                found = True
+                                break
+                        if not found:
+                            logger.warning(f"    -> LLM建议删除类型'{rel_type}'，但在列表中未找到可删除的实例。")
+
+        # 构建最终的关系列表
+        final_relationships = [rel for rel in relationships if id(rel) not in rels_to_delete]
+
+        deleted_count = len(rels_to_delete)
+        if deleted_count > 0:
+            logger.info(f"在 {processed_pairs} 组关系中，LLM共清理了 {deleted_count} 条冗余关系。")
+        else:
+            logger.info("未发现需要清理的冗余关系。")
+            
+        return final_relationships
+
+    def _call_relation_cleaner_llm(self, rels_to_check: list, id_to_name_map: dict) -> list:
+        """调用LLM来判断应删除哪些关系。"""
+        # 步骤 2: 构建发送给LLM的负载，将ID替换为名称
+        llm_payload = []
+        for r in rels_to_check:
+            # 创建一个副本，并移除临时的内部键
+            rel_copy = {k: v for k, v in r.items() if k != 'temp_id'}
+            # 使用映射将 source 和 target ID 转换为可读名称
+            rel_copy['source'] = id_to_name_map.get(r.get('source'), r.get('source'))
+            rel_copy['target'] = id_to_name_map.get(r.get('target'), r.get('target'))
+            llm_payload.append(rel_copy)
+
+        prompt = self.relation_cleaner_prompt + "\n" + json.dumps(llm_payload, indent=2, ensure_ascii=False)
+        
+        try:
+            response = self.llm_client.models.generate_content(
+                model=MERGE_CHECK_MODEL,
+                contents=prompt,
+                # config=types.GenerateContentConfig(response_mime_type='application/json'),
+            )
+            # 检查response.text是否存在且为字符串，防止对None调用.replace()
+            if response.text and isinstance(response.text, str):
+                cleaned_text = response.text.replace('```json', '').replace('```', '').strip()
+                types_to_delete = json.loads(cleaned_text)
+                if isinstance(types_to_delete, list):
+                    return types_to_delete
+        except Exception as e:
+            logger.error(f"    [!] LLM关系清理失败: {e}")
+        return []
+    
+    def run(self):
+        """执行完整的端到端维护流水线。"""
+        if not os.path.exists(self.master_graph_path):
+            logger.error(f"错误: 主图谱文件不存在: {self.master_graph_path}")
             return
-            
-        timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-        current_output_dir = os.path.join(self.output_dir, timestamp)
-        os.makedirs(current_output_dir, exist_ok=True)
-        print(f"\n[*] 正在创建输出目录: {current_output_dir}")
 
-        # 保存问题节点
-        redirect_ids = set(problem_nodes_by_category["REDIRECT"].keys())
-        no_page_ids = problem_nodes_by_category["NO_PAGE"] | problem_nodes_by_category["ERROR"]
-        disambig_ids = problem_nodes_by_category["DISAMBIG"]
+        with open(self.master_graph_path, 'r', encoding='utf-8') as f:
+            graph = json.load(f)
+        
+        nodes = graph.get('nodes', [])
+        relationships = graph.get('relationships', [])
+        
+        logger.info("==================================================")
+        logger.info("==========  启动 Chinese-Elite 深度维护  ==========")
+        logger.info("==================================================")
 
-        problematic_nodes_data = {
-            'redirect': {
-                'nodes': [n for n in nodes if n.get('id') in redirect_ids],
-                'relationships': [r for r in good_relationships if r.get('source') in redirect_ids or r.get('target') in redirect_ids],
-                'redirect_map': problem_nodes_by_category["REDIRECT"]
-            },
-            'no_page': {
-                'nodes': [n for n in nodes if n.get('id') in no_page_ids],
-                'relationships': [r for r in good_relationships if r.get('source') in no_page_ids or r.get('target') in no_page_ids]
-            },
-            'disambig': {
-                'nodes': [n for n in nodes if n.get('id') in disambig_ids],
-                'relationships': [r for r in good_relationships if r.get('source') in disambig_ids or r.get('target') in disambig_ids]
-            }
-        }
-        for key, content in problematic_nodes_data.items():
-            if content.get('nodes'):
-                filepath = os.path.join(current_output_dir, f'problem_nodes_{key}_{timestamp}.json')
-                print(f"  - 正在保存问题节点: {os.path.basename(filepath)}")
-                with open(filepath, 'w', encoding='utf-8') as f:
-                    json.dump(content, f, indent=2, ensure_ascii=False)
+        # --- 步骤 1: 清理过期的缓存条目 ---
+        self._clean_stale_cache()
 
-        # 保存无效关系
-        if invalid_relationships_log:
-            filepath = os.path.join(current_output_dir, f'invalid_relationships_{timestamp}.json')
-            print(f"  - 正在保存无效关系日志: {os.path.basename(filepath)}")
-            with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(invalid_relationships_log, f, indent=2, ensure_ascii=False)
+        # --- 步骤 2: 尝试解析和升级临时ID节点 ---
+        nodes, relationships = self._resolve_temporary_nodes(nodes, relationships)
 
-        # --- 步骤 5: 覆写主图谱文件 ---
-        print(f"\n[*] 正在用干净的数据覆盖原始文件: {self.graph_path}")
-        with open(self.graph_path, 'w', encoding='utf-8') as f:
-            json.dump({'nodes': final_nodes, 'relationships': final_relationships}, f, indent=2, ensure_ascii=False)
+        # --- 步骤 3: 清理冗余的关系 ---
+        relationships = self._clean_redundant_relationships(nodes, relationships)
 
-        self._save_cache()
-        print("\n[+] 清理完成！")
+        # --- 步骤 4: 保存所有变更 ---
+        logger.info("\n[*] 正在保存所有变更...")
+        final_graph = {'nodes': nodes, 'relationships': relationships}
+        with open(self.master_graph_path, 'w', encoding='utf-8') as f:
+            json.dump(final_graph, f, indent=2, ensure_ascii=False)
+        
+        # 保存所有可能已更新的缓存 (qcode 和 link_status)
+        self.wiki_client.save_caches()
+        
+        logger.info("\n==================================================")
+        logger.info("=============   深度维护执行完毕   =============")
+        logger.info("==================================================")
+
+if __name__ == '__main__':
+    logging.basicConfig(
+        level=logging.INFO, 
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', 
+        stream=sys.stdout
+    )
+    
+    cleaner = GraphCleaner(
+        master_graph_path=MASTER_GRAPH_PATH,
+        cache_dir=CACHE_DIR
+    )
+    cleaner.run()

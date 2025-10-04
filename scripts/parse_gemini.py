@@ -7,11 +7,15 @@ import sys
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+import copy
+import logging
 
 from config import (
-    PARSER_MODEL, PARSER_SYSTEM_PROMPT_PATH, CONSOLIDATED_GRAPH_PATH,
+    PARSER_MODEL, PARSER_SYSTEM_PROMPT_PATH, MASTER_GRAPH_PATH,
     FEW_SHOT_NODE_SAMPLES, FEW_SHOT_REL_SAMPLES
 )
+
+logger = logging.getLogger(__name__)
 
 # 加载 .env 文件中的环境变量
 load_dotenv()
@@ -26,31 +30,56 @@ class GeminiParser:
             with open(system_prompt_path, 'r', encoding='utf-8') as f:
                 self.system_prompt = f.read()
         except FileNotFoundError:
-            print(f"[!] 严重错误: 系统Prompt文件未找到于 '{system_prompt_path}'", file=sys.stderr)
+            logger.critical(f"严重错误: '{system_prompt_path}'未找到系统Prompt文件")
             sys.exit(1)
 
     def _get_few_shot_examples(self) -> str:
-        """从主图谱文件中随机抽取节点和关系作为few-shot范例。"""
-        if not os.path.exists(CONSOLIDATED_GRAPH_PATH):
+        """从主图谱文件中随机抽取节点和关系作为few-shot范例，并将ID转换为可读名称。"""
+        if not os.path.exists(MASTER_GRAPH_PATH):
             return ""
         try:
-            with open(CONSOLIDATED_GRAPH_PATH, 'r', encoding='utf-8') as f:
+            with open(MASTER_GRAPH_PATH, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
             nodes = data.get('nodes', [])
             relationships = data.get('relationships', [])
 
+            if not nodes or not relationships:
+                return ""
+
+            # 步骤 1: 创建一个从所有节点ID到其主要中文名的映射
+            id_to_name_map = {
+                node['id']: node.get('name', {}).get('zh-cn', [node['id']])[0]
+                for node in nodes
+            }
+
+            # 步骤 2: 随机抽样
             node_samples = random.sample(nodes, min(len(nodes), FEW_SHOT_NODE_SAMPLES))
             rel_samples = random.sample(relationships, min(len(relationships), FEW_SHOT_REL_SAMPLES))
 
+            # 步骤 3: 将抽样数据的ID转换为可读名称
+            readable_node_samples = []
             for node in node_samples:
-                if 'properties' in node and 'verified_node' in node['properties']:
-                    del node['properties']['verified_node']
+                node_copy = copy.deepcopy(node)
+                # 将节点的 'id' 替换为它的可读名称
+                node_copy['id'] = id_to_name_map.get(node['id'], node['id'])
+                # 清理不必要的属性
+                if 'properties' in node_copy and 'verified_node' in node_copy['properties']:
+                    del node_copy['properties']['verified_node']
+                readable_node_samples.append(node_copy)
 
-            if not node_samples and not rel_samples:
+            readable_rel_samples = []
+            for rel in rel_samples:
+                rel_copy = copy.deepcopy(rel)
+                # 将关系的 'source' 和 'target' ID 替换为可读名称
+                rel_copy['source'] = id_to_name_map.get(rel['source'], rel['source'])
+                rel_copy['target'] = id_to_name_map.get(rel['target'], rel['target'])
+                readable_rel_samples.append(rel_copy)
+
+            if not readable_node_samples and not readable_rel_samples:
                 return ""
             
-            examples = {"nodes": node_samples, "relationships": rel_samples}
+            examples = {"nodes": readable_node_samples, "relationships": readable_rel_samples}
             example_str = json.dumps(examples, indent=2, ensure_ascii=False)
             
             return f"""
@@ -61,7 +90,7 @@ class GeminiParser:
 --- JSON格式样例 END ---
 """
         except (IOError, json.JSONDecodeError) as e:
-            print(f"[!] 警告：读取或解析 few-shot 范例文件失败 - {e}", file=sys.stderr)
+            logger.warning(f"读取或解析 few-shot 范例文件失败 - {e}")
             return ""
 
     def parse(self, wikitext: str) -> dict | None:
@@ -78,9 +107,9 @@ class GeminiParser:
 {wikitext}
 --- WIKITEXT END ---
 """
-        print(f"[*] 正在通过 Google GenAI SDK ({self.model_name}) 进行解析...")
+        logger.info(f"正在通过 Google GenAI SDK ({self.model_name}) 进行解析...")
         if few_shot_examples:
-            print(f"[*] 已注入 {FEW_SHOT_NODE_SAMPLES} 个节点和 {FEW_SHOT_REL_SAMPLES} 个关系作为 few-shot 范例。")
+            logger.info(f"已注入 {FEW_SHOT_NODE_SAMPLES} 个节点和 {FEW_SHOT_REL_SAMPLES} 个关系作为 few-shot 范例。")
 
         try:
             response = self.client.models.generate_content(
@@ -95,11 +124,11 @@ class GeminiParser:
             
             if response_content:
                 parsed_json = json.loads(response_content)
-                print("[*] LLM解析成功，已获取结构化数据。")
+                logger.info("LLM解析成功，已获取结构化数据。")
                 return parsed_json
             else:
-                print("[!] 错误：LLM返回的内容为空。", file=sys.stderr)
+                logger.error("LLM返回的内容为空。")
                 return None
         except Exception as e:
-            print(f"[!] 错误：LLM API调用失败 - {e}", file=sys.stderr)
+            logger.error(f"LLM API调用失败 - {e}")
             return None

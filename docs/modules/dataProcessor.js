@@ -7,143 +7,363 @@ import { parseDate, expandVagueDate } from './utils.js';
  * 它持有原始的完整图谱数据，并根据当前状态提供过滤后的可见数据。
  */
 export class DataProcessor {
-    constructor() {
-        // 存放从JSON加载的完整、未经修改的图谱数据
-        this.fullGraphData = { nodes: [], relationships: [] };
-        // 建立一个从节点ID到节点对象的映射，用于快速查找
+    constructor(onDataChange) {
+        this.onDataChange = onDataChange;
+
+        this.currentGraphData = { nodes: [], relationships: [] };
         this.nodeMap = new Map();
+        
+        this.simpleDatabaseCache = new Map();
+        this.initialNodeIds = new Set();
+        this.nameToIdMap = {};
+
+        this.destructionSchedule = new Map();
+        this.startDestructionScheduler();
     }
 
-    /**
-     * 异步加载图谱数据文件。
-     * @returns {Promise<boolean>} 数据加载成功时返回true
-     */
+    // 启动全局唯一的销毁调度器
+    startDestructionScheduler() {
+        setInterval(() => {
+            const now = Date.now();
+            let changed = false;
+            this.destructionSchedule.forEach((scheduledTime, nodeId) => {
+                if (scheduledTime !== null && now > scheduledTime) {
+                    this._removeNode(nodeId);
+                    this.destructionSchedule.delete(nodeId); // 从计划表中移除
+                    changed = true;
+                }
+            });
+            if (changed) {
+                this.onDataChange(); // 如果有节点被销毁，则触发一次UI更新
+            }
+        }, 15000); // 每15秒检查一次
+    }
+
+    // 为节点安排销毁计划
+    scheduleNodeDestruction(nodeId) {
+        // 只有当节点当前没有销毁计划时，才为它安排一个新的
+        if (!this.destructionSchedule.has(nodeId) || this.destructionSchedule.get(nodeId) === null) {
+            this.destructionSchedule.set(nodeId, Date.now() + CONFIG.TEMPORARY_NODE_TTL);
+        }
+    }
+
+    // 取消节点的销毁计划
+    cancelNodeDestruction(nodeId) {
+        // 如果节点之前有销毁计划，则将其取消（设为null）
+        if (this.destructionSchedule.has(nodeId)) {
+            this.destructionSchedule.set(nodeId, null);
+        }
+    }
+
     async loadData() {
         const response = await fetch(CONFIG.DATA_FILE_URL);
         if (!response.ok) throw new Error(`Network response was not ok. Status: ${response.status}`);
         const data = await response.json();
         if (!data) throw new Error("Loaded data is null or empty.");
-        
-        this.fullGraphData = data;
-        // 填充nodeMap以便快速访问
-        this.fullGraphData.nodes.forEach(node => {
-            if (node) this.nodeMap.set(node.id, node);
+
+        this.currentGraphData = data;
+        this.currentGraphData.nodes.forEach(node => {
+            if (node) {
+                this.nodeMap.set(node.id, node);
+                this.initialNodeIds.add(node.id);
+            }
         });
+
+        try {
+            const nameMapResponse = await fetch(CONFIG.NAME_TO_ID_URL);
+            if (nameMapResponse.ok) {
+                this.nameToIdMap = await nameMapResponse.json();
+            }
+        } catch (error) {
+            console.error('Failed to load name-to-id map:', error);
+        }
+
         return true;
     }
 
-    /**
-     * 根据当前状态（时间、类型等）过滤数据，返回可供渲染的图谱。
-     * @param {object} state - 当前应用的状态对象
-     * @returns {{visibleNodes: Array, validRels: Array, neighbors: object}}
-     */
-    getVisibleData(state) {
-        const { startDate, endDate, hiddenTypes } = state;
+    // 从简单数据库搜索节点
+    async _fetchNodeFromSimpleDB(nodeId) {
+        if (this.simpleDatabaseCache.has(nodeId)) {
+            return this.simpleDatabaseCache.get(nodeId);
+        }
+        try {
+            const safeNodeId = nodeId.replace(":", "_");
+            const response = await fetch(`${CONFIG.DATA_DIR}nodes/${safeNodeId}/node.json`);
+            if (!response.ok) {
+                this.simpleDatabaseCache.set(nodeId, null);
+                return null;
+            }
+            const data = await response.json();
+            this.simpleDatabaseCache.set(nodeId, data);
+            return data;
+        } catch (error) {
+            console.error(`Failed to fetch node ${nodeId} from simple DB:`, error);
+            this.simpleDatabaseCache.set(nodeId, null);
+            return null;
+        }
+    }
+    
+    // 加载邻居节点
+    async streamAndAddNeighbors(nodeId) {
+        const sourceNodeData = await this._fetchNodeFromSimpleDB(nodeId);
+        if (!sourceNodeData || !sourceNodeData.relationships) return false;
+        
+        const neighborIds = new Set();
+        sourceNodeData.relationships.forEach(rel => {
+            const neighborId = rel.source === nodeId ? rel.target : rel.source;
+            neighborIds.add(neighborId);
+        });
+        
+        let graphChanged = false;
+        for (const neighborId of neighborIds) {
+            if (this.nodeMap.has(neighborId)) {
+                const existingLinks = sourceNodeData.relationships.filter(
+                    r => (r.source === nodeId && r.target === neighborId) || (r.source === neighborId && r.target === nodeId)
+                );
+                if (this._addNodesAndLinksToGraph([], existingLinks)) {
+                    graphChanged = true;
+                }
+            }
+            else {
+                const neighborData = await this._fetchNodeFromSimpleDB(neighborId);
+                if (neighborData && neighborData.node) {
+                    const linksToAdd = sourceNodeData.relationships.filter(
+                        r => (r.source === nodeId && r.target === neighborId) || (r.source === neighborId && r.target === nodeId)
+                    );
+                    if (this._addNodesAndLinksToGraph([neighborData.node], linksToAdd)) {
+                        graphChanged = true;
+                    }
+                }
+            }
+        }
+        return graphChanged;
+    }
 
-        // 1. 确定有效的时间范围
+    _addNodesAndLinksToGraph(nodesToAdd, linksToAdd) {
+        let changed = false;
+        nodesToAdd.forEach(node => {
+            if (node && !this.nodeMap.has(node.id)) {
+                this.nodeMap.set(node.id, node);
+                this.currentGraphData.nodes.push(node);
+                changed = true;
+            }
+        });
+
+        linksToAdd.forEach(link => {
+            // 从 link 对象中提取源和目标ID（此时它们是Q-Code字符串）
+            const newSourceId = link.source;
+            const newTargetId = link.target;
+            
+            const linkExists = this.currentGraphData.relationships.some(existingRel => {
+                // D3力导向图会把ID替换为节点对象，因此需兼容处理以正确获取ID
+                const existingSourceId = existingRel.source.id || existingRel.source;
+                const existingTargetId = existingRel.target.id || existingRel.target;
+
+                if (existingRel.type !== link.type) {
+                    return false;
+                }
+
+                const isSameDirection = existingSourceId === newSourceId && existingTargetId === newTargetId;
+                const isReverseDirection = existingSourceId === newTargetId && existingTargetId === newSourceId;
+
+                // 如果是无向关系（如配偶、朋友），则正向和反向都视为重复
+                if (CONFIG.NON_DIRECTED_LINK_TYPES.has(link.type)) {
+                    return isSameDirection || isReverseDirection;
+                }
+                else {
+                    // 如果是有向关系，则必须是完全相同的方向才算重复
+                    return isSameDirection;
+                }
+            });
+
+            if (!linkExists) {
+                this.currentGraphData.relationships.push(link);
+                changed = true;
+            }
+        });
+        
+        return changed;
+    }
+
+    _removeNode(nodeId) {
+        this.currentGraphData.nodes = this.currentGraphData.nodes.filter(n => n.id !== nodeId);
+        this.currentGraphData.relationships = this.currentGraphData.relationships.filter(
+            r => {
+                if (!r || !r.source || !r.target) return false;
+                const sourceId = r.source.id || r.source;
+                const targetId = r.target.id || r.target;
+                return sourceId !== nodeId && targetId !== nodeId;
+            }
+        );
+        this.nodeMap.delete(nodeId);
+    }
+
+    getVisibleData(state) {
+        const { startDate, endDate, hiddenTypes, pinnedNodeIds } = state;
         const effectiveStartDate = startDate || new Date(-8640000000000000);
         const effectiveEndDate = endDate ? new Date(endDate.getTime() + 24 * 60 * 60 * 1000 - 1) : new Date(8640000000000000);
-        
         if (startDate && endDate && endDate < startDate) {
             return { visibleNodes: [], validRels: [], neighbors: {} };
         }
+        const timeFilteredRels = this.currentGraphData.relationships.filter(rel => this._isRelActive(rel, effectiveStartDate, effectiveEndDate));
 
-        // 2. 筛选在时间范围内的关系
-        const timeFilteredRels = this.fullGraphData.relationships.filter(rel => this._isRelActive(rel, effectiveStartDate, effectiveEndDate));
-        
-        // 3. 找出所有活跃关系涉及的节点ID
         const activeNodeIds = new Set();
         timeFilteredRels.forEach(rel => {
-            if (rel.source) activeNodeIds.add(rel.source);
-            if (rel.target) activeNodeIds.add(rel.target);
+            if (rel && rel.source && rel.target) {
+                const sourceId = rel.source.id || rel.source;
+                const targetId = rel.target.id || rel.target;
+                if (sourceId) activeNodeIds.add(sourceId);
+                if (targetId) activeNodeIds.add(targetId);
+            }
         });
 
-        // 4. 从完整节点列表中筛选出这些节点，并再次按节点自身的时间范围过滤
-        const connectedNodes = this.fullGraphData.nodes.filter(node => node && activeNodeIds.has(node.id));
+        // 确保被钉住的节点总是可见的，即使它们没有在当前时间范围内的连接
+        pinnedNodeIds.forEach((reason, nodeId) => activeNodeIds.add(nodeId));
+
+        const connectedNodes = this.currentGraphData.nodes.filter(node => node && activeNodeIds.has(node.id));
         const timeFilteredNodes = connectedNodes.filter(node => this._isNodeActive(node, effectiveStartDate, effectiveEndDate));
-        
-        // 5. 计算在当前可见范围内的每个节点的度（连接数）
         const degreeCount = {};
         timeFilteredRels.forEach(rel => {
-            if (rel.source) degreeCount[rel.source] = (degreeCount[rel.source] || 0) + 1;
-            if (rel.target) degreeCount[rel.target] = (degreeCount[rel.target] || 0) + 1;
+            if (rel && rel.source && rel.target) {
+                const sourceId = rel.source.id || rel.source;
+                const targetId = rel.target.id || rel.target;
+                if (sourceId) degreeCount[sourceId] = (degreeCount[sourceId] || 0) + 1;
+                if (targetId) degreeCount[targetId] = (degreeCount[targetId] || 0) + 1;
+            }
         });
         timeFilteredNodes.forEach(node => {
             if (node) node.degree = degreeCount[node.id] || 0;
         });
-
-        // 6. 根据图例中隐藏的类型，进一步筛选节点
         const visibleNodes = timeFilteredNodes.filter(node => node && !hiddenTypes.has(node.type));
         const visibleNodeIds = new Set(visibleNodes.map(n => n.id));
 
-        // 7. 最后，筛选出那些源节点和目标节点都可见的关系
-        const visibleRels = timeFilteredRels.filter(rel => rel && visibleNodeIds.has(rel.source) && visibleNodeIds.has(rel.target));
+        const visibleRels = timeFilteredRels.filter(rel => {
+            if (!rel || !rel.source || !rel.target) {
+                return false;
+            }
+            const sourceId = rel.source.id || rel.source;
+            const targetId = rel.target.id || rel.target;
+            
+            return sourceId && targetId && visibleNodeIds.has(sourceId) && visibleNodeIds.has(targetId);
+        });
 
-        // 8. 将关系中的 source/target 从ID字符串替换为完整的节点对象，这是D3力导向图所需要的格式
         const nodeById = new Map(visibleNodes.map(node => [node.id, node]));
         const validRels = visibleRels
-            .map(link => ({ ...link, source: nodeById.get(link.source), target: nodeById.get(link.target) }))
-            .filter(link => link.source && link.target);
-
-        // 9. 构建邻接信息，用于高亮显示
+            .map(link => ({ ...link, source: nodeById.get(link.source.id || link.source), target: nodeById.get(link.target.id || link.target) }))
+            .filter(link => link.source && link.target); 
         const neighbors = this._buildNeighborMap(validRels);
-
         return { visibleNodes, validRels, neighbors };
     }
 
-    /**
-     * 根据ID或别名查找节点。
-     * @param {string} name - 要搜索的名称
-     * @param {Array} visibleNodes - 当前可见的节点数组
-     * @returns {{node: object|null, isVisible: boolean}}
-     */
     findNode(name, visibleNodes) {
-        // 优先在可见节点中查找，效率更高
-        let node = visibleNodes.find(n => n.id === name || (n.aliases && n.aliases.includes(name)));
+        // 查找'zh-cn'下的所有项，以支持别名搜索
+        const isMatch = n => 
+            n.id === name || 
+            (n.name?.['zh-cn']?.includes(name)) ||
+            (n.aliases && n.aliases.includes(name));
+
+        let node = visibleNodes.find(isMatch);
         if (node) return { node, isVisible: true };
 
-        // 如果在可见节点中找不到，则在完整数据中查找，以便提供更准确的错误提示
-        node = this.fullGraphData.nodes.find(n => n.id === name || (n.aliases && n.aliases.includes(name)));
+        node = this.currentGraphData.nodes.find(isMatch);
         return { node: node || null, isVisible: false };
     }
 
-    /**
-     * 使用广度优先搜索（BFS）在当前可见的图中查找两个节点间的最短路径。
-     * @param {string} startNodeId - 起始节点ID
-     * @param {string} endNodeId - 目标节点ID
-     * @param {number} limit - 最多查找的路径数量
-     * @param {Array} validRels - 当前可见的关系数组
-     * @returns {Array<Array<string>>} 找到的路径数组，每个路径是节点ID的数组
-     */
-    findPaths(startNodeId, endNodeId, limit, validRels) {
-        const adjacencyList = this._buildAdjacencyList(validRels);
-        const queue = [[startNodeId]]; // 队列中存放的是路径
-        const foundPaths = [];
+    async findAndLoadNodeData(name) {
+        const isMatch = n =>
+            n.id === name ||
+            (n.name?.['zh-cn']?.includes(name)) ||
+            (n.aliases && n.aliases.includes(name));
+
+        // 1. 优先在已加载的数据中进行搜索
+        let node = this.currentGraphData.nodes.find(isMatch);
+        if (node) {
+            return node;
+        }
+
+        // 2. 若未找到, 使用全局名称映射表查找ID
+        const nodeId = this.nameToIdMap[name];
+        if (!nodeId) {
+            return null;
+        }
+
+        // 3. 再次确认该ID是否已在图中
+        if (this.nodeMap.has(nodeId)) {
+            return this.nodeMap.get(nodeId);
+        }
+
+        // 4. 从服务器获取节点数据并返回
+        const nodeData = await this._fetchNodeFromSimpleDB(nodeId);
+        return nodeData?.node || null;
+    }
+
+    isNodeCompatibleWithFilters(nodeData, state) {
+        const { startDate, endDate, hiddenTypes } = state;
+        if (!nodeData) return false;
+
+        // 1. 节点的类型是否被图例隐藏
+        if (hiddenTypes.has(nodeData.type)) {
+            return false;
+        }
+
+        // 2. 节点自身的活跃时间是否在当前设定的时间范围内
+        const effectiveStartDate = startDate || new Date(-8640000000000000);
+        const effectiveEndDate = endDate ? new Date(endDate.getTime() + 24 * 60 * 60 * 1000 - 1) : new Date(8640000000000000);
         
+        if (startDate && endDate && endDate < startDate) {
+            return false;
+        }
+
+        if (!this._isNodeActive(nodeData, effectiveStartDate, effectiveEndDate)) {
+            return false;
+        }
+
+        // 如果所有检查都通过，则该节点与当前过滤器兼容
+        return true;
+    }
+
+    findPaths(startNodeId, endNodeId, limit, validRels) { // 接收 validRels 作为参数
+        const queue = [[startNodeId]];
+        const foundPaths = [];
+
+        const adjacencyList = new Map();
+        // 在过滤后的关系列表上构建邻接表
+        validRels.forEach(rel => {
+            const sourceId = rel.source.id || rel.source;
+            const targetId = rel.target.id || rel.target;
+
+            if (!adjacencyList.has(sourceId)) adjacencyList.set(sourceId, []);
+            if (!adjacencyList.has(targetId)) adjacencyList.set(targetId, []);
+
+            adjacencyList.get(sourceId).push(targetId);
+            adjacencyList.get(targetId).push(sourceId);
+        });
+
         while (queue.length > 0) {
             if (foundPaths.length >= limit) break;
+            
             const currentPath = queue.shift();
-            const lastNode = currentPath[currentPath.length - 1];
+            const lastNodeId = currentPath[currentPath.length - 1];
 
-            if (lastNode === endNodeId) {
+            if (lastNodeId === endNodeId) {
                 foundPaths.push(currentPath);
                 continue;
             }
-            if (currentPath.length > 10) continue; // 限制最大搜索深度，防止性能问题
+            
+            if (currentPath.length > 10) continue;
 
-            const neighbors = adjacencyList.get(lastNode) || [];
-            for (const neighbor of neighbors) {
-                if (!currentPath.includes(neighbor.id)) { // 防止路径中出现环
-                    const newPath = [...currentPath, neighbor.id];
+            const neighbors = adjacencyList.get(lastNodeId) || [];
+            for (const neighborId of neighbors) {
+                if (!currentPath.includes(neighborId)) {
+                    const newPath = [...currentPath, neighborId];
                     queue.push(newPath);
                 }
             }
         }
-        return foundPaths.sort((a, b) => a.length - b.length);
+
+        return { paths: foundPaths, nodesToAdd: [], linksToAdd: [] };
     }
     
-    // --- "私有" 辅助方法 ---
-
     _isRelActive(rel, start, end) {
         if (!rel?.properties?.start_date) return true;
         const startDates = Array.isArray(rel.properties.start_date) ? rel.properties.start_date : [rel.properties.start_date];
@@ -166,7 +386,8 @@ export class DataProcessor {
         let nodeDateProp = null;
         if (node.type === 'Person' && node.properties?.lifetime) {
             nodeDateProp = node.properties.lifetime;
-        } else if (node.properties?.period) {
+        }
+        else if (node.properties?.period) {
             nodeDateProp = node.properties.period;
         }
         if (!nodeDateProp) return true;
@@ -179,24 +400,30 @@ export class DataProcessor {
             let parts;
             if (cleanedRangeStr.includes(' - ')) {
                 parts = cleanedRangeStr.split(' - ');
-            } else if (cleanedRangeStr.includes('—')) {
+            }
+            else if (cleanedRangeStr.includes('—')) {
                 parts = cleanedRangeStr.split('—');
-            } else if (cleanedRangeStr.includes('–')) {
+            }
+            else if (cleanedRangeStr.includes('–')) {
                 parts = cleanedRangeStr.split('–');
-            } else if (/^\d{4}\s*-\s*\d{4}$/.test(cleanedRangeStr)) {
+            }
+            else if (/^\d{4}\s*-\s*\d{4}$/.test(cleanedRangeStr)) {
                 parts = cleanedRangeStr.split('-');
             }
 
             if (parts && parts.length >= 2) {
                 startStr = parts[0].trim();
                 endStr = parts.slice(1).join('').trim();
-            } else if (cleanedRangeStr.endsWith('-')) {
+            }
+            else if (cleanedRangeStr.endsWith('-')) {
                 startStr = cleanedRangeStr.slice(0, -1).trim();
                 endStr = '';
-            } else if (cleanedRangeStr.startsWith('-')) {
+            }
+            else if (cleanedRangeStr.startsWith('-')) {
                 startStr = '';
                 endStr = cleanedRangeStr.slice(1).trim();
-            } else {
+            }
+            else {
                 startStr = cleanedRangeStr;
                 endStr = cleanedRangeStr;
             }
@@ -233,7 +460,7 @@ export class DataProcessor {
     _buildAdjacencyList(validRels) {
         const adjacencyList = new Map();
         validRels.forEach(rel => {
-            if (rel.source && rel.target) {
+            if (d.source && d.target) {
                 if (!adjacencyList.has(rel.source.id)) adjacencyList.set(rel.source.id, []);
                 if (!adjacencyList.has(rel.target.id)) adjacencyList.set(rel.target.id, []);
                 adjacencyList.get(rel.source.id).push({ id: rel.target.id, weight: 1 });

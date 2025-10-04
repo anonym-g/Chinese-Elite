@@ -21,12 +21,8 @@ CACHE_DIR = os.path.join(ROOT_DIR, '.cache')
 
 # --- 文档/输出 目录配置 ---
 DOCS_DIR = os.path.join(ROOT_DIR, 'docs')
-CONSOLIDATED_GRAPH_PATH = os.path.join(DOCS_DIR, 'consolidated_graph.json')
 MASTER_GRAPH_PATH = os.path.join(DOCS_DIR, 'master_graph_qcode.json')
 FRONTEND_DATA_DIR = os.path.join(DOCS_DIR, 'data')
-FRONTEND_NODES_DIR = os.path.join(FRONTEND_DATA_DIR, 'nodes')
-FRONTEND_INITIAL_PATH = os.path.join(FRONTEND_DATA_DIR, 'initial.json')
-FRONTEND_MANIFEST_PATH = os.path.join(FRONTEND_DATA_DIR, 'manifest.json')
 
 # --- Prompt 路径配置 ---
 PROMPTS_DIR = os.path.join(os.path.dirname(__file__), 'prompts')
@@ -43,8 +39,8 @@ MERGE_CHECK_MODEL = "gemma-3-27b-it"
 MERGE_EXECUTE_MODEL = "gemini-2.5-flash"
 
 # --- LLM 参数配置 ---
-FEW_SHOT_NODE_SAMPLES = 24
-FEW_SHOT_REL_SAMPLES = 12
+FEW_SHOT_NODE_SAMPLES = 4
+FEW_SHOT_REL_SAMPLES = 6
 
 # --- API 与外部服务配置 ---
 WIKI_BASE_URL = "https://zh.wikipedia.org/zh-cn/"
@@ -56,7 +52,7 @@ USER_AGENT = 'ChineseEliteExplorer/1.0 (https://github.com/anonym-g/Chinese-Elit
 
 # --- 全局配置 ---
 TIMEZONE = pytz.timezone('Asia/Shanghai')
-# 定义核心网络的大小（用于生成 initial.json）
+# 定义核心网络的节点规模
 CORE_NETWORK_SIZE = 2000
 
 # --- 无向边配置 ---
