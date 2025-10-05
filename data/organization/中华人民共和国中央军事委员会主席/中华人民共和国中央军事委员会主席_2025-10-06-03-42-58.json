@@ -1,0 +1,299 @@
+{
+  "nodes": [
+    {
+      "id": "中华人民共和国中央军事委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国中央军事委员会",
+          "国家军委",
+          "国家中央军委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1982-12-04 - ",
+        "location": "北京市",
+        "description": "中华人民共和国最高军事领导机构，负责领导全国武装力量。"
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "现任中华人民共和国中央军事委员会主席、中国共产党中央委员会总书记、中华人民共和国主席。"
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "首任中华人民共和国中央军事委员会主席。"
+      }
+    },
+    {
+      "id": "江泽民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江泽民"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 2022-11-30",
+        "death_place": "上海市",
+        "description": "中华人民共和国中央军事委员会前主席。"
+      }
+    },
+    {
+      "id": "胡锦涛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡锦涛"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1942-12-21 - ",
+        "description": "中华人民共和国中央军事委员会前主席。"
+      }
+    },
+    {
+      "id": "全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会",
+          "全国人大"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国最高国家权力机关。"
+      }
+    },
+    {
+      "id": "全国人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会常务委员会",
+          "常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "全国人民代表大会的常设机关。"
+      }
+    },
+    {
+      "id": "中国共产党中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央委员会",
+          "中共中央"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党的中央权力机关。"
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国的执政党。"
+      }
+    },
+    {
+      "id": "中华人民共和国宪法 (1982年)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国宪法 (1982年)",
+          "中华人民共和国宪法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1982-12-04 - ",
+        "description": "中华人民共和国的现行宪法，规定了国家中央军事委员会的设立。"
+      }
+    },
+    {
+      "id": "中华人民共和国国防委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国防委员会",
+          "国防委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国中央军事委员会的前身机构。"
+      }
+    },
+    {
+      "id": "中国共产党中央军事委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央军事委员会",
+          "中共中央军委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党领导下的最高军事领导机构。"
+      }
+    },
+    {
+      "id": "上海市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "上海市",
+          "上海"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京市"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "习近平",
+      "target": "中华人民共和国中央军事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013-03-14",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "中华人民共和国中央军事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983-06-06",
+        "end_date": "1990-03-21",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "江泽民",
+      "target": "中华人民共和国中央军事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1990-04-03",
+        "end_date": "2005-03-08",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "胡锦涛",
+      "target": "中华人民共和国中央军事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2005-03-13",
+        "end_date": "2013-03-14",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "中华人民共和国中央军事委员会",
+      "target": "全国人民代表大会",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "中华人民共和国中央军事委员会",
+      "target": "全国人民代表大会常务委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "中华人民共和国宪法 (1982年)",
+      "target": "中华人民共和国中央军事委员会",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982-12-04",
+        "description": "根据1982年《中华人民共和国宪法》设立国家中央军事委员会。"
+      }
+    },
+    {
+      "source": "中国共产党中央委员会",
+      "target": "中华人民共和国中央军事委员会",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "中共中央向全国人大建议国家军委主席人选。"
+      }
+    },
+    {
+      "source": "中国共产党中央军事委员会",
+      "target": "中华人民共和国中央军事委员会",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "实行“一个机构两块牌子”的管理模式。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "江泽民",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "胡锦涛",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "习近平",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    }
+  ]
+}
