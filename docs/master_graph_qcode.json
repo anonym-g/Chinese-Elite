@@ -30354,7 +30354,7 @@
     },
     {
       "id": "Q132457348",
-      "type": "Movement",
+      "type": "Organization",
       "name": {
         "zh-cn": [
           "习近平派系",
@@ -43789,22 +43789,23 @@
       "source": "Q15031",
       "target": "Q190338",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "start_date": "2010-10-18",
-          "end_date": "2013-03-14",
-          "position": "副主席"
-        },
-        {
-          "start_date": "2012-11-15",
-          "position": "中央军委主席",
-          "description": "统率全军"
-        },
-        {
-          "position": "主席",
-          "start_date": "2013-03-14"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "2010-10-18",
+          "2012-11-15",
+          "2013-03-14"
+        ],
+        "end_date": [
+          "2013-03-14",
+          ""
+        ],
+        "position": [
+          "副主席",
+          "中央军委主席",
+          "主席"
+        ],
+        "description": "统率全军"
+      }
     },
     {
       "source": "Q705140",
@@ -45574,20 +45575,24 @@
       "source": "Q17132",
       "target": "Q16988",
       "type": "SUBORDINATE_OF",
-      "properties": [
-        {
-          "start_date": "1954-09-27",
-          "end_date": "1959-04-18",
-          "position": "全国人大常委会副委员长",
-          "description": "时任委员长为刘少奇"
-        },
-        {
-          "start_date": "1959-04-27",
-          "end_date": "1968-10-31",
-          "position": "中华人民共和国主席",
-          "description": "宋庆龄为刘少奇任主席期间的副主席。"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "1954-09-27",
+          "1959-04-27"
+        ],
+        "end_date": [
+          "1959-04-18",
+          "1968-10-31"
+        ],
+        "position": [
+          "全国人大常委会副委员长",
+          "中华人民共和国主席"
+        ],
+        "description": [
+          "时任委员长为刘少奇",
+          "宋庆龄为刘少奇任主席期间的副主席。"
+        ]
+      }
     },
     {
       "source": "Q968038",
@@ -46914,18 +46919,24 @@
       "source": "Q557028",
       "target": "Q17410",
       "type": "SUBORDINATE_OF",
-      "properties": [
-        {
-          "start_date": "1935-03",
-          "position": "新三人团组长"
-        },
-        {
-          "start_date": "1949-10",
-          "end_date": "1951",
-          "position": "副部长",
-          "description": "在周恩来担任外交部长期间，王稼祥任副部长。"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "1935-03",
+          "1949-10"
+        ],
+        "position": [
+          "新三人团组长",
+          "副部长"
+        ],
+        "end_date": [
+          null,
+          "1951"
+        ],
+        "description": [
+          null,
+          "在周恩来担任外交部长期间，王稼祥任副部长。"
+        ]
+      }
     },
     {
       "source": "Q17410",
@@ -52157,17 +52168,20 @@
       "source": "Q188408",
       "target": "Q190338",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "start_date": "1959-09",
-          "position": "常委"
-        },
-        {
-          "start_date": "1966-01-08",
-          "end_date": "1972-01-06",
-          "position": "副主席"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "1959-09",
+          "1966-01-08"
+        ],
+        "position": [
+          "常委",
+          "副主席"
+        ],
+        "end_date": [
+          null,
+          "1972-01-06"
+        ]
+      }
     },
     {
       "source": "Q188408",
@@ -53894,17 +53908,20 @@
       "source": "Q15031",
       "target": "Q508283",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "start_date": "2022-10-23",
-          "position": "总书记 (主持工作)"
-        },
-        {
-          "start_date": "2007-10-22",
-          "end_date": "2012-11-15",
-          "position": "书记（排名第一）"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "2022-10-23",
+          "2007-10-22"
+        ],
+        "position": [
+          "总书记 (主持工作)",
+          "书记（排名第一）"
+        ],
+        "end_date": [
+          null,
+          "2012-11-15"
+        ]
+      }
     },
     {
       "source": "Q3370201",
@@ -61427,16 +61444,6 @@
     },
     {
       "source": "Q301282",
-      "target": "Q10912761",
-      "type": "BLOCKED",
-      "properties": {
-        "start_date": "1962",
-        "end_date": "1978",
-        "description": "被《刘志丹》小说案牵连，遭到长达16年的审查、批斗和监护。"
-      }
-    },
-    {
-      "source": "Q301282",
       "target": "Q544432",
       "type": "ENEMY_OF",
       "properties": {
@@ -67641,19 +67648,24 @@
       "source": "Q18285",
       "target": "Q59261",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "start_date": "1991-04-08",
-          "end_date": "1998-03-17",
-          "position": "副总理"
-        },
-        {
-          "start_date": "1998-03-17",
-          "end_date": "2003-03-16",
-          "position": "总理",
-          "description": "第九届国务院总理"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "1991-04-08",
+          "1998-03-17"
+        ],
+        "end_date": [
+          "1998-03-17",
+          "2003-03-16"
+        ],
+        "position": [
+          "副总理",
+          "总理"
+        ],
+        "description": [
+          null,
+          "第九届国务院总理"
+        ]
+      }
     },
     {
       "source": "Q704916",
@@ -77911,18 +77923,20 @@
       "source": "Q734914",
       "target": "Q59261",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "start_date": "2003-03",
-          "end_date": "2005-12",
-          "position": "副秘书长"
-        },
-        {
-          "start_date": "2013-03-16",
-          "end_date": "2018-03-19",
-          "position": "副总理"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "2003-03",
+          "2013-03-16"
+        ],
+        "end_date": [
+          "2005-12",
+          "2018-03-19"
+        ],
+        "position": [
+          "副秘书长",
+          "副总理"
+        ]
+      }
     },
     {
       "source": "Q734914",
@@ -78619,40 +78633,42 @@
       "source": "Q360563",
       "target": "Q10873174",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "position": "常委兼市委科技工委书记",
-          "start_date": "1983",
-          "end_date": "1985"
-        },
-        {
-          "position": "副书记",
-          "start_date": "1985",
-          "end_date": "1991"
-        },
-        {
-          "position": "书记",
-          "start_date": "1991-04-13",
-          "end_date": "1994-09-29"
-        }
-      ]
+      "properties": {
+        "position": [
+          "常委兼市委科技工委书记",
+          "副书记",
+          "书记"
+        ],
+        "start_date": [
+          "1983",
+          "1985",
+          "1991-04-13"
+        ],
+        "end_date": [
+          "1985",
+          "1991",
+          "1994-09-29"
+        ]
+      }
     },
     {
       "source": "Q360563",
       "target": "Q50963",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "position": "候补委员",
-          "start_date": "1985-09",
-          "end_date": "1992-10"
-        },
-        {
-          "position": "委员",
-          "start_date": "1992-10",
-          "end_date": "2012-11"
-        }
-      ]
+      "properties": {
+        "position": [
+          "候补委员",
+          "委员"
+        ],
+        "start_date": [
+          "1985-09",
+          "1992-10"
+        ],
+        "end_date": [
+          "1992-10",
+          "2012-11"
+        ]
+      }
     },
     {
       "source": "Q360563",
@@ -79140,23 +79156,23 @@
       "source": "Q553121",
       "target": "Q10873191",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "start_date": "1986-01",
-          "end_date": "1987-01",
-          "position": "常委、宣传部部长"
-        },
-        {
-          "start_date": "1987-01",
-          "end_date": "1991-10",
-          "position": "秘书长"
-        },
-        {
-          "start_date": "1992",
-          "end_date": "1993",
-          "position": "副书记"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "1986-01",
+          "1987-01",
+          "1992"
+        ],
+        "end_date": [
+          "1987-01",
+          "1991-10",
+          "1993"
+        ],
+        "position": [
+          "常委、宣传部部长",
+          "秘书长",
+          "副书记"
+        ]
+      }
     },
     {
       "source": "Q553121",
@@ -80286,20 +80302,24 @@
       "source": "Q15031",
       "target": "Q16955",
       "type": "ALUMNUS_OF",
-      "properties": [
-        {
-          "start_date": "1975",
-          "end_date": "1979",
-          "degree": "大学普通班",
-          "description": "化学工程系基本有机合成专业"
-        },
-        {
-          "start_date": "1998",
-          "end_date": "2002",
-          "degree": "法学博士",
-          "description": "人文社会学院马克思主义理论与思想政治教育专业在职研究生班"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "1975",
+          "1998"
+        ],
+        "end_date": [
+          "1979",
+          "2002"
+        ],
+        "degree": [
+          "大学普通班",
+          "法学博士"
+        ],
+        "description": [
+          "化学工程系基本有机合成专业",
+          "人文社会学院马克思主义理论与思想政治教育专业在职研究生班"
+        ]
+      }
     },
     {
       "source": "Q15031",
@@ -80511,18 +80531,20 @@
       "source": "Q15029",
       "target": "Q190338",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "position": "副主席",
-          "start_date": "1999-09-22",
-          "end_date": "2004-09-19"
-        },
-        {
-          "position": "主席",
-          "start_date": "2004-09-19",
-          "end_date": "2012-11-15"
-        }
-      ]
+      "properties": {
+        "position": [
+          "副主席",
+          "主席"
+        ],
+        "start_date": [
+          "1999-09-22",
+          "2004-09-19"
+        ],
+        "end_date": [
+          "2004-09-19",
+          "2012-11-15"
+        ]
+      }
     },
     {
       "source": "Q15029",
@@ -82189,7 +82211,7 @@
     {
       "source": "Q10912761",
       "target": "Q301282",
-      "type": "INFLUENCED",
+      "type": "BLOCKED",
       "properties": {
         "start_date": "1962",
         "end_date": "1978",
@@ -88422,18 +88444,20 @@
       "source": "Q28409057",
       "target": "Q4634808",
       "type": "MEMBER_OF",
-      "properties": [
-        {
-          "start_date": "2007-06",
-          "end_date": "2008-07",
-          "position": "参谋长"
-        },
-        {
-          "start_date": "2008-07",
-          "end_date": "2013-01",
-          "position": "副军长"
-        }
-      ]
+      "properties": {
+        "start_date": [
+          "2007-06",
+          "2008-07"
+        ],
+        "end_date": [
+          "2008-07",
+          "2013-01"
+        ],
+        "position": [
+          "参谋长",
+          "副军长"
+        ]
+      }
     },
     {
       "source": "Q28409057",
