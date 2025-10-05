@@ -1,0 +1,737 @@
+{
+  "nodes": [
+    {
+      "id": "朝鲜战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "朝鲜战争",
+          "韩战",
+          "六二五战争",
+          "韩国战争",
+          "祖国解放战争",
+          "抗美援朝战争",
+          "朝鲜内战",
+          "六二五事变",
+          "六二五动乱",
+          "被遗忘的战争"
+        ],
+        "en": [
+          "Korean War",
+          "Korean Conflict",
+          "The Forgotten War"
+        ]
+      },
+      "properties": {
+        "period": "1950-06-25 - 1953-07-27",
+        "location": "朝鲜半岛",
+        "description": "1950年至1953年期间在朝鲜半岛发生的战争，是冷战时期的区域性冲突。"
+      }
+    },
+    {
+      "id": "冷战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "冷战"
+        ],
+        "en": [
+          "Cold War"
+        ]
+      },
+      "properties": {
+        "period": "1947 - 1991"
+      }
+    },
+    {
+      "id": "朝鲜民主主义人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜民主主义人民共和国",
+          "朝鲜",
+          "北朝鲜"
+        ],
+        "en": [
+          "Democratic People's Republic of Korea",
+          "DPRK"
+        ]
+      },
+      "properties": {
+        "location": "朝鲜半岛"
+      }
+    },
+    {
+      "id": "大韩民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大韩民国",
+          "韩国",
+          "南韩"
+        ],
+        "en": [
+          "Republic of Korea",
+          "ROK"
+        ]
+      },
+      "properties": {
+        "location": "朝鲜半岛"
+      }
+    },
+    {
+      "id": "联合国军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国军"
+        ],
+        "en": [
+          "United Nations Command"
+        ]
+      },
+      "properties": {
+        "period": "1950-07-07 - "
+      }
+    },
+    {
+      "id": "中国人民志愿军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民志愿军"
+        ],
+        "en": [
+          "People's Volunteer Army"
+        ]
+      },
+      "properties": {
+        "period": "1950-10-08 - 1958"
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "location": "北美洲"
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "location": "亚洲"
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "金日成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "金日成"
+        ],
+        "en": [
+          "Kim Il-sung"
+        ]
+      },
+      "properties": {
+        "description": "朝鲜民主主义人民共和国主要领导人，时任朝鲜总理。"
+      }
+    },
+    {
+      "id": "李承晚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李承晚"
+        ],
+        "en": [
+          "Syngman Rhee"
+        ]
+      },
+      "properties": {
+        "description": "大韩民国第一任总统。"
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "description": "中华人民共和国主要领导人，时任中国共产党中央委员会主席、中央人民政府人民革命军事委员会主席。"
+      }
+    },
+    {
+      "id": "约瑟夫·维萨里奥诺维奇·斯大林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约瑟夫·维萨里奥诺维奇·斯大林",
+          "斯大林",
+          "史达林",
+          "史太林"
+        ],
+        "en": [
+          "Joseph Stalin"
+        ]
+      },
+      "properties": {
+        "description": "苏联主要领导人，时任苏联共产党总书记。"
+      }
+    },
+    {
+      "id": "哈利·S·杜鲁门",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈利·S·杜鲁门",
+          "杜鲁门"
+        ],
+        "en": [
+          "Harry S. Truman"
+        ]
+      },
+      "properties": {
+        "description": "美国第33任总统。"
+      }
+    },
+    {
+      "id": "德怀特·艾森豪威尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "德怀特·艾森豪威尔",
+          "艾森豪威尔"
+        ],
+        "en": [
+          "Dwight D. Eisenhower"
+        ]
+      },
+      "properties": {
+        "description": "美国第34任总统。"
+      }
+    },
+    {
+      "id": "彭德怀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭德怀"
+        ],
+        "en": [
+          "Peng Dehuai"
+        ]
+      },
+      "properties": {
+        "description": "中国人民志愿军司令员兼政治委员。"
+      }
+    },
+    {
+      "id": "道格拉斯·麦克阿瑟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "道格拉斯·麦克阿瑟",
+          "麦克阿瑟"
+        ],
+        "en": [
+          "Douglas MacArthur"
+        ]
+      },
+      "properties": {
+        "description": "联合国军第一任总司令。"
+      }
+    },
+    {
+      "id": "马修·李奇微",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马修·李奇微",
+          "李奇威",
+          "李奇微"
+        ],
+        "en": [
+          "Matthew Ridgway"
+        ]
+      },
+      "properties": {
+        "description": "接替沃尔顿·沃克任美国第八集团军司令，后接替道格拉斯·麦克阿瑟任联合国军总司令。"
+      }
+    },
+    {
+      "id": "朝鲜人民军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜人民军"
+        ],
+        "en": [
+          "Korean People's Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "大韩民国国军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大韩民国国军",
+          "韩国国军"
+        ],
+        "en": [
+          "Republic of Korea Armed Forces"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "朝鲜停战协定",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "朝鲜停战协定"
+        ],
+        "en": [
+          "Korean Armistice Agreement"
+        ]
+      },
+      "properties": {
+        "description": "朝鲜战争交战双方于1953年7月27日在板门店签署的停战协定。"
+      }
+    },
+    {
+      "id": "板门店",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "板门店"
+        ],
+        "en": [
+          "Panmunjom"
+        ]
+      },
+      "properties": {
+        "location": "朝韩非军事区"
+      }
+    },
+    {
+      "id": "三八线",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "三八线",
+          "北纬38度线"
+        ],
+        "en": [
+          "38th parallel north"
+        ]
+      },
+      "properties": {
+        "description": "朝鲜战争前朝鲜半岛南北方事实上的分界线。"
+      }
+    },
+    {
+      "id": "仁川登陆",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "仁川登陆",
+          "铁铬行动"
+        ],
+        "en": [
+          "Battle of Inchon",
+          "Operation Chromite"
+        ]
+      },
+      "properties": {
+        "period": "1950-09-15 - 1950-09-19"
+      }
+    },
+    {
+      "id": "长津湖战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "长津湖战役"
+        ],
+        "en": [
+          "Battle of Chosin Reservoir"
+        ]
+      },
+      "properties": {
+        "period": "1950-11-27 - 1950-12-24"
+      }
+    },
+    {
+      "id": "上甘岭战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "上甘岭战役",
+          "三角高地战役"
+        ],
+        "en": [
+          "Battle of Triangle Hill"
+        ]
+      },
+      "properties": {
+        "period": "1952-10-14 - 1952-11-25"
+      }
+    },
+    {
+      "id": "金城战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "金城战役"
+        ],
+        "en": [
+          "Battle of Kumsong"
+        ]
+      },
+      "properties": {
+        "period": "1953-07-13 - 1953-07-27"
+      }
+    },
+    {
+      "id": "第七舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第七舰队"
+        ],
+        "en": [
+          "United States Seventh Fleet"
+        ]
+      },
+      "properties": {
+        "description": "美国海军的编号舰队"
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "台湾海峡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾海峡"
+        ],
+        "en": [
+          "Taiwan Strait"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "冷战",
+      "target": "朝鲜战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": "朝鲜战争是冷战时期东西方阵营间的第二场代理人战争。"
+      }
+    },
+    {
+      "source": "朝鲜民主主义人民共和国",
+      "target": "大韩民国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1950-06-25",
+        "end_date": "1953-07-27",
+        "description": "朝鲜战争交战双方"
+      }
+    },
+    {
+      "source": "中国人民志愿军",
+      "target": "联合国军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1950-10-19",
+        "end_date": "1953-07-27",
+        "description": "朝鲜战争交战双方"
+      }
+    },
+    {
+      "source": "联合国军",
+      "target": "大韩民国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1950-06-27",
+        "description": "联合国军出兵支持韩国"
+      }
+    },
+    {
+      "source": "中国人民志愿军",
+      "target": "朝鲜民主主义人民共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1950-10-19",
+        "description": "中国人民志愿军出兵支持朝鲜"
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "朝鲜民主主义人民共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1950",
+        "description": "苏联通过军事物资支援与空军支持出兵朝鲜"
+      }
+    },
+    {
+      "source": "美国",
+      "target": "联合国军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": "联合国军以美军为主力"
+      }
+    },
+    {
+      "source": "朝鲜人民军",
+      "target": "朝鲜民主主义人民共和国",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "大韩民国国军",
+      "target": "大韩民国",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "中国人民志愿军",
+      "target": "中华人民共和国",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "金日成",
+      "target": "朝鲜民主主义人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "总理",
+        "description": "朝鲜战争时期朝鲜的主要领导人。"
+      }
+    },
+    {
+      "source": "李承晚",
+      "target": "大韩民国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "总统",
+        "description": "朝鲜战争时期韩国的主要领导人。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "中央人民政府人民革命军事委员会主席",
+        "description": "朝鲜战争时期中国的主要领导人，决策派遣中国人民志愿军参战。"
+      }
+    },
+    {
+      "source": "哈利·S·杜鲁门",
+      "target": "美国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "总统",
+        "start_date": "1945",
+        "end_date": "1953",
+        "description": "朝鲜战争前期美国的总统，决策美国出兵干预。"
+      }
+    },
+    {
+      "source": "德怀特·艾森豪威尔",
+      "target": "美国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "总统",
+        "start_date": "1953",
+        "end_date": "1961",
+        "description": "朝鲜战争后期的美国总统。"
+      }
+    },
+    {
+      "source": "金日成",
+      "target": "约瑟夫·维萨里奥诺维奇·斯大林",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1950-03",
+        "description": "金日成秘访莫斯科，就发动战争寻求斯大林同意。"
+      }
+    },
+    {
+      "source": "金日成",
+      "target": "毛泽东",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1950-05-13",
+        "description": "金日成秘密访问北京，向毛泽东通报开战意图。"
+      }
+    },
+    {
+      "source": "约瑟夫·维萨里奥诺维奇·斯大林",
+      "target": "朝鲜战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": "同意金日成的作战计划，并提供军事援助。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中国人民志愿军",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1950-10-08",
+        "description": "发出组织中国人民志愿军赴朝参战之命令。"
+      }
+    },
+    {
+      "source": "彭德怀",
+      "target": "中国人民志愿军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1950-10-08",
+        "position": "司令员兼政治委员"
+      }
+    },
+    {
+      "source": "道格拉斯·麦克阿瑟",
+      "target": "联合国军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1950-07-08",
+        "end_date": "1951-04-11",
+        "position": "联合国军总司令"
+      }
+    },
+    {
+      "source": "哈利·S·杜鲁门",
+      "target": "道格拉斯·麦克阿瑟",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1951-04-11",
+        "description": "解除了麦克阿瑟的联合国军总司令职务。"
+      }
+    },
+    {
+      "source": "马修·李奇微",
+      "target": "联合国军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1951-04-11",
+        "position": "联合国军总司令"
+      }
+    },
+    {
+      "source": "朝鲜人民军",
+      "target": "三八线",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1950-06-25",
+        "description": "越过三八线，引发朝鲜战争全面爆发。"
+      }
+    },
+    {
+      "source": "联合国军",
+      "target": "仁川登陆",
+      "type": "PUSHED",
+      "properties": {
+        "description": "在麦克阿瑟指挥下成功登陆仁川，扭转了战局。"
+      }
+    },
+    {
+      "source": "中国人民志愿军",
+      "target": "长津湖战役",
+      "type": "PUSHED",
+      "properties": {}
+    },
+    {
+      "source": "中国人民志愿军",
+      "target": "上甘岭战役",
+      "type": "PUSHED",
+      "properties": {}
+    },
+    {
+      "source": "朝鲜停战协定",
+      "target": "朝鲜战争",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1953-07-27",
+        "description": "签署停战协定，结束了朝鲜战争的敌对行动。"
+      }
+    },
+    {
+      "source": "第七舰队",
+      "target": "中国人民解放军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1950-06-27",
+        "description": "巡防台湾海峡，阻止中国人民解放军进攻台湾。"
+      }
+    },
+    {
+      "source": "第七舰队",
+      "target": "台湾海峡",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1950-06-27",
+        "description": "在美国总统杜鲁门命令下开进台湾海峡巡防。"
+      }
+    }
+  ]
+}
