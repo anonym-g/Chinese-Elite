@@ -1,0 +1,661 @@
+{
+  "nodes": [
+    {
+      "id": "国共内战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "国共内战",
+          "中国内战"
+        ],
+        "en": [
+          "Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": [
+          "1927 - 1937",
+          "1945 - 1950"
+        ],
+        "location": "中国大陆",
+        "description": "20世纪中国规模最大、影响最深远的内战，是中国现代史的重大转折点。"
+      }
+    },
+    {
+      "id": "第一次国共内战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次国共内战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927 - 1937"
+      }
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战",
+          "解放战争",
+          "第三次国内革命战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1945 - 1950"
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "国共内战中的一方，领导国民政府及国民革命军。"
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "国共内战中的一方，领导工农红军及解放军。"
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国国民党领袖，国民政府军事委员会委员长。"
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党领袖。"
+      }
+    },
+    {
+      "id": "中华民国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "由中国国民党领导的政府，1948年行宪后由国民政府改组而成。"
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": "由中国共产党建立的政权。"
+      }
+    },
+    {
+      "id": "四·一二事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "四·一二事件",
+          "中国国民党清党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927-04-12 - ",
+        "description": "国民党清除党内中共党员的事件，导致国共两党正式决裂。"
+      }
+    },
+    {
+      "id": "南昌起事",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南昌起事",
+          "南昌起义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927-08-01 - ",
+        "description": "中国共产党发动武装夺权的开始。"
+      }
+    },
+    {
+      "id": "西安事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "西安事变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1936-12-12 - ",
+        "location": "西安市 (中华民国)"
+      }
+    },
+    {
+      "id": "第二次国共合作",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共合作"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937 - 1945",
+        "description": "国共双方为共同抗日而停止内战的合作时期。"
+      }
+    },
+    {
+      "id": "三大会战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "三大会战",
+          "三大战役"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1948-09 - 1949-01",
+        "description": "第二次国共内战的战略决战，包括辽沈、淮海、平津三大战役。"
+      }
+    },
+    {
+      "id": "辽沈战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "辽沈战役"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "淮海战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "淮海战役"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "平津战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "平津战役"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "国民革命军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国国民党建立的武装力量，1948年后改组为中华民国国军。"
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军",
+          "解放军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1947 - ",
+        "description": "中国共产党领导的武装力量，由八路军、新四军等改编而来。"
+      }
+    },
+    {
+      "id": "中华民国政府迁台",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中华民国政府迁台",
+          "中华民国政府迁往台湾"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-12 - ",
+        "location": "台湾"
+      }
+    },
+    {
+      "id": "告台湾同胞书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "告台湾同胞书"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1979 - "
+      }
+    },
+    {
+      "id": "全国人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国的最高国家权力机关的常设机关。"
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "东北军将领，西安事变发动者之一。"
+      }
+    },
+    {
+      "id": "杨虎城",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨虎城"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "西北军将领，西安事变发动者之一。"
+      }
+    },
+    {
+      "id": "动员戡乱",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "动员戡乱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "国民党对第二次国共内战的称呼及其采取的相应国策。"
+      }
+    },
+    {
+      "id": "冷战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "冷战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1947 - 1991"
+      }
+    },
+    {
+      "id": "中国大陆",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中国大陆"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "台湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "李登辉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李登辉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中华民国总统，于1991年宣布结束动员戡乱时期。"
+      }
+    },
+    {
+      "id": "渡江战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "渡江战役"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-04 - "
+      }
+    },
+    {
+      "id": "李宗仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李宗仁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中华民国副总统，蒋中正下野后任代总统。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国国民党",
+      "target": "中国共产党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1927-04-12",
+        "description": "双方为争夺中国统治权爆发长期内战。"
+      }
+    },
+    {
+      "source": "第一次国共内战",
+      "target": "国共内战",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "国共内战",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "国共内战",
+      "target": "冷战",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "国共内战是冷战的一部分。"
+      }
+    },
+    {
+      "source": "四·一二事件",
+      "target": "第一次国共内战",
+      "type": "PUSHED",
+      "properties": {
+        "description": "作为第一次国共内战全面爆发的标志性事件。"
+      }
+    },
+    {
+      "source": "南昌起事",
+      "target": "第一次国共内战",
+      "type": "PUSHED",
+      "properties": {
+        "description": "标志着中共开始武装夺权，内战全面爆发。"
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "中国国民党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "领袖"
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "四·一二事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-04-12",
+        "description": "在上海宣布清党，发动四一二事件。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "主席"
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "南昌起事",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-08-01"
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "中华人民共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1949-10-01"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中华人民共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1949-10-01"
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "第二次国共合作",
+      "type": "PUSHED",
+      "properties": {
+        "description": "西安事变和平解决后，国共双方同意停止内战，共同抗日。"
+      }
+    },
+    {
+      "source": "第二次国共合作",
+      "target": "第一次国共内战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1937"
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12"
+      }
+    },
+    {
+      "source": "杨虎城",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12"
+      }
+    },
+    {
+      "source": "三大会战",
+      "target": "第二次国共内战",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "是第二次国共内战中的战略决战。"
+      }
+    },
+    {
+      "source": "辽沈战役",
+      "target": "三大会战",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "淮海战役",
+      "target": "三大会战",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "平津战役",
+      "target": "三大会战",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "三大会战",
+      "type": "PUSHED",
+      "properties": {
+        "description": "在三大战役中取得胜利，奠定在内战中的绝对军事优势。"
+      }
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "description": "中国共产党在内战中的胜利直接导致了中华人民共和国的成立。"
+      }
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "中华民国政府迁台",
+      "type": "PUSHED",
+      "properties": {
+        "description": "中国国民党在内战中的失利导致中华民国政府迁往台湾。"
+      }
+    },
+    {
+      "source": "中华民国政府",
+      "target": "中华民国政府迁台",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-12-07"
+      }
+    },
+    {
+      "source": "全国人民代表大会常务委员会",
+      "target": "告台湾同胞书",
+      "type": "PUSHED",
+      "properties": {
+        "description": "发表《告台湾同胞书》。"
+      }
+    },
+    {
+      "source": "告台湾同胞书",
+      "target": "国共内战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1979-01-01",
+        "description": "停止对金门等岛屿炮击，国共内战军事冲突告一段落。"
+      }
+    },
+    {
+      "source": "李登辉",
+      "target": "动员戡乱",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1991-05-01",
+        "description": "宣布动员戡乱时期结束，不再视中共为叛乱团体。"
+      }
+    },
+    {
+      "source": "中华民国政府",
+      "target": "中国国民党",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "由中国国民党领导。"
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "渡江战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-04"
+      }
+    },
+    {
+      "source": "李宗仁",
+      "target": "中国国民党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    }
+  ]
+}

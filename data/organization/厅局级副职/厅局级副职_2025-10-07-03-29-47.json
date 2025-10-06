@@ -1,0 +1,380 @@
+{
+  "nodes": [
+    {
+      "id": "厅局级副职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "厅局级副职",
+          "司局级副职",
+          "副司级",
+          "副局级",
+          "地厅级副职",
+          "副地级",
+          "副厅级"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国公务员体系中第六级别的干部。"
+      }
+    },
+    {
+      "id": "中华人民共和国公务员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公务员"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "国务院部委管理的国家局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院部委管理的国家局"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "副省级城市",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "副省级城市"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "二级巡视员",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "二级巡视员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "综合管理类公务员职级。"
+      }
+    },
+    {
+      "id": "二级警监",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "二级警监"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国人民警察警衔。"
+      }
+    },
+    {
+      "id": "三级警监",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "三级警监"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国人民警察警衔。"
+      }
+    },
+    {
+      "id": "二级关务监督",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "二级关务监督"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国海关关衔。"
+      }
+    },
+    {
+      "id": "三级关务监督",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "三级关务监督"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国海关关衔。"
+      }
+    },
+    {
+      "id": "一级指挥长",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "一级指挥长"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国消防救援衔。"
+      }
+    },
+    {
+      "id": "二级高级法官",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "二级高级法官"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "人民法院法官等级。"
+      }
+    },
+    {
+      "id": "二级高级检察官",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "二级高级检察官"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "人民检察院检察官等级。"
+      }
+    },
+    {
+      "id": "中国人民解放军大校",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军大校",
+          "陆军大校",
+          "海军大校",
+          "空军大校",
+          "火箭军大校",
+          "武警大校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国人民解放军军衔及中国人民武装警察部队警衔。"
+      }
+    },
+    {
+      "id": "副师职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "副师职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国人民解放军及中国人民武装警察部队的军事级别。"
+      }
+    },
+    {
+      "id": "地级行政区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "地级行政区"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "人民法院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "人民法院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "人民检察院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "人民检察院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "厅局级正职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "厅局级正职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "公务员行政级别。"
+      }
+    },
+    {
+      "id": "县处级正职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "县处级正职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "公务员行政级别。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "厅局级副职",
+      "target": "中华人民共和国公务员",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "是中华人民共和国公务员体系中的一个级别。"
+      }
+    },
+    {
+      "source": "厅局级副职",
+      "target": "二级巡视员",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "厅局级副职对应综合管理类公务员职级中的二级巡视员。"
+      }
+    },
+    {
+      "source": "厅局级副职",
+      "target": "二级警监",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "厅局级副职对应人民警察警衔中的二级警监。"
+      }
+    },
+    {
+      "source": "厅局级副职",
+      "target": "三级警监",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "厅局级副职对应人民警察警衔中的三级警监。"
+      }
+    },
+    {
+      "source": "厅局级副职",
+      "target": "二级关务监督",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "厅局级副职对应海关关衔中的二级关务监督。"
+      }
+    },
+    {
+      "source": "厅局级副职",
+      "target": "三级关务监督",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "厅局级副职对应海关关衔中的三级关务监督。"
+      }
+    },
+    {
+      "source": "厅局级副职",
+      "target": "一级指挥长",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "厅局级副职对应消防救援衔中的一级指挥长。"
+      }
+    },
+    {
+      "source": "厅局级副职",
+      "target": "二级高级法官",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "厅局级副职对应法官等级中的二级高级法官。"
+      }
+    },
+    {
+      "source": "厅局级副职",
+      "target": "二级高级检察官",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "厅局级副职对应检察官等级中的二级高级检察官。"
+      }
+    },
+    {
+      "source": "中国人民解放军大校",
+      "target": "副师职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "大校军衔或警衔对应副师职军事级别。"
+      }
+    },
+    {
+      "source": "副省级城市",
+      "target": "厅局级副职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "副省级市辖区党政正职为厅局级副职干部。"
+      }
+    },
+    {
+      "source": "地级行政区",
+      "target": "厅局级副职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "地级行政区（除副省级市外）党政副职为厅局级副职干部。"
+      }
+    },
+    {
+      "source": "人民法院",
+      "target": "厅局级副职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "地级行政区人民法院正职为厅局级副职干部。"
+      }
+    },
+    {
+      "source": "人民检察院",
+      "target": "厅局级副职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "地级行政区人民检察院正职为厅局级副职干部。"
+      }
+    },
+    {
+      "source": "厅局级正职",
+      "target": "厅局级副职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "为厅局级副职的上一等级。"
+      }
+    },
+    {
+      "source": "厅局级副职",
+      "target": "县处级正职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "为县处级正职的上一等级。"
+      }
+    }
+  ]
+}

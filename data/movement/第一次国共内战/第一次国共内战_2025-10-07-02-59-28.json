@@ -1,0 +1,651 @@
+{
+  "nodes": [
+    {
+      "id": "第一次国共内战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次国共内战",
+          "剿共",
+          "剿匪",
+          "第二次国内革命战争",
+          "土地革命战争",
+          "十年内战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927-08-01 - 1937-09-23",
+        "location": "中国",
+        "description": "中国国民党领导的国民政府与中国共产党领导的政权之间的内战。"
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "第一次国共内战的参战方之一，由蒋介石领导。"
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "第一次国共内战的参战方之一。"
+      }
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋介石",
+          "蒋中正"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国国民党领袖，时任国民政府军事委员会委员长。"
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党领袖，中国工农红军领导人之一。"
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "由中国国民党领导的中华民国政府。"
+      }
+    },
+    {
+      "id": "国民革命军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "国民政府所属的国家军队。"
+      }
+    },
+    {
+      "id": "中国工农红军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工农红军",
+          "军队"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "由中国共产党领导的武装力量。"
+      }
+    },
+    {
+      "id": "四一二事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "四一二事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927-04-12 - ",
+        "description": "蒋介石发动的针对共产党人的清剿行动，标志着第一次国共合作破裂。"
+      }
+    },
+    {
+      "id": "第一次国共合作",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次国共合作"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - 1927-04-12",
+        "description": "中国国民党与中国共产党的首次合作。"
+      }
+    },
+    {
+      "id": "南昌起义",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南昌起义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927-08-01 - ",
+        "description": "中国共产党武装反抗中国国民党的第一枪，标志着第一次国共内战的开始。"
+      }
+    },
+    {
+      "id": "长征",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "长征"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1934-10 - 1936-10",
+        "description": "中央红军主力被迫退出中央苏区进行的战略转移。"
+      }
+    },
+    {
+      "id": "中央苏区第五次反围剿战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中央苏区第五次反围剿战争",
+          "第五次剿共战争",
+          "第五次围剿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1933-09 - 1934-10",
+        "description": "国民政府对中央苏区发动的第五次军事围剿。"
+      }
+    },
+    {
+      "id": "西安事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "西安事变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1936-12-12 - 1936-12-25",
+        "description": "张学良、杨虎城发动兵变扣押蒋介石，要求停止内战、联共抗日。"
+      }
+    },
+    {
+      "id": "第二次国共合作",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次国共合作"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937-09-22 - ",
+        "description": "为共同抵抗日本侵略，国共两党进行的第二次合作。"
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "奉系军阀张作霖之子，东北军领袖，西安事变发动者之一。"
+      }
+    },
+    {
+      "id": "杨虎城",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨虎城"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "西北军领袖，西安事变发动者之一。"
+      }
+    },
+    {
+      "id": "中华苏维埃共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华苏维埃共和国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1931 - 1937",
+        "location": "瑞金",
+        "description": "中国共产党在革命根据地建立的政权。"
+      }
+    },
+    {
+      "id": "朱德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱德"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党和中国工农红军的主要领导人之一。"
+      }
+    },
+    {
+      "id": "遵义会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "遵义会议"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1935-01 - ",
+        "location": "遵义",
+        "description": "中共中央在长征途中召开的扩大会议，确立了毛泽东的军事领导地位。"
+      }
+    },
+    {
+      "id": "第三国际",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第三国际",
+          "共产国际"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "国际共产主义运动的联合组织，对中国共产党提供支援。"
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "description": "通过共产国际支援中国共产党。"
+      }
+    },
+    {
+      "id": "魏玛共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "魏玛共和国"
+        ],
+        "en": [
+          "Weimar Republic"
+        ]
+      },
+      "properties": {
+        "period": " - 1933",
+        "description": "与国民政府进行军事合作的德国政权。"
+      }
+    },
+    {
+      "id": "纳粹德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国"
+        ],
+        "en": [
+          "Nazi Germany"
+        ]
+      },
+      "properties": {
+        "period": "1933 - ",
+        "description": "与国民政府进行军事合作的德国政权。"
+      }
+    },
+    {
+      "id": "李德 (1900年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李德 (1900年)",
+          "李德"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "苏联军事顾问，曾在中国工农红军中担任指挥职务。"
+      }
+    },
+    {
+      "id": "博古",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "博古"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党早期领导人，第五次反围剿期间的实际领导者之一。"
+      }
+    },
+    {
+      "id": "中央革命根据地",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中央革命根据地",
+          "中央苏区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党在江西南部建立的最大革命根据地。"
+      }
+    },
+    {
+      "id": "国共内战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "国共内战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国国民党与中国共产党之间发生的大规模内战。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "第一次国共内战",
+      "target": "国共内战",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "第一次国共内战是国共内战的一部分。"
+      }
+    },
+    {
+      "source": "中国国民党",
+      "target": "中国共产党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1927-08-01",
+        "end_date": "1937-09-23",
+        "description": "在第一次国共内战期间互为敌对的两个主要政党。"
+      }
+    },
+    {
+      "source": "国民革命军",
+      "target": "中国工农红军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1927-08-01",
+        "end_date": "1937-09-23",
+        "description": "在第一次国共内战期间直接交战的两支军队。"
+      }
+    },
+    {
+      "source": "蒋介石",
+      "target": "毛泽东",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1927-08-01",
+        "end_date": "1937-09-23",
+        "description": "在第一次国共内战中分别是国民党与共产党的最高军事领导人。"
+      }
+    },
+    {
+      "source": "蒋介石",
+      "target": "中国国民党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "领袖"
+      }
+    },
+    {
+      "source": "蒋介石",
+      "target": "国民政府军事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "委员长",
+        "description": "在1933年亲任豫鄂皖三省剿匪总司令部总司令"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "领袖"
+      }
+    },
+    {
+      "source": "朱德",
+      "target": "中国工农红军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "领导人"
+      }
+    },
+    {
+      "source": "蒋介石",
+      "target": "四一二事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-04-12",
+        "description": "发动四一二事件，开始清剿共产党人。"
+      }
+    },
+    {
+      "source": "四一二事件",
+      "target": "第一次国共合作",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-04-12",
+        "description": "该事件导致国共正式决裂，第一次国共合作告终。"
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "南昌起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-08-01",
+        "description": "发动南昌起义，打响武装反抗国民党的第一枪。"
+      }
+    },
+    {
+      "source": "南昌起义",
+      "target": "第一次国共内战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-08-01"
+      }
+    },
+    {
+      "source": "国民政府",
+      "target": "中央苏区第五次反围剿战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1933-09",
+        "description": "对中共控制的中央苏区发动第五次围剿。"
+      }
+    },
+    {
+      "source": "中央苏区第五次反围剿战争",
+      "target": "长征",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1934-10",
+        "description": "第五次反围剿的失败导致中央红军被迫进行长征。"
+      }
+    },
+    {
+      "source": "遵义会议",
+      "target": "毛泽东",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1935-01",
+        "description": "确立了毛泽东在军事上的领导地位。"
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "蒋介石",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "end_date": "1936-12-25",
+        "description": "在西安事变中与杨虎城共同扣押蒋介石，要求其停止内战，联共抗日。"
+      }
+    },
+    {
+      "source": "杨虎城",
+      "target": "蒋介石",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "end_date": "1936-12-25",
+        "description": "在西安事变中与张学良共同扣押蒋介石，要求其停止内战，联共抗日。"
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "第一次国共内战",
+      "type": "BLOCKED",
+      "properties": {
+        "description": "西安事变的和平解决事实上结束了第一次国共内战。"
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "第二次国共合作",
+      "type": "PUSHED",
+      "properties": {
+        "description": "西安事变的和平解决促成了第二次国共合作的建立。"
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "中华苏维埃共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1931-11"
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "通过共产国际支援中国共产党。"
+      }
+    },
+    {
+      "source": "第三国际",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "向中国共产党提供支援，并在西安事变中要求和平解决。"
+      }
+    },
+    {
+      "source": "魏玛共和国",
+      "target": "国民政府",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1927",
+        "end_date": "1933",
+        "description": "中德军事合作，向国民政府提供军事顾问和援助。"
+      }
+    },
+    {
+      "source": "纳粹德国",
+      "target": "国民政府",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1933",
+        "end_date": "1937",
+        "description": "中德军事合作，向国民政府提供军事顾问和援助。"
+      }
+    },
+    {
+      "source": "李德 (1900年)",
+      "target": "中国工农红军",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": "军事顾问",
+        "description": "作为苏联派来的军事顾问参与指挥红军。"
+      }
+    },
+    {
+      "source": "博古",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931-09",
+        "position": "实际领导人",
+        "description": "在王明前往莫斯科后，成为中共实际领导人，主导了第五次反围剿的指挥。"
+      }
+    },
+    {
+      "source": "朱德",
+      "target": "毛泽东",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1928-04",
+        "description": "朱毛会师，在井冈山与毛泽东领导的部队会合。"
+      }
+    }
+  ]
+}

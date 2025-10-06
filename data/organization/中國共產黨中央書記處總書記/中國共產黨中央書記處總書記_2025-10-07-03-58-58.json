@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国政治人物"
+      }
+    },
+    {
+      "id": "胡耀邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡耀邦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国政治人物"
+      }
+    },
+    {
+      "id": "中国共产党中央书记处",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央书记处",
+          "中央书记处"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党的中央机构之一，负责处理中央日常工作。"
+      }
+    },
+    {
+      "id": "中共中央政治局常委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央政治局常委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "该称谓通常指代中国共产党中央政治局常务委员会的成员或该机构本身。"
+      }
+    },
+    {
+      "id": "国务院副总理",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院副总理"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国国务院的领导职务。"
+      }
+    },
+    {
+      "id": "中华人民共和国国防委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国防委员会",
+          "国防委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党中央委员会主席",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央委员会主席",
+          "中央委员会主席",
+          "中共中央主席"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党在1945年至1982年设置的最高领导人职务。"
+      }
+    },
+    {
+      "id": "中国共产党中央纪律检查委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央纪律检查委员会",
+          "中央纪委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "文化大革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966 - 1976"
+      }
+    },
+    {
+      "id": "中国共产党第十一届中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十一届中央委员会",
+          "中共十一届五中全会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共中央秘书长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央秘书长"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党中央书记处总书记职务的前身之一。"
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "邓小平",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956-09",
+        "end_date": "1966-08",
+        "position": "总书记"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "中共中央政治局常委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956-09",
+        "end_date": "1966-08",
+        "position": ""
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "国务院副总理",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956-09",
+        "end_date": "1966-08",
+        "position": ""
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "中华人民共和国国防委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956-09",
+        "end_date": "1966-08",
+        "position": "副主席"
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1980-02",
+        "end_date": "1982-09",
+        "position": "总书记"
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "中国共产党中央委员会主席",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1980-02",
+        "end_date": "1982-09",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "中共中央政治局常委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1980-02",
+        "end_date": "1982-09",
+        "position": ""
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "中国共产党中央纪律检查委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1980-02",
+        "end_date": "1982-09",
+        "position": "第三书记"
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "中共中央秘书长",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1980-02",
+        "position": "",
+        "description": "曾任中共中央秘书长，后转任中央书记处总书记。"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "中国共产党中央书记处",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "description": "文化大革命爆发后，中央书记处被撤销。"
+      }
+    },
+    {
+      "source": "中国共产党第十一届中央委员会",
+      "target": "中国共产党中央书记处",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1980",
+        "description": "在十一届五中全会上决定重新设立中央书记处。"
+      }
+    },
+    {
+      "source": "中国共产党中央书记处",
+      "target": "中国共产党",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    }
+  ]
+}

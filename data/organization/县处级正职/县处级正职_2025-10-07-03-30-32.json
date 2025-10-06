@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "县处级正职",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "县处级正职",
+          "正县级",
+          "正处级"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国公务员体系中第七级别的干部"
+      }
+    },
+    {
+      "id": "中华人民共和国公务员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公务员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国的国家公务员制度"
+      }
+    },
+    {
+      "id": "中共中央组织部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央组织部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "负责中国共产党组织工作和干部工作的职能部门"
+      }
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院",
+          "国务院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国最高国家行政机关"
+      }
+    },
+    {
+      "id": "县级行政区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "县级行政区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国的一种行政区划"
+      }
+    },
+    {
+      "id": "地级行政区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "地级行政区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国的一种行政区划"
+      }
+    },
+    {
+      "id": "厅局级副职",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "厅局级副职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "公务员等级，高于县处级正职"
+      }
+    },
+    {
+      "id": "县处级副职",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "县处级副职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "公务员等级，低于县处级正职"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "县处级正职",
+      "target": "中华人民共和国公务员",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "县处级正职是中华人民共和国公务员体系中的一个级别。"
+      }
+    },
+    {
+      "source": "中共中央组织部",
+      "target": "县处级正职",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2019-12-23",
+        "description": "通过制定《公务员职务、职级与级别管理办法》，定义了县处级正职的级别范围。"
+      }
+    },
+    {
+      "source": "县处级正职",
+      "target": "中华人民共和国国务院",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": "部委下属处正职",
+        "description": "县处级正职对应国务院部委下属的处长职位。"
+      }
+    },
+    {
+      "source": "县处级正职",
+      "target": "县级行政区",
+      "type": "INFLUENCED",
+      "properties": {
+        "position": "人民政府正职",
+        "description": "县处级正职是县级行政区人民政府正职（如县长、区长）的行政级别。"
+      }
+    },
+    {
+      "source": "县处级正职",
+      "target": "地级行政区",
+      "type": "INFLUENCED",
+      "properties": {
+        "position": "人民政府组成部门正职",
+        "description": "县处级正职是地级行政区人民政府组成部门正职（如局长）的行政级别。"
+      }
+    },
+    {
+      "source": "县处级正职",
+      "target": "厅局级副职",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "厅局级副职是县处级正职的上一等级。"
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "县处级正职",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "县处级副职是县处级正职的下一等级。"
+      }
+    }
+  ]
+}
