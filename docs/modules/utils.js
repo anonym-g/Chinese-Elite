@@ -110,3 +110,7 @@ export function rgbToHex(rgb) {
     const toHex = (c) => ('0' + parseInt(c, 10).toString(16)).slice(-2);
     return `#${toHex(match[1])}${toHex(match[2])}${toHex(match[3])}`;
 }
+
+export function easeInOutQuad(t) {
+    return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+}

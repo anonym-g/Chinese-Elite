@@ -24,6 +24,12 @@ DOCS_DIR = os.path.join(ROOT_DIR, 'docs')
 MASTER_GRAPH_PATH = os.path.join(DOCS_DIR, 'master_graph_qcode.json')
 FRONTEND_DATA_DIR = os.path.join(DOCS_DIR, 'data')
 
+# --- 用于过滤：时间、概率常量 ---
+PROB_START_DAY = 7
+PROB_END_DAY = 30
+PROB_START_VALUE = 1 / 12
+PROB_END_VALUE = 9 / 10
+
 # --- Prompt 路径配置 ---
 PROMPTS_DIR = os.path.join(os.path.dirname(__file__), 'prompts')
 PARSER_SYSTEM_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'parser_system.txt')

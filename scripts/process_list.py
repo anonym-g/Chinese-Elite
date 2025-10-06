@@ -6,9 +6,10 @@ import json
 import re
 from datetime import datetime
 import urllib.parse
+import random
 import logging
 
-from config import DATA_DIR, LIST_FILE_PATH, TIMEZONE
+from config import DATA_DIR, LIST_FILE_PATH, PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, TIMEZONE
 from utils import WikipediaClient
 from parse_gemini import GeminiParser
 
@@ -71,25 +72,51 @@ def process_item(item_name: str, category: str, wiki_client: WikipediaClient, pa
     logger.info(f"--- 开始处理 '{item_name}' (类别: {category}) ---")
 
     last_local_time = get_last_local_process_time(item_name, category)
-    latest_wiki_time = wiki_client.get_latest_revision_time(item_name)
-    
-    if last_local_time and latest_wiki_time:
-        logger.info(f"本地最新版本: {last_local_time.strftime('%Y-%m-%d %H:%M:%S %Z')}")
-        logger.info(f"Wiki 最新修订: {latest_wiki_time.strftime('%Y-%m-%d %H:%M:%S %Z')}")
-        if latest_wiki_time <= last_local_time:
-            logger.info(f"'{item_name}' 的本地数据已是最新，跳过。")
-            return
-        else:
-            logger.info("检测到维基页面有更新，将重新提取。")
-    elif last_local_time is None:
+
+    # 如果从未处理过，则直接继续处理
+    if not last_local_time:
         logger.info("未在本地发现历史版本，将执行首次提取。")
+    else:
+        now = datetime.now(TIMEZONE)
+        age_in_days = (now - last_local_time).days
+
+        # 在冷静期内（如一周）处理过，直接跳过
+        if age_in_days <= PROB_START_DAY:
+            logger.info(f"'{item_name}' 在 {age_in_days} 天前刚处理过 (在 {PROB_START_DAY} 天冷静期内)，跳过。")
+            return
+
+        # 只有在冷静期过后，才进行网络请求检查Wiki更新时间
+        latest_wiki_time = wiki_client.get_latest_revision_time(item_name)
+
+        # 如果Wiki页面没有更新，跳过
+        if latest_wiki_time and latest_wiki_time <= last_local_time:
+            logger.info(f"'{item_name}' 的本地数据已是最新 (Wiki无更新)，跳过。")
+            return
+
+        # 在概率期内（如一周到一月），且Wiki有更新，按递增概率决定是否处理
+        if PROB_START_DAY < age_in_days <= PROB_END_DAY:
+            total_duration = PROB_END_DAY - PROB_START_DAY
+            current_pos = age_in_days - PROB_START_DAY
+            ratio = current_pos / total_duration if total_duration > 0 else 1
+            probability = PROB_START_VALUE + (PROB_END_VALUE - PROB_START_VALUE) * ratio
+
+            if random.random() < probability:
+                logger.info(f"'{item_name}' 在 {age_in_days} 天前处理过，Wiki有更新，按概率 ({probability:.2%}) 重新提取。")
+            else:
+                logger.info(f"'{item_name}' 在 {age_in_days} 天前处理过，Wiki有更新，但按概率 ({probability:.2%}) 本次跳过。")
+                return
+
+        # 超过概率期（如一月以上），且Wiki有更新，则必须处理
+        elif age_in_days > PROB_END_DAY:
+            logger.info(f"'{item_name}' 在 {age_in_days} 天前处理过 (超过 {PROB_END_DAY} 天)，且Wiki有更新，将重新提取。")
 
     wikitext, _ = wiki_client.get_simplified_wikitext(item_name)
     
     if not wikitext:
         logger.warning(f"失败：未能获取 '{item_name}' 的Wikitext，跳过。")
         return
-
+    
+    # 开始解析
     structured_data = parser.parse(wikitext)
     if not structured_data:
         logger.warning(f"失败：LLM未能解析 '{item_name}' 的Wikitext，跳过。")
