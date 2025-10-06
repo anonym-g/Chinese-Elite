@@ -106,37 +106,35 @@ export class DataProcessor {
     // 加载邻居节点
     async streamAndAddNeighbors(nodeId) {
         const sourceNodeData = await this._fetchNodeFromSimpleDB(nodeId);
-        if (!sourceNodeData || !sourceNodeData.relationships) return false;
-        
+        // 如果初始节点数据或关系加载失败，返回空数据
+        if (!sourceNodeData || !sourceNodeData.relationships) return { nodes: [], links: [] };
+
         const neighborIds = new Set();
         sourceNodeData.relationships.forEach(rel => {
             const neighborId = rel.source === nodeId ? rel.target : rel.source;
             neighborIds.add(neighborId);
         });
-        
-        let graphChanged = false;
+
+        const newNodes = [];
+        const newLinks = [];
+
         for (const neighborId of neighborIds) {
-            if (this.nodeMap.has(neighborId)) {
-                const existingLinks = sourceNodeData.relationships.filter(
-                    r => (r.source === nodeId && r.target === neighborId) || (r.source === neighborId && r.target === nodeId)
-                );
-                if (this._addNodesAndLinksToGraph([], existingLinks)) {
-                    graphChanged = true;
-                }
-            }
-            else {
+            // 只处理当前图中确实不存在的邻居
+            if (!this.nodeMap.has(neighborId)) {
                 const neighborData = await this._fetchNodeFromSimpleDB(neighborId);
                 if (neighborData && neighborData.node) {
-                    const linksToAdd = sourceNodeData.relationships.filter(
-                        r => (r.source === nodeId && r.target === neighborId) || (r.source === neighborId && r.target === nodeId)
-                    );
-                    if (this._addNodesAndLinksToGraph([neighborData.node], linksToAdd)) {
-                        graphChanged = true;
-                    }
+                    newNodes.push(neighborData.node);
                 }
             }
         }
-        return graphChanged;
+
+        // 将所有相关的链接都收集起来
+        sourceNodeData.relationships.forEach(rel => {
+            newLinks.push(rel);
+        });
+        
+        // 返回一个包含新节点和新链接的对象
+        return { nodes: newNodes, links: newLinks };
     }
 
     _addNodesAndLinksToGraph(nodesToAdd, linksToAdd) {
@@ -326,6 +324,10 @@ export class DataProcessor {
         const queue = [[startNodeId]];
         const foundPaths = [];
 
+        // 设置一个安全的迭代上限，以防止在大型不连通图中搜索时浏览器卡死
+        const MAX_SEARCH_ITERATIONS = 10000;
+        let iterations = 0;
+
         const adjacencyList = new Map();
         // 在过滤后的关系列表上构建邻接表
         validRels.forEach(rel => {
@@ -340,6 +342,13 @@ export class DataProcessor {
         });
 
         while (queue.length > 0) {
+            iterations++;
+            // 熔断机制：如果搜索过于广泛，则中止以防止冻结
+            if (iterations > MAX_SEARCH_ITERATIONS) {
+                console.warn(`Path search aborted after ${MAX_SEARCH_ITERATIONS} iterations to prevent freezing.`);
+                break;
+            }
+
             if (foundPaths.length >= limit) break;
             
             const currentPath = queue.shift();
@@ -350,6 +359,7 @@ export class DataProcessor {
                 continue;
             }
             
+            // 限制路径深度，这是一个辅助性的性能优化
             if (currentPath.length > 10) continue;
 
             const neighbors = adjacencyList.get(lastNodeId) || [];

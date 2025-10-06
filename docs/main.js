@@ -36,20 +36,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const mainUpdate = (currentState) => {
         const { visibleNodes, validRels, neighbors } = dataProcessor.getVisibleData(currentState);
+
         graphView.render({ visibleNodes, validRels });
         graphView.updateHighlights(currentState.selectedNodeId, neighbors);
 
         updateDestructionSchedules(currentState, neighbors);
     };
 
-    // 在首次渲染后，延时一小段时间（等待D3开始布局），然后设置初始视图
-    setTimeout(() => {
-        graphView.setInitialView();
-    }, 100);
-
     const dataProcessor = new DataProcessor(() => mainUpdate(stateManager.getState()));
 
-    const graphView = new GraphView('#graph', {
+    const graphView = new GraphView('#graph-container', {
         onNodeClick: async (event, d) => {
             event.stopPropagation();
             const currentState = stateManager.getState();
@@ -78,6 +74,24 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return; 
             }
 
+            // 1. 先设置选中状态并立即手动触发一次更新以显示高亮
+            stateManager.setSelectedNode(d.id);
+            
+            // 2. 异步加载数据
+            const loadedData = await dataProcessor.streamAndAddNeighbors(d.id);
+
+            // 3. 检查是否加载到了新数据
+            if (loadedData && (loadedData.nodes.length > 0 || loadedData.links.length > 0)) {
+                // 4. 将加载到的新数据手动添加到 dataProcessor
+                const changed = dataProcessor._addNodesAndLinksToGraph(loadedData.nodes, loadedData.links);
+                
+                if (changed) {
+                    // 5. 如果数据确实发生了变化，触发全局更新
+                    graphView.updateLegend(dataProcessor.currentGraphData.nodes);
+                    mainUpdate(stateManager.getState());
+                }
+            }
+
             // 选中新节点：固定其位置，并设置一个1.5秒后自动解除的定时器
             d.fx = d.x;
             d.fy = d.y;
@@ -100,6 +114,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         },
         onSvgClick: () => {
+            // 1. 立即停止任何正在进行的路径动画
+            graphView.stopPathAnimation();
+            // 2. 立即将图谱视觉效果恢复到默认状态
+            graphView.clearAllHighlights();
+
             const currentState = stateManager.getState();
             if (currentState.selectedNodeId) {
                 const selectedNode = dataProcessor.nodeMap.get(currentState.selectedNodeId);
@@ -122,12 +141,40 @@ document.addEventListener('DOMContentLoaded', async () => {
         },
         onColorChange: () => {
             mainUpdate(stateManager.getState());
+        },
+        onActiveNodeRemoved: (removedNodeId) => {
+            const currentState = stateManager.getState();
+            let shouldClear = false;
+
+            // 情况一: 被移除的节点正是当前高亮的中心节点
+            if (currentState.selectedNodeId === removedNodeId) {
+                shouldClear = true;
+            } 
+            // 情况二: 被移除的节点是当前高亮路径的一部分
+            else if (currentState.isPathHighlighting && currentState.pinnedNodeIds.get(removedNodeId) === 'path') {
+                shouldClear = true;
+                // 在清除高亮前，先解除路径节点的固定状态
+                stateManager.unpinNodesByReason('path');
+            }
+
+            if (shouldClear) {
+                graphView.stopPathAnimation();
+                stateManager.clearSelection();
+            }
         }
     });
 
+    await graphView.init();
+
+    setTimeout(() => {
+        graphView.setInitialView();
+    }, 100);
+
     const uiController = new UIController({
         onNodeSearch: async (query) => {
-            // 1. 查找节点并检查其是否与当前过滤器兼容
+            graphView.hideTooltip();
+
+            // 查找节点并检查其是否与当前过滤器兼容
             const nodeData = await dataProcessor.findAndLoadNodeData(query);
             if (!nodeData) {
                 uiController.showErrorToast(`节点 "${query}" 不存在。`);
@@ -142,56 +189,30 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             const isNewNode = !dataProcessor.nodeMap.has(nodeData.id);
-            uiController._closeSearchPanel();
 
+            // 如果是新节点，只需将其数据添加到核心数据结构中，并钉住。
             if (isNewNode) {
-                // --- 节点动画加载 ---
-                graphView.dimGraph();
-
-                // 在当前视窗中心初始化新节点位置，并暂时固定它
-                const initialPosition = graphView.getCenterOfView();
-                nodeData.x = initialPosition.x;
-                nodeData.y = initialPosition.y;
-                nodeData.fx = initialPosition.x; 
-                nodeData.fy = initialPosition.y;
-
-                // 将节点添加到数据中并钉住，然后更新视图以显示这个孤立的节点
                 dataProcessor._addNodesAndLinksToGraph([nodeData], []);
                 stateManager.pinNodes([nodeData.id], 'click');
-                mainUpdate(stateManager.getState());
+            }
 
-                // 在黯淡的背景下加载并显示其关系线
-                await dataProcessor.streamAndAddNeighbors(nodeData.id, () => {});
-                mainUpdate(stateManager.getState()); 
+            // 触发一次状态更新。这会调用 graphView.render，从而将新节点的创建任务“预约”到异步队列中。
+            mainUpdate(stateManager.getState());
 
-                // 等待1.5秒，让用户观察关系生长过程
-                await new Promise(resolve => setTimeout(resolve, 1500));
+            setTimeout(() => {
+                const node = dataProcessor.nodeMap.get(nodeData.id);
+                if (!node) return; // 安全检查
 
-                // 解除节点位置固定，让力导向图自然布局
-                const finalNode = dataProcessor.nodeMap.get(nodeData.id);
-                if (finalNode) {
-                    finalNode.fx = null;
-                    finalNode.fy = null;
-                }
+                graphView.callbacks.onNodeClick({ stopPropagation: () => {} }, node);
                 
-                // 恢复全局亮度，并执行最终的视角滑动和高亮
-                graphView.undimGraph();
-                if (finalNode) {
-                    graphView.callbacks.onNodeClick({ stopPropagation: () => {} }, finalNode);
-                    graphView.centerOnNode(finalNode);
-                }
-            }
-            else {
-                // --- 针对已存在节点的简化流程 ---
-                const existingNode = dataProcessor.nodeMap.get(nodeData.id);
-                if (existingNode) {
-                    graphView.callbacks.onNodeClick({ stopPropagation: () => {} }, existingNode);
-                    graphView.centerOnNode(existingNode);
-                }
-            }
+                // 居中视图并关闭搜索面板。
+                graphView.centerOnNode(node);
+                uiController._closeSearchPanel();
+
+            }, 100);
         },
         onPathSearch: (sourceQuery, targetQuery, limit) => {
-            // 1. 获取当前UI状态下真正可见的节点和关系
+            // 1. 获取当前UI状态下可见的节点和关系
             const currentState = stateManager.getState();
             const { visibleNodes, validRels } = dataProcessor.getVisibleData(currentState);
 
@@ -220,15 +241,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             // 5. 确保使用过滤后的关系(validRels)进行路径查找
-            const { paths } = dataProcessor.findPaths(sourceResult.node.id, targetResult.node.id, limit, validRels);
-            
-            if (paths.length > 0) {
+            const result = dataProcessor.findPaths(sourceResult.node.id, targetResult.node.id, limit, validRels);
+            const paths = result?.paths; // 使用可选链安全地获取路径
+            
+            // 增强检查：确保 paths 是一个数组且其长度大于0
+            if (Array.isArray(paths) && paths.length > 0) {
                 const pathNodeIds = Array.from(new Set(paths.flat()));
                 stateManager.pinNodes(pathNodeIds, 'path');
                 mainUpdate(stateManager.getState());
 
                 stateManager.setPathHighlighting(true);
-                
+                
                 setTimeout(() => {
                     const finalSourceNode = dataProcessor.nodeMap.get(sourceResult.node.id);
                     if(finalSourceNode) {
@@ -240,6 +263,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 uiController._closeSearchPanel();
             }
             else {
+                // 如果 paths 不存在或为空数组，则显示错误提示
                 uiController.showErrorToast(`在当前的时间范围和过滤器下，未找到 "${sourceQuery}" 和 "${targetQuery}" 之间的路径。`);
             }
         }

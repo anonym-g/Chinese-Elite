@@ -12,7 +12,7 @@ from opencc import OpenCC
 import logging
 import random
 
-from config import LIST_FILE_PATH, CACHE_DIR, WIKI_API_URL, PAGEVIEWS_API_BASE, USER_AGENT
+from config import LIST_FILE_PATH, CACHE_DIR, PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, WIKI_API_URL, PAGEVIEWS_API_BASE, USER_AGENT
 
 # 初始化日志记录器
 logger = logging.getLogger(__name__)
@@ -20,12 +20,6 @@ logger = logging.getLogger(__name__)
 # --- 转换器 ---
 s2t_converter = OpenCC('s2t') # 简转繁
 t2s_converter = OpenCC('t2s') # 繁转简
-
-# --- 时间和概率常量 ---
-PROB_START_DAY = 7
-PROB_END_DAY = 30
-PROB_START_VALUE = 1 / 12
-PROB_END_VALUE = 9 / 10
 
 # --- 其他全局常量 ---
 PAGEVIEWS_DATA_START_DATE = datetime(2015, 7, 1)

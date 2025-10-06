@@ -28,8 +28,8 @@ const CONFIG = {
 
     // 节点半径的计算参数
     NODE_RADIUS: {
-        BASE: 5,
-        SCALE: 2
+        BASE: 6,
+        SCALE: 2.5
     },
 
     // 颜色配置

@@ -346,6 +346,20 @@ body {
     overflow: hidden;
     background-color: #121212;
 }
+
+/* --- 为解决拖拽问题而进行的画布样式修正 --- */
+#graph-container, #graph-container canvas {
+    cursor: grab;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none;     /* IE 10+ */
+    user-select: none;         /* Standard syntax */
+    touch-action: none;        /* 禁用触摸滚动、缩放等默认行为 */
+}
+#graph-container canvas:active {
+    cursor: grabbing;
+}
+
+
 svg {
     width: 100%;
     height: 100%;
@@ -439,6 +453,7 @@ svg:active {
     border-radius: 8px;
     pointer-events: none;
     max-width: 300px;
+    z-index: 9999; /* 确保tooltip在最上层 */
 }
 
 /* 日期输入控制器 */
@@ -575,9 +590,6 @@ svg:active {
 .hidden {
     display: none !important;
 }
-.hidden {
-    display: none !important;
-}
 
 /* 社交链接容器样式 */
 .social-links {
@@ -609,7 +621,7 @@ svg:active {
     width: 28px;
     height: 28px;
     display: block;
-    stroke: none; 
+    stroke: none;
 }
 
 /* --- 错误提示框样式 --- */
@@ -705,7 +717,7 @@ svg:active {
         right: 8px; /* 调整右边距 */
         gap: 10px;  /* 调整图标间距 */
     }
-    
+
     .telegram-link svg,
     .github-link svg {
         width: 24px;
@@ -714,7 +726,7 @@ svg:active {
     #search-trigger-container {
         left: 8px;
     }
-    
+
     /* 1. 缩小“节点/路径”选择器 */
     #search-mode-current {
         padding: 6px 10px; /* 减小内边距 */
@@ -725,7 +737,7 @@ svg:active {
         width: 16px; /* 减小下拉箭头图标 */
         height: 16px;
     }
-    
+
     /* 2. 缩小整个搜索面板 */
     #search-input-panel {
         width: 240px; /* 减小面板宽度 */

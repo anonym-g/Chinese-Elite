@@ -208,24 +208,55 @@ class WikipediaClient:
 
     def get_simplified_wikitext(self, article_title: str) -> tuple[str | None, str | None]:
         """
-        获取给定维基百科文章标题的简体中文Wikitext。
+        获取给定维基百科文章标题的简体中文Wikitext。在返回前检查简繁重定向。如果页面是简繁重定向，则使用目标标题重新获取内容。
 
         Returns:
-            一个元组 (simplified_wikitext, article_title)，若失败则返回 (None, None)。
+            一个元组 (simplified_wikitext, final_article_title)，若失败则返回 (None, None)。
         """
         
-        raw_url = self._build_raw_url(article_title)
-        logger.info(f"正在获取 '{article_title}' 的Wikitext源码: {raw_url}")
+        current_title_to_fetch = article_title
+        raw_url = self._build_raw_url(current_title_to_fetch)
+        logger.info(f"正在获取 '{current_title_to_fetch}' 的Wikitext源码: {raw_url}")
 
         try:
             response = self.session.get(raw_url, timeout=20)
             response.raise_for_status()
-            traditional_wikitext = response.text
-            simplified_wikitext = self.t2s_converter.convert(traditional_wikitext)
-            logger.info("Wikitext已成功获取并转换为简体中文。")
-            return simplified_wikitext, article_title
+            
+            content = response.text
+            
+            # 检查是否为重定向页面
+            normalized_content = content.strip().lower()
+            if normalized_content.startswith(("#redirect", "#重定向")):
+                match = re.search(r'\[\[(.*?)\]\]', content)
+                if match:
+                    redirect_target = match.group(1).strip().split('#')[0]
+                    
+                    # 将原始标题和目标标题都转换为简体，并进行比较
+                    simplified_target = self.t2s_converter.convert(redirect_target)
+                    simplified_original = self.t2s_converter.convert(article_title)
+
+                    norm_simplified_target = simplified_target.replace('_', ' ').lower()
+                    norm_simplified_original = simplified_original.replace('_', ' ').lower()
+                    
+                    if norm_simplified_target == norm_simplified_original:
+                        logger.info(f"页面 '{article_title}' 是一个简繁重定向，目标为 '{redirect_target}'。将使用目标页面获取内容。")
+                        
+                        # 使用目标标题重新获取Wikitext
+                        current_title_to_fetch = redirect_target
+                        new_raw_url = self._build_raw_url(current_title_to_fetch)
+                        logger.info(f"重新获取 '{current_title_to_fetch}' 的Wikitext源码: {new_raw_url}")
+                        
+                        response = self.session.get(new_raw_url, timeout=20)
+                        response.raise_for_status()
+                        content = response.text
+
+            # 转换并返回
+            simplified_wikitext = self.t2s_converter.convert(content)
+            logger.info(f"Wikitext已成功获取并转换（标题: '{current_title_to_fetch}'）。")
+            return simplified_wikitext, current_title_to_fetch
+
         except requests.exceptions.RequestException as e:
-            logger.error(f"获取Wikitext失败 - {e}")
+            logger.error(f"获取Wikitext失败 (标题: '{current_title_to_fetch}') - {e}")
             return None, None
 
     def get_latest_revision_time(self, article_title: str) -> datetime | None:
