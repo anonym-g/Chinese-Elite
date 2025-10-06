@@ -95,7 +95,23 @@ export class GraphView {
 
         this._initCameraControls();
         this.app.ticker.add(() => this._updateCameraAnimation());
-        window.addEventListener('resize', debounce(this._handleResize.bind(this), 250));
+        
+        // 创建一个被防抖函数包裹的 resize 处理器
+        const debouncedResize = debounce(this._handleResize.bind(this), 50);
+
+        // 创建一个 ResizeObserver 实例，它的回调函数会调用处理器
+        const resizeObserver = new ResizeObserver(() => {
+            // 每当容器尺寸变化时，调用防抖后的resize处理器
+            debouncedResize();
+        });
+
+        // 让 ResizeObserver 监视图谱容器元素
+        resizeObserver.observe(this.containerEl);
+
+        // 监听虚拟视口的变化，专门用于捕捉移动端键盘弹出/收起等事件
+        if (window.visualViewport) {
+            window.visualViewport.addEventListener('resize', debouncedResize);
+        }
     }
 
     render(graphData) {
@@ -257,19 +273,19 @@ export class GraphView {
         nodeGfx.eventMode = 'static';
         nodeGfx.cursor = 'pointer';
         
-        const RESOLUTION_FACTOR = window.devicePixelRatio || 3;
+        // const RESOLUTION_FACTOR = window.devicePixelRatio || 3;
         
         const label = new PIXI.Text({
             text: node?.name?.['zh-cn']?.[0] || node.id,
             style: { 
-                fontFamily: 'STXingkai', fontSize: 48 * RESOLUTION_FACTOR,
-                fill: 0xffffff, stroke: { color: 0x000000, width: 2 * RESOLUTION_FACTOR, join: 'round' },
+                fontFamily: 'STXingkai', fontSize: 48,
+                fill: 0xffffff, stroke: { color: 0x000000, width: 2, join: 'round' },
                 align: 'center',
             }
         });
         label.eventMode = 'none'; 
         label.anchor.set(0.5);
-        label.scale.set(1 / (3 * RESOLUTION_FACTOR));
+        label.scale.set(1 / 3);
 
         // 获取当前应有的样式，并应用初始 alpha
         const initialStyles = this._getTargetStyles(node);
@@ -333,20 +349,20 @@ export class GraphView {
         const linkId = this._getLinkId(link);
         if (this.linkObjects.has(linkId)) return;
 
-        const RESOLUTION_FACTOR = window.devicePixelRatio || 3;
+        // const RESOLUTION_FACTOR = window.devicePixelRatio || 3;
         const linkGfx = new PIXI.Graphics();
         
         const label = new PIXI.Text({
             text: link.type, 
             style: {
-                fontFamily: 'Times New Roman', fontSize: 48 * RESOLUTION_FACTOR,
-                fill: 0x888888, stroke: { color: 0x000000, width: 2 * RESOLUTION_FACTOR, join: 'round' },
+                fontFamily: 'Times New Roman', fontSize: 48,
+                fill: 0x888888, stroke: { color: 0x000000, width: 2, join: 'round' },
                 align: 'center',
             }
         });
         
         label.anchor.set(0.5);
-        const scale = 1 / (6 * RESOLUTION_FACTOR);
+        const scale = 1 / 6;
         label.scale.set(scale);
 
         label.eventMode = 'static';
@@ -364,6 +380,11 @@ export class GraphView {
         label.on('mouseover', e => this._handleLinkMouseover(e, link));
         label.on('mouseout', e => this._handleMouseout());
         label.on('mousemove', e => this._handleMousemove(e));
+
+        // 为移动端事件添加监听
+        label.on('pointerdown', e => this._handleLinkMouseover(e, link));
+        label.on('pointerup', e => this._handleMouseout());
+        label.on('pointerout', e => this._handleMouseout());
         
         // 获取当前应有的样式，并应用初始 alpha 和 tint
         const initialStyles = this._getTargetStyles(link);
@@ -573,6 +594,10 @@ export class GraphView {
             event.nativeEvent.preventDefault();
             this.interactionState.isDown = true;
             this.interactionState.target = nodeData;
+
+            // 拖拽开始时，强制显示Tooltip
+            this._handleNodeMouseover(event, nodeData); 
+
             let hasMoved = false;
             const initialMousePosInWorld = this.world.toLocal(event.global);
             dragOffset.x = nodeData.x - initialMousePosInWorld.x;
@@ -595,11 +620,18 @@ export class GraphView {
                 nodeData.fy = newPosY;
                 gfx.position.set(newPosX, newPosY);
                 nodeObj.label.position.set(newPosX, newPosY);
+
+                // 拖拽过程中，强制更新Tooltip位置
+                this._handleMousemove(moveEvent);
             };
             onDragEnd = (endEvent) => {
                 window.removeEventListener('pointermove', onDragMove);
                 window.removeEventListener('pointerup', onDragEnd);
                 this.interactionState.isDown = false;
+
+                // 拖拽结束时，手动调用函数隐藏Tooltip
+                this._handleMouseout();
+
                 if (!hasMoved) {
                     this.callbacks.onNodeClick(event, nodeData);
                 } else {
@@ -636,6 +668,11 @@ export class GraphView {
                 this.world.y += dy;
                 this.camera.lastX = e.clientX;
                 this.camera.lastY = e.clientY;
+
+                // 如果当前有可见描述框，就调用函数，让它的位置跟随手指/鼠标移动
+                if (this.tooltip.style.opacity === '1') {
+                    this._handleMousemove(e);
+                }
             }
         };
         const onPointerUp = (e) => {
@@ -669,6 +706,63 @@ export class GraphView {
             this.world.position.x = mousePoint.x - mouseInWorld.x * newScale;
             this.world.position.y = mousePoint.y - mouseInWorld.y * newScale;
         });
+
+        // --- 移动端触摸缩放 ---
+
+        let pinching = false;
+        let lastPinchDistance = 0;
+
+        const getDistance = (touches) => {
+            const dx = touches[0].clientX - touches[1].clientX;
+            const dy = touches[0].clientY - touches[1].clientY;
+            return Math.sqrt(dx * dx + dy * dy);
+        };
+
+        const getMidpoint = (touches) => {
+            return {
+                x: (touches[0].clientX + touches[1].clientX) / 2,
+                y: (touches[0].clientY + touches[1].clientY) / 2,
+            };
+        };
+
+        canvas.addEventListener('touchstart', e => {
+            if (e.touches.length === 2) {
+                e.preventDefault(); // 阻止浏览器默认的缩放行为
+                pinching = true;
+                this.camera.dragging = false; // 阻止单指拖拽平移
+                lastPinchDistance = getDistance(e.touches);
+            }
+        }, { passive: false });
+
+        canvas.addEventListener('touchmove', e => {
+            if (pinching && e.touches.length === 2) {
+                e.preventDefault();
+                
+                const newDistance = getDistance(e.touches);
+                const zoomFactor = newDistance / lastPinchDistance;
+                lastPinchDistance = newDistance;
+
+                const midpoint = getMidpoint(e.touches);
+                const point = new PIXI.Point(midpoint.x, midpoint.y);
+                const pointInWorld = this.world.toLocal(point);
+                
+                const newScale = Math.max(0.1, Math.min(5, this.world.scale.x * zoomFactor));
+                this.world.scale.set(newScale);
+
+                this.world.position.x = point.x - pointInWorld.x * newScale;
+                this.world.position.y = point.y - pointInWorld.y * newScale;
+            }
+        }, { passive: false });
+
+        const onTouchEnd = (e) => {
+            if (e.touches.length < 2) {
+                pinching = false;
+                lastPinchDistance = 0;
+            }
+        };
+
+        canvas.addEventListener('touchend', onTouchEnd);
+        canvas.addEventListener('touchcancel', onTouchEnd);
     }
 
     _updateCameraAnimation() {
@@ -1015,8 +1109,14 @@ export class GraphView {
     _handleMouseout() { this.tooltip.style.opacity = "0"; }
     
     _handleMousemove(event) {
-        const originalEvent = event.nativeEvent;
-        if (!originalEvent) return;
+        // 兼容PIXI事件对象 (event.nativeEvent) 和原生DOM事件对象 (event)
+        const originalEvent = event.nativeEvent || event;
+        
+        // 确保拥有有效的事件对象和坐标
+        if (!originalEvent || typeof originalEvent.pageX === 'undefined') {
+            return;
+        }
+
         const x = originalEvent.pageX;
         const y = originalEvent.pageY;
         this.tooltip.style.left = `${x + 15}px`;
