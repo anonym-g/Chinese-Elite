@@ -1,0 +1,642 @@
+{
+  "nodes": [
+    {
+      "id": "第二次国共内战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战",
+          "解放战争",
+          "动员戡乱",
+          "戡乱战争",
+          "抗共卫国戡乱战争",
+          "第三次国内革命战争",
+          "中国人民解放战争",
+          "爱国自卫战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1945 - 1950",
+        "location": "中国大陆及台湾海峡沿岸岛屿",
+        "description": "中国国民党与中国共产党为争夺中国执政权而爆发的内战。"
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "第二次国共内战的胜利方，后建立中华人民共和国。"
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党",
+          "国民党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "第二次国共内战中代表中华民国政府的执政党。"
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "location": "中国大陆",
+        "description": "由中国共产党在第二次国共内战胜利后建立的政权。"
+      }
+    },
+    {
+      "id": "中华民国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国政府",
+          "国府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "1948年行宪后代表中国的政府，内战后迁往台湾。"
+      }
+    },
+    {
+      "id": "中华民国政府迁台",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中华民国政府迁台"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-12-07 - ",
+        "location": "台北",
+        "description": "第二次国共内战后，中华民国政府将中央政府机构迁往台湾台北市的事件。"
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "男",
+        "description": "中国共产党主要领导人，中华人民共和国的缔造者。"
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "男",
+        "description": "中国国民党主要领导人，中华民国总统。"
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "description": "第二次国共内战期间支持中国共产党的国家。"
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": "第二次国共内战期间支持中国国民党的国家。"
+      }
+    },
+    {
+      "id": "乔治·马歇尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·马歇尔",
+          "马歇尔"
+        ],
+        "en": [
+          "George Marshall"
+        ]
+      },
+      "properties": {
+        "description": "美国特使，曾调停国共冲突。"
+      }
+    },
+    {
+      "id": "三大战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "三大战役",
+          "三大会战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1948-09 - 1949-01",
+        "description": "辽沈、淮海、平津三大战役，是第二次国共内战的战略决战。"
+      }
+    },
+    {
+      "id": "傅作义",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "傅作义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1895-06-27 - 1974-04-19",
+        "gender": "男",
+        "description": "原国民党华北剿匪总司令，在平津战役中率部接受和平改编。"
+      }
+    },
+    {
+      "id": "白崇禧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白崇禧"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1893-03-18 - 1966-12-02",
+        "gender": "男",
+        "description": "中华民国陆军一级上将，新桂系代表人物，华中剿匪总司令。"
+      }
+    },
+    {
+      "id": "刘伯承",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘伯承"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1892-12-04 - 1986-10-07",
+        "gender": "男",
+        "description": "中国人民解放军高级将领，第二野战军司令员。"
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1904-08-22 - 1997-02-19",
+        "gender": "男",
+        "description": "中国共产党高级领导人，晋冀鲁豫野战军及第二野战军政治委员。"
+      }
+    },
+    {
+      "id": "林彪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林彪"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1907-12-05 - 1971-09-13",
+        "gender": "男",
+        "description": "中国人民解放军高级将领，东北野战军及第四野战军司令员。"
+      }
+    },
+    {
+      "id": "粟裕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "粟裕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1907-08-10 - 1984-02-05",
+        "gender": "男",
+        "description": "中国人民解放军高级将领，华东野战军主要指挥员。"
+      }
+    },
+    {
+      "id": "杜聿明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杜聿明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1904-11-28 - 1981-05-07",
+        "gender": "男",
+        "description": "中华民国陆军中将，徐州剿匪总司令部副总司令，在淮海战役中被俘。"
+      }
+    },
+    {
+      "id": "吴化文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴化文"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1904 - 1962",
+        "gender": "男",
+        "description": "原国民党整编第九十六军军长，在济南战役中率部起义。"
+      }
+    },
+    {
+      "id": "程潜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "程潜"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1882-03-31 - 1968-04-05",
+        "gender": "男",
+        "description": "原国民党长沙绥靖公署主任兼湖南省政府主席，1949年率部起义。"
+      }
+    },
+    {
+      "id": "陈明仁 (1903年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈明仁 (1903年)",
+          "陈明仁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1903-04-07 - 1974-05-21",
+        "gender": "男",
+        "description": "原国民党第一兵团司令，1949年与程潜共同起义。"
+      }
+    },
+    {
+      "id": "重庆谈判",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "重庆谈判"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1945-08-28 - 1945-10-10",
+        "location": "重庆市",
+        "description": "抗日战争胜利后，中国国民党与中国共产党之间的一次重要谈判。"
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军",
+          "解放军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党的武装力量。"
+      }
+    },
+    {
+      "id": "中华民国国军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国国军",
+          "国军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华民国的国家武装力量。"
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1898-03-05 - 1976-01-08",
+        "gender": "男",
+        "description": "中国共产党核心领导人之一。"
+      }
+    },
+    {
+      "id": "制宪国民大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "制宪国民大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1946-11-15 - 1946-12-25",
+        "location": "南京",
+        "description": "由国民政府召开，旨在制定《中华民国宪法》的会议，但因中共及民盟抵制而加剧了国共分裂。"
+      }
+    },
+    {
+      "id": "中国民主同盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主同盟",
+          "民盟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国的民主党派之一，在国共内战后期与中国共产党合作。"
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1925 - 1948",
+        "description": "1948年行宪前中华民国的中央政府。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国共产党",
+      "target": "中国国民党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1945-08",
+        "end_date": "1950",
+        "description": "为争夺中国执政权而进行内战。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "中央委员会主席"
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "中国国民党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "总裁"
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1945",
+        "description": "在东北将缴获的日本关东军武器装备转交给中共，并提供大量物资援助。"
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "国民政府",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945",
+        "description": "在东北地区阻挠国民政府军队接收，为中共进入东北创造条件。"
+      }
+    },
+    {
+      "source": "美国",
+      "target": "中国国民党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1945",
+        "description": "向国民政府提供军事及经济援助，并协助运送国军至东北。"
+      }
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-10-01",
+        "description": "内战以中国共产党的胜利告终，直接导致中华人民共和国的成立。"
+      }
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "中华民国政府迁台",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-12",
+        "description": "内战的失败导致中华民国政府迁往台湾。"
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "毛泽东",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1945-08-28",
+        "end_date": "1945-10-10",
+        "description": "在重庆谈判期间会面，商讨战后和平建国问题。"
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "三大战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1948-09",
+        "end_date": "1949-01",
+        "description": "解放军发动了辽沈、淮海、平津三大战役，并取得决定性胜利。"
+      }
+    },
+    {
+      "source": "傅作义",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1949-01-22",
+        "description": "在平津战役中率领其部队接受中国共产党的和平改编，促成北平和平解放。"
+      }
+    },
+    {
+      "source": "吴化文",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1948-09",
+        "description": "在济南战役中率领其部队哗变，投向中国共产党。"
+      }
+    },
+    {
+      "source": "程潜",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1949-08-01",
+        "description": "作为长沙绥靖公署主任，与陈明仁一同通电归附中国共产党。"
+      }
+    },
+    {
+      "source": "陈明仁 (1903年)",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1949-08-01",
+        "description": "作为国军第一兵团司令，与程潜一同在长沙通电起义。"
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "制宪国民大会",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1946-11",
+        "description": "拒绝参加国民党主导的制宪国民大会，标志着国共谈判破裂。"
+      }
+    },
+    {
+      "source": "中国民主同盟",
+      "target": "制宪国民大会",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1946-11",
+        "description": "与中共一同拒绝参加制宪国民大会。"
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "中华民国国军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1950",
+        "description": "在第二次国共内战中作为敌对双方的武装力量进行交战。"
+      }
+    },
+    {
+      "source": "林彪",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "东北野战军司令员"
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "中原野战军司令员"
+      }
+    },
+    {
+      "source": "粟裕",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "华东野战军代司令员兼代政治委员"
+      }
+    },
+    {
+      "source": "杜聿明",
+      "target": "中华民国国军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1948",
+        "end_date": "1949-01",
+        "position": "徐州剿匪总司令部副总司令"
+      }
+    },
+    {
+      "source": "白崇禧",
+      "target": "中华民国国军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1948-06",
+        "position": "华中剿匪总司令"
+      }
+    }
+  ]
+}

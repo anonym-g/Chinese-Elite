@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "乡科级正职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "乡科级正职",
+          "正乡级",
+          "正科级"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国公务员体系中的基层级别干部，对应级别为22级至16级。"
+      }
+    },
+    {
+      "id": "中华人民共和国公务员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公务员"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "事业单位",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "事业单位"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军文职人员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军文职人员"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "乡级行政区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乡级行政区"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "县处级副职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "县处级副职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "乡科级正职的上一等级。"
+      }
+    },
+    {
+      "id": "乡科级副职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "乡科级副职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "乡科级正职的下一等级。"
+      }
+    },
+    {
+      "id": "正营职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "正营职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国人民解放军和中国人民武装警察部队的军事级别，与乡科级正职相对应。"
+      }
+    },
+    {
+      "id": "中国人民解放军少校",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军少校",
+          "陆军少校",
+          "海军少校",
+          "空军少校",
+          "火箭军少校",
+          "武警少校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "对应正营职的军衔或警衔。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "乡科级正职",
+      "target": "中华人民共和国公务员",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "是中华人民共和国公务员体系中的一个级别。"
+      }
+    },
+    {
+      "source": "乡科级正职",
+      "target": "事业单位",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "对应事业单位管理岗的七级职员。"
+      }
+    },
+    {
+      "source": "乡科级正职",
+      "target": "中国人民解放军文职人员",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "对应军队文职人员管理岗位的科级正职。"
+      }
+    },
+    {
+      "source": "乡科级正职",
+      "target": "乡级行政区",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "是大部分乡级行政区正职领导的行政级别。"
+      }
+    },
+    {
+      "source": "乡科级副职",
+      "target": "乡科级正职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "是乡科级正职的下一级别。"
+      }
+    },
+    {
+      "source": "乡科级正职",
+      "target": "县处级副职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "是县处级副职的下一级别。"
+      }
+    },
+    {
+      "source": "乡科级正职",
+      "target": "正营职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "与中国人民解放军和武警部队的正营职级别相对应。"
+      }
+    },
+    {
+      "source": "正营职",
+      "target": "中国人民解放军少校",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "正营职军事级别对应少校军衔或警衔。"
+      }
+    }
+  ]
+}

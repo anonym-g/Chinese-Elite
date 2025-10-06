@@ -1,0 +1,361 @@
+{
+  "nodes": [
+    {
+      "id": "县处级副职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "县处级副职",
+          "副县级",
+          "副处级"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国公务员体系中第八级别的干部。"
+      }
+    },
+    {
+      "id": "中华人民共和国公务员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公务员",
+          "公务员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国",
+        "description": "在中华人民共和国政府中行使国家行政权力、执行国家公务的人员。"
+      }
+    },
+    {
+      "id": "中共中央组织部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央组织部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国",
+        "description": "中国共产党中央委员会主管组织、干部工作的职能部门。"
+      }
+    },
+    {
+      "id": "公务员职务、职级与级别管理办法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "公务员职务、职级与级别管理办法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2020-03-03 - "
+      }
+    },
+    {
+      "id": "事业单位",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "事业单位",
+          "事业单位工作人员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国"
+      }
+    },
+    {
+      "id": "中国人民解放军文职人员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军文职人员",
+          "军队文职人员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国"
+      }
+    },
+    {
+      "id": "全国人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国"
+      }
+    },
+    {
+      "id": "中华人民共和国海关关衔条例",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国海关关衔条例"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国人民警察警衔条例",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国人民警察警衔条例"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国消防救援衔条例",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国消防救援衔条例"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "交通运输部海事局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "交通运输部海事局",
+          "海事机构"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国"
+      }
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院",
+          "国务院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国"
+      }
+    },
+    {
+      "id": "县级行政区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "县级行政区"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "地级行政区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "地级行政区"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "县处级正职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "县处级正职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国公务员体系中第七级别的干部。"
+      }
+    },
+    {
+      "id": "乡科级正职",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "乡科级正职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国公务员体系中第九级别的干部。"
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国"
+      }
+    },
+    {
+      "id": "中国人民武装警察部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民武装警察部队",
+          "武警部队"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中共中央组织部",
+      "target": "公务员职务、职级与级别管理办法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-12-23",
+        "description": "制定《公务员职务、职级与级别管理办法》。"
+      }
+    },
+    {
+      "source": "公务员职务、职级与级别管理办法",
+      "target": "县处级副职",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "规定县处级副职对应级别为二十级至十四级。"
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "中华人民共和国公务员",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "是中华人民共和国公务员体系中的一个级别。"
+      }
+    },
+    {
+      "source": "全国人民代表大会常务委员会",
+      "target": "中华人民共和国海关关衔条例",
+      "type": "PUSHED",
+      "properties": {
+        "description": ""
+      }
+    },
+    {
+      "source": "全国人民代表大会常务委员会",
+      "target": "中华人民共和国人民警察警衔条例",
+      "type": "PUSHED",
+      "properties": {
+        "description": ""
+      }
+    },
+    {
+      "source": "全国人民代表大会常务委员会",
+      "target": "中华人民共和国消防救援衔条例",
+      "type": "PUSHED",
+      "properties": {
+        "description": ""
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "事业单位",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "对应管理六级职员岗位。"
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "中国人民解放军文职人员",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "对应处级副职管理岗位。"
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "中国人民解放军",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "对应副团职军事级别，如陆军中校、海军中校、空军中校、火箭军中校。"
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "中国人民武装警察部队",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "对应副团职军事级别，如武警中校。"
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "中华人民共和国国务院",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "对应国务院部委下属的处副职。"
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "县级行政区",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "对应县级行政区人民政府副职。"
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "地级行政区",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "对应地级行政区人民政府组成部门副职。"
+      }
+    },
+    {
+      "source": "县处级副职",
+      "target": "县处级正职",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "县处级副职是县处级正职的下一等级。"
+      }
+    },
+    {
+      "source": "乡科级正职",
+      "target": "县处级副职",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "乡科级正职是县处级副职的下一等级。"
+      }
+    }
+  ]
+}

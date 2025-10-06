@@ -1,0 +1,444 @@
+{
+  "nodes": [
+    {
+      "id": "中国共产党中央书记处",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央书记处",
+          "中央书记处"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1945 - 1956",
+        "description": "1945年至1956年间中国共产党的最高决策机构。"
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党五大书记之一，时任中央书记处主席、中央委员会主席。"
+      }
+    },
+    {
+      "id": "刘少奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘少奇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党五大书记之一。"
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党五大书记之一。"
+      }
+    },
+    {
+      "id": "朱德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱德",
+          "朱　德"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党五大书记之一。"
+      }
+    },
+    {
+      "id": "任弼时",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "任弼时"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1950",
+        "gender": "男",
+        "description": "中国共产党五大书记之一，1950年逝世。"
+      }
+    },
+    {
+      "id": "陈云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈云",
+          "陈　云"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党中央书记处候补书记，后增补为正式书记。"
+      }
+    },
+    {
+      "id": "彭真",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭真"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党中央书记处候补书记。"
+      }
+    },
+    {
+      "id": "中国共产党第七次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第七次全国代表大会",
+          "中共七大"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1945"
+      }
+    },
+    {
+      "id": "中国共产党中央政治局常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央政治局常务委员会",
+          "中央政治局常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党第八次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第八次全国代表大会",
+          "中共八大"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1956"
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中共第一代中央领导集体成员。"
+      }
+    },
+    {
+      "id": "林彪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林彪"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中共第一代中央领导集体成员。"
+      }
+    },
+    {
+      "id": "中共第一代中央领导集体",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共第一代中央领导集体"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1956 - ",
+        "description": "以“毛刘周朱陈林邓”为主要成员的中国共产党第一代中央领导集体。"
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "文化大革命",
+          "文革"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中共第一代中央领导集体的格局维持至文化大革命开始。"
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国共产党第七次全国代表大会",
+      "target": "中国共产党中央书记处",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945",
+        "description": "中共七大决定设立中央书记处以取代中央政治局常务委员会，作为最高决策机构。"
+      }
+    },
+    {
+      "source": "中国共产党第七次全国代表大会",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945",
+        "description": "中共七大决定不设立中央政治局常务委员会。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1956",
+        "position": "主席"
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1956",
+        "position": "书记"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1956",
+        "position": "书记"
+      }
+    },
+    {
+      "source": "朱德",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1956",
+        "position": "书记"
+      }
+    },
+    {
+      "source": "任弼时",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1950",
+        "position": "书记"
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1956",
+        "position": "候补书记(1945-1950), 书记(1950-1956)",
+        "description": "1950年任弼时逝世后被增补为正式书记。"
+      }
+    },
+    {
+      "source": "彭真",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945",
+        "position": "候补书记"
+      }
+    },
+    {
+      "source": "中国共产党第八次全国代表大会",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1956",
+        "description": "中共八大决定重新设立中央政治局常务委员会。"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956",
+        "position": "常委、中央委员会主席"
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956",
+        "position": "常委、中央委员会副主席"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956",
+        "position": "常委、中央委员会副主席"
+      }
+    },
+    {
+      "source": "朱德",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956",
+        "position": "常委、中央委员会副主席"
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956",
+        "position": "常委、中央委员会副主席"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956",
+        "position": "常委、中央书记处总书记"
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中共第一代中央领导集体",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "刘少奇",
+      "target": "中共第一代中央领导集体",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "周恩来",
+      "target": "中共第一代中央领导集体",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "朱德",
+      "target": "中共第一代中央领导集体",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "陈云",
+      "target": "中共第一代中央领导集体",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "邓小平",
+      "target": "中共第一代中央领导集体",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "林彪",
+      "target": "中共第一代中央领导集体",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1958",
+        "position": "中共中央副主席"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "中共第一代中央领导集体",
+      "type": "BLOCKED",
+      "properties": {
+        "description": "中共第一代中央领导集体的格局一直维持到文革开始。"
+      }
+    }
+  ]
+}

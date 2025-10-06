@@ -1,0 +1,718 @@
+{
+  "nodes": [
+    {
+      "id": "2019冠状病毒病疫情",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2019冠状病毒病疫情",
+          "新冠肺炎疫情",
+          "COVID-19疫情"
+        ],
+        "en": [
+          "COVID-19 pandemic"
+        ]
+      },
+      "properties": {
+        "period": "2019-12 - 2023-05-05",
+        "location": "世界",
+        "description": "由严重急性呼吸系统综合征冠状病毒2（SARS-CoV-2）导致的2019冠状病毒病（COVID-19）所引发的全球大流行疫情。"
+      }
+    },
+    {
+      "id": "严重急性呼吸系统综合征冠状病毒2",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "严重急性呼吸系统综合征冠状病毒2",
+          "SARS-CoV-2",
+          "新型冠状病毒"
+        ],
+        "en": [
+          "Severe acute respiratory syndrome coronavirus 2"
+        ]
+      },
+      "properties": {
+        "description": "导致2019冠状病毒病的病毒。"
+      }
+    },
+    {
+      "id": "2019冠状病毒病",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2019冠状病毒病",
+          "COVID-19",
+          "严重特殊传染性肺炎",
+          "新冠肺炎"
+        ],
+        "en": [
+          "Coronavirus disease 2019"
+        ]
+      },
+      "properties": {
+        "description": "由SARS-CoV-2病毒引起的疾病。"
+      }
+    },
+    {
+      "id": "武汉市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "武汉市",
+          "武汉"
+        ],
+        "en": [
+          "Wuhan"
+        ]
+      },
+      "properties": {
+        "location": "中华人民共和国湖北省"
+      }
+    },
+    {
+      "id": "张继先",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张继先"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": "湖北省中西医结合医院医生，最早发现和上报新冠肺炎疫情。"
+      }
+    },
+    {
+      "id": "世界卫生组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "世界卫生组织",
+          "世卫",
+          "WHO"
+        ],
+        "en": [
+          "World Health Organization"
+        ]
+      },
+      "properties": {
+        "description": "联合国的专门机构，国际公共卫生领域的领导者。"
+      }
+    },
+    {
+      "id": "谭德塞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谭德塞"
+        ],
+        "en": [
+          "Tedros Adhanom Ghebreyesus"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "世界卫生组织总干事。"
+      }
+    },
+    {
+      "id": "国际关注的突发公共卫生事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "国际关注的突发公共卫生事件",
+          "国际公共卫生紧急事件"
+        ],
+        "en": [
+          "Public Health Emergency of International Concern",
+          "PHEIC"
+        ]
+      },
+      "properties": {
+        "description": "世界卫生组织针对非同寻常的事件发布的正式声明。"
+      }
+    },
+    {
+      "id": "全球大流行",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "全球大流行"
+        ],
+        "en": [
+          "Pandemic"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939 - 1945"
+      }
+    },
+    {
+      "id": "2019冠状病毒病疫情引发的经济衰退",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2019冠状病毒病疫情引发的经济衰退"
+        ],
+        "en": [
+          "COVID-19 recession"
+        ]
+      },
+      "properties": {
+        "period": "2020 - "
+      }
+    },
+    {
+      "id": "大萧条",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "大萧条"
+        ],
+        "en": [
+          "Great Depression"
+        ]
+      },
+      "properties": {
+        "period": "1929 - 1939"
+      }
+    },
+    {
+      "id": "中国科学院武汉病毒研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院武汉病毒研究所",
+          "武汉病毒研究所",
+          "武汉病毒所"
+        ],
+        "en": [
+          "Wuhan Institute of Virology, Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {
+        "location": "武汉市"
+      }
+    },
+    {
+      "id": "吕克·蒙塔尼耶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕克·蒙塔尼耶"
+        ],
+        "en": [
+          "Luc Montagnier"
+        ]
+      },
+      "properties": {
+        "description": "法国病毒学家，诺贝尔医学奖得主，艾滋病病毒发现者。"
+      }
+    },
+    {
+      "id": "2019冠状病毒病武汉实验室释放与泄露论",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "2019冠状病毒病武汉实验室释放与泄露论"
+        ],
+        "en": [
+          "COVID-19 lab leak theory"
+        ]
+      },
+      "properties": {
+        "description": "认为新冠病毒源自中国武汉实验室泄漏的理论。"
+      }
+    },
+    {
+      "id": "美国众议院新型冠状病毒大流行特别小组委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国众议院新型冠状病毒大流行特别小组委员会"
+        ],
+        "en": [
+          "House Select Subcommittee on the Coronavirus Pandemic"
+        ]
+      },
+      "properties": {
+        "location": "美国"
+      }
+    },
+    {
+      "id": "中央情报局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央情报局"
+        ],
+        "en": [
+          "Central Intelligence Agency",
+          "CIA"
+        ]
+      },
+      "properties": {
+        "location": "美国"
+      }
+    },
+    {
+      "id": "埃隆·马斯克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "埃隆·马斯克"
+        ],
+        "en": [
+          "Elon Musk"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "美国政府效率部负责人。"
+      }
+    },
+    {
+      "id": "美国国际开发署",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国国际开发署"
+        ],
+        "en": [
+          "United States Agency for International Development",
+          "USAID"
+        ]
+      },
+      "properties": {
+        "location": "美国"
+      }
+    },
+    {
+      "id": "安东尼·佛奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安东尼·佛奇"
+        ],
+        "en": [
+          "Anthony Fauci"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "美国国家过敏和传染病研究所前所长，白宫冠状病毒工作组发言人。"
+      }
+    },
+    {
+      "id": "美国生态健康联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国生态健康联盟"
+        ],
+        "en": [
+          "EcoHealth Alliance"
+        ]
+      },
+      "properties": {
+        "location": "美国"
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": [
+          "Xi Jinping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "中国共产党中央委员会总书记、中华人民共和国主席。"
+      }
+    },
+    {
+      "id": "中共中央政治局常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央政治局常务委员会",
+          "中央政治局常委会"
+        ],
+        "en": [
+          "Politburo Standing Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": "中国共产党的最高领导机构。"
+      }
+    },
+    {
+      "id": "动态清零",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "动态清零",
+          "清零政策"
+        ],
+        "en": [
+          "Dynamic zero-COVID"
+        ]
+      },
+      "properties": {
+        "period": " - 2022-12-07",
+        "location": "中华人民共和国",
+        "description": "中国大陆应对新冠疫情采取的严格防控政策。"
+      }
+    },
+    {
+      "id": "白纸运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "白纸运动"
+        ],
+        "en": [
+          "White Paper Movement",
+          "A4 Revolution"
+        ]
+      },
+      "properties": {
+        "period": "2022-11-26 - ",
+        "location": "中华人民共和国",
+        "description": "反对动态清零政策的抗议运动。"
+      }
+    },
+    {
+      "id": "国务院联防联控机制",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院联防联控机制"
+        ],
+        "en": [
+          "Joint Prevention and Control Mechanism of the State Council"
+        ]
+      },
+      "properties": {
+        "location": "中华人民共和国"
+      }
+    },
+    {
+      "id": "钟南山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "钟南山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "中国工程院院士，呼吸病学专家。"
+      }
+    },
+    {
+      "id": "辉瑞－BioNTech 2019冠状病毒病疫苗",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "辉瑞－BioNTech 2019冠状病毒病疫苗"
+        ],
+        "en": [
+          "Pfizer–BioNTech COVID-19 vaccine"
+        ]
+      },
+      "properties": {
+        "description": "一种针对COVID-19的mRNA疫苗。"
+      }
+    },
+    {
+      "id": "美国食品药品监督管理局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国食品药品监督管理局",
+          "FDA"
+        ],
+        "en": [
+          "U.S. Food and Drug Administration"
+        ]
+      },
+      "properties": {
+        "location": "美国"
+      }
+    },
+    {
+      "id": "辉瑞",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辉瑞"
+        ],
+        "en": [
+          "Pfizer"
+        ]
+      },
+      "properties": {
+        "location": "美国"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "严重急性呼吸系统综合征冠状病毒2",
+      "target": "2019冠状病毒病",
+      "type": "PUSHED",
+      "properties": {
+        "description": "是导致2019冠状病毒病的病原体。"
+      }
+    },
+    {
+      "source": "2019冠状病毒病",
+      "target": "2019冠状病毒病疫情",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-12",
+        "description": "引发了全球大流行疫情。"
+      }
+    },
+    {
+      "source": "2019冠状病毒病疫情",
+      "target": "武汉市",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2019-12",
+        "description": "疫情于2019年末在武汉市首次爆发。"
+      }
+    },
+    {
+      "source": "张继先",
+      "target": "2019冠状病毒病疫情",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-12-26",
+        "description": "最早发现和上报此不明原因肺炎，并怀疑其为传染病。"
+      }
+    },
+    {
+      "source": "世界卫生组织",
+      "target": "国际关注的突发公共卫生事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-01-30",
+        "end_date": "2023-05-05",
+        "description": "宣布新冠疫情构成国际关注的突发公共卫生事件。"
+      }
+    },
+    {
+      "source": "世界卫生组织",
+      "target": "全球大流行",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-03-11",
+        "description": "宣布此次疫情已构成全球大流行。"
+      }
+    },
+    {
+      "source": "谭德塞",
+      "target": "世界卫生组织",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "总干事"
+      }
+    },
+    {
+      "source": "2019冠状病毒病疫情",
+      "target": "第二次世界大战",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "新冠疫情被视为人类自第二次世界大战以来面临的最严峻危机。"
+      }
+    },
+    {
+      "source": "2019冠状病毒病疫情",
+      "target": "2019冠状病毒病疫情引发的经济衰退",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020",
+        "description": "导致严重的全球性社会和经济混乱。"
+      }
+    },
+    {
+      "source": "2019冠状病毒病疫情引发的经济衰退",
+      "target": "大萧条",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "新冠疫情引发的经济衰退被认为是自1930年代的大萧条以来最大的衰退。"
+      }
+    },
+    {
+      "source": "吕克·蒙塔尼耶",
+      "target": "2019冠状病毒病武汉实验室释放与泄露论",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-04",
+        "description": "声称新冠病毒为人造，并在开发艾滋病疫苗时从武汉病毒研究所意外泄露。"
+      }
+    },
+    {
+      "source": "美国众议院新型冠状病毒大流行特别小组委员会",
+      "target": "2019冠状病毒病武汉实验室释放与泄露论",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2024-12-02",
+        "description": "发表报告，结论认为新型冠状病毒可能从中国实验室泄漏。"
+      }
+    },
+    {
+      "source": "中央情报局",
+      "target": "2019冠状病毒病武汉实验室释放与泄露论",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2025-01-25",
+        "description": "公布文件显示，COVID-19病毒很可能源自武汉病毒研究所的实验室泄漏。"
+      }
+    },
+    {
+      "source": "埃隆·马斯克",
+      "target": "美国国际开发署",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-02-03",
+        "description": "在社交平台X上指控美国国际开发署使用美国纳税人的资金支持武汉病毒研究所的研究。"
+      }
+    },
+    {
+      "source": "美国国际开发署",
+      "target": "中国科学院武汉病毒研究所",
+      "type": "PUSHED",
+      "properties": {
+        "description": "被埃隆·马斯克指控资助武汉病毒研究所用于研究“蝙蝠冠状病毒突变”。"
+      }
+    },
+    {
+      "source": "安东尼·佛奇",
+      "target": "中国科学院武汉病毒研究所",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019",
+        "description": "据报道，通过美国生态健康联盟向武汉病毒研究所提供资金用于研究。"
+      }
+    },
+    {
+      "source": "美国生态健康联盟",
+      "target": "中国科学院武汉病毒研究所",
+      "type": "PUSHED",
+      "properties": {
+        "description": "作为中介向武汉病毒研究所提供资金。"
+      }
+    },
+    {
+      "source": "中国科学院武汉病毒研究所",
+      "target": "严重急性呼吸系统综合征冠状病毒2",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "被多方指控为病毒的可能来源地（实验室泄漏）。"
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "中共中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "中共中央总书记"
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "谭德塞",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2020-01-21",
+        "description": "据德国情报单位消息，习近平与谭德塞通话，要求世卫不要发布人传人讯息及延后全球大流行的警告。"
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "动态清零",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-05-05",
+        "description": "在中共中央政治局常务委员会会议上强调必须坚持动态清零，同一切歪曲、怀疑、否定中国防疫方针政策的言行作斗争。"
+      }
+    },
+    {
+      "source": "白纸运动",
+      "target": "动态清零",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-11-26",
+        "description": "要求当局停止动态清零政策。"
+      }
+    },
+    {
+      "source": "白纸运动",
+      "target": "习近平",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-11-26",
+        "description": "运动中出现要求习近平下台的口号。"
+      }
+    },
+    {
+      "source": "国务院联防联控机制",
+      "target": "动态清零",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-12-07",
+        "description": "发布“新十条”，结束了清零政策。"
+      }
+    },
+    {
+      "source": "钟南山",
+      "target": "2019冠状病毒病疫情",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2020-01-20",
+        "description": "确认2019新型冠状病毒会人传人。"
+      }
+    },
+    {
+      "source": "辉瑞",
+      "target": "辉瑞－BioNTech 2019冠状病毒病疫苗",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2020-11-09",
+        "description": "与BioNTech合作开发疫苗，并公布了显示90%有效率的试验结果。"
+      }
+    },
+    {
+      "source": "美国食品药品监督管理局",
+      "target": "辉瑞－BioNTech 2019冠状病毒病疫苗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2021-08",
+        "description": "正式批准其全面授权上市。"
+      }
+    }
+  ]
+}
