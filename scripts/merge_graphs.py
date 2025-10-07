@@ -88,9 +88,12 @@ class GraphMerger:
     @gemma_limiter.limit # 应用 Gemma 装饰器
     def _should_trigger_merge_llm(self, existing_item: dict, new_item: dict) -> bool:
         """调用LLM判断新对象是否提供了有价值的新信息。"""
-        # 从比较对象中移除ID和name字段，只比较properties
-        existing_props = {k: v for k, v in existing_item.items() if k not in ['id', 'name']}
-        new_props = {k: v for k, v in new_item.items() if k not in ['id', 'name']}
+        
+        # 定义所有可能的标识符字段
+        keys_to_remove = {'id', 'name', 'source', 'target'}
+
+        existing_props = {k: v for k, v in existing_item.items() if k not in keys_to_remove}
+        new_props = {k: v for k, v in new_item.items() if k not in keys_to_remove}
 
         comparison_prompt = (
             f"{self.check_prompt}\n"
@@ -114,9 +117,12 @@ class GraphMerger:
     @gemini_flash_limiter.limit # 应用 Flash 装饰器
     def _call_llm_for_merge(self, existing_item: dict, new_item: dict, item_type: str) -> dict:
         """调用LLM执行两个冲突项的智能合并。"""
-        # 移除ID和name字段，避免LLM混淆
-        existing_props = {k: v for k, v in existing_item.items() if k not in ['id', 'name']}
-        new_props = {k: v for k, v in new_item.items() if k not in ['id', 'name']}
+        
+        # 定义所有可能的标识符字段
+        keys_to_remove = {'id', 'name', 'source', 'target'}
+
+        existing_props = {k: v for k, v in existing_item.items() if k not in keys_to_remove}
+        new_props = {k: v for k, v in new_item.items() if k not in keys_to_remove}
 
         full_prompt = (
             f"--- 现有{item_type} ---\n"
