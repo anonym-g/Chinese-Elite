@@ -17,21 +17,19 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 - [Chinese Elite (中国精英)](#chinese-elite-中国精英)
   - [中文版](#中文版)
     - [项目简介](#项目简介)
-    - [技术实现](#技术实现)
+    - [项目结构](#项目结构)
     - [数据结构](#数据结构)
     - [可视化](#可视化)
     - [如何部署](#如何部署)
-    - [数据清洗与人工手动审查](#数据清洗与人工手动审查)
     - [项目状态](#项目状态)
     - [免责声明](#免责声明)
     - [贡献](#贡献)
   - [English Version](#english-version)
     - [Project Introduction](#project-introduction)
-    - [Technical Implementation](#technical-implementation)
+    - [Project Structure](#project-structure)
     - [Data Structure](#data-structure)
     - [Visualization](#visualization)
     - [How to Deploy](#how-to-deploy)
-    - [Data Cleaning and Manual Review](#data-cleaning-and-manual-review)
     - [Project Status](#project-status)
     - [Disclaimer](#disclaimer)
     - [Contributing](#contributing)
@@ -44,90 +42,69 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 
 本项目利用大语言模型的力量，从维基百科等公开数据源中提取信息，创建一个可自我更新、公开可访问的中国政商精英关系图谱数据库，并提供可视化前端。核心目标，是为研究人员、记者、以及任何对理解中国权力结构感兴趣的人士，提供一个透明、可验证且持续改进的分析工具。
 
-### 技术实现
-
-**项目结构：**
+### 项目结构
 
 ```
 .
-├── .cache/                 # 存放缓存文件，如链接检查状态
+├── .cache/                   # 存放缓存文件 (Q-Code、链接状态、页面热度)
 ├── .github/
 │   └── workflows/
-│       └── update_data.yml # GitHub Actions 自动化工作流
+│       └── update_data.yml   # GitHub Actions 自动化数据更新工作流
 ├── data/
-│   ├── cleaned_data/       # 存放经手动审查和修正后的数据
 │   ├── person/
-│   │   └── ...             # 按类别存放的原始提取数据
+│   │   └── ...               # 按类别存放LLM原始提取的JSON数据
 │   ├── ...
-│   ├── pageviews.log       # 页面访问频次检查日志
-│   ├── processed_files.log # 记录已合并处理的文件名
-│   └── LIST.txt            # 待处理的实体种子列表
-├── data_to_be_cleaned/     # 存放由脚本分离出的问题数据
-│   └── ...
+│   ├── processed_files.log   # 记录已合并处理的文件名
+│   └── LIST.txt              # 待处理的实体种子列表 (按热度排序)
+├── data_to_be_cleaned/       # 存放由脚本分离出的待手动清理的数据
 ├── docs/
+│   ├── data/
+│   │   ├── nodes/            # 按需加载的“简单数据库”
+│   │   │   └── Q12345/
+│   │   │       ├── node.json
+│   │   │       └──...
+│   │   ├── initial.json      # 前端首次加载的核心图谱 (暂未使用)
+│   │   └── name_to_id.json   # 全局搜索的名称-ID映射索引
 │   ├── modules/
-│   │   ├── config.js         # 前端-全局配置
-│   │   ├── dataProcessor.js  # 前端-数据处理与分析
-│   │   ├── graphView.js      # 前端-D3.js视图渲染
+│   │   ├── config.js         # 前端配置
+│   │   ├── dataProcessor.js  # 前端-数据处理、按需加载与路径查找
+│   │   ├── graphView.js      # 前端-PixiJS (WebGL) 视图渲染与交互
 │   │   ├── state.js          # 前端-状态管理
 │   │   ├── uiController.js   # 前端-UI控件与事件处理
 │   │   └── utils.js          # 前端-辅助工具函数
 │   ├── main.js               # 前端-主入口文件
-│   ├── consolidated_graph.json # 合并后的主图谱文件
+│   ├── master_graph_qcode.json # 合并后的完整主图谱文件
 │   ├── index.html            # 可视化页面
 │   └── style.css             # 页面样式
+├── logs/                     # 存放后端运行日志
 ├── scripts/
-│   ├── prompts/              # 存放LLM的系统提示(Prompt)文本
-│   │   ├── merge_check.txt
-│   │   ├── merge_execute.txt
-│   │   └── parser_system.txt
+│   ├── prompts/              # 存放LLM的提示词 (Prompt) 文本
+│   │   └── ...
+│   ├── api_rate_limiter.py   # API速率限制器
 │   ├── check_pageviews.py    # 检查实体热度并重排序列表
-│   ├── clean_data.py         # 数据清洗脚本
-│   ├── config.py             # 存放所有路径和模型配置
-│   ├── merge_graphs.py       # 数据合并脚本
+│   ├── clean_data.py         # 深度数据清洗与维护脚本
+│   ├── config.py             # 后端-所有路径和模型配置
+│   ├── generate_frontend_data.py # 生成所有前端数据文件
+│   ├── merge_graphs.py       # 增量数据智能合并脚本
 │   ├── parse_gemini.py       # LLM 解析脚本
-│   ├── process_list.py       # 处理列表的核心脚本
-│   └── utils.py              # 辅助工具脚本
-├── .env                    # (需自行创建) 存放 API 密钥
+│   ├── process_list.py       # 根据列表处理实体的核心脚本
+│   └── utils.py              # 维基百科API客户端与辅助工具
+├── .env                      # (需自行创建) 存放 API 密钥
 ├── .gitignore
 ├── README.md
-├── requirements.txt        # Python 依赖列表
-└── run_pipeline.py         # 完整流水线一键执行脚本
+├── requirements.txt          # Python 依赖列表
+└── run_pipeline.py           # 完整流水线一键执行脚本
 ```
-
-**后端数据处理流程** 始于用户在 `data/LIST.txt` 文件中定义的实体种子列表。
-
-`scripts/process_list.py` 脚本会读取此列表，并通过维基百科API检查每个条目的最后修订时间，以避免对未更新的页面进行重复处理。
-
-对于需要处理的条目，`scripts/utils.py` 会获取其Wikitext源码并进行简繁转换。随后，`scripts/parse_gemini.py` 脚本会将纯文本源码提交给大语言模型（目前使用Gemini-2.5-pro），以JSON格式提取出结构化的节点与关系信息。
-
-当生成多个独立的JSON文件后，`scripts/merge_graphs.py` 脚本负责将所有碎片化的数据智能地合并到 `docs/consolidated_graph.json` 这个主图谱文件中。合并过程采用两阶段LLM调用以提高效率和准确性。
-
-项目的所有关键配置，如模型名称、文件路径等，均集中在 `scripts/config.py` 文件中，方便用户统一管理和修改。
-
-整个流程可以通过执行根目录的 `run_pipeline.py` 脚本一键启动。
-
-该流水线脚本会按顺序执行实体处理、图谱合并、数据清洗，并最终调用 `scripts/check_pageviews.py` 检查各实体的维基百科页面热度，根据访问频次对 `data/LIST.txt` 列表进行重排序。
-
-**前端可视化架构** 采用了模块化设计，以实现功能解耦和高可维护性。
-
-`docs/main.js` 是前端应用的主入口，负责初始化和协调各个模块。核心逻辑分布在 `docs/modules/` 目录下：
-
-`state.js` 管理应用的所有状态（如时间范围、选中节点）；
-
-`dataProcessor.js` 负责加载、过滤和分析图谱数据；
-
-`graphView.js` 封装了所有D3.js的渲染逻辑，负责将数据绘制成SVG图形；
-
-`uiController.js` 则处理所有用户界面（如日期选择器、搜索框）的交互事件。
 
 ### 数据结构
 
 系统输出的核心是JSON对象，包含 `nodes` (节点) 和 `relationships` (关系) 两个关键部分。
 
-**节点** `nodes` 是图中的实体，其属性包括唯一的 `id` (通常是实体在Wikipedia的主页面名称)、`type` (实体类型，如人物、组织、运动、事件、地点、文件等六种预设类型)、`aliases` (别名列表) 以及 `properties` (包含活跃时期、生卒年月、地理位置、简短描述等详细信息)。
+**节点** (`nodes`) 是图中的实体，其属性包括唯一的 `id` (优先使用 Wikidata Q-Code)、`type` (实体类型)、`name` (名称列表) 以及 `properties` (属性，包含活跃时期、生卒年月、描述等详细信息)。
 
-**关系** `relationships` 定义了节点之间的连接，其属性包括 `source` (源节点id)、`target` (目标节点id)、`type` (关系类型) 以及 `properties` (包含关系起止时间、职位、补充描述等)。目前，关系类型包括以下几种：
+预设的节点类型包括：`Person`, `Organization`, `Movement`, `Event`, `Location`, `Document`。
+
+**关系** (`relationships`) 定义了节点之间的连接，其属性包括 `source` (源节点id)、`target` (目标节点id)、`type` (关系类型) 以及 `properties` (包含关系起止时间、职位、补充描述等)。目前，关系类型包括以下几种：
 
 | 类型 | 方向 | 源节点类型 | 目标节点类型 |
 | :--- | :--- | :--- | :--- |
@@ -146,17 +123,15 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 | `PUSHED` (推动) | 有向 | 人物, 组织, 事件, 运动, 文件 | 人物, 组织, 事件, 运动, 文件 |
 | `BLOCKED` (阻碍) | 有向 | 人物, 组织, 事件, 运动, 文件 | 人物, 组织, 事件, 运动, 文件 |
 | `INFLUENCED` (影响) | 有向 | 人物, 组织, 事件, 运动, 文件 | 人物, 组织, 事件, 运动, 文件, 地点 |
-| `FOUNDED` (创立) | 有向 | 人物, 组织 | 组织, 运动 |
+| `FOUNDED` (创立) | 有向 | 人物, 组织 | 组织 |
 
 ### 可视化
 
-项目在 `docs/` 目录下提供了一个基于 D3.js 构建的交互式前端可视化界面。用户通过浏览器打开 `docs/index.html` 文件，即可加载并浏览 `docs/consolidated_graph.json` 中的图谱数据。
+项目在 `docs/` 目录下提供了一个交互式前端可视化界面。它使用 PixiJS (WebGL) 进行高性能渲染，并结合 D3.js 进行物理布局模拟，能够流畅地展示数千个节点。
 
-该界面支持按时间范围筛选节点和关系，通过图例动态显示或隐藏不同类型的节点，并允许用户通过点击节点来高亮其直接关联网络。
+该界面支持按时间范围筛选节点和关系，通过图例动态显示或隐藏不同类型的节点。
 
-节点的尺寸与其在当前时间范围内的度（连接数）相关联，提供了直观的重要性参考。
-
-该页面亦基于 GitHub Pages 部署在云端，允许用户通过[链接](https://anonym-g.github.io/Chinese-Elite/)进行访问。
+该页面已通过 GitHub Pages 部署，您可以通过[此链接](https://anonym-g.github.io/Chinese-Elite/)进行访问。
 
 ### 如何部署
 
@@ -164,18 +139,8 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 2.  安装所有必要的Python依赖包：`pip install -r requirements.txt`。
 3.  在项目根目录创建 `.env` 文件，并设置你的 `GOOGLE_API_KEY`。
 4.  在 `data/LIST.txt` 中按分类填入你希望抓取的实体名称。
-5.  执行项目根目录下的 `python run_pipeline.py` 脚本。该脚本将自动按顺序完成实体列表处理、图谱合并、数据清洗及列表重排序的全过程。
-6.  在浏览器中打开 `docs/index.html` 文件即可查看和交互。为避免浏览器本地文件访问限制，建议通过一个简单的本地HTTP服务器来访问该文件。
-
-### 数据清洗与人工手动审查
-
-为保证主图谱的长期健康，可以定期运行 `scripts/clean_data.py` 脚本。
-
-它会遍历主图谱中的所有节点，检查其对应的维基百科链接状态，并将重定向、指向消歧义页或链接失效的“问题节点”及其相关关系一并分离，存入项目根目录下的 `data_to_be_cleaned/` 文件夹中，以供手动审查或修正。
-
-该脚本内置缓存机制（缓存位于 `.cache/` 目录），能够记录已检查过的链接状态，避免重复发起网络请求，从而显著提升后续运行的效率。
-
-手动审查完毕并修正后的数据文件，可以移入 `data/cleaned_data/` 文件夹进行归档，或直接将修正后的内容并入主图谱文件 `docs/consolidated_graph.json`。
+5.  执行 `python run_pipeline.py` 脚本，它将自动完成完整的后端数据处理流程。
+6.  为避免浏览器本地文件访问限制，建议通过一个简单的本地HTTP服务器（如 `python -m http.server`）启动服务，然后在浏览器中访问。
 
 ### 项目状态
 
@@ -189,6 +154,51 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 
 这是一个开源项目，非常欢迎任何形式的贡献。无论你是开发者、数据科学家还是领域专家，都可以通过改进提取脚本、优化LLM提示、扩展种子列表、增强前端可视化或报告数据不准确之处来提供帮助。请自由Fork本仓库、开启Issue或提交Pull Request。
 
+如果您希望修正数据，主要有两种方式。
+
+最直接的方式是直接修改 `docs/master_graph_qcode.json` 文件 (主数据文件) 。您可以克隆仓库，手动编辑此文件以修正错误的节点属性或关系，然后提交一个 Pull Request。
+
+请注意，LLM在提取数据时存在一些普遍问题，例如：它可能会生成一些较弱的冗余关系（如同时生成 `BLOCKED`、`INFLUENCED`，后者通常可直接删去）；对于部分有向关系（如 `INFLUENCED`），它有时会弄反源节点和目标节点。我们尤其欢迎针对这类数据错误的修正。
+
+另一种方式是通过添加种子列表来影响数据。在 `data/LIST.txt` 的前6个栏目中添加实体名称，可以让脚本在后续运行时检索对应的维基百科页面。
+
+注意，考虑到脚本的工作方式，您必须添加完整的维基百科页面名。以下举两例说明：
+
+49-54年的中央人民政府，维基百科的页面链接是 [https://zh.wikipedia.org/wiki/中华人民共和国中央人民政府_(1949年—1954年)](https://zh.wikipedia.org/wiki/中华人民共和国中央人民政府_(1949年—1954年))
+
+那么，您需要复制粘贴完整的页面名，"中华人民共和国中央人民政府 (1949年—1954年)" (下划线可以正常换成空格，其他部分必须与页面名一致，包括破折线、两个"年"字)，并将其添加到 `data/LIST.txt` 文件的 Organization (组织) 条目下。
+
+蒋介石，维基百科的页面链接是 [https://zh.wikipedia.org/wiki/蔣中正](https://zh.wikipedia.org/wiki/蔣中正)
+
+那么，您需要复制粘贴 "蔣中正" (繁体"蔣"，以便查重)，并将其添加到 `data/LIST.txt` 文件的 Person (人物) 条目下。
+
+`data/LIST.txt`: 
+Person
+...
+蔣中正
+
+Organization
+...
+中华人民共和国中央人民政府 (1949年—1954年)
+
+...
+
+这样，GitHub Action Bot在下次运行 `.github/workflows/update_data.yml` 时，将自动处理这两个页面，利用LLM提取其中的有关信息。——如果LLM API用量没有超限的话。
+
+另外，在添加这些词项时，请用 `Shift + F` 随手查一下重。若词项已经在前六条，则不必添加。若条目在 new 条目下，请随手删除 (new 下面的词条不会被处理，相当于一个缓冲池) 。
+
+`data/LIST.txt`: 
+Person
+...
+蔣中正
+
+...
+
+new
+...
+~~蔣中正~~
+...
+
 -----
 
 ## English Version
@@ -197,90 +207,69 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 
 This project leverages the power of Large Language Models to extract information from public data sources like Wikipedia, creating a self-updating, publicly accessible graph database of relationship networks among China's political and business elites, complete with a visualization front-end. The core objective is to provide a transparent, verifiable, and continuously improving analytical tool for researchers, journalists, and anyone interested in understanding China's power structures.
 
-### Technical Implementation
-
-**Project Structure:**
+### Project Structure
 
 ```
 .
-├── .cache/                 # Stores cache files, e.g., link status checks
+├── .cache/                   # Stores cache files (Q-Codes, link status, page views)
 ├── .github/
 │   └── workflows/
-│       └── update_data.yml # GitHub Actions workflow for automation
+│       └── update_data.yml   # GitHub Actions workflow for automated data updates
 ├── data/
-│   ├── cleaned_data/       # Stores data that has been manually reviewed and corrected
 │   ├── person/
-│   │   └── ...             # Stores raw extracted data, categorized
+│   │   └── ...               # Raw JSON data extracted by LLM, categorized
 │   ├── ...
-│   ├── pageviews.log       # Log file for page view checks
-│   ├── processed_files.log # Logs filenames that have been merged
-│   └── LIST.txt            # Seed list of entities to be processed
-├── data_to_be_cleaned/     # Stores problematic data separated by the cleaning script
-│   └── ...
+│   ├── processed_files.log   # Logs filenames that have been merged
+│   └── LIST.txt              # Seed list of entities to be processed (sorted by popularity)
+├── data_to_be_cleaned/       # Stores data separated by scripts for manual cleaning
 ├── docs/
+│   ├── data/
+│   │   ├── nodes/            # "Simple database" for on-demand loading
+│   │   │   └── Q12345/
+│   │   │       ├── node.json
+│   │   │       └── ...
+│   │   ├── initial.json      # Core graph for initial frontend load (currently unused)
+│   │   └── name_to_id.json   # Name-to-ID mapping index for global search
 │   ├── modules/
-│   │   ├── config.js         # Frontend - Global configuration
-│   │   ├── dataProcessor.js  # Frontend - Data processing and analysis
-│   │   ├── graphView.js      # Frontend - D3.js view rendering
+│   │   ├── config.js         # Frontend configuration
+│   │   ├── dataProcessor.js  # Frontend - Data processing, on-demand loading, and pathfinding
+│   │   ├── graphView.js      # Frontend - PixiJS (WebGL) view rendering and interaction
 │   │   ├── state.js          # Frontend - State management
 │   │   ├── uiController.js   # Frontend - UI controls and event handling
 │   │   └── utils.js          # Frontend - Utility functions
 │   ├── main.js               # Frontend - Main entry point
-│   ├── consolidated_graph.json # The main, merged graph file
+│   ├── master_graph_qcode.json # The final, complete master graph file
 │   ├── index.html            # Visualization page
 │   └── style.css             # Page stylesheet
+├── logs/                     # Stores backend runtime logs
 ├── scripts/
-│   ├── prompts/              # Stores system prompt text files for LLMs
-│   │   ├── merge_check.txt
-│   │   ├── merge_execute.txt
-│   │   └── parser_system.txt
+│   ├── prompts/              # Stores prompt text files for the LLM
+│   │   └── ...
+│   ├── api_rate_limiter.py   # API rate limiter
 │   ├── check_pageviews.py    # Checks entity popularity and reorders the list
-│   ├── clean_data.py         # Data cleaning script
-│   ├── config.py             # Stores all path and model configurations
-│   ├── merge_graphs.py       # Data merging script
+│   ├── clean_data.py         # Deep data cleaning and maintenance script
+│   ├── config.py             # Backend - Configuration for all paths and models
+│   ├── generate_frontend_data.py # Generates all frontend data files
+│   ├── merge_graphs.py       # Script for intelligent incremental data merging
 │   ├── parse_gemini.py       # LLM parsing script
-│   ├── process_list.py       # Core script for processing the list
-│   └── utils.py              # Utility script
-├── .env                    # (Must be created manually) Stores API key
+│   ├── process_list.py       # Core script for processing entities from the list
+│   └── utils.py              # Wikipedia API client and helper utilities
+├── .env                      # (Must be created manually) Stores API key
 ├── .gitignore
 ├── README.md
-├── requirements.txt        # Python dependency list
-└── run_pipeline.py         # One-click script to run the entire pipeline
+├── requirements.txt          # Python dependency list
+└── run_pipeline.py           # One-click script to run the entire pipeline
 ```
-
-The **backend data processing workflow** begins with a user-defined seed list of entities in the `data/LIST.txt` file. 
-
-The `scripts/process_list.py` script reads this list and checks the last revision time of each entry via the Wikipedia API to avoid reprocessing unchanged pages. 
-
-For entries that need processing, `scripts/utils.py` fetches their Wikitext source. 
-
-Subsequently, `scripts/parse_gemini.py` submits the plain text to an LLM (currently using Gemini-2.5-pro) to extract structured nodes and relationships in JSON format.
-
-Once multiple individual JSON files are generated, `scripts/merge_graphs.py` intelligently consolidates all the fragmented data into the main graph file, `docs/consolidated_graph.json`, using a two-stage LLM call to improve efficiency and accuracy.
-
-All key project configurations are centralized in `scripts/config.py`. 
-
-The entire workflow can be initiated by executing `run_pipeline.py`, which sequentially runs entity processing, graph merging, data cleaning, and finally calls `scripts/check_pageviews.py` to check the Wikipedia page popularity of each entity and reorder the `data/LIST.txt` file based on view counts.
-
-The **frontend visualization architecture** is modular for better maintainability. 
-
-`docs/main.js` serves as the main entry point, initializing and coordinating all modules. The core logic is split into files under `docs/modules/`: 
-
-`state.js` manages all application state (e.g., time range, selected node); 
-
-`dataProcessor.js` is responsible for loading, filtering, and analyzing the graph data; 
-
-`graphView.js` encapsulates all D3.js rendering logic to draw the data as an SVG; and 
-
-`uiController.js` handles all user interface interactions (e.g., date pickers, search box).
 
 ### Data Structure
 
 The core output of the system is a JSON object containing two key parts: `nodes` and `relationships`.
 
-**Nodes** are the entities in the graph. Their attributes include a unique `id` (usually the entity's main page name on Wikipedia), a `type` (one of six predefined types such as Person, Organization, Movement), a list of `aliases`, and `properties` (containing details like active period, birth/death dates, location, and a brief description).
+**Nodes** are the entities in the graph. Their attributes include a unique `id` (preferably a Wikidata Q-Code), a `type`, a `name` (list of names), and `properties` (containing details like active periods, birth/death dates, and a brief description).
 
-**Relationships** define the connections between nodes. Their attributes include a `source` (source node id), a `target` (target node id), a `type` (one of predefined types), and `properties` (containing start/end times, positions, and supplementary descriptions). Relationship types currently includes:
+Predefined node types include: `Person`, `Organization`, `Movement`, `Event`, `Location`, `Document`.
+
+**Relationships** define the connections between nodes. Their attributes include a `source` (source node id), a `target` (target node id), a `type` (relationship type), and `properties` (containing start/end times, positions, and supplementary descriptions). The relationship types are as follows:
 
 | Type | Direction | Source Types | Target Types |
 | :--- | :--- | :--- | :--- |
@@ -299,38 +288,24 @@ The core output of the system is a JSON object containing two key parts: `nodes`
 | `PUSHED` | Directed | Person, Organization, Event, Movement, Document | Person, Organization, Event, Movement, Document |
 | `BLOCKED` | Directed | Person, Organization, Event, Movement, Document | Person, Organization, Event, Movement, Document |
 | `INFLUENCED` | Directed | Person, Organization, Event, Movement, Document | Person, Organization, Event, Movement, Document, Location |
-| `FOUNDED` | Directed | Person, Organization | Organization, Movement |
+| `FOUNDED` | Directed | Person, Organization | Organization |
 
 ### Visualization
 
-The project provides an interactive front-end visualization interface built with D3.js, located in the `docs/` directory. By opening the `docs/index.html` file in a browser, users can load and browse the graph data from `docs/consolidated_graph.json`.
+The project provides an interactive frontend visualization interface in the `docs/` directory. It uses PixiJS (WebGL) for high-performance rendering and D3.js for physics-based layouts, enabling the smooth display of thousands of nodes.
 
-The interface supports filtering nodes and relationships by a time range, dynamically showing or hiding different types of nodes through a legend, and allowing users to highlight a node's direct network by clicking on it.
+The interface supports filtering nodes and relationships by a time range and dynamically showing or hiding different types of nodes through a legend.
 
-The size of a node correlates with its degree (number of connections) within the current time frame, offering an intuitive reference for its importance.
-
-The page is also deployed in the cloud based on GitHub Pages, which can be accessed by users via [link](https://anonym-g.github.io/Chinese-Elite/).
+The page is deployed via GitHub Pages and can be accessed at [this link](https://anonym-g.github.io/Chinese-Elite/).
 
 ### How to Deploy
 
 1.  Clone this repository to your local machine.
 2.  Install all necessary Python dependencies: `pip install -r requirements.txt`.
 3.  Create a `.env` file in the project root and set your `GOOGLE_API_KEY`.
-4.  Fill in the entity names you wish to crawl in `data/LIST.txt`, categorized accordingly.
-5.  Execute the `python run_pipeline.py` script in the project root. This script will automatically handle the entire process of entity list processing, graph merging, data cleaning, and list reordering.
-6.  Open the `docs/index.html` file in a browser to view and interact with the data. To avoid local file access restrictions in browsers, it is recommended to access this file through a simple local HTTP server.
-
-### Data Cleaning and Manual Review
-
-To ensure the long-term health of the main graph, the `scripts/clean_data.py` script can be run periodically. 
-
-It iterates through all nodes in the main graph, checks their corresponding Wikipedia link status, and separates "problem nodes"—those that are redirects, point to disambiguation pages, or have broken links—along with their associated relationships. 
-
-These are saved into the `data_to_be_cleaned/` directory at the project root for manual review and correction. 
-
-The script has a built-in caching mechanism (cache located in the `.cache/` directory) to remember the status of checked links, avoiding repeated network requests and significantly speeding up subsequent runs.
-
-After manual review and correction, the data files can be moved to the `data/cleaned_data/` directory for archival, or their corrected content can be merged directly into the main graph file, `docs/consolidated_graph.json`.
+4.  Fill `data/LIST.txt` with the entity names you wish to process, organized by category.
+5.  Run `python run_pipeline.py` to execute the complete backend data processing pipeline.
+6.  To avoid browser restrictions on local file access, it's recommended to serve the directory with a simple local HTTP server (e.g., `python -m http.server`) and open the provided URL in your browser.
 
 ### Project Status
 
@@ -342,4 +317,49 @@ The data presented by this tool is for informational and research purposes only.
 
 ### Contributing
 
-This is an open-source project, and highly welcome contributions of all forms. Whether you are a developer, data scientist, or domain expert, you can help by improving the extraction scripts, fine-tuning the LLM prompts, expanding the seed list, enhancing the front-end visualization, or reporting data inaccuracies. Please feel free to fork this repository, open an issue, or submit a pull request.
+This is an open-source project, and contributions of all forms are highly welcome. Whether you are a developer, data scientist, or domain expert, you can help by improving the extraction scripts, fine-tuning the LLM prompts, expanding the seed list, enhancing the front-end visualization, or reporting data inaccuracies. Please feel free to fork this repository, open an issue, or submit a pull request.
+
+If you wish to correct data, there are two primary methods.
+
+The most direct way is to edit the `docs/master_graph_qcode.json` file (the main data file). You can clone the repository, manually edit this file to fix incorrect node properties or relationships, and then submit a Pull Request.
+
+Please note that there are common issues with LLM-based extraction. For example, it may generate weak, redundant relationships (e.g., generating both `BLOCKED` and `INFLUENCED`, where the latter can often be deleted), or it may sometimes reverse the source and target for directed relationships (like `INFLUENCED`). We especially welcome corrections for these types of data errors.
+
+Another way is to influence the data by adding to the seed list. Adding entity names to the first six categories in `data/LIST.txt` will cause the script to retrieve the corresponding Wikipedia pages during its next run.
+
+Note that due to how the script works, you must add the full Wikipedia page title. Here are two examples:
+
+For the Central People's Government from 1949-1954, the Wikipedia page URL is https://zh.wikipedia.org/wiki/中华人民共和国中央人民政府_(1949年—1954年)
+
+You would need to copy the full page title, "中华人民共和国中央人民政府 (1949年—1954年)" (underscores can be replaced with spaces, but other parts must match the page title exactly, including hyphens and characters), and add it under the Organization category in the `data/LIST.txt` file.
+
+For Chiang Kai-shek, the Wikipedia page URL is https://zh.wikipedia.org/wiki/蔣中正
+
+You would need to copy "蔣中正" (in Traditional Chinese) and add it under the Person category in the `data/LIST.txt` file.
+
+`data/LIST.txt`:
+Person
+...
+蔣中正
+
+Organization
+...
+中华人民共和国中央人民政府 (1949年—1954年)
+
+...
+
+This way, when the GitHub Action Bot next runs `.github/workflows/update_data.yml`, it will automatically process these two pages and extract relevant information using the LLM—provided the LLM API usage has not exceeded its limit.
+
+Additionally, when adding these terms, please use `Shift + F` to quickly check for duplicates. If the term is already in the first six categories, there is no need to add it. If the term is under the `new` category, please delete it (terms under `new` are not processed and act as a buffer pool).
+
+`data/LIST.txt`:
+Person
+...
+蔣中正
+
+...
+
+new
+...
+~~蔣中正~~
+...
