@@ -35,6 +35,7 @@ PROMPTS_DIR = os.path.join(os.path.dirname(__file__), 'prompts')
 PARSER_SYSTEM_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'parser_system.txt')
 MERGE_CHECK_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'merge_check.txt')
 MERGE_EXECUTE_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'merge_execute.txt')
+VALIDATE_PR_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'pr_validator.txt')
 
 # --- LLM 模型配置 ---
 # 用于从Wikitext解析实体和关系的主模型
@@ -43,6 +44,8 @@ PARSER_MODEL = "gemini-2.5-pro"
 MERGE_CHECK_MODEL = "gemma-3-27b-it"
 # 用于执行两个JSON对象的智能合并
 MERGE_EXECUTE_MODEL = "gemini-2.5-flash"
+# 用于验证PR有效性的模型
+VALIDATE_PR_MODEL = "gemini-2.5-flash-lite"
 
 # --- LLM 参数配置 ---
 FEW_SHOT_NODE_SAMPLES = 12
