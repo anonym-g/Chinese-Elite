@@ -14,6 +14,7 @@ from config import (
     PROMPTS_DIR
 )
 from utils import WikipediaClient
+from api_rate_limiter import gemma_limiter
 
 logger = logging.getLogger(__name__)
 
@@ -182,6 +183,7 @@ class GraphCleaner:
             
         return final_relationships
 
+    @gemma_limiter.limit # 应用 Gemma 装饰器
     def _call_relation_cleaner_llm(self, rels_to_check: list, id_to_name_map: dict) -> list:
         """调用LLM来判断应删除哪些关系。"""
         # 步骤 2: 构建发送给LLM的负载，将ID替换为名称

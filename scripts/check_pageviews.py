@@ -21,6 +21,12 @@ logger = logging.getLogger(__name__)
 s2t_converter = OpenCC('s2t') # 简转繁
 t2s_converter = OpenCC('t2s') # 繁转简
 
+# --- 为不同的维基API端点设置独立的并发限制 ---
+# MediaWiki Action API (api.php) 通常限制比较严格
+WIKI_API_SEMAPHORE = asyncio.Semaphore(5)
+# Pageviews API (rest_v1) 通常限制较宽松
+PAGEVIEWS_API_SEMAPHORE = asyncio.Semaphore(10)
+
 # --- 其他全局常量 ---
 PAGEVIEWS_DATA_START_DATE = datetime(2015, 7, 1)
 CACHE_FILE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
@@ -75,13 +81,17 @@ def batchify(data: list, batch_size: int):
         yield data[i:i + batch_size]
 
 async def make_api_request_async(session: aiohttp.ClientSession, url, params=None):
-    """执行异步API请求，并在失败时自动重试。"""
+    """执行异步API请求，并在失败时自动重试。包含指数退避。"""
     retries = 0
     timeout_obj = aiohttp.ClientTimeout(total=1.5)
     while retries < MAX_RETRIES:
         try:
             async with session.get(url, params=params, timeout=timeout_obj) as response:
                 if response.status == 404: return None
+                if response.status == 429:
+                    logger.warning(f"收到 429 错误，将在 {(2 ** retries):.1f}s 后重试: {url}")
+                    response.raise_for_status()
+                
                 response.raise_for_status()
                 return await response.json()
         except (aiohttp.ClientError, asyncio.TimeoutError) as e:
@@ -89,13 +99,19 @@ async def make_api_request_async(session: aiohttp.ClientSession, url, params=Non
             if retries >= MAX_RETRIES:
                 logger.warning(f"API请求失败 (尝试 {retries}/{MAX_RETRIES}): {url}, 错误: {e}")
                 return None
-            await asyncio.sleep(retries)
+            
+            backoff_time = (2 ** retries) + random.uniform(0, 1)
+            await asyncio.sleep(backoff_time)
     return None
 
 async def get_article_creation_date_async(session: aiohttp.ClientSession, article_title: str) -> datetime | None:
     """通过MediaWiki API异步获取维基百科文章的创建日期。"""
     params = {"action": "query", "prop": "revisions", "titles": article_title, "rvlimit": "1", "rvdir": "newer", "format": "json", "formatversion": "2"}
-    data = await make_api_request_async(session, WIKI_API_URL, params=params)
+
+    # 控制并发
+    async with WIKI_API_SEMAPHORE:
+        data = await make_api_request_async(session, WIKI_API_URL, params=params)
+    
     if not data: return None
     try:
         page = data["query"]["pages"][0]
@@ -127,7 +143,10 @@ async def _fetch_stats_for_title_async(session: aiohttp.ClientSession, article_t
     encoded_title = urllib.parse.quote(article_title.replace(" ", "_"))
     url = f"{PAGEVIEWS_API_BASE}zh.wikipedia.org/all-access/user/{encoded_title}/daily/{start_str}/{end_str}"
     
-    data = await make_api_request_async(session, url)
+    # 控制并发
+    async with PAGEVIEWS_API_SEMAPHORE:
+        data = await make_api_request_async(session, url)
+    
     if not data:
         return {'error': 'Pageviews API request failed'}
 
