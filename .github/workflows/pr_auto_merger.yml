@@ -34,6 +34,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }} 
         run: |
+          # --- 开启详细日志模式 ---
+          set -x
+
           echo "开始智能验证流程..."
           merged_count=0
           max_merges=10
@@ -53,11 +56,22 @@ jobs:
             echo "--- 正在检查 PR #${pr_number} ---"
             
             files_changed=$(gh pr diff $pr_number --name-only)
-            file_count=$(echo "$files_changed" | wc -l)
-            other_files=$(echo "$files_changed" | grep -vE '^(docs/master_graph_qcode.json|data/LIST.txt)$')
+            
+            echo "PR #${pr_number} 包含以下文件变更:"
+            echo "${files_changed}"
+            
+            # 文件数量是否为1
+            file_count=$(echo -n "${files_changed}" | grep -c .)
+            echo "文件数量 (file_count): ${file_count}"
+            if [ "${file_count}" -ne 1 ]; then
+              echo "PR #${pr_number} 修改了多个文件 (${file_count} 个)，已跳过。"
+              continue
+            fi
 
-            if [ -n "$other_files" ] || [ "$file_count" -ne 1 ]; then
-              echo "PR #${pr_number} 修改了不允许的文件或修改了多个文件，已跳过。"
+            # 文件名是否在白名单内
+            # grep -q 表示静默模式，只通过退出码告知结果
+            if ! echo "${files_changed}" | grep -qE '^(docs/master_graph_qcode.json|data/LIST.txt)$'; then
+              echo "PR #${pr_number} 修改了不允许的文件: ${files_changed}，已跳过。"
               continue
             fi
 
