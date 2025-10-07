@@ -45,8 +45,8 @@ MERGE_CHECK_MODEL = "gemma-3-27b-it"
 MERGE_EXECUTE_MODEL = "gemini-2.5-flash"
 
 # --- LLM 参数配置 ---
-FEW_SHOT_NODE_SAMPLES = 4
-FEW_SHOT_REL_SAMPLES = 6
+FEW_SHOT_NODE_SAMPLES = 12
+FEW_SHOT_REL_SAMPLES = 24
 
 # --- API 与外部服务配置 ---
 WIKI_BASE_URL = "https://zh.wikipedia.org/zh-cn/"

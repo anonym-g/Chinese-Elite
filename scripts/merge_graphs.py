@@ -15,6 +15,7 @@ from config import (
     NON_DIRECTED_LINK_TYPES, MASTER_GRAPH_PATH
 )
 from utils import WikipediaClient, add_title_to_list
+from api_rate_limiter import gemma_limiter, gemini_flash_limiter
 
 logger = logging.getLogger(__name__)
 
@@ -84,6 +85,7 @@ class GraphMerger:
         else:
             return (source, target), rel_type
 
+    @gemma_limiter.limit # 应用 Gemma 装饰器
     def _should_trigger_merge_llm(self, existing_item: dict, new_item: dict) -> bool:
         """调用LLM判断新对象是否提供了有价值的新信息。"""
         # 从比较对象中移除ID和name字段，只比较properties
@@ -109,6 +111,7 @@ class GraphMerger:
             logger.error(f"LLM预检失败 - {e}")
             return True
 
+    @gemini_flash_limiter.limit # 应用 Flash 装饰器
     def _call_llm_for_merge(self, existing_item: dict, new_item: dict, item_type: str) -> dict:
         """调用LLM执行两个冲突项的智能合并。"""
         # 移除ID和name字段，避免LLM混淆
@@ -221,7 +224,10 @@ class GraphMerger:
                     if self._should_trigger_merge_llm(existing_node, new_node):
                         logger.info(f"    - LLM预检: YES，启动智能合并properties。")
                         merged_node_props = self._call_llm_for_merge(existing_node, new_node, "节点")
-                        existing_node.update(merged_node_props)
+
+                        # 用 if 过滤装饰器返回的特殊值 (None)
+                        if merged_node_props:
+                            existing_node.update(merged_node_props)
                     else:
                         logger.info(f"    - LLM预检: NO，跳过合并properties。")
 
@@ -251,7 +257,10 @@ class GraphMerger:
                             existing_node['name']['zh-cn'] = final_name_list
                             if self._should_trigger_merge_llm(existing_node, new_node):
                                 merged_node_props = self._call_llm_for_merge(existing_node, new_node, "节点")
-                                existing_node.update(merged_node_props)
+
+                                # 用 if 过滤装饰器返回的特殊值 (None)
+                                if merged_node_props: 
+                                    existing_node.update(merged_node_props)
                             self.master_nodes_map[qcode] = existing_node
                             final_id = qcode
                         
@@ -310,7 +319,10 @@ class GraphMerger:
                     existing_rel = master_rels_map[rel_key]
                     if self._should_trigger_merge_llm(existing_rel, new_rel):
                         merged_rel = self._call_llm_for_merge(existing_rel, new_rel, "关系")
-                        master_rels_map[rel_key] = merged_rel
+
+                        # 用 if 过滤装饰器返回的特殊值 (None)
+                        if merged_rel:
+                            master_rels_map[rel_key] = merged_rel
                 else:
                     master_rels_map[rel_key] = new_rel
 

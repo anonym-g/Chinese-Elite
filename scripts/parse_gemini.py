@@ -14,6 +14,7 @@ from config import (
     PARSER_MODEL, PARSER_SYSTEM_PROMPT_PATH, MASTER_GRAPH_PATH,
     FEW_SHOT_NODE_SAMPLES, FEW_SHOT_REL_SAMPLES
 )
+from api_rate_limiter import gemini_pro_limiter
 
 logger = logging.getLogger(__name__)
 
@@ -83,7 +84,7 @@ class GeminiParser:
             example_str = json.dumps(examples, indent=2, ensure_ascii=False)
             
             return f"""
-请参考以下高质量的JSON格式样例来构建你的输出。这只是格式参考，你不需要提取与样例完全一样的内容。
+请参考以下JSON格式样例来构建你的输出。
 
 --- JSON格式样例 START ---
 {example_str}
@@ -93,6 +94,7 @@ class GeminiParser:
             logger.warning(f"读取或解析 few-shot 范例文件失败 - {e}")
             return ""
 
+    @gemini_pro_limiter.limit # 应用装饰器
     def parse(self, wikitext: str) -> dict | None:
         """
         主解析方法，构建完整Prompt并调用Gemini API。
@@ -109,7 +111,9 @@ class GeminiParser:
 """
         logger.info(f"正在通过 Google GenAI SDK ({self.model_name}) 进行解析...")
         if few_shot_examples:
-            logger.info(f"已注入 {FEW_SHOT_NODE_SAMPLES} 个节点和 {FEW_SHOT_REL_SAMPLES} 个关系作为 few-shot 范例。")
+            nodes_len = len(few_shot_examples.get("nodes", [])) if isinstance(few_shot_examples, dict) else 0
+            rels_len = len(few_shot_examples.get("relationships", [])) if isinstance(few_shot_examples, dict) else 0
+            logger.info(f"已注入 {nodes_len} 个节点和 {rels_len} 个关系作为 few-shot 范例。")
 
         try:
             response = self.client.models.generate_content(

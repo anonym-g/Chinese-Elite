@@ -67,7 +67,7 @@ async def run_pipeline():
     
     try:
         logging.info("==================================================")
-        logging.info("==========  启动 Chinese-Elite 数据流水线  ==========")
+        logging.info("===========  启动 Chinese-Elite 数据流水线  ===========")
         logging.info("==================================================")
 
         # --- 第1步：处理实体列表 (从Wikitext提取数据) ---
@@ -107,8 +107,8 @@ async def run_pipeline():
         elapsed_time = end_time - start_time
 
         logging.info("==================================================")
-        logging.info("=============    数据流水线执行完毕    =============")
-        logging.info(f"==========   总耗时: {elapsed_time:.2f} 秒   ==========")
+        logging.info("===============    数据流水线执行完毕    ===============")
+        logging.info(f"==============   总耗时: {elapsed_time:.2f} 秒   ==============")
         logging.info("==================================================")
 
     except Exception as e:

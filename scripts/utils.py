@@ -14,6 +14,7 @@ import logging
 from curl_cffi import requests as cffi_requests
 
 from config import WIKI_API_URL, USER_AGENT, BAIDU_BASE_URL, CDSPACE_BASE_URL, LIST_FILE_PATH, CACHE_DIR
+from api_rate_limiter import wiki_sync_limiter
 
 logger = logging.getLogger(__name__)
 
@@ -128,6 +129,7 @@ class WikipediaClient:
                 reverse_map[title] = qcode
         return reverse_map
     
+    @wiki_sync_limiter.limit # 应用维基同步装饰器
     def _fetch_qcode_from_api(self, article_title: str) -> str | None:
         """内部辅助方法，仅负责执行一次API查询并解析结果。"""
         params = {
@@ -206,6 +208,7 @@ class WikipediaClient:
         )
         return urlunparse(raw_url_parts)
 
+    @wiki_sync_limiter.limit # 应用维基同步装饰器
     def get_simplified_wikitext(self, article_title: str) -> tuple[str | None, str | None]:
         """
         获取给定维基百科文章标题的简体中文Wikitext。在返回前检查简繁重定向。如果页面是简繁重定向，则使用目标标题重新获取内容。
@@ -259,6 +262,7 @@ class WikipediaClient:
             logger.error(f"获取Wikitext失败 (标题: '{current_title_to_fetch}') - {e}")
             return None, None
 
+    @wiki_sync_limiter.limit # 应用维基同步装饰器
     def get_latest_revision_time(self, article_title: str) -> datetime | None:
         """通过API获取页面的最新修订时间（UTC）。"""
         params = {
@@ -307,6 +311,7 @@ class WikipediaClient:
             
         return status, detail
 
+    @wiki_sync_limiter.limit # 应用维基同步装饰器
     def _check_wiki_status_api(self, node_id: str) -> tuple[str, str | None]:
         """执行维基百科API检查。"""
         try:
@@ -345,6 +350,7 @@ class WikipediaClient:
             
         return "OK", None
 
+    @wiki_sync_limiter.limit # 应用维基同步装饰器
     def check_generic_url(self, base_url: str, node_id: str) -> bool:
         """
         智能检查URL是否存在。
