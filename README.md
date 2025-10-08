@@ -24,6 +24,7 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
     - [项目状态](#项目状态)
     - [免责声明](#免责声明)
     - [贡献](#贡献)
+    - [关于 Pull Request](#关于-pull-request)
   - [English Version](#english-version)
     - [Project Introduction](#project-introduction)
     - [Project Structure](#project-structure)
@@ -33,6 +34,8 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
     - [Project Status](#project-status)
     - [Disclaimer](#disclaimer)
     - [Contributing](#contributing)
+    - [Project Structure (项目结构)](#project-structure-项目结构)
+    - [About Pull Requests](#about-pull-requests)
 
 -----
 
@@ -46,54 +49,55 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 
 ```
 .
-├── .cache/                   # 存放缓存文件 (Q-Code、链接状态、页面热度)
+├── .cache/                     # 存放缓存文件 (Q-Code、链接状态、页面热度)
 ├── .github/
 │   └── workflows/
-│       └── update_data.yml   # GitHub Actions 自动化数据更新工作流
+│       ├── pr_auto_merger.yml  # 自动审查、合并单文件数据类 PR 的工作流
+│       └── update_data.yml     # 自动化数据更新工作流
 ├── data/
 │   ├── person/
-│   │   └── ...               # 按类别存放LLM原始提取的JSON数据
+│   │   └── ...                 # 按类别存放LLM原始提取的JSON数据
 │   ├── ...
-│   ├── processed_files.log   # 记录已合并处理的文件名
-│   └── LIST.txt              # 待处理的实体种子列表 (按热度排序)
-├── data_to_be_cleaned/       # 存放由脚本分离出的待手动清理的数据
+│   ├── processed_files.log     # 记录已合并处理的文件名
+│   └── LIST.txt                # 待处理的实体种子列表 (按热度排序)
+├── data_to_be_cleaned/         # 存放由脚本分离出的待手动清理的数据
 ├── docs/
 │   ├── data/
-│   │   ├── nodes/            # 按需加载的“简单数据库”
+│   │   ├── nodes/              # 按需加载的“简单数据库”
 │   │   │   └── Q12345/
-│   │   │       ├── node.json
-│   │   │       └──...
-│   │   ├── initial.json      # 前端首次加载的核心图谱 (暂未使用)
-│   │   └── name_to_id.json   # 全局搜索的名称-ID映射索引
+│   │   │       └── node.json
+│   │   ├── initial.json        # 前端首次加载的核心图谱
+│   │   └── name_to_id.json     # 全局搜索的名称-ID映射索引
 │   ├── modules/
-│   │   ├── config.js         # 前端配置
-│   │   ├── dataProcessor.js  # 前端-数据处理、按需加载与路径查找
-│   │   ├── graphView.js      # 前端-PixiJS (WebGL) 视图渲染与交互
-│   │   ├── state.js          # 前端-状态管理
-│   │   ├── uiController.js   # 前端-UI控件与事件处理
-│   │   └── utils.js          # 前端-辅助工具函数
-│   ├── main.js               # 前端-主入口文件
+│   │   ├── config.js           # 前端配置
+│   │   ├── dataProcessor.js    # 前端-数据处理
+│   │   ├── graphView.js        # 前端-PixiJS (WebGL) 视图渲染与交互
+│   │   ├── state.js            # 前端-状态管理
+│   │   ├── uiController.js     # 前端-UI控件与事件处理
+│   │   └── utils.js            # 前端-辅助工具函数
+│   ├── main.js                 # 前端-主入口文件
 │   ├── master_graph_qcode.json # 合并后的完整主图谱文件
-│   ├── index.html            # 可视化页面
-│   └── style.css             # 页面样式
-├── logs/                     # 存放后端运行日志
+│   ├── index.html              # 可视化页面
+│   └── style.css               # 页面样式
+├── logs/                       # 存放后端运行日志
 ├── scripts/
-│   ├── prompts/              # 存放LLM的提示词 (Prompt) 文本
+│   ├── prompts/                # 存放LLM的提示词 (Prompt) 文本
 │   │   └── ...
-│   ├── api_rate_limiter.py   # API速率限制器
-│   ├── check_pageviews.py    # 检查实体热度并重排序列表
-│   ├── clean_data.py         # 深度数据清洗与维护脚本
-│   ├── config.py             # 后端-所有路径和模型配置
+│   ├── api_rate_limiter.py     # API速率限制器
+│   ├── check_pageviews.py      # 检查实体热度并重排序列表
+│   ├── clean_data.py           # 深度数据清洗与维护脚本
+│   ├── config.py               # 后端-所有路径和模型配置
 │   ├── generate_frontend_data.py # 生成所有前端数据文件
-│   ├── merge_graphs.py       # 增量数据智能合并脚本
-│   ├── parse_gemini.py       # LLM 解析脚本
-│   ├── process_list.py       # 根据列表处理实体的核心脚本
-│   └── utils.py              # 维基百科API客户端与辅助工具
-├── .env                      # (需自行创建) 存放 API 密钥
+│   ├── merge_graphs.py         # 增量数据智能合并脚本
+│   ├── parse_gemini.py         # LLM 解析脚本
+│   ├── process_list.py         # 根据列表处理实体的核心脚本
+│   ├── validate_pr.py          # PR 验证脚本
+│   └── utils.py                # 维基百科API客户端与辅助工具
+├── .env                        # (需自行创建) 存放 API 密钥
 ├── .gitignore
 ├── README.md
-├── requirements.txt          # Python 依赖列表
-└── run_pipeline.py           # 完整流水线一键执行脚本
+├── requirements.txt            # Python 依赖列表
+└── run_pipeline.py             # 完整流水线一键执行脚本
 ```
 
 ### 数据结构
@@ -152,7 +156,7 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 
 ### 贡献
 
-这是一个开源项目，非常欢迎任何形式的贡献。无论你是开发者、数据科学家还是领域专家，都可以通过改进提取脚本、优化LLM提示、扩展种子列表、增强前端可视化或报告数据不准确之处来提供帮助。请自由Fork本仓库、开启Issue或提交Pull Request。
+这是一个开源项目，非常欢迎任何形式的贡献。无论你是开发者、数据科学家还是领域专家，都可以通过改进提取脚本、优化LLM提示、扩展种子列表、增强前端可视化或报告数据不准确之处来提供帮助。请自由 Fork 本仓库、开启 Issue 或提交 Pull Request。
 
 如果您希望修正数据，主要有两种方式。
 
@@ -199,6 +203,50 @@ new
 ~~蔣中正~~
 ...
 
+为保证社区用户可以更轻松地参与维护，本项目集成了一个由 LLM 驱动的自动化 Pull Request (PR) 处理系统。
+
+为了确保您的贡献能被系统正确识别和合并，请仔细阅读以下说明。
+
+该系统仅审查数据类 PR，即仅处理对两份项目文件的修改：一是修正 `docs/master_graph_qcode.json` 文件中的数据，二是向 `data/LIST.txt` 文件中添加新的实体条目。
+
+进行这类贡献时，您必须遵循一个核心规则：每一次 Pull Request，只能包含对单个文件的修改。包含多个文件改动的 PR 将被该自动化系统忽略。
+
+UTC 时间 1 ~ 16 点，大约每半个小时，系统会自动进行一次 PR 审查。
+
+只要 PR 仅对上述两个文件之一进行了修改，AI 审查员会评估更改是否合理。
+
+如果更改被判定为有意义，PR 将被自动合并；反之，如果被判定为无意义或存在问题，PR 将被自动关闭并附上说明。
+
+另外，由于本项目配置了专门的自动化数据更新流水线（UTC 时间 18 点开始运行，至多持续 6 小时），若您当日的数据类 PR 没有被及时合并，次日可能会落后于主仓库版本。
+
+因此，请每日更新您用于提交 PR 的 Fork 仓库分支。
+
+### 关于 Pull Request
+
+在提交贡献时，理解 GitHub Pull Request 的工作机制至关重要。
+
+一个 PR，是一个指向您 Fork 仓库中特定分支的动态引用。这意味着，在您的 PR 被合并或关闭之前，任何推送到该源分支的新提交都会自动同步到这个 PR 中。
+
+这个特性可能会导致意外的错误。
+
+例如，如果您在提交一个 PR 后，没有等待它被合并，就继续在同一个分支上进行其他修改，那么这些可能尚未完成或不相关的改动也会被附加到原有的 PR 里，很可能导致 AI 审查失败。
+
+因此，我们强烈建议您遵循以下稳妥的贡献流程：
+
+1. 在您的 Fork 仓库中完成对单个文件的修改。
+
+2. 提交并推送至您的 Fork 仓库，然后向主仓库发起 Pull Request。
+
+3. 耐心等待。在您的 PR 被自动合并或关闭之前，请不要向创建该 PR 的分支推送任何新的提交。
+
+4. 当您的 PR 被成功合并后，请先将您的本地仓库与主仓库（origin）的最新状态同步（例如，通过 git pull origin main）。
+
+5. 完成同步后，再开始您的下一次贡献。
+
+遵循此流程，可以确保您的每一次贡献都是一个独立、干净的单元，从而保证自动化系统能够顺利地进行处理。
+
+您可以进一步参考本项目 Pull Request 页面的历史 PR：[https://github.com/anonym-g/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed](https://github.com/anonym-g/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed)
+
 -----
 
 ## English Version
@@ -214,7 +262,8 @@ This project leverages the power of Large Language Models to extract information
 ├── .cache/                   # Stores cache files (Q-Codes, link status, page views)
 ├── .github/
 │   └── workflows/
-│       └── update_data.yml   # GitHub Actions workflow for automated data updates
+│       ├── pr_auto_merger.yml  # Workflow to auto-review and merge single-file data PRs
+│       └── update_data.yml   # Workflow for automated data updates
 ├── data/
 │   ├── person/
 │   │   └── ...               # Raw JSON data extracted by LLM, categorized
@@ -226,13 +275,12 @@ This project leverages the power of Large Language Models to extract information
 │   ├── data/
 │   │   ├── nodes/            # "Simple database" for on-demand loading
 │   │   │   └── Q12345/
-│   │   │       ├── node.json
-│   │   │       └── ...
-│   │   ├── initial.json      # Core graph for initial frontend load (currently unused)
+│   │   │       └── node.json
+│   │   ├── initial.json      # Core graph for initial frontend load
 │   │   └── name_to_id.json   # Name-to-ID mapping index for global search
 │   ├── modules/
 │   │   ├── config.js         # Frontend configuration
-│   │   ├── dataProcessor.js  # Frontend - Data processing, on-demand loading, and pathfinding
+│   │   ├── dataProcessor.js  # Frontend - Data processing
 │   │   ├── graphView.js      # Frontend - PixiJS (WebGL) view rendering and interaction
 │   │   ├── state.js          # Frontend - State management
 │   │   ├── uiController.js   # Frontend - UI controls and event handling
@@ -253,6 +301,7 @@ This project leverages the power of Large Language Models to extract information
 │   ├── merge_graphs.py       # Script for intelligent incremental data merging
 │   ├── parse_gemini.py       # LLM parsing script
 │   ├── process_list.py       # Core script for processing entities from the list
+│   ├── validate_pr.py        # PR validation script
 │   └── utils.py              # Wikipedia API client and helper utilities
 ├── .env                      # (Must be created manually) Stores API key
 ├── .gitignore
@@ -363,3 +412,108 @@ new
 ...
 ~~蔣中正~~
 ...
+
+
+
+好的，这是您要求的翻译内容。
+
+-----
+
+### Project Structure (项目结构)
+
+```
+.
+├── .cache/                   # Stores cache files (Q-Codes, link status, page views)
+├── .github/
+│   └── workflows/
+│       ├── pr_auto_merger.yml  # Workflow to auto-review and merge single-file data PRs
+│       └── update_data.yml   # Workflow for automated data updates
+├── data/
+│   ├── person/
+│   │   └── ...               # Raw JSON data extracted by LLM, categorized
+│   ├── ...
+│   ├── processed_files.log   # Logs filenames that have been merged
+│   └── LIST.txt              # Seed list of entities to be processed (sorted by popularity)
+├── data_to_be_cleaned/       # Stores data separated by scripts for manual cleaning
+├── docs/
+│   ├── data/
+│   │   ├── nodes/            # "Simple database" for on-demand loading
+│   │   │   └── Q12345/
+│   │   │       └── node.json
+│   │   ├── initial.json      # Core graph for initial frontend load
+│   │   └── name_to_id.json   # Name-to-ID mapping index for global search
+│   ├── modules/
+│   │   ├── config.js         # Frontend configuration
+│   │   ├── dataProcessor.js  # Frontend - Data processing
+│   │   ├── graphView.js      # Frontend - PixiJS (WebGL) view rendering and interaction
+│   │   ├── state.js          # Frontend - State management
+│   │   ├── uiController.js   # Frontend - UI controls and event handling
+│   │   └── utils.js          # Frontend - Utility functions
+│   ├── main.js               # Frontend - Main entry point
+│   ├── master_graph_qcode.json # The final, complete master graph file
+│   ├── index.html            # Visualization page
+│   └── style.css             # Page stylesheet
+├── logs/                     # Stores backend runtime logs
+├── scripts/
+│   ├── prompts/              # Stores prompt text files for the LLM
+│   │   └── ...
+│   ├── api_rate_limiter.py   # API rate limiter
+│   ├── check_pageviews.py    # Checks entity popularity and reorders the list
+│   ├── clean_data.py         # Deep data cleaning and maintenance script
+│   ├── config.py             # Backend - Configuration for all paths and models
+│   ├── generate_frontend_data.py # Generates all frontend data files
+│   ├── merge_graphs.py       # Script for intelligent incremental data merging
+│   ├── parse_gemini.py       # LLM parsing script
+│   ├── process_list.py       # Core script for processing entities from the list
+│   ├── validate_pr.py        # PR validation script
+│   └── utils.py              # Wikipedia API client and helper utilities
+├── .env                      # (Must be created manually) Stores API key
+├── .gitignore
+├── README.md
+├── requirements.txt          # Python dependency list
+└── run_pipeline.py           # One-click script to run the entire pipeline
+```
+
+To make it easier for the community to participate in maintenance, this project integrates an LLM-driven automated Pull Request (PR) processing system.
+
+To ensure your contributions are correctly recognized and merged by the system, please read the following instructions carefully.
+
+The system only reviews data-related PRs, meaning it exclusively processes modifications to two project files: corrections to the `docs/master_graph_qcode.json` file and additions of new entities to the `data/LIST.txt` file.
+
+When making such contributions, you must follow one core rule: **each Pull Request must only contain changes to a single file.** PRs with changes to multiple files will be ignored by this automated system.
+
+Between 01:00 and 16:00 UTC, the system automatically conducts a PR review approximately every 30 minutes.
+
+As long as a PR modifies only one of the two specified files, an AI reviewer will assess whether the changes are reasonable.
+
+If the change is deemed meaningful, the PR will be automatically merged. Conversely, if it is judged to be meaningless or problematic, the PR will be automatically closed with an explanatory comment.
+
+Additionally, because this project has a dedicated automated data update pipeline (which starts at 18:00 UTC and can run for up to 6 hours), if your data-related PR is not merged promptly on the same day, it may fall out of sync with the main repository's version.
+
+Therefore, please ensure the branch on your fork used for submitting PRs is updated daily.
+
+### About Pull Requests
+
+When contributing, it is crucial to understand how GitHub Pull Requests work.
+
+A PR is a dynamic reference to a specific branch in your forked repository. This means that any new commits you push to that source branch *after* creating the PR will be automatically added to it, until the PR is either merged or closed.
+
+This feature can lead to unexpected errors.
+
+For example, if you submit a PR and then continue to make other changes on the same branch without waiting for it to be merged, those subsequent modifications, which may be incomplete or unrelated, will be appended to your original PR. This is very likely to cause the AI review to fail.
+
+Therefore, we strongly recommend following this robust contribution workflow:
+
+1.  Complete your changes to a **single file** in your forked repository.
+
+2.  Commit and push to your fork, then open a Pull Request to the main repository.
+
+3.  **Wait patiently.** Before your PR is automatically merged or closed, please do not push any new commits to the branch from which the PR was created.
+
+4.  After your PR has been successfully merged, first synchronize your local repository with the latest state of the main repository (e.g., via `git pull origin main`).
+
+5.  Once synchronization is complete, you may begin your next contribution.
+
+Following this process ensures that each of your contributions is an independent, clean unit, guaranteeing that the automated system can process it smoothly.
+
+You can further refer to the historical PR on the Pull Request page of this project：[https://github.com/anonym-g/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed](https://github.com/anonym-g/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed)
