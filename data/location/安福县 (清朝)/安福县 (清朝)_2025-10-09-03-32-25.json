@@ -1,0 +1,260 @@
+{
+  "nodes": [
+    {
+      "id": "安福县",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安福县"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1729 - 1914-01",
+        "location": "中国",
+        "description": "清朝于雍正七年（1729年）设立的县，位于今湖南省，治所在裴家河。1914年1月因与江西省安福县同名而改名为临澧县。"
+      }
+    },
+    {
+      "id": "中国",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1636 - 1912"
+      }
+    },
+    {
+      "id": "雍正帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雍正帝",
+          "雍正"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1678-12-13 - 1735-10-08",
+        "description": "清朝第五位皇帝。"
+      }
+    },
+    {
+      "id": "澧州",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "澧州"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国古代的行政区划。"
+      }
+    },
+    {
+      "id": "澧州直隶州",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "澧州直隶州"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1729 - ",
+        "location": "中国",
+        "description": "清朝的直隶州。"
+      }
+    },
+    {
+      "id": "石门县",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "石门县"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "安乡县",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安乡县"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "慈利县",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "慈利县"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "九谿卫",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "九谿卫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国古代的卫所。"
+      }
+    },
+    {
+      "id": "江西省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江西省"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "临澧县",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "临澧县"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1914-01 - "
+      }
+    },
+    {
+      "id": "清史稿",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "清史稿"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "清朝",
+      "target": "安福县",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1729",
+        "description": "清朝雍正七年设置安福县。"
+      }
+    },
+    {
+      "source": "雍正帝",
+      "target": "清朝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "皇帝",
+        "description": "雍正为清朝皇帝，设立安福县的事件发生在其治下。"
+      }
+    },
+    {
+      "source": "安福县",
+      "target": "澧州直隶州",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1729",
+        "end_date": "1914-01",
+        "description": "安福县隶属于澧州直隶州。"
+      }
+    },
+    {
+      "source": "石门县",
+      "target": "澧州直隶州",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1729",
+        "description": "石门县被划归澧州直隶州管辖。"
+      }
+    },
+    {
+      "source": "安乡县",
+      "target": "澧州直隶州",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1729",
+        "description": "安乡县被划归澧州直隶州管辖。"
+      }
+    },
+    {
+      "source": "慈利县",
+      "target": "澧州直隶州",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1729",
+        "description": "慈利县被划归澧州直隶州管辖。"
+      }
+    },
+    {
+      "source": "慈利县",
+      "target": "安福县",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1729",
+        "description": "以慈利县部分土地设置安福县。"
+      }
+    },
+    {
+      "source": "九谿卫",
+      "target": "安福县",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1729",
+        "description": "以九谿卫土地设置安福县。"
+      }
+    },
+    {
+      "source": "澧州",
+      "target": "安福县",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1729",
+        "description": "析澧州部分土地设置安福县。"
+      }
+    },
+    {
+      "source": "安福县",
+      "target": "临澧县",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1914-01",
+        "description": "安福县于1914年1月改名为临澧县。"
+      }
+    }
+  ]
+}

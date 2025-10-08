@@ -1,0 +1,615 @@
+{
+  "nodes": [
+    {
+      "id": "中南海",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中南海"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "北京市西城区西长安街街道",
+        "description": "中华人民共和国国务院、中共中央书记处和中共中央办公厅等重要机关办公所在地，亦是中国部分党和国家领导人的居所。"
+      }
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中南海",
+        "description": "中华人民共和国中央人民政府。"
+      }
+    },
+    {
+      "id": "中国共产党中央书记处",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央书记处",
+          "中共中央书记处"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中南海",
+        "description": "中国共产党中央委员会的办事机构。"
+      }
+    },
+    {
+      "id": "中共中央办公厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央办公厅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中南海",
+        "description": "中国共产党中央委员会的综合办事机构。"
+      }
+    },
+    {
+      "id": "慈禧太后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慈禧太后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "女",
+        "description": "清朝末期实际掌权者。"
+      }
+    },
+    {
+      "id": "光绪帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "光绪帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "清朝皇帝。"
+      }
+    },
+    {
+      "id": "戊戌变法",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "戊戌变法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1898",
+        "description": "晚清时期的一场政治改革运动。"
+      }
+    },
+    {
+      "id": "瓦德西",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "瓦德西"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "八国联军总司令。"
+      }
+    },
+    {
+      "id": "袁世凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁世凯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华民国大总统，北洋政府的实际掌权者。"
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966 - 1976"
+      }
+    },
+    {
+      "id": "红卫兵",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "红卫兵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966 - 1978",
+        "description": "文化大革命时期的青年学生组织。"
+      }
+    },
+    {
+      "id": "刘少奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘少奇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "曾任中华人民共和国主席，文化大革命期间被迫害致死。"
+      }
+    },
+    {
+      "id": "六四事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "六四事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1989-04-15 - 1989-06-04"
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党第二代中央领导集体的核心，中华人民共和国最高领导人。"
+      }
+    },
+    {
+      "id": "法轮功",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法轮功"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "一个以“真、善、忍”为原则的灵修组织。"
+      }
+    },
+    {
+      "id": "朱镕基",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱镕基"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "曾任中华人民共和国国务院总理。"
+      }
+    },
+    {
+      "id": "江泽民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江泽民"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "中国共产党第三代中央领导集体的核心，曾任中共中央总书记。"
+      }
+    },
+    {
+      "id": "约翰·克里",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·克里"
+        ],
+        "en": [
+          "John Kerry"
+        ]
+      },
+      "properties": {
+        "description": "美国国务卿。"
+      }
+    },
+    {
+      "id": "李克强",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李克强"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "曾任中华人民共和国总理。"
+      }
+    },
+    {
+      "id": "载沣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "载沣"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "清末摄政王。"
+      }
+    },
+    {
+      "id": "监国摄政王府",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "监国摄政王府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中南海",
+        "description": "1949年后改为中华人民共和国国务院办公区。"
+      }
+    },
+    {
+      "id": "汪东兴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪东兴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党领导人，曾任中共中央办公厅主任。"
+      }
+    },
+    {
+      "id": "勤政殿 (中南海)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "勤政殿 (中南海)",
+          "勤政殿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中南海"
+      }
+    },
+    {
+      "id": "华国锋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "华国锋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "曾任中国共产党中央委员会主席、中华人民共和国国务院总理。"
+      }
+    },
+    {
+      "id": "叶剑英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶剑英"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国元帅，曾任中央军委副主席。"
+      }
+    },
+    {
+      "id": "粉碎四人帮",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "粉碎四人帮",
+          "怀仁堂事变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1976-10-06"
+      }
+    },
+    {
+      "id": "张春桥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张春桥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "“四人帮”成员之一。"
+      }
+    },
+    {
+      "id": "王洪文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王洪文"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "“四人帮”成员之一。"
+      }
+    },
+    {
+      "id": "姚文元",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "姚文元"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "“四人帮”成员之一。"
+      }
+    },
+    {
+      "id": "江青",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江青"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "“四人帮”成员之一，毛泽东的妻子。"
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国的主要缔造者和第一代最高领导人，曾居住于中南海。",
+        "gender": "男"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "慈禧太后",
+      "target": "光绪帝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1898",
+        "position": "",
+        "degree": "",
+        "description": "戊戌变法失败后，将光绪帝囚禁于南海中的瀛台。"
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "中南海",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1912",
+        "position": "",
+        "degree": "",
+        "description": "占用中南海作为北洋政府的大总统府，并将宝月楼改名为新华门。"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "刘少奇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1967-07",
+        "position": "",
+        "degree": "",
+        "description": "文革期间，数十万红卫兵包围中南海，试图抓出时任国家主席刘少奇。"
+      }
+    },
+    {
+      "source": "红卫兵",
+      "target": "刘少奇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1967-07",
+        "position": "",
+        "degree": "",
+        "description": "包围中南海并试图抓出刘少奇。"
+      }
+    },
+    {
+      "source": "法轮功",
+      "target": "朱镕基",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1999-04",
+        "position": "",
+        "degree": "",
+        "description": "一万多名法轮功教徒到中南海附近上访，其代表与时任国务院总理朱镕基会面。"
+      }
+    },
+    {
+      "source": "江泽民",
+      "target": "法轮功",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1999-07",
+        "position": "",
+        "degree": "",
+        "description": "在中南海万人上访事件后，时任中共中央总书记江泽民决定取缔法轮功。"
+      }
+    },
+    {
+      "source": "约翰·克里",
+      "target": "李克强",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2014-02-14",
+        "position": "",
+        "degree": "",
+        "description": "于中南海紫光阁会面。"
+      }
+    },
+    {
+      "source": "载沣",
+      "target": "监国摄政王府",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1909",
+        "position": "",
+        "degree": "",
+        "description": "1909年，清廷将中南海西北角的地块拨给摄政王载沣，修建摄政王府。"
+      }
+    },
+    {
+      "source": "汪东兴",
+      "target": "勤政殿 (中南海)",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1970",
+        "position": "",
+        "degree": "",
+        "description": "在1970年代拆毁了当时的勤政殿建筑，兴建了自己的住处。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "中国共产党中央书记处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956",
+        "position": "负责人",
+        "degree": "",
+        "description": "1956年中共八大以后，中央书记处负责人邓小平选择居仁堂为中央书记处和秘书处办公的地方。"
+      }
+    },
+    {
+      "source": "华国锋",
+      "target": "粉碎四人帮",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "position": "",
+        "degree": "",
+        "description": "与叶剑英等人通过怀仁堂事变，拘捕了四人帮成员。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "粉碎四人帮",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "position": "",
+        "degree": "",
+        "description": "与华国锋等人通过怀仁堂事变，拘捕了四人帮成员。"
+      }
+    },
+    {
+      "source": "粉碎四人帮",
+      "target": "江青",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "position": "",
+        "degree": "",
+        "description": "在怀仁堂事变中被拘禁和隔离审查。"
+      }
+    },
+    {
+      "source": "粉碎四人帮",
+      "target": "张春桥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "position": "",
+        "degree": "",
+        "description": "在怀仁堂事变中被拘禁和隔离审查。"
+      }
+    },
+    {
+      "source": "粉碎四人帮",
+      "target": "王洪文",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "position": "",
+        "degree": "",
+        "description": "在怀仁堂事变中被拘禁和隔离审查。"
+      }
+    },
+    {
+      "source": "粉碎四人帮",
+      "target": "姚文元",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "position": "",
+        "degree": "",
+        "description": "在怀仁堂事变中被拘禁和隔离审查。"
+      }
+    },
+    {
+      "source": "江青",
+      "target": "毛泽东",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "position": "",
+        "degree": "",
+        "description": ""
+      }
+    }
+  ]
+}

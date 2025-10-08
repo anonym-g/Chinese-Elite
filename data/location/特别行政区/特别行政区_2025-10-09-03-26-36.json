@@ -1,0 +1,607 @@
+{
+  "nodes": [
+    {
+      "id": "香港",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港",
+          "香港特别行政区"
+        ],
+        "en": [
+          "Hong Kong",
+          "Hong Kong Special Administrative Region"
+        ]
+      },
+      "properties": {
+        "period": "1997-07-01 - ",
+        "location": "中华人民共和国",
+        "description": "中华人民共和国的省级特别行政区，实行一国两制和高度自治。"
+      }
+    },
+    {
+      "id": "澳门",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "澳门",
+          "澳门特别行政区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1999-12-20 - ",
+        "location": "中华人民共和国",
+        "description": "中华人民共和国的省级特别行政区，实行一国两制和高度自治。"
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国",
+          "中国内地",
+          "大陆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": "亚洲东部的社会主义国家，是香港和澳门的宗主国。"
+      }
+    },
+    {
+      "id": "中英联合声明",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中英联合声明",
+          "中华人民共和国政府和大不列颠及北爱尔兰联合王国政府关于香港问题的联合声明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1984-12-19",
+        "description": "中英两国为解决香港前途问题而签署的联合声明。"
+      }
+    },
+    {
+      "id": "中葡联合声明",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中葡联合声明",
+          "中华人民共和国政府和葡萄牙共和国政府关于澳门问题的联合声明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1987-04-13",
+        "description": "中葡两国为解决澳门前途问题而签署的联合声明。"
+      }
+    },
+    {
+      "id": "中华人民共和国宪法 (1982年)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国宪法 (1982年)",
+          "中华人民共和国宪法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1982-12-04 - ",
+        "description": "中华人民共和国的现行宪法，其第三十一条规定了设立特别行政区的法律依据。"
+      }
+    },
+    {
+      "id": "大不列颠及爱尔兰联合王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大不列颠及爱尔兰联合王国",
+          "英国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "前香港的宗主国。"
+      }
+    },
+    {
+      "id": "葡萄牙王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "葡萄牙王国",
+          "葡萄牙"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "曾占领澳门的欧洲国家。"
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": "中国历史上最后一个封建王朝，香港割让前为其领土。"
+      }
+    },
+    {
+      "id": "明朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明朝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1368 - 1644",
+        "description": "中国历史上的一个封建王朝，澳门被占领前为其领土。"
+      }
+    },
+    {
+      "id": "香港回归",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "香港回归"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1997-07-01",
+        "description": "香港主权由英国交还予中华人民共和国的事件。"
+      }
+    },
+    {
+      "id": "澳门回归",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "澳门回归"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1999-12-20",
+        "description": "澳门主权由葡萄牙交还予中华人民共和国的事件。"
+      }
+    },
+    {
+      "id": "中华人民共和国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国政府",
+          "中国政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国的中央行政机关。"
+      }
+    },
+    {
+      "id": "大不列颠及北爱尔兰联合王国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大不列颠及北爱尔兰联合王国政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "英国的中央行政机关。"
+      }
+    },
+    {
+      "id": "葡萄牙共和国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "葡萄牙共和国政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "葡萄牙的中央行政机关。"
+      }
+    },
+    {
+      "id": "叶剑英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶剑英"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1897-04-28 - 1986-10-22",
+        "gender": "男",
+        "description": "中国政治人物，曾任全国人大常委会委员长，提出设立台湾特别行政区的构想。"
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1904-08-22 - 1997-02-19",
+        "gender": "男",
+        "description": "中国政治人物，阐述了“一个国家、两种制度”构想。"
+      }
+    },
+    {
+      "id": "台湾特别行政区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台湾特别行政区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国为解决台湾问题而提出的统一后政治构想，尚未设立。"
+      }
+    },
+    {
+      "id": "台湾问题",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "台湾问题"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949 - ",
+        "description": "指自第二次国共内战后，中国大陆与台湾分治的政治局面及其衍生问题。"
+      }
+    },
+    {
+      "id": "杨斌 (商人)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨斌 (商人)",
+          "杨斌"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "荷兰华裔商人，曾向朝鲜政府建议设立新义州特别行政区并被任命为首任行政长官。"
+      }
+    },
+    {
+      "id": "新义州特别行政区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新义州特别行政区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2002 - ",
+        "description": "朝鲜设立的特别行政区，旨在模仿“一国两制”模式，但改革未能如期完成。"
+      }
+    },
+    {
+      "id": "朝鲜民主主义人民共和国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜民主主义人民共和国政府",
+          "朝鲜政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "朝鲜民主主义人民共和国的中央行政机关。"
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国",
+          "台湾"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1912 - ",
+        "description": "曾在大陆时期设立多种特别行政区。"
+      }
+    },
+    {
+      "id": "察哈尔特别区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "察哈尔特别区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1914 - 1928",
+        "description": "中华民国大陆时期设立的特别行政区，后改为察哈尔省。"
+      }
+    },
+    {
+      "id": "绥远特别区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "绥远特别区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1914 - 1928",
+        "description": "中华民国大陆时期设立的特别行政区，后改为绥远省。"
+      }
+    },
+    {
+      "id": "热河特别区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "热河特别区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1914 - 1928",
+        "description": "中华民国大陆时期设立的特别行政区，后改为热河省。"
+      }
+    },
+    {
+      "id": "川边特别区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "川边特别区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1914 - 1939",
+        "description": "中华民国大陆时期设立的特别行政区，后改为西康省。"
+      }
+    },
+    {
+      "id": "陕甘宁边区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "陕甘宁边区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937 - 1950",
+        "description": "中国共产党在抗日战争及第二次国共内战期间建立的革命根据地。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "香港",
+      "target": "中华人民共和国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1997-07-01",
+        "position": "省级特别行政区",
+        "description": ""
+      }
+    },
+    {
+      "source": "澳门",
+      "target": "中华人民共和国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1999-12-20",
+        "position": "省级特别行政区",
+        "description": ""
+      }
+    },
+    {
+      "source": "大不列颠及爱尔兰联合王国",
+      "target": "清朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "description": "通过战争和条约从清朝割占香港。"
+      }
+    },
+    {
+      "source": "葡萄牙王国",
+      "target": "明朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "description": "逐步占领原属明朝的澳门。"
+      }
+    },
+    {
+      "source": "中华人民共和国政府",
+      "target": "大不列颠及北爱尔兰联合王国政府",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1984-12-19",
+        "end_date": "",
+        "description": "就香港问题进行谈判并签署《中英联合声明》。"
+      }
+    },
+    {
+      "source": "中华人民共和国政府",
+      "target": "葡萄牙共和国政府",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1987-04-13",
+        "end_date": "",
+        "description": "就澳门问题进行谈判并签署《中葡联合声明》。"
+      }
+    },
+    {
+      "source": "中英联合声明",
+      "target": "香港回归",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1984-12-19",
+        "description": "该声明的签署确定了香港主权移交的时间表和基本方针。"
+      }
+    },
+    {
+      "source": "中葡联合声明",
+      "target": "澳门回归",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1987-04-13",
+        "description": "该声明的签署确定了澳门主权移交的时间表和基本方针。"
+      }
+    },
+    {
+      "source": "中华人民共和国宪法 (1982年)",
+      "target": "香港",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982-12-04",
+        "description": "该宪法第三十一条规定国家在必要时得设立特别行政区，为香港特别行政区的设立提供了法律依据。"
+      }
+    },
+    {
+      "source": "中华人民共和国宪法 (1982年)",
+      "target": "澳门",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982-12-04",
+        "description": "该宪法第三十一条规定国家在必要时得设立特别行政区，为澳门特别行政区的设立提供了法律依据。"
+      }
+    },
+    {
+      "source": "台湾问题",
+      "target": "叶剑英",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1981",
+        "description": "为解决台湾问题，叶剑英首次提出了设立特别行政区的构想。"
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "台湾特别行政区",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1981-09-30",
+        "description": "发表谈话，提出“国家实现统一以后，台湾可以作为特别行政区，享有高度的自治权”。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "台湾特别行政区",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982-01-11",
+        "description": "就叶剑英的谈话指出，这实际上就是“一个国家、两种制度”。"
+      }
+    },
+    {
+      "source": "杨斌 (商人)",
+      "target": "新义州特别行政区",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001",
+        "description": "向朝鲜政府建议设立新义州特别行政区。"
+      }
+    },
+    {
+      "source": "朝鲜民主主义人民共和国政府",
+      "target": "新义州特别行政区",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2002",
+        "description": ""
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "新义州特别行政区",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "",
+        "description": "因其任命的首任行政长官杨斌被中华人民共和国政府逮捕，该项目实质上被放弃。"
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "察哈尔特别区",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1914",
+        "end_date": ""
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "绥远特别区",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1914",
+        "end_date": ""
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "热河特别区",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1914",
+        "end_date": ""
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "川边特别区",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1914",
+        "end_date": ""
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "陕甘宁边区",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1947",
+        "description": "国民政府在第二次国共内战期间认定陕甘宁边区为非法叛乱区域。"
+      }
+    }
+  ]
+}
