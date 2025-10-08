@@ -2,11 +2,20 @@
 
 name: 自动验证并合并数据类 PR (Auto-Validate and Merge Data PRs)
 
+env:
+  # 合并任务执行间隔 (分钟)，注意：此参数仅供参考，实际调度由下面的 cron 表达式决定
+  MERGE_INTERVAL_MINUTES: 30
+
 on:
   schedule:
-    # 每天的 16 点 0 分执行 (UTC 时间)
-    - cron: '0 16 * * *'
+    # UTC 时间，每天的 1:00 到 16:59，每 30 分钟执行一次
+    - cron: '*/30 1-16 * * *'
   workflow_dispatch:
+
+# 设置并发控制，确保同一时间只有一个合并任务在运行
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -39,7 +48,7 @@ jobs:
 
           echo "开始智能验证流程..."
           merged_count=0
-          max_merges=10
+          max_merges=1
 
           pr_numbers=$(gh pr list --state open --json number --jq '.[].number')
           if [ -z "$pr_numbers" ]; then
@@ -49,7 +58,7 @@ jobs:
           
           for pr_number in $pr_numbers; do
             if [ "$merged_count" -ge "$max_merges" ]; then
-              echo "已达到本次运行的合并上限 (10)，流程结束。"
+              echo "已达到本次运行的合并上限 (${max_merges})，流程结束。"
               break
             fi
 
