@@ -46,6 +46,8 @@ MERGE_CHECK_MODEL = "gemma-3-27b-it"
 MERGE_EXECUTE_MODEL = "gemini-2.5-flash"
 # 用于验证PR有效性的模型
 VALIDATE_PR_MODEL = "gemini-2.5-flash-lite"
+# Telegram Bot调用的模型
+BOT_QA_MODEL = "gemini-2.5-flash-lite-preview-09-2025"
 
 # --- LLM 参数配置 ---
 FEW_SHOT_NODE_SAMPLES = 12
