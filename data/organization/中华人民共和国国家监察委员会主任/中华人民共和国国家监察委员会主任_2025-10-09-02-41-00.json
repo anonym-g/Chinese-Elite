@@ -1,0 +1,272 @@
+{
+  "nodes": [
+    {
+      "id": "刘金国",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘金国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": null,
+        "description": "中华人民共和国国家监察委员会主任，中华人民共和国总监察官。"
+      }
+    },
+    {
+      "id": "杨晓渡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨晓渡"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1953-10 - ",
+        "gender": "男",
+        "description": "前中华人民共和国国家监察委员会主任，首位拥有总监察官头衔的国家监察委员会主任。"
+      }
+    },
+    {
+      "id": "中华人民共和国国家监察委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国家监察委员会",
+          "国家监察委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2018-03 - ",
+        "location": "北京市",
+        "description": "中华人民共和国最高监察机关"
+      }
+    },
+    {
+      "id": "全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会",
+          "全国人大"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国最高国家权力机关"
+      }
+    },
+    {
+      "id": "全国人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会常务委员会",
+          "常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "全国人民代表大会的常设机关"
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会第一次会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会第一次会议"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2018-03 - 2018-03"
+      }
+    },
+    {
+      "id": "第十四届全国人民代表大会第一次会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第十四届全国人民代表大会第一次会议"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2023-03 - 2023-03"
+      }
+    },
+    {
+      "id": "北京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京市"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国监察官法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国监察官法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2022 - "
+      }
+    },
+    {
+      "id": "全国人民代表大会会议主席团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会会议主席团"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "党和国家领导人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "党和国家领导人"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党和中华人民共和国核心领导人员的统称。"
+      }
+    },
+    {
+      "id": "中华人民共和国国家机构",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国家机构"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘金国",
+      "target": "中华人民共和国国家监察委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-03-11",
+        "position": "主任"
+      }
+    },
+    {
+      "source": "杨晓渡",
+      "target": "中华人民共和国国家监察委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-03-18",
+        "end_date": "2023-03-11",
+        "position": "主任"
+      }
+    },
+    {
+      "source": "中华人民共和国国家监察委员会",
+      "target": "全国人民代表大会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "国家监察委员会对全国人民代表大会及其常务委员会负责，并接受其监督。"
+      }
+    },
+    {
+      "source": "中华人民共和国国家监察委员会",
+      "target": "全国人民代表大会常务委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "国家监察委员会对全国人民代表大会及其常务委员会负责，并接受其监督。"
+      }
+    },
+    {
+      "source": "第十四届全国人民代表大会第一次会议",
+      "target": "刘金国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2023-03-11",
+        "description": "在此次会议上选举刘金国为国家监察委员会主任。"
+      }
+    },
+    {
+      "source": "第十三届全国人民代表大会第一次会议",
+      "target": "杨晓渡",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2018-03-18",
+        "description": "在此次会议上选举杨晓渡为国家监察委员会主任。"
+      }
+    },
+    {
+      "source": "中华人民共和国监察官法",
+      "target": "杨晓渡",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2022",
+        "description": "该法生效实施后，时任国家监察委员会主任杨晓渡成为首位拥有总监察官头衔的官员。"
+      }
+    },
+    {
+      "source": "中国共产党中央委员会",
+      "target": "全国人民代表大会会议主席团",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "全国人民代表大会会议主席团根据中国共产党中央委员会的建议提名国家监察委员会主任人选。"
+      }
+    },
+    {
+      "source": "刘金国",
+      "target": "党和国家领导人",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-03-11",
+        "description": "国家监察委员会主任属于国家级副职，是党和国家领导人之一。"
+      }
+    },
+    {
+      "source": "杨晓渡",
+      "target": "党和国家领导人",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-03-18",
+        "end_date": "2023-03-11",
+        "description": "国家监察委员会主任属于国家级副职，是党和国家领导人之一。"
+      }
+    },
+    {
+      "source": "中华人民共和国国家监察委员会",
+      "target": "中华人民共和国国家机构",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-03"
+      }
+    }
+  ]
+}

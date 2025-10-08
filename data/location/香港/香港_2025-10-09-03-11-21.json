@@ -1,0 +1,789 @@
+{
+  "nodes": [
+    {
+      "id": "香港",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "香港",
+          "香港特别行政区",
+          "港",
+          "香江",
+          "香城"
+        ],
+        "en": [
+          "Hong Kong",
+          "HK",
+          "HKG",
+          "Hong Kong Special Administrative Region",
+          "HKSAR",
+          "Hong Kong SAR"
+        ]
+      },
+      "properties": {
+        "description": "中华人民共和国的特别行政区，全球重要的国际金融、贸易和航运中心。"
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "拥有香港主权的国家。"
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {
+        "description": "于1841年至1997年间管治香港。"
+      }
+    },
+    {
+      "id": "香港回归",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "香港回归"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1997-07-01",
+        "description": "香港主权由英国移交至中华人民共和国的事件。"
+      }
+    },
+    {
+      "id": "中英联合声明",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中英联合声明",
+          "关于香港问题的联合声明"
+        ],
+        "en": [
+          "Sino-British Joint Declaration"
+        ]
+      },
+      "properties": {
+        "period": "1984-12-19",
+        "description": "中英两国政府关于香港前途问题的协议。"
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1904-08-22 - 1997-02-19",
+        "gender": "男",
+        "description": "中国第二代最高领导人，提出“一国两制”构想。"
+      }
+    },
+    {
+      "id": "撒切尔夫人",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "撒切尔夫人"
+        ],
+        "en": [
+          "Margaret Thatcher"
+        ]
+      },
+      "properties": {
+        "lifetime": "1925-10-13 - 2013-04-08",
+        "gender": "女",
+        "description": "前英国首相，参与香港前途问题谈判。"
+      }
+    },
+    {
+      "id": "麦理浩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "麦理浩"
+        ],
+        "en": [
+          "Murray MacLehose"
+        ]
+      },
+      "properties": {
+        "lifetime": "1917-10-16 - 2000-05-27",
+        "gender": "男",
+        "description": "第25任香港总督。"
+      }
+    },
+    {
+      "id": "香港特别行政区基本法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国香港特别行政区基本法",
+          "香港特别行政区基本法",
+          "香港基本法",
+          "基本法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1990-04-04",
+        "description": "香港特别行政区的宪制性文件。"
+      }
+    },
+    {
+      "id": "英军占领香港岛",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "英军占领香港岛"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1841-01-26",
+        "description": "英国皇家海军在水坑口登陆并升旗，标志着英国管治香港的开始。"
+      }
+    },
+    {
+      "id": "南京条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "南京条约"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1842-08-29"
+      }
+    },
+    {
+      "id": "北京条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "北京条约"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1860-10-18"
+      }
+    },
+    {
+      "id": "展拓香港界址专条",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "展拓香港界址专条"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1898-07-01"
+      }
+    },
+    {
+      "id": "香港岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "香港岛"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "九龙",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "九龙",
+          "九龙半岛"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "新界",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "新界"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1953-06-15 - ",
+        "gender": "男",
+        "description": "中国共产党中央委员会总书记、中华人民共和国主席。"
+      }
+    },
+    {
+      "id": "李家超",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李家超"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1957-12-07 - ",
+        "gender": "男",
+        "description": "第六届香港特别行政区行政长官。"
+      }
+    },
+    {
+      "id": "香港特别行政区政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港特别行政区政府",
+          "特区政府",
+          "港府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1997-07-01 - "
+      }
+    },
+    {
+      "id": "林郑月娥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林郑月娥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1957-05-13 - ",
+        "gender": "女",
+        "description": "第五届香港特别行政区行政长官。"
+      }
+    },
+    {
+      "id": "反对逃犯条例修订草案运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "反对逃犯条例修订草案运动",
+          "反送中运动"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2019-04 - "
+      }
+    },
+    {
+      "id": "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+          "逃犯条例修订草案"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2019"
+      }
+    },
+    {
+      "id": "中华人民共和国香港特别行政区维护国家安全法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国香港特别行政区维护国家安全法",
+          "香港国安法",
+          "港区国安法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2020-06-30"
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03"
+      }
+    },
+    {
+      "id": "香港特别行政区基本法第二十三条",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "香港特别行政区基本法第二十三条",
+          "基本法第23条",
+          "23条立法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "《基本法》中关于香港特别行政区应自行立法禁止危害国家安全行为的条文。"
+      }
+    },
+    {
+      "id": "维护国家安全条例",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "维护国家安全条例"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2024-03-23"
+      }
+    },
+    {
+      "id": "香港第七届立法会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港第七届立法会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2022-01-01 - "
+      }
+    },
+    {
+      "id": "孙中山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙中山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1866-11-12 - 1925-03-12",
+        "gender": "男",
+        "description": "中国近代民主革命家。"
+      }
+    },
+    {
+      "id": "香港大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1911 - "
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1898-03-05 - 1976-01-08",
+        "gender": "男",
+        "description": "中华人民共和国第一任国务院总理。"
+      }
+    },
+    {
+      "id": "六七暴动",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "六七暴动",
+          "六七事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1967"
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966 - 1976"
+      }
+    },
+    {
+      "id": "亚洲金融风暴",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "亚洲金融风暴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1997 - 1998"
+      }
+    },
+    {
+      "id": "严重急性呼吸系统综合症疫情",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "严重急性呼吸系统综合症疫情",
+          "非典型肺炎爆发"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2003"
+      }
+    },
+    {
+      "id": "彭定康",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭定康"
+        ],
+        "en": [
+          "Chris Patten"
+        ]
+      },
+      "properties": {
+        "lifetime": "1944-05-12 - ",
+        "gender": "男",
+        "description": "最后一任香港总督。"
+      }
+    },
+    {
+      "id": "江泽民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江泽民"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1926-08-17 - 2022-11-30",
+        "gender": "男",
+        "description": "前中国共产党中央委员会总书记。"
+      }
+    },
+    {
+      "id": "查尔斯三世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查尔斯三世",
+          "查尔斯王子"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1948-11-14 - ",
+        "gender": "男",
+        "description": "英国国王，出席香港交接仪式时为王储。"
+      }
+    },
+    {
+      "id": "夏宝龙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "夏宝龙"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1952-12-02 - ",
+        "gender": "男",
+        "description": "中共中央港澳工作办公室主任、国务院港澳事务办公室主任。"
+      }
+    },
+    {
+      "id": "爱国者治港",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "爱国者治港"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "一项由习近平提出的香港管治原则。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "香港",
+      "target": "英国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1841-01-26",
+        "end_date": "1997-06-30",
+        "description": "作为英国属土（殖民地）。"
+      }
+    },
+    {
+      "source": "香港",
+      "target": "中华人民共和国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1997-07-01",
+        "description": "作为中华人民共和国的特别行政区。"
+      }
+    },
+    {
+      "source": "英军占领香港岛",
+      "target": "香港",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1841-01-26",
+        "description": "该事件标志着香港成为英国属土的开始。"
+      }
+    },
+    {
+      "source": "南京条约",
+      "target": "香港岛",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "description": "根据条约，清政府将香港岛割让予英国。"
+      }
+    },
+    {
+      "source": "北京条约",
+      "target": "九龙",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1860-10-18",
+        "description": "根据条约，清政府将界限街以南的九龙半岛割让予英国。"
+      }
+    },
+    {
+      "source": "展拓香港界址专条",
+      "target": "新界",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1898-07-01",
+        "description": "根据条约，英国租借新界，为期99年。"
+      }
+    },
+    {
+      "source": "中英联合声明",
+      "target": "香港回归",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1984-12-19",
+        "description": "该声明确立了香港主权于1997年移交中国，并为回归后的安排提供了框架。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "撒切尔夫人",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1982-09-24",
+        "description": "会见并讨论香港问题，阐述中国将收回香港的决策。"
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "麦理浩",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1979-03-29",
+        "description": "会见时任港督麦理浩，表示中国将把香港作为一个特殊问题来处理。"
+      }
+    },
+    {
+      "source": "香港",
+      "target": "孙中山",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "孙中山在香港大学演说时称其革命思想发源地为香港。"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "香港",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1957-04",
+        "description": "提出保持香港特殊地位“为我所用”之方针，将香港作为中国与国外进行经济联系的基地。"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "六七暴动",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1966",
+        "description": "香港的局势因受到文化大革命的影响而日趋紧张，最终演变为六七暴动。"
+      }
+    },
+    {
+      "source": "亚洲金融风暴",
+      "target": "香港",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1998",
+        "description": "冲击香港经济，导致本地生产总值下降5.1%。"
+      }
+    },
+    {
+      "source": "严重急性呼吸系统综合症疫情",
+      "target": "香港",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2003",
+        "description": "导致299人死亡，经济损失超过38亿港元，失业率创历史新高。"
+      }
+    },
+    {
+      "source": "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+      "target": "反对逃犯条例修订草案运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-04",
+        "description": "该条例草案的提出引发了大规模的反对运动。"
+      }
+    },
+    {
+      "source": "林郑月娥",
+      "target": "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2019-09-04",
+        "description": "作为行政长官宣布正式撤回该条例草案。"
+      }
+    },
+    {
+      "source": "第十三届全国人民代表大会",
+      "target": "中华人民共和国香港特别行政区维护国家安全法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-05-28",
+        "description": "表决通过了关于建立健全香港国安法的决定。"
+      }
+    },
+    {
+      "source": "中华人民共和国香港特别行政区维护国家安全法",
+      "target": "香港",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2020-06-30",
+        "description": "官方称该法推动香港进入“由乱到治、由治及兴”的新阶段。"
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "爱国者治港",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2021-01-27",
+        "description": "提出“爱国者治港”是一国两制的根本原则。"
+      }
+    },
+    {
+      "source": "李家超",
+      "target": "香港特别行政区政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-07-01",
+        "position": "行政长官"
+      }
+    },
+    {
+      "source": "李家超",
+      "target": "习近平",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2023-12-18",
+        "description": "在北京向习近平述职。"
+      }
+    },
+    {
+      "source": "李家超",
+      "target": "维护国家安全条例",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2024-03-22",
+        "description": "签署《维护国家安全条例》，使其于2024年3月23日生效，完成基本法第23条立法工作。"
+      }
+    },
+    {
+      "source": "香港第七届立法会",
+      "target": "维护国家安全条例",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2024-03-19",
+        "description": "全票通过《维护国家安全条例草案》。"
+      }
+    },
+    {
+      "source": "江泽民",
+      "target": "查尔斯三世",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1997-07-01",
+        "description": "共同出席香港交接仪式。"
+      }
+    }
+  ]
+}

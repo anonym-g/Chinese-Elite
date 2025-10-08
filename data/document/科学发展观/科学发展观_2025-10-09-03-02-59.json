@@ -1,0 +1,364 @@
+{
+  "nodes": [
+    {
+      "id": "科学发展观",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "科学发展观"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2003-07-28 - ",
+        "description": "中国共产党的指导思想之一，由胡锦涛提出。"
+      }
+    },
+    {
+      "id": "胡锦涛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡锦涛"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "中国政治人物，曾任中国共产党中央委员会总书记。"
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国的执政党。"
+      }
+    },
+    {
+      "id": "中国共产党第十七次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十七次全国代表大会",
+          "十七大"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2007-10-15 - 2007-10-21"
+      }
+    },
+    {
+      "id": "中国共产党章程",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国共产党章程",
+          "党章"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党的根本大法。"
+      }
+    },
+    {
+      "id": "中国共产党第十八次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十八次全国代表大会",
+          "十八大"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2012-11-08 - 2012-11-14"
+      }
+    },
+    {
+      "id": "十三届全国人大一次会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "十三届全国人大一次会议"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2018-03-05 - 2018-03-20"
+      }
+    },
+    {
+      "id": "中华人民共和国宪法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国宪法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国的根本大法。"
+      }
+    },
+    {
+      "id": "严重急性呼吸系统综合症",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "严重急性呼吸系统综合症",
+          "非典"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2002-11 - 2003-07"
+      }
+    },
+    {
+      "id": "中国共产党第十六次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十六次全国代表大会",
+          "中共十六届三中全会",
+          "十六大"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2002-11-08 - 2002-11-14"
+      }
+    },
+    {
+      "id": "温家宝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温家宝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "中国政治人物，曾任中华人民共和国国务院总理。"
+      }
+    },
+    {
+      "id": "三个代表",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "三个代表"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党的指导思想之一。"
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "中国政治人物，现任中国共产党中央委员会总书记。"
+      }
+    },
+    {
+      "id": "中共中央",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党的中央组织。"
+      }
+    },
+    {
+      "id": "习近平新时代中国特色社会主义思想",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "习近平新时代中国特色社会主义思想"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党的指导思想之一。"
+      }
+    },
+    {
+      "id": "和谐社会",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "和谐社会",
+          "社会主义和谐社会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党提出的社会建设理论与发展目标。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "胡锦涛",
+      "target": "科学发展观",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-07-28",
+        "description": "在全国防治非典工作会议的讲话中提出科学发展观。"
+      }
+    },
+    {
+      "source": "科学发展观",
+      "target": "中国共产党",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2012-11-14",
+        "description": "在中国共产党第十八次全国代表大会上成为党的指导思想之一。"
+      }
+    },
+    {
+      "source": "胡锦涛",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "中央委员会总书记"
+      }
+    },
+    {
+      "source": "中国共产党第十七次全国代表大会",
+      "target": "中国共产党章程",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2007-10-21",
+        "description": "通过决议，将科学发展观写入《中国共产党章程》。"
+      }
+    },
+    {
+      "source": "科学发展观",
+      "target": "中国共产党章程",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2007-10-21"
+      }
+    },
+    {
+      "source": "中国共产党第十八次全国代表大会",
+      "target": "科学发展观",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2012-11-14",
+        "description": "通过决议，将科学发展观确立为党的指导思想之一。"
+      }
+    },
+    {
+      "source": "十三届全国人大一次会议",
+      "target": "中华人民共和国宪法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2018-03-11",
+        "description": "通过《中华人民共和国宪法修正案》，将科学发展观写入宪法。"
+      }
+    },
+    {
+      "source": "科学发展观",
+      "target": "中华人民共和国宪法",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-03-11"
+      }
+    },
+    {
+      "source": "严重急性呼吸系统综合症",
+      "target": "科学发展观",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2003",
+        "description": "防治非典的经验促使胡锦涛在相关工作会议上提出了强调协调、可持续发展的科学发展观。"
+      }
+    },
+    {
+      "source": "中国共产党第十六次全国代表大会",
+      "target": "科学发展观",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10-14",
+        "description": "在其第三次中央委员会全体会议上，科学发展观被正式确立为执政理念之一。"
+      }
+    },
+    {
+      "source": "温家宝",
+      "target": "科学发展观",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2004-02-29",
+        "description": "要求全党统一思想，牢固树立和认真落实科学发展观。"
+      }
+    },
+    {
+      "source": "三个代表",
+      "target": "科学发展观",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "科学发展观的贯彻以“三个代表”重要思想为基础，被视为对其的继承和发展。"
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "科学发展观",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2008-09-05",
+        "position": "中央深入学习实践科学发展观活动领导小组组长",
+        "description": "领导在全党范围内开展的深入学习实践科学发展观活动。"
+      }
+    },
+    {
+      "source": "中共中央",
+      "target": "科学发展观",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2004-02",
+        "description": "组织“省部级主要领导干部树立和落实科学发展观专题研究班”以推广该思想。"
+      }
+    },
+    {
+      "source": "科学发展观",
+      "target": "和谐社会",
+      "type": "PUSHED",
+      "properties": {
+        "description": "构建社会主义和谐社会是科学发展观的重要内容。"
+      }
+    },
+    {
+      "source": "习近平新时代中国特色社会主义思想",
+      "target": "中华人民共和国宪法",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-03-11"
+      }
+    }
+  ]
+}

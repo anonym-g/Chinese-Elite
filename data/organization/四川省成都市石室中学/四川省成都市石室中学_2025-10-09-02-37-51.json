@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "id": "四川省成都市石室中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四川省成都市石室中学",
+          "四川省成都市第四中学",
+          "石室精舍",
+          "蜀郡郡学",
+          "蜀国太学",
+          "益州州学",
+          "孟蜀太学",
+          "成都府学",
+          "锦江书院",
+          "成都师范学堂",
+          "四川省立成都石室中学",
+          "川西石室中学",
+          "成都第四中学",
+          "成都石室中学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "前141 - ",
+        "location": "成都市",
+        "description": "位于四川省成都市的省级一级示范性普通高中，宣称历史可追溯至西汉的文翁石室。"
+      }
+    },
+    {
+      "id": "文翁 (西汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "文翁 (西汉)",
+          "文翁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "西汉蜀郡太守，创办了中国最早的地方官办学堂“文翁石室”。"
+      }
+    },
+    {
+      "id": "汉景帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉景帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国汉朝第六位皇帝。"
+      }
+    },
+    {
+      "id": "汉武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉武帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国汉朝第七位皇帝。"
+      }
+    },
+    {
+      "id": "益州",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "益州"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "汉代至唐代的一个行政区划，此处置为其政府机构。"
+      }
+    },
+    {
+      "id": "张献忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张献忠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "明末民变领袖。"
+      }
+    },
+    {
+      "id": "刘德芳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘德芳"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "清朝康熙年间四川按察使。"
+      }
+    },
+    {
+      "id": "四川大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四川大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "成都市"
+      }
+    },
+    {
+      "id": "岑春煊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "岑春煊"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "清末四川总督。"
+      }
+    },
+    {
+      "id": "辛亥革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "辛亥革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1911 - 1912"
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966 - 1976"
+      }
+    },
+    {
+      "id": "山东省济南第三中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省济南第三中学",
+          "济南第三中学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "济南市"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "文翁 (西汉)",
+      "target": "四川省成都市石室中学",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "前141",
+        "description": "于汉景帝末年（约前143年-前141年）任蜀郡太守时，于成都城南修筑石室，创立了蜀郡郡学。"
+      }
+    },
+    {
+      "source": "文翁 (西汉)",
+      "target": "汉景帝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": "蜀郡太守",
+        "description": "在汉景帝末年任蜀郡太守。"
+      }
+    },
+    {
+      "source": "四川省成都市石室中学",
+      "target": "汉武帝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "前124",
+        "description": "因学校办学成绩卓著，汉武帝于西元前124年下令全国效仿其模式兴办学校。"
+      }
+    },
+    {
+      "source": "四川省成都市石室中学",
+      "target": "益州",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "州学",
+        "description": "在晋、南朝、唐时期，学校为益州州学。"
+      }
+    },
+    {
+      "source": "张献忠",
+      "target": "四川省成都市石室中学",
+      "type": "BLOCKED",
+      "properties": {
+        "description": "明末清初，张献忠据蜀，石室被完全摧毁。"
+      }
+    },
+    {
+      "source": "刘德芳",
+      "target": "四川省成都市石室中学",
+      "type": "PUSHED",
+      "properties": {
+        "description": "清康熙年间，四川按察使刘德芳在成都府学（石室中学旧址）建立锦江书院。"
+      }
+    },
+    {
+      "source": "四川省成都市石室中学",
+      "target": "四川大学",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "石室中学的前身之一锦江书院，后合并演变为四川大学。"
+      }
+    },
+    {
+      "source": "岑春煊",
+      "target": "四川省成都市石室中学",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1902",
+        "description": "1902年，时任四川总督岑春煊将成都府学改为成都师范学堂，推动学校向新学转型。"
+      }
+    },
+    {
+      "source": "辛亥革命",
+      "target": "四川省成都市石室中学",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "辛亥革命后，学校改称成都联合中学。"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "四川省成都市石室中学",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "end_date": "1976",
+        "description": "文化大革命中，石室中学遭到毁灭性破坏，清代修建的所有建筑均不复存在。"
+      }
+    },
+    {
+      "source": "山东省济南第三中学",
+      "target": "四川省成都市石室中学",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2015-02",
+        "description": "因媒体将石室中学误报为“贫困山区”学校，引发双方学校学生言语斗争及媒体战，校方称两校非友好学校。"
+      }
+    }
+  ]
+}
