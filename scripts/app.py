@@ -1,39 +1,51 @@
-# app.py
+# scripts/app.py
 
 import os
-import threading
 import asyncio
-from flask import Flask
-from bot import main as run_bot
+import logging
+from flask import Flask, request, Response
+from telegram import Update
+from asgiref.wsgi import WsgiToAsgi
 
-# 1. 创建一个 Flask web 应用实例
-app = Flask(__name__)
+from bot import setup_bot
 
-# 2. 定义一个简单的网页路由，响应 Render 的健康检查
-@app.route('/')
+# --- 日志配置 ---
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# --- 初始化 ---
+# 在应用启动时，只创建一次 bot application 实例
+application = asyncio.run(setup_bot())
+BOT_TOKEN = application.bot.token
+
+# 创建 Flask web 应用实例，使用一个临时的名字
+flask_app = Flask(__name__)
+
+# --- Webhook 路由 ---
+# URL 路径使用 Bot Token，确保只有 Telegram 能调用它
+@flask_app.route(f'/{BOT_TOKEN}', methods=['POST'])
+async def webhook():
+    """这个函数处理所有来自 Telegram 的更新。"""
+    try:
+        # 将收到的 JSON 数据转换为 Update 对象
+        update_data = request.get_json(force=True)
+        update = Update.de_json(update_data, application.bot)
+        
+        # 使用 application 实例来处理这个 update
+        await application.process_update(update)
+        
+        # 向 Telegram 返回一个成功的响应
+        return Response(status=200)
+    except Exception as e:
+        logger.error(f"处理 webhook 时出错: {e}")
+        return Response(status=500)
+
+# --- 健康检查路由 ---
+@flask_app.route('/')
 def hello_world():
+    """一个简单的页面，用于 UptimeRobot 监控和 Render 的健康检查。"""
     return 'Bot is running...'
 
-# 3. 定义一个函数来启动 Telegram 机器人
-def run_telegram_bot():
-    """在一个新的事件循环中运行异步的机器人主函数"""
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    try:
-        loop.run_until_complete(run_bot())
-    except Exception as e:
-        print(f"机器人线程出错: {e}")
-    finally:
-        loop.close()
-
-# 4. 在程序启动时，创建一个新线程来专门运行机器人
-#    这样可以确保 web 服务和 telegram 轮询互不阻塞
-bot_thread = threading.Thread(target=run_telegram_bot)
-bot_thread.start()
-
-# 5. 主线程保持 Flask web 服务的运行
-if __name__ == '__main__':
-    # Gunicorn 会直接调用 app 对象，这部分主要用于本地测试
-    # Render 会使用 Gunicorn 来启动，它需要知道主机和端口
-    port = int(os.environ.get('PORT', 10000))
-    app.run(host='0.0.0.0', port=port)
+# 使用翻译器包装 Flask 实例
+# Gunicorn 将会使用这个 ASGI 兼容的 `app` 实例
+app = WsgiToAsgi(flask_app)

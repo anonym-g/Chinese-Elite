@@ -36,6 +36,7 @@ PARSER_SYSTEM_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'parser_system.txt')
 MERGE_CHECK_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'merge_check.txt')
 MERGE_EXECUTE_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'merge_execute.txt')
 VALIDATE_PR_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'pr_validator.txt')
+BOT_QA_PROMPT = os.path.join(PROMPTS_DIR, 'bot_rag.txt')
 
 # --- LLM 模型配置 ---
 # 用于从Wikitext解析实体和关系的主模型

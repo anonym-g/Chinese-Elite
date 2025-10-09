@@ -8,21 +8,17 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from collections import deque
-
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
-from config import BOT_QA_MODEL
+from config import BOT_QA_MODEL, ROOT_DIR, BOT_QA_PROMPT
 from api_rate_limiter import gemini_flash_lite_preview_limiter
 
 # --- 日志配置 ---
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# --- 全局常量 ---
-PROMPT_PATH = os.path.join(os.path.dirname(__file__), 'prompts', 'bot_rag.txt')
-# 项目根目录是 a/b/scripts/.. -> a/b/
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+# --- 全局常量和辅助函数 ---
 MAX_HISTORY = 24
 
 def _generate_project_structure_text() -> str:
@@ -31,71 +27,52 @@ def _generate_project_structure_text() -> str:
     """
     logger.info("正在实时生成项目结构文本...")
     structure_lines = ["项目结构如下:"]
-    
     ignore_dirs = {
-        '.git', '__pycache__', 'logs', 
-        'venv', '.venv', 'env', '.env',
-        'nodes', 'person', 'organization', 'movement',
-        'event', 'document', 'location'
+        '.git', '__pycache__', 
+        'logs', 
+        'venv', '.venv', 'env', '.env', 
+        'nodes', 
+        'person', 'organization', 'movement', 'event', 'document', 'location'
     }
-    
-    ignore_files = {'.gitignore', 'processed_files.log'}
-
-    for root, dirs, files in os.walk(PROJECT_ROOT):
-        # 过滤掉需要忽略的目录
-        # dirs[:] = ... 是一种原地修改列表的技巧，可以影响 os.walk 的后续遍历
+    ignore_files = {
+        '.gitignore', 
+        'processed_files.log'
+    }
+    for root, dirs, files in os.walk(ROOT_DIR):
         dirs[:] = [d for d in dirs if d not in ignore_dirs]
-        
-        level = root.replace(PROJECT_ROOT, '').count(os.sep)
-        
-        # 跳过根目录本身，只显示子目录和文件
-        if root == PROJECT_ROOT:
-            # 只处理根目录下的文件
+        level = root.replace(ROOT_DIR, '').count(os.sep)
+        if root == ROOT_DIR:
             sub_indent = '├── '
             for f in sorted(files):
                 if f not in ignore_files:
                     structure_lines.append(f"{sub_indent}{f}")
-            continue # 继续到下一个循环，处理子目录
-
-        # 处理子目录
+            continue
         indent = '│   ' * (level - 1) + '├── '
         structure_lines.append(f"{indent}{os.path.basename(root)}/")
-        
         sub_indent = '│   ' * level + '├── '
         for f in sorted(files):
             if f not in ignore_files:
                 structure_lines.append(f"{sub_indent}{f}")
-
     logger.info("项目结构文本生成完毕。")
     return "\n".join(structure_lines)
-
-# --- 工具定义 ---
 
 def read_project_file(file_path: str) -> str:
     """
     安全地读取项目内指定文件的内容。这是提供给LLM的工具函数。
     """
     try:
-        # 构建绝对路径
-        abs_file_path = os.path.abspath(os.path.join(PROJECT_ROOT, file_path))
-        
-        # 安全检查：确保请求的文件路径在项目根目录之内
-        if not abs_file_path.startswith(PROJECT_ROOT):
+        abs_file_path = os.path.abspath(os.path.join(ROOT_DIR, file_path))
+        if not abs_file_path.startswith(ROOT_DIR):
             return f"错误：禁止访问项目目录之外的文件: {file_path}"
-            
         if not os.path.exists(abs_file_path):
             return f"错误：文件不存在: {file_path}"
-            
         if os.path.isdir(abs_file_path):
             return f"错误：这是一个目录，无法读取: {file_path}"
-
         with open(abs_file_path, 'r', encoding='utf-8') as f:
-            # 读取文件前 15000 字符，防止文件过大、消耗过多资源
-            content = f.read(15000) 
+            content = f.read(15000)
             if len(content) == 15000:
                 return content + "\n... (文件内容过长，已截断)"
             return content
-            
     except Exception as e:
         return f"读取文件时发生错误: {e}"
 
@@ -134,18 +111,17 @@ class TelegramBotHandler:
         except Exception as e:
             logger.critical(f"严重错误: 初始化 Gemini Client 失败。请检查 GEMINI_API_KEY。", exc_info=True)
             sys.exit(1)
-            
+
     def _build_system_prompt(self) -> str:
         """
         读取静态prompt模板，并动态注入实时生成的项目结构。
         """
         try:
-            with open(PROMPT_PATH, 'r', encoding='utf-8') as f:
+            with open(BOT_QA_PROMPT, 'r', encoding='utf-8') as f:
                 prompt_template = f.read()
         except FileNotFoundError:
-            logger.critical(f"严重错误: Prompt 文件 '{PROMPT_PATH}' 未找到。")
+            logger.critical(f"严重错误: Prompt 文件 '{BOT_QA_PROMPT}' 未找到。")
             sys.exit(1)
-            
         project_structure = _generate_project_structure_text()
         return prompt_template.format(project_structure=project_structure)
 
@@ -190,7 +166,7 @@ class TelegramBotHandler:
             for part in candidate.content.parts:
                 if part.function_call:
                     function_call = part.function_call
-                    break # 找到一个就停止
+                    break
             
             if function_call:
                 if function_call.name == 'read_project_file':
@@ -234,33 +210,31 @@ class TelegramBotHandler:
         if not message or not message.text: return
 
         chat_id = message.chat_id
-        final_user_message = message.text
-
-        # 在 python-telegram-bot 中, 私聊的 chat_id 是正数 (等于用户ID)
+        user_message = message.text
         is_private_chat = chat_id > 0
 
         # --- 白名单 ---
         # https://t.me/ChineseEliteTeleGroup
         allowed_group_id = os.getenv("ALLOWED_GROUP_ID")
+        allowed_user_id = os.getenv("ALLOWED_USER_ID")
 
         logger.info(f"--- [ID DISCOVERY] Received message from chat_id: {chat_id} ---")
 
-        # 检查 .env 文件中是否配置了群组ID
-        if not allowed_group_id:
-            logger.warning("警告：未在 .env 文件中设置 ALLOWED_GROUP_ID。为安全起见，机器人将拒绝所有群聊的呼叫。")
-            if chat_id < 0: # 如果是任何群聊
-                return
-        
-        # --- 禁用私聊 ---
-        if is_private_chat:
-            await message.reply_text("抱歉，我是一个专为群组设计的助手，请在指定群组中与我互动（因为LLM API有用量限制）。\n\n群聊链接：https://t.me/ChineseEliteTeleGroup")
-            return
+        # 创建一个包含所有允许 ID 的列表
+        allowed_ids = []
+        if allowed_group_id:
+            allowed_ids.append(allowed_group_id)
+        if allowed_user_id:
+            allowed_ids.append(allowed_user_id)
 
-        # 如果配置了ID，则检查当前聊天ID是否匹配
-        if allowed_group_id and str(chat_id) != allowed_group_id:
-            logger.info(f"收到来自非授权群组或私聊 {chat_id} 的消息，已忽略。")
+        # 如果白名单列表不为空，且当前用户的ID不在其中，则拒绝
+        if allowed_ids and str(chat_id) not in allowed_ids:
+            await message.reply_text("抱歉，我是专为下面这个群组设计的助手，请在那里与我互动（因为LLM API有用量限制）。\n\n群聊链接：https://t.me/ChineseEliteTeleGroup")
+
             # 如果您希望机器人在被拉入野群时自动退群，可以取消下面这行的注释
             # await context.bot.leave_chat(chat_id)
+
+            logger.info(f"收到来自非授权群组或私聊 {chat_id} 的消息，已忽略。")
             return
 
         is_reply_to_bot = (
@@ -268,41 +242,18 @@ class TelegramBotHandler:
             message.reply_to_message.from_user and
             message.reply_to_message.from_user.username == self.bot_username
         )
-        is_mentioning_bot = f"@{self.bot_username}" in final_user_message
-
-        # 如果在群聊中，但没有明确呼叫机器人，则忽略
-        if not (is_reply_to_bot or is_mentioning_bot):
+        is_mentioning_bot = f"@{self.bot_username}" in user_message
+        if not (is_reply_to_bot or is_mentioning_bot or is_private_chat):
             return
-
-        # 检查是否是一条回复消息
-        if message.reply_to_message and message.reply_to_message.text:
-            original_message = message.reply_to_message
-            
-            # 获取原消息作者的名字
-            if original_message.from_user:
-                original_author_name = original_message.from_user.first_name
-            else:
-                original_author_name = "A User"
-            original_text = original_message.text  # 获取原消息的文本
-
-            quoted_context = (
-                f"用户正在回复 {original_author_name} 的消息:\n"
-                f">>>\n"
-                f"{original_text}\n"
-                f"<<<\n\n"
-            )
-            final_user_message = quoted_context + final_user_message
-
-        logger.info(f"收到来自 Chat ID {chat_id} 的消息: '{final_user_message}'")
         
+        logger.info(f"收到来自 Chat ID {chat_id} 的消息: '{user_message}'")
+
         if chat_id not in self.chat_histories:
             self.chat_histories[chat_id] = deque(maxlen=MAX_HISTORY * 2)
 
         history = self.chat_histories[chat_id]
-        history.append(("user", final_user_message))
-        
+        history.append(("user", user_message))
         bot_response = self._call_llm(list(history))
-
         if bot_response:
             history.append(("model", bot_response))
             await message.reply_text(bot_response)
@@ -310,7 +261,11 @@ class TelegramBotHandler:
             history.pop()
             await message.reply_text("服务器繁忙，请稍后再试。")
 
-async def main() -> None:
+# --- 机器人设置函数 ---
+async def setup_bot():
+    """
+    创建、配置并初始化好 Telegram Application 实例，并返回。
+    """
     load_dotenv()
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     if not token or not os.getenv("GEMINI_API_KEY"):
@@ -319,41 +274,17 @@ async def main() -> None:
 
     application = Application.builder().token(token).build()
     
-    bot_info = await application.bot.get_me()
-    if not bot_info.username:
+    logger.info("正在初始化 Application...")
+    await application.initialize()
+    logger.info("Application 初始化成功。")
+
+    if not application.bot.username:
         logger.critical("严重错误：无法获取机器人的用户名。")
         sys.exit(1)
         
-    logger.info(f"机器人已启动，用户名为: @{bot_info.username}")
+    logger.info(f"机器人已配置，用户名为: @{application.bot.username}")
 
-    bot_handler = TelegramBotHandler(bot_info.username)
+    bot_handler = TelegramBotHandler(application.bot.username)
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, bot_handler.handle_message))
-
-    try:
-        logger.info("机器人正在初始化...")
-        await application.initialize()
-        
-        await application.start()
-        if application.updater:
-            logger.info("机器人开始轮询...")
-            await application.updater.start_polling()
-        else:
-            logger.error("错误：Application.updater 未被初始化。")
-            return
-
-        while True:
-            await asyncio.sleep(3600)
-
-    except (KeyboardInterrupt, SystemExit):
-        logger.info("收到中断信号，正在关闭机器人...")
-    finally:
-        if application.running:
-            logger.info("正在关闭...")
-            await application.shutdown()
-        logger.info("机器人已成功关闭。")
-
-if __name__ == "__main__":
-    try:
-        asyncio.run(main())
-    except Exception as e:
-        logger.critical(f"启动机器人时发生致命错误: {e}")
+    
+    return application
