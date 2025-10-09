@@ -234,7 +234,7 @@ class TelegramBotHandler:
         if not message or not message.text: return
 
         chat_id = message.chat_id
-        user_message = message.text
+        final_user_message = message.text
 
         # 在 python-telegram-bot 中, 私聊的 chat_id 是正数 (等于用户ID)
         is_private_chat = chat_id > 0
@@ -247,9 +247,9 @@ class TelegramBotHandler:
 
         # 检查 .env 文件中是否配置了群组ID
         if not allowed_group_id:
-             logger.warning("警告：未在 .env 文件中设置 ALLOWED_GROUP_ID。为安全起见，机器人将拒绝所有群聊的呼叫。")
-             if chat_id < 0: # 如果是任何群聊
-                 return
+            logger.warning("警告：未在 .env 文件中设置 ALLOWED_GROUP_ID。为安全起见，机器人将拒绝所有群聊的呼叫。")
+            if chat_id < 0: # 如果是任何群聊
+                return
         
         # --- 禁用私聊 ---
         if is_private_chat:
@@ -268,19 +268,38 @@ class TelegramBotHandler:
             message.reply_to_message.from_user and
             message.reply_to_message.from_user.username == self.bot_username
         )
-        is_mentioning_bot = f"@{self.bot_username}" in user_message
+        is_mentioning_bot = f"@{self.bot_username}" in final_user_message
 
         # 如果在群聊中，但没有明确呼叫机器人，则忽略
         if not (is_reply_to_bot or is_mentioning_bot):
             return
 
-        logger.info(f"收到来自 Chat ID {chat_id} 的消息: '{user_message}'")
+        # 检查是否是一条回复消息
+        if message.reply_to_message and message.reply_to_message.text:
+            original_message = message.reply_to_message
+            
+            # 获取原消息作者的名字
+            if original_message.from_user:
+                original_author_name = original_message.from_user.first_name
+            else:
+                original_author_name = "A User"
+            original_text = original_message.text  # 获取原消息的文本
+
+            quoted_context = (
+                f"用户正在回复 {original_author_name} 的消息:\n"
+                f">>>\n"
+                f"{original_text}\n"
+                f"<<<\n\n"
+            )
+            final_user_message = quoted_context + final_user_message
+
+        logger.info(f"收到来自 Chat ID {chat_id} 的消息: '{final_user_message}'")
         
         if chat_id not in self.chat_histories:
             self.chat_histories[chat_id] = deque(maxlen=MAX_HISTORY * 2)
 
         history = self.chat_histories[chat_id]
-        history.append(("user", user_message))
+        history.append(("user", final_user_message))
         
         bot_response = self._call_llm(list(history))
 
