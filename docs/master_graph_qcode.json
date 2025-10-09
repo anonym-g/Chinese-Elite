@@ -10550,6 +10550,7 @@
           "余达强",
           "忠发",
           "拜发",
+          "李科发",
           "杨特生",
           "特生",
           "独中",
@@ -17312,7 +17313,8 @@
         "en": []
       },
       "properties": {
-        "description": "中国共产党中央委员会主管党组织和干部工作的职能部门。"
+        "description": "中国共产党中央委员会的职能部门之一，主管党组织建设和干部人事工作。",
+        "location": "中华人民共和国"
       }
     },
     {
@@ -17925,7 +17927,8 @@
       "name": {
         "zh-cn": [
           "中国共产党第五次全国代表大会",
-          "中共五大"
+          "中共五大",
+          "中国共产党第五届中央委员会"
         ],
         "en": []
       },
@@ -27376,8 +27379,8 @@
       "name": {
         "zh-cn": [
           "汉阳兵工厂",
-          "湖北枪炮厂",
-          "湖北兵工厂"
+          "湖北兵工厂",
+          "湖北枪炮厂"
         ],
         "en": []
       },
@@ -29482,7 +29485,8 @@
       "type": "Event",
       "name": {
         "zh-cn": [
-          "二七大罢工"
+          "二七大罢工",
+          "京汉铁路大罢工"
         ],
         "en": []
       },
@@ -52328,12 +52332,18 @@
           "中华人民共和国公务员",
           "中华人民共和国公务员法",
           "乡科级副职",
-          "公务员"
+          "公务员",
+          "国家公务员"
         ],
         "en": []
       },
       "properties": {
-        "description": "中国的国家公务员制度"
+        "description": "中国的国家公务员制度，是指依法履行公职、纳入国家行政编制、由国家财政负担工资福利的工作人员。规范中华人民共和国公务员管理的主要法律是其重要依据。",
+        "period": [
+          "1993-08 - ",
+          "2006-01-01 - "
+        ],
+        "location": "中华人民共和国"
       }
     },
     {
@@ -68969,7 +68979,9 @@
         ],
         "en": []
       },
-      "properties": {}
+      "properties": {
+        "period": "1987-10-25 - 1987-11-01"
+      }
     },
     {
       "id": "Q192406",
@@ -73233,6 +73245,187 @@
       "properties": {
         "location": "济南市"
       }
+    },
+    {
+      "id": "Q1337056",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "汉川市",
+          "汉川县"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "Q11133413",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉阳铁厂",
+          "汉冶萍公司"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "Q10873181",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央特别行动科",
+          "中央特科"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "BAIDU:张纪恩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张纪恩"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "BAIDU:张月霞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张月霞"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "Q10926005",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家公务员局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中华人民共和国",
+        "description": "中华人民共和国负责公务员管理的机构，2018年后并入中共中央组织部。"
+      }
+    },
+    {
+      "id": "Q122800019",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "国家公务员考试"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华人民共和国录用公务员的全国性统一考试。"
+      }
+    },
+    {
+      "id": "Q7408",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "科举"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "605 - 1905",
+        "description": "中国古代通过考试选拔官吏的制度。"
+      }
+    },
+    {
+      "id": "Q65057662",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "干部四化"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1982 - ",
+        "description": "邓小平提出的干部队伍革命化、年轻化、知识化、专业化的方针。"
+      }
+    },
+    {
+      "id": "BAIDU:国家公务员暂行条例",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "国家公务员暂行条例"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1993-08-14 - 2006-01-01",
+        "description": "中华人民共和国公务员制度的初步法规，后被《公务员法》取代。"
+      }
+    },
+    {
+      "id": "Q15903282",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十届全国人民代表大会常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2003-03 - 2008-03"
+      }
+    },
+    {
+      "id": "Q10871934",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国人事部",
+          "人事部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1988 - 2008",
+        "description": "中华人民共和国国务院曾经的组成部门，后与劳动和社会保障部合并为人力资源和社会保障部。"
+      }
+    },
+    {
+      "id": "Q15902557",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国人民代表大会常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2013-03 - 2018-03"
+      }
+    },
+    {
+      "id": "Q97711380",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公职人员政务处分法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2020-06-20 - "
+      }
     }
   ],
   "relationships": [
@@ -76828,16 +77021,6 @@
     },
     {
       "source": "Q701507",
-      "target": "Q701453",
-      "type": "MET_WITH",
-      "properties": {
-        "start_date": "1935",
-        "end_date": "1935",
-        "description": "长征中共同率领先遣队强渡大渡河"
-      }
-    },
-    {
-      "source": "Q701507",
       "target": "Q381823",
       "type": "MET_WITH",
       "properties": {
@@ -77526,16 +77709,6 @@
     {
       "source": "Q41570",
       "target": "Q16977",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1978-12",
-        "end_date": "1981",
-        "description": "在粉碎“四人帮”后，邓小平与坚持“两个凡是”的华国锋在政治路线上发生分歧。自中共十一届三中全会于1978年12月召开后，邓小平逐渐取代华国锋成为中共实际的最高领导人，华国锋的领导核心地位最终被取代。"
-      }
-    },
-    {
-      "source": "Q41570",
-      "target": "Q16977",
       "type": "PUSHED",
       "properties": {
         "start_date": "1976-10",
@@ -77697,16 +77870,6 @@
     },
     {
       "source": "Q504372",
-      "target": "Q197170",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1967",
-        "end_date": "1976",
-        "description": "在周恩来逝世后，与叶剑英在谁致悼词问题上发生冲突。后在粉碎四人帮事件中被叶剑英等人拘捕。"
-      }
-    },
-    {
-      "source": "Q504372",
       "target": "Q455583",
       "type": "ENEMY_OF",
       "properties": {
@@ -77795,15 +77958,6 @@
       "properties": {
         "start_date": "1967",
         "description": "在“二月逆流”和粉碎“四人帮”事件中，二人是重要的盟友。特别是在粉碎“四人帮”的怀仁堂事变中，他们共同决策并参与其中。"
-      }
-    },
-    {
-      "source": "Q504372",
-      "target": "Q557233",
-      "type": "FRIEND_OF",
-      "properties": {
-        "start_date": "1976",
-        "description": "在粉碎“四人帮”事件中，陈云接受叶剑英的咨询并支持其行动，二人是盟友。"
       }
     },
     {
@@ -81799,42 +81953,6 @@
     },
     {
       "source": "Q968038",
-      "target": "Q190517",
-      "type": "INFLUENCED",
-      "properties": {
-        "start_date": "1911",
-        "description": "参与辛亥革命。"
-      }
-    },
-    {
-      "source": "Q968038",
-      "target": "Q279790",
-      "type": "INFLUENCED",
-      "properties": {
-        "start_date": "1919",
-        "description": "在上海参加五四运动。"
-      }
-    },
-    {
-      "source": "Q968038",
-      "target": "Q2268189",
-      "type": "INFLUENCED",
-      "properties": {
-        "start_date": "1921-07",
-        "description": "作为武汉小组代表出席"
-      }
-    },
-    {
-      "source": "Q968038",
-      "target": "Q46333",
-      "type": "INFLUENCED",
-      "properties": {
-        "start_date": "1934-10",
-        "description": "参与长征。"
-      }
-    },
-    {
-      "source": "Q968038",
       "target": "Q175984",
       "type": "INFLUENCED",
       "properties": {
@@ -83024,14 +83142,6 @@
     },
     {
       "source": "Q188408",
-      "target": "Q55695035",
-      "type": "FRIEND_OF",
-      "properties": {
-        "description": "颜昌颐是陈毅加入中国共产党的介绍人之一"
-      }
-    },
-    {
-      "source": "Q188408",
       "target": "Q378036",
       "type": "SUBORDINATE_OF",
       "properties": {
@@ -83069,15 +83179,6 @@
     {
       "source": "Q188408",
       "target": "Q5816",
-      "type": "MET_WITH",
-      "properties": {
-        "start_date": "1928-04",
-        "description": "井冈山会师"
-      }
-    },
-    {
-      "source": "Q188408",
-      "target": "Q5816",
       "type": "BLOCKED",
       "properties": {
         "start_date": "1929-06",
@@ -83108,15 +83209,6 @@
       "properties": {
         "start_date": "1931",
         "description": "被李韶九等怀疑为AB团首要分子"
-      }
-    },
-    {
-      "source": "Q188408",
-      "target": "Q5816",
-      "type": "FRIEND_OF",
-      "properties": {
-        "start_date": "1931",
-        "description": "在AB团事件中受毛泽东保护"
       }
     },
     {
@@ -86728,15 +86820,6 @@
       }
     },
     {
-      "source": "Q99717",
-      "target": "Q1189319",
-      "type": "BLOCKED",
-      "properties": {
-        "start_date": "1989-06",
-        "description": "被免去政治局委员职务。"
-      }
-    },
-    {
       "source": "Q5930890",
       "target": "Q715087",
       "type": "BLOCKED",
@@ -88408,42 +88491,6 @@
     },
     {
       "source": "Q382645",
-      "target": "Q705864",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1965-11-10",
-        "description": "发表《评新编历史剧〈海瑞罢官〉》批判吴晗。"
-      }
-    },
-    {
-      "source": "Q382645",
-      "target": "Q3022453",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1966-05-10",
-        "description": "发表《评“三家村”》批判邓拓。"
-      }
-    },
-    {
-      "source": "Q382645",
-      "target": "Q11064411",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1966-05-10",
-        "description": "发表《评“三家村”》批判廖沫沙。"
-      }
-    },
-    {
-      "source": "Q382645",
-      "target": "Q1044358",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1966-10",
-        "description": "在鲁迅逝世30周年纪念大会及《评反革命两面派周扬》中批判周扬。"
-      }
-    },
-    {
-      "source": "Q382645",
       "target": "Q47677",
       "type": "ENEMY_OF",
       "properties": {
@@ -88475,15 +88522,6 @@
       "type": "PUSHED",
       "properties": {
         "description": "参与组织“批邓、反击右倾翻案风”运动。"
-      }
-    },
-    {
-      "source": "Q382645",
-      "target": "Q5816",
-      "type": "MET_WITH",
-      "properties": {
-        "start_date": "1957-03-10",
-        "description": "作为上海文化界代表团成员在北京受到毛泽东接见并获表扬。"
       }
     },
     {
@@ -90045,24 +90083,6 @@
       "properties": {
         "start_date": "1927-08-01",
         "description": "共同发动南昌起义"
-      }
-    },
-    {
-      "source": "Q701507",
-      "target": "Q381823",
-      "type": "FRIEND_OF",
-      "properties": {
-        "start_date": "1940-08",
-        "description": "共同指挥百团大战"
-      }
-    },
-    {
-      "source": "Q701507",
-      "target": "Q840370",
-      "type": "FRIEND_OF",
-      "properties": {
-        "start_date": "1949-04",
-        "description": "共同指挥渡江战役"
       }
     },
     {
@@ -93605,7 +93625,8 @@
         "end_date": [
           "1931-06"
         ],
-        "description": "在1926年，向忠发为湖北省总工会委员长，李立三为副委员长。在1928年7月至1931年6月期间，向忠发为名义上的中共中央总书记，李立三为实际最高领导人。"
+        "description": "在1926年，向忠发为湖北省总工会委员长，李立三为副委员长。在1928年7月至1931年6月期间，向忠发为名义上的中共中央总书记，李立三为实际最高领导人。",
+        "position": "湖北省总工会副委员长"
       }
     },
     {
@@ -97097,8 +97118,8 @@
       "target": "Q1369370",
       "type": "ENEMY_OF",
       "properties": {
-        "start_date": "1931",
-        "description": "向忠发叛变后，邓颖超协助周恩来和中共机关度过了危险。"
+        "start_date": "1931-06",
+        "description": "向忠发叛变后，邓颖超作为当事人，坚持认为向忠发叛变，并撰文说明情况，同时协助周恩来和中共机关度过了危险。"
       }
     },
     {
@@ -97978,16 +97999,6 @@
       "properties": {
         "end_date": "1935",
         "description": "陕北红军的战友。"
-      }
-    },
-    {
-      "source": "Q709932",
-      "target": "Q1593062",
-      "type": "FRIEND_OF",
-      "properties": {
-        "start_date": "1952",
-        "end_date": "1954",
-        "description": "在“高饶事件”中结成政治联盟，密谋反对刘少奇、周恩来。"
       }
     },
     {
@@ -99374,16 +99385,6 @@
     },
     {
       "source": "Q99850",
-      "target": "Q16977",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1987-01",
-        "end_date": "1987",
-        "description": "因在“反对资产阶级自由化”等问题上存在分歧，胡耀邦对该思潮态度软弱。邓小平联合其他元老，最终迫使其辞去总书记职务。"
-      }
-    },
-    {
-      "source": "Q99850",
       "target": "Q41570",
       "type": "ENEMY_OF",
       "properties": {
@@ -99614,15 +99615,6 @@
     },
     {
       "source": "Q1369370",
-      "target": "Q855",
-      "type": "MET_WITH",
-      "properties": {
-        "start_date": "1927",
-        "description": "在苏联访问期间受到斯大林接见。"
-      }
-    },
-    {
-      "source": "Q1369370",
       "target": "Q780373",
       "type": "INFLUENCED",
       "properties": {
@@ -99638,15 +99630,6 @@
         "start_date": "1928",
         "end_date": "1930",
         "description": "向忠发担任名义上的党内领袖，但实际负责人是周恩来。"
-      }
-    },
-    {
-      "source": "Q1369370",
-      "target": "Q837331",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1928-11",
-        "description": "赞成并推动通过了取消蔡和森中央政治局委员等职务的决议。"
       }
     },
     {
@@ -99717,7 +99700,7 @@
       "target": "Q532973",
       "type": "BLOCKED",
       "properties": {
-        "description": "反对共产国际远东局让张国焘出任苏区中央局书记。"
+        "description": "以张国焘与毛泽东关系不融洽为由，反对共产国际远东局任命其为苏区中央局书记。"
       }
     },
     {
@@ -99770,7 +99753,7 @@
       "type": "ENEMY_OF",
       "properties": {
         "start_date": "1931-06",
-        "description": "被捕后叛变，供出中共中央机密，危及周恩来等人的安全。"
+        "description": "被捕后叛变，供出中共中央机密，危及周恩来等人的安全。经调查后认定向忠发叛变，并称其“节操还不如个妓女”。"
       }
     },
     {
@@ -103865,7 +103848,7 @@
       "target": "Q849418",
       "type": "MEMBER_OF",
       "properties": {
-        "start_date": "1928-06",
+        "start_date": "1928-07",
         "end_date": "1931-06",
         "position": "中央委员会总书记"
       }
@@ -103890,7 +103873,7 @@
       "target": "Q1076970",
       "type": "MEMBER_OF",
       "properties": {
-        "start_date": "1927",
+        "start_date": "1928-07-19",
         "end_date": "1931-06",
         "position": "主席"
       }
@@ -103903,15 +103886,6 @@
         "start_date": "1928-07",
         "end_date": "1931-06",
         "position": "主席"
-      }
-    },
-    {
-      "source": "Q1369370",
-      "target": "Q2308761",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1931-06",
-        "description": "被国民政府逮捕并处决"
       }
     },
     {
@@ -104116,16 +104090,6 @@
         "end_date": "1972-01-06",
         "description": "长期作为毛泽东的下属和支持者，尽管在1929年曾短暂对立。在1966年1月8日至1972年1月6日期间，他担任中国共产党中央军事委员会副主席。",
         "position": "中国共产党中央军事委员会副主席"
-      }
-    },
-    {
-      "source": "Q188408",
-      "target": "Q5816",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1929-06",
-        "end_date": "1929-08",
-        "description": "在中共红四军第七次代表大会上批评毛泽东，并当选为前委书记取代毛泽东。"
       }
     },
     {
@@ -104362,14 +104326,6 @@
     },
     {
       "source": "Q8293496",
-      "target": "Q5816",
-      "type": "FRIEND_OF",
-      "properties": {
-        "description": "互为老友"
-      }
-    },
-    {
-      "source": "Q8293496",
       "target": "Q17427",
       "type": "MEMBER_OF",
       "properties": {
@@ -104407,14 +104363,6 @@
       "type": "MEMBER_OF",
       "properties": {
         "position": "副校长"
-      }
-    },
-    {
-      "source": "Q8293496",
-      "target": "Q46333",
-      "type": "INFLUENCED",
-      "properties": {
-        "start_date": "1934"
       }
     },
     {
@@ -104870,15 +104818,6 @@
       }
     },
     {
-      "source": "Q6959158",
-      "target": "Q46333",
-      "type": "INFLUENCED",
-      "properties": {
-        "start_date": "1934-10",
-        "description": "参加长征"
-      }
-    },
-    {
       "source": "Q1407644",
       "target": "Q6959158",
       "type": "SUBORDINATE_OF",
@@ -105067,15 +105006,6 @@
     },
     {
       "source": "Q361160",
-      "target": "Q5368776",
-      "type": "INFLUENCED",
-      "properties": {
-        "start_date": "1911",
-        "description": "参加了保路运动"
-      }
-    },
-    {
-      "source": "Q361160",
       "target": "Q16077427",
       "type": "MET_WITH",
       "properties": {
@@ -105133,15 +105063,6 @@
       "properties": {
         "start_date": "1925-02",
         "position": "四川省委书记"
-      }
-    },
-    {
-      "source": "Q361160",
-      "target": "Q197453",
-      "type": "MET_WITH",
-      "properties": {
-        "start_date": "1925-02",
-        "description": "由赵世炎介绍加入中国共产党"
       }
     },
     {
@@ -105281,15 +105202,6 @@
     },
     {
       "source": "Q361160",
-      "target": "Q8313711",
-      "type": "MET_WITH",
-      "properties": {
-        "start_date": "1954",
-        "description": "在中国史学会共同任职"
-      }
-    },
-    {
-      "source": "Q361160",
       "target": "Q3790052",
       "type": "MEMBER_OF",
       "properties": {
@@ -105340,15 +105252,6 @@
       "properties": {
         "start_date": "1966",
         "description": "在文革中为成仿吾辩护"
-      }
-    },
-    {
-      "source": "Q361160",
-      "target": "Q821788",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1966",
-        "description": "被红卫兵污蔑为“老走资派”"
       }
     },
     {
@@ -106090,15 +105993,6 @@
     },
     {
       "source": "Q1593062",
-      "target": "Q1960080",
-      "type": "BLOCKED",
-      "properties": {
-        "start_date": "1941-01",
-        "description": "在皖南事变中，因项英擅自离队，提议中央撤销其职务。"
-      }
-    },
-    {
-      "source": "Q1593062",
       "target": "Q1071253",
       "type": "MEMBER_OF",
       "properties": {
@@ -106467,15 +106361,6 @@
     },
     {
       "source": "Q357821",
-      "target": "Q420247",
-      "type": "FRIEND_OF",
-      "properties": {
-        "start_date": "1921",
-        "description": "共同创立文学学社“创造社”"
-      }
-    },
-    {
-      "source": "Q357821",
       "target": "Q17410",
       "type": "FRIEND_OF",
       "properties": {
@@ -106509,33 +106394,6 @@
         "start_date": "1951-07",
         "end_date": "1978-06",
         "position": "主席"
-      }
-    },
-    {
-      "source": "Q357821",
-      "target": "Q715397",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1955-04",
-        "description": "发表《反社会主义的胡风纲领》批判胡风"
-      }
-    },
-    {
-      "source": "Q357821",
-      "target": "Q16977",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1976-05",
-        "description": "发表《水调歌头·庆祝无产阶级文化大革命十周年》词，其中有“走资派，奋螳臂，邓小平”等句"
-      }
-    },
-    {
-      "source": "Q357821",
-      "target": "Q41570",
-      "type": "FRIEND_OF",
-      "properties": {
-        "start_date": "1976-10",
-        "description": "发表《水调歌头·粉碎四人帮》词，拥护华国锋"
       }
     },
     {
@@ -111707,14 +111565,6 @@
       }
     },
     {
-      "source": "Q382645",
-      "target": "Q8690",
-      "type": "INFLUENCED",
-      "properties": {
-        "description": "作为“四人帮”和中央文革小组成员，通过撰写一系列批判文章和参与领导活动，在舆论和政治层面深度影响了文化大革命的进程。"
-      }
-    },
-    {
       "source": "Q5816",
       "target": "Q382645",
       "type": "PUSHED",
@@ -116099,29 +115949,11 @@
     },
     {
       "source": "Q188408",
-      "target": "Q715844",
-      "type": "FRIEND_OF",
-      "properties": {
-        "start_date": "1939-02",
-        "description": "共同作为新四军领导人"
-      }
-    },
-    {
-      "source": "Q188408",
       "target": "Q19851649",
       "type": "MEMBER_OF",
       "properties": {
         "start_date": "1937",
         "position": "委员"
-      }
-    },
-    {
-      "source": "Q188408",
-      "target": "Q16988",
-      "type": "FRIEND_OF",
-      "properties": {
-        "start_date": "1941-01",
-        "description": "共同领导新四军"
       }
     },
     {
@@ -116914,14 +116746,6 @@
         "start_date": "1922",
         "end_date": "1924",
         "position": "校长"
-      }
-    },
-    {
-      "source": "Q361160",
-      "target": "Q17500653",
-      "type": "FRIEND_OF",
-      "properties": {
-        "description": "与杨暗公等人共同创立中国青年共产党"
       }
     },
     {
@@ -152618,17 +152442,6 @@
     {
       "source": "Q1394",
       "target": "Q33391",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "",
-        "end_date": "1917-03",
-        "position": "",
-        "description": "在不断革命论问题上，列宁最初与托洛茨基发生冲突。"
-      }
-    },
-    {
-      "source": "Q1394",
-      "target": "Q33391",
       "type": "FRIEND_OF",
       "properties": {
         "start_date": "1917-04",
@@ -153375,14 +153188,6 @@
       "type": "PUSHED",
       "properties": {
         "description": "在其文章中时常使用“布尔什维克列宁主义”并以此自居。"
-      }
-    },
-    {
-      "source": "Q181133",
-      "target": "Q179121",
-      "type": "ENEMY_OF",
-      "properties": {
-        "description": "一部分托洛茨基主义者认为斯大林主义者所称的“马克思列宁主义”是斯大林主义伪装的名词。"
       }
     },
     {
@@ -157219,15 +157024,6 @@
       }
     },
     {
-      "source": "Q5816",
-      "target": "Q532973",
-      "type": "ENEMY_OF",
-      "properties": {
-        "start_date": "1935-09",
-        "description": "因北上还是南下的路线分歧产生分裂。"
-      }
-    },
-    {
       "source": "Q10873675",
       "target": "Q28410609",
       "type": "MEMBER_OF",
@@ -158675,6 +158471,342 @@
       "properties": {
         "start_date": "2015-02",
         "description": "因媒体将石室中学误报为“贫困山区”学校，引发双方学校学生言语斗争及媒体战，校方称两校非友好学校。"
+      }
+    },
+    {
+      "source": "Q1369370",
+      "target": "Q10880006",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1923-02",
+        "description": "参与并组织了京汉铁路大罢工。"
+      }
+    },
+    {
+      "source": "Q1369370",
+      "target": "Q2268180",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "中央委员"
+      }
+    },
+    {
+      "source": "Q163931",
+      "target": "Q1369370",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927",
+        "description": "共产国际要求加强中共领导层的工人成分，向忠发因此进入领导层并受到重视。"
+      }
+    },
+    {
+      "source": "Q855",
+      "target": "Q1369370",
+      "type": "PUSHED",
+      "properties": {
+        "description": "在苏联接见向忠发，使其受到共产国际重视，为他后来成为总书记铺平了道路。"
+      }
+    },
+    {
+      "source": "Q17410",
+      "target": "Q1369370",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1928-07",
+        "end_date": "1931-06",
+        "position": "中共中央常委、秘书长兼组织部长",
+        "description": "向忠发担任名义上的党内领袖，但实际负责人是周恩来。"
+      }
+    },
+    {
+      "source": "Q1369370",
+      "target": "Q837331",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1929-01",
+        "description": "以李立三递补，开除了蔡和森的政治局常委职位。"
+      }
+    },
+    {
+      "source": "Q3109012",
+      "target": "Q1369370",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-04",
+        "description": "叛变后供出向忠发体貌特征等信息，并协助国民党特务抓捕向忠发。"
+      }
+    },
+    {
+      "source": "Q557233",
+      "target": "Q10873181",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931-06",
+        "position": "主任"
+      }
+    },
+    {
+      "source": "Q544432",
+      "target": "Q10873181",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931-06",
+        "position": "副主任"
+      }
+    },
+    {
+      "source": "Q5816",
+      "target": "Q1369370",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "毛泽东感念向忠发的知遇之恩，在此后几十年间从未公开批评过他。"
+      }
+    },
+    {
+      "source": "Q2308761",
+      "target": "Q1369370",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-06-22",
+        "end_date": "1931-06-24",
+        "description": "逮捕并处决了向忠发。"
+      }
+    },
+    {
+      "source": "Q16574",
+      "target": "Q1369370",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-06-24",
+        "description": "下令“就地枪决”向忠发。"
+      }
+    },
+    {
+      "source": "Q1369370",
+      "target": "Q17427",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1931-06-22",
+        "description": "被捕后立即叛变，供出了中共中央的秘密机关和部分领导人住址。"
+      }
+    },
+    {
+      "source": "Q1369370",
+      "target": "Q18236562",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-06-22",
+        "description": "叛变后供出其住址，导致其被捕。"
+      }
+    },
+    {
+      "source": "Q1369370",
+      "target": "BAIDU:张纪恩",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-06-22",
+        "description": "叛变后供出中共中央机要一处地址，导致其被捕。"
+      }
+    },
+    {
+      "source": "Q1369370",
+      "target": "BAIDU:张月霞",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-06-22",
+        "description": "叛变后供出中共中央机要一处地址，导致其被捕。"
+      }
+    },
+    {
+      "source": "Q557233",
+      "target": "Q1369370",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1931-06",
+        "description": "作为当时中央特科负责人，参与事件处理，并认同向忠发叛变的结论。"
+      }
+    },
+    {
+      "source": "Q5124691",
+      "target": "Q1074635",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2018-03",
+        "description": "根据《深化党和国家机构改革方案》，中共中央组织部统一管理公务员工作。"
+      }
+    },
+    {
+      "source": "Q5124691",
+      "target": "Q10926005",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "2018-03",
+        "description": "国家公务员局原为公务员管理的全国性机关，2018年并入中共中央组织部。"
+      }
+    },
+    {
+      "source": "Q5124691",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2006-01-01",
+        "description": "该法是管理公务员的根本大法，定义了公务员的范畴、权利、义务和管理制度。"
+      }
+    },
+    {
+      "source": "Q122800019",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "description": "公务员通过国家公务员考试进行录用。"
+      }
+    },
+    {
+      "source": "Q7405",
+      "target": "Q7408",
+      "type": "FOUNDED",
+      "properties": {}
+    },
+    {
+      "source": "Q7408",
+      "target": "Q122800019",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "科举考试体系为现代公务员考试的雏形。"
+      }
+    },
+    {
+      "source": "Q10875005",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1950",
+        "description": "1950年，政务院试行从总理到勤杂工的25级工资制，是公务员薪酬体系的早期探索。"
+      }
+    },
+    {
+      "source": "Q16977",
+      "target": "Q65057662",
+      "type": "PUSHED",
+      "properties": {
+        "description": "根据邓小平的指示，选任干部开始注重“年轻化”及“专业化”。"
+      }
+    },
+    {
+      "source": "Q65057662",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982",
+        "description": "干部四化方针推动了公务员制度向年轻化、专业化方向改革。"
+      }
+    },
+    {
+      "source": "Q50963",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982-02",
+        "description": "中共中央作出《关于建立老干部退休制度的决定》，推动了公务员退休制度的建立。"
+      }
+    },
+    {
+      "source": "Q14788573",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1987",
+        "description": "提出干部人事制度改革，建立国家公务员制度。"
+      }
+    },
+    {
+      "source": "Q59261",
+      "target": "BAIDU:国家公务员暂行条例",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1993-08",
+        "description": "国务院签发《国家公务员暂行条例》。"
+      }
+    },
+    {
+      "source": "BAIDU:国家公务员暂行条例",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1993-08",
+        "description": "该条例的施行标志着公务员制度的正式建立。"
+      }
+    },
+    {
+      "source": "Q15903282",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2005-04-27",
+        "description": "通过《中华人民共和国公务员法》，并于2006年1月1日施行。"
+      }
+    },
+    {
+      "source": "Q1074635",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2008",
+        "description": "与人事部联合下发《公务员奖励规定（试行）》，建立了公务员奖励荣誉制度。"
+      }
+    },
+    {
+      "source": "Q10871934",
+      "target": "Q5124691",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2008",
+        "description": "与中共中央组织部联合下发《公务员奖励规定（试行）》，建立了公务员奖励荣誉制度。"
+      }
+    },
+    {
+      "source": "Q15902557",
+      "target": "Q5124691",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2017-09-01",
+        "description": "通过《关于修改〈中华人民共和国法官法〉等八部法律的决定》对公务员法进行了修正。"
+      }
+    },
+    {
+      "source": "Q52940354",
+      "target": "Q10926005",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2018-03",
+        "description": "改革方案决定将国家公务员局并入中央组织部。"
+      }
+    },
+    {
+      "source": "Q10926005",
+      "target": "Q1074635",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2018-03",
+        "description": "根据《深化党和国家机构改革方案》，国家公务员局并入中央组织部，对外保留国家公务员局牌子。"
+      }
+    },
+    {
+      "source": "Q48934709",
+      "target": "Q5124691",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2018-12-29",
+        "description": "修改公务员法，推行公务员职务与职级并行制度。"
+      }
+    },
+    {
+      "source": "Q97711380",
+      "target": "Q5124691",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2020-06-20",
+        "description": "该法规定了包括公务员在内的公职人员的违法行为及相应处分。"
       }
     }
   ]
