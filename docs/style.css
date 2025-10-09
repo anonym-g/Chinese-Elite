@@ -599,23 +599,29 @@ svg:active {
     transform: translateY(-50%);
     display: flex; /* 让内部的图标水平排列 */
     align-items: center;
-    gap: 15px; /* 设置图标之间的间距 */
+    gap: 12px; /* 设置图标之间的间距 */
 }
 
-/* Telegram 和 GitHub 链接的通用样式 */
+/* 图标的通用样式 */
+.twitter-bird-link,
+.twitter-link,
 .telegram-link,
 .github-link {
     line-height: 0; /* 移除链接的额外高度，确保图标垂直居中 */
     transition: opacity 0.2s; /* 将悬停动画效果应用在整个链接上 */
 }
 
-/* 为链接设置悬停效果 */
+/* 图标的悬停效果 */
+.twitter-bird-link:hover,
+.twitter-link:hover,
 .telegram-link:hover,
 .github-link:hover {
     opacity: 0.7; /* 悬停时整个链接（包括图标）变淡 */
 }
 
-/* 两个SVG图标的通用尺寸 */
+/* 图标的通用尺寸 */
+.twitter-bird-link svg,
+.twitter-link svg,
 .telegram-link svg,
 .github-link svg {
     width: 28px;
@@ -715,9 +721,11 @@ svg:active {
     }
     .social-links {
         right: 8px; /* 调整右边距 */
-        gap: 10px;  /* 调整图标间距 */
+        gap: 5px;  /* 调整图标间距 */
     }
 
+    .twitter-bird-link svg,
+    .twitter-link svg,
     .telegram-link svg,
     .github-link svg {
         width: 24px;
