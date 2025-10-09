@@ -4,7 +4,7 @@ import os
 import threading
 import asyncio
 from flask import Flask
-from scripts.bot import main as run_bot
+from bot import main as run_bot
 
 # 1. 创建一个 Flask web 应用实例
 app = Flask(__name__)
