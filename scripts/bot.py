@@ -18,6 +18,10 @@ from api_rate_limiter import gemini_flash_lite_preview_limiter
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# --- 全局变量 ---
+_bot_app_instance = None
+_bot_app_lock = asyncio.Lock()
+
 # --- 全局常量和辅助函数 ---
 MAX_HISTORY = 24
 
@@ -210,7 +214,7 @@ class TelegramBotHandler:
         if not message or not message.text: return
 
         chat_id = message.chat_id
-        user_message = message.text
+        full_user_message = message.text
         is_private_chat = chat_id > 0
 
         # --- 白名单 ---
@@ -242,18 +246,45 @@ class TelegramBotHandler:
             message.reply_to_message.from_user and
             message.reply_to_message.from_user.username == self.bot_username
         )
-        is_mentioning_bot = f"@{self.bot_username}" in user_message
+        is_mentioning_bot = f"@{self.bot_username}" in full_user_message
+
         if not (is_reply_to_bot or is_mentioning_bot or is_private_chat):
             return
+
+        # 检查是否有回复引用的消息
+        if message.reply_to_message and message.reply_to_message.text:
+            replied_msg = message.reply_to_message
+            quoted_message_text = replied_msg.text
+
+            # 默认的被引用用户名
+            quoted_user_name = "Someone"
+
+            # 来自用户
+            if replied_msg.from_user:
+                quoted_user_name = replied_msg.from_user.first_name
+            # 来自频道
+            elif replied_msg.sender_chat:
+                quoted_user_name = replied_msg.sender_chat.title
+
+            # 构建一个更丰富的上下文给 LLM
+            full_user_message = (
+                f"用户回复了 '{quoted_user_name}' 的消息。\n"
+                f"--- 被回复的消息 ---\n"
+                f"{quoted_message_text}\n"
+                f"--- 用户的新消息 ---\n"
+                f"{full_user_message}"
+            )
         
-        logger.info(f"收到来自 Chat ID {chat_id} 的消息: '{user_message}'")
+        logger.info(f"收到来自 Chat ID {chat_id} 的消息: '{full_user_message}'")
 
         if chat_id not in self.chat_histories:
             self.chat_histories[chat_id] = deque(maxlen=MAX_HISTORY * 2)
 
         history = self.chat_histories[chat_id]
-        history.append(("user", user_message))
+        history.append(("user", full_user_message))
+
         bot_response = self._call_llm(list(history))
+
         if bot_response:
             history.append(("model", bot_response))
             await message.reply_text(bot_response)
@@ -262,29 +293,40 @@ class TelegramBotHandler:
             await message.reply_text("服务器繁忙，请稍后再试。")
 
 # --- 机器人设置函数 ---
-async def setup_bot():
+def create_bot_app_sync():
     """
-    创建、配置并初始化好 Telegram Application 实例，并返回。
+    同步地创建 Application 实例，但不初始化。
+    这是为了让 Flask 应用在启动时可以调用。
     """
     load_dotenv()
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     if not token or not os.getenv("GEMINI_API_KEY"):
         logger.critical("严重错误: 必须在 .env 文件中设置 TELEGRAM_BOT_TOKEN 和 GEMINI_API_KEY。")
         sys.exit(1)
-
-    application = Application.builder().token(token).build()
     
-    logger.info("正在初始化 Application...")
-    await application.initialize()
-    logger.info("Application 初始化成功。")
+    return Application.builder().token(token).build()
 
-    if not application.bot.username:
-        logger.critical("严重错误：无法获取机器人的用户名。")
-        sys.exit(1)
+async def ensure_bot_initialized(application: Application) -> None:
+    """
+    一个异步函数，确保 bot application 只被初始化一次。
+    """
+    global _bot_app_instance
+    async with _bot_app_lock:
+        if _bot_app_instance:
+            return
+
+        logger.info("正在首次初始化 Application...")
+        await application.initialize()
+        logger.info("Application 初始化成功。")
+
+        if not application.bot.username:
+            logger.critical("严重错误：无法获取机器人的用户名。")
+            # 在实际运行中，我们不希望因为这个就让整个服务崩溃
+            return
         
-    logger.info(f"机器人已配置，用户名为: @{application.bot.username}")
+        logger.info(f"机器人已配置，用户名为: @{application.bot.username}")
 
-    bot_handler = TelegramBotHandler(application.bot.username)
-    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, bot_handler.handle_message))
-    
-    return application
+        bot_handler = TelegramBotHandler(application.bot.username)
+        application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, bot_handler.handle_message))
+        
+        _bot_app_instance = application
