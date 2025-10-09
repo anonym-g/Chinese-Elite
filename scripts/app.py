@@ -1,22 +1,23 @@
 # scripts/app.py
 
 import os
+import sys
 import asyncio
 import logging
 from flask import Flask, request, Response
 from telegram import Update
 from asgiref.wsgi import WsgiToAsgi
 
-from bot import setup_bot
+from bot import create_bot_app_sync, ensure_bot_initialized
 
 # --- 日志配置 ---
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # --- 初始化 ---
-# 在应用启动时，只创建一次 bot application 实例
-application = asyncio.run(setup_bot())
-BOT_TOKEN = application.bot.token
+# 同步地创建实例，不初始化
+application = create_bot_app_sync()
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 # 创建 Flask web 应用实例，使用一个临时的名字
 flask_app = Flask(__name__)
@@ -27,6 +28,9 @@ flask_app = Flask(__name__)
 async def webhook():
     """这个函数处理所有来自 Telegram 的更新。"""
     try:
+        # 开始处理请求时，确保机器人已初始化
+        await ensure_bot_initialized(application)
+
         # 将收到的 JSON 数据转换为 Update 对象
         update_data = request.get_json(force=True)
         update = Update.de_json(update_data, application.bot)
