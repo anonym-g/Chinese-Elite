@@ -59,8 +59,8 @@ def generate_name_to_id_map(master_graph):
 
 
 def select_important_nodes(master_graph):
-    """ 根据 pageviews_cache.json 和 LIST.txt 筛选出重要节点。"""
-    logger.info(f"正在根据页面热度和LIST.txt筛选 {CORE_NETWORK_SIZE} 个重要节点...")
+    """ 根据 pageviews_cache.json 和 LIST.md 筛选出重要节点。"""
+    logger.info(f"正在根据页面热度和LIST.md筛选至多 {CORE_NETWORK_SIZE} 个重要节点...")
 
     # 1. 加载页面热度缓存
     try:
@@ -70,25 +70,33 @@ def select_important_nodes(master_graph):
         logger.warning(f"页面热度缓存 '{PAGEVIEWS_CACHE_PATH}' 不存在或无效。将无法按热度排序。")
         pageviews_cache = {}
 
-    # 2. 从 LIST.txt 读取有效候选实体
+    # 2. 从 LIST.md 读取有效候选实体
     valid_candidates = set()
     try:
         with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
             current_category = None
             for line in f:
                 line = line.strip()
-                if not line or line.startswith('#'):
+                
+                # 检查是否为类别标题
+                if line.startswith('## '):
+                    category_name = line[3:].strip().lower()
+                    # 遇到 'new' 类别时，停止解析
+                    if category_name == 'new':
+                        break
+                    current_category = category_name
                     continue
-                if line in ['person', 'organization', 'movement', 'event', 'document', 'location']:
-                    current_category = line
+                
+                # 跳过空行和注释
+                if not line or line.startswith('//'):
                     continue
-                if line == 'new':
-                    current_category = None # 停止收集
-                    continue
+
+                # 添加实体到当前类别
                 if current_category:
                     valid_candidates.add(line)
+                    
     except FileNotFoundError:
-        logger.warning("LIST.txt 文件未找到。无法确定候选节点池。")
+        logger.warning("LIST.md 文件未找到。无法确定候选节点池。")
 
     # 3. 创建 名称 -> ID 的反向映射以便查找
     name_to_id_map = {}
@@ -113,7 +121,6 @@ def select_important_nodes(master_graph):
     
     logger.info(f"筛选完成，共选出 {len(important_node_ids)} 个重要节点。")
     return important_node_ids
-
 
 def generate_main_data_file(master_graph, important_node_ids):
     """生成只包含重要节点及其关系的 initial.json 文件。"""

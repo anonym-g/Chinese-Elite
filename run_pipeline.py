@@ -94,7 +94,7 @@ async def run_pipeline():
         logging.info("\n--- 步骤 3/5: 主图谱深度维护完成 ---\n")
         
         # --- 第4步：检查页面访问频次并重排列表 ---
-        logging.info("--- 步骤 4/5: 开始检查页面访问频次并重排LIST.txt (check_pageviews.py) ---")
+        logging.info("--- 步骤 4/5: 开始检查页面访问频次并重排LIST.md (check_pageviews.py) ---")
         await pageviews_main()
         logging.info("\n--- 步骤 4/5: 页面访问频次检查与列表排序完成 ---\n")
 

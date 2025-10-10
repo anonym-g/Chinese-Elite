@@ -125,8 +125,8 @@ def main():
         logger.info("检测到对主图谱 (master_graph_qcode.json) 的修改，正在翻译 Q-Code...")
         qcode_map = load_qcode_to_name_map()
         final_diff_for_llm = translate_diff_for_llm(diff_content, qcode_map)
-    elif file_to_check == "data/LIST.txt":
-        logger.info("检测到对列表文件 (LIST.txt) 的修改，直接评估。")
+    elif file_to_check == "data/LIST.md":
+        logger.info("检测到对列表文件 (LIST.md) 的修改，直接评估。")
     
     decision = evaluate_diff_with_gemini(final_diff_for_llm, file_to_check)
     
