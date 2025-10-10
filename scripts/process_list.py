@@ -44,7 +44,7 @@ def get_last_local_process_time(item_name: str, category: str) -> datetime | Non
     return latest_time
 
 def parse_list_file(file_path: str) -> dict[str, list]:
-    """解析 LIST.txt 文件，返回一个按类别组织的字典。"""
+    """解析 LIST.md 文件，返回一个按类别组织的字典，不包含 'new' 类别。"""
     if not os.path.exists(file_path):
         logger.error(f"错误：列表文件不存在于 '{file_path}'")
         return {}
@@ -55,14 +55,24 @@ def parse_list_file(file_path: str) -> dict[str, list]:
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
-            if not line or line.startswith('#'): continue
-            if line in ['person', 'organization', 'movement', 'event', 'document', 'location']:
-                current_category = line
+
+            # 检查是否为类别标题
+            if line.startswith('## '):
+                category_name = line[3:].strip().lower()
+                # 遇到 'new' 类别时，停止解析
+                if category_name == 'new':
+                    break
+                current_category = category_name
                 if current_category not in categorized_items:
                     categorized_items[current_category] = []
-            elif line in ['new']:
-                return categorized_items
-            elif current_category:
+                continue
+
+            # 跳过空行和注释
+            if not line or line.startswith('//'):
+                continue
+
+            # 添加实体到当前类别
+            if current_category:
                 categorized_items[current_category].append(line)
     
     return categorized_items

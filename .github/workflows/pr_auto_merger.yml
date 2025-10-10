@@ -79,7 +79,7 @@ jobs:
 
             # 文件名是否在白名单内
             # grep -q 表示静默模式，只通过退出码告知结果
-            if ! echo "${files_changed}" | grep -qE '^(docs/master_graph_qcode.json|data/LIST.txt)$'; then
+            if ! echo "${files_changed}" | grep -qE '^(docs/master_graph_qcode.json|data/LIST.md)$'; then
               echo "PR #${pr_number} 修改了不允许的文件: ${files_changed}，已跳过。"
               continue
             fi

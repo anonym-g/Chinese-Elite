@@ -53,26 +53,34 @@ def save_pageviews_cache(file_path: str, cache_data: dict):
         logger.error(f"严重错误：无法写入页面访问量缓存文件 {file_path}。错误: {e}")
 
 def parse_list_file(file_path: str) -> dict[str, list]:
-    """解析 LIST.txt 文件，返回一个按类别组织的字典。"""
+    """解析 LIST.md 文件，返回一个包含所有类别的字典。"""
     if not os.path.exists(file_path):
         logger.error(f"错误：列表文件不存在于 '{file_path}'")
         return {}
     
+    logger.info(f"正在读取列表文件: {file_path}")
     categorized_items = {}
     current_category = None
-    PROCESS_CATEGORIES = {'person', 'organization', 'movement', 'event', 'document', 'location', 'new'}
-    KNOWN_CATEGORIES = PROCESS_CATEGORIES
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
-            if not line or line.startswith('#'): continue
-            
-            if line in KNOWN_CATEGORIES:
-                current_category = line
+
+            # 检查是否为类别标题
+            if line.startswith('## '):
+                category_name = line[3:].strip().lower()
+                current_category = category_name
                 if current_category not in categorized_items:
                     categorized_items[current_category] = []
-            elif current_category:
+                continue
+
+            # 跳过空行和注释
+            if not line or line.startswith('//'):
+                continue
+
+            # 添加实体到当前类别
+            if current_category:
                 categorized_items[current_category].append(line)
+    
     return categorized_items
 
 def batchify(data: list, batch_size: int):
@@ -191,34 +199,52 @@ async def get_pageviews_stats_async(session: aiohttp.ClientSession, article_titl
     return article_title, final_result
 
 def rewrite_list_file(sorted_results: dict):
-    """使用排序后的条目重写LIST.txt文件。"""
-    logger.info("\n--- 正在用排序后的结果重写 LIST.txt ---")
+    """使用排序后的条目重写 LIST.md 文件，保持 Markdown 格式。"""
+    logger.info("\n--- 正在用排序后的结果重写 LIST.md ---")
+    
+    # 将排序结果的键转换为小写，以匹配解析逻辑
+    # 同时保留原始大小写用于输出
+    sorted_categories_lower = {k.lower(): k for k in sorted_results.keys()}
+    
     try:
         with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
             original_lines = f.readlines()
-        
-        new_lines, current_category = [], None
-        PROCESS_CATEGORIES = {'person', 'organization', 'movement', 'event', 'document', 'location', 'new'}
-        KNOWN_CATEGORIES = PROCESS_CATEGORIES
-        
+            
+        new_lines = []
+        # 标记当前行是否属于需要被重写的类别
+        is_in_sorted_category = False
+
         for line in original_lines:
             stripped_line = line.strip()
-            if stripped_line in KNOWN_CATEGORIES:
-                current_category = stripped_line
-                new_lines.append(line)
-                if current_category in sorted_results:
-                    for item_name in sorted_results[current_category]:
+            
+            # 检查是否是类别标题行
+            if stripped_line.startswith('## '):
+                category_name_original = stripped_line[3:].strip()
+                category_name_lower = category_name_original.lower()
+
+                # 如果类别在排序结果里
+                if category_name_lower in sorted_categories_lower:
+                    is_in_sorted_category = True
+                    # 写入格式化的标题和排序后的内容
+                    original_case_category = sorted_categories_lower[category_name_lower]
+                    if original_case_category != 'person': new_lines.append("\n")
+                    new_lines.append(f"## {original_case_category}\n")
+                    for item_name in sorted_results[original_case_category]:
                         new_lines.append(f"{item_name}\n")
-            else:
-                is_old_item = (current_category in sorted_results and stripped_line != "" and not stripped_line.startswith('#'))
-                if not is_old_item:
+                else:
+                    # 如果这个类别不在排序结果里（比如 ## new），则照常保留
+                    is_in_sorted_category = False
                     new_lines.append(line)
+            # 如果当前行不属于需要重写的类别，则保留它（包括空行和注释）
+            elif not is_in_sorted_category:
+                new_lines.append(line)
         
         with open(LIST_FILE_PATH, 'w', encoding='utf-8') as f:
             f.writelines(new_lines)
-        logger.info("--- LIST.txt 文件更新成功 ---")
+            
+        logger.info("--- LIST.md 文件更新成功 ---")
     except IOError as e:
-        logger.error(f"严重错误：重写 LIST.txt 文件失败。错误: {e}")
+        logger.error(f"严重错误：重写 LIST.md 文件失败。错误: {e}")
 
 async def main():
     """脚本主入口，main函数负责所有缓存的读写和决策逻辑。"""

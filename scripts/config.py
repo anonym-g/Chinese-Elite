@@ -9,7 +9,7 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # --- 数据目录配置 ---
 DATA_DIR = os.path.join(ROOT_DIR, 'data')
-LIST_FILE_PATH = os.path.join(DATA_DIR, 'LIST.txt')
+LIST_FILE_PATH = os.path.join(DATA_DIR, 'LIST.md')
 PROCESSED_LOG_PATH = os.path.join(DATA_DIR, 'processed_files.log')
 
 # --- 待清理目录 ---
