@@ -34,7 +34,6 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
     - [Project Status](#project-status)
     - [Disclaimer](#disclaimer)
     - [Contributing](#contributing)
-    - [Project Structure (项目结构)](#project-structure-项目结构)
     - [About Pull Requests](#about-pull-requests)
 
 -----
@@ -59,7 +58,7 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 │   │   └── ...                 # 按类别存放LLM原始提取的JSON数据
 │   ├── ...
 │   ├── processed_files.log     # 记录已合并处理的文件名
-│   └── LIST.txt                # 待处理的实体种子列表 (按热度排序)
+│   └── LIST.md                # 待处理的实体种子列表 (按热度排序)
 ├── data_to_be_cleaned/         # 存放由脚本分离出的待手动清理的数据
 ├── docs/
 │   ├── data/
@@ -142,7 +141,7 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 1.  克隆本仓库至本地。
 2.  安装所有必要的Python依赖包：`pip install -r requirements.txt`。
 3.  在项目根目录创建 `.env` 文件，并设置你的 `GOOGLE_API_KEY`。
-4.  在 `data/LIST.txt` 中按分类填入你希望抓取的实体名称。
+4.  在 `data/LIST.md` 中按分类填入你希望抓取的实体名称。
 5.  执行 `python run_pipeline.py` 脚本，它将自动完成完整的后端数据处理流程。
 6.  为避免浏览器本地文件访问限制，建议通过一个简单的本地HTTP服务器（如 `python -m http.server`）启动服务，然后在浏览器中访问。
 
@@ -164,19 +163,19 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 
 请注意，LLM在提取数据时存在一些普遍问题，例如：它可能会生成一些较弱的冗余关系（如同时生成 `BLOCKED`、`INFLUENCED`，后者通常可直接删去）；对于部分有向关系（如 `INFLUENCED`），它有时会弄反源节点和目标节点。我们尤其欢迎针对这类数据错误的修正。
 
-另一种方式是通过添加种子列表来影响数据。在 `data/LIST.txt` 的前6个栏目中添加实体名称，可以让脚本在后续运行时检索对应的维基百科页面。
+另一种方式是通过添加种子列表来影响数据。在 `data/LIST.md` 的前6个栏目中添加实体名称，可以让脚本在后续运行时检索对应的维基百科页面。
 
 注意，考虑到脚本的工作方式，您必须添加完整的维基百科页面名。以下举两例说明：
 
 49-54年的中央人民政府，维基百科的页面链接是 [https://zh.wikipedia.org/wiki/中华人民共和国中央人民政府_(1949年—1954年)](https://zh.wikipedia.org/wiki/中华人民共和国中央人民政府_(1949年—1954年))
 
-那么，您需要复制粘贴完整的页面名，"中华人民共和国中央人民政府 (1949年—1954年)" (下划线可以正常换成空格，其他部分必须与页面名一致，包括破折线、两个"年"字)，并将其添加到 `data/LIST.txt` 文件的 Organization (组织) 条目下。
+那么，您需要复制粘贴完整的页面名，"中华人民共和国中央人民政府 (1949年—1954年)" (下划线可以正常换成空格，其他部分必须与页面名一致，包括破折线、两个"年"字)，并将其添加到 `data/LIST.md` 文件的 Organization (组织) 条目下。
 
 蒋介石，维基百科的页面链接是 [https://zh.wikipedia.org/wiki/蔣中正](https://zh.wikipedia.org/wiki/蔣中正)
 
-那么，您需要复制粘贴 "蔣中正" (繁体"蔣"，以便查重)，并将其添加到 `data/LIST.txt` 文件的 Person (人物) 条目下。
+那么，您需要复制粘贴 "蔣中正" (繁体"蔣"，以便查重)，并将其添加到 `data/LIST.md` 文件的 Person (人物) 条目下。
 
-`data/LIST.txt`: 
+```data/LIST.md
 Person
 ...
 蔣中正
@@ -187,11 +186,13 @@ Organization
 
 ...
 
+```
+
 这样，GitHub Action Bot在下次运行 `.github/workflows/update_data.yml` 时，将自动处理这两个页面，利用LLM提取其中的有关信息。——如果LLM API用量没有超限的话。
 
 另外，在添加这些词项时，请用 `Shift + F` 随手查一下重。若词项已经在前六条，则不必添加。若条目在 new 条目下，请随手删除 (new 下面的词条不会被处理，相当于一个缓冲池) 。
 
-`data/LIST.txt`: 
+```data/LIST.md
 Person
 ...
 蔣中正
@@ -203,11 +204,13 @@ new
 ~~蔣中正~~
 ...
 
+```
+
 为保证社区用户可以更轻松地参与维护，本项目集成了一个由 LLM 驱动的自动化 Pull Request (PR) 处理系统。
 
 为了确保您的贡献能被系统正确识别和合并，请仔细阅读以下说明。
 
-该系统仅审查数据类 PR，即仅处理对两份项目文件的修改：一是修正 `docs/master_graph_qcode.json` 文件中的数据，二是向 `data/LIST.txt` 文件中添加新的实体条目。
+该系统仅审查数据类 PR，即仅处理对两份项目文件的修改：一是修正 `docs/master_graph_qcode.json` 文件中的数据，二是向 `data/LIST.md` 文件中添加新的实体条目。
 
 进行这类贡献时，您必须遵循一个核心规则：每一次 Pull Request，只能包含对单个文件的修改。包含多个文件改动的 PR 将被该自动化系统忽略。
 
@@ -269,7 +272,7 @@ This project leverages the power of Large Language Models to extract information
 │   │   └── ...               # Raw JSON data extracted by LLM, categorized
 │   ├── ...
 │   ├── processed_files.log   # Logs filenames that have been merged
-│   └── LIST.txt              # Seed list of entities to be processed (sorted by popularity)
+│   └── LIST.md              # Seed list of entities to be processed (sorted by popularity)
 ├── data_to_be_cleaned/       # Stores data separated by scripts for manual cleaning
 ├── docs/
 │   ├── data/
@@ -352,7 +355,7 @@ The page is deployed via GitHub Pages and can be accessed at [this link](https:/
 1.  Clone this repository to your local machine.
 2.  Install all necessary Python dependencies: `pip install -r requirements.txt`.
 3.  Create a `.env` file in the project root and set your `GOOGLE_API_KEY`.
-4.  Fill `data/LIST.txt` with the entity names you wish to process, organized by category.
+4.  Fill `data/LIST.md` with the entity names you wish to process, organized by category.
 5.  Run `python run_pipeline.py` to execute the complete backend data processing pipeline.
 6.  To avoid browser restrictions on local file access, it's recommended to serve the directory with a simple local HTTP server (e.g., `python -m http.server`) and open the provided URL in your browser.
 
@@ -374,19 +377,19 @@ The most direct way is to edit the `docs/master_graph_qcode.json` file (the main
 
 Please note that there are common issues with LLM-based extraction. For example, it may generate weak, redundant relationships (e.g., generating both `BLOCKED` and `INFLUENCED`, where the latter can often be deleted), or it may sometimes reverse the source and target for directed relationships (like `INFLUENCED`). We especially welcome corrections for these types of data errors.
 
-Another way is to influence the data by adding to the seed list. Adding entity names to the first six categories in `data/LIST.txt` will cause the script to retrieve the corresponding Wikipedia pages during its next run.
+Another way is to influence the data by adding to the seed list. Adding entity names to the first six categories in `data/LIST.md` will cause the script to retrieve the corresponding Wikipedia pages during its next run.
 
 Note that due to how the script works, you must add the full Wikipedia page title. Here are two examples:
 
 For the Central People's Government from 1949-1954, the Wikipedia page URL is https://zh.wikipedia.org/wiki/中华人民共和国中央人民政府_(1949年—1954年)
 
-You would need to copy the full page title, "中华人民共和国中央人民政府 (1949年—1954年)" (underscores can be replaced with spaces, but other parts must match the page title exactly, including hyphens and characters), and add it under the Organization category in the `data/LIST.txt` file.
+You would need to copy the full page title, "中华人民共和国中央人民政府 (1949年—1954年)" (underscores can be replaced with spaces, but other parts must match the page title exactly, including hyphens and characters), and add it under the Organization category in the `data/LIST.md` file.
 
 For Chiang Kai-shek, the Wikipedia page URL is https://zh.wikipedia.org/wiki/蔣中正
 
-You would need to copy "蔣中正" (in Traditional Chinese) and add it under the Person category in the `data/LIST.txt` file.
+You would need to copy "蔣中正" (in Traditional Chinese) and add it under the Person category in the `data/LIST.md` file.
 
-`data/LIST.txt`:
+```data/LIST.md
 Person
 ...
 蔣中正
@@ -397,11 +400,13 @@ Organization
 
 ...
 
+```
+
 This way, when the GitHub Action Bot next runs `.github/workflows/update_data.yml`, it will automatically process these two pages and extract relevant information using the LLM—provided the LLM API usage has not exceeded its limit.
 
 Additionally, when adding these terms, please use `Shift + F` to quickly check for duplicates. If the term is already in the first six categories, there is no need to add it. If the term is under the `new` category, please delete it (terms under `new` are not processed and act as a buffer pool).
 
-`data/LIST.txt`:
+```data/LIST.md
 Person
 ...
 蔣中正
@@ -413,72 +418,13 @@ new
 ~~蔣中正~~
 ...
 
-
-
-好的，这是您要求的翻译内容。
-
------
-
-### Project Structure (项目结构)
-
-```
-.
-├── .cache/                   # Stores cache files (Q-Codes, link status, page views)
-├── .github/
-│   └── workflows/
-│       ├── pr_auto_merger.yml  # Workflow to auto-review and merge single-file data PRs
-│       └── update_data.yml   # Workflow for automated data updates
-├── data/
-│   ├── person/
-│   │   └── ...               # Raw JSON data extracted by LLM, categorized
-│   ├── ...
-│   ├── processed_files.log   # Logs filenames that have been merged
-│   └── LIST.txt              # Seed list of entities to be processed (sorted by popularity)
-├── data_to_be_cleaned/       # Stores data separated by scripts for manual cleaning
-├── docs/
-│   ├── data/
-│   │   ├── nodes/            # "Simple database" for on-demand loading
-│   │   │   └── Q12345/
-│   │   │       └── node.json
-│   │   ├── initial.json      # Core graph for initial frontend load
-│   │   └── name_to_id.json   # Name-to-ID mapping index for global search
-│   ├── modules/
-│   │   ├── config.js         # Frontend configuration
-│   │   ├── dataProcessor.js  # Frontend - Data processing
-│   │   ├── graphView.js      # Frontend - PixiJS (WebGL) view rendering and interaction
-│   │   ├── state.js          # Frontend - State management
-│   │   ├── uiController.js   # Frontend - UI controls and event handling
-│   │   └── utils.js          # Frontend - Utility functions
-│   ├── main.js               # Frontend - Main entry point
-│   ├── master_graph_qcode.json # The final, complete master graph file
-│   ├── index.html            # Visualization page
-│   └── style.css             # Page stylesheet
-├── logs/                     # Stores backend runtime logs
-├── scripts/
-│   ├── prompts/              # Stores prompt text files for the LLM
-│   │   └── ...
-│   ├── api_rate_limiter.py   # API rate limiter
-│   ├── check_pageviews.py    # Checks entity popularity and reorders the list
-│   ├── clean_data.py         # Deep data cleaning and maintenance script
-│   ├── config.py             # Backend - Configuration for all paths and models
-│   ├── generate_frontend_data.py # Generates all frontend data files
-│   ├── merge_graphs.py       # Script for intelligent incremental data merging
-│   ├── parse_gemini.py       # LLM parsing script
-│   ├── process_list.py       # Core script for processing entities from the list
-│   ├── validate_pr.py        # PR validation script
-│   └── utils.py              # Wikipedia API client and helper utilities
-├── .env                      # (Must be created manually) Stores API key
-├── .gitignore
-├── README.md
-├── requirements.txt          # Python dependency list
-└── run_pipeline.py           # One-click script to run the entire pipeline
 ```
 
 To make it easier for the community to participate in maintenance, this project integrates an LLM-driven automated Pull Request (PR) processing system.
 
 To ensure your contributions are correctly recognized and merged by the system, please read the following instructions carefully.
 
-The system only reviews data-related PRs, meaning it exclusively processes modifications to two project files: corrections to the `docs/master_graph_qcode.json` file and additions of new entities to the `data/LIST.txt` file.
+The system only reviews data-related PRs, meaning it exclusively processes modifications to two project files: corrections to the `docs/master_graph_qcode.json` file and additions of new entities to the `data/LIST.md` file.
 
 When making such contributions, you must follow one core rule: **each Pull Request must only contain changes to a single file.** PRs with changes to multiple files will be ignored by this automated system.
 
