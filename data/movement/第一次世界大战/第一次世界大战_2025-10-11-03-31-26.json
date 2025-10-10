@@ -1,0 +1,685 @@
+{
+  "nodes": [
+    {
+      "id": "第一次世界大战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次世界大战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1914-07-28 - 1918-11-11",
+        "location": "欧洲、亚洲、非洲、大西洋、太平洋",
+        "description": "1914年至1918年发生的全球军事冲突。"
+      }
+    },
+    {
+      "id": "协约国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "协约国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "第一次世界大战中的军事同盟，主要由法国、英国、俄罗斯帝国等国组成。"
+      }
+    },
+    {
+      "id": "同盟国 (第一次世界大战)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "同盟国 (第一次世界大战)",
+          "同盟国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "第一次世界大战中的军事同盟，主要由德意志帝国、奥匈帝国、奥斯曼帝国等国组成。"
+      }
+    },
+    {
+      "id": "德意志帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德意志帝国",
+          "德国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国",
+          "沙俄帝国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "鄂图曼帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "鄂图曼帝国",
+          "奥斯曼帝国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "奥匈帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥匈帝国",
+          "奥匈"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "萨拉热窝事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "萨拉热窝事件",
+          "萨拉热窝暗杀事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1914-06-28",
+        "location": "萨拉热窝",
+        "description": "奥匈帝国皇储弗朗茨·斐迪南大公夫妇被刺杀，成为第一次世界大战的导火线。"
+      }
+    },
+    {
+      "id": "七月危机",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "七月危机"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1914-06-28 - 1914-08-04"
+      }
+    },
+    {
+      "id": "弗朗茨·斐迪南大公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗朗茨·斐迪南大公",
+          "斐迪南大公"
+        ],
+        "en": []
+      },
+      "properties": {
+        "death_place": "萨拉热窝",
+        "description": "奥匈帝国皇储"
+      }
+    },
+    {
+      "id": "加夫里洛·普林齐普",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "加夫里洛·普林齐普",
+          "普林西普"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "青年波斯尼亚成员，萨拉热窝事件的刺杀者。"
+      }
+    },
+    {
+      "id": "塞尔维亚王国 (近代)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "塞尔维亚王国 (近代)",
+          "塞尔维亚王国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "法兰西第三共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第三共和国",
+          "法国",
+          "法兰西共和国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "大英帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大英帝国",
+          "英国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国",
+          "美利坚合众国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "无限制潜艇战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "无限制潜艇战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "德国在一战期间采取的潜艇作战策略。"
+      }
+    },
+    {
+      "id": "齐默尔曼电报",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "齐默尔曼电报",
+          "齐默曼电报"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1917-02-24"
+      }
+    },
+    {
+      "id": "十月革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "十月革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1917-11"
+      }
+    },
+    {
+      "id": "苏维埃俄国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏维埃俄国",
+          "苏俄"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "布列斯特-立陶夫斯克条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "布列斯特-立陶夫斯克条约"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1918-03-03"
+      }
+    },
+    {
+      "id": "百日攻势",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "百日攻势"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1918-08 - 1918-11"
+      }
+    },
+    {
+      "id": "德国革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "德国革命",
+          "德国十一月革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1918-11"
+      }
+    },
+    {
+      "id": "贡比涅停战协定",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "贡比涅停战协定",
+          "康边停战协定"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1918-11-11"
+      }
+    },
+    {
+      "id": "巴黎和会 (1919年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "巴黎和会 (1919年)",
+          "巴黎和会",
+          "巴黎和平会议"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1919 - 1920"
+      }
+    },
+    {
+      "id": "凡尔赛条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "凡尔赛条约"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1919-06-28"
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战",
+          "二战"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "国际联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际联盟",
+          "国联"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1920-01 - "
+      }
+    },
+    {
+      "id": "五四运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "五四运动"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1919-05-04"
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "文中提及的为北洋政府时期。"
+      }
+    },
+    {
+      "id": "义大利王国 (1861年—1946年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "义大利王国 (1861年—1946年)",
+          "意大利王国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "保加利亚王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "保加利亚王国",
+          "保加利亚"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "比利时",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "比利时",
+          "比利时王国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "萨拉热窝事件",
+      "target": "七月危机",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1914-06-28",
+        "description": "萨拉热窝暗杀事件触发了各大列强间的外交与政治危机。"
+      }
+    },
+    {
+      "source": "七月危机",
+      "target": "第一次世界大战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1914-07-28",
+        "description": "七月危机最终演变成全面战争。"
+      }
+    },
+    {
+      "source": "加夫里洛·普林齐普",
+      "target": "弗朗茨·斐迪南大公",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1914-06-28",
+        "description": "在萨拉热窝开枪打死奥匈帝国皇储斐迪南大公。"
+      }
+    },
+    {
+      "source": "协约国",
+      "target": "同盟国 (第一次世界大战)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1914-07-28",
+        "end_date": "1918-11-11",
+        "description": "第一次世界大战的两个主要对立军事集团。"
+      }
+    },
+    {
+      "source": "奥匈帝国",
+      "target": "第一次世界大战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1914-07-28",
+        "description": "在萨拉热窝事件后，于1914年7月28日向塞尔维亚宣战，点燃了第一次世界大战。"
+      }
+    },
+    {
+      "source": "德意志帝国",
+      "target": "同盟国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "奥匈帝国",
+      "target": "同盟国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "鄂图曼帝国",
+      "target": "同盟国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1914-10-29"
+      }
+    },
+    {
+      "source": "保加利亚王国",
+      "target": "同盟国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1915-10-14"
+      }
+    },
+    {
+      "source": "法兰西第三共和国",
+      "target": "协约国",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "大英帝国",
+      "target": "协约国",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "俄罗斯帝国",
+      "target": "协约国",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "义大利王国 (1861年—1946年)",
+      "target": "协约国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1915-05-23"
+      }
+    },
+    {
+      "source": "美国",
+      "target": "协约国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1917-04-06"
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "协约国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1917-08-14"
+      }
+    },
+    {
+      "source": "无限制潜艇战",
+      "target": "美国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917-02",
+        "end_date": "1917-04",
+        "description": "德国恢复无限制潜艇战，击沉美国船只，是美国参战的主要原因之一。"
+      }
+    },
+    {
+      "source": "齐默尔曼电报",
+      "target": "美国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917-02-24",
+        "description": "电报被破获后，德国意图拉拢墨西哥反美的内容激怒了美国公众，推动其参战。"
+      }
+    },
+    {
+      "source": "十月革命",
+      "target": "苏维埃俄国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1917-11",
+        "description": "布尔什维克通过十月革命推翻临时政府，建立苏维埃政权。"
+      }
+    },
+    {
+      "source": "布列斯特-立陶夫斯克条约",
+      "target": "俄罗斯帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918-03-03",
+        "description": "苏维埃俄国与德国签署此条约，正式退出第一次世界大战。"
+      }
+    },
+    {
+      "source": "百日攻势",
+      "target": "德意志帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918-08",
+        "end_date": "1918-11",
+        "description": "协约国发动的百日攻势导致德军战线崩溃，是其最终失败的关键。"
+      }
+    },
+    {
+      "source": "德国革命",
+      "target": "德意志帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918-11-09",
+        "description": "德国国内爆发革命，推翻帝制，迫使新政府求和。"
+      }
+    },
+    {
+      "source": "贡比涅停战协定",
+      "target": "第一次世界大战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918-11-11",
+        "description": "停战协定的签署标志着第一次世界大战的结束。"
+      }
+    },
+    {
+      "source": "巴黎和会 (1919年)",
+      "target": "凡尔赛条约",
+      "type": "PUSHED",
+      "properties": {
+        "description": "巴黎和会的主要成果是订立了《凡尔赛条约》。"
+      }
+    },
+    {
+      "source": "凡尔赛条约",
+      "target": "德意志帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1919-06-28",
+        "description": "对德国施加了严厉的领土、军事和经济制裁。"
+      }
+    },
+    {
+      "source": "第一次世界大战",
+      "target": "德意志帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1918-11-09",
+        "description": "战争导致德意志帝国瓦解。"
+      }
+    },
+    {
+      "source": "第一次世界大战",
+      "target": "俄罗斯帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1917-03-08",
+        "description": "战争导致俄罗斯帝国瓦解。"
+      }
+    },
+    {
+      "source": "第一次世界大战",
+      "target": "奥匈帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1918-11",
+        "description": "战争导致奥匈帝国瓦解。"
+      }
+    },
+    {
+      "source": "第一次世界大战",
+      "target": "鄂图曼帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1918-10-30",
+        "description": "战争导致鄂图曼帝国瓦解。"
+      }
+    },
+    {
+      "source": "第一次世界大战",
+      "target": "国际联盟",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1920-01",
+        "description": "为了防止类似战争再次发生，战胜国发起了国际联盟。"
+      }
+    },
+    {
+      "source": "凡尔赛条约",
+      "target": "第二次世界大战",
+      "type": "PUSHED",
+      "properties": {
+        "description": "对德国的严厉条款激起了复仇情绪，被认为是第二次世界大战爆发的远因。"
+      }
+    },
+    {
+      "source": "巴黎和会 (1919年)",
+      "target": "五四运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1919-05-04",
+        "description": "巴黎和会上关于山东问题的不公处理直接引发了中国的五四运动。"
+      }
+    }
+  ]
+}

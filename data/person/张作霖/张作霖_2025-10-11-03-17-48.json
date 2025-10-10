@@ -1,0 +1,645 @@
+{
+  "nodes": [
+    {
+      "id": "张作霖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张作霖",
+          "雨亭",
+          "老疙瘩",
+          "张大帅",
+          "雨帅",
+          "奉天之虎",
+          "东北王"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1875-03-19 - 1928-06-04",
+        "birth_place": "海城市",
+        "death_place": "沈阳市",
+        "gender": "Male",
+        "description": "中华民国政治人物、奉系军阀首领，北洋政府最后一任国家元首。"
+      }
+    },
+    {
+      "id": "海城市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "海城市",
+          "海城县"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "沈阳市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "沈阳市",
+          "奉天市"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "张作霖长子，中华民国陆军一级上将。"
+      }
+    },
+    {
+      "id": "赵春桂",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵春桂"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "张作霖原配妻子，张学良之母。"
+      }
+    },
+    {
+      "id": "卢寿萱",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卢寿萱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "张作霖继配妻子。"
+      }
+    },
+    {
+      "id": "皇姑屯事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "皇姑屯事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1928-06-04",
+        "location": "皇姑屯站",
+        "description": "导致张作霖死亡的暗杀爆炸事件。"
+      }
+    },
+    {
+      "id": "关东军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "关东军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "大日本帝国陆军的组成部分，策划并执行了皇姑屯事件。"
+      }
+    },
+    {
+      "id": "河本大作",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "河本大作"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "日本关东军高级参谋，皇姑屯事件的具体策划制定者。"
+      }
+    },
+    {
+      "id": "奉系军阀",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奉系军阀"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "民国时期北洋军阀派系之一，由张作霖创立并领导。"
+      }
+    },
+    {
+      "id": "北洋政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋政府",
+          "中央政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1912 - 1928",
+        "description": "中华民国建国初期的中央政府。"
+      }
+    },
+    {
+      "id": "安国军政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安国军政府",
+          "中华民国军政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927 - 1928"
+      }
+    },
+    {
+      "id": "袁世凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁世凯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中华民国第一任正式大总统。"
+      }
+    },
+    {
+      "id": "赵尔巽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵尔巽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "清末民初政治人物，曾任东三省总督。"
+      }
+    },
+    {
+      "id": "段芝贵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "段芝贵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "北洋政府将领，曾任奉天将军。"
+      }
+    },
+    {
+      "id": "郭松龄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭松龄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "奉系将领，后发动反奉战争。"
+      }
+    },
+    {
+      "id": "反奉战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "反奉战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1925-11 - 1926-04"
+      }
+    },
+    {
+      "id": "东北大学 (中国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北大学 (中国)",
+          "东北大学"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "杜立三",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杜立三"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "辽西地区匪首。"
+      }
+    },
+    {
+      "id": "吴俊升",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴俊升"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "奉系军阀将领，张作霖的结拜兄弟。"
+      }
+    },
+    {
+      "id": "张景惠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张景惠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "奉系军阀将领，张作霖的结拜兄弟。"
+      }
+    },
+    {
+      "id": "张作相",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张作相"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "奉系军阀将领，张作霖的结拜兄弟。"
+      }
+    },
+    {
+      "id": "北伐战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "北伐战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1926 - 1928"
+      }
+    },
+    {
+      "id": "第一次直奉战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次直奉战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1922-04 - 1922-05"
+      }
+    },
+    {
+      "id": "第二次直奉战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次直奉战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1924"
+      }
+    },
+    {
+      "id": "辛亥革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "辛亥革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1911 - 1912"
+      }
+    },
+    {
+      "id": "张榕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张榕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国同盟会辽东支部成员。"
+      }
+    },
+    {
+      "id": "李大钊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李大钊"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国共产党创始人之一。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张作霖",
+      "target": "海城市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1875-03-19"
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "张作霖",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "张学良",
+      "target": "赵春桂",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "张作霖",
+      "target": "赵春桂",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": "原配"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "卢寿萱",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": "继配"
+      }
+    },
+    {
+      "source": "皇姑屯事件",
+      "target": "张作霖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": "张作霖在皇姑屯事件中被炸成重伤，当日不治身亡。"
+      }
+    },
+    {
+      "source": "关东军",
+      "target": "皇姑屯事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": "日本关东军策划并执行了皇姑屯事件。"
+      }
+    },
+    {
+      "source": "河本大作",
+      "target": "皇姑屯事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": "作为关东军高级参谋，具体制定了谋杀计划。"
+      }
+    },
+    {
+      "source": "关东军",
+      "target": "张作霖",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "1928-06-04",
+        "description": "因张作霖未能完全满足日本在东北的利益，关东军将其暗杀。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "奉系军阀",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1916",
+        "end_date": "1928-06-04",
+        "position": "首领"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "北洋政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1927-06-18",
+        "end_date": "1928-06-03",
+        "position": "中华民国陆海军大元帅",
+        "description": "张作霖担任北洋政府最后一任国家元首。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "安国军政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1927-06-18",
+        "end_date": "1928-06-03",
+        "position": "中华民国陆海军大元帅"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "袁世凯",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1912-09-11",
+        "position": "陆军第二十七师师长",
+        "description": "被袁世凯任命为师长，并在政治上依附袁世凯。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "赵尔巽",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1911-11",
+        "description": "受时任东三省总督赵尔巽之命，率部进入奉天镇压革命党。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "段芝贵",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "1916-04",
+        "description": "与冯德麟密约发动政变，驱逐时任奉天将军段芝贵。"
+      }
+    },
+    {
+      "source": "郭松龄",
+      "target": "张作霖",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "1925-11",
+        "position": "奉军第三方面军军长"
+      }
+    },
+    {
+      "source": "郭松龄",
+      "target": "张作霖",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1925-11",
+        "end_date": "1925-12",
+        "description": "郭松龄发动反奉战争，反对张作霖。"
+      }
+    },
+    {
+      "source": "郭松龄",
+      "target": "反奉战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1925-11"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "反奉战争",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1926-04"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "东北大学 (中国)",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1923-04",
+        "description": "1922年筹建，1923年4月成立。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "杜立三",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "1907",
+        "description": "设计智擒并处决了匪首杜立三。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "吴俊升",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1907",
+        "description": "结拜为盟兄弟。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "张景惠",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1907",
+        "description": "结拜为盟兄弟。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "张作相",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1907",
+        "description": "结拜为盟兄弟。"
+      }
+    },
+    {
+      "source": "北伐战争",
+      "target": "张作霖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1926-07-09",
+        "end_date": "1928-06-03",
+        "description": "国民革命军的北伐导致奉军战场失利，张作霖被迫撤出北京。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "第一次直奉战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": "作为奉系首领发动了第一次直奉战争。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "第二次直奉战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": "作为奉系首领发动了第二次直奉战争。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "辛亥革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-11",
+        "description": "率部进入奉天，镇压了同盟会的革命活动。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "张榕",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "1912-01-23",
+        "description": "设计并暗杀了同盟会成员张榕。"
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "李大钊",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "1927-04",
+        "description": "逮捕并处决了李大钊等国共人士。"
+      }
+    }
+  ]
+}

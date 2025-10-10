@@ -1,0 +1,652 @@
+{
+  "nodes": [
+    {
+      "id": "甲午战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "甲午战争",
+          "（中日）甲午战争",
+          "第一次中日战争",
+          "清日战争",
+          "日清战争",
+          "甲午中日战争"
+        ],
+        "en": [
+          "First Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1894-07-25 - 1895-04-17",
+        "location": "朝鲜半岛、辽东半岛、山东、威海、黄海、澎湖",
+        "description": "1894年至1895年间清朝与大日本帝国之间因朝鲜问题爆发的一场大规模战争，以清朝惨败告终。"
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "中国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": "中国最后一个帝制王朝，甲午战争的战败方。"
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868-01-03 - 1947-05-03",
+        "description": "甲午战争的发动者和战胜方。"
+      }
+    },
+    {
+      "id": "东学党起义",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "东学党起义",
+          "东学农民革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1894",
+        "location": "朝鲜半岛",
+        "description": "1894年朝鲜爆发的农民起义，成为甲午战争的直接导火索。"
+      }
+    },
+    {
+      "id": "朝鲜王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜王朝",
+          "朝鲜",
+          "朝鲜国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1392 - 1897",
+        "description": "当时朝鲜半岛的统治政权，名义上为清朝的藩属国，是战争爆发的核心争端地区。"
+      }
+    },
+    {
+      "id": "马关条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "马关条约"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1895-04-17",
+        "description": "甲午战争后清朝与日本签订的不平等条约，导致中国割地赔款并丧失多项主权。"
+      }
+    },
+    {
+      "id": "北洋水师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋水师"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1888 - 1895",
+        "description": "清朝建立的近代化海军舰队，在甲午战争中全军覆没。"
+      }
+    },
+    {
+      "id": "洋务运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "洋务运动"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1861 - 1895",
+        "description": "清朝晚期的一场旨在“自强求富”的近代化改革运动，甲午战争的失败标志着其彻底失败。"
+      }
+    },
+    {
+      "id": "明治维新",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "明治维新"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1868 - ",
+        "description": "日本的一系列西化改革，使其国力大增，为对外扩张奠定基础。"
+      }
+    },
+    {
+      "id": "三国干涉还辽",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "三国干涉还辽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1895",
+        "description": "俄国、德国、法国联合干涉，迫使日本将《马关条约》中割占的辽东半岛归还给中国的事件。"
+      }
+    },
+    {
+      "id": "戊戌变法",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "戊戌变法",
+          "维新变法运动 (中国清朝)"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1898",
+        "description": "甲午战争失败后，中国知识分子发起的政治改良运动。"
+      }
+    },
+    {
+      "id": "旅顺大屠杀",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "旅顺大屠杀"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1894-11-21 - 1894-11-24",
+        "location": "旅顺",
+        "description": "日军在占领旅顺后对城内军民进行的大规模屠杀。"
+      }
+    },
+    {
+      "id": "李鸿章",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李鸿章"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "清朝晚期重臣，洋务运动的主要领导人，北洋水师的建立者和实际控制者。"
+      }
+    },
+    {
+      "id": "光绪皇帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "光绪皇帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "甲午战争期间清朝名义上的最高统治者。"
+      }
+    },
+    {
+      "id": "慈禧太后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慈禧太后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "清朝晚期实际掌权者，因挪用海军军费修建颐和园等行为，对北洋水师的发展受阻负有责任。"
+      }
+    },
+    {
+      "id": "丁汝昌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丁汝昌"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "北洋水师提督，在威海卫之战后自杀殉国。"
+      }
+    },
+    {
+      "id": "明治天皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明治天皇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "甲午战争期间日本的国家元首，积极推动军事扩张。"
+      }
+    },
+    {
+      "id": "伊藤博文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊藤博文"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "甲午战争期间的日本首相。"
+      }
+    },
+    {
+      "id": "大山岩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "大山岩"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "日本陆军大将，指挥第二军攻陷旅顺并发动旅顺大屠杀。"
+      }
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国",
+          "俄国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "欧洲列强之一，因自身在辽东的利益，主导了三国干涉还辽。"
+      }
+    },
+    {
+      "id": "法国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "参与三国干涉还辽的欧洲列强之一。"
+      }
+    },
+    {
+      "id": "德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "参与三国干涉还辽的欧洲列强之一。"
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "欧洲列强之一，为制衡俄国，对日本的扩张采取默许甚至暗中支持的态度。"
+      }
+    },
+    {
+      "id": "孙中山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙中山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国近代革命家，甲午战争的失败促使其开始革命尝试。"
+      }
+    },
+    {
+      "id": "奕𫍽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奕𫍽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "清朝醇亲王，光绪皇帝生父，曾负责海军事务，为迎合慈禧太后而挪用海军军费。"
+      }
+    },
+    {
+      "id": "翁同龢",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "翁同龢"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "清朝户部尚书，曾奏准暂停海军购买外洋枪炮船只。"
+      }
+    },
+    {
+      "id": "全琫准",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "全琫准"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "东学党首领，领导了东学党起义。"
+      }
+    },
+    {
+      "id": "联合舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合舰队"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "日本海军在甲午战争期间的主力舰队。"
+      }
+    },
+    {
+      "id": "黄海海战 (1894年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "黄海海战 (1894年)",
+          "黄海海战",
+          "甲午海战",
+          "大东沟海战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1894-09-17",
+        "location": "黄海",
+        "description": "甲午战争中双方海军主力进行的一场决定性海战。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "东学党起义",
+      "target": "甲午战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1894",
+        "description": "东学党起义爆发后，朝鲜政府请求清朝派兵镇压，为日本提供了出兵朝鲜的借口，成为甲午战争的直接导火索。"
+      }
+    },
+    {
+      "source": "明治维新",
+      "target": "大日本帝国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1868",
+        "description": "明治维新使日本国力迅速增强，推动了其军事现代化和对外扩张政策，为发动甲午战争奠定了基础。"
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "北洋水师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1895-02-17",
+        "description": "在甲午战争中，尤其是在威海卫之战后，北洋水师全军覆没。"
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "洋务运动",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1895-04-17",
+        "description": "甲午战争的惨败宣告了以建立近代化军队为核心的洋务运动彻底失败。"
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "马关条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1895-04-17",
+        "description": "清朝在甲午战争中战败，被迫与日本签订《马关条约》。"
+      }
+    },
+    {
+      "source": "马关条约",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1895-04-17",
+        "description": "根据《马关条约》，清朝被迫割让台湾、澎湖、辽东半岛，赔款白银两亿两，并放弃对朝鲜的宗主权。"
+      }
+    },
+    {
+      "source": "马关条约",
+      "target": "大日本帝国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1895-04-17",
+        "description": "通过《马关条约》，日本获得了巨额赔款和领土，国际地位大为提升。"
+      }
+    },
+    {
+      "source": "俄罗斯帝国",
+      "target": "三国干涉还辽",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1895-04-23",
+        "description": "俄国为维护其在中国东北的利益，联合德国和法国发动了对日本的干涉。"
+      }
+    },
+    {
+      "source": "法国",
+      "target": "三国干涉还辽",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1895-04-23",
+        "description": "法国参与了三国干涉还辽。"
+      }
+    },
+    {
+      "source": "德国",
+      "target": "三国干涉还辽",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1895-04-23",
+        "description": "德国参与了三国干涉还辽。"
+      }
+    },
+    {
+      "source": "三国干涉还辽",
+      "target": "大日本帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1895-05-05",
+        "description": "在三国干涉下，日本被迫放弃对辽东半岛的占领，但向清朝勒索了三千万两白银的“赎辽费”。"
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "戊戌变法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1895",
+        "end_date": "1898",
+        "description": "甲午战争的失败激起了中国知识分子的反思，促使了后来的戊戌变法运动。"
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "孙中山",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1895",
+        "description": "甲午战争的失败促使孙中山等革命者放弃改良思想，开始策划武装起义。"
+      }
+    },
+    {
+      "source": "慈禧太后",
+      "target": "北洋水师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1890",
+        "description": "为修建颐和园以供自己七十寿辰庆典，挪用了本应用于海军建设的巨额军费，导致北洋水师装备更新停滞。"
+      }
+    },
+    {
+      "source": "奕𫍽",
+      "target": "北洋水师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1890",
+        "position": "负责海军事务",
+        "description": "为迎合慈禧太后，将海军军费挪用于修建颐和园，直接削弱了北洋水师的发展。"
+      }
+    },
+    {
+      "source": "翁同龢",
+      "target": "北洋水师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1891",
+        "position": "户部尚书",
+        "description": "奏准暂停南北海军购买外洋枪炮船只3年，导致北洋水师军备停滞。"
+      }
+    },
+    {
+      "source": "李鸿章",
+      "target": "北洋水师",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1888",
+        "description": "李鸿章是北洋水师的主要筹建者和领导者。"
+      }
+    },
+    {
+      "source": "丁汝昌",
+      "target": "李鸿章",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1888",
+        "end_date": "1895-02-12",
+        "position": "北洋水师提督",
+        "description": "丁汝昌作为北洋水师提督，在军事上受北洋大臣李鸿章节制。"
+      }
+    },
+    {
+      "source": "大山岩",
+      "target": "旅顺大屠杀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1894-11-21",
+        "position": "第二军司令官",
+        "description": "作为攻占旅顺的日军第二军司令官，对旅顺大屠杀负有指挥责任。"
+      }
+    },
+    {
+      "source": "明治天皇",
+      "target": "联合舰队",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1893",
+        "description": "决定每年从宫廷经费中拨款补充造船费用，加速了日本海军的扩建。"
+      }
+    },
+    {
+      "source": "英国",
+      "target": "大日本帝国",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1894-07",
+        "description": "为制衡俄国在远东的扩张，英国对日本的侵略行动采取默许甚至暗中支持的态度，并与日本签订《日英通商航海条约》。"
+      }
+    },
+    {
+      "source": "全琫准",
+      "target": "东学党起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1894",
+        "position": "东学党首领",
+        "description": "作为东学党首领，号召并领导了东学党起义。"
+      }
+    },
+    {
+      "source": "朝鲜王朝",
+      "target": "清朝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "1895-04-17",
+        "position": "藩属国",
+        "description": "在甲午战争前，朝鲜是清朝的藩属国，该关系因《马关条约》而终结。"
+      }
+    },
+    {
+      "source": "黄海海战 (1894年)",
+      "target": "联合舰队",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1894-09-17",
+        "description": "日本联合舰队在黄海海战中击败北洋水师，夺取了黄海的制海权。"
+      }
+    },
+    {
+      "source": "黄海海战 (1894年)",
+      "target": "北洋水师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1894-09-17",
+        "description": "北洋水师在黄海海战中遭受重创，丧失制海权并退守威海卫。"
+      }
+    }
+  ]
+}
