@@ -1,0 +1,427 @@
+{
+  "nodes": [
+    {
+      "id": "李连杰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李连杰",
+          "阳中"
+        ],
+        "en": [
+          "Jet Li"
+        ]
+      },
+      "properties": {
+        "lifetime": "1963-04-26 - ",
+        "location": "新加坡",
+        "birth_place": "北京市",
+        "gender": "男",
+        "description": "功夫明星、动作演员、慈善家、企业家"
+      }
+    },
+    {
+      "id": "黄秋燕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄秋燕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1961-08-30 - ",
+        "gender": "女",
+        "description": "李连杰的前妻"
+      }
+    },
+    {
+      "id": "利智",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "利智"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1961-12-31 - ",
+        "gender": "女",
+        "description": "李连杰的妻子"
+      }
+    },
+    {
+      "id": "李思",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李思"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1988 - ",
+        "gender": "女",
+        "description": "李连杰与黄秋燕的长女"
+      }
+    },
+    {
+      "id": "李苔蜜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李苔蜜"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1989 - ",
+        "gender": "女",
+        "description": "李连杰与黄秋燕的次女"
+      }
+    },
+    {
+      "id": "李真好",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李真好"
+        ],
+        "en": [
+          "Jane Li"
+        ]
+      },
+      "properties": {
+        "lifetime": "2000-04-19 - ",
+        "gender": "女",
+        "description": "李连杰与利智的三女"
+      }
+    },
+    {
+      "id": "Jetta Li",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "Jetta Li"
+        ],
+        "en": [
+          "Jetta Li"
+        ]
+      },
+      "properties": {
+        "lifetime": "2003 - ",
+        "gender": "女",
+        "description": "李连杰与利智的幼女"
+      }
+    },
+    {
+      "id": "北京市什刹海体育运动学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市什刹海体育运动学校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "北京市"
+      }
+    },
+    {
+      "id": "徐克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐克"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "香港武侠导演"
+      }
+    },
+    {
+      "id": "南亚海啸",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南亚海啸",
+          "南洋海啸"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2004-12-26 - 2004-12-26"
+      }
+    },
+    {
+      "id": "壹基金",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "壹基金"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": "中国",
+        "description": "中国境内第一家民间公募基金会"
+      }
+    },
+    {
+      "id": "向华强",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "向华强"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "赵群学",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵群学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "神婆"
+      }
+    },
+    {
+      "id": "马云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马云"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国企业家"
+      }
+    },
+    {
+      "id": "太极禅国际文化推广公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "太极禅国际文化推广公司",
+          "太极禅"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "世界卫生组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "世界卫生组织"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "国际红十字会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际红十字会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京市",
+          "北京"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李连杰",
+      "target": "北京市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1963-04-26"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "黄秋燕",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1987-06",
+        "end_date": "1991",
+        "description": "1991年协议离婚"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "利智",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1999-09-19"
+      }
+    },
+    {
+      "source": "李思",
+      "target": "李连杰",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李思",
+      "target": "黄秋燕",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李苔蜜",
+      "target": "李连杰",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李苔蜜",
+      "target": "黄秋燕",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李真好",
+      "target": "李连杰",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李真好",
+      "target": "利智",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "Jetta Li",
+      "target": "李连杰",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "Jetta Li",
+      "target": "利智",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李连杰",
+      "target": "北京市什刹海体育运动学校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1971",
+        "description": "成为武术运动员"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "徐克",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1990",
+        "description": "在美国认识并合作多部武侠电影"
+      }
+    },
+    {
+      "source": "南亚海啸",
+      "target": "壹基金",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2004-12",
+        "description": "李连杰因遭遇海啸而决定投身慈善，并于2005年开始筹备壹基金"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "壹基金",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2007-04-19"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "向华强",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2004-12",
+        "description": "2004年南亚海啸时两家人正在马尔代夫一同度假"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "赵群学",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": "李连杰称赵群学为“干妈”"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "马云",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2011-04",
+        "description": "共同成立太极禅国际文化推广公司"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "太极禅国际文化推广公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2011-04",
+        "position": "CEO"
+      }
+    },
+    {
+      "source": "马云",
+      "target": "太极禅国际文化推广公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2011-04"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "世界卫生组织",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2009",
+        "position": "亲善大使"
+      }
+    },
+    {
+      "source": "李连杰",
+      "target": "国际红十字会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010",
+        "position": "亲善大使"
+      }
+    }
+  ]
+}

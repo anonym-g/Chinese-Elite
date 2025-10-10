@@ -1,0 +1,706 @@
+{
+  "nodes": [
+    {
+      "id": "太平天国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "太平天国",
+          "上帝天国",
+          "天父天兄天王太平天国",
+          "太平天国运动"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1851 - 1864",
+        "location": "中国",
+        "description": "晚清时期一个由洪秀全和冯云山建立的政教合一的割据政权。"
+      }
+    },
+    {
+      "id": "洪秀全",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "洪秀全"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1814-01-01 - 1864-06-01",
+        "gender": "Male",
+        "description": "太平天国创始人与最高领袖，自称天王。"
+      }
+    },
+    {
+      "id": "冯云山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯云山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1852",
+        "gender": "Male",
+        "description": "太平天国创始人之一，被封为南王。"
+      }
+    },
+    {
+      "id": "杨秀清",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨秀清"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1856",
+        "gender": "Male",
+        "description": "太平天国早期核心领袖，被封为东王，掌握军政实权。"
+      }
+    },
+    {
+      "id": "萧朝贵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萧朝贵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1852-09-12",
+        "gender": "Male",
+        "description": "太平天国早期核心领袖，被封为西王。"
+      }
+    },
+    {
+      "id": "韦昌辉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韦昌辉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1856",
+        "gender": "Male",
+        "description": "太平天国早期核心领袖，被封为北王，发动天京事变。"
+      }
+    },
+    {
+      "id": "石达开",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石达开"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1863-06-27",
+        "gender": "Male",
+        "description": "太平天国早期核心领袖，被封为翼王。"
+      }
+    },
+    {
+      "id": "洪天贵福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "洪天贵福"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1864-11-18",
+        "gender": "Male",
+        "description": "洪秀全之子，太平天国第二代领袖，称幼天王。"
+      }
+    },
+    {
+      "id": "拜上帝会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "拜上帝会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1843 - ",
+        "description": "由洪秀全、冯云山创立的宗教组织，是太平天国的前身。"
+      }
+    },
+    {
+      "id": "金田起义",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "金田起义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1851-01-11",
+        "location": "金田村",
+        "description": "太平天国运动的开端。"
+      }
+    },
+    {
+      "id": "天京事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "天京事变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1856-09-02",
+        "location": "天京",
+        "description": "太平天国领导集团的内部冲突，导致其由盛转衰。"
+      }
+    },
+    {
+      "id": "天京陷落",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "天京陷落"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1864-07-19",
+        "location": "天京",
+        "description": "太平天国首都天京被湘军攻陷，标志着太平天国运动的失败。"
+      }
+    },
+    {
+      "id": "大清",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大清"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": "中国最后一个封建王朝，太平天国的主要敌对势力。"
+      }
+    },
+    {
+      "id": "湘军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湘军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "由曾国藩建立的清朝地方武装，是镇压太平天国的主力。"
+      }
+    },
+    {
+      "id": "淮军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "淮军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "由李鸿章建立的清朝地方武装，参与镇压太平天国。"
+      }
+    },
+    {
+      "id": "曾国藩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曾国藩"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "清朝晚期政治家、军事家，湘军的创立者和统帅。"
+      }
+    },
+    {
+      "id": "李鸿章",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李鸿章"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": "清朝晚期政治家、军事家，淮军的创立者和统帅。"
+      }
+    },
+    {
+      "id": "第一次鸦片战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次鸦片战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1840 - 1842",
+        "description": "清朝与英国之间的战争，其战败后的社会经济问题为太平天国运动的爆发创造了条件。"
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国",
+          "大英帝国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "在太平天国后期协助清政府进行镇压。"
+      }
+    },
+    {
+      "id": "法国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "在太平天国后期协助清政府进行镇压。"
+      }
+    },
+    {
+      "id": "天京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "天京",
+          "南京",
+          "金陵",
+          "江宁",
+          "江宁府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "太平天国首都。"
+      }
+    },
+    {
+      "id": "劝世良言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "劝世良言"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "由梁发编写的基督教布道书，对洪秀全创立拜上帝会产生重要影响。"
+      }
+    },
+    {
+      "id": "梁发",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁发"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "《劝世良言》的作者。"
+      }
+    },
+    {
+      "id": "孙文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙文"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "中国近代革命家，其革命思想受太平天国影响。"
+      }
+    },
+    {
+      "id": "太平军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "太平军",
+          "长毛",
+          "发贼",
+          "粤匪"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "太平天国的军事力量。"
+      }
+    },
+    {
+      "id": "捻军",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "捻军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "晚清时期活跃于华北的农民起义军，后期与太平军残部合并。"
+      }
+    },
+    {
+      "id": "洪仁玕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "洪仁玕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1864-11-23",
+        "description": "太平天国后期重要领导人，封为干王，洪秀全族弟。"
+      }
+    },
+    {
+      "id": "李文彩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李文彩"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1872-04",
+        "description": "石达开余部将领，被认为是最后一支覆灭的太平军。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "洪秀全",
+      "target": "拜上帝会",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1843"
+      }
+    },
+    {
+      "source": "冯云山",
+      "target": "拜上帝会",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1843"
+      }
+    },
+    {
+      "source": "拜上帝会",
+      "target": "金田起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1851-01-11",
+        "description": "拜上帝会成员在金田村组织并领导了起义。"
+      }
+    },
+    {
+      "source": "金田起义",
+      "target": "太平天国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1851-01-11",
+        "description": "金田起义标志着太平天国的建立。"
+      }
+    },
+    {
+      "source": "洪秀全",
+      "target": "太平天国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1851"
+      }
+    },
+    {
+      "source": "冯云山",
+      "target": "太平天国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1851"
+      }
+    },
+    {
+      "source": "洪秀全",
+      "target": "冯云山",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": "洪秀全与冯云山是少年时代的私塾同学。"
+      }
+    },
+    {
+      "source": "劝世良言",
+      "target": "洪秀全",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": "洪秀全从中吸取了部分基督教教义，作为创立拜上帝会的思想来源。"
+      }
+    },
+    {
+      "source": "第一次鸦片战争",
+      "target": "太平天国",
+      "type": "PUSHED",
+      "properties": {
+        "description": "战争赔款、鸦片贸易等加剧了清朝的社会矛盾，为太平天国运动的爆发创造了条件。"
+      }
+    },
+    {
+      "source": "洪秀全",
+      "target": "太平天国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1851",
+        "end_date": "1864-06-01",
+        "position": "天王"
+      }
+    },
+    {
+      "source": "杨秀清",
+      "target": "太平天国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1851",
+        "end_date": "1856",
+        "position": "东王"
+      }
+    },
+    {
+      "source": "萧朝贵",
+      "target": "太平天国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1851",
+        "end_date": "1852",
+        "position": "西王"
+      }
+    },
+    {
+      "source": "冯云山",
+      "target": "太平天国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1851",
+        "end_date": "1852",
+        "position": "南王"
+      }
+    },
+    {
+      "source": "韦昌辉",
+      "target": "太平天国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1851",
+        "end_date": "1856",
+        "position": "北王"
+      }
+    },
+    {
+      "source": "石达开",
+      "target": "太平天国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1851",
+        "end_date": "1863",
+        "position": "翼王"
+      }
+    },
+    {
+      "source": "洪天贵福",
+      "target": "太平天国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1864-06-01",
+        "position": "幼天王"
+      }
+    },
+    {
+      "source": "萧朝贵",
+      "target": "杨秀清",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1851-12",
+        "description": "永安建制后，诏令诸王皆受东王节制。"
+      }
+    },
+    {
+      "source": "冯云山",
+      "target": "杨秀清",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1851-12",
+        "description": "永安建制后，诏令诸王皆受东王节制。"
+      }
+    },
+    {
+      "source": "韦昌辉",
+      "target": "杨秀清",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1851-12",
+        "description": "永安建制后，诏令诸王皆受东王节制。"
+      }
+    },
+    {
+      "source": "石达开",
+      "target": "杨秀清",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1851-12",
+        "description": "永安建制后，诏令诸王皆受东王节制。"
+      }
+    },
+    {
+      "source": "太平天国",
+      "target": "大清",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1851",
+        "end_date": "1864",
+        "description": "太平天国旨在推翻清朝统治。"
+      }
+    },
+    {
+      "source": "曾国藩",
+      "target": "湘军",
+      "type": "FOUNDED",
+      "properties": {}
+    },
+    {
+      "source": "李鸿章",
+      "target": "淮军",
+      "type": "FOUNDED",
+      "properties": {}
+    },
+    {
+      "source": "湘军",
+      "target": "太平天国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": "湘军是镇压太平天国的主力部队。"
+      }
+    },
+    {
+      "source": "天京事变",
+      "target": "太平天国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1856-09-02",
+        "description": "天京事变是太平天国由盛转衰的转折点。"
+      }
+    },
+    {
+      "source": "韦昌辉",
+      "target": "杨秀清",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1856-09",
+        "description": "在天京事变中，韦昌辉率部杀死杨秀清及其家人。"
+      }
+    },
+    {
+      "source": "韦昌辉",
+      "target": "石达开",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1856-09",
+        "description": "天京事变中，韦昌辉欲杀石达开，导致石达开逃出天京。"
+      }
+    },
+    {
+      "source": "英国",
+      "target": "太平天国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1860",
+        "description": "在上海等地与太平军作战，并援助清政府。"
+      }
+    },
+    {
+      "source": "法国",
+      "target": "太平天国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1860",
+        "description": "在上海等地与太平军作战，并援助清政府。"
+      }
+    },
+    {
+      "source": "天京陷落",
+      "target": "太平天国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1864-07-19",
+        "description": "天京陷落标志着太平天国政权的灭亡。"
+      }
+    },
+    {
+      "source": "太平军",
+      "target": "捻军",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1865",
+        "description": "太平天国失败后，其江北残部与捻军合并继续反清斗争。"
+      }
+    },
+    {
+      "source": "太平天国",
+      "target": "孙文",
+      "type": "PUSHED",
+      "properties": {
+        "description": "孙中山的革命思想发端于太平天国。"
+      }
+    },
+    {
+      "source": "洪仁玕",
+      "target": "洪秀全",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": "族弟"
+      }
+    },
+    {
+      "source": "李文彩",
+      "target": "石达开",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "李文彩是石达开的余部将领。"
+      }
+    }
+  ]
+}
