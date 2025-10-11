@@ -1,0 +1,714 @@
+{
+  "nodes": [
+    {
+      "id": "宋朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宋朝",
+          "宋",
+          "两宋",
+          "赵宋",
+          "火宋",
+          "炎宋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "960-02-04 - 1279-03-19",
+        "description": "中国历史上的一个重要朝代，分为北宋与南宋。"
+      }
+    },
+    {
+      "id": "北宋",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北宋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "960-02-04 - 1127-03-20",
+        "location": "汴梁",
+        "description": "宋朝的前半期，首都为东京开封府。"
+      }
+    },
+    {
+      "id": "南宋",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南宋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1127-06-12 - 1279-03-19",
+        "location": "临安",
+        "description": "宋朝的后半期，由宋高宗赵构建立。"
+      }
+    },
+    {
+      "id": "赵匡胤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵匡胤",
+          "宋太祖"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "927-03-21 - 976-11-14",
+        "gender": "男",
+        "description": "宋朝开国皇帝，原为后周殿前都点检。"
+      }
+    },
+    {
+      "id": "陈桥兵变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "陈桥兵变",
+          "黄袍加身"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "960-02-03 - 960-02-04",
+        "location": "陈桥驿 (地名)",
+        "description": "赵匡胤的部下拥立其为皇帝的军事政变，导致宋朝建立。"
+      }
+    },
+    {
+      "id": "后周",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "后周"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "951 - 960",
+        "description": "五代十国时期最后一个朝代。"
+      }
+    },
+    {
+      "id": "周恭帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恭帝",
+          "柴宗训"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "953 - 973",
+        "gender": "男",
+        "description": "后周最后一位皇帝，被迫禅位予赵匡胤。"
+      }
+    },
+    {
+      "id": "杯酒释兵权",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "杯酒释兵权"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "961 - 969",
+        "description": "宋太祖为加强中央集权而解除高级将领兵权的政治手段。"
+      }
+    },
+    {
+      "id": "石守信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石守信"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "928 - 984",
+        "gender": "男",
+        "description": "北宋初年重要将领，在“杯酒释兵权”中被解除兵权。"
+      }
+    },
+    {
+      "id": "宋太宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋太宗",
+          "赵光义",
+          "赵炅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "939-11-20 - 997-05-08",
+        "gender": "男",
+        "description": "宋朝第二位皇帝，宋太祖赵匡胤之弟。"
+      }
+    },
+    {
+      "id": "金匮之盟",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "金匮之盟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "宋太宗声称的其继位合法性的依据，内容为昭宪太后遗命兄终弟及。"
+      }
+    },
+    {
+      "id": "靖康之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "靖康之变",
+          "靖康之祸",
+          "靖康之耻"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1126 - 1127",
+        "description": "金朝攻破北宋首都东京，俘虏徽、钦二帝，导致北宋灭亡的事件。"
+      }
+    },
+    {
+      "id": "金朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "金朝",
+          "金国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1115 - 1234",
+        "description": "由女真人建立的中国北方政权，灭亡了辽朝与北宋。"
+      }
+    },
+    {
+      "id": "宋徽宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋徽宗",
+          "赵佶"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1082-11-02 - 1135-06-04",
+        "gender": "男",
+        "description": "北宋第八位皇帝，艺术家，靖康之变中被俘。"
+      }
+    },
+    {
+      "id": "宋钦宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋钦宗",
+          "赵桓"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1100-05-23 - 1161-06-14",
+        "gender": "男",
+        "description": "北宋末代皇帝，靖康之变中被俘。"
+      }
+    },
+    {
+      "id": "宋高宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋高宗",
+          "赵构"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1107-06-12 - 1187-11-09",
+        "gender": "男",
+        "description": "宋徽宗之子，南宋开国皇帝。"
+      }
+    },
+    {
+      "id": "岳飞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "岳飞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1103-03-24 - 1142-01-27",
+        "gender": "男",
+        "description": "南宋抗金名将，中兴四将之一。"
+      }
+    },
+    {
+      "id": "秦桧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦桧"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1090 - 1155",
+        "gender": "男",
+        "description": "南宋宰相，主和派代表人物，被认为是害死岳飞的主谋。"
+      }
+    },
+    {
+      "id": "绍兴和议",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "绍兴和议"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1141-11",
+        "description": "南宋与金朝签订的和平协议，确立了两国以淮水-大散关为界的局面。"
+      }
+    },
+    {
+      "id": "蒙古帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蒙古帝国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1206 - 1368",
+        "description": "由成吉思汗建立的帝国，后灭亡金朝与南宋。"
+      }
+    },
+    {
+      "id": "元朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "元朝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1271 - 1368",
+        "description": "由忽必烈建立的中国朝代，灭亡南宋。"
+      }
+    },
+    {
+      "id": "忽必烈",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "忽必烈"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1215-09-23 - 1294-02-18",
+        "gender": "男",
+        "description": "蒙古帝国第五位大汗，元朝的创建者。"
+      }
+    },
+    {
+      "id": "崖门海战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "崖门海战",
+          "崖山海战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1279-03-19 - 1279-03-19",
+        "location": "崖山镇",
+        "description": "宋元战争的最后一场战役，标志着南宋的灭亡。"
+      }
+    },
+    {
+      "id": "陆秀夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陆秀夫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1236 - 1279",
+        "gender": "男",
+        "description": "南宋末年大臣，背负幼主赵昺投海殉国。"
+      }
+    },
+    {
+      "id": "赵昺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵昺",
+          "宋帝昺",
+          "宋少帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1272-02-12 - 1279-03-19",
+        "gender": "男",
+        "description": "南宋最后一位皇帝。"
+      }
+    },
+    {
+      "id": "王安石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王安石"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1021-12-18 - 1086-05-21",
+        "gender": "男",
+        "description": "北宋政治家、改革家，熙宁变法的主要领导者。"
+      }
+    },
+    {
+      "id": "熙宁变法",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "熙宁变法",
+          "熙丰新法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1069 - 1085",
+        "description": "宋神宗时期由王安石主导的一场旨在富国强兵的社会改革运动。"
+      }
+    },
+    {
+      "id": "司马光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马光"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1019-11-17 - 1086-10-11",
+        "gender": "男",
+        "description": "北宋政治家、史学家，保守派领袖，反对王安石变法。"
+      }
+    },
+    {
+      "id": "宋神宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋神宗",
+          "赵顼"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1048-05-25 - 1085-04-01",
+        "gender": "男",
+        "description": "北宋第六位皇帝，支持王安石变法。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "赵匡胤",
+      "target": "后周",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "960",
+        "position": "殿前都点检",
+        "description": ""
+      }
+    },
+    {
+      "source": "陈桥兵变",
+      "target": "赵匡胤",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "960-02-03",
+        "description": "在陈桥兵变中，赵匡胤被部下黄袍加身，拥立为帝。"
+      }
+    },
+    {
+      "source": "陈桥兵变",
+      "target": "北宋",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "960-02-04",
+        "description": "陈桥兵变直接导致了北宋的建立。"
+      }
+    },
+    {
+      "source": "陈桥兵变",
+      "target": "后周",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "960-02-04",
+        "description": "陈桥兵变导致后周恭帝被迫逊位，后周灭亡。"
+      }
+    },
+    {
+      "source": "赵匡胤",
+      "target": "周恭帝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "960",
+        "description": "通过陈桥兵变夺取后周恭帝柴宗训帝位。"
+      }
+    },
+    {
+      "source": "杯酒释兵权",
+      "target": "石守信",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "961",
+        "description": "作为手握重兵的将军，在“杯酒释兵权”中被剥夺军事指挥权。"
+      }
+    },
+    {
+      "source": "赵匡胤",
+      "target": "杯酒释兵权",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "961",
+        "description": "为加强中央集权，宋太祖策划并实施了“杯酒释兵权”。"
+      }
+    },
+    {
+      "source": "宋太宗",
+      "target": "赵匡胤",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": "宋太宗赵光义是宋太祖赵匡胤的弟弟。"
+      }
+    },
+    {
+      "source": "金匮之盟",
+      "target": "宋太宗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "976",
+        "description": "宋太宗声称奉《金匮之盟》而继承皇位，为其继位提供了合法性依据。"
+      }
+    },
+    {
+      "source": "金朝",
+      "target": "北宋",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1125",
+        "end_date": "1127",
+        "description": "金朝于1125年发动侵宋战争，并于1127年灭亡北宋。"
+      }
+    },
+    {
+      "source": "靖康之变",
+      "target": "北宋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1127-03-20",
+        "description": "靖康之变导致北宋灭亡。"
+      }
+    },
+    {
+      "source": "金朝",
+      "target": "靖康之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1125",
+        "description": "金朝南下攻宋，引发靖康之变。"
+      }
+    },
+    {
+      "source": "金朝",
+      "target": "宋徽宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1127",
+        "description": "在靖康之变中被金兵掳去北方。"
+      }
+    },
+    {
+      "source": "金朝",
+      "target": "宋钦宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1127",
+        "description": "在靖康之变中被金兵掳去北方。"
+      }
+    },
+    {
+      "source": "宋高宗",
+      "target": "南宋",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1127-06-12",
+        "description": "靖康之变后，康王赵构在南京应天府即位，建立南宋。"
+      }
+    },
+    {
+      "source": "岳飞",
+      "target": "金朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": "岳飞是南宋时期著名的抗金将领。"
+      }
+    },
+    {
+      "source": "宋高宗",
+      "target": "岳飞",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1142-01-27",
+        "description": "以“莫须有”的罪名杀害岳飞。"
+      }
+    },
+    {
+      "source": "秦桧",
+      "target": "岳飞",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1142-01-27",
+        "description": "作为主和派代表，促成宋高宗杀害岳飞。"
+      }
+    },
+    {
+      "source": "绍兴和议",
+      "target": "岳飞",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1141",
+        "description": "为达成和议，金国提出“必杀飞，始可和”的条件，导致岳飞被杀。"
+      }
+    },
+    {
+      "source": "南宋",
+      "target": "蒙古帝国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1232",
+        "end_date": "1234",
+        "description": "南宋与蒙古帝国曾联合夹击金朝。"
+      }
+    },
+    {
+      "source": "蒙古帝国",
+      "target": "南宋",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1235",
+        "end_date": "1279",
+        "description": "灭金后，蒙古帝国开始长达数十年的侵宋战争。"
+      }
+    },
+    {
+      "source": "忽必烈",
+      "target": "元朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1271",
+        "description": "忽必烈建立元朝。"
+      }
+    },
+    {
+      "source": "崖门海战",
+      "target": "南宋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1279-03-19",
+        "description": "崖门海战的失败标志着南宋的彻底灭亡。"
+      }
+    },
+    {
+      "source": "元朝",
+      "target": "崖门海战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1279",
+        "description": "元军在崖山对南宋残余势力发动总攻，取得决定性胜利。"
+      }
+    },
+    {
+      "source": "陆秀夫",
+      "target": "赵昺",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "作为大臣，陆秀夫在崖山海战战败后背负幼主赵昺投海殉国。"
+      }
+    },
+    {
+      "source": "宋神宗",
+      "target": "熙宁变法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1069",
+        "description": "宋神宗启用王安石推行新法，锐意改革。"
+      }
+    },
+    {
+      "source": "王安石",
+      "target": "熙宁变法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1069",
+        "position": "参知政事",
+        "description": "作为变法的主要设计者和推行者。"
+      }
+    },
+    {
+      "source": "司马光",
+      "target": "熙宁变法",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1069",
+        "description": "作为保守派领袖，司马光强烈反对并抵制王安石推行的新法。"
+      }
+    },
+    {
+      "source": "司马光",
+      "target": "王安石",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": "两人是熙宁变法期间新旧党争的核心对立人物。"
+      }
+    }
+  ]
+}
