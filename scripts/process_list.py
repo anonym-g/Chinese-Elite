@@ -144,6 +144,16 @@ def process_item(item_name: str, category: str, wiki_client: WikipediaClient, pa
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(structured_data, f, indent=2, ensure_ascii=False)
         logger.info(f"成功：'{item_name}' 的处理结果已保存。")
+
+        # 成功保存新版本后，删除该目录下的所有旧版本
+        for old_filename in os.listdir(output_dir):
+            if old_filename.endswith('.json') and old_filename != file_name:
+                try:
+                    old_file_path = os.path.join(output_dir, old_filename)
+                    os.remove(old_file_path)
+                    logger.info(f"已删除旧版本: {old_filename}")
+                except OSError as e:
+                    logger.error(f"删除旧文件 '{old_filename}' 失败: {e}")
     except Exception as e:
         logger.error(f"严重错误：在保存文件时发生异常 - {e}")
 
