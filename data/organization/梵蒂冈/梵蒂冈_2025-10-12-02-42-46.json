@@ -1,0 +1,554 @@
+{
+  "nodes": [
+    {
+      "id": "梵蒂冈城邦",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "梵蒂冈城邦",
+          "梵蒂冈城国",
+          "梵蒂冈",
+          "梵蒂冈城",
+          "梵谛冈城邦"
+        ],
+        "en": [
+          "Vatican City State"
+        ]
+      },
+      "properties": {
+        "period": "1929-02-11 - ",
+        "location": "罗马",
+        "description": "位于义大利首都罗马市区内的内陆城邦，为世界领土面积最小的国家。"
+      }
+    },
+    {
+      "id": "圣座",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圣座"
+        ],
+        "en": [
+          "Holy See"
+        ]
+      },
+      "properties": {
+        "description": "天主教会的最高权力机构，对梵蒂冈城邦拥有直接统治权。"
+      }
+    },
+    {
+      "id": "教宗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "教宗国"
+        ],
+        "en": [
+          "Papal States"
+        ]
+      },
+      "properties": {
+        "period": "756 - 1870",
+        "location": "意大利半岛",
+        "description": "梵蒂冈城邦的前身，一个由圣座统治的政教合一国家。"
+      }
+    },
+    {
+      "id": "拉特兰条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "拉特兰条约"
+        ],
+        "en": [
+          "Lateran Treaty"
+        ]
+      },
+      "properties": {
+        "period": "1929-02-11",
+        "description": "由意大利王国与圣座签订，正式确立梵蒂冈城邦为主权国家的条约。"
+      }
+    },
+    {
+      "id": "贝尼托·墨索里尼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贝尼托·墨索里尼",
+          "墨索里尼"
+        ],
+        "en": [
+          "Benito Mussolini"
+        ]
+      },
+      "properties": {
+        "lifetime": "1883-07-29 - 1945-04-28",
+        "gender": "男",
+        "description": "时任意大利首相，代表意大利王国签署了《拉特兰条约》。"
+      }
+    },
+    {
+      "id": "庇护十一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "庇护十一世"
+        ],
+        "en": [
+          "Pius XI"
+        ]
+      },
+      "properties": {
+        "lifetime": "1857-05-31 - 1939-02-10",
+        "gender": "男",
+        "description": "时任教宗，代表圣座签署了《拉特兰条约》。"
+      }
+    },
+    {
+      "id": "丕平献土",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "丕平献土"
+        ],
+        "en": [
+          "Donation of Pepin"
+        ]
+      },
+      "properties": {
+        "period": "756",
+        "description": "法兰克国王丕平将罗马城及其周围区域赠与教宗的历史事件，奠定了教宗国的基础。"
+      }
+    },
+    {
+      "id": "丕平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丕平"
+        ],
+        "en": [
+          "Pepin the Short"
+        ]
+      },
+      "properties": {
+        "lifetime": "714 - 768",
+        "gender": "男",
+        "description": "法兰克王国国王，通过“丕平献土”创立了教宗国。"
+      }
+    },
+    {
+      "id": "法兰克王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰克王国"
+        ],
+        "en": [
+          "Francia"
+        ]
+      },
+      "properties": {
+        "description": "中世纪欧洲的王国，其国王丕平献土创立了教宗国。"
+      }
+    },
+    {
+      "id": "意大利统一",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "意大利统一",
+          "民族统一运动"
+        ],
+        "en": [
+          "Italian unification"
+        ]
+      },
+      "properties": {
+        "period": "19世纪",
+        "location": "意大利半岛",
+        "description": "19世纪的政治和社会运动，旨在将意大利半岛的各个国家统一为一个国家，最终导致了教宗国的终结。"
+      }
+    },
+    {
+      "id": "意大利王国 (1861年–1946年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "意大利王国 (1861年–1946年)",
+          "意大利王国"
+        ],
+        "en": [
+          "Kingdom of Italy (1861–1946)"
+        ]
+      },
+      "properties": {
+        "period": "1861 - 1946",
+        "description": "在意大利统一运动中成立的国家，于1870年吞并罗马，终结了教宗国。"
+      }
+    },
+    {
+      "id": "萨丁尼亚王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "萨丁尼亚王国"
+        ],
+        "en": [
+          "Kingdom of Sardinia"
+        ]
+      },
+      "properties": {
+        "description": "意大利统一运动的领导者。"
+      }
+    },
+    {
+      "id": "法兰西第二帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第二帝国"
+        ],
+        "en": [
+          "Second French Empire"
+        ]
+      },
+      "properties": {
+        "period": "1852 - 1870",
+        "description": "曾出兵保护教宗国免受意大利王国吞并的帝国。"
+      }
+    },
+    {
+      "id": "拿破仑三世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "拿破仑三世"
+        ],
+        "en": [
+          "Napoleon III"
+        ]
+      },
+      "properties": {
+        "lifetime": "1808-04-20 - 1873-01-09",
+        "gender": "男",
+        "description": "法兰西第二帝国皇帝，曾派兵保护教宗国。"
+      }
+    },
+    {
+      "id": "普法战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "普法战争"
+        ],
+        "en": [
+          "Franco-Prussian War"
+        ]
+      },
+      "properties": {
+        "period": "1870 - 1871",
+        "description": "导致法国从罗马撤军的战争，为意大利王国吞并罗马创造了条件。"
+      }
+    },
+    {
+      "id": "良十四世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "良十四世"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "男",
+        "description": "梵蒂冈城国国家元首（教宗）。"
+      }
+    },
+    {
+      "id": "拉法埃拉·彼得里尼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "拉法埃拉·彼得里尼"
+        ],
+        "en": [
+          "Raffaella Petrini"
+        ]
+      },
+      "properties": {
+        "gender": "女",
+        "description": "梵蒂冈城国政府主席。"
+      }
+    },
+    {
+      "id": "庇护十二世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "庇护十二世"
+        ],
+        "en": [
+          "Pius XII"
+        ]
+      },
+      "properties": {
+        "lifetime": "1876-03-02 - 1958-10-09",
+        "gender": "男",
+        "description": "第二次世界大战期间的教宗。"
+      }
+    },
+    {
+      "id": "意大利",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "意大利",
+          "义大利"
+        ],
+        "en": [
+          "Italy"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "罗马",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "罗马"
+        ],
+        "en": [
+          "Rome"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "罗马教廷",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗马教廷"
+        ],
+        "en": [
+          "Roman Curia"
+        ]
+      },
+      "properties": {
+        "description": "圣座的行政机构。"
+      }
+    },
+    {
+      "id": "圣座国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圣座国务院",
+          "国务院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": "罗马教廷中综理圣座行政并掌理教宗枢密事务的机构。"
+      }
+    },
+    {
+      "id": "伯多禄·帕罗林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伯多禄·帕罗林"
+        ],
+        "en": [
+          "Pietro Parolin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1955-01-17 - ",
+        "gender": "男",
+        "description": "圣座国务枢机卿。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "拉特兰条约",
+      "target": "梵蒂冈城邦",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-02-11",
+        "description": "该条约的签订，确立了梵蒂冈城邦为主权国家，解决了圣座与意大利政府间多年的纠纷。"
+      }
+    },
+    {
+      "source": "贝尼托·墨索里尼",
+      "target": "拉特兰条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-02-11",
+        "description": "作为意大利首相，代表意大利王国签署了《拉特兰条约》。"
+      }
+    },
+    {
+      "source": "庇护十一世",
+      "target": "拉特兰条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-02-11",
+        "description": "作为教宗，代表圣座签署了《拉特兰条约》。"
+      }
+    },
+    {
+      "source": "丕平献土",
+      "target": "教宗国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "756",
+        "description": "丕平的赠与使圣座得以成立政教合一的教宗国。"
+      }
+    },
+    {
+      "source": "丕平",
+      "target": "丕平献土",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "756",
+        "description": "将罗马城及其周围区域送给教宗，促成了“丕平献土”事件。"
+      }
+    },
+    {
+      "source": "意大利统一",
+      "target": "教宗国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1870",
+        "description": "意大利的民族统一运动使得教宗国的领土不断缩小，并最终导致其灭亡。"
+      }
+    },
+    {
+      "source": "意大利王国 (1861年–1946年)",
+      "target": "教宗国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1870-09-20",
+        "description": "意大利王国军队开进罗马，完成了意大利的统一，终结了教宗国的统治。"
+      }
+    },
+    {
+      "source": "萨丁尼亚王国",
+      "target": "意大利统一",
+      "type": "PUSHED",
+      "properties": {
+        "description": "作为意大利统一运动的领导者。"
+      }
+    },
+    {
+      "source": "法兰西第二帝国",
+      "target": "教宗国",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1870",
+        "description": "曾出兵保护罗马，以维护教宗国的存在。"
+      }
+    },
+    {
+      "source": "拿破仑三世",
+      "target": "教宗国",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1870",
+        "description": "作为法兰西第二帝国皇帝，派兵保护教宗国。"
+      }
+    },
+    {
+      "source": "普法战争",
+      "target": "意大利统一",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1870",
+        "description": "普法战争的爆发导致保护教宗国的法国军队撤离，为意大利王国占领罗马创造了条件。"
+      }
+    },
+    {
+      "source": "梵蒂冈城邦",
+      "target": "圣座",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1929-02-11",
+        "description": "梵蒂冈城邦由圣座直接统治。"
+      }
+    },
+    {
+      "source": "罗马教廷",
+      "target": "圣座",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "罗马教廷是圣座的中枢行政组织。"
+      }
+    },
+    {
+      "source": "圣座",
+      "target": "意大利王国 (1861年–1946年)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1870",
+        "end_date": "1929-02-11",
+        "description": "在罗马被意大利王国占领后，历代教宗自称“梵蒂冈之囚”，敌视意大利王国。"
+      }
+    },
+    {
+      "source": "教宗国",
+      "target": "梵蒂冈城邦",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1929-02-11",
+        "description": "梵蒂冈城邦由教宗国改组而来，是其继承实体。"
+      }
+    },
+    {
+      "source": "良十四世",
+      "target": "梵蒂冈城邦",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "国家元首"
+      }
+    },
+    {
+      "source": "拉法埃拉·彼得里尼",
+      "target": "梵蒂冈城邦",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "政府主席"
+      }
+    },
+    {
+      "source": "庇护十二世",
+      "target": "梵蒂冈城邦",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1939-03-02",
+        "end_date": "1958-10-09",
+        "position": "教宗",
+        "description": "在第二次世界大战期间担任教宗。"
+      }
+    },
+    {
+      "source": "伯多禄·帕罗林",
+      "target": "圣座国务院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": "国务枢机卿"
+      }
+    },
+    {
+      "source": "梵蒂冈城邦",
+      "target": "意大利",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": "梵蒂冈城邦的军事防御主要由意大利负责。"
+      }
+    }
+  ]
+}

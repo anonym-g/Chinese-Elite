@@ -1,0 +1,439 @@
+{
+  "nodes": [
+    {
+      "id": "李富春",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李富春",
+          "任之"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1900-05-22 - 1975-01-09",
+        "gender": "男",
+        "birth_place": "善化县",
+        "death_place": "北京市",
+        "description": "中国共产党和中华人民共和国政治人物，原正国级领导人。"
+      }
+    },
+    {
+      "id": "蔡畅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡畅"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "李特特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李特特"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "长郡中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "长郡中学"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "莫斯科东方劳动者共产主义大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "莫斯科东方劳动者共产主义大学"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "国民革命军第二军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军第二军"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国国家计划委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国家计划委员会",
+          "国家计划委员会",
+          "国家计委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党中央政治局常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央政治局常务委员会",
+          "中央政治局常委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "文化大革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966 - 1976"
+      }
+    },
+    {
+      "id": "二月逆流",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "二月逆流",
+          "二月抗争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1967-02"
+      }
+    },
+    {
+      "id": "长征",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "长征"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1934 - 1936"
+      }
+    },
+    {
+      "id": "遵义会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "遵义会议"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1935-01"
+      }
+    },
+    {
+      "id": "善化县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "善化县"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京市"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "张国焘",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张国焘"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "陈毅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈毅"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李富春",
+      "target": "蔡畅",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1923"
+      }
+    },
+    {
+      "source": "李特特",
+      "target": "李富春",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李特特",
+      "target": "蔡畅",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李富春",
+      "target": "善化县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "李富春",
+      "target": "长郡中学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1919"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "莫斯科东方劳动者共产主义大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1925-01"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1922"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "国民革命军第二军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1925",
+        "position": "副党代表兼政治部主任"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "中华人民共和国国务院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954-09",
+        "end_date": "1975-01-09",
+        "position": "副总理"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "中华人民共和国国家计划委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954-09",
+        "end_date": "1970-06",
+        "position": "主任"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1966-08",
+        "end_date": "1969-04",
+        "position": "委员"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "毛泽东",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1966-08",
+        "end_date": "1969-04",
+        "position": "中共中央政治局常委",
+        "description": "毛泽东担任中共中央主席"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "周恩来",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1954-09",
+        "end_date": "1975-01-09",
+        "position": "国务院副总理",
+        "description": "周恩来担任国务院总理"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "长征",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1934-10",
+        "description": "作为红军总政治部代主任参加长征"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "遵义会议",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1935-01",
+        "description": "参与遵义会议"
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "李富春",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1967",
+        "description": "在文化大革命中因二月逆流事件受到严重迫害"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "二月逆流",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1967-02",
+        "description": "与陈毅等人对文化大革命进行抗争，被称为“二月逆流”"
+      }
+    },
+    {
+      "source": "二月逆流",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1967-02",
+        "description": "二月逆流是中共元老对“文化大革命”的错误做法进行的抗争。"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "张国焘",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1935",
+        "description": "反对张国焘的南下路线"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "邓小平",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1923",
+        "description": "邓小平为李富春与蔡畅的证婚人"
+      }
+    },
+    {
+      "source": "李富春",
+      "target": "陈毅",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1967",
+        "description": "共同在“二月逆流”中对文化大革命进行抗争"
+      }
+    }
+  ]
+}
