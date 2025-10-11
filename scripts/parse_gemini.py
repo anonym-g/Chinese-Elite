@@ -111,9 +111,7 @@ class GeminiParser:
 """
         logger.info(f"正在通过 Google GenAI SDK ({self.model_name}) 进行解析...")
         if few_shot_examples:
-            nodes_len = len(few_shot_examples.get("nodes", [])) if isinstance(few_shot_examples, dict) else 0
-            rels_len = len(few_shot_examples.get("relationships", [])) if isinstance(few_shot_examples, dict) else 0
-            logger.info(f"已注入 {nodes_len} 个节点和 {rels_len} 个关系作为 few-shot 范例。")
+            logger.info(f"已注入 {FEW_SHOT_NODE_SAMPLES} 个节点和 {FEW_SHOT_REL_SAMPLES} 个关系作为 few-shot 范例。")
 
         try:
             response = self.client.models.generate_content(

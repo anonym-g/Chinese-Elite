@@ -11,6 +11,7 @@ from collections import OrderedDict
 from opencc import OpenCC
 import logging
 import random
+import time
 
 from config import LIST_FILE_PATH, CACHE_DIR, PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, WIKI_API_URL, PAGEVIEWS_API_BASE, USER_AGENT
 
@@ -21,17 +22,62 @@ logger = logging.getLogger(__name__)
 s2t_converter = OpenCC('s2t') # 简转繁
 t2s_converter = OpenCC('t2s') # 繁转简
 
-# --- 为不同的维基API端点设置独立的并发限制 ---
-# MediaWiki Action API (api.php) 通常限制比较严格
-WIKI_API_SEMAPHORE = asyncio.Semaphore(5)
-# Pageviews API (rest_v1) 通常限制较宽松
-PAGEVIEWS_API_SEMAPHORE = asyncio.Semaphore(10)
+# # --- 为不同的维基API端点设置独立的并发限制 ---
+# # MediaWiki Action API (api.php) 通常限制比较严格
+# WIKI_API_SEMAPHORE = asyncio.Semaphore(5)
+# # Pageviews API (rest_v1) 通常限制较宽松
+# PAGEVIEWS_API_SEMAPHORE = asyncio.Semaphore(10)
 
 # --- 其他全局常量 ---
 PAGEVIEWS_DATA_START_DATE = datetime(2015, 7, 1)
 CACHE_FILE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
-MAX_RETRIES = 2
-BATCH_SIZE = 25
+# MAX_RETRIES = 2
+BATCH_SIZE = 120
+
+# 检测是否在 GitHub Action (CI) 环境中运行
+IS_CI = os.getenv('GITHUB_ACTIONS') == 'true'
+
+# 在CI环境中，使用更保守的速率限制（60次/分钟），以应对共享IP问题
+# 本地环境可以使用维基百科官方允许的更高限制（100次/分钟）
+RATE_LIMIT = 60 if IS_CI else 100
+PER_SECONDS = 60
+
+class AsyncLeakyBucket:
+    """
+    一个简单的异步漏桶速率限制器。
+    它确保请求以不超过指定的平均速率发送。
+    """
+    def __init__(self, rate: int, per_seconds: int):
+        self.rate_per_second = rate / per_seconds
+        self._lock = asyncio.Lock()
+        # 使用 time.monotonic() 来避免系统时间变化带来的影响
+        self._last_request_time = 0.0
+
+    async def acquire(self):
+        """获取一个“令牌”，如有必要则异步等待。"""
+        async with self._lock:
+            now = time.monotonic()
+            # 计算自上次请求以来经过的时间
+            elapsed = now - self._last_request_time
+            # 计算我们应该在两次请求之间等待的最小时间间隔
+            wait_period = 1 / self.rate_per_second
+            
+            # 如果我们等待的时间还不够，则计算还需等待多久
+            wait_needed = wait_period - elapsed
+            if wait_needed > 0:
+                await asyncio.sleep(wait_needed)
+            
+            # 更新最后一次请求的时间
+            self._last_request_time = time.monotonic()
+
+# --- 智能速率限制配置 ---
+leaky_bucket = AsyncLeakyBucket(RATE_LIMIT, PER_SECONDS)
+
+if IS_CI:
+    logger.info(f"CI环境检测到。应用保守速率限制: {RATE_LIMIT} 请求 / {PER_SECONDS} 秒")
+else:
+    logger.info(f"本地环境。应用标准速率限制: {RATE_LIMIT} 请求 / {PER_SECONDS} 秒")
+
 
 def load_pageviews_cache(file_path: str) -> dict:
     """加载页面访问量缓存文件。"""
@@ -89,36 +135,38 @@ def batchify(data: list, batch_size: int):
         yield data[i:i + batch_size]
 
 async def make_api_request_async(session: aiohttp.ClientSession, url, params=None):
-    """执行异步API请求，并在失败时自动重试。包含指数退避。"""
-    retries = 0
-    timeout_obj = aiohttp.ClientTimeout(total=1.5)
-    while retries < MAX_RETRIES:
-        try:
-            async with session.get(url, params=params, timeout=timeout_obj) as response:
-                if response.status == 404: return None
-                if response.status == 429:
-                    logger.warning(f"收到 429 错误，将在 {(2 ** retries):.1f}s 后重试: {url}")
-                    response.raise_for_status()
-                
-                response.raise_for_status()
-                return await response.json()
-        except (aiohttp.ClientError, asyncio.TimeoutError) as e:
-            retries += 1
-            if retries >= MAX_RETRIES:
-                logger.warning(f"API请求失败 (尝试 {retries}/{MAX_RETRIES}): {url}, 错误: {e}")
+    """
+    执行异步API请求，由漏桶算法进行平滑的速率限制。
+    如果失败，则不再重试，而是直接返回。
+    """
+    # 在发出请求前，先从漏桶获取许可，这可能会导致异步等待
+    await leaky_bucket.acquire()
+    
+    # 将超时时间设置得更长一些，因为等待可能发生在请求之前
+    timeout_obj = aiohttp.ClientTimeout(total=15)
+    try:
+        async with session.get(url, params=params, timeout=timeout_obj) as response:
+            if response.status == 404:
                 return None
             
-            backoff_time = (2 ** retries) + random.uniform(0, 1)
-            await asyncio.sleep(backoff_time)
-    return None
+            # 如果尽管我们限速了，但仍然收到429，这说明共享IP的整体限额已用完。
+            # 此时重试是徒劳的，记录警告并失败。
+            if response.status == 429:
+                logger.warning(f"收到 429 错误，尽管已进行速率限制: {url}。共享IP的速率限制可能已耗尽。")
+                return None
+            
+            response.raise_for_status()
+            return await response.json()
+            
+    except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+        logger.warning(f"API请求失败: {url}, 错误: {e}")
+        return None
 
 async def get_article_creation_date_async(session: aiohttp.ClientSession, article_title: str) -> datetime | None:
     """通过MediaWiki API异步获取维基百科文章的创建日期。"""
     params = {"action": "query", "prop": "revisions", "titles": article_title, "rvlimit": "1", "rvdir": "newer", "format": "json", "formatversion": "2"}
 
-    # 控制并发
-    async with WIKI_API_SEMAPHORE:
-        data = await make_api_request_async(session, WIKI_API_URL, params=params)
+    data = await make_api_request_async(session, WIKI_API_URL, params=params)
     
     if not data: return None
     try:
@@ -151,9 +199,7 @@ async def _fetch_stats_for_title_async(session: aiohttp.ClientSession, article_t
     encoded_title = urllib.parse.quote(article_title.replace(" ", "_"))
     url = f"{PAGEVIEWS_API_BASE}zh.wikipedia.org/all-access/user/{encoded_title}/daily/{start_str}/{end_str}"
     
-    # 控制并发
-    async with PAGEVIEWS_API_SEMAPHORE:
-        data = await make_api_request_async(session, url)
+    data = await make_api_request_async(session, url)
     
     if not data:
         return {'error': 'Pageviews API request failed'}
