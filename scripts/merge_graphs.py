@@ -64,12 +64,19 @@ class GraphMerger:
         except FileNotFoundError:
             self.processed_files = set()
             
-        # --- 构建基于Q-Code的索引 ---
-        self.master_nodes_map = {node['id']: node for node in self.master_graph.get('nodes', [])}
+        # --- 构建支持多语言的名称到Q-Code全局映射 ---
+        self.name_to_qcode_map = {}
         for node in self.master_graph.get('nodes', []):
-            primary_name = node.get('name', {}).get('zh-cn', [None])[0]
-            if primary_name:
-                self.name_to_qcode_map[primary_name] = node['id']
+            node_id = node.get('id')
+            if not node_id:
+                continue
+            # 遍历所有语言 ('zh-cn', 'en', etc.)
+            for lang, names in node.get('name', {}).items():
+                if isinstance(names, list):
+                    for name in names:
+                        if name:
+                            # 允许覆盖，对于别名映射来说是安全的
+                            self.name_to_qcode_map[name] = node_id
 
     def _get_canonical_rel_key(self, rel: dict) -> tuple | None:
         """为关系生成一个规范化的键，用于处理无向关系。"""
@@ -153,48 +160,63 @@ class GraphMerger:
             logger.error(f"LLM合并失败 - {e}")
             return existing_item
 
-    def _merge_and_update_names(self, new_node, qcode, existing_node=None, canonical_name_override=None):
+    def _merge_and_update_names(self, new_node, qcode, existing_node=None, canonical_name_override=None, primary_lang=None):
         """
-        合并新旧节点的名称列表(name.zh-cn)，并为新发现的别名更新全局名称映射。
+        合并多语言的 name 对象，并更新全局的 name-to-ID 映射。
 
         Args:
             new_node (dict): 从碎片文件中读取的新节点。
             qcode (str): 该实体最终确定的Q-Code。
             existing_node (dict, optional): 主图谱中已存在的节点。默认为None。
             canonical_name_override (str, optional): 强行指定的规范名称（用于处理重定向）。默认为None。
+            primary_lang (str, optional): 新节点的主要语言。
 
         Returns:
-            list: 合并、去重并排序后的最终 name.zh-cn 列表。
+            dict: 包含所有语言名称的完整 name 对象。
         """
-        # 步骤1：从新旧节点中收集所有已知的名称
-        all_known_names = set(new_node.get('name', {}).get('zh-cn', []))
-        if existing_node:
-            all_known_names.update(existing_node.get('name', {}).get('zh-cn', []))
-
-        # 步骤2：确定规范名称
-        if canonical_name_override:
-            # 优先使用重定向检查后指定的规范名称
-            canonical_name = canonical_name_override
-            all_known_names.add(canonical_name)
-        elif existing_node and existing_node.get('name', {}).get('zh-cn'):
-            # 其次，使用已存在节点的首个名称
-            canonical_name = existing_node['name']['zh-cn'][0]
-        else:
-            # 最后，对于一个全新的节点，使用它自己的首个名称
-            canonical_name = new_node.get('name', {}).get('zh-cn', [None])[0]
+        # 从已存在节点开始，或创建一个空字典
+        merged_name_obj = (existing_node.get('name') or {}).copy() if existing_node else {}
         
-        if not canonical_name: return []
+        # 合并新节点中的所有语言名称
+        for lang, names in new_node.get('name', {}).items():
+            if not isinstance(names, list): continue
+            
+            # 合并新旧名称，并通过集合去重
+            combined_names = merged_name_obj.get(lang, []) + names
+            merged_name_obj[lang] = sorted(list(set(combined_names)))
 
-        # 步骤3：构建最终的节点名列表，确保规范名称在第一位
-        final_name_list = [canonical_name] + [name for name in sorted(list(all_known_names)) if name != canonical_name]
-        final_name_list = list(dict.fromkeys(final_name_list))  # 去重，同时保持顺序
+        # 为新节点的主语言确定并设置规范名称
+        if primary_lang:
+            canonical_name = None
+            # 优先级 1: 外部指定的规范名 (如来自重定向)
+            if canonical_name_override:
+                canonical_name = canonical_name_override
+            # 优先级 2: 已存在节点的该语言下的首个名称
+            elif existing_node and merged_name_obj.get(primary_lang) and merged_name_obj[primary_lang]:
+                canonical_name = merged_name_obj[primary_lang][0]
+            # 优先级 3: 新节点该语言下的首个名称
+            elif new_node.get('name', {}).get(primary_lang):
+                canonical_name = new_node['name'][primary_lang][0]
 
-        # 步骤4：为所有收集到的名称更新全局映射，确保它们都指向唯一的Q-Code
-        for name in all_known_names:
-            if name not in self.name_to_qcode_map:
-                self.name_to_qcode_map[name] = qcode
+            if canonical_name:
+                # 确保语言列表存在且包含该规范名
+                if primary_lang not in merged_name_obj:
+                    merged_name_obj[primary_lang] = []
+                if canonical_name not in merged_name_obj[primary_lang]:
+                    merged_name_obj[primary_lang].append(canonical_name)
+                
+                # 将规范名移动到列表首位
+                name_list = merged_name_obj[primary_lang]
+                name_list.remove(canonical_name)
+                name_list.insert(0, canonical_name)
+
+        # 用所有合并后的名称更新全局映射
+        for lang, names in merged_name_obj.items():
+            for name in names:
+                if name not in self.name_to_qcode_map:
+                    self.name_to_qcode_map[name] = qcode
         
-        return final_name_list
+        return merged_name_obj
 
     def _process_single_file(self, file_path: str, master_rels_map: dict):
         """处理单个JSON文件的合并逻辑 (Q-Code版本)。"""
@@ -206,25 +228,32 @@ class GraphMerger:
                 logger.warning(f"文件内容不是字典，已跳过: {file_path}")
                 return
 
-            # 用于追踪本文件中中文名到最终ID（Q-Code或临时名）的映射
+            # 用于追踪本文件中名称到最终ID（Q-Code或临时名）的映射
             local_name_to_final_id_map = {}
 
             # --- 步骤1: 处理和解析节点 ---
             for new_node in new_data.get('nodes', []):
-                new_node_name = new_node.get('name', {}).get('zh-cn', [None])[0]
-                if not new_node_name: continue
+                new_node_name_obj = new_node.get('name', {})
+                if not new_node_name_obj: continue
+
+                # 动态确定新节点的主语言和主名称
+                primary_lang = next(iter(new_node_name_obj), None)
+                if not primary_lang: continue
+                
+                primary_name = new_node_name_obj[primary_lang][0] if new_node_name_obj.get(primary_lang) else None
+                if not primary_name: continue
 
                 final_id = None
                 
-                # Case 1: 节点名已存在于主图的名称映射中
-                if new_node_name in self.name_to_qcode_map:
-                    qcode = self.name_to_qcode_map[new_node_name]
+                # Case 1: 节点主名称已存在于全局映射中
+                if primary_name in self.name_to_qcode_map:
+                    qcode = self.name_to_qcode_map[primary_name]
                     existing_node = self.master_nodes_map[qcode]
-                    logger.info(f"  - 发现已存在节点: '{new_node_name}' -> {qcode}，进行合并...")
+                    logger.info(f"  - 发现已存在节点: '{primary_name}' -> {qcode}，进行合并...")
                     
-                    # 合并别名
-                    final_name_list = self._merge_and_update_names(new_node, qcode, existing_node=existing_node)
-                    existing_node['name']['zh-cn'] = final_name_list
+                    # 合并多语言名称
+                    final_name_obj = self._merge_and_update_names(new_node, qcode, existing_node=existing_node, primary_lang=primary_lang)
+                    existing_node['name'] = final_name_obj
 
                     # 决定是否用LLM合并properties
                     if self._should_trigger_merge_llm(existing_node, new_node):
@@ -240,32 +269,34 @@ class GraphMerger:
                     self.master_nodes_map[qcode] = existing_node
                     final_id = qcode
 
-                # Case 2: 节点名是新的，需要确定其状态和ID
+                # Case 2: 节点主名称是新的，需要确定其状态和ID
                 else:
-                    # 调用 check_link_status
-                    status, detail = self.wiki_client.check_link_status(new_node_name)
+                    # 使用节点的主语言进行API查询
+                    status, detail = self.wiki_client.check_link_status(primary_name, lang=primary_lang)
                     qcode = None
 
                     # 只有当页面有效时才尝试获取Q-Code
                     if status in ["OK", "REDIRECT", "SIMP_TRAD_REDIRECT"]:
-                        qcode = self.wiki_client.get_qcode(new_node_name)
+                        qcode = self.wiki_client.get_qcode(primary_name, lang=primary_lang)
                     
                     # 场景A: 成功获取Q-Code
                     if qcode:
-                        canonical_name = self.wiki_client.t2s_converter.convert(detail) if detail else new_node_name
-                        add_title_to_list(canonical_name)
+                        # 仅当处理中文页面时，才对重定向目标进行繁简转换
+                        canonical_name = self.wiki_client.t2s_converter.convert(detail) if detail and primary_lang == 'zh' else detail
+                        if canonical_name:
+                            add_title_to_list(f"({primary_lang}) {canonical_name}")
 
-                        # Case 2a: Q-Code已存在
+                        # Case 2a: Q-Code已存在 (别名指向了现有实体)
                         if qcode in self.master_nodes_map:
                             existing_node = self.master_nodes_map[qcode]
-                            logger.info(f"  - 新节点 '{new_node_name}' 解析为已存在Q-Code: {qcode}，进行合并...")
-                            final_name_list = self._merge_and_update_names(new_node, qcode, existing_node=existing_node)
-                            existing_node['name']['zh-cn'] = final_name_list
+                            logger.info(f"  - 新节点 '{primary_name}' 解析为已存在Q-Code: {qcode}，进行合并...")
+                            final_name_obj = self._merge_and_update_names(new_node, qcode, existing_node=existing_node, primary_lang=primary_lang)
+                            existing_node['name'] = final_name_obj
                             if self._should_trigger_merge_llm(existing_node, new_node):
                                 merged_node_props = self._call_llm_for_merge(existing_node, new_node, "节点")
 
                                 # 用 if 过滤装饰器返回的特殊值 (None)
-                                if merged_node_props: 
+                                if merged_node_props:
                                     existing_node.update(merged_node_props)
                             self.master_nodes_map[qcode] = existing_node
                             final_id = qcode
@@ -273,11 +304,11 @@ class GraphMerger:
                         # Case 2b: 全新节点
                         else:
                             if detail:
-                                logger.info(f"  - 新节点名 '{new_node_name}' 是重定向，规范名称为 '{canonical_name}'")
-                            logger.info(f"  - 添加全新节点: '{canonical_name}' -> {qcode}")
-                            final_name_list = self._merge_and_update_names(new_node, qcode, canonical_name_override=canonical_name)
+                                logger.info(f"  - 新节点名 '{primary_name}' 是重定向，规范名称为 '{canonical_name or primary_name}'")
+                            logger.info(f"  - 添加全新节点: '{canonical_name or primary_name}' -> {qcode}")
+                            final_name_obj = self._merge_and_update_names(new_node, qcode, canonical_name_override=canonical_name, primary_lang=primary_lang)
                             new_node['id'] = qcode
-                            new_node['name']['zh-cn'] = final_name_list
+                            new_node['name'] = final_name_obj
                             self.master_nodes_map[qcode] = new_node
                             final_id = qcode
                     
@@ -285,29 +316,31 @@ class GraphMerger:
                     else:
                         temp_id = None
                         if status == "BAIDU":
-                            temp_id = f"BAIDU:{new_node_name}"
+                            temp_id = f"BAIDU:{primary_name}"
                         elif status == "CDT":
-                            temp_id = f"CDT:{new_node_name}"
+                            temp_id = f"CDT:{primary_name}"
                         
                         if temp_id:
-                            logger.warning(f"  - 节点 '{new_node_name}' 状态为 {status}。使用临时ID: {temp_id}")
+                            logger.warning(f"  - 节点 '{primary_name}' 状态为 {status}。使用临时ID: {temp_id}")
                             new_node['id'] = temp_id
-                            new_node['name']['zh-cn'] = list(dict.fromkeys(new_node.get('name', {}).get('zh-cn', [])))
+                            # 对于临时节点，直接使用它自己的name对象，并去重
+                            for lang_key, names_list in new_node.get('name', {}).items():
+                                new_node['name'][lang_key] = list(dict.fromkeys(names_list))
                             self.master_nodes_map[temp_id] = new_node
                             final_id = temp_id
                         else:
-                            logger.error(f"  - [失败] 节点 '{new_node_name}' 在所有来源均未找到 (状态: {status})。节点已丢弃。")
+                            logger.error(f"  - [失败] 节点 '{primary_name}' 在所有来源均未找到 (状态: {status})。节点已丢弃。")
                             final_id = None
                 
                 if final_id:
-                    local_name_to_final_id_map[new_node_name] = final_id
+                    local_name_to_final_id_map[primary_name] = final_id
 
             # --- 步骤2: 处理关系 ---
             for new_rel in new_data.get('relationships', []):
                 source_name = new_rel.get('source')
                 target_name = new_rel.get('target')
 
-                # 使用本文件内建立的映射将中文名转换为最终ID
+                # 使用本文件内建立的映射将名称转换为最终ID
                 source_id = local_name_to_final_id_map.get(source_name)
                 target_id = local_name_to_final_id_map.get(target_name)
 

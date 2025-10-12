@@ -13,7 +13,7 @@ import random
 import logging
 from curl_cffi import requests as cffi_requests
 
-from config import WIKI_API_URL, USER_AGENT, BAIDU_BASE_URL, CDSPACE_BASE_URL, LIST_FILE_PATH, CACHE_DIR
+from config import WIKI_API_URL_TPL, USER_AGENT, BAIDU_BASE_URL, CDSPACE_BASE_URL, LIST_FILE_PATH, CACHE_DIR
 from api_rate_limiter import wiki_sync_limiter
 
 logger = logging.getLogger(__name__)
@@ -142,14 +142,15 @@ class WikipediaClient:
         return reverse_map
     
     @wiki_sync_limiter.limit # 应用维基同步装饰器
-    def _fetch_qcode_from_api(self, article_title: str) -> str | None:
+    def _fetch_qcode_from_api(self, article_title: str, lang: str = 'zh') -> str | None:
         """内部辅助方法，仅负责执行一次API查询并解析结果。"""
+        api_url = WIKI_API_URL_TPL.format(lang=lang)
         params = {
             "action": "query", "prop": "pageprops", "ppprop": "wikibase_item",
             "titles": article_title, "format": "json", "formatversion": "2", "redirects": "1",
         }
         try:
-            response = self.session.get(WIKI_API_URL, params=params, timeout=15)
+            response = self.session.get(api_url, params=params, timeout=15)
             response.raise_for_status()
             data = response.json()
 
@@ -164,7 +165,7 @@ class WikipediaClient:
     def get_qcode(self, article_title: str, lang: str = 'zh') -> str | None:
         """
         根据维基百科文章标题获取其对应的Wikidata Q-Code。
-        新增逻辑：当简体查询失败时，自动尝试使用繁体进行后备查询。
+        新增逻辑：当简体查询失败时，自动尝试使用繁体进行后备查询 (仅对中文)。
         """
         # 0. 优先从内存中的反向映射缓存中快速查找
         if article_title in self._title_to_qcode_map:
@@ -172,17 +173,17 @@ class WikipediaClient:
 
         qcode = None
         
-        # 1. 优先使用原始标题（简体）进行查询
-        logger.info(f"正在通过API查询 '{article_title}' (简体)...")
-        qcode = self._fetch_qcode_from_api(article_title)
+        # 1. 优先使用原始标题进行查询
+        logger.info(f"正在通过API查询 ({lang}) '{article_title}'...")
+        qcode = self._fetch_qcode_from_api(article_title, lang)
 
-        # 2. 如果简体查询失败，尝试转换为繁体进行后备查询
+        # 2. 如果是中文且查询失败，尝试简繁转换
         traditional_title = ""
-        if not qcode:
+        if not qcode and lang == 'zh':
             traditional_title = self.s2t_converter.convert(article_title)
             if traditional_title != article_title:
                 logger.info(f"简体查询失败，尝试后备查询 '{traditional_title}' (繁体)...")
-                qcode = self._fetch_qcode_from_api(traditional_title)
+                qcode = self._fetch_qcode_from_api(traditional_title, lang)
 
         # 3. 如果最终找到了Q-Code，则更新缓存
         if qcode:
@@ -191,7 +192,7 @@ class WikipediaClient:
             # 获取或创建该Q-Code的标题列表
             titles_in_cache = self.qcode_cache.get(qcode, [])
             
-            # 将本次查询涉及的简体和繁体标题都加入缓存，并去重
+            # 将本次查询涉及的标题都加入缓存，并去重
             titles_to_add = [article_title]
             if traditional_title and traditional_title != article_title:
                 titles_to_add.append(traditional_title)
@@ -212,26 +213,27 @@ class WikipediaClient:
         # 4. 如果两种尝试都失败了，则返回None
         return None
 
-    def _build_raw_url(self, article_title: str) -> str:
+    def _build_raw_url(self, article_title: str, lang: str = 'zh') -> str:
         """构建稳定、统一的原始Wikitext获取URL。"""
+        host = f"{lang}.wikipedia.org"
         raw_url_parts = (
-            'https', 'zh.wikipedia.org', '/w/index.php', '',
+            'https', host, '/w/index.php', '',
             f'title={quote(article_title)}&action=raw', ''
         )
         return urlunparse(raw_url_parts)
 
     @wiki_sync_limiter.limit # 应用维基同步装饰器
-    def get_simplified_wikitext(self, article_title: str) -> tuple[str | None, str | None]:
+    def get_wikitext(self, article_title: str, lang: str = 'zh') -> tuple[str | None, str | None]:
         """
-        获取给定维基百科文章标题的简体中文Wikitext。在返回前检查简繁重定向。如果页面是简繁重定向，则使用目标标题重新获取内容。
+        获取给定维基百科文章标题的Wikitext。如果语言是中文，则会进行简繁重定向检查和最终内容的简体转换。
 
         Returns:
-            一个元组 (simplified_wikitext, final_article_title)，若失败则返回 (None, None)。
+            一个元组 (wikitext, final_article_title)，若失败则返回 (None, None)。
         """
         
         current_title_to_fetch = article_title
-        raw_url = self._build_raw_url(current_title_to_fetch)
-        logger.info(f"正在获取 '{current_title_to_fetch}' 的Wikitext源码: {raw_url}")
+        raw_url = self._build_raw_url(current_title_to_fetch, lang)
+        logger.info(f"正在获取 ({lang}) '{current_title_to_fetch}' 的Wikitext源码: {raw_url}")
 
         try:
             response = self.session.get(raw_url, timeout=20)
@@ -239,50 +241,54 @@ class WikipediaClient:
             
             content = response.text
             
-            # 检查是否为重定向页面
-            normalized_content = content.strip().lower()
-            if normalized_content.startswith(("#redirect", "#重定向")):
-                match = re.search(r'\[\[(.*?)\]\]', content)
-                if match:
-                    redirect_target = match.group(1).strip().split('#')[0]
-                    
-                    # 将原始标题和目标标题都转换为简体，并进行比较
-                    simplified_target = self.t2s_converter.convert(redirect_target)
-                    simplified_original = self.t2s_converter.convert(article_title)
-
-                    norm_simplified_target = simplified_target.replace('_', ' ').lower()
-                    norm_simplified_original = simplified_original.replace('_', ' ').lower()
-                    
-                    if norm_simplified_target == norm_simplified_original:
-                        logger.info(f"页面 '{article_title}' 是一个简繁重定向，目标为 '{redirect_target}'。将使用目标页面获取内容。")
+            # 仅当语言为中文时，才进行重定向检查和简繁转换
+            if lang == 'zh':
+                normalized_content = content.strip().lower()
+                if normalized_content.startswith(("#redirect", "#重定向")):
+                    match = re.search(r'\[\[(.*?)\]\]', content)
+                    if match:
+                        redirect_target = match.group(1).strip().split('#')[0]
                         
-                        # 使用目标标题重新获取Wikitext
-                        current_title_to_fetch = redirect_target
-                        new_raw_url = self._build_raw_url(current_title_to_fetch)
-                        logger.info(f"重新获取 '{current_title_to_fetch}' 的Wikitext源码: {new_raw_url}")
-                        
-                        response = self.session.get(new_raw_url, timeout=20)
-                        response.raise_for_status()
-                        content = response.text
+                        simplified_target = self.t2s_converter.convert(redirect_target)
+                        simplified_original = self.t2s_converter.convert(article_title)
 
-            # 转换并返回
-            simplified_wikitext = self.t2s_converter.convert(content)
-            logger.info(f"Wikitext已成功获取并转换（标题: '{current_title_to_fetch}'）。")
-            return simplified_wikitext, current_title_to_fetch
+                        norm_simplified_target = simplified_target.replace('_', ' ').lower()
+                        norm_simplified_original = simplified_original.replace('_', ' ').lower()
+                        
+                        if norm_simplified_target == norm_simplified_original:
+                            logger.info(f"页面 '{article_title}' 是一个简繁重定向，目标为 '{redirect_target}'。将使用目标页面获取内容。")
+                            
+                            current_title_to_fetch = redirect_target
+                            new_raw_url = self._build_raw_url(current_title_to_fetch, lang)
+                            logger.info(f"重新获取 '{current_title_to_fetch}' 的Wikitext源码: {new_raw_url}")
+                            
+                            response = self.session.get(new_raw_url, timeout=20)
+                            response.raise_for_status()
+                            content = response.text
+
+                # 对最终内容进行简体转换
+                final_wikitext = self.t2s_converter.convert(content)
+                logger.info(f"Wikitext已成功获取并转换为简体（标题: '{current_title_to_fetch}'）。")
+                return final_wikitext, current_title_to_fetch
+            else:
+                # 对于非中文，直接返回原文
+                logger.info(f"Wikitext已成功获取（标题: '{current_title_to_fetch}'）。")
+                return content, current_title_to_fetch
 
         except requests.exceptions.RequestException as e:
             logger.error(f"获取Wikitext失败 (标题: '{current_title_to_fetch}') - {e}")
             return None, None
 
     @wiki_sync_limiter.limit # 应用维基同步装饰器
-    def get_latest_revision_time(self, article_title: str) -> datetime | None:
+    def get_latest_revision_time(self, article_title: str, lang: str = 'zh') -> datetime | None:
         """通过API获取页面的最新修订时间（UTC）。"""
+        api_url = WIKI_API_URL_TPL.format(lang=lang)
         params = {
             "action": "query", "prop": "revisions", "titles": article_title,
             "rvlimit": "1", "rvprop": "timestamp", "format": "json", "formatversion": "2"
         }
         try:
-            response = self.session.get(WIKI_API_URL, params=params, timeout=15)
+            response = self.session.get(api_url, params=params, timeout=15)
             response.raise_for_status()
             data = response.json()
             page = data["query"]["pages"][0]
@@ -290,23 +296,26 @@ class WikipediaClient:
                 timestamp_str = page["revisions"][0]["timestamp"]
                 return datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
         except (requests.exceptions.RequestException, json.JSONDecodeError, KeyError, IndexError) as e:
-            logger.warning(f"获取 '{article_title}' 的维基修订历史失败 - {e}")
+            logger.warning(f"获取 '{article_title}' ({lang}) 的维基修订历史失败 - {e}")
         return None
 
-    def check_link_status(self, node_id: str) -> tuple[str, str | None]:
+    def check_link_status(self, node_id: str, lang: str = 'zh') -> tuple[str, str | None]:
         """
         检查节点名称的状态，内置缓存和多源回退逻辑。
         """
         # 步骤1：检查缓存
+        # 注意：链接状态缓存是语言无关的，因为它最终指向的是一个唯一的实体。
+        # 但为了避免混淆，我们可以将语言作为key的一部分，或确认当前逻辑适用。
+        # 当前，非维基回退是中文特化，所以缓存key不加lang是可接受的。
         if node_id in self.link_cache:
             cached = self.link_cache[node_id]
             return cached['status'], cached.get('detail')
 
-        # 步骤2：检查维基百科
-        status, detail = self._check_wiki_status_api(node_id) # 使用一个辅助方法来执行API调用
+        # 步骤2：检查维基百科 (传入lang)
+        status, detail = self._check_wiki_status_api(node_id, lang=lang)
 
-        # 步骤3：如果维基页面不存在或出错，检查备用来源
-        if status in ["NO_PAGE", "ERROR"]:
+        # 步骤3：如果维基页面不存在或出错 (且是中文查询时)，检查备用来源
+        if status in ["NO_PAGE", "ERROR"] and lang == 'zh':
             if self.check_generic_url(BAIDU_BASE_URL, node_id):
                 status = "BAIDU"
             elif self.check_generic_url(CDSPACE_BASE_URL, node_id):
@@ -324,11 +333,11 @@ class WikipediaClient:
         return status, detail
 
     @wiki_sync_limiter.limit # 应用维基同步装饰器
-    def _check_wiki_status_api(self, node_id: str) -> tuple[str, str | None]:
+    def _check_wiki_status_api(self, node_id: str, lang: str = 'zh') -> tuple[str, str | None]:
         """执行维基百科API检查。"""
         try:
             encoded_id = quote(node_id.replace(" ", "_"))
-            url = f"https://zh.wikipedia.org/w/index.php?title={encoded_id}&action=raw"
+            url = f"https://{lang}.wikipedia.org/w/index.php?title={encoded_id}&action=raw"
             response = self.session.get(url, timeout=15)
 
             if response.status_code == 404:
@@ -343,13 +352,19 @@ class WikipediaClient:
                 match = re.search(r'\[\[(.*?)\]\]', content)
                 if match:
                     redirect_target = match.group(1).strip().split('#')[0]
-                    simplified_target = self.t2s_converter.convert(redirect_target)
-                    norm_simplified_target = simplified_target.replace('_', ' ').lower()
-                    norm_node_id = node_id.replace('_', ' ').lower()
                     
-                    if norm_simplified_target == norm_node_id:
-                        return "SIMP_TRAD_REDIRECT", redirect_target
+                    # 仅在中文环境下检查简繁重定向
+                    if lang == 'zh':
+                        simplified_target = self.t2s_converter.convert(redirect_target)
+                        norm_simplified_target = simplified_target.replace('_', ' ').lower()
+                        norm_node_id = node_id.replace('_', ' ').lower()
+                        
+                        if norm_simplified_target == norm_node_id:
+                            return "SIMP_TRAD_REDIRECT", redirect_target
+                        else:
+                            return "REDIRECT", redirect_target
                     else:
+                        # 其他语言，统一视为普通重定向
                         return "REDIRECT", redirect_target
                 else:
                     return "ERROR", "Malformed redirect"

@@ -1,7 +1,9 @@
 // docs/modules/graphView.js
+
 import * as PIXI from 'https://cdn.jsdelivr.net/npm/pixi.js@8.13.2/dist/pixi.mjs';
 import CONFIG from './config.js';
 import { rgbToHex, easeInOutQuad, debounce } from './utils.js';
+import { t, getCurrentLanguage } from './i18n.js';
 
 // 用于控制异步渲染，每一帧最多处理（创建或销毁）多少个图形对象
 const ASYNC_CONFIG = {
@@ -119,7 +121,8 @@ export class GraphView {
         if (this.isInitialRender) {
             this._renderSync(graphData);
             this.isInitialRender = false; // 完成后关闭标志
-        } else {
+        }
+        else {
             // 后续所有更新都走异步流程
             this._renderAsync(graphData);
         }
@@ -208,7 +211,8 @@ export class GraphView {
             const task = this.removalQueue.shift();
             if (task.type === 'node') {
                 this._removeNodeObject(task.id, true);
-            } else {
+            }
+            else {
                 this._removeLinkObject(task.id, true);
             }
         }
@@ -220,7 +224,8 @@ export class GraphView {
             // 确保底层对象已创建
             if (task.type.startsWith('link')) {
                 this._createOrUpdateLinkObject(task.data);
-            } else if (task.type.startsWith('node')) {
+            }
+            else if (task.type.startsWith('node')) {
                 this._createOrUpdateNodeObject(task.data);
             }
 
@@ -238,12 +243,61 @@ export class GraphView {
 
         if (this.creationQueue.length > 0 || this.removalQueue.length > 0) {
             requestAnimationFrame(() => this._processQueues());
-        } else {
+        }
+        else {
             this.isProcessingQueues = false;
         }
     }
 
     _getLinkId(link) { return `${link.source.id}-${link.target.id}-${link.type}`; }
+
+    // 辅助函数，用于安全地获取多语言文本
+    _getLocalizedText(dataObject, field) {
+        if (!dataObject) return t('tooltip_na');
+
+        // 根据字段确定要访问的数据源 ('name' 或 'properties[field]')
+        const sourceObject = (field === 'name') ? dataObject.name : dataObject.properties?.[field];
+
+        // 如果源对象不存在或不是一个对象，则直接返回最终回退值
+        if (!sourceObject || typeof sourceObject !== 'object') {
+            return (field === 'name') ? dataObject.id : t('tooltip_na');
+        }
+
+        const currentLang = getCurrentLanguage();
+
+        // 1. 定义一个有优先级的语言搜索顺序
+        // 使用 Set 自动处理重复项 (例如当 currentLang 就是 'zh-cn' 或 'en' 时)
+        const prioritizedLangs = [...new Set([currentLang, 'zh-cn', 'en'])];
+
+        // 2. 按优先级顺序搜索
+        for (const lang of prioritizedLangs) {
+            const value = sourceObject[lang];
+            // 检查内容是否有效且非空
+            if (field === 'name' && Array.isArray(value) && value.length > 0 && value[0]) {
+                return value[0]; // 返回主要名称
+            }
+            if (field !== 'name' && typeof value === 'string' && value.trim() !== '') {
+                return value;
+            }
+        }
+
+        // 3. 如果按优先级找不到，则遍历对象中所有可用的语言
+        for (const lang in sourceObject) {
+            // 确保检查的是对象自身的属性
+            if (Object.prototype.hasOwnProperty.call(sourceObject, lang)) {
+                const value = sourceObject[lang];
+                if (field === 'name' && Array.isArray(value) && value.length > 0 && value[0]) {
+                    return value[0];
+                }
+                if (field !== 'name' && typeof value === 'string' && value.trim() !== '') {
+                    return value;
+                }
+            }
+        }
+
+        // 4. 如果没有任何可用翻译，返回最终回退值
+        return (field === 'name') ? dataObject.id : t('tooltip_na');
+    }
     
     // 主创建函数，只负责创建不可见对象
     _createOrUpdateNodeObject(node) {
@@ -276,7 +330,7 @@ export class GraphView {
         // const RESOLUTION_FACTOR = window.devicePixelRatio || 3;
         
         const label = new PIXI.Text({
-            text: node?.name?.['zh-cn']?.[0] || node.id,
+            text: this._getLocalizedText(node, 'name'),
             style: { 
                 fontFamily: 'STXingkai', fontSize: 48,
                 fill: 0xffffff, stroke: { color: 0x000000, width: 2, join: 'round' },
@@ -336,7 +390,8 @@ export class GraphView {
                 gfx.alpha = 0;
                 setTimeout(destroy, 0); // 最终销毁
             }, 0);
-        } else {
+        }
+        else {
             this.nodeLayer.removeChild(gfx);
             this.nodeLabelLayer.removeChild(label);
             gfx.destroy();
@@ -421,7 +476,8 @@ export class GraphView {
                 gfx.alpha = 0;
                 setTimeout(destroy, 0); // 最终销毁
             }, 0);
-        } else {
+        }
+        else {
             this.linkLayer.removeChild(gfx);
             this.linkLabelLayer.removeChild(label);
             gfx.destroy();
@@ -495,6 +551,9 @@ export class GraphView {
         this.nodeObjects.forEach(obj => {
             obj.gfx.position.set(obj.data.x, obj.data.y);
             obj.label.position.set(obj.data.x, obj.data.y);
+
+            // 每次 tick 都更新标签文本以响应语言变化
+            obj.label.text = this._getLocalizedText(obj.data, 'name');
         });
 
         this.linkObjects.forEach(obj => {
@@ -510,7 +569,7 @@ export class GraphView {
                 const dx = d.target.x - d.source.x;
                 const dy = d.target.y - d.source.y;
                 const side = (d.groupIndex % 2 === 0) ? 1 : -1;
-                const rank = Math.ceil(d.groupIndex / 2);
+                const rank = Math.ceil((d.groupIndex + 1) / 2);
                 let curvature = rank * 0.15 * side;
                 if (d.source.id > d.target.id) curvature *= -1;
                 const controlX = midX - curvature * dy;
@@ -546,9 +605,10 @@ export class GraphView {
             const endY = target.y - (dy / dist) * endOffset;
             gfx.moveTo(source.x, source.y).lineTo(endX, endY);
             this._drawArrowhead(gfx, endX, endY, Math.atan2(dy, dx), data.type);
-        } else {
+        }
+        else {
             const side = (data.groupIndex % 2 === 0) ? 1 : -1;
-            const rank = Math.ceil(data.groupIndex / 2);
+            const rank = Math.ceil((data.groupIndex + 1) / 2);
             let curvature = rank * 0.15 * side;
             if (source.id > target.id) curvature *= -1;
             
@@ -634,7 +694,8 @@ export class GraphView {
 
                 if (!hasMoved) {
                     this.callbacks.onNodeClick(event, nodeData);
-                } else {
+                }
+                else {
                     this.simulation.alphaTarget(0);
                 }
                 this.interactionState.target = null;
@@ -834,7 +895,8 @@ export class GraphView {
                         if (target.labelTint !== undefined && label) label.tint = target.labelTint;
                     }, DURATION / 3);
                 }, DURATION / 2);
-            } else {
+            }
+            else {
                 gfx.alpha = (gfx.alpha + target.alpha) / 2;
                 label.alpha = (label.alpha + target.alpha) / 2;
                 obj.animationTimeout = setTimeout(() => {
@@ -875,7 +937,8 @@ export class GraphView {
                     tint: highlightColor, // 动态计算关系线颜色
                     eventMode: 'static'
                 };
-            } else {
+            }
+            else {
                 return this.styleStates.LINK_FADED;
             }
         }
@@ -1082,14 +1145,17 @@ export class GraphView {
         if (this.interactionState.isDown && this.interactionState.target !== data) {
             return;
         }
-        const displayName = data?.name?.['zh-cn']?.[0] || data.id;
+
+        const displayName = this._getLocalizedText(data, 'name');
+        const description = this._getLocalizedText(data, 'description');
+        
         this.tooltip.style.opacity = "1";
         this.tooltip.innerHTML = 
-            `<strong>名称:</strong> ${displayName}<br>` +
-            `<strong>ID:</strong> ${data.id}<br>` +
-            `<strong>Type:</strong> ${data.type}<br>` +
-            `<strong>度 (Degree):</strong> ${data.degree || 0}<br>` +
-            `<strong>Desc:</strong> ${data.properties?.description || 'N/A'}`;
+            `<strong>${t('tooltip_name')}</strong> ${displayName}<br>` +
+            `<strong>${t('tooltip_id')}</strong> ${data.id}<br>` +
+            `<strong>${t('tooltip_type')}</strong> ${data.type}<br>` +
+            `<strong>${t('tooltip_degree')}</strong> ${data.degree || 0}<br>` +
+            `<strong>${t('tooltip_desc')}</strong> ${description}`;
         this._handleMousemove(event);
     }
 
@@ -1097,12 +1163,15 @@ export class GraphView {
         if (this.interactionState.isDown && this.interactionState.target !== data) {
             return;
         }
-        const sourceName = data.source?.name?.['zh-cn']?.[0] || data.source.id;
-        const targetName = data.target?.name?.['zh-cn']?.[0] || data.target.id;
+        // 使用辅助函数获取源和目标节点的名称
+        const sourceName = this._getLocalizedText(data.source, 'name');
+        const targetName = this._getLocalizedText(data.target, 'name');
+        const description = this._getLocalizedText(data, 'description');
+        
         this.tooltip.style.opacity = "1";
         this.tooltip.innerHTML = 
             `${sourceName} ${data.type} ${targetName}<br>` +
-            `<strong>Desc:</strong> ${data.properties?.description || 'N/A'}`;
+            `<strong>${t('tooltip_desc')}</strong> ${description}`;
         this._handleMousemove(event);
     }
 

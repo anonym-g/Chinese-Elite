@@ -1,14 +1,31 @@
 // docs/main.js
+
 import { stateManager } from './modules/state.js';
 import { DataProcessor } from './modules/dataProcessor.js';
 import { GraphView } from './modules/graphView.js';
 import { UIController } from './modules/uiController.js';
+import { loadTranslations, t } from './modules/i18n.js';
 
 const nodeFixTimers = new Map();
 
 document.addEventListener('DOMContentLoaded', async () => {
+
+    // --- 语言初始化 ---
+    // 1. 从 localStorage 获取已保存的语言偏好
+    const savedLang = localStorage.getItem('userLanguage');
+    // 2. 如果没有，则根据浏览器语言决定默认语言
+    const initialLang = savedLang || (navigator.language.toLowerCase().startsWith('zh') ? 'zh-cn' : 'en');
     
-    stateManager.initialize();
+    // 3. 加载初始语言包
+    await loadTranslations(initialLang);
+    
+    // 4. 将初始语言设置到全局状态中
+    stateManager.initialize(initialLang);
+
+    let lastLang = initialLang; // 用于检测语言变化
+
+    const dataProcessor = new DataProcessor(() => mainUpdate(stateManager.getState()));
+
 
     // 集中处理销毁计划的更新逻辑
     const updateDestructionSchedules = (currentState, neighbors) => {
@@ -34,7 +51,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     };
 
-    const mainUpdate = (currentState) => {
+    const mainUpdate = async (currentState) => {
+        // --- 监听并处理语言变化 ---
+        if (currentState.language !== lastLang) {
+            await loadTranslations(currentState.language);
+            uiController._applyTranslations(); // 更新静态UI文本
+            lastLang = currentState.language;
+            // 语言变化后，图谱的重新渲染会自然发生，因为下面的代码会执行
+        }
+
         const { visibleNodes, validRels, neighbors } = dataProcessor.getVisibleData(currentState);
 
         graphView.render({ visibleNodes, validRels });
@@ -42,8 +67,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         updateDestructionSchedules(currentState, neighbors);
     };
-
-    const dataProcessor = new DataProcessor(() => mainUpdate(stateManager.getState()));
 
     const graphView = new GraphView('#graph-container', {
         onNodeClick: async (event, d) => {
@@ -177,14 +200,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             // 查找节点并检查其是否与当前过滤器兼容
             const nodeData = await dataProcessor.findAndLoadNodeData(query);
             if (!nodeData) {
-                uiController.showErrorToast(`节点 "${query}" 不存在。`);
+                uiController.showErrorToast(t('error_node_not_exist', { query }));
                 return;
             }
 
             const isCompatible = dataProcessor.isNodeCompatibleWithFilters(nodeData, stateManager.getState());
             if (!isCompatible) {
                 const displayName = nodeData.name?.['zh-cn']?.[0] || nodeData.id;
-                uiController.showErrorToast(`节点 "${displayName}" (${nodeData.id}) 存在，但当前未被显示。请检查图例或时间范围。`);
+                uiController.showErrorToast(t('error_node_hidden', { displayName, id: nodeData.id }));
                 return;
             }
 
@@ -222,21 +245,21 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // 3. 检查源节点，并根据findNode返回的isVisible标志给出精确错误提示
             if (!sourceResult.node) {
-                uiController.showErrorToast(`源节点 "${sourceQuery}" 未加载。请先通过“节点搜索”加载它。`);
+                uiController.showErrorToast(t('error_path_source_not_loaded', { query: sourceQuery }));
                 return;
             }
             if (!sourceResult.isVisible) {
-                uiController.showErrorToast(`源节点 "${sourceQuery}" 已加载，但被当前时间或图例过滤器隐藏。`);
+                uiController.showErrorToast(t('error_path_source_hidden', { query: sourceQuery }));
                 return;
             }
 
             // 4. 检查目标节点
             if (!targetResult.node) {
-                uiController.showErrorToast(`目标节点 "${targetQuery}" 未加载。请先通过“节点搜索”加载它。`);
+                uiController.showErrorToast(t('error_path_target_not_loaded', { query: targetQuery }));
                 return;
             }
             if (!targetResult.isVisible) {
-                uiController.showErrorToast(`目标节点 "${targetQuery}" 已加载，但被当前时间或图例过滤器隐藏。`);
+                uiController.showErrorToast(t('error_path_target_hidden', { query: targetQuery }));
                 return;
             }
 
@@ -264,7 +287,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             else {
                 // 如果 paths 不存在或为空数组，则显示错误提示
-                uiController.showErrorToast(`在当前的时间范围和过滤器下，未找到 "${sourceQuery}" 和 "${targetQuery}" 之间的路径。`);
+                uiController.showErrorToast(t('error_path_not_found', { source: sourceQuery, target: targetQuery }));
             }
         }
     });

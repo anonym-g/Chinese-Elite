@@ -1,4 +1,5 @@
 // docs/modules/dataProcessor.js
+
 import CONFIG from './config.js';
 import { parseDate, expandVagueDate } from './utils.js';
 
@@ -255,10 +256,17 @@ export class DataProcessor {
 
     findNode(name, visibleNodes) {
         // 查找'zh-cn'下的所有项，以支持别名搜索
-        const isMatch = n => 
-            n.id === name || 
-            (n.name?.['zh-cn']?.includes(name)) ||
-            (n.aliases && n.aliases.includes(name));
+        const isMatch = n => {
+            if (n.id === name) return true;
+            if (n.name && typeof n.name === 'object') {
+                for (const lang in n.name) {
+                    if (Array.isArray(n.name[lang]) && n.name[lang].includes(name)) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        };
 
         let node = visibleNodes.find(isMatch);
         if (node) return { node, isVisible: true };
@@ -268,10 +276,17 @@ export class DataProcessor {
     }
 
     async findAndLoadNodeData(name) {
-        const isMatch = n =>
-            n.id === name ||
-            (n.name?.['zh-cn']?.includes(name)) ||
-            (n.aliases && n.aliases.includes(name));
+        const isMatch = n => {
+            if (n.id === name) return true;
+            if (n.name && typeof n.name === 'object') {
+                for (const lang in n.name) {
+                    if (Array.isArray(n.name[lang]) && n.name[lang].includes(name)) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        };
 
         // 1. 优先在已加载的数据中进行搜索
         let node = this.currentGraphData.nodes.find(isMatch);

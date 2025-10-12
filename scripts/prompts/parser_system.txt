@@ -6,20 +6,20 @@
 {
   "nodes": [
     {
-      "id": "string", // 实体的唯一标识符，必须是维基百科页面的规范标题。例如，对于 '[[中华人民共和国中央人民政府 (1949年—1954年)|中央人民政府]]'，id应为 '中华人民共和国中央人民政府 (1949年—1954年)'。严格使用标准半角括号 () ，破折号参考实际情况。
+      "id": "string", // 实体的唯一标识符，必须是维基百科页面的规范标题。例如，对于 '[[中华人民共和国中央人民政府 (1949年—1954年)|中央人民政府]]'，id应为 '中华人民共和国中央人民政府 (1949年—1954年)'。严格使用标准半角括号 () ，破折号参考实际情况。如果Wikitext是英文，则用规范的英文标题。
       "type": "string", // 实体类型，必须从以下列表中选择: ['Person', 'Organization', 'Movement', 'Event', 'Location', 'Document']
       "name": {
         "zh-cn": ["string", ...], // 中文名称列表。列表的首个元素应为上方的id。所有已知的别名都应包含在此数组中。
-        "en": [] // 英文名称列表，若无则为空数组。不允许省去。
+        "en": ["string", ...] // 英文名称列表。列表的首个元素应为上方的id（如果Wikitext是英文）。
       },
       "properties": {
         "period": "string | [string, ...]", // 实体的主要活跃时期。格式为 'YYYY-MM-DD - YYYY-MM-DD' | 'YYYY-MM-DD - ' | ' - YYYY-MM-DD'。注意示例格式中的空格。若有多个不连续时期，则使用数组。
         "lifetime": "string", // 仅用于 'Person' 类型。生卒日期，格式为 'YYYY-MM-DD - YYYY-MM-DD' | 'YYYY-MM-DD - '。注意示例格式中的空格。尽可能精确。
-        "location": "string", // 实体的主要地理位置。
-        "birth_place": "string", // 仅用于 'Person' 类型，出生地。
-        "death_place": "string", // 仅用于 'Person' 类型，逝世地。
-        "gender": "string", // 仅用于 'Person' 类型。
-        "description": "string" // 对实体的简短补充描述，如'中国政治人物'、'中共第十九届中央委员会委员'等。
+        "gender": "string", // 仅用于 'Person' 类型。必须为 'Male' 或 'Female'。
+        "location": { "zh-cn": "string", "en": "string" }, // 实体的主要地理位置。
+        "birth_place": { "zh-cn": "string", "en": "string" }, // 仅用于 'Person' 类型，出生地。
+        "death_place": { "zh-cn": "string", "en": "string" }, // 仅用于 'Person' 类型，逝世地。
+        "description": { "zh-cn": "string", "en": "string" } // 对实体的简短补充描述，如'中国政治人物'。若某语言无内容，则值为空字符串""。
       }
     }
   ],
@@ -31,9 +31,9 @@
       "properties": {
         "start_date": "string | [string, ...]", // 关系开始时间。格式为 'YYYY-MM-DD'。涉及多个时间段时，使用数组。
         "end_date": "string | [string, ...]", // 关系结束时间。格式同 "start_date"。
-        "position": "string", // 仅用于 'MEMBER_OF', 'SUBORDINATE_OF' 关系，描述所任职务。
-        "degree": "string", // 仅用于 'ALUMNUS_OF' 关系，描述获得的学位。
-        "description": "string" // 对关系的简短补充描述，如'作为习近平的浙江省委秘书长'。
+        "position": { "zh-cn": "string", "en": "string" }, // 仅用于 'MEMBER_OF', 'SUBORDINATE_OF' 关系，描述所任职务。
+        "degree": { "zh-cn": "string", "en": "string" }, // 仅用于 'ALUMNUS_OF' 关系，描述获得的学位。
+        "description": { "zh-cn": "string", "en": "string" } // 对关系的简短补充描述。若某语言无内容，则值为空字符串""。
       }
     }
   ]
@@ -42,12 +42,12 @@
 核心提取规则如下。JSON格式样例中，可能有违反这些规则的，自行识别为反面案例。
 
 1.  【ID与名称规范】:
-    *   `id` 字段是实体的唯一标识符，必须使用Markdown链接的目标页面标题。例如，在 `[[中华人民共和国|中国]]` 中，`id` 必须是 `"中华人民共和国"`。
-    *   `name.zh-cn` 字段是一个名称列表。它应该包含实体所有已知的中文名称，包括 `id` 本身 (首项) 和Markdown链接中显示的文本。
-    *   列表的第一个元素应该是 id 本身。
-    *   示例: 对于 `[[中华人民共和国中央人民政府 (1949年—1954年)|中央人民政府]]`，正确的节点结构是：
+    * `id` 字段是实体的唯一标识符，必须使用Markdown链接的目标页面标题。例如，在 `[[中华人民共和国|中国]]` 中，`id` 必须是 `"中华人民共和国"`。
+    * `name.zh-cn` 字段是一个名称列表。它应该包含实体所有已知的中文名称，包括 `id` 本身 (首项) 和Markdown链接中显示的文本。
+    * 列表的第一个元素应该是 id 本身。
+    * 示例: 对于 `[[中华人民共和国中央人民政府 (1949年—1954年)|中央人民政府]]`，正确的节点结构是：
         `"id": "中华人民共和国中央人民政府 (1949年—1954年)"`
-        `"name": { "zh-cn": ["中华人民共和国中央人民政府 (1949年—1954年)", "中央人民政府", ], "en": [] }`
+        `"name": { "zh-cn": ["中华人民共和国中央人民政府 (1949年—1954年)", "中央人民政府"], "en": ["Central People's Government of the People's Republic of China (1949–1954)"] }`
 
 2.  【关系类型与节点类型约束】: 关系的方向为源-关系->目标 (source->target)。必须严格遵守以下类型约束：
     *   Person -`BORN_IN`-> Location (必须是唯一的、最精确的出生地，如市或县)
@@ -58,8 +58,8 @@
     *   Person -`SIBLING_OF`- Person
     *   Person -`LOVER_OF`- Person
     *   Person -`RELATIVE_OF`- Person (用于除直系亲属、配偶、情人外的其他亲戚)
-    *   Person/Organization -`FRIEND_OF`- Person/Organization (私人友谊或密切合作)
-    *   Person/Organization -`ENEMY_OF`- Person/Organization (敌对或对立关系)
+    *   Person/Organization -`FRIEND_OF`- Person/Organization (交好，私人友谊或密切合作)
+    *   Person/Organization -`ENEMY_OF`- Person/Organization (交恶)
     *   Person/Organization -`SUBORDINATE_OF`-> Person/Organization (source级别低于target)
     *   Person -`MET_WITH`- Person (正式或非正式会面)
     *   Person/Organization -`FOUNDED`-> Organization
@@ -87,7 +87,9 @@
       "type": "INFLUENCED",
       "properties": {
         "start_date": "1956-02",
-        "description": "赫鲁晓夫的秘密报告使毛泽东开始关注“防修反修”并恐惧自己死后被否定。"
+        "description": {
+          "zh-cn": "赫鲁晓夫的秘密报告使毛泽东开始关注“防修反修”并恐惧自己死后被否定。"
+        }
       }
     },
     {
@@ -96,7 +98,9 @@
       "type": "PUSHED",
       "properties": {
         "start_date": "1966-05-16",
-        "description": "该通知的通过标志着文化大革命的全面发动。"
+        "description": {
+          "zh-cn": "该通知的通过标志着文化大革命的全面发动。"
+        }
       }
     },
     {
@@ -104,7 +108,9 @@
       "target": "习近平",
       "type": "BLOCKED",
       "properties": {
-        "description": "因文化大革命对家庭带来的冲击而被迫中止学业，并作为知识青年上山下乡。"
+        "description": {
+          "zh-cn": "因文化大革命对家庭带来的冲击而被迫中止学业，并作为知识青年上山下乡。"
+        }
       }
     },
 
@@ -116,7 +122,9 @@
       "type": "INFLUENCED", // 错误！关系方向反了
       "properties": {
         "start_date": "1956-02",
-        "description": "赫鲁晓夫的秘密报告使毛泽东开始关注“防修反修”并恐惧自己死后被否定。"
+        "description": {
+          "zh-cn": "赫鲁晓夫的秘密报告使毛泽东开始关注“防修反修”并恐惧自己死后被否定。"
+        }
       }
     },
     {
@@ -125,7 +133,9 @@
       "type": "INFLUENCED", // 错误！PUSHED更准确
       "properties": {
         "start_date": "1966-05-16",
-        "description": "该通知的通过标志着文化大革命的全面发动。"
+        "description": {
+          "zh-cn": "该通知的通过标志着文化大革命的全面发动。"
+        }
       }
     },
     {
@@ -133,7 +143,9 @@
       "target": "习近平",
       "type": "INFLUENCED", // 错误！BLOCKED更精确
       "properties": {
-        "description": "因文化大革命对家庭带来的冲击而被迫中止学业，并作为知识青年上山下乡。"
+        "description": {
+          "zh-cn": "因文化大革命对家庭带来的冲击而被迫中止学业，并作为知识青年上山下乡。"
+        }
       }
     },
     {
@@ -141,6 +153,8 @@
       "target": "文化大革命",
       "type": "INFLUENCED", // 错误！关系方向反了
       "properties": {
-        "description": "因文化大革命对家庭带来的冲击而被迫中止学业，并作为知识青年上山下乡。"
+        "description": {
+          "zh-cn": "因文化大革命对家庭带来的冲击而被迫中止学业，并作为知识青年上山下乡。"
+        }
       }
     },
