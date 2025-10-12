@@ -62,7 +62,7 @@ jobs:
             git add -A
 
             # 创建一个更通用的 commit message
-            git commit -m "自动化更新 (Automated Update): 同步数据文件" -m "同步本次运行生成或修改的所有数据文件，包括：consolidated_graph.json, new data, processed_files.log, cache, data_to_be_cleaned, etc."
+            git commit -m "自动化更新 (Automated Update): 同步数据文件" -m "同步本次运行生成或修改的所有数据文件，包括：master_graph_qcode.json, new data, processed_files.log, cache, data_to_be_cleaned, etc."
             
             git push
           else

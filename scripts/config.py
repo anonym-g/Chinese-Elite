@@ -55,8 +55,8 @@ FEW_SHOT_NODE_SAMPLES = 12
 FEW_SHOT_REL_SAMPLES = 24
 
 # --- API 与外部服务配置 ---
-WIKI_BASE_URL = "https://zh.wikipedia.org/zh-cn/"
-WIKI_API_URL = "https://zh.wikipedia.org/w/api.php"
+WIKI_BASE_URL_TPL = "https://{lang}.wikipedia.org/wiki/"
+WIKI_API_URL_TPL = "https://{lang}.wikipedia.org/w/api.php"
 PAGEVIEWS_API_BASE = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"
 BAIDU_BASE_URL = "https://baike.baidu.com/item/"
 CDSPACE_BASE_URL = "https://chinadigitaltimes.net/space/"

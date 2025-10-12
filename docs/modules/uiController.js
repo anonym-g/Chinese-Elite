@@ -1,11 +1,13 @@
 // docs/modules/uiController.js
+
 import { debounce, getAdjacentInput } from './utils.js';
 import { stateManager, getDateFromGroup, updateDateGroup } from './state.js';
+import { t, loadTranslations } from './i18n.js';
 
 /**
- * UIController 类负责管理所有的DOM元素和用户交互事件。
- * 它监听用户操作，然后调用回调函数来通知其他模块执行相应的逻辑。
- */
+ * UIController 类负责管理所有的DOM元素和用户交互事件。
+ * 它监听用户操作，然后调用回调函数来通知其他模块执行相应的逻辑。
+ */
 export class UIController {
     constructor(callbacks) {
         // 回调函数，用于通知 main.js 执行搜索等业务逻辑
@@ -21,6 +23,9 @@ export class UIController {
         this.legendWrapper = document.querySelector('.legend-wrapper');
         this.errorToast = document.getElementById('error-toast');
         this.errorToastMessage = document.getElementById('error-toast-message');
+
+        this.languageToggleButton = document.getElementById('language-toggle-btn');
+        this.languageOptions = document.getElementById('language-options');
         
         // 内部UI状态
         this.uiState = {
@@ -34,6 +39,20 @@ export class UIController {
      * 绑定所有UI事件监听器。
      */
     initialize() {
+        this._applyTranslations();
+
+        this.languageToggleButton.addEventListener('click', () => this._toggleLanguageOptions());
+        this.languageOptions.querySelectorAll('li').forEach(li => {
+            li.addEventListener('click', (e) => this._handleLanguageSelect(e));
+        });
+
+        // 点击页面其他地方，关闭语言选项卡
+        document.addEventListener('click', (e) => {
+            if (!this.languageToggleButton.contains(e.target) && !this.languageOptions.contains(e.target)) {
+                this.languageOptions.classList.add('collapsed');
+            }
+        });
+
         // --- 日期控制器事件 ---
         document.querySelectorAll('.date-part').forEach(input => {
             input.addEventListener('keydown', (e) => this._handleDatePartKeydown(e));
@@ -90,6 +109,49 @@ export class UIController {
             this._updateSearchPanelPosition();
         });
         this.legendObserver.observe(this.legendWrapper);
+    }
+
+    _toggleLanguageOptions() {
+        this.languageOptions.classList.toggle('collapsed');
+    }
+
+    _handleLanguageSelect(event) {
+        const selectedLang = event.target.dataset.lang;
+        if (selectedLang) {
+            // 保存用户选择到 localStorage 以实现持久化
+            localStorage.setItem('userLanguage', selectedLang);
+            this._handleLanguageChange(selectedLang);
+        }
+        this.languageOptions.classList.add('collapsed');
+    }
+
+    async _handleLanguageChange(lang) {
+        stateManager.setLanguage(lang);
+    }
+
+    _applyTranslations() {
+        document.querySelector('h1').textContent = t('appTitle');
+        document.querySelector('#search-mode-options li[data-mode="node"]').textContent = t('search_node');
+        document.querySelector('#search-mode-options li[data-mode="path"]').textContent = t('search_path');
+        
+        const currentMode = this.uiState.searchMode === 'node' ? t('search_node') : t('search_path');
+        this.searchModeCurrent.querySelector('span').textContent = currentMode;
+
+        document.getElementById('node-search-input').placeholder = t('search_node_placeholder');
+        document.getElementById('node-search-submit').textContent = t('search_button');
+        document.getElementById('path-source-input').placeholder = t('search_path_source_placeholder');
+        document.getElementById('path-target-input').placeholder = t('search_path_target_placeholder');
+        document.getElementById('path-limit-input').title = t('path_limit_title');
+        document.getElementById('path-search-submit').textContent = t('search_button');
+        
+        document.querySelector('label[for="start-date-group"]').textContent = t('start_date');
+        document.querySelector('label[for="end-date-group"]').textContent = t('end_date');
+        document.getElementById('toggle-interval-btn').textContent = t('set_interval');
+        document.getElementById('clear-interval-btn').textContent = t('clear_limit');
+        document.getElementById('interval-year').placeholder = t('interval_year_placeholder');
+        document.getElementById('interval-month').placeholder = t('interval_month_placeholder');
+        document.getElementById('interval-day').placeholder = t('interval_day_placeholder');
+        document.getElementById('set-interval-btn').textContent = t('set_button');
     }
     
     // 使用防抖来处理连续的日期输入

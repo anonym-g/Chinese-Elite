@@ -44,7 +44,10 @@ def get_last_local_process_time(item_name: str, category: str) -> datetime | Non
     return latest_time
 
 def parse_list_file(file_path: str) -> dict[str, list]:
-    """解析 LIST.md 文件，返回一个按类别组织的字典，不包含 'new' 类别。"""
+    """
+    解析 LIST.md 文件，返回一个按类别组织的字典。
+    支持格式如 '(en) Barack Obama' 来指定语言。
+    """
     if not os.path.exists(file_path):
         logger.error(f"错误：列表文件不存在于 '{file_path}'")
         return {}
@@ -52,6 +55,8 @@ def parse_list_file(file_path: str) -> dict[str, list]:
     logger.info(f"正在读取列表文件: {file_path}")
     categorized_items = {}
     current_category = None
+    lang_pattern = re.compile(r'\((?P<lang>[a-z]{2})\)\s*')
+
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
@@ -73,13 +78,22 @@ def parse_list_file(file_path: str) -> dict[str, list]:
 
             # 添加实体到当前类别
             if current_category:
-                categorized_items[current_category].append(line)
+                lang = 'zh' # 默认为中文
+                item_name = line
+                match = lang_pattern.match(line)
+                if match:
+                    lang = match.group('lang')
+                    item_name = line[match.end():].strip()
+                
+                # 存储为元组 (item_name, lang)
+                categorized_items[current_category].append((item_name, lang))
     
     return categorized_items
 
-def process_item(item_name: str, category: str, wiki_client: WikipediaClient, parser: GeminiParser):
+def process_item(item_tuple: tuple, category: str, wiki_client: WikipediaClient, parser: GeminiParser):
     """对单个条目执行完整的处理流程。"""
-    logger.info(f"--- 开始处理 '{item_name}' (类别: {category}) ---")
+    item_name, lang = item_tuple
+    logger.info(f"--- 开始处理 '{item_name}' (类别: {category}, 语言: {lang}) ---")
 
     last_local_time = get_last_local_process_time(item_name, category)
 
@@ -96,7 +110,7 @@ def process_item(item_name: str, category: str, wiki_client: WikipediaClient, pa
             return
 
         # 只有在冷静期过后，才进行网络请求检查Wiki更新时间
-        latest_wiki_time = wiki_client.get_latest_revision_time(item_name)
+        latest_wiki_time = wiki_client.get_latest_revision_time(item_name, lang=lang)
 
         # 如果Wiki页面没有更新，跳过
         if latest_wiki_time and latest_wiki_time <= last_local_time:
@@ -120,7 +134,7 @@ def process_item(item_name: str, category: str, wiki_client: WikipediaClient, pa
         elif age_in_days > PROB_END_DAY:
             logger.info(f"'{item_name}' 在 {age_in_days} 天前处理过 (超过 {PROB_END_DAY} 天)，且Wiki有更新，将重新提取。")
 
-    wikitext, _ = wiki_client.get_simplified_wikitext(item_name)
+    wikitext, _ = wiki_client.get_wikitext(item_name, lang=lang)
     
     if not wikitext:
         logger.warning(f"失败：未能获取 '{item_name}' 的Wikitext，跳过。")
@@ -173,10 +187,10 @@ def main():
     
     processed_count = 0
     for category, items in items_to_process.items():
-        for item in items:
+        for item_tuple in items:
             processed_count += 1
             logger.info(f"[{processed_count}/{total_items}] ====================================")
-            process_item(item, category, wiki_client, parser)
+            process_item(item_tuple, category, wiki_client, parser)
     
     logger.info("所有条目处理完毕。")
 

@@ -107,8 +107,18 @@ class GraphCleaner:
                 if qcode in nodes_map and nodes_map[qcode] is not node:
                     logger.info(f"    -> [合并] Q-Code {qcode} 已存在，正在合并属性...")
                     existing_node = nodes_map[qcode]
-                    for key, val in node.get('properties', {}).items():
-                        existing_node.setdefault('properties', {})[key] = val
+                    
+                    temp_props = node.get('properties', {})
+                    if temp_props:
+                        existing_props = existing_node.setdefault('properties', {})
+                        for key, val in temp_props.items():
+                            # 如果现有属性和新属性都是字典 (即我们的多语言对象), 则更新字典
+                            if key in existing_props and isinstance(existing_props[key], dict) and isinstance(val, dict):
+                                existing_props[key].update(val)
+                            # 否则，直接赋值 (适用于新键或非字典值)
+                            else:
+                                existing_props[key] = val
+                                
                 else:
                     node['id'] = qcode
                     nodes_map[qcode] = node
@@ -131,9 +141,38 @@ class GraphCleaner:
         """使用LLM清理节点对之间的冗余关系。"""
         logger.info("\n--- 步骤 3/3: 清理冗余的关系 ---")
         
-        # 步骤 1: 创建一个从节点Q-Code ID到可读名称的映射
-        id_to_name_map = {node['id']: node.get('name', {}).get('zh-cn', [node['id']])[0] for node in nodes}
-        
+        # 步骤 1: 创建一个从节点ID到可读名称的映射
+        id_to_name_map = {}
+        # 定义语言偏好顺序
+        lang_preference = ['zh-cn', 'en'] 
+
+        for node in nodes:
+            node_id = node.get('id')
+            if not node_id: continue
+            
+            representative_name = node_id # 默认使用ID作为最终后备
+            node_names = node.get('name', {})
+            
+            # 按照偏好顺序查找最佳名称
+            found_name = False
+            for lang in lang_preference:
+                # 检查该语言的名称列表是否存在且不为空
+                if node_names.get(lang) and node_names[lang] and node_names[lang][0]:
+                    representative_name = node_names[lang][0]
+                    found_name = True
+                    break
+            
+            # 如果在偏好语言中都没有找到，则使用第一个可用的语言名称作为后备
+            if not found_name and node_names:
+                # 遍历所有可用的语言
+                for lang_key, name_list in node_names.items():
+                    if name_list and name_list[0]:
+                        representative_name = name_list[0]
+                        break
+            
+            # 将最终选出的代表性名称存入映射
+            id_to_name_map[node_id] = representative_name
+            
         rels_by_pair = {}
         for rel in relationships:
             source, target = rel.get('source'), rel.get('target')

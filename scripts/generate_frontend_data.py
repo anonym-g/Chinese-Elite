@@ -6,6 +6,7 @@ import json
 import shutil
 from collections import defaultdict
 import logging
+import re
 
 from config import (
     LIST_FILE_PATH, MASTER_GRAPH_PATH, CACHE_DIR,
@@ -45,10 +46,12 @@ def generate_name_to_id_map(master_graph):
         if not node_id:
             continue
         
-        all_names = node.get('name', {}).get('zh-cn', [])
-        for name in all_names:
-            if name and name not in name_map:
-                name_map[name] = node_id
+        # 遍历 name 对象中的所有语言 ('zh-cn', 'en', etc.)
+        for lang, names in node.get('name', {}).items():
+            if isinstance(names, list):
+                for name in names:
+                    if name and name not in name_map:
+                        name_map[name] = node_id
             
     try:
         with open(NAME_TO_ID_PATH, 'w', encoding='utf-8') as f:
@@ -72,6 +75,7 @@ def select_important_nodes(master_graph):
 
     # 2. 从 LIST.md 读取有效候选实体
     valid_candidates = set()
+    lang_pattern = re.compile(r'\((?P<lang>[a-z]{2})\)\s*')
     try:
         with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
             current_category = None
@@ -93,17 +97,24 @@ def select_important_nodes(master_graph):
 
                 # 添加实体到当前类别
                 if current_category:
-                    valid_candidates.add(line)
+                    # 去除语言标签，只保留实体名称
+                    match = lang_pattern.match(line)
+                    item_name = line[match.end():].strip() if match else line
+                    valid_candidates.add(item_name)
                     
     except FileNotFoundError:
         logger.warning("LIST.md 文件未找到。无法确定候选节点池。")
 
-    # 3. 创建 名称 -> ID 的反向映射以便查找
+    # 3. 创建一个多语言的 名称 -> ID 的反向映射
     name_to_id_map = {}
     for node in master_graph.get('nodes', []):
-        for name in node.get('name', {}).get('zh-cn', []):
-            if name not in name_to_id_map:
-                name_to_id_map[name] = node['id']
+        node_id = node.get('id')
+        if not node_id: continue
+        for lang, names in node.get('name', {}).items():
+            if isinstance(names, list):
+                for name in names:
+                    if name not in name_to_id_map:
+                        name_to_id_map[name] = node_id
 
     # 4. 结合热度数据对有效候选实体进行排序
     ranked_candidates = []

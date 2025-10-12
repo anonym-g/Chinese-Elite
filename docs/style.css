@@ -14,25 +14,34 @@ body {
 /* 布局: 标题, 时间控制器, 图例 */
 
 .header {
+    padding: 6px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 0.8em;
+    position: relative;
+
     background-color: #1c1c1c;
     border-bottom: 1px solid #343a40;
-    display: flex;
-    align-items: center;
+
     gap: 15px;
     flex-shrink: 0;
-    position: relative;
-    z-index: 1010; /* Header should be on top */
+    z-index: 1010;
 }
 .header h1 {
-    flex-grow: 1;
-    text-align: center;
-    margin: 0 60px;
+    margin: 0;
+    padding: 0 10px; /* 给标题左右留一点呼吸空间 */
     font-size: 1.5em;
+    text-align: center;
+    /* 为防止标题过长时与两侧图标重叠，可以添加最大宽度 */
+    max-width: calc(100% - 180px); /* 视口宽度减去两侧图标和间距的大致宽度 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .controls {
+    position: relative; 
     text-align: center;
     padding: 0.5em;
     background-color: #1c1c1c;
@@ -43,7 +52,7 @@ body {
     gap: 15px;
     flex-shrink: 0;
     position: relative;
-    z-index: 1000;
+    z-index: 1001;
 }
 
 #legend-container {
@@ -169,16 +178,25 @@ body {
     transform: translateY(-1px);
 }
 
+/* --- 左侧控件容器 --- */
+#left-controls-container {
+    z-index: 1020;
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    gap: 8px; /* 搜索和语言按钮之间的间距 */
+}
+
 /* --- 搜索组件样式 --- */
 #search-trigger-container {
     position: absolute;
+    left: 15px; /* 定位在标题栏左侧 */
     top: 50%;
-    left: 20px;
     transform: translateY(-50%);
-    z-index: 1020;
+    
     display: flex;
     align-items: center;
 }
+
 #search-toggle-btn {
     width: 40px;
     height: 40px;
@@ -206,23 +224,27 @@ body {
 }
 
 #search-mode-selector {
-    position: relative;
-    margin-left: 8px;
-    transition: all 0.3s ease;
+    position: absolute;
+    left: calc(100% + 8px); /* 定位在搜索图标的右侧，并留出 8px 间距 */
+    top: 50%; /* 垂直居中 */
+    transform: translateY(-50%); /* 精确垂直居中 */
+    
+    /* 隐藏时的初始状态 */
     opacity: 0;
-    transform: translateX(-10px);
-    width: 0;
     visibility: hidden;
+    width: auto; /* 宽度由内容决定 */
+    margin-left: 0; /* 覆盖旧的 margin */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* 平滑过渡动画 */
 }
 #search-trigger-container.active #search-mode-selector {
     opacity: 1;
     transform: translateX(0);
-    width: auto;
     visibility: visible;
 }
 #search-mode-current {
     display: flex;
     align-items: center;
+    white-space: nowrap; /* 防止文本换行 */
     background-color: #343a40;
     padding: 8px 12px;
     border-radius: 4px;
@@ -251,6 +273,7 @@ body {
     width: 100%;
     transition: all 0.2s;
     transform-origin: top;
+    z-index: 1022; /* 确保在搜索面板之上 */
 }
 #search-mode-options.collapsed {
     transform: scaleY(0);
@@ -262,6 +285,77 @@ body {
     cursor: pointer;
 }
 #search-mode-options li:hover {
+    background-color: #495057;
+}
+
+/* --- 语言选择器样式 --- */
+#language-selector-container {
+    position: absolute;
+    left: 15px; /* 与标题栏的搜索按钮左侧对齐 (因为.header有15px的padding-left) */
+    /* top 和 transform 用于垂直居中，但由于父元素是 flex 且 align-items: center，通常这一步可以省略 */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#language-toggle-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #495057;
+    background-color: #2a2a2a;
+    color: #f8f9fa;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    transition: background-color 0.2s;
+}
+#language-toggle-btn:hover {
+    background-color: #383838;
+}
+#language-toggle-btn svg.globe-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+#language-options {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 8px;
+
+    transform-origin: top left;
+
+    background-color: #2a2a2a;
+    border: 1px solid #6c757d;
+
+    border-radius: 4px;
+    list-style: none;
+    padding: 5px 0;
+
+    margin-top: 0;
+
+    width: max-content;
+    min-width: 120px;
+
+    transition: all 0.2s;
+    z-index: 1021;
+}
+
+#language-options.collapsed {
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+}
+
+#language-options li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#language-options li:hover {
     background-color: #495057;
 }
 
@@ -410,7 +504,7 @@ svg:active {
 
 /* 关系文字的黯淡效果 */
 /* 这条规则的意思是：当父元素 <g class="link-label-unit faded"> 存在时，
-   让它内部的 <text class="link-label"> 元素透明度变为0.1 */
+   让它内部的 <text class="link-label"> 元素透明度变为0.1 */
 .link-label-unit.faded .link-label {
     opacity: 0.1 !important;
 }
@@ -731,17 +825,17 @@ svg:active {
         width: 24px;
         height: 24px;
     }
-    #search-trigger-container {
+    #left-controls-container {
         left: 8px;
     }
 
     /* 1. 缩小“节点/路径”选择器 */
-    #search-mode-current {
+    #search-mode-current, #language-current {
         padding: 6px 10px; /* 减小内边距 */
         font-size: 0.9em;  /* 减小字体 */
     }
 
-    #search-mode-current .chevron-down {
+    #search-mode-current .chevron-down, #language-current .chevron-down {
         width: 16px; /* 减小下拉箭头图标 */
         height: 16px;
     }

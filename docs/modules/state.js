@@ -1,4 +1,5 @@
 // docs/modules/state.js
+
 import { addInterval, subtractInterval } from './utils.js';
 
 // _state 存储应用的当前状态。它是私有的，只能通过 updateState 函数修改。
@@ -20,8 +21,9 @@ function updateState(newState) {
  * stateManager 导出公共接口，用于管理应用状态。
  */
 export const stateManager = {
-    initialize: () => {
+    initialize: (initialLang = 'zh-cn') => {
         _state = {
+            language: initialLang,
             startDate: getDateFromGroup('start'),
             endDate: getDateFromGroup('end'),
             hiddenTypes: new Set(),
@@ -45,6 +47,16 @@ export const stateManager = {
         subscribers.add(callback);
         // 返回一个清理函数，允许组件在销毁时取消订阅
         return () => subscribers.delete(callback);
+    },
+
+    /**
+     * 设置当前语言。
+     * @param {string} lang 语言代码 ('zh-cn' or 'en')
+     */
+    setLanguage: (lang) => {
+        if (_state.language !== lang) {
+            updateState({ language: lang });
+        }
     },
 
     /**

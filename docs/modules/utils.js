@@ -43,7 +43,8 @@ export function expandVagueDate(originalStr, parsedDate) {
         endOfYear.setFullYear(endOfYear.getFullYear() + 1);
         endOfYear.setDate(endOfYear.getDate() - 1);
         return endOfYear;
-    } else if (/^\d{4}-\d{1,2}$/.test(trimmedStr)) { // 如果是年月
+    }
+    else if (/^\d{4}-\d{1,2}$/.test(trimmedStr)) { // 如果是年月
         const endOfMonth = new Date(parsedDate);
         endOfMonth.setMonth(endOfMonth.getMonth() + 1);
         endOfMonth.setDate(endOfMonth.getDate() - 1);
