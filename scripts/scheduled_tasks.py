@@ -30,8 +30,8 @@ load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 # --- 常量定义 ---
 PAGEVIEWS_CACHE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
 TOP_N = 7 # 输出前7条
-BEIJING_TZ = pytz.timezone('Asia/Shanghai')
-WEB_BASE_URL = "https://anonym-g.github.io/Chinese-Elite"
+WEBSITE_URL = "https://anonym-g.github.io/Chinese-Elite"
+REPO_URL = "https://github.com/anonym-g/Chinese-Elite"
 
 def setup_arg_parser():
     """设置命令行参数解析器。"""
@@ -176,19 +176,87 @@ def calculate_scores(items: list, pageviews_cache: dict, qcode_to_name: dict) ->
         scored_items.append(item)
     return scored_items
 
-def escape_markdown_v2(text: str) -> str:
-    """转义 Telegram MarkdownV2 消息格式的特殊字符。"""
-    if not text: return ""
+def escape_markdown_v2(text: str | None) -> str:
+    """安全地转义 Telegram MarkdownV2 消息格式的特殊字符。"""
+    if not text: 
+        return ""
     escape_chars = r'_*[]()~`>#+-=|{}.!'
     return ''.join(f'\\{char}' if char in escape_chars else char for char in text)
 
-def format_message(top_items: list, qcode_to_name: dict, pageviews_cache: dict, today: date) -> str:
+def _format_bilingual_string(zh_text: str | None, en_text: str | None, separator: str = " / ") -> str:
+    """将中英文文本格式化为 '中文 / 英文' 或单一语言。"""
+    zh_esc = escape_markdown_v2(zh_text)
+    en_esc = escape_markdown_v2(en_text)
+    if zh_esc and en_esc and zh_esc != en_esc:
+        return f"{zh_esc}{separator}{en_esc}"
+    return zh_esc or en_esc or ""
+
+def _get_node_details(node: dict) -> dict:
+    """从节点数据中提取并格式化名称、别名和描述。"""
+    name_obj = node.get('name', {})
+    
+    # 安全地获取中文和英文主名称
+    zh_name_list = name_obj.get('zh-cn', [])
+    en_name_list = name_obj.get('en', [])
+    zh_name = zh_name_list[0] if zh_name_list else None
+    en_name = en_name_list[0] if en_name_list else None
+    
+    # 格式化主名称
+    primary_name = _format_bilingual_string(zh_name, en_name)
+
+    # 提取别名 (切片操作对空列表是安全的)
+    zh_aliases = zh_name_list[1:]
+    en_aliases = en_name_list[1:]
+    aliases = [escape_markdown_v2(alias) for alias in (zh_aliases + en_aliases) if alias][:3]
+    aliases_str = ", ".join(aliases) if aliases else ""
+
+    # 提取描述
+    props = node.get('properties', {})
+    desc_obj = props.get('description') # 先直接获取值
+
+    # 确保 desc_obj 是一个字典
+    zh_desc = None
+    en_desc = None
+    if isinstance(desc_obj, dict):
+        zh_desc = desc_obj.get('zh-cn')
+        en_desc = desc_obj.get('en')
+
+    return {
+        "primary_name": primary_name,
+        "aliases_str": aliases_str,
+        "zh_desc": zh_desc,
+        "en_desc": en_desc,
+    }
+
+def _format_rel_participant(node: dict) -> str:
+    """为关系中的参与节点格式化名称，格式为 '中文 (英文)'。"""
+    name_obj = node.get('name', {})
+    
+    # 安全地获取中文和英文主名称
+    zh_name_list = name_obj.get('zh-cn', [])
+    en_name_list = name_obj.get('en', [])
+    zh_name = zh_name_list[0] if zh_name_list else None
+    en_name = en_name_list[0] if en_name_list else None
+    
+    if zh_name:
+        zh_name_esc = escape_markdown_v2(zh_name)
+        if en_name and en_name != zh_name:
+            return f"{zh_name_esc} \\({escape_markdown_v2(en_name)}\\)"
+        return zh_name_esc
+    
+    # 如果没有中文名，则直接返回英文名或ID
+    return escape_markdown_v2(en_name) or escape_markdown_v2(node.get('id'))
+
+def format_message(top_items: list, qcode_to_name: dict, pageviews_cache: dict, graph_data: dict, today: date) -> str:
     """将排序后的条目格式化为 Telegram 消息。"""
     if not top_items:
         return ""
+    
+    # 构建一个快速查找节点完整数据的映射
+    node_map = {node['id']: node for node in graph_data.get('nodes', [])}
         
     today_str = escape_markdown_v2(today.strftime('%Y年%m月%d日'))
-    header = f"*历史上的今天 \\({today_str}\\)*\n\n"
+    header = f"*历史上的今天 \\({today_str}\\)*\n"
     
     lines = [header]
     for item in top_items:
@@ -196,41 +264,53 @@ def format_message(top_items: list, qcode_to_name: dict, pageviews_cache: dict, 
         data = item['data']
         date_label = escape_markdown_v2(item['date_label'])
         
-        # 构建主信息行
-        line = f"*【{years}周年】* "
-        desc_text = ""
+        line_parts = [f"\n*【{years}周年】* "]
         search_name = ""
 
         if item['type'] == 'node':
-            name = escape_markdown_v2(qcode_to_name.get(data['id'], data['id']))
-            desc_text = data.get('properties', {}).get('description', {}).get('zh-cn', '')
+            details = _get_node_details(data)
             search_name = qcode_to_name.get(data['id'], "")
-            line += f"*{name}* \\({date_label}\\)"
-        
-        elif item['type'] == 'relationship':
-            source_name = escape_markdown_v2(qcode_to_name.get(data['source'], ""))
-            target_name = escape_markdown_v2(qcode_to_name.get(data['target'], ""))
-            rel_type = escape_markdown_v2(data['type'])
-            desc_text = data.get('properties', {}).get('description', {}).get('zh-cn', '')
-            line += f"{source_name} *{rel_type}* {target_name} \\({date_label}\\)"
+            
+            line_parts.append(f"*{details['primary_name']}* \\({date_label}\\)")
+            if details['aliases_str']:
+                line_parts.append(f"\n> *别名*: {details['aliases_str']}")
+            # 在 zh_desc 存在且不为空时打印
+            if details['zh_desc']:
+                line_parts.append(f"\n> *简介*: {escape_markdown_v2(details['zh_desc'])}")
+            if details['en_desc']:
+                line_parts.append(f"\n> *Desc*: {escape_markdown_v2(details['en_desc'])}")
 
-            # 智能选择热度更高的实体作为引流链接的目标
-            s_name_raw = qcode_to_name.get(data['source'], "")
-            t_name_raw = qcode_to_name.get(data['target'], "")
-            s1 = pageviews_cache.get(s_name_raw, {}).get('avg_daily_views', 0)
-            s2 = pageviews_cache.get(t_name_raw, {}).get('avg_daily_views', 0)
-            search_name = s_name_raw if s1 >= s2 else t_name_raw
-        
-        # 构建描述行
-        if desc_text:
-            desc_label = "简介" if item['type'] == 'node' else "说明"
-            line += f"\n> *{desc_label}*: {escape_markdown_v2(desc_text)}"
-        
-        lines.append(line)
+        elif item['type'] == 'relationship':
+            source_node = node_map.get(data['source'])
+            target_node = node_map.get(data['target'])
+            
+            if not source_node or not target_node: continue
+
+            source_formatted = _format_rel_participant(source_node)
+            target_formatted = _format_rel_participant(target_node)
+            rel_type = escape_markdown_v2(data['type'])
+            
+            line_parts.append(f"{source_formatted} *{rel_type}* {target_formatted} \\({date_label}\\)")
+            
+            props = data.get('properties', {})
+            desc_obj = props.get('description') # 先直接获取值
+            
+            # 确保 desc_obj 是一个字典
+            if isinstance(desc_obj, dict):
+                zh_desc = desc_obj.get('zh-cn')
+                en_desc = desc_obj.get('en')
+                # 只有在描述确实存在且不为空时才打印
+                if zh_desc:
+                    line_parts.append(f"\n> *说明*: {escape_markdown_v2(zh_desc)}")
+                if en_desc:
+                    line_parts.append(f"\n> *Desc*: {escape_markdown_v2(en_desc)}")
+
+        lines.append("".join(line_parts))
         
     footer = (
-        f"\n\n`数据由 @ChineseEliteTelegramBot 自动生成`\n"
-        f"➡️➡️ [项目主页]({WEB_BASE_URL}/)"
+        f"\n\n`数据由 @ChineseElite_Bot 自动生成`\n"
+        f"➡️ [项目主页]({WEBSITE_URL})\n"
+        f"▪️ [代码仓库]({REPO_URL})"
     )
     lines.append(footer)
     return "\n".join(lines)
@@ -263,6 +343,7 @@ async def main():
             logger.critical(f"错误: 日期格式无效。请使用 YYYY-MM-DD 格式。")
             return
     else:
+        BEIJING_TZ = pytz.timezone('Asia/Shanghai')
         # 1. 获取当前UTC时间
         utc_now = datetime.now(pytz.utc)
         # 2. 将其转换为北京时间
@@ -282,7 +363,7 @@ async def main():
     sorted_items = sorted(scored_items, key=lambda x: x['score'], reverse=True)
     top_items = sorted_items[:TOP_N]
     
-    message = format_message(top_items, qcode_to_name, pageviews_cache, today)
+    message = format_message(top_items, qcode_to_name, pageviews_cache, graph_data, today)
     
     if message:
         try:
