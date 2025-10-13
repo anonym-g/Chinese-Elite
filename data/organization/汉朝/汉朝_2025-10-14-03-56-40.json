@@ -1,0 +1,796 @@
+{
+  "nodes": [
+    {
+      "id": "汉朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉朝",
+          "汉",
+          "两汉",
+          "两京",
+          "强汉",
+          "炎汉",
+          "刘汉",
+          "大汉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": [
+          "-202-02-28 - 9-01-10",
+          "25-08-05 - 220-11-25"
+        ],
+        "location": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "秦朝后出现的中国朝代，分为西汉与东汉两个历史时期。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "西汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西汉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-202 - 9",
+        "location": {
+          "zh-cn": "长安",
+          "en": "Chang'an"
+        },
+        "description": {
+          "zh-cn": "汉朝的第一个历史时期，建都长安。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "东汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东汉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "25 - 220",
+        "location": {
+          "zh-cn": "洛阳",
+          "en": "Luoyang"
+        },
+        "description": {
+          "zh-cn": "汉朝的第二个历史时期，定都洛阳。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "刘邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘邦",
+          "汉高祖",
+          "高祖"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-256 - -195",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉朝开国皇帝，西汉第一位皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "刘秀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘秀",
+          "汉光武帝",
+          "光武帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-5 - 57",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉开国皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "王莽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王莽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-45 - 23",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新朝开国皇帝，篡夺西汉政权。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "新朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新朝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "9 - 23",
+        "description": {
+          "zh-cn": "王莽建立的朝代，介于西汉与东汉之间。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "曹丕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹丕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "187 - 226",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏开国皇帝，接受汉献帝禅让，结束东汉。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "项羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项羽",
+          "西楚霸王"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-232 - -202",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦末民变领袖，后在楚汉战争中败给刘邦。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "楚汉战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "楚汉战争",
+          "楚汉之争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-206 - -202",
+        "description": {
+          "zh-cn": "项羽与刘邦之间为争夺统治权而进行的战争。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "垓下之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "垓下之战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-202 - -202",
+        "description": {
+          "zh-cn": "楚汉战争的决定性战役，刘邦击败项羽。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "匈奴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "匈奴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代北亚游牧民族，汉朝初期的主要外患。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "汉武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉武帝",
+          "刘彻"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-156 - -87",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第七位皇帝，在位期间开创汉武盛世。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "董仲舒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "董仲舒"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-179 - -104",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉儒家学者，提出“罢黜百家，独尊儒术”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "黄巾之乱",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "黄巾之乱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "184 - 205",
+        "description": {
+          "zh-cn": "东汉末年由太平道教主张角引发的大规模民变。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "吕雉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕雉",
+          "吕后",
+          "太后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-241 - -180",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "汉高祖刘邦的皇后，汉惠帝之母，曾临朝称制。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "汉惠帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉惠帝",
+          "刘盈"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-210 - -188",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第二位皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "韩信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩信",
+          "淮阴侯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -196",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉初军事家，汉初三杰之一。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "汉文帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉文帝",
+          "刘恒"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-203 - -157",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第五位皇帝，与其子汉景帝共创“文景之治”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "汉景帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉景帝",
+          "刘启"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-188 - -141",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第六位皇帝，与其父汉文帝共创“文景之治”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "文景之治",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "文景之治"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-180 - -141",
+        "description": {
+          "zh-cn": "西汉汉文帝和汉景帝统治时期出现的治世。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "七国之乱",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "七国之乱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-154 - -154",
+        "description": {
+          "zh-cn": "汉景帝时期，吴王刘濞联合其他六个刘姓宗室诸侯国发动的叛乱。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "晁错",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "晁错"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-200 - -154",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉政治家，建议削藩，引发七国之乱。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "155 - 220",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年权臣，曹魏的奠基者。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "汉献帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉献帝",
+          "刘协"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "181 - 234",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉最后一位皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "秦朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦朝",
+          "秦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-221 - -207",
+        "description": {
+          "zh-cn": "中国历史上第一个大一统封建王朝，在汉朝之前。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张骞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张骞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-164 - -114",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉外交家，两次出使西域，开辟丝绸之路。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "丝绸之路",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "丝绸之路"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "连接古代东西方的商道。",
+          "en": ""
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘邦",
+      "target": "汉朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-202-02-28",
+        "description": {
+          "zh-cn": "于前202年在定陶登基正式称帝，立国号“汉”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "刘秀",
+      "target": "东汉",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "25-08-05",
+        "description": {
+          "zh-cn": "在鄗县之南即皇帝位，仍沿用汉的国号，史称东汉。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "新朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "9",
+        "description": {
+          "zh-cn": "王莽篡汉，建立新朝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "西汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "9",
+        "description": {
+          "zh-cn": "篡夺西汉政权，导致西汉灭亡。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "曹丕",
+      "target": "东汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "220-11-25",
+        "description": {
+          "zh-cn": "曹丕接受汉献帝禅让（代汉），结束了东汉王朝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "项羽",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-206",
+        "end_date": "-202",
+        "description": {
+          "zh-cn": "在长达四年的楚汉战争中为敌对双方。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "垓下之战",
+      "target": "刘邦",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-202",
+        "description": {
+          "zh-cn": "刘邦在垓下之战中击败项羽，为建立汉朝奠定了基础。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "垓下之战",
+      "target": "项羽",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-202",
+        "description": {
+          "zh-cn": "项羽在垓下之战中被刘邦击败，最终败亡。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "汉朝",
+      "target": "匈奴",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "汉朝与匈奴之间发生过长期的战争（汉匈战争）。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "匈奴",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在位期间，积极对付匈奴，发动多次战争，最终击溃匈奴单于。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "董仲舒",
+      "target": "汉武帝",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "向汉武帝提出“罢黜百家，独尊儒术”的建议并被采纳。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "吕雉",
+      "target": "汉惠帝",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉惠帝在位时，大权尽为太后吕雉掌握。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "吕雉",
+      "target": "韩信",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-196",
+        "description": {
+          "zh-cn": "利用计谋于长乐宫钟室将韩信杀死。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "汉惠帝",
+      "target": "刘邦",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "汉惠帝",
+      "target": "吕雉",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "汉文帝",
+      "target": "文景之治",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉文帝与汉景帝共同开创了文景之治。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "汉景帝",
+      "target": "文景之治",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉文帝与汉景帝共同开创了文景之治。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "晁错",
+      "target": "七国之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-154",
+        "description": {
+          "zh-cn": "晁错建议削夺诸藩王的封地，引发了七国之乱。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "汉景帝",
+      "target": "七国之乱",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-154-03",
+        "description": {
+          "zh-cn": "任用周亚夫出兵平叛，在三个月内弭平了叛乱。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "黄巾之乱",
+      "target": "东汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "184",
+        "description": {
+          "zh-cn": "黄巾之乱使东汉朝廷实力大减，动摇了其统治。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "汉献帝",
+      "target": "曹操",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曹操“挟天子以令诸侯”，架空汉室权力，汉献帝成为其控制下的傀儡皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张骞",
+      "target": "丝绸之路",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "两次出使西域，开辟了丝绸之路。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "汉文帝",
+      "target": "刘邦",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "汉景帝",
+      "target": "汉文帝",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "汉武帝",
+      "target": "汉景帝",
+      "type": "CHILD_OF",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,981 @@
+{
+  "nodes": [
+    {
+      "id": "秦始皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦始皇",
+          "嬴政",
+          "赵政",
+          "吕政",
+          "嫪政",
+          "秦王政",
+          "始皇帝",
+          "祖龙",
+          "赵正"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-0259-02-18 - -0210-07-11",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "邯郸",
+          "en": "Handan"
+        },
+        "death_place": {
+          "zh-cn": "沙丘平台遗址",
+          "en": "Shaqiu Terrace"
+        },
+        "period": "-0247-07-06 - -0210-07-11",
+        "description": {
+          "zh-cn": "中国历史上第一位皇帝，统一六国的秦朝开国君主。",
+          "en": "The first emperor of a unified China and the founder of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "秦庄襄王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦庄襄王",
+          "异人",
+          "子楚"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "-0281 - -0247-07-06",
+        "description": {
+          "zh-cn": "秦国国君，秦始皇的父亲。",
+          "en": "King of Qin, father of Qin Shi Huang."
+        }
+      }
+    },
+    {
+      "id": "赵姬",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵姬",
+          "帝太后",
+          "赵姬 (秦庄襄王)"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "lifetime": " - -0229",
+        "description": {
+          "zh-cn": "秦始皇的母亲。",
+          "en": "Mother of Qin Shi Huang."
+        }
+      }
+    },
+    {
+      "id": "吕不韦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕不韦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "-0291 - -0235",
+        "description": {
+          "zh-cn": "秦国相国，对秦始皇亲政前有重要影响，传说可能为秦始皇生父。",
+          "en": "Chancellor of Qin, influential during Qin Shi Huang's early reign, and rumored to be his biological father."
+        }
+      }
+    },
+    {
+      "id": "嫪毐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "嫪毐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": " - -0238",
+        "description": {
+          "zh-cn": "秦始皇之母赵姬的男宠，后发动叛乱被诛。",
+          "en": "Lover of Queen Dowager Zhao, later executed for rebellion."
+        }
+      }
+    },
+    {
+      "id": "扶苏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "扶苏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": " - -0210",
+        "description": {
+          "zh-cn": "秦始皇长子，原定的皇位继承人。",
+          "en": "The eldest son and original heir of Qin Shi Huang."
+        }
+      }
+    },
+    {
+      "id": "秦二世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦二世",
+          "胡亥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "-0230 - -0207",
+        "description": {
+          "zh-cn": "秦始皇幼子，秦朝第二位皇帝。",
+          "en": "The youngest son of Qin Shi Huang and the second emperor of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "成𫊸",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "成𫊸",
+          "长安君"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦始皇的异母弟，后叛秦降赵。",
+          "en": "Half-brother of Qin Shi Huang, who later defected to Zhao."
+        }
+      }
+    },
+    {
+      "id": "李斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李斯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "-0280 - -0208",
+        "description": {
+          "zh-cn": "秦朝丞相，法家代表人物。",
+          "en": "Chancellor of the Qin dynasty and a key Legalist figure."
+        }
+      }
+    },
+    {
+      "id": "赵高",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵高"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": " - -0207",
+        "description": {
+          "zh-cn": "秦朝宦官，中车府令，沙丘之变主谋之一。",
+          "en": "A powerful eunuch of the Qin dynasty and a key conspirator in the Sand Dune Coup."
+        }
+      }
+    },
+    {
+      "id": "王翦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王翦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国将领，秦灭六国战争中的主要将领之一。",
+          "en": "A leading general of the state of Qin during the wars of unification."
+        }
+      }
+    },
+    {
+      "id": "蒙恬",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒙恬"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": " - -0210",
+        "description": {
+          "zh-cn": "秦朝将领，北击匈奴、修筑长城。",
+          "en": "A Qin dynasty general who campaigned against the Xiongnu and oversaw the construction of the Great Wall."
+        }
+      }
+    },
+    {
+      "id": "韩非",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩非"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "-0281 - -0233",
+        "description": {
+          "zh-cn": "战国末期法家思想的集大成者。",
+          "en": "A prominent Legalist philosopher of the late Warring States period."
+        }
+      }
+    },
+    {
+      "id": "昌平君",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "昌平君",
+          "启"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "楚考烈王之子，曾任秦国丞相，后叛秦归楚。",
+          "en": "Son of King Kaolie of Chu, served as Chancellor of Qin before rebelling and returning to Chu."
+        }
+      }
+    },
+    {
+      "id": "荆轲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "荆轲"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": " - -0227",
+        "description": {
+          "zh-cn": "战国末期刺客，受燕太子丹之托刺杀秦王失败。",
+          "en": "An assassin of the late Warring States period, known for his failed attempt to assassinate Qin Shi Huang."
+        }
+      }
+    },
+    {
+      "id": "张良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张良"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "-0250 - -0186",
+        "description": {
+          "zh-cn": "韩国贵族后裔，策划博浪沙行刺秦始皇，后为汉初三杰之一。",
+          "en": "A descendant of Han aristocracy who plotted an assassination attempt on Qin Shi Huang at Bolangsha; later a key strategist for the Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "太子丹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "太子丹"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": " - -0226",
+        "description": {
+          "zh-cn": "燕王喜的太子，派遣荆轲刺杀秦王。",
+          "en": "Crown Prince of Yan who dispatched Jing Ke to assassinate the King of Qin."
+        }
+      }
+    },
+    {
+      "id": "秦国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦国"
+        ],
+        "en": [
+          "State of Qin"
+        ]
+      },
+      "properties": {
+        "period": " - -0221",
+        "description": {
+          "zh-cn": "战国七雄之一，后统一中国建立秦朝。",
+          "en": "One of the seven major states of the Warring States period, which later unified China to establish the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "秦朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦朝"
+        ],
+        "en": [
+          "Qin dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-0221 - -0207",
+        "description": {
+          "zh-cn": "中国历史上第一个大一统的中央集权制王朝。",
+          "en": "The first unified, centralized imperial dynasty in Chinese history."
+        }
+      }
+    },
+    {
+      "id": "韩国 (战国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "韩国 (战国)",
+          "韩国"
+        ],
+        "en": [
+          "State of Han"
+        ]
+      },
+      "properties": {
+        "period": "-0403 - -0230",
+        "description": {
+          "zh-cn": "战国七雄之一，第一个被秦国所灭。",
+          "en": "One of the seven major states of the Warring States period, the first to be conquered by Qin."
+        }
+      }
+    },
+    {
+      "id": "赵国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赵国"
+        ],
+        "en": [
+          "State of Zhao"
+        ]
+      },
+      "properties": {
+        "period": "-0403 - -0228",
+        "description": {
+          "zh-cn": "战国七雄之一。",
+          "en": "One of the seven major states of the Warring States period."
+        }
+      }
+    },
+    {
+      "id": "魏国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "魏国"
+        ],
+        "en": [
+          "State of Wei"
+        ]
+      },
+      "properties": {
+        "period": "-0403 - -0225",
+        "description": {
+          "zh-cn": "战国七雄之一。",
+          "en": "One of the seven major states of the Warring States period."
+        }
+      }
+    },
+    {
+      "id": "楚国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "楚国"
+        ],
+        "en": [
+          "State of Chu"
+        ]
+      },
+      "properties": {
+        "period": " - -0223",
+        "description": {
+          "zh-cn": "战国七雄之一。",
+          "en": "One of the seven major states of the Warring States period."
+        }
+      }
+    },
+    {
+      "id": "燕国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "燕国"
+        ],
+        "en": [
+          "State of Yan"
+        ]
+      },
+      "properties": {
+        "period": " - -0222",
+        "description": {
+          "zh-cn": "战国七雄之一。",
+          "en": "One of the seven major states of the Warring States period."
+        }
+      }
+    },
+    {
+      "id": "齐国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "齐国"
+        ],
+        "en": [
+          "State of Qi"
+        ]
+      },
+      "properties": {
+        "period": " - -0221",
+        "description": {
+          "zh-cn": "战国七雄之一。",
+          "en": "One of the seven major states of the Warring States period."
+        }
+      }
+    },
+    {
+      "id": "匈奴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "匈奴"
+        ],
+        "en": [
+          "Xiongnu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代北亚地区的游牧民族部落联盟。",
+          "en": "A tribal confederation of nomadic peoples who inhabited the eastern Eurasian Steppe."
+        }
+      }
+    },
+    {
+      "id": "百越",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "百越"
+        ],
+        "en": [
+          "Baiyue"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代中国南方和越南北部的各部落的统称。",
+          "en": "A collective term for various tribes inhabiting Southern China and Northern Vietnam in ancient times."
+        }
+      }
+    },
+    {
+      "id": "焚书坑儒",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "焚书坑儒"
+        ],
+        "en": [
+          "Burning of books and burying of scholars"
+        ]
+      },
+      "properties": {
+        "period": "-0213 - -0212",
+        "description": {
+          "zh-cn": "秦始皇为统一思想而采取的极端政治行动。",
+          "en": "An extreme political action taken by Qin Shi Huang to unify thought."
+        }
+      }
+    },
+    {
+      "id": "沙丘之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "沙丘之变"
+        ],
+        "en": [
+          "Sand Dune Coup"
+        ]
+      },
+      "properties": {
+        "period": "-0210",
+        "location": {
+          "zh-cn": "沙丘平台遗址"
+        },
+        "description": {
+          "zh-cn": "秦始皇死后，赵高、李斯等人伪造遗诏，拥立胡亥即位的政治事件。",
+          "en": "A political conspiracy after Qin Shi Huang's death where Zhao Gao and Li Si forged the imperial will to enthrone Huhai."
+        }
+      }
+    },
+    {
+      "id": "长城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "长城"
+        ],
+        "en": [
+          "Great Wall of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "为抵御北方游牧民族而修筑的军事防御工程。",
+          "en": "A series of fortifications built for military defense against northern nomadic peoples."
+        }
+      }
+    },
+    {
+      "id": "秦始皇陵",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "秦始皇陵",
+          "骊山陵"
+        ],
+        "en": [
+          "Mausoleum of the First Qin Emperor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦始皇的陵墓，位于今陕西省西安市临潼区。",
+          "en": "The mausoleum of Qin Shi Huang, located in Lintong District, Xi'an, Shaanxi province."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "秦始皇",
+      "target": "秦庄襄王",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "秦始皇是秦庄襄王之子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "赵姬",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "秦始皇是赵姬之子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "扶苏",
+      "target": "秦始皇",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "扶苏是秦始皇长子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦二世",
+      "target": "秦始皇",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "胡亥（秦二世）是秦始皇幼子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "成𫊸",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "成𫊸是秦始皇的异母弟。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "吕不韦",
+      "target": "秦始皇",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "-0246",
+        "end_date": "-0238",
+        "position": {
+          "zh-cn": "相国、仲父",
+          "en": "Chancellor, Second Father"
+        },
+        "description": {
+          "zh-cn": "在秦王政即位初期担任相国，尊为“仲父”主持国政。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "吕不韦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0237",
+        "end_date": "-0235",
+        "description": {
+          "zh-cn": "因嫪毐之乱牵连，罢免吕不韦的相国职务并将其放逐，最终吕不韦饮鸩自杀。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "嫪毐",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0238",
+        "end_date": "-0238",
+        "description": {
+          "zh-cn": "平定嫪毐发动的政变，将其车裂并夷三族。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "嫪毐",
+      "target": "赵姬",
+      "type": "LOVER_OF",
+      "properties": {
+        "start_date": "around -0239",
+        "end_date": "-0238",
+        "description": {
+          "zh-cn": "作为太后赵姬的男宠，两人私通并生下二子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "李斯",
+      "target": "秦始皇",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "廷尉、丞相",
+          "en": "Minister of Justice, Chancellor"
+        },
+        "description": {
+          "zh-cn": "秦始皇统一六国和建立帝制过程中的关键大臣。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "韩非",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0233",
+        "description": {
+          "zh-cn": "听信李斯谗言，将韩非下狱，导致其被迫自杀。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "秦朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-0221",
+        "description": {
+          "zh-cn": "灭亡六国后，建立秦朝，自称始皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "韩国 (战国)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0230",
+        "description": {
+          "zh-cn": "派内史腾攻灭韩国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "赵国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0228",
+        "description": {
+          "zh-cn": "派王翦攻灭赵国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "魏国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0225",
+        "description": {
+          "zh-cn": "派王贲攻灭魏国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "楚国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0223",
+        "description": {
+          "zh-cn": "派王翦、蒙武攻灭楚国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "燕国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0222",
+        "description": {
+          "zh-cn": "派王贲攻灭燕国残余势力。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "齐国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0221",
+        "description": {
+          "zh-cn": "派王贲、蒙恬攻灭齐国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "荆轲",
+      "target": "秦始皇",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0227",
+        "description": {
+          "zh-cn": "在咸阳宫试图刺杀秦王政，失败被杀。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "太子丹",
+      "target": "荆轲",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0227",
+        "description": {
+          "zh-cn": "为报复秦王政，派遣荆轲前往秦国行刺。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "秦始皇",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0218",
+        "description": {
+          "zh-cn": "为报灭韩之仇，在博浪沙策划行刺秦始皇，失败。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "沙丘之变",
+      "target": "秦二世",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0210",
+        "description": {
+          "zh-cn": "赵高、李斯伪造遗诏，拥立胡亥（秦二世）为帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "沙丘之变",
+      "target": "扶苏",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0210",
+        "description": {
+          "zh-cn": "伪造的遗诏赐死扶苏，使其失去了皇位继承权。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "赵高",
+      "target": "沙丘之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0210",
+        "description": {
+          "zh-cn": "与李斯、胡亥共同策划了沙丘之变。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "李斯",
+      "target": "沙丘之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0210",
+        "description": {
+          "zh-cn": "与赵高、胡亥共同策划了沙丘之变。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "焚书坑儒",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0213",
+        "description": {
+          "zh-cn": "采纳李斯建议，下令焚书，后坑杀术士（儒生）。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "长城",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0214",
+        "description": {
+          "zh-cn": "派遣蒙恬率领三十万人连接并修筑长城，以抵御匈奴。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "秦始皇陵",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0246",
+        "end_date": "-0210",
+        "description": {
+          "zh-cn": "自即位起即开始为其修建陵墓，历时三十余年。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "匈奴",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0215",
+        "description": {
+          "zh-cn": "派蒙恬率军北击匈奴，收复河南地（河套地区）。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "百越",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "around -0227",
+        "end_date": "-0214",
+        "description": {
+          "zh-cn": "派兵南征百越，设立桂林、南海、象郡进行统治。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "昌平君",
+      "target": "秦始皇",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0225",
+        "end_date": "-0223",
+        "description": {
+          "zh-cn": "在秦灭楚之战中叛变，被项燕拥立为楚王对抗秦军，最终兵败身死。",
+          "en": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,804 @@
+{
+  "nodes": [
+    {
+      "id": "唐朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "唐朝",
+          "唐",
+          "大唐",
+          "盛唐",
+          "李唐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": [
+          "618-06-18 - 690-10-16",
+          "705-03-03 - 907-05-12"
+        ],
+        "location": {
+          "zh-cn": "长安",
+          "en": "Chang'an"
+        },
+        "description": {
+          "zh-cn": "中国历史上的一个重要朝代，由李渊建立。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "李渊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李渊",
+          "唐高祖"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "566 - 635",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝的开国皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "隋朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "隋朝",
+          "隋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "581 - 619",
+        "description": {
+          "zh-cn": "唐朝之前的中国朝代。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "杨侑",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨侑",
+          "隋恭帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "隋朝末代皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "隋末民变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "隋末民变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "611 - 624",
+        "description": {
+          "zh-cn": "隋朝末年全国范围的民变和地方割据，最终导致隋朝灭亡。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "武则天",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "武则天",
+          "武曌",
+          "武瞾"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "624 - 705",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国历史上唯一的正统女皇帝，建立了武周政权。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "唐睿宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐睿宗",
+          "李旦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝皇帝，曾两度登基。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "武周",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武周",
+          "周"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "690-10-16 - 705-02-21",
+        "location": {
+          "zh-cn": "洛阳",
+          "en": "Luoyang"
+        },
+        "description": {
+          "zh-cn": "由武则天建立的朝代，中断了唐朝的统治。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "神龙政变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "神龙政变",
+          "神龙革命"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "705-02-21",
+        "description": {
+          "zh-cn": "推翻武周、恢复唐朝的宫廷政变。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "李显",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李显",
+          "唐中宗"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝皇帝，在神龙政变后复辟。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "安史之乱",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "安史之乱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "755-12-16 - 763-02-17",
+        "description": {
+          "zh-cn": "由安禄山和史思明发动的叛乱，是唐朝由盛转衰的转折点。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "唐玄宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐玄宗",
+          "李隆基"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝在位最长的皇帝，前期开创开元盛世，后期因安史之乱而逃亡。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "唐肃宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐肃宗",
+          "李亨"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐玄宗之子，在安史之乱中即位。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "朱温",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱温",
+          "朱全忠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐末藩镇霸主，后篡唐建立后梁。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "唐哀帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐哀帝",
+          "李柷"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝末代皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "后梁",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "后梁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "907 - 923",
+        "description": {
+          "zh-cn": "五代十国时期的第一个朝代，由朱温建立。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "五代十国",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "五代十国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "907 - 979",
+        "description": {
+          "zh-cn": "唐朝灭亡后中国历史上的一个时期。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "李世民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李世民",
+          "唐太宗"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝第二位皇帝，开创贞观之治。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "李建成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李建成"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李渊嫡长子，原为太子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "李元吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李元吉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李渊嫡四子，封为齐王。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "玄武门之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "玄武门之变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "626",
+        "description": {
+          "zh-cn": "李世民为争夺皇位继承权而发动的政变。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "东突厥",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东突厥",
+          "突厥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "唐朝初期的北方强敌。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "唐高宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐高宗",
+          "李治"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝第三位皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "高句丽",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高句丽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "存在于公元前1世纪至7世纪的东北亚古代国家。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "黄巢之乱",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "黄巢之乱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "875 - 884",
+        "description": {
+          "zh-cn": "唐朝末年的一场大规模民变，严重动摇了唐朝的统治基础。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "安禄山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安禄山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝节度使，安史之乱的发动者。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "杨国忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨国忠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐玄宗时期的宰相，杨贵妃的堂兄。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "唐昭宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐昭宗",
+          "李晔"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝倒数第二位皇帝。",
+          "en": ""
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "隋末民变",
+      "target": "隋朝",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "隋末民变导致隋朝的灭亡。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "李渊",
+      "target": "唐朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "618-06-18",
+        "description": {
+          "zh-cn": "李渊在隋末民变后，受隋恭帝杨侑禅位，建立唐朝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "玄武门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "626",
+        "description": {
+          "zh-cn": "为争夺皇位继承权而发动玄武门之变。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "玄武门之变",
+      "target": "李建成",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "626",
+        "description": {
+          "zh-cn": "李建成在玄武门之变中被诛杀。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "玄武门之变",
+      "target": "李元吉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "626",
+        "description": {
+          "zh-cn": "李元吉在玄武门之变中被诛杀。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "玄武门之变",
+      "target": "李世民",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "626",
+        "description": {
+          "zh-cn": "玄武门之变后，李世民被立为太子并最终继位。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "李渊",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "626",
+        "description": {
+          "zh-cn": "玄武门之变后，李渊被迫禅让帝位给李世民。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "东突厥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "629",
+        "end_date": "630",
+        "description": {
+          "zh-cn": "唐太宗时期，唐军于630年攻灭东突厥。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "唐高宗",
+      "target": "高句丽",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "668",
+        "description": {
+          "zh-cn": "唐高宗时期，唐朝联合新罗灭亡高句丽。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "武则天",
+      "target": "武周",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "690-10-16",
+        "description": {
+          "zh-cn": "武则天废唐睿宗自立，改国号为周。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "武周",
+      "target": "唐朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "690-10-16",
+        "end_date": "705-03-03",
+        "description": {
+          "zh-cn": "武周的建立中断了唐朝的统治。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "神龙政变",
+      "target": "武周",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "705-02-21",
+        "description": {
+          "zh-cn": "神龙政变推翻了武周政权。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "神龙政变",
+      "target": "李显",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "705-02-21",
+        "description": {
+          "zh-cn": "神龙政变使唐中宗李显复辟。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "安禄山",
+      "target": "安史之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "755-12-16",
+        "description": {
+          "zh-cn": "安禄山以讨伐杨国忠为名发动叛乱，史称安史之乱。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "安禄山",
+      "target": "杨国忠",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "755",
+        "description": {
+          "zh-cn": "安禄山与杨国忠勾心斗角，最终以讨伐杨国忠为名发动叛乱。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "安史之乱",
+      "target": "唐朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "755-12-16",
+        "description": {
+          "zh-cn": "安史之乱是唐朝由盛转衰的转折点。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "安史之乱",
+      "target": "唐玄宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "756",
+        "description": {
+          "zh-cn": "安史之乱爆发后，唐玄宗被迫逃出长安。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "安史之乱",
+      "target": "唐肃宗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "756",
+        "description": {
+          "zh-cn": "安史之乱中，太子李亨在灵武自行登基，是为唐肃宗。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "黄巢之乱",
+      "target": "唐朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "875",
+        "end_date": "884",
+        "description": {
+          "zh-cn": "黄巢之乱严重破坏江南经济，极大动摇了唐朝的统治基础。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "朱温",
+      "target": "唐昭宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "904",
+        "description": {
+          "zh-cn": "朱温胁迫唐昭宗迁都洛阳，并于同年将其杀害。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "朱温",
+      "target": "唐哀帝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "907-05-12",
+        "description": {
+          "zh-cn": "朱温逼迫唐哀帝禅位，篡夺了政权。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "朱温",
+      "target": "唐朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "907-05-12",
+        "description": {
+          "zh-cn": "朱温篡唐，导致唐朝彻底灭亡。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "朱温",
+      "target": "后梁",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "907",
+        "description": {
+          "zh-cn": "朱温在废黜唐哀帝后，建立后梁，中国进入五代十国时期。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "唐朝",
+      "target": "五代十国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "907-05-12",
+        "description": {
+          "zh-cn": "唐朝的灭亡开启了五代十国时期。",
+          "en": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "nodes": [
+    {
+      "id": "佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "佛教",
+          "佛陀法",
+          "佛法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "c. 6th century BCE - ",
+        "location": {
+          "zh-cn": "古印度",
+          "en": "Ancient India"
+        },
+        "description": {
+          "zh-cn": "起源于古印度，世界三大宗教之一，由悉达多·乔达摩创立。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "悉达多·乔达摩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "悉达多·乔达摩",
+          "乔达摩佛",
+          "释迦牟尼佛",
+          "佛陀"
+        ],
+        "en": [
+          "Gautama Buddha"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0623 - -0543",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "迦毗罗卫",
+          "en": "Kapilavastu"
+        },
+        "death_place": {
+          "zh-cn": "拘尸那揭罗",
+          "en": "Kushinagar"
+        },
+        "description": {
+          "zh-cn": "佛教创始人，古印度迦毗罗卫国王子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "迦毗罗卫",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "迦毗罗卫"
+        ],
+        "en": [
+          "Kapilavastu"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "尼泊尔、印度边界间",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "悉达多·乔达摩的出生地。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "古印度",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "古印度"
+        ],
+        "en": [
+          "Ancient India"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教的发源地。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "种姓制度",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "种姓制度"
+        ],
+        "en": [
+          "Caste system in India"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "古印度",
+          "en": "Ancient India"
+        },
+        "description": {
+          "zh-cn": "古印度的一种血统论社会等级制度。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "沙门",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "沙门",
+          "沙门新思潮"
+        ],
+        "en": [
+          "Śramaṇa"
+        ]
+      },
+      "properties": {
+        "period": "c. 6th-5th century BCE",
+        "location": {
+          "zh-cn": "古印度",
+          "en": "Ancient India"
+        },
+        "description": {
+          "zh-cn": "古印度反对婆罗门教的各种新思潮的总称。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "僧团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "僧团",
+          "僧伽"
+        ],
+        "en": [
+          "Sangha"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教的出家修行团体。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "孔雀王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "孔雀王朝"
+        ],
+        "en": [
+          "Maurya Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古印度王朝，其君主阿育王大力推广佛教。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "根本分裂",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "根本分裂"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教教团的第一次分裂，导致上座部与大众部的形成。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "上座部佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "上座部佛教"
+        ],
+        "en": [
+          "Theravada"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教两大现存分支之一，主要流传于南亚和东南亚。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "大众部",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "大众部"
+        ],
+        "en": [
+          "Mahāsāṃghika"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教根本分裂后形成的主要部派之一，其思想对大乘佛教有深远影响。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "大乘佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "大乘佛教"
+        ],
+        "en": [
+          "Mahayana"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教两大现存分支之一，主要流传于东亚和西藏地区。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "梁武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁武帝"
+        ],
+        "en": [
+          "Emperor Wu of Liang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "南梁王朝的建立者，大力扶持佛教发展，并推动汉传佛教素食传统。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "大般涅槃经 (大乘)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "大般涅槃经 (大乘)"
+        ],
+        "en": [
+          "Mahāyāna Mahāparinirvāṇa Sūtra"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教核心经典之一，影响了梁武帝推行僧侣素食。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "菩提达摩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "菩提达摩"
+        ],
+        "en": [
+          "Bodhidharma"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "印度僧人，被尊为中国禅宗的初祖。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "禅宗",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "禅宗"
+        ],
+        "en": [
+          "Zen"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉传佛教的一个主要宗派，由菩提达摩传入中国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "韩愈",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩愈"
+        ],
+        "en": [
+          "Han Yu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "唐代文学家、官员，因上《谏迎佛骨表》而著名，持反对佛教立场。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "谏迎佛骨表",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "谏迎佛骨表",
+          "论佛骨表"
+        ],
+        "en": [
+          "Memorial on the Bone of the Buddha"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "韩愈为反对唐宪宗迎佛骨入宫而上书的表章。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "慧远",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慧远"
+        ],
+        "en": [
+          "Huiyuan (monk)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东晋时期的高僧，被认为是净土宗的初祖。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "净土宗 (中国)",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "净土宗 (中国)",
+          "净土宗"
+        ],
+        "en": [
+          "Pure Land Buddhism in China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉传佛教八宗之一，以信愿念佛求生西方极乐世界为主要修行法门。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "北魏太武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "拓跋焘"
+        ],
+        "en": [
+          "Emperor Taiwu of Northern Wei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北魏皇帝，曾下令废除全国佛教，史称“太武灭佛”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "周武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宇文邕"
+        ],
+        "en": [
+          "Emperor Wu of Northern Zhou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北周皇帝，曾下令灭佛灭道，史称“武帝灭佛”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "中国",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中国"
+        ],
+        "en": [
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教的主要传播地区之一，形成了汉传佛教和藏传佛教两大分支。",
+          "en": ""
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "悉达多·乔达摩",
+      "target": "佛教",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "c. 6th century BCE",
+        "description": {
+          "zh-cn": "于35岁觉悟后创立佛教。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "悉达多·乔达摩",
+      "target": "迦毗罗卫",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "悉达多·乔达摩",
+      "target": "僧团",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "在成佛后开始招收弟子，建立了僧团。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "古印度",
+      "target": "佛教",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "佛教起源于古印度。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "种姓制度",
+      "target": "沙门",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "种姓制度带来的社会问题引发了沙门新思潮的出现。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "沙门",
+      "target": "佛教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "佛教是沙门新思潮中包含的宗教改革思潮之一。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "孔雀王朝",
+      "target": "佛教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "从孔雀王朝开始，佛教向南北两个方向广泛传播。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "根本分裂",
+      "target": "上座部佛教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "佛教僧团的根本分裂形成了上座部。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "根本分裂",
+      "target": "大众部",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "佛教僧团的根本分裂形成了大众部。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "大众部",
+      "target": "大乘佛教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教是从大众部演变而来。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁武帝",
+      "target": "佛教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "大力扶持佛教事业的发展，并颁布《断酒肉文》，开启了汉传佛教素食的传统。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "大般涅槃经 (大乘)",
+      "target": "梁武帝",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "梁武帝受《大般涅槃经》影响，认为僧侣应遵守不食肉的规定。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "菩提达摩",
+      "target": "禅宗",
+      "type": "FOUNDED",
+      "properties": {
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "description": {
+          "zh-cn": "将禅宗传入中国并被尊为初祖。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "韩愈",
+      "target": "佛教",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "上书《谏迎佛骨表》激烈反对佛教。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "谏迎佛骨表",
+      "target": "佛教",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "该文书旨在谏止皇帝崇佛，对唐代儒释冲突有重要影响。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "慧远",
+      "target": "净土宗 (中国)",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "被认为是净土宗的初祖。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "北魏太武帝",
+      "target": "佛教",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "446 - 452",
+        "description": {
+          "zh-cn": "下诏废除全国佛教，史称“三武一宗”灭佛事件之一。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "周武帝",
+      "target": "佛教",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "下令灭佛灭道，史称“三武一宗”灭佛事件之一。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "佛教",
+      "target": "中国",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1st century CE",
+        "description": {
+          "zh-cn": "佛教于东汉时期传入中国，对中国文化产生了深远影响。",
+          "en": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,883 @@
+{
+  "nodes": [
+    {
+      "id": "李世民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李世民",
+          "唐太宗"
+        ],
+        "en": [
+          "Emperor Taizong of Tang",
+          "Li Shimin"
+        ]
+      },
+      "properties": {
+        "lifetime": "598-01-28 - 649-07-10",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "武功县",
+          "en": "Wugong County"
+        },
+        "death_place": {
+          "zh-cn": "终南山",
+          "en": "Zhongnan Mountains"
+        },
+        "description": {
+          "zh-cn": "唐朝第二位皇帝，开创“贞观之治”，被尊为“天可汗”。",
+          "en": "The second emperor of the Tang dynasty, who initiated the 'Reign of Zhenguan' and was honored as the 'Tian Kehan'."
+        }
+      }
+    },
+    {
+      "id": "李渊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李渊",
+          "唐高祖"
+        ],
+        "en": [
+          "Emperor Gaozu of Tang"
+        ]
+      },
+      "properties": {
+        "lifetime": "566 - 635-06-25",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝开国皇帝，唐太宗李世民之父。",
+          "en": "The founding emperor of the Tang dynasty and the father of Emperor Taizong, Li Shimin."
+        }
+      }
+    },
+    {
+      "id": "太穆皇后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "太穆皇后",
+          "窦氏"
+        ],
+        "en": [
+          "Empress Taimu"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 613",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "唐高祖李渊的皇后，唐太宗李世民之母。",
+          "en": "Empress of Emperor Gaozu of Tang and mother of Emperor Taizong, Li Shimin."
+        }
+      }
+    },
+    {
+      "id": "李建成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李建成",
+          "隐太子"
+        ],
+        "en": [
+          "Li Jiancheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "589 - 626-07-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐高祖李渊长子，原为皇太子，在玄武门之变中被李世民所杀。",
+          "en": "The eldest son of Emperor Gaozu of Tang and the original crown prince, killed by Li Shimin during the Xuanwu Gate Incident."
+        }
+      }
+    },
+    {
+      "id": "李元吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李元吉",
+          "齐王"
+        ],
+        "en": [
+          "Li Yuanji"
+        ]
+      },
+      "properties": {
+        "lifetime": "603 - 626-07-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐高祖李渊四子，与李建成结盟，在玄武门之变中被李世民所杀。",
+          "en": "The fourth son of Emperor Gaozu of Tang, allied with Li Jiancheng, and was killed by Li Shimin's forces during the Xuanwu Gate Incident."
+        }
+      }
+    },
+    {
+      "id": "玄武门之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "玄武门之变"
+        ],
+        "en": [
+          "Xuanwu Gate Incident"
+        ]
+      },
+      "properties": {
+        "period": "626-07-02 - 626-07-02",
+        "location": {
+          "zh-cn": "长安太极宫玄武门",
+          "en": "Xuanwu Gate, Taiji Palace, Chang'an"
+        },
+        "description": {
+          "zh-cn": "由李世民发动的宫廷政变，通过杀死兄长李建成和四弟李元吉，确立了其皇位继承权。",
+          "en": "A palace coup launched by Li Shimin, securing his succession to the throne by killing his elder brother Li Jiancheng and younger brother Li Yuanji."
+        }
+      }
+    },
+    {
+      "id": "长孙皇后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "长孙皇后",
+          "文德皇后长孙氏"
+        ],
+        "en": [
+          "Empress Zhangsun"
+        ]
+      },
+      "properties": {
+        "lifetime": "601 - 636",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "唐太宗李世民的皇后，以贤德著称。",
+          "en": "Empress of Emperor Taizong of Tang, known for her virtue and wisdom."
+        }
+      }
+    },
+    {
+      "id": "唐高宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐高宗",
+          "李治"
+        ],
+        "en": [
+          "Emperor Gaozong of Tang"
+        ]
+      },
+      "properties": {
+        "lifetime": "628-07-21 - 683-12-27",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐太宗李世民第九子，唐朝第三位皇帝。",
+          "en": "The ninth son of Emperor Taizong, and the third emperor of the Tang dynasty."
+        }
+      }
+    },
+    {
+      "id": "贞观之治",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "贞观之治"
+        ],
+        "en": [
+          "Reign of Zhenguan"
+        ]
+      },
+      "properties": {
+        "period": "627 - 649",
+        "description": {
+          "zh-cn": "唐太宗在位期间出现的政治清明、经济复苏、文化繁荣的治世局面。",
+          "en": "A period of political stability, economic recovery, and cultural prosperity during Emperor Taizong's reign."
+        }
+      }
+    },
+    {
+      "id": "晋阳起兵",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "晋阳起兵"
+        ],
+        "en": [
+          "Jinyang Uprising"
+        ]
+      },
+      "properties": {
+        "period": "617",
+        "location": {
+          "zh-cn": "太原郡",
+          "en": "Taiyuan Commandery"
+        },
+        "description": {
+          "zh-cn": "李渊、李世民父子在晋阳发动的反隋起义，为唐朝的建立奠定了基础。",
+          "en": "An anti-Sui uprising launched by Li Yuan and his son Li Shimin in Jinyang, which laid the foundation for the establishment of the Tang dynasty."
+        }
+      }
+    },
+    {
+      "id": "唐朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "唐朝"
+        ],
+        "en": [
+          "Tang dynasty"
+        ]
+      },
+      "properties": {
+        "period": "618 - 907",
+        "description": {
+          "zh-cn": "中国历史上的一个重要朝代，由李渊建立。",
+          "en": "An important dynasty in Chinese history, founded by Li Yuan."
+        }
+      }
+    },
+    {
+      "id": "窦建德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "窦建德"
+        ],
+        "en": [
+          "Dou Jiande"
+        ]
+      },
+      "properties": {
+        "lifetime": "573 - 621",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "隋末群雄之一，建立夏国，后在虎牢之战中被李世民击败并俘虏。",
+          "en": "A warlord during the late Sui dynasty who established the state of Xia, later defeated and captured by Li Shimin at the Battle of Hulao."
+        }
+      }
+    },
+    {
+      "id": "王世充",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王世充"
+        ],
+        "en": [
+          "Wang Shichong"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 621",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "隋末群雄之一，建立郑国，虎牢之战后投降唐朝。",
+          "en": "A warlord during the late Sui dynasty who established the state of Zheng, surrendered to the Tang after the Battle of Hulao."
+        }
+      }
+    },
+    {
+      "id": "虎牢之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "虎牢之战"
+        ],
+        "en": [
+          "Battle of Hulao"
+        ]
+      },
+      "properties": {
+        "period": "621",
+        "location": {
+          "zh-cn": "虎牢关",
+          "en": "Hulao Pass"
+        },
+        "description": {
+          "zh-cn": "唐朝统一战争中的决定性战役，李世民在此一举击败窦建德与王世充两大势力。",
+          "en": "A decisive battle in the Tang unification wars, where Li Shimin defeated the forces of Dou Jiande and Wang Shichong."
+        }
+      }
+    },
+    {
+      "id": "东突厥",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东突厥",
+          "突厥汗国"
+        ],
+        "en": [
+          "Eastern Turkic Khaganate"
+        ]
+      },
+      "properties": {
+        "period": "583 - 630",
+        "description": {
+          "zh-cn": "位于蒙古高原的游牧汗国，唐朝初年的主要外部威胁，后被唐太宗所灭。",
+          "en": "A nomadic khaganate on the Mongolian Plateau, a major external threat to the early Tang dynasty, later conquered by Emperor Taizong."
+        }
+      }
+    },
+    {
+      "id": "天可汗",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "天可汗"
+        ],
+        "en": [
+          "Tian Kehan",
+          "Heavenly Khagan"
+        ]
+      },
+      "properties": {
+        "period": "630 - ",
+        "description": {
+          "zh-cn": "唐朝皇帝作为中亚和北亚各民族的国际同盟之主的称号，始于唐太宗。",
+          "en": "A title for the Tang emperor as the head of an international alliance of various peoples in Central and North Asia, starting with Emperor Taizong."
+        }
+      }
+    },
+    {
+      "id": "魏征",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏征"
+        ],
+        "en": [
+          "Wei Zheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "580 - 643",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐太宗时期的著名谏臣和宰相，以直言敢谏著称。",
+          "en": "A renowned chancellor and advisor during Emperor Taizong's reign, famous for his forthright remonstrance."
+        }
+      }
+    },
+    {
+      "id": "房玄龄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "房玄龄"
+        ],
+        "en": [
+          "Fang Xuanling"
+        ]
+      },
+      "properties": {
+        "lifetime": "579 - 648",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐太宗时期的主要谋士和宰相，与杜如晦并称“房谋杜断”。",
+          "en": "A key advisor and chancellor to Emperor Taizong, known for his strategic planning."
+        }
+      }
+    },
+    {
+      "id": "杜如晦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杜如晦"
+        ],
+        "en": [
+          "Du Ruhui"
+        ]
+      },
+      "properties": {
+        "lifetime": "585 - 630",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐太宗时期的主要谋士和宰相，与房玄龄并称“房谋杜断”。",
+          "en": "A key advisor and chancellor to Emperor Taizong, known for his decisive judgment."
+        }
+      }
+    },
+    {
+      "id": "渊盖苏文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "渊盖苏文"
+        ],
+        "en": [
+          "Yeon Gaesomun"
+        ]
+      },
+      "properties": {
+        "lifetime": "603 - 666",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "高句丽末期军事独裁者，其政变及对外扩张行为引发了唐朝的军事干预。",
+          "en": "A military dictator of late Goguryeo whose coup and expansionist policies led to military intervention by the Tang dynasty."
+        }
+      }
+    },
+    {
+      "id": "高句丽",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高句丽"
+        ],
+        "en": [
+          "Goguryeo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜半岛古代王国，与唐朝发生长期战争。",
+          "en": "An ancient kingdom on the Korean Peninsula that engaged in prolonged warfare with the Tang dynasty."
+        }
+      }
+    },
+    {
+      "id": "李承干",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李承干"
+        ],
+        "en": [
+          "Li Chengqian"
+        ]
+      },
+      "properties": {
+        "lifetime": "618 - 645",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐太宗嫡长子，原为皇太子，后因与李泰争储并图谋不轨而被废。",
+          "en": "The eldest son of Emperor Taizong and original crown prince, who was deposed after plotting rebellion due to his rivalry with Li Tai."
+        }
+      }
+    },
+    {
+      "id": "李泰 (唐朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李泰 (唐朝)",
+          "李泰"
+        ],
+        "en": [
+          "Li Tai"
+        ]
+      },
+      "properties": {
+        "lifetime": "620 - 652",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐太宗第四子，深得宠爱，与太子李承干争夺储位，后被贬。",
+          "en": "The fourth son of Emperor Taizong, highly favored by his father, who vied for the crown prince position with Li Chengqian and was later demoted."
+        }
+      }
+    },
+    {
+      "id": "松赞干布",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "松赞干布"
+        ],
+        "en": [
+          "Songtsen Gampo"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 649",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "吐蕃赞普，统一青藏高原，并与唐朝和亲。",
+          "en": "Emperor of the Tibetan Empire who unified the Tibetan Plateau and established a marriage alliance with the Tang dynasty."
+        }
+      }
+    },
+    {
+      "id": "文成公主",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "文成公主"
+        ],
+        "en": [
+          "Princess Wencheng"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 680",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "唐朝宗室女，嫁予吐蕃赞普松赞干布，是唐蕃和亲的重要人物。",
+          "en": "A Tang imperial clanswoman who married Tibetan Emperor Songtsen Gampo, a key figure in the Tang-Tibetan marriage alliance."
+        }
+      }
+    },
+    {
+      "id": "吐蕃",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吐蕃"
+        ],
+        "en": [
+          "Tibetan Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于青藏高原的帝国，与唐朝既有战争也有和亲。",
+          "en": "An empire on the Tibetan Plateau that had both conflicts and marriage alliances with the Tang dynasty."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李世民",
+      "target": "李渊",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李世民是李渊的次子。",
+          "en": "Li Shimin is the second son of Li Yuan."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "太穆皇后",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李世民是太穆皇后窦氏的嫡次子。",
+          "en": "Li Shimin is the second legitimate son of Empress Taimu (née Dou)."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "李建成",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李建成是李世民的兄长。",
+          "en": "Li Jiancheng is Li Shimin's elder brother."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "李元吉",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李元吉是李世民的四弟。",
+          "en": "Li Yuanji is Li Shimin's fourth younger brother."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "长孙皇后",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "长孙皇后是李世民的妻子和皇后。",
+          "en": "Empress Zhangsun was Li Shimin's wife and empress."
+        }
+      }
+    },
+    {
+      "source": "唐高宗",
+      "target": "李世民",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李治（唐高宗）是李世民的第九子和皇位继承人。",
+          "en": "Li Zhi (Emperor Gaozong) is Li Shimin's ninth son and successor."
+        }
+      }
+    },
+    {
+      "source": "李承干",
+      "target": "李世民",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李承干是李世民的嫡长子。",
+          "en": "Li Chengqian is Li Shimin's eldest legitimate son."
+        }
+      }
+    },
+    {
+      "source": "李泰 (唐朝)",
+      "target": "李世民",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李泰是李世民的嫡次子。",
+          "en": "Li Tai is Li Shimin's second legitimate son."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "李建成",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "626-07-02",
+        "description": {
+          "zh-cn": "因皇位继承问题，李世民与太子李建成发生激烈冲突，最终发动玄武门之变将之杀害。",
+          "en": "Due to the issue of succession, Li Shimin had a fierce conflict with Crown Prince Li Jiancheng, eventually launching the Xuanwu Gate Incident and killing him."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "李元吉",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "626-07-02",
+        "description": {
+          "zh-cn": "李元吉与李建成结盟对抗李世民，在玄武门之变中一同被杀。",
+          "en": "Li Yuanji allied with Li Jiancheng against Li Shimin and was killed alongside him in the Xuanwu Gate Incident."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "玄武门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "626-07-02",
+        "description": {
+          "zh-cn": "李世民策划并领导了玄武门之变，以夺取皇位继承权。",
+          "en": "Li Shimin planned and led the Xuanwu Gate Incident to seize the right of succession."
+        }
+      }
+    },
+    {
+      "source": "玄武门之变",
+      "target": "李世民",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "626-07-02",
+        "description": {
+          "zh-cn": "玄武门之变的成功使李世民被立为太子，并很快继承皇位。",
+          "en": "The success of the Xuanwu Gate Incident led to Li Shimin being appointed as crown prince and soon succeeding to the throne."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "晋阳起兵",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "617",
+        "description": {
+          "zh-cn": "李世民积极谋划并劝说其父李渊在晋阳起兵反隋。",
+          "en": "Li Shimin actively planned and persuaded his father Li Yuan to rise against the Sui in Jinyang."
+        }
+      }
+    },
+    {
+      "source": "晋阳起兵",
+      "target": "唐朝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "617",
+        "end_date": "618",
+        "description": {
+          "zh-cn": "晋阳起兵是唐朝建立的开端。",
+          "en": "The Jinyang Uprising marked the beginning of the establishment of the Tang dynasty."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "贞观之治",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "627",
+        "end_date": "649",
+        "description": {
+          "zh-cn": "李世民通过一系列政治、经济措施，开创了贞观之治。",
+          "en": "Through a series of political and economic measures, Li Shimin created the Reign of Zhenguan."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "窦建德",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "621",
+        "description": {
+          "zh-cn": "在虎牢之战中击败并俘虏了窦建德，消灭了其割据势力。",
+          "en": "Defeated and captured Dou Jiande in the Battle of Hulao, eliminating his separatist regime."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "王世充",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "621",
+        "description": {
+          "zh-cn": "在虎牢之战后，迫使王世充投降，消灭了其割据势力。",
+          "en": "After the Battle of Hulao, forced Wang Shichong to surrender, eliminating his separatist regime."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "东突厥",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "630",
+        "description": {
+          "zh-cn": "派遣李靖等人率军出征，最终灭亡东突厥汗国。",
+          "en": "Dispatched generals like Li Jing to lead an expedition, ultimately conquering the Eastern Turkic Khaganate."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "天可汗",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "630",
+        "position": {
+          "zh-cn": "天可汗",
+          "en": "Tian Kehan"
+        },
+        "description": {
+          "zh-cn": "东突厥灭亡后，被漠北和西域诸国君主尊为“天可汗”。",
+          "en": "After the fall of the Eastern Turkic Khaganate, he was honored as 'Tian Kehan' by the rulers of Mobei and the Western Regions."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "渊盖苏文",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "644",
+        "description": {
+          "zh-cn": "因渊盖苏文弑君专权并入侵新罗，李世民发动了对高句丽的战争。",
+          "en": "Due to Yeon Gaesomun's regicide, usurpation of power, and invasion of Silla, Li Shimin launched a war against Goguryeo."
+        }
+      }
+    },
+    {
+      "source": "李承干",
+      "target": "李泰 (唐朝)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "643",
+        "description": {
+          "zh-cn": "李承干因嫉妒李泰受宠，两人为争夺储位而互相倾轧。",
+          "en": "Li Chengqian became jealous of the favor shown to Li Tai, leading to a fierce rivalry between them for the position of crown prince."
+        }
+      }
+    },
+    {
+      "source": "李承干",
+      "target": "李世民",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "643",
+        "description": {
+          "zh-cn": "李承干因担心被废，与侯君集等人密谋发动政变，事败后被废为庶人。",
+          "en": "Fearing he would be deposed, Li Chengqian conspired with Hou Junji and others to launch a coup. He was demoted to a commoner after the plot failed."
+        }
+      }
+    },
+    {
+      "source": "魏征",
+      "target": "李世民",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "626",
+        "end_date": "643",
+        "position": {
+          "zh-cn": "谏臣、宰相",
+          "en": "Advisor, Chancellor"
+        },
+        "description": {
+          "zh-cn": "魏征是唐太宗最重要的辅臣之一，以向皇帝直言进谏而闻名。",
+          "en": "Wei Zheng was one of Emperor Taizong's most important ministers, famous for offering frank advice to the emperor."
+        }
+      }
+    },
+    {
+      "source": "房玄龄",
+      "target": "李世民",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "626",
+        "end_date": "648",
+        "position": {
+          "zh-cn": "宰相",
+          "en": "Chancellor"
+        },
+        "description": {
+          "zh-cn": "房玄龄是唐太宗的主要谋士和长期担任宰相。",
+          "en": "Fang Xuanling was a key advisor to Emperor Taizong and served as chancellor for a long period."
+        }
+      }
+    },
+    {
+      "source": "杜如晦",
+      "target": "李世民",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "626",
+        "end_date": "630",
+        "position": {
+          "zh-cn": "宰相",
+          "en": "Chancellor"
+        },
+        "description": {
+          "zh-cn": "杜如晦是唐太宗的重要谋士和宰相。",
+          "en": "Du Ruhui was an important advisor and chancellor to Emperor Taizong."
+        }
+      }
+    },
+    {
+      "source": "松赞干布",
+      "target": "文成公主",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "641",
+        "description": {
+          "zh-cn": "吐蕃赞普松赞干布迎娶唐朝文成公主，建立唐蕃和亲关系。",
+          "en": "Tibetan Emperor Songtsen Gampo married Princess Wencheng of the Tang dynasty, establishing a marriage alliance."
+        }
+      }
+    },
+    {
+      "source": "李世民",
+      "target": "吐蕃",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "641",
+        "description": {
+          "zh-cn": "通过将文成公主嫁给松赞干布，与吐蕃建立了和亲关系，促进了文化交流。",
+          "en": "By marrying Princess Wencheng to Songtsen Gampo, he established a marriage alliance with the Tibetan Empire, promoting cultural exchange."
+        }
+      }
+    }
+  ]
+}
