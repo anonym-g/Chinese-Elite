@@ -118,7 +118,7 @@ def main():
     file_to_check = files_changed[0]
     final_diff_for_llm = diff_content
 
-    logging.info(f"File to check: '{file_to_check}'")
+    logger.info(f"File to check: '{file_to_check}'")
 
     # 使用相对路径字符串进行比较
     if file_to_check == "docs/master_graph_qcode.json":
@@ -128,6 +128,7 @@ def main():
     elif file_to_check == "data/LIST.md":
         logger.info("检测到对列表文件 (LIST.md) 的修改，直接评估。")
     
+    logger.info(f"Diff for llm:\n{final_diff_for_llm}")
     decision = evaluate_diff_with_gemini(final_diff_for_llm, file_to_check)
     
     logger.info(f"模型评估结果: {decision}")
