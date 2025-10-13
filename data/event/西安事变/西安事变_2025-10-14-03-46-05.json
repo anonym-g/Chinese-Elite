@@ -1,0 +1,921 @@
+{
+  "nodes": [
+    {
+      "id": "西安事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "西安事变",
+          "双十二事变",
+          "西安兵变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1936-12-12 - 1936-12-26",
+        "location": {
+          "zh-cn": "西安市 (中华民国)",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "1936年12月12日，张学良和杨虎城为逼迫蒋介石停止内战、一致抗日而在西安发动的“兵谏”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任西北剿匪总司令部副总司令，东北军将领。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "杨虎城",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨虎城"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任国民革命军第十七路军总指挥，西北军将领。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任国民政府军事委员会委员长兼行政院院长。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "东北军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国时期由奉系军阀建立的武装力量。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "西北军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西北军",
+          "陕军",
+          "国民革命军第十七路军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国时期由杨虎城领导的武装力量，主体为国民革命军第十七路军。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1925 - 1948",
+        "description": {
+          "zh-cn": "中华民国训政时期的中央政府与最高行政机关。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "第一次国共内战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次国共内战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927-08-01 - 1937-09-22",
+        "description": {
+          "zh-cn": "中国国民党与中国共产党之间在中国境内爆发的第一次内战。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "剿共",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "剿共"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国民政府在第一次国共内战期间对中国共产党及其红军进行的军事围剿行动。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "第二次国共合作",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次国共合作"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937 - 1945",
+        "description": {
+          "zh-cn": "中国抗日战争期间，中国国民党与中国共产党建立的抗日民族统一战线。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "西安市 (中华民国)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "西安市 (中华民国)",
+          "西安"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国时期的西安市，西安事变的发生地。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党主要领导人之一，作为中共代表参与西安事变谈判。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "宋美龄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋美龄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "蒋介石的夫人，在西安事变和平解决中起到关键作用。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "宋子文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋子文"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任全国经济委员会常务委员，作为南京方面代表参与西安事变谈判。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "何应钦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何应钦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任国民政府军政部长，在西安事变后主张武力讨伐。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "共产国际",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "共产国际"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1919 - 1943",
+        "description": {
+          "zh-cn": "1919年至1943年各国共产党和共产主义组织的国际联合组织。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "邵元冲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邵元冲"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "国民党中央委员，在西安事变中遇难。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "中国工农红军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工农红军",
+          "红军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在土地革命战争时期领导的武装力量。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "肤施",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "肤施",
+          "延安"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "今延安市，周恩来与张学良举行会谈的地点。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "洛川",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "洛川"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张学良与中共代表李克农举行会谈的地点。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "李克农",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李克农"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中共情报工作领导人，代表中共与张学良方面进行早期接触。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "王以哲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王以哲"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东北军第六十七军军长，事变后在“二二事件”中被杀。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "国民政府军事委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府军事委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国民政府时期的最高军事统率机关。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "行政院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "行政院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国最高行政机关。",
+          "en": ""
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张学良",
+      "target": "蒋中正",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "end_date": "1936-12-25",
+        "description": {
+          "zh-cn": "与杨虎城共同发动“兵谏”，扣押蒋介石，要求其停止剿共，一致抗日。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "杨虎城",
+      "target": "蒋中正",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "end_date": "1936-12-25",
+        "description": {
+          "zh-cn": "与张学良共同发动“兵谏”，扣押蒋介石，要求其停止剿共，一致抗日。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在事变前策动张学良和杨虎城，并在事变发生后参与谈判，推动其和平解决以促成抗日统一战线。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "第二次国共合作",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-26",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "西安事变的和平解决促成了第二次国共合作和抗日民族统一战线的形成。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "第一次国共内战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12-26",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "西安事变的和平解决标志着十年内战的基本结束。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "剿共",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12-26",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "西安事变的和平解决导致蒋介石停止“攘外必先安内”的剿共政策。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1936-01",
+        "end_date": "1936-12",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "事变前与中共代表多次会谈（洛川会谈、肤施会谈），秘密达成停战、通商等协议，寻求合作抗日。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "杨虎城",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1935-12",
+        "end_date": "1936-12",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "事变前与中共代表商谈，达成合作抗日协议。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "张学良",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1936-04-09",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在肤施（今延安）与张学良会谈，商讨联合抗日救国大计。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "李克农",
+      "target": "张学良",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1936-03-02",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在洛川与张学良会谈，商讨合作问题。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "剿共",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "",
+        "end_date": "1936-12-12",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在西安事变前坚决执行“攘外必先安内”的剿共政策。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "张学良",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12-26",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "西安事变后，将张学良长期软禁。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "杨虎城",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1937",
+        "end_date": "1949-09",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "西安事变后，逼迫杨虎城出国，后将其长期监禁并最终杀害。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "何应钦",
+      "target": "西安事变",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "end_date": "1936-12-25",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在南京主张武力讨伐张学良、杨虎城，反对和平解决事变。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "宋美龄",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-13",
+        "end_date": "1936-12-25",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "主张和平解决事变，并亲自赴西安谈判促成蒋介石获释。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-17",
+        "end_date": "1936-12-25",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "作为中共代表赴西安，参与谈判，确定了和平解决的方针。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "共产国际",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-14",
+        "end_date": "1936-12-25",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "指示中国共产党，要求和平解决事变，释放蒋介石以促成抗日统一战线。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "邵元冲",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "end_date": "1936-12-12",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在事变中，于西京招待所被第十七军扣押时中枪遇难。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "东北军",
+      "target": "中国工农红军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1935-09",
+        "end_date": "1936-02",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在1935年秋至1936年初奉蒋介石命令在西北剿共，与红军在劳山、榆林桥等地作战并遭受损失。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "东北军",
+      "target": "中国工农红军",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1936-02-28",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "东北军第六十七军与红军达成互不侵犯、恢复通商的口头协议，此后双方关系转为秘密合作。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "东北军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "将领",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "杨虎城",
+      "target": "西北军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "总指挥",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "国民政府军事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "委员长",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "王以哲",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "秘密党员",
+          "en": ""
+        },
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "根据文本记载，王以哲已秘密加入中国共产党。",
+          "en": ""
+        }
+      }
+    }
+  ]
+}
