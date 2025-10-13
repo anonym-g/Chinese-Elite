@@ -5,7 +5,7 @@ import sys
 import json
 import asyncio
 import logging
-from datetime import date
+from datetime import date, datetime
 from math import sqrt
 import pytz
 import telegram
@@ -30,6 +30,7 @@ load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 # --- 常量定义 ---
 PAGEVIEWS_CACHE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
 TOP_N = 7 # 输出前7条
+BEIJING_TZ = pytz.timezone('Asia/Shanghai')
 WEB_BASE_URL = "https://anonym-g.github.io/Chinese-Elite"
 
 def setup_arg_parser():
@@ -262,8 +263,13 @@ async def main():
             logger.critical(f"错误: 日期格式无效。请使用 YYYY-MM-DD 格式。")
             return
     else:
-        # 在 GitHub Actions 等生产环境中，使用 UTC 当天日期
-        today = date.today()
+        # 1. 获取当前UTC时间
+        utc_now = datetime.now(pytz.utc)
+        # 2. 将其转换为北京时间
+        beijing_now = utc_now.astimezone(BEIJING_TZ)
+        # 3. 从北京时间的datetime对象中提取日期部分
+        today = beijing_now.date()
+        logger.info(f"当前UTC时间: {utc_now.strftime('%Y-%m-%d %H:%M:%S')}, 对应的北京日期为: {today}")
     
     anniversary_items = find_anniversary_items(graph_data, today)
     logger.info(f"发现 {len(anniversary_items)} 个符合条件的周年纪念条目。")
