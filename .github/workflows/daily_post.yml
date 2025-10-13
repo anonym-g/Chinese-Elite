@@ -4,7 +4,7 @@ name: 每日定时推送 (Daily Anniversary Post)
 
 on:
   schedule:
-    # 北京时间每日早7点是 UTC 时间前一天的 23点
+    # 北京时间每日早7点，是 UTC 时间前一天的23点
     - cron: '0 23 * * *'
   workflow_dispatch: # 允许手动触发
 
