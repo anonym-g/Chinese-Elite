@@ -47,12 +47,14 @@ def add_title_to_list(title_to_add: str):
 
             # 如果找到了 '## new' 区域
             if new_section_index != -1:
-                # 在 '## new' 标题和它后面的空行之后插入
-                # 我们假设标题后至少有一个空行
-                insert_pos = new_section_index + 2
-                # 如果文件末尾就是 ## new，确保插入位置有效
-                if insert_pos > len(lines):
-                    insert_pos = len(lines)
+                # 从 '## new' 之后开始，寻找下一个分区的开始或文件末尾作为插入点
+                insert_pos = len(lines)  # 默认为文件末尾
+                for i in range(new_section_index + 1, len(lines)):
+                    if lines[i].strip().startswith('## '):
+                        insert_pos = i
+                        break
+                
+                # 在找到的位置插入新标题，这会将其置于 'new' 分区的末尾
                 lines.insert(insert_pos, f"{title_to_add}\n")
             else:
                 # 如果没有找到 '## new' 栏目，则在文件末尾添加
@@ -81,6 +83,7 @@ class WikipediaClient:
     def __init__(self, user_agent=USER_AGENT):
         # 初始化两个Session：一个常规，一个用于特殊目标
         self.session = requests.Session()
+        self.session.trust_env = True
         self.cffi_session = cffi_requests.Session()
         
         self.session.headers.update({'User-Agent': user_agent})
