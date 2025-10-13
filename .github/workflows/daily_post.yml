@@ -1,0 +1,36 @@
+# .github/workflows/daily_post.yml
+
+name: 每日定时推送 (Daily Anniversary Post)
+
+on:
+  schedule:
+    # 北京时间每日早7点是 UTC 时间前一天的 23点
+    - cron: '0 23 * * *'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: read # 此任务只需读取仓库内容
+
+jobs:
+  post-to-telegram:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码 (Checkout Code)
+        uses: actions/checkout@v4
+
+      - name: 设置 Python (Set up Python)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: 安装项目依赖 (Install Dependencies)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 执行推送任务 (Run Posting Task)
+        env:
+          # 从仓库的 Secrets 中获取 Token 和 Channel ID
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: python scripts/scheduled_tasks.py
