@@ -77,6 +77,8 @@ class GraphMerger:
                         if name:
                             # 允许覆盖，对于别名映射来说是安全的
                             self.name_to_qcode_map[name] = node_id
+        
+        self.master_nodes_map = {node['id']: node for node in self.master_graph.get('nodes', []) if 'id' in node}
 
     def _get_canonical_rel_key(self, rel: dict) -> tuple | None:
         """为关系生成一个规范化的键，用于处理无向关系。"""
@@ -177,38 +179,40 @@ class GraphMerger:
         # 从已存在节点开始，或创建一个空字典
         merged_name_obj = (existing_node.get('name') or {}).copy() if existing_node else {}
         
-        # 合并新节点中的所有语言名称
-        for lang, names in new_node.get('name', {}).items():
-            if not isinstance(names, list): continue
-            
-            # 合并新旧名称，并通过集合去重
-            combined_names = merged_name_obj.get(lang, []) + names
-            merged_name_obj[lang] = sorted(list(set(combined_names)))
+        # 识别所有需要处理的语言键
+        all_langs = set(merged_name_obj.keys()) | set(new_node.get('name', {}).keys())
 
-        # 为新节点的主语言确定并设置规范名称
-        if primary_lang:
+        for lang in all_langs:
+            existing_names = merged_name_obj.get(lang, [])
+            new_names = new_node.get('name', {}).get(lang, [])
+
+            # 1. 确定权威的规范名称 (canonical name)
             canonical_name = None
-            # 优先级 1: 外部指定的规范名 (如来自重定向)
-            if canonical_name_override:
+            # 优先级1: 重定向指定的新名称
+            if lang == primary_lang and canonical_name_override:
                 canonical_name = canonical_name_override
-            # 优先级 2: 已存在节点的该语言下的首个名称
-            elif existing_node and merged_name_obj.get(primary_lang) and merged_name_obj[primary_lang]:
-                canonical_name = merged_name_obj[primary_lang][0]
-            # 优先级 3: 新节点该语言下的首个名称
-            elif new_node.get('name', {}).get(primary_lang):
-                canonical_name = new_node['name'][primary_lang][0]
-
+            # 优先级2: 已存在节点的首个名称 (这是最重要的，必须保留)
+            elif existing_names:
+                canonical_name = existing_names[0]
+            # 优先级3: 新节点的首个名称 (仅当节点是全新的)
+            elif new_names:
+                canonical_name = new_names[0]
+            
+            # 2. 收集所有不重复的名称
+            all_names_set = set(existing_names) | set(new_names)
             if canonical_name:
-                # 确保语言列表存在且包含该规范名
-                if primary_lang not in merged_name_obj:
-                    merged_name_obj[primary_lang] = []
-                if canonical_name not in merged_name_obj[primary_lang]:
-                    merged_name_obj[primary_lang].append(canonical_name)
-                
-                # 将规范名移动到列表首位
-                name_list = merged_name_obj[primary_lang]
-                name_list.remove(canonical_name)
-                name_list.insert(0, canonical_name)
+                all_names_set.add(canonical_name) # 确保规范名一定在集合里
+
+            # 3. 构建最终的、顺序正确的列表
+            if canonical_name:
+                # 从集合中移除规范名，剩下的就是别名
+                all_names_set.discard(canonical_name)
+                # 将规范名放在首位，后面跟上排序后的别名列表
+                final_name_list = [canonical_name] + sorted(list(all_names_set))
+                merged_name_obj[lang] = final_name_list
+            elif all_names_set:
+                # 如果由于某种原因没有规范名，则退回为全部排序，防止数据丢失
+                merged_name_obj[lang] = sorted(list(all_names_set))
 
         # 用所有合并后的名称更新全局映射
         for lang, names in merged_name_obj.items():
@@ -218,7 +222,7 @@ class GraphMerger:
         
         return merged_name_obj
 
-    def _process_single_file(self, file_path: str, master_rels_map: dict):
+    def _process_single_file(self, file_path: str, master_rels_map: dict) -> bool:
         """处理单个JSON文件的合并逻辑 (Q-Code版本)。"""
         logger.info(f"--- 正在处理: {os.path.basename(file_path)} ---")
         try:
@@ -226,7 +230,7 @@ class GraphMerger:
                 new_data = json.load(f)
             if not isinstance(new_data, dict):
                 logger.warning(f"文件内容不是字典，已跳过: {file_path}")
-                return
+                return False
 
             # 用于追踪本文件中名称到最终ID（Q-Code或临时名）的映射
             local_name_to_final_id_map = {}
@@ -271,31 +275,38 @@ class GraphMerger:
 
                 # Case 2: 节点主名称是新的，需要确定其状态和ID
                 else:
-                    # 使用节点的主语言进行API查询
-                    status, detail = self.wiki_client.check_link_status(primary_name, lang=primary_lang)
-                    qcode = None
+                    api_lang = 'zh' if 'zh' in primary_lang else primary_lang
+                    status, detail = self.wiki_client.check_link_status(primary_name, lang=api_lang)
 
-                    # 只有当页面有效时才尝试获取Q-Code
-                    if status in ["OK", "REDIRECT", "SIMP_TRAD_REDIRECT"]:
-                        qcode = self.wiki_client.get_qcode(primary_name, lang=primary_lang)
+                    # 规则：消歧义，或简繁重定向以外的任何类型重定向，直接丢弃节点。
+                    if status in ["REDIRECT", "DISAMBIG"]:
+                        logger.warning(f"  - [丢弃] 节点 '{primary_name}' 是一个非简繁重定向 (目标: {detail})，已按规则丢弃。")
+                        continue # 直接跳到 for 循环的下一个节点
+
+                    qcode = self.wiki_client.get_qcode(primary_name, lang=api_lang)
                     
                     # 场景A: 成功获取Q-Code
                     if qcode:
-                        # 仅当处理中文页面时，才对重定向目标进行繁简转换
-                        canonical_name = self.wiki_client.t2s_converter.convert(detail) if detail and primary_lang == 'zh' else detail
-                        if canonical_name:
-                            add_title_to_list(f"({primary_lang}) {canonical_name}")
+                        canonical_name_override = None
+                        # 如果是简繁重定向，则将重定向目标设为规范名称，并将其加入列表
+                        if status == "SIMP_TRAD_REDIRECT" and detail:
+                            redirect_target_name = self.wiki_client.t2s_converter.convert(detail) if api_lang == 'zh' else detail
+                            if redirect_target_name:
+                                canonical_name_override = redirect_target_name
+                                # 将新发现的重定向目标页加入处理列表
+                                if api_lang == 'zh':
+                                    add_title_to_list(canonical_name_override)
+                                else:
+                                    add_title_to_list(f"({api_lang}) {canonical_name_override}")
 
                         # Case 2a: Q-Code已存在 (别名指向了现有实体)
                         if qcode in self.master_nodes_map:
                             existing_node = self.master_nodes_map[qcode]
                             logger.info(f"  - 新节点 '{primary_name}' 解析为已存在Q-Code: {qcode}，进行合并...")
-                            final_name_obj = self._merge_and_update_names(new_node, qcode, existing_node=existing_node, primary_lang=primary_lang)
+                            final_name_obj = self._merge_and_update_names(new_node, qcode, existing_node=existing_node, primary_lang=primary_lang, canonical_name_override=canonical_name_override)
                             existing_node['name'] = final_name_obj
                             if self._should_trigger_merge_llm(existing_node, new_node):
                                 merged_node_props = self._call_llm_for_merge(existing_node, new_node, "节点")
-
-                                # 用 if 过滤装饰器返回的特殊值 (None)
                                 if merged_node_props:
                                     existing_node.update(merged_node_props)
                             self.master_nodes_map[qcode] = existing_node
@@ -303,16 +314,26 @@ class GraphMerger:
                         
                         # Case 2b: 全新节点
                         else:
-                            if detail:
-                                logger.info(f"  - 新节点名 '{primary_name}' 是重定向，规范名称为 '{canonical_name or primary_name}'")
-                            logger.info(f"  - 添加全新节点: '{canonical_name or primary_name}' -> {qcode}")
-                            final_name_obj = self._merge_and_update_names(new_node, qcode, canonical_name_override=canonical_name, primary_lang=primary_lang)
+                            # 规则：当一个全新的、非重定向的有效页面被创建时，也应将其加入列表
+                            if status == "OK":
+                                if api_lang == 'zh':
+                                    add_title_to_list(primary_name)
+                                else:
+                                    add_title_to_list(f"({api_lang}) {primary_name}")
+
+                            # 确定日志中显示的规范名
+                            log_canonical_name = canonical_name_override or primary_name
+                            if detail and status == "SIMP_TRAD_REDIRECT":
+                                logger.info(f"  - 新节点名 '{primary_name}' 是简繁重定向，规范名称为 '{log_canonical_name}'")
+                            logger.info(f"  - 添加全新节点: '{log_canonical_name}' -> {qcode}")
+                            
+                            final_name_obj = self._merge_and_update_names(new_node, qcode, canonical_name_override=canonical_name_override, primary_lang=primary_lang)
                             new_node['id'] = qcode
                             new_node['name'] = final_name_obj
                             self.master_nodes_map[qcode] = new_node
                             final_id = qcode
                     
-                    # 场景B: 无法获取Q-Code，根据已查明的状态赋临时ID
+                    # 场景B: 无法获取Q-Code (包括 status 为 NO_PAGE, ERROR 等)
                     else:
                         temp_id = None
                         if status == "BAIDU":
@@ -323,7 +344,6 @@ class GraphMerger:
                         if temp_id:
                             logger.warning(f"  - 节点 '{primary_name}' 状态为 {status}。使用临时ID: {temp_id}")
                             new_node['id'] = temp_id
-                            # 对于临时节点，直接使用它自己的name对象，并去重
                             for lang_key, names_list in new_node.get('name', {}).items():
                                 new_node['name'][lang_key] = list(dict.fromkeys(names_list))
                             self.master_nodes_map[temp_id] = new_node
@@ -331,9 +351,9 @@ class GraphMerger:
                         else:
                             logger.error(f"  - [失败] 节点 '{primary_name}' 在所有来源均未找到 (状态: {status})。节点已丢弃。")
                             final_id = None
-                
-                if final_id:
-                    local_name_to_final_id_map[primary_name] = final_id
+                    
+                    if final_id:
+                        local_name_to_final_id_map[primary_name] = final_id
 
             # --- 步骤2: 处理关系 ---
             for new_rel in new_data.get('relationships', []):
@@ -341,8 +361,8 @@ class GraphMerger:
                 target_name = new_rel.get('target')
 
                 # 使用本文件内建立的映射将名称转换为最终ID
-                source_id = local_name_to_final_id_map.get(source_name)
-                target_id = local_name_to_final_id_map.get(target_name)
+                source_id = local_name_to_final_id_map.get(source_name) or self.name_to_qcode_map.get(source_name)
+                target_id = local_name_to_final_id_map.get(target_name) or self.name_to_qcode_map.get(target_name)
 
                 if not source_id or not target_id:
                     logger.warning(f"  - 关系中的源/目标节点无法解析，已跳过: {source_name} -> {target_name}")
@@ -364,9 +384,18 @@ class GraphMerger:
                             master_rels_map[rel_key] = merged_rel
                 else:
                     master_rels_map[rel_key] = new_rel
-
-        except Exception as e:
+            
+            # 在try块的末尾表示成功
+            return True
+        
+        # 将宽泛的 except Exception 拆分为文件读取错误和逻辑错误
+        except (IOError, json.JSONDecodeError) as e:
             logger.error(f"无法读取或解析文件 {file_path} - {e}")
+            return False
+        except Exception as e:
+            # exc_info=True 会自动记录详细的异常和堆栈跟踪，便于调试
+            logger.error(f"处理文件 {file_path} 时发生意外的逻辑错误。", exc_info=True)
+            return False
 
     def run(self):
         """执行完整的合并流程。"""
@@ -386,8 +415,9 @@ class GraphMerger:
             master_rels_map = {self._get_canonical_rel_key(r): r for r in self.master_graph['relationships']}
 
             for file_path in source_files_to_process:
-                self._process_single_file(file_path, master_rels_map)
-                self.files_processed_this_run.append(os.path.basename(file_path))
+                success = self._process_single_file(file_path, master_rels_map)
+                if success:
+                    self.files_processed_this_run.append(os.path.basename(file_path))
             
             self.master_graph['relationships'] = list(master_rels_map.values())
 
