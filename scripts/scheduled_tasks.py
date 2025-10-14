@@ -13,7 +13,12 @@ import argparse
 import urllib.parse
 from dotenv import load_dotenv
 
-from config import MASTER_GRAPH_PATH, CACHE_DIR
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if ROOT_DIR not in sys.path:
+    sys.path.append(ROOT_DIR)
+
+# 使用绝对路径导入
+from scripts.config import MASTER_GRAPH_PATH, CACHE_DIR
 
 # --- 日志配置 ---
 logging.basicConfig(
@@ -24,8 +29,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # --- 加载环境变量 ---
-# 从项目根目录的 .env 文件加载环境变量
-load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+# 明确指定.env文件相对于项目根目录的位置。
+load_dotenv(os.path.join(ROOT_DIR, '.env'))
 
 # --- 常量定义 ---
 PAGEVIEWS_CACHE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')

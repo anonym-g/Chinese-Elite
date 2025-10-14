@@ -9,7 +9,8 @@ from collections import deque
 from functools import wraps
 import logging
 
-from config import CACHE_DIR # 导入缓存目录配置
+# 使用相对路径导入
+from .config import CACHE_DIR
 
 logger = logging.getLogger(__name__)
 
