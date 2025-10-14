@@ -41,7 +41,7 @@
 
 核心提取规则如下。JSON格式样例中，可能有违反这些规则的，自行识别为反面案例。
 
-1.  【ID与名称规范】:
+1. 【ID与名称规范】:
     * `id` 字段是实体的唯一标识符，必须使用Markdown链接的目标页面标题。例如，在 `[[中华人民共和国|中国]]` 中，`id` 必须是 `"中华人民共和国"`。
     * `name.zh-cn` 字段是一个名称列表。它应该包含实体所有已知的中文名称，包括 `id` 本身 (首项) 和Markdown链接中显示的文本。
     * 列表的第一个元素应该是 id 本身。
@@ -49,7 +49,16 @@
         `"id": "中华人民共和国中央人民政府 (1949年—1954年)"`
         `"name": { "zh-cn": ["中华人民共和国中央人民政府 (1949年—1954年)", "中央人民政府"], "en": ["Central People's Government of the People's Republic of China (1949–1954)"] }`
 
-2.  【关系类型与节点类型约束】: 关系的方向为源-关系->目标 (source->target)。必须严格遵守以下类型约束：
+2. 【节点类型规范】：
+    * 节点，总是、且只能是某一种类型。['Person', 'Organization', 'Movement', 'Event', 'Location', 'Document']
+    * 一些额外的澄清：
+      * Organization - 组织，包括职务、职级、泛称，包括国家，不包括次级行政区（如省、市等）。例如，梵蒂冈/中国共产党中央委员会总书记/国家级正职/党和国家领导人，均属 Organization，台湾属 Location (至少尚未完全独立，因此判定为Location)。
+      * Movement - 受主观意识推动的大规模社会运动。包括战争，政策，不包括方针、纲领等。例如，辛亥革命/五四运动/三年困难时期/文化大革命/台湾白色恐怖时期/社会主义市场经济/改革开放/防火长城，均属 Movement，一国两制属 Document。
+      * Event - 持续时间较短的事件 (可能受到主观推动) ，或大规模的天灾 (一般没有主观推动) 。例如，粉碎四人帮/六四事件/大萧条/2019冠状病毒病疫情，均属 Event。
+      * Location - 次级行政区属于 Location。
+      * Document - 文件，以及理论性的主义、思想、方针、政策设想，或是没有多少建设性内容的政策 (如一国两制，只是允许两制并存，没有什么建设性内容) ，均属 Document。
+
+3. 【关系类型与节点类型约束】: 关系的方向为源-关系->目标 (source->target)。必须严格遵守以下类型约束：
     *   Person -`BORN_IN`-> Location (必须是唯一的、最精确的出生地，如市或县)
     *   Person -`ALUMNUS_OF`-> Organization
     *   Person/Organization -`MEMBER_OF`-> Organization
@@ -67,17 +76,17 @@
     *   Person/Organization/Event/Movement/Document -`BLOCKED`-> Person/Organization/Event/Movement/Document (起阻碍、反对作用)
     *   Person/Organization/Event/Movement/Document -`INFLUENCED`-> Person/Organization/Event/Movement/Document/Location (通用影响关系，当其他类型不适用时使用，严禁滥用)
 
-3. 只提取文本中明确提及或具有强上下文支撑的关系。禁止基于常识进行过度推断。例如，不要仅仅因为两人在同一组织就推断他们是`FRIEND_OF`。
+4. 只提取文本中明确提及或具有强上下文支撑的关系。禁止基于常识进行过度推断。例如，不要仅仅因为两人在同一组织就推断他们是`FRIEND_OF`。
 
-4. 对于可能随时间变化的关系 (如 `FRIEND_OF`, `ENEMY_OF`, `LOVER_OF`)，如果文本提及多个不连续的时间段，请使用数组记录所有时间段。如果只有一个时间点，则使用单个字符串。
+5. 对于可能随时间变化的关系 (如 `FRIEND_OF`, `ENEMY_OF`, `LOVER_OF`)，如果文本提及多个不连续的时间段，请使用数组记录所有时间段。如果只有一个时间点，则使用单个字符串。
 
-5. `relationships` 中的 `source` 和 `target` 必须与 `nodes` 列表中的 `id` 完全匹配。所有在关系中提及的实体都必须在 `nodes` 列表中有对应的条目。
+6. `relationships` 中的 `source` 和 `target` 必须与 `nodes` 列表中的 `id` 完全匹配。所有在关系中提及的实体都必须在 `nodes` 列表中有对应的条目。
 
-6. 严禁创造新的实体或关系类型。严禁在不当的节点类型组合之间使用关系。
+7. 严禁创造新的实体或关系类型。严禁在不当的节点类型组合之间使用关系。
 
-7. 只允许输出最精确的关系，严禁滥用较弱的次级关系。例如，"文化大革命 BLOCKED 邓小平"，严禁再输出一条 "文化大革命 INFLUENCED 邓小平"。
+8. 只允许输出最精确的关系，严禁滥用较弱的次级关系。例如，"文化大革命 BLOCKED 邓小平"，严禁再输出一条 "文化大革命 INFLUENCED 邓小平"。
 
-8. 关系的方向为源-关系->目标 (source->target)。这一点必须严格遵循。
+9. 关系的方向为源-关系->目标 (source->target)。这一点必须严格遵循。
 
 正确示例：
 

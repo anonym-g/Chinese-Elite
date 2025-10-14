@@ -3338,7 +3338,7 @@
     },
     {
       "id": "Q30",
-      "type": "Location",
+      "type": "Organization",
       "name": {
         "zh-cn": [
           "美国",
@@ -9232,7 +9232,7 @@
     },
     {
       "id": "Q700442",
-      "type": "Event",
+      "type": "Movement",
       "name": {
         "zh-cn": [
           "金门炮战",
@@ -9243,7 +9243,7 @@
         ]
       },
       "properties": {
-        "period": "1958-1979",
+        "period": "1958 - 1979",
         "location": {
           "zh-cn": "金门"
         },
@@ -17153,7 +17153,7 @@
     },
     {
       "id": "Q142",
-      "type": "Location",
+      "type": "Organization",
       "name": {
         "zh-cn": [
           "法国",
@@ -46573,7 +46573,7 @@
     },
     {
       "id": "Q145",
-      "type": "Location",
+      "type": "Organization",
       "name": {
         "zh-cn": [
           "英国",
@@ -51368,7 +51368,7 @@
     },
     {
       "id": "Q881",
-      "type": "Location",
+      "type": "Organization",
       "name": {
         "zh-cn": [
           "越南",
@@ -52016,7 +52016,7 @@
     },
     {
       "id": "Q254599",
-      "type": "Movement",
+      "type": "Event",
       "name": {
         "zh-cn": [
           "淞沪会战",
@@ -52758,7 +52758,7 @@
     },
     {
       "id": "Q8565149",
-      "type": "Movement",
+      "type": "Event",
       "name": {
         "zh-cn": [
           "中央苏区第四次反围剿战争",
@@ -52844,7 +52844,7 @@
     },
     {
       "id": "Q5447513",
-      "type": "Movement",
+      "type": "Event",
       "name": {
         "zh-cn": [
           "中央苏区第五次反围剿战争",
@@ -69361,7 +69361,7 @@
     },
     {
       "id": "Q109344987",
-      "type": "Document",
+      "type": "Organization",
       "name": {
         "zh-cn": [
           "厅局级正职",
@@ -69500,11 +69500,10 @@
     },
     {
       "id": "Q1208802",
-      "type": "Location",
+      "type": "Document",
       "name": {
         "zh-cn": [
-          "直辖市 (中华人民共和国)",
-          "直辖市"
+          "直辖市 (中华人民共和国)"
         ],
         "en": [
           "Direct-administered municipality"
@@ -69761,7 +69760,7 @@
     },
     {
       "id": "Q5452957",
-      "type": "Movement",
+      "type": "Event",
       "name": {
         "zh-cn": [
           "中央苏区第一次反围剿战争",
@@ -75371,7 +75370,7 @@
     },
     {
       "id": "Q46913",
-      "type": "Organization",
+      "type": "Location",
       "name": {
         "zh-cn": [
           "山西省"
@@ -84294,7 +84293,7 @@
     },
     {
       "id": "Q237",
-      "type": "Location",
+      "type": "Organization",
       "name": {
         "zh-cn": [
           "梵蒂冈",
@@ -86104,7 +86103,7 @@
     },
     {
       "id": "Q42200",
-      "type": "Organization",
+      "type": "Location",
       "name": {
         "zh-cn": [
           "海南省"
@@ -86122,7 +86121,7 @@
     },
     {
       "id": "Q57251",
-      "type": "Organization",
+      "type": "Location",
       "name": {
         "zh-cn": [
           "台湾省 (中华人民共和国)",
@@ -88696,7 +88695,7 @@
     },
     {
       "id": "Q499073",
-      "type": "Organization",
+      "type": "Document",
       "name": {
         "zh-cn": [
           "直辖市"
@@ -88707,7 +88706,7 @@
       },
       "properties": {
         "description": {
-          "zh-cn": "中华人民共和国的省级行政区单位"
+          "zh-cn": ""
         }
       }
     },
@@ -200093,9 +200092,9 @@
       }
     },
     {
-      "source": "Q109344987",
-      "target": "Q109344988",
-      "type": "INFLUENCED",
+      "source": "Q109344988",
+      "target": "Q109344987",
+      "type": "SUBORDINATE_OF",
       "properties": {
         "description": {
           "zh-cn": "为厅局级副职的上一等级。"
@@ -200341,16 +200340,6 @@
       "properties": {
         "description": {
           "zh-cn": "任免各省市组织部副部长和国家机关人事司副司长等厅局级正职干部，需事先征得中央组织部的同意。"
-        }
-      }
-    },
-    {
-      "source": "Q97352376",
-      "target": "Q109344987",
-      "type": "INFLUENCED",
-      "properties": {
-        "description": {
-          "zh-cn": "省部级副职（第四级别）在公务员体系中高于厅局级正职（第五级别）。"
         }
       }
     },
@@ -238232,7 +238221,7 @@
     {
       "source": "Q15899237",
       "target": "Q15972916",
-      "type": "MEMBER_OF",
+      "type": "PUSHED",
       "properties": {
         "start_date": "2014-03-18",
         "end_date": "2014-04-10",
