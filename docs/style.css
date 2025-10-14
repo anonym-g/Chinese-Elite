@@ -724,6 +724,78 @@ svg:active {
     stroke: none;
 }
 
+/* --- Wiki 链接容器 --- */
+#wiki-link-container {
+    position: absolute;
+    right: 15px;
+    width: 260px;
+    max-width: calc(100vw - 30px);
+    background-color: #2a2a2a;
+    border: 1px solid #495057;
+    border-top: none;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    z-index: 998; /* 比搜索框低一级，以免重叠 */
+    transition: transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+    opacity: 0;
+    transform: translateY(-100%); /* 初始状态，位于其最终位置的上方 */
+    pointer-events: none;
+    transition: transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+}
+
+#wiki-link-container.visible {
+    opacity: 1;
+    transform: translateY(0); /* 可见状态，滑入到正常位置 */
+    pointer-events: auto;
+}
+
+.wiki-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.wiki-icon {
+    width: 36px;
+    height: auto;
+    display: block; /* 确保img标签行为一致 */
+    /* fill: #adb5bd; */
+}
+
+#wiki-close-btn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    color: #adb5bd;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#wiki-close-btn:hover {
+    color: #d9534f;
+}
+
+#wiki-links-list a {
+    display: block;
+    color: #e9ecef;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color 0.2s;
+}
+
+#wiki-links-list a:hover {
+    background-color: #383838;
+}
+
 /* --- 错误提示框样式 --- */
 @keyframes slideIn {
     from {
