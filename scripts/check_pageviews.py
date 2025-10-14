@@ -14,7 +14,8 @@ import random
 import time
 import re
 
-from config import LIST_FILE_PATH, CACHE_DIR, PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, WIKI_API_URL_TPL, PAGEVIEWS_API_BASE, USER_AGENT
+# 使用相对路径导入
+from .config import LIST_FILE_PATH, CACHE_DIR, PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, WIKI_API_URL_TPL, PAGEVIEWS_API_BASE, USER_AGENT
 
 # 初始化日志记录器
 logger = logging.getLogger(__name__)

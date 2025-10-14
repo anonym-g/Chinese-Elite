@@ -1,4 +1,4 @@
-# scripts/bot.py
+# bot_app/bot.py
 
 import os
 import sys
@@ -11,8 +11,9 @@ from collections import deque
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
-from config import BOT_QA_MODEL, ROOT_DIR, BOT_QA_PROMPT
-from api_rate_limiter import gemini_flash_lite_preview_limiter
+# 使用绝对路径导入
+from scripts.config import BOT_QA_MODEL, ROOT_DIR, BOT_QA_PROMPT
+from scripts.api_rate_limiter import gemini_flash_lite_preview_limiter
 
 # --- 日志配置 ---
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)

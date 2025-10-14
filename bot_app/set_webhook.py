@@ -1,4 +1,4 @@
-# scripts/set_webhook.py
+# bot_app/set_webhook.py
 
 import os
 import asyncio
@@ -7,7 +7,11 @@ from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import Application
 
-load_dotenv()
+# 指定 .env 文件在项目根目录。
+# os.path.dirname(__file__) -> bot_app
+# os.path.dirname(...)      -> Chinese-Elite/ (根目录)
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+load_dotenv(os.path.join(ROOT_DIR, '.env'))
 
 # --- 日志配置 ---
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -36,4 +40,5 @@ async def main():
     logger.info("Webhook 设置成功。")
 
 if __name__ == '__main__':
+    # 这段代码现在仅用于直接测试，实际调用将通过根目录的脚本进行
     asyncio.run(main())

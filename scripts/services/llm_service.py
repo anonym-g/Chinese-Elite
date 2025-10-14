@@ -1,0 +1,205 @@
+# scripts/services/llm_service.py
+
+import os
+import json
+import random
+import sys
+import copy
+import logging
+from google import genai
+from google.genai import types
+
+# 使用相对路径导入
+from ..config import (
+    PARSER_MODEL, MERGE_CHECK_MODEL, MERGE_EXECUTE_MODEL, VALIDATE_PR_MODEL,
+    PARSER_SYSTEM_PROMPT_PATH, MERGE_CHECK_PROMPT_PATH, MERGE_EXECUTE_PROMPT_PATH,
+    VALIDATE_PR_PROMPT_PATH, MASTER_GRAPH_PATH,
+    FEW_SHOT_NODE_SAMPLES, FEW_SHOT_REL_SAMPLES
+)
+from ..api_rate_limiter import (
+    gemini_pro_limiter, gemma_limiter, gemini_flash_limiter, gemini_flash_lite_limiter
+)
+from . import graph_io
+
+logger = logging.getLogger(__name__)
+
+class LLMService:
+    """
+    一个统一的服务层，用于封装所有与大语言模型 (LLM) 的交互。
+    
+    该类负责:
+    - 初始化 GenAI 客户端。
+    - 加载和管理所有任务所需的 Prompt 模板。
+    - 提供具体业务方法的接口 (如解析、合并、验证)，并在内部处理 API 调用、
+      速率限制和错误处理。
+    - 封装 few-shot 示例的生成逻辑。
+    """
+    def __init__(self):
+        try:
+            self.client = genai.Client()
+            logger.info("Google GenAI Client 初始化成功。")
+        except Exception as e:
+            logger.critical(f"严重错误: 初始化 Google GenAI Client 失败。请检查 API 密钥。", exc_info=True)
+            sys.exit(1)
+            
+        # 一次性加载所有 Prompt 模板
+        self.prompts = {
+            'parser_system': self._load_prompt(PARSER_SYSTEM_PROMPT_PATH),
+            'merge_check': self._load_prompt(MERGE_CHECK_PROMPT_PATH),
+            'merge_execute': self._load_prompt(MERGE_EXECUTE_PROMPT_PATH),
+            'validate_pr': self._load_prompt(VALIDATE_PR_PROMPT_PATH),
+            'clean_relations': self._load_prompt(os.path.join(os.path.dirname(PARSER_SYSTEM_PROMPT_PATH), 'clean_relations.txt'))
+        }
+
+    def _load_prompt(self, path: str) -> str:
+        """加载指定路径的 Prompt 文件。"""
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                return f.read()
+        except FileNotFoundError:
+            logger.critical(f"严重错误: Prompt 文件 '{path}' 未找到。")
+            sys.exit(2)
+
+    def _get_few_shot_examples(self) -> str:
+        """从主图谱文件中随机抽取节点和关系作为few-shot范例。"""
+        if not os.path.exists(MASTER_GRAPH_PATH):
+            return ""
+        try:
+            data = graph_io.load_master_graph(MASTER_GRAPH_PATH)
+            nodes = data.get('nodes', [])
+            relationships = data.get('relationships', [])
+            if not nodes or not relationships: return ""
+
+            id_to_name_map = {n['id']: n.get('name', {}).get('zh-cn', [n['id']])[0] for n in nodes}
+            
+            node_samples = random.sample(nodes, min(len(nodes), FEW_SHOT_NODE_SAMPLES))
+            rel_samples = random.sample(relationships, min(len(relationships), FEW_SHOT_REL_SAMPLES))
+
+            readable_node_samples = []
+            for node in node_samples:
+                node_copy = copy.deepcopy(node)
+                node_copy['id'] = id_to_name_map.get(node['id'], node['id'])
+                if 'properties' in node_copy and 'verified_node' in node_copy['properties']:
+                    del node_copy['properties']['verified_node']
+                readable_node_samples.append(node_copy)
+
+            readable_rel_samples = []
+            for rel in rel_samples:
+                rel_copy = copy.deepcopy(rel)
+                rel_copy['source'] = id_to_name_map.get(rel['source'], rel['source'])
+                rel_copy['target'] = id_to_name_map.get(rel['target'], rel['target'])
+                readable_rel_samples.append(rel_copy)
+
+            if not readable_node_samples and not readable_rel_samples: return ""
+            
+            examples = {"nodes": readable_node_samples, "relationships": readable_rel_samples}
+            return f"\n请参考以下JSON格式样例来构建你的输出。\n--- JSON格式样例 START ---\n{json.dumps(examples, indent=2, ensure_ascii=False)}\n--- JSON格式样例 END ---\n"
+        except Exception as e:
+            logger.warning(f"读取或生成 few-shot 范例失败 - {e}")
+            return ""
+
+    @gemini_pro_limiter.limit
+    def parse_wikitext(self, wikitext: str) -> dict | None:
+        """使用 LLM 从 Wikitext 解析实体和关系。"""
+        few_shot_examples = self._get_few_shot_examples()
+        user_prompt = f"{few_shot_examples}\n请严格遵循你的核心指令，根据你的知识和以下Wikitext内容，进行实体和关系提取。\n--- WIKITEXT START ---\n{wikitext}\n--- WIKITEXT END ---"
+        logger.info(f"正在通过 LLM ({PARSER_MODEL}) 进行解析...")
+        if few_shot_examples:
+            logger.info(f"已注入 {FEW_SHOT_NODE_SAMPLES} 个节点和 {FEW_SHOT_REL_SAMPLES} 个关系作为 few-shot 范例。")
+
+        try:
+            response = self.client.models.generate_content(
+                model=f'models/{PARSER_MODEL}', contents=user_prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=self.prompts['parser_system'],
+                    response_mime_type='application/json',
+                ),
+            )
+            if response.text:
+                logger.info("LLM 解析成功。")
+                return json.loads(response.text)
+            return None
+        except Exception as e:
+            logger.error(f"LLM API 调用 (解析Wikitext) 失败 - {e}")
+            return None
+
+    @gemma_limiter.limit
+    def should_merge(self, existing_item: dict, new_item: dict) -> bool:
+        """调用LLM判断新对象是否提供了有价值的新信息。"""
+        keys_to_remove = {'id', 'name', 'source', 'target'}
+        existing_props = {k: v for k, v in existing_item.items() if k not in keys_to_remove}
+        new_props = {k: v for k, v in new_item.items() if k not in keys_to_remove}
+
+        prompt = (f"{self.prompts['merge_check']}\n"
+                  f"--- 现有JSON对象 ---\n{json.dumps(existing_props, indent=2, ensure_ascii=False)}\n"
+                  f"--- 新JSON对象 ---\n{json.dumps(new_props, indent=2, ensure_ascii=False)}\n"
+                  f"--- 新对象是否提供了有价值的新信息？ (回答 YES 或 NO) ---")
+        try:
+            response = self.client.models.generate_content(model=f'models/{MERGE_CHECK_MODEL}', contents=prompt)
+            return response.text.strip().upper() == "YES" if response.text else True
+        except Exception:
+            return True # 默认返回True以进行合并，确保数据不会丢失
+
+    @gemini_flash_limiter.limit
+    def merge_items(self, existing_item: dict, new_item: dict, item_type: str) -> dict:
+        """调用LLM执行两个冲突项的智能合并。"""
+        keys_to_remove = {'id', 'name', 'source', 'target'}
+        existing_props = {k: v for k, v in existing_item.items() if k not in keys_to_remove}
+        new_props = {k: v for k, v in new_item.items() if k not in keys_to_remove}
+        prompt = (f"--- 现有{item_type} ---\n{json.dumps(existing_props, indent=2, ensure_ascii=False)}\n"
+                  f"--- 新{item_type} ---\n{json.dumps(new_props, indent=2, ensure_ascii=False)}\n"
+                  f"--- 合并后的最终JSON ---\n")
+        try:
+            response = self.client.models.generate_content(
+                model=f'models/{MERGE_EXECUTE_MODEL}', contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=self.prompts['merge_execute'],
+                    response_mime_type='application/json',
+                ),
+            )
+            if response.text:
+                merged_props = json.loads(response.text)
+                final_item = existing_item.copy()
+                final_item.update(merged_props)
+                return final_item
+        except Exception as e:
+            logger.error(f"LLM 合并失败 - {e}")
+        return existing_item # 合并失败时返回原始项
+
+    @gemma_limiter.limit
+    def clean_relations(self, rels_to_check: list, id_to_name_map: dict) -> list:
+        """调用LLM来判断应删除哪些冗余关系。"""
+        llm_payload = []
+        for r in rels_to_check:
+            rel_copy = {k: v for k, v in r.items() if k != 'temp_id'}
+            rel_copy['source'] = id_to_name_map.get(r.get('source'), r.get('source'))
+            rel_copy['target'] = id_to_name_map.get(r.get('target'), r.get('target'))
+            llm_payload.append(rel_copy)
+
+        prompt = self.prompts['clean_relations'] + "\n" + json.dumps(llm_payload, indent=2, ensure_ascii=False)
+        try:
+            response = self.client.models.generate_content(model=f'models/{MERGE_CHECK_MODEL}', contents=prompt)
+            if response.text:
+                cleaned_text = response.text.replace('```json', '').replace('```', '').strip()
+                types_to_delete = json.loads(cleaned_text)
+                return types_to_delete if isinstance(types_to_delete, list) else []
+        except Exception as e:
+            logger.error(f"LLM 关系清理失败: {e}")
+        return []
+
+    @gemini_flash_lite_limiter.limit
+    def validate_pr_diff(self, diff_content: str, file_name: str) -> str | None:
+        """调用LLM评估PR的diff内容。"""
+        prompt = self.prompts['validate_pr'].format(
+            file_name=file_name,
+            diff_content=diff_content[:15000] # 限制内容长度
+        )
+        try:
+            response = self.client.models.generate_content(
+                model=f'models/{VALIDATE_PR_MODEL}', contents=prompt
+            )
+            decision = response.text.strip() if response.text else None
+            return decision if decision in ["True", "False"] else None
+        except Exception as e:
+            logger.error(f"LLM API 调用 (PR验证) 失败: {e}")
+            return None
