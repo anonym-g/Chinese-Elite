@@ -1,14 +1,14 @@
-# scripts/app.py
+# bot_app/app.py
 
 import os
 import sys
-import asyncio
 import logging
 from flask import Flask, request, Response
 from telegram import Update
 from asgiref.wsgi import WsgiToAsgi
 
-from bot import create_bot_app_sync, ensure_bot_initialized
+# 使用相对路径导入
+from .bot import create_bot_app_sync, ensure_bot_initialized
 
 # --- 日志配置 ---
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
