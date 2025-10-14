@@ -24,6 +24,7 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
     - [项目状态](#项目状态)
     - [免责声明](#免责声明)
     - [贡献](#贡献)
+    - [数据修正详解](#数据修正详解)
     - [关于 Pull Request](#关于-pull-request)
   - [English Version](#english-version)
     - [Project Introduction](#project-introduction)
@@ -34,6 +35,7 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
     - [Project Status](#project-status)
     - [Disclaimer](#disclaimer)
     - [Contributing](#contributing)
+    - [Detail Explanation of Data Revisions](#detail-explanation-of-data-revisions)
     - [About Pull Requests](#about-pull-requests)
 
 -----
@@ -51,52 +53,70 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 ├── .cache/                     # 存放缓存文件 (Q-Code、链接状态、页面热度)
 ├── .github/
 │   └── workflows/
-│       ├── pr_auto_merger.yml  # 自动审查、合并单文件数据类 PR 的工作流
-│       └── update_data.yml     # 自动化数据更新工作流
-├── data/
+│       ├── daily_post.yml      # GitHub Action: 每日定时在Telegram频道发布“历史上的今天”
+│       ├── pr_auto_merger.yml  # GitHub Action: 自动审查、合并单文件数据类 PR
+│       └── update_data.yml     # GitHub Action: 自动化数据更新流水线
+├── bot_app/                    # Telegram 问答机器人 (基于 Flask + Webhook)
+│   ├── __init__.py
+│   ├── app.py                  # Flask 应用，提供 Webhook 入口
+│   ├── bot.py                  # 机器人核心逻辑，处理消息并与LLM交互
+│   └── set_webhook.py          # 用于设置 Webhook 的脚本
+├── data/                       # 存放LLM原始提取的JSON数据的根目录
 │   ├── person/
 │   │   └── ...                 # 按类别存放LLM原始提取的JSON数据
 │   ├── ...
 │   ├── processed_files.log     # 记录已合并处理的文件名
-│   └── LIST.md                # 待处理的实体种子列表 (按热度排序)
+│   └── LIST.md                 # 待处理的实体种子列表 (按热度排序)
 ├── data_to_be_cleaned/         # 存放由脚本分离出的待手动清理的数据
-├── docs/
+├── docs/                       # 前端可视化页面 (通过 GitHub Pages 部署)
+│   ├── assets/                 # 存放前端静态资源 (如Logo)
 │   ├── data/
-│   │   ├── nodes/              # 按需加载的“简单数据库”
-│   │   │   └── Q12345/
-│   │   │       └── node.json
-│   │   ├── initial.json        # 前端首次加载的核心图谱
-│   │   └── name_to_id.json     # 全局搜索的名称-ID映射索引
-│   ├── modules/
-│   │   ├── config.js           # 前端配置
-│   │   ├── dataProcessor.js    # 前端-数据处理
-│   │   ├── graphView.js        # 前端-PixiJS (WebGL) 视图渲染与交互
-│   │   ├── state.js            # 前端-状态管理
+│   │   ├── nodes/              # 按需加载的“简单数据库”，每个节点一个文件夹
+│   │   │   ├── Q12345/
+│   │   │   │   └── node.json
+│   │   │   └── ...
+│   │   ├── initial.json        # 前端首次加载的核心图谱数据
+│   │   └── name_to_id.json     # 全局搜索用的名称-ID映射索引
+│   ├── locales/                # 国际化 (i18n) 语言包
+│   │   ├── en.json             # 英文
+│   │   └── zh-cn.json          # 简体中文
+│   ├── modules/                # 前端 JavaScript 模块
+│   │   ├── config.js           # 前端-全局配置
+│   │   ├── dataProcessor.js    # 前端-数据加载、处理与过滤
+│   │   ├── graphView.js        # 前端-基于 PixiJS (WebGL) 的视图渲染与交互
+│   │   ├── i18n.js             # 前端-国际化处理模块
+│   │   ├── state.js            # 前端-全局状态管理
 │   │   ├── uiController.js     # 前端-UI控件与事件处理
 │   │   └── utils.js            # 前端-辅助工具函数
 │   ├── main.js                 # 前端-主入口文件
 │   ├── master_graph_qcode.json # 合并后的完整主图谱文件
-│   ├── index.html              # 可视化页面
+│   ├── index.html              # 可视化页面 HTML
 │   └── style.css               # 页面样式
 ├── logs/                       # 存放后端运行日志
-├── scripts/
-│   ├── prompts/                # 存放LLM的提示词 (Prompt) 文本
+├── scripts/                    # 后端 Python 业务逻辑脚本
+│   ├── clients/                # 封装与外部API交互的客户端
+│   │   └── wikipedia_client.py # 维基百科API客户端 (获取Wikitext, Q-Code等)
+│   ├── prompts/                # 存放所有LLM的提示词 (Prompt) 文本
 │   │   └── ...
+│   ├── services/               # 封装核心业务逻辑的服务
+│   │   ├── graph_io.py         # 封装图谱文件读写操作
+│   │   └── llm_service.py      # 封装与Google GenAI模型的所有交互
 │   ├── api_rate_limiter.py     # API速率限制器
-│   ├── check_pageviews.py      # 检查实体热度并重排序列表
+│   ├── check_pageviews.py      # (异步) 检查实体热度并重排序列表
 │   ├── clean_data.py           # 深度数据清洗与维护脚本
 │   ├── config.py               # 后端-所有路径和模型配置
 │   ├── generate_frontend_data.py # 生成所有前端数据文件
 │   ├── merge_graphs.py         # 增量数据智能合并脚本
-│   ├── parse_gemini.py         # LLM 解析脚本
 │   ├── process_list.py         # 根据列表处理实体的核心脚本
-│   ├── validate_pr.py          # PR 验证脚本
-│   └── utils.py                # 维基百科API客户端与辅助工具
-├── .env                        # (需自行创建) 存放 API 密钥
+│   ├── scheduled_tasks.py      # 定时任务脚本 (如“历史上的今天”)
+│   ├── utils.py                # 后端-通用辅助工具函数
+│   └── validate_pr.py          # PR 验证脚本
+├── .env                        # (需自行创建) 存放 API 密钥和 Telegram Token
 ├── .gitignore
-├── README.md
+├── README.md                   # 本文件
 ├── requirements.txt            # Python 依赖列表
-└── run_pipeline.py             # 完整流水线一键执行脚本
+├── run_pipeline.py             # 完整后端流水线一键执行脚本
+└── run_set_webhook.py          # 设置 Telegram Webhook 的入口脚本
 ```
 
 ### 数据结构
@@ -157,13 +177,29 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 
 这是一个开源项目，非常欢迎任何形式的贡献。无论你是开发者、数据科学家还是领域专家，都可以通过改进提取脚本、优化LLM提示、扩展种子列表、增强前端可视化或报告数据不准确之处来提供帮助。请自由 Fork 本仓库、开启 Issue 或提交 Pull Request。
 
-如果您希望修正数据，主要有两种方式。
+为保证社区用户可以更轻松地参与维护，本项目集成了一个由 LLM 驱动的自动化 Pull Request (PR) 处理系统。
 
-最直接的方式是直接修改 `docs/master_graph_qcode.json` 文件 (主数据文件) 。您可以克隆仓库，手动编辑此文件以修正错误的节点属性或关系，然后提交一个 Pull Request。
+该系统仅审查数据类 PR，即仅处理对两份项目文件的修改：一是修正 `docs/master_graph_qcode.json` 文件中的数据，二是向 `data/LIST.md` 文件中添加新的实体条目。
+
+进行这类贡献时，您必须遵循一个核心规则：每一次 Pull Request，只能包含对单个文件的修改。包含多个文件改动的 PR 将被该自动化系统忽略。
+
+UTC 时间 1 ~ 16 点，大约每半个小时，系统会自动进行一次 PR 审查。
+
+只要 PR 仅对上述两个文件之一进行了修改，AI 审查员会评估更改是否合理。
+
+如果更改被判定为有意义，PR 将被自动合并；反之，如果被判定为无意义或存在问题，PR 将被自动关闭并附上说明。
+
+另外，由于本项目配置了专门的自动化数据更新流水线（UTC 时间 18 点开始运行，至多持续 6 小时），若您当日的数据类 PR 没有被及时合并，次日可能会落后于主仓库版本。
+
+因此，请每日更新您用于提交 PR 的 Fork 仓库分支。
+
+### 数据修正详解
+
+1. 修改 `docs/master_graph_qcode.json` 文件 (主数据文件) 。您可以克隆仓库，手动编辑此文件以修正错误的节点属性或关系，然后提交一个 Pull Request。
 
 请注意，LLM在提取数据时存在一些普遍问题，例如：它可能会生成一些较弱的冗余关系（如同时生成 `BLOCKED`、`INFLUENCED`，后者通常可直接删去）；对于部分有向关系（如 `INFLUENCED`），它有时会弄反源节点和目标节点。我们尤其欢迎针对这类数据错误的修正。
 
-另一种方式是通过添加种子列表来影响数据。在 `data/LIST.md` 的前6个栏目中添加实体名称，可以让脚本在后续运行时检索对应的维基百科页面。
+2. 修改种子列表。在 `data/LIST.md` 的前6个栏目中添加实体名称，可以让脚本在后续运行时检索对应的维基百科页面。
 
 注意，考虑到脚本的工作方式，您必须添加完整的维基百科页面名。以下举两例说明：
 
@@ -206,24 +242,6 @@ new
 
 ```
 
-为保证社区用户可以更轻松地参与维护，本项目集成了一个由 LLM 驱动的自动化 Pull Request (PR) 处理系统。
-
-为了确保您的贡献能被系统正确识别和合并，请仔细阅读以下说明。
-
-该系统仅审查数据类 PR，即仅处理对两份项目文件的修改：一是修正 `docs/master_graph_qcode.json` 文件中的数据，二是向 `data/LIST.md` 文件中添加新的实体条目。
-
-进行这类贡献时，您必须遵循一个核心规则：每一次 Pull Request，只能包含对单个文件的修改。包含多个文件改动的 PR 将被该自动化系统忽略。
-
-UTC 时间 1 ~ 16 点，大约每半个小时，系统会自动进行一次 PR 审查。
-
-只要 PR 仅对上述两个文件之一进行了修改，AI 审查员会评估更改是否合理。
-
-如果更改被判定为有意义，PR 将被自动合并；反之，如果被判定为无意义或存在问题，PR 将被自动关闭并附上说明。
-
-另外，由于本项目配置了专门的自动化数据更新流水线（UTC 时间 18 点开始运行，至多持续 6 小时），若您当日的数据类 PR 没有被及时合并，次日可能会落后于主仓库版本。
-
-因此，请每日更新您用于提交 PR 的 Fork 仓库分支。
-
 ### 关于 Pull Request
 
 在提交贡献时，理解 GitHub Pull Request 的工作机制至关重要。
@@ -262,55 +280,73 @@ This project leverages the power of Large Language Models to extract information
 
 ```
 .
-├── .cache/                   # Stores cache files (Q-Codes, link status, page views)
+├── .cache/                     # Stores cache files (Q-Codes, link status, page views)
 ├── .github/
 │   └── workflows/
-│       ├── pr_auto_merger.yml  # Workflow to auto-review and merge single-file data PRs
-│       └── update_data.yml   # Workflow for automated data updates
-├── data/
+│       ├── daily_post.yml      # GitHub Action: Daily "On This Day" Telegram Channel post
+│       ├── pr_auto_merger.yml  # GitHub Action: Auto-review and merge single-file data PRs
+│       └── update_data.yml     # GitHub Action: Workflow for automated data updates
+├── bot_app/                    # Telegram Q&A Bot (based on Flask + Webhook)
+│   ├── __init__.py
+│   ├── app.py                  # Flask application, provides Webhook entry point
+│   ├── bot.py                  # Core bot logic, handles messages and interacts with LLM
+│   └── set_webhook.py          # Script for setting the webhook
+├── data/                       # Root directory for raw JSON data extracted by LLM
 │   ├── person/
-│   │   └── ...               # Raw JSON data extracted by LLM, categorized
+│   │   └── ...                 # Raw JSON data extracted by LLM, categorized
 │   ├── ...
-│   ├── processed_files.log   # Logs filenames that have been merged
-│   └── LIST.md              # Seed list of entities to be processed (sorted by popularity)
-├── data_to_be_cleaned/       # Stores data separated by scripts for manual cleaning
-├── docs/
+│   ├── processed_files.log     # Logs filenames that have been merged and processed
+│   └── LIST.md                 # Seed list of entities to be processed (sorted by popularity)
+├── data_to_be_cleaned/         # Stores data separated by scripts for manual cleaning
+├── docs/                       # Frontend visualization page (deployed via GitHub Pages)
+│   ├── assets/                 # Stores static assets for frontend (e.g., logos)
 │   ├── data/
-│   │   ├── nodes/            # "Simple database" for on-demand loading
-│   │   │   └── Q12345/
-│   │   │       └── node.json
-│   │   ├── initial.json      # Core graph for initial frontend load
-│   │   └── name_to_id.json   # Name-to-ID mapping index for global search
-│   ├── modules/
-│   │   ├── config.js         # Frontend configuration
-│   │   ├── dataProcessor.js  # Frontend - Data processing
-│   │   ├── graphView.js      # Frontend - PixiJS (WebGL) view rendering and interaction
-│   │   ├── state.js          # Frontend - State management
-│   │   ├── uiController.js   # Frontend - UI controls and event handling
-│   │   └── utils.js          # Frontend - Utility functions
-│   ├── main.js               # Frontend - Main entry point
+│   │   ├── nodes/              # "Simple database" for on-demand loading, one folder per node
+│   │   │   ├── Q12345/
+│   │   │   │   └── node.json
+│   │   │   └── ...
+│   │   ├── initial.json        # Core graph data for initial frontend load
+│   │   └── name_to_id.json     # Name-to-ID mapping index for global search
+│   ├── locales/                # Internationalization (i18n) language packs
+│   │   ├── en.json             # English
+│   │   └── zh-cn.json          # Simplified Chinese
+│   ├── modules/                # Frontend JavaScript modules
+│   │   ├── config.js           # Frontend - Global configuration
+│   │   ├── dataProcessor.js    # Frontend - Data loading, processing, and filtering
+│   │   ├── graphView.js        # Frontend - PixiJS (WebGL) based view rendering and interaction
+│   │   ├── i18n.js             # Frontend - Internationalization handling module
+│   │   ├── state.js            # Frontend - Global state management
+│   │   ├── uiController.js     # Frontend - UI controls and event handling
+│   │   └── utils.js            # Frontend - Utility functions
+│   ├── main.js                 # Frontend - Main entry point
 │   ├── master_graph_qcode.json # The final, complete master graph file
-│   ├── index.html            # Visualization page
-│   └── style.css             # Page stylesheet
-├── logs/                     # Stores backend runtime logs
-├── scripts/
-│   ├── prompts/              # Stores prompt text files for the LLM
+│   ├── index.html              # Visualization page HTML
+│   └── style.css               # Page stylesheet
+├── logs/                       # Stores backend runtime logs
+├── scripts/                    # Backend Python business logic scripts
+│   ├── clients/                # Clients for interacting with external APIs
+│   │   └── wikipedia_client.py # Wikipedia API client (fetches Wikitext, Q-Codes, etc.)
+│   ├── prompts/                # Stores all prompt text files for the LLM
 │   │   └── ...
-│   ├── api_rate_limiter.py   # API rate limiter
-│   ├── check_pageviews.py    # Checks entity popularity and reorders the list
-│   ├── clean_data.py         # Deep data cleaning and maintenance script
-│   ├── config.py             # Backend - Configuration for all paths and models
+│   ├── services/               # Services encapsulating core business logic
+│   │   ├── graph_io.py         # Encapsulates graph file I/O operations
+│   │   └── llm_service.py      # Encapsulates all interactions with Google GenAI models
+│   ├── api_rate_limiter.py     # API rate limiter
+│   ├── check_pageviews.py      # (Async) Checks entity popularity and reorders the list
+│   ├── clean_data.py           # Deep data cleaning and maintenance script
+│   ├── config.py               # Backend - Configuration for all paths and models
 │   ├── generate_frontend_data.py # Generates all frontend data files
-│   ├── merge_graphs.py       # Script for intelligent incremental data merging
-│   ├── parse_gemini.py       # LLM parsing script
-│   ├── process_list.py       # Core script for processing entities from the list
-│   ├── validate_pr.py        # PR validation script
-│   └── utils.py              # Wikipedia API client and helper utilities
-├── .env                      # (Must be created manually) Stores API key
+│   ├── merge_graphs.py         # Script for intelligent incremental data merging
+│   ├── process_list.py         # Core script for processing entities from the list
+│   ├── scheduled_tasks.py      # Scheduled tasks script (e.g., "On This Day")
+│   ├── utils.py                # Backend - General helper utility functions
+│   └── validate_pr.py          # PR validation script
+├── .env                        # (Must be created manually) Stores API key and Telegram Token
 ├── .gitignore
-├── README.md
-├── requirements.txt          # Python dependency list
-└── run_pipeline.py           # One-click script to run the entire pipeline
+├── README.md                   # This file
+├── requirements.txt            # Python dependency list
+├── run_pipeline.py             # One-click script to run the entire backend pipeline
+└── run_set_webhook.py          # Entry point script to set the Telegram webhook
 ```
 
 ### Data Structure
@@ -371,58 +407,7 @@ The data presented by this tool is for informational and research purposes only.
 
 This is an open-source project, and contributions of all forms are highly welcome. Whether you are a developer, data scientist, or domain expert, you can help by improving the extraction scripts, fine-tuning the LLM prompts, expanding the seed list, enhancing the front-end visualization, or reporting data inaccuracies. Please feel free to fork this repository, open an issue, or submit a pull request.
 
-If you wish to correct data, there are two primary methods.
-
-The most direct way is to edit the `docs/master_graph_qcode.json` file (the main data file). You can clone the repository, manually edit this file to fix incorrect node properties or relationships, and then submit a Pull Request.
-
-Please note that there are common issues with LLM-based extraction. For example, it may generate weak, redundant relationships (e.g., generating both `BLOCKED` and `INFLUENCED`, where the latter can often be deleted), or it may sometimes reverse the source and target for directed relationships (like `INFLUENCED`). We especially welcome corrections for these types of data errors.
-
-Another way is to influence the data by adding to the seed list. Adding entity names to the first six categories in `data/LIST.md` will cause the script to retrieve the corresponding Wikipedia pages during its next run.
-
-Note that due to how the script works, you must add the full Wikipedia page title. Here are two examples:
-
-For the Central People's Government from 1949-1954, the Wikipedia page URL is https://zh.wikipedia.org/wiki/中华人民共和国中央人民政府_(1949年—1954年)
-
-You would need to copy the full page title, "中华人民共和国中央人民政府 (1949年—1954年)" (underscores can be replaced with spaces, but other parts must match the page title exactly, including hyphens and characters), and add it under the Organization category in the `data/LIST.md` file.
-
-For Chiang Kai-shek, the Wikipedia page URL is https://zh.wikipedia.org/wiki/蔣中正
-
-You would need to copy "蔣中正" (in Traditional Chinese) and add it under the Person category in the `data/LIST.md` file.
-
-```data/LIST.md
-Person
-...
-蔣中正
-
-Organization
-...
-中华人民共和国中央人民政府 (1949年—1954年)
-
-...
-
-```
-
-This way, when the GitHub Action Bot next runs `.github/workflows/update_data.yml`, it will automatically process these two pages and extract relevant information using the LLM—provided the LLM API usage has not exceeded its limit.
-
-Additionally, when adding these terms, please use `Shift + F` to quickly check for duplicates. If the term is already in the first six categories, there is no need to add it. If the term is under the `new` category, please delete it (terms under `new` are not processed and act as a buffer pool).
-
-```data/LIST.md
-Person
-...
-蔣中正
-
-...
-
-new
-...
-~~蔣中正~~
-...
-
-```
-
 To make it easier for the community to participate in maintenance, this project integrates an LLM-driven automated Pull Request (PR) processing system.
-
-To ensure your contributions are correctly recognized and merged by the system, please read the following instructions carefully.
 
 The system only reviews data-related PRs, meaning it exclusively processes modifications to two project files: corrections to the `docs/master_graph_qcode.json` file and additions of new entities to the `data/LIST.md` file.
 
@@ -437,6 +422,55 @@ If the change is deemed meaningful, the PR will be automatically merged. Convers
 Additionally, because this project has a dedicated automated data update pipeline (which starts at 18:00 UTC and can run for up to 6 hours), if your data-related PR is not merged promptly on the same day, it may fall out of sync with the main repository's version.
 
 Therefore, please ensure the branch on your fork used for submitting PRs is updated daily.
+
+### Detail Explanation of Data Revisions
+
+1. Edit the `docs/master_graph_qcode.json` file (the main data file). You can clone the repository, manually edit this file to fix incorrect node properties or relationships, and then submit a Pull Request.
+
+Please note that there are common issues with LLM-based extraction. For example, it may generate weak, redundant relationships (e.g., generating both `BLOCKED` and `INFLUENCED`, where the latter can often be deleted), or it may sometimes reverse the source and target for directed relationships (like `INFLUENCED`). We especially welcome corrections for these types of data errors.
+
+2. Adding to the seed list. Adding entity names to the first six categories in `data/LIST.md` will cause the script to retrieve the corresponding Wikipedia pages during its next run.
+
+Note that due to how the script works, you must add the full Wikipedia page title. Here are two examples:
+
+For the Central People's Government from 1949-1954, the Wikipedia page URL is [https://en.wikipedia.org/wiki/Central_People's_Government_of_the_People's_Republic_of_China_(1949–1954)](https://en.wikipedia.org/wiki/Central_People's_Government_of_the_People's_Republic_of_China_(1949–1954))
+
+You would need to copy the full page title, "Central People's Government of the People's Republic of China (1949–1954)" (underscores can be replaced with spaces, but other parts must match the page title exactly, including hyphens and characters), and add it under the Organization category in the `data/LIST.md` file, with a "(en) " prefix.
+
+For Chiang Kai-shek, the Wikipedia page URL is [https://en.wikipedia.org/wiki/Chiang_Kai-shek](https://en.wikipedia.org/wiki/Chiang_Kai-shek)
+
+You would need to copy "Chiang Kai-shek", and add it under the Person category in the `data/LIST.md` file.
+
+```data/LIST.md
+Person
+...
+(en) Chiang Kai-shek
+
+Organization
+...
+(en) Central People's Government of the People's Republic of China (1949–1954)
+
+...
+
+```
+
+This way, when the GitHub Action Bot next runs `.github/workflows/update_data.yml`, it will automatically process these two pages and extract relevant information using the LLM—provided the LLM API usage has not exceeded its limit.
+
+Additionally, when adding these terms, please use `Shift + F` to quickly check for duplicates. If the term is already in the first six categories, there is no need to add it. If the term is under the `new` category, please delete it (terms under `new` are not processed and act as a buffer pool).
+
+```data/LIST.md
+Person
+...
+(en) Chiang Kai-shek
+
+...
+
+new
+...
+~~(en) Chiang Kai-shek~~
+...
+
+```
 
 ### About Pull Requests
 
