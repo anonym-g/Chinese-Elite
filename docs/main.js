@@ -86,6 +86,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             stateManager.pinNodes([d.id], 'click');
+
+            // 更新Wiki链接框
+            uiController.updateWikiLinks(isDeselecting ? null : d);
             
             if (isDeselecting) {
                 // 如果是取消选中，也清理当前节点的定时器和固定状态
@@ -137,6 +140,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         },
         onSvgClick: () => {
+            uiController.hideWikiLinks();
+            
             // 1. 立即停止任何正在进行的路径动画
             graphView.stopPathAnimation();
             // 2. 立即将图谱视觉效果恢复到默认状态

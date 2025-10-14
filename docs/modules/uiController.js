@@ -16,10 +16,17 @@ export class UIController {
         // --- 查询并缓存所有需要的DOM元素 ---
         this.searchTriggerContainer = document.getElementById('search-trigger-container');
         this.searchToggleButton = document.getElementById('search-toggle-btn');
+
         this.searchModeSelector = document.getElementById('search-mode-selector');
         this.searchModeCurrent = document.getElementById('search-mode-current');
         this.searchModeOptions = document.getElementById('search-mode-options');
+
         this.searchInputPanel = document.getElementById('search-input-panel');
+
+        this.wikiLinkContainer = document.getElementById('wiki-link-container');
+        this.wikiLinksList = document.getElementById('wiki-links-list');
+        this.wikiCloseBtn = document.getElementById('wiki-close-btn');
+
         this.legendWrapper = document.querySelector('.legend-wrapper');
         this.errorToast = document.getElementById('error-toast');
         this.errorToastMessage = document.getElementById('error-toast-message');
@@ -101,12 +108,15 @@ export class UIController {
         });
         document.getElementById('search-panel-close-btn').addEventListener('click', () => this._closeSearchPanel());
 
+        // --- 维基链接面板事件 ---
+        this.wikiCloseBtn.addEventListener('click', () => this.hideWikiLinks());
+
         // --- 错误提示框事件 ---
         document.getElementById('error-toast-close').addEventListener('click', () => this._handleErrorToastClose());
 
-        // --- 监听图例大小变化以调整搜索面板位置 ---
+        // --- 监听图例大小变化以调整UI面板位置 ---
         this.legendObserver = new ResizeObserver(() => {
-            this._updateSearchPanelPosition();
+            this._updateUIPanelPositions();
         });
         this.legendObserver.observe(this.legendWrapper);
     }
@@ -268,10 +278,80 @@ export class UIController {
         this._openSearchPanel();
     }
     
+    /**
+     * 更新或创建Wiki链接浮动窗口
+     * @param {object | null} nodeData - The data object for the highlighted node, or null to hide.
+     */
+    updateWikiLinks(nodeData) {
+        if (!nodeData || !nodeData.name) {
+            this.hideWikiLinks();
+            return;
+        }
+
+        this.wikiLinksList.innerHTML = ''; // 清空旧链接
+
+        const nameObj = nodeData.name;
+        // 定义语言优先级
+        const langPriority = ['zh-cn', 'en'];
+        const availableLangs = new Set(Object.keys(nameObj));
+        
+        // 合并并去重
+        const languagesToShow = [...new Set([...langPriority, ...availableLangs])];
+
+        let linksAdded = false;
+        languagesToShow.forEach(lang => {
+            if (nameObj[lang] && nameObj[lang][0]) {
+                const name = nameObj[lang][0];
+                const link = document.createElement('a');
+                let url = '';
+                let text = '';
+
+                if (lang === 'zh-cn') {
+                    url = `https://zh.wikipedia.org/zh-cn/${encodeURIComponent(name)}`;
+                    text = `${name} - 维基百科，自由的百科全书`;
+                } else if (lang === 'en') {
+                    url = `https://en.wikipedia.org/wiki/${encodeURIComponent(name)}`;
+                    text = `${name} - Wikipedia`;
+                } else {
+                    // 为其他语言提供一个通用后备
+                    url = `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(name)}`;
+                    text = `${name} - Wikipedia (${lang})`;
+                }
+
+                link.href = url;
+                link.textContent = text;
+                link.target = '_blank';
+                link.rel = 'noopener noreferrer';
+                this.wikiLinksList.appendChild(link);
+                linksAdded = true;
+            }
+        });
+
+        if (linksAdded) {
+            this.wikiLinkContainer.classList.add('visible');
+        } else {
+            this.hideWikiLinks();
+        }
+    }
+
+    /**
+     * 隐藏Wiki链接浮动窗口
+     */
+    hideWikiLinks() {
+        this.wikiLinkContainer.classList.remove('visible');
+    }
+    
+    _updateUIPanelPositions() {
+        const legendRect = this.legendWrapper.getBoundingClientRect();
+        const topPosition = `${legendRect.bottom}px`;
+        this.searchInputPanel.style.top = topPosition;
+        this.wikiLinkContainer.style.top = topPosition;
+    }
+
     _openSearchPanel() {
         if (this.uiState.isSearchPanelOpen) return;
         this.uiState.isSearchPanelOpen = true;
-        this._updateSearchPanelPosition();
+        this._updateUIPanelPositions();
         this.searchInputPanel.classList.remove('collapsed');
     }
 
@@ -279,11 +359,6 @@ export class UIController {
         if (!this.uiState.isSearchPanelOpen) return;
         this.uiState.isSearchPanelOpen = false;
         this.searchInputPanel.classList.add('collapsed');
-    }
-
-    _updateSearchPanelPosition() {
-        const legendRect = this.legendWrapper.getBoundingClientRect();
-        this.searchInputPanel.style.top = `${legendRect.bottom}px`;
     }
 
     _handleNodeSearch() {

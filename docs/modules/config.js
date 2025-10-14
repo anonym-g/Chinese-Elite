@@ -4,8 +4,8 @@
  * 全局配置文件
  */
 const CONFIG = {
-    // DATA_FILE_URL: './data/initial.json',
-    DATA_FILE_URL: './master_graph_qcode.json',
+    DATA_FILE_URL: './data/initial.json',
+    // DATA_FILE_URL: './master_graph_qcode.json',
     DATA_DIR: './data/',
     
     // 全局名称到ID的映射文件
