@@ -73,8 +73,8 @@ def read_project_file(file_path: str) -> str:
         if os.path.isdir(abs_file_path):
             return f"错误：这是一个目录，无法读取: {file_path}"
         with open(abs_file_path, 'r', encoding='utf-8') as f:
-            content = f.read(15000)
-            if len(content) == 15000:
+            content = f.read(5000)
+            if len(content) == 5000:
                 return content + "\n... (文件内容过长，已截断)"
             return content
     except Exception as e:

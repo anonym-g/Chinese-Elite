@@ -308,7 +308,7 @@ def format_message(top_items: list, qcode_to_name: dict, pageviews_cache: dict, 
         lines.append("".join(line_parts))
         
     footer = (
-        f"\n\n`数据由 @ChineseElite_Bot 自动生成`\n"
+        f"\n\n`数据由 @ChineseEliteTelegramBot 自动生成`\n"
         f"➡️ [项目主页]({WEBSITE_URL})\n"
         f"▪️ [代码仓库]({REPO_URL})"
     )
