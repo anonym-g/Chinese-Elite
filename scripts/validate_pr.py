@@ -67,7 +67,18 @@ def main():
         logger.info("检测到对主图谱的修改，正在翻译 Q-Code...")
         
         graph = graph_io.load_master_graph(MASTER_GRAPH_PATH)
-        qcode_map = {node['id']: node.get('name', {}).get('zh-cn', [node['id']])[0] for node in graph.get('nodes', [])}
+        qcode_map = {}
+        for node in graph.get('nodes', []):
+            node_id = node.get('id')
+            if not node_id: continue
+            name_obj = node.get('name', {})
+            primary_name = (
+                name_obj.get('zh-cn', [None])[0] or
+                name_obj.get('en', [None])[0] or
+                next((names[0] for names in name_obj.values() if names), node_id)
+            )
+            qcode_map[node_id] = primary_name
+        
         final_diff_for_llm = translate_diff_for_llm(diff_content, qcode_map)
     elif file_to_check == "data/LIST.md":
         logger.info("检测到对列表文件的修改，直接评估。")

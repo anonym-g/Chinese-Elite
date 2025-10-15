@@ -11,9 +11,13 @@ from google.genai import types
 
 # 使用相对路径导入
 from ..config import (
-    PARSER_MODEL, MERGE_CHECK_MODEL, MERGE_EXECUTE_MODEL, VALIDATE_PR_MODEL,
-    PARSER_SYSTEM_PROMPT_PATH, MERGE_CHECK_PROMPT_PATH, MERGE_EXECUTE_PROMPT_PATH,
-    VALIDATE_PR_PROMPT_PATH, MASTER_GRAPH_PATH,
+    PARSER_MODEL, 
+    MERGE_CHECK_MODEL, MERGE_EXECUTE_MODEL, RELATION_CLEANER_MODEL, 
+    VALIDATE_PR_MODEL,
+    PARSER_SYSTEM_PROMPT_PATH, 
+    MERGE_CHECK_PROMPT_PATH, MERGE_EXECUTE_PROMPT_PATH, CLEAN_SINGLE_RELATION_PROMPT_PATH,
+    VALIDATE_PR_PROMPT_PATH, 
+    MASTER_GRAPH_PATH,
     FEW_SHOT_NODE_SAMPLES, FEW_SHOT_REL_SAMPLES
 )
 from ..api_rate_limiter import (
@@ -47,8 +51,8 @@ class LLMService:
             'parser_system': self._load_prompt(PARSER_SYSTEM_PROMPT_PATH),
             'merge_check': self._load_prompt(MERGE_CHECK_PROMPT_PATH),
             'merge_execute': self._load_prompt(MERGE_EXECUTE_PROMPT_PATH),
-            'validate_pr': self._load_prompt(VALIDATE_PR_PROMPT_PATH),
-            'clean_relations': self._load_prompt(os.path.join(os.path.dirname(PARSER_SYSTEM_PROMPT_PATH), 'clean_relations.txt'))
+            'clean_single_relation': self._load_prompt(CLEAN_SINGLE_RELATION_PROMPT_PATH),
+            'validate_pr': self._load_prompt(VALIDATE_PR_PROMPT_PATH)
         }
 
     def _load_prompt(self, path: str) -> str:
@@ -70,7 +74,18 @@ class LLMService:
             relationships = data.get('relationships', [])
             if not nodes or not relationships: return ""
 
-            id_to_name_map = {n['id']: n.get('name', {}).get('zh-cn', [n['id']])[0] for n in nodes}
+            id_to_name_map = {}
+            for n in nodes:
+                node_id = n.get('id')
+                if not node_id: continue
+                name_obj = n.get('name', {})
+                # 优先级: zh-cn -> en -> 其他语言 -> ID
+                primary_name = (
+                    name_obj.get('zh-cn', [None])[0] or
+                    name_obj.get('en', [None])[0] or
+                    next((names[0] for names in name_obj.values() if names), node_id)
+                )
+                id_to_name_map[node_id] = primary_name
             
             node_samples = random.sample(nodes, min(len(nodes), FEW_SHOT_NODE_SAMPLES))
             rel_samples = random.sample(relationships, min(len(relationships), FEW_SHOT_REL_SAMPLES))
@@ -167,25 +182,42 @@ class LLMService:
         return existing_item # 合并失败时返回原始项
 
     @gemma_limiter.limit
-    def clean_relations(self, rels_to_check: list, id_to_name_map: dict) -> list:
-        """调用LLM来判断应删除哪些冗余关系。"""
-        llm_payload = []
-        for r in rels_to_check:
-            rel_copy = {k: v for k, v in r.items() if k != 'temp_id'}
-            rel_copy['source'] = id_to_name_map.get(r.get('source'), r.get('source'))
-            rel_copy['target'] = id_to_name_map.get(r.get('target'), r.get('target'))
-            llm_payload.append(rel_copy)
+    def is_relation_deletable(self, relation: dict, id_to_name_map: dict) -> bool | None:
+        """
+        使用LLM判断单条关系是否应被删除。
+        返回 True 表示应删除, False 表示应保留. None 表示API调用失败。
+        """
+        rel_copy = copy.deepcopy(relation)
+        rel_copy['source'] = id_to_name_map.get(relation.get('source'), relation.get('source'))
+        rel_copy['target'] = id_to_name_map.get(relation.get('target'), relation.get('target'))
 
-        prompt = self.prompts['clean_relations'] + "\n" + json.dumps(llm_payload, indent=2, ensure_ascii=False)
+        prompt = self.prompts['clean_single_relation'] + "\n" + json.dumps(rel_copy, indent=2, ensure_ascii=False)
+
+        # # --- 打印发送给LLM的完整内容 ---
+        # logger.info(f"向LLM发送关系审查请求:\n{json.dumps(rel_copy, indent=2, ensure_ascii=False)}")
+
         try:
-            response = self.client.models.generate_content(model=f'models/{MERGE_CHECK_MODEL}', contents=prompt)
+            response = self.client.models.generate_content(
+                model=f'models/{RELATION_CLEANER_MODEL}', contents=prompt
+            )
+
+            # --- 打印LLM的原始返回 ---
+            raw_response_text = response.text if hasattr(response, 'text') else "N/A"
+            logger.info(f"LLM原始返回: '{raw_response_text}'")
+
             if response.text:
-                cleaned_text = response.text.replace('```json', '').replace('```', '').strip()
-                types_to_delete = json.loads(cleaned_text)
-                return types_to_delete if isinstance(types_to_delete, list) else []
+                decision = response.text.strip().upper()
+                
+                if 'TRUE' in decision:
+                    logger.info("LLM决策: True (删除)")
+                    return True
+                if 'FALSE' in decision:
+                    logger.info("LLM决策: False (保留)")
+                    return False
+            return None # 如果响应不是明确的TRUE/FALSE，则视为失败
         except Exception as e:
-            logger.error(f"LLM 关系清理失败: {e}")
-        return []
+            logger.warning(f"LLM 关系清洗API调用失败: {e}")
+            return None
 
     @gemini_flash_lite_limiter.limit
     def validate_pr_diff(self, diff_content: str, file_name: str) -> str | None:
