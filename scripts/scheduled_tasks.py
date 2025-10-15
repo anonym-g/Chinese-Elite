@@ -57,10 +57,18 @@ def load_data():
             pageviews_cache = json.load(f)
         
         # 构建一个从 Q-Code 到主名称的映射，以提高后续查找效率
-        qcode_to_name = {
-            node['id']: node.get('name', {}).get('zh-cn', [node['id']])[0]
-            for node in graph_data.get('nodes', [])
-        }
+        qcode_to_name = {}
+        for node in graph_data.get('nodes', []):
+            node_id = node.get('id')
+            if not node_id: continue
+            name_obj = node.get('name', {})
+            # 优先级: zh-cn -> en -> 第一个找到的 -> ID
+            primary_name = (
+                name_obj.get('zh-cn', [None])[0] or
+                name_obj.get('en', [None])[0] or
+                next((names[0] for names in name_obj.values() if names), node_id)
+            )
+            qcode_to_name[node_id] = primary_name
         
         return graph_data, pageviews_cache, qcode_to_name
     except FileNotFoundError as e:
