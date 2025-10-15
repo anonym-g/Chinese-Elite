@@ -1,0 +1,410 @@
+{
+  "nodes": [
+    {
+      "id": "梁齐昕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁齐昕"
+        ],
+        "en": [
+          "Leung Chai-yan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1991-09-11 - 2025-04-08",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "英属香港",
+          "en": "British Hong Kong"
+        },
+        "death_place": {
+          "zh-cn": "香港筲箕湾",
+          "en": "Shau Kei Wan, Hong Kong"
+        },
+        "description": {
+          "zh-cn": "香港前行政长官梁振英次女",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "梁振英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁振英"
+        ],
+        "en": [
+          "Leung Chun-ying"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "香港第四任行政长官、现任全国政协副主席",
+          "en": "The fourth Chief Executive of Hong Kong and current Vice Chairman of the National Committee of the CPPCC"
+        }
+      }
+    },
+    {
+      "id": "唐青仪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐青仪",
+          "梁唐青仪"
+        ],
+        "en": [
+          "Regina Tong Ching-yee"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "梁振英的妻子",
+          "en": "Spouse of Leung Chun-ying"
+        }
+      }
+    },
+    {
+      "id": "梁传昕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁传昕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "梁振英之子",
+          "en": "Son of Leung Chun-ying"
+        }
+      }
+    },
+    {
+      "id": "梁颂昕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁颂昕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "梁振英之女",
+          "en": "Daughter of Leung Chun-ying"
+        }
+      }
+    },
+    {
+      "id": "英属香港",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "英属香港"
+        ],
+        "en": [
+          "British Hong Kong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "香港",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "香港"
+        ],
+        "en": [
+          "Hong Kong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "筲箕湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "筲箕湾"
+        ],
+        "en": [
+          "Shau Kei Wan"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "伦敦政治经济学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伦敦政治经济学院"
+        ],
+        "en": [
+          "London School of Economics and Political Science"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "圣保罗男女中学附属小学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圣保罗男女中学附属小学"
+        ],
+        "en": [
+          "St. Paul's Co-educational College Primary School"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "德瑞国际学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德瑞国际学校"
+        ],
+        "en": [
+          "German Swiss International School"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "威克姆阿贝学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "威克姆阿贝学校"
+        ],
+        "en": [
+          "Wycombe Abbey"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "让爱与和平占领中环",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "让爱与和平占领中环",
+          "占领中环"
+        ],
+        "en": [
+          "Occupy Central with Love and Peace"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "香港特别行政区行政长官",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港特别行政区行政长官",
+          "行政长官"
+        ],
+        "en": [
+          "Chief Executive of Hong Kong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "全国政协副主席",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国政协副主席"
+        ],
+        "en": [
+          "Vice Chairman of the National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "梁齐昕",
+      "target": "梁振英",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "唐青仪",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁振英",
+      "target": "唐青仪",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "梁传昕",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "梁传昕是梁齐昕的兄长",
+          "en": "Leung Chuen-yan is Leung Chai-yan's elder brother"
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "梁颂昕",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "梁颂昕是梁齐昕的妹妹",
+          "en": "Leung Chung-yan is Leung Chai-yan's younger sister"
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "英属香港",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "伦敦政治经济学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "2013-06",
+        "degree": {
+          "zh-cn": "法律系（肄业）",
+          "en": "Law (dropped out)"
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "圣保罗男女中学附属小学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "德瑞国际学校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "威克姆阿贝学校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "2010",
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "唐青仪",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2015-03-17",
+        "end_date": "2015-11-01",
+        "description": {
+          "zh-cn": "于2015年3月在Facebook声称遭母亲虐待，并于同年11月在街上掌掴母亲。",
+          "en": "Claimed to be abused by her mother on Facebook in March 2015, and slapped her in public in November of the same year."
+        }
+      }
+    },
+    {
+      "source": "梁齐昕",
+      "target": "让爱与和平占领中环",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014",
+        "description": {
+          "zh-cn": "在Facebook发文挑衅占中抗议民众。",
+          "en": "Provoked Occupy Central protesters with posts on Facebook."
+        }
+      }
+    },
+    {
+      "source": "梁振英",
+      "target": "香港特别行政区行政长官",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第四任行政长官",
+          "en": "The 4th Chief Executive"
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "梁振英",
+      "target": "全国政协副主席",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    }
+  ]
+}
