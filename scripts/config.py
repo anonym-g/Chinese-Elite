@@ -18,6 +18,7 @@ DATA_TO_BE_CLEANED_DIR = os.path.join(ROOT_DIR, 'data_to_be_cleaned')
 
 # --- 缓存目录 ---
 CACHE_DIR = os.path.join(ROOT_DIR, '.cache')
+FALSE_RELATIONS_CACHE_PATH = os.path.join(CACHE_DIR, 'false_relations_cache.json')
 
 # --- 文档/输出 目录配置 ---
 DOCS_DIR = os.path.join(ROOT_DIR, 'docs')
@@ -30,11 +31,20 @@ PROB_END_DAY = 30
 PROB_START_VALUE = 1 / 12
 PROB_END_VALUE = 9 / 10
 
+# --- 关系清洗概率配置 ---
+REL_CLEAN_NUM = 1000 # 每次运行检查的关系数量
+REL_CLEAN_SKIP_DAYS = 30
+REL_CLEAN_PROB_START_DAYS = 30
+REL_CLEAN_PROB_END_DAYS = 90
+REL_CLEAN_PROB_START_VALUE = 1 / 12
+REL_CLEAN_PROB_END_VALUE = 9 / 10
+
 # --- Prompt 路径配置 ---
 PROMPTS_DIR = os.path.join(os.path.dirname(__file__), 'prompts')
 PARSER_SYSTEM_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'parser_system.txt')
 MERGE_CHECK_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'merge_check.txt')
 MERGE_EXECUTE_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'merge_execute.txt')
+CLEAN_SINGLE_RELATION_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'clean_single_relation.txt')
 VALIDATE_PR_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'pr_validator.txt')
 BOT_QA_PROMPT = os.path.join(PROMPTS_DIR, 'bot_rag.txt')
 
@@ -45,6 +55,8 @@ PARSER_MODEL = "gemini-2.5-pro"
 MERGE_CHECK_MODEL = "gemma-3-27b-it"
 # 用于执行两个JSON对象的智能合并
 MERGE_EXECUTE_MODEL = "gemini-2.5-flash"
+# 用于单条关系清洗的模型
+RELATION_CLEANER_MODEL = "gemma-3-27b-it"
 # 用于验证PR有效性的模型
 VALIDATE_PR_MODEL = "gemini-2.5-flash-lite"
 # Telegram Bot调用的模型
