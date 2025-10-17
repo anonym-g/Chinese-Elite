@@ -40,8 +40,9 @@ class LLMService:
     """
     def __init__(self):
         try:
-            self.client = genai.Client()
-            logger.info("Google GenAI Client 初始化成功。")
+            http_options = types.HttpOptions(timeout=120 * 1000)
+            self.client = genai.Client(http_options=http_options)
+            logger.info("Google GenAI Client 初始化成功 (超时设置为120秒)。")
         except Exception as e:
             logger.critical(f"严重错误: 初始化 Google GenAI Client 失败。请检查 API 密钥。", exc_info=True)
             sys.exit(1)

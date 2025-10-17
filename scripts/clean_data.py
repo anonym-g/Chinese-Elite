@@ -8,6 +8,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from collections import deque
 import logging
+import concurrent.futures
 
 # 使用相对路径导入
 from .config import (
@@ -162,8 +163,8 @@ class GraphCleaner:
         return node_id
 
     def _clean_individual_relationships(self, nodes: list, relationships: list) -> list:
-        """对随机抽样的单条关系进行LLM审查和清理。"""
-        logger.info("\n--- 步骤 3/3: 清理单条的错误/低质量关系 ---")
+        """对随机抽样的单条关系进行有速率限制的并行LLM审查和清理。"""
+        logger.info("\n--- 步骤 3/3: 清理单条的错误/低质量关系 (并行批处理模式) ---")
         
         id_to_name_map = {n['id']: self._get_primary_name(n) for n in nodes}
         now = datetime.now(timezone.utc)
@@ -180,23 +181,21 @@ class GraphCleaner:
                     cache_time = datetime.fromisoformat(self.false_relations_cache[key]['timestamp'])
                     age_days = (now - cache_time).days
 
-                    if age_days <= REL_CLEAN_SKIP_DAYS:
-                        continue # 30天内，跳过
+                    if age_days <= REL_CLEAN_SKIP_DAYS: continue # 30天内，跳过
                     elif REL_CLEAN_PROB_START_DAYS < age_days <= REL_CLEAN_PROB_END_DAYS:
                         ratio = (age_days - REL_CLEAN_PROB_START_DAYS) / (REL_CLEAN_PROB_END_DAYS - REL_CLEAN_PROB_START_DAYS)
                         prob = REL_CLEAN_PROB_START_VALUE + (REL_CLEAN_PROB_END_VALUE - REL_CLEAN_PROB_START_VALUE) * ratio
-                        if random.random() < prob:
-                            candidates.append(rel) # 概率命中，成为候选
-                    else: # 90天以上，缓存失效
-                        candidates.append(rel)
-                except (ValueError, TypeError):
-                    candidates.append(rel) # 缓存时间戳格式错误，视为无效
-            else:
-                candidates.append(rel) # 不在缓存中，成为候选
+                        
+                        if random.random() < prob: candidates.append(rel) # 概率命中，成为候选
+                    else: candidates.append(rel) # 90天以上，缓存失效
+                except (ValueError, TypeError): candidates.append(rel) # 缓存时间戳格式错误，视为无效
+            else: candidates.append(rel) # 不在缓存中，成为候选
 
         if not candidates:
             logger.info("未发现需要检查的关系。")
-            return [r for r in relationships if 'temp_id' in r.pop('temp_id', None)]
+            # 清理掉临时ID后返回
+            for r in relationships: r.pop('temp_id', None)
+            return relationships
 
         # 2. 随机抽样
         sample_size = min(REL_CLEAN_NUM, len(candidates))
@@ -205,40 +204,59 @@ class GraphCleaner:
         
         logger.info(f"从 {len(candidates)} 条候选关系中，随机抽取 {len(rels_to_check)} 条进行检查。")
         
-        # 3. 使用栈和多轮检查机制调用LLM
-        processing_stack = deque(rels_to_check)
+        # 3. 多轮重试，包裹并行批处理
+        BATCH_SIZE, MAX_ROUNDS, COOLDOWN_SECONDS = 15, 20, 30
         ids_to_delete = set()
-        max_rounds = 20
-        cooldown_between_rounds_seconds = 30 # 每轮检查后的冷却时间（秒）
-
-        for round_num in range(1, max_rounds + 1):
-            if not processing_stack: break
-            logger.info(f"--- 开始第 {round_num}/{max_rounds} 轮检查 (剩余: {len(processing_stack)} 条) ---")
-            
-            items_this_round = list(processing_stack)
-            processing_stack.clear() # 清空栈，未处理的将被重新压入
-
-            for rel in items_this_round:
-                decision = self.llm_service.is_relation_deletable(rel, id_to_name_map)
-                if decision is True:
-                    ids_to_delete.add(rel['temp_id'])
-                    logger.info(f"  - [删除] {id_to_name_map.get(rel['source'])} -> {id_to_name_map.get(rel['target'])} ({rel['type']})")
-                elif decision is False:
-                    key = self._get_canonical_rel_key(rel)
-                    if key:
-                        self.false_relations_cache[key] = {'timestamp': now.isoformat()}
-                        self.cache_updated = True
-                else: # API调用失败
-                    processing_stack.append(rel) # 压回栈中，待下轮处理
-            
-            # 如果栈中仍有待处理项，且不是最后一轮，则进入冷却
-            if processing_stack and round_num < max_rounds:
-                logger.info(f"第 {round_num} 轮结束，进入 {cooldown_between_rounds_seconds} 秒冷却时间...")
-                time.sleep(cooldown_between_rounds_seconds)
         
-        if processing_stack:
-            logger.warning(f"{len(processing_stack)} 条关系在 {max_rounds} 轮后仍未处理成功，将保留。")
+        def process_relation(relation):
+            return self.llm_service.is_relation_deletable(relation, id_to_name_map)
 
+        for round_num in range(1, MAX_ROUNDS + 1):
+            if not rels_to_check:
+                break
+            
+            logger.info(f"\n--- 开始第 {round_num}/{MAX_ROUNDS} 轮检查 (待处理: {len(rels_to_check)} 条) ---")
+            
+            failed_this_round = []
+
+            total_batches_this_round = (len(rels_to_check) + BATCH_SIZE - 1) // BATCH_SIZE
+            
+            # 并行批处理
+            for i in range(0, len(rels_to_check), BATCH_SIZE):
+                batch = rels_to_check[i:i + BATCH_SIZE]
+
+                batch_num = (i // BATCH_SIZE) + 1
+                logger.info(f"  - 正在处理批次 {batch_num}/{total_batches_this_round} (共 {len(batch)} 条关系)")
+                
+                with concurrent.futures.ThreadPoolExecutor(max_workers=BATCH_SIZE) as executor:
+                    future_to_rel = {executor.submit(process_relation, rel): rel for rel in batch}
+                    for future in concurrent.futures.as_completed(future_to_rel):
+                        rel = future_to_rel[future]
+                        try:
+                            decision = future.result()
+                            if decision is True:
+                                ids_to_delete.add(rel['temp_id'])
+                            elif decision is False:
+                                key = self._get_canonical_rel_key(rel)
+                                if key:
+                                    self.false_relations_cache[key] = {'timestamp': now.isoformat()}
+                                    self.cache_updated = True
+                            else: # 返回 None (API call failed)
+                                failed_this_round.append(rel)
+                        except Exception as exc:
+                            logger.error(f"处理关系 {rel['temp_id']} 时发生异常: {exc}")
+                            failed_this_round.append(rel)
+
+            # 将本轮失败的任务作为下一轮的输入
+            rels_to_check = failed_this_round
+            
+            if rels_to_check and round_num < MAX_ROUNDS:
+                logger.warning(f"第 {round_num} 轮有 {len(rels_to_check)} 条关系处理失败，将在 {COOLDOWN_SECONDS} 秒后重试...")
+                time.sleep(COOLDOWN_SECONDS)
+        
+        if rels_to_check:
+            logger.error(f"在 {MAX_ROUNDS} 轮后，仍有 {len(rels_to_check)} 条关系未能成功处理。")
+        
         # 4. 根据结果构建最终的关系列表
         final_relationships = []
         for rel in relationships:
