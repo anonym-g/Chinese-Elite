@@ -110,7 +110,8 @@ class APIRateLimiter:
             try:
                 self._check_and_wait()
                 result = func(*args, **kwargs)
-                self.increment_and_save()
+                if result is not None:
+                    self.increment_and_save()
                 return result
             except DailyQuotaExceededError:
                 if self.counter_file:
