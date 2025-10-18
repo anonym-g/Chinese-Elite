@@ -8,6 +8,7 @@ from datetime import date
 from collections import deque
 from functools import wraps
 import logging
+import random
 
 # 使用相对路径导入
 from .config import CACHE_DIR
@@ -112,6 +113,11 @@ class APIRateLimiter:
                 result = func(*args, **kwargs)
                 if result is not None:
                     self.increment_and_save()
+                else:
+                    # API调用失败 (返回None) 时，以 25% 的几率增加计数。
+                    if random.random() < 0.25:
+                        logger.info(f"函数 '{func.__name__}' 调用失败，按25%的概率增加RPD计数。")
+                        self.increment_and_save()
                 return result
             except DailyQuotaExceededError:
                 if self.counter_file:
@@ -132,48 +138,48 @@ class APIRateLimiter:
 
 # --- 限制器实例定义 ---
 
-# RPD 统一乘125%，以容纳网络波动/Token超限等特殊异常导致的请求次数虚高。
+# RPD 统一乘 112.5%，以容纳网络波动/Token超限等特殊异常导致的请求次数虚高。
 # https://ai.google.dev/gemini-api/docs/rate-limits
 
 # Gemini-2.5-pro, RPM: 5, RPD: 100.
 gemini_pro_limiter = APIRateLimiter(
     max_requests=5, per_seconds=60, 
-    rpd_limit=125, 
+    rpd_limit=113, 
     counter_name='gemini_pro'
 )
 
 # Gemini-2.5-flash, RPM: 10, RPD: 250
 gemini_flash_limiter = APIRateLimiter(
     max_requests=10, per_seconds=60, 
-    rpd_limit=312, 
+    rpd_limit=281, 
     counter_name='gemini_flash'
 )
 
 # Gemini-2.5-flash-preview-09-2025, RPM: 10, RPD: 250
 gemini_flash_preview_limiter = APIRateLimiter(
     max_requests=10, per_seconds=60, 
-    rpd_limit=312, 
+    rpd_limit=281, 
     counter_name='gemini_flash'
 )
 
 # Gemini-2.5-flash-lite, RPM: 15, RPD: 1000
 gemini_flash_lite_limiter = APIRateLimiter(
     max_requests=15, per_seconds=60, 
-    rpd_limit=1250, 
+    rpd_limit=1125, 
     counter_name='gemini_flash_lite'
 )
 
 # Gemini-2.5-flash-lite-preview-09-2025, RPM: 15, RPD: 1000
 gemini_flash_lite_preview_limiter = APIRateLimiter(
     max_requests=15, per_seconds=60, 
-    rpd_limit=1250, 
+    rpd_limit=1125, 
     counter_name='gemini_flash_lite_preview'
 )
 
 # Gemma-3-27b-it, RPM: 30, RPD: 14400
 gemma_limiter = APIRateLimiter(
     max_requests=30, per_seconds=60, 
-    rpd_limit=18000, 
+    rpd_limit=16200, 
     counter_name='gemma'
 )
 
