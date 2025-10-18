@@ -1,0 +1,939 @@
+{
+  "nodes": [
+    {
+      "id": "张飞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张飞",
+          "益德",
+          "翼德"
+        ],
+        "en": [
+          "Zhang Fei"
+        ]
+      },
+      "properties": {
+        "period": " - 221",
+        "lifetime": " - 221",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "蜀汉",
+          "en": "Shu Han"
+        },
+        "birth_place": {
+          "zh-cn": "涿郡",
+          "en": "Zhuo Commandery"
+        },
+        "death_place": {
+          "zh-cn": "阆中县",
+          "en": "Langzhong County"
+        },
+        "description": {
+          "zh-cn": "东汉末年至三国时期蜀汉名将，五虎上将之一。",
+          "en": "A military general serving under the warlord Liu Bei in the late Eastern Han dynasty and the state of Shu Han during the Three Kingdoms period of China."
+        }
+      }
+    },
+    {
+      "id": "刘备",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘备"
+        ],
+        "en": [
+          "Liu Bei"
+        ]
+      },
+      "properties": {
+        "period": "161 - 223",
+        "lifetime": "161 - 223",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉开国皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "关羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "关羽"
+        ],
+        "en": [
+          "Guan Yu"
+        ]
+      },
+      "properties": {
+        "period": " - 220",
+        "lifetime": " - 220",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年至三国时期蜀汉名将。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "蜀汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蜀汉"
+        ],
+        "en": [
+          "Shu Han"
+        ]
+      },
+      "properties": {
+        "period": "221 - 263",
+        "location": {
+          "zh-cn": "成都",
+          "en": "Chengdu"
+        },
+        "description": {
+          "zh-cn": "三国时期西南方的政权。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "夏侯氏 (张飞妻)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "夏侯氏 (张飞妻)",
+          "夏侯氏"
+        ],
+        "en": [
+          "Lady Xiahou (Zhang Fei's wife)"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "张飞之妻，夏侯渊侄女。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "夏侯渊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "夏侯渊"
+        ],
+        "en": [
+          "Xiahou Yuan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年曹操麾下名将。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张苞 (蜀汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张苞 (蜀汉)",
+          "张苞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "张飞长子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张绍 (三国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张绍 (三国)",
+          "张绍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "张飞次子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "敬哀皇后 (蜀汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "敬哀皇后 (蜀汉)",
+          "敬哀张皇后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "lifetime": " - 237",
+        "description": {
+          "zh-cn": "张飞长女，刘禅的第一位皇后。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张皇后 (刘禅)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张皇后 (刘禅)",
+          "张皇后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "张飞次女，刘禅的第二位皇后。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "刘禅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘禅"
+        ],
+        "en": [
+          "Liu Shan"
+        ]
+      },
+      "properties": {
+        "lifetime": "207 - 271",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉后主。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张遵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张遵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "张苞之子，张飞之孙。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "吕布",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕布"
+        ],
+        "en": [
+          "Lü Bu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年名将及割据军阀。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "曹豹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹豹"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年下邳相，被张飞所杀。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操"
+        ],
+        "en": [
+          "Cao Cao"
+        ]
+      },
+      "properties": {
+        "lifetime": "155 - 220",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年权臣，曹魏的奠基者。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "长坂坡之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "长坂坡之战"
+        ],
+        "en": [
+          "Battle of Changban"
+        ]
+      },
+      "properties": {
+        "period": "208",
+        "description": {
+          "zh-cn": "曹操追击刘备的战役，张飞据水断桥。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "严颜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "严颜"
+        ],
+        "en": [
+          "Yan Yan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年刘璋麾下巴郡太守。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张郃",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张郃"
+        ],
+        "en": [
+          "Zhang He"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期曹魏名将。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "曹洪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹洪"
+        ],
+        "en": [
+          "Cao Hong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期曹魏名将。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张达 (三国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张达 (三国)",
+          "张达"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "张飞帐下将领，后刺杀张飞。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "范彊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "范彊"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "张飞帐下将领，后刺杀张飞。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "刘巴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘巴"
+        ],
+        "en": [
+          "Liu Ba"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉官员，看不起张飞。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "马超",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马超"
+        ],
+        "en": [
+          "Ma Chao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年至三国时期蜀汉名将。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "涿郡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "涿郡"
+        ],
+        "en": [
+          "Zhuo Commandery"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张飞的出生地，位于今河北省涿州市。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "阆中县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "阆中县"
+        ],
+        "en": [
+          "Langzhong County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张飞的逝世地，位于今四川省阆中市。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "万人敌",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "万人敌"
+        ],
+        "en": [
+          "Enemy of ten thousand"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "对勇将的赞誉性泛称。",
+          "en": "An epithet for exceptionally valiant generals."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张飞",
+      "target": "刘备",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "184",
+        "end_date": "221",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张飞自184年起跟随刘备，为其效力直至去世。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "蜀汉",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "221",
+        "end_date": "221",
+        "position": {
+          "zh-cn": "车骑将军、司隶校尉、西乡侯",
+          "en": "General of Chariots and Cavalry, Colonel-Director of Retainers, Marquis of Xixiang"
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "关羽",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "184",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "与刘备、关羽恩若兄弟，并称“万人敌”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "夏侯氏 (张飞妻)",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "200",
+        "end_date": "221",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "夏侯氏在200年被张飞所得，成为其妻。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张苞 (蜀汉)",
+      "target": "张飞",
+      "type": "CHILD_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张苞是张飞的长子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张绍 (三国)",
+      "target": "张飞",
+      "type": "CHILD_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张绍是张飞的次子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "敬哀皇后 (蜀汉)",
+      "target": "张飞",
+      "type": "CHILD_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "敬哀皇后是张飞的长女。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张皇后 (刘禅)",
+      "target": "张飞",
+      "type": "CHILD_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张皇后是张飞的次女。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张遵",
+      "target": "张苞 (蜀汉)",
+      "type": "CHILD_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张遵是张苞的儿子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "敬哀皇后 (蜀汉)",
+      "target": "刘禅",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "221",
+        "end_date": "237",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张皇后 (刘禅)",
+      "target": "刘禅",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "238",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "夏侯氏 (张飞妻)",
+      "target": "夏侯渊",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "夏侯氏是夏侯渊的侄女。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "吕布",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "196",
+        "end_date": "198",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "吕布袭取下邳，与刘备、张飞交战。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "曹豹",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "196",
+        "end_date": "196",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张飞与下邳相曹豹不和，后将其杀死。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "曹操",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "208",
+        "end_date": "208",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在长坂坡之战中，张飞率二十骑据水断桥，阻挡了曹操的追兵。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "严颜",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张飞在攻打益州时生擒严颜，因钦佩其气节而释放并待为上宾。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "张郃",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "215",
+        "end_date": "215",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张飞在巴西之战中击败张郃。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "曹洪",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "217",
+        "end_date": "217",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在下辨之战中，张飞所部被曹洪击败。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张达 (三国)",
+      "target": "张飞",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "221",
+        "end_date": "221",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张达作为张飞的帐下将领，与范彊一同刺杀了张飞。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "范彊",
+      "target": "张飞",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "221",
+        "end_date": "221",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "范彊作为张飞的帐下将领，与张达一同刺杀了张飞。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "刘巴",
+      "target": "张飞",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "刘巴看不起出身武人的张飞，不愿与其交谈。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "马超",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "217",
+        "end_date": "217",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "在汉中之战期间，刘备分遣张飞、马超、吴兰等攻取武都。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "涿郡",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "万人敌",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "时人程昱、周瑜等皆称张飞、关羽为“万人敌”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "关羽",
+      "target": "万人敌",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "时人程昱、周瑜等皆称张飞、关羽为“万人敌”。",
+          "en": ""
+        }
+      }
+    }
+  ]
+}
