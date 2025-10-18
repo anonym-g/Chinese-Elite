@@ -1,0 +1,379 @@
+{
+  "nodes": [
+    {
+      "id": "戚夫人",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "戚夫人",
+          "戚姬",
+          "戚懿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -0194",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "定陶县",
+          "en": ""
+        },
+        "death_place": {
+          "zh-cn": "厕所",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "汉高祖刘邦的宠妃，赵王刘如意的生母。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "刘邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘邦",
+          "汉高祖刘邦",
+          "高祖",
+          "汉王"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉朝开国皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "刘如意",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘如意",
+          "赵王"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉高祖刘邦与戚夫人的儿子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "吕雉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕雉",
+          "吕后",
+          "太后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "汉高祖刘邦的皇后，汉惠帝刘盈的母亲。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "定陶县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "定陶县"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于今山东省菏泽市定陶区，是戚夫人的出生地。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "汉惠帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉惠帝",
+          "刘盈",
+          "惠帝",
+          "孝惠帝",
+          "太子"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉朝第二位皇帝，刘邦与吕后之子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张良",
+          "留侯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉初大臣，为吕后出谋划策保住太子刘盈的地位。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "叔孙通",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叔孙通"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉初大臣，反对废黜太子刘盈。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "戚鳃",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "戚鳃"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "戚夫人的父亲。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "永巷歌",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "永巷歌"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "戚夫人在被囚禁时所作的歌曲。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "厕所",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "厕所",
+          "茅房"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "戚夫人被虐杀并弃尸的地方。",
+          "en": ""
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "戚夫人",
+      "target": "刘邦",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "戚夫人是汉高祖刘邦的宠妃。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "刘如意",
+      "target": "戚夫人",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "戚夫人是刘如意的生母。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "刘如意",
+      "target": "刘邦",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "汉惠帝",
+      "target": "吕雉",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "汉惠帝刘盈是吕雉的儿子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "戚夫人",
+      "target": "戚鳃",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "据《百家姓考略》载，戚夫人是戚鳃的女儿。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "吕雉",
+      "target": "戚夫人",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-0194",
+        "description": {
+          "zh-cn": "刘邦死后，吕后将戚夫人囚禁、虐待，并最终将其虐杀，命名为“人彘”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "吕雉",
+      "target": "刘如意",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "吕后设计毒杀了刘如意。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "戚夫人",
+      "target": "汉惠帝",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "戚夫人希望册立自己的儿子刘如意为太子，以取代当时的太子刘盈。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "汉惠帝",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘邦认为太子刘盈不像自己，常常打算废掉太子改立刘如意。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "永巷歌",
+      "target": "吕雉",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "戚夫人在《永巷歌》中提及儿子，激怒了吕后，促使吕后下决心谋害刘如意。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "吕雉",
+      "target": "汉惠帝",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "吕后虐杀戚夫人的残忍行为导致汉惠帝刘盈受到巨大精神打击，大病一场，从此不理政事。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "吕雉",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "为吕后出谋划策，帮助她保住了其子刘盈的太子之位。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "叔孙通",
+      "target": "汉惠帝",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "竭力反对更换太子，通过进谏保住了刘盈的太子之位。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "戚夫人",
+      "target": "定陶县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "戚夫人",
+      "target": "厕所",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "戚夫人惨死于茅房，后在中国部分地区被民众奉为厕神。",
+          "en": ""
+        }
+      }
+    }
+  ]
+}

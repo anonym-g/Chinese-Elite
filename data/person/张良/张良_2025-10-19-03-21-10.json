@@ -1,0 +1,934 @@
+{
+  "nodes": [
+    {
+      "id": "张良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张良",
+          "子房",
+          "留侯",
+          "文成",
+          "谋圣"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -186",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "城父",
+          "en": "Chengfu"
+        },
+        "description": {
+          "zh-cn": "汉朝开国功臣，与萧何、韩信同为汉初三杰。",
+          "en": "A strategist and official who served as an advisor to Emperor Gaozu of Han and was one of the 'Three Heroes of the early Han dynasty'."
+        }
+      }
+    },
+    {
+      "id": "秦始皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦始皇"
+        ],
+        "en": [
+          "Qin Shi Huang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国历史上首位完成华夏大一统的政治人物，秦朝开国皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "刘邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘邦",
+          "汉高祖"
+        ],
+        "en": [
+          "Liu Bang",
+          "Emperor Gaozu of Han"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉朝开国皇帝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "项羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项羽"
+        ],
+        "en": [
+          "Xiang Yu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦末起义军领袖，西楚霸王。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张平 (战国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张平 (战国)",
+          "张平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张良之父，战国时期韩国相国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张开地",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张开地"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张良之祖父，战国时期韩国相国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张不疑",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张不疑"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张良长子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "张辟强",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张辟强"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张良次子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "韩国 (战国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "韩国 (战国)",
+          "韩"
+        ],
+        "en": [
+          "Han (state)"
+        ]
+      },
+      "properties": {
+        "period": " - -230",
+        "description": {
+          "zh-cn": "中国战国时代的一个诸侯国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "秦朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦朝",
+          "秦"
+        ],
+        "en": [
+          "Qin dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-221 - -207",
+        "description": {
+          "zh-cn": "中国历史上第一个大一统的帝国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "汉朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉朝"
+        ],
+        "en": [
+          "Han dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-202 - 220",
+        "description": {
+          "zh-cn": "继秦朝之后的大一统王朝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "西汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西汉"
+        ],
+        "en": [
+          "Western Han"
+        ]
+      },
+      "properties": {
+        "period": "-202 - 9",
+        "description": {
+          "zh-cn": "汉朝的前半期。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "黄石公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄石公"
+        ],
+        "en": [
+          "Huang Shigong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦末汉初的隐士，传说曾授予张良兵书。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "太公兵法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "太公兵法"
+        ],
+        "en": [
+          "Taigong's Art of War"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代兵书，相传为黄石公授予张良。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "项伯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项伯"
+        ],
+        "en": [
+          "Xiang Bo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "项羽的堂叔，曾在鸿门宴中帮助刘邦。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "项梁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项梁"
+        ],
+        "en": [
+          "Xiang Liang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "项羽的叔父，秦末起义军领袖之一。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "韩王成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩王成",
+          "韩成"
+        ],
+        "en": [
+          "King Cheng of Han"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "战国时期韩国公子，后被项梁立为韩王。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "章邯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "章邯"
+        ],
+        "en": [
+          "Zhang Han"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦朝末年将领。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "鸿门宴",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "鸿门宴"
+        ],
+        "en": [
+          "Feast at Hong Gate"
+        ]
+      },
+      "properties": {
+        "period": "-206",
+        "description": {
+          "zh-cn": "项羽在鸿门宴请刘邦，期间发生的一系列事件。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "楚汉相争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "楚汉相争"
+        ],
+        "en": [
+          "Chu–Han Contention"
+        ]
+      },
+      "properties": {
+        "period": "-206 - -202",
+        "description": {
+          "zh-cn": "项羽和刘邦为争夺统治权而进行的战争。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "吕后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕后",
+          "吕雉"
+        ],
+        "en": [
+          "Empress Lü"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉高祖刘邦的皇后。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "郦食其",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郦食其"
+        ],
+        "en": [
+          "Li Yiji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "刘邦的谋士。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "陈平 (汉朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈平 (汉朝)",
+          "陈平"
+        ],
+        "en": [
+          "Chen Ping (Han dynasty)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉朝开国功臣，曾为刘邦出谋划策。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "鸿沟条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "鸿沟条约"
+        ],
+        "en": [
+          "Treaty of Hong Canal"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "楚汉相争期间，项羽与刘邦议和所订立的盟约。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "长安",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "长安"
+        ],
+        "en": [
+          "Chang'an"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉首都。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "雍齿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雍齿"
+        ],
+        "en": [
+          "Yong Chi"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦末汉初人物，原为刘邦部将，后归降刘邦。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "汉惠帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉惠帝",
+          "刘盈"
+        ],
+        "en": [
+          "Emperor Hui of Han"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉第二位皇帝，刘邦与吕后之子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "商山四皓",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "商山四皓"
+        ],
+        "en": [
+          "Four Whiteheads of Mount Shang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦末汉初的四位著名隐士，曾帮助稳定汉惠帝的太子之位。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "樊哙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "樊哙"
+        ],
+        "en": [
+          "Fan Kuai"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉朝开国元勋，刘邦的连襟。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "城父",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "城父"
+        ],
+        "en": [
+          "Chengfu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张良的籍贯地。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "萧何",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萧何"
+        ],
+        "en": [
+          "Xiao He"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉朝开国功臣，汉初三杰之一。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "韩信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩信"
+        ],
+        "en": [
+          "Han Xin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉朝开国功臣，汉初三杰之一。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "汉初三杰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉初三杰"
+        ],
+        "en": [
+          "Three Heroes of the early Han dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "对汉朝开国功臣萧何、张良、韩信三人的合称。",
+          "en": ""
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张良",
+      "target": "张平 (战国)",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张良是张平的儿子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张平 (战国)",
+      "target": "张开地",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张平是张开地的儿子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张不疑",
+      "target": "张良",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张不疑是张良的儿子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张辟强",
+      "target": "张良",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张辟强是张良的儿子。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "城父",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "张良籍贯为城父。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦朝",
+      "target": "韩国 (战国)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-230",
+        "description": {
+          "zh-cn": "秦国于公元前230年灭亡韩国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "秦始皇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "为替韩国复仇，在博浪沙伏击行刺秦始皇，但未成功。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "项伯",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "曾帮助杀人后逃亡的项伯躲避秦廷的拘捕。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "黄石公",
+      "target": "张良",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在下邳圯桥上赠予张良《太公兵法》。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "太公兵法",
+      "target": "张良",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "张良通过研读《太公兵法》，成为杰出的谋士。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "刘邦",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "谋臣",
+          "en": "Advisor"
+        },
+        "description": {
+          "zh-cn": "张良加入刘邦部队，成为其重要谋士，协助其建立汉朝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "项梁",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "游说项梁拥立韩国公子韩成为韩王，以复兴韩国。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "韩王成",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "司徒",
+          "en": "Minister over the Masses"
+        },
+        "description": {
+          "zh-cn": "在韩成被立为韩王后，张良跟随并辅佐他，被封为韩国司徒。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "章邯",
+      "target": "项梁",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在定陶之战中击败并杀死项梁。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "刘邦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在鸿门宴事件中，通过项伯斡旋并召来樊哙，帮助刘邦化解了被项羽攻击的危机。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "项伯",
+      "target": "刘邦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在鸿门宴前向张良告密，并在宴会中为刘邦说情，帮助其脱险。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "樊哙",
+      "target": "刘邦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在鸿门宴上，应张良请求闯入宴席，斥责项羽，打断了项庄的刺杀企图，保护了刘邦。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "项羽",
+      "target": "韩王成",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-206",
+        "description": {
+          "zh-cn": "因疑心韩成与刘邦勾结，先是阻止其就藩，后于公元前206年将其诛杀。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "郦食其",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "坚决反对郦食其建议刘邦分封六国后裔的计划，认为此举会引发后患。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "刘邦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "与陈平一同主张撕毁鸿沟条约，立即攻击项羽，最终取得楚汉相争的胜利。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "汉朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-202",
+        "description": {
+          "zh-cn": "刘邦在楚汉相争中获胜后，建立了汉朝。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "刘邦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "建议刘邦首先封赏其最痛恨的雍齿，以此安定群臣之心，化解了潜在的造反危机。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "雍齿",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘邦承认雍齿是其生平最痛恨的人，因雍齿曾多次羞辱他。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "吕后",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在刘邦欲废黜太子刘盈时，为吕后献策，请出商山四皓劝谏刘邦，成功保住了刘盈的太子之位。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "商山四皓",
+      "target": "汉惠帝",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "应张良之策，出山辅佐太子刘盈，使刘邦放弃了废黜太子的想法，从而稳固了刘盈的继承人地位。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "汉初三杰",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张良与萧何、韩信并称为“汉初三杰”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "萧何",
+      "target": "汉初三杰",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "萧何与张良、韩信并称为“汉初三杰”。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "韩信",
+      "target": "汉初三杰",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "韩信与张良、萧何并称为“汉初三杰”。",
+          "en": ""
+        }
+      }
+    }
+  ]
+}
