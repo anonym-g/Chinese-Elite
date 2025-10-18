@@ -21,7 +21,9 @@ from ..config import (
     FEW_SHOT_NODE_SAMPLES, FEW_SHOT_REL_SAMPLES
 )
 from ..api_rate_limiter import (
-    gemini_pro_limiter, gemma_limiter, gemini_flash_limiter, gemini_flash_lite_limiter
+    gemini_pro_limiter, 
+    gemini_flash_limiter, gemini_flash_preview_limiter, gemini_flash_lite_limiter, 
+    gemma_limiter
 )
 from . import graph_io
 
@@ -65,6 +67,18 @@ class LLMService:
             logger.critical(f"严重错误: Prompt 文件 '{path}' 未找到。")
             sys.exit(2)
 
+    def _get_primary_name(self, node_id: str, node_obj: dict) -> str:
+        """从节点对象中提取一个优先的、人类可读的名称。"""
+        if not node_obj:
+            return node_id
+        name_obj = node_obj.get('name', {})
+        # 优先级: zh-cn -> en -> 其他语言的第一个 -> 节点ID
+        return (
+            name_obj.get('zh-cn', [None])[0] or
+            name_obj.get('en', [None])[0] or
+            next((names[0] for lang, names in name_obj.items() if names), node_id)
+        )
+
     def _get_few_shot_examples(self) -> str:
         """从主图谱文件中随机抽取节点和关系作为few-shot范例。"""
         if not os.path.exists(MASTER_GRAPH_PATH):
@@ -79,13 +93,8 @@ class LLMService:
             for n in nodes:
                 node_id = n.get('id')
                 if not node_id: continue
-                name_obj = n.get('name', {})
-                # 优先级: zh-cn -> en -> 其他语言 -> ID
-                primary_name = (
-                    name_obj.get('zh-cn', [None])[0] or
-                    name_obj.get('en', [None])[0] or
-                    next((names[0] for names in name_obj.values() if names), node_id)
-                )
+                
+                primary_name = self._get_primary_name(node_id, n)
                 id_to_name_map[node_id] = primary_name
             
             node_samples = random.sample(nodes, min(len(nodes), FEW_SHOT_NODE_SAMPLES))
@@ -182,20 +191,32 @@ class LLMService:
             logger.error(f"LLM 合并失败 - {e}")
         return existing_item # 合并失败时返回原始项
 
-    @gemma_limiter.limit
-    def is_relation_deletable(self, relation: dict, id_to_name_map: dict) -> bool | None:
+    @gemini_flash_lite_limiter.limit
+    def is_relation_deletable(self, relation: dict, id_to_node_map: dict) -> bool | None:
         """
         使用LLM判断单条关系是否应被删除。
-        返回 True 表示应删除, False 表示应保留. None 表示API调用失败。
+        返回 True 表示应删除, False 表示应保留。 None 表示API调用失败。
         """
         rel_copy = copy.deepcopy(relation)
-        rel_copy['source'] = id_to_name_map.get(relation.get('source'), relation.get('source'))
-        rel_copy['target'] = id_to_name_map.get(relation.get('target'), relation.get('target'))
+
+        def _format_node_info(node_id: str) -> str:
+            """内部辅助函数，用于格式化节点信息字符串。"""
+            node = id_to_node_map.get(node_id)
+            if not node:
+                return node_id or "Unknown"
+
+            primary_name = self._get_primary_name(node_id, node)
+            
+            node_type = node.get('type', 'Unknown')
+            return f"{primary_name} (Type: {node_type})"
+
+        rel_copy['source'] = _format_node_info(relation.get('source'))
+        rel_copy['target'] = _format_node_info(relation.get('target'))
 
         prompt = self.prompts['clean_single_relation'] + "\n" + json.dumps(rel_copy, indent=2, ensure_ascii=False)
 
-        # # --- 打印发送给LLM的完整内容 ---
-        # logger.info(f"向LLM发送关系审查请求:\n{json.dumps(rel_copy, indent=2, ensure_ascii=False)}")
+        # --- 打印发送给LLM的完整内容 ---
+        logger.info(f"向LLM发送关系审查请求:\n{json.dumps(rel_copy, indent=2, ensure_ascii=False)}")
 
         try:
             response = self.client.models.generate_content(
@@ -209,18 +230,18 @@ class LLMService:
             if response.text:
                 decision = response.text.strip().upper()
                 
-                if 'TRUE' in decision:
-                    logger.info("LLM决策: True (删除)")
-                    return True
                 if 'FALSE' in decision:
                     logger.info("LLM决策: False (保留)")
                     return False
+                if 'TRUE' in decision:
+                    logger.info("LLM决策: True (删除)")
+                    return True
             return None # 如果响应不是明确的TRUE/FALSE，则视为失败
         except Exception as e:
             logger.warning(f"LLM 关系清洗API调用失败: {e}")
             return None
 
-    @gemini_flash_lite_limiter.limit
+    @gemini_flash_preview_limiter.limit
     def validate_pr_diff(self, diff_content: str, file_name: str) -> str | None:
         """调用LLM评估PR的diff内容。"""
         prompt = self.prompts['validate_pr'].format(

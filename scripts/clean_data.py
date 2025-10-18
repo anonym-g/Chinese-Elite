@@ -166,7 +166,7 @@ class GraphCleaner:
         """对随机抽样的单条关系进行有速率限制的并行LLM审查和清理。"""
         logger.info("\n--- 步骤 3/3: 清理单条的错误/低质量关系 (并行批处理模式) ---")
         
-        id_to_name_map = {n['id']: self._get_primary_name(n) for n in nodes}
+        id_to_node_map = {n['id']: n for n in nodes}
         now = datetime.now(timezone.utc)
         
         # 1. 筛选出可供抽样的候选关系
@@ -205,11 +205,11 @@ class GraphCleaner:
         logger.info(f"从 {len(candidates)} 条候选关系中，随机抽取 {len(rels_to_check)} 条进行检查。")
         
         # 3. 多轮重试，包裹并行批处理
-        BATCH_SIZE, MAX_ROUNDS, COOLDOWN_SECONDS = 15, 20, 30
+        BATCH_SIZE, MAX_ROUNDS, COOLDOWN_SECONDS = 30, 20, 30
         ids_to_delete = set()
         
         def process_relation(relation):
-            return self.llm_service.is_relation_deletable(relation, id_to_name_map)
+            return self.llm_service.is_relation_deletable(relation, id_to_node_map)
 
         for round_num in range(1, MAX_ROUNDS + 1):
             if not rels_to_check:
