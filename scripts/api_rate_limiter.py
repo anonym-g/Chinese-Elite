@@ -149,6 +149,13 @@ gemini_flash_limiter = APIRateLimiter(
     counter_name='gemini_flash'
 )
 
+# Gemini-2.5-flash-preview-09-2025, RPM: 10, RPD: 250
+gemini_flash_preview_limiter = APIRateLimiter(
+    max_requests=10, per_seconds=60, 
+    rpd_limit=312, 
+    counter_name='gemini_flash'
+)
+
 # Gemini-2.5-flash-lite, RPM: 15, RPD: 1000
 gemini_flash_lite_limiter = APIRateLimiter(
     max_requests=15, per_seconds=60, 

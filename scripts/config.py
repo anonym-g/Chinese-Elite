@@ -56,9 +56,9 @@ MERGE_CHECK_MODEL = "gemma-3-27b-it"
 # 用于执行两个JSON对象的智能合并
 MERGE_EXECUTE_MODEL = "gemini-2.5-flash"
 # 用于单条关系清洗的模型
-RELATION_CLEANER_MODEL = "gemma-3-27b-it"
+RELATION_CLEANER_MODEL = "gemini-2.5-flash-lite"
 # 用于验证PR有效性的模型
-VALIDATE_PR_MODEL = "gemini-2.5-flash-lite"
+VALIDATE_PR_MODEL = "gemini-2.5-flash-preview-09-2025"
 # Telegram Bot调用的模型
 BOT_QA_MODEL = "gemini-2.5-flash-lite-preview-09-2025"
 
