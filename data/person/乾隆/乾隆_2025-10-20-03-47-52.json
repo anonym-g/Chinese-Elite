@@ -1,0 +1,287 @@
+{
+  "nodes": [
+    {
+      "id": "乾隆",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "乾隆"
+        ],
+        "en": [
+          "Qianlong"
+        ]
+      },
+      "properties": {
+        "period": "1736-01-01 - 1799-02-07",
+        "description": {
+          "zh-cn": "清朝第六位皇帝清高宗弘历的年号，也是清朝使用时间最长的年号。",
+          "en": "The era name of the Qianlong Emperor, the sixth emperor of the Qing dynasty. It is the longest-used era name in the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "乾隆帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乾隆帝",
+          "清高宗",
+          "弘历"
+        ],
+        "en": [
+          "Qianlong Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1711-09-25 - 1799-02-07",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第六位皇帝，实际掌握中国最高权力长达六十三年零四个月，是中国历史上实际执掌国家最高权力时间最长的皇帝。",
+          "en": "The sixth emperor of the Qing dynasty, who held supreme power in China for 63 years and four months, making him the longest-reigning de facto ruler in Chinese history."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国历史上最后一个大一统封建王朝。",
+          "en": "The last imperial dynasty of China."
+        }
+      }
+    },
+    {
+      "id": "嘉庆帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "嘉庆帝",
+          "永琰"
+        ],
+        "en": [
+          "Jiaqing Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1760-11-13 - 1820-09-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第七位皇帝，乾隆帝第十五子。",
+          "en": "The seventh emperor of the Qing dynasty, the 15th son of the Qianlong Emperor."
+        }
+      }
+    },
+    {
+      "id": "嘉庆",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "嘉庆"
+        ],
+        "en": [
+          "Jiaqing"
+        ]
+      },
+      "properties": {
+        "period": "1796-01-01 - 1821-01-01",
+        "description": {
+          "zh-cn": "清朝第七位皇帝嘉庆帝的年号。",
+          "en": "The era name of the Jiaqing Emperor, the seventh emperor of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "北京故宫",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京故宫",
+          "北京紫禁城"
+        ],
+        "en": [
+          "Forbidden City"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国明清两代的皇家宫殿，位于北京中轴线的中心。",
+          "en": "The imperial palace complex at the heart of Beijing, China, which served as the home of emperors and their households for almost 500 years from the Ming dynasty to the end of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "雍正帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雍正帝"
+        ],
+        "en": [
+          "Yongzheng Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1678-12-13 - 1735-10-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第五位皇帝，乾隆帝之父。",
+          "en": "The fifth emperor of the Qing dynasty, father of the Qianlong Emperor."
+        }
+      }
+    },
+    {
+      "id": "郎世宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郎世宁"
+        ],
+        "en": [
+          "Giuseppe Castiglione"
+        ]
+      },
+      "properties": {
+        "lifetime": "1688-07-19 - 1766-07-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "意大利籍耶稣会传教士、画家，曾为清朝宫廷画师。",
+          "en": "An Italian Jesuit brother and missionary in China, where he served as an artist at the imperial court of three emperors."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "乾隆帝",
+      "target": "乾隆",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1735-10",
+        "description": {
+          "zh-cn": "雍正帝驾崩后，皇子弘历即位为乾隆帝，并下诏次年改元乾隆。",
+          "en": "After the death of the Yongzheng Emperor, his son Hongli ascended the throne as the Qianlong Emperor and decreed that the era name would be changed to 'Qianlong' the following year."
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "清朝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1735-10-08",
+        "end_date": "1799-02-07",
+        "position": {
+          "zh-cn": "皇帝、太上皇",
+          "en": "Emperor, Emperor Emeritus"
+        },
+        "description": {
+          "zh-cn": "乾隆帝是清朝的第六位皇帝，于1735年即位。1796年禅位后作为太上皇继续执政至1799年驾崩。",
+          "en": "The Qianlong Emperor was the sixth emperor of the Qing Dynasty, ascending the throne in 1735. After abdicating in 1796, he continued to rule as Emperor Emeritus until his death in 1799."
+        }
+      }
+    },
+    {
+      "source": "嘉庆帝",
+      "target": "乾隆帝",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "嘉庆帝（永琰）是乾隆帝的第十五子。",
+          "en": "The Jiaqing Emperor (Yongyan) was the 15th son of the Qianlong Emperor."
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "嘉庆帝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1795-10",
+        "description": {
+          "zh-cn": "乾隆六十年九月三日，乾隆帝立十五子永琰（即嘉庆帝）为皇太子，并宣布次年禅让皇位。",
+          "en": "On the third day of the ninth month of the 60th year of the Qianlong reign, the Qianlong Emperor appointed his 15th son, Yongyan (the future Jiaqing Emperor), as Crown Prince and announced his abdication for the following year."
+        }
+      }
+    },
+    {
+      "source": "嘉庆帝",
+      "target": "乾隆帝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1796-02-09",
+        "end_date": "1799-02-07",
+        "position": {
+          "zh-cn": "皇帝",
+          "en": "Emperor"
+        },
+        "description": {
+          "zh-cn": "乾隆帝禅位后作为太上皇继续执掌朝政，嘉庆帝在此期间虽为皇帝，但实权仍在乾隆帝手中，直至其驾崩后才得以亲政。",
+          "en": "After abdicating, the Qianlong Emperor continued to rule as Emperor Emeritus. Although Jiaqing was the nominal Emperor during this period, real power remained in Qianlong's hands until his death, after which Jiaqing began his personal rule."
+        }
+      }
+    },
+    {
+      "source": "乾隆",
+      "target": "北京故宫",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1796-02-09",
+        "end_date": "1799-02-07",
+        "description": {
+          "zh-cn": "乾隆帝禅位后，全国改用嘉庆年号，但北京紫禁城内为表示尊崇，仍继续使用乾隆年号，直至乾隆帝驾崩。",
+          "en": "After the Qianlong Emperor's abdication, the Jiaqing era name was adopted nationwide. However, out of respect, the Qianlong era name continued to be used within the Forbidden City in Beijing until the former emperor's death."
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "雍正帝",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "乾隆帝（弘历）是雍正帝的儿子。",
+          "en": "The Qianlong Emperor (Hongli) was the son of the Yongzheng Emperor."
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "嘉庆",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1795-10",
+        "description": {
+          "zh-cn": "乾隆帝在宣布禅位的同时，下诏次年改元为嘉庆。",
+          "en": "While announcing his abdication, the Qianlong Emperor decreed that the era name would be changed to 'Jiaqing' the following year."
+        }
+      }
+    },
+    {
+      "source": "郎世宁",
+      "target": "乾隆帝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1735-10-08",
+        "end_date": "1766-07-17",
+        "position": {
+          "zh-cn": "宫廷画家",
+          "en": "Court painter"
+        },
+        "description": {
+          "zh-cn": "郎世宁是服务于乾隆帝的宫廷画家，创作了包括《清高宗乾隆帝朝服像》在内的许多作品。",
+          "en": "Giuseppe Castiglione was a court painter who served the Qianlong Emperor and created many works, including the 'The Qianlong Emperor in Ceremonial Armour'."
+        }
+      }
+    }
+  ]
+}
