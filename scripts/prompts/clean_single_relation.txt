@@ -9,7 +9,9 @@
 
 分析结束后，作出结论。此时，必须使用 `True` / `False` ，以显示你的分析结论。
 
-你总应倾向于保留关系。因为删除意味着信息的彻底遗失，而保留则只会产生微小的不当或冗余。当且仅当足够有把握时，再删除关系。严禁基于推测给出删除依据。
+你总应倾向于保留关系。因为删除意味着信息的彻底遗失，而保留则只会产生微小的不当或冗余。当且仅当把握大于90%时，删除关系。严禁基于推测给出删除依据。
+
+铁的原则是：以下几个可用关系，要覆盖**所有可能的关系语义**。因此，不要过度严苛。不要向规则过拟合，特别是不要向规则后面的示例过拟合，它们**只是示例**。只要关系本身没有大的问题，均予保留。
 
 【规则：关系类型与节点类型约束】
 对节点类型规范的介绍：
@@ -22,28 +24,27 @@
     * Document - 文件，以及理论性的主义、概念、思想、方针、政策设想，或是没有多少建设性内容的政策 (如一国两制，只是允许两制并存，没有什么建设性内容) ，均属 Document。——例如，“直辖市”之类，属某类行政区划的抽象理论概念，也属Document。
 
 关系的方向为源-关系->目标 (source->target)。本项目中，有且仅有以下几种类型的关系 (有 ">" 符号的是有向关系，没有的是无向关系；左侧是source允许的类型，右侧是target允许的类型) ：
-  *   Person -`BORN_IN`-> Location (必须是唯一的、最精确的出生地，如市或县)
+  *   Person -`BORN_IN`-> Location (必须是唯一的、最精确的出生地，包括但不限于：市、县，或任何地点类节点。)
   *   Person -`ALUMNUS_OF`-> Organization (描述个体在教育机构的**正式学习经历**。目标节点必须是具备学历教育性质的组织。非学历性质的短期培训或在职研修，应用INFLUENCED。)
   *   Person/Organization -`MEMBER_OF`-> Organization (描述成员身份，包括担任具体职务。)
   *   Person -`CHILD_OF`-> Person (source是子女, target是父母)
   *   Person -`SPOUSE_OF`- Person
   *   Person -`SIBLING_OF`- Person
   *   Person -`LOVER_OF`- Person
-  *   Person -`RELATIVE_OF`- Person (用于除直系亲属、配偶、情人外的其他亲戚)
+  *   Person -`RELATIVE_OF`- Person (用于除以上几类以外的其他亲戚)
   *   Person/Organization -`FRIEND_OF`- Person/Organization (交好；不限于人际关系)
   *   Person/Organization -`ENEMY_OF`- Person/Organization (交恶；不限于人际关系)
   *   Person/Organization -`SUBORDINATE_OF`-> Person/Organization (描述组织架构或指挥链中的直接上下级隶属关系。此关系成立的唯一标准是“直接性”——即source直接向target汇报或归其管辖。下级实体是否拥有高度自治权或独立运作权限，不影响此关系的判断。只要隶属关系是直接的、非跨级的，即有效。任何跨越层级的、非直接的隶属关系均应避免。)
-  *   Person -`MET_WITH`- Person (人与人之间最宽泛的关系，其它人际关系描述不适用时使用。只要见过面，就算存在该关系。当所有其他更具体的人际关系类型均不适用时使用。例如，会面、谈判、职务接替、一同短暂共事、相识、长期共事但鲜有往来、……，均可用MET_WITH)
+  *   Person -`MET_WITH`- Person (人与人之间最宽泛的关系，其它人际关系描述不适用时使用。只要见过面，就算存在该关系。当所有其他更具体的人际关系类型均不适用时使用。包括但不限于：会面、谈判、职务接替、一同短暂共事、相识、长期共事但鲜有私人往来、一同参加过某项政治活动、……)
   *   Person/Organization -`FOUNDED`-> Organization (描述实体创立组织的行为。对于多个实体共同创立出/合并为一个组织的情况，应为每一个创始实体建立一条独立的 `FOUNDED` 关系，此用法是恰当的。)
-  *   Person/Organization/Event/Movement/Document -`PUSHED`-> Person/Organization/Event/Movement/Document (起推动、促进作用；恰当的使用总应当“构成推动”，只要意图或结果是好的、正面的、积极的、援助性的，总是可以视为一种推动。)
-  *   Person/Organization/Event/Movement/Document -`BLOCKED`-> Person/Organization/Event/Movement/Document (起阻碍、反对作用；恰当的使用总应当“构成阻碍”。只要意图或结果是坏的、负面的、消极的、制裁性的，总是可以视为一种阻碍。)
-  *   Person/Organization/Event/Movement/Document -`INFLUENCED`-> Person/Organization/Event/Movement/Document/Location (通用关系。当没有任何其他更具体的关系类型适用，但实体间又确实存在一种公认的、**直接的**、非因果性的重要关联时，才可使用。例如，改名、题字、……，均可用INFLUENCED)
+  *   Person/Organization/Event/Movement/Document -`PUSHED`-> Person/Organization/Event/Movement/Document (起推动、促进作用。与道德、善恶无关，只要有促进的语义，即可用。包括但不限于：发动、提拔、扩大化、援助、无罪判决、充当机遇、出版、……)
+  *   Person/Organization/Event/Movement/Document -`BLOCKED`-> Person/Organization/Event/Movement/Document (起阻碍、反对作用。与道德、善恶无关，只要有妨碍的语义，即可用。包括但不限于：停止、落马、致死、制裁、有罪判决、截止标识、报禁、……)
+  *   Person/Organization/Event/Movement/Document -`INFLUENCED`-> Person/Organization/Event/Movement/Document/Location (通用关系。当没有任何其他更具体的关系类型适用，但实体间又确实存在一种公认的、**直接的**、非因果性的重要关联时，才可使用。包括但不限于：改名、题字、未曾付诸行动的心理印象、……)
 
 【规则：需要删除的情况】
 如果关系存在以下任何一类问题，返回 `True`：
-1.  过于笼统: 关系可以被认为是正确的，但过于宽泛。——不要滥用这一条。因为可用的关系十分有限，总是会有一定的宽泛性。不能过于宽泛，可以适当宽泛。不要一指出“似乎有些宽泛”就觉得应该删掉。
-2.  方向错误: 对于有向关系，源节点（source）和目标节点（target）的位置弄反了。
-3.  内容冗余: 在相同的source和target下，若任何一个其它的可用关系类型能够更准确地反应描述，则应判定为冗余。**此规则的核心原则是“存在另一个”**：当一个更具体、更精确的关系类型能够描述该关系时，就不应使用一个更通用、更抽象的关系类型（例如，用反向的 "INFLUENCED" 刻画 "SUBORDINATE_OF": A SUBORDINATE_OF B, 被写成 B INFLUENCED A）；同样，当不存在这样一个替代关系时，绝不应判定为冗余。**分析时，不允许改变source或target节点，不允许使用不存在的关系。**
+1.  方向错误: 对于有向关系，源节点（source）和目标节点（target）的位置弄反了。——严禁滥用。一般来说，只有存在描述 (description) 的关系会有方向错误的问题。判定方向错误时，必须从输入中找到明确的依据。你的幻觉问题过于严重，严禁自行臆想事实。
+2.  内容冗余: 在相同的source和target下，若任何一个其它的可用关系类型能够更准确地反应描述，则应判定为冗余。**此规则的核心原则是“存在另一个”**：当一个更具体、更精确的关系类型能够描述该关系时，就不应使用一个更通用、更抽象的关系类型；同样，当不存在这样一个替代关系时，绝不应判定为冗余。**分析时，不允许改变source或target节点，不允许使用不存在的关系。**
 
 【规则：需要保留的情况】
 关系基本满足以下所有条件时，返回 `False`：
@@ -58,7 +59,11 @@
 
 若认为关系有冗余的嫌疑，在结论以前，请务必检查在相同的source和target下，是否存在更合适的可用关系类型。**若不存在，则绝不允许删除！因为项目本身的关系类型有限，不可能总是保证语义的绝对可靠。**——只有对另外一个可选关系的恰当性有绝对把握的情况下，才应删去。否则，倾向于保留。
 
-若你给出了一个推荐，必须设想：假设type立即换成该推荐类型并构成输入、且遗忘你对已有类型所作出的否定性评判，你是否还会推荐已有类型？——如果会，不应删去。因为，假设已有类型是A，你否了它、推荐了B，但A确有一定合理性，那么将来在另一个采用B的对话实例中，你没有该分析下否定A的任何记忆，可能会再度否掉B、推荐A，导致永远无法稳定地保留这条关系。
+若你给出了一个推荐，必须设想：
+
+假设type立即换成该推荐类型并构成输入、且遗忘你对已有类型所作出的否定性评判，你是否还会推荐已有类型？——如果会，不应删去。
+
+因为，假设已有类型是A，你否了它、推荐了B，但A确有一定合理性，那么将来在另一个采用B的对话实例中，你没有该分析下否定A的任何记忆，可能会再度否掉B、推荐A，导致永远无法稳定地保留这条关系。
 
 分析过程中，不允许改变source或target节点。若涉及方向，可以调换它们的位置。
 

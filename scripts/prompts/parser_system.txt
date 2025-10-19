@@ -19,7 +19,7 @@
         "location": { "zh-cn": "string", "en": "string" }, // 实体的主要地理位置。
         "birth_place": { "zh-cn": "string", "en": "string" }, // 仅用于 'Person' 类型，出生地。
         "death_place": { "zh-cn": "string", "en": "string" }, // 仅用于 'Person' 类型，逝世地。
-        "description": { "zh-cn": "string", "en": "string" } // 对实体的简短补充描述，如'中国政治人物'。若某语言无内容，则值为空字符串""。
+        "description": { "zh-cn": "string", "en": "string" } // 对实体的补充描述，如'中国政治人物'。保证内容详尽、语言流畅、没有冗余。不同语言的描述信息应当尽量同步。
       }
     }
   ],
@@ -33,7 +33,7 @@
         "end_date": "string | [string, ...]", // 关系结束时间。格式同 "start_date"。
         "position": { "zh-cn": "string", "en": "string" }, // 仅用于 'MEMBER_OF', 'SUBORDINATE_OF' 关系，描述所任职务。
         "degree": { "zh-cn": "string", "en": "string" }, // 仅用于 'ALUMNUS_OF' 关系，描述获得的学位。
-        "description": { "zh-cn": "string", "en": "string" } // 对关系的简短补充描述。若某语言无内容，则值为空字符串""。
+        "description": { "zh-cn": "string", "en": "string" } // 对关系的补充描述。保证内容详尽、语言流畅、没有冗余。不同语言的描述信息应当尽量同步。
       }
     }
   ]
@@ -59,22 +59,22 @@
       * Document - 文件，以及理论性的主义、概念、思想、方针、政策设想，或是没有多少建设性内容的政策 (如一国两制，只是允许两制并存，没有什么建设性内容) ，均属 Document。——例如，“直辖市”之类，属某类行政区划的抽象理论概念，也属Document。
 
 3. 【关系类型与节点类型约束】: 关系的方向为源-关系->目标 (source->target)。必须严格遵守以下类型约束：
-  *   Person -`BORN_IN`-> Location (必须是唯一的、最精确的出生地，如市或县)
+  *   Person -`BORN_IN`-> Location (必须是唯一的、最精确的出生地，包括但不限于：市、县，或任何地点类节点。)
   *   Person -`ALUMNUS_OF`-> Organization (描述个体在教育机构的**正式学习经历**。目标节点必须是具备学历教育性质的组织。非学历性质的短期培训或在职研修，应用INFLUENCED。)
   *   Person/Organization -`MEMBER_OF`-> Organization (描述成员身份，包括担任具体职务。)
   *   Person -`CHILD_OF`-> Person (source是子女, target是父母)
   *   Person -`SPOUSE_OF`- Person
   *   Person -`SIBLING_OF`- Person
   *   Person -`LOVER_OF`- Person
-  *   Person -`RELATIVE_OF`- Person (用于除直系亲属、配偶、情人外的其他亲戚)
+  *   Person -`RELATIVE_OF`- Person (用于除以上几类以外的其他亲戚)
   *   Person/Organization -`FRIEND_OF`- Person/Organization (交好；不限于人际关系)
   *   Person/Organization -`ENEMY_OF`- Person/Organization (交恶；不限于人际关系)
   *   Person/Organization -`SUBORDINATE_OF`-> Person/Organization (描述组织架构或指挥链中的直接上下级隶属关系。此关系成立的唯一标准是“直接性”——即source直接向target汇报或归其管辖。下级实体是否拥有高度自治权或独立运作权限，不影响此关系的判断。只要隶属关系是直接的、非跨级的，即有效。任何跨越层级的、非直接的隶属关系均应避免。)
-  *   Person -`MET_WITH`- Person (人与人之间最宽泛的关系，其它人际关系描述不适用时使用。只要见过面，就算存在该关系。当所有其他更具体的人际关系类型均不适用时使用。例如，会面、谈判、职务接替、一同短暂共事、相识、长期共事但鲜有往来、……，均可用MET_WITH)
+  *   Person -`MET_WITH`- Person (人与人之间最宽泛的关系，其它人际关系描述不适用时使用。只要见过面，就算存在该关系。当所有其他更具体的人际关系类型均不适用时使用。包括但不限于：会面、谈判、职务接替、一同短暂共事、相识、长期共事但鲜有私人往来、一同参加过某项政治活动、……)
   *   Person/Organization -`FOUNDED`-> Organization (描述实体创立组织的行为。对于多个实体共同创立出/合并为一个组织的情况，应为每一个创始实体建立一条独立的 `FOUNDED` 关系，此用法是恰当的。)
-  *   Person/Organization/Event/Movement/Document -`PUSHED`-> Person/Organization/Event/Movement/Document (起推动、促进作用；恰当的使用总应当“构成推动”，只要意图或结果是好的、正面的、积极的、援助性的，总是可以视为一种推动。)
-  *   Person/Organization/Event/Movement/Document -`BLOCKED`-> Person/Organization/Event/Movement/Document (起阻碍、反对作用；恰当的使用总应当“构成阻碍”。只要意图或结果是坏的、负面的、消极的、制裁性的，总是可以视为一种阻碍。)
-  *   Person/Organization/Event/Movement/Document -`INFLUENCED`-> Person/Organization/Event/Movement/Document/Location (通用关系。当没有任何其他更具体的关系类型适用，但实体间又确实存在一种公认的、**直接的**、非因果性的重要关联时，才可使用。例如，改名、题字、……，均可用INFLUENCED)
+  *   Person/Organization/Event/Movement/Document -`PUSHED`-> Person/Organization/Event/Movement/Document (起推动、促进作用。与道德、善恶无关，只要有促进的语义，即可用。包括但不限于：发动、提拔、扩大化、援助、无罪判决、充当机遇、出版、……)
+  *   Person/Organization/Event/Movement/Document -`BLOCKED`-> Person/Organization/Event/Movement/Document (起阻碍、反对作用。与道德、善恶无关，只要有妨碍的语义，即可用。包括但不限于：停止、落马、致死、制裁、有罪判决、截止标识、报禁、……)
+  *   Person/Organization/Event/Movement/Document -`INFLUENCED`-> Person/Organization/Event/Movement/Document/Location (通用关系。当没有任何其他更具体的关系类型适用，但实体间又确实存在一种公认的、**直接的**、非因果性的重要关联时，才可使用。包括但不限于：改名、题字、未曾付诸行动的心理印象、……)
 
 4. 只提取文本中明确提及或具有强上下文支撑的关系。禁止基于常识进行过度推断。例如，不要仅仅因为两人在同一组织就推断他们是`FRIEND_OF`。
 
