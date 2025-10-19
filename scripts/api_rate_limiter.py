@@ -122,9 +122,7 @@ class APIRateLimiter:
             except DailyQuotaExceededError:
                 if self.counter_file:
                     model_name = os.path.basename(self.counter_file).replace('_rpd_counter.json', '')
-                    logger.warning(f"模型 {model_name} 的每日配额已耗尽。将跳过本次及后续调用。")
-                else:
-                    logger.warning(f"一个未追踪RPD的API调用因配额耗尽失败。")
+                    logger.warning(f"模型 {model_name} 的每日配额已耗尽。将跳过本次调用。")
                 
                 # 根据函数上下文返回合理空值
                 if "merge_llm" in func.__name__:
