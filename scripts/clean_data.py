@@ -62,7 +62,7 @@ class GraphCleaner:
 
     def _clean_stale_cache(self):
         """清理超过一个月的BAIDU/CDT链接状态缓存。"""
-        logger.info("\n--- 步骤 1/3: 清理过期的链接状态缓存 ---")
+        logger.info("\n--- 步骤 1/4: 清理过期的链接状态缓存 ---")
         one_month_ago = datetime.now() - timedelta(days=30)
         pruned_cache = {}
         cleaned_count = 0
@@ -89,7 +89,7 @@ class GraphCleaner:
             
     def _resolve_temporary_nodes(self, nodes: list, relationships: list) -> tuple[list, list]:
         """遍历所有节点，尝试将临时ID升级为Q-Code。"""
-        logger.info("\n--- 步骤 2/3: 尝试升级临时ID节点 ---")
+        logger.info("\n--- 步骤 2/4: 尝试升级临时ID节点 ---")
         nodes_map = {n['id']: n for n in nodes}
         id_remap, nodes_to_delete = {}, set()
         
@@ -127,7 +127,63 @@ class GraphCleaner:
         
         logger.info(f"成功升级了 {len(id_remap)} 个节点。")
         return final_nodes, relationships
-    
+
+    def _prune_rels(self, relationships: list) -> list:
+        """
+        在调用LLM之前，预先清理关系。
+        此函数会自动识别并删除某些格式错误的关系，以及描述完全为空的关系。
+
+        一个关系在以下任一情况下会被删除：
+        1. 关系本身不是一个字典。
+        2. 缺少有效的 'source', 'target', 或 'type' 键 (值必须为非空字符串)。
+        3. 'properties' 字段存在，但不是一个字典。
+        4. 'description' 字段 (在properties内) 存在，但不是一个字典。
+        5. 'description' 字段缺失、是一个空字典，或其所有值均为空/空白字符串。
+        """
+        logger.info("\n--- 步骤 3/4: 清理格式错误或描述为空的关系 ---")
+        kept_relationships = []
+        deleted_count = 0
+        
+        for rel in relationships:
+            reason_for_deletion = None
+
+            # 检查 1 & 2: 关系的基本结构和必需键是否有效
+            if not isinstance(rel, dict) or \
+               not (isinstance(rel.get('source'), str) and rel.get('source')) or \
+               not (isinstance(rel.get('target'), str) and rel.get('target')) or \
+               not (isinstance(rel.get('type'), str) and rel.get('type')):
+                reason_for_deletion = "基本结构或必需键无效"
+            else:
+                properties = rel.get('properties')
+                
+                # 检查 3: 如果 'properties' 存在，必须是字典
+                if properties is not None and not isinstance(properties, dict):
+                    reason_for_deletion = "'properties' 字段不是一个字典"
+                else:
+                    description = properties.get('description') if isinstance(properties, dict) else None
+                    
+                    # 检查 4: 如果 'description' 存在，必须是字典
+                    if description is not None and not isinstance(description, dict):
+                        reason_for_deletion = "'description' 字段不是一个字典"
+                    # 检查 5: 'description' 是否为空或不存在
+                    elif not isinstance(description, dict) or not description or all(not str(val).strip() for val in description.values()):
+                        reason_for_deletion = "描述为空或不存在"
+            
+            if reason_for_deletion:
+                deleted_count += 1
+                # # 为了便于调试，记录被删除的原因和关系片段
+                # rel_snippet = {k: v for k, v in rel.items() if k in ['source', 'target', 'type']} if isinstance(rel, dict) else str(rel)[:100]
+                # logger.warning(f"正在删除关系 (原因: {reason_for_deletion}): {rel_snippet}")
+            else:
+                kept_relationships.append(rel)
+
+        if deleted_count > 0:
+            logger.info(f"成功删除了 {deleted_count} 条格式错误或描述为空的关系。")
+        else:
+            logger.info("未发现格式错误或描述为空的关系。")
+
+        return kept_relationships
+
     def _get_canonical_rel_key(self, rel: dict) -> str | None:
         """为关系生成一个规范化的字符串键。"""
         source, target, rel_type = rel.get('source'), rel.get('target'), rel.get('type')
@@ -164,7 +220,7 @@ class GraphCleaner:
 
     def _clean_individual_relationships(self, nodes: list, relationships: list) -> list:
         """对随机抽样的单条关系进行有速率限制的并行LLM审查和清理。"""
-        logger.info("\n--- 步骤 3/3: 清理单条的错误/低质量关系 (并行批处理模式) ---")
+        logger.info("\n--- 步骤 4/4: 清理单条的错误/低质量关系 (并行批处理模式) ---")
         
         id_to_node_map = {n['id']: n for n in nodes}
         now = datetime.now(timezone.utc)
@@ -273,8 +329,13 @@ class GraphCleaner:
         nodes, relationships = graph.get('nodes', []), graph.get('relationships', [])
         
         logger.info("================= 启动 Chinese-Elite 深度维护 =================")
+        # 步骤 1: 清理缓存
         self._clean_stale_cache()
+        # 步骤 2: 尝试升级临时节点
         nodes, relationships = self._resolve_temporary_nodes(nodes, relationships)
+        # 步骤 3: 清理无描述关系
+        relationships = self._prune_rels(relationships)
+        # 步骤 4: 使用 LLM 清理剩余关系
         relationships = self._clean_individual_relationships(nodes, relationships)
 
         logger.info("\n[*] 正在保存所有变更...")
