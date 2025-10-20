@@ -9,10 +9,14 @@ from datetime import datetime, timedelta, timezone
 from collections import deque
 import logging
 import concurrent.futures
+import re
+from opencc import OpenCC
 
 # 使用相对路径导入
 from .config import (
     MASTER_GRAPH_PATH, FALSE_RELATIONS_CACHE_PATH, 
+    RELATIONSHIP_TYPE_RULES,
+    LIST_FILE_PATH,
     REL_CLEAN_NUM, 
     REL_CLEAN_SKIP_DAYS, REL_CLEAN_PROB_START_DAYS, REL_CLEAN_PROB_END_DAYS, 
     REL_CLEAN_PROB_START_VALUE, REL_CLEAN_PROB_END_VALUE
@@ -33,6 +37,7 @@ class GraphCleaner:
         self.llm_service = llm_service
         self.false_relations_cache = self._load_json_cache(FALSE_RELATIONS_CACHE_PATH)
         self.cache_updated = False
+        self.t2s_converter = OpenCC('t2s')
 
     def _load_json_cache(self, path: str) -> dict:
         """通用JSON缓存加载函数。"""
@@ -60,9 +65,195 @@ class GraphCleaner:
         # 调用其他需要保存的缓存
         self.wiki_client.save_caches()
 
+    def _validate_and_clean_schema(self, nodes: list, relationships: list) -> tuple[list, list]:
+        """
+        对图谱数据进行严格的模式验证和清理。
+        - 移除不符合预设类型或格式的节点和关系。
+        - 移除节点和关系内部不符合格式的属性。
+        """
+        # --- 节点清理 ---
+        cleaned_nodes = []
+        valid_node_ids = set()
+        node_id_to_type_map = {}
+        
+        VALID_NODE_TYPES = {'Person', 'Organization', 'Movement', 'Event', 'Location', 'Document'}
+        
+        for node in nodes:
+            is_valid = True
+            if not isinstance(node, dict):
+                continue
+
+            node_id = node.get('id')
+            node_type = node.get('type')
+            if not (isinstance(node_id, str) and node_id and isinstance(node_type, str) and node_type in VALID_NODE_TYPES):
+                logger.warning(f"  - [删除节点] 节点 {node_id or '(无ID)'} 因类型无效 ('{node_type}') 或ID缺失而被删除。")
+                is_valid = False
+            if not is_valid:
+                continue
+
+            allowed_node_keys = {'id', 'type', 'name', 'properties'}
+            for key in list(node.keys()):
+                if key not in allowed_node_keys: del node[key]
+
+            if 'name' in node:
+                if not isinstance(node['name'], dict):
+                    del node['name']
+                else:
+                    for lang, names in list(node['name'].items()):
+                        if not (isinstance(names, list) and all(isinstance(n, str) for n in names)):
+                            del node['name'][lang]
+            
+            if 'properties' in node:
+                if not isinstance(node['properties'], dict):
+                    del node['properties']
+                else:
+                    props = node['properties']
+                    for key in ['period']:
+                        if key in props and not (isinstance(props[key], str) or (isinstance(props[key], list) and all(isinstance(i, str) for i in props[key]))):
+                            del props[key]
+                    for key in ['lifetime', 'gender']:
+                         if key in props and not isinstance(props[key], str):
+                            del props[key]
+                    if 'gender' in props and props['gender'] not in ['Male', 'Female']:
+                        del props['gender']
+                    for key in ['location', 'birth_place', 'death_place', 'description']:
+                        if key in props and isinstance(props[key], dict):
+                            for lang, value in list(props[key].items()):
+                                if not isinstance(value, str):
+                                    del props[key][lang]
+                        elif key in props:
+                            del props[key]
+            
+            cleaned_nodes.append(node)
+            valid_node_ids.add(node_id)
+            node_id_to_type_map[node_id] = node_type
+            
+        nodes_deleted_count = len(nodes) - len(cleaned_nodes)
+        if nodes_deleted_count > 0:
+            logger.info(f"  - 节点清理完成，共删除了 {nodes_deleted_count} 个无效节点。")
+        
+        # --- 关系清理 ---
+        cleaned_relationships = []
+        
+        for rel in relationships:
+            is_valid = True
+            if not isinstance(rel, dict): continue
+
+            source_id, target_id, rel_type = rel.get('source'), rel.get('target'), rel.get('type')
+            if not (isinstance(source_id, str) and source_id and isinstance(target_id, str) and target_id and isinstance(rel_type, str) and rel_type):
+                is_valid = False
+            elif not (source_id in valid_node_ids and target_id in valid_node_ids):
+                is_valid = False
+            elif rel_type not in RELATIONSHIP_TYPE_RULES:
+                is_valid = False
+            else:
+                rule = RELATIONSHIP_TYPE_RULES[rel_type]
+                source_type, target_type = node_id_to_type_map[source_id], node_id_to_type_map[target_id]
+                if ('source' in rule and source_type not in rule['source']) or ('target' in rule and target_type not in rule['target']):
+                    is_valid = False
+            
+            if not is_valid: continue
+            
+            for key in list(rel.keys()):
+                if key not in {'source', 'target', 'type', 'properties'}: del rel[key]
+
+            if 'properties' in rel:
+                if not isinstance(rel['properties'], dict):
+                    del rel['properties']
+                else:
+                    props = rel['properties']
+                    for key in ['start_date', 'end_date']:
+                        if key in props and not (isinstance(props[key], str) or (isinstance(props[key], list) and all(isinstance(i, str) for i in props[key]))):
+                            del props[key]
+                    for key in ['position', 'degree', 'description']:
+                        if key in props and isinstance(props[key], dict):
+                           for lang, value in list(props[key].items()):
+                                if not isinstance(value, str):
+                                    del props[key][lang]
+                        elif key in props:
+                           del props[key]
+                                    
+            cleaned_relationships.append(rel)
+
+        rels_deleted_count = len(relationships) - len(cleaned_relationships)
+        if rels_deleted_count > 0:
+            logger.info(f"  - 关系清理完成，共删除了 {rels_deleted_count} 条无效关系。")
+            
+        logger.info("--- 数据模式验证与清理完成 ---")
+        return cleaned_nodes, cleaned_relationships
+    
+    def _correct_node_types_from_list(self, nodes: list) -> list:
+        """
+        根据 LIST.md 中的分类，校对并修正节点的 'type' 属性。
+        新逻辑只基于节点的首要规范名称进行匹配，以避免别名冲突。
+        """
+        # 步骤 1: 解析 LIST.md，构建一个从“规范名称”到“正确类型”的映射。
+        name_to_correct_type = {}
+        try:
+            with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
+                current_category = None
+                for line in f:
+                    line = line.strip()
+                    if line.startswith('## '):
+                        category_name = line[3:].strip().lower()
+                        # 跳过无效或不处理的分类
+                        if not category_name or category_name == 'new':
+                            current_category = None
+                            continue
+                        current_category = category_name.capitalize()
+                        continue
+                    
+                    if not line or line.startswith('//') or not current_category:
+                        continue
+
+                    entity_name = re.sub(r'\([a-z]{2}\)\s*', '', line).strip()
+                    simplified_name = self.t2s_converter.convert(entity_name)
+                    if simplified_name:
+                        name_to_correct_type[simplified_name] = current_category
+        except FileNotFoundError:
+            logger.warning(f"LIST.md 文件未找到于 '{LIST_FILE_PATH}'，跳过节点类型修正步骤。")
+            return nodes
+
+        # 步骤 2: 遍历所有节点，使用其规范名称进行检查和修正。
+        corrected_count = 0
+        for node in nodes:
+            name_obj = node.get('name')
+            if not isinstance(name_obj, dict):
+                continue
+
+            # 确定节点的首要规范名称 (优先级: zh-cn[0], en[0])
+            canonical_name = None
+            zh_names = name_obj.get('zh-cn')
+            if isinstance(zh_names, list) and zh_names:
+                canonical_name = zh_names[0]
+            else:
+                en_names = name_obj.get('en')
+                if isinstance(en_names, list) and en_names:
+                    canonical_name = en_names[0]
+
+            if not canonical_name:
+                continue
+
+            # 使用简体化的规范名称在映射中查找
+            simplified_canonical_name = self.t2s_converter.convert(canonical_name)
+            correct_type = name_to_correct_type.get(simplified_canonical_name)
+
+            # 如果找到了正确类型，且与当前类型不符，则进行修正
+            if correct_type and node.get('type') != correct_type:
+                original_type = node.get('type')
+                logger.info(f"  - [类型修正] 节点 '{canonical_name}' ({node.get('id')}) 的类型从 '{original_type}' 修正为 '{correct_type}'。")
+                node['type'] = correct_type
+                corrected_count += 1
+        
+        if corrected_count > 0:
+            logger.info(f"  - 节点类型修正完成，共修正了 {corrected_count} 个节点的类型。")
+        else:
+            logger.info("  - 未发现需要修正类型的节点。")
+        
+        return nodes
+
     def _clean_stale_cache(self):
         """清理超过一个月的BAIDU/CDT链接状态缓存。"""
-        logger.info("\n--- 步骤 1/4: 清理过期的链接状态缓存 ---")
         one_month_ago = datetime.now() - timedelta(days=30)
         pruned_cache = {}
         cleaned_count = 0
@@ -89,7 +280,6 @@ class GraphCleaner:
             
     def _resolve_temporary_nodes(self, nodes: list, relationships: list) -> tuple[list, list]:
         """遍历所有节点，尝试将临时ID升级为Q-Code。"""
-        logger.info("\n--- 步骤 2/4: 尝试升级临时ID节点 ---")
         nodes_map = {n['id']: n for n in nodes}
         id_remap, nodes_to_delete = {}, set()
         
@@ -130,57 +320,28 @@ class GraphCleaner:
 
     def _prune_rels(self, relationships: list) -> list:
         """
-        在调用LLM之前，预先清理关系。
-        此函数会自动识别并删除某些格式错误的关系，以及描述完全为空的关系。
-
-        一个关系在以下任一情况下会被删除：
-        1. 关系本身不是一个字典。
-        2. 缺少有效的 'source', 'target', 或 'type' 键 (值必须为非空字符串)。
-        3. 'properties' 字段存在，但不是一个字典。
-        4. 'description' 字段 (在properties内) 存在，但不是一个字典。
-        5. 'description' 字段缺失、是一个空字典，或其所有值均为空/空白字符串。
+        清理描述 (description) 为空的关系。
+        一个关系在以下情况下会被删除：
+        1. 'properties' 字段不存在。
+        2. 'properties' 字段中 'description' 缺失、是一个空字典，或其所有值均为空/空白字符串。
         """
-        logger.info("\n--- 步骤 3/4: 清理格式错误或描述为空的关系 ---")
         kept_relationships = []
-        deleted_count = 0
         
         for rel in relationships:
-            reason_for_deletion = None
-
-            # 检查 1 & 2: 关系的基本结构和必需键是否有效
-            if not isinstance(rel, dict) or \
-               not (isinstance(rel.get('source'), str) and rel.get('source')) or \
-               not (isinstance(rel.get('target'), str) and rel.get('target')) or \
-               not (isinstance(rel.get('type'), str) and rel.get('type')):
-                reason_for_deletion = "基本结构或必需键无效"
-            else:
-                properties = rel.get('properties')
-                
-                # 检查 3: 如果 'properties' 存在，必须是字典
-                if properties is not None and not isinstance(properties, dict):
-                    reason_for_deletion = "'properties' 字段不是一个字典"
-                else:
-                    description = properties.get('description') if isinstance(properties, dict) else None
-                    
-                    # 检查 4: 如果 'description' 存在，必须是字典
-                    if description is not None and not isinstance(description, dict):
-                        reason_for_deletion = "'description' 字段不是一个字典"
-                    # 检查 5: 'description' 是否为空或不存在
-                    elif not isinstance(description, dict) or not description or all(not str(val).strip() for val in description.values()):
-                        reason_for_deletion = "描述为空或不存在"
+            properties = rel.get('properties')
+            description = properties.get('description') if isinstance(properties, dict) else None
             
-            if reason_for_deletion:
-                deleted_count += 1
-                # # 为了便于调试，记录被删除的原因和关系片段
-                # rel_snippet = {k: v for k, v in rel.items() if k in ['source', 'target', 'type']} if isinstance(rel, dict) else str(rel)[:100]
-                # logger.warning(f"正在删除关系 (原因: {reason_for_deletion}): {rel_snippet}")
+            # 如果描述不存在、不是字典、是空字典，或所有值都为空字符串，则跳过保存（删除）
+            if not isinstance(description, dict) or not description or all(not str(val).strip() for val in description.values()):
+                continue
             else:
                 kept_relationships.append(rel)
 
+        deleted_count = len(relationships) - len(kept_relationships)
         if deleted_count > 0:
-            logger.info(f"成功删除了 {deleted_count} 条格式错误或描述为空的关系。")
+            logger.info(f"  - 成功删除了 {deleted_count} 条描述为空的关系。")
         else:
-            logger.info("未发现格式错误或描述为空的关系。")
+            logger.info("  - 未发现描述为空的关系。")
 
         return kept_relationships
 
@@ -220,8 +381,6 @@ class GraphCleaner:
 
     def _clean_individual_relationships(self, nodes: list, relationships: list) -> list:
         """对随机抽样的单条关系进行有速率限制的并行LLM审查和清理。"""
-        logger.info("\n--- 步骤 4/4: 清理单条的错误/低质量关系 (并行批处理模式) ---")
-        
         id_to_node_map = {n['id']: n for n in nodes}
         now = datetime.now(timezone.utc)
         
@@ -329,14 +488,30 @@ class GraphCleaner:
         nodes, relationships = graph.get('nodes', []), graph.get('relationships', [])
         
         logger.info("================= 启动 Chinese-Elite 深度维护 =================")
-        # 步骤 1: 清理缓存
-        self._clean_stale_cache()
-        # 步骤 2: 尝试升级临时节点
-        nodes, relationships = self._resolve_temporary_nodes(nodes, relationships)
-        # 步骤 3: 清理无描述关系
+        
+        # 步骤 1: 根据 LIST.md 修正节点类型
+        logger.info("\n--- 步骤 1/6: 根据列表文件修正节点类型 ---")
+        nodes = self._correct_node_types_from_list(nodes)
+
+        # 步骤 2: 清理无描述关系
+        logger.info("\n--- 步骤 2/6: 清理描述为空的关系 ---")
         relationships = self._prune_rels(relationships)
+
+        # 步骤 3: 验证并清理数据格式
+        logger.info("\n--- 步骤 3/6: 验证并清理数据格式 ---")
+        nodes, relationships = self._validate_and_clean_schema(nodes, relationships)
+        
         # 步骤 4: 使用 LLM 清理剩余关系
+        logger.info("\n--- 步骤 4/6: 清理单条的错误/低质量关系 ---")
         relationships = self._clean_individual_relationships(nodes, relationships)
+
+        # 步骤 5: 清理缓存
+        logger.info("\n--- 步骤 5/6: 清理过期的链接状态缓存 ---")
+        self._clean_stale_cache()
+        
+        # 步骤 6: 尝试升级临时节点
+        logger.info("\n--- 步骤 6/6: 尝试升级临时ID节点 ---")
+        nodes, relationships = self._resolve_temporary_nodes(nodes, relationships)
 
         logger.info("\n[*] 正在保存所有变更...")
         final_graph = {'nodes': nodes, 'relationships': relationships}

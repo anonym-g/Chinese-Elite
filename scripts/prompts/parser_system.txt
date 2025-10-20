@@ -69,7 +69,7 @@
   *   Person -`RELATIVE_OF`- Person (用于除以上几类以外的其他亲戚)
   *   Person/Organization -`FRIEND_OF`- Person/Organization (交好；不限于人际关系)
   *   Person/Organization -`ENEMY_OF`- Person/Organization (交恶；不限于人际关系)
-  *   Person/Organization -`SUBORDINATE_OF`-> Person/Organization (描述组织架构或指挥链中的直接上下级隶属关系。此关系成立的唯一标准是“直接性”——即source直接向target汇报或归其管辖。下级实体是否拥有高度自治权或独立运作权限，不影响此关系的判断。只要隶属关系是直接的、非跨级的，即有效。任何跨越层级的、非直接的隶属关系均应避免。)
+  *   Person/Organization -`SUBORDINATE_OF`-> Person/Organization (描述组织架构或指挥链中的直接上下级隶属关系。此关系成立的唯一标准是“直接性”——即source直接向target汇报、归其管辖，等等。下级实体是否拥有高度自治权或独立运作权限，不影响此关系的判断。只要从属关系是直接的、非跨级的，即有效。不强制要求行政式的隶属。例如，师徒也属于SUBORDINATE_OF。任何跨越层级的、非直接的隶属关系均应避免。)
   *   Person -`MET_WITH`- Person (人与人之间最宽泛的关系，其它人际关系描述不适用时使用。只要见过面，就算存在该关系。当所有其他更具体的人际关系类型均不适用时使用。包括但不限于：会面、谈判、职务接替、一同短暂共事、相识、长期共事但鲜有私人往来、一同参加过某项政治活动、……)
   *   Person/Organization -`FOUNDED`-> Organization (描述实体创立组织的行为。对于多个实体共同创立出/合并为一个组织的情况，应为每一个创始实体建立一条独立的 `FOUNDED` 关系，此用法是恰当的。)
   *   Person/Organization/Event/Movement/Document -`PUSHED`-> Person/Organization/Event/Movement/Document (起推动、促进作用。与道德、善恶无关，只要有促进的语义，即可用。包括但不限于：发动、提拔、扩大化、援助、无罪判决、充当机遇、出版、……)
