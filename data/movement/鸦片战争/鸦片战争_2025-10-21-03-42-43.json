@@ -1,0 +1,656 @@
+{
+  "nodes": [
+    {
+      "id": "鸦片战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "鸦片战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1840-06-21 - 1860-10-24",
+        "location": {
+          "zh-cn": "中国"
+        },
+        "description": {
+          "zh-cn": "19世纪中叶清朝与西方列强之间发生的两场冲突，包括第一次鸦片战争和第二次鸦片战争。",
+          "en": "A series of two wars waged between the Qing dynasty and Western powers in the mid-19th century, comprising the First Opium War and the Second Opium War."
+        }
+      }
+    },
+    {
+      "id": "第一次鸦片战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次鸦片战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1840-06-21 - 1842-08-29",
+        "location": {
+          "zh-cn": "中国"
+        },
+        "description": {
+          "zh-cn": "1840年至1842年清朝与大英帝国之间的战争，因清政府禁烟运动引发。",
+          "en": "A war fought between the Qing dynasty and the British Empire from 1840 to 1842, triggered by the Qing government's campaign against the opium trade."
+        }
+      }
+    },
+    {
+      "id": "第二次鸦片战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次鸦片战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1856-10-08 - 1860-10-24",
+        "location": {
+          "zh-cn": "中国"
+        },
+        "description": {
+          "zh-cn": "1856年至1860年大英帝国与法兰西第二帝国联手对清朝发动的战争，被认为是第一次鸦片战争的延续。",
+          "en": "A war waged by the British Empire and the Second French Empire against the Qing dynasty from 1856 to 1860, considered a continuation of the First Opium War."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "大清帝国",
+          "清朝政府",
+          "清政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国历史上最后一个帝制王朝，是鸦片战争中的一方。",
+          "en": "The last imperial dynasty in Chinese history and a belligerent in the Opium Wars."
+        }
+      }
+    },
+    {
+      "id": "大英帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大英帝国",
+          "英",
+          "英国"
+        ],
+        "en": [
+          "British Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "鸦片战争中的主要西方列强，与清朝进行了两次战争。",
+          "en": "The main Western power in the Opium Wars, fighting against the Qing dynasty in both conflicts."
+        }
+      }
+    },
+    {
+      "id": "法兰西第二帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第二帝国",
+          "法国"
+        ],
+        "en": [
+          "Second French Empire"
+        ]
+      },
+      "properties": {
+        "period": "1852 - 1870",
+        "description": {
+          "zh-cn": "在第二次鸦片战争中与大英帝国结盟对抗清朝。",
+          "en": "Allied with the British Empire against the Qing dynasty in the Second Opium War."
+        }
+      }
+    },
+    {
+      "id": "不列颠东印度公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "不列颠东印度公司",
+          "英国东印度公司",
+          "EIC"
+        ],
+        "en": [
+          "British East India Company"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在孟加拉管辖区扩大鸦片种植，并通过私人商人向中国走私鸦片，是鸦片贸易的主要推动者之一。",
+          "en": "Expanded opium cultivation in the Bengal Presidency and smuggled it into China via private merchants, being one of the main drivers of the opium trade."
+        }
+      }
+    },
+    {
+      "id": "道光帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "道光帝"
+        ],
+        "en": [
+          "Daoguang Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1782-09-16 - 1850-02-25",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第八位皇帝，在位期间爆发了第一次鸦片战争。他下令林则徐终止鸦片贸易。",
+          "en": "The eighth emperor of the Qing dynasty, during whose reign the First Opium War broke out. He ordered Lin Zexu to end the opium trade."
+        }
+      }
+    },
+    {
+      "id": "林则徐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林则徐"
+        ],
+        "en": [
+          "Lin Zexu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1785-08-30 - 1850-11-22",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝政治家，被道光帝任命为钦差大臣，在广州领导禁烟运动，其行动（如虎门销烟）成为第一次鸦片战争的直接导火索。",
+          "en": "A Qing dynasty politician appointed as Imperial Commissioner by the Daoguang Emperor to lead the anti-opium campaign in Guangzhou. His actions, such as the destruction of opium at Humen, became the direct trigger for the First Opium War."
+        }
+      }
+    },
+    {
+      "id": "虎门销烟",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "虎门销烟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1839-06-03 - 1839-06-25",
+        "location": {
+          "zh-cn": "虎门"
+        },
+        "description": {
+          "zh-cn": "林则徐在广东虎门集中销毁了收缴的鸦片，此事件激化了中英矛盾，成为第一次鸦片战争的导火索。",
+          "en": "Lin Zexu publicly destroyed confiscated opium at Humen, Guangdong. This event intensified Sino-British tensions and served as the trigger for the First Opium War."
+        }
+      }
+    },
+    {
+      "id": "南京条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "南京条约"
+        ],
+        "en": [
+          "Treaty of Nanking"
+        ]
+      },
+      "properties": {
+        "period": "1842-08-29 - ",
+        "description": {
+          "zh-cn": "第一次鸦片战争后清政府与英国签订的条约，是中国近代史上第一个不平等条约。条约内容包括割让香港岛、开放五个通商口岸及赔款。",
+          "en": "The treaty signed between the Qing government and Great Britain after the First Opium War, and the first of the unequal treaties in modern Chinese history. Its terms included the cession of Hong Kong Island, the opening of five treaty ports, and payment of reparations."
+        }
+      }
+    },
+    {
+      "id": "天津条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "天津条约"
+        ],
+        "en": [
+          "Treaty of Tientsin"
+        ]
+      },
+      "properties": {
+        "period": "1858-06 - ",
+        "description": {
+          "zh-cn": "第二次鸦片战争期间，清政府与英、法等国签订的一系列不平等条约。条约内容包括增开通商口岸、鸦片贸易合法化及战争赔款。",
+          "en": "A series of unequal treaties signed during the Second Opium War between the Qing government and countries including Britain and France. Its terms included opening more treaty ports, legalizing the opium trade, and paying war indemnities."
+        }
+      }
+    },
+    {
+      "id": "北京条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "北京条约"
+        ],
+        "en": [
+          "Convention of Peking"
+        ]
+      },
+      "properties": {
+        "period": "1860-10 - ",
+        "description": {
+          "zh-cn": "1860年清政府与英、法、俄签订的结束第二次鸦片战争的条约，确认了《天津条约》的效力，并增加了割让九龙半岛等条款。",
+          "en": "Treaties signed in 1860 between the Qing government and Britain, France, and Russia, which concluded the Second Opium War. It ratified the Treaty of Tientsin and added new clauses, including the cession of the Kowloon Peninsula."
+        }
+      }
+    },
+    {
+      "id": "香港岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "香港岛"
+        ],
+        "en": [
+          "Hong Kong Island"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "根据《南京条约》被割让给英国的岛屿。",
+          "en": "An island ceded to the United Kingdom under the Treaty of Nanking."
+        }
+      }
+    },
+    {
+      "id": "九龙半岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "九龙半岛"
+        ],
+        "en": [
+          "Kowloon Peninsula"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "根据《北京条约》被割让给英国的地区。",
+          "en": "An area ceded to the United Kingdom under the Convention of Peking."
+        }
+      }
+    },
+    {
+      "id": "外东北",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "外东北"
+        ],
+        "en": [
+          "Outer Manchuria"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "根据《北京条约》等条约割让给俄国的地区。",
+          "en": "A region ceded to Russia under treaties including the Convention of Peking."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国",
+          "俄国"
+        ],
+        "en": [
+          "Russian Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在第二次鸦片战争后通过《北京条约》从清朝获得了外东北领土。",
+          "en": "Acquired the territory of Outer Manchuria from the Qing dynasty through the Convention of Peking after the Second Opium War."
+        }
+      }
+    },
+    {
+      "id": "不平等条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "不平等条约"
+        ],
+        "en": [
+          "Unequal treaty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指在19世纪至20世纪初，中国（以及日本、朝鲜等）与西方列强签订的一系列权利不对等的条约。鸦片战争后签订的《南京条约》、《天津条约》和《北京条约》均属此类。",
+          "en": "Refers to a series of treaties signed in the 19th and early 20th centuries between China (as well as Japan, Korea, etc.) and Western powers, in which rights were not reciprocal. The treaties of Nanking, Tientsin, and Peking after the Opium Wars are examples."
+        }
+      }
+    },
+    {
+      "id": "百年国耻",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "百年国耻"
+        ],
+        "en": [
+          "Century of humiliation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个历史名词，指中国从第一次鸦片战争到中华人民共和国成立期间，遭受西方列强、俄国和日本侵略、干涉、瓜分的历史时期。鸦片战争及其后签订的不平等条约被视为这一时期的开端。",
+          "en": "A historical term referring to the period of intervention and subjugation of the Chinese nation by Western powers, Russia and Japan from the First Opium War to the establishment of the People's Republic of China. The Opium Wars and the subsequent unequal treaties are considered the beginning of this period."
+        }
+      }
+    },
+    {
+      "id": "叶名琛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶名琛"
+        ],
+        "en": [
+          "Ye Mingchen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1807-12-21 - 1859-04-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝官员，时任两广总督。其处理“亚罗号事件”的方式成为第二次鸦片战争的导火索。",
+          "en": "A Qing official serving as the Viceroy of Liangguang. His handling of the Arrow Incident became the trigger for the Second Opium War."
+        }
+      }
+    },
+    {
+      "id": "洗劫圆明园",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "洗劫圆明园"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1860-10",
+        "location": {
+          "zh-cn": "圆明园"
+        },
+        "description": {
+          "zh-cn": "第二次鸦片战争期间，英法联军占领北京后，对清朝皇家园林圆明园进行了大规模的抢劫和焚烧。",
+          "en": "During the Second Opium War, after occupying Beijing, the Anglo-French forces plundered and burned the Old Summer Palace, an imperial garden of the Qing dynasty."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "清朝",
+      "target": "大英帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": [
+          "1840-06-21",
+          "1856-10-08"
+        ],
+        "end_date": [
+          "1842-08-29",
+          "1860-10-24"
+        ],
+        "description": {
+          "zh-cn": "在第一次和第二次鸦片战争中，清朝与大英帝国是主要交战方。",
+          "en": "The Qing dynasty and the British Empire were the main belligerents in the First and Second Opium Wars."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "法兰西第二帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1856-10-08",
+        "end_date": "1860-10-24",
+        "description": {
+          "zh-cn": "在第二次鸦片战争中，清朝与法兰西第二帝国是交战方。",
+          "en": "The Qing dynasty and the Second French Empire were belligerents in the Second Opium War."
+        }
+      }
+    },
+    {
+      "source": "虎门销烟",
+      "target": "第一次鸦片战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1839",
+        "description": {
+          "zh-cn": "林则徐的虎门销烟行动激化了中英矛盾，成为第一次鸦片战争的直接导火索。",
+          "en": "Lin Zexu's destruction of opium at Humen intensified Sino-British conflicts and served as the direct trigger for the First Opium War."
+        }
+      }
+    },
+    {
+      "source": "林则徐",
+      "target": "虎门销烟",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1839",
+        "description": {
+          "zh-cn": "林则徐作为钦差大臣，下令并主导了虎门销烟行动。",
+          "en": "As Imperial Commissioner, Lin Zexu ordered and led the action of destroying opium at Humen."
+        }
+      }
+    },
+    {
+      "source": "道光帝",
+      "target": "林则徐",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "道光帝任命林则徐为钦差大臣，并责令其终止鸦片贸易。",
+          "en": "The Daoguang Emperor appointed Lin Zexu as Imperial Commissioner and ordered him to end the opium trade."
+        }
+      }
+    },
+    {
+      "source": "林则徐",
+      "target": "道光帝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "钦差大臣",
+          "en": "Imperial Commissioner"
+        }
+      }
+    },
+    {
+      "source": "不列颠东印度公司",
+      "target": "鸦片战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "英国东印度公司向中国走私鸦片是导致战争的根本原因之一。",
+          "en": "The British East India Company's smuggling of opium into China was one of the root causes of the war."
+        }
+      }
+    },
+    {
+      "source": "第一次鸦片战争",
+      "target": "南京条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "description": {
+          "zh-cn": "第一次鸦片战争以清朝失败告终，被迫签订《南京条约》。",
+          "en": "The First Opium War ended in the defeat of the Qing dynasty, which was forced to sign the Treaty of Nanking."
+        }
+      }
+    },
+    {
+      "source": "南京条约",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "description": {
+          "zh-cn": "《南京条约》使中国丧失了领土主权（割让香港岛），并被迫开放通商口岸和支付巨额赔款，损害了清朝的国家利益。",
+          "en": "The Treaty of Nanking led to China's loss of territorial sovereignty (cession of Hong Kong Island) and forced the opening of treaty ports and payment of large indemnities, harming the national interests of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "source": "南京条约",
+      "target": "香港岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "description": {
+          "zh-cn": "根据《南京条约》，清朝将香港岛割让给大英帝国。",
+          "en": "Under the Treaty of Nanking, the Qing dynasty ceded Hong Kong Island to the British Empire."
+        }
+      }
+    },
+    {
+      "source": "第二次鸦片战争",
+      "target": "天津条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1858-06",
+        "description": {
+          "zh-cn": "第二次鸦片战争的第一阶段以英法联军的胜利告终，迫使清政府签订《天津条约》。",
+          "en": "The first phase of the Second Opium War ended with the victory of the Anglo-French forces, forcing the Qing government to sign the Treaty of Tientsin."
+        }
+      }
+    },
+    {
+      "source": "第二次鸦片战争",
+      "target": "北京条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1860-10",
+        "description": {
+          "zh-cn": "第二次鸦片战争的第二阶段以英法联军占领北京告终，迫使清政府签订《北京条约》以结束战争。",
+          "en": "The second phase of the Second Opium War concluded with the occupation of Beijing by Anglo-French forces, compelling the Qing government to sign the Convention of Peking to end the war."
+        }
+      }
+    },
+    {
+      "source": "北京条约",
+      "target": "九龙半岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1860-10",
+        "description": {
+          "zh-cn": "根据《北京条约》，清朝将九龙半岛割让给大英帝国。",
+          "en": "Under the Convention of Peking, the Qing dynasty ceded the Kowloon Peninsula to the British Empire."
+        }
+      }
+    },
+    {
+      "source": "北京条约",
+      "target": "外东北",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1860-11",
+        "description": {
+          "zh-cn": "《中俄北京条约》将乌苏里江以东包括库页岛在内的约40万平方公里领土割让给俄国。",
+          "en": "The Sino-Russian Convention of Peking ceded approximately 400,000 square kilometers of territory east of the Ussuri River, including Sakhalin Island, to Russia."
+        }
+      }
+    },
+    {
+      "source": "北京条约",
+      "target": "俄罗斯帝国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1860-11",
+        "description": {
+          "zh-cn": "通过签订《中俄北京条约》，俄罗斯帝国获得了清朝割让的外东北大片领土。",
+          "en": "By signing the Sino-Russian Convention of Peking, the Russian Empire acquired a large swathe of territory in Outer Manchuria ceded by the Qing dynasty."
+        }
+      }
+    },
+    {
+      "source": "鸦片战争",
+      "target": "百年国耻",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1840",
+        "description": {
+          "zh-cn": "鸦片战争的失败及随后一系列不平等条约的签订，被普遍视为中国近代“百年国耻”的开端。",
+          "en": "The defeat in the Opium Wars and the subsequent signing of a series of unequal treaties are widely regarded as the beginning of China's modern \"Century of Humiliation\"."
+        }
+      }
+    },
+    {
+      "source": "不平等条约",
+      "target": "百年国耻",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "强加给中国的一系列不平等条约是“百年国耻”时期的核心组成部分和重要象征。",
+          "en": "The series of unequal treaties imposed on China are a core component and important symbol of the \"Century of Humiliation\" period."
+        }
+      }
+    },
+    {
+      "source": "叶名琛",
+      "target": "第二次鸦片战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1856-10",
+        "description": {
+          "zh-cn": "叶名琛在处理“亚罗号事件”时扣押了船员，这一行动被英国视为挑衅，成为发动第二次鸦片战争的借口。",
+          "en": "Ye Mingchen's seizure of the crew during the Arrow Incident was seen as a provocation by the British and became the pretext for launching the Second Opium War."
+        }
+      }
+    },
+    {
+      "source": "大英帝国",
+      "target": "洗劫圆明园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1860-10",
+        "description": {
+          "zh-cn": "在第二次鸦片战争期间，英国军队参与并主导了对圆明园的洗劫和焚烧。",
+          "en": "During the Second Opium War, British forces participated in and led the looting and burning of the Old Summer Palace."
+        }
+      }
+    },
+    {
+      "source": "法兰西第二帝国",
+      "target": "洗劫圆明园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1860-10",
+        "description": {
+          "zh-cn": "在第二次鸦片战争期间，法国军队与英国军队一同对圆明园进行了洗劫和焚烧。",
+          "en": "During the Second Opium War, French forces, alongside British forces, looted and burned the Old Summer Palace."
+        }
+      }
+    }
+  ]
+}

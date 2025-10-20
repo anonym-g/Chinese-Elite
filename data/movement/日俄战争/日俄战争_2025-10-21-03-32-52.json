@@ -1,0 +1,689 @@
+{
+  "nodes": [
+    {
+      "id": "日俄战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "日俄战争"
+        ],
+        "en": [
+          "Russo-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1904-02-08 - 1905-09-05",
+        "location": {
+          "zh-cn": "中国东北地区、朝鲜、黄海、日本海",
+          "en": "Northeast China, Korea, Yellow Sea, Sea of Japan"
+        },
+        "description": {
+          "zh-cn": "1904年至1905年间大日本帝国与俄罗斯帝国为争夺中国东北地区和朝鲜的控制权而爆发的战争。",
+          "en": "A war fought between the Empire of Japan and the Russian Empire from 1904 to 1905 over rival imperial ambitions in Manchuria and Korea."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日俄战争的参战国之一，最终取得胜利。",
+          "en": "One of the combatants in the Russo-Japanese War, ultimately emerging victorious."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国",
+          "俄国"
+        ],
+        "en": [
+          "Russian Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日俄战争的参战国之一，最终战败。",
+          "en": "One of the combatants in the Russo-Japanese War, ultimately defeated."
+        }
+      }
+    },
+    {
+      "id": "朴茨茅斯条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "朴茨茅斯条约",
+          "朴次茅斯条约",
+          "朴资茅斯条约",
+          "朴次茅斯和约"
+        ],
+        "en": [
+          "Treaty of Portsmouth"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "结束日俄战争的和平条约，在美国总统西奥多·罗斯福的斡旋下签订。",
+          "en": "The peace treaty that formally ended the Russo-Japanese War, signed under the mediation of U.S. President Theodore Roosevelt."
+        }
+      }
+    },
+    {
+      "id": "西奥多·罗斯福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "西奥多·罗斯福"
+        ],
+        "en": [
+          "Theodore Roosevelt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任美国总统，在日俄战争末期斡旋双方签订《朴茨茅斯条约》。",
+          "en": "The President of the United States at the time, who mediated the signing of the Treaty of Portsmouth at the end of the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "1905年俄国革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "1905年俄国革命"
+        ],
+        "en": [
+          "1905 Russian Revolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日俄战争的失败直接引发了俄国国内的政治动荡和革命。",
+          "en": "The defeat in the Russo-Japanese War was a direct catalyst for political unrest and revolution within Russia."
+        }
+      }
+    },
+    {
+      "id": "立宪运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "立宪运动"
+        ],
+        "en": [
+          "Constitutional Movement"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清末的一场政治改革运动，因日本以君主立宪政体战胜专制的俄国而备受鼓舞。",
+          "en": "A political reform movement in the late Qing Dynasty, greatly encouraged by Japan's victory as a constitutional monarchy over the autocratic Russian Empire."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "清廷"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日俄战争在其领土（中国东北地区）上进行，战后受其影响开启了立宪运动。",
+          "en": "The Russo-Japanese War was fought on its territory (Northeast China), and influenced the start of the Constitutional Movement after the war."
+        }
+      }
+    },
+    {
+      "id": "明治天皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明治天皇"
+        ],
+        "en": [
+          "Emperor Meiji"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日俄战争期间日本的君主。",
+          "en": "The monarch of Japan during the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "尼古拉二世 (俄罗斯)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "尼古拉二世 (俄罗斯)",
+          "尼古拉二世"
+        ],
+        "en": [
+          "Nicholas II of Russia"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日俄战争期间俄罗斯帝国的沙皇。",
+          "en": "The Tsar of the Russian Empire during the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "对马海峡海战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "对马海峡海战"
+        ],
+        "en": [
+          "Battle of Tsushima"
+        ]
+      },
+      "properties": {
+        "period": "1905-05-27 - 1905-05-28",
+        "description": {
+          "zh-cn": "日俄战争中的决定性海战，日本联合舰队在此役中几乎全歼俄国第二太平洋舰队。",
+          "en": "The decisive naval battle of the Russo-Japanese War, in which the Japanese Combined Fleet almost completely annihilated the Russian Second Pacific Squadron."
+        }
+      }
+    },
+    {
+      "id": "俄军第二太平洋舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄军第二太平洋舰队",
+          "波罗的海舰队"
+        ],
+        "en": [
+          "Second Pacific Squadron",
+          "Baltic Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由波罗的海舰队改编而成，远航至远东支援，但在对马海峡海战中被日本联合舰队击溃。",
+          "en": "Formed from the Baltic Fleet, it sailed to the Far East for reinforcement but was defeated by the Japanese Combined Fleet at the Battle of Tsushima."
+        }
+      }
+    },
+    {
+      "id": "联合舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合舰队"
+        ],
+        "en": [
+          "Combined Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本海军的主力舰队，在对马海峡海战中取得决定性胜利。",
+          "en": "The main fleet of the Imperial Japanese Navy, which achieved a decisive victory at the Battle of Tsushima."
+        }
+      }
+    },
+    {
+      "id": "东乡平八郎",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "东乡平八郎"
+        ],
+        "en": [
+          "Tōgō Heihachirō"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本海军将领，时任联合舰队司令长官。",
+          "en": "A Japanese naval admiral who served as the Commander-in-Chief of the Combined Fleet."
+        }
+      }
+    },
+    {
+      "id": "鲁迅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鲁迅"
+        ],
+        "en": [
+          "Lu Xun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代著名作家。留学日本期间，因观看日俄战争中中国人被处决的幻灯片而深受刺激，决定弃医从文以改变国民精神。",
+          "en": "A famous modern Chinese writer. While studying in Japan, he was deeply shocked by a slide show of a Chinese person being executed during the Russo-Japanese War, which prompted him to abandon medicine for literature to reform the national spirit."
+        }
+      }
+    },
+    {
+      "id": "三国干涉还辽",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "三国干涉还辽"
+        ],
+        "en": [
+          "Triple Intervention"
+        ]
+      },
+      "properties": {
+        "period": "1895",
+        "description": {
+          "zh-cn": "甲午战争后，俄国、德国、法国联合迫使日本将辽东半岛归还给清朝的事件。此事被日本视为国耻，成为日后日俄冲突的远因。",
+          "en": "An event after the First Sino-Japanese War where Russia, Germany, and France jointly pressured Japan to return the Liaodong Peninsula to the Qing Dynasty. This was seen as a national humiliation in Japan and became a long-term cause of the future Russo-Japanese conflict."
+        }
+      }
+    },
+    {
+      "id": "甲午战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "甲午战争"
+        ],
+        "en": [
+          "First Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1894 - 1895",
+        "description": {
+          "zh-cn": "日本在此战中获胜并根据《马关条约》取得辽东半岛，直接引发了“三国干涉还辽”事件。",
+          "en": "Japan's victory in this war and acquisition of the Liaodong Peninsula under the Treaty of Shimonoseki directly led to the Triple Intervention."
+        }
+      }
+    },
+    {
+      "id": "第二次日韩协约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "第二次日韩协约"
+        ],
+        "en": [
+          "Japan–Korea Treaty of 1905"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本在日俄战争胜利后与大韩帝国签订的条约，使韩国成为日本的保护国。",
+          "en": "A treaty signed between Japan and the Korean Empire after Japan's victory in the Russo-Japanese War, making Korea a protectorate of Japan."
+        }
+      }
+    },
+    {
+      "id": "大韩帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大韩帝国",
+          "韩国"
+        ],
+        "en": [
+          "Korean Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日俄战争后，通过《第二次日韩协约》成为日本的保护国。",
+          "en": "After the Russo-Japanese War, it became a protectorate of Japan through the Japan-Korea Treaty of 1905."
+        }
+      }
+    },
+    {
+      "id": "黑山公国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "黑山公国",
+          "蒙特内哥罗公国"
+        ],
+        "en": [
+          "Principality of Montenegro"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "作为俄罗斯的盟友，在日俄战争爆发时向日本宣战。",
+          "en": "As an ally of Russia, it declared war on Japan at the outbreak of the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "日英同盟",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "日英同盟"
+        ],
+        "en": [
+          "Anglo-Japanese Alliance"
+        ]
+      },
+      "properties": {
+        "period": "1902",
+        "description": {
+          "zh-cn": "日本与英国于1902年结成的军事同盟，为日本挑战俄国提供了外交支持。",
+          "en": "A military alliance formed between Japan and Great Britain in 1902, which provided diplomatic support for Japan to challenge Russia."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom",
+          "Britain"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "通过《日英同盟》成为日本的盟友。",
+          "en": "Became an ally of Japan through the Anglo-Japanese Alliance."
+        }
+      }
+    },
+    {
+      "id": "奉天会战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "奉天会战"
+        ],
+        "en": [
+          "Battle of Mukden"
+        ]
+      },
+      "properties": {
+        "period": "1905-02-20 - 1905-03-10",
+        "description": {
+          "zh-cn": "日俄战争中规模最大的一场陆战，日军占领奉天，俄军战败撤退。",
+          "en": "The largest land battle of the Russo-Japanese War, resulting in the Japanese capture of Mukden and the retreat of Russian forces."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "大日本帝国",
+      "target": "俄罗斯帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1904-02-08",
+        "end_date": "1905-09-05",
+        "description": {
+          "zh-cn": "在日俄战争中作为主要交战方。",
+          "en": "Acted as the main combatants in the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "source": "朴茨茅斯条约",
+      "target": "日俄战争",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1905-09-05",
+        "description": {
+          "zh-cn": "《朴茨茅斯条约》的签订标志着日俄战争的正式结束。",
+          "en": "The signing of the Treaty of Portsmouth marked the official end of the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "source": "西奥多·罗斯福",
+      "target": "朴茨茅斯条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1905-08",
+        "end_date": "1905-09-05",
+        "description": {
+          "zh-cn": "作为中间人斡旋日俄双方进行停战谈判并达成协议。",
+          "en": "Acted as a mediator to facilitate peace negotiations between Japan and Russia, leading to the agreement."
+        }
+      }
+    },
+    {
+      "source": "日俄战争",
+      "target": "1905年俄国革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1905-01-22",
+        "description": {
+          "zh-cn": "俄罗斯帝国在战争中的失败和巨大消耗，加剧了国内社会矛盾，是引发1905年革命的直接导火索。",
+          "en": "The Russian Empire's defeat and enormous costs in the war exacerbated domestic social conflicts, acting as a direct catalyst for the 1905 Revolution."
+        }
+      }
+    },
+    {
+      "source": "日俄战争",
+      "target": "立宪运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1905",
+        "description": {
+          "zh-cn": "日本以君主立宪政体战胜专制俄国，给清廷上下带来巨大震动，认为“立宪能战胜于专制”，从而推动了清末的立宪运动。",
+          "en": "Japan, a constitutional monarchy, defeating autocratic Russia sent shockwaves through the Qing court, leading to the belief that 'constitutionalism can defeat autocracy' and thus promoting the constitutional movement in the late Qing."
+        }
+      }
+    },
+    {
+      "source": "日俄战争",
+      "target": "第二次日韩协约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1905-11-17",
+        "description": {
+          "zh-cn": "日本在日俄战争中获胜，俄国承认日本对朝鲜的指导及监督权，日本随即迫使大韩帝国签订该协约，使其成为日本的保护国。",
+          "en": "After Japan's victory in the Russo-Japanese War, Russia recognized Japan's right to guide and supervise Korea. Japan then compelled the Korean Empire to sign this treaty, making it a Japanese protectorate."
+        }
+      }
+    },
+    {
+      "source": "日俄战争",
+      "target": "鲁迅",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1906",
+        "description": {
+          "zh-cn": "鲁迅在观看日俄战争中中国人作俄军间谍被日军处决的幻灯片后，认识到改变国民精神的重要性，从而决定弃医从文。",
+          "en": "After watching a slide show depicting a Chinese person being executed by the Japanese army as a Russian spy during the war, Lu Xun realized the importance of changing the national spirit and decided to abandon medicine for literature."
+        }
+      }
+    },
+    {
+      "source": "对马海峡海战",
+      "target": "朴茨茅斯条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1905-05-28",
+        "description": {
+          "zh-cn": "俄国舰队在对马海峡海战中几乎全军覆没，使其彻底丧失扭转战局的希望，从而开始与日本进行停战谈判。",
+          "en": "The near-total annihilation of the Russian fleet at the Battle of Tsushima destroyed Russia's hopes of turning the tide of the war, prompting it to begin peace negotiations with Japan."
+        }
+      }
+    },
+    {
+      "source": "对马海峡海战",
+      "target": "俄军第二太平洋舰队",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1905-05-27",
+        "end_date": "1905-05-28",
+        "description": {
+          "zh-cn": "俄国第二太平洋舰队在此战中几乎全军覆没。",
+          "en": "The Russian Second Pacific Squadron was almost completely annihilated in this battle."
+        }
+      }
+    },
+    {
+      "source": "对马海峡海战",
+      "target": "联合舰队",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1905-05-27",
+        "end_date": "1905-05-28",
+        "description": {
+          "zh-cn": "联合舰队在此战中以极小的代价取得了决定性胜利。",
+          "en": "The Combined Fleet achieved a decisive victory in this battle with minimal losses."
+        }
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "三国干涉还辽",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1895-04-23",
+        "description": {
+          "zh-cn": "日本在甲午战争后通过《马关条约》获得辽东半岛，直接引发了俄、德、法三国的干涉。",
+          "en": "Japan's acquisition of the Liaodong Peninsula through the Treaty of Shimonoseki after the First Sino-Japanese War directly triggered the intervention of Russia, Germany, and France."
+        }
+      }
+    },
+    {
+      "source": "三国干涉还辽",
+      "target": "日俄战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1895",
+        "description": {
+          "zh-cn": "日本被迫归还辽东半岛，视之为国耻，加剧了与在东北亚扩张势力的俄国之间的矛盾，成为日俄战争的远因。",
+          "en": "Japan was forced to return the Liaodong Peninsula, which it considered a national humiliation, exacerbating tensions with the expanding Russian Empire in Northeast Asia and becoming a long-term cause of the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "source": "黑山公国",
+      "target": "大日本帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1904",
+        "end_date": "2006",
+        "description": {
+          "zh-cn": "作为俄国的盟友，黑山公国向日本宣战，但战后被遗忘，两国在法律上的战争状态直到2006年才结束。",
+          "en": "As an ally of Russia, the Principality of Montenegro declared war on Japan, but was forgotten after the war. The legal state of war between the two countries did not end until 2006."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "大日本帝国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1902",
+        "description": {
+          "zh-cn": "通过1902年签订的《日英同盟》成为盟友，英国的支持为日本挑战俄国提供了外交保障。",
+          "en": "Became allies through the Anglo-Japanese Alliance signed in 1902, and British support provided diplomatic backing for Japan to challenge Russia."
+        }
+      }
+    },
+    {
+      "source": "日英同盟",
+      "target": "大日本帝国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1902",
+        "description": {
+          "zh-cn": "日英同盟的签订使日本在与俄国的对抗中获得了外交上的支持，使其有底气发动战争。",
+          "en": "The signing of the Anglo-Japanese Alliance gave Japan diplomatic support in its confrontation with Russia, providing it with the confidence to start the war."
+        }
+      }
+    },
+    {
+      "source": "奉天会战",
+      "target": "俄罗斯帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1905-03-10",
+        "description": {
+          "zh-cn": "俄军在奉天会战中战败并撤退，这是日俄战争中规模最大的一次陆战失利。",
+          "en": "The Russian army was defeated and retreated in the Battle of Mukden, its largest land battle loss in the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "source": "明治天皇",
+      "target": "大日本帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "天皇",
+          "en": "Emperor"
+        },
+        "description": {
+          "zh-cn": "担任日俄战争时期大日本帝国的国家元首和名义上的最高统帅。",
+          "en": "Served as the head of state and nominal commander-in-chief of the Empire of Japan during the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "source": "尼古拉二世 (俄罗斯)",
+      "target": "俄罗斯帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "沙皇",
+          "en": "Tsar"
+        },
+        "description": {
+          "zh-cn": "担任日俄战争时期俄罗斯帝国的国家元首和最高统帅。",
+          "en": "Served as the head of state and commander-in-chief of the Russian Empire during the Russo-Japanese War."
+        }
+      }
+    },
+    {
+      "source": "东乡平八郎",
+      "target": "联合舰队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "司令长官",
+          "en": "Commander-in-Chief"
+        },
+        "description": {
+          "zh-cn": "在日俄战争期间担任日本海军联合舰队的司令长官。",
+          "en": "Served as the Commander-in-Chief of the Japanese Combined Fleet during the Russo-Japanese War."
+        }
+      }
+    }
+  ]
+}

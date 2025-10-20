@@ -1,0 +1,629 @@
+{
+  "nodes": [
+    {
+      "id": "明治維新",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "明治维新"
+        ],
+        "en": [
+          "Meiji Restoration"
+        ]
+      },
+      "properties": {
+        "period": "1853 - 1889",
+        "description": {
+          "zh-cn": "指日本在19世纪后期、幕末至明治时代初期间推行的一系列近代化改革。",
+          "en": "A series of modernization reforms implemented in Japan in the late 19th century, from the end of the Edo period to the beginning of the Meiji period."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，在明治维新期间经历了快速的现代化。",
+          "en": "An East Asian country that underwent rapid modernization during the Meiji Restoration."
+        }
+      }
+    },
+    {
+      "id": "德川幕府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德川幕府",
+          "幕府"
+        ],
+        "en": [
+          "Tokugawa shogunate"
+        ]
+      },
+      "properties": {
+        "period": " - 1868",
+        "description": {
+          "zh-cn": "日本最后一个封建军事政府，在戊辰战争后被推翻。",
+          "en": "The last feudal military government of Japan, overthrown after the Boshin War."
+        }
+      }
+    },
+    {
+      "id": "明治政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明治政府"
+        ],
+        "en": [
+          "Meiji government"
+        ]
+      },
+      "properties": {
+        "period": "1868 - ",
+        "description": {
+          "zh-cn": "明治维新后成立的新政府，由萨长土肥等藩士主导。",
+          "en": "The new government established after the Meiji Restoration, led by samurai from domains such as Satsuma, Chōshū, Tosa, and Hizen."
+        }
+      }
+    },
+    {
+      "id": "黑船来航",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "黑船来航",
+          "美国黑船叩国门",
+          "黑船事件"
+        ],
+        "en": [
+          "Arrival of the Black Ships"
+        ]
+      },
+      "properties": {
+        "period": "1853",
+        "description": {
+          "zh-cn": "美国海军准将马休·佩里率舰队强迫日本开放港口，被广泛认为是明治维新的开端之一。",
+          "en": "The event where U.S. Navy Commodore Matthew C. Perry compelled Japan to open its ports, widely considered one of the starting points of the Meiji Restoration."
+        }
+      }
+    },
+    {
+      "id": "萨长土肥",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "萨长土肥"
+        ],
+        "en": [
+          "Satchōdohi"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指萨摩、长州、土佐、肥前四个在倒幕运动和明治维新中起主导作用的强藩。",
+          "en": "Refers to the four powerful domains of Satsuma, Chōshū, Tosa, and Hizen, which played a leading role in the anti-shogunate movement and the Meiji Restoration."
+        }
+      }
+    },
+    {
+      "id": "戊辰战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "戊辰战争"
+        ],
+        "en": [
+          "Boshin War"
+        ]
+      },
+      "properties": {
+        "period": "1868 - 1869",
+        "description": {
+          "zh-cn": "日本的一场内战，交战双方为明治维新后成立的新政府和前德川幕府的残余势力。",
+          "en": "A civil war in Japan, fought between the new Meiji government and the forces of the former Tokugawa shogunate."
+        }
+      }
+    },
+    {
+      "id": "明治天皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明治天皇",
+          "睦仁天皇"
+        ],
+        "en": [
+          "Emperor Meiji"
+        ]
+      },
+      "properties": {
+        "lifetime": "1852-11-03 - 1912-07-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本第122代天皇，其在位期间推动了明治维新。",
+          "en": "The 122nd Emperor of Japan, who presided over the Meiji Restoration."
+        }
+      }
+    },
+    {
+      "id": "西乡隆盛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "西乡隆盛"
+        ],
+        "en": [
+          "Saigō Takamori"
+        ]
+      },
+      "properties": {
+        "lifetime": "1828-01-23 - 1877-09-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本明治维新初期的政治家，维新三杰之一。早期是新政府的核心人物，后因不满改革而发动西南战争。",
+          "en": "A Japanese politician in the early Meiji period, one of the Three Great Nobles of the Restoration. He was a central figure in the new government but later led the Satsuma Rebellion out of dissatisfaction with the reforms."
+        }
+      }
+    },
+    {
+      "id": "西南战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "西南战争"
+        ],
+        "en": [
+          "Satsuma Rebellion"
+        ]
+      },
+      "properties": {
+        "period": "1877",
+        "description": {
+          "zh-cn": "由西乡隆盛领导的士族反对明治政府的叛乱，是最后也是最大规模的士族反乱。",
+          "en": "A rebellion of disaffected samurai against the Meiji government, led by Saigō Takamori. It was the last and most serious of the shizoku rebellions."
+        }
+      }
+    },
+    {
+      "id": "大久保利通",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "大久保利通"
+        ],
+        "en": [
+          "Ōkubo Toshimichi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1830-09-26 - 1878-05-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本政治家，维新三杰之一，明治政府的核心领导人。",
+          "en": "A Japanese statesman, one of the Three Great Nobles of the Restoration, and a core leader of the Meiji government."
+        }
+      }
+    },
+    {
+      "id": "木户孝允",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "木户孝允"
+        ],
+        "en": [
+          "Kido Takayoshi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1833-08-11 - 1877-05-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本政治家，维新三杰之一，在明治政府中扮演关键角色。",
+          "en": "A Japanese statesman, one of the Three Great Nobles of the Restoration, who played a key role in the Meiji government."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国宪法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "大日本帝国宪法",
+          "首部宪法"
+        ],
+        "en": [
+          "Constitution of the Empire of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1889",
+        "description": {
+          "zh-cn": "明治维新的成果之一，确立了日本的君主立宪政体。",
+          "en": "One of the achievements of the Meiji Restoration, establishing a constitutional monarchy in Japan."
+        }
+      }
+    },
+    {
+      "id": "废藩置县",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "废藩置县"
+        ],
+        "en": [
+          "Abolition of the han system"
+        ]
+      },
+      "properties": {
+        "period": "1871",
+        "description": {
+          "zh-cn": "明治政府用县取代旧有的藩，是中央集权化的关键一步。",
+          "en": "The Meiji government's policy of replacing the feudal domains (han) with prefectures, a key step in centralization."
+        }
+      }
+    },
+    {
+      "id": "脱亚论",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "脱亚论"
+        ],
+        "en": [
+          "Datsu-A Ron"
+        ]
+      },
+      "properties": {
+        "period": "1885-03-16",
+        "description": {
+          "zh-cn": "由福泽谕吉提出的思想，主张日本应脱离亚洲邻国，与西方文明国家共进退，对明治政府的外交政策产生深远影响。",
+          "en": "An idea proposed by Fukuzawa Yukichi advocating that Japan should leave its Asian neighbors and align with Western civilized nations, which had a profound impact on the Meiji government's foreign policy."
+        }
+      }
+    },
+    {
+      "id": "福泽谕吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "福泽谕吉"
+        ],
+        "en": [
+          "Fukuzawa Yukichi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1835-01-10 - 1901-02-03",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本近代重要的启蒙思想家、教育家，提出了著名的《脱亚论》。",
+          "en": "An important modern Japanese enlightenment thinker and educator, who proposed the famous 'Datsu-A Ron' (Leaving Asia)."
+        }
+      }
+    },
+    {
+      "id": "不平等条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "不平等条约"
+        ],
+        "en": [
+          "Unequal treaty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指幕府末期与西方列强签订的一系列丧失主权的条约，废除这些条约是明治政府的主要外交目标。",
+          "en": "Refers to a series of treaties signed with Western powers in the late Shogunate period that compromised sovereignty; abolishing them was a major diplomatic goal of the Meiji government."
+        }
+      }
+    },
+    {
+      "id": "胜海舟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胜海舟"
+        ],
+        "en": [
+          "Katsu Kaishū"
+        ]
+      },
+      "properties": {
+        "lifetime": "1823-03-12 - 1899-01-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德川幕府末期的政治家，在江户无血开城中扮演了关键角色。",
+          "en": "A statesman of the late Tokugawa shogunate who played a key role in the bloodless surrender of Edo."
+        }
+      }
+    },
+    {
+      "id": "伊藤博文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊藤博文"
+        ],
+        "en": [
+          "Itō Hirobumi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1841-10-16 - 1909-10-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本近代政治家，长州藩出身，首任内阁总理大臣，是明治政府的核心人物。",
+          "en": "A modern Japanese politician from the Chōshū Domain, the first Prime Minister of Japan, and a central figure in the Meiji government."
+        }
+      }
+    },
+    {
+      "id": "岩仓使节团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "岩仓使节团"
+        ],
+        "en": [
+          "Iwakura Mission"
+        ]
+      },
+      "properties": {
+        "period": "1871 - 1873",
+        "description": {
+          "zh-cn": "明治政府派遣至欧美的大型外交使团，旨在考察西方制度与技术，为日本的现代化建设提供蓝图。",
+          "en": "A large diplomatic mission sent by the Meiji government to the United States and Europe to study Western institutions and technology, providing a blueprint for Japan's modernization."
+        }
+      }
+    },
+    {
+      "id": "德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德国"
+        ],
+        "en": [
+          "Germany"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "其国家主导的工业发展模式和强权政策成为明治日本效仿的对象。",
+          "en": "Its state-led industrial development model and strong-arm policies became a model for Meiji Japan."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "黑船来航",
+      "target": "明治維新",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1853",
+        "description": {
+          "zh-cn": "美国黑船叩关事件被认为是明治维新运动的开端，外来压力加剧了国内变革的紧迫性。",
+          "en": "The arrival of the American Black Ships is considered the beginning of the Meiji Restoration movement, as external pressure intensified the urgency for domestic reform."
+        }
+      }
+    },
+    {
+      "source": "明治維新",
+      "target": "德川幕府",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1868",
+        "description": {
+          "zh-cn": "明治维新运动推翻了德川幕府的统治，结束了日本长达六百多年的武家政权。",
+          "en": "The Meiji Restoration movement overthrew the rule of the Tokugawa shogunate, ending over 600 years of military government in Japan."
+        }
+      }
+    },
+    {
+      "source": "萨长土肥",
+      "target": "明治維新",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "由萨摩、长州、土佐、肥前四藩的藩士组成的政治力量是推翻幕府、推行维新改革的核心。",
+          "en": "The political force composed of samurai from the four domains of Satsuma, Chōshū, Tosa, and Hizen was central to overthrowing the shogunate and implementing the restoration reforms."
+        }
+      }
+    },
+    {
+      "source": "明治維新",
+      "target": "明治政府",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1868",
+        "description": {
+          "zh-cn": "明治维新运动建立了以天皇为首的新中央政府。",
+          "en": "The Meiji Restoration movement established a new central government headed by the Emperor."
+        }
+      }
+    },
+    {
+      "source": "明治政府",
+      "target": "德川幕府",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1868",
+        "end_date": "1869",
+        "description": {
+          "zh-cn": "明治政府在戊辰战争中与德川幕府及其残余势力作战并取得胜利。",
+          "en": "The Meiji government fought against and defeated the Tokugawa shogunate and its remnant forces in the Boshin War."
+        }
+      }
+    },
+    {
+      "source": "西乡隆盛",
+      "target": "西南战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1877",
+        "description": {
+          "zh-cn": "西乡隆盛领导了士族发动西南战争，以反对明治政府的改革政策。",
+          "en": "Saigō Takamori led the shizoku in the Satsuma Rebellion to oppose the reform policies of the Meiji government."
+        }
+      }
+    },
+    {
+      "source": "西南战争",
+      "target": "明治政府",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1877",
+        "end_date": "1877",
+        "description": {
+          "zh-cn": "西南战争是士族阶级对明治政府发动的最大规模的叛乱。",
+          "en": "The Satsuma Rebellion was the largest-scale rebellion launched by the samurai class against the Meiji government."
+        }
+      }
+    },
+    {
+      "source": "明治政府",
+      "target": "废藩置县",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1871",
+        "description": {
+          "zh-cn": "明治政府推行废藩置县政策，以建立中央集权国家。",
+          "en": "The Meiji government implemented the policy of abolishing domains and establishing prefectures to create a centralized state."
+        }
+      }
+    },
+    {
+      "source": "明治政府",
+      "target": "大日本帝国宪法",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1889",
+        "description": {
+          "zh-cn": "作为维新改革的一部分，明治政府主导制定了《大日本帝国宪法》。",
+          "en": "As part of the Restoration reforms, the Meiji government led the drafting of the Constitution of the Empire of Japan."
+        }
+      }
+    },
+    {
+      "source": "明治政府",
+      "target": "不平等条约",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "明治政府将废除幕府时期签订的不平等条约作为其主要外交目标之一。",
+          "en": "The Meiji government made the abolition of the unequal treaties signed during the Shogunate period one of its main diplomatic goals."
+        }
+      }
+    },
+    {
+      "source": "福泽谕吉",
+      "target": "脱亚论",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1885-03-16",
+        "description": {
+          "zh-cn": "福泽谕吉于1885年发表《脱亚论》，提出日本应与西方文明为伍。",
+          "en": "Fukuzawa Yukichi published 'Datsu-A Ron' in 1885, arguing that Japan should align itself with Western civilization."
+        }
+      }
+    },
+    {
+      "source": "脱亚论",
+      "target": "明治政府",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1885",
+        "description": {
+          "zh-cn": "“脱亚入欧”的口号被明治政府奉为国策，深刻影响了日本的现代化方向。",
+          "en": "The slogan 'Leave Asia, Enter Europe' was adopted as a national policy by the Meiji government, profoundly influencing the direction of Japan's modernization."
+        }
+      }
+    },
+    {
+      "source": "胜海舟",
+      "target": "西乡隆盛",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1868",
+        "description": {
+          "zh-cn": "作为旧幕府代表，与新政府代表西乡隆盛谈判，促成了江户的无血开城。",
+          "en": "As the representative of the old shogunate, he negotiated with the new government's representative, Saigō Takamori, leading to the bloodless surrender of Edo."
+        }
+      }
+    },
+    {
+      "source": "大久保利通",
+      "target": "明治政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "大久保利通是明治政府的核心实权人物之一。",
+          "en": "Ōkubo Toshimichi was one of the core figures holding real power in the Meiji government."
+        }
+      }
+    },
+    {
+      "source": "木户孝允",
+      "target": "明治政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "木户孝允是明治政府的核心实权人物之一。",
+          "en": "Kido Takayoshi was one of the core figures holding real power in the Meiji government."
+        }
+      }
+    },
+    {
+      "source": "伊藤博文",
+      "target": "明治政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主要人物",
+          "en": "Leading figure"
+        },
+        "description": {
+          "zh-cn": "伊藤博文是明治政府的主要人物，后成为首任内阁总理大臣。",
+          "en": "Itō Hirobumi was a leading figure in the Meiji government, later becoming the first Prime Minister."
+        }
+      }
+    },
+    {
+      "source": "明治政府",
+      "target": "岩仓使节团",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1871",
+        "description": {
+          "zh-cn": "明治政府派遣岩仓使节团出访欧美，以考察西方制度，为日本现代化改革铺路。",
+          "en": "The Meiji government dispatched the Iwakura Mission to Europe and the United States to study Western systems and pave the way for Japan's modernization reforms."
+        }
+      }
+    },
+    {
+      "source": "德国",
+      "target": "明治政府",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "岩仓使节团在访问德国后，深受其国家主导的工业发展模式和强权政治启发，这为日本之后的发展模式提供了参考。",
+          "en": "After visiting Germany, the Iwakura Mission was deeply inspired by its state-led industrial development model and power politics, which provided a reference for Japan's subsequent development model."
+        }
+      }
+    }
+  ]
+}
