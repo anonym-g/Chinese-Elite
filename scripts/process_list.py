@@ -7,6 +7,7 @@ import re
 from datetime import datetime
 import random
 import logging
+import concurrent.futures
 
 # 使用相对路径导入
 from .config import DATA_DIR, LIST_FILE_PATH, PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, TIMEZONE
@@ -86,36 +87,40 @@ class ListProcessor:
                 except ValueError: continue
         return latest_time
 
-    def _process_item(self, item_tuple: tuple, category: str):
-        """对单个条目执行完整的处理流程。"""
+    def _should_process_item(self, item_tuple: tuple, category: str) -> bool:
+        """根据更新日期、维基历史和概率，判断是否应处理该条目。"""
         item_name, lang = item_tuple
-        logger.info(f"--- 开始处理 '{item_name}' (类别: {category}, 语言: {lang}) ---")
-
+        
         last_local_time = self._get_last_local_process_time(item_name, category)
 
         if not last_local_time:
-            logger.info("未在本地发现历史版本，将执行首次提取。")
-        else:
-            now = datetime.now(TIMEZONE)
-            age_in_days = (now - last_local_time).days
-            if age_in_days <= PROB_START_DAY:
-                logger.info(f"'{item_name}' 在 {age_in_days} 天前刚处理过，跳过。")
-                return
-            
-            latest_wiki_time = self.wiki_client.get_latest_revision_time(item_name, lang=lang)
-            if latest_wiki_time and latest_wiki_time <= last_local_time:
-                logger.info(f"'{item_name}' 的本地数据已是最新，跳过。")
-                return
+            logger.info(f"'{item_name}': 首次处理。")
+            return True
+        
+        now = datetime.now(TIMEZONE)
+        age_in_days = (now - last_local_time).days
+        if age_in_days <= PROB_START_DAY:
+            return False # 最近处理过，跳过
+        
+        latest_wiki_time = self.wiki_client.get_latest_revision_time(item_name, lang=lang)
+        if latest_wiki_time and latest_wiki_time <= last_local_time:
+            return False # 本地数据已是最新，跳过
 
-            if PROB_START_DAY < age_in_days <= PROB_END_DAY:
-                ratio = (age_in_days - PROB_START_DAY) / (PROB_END_DAY - PROB_START_DAY)
-                probability = PROB_START_VALUE + (PROB_END_VALUE - PROB_START_VALUE) * ratio
-                if random.random() >= probability:
-                    logger.info(f"'{item_name}' 在概率期内，按概率 ({probability:.2%}) 本次跳过。")
-                    return
-                logger.info(f"'{item_name}' 在概率期内，按概率 ({probability:.2%}) 重新提取。")
-            else: # age_in_days > PROB_END_DAY
-                logger.info(f"'{item_name}' 已超过 {PROB_END_DAY} 天未更新，将重新提取。")
+        if PROB_START_DAY < age_in_days <= PROB_END_DAY:
+            ratio = (age_in_days - PROB_START_DAY) / (PROB_END_DAY - PROB_START_DAY)
+            probability = PROB_START_VALUE + (PROB_END_VALUE - PROB_START_VALUE) * ratio
+            if random.random() >= probability:
+                return False # 概率期内，按概率跳过
+            logger.info(f"'{item_name}': 在概率期内，按概率 ({probability:.2%}) 重新提取。")
+        else: # age_in_days > PROB_END_DAY
+            logger.info(f"'{item_name}': 已超过 {PROB_END_DAY} 天未更新，将重新提取。")
+        
+        return True
+
+    def _process_item(self, item_tuple: tuple, category: str):
+        """对单个条目执行Wikitext获取、LLM解析和文件保存。"""
+        item_name, lang = item_tuple
+        logger.info(f"--- 开始处理 '{item_name}' (类别: {category}, 语言: {lang}) ---")
 
         wikitext, _ = self.wiki_client.get_wikitext(item_name, lang=lang)
         if not wikitext:
@@ -152,14 +157,33 @@ class ListProcessor:
             logger.info("列表文件为空或不存在，任务结束。")
             return
 
-        total_items = sum(len(v) for v in self.items_to_process.values())
-        logger.info(f"列表文件解析完成，共发现 {total_items} 个条目待处理。")
-        
-        processed_count = 0
+        logger.info("--- 步骤 1/3: 筛选本轮需要处理的条目 ---")
+        items_for_this_run = []
         for category, items in self.items_to_process.items():
             for item_tuple in items:
-                processed_count += 1
-                logger.info(f"[{processed_count}/{total_items}] ====================================")
-                self._process_item(item_tuple, category)
+                if self._should_process_item(item_tuple, category):
+                    items_for_this_run.append((item_tuple, category))
+        
+        if not items_for_this_run:
+            logger.info("本轮没有需要处理的条目。")
+            return
+
+        logger.info(f"--- 步骤 2/3: 已确定 {len(items_for_this_run)} 个条目，正在打乱顺序 ---")
+        random.shuffle(items_for_this_run)
+
+        logger.info("--- 步骤 3/3: 开始并行处理 ---")
+        # 根据经验，LLM API的网络IO是主要瓶颈，可以设置较多线程；但也要考虑 API 速率限制 (RPM)。
+        # 这里设置为8个并发
+        MAX_WORKERS = 8 
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            # 使用 executor.submit 来分派任务
+            futures = [executor.submit(self._process_item, item_tuple, category) for item_tuple, category in items_for_this_run]
+            
+            # 等待所有任务完成 (可选，有助于确保所有日志均已输出)
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    future.result() # 如果任务中出现异常，这里会重新抛出
+                except Exception as exc:
+                    logger.error(f"一个处理任务在执行期间发生意外错误: {exc}", exc_info=True)
         
         logger.info("所有条目处理完毕。")
