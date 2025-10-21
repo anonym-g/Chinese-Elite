@@ -1,0 +1,787 @@
+{
+  "nodes": [
+    {
+      "id": "基督宗教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "基督宗教",
+          "基督教"
+        ],
+        "en": [
+          "Christianity"
+        ]
+      },
+      "properties": {
+        "period": "0001-01-01 - ",
+        "location": {
+          "zh-cn": "巴勒斯坦地区",
+          "en": "Palestine region"
+        },
+        "description": {
+          "zh-cn": "起源于公元一世纪西亚巴勒斯坦地区的一神论宗教，与伊斯兰教、佛教并列为世界三大宗教，也是世界信徒人数最多的宗教。",
+          "en": "A monotheistic religion originating in the 1st century AD in the Palestine region of Western Asia. It is one of the world's three major religions, alongside Islam and Buddhism, and has the largest number of adherents worldwide."
+        }
+      }
+    },
+    {
+      "id": "耶稣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "耶稣",
+          "耶稣基督",
+          "拿撒勒人耶稣"
+        ],
+        "en": [
+          "Jesus",
+          "Jesus Christ",
+          "Jesus of Nazareth"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 0033",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "伯利恒",
+          "en": "Bethlehem"
+        },
+        "death_place": {
+          "zh-cn": "耶路撒冷",
+          "en": "Jerusalem"
+        },
+        "description": {
+          "zh-cn": "基督宗教的创始人，基督徒相信他是神、神之子及基督，全人类唯一的救主。",
+          "en": "The founder of Christianity, believed by Christians to be God, the Son of God, and the Christ, the sole savior of all humanity."
+        }
+      }
+    },
+    {
+      "id": "犹太教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "犹太教"
+        ],
+        "en": [
+          "Judaism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "源于西亚的一神论宗教，基督宗教的思想和信仰实践多源自于此。",
+          "en": "A monotheistic religion originating in Western Asia, from which much of Christian thought and practice is derived."
+        }
+      }
+    },
+    {
+      "id": "罗马帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗马帝国"
+        ],
+        "en": [
+          "Roman Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代欧洲的帝国，早期曾迫害基督徒，后将基督教定为国教。",
+          "en": "An ancient European empire that initially persecuted Christians but later established Christianity as the state religion."
+        }
+      }
+    },
+    {
+      "id": "君士坦丁大帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "君士坦丁大帝",
+          "君士坦丁一世"
+        ],
+        "en": [
+          "Constantine the Great",
+          "Constantine I"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马皇帝，于公元313年发布《米兰敕令》，结束了对基督徒的迫害。",
+          "en": "Roman Emperor who issued the Edict of Milan in 313 AD, ending the persecution of Christians."
+        }
+      }
+    },
+    {
+      "id": "米兰敕令 (君士坦丁)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "米兰敕令 (君士坦丁)",
+          "米兰敕令"
+        ],
+        "en": [
+          "Edict of Milan"
+        ]
+      },
+      "properties": {
+        "period": "0313",
+        "description": {
+          "zh-cn": "由罗马皇帝君士坦丁一世于公元313年发布的敕令，标志着罗马帝国对基督教迫害的结束。",
+          "en": "An edict issued by Roman Emperor Constantine I in 313 AD, marking the end of the persecution of Christianity in the Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "狄奥多西一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "狄奥多西一世"
+        ],
+        "en": [
+          "Theodosius I"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马皇帝，于公元382年左右通过《萨洛尼卡敕令》将基督教定为罗马帝国国教。",
+          "en": "Roman Emperor who made Christianity the state religion of the Roman Empire around 382 AD with the Edict of Thessalonica."
+        }
+      }
+    },
+    {
+      "id": "萨洛尼卡敕令",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "萨洛尼卡敕令"
+        ],
+        "en": [
+          "Edict of Thessalonica"
+        ]
+      },
+      "properties": {
+        "period": "0382",
+        "description": {
+          "zh-cn": "由罗马皇帝狄奥多西一世发布的敕令，将基督教定为罗马帝国国教。",
+          "en": "An edict issued by Roman Emperor Theodosius I, establishing Christianity as the state religion of the Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "东西教会大分裂",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "东西教会大分裂"
+        ],
+        "en": [
+          "East–West Schism"
+        ]
+      },
+      "properties": {
+        "period": "1054",
+        "description": {
+          "zh-cn": "发生于1054年的教会分裂事件，导致基督教分裂为西方的天主教会和东方的东正教会。",
+          "en": "The church division that occurred in 1054, leading to the split of Christianity into the Western Catholic Church and the Eastern Orthodox Church."
+        }
+      }
+    },
+    {
+      "id": "天主教会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "天主教会",
+          "天主教"
+        ],
+        "en": [
+          "Catholic Church",
+          "Catholicism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基督教的主要分支之一，由东西教会大分裂产生，以罗马教宗为最高领袖。",
+          "en": "One of the major branches of Christianity, which emerged from the East-West Schism, with the Pope in Rome as its supreme head."
+        }
+      }
+    },
+    {
+      "id": "东正教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东正教",
+          "东正教会"
+        ],
+        "en": [
+          "Eastern Orthodox Church"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基督教的主要分支之一，由东西教会大分裂产生，以君士坦丁堡牧首为名义领袖。",
+          "en": "One of the major branches of Christianity, which emerged from the East-West Schism, with the Ecumenical Patriarch of Constantinople as its nominal leader."
+        }
+      }
+    },
+    {
+      "id": "宗教改革",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "宗教改革"
+        ],
+        "en": [
+          "Protestant Reformation"
+        ]
+      },
+      "properties": {
+        "period": "1501 - 1600",
+        "description": {
+          "zh-cn": "16世纪初在欧洲爆发的宗教改革运动，导致新教的产生。",
+          "en": "A religious reform movement that erupted in Europe in the early 16th century, leading to the emergence of Protestantism."
+        }
+      }
+    },
+    {
+      "id": "新教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新教"
+        ],
+        "en": [
+          "Protestantism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基督教的主要分支之一，产生于16世纪的宗教改革运动。",
+          "en": "One of the major branches of Christianity, which emerged from the 16th-century Protestant Reformation."
+        }
+      }
+    },
+    {
+      "id": "马丁·路德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马丁·路德"
+        ],
+        "en": [
+          "Martin Luther"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "16世纪欧洲宗教改革的代表人物之一。",
+          "en": "One of the representative figures of the 16th-century European Protestant Reformation."
+        }
+      }
+    },
+    {
+      "id": "约翰·加尔文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·加尔文"
+        ],
+        "en": [
+          "John Calvin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "16世纪欧洲宗教改革的代表人物之一。",
+          "en": "One of the representative figures of the 16th-century European Protestant Reformation."
+        }
+      }
+    },
+    {
+      "id": "乌利希·慈运理",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乌利希·慈运理"
+        ],
+        "en": [
+          "Huldrych Zwingli"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "16世纪欧洲宗教改革的代表人物之一。",
+          "en": "One of the representative figures of the 16th-century European Protestant Reformation."
+        }
+      }
+    },
+    {
+      "id": "保罗 (使徒)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "保罗 (使徒)",
+          "保罗",
+          "保禄"
+        ],
+        "en": [
+          "Paul the Apostle",
+          "Paul"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "早期基督教会的关键人物，原为迫害基督徒的犹太教徒，后转变为基督徒，成为向非犹太人传播基督教的主要传教士，并撰写了新约中的多卷书信。",
+          "en": "A key figure in the early Christian church. Originally a Jew who persecuted Christians, he converted to Christianity and became the primary missionary for spreading the faith to non-Jews, authoring several epistles in the New Testament."
+        }
+      }
+    },
+    {
+      "id": "迦玛列",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "迦玛列"
+        ],
+        "en": [
+          "Gamaliel"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "犹太公会领袖，使徒保罗的老师。",
+          "en": "A leader of the Sanhedrin and the teacher of the Apostle Paul."
+        }
+      }
+    },
+    {
+      "id": "圣经",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "圣经"
+        ],
+        "en": [
+          "Bible"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基督教的基本经典，由《旧约圣经》和《新约圣经》两大部分构成。",
+          "en": "The fundamental scripture of Christianity, consisting of two main parts: the Old Testament and the New Testament."
+        }
+      }
+    },
+    {
+      "id": "自由派神学",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "自由派神学"
+        ],
+        "en": [
+          "Liberal Christianity"
+        ]
+      },
+      "properties": {
+        "period": "1801 - ",
+        "description": {
+          "zh-cn": "19世纪出现的基督教神学思潮，其观点与传统教义有很大差异，例如否定圣经是神的启示。",
+          "en": "A theological movement in Christianity that emerged in the 19th century, holding views significantly different from traditional doctrines, such as denying that the Bible is a divine revelation."
+        }
+      }
+    },
+    {
+      "id": "伯利恒",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "伯利恒",
+          "白冷"
+        ],
+        "en": [
+          "Bethlehem"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "巴勒斯坦地区",
+          "en": "Palestine region"
+        },
+        "description": {
+          "zh-cn": "耶稣的出生地。",
+          "en": "The birthplace of Jesus."
+        }
+      }
+    },
+    {
+      "id": "耶稣受难",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "耶稣受难"
+        ],
+        "en": [
+          "Crucifixion of Jesus"
+        ]
+      },
+      "properties": {
+        "period": "0033",
+        "location": {
+          "zh-cn": "耶路撒冷",
+          "en": "Jerusalem"
+        },
+        "description": {
+          "zh-cn": "耶稣在耶路撒冷被钉十字架处决的事件。",
+          "en": "The event of Jesus' execution by crucifixion in Jerusalem."
+        }
+      }
+    },
+    {
+      "id": "演化论",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "演化论"
+        ],
+        "en": [
+          "Evolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "关于物种起源和发展的科学理论，被一些无神论者用作批评基督教反科学的例子。",
+          "en": "A scientific theory regarding the origin and development of species, cited by some atheists as an example of Christianity's opposition to science."
+        }
+      }
+    },
+    {
+      "id": "亚伯拉罕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亚伯拉罕"
+        ],
+        "en": [
+          "Abraham"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "犹太教、基督教和伊斯兰教共同的先知，被尊为“亚伯拉罕诸教”的始祖。",
+          "en": "A prophet common to Judaism, Christianity, and Islam, revered as the patriarch of the 'Abrahamic religions'."
+        }
+      }
+    },
+    {
+      "id": "伊斯兰教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伊斯兰教"
+        ],
+        "en": [
+          "Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "世界三大宗教之一，与犹太教和基督教同属亚伯拉罕诸教。",
+          "en": "One of the three major world religions, belonging to the Abrahamic religions along with Judaism and Christianity."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "耶稣",
+      "target": "基督宗教",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "0001",
+        "description": {
+          "zh-cn": "耶稣是基督宗教的创始人，该宗教于公元一世纪由他创立。",
+          "en": "Jesus is the founder of Christianity, which he established in the first century AD."
+        }
+      }
+    },
+    {
+      "source": "犹太教",
+      "target": "基督宗教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "基督宗教的大部分思想和信仰实践源自犹太教。",
+          "en": "Much of Christianity's thought and faith practices originated from Judaism."
+        }
+      }
+    },
+    {
+      "source": "罗马帝国",
+      "target": "基督宗教",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "0313",
+        "description": {
+          "zh-cn": "在公元313年《米兰敕令》发布前，罗马帝国曾对基督徒进行迫害。",
+          "en": "Before the Edict of Milan was issued in 313 AD, the Roman Empire persecuted Christians."
+        }
+      }
+    },
+    {
+      "source": "君士坦丁大帝",
+      "target": "基督宗教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0313",
+        "description": {
+          "zh-cn": "罗马皇帝君士坦丁一世发布《米兰敕令》，结束了对基督徒的迫害，为基督教的发展提供了有利条件。",
+          "en": "Roman Emperor Constantine I issued the Edict of Milan, ending the persecution of Christians and creating favorable conditions for the development of Christianity."
+        }
+      }
+    },
+    {
+      "source": "米兰敕令 (君士坦丁)",
+      "target": "基督宗教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0313",
+        "description": {
+          "zh-cn": "该敕令的发布结束了罗马帝国对基督徒的迫害。",
+          "en": "The issuance of this edict ended the Roman Empire's persecution of Christians."
+        }
+      }
+    },
+    {
+      "source": "狄奥多西一世",
+      "target": "基督宗教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0382",
+        "description": {
+          "zh-cn": "罗马皇帝狄奥多西一世通过《萨洛尼卡敕令》将基督教定为罗马帝国国教。",
+          "en": "Roman Emperor Theodosius I made Christianity the state religion of the Roman Empire through the Edict of Thessalonica."
+        }
+      }
+    },
+    {
+      "source": "萨洛尼卡敕令",
+      "target": "基督宗教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0382",
+        "description": {
+          "zh-cn": "该敕令将基督教确立为罗马帝国的国教。",
+          "en": "This edict established Christianity as the state religion of the Roman Empire."
+        }
+      }
+    },
+    {
+      "source": "东西教会大分裂",
+      "target": "天主教会",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1054",
+        "description": {
+          "zh-cn": "东西教会大分裂事件导致了西方教会（后称天主教会）的正式形成。",
+          "en": "The East-West Schism led to the formal establishment of the Western Church (later known as the Catholic Church)."
+        }
+      }
+    },
+    {
+      "source": "东西教会大分裂",
+      "target": "东正教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1054",
+        "description": {
+          "zh-cn": "东西教会大分裂事件导致了东方教会（后称东正教会）的正式形成。",
+          "en": "The East-West Schism led to the formal establishment of the Eastern Church (later known as the Eastern Orthodox Church)."
+        }
+      }
+    },
+    {
+      "source": "宗教改革",
+      "target": "新教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1501",
+        "description": {
+          "zh-cn": "16世纪的宗教改革运动直接导致了新教的产生。",
+          "en": "The 16th-century Protestant Reformation directly led to the emergence of Protestantism."
+        }
+      }
+    },
+    {
+      "source": "宗教改革",
+      "target": "天主教会",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1501",
+        "description": {
+          "zh-cn": "宗教改革运动公开反对罗马教宗的权力，并批判天主教会的教义，削弱了其权威。",
+          "en": "The Protestant Reformation openly opposed the authority of the Roman Pope and criticized the doctrines of the Catholic Church, weakening its authority."
+        }
+      }
+    },
+    {
+      "source": "马丁·路德",
+      "target": "宗教改革",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "马丁·路德是16世纪欧洲宗教改革的主要代表人物。",
+          "en": "Martin Luther was a leading figure of the 16th-century Protestant Reformation in Europe."
+        }
+      }
+    },
+    {
+      "source": "约翰·加尔文",
+      "target": "宗教改革",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "约翰·加尔文是16世纪欧洲宗教改革的主要代表人物。",
+          "en": "John Calvin was a leading figure of the 16th-century Protestant Reformation in Europe."
+        }
+      }
+    },
+    {
+      "source": "乌利希·慈运理",
+      "target": "宗教改革",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "乌利希·慈运理是16世纪欧洲宗教改革的主要代表人物。",
+          "en": "Huldrych Zwingli was a leading figure of the 16th-century Protestant Reformation in Europe."
+        }
+      }
+    },
+    {
+      "source": "保罗 (使徒)",
+      "target": "基督宗教",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在改信基督教前，使徒保罗信奉犹太教并将基督教视为异端进行迫害。",
+          "en": "Before converting to Christianity, the Apostle Paul adhered to Judaism and persecuted Christianity as a heresy."
+        }
+      }
+    },
+    {
+      "source": "保罗 (使徒)",
+      "target": "基督宗教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在改信基督教后，保罗成为向非犹太人族群传播基督信仰的主要推动者。",
+          "en": "After his conversion to Christianity, Paul became a major proponent of spreading the Christian faith to non-Jewish communities."
+        }
+      }
+    },
+    {
+      "source": "保罗 (使徒)",
+      "target": "迦玛列",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "学生",
+          "en": "Student"
+        },
+        "description": {
+          "zh-cn": "在追随耶稣前，保罗是犹太公会领袖迦玛列的学生。",
+          "en": "Before following Jesus, Paul was a student of Gamaliel, a leader of the Sanhedrin."
+        }
+      }
+    },
+    {
+      "source": "自由派神学",
+      "target": "圣经",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "自由派神学否定圣经是神的启示，认为其中包含错误和过时的内容，从而挑战其权威性。",
+          "en": "Liberal theology denies that the Bible is a divine revelation, believing it contains errors and outdated content, thereby challenging its authority."
+        }
+      }
+    },
+    {
+      "source": "耶稣",
+      "target": "伯利恒",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本记载，伯利恒是耶稣的出生地。",
+          "en": "According to the text, Bethlehem is the birthplace of Jesus."
+        }
+      }
+    },
+    {
+      "source": "耶稣受难",
+      "target": "耶稣",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0033",
+        "description": {
+          "zh-cn": "耶稣于公元33年左右被处决，这一事件终结了其在世的生命。",
+          "en": "Jesus was executed around 33 AD, an event that ended his mortal life."
+        }
+      }
+    },
+    {
+      "source": "基督宗教",
+      "target": "演化论",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "文本提及，有无神论者批评基督教反对演化论，显示了部分基督教徒对该理论的反对立场。",
+          "en": "The text mentions that some atheists criticize Christianity for opposing the theory of evolution, indicating an oppositional stance from some Christians towards the theory."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "犹太教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕是犹太教、基督教和伊斯兰教共同的先知，被视为亚伯拉罕诸教的始祖，对犹太教的形成具有奠基性作用。",
+          "en": "Abraham is a prophet common to Judaism, Christianity, and Islam, regarded as the founder of the Abrahamic religions, and played a foundational role in the formation of Judaism."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "基督宗教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕是犹太教、基督教和伊斯兰教共同的先知，被视为亚伯拉罕诸教的始祖，对基督教的形成具有渊源性影响。",
+          "en": "Abraham is a prophet common to Judaism, Christianity, and Islam, regarded as the founder of the Abrahamic religions, and had an original influence on the formation of Christianity."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "伊斯兰教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕是犹太教、基督教和伊斯兰教共同的先知，被视为亚伯拉罕诸教的始祖，对伊斯兰教的形成具有渊源性影响。",
+          "en": "Abraham is a prophet common to Judaism, Christianity, and Islam, regarded as the founder of the Abrahamic religions, and had an original influence on the formation of Islam."
+        }
+      }
+    }
+  ]
+}

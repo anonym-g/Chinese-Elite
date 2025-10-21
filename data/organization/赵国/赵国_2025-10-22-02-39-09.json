@@ -1,0 +1,870 @@
+{
+  "nodes": [
+    {
+      "id": "赵国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赵国",
+          "勺国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0403 - -0228",
+        "location": {
+          "zh-cn": "晋阳, 中牟, 邯郸",
+          "en": "Jinyang, Zhongmu, Handan"
+        },
+        "description": {
+          "zh-cn": "战国七雄之一的诸侯国，疆土主要有当今河北省南部、山西省中部和陕西省东北隅。",
+          "en": "One of the Seven Warring States, its territory mainly covered the southern part of modern Hebei province, the central part of Shanxi province, and the northeastern corner of Shaanxi province."
+        }
+      }
+    },
+    {
+      "id": "秦国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦国"
+        ],
+        "en": [
+          "State of Qin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "战国七雄之一，最终统一六国。",
+          "en": "One of the Seven Warring States, which eventually unified the other six states."
+        }
+      }
+    },
+    {
+      "id": "战国七雄",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "战国七雄"
+        ],
+        "en": [
+          "Seven Warring States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国战国时期七个最强大的诸侯国的统称。",
+          "en": "A collective term for the seven most powerful states during the Warring States period of China."
+        }
+      }
+    },
+    {
+      "id": "赵武灵王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵武灵王",
+          "赵雍"
+        ],
+        "en": [
+          "King Wuling of Zhao"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -0295",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "赵国君主，推行“胡服骑射”改革，使赵国军事实力大增。",
+          "en": "A king of the State of Zhao who implemented the 'Wearing Hun clothes and shooting from horseback' reform, which greatly enhanced Zhao's military strength."
+        }
+      }
+    },
+    {
+      "id": "胡服骑射",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "胡服骑射"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0307 - ",
+        "description": {
+          "zh-cn": "由赵武灵王推行的军事改革，仿效北方游牧民族的服饰和作战方式，建立了强大的骑兵部队。",
+          "en": "A military reform initiated by King Wuling of Zhao, which involved adopting the clothing and combat styles of northern nomadic peoples to build a powerful cavalry force."
+        }
+      }
+    },
+    {
+      "id": "中山国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中山国",
+          "中山"
+        ],
+        "en": [
+          "State of Zhongshan"
+        ]
+      },
+      "properties": {
+        "period": " - -0295",
+        "description": {
+          "zh-cn": "位于赵国境内的一个小国，后被赵国所灭。",
+          "en": "A small state located within the territory of Zhao, later conquered by Zhao."
+        }
+      }
+    },
+    {
+      "id": "林胡",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "林胡"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于赵国北方的游牧民族。",
+          "en": "A nomadic tribe located to the north of the State of Zhao."
+        }
+      }
+    },
+    {
+      "id": "楼烦",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "楼烦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于赵国北方的游牧民族。",
+          "en": "A nomadic tribe located to the north of the State of Zhao."
+        }
+      }
+    },
+    {
+      "id": "长平之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "长平之战"
+        ],
+        "en": [
+          "Battle of Changping"
+        ]
+      },
+      "properties": {
+        "period": "-0262 - -0260",
+        "description": {
+          "zh-cn": "秦国与赵国之间的一场决定性战役，赵国惨败，元气大伤，是战国历史的转折点。",
+          "en": "A decisive battle between the states of Qin and Zhao. Zhao's catastrophic defeat severely weakened it and marked a turning point in the history of the Warring States period."
+        }
+      }
+    },
+    {
+      "id": "王翦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王翦"
+        ],
+        "en": [
+          "Wang Jian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国将领，灭亡赵国。",
+          "en": "A general of the State of Qin who conquered the State of Zhao."
+        }
+      }
+    },
+    {
+      "id": "代王嘉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "代王嘉",
+          "公子嘉",
+          "赵嘉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -0222",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "赵国灭亡后，在代地建立代国，继续抵抗秦国。",
+          "en": "After the fall of Zhao, he established the State of Dai in the Dai region to continue resisting Qin."
+        }
+      }
+    },
+    {
+      "id": "代国 (战国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "代国 (战国)",
+          "代国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0228 - -0222",
+        "description": {
+          "zh-cn": "赵国灭亡后由公子嘉建立的延续政权。",
+          "en": "A successor state established by Prince Jia after the conquest of Zhao."
+        }
+      }
+    },
+    {
+      "id": "王贲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王贲"
+        ],
+        "en": [
+          "Wang Ben"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国将领，灭亡代国。",
+          "en": "A general of the State of Qin who conquered the State of Dai."
+        }
+      }
+    },
+    {
+      "id": "三家分晋",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "三家分晋"
+        ],
+        "en": [
+          "Partition of Jin"
+        ]
+      },
+      "properties": {
+        "period": "-0403 - -0376",
+        "description": {
+          "zh-cn": "春秋末年，晋国被韩、赵、魏三家瓜分的事件。通常被视为战国时期开始的标志。",
+          "en": "The event at the end of the Spring and Autumn period where the State of Jin was divided among the clans of Han, Zhao, and Wei. It is often considered the start of the Warring States period."
+        }
+      }
+    },
+    {
+      "id": "晋国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "晋国"
+        ],
+        "en": [
+          "State of Jin"
+        ]
+      },
+      "properties": {
+        "period": " - -0376",
+        "description": {
+          "zh-cn": "周朝的诸侯国，春秋时期的大国，后被韩、赵、魏三家瓜分。",
+          "en": "A major vassal state of the Zhou dynasty during the Spring and Autumn period, later partitioned by the families of Han, Zhao, and Wei."
+        }
+      }
+    },
+    {
+      "id": "赵烈侯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵烈侯",
+          "赵籍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "赵国的第一代君主。",
+          "en": "The first monarch of the State of Zhao."
+        }
+      }
+    },
+    {
+      "id": "韩景侯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩景侯",
+          "韩虔"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "韩国的第一代君主。",
+          "en": "The first monarch of the State of Han."
+        }
+      }
+    },
+    {
+      "id": "魏文侯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏文侯",
+          "魏斯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "魏国的第一代君主。",
+          "en": "The first monarch of the State of Wei."
+        }
+      }
+    },
+    {
+      "id": "周威烈王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周威烈王"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东周君主，正式册封韩、赵、魏三家为诸侯。",
+          "en": "A king of the Eastern Zhou dynasty who officially recognized the families of Han, Zhao, and Wei as feudal lords."
+        }
+      }
+    },
+    {
+      "id": "赵襄子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵襄子",
+          "赵无恤"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -0443",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "赵氏宗主，三家灭知的关键人物。",
+          "en": "The leader of the Zhao clan and a key figure in the annihilation of the Zhi clan."
+        }
+      }
+    },
+    {
+      "id": "三家灭知",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "三家灭知"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0453",
+        "description": {
+          "zh-cn": "赵、魏、韩三家联合消灭智氏的事件，为三家分晋奠定了基础。",
+          "en": "The event where the clans of Zhao, Wei, and Han joined forces to eliminate the Zhi clan, laying the foundation for the Partition of Jin."
+        }
+      }
+    },
+    {
+      "id": "知伯瑶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "知伯瑶"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -0453",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "晋国执政大臣，在晋阳之战中被赵、魏、韩三家联合击杀。",
+          "en": "A powerful minister of the State of Jin who was defeated and killed by the allied forces of Zhao, Wei, and Han at the Battle of Jinyang."
+        }
+      }
+    },
+    {
+      "id": "沙丘之乱",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "沙丘之乱"
+        ],
+        "en": [
+          "Shaqiu Incident"
+        ]
+      },
+      "properties": {
+        "period": "-0295",
+        "description": {
+          "zh-cn": "赵国的一场宫廷政变，导致赵武灵王被饿死。",
+          "en": "A palace coup in the State of Zhao that resulted in the starvation death of King Wuling."
+        }
+      }
+    },
+    {
+      "id": "赵章 (安阳君)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵章 (安阳君)",
+          "赵章",
+          "安阳君"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -0295",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "赵武灵王长子，发动政变失败后被杀。",
+          "en": "The eldest son of King Wuling of Zhao, who was killed after a failed coup."
+        }
+      }
+    },
+    {
+      "id": "赵惠文王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵惠文王",
+          "赵何"
+        ],
+        "en": [
+          "King Huiwen of Zhao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "赵武灵王次子，赵国君主。",
+          "en": "The second son of King Wuling of Zhao and a monarch of the State of Zhao."
+        }
+      }
+    },
+    {
+      "id": "肥义",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "肥义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -0295",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "赵国相国，在沙丘之乱中被杀。",
+          "en": "The chancellor of the State of Zhao, killed during the Shaqiu Incident."
+        }
+      }
+    },
+    {
+      "id": "白起",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白起",
+          "武安君"
+        ],
+        "en": [
+          "Bai Qi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国将领，在长平之战中大败赵军，并坑杀赵国降卒。",
+          "en": "A general of the State of Qin who decisively defeated the Zhao army at the Battle of Changping and executed the surrendered Zhao soldiers."
+        }
+      }
+    },
+    {
+      "id": "李牧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李牧"
+        ],
+        "en": [
+          "Li Mu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "赵国末期著名将领，战功赫赫，后被赵王迁听信谗言所杀。",
+          "en": "A famous general in the late period of the State of Zhao, known for his military achievements, who was later executed by King Qian of Zhao due to slander."
+        }
+      }
+    },
+    {
+      "id": "赵王迁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵王迁",
+          "赵迁",
+          "赵幽缪王"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "赵国最后一代君主。",
+          "en": "The last monarch of the State of Zhao."
+        }
+      }
+    },
+    {
+      "id": "邯郸",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "邯郸",
+          "赵邯郸故城"
+        ],
+        "en": [
+          "Handan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "赵国后期的都城。",
+          "en": "The capital city of the State of Zhao in its later period."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "赵国",
+      "target": "战国七雄",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "赵国是战国七雄之一。",
+          "en": "The State of Zhao was one of the Seven Warring States."
+        }
+      }
+    },
+    {
+      "source": "三家分晋",
+      "target": "赵国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0403",
+        "description": {
+          "zh-cn": "三家分晋事件中，赵氏被正式承认为诸侯，建立了赵国。",
+          "en": "During the Partition of Jin, the Zhao clan was officially recognized as a feudal lord, leading to the establishment of the State of Zhao."
+        }
+      }
+    },
+    {
+      "source": "周威烈王",
+      "target": "三家分晋",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0403",
+        "description": {
+          "zh-cn": "前403年，周威烈王正式册封赵烈侯、韩景侯、魏文侯为诸侯，标志着三家分晋的完成。",
+          "en": "In 403 BCE, King Weilie of Zhou formally enfeoffed Marquis Lie of Zhao, Marquis Jing of Han, and Marquis Wen of Wei, marking the completion of the Partition of Jin."
+        }
+      }
+    },
+    {
+      "source": "三家分晋",
+      "target": "晋国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-0376",
+        "description": {
+          "zh-cn": "三家分晋最终导致晋国于前376年被瓜分完毕而灭亡。",
+          "en": "The Partition of Jin ultimately led to the complete division and demise of the State of Jin in 376 BCE."
+        }
+      }
+    },
+    {
+      "source": "赵烈侯",
+      "target": "赵国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-0403",
+        "description": {
+          "zh-cn": "赵烈侯是赵国的始封君主。",
+          "en": "Marquis Lie was the founding monarch of the State of Zhao."
+        }
+      }
+    },
+    {
+      "source": "秦国",
+      "target": "赵国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-0228",
+        "description": {
+          "zh-cn": "赵国最终为秦国所灭。",
+          "en": "The State of Zhao was ultimately conquered by the State of Qin."
+        }
+      }
+    },
+    {
+      "source": "王翦",
+      "target": "赵国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0228",
+        "description": {
+          "zh-cn": "前228年，秦将王翦攻破赵都邯郸，俘虏赵王迁，赵国灭亡。",
+          "en": "In 228 BCE, the Qin general Wang Jian captured Handan, the capital of Zhao, and took King Qian captive, leading to the fall of the State of Zhao."
+        }
+      }
+    },
+    {
+      "source": "赵武灵王",
+      "target": "胡服骑射",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0307",
+        "description": {
+          "zh-cn": "前307年，赵武灵王在赵国推行“胡服骑射”改革。",
+          "en": "In 307 BCE, King Wuling of Zhao initiated the 'Wearing Hun clothes and shooting from horseback' reform in the State of Zhao."
+        }
+      }
+    },
+    {
+      "source": "胡服骑射",
+      "target": "赵国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0307",
+        "description": {
+          "zh-cn": "胡服骑射改革使赵国军力大增，成为战国后期唯一能与秦国抗衡的强国。",
+          "en": "The 'Wearing Hun clothes and shooting from horseback' reform greatly increased Zhao's military strength, making it the only state capable of contending with Qin in the late Warring States period."
+        }
+      }
+    },
+    {
+      "source": "赵国",
+      "target": "中山国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-0295",
+        "description": {
+          "zh-cn": "赵国在胡服骑射改革后，于前295年灭亡了中山国。",
+          "en": "After the 'Wearing Hun clothes and shooting from horseback' reform, the State of Zhao conquered the State of Zhongshan in 295 BCE."
+        }
+      }
+    },
+    {
+      "source": "赵国",
+      "target": "林胡",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "赵国在胡服骑射改革后，征服了林胡。",
+          "en": "After the 'Wearing Hun clothes and shooting from horseback' reform, the State of Zhao conquered the Linhu people."
+        }
+      }
+    },
+    {
+      "source": "赵国",
+      "target": "楼烦",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "赵国在胡服骑射改革后，征服了楼烦。",
+          "en": "After the 'Wearing Hun clothes and shooting from horseback' reform, the State of Zhao conquered the Loufan people."
+        }
+      }
+    },
+    {
+      "source": "长平之战",
+      "target": "赵国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0260",
+        "description": {
+          "zh-cn": "赵国在长平之战中惨败，元气大伤，从此一蹶不振。",
+          "en": "The State of Zhao suffered a catastrophic defeat in the Battle of Changping, which severely weakened it and from which it never fully recovered."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "赵国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0260",
+        "description": {
+          "zh-cn": "在长平之战后，秦将白起坑杀赵军降卒，使赵国受到重创。",
+          "en": "After the Battle of Changping, the Qin general Bai Qi executed the surrendered Zhao soldiers, inflicting a devastating blow to the State of Zhao."
+        }
+      }
+    },
+    {
+      "source": "代王嘉",
+      "target": "代国 (战国)",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-0228",
+        "description": {
+          "zh-cn": "赵国灭亡后，代王嘉在代地建立代国，作为赵国的延续。",
+          "en": "After the fall of Zhao, King Jia of Dai established the State of Dai in the Dai region as a successor to Zhao."
+        }
+      }
+    },
+    {
+      "source": "王贲",
+      "target": "代国 (战国)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0222",
+        "description": {
+          "zh-cn": "前222年，秦将王贲攻灭代国，俘虏代王嘉。",
+          "en": "In 222 BCE, the Qin general Wang Ben conquered the State of Dai and captured King Jia of Dai."
+        }
+      }
+    },
+    {
+      "source": "三家灭知",
+      "target": "知伯瑶",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0453",
+        "description": {
+          "zh-cn": "晋国执政大臣知伯瑶被赵、魏、韩三家联合消灭。",
+          "en": "Zhi Bo Yao, a powerful minister of Jin, was eliminated by the allied forces of the Zhao, Wei, and Han clans."
+        }
+      }
+    },
+    {
+      "source": "赵襄子",
+      "target": "三家灭知",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0453",
+        "description": {
+          "zh-cn": "赵襄子联合韩、魏两家，共同消灭了知氏。",
+          "en": "Viscount Xiang of Zhao allied with the Han and Wei clans to jointly eliminate the Zhi clan."
+        }
+      }
+    },
+    {
+      "source": "沙丘之乱",
+      "target": "赵武灵王",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-0295",
+        "description": {
+          "zh-cn": "赵武灵王在沙丘之乱中被围困于行宫，最终饿死。",
+          "en": "During the Shaqiu Incident, King Wuling of Zhao was besieged in his palace and eventually starved to death."
+        }
+      }
+    },
+    {
+      "source": "赵章 (安阳君)",
+      "target": "沙丘之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0295",
+        "description": {
+          "zh-cn": "赵章发动政变失败，引发了沙丘之乱。",
+          "en": "Zhao Zhang launched a failed coup, which triggered the Shaqiu Incident."
+        }
+      }
+    },
+    {
+      "source": "沙丘之乱",
+      "target": "肥义",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0295",
+        "description": {
+          "zh-cn": "赵国相国肥义在赵章发动的政变中被杀。",
+          "en": "Fei Yi, the chancellor of Zhao, was killed during the coup launched by Zhao Zhang."
+        }
+      }
+    },
+    {
+      "source": "赵惠文王",
+      "target": "赵武灵王",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "赵惠文王是赵武灵王的次子。",
+          "en": "King Huiwen of Zhao was the second son of King Wuling of Zhao."
+        }
+      }
+    },
+    {
+      "source": "赵章 (安阳君)",
+      "target": "赵武灵王",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "赵章是赵武灵王的长子。",
+          "en": "Zhao Zhang was the eldest son of King Wuling of Zhao."
+        }
+      }
+    },
+    {
+      "source": "赵惠文王",
+      "target": "赵章 (安阳君)",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "赵惠文王与赵章是兄弟关系。",
+          "en": "King Huiwen of Zhao and Zhao Zhang were brothers."
+        }
+      }
+    },
+    {
+      "source": "赵王迁",
+      "target": "李牧",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "赵王迁（赵幽缪王）听信秦国反间计，杀害了将领李牧。",
+          "en": "King Qian of Zhao (King Youmiu) fell for Qin's stratagem of sowing discord and executed his general Li Mu."
+        }
+      }
+    },
+    {
+      "source": "秦国",
+      "target": "赵王迁",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "秦国使用反间计，使赵王迁怀疑并杀害了将领李牧。",
+          "en": "The State of Qin used a stratagem of sowing discord, causing King Qian of Zhao to suspect and execute his general Li Mu."
+        }
+      }
+    }
+  ]
+}
