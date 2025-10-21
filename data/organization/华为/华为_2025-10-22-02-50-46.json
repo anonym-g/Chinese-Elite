@@ -1,0 +1,921 @@
+{
+  "nodes": [
+    {
+      "id": "华为技术有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华为技术有限公司",
+          "华为"
+        ],
+        "en": [
+          "Huawei Technologies Co., Ltd.",
+          "Huawei"
+        ]
+      },
+      "properties": {
+        "period": "1987-09-15 - ",
+        "location": {
+          "zh-cn": "中华人民共和国广东省深圳市龙岗区坂田街道华为基地",
+          "en": "Huawei Base, Bantian, Longgang District, Shenzhen, Guangdong, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中国的科技企业，初期专注于制造电话交换机，现在业务以研发和制造通讯装置、消费电子产品为主，并涉足软件开发、集成电路设计生产、光伏和电动汽车等领域。",
+          "en": "A Chinese technology corporation that initially focused on manufacturing telephone switches and now primarily engages in the research, development, and manufacturing of telecommunications equipment and consumer electronics, also involved in software development, integrated circuit design and production, photovoltaics, and electric vehicles."
+        }
+      }
+    },
+    {
+      "id": "任正非",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "任正非"
+        ],
+        "en": [
+          "Ren Zhengfei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国企业家，华为技术有限公司的创始人兼行政总裁。",
+          "en": "Chinese entrepreneur, the founder and CEO of Huawei Technologies Co., Ltd."
+        }
+      }
+    },
+    {
+      "id": "南油集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南油集团"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家中国国有企业，任正非在创立华为前曾在此工作。",
+          "en": "A Chinese state-owned enterprise where Ren Zhengfei worked before founding Huawei."
+        }
+      }
+    },
+    {
+      "id": "郭平 (华为)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭平 (华为)",
+          "郭平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "华为技术有限公司高层管理人员，曾任副董事长、轮值董事长、监事会主席。",
+          "en": "A senior executive at Huawei Technologies Co., Ltd., who has served as Deputy Chairman, Rotating Chairman, and Chairman of the Supervisory Board."
+        }
+      }
+    },
+    {
+      "id": "郑宝用",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑宝用"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "华为早期核心技术人员，曾任华为总工程师。",
+          "en": "An early key technical figure at Huawei, who served as the chief engineer."
+        }
+      }
+    },
+    {
+      "id": "华中理工大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华中理工大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一所大学，现为华中科技大学。郭平曾在此攻读研究生。",
+          "en": "A university in China, now known as Huazhong University of Science and Technology. Guo Ping was a graduate student here."
+        }
+      }
+    },
+    {
+      "id": "清华大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清华大学"
+        ],
+        "en": [
+          "Tsinghua University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国顶尖高等学府之一。郑宝用在加入华为前放弃了该校的博士学位。",
+          "en": "One of China's top institutions of higher learning. Zheng Baoyong gave up his Ph.D. from this university before joining Huawei."
+        }
+      }
+    },
+    {
+      "id": "荣耀终端",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "荣耀终端",
+          "荣耀"
+        ],
+        "en": [
+          "Honor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "原为华为旗下的智能手机品牌，后于2020年被出售。",
+          "en": "Formerly a smartphone brand under Huawei, it was sold in 2020."
+        }
+      }
+    },
+    {
+      "id": "深圳市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "深圳市人民政府",
+          "深圳市政府"
+        ],
+        "en": [
+          "Shenzhen Municipal People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国广东省深圳市的政府机关。",
+          "en": "The governmental authority of Shenzhen, Guangdong, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中兴通讯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中兴通讯"
+        ],
+        "en": [
+          "ZTE Corporation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的跨国电信设备和系统公司，与华为、巨龙通信、大唐电信并称为“巨大中华”。",
+          "en": "A Chinese multinational telecommunications equipment and systems company, known as one of the 'Great Four' along with Huawei, Julong, and Datang."
+        }
+      }
+    },
+    {
+      "id": "摩托罗拉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "摩托罗拉"
+        ],
+        "en": [
+          "Motorola"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国跨国电信公司，曾与华为合作生产手机。",
+          "en": "An American multinational telecommunications company that once partnered with Huawei for mobile phone production."
+        }
+      }
+    },
+    {
+      "id": "国际电信联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际电信联盟"
+        ],
+        "en": [
+          "International Telecommunication Union"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "联合国的专门机构，负责信息和通信技术相关问题。",
+          "en": "A specialized agency of the United Nations responsible for issues that concern information and communication technologies."
+        }
+      }
+    },
+    {
+      "id": "3Com",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "3Com"
+        ],
+        "en": [
+          "3Com"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国网络设备制造商，曾与华为成立合资公司华三通信。",
+          "en": "An American network equipment manufacturer that formed a joint venture, H3C, with Huawei."
+        }
+      }
+    },
+    {
+      "id": "华三通信",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华三通信"
+        ],
+        "en": [
+          "H3C Technologies"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由华为和3Com成立的合资公司，后成为3Com全资子公司。",
+          "en": "A joint venture founded by Huawei and 3Com, which later became a wholly-owned subsidiary of 3Com."
+        }
+      }
+    },
+    {
+      "id": "思科系统",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "思科系统",
+          "思科系统公司"
+        ],
+        "en": [
+          "Cisco Systems",
+          "Cisco"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国跨国科技公司，曾就侵权问题起诉华为。",
+          "en": "An American multinational technology conglomerate that once sued Huawei for infringement."
+        }
+      }
+    },
+    {
+      "id": "沃达丰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沃达丰"
+        ],
+        "en": [
+          "Vodafone"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "英国跨国电信公司，与华为有多次合作。",
+          "en": "A British multinational telecommunications company that has collaborated with Huawei on multiple occasions."
+        }
+      }
+    },
+    {
+      "id": "徕卡相机",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "徕卡相机",
+          "徕卡"
+        ],
+        "en": [
+          "Leica Camera"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "德国高端相机制造商，与华为合作共同设计智能手机摄像头。",
+          "en": "A German premium camera manufacturer that partners with Huawei to co-engineer smartphone cameras."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美洲的一个联邦共和国。美国政府自2018年起对华为实施了一系列制裁。",
+          "en": "A federal republic in the Americas. The U.S. government has imposed a series of sanctions on Huawei since 2018."
+        }
+      }
+    },
+    {
+      "id": "联邦通信委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联邦通信委员会",
+          "美国联邦通信委员会"
+        ],
+        "en": [
+          "Federal Communications Commission"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国政府的一个独立机构，负责监管州际和国际间的通信。",
+          "en": "An independent agency of the United States government that regulates interstate and international communications."
+        }
+      }
+    },
+    {
+      "id": "印度",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "印度"
+        ],
+        "en": [
+          "India"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "亚洲的一个国家。印度政府已限制华为参与其电信网络建设。",
+          "en": "A country in Asia. The Indian government has restricted Huawei's participation in its telecom network construction."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚的一个岛国。日本政府已限制华为参与其电信网络建设。",
+          "en": "An island country in East Asia. The Japanese government has restricted Huawei's participation in its telecom network construction."
+        }
+      }
+    },
+    {
+      "id": "瑞典",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瑞典"
+        ],
+        "en": [
+          "Sweden"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北欧的一个国家。瑞典政府禁止使用华为及中兴的产品参与5G频谱拍卖。",
+          "en": "A country in Northern Europe. The Swedish government has banned the use of Huawei and ZTE products in its 5G spectrum auctions."
+        }
+      }
+    },
+    {
+      "id": "赛力斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赛力斯"
+        ],
+        "en": [
+          "Seres"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国汽车制造商，与华为合作推出电动汽车。",
+          "en": "A Chinese automobile manufacturer that collaborates with Huawei to launch electric vehicles."
+        }
+      }
+    },
+    {
+      "id": "海思半导体",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "海思半导体",
+          "海思"
+        ],
+        "en": [
+          "HiSilicon"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "华为旗下的半导体设计公司。",
+          "en": "A semiconductor design company owned by Huawei."
+        }
+      }
+    },
+    {
+      "id": "中美贸易战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中美贸易战",
+          "2018－2019年中美贸易战"
+        ],
+        "en": [
+          "China–United States trade war"
+        ]
+      },
+      "properties": {
+        "period": "2018 - ",
+        "description": {
+          "zh-cn": "中国和美国之间的一场持续的经济冲突，华为在此背景下受到美国的多项指控和制裁。",
+          "en": "An ongoing economic conflict between China and the United States, in the context of which Huawei has faced multiple accusations and sanctions from the U.S."
+        }
+      }
+    },
+    {
+      "id": "李洪元",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李洪元"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "华为前员工，涉及“华为251事件”。",
+          "en": "A former Huawei employee involved in the 'Huawei 251 incident'."
+        }
+      }
+    },
+    {
+      "id": "华为251事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "华为251事件"
+        ],
+        "en": [
+          "Huawei 251 incident"
+        ]
+      },
+      "properties": {
+        "period": "2018-12-16 - 2019-08-23",
+        "description": {
+          "zh-cn": "华为前员工李洪元在离职后被华为举报并被错误羁押251天的事件。",
+          "en": "An incident where former Huawei employee Li Hongyuan was reported by Huawei after his departure and was wrongfully detained for 251 days."
+        }
+      }
+    },
+    {
+      "id": "梁华 (1964年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁华 (1964年)",
+          "梁华"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "华为技术有限公司董事长。",
+          "en": "Chairman of Huawei Technologies Co., Ltd."
+        }
+      }
+    },
+    {
+      "id": "徐直军",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐直军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "华为技术有限公司副董事长、轮值董事长。",
+          "en": "Deputy Chairman and Rotating Chairman of Huawei Technologies Co., Ltd."
+        }
+      }
+    },
+    {
+      "id": "胡厚昆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡厚昆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "华为技术有限公司副董事长、轮值董事长。",
+          "en": "Deputy Chairman and Rotating Chairman of Huawei Technologies Co., Ltd."
+        }
+      }
+    },
+    {
+      "id": "孟晚舟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孟晚舟"
+        ],
+        "en": [
+          "Meng Wanzhou"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "华为技术有限公司副董事长、首席财务官，任正非之女。",
+          "en": "Deputy Chairwoman and CFO of Huawei Technologies Co., Ltd., daughter of Ren Zhengfei."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "任正非",
+      "target": "华为技术有限公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1987-09-15",
+        "description": {
+          "zh-cn": "任正非于1987年9月15日创立了华为技术有限公司。",
+          "en": "Ren Zhengfei founded Huawei Technologies Co., Ltd. on September 15, 1987."
+        }
+      }
+    },
+    {
+      "source": "任正非",
+      "target": "南油集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1987",
+        "description": {
+          "zh-cn": "任正非在创立华为前从南油集团辞职。",
+          "en": "Ren Zhengfei resigned from Nanyou Group before founding Huawei."
+        }
+      }
+    },
+    {
+      "source": "孟晚舟",
+      "target": "任正非",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "孟晚舟是任正非的女儿。",
+          "en": "Meng Wanzhou is the daughter of Ren Zhengfei."
+        }
+      }
+    },
+    {
+      "source": "郭平 (华为)",
+      "target": "华中理工大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "研究生",
+          "en": "Graduate Student"
+        },
+        "description": {
+          "zh-cn": "郭平原为华中理工大学研究生，后加入华为。",
+          "en": "Guo Ping was a graduate student at Huazhong University of Science and Technology before joining Huawei."
+        }
+      }
+    },
+    {
+      "source": "郑宝用",
+      "target": "清华大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "博士（未完成）",
+          "en": "Ph.D. (incomplete)"
+        },
+        "description": {
+          "zh-cn": "郑宝用在加入华为前放弃了清华大学的博士学位。",
+          "en": "Zheng Baoyong gave up his Ph.D. at Tsinghua University before joining Huawei."
+        }
+      }
+    },
+    {
+      "source": "郭平 (华为)",
+      "target": "华为技术有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1989",
+        "position": {
+          "zh-cn": "副董事长、轮值董事长、监事会主席",
+          "en": "Deputy Chairman, Rotating Chairman, Chairman of the Supervisory Board"
+        }
+      }
+    },
+    {
+      "source": "郑宝用",
+      "target": "华为技术有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1989",
+        "position": {
+          "zh-cn": "总工程师",
+          "en": "Chief Engineer"
+        }
+      }
+    },
+    {
+      "source": "海思半导体",
+      "target": "华为技术有限公司",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2004",
+        "description": {
+          "zh-cn": "海思半导体是华为于2004年组建的全资子公司。",
+          "en": "HiSilicon is a wholly-owned subsidiary of Huawei, established in 2004."
+        }
+      }
+    },
+    {
+      "source": "荣耀终端",
+      "target": "华为技术有限公司",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2013-12-16",
+        "end_date": "2020-11-17",
+        "description": {
+          "zh-cn": "荣耀原为华为旗下独立运作的品牌，于2020年11月被出售。",
+          "en": "Honor was originally an independently operated brand under Huawei and was sold in November 2020."
+        }
+      }
+    },
+    {
+      "source": "深圳市人民政府",
+      "target": "荣耀终端",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-11-17",
+        "description": {
+          "zh-cn": "深圳市政府的国有企业收购了荣耀终端，以确保其生存。",
+          "en": "A state-owned enterprise of the Shenzhen Municipal Government acquired Honor to ensure its survival."
+        }
+      }
+    },
+    {
+      "source": "华为技术有限公司",
+      "target": "摩托罗拉",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2000",
+        "description": {
+          "zh-cn": "华为与摩托罗拉合作，为后者进行原始委托生产。",
+          "en": "Huawei collaborated with Motorola as an original equipment manufacturer."
+        }
+      }
+    },
+    {
+      "source": "华为技术有限公司",
+      "target": "国际电信联盟",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2001",
+        "description": {
+          "zh-cn": "华为于2001年加入国际电信联盟。",
+          "en": "Huawei joined the International Telecommunication Union in 2001."
+        }
+      }
+    },
+    {
+      "source": "华为技术有限公司",
+      "target": "华三通信",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2003",
+        "end_date": "2006",
+        "description": {
+          "zh-cn": "华为与3Com于2003年成立合资公司华三通信，2006年华为退出。",
+          "en": "Huawei and 3Com established the joint venture H3C in 2003; Huawei exited in 2006."
+        }
+      }
+    },
+    {
+      "source": "3Com",
+      "target": "华三通信",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2003",
+        "description": {
+          "zh-cn": "3Com与华为于2003年成立合资公司华三通信。",
+          "en": "3Com and Huawei established the joint venture H3C in 2003."
+        }
+      }
+    },
+    {
+      "source": "思科系统",
+      "target": "华为技术有限公司",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2003",
+        "description": {
+          "zh-cn": "思科系统公司于2003年起诉华为侵权，最后以和解告终。",
+          "en": "Cisco Systems sued Huawei for infringement in 2003, with the lawsuit ending in a settlement."
+        }
+      }
+    },
+    {
+      "source": "华为技术有限公司",
+      "target": "沃达丰",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": [
+          "2004",
+          "2006-02-16",
+          "2009-02-10"
+        ],
+        "description": {
+          "zh-cn": "与沃达丰多次合作，包括2004年肯尼亚智能网工程、2006年全球3G手机战略合作、2009年签署战略合作伙伴关系协议共同开发LTE技术。",
+          "en": "Collaborated with Vodafone multiple times, including on the Kenya intelligent network project in 2004, a global 3G mobile strategy partnership in 2006, and signing a strategic partnership agreement in 2009 to jointly develop LTE technology."
+        }
+      }
+    },
+    {
+      "source": "华为技术有限公司",
+      "target": "徕卡相机",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2016-04",
+        "description": {
+          "zh-cn": "华为与徕卡相机建立合作关系，共同设计智能手机摄像头。",
+          "en": "Huawei established a partnership with Leica Camera to co-engineer smartphone cameras."
+        }
+      }
+    },
+    {
+      "source": "中美贸易战",
+      "target": "华为技术有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018",
+        "description": {
+          "zh-cn": "在中美贸易战的背景下，华为受到美国政府的一系列指控和制裁。",
+          "en": "In the context of the China-U.S. trade war, Huawei has been subjected to a series of accusations and sanctions by the U.S. government."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "华为技术有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2019",
+        "description": {
+          "zh-cn": "美国政府对华为公司实施全面制裁，限制其与美国公司的业务往来，并切断应用美国技术的半导体供应。",
+          "en": "The U.S. government imposed comprehensive sanctions on Huawei, restricting its business dealings with American companies and cutting off its supply of semiconductors using American technology."
+        }
+      }
+    },
+    {
+      "source": "联邦通信委员会",
+      "target": "华为技术有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-11",
+        "description": {
+          "zh-cn": "美国联邦通信委员会以“国家安全考虑”为由禁止销售或进口华为生产的设备。",
+          "en": "The U.S. Federal Communications Commission banned the sale or import of equipment manufactured by Huawei, citing 'national security concerns'."
+        }
+      }
+    },
+    {
+      "source": "瑞典",
+      "target": "华为技术有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-10",
+        "description": {
+          "zh-cn": "瑞典政府禁止使用华为的产品参与5G频谱拍卖。",
+          "en": "The Swedish government banned the use of Huawei products in its 5G spectrum auctions."
+        }
+      }
+    },
+    {
+      "source": "华为技术有限公司",
+      "target": "赛力斯",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2021-04-22",
+        "description": {
+          "zh-cn": "赛力斯与华为达成合作，共同推出赛力斯SF5电动SUV。",
+          "en": "Seres and Huawei reached a cooperation agreement to jointly launch the Seres SF5 electric SUV."
+        }
+      }
+    },
+    {
+      "source": "华为技术有限公司",
+      "target": "李洪元",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018-12-16",
+        "end_date": "2019-08-23",
+        "description": {
+          "zh-cn": "在华为251事件中，华为举报前员工李洪元，导致其被羁押251日。",
+          "en": "In the Huawei 251 incident, Huawei reported former employee Li Hongyuan, leading to his detention for 251 days."
+        }
+      }
+    },
+    {
+      "source": "华为251事件",
+      "target": "李洪元",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018-12-16",
+        "end_date": "2019-08-23",
+        "description": {
+          "zh-cn": "李洪元在此事件中被刑事羁押251日。",
+          "en": "Li Hongyuan was criminally detained for 251 days during this incident."
+        }
+      }
+    },
+    {
+      "source": "梁华 (1964年)",
+      "target": "华为技术有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-03",
+        "position": {
+          "zh-cn": "董事长",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "徐直军",
+      "target": "华为技术有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副董事长、轮值董事长",
+          "en": "Deputy Chairman, Rotating Chairman"
+        }
+      }
+    },
+    {
+      "source": "胡厚昆",
+      "target": "华为技术有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副董事长、轮值董事长",
+          "en": "Deputy Chairman, Rotating Chairman"
+        }
+      }
+    },
+    {
+      "source": "孟晚舟",
+      "target": "华为技术有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副董事长、首席财务官",
+          "en": "Deputy Chairwoman, Chief Financial Officer"
+        }
+      }
+    }
+  ]
+}

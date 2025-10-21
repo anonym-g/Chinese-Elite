@@ -1,0 +1,764 @@
+{
+  "nodes": [
+    {
+      "id": "开罗宣言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "开罗宣言",
+          "新闻公报",
+          "Press Communiqué",
+          "开罗公报",
+          "Cairo Communiqué"
+        ],
+        "en": [
+          "Cairo Declaration"
+        ]
+      },
+      "properties": {
+        "period": "1943-12-01 - ",
+        "location": {
+          "zh-cn": "开罗",
+          "en": "Cairo"
+        },
+        "description": {
+          "zh-cn": "由中、美、英三国在埃及开罗会议后发表的对日作战新闻公报，声明了盟国对日作战的目的及战后对日本的处置方式。",
+          "en": "A press communiqué issued by China, the United States, and the United Kingdom after the Cairo Conference, stating the Allied goals for the war against Japan and the disposition of Japan after the war."
+        }
+      }
+    },
+    {
+      "id": "开罗会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "开罗会议"
+        ],
+        "en": [
+          "Cairo Conference"
+        ]
+      },
+      "properties": {
+        "period": "1943-11-23 - 1943-11-27",
+        "location": {
+          "zh-cn": "开罗",
+          "en": "Cairo"
+        },
+        "description": {
+          "zh-cn": "第二次世界大战期间，中、美、英三国首脑在埃及开罗举行的会议，商讨反攻日本的战略及战后国际局势。",
+          "en": "A conference held in Cairo, Egypt during World War II between the leaders of China, the United States, and the United Kingdom to discuss the strategy against Japan and the post-war international order."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治家及军事家，时任国民政府军事委员会委员长。",
+          "en": "A Chinese politician and military leader, then Chairman of the National Military Council of the Nationalist Government."
+        }
+      }
+    },
+    {
+      "id": "富兰克林·德拉诺·罗斯福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "富兰克林·德拉诺·罗斯福",
+          "罗斯福"
+        ],
+        "en": [
+          "Franklin D. Roosevelt",
+          "Roosevelt"
+        ]
+      },
+      "properties": {
+        "lifetime": "1882-01-30 - 1945-04-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第32任总统。",
+          "en": "The 32nd President of the United States."
+        }
+      }
+    },
+    {
+      "id": "温斯顿·丘吉尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温斯顿·丘吉尔",
+          "丘吉尔",
+          "邱吉尔"
+        ],
+        "en": [
+          "Winston Churchill"
+        ]
+      },
+      "properties": {
+        "lifetime": "1874-11-30 - 1965-01-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国首相。",
+          "en": "Prime Minister of the United Kingdom."
+        }
+      }
+    },
+    {
+      "id": "约瑟夫·斯大林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约瑟夫·斯大林",
+          "斯大林",
+          "史达林"
+        ],
+        "en": [
+          "Joseph Stalin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1878-12-18 - 1953-03-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联领导人。",
+          "en": "Leader of the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "中华民国大陆时期",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国大陆时期",
+          "中国",
+          "中华民国"
+        ],
+        "en": [
+          "Republic of China (1912–1949)"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1949",
+        "description": {
+          "zh-cn": "指1912年至1949年间统治中国大陆的中华民国政府。",
+          "en": "Refers to the government of the Republic of China that ruled mainland China from 1912 to 1949."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美利坚合众国，第二次世界大战同盟国之一。",
+          "en": "The United States of America, one of the Allied powers in World War II."
+        }
+      }
+    },
+    {
+      "id": "大英帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大英帝国",
+          "英",
+          "英国"
+        ],
+        "en": [
+          "British Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由英国统治的全球帝国，第二次世界大战同盟国之一。",
+          "en": "A global empire ruled by the United Kingdom, one of the Allied powers in World War II."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联",
+          "苏"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "苏维埃社会主义共和国联盟，第二次世界大战同盟国之一。",
+          "en": "The Union of Soviet Socialist Republics, one of the Allied powers in World War II."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868 - 1947",
+        "description": {
+          "zh-cn": "第二次世界大战轴心国之一。",
+          "en": "One of the Axis powers in World War II."
+        }
+      }
+    },
+    {
+      "id": "国民政府军事委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府军事委员会"
+        ],
+        "en": [
+          "National Military Council"
+        ]
+      },
+      "properties": {
+        "period": "1925 - 1947",
+        "description": {
+          "zh-cn": "中华民国国民政府时期的最高军事机构。",
+          "en": "The highest military authority of the Nationalist Government of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "哈里·霍普金斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈里·霍普金斯",
+          "霍普金斯"
+        ],
+        "en": [
+          "Harry Hopkins"
+        ]
+      },
+      "properties": {
+        "lifetime": "1890-08-17 - 1946-01-29",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国总统罗斯福的特别助理。",
+          "en": "Special assistant to U.S. President Roosevelt."
+        }
+      }
+    },
+    {
+      "id": "王宠惠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王宠惠"
+        ],
+        "en": [
+          "Wang Ch'ung-hui"
+        ]
+      },
+      "properties": {
+        "lifetime": "1881-12-01 - 1958-03-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国外交家、法学家，随蒋介石出席开罗会议。",
+          "en": "A Chinese diplomat and jurist who attended the Cairo Conference with Chiang Kai-shek."
+        }
+      }
+    },
+    {
+      "id": "贾德干",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贾德干",
+          "贾德干爵士"
+        ],
+        "en": [
+          "Alexander Cadogan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1884-11-25 - 1968-07-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国外交官，开罗会议英国代表之一。",
+          "en": "A British diplomat and one of the British representatives at the Cairo Conference."
+        }
+      }
+    },
+    {
+      "id": "苏日互不侵犯条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "苏日互不侵犯条约"
+        ],
+        "en": [
+          "Soviet–Japanese Neutrality Pact"
+        ]
+      },
+      "properties": {
+        "period": "1941-04-13 - 1945-04-05",
+        "description": {
+          "zh-cn": "苏联与日本于第二次世界大战期间签订的中立条约。",
+          "en": "A neutrality pact signed between the Soviet Union and Japan during World War II."
+        }
+      }
+    },
+    {
+      "id": "波茨坦公告",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "波茨坦公告",
+          "波茨坦宣言"
+        ],
+        "en": [
+          "Potsdam Declaration"
+        ]
+      },
+      "properties": {
+        "period": "1945-07-26 - ",
+        "description": {
+          "zh-cn": "由中、美、英三国在波茨坦会议上发表的公告，旨在敦促日本无条件投降。",
+          "en": "A proclamation issued by China, the United States, and the United Kingdom at the Potsdam Conference, calling for the unconditional surrender of Japan."
+        }
+      }
+    },
+    {
+      "id": "降伏文书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "降伏文书",
+          "日本降书"
+        ],
+        "en": [
+          "Japanese Instrument of Surrender"
+        ]
+      },
+      "properties": {
+        "period": "1945-09-02 - ",
+        "description": {
+          "zh-cn": "日本于1945年9月2日签署的投降文件，标志着第二次世界大战的结束。",
+          "en": "The surrender document signed by Japan on September 2, 1945, marking the end of World War II."
+        }
+      }
+    },
+    {
+      "id": "台湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾"
+        ],
+        "en": [
+          "Taiwan",
+          "Formosa"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚岛屿。《开罗宣言》规定应将其归还给中华民国。",
+          "en": "An island in East Asia. The Cairo Declaration stipulated that it should be returned to the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "澎湖群岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "澎湖群岛"
+        ],
+        "en": [
+          "Pescadores Islands",
+          "Penghu Islands"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于台湾海峡的群岛。《开罗宣言》规定应将其归还给中华民国。",
+          "en": "An archipelago in the Taiwan Strait. The Cairo Declaration stipulated that it should be returned to the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "满洲",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "满洲"
+        ],
+        "en": [
+          "Manchuria"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东北亚的历史地理区域。《开罗宣言》规定应将其归还给中华民国。",
+          "en": "A historical geographical region in Northeast Asia. The Cairo Declaration stipulated that it should be returned to the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "朝鲜半岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "朝鲜半岛",
+          "朝鲜"
+        ],
+        "en": [
+          "Korean Peninsula",
+          "Korea"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚的半岛。《开罗宣言》规定应使其在适当时期内独立。",
+          "en": "A peninsula in East Asia. The Cairo Declaration stipulated that it should become independent in due course."
+        }
+      }
+    },
+    {
+      "id": "开罗",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "开罗"
+        ],
+        "en": [
+          "Cairo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "埃及首都，开罗会议的举办地。",
+          "en": "The capital of Egypt, host city of the Cairo Conference."
+        }
+      }
+    },
+    {
+      "id": "德黑兰会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "德黑兰会议"
+        ],
+        "en": [
+          "Tehran Conference"
+        ]
+      },
+      "properties": {
+        "period": "1943-11-28 - 1943-12-01",
+        "location": {
+          "zh-cn": "德黑兰",
+          "en": "Tehran"
+        },
+        "description": {
+          "zh-cn": "紧随开罗会议之后，由美、英、苏三国首脑在伊朗德黑兰举行的会议。",
+          "en": "A conference held by the leaders of the United States, the United Kingdom, and the Soviet Union in Tehran, Iran, immediately following the Cairo Conference."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "开罗会议",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-12-01",
+        "description": {
+          "zh-cn": "开罗会议后发表了会议结果的新闻公报，通称为《开罗宣言》。",
+          "en": "After the Cairo Conference, a press communiqué on the conference's results was issued, which became commonly known as the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "开罗会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11-23",
+        "end_date": "1943-11-27",
+        "description": {
+          "zh-cn": "作为中华民国国民政府军事委员会委员长，蒋中正代表中国出席开罗会议。",
+          "en": "As the Chairman of the National Military Council of the Nationalist Government of the Republic of China, Chiang Kai-shek represented China at the Cairo Conference."
+        }
+      }
+    },
+    {
+      "source": "富兰克林·德拉诺·罗斯福",
+      "target": "开罗会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11-23",
+        "end_date": "1943-11-27",
+        "description": {
+          "zh-cn": "作为美国总统，富兰克林·德拉诺·罗斯福代表美国出席开罗会议。",
+          "en": "As the President of the United States, Franklin D. Roosevelt represented the United States at the Cairo Conference."
+        }
+      }
+    },
+    {
+      "source": "温斯顿·丘吉尔",
+      "target": "开罗会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11-23",
+        "end_date": "1943-11-27",
+        "description": {
+          "zh-cn": "作为英国首相，温斯顿·丘吉尔代表英国出席开罗会议。",
+          "en": "As the Prime Minister of the United Kingdom, Winston Churchill represented the United Kingdom at the Cairo Conference."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "富兰克林·德拉诺·罗斯福",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1943-11-23",
+        "end_date": "1943-11-27",
+        "description": {
+          "zh-cn": "蒋中正与富兰克林·德拉诺·罗斯福在开罗会议期间举行会谈。",
+          "en": "Chiang Kai-shek held talks with Franklin D. Roosevelt during the Cairo Conference."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "温斯顿·丘吉尔",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1943-11-23",
+        "end_date": "1943-11-27",
+        "description": {
+          "zh-cn": "蒋中正与温斯顿·丘吉尔在开罗会议期间举行会谈。",
+          "en": "Chiang Kai-shek held talks with Winston Churchill during the Cairo Conference."
+        }
+      }
+    },
+    {
+      "source": "富兰克林·德拉诺·罗斯福",
+      "target": "温斯顿·丘吉尔",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1943-11-23",
+        "end_date": "1943-11-27",
+        "description": {
+          "zh-cn": "富兰克林·德拉诺·罗斯福与温斯顿·丘吉尔在开罗会议期间举行会谈。",
+          "en": "Franklin D. Roosevelt held talks with Winston Churchill during the Cairo Conference."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "国民政府军事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员长",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "蒋中正当时担任国民政府军事委员会委员长。",
+          "en": "Chiang Kai-shek served as the Chairman of the National Military Council at that time."
+        }
+      }
+    },
+    {
+      "source": "开罗宣言",
+      "target": "大日本帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1943-12-01",
+        "description": {
+          "zh-cn": "《开罗宣言》声明盟国将坚持对日作战直至其无条件投降，并要求日本归还其所窃取的一切领土。",
+          "en": "The Cairo Declaration stated that the Allied powers would persevere in the war against Japan until its unconditional surrender and demanded that Japan return all territories it had stolen."
+        }
+      }
+    },
+    {
+      "source": "开罗宣言",
+      "target": "中华民国大陆时期",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-12-01",
+        "description": {
+          "zh-cn": "《开罗宣言》规定，日本自中国所窃取的所有领土，例如满洲、台湾及澎湖群岛，应该归还给中华民国。",
+          "en": "The Cairo Declaration stipulated that all territories Japan had stolen from the Chinese, such as Manchuria, Formosa (Taiwan), and the Pescadores (Penghu), should be restored to the Republic of China."
+        }
+      }
+    },
+    {
+      "source": "开罗宣言",
+      "target": "朝鲜半岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1943-12-01",
+        "description": {
+          "zh-cn": "《开罗宣言》决定在相当时期内，使朝鲜获得自由与独立。",
+          "en": "The Cairo Declaration decided that in due course Korea shall become free and independent."
+        }
+      }
+    },
+    {
+      "source": "哈里·霍普金斯",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11",
+        "description": {
+          "zh-cn": "作为美国总统特别助理，哈里·霍普金斯在三巨头会谈的基础上起草了《开罗宣言》的草案。",
+          "en": "As a special assistant to the U.S. President, Harry Hopkins drafted the Cairo Declaration based on the talks of the three leaders."
+        }
+      }
+    },
+    {
+      "source": "王宠惠",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11",
+        "description": {
+          "zh-cn": "作为中华民国代表，王宠惠在讨论宣言草案时，据理力争保留了“归还中华民国”的段落。",
+          "en": "As a representative of the Republic of China, Wang Ch'ung-hui argued forcefully to retain the clause \"be restored to the Republic of China\" during discussions on the draft declaration."
+        }
+      }
+    },
+    {
+      "source": "贾德干",
+      "target": "开罗宣言",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1943-11",
+        "description": {
+          "zh-cn": "作为英国代表，贾德干建议将宣言草案中的“归还中华民国”改为“当然必须由日本放弃”。",
+          "en": "As a British representative, Alexander Cadogan suggested changing the phrase \"restored to the Republic of China\" in the draft declaration to \"must of course be relinquished by Japan.\""
+        }
+      }
+    },
+    {
+      "source": "温斯顿·丘吉尔",
+      "target": "开罗宣言",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1943-11",
+        "description": {
+          "zh-cn": "温斯顿·丘吉尔对宣言草案文字作了进一步修改，将“特别是”改为“例如”，并加上了“澎湖”。",
+          "en": "Winston Churchill made further textual modifications to the draft declaration, changing \"in particular\" to \"for example\" and adding \"the Pescadores.\""
+        }
+      }
+    },
+    {
+      "source": "约瑟夫·斯大林",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11-30",
+        "description": {
+          "zh-cn": "在德黑兰会议上，约瑟夫·斯大林表示“完全”赞成《开罗宣言》及其全部内容。",
+          "en": "At the Tehran Conference, Joseph Stalin expressed his \"full\" approval of the Cairo Declaration and \"all its contents.\""
+        }
+      }
+    },
+    {
+      "source": "富兰克林·德拉诺·罗斯福",
+      "target": "约瑟夫·斯大林",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1943-11-28",
+        "end_date": "1943-12-01",
+        "description": {
+          "zh-cn": "在开罗会议结束后，罗斯福前往德黑兰与斯大林举行德黑兰会议。",
+          "en": "After the Cairo Conference, Roosevelt traveled to Tehran to hold the Tehran Conference with Stalin."
+        }
+      }
+    },
+    {
+      "source": "温斯顿·丘吉尔",
+      "target": "约瑟夫·斯大林",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1943-11-28",
+        "end_date": "1943-12-01",
+        "description": {
+          "zh-cn": "在开罗会议结束后，丘吉尔前往德黑兰与斯大林举行德黑兰会议。",
+          "en": "After the Cairo Conference, Churchill traveled to Tehran to hold the Tehran Conference with Stalin."
+        }
+      }
+    },
+    {
+      "source": "波茨坦公告",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-07-26",
+        "description": {
+          "zh-cn": "《波茨坦公告》第八条明确规定“《开罗宣言》之条件必将实施”。",
+          "en": "Article 8 of the Potsdam Declaration explicitly states that \"The terms of the Cairo Declaration shall be carried out.\""
+        }
+      }
+    },
+    {
+      "source": "降伏文书",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-09-02",
+        "description": {
+          "zh-cn": "日本签署的《降伏文书》中声明接受《波茨坦公告》的条款，从而间接确认了履行《开罗宣言》的义务。",
+          "en": "In the Instrument of Surrender signed by Japan, it declared its acceptance of the terms of the Potsdam Declaration, thereby indirectly confirming the obligation to implement the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "source": "苏日互不侵犯条约",
+      "target": "约瑟夫·斯大林",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1941-04-13",
+        "end_date": "1945-04-05",
+        "description": {
+          "zh-cn": "由于苏联与日本签有互不侵犯条约，斯大林表示不参加有蒋中正与会的开罗会议。",
+          "en": "Due to the neutrality pact signed between the Soviet Union and Japan, Stalin stated that he would not participate in the Cairo Conference, which was attended by Chiang Kai-shek."
+        }
+      }
+    }
+  ]
+}
