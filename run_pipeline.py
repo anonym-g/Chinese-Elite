@@ -22,7 +22,7 @@ def setup_logging():
     log_dir = os.path.join(os.path.dirname(__file__), 'logs')
     os.makedirs(log_dir, exist_ok=True)
     file_handler = RotatingFileHandler(
-        os.path.join(log_dir, 'pipeline.log'), maxBytes=5*1024*1024, backupCount=5, encoding='utf-8'
+        os.path.join(log_dir, 'pipeline.log'), maxBytes=5*1024*1024, backupCount=2, encoding='utf-8'
     )
     file_handler.setFormatter(log_formatter)
     root_logger.addHandler(file_handler)

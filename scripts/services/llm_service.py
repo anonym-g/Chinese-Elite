@@ -42,9 +42,9 @@ class LLMService:
     """
     def __init__(self):
         try:
-            http_options = types.HttpOptions(timeout=120 * 1000)
+            http_options = types.HttpOptions(timeout=360 * 1000)
             self.client = genai.Client(http_options=http_options)
-            logger.info("Google GenAI Client 初始化成功 (超时设置为120秒)。")
+            logger.info("Google GenAI Client 初始化成功 (超时设置为360秒)。")
         except Exception as e:
             logger.critical(f"严重错误: 初始化 Google GenAI Client 失败。请检查 API 密钥。", exc_info=True)
             sys.exit(1)
@@ -210,8 +210,18 @@ class LLMService:
             node_type = node.get('type', 'Unknown')
             return f"{primary_name} (Type: {node_type})"
 
-        rel_copy['source'] = _format_node_info(relation.get('source'))
-        rel_copy['target'] = _format_node_info(relation.get('target'))
+        # 1. 调用 _format_node_info 之前，先获取并验证 source_id 和 target_id
+        source_id = relation.get('source')
+        target_id = relation.get('target')
+
+        # 2. 如果 source_id 或 target_id 不是有效的字符串，说明关系数据本身有问题，标记为可删除
+        if not isinstance(source_id, str) or not isinstance(target_id, str):
+            logger.warning(f"关系格式错误，缺少 source 或 target ID，将标记为可删除: {relation}")
+            return True
+
+        # 3. 验证通过后，调用 _format_node_info
+        rel_copy['source'] = _format_node_info(source_id)
+        rel_copy['target'] = _format_node_info(target_id)
 
         prompt = self.prompts['clean_single_relation'] + "\n" + json.dumps(rel_copy, indent=2, ensure_ascii=False)
 
