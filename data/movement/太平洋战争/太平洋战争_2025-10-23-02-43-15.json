@@ -1,0 +1,952 @@
+{
+  "nodes": [
+    {
+      "id": "太平洋战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "太平洋战争",
+          "亚太战争",
+          "太平洋战区",
+          "大东亚战争"
+        ],
+        "en": [
+          "Pacific War",
+          "Asia-Pacific War",
+          "Pacific Theater",
+          "Great East Asian War"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-07 - 1945-09-02",
+        "description": {
+          "zh-cn": "第二次世界大战的战区之一，地理范围包括东亚、东南亚、太平洋、印度洋和大洋洲。它是二战地理上规模最大的战场。",
+          "en": "One of the theaters of World War II, with a geographical scope including East Asia, Southeast Asia, the Pacific Ocean, the Indian Ocean, and Oceania. It was the largest theater of war geographically in WWII."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939-09-01 - 1945-09-02"
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan",
+          "Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868-01-03 - 1947-05-03"
+      }
+    },
+    {
+      "id": "同盟国 (第二次世界大战)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "同盟国 (第二次世界大战)",
+          "同盟国"
+        ],
+        "en": [
+          "Allies of World War II",
+          "Allies"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "轴心国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "轴心国"
+        ],
+        "en": [
+          "Axis powers"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "珍珠港事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "珍珠港事件",
+          "珍珠港展开攻击"
+        ],
+        "en": [
+          "Attack on Pearl Harbor"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-07"
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国",
+          "中国"
+        ],
+        "en": [
+          "Republic of China",
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1912年至1949年间统治中国大陆的政权",
+          "en": "The regime that ruled mainland China from 1912 to 1949."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "日本投降",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "日本投降"
+        ],
+        "en": [
+          "Surrender of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1945-08-15 - 1945-09-02"
+      }
+    },
+    {
+      "id": "广岛与长崎原子弹爆炸",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "广岛与长崎原子弹爆炸"
+        ],
+        "en": [
+          "Atomic bombings of Hiroshima and Nagasaki"
+        ]
+      },
+      "properties": {
+        "period": "1945-08-06 - 1945-08-09"
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "满洲战略进攻行动",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "满洲战略进攻行动",
+          "苏日战争"
+        ],
+        "en": [
+          "Manchurian Strategic Offensive Operation",
+          "Soviet–Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1945-08-09"
+      }
+    },
+    {
+      "id": "中途岛海战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中途岛海战"
+        ],
+        "en": [
+          "Battle of Midway"
+        ]
+      },
+      "properties": {
+        "period": "1942-06-03 - 1942-06-05"
+      }
+    },
+    {
+      "id": "日本帝国海军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本帝国海军"
+        ],
+        "en": [
+          "Imperial Japanese Navy"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "珊瑚海海战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "珊瑚海海战"
+        ],
+        "en": [
+          "Battle of the Coral Sea"
+        ]
+      },
+      "properties": {
+        "period": "1942-05-04 - 1942-05-08"
+      }
+    },
+    {
+      "id": "瓜达尔卡纳尔岛战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "瓜达尔卡纳尔岛战役"
+        ],
+        "en": [
+          "Guadalcanal campaign"
+        ]
+      },
+      "properties": {
+        "period": "1942-08-07 - 1943-02-09"
+      }
+    },
+    {
+      "id": "冲绳岛战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "冲绳岛战役"
+        ],
+        "en": [
+          "Battle of Okinawa"
+        ]
+      },
+      "properties": {
+        "period": "1945-04-01 - 1945-06-21"
+      }
+    },
+    {
+      "id": "莱特湾海战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "莱特湾海战"
+        ],
+        "en": [
+          "Battle of Leyte Gulf"
+        ]
+      },
+      "properties": {
+        "period": "1944-10-23 - 1944-10-26"
+      }
+    },
+    {
+      "id": "东条英机",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "东条英机"
+        ],
+        "en": [
+          "Hideki Tojo"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "昭和天皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "昭和天皇",
+          "裕仁"
+        ],
+        "en": [
+          "Emperor Shōwa",
+          "Hirohito"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "富兰克林·罗斯福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "富兰克林·罗斯福"
+        ],
+        "en": [
+          "Franklin D. Roosevelt"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "哈瑞·S·杜鲁门",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈瑞·S·杜鲁门"
+        ],
+        "en": [
+          "Harry S. Truman"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "温斯顿·邱吉尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温斯顿·邱吉尔"
+        ],
+        "en": [
+          "Winston Churchill"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "道格拉斯·麦克阿瑟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "道格拉斯·麦克阿瑟"
+        ],
+        "en": [
+          "Douglas MacArthur"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "泰国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "泰国"
+        ],
+        "en": [
+          "Thailand"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "纳粹德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国",
+          "德国"
+        ],
+        "en": [
+          "Nazi Germany",
+          "Germany"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "意大利王国 (1861年-1946年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "意大利王国 (1861年-1946年)",
+          "意大利"
+        ],
+        "en": [
+          "Kingdom of Italy (1861–1946)",
+          "Italy"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "日本帝国陆军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本帝国陆军"
+        ],
+        "en": [
+          "Imperial Japanese Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中国抗日战争",
+          "抗日战争",
+          "八年抗战"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937-07-07 - 1945-09-09"
+      }
+    },
+    {
+      "id": "降伏文书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "降伏文书",
+          "日本投降书"
+        ],
+        "en": [
+          "Japanese Instrument of Surrender"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "终战诏书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "终战诏书"
+        ],
+        "en": [
+          "Jewel Voice Broadcast"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "三光政策",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "三光政策",
+          "杀光、抢光、烧光"
+        ],
+        "en": [
+          "Three Alls Policy"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "冈村宁次",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冈村宁次"
+        ],
+        "en": [
+          "Yasuji Okamura"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "南京大屠杀",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南京大屠杀"
+        ],
+        "en": [
+          "Nanjing Massacre"
+        ]
+      },
+      "properties": {
+        "period": "1937-12-13 - 1938-01"
+      }
+    },
+    {
+      "id": "马尼拉大屠杀",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "马尼拉大屠杀"
+        ],
+        "en": [
+          "Manila massacre"
+        ]
+      },
+      "properties": {
+        "period": "1945-02 - 1945-03"
+      }
+    },
+    {
+      "id": "菲律宾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "菲律宾"
+        ],
+        "en": [
+          "Philippines"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "慰安妇",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "慰安妇",
+          "慰安所"
+        ],
+        "en": [
+          "Comfort women"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指在第二次世界大战期间，被强迫为日本军人提供性服务的女性，多来自被日本侵占地区。",
+          "en": "Women and girls forced into sexual slavery by the Imperial Japanese Army in occupied territories before and during World War II."
+        }
+      }
+    },
+    {
+      "id": "巴丹死亡行军",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "巴丹死亡行军"
+        ],
+        "en": [
+          "Bataan Death March"
+        ]
+      },
+      "properties": {
+        "period": "1942-04-09"
+      }
+    },
+    {
+      "id": "空袭日本",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "空袭日本"
+        ],
+        "en": [
+          "Air raids on Japan"
+        ]
+      },
+      "properties": {
+        "period": "1942-04-18 - 1945-08-15"
+      }
+    },
+    {
+      "id": "会议室行动",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "会议室行动",
+          "东京大轰炸"
+        ],
+        "en": [
+          "Operation Meetinghouse",
+          "Bombing of Tokyo"
+        ]
+      },
+      "properties": {
+        "period": "1945-03-09 - 1945-03-10"
+      }
+    },
+    {
+      "id": "柯蒂斯·李梅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "柯蒂斯·李梅"
+        ],
+        "en": [
+          "Curtis LeMay"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "太平洋战争",
+      "target": "第二次世界大战",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "太平洋战争是第二次世界大战的战区之一。",
+          "en": "The Pacific War was one of the theaters of World War II."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "太平洋战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-07",
+        "description": {
+          "zh-cn": "日本对美国珍珠港的袭击，以及同时对东南亚的进攻，标志着太平洋战争的全面爆发。",
+          "en": "The Japanese attack on Pearl Harbor, along with simultaneous offensives in Southeast Asia, marked the full-scale outbreak of the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "日本投降",
+      "target": "太平洋战争",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-08-15",
+        "description": {
+          "zh-cn": "日本于1945年8月15日宣布无条件投降，并于9月2日正式签署降伏文书，结束了太平洋战争。",
+          "en": "Japan announced its unconditional surrender on August 15, 1945, and formally signed the Instrument of Surrender on September 2, ending the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "广岛与长崎原子弹爆炸",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08-06",
+        "end_date": "1945-08-09",
+        "description": {
+          "zh-cn": "美国对广岛和长崎投下原子弹，对日本政府造成巨大冲击，是促使其决定投降的关键因素之一。",
+          "en": "The atomic bombings of Hiroshima and Nagasaki by the United States shocked the Japanese government and were one of the key factors that pushed it to decide to surrender."
+        }
+      }
+    },
+    {
+      "source": "满洲战略进攻行动",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08-09",
+        "description": {
+          "zh-cn": "苏联入侵满洲，消灭了日本关东军，打破了日本通过苏联调停求和的希望，加速了其投降进程。",
+          "en": "The Soviet invasion of Manchuria destroyed the Kwantung Army and dashed Japan's hopes for a negotiated peace mediated by the USSR, accelerating its decision to surrender."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "满洲战略进攻行动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08-09",
+        "description": {
+          "zh-cn": "苏联发动了满洲战略进攻行动，入侵了日本控制的伪满洲国。",
+          "en": "The Soviet Union launched the Manchurian Strategic Offensive Operation, invading the Japanese-controlled puppet state of Manchukuo."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "轴心国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1940-09-27",
+        "description": {
+          "zh-cn": "日本于1940年9月27日与德国、意大利签署《三国同盟条约》，正式成为轴心国成员。",
+          "en": "Japan signed the Tripartite Pact with Germany and Italy on September 27, 1940, formally becoming a member of the Axis powers."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "同盟国 (第二次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1941-12-08",
+        "description": {
+          "zh-cn": "在珍珠港事件后，美国对日宣战，成为同盟国的主要成员。",
+          "en": "After the attack on Pearl Harbor, the United States declared war on Japan and became a major member of the Allies."
+        }
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "同盟国 (第二次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1942-01-01",
+        "description": {
+          "zh-cn": "作为《联合国家宣言》的签署国，中国自1937年起便与日本作战，是同盟国的重要成员。",
+          "en": "As a signatory of the Declaration by United Nations, China had been at war with Japan since 1937 and was a key member of the Allies."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "同盟国 (第二次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "英国是同盟国的核心成员之一，参与了太平洋战争。",
+          "en": "The United Kingdom was one of the core members of the Allies and participated in the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "中途岛海战",
+      "target": "日本帝国海军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1942-06-04",
+        "description": {
+          "zh-cn": "中途岛海战是太平洋战争的转折点，日本海军在该战役中损失了四艘主力航空母舰，元气大伤。",
+          "en": "The Battle of Midway was the turning point of the Pacific War, where the Imperial Japanese Navy suffered a devastating blow, losing four of its main aircraft carriers."
+        }
+      }
+    },
+    {
+      "source": "莱特湾海战",
+      "target": "日本帝国海军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1944-10-23",
+        "description": {
+          "zh-cn": "莱特湾海战是历史上最大规模的海战，日本海军在此次战役中遭受灾难性失败，其联合舰队基本被摧毁。",
+          "en": "The Battle of Leyte Gulf was the largest naval battle in history. The Imperial Japanese Navy suffered a catastrophic defeat, and its Combined Fleet was effectively destroyed."
+        }
+      }
+    },
+    {
+      "source": "东条英机",
+      "target": "大日本帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "内阁总理大臣",
+          "en": "Prime Minister"
+        },
+        "description": {
+          "zh-cn": "作为日本首相，主张对英美开战，是发动太平洋战争的主要决策者之一。",
+          "en": "As Prime Minister of Japan, he advocated for war against the US and UK and was one of the key decision-makers in launching the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "昭和天皇",
+      "target": "终战诏书",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08-15",
+        "description": {
+          "zh-cn": "通过广播发布《终战诏书》，向日本民众宣布接受《波茨坦公告》，决定投降。",
+          "en": "Broadcast the Jewel Voice Broadcast, announcing to the Japanese people the acceptance of the Potsdam Declaration and the decision to surrender."
+        }
+      }
+    },
+    {
+      "source": "终战诏书",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08-15",
+        "description": {
+          "zh-cn": "《终战诏书》的发布标志着日本决定无条件投降。",
+          "en": "The broadcast of the Imperial Rescript on the Termination of the War signaled Japan's decision to surrender unconditionally."
+        }
+      }
+    },
+    {
+      "source": "道格拉斯·麦克阿瑟",
+      "target": "降伏文书",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1945-09-02",
+        "description": {
+          "zh-cn": "作为盟军最高司令，代表同盟国接受日本投降并在《降伏文书》上签字。",
+          "en": "As Supreme Commander for the Allied Powers, he accepted the surrender of Japan on behalf of the Allied Powers and signed the Instrument of Surrender."
+        }
+      }
+    },
+    {
+      "source": "富兰克林·罗斯福",
+      "target": "美国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总统",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "在珍珠港事件后领导美国对日宣战，是同盟国在太平洋战争期间的主要领导人之一。",
+          "en": "Led the United States to declare war on Japan after the attack on Pearl Harbor and was one of the principal Allied leaders during the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "哈瑞·S·杜鲁门",
+      "target": "广岛与长崎原子弹爆炸",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为美国总统，授权对日本使用原子弹。",
+          "en": "As President of the United States, he authorized the use of atomic bombs against Japan."
+        }
+      }
+    },
+    {
+      "source": "冈村宁次",
+      "target": "三光政策",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "实施了“杀光、抢光、烧光”的“三光政策”，对中国平民造成巨大伤害。",
+          "en": "Implemented the \"Three Alls Policy\" (kill all, loot all, burn all), causing immense harm to Chinese civilians."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "南京大屠杀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937-12-13",
+        "description": {
+          "zh-cn": "日本军队在占领南京后，对中国平民和战俘进行了大规模的屠杀和暴行。",
+          "en": "After capturing Nanjing, Japanese troops carried out a large-scale massacre and atrocities against Chinese civilians and prisoners of war."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "马尼拉大屠杀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-02",
+        "description": {
+          "zh-cn": "在马尼拉战役期间，日本军队对菲律宾平民进行了大规模屠杀。",
+          "en": "During the Battle of Manila, Japanese forces conducted a large-scale massacre of Filipino civilians."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "巴丹死亡行军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1942-04-09",
+        "description": {
+          "zh-cn": "日军在菲律宾强迫美国和菲律宾战俘进行长途跋涉，期间虐待并杀害了数千名战俘。",
+          "en": "Japanese forces forced American and Filipino prisoners of war on a long march in the Philippines, during which thousands were abused and killed."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "慰安妇",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "日本军队建立了“慰安妇”制度，强迫亚洲多国女性为日军提供性服务。",
+          "en": "The Japanese military established the \"comfort women\" system, forcing women from many Asian countries to provide sexual services to Japanese soldiers."
+        }
+      }
+    },
+    {
+      "source": "柯蒂斯·李梅",
+      "target": "会议室行动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-03-09",
+        "description": {
+          "zh-cn": "指挥了对东京的燃烧弹轰炸，即“会议室行动”，造成了大规模的平民伤亡和破坏。",
+          "en": "Commanded the firebombing of Tokyo, known as \"Operation Meetinghouse,\" which caused massive civilian casualties and destruction."
+        }
+      }
+    }
+  ]
+}
