@@ -4,6 +4,7 @@ import os
 import json
 import sys
 import logging
+import random
 
 # 使用相对路径导入
 from .config import DATA_DIR, PROCESSED_LOG_PATH, NON_DIRECTED_LINK_TYPES
@@ -206,6 +207,8 @@ class GraphMerger:
         self._load_state()
         
         source_files_to_process = [os.path.join(r, f) for r, _, files in os.walk(DATA_DIR) for f in files if f.endswith('.json') and f not in self.processed_files]
+
+        random.shuffle(source_files_to_process)
 
         if not source_files_to_process:
             logger.info("未发现需要处理的新文件。")
