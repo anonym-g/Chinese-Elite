@@ -140,7 +140,9 @@ class GraphMerger:
                         new_node['id'] = qcode
                         new_node['name'] = self._merge_and_update_names(new_node, qcode, primary_lang=primary_lang)
                         self.master_nodes_map[qcode] = new_node
-                        add_title_to_list(f"({api_lang}) {primary_name}" if api_lang != 'zh' else primary_name)
+
+                    # 不论是否添加过，都执行添加（以免 LIST.md 因修订丢失条目）
+                    add_title_to_list(f"({api_lang}) {primary_name}" if api_lang != 'zh' else primary_name)
                 else:
                     # Case 2: API未能返回Q-Code，回退并检查本地名称映射
                     if primary_name in self.name_to_qcode_map:

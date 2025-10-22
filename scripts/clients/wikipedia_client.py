@@ -16,7 +16,7 @@ from curl_cffi import requests as cffi_requests
 # 使用相对路径导入
 from ..config import WIKI_API_URL_TPL, USER_AGENT, BAIDU_BASE_URL, CDSPACE_BASE_URL, LIST_FILE_PATH, CACHE_DIR
 from ..api_rate_limiter import wiki_sync_limiter
-from ..utils import add_title_to_list
+from ..utils import add_title_to_list, update_title_in_list
 
 logger = logging.getLogger(__name__)
 
@@ -211,7 +211,9 @@ class WikipediaClient:
                         norm_simplified_original = simplified_original.replace('_', ' ').lower()
                         
                         if norm_simplified_target == norm_simplified_original:
-                            logger.info(f"页面 '{article_title}' 是一个简繁重定向，目标为 '{redirect_target}'。将使用目标页面获取内容。")
+                            logger.info(f"页面 '{article_title}' 是一个简繁重定向，目标为 '{redirect_target}'。将更新 LIST.md，并使用正确页面名获取内容。")
+
+                            update_title_in_list(article_title, redirect_target)
                             
                             current_title_to_fetch = redirect_target
                             new_raw_url = self._build_raw_url(current_title_to_fetch, lang)
