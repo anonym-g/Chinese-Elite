@@ -1,0 +1,686 @@
+{
+  "nodes": [
+    {
+      "id": "楚汉战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "楚汉战争",
+          "楚汉相争"
+        ],
+        "en": [
+          "Chu–Han Contention"
+        ]
+      },
+      "properties": {
+        "period": "-0207 - -0202",
+        "location": {
+          "zh-cn": "中国中原",
+          "en": "Central Plain, China"
+        },
+        "description": {
+          "zh-cn": "秦朝灭亡后，项羽和刘邦之间为争夺中国统治权力而进行的战争。战争最终以刘邦胜利，建立汉朝告终。",
+          "en": "A war for the supremacy of China that followed the fall of the Qin dynasty, fought between Xiang Yu and Liu Bang. The war concluded with Liu Bang's victory and the establishment of the Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "刘邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘邦",
+          "汉王",
+          "沛公"
+        ],
+        "en": [
+          "Liu Bang",
+          "Emperor Gaozu of Han"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0256 - -0195-06-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉朝的开国皇帝，楚汉战争的最终胜利者。他原为泗水亭长，在秦末民变中起兵，后被项羽封为汉王，最终在楚汉战争中击败项羽，统一中国。",
+          "en": "The founder and first emperor of the Han dynasty, and the ultimate victor of the Chu–Han Contention. Originally a minor official, he rebelled during the uprisings at the end of the Qin dynasty, was enfeoffed as King of Han by Xiang Yu, and eventually defeated Xiang Yu to unify China."
+        }
+      }
+    },
+    {
+      "id": "项羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项羽",
+          "西楚霸王"
+        ],
+        "en": [
+          "Xiang Yu"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0232 - -0202",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "乌江镇 (和县)",
+          "en": "Wujiang Town"
+        },
+        "description": {
+          "zh-cn": "秦末著名军事领袖，西楚的建立者，自封“西楚霸王”。他在巨鹿之战中大破秦军主力，成为反秦武装的领袖，但在随后的楚汉战争中败给刘邦，最终于乌江边自刎。",
+          "en": "A prominent military leader at the end of the Qin dynasty, founder of the Western Chu, who proclaimed himself 'Hegemon-King of Western Chu'. He defeated the main Qin army at the Battle of Julu and became the leader of the anti-Qin forces, but was later defeated by Liu Bang in the Chu-Han Contention and committed suicide at the Wu River."
+        }
+      }
+    },
+    {
+      "id": "汉朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉朝",
+          "汉",
+          "西汉"
+        ],
+        "en": [
+          "Han dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-0202 - 0220",
+        "description": {
+          "zh-cn": "由刘邦在中国楚汉战争之后建立的朝代。它是楚汉战争中的一方，并最终取得了胜利。",
+          "en": "A Chinese dynasty founded by Liu Bang after the Chu-Han Contention. It was one of the main belligerents in the war and emerged victorious."
+        }
+      }
+    },
+    {
+      "id": "西楚",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西楚",
+          "楚"
+        ],
+        "en": [
+          "Western Chu"
+        ]
+      },
+      "properties": {
+        "period": "-0206 - -0202",
+        "description": {
+          "zh-cn": "由项羽在秦朝灭亡后建立的政权。它是楚汉战争中的一方，最终被汉朝击败。",
+          "en": "A state established by Xiang Yu after the fall of the Qin dynasty. It was one of the main belligerents in the Chu-Han Contention and was ultimately defeated by the Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "秦朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦朝",
+          "秦"
+        ],
+        "en": [
+          "Qin dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-0221 - -0207",
+        "description": {
+          "zh-cn": "中国的第一个大一统王朝。其末年的暴政引发了秦末民变，最终导致其灭亡，为楚汉战争的爆发创造了条件。",
+          "en": "The first unified imperial dynasty of China. Its tyrannical rule in its final years led to widespread uprisings, which caused its downfall and set the stage for the Chu-Han Contention."
+        }
+      }
+    },
+    {
+      "id": "韩信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩信"
+        ],
+        "en": [
+          "Han Xin"
+        ]
+      },
+      "properties": {
+        "lifetime": "? - -0196",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉初三杰之一，杰出的军事家。原为项羽部下，后投奔刘邦，被拜为大将军，在楚汉战争中发挥了决定性作用，指挥了井陉之战、潍水之战等关键战役。",
+          "en": "One of the 'Three Heroes of the early Han dynasty' and a brilliant military strategist. He initially served under Xiang Yu before defecting to Liu Bang, who appointed him as Grand General. He played a decisive role in the Chu-Han Contention, commanding key battles such as the Battle of Jingxing and the Battle of Wei River."
+        }
+      }
+    },
+    {
+      "id": "张良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张良"
+        ],
+        "en": [
+          "Zhang Liang"
+        ]
+      },
+      "properties": {
+        "lifetime": "? - -0186",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉初三杰之一，刘邦的主要谋士。他在楚汉战争期间为刘邦制定了许多重要战略，包括劝说刘邦联合英布、彭越，以及在鸿沟和议后追击项羽。",
+          "en": "One of the 'Three Heroes of the early Han dynasty' and a key advisor to Liu Bang. He formulated many crucial strategies for Liu Bang during the Chu-Han Contention, including persuading him to ally with Ying Bu and Peng Yue, and to pursue Xiang Yu after the Treaty of Hong Canal."
+        }
+      }
+    },
+    {
+      "id": "范增",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "范增",
+          "亚父"
+        ],
+        "en": [
+          "Fan Zeng"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0277 - -0204",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "项羽的主要谋士，被尊称为“亚父”。他在鸿门宴上力主杀死刘邦但未被采纳。后因陈平的反间计而被项羽猜忌，辞官归乡途中病逝。",
+          "en": "Xiang Yu's chief advisor, respectfully addressed as 'Second Father'. He strongly advocated for killing Liu Bang at the Feast at Hong Gate, but his advice was not taken. He later fell victim to Chen Ping's stratagem, which caused Xiang Yu to distrust him, and he died of illness on his way home after resigning."
+        }
+      }
+    },
+    {
+      "id": "彭越",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭越"
+        ],
+        "en": [
+          "Peng Yue"
+        ]
+      },
+      "properties": {
+        "lifetime": "? - -0196",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉初异姓王之一。在楚汉战争中，他在梁地领导游击部队，不断骚扰楚军后方，有效牵制了项羽的兵力，对汉军的胜利做出了重要贡献。",
+          "en": "One of the non-Liu clan kings of the early Han dynasty. During the Chu-Han Contention, he led guerrilla forces in the Liang region, constantly harassing the Chu army's rear and effectively tying down Xiang Yu's forces, contributing significantly to the Han victory."
+        }
+      }
+    },
+    {
+      "id": "英布",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "英布",
+          "黥布"
+        ],
+        "en": [
+          "Ying Bu"
+        ]
+      },
+      "properties": {
+        "lifetime": "? - -0196",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦末汉初名将，因受过黥刑而又称黥布。原为项羽麾下大将，封为九江王，后在随何的游说下叛楚归汉，成为制衡项羽的重要力量。",
+          "en": "A famous general at the end of the Qin and beginning of the Han dynasties, also known as Qing Bu due to having been tattooed as punishment. He was initially a key general under Xiang Yu and was made King of Jiujiang. He later defected to the Han side after being persuaded by Sui He, becoming an important force in counterbalancing Xiang Yu."
+        }
+      }
+    },
+    {
+      "id": "熊心",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "熊心",
+          "楚怀王",
+          "楚后怀王",
+          "楚义帝"
+        ],
+        "en": [
+          "Xiong Xin",
+          "Emperor Yi of Chu"
+        ]
+      },
+      "properties": {
+        "lifetime": "? - -0205",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期楚怀王之孙。被项梁拥立为楚王，成为反秦力量名义上的领袖。后被项羽尊为义帝，但随即被项羽派人刺杀。",
+          "en": "Grandson of King Huai of Chu from the Warring States period. He was installed as King of Chu by Xiang Liang and became the nominal leader of the anti-Qin forces. Xiang Yu later honored him as Emperor Yi, but soon had him assassinated."
+        }
+      }
+    },
+    {
+      "id": "秦末民变",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "秦末民变"
+        ],
+        "en": [
+          "Uprisings at the end of the Qin dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-0209 - -0206",
+        "description": {
+          "zh-cn": "指秦朝末年由陈胜、吴广的大泽乡起义引发的一系列反秦起义。这些起义直接导致了秦朝的灭亡，并开启了楚汉战争的序幕。",
+          "en": "A series of rebellions against the Qin dynasty, sparked by the Dazexiang Uprising led by Chen Sheng and Wu Guang. These uprisings directly led to the fall of the Qin dynasty and set the stage for the Chu-Han Contention."
+        }
+      }
+    },
+    {
+      "id": "巨鹿之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "巨鹿之战"
+        ],
+        "en": [
+          "Battle of Julu"
+        ]
+      },
+      "properties": {
+        "period": "-0207",
+        "description": {
+          "zh-cn": "秦末民变中的一场关键战役。项羽率领的楚军以少胜多，大败章邯、王离率领的秦军主力，奠定了项羽在各路反秦诸侯中的领袖地位。",
+          "en": "A pivotal battle during the uprisings at the end of the Qin dynasty. Xiang Yu's Chu army achieved a decisive victory against the main Qin forces led by Zhang Han and Wang Li, establishing Xiang Yu's leadership among the rebel lords."
+        }
+      }
+    },
+    {
+      "id": "彭城之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "彭城之战"
+        ],
+        "en": [
+          "Battle of Pengcheng"
+        ]
+      },
+      "properties": {
+        "period": "-0205-04",
+        "description": {
+          "zh-cn": "楚汉战争中的一场重要战役。项羽率三万精锐骑兵奇袭，大败刘邦五十六万诸侯联军，是战争史上以少胜多的著名范例。",
+          "en": "A major battle in the Chu-Han Contention. Xiang Yu led 30,000 elite cavalry in a surprise attack, routing Liu Bang's coalition army of 560,000. It is a famous example of defeating a vastly larger force in military history."
+        }
+      }
+    },
+    {
+      "id": "垓下之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "垓下之战"
+        ],
+        "en": [
+          "Battle of Gaixia"
+        ]
+      },
+      "properties": {
+        "period": "-0202-12",
+        "description": {
+          "zh-cn": "楚汉战争的最后一场决定性战役。汉军将项羽的楚军重重包围，并采用“四面楚歌”的战术瓦解其军心，最终项羽突围失败，自刎于乌江边。",
+          "en": "The final and decisive battle of the Chu-Han Contention. The Han army surrounded Xiang Yu's forces and used the 'songs of Chu from all sides' tactic to demoralize them, leading to Xiang Yu's failed breakout and eventual suicide at the Wu River."
+        }
+      }
+    },
+    {
+      "id": "宋义",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋义"
+        ],
+        "en": [
+          "Song Yi"
+        ]
+      },
+      "properties": {
+        "lifetime": "? - -0207",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "楚后怀王任命的上将军，奉命北上救赵。因在途中逗留不前，被副将项羽以贻误战机为由杀死。",
+          "en": "The Grand General appointed by King Huai II of Chu to lead the army to rescue Zhao. He was killed by his deputy Xiang Yu for halting the army's advance and delaying the campaign."
+        }
+      }
+    },
+    {
+      "id": "龙且",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "龙且"
+        ],
+        "en": [
+          "Long Qie"
+        ]
+      },
+      "properties": {
+        "lifetime": "? - -0204",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "项羽麾下的大将。在潍水之战中率军援齐，被韩信击败并斩杀。",
+          "en": "A prominent general under Xiang Yu. He was defeated and killed by Han Xin at the Battle of Wei River while leading reinforcements to aid the state of Qi."
+        }
+      }
+    },
+    {
+      "id": "章邯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "章邯"
+        ],
+        "en": [
+          "Zhang Han"
+        ]
+      },
+      "properties": {
+        "lifetime": "? - -0205",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦朝末年的主要将领。在巨鹿之战后率秦军主力投降项羽，被封为雍王。后在楚汉战争中被刘邦击败，困守废丘，最终兵败自杀。",
+          "en": "A leading general of the late Qin dynasty. After the Battle of Julu, he surrendered the main Qin army to Xiang Yu and was made King of Yong. He was later defeated by Liu Bang during the Chu-Han Contention and committed suicide after his last stronghold, Feiqiu, fell."
+        }
+      }
+    },
+    {
+      "id": "陈平 (汉朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈平 (汉朝)",
+          "陈平"
+        ],
+        "en": [
+          "Chen Ping"
+        ]
+      },
+      "properties": {
+        "lifetime": "? - -0178",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘邦的重要谋士。以多出奇计著称，曾设计反间计离间项羽和范增，并在鸿沟和议后建议刘邦追击项羽。",
+          "en": "An important advisor to Liu Bang, known for his cunning stratagems. He devised a plan to sow discord between Xiang Yu and Fan Zeng, and advised Liu Bang to pursue Xiang Yu after the Treaty of Hong Canal."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "楚汉战争",
+      "target": "刘邦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘邦在楚汉战争中最终获胜，并建立了汉朝。",
+          "en": "Liu Bang ultimately won the Chu-Han Contention and established the Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "楚汉战争",
+      "target": "项羽",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-0202",
+        "description": {
+          "zh-cn": "项羽在楚汉战争中最终失败，于垓下被围，突围至乌江边自刎而死。",
+          "en": "Xiang Yu was ultimately defeated in the Chu-Han Contention, surrounded at Gaixia, and committed suicide at the Wu River after a failed breakout."
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "项羽",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0207",
+        "end_date": "-0202",
+        "description": {
+          "zh-cn": "刘邦和项羽是楚汉战争中争夺天下的两个主要对手。",
+          "en": "Liu Bang and Xiang Yu were the two main adversaries contending for supremacy over China during the Chu-Han Contention."
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "汉朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-0202",
+        "description": {
+          "zh-cn": "刘邦在赢得楚汉战争后，建立了汉朝。",
+          "en": "After winning the Chu-Han Contention, Liu Bang founded the Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "项羽",
+      "target": "西楚",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-0206-03",
+        "description": {
+          "zh-cn": "项羽在分封十八路诸侯时，自立为西楚霸王，建立西楚政权。",
+          "en": "When enfeoffing the eighteen vassal kings, Xiang Yu established himself as the Hegemon-King of Western Chu, founding the Western Chu state."
+        }
+      }
+    },
+    {
+      "source": "秦末民变",
+      "target": "秦朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0209",
+        "end_date": "-0207",
+        "description": {
+          "zh-cn": "秦末民变导致了秦朝的最终灭亡。",
+          "en": "The uprisings at the end of the Qin dynasty led to its final collapse."
+        }
+      }
+    },
+    {
+      "source": "秦末民变",
+      "target": "楚汉战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "秦朝的灭亡造成了权力真空，直接引发了各路诸侯之间的楚汉战争。",
+          "en": "The fall of the Qin dynasty created a power vacuum, directly leading to the Chu-Han Contention among the various lords."
+        }
+      }
+    },
+    {
+      "source": "韩信",
+      "target": "刘邦",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "-0206",
+        "position": {
+          "zh-cn": "大将军",
+          "en": "Grand General"
+        },
+        "description": {
+          "zh-cn": "韩信原在项羽军中，后逃亡归汉，经萧何力荐，被刘邦拜为大将军，统领三军。",
+          "en": "Han Xin originally served in Xiang Yu's army, then fled and joined Han. Upon Xiao He's strong recommendation, Liu Bang appointed him as the Grand General, commanding all Han forces."
+        }
+      }
+    },
+    {
+      "source": "张良",
+      "target": "刘邦",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "谋士",
+          "en": "Advisor"
+        },
+        "description": {
+          "zh-cn": "张良是刘邦在楚汉战争期间最重要的谋士。",
+          "en": "Zhang Liang was Liu Bang's most important advisor during the Chu-Han Contention."
+        }
+      }
+    },
+    {
+      "source": "范增",
+      "target": "项羽",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "-0204",
+        "position": {
+          "zh-cn": "谋士 (亚父)",
+          "en": "Advisor (Second Father)"
+        },
+        "description": {
+          "zh-cn": "范增是项羽最重要的谋士，被尊称为“亚父”。后因陈平反间计而与项羽失和离去。",
+          "en": "Fan Zeng was Xiang Yu's most important advisor, respectfully addressed as 'Second Father'. He left after a falling out with Xiang Yu caused by Chen Ping's stratagem."
+        }
+      }
+    },
+    {
+      "source": "项羽",
+      "target": "熊心",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0206",
+        "description": {
+          "zh-cn": "项羽在尊熊心为义帝后，不久便派英布等人将其刺杀。",
+          "en": "Shortly after honoring Xiong Xin as Emperor Yi, Xiang Yu dispatched Ying Bu and others to assassinate him."
+        }
+      }
+    },
+    {
+      "source": "项羽",
+      "target": "宋义",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0207",
+        "description": {
+          "zh-cn": "在奉命北上救赵途中，项羽因宋义逗留不前，以贻误战机为名将其杀死，夺得军权。",
+          "en": "On the march north to rescue Zhao, Xiang Yu killed Song Yi for halting the army's advance, citing military malpractice, and seized command of the army."
+        }
+      }
+    },
+    {
+      "source": "巨鹿之战",
+      "target": "项羽",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0207",
+        "description": {
+          "zh-cn": "巨鹿之战的胜利确立了项羽在各路反秦诸侯中的领袖地位。",
+          "en": "The victory at the Battle of Julu established Xiang Yu's leadership status among the anti-Qin rebel lords."
+        }
+      }
+    },
+    {
+      "source": "巨鹿之战",
+      "target": "章邯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0207",
+        "description": {
+          "zh-cn": "在巨鹿之战中，章邯率领的秦军主力被项羽击败，最终被迫投降。",
+          "en": "At the Battle of Julu, the main Qin army led by Zhang Han was defeated by Xiang Yu, eventually forcing him to surrender."
+        }
+      }
+    },
+    {
+      "source": "彭城之战",
+      "target": "项羽",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0205-04",
+        "description": {
+          "zh-cn": "项羽在彭城之战中以三万精兵大破刘邦五十六万联军，是其军事生涯的巅峰之作。",
+          "en": "Xiang Yu's defeat of Liu Bang's 560,000-strong coalition with just 30,000 elite troops at the Battle of Pengcheng was a pinnacle of his military career."
+        }
+      }
+    },
+    {
+      "source": "彭城之战",
+      "target": "刘邦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0205-04",
+        "description": {
+          "zh-cn": "刘邦在彭城之战中遭遇惨败，其家人被楚军俘虏，诸侯纷纷背汉归楚。",
+          "en": "Liu Bang suffered a disastrous defeat at the Battle of Pengcheng; his family was captured by the Chu army, and many vassals defected back to Chu."
+        }
+      }
+    },
+    {
+      "source": "垓下之战",
+      "target": "项羽",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0202-12",
+        "description": {
+          "zh-cn": "垓下之战是楚汉战争的终结，项羽兵败被围，最终自刎。",
+          "en": "The Battle of Gaixia marked the end of the Chu-Han Contention, where Xiang Yu was defeated, surrounded, and ultimately committed suicide."
+        }
+      }
+    },
+    {
+      "source": "英布",
+      "target": "项羽",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0205",
+        "description": {
+          "zh-cn": "原为项羽部将的九江王英布，在随何劝说下叛楚归汉，成为项羽的敌人。",
+          "en": "Ying Bu, King of Jiujiang and formerly a general under Xiang Yu, defected to Han after being persuaded by Sui He, becoming an enemy of Xiang Yu."
+        }
+      }
+    },
+    {
+      "source": "韩信",
+      "target": "龙且",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0204-11",
+        "description": {
+          "zh-cn": "在潍水之战中，韩信率领的汉军击败了前来援齐的龙且部队，并将其斩杀。",
+          "en": "At the Battle of Wei River, the Han army led by Han Xin defeated and killed Long Qie, who was leading Chu reinforcements to aid Qi."
+        }
+      }
+    },
+    {
+      "source": "陈平 (汉朝)",
+      "target": "范增",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0204",
+        "description": {
+          "zh-cn": "陈平使用反间计，成功使项羽猜忌范增，导致范增辞归，最终病死途中，为刘邦清除了一个重要障碍。",
+          "en": "Chen Ping used a stratagem to successfully make Xiang Yu suspicious of Fan Zeng, which led to Fan Zeng's resignation and subsequent death, removing a major obstacle for Liu Bang."
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "章邯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0206",
+        "end_date": "-0205",
+        "description": {
+          "zh-cn": "刘邦还定三秦时，击败章邯，将其围困于废丘，章邯最终自杀。",
+          "en": "When Liu Bang conquered the Three Qins, he defeated Zhang Han and besieged him in Feiqiu, leading to Zhang Han's suicide."
+        }
+      }
+    }
+  ]
+}

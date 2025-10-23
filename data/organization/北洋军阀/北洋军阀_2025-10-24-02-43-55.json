@@ -1,0 +1,1293 @@
+{
+  "nodes": [
+    {
+      "id": "北洋军阀",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋军阀"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1916 - 1928",
+        "location": {
+          "zh-cn": "中华民国",
+          "en": "Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华民国早期最重要的军阀势力之一，由袁世凯培植的北洋新军主要将领组成。袁世凯死后分裂为多个派系，形成军阀割据局面。",
+          "en": "One of the most important warlord factions in the early Republic of China, composed of the main generals of the Beiyang New Army cultivated by Yuan Shikai. After Yuan's death in 1916, it split into several cliques, leading to a period of warlordism."
+        }
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国"
+        ],
+        "en": [
+          "Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "袁世凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁世凯"
+        ],
+        "en": [
+          "Yuan Shikai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1859-09-16 - 1916-06-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国早期重要政治军事人物，北洋军的创始人。",
+          "en": "An important political and military figure in the early Republic of China, founder of the Beiyang Army."
+        }
+      }
+    },
+    {
+      "id": "北洋军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋军",
+          "北洋新军"
+        ],
+        "en": [
+          "Beiyang Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清末民初的一支重要军事力量，其正式名称为新建陆军，是北洋军阀的前身。",
+          "en": "An important military force in the late Qing Dynasty and early Republic of China, formally known as the Newly Created Army, and the predecessor to the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "北洋政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋政府",
+          "北洋军阀政府"
+        ],
+        "en": [
+          "Beiyang Government"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1928",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中华民国1912年至1928年间设于北京的中央政府，在袁世凯去世后实际上由北洋军阀各派系所控制。",
+          "en": "The central government of the Republic of China based in Beijing from 1912 to 1928. After Yuan Shikai's death, it was effectively controlled by various factions of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "新军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新军",
+          "新建陆军"
+        ],
+        "en": [
+          "New Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝末年建立的新式陆军，北洋军的前身是其中的新建陆军，原名定武军。",
+          "en": "The modernized army established in the late Qing Dynasty. The Beiyang Army originated from the Newly Created Army branch, which was formerly known as the Dingwu Army."
+        }
+      }
+    },
+    {
+      "id": "定武军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "定武军"
+        ],
+        "en": [
+          "Dingwu Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "新建陆军（北洋军）的原名。",
+          "en": "The original name of the Newly Created Army (Beiyang Army)."
+        }
+      }
+    },
+    {
+      "id": "北洋武备学堂",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋武备学堂"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清末的军事学校，为北洋新军培养了大量军官。",
+          "en": "A military academy in the late Qing Dynasty that trained a large number of officers for the Beiyang New Army."
+        }
+      }
+    },
+    {
+      "id": "淮军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "淮军"
+        ],
+        "en": [
+          "Huai Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "晚清的一支地方军队，其旧部成为北洋新军军官的来源之一。",
+          "en": "A regional army in the late Qing Dynasty, whose former members were one of the sources of officers for the Beiyang New Army."
+        }
+      }
+    },
+    {
+      "id": "直系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "直系"
+        ],
+        "en": [
+          "Zhili clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北洋军阀的主要派系之一，由冯国璋领导，受英美两国支持。",
+          "en": "One of the main factions of the Beiyang Warlords, led by Feng Guozhang and supported by the United Kingdom and the United States."
+        }
+      }
+    },
+    {
+      "id": "皖系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "皖系"
+        ],
+        "en": [
+          "Anhui clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北洋军阀的主要派系之一，由段祺瑞领导，受日本支持。",
+          "en": "One of the main factions of the Beiyang Warlords, led by Duan Qirui and supported by Japan."
+        }
+      }
+    },
+    {
+      "id": "奉系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奉系"
+        ],
+        "en": [
+          "Fengtian clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北洋军阀的主要派系之一，由张作霖领导，受日本支持。",
+          "en": "One of the main factions of the Beiyang Warlords, led by Zhang Zuolin and supported by Japan."
+        }
+      }
+    },
+    {
+      "id": "晋系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "晋系"
+        ],
+        "en": [
+          "Jin clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "民国时期的军阀派系，由阎锡山领导，受日本支持。",
+          "en": "A warlord clique during the Republican era, led by Yan Xishan and supported by Japan."
+        }
+      }
+    },
+    {
+      "id": "西北军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西北军",
+          "西北系"
+        ],
+        "en": [
+          "Northwest Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "民国时期的军阀派系，由冯玉祥领导，受苏联支持。",
+          "en": "A warlord clique during the Republican era, led by Feng Yuxiang and supported by the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "粤系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "粤系"
+        ],
+        "en": [
+          "Yue clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "民国时期的军阀派系，主要势力范围在广东地区，受苏联支持。",
+          "en": "A warlord clique during the Republican era, with its main sphere of influence in the Guangdong region, supported by the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "冯国璋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯国璋"
+        ],
+        "en": [
+          "Feng Guozhang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，北洋军阀直系的代表人物。",
+          "en": "A military and political figure of the Republic of China, representative of the Zhili clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "曹锟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹锟"
+        ],
+        "en": [
+          "Cao Kun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，北洋军阀直系的代表人物。",
+          "en": "A military and political figure of the Republic of China, representative of the Zhili clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "吴佩孚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴佩孚"
+        ],
+        "en": [
+          "Wu Peifu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事人物，北洋军阀直系的代表人物。",
+          "en": "A military figure of the Republic of China, representative of the Zhili clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "齐燮元",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "齐燮元"
+        ],
+        "en": [
+          "Qi Xieyuan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事人物，北洋军阀直系的代表人物。",
+          "en": "A military figure of the Republic of China, representative of the Zhili clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "孙传芳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙传芳"
+        ],
+        "en": [
+          "Sun Chuanfang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事人物，北洋军阀直系的代表人物。",
+          "en": "A military figure of the Republic of China, representative of the Zhili clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "段祺瑞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "段祺瑞"
+        ],
+        "en": [
+          "Duan Qirui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，北洋军阀皖系的代表人物。",
+          "en": "A military and political figure of the Republic of China, representative of the Anhui clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "徐树铮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐树铮"
+        ],
+        "en": [
+          "Xu Shuzheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，北洋军阀皖系的重要人物。",
+          "en": "A military and political figure of the Republic of China, an important member of the Anhui clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "卢永祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卢永祥"
+        ],
+        "en": [
+          "Lu Yongxiang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事人物，北洋军阀皖系的代表人物。",
+          "en": "A military figure of the Republic of China, representative of the Anhui clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "张作霖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张作霖"
+        ],
+        "en": [
+          "Zhang Zuolin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，北洋军阀奉系的代表人物。",
+          "en": "A military and political figure of the Republic of China, representative of the Fengtian clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Zhang Xueliang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，北洋军阀奉系的代表人物，张作霖之子。",
+          "en": "A military and political figure of the Republic of China, representative of the Fengtian clique of the Beiyang Warlords, son of Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "id": "张宗昌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张宗昌"
+        ],
+        "en": [
+          "Zhang Zongchang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事人物，北洋军阀奉系的代表人物。",
+          "en": "A military figure of the Republic of China, representative of the Fengtian clique of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "id": "阎锡山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阎锡山"
+        ],
+        "en": [
+          "Yan Xishan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，晋系军阀的代表人物。",
+          "en": "A military and political figure of the Republic of China, representative of the Jin clique."
+        }
+      }
+    },
+    {
+      "id": "冯玉祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯玉祥"
+        ],
+        "en": [
+          "Feng Yuxiang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，西北军的代表人物。",
+          "en": "A military and political figure of the Republic of China, representative of the Northwest Army."
+        }
+      }
+    },
+    {
+      "id": "陈炯明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈炯明"
+        ],
+        "en": [
+          "Chen Jiongming"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，粤系军阀的代表人物。",
+          "en": "A military and political figure of the Republic of China, representative of the Yue clique."
+        }
+      }
+    },
+    {
+      "id": "龙济光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "龙济光"
+        ],
+        "en": [
+          "Long Jiguang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事人物，粤系军阀的代表人物。",
+          "en": "A military figure of the Republic of China, representative of the Yue clique."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "直隶",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "直隶"
+        ],
+        "en": [
+          "Zhili"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "河南",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河南"
+        ],
+        "en": [
+          "Henan"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "湖北",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖北"
+        ],
+        "en": [
+          "Hubei"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "江西",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江西"
+        ],
+        "en": [
+          "Jiangxi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "江苏",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江苏"
+        ],
+        "en": [
+          "Jiangsu"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "安徽",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "安徽"
+        ],
+        "en": [
+          "Anhui"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "浙江",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江"
+        ],
+        "en": [
+          "Zhejiang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "山东",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山东"
+        ],
+        "en": [
+          "Shandong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "福建",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "福建"
+        ],
+        "en": [
+          "Fujian"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "陕西",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "陕西"
+        ],
+        "en": [
+          "Shaanxi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "辽宁省 (中华民国)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "辽宁省 (中华民国)",
+          "奉天"
+        ],
+        "en": [
+          "Liaoning Province (Republic of China)",
+          "Fengtian"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "黑龙江",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "黑龙江"
+        ],
+        "en": [
+          "Heilongjiang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "吉林",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "吉林"
+        ],
+        "en": [
+          "Jilin"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "山西",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山西"
+        ],
+        "en": [
+          "Shanxi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国西北地区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中国西北地区",
+          "西北地区"
+        ],
+        "en": [
+          "Northwest China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "广东",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广东"
+        ],
+        "en": [
+          "Guangdong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "海南",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "海南"
+        ],
+        "en": [
+          "Hainan"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第一次直奉战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次直奉战争"
+        ],
+        "en": [
+          "First Zhili–Fengtian War"
+        ]
+      },
+      "properties": {
+        "period": "1922-04-29 - 1922-05-05"
+      }
+    },
+    {
+      "id": "杨荫杭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨荫杭"
+        ],
+        "en": [
+          "Yang Yinhang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国法学家、翻译家，在《申报》发表时评《北洋正统》表达了对北洋军阀的唾弃。",
+          "en": "A Chinese jurist and translator who published a commentary titled 'Beiyang Orthodoxy' in Shen Bao, expressing disdain for the Beiyang warlords."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "袁世凯",
+      "target": "北洋军",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "袁世凯培植了北洋新军（北洋军）。",
+          "en": "Yuan Shikai cultivated the Beiyang New Army (Beiyang Army)."
+        }
+      }
+    },
+    {
+      "source": "北洋军",
+      "target": "北洋军阀",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "北洋军阀由北洋新军（北洋军）的主要将领组成。",
+          "en": "The Beiyang Warlords were composed of the main generals of the Beiyang New Army (Beiyang Army)."
+        }
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "新军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "督办",
+          "en": "Supervisor"
+        },
+        "description": {
+          "zh-cn": "袁世凯担任新建陆军（新军）的督办。",
+          "en": "Yuan Shikai served as the supervisor of the Newly Created Army (New Army)."
+        }
+      }
+    },
+    {
+      "source": "北洋武备学堂",
+      "target": "新军",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "北洋武备学堂的毕业生是新建陆军（新军）的主要军官来源之一。",
+          "en": "Graduates from the Beiyang Military Academy were one of the main sources of officers for the Newly Created Army (New Army)."
+        }
+      }
+    },
+    {
+      "source": "淮军",
+      "target": "新军",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "淮军的旧部是新建陆军（新军）的主要军官来源之一。",
+          "en": "Former members of the Huai Army were one of the main sources of officers for the Newly Created Army (New Army)."
+        }
+      }
+    },
+    {
+      "source": "北洋军阀",
+      "target": "北洋政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "北洋军阀在名义上接受北京政府的支配。",
+          "en": "The Beiyang Warlords nominally accepted the authority of the Beijing Government."
+        }
+      }
+    },
+    {
+      "source": "北洋军阀",
+      "target": "北洋政府",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "北京政权实际上由北洋军阀中的不同派系所控制。",
+          "en": "The Beijing government was actually controlled by various factions within the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "source": "直系",
+      "target": "北洋军阀",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "直系是北洋军阀的主要派系之一。",
+          "en": "The Zhili clique was one of the main factions of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "source": "皖系",
+      "target": "北洋军阀",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "皖系是北洋军阀的主要派系之一。",
+          "en": "The Anhui clique was one of the main factions of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "source": "奉系",
+      "target": "北洋军阀",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "奉系是北洋军阀的主要派系之一。",
+          "en": "The Fengtian clique was one of the main factions of the Beiyang Warlords."
+        }
+      }
+    },
+    {
+      "source": "冯国璋",
+      "target": "直系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "曹锟",
+      "target": "直系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "吴佩孚",
+      "target": "直系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "齐燮元",
+      "target": "直系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "孙传芳",
+      "target": "直系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "段祺瑞",
+      "target": "皖系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "徐树铮",
+      "target": "皖系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "卢永祥",
+      "target": "皖系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "奉系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "奉系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "张宗昌",
+      "target": "奉系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "阎锡山",
+      "target": "晋系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "西北军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "陈炯明",
+      "target": "粤系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "龙济光",
+      "target": "粤系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "直系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "美国扶植直系军阀。",
+          "en": "The United States supported the Zhili clique."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "直系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "英国扶植直系军阀。",
+          "en": "The United Kingdom supported the Zhili clique."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "皖系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "日本扶植皖系军阀。",
+          "en": "Japan supported the Anhui clique."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "奉系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "日本扶植奉系军阀。",
+          "en": "Japan supported the Fengtian clique."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "晋系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "日本扶植晋系军阀。",
+          "en": "Japan supported the Jin clique."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "西北军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1923",
+        "description": {
+          "zh-cn": "苏联自1923年起扶植西北军。",
+          "en": "The Soviet Union supported the Northwest Army starting from 1923."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "粤系",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1923",
+        "description": {
+          "zh-cn": "苏联自1923年起扶植粤系军阀。",
+          "en": "The Soviet Union supported the Yue clique starting from 1923."
+        }
+      }
+    },
+    {
+      "source": "直系",
+      "target": "皖系",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "直系与皖系军阀之间曾爆发直皖战争。",
+          "en": "The Zhili-Anhui War broke out between the Zhili and Anhui cliques."
+        }
+      }
+    },
+    {
+      "source": "直系",
+      "target": "奉系",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "直系与奉系军阀之间曾爆发直奉战争。",
+          "en": "The Zhili-Fengtian War broke out between the Zhili and Fengtian cliques."
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "徐树铮",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "冯玉祥使用暗杀的手段除去了皖系重要人物徐树铮。",
+          "en": "Feng Yuxiang eliminated Xu Shuzheng, an important figure of the Anhui clique, by assassination."
+        }
+      }
+    },
+    {
+      "source": "第一次直奉战争",
+      "target": "杨荫杭",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1922-05",
+        "description": {
+          "zh-cn": "第一次直奉战争结束后，杨荫杭发表时评《北洋正统》表达对北洋的唾弃。",
+          "en": "After the end of the First Zhili-Fengtian War, Yang Yinhang published a commentary 'Beiyang Orthodoxy' to express his disdain for the Beiyang establishment."
+        }
+      }
+    },
+    {
+      "source": "杨荫杭",
+      "target": "北洋军阀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1922-05-29",
+        "description": {
+          "zh-cn": "杨荫杭发表时评《北洋正统》，表达了时人对于北洋军阀的普遍唾弃，主张绝口不谈北洋二字。",
+          "en": "Yang Yinhang published the commentary 'Beiyang Orthodoxy', expressing the general contemporary disdain for the Beiyang Warlords and advocating for abandoning the 'Beiyang' name."
+        }
+      }
+    }
+  ]
+}
