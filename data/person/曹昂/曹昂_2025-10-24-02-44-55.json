@@ -1,0 +1,575 @@
+{
+  "nodes": [
+    {
+      "id": "曹昂",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹昂",
+          "子修",
+          "丰悼公",
+          "丰悼王",
+          "丰愍王"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 197",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "沛国谯县",
+          "en": "Qiao County, Pei Kingdom"
+        },
+        "death_place": {
+          "zh-cn": "穰县",
+          "en": "Rang County"
+        },
+        "description": {
+          "zh-cn": "曹操的长子，生母为刘夫人，由嫡母丁夫人抚养成人。二十岁时举为孝廉。后在曹操征伐张绣的宛城之战中，为救父亲而阵亡。",
+          "en": "The eldest son of Cao Cao. His birth mother was Lady Liu, and he was raised by his adoptive mother, Lady Ding. At the age of twenty, he was nominated as Xiaolian. He was killed in the Battle of Wancheng while saving his father during the campaign against Zhang Xiu."
+        }
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操"
+        ],
+        "en": [
+          "Cao Cao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年权臣，曹魏政权的奠基者，曹昂的父亲。",
+          "en": "A warlord in the late Eastern Han dynasty who laid the foundation for the state of Cao Wei. He was the father of Cao Ang."
+        }
+      }
+    },
+    {
+      "id": "刘夫人 (曹操)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘夫人 (曹操)"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "曹操的妾室，曹昂、曹铄和清河公主的生母，因病早逝。",
+          "en": "A concubine of Cao Cao, and the birth mother of Cao Ang, Cao Shuo, and Princess Qinghe. She died early from illness."
+        }
+      }
+    },
+    {
+      "id": "丁夫人 (曹操)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丁夫人 (曹操)"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "曹操的原配正室，曹昂的养母。因曹昂之死而与曹操反目并最终决裂。",
+          "en": "Cao Cao's first official wife and Cao Ang's adoptive mother. She turned against and eventually broke with Cao Cao over the death of Cao Ang."
+        }
+      }
+    },
+    {
+      "id": "张绣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张绣"
+        ],
+        "en": [
+          "Zhang Xiu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀。曾一度投降曹操，后因曹操纳其婶母而发动叛乱，在宛城之战中击败曹操。",
+          "en": "A warlord in the late Eastern Han dynasty. He initially surrendered to Cao Cao but later rebelled after Cao Cao took his aunt as a concubine, defeating Cao Cao's forces at the Battle of Wancheng."
+        }
+      }
+    },
+    {
+      "id": "曹操与张绣的战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "曹操与张绣的战争",
+          "征战宛城"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "197 - 197",
+        "description": {
+          "zh-cn": "建安二年（197年），曹操征讨张绣时发生的战役。张绣先降后叛，曹操军大败，长子曹昂、侄子曹安民、大将典韦在此战中阵亡。",
+          "en": "A battle that took place in 197 AD during Cao Cao's campaign against Zhang Xiu. Zhang Xiu surrendered and then rebelled, leading to a major defeat for Cao Cao's army, in which his eldest son Cao Ang, his nephew Cao Anmin, and general Dian Wei were killed."
+        }
+      }
+    },
+    {
+      "id": "典韦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "典韦"
+        ],
+        "en": [
+          "Dian Wei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹操的近身侍卫，为保护曹操在宛城之战中负责断后，力战而死。",
+          "en": "Cao Cao's personal bodyguard who was killed in the Battle of Wancheng while covering the rear to protect Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "曹安民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹安民"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹操的侄子，在宛城之战中与曹昂、典韦一同战死。",
+          "en": "Cao Cao's nephew who was killed alongside Cao Ang and Dian Wei in the Battle of Wancheng."
+        }
+      }
+    },
+    {
+      "id": "曹丕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹丕"
+        ],
+        "en": [
+          "Cao Pi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹操的儿子，曹昂的异母弟，曹魏的开国皇帝。他称帝后追尊曹昂为王。",
+          "en": "A son of Cao Cao and half-brother of Cao Ang. He was the founding emperor of the state of Cao Wei. After ascending to the throne, he posthumously honored Cao Ang as a king."
+        }
+      }
+    },
+    {
+      "id": "曹叡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹叡"
+        ],
+        "en": [
+          "Cao Rui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹丕之子，曹魏第二位皇帝，曹昂的侄子。他继位后改谥曹昂为丰愍王。",
+          "en": "The son of Cao Pi and the second emperor of Cao Wei, and the nephew of Cao Ang. After ascending the throne, he changed Cao Ang's posthumous title to King Min of Feng."
+        }
+      }
+    },
+    {
+      "id": "曹铄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹铄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹昂的同母弟，早逝。",
+          "en": "The full younger brother of Cao Ang, who died young."
+        }
+      }
+    },
+    {
+      "id": "清河公主 (曹魏)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "清河公主 (曹魏)",
+          "清河长公主"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "曹昂的同母妹，曹操的长女。",
+          "en": "The full younger sister of Cao Ang and the eldest daughter of Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "曹琬",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹琬"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹均之子，后被过继给伯父曹昂作为继子，以承袭其爵位。",
+          "en": "The son of Cao Jun, who was later adopted by his uncle Cao Ang as an heir to inherit his title."
+        }
+      }
+    },
+    {
+      "id": "曹均",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹均"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹操之子，曹昂的异母弟，曹琬的生父。",
+          "en": "A son of Cao Cao, half-brother of Cao Ang, and the biological father of Cao Wan."
+        }
+      }
+    },
+    {
+      "id": "东汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东汉"
+        ],
+        "en": [
+          "Eastern Han"
+        ]
+      },
+      "properties": {
+        "period": "25 - 220",
+        "description": {
+          "zh-cn": "中国历史上的一个朝代，曹昂在此期间生活并被举为孝廉。",
+          "en": "A dynasty in Chinese history during which Cao Ang lived and was nominated as Xiaolian."
+        }
+      }
+    },
+    {
+      "id": "谯县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "谯县",
+          "沛国谯县"
+        ],
+        "en": [
+          "Qiao County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "穰县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "穰县"
+        ],
+        "en": [
+          "Rang County"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "曹昂",
+      "target": "曹操",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曹昂是曹操的长子。",
+          "en": "Cao Ang was the eldest son of Cao Cao."
+        }
+      }
+    },
+    {
+      "source": "曹昂",
+      "target": "刘夫人 (曹操)",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘夫人是曹昂的生母。",
+          "en": "Lady Liu was the birth mother of Cao Ang."
+        }
+      }
+    },
+    {
+      "source": "曹昂",
+      "target": "丁夫人 (曹操)",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "丁夫人是曹昂的嫡母（养母），在曹昂生母刘夫人早逝后将其抚养成人。",
+          "en": "Lady Ding was Cao Ang's official mother (adoptive mother), who raised him after his birth mother Lady Liu's early death."
+        }
+      }
+    },
+    {
+      "source": "曹操",
+      "target": "丁夫人 (曹操)",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "丁夫人是曹操的原配正室。",
+          "en": "Lady Ding was Cao Cao's first official wife."
+        }
+      }
+    },
+    {
+      "source": "曹操",
+      "target": "刘夫人 (曹操)",
+      "type": "LOVER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘夫人是曹操的妾室。",
+          "en": "Lady Liu was a concubine of Cao Cao."
+        }
+      }
+    },
+    {
+      "source": "丁夫人 (曹操)",
+      "target": "曹操",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "197",
+        "description": {
+          "zh-cn": "因曹昂在宛城战死，丁夫人将责任归咎于曹操，与他反目并最终决裂。",
+          "en": "Because Cao Ang died in the Battle of Wancheng, Lady Ding blamed Cao Cao, turned against him, and eventually broke off the relationship."
+        }
+      }
+    },
+    {
+      "source": "曹昂",
+      "target": "曹铄",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曹铄是曹昂的同母弟。",
+          "en": "Cao Shuo was Cao Ang's full younger brother."
+        }
+      }
+    },
+    {
+      "source": "曹昂",
+      "target": "清河公主 (曹魏)",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "清河公主是曹昂的同母妹。",
+          "en": "Princess Qinghe was Cao Ang's full younger sister."
+        }
+      }
+    },
+    {
+      "source": "曹昂",
+      "target": "曹丕",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曹丕是曹昂的异母弟。",
+          "en": "Cao Pi was Cao Ang's younger half-brother."
+        }
+      }
+    },
+    {
+      "source": "曹琬",
+      "target": "曹昂",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "start_date": "222",
+        "description": {
+          "zh-cn": "曹琬是曹均之子，于黄初三年（222年）被过继给伯父曹昂作为继子，以承袭其爵位。",
+          "en": "Cao Wan, the son of Cao Jun, was adopted in 222 AD by his uncle Cao Ang as an heir to inherit his title."
+        }
+      }
+    },
+    {
+      "source": "曹琬",
+      "target": "曹均",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曹均是曹琬的生父。",
+          "en": "Cao Jun was the biological father of Cao Wan."
+        }
+      }
+    },
+    {
+      "source": "曹操与张绣的战争",
+      "target": "曹昂",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "197",
+        "description": {
+          "zh-cn": "曹昂在曹操与张绣的战争中为救其父而战死于宛城。",
+          "en": "Cao Ang was killed in the Battle of Wancheng while saving his father."
+        }
+      }
+    },
+    {
+      "source": "曹操与张绣的战争",
+      "target": "典韦",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "197",
+        "description": {
+          "zh-cn": "典韦在曹操与张绣的战争中为保护曹操撤退而战死。",
+          "en": "Dian Wei was killed in the Battle of Wancheng while covering Cao Cao's retreat."
+        }
+      }
+    },
+    {
+      "source": "曹操与张绣的战争",
+      "target": "曹安民",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "197",
+        "description": {
+          "zh-cn": "曹安民在曹操与张绣的战争中与曹昂、典韦一同战死。",
+          "en": "Cao Anmin was killed alongside Cao Ang and Dian Wei in the Battle of Wancheng."
+        }
+      }
+    },
+    {
+      "source": "张绣",
+      "target": "曹操与张绣的战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "197",
+        "description": {
+          "zh-cn": "张绣因曹操纳其婶母而感到被羞辱，发动夜间叛变，袭击曹操军营，从而引发了战斗。",
+          "en": "Feeling humiliated by Cao Cao taking his aunt as a concubine, Zhang Xiu launched a surprise night rebellion, attacking Cao Cao's camp and initiating the battle."
+        }
+      }
+    },
+    {
+      "source": "张绣",
+      "target": "曹操",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "197",
+        "description": {
+          "zh-cn": "张绣在宛城发动叛乱，与曹操军队交战。",
+          "en": "Zhang Xiu rebelled in Wancheng and engaged in battle with Cao Cao's forces."
+        }
+      }
+    },
+    {
+      "source": "曹昂",
+      "target": "曹操",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "197",
+        "description": {
+          "zh-cn": "在宛城之战中，曹昂将自己的坐骑让给被射伤的曹操，并步行保护其突围，使曹操得以幸免于难。",
+          "en": "During the Battle of Wancheng, Cao Ang gave his own horse to the wounded Cao Cao and protected him on foot during the breakout, allowing Cao Cao to escape."
+        }
+      }
+    },
+    {
+      "source": "典韦",
+      "target": "曹操",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "近身侍卫",
+          "en": "Personal Guard"
+        },
+        "description": {
+          "zh-cn": "典韦是曹操的近身侍卫。",
+          "en": "Dian Wei was Cao Cao's personal guard."
+        }
+      }
+    },
+    {
+      "source": "曹丕",
+      "target": "曹昂",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "221",
+        "description": {
+          "zh-cn": "曹丕称帝后，于黄初二年（221年）追尊曹昂为丰悼公，黄初五年（224年）追封为丰悼王，以示哀悼和尊崇。",
+          "en": "After becoming emperor, Cao Pi posthumously honored Cao Ang as Duke Dao of Feng in 221 AD and later as King Dao of Feng in 224 AD, to show mourning and respect."
+        }
+      }
+    },
+    {
+      "source": "曹叡",
+      "target": "曹昂",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "229",
+        "description": {
+          "zh-cn": "魏明帝曹叡继位后，于太和三年（229年）改谥曹昂为丰愍王。",
+          "en": "After ascending the throne, Emperor Ming of Wei, Cao Rui, changed Cao Ang's posthumous title to King Min of Feng in 229 AD."
+        }
+      }
+    },
+    {
+      "source": "曹昂",
+      "target": "东汉",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "孝廉",
+          "en": "Xiaolian"
+        },
+        "description": {
+          "zh-cn": "曹昂在二十岁时被举为孝廉，这是东汉的一种官吏选拔科目。",
+          "en": "At the age of twenty, Cao Ang was nominated as a Xiaolian, which was a category for official selection in the Eastern Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "曹昂",
+      "target": "谯县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "曹昂出生于沛国谯县。",
+          "en": "Cao Ang was born in Qiao County, Pei Kingdom."
+        }
+      }
+    }
+  ]
+}

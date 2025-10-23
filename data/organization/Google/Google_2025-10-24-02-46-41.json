@@ -1,0 +1,651 @@
+{
+  "nodes": [
+    {
+      "id": "Google",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google",
+          "谷歌",
+          "谷歌有限公司",
+          "美商科高国际有限公司"
+        ],
+        "en": [
+          "Google",
+          "Google LLC"
+        ]
+      },
+      "properties": {
+        "period": "1998-09-04 - ",
+        "location": {
+          "zh-cn": "美国加利福尼亚州山景城",
+          "en": "Mountain View, California, United States"
+        },
+        "description": {
+          "zh-cn": "总部位于美国的跨国科技公司，为Alphabet的子公司，业务范围涵盖互联网广告、互联网搜索、云计算等领域。",
+          "en": "An American multinational technology company, a subsidiary of Alphabet Inc., specializing in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."
+        }
+      }
+    },
+    {
+      "id": "拉里·佩奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "拉里·佩奇",
+          "赖瑞·佩吉",
+          "拉利·比治",
+          "劳伦斯·佩奇"
+        ],
+        "en": [
+          "Larry Page",
+          "Lawrence Page"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "Google联合创始人，曾在斯坦福大学攻读博士学位。2011年至2015年担任Google首席执行官。",
+          "en": "Co-founder of Google, who was a Ph.D. student at Stanford University. He served as the CEO of Google from 2011 to 2015."
+        }
+      }
+    },
+    {
+      "id": "谢尔盖·布林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢尔盖·布林",
+          "些奇·布林"
+        ],
+        "en": [
+          "Sergey Brin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "Google联合创始人，曾在斯坦福大学攻读博士学位。",
+          "en": "Co-founder of Google, who was a Ph.D. student at Stanford University."
+        }
+      }
+    },
+    {
+      "id": "Alphabet",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Alphabet",
+          "Alphabet Inc.",
+          "字母控股"
+        ],
+        "en": [
+          "Alphabet Inc.",
+          "Alphabet"
+        ]
+      },
+      "properties": {
+        "period": "2015-08-10 - ",
+        "description": {
+          "zh-cn": "Google于2015年重组后成立的控股母公司。",
+          "en": "The holding parent company established after Google's restructuring in 2015."
+        }
+      }
+    },
+    {
+      "id": "斯坦福大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "斯坦福大学",
+          "史丹佛大学",
+          "史丹福大学"
+        ],
+        "en": [
+          "Stanford University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于美国加州的一所私立研究型大学，Google的两位创始人曾在此攻读博士并开始他们的研究项目。",
+          "en": "A private research university in California, USA, where the two founders of Google pursued their Ph.D. studies and began their research project."
+        }
+      }
+    },
+    {
+      "id": "桑德尔·皮蔡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "桑德尔·皮蔡",
+          "桑达·皮采",
+          "桑达尔·皮查伊",
+          "孙达尔·皮柴"
+        ],
+        "en": [
+          "Sundar Pichai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "自2015年起担任Google的首席执行官。",
+          "en": "CEO of Google since 2015."
+        }
+      }
+    },
+    {
+      "id": "埃里克·施密特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "埃里克·施密特",
+          "艾力·施密特",
+          "艾立克·施密特"
+        ],
+        "en": [
+          "Eric Schmidt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任Google首席执行官及执行董事长。",
+          "en": "Former CEO and Executive Chairman of Google."
+        }
+      }
+    },
+    {
+      "id": "YouTube",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "YouTube"
+        ],
+        "en": [
+          "YouTube",
+          "YouTube LLC"
+        ]
+      },
+      "properties": {
+        "period": "2005-02 - ",
+        "description": {
+          "zh-cn": "全球最大的视频分享网站，于2006年被Google收购。",
+          "en": "The world's largest video-sharing website, acquired by Google in 2006."
+        }
+      }
+    },
+    {
+      "id": "Android",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Android"
+        ],
+        "en": [
+          "Android"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一款由Google主导开发的移动设备操作系统，于2005年被Google收购。",
+          "en": "A mobile operating system developed primarily by Google, acquired by Google in 2005."
+        }
+      }
+    },
+    {
+      "id": "摩托罗拉移动",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "摩托罗拉移动"
+        ],
+        "en": [
+          "Motorola Mobility"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家电信设备制造商，曾于2011年被Google收购。",
+          "en": "A telecommunications equipment manufacturer that was acquired by Google in 2011."
+        }
+      }
+    },
+    {
+      "id": "安迪·贝托尔斯海姆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安迪·贝托尔斯海姆"
+        ],
+        "en": [
+          "Andy Bechtolsheim"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "Sun Microsystems的联合创始人，Google项目最早的投资者之一。",
+          "en": "Co-founder of Sun Microsystems and one of the earliest investors in the Google project."
+        }
+      }
+    },
+    {
+      "id": "Sun Microsystems",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Sun Microsystems"
+        ],
+        "en": [
+          "Sun Microsystems"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家已解散的计算机公司，其联合创始人安迪·贝托尔斯海姆是Google的早期投资者。",
+          "en": "A defunct computer company whose co-founder, Andy Bechtolsheim, was an early investor in Google."
+        }
+      }
+    },
+    {
+      "id": "雅虎",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "雅虎"
+        ],
+        "en": [
+          "Yahoo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的互联网服务公司，是Google的竞争对手，也曾有过合作关系。",
+          "en": "An American web services provider, a competitor and former partner of Google."
+        }
+      }
+    },
+    {
+      "id": "Overture Services",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Overture Services"
+        ],
+        "en": [
+          "Overture Services"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "原名Goto.com，后被雅虎收购，曾就广告出售专利技术侵权指控Google。",
+          "en": "Formerly Goto.com, later acquired by Yahoo, it once accused Google of infringing its ad-selling patent."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国",
+          "中国大陆"
+        ],
+        "en": [
+          "People's Republic of China",
+          "China",
+          "Mainland China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由于其网络审查政策和黑客攻击，导致Google于2010年将其搜索服务移出中国大陆。",
+          "en": "Its internet censorship policies and alleged hacking attacks led Google to move its search service out of mainland China in 2010."
+        }
+      }
+    },
+    {
+      "id": "谷歌退出中国事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "谷歌退出中国事件"
+        ],
+        "en": [
+          "Google's withdrawal from China"
+        ]
+      },
+      "properties": {
+        "period": "2010-01-12 - 2010-03-23",
+        "description": {
+          "zh-cn": "指Google公司因内容审查及黑客攻击等原因，决定将其在中国大陆的搜索服务由北京转至香港的事件。",
+          "en": "Refers to the event where Google redirected its search services for mainland China from Beijing to Hong Kong due to censorship and hacking concerns."
+        }
+      }
+    },
+    {
+      "id": "谷歌中国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "谷歌中国"
+        ],
+        "en": [
+          "Google China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "Google公司在中华人民共和国的运营实体。其搜索服务于2010年停止运营并转至香港。",
+          "en": "The operating entity of Google in the People's Republic of China. Its search services ceased operations and were redirected to Hong Kong in 2010."
+        }
+      }
+    },
+    {
+      "id": "Google香港",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google香港"
+        ],
+        "en": [
+          "Google Hong Kong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "Google公司在香港的运营实体，自2010年起为中国大陆用户提供未经审查的搜索服务。",
+          "en": "The operating entity of Google in Hong Kong, which has provided uncensored search services to mainland China users since 2010."
+        }
+      }
+    },
+    {
+      "id": "防火长城",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "防火长城"
+        ],
+        "en": [
+          "Great Firewall of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府用于进行互联网审查和内容过滤的系统，常用于屏蔽Google的服务。",
+          "en": "A system of internet censorship and content filtering used by the government of the People's Republic of China, often used to block Google's services."
+        }
+      }
+    },
+    {
+      "id": "棱镜计划",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "棱镜计划"
+        ],
+        "en": [
+          "PRISM"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一项由美国国家安全局进行的数据监控计划，据报道Google曾参与其中。",
+          "en": "A data surveillance program conducted by the U.S. National Security Agency, in which Google was reportedly involved."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "拉里·佩奇",
+      "target": "Google",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1998-09-04",
+        "description": {
+          "zh-cn": "拉里·佩奇与谢尔盖·布林在斯坦福大学攻读博士期间共同创立了Google。",
+          "en": "Larry Page and Sergey Brin co-founded Google while they were Ph.D. students at Stanford University."
+        }
+      }
+    },
+    {
+      "source": "谢尔盖·布林",
+      "target": "Google",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1998-09-04",
+        "description": {
+          "zh-cn": "谢尔盖·布林与拉里·佩奇在斯坦福大学攻读博士期间共同创立了Google。",
+          "en": "Sergey Brin and Larry Page co-founded Google while they were Ph.D. students at Stanford University."
+        }
+      }
+    },
+    {
+      "source": "拉里·佩奇",
+      "target": "斯坦福大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "理学博士生",
+          "en": "Ph.D. student"
+        },
+        "description": {
+          "zh-cn": "拉里·佩奇在斯坦福大学攻读博士学位期间与谢尔盖·布林共同创立了Google。",
+          "en": "Larry Page co-founded Google with Sergey Brin while pursuing his Ph.D. at Stanford University."
+        }
+      }
+    },
+    {
+      "source": "谢尔盖·布林",
+      "target": "斯坦福大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "理学博士生",
+          "en": "Ph.D. student"
+        },
+        "description": {
+          "zh-cn": "谢尔盖·布林在斯坦福大学攻读博士学位期间与拉里·佩奇共同创立了Google。",
+          "en": "Sergey Brin co-founded Google with Larry Page while pursuing his Ph.D. at Stanford University."
+        }
+      }
+    },
+    {
+      "source": "Google",
+      "target": "Alphabet",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2015-08-10",
+        "description": {
+          "zh-cn": "在2015年的公司重组中，Google成为新成立的控股公司Alphabet旗下的子公司。",
+          "en": "In the 2015 corporate restructuring, Google became a subsidiary of the newly formed holding company, Alphabet Inc."
+        }
+      }
+    },
+    {
+      "source": "桑德尔·皮蔡",
+      "target": "Google",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-08-10",
+        "position": {
+          "zh-cn": "首席执行官",
+          "en": "Chief Executive Officer"
+        },
+        "description": {
+          "zh-cn": "在Alphabet成立后，桑德尔·皮蔡接任成为Google的首席执行官。",
+          "en": "After the formation of Alphabet, Sundar Pichai took over as the CEO of Google."
+        }
+      }
+    },
+    {
+      "source": "埃里克·施密特",
+      "target": "Google",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2011-04",
+        "position": {
+          "zh-cn": "首席执行官",
+          "en": "Chief Executive Officer"
+        },
+        "description": {
+          "zh-cn": "埃里克·施密特曾担任Google的首席执行官，后由拉里·佩奇接替。",
+          "en": "Eric Schmidt served as the CEO of Google and was succeeded by Larry Page."
+        }
+      }
+    },
+    {
+      "source": "拉里·佩奇",
+      "target": "Google",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2011-04",
+        "end_date": "2015-08",
+        "position": {
+          "zh-cn": "首席执行官",
+          "en": "Chief Executive Officer"
+        },
+        "description": {
+          "zh-cn": "2011年4月，拉里·佩奇接替埃里克·施密特担任Google首席执行官。",
+          "en": "In April 2011, Larry Page succeeded Eric Schmidt as the CEO of Google."
+        }
+      }
+    },
+    {
+      "source": "YouTube",
+      "target": "Google",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2006-10",
+        "description": {
+          "zh-cn": "2006年10月，Google以16.5亿美元的股票收购了在线视频分享网站YouTube。",
+          "en": "In October 2006, Google acquired the online video-sharing site YouTube for $1.65 billion in stock."
+        }
+      }
+    },
+    {
+      "source": "Android",
+      "target": "Google",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2005",
+        "description": {
+          "zh-cn": "2005年，Google收购了移动设备操作系统开发公司Android。",
+          "en": "In 2005, Google acquired Android, a mobile operating system development company."
+        }
+      }
+    },
+    {
+      "source": "摩托罗拉移动",
+      "target": "Google",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2011-08-15",
+        "description": {
+          "zh-cn": "2011年8月15日，Google宣布以约125亿美元收购摩托罗拉移动。",
+          "en": "On August 15, 2011, Google announced its acquisition of Motorola Mobility for approximately $12.5 billion."
+        }
+      }
+    },
+    {
+      "source": "安迪·贝托尔斯海姆",
+      "target": "Google",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1998-08",
+        "description": {
+          "zh-cn": "Sun Microsystems的联合创始人安迪·贝托尔斯海姆向尚未成立的Google公司提供了十万美元的早期投资。",
+          "en": "Andy Bechtolsheim, co-founder of Sun Microsystems, provided an early investment of $100,000 to the yet-to-be-incorporated Google."
+        }
+      }
+    },
+    {
+      "source": "Overture Services",
+      "target": "Google",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "2003",
+        "description": {
+          "zh-cn": "Overture Services（后被雅虎收购）曾就广告出售专利技术侵权指控Google，最终双方庭外和解。",
+          "en": "Overture Services (later acquired by Yahoo) accused Google of infringing its ad-selling patent, and the two parties eventually settled out of court."
+        }
+      }
+    },
+    {
+      "source": "雅虎",
+      "target": "Google",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2008-06",
+        "end_date": "2008-11",
+        "description": {
+          "zh-cn": "Google曾与雅虎达成广告协议，允许雅虎在其网站页面上显示Google广告，但该协议后因反垄断审查而撤销。",
+          "en": "Google had an advertising agreement with Yahoo to display Google ads on Yahoo's pages, but the deal was later withdrawn due to antitrust scrutiny."
+        }
+      }
+    },
+    {
+      "source": "谷歌退出中国事件",
+      "target": "谷歌中国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2010-03-23",
+        "description": {
+          "zh-cn": "由于内容审查和黑客攻击，Google将其在中国大陆的搜索服务从谷歌中国重定向至Google香港， фактически прекратив поисковую деятельность на материке。",
+          "en": "Due to censorship and hacking attacks, Google redirected its search services in mainland China from Google China to Google Hong Kong, effectively ceasing search operations on the mainland."
+        }
+      }
+    },
+    {
+      "source": "谷歌退出中国事件",
+      "target": "Google香港",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2010-03-23",
+        "description": {
+          "zh-cn": "谷歌退出中国大陆事件导致Google香港开始为中国大陆用户提供未经审查的搜索服务。",
+          "en": "The withdrawal of Google from mainland China led Google Hong Kong to begin providing uncensored search services to users from mainland China."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "Google",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2010-03-23",
+        "description": {
+          "zh-cn": "由于中华人民共和国政府的网络审查政策，Google将其搜索服务移出中国大陆，此后Google的服务在中国大陆持续受到防火长城的干扰和屏蔽。",
+          "en": "Due to the Chinese government's internet censorship policies, Google moved its search services out of mainland China. Since then, Google's services have been continuously interfered with and blocked by the Great Firewall in mainland China."
+        }
+      }
+    },
+    {
+      "source": "防火长城",
+      "target": "Google",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "2010-03-23 - ",
+        "description": {
+          "zh-cn": "自Google搜索服务迁移至香港后，防火长城便时常对Google香港域名进行关键词过滤和全站屏蔽。",
+          "en": "Since Google's search service was moved to Hong Kong, the Great Firewall has frequently subjected the Google Hong Kong domain to keyword filtering and site-wide blocking."
+        }
+      }
+    },
+    {
+      "source": "棱镜计划",
+      "target": "Google",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2013-06",
+        "description": {
+          "zh-cn": "Google被指控参与美国国家安全局的“棱镜计划”，向政府提供用户数据，引发了全球范围内的隐私担忧。",
+          "en": "Google was accused of participating in the U.S. National Security Agency's PRISM program by providing user data to the government, sparking global privacy concerns."
+        }
+      }
+    }
+  ]
+}

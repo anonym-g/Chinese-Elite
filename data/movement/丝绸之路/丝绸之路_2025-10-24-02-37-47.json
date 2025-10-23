@@ -1,0 +1,553 @@
+{
+  "nodes": [
+    {
+      "id": "丝绸之路",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "丝绸之路",
+          "丝路"
+        ],
+        "en": [
+          "Silk Road"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "广义上指从上古开始陆续形成的，遍及欧亚大陆、北非和东非的长途商业贸易和文化交流线路的总称。因西运货物中以丝绸制品影响最大而得名。",
+          "en": "In a broad sense, refers to the general term for long-distance commercial trade and cultural exchange routes that were successively formed since ancient times, spanning Eurasia, North Africa, and East Africa. It is named after silk, as silk products were the most influential goods transported westward."
+        }
+      }
+    },
+    {
+      "id": "费迪南·冯·李希霍芬",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "费迪南·冯·李希霍芬"
+        ],
+        "en": [
+          "Ferdinand von Richthofen"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德意志帝国地理学家，于1877年首次提出“丝绸之路”的概念。",
+          "en": "A German geographer who first coined the term 'Silk Road' in 1877."
+        }
+      }
+    },
+    {
+      "id": "张骞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张骞"
+        ],
+        "en": [
+          "Zhang Qian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国汉代的外交家和探险家，被誉为“丝绸之路的开拓者”。他两次出使西域，被史书上誉为“凿空”。",
+          "en": "A Chinese diplomat and explorer of the Han Dynasty, known as the 'pioneer of the Silk Road'. He undertook two missions to the Western Regions, an act praised in historical records as 'hollowing out' or pioneering."
+        },
+        "period": "前139年 - 前119年"
+      }
+    },
+    {
+      "id": "汉武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉武帝",
+          "刘彻"
+        ],
+        "en": [
+          "Emperor Wu of Han"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第七位皇帝。为打击匈奴，他派遣张骞出使西域，客观上开启了丝绸之路。",
+          "en": "The seventh emperor of the Western Han Dynasty. In order to counter the Xiongnu, he dispatched Zhang Qian to the Western Regions, which objectively initiated the Silk Road."
+        }
+      }
+    },
+    {
+      "id": "匈奴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "匈奴"
+        ],
+        "en": [
+          "Xiongnu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代活跃于欧亚大陆的游牧民族部落联盟，曾是汉朝的主要北方威胁。",
+          "en": "A tribal confederation of nomadic peoples who inhabited the eastern Eurasian Steppe and were the main northern threat to the Han Dynasty."
+        }
+      }
+    },
+    {
+      "id": "班超",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "班超"
+        ],
+        "en": [
+          "Ban Chao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉时期的将领和外交家，重新打通了因匈奴问题而一度荒废的丝绸之路。",
+          "en": "A general and diplomat of the Eastern Han Dynasty who reopened the Silk Road after it had been long neglected."
+        }
+      }
+    },
+    {
+      "id": "蒙古帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蒙古帝国",
+          "大蒙古国"
+        ],
+        "en": [
+          "Mongol Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "13世纪由成吉思汗建立的帝国，其统一的管辖和驿站系统促进了丝绸之路的再次繁荣。",
+          "en": "An empire founded by Genghis Khan in the 13th century. Its unified rule and the Yam system facilitated the renewed prosperity of the Silk Road."
+        }
+      }
+    },
+    {
+      "id": "成吉思汗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "成吉思汗"
+        ],
+        "en": [
+          "Genghis Khan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蒙古帝国的创始人和第一位大汗。其西征打通了草原丝绸之路。",
+          "en": "The founder and first Great Khan of the Mongol Empire. His western conquests reopened the Steppe Silk Road."
+        }
+      }
+    },
+    {
+      "id": "西夏",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西夏"
+        ],
+        "en": [
+          "Western Xia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "11至13世纪由党项人在中国西北建立的政权，其地理位置阻隔了北宋通往西域的传统陆上丝路。",
+          "en": "A state founded by the Tangut people in northwestern China from the 11th to 13th centuries. Its geographical location blocked the traditional land Silk Road for the Northern Song dynasty."
+        }
+      }
+    },
+    {
+      "id": "陆上丝绸之路",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "陆上丝绸之路"
+        ],
+        "en": [
+          "Land Silk Road"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "狭义的丝绸之路，指从古代中国首都（如长安、洛阳）出发，经中亚、西亚到达欧洲的陆上贸易通道。",
+          "en": "The Silk Road in a narrow sense, referring to the overland trade route from ancient Chinese capitals (like Chang'an, Luoyang) through Central and West Asia to Europe."
+        }
+      }
+    },
+    {
+      "id": "海上丝绸之路",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "海上丝绸之路"
+        ],
+        "en": [
+          "Maritime Silk Road"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代中国与外国交通贸易和文化交往的海上通道，在宋元以后重要性日增，逐渐取代了陆上丝路的主力地位。",
+          "en": "The maritime route for trade and cultural exchange between ancient China and foreign countries. Its importance grew after the Song and Yuan dynasties, gradually replacing the Land Silk Road as the main trade artery."
+        }
+      }
+    },
+    {
+      "id": "怛罗斯战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "怛罗斯战役"
+        ],
+        "en": [
+          "Battle of Talas"
+        ]
+      },
+      "properties": {
+        "period": "751",
+        "description": {
+          "zh-cn": "751年唐朝与阿拔斯王朝在中亚发生的战役，此战成为造纸术西传的关键事件。",
+          "en": "A battle in 751 between the Tang Dynasty and the Abbasid Caliphate in Central Asia, which became a key event for the westward transmission of papermaking technology."
+        }
+      }
+    },
+    {
+      "id": "造纸术",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "造纸术"
+        ],
+        "en": [
+          "Papermaking"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代中国的四大发明之一，指制造纸张的技术。该技术通过丝绸之路传播至全世界。",
+          "en": "One of the Four Great Inventions of ancient China, referring to the technology of manufacturing paper. This technology spread worldwide via the Silk Road."
+        }
+      }
+    },
+    {
+      "id": "佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "佛教"
+        ],
+        "en": [
+          "Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "起源于古印度的世界性宗教，通过丝绸之路传播至西域和东亚。",
+          "en": "A world religion originating in ancient India, which spread to the Western Regions and East Asia via the Silk Road."
+        }
+      }
+    },
+    {
+      "id": "景教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "景教"
+        ],
+        "en": [
+          "Nestorianism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基督教聂斯脱里派的一个分支，在唐朝时期沿丝绸之路传入中国。",
+          "en": "A branch of Christianity, the Church of the East (Nestorianism), which was introduced to China along the Silk Road during the Tang Dynasty."
+        }
+      }
+    },
+    {
+      "id": "唐武宗灭佛",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "唐武宗灭佛",
+          "会昌法难"
+        ],
+        "en": [
+          "Great Anti-Buddhist Persecution"
+        ]
+      },
+      "properties": {
+        "period": "845",
+        "description": {
+          "zh-cn": "唐武宗时期推行的打击佛教及其他外来宗教的政策运动，导致景教等宗教在中国走向衰落。",
+          "en": "A policy campaign during the reign of Emperor Wuzong of Tang to suppress Buddhism and other foreign religions, leading to the decline of religions like Nestorianism in China."
+        }
+      }
+    },
+    {
+      "id": "联合国教科文组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国教科文组织"
+        ],
+        "en": [
+          "UNESCO"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "联合国的专门机构之一，旨在通过教育、科学及文化来促进各国间合作，并负责评定世界遗产。",
+          "en": "A specialized agency of the United Nations aimed at promoting international cooperation through education, science, and culture, and is responsible for designating World Heritage Sites."
+        }
+      }
+    },
+    {
+      "id": "丝绸之路世界文化遗产",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "丝绸之路世界文化遗产",
+          "丝绸之路：长安－天山廊道的路网"
+        ],
+        "en": [
+          "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由联合国教科文组织认定的世界遗产项目，涵盖中国、哈萨克斯坦和吉尔吉斯斯坦境内的丝路遗迹。",
+          "en": "A World Heritage Site designated by UNESCO, encompassing Silk Road sites within China, Kazakhstan, and Kyrgyzstan."
+        }
+      }
+    },
+    {
+      "id": "汉朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉朝",
+          "西汉",
+          "东汉",
+          "两汉"
+        ],
+        "en": [
+          "Han dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国历史上的一个朝代，分为西汉和东汉，是丝绸之路正式开辟和发展的重要时期。",
+          "en": "A dynasty in Chinese history, divided into the Western Han and Eastern Han. It was a crucial period for the official opening and development of the Silk Road."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "费迪南·冯·李希霍芬",
+      "target": "丝绸之路",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1877",
+        "description": {
+          "zh-cn": "在其1877年出版的地图集中首次将这条古代商道命名为“丝绸之路”。",
+          "en": "He first named this ancient trade route the 'Silk Road' in a map atlas published in 1877."
+        }
+      }
+    },
+    {
+      "source": "张骞",
+      "target": "陆上丝绸之路",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "前139年",
+        "description": {
+          "zh-cn": "奉汉武帝之命出使西域，其“凿空”之举正式开辟了连接东西方的陆上丝绸之路。",
+          "en": "Under the order of Emperor Wu of Han, he journeyed to the Western Regions. His pioneering mission officially opened the Land Silk Road connecting the East and West."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "张骞",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "前139年",
+        "description": {
+          "zh-cn": "为联合西域国家打击匈奴，派遣张骞出使西域。",
+          "en": "To form an alliance with the Western Regions states against the Xiongnu, he dispatched Zhang Qian on a mission."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "匈奴",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝时期，汉朝为打击匈奴势力，积极寻求与西域各国建立军事同盟。",
+          "en": "During the reign of Emperor Wu, the Han dynasty actively sought military alliances with states in the Western Regions to attack the Xiongnu forces."
+        }
+      }
+    },
+    {
+      "source": "匈奴",
+      "target": "张骞",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在张骞首次西行途中将其俘虏并软禁长达十余年。",
+          "en": "During Zhang Qian's first journey to the west, they captured and held him in captivity for over ten years."
+        }
+      }
+    },
+    {
+      "source": "班超",
+      "target": "陆上丝绸之路",
+      "type": "PUSHED",
+      "properties": {
+        "period": "东汉",
+        "description": {
+          "zh-cn": "在东汉时期再次出使西域，打通了因战乱而荒废已久的丝绸之路。",
+          "en": "During the Eastern Han Dynasty, he led a mission to the Western Regions again, reopening the Silk Road which had been long abandoned due to warfare."
+        }
+      }
+    },
+    {
+      "source": "西夏",
+      "target": "陆上丝绸之路",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "北宋",
+        "description": {
+          "zh-cn": "在北宋时期，西夏政权地处河西走廊，阻隔了宋朝与西域的传统陆上商路。",
+          "en": "During the Northern Song Dynasty, the Western Xia regime was located in the Hexi Corridor, blocking the traditional overland trade route between the Song court and the Western Regions."
+        }
+      }
+    },
+    {
+      "source": "成吉思汗",
+      "target": "丝绸之路",
+      "type": "PUSHED",
+      "properties": {
+        "period": "13世纪初",
+        "description": {
+          "zh-cn": "通过西征和建立蒙古帝国，重新打通并保障了欧亚大陆的商路（尤其是草原丝绸之路）的畅通。",
+          "en": "Through his western conquests and the establishment of the Mongol Empire, he reopened and secured the trade routes across Eurasia, especially the Steppe Silk Road."
+        }
+      }
+    },
+    {
+      "source": "蒙古帝国",
+      "target": "丝绸之路",
+      "type": "PUSHED",
+      "properties": {
+        "period": "13世纪 - 14世纪",
+        "description": {
+          "zh-cn": "在辖境内推行驿站交通系统，极大地促进了丝绸之路的畅通和沿线商贸往来。",
+          "en": "Implemented the Yam (postal station) system within its territory, greatly facilitating the flow of traffic and trade along the Silk Road."
+        }
+      }
+    },
+    {
+      "source": "海上丝绸之路",
+      "target": "陆上丝绸之路",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "17世纪之后",
+        "description": {
+          "zh-cn": "随着航海贸易的兴起，海上丝绸之路逐渐取代了陆上丝绸之路，成为对外贸易的主力。",
+          "en": "With the rise of maritime trade, the Maritime Silk Road gradually replaced the Land Silk Road to become the main force of foreign trade."
+        }
+      }
+    },
+    {
+      "source": "丝绸之路",
+      "target": "佛教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "前1世纪末",
+        "description": {
+          "zh-cn": "佛教自于阗沿丝绸之路全面传入西域各国，并最终传播至中原。",
+          "en": "Buddhism spread comprehensively from Khotan to the states of the Western Regions along the Silk Road, and eventually reached the Central Plains of China."
+        }
+      }
+    },
+    {
+      "source": "丝绸之路",
+      "target": "造纸术",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "中国的造纸术沿着丝绸之路向西传播，对世界文明产生了巨大影响。",
+          "en": "China's papermaking technology spread westward along the Silk Road, having a profound impact on world civilization."
+        }
+      }
+    },
+    {
+      "source": "怛罗斯战役",
+      "target": "造纸术",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "751",
+        "description": {
+          "zh-cn": "战后，唐军战俘中的造纸工匠被带到撒马尔罕，成为造纸术传入伊斯兰世界的关键事件。",
+          "en": "After the battle, papermaking artisans among the Tang prisoners of war were taken to Samarkand, marking a key event in the transmission of papermaking to the Islamic world."
+        }
+      }
+    },
+    {
+      "source": "丝绸之路",
+      "target": "景教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "635",
+        "description": {
+          "zh-cn": "景教（基督教聂斯脱里派）随着丝绸之路商旅来到中国，并于唐朝得到发展。",
+          "en": "Nestorianism (a branch of Christianity) arrived in China with merchants along the Silk Road and developed during the Tang Dynasty."
+        }
+      }
+    },
+    {
+      "source": "唐武宗灭佛",
+      "target": "景教",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "845",
+        "description": {
+          "zh-cn": "在会昌法难中，景教与佛教等外来宗教一同受到打击，从此在中国走向衰落。",
+          "en": "During the Great Anti-Buddhist Persecution, Nestorianism, along with Buddhism and other foreign religions, was suppressed, leading to its decline in China."
+        }
+      }
+    },
+    {
+      "source": "联合国教科文组织",
+      "target": "丝绸之路世界文化遗产",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-06-22",
+        "description": {
+          "zh-cn": "在第38届世界遗产委员会会议上，正式批准“丝绸之路：长安－天山廊道的路网”项目列入世界遗产名录。",
+          "en": "At the 38th session of the World Heritage Committee, officially approved the inclusion of 'Silk Roads: the Routes Network of Chang'an-Tianshan Corridor' on the World Heritage List."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,978 @@
+{
+  "nodes": [
+    {
+      "id": "第一次工业革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次工业革命",
+          "工业革命",
+          "机器时代"
+        ],
+        "en": [
+          "First Industrial Revolution",
+          "Industrial Revolution",
+          "the Age of Machines"
+        ]
+      },
+      "properties": {
+        "period": "1740 - 1840",
+        "location": {
+          "zh-cn": "欧洲、北美洲",
+          "en": "Europe, North America"
+        },
+        "description": {
+          "zh-cn": "一场始于18世纪英国的技术革命，以机器取代人力、畜力，以大规模工厂生产取代手工生产，深刻影响了人类社会的发展进程，将世界带入“蒸汽时代”。",
+          "en": "A technological revolution that began in Great Britain in the 18th century, characterized by the replacement of human and animal power with machines and the shift from manual production to large-scale factory production. It profoundly impacted human societal development, ushering in the 'Steam Age'."
+        }
+      }
+    },
+    {
+      "id": "詹姆斯·瓦特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "詹姆斯·瓦特",
+          "瓦特"
+        ],
+        "en": [
+          "James Watt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国发明家，改良了纽科门蒸汽机，是工业革命中的关键人物。",
+          "en": "Scottish inventor and mechanical engineer whose improvements to the Newcomen steam engine were fundamental to the changes brought by the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "蒸汽机",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "蒸汽机"
+        ],
+        "en": [
+          "Steam engine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种利用蒸汽的能量来做功的热机，是工业革命中最重要的发明之一，为生产和运输提供了充足的动力。",
+          "en": "A heat engine that performs mechanical work using steam as its working fluid, one of the most important inventions of the Industrial Revolution, providing ample power for production and transportation."
+        }
+      }
+    },
+    {
+      "id": "圈地运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "圈地运动"
+        ],
+        "en": [
+          "Enclosure"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "18世纪英国将公共土地和零散的土地合并成更大、更集中的私有田地的过程，为工业革命提供了劳动力和工业原材料。",
+          "en": "The process in 18th-century Britain of consolidating common land and scattered holdings into larger, privately owned fields, which provided labor and industrial raw materials for the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "科学革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "科学革命"
+        ],
+        "en": [
+          "Scientific Revolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "约16至18世纪欧洲的一系列科学思想和方法的变革，为工业革命奠定了理论基础。",
+          "en": "A series of events that marked the emergence of modern science during the early modern period, when developments in mathematics, physics, astronomy, biology and chemistry transformed the views of society about nature, laying the groundwork for the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "金融革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "金融革命"
+        ],
+        "en": [
+          "Financial Revolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命前发生在英国的一系列金融创新，包括英格兰银行的创立和公债的发行，为工业革命提供了必要的廉价资本。",
+          "en": "A set of economic and financial reforms that occurred in Britain before the Industrial Revolution, including the founding of the Bank of England and the issuance of public debt, which provided necessary cheap capital for industrialization."
+        }
+      }
+    },
+    {
+      "id": "光荣革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "光荣革命"
+        ],
+        "en": [
+          "Glorious Revolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1688年英国的一场政变，其建立的政治和金融体系为工业革命提供了稳定的环境和资本，并推动了圈地运动的加剧。",
+          "en": "A coup in England in 1688. The political and financial systems it established provided a stable environment and capital for the Industrial Revolution and accelerated the enclosure movement."
+        }
+      }
+    },
+    {
+      "id": "卢德运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "卢德运动"
+        ],
+        "en": [
+          "Luddite"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "19世纪英国工人因反对机械化而自发捣毁机器的社会运动。",
+          "en": "A social movement of 19th-century English workers who protested against mechanization by destroying machinery."
+        }
+      }
+    },
+    {
+      "id": "机器",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "机器"
+        ],
+        "en": [
+          "Machine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命的核心技术，取代了人力和畜力，实现了大规模生产。",
+          "en": "The core technology of the Industrial Revolution, which replaced human and animal power and enabled mass production."
+        }
+      }
+    },
+    {
+      "id": "共产主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "共产主义"
+        ],
+        "en": [
+          "Communism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种社会政治哲学，其思想在工业革命时期工人阶级与资产阶级的对立背景下产生。",
+          "en": "A sociopolitical philosophy whose ideas emerged in the context of the conflict between the working class and the bourgeoisie during the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "马克思",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马克思"
+        ],
+        "en": [
+          "Karl Marx"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "哲学家、经济学家、社会学家，其共产主义理论在工业革命的社会背景下形成。",
+          "en": "A philosopher, economist, and sociologist whose theories of communism were formed against the social backdrop of the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "英格兰",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "英格兰"
+        ],
+        "en": [
+          "England"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命的发源地。",
+          "en": "The birthplace of the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "第二次工业革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次工业革命"
+        ],
+        "en": [
+          "Second Industrial Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1870 - ",
+        "description": {
+          "zh-cn": "继第一次工业革命后的又一次重大技术革命，以电力、内燃机和化学工业的兴起为标志。",
+          "en": "Another major technological revolution following the First Industrial Revolution, marked by the rise of electricity, the internal combustion engine, and the chemical industry."
+        }
+      }
+    },
+    {
+      "id": "第三次工业革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第三次工业革命"
+        ],
+        "en": [
+          "Third Industrial Revolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "20世纪以来以原子能、电子计算机、空间技术和生物工程的发明和应用为主要标志的技术革命。",
+          "en": "The technological revolution since the 20th century, primarily marked by the invention and application of atomic energy, electronic computers, space technology, and bioengineering."
+        }
+      }
+    },
+    {
+      "id": "哥伦布大交换",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "哥伦布大交换"
+        ],
+        "en": [
+          "Columbian exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指15世纪末以来，东半球与西半球之间在生物、农作物、人种、文化等方面的广泛交流。其导致的人口爆炸和生产需求大增是工业革命的背景之一。",
+          "en": "The widespread transfer of plants, animals, culture, human populations, technology, and ideas between the Old World and the New World, starting in the late 15th century. The resulting population explosion and increased production demand were part of the background to the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "农业革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "农业革命",
+          "英国农业革命"
+        ],
+        "en": [
+          "Agricultural Revolution",
+          "British Agricultural Revolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "18世纪英国农业生产方式的变革，导致劳动力过剩，为工业革命提供了人力资源。",
+          "en": "The transformation of agricultural practices in 18th-century Britain, which led to a surplus of labor, providing human resources for the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "汤玛斯·纽科门",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汤玛斯·纽科门"
+        ],
+        "en": [
+          "Thomas Newcomen"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国发明家，于1712年发明了第一台实用的蒸汽机。",
+          "en": "English inventor who created the first practical steam engine in 1712."
+        }
+      }
+    },
+    {
+      "id": "詹姆士六世及一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "詹姆士六世及一世"
+        ],
+        "en": [
+          "James VI and I"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国国王，于1623年允许设立专利权，刺激了发明创造。",
+          "en": "King of England and Scotland, who in 1623 allowed the establishment of patents, stimulating invention."
+        }
+      }
+    },
+    {
+      "id": "专利权",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "专利权"
+        ],
+        "en": [
+          "Patent"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "保护新发明权利的法律制度，对工业革命期间的技术创新起到了激励作用。",
+          "en": "A legal system for protecting the rights to new inventions, which incentivized technological innovation during the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "资产阶级",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "资产阶级"
+        ],
+        "en": [
+          "Bourgeoisie"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在工业革命中崛起的新富阶层，拥有生产资料，与工人阶级形成对立。",
+          "en": "The new wealthy class that rose during the Industrial Revolution, owning the means of production and standing in opposition to the working class."
+        }
+      }
+    },
+    {
+      "id": "工人阶级",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "工人阶级"
+        ],
+        "en": [
+          "Working class",
+          "Proletariat"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命中产生的新社会阶层，主要由工厂工人组成，与资产阶级形成对立。",
+          "en": "A new social class that emerged during the Industrial Revolution, primarily composed of factory workers, standing in opposition to the bourgeoisie."
+        }
+      }
+    },
+    {
+      "id": "卢德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卢德"
+        ],
+        "en": [
+          "Ned Ludd"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国工人，卢德运动的象征性人物，据传于1811年捣毁机器。",
+          "en": "An English worker, the symbolic figurehead of the Luddite movement, who reportedly destroyed machinery in 1811."
+        }
+      }
+    },
+    {
+      "id": "约翰·凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·凯"
+        ],
+        "en": [
+          "John Kay"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国发明家，于1733年发明飞梭。",
+          "en": "English inventor of the flying shuttle in 1733."
+        }
+      }
+    },
+    {
+      "id": "飞梭",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "飞梭"
+        ],
+        "en": [
+          "Flying shuttle"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1733年由约翰·凯发明的织布工具，是工业革命早期纺织业的重要技术革新。",
+          "en": "A weaving tool invented by John Kay in 1733, a key technological innovation in the textile industry during the early Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "詹姆士·哈格里夫斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "詹姆士·哈格里夫斯",
+          "詹姆士·哈格-{里}-夫斯"
+        ],
+        "en": [
+          "James Hargreaves"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国发明家，于1765年发明珍妮纺纱机。",
+          "en": "English inventor of the spinning jenny in 1765."
+        }
+      }
+    },
+    {
+      "id": "珍妮纺纱机",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "珍妮纺纱机"
+        ],
+        "en": [
+          "Spinning jenny"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1765年由詹姆士·哈格里夫斯发明的多轴纺纱机，是工业革命中的一项关键发明。",
+          "en": "A multi-spindle spinning frame invented in 1765 by James Hargreaves, a key invention in the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "罗伯特·富尔顿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗伯特·富尔顿"
+        ],
+        "en": [
+          "Robert Fulton"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国工程师和发明家，于1807年发明了第一艘商业上获得成功的蒸汽轮船。",
+          "en": "American engineer and inventor who is widely credited with developing the first commercially successful steamboat in 1807."
+        }
+      }
+    },
+    {
+      "id": "蒸汽轮船",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "蒸汽轮船"
+        ],
+        "en": [
+          "Steamboat"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种使用蒸汽机驱动的船只，是工业革命在交通运输领域的重要成果。",
+          "en": "A ship in which the primary method of propulsion is steam power, a significant achievement of the Industrial Revolution in transportation."
+        }
+      }
+    },
+    {
+      "id": "乔治·斯蒂芬生",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·斯蒂芬生"
+        ],
+        "en": [
+          "George Stephenson"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国工程师，于1814年建造了第一台实用的蒸汽火车，被誉为“铁路之父”。",
+          "en": "An English civil engineer and mechanical engineer who built the first practical steam locomotive in 1814 and is acclaimed as the 'Father of Railways'."
+        }
+      }
+    },
+    {
+      "id": "蒸汽火车",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "蒸汽火车"
+        ],
+        "en": [
+          "Steam locomotive"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "使用蒸汽机作为动力来源的铁路机车，是工业革命最重要的交通工具之一。",
+          "en": "A type of railway locomotive that produces its pulling power through a steam engine, one of the most important transportation means of the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "id": "煤",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "煤",
+          "煤炭",
+          "煤矿"
+        ],
+        "en": [
+          "Coal"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命的主要能源，为蒸汽机和钢铁生产提供了动力和原料。",
+          "en": "The primary energy source of the Industrial Revolution, providing power for steam engines and raw materials for iron production."
+        }
+      }
+    },
+    {
+      "id": "铁",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "铁",
+          "铁矿",
+          "钢"
+        ],
+        "en": [
+          "Iron",
+          "Steel"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命的关键材料，用于制造机器、铁路等基础设施。",
+          "en": "A key material of the Industrial Revolution, used to manufacture machinery, railways, and other infrastructure."
+        }
+      }
+    },
+    {
+      "id": "欧洲",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "欧洲"
+        ],
+        "en": [
+          "Europe"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命在英国发生后，首先扩散到整个欧洲大陆。",
+          "en": "After occurring in Britain, the Industrial Revolution first spread throughout the European continent."
+        }
+      }
+    },
+    {
+      "id": "北美",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北美",
+          "北美洲"
+        ],
+        "en": [
+          "North America"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命在19世纪传播到的主要地区之一。",
+          "en": "One of the main regions to which the Industrial Revolution spread in the 19th century."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "科学革命",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "科学革命为工业革命奠定了理论基础，工业革命被认为是由现代科学革命所引发。",
+          "en": "The Scientific Revolution laid the theoretical foundation for the Industrial Revolution, which is considered to have been triggered by the modern Scientific Revolution."
+        }
+      }
+    },
+    {
+      "source": "农业革命",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "英国农业革命导致农业劳动力过剩，为工业革命提供了大量寻求新就业机会的劳动力。",
+          "en": "The British Agricultural Revolution resulted in a surplus of agricultural labor, providing a large workforce seeking new employment opportunities for the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "source": "圈地运动",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "圈地运动造成大量农民失去土地涌向城市，为工业革命提供了劳动力，并推动了纺织产业的工业化。",
+          "en": "The Enclosure Movement caused a large number of peasants to lose their land and flock to the cities, providing labor for the Industrial Revolution and promoting the industrialization of the textile industry."
+        }
+      }
+    },
+    {
+      "source": "哥伦布大交换",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "哥伦布大交换导致欧洲人口爆炸，社会生产需求大增，为工业革命创造了前提条件。",
+          "en": "The Columbian Exchange led to a population explosion in Europe and a massive increase in production demand, creating preconditions for the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "source": "金融革命",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "发生在英国的金融革命为工业革命提供了大规模、长期的廉价资本燃料和动力。",
+          "en": "The Financial Revolution in Britain provided large-scale, long-term, and cheap capital fuel and power for the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "source": "光荣革命",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1688",
+        "description": {
+          "zh-cn": "光荣革命后建立的政治和金融体系约束了政府行为，保障了财产权，为工业革命创造了稳定的环境和廉价的资金来源。",
+          "en": "The political and financial systems established after the Glorious Revolution constrained government actions, protected property rights, and created a stable environment and sources of cheap capital for the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "source": "专利权",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "英国自1623年开始设立专利权以保护新发明，此举刺激了大量新发明的产生，推动了工业革命的进程。",
+          "en": "Britain established patent rights in 1623 to protect new inventions, which stimulated the creation of numerous new inventions and drove the progress of the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "source": "詹姆士六世及一世",
+      "target": "专利权",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1623",
+        "description": {
+          "zh-cn": "英国国王詹姆士六世及一世于1623年允许设立专利权，以保护新发明的权利。",
+          "en": "King James VI and I of Great Britain allowed the establishment of patent rights in 1623 to protect the rights of new inventions."
+        }
+      }
+    },
+    {
+      "source": "蒸汽机",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "蒸汽机的发明和改进是工业革命的核心，它提供了廉价而充足的动力，使生产摆脱了对人力、畜力和自然力的依赖，引发了从手工劳动向动力机器生产转变的重大飞跃。",
+          "en": "The invention and improvement of the steam engine were central to the Industrial Revolution, providing cheap and abundant power that freed production from reliance on human, animal, and natural forces, triggering a major leap from manual labor to machine-powered production."
+        }
+      }
+    },
+    {
+      "source": "煤",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "煤炭是工业革命的主要能源，为蒸汽机提供了动力，并且在冶金技术革新中取代木炭，是促成工业革命技术加速发展的四项主要因素之一。",
+          "en": "Coal was the primary energy source of the Industrial Revolution, powering steam engines and replacing charcoal in metallurgical innovations, making it one of the four main factors accelerating technological development during the revolution."
+        }
+      }
+    },
+    {
+      "source": "铁",
+      "target": "第一次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "钢铁生产工法的进步为技术革新生产的各种新机器提供了必要的原材料，促进了工业革命的发展。",
+          "en": "Advances in iron and steel production methods provided the necessary raw materials for the various new machines produced by technological innovation, promoting the development of the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "source": "汤玛斯·纽科门",
+      "target": "蒸汽机",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1712",
+        "description": {
+          "zh-cn": "于1712年发明了第一台实用的蒸汽机。",
+          "en": "Invented the first practical steam engine in 1712."
+        }
+      }
+    },
+    {
+      "source": "詹姆斯·瓦特",
+      "target": "蒸汽机",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1781",
+        "description": {
+          "zh-cn": "于1781年改良了纽科门的蒸汽机，大大提高了其效率，使其适用于工业用途。",
+          "en": "Improved Newcomen's steam engine in 1781, greatly increasing its efficiency and making it suitable for industrial use."
+        }
+      }
+    },
+    {
+      "source": "第一次工业革命",
+      "target": "第二次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "第一次工业革命为第二次工业革命奠定了技术和社会基础。",
+          "en": "The First Industrial Revolution laid the technological and social foundations for the Second Industrial Revolution."
+        }
+      }
+    },
+    {
+      "source": "第一次工业革命",
+      "target": "第三次工业革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "第一次工业革命开启了现代化的进程，为后续的技术革命，如第三次工业革命，创造了条件。",
+          "en": "The First Industrial Revolution initiated the process of modernization, creating conditions for subsequent technological revolutions like the Third Industrial Revolution."
+        }
+      }
+    },
+    {
+      "source": "第一次工业革命",
+      "target": "欧洲",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命自英格兰发生后，扩散到整个欧洲大陆。",
+          "en": "After originating in England, the Industrial Revolution spread throughout the European continent."
+        }
+      }
+    },
+    {
+      "source": "第一次工业革命",
+      "target": "北美",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命于19世纪传播到北美地区。",
+          "en": "The Industrial Revolution spread to North America in the 19th century."
+        }
+      }
+    },
+    {
+      "source": "第一次工业革命",
+      "target": "资产阶级",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命的自由经济和工厂制度催生了一个新的富裕阶层，即资产阶级。",
+          "en": "The free economy and factory system of the Industrial Revolution gave rise to a new wealthy class, the bourgeoisie."
+        }
+      }
+    },
+    {
+      "source": "第一次工业革命",
+      "target": "工人阶级",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "工厂制度的建立和都市化进程造就了大量的工厂工人，形成了新的社会阶层——工人阶级。",
+          "en": "The establishment of the factory system and the process of urbanization created a large number of factory workers, forming a new social class—the working class."
+        }
+      }
+    },
+    {
+      "source": "资产阶级",
+      "target": "工人阶级",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "由于恶劣的工作环境、微薄的收入和经济危机带来的失业，工业革命导致了劳资双方，即资产阶级与工人阶级的对立。",
+          "en": "Due to harsh working conditions, low wages, and unemployment caused by economic crises, the Industrial Revolution led to antagonism between labor and capital, namely the bourgeoisie and the working class."
+        }
+      }
+    },
+    {
+      "source": "第一次工业革命",
+      "target": "共产主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "工业革命造成的工人阶级悲惨生活和劳资对立的社会环境，为马克思主义及共产主义思想的产生提供了土壤。",
+          "en": "The miserable life of the working class and the social environment of labor-capital antagonism caused by the Industrial Revolution provided fertile ground for the emergence of Marxism and communist ideas."
+        }
+      }
+    },
+    {
+      "source": "马克思",
+      "target": "共产主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "马克思在工业革命的社会背景下，创立了共产主义学说。",
+          "en": "Karl Marx founded the doctrine of communism against the social backdrop of the Industrial Revolution."
+        }
+      }
+    },
+    {
+      "source": "卢德",
+      "target": "卢德运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1811",
+        "description": {
+          "zh-cn": "英国工人卢德于1811年捣毁机器的行为，引发了反对机械化的卢德运动。",
+          "en": "The act of English worker Ned Ludd destroying machinery in 1811 sparked the Luddite movement against mechanization."
+        }
+      }
+    },
+    {
+      "source": "卢德运动",
+      "target": "机器",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "1811 - ",
+        "description": {
+          "zh-cn": "卢德运动是一场反对机械化的社会运动，其参与者通过捣毁机器来表达抗议。",
+          "en": "The Luddite movement was a social movement against mechanization, in which participants protested by destroying machines."
+        }
+      }
+    },
+    {
+      "source": "光荣革命",
+      "target": "圈地运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1688",
+        "description": {
+          "zh-cn": "自光荣革命后的18世纪，圈地运动开始愈演愈烈。",
+          "en": "From the 18th century after the Glorious Revolution, the enclosure movement began to intensify."
+        }
+      }
+    },
+    {
+      "source": "约翰·凯",
+      "target": "飞梭",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1733",
+        "description": {
+          "zh-cn": "发明了飞梭。",
+          "en": "Invented the flying shuttle."
+        }
+      }
+    },
+    {
+      "source": "詹姆士·哈格里夫斯",
+      "target": "珍妮纺纱机",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1765",
+        "description": {
+          "zh-cn": "发明了珍妮纺纱机。",
+          "en": "Invented the spinning jenny."
+        }
+      }
+    },
+    {
+      "source": "罗伯特·富尔顿",
+      "target": "蒸汽轮船",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1807",
+        "description": {
+          "zh-cn": "发明了蒸汽轮船。",
+          "en": "Invented the steamboat."
+        }
+      }
+    },
+    {
+      "source": "乔治·斯蒂芬生",
+      "target": "蒸汽火车",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1814",
+        "description": {
+          "zh-cn": "发明了蒸汽火车。",
+          "en": "Invented the steam locomotive."
+        }
+      }
+    }
+  ]
+}
