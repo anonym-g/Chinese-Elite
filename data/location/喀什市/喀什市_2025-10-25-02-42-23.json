@@ -1,0 +1,905 @@
+{
+  "nodes": [
+    {
+      "id": "喀什市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "喀什市",
+          "قەشقەر شەھىرى",
+          "قەشقەر",
+          "疏勒",
+          "喀什噶尔",
+          "Kashgar"
+        ],
+        "en": [
+          "Kashgar"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "新疆维吾尔自治区喀什地区"
+        },
+        "description": {
+          "zh-cn": "中国最西端的城市，国家历史文化名城，古代丝绸之路的交通枢纽。"
+        }
+      }
+    },
+    {
+      "id": "疏勒国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "疏勒国"
+        ],
+        "en": [
+          "Shule Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代西域国家，以喀什（疏勒）为国都。"
+        }
+      }
+    },
+    {
+      "id": "匈奴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "匈奴"
+        ],
+        "en": [
+          "Xiongnu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代北亚的游牧民族建立的部落联盟国家。"
+        }
+      }
+    },
+    {
+      "id": "西汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西汉"
+        ],
+        "en": [
+          "Western Han"
+        ]
+      },
+      "properties": {
+        "period": "-0202 - 0008"
+      }
+    },
+    {
+      "id": "东汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东汉"
+        ],
+        "en": [
+          "Eastern Han"
+        ]
+      },
+      "properties": {
+        "period": "0025 - 0220"
+      }
+    },
+    {
+      "id": "班超",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "班超"
+        ],
+        "en": [
+          "Ban Chao"
+        ]
+      },
+      "properties": {
+        "lifetime": "0032 - 0102",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉时期著名将领、外交家，长期驻守西域。"
+        }
+      }
+    },
+    {
+      "id": "忠 (疏勒王)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "忠 (疏勒王)",
+          "疏勒王忠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "由东汉将领班超拥立的疏勒国王。"
+        }
+      }
+    },
+    {
+      "id": "贵霜帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "贵霜帝国"
+        ],
+        "en": [
+          "Kushan Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "曾统治中亚和南亚的古代帝国，对丝绸之路贸易和佛教传播有重要影响。"
+        }
+      }
+    },
+    {
+      "id": "唐帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "唐帝国",
+          "唐朝"
+        ],
+        "en": [
+          "Tang Empire"
+        ]
+      },
+      "properties": {
+        "period": "0618 - 0907"
+      }
+    },
+    {
+      "id": "吐蕃帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吐蕃帝国"
+        ],
+        "en": [
+          "Tibetan Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "历史上一个强大的藏人帝国，曾与唐帝国争夺西域控制权。"
+        }
+      }
+    },
+    {
+      "id": "喀喇汗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "喀喇汗国"
+        ],
+        "en": [
+          "Kara-Khanid Khanate"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中亚的突厥王朝，是首个信奉伊斯兰教的突厥系国家。"
+        }
+      }
+    },
+    {
+      "id": "伊斯兰教",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "伊斯兰教"
+        ],
+        "en": [
+          "Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "世界三大宗教之一，对喀什地区的历史文化产生了深远影响。"
+        }
+      }
+    },
+    {
+      "id": "西辽",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西辽",
+          "喀喇契丹"
+        ],
+        "en": [
+          "Qara Khitai",
+          "Western Liao"
+        ]
+      },
+      "properties": {
+        "period": "1124 - 1218"
+      }
+    },
+    {
+      "id": "屈出律",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "屈出律"
+        ],
+        "en": [
+          "Kuchlug"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "乃蛮王子，后篡夺西辽帝位，统治西域。"
+        }
+      }
+    },
+    {
+      "id": "蒙古帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蒙古帝国"
+        ],
+        "en": [
+          "Mongol Empire"
+        ]
+      },
+      "properties": {
+        "period": "1206 - 1368"
+      }
+    },
+    {
+      "id": "哲别",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哲别"
+        ],
+        "en": [
+          "Jebe"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蒙古帝国成吉思汗麾下的著名将领。"
+        }
+      }
+    },
+    {
+      "id": "成吉思汗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "成吉思汗"
+        ],
+        "en": [
+          "Genghis Khan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1162 - 1227",
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "叶尔羌汗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "叶尔羌汗国"
+        ],
+        "en": [
+          "Yarkent Khanate"
+        ]
+      },
+      "properties": {
+        "period": "1514 - 1705"
+      }
+    },
+    {
+      "id": "准噶尔汗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "准噶尔汗国"
+        ],
+        "en": [
+          "Dzungar Khanate"
+        ]
+      },
+      "properties": {
+        "period": "1634 - 1757"
+      }
+    },
+    {
+      "id": "清帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清帝国",
+          "清朝"
+        ],
+        "en": [
+          "Qing Empire"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912"
+      }
+    },
+    {
+      "id": "阿古柏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿古柏"
+        ],
+        "en": [
+          "Yakub Beg"
+        ]
+      },
+      "properties": {
+        "lifetime": "1820 - 1877",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中亚浩罕汗国军事领袖，在同治新疆回乱期间入侵新疆，建立哲德沙尔汗国。"
+        }
+      }
+    },
+    {
+      "id": "哲德沙尔汗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "哲德沙尔汗国"
+        ],
+        "en": [
+          "Yettishar"
+        ]
+      },
+      "properties": {
+        "period": "1865 - 1877",
+        "description": {
+          "zh-cn": "由阿古柏在新疆建立的伊斯兰教国家。"
+        }
+      }
+    },
+    {
+      "id": "左宗棠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "左宗棠"
+        ],
+        "en": [
+          "Zuo Zongtang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1812-11-10 - 1885-09-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝末年重要军事家、政治家，率军收复新疆。"
+        }
+      }
+    },
+    {
+      "id": "中华民国大陆时期",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国大陆时期",
+          "中华民国"
+        ],
+        "en": [
+          "Republic of China (1912–1949)"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1949"
+      }
+    },
+    {
+      "id": "1933年喀什战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1933年喀什战役"
+        ],
+        "en": [
+          "Battle of Kashgar (1933)"
+        ]
+      },
+      "properties": {
+        "period": "1933"
+      }
+    },
+    {
+      "id": "马占仓",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马占仓"
+        ],
+        "en": [
+          "Ma Zhancang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国时期回族将领，曾据守喀什。"
+        }
+      }
+    },
+    {
+      "id": "陶菲格·贝伊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陶菲格·贝伊"
+        ],
+        "en": [
+          "Tawfiq Bay"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "叙利亚阿拉伯人，曾率领维吾尔与吉尔吉斯联军攻打喀什。"
+        }
+      }
+    },
+    {
+      "id": "东突厥斯坦伊斯兰共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东突厥斯坦伊斯兰共和国",
+          "东突厥斯坦第一共和"
+        ],
+        "en": [
+          "First East Turkestan Republic"
+        ]
+      },
+      "properties": {
+        "period": "1933 - 1934"
+      }
+    },
+    {
+      "id": "沙比提大毛拉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "沙比提大毛拉"
+        ],
+        "en": [
+          "Sabit Damulla Abdulbaki"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东突厥斯坦伊斯兰共和国的建立者之一。"
+        }
+      }
+    },
+    {
+      "id": "穆罕默德·伊敏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆罕默德·伊敏"
+        ],
+        "en": [
+          "Muhammad-Amin Bughra"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东突厥斯坦伊斯兰共和国的建立者之一。"
+        }
+      }
+    },
+    {
+      "id": "马仲英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马仲英"
+        ],
+        "en": [
+          "Ma Zhongying"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国时期回族军阀，马家军首脑之一。"
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - "
+      }
+    },
+    {
+      "id": "居玛·塔伊尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "居玛·塔伊尔"
+        ],
+        "en": [
+          "Juma Tayir"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "喀什市"
+        },
+        "description": {
+          "zh-cn": "艾提尕尔清真寺的大毛拉，于2014年遇刺身亡。"
+        }
+      }
+    },
+    {
+      "id": "居玛·塔伊尔遇刺事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "居玛·塔伊尔遇刺事件"
+        ]
+      },
+      "properties": {
+        "period": "2014-07",
+        "description": {
+          "zh-cn": "2014年7月，艾提尕尔清真寺的大毛拉居玛·塔伊尔被杀害的事件。"
+        }
+      }
+    },
+    {
+      "id": "东喀喇汗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东喀喇汗国"
+        ],
+        "en": [
+          "Eastern Kara-Khanid Khanate"
+        ]
+      },
+      "properties": {
+        "period": "1041 - 1211"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "喀什市",
+      "target": "疏勒国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "-0177",
+        "description": {
+          "zh-cn": "喀什古称疏勒，是疏勒国的国都。"
+        }
+      }
+    },
+    {
+      "source": "喀什市",
+      "target": "匈奴",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "-0177",
+        "end_date": "-0060",
+        "description": {
+          "zh-cn": "疏勒被迫投靠匈奴，成为其三十六属国之一。"
+        }
+      }
+    },
+    {
+      "source": "喀什市",
+      "target": "西汉",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "-0060",
+        "description": {
+          "zh-cn": "疏勒被纳入西汉势力范围，受西域都护府节制。"
+        }
+      }
+    },
+    {
+      "source": "班超",
+      "target": "忠 (疏勒王)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0073",
+        "description": {
+          "zh-cn": "班超废黜龟兹扶植的疏勒王，另立疏勒王成的侄子忠为王。"
+        }
+      }
+    },
+    {
+      "source": "班超",
+      "target": "忠 (疏勒王)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0086",
+        "description": {
+          "zh-cn": "疏勒王忠背叛东汉后，被班超发现并斩杀。"
+        }
+      }
+    },
+    {
+      "source": "班超",
+      "target": "喀什市",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "班超长期以疏勒（今喀什）作为其在西域活动的根据地。"
+        }
+      }
+    },
+    {
+      "source": "喀什市",
+      "target": "贵霜帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "0150",
+        "description": {
+          "zh-cn": "疏勒从属于大月氏部族建立的贵霜帝国。"
+        }
+      }
+    },
+    {
+      "source": "喀什市",
+      "target": "唐帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "0648",
+        "end_date": "0670",
+        "description": {
+          "zh-cn": "疏勒开始接受唐帝国安西都护府的保护，成为安西四镇之一。"
+        }
+      }
+    },
+    {
+      "source": "喀什市",
+      "target": "吐蕃帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "0670",
+        "end_date": "0692",
+        "description": {
+          "zh-cn": "在唐朝与吐蕃对西域的争夺中，疏勒的宗主权多次易手，一度从属于吐蕃。"
+        }
+      }
+    },
+    {
+      "source": "喀喇汗国",
+      "target": "喀什市",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0840",
+        "description": {
+          "zh-cn": "疏勒被喀喇汗国吞并，改称喀什噶尔。"
+        }
+      }
+    },
+    {
+      "source": "伊斯兰教",
+      "target": "喀什市",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "0915",
+        "description": {
+          "zh-cn": "自喀喇汗萨图克·博格拉汗皈依伊斯兰教后，喀什噶尔逐渐伊斯兰化。"
+        }
+      }
+    },
+    {
+      "source": "东喀喇汗国",
+      "target": "喀什市",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1041",
+        "description": {
+          "zh-cn": "喀喇汗国分裂后，喀什噶尔成为东喀喇汗国首都。"
+        }
+      }
+    },
+    {
+      "source": "东喀喇汗国",
+      "target": "西辽",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1134",
+        "description": {
+          "zh-cn": "西辽征服塔里木盆地，东喀喇汗国臣属于西辽。"
+        }
+      }
+    },
+    {
+      "source": "屈出律",
+      "target": "西辽",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1211",
+        "description": {
+          "zh-cn": "乃蛮王子屈出律篡夺了西辽的帝位。"
+        }
+      }
+    },
+    {
+      "source": "屈出律",
+      "target": "喀什市",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1211",
+        "description": {
+          "zh-cn": "屈出律在喀什噶尔进行宗教迫害，并派兵烧毁农作物，导致饥荒。"
+        }
+      }
+    },
+    {
+      "source": "哲别",
+      "target": "屈出律",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1218",
+        "position": {
+          "zh-cn": "将军"
+        },
+        "description": {
+          "zh-cn": "成吉思汗派遣的将领哲别率军攻入喀什噶尔，消灭了屈出律的统治。"
+        }
+      }
+    },
+    {
+      "source": "哲别",
+      "target": "成吉思汗",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "哲别是成吉思汗麾下的将领。"
+        }
+      }
+    },
+    {
+      "source": "喀什市",
+      "target": "蒙古帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1218",
+        "description": {
+          "zh-cn": "蒙古帝国消灭西辽后，喀什噶尔被纳入其统治。"
+        }
+      }
+    },
+    {
+      "source": "阿古柏",
+      "target": "哲德沙尔汗国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1865",
+        "description": {
+          "zh-cn": "阿古柏以喀什噶尔为根据地，建立了哲德沙尔汗国。"
+        }
+      }
+    },
+    {
+      "source": "左宗棠",
+      "target": "阿古柏",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1872",
+        "description": {
+          "zh-cn": "清政府任命左宗棠为钦差大臣，督办新疆军务，负责收复被阿古柏占据的新疆。"
+        }
+      }
+    },
+    {
+      "source": "清帝国",
+      "target": "哲德沙尔汗国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1877",
+        "description": {
+          "zh-cn": "在左宗棠率领下，清军消灭了哲德沙尔汗国，收复了新疆。"
+        }
+      }
+    },
+    {
+      "source": "陶菲格·贝伊",
+      "target": "马占仓",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1933",
+        "description": {
+          "zh-cn": "在1933年喀什战役中，陶菲格·贝伊率领维吾尔与吉尔吉斯联军，企图攻占由回族将领马占仓据守的喀什噶尔新城。"
+        }
+      }
+    },
+    {
+      "source": "沙比提大毛拉",
+      "target": "东突厥斯坦伊斯兰共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1933-11",
+        "description": {
+          "zh-cn": "与穆罕默德·伊敏等人在喀什噶尔成立东突厥斯坦伊斯兰共和国。"
+        }
+      }
+    },
+    {
+      "source": "穆罕默德·伊敏",
+      "target": "东突厥斯坦伊斯兰共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1933-11",
+        "description": {
+          "zh-cn": "与沙比提大毛拉等人在喀什噶尔成立东突厥斯坦伊斯兰共和国。"
+        }
+      }
+    },
+    {
+      "source": "马仲英",
+      "target": "东突厥斯坦伊斯兰共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1934-04-07",
+        "description": {
+          "zh-cn": "马仲英率领马家军抵达喀什噶尔，要求维吾尔族效忠南京政府，东突厥斯坦第一共和宣告灭亡。"
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "喀什市",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1952",
+        "description": {
+          "zh-cn": "1952年，中华人民共和国由疏勒县析置喀什市。"
+        }
+      }
+    },
+    {
+      "source": "居玛·塔伊尔遇刺事件",
+      "target": "居玛·塔伊尔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-07",
+        "description": {
+          "zh-cn": "艾提尕尔清真寺的大毛拉居玛·塔伊尔在2014年7月遇刺身亡。"
+        }
+      }
+    }
+  ]
+}

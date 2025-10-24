@@ -1,0 +1,566 @@
+{
+  "nodes": [
+    {
+      "id": "杨国忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨国忠",
+          "杨钊"
+        ],
+        "en": [
+          "Yang Guozhong"
+        ]
+      },
+      "properties": {
+        "lifetime": "0700 - 0756-07-15",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "马嵬驿",
+          "en": "Mawei Post"
+        },
+        "description": {
+          "zh-cn": "唐朝外戚、丞相、节度使、宠臣、奸臣。本名杨钊，因堂妹杨贵妃受宠于唐玄宗而平步青云，后官至右相，身兼四十余职。他与安禄山的矛盾是安史之乱的导火索之一，最终在马嵬驿兵变中被哗变的士兵所杀。",
+          "en": "An imperial relative by marriage, chancellor, military governor (jiedushi), and favored courtier of the Tang Dynasty. Originally named Yang Zhao, his rise to power was due to his cousin, Imperial Consort Yang, being favored by Emperor Xuanzong. He became Chancellor and held over forty concurrent posts. His conflict with An Lushan was a major trigger for the An-Shi Rebellion, and he was ultimately killed by mutinying soldiers at the Mawei Post."
+        }
+      }
+    },
+    {
+      "id": "唐玄宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐玄宗"
+        ],
+        "en": [
+          "Emperor Xuanzong of Tang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝在位时间最长的皇帝，前期开创了开元盛世，后期因宠信李林甫、杨国忠等人导致政治腐败，并爆发安史之乱。",
+          "en": "The longest-reigning emperor of the Tang Dynasty. His early reign marked the Kaiyuan Era, a golden age, but his later years were marred by political corruption due to his trust in figures like Li Linfu and Yang Guozhong, leading to the An-Shi Rebellion."
+        }
+      }
+    },
+    {
+      "id": "杨太真",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨太真",
+          "杨贵妃"
+        ],
+        "en": [
+          "Yang Guifei"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "唐玄宗的贵妃，古代四大美女之一。她是杨国忠的堂妹，杨国忠的崛起与她的受宠有直接关系。",
+          "en": "An imperial consort of Emperor Xuanzong and one of the Four Beauties of ancient China. She was the cousin of Yang Guozhong, whose rise to power was directly related to her status."
+        }
+      }
+    },
+    {
+      "id": "安禄山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安禄山"
+        ],
+        "en": [
+          "An Lushan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝节度使，以“诛国忠、清君侧”为名发动安史之乱，对唐朝造成了毁灭性的打击。",
+          "en": "A military governor (jiedushi) of the Tang Dynasty who initiated the An-Shi Rebellion under the pretext of 'executing Guozhong and clearing the monarch's side,' dealing a devastating blow to the dynasty."
+        }
+      }
+    },
+    {
+      "id": "史思明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "史思明"
+        ],
+        "en": [
+          "Shi Siming"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝将领，与安禄山一同发动安史之乱。",
+          "en": "A Tang Dynasty general who, along with An Lushan, initiated the An-Shi Rebellion."
+        }
+      }
+    },
+    {
+      "id": "安史之乱",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "安史之乱"
+        ],
+        "en": [
+          "An-Shi Rebellion"
+        ]
+      },
+      "properties": {
+        "period": "755 - 763",
+        "description": {
+          "zh-cn": "由节度使安禄山和史思明发动的反唐叛乱，是唐朝由盛转衰的转折点。",
+          "en": "A rebellion against the Tang Dynasty initiated by military governors An Lushan and Shi Siming, marking the turning point of the dynasty from prosperity to decline."
+        }
+      }
+    },
+    {
+      "id": "马嵬驿兵变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "马嵬驿兵变",
+          "马嵬之变",
+          "马搜驿之变"
+        ],
+        "en": [
+          "Mawei Inn Mutiny"
+        ]
+      },
+      "properties": {
+        "period": "756-07-15 - 756-07-15",
+        "description": {
+          "zh-cn": "安史之乱期间，护送唐玄宗逃亡的禁军在马嵬驿发动的兵变，要求处死杨国忠及其家人。兵变最终导致杨国忠被杀。",
+          "en": "During the An-Shi Rebellion, a mutiny staged by the imperial guards escorting Emperor Xuanzong at Mawei Post, demanding the execution of Yang Guozhong and his family. The mutiny resulted in Yang Guozhong's death."
+        }
+      }
+    },
+    {
+      "id": "李林甫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李林甫"
+        ],
+        "en": [
+          "Li Linfu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐玄宗时期的宰相，以“口有蜜，腹有剑”著称。杨国忠曾与他联手，后在其死后取而代之成为右相。",
+          "en": "A chancellor during Emperor Xuanzong's reign, known for being 'sweet as honey in mouth, but with a sword in his belly'. Yang Guozhong once allied with him and later succeeded him as Chancellor of the Right after his death."
+        }
+      }
+    },
+    {
+      "id": "哥舒翰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哥舒翰"
+        ],
+        "en": [
+          "Geshu Han"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝名将，潼关守将。在安史之乱中，因杨国忠逼迫其出战，导致兵败被俘。",
+          "en": "A famous Tang Dynasty general and the commander of the Tongguan Pass. During the An-Shi Rebellion, he was forced into battle by Yang Guozhong, leading to his defeat and capture."
+        }
+      }
+    },
+    {
+      "id": "李亨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李亨"
+        ],
+        "en": [
+          "Li Heng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐玄宗之子，即后来的唐肃宗。他在马嵬驿兵变中与宦官策划并鼓动士兵，对诛杀杨国忠起了关键作用。",
+          "en": "The son of Emperor Xuanzong, who later became Emperor Suzong. During the Mawei Inn Mutiny, he conspired with eunuchs to incite the soldiers, playing a key role in the execution of Yang Guozhong."
+        }
+      }
+    },
+    {
+      "id": "陈玄礼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈玄礼"
+        ],
+        "en": [
+          "Chen Xuanli"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝大将军，在马嵬驿兵变中代表哗变的士兵向唐玄宗请求处死杨国忠。",
+          "en": "A high general of the Tang Dynasty who, during the Mawei Inn Mutiny, represented the mutinous soldiers in requesting Emperor Xuanzong to execute Yang Guozhong."
+        }
+      }
+    },
+    {
+      "id": "杨珣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨珣"
+        ],
+        "en": [
+          "Yang Xun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "杨国忠之父。",
+          "en": "Father of Yang Guozhong."
+        }
+      }
+    },
+    {
+      "id": "裴柔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "裴柔"
+        ],
+        "en": [
+          "Pei Rou"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "杨国忠的妻子，在马嵬驿兵变后试图逃跑时被杀。",
+          "en": "Wife of Yang Guozhong, killed while trying to escape after the Mawei Inn Mutiny."
+        }
+      }
+    },
+    {
+      "id": "杨晞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨晞"
+        ],
+        "en": [
+          "Yang Xi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "杨国忠的幼子，在马嵬驿兵变后试图逃跑时被杀。",
+          "en": "The youngest son of Yang Guozhong, killed while trying to escape after the Mawei Inn Mutiny."
+        }
+      }
+    },
+    {
+      "id": "安庆宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安庆宗"
+        ],
+        "en": [
+          "An Qingzong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "安禄山之子。杨国忠怂恿唐玄宗将其斩杀，此事导致安禄山决定提前叛变。",
+          "en": "Son of An Lushan. Yang Guozhong persuaded Emperor Xuanzong to execute him, an act that prompted An Lushan to advance his rebellion."
+        }
+      }
+    },
+    {
+      "id": "马嵬驿",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "马嵬驿"
+        ],
+        "en": [
+          "Mawei Post"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国陕西省兴平市",
+          "en": "Xingping, Shaanxi, China"
+        },
+        "description": {
+          "zh-cn": "唐代的一个驿站，是马嵬驿兵变的发生地，杨国忠在此地被杀。",
+          "en": "A post station in the Tang Dynasty, the site of the Mawei Inn Mutiny where Yang Guozhong was killed."
+        }
+      }
+    },
+    {
+      "id": "中书令",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中书令",
+          "右相"
+        ],
+        "en": [
+          "Zhongshu Ling"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "唐朝官职，中书省的长官，为宰相之首。杨国忠在李林甫死后担任此职。",
+          "en": "An official position in the Tang Dynasty, head of the Central Secretariat and chief chancellor. Yang Guozhong held this post after Li Linfu's death."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杨国忠",
+      "target": "杨珣",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "杨国忠",
+      "target": "裴柔",
+      "type": "SPOUSE_OF",
+      "properties": {}
+    },
+    {
+      "source": "杨晞",
+      "target": "杨国忠",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "杨国忠",
+      "target": "杨太真",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杨国忠是杨太真（杨贵妃）的从兄或堂兄。",
+          "en": "Yang Guozhong was the cousin of Yang Taizhen (Imperial Consort Yang)."
+        }
+      }
+    },
+    {
+      "source": "杨太真",
+      "target": "唐玄宗",
+      "type": "LOVER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杨太真是唐玄宗的贵妃。",
+          "en": "Yang Taizhen was the Imperial Consort (Guifei) of Emperor Xuanzong."
+        }
+      }
+    },
+    {
+      "source": "杨太真",
+      "target": "杨国忠",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "杨国忠因杨贵妃受到唐玄宗宠信而获得重用，得以任官。",
+          "en": "Yang Guozhong was appointed to high office due to Imperial Consort Yang being favored by Emperor Xuanzong."
+        }
+      }
+    },
+    {
+      "source": "唐玄宗",
+      "target": "杨国忠",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "750",
+        "description": {
+          "zh-cn": "唐玄宗赐名杨钊为“国忠”。",
+          "en": "Emperor Xuanzong bestowed the name 'Guozhong' upon Yang Zhao."
+        }
+      }
+    },
+    {
+      "source": "杨国忠",
+      "target": "唐玄宗",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杨国忠是唐玄宗的宠臣和宰相。",
+          "en": "Yang Guozhong was a favored courtier and chancellor to Emperor Xuanzong."
+        }
+      }
+    },
+    {
+      "source": "杨国忠",
+      "target": "中书令",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "752",
+        "end_date": "756",
+        "position": {
+          "zh-cn": "右相（中书令）",
+          "en": "Chancellor of the Right (Zhongshu Ling)"
+        }
+      }
+    },
+    {
+      "source": "杨国忠",
+      "target": "李林甫",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杨国忠最初与李林甫联手，后唐玄宗利用他牵制李林甫的专权，最终杨国忠在李林甫死后取而代之。",
+          "en": "Yang Guozhong initially allied with Li Linfu, but Emperor Xuanzong later used him to counterbalance Li Linfu's power. Yang Guozhong eventually succeeded him after his death."
+        }
+      }
+    },
+    {
+      "source": "杨国忠",
+      "target": "安禄山",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杨国忠与安禄山是政治上的死敌，他不断打击安禄山，认为其必反。",
+          "en": "Yang Guozhong and An Lushan were political arch-enemies. Yang constantly attacked An Lushan, believing he would inevitably rebel."
+        }
+      }
+    },
+    {
+      "source": "杨国忠",
+      "target": "哥舒翰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "755-06",
+        "description": {
+          "zh-cn": "杨国忠出于私心，逼迫潼关守将哥舒翰出战，导致其兵败被俘，潼关失陷。",
+          "en": "Driven by personal motives, Yang Guozhong forced Tongguan Pass commander Geshu Han into battle, leading to his defeat, capture, and the fall of the pass."
+        }
+      }
+    },
+    {
+      "source": "杨国忠",
+      "target": "安庆宗",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "杨国忠怂恿唐玄宗斩杀了安禄山之子安庆宗，此举直接导致安禄山决定提前发动叛乱。",
+          "en": "Yang Guozhong instigated Emperor Xuanzong to execute An Qingzong, the son of An Lushan. This act directly caused An Lushan to decide to launch his rebellion ahead of schedule."
+        }
+      }
+    },
+    {
+      "source": "安禄山",
+      "target": "安史之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "755",
+        "description": {
+          "zh-cn": "以“诛国忠、清君侧”为名，与史思明共同发动了安史之乱。",
+          "en": "Under the pretext of 'executing Guozhong and clearing the monarch's side,' he, along with Shi Siming, launched the An-Shi Rebellion."
+        }
+      }
+    },
+    {
+      "source": "史思明",
+      "target": "安史之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "755"
+      }
+    },
+    {
+      "source": "安史之乱",
+      "target": "杨国忠",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "756-07-15",
+        "description": {
+          "zh-cn": "安史之乱的爆发导致唐玄宗出逃，最终杨国忠在逃亡途中的马嵬驿兵变中被杀。",
+          "en": "The outbreak of the An-Shi Rebellion forced Emperor Xuanzong to flee, and Yang Guozhong was killed during the subsequent Mawei Inn Mutiny on the road."
+        }
+      }
+    },
+    {
+      "source": "李亨",
+      "target": "马嵬驿兵变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "756-07-15",
+        "description": {
+          "zh-cn": "与宦官李辅国、高力士等人策划并鼓动士兵发动兵变，要求处死杨国忠。",
+          "en": "Conspired with eunuchs like Li Fuguo and Gao Lishi to incite the soldiers to mutiny and demand the death of Yang Guozhong."
+        }
+      }
+    },
+    {
+      "source": "陈玄礼",
+      "target": "马嵬驿兵变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "756-07-15",
+        "description": {
+          "zh-cn": "作为禁军将领，向唐玄宗传达了士兵的要求，请求诛杀杨国忠以谢天下。",
+          "en": "As the commander of the imperial guards, he conveyed the soldiers' demands to Emperor Xuanzong, requesting the execution of Yang Guozhong to appease the realm."
+        }
+      }
+    },
+    {
+      "source": "马嵬驿兵变",
+      "target": "杨国忠",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "756-07-15",
+        "end_date": "756-07-15",
+        "description": {
+          "zh-cn": "在兵变中，杨国忠被哗变的士兵乱刀砍死。",
+          "en": "During the mutiny, Yang Guozhong was hacked to death by the rioting soldiers."
+        }
+      }
+    },
+    {
+      "source": "马嵬驿兵变",
+      "target": "裴柔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "756-07-15",
+        "description": {
+          "zh-cn": "在杨国忠被杀后，其妻裴柔在试图逃跑时也被斩杀。",
+          "en": "After Yang Guozhong was killed, his wife Pei Rou was also executed while trying to escape."
+        }
+      }
+    },
+    {
+      "source": "马嵬驿兵变",
+      "target": "杨晞",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "756-07-15",
+        "description": {
+          "zh-cn": "在杨国忠被杀后，其子杨晞在试图逃跑时也被斩杀。",
+          "en": "After Yang Guozhong was killed, his son Yang Xi was also executed while trying to escape."
+        }
+      }
+    }
+  ]
+}

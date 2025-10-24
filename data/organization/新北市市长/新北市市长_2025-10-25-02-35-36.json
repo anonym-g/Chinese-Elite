@@ -1,0 +1,365 @@
+{
+  "nodes": [
+    {
+      "id": "侯友宜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "侯友宜"
+        ],
+        "en": [
+          "Hou Yu-ih"
+        ]
+      },
+      "properties": {
+        "lifetime": "1957 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党籍政治人物，现任新北市市长。",
+          "en": "A Taiwanese politician from the Kuomintang (KMT), currently the mayor of New Taipei City."
+        }
+      }
+    },
+    {
+      "id": "朱立伦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱立伦"
+        ],
+        "en": [
+          "Eric Chu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1961 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党籍政治人物，曾任新北市市长。",
+          "en": "A Taiwanese politician from the Kuomintang (KMT), former mayor of New Taipei City."
+        }
+      }
+    },
+    {
+      "id": "刘和然",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘和然"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新北市副市长，曾在侯友宜请假期间代理市长职务。",
+          "en": "Deputy Mayor of New Taipei City, who served as acting mayor while Hou Yu-ih was on leave."
+        }
+      }
+    },
+    {
+      "id": "新北市市长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新北市市长"
+        ],
+        "en": [
+          "Mayor of New Taipei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国新北市的最高行政首长。",
+          "en": "The chief executive of New Taipei City, Republic of China."
+        }
+      }
+    },
+    {
+      "id": "台北县县长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台北县县长"
+        ],
+        "en": [
+          "Magistrate of Taipei County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "新北市市长的前身职务。",
+          "en": "The predecessor position to the Mayor of New Taipei City."
+        }
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党"
+        ],
+        "en": [
+          "Kuomintang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国主要政党之一。",
+          "en": "One of the major political parties in the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "新北市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "新北市"
+        ],
+        "en": [
+          "New Taipei City"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的直辖市之一，由原台北县升格而来。",
+          "en": "A special municipality in the Republic of China, upgraded from the former Taipei County."
+        }
+      }
+    },
+    {
+      "id": "台北县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台北县"
+        ],
+        "en": [
+          "Taipei County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国台湾省曾经的县份，于2010年12月25日升格为新北市。",
+          "en": "A former county of Taiwan Province, Republic of China, which was upgraded to New Taipei City on December 25, 2010."
+        }
+      }
+    },
+    {
+      "id": "2016年中华民国总统选举",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2016年中华民国总统选举",
+          "2016年总统选举"
+        ],
+        "en": [
+          "2016 Republic of China presidential election"
+        ]
+      },
+      "properties": {
+        "period": "2016",
+        "description": {
+          "zh-cn": "中华民国第14任总统、副总统选举。",
+          "en": "The 14th presidential and vice-presidential election of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "2024年中华民国总统选举",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2024年中华民国总统选举",
+          "2024年总统选举"
+        ],
+        "en": [
+          "2024 Republic of China presidential election"
+        ]
+      },
+      "properties": {
+        "period": "2024",
+        "description": {
+          "zh-cn": "中华民国第16任总统、副总统选举。",
+          "en": "The 16th presidential and vice-presidential election of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "台北县升格为直辖市",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "台北县升格为直辖市"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2010-12-25",
+        "description": {
+          "zh-cn": "台北县于2010年12月25日改制为直辖市新北市。",
+          "en": "Taipei County was reorganized into the special municipality of New Taipei City on December 25, 2010."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "朱立伦",
+      "target": "新北市市长",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010-12-25",
+        "end_date": "2018-12-25",
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "朱立伦是新北市升格为直辖市后的首位市长，并成功连任。",
+          "en": "Eric Chu was the first mayor of New Taipei City after its upgrade to a special municipality, and he was successfully re-elected."
+        }
+      }
+    },
+    {
+      "source": "侯友宜",
+      "target": "新北市市长",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-12-25",
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "侯友宜接替朱立伦担任新北市市长。",
+          "en": "Hou Yu-ih succeeded Eric Chu as the mayor of New Taipei City."
+        }
+      }
+    },
+    {
+      "source": "朱立伦",
+      "target": "中国国民党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "朱立伦是中国国民党籍政治人物。",
+          "en": "Eric Chu is a politician from the Kuomintang (KMT)."
+        }
+      }
+    },
+    {
+      "source": "侯友宜",
+      "target": "中国国民党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "侯友宜是中国国民党籍政治人物。",
+          "en": "Hou Yu-ih is a politician from the Kuomintang (KMT)."
+        }
+      }
+    },
+    {
+      "source": "侯友宜",
+      "target": "朱立伦",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副市长",
+          "en": "Deputy Mayor"
+        },
+        "description": {
+          "zh-cn": "侯友宜曾任朱立伦市长任内的副市长，并在2015年10月20日至2016年1月18日期间，因朱立伦参选总统而代理市长职务。",
+          "en": "Hou Yu-ih served as Deputy Mayor under Mayor Eric Chu and acted as mayor from October 20, 2015, to January 18, 2016, while Chu ran for president."
+        }
+      }
+    },
+    {
+      "source": "刘和然",
+      "target": "侯友宜",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副市长",
+          "en": "Deputy Mayor"
+        },
+        "description": {
+          "zh-cn": "在2023年9月23日至2024年1月13日期间，因侯友宜参选总统而代理市长职务。",
+          "en": "Acted as mayor from September 23, 2023, to January 13, 2024, while Hou Yu-ih ran for president."
+        }
+      }
+    },
+    {
+      "source": "2016年中华民国总统选举",
+      "target": "朱立伦",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "朱立伦为参选2016年总统选举，于2015年10月20日至2016年1月18日期间请假新北市市长职务。",
+          "en": "To run in the 2016 presidential election, Eric Chu took a leave of absence from his duties as Mayor of New Taipei City from October 20, 2015, to January 18, 2016."
+        }
+      }
+    },
+    {
+      "source": "2024年中华民国总统选举",
+      "target": "侯友宜",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "侯友宜为参选2024年总统选举，于2023年9月23日至2024年1月13日期间请假新北市市长职务。",
+          "en": "To run in the 2024 presidential election, Hou Yu-ih took a leave of absence from his duties as Mayor of New Taipei City from September 23, 2023, to January 13, 2024."
+        }
+      }
+    },
+    {
+      "source": "台北县升格为直辖市",
+      "target": "新北市",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2010-12-25",
+        "description": {
+          "zh-cn": "该事件的发生，设立了新北市。",
+          "en": "This event established New Taipei City."
+        }
+      }
+    },
+    {
+      "source": "台北县升格为直辖市",
+      "target": "台北县",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2010-12-25",
+        "description": {
+          "zh-cn": "该事件的发生，结束了台北县作为行政区划的名称和地位。",
+          "en": "This event ended the name and status of Taipei County as an administrative division."
+        }
+      }
+    },
+    {
+      "source": "台北县升格为直辖市",
+      "target": "新北市市长",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2010-12-25",
+        "description": {
+          "zh-cn": "该事件的发生，设立了新北市市长这一职务。",
+          "en": "This event established the position of Mayor of New Taipei City."
+        }
+      }
+    },
+    {
+      "source": "台北县升格为直辖市",
+      "target": "台北县县长",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2010-12-25",
+        "description": {
+          "zh-cn": "该事件的发生，使得台北县县长职务被新北市市长职务取代。",
+          "en": "This event led to the replacement of the Magistrate of Taipei County position with the Mayor of New Taipei City position."
+        }
+      }
+    }
+  ]
+}
