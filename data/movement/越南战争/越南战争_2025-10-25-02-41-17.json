@@ -1,0 +1,839 @@
+{
+  "nodes": [
+    {
+      "id": "越南战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "越南战争",
+          "越战",
+          "第二次印度支那战争",
+          "越南抗美救国战争",
+          "越南祖国解放战争"
+        ],
+        "en": [
+          "Vietnam War"
+        ]
+      },
+      "properties": {
+        "period": "1955-11-01 - 1975-04-30",
+        "description": {
+          "zh-cn": "冷战时期在越南、老挝和柬埔寨进行的一场大规模局部战争，是第二次世界大战后美国参战人数最多的海外军事冲突，对战后国际格局影响深远。",
+          "en": "A large-scale local war fought in Vietnam, Laos, and Cambodia during the Cold War. It was the overseas military conflict with the largest number of U.S. participants after World War II and had a profound impact on the post-war international landscape."
+        }
+      }
+    },
+    {
+      "id": "冷战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "冷战"
+        ],
+        "en": [
+          "Cold War"
+        ]
+      },
+      "properties": {
+        "period": "1947 - 1991",
+        "description": {
+          "zh-cn": "指美国和苏联及它们各自的盟友之间在二战结束后长达半个世纪的政治对抗。",
+          "en": "A period of geopolitical tension between the United States and the Soviet Union and their respective allies, which began following World War II."
+        }
+      }
+    },
+    {
+      "id": "印度支那战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "印度支那战争"
+        ],
+        "en": [
+          "Indochina Wars"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "20世纪在东南亚爆发的数场战争，越南战争是第二次印度支那战争。",
+          "en": "A series of wars fought in Southeast Asia during the 20th century. The Vietnam War is known as the Second Indochina War."
+        }
+      }
+    },
+    {
+      "id": "越南民主共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越南民主共和国",
+          "北越"
+        ],
+        "en": [
+          "Democratic Republic of Vietnam",
+          "North Vietnam"
+        ]
+      },
+      "properties": {
+        "period": "1945 - 1976",
+        "description": {
+          "zh-cn": "越南战争中的一方，由胡志明领导，获得苏联和中国等社会主义国家的支持。",
+          "en": "A party in the Vietnam War, led by Ho Chi Minh, supported by socialist countries such as the Soviet Union and China."
+        }
+      }
+    },
+    {
+      "id": "越南共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越南共和国",
+          "南越"
+        ],
+        "en": [
+          "Republic of Vietnam",
+          "South Vietnam"
+        ]
+      },
+      "properties": {
+        "period": "1955 - 1975",
+        "description": {
+          "zh-cn": "越南战争中的一方，获得美国及其他资本主义阵营国家的支持。",
+          "en": "A party in the Vietnam War, supported by the United States and other capitalist bloc countries."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "南越的主要支持者，并直接派遣军队参战。",
+          "en": "The main supporter of South Vietnam, which directly sent troops to participate in the war."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "北越的主要支持者之一，提供了大量的军事和经济援助。",
+          "en": "One of the main supporters of North Vietnam, providing substantial military and economic aid."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北越的主要支持者之一，提供了大量的军事、物资援助，并派遣支援部队。",
+          "en": "One of the main supporters of North Vietnam, providing substantial military and material aid, and dispatching support troops."
+        }
+      }
+    },
+    {
+      "id": "越南南方民族解放阵线",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越南南方民族解放阵线",
+          "越共"
+        ],
+        "en": [
+          "National Liberation Front of South Vietnam",
+          "Viet Cong"
+        ]
+      },
+      "properties": {
+        "period": "1960 - 1977",
+        "description": {
+          "zh-cn": "在南越进行游击战的武装组织，与北越结盟。",
+          "en": "An armed organization that conducted guerrilla warfare in South Vietnam, allied with North Vietnam."
+        }
+      }
+    },
+    {
+      "id": "胡志明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡志明"
+        ],
+        "en": [
+          "Hồ Chí Minh"
+        ]
+      },
+      "properties": {
+        "lifetime": "1890-05-19 - 1969-09-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "越南民主共和国的创始人和领导人，越南共产党的核心人物。",
+          "en": "The founder and leader of the Democratic Republic of Vietnam, and a key figure in the Communist Party of Vietnam."
+        }
+      }
+    },
+    {
+      "id": "吴廷琰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴廷琰"
+        ],
+        "en": [
+          "Ngô Đình Diệm"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-01-03 - 1963-11-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "越南共和国首任总统，在1963年的军事政变中被杀。",
+          "en": "The first president of the Republic of Vietnam, assassinated in the 1963 military coup."
+        }
+      }
+    },
+    {
+      "id": "林登·约翰逊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林登·约翰逊",
+          "约翰逊",
+          "詹森"
+        ],
+        "en": [
+          "Lyndon B. Johnson"
+        ]
+      },
+      "properties": {
+        "lifetime": "1908-08-27 - 1973-01-22",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第36任总统，其任内越南战争全面升级。",
+          "en": "The 36th President of the United States, during whose term the Vietnam War fully escalated."
+        }
+      }
+    },
+    {
+      "id": "理查德·尼克松",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "理查德·尼克松",
+          "尼克松",
+          "尼克森",
+          "尼克逊"
+        ],
+        "en": [
+          "Richard Nixon"
+        ]
+      },
+      "properties": {
+        "lifetime": "1913-01-09 - 1994-04-22",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第37任总统，推行“越南化”政策并逐步撤出美军，最终签署巴黎和平协约。",
+          "en": "The 37th President of the United States, who implemented the 'Vietnamization' policy, gradually withdrew U.S. troops, and ultimately signed the Paris Peace Accords."
+        }
+      }
+    },
+    {
+      "id": "约翰·肯尼迪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·肯尼迪",
+          "肯尼迪"
+        ],
+        "en": [
+          "John F. Kennedy"
+        ]
+      },
+      "properties": {
+        "lifetime": "1917-05-29 - 1963-11-22",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第35任总统，任内开始派遣美军特种作战部队进入南越。",
+          "en": "The 35th President of the United States, during whose term the deployment of U.S. special operations forces to South Vietnam began."
+        }
+      }
+    },
+    {
+      "id": "威廉·威斯特摩兰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·威斯特摩兰",
+          "威廉·魏摩兰",
+          "韦斯摩兰"
+        ],
+        "en": [
+          "William Westmoreland"
+        ]
+      },
+      "properties": {
+        "lifetime": "1914-03-26 - 2005-07-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "1964年至1968年间担任驻越美军最高司令官。",
+          "en": "Commander of U.S. forces in Vietnam from 1964 to 1968."
+        }
+      }
+    },
+    {
+      "id": "武元甲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "武元甲"
+        ],
+        "en": [
+          "Võ Nguyên Giáp"
+        ]
+      },
+      "properties": {
+        "lifetime": "1911-08-25 - 2013-10-04",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "越南人民军的主要指挥官，策划了多次重大战役，包括春节攻势和复活节攻势。",
+          "en": "A principal commander of the People's Army of Vietnam, who planned several major campaigns, including the Tet Offensive and the Easter Offensive."
+        }
+      }
+    },
+    {
+      "id": "巴黎和平协约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "巴黎和平协约",
+          "关于在越南结束战争、恢复和平的协定"
+        ],
+        "en": [
+          "Paris Peace Accords"
+        ]
+      },
+      "properties": {
+        "period": "1973-01-27",
+        "description": {
+          "zh-cn": "由美国、北越、南越和越南南方共和国临时革命政府签署的和平协议，标志着美军正式撤出越南。",
+          "en": "A peace treaty signed by the United States, North Vietnam, South Vietnam, and the Provisional Revolutionary Government of the Republic of South Vietnam, marking the official withdrawal of U.S. troops from Vietnam."
+        }
+      }
+    },
+    {
+      "id": "东京湾事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "东京湾事件",
+          "北部湾事件"
+        ],
+        "en": [
+          "Gulf of Tonkin incident"
+        ]
+      },
+      "properties": {
+        "period": "1964-08",
+        "description": {
+          "zh-cn": "美国声称其驱逐舰在东京湾（北部湾）遭到北越攻击，成为美国国会通过《东京湾决议案》，授权总统升级战争的直接原因。",
+          "en": "The United States claimed its destroyers were attacked by North Vietnam in the Gulf of Tonkin, which became the direct cause for the U.S. Congress to pass the Gulf of Tonkin Resolution, authorizing the president to escalate the war."
+        }
+      }
+    },
+    {
+      "id": "东京湾决议案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "东京湾决议案"
+        ],
+        "en": [
+          "Gulf of Tonkin Resolution"
+        ]
+      },
+      "properties": {
+        "period": "1964-08-07",
+        "description": {
+          "zh-cn": "美国国会通过的一项联合决议，授权总统林登·约翰逊采取一切必要措施，包括使用武装部队，以应对东南亚的“侵略”。",
+          "en": "A joint resolution passed by the U.S. Congress, authorizing President Lyndon B. Johnson to take all necessary measures, including the use of armed force, to repel aggression in Southeast Asia."
+        }
+      }
+    },
+    {
+      "id": "滚雷作战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "滚雷作战",
+          "轰雷行动",
+          "滚雷行动"
+        ],
+        "en": [
+          "Operation Rolling Thunder"
+        ]
+      },
+      "properties": {
+        "period": "1965-03-02 - 1968-11-02",
+        "description": {
+          "zh-cn": "美国对北越进行的大规模持续性战略轰炸行动。",
+          "en": "A large-scale, sustained strategic bombing campaign conducted by the United States against North Vietnam."
+        }
+      }
+    },
+    {
+      "id": "春节攻势",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "春节攻势",
+          "新春攻势"
+        ],
+        "en": [
+          "Tet Offensive"
+        ]
+      },
+      "properties": {
+        "period": "1968-01-30",
+        "description": {
+          "zh-cn": "北越和越共发动的一次大规模军事攻势，虽然在军事上失败，但在政治和宣传上取得巨大成功，成为战争的转折点。",
+          "en": "A massive military offensive launched by North Vietnam and the Viet Cong. Although a military failure, it was a major political and propaganda victory, becoming a turning point in the war."
+        }
+      }
+    },
+    {
+      "id": "越南化",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "越南化"
+        ],
+        "en": [
+          "Vietnamization"
+        ]
+      },
+      "properties": {
+        "period": "1969 - 1973",
+        "description": {
+          "zh-cn": "尼克松政府推行的政策，旨在逐步将战争责任转移给南越军队，以便美军撤出。",
+          "en": "A policy of the Nixon administration to expand, equip, and train South Vietnam's forces and assign to them an ever-increasing combat role, at the same time steadily reducing the number of U.S. combat troops."
+        }
+      }
+    },
+    {
+      "id": "解放南方统一日",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "解放南方统一日",
+          "西贡战役",
+          "四三〇事件",
+          "西贡沦陷"
+        ],
+        "en": [
+          "Fall of Saigon"
+        ]
+      },
+      "properties": {
+        "period": "1975-04-30",
+        "description": {
+          "zh-cn": "北越军队攻占南越首都西贡，标志着越南战争的结束和南越政权的覆灭。",
+          "en": "The capture of Saigon, the capital of South Vietnam, by the People's Army of Vietnam, marking the end of the Vietnam War and the collapse of the South Vietnamese government."
+        }
+      }
+    },
+    {
+      "id": "越南社会主义共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越南社会主义共和国",
+          "越南"
+        ],
+        "en": [
+          "Socialist Republic of Vietnam"
+        ]
+      },
+      "properties": {
+        "period": "1976-07-02 - ",
+        "description": {
+          "zh-cn": "由南北越在1976年统一后成立的国家。",
+          "en": "The state formed after the unification of North and South Vietnam in 1976."
+        }
+      }
+    },
+    {
+      "id": "1963年南越政变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1963年南越政变"
+        ],
+        "en": [
+          "1963 South Vietnamese coup"
+        ]
+      },
+      "properties": {
+        "period": "1963-11-01 - 1963-11-02",
+        "description": {
+          "zh-cn": "由南越军队发动的军事政变，推翻并杀害了总统吴廷琰。",
+          "en": "A military coup launched by the South Vietnamese army, which overthrew and assassinated President Ngô Đình Diệm."
+        }
+      }
+    },
+    {
+      "id": "杨文明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨文明"
+        ],
+        "en": [
+          "Dương Văn Minh"
+        ]
+      },
+      "properties": {
+        "lifetime": "1916-02-16 - 2001-08-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南越将军，曾发动政变推翻吴廷琰。在1975年西贡沦陷时担任南越末代总统，并向北越投降。",
+          "en": "A South Vietnamese general who led a coup against Ngô Đình Diệm. He served as the last president of South Vietnam and surrendered to North Vietnam during the Fall of Saigon in 1975."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国的主要缔造者和领导人，决定对北越提供大规模援助。",
+          "en": "The principal founder and leader of the People's Republic of China, who decided to provide large-scale aid to North Vietnam."
+        }
+      }
+    },
+    {
+      "id": "韩国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "韩国"
+        ],
+        "en": [
+          "South Korea"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "越南战争期间美国的盟友，派遣了仅次于美军规模的外国部队支援南越。",
+          "en": "An ally of the United States during the Vietnam War, which dispatched the second-largest contingent of foreign troops after the U.S. to support South Vietnam."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "冷战",
+      "target": "越南战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "越南战争是冷战在东南亚地区激化的表现，是两大阵营对抗的局部热战。",
+          "en": "The Vietnam War was a manifestation of the intensification of the Cold War in Southeast Asia, a local hot war in the confrontation between the two major blocs."
+        }
+      }
+    },
+    {
+      "source": "越南民主共和国",
+      "target": "越南共和国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1955-11-01",
+        "end_date": "1975-04-30",
+        "description": {
+          "zh-cn": "在越南战争中，北越与南越是主要交战方。",
+          "en": "During the Vietnam War, North Vietnam and South Vietnam were the main belligerents."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "越南民主共和国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1964-08",
+        "end_date": "1973-01-27",
+        "description": {
+          "zh-cn": "美国作为南越的主要盟友，与北越直接交战。",
+          "en": "The United States, as the main ally of South Vietnam, was in direct conflict with North Vietnam."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "越南共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1955",
+        "end_date": "1975-04-30",
+        "description": {
+          "zh-cn": "美国为南越提供了大量的军事和经济援助，并直接派兵参战。",
+          "en": "The United States provided substantial military and economic aid to South Vietnam and sent troops to fight directly."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "越南民主共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1950",
+        "end_date": "1975",
+        "description": {
+          "zh-cn": "中华人民共和国向北越提供了包括武器、物资和支援部队在内的大规模援助。",
+          "en": "The People's Republic of China provided large-scale aid to North Vietnam, including weapons, supplies, and support troops."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "越南民主共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1955",
+        "end_date": "1975",
+        "description": {
+          "zh-cn": "苏联向北越提供了大量的军事和财政援助。",
+          "en": "The Soviet Union provided substantial military and financial aid to North Vietnam."
+        }
+      }
+    },
+    {
+      "source": "约翰·肯尼迪",
+      "target": "越南战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1961-05",
+        "description": {
+          "zh-cn": "肯尼迪政府时期，美国开始向南越派遣特种作战部队，开启了美军战斗部队进入越南的先河。",
+          "en": "During the Kennedy administration, the United States began sending special operations forces to South Vietnam, pioneering the entry of U.S. combat troops into the country."
+        }
+      }
+    },
+    {
+      "source": "1963年南越政变",
+      "target": "吴廷琰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1963-11-02",
+        "end_date": "1963-11-02",
+        "description": {
+          "zh-cn": "在军事政变中，吴廷琰总统被推翻并被枪杀。",
+          "en": "During the military coup, President Ngô Đình Diệm was overthrown and assassinated."
+        }
+      }
+    },
+    {
+      "source": "杨文明",
+      "target": "1963年南越政变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1963-11-01",
+        "description": {
+          "zh-cn": "杨文明是发动1963年军事政变推翻吴廷琰的关键人物。",
+          "en": "Dương Văn Minh was a key figure in launching the 1963 military coup that overthrew Ngô Đình Diệm."
+        }
+      }
+    },
+    {
+      "source": "东京湾事件",
+      "target": "东京湾决议案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1964-08",
+        "description": {
+          "zh-cn": "东京湾事件直接导致美国国会通过《东京湾决议案》。",
+          "en": "The Gulf of Tonkin incident directly led to the U.S. Congress passing the Gulf of Tonkin Resolution."
+        }
+      }
+    },
+    {
+      "source": "东京湾决议案",
+      "target": "林登·约翰逊",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1964-08-07",
+        "description": {
+          "zh-cn": "该决议案授权总统林登·约翰逊采取包括使用武力在内的一切必要措施，为美国全面介入战争提供了法律依据。",
+          "en": "The resolution authorized President Lyndon B. Johnson to take all necessary measures, including the use of force, providing a legal basis for full-scale U.S. involvement in the war."
+        }
+      }
+    },
+    {
+      "source": "林登·约翰逊",
+      "target": "滚雷作战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1965-02-13",
+        "description": {
+          "zh-cn": "约翰逊总统批准了对北越的“滚雷”轰炸作战计划。",
+          "en": "President Johnson approved the 'Rolling Thunder' bombing campaign against North Vietnam."
+        }
+      }
+    },
+    {
+      "source": "春节攻势",
+      "target": "林登·约翰逊",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1968-01-30",
+        "description": {
+          "zh-cn": "春节攻势的规模和影响使美国公众对战争失去信心，导致约翰逊总统放弃竞选连任。",
+          "en": "The scale and impact of the Tet Offensive caused the American public to lose faith in the war, leading President Johnson to abandon his bid for re-election."
+        }
+      }
+    },
+    {
+      "source": "越南民主共和国",
+      "target": "春节攻势",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1968-01-30",
+        "description": {
+          "zh-cn": "北越军队与越共游击队共同发动了春节攻势。",
+          "en": "The North Vietnamese Army and Viet Cong guerrillas jointly launched the Tet Offensive."
+        }
+      }
+    },
+    {
+      "source": "理查德·尼克松",
+      "target": "越南化",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1969",
+        "description": {
+          "zh-cn": "尼克松总统上任后推行“越南化”政策，旨在让美军逐步撤出。",
+          "en": "After taking office, President Nixon implemented the 'Vietnamization' policy, aiming to gradually withdraw U.S. troops."
+        }
+      }
+    },
+    {
+      "source": "巴黎和平协约",
+      "target": "美国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1973-01-27",
+        "description": {
+          "zh-cn": "根据巴黎和平协约，所有美军作战部队需从越南撤出，结束了美国的直接军事介入。",
+          "en": "Under the Paris Peace Accords, all U.S. combat troops were to be withdrawn from Vietnam, ending direct U.S. military involvement."
+        }
+      }
+    },
+    {
+      "source": "解放南方统一日",
+      "target": "越南共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1975-04-30",
+        "end_date": "1975-04-30",
+        "description": {
+          "zh-cn": "北越军队攻占西贡，导致南越政权覆灭。",
+          "en": "The North Vietnamese army's capture of Saigon led to the collapse of the South Vietnamese government."
+        }
+      }
+    },
+    {
+      "source": "越南民主共和国",
+      "target": "越南社会主义共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1976-07-02",
+        "description": {
+          "zh-cn": "北越在战胜南越后，于1976年将南北统一，成立了越南社会主义共和国。",
+          "en": "After defeating South Vietnam, North Vietnam unified the north and south in 1976, establishing the Socialist Republic of Vietnam."
+        }
+      }
+    },
+    {
+      "source": "威廉·威斯特摩兰",
+      "target": "林登·约翰逊",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1964",
+        "end_date": "1968",
+        "position": {
+          "zh-cn": "驻越美军最高司令官",
+          "en": "Commander, U.S. Military Assistance Command, Vietnam"
+        },
+        "description": {
+          "zh-cn": "在约翰逊总统任期内，威斯特摩兰将军作为驻越美军司令，向总统负责。",
+          "en": "During President Johnson's term, General Westmoreland, as the commander of U.S. forces in Vietnam, reported to the President."
+        }
+      }
+    },
+    {
+      "source": "胡志明",
+      "target": "越南民主共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1969-09-02",
+        "position": {
+          "zh-cn": "越南劳动党主席，越南民主共和国主席",
+          "en": "Chairman of the Workers' Party of Vietnam, President of the Democratic Republic of Vietnam"
+        },
+        "description": {
+          "zh-cn": "胡志明是北越的最高领导人，直到他于1969年去世。",
+          "en": "Ho Chi Minh was the supreme leader of North Vietnam until his death in 1969."
+        }
+      }
+    },
+    {
+      "source": "韩国",
+      "target": "越南共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1964",
+        "end_date": "1973",
+        "description": {
+          "zh-cn": "韩国派遣了大规模作战部队以支援南越政府。",
+          "en": "South Korea dispatched large-scale combat troops to support the South Vietnamese government."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "nodes": [
+    {
+      "id": "武汉会战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "武汉会战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1938-06-11 - 1938-10-25",
+        "location": {
+          "zh-cn": "安徽省、江西省、河南省、浙江省、湖北省",
+          "en": "Anhui, Jiangxi, Henan, Zhejiang, Hubei"
+        },
+        "description": {
+          "zh-cn": "中国抗日战争初期时间最长、规模最庞大的战役。战役以日军占领武汉告终，标志着抗日战争进入战略相持阶段。",
+          "en": "The longest and largest battle in the early stages of the Second Sino-Japanese War. The battle ended with the Japanese capture of Wuhan, marking the beginning of a stalemate phase in the war."
+        }
+      }
+    },
+    {
+      "id": "抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "抗日战争",
+          "中国抗日战争"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937-07-07 - 1945-09-02",
+        "description": {
+          "zh-cn": "指20世纪30年代至40年代，中国抵抗大日本帝国侵略的全面战争。",
+          "en": "The full-scale war fought between the Republic of China and the Empire of Japan from the 1930s to the 1940s."
+        }
+      }
+    },
+    {
+      "id": "国民革命军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军"
+        ],
+        "en": [
+          "National Revolutionary Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国在1925年至1947年间的国家军队，由中国国民党创建并领导。",
+          "en": "The military arm of the Kuomintang (the Chinese Nationalist Party) from 1925 to 1947 in the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国陆军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国陆军",
+          "日军"
+        ],
+        "en": [
+          "Imperial Japanese Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1868年至1945年期间大日本帝国的陆上武装部队。",
+          "en": "The official ground-based armed force of the Empire of Japan from 1868 to 1945."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治家、军事家，在武汉会战期间担任国民政府军事委员会委员长，为中国方面最高指挥官。",
+          "en": "A Chinese politician and military leader who served as the Chairman of the National Military Council during the Battle of Wuhan, acting as the supreme commander of the Chinese forces."
+        }
+      }
+    },
+    {
+      "id": "畑俊六",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "畑俊六"
+        ],
+        "en": [
+          "Shunroku Hata"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本陆军大将，在武汉会战期间担任华中方面军司令官，为日军方面主要指挥官。",
+          "en": "A general in the Imperial Japanese Army who served as the commander of the Central China Area Army during the Battle of Wuhan, acting as a main commander for the Japanese forces."
+        }
+      }
+    },
+    {
+      "id": "陈诚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈诚"
+        ],
+        "en": [
+          "Chen Cheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，武汉会战时任第九战区司令长官。",
+          "en": "A Chinese military and political figure who served as the commander of the 9th War Area during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "李宗仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李宗仁"
+        ],
+        "en": [
+          "Li Zongren"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治人物，新桂系首领之一，武汉会战时任第五战区司令长官。",
+          "en": "A Chinese military and political figure, one of the leaders of the New Guangxi clique, who served as the commander of the 5th War Area during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "白崇禧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白崇禧"
+        ],
+        "en": [
+          "Bai Chongxi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事家，新桂系首领之一，武汉会战期间曾代理第五战区司令长官。",
+          "en": "A Chinese general and a leader of the New Guangxi clique, who served as the acting commander of the 5th War Area during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "薛岳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "薛岳"
+        ],
+        "en": [
+          "Xue Yue"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军一级上将，在武汉会战期间指挥了万家岭战役。",
+          "en": "A General of the Republic of China's army, who commanded the Battle of Wanjialing during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "冈村宁次",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冈村宁次"
+        ],
+        "en": [
+          "Yasuji Okamura"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本陆军大将，在武汉会战期间指挥日军第11军主攻武汉。",
+          "en": "A general in the Imperial Japanese Army who commanded the Japanese 11th Army in the main assault on Wuhan during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "东久迩宫稔彦王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "东久迩宫稔彦王"
+        ],
+        "en": [
+          "Prince Naruhiko Higashikuni"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本皇族、陆军大将，在武汉会战期间指挥日军第2军助攻武汉。",
+          "en": "A Japanese imperial prince and general of the Imperial Japanese Army who commanded the Japanese 2nd Army in a supporting attack on Wuhan during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "苏联航空志愿队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联航空志愿队",
+          "航空志愿队"
+        ],
+        "en": [
+          "Soviet Volunteer Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苏联于1937年至1941年间为援助中华民国抗日战争而派遣的空军人员。",
+          "en": "A group of air force personnel sent by the Soviet Union to aid the Republic of China in the Second Sino-Japanese War between 1937 and 1941."
+        }
+      }
+    },
+    {
+      "id": "华中方面军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华中方面军"
+        ],
+        "en": [
+          "Central China Area Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国陆军的一个方面军，是进攻武汉的日军主力部队。",
+          "en": "An army group of the Imperial Japanese Army, which was the main Japanese force in the attack on Wuhan."
+        }
+      }
+    },
+    {
+      "id": "武汉",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "武汉",
+          "武汉三镇",
+          "武昌",
+          "汉口",
+          "汉阳 (武汉三镇)"
+        ],
+        "en": [
+          "Wuhan",
+          "Three Towns of Wuhan",
+          "Wuchang",
+          "Hankou",
+          "Hanyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国湖北省省会，长江中游城市。在南京沦陷后成为中国的战时首都，也是武汉会战的核心地点。",
+          "en": "The capital of Hubei Province, a major city in the middle reaches of the Yangtze River. It became China's wartime capital after the fall of Nanjing and was the focal point of the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "国民政府军事委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府军事委员会"
+        ],
+        "en": [
+          "Military Affairs Commission"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国国民政府时期的最高军事领导机构，负责策划和指挥武汉会战。",
+          "en": "The highest military command organization of the Nationalist Government of the Republic of China, responsible for planning and directing the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "第五战区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第五战区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "抗日战争期间，中国国民革命军的一个战区，负责武汉会战的江北防务。",
+          "en": "A war zone of the National Revolutionary Army during the Second Sino-Japanese War, responsible for the defense north of the Yangtze River during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "第九战区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第九战区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "抗日战争期间，中国国民革命军的一个战区，负责武汉会战的江南防务。",
+          "en": "A war zone of the National Revolutionary Army during the Second Sino-Japanese War, responsible for the defense south of the Yangtze River during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "万家岭战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "万家岭战役",
+          "万家岭大捷"
+        ],
+        "en": [
+          "Battle of Wanjialing"
+        ]
+      },
+      "properties": {
+        "period": "1938-09 - 1938-10",
+        "description": {
+          "zh-cn": "武汉会战中的一场重要战役，中国军队在此重创日军第106师团等部。",
+          "en": "A significant battle within the larger Battle of Wuhan, where Chinese forces inflicted heavy casualties on the Japanese 106th Division and other units."
+        }
+      }
+    },
+    {
+      "id": "第106师团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第106师团"
+        ],
+        "en": [
+          "106th Division"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国陆军的一个师团，在万家岭战役中遭到中国军队重创。",
+          "en": "A division of the Imperial Japanese Army that suffered heavy losses against Chinese forces in the Battle of Wanjialing."
+        }
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国",
+          "中华民国大陆时期"
+        ],
+        "en": [
+          "Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1912年至1949年间统治中国大陆的政权，是抗日战争中与日本作战的主要力量。",
+          "en": "The regime that ruled mainland China from 1912 to 1949, and the main force fighting against Japan in the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1868年至1947年间的日本，是发动侵华战争和第二次世界大战的轴心国之一。",
+          "en": "Japan from 1868 to 1947, one of the Axis powers that initiated the invasion of China and World War II."
+        }
+      }
+    },
+    {
+      "id": "裕仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "裕仁"
+        ],
+        "en": [
+          "Hirohito"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本第124代天皇，在武汉会战前下令要给国民政府最后致命的一击。",
+          "en": "The 124th Emperor of Japan who, before the Battle of Wuhan, ordered a final, fatal blow to be dealt to the Nationalist Government."
+        }
+      }
+    },
+    {
+      "id": "花园口决堤事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "花园口决堤事件"
+        ],
+        "en": [
+          "1938 Yellow River flood"
+        ]
+      },
+      "properties": {
+        "period": "1938-06-09",
+        "location": {
+          "zh-cn": "郑州花园口镇",
+          "en": "Huayuankou, Zhengzhou"
+        },
+        "description": {
+          "zh-cn": "抗日战争期间，中国国民政府为阻碍日军进攻武汉而主动炸开黄河堤坝的事件。",
+          "en": "An event during the Second Sino-Japanese War where the Chinese Nationalist Government deliberately broke the Yellow River dikes to halt the advance of Japanese forces on Wuhan."
+        }
+      }
+    },
+    {
+      "id": "广州战役 (1938年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "广州战役 (1938年)",
+          "广州战役"
+        ],
+        "en": [
+          "Canton Operation (1938)"
+        ]
+      },
+      "properties": {
+        "period": "1938-10",
+        "description": {
+          "zh-cn": "武汉会战期间日军对广东发动的战役，其迅速胜利导致国民政府决定放弃武汉。",
+          "en": "A campaign launched by the Japanese army in Guangdong during the Battle of Wuhan. Its swift success led to the Nationalist Government's decision to abandon Wuhan."
+        }
+      }
+    },
+    {
+      "id": "汪精卫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪精卫"
+        ],
+        "en": [
+          "Wang Jingwei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党副总裁，在武汉会战后发表“艳电”，公开投向日本。",
+          "en": "Vice President of the Kuomintang who, after the Battle of Wuhan, issued the 'Yan Telegram' and publicly defected to Japan."
+        }
+      }
+    },
+    {
+      "id": "汪精卫政权",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汪精卫政权"
+        ],
+        "en": [
+          "Wang Jingwei regime"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汪精卫在日本支持下于南京成立的亲日傀儡政权。",
+          "en": "A pro-Japanese puppet state established by Wang Jingwei in Nanjing with the support of Japan."
+        }
+      }
+    },
+    {
+      "id": "艳电",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "艳电"
+        ],
+        "en": [
+          "Yan Telegram"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汪精卫于1938年12月29日发表的电报，公开响应日本首相近卫文麿的对华声明，主张与日本议和。",
+          "en": "A telegram issued by Wang Jingwei on December 29, 1938, publicly responding to Japanese Prime Minister Fumimaro Konoe's statement on China, advocating for peace negotiations with Japan."
+        }
+      }
+    },
+    {
+      "id": "闲院宫载仁亲王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "闲院宫载仁亲王"
+        ],
+        "en": [
+          "Prince Kan'in Kotohito"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本皇族、陆军元帅，在武汉会战期间传达天皇命令，批准使用化学武器。",
+          "en": "A member of the Japanese Imperial Family and Field Marshal in the Imperial Japanese Army, who conveyed the Emperor's order authorizing the use of chemical weapons during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "商震",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "商震"
+        ],
+        "en": [
+          "Shang Zhen"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军二级上将，时任第32军军长，在万家岭战役中成功阻击了日军第27师团的增援。",
+          "en": "A general of the Republic of China's army, then commander of the 32nd Army, who successfully blocked Japanese 27th Division reinforcements during the Battle of Wanjialing."
+        }
+      }
+    },
+    {
+      "id": "第27师团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第27师团"
+        ],
+        "en": [
+          "27th Division"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国陆军的一个师团，在万家岭战役期间试图增援第106师团但被阻击。",
+          "en": "A division of the Imperial Japanese Army that attempted to reinforce the 106th Division during the Battle of Wanjialing but was intercepted."
+        }
+      }
+    },
+    {
+      "id": "近卫文磨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "近卫文磨"
+        ],
+        "en": [
+          "Fumimaro Konoe"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任日本首相，于1938年推动通过《国家总动员法》。",
+          "en": "Prime Minister of Japan who pushed for the passage of the National Mobilization Law in 1938."
+        }
+      }
+    },
+    {
+      "id": "国家总动员法 (日本)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "国家总动员法 (日本)"
+        ],
+        "en": [
+          "National Mobilization Law"
+        ]
+      },
+      "properties": {
+        "period": "1938-05-05",
+        "description": {
+          "zh-cn": "日本国会在1938年通过的法律，授权政府为战争无限投入资源，使日本进入战时经济体制。",
+          "en": "A law passed by the Diet of Japan in 1938, authorizing the government to commit unlimited resources to the war effort, transitioning Japan to a wartime economy."
+        }
+      }
+    },
+    {
+      "id": "卢作孚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卢作孚"
+        ],
+        "en": [
+          "Lu Zuofu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国企业家，在武汉会战期间组织将武汉地区大量工业装备和人员转移到四川。",
+          "en": "A Chinese entrepreneur who organized the relocation of a large amount of industrial equipment and personnel from the Wuhan area to Sichuan during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "id": "中苏互不侵犯条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中苏互不侵犯条约"
+        ],
+        "en": [
+          "Sino-Soviet Non-Aggression Pact"
+        ]
+      },
+      "properties": {
+        "period": "1937-08-21",
+        "description": {
+          "zh-cn": "中华民国与苏联签订的条约，为苏联向中国提供军事及技术援助（如苏联航空志愿队）提供了基础。",
+          "en": "A treaty signed between the Republic of China and the Soviet Union, which provided the basis for Soviet military and technical assistance to China (such as the Soviet Volunteer Group)."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "抗日战争",
+      "target": "武汉会战",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "武汉会战是抗日战争初期的一场关键性大规模战役。",
+          "en": "The Battle of Wuhan was a key large-scale campaign in the early stages of the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "source": "国民革命军",
+      "target": "大日本帝国陆军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1938-06-11",
+        "end_date": "1938-10-25",
+        "description": {
+          "zh-cn": "在武汉会战中，国民革命军与大日本帝国陆军是主要交战双方。",
+          "en": "During the Battle of Wuhan, the National Revolutionary Army and the Imperial Japanese Army were the main combatants."
+        }
+      }
+    },
+    {
+      "source": "苏联航空志愿队",
+      "target": "国民革命军",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1938",
+        "description": {
+          "zh-cn": "苏联航空志愿队在武汉会战中援助国民革命军，协同中国空军作战。",
+          "en": "The Soviet Volunteer Group assisted the National Revolutionary Army during the Battle of Wuhan, fighting alongside the Chinese Air Force."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "武汉会战",
+      "type": "PUSHED",
+      "properties": {
+        "position": {
+          "zh-cn": "国民政府军事委员会委员长",
+          "en": "Chairman of the Military Affairs Commission"
+        },
+        "description": {
+          "zh-cn": "作为中国军队最高统帅，领导和指挥了武汉会战。",
+          "en": "As the supreme commander of the Chinese forces, he led and directed the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "source": "畑俊六",
+      "target": "武汉会战",
+      "type": "PUSHED",
+      "properties": {
+        "position": {
+          "zh-cn": "华中方面军指挥官",
+          "en": "Commander of the Central China Area Army"
+        },
+        "description": {
+          "zh-cn": "作为华中方面军指挥官，指挥日军发动了武汉会战。",
+          "en": "As the commander of the Central China Area Army, he commanded the Japanese forces in launching the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "source": "武汉会战",
+      "target": "大日本帝国陆军",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1938-10-25",
+        "description": {
+          "zh-cn": "日军虽占领武汉，但付出惨重代价（惨胜），未能达到迅速结束战争的战略目的，标志着其速战速决策略的破产。",
+          "en": "Although the Japanese army captured Wuhan, it suffered heavy casualties (a pyrrhic victory) and failed to achieve its strategic goal of ending the war quickly, marking the failure of its strategy of rapid victory."
+        }
+      }
+    },
+    {
+      "source": "武汉会战",
+      "target": "国民革命军",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1938-10-25",
+        "description": {
+          "zh-cn": "国民革命军未能守住武汉，被迫西迁，丧失了华中战略要地，但成功为后方转移争取了时间。",
+          "en": "The National Revolutionary Army failed to defend Wuhan and was forced to retreat westward, losing a strategic location in Central China, but successfully bought time for the relocation of resources to the rear."
+        }
+      }
+    },
+    {
+      "source": "武汉会战",
+      "target": "抗日战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "end_date": "1938-10-25",
+        "description": {
+          "zh-cn": "武汉会战的结束标志着抗日战争由战略防御转入战略相持阶段。",
+          "en": "The end of the Battle of Wuhan marked the transition of the Second Sino-Japanese War from strategic defense to strategic stalemate."
+        }
+      }
+    },
+    {
+      "source": "陈诚",
+      "target": "第九战区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1938",
+        "position": {
+          "zh-cn": "司令长官",
+          "en": "Commander-in-Chief"
+        },
+        "description": {
+          "zh-cn": "在武汉会战期间，陈诚指挥第九战区负责长江以南的防务。",
+          "en": "During the Battle of Wuhan, Chen Cheng commanded the 9th War Area, responsible for the defense south of the Yangtze River."
+        }
+      }
+    },
+    {
+      "source": "李宗仁",
+      "target": "第五战区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1938",
+        "position": {
+          "zh-cn": "司令长官",
+          "en": "Commander-in-Chief"
+        },
+        "description": {
+          "zh-cn": "在武汉会战期间，李宗仁指挥第五战区负责长江以北的防务。",
+          "en": "During the Battle of Wuhan, Li Zongren commanded the 5th War Area, responsible for the defense north of the Yangtze River."
+        }
+      }
+    },
+    {
+      "source": "冈村宁次",
+      "target": "第11军 (日本陆军)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1938",
+        "position": {
+          "zh-cn": "指挥官",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "在武汉会战期间，冈村宁次指挥第11军沿长江两岸主攻武汉。",
+          "en": "During the Battle of Wuhan, Yasuji Okamura commanded the 11th Army in the main assault on Wuhan along both banks of the Yangtze River."
+        }
+      }
+    },
+    {
+      "source": "花园口决堤事件",
+      "target": "大日本帝国陆军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1938-06-09",
+        "description": {
+          "zh-cn": "黄河花园口决堤造成的洪水，迫使日军中止了沿淮河主攻武汉的计划，阻延了其对武汉的进攻。",
+          "en": "The flood caused by the breaking of the Yellow River dikes at Huayuankou forced the Japanese army to abandon its plan to attack Wuhan along the Huai River, delaying its offensive on the city."
+        }
+      }
+    },
+    {
+      "source": "万家岭战役",
+      "target": "第106师团",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1938-10-07",
+        "end_date": "1938-10-10",
+        "description": {
+          "zh-cn": "在万家岭战役中，薛岳指挥的中国军队包围并重创了日军第106师团。",
+          "en": "In the Battle of Wanjialing, Chinese forces commanded by Xue Yue surrounded and inflicted heavy casualties on the Japanese 106th Division."
+        }
+      }
+    },
+    {
+      "source": "薛岳",
+      "target": "万家岭战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "薛岳作为第一兵团司令，指挥中国军队在万家岭地区取得了对日军的重大胜利。",
+          "en": "As commander of the 1st Army Group, Xue Yue led Chinese forces to a major victory against the Japanese army in the Wanjialing area."
+        }
+      }
+    },
+    {
+      "source": "商震",
+      "target": "第27师团",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1938-10",
+        "description": {
+          "zh-cn": "在万家岭战役期间，商震指挥第32军成功阻击了试图增援第106师团的日军第27师团。",
+          "en": "During the Battle of Wanjialing, Shang Zhen commanded the 32nd Army and successfully intercepted the Japanese 27th Division, which was attempting to reinforce the 106th Division."
+        }
+      }
+    },
+    {
+      "source": "广州战役 (1938年)",
+      "target": "武汉会战",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1938-10",
+        "description": {
+          "zh-cn": "日军攻占广州切断了中国重要的对外补给线，使得武汉的战略地位下降，促使国民政府决定放弃武汉以保存实力。",
+          "en": "The Japanese capture of Guangzhou cut off a vital foreign supply line for China, diminishing the strategic importance of Wuhan and prompting the Nationalist Government to abandon the city to preserve its forces."
+        }
+      }
+    },
+    {
+      "source": "武汉会战",
+      "target": "汪精卫",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1938-12-29",
+        "description": {
+          "zh-cn": "武汉会战结束后，战争进入相持阶段，汪精卫对战局悲观，最终选择发表“艳电”，公开投向日本。",
+          "en": "After the Battle of Wuhan, the war entered a stalemate. Pessimistic about the situation, Wang Jingwei eventually chose to issue the 'Yan Telegram' and publicly defect to Japan."
+        }
+      }
+    },
+    {
+      "source": "汪精卫",
+      "target": "汪精卫政权",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1940-03-30",
+        "description": {
+          "zh-cn": "汪精卫在公开发表“艳电”投日后，在日本支持下成立了汪精卫政权。",
+          "en": "After publicly defecting to Japan by issuing the 'Yan Telegram,' Wang Jingwei established the Wang Jingwei regime with Japanese support."
+        }
+      }
+    },
+    {
+      "source": "闲院宫载仁亲王",
+      "target": "武汉会战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1938-08",
+        "end_date": "1938-10",
+        "description": {
+          "zh-cn": "传达天皇命令，在武汉会战期间批准在375处地点使用化学武器。",
+          "en": "Conveyed the Emperor's order, authorizing the use of chemical weapons at 375 locations during the Battle of Wuhan."
+        }
+      }
+    },
+    {
+      "source": "裕仁",
+      "target": "武汉会战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1938",
+        "description": {
+          "zh-cn": "在武汉会战前的御前会议中，裕仁天皇表示要给国民政府最后致命的一击，迫使中国投降。",
+          "en": "In an Imperial Conference before the Battle of Wuhan, Emperor Hirohito stated the need to deal a final, fatal blow to the Nationalist Government to force China's surrender."
+        }
+      }
+    },
+    {
+      "source": "近卫文磨",
+      "target": "国家总动员法 (日本)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1938-05-05",
+        "description": {
+          "zh-cn": "时任日本首相近卫文磨于1938年5月5日发布《国家总动员法》，使日本进入战时经济体制以支持战争。",
+          "en": "Then Prime Minister of Japan, Fumimaro Konoe, promulgated the National Mobilization Law on May 5, 1938, transitioning Japan to a wartime economy to support the war."
+        }
+      }
+    },
+    {
+      "source": "中苏互不侵犯条约",
+      "target": "苏联航空志愿队",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《中苏互不侵犯条约》的签订是苏联向中国提供包括苏联航空志愿队在内的军事援助的基础。",
+          "en": "The signing of the Sino-Soviet Non-Aggression Pact was the basis for the Soviet Union providing military aid to China, including the Soviet Volunteer Group."
+        }
+      }
+    },
+    {
+      "source": "武汉会战",
+      "target": "万家岭战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "万家岭战役是武汉会战整体战役的一部分。",
+          "en": "The Battle of Wanjialing was part of the overall Battle of Wuhan campaign."
+        }
+      }
+    }
+  ]
+}
