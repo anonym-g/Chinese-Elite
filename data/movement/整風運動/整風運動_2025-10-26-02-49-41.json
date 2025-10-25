@@ -1,0 +1,977 @@
+{
+  "nodes": [
+    {
+      "id": "整风运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "整风运动",
+          "延安整风",
+          "抢救运动",
+          "抢救失足者运动"
+        ],
+        "en": [
+          "Yan'an Rectification Movement"
+        ]
+      },
+      "properties": {
+        "period": "1942-02 - 1945",
+        "location": {
+          "zh-cn": "延安",
+          "en": "Yan'an"
+        },
+        "description": {
+          "zh-cn": "由毛泽东于1942年至1945年间在延安发起的政治思想改造运动。该运动旨在清算以王明为首的“国际派”影响，统一党内思想，确立毛泽东思想的指导地位和毛泽东的绝对领导权威。运动后期发展为审干和“抢救运动”，造成大量冤假错案。",
+          "en": "A political and ideological rectification campaign launched by Mao Zedong in Yan'an from 1942 to 1945. The movement aimed to purge the influence of the 'Internationalist Faction' led by Wang Ming, unify the party's ideology, and establish the guiding role of Mao Zedong Thought and Mao's absolute leadership authority. In its later stages, it developed into cadre examinations and the 'Rescue Movement,' resulting in numerous unjust cases."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党、中华人民共和国的主要缔造者和领导人。他发动了延安整风运动以清算党内政治对手，巩固其在党内的最高领导地位。",
+          "en": "A main founder and leader of the Chinese Communist Party and the People's Republic of China. He launched the Yan'an Rectification Movement to purge political rivals within the party and consolidate his supreme leadership position."
+        }
+      }
+    },
+    {
+      "id": "王明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王明"
+        ],
+        "en": [
+          "Wang Ming"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期领导人，被视为共产国际在中共的代理人，是延安整风运动中“国际派”或“教条主义”的主要代表和被批判清算的对象。",
+          "en": "An early leader of the Chinese Communist Party, regarded as the Comintern's representative in the CCP. He was the main representative of the 'Internationalist Faction' or 'dogmatism' and the primary target of criticism and purge during the Yan'an Rectification Movement."
+        }
+      }
+    },
+    {
+      "id": "博古",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "博古"
+        ],
+        "en": [
+          "Bo Gu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期领导人，与王明同属“国际派”，在延安整风运动中被作为清算对象之一。",
+          "en": "An early leader of the Chinese Communist Party, belonging to the 'Internationalist Faction' with Wang Ming. He was one of the targets for purge during the Yan'an Rectification Movement."
+        }
+      }
+    },
+    {
+      "id": "共产国际",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "共产国际",
+          "第三国际"
+        ],
+        "en": [
+          "Comintern",
+          "Third International"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个国际共产主义组织，中国共产党早期曾是其分支。延安整风运动的一个主要目标就是摆脱其思想和组织上的影响。",
+          "en": "An international communist organization of which the early Chinese Communist Party was a branch. A major goal of the Yan'an Rectification Movement was to break free from its ideological and organizational influence."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党。延安整风运动是其历史上一次重要的内部思想和权力重组。",
+          "en": "The ruling party of China. The Yan'an Rectification Movement was a significant internal ideological and power reshuffle in its history."
+        }
+      }
+    },
+    {
+      "id": "毛泽东思想",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "毛泽东思想"
+        ],
+        "en": [
+          "Mao Zedong Thought"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "毛泽东领导下的中国共产党的指导思想，通过延安整风运动在党内被正式确立。",
+          "en": "The guiding ideology of the Chinese Communist Party under Mao Zedong's leadership, which was formally established within the party through the Yan'an Rectification Movement."
+        }
+      }
+    },
+    {
+      "id": "毛泽东崇拜",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "毛泽东崇拜"
+        ],
+        "en": [
+          "Mao Zedong worship"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "对毛泽东的个人崇拜现象。许多学者认为延安整风运动是毛泽东个人崇拜的开端。",
+          "en": "The personality cult surrounding Mao Zedong. Many scholars consider the Yan'an Rectification Movement as the beginning of Mao's personality cult."
+        }
+      }
+    },
+    {
+      "id": "康生",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "康生"
+        ],
+        "en": [
+          "Kang Sheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党高级领导人，在延安整风运动中担任核心领导职务，负责情报和安全工作，并主导了残酷的“抢救运动”，导致大量冤假错案。",
+          "en": "A high-ranking leader of the Chinese Communist Party who held a core leadership position during the Yan'an Rectification Movement, responsible for intelligence and security work. He led the brutal 'Rescue Movement,' which resulted in numerous unjust cases."
+        }
+      }
+    },
+    {
+      "id": "王实味",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王实味"
+        ],
+        "en": [
+          "Wang Shiwei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国作家和翻译家，因在延安整风运动期间发表《野百合花》等文章批评中共党内现象，成为运动中被批斗和迫害的典型人物，后被秘密处决。",
+          "en": "A Chinese writer and translator who became a typical figure of criticism and persecution during the Yan'an Rectification Movement for publishing articles like 'Wild Lily' that criticized phenomena within the CCP. He was later secretly executed."
+        }
+      }
+    },
+    {
+      "id": "苏德战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "苏德战争"
+        ],
+        "en": [
+          "Soviet-German War"
+        ]
+      },
+      "properties": {
+        "period": "1941-06-22 - ",
+        "description": {
+          "zh-cn": "第二次世界大战期间苏联与纳粹德国及其盟国之间的战争。这场战争使苏联无暇顾及中共事务，为毛泽东发动整风运动提供了时机。",
+          "en": "The war between the Soviet Union and Nazi Germany and its allies during World War II. This war left the Soviet Union unable to attend to CCP affairs, providing Mao Zedong with an opportunity to launch the Rectification Movement."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个前社会主义国家，通过共产国际对中国共产党早期发展有重要影响。苏德战争爆发后，其对中共的控制力减弱。",
+          "en": "A former socialist state that had a significant influence on the early development of the Chinese Communist Party through the Comintern. Its control over the CCP weakened after the outbreak of the Soviet-German War."
+        }
+      }
+    },
+    {
+      "id": "国际派 (中国共产党)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际派 (中国共产党)"
+        ],
+        "en": [
+          "International Faction of the CCP"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指中共党内以王明、博古为代表的、深受共产国际和苏联影响的政治派别，是延安整风运动的主要清算对象。",
+          "en": "Refers to the political faction within the CCP, represented by Wang Ming and Bo Gu, which was deeply influenced by the Comintern and the Soviet Union. It was the main target of the Yan'an Rectification Movement."
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": [
+          "Zhou Enlai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要领导人之一。在延安整风运动后期，因被认为与国际派有关联而被迫作出检讨。",
+          "en": "One of the main leaders of the Chinese Communist Party and the People's Republic of China. In the later stages of the Yan'an Rectification Movement, he was forced to make a self-criticism for his perceived association with the Internationalist Faction."
+        }
+      }
+    },
+    {
+      "id": "季米特洛夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "季米特洛夫"
+        ],
+        "en": [
+          "Georgi Dimitrov"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "保加利亚共产主义领导人，曾任共产国际主席。他在1943年致电毛泽东，对康生在整风运动中的做法表示不满，并要求保护王明和周恩来等人。",
+          "en": "A Bulgarian communist leader and former head of the Comintern. In 1943, he sent a telegram to Mao Zedong expressing dissatisfaction with Kang Sheng's methods in the Rectification Movement and requested the protection of Wang Ming, Zhou Enlai, and others."
+        }
+      }
+    },
+    {
+      "id": "中共中央总学习委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央总学习委员会"
+        ],
+        "en": [
+          "Central General Study Committee of the CCP"
+        ]
+      },
+      "properties": {
+        "period": "1942-05 - ",
+        "description": {
+          "zh-cn": "由毛泽东、刘少奇、康生三人在1942年5月组成的机构，用以领导全党和军队的整风学习运动。",
+          "en": "An organization formed in May 1942 by Mao Zedong, Liu Shaoqi, and Kang Sheng to lead the rectification study movement for the entire party and army."
+        }
+      }
+    },
+    {
+      "id": "刘少奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘少奇"
+        ],
+        "en": [
+          "Liu Shaoqi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要领导人之一。在延安整风运动期间，他与毛泽东、康生共同组成了领导运动的中共中央总学习委员会。",
+          "en": "One of the main leaders of the Chinese Communist Party and the People's Republic of China. During the Yan'an Rectification Movement, he, along with Mao Zedong and Kang Sheng, formed the Central General Study Committee to lead the movement."
+        }
+      }
+    },
+    {
+      "id": "在延安文艺座谈会上的讲话",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "在延安文艺座谈会上的讲话"
+        ],
+        "en": [
+          "Talks at the Yan'an Forum on Literature and Art"
+        ]
+      },
+      "properties": {
+        "period": "1942-05",
+        "description": {
+          "zh-cn": "毛泽东在延安整风运动期间发表的重要讲话，确立了中国共产党“文艺为政治服务”的方针，加强了党对文艺工作的控制。",
+          "en": "An important speech delivered by Mao Zedong during the Yan'an Rectification Movement, which established the Chinese Communist Party's policy of 'literature and art serving politics' and strengthened the party's control over literary and artistic work."
+        }
+      }
+    },
+    {
+      "id": "《野百合花》",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "《野百合花》"
+        ],
+        "en": [
+          "Wild Lily"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "王实味在延安整风运动初期发表的一篇杂文，因其批评了延安的一些现象而被作为“反党”的典型，导致作者遭到严酷的政治批斗和迫害。",
+          "en": "An essay published by Wang Shiwei in the early stages of the Yan'an Rectification Movement. It was criticized as 'anti-Party' for its critique of certain phenomena in Yan'an, leading to the author's severe political struggle and persecution."
+        }
+      }
+    },
+    {
+      "id": "陈毅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈毅"
+        ],
+        "en": [
+          "Chen Yi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的军事家和领导人之一。在延安整风运动后期，因被认为与国际派有关联而被迫作出检讨。",
+          "en": "A military leader and one of the leaders of the Chinese Communist Party and the People's Republic of China. In the later stages of the Yan'an Rectification Movement, he was forced to make a self-criticism for his perceived association with the Internationalist Faction."
+        }
+      }
+    },
+    {
+      "id": "彭德怀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭德怀"
+        ],
+        "en": [
+          "Peng Dehuai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的军事家和领导人之一。在延安整风运动后期，因被认为与国际派有关联而被迫作出检讨。",
+          "en": "A military leader and one of the leaders of the Chinese Communist Party and the People's Republic of China. In the later stages of the Yan'an Rectification Movement, he was forced to make a self-criticism for his perceived association with the Internationalist Faction."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1966年至1976年在中国发生的一场大规模政治运动。其斗争方式和思想控制手段被认为受到了延安整风运动的深刻影响。",
+          "en": "A large-scale political movement that occurred in China from 1966 to 1976. Its methods of struggle and ideological control are considered to have been deeply influenced by the Yan'an Rectification Movement."
+        }
+      }
+    },
+    {
+      "id": "反右运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "反右运动"
+        ],
+        "en": [
+          "Anti-Rightist Campaign"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1957年在中国发生的一场政治运动。其斗争方式和思想控制手段被认为受到了延安整风运动的影响。",
+          "en": "A political movement that occurred in China in 1957. Its methods of struggle and ideological control are considered to have been influenced by the Yan'an Rectification Movement."
+        }
+      }
+    },
+    {
+      "id": "五四运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "五四运动"
+        ],
+        "en": [
+          "May Fourth Movement"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1919年发生在中国的一场反帝反封建的爱国运动。其所倡导的自由、民主、个性解放精神在延安整风运动中被“延安精神”所取代。",
+          "en": "An anti-imperialist and anti-feudal patriotic movement in China in 1919. The spirit of freedom, democracy, and individual liberation it advocated was replaced by the 'Yan'an Spirit' during the Yan'an Rectification Movement."
+        }
+      }
+    },
+    {
+      "id": "延安精神",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "延安精神"
+        ],
+        "en": [
+          "Yan'an Spirit"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指在延安时期形成的一套价值观念，包括实事求是、为人民服务和艰苦奋斗等。它在延安整风运动中被确立，并取代了五四运动的精神。",
+          "en": "Refers to a set of values formed during the Yan'an period, including seeking truth from facts, serving the people, and arduous struggle. It was established during the Yan'an Rectification Movement and replaced the spirit of the May Fourth Movement."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央委员会主席",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央委员会主席"
+        ],
+        "en": [
+          "Chairman of the Central Committee of the Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的最高领导人职务，于1943年3月设立，由毛泽东担任，取代了原有的总书记设置，标志着毛泽东领导地位的正式确立。",
+          "en": "The highest leadership position of the Chinese Communist Party, established in March 1943 and held by Mao Zedong. It replaced the previous General Secretary position, marking the formal establishment of Mao's leadership."
+        }
+      }
+    },
+    {
+      "id": "中共中央总书记",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央总书记"
+        ],
+        "en": [
+          "General Secretary of the Central Committee of the CCP"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党早期的最高领导人职务。在1943年3月的整风运动中，该职务被取消，由党主席制度取代。",
+          "en": "The highest leadership position in the early CCP. This position was abolished during the Rectification Movement in March 1943 and replaced by the Party Chairman system."
+        }
+      }
+    },
+    {
+      "id": "张闻天",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张闻天"
+        ],
+        "en": [
+          "Zhang Wentian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期领导人，在延安整风运动前名义上担任中共中央总书记。运动中该职务被取消，其领导地位被毛泽东取代。",
+          "en": "An early leader of the Chinese Communist Party who nominally held the position of General Secretary of the Central Committee before the Yan'an Rectification Movement. The position was abolished during the movement, and his leadership role was replaced by Mao Zedong."
+        }
+      }
+    },
+    {
+      "id": "李克农",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李克农"
+        ],
+        "en": [
+          "Li Kenong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党情报工作领导人。在整风运动初期受康生影响推行“抢救运动”，但随后对康生的做法产生怀疑。",
+          "en": "A leader of the CCP's intelligence work. He was influenced by Kang Sheng to promote the 'Rescue Movement' in the early stages of the Rectification, but later became skeptical of Kang's methods."
+        }
+      }
+    },
+    {
+      "id": "纳粹德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国"
+        ],
+        "en": [
+          "Nazi Germany"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1933年至1945年期间由纳粹党统治的德国。其于1941年进攻苏联，引发苏德战争。",
+          "en": "Germany under the rule of the Nazi Party from 1933 to 1945. Its invasion of the Soviet Union in 1941 triggered the Soviet-German War."
+        }
+      }
+    },
+    {
+      "id": "新民主主义论",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "新民主主义论"
+        ],
+        "en": [
+          "On New Democracy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "毛泽东的理论著作，在延安整风运动中被指定为学习文件，并被认为是毛泽东主义（毛泽东思想）最重要的基础理论著作。",
+          "en": "A theoretical work by Mao Zedong, designated as a study document during the Yan'an Rectification Movement and considered the most important foundational theoretical work of Maoism (Mao Zedong Thought)."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "毛泽东",
+      "target": "整风运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1942-02",
+        "description": {
+          "zh-cn": "毛泽东于1942年2月在中共中央党校的开学典礼上宣布展开整风运动，并亲自领导了整个运动。",
+          "en": "Mao Zedong announced the start of the Rectification Movement at the opening ceremony of the Central Party School in February 1942 and personally led the entire campaign."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "毛泽东",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-03",
+        "description": {
+          "zh-cn": "通过整风运动，毛泽东完整地确立了其在中国共产党党内的绝对领导地位，并于1943年3月成为党主席。",
+          "en": "Through the Rectification Movement, Mao Zedong fully established his absolute leadership position within the Chinese Communist Party and became Party Chairman in March 1943."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "王明",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "整风运动的主要目标是清算以王明为代表的国际派（教条主义）路线，削弱其在党内的影响。",
+          "en": "The main objective of the Rectification Movement was to purge the Internationalist Faction (dogmatism) line represented by Wang Ming and weaken his influence within the party."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "博古",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "整风运动清算了以王明、博古为代表的国际派路线。",
+          "en": "The Rectification Movement purged the Internationalist Faction line represented by Wang Ming and Bo Gu."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "国际派 (中国共产党)",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "整风运动通过批判教条主义，打击并清算了在中共党内以王明为首的国际派。",
+          "en": "By criticizing dogmatism, the Rectification Movement targeted and purged the Internationalist Faction led by Wang Ming within the CCP."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "共产国际",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "整风运动强调马克思主义中国化，旨在摆脱共产国际对中国共产党的领导和思想束缚。",
+          "en": "The Rectification Movement emphasized the Sinicization of Marxism, aiming to break free from the leadership and ideological constraints of the Comintern on the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "毛泽东思想",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "整风运动在全党范围内树立了毛泽东思想作为党的指导思想。",
+          "en": "The Rectification Movement established Mao Zedong Thought as the guiding ideology of the party throughout its ranks."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "毛泽东崇拜",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "许多学者认为，延安整风运动是毛泽东个人崇拜的开端。",
+          "en": "Many scholars consider the Yan'an Rectification Movement to be the beginning of the personality cult of Mao Zedong."
+        }
+      }
+    },
+    {
+      "source": "苏德战争",
+      "target": "整风运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-06-22",
+        "description": {
+          "zh-cn": "1941年苏德战争爆发，使苏联和共产国际无暇经营中共事务，为毛泽东发动整风运动、摆脱苏联控制提供了时机。",
+          "en": "The outbreak of the Soviet-German War in 1941 left the Soviet Union and the Comintern unable to manage CCP affairs, providing Mao Zedong with an opportunity to launch the Rectification Movement and break free from Soviet control."
+        }
+      }
+    },
+    {
+      "source": "纳粹德国",
+      "target": "苏联",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1941-06-22",
+        "description": {
+          "zh-cn": "纳粹德国于1941年6月22日进攻苏联，苏德战争爆发。",
+          "en": "Nazi Germany attacked the Soviet Union on June 22, 1941, starting the Soviet-German War."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中共中央总学习委员会",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1942-05",
+        "description": {
+          "zh-cn": "与刘少奇、康生共同组成中共中央总学习委员会，以领导整风运动。",
+          "en": "Co-founded the Central General Study Committee with Liu Shaoqi and Kang Sheng to lead the Rectification Movement."
+        }
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "中共中央总学习委员会",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1942-05",
+        "description": {
+          "zh-cn": "与毛泽东、康生共同组成中共中央总学习委员会。",
+          "en": "Co-founded the Central General Study Committee with Mao Zedong and Kang Sheng."
+        }
+      }
+    },
+    {
+      "source": "康生",
+      "target": "中共中央总学习委员会",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1942-05",
+        "description": {
+          "zh-cn": "与毛泽东、刘少奇共同组成中共中央总学习委员会。",
+          "en": "Co-founded the Central General Study Committee with Mao Zedong and Liu Shaoqi."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "王实味",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "毛泽东将王实味作为批判目标，号召大家对其进行“拯救”，最终导致王实味遭到迫害并被处决。",
+          "en": "Mao Zedong targeted Wang Shiwei for criticism, calling on everyone to 'save' him, which ultimately led to Wang's persecution and execution."
+        }
+      }
+    },
+    {
+      "source": "康生",
+      "target": "王实味",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "康生在整风运动中主导了“抢救运动”，并被认为是下令处决王实味的主要责任人之一。",
+          "en": "Kang Sheng led the 'Rescue Movement' during the Rectification and is considered one of the main persons responsible for ordering Wang Shiwei's execution."
+        }
+      }
+    },
+    {
+      "source": "王实味",
+      "target": "《野百合花》",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "王实味是文章《野百合花》的作者。",
+          "en": "Wang Shiwei was the author of the article 'Wild Lily'."
+        }
+      }
+    },
+    {
+      "source": "《野百合花》",
+      "target": "王实味",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "这篇文章因批评延安存在的等级制度和官僚主义现象，成为王实味被打成“暗藏的国民党探子”并遭受迫害的直接导火索。",
+          "en": "This article, which criticized the hierarchical system and bureaucratic phenomena in Yan'an, became the direct trigger for Wang Shiwei being labeled a 'hidden KMT spy' and subjected to persecution."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "在延安文艺座谈会上的讲话",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1942-05",
+        "description": {
+          "zh-cn": "毛泽东在整风运动期间发表了此讲话，为中共的文艺政策定下基调。",
+          "en": "Mao Zedong delivered this speech during the Rectification Movement, setting the tone for the CCP's policy on literature and art."
+        }
+      }
+    },
+    {
+      "source": "在延安文艺座谈会上的讲话",
+      "target": "中国共产党",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "该讲话确立了文艺必须为政治服务的原则，成为此后几十年中国共产党的文艺指导方针。",
+          "en": "The speech established the principle that literature and art must serve politics, becoming the guiding policy for the CCP's literature and art for decades to come."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "周恩来",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在整风运动后期的高级干部整风中，周恩来因其与国际派的关联而被迫进行检讨认错。",
+          "en": "During the rectification of high-ranking cadres in the later stage of the movement, Zhou Enlai was forced to make a self-criticism and admit his mistakes due to his association with the Internationalist Faction."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "陈毅",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在整风运动后期的高级干部整风中，陈毅被迫进行检讨认错。",
+          "en": "During the rectification of high-ranking cadres in the later stage of the movement, Chen Yi was forced to make a self-criticism and admit his mistakes."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "彭德怀",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在整风运动后期的高级干部整风中，彭德怀被迫进行检讨认错。",
+          "en": "During the rectification of high-ranking cadres in the later stage of the movement, Peng Dehuai was forced to make a self-criticism and admit his mistakes."
+        }
+      }
+    },
+    {
+      "source": "季米特洛夫",
+      "target": "康生",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1943-12-22",
+        "description": {
+          "zh-cn": "季米特洛夫致电毛泽东，批评康生在整风运动中的做法扭曲了正确的党内措施，要求加以纠正。",
+          "en": "Dimitrov sent a telegram to Mao Zedong, criticizing Kang Sheng's methods in the Rectification Movement for distorting correct intra-party measures and demanded corrections."
+        }
+      }
+    },
+    {
+      "source": "季米特洛夫",
+      "target": "王明",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-12-22",
+        "description": {
+          "zh-cn": "在其致毛泽东的电报中，季米特洛夫特别要求保护王明。",
+          "en": "In his telegram to Mao Zedong, Dimitrov specifically requested the protection of Wang Ming."
+        }
+      }
+    },
+    {
+      "source": "季米特洛夫",
+      "target": "周恩来",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-12-22",
+        "description": {
+          "zh-cn": "在其致毛泽东的电报中，季米特洛夫特别要求保护周恩来。",
+          "en": "In his telegram to Mao Zedong, Dimitrov specifically requested the protection of Zhou Enlai."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "文化大革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "整风运动中形成的斗争手段和思想控制模式，为后来的文化大革命等政治运动提供了范本。",
+          "en": "The struggle tactics and ideological control models formed during the Rectification Movement provided a template for later political campaigns such as the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "反右运动",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "整风运动中形成的斗争手段和思想控制模式，在后来的反右运动中被重复运用。",
+          "en": "The struggle tactics and ideological control models formed during the Rectification Movement were repeatedly applied in the later Anti-Rightist Campaign."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "五四运动",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "整风运动中形成的“延安精神”取代了五四运动所倡导的自由、民主和个性解放精神。",
+          "en": "The 'Yan'an Spirit' formed during the Rectification Movement replaced the spirit of freedom, democracy, and individual liberation advocated by the May Fourth Movement."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "延安精神",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "整风运动确立了以“实事求是、全心全意为人民服务、自力更生艰苦奋斗”为核心的延安精神。",
+          "en": "The Rectification Movement established the Yan'an Spirit, centered on 'seeking truth from facts, serving the people wholeheartedly, and self-reliance and arduous struggle'."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "中共中央总书记",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1943-03",
+        "description": {
+          "zh-cn": "在1943年3月的中共中央政治局扩大会议上，总书记的设置被取消，代之以党主席。",
+          "en": "At the enlarged Politburo meeting in March 1943, the position of General Secretary was abolished and replaced by that of Party Chairman."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "中国共产党中央委员会主席",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-03",
+        "description": {
+          "zh-cn": "整风运动促成了中共领导体制的改变，于1943年3月设立了党主席一职，由毛泽东担任。",
+          "en": "The Rectification Movement led to a change in the CCP's leadership structure, establishing the position of Party Chairman in March 1943, which was assumed by Mao Zedong."
+        }
+      }
+    },
+    {
+      "source": "整风运动",
+      "target": "张闻天",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为整风前的名义最高领导人（总书记），张闻天的职位在运动中被取消，从而失去了其领导地位。",
+          "en": "As the nominal top leader (General Secretary) before the rectification, Zhang Wentian's position was abolished during the movement, causing him to lose his leadership role."
+        }
+      }
+    },
+    {
+      "source": "康生",
+      "target": "李克农",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "李克农在整风运动初期受到康生的影响，在西北公学内也发起了“抢救运动”，但后来逐渐对康生的做法产生怀疑。",
+          "en": "In the early stages of the Rectification Movement, Li Kenong was influenced by Kang Sheng and also launched the 'Rescue Movement' at the Northwest Public School, but later became skeptical of Kang's methods."
+        }
+      }
+    },
+    {
+      "source": "新民主主义论",
+      "target": "毛泽东思想",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在整风学习文件中，该著作被指为是毛泽东思想最重要的基础理论著作。",
+          "en": "In the rectification study documents, this work was identified as the most important foundational theoretical work of Mao Zedong Thought."
+        }
+      }
+    }
+  ]
+}

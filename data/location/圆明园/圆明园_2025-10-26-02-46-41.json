@@ -1,0 +1,933 @@
+{
+  "nodes": [
+    {
+      "id": "圆明园",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圆明园",
+          "圆明三园"
+        ]
+      },
+      "properties": {
+        "period": "1707 - 1860",
+        "location": {
+          "zh-cn": "北京市海淀区"
+        },
+        "description": {
+          "zh-cn": "清朝兴建的大型皇家园林，由圆明园、长春园、绮春园组成，有“万园之园”之称。1860年在第二次鸦片战争中被英法联军焚毁，现为遗址公园。"
+        }
+      }
+    },
+    {
+      "id": "长春园",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "长春园"
+        ]
+      },
+      "properties": {
+        "period": "1738 - 1860",
+        "description": {
+          "zh-cn": "圆明三园之一，位于圆明园东侧，内有著名的西洋楼景区。"
+        }
+      }
+    },
+    {
+      "id": "绮春园",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "绮春园",
+          "万春园"
+        ]
+      },
+      "properties": {
+        "period": "1772 - 1860",
+        "description": {
+          "zh-cn": "圆明三园之一，位于圆明园东南侧，主要作为太后、太妃居住之所。"
+        }
+      }
+    },
+    {
+      "id": "西洋楼",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西洋楼"
+        ]
+      },
+      "properties": {
+        "period": "1747 - 1759",
+        "description": {
+          "zh-cn": "长春园内的一组欧式宫苑建筑群，由郎世宁等传教士设计。"
+        }
+      }
+    },
+    {
+      "id": "圆明园遗址公园",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圆明园遗址公园"
+        ]
+      },
+      "properties": {
+        "period": "1988-06-29 - ",
+        "description": {
+          "zh-cn": "在圆明园遗址上建立的公园，于1988年对外开放，旨在保护遗址并进行爱国主义教育。"
+        }
+      }
+    },
+    {
+      "id": "康熙帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "康熙帝",
+          "康熙"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "雍正帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雍正帝",
+          "胤禛"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "乾隆帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乾隆帝",
+          "乾隆"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "同治帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "同治帝",
+          "同治"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第二次鸦片战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次鸦片战争",
+          "英法联军之役"
+        ]
+      },
+      "properties": {
+        "period": "1856-10 - 1860-10"
+      }
+    },
+    {
+      "id": "英法联军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英法联军"
+        ],
+        "en": [
+          "Anglo-French forces"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "詹姆斯·布鲁斯，第八代额尔金伯爵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "詹姆斯·布鲁斯，第八代额尔金伯爵",
+          "额尔金"
+        ],
+        "en": [
+          "James Bruce, 8th Earl of Elgin",
+          "Lord Elgin"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "文丰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "文丰"
+        ]
+      },
+      "properties": {
+        "death_place": {
+          "zh-cn": "圆明园"
+        },
+        "description": {
+          "zh-cn": "清朝管园大臣，在英法联军劫掠圆明园时投福海自尽。"
+        }
+      }
+    },
+    {
+      "id": "维克多·雨果",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "维克多·雨果",
+          "雨果"
+        ],
+        "en": [
+          "Victor Hugo"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "八国联军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "八国联军"
+        ],
+        "en": [
+          "Eight-Nation Alliance"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "圆明园管理处",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圆明园管理处"
+        ]
+      },
+      "properties": {
+        "period": "1976 - "
+      }
+    },
+    {
+      "id": "郎世宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郎世宁"
+        ],
+        "en": [
+          "Giuseppe Castiglione"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "意大利传教士、画家，曾为清朝宫廷服务，参与设计圆明园西洋楼。"
+        }
+      }
+    },
+    {
+      "id": "蒋友仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋友仁"
+        ],
+        "en": [
+          "Michel Benoist"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国传教士，曾为清朝宫廷服务，参与设计圆明园西洋楼。"
+        }
+      }
+    },
+    {
+      "id": "王致诚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王致诚"
+        ],
+        "en": [
+          "Jean Denis Attiret"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国传教士、画家，曾为清朝宫廷服务，参与设计圆明园西洋楼。"
+        }
+      }
+    },
+    {
+      "id": "江南",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江南"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "欧洲",
+      "type": "Location",
+      "name": {
+        "en": [
+          "Europe"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "邱园",
+      "type": "Organization",
+      "name": {
+        "en": [
+          "Kew Gardens"
+        ],
+        "zh-cn": [
+          "邱园"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于英国伦敦的皇家植物园，其建造曾参考中国造园理论。"
+        }
+      }
+    },
+    {
+      "id": "弗雷德里克 (威尔士亲王)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗雷德里克 (威尔士亲王)",
+          "威尔斯亲王腓特烈"
+        ],
+        "en": [
+          "Frederick, Prince of Wales"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "威廉·肯特",
+      "type": "Person",
+      "name": {
+        "en": [
+          "William Kent"
+        ]
+      },
+      "properties": {
+        "description": {
+          "en": "English architect, landscape architect, painter and furniture designer."
+        }
+      }
+    },
+    {
+      "id": "圆明园十二生肖兽首铜像",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圆明园十二生肖兽首铜像"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "圆明园海晏堂前“水力钟”喷泉的十二生肖人身兽首铜像，在第二次鸦片战争中被掠夺后流失海外。"
+        }
+      }
+    },
+    {
+      "id": "保利集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "保利集团"
+        ],
+        "en": [
+          "Poly Group"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "何鸿燊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何鸿燊"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "蔡铭超",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡铭超"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "弗朗索瓦-亨利·皮诺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗朗索瓦-亨利·皮诺"
+        ],
+        "en": [
+          "François-Henri Pinault"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "颐和园",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "颐和园"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "燕京大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "燕京大学"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京中山公园",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京中山公园",
+          "中山公园"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "横店集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "横店集团"
+        ],
+        "en": [
+          "Hengdian Group"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "横店圆明新园",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "横店圆明新园",
+          "万花园"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "浙江横店"
+        },
+        "description": {
+          "zh-cn": "由横店集团投资，在浙江横店按1:1比例重建的圆明园景观。"
+        }
+      }
+    },
+    {
+      "id": "徐文荣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐文荣"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "浙江企业家，横店集团创始人，主导了横店圆明新园的建设。"
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "清"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "康熙帝",
+      "target": "圆明园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1707",
+        "description": {
+          "zh-cn": "将此园赐予皇四子胤禛（后来的雍正帝），并赐匾额“圆明”。"
+        }
+      }
+    },
+    {
+      "source": "雍正帝",
+      "target": "圆明园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1725",
+        "description": {
+          "zh-cn": "即位后开始大规模扩建圆明园。"
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "圆明园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1737",
+        "description": {
+          "zh-cn": "对圆明园进行第二次扩建，形成了“圆明园四十景”。"
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "长春园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1738",
+        "description": {
+          "zh-cn": "主持兴建长春园，作为自己退位后的颐养之所。"
+        }
+      }
+    },
+    {
+      "source": "圆明园",
+      "target": "清朝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "大型皇家园林"
+        },
+        "description": {
+          "zh-cn": "圆明园是清朝兴建和经营长达150余年的大型皇家园林，供清帝避暑、听政。"
+        }
+      }
+    },
+    {
+      "source": "长春园",
+      "target": "圆明园",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "长春园是圆明三园之一，位于圆明园东侧。"
+        }
+      }
+    },
+    {
+      "source": "绮春园",
+      "target": "圆明园",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "绮春园是圆明三园之一，位于圆明园东南侧。"
+        }
+      }
+    },
+    {
+      "source": "西洋楼",
+      "target": "长春园",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "西洋楼是长春园北部的一组欧式宫苑建筑群。"
+        }
+      }
+    },
+    {
+      "source": "郎世宁",
+      "target": "西洋楼",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1747",
+        "position": {
+          "zh-cn": "设计师"
+        },
+        "description": {
+          "zh-cn": "作为设计师之一，参与了西洋楼的设计建造。"
+        }
+      }
+    },
+    {
+      "source": "蒋友仁",
+      "target": "西洋楼",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1747",
+        "position": {
+          "zh-cn": "设计师"
+        },
+        "description": {
+          "zh-cn": "作为设计师之一，参与了西洋楼的设计建造。"
+        }
+      }
+    },
+    {
+      "source": "王致诚",
+      "target": "西洋楼",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1747",
+        "position": {
+          "zh-cn": "设计师"
+        },
+        "description": {
+          "zh-cn": "作为设计师之一，参与了西洋楼的设计建造。"
+        }
+      }
+    },
+    {
+      "source": "江南",
+      "target": "圆明园",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "圆明园内仿建了许多江南名胜，如杭州西湖十景等。"
+        }
+      }
+    },
+    {
+      "source": "第二次鸦片战争",
+      "target": "圆明园",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1860-10",
+        "description": {
+          "zh-cn": "在第二次鸦片战争期间，圆明园被英法联军洗劫并纵火焚毁。"
+        }
+      }
+    },
+    {
+      "source": "英法联军",
+      "target": "圆明园",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1860-10",
+        "description": {
+          "zh-cn": "攻入北京后，对圆明园进行了大规模的劫掠和破坏，并纵火焚烧。"
+        }
+      }
+    },
+    {
+      "source": "詹姆斯·布鲁斯，第八代额尔金伯爵",
+      "target": "圆明园",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1860-10-18",
+        "description": {
+          "zh-cn": "为报复清政府虐待战俘，下令焚烧圆明园。"
+        }
+      }
+    },
+    {
+      "source": "文丰",
+      "target": "英法联军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1860-10-06",
+        "end_date": "1860-10-06",
+        "description": {
+          "zh-cn": "作为管园大臣，在圆明园大宫门劝说法军不要劫掠，见无法阻止劫掠后投福海自尽。"
+        }
+      }
+    },
+    {
+      "source": "维克多·雨果",
+      "target": "英法联军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1861",
+        "description": {
+          "zh-cn": "强烈谴责英法联军焚毁圆明园的行为，称之为“两个强盗”的行径。"
+        }
+      }
+    },
+    {
+      "source": "八国联军",
+      "target": "圆明园",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1900",
+        "description": {
+          "zh-cn": "八国联军攻入北京期间，圆明园再次遭到破坏，残余陈设被洗劫，幸存建筑被拆毁。"
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "圆明园",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在文化大革命期间，圆明园遗址再次遭到破坏，建筑基址和山形水系仅存轮廓。"
+        }
+      }
+    },
+    {
+      "source": "同治帝",
+      "target": "圆明园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1873",
+        "description": {
+          "zh-cn": "打算择要重修圆明园，但计划因财力不足而作罢。"
+        }
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "圆明园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1951",
+        "description": {
+          "zh-cn": "曾指示要保护好圆明园遗址。"
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国国务院",
+      "target": "圆明园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1988",
+        "description": {
+          "zh-cn": "将圆明园遗址公布为第三批全国重点文物保护单位。"
+        }
+      }
+    },
+    {
+      "source": "圆明园管理处",
+      "target": "圆明园遗址公园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1976",
+        "description": {
+          "zh-cn": "成立后开始对圆明园遗址实施保护、整理和利用，并建成遗址公园对外开放。"
+        }
+      }
+    },
+    {
+      "source": "圆明园",
+      "target": "欧洲",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "圆明园经传教士介绍至欧洲后，影响了欧洲的园林风格，推动了中国式园林的引入。"
+        }
+      }
+    },
+    {
+      "source": "圆明园",
+      "target": "邱园",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "英国的邱园在建造时参考了中国的造园理论，受到了圆明园等园林的影响。"
+        }
+      }
+    },
+    {
+      "source": "威廉·肯特",
+      "target": "邱园",
+      "type": "PUSHED",
+      "properties": {
+        "position": {
+          "en": "Designer"
+        },
+        "description": {
+          "zh-cn": "作为造园师，为威尔斯亲王腓特烈建造了邱园。"
+        }
+      }
+    },
+    {
+      "source": "弗雷德里克 (威尔士亲王)",
+      "target": "邱园",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为邱园的拥有者，委托威廉·肯特进行建造。"
+        }
+      }
+    },
+    {
+      "source": "英法联军",
+      "target": "圆明园十二生肖兽首铜像",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1860",
+        "description": {
+          "zh-cn": "在劫掠圆明园时盗走了海晏堂前的十二生肖兽首铜像。"
+        }
+      }
+    },
+    {
+      "source": "保利集团",
+      "target": "圆明园十二生肖兽首铜像",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2000-04",
+        "description": {
+          "zh-cn": "在香港佳士得拍卖会上购得牛首、虎首、猴首铜像，使其回归中国。"
+        }
+      }
+    },
+    {
+      "source": "何鸿燊",
+      "target": "圆明园十二生肖兽首铜像",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": [
+          "2003-09",
+          "2007-09"
+        ],
+        "description": {
+          "zh-cn": "出资购回猪首和马首铜像，并捐赠给国家。"
+        }
+      }
+    },
+    {
+      "source": "蔡铭超",
+      "target": "圆明园十二生肖兽首铜像",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2009-02",
+        "description": {
+          "zh-cn": "在法国佳士得拍卖会上拍下鼠首和兔首铜像，但随后以无法证明其合法来源为由拒绝付款，以此方式阻止其继续流失。"
+        }
+      }
+    },
+    {
+      "source": "弗朗索瓦-亨利·皮诺",
+      "target": "圆明园十二生肖兽首铜像",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2013-04",
+        "description": {
+          "zh-cn": "从原持有人手中买下鼠首和兔首，并无偿捐赠给中国。"
+        }
+      }
+    },
+    {
+      "source": "圆明园",
+      "target": "颐和园",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "圆明园被毁后，部分文物如长春园门铜麒麟、安佑宫丹陛石等被移往颐和园。"
+        }
+      }
+    },
+    {
+      "source": "圆明园",
+      "target": "燕京大学",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "圆明园被毁后，部分文物如安佑宫华表、石麒麟、西洋楼翻尾石鱼等被移往燕京大学。"
+        }
+      }
+    },
+    {
+      "source": "圆明园",
+      "target": "北京中山公园",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "圆明园被毁后，部分文物如兰亭八柱碑、远瀛观石栏杆等被移往中山公园。"
+        }
+      }
+    },
+    {
+      "source": "横店集团",
+      "target": "横店圆明新园",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2008-02",
+        "description": {
+          "zh-cn": "投资200亿元人民币，在浙江横店按1:1比例重建圆明园。"
+        }
+      }
+    },
+    {
+      "source": "徐文荣",
+      "target": "横店圆明新园",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2008-02",
+        "description": {
+          "zh-cn": "作为浙江企业家及横店集团创始人，主导并宣布了在横店兴建圆明新园的计划。"
+        }
+      }
+    }
+  ]
+}
