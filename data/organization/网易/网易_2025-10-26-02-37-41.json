@@ -1,0 +1,626 @@
+{
+  "nodes": [
+    {
+      "id": "网易",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "网易"
+        ],
+        "en": [
+          "NetEase"
+        ]
+      },
+      "properties": {
+        "period": "1997-06-11 - ",
+        "location": {
+          "zh-cn": "广州市、杭州市、北京市"
+        },
+        "description": {
+          "zh-cn": "一家中国大陆大型互联网技术公司和网络媒体公司，提供网络游戏、门户网站、电子邮件、电子商务等多种服务。",
+          "en": "A major Chinese internet technology and online media company, offering services including online games, web portals, email, and e-commerce."
+        }
+      }
+    },
+    {
+      "id": "丁磊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丁磊"
+        ],
+        "en": [
+          "Ding Lei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国企业家，网易公司的创始人、董事长兼首席执行官。",
+          "en": "Chinese entrepreneur, founder, chairman, and CEO of NetEase."
+        }
+      }
+    },
+    {
+      "id": "广州市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广州市"
+        ],
+        "en": [
+          "Guangzhou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国广东省的省会，网易公司的创始地。",
+          "en": "The capital of Guangdong Province, China, and the founding location of NetEase."
+        }
+      }
+    },
+    {
+      "id": "互联网泡沫",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "互联网泡沫"
+        ],
+        "en": [
+          "Dot-com bubble"
+        ]
+      },
+      "properties": {
+        "period": "2001",
+        "description": {
+          "zh-cn": "指2000年前后发生的全球性互联网公司投机热潮，其破灭对包括网易在内的众多科技公司造成了严重影响。",
+          "en": "Refers to the speculative bubble involving internet companies around the year 2000. Its burst had a severe impact on many tech companies, including NetEase."
+        }
+      }
+    },
+    {
+      "id": "纳斯达克",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳斯达克"
+        ],
+        "en": [
+          "NASDAQ"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的一家电子股票交易所，网易于2000年在此上市。",
+          "en": "An American electronic stock exchange where NetEase was listed in 2000."
+        }
+      }
+    },
+    {
+      "id": "暴雪娱乐",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "暴雪娱乐"
+        ],
+        "en": [
+          "Blizzard Entertainment"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国视频游戏开发商和发行商，曾与网易合作在中国大陆代理其多款游戏。",
+          "en": "An American video game developer and publisher that partnered with NetEase to operate several of its games in mainland China."
+        }
+      }
+    },
+    {
+      "id": "动视暴雪",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "动视暴雪"
+        ],
+        "en": [
+          "Activision Blizzard"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "暴雪娱乐的母公司。该公司于2022年宣布不再与网易续签代理协议。",
+          "en": "The parent company of Blizzard Entertainment. The company announced in 2022 that it would not renew its licensing agreement with NetEase."
+        }
+      }
+    },
+    {
+      "id": "第九城市",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第九城市"
+        ],
+        "en": [
+          "The9"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国网络游戏公司，在网易之前曾代理《魔兽世界》在中国大陆的运营。",
+          "en": "A Chinese online game company that was the operator of World of Warcraft in mainland China before NetEase."
+        }
+      }
+    },
+    {
+      "id": "魔兽世界",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "魔兽世界"
+        ],
+        "en": [
+          "World of Warcraft"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由暴雪娱乐制作的大型多人在线角色扮演游戏，其在中国大陆的代理权于2009年从第九城市移交至网易。",
+          "en": "A massively multiplayer online role-playing game created by Blizzard Entertainment. Its operating license in mainland China was transferred from The9 to NetEase in 2009."
+        }
+      }
+    },
+    {
+      "id": "中国电信",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国电信"
+        ],
+        "en": [
+          "China Telecom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国特大型通信企业，曾与网易合作推出移动社交应用“易信”。",
+          "en": "A major Chinese telecommunications company that partnered with NetEase to launch the mobile social app 'Yixin'."
+        }
+      }
+    },
+    {
+      "id": "易信",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "易信"
+        ],
+        "en": [
+          "Yixin"
+        ]
+      },
+      "properties": {
+        "period": "2013-08 - ",
+        "description": {
+          "zh-cn": "由网易与中国电信合作推出的移动社交应用。",
+          "en": "A mobile social application jointly launched by NetEase and China Telecom."
+        }
+      }
+    },
+    {
+      "id": "微软",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "微软"
+        ],
+        "en": [
+          "Microsoft"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国跨国科技公司，与网易达成协议，授权其在中国市场代理游戏《我的世界》。",
+          "en": "An American multinational technology company that reached an agreement with NetEase to exclusively distribute the game Minecraft in the Chinese market."
+        }
+      }
+    },
+    {
+      "id": "Mojang",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Mojang"
+        ],
+        "en": [
+          "Mojang Studios"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "瑞典的电子游戏开发商，《我的世界》的开发者，与网易达成代理协议。",
+          "en": "A Swedish video game developer, creator of Minecraft, which entered into a licensing agreement with NetEase."
+        }
+      }
+    },
+    {
+      "id": "阿里巴巴集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿里巴巴集团"
+        ],
+        "en": [
+          "Alibaba Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国大型电子商务公司，于2019年收购了网易旗下的跨境电商平台网易考拉。",
+          "en": "A major Chinese e-commerce company that acquired NetEase's cross-border e-commerce platform, Kaola, in 2019."
+        }
+      }
+    },
+    {
+      "id": "网易考拉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "网易考拉",
+          "网易考拉海购"
+        ],
+        "en": [
+          "NetEase Kaola"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "网易旗下的原跨境电商平台，后被阿里巴巴集团收购并更名为考拉海购。",
+          "en": "The former cross-border e-commerce platform of NetEase, later acquired by Alibaba Group and renamed Kaola Haigou."
+        }
+      }
+    },
+    {
+      "id": "考拉海购",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "考拉海购"
+        ],
+        "en": [
+          "Kaola Haigou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "原名网易考拉，被阿里巴巴集团收购后采用的名称。",
+          "en": "Formerly NetEase Kaola, the name adopted after its acquisition by Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "网易云音乐",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "网易云音乐"
+        ],
+        "en": [
+          "NetEase Cloud Music"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "网易公司推出的音乐服务产品，获得了阿里巴巴集团的投资。",
+          "en": "A music service product launched by NetEase, which received investment from Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "网易新闻",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "网易新闻"
+        ],
+        "en": [
+          "NetEase News"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "网易旗下的新闻资讯平台，因发布与官方立场形成对比的年度盘点视频而引发关注。",
+          "en": "The news and information platform under NetEase, which gained attention for publishing annual review videos that contrasted with the official stance."
+        }
+      }
+    },
+    {
+      "id": "网易新闻2022年度盘点",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "网易新闻2022年度盘点",
+          "幻想星辰大海不如活在当下"
+        ],
+        "en": [
+          "NetEase News 2022 Year-in-Review"
+        ]
+      },
+      "properties": {
+        "period": "2022-12-29",
+        "description": {
+          "zh-cn": "网易新闻于2022年底发布的年度事件盘点视频，因内容与官方宣传形成强烈对比而遭到审查删除。",
+          "en": "An annual event review video released by NetEase News at the end of 2022, which was censored and deleted due to its content starkly contrasting with official propaganda."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国网络审查",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国网络审查"
+        ],
+        "en": [
+          "Internet censorship in the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府对互联网内容进行的审查和控制，相关行为导致网易新闻发布的数个盘点及纪录片视频被删除。",
+          "en": "The censorship and control of internet content by the government of the People's Republic of China, actions which led to the deletion of several review and documentary videos published by NetEase News."
+        }
+      }
+    },
+    {
+      "id": "如此打工三十年",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "如此打工三十年"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2024-01-08",
+        "description": {
+          "zh-cn": "网易新闻于2024年初发布的纪录片，因反映合肥农民工的艰辛生活而被下架。",
+          "en": "A documentary released by NetEase News in early 2024, which was taken down for its depiction of the hardships of migrant workers in Hefei."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "丁磊",
+      "target": "网易",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1997-06-11",
+        "description": {
+          "zh-cn": "丁磊于1997年在广州创立了网易公司。",
+          "en": "Ding Lei founded NetEase in Guangzhou in 1997."
+        }
+      }
+    },
+    {
+      "source": "丁磊",
+      "target": "网易",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1997-06-11",
+        "position": {
+          "zh-cn": "董事长、首席执行官",
+          "en": "Chairman, CEO"
+        },
+        "description": {
+          "zh-cn": "丁磊是网易公司的董事长兼首席执行官。",
+          "en": "Ding Lei is the Chairman and CEO of NetEase."
+        }
+      }
+    },
+    {
+      "source": "互联网泡沫",
+      "target": "网易",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2001",
+        "description": {
+          "zh-cn": "2001年的互联网泡沫破灭对网易产生了很大影响，导致其股价一度跌破一美元。",
+          "en": "The burst of the dot-com bubble in 2001 had a significant impact on NetEase, causing its stock price to fall below one dollar."
+        }
+      }
+    },
+    {
+      "source": "纳斯达克",
+      "target": "网易",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2001-07-27",
+        "end_date": "2002-01-02",
+        "description": {
+          "zh-cn": "因涉嫌财务欺诈，纳斯达克将网易公司的股票停牌。",
+          "en": "NASDAQ suspended trading of NetEase's stock due to suspected financial fraud."
+        }
+      }
+    },
+    {
+      "source": "暴雪娱乐",
+      "target": "网易",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2009-04-16",
+        "description": {
+          "zh-cn": "暴雪娱乐宣布将《魔兽世界》在中国大陆的代理权从第九城市移交给网易公司。",
+          "en": "Blizzard Entertainment announced the transfer of the operating license for World of Warcraft in mainland China from The9 to NetEase."
+        }
+      }
+    },
+    {
+      "source": "暴雪娱乐",
+      "target": "第九城市",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2009-04-16",
+        "description": {
+          "zh-cn": "暴雪娱乐将《魔兽世界》在中国大陆的代理权从第九城市移交给网易公司，结束了与第九城市的合作关系。",
+          "en": "Blizzard Entertainment transferred the operating license for World of Warcraft in mainland China from The9 to NetEase, ending its partnership with The9."
+        }
+      }
+    },
+    {
+      "source": "动视暴雪",
+      "target": "网易",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-11-17",
+        "description": {
+          "zh-cn": "动视暴雪宣布由于未能达成新的代理协议，由网易代理的大部分暴雪游戏将在2023年1月23日暂停服务，结束了双方长期的合作关系。",
+          "en": "Activision Blizzard announced that due to the failure to reach a new licensing agreement, most Blizzard games operated by NetEase would suspend service on January 23, 2023, ending the long-term partnership between the two parties."
+        }
+      }
+    },
+    {
+      "source": "网易",
+      "target": "易信",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2013-08",
+        "description": {
+          "zh-cn": "网易与中国电信合作推出移动社交应用“易信”。",
+          "en": "NetEase partnered with China Telecom to launch the mobile social app 'Yixin'."
+        }
+      }
+    },
+    {
+      "source": "中国电信",
+      "target": "易信",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2013-08",
+        "description": {
+          "zh-cn": "中国电信与网易合作推出移动社交应用“易信”。",
+          "en": "China Telecom partnered with NetEase to launch the mobile social app 'Yixin'."
+        }
+      }
+    },
+    {
+      "source": "网易",
+      "target": "微软",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2016-05-20",
+        "description": {
+          "zh-cn": "网易与微软达成协议，取得《我的世界》在中国市场的独家代理权。",
+          "en": "NetEase reached an agreement with Microsoft to obtain the exclusive agency rights for Minecraft in the Chinese market."
+        }
+      }
+    },
+    {
+      "source": "网易",
+      "target": "Mojang",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2016-05-20",
+        "description": {
+          "zh-cn": "网易与《我的世界》的开发者Mojang达成协议，取得游戏在中国的独家代理权。",
+          "en": "NetEase reached an agreement with Mojang, the developer of Minecraft, to obtain the exclusive agency rights for the game in China."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "网易云音乐",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-09-06",
+        "description": {
+          "zh-cn": "阿里巴巴集团参与了网易云音乐的B2轮融资，投资约7亿美元。",
+          "en": "Alibaba Group participated in NetEase Cloud Music's Series B2 financing round with an investment of approximately $700 million."
+        }
+      }
+    },
+    {
+      "source": "网易",
+      "target": "网易考拉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2019-09-06",
+        "description": {
+          "zh-cn": "网易以20亿美元的价格将旗下跨境电商平台网易考拉出售给阿里巴巴集团。",
+          "en": "NetEase sold its cross-border e-commerce platform, NetEase Kaola, to Alibaba Group for $2 billion."
+        }
+      }
+    },
+    {
+      "source": "网易考拉",
+      "target": "阿里巴巴集团",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2019-09-06",
+        "description": {
+          "zh-cn": "阿里巴巴集团以20亿美元全资收购网易考拉，使其成为旗下子公司。",
+          "en": "Alibaba Group wholly acquired NetEase Kaola for $2 billion, making it a subsidiary."
+        }
+      }
+    },
+    {
+      "source": "网易考拉",
+      "target": "考拉海购",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2019-09-06",
+        "description": {
+          "zh-cn": "被阿里巴巴集团收购后，网易考拉更名为考拉海购。",
+          "en": "After being acquired by Alibaba Group, NetEase Kaola was renamed Kaola Haigou."
+        }
+      }
+    },
+    {
+      "source": "网易新闻",
+      "target": "网易新闻2022年度盘点",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-12-29",
+        "description": {
+          "zh-cn": "网易新闻于2022年12月29日发布了年度盘点视频《幻想星辰大海不如活在当下》。",
+          "en": "NetEase News released its 2022 year-in-review video on December 29, 2022."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国网络审查",
+      "target": "网易新闻2022年度盘点",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-12",
+        "description": {
+          "zh-cn": "由于视频内容与官方宣传形成强烈对比，网易新闻2022年度盘点视频遭到中国当局审查删除。",
+          "en": "Due to its content starkly contrasting with official propaganda, the NetEase News 2022 Year-in-Review video was censored and deleted by Chinese authorities."
+        }
+      }
+    },
+    {
+      "source": "网易新闻",
+      "target": "如此打工三十年",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2024-01-08",
+        "description": {
+          "zh-cn": "网易新闻于2024年1月8日发布了反映农民工生存状况的纪录片《如此打工三十年》。",
+          "en": "On January 8, 2024, NetEase News released the documentary 'Thus Have I Toiled for Thirty Years', which depicts the living conditions of migrant workers."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国网络审查",
+      "target": "如此打工三十年",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2024-01",
+        "description": {
+          "zh-cn": "纪录片《如此打工三十年》发布后不久即被中国网络审查机构下架。",
+          "en": "Shortly after its release, the documentary 'Thus Have I Toiled for Thirty Years' was taken down by Chinese internet censorship authorities."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,927 @@
+{
+  "nodes": [
+    {
+      "id": "俄罗斯入侵乌克兰",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "俄罗斯入侵乌克兰",
+          "俄罗斯对乌克兰的侵略"
+        ],
+        "en": [
+          "Russian invasion of Ukraine"
+        ]
+      },
+      "properties": {
+        "period": "2022-02-24 - ",
+        "location": {
+          "zh-cn": "乌克兰",
+          "en": "Ukraine"
+        },
+        "description": {
+          "zh-cn": "2022年2月24日，俄罗斯对乌克兰发动的全面入侵，标志着始于2014年起俄乌战争的重大升级。此次入侵为自第二次世界大战以来发生在欧洲大陆的最大规模的战争之一。",
+          "en": "On 24 February 2022, Russia launched a full-scale invasion of Ukraine, marking a major escalation of the Russo-Ukrainian War that began in 2014. The invasion is one of the largest-scale wars on the European continent since World War II."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯"
+        ],
+        "en": [
+          "Russia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个横跨东欧和北亚的联邦共和国，于2022年2月24日全面入侵乌克兰。",
+          "en": "A federal republic spanning Eastern Europe and Northern Asia, which launched a full-scale invasion of Ukraine on February 24, 2022."
+        }
+      }
+    },
+    {
+      "id": "乌克兰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰"
+        ],
+        "en": [
+          "Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东欧的国家，自2022年2月24日起遭受俄罗斯的全面入侵。",
+          "en": "A country in Eastern Europe that has been subjected to a full-scale invasion by Russia since February 24, 2022."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·普京",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·普京",
+          "普京"
+        ],
+        "en": [
+          "Vladimir Putin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯总统，于2022年2月24日下令对乌克兰开展“特别军事行动”。",
+          "en": "President of Russia, who ordered a \"special military operation\" against Ukraine on February 24, 2022."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·泽连斯基",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·泽连斯基",
+          "泽连斯基"
+        ],
+        "en": [
+          "Volodymyr Zelenskyy"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "乌克兰总统，在俄罗斯全面入侵后领导乌克兰进行抵抗。",
+          "en": "President of Ukraine, who has led the country's resistance following the full-scale Russian invasion."
+        }
+      }
+    },
+    {
+      "id": "俄乌战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "俄乌战争"
+        ],
+        "en": [
+          "Russo-Ukrainian War"
+        ]
+      },
+      "properties": {
+        "period": "2014-02 - ",
+        "description": {
+          "zh-cn": "始于2014年2月的俄罗斯与乌克兰之间的长期武装冲突。2022年的全面入侵是该战争的重大升级。",
+          "en": "A long-term armed conflict between Russia and Ukraine that began in February 2014. The 2022 full-scale invasion represents a major escalation of this war."
+        }
+      }
+    },
+    {
+      "id": "2021年—2022年俄乌危机",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "2021年—2022年俄乌危机",
+          "军事危机",
+          "俄乌危机"
+        ]
+      },
+      "properties": {
+        "period": "2021-10 - 2022-02-24",
+        "description": {
+          "zh-cn": "俄罗斯在乌克兰边境大规模集结军队引发的国际危机，最终升级为全面入侵。",
+          "en": "An international crisis sparked by a massive Russian military buildup on the Ukrainian border, which ultimately escalated into a full-scale invasion."
+        }
+      }
+    },
+    {
+      "id": "特别军事行动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "特别军事行动"
+        ]
+      },
+      "properties": {
+        "period": "2022-02-24 - ",
+        "description": {
+          "zh-cn": "俄罗斯政府对其2022年全面入侵乌克兰的官方代号。",
+          "en": "The official codename used by the Russian government for its 2022 full-scale invasion of Ukraine."
+        }
+      }
+    },
+    {
+      "id": "顿涅茨克人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "顿涅茨克人民共和国"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于乌克兰东部的亲俄分离主义政权，于2022年2月21日获俄罗斯承认独立。",
+          "en": "A pro-Russian separatist entity in eastern Ukraine, recognized as independent by Russia on February 21, 2022."
+        }
+      }
+    },
+    {
+      "id": "卢甘斯克人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "卢甘斯克人民共和国"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于乌克兰东部的亲俄分离主义政权，于2022年2月21日获俄罗斯承认独立。",
+          "en": "A pro-Russian separatist entity in eastern Ukraine, recognized as independent by Russia on February 21, 2022."
+        }
+      }
+    },
+    {
+      "id": "联合国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全球性国际组织，其大会多次通过决议谴责俄罗斯的入侵行为。",
+          "en": "A global intergovernmental organization whose General Assembly has passed multiple resolutions condemning Russia's invasion."
+        }
+      }
+    },
+    {
+      "id": "联合国大会第ES-11/1号决议",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "联合国大会第ES-11/1号决议"
+        ]
+      },
+      "properties": {
+        "period": "2022-03-02",
+        "description": {
+          "zh-cn": "联合国大会通过的决议，谴责俄罗斯入侵乌克兰并要求其全面撤军。",
+          "en": "A resolution passed by the UN General Assembly condemning Russia's invasion of Ukraine and demanding a full withdrawal of its forces."
+        }
+      }
+    },
+    {
+      "id": "国际法院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际法院"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "联合国的主要司法机关，裁定俄罗斯必须立即停止在乌克兰的军事行动。",
+          "en": "The principal judicial organ of the United Nations, which ruled that Russia must immediately suspend its military operations in Ukraine."
+        }
+      }
+    },
+    {
+      "id": "国际刑事法院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际刑事法院"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "调查和起诉犯有灭绝种族罪、危害人类罪、战争罪和侵略罪的个人的国际法庭。该法院已对普京等人发出逮捕令。",
+          "en": "An international tribunal that investigates and prosecutes individuals for genocide, crimes against humanity, war crimes, and the crime of aggression. It has issued an arrest warrant for Vladimir Putin and others."
+        }
+      }
+    },
+    {
+      "id": "2022年俄占乌克兰吞并公投",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2022年俄占乌克兰吞并公投"
+        ]
+      },
+      "properties": {
+        "period": "2022-09-23 - 2022-09-27",
+        "description": {
+          "zh-cn": "由俄罗斯在乌克兰四个占领区举行的公投，旨在将其并入俄罗斯联邦，但此举遭到国际社会广泛谴责。",
+          "en": "Referendums held by Russia in four occupied regions of Ukraine with the aim of annexing them into the Russian Federation, a move widely condemned by the international community."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯吞并乌克兰四州",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "俄罗斯吞并乌克兰四州"
+        ]
+      },
+      "properties": {
+        "start_date": "2022-09-30",
+        "description": {
+          "zh-cn": "俄罗斯正式宣布将乌克兰的顿涅茨克、卢甘斯克、赫尔松和扎波罗热四个州并入其领土。",
+          "en": "Russia formally announced the annexation of four Ukrainian oblasts—Donetsk, Luhansk, Kherson, and Zaporizhzhia—into its territory."
+        }
+      }
+    },
+    {
+      "id": "北大西洋公约组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北大西洋公约组织",
+          "北约"
+        ],
+        "en": [
+          "NATO"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "欧洲和北美国家间的军事联盟。俄罗斯对其东扩的担忧是发动战争的宣称理由之一。",
+          "en": "A military alliance between European and North American countries. Russia's concerns about its eastward expansion were one of the stated reasons for the war."
+        }
+      }
+    },
+    {
+      "id": "北约扩张",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "北约扩张"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北大西洋公约组织接纳新成员国，特别是向东欧扩张的过程，被俄罗斯视为对其安全利益的威胁。",
+          "en": "The process of the North Atlantic Treaty Organization admitting new member states, particularly its expansion into Eastern Europe, which Russia views as a threat to its security interests."
+        }
+      }
+    },
+    {
+      "id": "哈尔科夫反攻",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "哈尔科夫反攻"
+        ]
+      },
+      "properties": {
+        "period": "2022-09",
+        "description": {
+          "zh-cn": "2022年9月乌克兰发起的一次成功的军事反攻行动，夺回了哈尔科夫州的大片领土。",
+          "en": "A successful military counteroffensive launched by Ukraine in September 2022, which recaptured large territories in Kharkiv Oblast."
+        }
+      }
+    },
+    {
+      "id": "2022年乌克兰赫尔松反攻",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2022年乌克兰赫尔松反攻",
+          "赫尔松反攻"
+        ]
+      },
+      "properties": {
+        "period": "2022-09 - 2022-11",
+        "description": {
+          "zh-cn": "乌克兰于2022年下半年发起的反攻，最终解放了赫尔松市及第聂伯河西岸地区。",
+          "en": "A counteroffensive launched by Ukraine in the latter half of 2022, which culminated in the liberation of Kherson city and the west bank of the Dnipro River."
+        }
+      }
+    },
+    {
+      "id": "2023年乌克兰反攻",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2023年乌克兰反攻"
+        ]
+      },
+      "properties": {
+        "period": "2023-06",
+        "description": {
+          "zh-cn": "乌克兰于2023年6月再次发起的大规模反攻，但收效甚微。",
+          "en": "A large-scale counteroffensive launched again by Ukraine in June 2023, which had limited success."
+        }
+      }
+    },
+    {
+      "id": "迈丹起义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "迈丹起义",
+          "广场起义"
+        ]
+      },
+      "properties": {
+        "period": "2013-11 - 2014-02",
+        "description": {
+          "zh-cn": "2013年底至2014年初在乌克兰发生的一系列亲欧盟抗议活动，最终导致亲俄总统亚努科维奇下台。",
+          "en": "A series of pro-EU protests in Ukraine from late 2013 to early 2014, which ultimately led to the ousting of pro-Russian President Yanukovych."
+        }
+      }
+    },
+    {
+      "id": "维克多·费奥多罗维奇·亚努科维奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "维克多·费奥多罗维奇·亚努科维奇",
+          "亚努科维奇"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "乌克兰前总统，因在2013年拒绝与欧盟签订联合协议而引发迈丹革命，最终被罢免并逃离乌克兰。",
+          "en": "Former President of Ukraine, whose refusal to sign an association agreement with the EU in 2013 triggered the Euromaidan Revolution, leading to his ousting and flight from Ukraine."
+        }
+      }
+    },
+    {
+      "id": "尊严革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "尊严革命"
+        ]
+      },
+      "properties": {
+        "period": "2014-02",
+        "description": {
+          "zh-cn": "2014年2月爆发的革命，最终推翻了亚努科维奇政府。",
+          "en": "A revolution that broke out in February 2014, ultimately overthrowing the Yanukovych government."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯联邦并吞克里米亚",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "俄罗斯联邦并吞克里米亚"
+        ]
+      },
+      "properties": {
+        "period": "2014-03",
+        "description": {
+          "zh-cn": "2014年3月，俄罗斯在尊严革命后军事干预并随后吞并了乌克兰的克里米亚半岛。",
+          "en": "In March 2014, following the Revolution of Dignity, Russia militarily intervened and subsequently annexed the Crimean Peninsula from Ukraine."
+        }
+      }
+    },
+    {
+      "id": "顿巴斯战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "顿巴斯战争"
+        ]
+      },
+      "properties": {
+        "period": "2014-04 - 2022-02-24",
+        "description": {
+          "zh-cn": "2014年4月在乌克兰顿巴斯地区爆发的武装冲突，由俄罗斯支持的分裂分子与乌克兰政府军交战。",
+          "en": "An armed conflict that began in April 2014 in the Donbas region of Ukraine, fought between Russia-backed separatists and Ukrainian government forces."
+        }
+      }
+    },
+    {
+      "id": "乌克兰难民危机",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "乌克兰难民危机"
+        ]
+      },
+      "properties": {
+        "period": "2022-02-24 - ",
+        "description": {
+          "zh-cn": "因俄罗斯入侵乌克兰而导致的难民潮，是自二战以来欧洲最大的难民危机。",
+          "en": "The refugee outflow caused by the Russian invasion of Ukraine, representing the largest refugee crisis in Europe since World War II."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯入侵乌克兰的战争罪行",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "俄罗斯入侵乌克兰的战争罪行"
+        ]
+      },
+      "properties": {
+        "period": "2022-02-24 - ",
+        "description": {
+          "zh-cn": "俄罗斯军队在入侵乌克兰期间被指控犯下的一系列战争罪行，包括屠杀、酷刑、绑架儿童和使用违禁武器等。",
+          "en": "A series of war crimes allegedly committed by Russian forces during the invasion of Ukraine, including massacres, torture, child abductions, and the use of prohibited weapons."
+        }
+      }
+    },
+    {
+      "id": "阿夫迪伊夫卡战役 (2022年—2024年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "阿夫迪伊夫卡战役 (2022年—2024年)",
+          "阿夫迪伊夫卡战役"
+        ]
+      },
+      "properties": {
+        "period": "2022-02-24 - 2024-02-17",
+        "description": {
+          "zh-cn": "围绕顿涅茨克州阿夫迪伊夫卡市的长期战役，最终以俄罗斯占领该市告终。",
+          "en": "A prolonged battle for the city of Avdiivka in Donetsk Oblast, which concluded with its capture by Russian forces."
+        }
+      }
+    },
+    {
+      "id": "2024年哈尔科夫攻势",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2024年哈尔科夫攻势"
+        ]
+      },
+      "properties": {
+        "period": "2024-05-10 - ",
+        "description": {
+          "zh-cn": "2024年5月，俄罗斯在哈尔科夫州发动的新一轮攻势。",
+          "en": "A new offensive launched by Russia in Kharkiv Oblast in May 2024."
+        }
+      }
+    },
+    {
+      "id": "库尔斯克州攻势 (2024年—2025年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "库尔斯克州攻势 (2024年—2025年)",
+          "2024年库尔斯克州入侵"
+        ]
+      },
+      "properties": {
+        "period": "2024-08-06 - ",
+        "description": {
+          "zh-cn": "2024年8月，乌克兰军队对俄罗斯境内的库尔斯克州发动的攻势。",
+          "en": "An offensive launched by Ukrainian forces into Russia's Kursk Oblast in August 2024."
+        }
+      }
+    },
+    {
+      "id": "白俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "白俄罗斯"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东欧国家，允许俄罗斯利用其领土对乌克兰发动攻击，被视为俄罗斯的盟友。",
+          "en": "An Eastern European country that has allowed Russia to use its territory to launch attacks on Ukraine, considered an ally of Russia."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "被指控向俄罗斯提供经济支持和可用于制造武器的零组件。",
+          "en": "Accused of providing economic support and components that can be used for manufacturing weapons to Russia."
+        }
+      }
+    },
+    {
+      "id": "朝鲜民主主义人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜民主主义人民共和国",
+          "北韩"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "被指控向俄罗斯提供武器及派遣士兵参与战争。",
+          "en": "Accused of supplying weapons and sending soldiers to participate in the war on Russia's side."
+        }
+      }
+    },
+    {
+      "id": "伊朗",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伊朗"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "被指控向俄罗斯提供无人机和弹道导弹。",
+          "en": "Accused of supplying drones and ballistic missiles to Russia."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "乌克兰的主要军事援助国之一。",
+          "en": "One of the main providers of military assistance to Ukraine."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "俄罗斯",
+      "target": "俄罗斯入侵乌克兰",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-02-24",
+        "description": {
+          "zh-cn": "俄罗斯于2022年2月24日对乌克兰发动了全面入侵。",
+          "en": "Russia launched a full-scale invasion of Ukraine on February 24, 2022."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·普京",
+      "target": "俄罗斯入侵乌克兰",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-02-24",
+        "description": {
+          "zh-cn": "作为俄罗斯总统，弗拉基米尔·普京宣布以“去军事化”及“去纳粹化”为由对乌克兰开展“特别军事行动”，由此爆发全面战争。",
+          "en": "As President of Russia, Vladimir Putin announced a \"special military operation\" against Ukraine under the pretexts of \"demilitarization\" and \"denazification\", thus starting a full-scale war."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯入侵乌克兰",
+      "target": "俄乌战争",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2022-02-24",
+        "description": {
+          "zh-cn": "全面入侵标志着始于2014年的俄乌战争的重大升级。",
+          "en": "The full-scale invasion marked a major escalation of the Russo-Ukrainian War that began in 2014."
+        }
+      }
+    },
+    {
+      "source": "2021年—2022年俄乌危机",
+      "target": "俄罗斯入侵乌克兰",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "2022-02-24",
+        "description": {
+          "zh-cn": "在经历时长约一年的军事危机后，俄罗斯对乌克兰发动全面入侵。",
+          "en": "After a military crisis lasting about a year, Russia launched a full-scale invasion of Ukraine."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "乌克兰",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2014-02",
+        "description": {
+          "zh-cn": "自2014年以来，俄罗斯与乌克兰一直处于武装冲突状态，并在2022年升级为全面战争。",
+          "en": "Since 2014, Russia and Ukraine have been in a state of armed conflict, which escalated into a full-scale war in 2022."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "顿涅茨克人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-02-21",
+        "description": {
+          "zh-cn": "俄罗斯于2022年2月21日承认顿涅茨克人民共和国为独立国家。",
+          "en": "Russia recognized the Donetsk People's Republic as an independent state on February 21, 2022."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "卢甘斯克人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-02-21",
+        "description": {
+          "zh-cn": "俄罗斯于2022年2月21日承认卢甘斯克人民共和国为独立国家。",
+          "en": "Russia recognized the Luhansk People's Republic as an independent state on February 21, 2022."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·泽连斯基",
+      "target": "俄罗斯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-02-24",
+        "description": {
+          "zh-cn": "乌克兰总统弗拉基米尔·泽连斯基在俄罗斯入侵后宣布与俄罗斯断绝外交关系。",
+          "en": "Ukrainian President Volodymyr Zelenskyy announced the severance of diplomatic relations with Russia after the invasion."
+        }
+      }
+    },
+    {
+      "source": "联合国大会第ES-11/1号决议",
+      "target": "俄罗斯入侵乌克兰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-03-02",
+        "description": {
+          "zh-cn": "联合国大会通过决议，谴责俄罗斯入侵并要求其全面撤军。",
+          "en": "The UN General Assembly passed a resolution condemning the Russian invasion and demanding a full withdrawal of its forces."
+        }
+      }
+    },
+    {
+      "source": "国际法院",
+      "target": "俄罗斯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-03-16",
+        "description": {
+          "zh-cn": "国际法院裁定俄罗斯“必须立即停止军事行动”。",
+          "en": "The International Court of Justice ruled that Russia \"must immediately cease military operations.\""
+        }
+      }
+    },
+    {
+      "source": "国际刑事法院",
+      "target": "弗拉基米尔·普京",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2023-03-17",
+        "description": {
+          "zh-cn": "国际刑事法院以涉嫌非法将乌克兰儿童驱逐至俄罗斯的战争罪行为由，向俄罗斯总统普京发出逮捕令。",
+          "en": "The International Criminal Court issued an arrest warrant for Russian President Vladimir Putin on charges of war crimes related to the unlawful deportation of Ukrainian children to Russia."
+        }
+      }
+    },
+    {
+      "source": "乌克兰",
+      "target": "哈尔科夫反攻",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-09",
+        "description": {
+          "zh-cn": "2022年9月起，乌克兰发起反攻行动，先后夺回大片土地。",
+          "en": "Starting from September 2022, Ukraine launched a counteroffensive, successively recapturing large areas of land."
+        }
+      }
+    },
+    {
+      "source": "乌克兰",
+      "target": "2022年乌克兰赫尔松反攻",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-09",
+        "description": {
+          "zh-cn": "2022年9月起，乌克兰发起反攻行动，最终解放赫尔松市。",
+          "en": "Starting from September 2022, Ukraine launched a counteroffensive, eventually liberating the city of Kherson."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "2022年俄占乌克兰吞并公投",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-09-20",
+        "description": {
+          "zh-cn": "由俄罗斯实际控制的顿涅茨克、卢甘斯克、赫尔松和扎波罗热宣布将于9月23日至27日举行加入俄罗斯联邦的公投。",
+          "en": "The Russian-controlled areas of Donetsk, Luhansk, Kherson, and Zaporizhzhia announced referendums on joining the Russian Federation to be held from September 23 to 27."
+        }
+      }
+    },
+    {
+      "source": "2022年俄占乌克兰吞并公投",
+      "target": "俄罗斯吞并乌克兰四州",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-09-30",
+        "description": {
+          "zh-cn": "在有争议的公投后，俄罗斯于9月30日正式将乌东四州并入其领土。",
+          "en": "Following controversial referendums, Russia formally annexed the four eastern Ukrainian oblasts into its territory on September 30."
+        }
+      }
+    },
+    {
+      "source": "尊严革命",
+      "target": "维克多·费奥多罗维奇·亚努科维奇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-02",
+        "description": {
+          "zh-cn": "2014年2月爆发的尊严革命导致亲俄总统亚努科维奇被罢免下台并逃离乌克兰。",
+          "en": "The Revolution of Dignity in February 2014 led to the ousting of pro-Russian President Viktor Yanukovych, who then fled Ukraine."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "俄罗斯联邦并吞克里米亚",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-03",
+        "description": {
+          "zh-cn": "在尊严革命后，俄罗斯入侵并随后组织公投，非法吞并了乌克兰的克里米亚半岛。",
+          "en": "After the Revolution of Dignity, Russia invaded and subsequently organized a referendum to illegally annex the Crimean Peninsula from Ukraine."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "顿巴斯战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-04",
+        "description": {
+          "zh-cn": "俄罗斯支持乌克兰东部分裂势力，并在军事上秘密介入，引发了顿巴斯战争。",
+          "en": "Russia supported separatist forces in eastern Ukraine and secretly intervened militarily, sparking the War in Donbas."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯入侵乌克兰",
+      "target": "乌克兰难民危机",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-02-24",
+        "description": {
+          "zh-cn": "俄罗斯的入侵导致了欧洲自二战以来最大的难民危机。",
+          "en": "The Russian invasion caused the largest refugee crisis in Europe since World War II."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "北约扩张",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2021-12",
+        "description": {
+          "zh-cn": "俄罗斯向北约发出最后通牒，要求永久停止在东欧和乌克兰的任何军事活动，并反对乌克兰和格鲁吉亚加入北约。",
+          "en": "Russia issued an ultimatum to NATO, demanding a permanent halt to any military activities in Eastern Europe and Ukraine, and opposing the membership of Ukraine and Georgia in NATO."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "乌克兰",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-01",
+        "description": {
+          "zh-cn": "在局势升级之际，美国向乌克兰运送了致命武器和军事训练计划，以提高其抵抗能力。",
+          "en": "As tensions escalated, the United States sent lethal weapons and provided military training programs to Ukraine to enhance its defense capabilities."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "阿夫迪伊夫卡战役 (2022年—2024年)",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "2024-02-17",
+        "description": {
+          "zh-cn": "经过长期战斗，俄罗斯军队于2024年2月17日全面占领了阿夫迪伊夫卡。",
+          "en": "After a prolonged battle, Russian forces fully captured Avdiivka on February 17, 2024."
+        }
+      }
+    },
+    {
+      "source": "乌克兰",
+      "target": "库尔斯克州攻势 (2024年—2025年)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2024-08-06",
+        "description": {
+          "zh-cn": "乌克兰军队于2024年8月对俄罗斯库尔斯克州发起大规模入侵。",
+          "en": "Ukrainian forces launched a large-scale incursion into Russia's Kursk Oblast in August 2024."
+        }
+      }
+    },
+    {
+      "source": "白俄罗斯",
+      "target": "俄罗斯",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2022-02-24",
+        "description": {
+          "zh-cn": "白俄罗斯允许俄罗斯利用其领土集结军队并发动对乌克兰的军事攻势。",
+          "en": "Belarus allowed Russia to use its territory to assemble troops and launch military offensives against Ukraine."
+        }
+      }
+    },
+    {
+      "source": "朝鲜民主主义人民共和国",
+      "target": "俄罗斯",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜被指控向俄罗斯提供武器及派遣士兵以支持其在乌克兰的战争。",
+          "en": "North Korea is accused of supplying weapons and sending soldiers to Russia to support its war in Ukraine."
+        }
+      }
+    },
+    {
+      "source": "伊朗",
+      "target": "俄罗斯",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "伊朗被指控向俄罗斯提供无人机和弹道导弹。",
+          "en": "Iran is accused of supplying drones and ballistic missiles to Russia."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "俄罗斯",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "中国被指控向俄罗斯提供经济支持、武器零组件及其他物资。",
+          "en": "China is accused of providing economic support, weapon components, and other materials to Russia."
+        }
+      }
+    }
+  ]
+}
