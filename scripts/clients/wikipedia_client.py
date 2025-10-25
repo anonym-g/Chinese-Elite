@@ -97,8 +97,12 @@ class WikipediaClient:
         return reverse_map
     
     @wiki_sync_limiter.limit # 应用维基同步装饰器
-    def _fetch_qcode_from_api(self, article_title: str, lang: str = 'zh') -> str | None:
-        """内部辅助方法，仅负责执行一次API查询并解析结果。"""
+    def _fetch_qcode_from_api(self, article_title: str, lang: str = 'zh') -> tuple[str | None, str | None]:
+        """
+        内部辅助方法，执行API查询并解析结果。
+        从 pages 对象获取最终标题。
+        返回一个元组： (qcode, final_title)。
+        """
         api_url = WIKI_API_URL_TPL.format(lang=lang)
         params = {
             "action": "query", "prop": "pageprops", "ppprop": "wikibase_item",
@@ -108,29 +112,40 @@ class WikipediaClient:
             response = self.session.get(api_url, params=params, timeout=15)
             response.raise_for_status()
             data = response.json()
+            query = data.get("query", {})
 
-            if "pages" not in data.get("query", {}): return None
-            page = data["query"]["pages"][0]
-            if page.get("missing"): return None
+            if "pages" not in query: 
+                return None, None
+
+            page = query["pages"][0]
+            if page.get("missing"): 
+                return None, None
             
-            return page.get("pageprops", {}).get("wikibase_item")
+            qcode = page.get("pageprops", {}).get("wikibase_item")
+            # 直接从 page 对象获取标题。
+            # API在处理 redirects=1 时，page 对象里的 title 字段就是重定向链解析完成后的最终页面标题。
+            final_title = page.get("title")
+            
+            return qcode, final_title
         except requests.exceptions.RequestException:
-            return None
+            return None, None
 
-    def get_qcode(self, article_title: str, lang: str = 'zh') -> str | None:
+    def get_qcode(self, article_title: str, lang: str = 'zh', force_refresh: bool = False) -> tuple[str | None, str | None]:
         """
-        根据维基百科文章标题获取其对应的Wikidata Q-Code。
-        新增逻辑：当简体查询失败时，自动尝试使用繁体进行后备查询 (仅对中文)。
+        根据维基百科文章标题获取其对应的Wikidata Q-Code及正确页面名。
+        确保在多级重定向下正确更新LIST.md。
+        返回元组： (qcode, final_title)
         """
         # 0. 优先从内存中的反向映射缓存中快速查找
-        if article_title in self._title_to_qcode_map:
-            return self._title_to_qcode_map[article_title]
+        if not force_refresh and article_title in self._title_to_qcode_map:
+            # 缓存命中时，返回缓存中的Q-Code和请求的标题。
+            return self._title_to_qcode_map[article_title], article_title
 
-        qcode = None
+        qcode, final_title = None, None
         
         # 1. 优先使用原始标题进行查询
         logger.info(f"正在通过API查询 ({lang}) '{article_title}'...")
-        qcode = self._fetch_qcode_from_api(article_title, lang)
+        qcode, final_title = self._fetch_qcode_from_api(article_title, lang)
 
         # 2. 如果是中文且查询失败，尝试简繁转换
         traditional_title = ""
@@ -138,35 +153,42 @@ class WikipediaClient:
             traditional_title = self.s2t_converter.convert(article_title)
             if traditional_title != article_title:
                 logger.info(f"简体查询失败，尝试后备查询 '{traditional_title}' (繁体)...")
-                qcode = self._fetch_qcode_from_api(traditional_title, lang)
+                # 后备查询也可能发生重定向，所以同样接收 final_title
+                qcode, final_title = self._fetch_qcode_from_api(traditional_title, lang)
 
-        # 3. 如果最终找到了Q-Code，则更新缓存
-        if qcode:
-            logger.info(f"成功获取Q-Code: {qcode}")
+        # 3. 如果最终找到了Q-Code和最终标题
+        if qcode and final_title:
+            logger.info(f"成功获取Q-Code: {qcode} (最终页面: '{final_title}')")
+
+            # 只要API返回的最终标题与请求标题不同，就意味着发生了至少一次重定向。
+            if final_title != article_title:
+                logger.info(f"检测到页面重定向: '{article_title}' -> '{final_title}'。正在更新 LIST.md...")
+                # 使用 final_title 更新列表
+                update_title_in_list(article_title, final_title)
             
             # 获取或创建该Q-Code的标题列表
             titles_in_cache = self.qcode_cache.get(qcode, [])
             
-            # 将本次查询涉及的标题都加入缓存，并去重
-            titles_to_add = [article_title]
-            if traditional_title and traditional_title != article_title:
-                titles_to_add.append(traditional_title)
+            # 将原始标题和权威标题都加入缓存，指向同一个Q-Code
+            titles_to_add = {article_title, final_title}
+            if traditional_title: # 如果进行了繁体尝试，也加入
+                titles_to_add.add(traditional_title)
             
             updated = False
             for title in titles_to_add:
-                if title not in titles_in_cache:
+                if title and title not in titles_in_cache:
                     titles_in_cache.append(title)
                     self._title_to_qcode_map[title] = qcode # 更新内存中的反向映射
                     updated = True
 
             if updated:
-                self.qcode_cache[qcode] = titles_in_cache
+                self.qcode_cache[qcode] = sorted(list(set(titles_in_cache))) # 去重并排序
                 self.qcode_cache_updated = True
             
-            return qcode
+            return qcode, final_title
 
-        # 4. 如果两种尝试都失败了，则返回None
-        return None
+        # 4. 如果所有尝试都失败了，则返回None
+        return None, None
 
     def _build_raw_url(self, article_title: str, lang: str = 'zh') -> str:
         """构建稳定、统一的原始Wikitext获取URL。"""

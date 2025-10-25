@@ -289,7 +289,8 @@ class GraphCleaner:
         for node in temp_nodes:
             old_id = node['id']
             original_name = old_id.split(':', 1)[-1]
-            qcode = self.wiki_client.get_qcode(original_name)
+            # 正确解包 get_qcode 的返回元组，用 _ 忽略不需要的 final_title
+            qcode, _ = self.wiki_client.get_qcode(original_name)
             if qcode:
                 logger.info(f"  - 成功升级: '{original_name}' -> {qcode}")
                 id_remap[old_id] = qcode
