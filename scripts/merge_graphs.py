@@ -113,8 +113,8 @@ class GraphMerger:
                 final_id = None
                 api_lang = 'zh' if 'zh' in primary_lang else primary_lang
                 
-                # 优先通过API获取Q-Code，以准确区分同名但不同实体的页面
-                qcode = self.wiki_client.get_qcode(primary_name, lang=api_lang)
+                # 调用 get_qcode 并接收返回的元组 (qcode, final_title)
+                qcode, final_title = self.wiki_client.get_qcode(primary_name, lang=api_lang)
                 
                 if qcode:
                     final_id = qcode
@@ -124,12 +124,13 @@ class GraphMerger:
                         existing_node = self.master_nodes_map[qcode]
                         logger.info(f"  - 新节点 '{primary_name}' 解析为已存在Q-Code: {qcode}，进行合并...")
                         
-                        status, detail = self.wiki_client.check_link_status(primary_name, lang=api_lang)
-                        canonical_name_override = None
-                        if status == "SIMP_TRAD_REDIRECT" and detail:
-                            canonical_name_override = self.wiki_client.t2s_converter.convert(detail) if api_lang == 'zh' else detail
-                        
-                        existing_node['name'] = self._merge_and_update_names(new_node, qcode, existing_node=existing_node, primary_lang=primary_lang, canonical_name_override=canonical_name_override)
+                        # 使用 get_qcode 返回的 final_title 作为权威名称
+                        # canonical_name_override 参数会确保 final_title 成为该语言下的首选名称
+                        existing_node['name'] = self._merge_and_update_names(
+                            new_node, qcode, existing_node=existing_node, 
+                            primary_lang=primary_lang, 
+                            canonical_name_override=final_title
+                        )
                         if self.llm_service.should_merge(existing_node, new_node):
                             merged_node_props = self.llm_service.merge_items(existing_node, new_node, "节点")
                             if merged_node_props: existing_node.update(merged_node_props)
@@ -138,11 +139,16 @@ class GraphMerger:
                         # 带有有效Q-Code的新节点
                         logger.info(f"  - 添加全新节点: '{primary_name}' -> {qcode}")
                         new_node['id'] = qcode
-                        new_node['name'] = self._merge_and_update_names(new_node, qcode, primary_lang=primary_lang)
+                        # 使用 final_title 作为权威名称
+                        new_node['name'] = self._merge_and_update_names(
+                            new_node, qcode, 
+                            primary_lang=primary_lang, 
+                            canonical_name_override=final_title
+                        )
                         self.master_nodes_map[qcode] = new_node
 
                     # 不论是否添加过，都执行添加（以免 LIST.md 因修订丢失条目）
-                    add_title_to_list(f"({api_lang}) {primary_name}" if api_lang != 'zh' else primary_name)
+                    add_title_to_list(f"({api_lang}) {final_title}" if api_lang != 'zh' else final_title)
                 else:
                     # Case 2: API未能返回Q-Code，回退并检查本地名称映射
                     if primary_name in self.name_to_qcode_map:
