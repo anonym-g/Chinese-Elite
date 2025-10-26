@@ -253,28 +253,36 @@ class GraphCleaner:
         return nodes
 
     def _clean_stale_cache(self):
-        """清理超过一个月的BAIDU/CDT链接状态缓存。"""
+        """
+        清理所有超过30天的链接状态缓存条目。
+        """
         one_month_ago = datetime.now() - timedelta(days=30)
         pruned_cache = {}
         cleaned_count = 0
         
         for key, value in self.wiki_client.link_cache.items():
-            if value.get('status') in ["BAIDU", "CDT"]:
-                try:
-                    timestamp = datetime.fromisoformat(value.get('timestamp'))
-                    if timestamp > one_month_ago:
-                        pruned_cache[key] = value
-                    else:
-                        cleaned_count += 1
-                except (ValueError, TypeError):
+            try:
+                # 检查所有条目，无论其 status 是什么
+                timestamp_str = value.get('timestamp')
+                if not timestamp_str:
                     cleaned_count += 1
-            else:
-                pruned_cache[key] = value
+                    continue # 如果没有时间戳，直接清理掉
+                
+                timestamp = datetime.fromisoformat(timestamp_str)
+                # 如果时间戳在最近30天内，则保留
+                if timestamp > one_month_ago:
+                    pruned_cache[key] = value
+                else:
+                    # 否则，标记为已清理
+                    cleaned_count += 1
+            except (ValueError, TypeError):
+                # 如果时间戳格式错误，也清理掉
+                cleaned_count += 1
         
         if cleaned_count > 0:
             self.wiki_client.link_cache = pruned_cache
             self.wiki_client.link_cache_updated = True
-            logger.info(f"清理了 {cleaned_count} 个过期的 BAIDU/CDT 缓存条目。")
+            logger.info(f"清理了 {cleaned_count} 个过期的链接状态缓存条目。")
         else:
             logger.info("未发现过期的缓存条目。")
             
