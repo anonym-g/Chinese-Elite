@@ -5,6 +5,7 @@ import json
 import sys
 import logging
 import random
+from opencc import OpenCC
 
 # 使用相对路径导入
 from .config import DATA_DIR, PROCESSED_LOG_PATH, NON_DIRECTED_LINK_TYPES
@@ -23,6 +24,7 @@ class GraphMerger:
         self.log_path = log_path
         self.llm_service = llm_service
         self.wiki_client = wiki_client
+        self.t2s_converter = OpenCC('t2s')
         
         self.master_graph = {"nodes": [], "relationships": []}
         self.processed_files = set()
@@ -73,9 +75,14 @@ class GraphMerger:
             elif new_names: canonical_name = new_names[0]
             
             all_names_set = set(existing_names) | set(new_names)
-            if canonical_name: all_names_set.add(canonical_name)
+
+            if lang == 'zh-cn':
+                simplified_names_set = {self.t2s_converter.convert(name) for name in all_names_set}
+                all_names_set = simplified_names_set
 
             if canonical_name:
+                if lang == 'zh-cn':
+                    canonical_name = self.t2s_converter.convert(canonical_name)
                 all_names_set.discard(canonical_name)
                 final_name_list = [canonical_name] + sorted(list(all_names_set))
                 merged_name_obj[lang] = final_name_list
@@ -105,9 +112,22 @@ class GraphMerger:
             for new_node in new_data.get('nodes', []):
                 new_node_name_obj = new_node.get('name', {})
                 if not new_node_name_obj: continue
-                primary_lang = next(iter(new_node_name_obj), None)
-                if not primary_lang: continue
-                primary_name = new_node_name_obj[primary_lang][0] if new_node_name_obj.get(primary_lang) else None
+                
+                # 优先级：zh-cn > en > others
+                primary_lang, primary_name = None, None
+                if 'zh-cn' in new_node_name_obj and new_node_name_obj['zh-cn']:
+                    primary_lang = 'zh-cn'
+                    primary_name = new_node_name_obj['zh-cn'][0]
+                elif 'en' in new_node_name_obj and new_node_name_obj['en']:
+                    primary_lang = 'en'
+                    primary_name = new_node_name_obj['en'][0]
+                else:
+                    for lang, names in new_node_name_obj.items():
+                        if names and names[0]:
+                            primary_lang = lang
+                            primary_name = names[0]
+                            break
+                
                 if not primary_name: continue
 
                 final_id = None
@@ -148,7 +168,8 @@ class GraphMerger:
                         self.master_nodes_map[qcode] = new_node
 
                     # 不论是否添加过，都执行添加（以免 LIST.md 因修订丢失条目）
-                    add_title_to_list(f"({api_lang}) {final_title}" if api_lang != 'zh' else final_title)
+                    if final_title:
+                        add_title_to_list(f"({api_lang}) {final_title}" if api_lang != 'zh' else final_title)
                 else:
                     # Case 2: API未能返回Q-Code，回退并检查本地名称映射
                     if primary_name in self.name_to_qcode_map:
