@@ -339,6 +339,15 @@ async def main():
         logger.critical("错误: 未设置 TELEGRAM_BOT_TOKEN 或 TELEGRAM_CHANNEL_ID 环境变量。")
         return
 
+    # 搜集所有配置为转发目标的群组ID
+    target_group_ids = []
+    for key, value in os.environ.items():
+        if key.startswith("TELEGRAM_TARGET_GROUP_ID_") and value:
+            target_group_ids.append(value)
+    
+    if target_group_ids:
+        logger.info(f"配置了 {len(target_group_ids)} 个转发目标群组。")
+
     logger.info("开始执行“历史上的今天”任务...")
     
     graph_data, pageviews_cache, qcode_to_name = load_data()
@@ -382,13 +391,29 @@ async def main():
         try:
             bot = telegram.Bot(token=bot_token)
             logger.info("正在发送消息到 Telegram 频道...")
-            await bot.send_message(
+            # 将返回的 Message 对象存入 sent_message 变量
+            sent_message = await bot.send_message(
                 chat_id=channel_id,
                 text=message,
                 parse_mode='MarkdownV2',
-                disable_web_page_preview=True # 建议禁用链接预览，保持排版整洁
+                disable_web_page_preview=True
             )
             logger.info("消息发送成功！")
+
+            # 如果消息成功发送、且配置了目标群组，执行转发
+            if sent_message and target_group_ids:
+                logger.info(f"开始将消息转发至 {len(target_group_ids)} 个目标群组...")
+                for group_id in target_group_ids:
+                    try:
+                        await bot.forward_message(
+                            chat_id=group_id,
+                            from_chat_id=channel_id,
+                            message_id=sent_message.message_id
+                        )
+                        logger.info(f"成功转发至群组: {group_id}")
+                    except Exception as e:
+                        logger.error(f"转发至群组 {group_id} 失败: {e}")
+
         except Exception as e:
             logger.error(f"发送 Telegram 消息失败: {e}")
 
