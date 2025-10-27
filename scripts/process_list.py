@@ -156,13 +156,46 @@ class ListProcessor:
         if not self._parse_list_file():
             logger.info("列表文件为空或不存在，任务结束。")
             return
+        
+        # 常量
+        MAX_ITEMS_TO_CHECK = 2000
+        MAX_SCREENING_WORKERS = 32
+        MAX_ITEMS_PER_RUN = 400
+        MAX_WORKERS = 8
 
-        logger.info("--- 步骤 1/3: 筛选本轮需要处理的条目 ---")
+        logger.info("--- 步骤 1/3: 并行筛选本轮需要处理的条目 ---")
         items_for_this_run = []
-        for category, items in self.items_to_process.items():
-            for item_tuple in items:
-                if self._should_process_item(item_tuple, category):
-                    items_for_this_run.append((item_tuple, category))
+        # 将所有待检查的条目平铺到一个列表中
+        all_potential_items = [
+            (item_tuple, category)
+            for category, items in self.items_to_process.items()
+            for item_tuple in items
+        ]
+
+        # --- 随机抽样，以控制单次运行检查量 ---
+        if len(all_potential_items) > MAX_ITEMS_TO_CHECK:
+            logger.info(f"列表过大 ({len(all_potential_items)}项)，将随机抽样 {MAX_ITEMS_TO_CHECK} 项进行检查。")
+            items_to_check_this_run = random.sample(all_potential_items, MAX_ITEMS_TO_CHECK)
+        else:
+            items_to_check_this_run = all_potential_items
+        
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_SCREENING_WORKERS) as executor:
+            # 为抽样后的每个条目提交一个检查任务
+            future_to_item = {
+                executor.submit(self._should_process_item, item_tuple, category): (item_tuple, category)
+                for item_tuple, category in items_to_check_this_run
+            }
+            
+            # 实时收集已完成任务的结果
+            for future in concurrent.futures.as_completed(future_to_item):
+                item_data = future_to_item[future]
+                try:
+                    # future.result() 会返回 _should_process_item 函数的布尔值结果
+                    should_process = future.result()
+                    if should_process:
+                        items_for_this_run.append(item_data)
+                except Exception as exc:
+                    logger.error(f"检查条目 '{item_data[0][0]}' 时发生错误: {exc}")
         
         if not items_for_this_run:
             logger.info("本轮没有需要处理的条目。")
@@ -171,10 +204,12 @@ class ListProcessor:
         logger.info(f"--- 步骤 2/3: 已确定 {len(items_for_this_run)} 个条目，正在打乱顺序 ---")
         random.shuffle(items_for_this_run)
 
+        # 为避免单次运行时间过长，设定一个处理上限
+        if len(items_for_this_run) > MAX_ITEMS_PER_RUN:
+            logger.info(f"待处理条目过多 ({len(items_for_this_run)}个)，将截取前 {MAX_ITEMS_PER_RUN} 个进行处理。")
+            items_for_this_run = items_for_this_run[:MAX_ITEMS_PER_RUN]
+
         logger.info("--- 步骤 3/3: 开始并行处理 ---")
-        # 根据经验，LLM API的网络IO是主要瓶颈，可以设置较多线程；但也要考虑 API 速率限制 (RPM)。
-        # 这里设置为8个并发
-        MAX_WORKERS = 8 
         with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             # 使用 executor.submit 来分派任务
             futures = [executor.submit(self._process_item, item_tuple, category) for item_tuple, category in items_for_this_run]
