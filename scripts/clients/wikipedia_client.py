@@ -136,6 +136,30 @@ class WikipediaClient:
         except requests.exceptions.RequestException:
             return None, None
 
+    @wiki_sync_limiter.limit # 应用维基同步装饰器
+    def _fetch_title_by_qcode(self, qcode: str, lang: str = 'zh') -> str | None:
+        """根据Q-Code反向查询其在指定语言维基中的权威页面标题。"""
+        api_url = WIKI_API_URL_TPL.format(lang=lang)
+        params = {
+            "action": "wbgetentities",
+            "ids": qcode,
+            "props": "sitelinks",
+            "format": "json",
+            "formatversion": "2"
+        }
+        try:
+            response = self.session.get(api_url, params=params, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+            sitelinks = data.get("entities", {}).get(qcode, {}).get("sitelinks", {})
+            wiki_key = f"{lang}wiki"
+            if wiki_key in sitelinks:
+                return sitelinks[wiki_key].get("title")
+        except requests.exceptions.RequestException:
+            # 发生网络错误时，静默失败并返回None
+            pass
+        return None
+
     def get_qcode(self, article_title: str, lang: str = 'zh', force_refresh: bool = False) -> tuple[str | None, str | None]:
         """
         根据维基百科文章标题获取其对应的Wikidata Q-Code及正确页面名。
@@ -144,8 +168,13 @@ class WikipediaClient:
         """
         # 0. 优先从内存中的反向映射缓存中快速查找
         if not force_refresh and article_title in self._title_to_qcode_map:
-            # 缓存命中时，返回缓存中的Q-Code和请求的标题。
-            return self._title_to_qcode_map[article_title], article_title
+            qcode = self._title_to_qcode_map[article_title]
+            # 通过API获取权威标题。避免返回别名。
+            canonical_title = self._fetch_title_by_qcode(qcode, lang)
+            # 如果API查询失败，回退到原始标题。
+            final_title = canonical_title or article_title
+            logger.info(f"缓存命中: '{article_title}' -> {qcode}。权威标题: '{final_title}'")
+            return qcode, final_title
 
         qcode, final_title = None, None
         
@@ -232,24 +261,16 @@ class WikipediaClient:
                     if match:
                         redirect_target = match.group(1).strip().split('#')[0]
                         
-                        simplified_target = self.t2s_converter.convert(redirect_target)
-                        simplified_original = self.t2s_converter.convert(article_title)
-
-                        norm_simplified_target = simplified_target.replace('_', ' ').lower()
-                        norm_simplified_original = simplified_original.replace('_', ' ').lower()
+                        logger.info(f"页面 '{article_title}' 重定向至 '{redirect_target}'。将更新 LIST.md。")
+                        update_title_in_list(article_title, redirect_target)
                         
-                        if norm_simplified_target == norm_simplified_original:
-                            logger.info(f"页面 '{article_title}' 是一个简繁重定向，目标为 '{redirect_target}'。将更新 LIST.md，并使用正确页面名获取内容。")
-
-                            update_title_in_list(article_title, redirect_target)
-                            
-                            current_title_to_fetch = redirect_target
-                            new_raw_url = self._build_raw_url(current_title_to_fetch, lang)
-                            logger.info(f"重新获取 '{current_title_to_fetch}' 的Wikitext源码: {new_raw_url}")
-                            
-                            response = self.session.get(new_raw_url, timeout=20)
-                            response.raise_for_status()
-                            content = response.text
+                        current_title_to_fetch = redirect_target
+                        new_raw_url = self._build_raw_url(current_title_to_fetch, lang)
+                        logger.info(f"重新获取 '{current_title_to_fetch}' 的Wikitext源码: {new_raw_url}")
+                        
+                        response = self.session.get(new_raw_url, timeout=20)
+                        response.raise_for_status()
+                        content = response.text
 
                 # 对最终内容进行简体转换
                 final_wikitext = self.t2s_converter.convert(content)
