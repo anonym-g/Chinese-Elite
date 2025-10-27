@@ -17,19 +17,20 @@ import re
 # 使用相对路径导入
 from .config import LIST_FILE_PATH, CACHE_DIR, PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, WIKI_API_URL_TPL, PAGEVIEWS_API_BASE, USER_AGENT
 
-# 初始化日志记录器
+# --- 日志记录器初始化 ---
 logger = logging.getLogger(__name__)
 
 # --- 转换器 ---
 s2t_converter = OpenCC('s2t') # 简转繁
 t2s_converter = OpenCC('t2s') # 繁转简
 
-# --- 其他全局常量 ---
-PAGEVIEWS_DATA_START_DATE = datetime(2015, 7, 1)
-CACHE_FILE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
-# MAX_RETRIES = 2
-BATCH_SIZE = 120
+# --- 全局常量 ---
+PAGEVIEWS_DATA_START_DATE = datetime(2015, 7, 1) # 维基媒体Pageviews API数据起始日期
+PAGEVIEWS_CACHE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
+CREATION_DATE_CACHE_PATH = os.path.join(CACHE_DIR, 'creation_date_cache.json')
+BATCH_SIZE = 120 # 并发处理的批次大小
 
+# --- 智能速率限制 ---
 # 检测是否在 GitHub Action (CI) 环境中运行
 IS_CI = os.getenv('GITHUB_ACTIONS') == 'true'
 
@@ -37,68 +38,34 @@ IS_CI = os.getenv('GITHUB_ACTIONS') == 'true'
 # 本地环境可以使用维基百科官方允许的更高限制（100次/分钟）
 RATE_LIMIT = 60 if IS_CI else 100
 PER_SECONDS = 60
+# 使用 asyncio.Semaphore 实现简单高效的并发控制
+API_SEMAPHORE = asyncio.Semaphore(RATE_LIMIT)
+TIME_WINDOW_START = time.monotonic()
 
-class AsyncLeakyBucket:
-    """
-    一个简单的异步漏桶速率限制器。
-    它确保请求以不超过指定的平均速率发送。
-    """
-    def __init__(self, rate: int, per_seconds: int):
-        self.rate_per_second = rate / per_seconds
-        self._lock = asyncio.Lock()
-        # 使用 time.monotonic() 来避免系统时间变化带来的影响
-        self._last_request_time = 0.0
-
-    async def acquire(self):
-        """获取一个“令牌”，如有必要则异步等待。"""
-        async with self._lock:
-            now = time.monotonic()
-            # 计算自上次请求以来经过的时间
-            elapsed = now - self._last_request_time
-            # 计算我们应该在两次请求之间等待的最小时间间隔
-            wait_period = 1 / self.rate_per_second
-            
-            # 如果我们等待的时间还不够，则计算还需等待多久
-            wait_needed = wait_period - elapsed
-            if wait_needed > 0:
-                await asyncio.sleep(wait_needed)
-            
-            # 更新最后一次请求的时间
-            self._last_request_time = time.monotonic()
-
-# --- 智能速率限制配置 ---
-leaky_bucket = AsyncLeakyBucket(RATE_LIMIT, PER_SECONDS)
-
-if IS_CI:
-    logger.info(f"CI环境检测到。应用保守速率限制: {RATE_LIMIT} 请求 / {PER_SECONDS} 秒")
-else:
-    logger.info(f"本地环境。应用标准速率限制: {RATE_LIMIT} 请求 / {PER_SECONDS} 秒")
-
-
-def load_pageviews_cache(file_path: str) -> dict:
-    """加载页面访问量缓存文件。"""
+# --- 缓存加载/保存的辅助函数 ---
+def load_json_cache(file_path: str) -> dict:
+    """通用JSON缓存加载函数"""
     if not os.path.exists(file_path):
         return {}
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
+            logger.info(f"成功加载缓存文件: {os.path.basename(file_path)}")
             return json.load(f)
     except (IOError, json.JSONDecodeError):
         return {}
 
-def save_pageviews_cache(file_path: str, cache_data: dict):
-    """保存页面访问量缓存文件。"""
+def save_json_cache(file_path: str, cache_data: dict):
+    """通用JSON缓存保存函数"""
     try:
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(cache_data, f, indent=2, ensure_ascii=False)
+        logger.info(f"缓存已成功更新至: {os.path.basename(file_path)}")
     except IOError as e:
-        logger.error(f"严重错误：无法写入页面访问量缓存文件 {file_path}。错误: {e}")
+        logger.error(f"严重错误：无法写入缓存文件 {file_path}。错误: {e}")
 
 def parse_list_file(file_path: str) -> dict[str, list]:
-    """
-    解析 LIST.md 文件，返回一个按类别组织的字典。
-    支持格式如 '(en) Barack Obama' 来指定语言。
-    """
+    """解析 LIST.md 文件，返回一个按类别组织的字典"""
     if not os.path.exists(file_path):
         logger.error(f"错误：列表文件不存在于 '{file_path}'")
         return {}
@@ -114,69 +81,61 @@ def parse_list_file(file_path: str) -> dict[str, list]:
 
             # 检查是否为类别标题
             if line.startswith('## '):
-                category_name = line[3:].strip().lower()
-                current_category = category_name
-                if current_category not in categorized_items:
-                    categorized_items[current_category] = []
+                current_category = line[3:].strip().lower()
+                if current_category not in categorized_items: categorized_items[current_category] = []
                 continue
-
-            # 跳过空行和注释
-            if not line or line.startswith('//'):
-                continue
-
-            # 添加实体到当前类别
-            if current_category:
-                lang = 'zh' # 默认为中文
-                item_name = line
-                match = lang_pattern.match(line)
-                if match:
-                    lang = match.group('lang')
-                    item_name = line[match.end():].strip()
-                
-                # 存储为元组 (item_name, lang)
-                categorized_items[current_category].append({
-                    "original_line": line,
-                    "name": item_name,
-                    "lang": lang
-                })
-    
+            if not line or line.startswith('//') or not current_category: continue
+            lang = 'zh'
+            item_name = line
+            match = lang_pattern.match(line)
+            if match:
+                lang = match.group('lang')
+                item_name = line[match.end():].strip()
+            categorized_items[current_category].append({"original_line": line, "name": item_name, "lang": lang})
     return categorized_items
 
 def batchify(data: list, batch_size: int):
-    """将列表分割成指定大小的批次。"""
+    """将列表分割成指定大小的批次"""
     for i in range(0, len(data), batch_size):
         yield data[i:i + batch_size]
 
 async def make_api_request_async(session: aiohttp.ClientSession, url, params=None):
-    """
-    执行异步API请求，由漏桶算法进行平滑的速率限制。
-    如果失败，则不再重试，而是直接返回。
-    """
-    # 在发出请求前，先从漏桶获取许可，这可能会导致异步等待
-    await leaky_bucket.acquire()
-    
-    # 将超时时间设置得更长一些，因为等待可能发生在请求之前
-    timeout_obj = aiohttp.ClientTimeout(total=15)
-    try:
-        async with session.get(url, params=params, timeout=timeout_obj) as response:
-            if response.status == 404:
-                return None
-            
-            # 限速时收到429，说明共享IP的整体限额已用完。
-            # 此时重试是徒劳的，记录警告并失败。
-            if response.status == 429:
-                logger.warning(f"收到 429 错误，尽管已进行速率限制: {url}。共享IP的速率限制可能已耗尽。")
-                return None
-            
-            response.raise_for_status()
-            return await response.json()
-            
-    except (aiohttp.ClientError, asyncio.TimeoutError) as e:
-        logger.warning(f"API请求失败: {url}, 错误: {e}")
-        return None
+    """执行异步API请求，由Semaphore进行速率限制"""
+    global TIME_WINDOW_START
+    async with API_SEMAPHORE:
+        # 检查是否需要等待以满足每分钟的速率限制
+        current_time = time.monotonic()
+        waiters = API_SEMAPHORE._waiters
+        if current_time - TIME_WINDOW_START < PER_SECONDS and API_SEMAPHORE.locked() and waiters is not None and len(waiters) >= RATE_LIMIT - 1:
+             # 如果窗口期未结束且信号量已满，重置窗口并等待
+            await asyncio.sleep(PER_SECONDS - (current_time - TIME_WINDOW_START))
+            TIME_WINDOW_START = time.monotonic()
 
-async def get_article_creation_date_async(session: aiohttp.ClientSession, article_title: str, lang: str = 'zh') -> datetime | None:
-    """通过MediaWiki API异步获取维基百科文章的创建日期。"""
+        timeout_obj = aiohttp.ClientTimeout(total=15)
+        try:
+            async with session.get(url, params=params, timeout=timeout_obj) as response:
+                if response.status == 404: return None
+                if response.status == 429:
+                    logger.warning(f"收到 429 (Too Many Requests) 错误: {url}。将等待后重试...")
+                    await asyncio.sleep(float(response.headers.get("Retry-After", "10")))
+                    # 在这里可以决定是重试还是放弃，为简单起见，我们先放弃
+                    return None
+                response.raise_for_status()
+                return await response.json()
+        except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+            logger.warning(f"API请求失败: {url}, 错误: {e}")
+            return None
+
+async def get_article_creation_date_async(session: aiohttp.ClientSession, article_title: str, lang: str, creation_date_cache: dict) -> datetime | None:
+    """通过MediaWiki API异步获取维基百科文章的创建日期，优先使用缓存"""
+    # 1. 检查缓存
+    if article_title in creation_date_cache and creation_date_cache[article_title]:
+        try:
+            return datetime.fromisoformat(creation_date_cache[article_title])
+        except (ValueError, TypeError):
+            pass # 缓存格式错误，将继续进行API查询
+
+    # 2. 缓存未命中，执行API查询
     api_url = WIKI_API_URL_TPL.format(lang=lang)
     params = {"action": "query", "prop": "revisions", "titles": article_title, "rvlimit": "1", "rvdir": "newer", "format": "json", "formatversion": "2"}
 
@@ -188,80 +147,81 @@ async def get_article_creation_date_async(session: aiohttp.ClientSession, articl
         if page.get("missing"): return None
         if "revisions" in page and page["revisions"]:
             timestamp_str = page["revisions"][0]["timestamp"]
+            # 3. 查询成功，将结果存入缓存
+            creation_date_cache[article_title] = timestamp_str
             return datetime.fromisoformat(timestamp_str.replace('Z', '+00:00')).replace(tzinfo=None)
     except (KeyError, IndexError):
         return None
     return None
 
-async def _fetch_stats_for_title_async(session: aiohttp.ClientSession, article_title: str, lang: str = 'zh') -> dict:
-    """内部函数，为单个标题获取统计数据，并在成功时附带时间戳。"""
-    creation_date = await get_article_creation_date_async(session, article_title, lang=lang)
-    if not creation_date:
-        return {'error': 'Page not found or creation date inaccessible'}
-
-    effective_start_date = max(creation_date, PAGEVIEWS_DATA_START_DATE)
+async def _fetch_stats_for_title_async(session: aiohttp.ClientSession, article_title: str, lang: str, creation_date_cache: dict) -> dict:
+    """内部函数，为单个标题并行获取统计数据"""
+    # 创建两个异步任务，一个获取创建日期，一个获取浏览量
+    creation_date_task = asyncio.create_task(get_article_creation_date_async(session, article_title, lang, creation_date_cache))
+    
+    # 构造 Pageviews API 请求
     today = datetime.now(timezone.utc).replace(tzinfo=None)
     end_date = today - timedelta(days=1)
+    # 先假设一个最长的查询周期（365天），获取到创建日期后再精确计算
+    start_date_for_req = end_date - timedelta(days=365)
+    start_str, end_str = start_date_for_req.strftime('%Y%m%d00'), end_date.strftime('%Y%m%d00')
+    encoded_title = urllib.parse.quote(article_title.replace(" ", "_"))
+    pageviews_url = f"{PAGEVIEWS_API_BASE}{lang}.wikipedia.org/all-access/user/{encoded_title}/daily/{start_str}/{end_str}"
+    pageviews_task = asyncio.create_task(make_api_request_async(session, pageviews_url))
+
+    # 使用 asyncio.gather 并行等待两个任务完成
+    creation_date, pageviews_data = await asyncio.gather(creation_date_task, pageviews_task)
+
+    if not creation_date:
+        return {'error': 'Page not found or creation date inaccessible'}
+    
+    # 获取到创建日期后，进行精确计算
+    effective_start_date = max(creation_date, PAGEVIEWS_DATA_START_DATE)
     days_since_creation = (end_date - effective_start_date).days
 
     if days_since_creation <= 0:
-        return {'total_views': 0, 'avg_daily_views': 0, 'check_timestamp': datetime.now(timezone.utc).isoformat()}
-    
-    duration_days = min(days_since_creation, 365)
-    start_date = end_date - timedelta(days=duration_days)
-    start_str, end_str = start_date.strftime('%Y%m%d00'), end_date.strftime('%Y%m%d00')
-    encoded_title = urllib.parse.quote(article_title.replace(" ", "_"))
-    # 使用 lang 参数构建 URL
-    url = f"{PAGEVIEWS_API_BASE}{lang}.wikipedia.org/all-access/user/{encoded_title}/daily/{start_str}/{end_str}"
-    
-    data = await make_api_request_async(session, url)
-    
-    if not data:
+        return {'total_views': 0, 'avg_daily_views': 0}
+
+    if not pageviews_data:
         return {'error': 'Pageviews API request failed'}
 
-    total_views = sum(item['views'] for item in data.get('items', []))
+    # 过滤浏览量数据，只保留有效日期范围内的
+    valid_items = [item for item in pageviews_data.get('items', []) 
+                   if datetime.strptime(item['timestamp'], '%Y%m%d%H') >= effective_start_date]
+    
+    total_views = sum(item['views'] for item in valid_items)
+    # 使用实际天数计算日均
+    duration_days = (end_date - effective_start_date).days
     avg_daily_views = total_views / duration_days if duration_days > 0 else 0
     
-    return {
-        'total_views': total_views,
-        'avg_daily_views': avg_daily_views,
-        'check_timestamp': datetime.now(timezone.utc).isoformat()
-    }
+    return {'total_views': total_views, 'avg_daily_views': avg_daily_views}
 
-async def get_pageviews_stats_async(session: aiohttp.ClientSession, item_obj: dict) -> tuple[str, dict]:
-    """
-    此函数负责网络请求和简繁体回退。
-    无论请求成功还是失败，返回的字典中都包含 'total_views' 键，以防止排序时出错。
-    """
+async def get_pageviews_stats_async(session: aiohttp.ClientSession, item_obj: dict, creation_date_cache: dict) -> tuple[str, dict]:
+    """负责网络请求和简繁体回退逻辑"""
     article_title = item_obj['name']
     lang = item_obj['lang']
     logger.info(f"[*] 正在网络查询: {article_title} ({lang})")
     
-    stats = await _fetch_stats_for_title_async(session, article_title, lang=lang)
+    stats = await _fetch_stats_for_title_async(session, article_title, lang, creation_date_cache)
     if 'error' not in stats:
-        # 始终返回原始的文章标题作为key
+        stats['check_timestamp'] = datetime.now(timezone.utc).isoformat()
         return article_title, stats
 
-    # 后备查询逻辑 (仅对中文有效)
+    # 后备查询逻辑 (仅对中文)
     if lang == 'zh':
-        candidate_titles = {
-            s2t_converter.convert(article_title),
-            t2s_converter.convert(article_title)
-        }
+        candidate_titles = {s2t_converter.convert(article_title), t2s_converter.convert(article_title)}
         for candidate in candidate_titles:
             if candidate != article_title:
                 logger.info(f"  ...原始查询失败，尝试备用标题: '{candidate}'")
-                stats = await _fetch_stats_for_title_async(session, candidate, lang=lang)
+                stats = await _fetch_stats_for_title_async(session, candidate, lang, creation_date_cache)
                 if 'error' not in stats:
+                    stats['check_timestamp'] = datetime.now(timezone.utc).isoformat()
                     return article_title, stats
 
-    final_result = {
-        'error': 'API and cache lookup failed',
-        'total_views': -1,
-        'avg_daily_views': 0,
+    return article_title, {
+        'error': 'API and cache lookup failed', 'total_views': -1, 'avg_daily_views': 0,
         'check_timestamp': datetime.now(timezone.utc).isoformat()
     }
-    return article_title, final_result
 
 def rewrite_list_file(sorted_results: dict):
     """使用排序后的条目重写 LIST.md 文件，保持 Markdown 格式。"""
@@ -294,8 +254,7 @@ def rewrite_list_file(sorted_results: dict):
                     original_case_category = sorted_categories_lower[category_name_lower]
                     if original_case_category != 'person': new_lines.append("\n")
                     new_lines.append(f"## {original_case_category}\n")
-                    for item_name in sorted_results[original_case_category]:
-                        new_lines.append(f"{item_name}\n")
+                    for item_name in sorted_results[original_case_category]: new_lines.append(f"{item_name}\n")
                 else:
                     # 如果这个类别不在排序结果里（比如 ## new），则照常保留
                     is_in_sorted_category = False
@@ -312,16 +271,18 @@ def rewrite_list_file(sorted_results: dict):
         logger.error(f"严重错误：重写 LIST.md 文件失败。错误: {e}")
 
 async def main():
-    """脚本主入口，main函数负责所有缓存的读写和决策逻辑。"""
-    logger.info("--- 开始检查页面热度（智能跳过模式） ---")
+    """脚本主入口，负责所有缓存读写和决策逻辑"""
+    logger.info("--- 开始检查页面热度 ---")
     
     items_by_category = parse_list_file(LIST_FILE_PATH)
     if not items_by_category:
         logger.info("列表文件为空，任务结束。")
         return
 
-    pageviews_cache = load_pageviews_cache(CACHE_FILE_PATH)
-    # to_check_by_category 的值现在是元组列表
+    # --- 步骤 0: 加载缓存 ---
+    pageviews_cache = load_json_cache(PAGEVIEWS_CACHE_PATH)
+    creation_date_cache = load_json_cache(CREATION_DATE_CACHE_PATH)
+
     to_check_by_category = {cat: [] for cat in items_by_category}
     now = datetime.now(timezone.utc)
 
@@ -332,7 +293,7 @@ async def main():
     for category, items in items_by_category.items():
         for item_obj in items:
             item_name = item_obj['name']
-            # 决策逻辑：使用 item_name 作为缓存的 key
+            # 使用 item_name 作为缓存的 key
             if item_name not in pageviews_cache:
                 to_check_by_category[category].append(item_obj)
                 continue
@@ -351,9 +312,7 @@ async def main():
                 if age_in_days <= PROB_START_DAY:
                     skipped_count += 1
                 elif PROB_START_DAY <= age_in_days <= PROB_END_DAY:
-                    total_duration_days = PROB_END_DAY - PROB_START_DAY
-                    current_pos_days = age_in_days - PROB_START_DAY
-                    ratio = current_pos_days / total_duration_days if total_duration_days > 0 else 1
+                    ratio = (age_in_days - PROB_START_DAY) / (PROB_END_DAY - PROB_START_DAY)
                     probability = PROB_START_VALUE + (PROB_END_VALUE - PROB_START_VALUE) * ratio
                     if random.random() < probability:
                         to_check_by_category[category].append(item_obj)
@@ -372,30 +331,27 @@ async def main():
         headers = {'User-Agent': USER_AGENT}
         async with aiohttp.ClientSession(headers=headers, trust_env=True) as session:
             for category, items_to_check in to_check_by_category.items():
-                if not items_to_check:
-                    continue
-
+                if not items_to_check: continue
                 logger.info(f"\n--- 正在检查类别: {category} ---")
                 total_batches = (len(items_to_check) + BATCH_SIZE - 1) // BATCH_SIZE
                 for i, batch in enumerate(batchify(items_to_check, BATCH_SIZE)):
                     logger.info(f"--- 正在处理批次 {i+1}/{total_batches} (共 {len(batch)} 项) ---")
-                    
-                    # 传递完整的 item_obj 给 tasks
-                    tasks = [get_pageviews_stats_async(session, item_obj) for item_obj in batch]
+                    # 将 creation_date_cache 传入
+                    tasks = [get_pageviews_stats_async(session, item_obj, creation_date_cache) for item_obj in batch]
                     batch_results = await asyncio.gather(*tasks, return_exceptions=True)
 
-                    # 决策逻辑：在这里将新获取的结果写入缓存
+                    # 将新结果写入缓存
                     for result in batch_results:
                         if isinstance(result, Exception):
-                            logger.error(f"一个查询任务在执行中发生异常: {result}")
-                        else:
-                            item_name, stats = result # type: ignore
-                            pageviews_cache[item_name] = stats # 使用 item_name 作为 key 更新缓存
+                            logger.error(f"一个查询任务在执行中发生异常: {str(result)}")
+                        elif isinstance(result, tuple): 
+                            item_name, stats = result
+                            pageviews_cache[item_name] = stats
     else:
         logger.info("\n--- 步骤 2/3: 无需网络检查，跳过此步骤 ---")
 
-    # --- 步骤 3: 整合所有数据并排序 ---
-    logger.info("\n--- 步骤 3/3: 整合所有数据并排序 ---")
+    # --- 步骤 3: 整合所有数据、排序、保存缓存并重写文件 ---
+    logger.info("\n--- 步骤 3/3: 整合所有数据、排序、保存并重写文件 ---")
     final_results_by_category = {cat: [] for cat in items_by_category}
     for category, items in items_by_category.items():
         for item_obj in items:
@@ -403,18 +359,19 @@ async def main():
             stats = pageviews_cache.get(item_name)
             if not stats or 'total_views' not in stats:
                 stats = {'total_views': -1, 'avg_daily_views': 0}
-            # 存储完整的 item_obj，它包含了 original_line
+            # 存储完整的 item_obj，包含 original_line
             final_results_by_category[category].append({'item': item_obj, 'stats': stats})
 
     sorted_results = OrderedDict()
     for category, results in final_results_by_category.items():
         if results:
             sorted_items = sorted(results, key=lambda x: x['stats']['avg_daily_views'], reverse=True)
-            # 关键修复：提取 original_line 用于文件重写，而不是 item_name
+            # 提取 original_line 用于文件重写
             sorted_results[category] = [res['item']['original_line'] for res in sorted_items]
 
-    save_pageviews_cache(CACHE_FILE_PATH, pageviews_cache)
-    logger.info(f"--- 页面访问量缓存已更新至 {CACHE_FILE_PATH} ---")
+    # 保存两个缓存文件
+    save_json_cache(PAGEVIEWS_CACHE_PATH, pageviews_cache)
+    save_json_cache(CREATION_DATE_CACHE_PATH, creation_date_cache)
     
     rewrite_list_file(sorted_results)
     logger.info("\n--- 全部任务完成 ---")

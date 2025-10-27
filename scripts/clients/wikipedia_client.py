@@ -1,6 +1,7 @@
 # scripts/clients/wikipedia_client.py
 
 import requests
+from requests.adapters import HTTPAdapter
 import json
 import re
 import sys
@@ -37,6 +38,11 @@ class WikipediaClient:
         self.session = requests.Session()
         self.session.trust_env = True
         self.cffi_session = cffi_requests.Session()
+
+        # --- 连接池优化 ---
+        adapter = HTTPAdapter(pool_connections=32, pool_maxsize=32)
+        self.session.mount("https://", adapter)
+        self.session.mount("http://", adapter)
         
         self.session.headers.update({'User-Agent': user_agent})
         self.cffi_session.headers.update({'User-Agent': user_agent})
