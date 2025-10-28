@@ -1,4 +1,9 @@
 ## person
+(en) Deng Xiaoping
+(en) Hu Jintao
+(en) Hua Guofeng
+(en) Jiang Zemin
+(en) Mao Zedong
 (en) Xi Jinping
 习近平
 唐納·川普
