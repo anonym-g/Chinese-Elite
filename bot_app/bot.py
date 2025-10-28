@@ -210,7 +210,7 @@ async def handle_action_selection(update: Update, context: ContextTypes.DEFAULT_
         submissions_for_category = submissions.get(category, set())
         message_text = f"您正在编辑 **{category}** 类别。\n请发送实体名称，每行一个（一次最多50个）。\n\n"
         if submissions_for_category:
-            message_text += "目前已添加:\n" + "\n".join(f"- `{item}`" for item in sorted(list(submissions_for_category)))
+            message_text += "目前已添加:\n" + "\n".join(f"`{item}`" for item in sorted(list(submissions_for_category)))
 
         try:
             await query.edit_message_text(
@@ -239,7 +239,7 @@ async def handle_action_selection(update: Update, context: ContextTypes.DEFAULT_
         for category, entries in sorted(submissions.items()):
             if entries:
                 summary_lines.append(f"**{category}**:")
-                summary_lines.extend(f"\\- `{escape_markdown_v2(entry)}`" for entry in sorted(list(entries)))
+                summary_lines.extend(f"`{escape_markdown_v2(entry)}`" for entry in sorted(list(entries)))
                 summary_lines.append("")
         
         message_text = "\n".join(summary_lines)
@@ -309,7 +309,7 @@ async def handle_entry_input(update: Update, context: ContextTypes.DEFAULT_TYPE)
             logger.warning(f"更新主菜单失败: {e}")
 
     message_text = f"您正在编辑 **{current_category}** 类别。\n新增 {added_count} 条，跳过 {len(new_entries) - added_count} 条重复项。\n\n"
-    message_text += "目前已添加:\n" + "\n".join(f"\\- `{escape_markdown_v2(item)}`" for item in sorted(list(current_entries)))
+    message_text += "目前已添加:\n" + "\n".join(f"`{escape_markdown_v2(item)}`" for item in sorted(list(current_entries)))
 
     # --- 添加 try-except 块，以捕获并记录 Markdown 解析错误 ---
     try:
@@ -387,22 +387,22 @@ async def handle_submit_confirm(update: Update, context: ContextTypes.DEFAULT_TY
         report_data = result['report']
         pr_url = result.get('pr_url')
         
-        report_parts = ["*--- 提交处理报告 ---*"]
+        report_parts = ["*提交处理报告*"]
         
         if report_data.get('accepted'):
-            lines = [f"\\- `{escape_markdown_v2(e)}`" for e in sorted(report_data['accepted'])]
+            lines = [f"`{escape_markdown_v2(e)}`" for e in sorted(report_data['accepted'])]
             report_parts.append(f"\n*✅ 已接受*:\n" + "\n".join(lines))
         
         if report_data.get('corrected'):
-            lines = [f"\\- `{escape_markdown_v2(orig)}` → `{escape_markdown_v2(corr)}`" for orig, corr in sorted(report_data['corrected'])]
+            lines = [f"`{escape_markdown_v2(orig)}` → `{escape_markdown_v2(corr)}`" for orig, corr in sorted(report_data['corrected'])]
             report_parts.append(f"\n*✏️ 已修正*:\n" + "\n".join(lines))
 
         if report_data.get('rejected'):
-            lines = [f"\\- `{escape_markdown_v2(entry)}` \\({escape_markdown_v2(reason)}\\)" for entry, reason in sorted(report_data['rejected'])]
+            lines = [f"`{escape_markdown_v2(entry)}` \\({escape_markdown_v2(reason)}\\)" for entry, reason in sorted(report_data['rejected'])]
             report_parts.append(f"\n*❌ 已拒绝*:\n" + "\n".join(lines))
         
         if report_data.get('skipped'):
-            lines = [f"\\- `{escape_markdown_v2(e)}`" for e in sorted(report_data['skipped'])]
+            lines = [f"`{escape_markdown_v2(e)}`" for e in sorted(report_data['skipped'])]
             report_parts.append(f"\n*⏭️ 已跳过 \\(重复项\\)*:\n" + "\n".join(lines))
 
         final_report = "\n".join(report_parts)
