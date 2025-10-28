@@ -52,6 +52,9 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 .
 ├── .cache/                     # 存放缓存文件 (Q-Code、链接状态、页面热度)
 ├── .github/
+│   ├── scripts/                # 存放被 GitHub Actions 调用的 Shell 脚本
+│   │   ├── pr_auto_merger.sh   # (由 GitHub Action 调用) 验证并合并 PR 的 Shell 脚本
+│   │   └── update_data.sh      # (由 GitHub Action 调用) 提交并推送数据更新的 Shell 脚本
 │   └── workflows/
 │       ├── daily_post.yml      # GitHub Action: 每日定时在Telegram频道发布“历史上的今天”
 │       ├── pr_auto_merger.yml  # GitHub Action: 自动审查、合并单文件数据类 PR
@@ -106,6 +109,7 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 │   ├── clean_data.py           # 深度数据清洗与维护脚本
 │   ├── config.py               # 后端-所有路径和模型配置
 │   ├── generate_frontend_data.py # 生成所有前端数据文件
+│   ├── github_pr_utils.py      # (由 Telegram Bot 调用) 封装 Git 操作以创建 PR
 │   ├── merge_graphs.py         # 增量数据智能合并脚本
 │   ├── process_list.py         # 根据列表处理实体的核心脚本
 │   ├── scheduled_tasks.py      # 定时任务脚本 (如“历史上的今天”)
@@ -242,6 +246,8 @@ new
 
 ```
 
+在2025年10月末的更新中，本项目的 Telegram 聊天机器人 (Bot for Chinese-Elite, @ChineseEliteTelegramBot) 新增了在私聊添加 `data/LIST.md` 条目的功能，您可以用与以上示例一致的格式进行添加。
+
 ### 关于 Pull Request
 
 在提交贡献时，理解 GitHub Pull Request 的工作机制至关重要。
@@ -282,6 +288,9 @@ This project leverages the power of Large Language Models to extract information
 .
 ├── .cache/                     # Stores cache files (Q-Codes, link status, page views)
 ├── .github/
+│   ├── scripts/                # Shell scripts called by GitHub Actions
+│   │   ├── pr_auto_merger.sh   # (Called by Action) Shell script to validate and merge PRs
+│   │   └── update_data.sh      # (Called by Action) Shell script to commit and push data updates
 │   └── workflows/
 │       ├── daily_post.yml      # GitHub Action: Daily "On This Day" Telegram Channel post
 │       ├── pr_auto_merger.yml  # GitHub Action: Auto-review and merge single-file data PRs
@@ -336,6 +345,7 @@ This project leverages the power of Large Language Models to extract information
 │   ├── clean_data.py           # Deep data cleaning and maintenance script
 │   ├── config.py               # Backend - Configuration for all paths and models
 │   ├── generate_frontend_data.py # Generates all frontend data files
+│   ├── github_pr_utils.py      # (Called by Bot) Encapsulates Git operations to create a PR
 │   ├── merge_graphs.py         # Script for intelligent incremental data merging
 │   ├── process_list.py         # Core script for processing entities from the list
 │   ├── scheduled_tasks.py      # Scheduled tasks script (e.g., "On This Day")
@@ -471,6 +481,8 @@ new
 ...
 
 ```
+
+In the late October 2025 update, the project's Telegram bot (Bot for Chinese-Elite, @ChineseEliteTelegramBot) has added a feature for adding entries to `data/LIST.md` via private message. You can add entries using the same format as shown in the examples above.
 
 ### About Pull Requests
 
