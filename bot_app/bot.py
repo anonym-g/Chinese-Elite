@@ -20,6 +20,7 @@ from opencc import OpenCC
 from scripts.config import BOT_QA_MODEL, ROOT_DIR, BOT_QA_PROMPT
 from scripts.api_rate_limiter import gemini_flash_lite_preview_limiter
 from scripts.github_pr_utils import create_list_update_pr
+from scripts.clients.wikipedia_client import WikipediaClient
 
 # --- 日志配置 ---
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -354,7 +355,7 @@ async def handle_back_to_main(update: Update, context: ContextTypes.DEFAULT_TYPE
 
 async def handle_submit_confirm(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     """
-    处理最终的提交确认。
+    处理最终的提交确认，包含条目验证和详细报告。
     """
     query = update.callback_query
     if not (query and query.data == "confirm_submit" and context.user_data is not None):
@@ -368,41 +369,63 @@ async def handle_submit_confirm(update: Update, context: ContextTypes.DEFAULT_TY
         await query.edit_message_text("没有可提交的条目。")
         return ConversationHandler.END
 
-    await query.edit_message_text("确认提交！正在创建 Pull Request，请稍候...")
+    await query.edit_message_text("正在对您提交的条目进行验证，请稍候...")
 
+    # --- 实例化 WikipediaClient 并执行验证 ---
+    wiki_client = WikipediaClient()
+    
     async with GIT_OPERATION_LOCK:
-        logger.info(f"获取到Git操作锁，开始为批量提交创建PR...")
-        result = await asyncio.to_thread(create_list_update_pr, serializable_submissions)
+        logger.info("获取到Git操作锁，开始验证条目并创建PR...")
+        result = await asyncio.to_thread(create_list_update_pr, serializable_submissions, wiki_client)
+        await asyncio.to_thread(wiki_client.save_caches)
         logger.info("Git操作完成，已释放锁。")
 
     chat_id = query.from_user.id
+    final_report = ""
 
-    if isinstance(result, dict):
-        added_count = result.get('added_count', 0)
-        skipped_count = result.get('skipped_count', 0)
+    if isinstance(result, dict) and 'report' in result:
+        report_data = result['report']
         pr_url = result.get('pr_url')
+        
+        report_parts = ["*--- 提交处理报告 ---*"]
+        
+        if report_data.get('accepted'):
+            lines = [f"\\- `{escape_markdown_v2(e)}`" for e in sorted(report_data['accepted'])]
+            report_parts.append(f"\n*✅ 已接受*:\n" + "\n".join(lines))
+        
+        if report_data.get('corrected'):
+            lines = [f"\\- `{escape_markdown_v2(orig)}` → `{escape_markdown_v2(corr)}`" for orig, corr in sorted(report_data['corrected'])]
+            report_parts.append(f"\n*✏️ 已修正*:\n" + "\n".join(lines))
 
-        # 场景1: PR 成功创建
+        if report_data.get('rejected'):
+            lines = [f"\\- `{escape_markdown_v2(entry)}` \\({escape_markdown_v2(reason)}\\)" for entry, reason in sorted(report_data['rejected'])]
+            report_parts.append(f"\n*❌ 已拒绝*:\n" + "\n".join(lines))
+        
+        if report_data.get('skipped'):
+            lines = [f"\\- `{escape_markdown_v2(e)}`" for e in sorted(report_data['skipped'])]
+            report_parts.append(f"\n*⏭️ 已跳过 \\(重复项\\)*:\n" + "\n".join(lines))
+
+        final_report = "\n".join(report_parts)
+        
         if pr_url:
-            report = (
-                f"✅ 操作成功！\n"
-                f"成功新增 {added_count} 条，因重复跳过 {skipped_count} 条。\n\n"
-                f"已创建 Pull Request: {pr_url}"
-            )
-            await context.bot.send_message(chat_id=chat_id, text=report)
-        # 场景2: 所有提交的条目都已存在，未创建PR
-        elif added_count == 0 and skipped_count > 0:
-            report = (
-                f"ℹ️ 操作完成。\n"
-                f"您提交的 {skipped_count} 个条目均已存在于待处理列表中，因此未创建新的 Pull Request。"
-            )
-            await context.bot.send_message(chat_id=chat_id, text=report)
-        # 场景3: 其他未预期的失败情况
-        else:
-            await context.bot.send_message(chat_id=chat_id, text="❌ 操作失败。\n创建 Pull Request 时发生错误，请检查后台日志。")
-    # 场景4: 发生严重异常，函数未能返回字典
+            final_report += f"\n\n已成功创建 Pull Request: {pr_url}"
+        elif len(report_parts) > 1: # 如果有处理结果但没有PR
+             final_report += "\n\n由于没有新增有效条目，未创建 Pull Request。"
+        else: # 如果没有任何处理结果（例如所有条目都是重复的）
+            final_report = "所有提交的条目都无效或已存在，未执行任何操作。"
+            
     else:
-        await context.bot.send_message(chat_id=chat_id, text="❌ 操作失败。\n创建 Pull Request 时发生严重错误，请联系管理员。")
+        final_report = "❌ 操作失败。\n创建 Pull Request 时发生严重错误，请联系管理员。"
+
+    # --- 分割长消息 ---
+    max_length = 4096
+    if len(final_report) > max_length:
+        for i in range(0, len(final_report), max_length):
+            await context.bot.send_message(
+                chat_id=chat_id, text=final_report[i:i + max_length], parse_mode='MarkdownV2'
+            )
+    else:
+        await context.bot.send_message(chat_id=chat_id, text=final_report, parse_mode='MarkdownV2')
 
     if context.user_data:
         context.user_data.clear()

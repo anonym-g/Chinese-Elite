@@ -5,7 +5,8 @@ import sys
 import subprocess
 import logging
 from datetime import datetime
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List, Tuple
+import re
 
 from opencc import OpenCC
 
@@ -13,6 +14,9 @@ from opencc import OpenCC
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if ROOT_DIR not in sys.path:
     sys.path.append(ROOT_DIR)
+
+# --- 模块导入 ---
+from scripts.clients.wikipedia_client import WikipediaClient
 
 # --- 日志与工具初始化 ---
 logger = logging.getLogger(__name__)
@@ -79,13 +83,74 @@ def _parse_list_md(file_path: str) -> Dict[str, set]:
         logger.error(f"LIST.md 文件未找到: {file_path}")
     return all_entries
 
-def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, Any]]:
+def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaClient) -> Optional[Dict[str, Any]]:
     """
-    接收机器人收集的条目，执行Git操作，并创建Pull Request。
+    接收机器人收集的条目，执行验证、Git操作，并创建Pull Request。
     """
     branch_name: Optional[str] = None
     try:
-        # --- 1. 加载环境变量 ---
+        # --- 1. 初始化报告和最终待添加列表 ---
+        report = {
+            'accepted': [], 'corrected': [], 'rejected': [], 'skipped': []
+        }
+        final_additions: Dict[str, list] = {cat: [] for cat in ENTITY_CATEGORIES}
+        
+        # --- 2. 加载现有条目用于去重 ---
+        list_md_path = os.path.join(ROOT_DIR, 'data', 'LIST.md')
+        existing_entries = _parse_list_md(list_md_path)
+        all_existing_simplified = {entry for entries in existing_entries.values() for entry in entries}
+
+        # --- 3. 智能去重、验证和整理 ---
+        logger.info("开始对提交的条目进行去重和维基百科验证...")
+        for category, user_entries in submissions.items():
+            for entry in user_entries:
+                simplified_entry = t2s.convert(entry)
+                if simplified_entry in all_existing_simplified:
+                    report['skipped'].append(entry)
+                    continue
+
+                # --- 开始维基百科验证 ---
+                lang_match = re.match(r'\((?P<lang>[a-z]{2})\)\s*', entry)
+                lang = 'zh'
+                name_to_check = entry
+                if lang_match:
+                    lang = lang_match.group('lang')
+                    name_to_check = entry[lang_match.end():].strip()
+                
+                status, detail = wiki_client.check_link_status(name_to_check, lang=lang)
+
+                if status in ["OK", "SIMP_TRAD_REDIRECT"]:
+                    final_additions[category].append(entry)
+                    report['accepted'].append(entry)
+                    all_existing_simplified.add(simplified_entry)
+
+                elif status == "REDIRECT":
+                    if not detail:
+                        report['rejected'].append((entry, "重定向目标为空"))
+                        continue
+                    
+                    corrected_name = f"({lang}) {detail}" if lang != 'zh' else detail
+                    if t2s.convert(corrected_name) in all_existing_simplified:
+                        report['skipped'].append(entry)
+                        continue
+
+                    final_additions[category].append(corrected_name)
+                    report['corrected'].append((entry, corrected_name))
+                    all_existing_simplified.add(t2s.convert(corrected_name))
+                
+                elif status == "DISAMBIG":
+                    report['rejected'].append((entry, "消歧义页"))
+                elif status == "NO_PAGE":
+                    report['rejected'].append((entry, "页面不存在"))
+                else: # ERROR 或其他
+                    report['rejected'].append((entry, f"验证错误({status})"))
+        
+        added_count = len(report['accepted']) + len(report['corrected'])
+        if added_count == 0:
+            logger.info("所有提交的条目都无效或已存在，无需创建PR。")
+            return {'pr_url': None, 'report': report}
+
+        # --- 4. 配置Git环境并同步最新的主分支 ---
         github_token = os.getenv("GITHUB_BOT_ACCOUNT_TOKEN")
         github_username = os.getenv("GITHUB_BOT_ACCOUNT_USERNAME")
         upstream_repo = os.getenv("UPSTREAM_REPO_URL")
@@ -93,42 +158,16 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
         https_proxy = os.getenv("HTTPS_PROXY")
 
         if not all([github_token, github_username, upstream_repo]):
-            logger.critical("错误: 缺少必要的GitHub环境变量 (GITHUB_BOT_ACCOUNT_TOKEN, GITHUB_BOT_ACCOUNT_USERNAME, UPSTREAM_REPO_URL)。")
+            logger.critical("错误: 缺少必要的GitHub环境变量。")
             return None
 
         assert github_token is not None
         assert github_username is not None
         assert upstream_repo is not None
         
-        # --- 2. 准备Git操作所需的基本信息 ---
-        list_md_path = os.path.join(ROOT_DIR, 'data', 'LIST.md')
         timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
         branch_name = f"bot/add-batch-{timestamp}"
         
-        # --- 3. 智能去重和条目整理 ---
-        existing_entries = _parse_list_md(list_md_path)
-        main_categories_entries = {entry for category, entries in existing_entries.items() if category != 'new' for entry in entries}
-        
-        final_additions: Dict[str, list] = {cat: [] for cat in ENTITY_CATEGORIES}
-        entries_to_remove_from_new = set()
-        added_count, skipped_count = 0, 0
-
-        for category, user_entries in submissions.items():
-            for entry in user_entries:
-                simplified_entry = t2s.convert(entry)
-                if simplified_entry in main_categories_entries:
-                    skipped_count += 1
-                    continue
-                if simplified_entry in existing_entries.get('new', set()):
-                    entries_to_remove_from_new.add(simplified_entry)
-                final_additions[category].append(entry)
-                added_count += 1
-        
-        if added_count == 0:
-            logger.info("所有提交的条目都已存在，无需创建PR。")
-            return {'pr_url': None, 'added_count': 0, 'skipped_count': skipped_count}
-
-        # --- 4. 配置Git环境并同步最新的主分支 ---
         custom_env = os.environ.copy()
         custom_env["GH_TOKEN"] = github_token
         if http_proxy: custom_env["HTTP_PROXY"] = http_proxy
@@ -149,31 +188,23 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
         _run_command(['git', 'checkout', '-b', branch_name])
 
         # --- 5. 修改 LIST.md 文件 ---
-        logger.info(f"正在重写 {list_md_path} ...")
+        logger.info(f"正在使用验证后的条目重写 {list_md_path} ...")
         
         valid_categories = {cat.lower() for cat in ENTITY_CATEGORIES} | {'new'}
         
         with open(list_md_path, 'r+', encoding='utf-8') as f:
             lines = f.readlines()
             new_lines = []
-            current_category: Optional[str] = None
             
             for line in lines:
                 stripped_line = line.strip()
+                new_lines.append(line)
                 if stripped_line.startswith('## '):
                     category_name = stripped_line[3:].strip().lower()
-                    new_lines.append(line)
                     category_key = next((cat for cat in final_additions if cat.lower() == category_name), None)
                     if category_key:
                         for new_entry in sorted(final_additions[category_key]):
                             new_lines.append(f"{new_entry}\n")
-                    # 使用 `valid_categories` 集合进行检查
-                    current_category = category_name if category_name in valid_categories else None
-                elif current_category == 'new':
-                    if t2s.convert(stripped_line) not in entries_to_remove_from_new:
-                        new_lines.append(line)
-                else:
-                    new_lines.append(line)
             
             f.seek(0)
             f.truncate()
@@ -183,13 +214,11 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
         commit_message = f"feat(list): Add {added_count} new entries via bot"
         pr_title = f"Contribution via Bot: Add {added_count} new entries"
         pr_body = (
-            f"This PR was automatically generated by the bot via the `/list` command.\n\n"
+            f"This PR was automatically generated by the bot via the `/list` command after validation.\n\n"
             f"**Summary:**\n"
-            f"- Successfully added: {added_count}\n"
-            f"- Skipped (duplicates): {skipped_count}\n\n"
-            f"**Details:**\n" +
-            "\n".join(f"**{cat}**:\n" + "\n".join(f"- `{entry}`" for entry in entries) 
-                      for cat, entries in final_additions.items() if entries)
+            f"- Added/Corrected: {added_count}\n"
+            f"- Skipped (duplicates): {len(report['skipped'])}\n"
+            f"- Rejected (invalid): {len(report['rejected'])}\n"
         )
         
         _run_command(['git', 'add', list_md_path])
@@ -211,7 +240,7 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
         if branch_name:
             _run_command(['git', 'branch', '-D', branch_name], check=False)
         
-        return {'pr_url': pr_url, 'added_count': added_count, 'skipped_count': skipped_count}
+        return {'pr_url': pr_url, 'report': report}
 
     except Exception as e:
         logger.error(f"创建PR过程中发生严重错误。", exc_info=True)
