@@ -37,7 +37,8 @@ def _run_command(command: list[str], check: bool = True, env: Optional[Dict[str,
             check=check,
             encoding='utf-8',
             cwd=ROOT_DIR,
-            env=env
+            env=env,
+            timeout=300
         )
         if result.stdout:
             logger.info(f"命令输出:\n{result.stdout.strip()}")
@@ -49,6 +50,9 @@ def _run_command(command: list[str], check: bool = True, env: Optional[Dict[str,
         raise
     except FileNotFoundError:
         logger.critical(f"严重错误: 命令 '{command[0]}' 未找到。请确保 git 和 gh (GitHub CLI) 已安装并位于系统的 PATH 中。")
+        raise
+    except subprocess.TimeoutExpired:
+        logger.error(f"命令执行超时: {' '.join(command)}")
         raise
 
 def _parse_list_md(file_path: str) -> Dict[str, set]:
@@ -85,6 +89,8 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
         github_token = os.getenv("GITHUB_BOT_ACCOUNT_TOKEN")
         github_username = os.getenv("GITHUB_BOT_ACCOUNT_USERNAME")
         upstream_repo = os.getenv("UPSTREAM_REPO_URL")
+        http_proxy = os.getenv("HTTP_PROXY")
+        https_proxy = os.getenv("HTTPS_PROXY")
 
         if not all([github_token, github_username, upstream_repo]):
             logger.critical("错误: 缺少必要的GitHub环境变量 (GITHUB_BOT_ACCOUNT_TOKEN, GITHUB_BOT_ACCOUNT_USERNAME, UPSTREAM_REPO_URL)。")
@@ -125,22 +131,28 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
         # --- 4. 配置Git环境并同步最新的主分支 ---
         custom_env = os.environ.copy()
         custom_env["GH_TOKEN"] = github_token
+        if http_proxy: custom_env["HTTP_PROXY"] = http_proxy
+        if https_proxy: custom_env["HTTPS_PROXY"] = https_proxy
         
+        _run_command(['git', 'init'])
         _run_command(['git', 'config', '--local', 'user.name', github_username])
         _run_command(['git', 'config', '--local', 'user.email', f'{github_username}@users.noreply.github.com'])
-        _run_command(['git', 'remote', 'set-url', 'origin', f'https://{github_username}:{github_token}@github.com/{github_username}/Chinese-Elite.git'])
-        _run_command(['git', 'checkout', 'main'])
         
-        upstream_url = f"https://github.com/{upstream_repo}"
-        _run_command(['git', 'remote', 'remove', 'upstream'], check=False)
+        origin_url = f'https://{github_username}:{github_token}@github.com/{github_username}/Chinese-Elite.git'
+        upstream_url = f"https://github.com/{upstream_repo}.git"
+        
+        _run_command(['git', 'remote', 'add', 'origin', origin_url])
         _run_command(['git', 'remote', 'add', 'upstream', upstream_url])
-        _run_command(['git', 'fetch', 'upstream'])
-        _run_command(['git', 'reset', '--hard', 'upstream/main'])
+        _run_command(['git', 'fetch', 'upstream'], env=custom_env)
+        _run_command(['git', 'checkout', '-b', 'main', 'upstream/main'])
         
         _run_command(['git', 'checkout', '-b', branch_name])
 
         # --- 5. 修改 LIST.md 文件 ---
         logger.info(f"正在重写 {list_md_path} ...")
+        
+        valid_categories = {cat.lower() for cat in ENTITY_CATEGORIES} | {'new'}
+        
         with open(list_md_path, 'r+', encoding='utf-8') as f:
             lines = f.readlines()
             new_lines = []
@@ -155,7 +167,8 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
                     if category_key:
                         for new_entry in sorted(final_additions[category_key]):
                             new_lines.append(f"{new_entry}\n")
-                    current_category = category_name if category_name in existing_entries else None
+                    # 使用 `valid_categories` 集合进行检查
+                    current_category = category_name if category_name in valid_categories else None
                 elif current_category == 'new':
                     if t2s.convert(stripped_line) not in entries_to_remove_from_new:
                         new_lines.append(line)
@@ -181,7 +194,7 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
         
         _run_command(['git', 'add', list_md_path])
         _run_command(['git', 'commit', '-m', commit_message])
-        _run_command(['git', 'push', '-u', 'origin', branch_name])
+        _run_command(['git', 'push', '-u', 'origin', branch_name], env=custom_env)
         
         pr_result = _run_command([
             'gh', 'pr', 'create',
@@ -203,7 +216,6 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
     except Exception as e:
         logger.error(f"创建PR过程中发生严重错误。", exc_info=True)
         try:
-            _run_command(['git', 'checkout', 'main'], check=False)
             if branch_name is not None:
                 _run_command(['git', 'branch', '-D', branch_name], check=False)
         except Exception as cleanup_e:
