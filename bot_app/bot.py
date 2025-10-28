@@ -376,15 +376,33 @@ async def handle_submit_confirm(update: Update, context: ContextTypes.DEFAULT_TY
         logger.info("Git操作完成，已释放锁。")
 
     chat_id = query.from_user.id
-    if isinstance(result, dict) and result.get('pr_url'):
-        report = (
-            f"✅ 操作成功！\n"
-            f"成功新增 {result.get('added_count', 0)} 条，因重复跳过 {result.get('skipped_count', 0)} 条。\n\n"
-            f"已创建 Pull Request: {result.get('pr_url')}"
-        )
-        await context.bot.send_message(chat_id=chat_id, text=report)
+
+    if isinstance(result, dict):
+        added_count = result.get('added_count', 0)
+        skipped_count = result.get('skipped_count', 0)
+        pr_url = result.get('pr_url')
+
+        # 场景1: PR 成功创建
+        if pr_url:
+            report = (
+                f"✅ 操作成功！\n"
+                f"成功新增 {added_count} 条，因重复跳过 {skipped_count} 条。\n\n"
+                f"已创建 Pull Request: {pr_url}"
+            )
+            await context.bot.send_message(chat_id=chat_id, text=report)
+        # 场景2: 所有提交的条目都已存在，未创建PR
+        elif added_count == 0 and skipped_count > 0:
+            report = (
+                f"ℹ️ 操作完成。\n"
+                f"您提交的 {skipped_count} 个条目均已存在于待处理列表中，因此未创建新的 Pull Request。"
+            )
+            await context.bot.send_message(chat_id=chat_id, text=report)
+        # 场景3: 其他未预期的失败情况
+        else:
+            await context.bot.send_message(chat_id=chat_id, text="❌ 操作失败。\n创建 Pull Request 时发生错误，请检查后台日志。")
+    # 场景4: 发生严重异常，函数未能返回字典
     else:
-        await context.bot.send_message(chat_id=chat_id, text="❌ 操作失败。\n创建 Pull Request 时发生错误，请检查后台日志。")
+        await context.bot.send_message(chat_id=chat_id, text="❌ 操作失败。\n创建 Pull Request 时发生严重错误，请联系管理员。")
 
     if context.user_data:
         context.user_data.clear()
@@ -498,7 +516,35 @@ class TelegramBotHandler:
 
     async def handle_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         message = update.message
-        if not (message and message.text): return
+        # --- 提前检查 message 和 from_user 是否存在 ---
+        if not (message and message.from_user):
+            return
+
+        # --- 自动广告检测与封禁 ---
+        # 1. 检查：为群聊消息，且消息发送者是“已注销账户”
+        if message.chat.type in ('group', 'supergroup') and message.from_user.is_deleted:  # type: ignore
+            chat_id = message.chat.id
+            user_id = message.from_user.id
+            logger.warning(f"检测到来自已注销用户 (ID: {user_id}) 在群组 (ID: {chat_id}) 中发布的消息。")
+            
+            try:
+                # 2. 检查机器人是否具有管理员权限
+                bot_member = await context.bot.get_chat_member(chat_id, context.bot.id)
+                if isinstance(bot_member, telegram.ChatMemberAdministrator) and bot_member.can_restrict_members:
+                    # 3. 如果有权限，则执行封禁和删帖操作
+                    await context.bot.ban_chat_member(chat_id=chat_id, user_id=user_id)
+                    await message.delete()
+                    logger.info(f"成功封禁用户 {user_id} 并删除其在群组 {chat_id} 中发布的消息。")
+                else:
+                    logger.warning(f"在群组 {chat_id} 中检测到广告，但机器人缺少封禁成员的权限。")
+            except Exception as e:
+                logger.error(f"在尝试封禁用户 {user_id} 时发生错误: {e}")
+            
+            # 4. 无论成功与否，都终止后续处理，不再进行问答
+            return
+
+        # 如果不是广告，则执行问答逻辑
+        if not message.text: return
 
         chat_id = message.chat_id
         full_user_message = message.text

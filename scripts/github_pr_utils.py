@@ -216,6 +216,8 @@ def create_list_update_pr(submissions: Dict[str, list]) -> Optional[Dict[str, An
     except Exception as e:
         logger.error(f"创建PR过程中发生严重错误。", exc_info=True)
         try:
+            # 在删除分支前，先切换回 main 分支
+            _run_command(['git', 'checkout', 'main'], check=False)
             if branch_name is not None:
                 _run_command(['git', 'branch', '-D', branch_name], check=False)
         except Exception as cleanup_e:
