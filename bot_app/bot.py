@@ -382,6 +382,7 @@ async def handle_submit_confirm(update: Update, context: ContextTypes.DEFAULT_TY
 
     chat_id = query.from_user.id
     final_report = ""
+    pr_url = None
 
     if isinstance(result, dict) and 'report' in result:
         report_data = result['report']
@@ -408,24 +409,43 @@ async def handle_submit_confirm(update: Update, context: ContextTypes.DEFAULT_TY
         final_report = "\n".join(report_parts)
         
         if pr_url:
-            final_report += f"\n\n已成功创建 Pull Request: {pr_url}"
+            final_report += f"\n\n已成功创建 [Pull Request]({pr_url})"
         elif len(report_parts) > 1: # 如果有处理结果但没有PR
-             final_report += "\n\n由于没有新增有效条目，未创建 Pull Request。"
+            final_report += "\n\n由于没有新增有效条目，未创建 Pull Request。"
         else: # 如果没有任何处理结果（例如所有条目都是重复的）
             final_report = "所有提交的条目都无效或已存在，未执行任何操作。"
             
     else:
         final_report = "❌ 操作失败。\n创建 Pull Request 时发生严重错误，请联系管理员。"
 
-    # --- 分割长消息 ---
-    max_length = 4096
-    if len(final_report) > max_length:
-        for i in range(0, len(final_report), max_length):
-            await context.bot.send_message(
-                chat_id=chat_id, text=final_report[i:i + max_length], parse_mode='MarkdownV2'
-            )
-    else:
-        await context.bot.send_message(chat_id=chat_id, text=final_report, parse_mode='MarkdownV2')
+    try:
+        # --- 尝试发送详细报告 ---
+        max_length = 4096
+        if len(final_report) > max_length:
+            for i in range(0, len(final_report), max_length):
+                await context.bot.send_message(
+                    chat_id=chat_id, text=final_report[i:i + max_length], parse_mode='MarkdownV2'
+                )
+        else:
+            await context.bot.send_message(chat_id=chat_id, text=final_report, parse_mode='MarkdownV2')
+
+    # --- 兜底逻辑：如果详细报告因格式问题发送失败 ---
+    except telegram.error.BadRequest as e:
+        # 增加日志，打印导致错误的原始消息内容
+        logger.error(
+            f"发送详细报告失败: {e}。将发送后备消息。\n"
+            f"--- 导致错误的消息原文 ---\n"
+            f"{final_report}\n"
+            f"--- 消息原文结束 ---"
+        )
+        
+        fallback_message = "✅ 操作已完成，但在生成详细报告时遇到格式问题。"
+        if pr_url:
+            fallback_message += f"\n\n已创建 Pull Request: {pr_url}"
+        elif final_report.startswith("所有提交的"):
+            fallback_message = final_report
+        
+        await context.bot.send_message(chat_id=chat_id, text=fallback_message)
 
     if context.user_data:
         context.user_data.clear()
