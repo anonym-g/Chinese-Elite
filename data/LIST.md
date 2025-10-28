@@ -1,4 +1,5 @@
 ## person
+(en) Mao Zedong
 (en) Xi Jinping
 习近平
 唐納·川普
