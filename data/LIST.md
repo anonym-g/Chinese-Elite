@@ -1,4 +1,5 @@
 ## person
+(en) Xi Jinping
 习近平
 唐納·川普
 习明泽
