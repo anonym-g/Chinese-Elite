@@ -29,20 +29,39 @@ PAGEVIEWS_DATA_START_DATE = datetime(2015, 7, 1) # 维基媒体Pageviews API数�
 PAGEVIEWS_CACHE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
 CREATION_DATE_CACHE_PATH = os.path.join(CACHE_DIR, 'creation_date_cache.json')
 BATCH_SIZE = 120 # 并发处理的批次大小
+MAX_NETWORK_CHECKS = 1000 # 单次运行最大处理规模
 
-# --- 智能速率限制 ---
-# 检测是否在 GitHub Action (CI) 环境中运行
+# --- 速率与并发控制 ---
 IS_CI = os.getenv('GITHUB_ACTIONS') == 'true'
-
-# 在CI环境中，使用更保守的速率限制（60次/分钟），以应对共享IP问题
-# 本地环境可以使用维基百科官方允许的更高限制（100次/分钟）
-RATE_LIMIT = 60 if IS_CI else 100
+RATE_LIMIT = 120 if IS_CI else 180
 PER_SECONDS = 60
-# 使用 asyncio.Semaphore 实现简单高效的并发控制
-API_SEMAPHORE = asyncio.Semaphore(RATE_LIMIT)
-TIME_WINDOW_START = time.monotonic()
+CONCURRENCY_LIMIT = 32
+CONCURRENCY_SEMAPHORE = asyncio.Semaphore(CONCURRENCY_LIMIT)
 
-# --- 缓存加载/保存的辅助函数 ---
+class AsyncLeakyBucket:
+    """
+    一个异步漏桶速率限制器，用于平滑请求速率。
+    """
+    def __init__(self, rate: int, per_seconds: int):
+        self.rate_per_second = rate / per_seconds
+        self._lock = asyncio.Lock()
+        self._last_request_time = 0.0
+
+    async def acquire(self):
+        async with self._lock:
+            now = time.monotonic()
+            elapsed = now - self._last_request_time
+            wait_period = 1 / self.rate_per_second
+            wait_needed = wait_period - elapsed
+            if wait_needed > 0:
+                await asyncio.sleep(wait_needed)
+            self._last_request_time = time.monotonic()
+
+leaky_bucket = AsyncLeakyBucket(RATE_LIMIT, PER_SECONDS)
+logger.info(f"速率限制配置: {RATE_LIMIT} 请求 / {PER_SECONDS} 秒")
+logger.info(f"并发上限配置: {CONCURRENCY_LIMIT} 个同时请求")
+
+
 def load_json_cache(file_path: str) -> dict:
     """通用JSON缓存加载函数"""
     if not os.path.exists(file_path):
@@ -71,8 +90,7 @@ def parse_list_file(file_path: str) -> dict[str, list]:
         return {}
     
     logger.info(f"正在读取列表文件: {file_path}")
-    categorized_items = {}
-    current_category = None
+    categorized_items, current_category = {}, None
     lang_pattern = re.compile(r'\((?P<lang>[a-z]{2})\)\s*')
 
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -85,10 +103,9 @@ def parse_list_file(file_path: str) -> dict[str, list]:
                 if current_category not in categorized_items: categorized_items[current_category] = []
                 continue
             if not line or line.startswith('//') or not current_category: continue
-            lang = 'zh'
-            item_name = line
-            match = lang_pattern.match(line)
-            if match:
+
+            lang, item_name = 'zh', line
+            if match := lang_pattern.match(line):
                 lang = match.group('lang')
                 item_name = line[match.end():].strip()
             categorized_items[current_category].append({"original_line": line, "name": item_name, "lang": lang})
@@ -100,25 +117,19 @@ def batchify(data: list, batch_size: int):
         yield data[i:i + batch_size]
 
 async def make_api_request_async(session: aiohttp.ClientSession, url, params=None):
-    """执行异步API请求，由Semaphore进行速率限制"""
-    global TIME_WINDOW_START
-    async with API_SEMAPHORE:
-        # 检查是否需要等待以满足每分钟的速率限制
-        current_time = time.monotonic()
-        waiters = API_SEMAPHORE._waiters
-        if current_time - TIME_WINDOW_START < PER_SECONDS and API_SEMAPHORE.locked() and waiters is not None and len(waiters) >= RATE_LIMIT - 1:
-             # 如果窗口期未结束且信号量已满，重置窗口并等待
-            await asyncio.sleep(PER_SECONDS - (current_time - TIME_WINDOW_START))
-            TIME_WINDOW_START = time.monotonic()
-
-        timeout_obj = aiohttp.ClientTimeout(total=15)
+    """
+    执行异步API请求，由信号量控制并发数，由漏桶平滑速率。
+    """
+    # 1. 获取一个并发名额，如果已满则在此等待
+    async with CONCURRENCY_SEMAPHORE:
+        # 2. 获取名额后，通过漏桶平滑发出请求的精确时间点
+        await leaky_bucket.acquire()
+        timeout_obj = aiohttp.ClientTimeout(total=20)
         try:
             async with session.get(url, params=params, timeout=timeout_obj) as response:
                 if response.status == 404: return None
                 if response.status == 429:
-                    logger.warning(f"收到 429 (Too Many Requests) 错误: {url}。将等待后重试...")
-                    await asyncio.sleep(float(response.headers.get("Retry-After", "10")))
-                    # 在这里可以决定是重试还是放弃，为简单起见，我们先放弃
+                    logger.warning(f"收到 429 错误: {url}。放弃本次请求。")
                     return None
                 response.raise_for_status()
                 return await response.json()
@@ -177,9 +188,7 @@ async def _fetch_stats_for_title_async(session: aiohttp.ClientSession, article_t
     
     # 获取到创建日期后，进行精确计算
     effective_start_date = max(creation_date, PAGEVIEWS_DATA_START_DATE)
-    days_since_creation = (end_date - effective_start_date).days
-
-    if days_since_creation <= 0:
+    if (days_since_creation := (end_date - effective_start_date).days) <= 0:
         return {'total_views': 0, 'avg_daily_views': 0}
 
     if not pageviews_data:
@@ -190,16 +199,13 @@ async def _fetch_stats_for_title_async(session: aiohttp.ClientSession, article_t
                    if datetime.strptime(item['timestamp'], '%Y%m%d%H') >= effective_start_date]
     
     total_views = sum(item['views'] for item in valid_items)
-    # 使用实际天数计算日均
-    duration_days = (end_date - effective_start_date).days
-    avg_daily_views = total_views / duration_days if duration_days > 0 else 0
+    avg_daily_views = total_views / days_since_creation if days_since_creation > 0 else 0
     
     return {'total_views': total_views, 'avg_daily_views': avg_daily_views}
 
 async def get_pageviews_stats_async(session: aiohttp.ClientSession, item_obj: dict, creation_date_cache: dict) -> tuple[str, dict]:
     """负责网络请求和简繁体回退逻辑"""
-    article_title = item_obj['name']
-    lang = item_obj['lang']
+    article_title, lang = item_obj['name'], item_obj['lang']
     logger.info(f"[*] 正在网络查询: {article_title} ({lang})")
     
     stats = await _fetch_stats_for_title_async(session, article_title, lang, creation_date_cache)
@@ -209,8 +215,7 @@ async def get_pageviews_stats_async(session: aiohttp.ClientSession, item_obj: di
 
     # 后备查询逻辑 (仅对中文)
     if lang == 'zh':
-        candidate_titles = {s2t_converter.convert(article_title), t2s_converter.convert(article_title)}
-        for candidate in candidate_titles:
+        for candidate in {s2t_converter.convert(article_title), t2s_converter.convert(article_title)}:
             if candidate != article_title:
                 logger.info(f"  ...原始查询失败，尝试备用标题: '{candidate}'")
                 stats = await _fetch_stats_for_title_async(session, candidate, lang, creation_date_cache)
@@ -219,7 +224,9 @@ async def get_pageviews_stats_async(session: aiohttp.ClientSession, item_obj: di
                     return article_title, stats
 
     return article_title, {
-        'error': 'API and cache lookup failed', 'total_views': -1, 'avg_daily_views': 0,
+        'error': 'API and fallback failed', 
+        'total_views': -1, 
+        'avg_daily_views': 0, 
         'check_timestamp': datetime.now(timezone.utc).isoformat()
     }
 
@@ -232,13 +239,8 @@ def rewrite_list_file(sorted_results: dict):
     sorted_categories_lower = {k.lower(): k for k in sorted_results.keys()}
     
     try:
-        with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
-            original_lines = f.readlines()
-            
-        new_lines = []
-        # 标记当前行是否属于需要被重写的类别
-        is_in_sorted_category = False
-
+        with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f: original_lines = f.readlines()
+        new_lines, is_in_sorted_category = [], False
         for line in original_lines:
             stripped_line = line.strip()
             
@@ -256,7 +258,7 @@ def rewrite_list_file(sorted_results: dict):
                     new_lines.append(f"## {original_case_category}\n")
                     for item_name in sorted_results[original_case_category]: new_lines.append(f"{item_name}\n")
                 else:
-                    # 如果这个类别不在排序结果里（比如 ## new），则照常保留
+                    # 如果类别不在排序结果里（比如 ## new），则照常保留
                     is_in_sorted_category = False
                     new_lines.append(line)
             # 如果当前行不属于需要重写的类别，则保留它（包括空行和注释）
@@ -274,79 +276,57 @@ async def main():
     """脚本主入口，负责所有缓存读写和决策逻辑"""
     logger.info("--- 开始检查页面热度 ---")
     
-    items_by_category = parse_list_file(LIST_FILE_PATH)
-    if not items_by_category:
+    if not (items_by_category := parse_list_file(LIST_FILE_PATH)):
         logger.info("列表文件为空，任务结束。")
         return
 
     # --- 步骤 0: 加载缓存 ---
     pageviews_cache = load_json_cache(PAGEVIEWS_CACHE_PATH)
     creation_date_cache = load_json_cache(CREATION_DATE_CACHE_PATH)
-
-    to_check_by_category = {cat: [] for cat in items_by_category}
-    now = datetime.now(timezone.utc)
+    
+    to_check_this_run, now, skipped_count = [], datetime.now(timezone.utc), 0
 
     # --- 步骤 1: 预处理，决策哪些条目需要检查 ---
-    logger.info("\n--- 步骤 1/3: 预处理所有条目，决定是否需要网络检查 ---")
-    total_items = sum(len(i) for i in items_by_category.values())
-    skipped_count = 0
-    for category, items in items_by_category.items():
-        for item_obj in items:
-            item_name = item_obj['name']
-            # 使用 item_name 作为缓存的 key
-            if item_name not in pageviews_cache:
-                to_check_by_category[category].append(item_obj)
-                continue
-            
-            cached_entry = pageviews_cache[item_name]
-            timestamp_str = cached_entry.get('check_timestamp')
+    logger.info("\n--- 步骤 1/3: 筛选需要网络检查的条目 ---")
+    all_items = [item for items in items_by_category.values() for item in items]
+    for item_obj in all_items:
+        item_name = item_obj['name']
+        if item_name not in pageviews_cache or (cached_entry := pageviews_cache[item_name]).get('error') or not (timestamp_str := cached_entry.get('check_timestamp')):
+            to_check_this_run.append(item_obj); continue
+        try:
+            age_in_days = (now.date() - datetime.fromisoformat(timestamp_str).date()).days
+            if age_in_days <= PROB_START_DAY: skipped_count += 1
+            elif PROB_START_DAY < age_in_days <= PROB_END_DAY:
+                ratio = (age_in_days - PROB_START_DAY) / (PROB_END_DAY - PROB_START_DAY)
+                probability = PROB_START_VALUE + (PROB_END_VALUE - PROB_START_VALUE) * ratio
+                if random.random() < probability: to_check_this_run.append(item_obj)
+                else: skipped_count += 1
+            else: to_check_this_run.append(item_obj)
+        except (ValueError, TypeError): to_check_this_run.append(item_obj)
+    
+    logger.info(f"预处理完成。共 {len(all_items)} 项，其中 {skipped_count} 项将使用缓存，{len(to_check_this_run)} 项符合网络检查条件。")
 
-            if not timestamp_str or cached_entry.get('error'):
-                to_check_by_category[category].append(item_obj)
-                continue
-            
-            try:
-                check_time = datetime.fromisoformat(timestamp_str)
-                age_in_days = (now.date() - check_time.date()).days
-                
-                if age_in_days <= PROB_START_DAY:
-                    skipped_count += 1
-                elif PROB_START_DAY <= age_in_days <= PROB_END_DAY:
-                    ratio = (age_in_days - PROB_START_DAY) / (PROB_END_DAY - PROB_START_DAY)
-                    probability = PROB_START_VALUE + (PROB_END_VALUE - PROB_START_VALUE) * ratio
-                    if random.random() < probability:
-                        to_check_by_category[category].append(item_obj)
-                    else:
-                        skipped_count += 1
-                else:
-                    to_check_by_category[category].append(item_obj)
-            except (ValueError, TypeError):
-                to_check_by_category[category].append(item_obj)
-    
-    logger.info(f"预处理完成。共 {total_items} 项，其中 {skipped_count} 项将使用缓存，{total_items - skipped_count} 项需要网络检查。")
-    
+    if len(to_check_this_run) > MAX_NETWORK_CHECKS:
+        logger.info(f"需要检查的条目过多({len(to_check_this_run)}), 将随机抽样 {MAX_NETWORK_CHECKS} 项进行处理。")
+        random.shuffle(to_check_this_run)
+        items_for_network_check = to_check_this_run[:MAX_NETWORK_CHECKS]
+    else: items_for_network_check = to_check_this_run
+
     # --- 步骤 2: 并发执行网络请求 ---
-    if total_items > skipped_count:
-        logger.info("\n--- 步骤 2/3: 开始并发执行网络检查 ---")
+    if items_for_network_check:
+        logger.info(f"\n--- 步骤 2/3: 开始对 {len(items_for_network_check)} 个条目进行并发网络检查 ---")
         headers = {'User-Agent': USER_AGENT}
         async with aiohttp.ClientSession(headers=headers, trust_env=True) as session:
-            for category, items_to_check in to_check_by_category.items():
-                if not items_to_check: continue
-                logger.info(f"\n--- 正在检查类别: {category} ---")
-                total_batches = (len(items_to_check) + BATCH_SIZE - 1) // BATCH_SIZE
-                for i, batch in enumerate(batchify(items_to_check, BATCH_SIZE)):
-                    logger.info(f"--- 正在处理批次 {i+1}/{total_batches} (共 {len(batch)} 项) ---")
-                    # 将 creation_date_cache 传入
-                    tasks = [get_pageviews_stats_async(session, item_obj, creation_date_cache) for item_obj in batch]
-                    batch_results = await asyncio.gather(*tasks, return_exceptions=True)
+            total_batches = (len(items_for_network_check) + BATCH_SIZE - 1) // BATCH_SIZE
+            for i, batch in enumerate(batchify(items_for_network_check, BATCH_SIZE)):
+                logger.info(f"--- 正在处理批次 {i+1}/{total_batches} (共 {len(batch)} 项) ---")
+                tasks = [get_pageviews_stats_async(session, item_obj, creation_date_cache) for item_obj in batch]
 
-                    # 将新结果写入缓存
-                    for result in batch_results:
-                        if isinstance(result, Exception):
-                            logger.error(f"一个查询任务在执行中发生异常: {str(result)}")
-                        elif isinstance(result, tuple): 
-                            item_name, stats = result
-                            pageviews_cache[item_name] = stats
+                for result in await asyncio.gather(*tasks, return_exceptions=True):
+                    if isinstance(result, Exception): 
+                        logger.error(f"一个查询任务在执行中发生异常: {str(result)}")
+                    elif isinstance(result, tuple): 
+                        pageviews_cache[result[0]] = result[1]
     else:
         logger.info("\n--- 步骤 2/3: 无需网络检查，跳过此步骤 ---")
 
@@ -355,11 +335,7 @@ async def main():
     final_results_by_category = {cat: [] for cat in items_by_category}
     for category, items in items_by_category.items():
         for item_obj in items:
-            item_name = item_obj['name']
-            stats = pageviews_cache.get(item_name)
-            if not stats or 'total_views' not in stats:
-                stats = {'total_views': -1, 'avg_daily_views': 0}
-            # 存储完整的 item_obj，包含 original_line
+            stats = pageviews_cache.get(item_obj['name']) or {'total_views': -1, 'avg_daily_views': 0}
             final_results_by_category[category].append({'item': item_obj, 'stats': stats})
 
     sorted_results = OrderedDict()
