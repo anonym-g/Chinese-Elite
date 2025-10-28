@@ -1,0 +1,894 @@
+{
+  "nodes": [
+    {
+      "id": "神舟五号",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "神舟五号",
+          "神五"
+        ],
+        "en": [
+          "Shenzhou 5"
+        ]
+      },
+      "properties": {
+        "period": "2003-10-15 - 2003-10-16",
+        "location": {
+          "zh-cn": "低地球轨道",
+          "en": "Low Earth orbit"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的第一次载人航天飞行任务，由航天员杨利伟执行。该任务的成功标志着中国成为世界上第三个独立掌握载人航天技术的国家。",
+          "en": "The first human spaceflight mission of the People's Republic of China, conducted by astronaut Yang Liwei. Its success marked China as the third country in the world to independently possess human spaceflight technology."
+        }
+      }
+    },
+    {
+      "id": "杨利伟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨利伟"
+        ],
+        "en": [
+          "Yang Liwei"
+        ]
+      },
+      "properties": {
+        "lifetime": "1965-06-21 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国首位进入太空的航天员，原中国人民解放军空军歼击机飞行员，执行了神舟五号载人航天任务。",
+          "en": "The first Chinese astronaut in space, a former fighter pilot in the People's Liberation Army Air Force, who flew on the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "中国载人航天工程",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中国载人航天工程"
+        ],
+        "en": [
+          "China Manned Space Program"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的载人航天计划，神舟五号是该工程的第五次任务。",
+          "en": "The human spaceflight program of the People's Republic of China. Shenzhou 5 was the fifth mission of this program."
+        }
+      }
+    },
+    {
+      "id": "长征二号F运载火箭",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "长征二号F运载火箭",
+          "长征2号F"
+        ],
+        "en": [
+          "Long March 2F"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "用于发射神舟系列飞船的中国运载火箭。",
+          "en": "A Chinese carrier rocket used to launch the Shenzhou series spacecraft."
+        }
+      }
+    },
+    {
+      "id": "酒泉卫星发射中心",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "酒泉卫星发射中心",
+          "酒泉航天发射中心"
+        ],
+        "en": [
+          "Jiuquan Satellite Launch Center"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国内蒙古自治区阿拉善盟",
+          "en": "Alxa League, Inner Mongolia, China"
+        },
+        "description": {
+          "zh-cn": "神舟五号载人飞船的发射场。",
+          "en": "The launch site for the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "四子王旗着陆场",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "四子王旗着陆场",
+          "四子王旗",
+          "阿木古郎牧场"
+        ],
+        "en": [
+          "Siziwang Banner landing site"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国内蒙古自治区",
+          "en": "Inner Mongolia, China"
+        },
+        "description": {
+          "zh-cn": "神舟五号返回舱的主着陆场。",
+          "en": "The primary landing site for the Shenzhou 5 return capsule."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": [
+          "People's Republic of China",
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "神舟五号任务的执行国，使其成为世界上第三个独立掌握载人航天技术的国家。",
+          "en": "The country that conducted the Shenzhou 5 mission, making it the third nation to independently master human spaceflight technology."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联",
+          "前苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": " - 1991-12-26",
+        "description": {
+          "zh-cn": "世界上第一个实现载人航天的国家。",
+          "en": "The first country to achieve human spaceflight."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯"
+        ],
+        "en": [
+          "Russia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "继承苏联航天能力的国家之一。",
+          "en": "One of the nations that inherited the space capabilities of the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "世界上第二个实现载人航天的国家。",
+          "en": "The second country to achieve human spaceflight."
+        }
+      }
+    },
+    {
+      "id": "李继耐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李继耐"
+        ],
+        "en": [
+          "Li Jinai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中国人民解放军总装备部部长、中国载人航天工程总指挥，宣布了神舟五号的发射成功与任务圆满成功。",
+          "en": "Then Director of the PLA General Armaments Department and Commander-in-Chief of the China Manned Space Program, who announced the successful launch and completion of the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军总装备部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军总装备部",
+          "总装备部"
+        ],
+        "en": [
+          "General Armaments Department of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "曾是中国人民解放军的四大总部之一，负责全军的武器装备工作。",
+          "en": "Formerly one of the four general headquarters of the PLA, responsible for the weaponry and equipment of the entire military."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央委员会",
+          "中共中央",
+          "党中央"
+        ],
+        "en": [
+          "Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的最高领导机关，于2002年10月批准了神舟五号的飞行方案。",
+          "en": "The highest leading body of the Communist Party of China, which approved the flight plan for Shenzhou 5 in October 2002."
+        }
+      }
+    },
+    {
+      "id": "胡锦涛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡锦涛"
+        ],
+        "en": [
+          "Hu Jintao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中共中央总书记、国家主席，在神舟五号发射现场观看了发射过程，并在航天员出征仪式上发表讲话。",
+          "en": "Then General Secretary of the CPC Central Committee and President of China, who watched the launch of Shenzhou 5 on site and delivered a speech at the astronaut's departure ceremony."
+        }
+      }
+    },
+    {
+      "id": "曹刚川",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹刚川"
+        ],
+        "en": [
+          "Cao Gangchuan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中央军委副主席、国防部长，在神舟五号飞行期间与航天员杨利伟进行了“天地对话”。",
+          "en": "Then Vice Chairman of the Central Military Commission and Minister of National Defense, who conducted a 'space-to-ground call' with astronaut Yang Liwei during the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "温家宝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温家宝"
+        ],
+        "en": [
+          "Wen Jiabao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任国务院总理，在杨利伟成功返回后与其通话表示祝贺。",
+          "en": "Then Premier of the State Council, who spoke with Yang Liwei after his successful return to congratulate him."
+        }
+      }
+    },
+    {
+      "id": "江泽民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江泽民"
+        ],
+        "en": [
+          "Jiang Zemin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中央军委主席，在获悉神舟五号任务成功后打电话表示祝贺。",
+          "en": "Then Chairman of the Central Military Commission, who made a phone call to offer congratulations after learning of the successful completion of the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "中国载人航天工程办公室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国载人航天工程办公室"
+        ],
+        "en": [
+          "China Manned Space Engineering Office"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国载人航天工程的管理机构，为神舟五号任务的运营方。",
+          "en": "The administrative body for the China Manned Space Program, and the operator of the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国旗",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国旗",
+          "中国国旗"
+        ],
+        "en": [
+          "Flag of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的国家象征，由杨利伟在神舟五号任务中于太空展示。",
+          "en": "The national symbol of the People's Republic of China, displayed in space by Yang Liwei during the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "联合国旗帜",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "联合国旗帜",
+          "联合国旗"
+        ],
+        "en": [
+          "Flag of the United Nations"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "联合国的官方旗帜，由杨利伟在神舟五号任务中于太空展示。",
+          "en": "The official flag of the United Nations, displayed in space by Yang Liwei during the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "翟志刚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "翟志刚"
+        ],
+        "en": [
+          "Zhai Zhigang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1966-10-10 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国航天员，担任神舟五号任务的第一梯队候补航天员。",
+          "en": "A Chinese astronaut who served as a backup astronaut in the first echelon for the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "聂海胜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "聂海胜"
+        ],
+        "en": [
+          "Nie Haisheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1964-10-13 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国航天员，担任神舟五号任务的第二梯队候补航天员。",
+          "en": "A Chinese astronaut who served as a backup astronaut in the second echelon for the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军空军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军空军",
+          "空军"
+        ],
+        "en": [
+          "People's Liberation Army Air Force"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的空中作战军种，杨利伟曾在此服役担任歼击机飞行员。",
+          "en": "The aerial warfare service branch of the People's Liberation Army. Yang Liwei served as a fighter pilot in this force."
+        }
+      }
+    },
+    {
+      "id": "宿双宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宿双宁"
+        ],
+        "en": [
+          "Su Shuangning"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "神舟五号任务航天员系统总指挥。",
+          "en": "Commander-in-Chief of the astronaut system for the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "袁家军",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁家军"
+        ],
+        "en": [
+          "Yuan Jiajun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "神舟五号任务载人飞船系统总指挥。",
+          "en": "Commander-in-Chief of the manned spacecraft system for the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "黄春平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄春平",
+          "黄春平 (科学家)"
+        ],
+        "en": [
+          "Huang Chunping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "神舟五号任务火箭系统总指挥。",
+          "en": "Commander-in-Chief of the rocket system for the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "中国国家博物馆",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国家博物馆"
+        ],
+        "en": [
+          "National Museum of China"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "位于中国北京天安门广场东侧的综合性博物馆，收藏有神舟五号返回舱。",
+          "en": "A comprehensive museum located on the east side of Tiananmen Square in Beijing, China, which houses the Shenzhou 5 return capsule."
+        }
+      }
+    },
+    {
+      "id": "联合早报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合早报"
+        ],
+        "en": [
+          "Lianhe Zaobao"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "新加坡",
+          "en": "Singapore"
+        },
+        "description": {
+          "zh-cn": "新加坡的主要华文日报之一，对神舟五号的成功发射给予了高度评价。",
+          "en": "One of Singapore's main Chinese-language daily newspapers, which highly praised the successful launch of Shenzhou 5."
+        }
+      }
+    },
+    {
+      "id": "卢杰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卢杰",
+          "卢杰 (宇航员)"
+        ],
+        "en": [
+          "Edward Lu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国华裔宇航员，在神舟五号任务期间正在国际空间站执行任务，并用普通话向杨利伟表示欢迎。",
+          "en": "A Chinese-American astronaut who was on a mission aboard the International Space Station during the Shenzhou 5 flight and welcomed Yang Liwei in Mandarin."
+        }
+      }
+    },
+    {
+      "id": "尤里·马连琴科",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "尤里·马连琴科"
+        ],
+        "en": [
+          "Yuri Malenchenko"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯宇航员，在神舟五号任务期间与卢杰一同在国际空间站上向杨利伟表示欢迎。",
+          "en": "A Russian cosmonaut who, along with Edward Lu, welcomed Yang Liwei from the International Space Station during the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "id": "台湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾"
+        ],
+        "en": [
+          "Taiwan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "神舟五号飞船搭载的部分植物种子的来源地。",
+          "en": "Origin of some of the plant seeds carried aboard the Shenzhou 5 spacecraft."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国载人航天工程",
+      "target": "神舟五号",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "神舟五号是中国载人航天工程的第五次飞行任务，也是首次载人飞行任务。",
+          "en": "Shenzhou 5 was the fifth flight mission of the China Manned Space Program, and its first human spaceflight mission."
+        }
+      }
+    },
+    {
+      "source": "杨利伟",
+      "target": "神舟五号",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2003-10-15",
+        "end_date": "2003-10-16",
+        "position": {
+          "zh-cn": "航天员",
+          "en": "Astronaut"
+        },
+        "description": {
+          "zh-cn": "杨利伟是执行神舟五号任务的唯一航天员。",
+          "en": "Yang Liwei was the sole astronaut on the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "source": "长征二号F运载火箭",
+      "target": "神舟五号",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "长征二号F运载火箭成功将神舟五号飞船发射至预定轨道。",
+          "en": "The Long March 2F rocket successfully launched the Shenzhou 5 spacecraft into its predetermined orbit."
+        }
+      }
+    },
+    {
+      "source": "长征二号F运载火箭",
+      "target": "杨利伟",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "在发射过程中，火箭与飞船发生低频共振，叠加6G的过载，剧烈震动对杨利伟的身体造成了极大的负荷和生命危险。",
+          "en": "During the launch, the rocket and spacecraft experienced low-frequency resonance, which, combined with a 6G overload, caused severe vibrations that posed a significant physical burden and life-threatening danger to Yang Liwei."
+        }
+      }
+    },
+    {
+      "source": "神舟五号",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10-16",
+        "description": {
+          "zh-cn": "神舟五号任务的成功，标志着中国成为继前苏联/俄罗斯和美国之后第三个独立掌握载人航天能力的国家。",
+          "en": "The success of the Shenzhou 5 mission marked China as the third country, after the former Soviet Union/Russia and the United States, to independently master human spaceflight technology."
+        }
+      }
+    },
+    {
+      "source": "中国共产党中央委员会",
+      "target": "神舟五号",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2002-10",
+        "description": {
+          "zh-cn": "于2002年10月专门召开会议，同意在2003年实施首次载人航天飞行，并确定了“一名航天员，飞行一天”的具体方案。",
+          "en": "Convened a special meeting in October 2002, approving the implementation of the first human spaceflight in 2003 and defining the specific plan of 'one astronaut, one day'."
+        }
+      }
+    },
+    {
+      "source": "李继耐",
+      "target": "神舟五号",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "作为载人航天工程总指挥，宣布了神舟五号载人飞船发射成功，并在任务结束后宣布飞行获得圆满成功。",
+          "en": "As Commander-in-Chief of the manned space program, he announced the successful launch of Shenzhou 5 and its complete success upon mission conclusion."
+        }
+      }
+    },
+    {
+      "source": "胡锦涛",
+      "target": "神舟五号",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "作为时任国家最高领导人，在酒泉卫星发射中心现场观看了飞船发射，并在发射成功后发表讲话表示祝贺，体现了国家对该任务的支持。",
+          "en": "As the then-top national leader, he watched the spacecraft launch on-site at the Jiuquan Satellite Launch Center and delivered a congratulatory speech after the successful launch, reflecting the state's support for the mission."
+        }
+      }
+    },
+    {
+      "source": "胡锦涛",
+      "target": "杨利伟",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "在航天员出征仪式上发表讲话，为即将执行任务的杨利伟壮行。",
+          "en": "Delivered a speech at the astronaut's departure ceremony, encouraging Yang Liwei before his mission."
+        }
+      }
+    },
+    {
+      "source": "杨利伟",
+      "target": "曹刚川",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "在太空飞行期间，杨利伟与时任国防部长曹刚川进行了第一次“天地对话”。",
+          "en": "During his spaceflight, Yang Liwei conducted the first 'space-to-ground call' with then-Minister of National Defense Cao Gangchuan."
+        }
+      }
+    },
+    {
+      "source": "温家宝",
+      "target": "杨利伟",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2003-10-16",
+        "description": {
+          "zh-cn": "在杨利伟乘坐的返回舱成功着陆后，时任国务院总理温家宝与他通话，祝贺其顺利返航。",
+          "en": "After the successful landing of Yang Liwei's return capsule, then-Premier Wen Jiabao spoke with him via phone to congratulate him on his safe return."
+        }
+      }
+    },
+    {
+      "source": "江泽民",
+      "target": "神舟五号",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10-16",
+        "description": {
+          "zh-cn": "时任中央军委主席江泽民在获悉中国首次载人航天飞行圆满成功后，打电话表示祝贺。",
+          "en": "Then-Chairman of the Central Military Commission Jiang Zemin made a phone call to offer congratulations after learning of the complete success of China's first human spaceflight."
+        }
+      }
+    },
+    {
+      "source": "杨利伟",
+      "target": "中华人民共和国国旗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "在太空飞行期间，杨利伟在舱内展示了中华人民共和国国旗。",
+          "en": "During his spaceflight, Yang Liwei displayed the flag of the People's Republic of China inside the capsule."
+        }
+      }
+    },
+    {
+      "source": "杨利伟",
+      "target": "联合国旗帜",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "在太空飞行期间，杨利伟在舱内展示了联合国旗帜。",
+          "en": "During his spaceflight, Yang Liwei displayed the flag of the United Nations inside the capsule."
+        }
+      }
+    },
+    {
+      "source": "翟志刚",
+      "target": "神舟五号",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "候补航天员",
+          "en": "Backup Astronaut"
+        },
+        "description": {
+          "zh-cn": "翟志刚被选为神舟五号任务的第一梯队候补航天员。",
+          "en": "Zhai Zhigang was selected as a backup astronaut in the first echelon for the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "source": "聂海胜",
+      "target": "神舟五号",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "候补航天员",
+          "en": "Backup Astronaut"
+        },
+        "description": {
+          "zh-cn": "聂海胜被选为神舟五号任务的第二梯队候补航天员。",
+          "en": "Nie Haisheng was selected as a backup astronaut in the second echelon for the Shenzhou 5 mission."
+        }
+      }
+    },
+    {
+      "source": "杨利伟",
+      "target": "中国人民解放军空军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "歼击机飞行员",
+          "en": "Fighter Pilot"
+        },
+        "description": {
+          "zh-cn": "在成为航天员之前，杨利伟曾是中国人民解放军空军的一名歼击机飞行员。",
+          "en": "Before becoming an astronaut, Yang Liwei was a fighter pilot in the People's Liberation Army Air Force."
+        }
+      }
+    },
+    {
+      "source": "神舟五号",
+      "target": "中国国家博物馆",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2004-09-27",
+        "description": {
+          "zh-cn": "神舟五号任务的返回舱现收藏于中国国家博物馆。",
+          "en": "The return capsule from the Shenzhou 5 mission is now housed in the National Museum of China."
+        }
+      }
+    },
+    {
+      "source": "卢杰",
+      "target": "杨利伟",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "在神舟五号任务期间，正在国际空间站上的美国华裔宇航员卢杰通过视频，用普通话欢迎杨利伟进入太空，并祝其顺利返航。",
+          "en": "During the Shenzhou 5 mission, Chinese-American astronaut Edward Lu, aboard the International Space Station, welcomed Yang Liwei to space in Mandarin via video and wished him a safe return."
+        }
+      }
+    },
+    {
+      "source": "尤里·马连琴科",
+      "target": "杨利伟",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2003-10-15",
+        "description": {
+          "zh-cn": "在神舟五号任务期间，与卢杰一同在国际空间站上通过视频向杨利伟表示欢迎。",
+          "en": "During the Shenzhou 5 mission, he joined Edward Lu in welcoming Yang Liwei via video from the International Space Station."
+        }
+      }
+    },
+    {
+      "source": "联合早报",
+      "target": "神舟五号",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10",
+        "description": {
+          "zh-cn": "新加坡《联合早报》发表题为《历史性的飞天》的社论，称中国成功发射神五为人类宇航史上又一个“辉煌的时刻”。",
+          "en": "Singapore's Lianhe Zaobao published an editorial titled 'A Historic Flight', calling China's successful launch of Shenzhou 5 another 'glorious moment' in the history of human spaceflight."
+        }
+      }
+    },
+    {
+      "source": "神舟五号",
+      "target": "台湾",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "神舟五号飞船搭载了来自台湾的多种植物种子进行空间实验。",
+          "en": "The Shenzhou 5 spacecraft carried various plant seeds from Taiwan for space experiments."
+        }
+      }
+    }
+  ]
+}

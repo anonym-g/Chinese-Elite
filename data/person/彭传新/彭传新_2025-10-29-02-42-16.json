@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "彭传新",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭传新"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1964-08 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "湖北省松滋市",
+          "en": ""
+        },
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，第十三届全国人民代表大会四川地区代表。",
+          "en": "A politician of the People's Republic of China, and a delegate from the Sichuan region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "湖北省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖北省",
+          "湖北"
+        ],
+        "en": [
+          "Hubei"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "松滋市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "松滋市",
+          "松滋"
+        ],
+        "en": [
+          "Songzi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会",
+          "第十三届全国人大"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "四川省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "四川省",
+          "四川"
+        ],
+        "en": [
+          "Sichuan"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "彭传新",
+      "target": "松滋市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本“湖北松滋人”推断。",
+          "en": "Inferred from the text 'a native of Songzi, Hubei'."
+        }
+      }
+    },
+    {
+      "source": "彭传新",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本“中国共产党党员”推断。",
+          "en": "Inferred from the text 'a member of the Communist Party of China'."
+        }
+      }
+    },
+    {
+      "source": "彭传新",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "全国人大代表",
+          "en": "Delegate to the National People's Congress"
+        },
+        "description": {
+          "zh-cn": "于2018年2月24日当选为第十三届全国人民代表大会四川地区代表。",
+          "en": "Elected as a delegate from the Sichuan region to the 13th National People's Congress on February 24, 2018."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "nodes": [
+    {
+      "id": "徐一平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐一平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1960 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "无锡",
+          "en": "Wuxi"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A politician of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "无锡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "无锡"
+        ],
+        "en": [
+          "Wuxi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "复旦大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "复旦大学"
+        ],
+        "en": [
+          "Fudan University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十二届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国人民代表大会",
+          "第十二届全国人大"
+        ],
+        "en": [
+          "12th National People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会",
+          "第十三届全国人大"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "连云港市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "连云港市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "刘永忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘永忠"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "杨省世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨省世"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "徐一平",
+      "target": "无锡",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "徐一平",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1984-12",
+        "end_date": null,
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "徐一平",
+      "target": "复旦大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "毕业于复旦大学经济学系政治经济学专业。",
+          "en": "Graduated from the Department of Economics, majoring in Political Economy, at Fudan University."
+        }
+      }
+    },
+    {
+      "source": "徐一平",
+      "target": "第十二届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013",
+        "end_date": "2018",
+        "position": {
+          "zh-cn": "江苏地区代表",
+          "en": "Delegate from Jiangsu region"
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "徐一平",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "end_date": null,
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "徐一平",
+      "target": "连云港市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008-04",
+        "end_date": "2011-01",
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "2008年4月至2009年1月任代市长，2009年1月转正。",
+          "en": "Served as acting mayor from April 2008 to January 2009, and became mayor in January 2009."
+        }
+      }
+    },
+    {
+      "source": "徐一平",
+      "target": "刘永忠",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2008-04",
+        "description": {
+          "zh-cn": "徐一平接替刘永忠担任连云港市人民政府市长职务。",
+          "en": "Xu Yiping succeeded Liu Yongzhong as the Mayor of Lianyungang Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "徐一平",
+      "target": "杨省世",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2011-01",
+        "description": {
+          "zh-cn": "徐一平的连云港市人民政府市长职务由杨省世接任。",
+          "en": "Xu Yiping was succeeded by Yang Shingshi as the Mayor of Lianyungang Municipal People's Government."
+        }
+      }
+    }
+  ]
+}

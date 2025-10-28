@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "周学文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周学文"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1938-01 - 2018-06-21",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "辽宁省辽阳市",
+          "en": "Liaoyang, Liaoning"
+        },
+        "description": {
+          "zh-cn": "中国中医学家，辽宁中医药大学附属医院主任医师，第三届国医大师，中国共产党党员，享受国务院政府特殊津贴专家。",
+          "en": "Chinese traditional medicine expert, chief physician at the Affiliated Hospital of Liaoning University of Traditional Chinese Medicine, recipient of the 3rd 'National Master of Chinese Medicine' title, a member of the Communist Party of China, and an expert who enjoyed the special government allowances of the State Council."
+        }
+      }
+    },
+    {
+      "id": "辽阳市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "辽阳市",
+          "辽阳"
+        ],
+        "en": [
+          "Liaoyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国辽宁省下辖的地级市。",
+          "en": "A prefecture-level city in Liaoning Province, China."
+        }
+      }
+    },
+    {
+      "id": "辽宁中医药大学附属医院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辽宁中医药大学附属医院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "辽宁省",
+          "en": "Liaoning Province"
+        },
+        "description": {
+          "zh-cn": "辽宁中医药大学的直属附属医院。",
+          "en": "The directly affiliated hospital of Liaoning University of Traditional Chinese Medicine."
+        }
+      }
+    },
+    {
+      "id": "国医大师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国医大师"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中华人民共和国人力资源和社会保障部、国家卫生健康委员会和国家中医药管理局在全国范围内评选的、为中医药事业发展做出杰出贡献的 practitioners of Traditional Chinese Medicine (TCM) 的荣誉称号。",
+          "en": "An honorary title awarded jointly by the Ministry of Human Resources and Social Security, the National Health Commission, and the National Administration of Traditional Chinese Medicine of the People's Republic of China to practitioners of Traditional Chinese Medicine (TCM) who have made outstanding contributions to the development of TCM."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1921-07-23 - ",
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "享受国务院政府特殊津贴专家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "享受国务院政府特殊津贴专家"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院对于高层次专业技术人才和高技能人才的一种奖励制度和荣誉称号。",
+          "en": "A reward system and honorary title established by the State Council of the People's Republic of China for high-level professional and technical talents and highly skilled personnel."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "周学文",
+      "target": "辽阳市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "周学文是辽宁辽阳人。",
+          "en": "Zhou Xuewen was a native of Liaoyang, Liaoning."
+        }
+      }
+    },
+    {
+      "source": "周学文",
+      "target": "辽宁中医药大学附属医院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主任医师",
+          "en": "Chief Physician"
+        },
+        "description": {
+          "zh-cn": "周学文是辽宁中医药大学附属医院的主任医师。",
+          "en": "Zhou Xuewen was a chief physician at the Affiliated Hospital of Liaoning University of Traditional Chinese Medicine."
+        }
+      }
+    },
+    {
+      "source": "周学文",
+      "target": "国医大师",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第三届国医大师",
+          "en": "3rd National Master of Chinese Medicine"
+        },
+        "description": {
+          "zh-cn": "周学文是第三届国医大师。",
+          "en": "Zhou Xuewen was awarded the title of the 3rd 'National Master of Chinese Medicine'."
+        }
+      }
+    },
+    {
+      "source": "周学文",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，周学文是中国共产党党员。",
+          "en": "According to the Wikipedia category, Zhou Xuewen was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "周学文",
+      "target": "享受国务院政府特殊津贴专家",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "专家",
+          "en": "Expert"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，周学文是享受国务院政府特殊津贴专家。",
+          "en": "According to the Wikipedia category, Zhou Xuewen was an expert who enjoyed the special government allowances of the State Council."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "nodes": [
+    {
+      "id": "北京时间",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "北京时间",
+          "中国标准时间"
+        ],
+        "en": [
+          "Beijing Time",
+          "China Standard Time",
+          "BJT"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的标准时间，采用UTC+8时区，由中国科学院国家授时中心发布。",
+          "en": "The standard time of the People's Republic of China, which is in the UTC+8 time zone and is published by the National Time Service Center."
+        }
+      }
+    },
+    {
+      "id": "中国大陆",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国大陆"
+        ],
+        "en": [
+          "Mainland China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指中华人民共和国实际管辖的领土，不包括香港、澳门和台湾。",
+          "en": "Refers to the territory under the actual jurisdiction of the People's Republic of China, excluding Hong Kong, Macau, and Taiwan."
+        }
+      }
+    },
+    {
+      "id": "UTC+8",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "UTC+8"
+        ],
+        "en": [
+          "UTC+08:00"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个时区，比世界协调时快8小时。",
+          "en": "A time zone that is 8 hours ahead of Coordinated Universal Time (UTC)."
+        }
+      }
+    },
+    {
+      "id": "东经120°",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "东经120°"
+        ],
+        "en": [
+          "120th meridian east"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一条经线，北京时间的基准。",
+          "en": "A line of longitude, the basis for Beijing Time."
+        }
+      }
+    },
+    {
+      "id": "中国科学院国家授时中心",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院国家授时中心"
+        ],
+        "en": [
+          "National Time Service Center, Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "陕西临潼",
+          "en": "Lintong, Shaanxi"
+        },
+        "description": {
+          "zh-cn": "负责中国的标准时间的生成、保持和发播的科研机构。",
+          "en": "A research institution responsible for the generation, maintenance, and dissemination of standard time in China."
+        }
+      }
+    },
+    {
+      "id": "中国时区",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国时区"
+        ],
+        "en": [
+          "Time zones in China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "关于中国历史上和提议中的时区划分的概念。",
+          "en": "The concept regarding historical and proposed time zone divisions in China."
+        }
+      }
+    },
+    {
+      "id": "清朝海关",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝海关"
+        ],
+        "en": [
+          "Qing dynasty customs"
+        ]
+      },
+      "properties": {
+        "period": " - 1912"
+      }
+    },
+    {
+      "id": "中央观象台",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央观象台"
+        ],
+        "en": [
+          "Central Observatory"
+        ]
+      },
+      "properties": {
+        "period": "1912 - ",
+        "description": {
+          "zh-cn": "中华民国初期的国家天文机构。",
+          "en": "The national astronomical institution in the early Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华民国内政部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国内政部"
+        ],
+        "en": [
+          "Ministry of the Interior (Republic of China)"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "东北行政委员会 (1946年－1949年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北行政委员会 (1946年－1949年)",
+          "东北政联行政委员会"
+        ],
+        "en": [
+          "Northeast Administrative Committee (1946–1949)"
+        ]
+      },
+      "properties": {
+        "period": "1946 - 1949"
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - "
+      }
+    },
+    {
+      "id": "西安人民广播电台",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西安人民广播电台"
+        ],
+        "en": [
+          "Xi'an People's Broadcasting Station"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "西安市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西安市人民政府"
+        ],
+        "en": [
+          "Xi'an Municipal People's Government"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "陇蜀时区",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "陇蜀时区"
+        ],
+        "en": [
+          "Longshu Time Zone"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1949",
+        "description": {
+          "zh-cn": "中华民国时期划分的五个时区之一，为UTC+7。",
+          "en": "One of the five time zones of the Republic of China, UTC+7."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "新疆",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "新疆"
+        ],
+        "en": [
+          "Xinjiang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "西藏",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "西藏"
+        ],
+        "en": [
+          "Tibet"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "新疆时间",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "新疆时间",
+          "乌鲁木齐时间"
+        ],
+        "en": [
+          "Xinjiang Time"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "新疆维吾尔自治区采用的非官方时间标准，为UTC+6。",
+          "en": "An unofficial time standard used in Xinjiang Uyghur Autonomous Region, which is UTC+6."
+        }
+      }
+    },
+    {
+      "id": "维吾尔族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "维吾尔族"
+        ],
+        "en": [
+          "Uyghur people"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "汉族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉族"
+        ],
+        "en": [
+          "Han Chinese"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "iOS 8",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "iOS 8"
+        ],
+        "en": [
+          "iOS 8"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苹果公司开发的移动操作系统。",
+          "en": "A mobile operating system developed by Apple Inc."
+        }
+      }
+    },
+    {
+      "id": "全国人民代表大会代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会代表"
+        ],
+        "en": [
+          "Deputy to the National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国最高国家权力机关的组成人员。",
+          "en": "Members of the highest state organ of power in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "夏时制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "夏时制"
+        ],
+        "en": [
+          "Daylight saving time"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种为节约能源而人为规定地方时间的制度。",
+          "en": "A system of artificially adjusting local time to save energy."
+        }
+      }
+    },
+    {
+      "id": "窦星元",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "窦星元"
+        ],
+        "en": [
+          "Dou Xingyuan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国夏时制的最早提议者。",
+          "en": "The earliest proposer of daylight saving time in China."
+        }
+      }
+    },
+    {
+      "id": "中共中央办公厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央办公厅"
+        ],
+        "en": [
+          "General Office of the Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "国务院办公厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院办公厅"
+        ],
+        "en": [
+          "General Office of the State Council"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "北京时间",
+      "target": "中国大陆",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "北京时间是中国大陆的标准时间。",
+          "en": "Beijing Time is the standard time for Mainland China."
+        }
+      }
+    },
+    {
+      "source": "UTC+8",
+      "target": "北京时间",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "北京时间定义为UTC+8，比世界协调时快八小时。",
+          "en": "Beijing Time is defined as UTC+8, which is 8 hours ahead of Coordinated Universal Time (UTC)."
+        }
+      }
+    },
+    {
+      "source": "东经120°",
+      "target": "北京时间",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "北京时间以东经120度的地方平太阳时为基准。",
+          "en": "Beijing Time is based on the local mean solar time at the 120th meridian east."
+        }
+      }
+    },
+    {
+      "source": "中国科学院国家授时中心",
+      "target": "北京时间",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "通过其原子钟组精密计算和比对来生成和发布北京时间。",
+          "en": "Generates and disseminates Beijing Time through precise calculation and comparison of its atomic clock ensembles."
+        }
+      }
+    },
+    {
+      "source": "清朝海关",
+      "target": "东经120°",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1902",
+        "description": {
+          "zh-cn": "1902年，清朝海关制定海岸时，以东经120度之时刻为标准。",
+          "en": "In 1902, the Qing dynasty customs established a coast time standard based on the time at the 120th meridian east."
+        }
+      }
+    },
+    {
+      "source": "中央观象台",
+      "target": "中国时区",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1912",
+        "description": {
+          "zh-cn": "1912年中华民国建立后，将全国划分为五个时区。",
+          "en": "After the establishment of the Republic of China in 1912, it divided the country into five time zones."
+        }
+      }
+    },
+    {
+      "source": "中华民国内政部",
+      "target": "中国时区",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1939-03-09",
+        "description": {
+          "zh-cn": "召开标准时间会议，确认了1912年划分的五个时区为中国标准时区。",
+          "en": "Convened a conference on standard time and confirmed the five time zones established in 1912 as the standard time zones of China."
+        }
+      }
+    },
+    {
+      "source": "东北行政委员会 (1946年－1949年)",
+      "target": "北京时间",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1947-04-01",
+        "description": {
+          "zh-cn": "决定自1947年4月1日起，东北解放区统一实行东经120度上海时间（即后来的北京时间）。",
+          "en": "Decided that from April 1, 1947, the Northeast Liberated Area would uniformly adopt the Shanghai time of 120th meridian east (which later became Beijing Time)."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "北京时间",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-10-01",
+        "description": {
+          "zh-cn": "中华人民共和国成立后，正式将UTC+8时区命名为北京时间，并在全国范围内推行单一时区。",
+          "en": "After the founding of the People's Republic of China, the UTC+8 time zone was officially named Beijing Time, and a single time zone was implemented nationwide."
+        }
+      }
+    },
+    {
+      "source": "西安人民广播电台",
+      "target": "北京时间",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-10-07",
+        "description": {
+          "zh-cn": "宣布电台时间一律以北京时间为准。",
+          "en": "Announced that the station's time would be based on Beijing Time."
+        }
+      }
+    },
+    {
+      "source": "西安市人民政府",
+      "target": "北京时间",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-11-03",
+        "description": {
+          "zh-cn": "通知全市自1949年11月3日起改用北京时间。",
+          "en": "Notified the entire city to switch to Beijing Time starting from November 3, 1949."
+        }
+      }
+    },
+    {
+      "source": "西安市人民政府",
+      "target": "陇蜀时区",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1949-11-03",
+        "description": {
+          "zh-cn": "通知全市自1949年11月3日起停用陇蜀时间。",
+          "en": "Notified the entire city to stop using the Longshu Time Zone starting from November 3, 1949."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "北京时间",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-12-27",
+        "description": {
+          "zh-cn": "于1949年12月27日进驻成都后，宣布改用北京时间。",
+          "en": "After entering Chengdu on December 27, 1949, announced the switch to Beijing Time."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "中国时区",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "1949 - 1952",
+        "description": {
+          "zh-cn": "废除了中华民国时期的多时区划分，逐步在全国推行统一的北京时间。",
+          "en": "Abolished the multi-time zone system of the Republic of China era and gradually implemented a unified Beijing Time across the country."
+        }
+      }
+    },
+    {
+      "source": "北京时间",
+      "target": "新疆",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "在新疆，由于统一采用北京时间，导致政府和部分民众的作息时间通常会比东部地区延后2小时，以适应当地的日照情况。",
+          "en": "In Xinjiang, the uniform use of Beijing Time leads to government and some public schedules being typically delayed by 2 hours compared to eastern regions to align with local daylight conditions."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "新疆时间",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1986-02",
+        "description": {
+          "zh-cn": "1986年2月，批准新疆维吾尔自治区实行新疆时间（UTC+6），主要用于民用作息，但此方案未完全实施。",
+          "en": "In February 1986, it approved the implementation of Xinjiang Time (UTC+6) in the Xinjiang Uyghur Autonomous Region, primarily for civilian schedules, though this plan was not fully implemented."
+        }
+      }
+    },
+    {
+      "source": "维吾尔族",
+      "target": "新疆时间",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在新疆的维吾尔族等民族的民众中，普遍在日常生活中使用新疆时间（乌鲁木齐时间）。",
+          "en": "Among the Uyghur and other ethnic groups in Xinjiang, Xinjiang Time (Ürümqi Time) is commonly used in daily life."
+        }
+      }
+    },
+    {
+      "source": "汉族",
+      "target": "北京时间",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在新疆的大部分汉族人因工作等因素采用北京时间。",
+          "en": "Most Han Chinese people in Xinjiang use Beijing Time due to work and other factors."
+        }
+      }
+    },
+    {
+      "source": "iOS 8",
+      "target": "新疆时间",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "当用户定位在乌鲁木齐时，iOS 8系统会自动显示为UTC+6的新疆时间。",
+          "en": "When a user's location is set to Ürümqi, the iOS 8 system automatically displays the time as UTC+6, which is Xinjiang Time."
+        }
+      }
+    },
+    {
+      "source": "全国人民代表大会代表",
+      "target": "中国时区",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2005",
+        "description": {
+          "zh-cn": "在2005年两会期间，一些代表提出将中国时区进行细分的建议。",
+          "en": "During the Two Sessions in 2005, some deputies proposed to subdivide China's time zones."
+        }
+      }
+    },
+    {
+      "source": "窦星元",
+      "target": "夏时制",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "最早提出在中国实行夏令时间的建议。",
+          "en": "Was the first to propose the implementation of daylight saving time in China."
+        }
+      }
+    },
+    {
+      "source": "中共中央办公厅",
+      "target": "夏时制",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1986-04",
+        "description": {
+          "zh-cn": "1986年4月，与国务院办公厅联合发出《在全国范围内实行夏时制的通知》。",
+          "en": "In April 1986, jointly issued the 'Notice on the Implementation of Daylight Saving Time Nationwide' with the General Office of the State Council."
+        }
+      }
+    },
+    {
+      "source": "国务院办公厅",
+      "target": "夏时制",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1986-04",
+        "description": {
+          "zh-cn": "1986年4月，与中共中央办公厅联合发出《在全国范围内实行夏时制的通知》。",
+          "en": "In April 1986, jointly issued the 'Notice on the Implementation of Daylight Saving Time Nationwide' with the General Office of the Central Committee of the CCP."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "夏时制",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1986",
+        "end_date": "1991",
+        "description": {
+          "zh-cn": "在1986年至1991年间，在全国范围实行了六年夏时制。",
+          "en": "Implemented daylight saving time nationwide for six years from 1986 to 1991."
+        }
+      }
+    },
+    {
+      "source": "国务院办公厅",
+      "target": "夏时制",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1992-04-05",
+        "description": {
+          "zh-cn": "发文宣布自1992年起暂停实行夏时制，此后未再恢复。",
+          "en": "Issued a document announcing the suspension of daylight saving time from 1992, and it has not been resumed since."
+        }
+      }
+    }
+  ]
+}

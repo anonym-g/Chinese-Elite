@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "陈德树",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈德树",
+          "陈润霖",
+          "陈德澍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1930 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "广东东莞",
+          "en": "Dongguan, Guangdong"
+        },
+        "description": {
+          "zh-cn": "中国电力系统及其自动化专家，曾任华中工学院教授、博士生导师。",
+          "en": "An expert in China's power systems and their automation, formerly a professor and doctoral supervisor at the Huazhong Institute of Technology."
+        }
+      }
+    },
+    {
+      "id": "广东",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广东"
+        ],
+        "en": [
+          "Guangdong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "东莞",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "东莞"
+        ],
+        "en": [
+          "Dongguan"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "华中工学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华中工学院"
+        ],
+        "en": [
+          "Huazhong Institute of Technology"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "陈德树",
+      "target": "东莞",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "籍贯为广东东莞。",
+          "en": "His native place is Dongguan, Guangdong."
+        }
+      }
+    },
+    {
+      "source": "陈德树",
+      "target": "华中工学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授、博士生导师",
+          "en": "Professor, Doctoral supervisor"
+        },
+        "description": {
+          "zh-cn": "曾任华中工学院教授、博士生导师。",
+          "en": "Served as a professor and doctoral supervisor at the Huazhong Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "陈德树",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类“中国共产党党员”推断其成员身份。",
+          "en": "His membership is inferred from the Wikipedia category 'Members of the Communist Party of China'."
+        }
+      }
+    }
+  ]
+}

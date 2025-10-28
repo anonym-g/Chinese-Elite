@@ -1,0 +1,257 @@
+{
+  "nodes": [
+    {
+      "id": "郭澄清",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭澄清",
+          "郭成清"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1931 - 1989",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "山东宁津",
+          "en": "Ningjin, Shandong"
+        },
+        "description": {
+          "zh-cn": "中国作家，原名郭成清，曾任中国作家协会山东分会副主席。",
+          "en": "Chinese writer, original name Guo Chengqing, who served as the vice-chairman of the Shandong branch of the China Writers Association."
+        }
+      }
+    },
+    {
+      "id": "宁津县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "宁津县",
+          "宁津"
+        ],
+        "en": [
+          "Ningjin County",
+          "Ningjin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国山东省德州市下辖县。",
+          "en": "A county under the administration of Dezhou City, Shandong Province, China."
+        }
+      }
+    },
+    {
+      "id": "山东省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山东省",
+          "山东"
+        ],
+        "en": [
+          "Shandong Province",
+          "Shandong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会山东分会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会山东分会"
+        ],
+        "en": [
+          "Shandong Branch of the China Writers Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国作家协会在山东省的分支机构。",
+          "en": "The branch of the China Writers Association in Shandong Province."
+        }
+      }
+    },
+    {
+      "id": "大刀记",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "大刀记"
+        ],
+        "en": [
+          "The Story of the Big Sword"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "郭澄清创作的长篇小说。",
+          "en": "A long novel written by Guo Chenqing."
+        }
+      }
+    },
+    {
+      "id": "新中国70年70部长篇小说典藏",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "新中国70年70部长篇小说典藏"
+        ],
+        "en": [
+          "70 Novels in 70 Years of New China Collection"
+        ]
+      },
+      "properties": {
+        "period": "2019",
+        "description": {
+          "zh-cn": "为庆祝中华人民共和国成立70周年而评选出的一套丛书，收录了70部长篇小说。",
+          "en": "A collection of 70 long novels selected to celebrate the 70th anniversary of the founding of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": [
+          "China Writers Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国各民族作家自愿结合的专业性人民团体。",
+          "en": "A professional people's organization formed voluntarily by writers of all ethnic groups in China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "郭澄清",
+      "target": "宁津县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1931",
+        "description": {
+          "zh-cn": "郭澄清出生于山东宁津。",
+          "en": "Guo Chenqing was born in Ningjin, Shandong."
+        }
+      }
+    },
+    {
+      "source": "郭澄清",
+      "target": "中国作家协会山东分会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1989",
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "郭澄清曾担任中国作家协会山东分会副主席。",
+          "en": "Guo Chenqing served as the vice-chairman of the Shandong branch of the China Writers Association."
+        }
+      }
+    },
+    {
+      "source": "郭澄清",
+      "target": "大刀记",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "郭澄清是长篇小说《大刀记》的作者。",
+          "en": "Guo Chenqing is the author of the long novel 'The Story of the Big Sword'."
+        }
+      }
+    },
+    {
+      "source": "新中国70年70部长篇小说典藏",
+      "target": "大刀记",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019",
+        "description": {
+          "zh-cn": "郭澄清的长篇小说《大刀记》入选“新中国70年70部长篇小说典藏”。",
+          "en": "Guo Chenqing's long novel 'The Story of the Big Sword' was selected for the '70 Novels in 70 Years of New China Collection'."
+        }
+      }
+    },
+    {
+      "source": "郭澄清",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1989",
+        "description": {
+          "zh-cn": "根据其维基百科页面的分类“中国共产党党员”可知，郭澄清是中国共产党的党员。",
+          "en": "According to the category 'Communist Party of China members' on his Wikipedia page, Guo Chenqing was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "郭澄清",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1989",
+        "description": {
+          "zh-cn": "根据其维基百科页面的分类“中国作家协会会员”可知，郭澄清是中国作家协会的会员。",
+          "en": "According to the category 'China Writers Association members' on his Wikipedia page, Guo Chenqing was a member of the China Writers Association."
+        }
+      }
+    },
+    {
+      "source": "宁津县",
+      "target": "山东省",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "宁津县是山东省的一个县。",
+          "en": "Ningjin County is a county in Shandong Province."
+        }
+      }
+    },
+    {
+      "source": "中国作家协会山东分会",
+      "target": "中国作家协会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国作家协会山东分会是中国作家协会的分支机构。",
+          "en": "The Shandong Branch of the China Writers Association is a branch of the China Writers Association."
+        }
+      }
+    }
+  ]
+}

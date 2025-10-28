@@ -1,0 +1,306 @@
+{
+  "nodes": [
+    {
+      "id": "衡山县人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "衡山县人民政府",
+          "衡山县政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "衡山县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国湖南省衡阳市衡山县的行政管理机关。",
+          "en": "The administrative organ of Hengshan County, Hengyang City, Hunan Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "段晓赛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "段晓赛"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，现任衡山县人民政府县长。",
+          "en": "Chinese politician, current County Mayor of the Hengshan County People's Government."
+        }
+      }
+    },
+    {
+      "id": "曾巧敏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曾巧敏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，曾任衡山县人民政府县长。",
+          "en": "Chinese politician, former County Mayor of the Hengshan County People's Government."
+        }
+      }
+    },
+    {
+      "id": "尹培国",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "尹培国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，曾任衡山县人民政府县长。",
+          "en": "Chinese politician, former County Mayor of the Hengshan County People's Government."
+        }
+      }
+    },
+    {
+      "id": "蒋青",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋青"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，曾任衡山县人民政府县长。",
+          "en": "Chinese politician, former County Mayor of the Hengshan County People's Government."
+        }
+      }
+    },
+    {
+      "id": "衡阳市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "衡阳市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国湖南省衡阳市的行政管理机关。",
+          "en": "The administrative organ of Hengyang City, Hunan Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "衡山县人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "衡山县人民代表大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "衡山县的地方国家权力机关。",
+          "en": "The local organ of state power in Hengshan County."
+        }
+      }
+    },
+    {
+      "id": "衡山县人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "衡山县人民代表大会常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "衡山县人民代表大会的常设机关。",
+          "en": "The standing committee of the Hengshan County People's Congress."
+        }
+      }
+    },
+    {
+      "id": "中国共产党衡山县人民政府党组",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党衡山县人民政府党组"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在衡山县人民政府中设立的领导机构。",
+          "en": "The leading party members' group of the Communist Party of China within the Hengshan County People's Government."
+        }
+      }
+    },
+    {
+      "id": "湖南省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖南省"
+        ],
+        "en": [
+          "Hunan Province"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "衡阳市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "衡阳市"
+        ],
+        "en": [
+          "Hengyang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "衡山县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "衡山县"
+        ],
+        "en": [
+          "Hengshan County"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "段晓赛",
+      "target": "衡山县人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-10-29",
+        "end_date": "",
+        "position": {
+          "zh-cn": "县长",
+          "en": "County Mayor"
+        },
+        "description": {
+          "zh-cn": "段晓赛于2021年10月29日当选为衡山县人民政府县长。",
+          "en": "Duan Xiaosai was elected as the County Mayor of the Hengshan County People's Government on October 29, 2021."
+        }
+      }
+    },
+    {
+      "source": "曾巧敏",
+      "target": "衡山县人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2011-03",
+        "end_date": "2013-07",
+        "position": {
+          "zh-cn": "县长",
+          "en": "County Mayor"
+        },
+        "description": {
+          "zh-cn": "曾巧敏于2011年3月至2013年7月期间担任衡山县人民政府县长。",
+          "en": "Zeng Qiaomin served as the County Mayor of the Hengshan County People's Government from March 2011 to July 2013."
+        }
+      }
+    },
+    {
+      "source": "尹培国",
+      "target": "衡山县人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-05",
+        "end_date": "2016-08",
+        "position": {
+          "zh-cn": "县长",
+          "en": "County Mayor"
+        },
+        "description": {
+          "zh-cn": "尹培国于2014年5月至2016年8月期间担任衡山县人民政府县长。",
+          "en": "Yin Peiguo served as the County Mayor of the Hengshan County People's Government from May 2014 to August 2016."
+        }
+      }
+    },
+    {
+      "source": "蒋青",
+      "target": "衡山县人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-07",
+        "end_date": "2021-04",
+        "position": {
+          "zh-cn": "县长",
+          "en": "County Mayor"
+        },
+        "description": {
+          "zh-cn": "蒋青于2016年7月至2021年4月期间担任衡山县人民政府县长。",
+          "en": "Jiang Qing served as the County Mayor of the Hengshan County People's Government from July 2016 to April 2021."
+        }
+      }
+    },
+    {
+      "source": "衡山县人民政府",
+      "target": "衡阳市人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "衡山县人民政府是衡阳市人民政府的业务下级机构。",
+          "en": "The Hengshan County People's Government is professionally subordinate to the Hengyang Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "衡山县人民政府",
+      "target": "衡山县人民代表大会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "衡山县人民政府是衡山县人民代表大会的组织下级机构。",
+          "en": "The Hengshan County People's Government is organizationally subordinate to the Hengshan County People's Congress."
+        }
+      }
+    },
+    {
+      "source": "衡山县人民政府",
+      "target": "衡山县人民代表大会常务委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "衡山县人民政府是衡山县人民代表大会常务委员会的组织下级机构。",
+          "en": "The Hengshan County People's Government is organizationally subordinate to the Standing Committee of the Hengshan County People's Congress."
+        }
+      }
+    },
+    {
+      "source": "中国共产党衡山县人民政府党组",
+      "target": "衡山县人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党衡山县人民政府党组是中国共产党在衡山县人民政府内设立的领导机构。",
+          "en": "The CPC Hengshan County People's Government Leading Party Members' Group is the leadership body established by the Communist Party of China within the Hengshan County People's Government."
+        }
+      }
+    }
+  ]
+}

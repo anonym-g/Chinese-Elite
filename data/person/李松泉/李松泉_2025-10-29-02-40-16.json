@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "李松泉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李松泉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1974 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "澜沧拉祜族自治县",
+          "en": "Lancang Lahu Autonomous County"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国拉祜族政治人物，曾任第十二届全国人民代表大会代表。",
+          "en": "A Chinese Lahu politician who served as a delegate to the 12th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "澜沧拉祜族自治县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "澜沧拉祜族自治县",
+          "澜沧"
+        ],
+        "en": [
+          "Lancang Lahu Autonomous County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "拉祜族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "拉祜族"
+        ],
+        "en": [
+          "Lahu people"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的少数民族之一。",
+          "en": "One of the ethnic minority groups in China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十二届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国人民代表大会"
+        ],
+        "en": [
+          "12th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2013-03-05 - 2018-03-20"
+      }
+    },
+    {
+      "id": "中共中央党校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央党校",
+          "中央党校"
+        ],
+        "en": [
+          "Central Party School of the Chinese Communist Party"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李松泉",
+      "target": "澜沧拉祜族自治县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "李松泉",
+      "target": "拉祜族",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李松泉是拉祜族人。",
+          "en": "Li Songquan is of the Lahu ethnicity."
+        }
+      }
+    },
+    {
+      "source": "李松泉",
+      "target": "中共中央党校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "经济管理专业",
+          "en": "Economic Management"
+        },
+        "description": {
+          "zh-cn": "毕业于中央党校经济管理专业。",
+          "en": "Graduated from the Central Party School with a major in Economic Management."
+        }
+      }
+    },
+    {
+      "source": "李松泉",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        }
+      }
+    },
+    {
+      "source": "李松泉",
+      "target": "第十二届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013",
+        "end_date": "2018",
+        "position": {
+          "zh-cn": "云南地区代表",
+          "en": "Delegate from Yunnan"
+        },
+        "description": {
+          "zh-cn": "2013年，担任第十二届全国人民代表大会云南地区代表。",
+          "en": "In 2013, served as a delegate from the Yunnan region to the 12th National People's Congress."
+        }
+      }
+    }
+  ]
+}
