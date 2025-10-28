@@ -1,0 +1,278 @@
+{
+  "nodes": [
+    {
+      "id": "杨亮才",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨亮才",
+          "阿亮",
+          "刘青"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1933 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "云南省洱源县",
+          "en": "Eryuan County, Yunnan"
+        },
+        "description": {
+          "zh-cn": "中国白族民间文艺学家，曾任中国民间文艺出版社社长兼总编辑、中国民间文艺家协会常务理事。",
+          "en": "A Chinese folklorist of the Bai ethnic group, former president and editor-in-chief of the China Folk Literature and Art Publishing House, and a standing director of the China Folk Literature and Art Association."
+        }
+      }
+    },
+    {
+      "id": "云南省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "云南省",
+          "云南"
+        ],
+        "en": [
+          "Yunnan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区，杨亮才的出生地所在省份。",
+          "en": "A province-level administrative region of the People's Republic of China, the province where Yang Liangcai was born."
+        }
+      }
+    },
+    {
+      "id": "洱源县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "洱源县",
+          "洱源"
+        ],
+        "en": [
+          "Eryuan County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国云南省大理白族自治州下辖县，杨亮才的出生地。",
+          "en": "A county in Dali Bai Autonomous Prefecture, Yunnan Province, China, and the birthplace of Yang Liangcai."
+        }
+      }
+    },
+    {
+      "id": "中国民间文艺出版社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民间文艺出版社"
+        ],
+        "en": [
+          "China Folk Literature and Art Publishing House"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一家出版社。",
+          "en": "A publishing house in China."
+        }
+      }
+    },
+    {
+      "id": "中国民间文艺家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民间文艺家协会"
+        ],
+        "en": [
+          "China Folk Literature and Art Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国各民族民间文艺家组成的专业性人民团体。",
+          "en": "A professional people's organization composed of folk artists of all ethnic groups in China."
+        }
+      }
+    },
+    {
+      "id": "中国民间文艺研究会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民间文艺研究会"
+        ],
+        "en": [
+          "China Folk Art Research Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国民间文艺家协会的前身。",
+          "en": "The predecessor of the China Folk Literature and Art Association."
+        }
+      }
+    },
+    {
+      "id": "中国文学艺术界联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国文学艺术界联合会"
+        ],
+        "en": [
+          "China Federation of Literary and Art Circles"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国全国性文学艺术家协会、各省、自治区、直辖市文学艺术界联合会和全国性的产业文学艺术工作者联合会组成的人民团体。",
+          "en": "A people's organization composed of national associations of writers and artists, federations of literary and art circles of provinces, autonomous regions, and municipalities directly under the Central Government, and national industrial federations of literary and art workers."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": [
+          "China Writers Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国各民族作家自愿结合的专业性人民团体。",
+          "en": "A professional people's organization voluntarily formed by writers of all ethnic groups in China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杨亮才",
+      "target": "洱源县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1933",
+        "description": {
+          "zh-cn": "杨亮才出生于云南洱源。",
+          "en": "Yang Liangcai was born in Eryuan, Yunnan."
+        }
+      }
+    },
+    {
+      "source": "杨亮才",
+      "target": "中国民间文艺出版社",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "社长兼总编辑",
+          "en": "President and Editor-in-chief"
+        },
+        "description": {
+          "zh-cn": "杨亮才曾担任中国民间文艺出版社的社长兼总编辑。",
+          "en": "Yang Liangcai was the former president and editor-in-chief of the China Folk Literature and Art Publishing House."
+        }
+      }
+    },
+    {
+      "source": "杨亮才",
+      "target": "中国民间文艺家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务理事",
+          "en": "Standing Director"
+        },
+        "description": {
+          "zh-cn": "杨亮才是中国民间文艺家协会的常务理事。",
+          "en": "Yang Liangcai is a standing director of the China Folk Literature and Art Association."
+        }
+      }
+    },
+    {
+      "source": "杨亮才",
+      "target": "中国民间文艺研究会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第三届理事会理事",
+          "en": "Director of the 3rd Council"
+        },
+        "description": {
+          "zh-cn": "根据页面模板信息，杨亮才是中国民间文艺研究会第三届理事会成员。",
+          "en": "According to the page template information, Yang Liangcai was a member of the 3rd Council of the China Folk Art Research Association."
+        }
+      }
+    },
+    {
+      "source": "杨亮才",
+      "target": "中国文学艺术界联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第四届、第五届全国委员会委员",
+          "en": "Member of the 4th and 5th National Committees"
+        },
+        "description": {
+          "zh-cn": "根据页面模板信息，杨亮才是中国文学艺术界联合会第四届和第五届全国委员会的委员。",
+          "en": "According to the page template information, Yang Liangcai was a member of the 4th and 5th National Committees of the China Federation of Literary and Art Circles."
+        }
+      }
+    },
+    {
+      "source": "杨亮才",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，杨亮才是中国共产党党员。",
+          "en": "According to the page category information, Yang Liangcai is a member of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "杨亮才",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，杨亮才是中国作家协会会员。",
+          "en": "According to the page category information, Yang Liangcai is a member of the China Writers Association."
+        }
+      }
+    }
+  ]
+}

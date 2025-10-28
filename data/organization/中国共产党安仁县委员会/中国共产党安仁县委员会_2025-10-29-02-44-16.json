@@ -1,0 +1,319 @@
+{
+  "nodes": [
+    {
+      "id": "中国共产党安仁县委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党安仁县委员会",
+          "中共安仁县委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "湖南省郴州市安仁县",
+          "en": "Anren County, Chenzhou, Hunan Province"
+        },
+        "description": {
+          "zh-cn": "中国共产党在湖南省郴州市安仁县的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Anren County, Chenzhou, Hunan Province."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党章程",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国共产党章程"
+        ],
+        "en": [
+          "Constitution of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党安仁县代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党安仁县代表大会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党安仁县委员会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党安仁县委员会常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党安仁县纪律检查委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党安仁县纪律检查委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "安仁县人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安仁县人民政府"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "雷晓达",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雷晓达"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "邓党雄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓党雄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "袁卫祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁卫祥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "谢春",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢春"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "李小军",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李小军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "王洪灿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王洪灿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国共产党章程",
+      "target": "中国共产党安仁县委员会",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党安仁县委员会依据《中国共产党章程》设立。",
+          "en": "The CPC Anren County Committee is established in accordance with the Constitution of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "中国共产党安仁县委员会",
+      "target": "中国共产党安仁县代表大会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党安仁县委员会的上级机构是中国共产党安仁县代表大会。",
+          "en": "The superior body of the CPC Anren County Committee is the CPC Anren County Congress."
+        }
+      }
+    },
+    {
+      "source": "中国共产党安仁县委员会",
+      "target": "中国共产党",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党安仁县委员会是中国共产党的地方组织。",
+          "en": "The CPC Anren County Committee is a local organization of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "中国共产党安仁县委员会常务委员会",
+      "target": "中国共产党安仁县委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党安仁县委员会常务委员会是中国共产党安仁县委员会的常设机构。",
+          "en": "The Standing Committee of the CPC Anren County Committee is the standing body of the CPC Anren County Committee."
+        }
+      }
+    },
+    {
+      "source": "中国共产党安仁县纪律检查委员会",
+      "target": "中国共产党安仁县委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党安仁县纪律检查委员会是中国共产党安仁县委员会的本级纪检机构。",
+          "en": "The CPC Anren County Commission for Discipline Inspection is the discipline inspection body at the same level as the CPC Anren County Committee."
+        }
+      }
+    },
+    {
+      "source": "安仁县人民政府",
+      "target": "中国共产党安仁县委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在中国大陆的政治体制中，地方政府通常接受同级党委的领导。",
+          "en": "In mainland China's political system, the local government is typically led by the party committee at the same level."
+        }
+      }
+    },
+    {
+      "source": "雷晓达",
+      "target": "中国共产党安仁县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2002",
+        "end_date": "2007-03",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "邓党雄",
+      "target": "中国共产党安仁县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2007-03",
+        "end_date": "2010-01",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "袁卫祥",
+      "target": "中国共产党安仁县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010-04",
+        "end_date": "2012-07",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "谢春",
+      "target": "中国共产党安仁县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2012-07",
+        "end_date": "2015-09",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "李小军",
+      "target": "中国共产党安仁县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-11",
+        "end_date": "2021-05",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "王洪灿",
+      "target": "中国共产党安仁县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-05",
+        "end_date": "",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    }
+  ]
+}

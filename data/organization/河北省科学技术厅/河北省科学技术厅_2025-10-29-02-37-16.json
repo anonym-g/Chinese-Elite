@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "河北省科学技术厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河北省科学技术厅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "河北省",
+          "en": "Hebei Province"
+        },
+        "description": {
+          "zh-cn": "河北省人民政府的组成部门，负责管理河北省的科学技术工作。",
+          "en": "A constituent department of the Hebei Provincial People's Government, responsible for managing the province's science and technology affairs."
+        }
+      }
+    },
+    {
+      "id": "龙奋杰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "龙奋杰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，担任河北省科学技术厅厅长、党组书记。",
+          "en": "A Chinese politician, serving as the Director and Party Group Secretary of the Hebei Provincial Department of Science and Technology."
+        }
+      }
+    },
+    {
+      "id": "李丛民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李丛民"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，担任河北省科学技术厅副厅长。",
+          "en": "A Chinese politician, serving as the Deputy Director of the Hebei Provincial Department of Science and Technology."
+        }
+      }
+    },
+    {
+      "id": "张永强",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张永强"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，担任河北省科学技术厅副厅长。",
+          "en": "A Chinese politician, serving as the Deputy Director of the Hebei Provincial Department of Science and Technology."
+        }
+      }
+    },
+    {
+      "id": "郭玉明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭玉明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，担任河北省科学技术厅一级巡视员。",
+          "en": "A Chinese politician, serving as a First-level Inspector at the Hebei Provincial Department of Science and Technology."
+        }
+      }
+    },
+    {
+      "id": "河北省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河北省人民政府"
+        ],
+        "en": [
+          "Hebei Provincial People's Government"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "河北省",
+          "en": "Hebei Province"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国河北省的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of Hebei Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "河北省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河北省"
+        ],
+        "en": [
+          "Hebei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "河北省科学技术厅",
+      "target": "河北省人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "河北省科学技术厅是河北省人民政府的组成部门。",
+          "en": "The Hebei Provincial Department of Science and Technology is a constituent department of the Hebei Provincial People's Government."
+        }
+      }
+    },
+    {
+      "source": "龙奋杰",
+      "target": "河北省科学技术厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "厅长、党组书记",
+          "en": "Director and Party Group Secretary"
+        },
+        "description": {
+          "zh-cn": "龙奋杰担任河北省科学技术厅的厅长和党组书记。",
+          "en": "Long Fenjie serves as the Director and Party Group Secretary of the Hebei Provincial Department of Science and Technology."
+        }
+      }
+    },
+    {
+      "source": "李丛民",
+      "target": "河北省科学技术厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副厅长",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "李丛民担任河北省科学技术厅的副厅长。",
+          "en": "Li Congmin serves as the Deputy Director of the Hebei Provincial Department of Science and Technology."
+        }
+      }
+    },
+    {
+      "source": "张永强",
+      "target": "河北省科学技术厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副厅长",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "张永强担任河北省科学技术厅的副厅长。",
+          "en": "Zhang Yongqiang serves as the Deputy Director of the Hebei Provincial Department of Science and Technology."
+        }
+      }
+    },
+    {
+      "source": "郭玉明",
+      "target": "河北省科学技术厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "一级巡视员",
+          "en": "First-level Inspector"
+        },
+        "description": {
+          "zh-cn": "郭玉明担任河北省科学技术厅的一级巡视员。",
+          "en": "Guo Yuming serves as a First-level Inspector at the Hebei Provincial Department of Science and Technology."
+        }
+      }
+    }
+  ]
+}

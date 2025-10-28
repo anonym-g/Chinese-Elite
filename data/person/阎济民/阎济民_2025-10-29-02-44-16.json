@@ -1,0 +1,385 @@
+{
+  "nodes": [
+    {
+      "id": "阎济民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阎济民"
+        ],
+        "en": [
+          "Yan Jimin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1921 - 2010-05-03",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "河南永城县芒山镇磨山村",
+          "en": "Moshan Village, Mangshan Town, Yongcheng County, Henan"
+        },
+        "death_place": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A political figure of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "永城县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "永城县",
+          "永城"
+        ],
+        "en": [
+          "Yongcheng County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京"
+        ],
+        "en": [
+          "Beijing"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "抗日战争"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937 - 1945"
+      }
+    },
+    {
+      "id": "淮阳地委组织部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "淮阳地委组织部"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共河南省委组织部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共河南省委组织部"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产主义青年团河南省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产主义青年团河南省委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "洛阳轴承厂",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "洛阳轴承厂"
+        ],
+        "en": [
+          "Luoyang Bearing Factory"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共洛阳市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共洛阳市委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "河南省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南省人民政府"
+        ],
+        "en": [
+          "Henan Provincial People's Government"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议河南省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议河南省委员会",
+          "河南省政协"
+        ],
+        "en": [
+          "Henan Provincial Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "洛阳市革命委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "洛阳市革命委员会"
+        ],
+        "en": [
+          "Luoyang Municipal Revolutionary Committee"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议第七届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第七届全国委员会"
+        ],
+        "en": [
+          "7th National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "阎济民",
+      "target": "永城县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "阎济民是河南永城县芒山镇磨山村人。",
+          "en": "Yan Jimin was a native of Moshan Village, Mangshan Town, Yongcheng County, Henan."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，阎济民是中国共产党党员。",
+          "en": "According to Wikipedia categories, Yan Jimin was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "抗日战争",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "阎济民早年参加抗日战争。",
+          "en": "Yan Jimin participated in the Second Sino-Japanese War in his early years."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "淮阳地委组织部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "部长",
+          "en": "Minister"
+        },
+        "description": {
+          "zh-cn": "阎济民曾任淮阳地委组织部部长。",
+          "en": "Yan Jimin served as the Minister of the Organization Department of the Huaiyang Prefectural Committee."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "中共河南省委组织部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1949",
+        "description": {
+          "zh-cn": "中华人民共和国成立后，阎济民供职于中共河南省委组织部。",
+          "en": "After the founding of the People's Republic of China, Yan Jimin worked in the Organization Department of the CPC Henan Provincial Committee."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "中国共产主义青年团河南省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "阎济民曾任共青团河南省委书记。",
+          "en": "Yan Jimin served as the Secretary of the Henan Provincial Committee of the Communist Youth League."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "洛阳轴承厂",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954",
+        "position": {
+          "zh-cn": "厂长",
+          "en": "Factory Director"
+        },
+        "description": {
+          "zh-cn": "1954年，阎济民调入洛阳轴承厂，任厂长。",
+          "en": "In 1954, Yan Jimin was transferred to the Luoyang Bearing Factory and served as its director."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "中共洛阳市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1979",
+        "position": {
+          "zh-cn": "第一书记",
+          "en": "First Secretary"
+        },
+        "description": {
+          "zh-cn": "1979年，阎济民担任中共洛阳市委第一书记。",
+          "en": "In 1979, Yan Jimin served as the First Secretary of the CPC Luoyang Municipal Committee."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "河南省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1979",
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        },
+        "description": {
+          "zh-cn": "1979年，阎济民担任河南省副省长。",
+          "en": "In 1979, Yan Jimin served as the Vice Governor of Henan Province."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "中国人民政治协商会议河南省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1985",
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "1985年，阎济民任河南省政协副主席。",
+          "en": "In 1985, Yan Jimin served as the Vice Chairman of the Henan Provincial Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "中国人民政治协商会议河南省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1988",
+        "end_date": "1993",
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "1988年至1993年，阎济民任河南省政协主席。",
+          "en": "From 1988 to 1993, Yan Jimin served as the Chairman of the Henan Provincial Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "洛阳市革命委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，阎济民曾任洛阳市革命委员会主任。",
+          "en": "According to Wikipedia categories, Yan Jimin served as the Director of the Luoyang Municipal Revolutionary Committee."
+        }
+      }
+    },
+    {
+      "source": "阎济民",
+      "target": "中国人民政治协商会议第七届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，阎济民是第七届全国政协委员。",
+          "en": "According to Wikipedia categories, Yan Jimin was a member of the 7th National Committee of the CPPCC."
+        }
+      }
+    }
+  ]
+}

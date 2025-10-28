@@ -1,0 +1,392 @@
+{
+  "nodes": [
+    {
+      "id": "河南警察学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南警察学院"
+        ],
+        "en": [
+          "Henan Police College"
+        ]
+      },
+      "properties": {
+        "period": "1949 - ",
+        "location": {
+          "zh-cn": "河南省郑州市郑东新区龙子湖高校园区",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "位于河南省郑州市的公安类普通本科高等院校，隶属河南省公安厅。",
+          "en": "A public security undergraduate higher education institution located in Zhengzhou, Henan Province, affiliated with the Henan Provincial Public Security Department."
+        }
+      }
+    },
+    {
+      "id": "王伟平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王伟平"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "徐晓慧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐晓慧"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "河南省公安厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南省公安厅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "河南省",
+          "en": "Henan Province"
+        }
+      }
+    },
+    {
+      "id": "中共豫西区党委社会部保卫干部训练班",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共豫西区党委社会部保卫干部训练班"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-02 - 1949"
+      }
+    },
+    {
+      "id": "中共河南省委社会部保卫干部培训班",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共河南省委社会部保卫干部培训班"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949 - 1949"
+      }
+    },
+    {
+      "id": "河南省公安干部学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南省公安干部学校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": [
+          "1949 - 1958",
+          "1974 - 1980"
+        ]
+      }
+    },
+    {
+      "id": "河南省政法干部学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南省政法干部学校"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "河南省人民警察学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南省人民警察学校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1980 - 1991"
+      }
+    },
+    {
+      "id": "河南公安专科学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南公安专科学校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1991 - 1992"
+      }
+    },
+    {
+      "id": "河南公安高等专科学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南公安高等专科学校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1992 - 2010-03-17"
+      }
+    },
+    {
+      "id": "郑州市人民警察学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "郑州市人民警察学校"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国教育部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国教育部",
+          "教育部"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "毛志斌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛志斌"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "河南警察学院前院长，2014年因涉嫌违纪被调查免职。",
+          "en": "Former president of Henan Police College, who was investigated and dismissed for suspected disciplinary violations in 2014."
+        }
+      }
+    },
+    {
+      "id": "漯河市人民检察院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "漯河市人民检察院",
+          "河南省漯河市人民检察院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "河南警察学院",
+      "target": "河南省公安厅",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "河南警察学院隶属于河南省公安厅。",
+          "en": "Henan Police College is affiliated with the Henan Provincial Public Security Department."
+        }
+      }
+    },
+    {
+      "source": "王伟平",
+      "target": "河南警察学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委书记",
+          "en": "Party Committee Secretary"
+        }
+      }
+    },
+    {
+      "source": "徐晓慧",
+      "target": "河南警察学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "毛志斌",
+      "target": "河南警察学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2011-07-13",
+        "end_date": "2014-08",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "2014年7月，毛志斌因涉嫌违纪被调查，同年8月被免职。",
+          "en": "In July 2014, Mao Zhibin was investigated for suspected disciplinary violations and was dismissed from his post in August of the same year."
+        }
+      }
+    },
+    {
+      "source": "漯河市人民检察院",
+      "target": "毛志斌",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-10-23",
+        "description": {
+          "zh-cn": "2014年10月23日，河南省漯河市人民检察院对毛志斌立案调查。",
+          "en": "On October 23, 2014, the People's Procuratorate of Luohe City, Henan Province, opened a case for investigation against Mao Zhibin."
+        }
+      }
+    },
+    {
+      "source": "中共豫西区党委社会部保卫干部训练班",
+      "target": "中共河南省委社会部保卫干部培训班",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1949",
+        "description": {
+          "zh-cn": "1949年，中共豫西区党委社会部保卫干部训练班更名为中共河南省委社会部保卫干部培训班。",
+          "en": "In 1949, the Security Cadre Training Class of the Social Department of the Western Henan District Party Committee was renamed the Security Cadre Training Class of the Social Department of the Henan Provincial Party Committee."
+        }
+      }
+    },
+    {
+      "source": "中共河南省委社会部保卫干部培训班",
+      "target": "河南省公安干部学校",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1949",
+        "description": {
+          "zh-cn": "1949年，中共河南省委社会部保卫干部培训班更名为河南省公安干部学校。",
+          "en": "In 1949, the Security Cadre Training Class of the Social Department of the Henan Provincial Party Committee was renamed Henan Public Security Cadre School."
+        }
+      }
+    },
+    {
+      "source": "河南省公安干部学校",
+      "target": "河南省政法干部学校",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1958",
+        "description": {
+          "zh-cn": "1958年，河南省公安干部学校并入河南省政法干部学校。",
+          "en": "In 1958, Henan Public Security Cadre School was merged into Henan Political and Legal Cadre School."
+        }
+      }
+    },
+    {
+      "source": "河南省政法干部学校",
+      "target": "河南省公安干部学校",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1974",
+        "description": {
+          "zh-cn": "1974年，河南省政法干部学校中原属河南省公安干部学校的部分被分出，复校为河南省公安干部学校。",
+          "en": "In 1974, the part of Henan Political and Legal Cadre School that originally belonged to Henan Public Security Cadre School was separated to re-establish Henan Public Security Cadre School."
+        }
+      }
+    },
+    {
+      "source": "河南省公安干部学校",
+      "target": "河南省人民警察学校",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1980",
+        "description": {
+          "zh-cn": "1980年，河南省公安干部学校更名为河南省人民警察学校。",
+          "en": "In 1980, Henan Public Security Cadre School was renamed Henan People's Police School."
+        }
+      }
+    },
+    {
+      "source": "河南省人民警察学校",
+      "target": "河南公安专科学校",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1991",
+        "description": {
+          "zh-cn": "1991年，河南省人民警察学校升格为河南公安专科学校。",
+          "en": "In 1991, Henan People's Police School was upgraded to Henan Public Security College (a junior college)."
+        }
+      }
+    },
+    {
+      "source": "河南公安专科学校",
+      "target": "河南公安高等专科学校",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1992",
+        "description": {
+          "zh-cn": "1992年，河南公安专科学校更名为河南公安高等专科学校。",
+          "en": "In 1992, Henan Public Security College was renamed Henan Public Security Advanced College (a junior college)."
+        }
+      }
+    },
+    {
+      "source": "郑州市人民警察学校",
+      "target": "河南公安高等专科学校",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2003",
+        "description": {
+          "zh-cn": "2003年，郑州市人民警察学校并入河南公安高等专科学校。",
+          "en": "In 2003, Zhengzhou People's Police School was merged into Henan Public Security Advanced College."
+        }
+      }
+    },
+    {
+      "source": "河南公安高等专科学校",
+      "target": "河南警察学院",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2010-03-18",
+        "description": {
+          "zh-cn": "2010年3月18日，河南公安高等专科学校升格为河南警察学院。",
+          "en": "On March 18, 2010, Henan Public Security Advanced College was upgraded to Henan Police College."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国教育部",
+      "target": "河南警察学院",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2010-03-18",
+        "description": {
+          "zh-cn": "2010年3月18日，中华人民共和国教育部批准河南公安高等专科学校升格为河南警察学院。",
+          "en": "On March 18, 2010, the Ministry of Education of the People's Republic of China approved the upgrade of Henan Public Security Advanced College to Henan Police College."
+        }
+      }
+    }
+  ]
+}

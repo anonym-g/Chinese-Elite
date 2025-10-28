@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "刘伟全",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘伟全"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": null,
+        "gender": "Male",
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "广州同利实业有限公司总经理，中国共产党党员，政协第十一届广州市委员会委员。因其在2013年两会期间提议“让警察敢于向刁民开枪”而引发争议。",
+          "en": "General Manager of Guangzhou Tongli Industrial Co., Ltd., a member of the Communist Party of China, and a member of the 11th Guangzhou Municipal Committee of the CPPCC. He caused controversy for proposing during the 2013 Two Sessions to 'legislate to allow police to dare to shoot at unruly people'."
+        }
+      }
+    },
+    {
+      "id": "广州同利实业有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广州同利实业有限公司"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2002 - ",
+        "location": {
+          "zh-cn": "广州市白云区钟落潭",
+          "en": "Zhongluotan, Baiyun District, Guangzhou"
+        },
+        "description": {
+          "zh-cn": "由刘伟全于2002年创立的公司，是广州市工商系统及多个执法部门指定的假冒伪劣商品销毁处理单位。",
+          "en": "A company founded by Liu Weiquan in 2002, designated by the Guangzhou industrial and commercial system and several law enforcement departments for the destruction and disposal of counterfeit and shoddy goods."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Chinese Communist Party",
+          "CCP"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "location": null,
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "政协第十一届广州市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "政协第十一届广州市委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": null,
+        "location": {
+          "zh-cn": "广州市",
+          "en": "Guangzhou"
+        },
+        "description": {
+          "zh-cn": "中国人民政治协商会议广州市第十一届委员会，刘伟全是其委员之一。",
+          "en": "The 11th Guangzhou Municipal Committee of the Chinese People's Political Consultative Conference, of which Liu Weiquan is a member."
+        }
+      }
+    },
+    {
+      "id": "亚洲金融风暴",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "亚洲金融风暴"
+        ],
+        "en": [
+          "1997 Asian financial crisis"
+        ]
+      },
+      "properties": {
+        "period": "1997 - 1998",
+        "location": null,
+        "description": {
+          "zh-cn": "1997年至1998年间爆发的一场波及亚洲多国的金融危机。",
+          "en": "A financial crisis that affected many countries in Asia from 1997 to 1998."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘伟全",
+      "target": "广州同利实业有限公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2002",
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "2002年，刘伟全在白云区钟落潭建立了广州市同利实业有限公司。",
+          "en": "In 2002, Liu Weiquan established Guangzhou Tongli Industrial Co., Ltd. in Zhongluotan, Baiyun District."
+        }
+      }
+    },
+    {
+      "source": "刘伟全",
+      "target": "广州同利实业有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2002",
+        "end_date": null,
+        "position": {
+          "zh-cn": "总经理",
+          "en": "General Manager"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "刘伟全是广州同利实业有限公司的总经理。",
+          "en": "Liu Weiquan is the General Manager of Guangzhou Tongli Industrial Co., Ltd."
+        }
+      }
+    },
+    {
+      "source": "刘伟全",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2003",
+        "end_date": null,
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "刘伟全于2003年加入中国共产党。",
+          "en": "Liu Weiquan joined the Communist Party of China in 2003."
+        }
+      }
+    },
+    {
+      "source": "刘伟全",
+      "target": "政协第十一届广州市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "委员",
+          "en": "Committee member"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "刘伟全是政协第十一届广州市委员会委员。",
+          "en": "Liu Weiquan is a member of the 11th Guangzhou Municipal Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "亚洲金融风暴",
+      "target": "刘伟全",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1998",
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "1998年的亚洲金融风暴导致刘伟全的房地产生意失败。",
+          "en": "The 1998 Asian financial crisis led to the failure of Liu Weiquan's real estate business."
+        }
+      }
+    }
+  ]
+}

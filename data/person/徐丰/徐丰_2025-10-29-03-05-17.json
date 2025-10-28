@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "id": "徐丰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐丰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": null,
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": {},
+        "death_place": {},
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中国共产主义青年团中央委员会书记处书记。",
+          "en": "A political figure in the People's Republic of China, formerly served as a secretary of the Secretariat of the Central Committee of the Communist Youth League of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，简称中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中国共产主义青年团中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产主义青年团中央委员会"
+        ],
+        "en": [
+          "Central Committee of the Communist Youth League of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产主义青年团的全国领导机构。",
+          "en": "The national leading body of the Communist Youth League of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "徐丰",
+      "target": "中国共产主义青年团中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "书记处书记",
+          "en": "Secretary of the Secretariat"
+        },
+        "description": {
+          "zh-cn": "徐丰曾任中国共产主义青年团中央委员会书记处书记。",
+          "en": "Xu Feng formerly served as a secretary of the Secretariat of the Central Committee of the Communist Youth League of China."
+        }
+      }
+    }
+  ]
+}
