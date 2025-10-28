@@ -8,23 +8,48 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from collections import deque
-from telegram import Update
-from telegram.ext import Application, MessageHandler, filters, ContextTypes
+import telegram
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, Message, BotCommand
+from telegram.ext import (
+    Application, MessageHandler, filters, ContextTypes,
+    ConversationHandler, CommandHandler, CallbackQueryHandler
+)
+from opencc import OpenCC
 
 # 使用绝对路径导入
 from scripts.config import BOT_QA_MODEL, ROOT_DIR, BOT_QA_PROMPT
 from scripts.api_rate_limiter import gemini_flash_lite_preview_limiter
+from scripts.github_pr_utils import create_list_update_pr
 
 # --- 日志配置 ---
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# --- 全局变量 ---
+# --- 全局变量与锁 ---
 _bot_app_instance = None
 _bot_app_lock = asyncio.Lock()
+GIT_OPERATION_LOCK = asyncio.Lock()  # 用于确保Git操作的原子性，防止并发冲突
 
-# --- 全局常量和辅助函数 ---
-MAX_HISTORY = 24
+# --- ConversationHandler 状态定义 ---
+# 使用整数定义对话的不同阶段，便于管理和跳转
+SELECTING_ACTION, AWAITING_ENTRIES, CONFIRM_SUBMISSION = range(3)
+
+# --- 全局常量 ---
+MAX_HISTORY = 24  # 问答功能保留的上下文历史数量
+MAX_ENTRIES_PER_CATEGORY = 50  # 每个类别一次最多能提交的条目数
+ENTITY_CATEGORIES = ['Person', 'Organization', 'Movement', 'Event', 'Location', 'Document']
+t2s = OpenCC('t2s')  # 繁转简
+
+# --- 全局辅助函数和工具定义 ---
+def escape_markdown_v2(text: str) -> str:
+    """
+    安全地转义 Telegram MarkdownV2 消息格式的特殊字符。
+    """
+    if not text: 
+        return ""
+    # 根据 Telegram API 文档，这些是需要转义的字符
+    escape_chars = r'_*[]()~`>#+-=|{}.!'
+    return ''.join(f'\\{char}' if char in escape_chars else char for char in text)
 
 def _generate_project_structure_text() -> str:
     """
@@ -90,7 +115,10 @@ file_reader_tool = types.Tool(
             parameters=types.Schema(
                 type=types.Type.OBJECT,
                 properties={
-                    'file_path': types.Schema(type=types.Type.STRING, description='相对于项目根目录的文件路径, 例如 "scripts/config.py" 或 "README.md"')
+                    'file_path': types.Schema(
+                        type=types.Type.STRING,
+                        description='相对于项目根目录的文件路径, 例如 "scripts/config.py" 或 "README.md"'
+                    )
                 },
                 required=['file_path']
             )
@@ -98,6 +126,282 @@ file_reader_tool = types.Tool(
     ]
 )
 
+# --- 辅助函数：构建键盘 ---
+def build_main_menu(user_data) -> InlineKeyboardMarkup:
+    """
+    构建主菜单，显示各类别按钮和提交按钮。
+    """
+    submissions = user_data.get('submissions', {})
+    keyboard = []
+    for i in range(0, len(ENTITY_CATEGORIES), 2):
+        row = [
+            InlineKeyboardButton(
+                f"{category} ({len(submissions.get(category, []))})" if category in submissions and submissions[category] else category,
+                callback_data=f"category:{category}"
+            ) for category in ENTITY_CATEGORIES[i:i + 2]
+        ]
+        keyboard.append(row)
+    total_submissions = sum(len(s) for s in submissions.values())
+    if total_submissions > 0:
+        keyboard.append(
+            [InlineKeyboardButton(f"✅ 提交全部 ({total_submissions})", callback_data="submit")]
+        )
+    return InlineKeyboardMarkup(keyboard)
+
+def build_category_menu() -> InlineKeyboardMarkup:
+    """
+    构建在类别编辑模式下的菜单，只包含返回按钮。
+    """
+    keyboard = [
+        [InlineKeyboardButton("⬅️ 返回主菜单", callback_data="back_to_main")]
+    ]
+    return InlineKeyboardMarkup(keyboard)
+
+# --- 设置机器人指令 ---
+async def _set_bot_commands(application: Application):
+    """
+    在机器人启动时，向Telegram注册支持的指令列表。
+    """
+    commands = [
+        BotCommand("list", "批量添加新的实体条目到待处理列表"),
+        BotCommand("cancel", "取消当前的批量添加操作"),
+    ]
+    try:
+        await application.bot.set_my_commands(commands)
+        logger.info("成功向Telegram注册了指令菜单。")
+    except Exception as e:
+        logger.error(f"注册指令菜单失败: {e}")
+
+# --- 对话处理函数 ---
+async def start_list_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
+    """
+    /list 指令入口点，启动对话，显示主菜单。
+    """
+    if not (update.message and context.user_data is not None):
+        return ConversationHandler.END
+
+    context.user_data.clear()
+    context.user_data['submissions'] = {}
+
+    message = await update.message.reply_text(
+        "欢迎使用批量添加功能！\n\n请点击下方按钮选择一个类别，然后发送您想添加的实体名称（每行一个）。",
+        reply_markup=build_main_menu(context.user_data)
+    )
+    context.user_data['main_menu_message_id'] = message.message_id
+
+    return SELECTING_ACTION
+
+async def handle_action_selection(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
+    """
+    处理主菜单的按钮点击：切换到类别编辑或开始提交。
+    """
+    query = update.callback_query
+    if not (query and query.data and context.user_data is not None):
+        return ConversationHandler.END
+
+    await query.answer()
+    action = query.data
+
+    if action.startswith("category:"):
+        category = action.split(":")[1]
+        context.user_data['current_category'] = category
+        submissions = context.user_data.get('submissions', {})
+        submissions_for_category = submissions.get(category, set())
+        message_text = f"您正在编辑 **{category}** 类别。\n请发送实体名称，每行一个（一次最多50个）。\n\n"
+        if submissions_for_category:
+            message_text += "目前已添加:\n" + "\n".join(f"- `{item}`" for item in sorted(list(submissions_for_category)))
+
+        try:
+            await query.edit_message_text(
+                message_text,
+                reply_markup=build_category_menu(),
+                parse_mode='MarkdownV2'
+            )
+        except telegram.error.BadRequest as e:
+            logger.error(
+                f"Telegram API BadRequest on edit_message_text (category selection): {e}\n"
+                f"--- Offending message content ---\n{message_text}\n--- End of message content ---"
+            )
+            # --- 使用 isinstance 进行类型检查 ---
+            if isinstance(query.message, Message):
+                await query.message.reply_text("抱歉，格式化消息时出错，请重试。")
+
+        return AWAITING_ENTRIES
+
+    elif action == "submit":
+        submissions = context.user_data.get('submissions', {})
+        if not submissions or sum(len(s) for s in submissions.values()) == 0:
+            await query.answer("您还没有添加任何条目。", show_alert=True)
+            return SELECTING_ACTION
+
+        summary_lines = ["您准备提交以下条目，请确认：\n"]
+        for category, entries in sorted(submissions.items()):
+            if entries:
+                summary_lines.append(f"**{category}**:")
+                summary_lines.extend(f"\\- `{escape_markdown_v2(entry)}`" for entry in sorted(list(entries)))
+                summary_lines.append("")
+        
+        message_text = "\n".join(summary_lines)
+        keyboard = [
+            [InlineKeyboardButton("✅ 确认提交", callback_data="confirm_submit")],
+            [InlineKeyboardButton("⬅️ 返回修改", callback_data="back_to_main")]
+        ]
+        
+        try:
+            await query.edit_message_text(
+                message_text,
+                reply_markup=InlineKeyboardMarkup(keyboard),
+                parse_mode='MarkdownV2'
+            )
+        except telegram.error.BadRequest as e:
+            logger.error(
+                f"Telegram API BadRequest on edit_message_text (submit confirmation): {e}\n"
+                f"--- Offending message content ---\n{message_text}\n--- End of message content ---"
+            )
+            # --- 使用 isinstance 进行类型检查 ---
+            if isinstance(query.message, Message):
+                await query.message.reply_text("抱歉，格式化提交预览时出错，请检查您输入的条目。")
+            
+        return CONFIRM_SUBMISSION
+
+    return SELECTING_ACTION
+
+async def handle_entry_input(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
+    """
+    在类别编辑模式下，接收用户输入的文本并处理。
+    """
+    if not (update.message and update.message.text and context.user_data is not None):
+        return AWAITING_ENTRIES
+
+    current_category = context.user_data.get('current_category')
+    if not current_category:
+        await update.message.reply_text("发生错误，请返回主菜单重试。")
+        return AWAITING_ENTRIES
+
+    if 'submissions' not in context.user_data:
+        context.user_data['submissions'] = {}
+    if current_category not in context.user_data['submissions']:
+        context.user_data['submissions'][current_category] = set()
+
+    current_entries = context.user_data['submissions'][current_category]
+    new_entries = [entry.strip() for entry in update.message.text.split('\n') if entry.strip()]
+    added_count = 0
+
+    for entry in new_entries:
+        if len(current_entries) >= MAX_ENTRIES_PER_CATEGORY:
+            await update.message.reply_text(f"'{current_category}' 类别已达到 {MAX_ENTRIES_PER_CATEGORY} 个条目上限。")
+            break
+        simplified_entry = t2s.convert(entry)
+        if simplified_entry not in {t2s.convert(e) for e in current_entries}:
+            current_entries.add(entry)
+            added_count += 1
+
+    main_menu_message_id = context.user_data.get('main_menu_message_id')
+    if main_menu_message_id and update.effective_chat:
+        try:
+            await context.bot.edit_message_reply_markup(
+                chat_id=update.effective_chat.id,
+                message_id=main_menu_message_id,
+                reply_markup=build_main_menu(context.user_data)
+            )
+        except Exception as e:
+            logger.warning(f"更新主菜单失败: {e}")
+
+    message_text = f"您正在编辑 **{current_category}** 类别。\n新增 {added_count} 条，跳过 {len(new_entries) - added_count} 条重复项。\n\n"
+    message_text += "目前已添加:\n" + "\n".join(f"\\- `{escape_markdown_v2(item)}`" for item in sorted(list(current_entries)))
+
+    # --- 添加 try-except 块，以捕获并记录 Markdown 解析错误 ---
+    try:
+        await update.message.reply_text(
+            message_text,
+            reply_markup=build_category_menu(),
+            parse_mode='MarkdownV2'
+        )
+    except telegram.error.BadRequest as e:
+        # 当错误发生时，记录下导致错误的 message_text
+        logger.error(
+            f"Telegram API BadRequest on reply_text (likely MarkdownV2 parsing error): {e}\n"
+            f"--- Offending message content ---\n"
+            f"{message_text}\n"
+            f"--- End of message content ---"
+        )
+        await update.message.reply_text(
+            "错误：无法格式化您的输入。这可能是由于您输入的文本中包含了特殊的 Markdown 字符。\n"
+            "您的条目已部分添加，但确认消息发送失败。请尝试修改或使用 /cancel 命令重试。"
+        )
+
+    return AWAITING_ENTRIES
+
+async def handle_back_to_main(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
+    """
+    处理返回主菜单的请求。
+    """
+    query = update.callback_query
+    if not (query and context.user_data is not None):
+        return ConversationHandler.END
+
+    await query.answer()
+    context.user_data['current_category'] = None
+
+    message = await query.edit_message_text(
+        "您已返回主菜单。请选择一个类别继续添加，或点击“提交”。",
+        reply_markup=build_main_menu(context.user_data)
+    )
+    if isinstance(message, Message):
+        context.user_data['main_menu_message_id'] = message.message_id
+
+    return SELECTING_ACTION
+
+async def handle_submit_confirm(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
+    """
+    处理最终的提交确认。
+    """
+    query = update.callback_query
+    if not (query and query.data == "confirm_submit" and context.user_data is not None):
+        return ConversationHandler.END
+
+    await query.answer()
+    submissions = context.user_data.get('submissions', {})
+    serializable_submissions = {cat: list(entries) for cat, entries in submissions.items() if entries}
+
+    if not serializable_submissions:
+        await query.edit_message_text("没有可提交的条目。")
+        return ConversationHandler.END
+
+    await query.edit_message_text("确认提交！正在创建 Pull Request，请稍候...")
+
+    async with GIT_OPERATION_LOCK:
+        logger.info(f"获取到Git操作锁，开始为批量提交创建PR...")
+        result = await asyncio.to_thread(create_list_update_pr, serializable_submissions)
+        logger.info("Git操作完成，已释放锁。")
+
+    chat_id = query.from_user.id
+    if isinstance(result, dict) and result.get('pr_url'):
+        report = (
+            f"✅ 操作成功！\n"
+            f"成功新增 {result.get('added_count', 0)} 条，因重复跳过 {result.get('skipped_count', 0)} 条。\n\n"
+            f"已创建 Pull Request: {result.get('pr_url')}"
+        )
+        await context.bot.send_message(chat_id=chat_id, text=report)
+    else:
+        await context.bot.send_message(chat_id=chat_id, text="❌ 操作失败。\n创建 Pull Request 时发生错误，请检查后台日志。")
+
+    if context.user_data:
+        context.user_data.clear()
+
+    return ConversationHandler.END
+
+async def cancel_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
+    """
+    处理用户取消操作。
+    """
+    if update.message:
+        await update.message.reply_text("批量添加操作已取消。")
+    if context.user_data:
+        context.user_data.clear()
+    return ConversationHandler.END
+
+# --- TelegramBotHandler 类 ---
 class TelegramBotHandler:
     """
     封装了处理Telegram消息和与LLM交互的所有逻辑, 增加了动态注入项目结构和工具使用的能力。
@@ -165,54 +469,36 @@ class TelegramBotHandler:
             candidate = response.candidates[0]
             if not candidate.content or not candidate.content.parts:
                 return response.text if hasattr(response, 'text') and response.text else "模型返回了没有内容的结果。"
-            
-            # --- 遍历所有 parts 来查找 function_call ---
-            function_call = None
-            for part in candidate.content.parts:
-                if part.function_call:
-                    function_call = part.function_call
-                    break
-            
-            if function_call:
-                if function_call.name == 'read_project_file':
-                    args = function_call.args
-                    if not args:
-                        return "工具调用缺少参数。"
-                    
-                    file_path = args.get('file_path')
-                    if not isinstance(file_path, str):
-                        return f"工具调用收到了无效的文件路径参数: {file_path}"
-                    
-                    logger.info(f"模型已成功发出指令，正在执行函数: read_project_file(file_path=\'{file_path}\')")
-                    file_content = read_project_file(file_path)
-                    
-                    # 将函数执行结果返回给模型，让它继续生成回答
-                    response = self.client.models.generate_content(
-                        model=f'models/{BOT_QA_MODEL}',
-                        contents=[
-                            *contents,
-                            candidate.content,
-                            types.Part(
-                                function_response=types.FunctionResponse(
-                                    name='read_project_file',
-                                    response={'content': file_content}
-                                )
-                            )
-                        ],
-                        config=config
-                    )
 
-            # 使用 .text 属性安全地获取最终文本
-            final_text = response.text
-            return final_text if final_text else "我用工具函数执行了操作，但未能生成进一步的文本。您还有其他问题吗？"
+            function_call = next((part.function_call for part in candidate.content.parts if part.function_call), None)
+            if function_call and function_call.name == 'read_project_file':
+                args = function_call.args
+                if not args:
+                    return "工具调用缺少参数。"
+                file_path = args.get('file_path')
+                if not isinstance(file_path, str):
+                    return f"工具调用收到了无效的文件路径参数: {file_path}"
 
+                logger.info(f"模型已成功发出指令，正在执行函数: read_project_file(file_path=\'{file_path}\')")
+                file_content = read_project_file(file_path)
+
+                response = self.client.models.generate_content(
+                    model=f'models/{BOT_QA_MODEL}',
+                    contents=[
+                        *contents,
+                        candidate.content,
+                        types.Part(function_response=types.FunctionResponse(name='read_project_file', response={'content': file_content}))
+                    ],
+                    config=config
+                )
+            return response.text if response.text else "我用工具函数执行了操作，但未能生成进一步的文本。您还有其他问题吗？"
         except Exception as e:
             logger.error(f"LLM API 调用失败", exc_info=True)
             return "在处理您的请求时遇到了一个内部错误。"
 
     async def handle_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         message = update.message
-        if not message or not message.text: return
+        if not (message and message.text): return
 
         chat_id = message.chat_id
         full_user_message = message.text
@@ -255,7 +541,6 @@ class TelegramBotHandler:
         # 检查是否有回复引用的消息
         if message.reply_to_message and message.reply_to_message.text:
             replied_msg = message.reply_to_message
-            quoted_message_text = replied_msg.text
 
             # 默认的被引用用户名
             quoted_user_name = "Someone"
@@ -267,13 +552,11 @@ class TelegramBotHandler:
             elif replied_msg.sender_chat:
                 quoted_user_name = replied_msg.sender_chat.title
 
-            # 构建一个更丰富的上下文给 LLM
+            # 给 LLM 构建一个更丰富的上下文
             full_user_message = (
                 f"用户回复了 '{quoted_user_name}' 的消息。\n"
-                f"--- 被回复的消息 ---\n"
-                f"{quoted_message_text}\n"
-                f"--- 用户的新消息 ---\n"
-                f"{full_user_message}"
+                f"--- 被回复的消息 ---\n{replied_msg.text}\n"
+                f"--- 用户的新消息 ---\n{full_user_message}"
             )
         
         logger.info(f"收到来自 Chat ID {chat_id} 的消息: '{full_user_message}'")
@@ -293,15 +576,14 @@ class TelegramBotHandler:
             history.pop()
             await message.reply_text("服务器繁忙，请稍后再试。")
 
-# --- 机器人设置函数 ---
+# --- 机器人设置与初始化 ---
 def create_bot_app_sync():
     """
-    同步地创建 Application 实例，但不初始化。
-    这是为了让 Flask 应用在启动时可以调用。
+    同步地创建 Application 实例，但不进行网络初始化。
     """
     load_dotenv()
     token = os.getenv("TELEGRAM_BOT_TOKEN")
-    if not token or not os.getenv("GEMINI_API_KEY"):
+    if not (token and os.getenv("GEMINI_API_KEY")):
         logger.critical("严重错误: 必须在 .env 文件中设置 TELEGRAM_BOT_TOKEN 和 GEMINI_API_KEY。")
         sys.exit(1)
     
@@ -322,12 +604,43 @@ async def ensure_bot_initialized(application: Application) -> None:
 
         if not application.bot.username:
             logger.critical("严重错误：无法获取机器人的用户名。")
-            # 在实际运行中，我们不希望因为这个就让整个服务崩溃
             return
-        
+
         logger.info(f"机器人已配置，用户名为: @{application.bot.username}")
 
-        bot_handler = TelegramBotHandler(application.bot.username)
-        application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, bot_handler.handle_message))
-        
+        # --- 注册指令菜单 ---
+        await _set_bot_commands(application)
+
+        # --- 设置 ConversationHandler，并添加超时 ---
+        conv_handler = ConversationHandler(
+            entry_points=[CommandHandler("list", start_list_command)],
+            states={
+                SELECTING_ACTION: [
+                    CallbackQueryHandler(handle_action_selection, pattern="^category:"),
+                    CallbackQueryHandler(handle_action_selection, pattern="^submit$"),
+                ],
+                AWAITING_ENTRIES: [
+                    MessageHandler(filters.TEXT & ~filters.COMMAND, handle_entry_input),
+                    CallbackQueryHandler(handle_back_to_main, pattern="^back_to_main$"),
+                ],
+                CONFIRM_SUBMISSION: [
+                    CallbackQueryHandler(handle_submit_confirm, pattern="^confirm_submit$"),
+                    CallbackQueryHandler(handle_back_to_main, pattern="^back_to_main$"),
+                ],
+            },
+            fallbacks=[CommandHandler("cancel", cancel_command)],
+            per_user=True,
+            per_chat=True,
+            # --- 设置5分钟超时，自动结束不活跃的对话 ---
+            conversation_timeout=300,  # 单位：秒
+            block=False
+        )
+
+        qa_bot_handler = TelegramBotHandler(application.bot.username)
+
+        # 添加处理器到 application
+        application.add_handler(conv_handler)
+        # 问答处理器在 ConversationHandler 之后，确保指令优先被处理
+        application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, qa_bot_handler.handle_message))
+
         _bot_app_instance = application
