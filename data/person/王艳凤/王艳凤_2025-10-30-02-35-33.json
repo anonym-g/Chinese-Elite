@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "王艳凤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王艳凤"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1967-07 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "榆树市",
+          "en": "Yushu"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，汉族，第十三届全国人民代表大会吉林地区代表。",
+          "en": "A politician of the People's Republic of China, of Han ethnicity, and a delegate from the Jilin region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "吉林省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "吉林省",
+          "吉林"
+        ],
+        "en": [
+          "Jilin Province",
+          "Jilin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省份，王艳凤的籍贯地所在省及所代表的地区。",
+          "en": "A province of the People's Republic of China, where Wang Yanfeng's ancestral home is located and the region she represents."
+        }
+      }
+    },
+    {
+      "id": "榆树市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "榆树市",
+          "榆树"
+        ],
+        "en": [
+          "Yushu",
+          "Yushu City"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "吉林省",
+          "en": "Jilin Province"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国吉林省长春市代管的县级市，王艳凤的籍贯地。",
+          "en": "A county-level city in Jilin Province, People's Republic of China, and Wang Yanfeng's ancestral home."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03-05 - 2023-03-13"
+      }
+    },
+    {
+      "id": "全国人民代表大会代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会代表",
+          "全国人大代表"
+        ],
+        "en": [
+          "Deputy to the National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国最高国家权力机关全国人民代表大会的组成人员。",
+          "en": "Members of the National People's Congress, the highest state authority in the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王艳凤",
+      "target": "榆树市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本信息，王艳凤是吉林榆树人，此为她的籍贯地。",
+          "en": "According to the text, Wang Yanfeng is from Yushu, Jilin, which is her ancestral home."
+        }
+      }
+    },
+    {
+      "source": "王艳凤",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "文本中的个人信息框和分类明确指出王艳凤是中国共产党党员。",
+          "en": "The infobox and categories in the text explicitly state that Wang Yanfeng is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "王艳凤",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "吉林地区代表",
+          "en": "Delegate from Jilin region"
+        },
+        "description": {
+          "zh-cn": "于2018年2月24日当选为第十三届全国人民代表大会代表。",
+          "en": "Elected as a delegate to the 13th National People's Congress on February 24, 2018."
+        }
+      }
+    },
+    {
+      "source": "王艳凤",
+      "target": "全国人民代表大会代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "全国人大代表",
+          "en": "Deputy to the National People's Congress"
+        },
+        "description": {
+          "zh-cn": "根据个人信息框中的“title”字段，王艳凤的职务是全国人大代表。",
+          "en": "According to the 'title' field in the infobox, Wang Yanfeng holds the position of Deputy to the National People's Congress."
+        }
+      }
+    }
+  ]
+}

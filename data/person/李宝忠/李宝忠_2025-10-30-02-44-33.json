@@ -1,0 +1,200 @@
+{
+  "nodes": [
+    {
+      "id": "李宝忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李宝忠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1970-07 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "河北易县",
+          "en": "Yixian, Hebei"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，汉族，中国共产党党员。曾任第十三届全国人民代表大会河北地区代表，现任河北建设集团董事长。",
+          "en": "A Chinese politician, of Han ethnicity, and a member of the Communist Party of China. He served as a deputy from the Hebei region to the 13th National People's Congress and is the chairman of Hebei Construction Group."
+        }
+      }
+    },
+    {
+      "id": "河北",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河北"
+        ],
+        "en": [
+          "Hebei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "易县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "易县"
+        ],
+        "en": [
+          "Yixian County"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "河北",
+          "en": "Hebei"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国河北省保定市下辖的县，是李宝忠的家乡。",
+          "en": "A county under the administration of Baoding City, Hebei Province, People's Republic of China. It is the hometown of Li Baozhong."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家。",
+          "en": "A socialist state in East Asia."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会",
+          "第十三届全国人大"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届最高国家权力机关。",
+          "en": "The 13th term of the highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "河北建设集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河北建设集团"
+        ],
+        "en": [
+          "Hebei Construction Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家位于中国河北省的建筑公司。",
+          "en": "A construction company based in Hebei, China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李宝忠",
+      "target": "易县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "李宝忠是河北易县人。",
+          "en": "Li Baozhong is from Yixian, Hebei."
+        }
+      }
+    },
+    {
+      "source": "李宝忠",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "李宝忠是中国共产党党员。",
+          "en": "Li Baozhong is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "李宝忠",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "end_date": "2023-03",
+        "position": {
+          "zh-cn": "全国人大代表（河北地区）",
+          "en": "Deputy to the National People's Congress (Hebei region)"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，李宝忠当选为第十三届全国人民代表大会河北地区代表。",
+          "en": "On February 24, 2018, Li Baozhong was elected as a deputy from the Hebei region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "李宝忠",
+      "target": "河北建设集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事长",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "李宝忠担任河北建设集团董事长。",
+          "en": "Li Baozhong serves as the Chairman of Hebei Construction Group."
+        }
+      }
+    }
+  ]
+}

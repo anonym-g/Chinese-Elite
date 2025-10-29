@@ -1,0 +1,402 @@
+{
+  "nodes": [
+    {
+      "id": "陈传阔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈传阔"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1945-10 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "淮南市",
+          "en": "Huainan"
+        },
+        "description": {
+          "zh-cn": "中国人民解放军将领，中国人民武装警察部队中将。曾任中国人民武装警察部队副司令员、参谋长，第十一届全国政协常务委员。",
+          "en": "A general of the People's Liberation Army and a lieutenant general of the People's Armed Police Force. He served as Deputy Commander and Chief of Staff of the People's Armed Police Force, and was a Standing Committee Member of the 11th National Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "id": "淮南市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "淮南市",
+          "淮南"
+        ],
+        "en": [
+          "Huainan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "安徽省下辖的地级市，陈传阔的出生地。",
+          "en": "A prefecture-level city in Anhui Province, the birthplace of Chen Chuankuo."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民武装警察部队中将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民武装警察部队中将",
+          "武警中将"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民武装警察部队的一种警衔等级，对应中将级别。",
+          "en": "A rank in the People's Armed Police Force, equivalent to Lieutenant General."
+        }
+      }
+    },
+    {
+      "id": "国防大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国防大学"
+        ],
+        "en": [
+          "PLA National Defence University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共中央办公厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央办公厅"
+        ],
+        "en": [
+          "General Office of the Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中央警卫团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央警卫团"
+        ],
+        "en": [
+          "Central Guard Regiment"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军总参谋部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军总参谋部",
+          "解放军总参谋部"
+        ],
+        "en": [
+          "General Staff Department of the People's Liberation Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民武装警察部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民武装警察部队",
+          "武警部队"
+        ],
+        "en": [
+          "People's Armed Police"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "武警少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武警少将"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民武装警察部队的一种警衔等级，对应少将级别。",
+          "en": "A rank in the People's Armed Police Force, equivalent to Major General."
+        }
+      }
+    },
+    {
+      "id": "第十一届全国政协常务委员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十一届全国政协常务委员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议第十一届全国委员会常务委员会的成员。",
+          "en": "Member of the Standing Committee of the 11th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "陈传阔",
+      "target": "淮南市",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "陈传阔",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1966-01",
+        "description": {
+          "zh-cn": "陈传阔于1966年1月加入中国共产党。",
+          "en": "Chen Chuankuo joined the Communist Party of China in January 1966."
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1970-01",
+        "description": {
+          "zh-cn": "陈传阔于1970年1月参加中国人民解放军。",
+          "en": "Chen Chuankuo joined the People's Liberation Army in January 1970."
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "国防大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1986-09",
+        "end_date": "1988-07",
+        "degree": {
+          "zh-cn": "基本一系",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "陈传阔于1986年9月至1988年7月在国防大学基本一系学习。",
+          "en": "Chen Chuankuo studied in the Basic Department I of the National Defence University from September 1986 to July 1988."
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中共中央办公厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1965-07",
+        "end_date": "1970-01",
+        "position": {
+          "zh-cn": "机要局机要干部学校学员",
+          "en": "Student at the Cadre School of the Confidential Bureau"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中央警卫团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1970-01",
+        "end_date": "1971-09",
+        "position": {
+          "zh-cn": "训练大队战士",
+          "en": "Soldier of the Training Brigade"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中央警卫团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1971-09",
+        "end_date": "1973-11",
+        "position": {
+          "zh-cn": "训练大队副区队长",
+          "en": "Deputy Squad Leader of the Training Brigade"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中央警卫团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1973-11",
+        "end_date": "1978-04",
+        "position": {
+          "zh-cn": "司令部军训科参谋",
+          "en": "Staff Officer of the Military Training Section, Headquarters"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中国人民解放军总参谋部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1978-04",
+        "end_date": "1981-10",
+        "position": {
+          "zh-cn": "警卫局司令部军训处参谋",
+          "en": "Staff Officer of the Military Training Division, Headquarters of the Guard Bureau"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中国人民解放军总参谋部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1981-10",
+        "end_date": "1983-10",
+        "position": {
+          "zh-cn": "警卫局司令部第一警卫处副处长、警卫局警卫处副团职参谋",
+          "en": "Deputy Chief of the First Guard Division, Headquarters of the Guard Bureau; Deputy Regiment-level Staff Officer of the Guard Division"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中国人民解放军总参谋部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983-10",
+        "end_date": "1993-04",
+        "position": {
+          "zh-cn": "警卫局警卫处副处长、处长",
+          "en": "Deputy Chief and Chief of the Guard Division, Guard Bureau"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中国人民武装警察部队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993-04",
+        "end_date": "1999-12",
+        "position": {
+          "zh-cn": "副参谋长",
+          "en": "Deputy Chief of Staff"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中国人民武装警察部队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1999-12",
+        "end_date": "2003-12",
+        "position": {
+          "zh-cn": "参谋长、党委委员",
+          "en": "Chief of Staff, Member of the Party Committee"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中国人民武装警察部队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2003-12",
+        "position": {
+          "zh-cn": "副司令员、党委委员",
+          "en": "Deputy Commander, Member of the Party Committee"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "武警少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1994-09",
+        "end_date": "2001",
+        "position": {
+          "zh-cn": "武警少将警衔",
+          "en": "Rank of PAP Major General"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "中国人民武装警察部队中将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2001",
+        "position": {
+          "zh-cn": "武警中将警衔",
+          "en": "Rank of PAP Lieutenant General"
+        }
+      }
+    },
+    {
+      "source": "陈传阔",
+      "target": "第十一届全国政协常务委员",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "description": {
+          "zh-cn": "2008年当选第十一届全国政协常务委员，代表特别邀请人士，分入第五十六组，并担任经济委员会专委。",
+          "en": "In 2008, he was elected as a Standing Committee member of the 11th National Committee of the CPPCC, representing specially invited personages in the 56th group, and served as a special committee member of the Economic Committee."
+        }
+      }
+    }
+  ]
+}

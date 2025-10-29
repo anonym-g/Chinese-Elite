@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "王建昌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王建昌"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1960 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "晋州市",
+          "en": "Jinzhou City"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物、医生。曾任第十二届全国人民代表大会解放军代表、空军总医院院长。",
+          "en": "A politician and doctor of the People's Republic of China. He has served as a PLA deputy to the 12th National People's Congress and president of the PLA Air Force General Hospital."
+        }
+      }
+    },
+    {
+      "id": "晋州市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "晋州市",
+          "河北晋州"
+        ],
+        "en": [
+          "Jinzhou City"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十二届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国人民代表大会"
+        ],
+        "en": [
+          "12th National People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第四军医大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第四军医大学"
+        ],
+        "en": [
+          "Fourth Military Medical University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的军队医科大学，现名中国人民解放军空军军医大学。",
+          "en": "A military medical university of the People's Liberation Army, now known as the Air Force Medical University."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "空军总医院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "空军总医院"
+        ],
+        "en": [
+          "Air Force General Hospital"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王建昌",
+      "target": "晋州市",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "王建昌",
+      "target": "第四军医大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "医疗专业",
+          "en": "Medical Major"
+        },
+        "description": {
+          "zh-cn": "毕业于第四军医大学医疗专业。",
+          "en": "Graduated from the Fourth Military Medical University with a degree in medicine."
+        }
+      }
+    },
+    {
+      "source": "王建昌",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "王建昌",
+      "target": "第十二届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013",
+        "position": {
+          "zh-cn": "解放军代表",
+          "en": "PLA Deputy"
+        },
+        "description": {
+          "zh-cn": "2013年，担任第十二届全国人民代表大会解放军代表。",
+          "en": "In 2013, he served as a PLA deputy to the 12th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "王建昌",
+      "target": "空军总医院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "担任空军总医院院长。",
+          "en": "Served as the president of the Air Force General Hospital."
+        }
+      }
+    }
+  ]
+}

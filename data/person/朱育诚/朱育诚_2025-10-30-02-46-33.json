@@ -1,0 +1,226 @@
+{
+  "nodes": [
+    {
+      "id": "朱育诚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱育诚"
+        ],
+        "en": [
+          "Zhu Yucheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1938-02 - ",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": {
+          "zh-cn": "如皋",
+          "en": "Rugao"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国汉族政治人物，曾任北京市政协副主席，国务院发展研究中心港澳研究所所长。",
+          "en": "A Chinese politician of Han ethnicity, he formerly served as Vice Chairman of the Beijing Municipal Committee of the Chinese People's Political Consultative Conference and Director of the Hong Kong and Macao Research Institute of the Development Research Center of the State Council."
+        }
+      }
+    },
+    {
+      "id": "如皋",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "如皋"
+        ],
+        "en": [
+          "Rugao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国江苏省的一个县级市。",
+          "en": "A county-level city in Jiangsu province, China."
+        }
+      }
+    },
+    {
+      "id": "江苏",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江苏"
+        ],
+        "en": [
+          "Jiangsu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，是中国共产党领导的社会主义国家。",
+          "en": "A country in East Asia, it is a socialist state led by the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "id": "北京市政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市政协"
+        ],
+        "en": [
+          "Beijing Municipal Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议北京市委员会的简称。",
+          "en": "The abbreviation for the Beijing Municipal Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "国务院发展研究中心",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院发展研究中心"
+        ],
+        "en": [
+          "Development Research Center of the State Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院直属的事业单位。",
+          "en": "A public institution directly under the State Council of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "新华社香港分社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新华社香港分社"
+        ],
+        "en": [
+          "Xinhua News Agency Hong Kong Branch"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "新华通讯社在香港的分支机构，在香港回归前曾是中国政府在香港的实际代表机构。",
+          "en": "The Hong Kong branch of Xinhua News Agency, which served as the de facto representative office of the Chinese government in Hong Kong before the handover."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "朱育诚",
+      "target": "如皋",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "朱育诚",
+      "target": "北京市政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "朱育诚曾任北京市政协副主席。",
+          "en": "Zhu Yucheng formerly served as Vice Chairman of the Beijing Municipal Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "source": "朱育诚",
+      "target": "国务院发展研究中心",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "港澳研究所所长",
+          "en": "Director of the Hong Kong and Macao Research Institute"
+        },
+        "description": {
+          "zh-cn": "朱育诚曾任国务院发展研究中心港澳研究所所长。",
+          "en": "Zhu Yucheng formerly served as Director of the Hong Kong and Macao Research Institute of the Development Research Center of the State Council."
+        }
+      }
+    },
+    {
+      "source": "朱育诚",
+      "target": "新华社香港分社",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副社长",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "根据分类“新华社香港分社副社长”可知，朱育诚曾担任该职务。",
+          "en": "Based on the category 'Deputy Director of Xinhua News Agency Hong Kong Branch', it is known that Zhu Yucheng held this position."
+        }
+      }
+    },
+    {
+      "source": "朱育诚",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据分类“中国共产党党员”可知，朱育诚是中国共产党党员。",
+          "en": "Based on the category 'Chinese Communist Party members', it is known that Zhu Yucheng is a member of the Chinese Communist Party."
+        }
+      }
+    }
+  ]
+}

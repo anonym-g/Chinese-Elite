@@ -1,0 +1,353 @@
+{
+  "nodes": [
+    {
+      "id": "蒋先进",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋先进"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": null,
+        "lifetime": "1934 - ",
+        "gender": "Male",
+        "location": null,
+        "birth_place": {
+          "zh-cn": "成都",
+          "en": "Chengdu"
+        },
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中华人民共和国公安部副部长。",
+          "en": "A political figure in the People's Republic of China, who served as Vice Minister of the Ministry of Public Security of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "成都",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "成都"
+        ],
+        "en": [
+          "Chengdu"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "四川省的省会。",
+          "en": "The capital of Sichuan Province."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "东亚的一个社会主义国家。",
+          "en": "A socialist state in East Asia."
+        }
+      }
+    },
+    {
+      "id": "公安部1129所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "公安部1129所"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国公安部下属的一个研究所。",
+          "en": "A research institute under the Ministry of Public Security of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国公安部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公安部"
+        ],
+        "en": [
+          "Ministry of Public Security of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国国务院主管全国公安工作的组成部门。",
+          "en": "A component department of the State Council of the People's Republic of China that is in charge of public security work nationwide."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国公安部科技局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公安部科技局",
+          "公安部科技局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国公安部下属的科技管理部门。",
+          "en": "The science and technology management department under the Ministry of Public Security of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "成都工学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "成都工学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "位于中国成都的一所高等院校，是四川大学的前身之一。",
+          "en": "An institution of higher education located in Chengdu, China, one of the predecessors of Sichuan University."
+        }
+      }
+    },
+    {
+      "id": "中国人民公安大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民公安大学"
+        ],
+        "en": [
+          "People's Public Security University of China"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国公安部直属的普通高等院校。",
+          "en": "A general institution of higher learning directly under the Ministry of Public Security of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国武术协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国武术协会"
+        ],
+        "en": [
+          "Chinese Wushu Association"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "管理中国武术运动的全国性社会团体。",
+          "en": "A national social organization that manages Wushu sports in China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "蒋先进",
+      "target": "成都",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "蒋先进是四川成都人。",
+          "en": "Jiang Xianjin is a native of Chengdu, Sichuan."
+        }
+      }
+    },
+    {
+      "source": "蒋先进",
+      "target": "公安部1129所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1978",
+        "end_date": null,
+        "position": {
+          "zh-cn": "副所长、所长",
+          "en": "Deputy Director, Director"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "1978年，蒋先进担任公安部1129所副所长，后升任所长。",
+          "en": "In 1978, Jiang Xianjin served as the deputy director of the 1129 Institute of the Ministry of Public Security, and was later promoted to director."
+        }
+      }
+    },
+    {
+      "source": "蒋先进",
+      "target": "中华人民共和国公安部科技局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983",
+        "end_date": null,
+        "position": {
+          "zh-cn": "副局长、局长",
+          "en": "Deputy Director, Director"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "1983年，蒋先进担任中华人民共和国公安部科技局副局长，后升任局长。",
+          "en": "In 1983, Jiang Xianjin served as the Deputy Director of the Science and Technology Bureau of the Ministry of Public Security of the People's Republic of China, and was later promoted to Director."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国公安部科技局",
+      "target": "中华人民共和国公安部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "中华人民共和国公安部科技局是中华人民共和国公安部下属的部门。",
+          "en": "The Science and Technology Bureau of the Ministry of Public Security is a department under the Ministry of Public Security of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "蒋先进",
+      "target": "中华人民共和国公安部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1991",
+        "end_date": null,
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Vice Minister"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "1991年，蒋先进升任中华人民共和国公安部副部长。",
+          "en": "In 1991, Jiang Xianjin was promoted to Vice Minister of the Ministry of Public Security of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "蒋先进",
+      "target": "成都工学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "根据页面分类“成都工学院校友”推断，蒋先进是成都工学院的校友。",
+          "en": "Inferred from the page category 'Alumni of Chengdu Institute of Technology', Jiang Xianjin is an alumnus of Chengdu Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "蒋先进",
+      "target": "中国人民公安大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "根据页面分类“中国人民公安大学校长”推断，蒋先进曾担任中国人民公安大学校长。",
+          "en": "Inferred from the page category 'Presidents of People's Public Security University of China', Jiang Xianjin served as the president of People's Public Security University of China."
+        }
+      }
+    },
+    {
+      "source": "蒋先进",
+      "target": "中国武术协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "顾问",
+          "en": "Consultant"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "根据页面分类“中国武术协会顾问”推断，蒋先进曾担任中国武术协会顾问。",
+          "en": "Inferred from the page category 'Consultants of the Chinese Wushu Association', Jiang Xianjin served as a consultant for the Chinese Wushu Association."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "nodes": [
+    {
+      "id": "许飞青",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "许飞青"
+        ],
+        "en": [
+          "Xu Feiqing"
+        ]
+      },
+      "properties": {
+        "lifetime": "1921-08-15 - 2012-08-07",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "直隶霸县",
+          "en": "Baxian, Zhili"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "Politician of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "抗日战争"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937-07-07 - 1945-09-02",
+        "description": {
+          "zh-cn": "指20世纪中期第二次世界大战中，中国抵抗日本侵略的全面战争。",
+          "en": "Refers to the comprehensive war of resistance fought by China against Japanese aggression during World War II in the mid-20th century."
+        }
+      }
+    },
+    {
+      "id": "中共房南工委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共房南工委"
+        ],
+        "en": [
+          "Fangnan Working Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "郧房县政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "郧房县政府"
+        ],
+        "en": [
+          "Yunfang County Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "郧房县的行政管理机关。",
+          "en": "The administrative authority of Yunfang County."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通称中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中南军政委员会财政部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中南军政委员会财政部"
+        ],
+        "en": [
+          "Ministry of Finance of the South-Central Military and Administrative Commission"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "西安市革命委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西安市革命委员会"
+        ],
+        "en": [
+          "Xi'an Municipal Revolutionary Committee"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "甘肃省财办",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "甘肃省财办"
+        ],
+        "en": [
+          "Gansu Provincial Finance Office"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "甘肃省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "甘肃省人民政府"
+        ],
+        "en": [
+          "Gansu Provincial People's Government"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "甘肃省人大常委会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "甘肃省人大常委会"
+        ],
+        "en": [
+          "Standing Committee of the Gansu Provincial People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会"
+        ],
+        "en": [
+          "National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国最高国家权力机关。",
+          "en": "The highest state authority of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "许飞青",
+      "target": "抗日战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "许飞青早年曾参加过抗日战争。",
+          "en": "Xu Feiqing participated in the Second Sino-Japanese War in his early years."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "中共房南工委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "许飞青曾担任中共房南工委书记。",
+          "en": "Xu Feiqing served as the Secretary of the Fangnan Working Committee of the CPC."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "郧房县政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副县长",
+          "en": "Deputy County Magistrate"
+        },
+        "description": {
+          "zh-cn": "许飞青曾担任郧房县副县长。",
+          "en": "Xu Feiqing served as the Deputy County Magistrate of Yunfang County."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "中南军政委员会财政部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "处长",
+          "en": "Section Chief"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国成立后，许飞青担任中南军政委员会财政部处长。",
+          "en": "After the founding of the People's Republic of China, Xu Feiqing served as the Section Chief of the Ministry of Finance of the South-Central Military and Administrative Commission."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "西安市革命委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "许飞青曾升任西安市革命委员会副主任。",
+          "en": "Xu Feiqing was promoted to Deputy Director of the Xi'an Municipal Revolutionary Committee."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "甘肃省财办",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "许飞青曾担任甘肃省财办主任。",
+          "en": "Xu Feiqing served as the Director of the Gansu Provincial Finance Office."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "甘肃省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1979",
+        "end_date": "1985",
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        },
+        "description": {
+          "zh-cn": "1979年，许飞青升任甘肃省人民政府副省长，直至1985年转任。",
+          "en": "In 1979, Xu Feiqing was promoted to Vice Governor of the Gansu Provincial People's Government, a position he held until his transfer in 1985."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "甘肃省人大常委会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1985",
+        "end_date": "1988",
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "1985年，许飞青转任甘肃省人大常委会副主任。",
+          "en": "In 1985, Xu Feiqing was transferred to the position of Deputy Director of the Standing Committee of the Gansu Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "甘肃省人大常委会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1988",
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "1988年，许飞青升任甘肃省人大常委会主任。",
+          "en": "In 1988, Xu Feiqing was promoted to Director of the Standing Committee of the Gansu Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "许飞青是中国共产党党员。",
+          "en": "Xu Feiqing was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "许飞青",
+      "target": "全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第八届代表",
+          "en": "Delegate to the 8th Congress"
+        },
+        "description": {
+          "zh-cn": "许飞青是第八届全国人大代表。",
+          "en": "Xu Feiqing was a delegate to the 8th National People's Congress."
+        }
+      }
+    }
+  ]
+}

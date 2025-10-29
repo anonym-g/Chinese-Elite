@@ -1,0 +1,649 @@
+{
+  "nodes": [
+    {
+      "id": "论语",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "论语"
+        ],
+        "en": [
+          "Analects"
+        ]
+      },
+      "properties": {
+        "period": "东周",
+        "description": {
+          "zh-cn": "中国春秋时期的思想家孔子言行为主的言论汇编，为儒家重要经典之一。",
+          "en": "A compilation of speeches, sayings, and deeds of Confucius and his disciples from the Spring and Autumn period of China, and one of the most important classics of Confucianism."
+        }
+      }
+    },
+    {
+      "id": "孔子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔子"
+        ],
+        "en": [
+          "Confucius"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "-0551 - -0479",
+        "description": {
+          "zh-cn": "中国春秋时期的思想家，《论语》中的言行主要来源于他。",
+          "en": "A Chinese philosopher of the Spring and Autumn period whose teachings and philosophy form the basis of the Analects."
+        }
+      }
+    },
+    {
+      "id": "孔子门生",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "孔子门生",
+          "孔子弟子及再传弟子"
+        ],
+        "en": [
+          "Disciples of Confucius"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孔子的追随者和学生，他们在孔子去世后共同编辑和整理了《论语》。",
+          "en": "The followers and students of Confucius who collectively edited and compiled the Analects after his death."
+        }
+      }
+    },
+    {
+      "id": "儒家",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "儒家"
+        ],
+        "en": [
+          "Confucianism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "源于孔子思想的中国哲学、伦理、政治思想体系，《论语》是其核心经典之一。",
+          "en": "A system of philosophical, ethical, and political thought originating from Confucius, for which the Analects is a core classic text."
+        }
+      }
+    },
+    {
+      "id": "秦始皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦始皇"
+        ],
+        "en": [
+          "Qin Shi Huang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "-0259 - -0210",
+        "description": {
+          "zh-cn": "中国首位皇帝，他下令实施“焚书坑儒”，导致《论语》等经典几近失传。",
+          "en": "The first emperor of China who ordered the 'Burning of books and burying of scholars', which nearly led to the loss of classics like the Analects."
+        }
+      }
+    },
+    {
+      "id": "焚书坑儒",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "焚书坑儒",
+          "焚书"
+        ],
+        "en": [
+          "Burning of books and burying of scholars"
+        ]
+      },
+      "properties": {
+        "period": "-0213 - -0212",
+        "description": {
+          "zh-cn": "秦始皇推行的政策，旨在压制思想异见，导致大量儒家经典被毁。",
+          "en": "A policy implemented by Qin Shi Huang to suppress intellectual dissent, resulting in the destruction of numerous Confucian classics."
+        }
+      }
+    },
+    {
+      "id": "朱熹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱熹"
+        ],
+        "en": [
+          "Zhu Xi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1130 - 1200",
+        "description": {
+          "zh-cn": "南宋理学家，他将《论语》与《大学》、《孟子》、《中庸》合为“四书”，并撰写《论语集注》，极大地提升了《论语》的地位。",
+          "en": "A Neo-Confucian scholar of the Southern Song dynasty who grouped the Analects with the Great Learning, Mencius, and the Doctrine of the Mean to form the 'Four Books', and wrote the 'Collected Commentaries on the Analects', greatly elevating its status."
+        }
+      }
+    },
+    {
+      "id": "四书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "四书"
+        ],
+        "en": [
+          "Four Books"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由朱熹汇编的儒家核心经典，包括《大学》、《中庸》、《论语》、《孟子》。",
+          "en": "The core classics of Confucianism compiled by Zhu Xi, including the Great Learning, the Doctrine of the Mean, the Analects, and Mencius."
+        }
+      }
+    },
+    {
+      "id": "论语集注",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "论语集注"
+        ],
+        "en": [
+          "Collected Commentaries on the Analects"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朱熹撰写的《论语》注释本，成为后世《论语》义理阐释的典范。",
+          "en": "A commentary on the Analects written by Zhu Xi, which became the standard for interpreting its meaning for centuries."
+        }
+      }
+    },
+    {
+      "id": "何晏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何晏"
+        ],
+        "en": [
+          "He Yan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "0195 - 0249",
+        "description": {
+          "zh-cn": "三国时期曹魏的官员和学者，主持编纂了《论语集解》。",
+          "en": "An official and scholar of Cao Wei during the Three Kingdoms period, who led the compilation of the 'Collected Explanations of the Analects'."
+        }
+      }
+    },
+    {
+      "id": "论语集解",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "论语集解"
+        ],
+        "en": [
+          "Collected Explanations of the Analects"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由何晏等人编纂的《论语》注释，是早期重要的注本之一。",
+          "en": "A commentary on the Analects compiled by He Yan and others, one of the earliest and most important commentaries."
+        }
+      }
+    },
+    {
+      "id": "郑玄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑玄"
+        ],
+        "en": [
+          "Zheng Xuan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "0127 - 0200",
+        "description": {
+          "zh-cn": "东汉末年的经学大师，他以张侯论为底本，参考《齐论》、《古论》，作《论语注》，定下了《论语》的今本。",
+          "en": "A great master of classics in the late Eastern Han dynasty. He used Zhang's Analects as a basis, referencing the Qi Analects and Gu Analects, to create his 'Commentary on the Analects', which established the modern text of the Analects."
+        }
+      }
+    },
+    {
+      "id": "皇侃",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "皇侃"
+        ],
+        "en": [
+          "Huang Kan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "0488 - 0545",
+        "description": {
+          "zh-cn": "南北朝时期的学者，受佛教影响编成了《论语义疏》。",
+          "en": "A scholar during the Southern and Northern Dynasties who, influenced by Buddhism, compiled the 'Subcommentary on the Analects'."
+        }
+      }
+    },
+    {
+      "id": "佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "佛教"
+        ],
+        "en": [
+          "Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种世界性宗教和哲学体系，对中国古代思想家，如皇侃，产生了影响。",
+          "en": "A world religion and philosophical system that influenced ancient Chinese thinkers like Huang Kan."
+        }
+      }
+    },
+    {
+      "id": "论语义疏",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "论语义疏"
+        ],
+        "en": [
+          "Subcommentary on the Analects"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由皇侃编纂的《论语》注疏，体现了佛教思想的影响。",
+          "en": "A subcommentary on the Analects compiled by Huang Kan, reflecting the influence of Buddhist thought."
+        }
+      }
+    },
+    {
+      "id": "格奥尔格·威廉·弗里德里希·黑格尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "格奥尔格·威廉·弗里德里希·黑格尔"
+        ],
+        "en": [
+          "Georg Wilhelm Friedrich Hegel"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1770 - 1831",
+        "description": {
+          "zh-cn": "德国哲学家，他对《论语》持批评态度，认为其内容是常识道德，并无出色之处。",
+          "en": "A German philosopher who was critical of the Analects, considering its content to be common-sense morality with nothing outstanding."
+        }
+      }
+    },
+    {
+      "id": "程颐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "程颐"
+        ],
+        "en": [
+          "Cheng Yi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1033 - 1107",
+        "description": {
+          "zh-cn": "北宋理学家，高度评价《论语》，认为其意味深长。",
+          "en": "A Neo-Confucian philosopher of the Northern Song dynasty who highly praised the Analects, believing it to be profoundly meaningful."
+        }
+      }
+    },
+    {
+      "id": "王仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王仁"
+        ],
+        "en": [
+          "Wani"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "period": "0400 - 0500",
+        "description": {
+          "zh-cn": "百济的五经博士，于公元5世纪初将《论语》传入日本。",
+          "en": "A scholar of the Five Classics from Baekje who introduced the Analects to Japan in the early 5th century."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，《论语》自5世纪初传入后对其文化和思想产生了深远影响。",
+          "en": "An East Asian country where the Analects has had a profound influence on its culture and thought since its introduction in the early 5th century."
+        }
+      }
+    },
+    {
+      "id": "应神天皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "应神天皇"
+        ],
+        "en": [
+          "Emperor Ōjin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "period": "0270 - 0310",
+        "description": {
+          "zh-cn": "日本天皇，王仁将《论语》献给了他。",
+          "en": "An emperor of Japan to whom Wani presented the Analects."
+        }
+      }
+    },
+    {
+      "id": "汉武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉武帝"
+        ],
+        "en": [
+          "Emperor Wu of Han"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "-0157 - -0087",
+        "description": {
+          "zh-cn": "西汉皇帝，其“罢黜百家，独尊儒术”的政策使儒家思想成为官方意识形态。",
+          "en": "An emperor of the Western Han dynasty whose policy of 'dismissing the hundred schools of thought and exclusively revering Confucianism' established Confucianism as the state ideology."
+        }
+      }
+    },
+    {
+      "id": "罢黜百家，独尊儒术",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "罢黜百家，独尊儒术"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝时期推行的文化政策，确立了儒家思想在中国的主导地位，从而提升了《论语》等儒家经典的地位。",
+          "en": "A cultural policy implemented during the reign of Emperor Wu of Han that established the dominance of Confucianism in China, thereby elevating the status of Confucian classics like the Analects."
+        }
+      }
+    },
+    {
+      "id": "海昏侯墓",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "海昏侯墓"
+        ],
+        "en": [
+          "Tomb of the Marquis of Haihun"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国江西省南昌市"
+        },
+        "description": {
+          "zh-cn": "西汉时期的墓葬，出土了失传1800年的《齐论》竹简。",
+          "en": "A tomb from the Western Han dynasty where bamboo slips of the 'Qi Analects', lost for 1800 years, were unearthed."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "孔子",
+      "target": "论语",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "孔子的言行是《论语》一书的主要内容和思想来源。",
+          "en": "Confucius's words and deeds are the main content and ideological source of the book Analects."
+        }
+      }
+    },
+    {
+      "source": "孔子门生",
+      "target": "论语",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在孔子去世后，其门人弟子共同编辑和整理了他的言论，形成了《论语》。",
+          "en": "After Confucius's death, his disciples collectively edited and compiled his sayings, forming the Analects."
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "焚书坑儒",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "秦始皇下令实施了“焚书”政策。",
+          "en": "Qin Shi Huang ordered the implementation of the 'book burning' policy."
+        }
+      }
+    },
+    {
+      "source": "焚书坑儒",
+      "target": "论语",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "“焚书”政策导致《论语》等儒家经典几乎失传。",
+          "en": "The 'book burning' policy caused Confucian classics like the Analects to be nearly lost."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "罢黜百家，独尊儒术",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝采纳了“罢黜百家，独尊儒术”的政策。",
+          "en": "Emperor Wu of Han adopted the policy of 'dismissing the hundred schools of thought and exclusively revering Confucianism'."
+        }
+      }
+    },
+    {
+      "source": "罢黜百家，独尊儒术",
+      "target": "论语",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "该政策确立了儒家思想的官方地位，从而极大地提升了《论语》等儒家经典的社会重要性。",
+          "en": "This policy established the official status of Confucianism, thereby greatly enhancing the social importance of Confucian classics like the Analects."
+        }
+      }
+    },
+    {
+      "source": "朱熹",
+      "target": "四书",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "朱熹将《大学》、《论语》、《孟子》、《中庸》合编为“四书”，确立了它们在儒家经典中的核心地位。",
+          "en": "Zhu Xi compiled the Great Learning, the Analects, Mencius, and the Doctrine of the Mean into the 'Four Books', establishing their core status in the Confucian canon."
+        }
+      }
+    },
+    {
+      "source": "朱熹",
+      "target": "论语集注",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "朱熹撰写了《论语集注》，此书成为后世解读《论语》的权威范本。",
+          "en": "Zhu Xi wrote the 'Collected Commentaries on the Analects', which became the authoritative model for interpreting the Analects for later generations."
+        }
+      }
+    },
+    {
+      "source": "朱熹",
+      "target": "论语",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "通过将《论语》纳入“四书”并为其作注，朱熹极大地提升了《论语》在儒家经典体系中的地位。",
+          "en": "By including the Analects in the 'Four Books' and writing commentaries on it, Zhu Xi greatly elevated the status of the Analects within the Confucian classics system."
+        }
+      }
+    },
+    {
+      "source": "郑玄",
+      "target": "论语",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "郑玄综合多个早期版本，完成了《论语注》，为后世流传的《论语》定本奠定了基础。",
+          "en": "Zheng Xuan synthesized several early versions to complete his 'Commentary on the Analects', laying the foundation for the standard text of the Analects passed down to later generations."
+        }
+      }
+    },
+    {
+      "source": "何晏",
+      "target": "论语集解",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "何晏等人汇集了汉代以来多家对《论语》的注解，编纂成《论语集解》。",
+          "en": "He Yan and others gathered various commentaries on the Analects since the Han dynasty and compiled them into the 'Collected Explanations of the Analects'."
+        }
+      }
+    },
+    {
+      "source": "佛教",
+      "target": "皇侃",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "皇侃在编纂《论语义疏》时受到了佛教思想的影响。",
+          "en": "Huang Kan was influenced by Buddhist thought when compiling the 'Subcommentary on the Analects'."
+        }
+      }
+    },
+    {
+      "source": "皇侃",
+      "target": "论语义疏",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "皇侃编纂了《论语义疏》一书。",
+          "en": "Huang Kan compiled the book 'Subcommentary on the Analects'."
+        }
+      }
+    },
+    {
+      "source": "格奥尔格·威廉·弗里德里希·黑格尔",
+      "target": "论语",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "黑格尔在他的著作中对《论语》提出了尖锐批评，认为其内容平庸，缺乏思辨哲学。",
+          "en": "In his works, Hegel sharply criticized the Analects, arguing that its content was mundane and lacked speculative philosophy."
+        }
+      }
+    },
+    {
+      "source": "程颐",
+      "target": "论语",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "程颐高度赞扬《论语》，认为随着研读的深入，其意味会愈发深长，他的评价推动了后世对《论语》的重视。",
+          "en": "Cheng Yi highly praised the Analects, believing that its meaning becomes more profound with deeper study. His evaluation promoted the importance attached to the Analects by later generations."
+        }
+      }
+    },
+    {
+      "source": "王仁",
+      "target": "论语",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0400",
+        "end_date": "0500",
+        "description": {
+          "zh-cn": "王仁将《论语》及其注疏从百济带到日本，献给应神天皇，开启了《论语》在日本的传播。",
+          "en": "Wani brought the Analects and its commentaries from Baekje to Japan, presenting them to Emperor Ōjin, which initiated the dissemination of the Analects in Japan."
+        }
+      }
+    },
+    {
+      "source": "王仁",
+      "target": "日本",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "0400",
+        "end_date": "0500",
+        "description": {
+          "zh-cn": "王仁将《论语》和汉字文化传入日本，对日本的文化发展产生了重要影响。",
+          "en": "Wani introduced the Analects and Chinese writing culture to Japan, having a significant impact on Japan's cultural development."
+        }
+      }
+    },
+    {
+      "source": "海昏侯墓",
+      "target": "论语",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2016",
+        "description": {
+          "zh-cn": "海昏侯墓中发现的《齐论》竹简，为研究《论语》的早期版本和流传历史提供了重要的考古实物证据。",
+          "en": "The discovery of the 'Qi Analects' bamboo slips in the Tomb of the Marquis of Haihun provided crucial archaeological evidence for studying the early versions and transmission history of the Analects."
+        }
+      }
+    }
+  ]
+}
