@@ -29,7 +29,7 @@ PAGEVIEWS_DATA_START_DATE = datetime(2015, 7, 1) # 维基媒体Pageviews API数�
 PAGEVIEWS_CACHE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
 CREATION_DATE_CACHE_PATH = os.path.join(CACHE_DIR, 'creation_date_cache.json')
 BATCH_SIZE = 120 # 并发处理的批次大小
-MAX_NETWORK_CHECKS = 1000 # 单次运行最大处理规模
+MAX_NETWORK_CHECKS = 7000 # 单次运行最大处理规模
 
 # --- 速率与并发控制 ---
 IS_CI = os.getenv('GITHUB_ACTIONS') == 'true'

@@ -4,6 +4,7 @@ import os
 import sys
 import logging
 import asyncio
+import json
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
@@ -559,35 +560,46 @@ class TelegramBotHandler:
 
     async def handle_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         message = update.message
-        # --- 提前检查 message 和 from_user 是否存在 ---
-        if not (message and message.from_user):
-            return
+        
+        if not (message and message.text): return
 
         # --- 自动广告检测与封禁 ---
-        # 1. 检查：为群聊消息，且消息发送者是“已注销账户”
-        if message.chat.type in ('group', 'supergroup') and message.from_user.is_deleted:  # type: ignore
+        # # 1. 检查：为群聊消息，且消息发送者是“已注销账户”
+        if message.chat.type in ('group', 'supergroup') and message.from_user:
             chat_id = message.chat.id
             user_id = message.from_user.id
-            logger.warning(f"检测到来自已注销用户 (ID: {user_id}) 在群组 (ID: {chat_id}) 中发布的消息。")
+            user_name = message.from_user.first_name
             
             try:
-                # 2. 检查机器人是否具有管理员权限
-                bot_member = await context.bot.get_chat_member(chat_id, context.bot.id)
-                if isinstance(bot_member, telegram.ChatMemberAdministrator) and bot_member.can_restrict_members:
-                    # 3. 如果有权限，则执行封禁和删帖操作
-                    await context.bot.ban_chat_member(chat_id=chat_id, user_id=user_id)
-                    await message.delete()
-                    logger.info(f"成功封禁用户 {user_id} 并删除其在群组 {chat_id} 中发布的消息。")
-                else:
-                    logger.warning(f"在群组 {chat_id} 中检测到广告，但机器人缺少封禁成员的权限。")
+                # 递归地转换所有嵌套对象
+                message_details = message.to_dict()
+                # 使用 json.dumps 进行格式化，使其易于阅读
+                formatted_details = json.dumps(message_details, indent=2, ensure_ascii=False)
+                logger.info(
+                    f"检测到用户 (ID: {user_id}, Name: {user_name}) 在群组 (ID: {chat_id}) 中发布的消息。\n"
+                    f"--- 消息全文 ---\n{message.text}\n"
+                    f"--- Message 对象详细属性 ---\n{formatted_details}"
+                )
             except Exception as e:
-                logger.error(f"在尝试封禁用户 {user_id} 时发生错误: {e}")
+                # 如果序列化失败，记录错误并回退到基本日志记录
+                logger.error(f"序列化 Message 对象时出错: {e}", exc_info=True)
+                logger.info(f"检测到用户 (ID: {user_id}, Name: {user_name}) 在群组 (ID: {chat_id}) 中发布的消息 (序列化失败):\n\n{message.text}")
             
-            # 4. 无论成功与否，都终止后续处理，不再进行问答
-            return
-
-        # 如果不是广告，则执行问答逻辑
-        if not message.text: return
+            # try:
+            #     # 2. 检查机器人是否具有管理员权限
+            #     bot_member = await context.bot.get_chat_member(chat_id, context.bot.id)
+            #     if isinstance(bot_member, telegram.ChatMemberAdministrator) and bot_member.can_restrict_members:
+            #         # 3. 如果有权限，则执行封禁和删帖操作
+            #         await context.bot.ban_chat_member(chat_id=chat_id, user_id=user_id)
+            #         await message.delete()
+            #         logger.info(f"成功封禁用户 {user_id} 并删除其在群组 {chat_id} 中发布的消息。")
+            #     else:
+            #         logger.warning(f"在群组 {chat_id} 中检测到广告，但机器人缺少封禁成员的权限。")
+            # except Exception as e:
+            #     logger.error(f"在尝试封禁用户 {user_id} 时发生错误: {e}")
+            
+            # # 4. 无论成功与否，都终止后续处理
+            # return
 
         chat_id = message.chat_id
         full_user_message = message.text
