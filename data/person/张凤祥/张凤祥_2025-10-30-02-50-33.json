@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "id": "张凤祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张凤祥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1929-02 - 2016-04-03",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "南京",
+          "en": "Nanjing"
+        },
+        "death_place": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任水利电力部副部长、党组成员，中国电力企业联合会理事长、党组书记，是第八届、第九届全国人大代表。",
+          "en": "A political figure of the People's Republic of China, who served as Vice Minister and Party Group Member of the Ministry of Water Resources and Electric Power, Chairman and Party Group Secretary of the China Electricity Council, and a delegate to the 8th and 9th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "南京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "南京市",
+          "南京"
+        ],
+        "en": [
+          "Nanjing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张凤祥的出生地。",
+          "en": "The birthplace of Zhang Fengxiang."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张凤祥所服务的国家。",
+          "en": "The country Zhang Fengxiang served."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国水利电力部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国水利电力部",
+          "水利电力部"
+        ],
+        "en": [
+          "Ministry of Water Resources and Electric Power of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张凤祥曾担任副部长、党组成员的中华人民共和国政府部门。",
+          "en": "A government department of the People's Republic of China where Zhang Fengxiang served as Vice Minister and a member of the Party Leadership Group."
+        }
+      }
+    },
+    {
+      "id": "中国电力企业联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国电力企业联合会"
+        ],
+        "en": [
+          "China Electricity Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张凤祥曾担任理事长、党组书记的组织。",
+          "en": "An organization where Zhang Fengxiang served as Chairman and Party Group Secretary."
+        }
+      }
+    },
+    {
+      "id": "第八届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第八届全国人民代表大会"
+        ],
+        "en": [
+          "8th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "1993-03 - 1998-03",
+        "description": {
+          "zh-cn": "张凤祥曾担任此届全国人民代表大会的代表。",
+          "en": "Zhang Fengxiang served as a delegate to this session of the National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "第九届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第九届全国人民代表大会"
+        ],
+        "en": [
+          "9th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "1998-03 - 2003-03",
+        "description": {
+          "zh-cn": "张凤祥曾担任此届全国人民代表大会的代表。",
+          "en": "Zhang Fengxiang served as a delegate to this session of the National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党，张凤祥是其党员。",
+          "en": "The ruling party of the People's Republic of China, of which Zhang Fengxiang was a member."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张凤祥",
+      "target": "南京市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "张凤祥出生于江苏南京。",
+          "en": "Zhang Fengxiang was born in Nanjing, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "张凤祥",
+      "target": "中华人民共和国水利电力部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副部长、党组成员",
+          "en": "Vice Minister, Party Group Member"
+        },
+        "description": {
+          "zh-cn": "张凤祥曾任中华人民共和国水利电力部副部长、党组成员。",
+          "en": "Zhang Fengxiang served as Vice Minister and a member of the Party Leadership Group of the Ministry of Water Resources and Electric Power of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "张凤祥",
+      "target": "中国电力企业联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "理事长、党组书记",
+          "en": "Chairman, Party Group Secretary"
+        },
+        "description": {
+          "zh-cn": "张凤祥曾任中国电力企业联合会理事长、党组书记。",
+          "en": "Zhang Fengxiang served as Chairman and Party Group Secretary of the China Electricity Council."
+        }
+      }
+    },
+    {
+      "source": "张凤祥",
+      "target": "第八届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "张凤祥是第八届全国人民代表大会代表。",
+          "en": "Zhang Fengxiang was a delegate to the 8th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "张凤祥",
+      "target": "第九届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "张凤祥是第九届全国人民代表大会代表。",
+          "en": "Zhang Fengxiang was a delegate to the 9th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "张凤祥",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“中国共产党党员”可知，张凤祥是中国共产党党员。",
+          "en": "According to the page category 'Communist Party of China members', Zhang Fengxiang was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

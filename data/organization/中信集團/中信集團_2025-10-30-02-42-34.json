@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "中国中信集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国中信集团",
+          "中信集团"
+        ],
+        "en": [
+          "CITIC Group"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "位于中华人民共和国的金融实业公司。",
+          "en": "A financial and industrial corporation located in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，通常简称为“中国”。",
+          "en": "A country in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中国信托金融控股",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国信托金融控股",
+          "中信集团"
+        ],
+        "en": [
+          "CTBC Financial Holding"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "台湾",
+          "en": "Taiwan"
+        },
+        "description": {
+          "zh-cn": "位于台湾的金融控股公司。",
+          "en": "A financial holding company located in Taiwan."
+        }
+      }
+    },
+    {
+      "id": "台湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾"
+        ],
+        "en": [
+          "Taiwan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚的一个岛屿，现由中华民国有效管辖。",
+          "en": "An island in East Asia, currently under the effective jurisdiction of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中信造船集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中信造船集团",
+          "中信集团"
+        ],
+        "en": [
+          "Jong Shyn Shipbuilding Group"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "高雄市",
+          "en": "Kaohsiung City"
+        },
+        "description": {
+          "zh-cn": "位于台湾高雄市造船业的旗舰企业之一，目前为民间最大的造船厂。",
+          "en": "One of the flagship enterprises in the shipbuilding industry in Kaohsiung City, Taiwan, and currently the largest private shipyard."
+        }
+      }
+    },
+    {
+      "id": "高雄市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "高雄市"
+        ],
+        "en": [
+          "Kaohsiung City"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于台湾南部的直辖市。",
+          "en": "A special municipality in southern Taiwan."
+        }
+      }
+    },
+    {
+      "id": "和信集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "和信集团",
+          "中信集团"
+        ],
+        "en": [
+          "Koos Group"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "台湾",
+          "en": "Taiwan"
+        },
+        "description": {
+          "zh-cn": "位于台湾的以台湾水泥为核心的企业集团，在1991年以前称为“中信集团”。",
+          "en": "A corporate group in Taiwan with Taiwan Cement as its core, known as \"CITIC Group\" before 1991."
+        }
+      }
+    },
+    {
+      "id": "台湾水泥",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台湾水泥"
+        ],
+        "en": [
+          "Taiwan Cement"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "台湾一家水泥制品公司，为和信集团的核心企业。",
+          "en": "A cement products company in Taiwan, the core enterprise of the Koos Group."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "台湾水泥",
+      "target": "和信集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "核心企业",
+          "en": "Core Enterprise"
+        },
+        "description": {
+          "zh-cn": "和信集团是以台湾水泥为核心的企业集团。",
+          "en": "Koos Group is a corporate group with Taiwan Cement as its core."
+        }
+      }
+    }
+  ]
+}

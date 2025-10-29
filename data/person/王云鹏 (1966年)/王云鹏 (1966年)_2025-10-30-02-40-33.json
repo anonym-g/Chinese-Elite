@@ -1,0 +1,294 @@
+{
+  "nodes": [
+    {
+      "id": "王云鹏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王云鹏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1966-12-09 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "舒兰",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国交通信息工程专家，北京航空航天大学教授、博士生导师，中国工程院院士。现任北京航空航天大学校长、党委副书记。",
+          "en": "A Chinese expert in transportation information engineering, a professor and doctoral supervisor at Beihang University, and an academician of the Chinese Academy of Engineering. He is currently the President and Deputy Party Secretary of Beihang University."
+        }
+      }
+    },
+    {
+      "id": "舒兰",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "舒兰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "吉林",
+          "en": "Jilin"
+        },
+        "description": {
+          "zh-cn": "王云鹏的出生地，位于中国吉林省。",
+          "en": "The birthplace of Wang Yunpeng, located in Jilin Province, China."
+        }
+      }
+    },
+    {
+      "id": "吉林工业大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吉林工业大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "王云鹏的母校，他在此获得学士、硕士和博士学位。",
+          "en": "The alma mater of Wang Yunpeng, where he obtained his bachelor's, master's, and doctoral degrees."
+        }
+      }
+    },
+    {
+      "id": "长春工程学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "长春工程学院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京航空航天大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京航空航天大学"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国工程院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工程院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "徐惠彬",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐惠彬"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国材料科学家，曾任北京航空航天大学校长，是王云鹏的前任。",
+          "en": "A Chinese material scientist who served as the President of Beihang University and was the predecessor of Wang Yunpeng."
+        }
+      }
+    },
+    {
+      "id": "吉林大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吉林大学"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王云鹏",
+      "target": "舒兰",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1966-12-09"
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "吉林工业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1988",
+        "description": {
+          "zh-cn": "毕业于汽车系。",
+          "en": "Graduated from the Department of Automotive Engineering."
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "吉林工业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1994",
+        "degree": {
+          "zh-cn": "载运工具运用工程专业硕士",
+          "en": "Master's degree in Vehicle Operation Engineering"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "吉林工业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1997",
+        "degree": {
+          "zh-cn": "农业机械设计制造专业博士",
+          "en": "Doctorate in Agricultural Machinery Design and Manufacturing"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "吉林工业大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "交通学院院长",
+          "en": "Dean of the School of Transportation"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "长春工程学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副院长",
+          "en": "Vice President"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "北京航空航天大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "交通科学与工程学院院长",
+          "en": "Dean of the School of Transportation Science and Engineering"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "北京航空航天大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-10",
+        "end_date": "2022-09",
+        "position": {
+          "zh-cn": "党委常委、副校长",
+          "en": "Member of the Standing Committee of the Party Committee, Vice President"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "中国工程院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021",
+        "position": {
+          "zh-cn": "院士",
+          "en": "Academician"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "北京航空航天大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-09",
+        "position": {
+          "zh-cn": "校长、党委副书记",
+          "en": "President, Deputy Secretary of the Party Committee"
+        }
+      }
+    },
+    {
+      "source": "徐惠彬",
+      "target": "王云鹏",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-09",
+        "description": {
+          "zh-cn": "王云鹏接替徐惠彬担任北京航空航天大学校长职务。",
+          "en": "Wang Yunpeng succeeded Xu Huibin as the President of Beihang University."
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "吉林工业大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授",
+          "en": "Professor"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "吉林大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授",
+          "en": "Professor"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "长春工程学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授",
+          "en": "Professor"
+        }
+      }
+    },
+    {
+      "source": "王云鹏",
+      "target": "北京航空航天大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授",
+          "en": "Professor"
+        }
+      }
+    }
+  ]
+}

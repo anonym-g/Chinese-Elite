@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "闫仲秋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "闫仲秋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1954-08 - ",
+        "gender": "Male",
+        "location": {},
+        "birth_place": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "death_place": {},
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任北京市政协秘书长、副主席。",
+          "en": "A political figure in the People's Republic of China, who served as Secretary-General and Vice Chairman of the Beijing Municipal Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "北京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京"
+        ],
+        "en": [
+          "Beijing"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国首都，闫仲秋的出生地。",
+          "en": "The capital of the People's Republic of China and the birthplace of Yan Zhongqiu."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "location": {},
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "北京市政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市政协"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中国人民政治协商会议北京市委员会的简称。",
+          "en": "Abbreviation for the Beijing Municipal Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1921-07-23 - ",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "闫仲秋",
+      "target": "北京",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "闫仲秋是北京人。",
+          "en": "Yan Zhongqiu is from Beijing."
+        }
+      }
+    },
+    {
+      "source": "闫仲秋",
+      "target": "北京市政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "秘书长",
+          "en": "Secretary-General"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "闫仲秋曾担任北京市政协秘书长。",
+          "en": "Yan Zhongqiu served as the Secretary-General of the Beijing Municipal Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "闫仲秋",
+      "target": "北京市政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "闫仲秋曾担任北京市政协副主席。",
+          "en": "Yan Zhongqiu served as the Vice Chairman of the Beijing Municipal Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "闫仲秋",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "根据页面分类信息，闫仲秋是中国共产党党员。",
+          "en": "According to the page category information, Yan Zhongqiu is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

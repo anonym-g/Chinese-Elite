@@ -1,0 +1,250 @@
+{
+  "nodes": [
+    {
+      "id": "金晓昀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "金晓昀"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1943 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "克山县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国回族政治人物，曾任宁夏回族自治区政协副主席、银川市人民政府市长及第七届全国人大代表。",
+          "en": "A Chinese politician of Hui ethnicity, who served as Vice Chairman of the CPPCC Ningxia Committee, Mayor of Yinchuan Municipal People's Government, and a delegate to the 7th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "克山县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "克山县",
+          "克山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国黑龙江省齐齐哈尔市下辖的县，金晓昀的出生地。",
+          "en": "A county under the jurisdiction of Qiqihar, Heilongjiang province, People's Republic of China, and the birthplace of Jin Xiaoyun."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家。",
+          "en": "A socialist state in East Asia."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议宁夏回族自治区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议宁夏回族自治区委员会",
+          "宁夏回族自治区政协"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议在宁夏回族自治区的地方组织。",
+          "en": "The local organization of the Chinese People's Political Consultative Conference in the Ningxia Hui Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会"
+        ],
+        "en": [
+          "National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国最高国家权力机关。",
+          "en": "The highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "宁夏大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁夏大学"
+        ],
+        "en": [
+          "Ningxia University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国宁夏回族自治区首府银川市的一所综合性大学。",
+          "en": "A comprehensive university located in Yinchuan, the capital of the Ningxia Hui Autonomous Region, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "银川市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "银川市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国宁夏回族自治区银川市的地方国家行政机关。",
+          "en": "The local state administrative organ of Yinchuan City, Ningxia Hui Autonomous Region, People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "金晓昀",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治人物",
+          "en": "Politician"
+        },
+        "description": {
+          "zh-cn": "根据文本，金晓昀是中华人民共和国的政治人物。",
+          "en": "According to the text, Jin Xiaoyun is a politician of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "金晓昀",
+      "target": "克山县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1943",
+        "description": {
+          "zh-cn": "金晓昀出生于黑龙江省克山县。",
+          "en": "Jin Xiaoyun was born in Keshan County, Heilongjiang Province."
+        }
+      }
+    },
+    {
+      "source": "金晓昀",
+      "target": "中国人民政治协商会议宁夏回族自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "金晓昀曾担任宁夏回族自治区政协副主席。",
+          "en": "Jin Xiaoyun served as the Vice Chairman of the CPPCC Ningxia Hui Autonomous Region Committee."
+        }
+      }
+    },
+    {
+      "source": "金晓昀",
+      "target": "全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1988",
+        "end_date": "1993",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "金晓昀曾任第七届全国人大代表。",
+          "en": "Jin Xiaoyun served as a delegate to the 7th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "金晓昀",
+      "target": "宁夏大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "金晓昀是宁夏大学的校友。",
+          "en": "Jin Xiaoyun is an alumna of Ningxia University."
+        }
+      }
+    },
+    {
+      "source": "金晓昀",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "金晓昀是中国共产党党员。",
+          "en": "Jin Xiaoyun is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "金晓昀",
+      "target": "银川市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "金晓昀曾担任银川市人民政府市长。",
+          "en": "Jin Xiaoyun served as the Mayor of Yinchuan Municipal People's Government."
+        }
+      }
+    }
+  ]
+}

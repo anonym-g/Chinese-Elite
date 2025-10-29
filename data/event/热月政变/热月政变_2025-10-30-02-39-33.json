@@ -1,0 +1,854 @@
+{
+  "nodes": [
+    {
+      "id": "热月政变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "热月政变",
+          "热月9日政变",
+          "罗伯斯庇尔倒台"
+        ],
+        "en": [
+          "Thermidorian Reaction"
+        ]
+      },
+      "properties": {
+        "period": "1794-07-27",
+        "location": {
+          "zh-cn": "法国巴黎",
+          "en": "Paris, France"
+        },
+        "description": {
+          "zh-cn": "法国大革命期间的一场政变，导致罗伯斯庇尔和雅各宾专政的倒台，结束了恐怖统治时期。",
+          "en": "A coup d'état during the French Revolution that resulted in the downfall of Maximilien Robespierre and the Jacobin dictatorship, ending the Reign of Terror."
+        }
+      }
+    },
+    {
+      "id": "马克西米连·罗伯斯庇尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马克西米连·罗伯斯庇尔",
+          "罗伯斯庇尔",
+          "罗伯斯比尔"
+        ],
+        "en": [
+          "Maximilien Robespierre"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1794-07-28",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "巴黎",
+          "en": "Paris"
+        },
+        "description": {
+          "zh-cn": "法国大革命时期的重要政治家，雅各宾派领袖，在恐怖统治时期掌握实权，于热月政变中被推翻并处决。",
+          "en": "An influential French politician during the French Revolution, leader of the Jacobins, who held de facto power during the Reign of Terror. He was overthrown and executed in the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "热月党人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "热月党人"
+        ],
+        "en": [
+          "Thermidorians"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个由反对罗伯斯庇尔的国民公会成员组成的政治派别，成功发动了热月政变。",
+          "en": "A political faction composed of members of the National Convention who opposed Robespierre and successfully carried out the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "山岳党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山岳党",
+          "山岳派"
+        ],
+        "en": [
+          "The Mountain"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国大革命时期国民公会中的一个激进政治派别，罗伯斯庇尔是其主要成员之一。在热月政变中失败。",
+          "en": "A radical political faction in the National Convention during the French Revolution, of which Robespierre was a leading member. They were defeated in the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "雅各宾专政",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "雅各宾专政",
+          "雅各宾专政恐怖统治"
+        ],
+        "en": [
+          "Jacobin Dictatorship"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由雅各宾派主导的法国大革命时期的一个阶段，以恐怖统治为特征，在热月政变后结束。",
+          "en": "A phase of the French Revolution dominated by the Jacobins, characterized by the Reign of Terror, which ended after the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "国民公会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民公会"
+        ],
+        "en": [
+          "National Convention"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国大革命时期的立法机构，热月政变在此发生，并投票决定逮捕罗伯斯庇尔。",
+          "en": "The legislative body during the French Revolution where the Thermidorian Reaction took place, and which voted to arrest Robespierre."
+        }
+      }
+    },
+    {
+      "id": "法国大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "法国大革命"
+        ],
+        "en": [
+          "French Revolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "18世纪末在法国爆发的一场深刻的社会和政治革命，热月政变是其中的一个关键事件。",
+          "en": "A profound social and political revolution that took place in France at the end of the 18th century, of which the Thermidorian Reaction was a key event."
+        }
+      }
+    },
+    {
+      "id": "让-朗贝尔·塔利安",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "让-朗贝尔·塔利安"
+        ],
+        "en": [
+          "Jean-Lambert Tallien"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "热月党人的主要成员，在国民公会中率先攻击罗伯斯庇尔，引发了热月政变。",
+          "en": "A leading member of the Thermidorians who initiated the attack on Robespierre in the National Convention, sparking the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "保罗·巴拉斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "保罗·巴拉斯"
+        ],
+        "en": [
+          "Paul Barras"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "热月党人的主要成员，在热月政变期间被国民公会任命为部队指挥官，负责逮捕罗伯斯庇尔及其支持者。",
+          "en": "A leading member of the Thermidorians, appointed as commander of troops by the National Convention during the Thermidorian Reaction, responsible for arresting Robespierre and his supporters."
+        }
+      }
+    },
+    {
+      "id": "约瑟夫·富歇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约瑟夫·富歇"
+        ],
+        "en": [
+          "Joseph Fouché"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "热月党人的主要成员，在策划推翻罗伯斯庇尔的阴谋中扮演了重要角色。",
+          "en": "A leading member of the Thermidorians who played a significant role in plotting the overthrow of Robespierre."
+        }
+      }
+    },
+    {
+      "id": "安东万·路易·德·圣茹斯特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安东万·路易·德·圣茹斯特"
+        ],
+        "en": [
+          "Antoine Louis de Saint-Just"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1794-07-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗伯斯庇尔的亲密盟友，山岳党成员，在热月政变后与罗伯斯庇尔一同被处决。",
+          "en": "A close ally of Robespierre and a member of the Mountain, executed alongside Robespierre after the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "弗朗索瓦·昂里奥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗朗索瓦·昂里奥"
+        ],
+        "en": [
+          "François Hanriot"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1794-07-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "巴黎国民卫队指挥官，罗伯斯庇尔的支持者，在热月政变中试图抵抗但失败，后被处决。",
+          "en": "Commander of the Parisian National Guard and a supporter of Robespierre. He attempted to resist during the Thermidorian Reaction but failed and was subsequently executed."
+        }
+      }
+    },
+    {
+      "id": "奥古斯丁·罗伯斯庇尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奥古斯丁·罗伯斯庇尔"
+        ],
+        "en": [
+          "Augustin Robespierre"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1794-07-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "马克西米连·罗伯斯庇尔的弟弟，在热月政变后一同被捕并被处决。",
+          "en": "The younger brother of Maximilien Robespierre, arrested and executed with him after the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "乔治·库东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·库东"
+        ],
+        "en": [
+          "Georges Couthon"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1794-07-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗伯斯庇尔的盟友，在热月政变后被处决。",
+          "en": "An ally of Robespierre who was executed after the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "巴黎公社 (法国大革命)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "巴黎公社 (法国大革命)",
+          "巴黎公社"
+        ],
+        "en": [
+          "Paris Commune (French Revolution)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国大革命时期巴黎的市政府，在热月政变中支持罗伯斯庇尔但失败，大量成员被处决。",
+          "en": "The municipal government of Paris during the French Revolution, which supported Robespierre during the Thermidorian Reaction but was defeated, with many of its members executed."
+        }
+      }
+    },
+    {
+      "id": "雅克-尼古拉·俾约-瓦伦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雅克-尼古拉·俾约-瓦伦"
+        ],
+        "en": [
+          "Jacques-Nicolas Billaud-Varenne"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "国民公会主席之一，在热月政变中攻击罗伯斯庇尔，但后来也被流放。",
+          "en": "One of the presidents of the National Convention, who attacked Robespierre during the Thermidorian Reaction but was later exiled."
+        }
+      }
+    },
+    {
+      "id": "乔治·雅克·丹东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·雅克·丹东"
+        ],
+        "en": [
+          "Georges Danton"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1794-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国大革命早期的领导人之一，在热月政变前被罗伯斯庇尔送上断头台。",
+          "en": "One of the early leaders of the French Revolution, who was sent to the guillotine by Robespierre before the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "夏尔-安德烈·梅尔达",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "夏尔-安德烈·梅尔达"
+        ],
+        "en": [
+          "Charles-André Merda"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "一名近卫兵，据称在逮捕过程中开枪击中了罗伯斯庇尔。",
+          "en": "A gendarme who allegedly shot Robespierre during his arrest."
+        }
+      }
+    },
+    {
+      "id": "恐怖时期 (法国大革命)",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "恐怖时期 (法国大革命)",
+          "恐怖统治"
+        ],
+        "en": [
+          "Reign of Terror"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国大革命期间，雅各宾派掌权的一段时期，以大规模处决“革命公敌”为特征。",
+          "en": "A period during the French Revolution when the Jacobins were in power, characterized by mass executions of 'enemies of the revolution'."
+        }
+      }
+    },
+    {
+      "id": "吉伦特派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吉伦特派",
+          "吉伦特党"
+        ],
+        "en": [
+          "Girondins"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国大革命时期的一个温和共和派政治派别，在恐怖统治时期遭到雅各宾派的严重镇压。",
+          "en": "A moderate republican political faction during the French Revolution, severely repressed by the Jacobins during the Reign of Terror."
+        }
+      }
+    },
+    {
+      "id": "雅各宾派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "雅各宾派"
+        ],
+        "en": [
+          "Jacobins"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国大革命时期最著名和最有影响力的政治派别，以其激进主义和推动恐怖统治而闻名。",
+          "en": "The most famous and influential political faction during the French Revolution, known for its radicalism and for instigating the Reign of Terror."
+        }
+      }
+    },
+    {
+      "id": "第一次反法同盟",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次反法同盟"
+        ],
+        "en": [
+          "First Coalition"
+        ]
+      },
+      "properties": {
+        "period": "1793 - ",
+        "description": {
+          "zh-cn": "由欧洲多个君主制国家组成的反对法兰西第一共和国的军事同盟，在雅各宾专政时期被法军击败并逐出法国。",
+          "en": "A military alliance of several European monarchies against the French First Republic, which was defeated and driven out of France by French forces during the Jacobin Dictatorship."
+        }
+      }
+    },
+    {
+      "id": "第一次白色恐怖",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次白色恐怖"
+        ],
+        "en": [
+          "First White Terror"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "热月政变后发生的一段时期，期间雅各宾派和激进分子遭到热月党人及其支持者的报复性屠杀和镇压。",
+          "en": "A period following the Thermidorian Reaction, during which Jacobins and radicals were subjected to retaliatory massacres and suppression by the Thermidorians and their supporters."
+        }
+      }
+    },
+    {
+      "id": "无套裤汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "无套裤汉"
+        ],
+        "en": [
+          "Sans-culottes"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国大革命期间巴黎的激进下层民众，最初是雅各宾派的有力支持者，但在第一次白色恐怖期间遭到镇压。",
+          "en": "The radical lower-class populace of Paris during the French Revolution, who were initially strong supporters of the Jacobins but were suppressed during the First White Terror."
+        }
+      }
+    },
+    {
+      "id": "督政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "督政府"
+        ],
+        "en": [
+          "Directory"
+        ]
+      },
+      "properties": {
+        "period": "1795-11-02 - ",
+        "description": {
+          "zh-cn": "在热月政变和国民公会解散后，于1795年成立的法兰西第一共和国的统治机构。",
+          "en": "The governing body of the French First Republic, established in 1795 after the Thermidorian Reaction and the dissolution of the National Convention."
+        }
+      }
+    },
+    {
+      "id": "全面限价法令",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "全面限价法令"
+        ],
+        "en": [
+          "Law of the General Maximum"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "雅各宾派在恐怖统治时期颁布的一项控制商品价格和工资的法令，在热月政变后被废除。",
+          "en": "A law enacted by the Jacobins during the Reign of Terror to control commodity prices and wages, which was abolished after the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "id": "拿破仑·波拿巴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "拿破仑·波拿巴"
+        ],
+        "en": [
+          "Napoleon Bonaparte"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国将军，在热月政权时期镇压了葡月13日反叛。",
+          "en": "A French general who suppressed the 13 Vendémiaire revolt during the Thermidorian regime."
+        }
+      }
+    },
+    {
+      "id": "葡月13日反叛",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "葡月13日反叛"
+        ],
+        "en": [
+          "13 Vendémiaire"
+        ]
+      },
+      "properties": {
+        "period": "1795-10-05",
+        "description": {
+          "zh-cn": "一场由保皇党人领导的反对国民公会的叛乱，被拿破仑·波拿巴镇压。",
+          "en": "A revolt led by royalists against the National Convention, which was suppressed by Napoleon Bonaparte."
+        }
+      }
+    },
+    {
+      "id": "安托万·西蒙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安托万·西蒙"
+        ],
+        "en": [
+          "Antoine Simon"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1794-07-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "路易十七的狱卒，作为罗伯斯庇尔的支持者在热月政变后被处决。",
+          "en": "The jailer of Louis XVII, executed after the Thermidorian Reaction as a supporter of Robespierre."
+        }
+      }
+    },
+    {
+      "id": "路易十七",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "路易十七"
+        ],
+        "en": [
+          "Louis XVII"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国国王路易十六之子，在法国大革命期间被囚禁，其狱卒安托万·西蒙是罗伯斯庇尔的支持者。",
+          "en": "Son of King Louis XVI of France, imprisoned during the French Revolution. His jailer, Antoine Simon, was a supporter of Robespierre."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "法国大革命",
+      "target": "热月政变",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "热月政变是法国大革命期间的一个重要转折事件。",
+          "en": "The Thermidorian Reaction was a significant turning point during the French Revolution."
+        }
+      }
+    },
+    {
+      "source": "热月党人",
+      "target": "热月政变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1794-07-27",
+        "description": {
+          "zh-cn": "热月党人协调一致地在国民公会攻击罗伯斯庇尔及其支持者，成功发动了政变。",
+          "en": "The Thermidorians launched a coordinated attack on Robespierre and his supporters in the National Convention, successfully carrying out the coup."
+        }
+      }
+    },
+    {
+      "source": "让-朗贝尔·塔利安",
+      "target": "热月政变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1794-07-27",
+        "description": {
+          "zh-cn": "让-朗贝尔·塔利安在国民公会中率先抨击罗伯斯庇尔，是政变的主要煽动者之一。",
+          "en": "Jean-Lambert Tallien was one of the main instigators of the coup, being the first to denounce Robespierre in the National Convention."
+        }
+      }
+    },
+    {
+      "source": "约瑟夫·富歇",
+      "target": "热月政变",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "约瑟夫·富歇在策划消灭罗伯斯庇尔的阴谋中发挥了重要作用，是政变事件的发起者之一。",
+          "en": "Joseph Fouché played a significant role in plotting the elimination of Robespierre and was one of the initiators of the coup."
+        }
+      }
+    },
+    {
+      "source": "热月政变",
+      "target": "马克西米连·罗伯斯庇尔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1794-07-27",
+        "end_date": "1794-07-28",
+        "description": {
+          "zh-cn": "热月政变导致罗伯斯庇尔被逮捕并于次日被处决。",
+          "en": "The Thermidorian Reaction led to the arrest of Robespierre and his execution the following day."
+        }
+      }
+    },
+    {
+      "source": "热月政变",
+      "target": "雅各宾专政",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1794-07-27",
+        "description": {
+          "zh-cn": "热月政变结束了雅各宾专政及其恐怖统治。",
+          "en": "The Thermidorian Reaction ended the Jacobin Dictatorship and its Reign of Terror."
+        }
+      }
+    },
+    {
+      "source": "热月政变",
+      "target": "山岳党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1794-07-27",
+        "description": {
+          "zh-cn": "热月政变导致山岳党失败，其78名代表被处决。",
+          "en": "The Thermidorian Reaction resulted in the defeat of the Mountain, with 78 of its deputies executed."
+        }
+      }
+    },
+    {
+      "source": "热月政变",
+      "target": "第一次白色恐怖",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1794-07-29",
+        "description": {
+          "zh-cn": "热月政变之后，随之而来的是针对雅各宾派的第一次白色恐怖。",
+          "en": "Following the Thermidorian Reaction, the First White Terror was unleashed against the Jacobins."
+        }
+      }
+    },
+    {
+      "source": "热月政变",
+      "target": "督政府",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1794-07-27",
+        "description": {
+          "zh-cn": "热月政变后的政治重组最终导致了1795年督政府的成立。",
+          "en": "The political restructuring after the Thermidorian Reaction eventually led to the establishment of the Directory in 1795."
+        }
+      }
+    },
+    {
+      "source": "奥古斯丁·罗伯斯庇尔",
+      "target": "马克西米连·罗伯斯庇尔",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "奥古斯丁·罗伯斯庇尔是马克西米连·罗伯斯庇尔的弟弟。",
+          "en": "Augustin Robespierre was the younger brother of Maximilien Robespierre."
+        }
+      }
+    },
+    {
+      "source": "国民公会",
+      "target": "马克西米连·罗伯斯庇尔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1794-07-27",
+        "description": {
+          "zh-cn": "国民公会投票决定逮捕罗伯斯庇尔及其追随者。",
+          "en": "The National Convention voted to arrest Robespierre and his followers."
+        }
+      }
+    },
+    {
+      "source": "巴黎公社 (法国大革命)",
+      "target": "马克西米连·罗伯斯庇尔",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1794-07-27",
+        "description": {
+          "zh-cn": "巴黎公社派遣部队试图解救被国民公会逮捕的罗伯斯庇尔。",
+          "en": "The Paris Commune sent troops in an attempt to free Robespierre, who had been arrested by the National Convention."
+        }
+      }
+    },
+    {
+      "source": "保罗·巴拉斯",
+      "target": "国民公会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1794-07-27",
+        "position": {
+          "zh-cn": "部队指挥官",
+          "en": "Commander of forces"
+        },
+        "description": {
+          "zh-cn": "在热月政变期间，保罗·巴拉斯被国民公会任命为指挥其下属部队的指挥官。",
+          "en": "During the Thermidorian Reaction, Paul Barras was appointed by the National Convention as the commander of its forces."
+        }
+      }
+    },
+    {
+      "source": "夏尔-安德烈·梅尔达",
+      "target": "马克西米连·罗伯斯庇尔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1794-07-28",
+        "description": {
+          "zh-cn": "据称，近卫兵夏尔-安德烈·梅尔达在逮捕过程中开枪击中罗伯斯庇尔，打碎了他的下巴。",
+          "en": "It is alleged that the gendarme Charles-André Merda shot Robespierre during his arrest, shattering his jaw."
+        }
+      }
+    },
+    {
+      "source": "雅各宾派",
+      "target": "恐怖时期 (法国大革命)",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "雅各宾派采取了一系列恐怖统治措施，开启了恐怖时期。",
+          "en": "The Jacobins implemented a series of terror measures, initiating the Reign of Terror."
+        }
+      }
+    },
+    {
+      "source": "恐怖时期 (法国大革命)",
+      "target": "吉伦特派",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在恐怖统治时期，主张温和共和主义的吉伦特派遭到重创，许多成员被处决或驱逐。",
+          "en": "During the Reign of Terror, the moderate republican Girondins were severely crushed, with many members executed or expelled."
+        }
+      }
+    },
+    {
+      "source": "马克西米连·罗伯斯庇尔",
+      "target": "乔治·雅克·丹东",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1794-04-05",
+        "description": {
+          "zh-cn": "罗伯斯庇尔在热月政变前几个月将政治对手乔治·雅克·丹东处决。",
+          "en": "Robespierre had his political rival Georges Danton executed a few months before the Thermidorian Reaction."
+        }
+      }
+    },
+    {
+      "source": "雅各宾派",
+      "target": "第一次反法同盟",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1793",
+        "description": {
+          "zh-cn": "在内忧外患的形势下，雅各宾派领导的法国挫败了第一次反法同盟，并将其赶出法国境内。",
+          "en": "Facing internal and external threats, France, under Jacobin leadership, defeated the First Coalition and drove them out of French territory."
+        }
+      }
+    },
+    {
+      "source": "第一次白色恐怖",
+      "target": "无套裤汉",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在第一次白色恐怖期间，热月党通过武力镇压了无套裤汉。",
+          "en": "During the First White Terror, the Thermidorians suppressed the sans-culottes by force."
+        }
+      }
+    },
+    {
+      "source": "热月党人",
+      "target": "全面限价法令",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1794-12-24",
+        "description": {
+          "zh-cn": "1794年12月24日，热月党人废除了对商品价格和工资进行控制的全面限价法令。",
+          "en": "On December 24, 1794, the Thermidorians abolished the Law of the General Maximum, which controlled prices and wages."
+        }
+      }
+    },
+    {
+      "source": "拿破仑·波拿巴",
+      "target": "葡月13日反叛",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1795-10-05",
+        "description": {
+          "zh-cn": "年轻的将军拿破仑·波拿巴镇压了由保皇党人领导的葡月13日反叛。",
+          "en": "The young general Napoleon Bonaparte suppressed the 13 Vendémiaire revolt led by royalists."
+        }
+      }
+    },
+    {
+      "source": "安托万·西蒙",
+      "target": "路易十七",
+      "type": "BLOCKED",
+      "properties": {
+        "position": {
+          "zh-cn": "狱卒",
+          "en": "Jailer"
+        },
+        "description": {
+          "zh-cn": "安托万·西蒙是路易十七的狱卒，负责看管被囚禁的王子。",
+          "en": "Antoine Simon was the jailer of Louis XVII, responsible for guarding the imprisoned prince."
+        }
+      }
+    }
+  ]
+}

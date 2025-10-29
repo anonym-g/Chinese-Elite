@@ -1,0 +1,853 @@
+{
+  "nodes": [
+    {
+      "id": "枪杆子里面出政权",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "枪杆子里面出政权",
+          "政权是由枪杆子中取得的"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "毛泽东在八七会议上提出的著名论断，意指政权需依靠军事手段获取与稳固。",
+          "en": "A famous thesis proposed by Mao Zedong at the August 7th Conference, meaning that political power needs to be obtained and consolidated through military means."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党、中华人民共和国和中国人民解放军的主要缔造者和领导人，提出了“枪杆子里面出政权”的论断。",
+          "en": "A key founder and leader of the Communist Party of China, the People's Republic of China, and the People's Liberation Army, who proposed the thesis that 'political power grows out of the barrel of a gun'."
+        }
+      }
+    },
+    {
+      "id": "八七会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "八七会议"
+        ],
+        "en": [
+          "August 7th Conference"
+        ]
+      },
+      "properties": {
+        "period": "1927-08-07 - 1927-08-08",
+        "location": {
+          "zh-cn": "汉口",
+          "en": "Hankou"
+        },
+        "description": {
+          "zh-cn": "1927年中共中央在汉口召开的紧急会议，对中国共产党前一段失败的原因进行总结。",
+          "en": "An emergency meeting held by the Central Committee of the CCP in Hankou in 1927 to summarize the reasons for the party's previous failures."
+        }
+      }
+    },
+    {
+      "id": "政权",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "政权"
+        ],
+        "en": [
+          "Political power"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指一个国家或地区的政治统治权力及其执行机构。",
+          "en": "Refers to the political ruling power and its executive bodies in a country or region."
+        }
+      }
+    },
+    {
+      "id": "军事",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "军事"
+        ],
+        "en": [
+          "Military affairs"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "泛指与战争和军队有关的事务。",
+          "en": "Generally refers to matters related to war and the armed forces."
+        }
+      }
+    },
+    {
+      "id": "中共中央",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央"
+        ],
+        "en": [
+          "Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "湖北",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖北"
+        ],
+        "en": [
+          "Hubei"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "汉口",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "汉口"
+        ],
+        "en": [
+          "Hankou"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "国共合作破裂",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "国共合作破裂"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927",
+        "description": {
+          "zh-cn": "指1927年第一次国共合作的全面失败，是八七会议召开的直接背景。",
+          "en": "Refers to the complete failure of the First United Front in 1927, which was the direct context for convening the August 7th Conference."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "孙中山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙中山",
+          "中山"
+        ],
+        "en": [
+          "Sun Yat-sen"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代政治家、革命家，毛泽东在八七会议上曾提及并批评其专做军事运动。",
+          "en": "A modern Chinese statesman and revolutionary, mentioned and criticized by Mao Zedong at the August 7th Conference for focusing solely on military movements."
+        }
+      }
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋介石",
+          "蒋"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治及军事人物，被毛泽东视为依靠枪杆子起家的代表人物之一。",
+          "en": "A political and military figure of the Republic of China, regarded by Mao Zedong as a representative figure who rose to power through military means."
+        }
+      }
+    },
+    {
+      "id": "唐生智",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐生智",
+          "唐"
+        ],
+        "en": [
+          "Tang Shengzhi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事人物，被毛泽东视为依靠枪杆子起家的代表人物之一。",
+          "en": "A military figure of the Republic of China, regarded by Mao Zedong as a representative figure who rose to power through military means."
+        }
+      }
+    },
+    {
+      "id": "秋收暴动",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "秋收暴动",
+          "秋收起义"
+        ],
+        "en": [
+          "Autumn Harvest Uprising"
+        ]
+      },
+      "properties": {
+        "period": "1927-09",
+        "description": {
+          "zh-cn": "1927年由毛泽东和彭公达等人领导的武装起义，后因组织此次起义，毛泽东和彭公达受到党内处分。",
+          "en": "An armed uprising led by Mao Zedong, Peng Gongda and others in 1927. Mao and Peng were later disciplined by the party for organizing this uprising."
+        }
+      }
+    },
+    {
+      "id": "瞿秋白",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "瞿秋白"
+        ],
+        "en": [
+          "Qu Qiubai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期主要领导人之一，在八七会议后曾欣赏毛泽东，后又在上海主持会议处分毛泽东。",
+          "en": "One of the early key leaders of the Communist Party of China, who appreciated Mao Zedong after the August 7th Conference but later presided over a meeting in Shanghai to discipline him."
+        }
+      }
+    },
+    {
+      "id": "上海",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "上海"
+        ],
+        "en": [
+          "Shanghai"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共湖南省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共湖南省委"
+        ],
+        "en": [
+          "Hunan Provincial Committee of the CCP"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "三湾改编",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "三湾改编"
+        ],
+        "en": [
+          "Sanwan Reorganization"
+        ]
+      },
+      "properties": {
+        "period": "1927-09-29 - ",
+        "description": {
+          "zh-cn": "1927年9月毛泽东对秋收起义部队进行的整顿和改编，确立了“党指挥枪”的原则。",
+          "en": "The reorganization and restructuring of the Autumn Harvest Uprising troops led by Mao Zedong in September 1927, which established the principle of 'the Party commands the gun'."
+        }
+      }
+    },
+    {
+      "id": "中国工农红军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工农红军"
+        ],
+        "en": [
+          "Chinese Workers' and Peasants' Red Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "八路军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "八路军"
+        ],
+        "en": [
+          "Eighth Route Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "新四军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新四军"
+        ],
+        "en": [
+          "New Fourth Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中央临时政治局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央临时政治局"
+        ],
+        "en": [
+          "Provisional Politburo of the Central Committee"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "扩大会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "扩大会议"
+        ],
+        "en": [
+          "Enlarged meeting"
+        ]
+      },
+      "properties": {
+        "period": "1927-11-09 - 1927-11-10",
+        "location": {
+          "zh-cn": "上海",
+          "en": "Shanghai"
+        },
+        "description": {
+          "zh-cn": "1927年11月由瞿秋白在上海主持召开的中央临时政治局扩大会议，会上通过决议处分了毛泽东等人。",
+          "en": "An enlarged meeting of the Provisional Politburo of the Central Committee presided over by Qu Qiubai in Shanghai in November 1927, where a resolution was passed to discipline Mao Zedong and others."
+        }
+      }
+    },
+    {
+      "id": "罗明纳兹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗明纳兹"
+        ],
+        "en": [
+          "Vissarion Lominadze"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "共产国际代表，出席了1927年11月在上海召开的中共中央临时政治局扩大会议。",
+          "en": "A representative of the Comintern who attended the enlarged meeting of the Provisional Politburo of the CCP Central Committee in Shanghai in November 1927."
+        }
+      }
+    },
+    {
+      "id": "海因茨·诺伊曼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "海因茨·诺伊曼",
+          "纽曼"
+        ],
+        "en": [
+          "Heinz Neumann"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "共产国际代表，出席了1927年11月在上海召开的中共中央临时政治局扩大会议。",
+          "en": "A representative of the Comintern who attended the enlarged meeting of the Provisional Politburo of the CCP Central Committee in Shanghai in November 1927."
+        }
+      }
+    },
+    {
+      "id": "惩办主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "惩办主义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种政策或行事方针，在1927年11月的中共中央临时政治局扩大会议上被实行。",
+          "en": "A policy or course of action that was implemented at the enlarged meeting of the Provisional Politburo of the CCP Central Committee in November 1927."
+        }
+      }
+    },
+    {
+      "id": "《政治纪律决议案》",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "《政治纪律决议案》"
+        ],
+        "en": [
+          "Resolution on Political Discipline"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1927年11月中共中央临时政治局扩大会议上通过的文件，据此开除了毛泽东、彭公达的临时政治局候补委员职务。",
+          "en": "A document passed at the enlarged meeting of the Provisional Politburo of the CCP Central Committee in November 1927, which was used to remove Mao Zedong and Peng Gongda from their positions as alternate members of the Provisional Politburo."
+        }
+      }
+    },
+    {
+      "id": "彭公达",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭公达"
+        ],
+        "en": [
+          "Peng Gongda"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期成员，因组织秋收起义与毛泽东一同被开除临时政治局候补委员。",
+          "en": "An early member of the Communist Party of China, who was dismissed as an alternate member of the Provisional Politburo along with Mao Zedong for organizing the Autumn Harvest Uprising."
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": [
+          "Zhou Enlai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要领导人之一，在1927年11月的会议上被增选为中央临时政治局常委。",
+          "en": "One of the main leaders of the Communist Party of China and the People's Republic of China, who was elected as a member of the Standing Committee of the Provisional Politburo of the Central Committee at the meeting in November 1927."
+        }
+      }
+    },
+    {
+      "id": "罗亦农",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗亦农"
+        ],
+        "en": [
+          "Luo Yinong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期领导人之一，在1927年11月的会议上被增选为中央临时政治局常委。",
+          "en": "One of the early leaders of the Communist Party of China, who was elected as a member of the Standing Committee of the Provisional Politburo of the Central Committee at the meeting in November 1927."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "毛泽东",
+      "target": "枪杆子里面出政权",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-08-07",
+        "description": {
+          "zh-cn": "在八七会议上首次提出“政权是由枪杆子中取得的”著名论断。",
+          "en": "First proposed the famous thesis 'political power is obtained from the barrel of a gun' at the August 7th Conference."
+        }
+      }
+    },
+    {
+      "source": "八七会议",
+      "target": "枪杆子里面出政权",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-08-07",
+        "description": {
+          "zh-cn": "该论断是在八七会议的背景下提出的，会议为这一思想的产生提供了平台。",
+          "en": "This thesis was proposed in the context of the August 7th Conference, which provided the platform for the emergence of this idea."
+        }
+      }
+    },
+    {
+      "source": "国共合作破裂",
+      "target": "八七会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927",
+        "description": {
+          "zh-cn": "1927年国共合作破裂是中共中央召开八七会议以总结失败教训的直接原因。",
+          "en": "The breakdown of the KMT-CCP cooperation in 1927 was the direct reason for the CCP Central Committee to convene the August 7th Conference to summarize the lessons of failure."
+        }
+      }
+    },
+    {
+      "source": "中共中央",
+      "target": "八七会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-08-07",
+        "description": {
+          "zh-cn": "中共中央于1927年8月7日在汉口召开紧急会议，即八七会议。",
+          "en": "The Central Committee of the CCP convened an emergency meeting in Hankou on August 7, 1927, known as the August 7th Conference."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "孙中山",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-08-07",
+        "description": {
+          "zh-cn": "在八七会议上，毛泽东批评了过去共产党人对孙中山“专做军事运动”的指责，并反思共产党自身忽视军事的问题。",
+          "en": "At the August 7th Conference, Mao Zedong criticized the past accusations by Communists against Sun Yat-sen for 'focusing solely on military movements' and reflected on the Party's own neglect of military affairs."
+        }
+      }
+    },
+    {
+      "source": "瞿秋白",
+      "target": "毛泽东",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1927-08",
+        "description": {
+          "zh-cn": "八七会议后，瞿秋白欣赏毛泽东，并建议他到上海的中共中央机关工作。",
+          "en": "After the August 7th Conference, Qu Qiubai appreciated Mao Zedong and suggested that he work at the CCP Central Committee's office in Shanghai."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "瞿秋白",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-08",
+        "description": {
+          "zh-cn": "毛泽东谢绝了瞿秋白让他去上海中央机关工作的建议，选择上山。",
+          "en": "Mao Zedong declined Qu Qiubai's suggestion to work at the Central Committee's office in Shanghai, choosing to go to the mountains instead."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "秋收暴动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-09",
+        "description": {
+          "zh-cn": "毛泽东是秋收起义的主要组织者和领导者。",
+          "en": "Mao Zedong was the main organizer and leader of the Autumn Harvest Uprising."
+        }
+      }
+    },
+    {
+      "source": "彭公达",
+      "target": "秋收暴动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-09",
+        "description": {
+          "zh-cn": "彭公达因参与组织秋收起义而与毛泽东一同受到处分，表明其为组织者之一。",
+          "en": "Peng Gongda was disciplined along with Mao Zedong for organizing the Autumn Harvest Uprising, indicating he was one of the organizers."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "三湾改编",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-09-29",
+        "description": {
+          "zh-cn": "毛泽东率领部队到三湾村，开始对部队进行改编。",
+          "en": "Mao Zedong led the troops to Sanwan village and began to reorganize the army."
+        }
+      }
+    },
+    {
+      "source": "三湾改编",
+      "target": "中国工农红军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-09-29",
+        "description": {
+          "zh-cn": "三湾改编在军队中建立了党的各级组织，确立了党对军队的领导，深刻地塑造了中国工农红军的组织结构。",
+          "en": "The Sanwan Reorganization established Party organizations at all levels within the army, affirmed the Party's leadership over the army, and profoundly shaped the organizational structure of the Chinese Workers' and Peasants' Red Army."
+        }
+      }
+    },
+    {
+      "source": "三湾改编",
+      "target": "八路军",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "毛泽东在三湾改编中推行的一系列改革深刻影响到后来的八路军的军制改革。",
+          "en": "The series of reforms implemented by Mao Zedong during the Sanwan Reorganization profoundly influenced the later military system reforms of the Eighth Route Army."
+        }
+      }
+    },
+    {
+      "source": "三湾改编",
+      "target": "新四军",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "毛泽东在三湾改编中推行的一系列改革深刻影响到后来的新四军的军制改革。",
+          "en": "The series of reforms implemented by Mao Zedong during the Sanwan Reorganization profoundly influenced the later military system reforms of the New Fourth Army."
+        }
+      }
+    },
+    {
+      "source": "三湾改编",
+      "target": "中国人民解放军",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "毛泽东在三湾改编中推行的一系列改革深刻影响到后来的中国人民解放军的军制改革。",
+          "en": "The series of reforms implemented by Mao Zedong during the Sanwan Reorganization profoundly influenced the later military system reforms of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "中共中央",
+      "target": "毛泽东",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927",
+        "description": {
+          "zh-cn": "毛泽东在三湾改编中推行的一系列军队改革，当时并没有得到中共中央的支持。",
+          "en": "The series of military reforms implemented by Mao Zedong during the Sanwan Reorganization did not receive support from the CCP Central Committee at the time."
+        }
+      }
+    },
+    {
+      "source": "扩大会议",
+      "target": "毛泽东",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-11",
+        "description": {
+          "zh-cn": "在1927年11月的中央临时政治局扩大会议上，毛泽东因组织秋收起义被开除临时政治局候补委员。",
+          "en": "At the enlarged meeting of the Provisional Politburo of the Central Committee in November 1927, Mao Zedong was expelled as an alternate member of the Provisional Politburo for organizing the Autumn Harvest Uprising."
+        }
+      }
+    },
+    {
+      "source": "扩大会议",
+      "target": "彭公达",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-11",
+        "description": {
+          "zh-cn": "在1927年11月的中央临时政治局扩大会议上，彭公达因组织秋收起义被开除临时政治局候补委员。",
+          "en": "At the enlarged meeting of the Provisional Politburo of the Central Committee in November 1927, Peng Gongda was expelled as an alternate member of the Provisional Politburo for organizing the Autumn Harvest Uprising."
+        }
+      }
+    },
+    {
+      "source": "扩大会议",
+      "target": "周恩来",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-11",
+        "description": {
+          "zh-cn": "在1927年11月的中央临时政治局扩大会议上，增选周恩来为中央临时政治局常委。",
+          "en": "At the enlarged meeting of the Provisional Politburo of the Central Committee in November 1927, Zhou Enlai was elected as a member of the Standing Committee of the Provisional Politburo."
+        }
+      }
+    },
+    {
+      "source": "扩大会议",
+      "target": "罗亦农",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-11",
+        "description": {
+          "zh-cn": "在1927年11月的中央临时政治局扩大会议上，增选罗亦农为中央临时政治局常委。",
+          "en": "At the enlarged meeting of the Provisional Politburo of the Central Committee in November 1927, Luo Yinong was elected as a member of the Standing Committee of the Provisional Politburo."
+        }
+      }
+    },
+    {
+      "source": "瞿秋白",
+      "target": "扩大会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-11-09",
+        "end_date": "1927-11-10",
+        "description": {
+          "zh-cn": "1927年11月的中央临时政治局扩大会议由瞿秋白主持召开。",
+          "en": "The enlarged meeting of the Provisional Politburo of the Central Committee in November 1927 was presided over by Qu Qiubai."
+        }
+      }
+    },
+    {
+      "source": "罗明纳兹",
+      "target": "扩大会议",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1927-11-09",
+        "end_date": "1927-11-10",
+        "description": {
+          "zh-cn": "作为共产国际代表，罗明纳兹出席了会议。",
+          "en": "As a representative of the Comintern, Lominadze attended the meeting."
+        }
+      }
+    },
+    {
+      "source": "海因茨·诺伊曼",
+      "target": "扩大会议",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1927-11-09",
+        "end_date": "1927-11-10",
+        "description": {
+          "zh-cn": "作为共产国际代表，海因茨·诺伊曼（纽曼）出席了会议。",
+          "en": "As a representative of the Comintern, Heinz Neumann attended the meeting."
+        }
+      }
+    },
+    {
+      "source": "惩办主义",
+      "target": "扩大会议",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1927-11-09",
+        "end_date": "1927-11-10",
+        "description": {
+          "zh-cn": "扩大会议实行了惩办主义政策，并在此政策下对毛泽东等人进行了处分。",
+          "en": "The enlarged meeting implemented a policy of 'punishment-ism' and disciplined Mao Zedong and others under this policy."
+        }
+      }
+    },
+    {
+      "source": "扩大会议",
+      "target": "《政治纪律决议案》",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-11",
+        "description": {
+          "zh-cn": "会议通过了《政治纪律决议案》。",
+          "en": "The meeting passed the 'Resolution on Political Discipline'."
+        }
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "中央临时政治局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1927-11",
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        },
+        "description": {
+          "zh-cn": "在1927年11月的扩大会议上被增选为中央临时政治局常委。",
+          "en": "Was elected as a member of the Standing Committee of the Provisional Politburo of the Central Committee at the enlarged meeting in November 1927."
+        }
+      }
+    },
+    {
+      "source": "罗亦农",
+      "target": "中央临时政治局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1927-11",
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        },
+        "description": {
+          "zh-cn": "在1927年11月的扩大会议上被增选为中央临时政治局常委。",
+          "en": "Was elected as a member of the Standing Committee of the Provisional Politburo of the Central Committee at the enlarged meeting in November 1927."
+        }
+      }
+    }
+  ]
+}

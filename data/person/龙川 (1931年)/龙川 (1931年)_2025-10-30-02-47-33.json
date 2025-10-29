@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "龙川",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "龙川",
+          "龙爱川"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1931 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "邵东县",
+          "en": "Shaodong County"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任广西壮族自治区人民政府副主席，广西壮族自治区政协副主席。",
+          "en": "A politician of the People's Republic of China, who served as the Vice Chairman of the People's Government of Guangxi Zhuang Autonomous Region and the Vice Chairman of the CPPCC of Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "邵东县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "邵东县",
+          "邵东"
+        ],
+        "en": [
+          "Shaodong County",
+          "Shaodong"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "湖南",
+          "en": "Hunan"
+        },
+        "description": {
+          "zh-cn": "龙川的出生地。",
+          "en": "Birthplace of Long Chuan."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "广西壮族自治区人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广西壮族自治区人民政府"
+        ],
+        "en": [
+          "People's Government of Guangxi Zhuang Autonomous Region"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "广西壮族自治区政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广西壮族自治区政协"
+        ],
+        "en": [
+          "CPPCC Guangxi Zhuang Autonomous Region Committee"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "龙川",
+      "target": "邵东县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "龙川",
+      "target": "广西壮族自治区人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "龙川曾任广西壮族自治区人民政府副主席。",
+          "en": "Long Chuan once served as the Vice Chairman of the People's Government of Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "龙川",
+      "target": "广西壮族自治区政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "龙川曾任广西壮族自治区政协副主席。",
+          "en": "Long Chuan once served as the Vice Chairman of the CPPCC of Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "龙川",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，龙川是中国共产党党员。",
+          "en": "According to Wikipedia categories, Long Chuan is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "王启民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王启民"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1937-09-26 - 2024-08-19",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": {
+          "zh-cn": "湖州市",
+          "en": "Huzhou"
+        },
+        "death_place": {
+          "zh-cn": "廊坊市",
+          "en": "Langfang"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国石油工程师、政治人物。曾任大庆油田有限责任公司总经理助理、副总地质师，是中国共产党第十五届中央委员会候补委员，并获得“人民楷模”国家荣誉称号。",
+          "en": "A petroleum engineer and politician from the People's Republic of China. He served as Assistant General Manager and Deputy Chief Geologist of Daqing Oilfield Company Limited, was an alternate member of the 15th Central Committee of the Communist Party of China, and received the national honorary title of 'People's Role Model'."
+        }
+      }
+    },
+    {
+      "id": "湖州市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖州市",
+          "湖州"
+        ],
+        "en": [
+          "Huzhou"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "廊坊市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "廊坊市",
+          "廊坊"
+        ],
+        "en": [
+          "Langfang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京石油学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京石油学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国高等石油院校，是王启民的母校，现为中国石油大学。",
+          "en": "A higher petroleum institution in China, Wang Qimin's alma mater, now known as China University of Petroleum."
+        }
+      }
+    },
+    {
+      "id": "松辽石油会战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "松辽石油会战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "为开发松辽盆地石油资源而进行的一场大规模生产运动，期间发现了大庆油田。",
+          "en": "A large-scale production campaign to develop the oil resources of the Songliao Basin, during which the Daqing Oilfield was discovered."
+        }
+      }
+    },
+    {
+      "id": "大庆油田",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大庆油田"
+        ],
+        "en": [
+          "Daqing Oil Field"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "大庆石油管理局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大庆石油管理局"
+        ],
+        "en": [
+          "Daqing Petroleum Administration Bureau"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "大庆油田有限责任公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大庆油田有限责任公司"
+        ],
+        "en": [
+          "Daqing Oilfield Company Limited"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党第十五届中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十五届中央委员会"
+        ],
+        "en": [
+          "15th Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1997-09-19 - 2002-11-14"
+      }
+    },
+    {
+      "id": "人民楷模",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "人民楷模"
+        ],
+        "en": [
+          "People's Role Model"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的国家荣誉称号。",
+          "en": "A national honorary title of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王启民",
+      "target": "湖州市",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "王启民",
+      "target": "北京石油学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1956-09",
+        "end_date": "1961-08",
+        "description": {
+          "zh-cn": "在石油地质专业学习。",
+          "en": "Studied in the petroleum geology major."
+        }
+      }
+    },
+    {
+      "source": "王启民",
+      "target": "松辽石油会战",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1961-08",
+        "end_date": "1964-04",
+        "position": {
+          "zh-cn": "指挥部地质所实习员、技术员",
+          "en": "Intern and Technician at the Geological Institute of the Headquarters"
+        },
+        "description": {
+          "zh-cn": "1961年8月至1962年9月，任松辽石油会战指挥部地质所开发室、动态室实习员；1962年9月至1964年4月，任技术员。",
+          "en": "From August 1961 to September 1962, he served as an intern in the Development and Dynamics Offices of the Geological Institute of the Songliao Oil Campaign Headquarters; from September 1962 to April 1964, he served as a technician."
+        }
+      }
+    },
+    {
+      "source": "王启民",
+      "target": "大庆油田",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1964-04",
+        "end_date": "1984-07",
+        "position": {
+          "zh-cn": "技术员、地质师、副主任地质师",
+          "en": "Technician, Geologist, Deputy Chief Geologist"
+        },
+        "description": {
+          "zh-cn": "历任大庆油田开发研究院和科学研究院技术员、一级技术员、地质师、开发室副主任地质师。",
+          "en": "Served successively as Technician, First-level Technician, Geologist, and Deputy Chief Geologist of the Development Office at the Daqing Oilfield Development Research Institute and Scientific Research Institute."
+        }
+      }
+    },
+    {
+      "source": "王启民",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1978-06",
+        "end_date": "2024-08-19",
+        "description": {
+          "zh-cn": "于1978年6月加入中国共产党。",
+          "en": "Joined the Communist Party of China in June 1978."
+        }
+      }
+    },
+    {
+      "source": "王启民",
+      "target": "大庆石油管理局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1984-07",
+        "end_date": "1999-12",
+        "position": {
+          "zh-cn": "副总地质师、副院长、院长、局长助理",
+          "en": "Deputy Chief Geologist, Deputy Director, Director, Assistant to Bureau Chief"
+        },
+        "description": {
+          "zh-cn": "历任大庆石油管理局勘探开发研究院副总地质师、副院长、院长，以及大庆石油管理局局长助理、副总地质师。",
+          "en": "Served successively as Deputy Chief Geologist, Deputy Director, and Director of the Exploration and Development Research Institute of Daqing Petroleum Administration Bureau, and later as Assistant to the Bureau Chief and Deputy Chief Geologist of Daqing Petroleum Administration Bureau."
+        }
+      }
+    },
+    {
+      "source": "王启民",
+      "target": "大庆油田有限责任公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1999-12",
+        "position": {
+          "zh-cn": "总经理助理、副总地质师",
+          "en": "Assistant General Manager, Deputy Chief Geologist"
+        }
+      }
+    },
+    {
+      "source": "王启民",
+      "target": "中国共产党第十五届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "候补委员",
+          "en": "Alternate Member"
+        }
+      }
+    },
+    {
+      "source": "王启民",
+      "target": "人民楷模",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2019-09-17",
+        "description": {
+          "zh-cn": "获得“人民楷模”国家荣誉称号。",
+          "en": "Received the national honorary title of 'People's Role Model'."
+        }
+      }
+    }
+  ]
+}

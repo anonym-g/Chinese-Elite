@@ -1,0 +1,851 @@
+{
+  "nodes": [
+    {
+      "id": "明英宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明英宗",
+          "朱祁镇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1427-11-29 - 1464-02-23",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "大明北直隶顺天府紫禁城",
+          "en": "Forbidden City, Shuntian Prefecture, North Zhili, Ming Dynasty"
+        },
+        "death_place": {
+          "zh-cn": "大明北直隶顺天府紫禁城",
+          "en": "Forbidden City, Shuntian Prefecture, North Zhili, Ming Dynasty"
+        },
+        "description": {
+          "zh-cn": "明朝第六位和第八位皇帝，年号正统和天顺。其在位期间，在土木堡之变被俘，后通过夺门之变复辟，最终废除了宫妃殉葬制度。",
+          "en": "The sixth and eighth emperor of the Ming Dynasty, reigning under the era names Zhengtong and Tianshun. During his reign, he was captured in the Tumu Crisis, later restored to the throne through the Duomen Coup, and eventually abolished the system of concubine burial."
+        }
+      }
+    },
+    {
+      "id": "明宣宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明宣宗",
+          "朱瞻基"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1435-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第五位皇帝，明英宗与景泰帝之父。",
+          "en": "The fifth emperor of the Ming Dynasty, father of Emperor Yingzong and the Jingtai Emperor."
+        }
+      }
+    },
+    {
+      "id": "孝恭章皇后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孝恭章皇后",
+          "孙氏",
+          "孙太后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "明宣宗的皇后，明英宗的母亲。",
+          "en": "Empress of the Xuande Emperor and mother of Emperor Yingzong."
+        }
+      }
+    },
+    {
+      "id": "景泰帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "景泰帝",
+          "朱祁钰",
+          "郕王"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第七位皇帝，明英宗的异母弟。在兄长于土木堡之变被俘后登基，后在夺门之变中被废黜。",
+          "en": "The seventh emperor of the Ming Dynasty, the younger half-brother of Emperor Yingzong. He ascended the throne after his brother's capture in the Tumu Crisis and was later deposed in the Duomen Coup."
+        }
+      }
+    },
+    {
+      "id": "土木堡之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "土木堡之变",
+          "土木堡之战"
+        ],
+        "en": [
+          "Tumu Crisis"
+        ]
+      },
+      "properties": {
+        "period": "1449-09-01",
+        "location": {
+          "zh-cn": "土木堡",
+          "en": "Tumu Fortress"
+        },
+        "description": {
+          "zh-cn": "明朝与瓦剌在土木堡发生的一场战役，导致明英宗被俘，是明朝由盛转衰的转折点之一。",
+          "en": "A military conflict between the Ming Dynasty and the Oirats at Tumu Fortress, which led to the capture of Emperor Yingzong and is considered a turning point from prosperity to decline for the Ming Dynasty."
+        }
+      }
+    },
+    {
+      "id": "瓦剌",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瓦剌"
+        ],
+        "en": [
+          "Oirats"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "蒙古族的一支部落联盟，在土木堡之变中击败明军并俘虏明英宗。",
+          "en": "A confederation of Mongol tribes that defeated the Ming army in the Tumu Crisis and captured Emperor Yingzong."
+        }
+      }
+    },
+    {
+      "id": "也先",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "也先"
+        ],
+        "en": [
+          "Esen Taishi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "瓦剌太师，在土木堡之变中俘虏明英宗，后将其送还明朝。",
+          "en": "The Taishi of the Oirats who captured Emperor Yingzong in the Tumu Crisis and later returned him to the Ming Dynasty."
+        }
+      }
+    },
+    {
+      "id": "王振",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王振"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝宦官，在英宗首次在位期间专权，怂恿英宗亲征导致土木堡之变，并在此役中被杀。",
+          "en": "A Ming Dynasty eunuch who monopolized power during Emperor Yingzong's first reign. He instigated the emperor to personally lead the expedition that resulted in the Tumu Crisis, where he was killed."
+        }
+      }
+    },
+    {
+      "id": "樊忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "樊忠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明英宗的护卫将军，在土木堡之变中杀死王振后战死。",
+          "en": "Emperor Yingzong's guard general, who killed Wang Zhen during the Tumu Crisis and died in battle."
+        }
+      }
+    },
+    {
+      "id": "北京保卫战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "北京保卫战"
+        ],
+        "en": [
+          "Defense of Beijing"
+        ]
+      },
+      "properties": {
+        "period": "1449",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "土木堡之变后，于谦领导明军成功抵御瓦剌对北京的进攻。",
+          "en": "Following the Tumu Crisis, the Ming army, led by Yu Qian, successfully defended Beijing against the Oirat invasion."
+        }
+      }
+    },
+    {
+      "id": "于谦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "于谦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝名臣，领导北京保卫战取得胜利，拥立景泰帝。后在夺门之变后被明英宗以谋逆罪杀害。",
+          "en": "A famous minister of the Ming Dynasty who led the Defense of Beijing to victory and supported the enthronement of the Jingtai Emperor. He was later executed for treason by Emperor Yingzong after the Duomen Coup."
+        }
+      }
+    },
+    {
+      "id": "杨善",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨善"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝鸿胪卿，说服瓦剌太师也先，成功迎回被俘的明英宗。",
+          "en": "A Ming Dynasty official who persuaded Esen Taishi of the Oirats to successfully bring back the captured Emperor Yingzong."
+        }
+      }
+    },
+    {
+      "id": "夺门之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "夺门之变"
+        ],
+        "en": [
+          "Duomen Coup"
+        ]
+      },
+      "properties": {
+        "period": "1457-02-11",
+        "location": {
+          "zh-cn": "南宫",
+          "en": "Southern Palace"
+        },
+        "description": {
+          "zh-cn": "一场宫廷政变，石亨、徐有贞、曹吉祥等人趁景泰帝病重，拥立被软禁的太上皇明英宗复辟。",
+          "en": "A palace coup where Shi Heng, Xu Youzhen, Cao Jixiang, and others took advantage of the Jingtai Emperor's illness to restore the imprisoned Emperor Emeritus Yingzong to the throne."
+        }
+      }
+    },
+    {
+      "id": "石亨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石亨"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝将领，夺门之变主谋之一。复辟后把持朝政，后因图谋叛乱被清算。",
+          "en": "A Ming Dynasty general and one of the masterminds of the Duomen Coup. After the restoration, he controlled the court but was later purged for plotting a rebellion."
+        }
+      }
+    },
+    {
+      "id": "徐有贞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐有贞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝官员，夺门之变主谋之一。力主杀害于谦，后被清算流放。",
+          "en": "A Ming Dynasty official and one of the masterminds of the Duomen Coup. He strongly advocated for the execution of Yu Qian and was later purged and exiled."
+        }
+      }
+    },
+    {
+      "id": "曹吉祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹吉祥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝宦官，夺门之变主谋之一。复辟后与石亨把持朝政，后因发动曹石之变被凌迟处死。",
+          "en": "A Ming Dynasty eunuch and one of the masterminds of the Duomen Coup. He controlled the court with Shi Heng after the restoration and was later executed by slow slicing for launching the Cao-Shi Rebellion."
+        }
+      }
+    },
+    {
+      "id": "王文 (永乐进士)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王文 (永乐进士)",
+          "王文"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝大学士，因支持景泰帝，在夺门之变后与于谦一同被杀害。",
+          "en": "A Grand Secretary of the Ming Dynasty who, due to his support for the Jingtai Emperor, was executed along with Yu Qian after the Duomen Coup."
+        }
+      }
+    },
+    {
+      "id": "宫妃殉葬制度",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "宫妃殉葬制度"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "自明太祖朱元璋时期开始的，皇帝去世后，其部分宫中妃嫔需陪葬的制度。",
+          "en": "A system starting from the time of Emperor Taizu of Ming (Zhu Yuanzhang) where some of the emperor's concubines were required to be buried with him after his death."
+        }
+      }
+    },
+    {
+      "id": "朱元璋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱元璋",
+          "明太祖"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝开国皇帝。",
+          "en": "The founding emperor of the Ming Dynasty."
+        }
+      }
+    },
+    {
+      "id": "孝庄睿皇后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孝庄睿皇后",
+          "钱皇后",
+          "钱氏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "明英宗的皇后。",
+          "en": "Empress of Emperor Yingzong."
+        }
+      }
+    },
+    {
+      "id": "孝肃皇后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孝肃皇后",
+          "周氏",
+          "周妃"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "明英宗的贵妃，明宪宗的生母。",
+          "en": "A noble consort of Emperor Yingzong and the biological mother of Emperor Xianzong."
+        }
+      }
+    },
+    {
+      "id": "明宪宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明宪宗",
+          "朱见深",
+          "朱见濡"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1447 - 1487",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第九位皇帝，明英宗长子。",
+          "en": "The ninth emperor of the Ming Dynasty, the eldest son of Emperor Yingzong."
+        }
+      }
+    },
+    {
+      "id": "李贤 (大学士)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李贤 (大学士)",
+          "李贤"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明英宗天顺朝的内阁首辅，是英宗复辟后倚重的贤臣。",
+          "en": "The Grand Secretary during the Tianshun era of Emperor Yingzong's reign, a virtuous minister whom the emperor relied upon after his restoration."
+        }
+      }
+    },
+    {
+      "id": "曹石之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "曹石之变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由曹吉祥和石亨策划的旨在反对明英宗的未遂叛乱。",
+          "en": "An unsuccessful rebellion planned by Cao Jixiang and Shi Heng against Emperor Yingzong."
+        }
+      }
+    },
+    {
+      "id": "明朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明朝",
+          "大明"
+        ],
+        "en": [
+          "Ming Dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1368 - 1644",
+        "description": {
+          "zh-cn": "中国历史上的一个朝代，由朱元璋建立。",
+          "en": "A dynasty in Chinese history founded by Zhu Yuanzhang."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "明英宗",
+      "target": "明宣宗",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "明英宗是明宣宗朱瞻基的长子。",
+          "en": "Emperor Yingzong was the eldest son of the Xuande Emperor, Zhu Zhanji."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "孝恭章皇后",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "明英宗的母亲是孝恭章皇后孙氏。",
+          "en": "Emperor Yingzong's mother was Empress Xiaogongzhang, née Sun."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "景泰帝",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "明英宗朱祁镇是景泰帝朱祁钰的异母兄。",
+          "en": "Emperor Yingzong (Zhu Qizhen) was the elder half-brother of the Jingtai Emperor (Zhu Qiyu)."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "孝庄睿皇后",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "孝庄睿皇后钱氏是明英宗的皇后。",
+          "en": "Empress Xiaozhuangrui, née Qian, was the empress of Emperor Yingzong."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "孝肃皇后",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "贵妃",
+          "en": "Noble Consort"
+        },
+        "description": {
+          "zh-cn": "孝肃皇后周氏是明英宗的贵妃，明宪宗的生母。",
+          "en": "Empress Xiaosu, née Zhou, was a noble consort of Emperor Yingzong and the birth mother of Emperor Xianzong."
+        }
+      }
+    },
+    {
+      "source": "明宪宗",
+      "target": "明英宗",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "明宪宗朱见深是明英宗的长子。",
+          "en": "Emperor Xianzong (Zhu Jianshen) was the eldest son of Emperor Yingzong."
+        }
+      }
+    },
+    {
+      "source": "明宪宗",
+      "target": "孝肃皇后",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "明宪宗朱见深的生母是孝肃皇后周氏。",
+          "en": "The birth mother of Emperor Xianzong (Zhu Jianshen) was Empress Xiaosu, née Zhou."
+        }
+      }
+    },
+    {
+      "source": "王振",
+      "target": "土木堡之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1449",
+        "description": {
+          "zh-cn": "宦官王振专权，并怂恿明英宗亲征瓦剌，直接导致了土木堡之变的发生。",
+          "en": "The eunuch Wang Zhen monopolized power and instigated Emperor Yingzong to personally lead an expedition against the Oirats, directly leading to the Tumu Crisis."
+        }
+      }
+    },
+    {
+      "source": "土木堡之变",
+      "target": "明英宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1449-09-01",
+        "description": {
+          "zh-cn": "在土木堡之变中，明军大败，明英宗被瓦剌俘虏。",
+          "en": "During the Tumu Crisis, the Ming army was decisively defeated, and Emperor Yingzong was captured by the Oirats."
+        }
+      }
+    },
+    {
+      "source": "也先",
+      "target": "明英宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1449-09-01",
+        "end_date": "1450",
+        "description": {
+          "zh-cn": "瓦剌太师也先在土木堡之变中俘虏了明英宗。",
+          "en": "Esen Taishi of the Oirats captured Emperor Yingzong during the Tumu Crisis."
+        }
+      }
+    },
+    {
+      "source": "樊忠",
+      "target": "王振",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1449-09-01",
+        "description": {
+          "zh-cn": "在土木堡之变中，明英宗的护卫将军樊忠以“为天下诛此贼”为名，用棰击杀了导致战败的王振。",
+          "en": "During the Tumu Crisis, Emperor Yingzong's guard general Fan Zhong, declaring 'I execute this traitor for the realm,' killed Wang Zhen, who was responsible for the defeat, with a club."
+        }
+      }
+    },
+    {
+      "source": "于谦",
+      "target": "北京保卫战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1449",
+        "position": {
+          "zh-cn": "领导者",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "于谦领导了北京保卫战，成功抵御了瓦剌的进攻。",
+          "en": "Yu Qian led the Defense of Beijing, successfully repelling the Oirat invasion."
+        }
+      }
+    },
+    {
+      "source": "北京保卫战",
+      "target": "瓦剌",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1449",
+        "description": {
+          "zh-cn": "北京保卫战的胜利挫败了瓦剌南下进攻北京的企图。",
+          "en": "The victory in the Defense of Beijing thwarted the Oirats' attempt to invade Beijing from the south."
+        }
+      }
+    },
+    {
+      "source": "孝恭章皇后",
+      "target": "景泰帝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1449-09",
+        "description": {
+          "zh-cn": "明英宗被俘后，孙太后（孝恭章皇后）批准群臣所请，立郕王朱祁钰为皇帝，是为景泰帝。",
+          "en": "After Emperor Yingzong's capture, Empress Dowager Sun (Empress Xiaogongzhang) approved the officials' request to enthrone Zhu Qiyu, the Prince of Cheng, as the Jingtai Emperor."
+        }
+      }
+    },
+    {
+      "source": "景泰帝",
+      "target": "明英宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1450",
+        "end_date": "1457-02-11",
+        "description": {
+          "zh-cn": "明英宗被瓦剌送还后，景泰帝将其软禁于南内崇质宫，长达七年。",
+          "en": "After Emperor Yingzong was returned by the Oirats, the Jingtai Emperor placed him under house arrest in the Southern Palace for seven years."
+        }
+      }
+    },
+    {
+      "source": "杨善",
+      "target": "明英宗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1450",
+        "description": {
+          "zh-cn": "鸿胪卿杨善出使瓦剌，说服也先，成功将明英宗迎回。",
+          "en": "The official Yang Shan went on a mission to the Oirats, persuaded Esen, and successfully brought Emperor Yingzong back."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "明英宗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-02-11",
+        "description": {
+          "zh-cn": "夺门之变使得被软禁的太上皇明英宗成功复位。",
+          "en": "The Duomen Coup enabled the imprisoned Emperor Emeritus Yingzong to be successfully restored to the throne."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "景泰帝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1457-02-11",
+        "description": {
+          "zh-cn": "夺门之变推翻了景泰帝的统治，他被废为郕王，不久后去世。",
+          "en": "The Duomen Coup overthrew the rule of the Jingtai Emperor, who was deposed to Prince of Cheng and died shortly after."
+        }
+      }
+    },
+    {
+      "source": "石亨",
+      "target": "夺门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-02-11",
+        "description": {
+          "zh-cn": "石亨是夺门之变的主要策划者和领导者之一。",
+          "en": "Shi Heng was one of the main planners and leaders of the Duomen Coup."
+        }
+      }
+    },
+    {
+      "source": "徐有贞",
+      "target": "夺门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-02-11",
+        "description": {
+          "zh-cn": "徐有贞是夺门之变的主要策划者和领导者之一。",
+          "en": "Xu Youzhen was one of the main planners and leaders of the Duomen Coup."
+        }
+      }
+    },
+    {
+      "source": "曹吉祥",
+      "target": "夺门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-02-11",
+        "description": {
+          "zh-cn": "曹吉祥是夺门之变的主要策划者和领导者之一。",
+          "en": "Cao Jixiang was one of the main planners and leaders of the Duomen Coup."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "于谦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1457-02",
+        "description": {
+          "zh-cn": "明英宗复辟后，以谋逆罪将北京保卫战的功臣于谦和王文等人杀害。",
+          "en": "After his restoration, Emperor Yingzong executed Yu Qian, the hero of the Defense of Beijing, and Wang Wen on charges of treason."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "王文 (永乐进士)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1457-02",
+        "description": {
+          "zh-cn": "明英宗复辟后，以谋逆罪将大学士王文和于谦等人杀害。",
+          "en": "After his restoration, Emperor Yingzong executed Grand Secretary Wang Wen and Yu Qian on charges of treason."
+        }
+      }
+    },
+    {
+      "source": "徐有贞",
+      "target": "于谦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1457-02",
+        "description": {
+          "zh-cn": "徐有贞向复位的明英宗进言“不杀于谦，今日之事无名”，力主将于谦处死。",
+          "en": "Xu Youzhen advised the restored Emperor Yingzong, 'If we do not execute Yu Qian, this affair (the coup) will have no legitimacy,' strongly advocating for Yu Qian's execution."
+        }
+      }
+    },
+    {
+      "source": "曹石之变",
+      "target": "明英宗",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "曹吉祥与石亨图谋发动叛乱（曹石之变），以反对明英宗。",
+          "en": "Cao Jixiang and Shi Heng plotted to launch a rebellion (the Cao-Shi Rebellion) against Emperor Yingzong."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "曹吉祥",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "明英宗在识破曹石之变后，将曹吉祥凌迟处死。",
+          "en": "After uncovering the Cao-Shi Rebellion, Emperor Yingzong had Cao Jixiang executed by slow slicing."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "石亨",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "明英宗在识破曹石之变后，将石亨囚禁至死。",
+          "en": "After uncovering the Cao-Shi Rebellion, Emperor Yingzong imprisoned Shi Heng until his death."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "宫妃殉葬制度",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1464",
+        "description": {
+          "zh-cn": "明英宗在临终遗言中，下令取消自明太祖以来的宫妃殉葬制度。",
+          "en": "In his last words, Emperor Yingzong ordered the abolition of the system of concubine burial, which had been in place since the time of Emperor Taizu of Ming."
+        }
+      }
+    },
+    {
+      "source": "朱元璋",
+      "target": "宫妃殉葬制度",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "宫妃殉葬制度始于明太祖朱元璋时期。",
+          "en": "The system of concubine burial began during the reign of Emperor Taizu of Ming, Zhu Yuanzhang."
+        }
+      }
+    },
+    {
+      "source": "明英宗",
+      "target": "李贤 (大学士)",
+      "type": "PUSHED",
+      "properties": {
+        "period": "1457 - 1464",
+        "description": {
+          "zh-cn": "在天顺年间，明英宗勤于理政，并任用李贤等贤臣。",
+          "en": "During the Tianshun era, Emperor Yingzong was diligent in governance and appointed virtuous ministers such as Li Xian."
+        }
+      }
+    },
+    {
+      "source": "明朝",
+      "target": "瓦剌",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1449",
+        "description": {
+          "zh-cn": "在土木堡之变期间，明朝与瓦剌处于战争状态。",
+          "en": "During the Tumu Crisis, the Ming Dynasty was in a state of war with the Oirats."
+        }
+      }
+    }
+  ]
+}

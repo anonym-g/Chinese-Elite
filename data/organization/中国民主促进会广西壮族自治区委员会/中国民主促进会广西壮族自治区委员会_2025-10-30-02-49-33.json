@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "中国民主促进会广西壮族自治区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主促进会广西壮族自治区委员会",
+          "民进广西壮族自治区委员会",
+          "民进广西区委会",
+          "广西民进"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "广西壮族自治区",
+          "en": "Guangxi Zhuang Autonomous Region"
+        },
+        "description": {
+          "zh-cn": "中国民主促进会在广西壮族自治区的地方组织。",
+          "en": "The local organization of the China Association for Promoting Democracy in the Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "中国民主促进会中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主促进会中央委员会"
+        ],
+        "en": [
+          "Central Committee of the China Association for Promoting Democracy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国民主促进会的中央领导机构。",
+          "en": "The central leading body of the China Association for Promoting Democracy."
+        }
+      }
+    },
+    {
+      "id": "中国民主促进会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主促进会"
+        ],
+        "en": [
+          "China Association for Promoting Democracy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的一个民主党派。",
+          "en": "One of the democratic parties in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "民主党派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主党派"
+        ],
+        "en": [
+          "Democratic parties"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国除中国共产党以外的八个参政党的统称。",
+          "en": "A collective term for the eight legally recognized political parties in the People's Republic of China other than the Communist Party of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国民主促进会广西壮族自治区委员会",
+      "target": "中国民主促进会中央委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框，“中国民主促进会广西壮族自治区委员会”的上级机构是“中国民主促进会中央委员会”。",
+          "en": "According to the infobox, the superior organization of the 'Guangxi Zhuang Autonomous Region Committee of the China Association for Promoting Democracy' is the 'Central Committee of the China Association for Promoting Democracy'."
+        }
+      }
+    },
+    {
+      "source": "中国民主促进会广西壮族自治区委员会",
+      "target": "中国民主促进会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "“中国民主促进会广西壮族自治区委员会”是“中国民主促进会”在广西壮族自治区的地方组织。",
+          "en": "The 'Guangxi Zhuang Autonomous Region Committee of the China Association for Promoting Democracy' is the local organization of the 'China Association for Promoting Democracy' in the Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "中国民主促进会广西壮族自治区委员会",
+      "target": "民主党派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框，“中国民主促进会广西壮族自治区委员会”的机构类型为“民主党派”。",
+          "en": "According to the infobox, the organization type of the 'Guangxi Zhuang Autonomous Region Committee of the China Association for Promoting Democracy' is 'Democratic party'."
+        }
+      }
+    }
+  ]
+}

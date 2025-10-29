@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "张肖南",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张肖南"
+        ],
+        "en": [
+          "Zhang Xiaonan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1955-05 - ",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": {
+          "zh-cn": "广东揭西",
+          "en": "Jiexi, Guangdong"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国军事人物，中国人民解放军少将，曾任云南省军区司令员。",
+          "en": "A military figure of the People's Republic of China, holding the rank of Major General in the People's Liberation Army. He formerly served as the commander of the Yunnan Military District."
+        }
+      }
+    },
+    {
+      "id": "揭西",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "揭西"
+        ],
+        "en": [
+          "Jiexi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军少将"
+        ],
+        "en": [
+          "Major General of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的一种军衔等级。",
+          "en": "A military rank in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "云南省军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "云南省军区"
+        ],
+        "en": [
+          "Yunnan Military District"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "张纪南",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张纪南"
+        ],
+        "en": [
+          "Zhang Jinan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任人力资源和社会保障部部长，是张肖南的弟弟。",
+          "en": "A politician of the People's Republic of China, former Minister of Human Resources and Social Security, and the younger brother of Zhang Xiaonan."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国人力资源和社会保障部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国人力资源和社会保障部",
+          "人力资源和社会保障部"
+        ],
+        "en": [
+          "Ministry of Human Resources and Social Security of the People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党党员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党党员"
+        ],
+        "en": [
+          "Member of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的成员身份。",
+          "en": "Membership status of the Communist Party of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张肖南",
+      "target": "揭西",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "张肖南是广东揭西人。",
+          "en": "Zhang Xiaonan is from Jiexi, Guangdong."
+        }
+      }
+    },
+    {
+      "source": "张肖南",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "军事人物",
+          "en": "Military figure"
+        }
+      }
+    },
+    {
+      "source": "张肖南",
+      "target": "中国人民解放军少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张肖南拥有中国人民解放军少将军衔。",
+          "en": "Zhang Xiaonan holds the rank of Major General in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "张肖南",
+      "target": "云南省军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "张肖南曾担任云南省军区司令员。",
+          "en": "Zhang Xiaonan formerly served as the commander of the Yunnan Military District."
+        }
+      }
+    },
+    {
+      "source": "张肖南",
+      "target": "张纪南",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张肖南是张纪南的兄长。",
+          "en": "Zhang Xiaonan is the elder brother of Zhang Jinan."
+        }
+      }
+    },
+    {
+      "source": "张纪南",
+      "target": "中华人民共和国人力资源和社会保障部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "部长",
+          "en": "Minister"
+        },
+        "description": {
+          "zh-cn": "张纪南是中华人民共和国人力资源和社会保障部原部长。",
+          "en": "Zhang Jinan is the former Minister of Human Resources and Social Security of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "张肖南",
+      "target": "中国共产党党员",
+      "type": "MEMBER_OF",
+      "properties": {}
+    }
+  ]
+}
