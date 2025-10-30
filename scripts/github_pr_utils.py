@@ -207,7 +207,7 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
             _run_command(['git', 'checkout', 'main'])
         except subprocess.CalledProcessError:
             # 如果不存在，则基于 upstream/main 创建一个新的本地 'main' 分支
-            _run_command(['git', 'checkout', '-b', 'main', 'upstream/main'])
+            _run_command(['git', 'checkout', '-b', 'main', 'upstream/main', '--force'])
 
         # 将本地 'main' 分支强制重置为与上游主仓库 'main' 完全一致的状态
         _run_command(['git', 'reset', '--hard', 'upstream/main'])
