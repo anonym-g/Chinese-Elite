@@ -1,4 +1,9 @@
 ## person
+(en) Deng Xiaoping
+(en) Hu Jintao
+(en) Hua Guofeng
+(en) Jiang Zemin
+(en) mao Zedong
 习近平
 (en) Xi Jinping
 唐納·川普
@@ -9032,6 +9037,7 @@ Papi酱
 范汉杰
 
 ## movement
+(en) Cultural Revolution
 文化大革命
 朝鲜战争
 中国抗日战争
