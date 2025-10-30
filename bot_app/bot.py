@@ -732,8 +732,8 @@ async def ensure_bot_initialized(application: Application) -> None:
             fallbacks=[CommandHandler("cancel", cancel_command)],
             per_user=True,
             per_chat=True,
-            # --- 设置5分钟超时，自动结束不活跃的对话 ---
-            conversation_timeout=300,  # 单位：秒
+            # # --- 设置5分钟超时，自动结束不活跃的对话 ---
+            # conversation_timeout=300,  # 单位：秒
             block=False
         )
 
