@@ -179,6 +179,10 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
         
         origin_url = f'https://{github_username}:{github_token}@github.com/{github_username}/Chinese-Elite.git'
         upstream_url = f"https://github.com/{upstream_repo}.git"
+
+        # 尝试移除可能存在的旧远程仓库
+        _run_command(['git', 'remote', 'remove', 'origin'], check=False)
+        _run_command(['git', 'remote', 'remove', 'upstream'], check=False)
         
         _run_command(['git', 'remote', 'add', 'origin', origin_url])
         _run_command(['git', 'remote', 'add', 'upstream', upstream_url])
