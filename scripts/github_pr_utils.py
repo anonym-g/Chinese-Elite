@@ -186,22 +186,27 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
         
         _run_command(['git', 'remote', 'add', 'origin', origin_url])
         _run_command(['git', 'remote', 'add', 'upstream', upstream_url])
+
+        # 从上游主仓库（upstream）获取最新的所有数据
         _run_command(['git', 'fetch', 'upstream'], env=custom_env)
 
+        # 确保本地有一个 'main' 分支，并切换过去
         try:
+            # 检查本地 'main' 分支是否存在
             _run_command(['git', 'show-ref', '--verify', '--quiet', 'refs/heads/main'])
+            # 如果存在，直接切换
             _run_command(['git', 'checkout', 'main'])
         except subprocess.CalledProcessError:
-            # 本地 main 分支不存在，从 upstream 创建
+            # 如果不存在，则基于 upstream/main 创建一个新的本地 'main' 分支
             _run_command(['git', 'checkout', '-b', 'main', 'upstream/main'])
 
-        # 将本地 main 分支与上游主仓库的 main 分支同步
-        _run_command(['git', 'pull', 'upstream', 'main'])
+        # 将本地 'main' 分支强制重置为与上游主仓库 'main' 完全一致的状态
+        _run_command(['git', 'reset', '--hard', 'upstream/main'])
 
-        # 将同步后的 main 分支推送到 fork (origin)
-        _run_command(['git', 'push', 'origin', 'main'], env=custom_env)
-        
-        # 基于最新的 main 分支创建本次操作的新分支
+        # 强制将同步好的 'main' 分支推送到 Fork (origin)
+        _run_command(['git', 'push', 'origin', 'main', '--force'], env=custom_env)
+
+        # 基于一个与上游主仓库完全同步的 'main' 分支，创建本次任务的新分支
         _run_command(['git', 'checkout', '-b', branch_name])
 
         # --- 5. 修改 LIST.md 文件 ---
