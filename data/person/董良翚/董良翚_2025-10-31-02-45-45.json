@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "董良翚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "董良翚"
+        ],
+        "en": [
+          "Dong Lianghui"
+        ]
+      },
+      "properties": {
+        "lifetime": "1941 - ",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员，中国文联原党组成员、书记处书记，第十届、第十一届全国政协委员，董必武之女。",
+          "en": "A politician of the People's Republic of China, a member of the Communist Party of China, former party group member and secretary of the China Federation of Literary and Art Circles, a member of the 10th and 11th National Committee of the CPPCC, and the daughter of Dong Biwu."
+        }
+      }
+    },
+    {
+      "id": "董必武",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "董必武"
+        ],
+        "en": [
+          "Dong Biwu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的创始人和早期领导人之一，董良翚之父。",
+          "en": "One of the founders and early leaders of the Communist Party of China and the People's Republic of China, and the father of Dong Lianghui."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国文联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国文联",
+          "中国文学艺术界联合会"
+        ],
+        "en": [
+          "China Federation of Literary and Art Circles"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国各文学艺术家协会、各省、自治区、直辖市文学艺术界联合会和全国性的产业文学艺术工作者联合会组成的人民团体。",
+          "en": "A people's organization composed of national associations of writers and artists, federations of literary and art circles of provinces, autonomous regions, and municipalities, and national industrial federations of literary and art workers."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议第十一届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十一届全国委员会",
+          "第十一届全国政协"
+        ],
+        "en": [
+          "11th National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "period": "2008-03 - 2013-03",
+        "description": {
+          "zh-cn": "中国人民政治协商会议的第十一届全国委员会。",
+          "en": "The 11th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "文史和学习委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "文史和学习委员会"
+        ],
+        "en": [
+          "Committee for Learning and Cultural and Historical Data"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议全国委员会的专门委员会之一。",
+          "en": "One of the special committees of the National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议第十届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十届全国委员会",
+          "第十届全国政协"
+        ],
+        "en": [
+          "10th National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "period": "2003-03 - 2008-03",
+        "description": {
+          "zh-cn": "中国人民政治协商会议的第十届全国委员会。",
+          "en": "The 10th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "董良翚",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治人物",
+          "en": "Politician"
+        },
+        "description": {
+          "zh-cn": "董良翚是中华人民共和国的一位政治人物。",
+          "en": "Dong Lianghui is a politician of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "董良翚",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "董良翚是中国共产党党员。",
+          "en": "Dong Lianghui is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "董良翚",
+      "target": "中国文联",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党组成员、书记处书记",
+          "en": "Party Group Member, Secretary of the Secretariat"
+        },
+        "description": {
+          "zh-cn": "根据文本记载，董良翚曾任中国文联党组成员、书记处书记。",
+          "en": "According to the text, Dong Lianghui formerly served as a Party Group Member and a Secretary of the Secretariat of the China Federation of Literary and Art Circles."
+        }
+      }
+    },
+    {
+      "source": "董良翚",
+      "target": "中国人民政治协商会议第十一届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008-01-25",
+        "end_date": "2013-03",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Committee Member"
+        },
+        "description": {
+          "zh-cn": "董良翚于2008年当选第十一届全国政协委员，代表文化艺术界，分入第二十七组。",
+          "en": "Dong Lianghui was elected as a member of the 11th National Committee of the CPPCC in 2008, representing the culture and arts sector and assigned to the 27th group."
+        }
+      }
+    },
+    {
+      "source": "董良翚",
+      "target": "董必武",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "董良翚是董必武的女儿。",
+          "en": "Dong Lianghui is the daughter of Dong Biwu."
+        }
+      }
+    },
+    {
+      "source": "董良翚",
+      "target": "文史和学习委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "end_date": "2013",
+        "position": {
+          "zh-cn": "专委",
+          "en": "Special Committee Member"
+        },
+        "description": {
+          "zh-cn": "在担任第十一届全国政协委员期间，董良翚同时担任文史和学习委员会专委。",
+          "en": "During her tenure as a member of the 11th National Committee of the CPPCC, Dong Lianghui also served as a special committee member of the Committee for Learning and Cultural and Historical Data."
+        }
+      }
+    },
+    {
+      "source": "文史和学习委员会",
+      "target": "中国人民政治协商会议第十一届全国委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "文史和学习委员会是中国人民政治协商会议全国委员会下设的专门委员会之一。",
+          "en": "The Committee for Learning and Cultural and Historical Data is one of the special committees under the National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "source": "董良翚",
+      "target": "中国人民政治协商会议第十届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2003-03",
+        "end_date": "2008-03",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Committee Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，董良翚曾担任第十届全国政协委员。",
+          "en": "According to the page category information, Dong Lianghui served as a member of the 10th National Committee of the CPPCC."
+        }
+      }
+    }
+  ]
+}

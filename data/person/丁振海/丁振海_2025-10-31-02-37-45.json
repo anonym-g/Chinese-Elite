@@ -1,0 +1,305 @@
+{
+  "nodes": [
+    {
+      "id": "丁振海",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丁振海",
+          "臻海"
+        ],
+        "en": [
+          "Ding Zhenhai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1941 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "石家庄",
+          "en": "Shijiazhuang"
+        },
+        "description": {
+          "zh-cn": "中国文艺理论家、红学家，曾任《人民日报》文艺部主任、海外版总编辑，是中国作家协会名誉委员和第十届全国政协委员。",
+          "en": "Chinese literary theorist and redologist, former director of the literature and art department and editor-in-chief of the overseas edition of the People's Daily, honorary member of the China Writers Association, and member of the 10th National Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "id": "石家庄",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "石家庄"
+        ],
+        "en": [
+          "Shijiazhuang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国河北省的省会和地级市。",
+          "en": "The capital and a prefecture-level city of Hebei Province in China."
+        }
+      }
+    },
+    {
+      "id": "人民日报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "人民日报"
+        ],
+        "en": [
+          "People's Daily"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央委员会的机关报。",
+          "en": "The official newspaper of the Central Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": [
+          "China Writers Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国各民族作家自愿结合的专业性人民团体。",
+          "en": "A professional people's organization formed voluntarily by writers of all ethnic groups in China."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议第十届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十届全国委员会",
+          "第十届全国政协"
+        ],
+        "en": [
+          "10th National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "period": "2003-03 - 2008-03",
+        "description": {
+          "zh-cn": "中国人民政治协商会议第十届全国委员会的任期为2003年3月至2008年3月。",
+          "en": "The term of the 10th National Committee of the CPPCC was from March 2003 to March 2008."
+        }
+      }
+    },
+    {
+      "id": "南开大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南开大学"
+        ],
+        "en": [
+          "Nankai University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国天津市的著名综合性研究型大学。",
+          "en": "A famous comprehensive research university located in Tianjin, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "人民日报社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "人民日报社"
+        ],
+        "en": [
+          "People's Daily Press"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央委员会直属事业单位，是《人民日报》的出版单位。",
+          "en": "A public institution directly under the Central Committee of the Communist Party of China, and the publisher of the People's Daily."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会第六届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会第六届全国委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2001-12 - 2006-11"
+      }
+    },
+    {
+      "id": "中国作家协会第七届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会第七届全国委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2006-11 - 2011-11"
+      }
+    },
+    {
+      "id": "中国作家协会第八届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会第八届全国委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2011-11 - 2016-12"
+      }
+    },
+    {
+      "id": "中国作家协会第九届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会第九届全国委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2016-12 - 2021-12"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "丁振海",
+      "target": "石家庄",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1941"
+      }
+    },
+    {
+      "source": "丁振海",
+      "target": "人民日报",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "文艺部主任、海外版总编辑",
+          "en": "Director of the Literature and Art Department, Editor-in-Chief of the Overseas Edition"
+        },
+        "description": {
+          "zh-cn": "丁振海曾任《人民日报》文艺部主任、海外版总编辑。",
+          "en": "Ding Zhenhai was the former director of the literature and art department and editor-in-chief of the overseas edition of the People's Daily."
+        }
+      }
+    },
+    {
+      "source": "丁振海",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "名誉委员",
+          "en": "Honorary Member"
+        }
+      }
+    },
+    {
+      "source": "丁振海",
+      "target": "中国人民政治协商会议第十届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2003-03",
+        "end_date": "2008-03",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        }
+      }
+    },
+    {
+      "source": "丁振海",
+      "target": "南开大学",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "丁振海",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        }
+      }
+    },
+    {
+      "source": "丁振海",
+      "target": "人民日报社",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "丁振海",
+      "target": "中国作家协会第六届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "丁振海",
+      "target": "中国作家协会第七届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "丁振海",
+      "target": "中国作家协会第八届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "丁振海",
+      "target": "中国作家协会第九届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    }
+  ]
+}

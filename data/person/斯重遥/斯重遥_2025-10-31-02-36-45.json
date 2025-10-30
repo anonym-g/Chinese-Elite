@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "斯重遥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "斯重遥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1921-05-25 - 2005-07-24",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "诸暨",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国焊接专家，曾任中国科学院金属研究所副所长、研究员、博士生导师。",
+          "en": "Chinese welding expert, former deputy director, researcher, and doctoral supervisor of the Institute of Metal Research, Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "id": "诸暨",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "诸暨"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国科学院金属研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院金属研究所"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "国立交通大学 (唐山)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国立交通大学 (唐山)"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国科学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院"
+        ],
+        "en": [
+          "Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "国务院政府特殊津贴专家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院政府特殊津贴专家"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "享受中华人民共和国国务院颁发的政府特殊津贴的专家、学者、技术人员。",
+          "en": "Experts, scholars, and technicians who enjoy the special government allowance issued by the State Council of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "斯重遥",
+      "target": "诸暨",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "斯重遥是浙江诸暨人。",
+          "en": "Si Chongyao was a native of Zhuji, Zhejiang."
+        }
+      }
+    },
+    {
+      "source": "斯重遥",
+      "target": "中国科学院金属研究所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副所长、研究员、博士生导师",
+          "en": "Deputy Director, Researcher, Doctoral Supervisor"
+        },
+        "description": {
+          "zh-cn": "斯重遥曾任中国科学院金属研究所副所长、研究员、博士生导师。",
+          "en": "Si Chongyao served as the deputy director, researcher, and doctoral supervisor of the Institute of Metal Research, Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "source": "斯重遥",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据“中国共产党党员”分类，斯重遥是中国共产党党员。",
+          "en": "According to the category 'Chinese Communist Party members', Si Chongyao was a member of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "斯重遥",
+      "target": "国立交通大学 (唐山)",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据“国立交通大学校友 (唐山)”分类，斯重遥是国立交通大学 (唐山)的校友。",
+          "en": "According to the category 'National Chiao Tung University alumni (Tangshan)', Si Chongyao was an alumnus of National Chiao Tung University (Tangshan)."
+        }
+      }
+    },
+    {
+      "source": "斯重遥",
+      "target": "中国科学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "研究员",
+          "en": "Researcher"
+        },
+        "description": {
+          "zh-cn": "根据“中国科学院研究员”分类，斯重遥是中国科学院研究员。",
+          "en": "According to the category 'Researchers of the Chinese Academy of Sciences', Si Chongyao was a researcher at the Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "source": "斯重遥",
+      "target": "国务院政府特殊津贴专家",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "专家",
+          "en": "Expert"
+        },
+        "description": {
+          "zh-cn": "根据“享受国务院政府特殊津贴专家”分类，斯重遥是享受国务院政府特殊津贴专家。",
+          "en": "According to the category 'Experts enjoying special government allowances from the State Council', Si Chongyao was an expert who received this allowance."
+        }
+      }
+    }
+  ]
+}

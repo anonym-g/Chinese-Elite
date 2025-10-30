@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "赵长天",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵长天"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1971 - 2013",
+        "lifetime": "1947-02-11 - 2013-03-31",
+        "gender": "Male",
+        "location": null,
+        "birth_place": {
+          "zh-cn": "宁波市",
+          "en": "Ningbo"
+        },
+        "death_place": {
+          "zh-cn": "上海市",
+          "en": "Shanghai"
+        },
+        "description": {
+          "zh-cn": "中国作家，原上海作家协会副主席，《萌芽》杂志主编，全国新概念作文大赛主要创办人。",
+          "en": "Chinese writer, former vice-chairman of the Shanghai Writers Association, editor-in-chief of Mengya magazine, and a main founder of the National New Concept Composition Competition."
+        }
+      }
+    },
+    {
+      "id": "宁波市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "宁波市",
+          "宁波"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "浙江省下辖的副省级市、计划单列市。",
+          "en": "A sub-provincial city and a city with separate planning status in Zhejiang Province."
+        }
+      }
+    },
+    {
+      "id": "上海市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "上海市"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国直辖市。",
+          "en": "A direct-administered municipality of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "华东师范大学第一附中",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华东师范大学第一附中"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于上海市的一所高级中学。",
+          "en": "A senior high school located in Shanghai."
+        }
+      }
+    },
+    {
+      "id": "那多",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "那多"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国悬疑小说作家，赵长天之子。",
+          "en": "Chinese suspense novelist, son of Zhao Changtian."
+        }
+      }
+    },
+    {
+      "id": "上海作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海作家协会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "上海市文学艺术界联合会和中国作家协会的团体会员。",
+          "en": "A group member of the Shanghai Federation of Literary and Art Circles and the China Writers Association."
+        }
+      }
+    },
+    {
+      "id": "萌芽",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "萌芽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一份由上海市作家协会主办的青年文学刊物。",
+          "en": "A youth literary magazine sponsored by the Shanghai Writers Association."
+        }
+      }
+    },
+    {
+      "id": "新概念作文大赛",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "新概念作文大赛"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由《萌芽》杂志社主办的全国性文学赛事。",
+          "en": "A national literary competition hosted by Mengya magazine."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国各民族作家自愿结合的专业性人民团体。",
+          "en": "A professional people's organization formed voluntarily by writers of all ethnic groups in China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "赵长天",
+      "target": "宁波市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1947-02-11",
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "赵长天出生于浙江省宁波市。",
+          "en": "Zhao Changtian was born in Ningbo, Zhejiang Province."
+        }
+      }
+    },
+    {
+      "source": "赵长天",
+      "target": "华东师范大学第一附中",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "赵长天毕业于华东师范大学第一附中。",
+          "en": "Zhao Changtian graduated from the No. 1 High School Affiliated to East China Normal University."
+        }
+      }
+    },
+    {
+      "source": "那多",
+      "target": "赵长天",
+      "type": "CHILD_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "那多是赵长天的儿子。",
+          "en": "Na Duo is the son of Zhao Changtian."
+        }
+      }
+    },
+    {
+      "source": "赵长天",
+      "target": "上海作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "赵长天曾任上海作家协会副主席。",
+          "en": "Zhao Changtian served as the Vice Chairman of the Shanghai Writers Association."
+        }
+      }
+    },
+    {
+      "source": "赵长天",
+      "target": "萌芽",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "主编",
+          "en": "Editor-in-chief"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "赵长天曾任《萌芽》杂志主编。",
+          "en": "Zhao Changtian served as the editor-in-chief of Mengya magazine."
+        }
+      }
+    },
+    {
+      "source": "赵长天",
+      "target": "新概念作文大赛",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "赵长天是全国新概念作文大赛的主要创办人。",
+          "en": "Zhao Changtian was a main founder of the National New Concept Composition Competition."
+        }
+      }
+    },
+    {
+      "source": "赵长天",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "会员",
+          "en": "Member"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "赵长天是中国作家协会会员，并曾任第五、六、七届全国委员会委员。",
+          "en": "Zhao Changtian was a member of the China Writers Association and served on its 5th, 6th, and 7th National Committees."
+        }
+      }
+    },
+    {
+      "source": "赵长天",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "赵长天是中国共产党党员。",
+          "en": "Zhao Changtian was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

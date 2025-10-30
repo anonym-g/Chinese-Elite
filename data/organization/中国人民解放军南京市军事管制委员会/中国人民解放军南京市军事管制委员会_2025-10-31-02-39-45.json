@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "id": "中国人民解放军南京市军事管制委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军南京市军事管制委员会",
+          "南京市军管会"
+        ],
+        "en": [
+          "Chinese People's Liberation Army Nanjing Municipal Military Control Commission"
+        ]
+      },
+      "properties": {
+        "period": [
+          "1949-04-28 - 1950",
+          "1967-03 - 1968-03"
+        ],
+        "location": {
+          "zh-cn": "南京市"
+        },
+        "description": {
+          "zh-cn": "南京市在军事管制期间的最高权力机关，先后于1949年和1967年两次成立。",
+          "en": "The highest authority in Nanjing during the period of military control, established twice in 1949 and 1967."
+        }
+      }
+    },
+    {
+      "id": "南京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "南京市"
+        ],
+        "en": [
+          "Nanjing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国江苏省省会。",
+          "en": "The capital of Jiangsu Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "军事管制",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "军事管制"
+        ],
+        "en": [
+          "Military control"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种由军队接管民事政权的特殊状态，通常在战争或紧急情况下实施。",
+          "en": "A special state in which the military takes over civil power, usually implemented during war or emergencies."
+        }
+      }
+    },
+    {
+      "id": "南京市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南京市人民政府"
+        ],
+        "en": [
+          "Nanjing Municipal People's Government"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "南京市"
+        },
+        "description": {
+          "zh-cn": "南京市的最高国家行政机关。",
+          "en": "The highest state administrative organ of Nanjing."
+        }
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党",
+          "国民党"
+        ],
+        "en": [
+          "Kuomintang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的政党，在1949年前统治中国大陆。",
+          "en": "A Chinese political party that ruled mainland China before 1949."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "军事管制",
+      "target": "中国人民解放军南京市军事管制委员会",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": [
+          "1949-04-28",
+          "1967-03"
+        ],
+        "description": {
+          "zh-cn": "为了在南京市实施军事管制，成立了中国人民解放军南京市军事管制委员会作为最高权力机关。",
+          "en": "The Chinese People's Liberation Army Nanjing Municipal Military Control Commission was established as the highest authority to implement military control in Nanjing."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军南京市军事管制委员会",
+      "target": "中国国民党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1949-04-28",
+        "description": {
+          "zh-cn": "其职能之一是接收清理国民党在南京的中央机关和南京市各机关及官僚资本机构遗留的人员、财产、档案，并肃清其残余势力。",
+          "en": "One of its functions was to take over and liquidate the personnel, property, and archives left by the Kuomintang's central organs, various municipal agencies, and bureaucrat-capital institutions in Nanjing, and to eliminate its remaining forces."
+        }
+      }
+    },
+    {
+      "source": "南京市人民政府",
+      "target": "中国人民解放军南京市军事管制委员会",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1950",
+        "description": {
+          "zh-cn": "1950年后，南京市军管会的权力逐渐移交给南京市人民政府，导致其第一次使命的结束。",
+          "en": "After 1950, the power of the Nanjing Municipal Military Control Commission was gradually transferred to the Nanjing Municipal People's Government, leading to the end of its first mission."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军南京市军事管制委员会",
+      "target": "南京市",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": [
+          "1949-04-28",
+          "1967-03"
+        ],
+        "end_date": [
+          "1950",
+          "1968-03"
+        ],
+        "description": {
+          "zh-cn": "在军事管制期间作为南京市的最高权力机关，对该市实行全面管治。",
+          "en": "Served as the highest authority in Nanjing during the period of military control, exercising comprehensive governance over the city."
+        }
+      }
+    }
+  ]
+}

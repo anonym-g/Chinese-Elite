@@ -1,0 +1,154 @@
+{
+  "nodes": [
+    {
+      "id": "石玉东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石玉东"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1965-01 - ",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "山东安丘",
+          "en": "Anqiu, Shandong"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，汉族。",
+          "en": "A political figure in the People's Republic of China, of Han ethnicity."
+        }
+      }
+    },
+    {
+      "id": "山东",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山东"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "安丘",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "安丘"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "四川",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "四川"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "全国人民代表大会代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会代表",
+          "全国人大代表"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全国人民代表大会的组成人员，是中华人民共和国最高国家权力机关的成员。",
+          "en": "Members of the National People's Congress, who are members of the highest state power organ of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "石玉东",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "石玉东是中国共产党党员。",
+          "en": "Shi Yudong is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "石玉东",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "四川地区代表",
+          "en": "Delegate from Sichuan region"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，石玉东当选为第十三届全国人民代表大会四川地区代表。",
+          "en": "On February 24, 2018, Shi Yudong was elected as a delegate from the Sichuan region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "石玉东",
+      "target": "全国人民代表大会代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "全国人大代表",
+          "en": "Delegate to the National People's Congress"
+        },
+        "description": {
+          "zh-cn": "石玉东的职务为全国人大代表。",
+          "en": "Shi Yudong's position is a delegate to the National People's Congress."
+        }
+      }
+    }
+  ]
+}

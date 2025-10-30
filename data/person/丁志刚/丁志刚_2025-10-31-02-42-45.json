@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "id": "丁志刚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丁志刚",
+          "丁铸铁",
+          "管一丁"
+        ],
+        "en": [
+          "Ding Zhigang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1919-05-12 - 1996-10-03",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "滕县",
+          "en": "Teng County"
+        },
+        "description": {
+          "zh-cn": "中国图书馆管理专家，原籍江苏徐州。",
+          "en": "Chinese library management expert, with ancestral roots in Xuzhou, Jiangsu."
+        }
+      }
+    },
+    {
+      "id": "滕县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "滕县"
+        ],
+        "en": [
+          "Teng County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "山东省历史上的一个县，现为滕州市。",
+          "en": "A former county in Shandong Province, now Tengzhou City."
+        }
+      }
+    },
+    {
+      "id": "山东省文学艺术界联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省文学艺术界联合会"
+        ],
+        "en": [
+          "Shandong Provincial Federation of Literary and Art Circles"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "山东省",
+          "en": "Shandong Province"
+        },
+        "description": {
+          "zh-cn": "中国共产党山东省委员会领导下的专业性人民团体。",
+          "en": "A professional people's organization under the leadership of the Shandong Provincial Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "北京图书馆",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京图书馆"
+        ],
+        "en": [
+          "Beijing Library"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中国国家图书馆的前身。",
+          "en": "The predecessor of the National Library of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "丁志刚",
+      "target": "滕县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1919-05-12",
+        "description": {
+          "zh-cn": "丁志刚于1919年5月12日出生于山东滕县。",
+          "en": "Ding Zhigang was born in Teng County, Shandong on May 12, 1919."
+        }
+      }
+    },
+    {
+      "source": "丁志刚",
+      "target": "山东省文学艺术界联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "丁志刚曾担任山东省文学艺术界联合会副主席。",
+          "en": "Ding Zhigang once served as the Vice Chairman of the Shandong Provincial Federation of Literary and Art Circles."
+        }
+      }
+    },
+    {
+      "source": "丁志刚",
+      "target": "北京图书馆",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委副书记、副馆长",
+          "en": "Deputy Party Secretary, Deputy Director"
+        },
+        "description": {
+          "zh-cn": "丁志刚曾担任北京图书馆党委副书记、副馆长。",
+          "en": "Ding Zhigang once served as the Deputy Party Secretary and Deputy Director of the Beijing Library."
+        }
+      }
+    },
+    {
+      "source": "丁志刚",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“中国共产党党员”，丁志刚是中国共产党党员。",
+          "en": "According to the page category 'Communist Party of China members', Ding Zhigang was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

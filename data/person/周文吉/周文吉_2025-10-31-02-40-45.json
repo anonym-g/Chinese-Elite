@@ -1,0 +1,223 @@
+{
+  "nodes": [
+    {
+      "id": "周文吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周文吉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "lifetime": "",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": {},
+        "death_place": {},
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任宁夏回族自治区政协副主席，第九届全国政协委员。2000年被开除中国共产党党籍。",
+          "en": "A politician of the People's Republic of China, former Vice Chairman of the CPPCC Ningxia Hui Autonomous Region Committee, and a member of the 9th National Committee of the CPPCC. He was expelled from the Chinese Communist Party in 2000."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议宁夏回族自治区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议宁夏回族自治区委员会",
+          "宁夏回族自治区政协"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {
+          "zh-cn": "宁夏回族自治区",
+          "en": "Ningxia Hui Autonomous Region"
+        },
+        "description": {
+          "zh-cn": "中国人民政治协商会议在宁夏回族自治区的地方组织。",
+          "en": "The local organization of the Chinese People's Political Consultative Conference in the Ningxia Hui Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议第九届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第九届全国委员会",
+          "第九届全国政协"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1998-03 - 2003-03",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中国人民政治协商会议的第九届全国委员会，于1998年3月至2003年3月期间履行职能。",
+          "en": "The 9th National Committee of the Chinese People's Political Consultative Conference, which served from March 1998 to March 2003."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "period": "1921-07-23 - ",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "宁夏回族自治区人事劳动厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁夏回族自治区人事劳动厅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {
+          "zh-cn": "宁夏回族自治区",
+          "en": "Ningxia Hui Autonomous Region"
+        },
+        "description": {
+          "zh-cn": "宁夏回族自治区负责管理劳动人事事务的政府部门。",
+          "en": "The government department of the Ningxia Hui Autonomous Region responsible for personnel and labor affairs."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "location": {},
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为“中国”。",
+          "en": "A socialist state in East Asia, commonly known as 'China'."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "周文吉",
+      "target": "中国人民政治协商会议宁夏回族自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "周文吉曾担任宁夏回族自治区政协副主席。",
+          "en": "Zhou Wenji once served as Vice Chairman of the CPPCC of Ningxia Hui Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "周文吉",
+      "target": "中国人民政治协商会议第九届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "周文吉曾担任第九届全国政协委员。",
+          "en": "Zhou Wenji served as a member of the 9th National Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "周文吉",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "2000",
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "周文吉曾是中国共产党党员，于2000年被开除党籍。",
+          "en": "Zhou Wenji was a member of the Chinese Communist Party and was expelled in 2000."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "周文吉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2000",
+        "end_date": "",
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "2000年，周文吉被开除中国共产党党籍。",
+          "en": "In 2000, Zhou Wenji was expelled from the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "周文吉",
+      "target": "宁夏回族自治区人事劳动厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "厅长",
+          "en": "Director"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "根据其维基百科分类，周文吉曾任宁夏回族自治区人事劳动厅厅长。",
+          "en": "According to his Wikipedia category, Zhou Wenji served as Director of the Department of Personnel and Labor of the Ningxia Hui Autonomous Region."
+        }
+      }
+    }
+  ]
+}

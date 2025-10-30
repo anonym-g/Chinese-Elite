@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "中国人口福利基金会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人口福利基金会"
+        ],
+        "en": [
+          "China Population Welfare Foundation"
+        ]
+      },
+      "properties": {
+        "period": "1987-06-10 - ",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国从事人口福利事业的公募非营利性社会团体，由国家卫生健康委员会主管。",
+          "en": "A public non-profit social organization in the People's Republic of China engaged in population welfare, supervised by the National Health Commission."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，成立于1949年。",
+          "en": "A socialist state in East Asia, founded in 1949."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国家卫生健康委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国家卫生健康委员会",
+          "国家卫生健康委员会"
+        ],
+        "en": [
+          "National Health Commission of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院主管卫生健康事业的组成部门。",
+          "en": "A constituent department of the State Council of the People's Republic of China responsible for national health."
+        }
+      }
+    },
+    {
+      "id": "王首道",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王首道"
+        ],
+        "en": [
+          "Wang Shoudao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中国人口福利基金会会长。",
+          "en": "A Chinese politician who served as the president of the China Population Welfare Foundation."
+        }
+      }
+    },
+    {
+      "id": "谷牧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谷牧"
+        ],
+        "en": [
+          "Gu Mu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中国人口福利基金会会长。",
+          "en": "A Chinese politician who served as the president of the China Population Welfare Foundation."
+        }
+      }
+    },
+    {
+      "id": "何鲁丽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何鲁丽"
+        ],
+        "en": [
+          "He Luli"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中国人口福利基金会会长。",
+          "en": "A Chinese politician who served as the president of the China Population Welfare Foundation."
+        }
+      }
+    },
+    {
+      "id": "王忠禹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王忠禹"
+        ],
+        "en": [
+          "Wang Zhongyu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中国人口福利基金会会长。",
+          "en": "A Chinese politician who served as the president of the China Population Welfare Foundation."
+        }
+      }
+    },
+    {
+      "id": "李金华 (审计长)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李金华 (审计长)",
+          "李金华"
+        ],
+        "en": [
+          "Li Jinhua (auditor general)"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中国人口福利基金会会长。",
+          "en": "A Chinese politician who served as the president of the China Population Welfare Foundation."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国人口福利基金会",
+      "target": "中华人民共和国国家卫生健康委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1987-06-10",
+        "description": {
+          "zh-cn": "中国人口福利基金会由国家卫生健康委员会主管。",
+          "en": "The China Population Welfare Foundation is supervised by the National Health Commission."
+        }
+      }
+    },
+    {
+      "source": "王首道",
+      "target": "中国人口福利基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "曾任中国人口福利基金会会长。",
+          "en": "Served as the President of the China Population Welfare Foundation."
+        }
+      }
+    },
+    {
+      "source": "谷牧",
+      "target": "中国人口福利基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "曾任中国人口福利基金会会长。",
+          "en": "Served as the President of the China Population Welfare Foundation."
+        }
+      }
+    },
+    {
+      "source": "何鲁丽",
+      "target": "中国人口福利基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "曾任中国人口福利基金会会长。",
+          "en": "Served as the President of the China Population Welfare Foundation."
+        }
+      }
+    },
+    {
+      "source": "王忠禹",
+      "target": "中国人口福利基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "曾任中国人口福利基金会会长。",
+          "en": "Served as the President of the China Population Welfare Foundation."
+        }
+      }
+    },
+    {
+      "source": "李金华 (审计长)",
+      "target": "中国人口福利基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "曾任中国人口福利基金会会长。",
+          "en": "Served as the President of the China Population Welfare Foundation."
+        }
+      }
+    }
+  ]
+}
