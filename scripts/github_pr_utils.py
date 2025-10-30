@@ -37,20 +37,26 @@ def _run_command(command: list[str], check: bool = True, env: Optional[Dict[str,
         result = subprocess.run(
             command,
             capture_output=True,
-            text=True,
             check=check,
-            encoding='utf-8',
+            # text=True,
+            # encoding='utf-8',
             cwd=ROOT_DIR,
             env=env,
             timeout=300
         )
-        if result.stdout:
-            logger.info(f"命令输出:\n{result.stdout.strip()}")
-        if result.stderr:
-            logger.warning(f"命令错误输出:\n{result.stderr.strip()}")
+        
+        # 将 bytes 解码为 str，并使用 'replace' 策略处理无效字节，防止崩溃
+        stdout_str = result.stdout.decode('utf-8', errors='replace').strip()
+        stderr_str = result.stderr.decode('utf-8', errors='replace').strip()
+
+        if stdout_str:
+            logger.info(f"命令输出:\n{stdout_str}")
+        if stderr_str:
+            logger.warning(f"命令错误输出:\n{stderr_str}")
         return result
     except subprocess.CalledProcessError as e:
-        logger.error(f"命令执行失败: {' '.join(command)}\n退出码: {e.returncode}\n标准错误:\n{e.stderr}")
+        stderr_decoded = e.stderr.decode('utf-8', errors='replace').strip() if e.stderr else ""
+        logger.error(f"命令执行失败: {' '.join(command)}\n退出码: {e.returncode}\n标准错误:\n{stderr_decoded}")
         raise
     except FileNotFoundError:
         logger.critical(f"严重错误: 命令 '{command[0]}' 未找到。请确保 git 和 gh (GitHub CLI) 已安装并位于系统的 PATH 中。")
@@ -89,6 +95,9 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
     """
     branch_name: Optional[str] = None
     try:
+        # 暂存本地修改
+        _run_command(['git', 'stash'], check=False)
+        
         # --- 1. 初始化报告和最终待添加列表 ---
         report = {
             'accepted': [], 'corrected': [], 'rejected': [], 'skipped': []
@@ -255,7 +264,7 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
             '--head', f'{github_username}:{branch_name}'
         ], env=custom_env)
         
-        pr_url = pr_result.stdout.strip()
+        pr_url = pr_result.stdout.decode('utf-8', errors='replace').strip()
 
         # --- 7. 清理本地环境 ---
         _run_command(['git', 'checkout', 'main'])
@@ -274,3 +283,6 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
         except Exception as cleanup_e:
             logger.error(f"错误后清理失败: {cleanup_e}")
         return None
+    finally:
+        # 尝试恢复暂存区
+        _run_command(['git', 'stash', 'pop'], check=False)
