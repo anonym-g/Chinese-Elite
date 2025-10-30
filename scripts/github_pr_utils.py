@@ -37,20 +37,26 @@ def _run_command(command: list[str], check: bool = True, env: Optional[Dict[str,
         result = subprocess.run(
             command,
             capture_output=True,
-            text=True,
             check=check,
-            encoding='utf-8',
+            # text=True,
+            # encoding='utf-8',
             cwd=ROOT_DIR,
             env=env,
             timeout=300
         )
-        if result.stdout:
-            logger.info(f"命令输出:\n{result.stdout.strip()}")
-        if result.stderr:
-            logger.warning(f"命令错误输出:\n{result.stderr.strip()}")
+        
+        # 将 bytes 解码为 str，并使用 'replace' 策略处理无效字节，防止崩溃
+        stdout_str = result.stdout.decode('utf-8', errors='replace').strip()
+        stderr_str = result.stderr.decode('utf-8', errors='replace').strip()
+
+        if stdout_str:
+            logger.info(f"命令输出:\n{stdout_str}")
+        if stderr_str:
+            logger.warning(f"命令错误输出:\n{stderr_str}")
         return result
     except subprocess.CalledProcessError as e:
-        logger.error(f"命令执行失败: {' '.join(command)}\n退出码: {e.returncode}\n标准错误:\n{e.stderr}")
+        stderr_decoded = e.stderr.decode('utf-8', errors='replace').strip() if e.stderr else ""
+        logger.error(f"命令执行失败: {' '.join(command)}\n退出码: {e.returncode}\n标准错误:\n{stderr_decoded}")
         raise
     except FileNotFoundError:
         logger.critical(f"严重错误: 命令 '{command[0]}' 未找到。请确保 git 和 gh (GitHub CLI) 已安装并位于系统的 PATH 中。")
@@ -174,17 +180,43 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
         if https_proxy: custom_env["HTTPS_PROXY"] = https_proxy
         
         _run_command(['git', 'init'])
+
+        # 在一个有效的 Git 仓库中，暂存所有未提交的更改，确保工作目录干净
+        _run_command(['git', 'stash'], check=False)
+
         _run_command(['git', 'config', '--local', 'user.name', github_username])
         _run_command(['git', 'config', '--local', 'user.email', f'{github_username}@users.noreply.github.com'])
         
         origin_url = f'https://{github_username}:{github_token}@github.com/{github_username}/Chinese-Elite.git'
         upstream_url = f"https://github.com/{upstream_repo}.git"
+
+        # 尝试移除可能存在的旧版远程仓库
+        _run_command(['git', 'remote', 'remove', 'origin'], check=False)
+        _run_command(['git', 'remote', 'remove', 'upstream'], check=False)
         
         _run_command(['git', 'remote', 'add', 'origin', origin_url])
         _run_command(['git', 'remote', 'add', 'upstream', upstream_url])
+
+        # 从上游主仓库（upstream）获取最新的所有数据
         _run_command(['git', 'fetch', 'upstream'], env=custom_env)
-        _run_command(['git', 'checkout', '-b', 'main', 'upstream/main'])
-        
+
+        # 确保本地有一个 'main' 分支，并切换过去
+        try:
+            # 检查本地 'main' 分支是否存在
+            _run_command(['git', 'show-ref', '--verify', '--quiet', 'refs/heads/main'])
+            # 如果存在，直接切换
+            _run_command(['git', 'checkout', 'main'])
+        except subprocess.CalledProcessError:
+            # 如果不存在，则基于 upstream/main 创建一个新的本地 'main' 分支
+            _run_command(['git', 'checkout', '-b', 'main', 'upstream/main', '--force'])
+
+        # 将本地 'main' 分支强制重置为与上游主仓库 'main' 完全一致的状态
+        _run_command(['git', 'reset', '--hard', 'upstream/main'])
+
+        # 强制将同步好的 'main' 分支推送到 Fork (origin)
+        _run_command(['git', 'push', 'origin', 'main', '--force'], env=custom_env)
+
+        # 基于一个与上游主仓库完全同步的 'main' 分支，创建本次任务的新分支
         _run_command(['git', 'checkout', '-b', branch_name])
 
         # --- 5. 修改 LIST.md 文件 ---
@@ -233,7 +265,7 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
             '--head', f'{github_username}:{branch_name}'
         ], env=custom_env)
         
-        pr_url = pr_result.stdout.strip()
+        pr_url = pr_result.stdout.decode('utf-8', errors='replace').strip()
 
         # --- 7. 清理本地环境 ---
         _run_command(['git', 'checkout', 'main'])
@@ -252,3 +284,6 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
         except Exception as cleanup_e:
             logger.error(f"错误后清理失败: {cleanup_e}")
         return None
+    finally:
+        # 尝试恢复暂存区
+        _run_command(['git', 'stash', 'pop'], check=False)
