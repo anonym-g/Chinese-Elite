@@ -1,0 +1,305 @@
+{
+  "nodes": [
+    {
+      "id": "宋保亮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋保亮"
+        ],
+        "en": [
+          "Song Baoliang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1975-01-19 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "林县",
+          "en": "Lin County"
+        },
+        "description": {
+          "zh-cn": "中国生物化学家，现任武汉大学副校长，中国生物物理学会常务理事，2021年当选中国科学院院士。",
+          "en": "Chinese biochemist, current Vice President of Wuhan University, standing council member of the Biophysical Society of China, and elected as an academician of the Chinese Academy of Sciences in 2021."
+        }
+      }
+    },
+    {
+      "id": "林县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "林县"
+        ],
+        "en": [
+          "Lin County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "南京大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南京大学"
+        ],
+        "en": [
+          "Nanjing University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国科学院上海生命科学研究院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院上海生命科学研究院"
+        ],
+        "en": [
+          "Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "德克萨斯大学西南医学中心",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德克萨斯大学西南医学中心"
+        ],
+        "en": [
+          "University of Texas Southwestern Medical Center"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "武汉大学生命科学学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武汉大学生命科学学院"
+        ],
+        "en": [
+          "College of Life Sciences, Wuhan University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "武汉大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武汉大学"
+        ],
+        "en": [
+          "Wuhan University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国科学院生命科学和医学学部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院生命科学和医学学部"
+        ],
+        "en": [
+          "Division of Life Sciences and Medicine, Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国科学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院"
+        ],
+        "en": [
+          "Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国生物物理学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国生物物理学会"
+        ],
+        "en": [
+          "Biophysical Society of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "宋保亮",
+      "target": "林县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1975-01-19",
+        "description": {
+          "zh-cn": "宋保亮于1975年1月19日出生于河南省林县。",
+          "en": "Song Baoliang was born on January 19, 1975, in Lin County, Henan Province."
+        }
+      }
+    },
+    {
+      "source": "宋保亮",
+      "target": "南京大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1997",
+        "description": {
+          "zh-cn": "1997年毕业于南京大学生物科学与技术系。",
+          "en": "Graduated from the Department of Biological Sciences and Technology at Nanjing University in 1997."
+        }
+      }
+    },
+    {
+      "source": "宋保亮",
+      "target": "中国科学院上海生命科学研究院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "2002",
+        "degree": {
+          "zh-cn": "博士",
+          "en": "PhD"
+        },
+        "description": {
+          "zh-cn": "2002年取得中国科学院上海生命科学研究院生物化学与细胞生物学研究所博士学位。",
+          "en": "Obtained a PhD from the Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences in 2002."
+        }
+      }
+    },
+    {
+      "source": "宋保亮",
+      "target": "德克萨斯大学西南医学中心",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2002",
+        "end_date": "2005",
+        "position": {
+          "zh-cn": "博士后",
+          "en": "Postdoctoral researcher"
+        },
+        "description": {
+          "zh-cn": "2002到2005年在美国德克萨斯大学西南医学中心进行博士后研究。",
+          "en": "Conducted postdoctoral research at the University of Texas Southwestern Medical Center from 2002 to 2005."
+        }
+      }
+    },
+    {
+      "source": "宋保亮",
+      "target": "中国科学院上海生命科学研究院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2005",
+        "position": {
+          "zh-cn": "研究员、博士生导师",
+          "en": "Researcher, PhD supervisor"
+        },
+        "description": {
+          "zh-cn": "2005年进入中科院上海生命科学研究院生物化学与细胞生物学研究所任研究员、博士生导师。",
+          "en": "In 2005, he joined the Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, as a researcher and PhD supervisor."
+        }
+      }
+    },
+    {
+      "source": "宋保亮",
+      "target": "武汉大学生命科学学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014",
+        "position": {
+          "zh-cn": "院长、教授",
+          "en": "Dean, Professor"
+        },
+        "description": {
+          "zh-cn": "2014年任武汉大学生命科学学院院长、教授。",
+          "en": "In 2014, he was appointed Dean and Professor of the College of Life Sciences at Wuhan University."
+        }
+      }
+    },
+    {
+      "source": "武汉大学生命科学学院",
+      "target": "武汉大学",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "武汉大学生命科学学院是武汉大学下属的学院。",
+          "en": "The College of Life Sciences is a school under Wuhan University."
+        }
+      }
+    },
+    {
+      "source": "宋保亮",
+      "target": "中国科学院生命科学和医学学部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021",
+        "position": {
+          "zh-cn": "院士",
+          "en": "Academician"
+        },
+        "description": {
+          "zh-cn": "2021年当选中国科学院生命科学和医学学部院士。",
+          "en": "In 2021, he was elected as an academician of the Division of Life Sciences and Medicine, Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "source": "中国科学院生命科学和医学学部",
+      "target": "中国科学院",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国科学院生命科学和医学学部是中国科学院的学部之一。",
+          "en": "The Division of Life Sciences and Medicine is one of the academic divisions of the Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "source": "宋保亮",
+      "target": "武汉大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-08",
+        "position": {
+          "zh-cn": "副校长",
+          "en": "Vice President"
+        },
+        "description": {
+          "zh-cn": "2022年8月，任武汉大学副校长。",
+          "en": "In August 2022, he was appointed Vice President of Wuhan University."
+        }
+      }
+    },
+    {
+      "source": "宋保亮",
+      "target": "中国生物物理学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务理事",
+          "en": "Standing Council Member"
+        },
+        "description": {
+          "zh-cn": "宋保亮现任中国生物物理学会常务理事。",
+          "en": "Song Baoliang is a standing council member of the Biophysical Society of China."
+        }
+      }
+    }
+  ]
+}

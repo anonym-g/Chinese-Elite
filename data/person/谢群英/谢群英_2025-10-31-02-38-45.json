@@ -1,0 +1,274 @@
+{
+  "nodes": [
+    {
+      "id": "谢群英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢群英"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1964-01-03 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "绍兴",
+          "en": "Shaoxing"
+        },
+        "description": {
+          "zh-cn": "中国越剧演员，一级演员，擅演旦角。其表演师承金采风。",
+          "en": "A Chinese Yue opera actress and a National First-class Actress, specializing in the Dan (female) role. She was mentored by Jin Caifeng."
+        }
+      }
+    },
+    {
+      "id": "浙江",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江"
+        ],
+        "en": [
+          "Zhejiang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的一个省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "绍兴",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "绍兴"
+        ],
+        "en": [
+          "Shaoxing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国浙江省下辖的地级市，谢群英的出生地。",
+          "en": "A prefecture-level city in Zhejiang Province, China, and the birthplace of Xie Qunying."
+        }
+      }
+    },
+    {
+      "id": "中国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国"
+        ],
+        "en": [
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，全称为中华人民共和国。",
+          "en": "A country in East Asia, officially known as the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "越剧",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越剧"
+        ],
+        "en": [
+          "Yue opera"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国五大戏曲剧种之一，发源于浙江绍兴，是谢群英从事的专业领域。",
+          "en": "One of the five major traditional Chinese opera genres, originating from Shaoxing, Zhejiang. It is the professional field of Xie Qunying."
+        }
+      }
+    },
+    {
+      "id": "金采风",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "金采风"
+        ],
+        "en": [
+          "Jin Caifeng"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "越剧表演艺术家，谢群英的老师。",
+          "en": "A Yue opera performing artist and the mentor of Xie Qunying."
+        }
+      }
+    },
+    {
+      "id": "桐庐越剧团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "桐庐越剧团"
+        ],
+        "en": [
+          "Tonglu Yue Opera Troupe"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于浙江桐庐的越剧表演团体，谢群英于1976年加入。",
+          "en": "A Yue opera performance group based in Tonglu, Zhejiang, which Xie Qunying joined in 1976."
+        }
+      }
+    },
+    {
+      "id": "杭州越剧院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "杭州越剧院"
+        ],
+        "en": [
+          "Hangzhou Yue Opera Theatre"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于浙江杭州的越剧表演团体，谢群英于1994年加入。",
+          "en": "A Yue opera performance group based in Hangzhou, Zhejiang, which Xie Qunying joined in 1994."
+        }
+      }
+    },
+    {
+      "id": "中国戏剧梅花奖",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国戏剧梅花奖"
+        ],
+        "en": [
+          "China Theatre Plum Blossom Award"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国戏剧表演艺术的最高奖项。",
+          "en": "The highest award for theatrical performance art in China."
+        }
+      }
+    },
+    {
+      "id": "中日戏剧友谊奖",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中日戏剧友谊奖"
+        ],
+        "en": [
+          "Sino-Japan Theatre Friendship Award"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "旨在表彰对中日戏剧交流有贡献的戏剧工作者的奖项。",
+          "en": "An award to commend theater professionals who have contributed to Sino-Japanese theater exchanges."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "谢群英",
+      "target": "绍兴",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1964-01-03",
+        "description": {
+          "zh-cn": "谢群英出生于浙江绍兴。",
+          "en": "Xie Qunying was born in Shaoxing, Zhejiang."
+        }
+      }
+    },
+    {
+      "source": "谢群英",
+      "target": "金采风",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "徒弟",
+          "en": "Apprentice"
+        },
+        "description": {
+          "zh-cn": "谢群英的越剧表演师承金采风。",
+          "en": "Xie Qunying's Yue opera performance was mentored by Jin Caifeng."
+        }
+      }
+    },
+    {
+      "source": "谢群英",
+      "target": "桐庐越剧团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1976",
+        "position": {
+          "zh-cn": "演员",
+          "en": "Actress"
+        },
+        "description": {
+          "zh-cn": "1976年，谢群英进入桐庐越剧团工作。",
+          "en": "In 1976, Xie Qunying joined the Tonglu Yue Opera Troupe."
+        }
+      }
+    },
+    {
+      "source": "谢群英",
+      "target": "杭州越剧院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1994",
+        "position": {
+          "zh-cn": "演员",
+          "en": "Actress"
+        },
+        "description": {
+          "zh-cn": "1994年，谢群英进入杭州越剧院工作。",
+          "en": "In 1994, Xie Qunying joined the Hangzhou Yue Opera Theatre."
+        }
+      }
+    },
+    {
+      "source": "中国戏剧梅花奖",
+      "target": "谢群英",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "1998年，谢群英获得第十五届中国戏剧梅花奖，这是对她艺术成就的高度认可。",
+          "en": "In 1998, Xie Qunying won the 15th China Theatre Plum Blossom Award, a high recognition of her artistic achievements."
+        }
+      }
+    },
+    {
+      "source": "中日戏剧友谊奖",
+      "target": "谢群英",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2005",
+        "description": {
+          "zh-cn": "2005年，谢群英获得第三届中日戏剧友谊奖。",
+          "en": "In 2005, Xie Qunying won the 3rd Sino-Japan Theatre Friendship Award."
+        }
+      }
+    }
+  ]
+}

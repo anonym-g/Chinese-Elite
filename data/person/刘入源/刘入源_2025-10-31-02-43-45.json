@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "刘入源",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘入源"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1983-08 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "博白县",
+          "en": "Bobai County"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员，第十三届全国人民代表大会广西壮族自治区代表。",
+          "en": "A political figure of the People's Republic of China, a member of the Communist Party of China, and a delegate of the Guangxi Zhuang Autonomous Region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "博白县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "博白县",
+          "博白"
+        ],
+        "en": [
+          "Bobai County"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "广西壮族自治区",
+          "en": "Guangxi Zhuang Autonomous Region"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国广西壮族自治区玉林市下辖县。",
+          "en": "A county under the jurisdiction of Yulin City, Guangxi Zhuang Autonomous Region, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，由中国共产党执政。",
+          "en": "A socialist state in East Asia governed by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018 - 2023",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届国家最高权力机关，任期由2018年至2023年。",
+          "en": "The 13th term of the highest state authority of the People's Republic of China, with a term from 2018 to 2023."
+        }
+      }
+    },
+    {
+      "id": "广西壮族自治区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广西壮族自治区",
+          "广西"
+        ],
+        "en": [
+          "Guangxi Zhuang Autonomous Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的五个自治区之一。",
+          "en": "One of the five autonomous regions of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘入源",
+      "target": "博白县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "刘入源是广西博白人。",
+          "en": "Liu Ruyuan is from Bobai, Guangxi."
+        }
+      }
+    },
+    {
+      "source": "刘入源",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘入源是中华人民共和国国籍。",
+          "en": "Liu Ruyuan holds the nationality of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "刘入源",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘入源是中国共产党党员。",
+          "en": "Liu Ruyuan is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "刘入源",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "广西壮族自治区代表",
+          "en": "Delegate from Guangxi Zhuang Autonomous Region"
+        },
+        "description": {
+          "zh-cn": "2018年，刘入源被选为广西壮族自治区出席第十三届全国人民代表大会代表。",
+          "en": "In 2018, Liu Ruyuan was elected as a delegate from the Guangxi Zhuang Autonomous Region to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

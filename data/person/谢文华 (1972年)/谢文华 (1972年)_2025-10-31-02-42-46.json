@@ -1,0 +1,315 @@
+{
+  "nodes": [
+    {
+      "id": "谢文华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢文华"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1972-05 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "贵池",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国人民解放军大校，曾任宁德军分区副司令员，现任福州警备区副司令员。",
+          "en": "A senior colonel in the People's Liberation Army, former deputy commander of the Ningde Military Sub-district, and current deputy commander of the Fuzhou Garrison."
+        }
+      }
+    },
+    {
+      "id": "贵池",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "贵池"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "谢文华的出生地，位于安徽省。",
+          "en": "Xie Wenhua's birthplace, located in Anhui Province."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的武装力量。",
+          "en": "The armed forces of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "大校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大校"
+        ],
+        "en": [
+          "Senior Colonel"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军军衔，介于少将和上校之间。",
+          "en": "A military rank in the People's Liberation Army, between Major General and Colonel."
+        }
+      }
+    },
+    {
+      "id": "福州警备区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "福州警备区"
+        ],
+        "en": [
+          "Fuzhou Garrison"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军在福州市的军事单位。",
+          "en": "A military unit of the People's Liberation Army in Fuzhou."
+        }
+      }
+    },
+    {
+      "id": "宁德军分区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁德军分区"
+        ],
+        "en": [
+          "Ningde Military Sub-district"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军在宁德市的军事单位。",
+          "en": "A military unit of the People's Liberation Army in Ningde."
+        }
+      }
+    },
+    {
+      "id": "宁德市征兵办公室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁德市征兵办公室",
+          "宁德市征兵办"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责宁德市征兵工作的机构。",
+          "en": "The office responsible for conscription in Ningde City."
+        }
+      }
+    },
+    {
+      "id": "宁德市人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁德市人民代表大会"
+        ],
+        "en": [
+          "Ningde Municipal People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "宁德市的地方国家权力机关。",
+          "en": "The local state power organ of Ningde City."
+        }
+      }
+    },
+    {
+      "id": "福建省人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "福建省人民代表大会"
+        ],
+        "en": [
+          "Fujian Provincial People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "福建省的地方国家权力机关。",
+          "en": "The local state power organ of Fujian Province."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "谢文华",
+      "target": "贵池",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "谢文华是安徽贵池人。",
+          "en": "Xie Wenhua is from Guichi, Anhui."
+        }
+      }
+    },
+    {
+      "source": "谢文华",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "谢文华在中国人民解放军服役。",
+          "en": "Xie Wenhua serves in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "谢文华",
+      "target": "大校",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "大校",
+          "en": "Senior Colonel"
+        },
+        "description": {
+          "zh-cn": "谢文华持有中国人民解放军大校军衔。",
+          "en": "Xie Wenhua holds the military rank of Senior Colonel in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "谢文华",
+      "target": "福州警备区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副司令员",
+          "en": "Deputy Commander"
+        },
+        "description": {
+          "zh-cn": "谢文华现任福州警备区副司令员。",
+          "en": "Xie Wenhua is the current deputy commander of the Fuzhou Garrison."
+        }
+      }
+    },
+    {
+      "source": "谢文华",
+      "target": "宁德军分区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副司令员",
+          "en": "Deputy Commander"
+        },
+        "description": {
+          "zh-cn": "谢文华曾担任宁德军分区副司令员。",
+          "en": "Xie Wenhua previously served as the deputy commander of the Ningde Military Sub-district."
+        }
+      }
+    },
+    {
+      "source": "谢文华",
+      "target": "宁德市征兵办公室",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "谢文华在担任宁德军分区副司令员期间，兼任宁德市征兵办公室主任。",
+          "en": "While serving as the deputy commander of the Ningde Military Sub-district, Xie Wenhua concurrently held the position of Director of the Ningde Conscription Office."
+        }
+      }
+    },
+    {
+      "source": "谢文华",
+      "target": "宁德市人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2020",
+        "position": {
+          "zh-cn": "人大代表",
+          "en": "Deputy to the People's Congress"
+        },
+        "description": {
+          "zh-cn": "2020年，被补选为宁德市第四届人大代表，后当选宁德市第五届人大代表。",
+          "en": "In 2020, he was by-elected as a deputy to the 4th Ningde Municipal People's Congress, and was later elected as a deputy to the 5th Ningde Municipal People's Congress."
+        }
+      }
+    },
+    {
+      "source": "谢文华",
+      "target": "福建省人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第十四届人大代表",
+          "en": "Deputy to the 14th People's Congress"
+        },
+        "description": {
+          "zh-cn": "谢文华是福建省第十四届人大代表。",
+          "en": "Xie Wenhua is a deputy to the 14th Fujian Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "source": "谢文华",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，谢文华是中国共产党党员。",
+          "en": "According to Wikipedia categories, Xie Wenhua is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

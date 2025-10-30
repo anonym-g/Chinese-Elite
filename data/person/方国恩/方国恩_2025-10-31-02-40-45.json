@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "方国恩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "方国恩"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1956-02 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "河南方城",
+          "en": "Fangcheng, Henan"
+        },
+        "description": {
+          "zh-cn": "中国外科学家，中国人民解放军少将，曾任中国人民解放军总后勤部卫生部副部长。",
+          "en": "Chinese surgeon, a major general in the People's Liberation Army, and former Deputy Director of the Health Department of the PLA General Logistics Department."
+        }
+      }
+    },
+    {
+      "id": "方城县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "方城县",
+          "方城"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国河南省南阳市下辖县。",
+          "en": "A county under the jurisdiction of Nanyang City, Henan Province, China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军少将"
+        ],
+        "en": [
+          "Major general (China)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的军衔等级。",
+          "en": "A military rank in the People's Liberation Army of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军总后勤部卫生部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军总后勤部卫生部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军曾存在的部门，负责全军卫生工作。",
+          "en": "A former department of the People's Liberation Army responsible for the health work of the entire military."
+        }
+      }
+    },
+    {
+      "id": "国家药典委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家药典委员会",
+          "药典委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国药学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国药学会"
+        ],
+        "en": [
+          "Chinese Pharmaceutical Association"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国科学技术协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学技术协会"
+        ],
+        "en": [
+          "China Association for Science and Technology"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "方国恩",
+      "target": "方城县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "方国恩是河南方城人。",
+          "en": "Fang Guo'en is from Fangcheng, Henan."
+        }
+      }
+    },
+    {
+      "source": "方国恩",
+      "target": "中国人民解放军少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "少将",
+          "en": "Major General"
+        },
+        "description": {
+          "zh-cn": "方国恩拥有中国人民解放军少将军衔。",
+          "en": "Fang Guo'en holds the rank of Major General in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "方国恩",
+      "target": "中国人民解放军总后勤部卫生部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "方国恩曾任中国人民解放军总后勤部卫生部副部长。",
+          "en": "Fang Guo'en formerly served as the Deputy Director of the Health Department of the PLA General Logistics Department."
+        }
+      }
+    },
+    {
+      "source": "方国恩",
+      "target": "国家药典委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "根据分类信息，方国恩担任药典委员会副主任委员。",
+          "en": "According to category information, Fang Guo'en serves as the Vice Chairman of the Pharmacopoeia Commission."
+        }
+      }
+    },
+    {
+      "source": "方国恩",
+      "target": "中国药学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务理事",
+          "en": "Executive Director"
+        },
+        "description": {
+          "zh-cn": "根据分类信息，方国恩担任中国药学会常务理事，并被列入第二十三届理事会名单。",
+          "en": "According to category information, Fang Guo'en serves as an Executive Director of the Chinese Pharmaceutical Association and is listed in the 23rd Council."
+        }
+      }
+    },
+    {
+      "source": "方国恩",
+      "target": "中国科学技术协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第九届全国委员会委员",
+          "en": "Member of the 9th National Committee"
+        },
+        "description": {
+          "zh-cn": "根据导航模板，方国恩是中国科学技术协会第九届全国委员会的成员。",
+          "en": "According to the navigation template, Fang Guo'en is a member of the 9th National Committee of the China Association for Science and Technology."
+        }
+      }
+    },
+    {
+      "source": "方国恩",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据分类信息，方国恩是中国共产党党员。",
+          "en": "According to category information, Fang Guo'en is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

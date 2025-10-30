@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "郑伯农",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑伯农",
+          "郑汶"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1937-12-01 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "福建长乐",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国文艺评论家，曾任《文艺报》总编辑，中国作家协会全国委员会名誉委员，中华诗词学会常务副会长。",
+          "en": "Chinese literary critic, former editor-in-chief of Wenyi Bao, honorary member of the National Committee of the China Writers Association, and executive vice president of the China Poetry Society."
+        }
+      }
+    },
+    {
+      "id": "长乐区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "长乐区",
+          "长乐"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "文艺报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "文艺报"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华诗词学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华诗词学会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中央音乐学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央音乐学院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "郑伯农",
+      "target": "长乐区",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "郑伯农是福建长乐人。",
+          "en": "Zheng Bonong is a native of Changle, Fujian."
+        }
+      }
+    },
+    {
+      "source": "郑伯农",
+      "target": "文艺报",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总编辑",
+          "en": "Editor-in-Chief"
+        },
+        "description": {
+          "zh-cn": "郑伯农曾任《文艺报》总编辑。",
+          "en": "Zheng Bonong once served as the editor-in-chief of Wenyi Bao."
+        }
+      }
+    },
+    {
+      "source": "郑伯农",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "全国委员会名誉委员",
+          "en": "Honorary Member of the National Committee"
+        },
+        "description": {
+          "zh-cn": "郑伯农曾任中国作家协会全国委员会名誉委员。",
+          "en": "Zheng Bonong served as an honorary member of the National Committee of the China Writers Association."
+        }
+      }
+    },
+    {
+      "source": "郑伯农",
+      "target": "中华诗词学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务副会长",
+          "en": "Executive Vice President"
+        },
+        "description": {
+          "zh-cn": "郑伯农曾任中华诗词学会常务副会长。",
+          "en": "Zheng Bonong served as the executive vice president of the China Poetry Society."
+        }
+      }
+    },
+    {
+      "source": "郑伯农",
+      "target": "中央音乐学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "郑伯农是中央音乐学院的校友。",
+          "en": "Zheng Bonong is an alumnus of the Central Conservatory of Music."
+        }
+      }
+    },
+    {
+      "source": "郑伯农",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "郑伯农是中国共产党党员。",
+          "en": "Zheng Bonong is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

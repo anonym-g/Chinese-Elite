@@ -1,0 +1,1237 @@
+{
+  "nodes": [
+    {
+      "id": "行政机关",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "行政机关",
+          "行政机构",
+          "行政部门"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责对组织进行日常管理并施行法律政策等相关活动的机构，是三权分立中的一部分，负责执行国家政策。",
+          "en": "The branch of government responsible for the day-to-day management of the state and the implementation of laws and policies, one of the three branches in the separation of powers."
+        }
+      }
+    },
+    {
+      "id": "权力分立",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "权力分立",
+          "三权分立"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种政治制度设计原则，主张将国家权力分散到行政、立法、司法三个独立的分支机构以防止权力集中。",
+          "en": "A political principle of constitutional law under which the powers of government are divided among separate branches, typically executive, legislative, and judicial, to prevent the concentration of power."
+        }
+      }
+    },
+    {
+      "id": "内阁",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "内阁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由政府高级官员（通常是部长）组成的行政决策机构。",
+          "en": "An executive decision-making body composed of senior government officials, typically ministers."
+        }
+      }
+    },
+    {
+      "id": "立法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "立法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "制定、修改和废除法律的权力或过程。",
+          "en": "The power or process of making, amending, and repealing laws."
+        }
+      }
+    },
+    {
+      "id": "司法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "司法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "解释和应用法律的权力或过程。",
+          "en": "The power or process of interpreting and applying law."
+        }
+      }
+    },
+    {
+      "id": "法令",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "法令"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由行政机关颁布的具有法律效力的命令。",
+          "en": "An order having the force of law issued by an executive authority."
+        }
+      }
+    },
+    {
+      "id": "行政命令",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "行政命令"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由行政首长发布的具有法律约束力的指令。",
+          "en": "A legally binding directive issued by the head of the executive branch."
+        }
+      }
+    },
+    {
+      "id": "议会制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "议会制"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种政府体制，其中行政部门的合法性来源于立法机构（议会），并对立法机构负责。",
+          "en": "A system of government in which the executive branch derives its democratic legitimacy from, and is held accountable to, the legislature (parliament)."
+        }
+      }
+    },
+    {
+      "id": "政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责国家政策执行的机构，通常指行政机关。",
+          "en": "The body responsible for implementing state policy, often referring to the executive branch."
+        }
+      }
+    },
+    {
+      "id": "立法机构",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "立法机构"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责制定法律的国家机关，如议会或国会。",
+          "en": "The state body responsible for making laws, such as a parliament or congress."
+        }
+      }
+    },
+    {
+      "id": "信任供给",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "信任供给"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "议会制下的一个政治安排，指在野党同意在信任投票和预算案中支持执政党，以换取政策让步。",
+          "en": "A political arrangement in a parliamentary system where an opposition party agrees to support the governing party in motions of confidence and appropriation bills, in exchange for policy concessions."
+        }
+      }
+    },
+    {
+      "id": "国家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在特定领土内拥有主权的政治实体。",
+          "en": "A political entity with sovereignty over a specific territory."
+        }
+      }
+    },
+    {
+      "id": "君主",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "君主"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国家的世袭元首。",
+          "en": "The hereditary head of a state."
+        }
+      }
+    },
+    {
+      "id": "行政",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "行政"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指管理和执行法律及政策的权力或职能。",
+          "en": "The power or function of managing and implementing laws and policies."
+        }
+      }
+    },
+    {
+      "id": "司法机构",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "司法机构"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责解释和适用法律的政府分支，包括法院系统。",
+          "en": "The branch of government responsible for interpreting and applying the law, including the court system."
+        }
+      }
+    },
+    {
+      "id": "总统制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "总统制"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种共和制政府形式，其中政府首脑（总统）领导行政部门，独立于立法部门。",
+          "en": "A form of republican government where the head of government (the president) leads an executive branch that is separate from the legislative branch."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北美洲的联邦共和国，实行总统制。",
+          "en": "A federal republic in North America that operates under a presidential system."
+        }
+      }
+    },
+    {
+      "id": "总统",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "总统"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "共和国的国家元首和/或政府首脑。",
+          "en": "The head of state and/or head of government of a republic."
+        }
+      }
+    },
+    {
+      "id": "议会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "议会",
+          "国会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国家的立法机关。",
+          "en": "The legislative body of a country."
+        }
+      }
+    },
+    {
+      "id": "国家元首",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家元首"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个主权国家的最高代表，象征国家的统一和权威。",
+          "en": "The chief public representative of a sovereign state, symbolizing the unity and authority of the nation."
+        }
+      }
+    },
+    {
+      "id": "部长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "部长"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "政府中负责特定部门（如财政、国防）的高级官员。",
+          "en": "A high-ranking official in a government in charge of a specific department (e.g., finance, defense)."
+        }
+      }
+    },
+    {
+      "id": "半总统制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "半总统制",
+          "双首长制"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种政府体制，其中总统与总理和内阁共同分享行政权。",
+          "en": "A system of government in which a president exists alongside a prime minister and a cabinet, with the latter two being responsible to the legislature of a state."
+        }
+      }
+    },
+    {
+      "id": "总理",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "总理"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在议会制或半总统制国家中的政府首脑。",
+          "en": "The head of government in a parliamentary or semi-presidential system."
+        }
+      }
+    },
+    {
+      "id": "法国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西欧国家，实行半总统制。",
+          "en": "A country in Western Europe that operates under a semi-presidential system."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "横跨欧亚大陆的国家，实行半总统制。",
+          "en": "A transcontinental country in Eurasia that operates under a semi-presidential system."
+        }
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，实行半总统制。",
+          "en": "A state in East Asia that operates under a semi-presidential system."
+        }
+      }
+    },
+    {
+      "id": "虚位元首",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "虚位元首"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指拥有象征性权力但实际政治权力有限的国家元首。",
+          "en": "A head of state with symbolic powers but limited real political power."
+        }
+      }
+    },
+    {
+      "id": "社会主义国家",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "社会主义国家"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "名义上致力于实现社会主义的政治实体。",
+          "en": "A political entity nominally dedicated to the realization of socialism."
+        }
+      }
+    },
+    {
+      "id": "执政党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "执政党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在一个国家中控制政府的政党。",
+          "en": "The political party that controls the government in a state."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚的社会主义国家。",
+          "en": "A socialist state in East Asia."
+        }
+      }
+    },
+    {
+      "id": "朝鲜民主主义人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜民主主义人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚的社会主义国家。",
+          "en": "A socialist state in East Asia."
+        }
+      }
+    },
+    {
+      "id": "越南",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越南"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东南亚的社会主义国家。",
+          "en": "A socialist state in Southeast Asia."
+        }
+      }
+    },
+    {
+      "id": "委员会制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "委员会制"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由一个委员会集体行使国家元首和政府首脑职权的政府体制。",
+          "en": "A system of government in which a committee collectively exercises the functions of head of state and head of government."
+        }
+      }
+    },
+    {
+      "id": "瑞士联邦委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瑞士联邦委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "瑞士的七人集体国家元首和政府首脑。",
+          "en": "The seven-member collective head of state and government of Switzerland."
+        }
+      }
+    },
+    {
+      "id": "局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "政府部门（部）下的一个行政单位。",
+          "en": "An administrative unit within a government department (ministry)."
+        }
+      }
+    },
+    {
+      "id": "部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "政府中负责特定领域事务的高级行政单位，如国防部、财政部。",
+          "en": "A high-level administrative unit in a government responsible for a specific area of affairs, such as the Ministry of Defense or Ministry of Finance."
+        }
+      }
+    },
+    {
+      "id": "国防部长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国防部长"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责监督武装部队、确定军事政策和管理外部安全的政府部长。",
+          "en": "The government minister responsible for supervising the armed forces, determining military policy, and managing external security."
+        }
+      }
+    },
+    {
+      "id": "武装部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武装部队"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个国家的军事力量。",
+          "en": "The military forces of a country."
+        }
+      }
+    },
+    {
+      "id": "内政部长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "内政部长"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责监督警察部队、执法和管理内部控制的政府部长。",
+          "en": "The government minister responsible for supervising police forces, law enforcement, and managing internal control."
+        }
+      }
+    },
+    {
+      "id": "警察",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "警察",
+          "警察部队"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责维持法律和秩序、预防和侦查犯罪的公共服务机构。",
+          "en": "A public service body responsible for maintaining law and order, preventing and detecting crime."
+        }
+      }
+    },
+    {
+      "id": "外交部长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "外交部长"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责监督外交事务、确定外交政策和管理外交关系的政府部长。",
+          "en": "The government minister responsible for supervising foreign affairs, determining foreign policy, and managing diplomatic relations."
+        }
+      }
+    },
+    {
+      "id": "财政部长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "财政部长"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责监督国库、确定财政政策和管理政府预算的政府部长。",
+          "en": "The government minister responsible for supervising the treasury, determining fiscal policy, and managing the government budget."
+        }
+      }
+    },
+    {
+      "id": "司法部长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "司法部长"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责监督刑事诉讼、更正和法院命令执行的政府部长。",
+          "en": "The government minister responsible for supervising criminal prosecutions, corrections, and the enforcement of court orders."
+        }
+      }
+    },
+    {
+      "id": "宪政",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "宪政"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种政治思想，主张政府权力应受到宪法的限制。",
+          "en": "A political philosophy advocating that government power should be limited by a constitution."
+        }
+      }
+    },
+    {
+      "id": "五权分立",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "五权分立"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孙中山提出的政治理论，将政府权力分为行政、立法、司法、考试、监察五权。",
+          "en": "A political theory developed by Sun Yat-sen that divides government power into five branches: executive, legislative, judicial, examination, and control."
+        }
+      }
+    },
+    {
+      "id": "考试院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "考试院",
+          "考试机构"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "五权分立制度下负责公务员考试和铨叙的机构。",
+          "en": "The branch responsible for civil service examinations and appointments under the Five-Power Constitution."
+        }
+      }
+    },
+    {
+      "id": "监察院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "监察院",
+          "监察机构"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "五权分立制度下负责监察、审计和弹劾政府官员的机构。",
+          "en": "The branch responsible for monitoring, auditing, and impeaching government officials under the Five-Power Constitution."
+        }
+      }
+    },
+    {
+      "id": "行政学",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "行政学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "研究公共行政和政府管理的社会科学学科。",
+          "en": "The social science discipline that studies public administration and government management."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "权力分立",
+      "target": "行政机关",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "在三权分立的政治制度中，行政机关是与立法、司法机关并列的三个权力分支之一。",
+          "en": "In the political system of separation of powers, the executive branch is one of the three branches of power, alongside the legislative and judicial branches."
+        }
+      }
+    },
+    {
+      "source": "行政机关",
+      "target": "法令",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "行政机关可以是法令的来源。",
+          "en": "The executive branch can be a source of decrees."
+        }
+      }
+    },
+    {
+      "source": "行政机关",
+      "target": "行政命令",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "行政机关可以是行政命令的来源。",
+          "en": "The executive branch can be a source of executive orders."
+        }
+      }
+    },
+    {
+      "source": "行政机关",
+      "target": "立法机构",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在议会制国家中，行政机构通常是立法机构的一部分或需要其支持，并对立法机构负责。",
+          "en": "In parliamentary systems, the executive branch is often part of or requires the support of the legislature, and is accountable to it."
+        }
+      }
+    },
+    {
+      "source": "信任供给",
+      "target": "行政机关",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在议会制中，行政机构（政府）的存在需要立法机关的信任供给。",
+          "en": "In a parliamentary system, the existence of the executive branch (government) requires the confidence and supply of the legislature."
+        }
+      }
+    },
+    {
+      "source": "国家",
+      "target": "政府",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "国家出现以后，行政权由政府掌握，政府是国家机器中最早出现的机构。",
+          "en": "After the emergence of the state, executive power was held by the government, which was the earliest institution to appear in the state machinery."
+        }
+      }
+    },
+    {
+      "source": "君主",
+      "target": "立法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在儒家文化区域的国家，君主掌握立法权。",
+          "en": "In countries within the Confucian cultural sphere, the monarch held legislative power."
+        }
+      }
+    },
+    {
+      "source": "总统",
+      "target": "国家元首",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在总统制国家，总统身兼国家元首。",
+          "en": "In presidential systems, the president also serves as the head of state."
+        }
+      }
+    },
+    {
+      "source": "总统",
+      "target": "政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政府首脑",
+          "en": "Head of Government"
+        },
+        "description": {
+          "zh-cn": "在总统制国家，总统身兼政府首脑。",
+          "en": "In presidential systems, the president also serves as the head of government."
+        }
+      }
+    },
+    {
+      "source": "部长",
+      "target": "总统",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在总统制国家，各政府部门的部长由总统任命，并对总统负责。",
+          "en": "In presidential systems, ministers of government departments are appointed by and accountable to the president."
+        }
+      }
+    },
+    {
+      "source": "总理",
+      "target": "议会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在半总统制国家，总理代替总统对国会负责。",
+          "en": "In semi-presidential systems, the prime minister is accountable to the parliament on behalf of the president."
+        }
+      }
+    },
+    {
+      "source": "内阁",
+      "target": "议会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在议会制国家，内阁由国会多数支持的议员组成，并对国会负责。",
+          "en": "In parliamentary systems, the cabinet is formed by members of parliament who have majority support and is accountable to the parliament."
+        }
+      }
+    },
+    {
+      "source": "议会",
+      "target": "内阁",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在议会制国家，获得国会多数支持的议员组成内阁。",
+          "en": "In parliamentary systems, the cabinet is formed by members of parliament who command the support of a majority in parliament."
+        }
+      }
+    },
+    {
+      "source": "行政机关",
+      "target": "执政党",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在社会主义国家，行政机构实际执行的是国内执政党的决策。",
+          "en": "In socialist states, the executive branch actually implements the decisions of the domestic ruling party."
+        }
+      }
+    },
+    {
+      "source": "议会",
+      "target": "行政机关",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在委员会制国家中，最高行政机构的成员由议会选举产生。",
+          "en": "In directorial systems, members of the supreme executive body are elected by the parliament."
+        }
+      }
+    },
+    {
+      "source": "局",
+      "target": "部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "局是部下属的职能机构。",
+          "en": "A bureau is a functional agency under a ministry."
+        }
+      }
+    },
+    {
+      "source": "国防部长",
+      "target": "总理",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "国防部长通常是向政府首脑（如总理）汇报的内阁成员。",
+          "en": "The Minister of Defence is typically a cabinet member who reports to the head of government (such as the Prime Minister)."
+        }
+      }
+    },
+    {
+      "source": "内政部长",
+      "target": "总理",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "内政部长通常是向政府首脑（如总理）汇报的内阁成员。",
+          "en": "The Minister of the Interior is typically a cabinet member who reports to the head of government (such as the Prime Minister)."
+        }
+      }
+    },
+    {
+      "source": "外交部长",
+      "target": "总理",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "外交部长通常是向政府首脑（如总理）汇报的内阁成员。",
+          "en": "The Minister of Foreign Affairs is typically a cabinet member who reports to the head of government (such as the Prime Minister)."
+        }
+      }
+    },
+    {
+      "source": "财政部长",
+      "target": "总理",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "财政部长通常是向政府首脑（如总理）汇报的内阁成员。",
+          "en": "The Minister of Finance is typically a cabinet member who reports to the head of government (such as the Prime Minister)."
+        }
+      }
+    },
+    {
+      "source": "司法部长",
+      "target": "总理",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "司法部长通常是向政府首脑（如总理）汇报的内阁成员。",
+          "en": "The Minister of Justice is typically a cabinet member who reports to the head of government (such as the Prime Minister)."
+        }
+      }
+    },
+    {
+      "source": "国防部长",
+      "target": "武装部队",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "国防部长负责监督武装部队。",
+          "en": "The Minister of Defence supervises the armed forces."
+        }
+      }
+    },
+    {
+      "source": "内政部长",
+      "target": "警察",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "内政部长负责监督警察部队。",
+          "en": "The Minister of the Interior supervises the police forces."
+        }
+      }
+    },
+    {
+      "source": "宪政",
+      "target": "行政机关",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "宪政的主要目的之一是限制和制衡行政部门的权力。",
+          "en": "One of the main purposes of constitutionalism is to limit and check the power of the executive branch."
+        }
+      }
+    },
+    {
+      "source": "权力分立",
+      "target": "行政机关",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "分权的主要目的之一是限制和制衡行政部门的权力。",
+          "en": "One of the main purposes of separation of powers is to limit and check the power of the executive branch."
+        }
+      }
+    },
+    {
+      "source": "立法机构",
+      "target": "行政机关",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "立法机构通过专业化和委员会方式规制行政机构的权力。",
+          "en": "The legislature regulates the power of the executive branch through specialization and committees."
+        }
+      }
+    },
+    {
+      "source": "司法机构",
+      "target": "行政机关",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "司法机构通过监督方式规制行政机构的权力。",
+          "en": "The judiciary regulates the power of the executive branch through oversight."
+        }
+      }
+    },
+    {
+      "source": "五权分立",
+      "target": "行政机关",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "行政机关是五权分立制度中的五权之一。",
+          "en": "The executive branch is one of the five branches in the Five-Power Constitution system."
+        }
+      }
+    },
+    {
+      "source": "五权分立",
+      "target": "立法机构",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "立法机构是五权分立制度中的五权之一。",
+          "en": "The legislative branch is one of the five branches in the Five-Power Constitution system."
+        }
+      }
+    },
+    {
+      "source": "五权分立",
+      "target": "司法机构",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "司法机构是五权分立制度中的五权之一。",
+          "en": "The judicial branch is one of the five branches in the Five-Power Constitution system."
+        }
+      }
+    },
+    {
+      "source": "五权分立",
+      "target": "考试院",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "考试院是五权分立制度中的五权之一。",
+          "en": "The Examination Yuan is one of the five branches in the Five-Power Constitution system."
+        }
+      }
+    },
+    {
+      "source": "五权分立",
+      "target": "监察院",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "监察院是五权分立制度中的五权之一。",
+          "en": "The Control Yuan is one of the five branches in the Five-Power Constitution system."
+        }
+      }
+    },
+    {
+      "source": "行政学",
+      "target": "行政机关",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "行政学是研究行政现象的学问。",
+          "en": "Public administration is the academic field that studies the phenomenon of the executive branch."
+        }
+      }
+    },
+    {
+      "source": "总统制",
+      "target": "美国",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "美国是实行总统制的典型国家。",
+          "en": "The United States is a typical country that implements a presidential system."
+        }
+      }
+    },
+    {
+      "source": "半总统制",
+      "target": "法国",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "法国是实行半总统制的国家。",
+          "en": "France is a country that implements a semi-presidential system."
+        }
+      }
+    },
+    {
+      "source": "半总统制",
+      "target": "俄罗斯",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "俄罗斯是实行半总统制的国家。",
+          "en": "Russia is a country that implements a semi-presidential system."
+        }
+      }
+    },
+    {
+      "source": "半总统制",
+      "target": "中华民国",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国是实行半总统制的国家。",
+          "en": "The Republic of China is a country that implements a semi-presidential system."
+        }
+      }
+    },
+    {
+      "source": "社会主义国家",
+      "target": "中华人民共和国",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国是社会主义国家。",
+          "en": "The People's Republic of China is a socialist state."
+        }
+      }
+    },
+    {
+      "source": "社会主义国家",
+      "target": "朝鲜民主主义人民共和国",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜民主主义人民共和国是社会主义国家。",
+          "en": "The Democratic People's Republic of Korea is a socialist state."
+        }
+      }
+    },
+    {
+      "source": "社会主义国家",
+      "target": "越南",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "越南是社会主义国家。",
+          "en": "Vietnam is a socialist state."
+        }
+      }
+    },
+    {
+      "source": "委员会制",
+      "target": "瑞士联邦委员会",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "瑞士联邦委员会是委员会制政府的典型例子。",
+          "en": "The Swiss Federal Council is a prime example of a directorial system of government."
+        }
+      }
+    }
+  ]
+}

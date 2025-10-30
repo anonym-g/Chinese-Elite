@@ -1,0 +1,735 @@
+{
+  "nodes": [
+    {
+      "id": "仓颉输入法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "仓颉输入法",
+          "形意检字法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1976 - ",
+        "description": {
+          "zh-cn": "一种中文输入法，由朱邦复于1976年创制，目前是香港及澳门最常用的输入法之一。其初版名为“形意检字法”。",
+          "en": "A Chinese input method created by Chu Bong-Foo in 1976. It is one of the most common input methods in Hong Kong and Macau. Its original name was 'Glyph-meaning Indexing Method'."
+        }
+      }
+    },
+    {
+      "id": "朱邦复",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱邦复"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "台湾发明家，被誉为“中文电脑之父”，是仓颉输入法的发明人。",
+          "en": "A Taiwanese inventor known as the 'Father of Chinese Computing' and the creator of the Cangjie input method."
+        }
+      }
+    },
+    {
+      "id": "蒋纬国",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋纬国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军二级上将，曾任三军大学校长。他为朱邦复发明的输入法命名为“仓颉输入法”。",
+          "en": "A General of the Republic of China Army and former president of the Armed Forces University. He named the input method invented by Chu Bong-Foo as the 'Cangjie input method'."
+        }
+      }
+    },
+    {
+      "id": "三军大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "三军大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "台湾的军事院校，朱邦复曾在此机构以无给职身份发展中文通讯系统，期间发明了仓颉输入法。",
+          "en": "A military academy in Taiwan where Chu Bong-Foo developed a Chinese communication system as an unpaid staff member, during which he invented the Cangjie input method."
+        }
+      }
+    },
+    {
+      "id": "仓颉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "仓颉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国上古传说中黄帝的史官，被认为是汉字的发明者。",
+          "en": "A legendary historian of the Yellow Emperor in ancient China, regarded as the inventor of Chinese characters."
+        }
+      }
+    },
+    {
+      "id": "沈红莲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "沈红莲"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "朱邦复的助手，协助其研究仓颉输入法，并自行设计了苍颉检字法。",
+          "en": "An assistant to Chu Bong-Foo who aided in the research of the Cangjie input method and independently designed the Cangjie Glyph-finding Method."
+        }
+      }
+    },
+    {
+      "id": "国立台湾大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国立台湾大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "台湾的一所综合性研究型公立大学。",
+          "en": "A comprehensive public research university in Taiwan."
+        }
+      }
+    },
+    {
+      "id": "宏碁",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宏碁",
+          "宏碁电脑"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "台湾的跨国科技公司，曾与朱邦复合作开发内置仓颉系统的“天龙中文电脑”。",
+          "en": "A Taiwanese multinational technology company that collaborated with Chu Bong-Foo to develop the 'Sky Dragon Chinese Computer' with a built-in Cangjie system."
+        }
+      }
+    },
+    {
+      "id": "康熙字典",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "康熙字典"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝康熙年间编纂的汉字字典，朱邦复曾参考此字典改良仓颉输入法。",
+          "en": "A Chinese character dictionary compiled during the Kangxi era of the Qing Dynasty, which Chu Bong-Foo referenced to improve the Cangjie input method."
+        }
+      }
+    },
+    {
+      "id": "中文化",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中文化",
+          "汉化"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指将电脑软硬件及相关技术进行中文语言本地化的过程。",
+          "en": "The process of localizing computer hardware, software, and related technologies for the Chinese language."
+        }
+      }
+    },
+    {
+      "id": "仓颉系统",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "仓颉系统"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由朱邦复构思的一套用以统一处理汉字形、音、义、码、序、辨等问题的综合系统，仓颉输入法是其中的一部分。",
+          "en": "A comprehensive system conceived by Chu Bong-Foo to uniformly handle issues related to the form, sound, meaning, code, order, and distinction of Chinese characters, of which the Cangjie input method is a part."
+        }
+      }
+    },
+    {
+      "id": "Microsoft Windows",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Microsoft Windows",
+          "Windows"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由微软公司开发的操作系统系列，其内置的仓颉输入法成为主流版本之一。",
+          "en": "An operating system series developed by Microsoft, whose built-in Cangjie input method has become one of the mainstream versions."
+        }
+      }
+    },
+    {
+      "id": "微软",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "微软"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的跨国科技公司，曾与朱邦复合作开发中文视窗系统，后合作关系破裂。",
+          "en": "An American multinational technology company that once collaborated with Chu Bong-Foo on developing a Chinese Windows system, but the partnership later fell apart."
+        }
+      }
+    },
+    {
+      "id": "资策会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "资策会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "台湾的财团法人机构，1990年与朱邦复合作开发微软中文视窗系统3.0。",
+          "en": "A Taiwanese foundation that collaborated with Chu Bong-Foo in 1990 to develop Microsoft Chinese Windows 3.0."
+        }
+      }
+    },
+    {
+      "id": "苍颉检字法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "苍颉检字法",
+          "第六代仓颉输入法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由沈红莲设计的汉字检字法，常被称为“第六代”仓颉，但与第三、五代差异较大，更像一款衍生输入法。",
+          "en": "A character indexing method designed by Shen Honglian, often referred to as the 'sixth generation' Cangjie, but it differs significantly from the third and fifth generations, resembling more of a derivative input method."
+        }
+      }
+    },
+    {
+      "id": "台湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚的岛屿，是仓颉输入法的发源地。",
+          "en": "An island in East Asia, the birthplace of the Cangjie input method."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北美洲的国家，第四代仓颉输入法于1985年在此发表。",
+          "en": "A country in North America where the fourth generation of the Cangjie input method was released in 1985."
+        }
+      }
+    },
+    {
+      "id": "两仪文化科技公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "两仪文化科技公司"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朱邦复曾于1987年担任此公司总经理，并发表了第五代仓颉输入法。",
+          "en": "Chu Bong-Foo served as the general manager of this company in 1987 and released the fifth generation of the Cangjie input method."
+        }
+      }
+    },
+    {
+      "id": "香港",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "香港"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的特别行政区，仓颉输入法在此地非常普及。",
+          "en": "A special administrative region of the People's Republic of China where the Cangjie input method is very popular."
+        }
+      }
+    },
+    {
+      "id": "澳门",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "澳门"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的特别行政区，仓颉输入法在此地非常普及。",
+          "en": "A special administrative region of the People's Republic of China where the Cangjie input method is very popular."
+        }
+      }
+    },
+    {
+      "id": "麦志洪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "麦志洪"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "快速仓颉输入法的开发者。",
+          "en": "The developer of the Quick Cangjie input method."
+        }
+      }
+    },
+    {
+      "id": "快速仓颉输入法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "快速仓颉输入法",
+          "快仓"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1987 - ",
+        "description": {
+          "zh-cn": "由麦志洪自1987年起开发的仓颉输入法衍生版本，旨在提高输入速度。",
+          "en": "A derivative of the Cangjie input method developed by Mak Chi-hung since 1987, aimed at increasing input speed."
+        }
+      }
+    },
+    {
+      "id": "倚天中文系统",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "倚天中文系统"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一套中文处理系统，快速仓颉输入法最初是在此系统中开发的。",
+          "en": "A Chinese processing system where the Quick Cangjie input method was originally developed."
+        }
+      }
+    },
+    {
+      "id": "大新仓颉输入法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "大新仓颉输入法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "仓颉输入法的商业衍生版本，简化了拆码规则以提升输入速度，是目前中文电脑输入最快速纪录的保持者所使用的输入法。",
+          "en": "A commercial derivative of the Cangjie input method that simplifies decomposition rules to increase input speed. It is the input method used by the current record holder for the fastest Chinese computer typing."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "朱邦复",
+      "target": "仓颉输入法",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1976",
+        "description": {
+          "zh-cn": "朱邦复于1976年创制了仓颉输入法，其初版名为“形意检字法”。",
+          "en": "Chu Bong-Foo created the Cangjie input method in 1976, which was initially named 'Glyph-meaning Indexing Method'."
+        }
+      }
+    },
+    {
+      "source": "蒋纬国",
+      "target": "仓颉输入法",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "1978年，时任三军大学校长的蒋纬国为纪念上古时期仓颉造字的精神，将“形意检字法”改名为“仓颉输入法”。",
+          "en": "In 1978, Chiang Wei-kuo, then president of the Armed Forces University, renamed the 'Glyph-meaning Indexing Method' to 'Cangjie input method' to commemorate the spirit of the ancient figure Cangjie's creation of characters."
+        }
+      }
+    },
+    {
+      "source": "仓颉",
+      "target": "蒋纬国",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "蒋纬国为朱邦复发明的输入法命名，其灵感来源于对仓颉造字精神的纪念。",
+          "en": "Chiang Wei-kuo's naming of the input method invented by Chu Bong-Foo was inspired by the commemoration of Cangjie's spirit of character creation."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "三军大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1977",
+        "end_date": "1979",
+        "position": {
+          "zh-cn": "无给职人员",
+          "en": "Unpaid staff"
+        },
+        "description": {
+          "zh-cn": "朱邦复在三军大学担任无给职，负责发展中文通讯系统，并在此期间发明了仓颉输入法。",
+          "en": "Chu Bong-Foo served as an unpaid staff member at the Armed Forces University, responsible for developing a Chinese communication system, during which he invented the Cangjie input method."
+        }
+      }
+    },
+    {
+      "source": "蒋纬国",
+      "target": "三军大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "在1978年为仓颉输入法命名时，蒋纬国正担任三军大学校长。",
+          "en": "Chiang Wei-kuo was serving as the President of the Armed Forces University when he named the Cangjie input method in 1978."
+        }
+      }
+    },
+    {
+      "source": "沈红莲",
+      "target": "朱邦复",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1976",
+        "position": {
+          "zh-cn": "助手",
+          "en": "Assistant"
+        },
+        "description": {
+          "zh-cn": "在仓颉输入法研究后期，沈红莲担任朱邦复的助手，协助其工作。",
+          "en": "During the later stages of research on the Cangjie input method, Shen Honglian served as Chu Bong-Foo's assistant."
+        }
+      }
+    },
+    {
+      "source": "沈红莲",
+      "target": "国立台湾大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "中文系毕业生",
+          "en": "Graduate of the Chinese Language and Literature Department"
+        },
+        "description": {
+          "zh-cn": "沈红莲毕业于国立台湾大学中文系。",
+          "en": "Shen Honglian graduated from the Department of Chinese Language and Literature at National Taiwan University."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "宏碁",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1979-12",
+        "description": {
+          "zh-cn": "1979年12月，朱邦复开始与宏碁电脑合作，开发内置中文系统的“天龙中文电脑”。",
+          "en": "In December 1979, Chu Bong-Foo began collaborating with Acer to develop the 'Sky Dragon Chinese Computer' with a built-in Chinese system."
+        }
+      }
+    },
+    {
+      "source": "康熙字典",
+      "target": "仓颉输入法",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "朱邦复参考《康熙字典》中的四万余字，对第二代仓颉输入法进行改良，并发表了第三代版本。",
+          "en": "Chu Bong-Foo referenced over 40,000 characters from the Kangxi Dictionary to improve the second generation of the Cangjie input method, subsequently releasing the third version."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "中文化",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "1982年，朱邦复公开放弃仓颉输入法的专利权，并积极推动电脑的中文化进程。",
+          "en": "In 1982, Chu Bong-Foo publicly relinquished the patent for the Cangjie input method and actively promoted the process of computer sinicization."
+        }
+      }
+    },
+    {
+      "source": "仓颉输入法",
+      "target": "仓颉系统",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "通称的“仓颉输入法”仅是朱邦复构思的整套“仓颉系统”中的一部分功能。",
+          "en": "The commonly known 'Cangjie input method' is only a partial function of the complete 'Cangjie System' conceived by Chu Bong-Foo."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "仓颉系统",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "朱邦复旨在建立一套“仓颉系统”，用以统一处理汉字的形、音、义、码、序、辨等六大问题。",
+          "en": "Chu Bong-Foo aimed to establish a 'Cangjie System' to uniformly handle six major aspects of Chinese characters: form, sound, meaning, code, order, and distinction."
+        }
+      }
+    },
+    {
+      "source": "沈红莲",
+      "target": "苍颉检字法",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "沈红莲在仓颉输入法的基础上，另行设计了苍颉检字法。",
+          "en": "Based on the Cangjie input method, Shen Honglian independently designed the Cangjie Glyph-finding Method."
+        }
+      }
+    },
+    {
+      "source": "仓颉输入法",
+      "target": "苍颉检字法",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "苍颉检字法被视为由仓颉输入法衍生而来的新输入法，也被称为“第六代”仓颉。",
+          "en": "The Cangjie Glyph-finding Method is considered a new input method derived from the Cangjie input method, and is also known as the 'sixth generation' Cangjie."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "资策会",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1990",
+        "description": {
+          "zh-cn": "1990年，朱邦复与台湾资策会合作开发微软中文视窗系统3.0。",
+          "en": "In 1990, Chu Bong-Foo collaborated with Taiwan's Institute for Information Industry to develop Microsoft Chinese Windows 3.0."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "微软",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1990",
+        "description": {
+          "zh-cn": "1990年，朱邦复与微软合作开发中文视窗系统。",
+          "en": "In 1990, Chu Bong-Foo collaborated with Microsoft to develop a Chinese Windows system."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "微软",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在与微软合作开发中文视窗系统后，双方的合作关系最终破裂。",
+          "en": "After collaborating with Microsoft on the Chinese Windows system, their partnership eventually broke down."
+        }
+      }
+    },
+    {
+      "source": "Microsoft Windows",
+      "target": "仓颉输入法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "Microsoft Windows操作系统内置了仓颉输入法，这使其成为主流的形码输入法之一，并产生了目前最常见的版本。",
+          "en": "The Microsoft Windows operating system includes a built-in Cangjie input method, which has made it one of the mainstream glyph-based input methods and produced the most common version in use today."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "台湾",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1973",
+        "description": {
+          "zh-cn": "1973年春季，朱邦复返回台湾，之后开始研究中文检索方式并最终发明了仓颉输入法。",
+          "en": "In the spring of 1973, Chu Bong-Foo returned to Taiwan, where he began researching Chinese indexing methods and eventually invented the Cangjie input method."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "美国",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1985",
+        "description": {
+          "zh-cn": "1985年，朱邦复在美国发表了第四代仓颉输入法。",
+          "en": "In 1985, Chu Bong-Foo released the fourth generation of the Cangjie input method in the United States."
+        }
+      }
+    },
+    {
+      "source": "朱邦复",
+      "target": "两仪文化科技公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1987",
+        "position": {
+          "zh-cn": "总经理",
+          "en": "General Manager"
+        },
+        "description": {
+          "zh-cn": "1987年，朱邦复担任深圳两仪文化科技公司总经理，并发表了第五代仓颉输入法。",
+          "en": "In 1987, Chu Bong-Foo served as the General Manager of Liangyi Culture Technology Co. in Shenzhen and released the fifth generation of the Cangjie input method."
+        }
+      }
+    },
+    {
+      "source": "仓颉输入法",
+      "target": "香港",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "仓颉输入法是香港最常用的中文输入法之一。",
+          "en": "The Cangjie input method is one of the most commonly used Chinese input methods in Hong Kong."
+        }
+      }
+    },
+    {
+      "source": "仓颉输入法",
+      "target": "澳门",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "仓颉输入法是澳门最常用的中文输入法之一，并且是当地中小学的必修课程。",
+          "en": "The Cangjie input method is one of the most commonly used Chinese input methods in Macau and is a compulsory course in local primary and secondary schools."
+        }
+      }
+    },
+    {
+      "source": "麦志洪",
+      "target": "快速仓颉输入法",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1987",
+        "description": {
+          "zh-cn": "麦志洪自1987年起，在倚天中文系统中开发出快速仓颉输入法。",
+          "en": "Starting in 1987, Mak Chi-hung developed the Quick Cangjie input method within the ETen Chinese System."
+        }
+      }
+    },
+    {
+      "source": "倚天中文系统",
+      "target": "快速仓颉输入法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1987",
+        "description": {
+          "zh-cn": "快速仓颉输入法最初是在倚天中文系统中被开发出来的。",
+          "en": "The Quick Cangjie input method was originally developed within the ETen Chinese System."
+        }
+      }
+    },
+    {
+      "source": "仓颉输入法",
+      "target": "快速仓颉输入法",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "快速仓颉输入法是由仓颉输入法改良而成的衍生版本。",
+          "en": "The Quick Cangjie input method is a derivative version improved from the Cangjie input method."
+        }
+      }
+    },
+    {
+      "source": "仓颉输入法",
+      "target": "大新仓颉输入法",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "大新仓颉输入法是仓颉输入法的一个商业衍生版本。",
+          "en": "The Daxin Cangjie input method is a commercial derivative of the Cangjie input method."
+        }
+      }
+    }
+  ]
+}

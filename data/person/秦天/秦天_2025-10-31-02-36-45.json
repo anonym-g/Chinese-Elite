@@ -1,0 +1,412 @@
+{
+  "nodes": [
+    {
+      "id": "秦天",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦天"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1957 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "红安县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国人民武装警察部队中将，曾任武警部队副司令员、参谋长，军事科学院副院长等职务。现任第十四届全国人大外事委员会委员。其父为中国人民解放军上将秦基伟。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "红安县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "红安县"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十四届全国人民代表大会各专门委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十四届全国人民代表大会各专门委员会",
+          "第十四届全国人大外事委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军国防大学联合作战学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军国防大学联合作战学院",
+          "石家庄高级步兵学校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的一所军事院校。",
+          "en": "A military academy of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军总装备部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军总装备部"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军国防大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军国防大学",
+          "国防大学"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军军事科学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军军事科学院",
+          "军科院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民武装警察部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民武装警察部队",
+          "武警部队"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "秦卫江",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦卫江"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国人民解放军将领，秦基伟之子，秦天的胞兄。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "秦基伟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦基伟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国人民解放军上将，曾任中华人民共和国国防部部长。秦天与秦卫江之父。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军南京军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军南京军区",
+          "南京军区"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "吴腾飞 (武警)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴腾飞 (武警)",
+          "吴腾飞"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "武警海南总队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武警海南总队"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国国防部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国防部"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "刘振立",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘振立"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "郑家概",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑家概"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "秦天",
+      "target": "红安县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "秦天",
+      "target": "中国人民解放军国防大学联合作战学院",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "秦天",
+      "target": "中国人民解放军总装备部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "防化研究院副院长",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦天",
+      "target": "中国人民解放军国防大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2009",
+        "end_date": "2012",
+        "position": {
+          "zh-cn": "科研部副部长",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦天",
+      "target": "中国人民解放军国防大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2012",
+        "end_date": "2015-07",
+        "position": {
+          "zh-cn": "科研部部长",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦天",
+      "target": "中国人民解放军军事科学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-07",
+        "end_date": "2015-12",
+        "position": {
+          "zh-cn": "副院长",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦天",
+      "target": "中国人民武装警察部队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-12",
+        "end_date": "2017-09",
+        "position": {
+          "zh-cn": "参谋长",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦天",
+      "target": "中国人民武装警察部队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017-09",
+        "end_date": "2020-12",
+        "position": {
+          "zh-cn": "副司令员",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦天",
+      "target": "第十四届全国人民代表大会各专门委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-03",
+        "position": {
+          "zh-cn": "外事委员会委员",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦天",
+      "target": "秦基伟",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "秦天",
+      "target": "秦卫江",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "秦卫江",
+      "target": "秦基伟",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "秦卫江",
+      "target": "中国人民解放军南京军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副司令员",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "截至2015年7月，秦卫江担任南京军区副司令员。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦基伟",
+      "target": "中华人民共和国国防部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "部长",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦天",
+      "target": "吴腾飞 (武警)",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2016-06",
+        "description": {
+          "zh-cn": "与时任武警海南总队一支队特勤中队长吴腾飞讨论武警特战射击理念，共同认可并推动了从“绝对准、相对快”向“绝对快、相对准”的转变。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "吴腾飞 (武警)",
+      "target": "武警海南总队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "一支队特勤中队长",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "截至2016年6月，吴腾飞担任武警海南总队一支队特勤中队长。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "秦天",
+      "target": "刘振立",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2015-12",
+        "description": {
+          "zh-cn": "于2015年12月接替刘振立出任中国人民武装警察部队参谋长。",
+          "en": ""
+        }
+      }
+    },
+    {
+      "source": "郑家概",
+      "target": "秦天",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2017-09",
+        "description": {
+          "zh-cn": "于2017年9月接替秦天出任中国人民武装警察部队参谋长。",
+          "en": ""
+        }
+      }
+    }
+  ]
+}
