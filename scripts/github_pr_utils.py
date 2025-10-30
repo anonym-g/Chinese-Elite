@@ -95,9 +95,6 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
     """
     branch_name: Optional[str] = None
     try:
-        # 暂存本地修改
-        _run_command(['git', 'stash'], check=False)
-        
         # --- 1. 初始化报告和最终待添加列表 ---
         report = {
             'accepted': [], 'corrected': [], 'rejected': [], 'skipped': []
@@ -183,6 +180,10 @@ def create_list_update_pr(submissions: Dict[str, list], wiki_client: WikipediaCl
         if https_proxy: custom_env["HTTPS_PROXY"] = https_proxy
         
         _run_command(['git', 'init'])
+
+        # 在一个有效的 Git 仓库中，暂存所有未提交的更改，确保工作目录干净
+        _run_command(['git', 'stash'], check=False)
+
         _run_command(['git', 'config', '--local', 'user.name', github_username])
         _run_command(['git', 'config', '--local', 'user.email', f'{github_username}@users.noreply.github.com'])
         
