@@ -1,4 +1,6 @@
 ## person
+(en) Hu Yaobang
+(en) Zhao Ziyang
 (en) Deng Xiaoping
 (en) Hu Jintao
 (en) Hua Guofeng
