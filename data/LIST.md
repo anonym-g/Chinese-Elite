@@ -9402,6 +9402,7 @@ Papi酱
 七二一方針
 
 ## event
+(en) Smashing the Gang of Four
 六四事件
 二二八事件
 中国东方航空5735号班机空难
