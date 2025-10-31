@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": "中国农工民主党福建省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国农工民主党福建省委员会",
+          "农工党福建省委",
+          "福建农工党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {
+          "zh-cn": "福建省",
+          "en": "Fujian Province"
+        },
+        "description": {
+          "zh-cn": "中国农工民主党在福建省的地方组织。",
+          "en": "The local organization of the Chinese Peasants and Workers Democratic Party in Fujian Province."
+        }
+      }
+    },
+    {
+      "id": "中国农工民主党中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国农工民主党中央委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中国农工民主党的中央领导机构。",
+          "en": "The central leading body of the Chinese Peasants and Workers Democratic Party."
+        }
+      }
+    },
+    {
+      "id": "中国农工民主党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国农工民主党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国的一个民主党派。",
+          "en": "A democratic party in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "福建省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "福建省"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区。",
+          "en": "A provincial-level administrative division of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "民主党派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主党派"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "指在中国大陆范围内，除执政党中国共产党以外，在名义上参与执政、议政与监督的多个政党的合称。",
+          "en": "A collective term for several political parties in mainland China that, in name, participate in governance, political consultation, and supervision, apart from the ruling Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "为处理特定事务而设立的合议性机构。",
+          "en": "A deliberative body established to handle specific affairs."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国农工民主党福建省委员会",
+      "target": "中国农工民主党中央委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框，中国农工民主党福建省委员会的上级机构是中国农工民主党中央委员会。",
+          "en": "According to the infobox, the superior organization of the Fujian Provincial Committee of the Chinese Peasants and Workers Democratic Party is the Central Committee of the Chinese Peasants and Workers Democratic Party."
+        }
+      }
+    },
+    {
+      "source": "中国农工民主党福建省委员会",
+      "target": "中国农工民主党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国农工民主党福建省委员会是中国农工民主党的地方组织。",
+          "en": "The Fujian Provincial Committee of the Chinese Peasants and Workers Democratic Party is a local organization of the Chinese Peasants and Workers Democratic Party."
+        }
+      }
+    },
+    {
+      "source": "中国农工民主党福建省委员会",
+      "target": "民主党派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框，中国农工民主党福建省委员会的机构类型属于民主党派。",
+          "en": "According to the infobox, the institutional type of the Fujian Provincial Committee of the Chinese Peasants and Workers Democratic Party is a democratic party."
+        }
+      }
+    },
+    {
+      "source": "中国农工民主党福建省委员会",
+      "target": "委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框，中国农工民主党福建省委员会的机构类型属于委员会。",
+          "en": "According to the infobox, the institutional type of the Fujian Provincial Committee of the Chinese Peasants and Workers Democratic Party is a committee."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "nodes": [
+    {
+      "id": "保皇派",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "保皇派",
+          "保守派"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "文化大革命时期的政治派系，主张维护当时的官僚体制，与造反派、极左派对立。",
+          "en": "A political faction during the Cultural Revolution that advocated for maintaining the existing bureaucratic system and was opposed to the Rebel and Ultra-Left factions."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1966-05 - 1976-10",
+        "description": {
+          "zh-cn": "中华人民共和国一场自1966年5月至1976年10月期间的政治运动。",
+          "en": "A political movement in the People's Republic of China that took place from May 1966 to October 1976."
+        }
+      }
+    },
+    {
+      "id": "红卫兵",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "红卫兵"
+        ],
+        "en": [
+          "Red Guards"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1978",
+        "description": {
+          "zh-cn": "文化大革命时期，中国青年学生组成的一个群众性组织。",
+          "en": "A mass student-led paramilitary social movement in China during the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "老红卫兵",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "老红卫兵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966-05 - ",
+        "description": {
+          "zh-cn": "文化大革命中最早的红卫兵组织，多由“红五类”高干子弟领导。",
+          "en": "The earliest Red Guard organizations during the Cultural Revolution, mostly led by children of high-ranking officials from the 'Five Red Categories'."
+        }
+      }
+    },
+    {
+      "id": "造反派",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "造反派"
+        ],
+        "en": [
+          "Rebel Faction"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "文化大革命时期的政治派系，与保皇派对立。",
+          "en": "A political faction during the Cultural Revolution, opposed to the Royalist faction."
+        }
+      }
+    },
+    {
+      "id": "极左派 (文革)",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "极左派 (文革)",
+          "极左派"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "文化大革命时期的政治派系，与保皇派对立。",
+          "en": "A political faction during the Cultural Revolution, opposed to the Royalist faction."
+        }
+      }
+    },
+    {
+      "id": "广西文革屠杀",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "广西文革屠杀"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1967 - 1968",
+        "location": {
+          "zh-cn": "广西",
+          "en": "Guangxi"
+        },
+        "description": {
+          "zh-cn": "文化大革命期间在广西壮族自治区发生的一系列屠杀事件。",
+          "en": "A series of massacres that occurred in the Guangxi Zhuang Autonomous Region during the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国革命家、政治家、军事家、理论家，中国共产党、中华人民共和国、中国人民解放军的主要缔造者和领导人。",
+          "en": "A Chinese communist revolutionary who was the founder of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "毛泽东接见红卫兵",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "毛泽东接见红卫兵",
+          "毛泽东第一次接见红卫兵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1966-08-18",
+        "description": {
+          "zh-cn": "1966年8月18日，毛泽东首次在北京接见红卫兵，此后激发了各类红卫兵派系的形成与分化。",
+          "en": "On August 18, 1966, Mao Zedong received Red Guards for the first time in Beijing, which subsequently spurred the formation and differentiation of various Red Guard factions."
+        }
+      }
+    },
+    {
+      "id": "红五类",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "红五类"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "文化大革命期间的一个政治身份划分，指革命干部、革命军人、革命烈士、工人、贫下中农。",
+          "en": "A political classification during the Cultural Revolution, referring to revolutionary cadres, revolutionary soldiers, revolutionary martyrs, workers, and poor and lower-middle peasants."
+        }
+      }
+    },
+    {
+      "id": "官二代",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "官二代",
+          "高干子弟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指高级干部的子女。",
+          "en": "Refers to the children of high-ranking officials."
+        }
+      }
+    },
+    {
+      "id": "工作组",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "工作组"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "文化大革命初期，由中共中央派往各地指导运动的组织。",
+          "en": "Organizations dispatched by the CPC Central Committee to guide the movement in various places during the early stages of the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "一月风暴",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "一月风暴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1967-01",
+        "location": {
+          "zh-cn": "上海",
+          "en": "Shanghai"
+        },
+        "description": {
+          "zh-cn": "1967年1月在上海发生的造反派夺权事件，加剧了全国范围内的派系斗争。",
+          "en": "A power seizure by rebel factions in Shanghai in January 1967, which intensified factional struggles nationwide."
+        }
+      }
+    },
+    {
+      "id": "七二零事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "七二零事件",
+          "武汉七二零事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1967-07-20",
+        "location": {
+          "zh-cn": "武汉",
+          "en": "Wuhan"
+        },
+        "description": {
+          "zh-cn": "文化大革命期间在武汉发生的保皇派与造反派之间的大规模武装冲突。",
+          "en": "A large-scale armed conflict between the Royalist and Rebel factions in Wuhan during the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "重庆大武斗",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "重庆大武斗"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "重庆",
+          "en": "Chongqing"
+        },
+        "description": {
+          "zh-cn": "文化大革命期间在重庆发生的保皇派与造反派之间的大规模武装冲突。",
+          "en": "Large-scale armed conflicts between the Royalist and Rebel factions in Chongqing during the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "陈子明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈子明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1952-01-08 - 2014-10-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治学者、民运人士。",
+          "en": "Chinese political scientist and pro-democracy activist."
+        }
+      }
+    },
+    {
+      "id": "刘思齐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘思齐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1930-03-02 - 2022-01-07",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "毛泽东长子毛岸英的妻子。",
+          "en": "Wife of Mao Zedong's eldest son, Mao Anying."
+        }
+      }
+    },
+    {
+      "id": "张宏良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张宏良"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国左派学者。",
+          "en": "Chinese leftist scholar."
+        }
+      }
+    },
+    {
+      "id": "右翼独裁",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "右翼独裁",
+          "专政右派"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种威权主义的政治体制。",
+          "en": "An authoritarian political system."
+        }
+      }
+    },
+    {
+      "id": "纳粹主义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "纳粹主义",
+          "国家社会主义"
+        ],
+        "en": [
+          "Nazism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "与纳粹党相关的意识形态和实践。",
+          "en": "The ideology and practices associated with the Nazi Party."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "保皇派",
+      "target": "造反派",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在文化大革命期间，保皇派与造反派、极左派对立。",
+          "en": "During the Cultural Revolution, the Royalist faction was opposed to the Rebel and Ultra-Left factions."
+        }
+      }
+    },
+    {
+      "source": "保皇派",
+      "target": "极左派 (文革)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在文化大革命期间，保皇派与造反派、极左派对立。",
+          "en": "During the Cultural Revolution, the Royalist faction was opposed to the Rebel and Ultra-Left factions."
+        }
+      }
+    },
+    {
+      "source": "老红卫兵",
+      "target": "保皇派",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "保皇派红卫兵由老红卫兵演变而来。",
+          "en": "The Royalist Red Guards evolved from the Old Red Guards."
+        }
+      }
+    },
+    {
+      "source": "保皇派",
+      "target": "造反派",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "部分保皇派政府官员及地方军区负责人曾对造反派实行镇压与清算。",
+          "en": "Some Royalist government officials and local military leaders suppressed and purged the Rebel faction."
+        }
+      }
+    },
+    {
+      "source": "保皇派",
+      "target": "广西文革屠杀",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在各派系斗争中，保皇派控制的部分地区发生了屠杀事件，如广西文革屠杀。",
+          "en": "During factional struggles, massacres such as the Guangxi Cultural Revolution Massacre occurred in areas controlled by the Royalists."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "老红卫兵",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "毛泽东支持老红卫兵的“造反精神”。",
+          "en": "Mao Zedong supported the 'rebellious spirit' of the Old Red Guards."
+        }
+      }
+    },
+    {
+      "source": "毛泽东接见红卫兵",
+      "target": "保皇派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1966-08-18",
+        "description": {
+          "zh-cn": "毛泽东接见红卫兵之后，保皇派和造反派的区分开始出现，此事件激化了派系分化。",
+          "en": "After Mao Zedong received the Red Guards, the distinction between the Royalist and Rebel factions began to emerge, and this event intensified factional differentiation."
+        }
+      }
+    },
+    {
+      "source": "毛泽东接见红卫兵",
+      "target": "造反派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1966-08-18",
+        "description": {
+          "zh-cn": "毛泽东接见红卫兵之后，保皇派和造反派的区分开始出现，此事件激化了派系分化。",
+          "en": "After Mao Zedong received the Red Guards, the distinction between the Royalist and Rebel factions began to emerge, and this event intensified factional differentiation."
+        }
+      }
+    },
+    {
+      "source": "红五类",
+      "target": "老红卫兵",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "老红卫兵组织多由红五类背景的高干子弟领导。",
+          "en": "The Old Red Guard organizations were mostly led by children of high-ranking officials with 'Five Red Categories' backgrounds."
+        }
+      }
+    },
+    {
+      "source": "官二代",
+      "target": "老红卫兵",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "老红卫兵组织多由高干子弟（官二代）领导。",
+          "en": "The Old Red Guard organizations were mostly led by children of high-ranking officials (Guan'erdai)."
+        }
+      }
+    },
+    {
+      "source": "保皇派",
+      "target": "工作组",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "保皇派支持党的地方和基层组织，如工作组。",
+          "en": "The Royalist faction supported local and grassroots party organizations, such as work teams."
+        }
+      }
+    },
+    {
+      "source": "老红卫兵",
+      "target": "工作组",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "老红卫兵不愿接受工作组的管束。",
+          "en": "The Old Red Guards were unwilling to accept the control of the work teams."
+        }
+      }
+    },
+    {
+      "source": "一月风暴",
+      "target": "保皇派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1967-01",
+        "description": {
+          "zh-cn": "一月风暴后，保皇派和造反派之间的斗争激化。",
+          "en": "After the January Storm, the struggle between the Royalist and Rebel factions intensified."
+        }
+      }
+    },
+    {
+      "source": "一月风暴",
+      "target": "造反派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1967-01",
+        "description": {
+          "zh-cn": "一月风暴后，保皇派和造反派之间的斗争激化。",
+          "en": "After the January Storm, the struggle between the Royalist and Rebel factions intensified."
+        }
+      }
+    },
+    {
+      "source": "保皇派",
+      "target": "七二零事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "七二零事件是保皇派与造反派之间斗争的案例之一。",
+          "en": "The Wuhan Incident was one of the cases of struggle between the Royalist and Rebel factions."
+        }
+      }
+    },
+    {
+      "source": "造反派",
+      "target": "七二零事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "七二零事件是保皇派与造反派之间斗争的案例之一。",
+          "en": "The Wuhan Incident was one of the cases of struggle between the Royalist and Rebel factions."
+        }
+      }
+    },
+    {
+      "source": "保皇派",
+      "target": "重庆大武斗",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "重庆大武斗是保皇派与造反派之间斗争的案例之一。",
+          "en": "The Chongqing massive armed struggles were one of the cases of struggle between the Royalist and Rebel factions."
+        }
+      }
+    },
+    {
+      "source": "造反派",
+      "target": "重庆大武斗",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "重庆大武斗是保皇派与造反派之间斗争的案例之一。",
+          "en": "The Chongqing massive armed struggles were one of the cases of struggle between the Royalist and Rebel factions."
+        }
+      }
+    },
+    {
+      "source": "陈子明",
+      "target": "刘思齐",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "陈子明认为刘思齐是后文革时代的“保皇毛派”。",
+          "en": "Chen Ziming considered Liu Siqi to be a 'Royalist Maoist' of the post-Cultural Revolution era."
+        }
+      }
+    },
+    {
+      "source": "陈子明",
+      "target": "张宏良",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "陈子明将张宏良归类为“保皇派毛派”，并批判其为“形左实右的专政右派的别动队”、“纳粹主义的忠实信徒”。",
+          "en": "Chen Ziming classified Zhang Hongliang as a 'Royalist Maoist' and criticized him as a 'commando of the right-wing dictatorship that is left in form but right in essence' and a 'faithful believer of Nazism'."
+        }
+      }
+    },
+    {
+      "source": "刘思齐",
+      "target": "保皇派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "被学者陈子明认为是后文革时代的“保皇毛派”。",
+          "en": "Considered a 'Royalist Maoist' of the post-Cultural Revolution era by scholar Chen Ziming."
+        }
+      }
+    },
+    {
+      "source": "张宏良",
+      "target": "保皇派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "被学者陈子明认为是后文革时代的“保皇派毛派”。",
+          "en": "Considered a 'Royalist Maoist' of the post-Cultural Revolution era by scholar Chen Ziming."
+        }
+      }
+    },
+    {
+      "source": "张宏良",
+      "target": "右翼独裁",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "被陈子明批判为“形左实右的专政右派的别动队”。",
+          "en": "Criticized by Chen Ziming as a 'commando of the right-wing dictatorship that is left in form but right in essence'."
+        }
+      }
+    },
+    {
+      "source": "张宏良",
+      "target": "纳粹主义",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "被陈子明批判为“纳粹主义（国家社会主义）的忠实信徒”。",
+          "en": "Criticized by Chen Ziming as a 'faithful believer of Nazism (National Socialism)'."
+        }
+      }
+    }
+  ]
+}

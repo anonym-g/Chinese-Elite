@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "王欣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王欣"
+        ],
+        "en": [
+          "Wang Xin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1960 - ",
+        "gender": null,
+        "location": null,
+        "birth_place": {
+          "zh-cn": "天津",
+          "en": "Tianjin"
+        },
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国汉族政治人物，曾任中国大唐集团办公厅主任，是中国共产党党员，并担任第十一届全国人民代表大会黑龙江地区代表。",
+          "en": "A Han Chinese politician from the People's Republic of China, who served as the Director of the General Office of China Datang Corporation, is a member of the Communist Party of China, and was a delegate for the Heilongjiang region to the 11th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "天津",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "天津"
+        ],
+        "en": [
+          "Tianjin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国直辖市。",
+          "en": "A municipality directly under the Central Government of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中国大唐集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国大唐集团"
+        ],
+        "en": [
+          "China Datang Corporation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一家大型国有电力企业集团。",
+          "en": "A large state-owned power generation enterprise group in China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "第十一届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十一届全国人民代表大会"
+        ],
+        "en": [
+          "11th National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的最高国家权力机关。",
+          "en": "The highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "华北电力学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华北电力学院"
+        ],
+        "en": [
+          "North China Electric Power College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "华北电力大学的前身之一，中国的一所高等教育机构。",
+          "en": "One of the predecessors of North China Electric Power University, an institution of higher education in China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王欣",
+      "target": "天津",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "王欣是天津人。",
+          "en": "Wang Xin is a native of Tianjin."
+        }
+      }
+    },
+    {
+      "source": "王欣",
+      "target": "中国大唐集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "办公厅主任",
+          "en": "Director of the General Office"
+        },
+        "description": {
+          "zh-cn": "王欣担任中国大唐集团办公厅主任。",
+          "en": "Wang Xin served as the Director of the General Office of China Datang Corporation."
+        }
+      }
+    },
+    {
+      "source": "王欣",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "王欣是中国共产党党员。",
+          "en": "Wang Xin is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "王欣",
+      "target": "第十一届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "end_date": null,
+        "position": {
+          "zh-cn": "黑龙江地区代表",
+          "en": "Delegate for Heilongjiang region"
+        },
+        "description": {
+          "zh-cn": "2008年起，王欣担任第十一届全国人民代表大会黑龙江地区代表。",
+          "en": "Starting from 2008, Wang Xin served as a delegate for the Heilongjiang region to the 11th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "王欣",
+      "target": "华北电力学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "王欣毕业于华北电力学院热动专业。",
+          "en": "Wang Xin graduated from North China Electric Power College, majoring in Thermal Power."
+        }
+      }
+    }
+  ]
+}

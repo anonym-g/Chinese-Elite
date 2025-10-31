@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "id": "李国璋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李国璋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1965-09 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "湖北省兴山县",
+          "en": "Xingshan County, Hubei"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员。曾任第十三届全国人民代表大会湖北省代表。",
+          "en": "A political figure in the People's Republic of China and a member of the Communist Party of China. He served as a representative of Hubei Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "兴山县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "兴山县",
+          "兴山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "湖北省",
+          "en": "Hubei Province"
+        },
+        "description": {
+          "zh-cn": "李国璋的家乡和出生地。",
+          "en": "The hometown and birthplace of Li Guozhang."
+        }
+      }
+    },
+    {
+      "id": "湖北省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖北省",
+          "湖北"
+        ],
+        "en": [
+          "Hubei"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区，李国璋的籍贯所在省份。",
+          "en": "A province-level administrative division of the People's Republic of China, and the native province of Li Guozhang."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家。",
+          "en": "A socialist state in East Asia."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届国家最高权力机关。",
+          "en": "The 13th term of the highest state authority of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李国璋",
+      "target": "兴山县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科信息，李国璋是湖北兴山人。",
+          "en": "According to Wikipedia, Li Guozhang is a native of Xingshan, Hubei."
+        }
+      }
+    },
+    {
+      "source": "李国璋",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李国璋是中国共产党党员。",
+          "en": "Li Guozhang is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "李国璋",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "end_date": "2023",
+        "position": {
+          "zh-cn": "湖北省代表",
+          "en": "Hubei Province Deputy"
+        },
+        "description": {
+          "zh-cn": "2018年，李国璋被选为湖北省出席第十三届全国人民代表大会的代表。",
+          "en": "In 2018, Li Guozhang was elected as a deputy from Hubei Province to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

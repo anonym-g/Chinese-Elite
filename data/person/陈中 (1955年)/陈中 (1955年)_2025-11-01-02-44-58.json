@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": "陈中",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈中"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1955-09 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "宁国市",
+          "en": "Ningguo"
+        },
+        "description": {
+          "zh-cn": "中国政治人物、企业家。汉族，安徽宁国人，中国共产党党员。曾历任贵州电子信息职业技术学院院长、中国振华电子集团有限公司董事长等职。是第十一届、第十二届全国人大代表。",
+          "en": "Chinese politician and entrepreneur. Of Han ethnicity, native of Ningguo, Anhui, and a member of the Communist Party of China. He has served as the president of Guizhou Electronic Information Vocational and Technical College and chairman of China Zhenhua Electronics Group Co., Ltd. He was a deputy to the 11th and 12th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "宁国市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "宁国市",
+          "宁国"
+        ],
+        "en": [
+          "Ningguo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国安徽省辖县级市，为陈中的出生地。",
+          "en": "A county-level city in Anhui Province, People's Republic of China, and the birthplace of Chen Zhong."
+        }
+      }
+    },
+    {
+      "id": "安徽师范大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安徽师范大学"
+        ],
+        "en": [
+          "Anhui Normal University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于安徽省芜湖市的一所省属重点大学，陈中于1978年毕业于此。",
+          "en": "A key provincial university located in Wuhu, Anhui Province, from which Chen Zhong graduated in 1978."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "贵州电子信息职业技术学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "贵州电子信息职业技术学院",
+          "贵州无线电工业学校"
+        ],
+        "en": [
+          "Guizhou Electronic Information Vocational College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于贵州省的一所职业技术学院，其前身为贵州无线电工业学校，陈中曾担任其校长及院长。",
+          "en": "A vocational and technical college in Guizhou Province, formerly known as Guizhou Radio Industry School, where Chen Zhong served as its principal and president."
+        }
+      }
+    },
+    {
+      "id": "中国振华电子集团有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国振华电子集团有限公司",
+          "中国振华电子集团公司",
+          "贵州中电振华信息产业有限公司"
+        ],
+        "en": [
+          "China Zhenhua Electronics Group Co., Ltd."
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家总部位于贵州省的大型国有电子信息企业集团，陈中曾在此担任多个高级管理职务。",
+          "en": "A large state-owned electronic information enterprise group headquartered in Guizhou Province, where Chen Zhong held several senior management positions."
+        }
+      }
+    },
+    {
+      "id": "第十一届全国人大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十一届全国人大代表"
+        ],
+        "en": [
+          "Deputy to the 11th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2008-03 - 2013-03",
+        "description": {
+          "zh-cn": "中华人民共和国第十一届全国人民代表大会（2008年至2013年）的代表身份。",
+          "en": "The status as a deputy to the 11th National People's Congress of the People's Republic of China (2008-2013)."
+        }
+      }
+    },
+    {
+      "id": "第十二届全国人大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国人大代表"
+        ],
+        "en": [
+          "Deputy to the 12th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2013-03 - 2018-03",
+        "description": {
+          "zh-cn": "中华人民共和国第十二届全国人民代表大会（2013年至2018年）的代表身份。",
+          "en": "The status as a deputy to the 12th National People's Congress of the People's Republic of China (2013-2018)."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "陈中",
+      "target": "宁国市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "陈中是安徽宁国人。",
+          "en": "Chen Zhong is a native of Ningguo, Anhui."
+        }
+      }
+    },
+    {
+      "source": "陈中",
+      "target": "安徽师范大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1978",
+        "degree": {
+          "zh-cn": "英语专业",
+          "en": "English Major"
+        },
+        "description": {
+          "zh-cn": "1978年毕业于安徽师范大学英语专业。",
+          "en": "Graduated from the English major at Anhui Normal University in 1978."
+        }
+      }
+    },
+    {
+      "source": "陈中",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "陈中是一名中国共产党党员。",
+          "en": "Chen Zhong is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "陈中",
+      "target": "贵州电子信息职业技术学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "校长, 院长",
+          "en": "Principal, President"
+        },
+        "description": {
+          "zh-cn": "陈中曾任贵州无线电工业学校（贵州电子信息职业技术学院前身）校长，后任贵州电子信息职业技术学院院长。",
+          "en": "Chen Zhong served as the principal of Guizhou Radio Industry School (the predecessor of Guizhou Electronic Information Vocational College) and later as the president of Guizhou Electronic Information Vocational College."
+        }
+      }
+    },
+    {
+      "source": "陈中",
+      "target": "中国振华电子集团有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第二中学校长, 董事局董事, 党委副书记, 副总裁, 董事长, 党委书记",
+          "en": "Principal of the No. 2 Middle School, Board Director, Deputy Party Secretary, Vice President, Chairman, Party Secretary"
+        },
+        "description": {
+          "zh-cn": "陈中历任中国振华电子集团公司第二中学校长，及中国振华电子集团有限公司的董事局董事、党委副书记、副总裁、董事长、党委书记等多个职务。",
+          "en": "Chen Zhong successively served as the Principal of the No. 2 Middle School of China Zhenhua Electronics Group Corporation, and held various positions at China Zhenhua Electronics Group Co., Ltd., including Board Director, Deputy Party Secretary, Vice President, Chairman, and Party Secretary."
+        }
+      }
+    },
+    {
+      "source": "陈中",
+      "target": "第十一届全国人大代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008-02",
+        "end_date": "2013-03",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "description": {
+          "zh-cn": "2008年2月，陈中当选为第十一届全国人大代表。",
+          "en": "In February 2008, Chen Zhong was elected as a deputy to the 11th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "陈中",
+      "target": "第十二届全国人大代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013-02",
+        "end_date": "2018-03",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "description": {
+          "zh-cn": "2013年2月，陈中当选为第十二届全国人大代表。",
+          "en": "In February 2013, Chen Zhong was elected as a deputy to the 12th National People's Congress."
+        }
+      }
+    }
+  ]
+}
