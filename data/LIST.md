@@ -1,4 +1,5 @@
 ## person
+王立群
 习近平
 (en) Xi Jinping
 唐納·川普
@@ -9039,6 +9040,7 @@ Kolas Yotaka
 范汉杰
 
 ## movement
+百家讲坛
 大罷免
 朝鲜战争
 中国抗日战争
