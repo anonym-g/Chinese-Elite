@@ -198,8 +198,12 @@ async def _fetch_stats_for_title_async(session: aiohttp.ClientSession, article_t
     valid_items = [item for item in pageviews_data.get('items', []) 
                    if datetime.strptime(item['timestamp'], '%Y%m%d%H') >= effective_start_date]
     
+    num_days_with_data = len(valid_items)
+    if num_days_with_data == 0:
+        return {'total_views': 0, 'avg_daily_views': 0}
+
     total_views = sum(item['views'] for item in valid_items)
-    avg_daily_views = total_views / days_since_creation if days_since_creation > 0 else 0
+    avg_daily_views = total_views / num_days_with_data
     
     return {'total_views': total_views, 'avg_daily_views': avg_daily_views}
 
@@ -345,8 +349,15 @@ async def main():
             # 提取 original_line 用于文件重写
             sorted_results[category] = [res['item']['original_line'] for res in sorted_items]
 
+    sorted_cache_items = sorted(
+        pageviews_cache.items(),
+        key=lambda item: item[1].get('avg_daily_views', 0),
+        reverse=True
+    )
+    sorted_pageviews_cache = dict(sorted_cache_items)
+
     # 保存两个缓存文件
-    save_json_cache(PAGEVIEWS_CACHE_PATH, pageviews_cache)
+    save_json_cache(PAGEVIEWS_CACHE_PATH, sorted_pageviews_cache)
     save_json_cache(CREATION_DATE_CACHE_PATH, creation_date_cache)
     
     rewrite_list_file(sorted_results)
