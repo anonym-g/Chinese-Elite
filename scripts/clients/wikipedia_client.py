@@ -136,29 +136,29 @@ class WikipediaClient:
         except requests.exceptions.RequestException:
             return None, None
 
-    @wiki_sync_limiter.limit # 应用维基同步装饰器
-    def _fetch_title_by_qcode(self, qcode: str, lang: str = 'zh') -> str | None:
-        """根据Q-Code反向查询其在指定语言维基中的权威页面标题。"""
-        api_url = WIKI_API_URL_TPL.format(lang=lang)
-        params = {
-            "action": "wbgetentities",
-            "ids": qcode,
-            "props": "sitelinks",
-            "format": "json",
-            "formatversion": "2"
-        }
-        try:
-            response = self.session.get(api_url, params=params, timeout=15)
-            response.raise_for_status()
-            data = response.json()
-            sitelinks = data.get("entities", {}).get(qcode, {}).get("sitelinks", {})
-            wiki_key = f"{lang}wiki"
-            if wiki_key in sitelinks:
-                return sitelinks[wiki_key].get("title")
-        except requests.exceptions.RequestException:
-            # 发生网络错误时，静默失败并返回None
-            pass
-        return None
+    # @wiki_sync_limiter.limit # 应用维基同步装饰器
+    # def _fetch_title_by_qcode(self, qcode: str, lang: str = 'zh') -> str | None:
+    #     """根据Q-Code反向查询其在指定语言维基中的权威页面标题。"""
+    #     api_url = WIKI_API_URL_TPL.format(lang=lang)
+    #     params = {
+    #         "action": "wbgetentities",
+    #         "ids": qcode,
+    #         "props": "sitelinks",
+    #         "format": "json",
+    #         "formatversion": "2"
+    #     }
+    #     try:
+    #         response = self.session.get(api_url, params=params, timeout=15)
+    #         response.raise_for_status()
+    #         data = response.json()
+    #         sitelinks = data.get("entities", {}).get(qcode, {}).get("sitelinks", {})
+    #         wiki_key = f"{lang}wiki"
+    #         if wiki_key in sitelinks:
+    #             return sitelinks[wiki_key].get("title")
+    #     except requests.exceptions.RequestException:
+    #         # 发生网络错误时，静默失败并返回None
+    #         pass
+    #     return None
 
     def get_qcode(self, article_title: str, lang: str = 'zh', force_refresh: bool = False) -> tuple[str | None, str | None]:
         """
@@ -166,15 +166,15 @@ class WikipediaClient:
         确保在多级重定向下正确更新LIST.md。
         返回元组： (qcode, final_title)
         """
-        # 0. 优先从内存中的反向映射缓存中快速查找
-        if not force_refresh and article_title in self._title_to_qcode_map:
-            qcode = self._title_to_qcode_map[article_title]
-            # 通过API获取权威标题。避免返回别名。
-            canonical_title = self._fetch_title_by_qcode(qcode, lang)
-            # 如果API查询失败，回退到原始标题。
-            final_title = canonical_title or article_title
-            logger.info(f"缓存命中: '{article_title}' -> {qcode}。权威标题: '{final_title}'")
-            return qcode, final_title
+        # # 0. 优先从内存中的反向映射缓存中快速查找
+        # if not force_refresh and article_title in self._title_to_qcode_map:
+        #     qcode = self._title_to_qcode_map[article_title]
+        #     # 通过API获取权威标题。避免返回别名。
+        #     canonical_title = self._fetch_title_by_qcode(qcode, lang)
+        #     # 如果API查询失败，回退到原始标题。
+        #     final_title = canonical_title or article_title
+        #     logger.info(f"缓存命中: '{article_title}' -> {qcode}。权威标题: '{final_title}'")
+        #     return qcode, final_title
 
         qcode, final_title = None, None
         
@@ -237,52 +237,42 @@ class WikipediaClient:
     @wiki_sync_limiter.limit # 应用维基同步装饰器
     def get_wikitext(self, article_title: str, lang: str = 'zh') -> tuple[str | None, str | None]:
         """
-        获取给定维基百科文章标题的Wikitext。如果语言是中文，则会进行简繁重定向检查和最终内容的简体转换。
+        获取给定维基百科文章标题的Wikitext，并确保返回的是重定向解析完成后的最终标题和内容。
 
         Returns:
             一个元组 (wikitext, final_article_title)，若失败则返回 (None, None)。
         """
+        # 步骤 1: 使用 API 方法预先获取最终的权威页面标题
+        _, final_title = self._fetch_qcode_from_api(article_title, lang=lang)
         
-        current_title_to_fetch = article_title
-        raw_url = self._build_raw_url(current_title_to_fetch, lang)
-        logger.info(f"正在获取 ({lang}) '{current_title_to_fetch}' 的Wikitext源码: {raw_url}")
+        if not final_title:
+            logger.error(f"无法为 '{article_title}' ({lang}) 解析到有效的维基百科页面。")
+            return None, None
 
+        # 如果API返回的最终标题与请求的原始标题不同，说明发生了重定向
+        if final_title != article_title:
+            logger.info(f"页面 '{article_title}' 重定向至 '{final_title}'。将更新 LIST.md。")
+            # 调用工具函数，将列表中的旧标题更新为新标题
+            update_title_in_list(article_title, final_title)
+        
+        # 步骤 2: 使用获取到的权威标题抓取 Wikitext
+        raw_url = self._build_raw_url(final_title, lang)
+        logger.info(f"正在获取 ({lang}) '{final_title}' 的Wikitext源码: {raw_url}")
+        
         try:
             response = self.session.get(raw_url, timeout=20)
             response.raise_for_status()
             
             content = response.text
-            
-            # 当语言为中文时，进行重定向检查和简繁转换
-            if lang == 'zh':
-                normalized_content = content.strip().lower()
-                if normalized_content.startswith(("#redirect", "#重定向")):
-                    match = re.search(r'\[\[(.*?)\]\]', content)
-                    if match:
-                        redirect_target = match.group(1).strip().split('#')[0]
-                        
-                        logger.info(f"页面 '{article_title}' 重定向至 '{redirect_target}'。将更新 LIST.md。")
-                        update_title_in_list(article_title, redirect_target)
-                        
-                        current_title_to_fetch = redirect_target
-                        new_raw_url = self._build_raw_url(current_title_to_fetch, lang)
-                        logger.info(f"重新获取 '{current_title_to_fetch}' 的Wikitext源码: {new_raw_url}")
-                        
-                        response = self.session.get(new_raw_url, timeout=20)
-                        response.raise_for_status()
-                        content = response.text
 
-                # 对最终内容进行简体转换
-                final_wikitext = self.t2s_converter.convert(content)
-                logger.info(f"Wikitext已成功获取并转换为简体（标题: '{current_title_to_fetch}'）。")
-                return final_wikitext, current_title_to_fetch
-            else:
-                # 对于非中文，直接返回原文
-                logger.info(f"Wikitext已成功获取（标题: '{current_title_to_fetch}'）。")
-                return content, current_title_to_fetch
+            # 对中文维基内容进行简体转换
+            final_wikitext = self.t2s_converter.convert(content) if lang == 'zh' else content
+            
+            logger.info(f"Wikitext已成功获取（最终标题: '{final_title}'）。")
+            return final_wikitext, final_title
 
         except requests.exceptions.RequestException as e:
-            logger.error(f"获取Wikitext失败 (标题: '{current_title_to_fetch}') - {e}")
+            logger.error(f"获取Wikitext失败 (最终标题: '{final_title}') - {e}")
             return None, None
 
     @wiki_sync_limiter.limit # 应用维基同步装饰器

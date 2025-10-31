@@ -128,7 +128,7 @@ class GraphMerger:
                             primary_name = names[0]
                             break
                 
-                if not primary_name: continue
+                if not (primary_name and primary_lang): continue
 
                 final_id = None
                 api_lang = 'zh' if 'zh' in primary_lang else primary_lang
