@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "杨金永",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨金永"
+        ],
+        "en": [
+          "Yang Jinyong"
+        ]
+      },
+      "properties": {
+        "lifetime": null,
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A political figure in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中共中央直属机关工作委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央直属机关工作委员会"
+        ],
+        "en": [
+          "Work Committee for the Organs Directly Under the Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "description": {
+          "zh-cn": "中国共产党中央委员会的派出机构，负责领导中共中央直属机关党的工作。",
+          "en": "An agency dispatched by the Central Committee of the Communist Party of China, responsible for leading the party work of the organs directly under the CPC Central Committee."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议第十二届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十二届全国委员会"
+        ],
+        "en": [
+          "12th National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "period": "2013-03 - 2018-03",
+        "description": {
+          "zh-cn": "中国人民政治协商会议的第十二届全国委员会，于2013年3月至2018年3月在任。",
+          "en": "The 12th National Committee of the Chinese People's Political Consultative Conference, which served from March 2013 to March 2018."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1921-07 - ",
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党第十八次全国代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十八次全国代表大会",
+          "中共十八大"
+        ],
+        "en": [
+          "18th National Congress of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "2012-11-08 - 2012-11-14",
+        "description": {
+          "zh-cn": "中国共产党于2012年11月8日至14日在北京召开的全国代表大会。",
+          "en": "The national congress of the Communist Party of China held in Beijing from November 8 to 14, 2012."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杨金永",
+      "target": "中共中央直属机关工作委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        },
+        "description": {
+          "zh-cn": "杨金永曾任中共中央直属机关工作委员会副书记。",
+          "en": "Yang Jinyong served as Deputy Secretary of the Work Committee for the Organs Directly Under the Central Committee of the CPC."
+        }
+      }
+    },
+    {
+      "source": "杨金永",
+      "target": "中国人民政治协商会议第十二届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013",
+        "end_date": "2018",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "杨金永为第十二届全国政协委员。",
+          "en": "Yang Jinyong was a member of the 12th National Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "杨金永",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "根据其担任的党内职务，杨金永是中国共产党党员。",
+          "en": "Based on his party positions, Yang Jinyong is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "杨金永",
+      "target": "中国共产党第十八次全国代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2012",
+        "end_date": "2012",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "杨金永为中共十八大代表。",
+          "en": "Yang Jinyong was a delegate to the 18th National Congress of the CPC."
+        }
+      }
+    }
+  ]
+}

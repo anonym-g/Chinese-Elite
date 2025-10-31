@@ -1,0 +1,206 @@
+{
+  "nodes": [
+    {
+      "id": "张开勋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张开勋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1951-03 - ",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国"
+        },
+        "birth_place": {
+          "zh-cn": "甘肃古浪"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中共嘉峪关市委书记，甘肃省人大常委会秘书长、副主任，第十届全国人大代表。",
+          "en": "A political figure in the People's Republic of China, who served as Secretary of the CPC Jiayuguan Municipal Committee, Secretary-General and Vice Chairman of the Standing Committee of the Gansu Provincial People's Congress, and a deputy to the 10th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "古浪县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "古浪县",
+          "古浪"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张开勋的出生地。",
+          "en": "Birthplace of Zhang Kaixun."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党嘉峪关市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党嘉峪关市委员会",
+          "中共嘉峪关市委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "甘肃省人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "甘肃省人民代表大会常务委员会",
+          "甘肃省人大常委会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十届全国人民代表大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2003 - 2008"
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共中央党校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央党校"
+        ],
+        "en": [
+          "Central Party School of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张开勋",
+      "target": "古浪县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1951-03",
+        "description": {
+          "zh-cn": "张开勋是甘肃古浪人。",
+          "en": "Zhang Kaixun is from Gulang, Gansu."
+        }
+      }
+    },
+    {
+      "source": "张开勋",
+      "target": "中国共产党嘉峪关市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "张开勋曾任中共嘉峪关市委书记。",
+          "en": "Zhang Kaixun once served as Secretary of the CPC Jiayuguan Municipal Committee."
+        }
+      }
+    },
+    {
+      "source": "张开勋",
+      "target": "甘肃省人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "秘书长、副主任",
+          "en": "Secretary-General, Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "张开勋曾任甘肃省人大常委会秘书长、副主任。",
+          "en": "Zhang Kaixun once served as Secretary-General and Vice Chairman of the Standing Committee of the Gansu Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "source": "张开勋",
+      "target": "第十届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "description": {
+          "zh-cn": "张开勋是第十届全国人大代表。",
+          "en": "Zhang Kaixun was a deputy to the 10th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "张开勋",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "张开勋是中国共产党党员。",
+          "en": "Zhang Kaixun is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "张开勋",
+      "target": "中共中央党校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张开勋是中共中央党校校友。",
+          "en": "Zhang Kaixun is an alumnus of the Central Party School of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "nodes": [
+    {
+      "id": "赵津芳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵津芳"
+        ],
+        "en": [
+          "Zhao Jinfang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1955-06 - ",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任北京市妇女联合会党组书记、主席，中华全国妇女联合会常务委员，中共十七大、十八大代表。",
+          "en": "A political figure of the People's Republic of China, who served as the Party Secretary and Chairwoman of the Beijing Women's Federation, a member of the Standing Committee of the All-China Women's Federation, and a delegate to the 17th and 18th National Congresses of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，简称中国，是赵津芳的国籍国。",
+          "en": "A socialist state in East Asia, commonly known as China, and the country of Zhao Jinfang's nationality."
+        }
+      }
+    },
+    {
+      "id": "北京市妇女联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市妇女联合会"
+        ],
+        "en": [
+          "Beijing Women's Federation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党领导的北京市各族各界妇女的群众组织，是中华全国妇女联合会的地方组织。",
+          "en": "A mass organization for women of all ethnic groups and from all walks of life in Beijing, led by the Communist Party of China. It is a local organization of the All-China Women's Federation."
+        }
+      }
+    },
+    {
+      "id": "中华全国妇女联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国妇女联合会"
+        ],
+        "en": [
+          "All-China Women's Federation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党领导下的中国各族各界妇女的全国性群众组织，简称“全国妇联”。",
+          "en": "A national mass organization for women of all ethnic groups and from all walks of life in China under the leadership of the Communist Party of China, commonly known as the 'ACWF'."
+        }
+      }
+    },
+    {
+      "id": "中国共产党第十七次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十七次全国代表大会",
+          "中共十七大"
+        ],
+        "en": [
+          "17th National Congress of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "2007-10-15 - 2007-10-21",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中国共产党于2007年10月在北京召开的全国代表大会。",
+          "en": "The national congress of the Communist Party of China held in Beijing in October 2007."
+        }
+      }
+    },
+    {
+      "id": "中国共产党第十八次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十八次全国代表大会",
+          "中共十八大"
+        ],
+        "en": [
+          "18th National Congress of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "2012-11-08 - 2012-11-14",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中国共产党于2012年11月在北京召开的全国代表大会。",
+          "en": "The national congress of the Communist Party of China held in Beijing in November 2012."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "赵津芳",
+      "target": "北京市妇女联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党组书记、主席",
+          "en": "Party Group Secretary, Chairwoman"
+        },
+        "description": {
+          "zh-cn": "赵津芳曾担任北京市妇女联合会党组书记、主席。",
+          "en": "Zhao Jinfang served as the Party Group Secretary and Chairwoman of the Beijing Women's Federation."
+        }
+      }
+    },
+    {
+      "source": "赵津芳",
+      "target": "中华全国妇女联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务委员",
+          "en": "Standing Committee Member"
+        },
+        "description": {
+          "zh-cn": "赵津芳曾担任中华全国妇女联合会常务委员。",
+          "en": "Zhao Jinfang served as a member of the Standing Committee of the All-China Women's Federation."
+        }
+      }
+    },
+    {
+      "source": "赵津芳",
+      "target": "中国共产党第十七次全国代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2007-10-15",
+        "end_date": "2007-10-21",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "赵津芳是中共十七大代表。",
+          "en": "Zhao Jinfang was a delegate to the 17th National Congress of the CPC."
+        }
+      }
+    },
+    {
+      "source": "赵津芳",
+      "target": "中国共产党第十八次全国代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2012-11-08",
+        "end_date": "2012-11-14",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "赵津芳是中共十八大代表。",
+          "en": "Zhao Jinfang was a delegate to the 18th National Congress of the CPC."
+        }
+      }
+    }
+  ]
+}

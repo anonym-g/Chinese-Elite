@@ -1,0 +1,873 @@
+{
+  "nodes": [
+    {
+      "id": "监察院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "监察院",
+          "监院"
+        ],
+        "en": [
+          "Control Yuan"
+        ]
+      },
+      "properties": {
+        "period": "1931-02-16 - ",
+        "location": {
+          "zh-cn": "台湾台北市",
+          "en": "Taipei, Taiwan"
+        },
+        "description": {
+          "zh-cn": "中华民国最高监察机关，为《中华民国宪法》明定之国家最高机关之一，负责行使弹劾权、纠举权、审计权。",
+          "en": "The highest supervisory agency of the Republic of China, one of the five branches of government established by the Constitution of the Republic of China, responsible for exercising the powers of impeachment, censure, and audit."
+        }
+      }
+    },
+    {
+      "id": "陈菊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈菊"
+        ],
+        "en": [
+          "Chen Chu"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中华民国政治人物，现任监察院院长兼国家人权委员会主任委员。",
+          "en": "A Taiwanese politician, currently serving as the President of the Control Yuan and the Chairperson of the National Human Rights Commission."
+        }
+      }
+    },
+    {
+      "id": "蔡英文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡英文"
+        ],
+        "en": [
+          "Tsai Ing-wen"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中华民国政治人物，曾任中华民国总统。",
+          "en": "A Taiwanese politician who served as the President of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "李鸿钧 (1959年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李鸿钧 (1959年)",
+          "李鸿钧"
+        ],
+        "en": [
+          "Lee Hong-chun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物，现任监察院副院长。",
+          "en": "A Taiwanese politician, currently serving as the Vice President of the Control Yuan."
+        }
+      }
+    },
+    {
+      "id": "孙中山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙中山"
+        ],
+        "en": [
+          "Sun Yat-sen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1866-11-12 - 1925-03-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国国父，其五权宪法理论是监察院创设的学理根据。",
+          "en": "The founding father of the Republic of China, whose Five-Power Constitution theory is the theoretical basis for the establishment of the Control Yuan."
+        }
+      }
+    },
+    {
+      "id": "五权宪法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "五权宪法"
+        ],
+        "en": [
+          "Five-Power Constitution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由孙中山提出的宪法理论，将国家治权分为行政、立法、司法、考试、监察五权。",
+          "en": "A constitutional theory proposed by Sun Yat-sen, which divides the powers of government into five branches: Executive, Legislative, Judicial, Examination, and Control."
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": [
+          "Nationalist Government"
+        ]
+      },
+      "properties": {
+        "period": "1925-07-01 - 1948-05-20",
+        "description": {
+          "zh-cn": "1928年至1948年间代表中国的政权，于1931年成立监察院。",
+          "en": "The government representing China from 1928 to 1948, which established the Control Yuan in 1931."
+        }
+      }
+    },
+    {
+      "id": "于右任",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "于右任"
+        ],
+        "en": [
+          "Yu You-ren"
+        ]
+      },
+      "properties": {
+        "lifetime": "1879-04-11 - 1964-11-10",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物、书法家，担任第一任监察院长。",
+          "en": "A Chinese statesman, calligrapher, and the first President of the Control Yuan."
+        }
+      }
+    },
+    {
+      "id": "立法院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "立法院"
+        ],
+        "en": [
+          "Legislative Yuan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国最高立法机关，现负责对监察委员人事案行使同意权。",
+          "en": "The unicameral legislature of the Republic of China, which currently holds the power to approve nominations for the Control Yuan."
+        }
+      }
+    },
+    {
+      "id": "陈水扁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈水扁"
+        ],
+        "en": [
+          "Chen Shui-bian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物，曾任中华民国总统。其提名的监察委员人选曾遭立法院杯葛。",
+          "en": "A Taiwanese politician who served as the President of the Republic of China. His nominations for the Control Yuan were boycotted by the Legislative Yuan."
+        }
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党"
+        ],
+        "en": [
+          "Kuomintang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国主要政党之一。",
+          "en": "One of the major political parties in the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "司法院释字第632号解释",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "司法院释字第632号解释"
+        ],
+        "en": [
+          "J.Y. Interpretation No. 632"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "司法院大法官会议针对立法院不行使监察委员人事同意权所作出的解释，认定其行为违宪。",
+          "en": "An interpretation by the Justices of the Constitutional Court regarding the Legislative Yuan's failure to exercise its power of consent over Control Yuan nominations, ruling the inaction unconstitutional."
+        }
+      }
+    },
+    {
+      "id": "马英九",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马英九"
+        ],
+        "en": [
+          "Ma Ying-jeou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物，曾任中华民国总统。其任内重新提名并通过了第四届监察委员。",
+          "en": "A Taiwanese politician who served as the President of the Republic of China. During his presidency, the fourth term of Control Yuan members were successfully nominated and approved."
+        }
+      }
+    },
+    {
+      "id": "张博雅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张博雅"
+        ],
+        "en": [
+          "Chang Po-ya"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中华民国政治人物，第五届监察院院长，为中华民国五院史上首位女性院长。",
+          "en": "A Taiwanese politician who was the President of the fifth Control Yuan, becoming the first female head of any of the five Yuans in ROC history."
+        }
+      }
+    },
+    {
+      "id": "监察院国家人权委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "监察院国家人权委员会",
+          "国家人权委员会"
+        ],
+        "en": [
+          "National Human Rights Commission, Control Yuan"
+        ]
+      },
+      "properties": {
+        "period": "2020-08-01 - ",
+        "description": {
+          "zh-cn": "隶属于监察院的部会单位，负责调查侵害人权或歧视事件。",
+          "en": "A commission under the Control Yuan responsible for investigating human rights violations and discrimination cases."
+        }
+      }
+    },
+    {
+      "id": "台湾民众党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台湾民众党"
+        ],
+        "en": [
+          "Taiwan People's Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国主要政党之一。",
+          "en": "One of the major political parties in the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "李宗仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李宗仁"
+        ],
+        "en": [
+          "Li Zongren"
+        ]
+      },
+      "properties": {
+        "lifetime": "1891-08-13 - 1969-01-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事家、政治人物，曾任中华民国副总统，后被监察院弹劾。",
+          "en": "A prominent Guangxi warlord and Kuomintang military commander who served as Vice President of the Republic of China and was later impeached by the Control Yuan."
+        }
+      }
+    },
+    {
+      "id": "孙立人",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙立人"
+        ],
+        "en": [
+          "Sun Li-jen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1900-12-08 - 1990-11-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军二级上将，其部属涉及匪谍案遭调查，监察院的调查报告认为其罪名莫须有。",
+          "en": "A general of the Republic of China Army. His subordinates were implicated in a spy case, and a Control Yuan investigation report concluded the charges against him were unfounded."
+        }
+      }
+    },
+    {
+      "id": "陶百川",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陶百川"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "监察委员，曾自行发动调查孙立人案，报告结果与总统府方面极为不同。",
+          "en": "A Control Yuan member who independently initiated an investigation into the Sun Li-jen case, with findings significantly different from the presidential office's."
+        }
+      }
+    },
+    {
+      "id": "陈诚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈诚"
+        ],
+        "en": [
+          "Chen Cheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-01-04 - 1965-03-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治及军事人物，曾任副总统。其组织的“九人小组”调查报告导致孙立人被软禁。",
+          "en": "A Chinese political and military leader, and a former Vice President of the Republic of China. The report from his 'nine-person group' investigation led to Sun Li-jen's house arrest."
+        }
+      }
+    },
+    {
+      "id": "俞鸿钧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "俞鸿钧"
+        ],
+        "en": [
+          "Yu Hung-chun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-01-04 - 1960-06-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物，曾任行政院院长，后因拒绝监察院约询遭弹劾并辞职。",
+          "en": "A politician of the Republic of China who served as Premier. He was later impeached for refusing a summons from the Control Yuan and subsequently resigned."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物及军事家，曾任中华民国总统。曾对监察院弹劾俞鸿钧表示不满。",
+          "en": "A Chinese politician and military leader who served as the President of the Republic of China. He expressed dissatisfaction with the Control Yuan's impeachment of Yu Hung-chun."
+        }
+      }
+    },
+    {
+      "id": "许信良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "许信良"
+        ],
+        "en": [
+          "Hsu Hsin-liang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1941-05-27 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物，曾任桃园县县长，后被监察院弹劾。",
+          "en": "A politician in the Republic of China who served as the Magistrate of Taoyuan County and was later impeached by the Control Yuan."
+        }
+      }
+    },
+    {
+      "id": "谢清志",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢清志"
+        ],
+        "en": [
+          "Hsieh Ching-chih"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国学者，曾任国科会副主委，在法院宣判无罪后仍遭监察院弹劾。",
+          "en": "A scholar in the Republic of China and former Deputy Minister of the National Science Council, who was impeached by the Control Yuan even after being acquitted by the court."
+        }
+      }
+    },
+    {
+      "id": "赖清德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赖清德"
+        ],
+        "en": [
+          "Lai Ching-te"
+        ]
+      },
+      "properties": {
+        "lifetime": "1959-10-06 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物，现任中华民国总统。曾任台南市市长，后被监察院弹劾。",
+          "en": "A politician in the Republic of China and the current President. He previously served as the Mayor of Tainan and was later impeached by the Control Yuan."
+        }
+      }
+    },
+    {
+      "id": "民主进步党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主进步党"
+        ],
+        "en": [
+          "Democratic Progressive Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国主要政党之一，主张修宪废除考试院及监察院。",
+          "en": "One of the major political parties in the Republic of China, which advocates for constitutional amendments to abolish the Examination Yuan and the Control Yuan."
+        }
+      }
+    },
+    {
+      "id": "黄国昌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄国昌"
+        ],
+        "en": [
+          "Huang Kuo-chang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物，台湾民众党立法院党团总召，提出修宪废除监察院案。",
+          "en": "A Taiwanese politician and the caucus whip of the Taiwan People's Party in the Legislative Yuan, who proposed a constitutional amendment to abolish the Control Yuan."
+        }
+      }
+    },
+    {
+      "id": "中华民国审计部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国审计部",
+          "审计部"
+        ],
+        "en": [
+          "National Audit Office"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "隶属于监察院的部会单位，负责审核全国各机关之财务与总决算。",
+          "en": "A ministerial-level agency under the Control Yuan responsible for auditing the finances and final accounts of all government agencies."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "孙中山",
+      "target": "五权宪法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "孙中山提出了五权宪法理论。",
+          "en": "Sun Yat-sen proposed the Five-Power Constitution theory."
+        }
+      }
+    },
+    {
+      "source": "五权宪法",
+      "target": "监察院",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "监察院的创设源自于孙中山的五权宪法理论。",
+          "en": "The establishment of the Control Yuan originated from Sun Yat-sen's Five-Power Constitution theory."
+        }
+      }
+    },
+    {
+      "source": "国民政府",
+      "target": "监察院",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1931-02-16",
+        "description": {
+          "zh-cn": "1928年北伐完成后，国民政府实行五权分治，于1931年2月成立监察院。",
+          "en": "After the completion of the Northern Expedition in 1928, the Nationalist Government implemented the five-power system of governance and established the Control Yuan in February 1931."
+        }
+      }
+    },
+    {
+      "source": "于右任",
+      "target": "监察院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931-02",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "于右任担任第一任监察院长。",
+          "en": "Yu You-ren served as the first President of the Control Yuan."
+        }
+      }
+    },
+    {
+      "source": "蔡英文",
+      "target": "陈菊",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-06-22",
+        "description": {
+          "zh-cn": "时任总统蔡英文提名陈菊担任监察院院长。",
+          "en": "Then-President Tsai Ing-wen nominated Chen Chu to serve as the President of the Control Yuan."
+        }
+      }
+    },
+    {
+      "source": "陈菊",
+      "target": "监察院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2020-08-01",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "陈菊自2020年8月1日起担任第六届监察院院长。",
+          "en": "Chen Chu has served as the President of the sixth Control Yuan since August 1, 2020."
+        }
+      }
+    },
+    {
+      "source": "蔡英文",
+      "target": "李鸿钧 (1959年)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-05-09",
+        "description": {
+          "zh-cn": "总统蔡英文提名李鸿钧为监察院副院长。",
+          "en": "President Tsai Ing-wen nominated Lee Hong-chun as the Vice President of the Control Yuan."
+        }
+      }
+    },
+    {
+      "source": "李鸿钧 (1959年)",
+      "target": "监察院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-05-30",
+        "position": {
+          "zh-cn": "副院长",
+          "en": "Vice President"
+        },
+        "description": {
+          "zh-cn": "李鸿钧于2022年5月30日就任监察院副院长。",
+          "en": "Lee Hong-chun took office as the Vice President of the Control Yuan on May 30, 2022."
+        }
+      }
+    },
+    {
+      "source": "中华民国审计部",
+      "target": "监察院",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1931-02",
+        "description": {
+          "zh-cn": "审计院于1931年2月降为部并改隶监察院。",
+          "en": "The Audit Yuan was downgraded to a ministry and placed under the jurisdiction of the Control Yuan in February 1931."
+        }
+      }
+    },
+    {
+      "source": "监察院国家人权委员会",
+      "target": "监察院",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2020-08-01",
+        "description": {
+          "zh-cn": "国家人权委员会隶属于监察院。",
+          "en": "The National Human Rights Commission is subordinate to the Control Yuan."
+        }
+      }
+    },
+    {
+      "source": "监察院",
+      "target": "李宗仁",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1952-01",
+        "description": {
+          "zh-cn": "监察院于1952年1月通过弹劾副总统李宗仁。",
+          "en": "The Control Yuan passed the impeachment of Vice President Li Zongren in January 1952."
+        }
+      }
+    },
+    {
+      "source": "陶百川",
+      "target": "孙立人",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1955",
+        "description": {
+          "zh-cn": "监察委员陶百川等五人自行发动调查孙立人案，其报告认为孙立人一案乃莫须有之罪。",
+          "en": "Control Yuan member Tao Pai-chuan and four others independently initiated an investigation into the Sun Li-jen case, and their report concluded that the charges against him were unfounded."
+        }
+      }
+    },
+    {
+      "source": "陈诚",
+      "target": "孙立人",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1955",
+        "description": {
+          "zh-cn": "时任副总统陈诚组成“九人小组”调查孙立人案，其上报导致孙立人被软禁长达33年。",
+          "en": "Then-Vice President Chen Cheng formed a 'nine-person group' to investigate the Sun Li-jen case, and their report led to Sun's house arrest for 33 years."
+        }
+      }
+    },
+    {
+      "source": "监察院",
+      "target": "俞鸿钧",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1957",
+        "description": {
+          "zh-cn": "监察院因时任行政院院长俞鸿钧拒绝约询而通过弹劾，俞鸿钧随后辞职。",
+          "en": "The Control Yuan impeached then-Premier Yu Hung-chun for refusing a summons, and Yu subsequently resigned."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "监察院",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1957",
+        "description": {
+          "zh-cn": "总统蒋中正对于监察院弹劾俞鸿钧颇为不满，曾威胁开除弹劾提案的国民党籍监委。",
+          "en": "President Chiang Kai-shek was quite dissatisfied with the Control Yuan's impeachment of Yu Hung-chun and threatened to expel the KMT-affiliated Control Yuan members who proposed the impeachment."
+        }
+      }
+    },
+    {
+      "source": "监察院",
+      "target": "许信良",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1979",
+        "description": {
+          "zh-cn": "监察院弹劾时任桃园县县长许信良。",
+          "en": "The Control Yuan impeached then-Taoyuan County Magistrate Hsu Hsin-liang."
+        }
+      }
+    },
+    {
+      "source": "监察院",
+      "target": "谢清志",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-05-27",
+        "description": {
+          "zh-cn": "监察院弹劾前国科会副主委谢清志。",
+          "en": "The Control Yuan impeached former Deputy Minister of the National Science Council, Hsieh Ching-chih."
+        }
+      }
+    },
+    {
+      "source": "监察院",
+      "target": "赖清德",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2015",
+        "description": {
+          "zh-cn": "监察院弹劾时任台南市市长赖清德。",
+          "en": "The Control Yuan impeached then-Tainan Mayor Lai Ching-te."
+        }
+      }
+    },
+    {
+      "source": "立法院",
+      "target": "监察院",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2005-02-01",
+        "end_date": "2008-07-31",
+        "description": {
+          "zh-cn": "以中国国民党为首的泛蓝阵营在立法院杯葛总统陈水扁提名的监察委员人选，导致监察院长期空转。",
+          "en": "The Pan-Blue coalition, led by the Kuomintang, boycotted President Chen Shui-bian's nominations for Control Yuan members in the Legislative Yuan, causing the Control Yuan to be inactive for a long period."
+        }
+      }
+    },
+    {
+      "source": "司法院释字第632号解释",
+      "target": "立法院",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2007-08-15",
+        "description": {
+          "zh-cn": "大法官会议颁布释字第632号解释，认定立法院不将监委人事案排入议程的作法违宪。",
+          "en": "The Council of Grand Justices issued J.Y. Interpretation No. 632, ruling that the Legislative Yuan's failure to schedule the review of Control Yuan nominations was unconstitutional."
+        }
+      }
+    },
+    {
+      "source": "马英九",
+      "target": "监察院",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2008",
+        "description": {
+          "zh-cn": "马英九接任总统后，重新提名第四届监察委员并获立法院通过，使监察院恢复运作。",
+          "en": "After Ma Ying-jeou took office as President, he re-nominated the fourth term of Control Yuan members, who were approved by the Legislative Yuan, allowing the Control Yuan to resume operations."
+        }
+      }
+    },
+    {
+      "source": "张博雅",
+      "target": "监察院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-08-01",
+        "end_date": "2020-07-31",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "张博雅担任第五届监察院院长。",
+          "en": "Chang Po-ya served as the President of the fifth Control Yuan."
+        }
+      }
+    },
+    {
+      "source": "民主进步党",
+      "target": "监察院",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "民主进步党主张修改宪法以废除监察院。",
+          "en": "The Democratic Progressive Party advocates for amending the constitution to abolish the Control Yuan."
+        }
+      }
+    },
+    {
+      "source": "黄国昌",
+      "target": "监察院",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-06-13",
+        "description": {
+          "zh-cn": "时任台湾民众党立法院党团总召黄国昌表示，已连署达标，将向院会提出修宪废除监察院案。",
+          "en": "Huang Kuo-chang, then caucus whip of the Taiwan People's Party in the Legislative Yuan, announced that enough signatures had been collected to formally propose a constitutional amendment to abolish the Control Yuan."
+        }
+      }
+    },
+    {
+      "source": "中国国民党",
+      "target": "监察院",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-01",
+        "description": {
+          "zh-cn": "在114年度中央政府总预算案中，中国国民党籍立委大幅删减监察院的预算，使其无法正常运作。",
+          "en": "In the 114th fiscal year central government budget, Kuomintang legislators drastically cut the Control Yuan's budget, preventing it from functioning normally."
+        }
+      }
+    },
+    {
+      "source": "台湾民众党",
+      "target": "监察院",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-01",
+        "description": {
+          "zh-cn": "在114年度中央政府总预算案中，台湾民众党籍立委大幅删减监察院的预算，使其无法正常运作。",
+          "en": "In the 114th fiscal year central government budget, Taiwan People's Party legislators drastically cut the Control Yuan's budget, preventing it from functioning normally."
+        }
+      }
+    }
+  ]
+}

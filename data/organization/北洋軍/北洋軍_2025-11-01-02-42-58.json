@@ -1,0 +1,808 @@
+{
+  "nodes": [
+    {
+      "id": "北洋军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋军",
+          "北洋新军",
+          "北洋政府军"
+        ],
+        "en": [
+          "Beiyang Army"
+        ]
+      },
+      "properties": {
+        "period": "1895 - 1928",
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "description": {
+          "zh-cn": "清末至民初的中国国防军，源自袁世凯编练的新军，是中国第一支近代化陆军。民国成立后成为北洋政府的主要军事力量，袁世凯死后分裂为各大军阀派系。",
+          "en": "The national defense force of China from the late Qing Dynasty to the early Republican era. It originated from the New Army trained by Yuan Shikai and was China's first modernized army. After the establishment of the Republic, it became the main military force of the Beiyang Government and later fractured into various warlord factions after Yuan Shikai's death."
+        }
+      }
+    },
+    {
+      "id": "袁世凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁世凯"
+        ],
+        "en": [
+          "Yuan Shikai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1859-09-16 - 1916-06-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末民初的军事及政治人物，北洋军的创始人和领导者，曾任中华民国临时大总统及正式大总统。",
+          "en": "A military and political figure in the late Qing Dynasty and early Republic of China, founder and leader of the Beiyang Army, who served as the Provisional President and the second President of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "新建陆军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新建陆军",
+          "新军"
+        ],
+        "en": [
+          "Newly Created Army"
+        ]
+      },
+      "properties": {
+        "period": "1895 - ",
+        "description": {
+          "zh-cn": "由袁世凯在小站练兵时对“定武军”改编而成，是北洋军的直接前身。",
+          "en": "Formed by Yuan Shikai through the reorganization of the 'Dingwu Army' during the Xiaozhan training period, it was the direct predecessor of the Beiyang Army."
+        }
+      }
+    },
+    {
+      "id": "中华民国北京政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国北京政府",
+          "北洋政府"
+        ],
+        "en": [
+          "Beiyang government"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1928",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "1912年至1928年间代表中国的中央政府，由北洋军阀各派系轮流控制。",
+          "en": "The central government of China from 1912 to 1928, which was controlled by various factions of the Beiyang warlords."
+        }
+      }
+    },
+    {
+      "id": "大清帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大清帝国",
+          "清朝"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国历史上最后一个帝制王朝，在甲午战争后开始编练包括北洋军前身在内的新军。",
+          "en": "The last imperial dynasty in Chinese history, which began to train the New Army, including the predecessor of the Beiyang Army, after the First Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "军阀割据",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "军阀割据",
+          "军阀时代"
+        ],
+        "en": [
+          "Warlord Era"
+        ]
+      },
+      "properties": {
+        "period": "1916 - 1928",
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "description": {
+          "zh-cn": "袁世凯去世后，中国陷入的分裂时期，期间国家由各地北洋军将领分裂成的军阀势力所控制。",
+          "en": "A period of division in China following the death of Yuan Shikai, during which the country was controlled by warlord factions that emerged from the fragmentation of the Beiyang Army."
+        }
+      }
+    },
+    {
+      "id": "皖系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "皖系"
+        ],
+        "en": [
+          "Anhui clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北洋军阀派系之一，由段祺瑞领导，受日本支持。",
+          "en": "One of the factions of the Beiyang warlords, led by Duan Qirui and supported by Japan."
+        }
+      }
+    },
+    {
+      "id": "直系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "直系"
+        ],
+        "en": [
+          "Zhili clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北洋军阀派系之一，由冯国璋创立，后由曹锟和吴佩孚领导，受英美支持。",
+          "en": "One of the factions of the Beiyang warlords, founded by Feng Guozhang and later led by Cao Kun and Wu Peifu, supported by Britain and the United States."
+        }
+      }
+    },
+    {
+      "id": "奉系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奉系"
+        ],
+        "en": [
+          "Fengtian clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北洋军阀派系之一，由张作霖领导，控制东三省，受日本支持。",
+          "en": "One of the factions of the Beiyang warlords, led by Zhang Zuolin, which controlled the three northeastern provinces and was supported by Japan."
+        }
+      }
+    },
+    {
+      "id": "段祺瑞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "段祺瑞"
+        ],
+        "en": [
+          "Duan Qirui"
+        ]
+      },
+      "properties": {
+        "lifetime": "1865-03-06 - 1936-11-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋三杰之一，皖系军阀的首领，曾任中华民国国务总理及临时执政。",
+          "en": "One of the 'Three Heroes of Beiyang', leader of the Anhui clique, and served as Premier and Provisional Chief Executive of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "冯国璋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯国璋"
+        ],
+        "en": [
+          "Feng Guozhang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1859-01-07 - 1919-12-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋三杰之一，直系军阀的创始人和首领，曾任中华民国副总统及代总统。",
+          "en": "One of the 'Three Heroes of Beiyang', founder and leader of the Zhili clique, who served as Vice President and acting President of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "张作霖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张作霖"
+        ],
+        "en": [
+          "Zhang Zuolin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1875-03-19 - 1928-06-04",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奉系军阀的首领，统治中国东北，后成立安国军政府，自任陆海军大元帅。",
+          "en": "Leader of the Fengtian clique who ruled Northeast China, later established the Anguojun Military Government and assumed the title of Grand Marshal of the Army and Navy."
+        }
+      }
+    },
+    {
+      "id": "曹锟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹锟"
+        ],
+        "en": [
+          "Cao Kun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1862-12-12 - 1938-05-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "直系军阀的领导人之一，曾通过贿选当选中华民国大总统。",
+          "en": "One of the leaders of the Zhili clique, who became President of the Republic of China through bribery."
+        }
+      }
+    },
+    {
+      "id": "吴佩孚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴佩孚"
+        ],
+        "en": [
+          "Wu Peifu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1874-04-22 - 1939-12-04",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "直系军阀的将领，以其军事才能闻名，是直系军阀的实际军事领导者。",
+          "en": "A general of the Zhili clique, known for his military skills, and the de facto military leader of the clique."
+        }
+      }
+    },
+    {
+      "id": "国民革命军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军"
+        ],
+        "en": [
+          "National Revolutionary Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国国民党在广州组建的军队，在蒋介石领导下发动北伐，最终推翻北洋政府，统一中国。",
+          "en": "The military arm of the Kuomintang (KMT), founded in Guangzhou. Under the leadership of Chiang Kai-shek, it launched the Northern Expedition, which ultimately overthrew the Beiyang Government and unified China."
+        }
+      }
+    },
+    {
+      "id": "北伐战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "北伐战争",
+          "国民革命军北伐"
+        ],
+        "en": [
+          "Northern Expedition"
+        ]
+      },
+      "properties": {
+        "period": "1926-07 - 1928-12",
+        "description": {
+          "zh-cn": "由国民革命军发动，旨在推翻北洋政府和消灭各地军阀的军事统一战争。",
+          "en": "A military campaign launched by the National Revolutionary Army aimed at overthrowing the Beiyang Government and eliminating local warlords to unify China."
+        }
+      }
+    },
+    {
+      "id": "东北易帜",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "东北易帜"
+        ],
+        "en": [
+          "Northeast Flag Replacement"
+        ]
+      },
+      "properties": {
+        "period": "1928-12-29",
+        "description": {
+          "zh-cn": "张学良宣布东三省服从南京国民政府，标志着北伐战争的结束和北洋军阀时代的终结。",
+          "en": "An event where Zhang Xueliang announced the allegiance of the three northeastern provinces to the Nationalist Government in Nanjing, marking the end of the Northern Expedition and the Warlord Era."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Zhang Xueliang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-06-03 - 2001-10-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "张作霖之子，奉系军阀的继承者，主导了东北易帜，促成中国名义上的统一。",
+          "en": "Son of Zhang Zuolin and successor to the Fengtian clique, who orchestrated the Northeast Flag Replacement, leading to the nominal unification of China."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在军阀割据时期，为扩大在华利益，支持了皖系和奉系军阀。",
+          "en": "During the Warlord Era, it supported the Anhui and Fengtian cliques to expand its interests in China."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在军阀割据时期，为维护在华利益，与美国一同支持直系军阀。",
+          "en": "During the Warlord Era, it supported the Zhili clique along with the United States to protect its interests in China."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在军阀割据时期，为维护在华利益，与英国一同支持直系军阀。",
+          "en": "During the Warlord Era, it supported the Zhili clique along with the United Kingdom to protect its interests in China."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在军阀割据时期，支持了冯玉祥的西北军。",
+          "en": "During the Warlord Era, it supported Feng Yuxiang's Northwest Army."
+        }
+      }
+    },
+    {
+      "id": "冯玉祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯玉祥"
+        ],
+        "en": [
+          "Feng Yuxiang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1882-11-06 - 1948-09-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋军阀之一，原属直系，后倒戈成立西北军，受苏联支持。",
+          "en": "A Beiyang warlord originally from the Zhili clique, who later defected to form the Northwest Army with Soviet support."
+        }
+      }
+    },
+    {
+      "id": "直皖战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "直皖战争"
+        ],
+        "en": [
+          "Zhili–Anhui War"
+        ]
+      },
+      "properties": {
+        "period": "1920-07",
+        "description": {
+          "zh-cn": "直系军阀与皖系军阀为争夺北京政府控制权而爆发的战争，以皖系失败告终。",
+          "en": "A war between the Zhili and Anhui cliques for control of the Beijing government, which ended in the defeat of the Anhui clique."
+        }
+      }
+    },
+    {
+      "id": "第一次直奉战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次直奉战争"
+        ],
+        "en": [
+          "First Zhili–Fengtian War"
+        ]
+      },
+      "properties": {
+        "period": "1922",
+        "description": {
+          "zh-cn": "直系军阀与奉系军阀为争夺北京政府控制权而爆发的战争，以奉系失败告终。",
+          "en": "A war between the Zhili and Fengtian cliques for control of the Beijing government, which ended in the defeat of the Fengtian clique."
+        }
+      }
+    },
+    {
+      "id": "皇姑屯事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "皇姑屯事件"
+        ],
+        "en": [
+          "Huanggutun incident"
+        ]
+      },
+      "properties": {
+        "period": "1928-06-04",
+        "location": {
+          "zh-cn": "奉天",
+          "en": "Fengtian"
+        },
+        "description": {
+          "zh-cn": "日本关东军策划的，针对奉系军阀首领张作霖的暗杀事件。",
+          "en": "An assassination plot against Zhang Zuolin, the leader of the Fengtian clique, planned by the Japanese Kwantung Army."
+        }
+      }
+    },
+    {
+      "id": "辛亥革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "辛亥革命"
+        ],
+        "en": [
+          "Xinhai Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1911 - 1912",
+        "description": {
+          "zh-cn": "推翻清朝、建立中华民国的革命。北洋军初期奉命镇压，但袁世凯后利用其军事实力逼迫清帝退位，攫取了革命果实。",
+          "en": "The revolution that overthrew the Qing Dynasty and established the Republic of China. The Beiyang Army was initially ordered to suppress it, but Yuan Shikai later used its military power to force the Qing emperor's abdication and seize the fruits of the revolution."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "袁世凯",
+      "target": "新建陆军",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1895",
+        "description": {
+          "zh-cn": "袁世凯在天津小站接手并改编定武军，将其扩充并定名为“新建陆军”，成为北洋军的雏形。",
+          "en": "Yuan Shikai took over and reorganized the Dingwu Army at Xiaozhan, Tianjin, expanding it and renaming it the 'Newly Created Army', which became the prototype of the Beiyang Army."
+        }
+      }
+    },
+    {
+      "source": "新建陆军",
+      "target": "北洋军",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "新建陆军是北洋军的直接前身和核心基础。",
+          "en": "The Newly Created Army was the direct predecessor and core foundation of the Beiyang Army."
+        }
+      }
+    },
+    {
+      "source": "北洋军",
+      "target": "大清帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "1912",
+        "description": {
+          "zh-cn": "在1912年清帝退位前，北洋军是清朝的国防军。",
+          "en": "Before the abdication of the Qing emperor in 1912, the Beiyang Army was the national defense force of the Qing Dynasty."
+        }
+      }
+    },
+    {
+      "source": "北洋军",
+      "target": "中华民国北京政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1912",
+        "end_date": "1928",
+        "description": {
+          "zh-cn": "中华民国成立后，北洋军成为北京政府主要的国防武力。",
+          "en": "After the establishment of the Republic of China, the Beiyang Army became the main national defense force of the Beijing Government."
+        }
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "军阀割据",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1916-06-06",
+        "description": {
+          "zh-cn": "袁世凯在世时以其威望和能力统御着整个北洋军，他的去世导致无人能控制局面，北洋军分裂，中国进入军阀割据时代。",
+          "en": "While Yuan Shikai was alive, he commanded the entire Beiyang Army with his prestige and ability. His death led to a power vacuum, causing the Beiyang Army to fracture and China to enter the Warlord Era."
+        }
+      }
+    },
+    {
+      "source": "段祺瑞",
+      "target": "皖系",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "段祺瑞是皖系军阀的首领。",
+          "en": "Duan Qirui was the leader of the Anhui clique."
+        }
+      }
+    },
+    {
+      "source": "冯国璋",
+      "target": "直系",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "冯国璋是直系军阀的创始人。",
+          "en": "Feng Guozhang was the founder of the Zhili clique."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "奉系",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "张作霖是奉系军阀的首领。",
+          "en": "Zhang Zuolin was the leader of the Fengtian clique."
+        }
+      }
+    },
+    {
+      "source": "直系",
+      "target": "皖系",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1920-07",
+        "end_date": "1920-07",
+        "description": {
+          "zh-cn": "在1920年的直皖战争中，直系与皖系为争夺中央政府控制权而交战。",
+          "en": "In the Zhili-Anhui War of 1920, the Zhili and Anhui cliques fought for control of the central government."
+        }
+      }
+    },
+    {
+      "source": "直系",
+      "target": "奉系",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": [
+          "1922",
+          "1924"
+        ],
+        "end_date": [
+          "1922",
+          "1924"
+        ],
+        "description": {
+          "zh-cn": "在第一次（1922年）和第二次（1924年）直奉战争中，直系与奉系为争夺中央政府控制权而交战。",
+          "en": "In the First (1922) and Second (1924) Zhili-Fengtian Wars, the Zhili and Fengtian cliques fought for control of the central government."
+        }
+      }
+    },
+    {
+      "source": "北伐战争",
+      "target": "北洋军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1926",
+        "end_date": "1928",
+        "description": {
+          "zh-cn": "国民革命军发动的北伐战争旨在消灭北洋军阀，最终导致北洋军的瓦解和改编。",
+          "en": "The Northern Expedition launched by the National Revolutionary Army aimed to eliminate the Beiyang warlords, ultimately leading to the disintegration and reorganization of the Beiyang Army."
+        }
+      }
+    },
+    {
+      "source": "北伐战争",
+      "target": "中华民国北京政府",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1926",
+        "end_date": "1928",
+        "description": {
+          "zh-cn": "北伐战争最终推翻了由北洋军阀控制的北京政府。",
+          "en": "The Northern Expedition ultimately overthrew the Beijing government, which was controlled by the Beiyang warlords."
+        }
+      }
+    },
+    {
+      "source": "东北易帜",
+      "target": "北洋军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1928-12-29",
+        "description": {
+          "zh-cn": "张学良宣布服从国民政府，标志着北洋军作为一个政治军事集团的正式终结。",
+          "en": "Zhang Xueliang's declaration of allegiance to the Nationalist Government marked the official end of the Beiyang Army as a political and military bloc."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "东北易帜",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1928-12-29",
+        "description": {
+          "zh-cn": "张学良通电全国，宣布东北地区遵守三民主义、服从国民政府，改易旗帜。",
+          "en": "Zhang Xueliang telegraphed the nation, announcing that the Northeast region would adhere to the Three Principles of the People, obey the Nationalist Government, and change its flag."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "张作霖",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张学良是张作霖的儿子和继承人。",
+          "en": "Zhang Xueliang is the son and successor of Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "source": "皇姑屯事件",
+      "target": "张作霖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": {
+          "zh-cn": "张作霖在皇姑屯事件中被日本关东军预埋的炸药炸成重伤，不久后身亡。",
+          "en": "Zhang Zuolin was fatally wounded by explosives planted by the Japanese Kwantung Army in the Huanggutun incident and died shortly after."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "皖系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "日本支持以段祺瑞为首的皖系军阀。",
+          "en": "Japan supported the Anhui clique led by Duan Qirui."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "奉系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "日本支持以张作霖为首的奉系军阀。",
+          "en": "Japan supported the Fengtian clique led by Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "直系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "英国支持以冯国璋、曹锟、吴佩孚为首的直系军阀。",
+          "en": "The United Kingdom supported the Zhili clique led by Feng Guozhang, Cao Kun, and Wu Peifu."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "直系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "美国支持以冯国璋、曹锟、吴佩孚为首的直系军阀。",
+          "en": "The United States supported the Zhili clique led by Feng Guozhang, Cao Kun, and Wu Peifu."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "冯玉祥",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "苏联支持冯玉祥及其领导的西北军。",
+          "en": "The Soviet Union supported Feng Yuxiang and his Northwest Army."
+        }
+      }
+    },
+    {
+      "source": "北洋军",
+      "target": "辛亥革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-10",
+        "end_date": "1912-01",
+        "description": {
+          "zh-cn": "在辛亥革命初期，清廷派遣荫昌、冯国璋等人率领北洋军南下镇压武昌起义，并收复了汉口、汉阳。",
+          "en": "In the early stages of the Xinhai Revolution, the Qing court dispatched Yinchang, Feng Guozhang, and others to lead the Beiyang Army south to suppress the Wuchang Uprising, successfully recapturing Hankou and Hanyang."
+        }
+      }
+    }
+  ]
+}

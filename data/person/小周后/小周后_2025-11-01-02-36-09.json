@@ -1,0 +1,412 @@
+{
+  "nodes": [
+    {
+      "id": "小周后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "小周后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "950 - 978",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "南唐末主李煜的第二任皇后，大周后（周娥皇）的妹妹。",
+          "en": "The second empress of Li Yu, the last ruler of the Southern Tang, and the younger sister of the Great Empress Zhou (Zhou Ehuang)."
+        }
+      }
+    },
+    {
+      "id": "李煜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李煜"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南唐末代君主，著名词人，小周后与大周后的丈夫。",
+          "en": "The last ruler of the Southern Tang, a famous poet, and the husband of Lesser Empress Zhou and Great Empress Zhou."
+        }
+      }
+    },
+    {
+      "id": "周娥皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周娥皇",
+          "大周后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "南唐末主李煜的第一任皇后，小周后的姐姐。",
+          "en": "The first empress of Li Yu, the last ruler of the Southern Tang, and the elder sister of Lesser Empress Zhou."
+        }
+      }
+    },
+    {
+      "id": "周宗 (南唐)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周宗 (南唐)",
+          "周宗"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南唐司徒，大周后与小周后之父。",
+          "en": "A Situ (Minister over the Masses) of the Southern Tang, and the father of the Great Empress Zhou and Lesser Empress Zhou."
+        }
+      }
+    },
+    {
+      "id": "赵光义",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵光义",
+          "宋太宗"
+        ],
+        "en": [
+          "Zhao Guangyi",
+          "Emperor Taizong of Song"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋朝第二位皇帝。",
+          "en": "The second emperor of the Song dynasty."
+        }
+      }
+    },
+    {
+      "id": "李璟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李璟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南唐第二位君主，李煜之父。",
+          "en": "The second ruler of the Southern Tang, father of Li Yu."
+        }
+      }
+    },
+    {
+      "id": "李仲寓",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李仲寓"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李煜与周娥皇（大周后）之子。",
+          "en": "Son of Li Yu and Zhou Ehuang (Great Empress Zhou)."
+        }
+      }
+    },
+    {
+      "id": "李仲宣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李仲宣"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李煜与周娥皇（大周后）之子。",
+          "en": "Son of Li Yu and Zhou Ehuang (Great Empress Zhou)."
+        }
+      }
+    },
+    {
+      "id": "南唐",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南唐",
+          "南唐国"
+        ],
+        "en": [
+          "Southern Tang"
+        ]
+      },
+      "properties": {
+        "period": "937 - 975",
+        "description": {
+          "zh-cn": "五代十国时期的十国之一，后为北宋所灭。",
+          "en": "One of the Ten Kingdoms during the Five Dynasties and Ten Kingdoms period, later conquered by the Northern Song."
+        }
+      }
+    },
+    {
+      "id": "皇后",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "皇后"
+        ],
+        "en": [
+          "Empress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "皇帝正妻的封号。",
+          "en": "The title of an emperor's primary consort."
+        }
+      }
+    },
+    {
+      "id": "郑国夫人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "郑国夫人"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代授予有地位女性的封号。",
+          "en": "A title of nobility granted to women of status in ancient China."
+        }
+      }
+    },
+    {
+      "id": "司徒",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "司徒"
+        ],
+        "en": [
+          "Situ"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代官名，位列三公。",
+          "en": "An ancient Chinese official title, one of the Three Ducal Ministers."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "小周后",
+      "target": "李煜",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "968",
+        "end_date": "978",
+        "description": {
+          "zh-cn": "小周后在大周后去世三年后成为李煜的第二任皇后（继室）。",
+          "en": "Lesser Empress Zhou became Li Yu's second empress (successor wife) three years after the death of the Great Empress Zhou."
+        }
+      }
+    },
+    {
+      "source": "小周后",
+      "target": "李煜",
+      "type": "LOVER_OF",
+      "properties": {
+        "end_date": "968",
+        "description": {
+          "zh-cn": "在大周后病重期间，小周后借探病之机与姐夫李煜发生私情。",
+          "en": "During the illness of the Great Empress Zhou, Lesser Empress Zhou had an affair with her brother-in-law Li Yu under the pretext of visiting the sick."
+        }
+      }
+    },
+    {
+      "source": "小周后",
+      "target": "周宗 (南唐)",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "小周后是周宗的次女。",
+          "en": "Lesser Empress Zhou was the second daughter of Zhou Zong."
+        }
+      }
+    },
+    {
+      "source": "小周后",
+      "target": "周娥皇",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "小周后是周娥皇（大周后）的妹妹。",
+          "en": "Lesser Empress Zhou was the younger sister of Zhou Ehuang (Great Empress Zhou)."
+        }
+      }
+    },
+    {
+      "source": "周娥皇",
+      "target": "李煜",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "周娥皇（大周后）是李煜的第一任皇后（元配）。",
+          "en": "Zhou Ehuang (Great Empress Zhou) was the first empress (original wife) of Li Yu."
+        }
+      }
+    },
+    {
+      "source": "周娥皇",
+      "target": "周宗 (南唐)",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李煜",
+      "target": "李璟",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李仲寓",
+      "target": "李煜",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李仲寓",
+      "target": "周娥皇",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李仲宣",
+      "target": "李煜",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "李仲宣",
+      "target": "周娥皇",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "小周后",
+      "target": "周娥皇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "小周后与姐夫李煜的私情被大周后发现，使其在双重背叛的刺激下病情迅速恶化，最终去世。",
+          "en": "The affair between Lesser Empress Zhou and her brother-in-law Li Yu was discovered by Great Empress Zhou, causing her condition to rapidly deteriorate under the shock of the dual betrayal, ultimately leading to her death."
+        }
+      }
+    },
+    {
+      "source": "赵光义",
+      "target": "小周后",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "975",
+        "end_date": "978",
+        "description": {
+          "zh-cn": "宋太宗赵光义在李煜被俘后，多次强奸小周后，给她带来了巨大的身心痛苦。",
+          "en": "After Li Yu was captured, Emperor Taizong of Song, Zhao Guangyi, repeatedly raped Lesser Empress Zhou, causing her immense physical and mental suffering."
+        }
+      }
+    },
+    {
+      "source": "赵光义",
+      "target": "李煜",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "978",
+        "description": {
+          "zh-cn": "据信，赵光义因李煜作词怀念故国而下令将其毒死。",
+          "en": "It is believed that Zhao Guangyi ordered Li Yu to be poisoned because of his poems expressing nostalgia for his lost kingdom."
+        }
+      }
+    },
+    {
+      "source": "李煜",
+      "target": "赵光义",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "975",
+        "end_date": "978",
+        "description": {
+          "zh-cn": "南唐灭亡后，李煜被俘至开封，受封为违命侯，处于宋太宗赵光义的控制之下。",
+          "en": "After the fall of the Southern Tang, Li Yu was captured and taken to Kaifeng, where he was enfeoffed as the Marquis of Disobedience and lived under the control of Emperor Taizong, Zhao Guangyi."
+        }
+      }
+    },
+    {
+      "source": "小周后",
+      "target": "皇后",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "968",
+        "end_date": "975",
+        "position": {
+          "zh-cn": "南唐皇后",
+          "en": "Empress of Southern Tang"
+        }
+      }
+    },
+    {
+      "source": "小周后",
+      "target": "郑国夫人",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "975",
+        "end_date": "978",
+        "position": {
+          "zh-cn": "郑国夫人",
+          "en": "Lady of the State of Zheng"
+        }
+      }
+    },
+    {
+      "source": "周宗 (南唐)",
+      "target": "南唐",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "司徒",
+          "en": "Situ"
+        }
+      }
+    },
+    {
+      "source": "李煜",
+      "target": "南唐",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "国主",
+          "en": "Ruler"
+        }
+      }
+    }
+  ]
+}

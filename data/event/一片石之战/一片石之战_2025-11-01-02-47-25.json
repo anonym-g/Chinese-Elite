@@ -1,0 +1,602 @@
+{
+  "nodes": [
+    {
+      "id": "一片石之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "一片石之战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1644-05-23 - 1644-05-27",
+        "location": {
+          "zh-cn": "山海关一片石（今九门口）"
+        },
+        "description": {
+          "zh-cn": "1644年发生于山海关附近的关键战役，由清、关宁联军对抗大顺军。此战的胜利为清朝入关并最终统一中国铺平了道路。",
+          "en": "A key battle fought in 1644 near Shanhai Pass between the allied forces of the Qing dynasty and the Guan-Ning Army against the Dashun army. The victory paved the way for the Qing to enter the pass and eventually unify China."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "大清",
+          "清",
+          "清军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "由满族建立的中国最后一个封建王朝，前身为后金。",
+          "en": "The last imperial dynasty of China, established by the Manchu people, formerly known as the Later Jin."
+        }
+      }
+    },
+    {
+      "id": "关宁锦防线",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "关宁锦防线",
+          "关宁军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝末年由吴三桂统领，驻守山海关的精锐边防部队。在一片石之战中先抵抗大顺军，后投降清朝联合作战。",
+          "en": "An elite border defense force of the late Ming dynasty stationed at Shanhai Pass, commanded by Wu Sangui. In the Battle of Shanhai Pass, they initially resisted the Dashun army before surrendering to and allying with the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "大顺 (政权)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大顺 (政权)",
+          "大顺",
+          "大顺军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1644 - 1645",
+        "description": {
+          "zh-cn": "由李自成在明末民变中建立的农民政权。",
+          "en": "A peasant regime established by Li Zicheng during the late Ming peasant rebellions."
+        }
+      }
+    },
+    {
+      "id": "多尔衮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "多尔衮"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝初年杰出的政治家和军事家，清太宗皇太极之弟，顺治帝时期摄政王。在一片石之战中率领清军主力入关。",
+          "en": "An outstanding statesman and military strategist in the early Qing dynasty, brother of Hong Taiji, and regent during the Shunzhi Emperor's reign. He led the main Qing forces into the pass during the Battle of Shanhai Pass."
+        }
+      }
+    },
+    {
+      "id": "吴三桂",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴三桂"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明末辽东总兵，手握关宁铁骑。在一片石之战中投降多尔衮，引清兵入关，后被封为平西王。",
+          "en": "A late Ming general in command of the Liaodong region and the Guan-Ning Army. He surrendered to Dorgon during the Battle of Shanhai Pass, allowing Qing forces to enter the pass, and was later enfeoffed as the Prince of Pacifying the West."
+        }
+      }
+    },
+    {
+      "id": "李自成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李自成"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明末农民起义军领袖，大顺政权建立者。率军攻入北京导致明朝灭亡，后在一片石之战中被清吴联军击败。",
+          "en": "Leader of the peasant rebellion in the late Ming dynasty and founder of the Dashun regime. He led his army to capture Beijing, causing the fall of the Ming dynasty, but was later defeated by the Qing-Wu allied forces at the Battle of Shanhai Pass."
+        }
+      }
+    },
+    {
+      "id": "吴襄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴襄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "吴三桂之父，被李自成扣押作为人质，在一片石之战后被杀。",
+          "en": "Father of Wu Sangui, held hostage by Li Zicheng and executed after the Battle of Shanhai Pass."
+        }
+      }
+    },
+    {
+      "id": "刘宗敏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘宗敏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "大顺军重要将领，在一片石之战中负伤。",
+          "en": "A key general of the Dashun army, wounded in the Battle of Shanhai Pass."
+        }
+      }
+    },
+    {
+      "id": "明朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明朝",
+          "明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1368 - 1644",
+        "description": {
+          "zh-cn": "中国历史上最后一个由汉族建立的大一统王朝。",
+          "en": "The last unified dynasty in Chinese history established by the Han people."
+        }
+      }
+    },
+    {
+      "id": "后金",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "后金",
+          "金国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1616 - 1636",
+        "description": {
+          "zh-cn": "由女真首领努尔哈赤建立的政权，清朝的前身。",
+          "en": "A regime established by the Jurchen leader Nurhaci, the predecessor of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "努尔哈赤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "努尔哈赤"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1559 - 1626-09-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后金建立者，统一了女真各部，奠定了清朝的基础。",
+          "en": "Founder of the Later Jin, unified the Jurchen tribes, laying the foundation for the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "皇太极",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "皇太极"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1592 - 1643",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "努尔哈赤之子，将后金国号改为大清，为清朝入关作了准备。",
+          "en": "Son of Nurhaci, who changed the state name from Later Jin to Great Qing and prepared for the Qing conquest of the Ming."
+        }
+      }
+    },
+    {
+      "id": "袁崇焕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁崇焕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝末年著名将领，曾在宁远之战中击败努尔哈赤。",
+          "en": "A famous general in the late Ming dynasty who defeated Nurhaci at the Battle of Ningyuan."
+        }
+      }
+    },
+    {
+      "id": "宁远之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "宁远之战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1626-02",
+        "description": {
+          "zh-cn": "明朝将领袁崇焕击败后金军队进攻的战役，努尔哈赤在此战后不久去世。",
+          "en": "A battle where Ming general Yuan Chonghuan defeated an attack by the Later Jin army. Nurhaci died shortly after this battle."
+        }
+      }
+    },
+    {
+      "id": "明末民变",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "明末民变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝末年爆发的大规模农民起义，李自成是其中的主要领袖之一。",
+          "en": "Large-scale peasant uprisings that broke out in the late Ming dynasty, with Li Zicheng being one of the main leaders."
+        }
+      }
+    },
+    {
+      "id": "明清战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "明清战争"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指后金（清）与明朝之间以及清朝建立后与南明等明朝残余势力之间的一系列战争。",
+          "en": "Refers to a series of wars between the Later Jin (Qing) and the Ming dynasty, as well as between the established Qing dynasty and remaining Ming forces such as the Southern Ming."
+        }
+      }
+    },
+    {
+      "id": "北京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝和清朝的首都。1644年被李自成攻陷，随后被清军占领。",
+          "en": "The capital of the Ming and Qing dynasties. It was captured by Li Zicheng in 1644 and subsequently occupied by Qing forces."
+        }
+      }
+    },
+    {
+      "id": "山海关",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山海关"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明长城东部起点的重要关隘，一片石之战的发生地。",
+          "en": "An important pass at the eastern end of the Ming Great Wall, and the location of the Battle of Shanhai Pass."
+        }
+      }
+    },
+    {
+      "id": "唐通",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐通"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝降将，在一片石之战前被李自成派遣夹击吴三桂。",
+          "en": "A surrendered Ming general, dispatched by Li Zicheng to flank Wu Sangui before the Battle of Shanhai Pass."
+        }
+      }
+    },
+    {
+      "id": "顺治帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "顺治帝",
+          "福临"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝入关后的第一位皇帝。",
+          "en": "The first emperor of the Qing dynasty after entering the Central Plains."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "一片石之战",
+      "target": "清朝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1644-05-27",
+        "description": {
+          "zh-cn": "清朝通过一片石之战的胜利得以顺利入关，为后续统一中国奠定了决定性基础。",
+          "en": "The victory in the Battle of Shanhai Pass enabled the Qing dynasty to smoothly enter the pass, laying a decisive foundation for the subsequent unification of China."
+        }
+      }
+    },
+    {
+      "source": "一片石之战",
+      "target": "大顺 (政权)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1644-05-27",
+        "description": {
+          "zh-cn": "大顺军在一片石之战中惨败，由盛转衰，被迫撤出北京。",
+          "en": "The Dashun army suffered a crushing defeat in the Battle of Shanhai Pass, marking a turning point from prosperity to decline and forcing them to withdraw from Beijing."
+        }
+      }
+    },
+    {
+      "source": "多尔衮",
+      "target": "吴三桂",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1644-05-27",
+        "description": {
+          "zh-cn": "接受了吴三桂的投降请求，并与之结盟共同对抗大顺军。",
+          "en": "Accepted Wu Sangui's surrender and formed an alliance with him to fight against the Dashun army."
+        }
+      }
+    },
+    {
+      "source": "吴三桂",
+      "target": "多尔衮",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1644-05-27",
+        "description": {
+          "zh-cn": "于1644年四月二十二日（公历5月27日）率部跪降于多尔衮，接受清朝的领导。",
+          "en": "On April 22, 1644 (May 27 in the Gregorian calendar), he led his troops to surrender to Dorgon, accepting the leadership of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "source": "李自成",
+      "target": "吴襄",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1644-05-27",
+        "description": {
+          "zh-cn": "在一片石之战战败后，李自成下令处死了吴三桂的父亲吴襄。",
+          "en": "After being defeated in the Battle of Shanhai Pass, Li Zicheng ordered the execution of Wu Sangui's father, Wu Xiang."
+        }
+      }
+    },
+    {
+      "source": "吴三桂",
+      "target": "吴襄",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "清朝",
+      "target": "大顺 (政权)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1644-05-26",
+        "end_date": "1644-05-27",
+        "description": {
+          "zh-cn": "在一片石之战中，清军与大顺军为敌对作战方。",
+          "en": "In the Battle of Shanhai Pass, the Qing army and the Dashun army were opposing combatants."
+        }
+      }
+    },
+    {
+      "source": "关宁锦防线",
+      "target": "大顺 (政权)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1644-05-26",
+        "end_date": "1644-05-27",
+        "description": {
+          "zh-cn": "在一片石之战初期，关宁军与大顺军激烈交战。",
+          "en": "In the early stages of the Battle of Shanhai Pass, the Guan-Ning Army fought fiercely against the Dashun army."
+        }
+      }
+    },
+    {
+      "source": "关宁锦防线",
+      "target": "清朝",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1644-05-27",
+        "description": {
+          "zh-cn": "吴三桂率关宁军投降清朝后，双方组成联军共同对抗大顺军。",
+          "en": "After Wu Sangui led the Guan-Ning Army to surrender to the Qing, the two sides formed an allied force to fight against the Dashun army."
+        }
+      }
+    },
+    {
+      "source": "吴三桂",
+      "target": "明朝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1644-05-27",
+        "position": {
+          "zh-cn": "辽东总兵"
+        },
+        "description": {
+          "zh-cn": "在投降清朝前，吴三桂是明朝驻守辽东的总兵。",
+          "en": "Before surrendering to the Qing dynasty, Wu Sangui was the Ming dynasty's commanding general stationed in Liaodong."
+        }
+      }
+    },
+    {
+      "source": "吴三桂",
+      "target": "清朝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1644-05-27",
+        "position": {
+          "zh-cn": "平西王"
+        },
+        "description": {
+          "zh-cn": "投降后，多尔衮封吴三桂为平西王。",
+          "en": "After his surrender, Dorgon enfeoffed Wu Sangui as the Prince of Pacifying the West."
+        }
+      }
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "后金",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1616"
+      }
+    },
+    {
+      "source": "皇太极",
+      "target": "努尔哈赤",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "皇太极",
+      "target": "清朝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1636",
+        "description": {
+          "zh-cn": "于1636年将国号由“金”改为“大清”，正式建立清朝。",
+          "en": "In 1636, he changed the state name from 'Jin' to 'Great Qing', formally establishing the Qing dynasty."
+        }
+      }
+    },
+    {
+      "source": "袁崇焕",
+      "target": "努尔哈赤",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1626-02",
+        "description": {
+          "zh-cn": "在宁远之战中击败了努尔哈赤的军队。",
+          "en": "Defeated Nurhaci's army at the Battle of Ningyuan."
+        }
+      }
+    },
+    {
+      "source": "宁远之战",
+      "target": "努尔哈赤",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1626-02",
+        "description": {
+          "zh-cn": "努尔哈赤在此次战役中失利，可能负伤并于数月后去世。",
+          "en": "Nurhaci was defeated in this battle, possibly wounded, and died a few months later."
+        }
+      }
+    },
+    {
+      "source": "明末民变",
+      "target": "一片石之战",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "一片石之战是明末民变这一系列大规模冲突的一部分。",
+          "en": "The Battle of Shanhai Pass was part of the series of large-scale conflicts known as the Late Ming peasant rebellions."
+        }
+      }
+    },
+    {
+      "source": "明清战争",
+      "target": "一片石之战",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "一片石之战是明清战争中的一场决定性战役。",
+          "en": "The Battle of Shanhai Pass was a decisive battle in the Ming-Qing transition."
+        }
+      }
+    },
+    {
+      "source": "李自成",
+      "target": "唐通",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1644-04",
+        "description": {
+          "zh-cn": "李自成派遣明朝降将唐通率兵从一片石夹击吴三桂。",
+          "en": "Li Zicheng dispatched the surrendered Ming general Tang Tong to lead troops to flank Wu Sangui from Yipianshi."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "北京",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1644-06-06",
+        "description": {
+          "zh-cn": "于1644年6月6日进入北京，并定都于此。",
+          "en": "Entered Beijing on June 6, 1644, and established it as the capital."
+        }
+      }
+    }
+  ]
+}
