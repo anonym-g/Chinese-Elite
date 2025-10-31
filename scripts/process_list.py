@@ -122,8 +122,10 @@ class ListProcessor:
         item_name, lang = item_tuple
         logger.info(f"--- 开始处理 '{item_name}' (类别: {category}, 语言: {lang}) ---")
 
-        wikitext, _ = self.wiki_client.get_wikitext(item_name, lang=lang)
-        if not wikitext:
+        # 接收 get_wikitext 返回的 final_title
+        wikitext, final_title = self.wiki_client.get_wikitext(item_name, lang=lang)
+        
+        if not (wikitext and final_title):
             logger.warning(f"失败：未能获取 '{item_name}' 的Wikitext，跳过。")
             return
         
@@ -133,16 +135,21 @@ class ListProcessor:
             return
             
         try:
-            safe_item_name = sanitize_filename(item_name)
+            # 使用 final_title 作为文件名
+            safe_item_name = sanitize_filename(final_title)
             output_dir = os.path.join(DATA_DIR, category, safe_item_name)
             os.makedirs(output_dir, exist_ok=True)
             timestamp = datetime.now(TIMEZONE).strftime('%Y-%m-%d-%H-%M-%S')
+            
+            # 文件名使用权威标题
             file_name = f"{safe_item_name}_{timestamp}.json"
             output_path = os.path.join(output_dir, file_name)
 
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(structured_data, f, indent=2, ensure_ascii=False)
-            logger.info(f"成功：'{item_name}' 的处理结果已保存至: {output_path}")
+            
+            # 日志中报告原始名称和最终保存路径
+            logger.info(f"成功：'{item_name}' (解析为 '{final_title}') 的处理结果已保存至: {output_path}")
 
             for old_filename in os.listdir(output_dir):
                 if old_filename.endswith('.json') and old_filename != file_name:
