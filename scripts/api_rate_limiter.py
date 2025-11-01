@@ -183,5 +183,5 @@ gemma_limiter = APIRateLimiter(
 
 # Wiki, 无官方 RPM, RPD
 wiki_sync_limiter = APIRateLimiter(
-    max_requests=120, per_seconds=60
+    max_requests=9000, per_seconds=60
 )

@@ -39,6 +39,20 @@ REL_CLEAN_PROB_END_DAYS = 90
 REL_CLEAN_PROB_START_VALUE = 1 / 12
 REL_CLEAN_PROB_END_VALUE = 9 / 10
 
+# --- 规模常数配置 ---
+MAX_LIST_ITEMS_TO_CHECK = 2000
+MAX_WORKERS_LIST_SCREENING = 32
+MAX_LIST_ITEMS_PER_RUN = 400
+MAX_WORKERS_LIST_PROCESSING = 8
+
+MAX_UPDATE_WORKERS = 200
+LIST_UPDATE_LIMIT = 20000
+MASTER_GRAPH_UPDATE_LIMIT = 20000
+
+MAX_PAGEVIEW_CHECKS_LIMIT = 7000
+
+CORE_NETWORK_SIZE = 2000
+
 # --- Prompt 路径配置 ---
 PROMPTS_DIR = os.path.join(os.path.dirname(__file__), 'prompts')
 PARSER_SYSTEM_PROMPT_PATH = os.path.join(PROMPTS_DIR, 'parser_system.txt')
@@ -76,8 +90,6 @@ USER_AGENT = 'ChineseEliteExplorer/1.0 (https://github.com/anonym-g/Chinese-Elit
 
 # --- 全局配置 ---
 TIMEZONE = pytz.timezone('Asia/Shanghai')
-# 定义核心网络的节点规模
-CORE_NETWORK_SIZE = 2000
 
 # --- 无向边配置 ---
 NON_DIRECTED_LINK_TYPES = {

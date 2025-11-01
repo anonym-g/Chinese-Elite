@@ -6,9 +6,10 @@ import sys
 import random
 import time
 from datetime import datetime, timedelta, timezone
-from collections import deque
+from collections import deque, defaultdict
 import logging
 import concurrent.futures
+from concurrent.futures import as_completed
 import re
 from opencc import OpenCC
 
@@ -19,8 +20,11 @@ from .config import (
     LIST_FILE_PATH,
     REL_CLEAN_NUM, 
     REL_CLEAN_SKIP_DAYS, REL_CLEAN_PROB_START_DAYS, REL_CLEAN_PROB_END_DAYS, 
-    REL_CLEAN_PROB_START_VALUE, REL_CLEAN_PROB_END_VALUE
+    REL_CLEAN_PROB_START_VALUE, REL_CLEAN_PROB_END_VALUE,
+    MAX_UPDATE_WORKERS,
+    LIST_UPDATE_LIMIT, MASTER_GRAPH_UPDATE_LIMIT
 )
+from .utils import add_title_to_list
 from .clients.wikipedia_client import WikipediaClient
 from .services.llm_service import LLMService
 from .services import graph_io
@@ -38,6 +42,7 @@ class GraphCleaner:
         self.false_relations_cache = self._load_json_cache(FALSE_RELATIONS_CACHE_PATH)
         self.cache_updated = False
         self.t2s_converter = OpenCC('t2s')
+        self.s2t_converter = OpenCC('s2t')
 
     def _load_json_cache(self, path: str) -> dict:
         """通用JSON缓存加载函数。"""
@@ -491,35 +496,366 @@ class GraphCleaner:
         logger.info(f"关系清洗完成，共删除了 {len(ids_to_delete)} 条关系。")
         return final_relationships
 
+    def _update_master_graph_names(self, nodes: list, relationships: list) -> tuple[list, list]:
+        """
+        更新主图谱中Q-Code节点的名称为权威标题，并在所有关联页面都无效时移除节点。
+        """        
+        # 步骤 1: 收集Q-Code并创建任务。
+        # 获取全部Q-Code。
+        all_qcodes = {node.get('id') for node in nodes if node.get('id') and node.get('id').startswith('Q')}
+        
+        if not all_qcodes:
+            logger.info("  - 主图谱中无Q-Code节点，跳过名称更新步骤。")
+            return nodes, relationships
+
+        # 如果Q-Code数量超过上限，则进行抽样。
+        if len(all_qcodes) > MASTER_GRAPH_UPDATE_LIMIT:
+            logger.warning(f"  - 待更新Q-Code数 ({len(all_qcodes)}) 超过上限 ({MASTER_GRAPH_UPDATE_LIMIT})，将随机抽样处理。")
+            qcodes_to_process = random.sample(list(all_qcodes), MASTER_GRAPH_UPDATE_LIMIT)
+        else:
+            qcodes_to_process = list(all_qcodes)
+
+        # 为被选中的Q-Code完整地创建所有语言的检查任务。
+        tasks_to_run = set()
+        nodes_map = {n['id']: n for n in nodes} # 创建映射以便高效查找
+        for qcode in qcodes_to_process:
+            # 强制检查中文和英文
+            tasks_to_run.add((qcode, 'zh'))
+            tasks_to_run.add((qcode, 'en'))
+            # 从节点现有名称中收集其他语言
+            node = nodes_map.get(qcode)
+            if node and isinstance(node.get('name'), dict):
+                for lang_key in node['name'].keys():
+                    tasks_to_run.add((qcode, 'zh' if lang_key == 'zh-cn' else lang_key))
+
+        # 步骤 2: 并发查询工作单元。
+        def worker(task):
+            qcode, lang = task
+            result = self.wiki_client.get_authoritative_title_by_qcode(qcode, lang=lang)
+            return {"qcode": qcode, "lang": lang, "title": result.get('title'), "status": result.get('status')}
+        
+        logger.info(f"  - 正在并发查询 {len(tasks_to_run)} 个(Q-Code, lang)对的正确标题...")
+        
+        qcode_validation_results = defaultdict(list)
+        auth_title_map = {}
+
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_UPDATE_WORKERS) as executor:
+            future_to_task = {executor.submit(worker, task): task for task in list(tasks_to_run)}
+            for future in as_completed(future_to_task):
+                res = future.result()
+                qcode = res['qcode']
+                status = res['status']
+                
+                qcode_validation_results[qcode].append(status)
+                
+                if status == 'OK' and res.get('title'):
+                    auth_title_map[(qcode, res['lang'])] = res['title']
+        
+        logger.info("  - 所有查询完成，正在根据综合结果判断无效节点...")
+        bad_qcodes = set()
+        # 遍历所有被处理过的Q-Code
+        for qcode in qcodes_to_process:
+            status_list = qcode_validation_results.get(qcode, [])
+            # --- 使用较严格的检查逻辑 ---
+            if not ('ERROR' in status_list or 'OK' in status_list):
+                bad_qcodes.add(qcode)
+        
+        # 步骤 3: 移除无效节点及其关系。
+        if bad_qcodes:
+            nodes_before, rels_before = len(nodes), len(relationships)
+            nodes = [n for n in nodes if n.get('id') not in bad_qcodes]
+            valid_ids = {n['id'] for n in nodes}
+            relationships = [r for r in relationships if r.get('source') in valid_ids and r.get('target') in valid_ids]
+            logger.info(f"  - 移除了 {nodes_before - len(nodes)} 个无效节点及 {rels_before - len(relationships)} 条相关关系。")
+
+        # 步骤 4: 更新剩余有效节点的名称列表。
+        updates_by_qcode = defaultdict(dict)
+        for (qcode, lang), title in auth_title_map.items():
+            updates_by_qcode[qcode][lang] = title
+        
+        nodes_updated_count = 0
+        for node in nodes:
+            qcode = node.get('id')
+            if qcode not in updates_by_qcode: continue
+
+            node_changed = False
+            node['name'] = node.get('name', {})
+            for lang, canonical_name in updates_by_qcode[qcode].items():
+                lang_key = 'zh-cn' if lang == 'zh' else lang
+                current_names = node['name'].get(lang_key, [])
+                
+                name_set = {canonical_name} | set(current_names)
+                if lang_key == 'zh-cn':
+                    name_set = {self.t2s_converter.convert(name) for name in name_set}
+                    canonical_name = self.t2s_converter.convert(canonical_name)
+
+                new_name_list = sorted(list(name_set - {canonical_name}))
+                new_name_list.insert(0, canonical_name)
+                
+                if new_name_list != current_names:
+                    node['name'][lang_key] = new_name_list
+                    node_changed = True
+            
+            if node_changed: nodes_updated_count += 1
+        
+        logger.info(f"  - 共更新了 {nodes_updated_count} 个节点的名称列表。")
+
+        # 步骤 5: 将所有确认有效的正确标题批量同步至 LIST.md
+        logger.info("  - 正在将正确标题批量同步至 LIST.md...")
+        titles_to_add = set()
+        for (qcode, lang), title in auth_title_map.items():
+            if title:
+                formatted_title = f"({lang}) {title}" if lang != 'zh' else title
+                titles_to_add.add(formatted_title)
+        
+        if not titles_to_add:
+            logger.info("  - 无需向 LIST.md 同步新标题。")
+        else:
+            try:
+                # --- 在内存中进行查重 ---
+                with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
+                    # 创建现有条目的简体中文集合，用于O(1)复杂度的快速查找
+                    existing_simplified_entries = {
+                        self.t2s_converter.convert(re.sub(r'\([a-z]{2}\)\s*', '', line.strip()))
+                        for line in f if line.strip() and not line.strip().startswith(('##', '//'))
+                    }
+                
+                new_unique_titles = []
+                for title in titles_to_add:
+                    simplified_title = self.t2s_converter.convert(re.sub(r'\([a-z]{2}\)\s*', '', title))
+                    if simplified_title not in existing_simplified_entries:
+                        new_unique_titles.append(title)
+                        # 防止批次内部重复
+                        existing_simplified_entries.add(simplified_title)
+                
+                if not new_unique_titles:
+                    logger.info("  - 所有权威标题均已存在于 LIST.md 中，无需添加。")
+                else:
+                    # --- 一次性批量写入文件 ---
+                    with open(LIST_FILE_PATH, 'r+', encoding='utf-8') as f:
+                        lines = f.readlines()
+                        
+                        # 定位或创建 '## new' 部分的插入点
+                        new_section_index = -1
+                        for i, line in enumerate(lines):
+                            if line.strip() == '## new':
+                                new_section_index = i
+                                break
+
+                        insert_pos = len(lines)
+                        if new_section_index != -1:
+                            for i in range(new_section_index + 1, len(lines)):
+                                if lines[i].strip().startswith('## '):
+                                    insert_pos = i
+                                    break
+                        else:
+                            if lines and not lines[-1].endswith('\n'): lines.append('\n')
+                            lines.append("\n## new\n")
+                            insert_pos = len(lines)
+                        
+                        # 将新标题格式化并插入
+                        new_lines_to_insert = [f"{title}\n" for title in sorted(new_unique_titles)]
+                        final_content = lines[:insert_pos] + new_lines_to_insert + lines[insert_pos:]
+                        
+                        f.seek(0)
+                        f.truncate()
+                        f.writelines(final_content)
+                    
+                    logger.info(f"  - 成功向 LIST.md 批量同步 {len(new_unique_titles)} 个新的权威标题。")
+            except Exception as e:
+                logger.error(f"  - 批量同步 LIST.md 时发生错误: {e}")
+
+        logger.info(f"  - 共更新了 {nodes_updated_count} 个节点的名称列表。")
+
+        return nodes, relationships
+    
+    def _update_list_names(self):
+        """
+        更新 LIST.md 中部分条目为维基百科标题，并移除无效链接（消歧义页）。
+        """
+        # 步骤 1: 从 LIST.md 文件中收集所有需要检查的条目。
+        tasks = set()
+        if os.path.exists(LIST_FILE_PATH):
+            with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
+                for line in f:
+                    stripped = line.strip()
+                    if stripped and not stripped.startswith(('##', '//')):
+                        tasks.add(stripped)
+        
+        if not tasks:
+            logger.info("  - LIST.md 为空或无有效条目，跳过名称更新步骤。")
+            return
+
+        # 限制单次运行检查的条目上限
+        if len(tasks) > LIST_UPDATE_LIMIT:
+            logger.warning(f"  - 待更新条目数 ({len(tasks)}) 超过上限 ({LIST_UPDATE_LIMIT})，将随机抽样处理。")
+            tasks_to_run = random.sample(list(tasks), LIST_UPDATE_LIMIT)
+        else:
+            tasks_to_run = list(tasks)
+
+        # 步骤 2: 定义并发执行的工作单元（worker），用于查询每个条目的状态。
+        def worker(task_str):
+            lang_match = re.match(r'\((?P<lang>[a-z]{2})\)\s*', task_str)
+            lang = lang_match.group('lang') if lang_match else 'zh'
+            original_title = task_str[lang_match.end():].strip() if lang_match else task_str
+
+            if lang == 'zh':
+                simplified_title = self.t2s_converter.convert(original_title)
+                traditional_title = self.s2t_converter.convert(original_title)
+                
+                simp_res = self.wiki_client.get_authoritative_title_and_status(simplified_title, lang='zh')
+                trad_res = self.wiki_client.get_authoritative_title_and_status(traditional_title, lang='zh')
+
+                final_title, status = None, None
+
+                # 检查各版本是否稳定
+                is_simp_stable_to_itself = (simp_res['status'] == 'OK' and simp_res.get('title') == simplified_title)
+                is_trad_stable_to_itself = (trad_res['status'] == 'OK' and trad_res.get('title') == traditional_title)
+                
+                # 如果原始条目是正确的，直接使用。
+                if original_title == traditional_title and is_trad_stable_to_itself:
+                    final_title, status = trad_res['title'], trad_res['status']
+                elif original_title == simplified_title and is_simp_stable_to_itself:
+                    final_title, status = simp_res['title'], simp_res['status']
+                
+                # 如果是重定向，采纳任何一个稳定的版本。
+                if final_title is None:
+                    if is_trad_stable_to_itself:
+                        final_title, status = trad_res['title'], trad_res['status']
+                    elif is_simp_stable_to_itself:
+                        final_title, status = simp_res['title'], simp_res['status']
+
+                # 如果两者都不稳定（都是重定向），则接受API最终结果，默认简体。
+                if final_title is None:
+                    final_title, status = simp_res['title'], simp_res['status']
+
+            else:
+                # 非中文条目
+                result = self.wiki_client.get_authoritative_title_and_status(original_title, lang=lang)
+                final_title, status = result.get('title'), result.get('status')
+
+            # 封装返回结果
+            if final_title:
+                final_task_str = f"({lang}) {final_title}" if lang != 'zh' else final_title
+                return {"original": task_str, "final": final_task_str, "status": status}
+            return {"original": task_str, "final": None, "status": status}
+
+        # 步骤 3: 并发执行所有查询任务。
+        logger.info(f"  - 正在并发查询 {len(tasks_to_run)} 个条目的权威标题...")
+        raw_redirects, bad_names = {}, set()
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_UPDATE_WORKERS) as executor:
+            future_to_task = {executor.submit(worker, task): task for task in tasks_to_run}
+            for future in as_completed(future_to_task):
+                result = future.result()
+                if not result: continue
+
+                # 当页面是重定向页时，记录其重定向关系
+                if result['status'] == 'OK' and result['original'] != result['final']:
+                     raw_redirects[result['original']] = result['final']
+                # 当页面是消歧义页时，将其加入“坏名”列表准备移除
+                elif result['status'] == 'DISAMBIG':
+                    bad_names.add(result['original'])
+                    if result['final']:
+                        bad_names.add(result['final'])
+
+        # 步骤 4: 解析重定向链，找到每个条目的最终权威名称。
+        authoritative_map = {}
+        for task in tasks_to_run:
+            if task in bad_names: continue
+            final_dest, visited = task, {task}
+            while final_dest in raw_redirects:
+                final_dest = raw_redirects[final_dest]
+                if final_dest in visited: break # 避免无限循环
+                visited.add(final_dest)
+            authoritative_map[task] = final_dest
+
+        # 步骤 5: 基于查询结果，安全地重写 LIST.md 文件。
+        with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
+            original_lines = f.readlines()
+        
+        final_lines, seen_entries = [], set()
+        updates_count, removals_count, duplicates_count = 0, 0, 0
+        
+        for line in original_lines:
+            stripped = line.strip()
+            # 保留文件原有的标题、注释和空行结构
+            if not stripped or stripped.startswith(('##', '//')):
+                final_lines.append(line)
+                continue
+            
+            # 如果条目未被抽样处理，则直接保留
+            if stripped not in tasks_to_run:
+                final_lines.append(line)
+                # 确保未处理的条目也被加入去重集合，防止后续冲突
+                simplified_unprocessed = self.t2s_converter.convert(re.sub(r'\([a-z]{2}\)\s*', '', stripped))
+                seen_entries.add(simplified_unprocessed)
+                continue
+            
+            # 移除被标记为“坏名”（消歧义页）的条目
+            if stripped in bad_names:
+                removals_count += 1
+                continue
+            
+            # 获取权威名称，如果无变化则保持原样
+            final_title = authoritative_map.get(stripped, stripped)
+            if stripped != final_title:
+                updates_count += 1
+
+            # 基于简体化的权威名称进行去重检查
+            simplified_final = self.t2s_converter.convert(re.sub(r'\([a-z]{2}\)\s*', '', final_title))
+            if simplified_final in seen_entries:
+                duplicates_count += 1
+                continue
+            
+            # 如果是首次出现，则添加到最终列表和去重集合中
+            seen_entries.add(simplified_final)
+            final_lines.append(f"{line.rstrip().replace(stripped, final_title)}\n")
+
+        with open(LIST_FILE_PATH, 'w', encoding='utf-8') as f:
+            f.writelines(final_lines)
+
+        logger.info(f"  - LIST.md 更新完成: {updates_count}项更新, {removals_count}项移除, {duplicates_count}项去重。")
+
     def run(self):
         """执行完整的端到端维护流水线。"""
         graph = graph_io.load_master_graph(self.master_graph_path)
         nodes, relationships = graph.get('nodes', []), graph.get('relationships', [])
         
         logger.info("================= 启动 Chinese-Elite 深度维护 =================")
+
+        # 步骤 1: 更新主图谱
+        logger.info("\n--- 步骤 1/8: 更新主图谱节点名称 ---")
+        graph = graph_io.load_master_graph(self.master_graph_path)
+        nodes, relationships = graph.get('nodes', []), graph.get('relationships', [])
+
+        nodes, relationships = self._update_master_graph_names(nodes, relationships)
+
+        # 步骤 2: 更新 LIST.md
+        logger.info("\n--- 步骤 2/8: 更新 LIST.md 条目 ---")
+        self._update_list_names()
         
-        # 步骤 1: 根据 LIST.md 修正节点类型
-        logger.info("\n--- 步骤 1/6: 根据列表文件修正节点类型 ---")
+        # 步骤 3: 根据 LIST.md 修正节点类型
+        logger.info("\n--- 步骤 3/8: 根据列表文件修正节点类型 ---")
         nodes = self._correct_node_types_from_list(nodes)
 
-        # 步骤 2: 清理无描述关系
-        logger.info("\n--- 步骤 2/6: 清理描述为空的关系 ---")
+        # 步骤 4: 清理无描述关系
+        logger.info("\n--- 步骤 4/8: 清理描述为空的关系 ---")
         relationships = self._prune_rels(relationships)
 
-        # 步骤 3: 验证并清理数据格式
-        logger.info("\n--- 步骤 3/6: 验证并清理数据格式 ---")
+        # 步骤 5: 验证并清理数据格式
+        logger.info("\n--- 步骤 5/8: 验证并清理数据格式 ---")
         nodes, relationships = self._validate_and_clean_schema(nodes, relationships)
         
-        # 步骤 4: 使用 LLM 清理剩余关系
-        logger.info("\n--- 步骤 4/6: 清理单条的错误/低质量关系 ---")
+        # 步骤 6: 使用 LLM 清理剩余关系
+        logger.info("\n--- 步骤 6/8: 清理单条的错误/低质量关系 ---")
         relationships = self._clean_individual_relationships(nodes, relationships)
 
-        # 步骤 5: 清理缓存
-        logger.info("\n--- 步骤 5/6: 清理过期的链接状态缓存 ---")
+        # 步骤 7: 清理缓存
+        logger.info("\n--- 步骤 7/8: 清理过期的链接状态缓存 ---")
         self._clean_stale_cache()
         
-        # 步骤 6: 尝试升级临时节点
-        logger.info("\n--- 步骤 6/6: 尝试升级临时ID节点 ---")
+        # 步骤 8: 尝试升级临时节点
+        logger.info("\n--- 步骤 8/8: 尝试升级临时ID节点 ---")
         nodes, relationships = self._resolve_temporary_nodes(nodes, relationships)
 
         logger.info("\n[*] 正在保存所有变更...")
