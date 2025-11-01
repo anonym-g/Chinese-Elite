@@ -1,0 +1,218 @@
+{
+  "nodes": [
+    {
+      "id": "薛志国",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "薛志国"
+        ],
+        "en": [
+          "Xue Zhiguo"
+        ]
+      },
+      "properties": {
+        "lifetime": "1965 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "敖汉旗",
+          "en": "Aohan Banner"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员，曾任第十二届与第十三届全国人民代表大会内蒙古地区代表。",
+          "en": "A political figure of the People's Republic of China, a member of the Communist Party of China, who served as a delegate from the Inner Mongolia region to the 12th and 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "敖汉旗",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "敖汉旗"
+        ],
+        "en": [
+          "Aohan Banner"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "内蒙古自治区赤峰市下辖的一个旗。",
+          "en": "A banner under the administration of Chifeng City, Inner Mongolia Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十二届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国人民代表大会",
+          "全国人大代表"
+        ],
+        "en": [
+          "12th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2013-03 - 2018-03"
+      }
+    },
+    {
+      "id": "赤峰师专",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赤峰师专"
+        ],
+        "en": [
+          "Chifeng Teachers College"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京市保安服务总公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市保安服务总公司"
+        ],
+        "en": [
+          "Beijing Security Service General Company"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会",
+          "第十三届全国人大代表"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "薛志国",
+      "target": "敖汉旗",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "薛志国是内蒙古敖汉旗人。",
+          "en": "Xue Zhiguo is from Aohan Banner, Inner Mongolia."
+        }
+      }
+    },
+    {
+      "source": "薛志国",
+      "target": "赤峰师专",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "数学专业",
+          "en": "Mathematics"
+        },
+        "description": {
+          "zh-cn": "薛志国毕业于赤峰师专数学专业。",
+          "en": "Xue Zhiguo graduated from Chifeng Teachers College with a major in Mathematics."
+        }
+      }
+    },
+    {
+      "source": "薛志国",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "薛志国加入了中国共产党。",
+          "en": "Xue Zhiguo joined the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "薛志国",
+      "target": "北京市保安服务总公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "怀柔分公司望京经营部经理",
+          "en": "Manager of Wangjing Business Department, Huairou Branch"
+        },
+        "description": {
+          "zh-cn": "薛志国曾在北京市保安服务总公司工作，担任怀柔分公司望京经营部经理。",
+          "en": "Xue Zhiguo worked at the Beijing Security Service General Company, serving as the manager of the Wangjing Business Department of the Huairou Branch."
+        }
+      }
+    },
+    {
+      "source": "薛志国",
+      "target": "第十二届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013",
+        "end_date": "2018",
+        "position": {
+          "zh-cn": "内蒙古地区代表",
+          "en": "Delegate from Inner Mongolia region"
+        },
+        "description": {
+          "zh-cn": "2013年，薛志国被选为第十二届全国人民代表大会内蒙古地区代表。",
+          "en": "In 2013, Xue Zhiguo was elected as a delegate from the Inner Mongolia region to the 12th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "薛志国",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "end_date": "2023",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，薛志国当选为第十三届全国人大代表。",
+          "en": "On February 24, 2018, Xue Zhiguo was elected as a delegate to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

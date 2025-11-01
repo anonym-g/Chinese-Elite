@@ -1,0 +1,220 @@
+{
+  "nodes": [
+    {
+      "id": "李淦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李淦",
+          "水金",
+          "骥秋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1918 - 1966",
+        "gender": "Male",
+        "location": null,
+        "birth_place": {
+          "zh-cn": "济宁县",
+          "en": "Jining County"
+        },
+        "death_place": null,
+        "description": {
+          "zh-cn": "中国作曲家，曾任中华全国音乐工作者协会候补委员。",
+          "en": "Chinese composer, formerly an alternate member of the All-China Music Workers Association."
+        }
+      }
+    },
+    {
+      "id": "济宁县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "济宁县",
+          "济宁"
+        ],
+        "en": [
+          "Jining County",
+          "Jining"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "location": {
+          "zh-cn": "山东",
+          "en": "Shandong"
+        },
+        "description": {
+          "zh-cn": "中国山东省的一个县，是李淦的出生地。",
+          "en": "A county in Shandong Province, China, and the birthplace of Li Gan."
+        }
+      }
+    },
+    {
+      "id": "山东省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山东省",
+          "山东"
+        ],
+        "en": [
+          "Shandong Province",
+          "Shandong"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "description": {
+          "zh-cn": "中国的一个省份。",
+          "en": "A province of China."
+        }
+      }
+    },
+    {
+      "id": "中华全国音乐工作者协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国音乐工作者协会"
+        ],
+        "en": [
+          "All-China Music Workers Association"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "location": null,
+        "description": {
+          "zh-cn": "中国音乐家协会的前身。",
+          "en": "The predecessor of the Chinese Musicians' Association."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "location": null,
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国音乐家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国音乐家协会"
+        ],
+        "en": [
+          "Chinese Musicians' Association"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "location": null,
+        "description": {
+          "zh-cn": "由中华全国音乐工作者协会改组而成的中国音乐家专业组织。",
+          "en": "A professional organization for Chinese musicians, reorganized from the All-China Music Workers Association."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李淦",
+      "target": "济宁县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "根据Wikitext记载，李淦是山东济宁人。",
+          "en": "According to the Wikitext, Li Gan was from Jining, Shandong."
+        }
+      }
+    },
+    {
+      "source": "济宁县",
+      "target": "山东省",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "济宁县是山东省下辖的一个县。",
+          "en": "Jining County is a county under the jurisdiction of Shandong Province."
+        }
+      }
+    },
+    {
+      "source": "李淦",
+      "target": "中华全国音乐工作者协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": "1966",
+        "position": {
+          "zh-cn": "候补委员",
+          "en": "Alternate Member"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "李淦曾任中华全国音乐工作者协会候补委员。",
+          "en": "Li Gan served as an alternate member of the All-China Music Workers Association."
+        }
+      }
+    },
+    {
+      "source": "李淦",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": "1966",
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "根据页面分类，李淦是中国共产党党员。",
+          "en": "According to the page category, Li Gan was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "中华全国音乐工作者协会",
+      "target": "中国音乐家协会",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "导航模板的上下文表明，中华全国音乐工作者协会是中国音乐家协会的前身。",
+          "en": "The context of the navigation template indicates that the All-China Music Workers Association is the predecessor of the Chinese Musicians' Association."
+        }
+      }
+    }
+  ]
+}

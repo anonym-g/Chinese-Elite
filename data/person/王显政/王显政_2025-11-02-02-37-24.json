@@ -1,0 +1,359 @@
+{
+  "nodes": [
+    {
+      "id": "王显政",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王显政"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1946-08 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "辽宁彰武",
+          "en": "Zhangwu, Liaoning"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。曾任国家安全生产监督管理局首任局长、中共中央纪律检查委员会委员。",
+          "en": "A politician of the People's Republic of China. He served as the first Director of the State Administration of Work Safety and was a member of the Central Commission for Discipline Inspection of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "辽宁",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "辽宁"
+        ],
+        "en": [
+          "Liaoning"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "彰武",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "彰武"
+        ],
+        "en": [
+          "Zhangwu"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "国家安全生产监督管理总局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家安全生产监督管理总局",
+          "国家安全生产监督管理局"
+        ],
+        "en": [
+          "State Administration of Work Safety"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共中央纪律检查委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央纪律检查委员会"
+        ],
+        "en": [
+          "Central Commission for Discipline Inspection of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "阜新矿业学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阜新矿业学院"
+        ],
+        "en": [
+          "Fuxin Mining Institute"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国煤炭工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国煤炭工业部",
+          "煤炭工业部"
+        ],
+        "en": [
+          "Ministry of Coal Industry of the People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "山西",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山西"
+        ],
+        "en": [
+          "Shanxi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "山西省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山西省人民政府"
+        ],
+        "en": [
+          "Shanxi Provincial People's Government"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党第十六次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十六次全国代表大会",
+          "中共十六大"
+        ],
+        "en": [
+          "16th National Congress of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "2002"
+      }
+    },
+    {
+      "id": "李毅中",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李毅中"
+        ],
+        "en": [
+          "Li Yizhong"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "中国人民政治协商会议全国委员会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议全国委员会常务委员会",
+          "全国政协常务委员会"
+        ],
+        "en": [
+          "Standing Committee of the National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议全国委员会提案委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议全国委员会提案委员会",
+          "全国政协提案委员会"
+        ],
+        "en": [
+          "Proposals Committee of the National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王显政",
+      "target": "彰武",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "王显政",
+      "target": "阜新矿业学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "王显政于阜新矿业学院采煤专业学习。",
+          "en": "Wang Xianzheng studied in the coal mining program at Fuxin Mining Institute."
+        }
+      }
+    },
+    {
+      "source": "王显政",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "王显政于1982年加入中国共产党。",
+          "en": "Wang Xianzheng joined the Communist Party of China in 1982."
+        }
+      }
+    },
+    {
+      "source": "王显政",
+      "target": "中华人民共和国煤炭工业部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1995",
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Vice Minister"
+        }
+      }
+    },
+    {
+      "source": "王显政",
+      "target": "山西省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2001",
+        "end_date": "2002",
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        }
+      }
+    },
+    {
+      "source": "王显政",
+      "target": "国家安全生产监督管理总局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2002",
+        "end_date": "2005",
+        "position": {
+          "zh-cn": "局长、党组书记",
+          "en": "Director, Party Group Secretary"
+        }
+      }
+    },
+    {
+      "source": "中国共产党第十六次全国代表大会",
+      "target": "王显政",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2002",
+        "description": {
+          "zh-cn": "在中共十六大上，王显政被选为中共中央纪律检查委员会委员。",
+          "en": "At the 16th National Congress of the Communist Party of China, Wang Xianzheng was elected as a member of the Central Commission for Discipline Inspection."
+        }
+      }
+    },
+    {
+      "source": "王显政",
+      "target": "中共中央纪律检查委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2002",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        }
+      }
+    },
+    {
+      "source": "王显政",
+      "target": "李毅中",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2005",
+        "description": {
+          "zh-cn": "2005年，王显政被免去国家安全生产监督管理总局局长职务，由李毅中接任。",
+          "en": "In 2005, Wang Xianzheng was removed from the post of Director of the State Administration of Work Safety and was succeeded by Li Yizhong."
+        }
+      }
+    },
+    {
+      "source": "王显政",
+      "target": "国家安全生产监督管理总局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2005",
+        "end_date": "2008",
+        "position": {
+          "zh-cn": "副局长",
+          "en": "Vice Director"
+        }
+      }
+    },
+    {
+      "source": "王显政",
+      "target": "中国人民政治协商会议全国委员会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        }
+      }
+    },
+    {
+      "source": "王显政",
+      "target": "中国人民政治协商会议全国委员会提案委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Vice Chairman"
+        }
+      }
+    }
+  ]
+}

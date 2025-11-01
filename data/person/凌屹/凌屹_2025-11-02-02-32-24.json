@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "id": "凌屹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "凌屹"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1970-07 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "南通",
+          "en": "Nantong"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，汉族，中国共产党党员，第十三届全国人民代表大会江苏地区代表。",
+          "en": "A political figure of the People's Republic of China, of Han ethnicity, a member of the Communist Party of China, and a deputy representing the Jiangsu region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "江苏省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江苏省",
+          "江苏"
+        ],
+        "en": [
+          "Jiangsu"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "南通市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "南通市",
+          "南通"
+        ],
+        "en": [
+          "Nantong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "汉族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉族"
+        ],
+        "en": [
+          "Han Chinese"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的主体民族，也是世界上人口最多的民族。",
+          "en": "The dominant ethnic group in China and the largest ethnic group in the world."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于亚洲东部的社会主义国家，由中国共产党执政。",
+          "en": "A socialist state in East Asia, governed by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届国家最高权力机关。",
+          "en": "The 13th term of the highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "全国人民代表大会代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会代表",
+          "全国人大代表"
+        ],
+        "en": [
+          "Deputy to the National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国最高国家权力机关全国人民代表大会的组成人员。",
+          "en": "A member of the National People's Congress, the highest state authority of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "凌屹",
+      "target": "南通市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "凌屹是江苏南通人。",
+          "en": "Ling Yi is a native of Nantong, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "凌屹",
+      "target": "汉族",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "凌屹",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        }
+      }
+    },
+    {
+      "source": "凌屹",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "江苏地区代表",
+          "en": "Deputy from the Jiangsu region"
+        },
+        "description": {
+          "zh-cn": "于2018年2月24日当选为第十三届全国人民代表大会代表。",
+          "en": "Elected as a deputy to the 13th National People's Congress on February 24, 2018."
+        }
+      }
+    },
+    {
+      "source": "凌屹",
+      "target": "全国人民代表大会代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24"
+      }
+    },
+    {
+      "source": "凌屹",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治人物",
+          "en": "Political figure"
+        }
+      }
+    }
+  ]
+}

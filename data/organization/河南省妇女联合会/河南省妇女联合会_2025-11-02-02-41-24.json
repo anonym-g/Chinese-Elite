@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "河南省妇女联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南省妇女联合会",
+          "河南省妇联"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "河南省",
+          "en": "Henan Province"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国河南省妇女儿童工作者组成的人民团体，是中华全国妇女联合会的地方组织。",
+          "en": "A people's organization composed of women and children workers in Henan Province, People's Republic of China. It is the local organization of the All-China Women's Federation."
+        }
+      }
+    },
+    {
+      "id": "中华全国妇女联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国妇女联合会"
+        ],
+        "en": [
+          "All-China Women's Federation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党领导下的全国性妇女群众组织。",
+          "en": "A national women's mass organization under the leadership of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家。",
+          "en": "A country in East Asia."
+        }
+      }
+    },
+    {
+      "id": "河南省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河南省"
+        ],
+        "en": [
+          "Henan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区。",
+          "en": "A province-level administrative division of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "人民团体",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "人民团体"
+        ],
+        "en": [
+          "People's organization"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党领导下的群众组织。",
+          "en": "Mass organizations under the leadership of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党河南省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党河南省委员会"
+        ],
+        "en": [
+          "Henan Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在河南省的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Henan Province."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "河南省妇女联合会",
+      "target": "中华全国妇女联合会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "河南省妇女联合会是中华全国妇女联合会的地方组织。",
+          "en": "The Henan Women's Federation is a local organization of the All-China Women's Federation."
+        }
+      }
+    },
+    {
+      "source": "河南省妇女联合会",
+      "target": "中国共产党河南省委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "河南省妇女联合会接受中国共产党河南省委员会的领导。",
+          "en": "The Henan Women's Federation is under the leadership of the Henan Provincial Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "河南省妇女联合会",
+      "target": "人民团体",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "河南省妇女联合会是中华人民共和国河南省妇女儿童工作者组成的人民团体。",
+          "en": "The Henan Women's Federation is a people's organization composed of women and children workers in Henan Province, People's Republic of China."
+        }
+      }
+    }
+  ]
+}
