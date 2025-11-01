@@ -1,0 +1,207 @@
+{
+  "nodes": [
+    {
+      "id": "程梦醒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "程梦醒"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1990-09 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "应城",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物、第十三届全国人民代表大会湖北省代表。",
+          "en": "A political figure of the People's Republic of China and a delegate from Hubei Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "湖北",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖北",
+          "湖北省"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的一个省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "应城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "应城"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国湖北省下辖的县级市。",
+          "en": "A county-level city under the administration of Hubei Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "汉族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉族"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的主体民族。",
+          "en": "The majority ethnic group in China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2018 - 2023",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届最高国家权力机关。",
+          "en": "The 13th highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "全国人大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人大代表"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全国人民代表大会的组成人员，是最高国家权力机关的组成人员。",
+          "en": "Members of the National People's Congress, who are components of the highest state authority."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "程梦醒",
+      "target": "应城",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "程梦醒的籍贯是湖北应城。",
+          "en": "Cheng Mengxing's ancestral home is Yingcheng, Hubei."
+        }
+      }
+    },
+    {
+      "source": "程梦醒",
+      "target": "汉族",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "程梦醒是汉族。",
+          "en": "Cheng Mengxing is of Han ethnicity."
+        }
+      }
+    },
+    {
+      "source": "程梦醒",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "程梦醒是中国共产党党员。",
+          "en": "Cheng Mengxing is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "程梦醒",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "湖北省代表",
+          "en": "Delegate from Hubei Province"
+        },
+        "description": {
+          "zh-cn": "2018年，程梦醒被选为湖北省出席第十三届全国人民代表大会代表。",
+          "en": "In 2018, Cheng Mengxing was elected as a delegate from Hubei Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "程梦醒",
+      "target": "全国人大代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "全国人大代表",
+          "en": "National People's Congress Delegate"
+        },
+        "description": {
+          "zh-cn": "程梦醒担任第十三届全国人民代表大会代表。",
+          "en": "Cheng Mengxing serves as a delegate to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

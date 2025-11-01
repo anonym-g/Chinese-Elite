@@ -1,0 +1,238 @@
+{
+  "nodes": [
+    {
+      "id": "徐德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐德"
+        ],
+        "en": [
+          "Xu De"
+        ]
+      },
+      "properties": {
+        "lifetime": "1951 - ",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": {
+          "zh-cn": "湖北随州",
+          "en": "Suizhou, Hubei"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国企业家、政治人物，中国共产党党员，现任齐星集团董事长，曾任第十一届全国人民代表大会湖北地区代表。",
+          "en": "A Chinese entrepreneur and politician, a member of the Communist Party of China, the current chairman of Qixing Group, and a former deputy from the Hubei region to the 11th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "湖北省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖北省",
+          "湖北"
+        ],
+        "en": [
+          "Hubei Province",
+          "Hubei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国省级行政区。",
+          "en": "A provincial-level administrative division of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "随州市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "随州市",
+          "随州"
+        ],
+        "en": [
+          "Suizhou City",
+          "Suizhou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国湖北省下辖的地级市。",
+          "en": "A prefecture-level city in Hubei Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于亚洲东部的社会主义国家。",
+          "en": "A socialist state in East Asia."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "齐星集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "齐星集团"
+        ],
+        "en": [
+          "Qixing Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由徐德担任董事长的企业。",
+          "en": "An enterprise chaired by Xu De."
+        }
+      }
+    },
+    {
+      "id": "第十一届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十一届全国人民代表大会"
+        ],
+        "en": [
+          "11th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2008 - 2013",
+        "description": {
+          "zh-cn": "中华人民共和国的第六届国家最高权力机关。",
+          "en": "The 11th term of the highest state authority in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "华中科技大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华中科技大学"
+        ],
+        "en": [
+          "Huazhong University of Science and Technology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国湖北省武汉市的综合性研究型大学。",
+          "en": "A comprehensive research university located in Wuhan, Hubei, China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "徐德",
+      "target": "随州市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "徐德是湖北随州人。",
+          "en": "Xu De is from Suizhou, Hubei."
+        }
+      }
+    },
+    {
+      "source": "徐德",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "徐德是中国共产党党员。",
+          "en": "Xu De is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "徐德",
+      "target": "齐星集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事长",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "徐德是齐星集团董事长。",
+          "en": "Xu De is the chairman of Qixing Group."
+        }
+      }
+    },
+    {
+      "source": "徐德",
+      "target": "第十一届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "end_date": "2013",
+        "position": {
+          "zh-cn": "湖北地区代表",
+          "en": "Deputy from Hubei region"
+        },
+        "description": {
+          "zh-cn": "徐德自2008年起担任第十一届全国人民代表大会湖北地区代表。",
+          "en": "Starting from 2008, Xu De served as a deputy from the Hubei region to the 11th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "徐德",
+      "target": "华中科技大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "经济法学专业",
+          "en": "Economic Law"
+        },
+        "description": {
+          "zh-cn": "徐德毕业于华中科技大学经济法学专业。",
+          "en": "Xu De graduated from Huazhong University of Science and Technology with a major in Economic Law."
+        }
+      }
+    }
+  ]
+}

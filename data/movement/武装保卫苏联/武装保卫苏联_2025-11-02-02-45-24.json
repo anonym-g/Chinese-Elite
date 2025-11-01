@@ -1,0 +1,833 @@
+{
+  "nodes": [
+    {
+      "id": "武装保卫苏联",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "武装保卫苏联"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1929 - ",
+        "description": {
+          "zh-cn": "中东路事件期间，由中国共产党发起，旨在支持苏联的政治运动。",
+          "en": "A political movement initiated by the Chinese Communist Party during the Sino-Soviet conflict over the Chinese Eastern Railway in 1929 to support the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "中东路事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中东路事件"
+        ],
+        "en": [
+          "Sino-Soviet conflict (1929)"
+        ]
+      },
+      "properties": {
+        "period": "1929 - 1929",
+        "description": {
+          "zh-cn": "1929年中华民国与苏联因中东铁路问题爆发的军事冲突。",
+          "en": "A military conflict in 1929 between the Republic of China and the Soviet Union over the Chinese Eastern Railway."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "共产国际",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "共产国际"
+        ],
+        "en": [
+          "Comintern"
+        ]
+      },
+      "properties": {
+        "period": "1919 - 1943",
+        "description": {
+          "zh-cn": "1919年至1943年期间活动的国际共产主义组织。",
+          "en": "An international communist organization that was active from 1919 to 1943."
+        }
+      }
+    },
+    {
+      "id": "共产国际远东局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "共产国际远东局"
+        ],
+        "en": [
+          "Far Eastern Bureau of the Comintern"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "共产国际负责远东地区事务的下属机构。",
+          "en": "A subordinate body of the Comintern responsible for affairs in the Far East."
+        }
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党",
+          "国民党"
+        ],
+        "en": [
+          "Kuomintang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的创建政党之一，在1929年时是中国的执政党。",
+          "en": "One of the founding political parties of the Republic of China, and the ruling party of China in 1929."
+        }
+      }
+    },
+    {
+      "id": "刘伯承",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘伯承"
+        ],
+        "en": [
+          "Liu Bocheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1892-12-04 - 1986-10-07",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党军事领导人，中华人民共和国元帅。",
+          "en": "A Chinese Communist military commander and Marshal of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "叶剑英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶剑英"
+        ],
+        "en": [
+          "Ye Jianying"
+        ]
+      },
+      "properties": {
+        "lifetime": "1897-04-28 - 1986-10-22",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党革命家和政治家，中华人民共和国元帅。",
+          "en": "A Chinese Communist revolutionary and politician, Marshal of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "伯力",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "伯力"
+        ],
+        "en": [
+          "Khabarovsk"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "俄罗斯",
+          "en": "Russia"
+        },
+        "description": {
+          "zh-cn": "俄罗斯远东地区的城市，哈巴罗夫斯克边疆区的首府。",
+          "en": "A city in the Russian Far East, the administrative center of Khabarovsk Krai."
+        }
+      }
+    },
+    {
+      "id": "远东工人游击队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "远东工人游击队",
+          "红河赤卫队"
+        ],
+        "en": [
+          "Far East Workers' Guerrilla"
+        ]
+      },
+      "properties": {
+        "period": "1929 - ",
+        "description": {
+          "zh-cn": "1929年中东路事件期间，由共产国际在苏联伯力附近组建的军事单位，主要由中国矿工组成。",
+          "en": "A military unit formed by the Comintern near Khabarovsk, Soviet Union, during the 1929 Sino-Soviet conflict, composed mainly of Chinese miners."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Chang Hsueh-liang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-06-03 - 2001-10-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国将领，奉系军阀领导人，中东路事件中指挥东北军与苏联作战。",
+          "en": "A warlord of the Republic of China who controlled Northeast China and commanded the Northeastern Army against the Soviet Union during the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "海拉尔之役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "海拉尔之役"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1929 - 1929",
+        "description": {
+          "zh-cn": "中东路事件期间，苏联进攻中国海拉尔地区的战役。",
+          "en": "A battle during the Sino-Soviet conflict of 1929, involving the Soviet attack on the Chinese city of Hailar."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "苏维埃社会主义共和国联盟，一个存在于1922年至1991年的欧亚大陆社会主义国家。",
+          "en": "The Union of Soviet Socialist Republics, a socialist state in Eurasia that existed from 1922 to 1991."
+        }
+      }
+    },
+    {
+      "id": "伍修权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伍修权"
+        ],
+        "en": [
+          "Wu Xiuquan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1908-03 - 1997-11-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党革命家、军事家和外交家。",
+          "en": "A Chinese Communist revolutionary, military officer, and diplomat."
+        }
+      }
+    },
+    {
+      "id": "苏联红军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联红军"
+        ],
+        "en": [
+          "Red Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苏联的武装力量。",
+          "en": "The armed forces of the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "共产国际东方部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "共产国际东方部"
+        ],
+        "en": [
+          "Eastern Department of the Comintern"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "共产国际负责东方（亚洲）事务的下属机构。",
+          "en": "A subordinate body of the Comintern responsible for affairs in the East (Asia)."
+        }
+      }
+    },
+    {
+      "id": "红河 (伯力)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "红河 (伯力)",
+          "红河"
+        ],
+        "en": [
+          "Krasnaya Rechka (Khabarovsk)"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "伯力",
+          "en": "Khabarovsk"
+        },
+        "description": {
+          "zh-cn": "位于苏联伯力附近的一个地点，是远东工人游击队的组建地。",
+          "en": "A location near Khabarovsk, Soviet Union, where the Far East Workers' Guerrilla was formed."
+        }
+      }
+    },
+    {
+      "id": "加伦将军",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "加伦将军"
+        ],
+        "en": [
+          "Vasily Blyukher"
+        ]
+      },
+      "properties": {
+        "lifetime": "1890-12-01 - 1938-11-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联军事将领，苏联元帅，曾任苏联远东军区司令。",
+          "en": "A Soviet military commander, Marshal of the Soviet Union, and commander of the Soviet Far Eastern Military District."
+        }
+      }
+    },
+    {
+      "id": "黄平 (中共中央候补委员)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄平 (中共中央候补委员)",
+          "黄平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期成员。",
+          "en": "An early member of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "id": "刘鼎",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘鼎"
+        ],
+        "en": [
+          "Liu Ding"
+        ]
+      },
+      "properties": {
+        "lifetime": "1902 - 1986-07-25",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党党员，兵工专家。",
+          "en": "A member of the Chinese Communist Party and an expert in ordnance."
+        }
+      }
+    },
+    {
+      "id": "涂作潮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "涂作潮"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党党员，无线电专家。",
+          "en": "A member of the Chinese Communist Party and a radio expert."
+        }
+      }
+    },
+    {
+      "id": "黄文杰 (兴宁人)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄文杰 (兴宁人)",
+          "黄文杰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党党员。",
+          "en": "A member of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "id": "中共满洲省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共满洲省委"
+        ],
+        "en": [
+          "Manchuria Provincial Committee of the Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在满洲（中国东北）地区的省级领导机构。",
+          "en": "The provincial leading body of the Chinese Communist Party in Manchuria (Northeast China)."
+        }
+      }
+    },
+    {
+      "id": "刘少奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘少奇"
+        ],
+        "en": [
+          "Liu Shaoqi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-11-24 - 1969-11-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党革命家和政治家，曾任中华人民共和国主席。",
+          "en": "A Chinese Communist revolutionary and politician, former Chairman of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": [
+          "Nationalist government"
+        ]
+      },
+      "properties": {
+        "period": "1925 - 1948",
+        "description": {
+          "zh-cn": "中华民国在1925年至1948年期间的中央政府。",
+          "en": "The central government of the Republic of China from 1925 to 1948."
+        }
+      }
+    },
+    {
+      "id": "沈阳",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "沈阳",
+          "奉天"
+        ],
+        "en": [
+          "Shenyang"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国辽宁省",
+          "en": "Liaoning Province, China"
+        }
+      }
+    },
+    {
+      "id": "孟用潜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孟用潜"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1904 - 1972",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党党员，1929年与刘少奇一同被捕。",
+          "en": "A member of the Chinese Communist Party, arrested along with Liu Shaoqi in 1929."
+        }
+      }
+    },
+    {
+      "id": "刘少奇1929年被捕案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "刘少奇1929年被捕案",
+          "此次被捕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1929-08-22 - 1929-09",
+        "description": {
+          "zh-cn": "1929年刘少奇和孟用潜在奉天因煽动罢工嫌疑被捕的事件。",
+          "en": "The event in 1929 where Liu Shaoqi and Meng Yongqian were arrested in Fengtian on suspicion of inciting a strike."
+        }
+      }
+    },
+    {
+      "id": "陈独秀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈独秀"
+        ],
+        "en": [
+          "Chen Duxiu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1879-10-09 - 1942-05-27",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期主要领导人之一。",
+          "en": "One of the early primary leaders of the Chinese Communist Party."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中东路事件",
+      "target": "武装保卫苏联",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "“武装保卫苏联”运动是在中东路事件爆发后发起的。",
+          "en": "The 'Armed Defense of the Soviet Union' movement was launched after the outbreak of the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "source": "共产国际远东局",
+      "target": "武装保卫苏联",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "共产国际远东局明确要求中共中央提出“武装保卫苏联”的口号。",
+          "en": "The Far Eastern Bureau of the Comintern explicitly demanded that the CCP Central Committee put forward the slogan 'Armed Defense of the Soviet Union'."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "武装保卫苏联",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "中国共产党响应共产国际的号召，发起了“武装保卫苏联”运动。",
+          "en": "The Chinese Communist Party responded to the Comintern's call and initiated the 'Armed Defense of the Soviet Union' movement."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "中国国民党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "作为“武装保卫苏联”运动的一部分，中国共产党组织了反对国民党的群众示威。",
+          "en": "As part of the 'Armed Defense of the Soviet Union' movement, the Chinese Communist Party organized mass demonstrations against the Kuomintang."
+        }
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "远东工人游击队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929",
+        "position": {
+          "zh-cn": "领导",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "刘伯承响应“武装保卫苏联”的号召，加入并领导远东工人游击队。",
+          "en": "Liu Bocheng responded to the call for the 'Armed Defense of the Soviet Union' by joining and leading the Far East Workers' Guerrilla."
+        }
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "远东工人游击队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "叶剑英响应“武装保卫苏联”的号召，加入远东工人游击队。",
+          "en": "Ye Jianying responded to the call for the 'Armed Defense of the Soviet Union' by joining the Far East Workers' Guerrilla."
+        }
+      }
+    },
+    {
+      "source": "远东工人游击队",
+      "target": "张学良",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "远东工人游击队与张学良领导的国民政府军作战。",
+          "en": "The Far East Workers' Guerrilla fought against the National Government Army led by Zhang Xueliang."
+        }
+      }
+    },
+    {
+      "source": "远东工人游击队",
+      "target": "海拉尔之役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "远东工人游击队协助苏联进攻中国的海拉尔。",
+          "en": "The Far East Workers' Guerrilla assisted the Soviet attack on Hailar, China."
+        }
+      }
+    },
+    {
+      "source": "共产国际东方部",
+      "target": "远东工人游击队",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "远东工人游击队由共产国际东方部于1929年在红河组建。",
+          "en": "The Far East Workers' Guerrilla was formed in 1929 at Krasnaya Rechka by the Eastern Department of the Comintern."
+        }
+      }
+    },
+    {
+      "source": "远东工人游击队",
+      "target": "加伦将军",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "远东工人游击队归远东军区司令加伦将军指挥。",
+          "en": "The Far East Workers' Guerrilla was under the command of General Vasily Blyukher, commander of the Far Eastern Military District."
+        }
+      }
+    },
+    {
+      "source": "黄平 (中共中央候补委员)",
+      "target": "远东工人游击队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929",
+        "position": {
+          "zh-cn": "党代表",
+          "en": "Party Representative"
+        }
+      }
+    },
+    {
+      "source": "刘鼎",
+      "target": "远东工人游击队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929",
+        "position": {
+          "zh-cn": "一中队政治指导员及全队的武器教官",
+          "en": "Political instructor of the 1st squadron and weapons instructor for the team"
+        }
+      }
+    },
+    {
+      "source": "涂作潮",
+      "target": "远东工人游击队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929",
+        "position": {
+          "zh-cn": "无线电机务员",
+          "en": "Radio operator"
+        }
+      }
+    },
+    {
+      "source": "黄文杰 (兴宁人)",
+      "target": "远东工人游击队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "在远东工人游击队中从事党务工作。",
+          "en": "Engaged in party affairs work in the Far East Workers' Guerrilla."
+        }
+      }
+    },
+    {
+      "source": "伍修权",
+      "target": "苏联红军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1929",
+        "position": {
+          "zh-cn": "翻译",
+          "en": "Translator"
+        },
+        "description": {
+          "zh-cn": "共产国际派遣伍修权担任苏联红军翻译以参与中东路事件。",
+          "en": "The Comintern dispatched Wu Xiuquan to serve as a translator for the Soviet Red Army to participate in the Sino-Soviet conflict."
+        }
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "中共满洲省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "刘少奇于中东路事件期间担任中共满洲省委书记。",
+          "en": "Liu Shaoqi served as the Secretary of the CCP Manchuria Provincial Committee during the Sino-Soviet conflict."
+        }
+      }
+    },
+    {
+      "source": "中共满洲省委",
+      "target": "中国共产党",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中共满洲省委是中国共产党在东北地区的下级组织。",
+          "en": "The CCP Manchuria Provincial Committee was a subordinate organization of the Chinese Communist Party in Northeast China."
+        }
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "武装保卫苏联",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "时任中共满洲省委书记的刘少奇发动了支持苏联的运动。",
+          "en": "As Secretary of the CCP Manchuria Provincial Committee, Liu Shaoqi launched a movement in support of the Soviet Union."
+        }
+      }
+    },
+    {
+      "source": "刘少奇1929年被捕案",
+      "target": "刘少奇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1929-08-22",
+        "end_date": "1929-09",
+        "description": {
+          "zh-cn": "刘少奇因在奉天煽动罢工嫌疑被捕，该事件中断了他在当地的活动。",
+          "en": "Liu Shaoqi was arrested in Fengtian on suspicion of inciting a strike, which interrupted his activities in the area."
+        }
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "孟用潜",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1929-08-22",
+        "description": {
+          "zh-cn": "刘少奇与孟用潜于1929年8月22日一同在奉天被捕。",
+          "en": "Liu Shaoqi and Meng Yongqian were arrested together in Fengtian on August 22, 1929."
+        }
+      }
+    },
+    {
+      "source": "陈独秀",
+      "target": "武装保卫苏联",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1929-07-28",
+        "description": {
+          "zh-cn": "陈独秀致信中共中央，批评“武装保卫苏联”的口号，认为对中共不利。",
+          "en": "Chen Duxiu wrote to the CCP Central Committee, criticizing the slogan 'Armed Defense of the Soviet Union' as detrimental to the CCP."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "陈独秀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "因反对“武装保卫苏联”等主张，陈独秀被中国共产党开除党籍。",
+          "en": "Chen Duxiu was expelled from the Chinese Communist Party for opposing policies such as the 'Armed Defense of the Soviet Union'."
+        }
+      }
+    }
+  ]
+}

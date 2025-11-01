@@ -1,0 +1,288 @@
+{
+  "nodes": [
+    {
+      "id": "叶少兰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶少兰",
+          "叶强",
+          "叶金泰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1942 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国京剧表演艺术家，一级演员，工小生。",
+          "en": "A Chinese Peking Opera performing artist and first-class actor, specializing in 'xiaosheng' (young male) roles."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "1966年至1976年在中国由毛泽东发动和领导的政治运动。",
+          "en": "A political movement in China from 1966 to 1976, initiated and led by Mao Zedong."
+        }
+      }
+    },
+    {
+      "id": "杜近芳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杜近芳"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国京剧表演艺术家。",
+          "en": "A Chinese Peking Opera performing artist."
+        }
+      }
+    },
+    {
+      "id": "战友京剧团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "战友京剧团"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的京剧表演团体。",
+          "en": "A Peking Opera troupe in China."
+        }
+      }
+    },
+    {
+      "id": "叶盛兰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶盛兰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国京剧表演艺术家，叶少兰的父亲。",
+          "en": "A Chinese Peking Opera performing artist, father of Ye Shaolan."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议第十一届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十一届全国委员会"
+        ],
+        "en": [
+          "11th National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "period": "2008 - 2013",
+        "description": {
+          "zh-cn": "中国人民政治协商会议的第十一届全国委员会。",
+          "en": "The 11th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议全国委员会教科卫体委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议全国委员会教科卫体委员会",
+          "教科文卫体委员会"
+        ],
+        "en": [
+          "Education, Science, Culture, Health and Sports Committee of the CPPCC National Committee"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议全国委员会的下属专门委员会。",
+          "en": "A special committee under the National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "刘淑卿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘淑卿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "叶盛兰的妻子，叶少兰的母亲。",
+          "en": "Wife of Ye Shenglan and mother of Ye Shaolan."
+        }
+      }
+    },
+    {
+      "id": "叶蓬",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶蓬"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "京剧老生演员，叶少兰的哥哥。",
+          "en": "A Peking Opera 'laosheng' (old male) role actor, older brother of Ye Shaolan."
+        }
+      }
+    },
+    {
+      "id": "一级演员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "一级演员"
+        ],
+        "en": [
+          "First-class actor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国授予专业文艺工作者的最高级别专业技术职称。",
+          "en": "The highest professional title awarded to professional literary and art workers in the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "叶少兰",
+      "target": "杜近芳",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1976",
+        "description": {
+          "zh-cn": "文化大革命结束后，叶少兰与杜近芳展开合作。",
+          "en": "After the Cultural Revolution ended, Ye Shaolan began to collaborate with Du Jinfang."
+        }
+      }
+    },
+    {
+      "source": "叶少兰",
+      "target": "战友京剧团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1976",
+        "description": {
+          "zh-cn": "文化大革命结束后，叶少兰参加了战友京剧团。",
+          "en": "After the Cultural Revolution ended, Ye Shaolan joined the Zhanyou Peking Opera Troupe."
+        }
+      }
+    },
+    {
+      "source": "叶少兰",
+      "target": "中国人民政治协商会议第十一届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Committee Member"
+        },
+        "description": {
+          "zh-cn": "2008年，当选第十一届全国政协委员。",
+          "en": "In 2008, he was elected as a member of the 11th National Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "叶少兰",
+      "target": "中国人民政治协商会议全国委员会教科卫体委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "position": {
+          "zh-cn": "专委",
+          "en": "Special Committee Member"
+        },
+        "description": {
+          "zh-cn": "担任中国人民政治协商会议全国委员会教科文卫体委员会专委。",
+          "en": "Served as a special committee member of the Education, Science, Culture, Health and Sports Committee of the CPPCC National Committee."
+        }
+      }
+    },
+    {
+      "source": "叶少兰",
+      "target": "叶盛兰",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "叶少兰是叶盛兰的小儿子。",
+          "en": "Ye Shaolan is the youngest son of Ye Shenglan."
+        }
+      }
+    },
+    {
+      "source": "叶少兰",
+      "target": "刘淑卿",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "叶少兰是刘淑卿的小儿子。",
+          "en": "Ye Shaolan is the youngest son of Liu Shuqing."
+        }
+      }
+    },
+    {
+      "source": "叶少兰",
+      "target": "叶蓬",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "叶少兰是叶蓬的弟弟。",
+          "en": "Ye Shaolan is the younger brother of Ye Peng."
+        }
+      }
+    },
+    {
+      "source": "叶少兰",
+      "target": "一级演员",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "一级演员",
+          "en": "First-class actor"
+        },
+        "description": {
+          "zh-cn": "叶少兰是中国一级演员。",
+          "en": "Ye Shaolan is a Chinese first-class actor."
+        }
+      }
+    }
+  ]
+}

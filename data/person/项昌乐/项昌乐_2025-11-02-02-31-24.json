@@ -1,0 +1,362 @@
+{
+  "nodes": [
+    {
+      "id": "项昌乐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项昌乐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1963-04 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "安徽省霍山县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国车辆传动专家，中国工程院院士，中国科学技术协会常务委员，现任大连理工大学党委书记。",
+          "en": "A Chinese expert in vehicle transmission, an academician of the Chinese Academy of Engineering, a standing committee member of the China Association for Science and Technology, and the current Party Secretary of Dalian University of Technology."
+        }
+      }
+    },
+    {
+      "id": "霍山县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "霍山县",
+          "霍山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "项昌乐的出生地，隶属于安徽省六安市。",
+          "en": "The birthplace of Xiang Changle, a county under the jurisdiction of Lu'an City, Anhui Province."
+        }
+      }
+    },
+    {
+      "id": "中国工程院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工程院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国工程科学技术界的最高荣誉性、咨询性学术机构。",
+          "en": "The highest honorary and consultative academic institution in the field of engineering and technology in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国科学技术协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学技术协会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国科学技术工作者的群众组织，是中华人民共和国科学技术界的人民团体。",
+          "en": "A mass organization for scientific and technological workers in China, and a people's organization in the scientific and technological community of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "大连理工大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大连理工大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "大连市",
+          "en": "Dalian"
+        },
+        "description": {
+          "zh-cn": "位于中国辽宁省大连市的一所公立大学，是中华人民共和国教育部直属的全国重点大学。",
+          "en": "A public university located in Dalian, Liaoning, China, and a national key university directly under the Ministry of Education of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "霍山中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "霍山中学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "安徽省霍山县",
+          "en": "Huoshan County, Anhui"
+        },
+        "description": {
+          "zh-cn": "项昌乐的母校，位于安徽省霍山县。",
+          "en": "The alma mater of Xiang Changle, located in Huoshan County, Anhui Province."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "北京理工大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京理工大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京市",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "位于中国北京市的公立大学，项昌乐在此获得学士、硕士和博士学位，并曾担任党委常务副书记等职务。",
+          "en": "A public university in Beijing, China, where Xiang Changle obtained his bachelor's, master's, and doctoral degrees, and previously served as Executive Deputy Secretary of the Party Committee."
+        }
+      }
+    },
+    {
+      "id": "王寒松",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王寒松"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，项昌乐的前任中国共产党大连理工大学委员会书记。",
+          "en": "A Chinese political figure, the predecessor of Xiang Changle as the Party Secretary of the Dalian University of Technology Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党大连理工大学委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党大连理工大学委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在大连理工大学的组织。",
+          "en": "The organization of the Communist Party of China at Dalian University of Technology."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "项昌乐",
+      "target": "霍山县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "项昌乐是安徽霍山人。",
+          "en": "Xiang Changle is a native of Huoshan, Anhui."
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "霍山中学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1980",
+        "description": {
+          "zh-cn": "项昌乐于1980年毕业于霍山中学。",
+          "en": "Xiang Changle graduated from Huoshan Middle School in 1980."
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983-12",
+        "description": {
+          "zh-cn": "项昌乐于1983年12月加入中国共产党。",
+          "en": "Xiang Changle joined the Communist Party of China in December 1983."
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "北京理工大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1984",
+        "degree": {
+          "zh-cn": "工学学士",
+          "en": "Bachelor of Engineering"
+        },
+        "description": {
+          "zh-cn": "项昌乐于1984年获得北京理工大学工学学士学位。",
+          "en": "Xiang Changle received his Bachelor of Engineering degree from Beijing Institute of Technology in 1984."
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "北京理工大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1987",
+        "degree": {
+          "zh-cn": "工学硕士",
+          "en": "Master of Engineering"
+        },
+        "description": {
+          "zh-cn": "项昌乐于1987年获得北京理工大学工学硕士学位。",
+          "en": "Xiang Changle received his Master of Engineering degree from Beijing Institute of Technology in 1987."
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "北京理工大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "2001",
+        "degree": {
+          "zh-cn": "工学博士",
+          "en": "Doctor of Engineering"
+        },
+        "description": {
+          "zh-cn": "项昌乐于2001年获得北京理工大学工学博士学位。",
+          "en": "Xiang Changle received his Doctor of Engineering degree from Beijing Institute of Technology in 2001."
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "北京理工大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-11",
+        "end_date": "2015-05",
+        "position": {
+          "zh-cn": "党委常委、副校长",
+          "en": "Member of the Standing Committee of the Party Committee, Vice President"
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "北京理工大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-05",
+        "end_date": "2019-09",
+        "position": {
+          "zh-cn": "党委副书记、副校长",
+          "en": "Deputy Secretary of the Party Committee, Vice President"
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "北京理工大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2019-09",
+        "end_date": "2021-10",
+        "position": {
+          "zh-cn": "党委常务副书记",
+          "en": "Executive Deputy Secretary of the Party Committee"
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "中国共产党大连理工大学委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-10",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "项昌乐自2021年10月起担任中国共产党大连理工大学委员会书记。",
+          "en": "Xiang Changle has served as the Secretary of the Dalian University of Technology Committee of the Communist Party of China since October 2021."
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "中国工程院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "院士",
+          "en": "Academician"
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "中国科学技术协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务委员",
+          "en": "Standing Committee Member"
+        }
+      }
+    },
+    {
+      "source": "项昌乐",
+      "target": "王寒松",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2021-10",
+        "description": {
+          "zh-cn": "项昌乐接替王寒松担任中国共产党大连理工大学委员会书记职务。",
+          "en": "Xiang Changle succeeded Wang Hansong as the Secretary of the Dalian University of Technology Committee of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

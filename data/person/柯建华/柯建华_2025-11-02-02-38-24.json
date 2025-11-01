@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "柯建华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "柯建华"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1967-11 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "玉环市",
+          "en": "Yuhuan"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员，第十三届全国人民代表大会浙江地区代表。",
+          "en": "A politician of the People's Republic of China, a member of the Communist Party of China, and a delegate representing the Zhejiang region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "玉环市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "玉环市",
+          "玉环"
+        ],
+        "en": [
+          "Yuhuan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国浙江省台州市下辖的县级市。",
+          "en": "A county-level city under the administration of Taizhou, in Zhejiang province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "浙江省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江省",
+          "浙江"
+        ],
+        "en": [
+          "Zhejiang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03-05 - 2023-03-10",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届国家最高权力机关。",
+          "en": "The 13th National People's Congress of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "柯建华",
+      "target": "玉环市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本，柯建华是浙江玉环人，这通常表示其籍贯或出生地。",
+          "en": "According to the text, Ke Jianhua is from Yuhuan, Zhejiang, which usually indicates her place of origin or birth."
+        }
+      }
+    },
+    {
+      "source": "柯建华",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "柯建华是中国共产党党员。",
+          "en": "Ke Jianhua is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "柯建华",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "公民",
+          "en": "Citizen"
+        },
+        "description": {
+          "zh-cn": "柯建华的国籍为中华人民共和国。",
+          "en": "Ke Jianhua's nationality is the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "柯建华",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "浙江地区代表",
+          "en": "Delegate for Zhejiang region"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，柯建华当选为第十三届全国人民代表大会浙江地区代表。",
+          "en": "On February 24, 2018, Ke Jianhua was elected as a delegate representing the Zhejiang region to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

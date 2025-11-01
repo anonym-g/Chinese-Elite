@@ -1,0 +1,213 @@
+{
+  "nodes": [
+    {
+      "id": "王生铁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王生铁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1942 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "仙桃市",
+          "en": "Xiantao"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A politician of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "仙桃市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "仙桃市",
+          "仙桃"
+        ],
+        "en": [
+          "Xiantao"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "湖北",
+          "en": "Hubei"
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共沔阳县委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共沔阳县委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共荆州地委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共荆州地委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "湖北省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湖北省人民政府"
+        ],
+        "en": [
+          "Hubei Provincial People's Government"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共湖北省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共湖北省委"
+        ],
+        "en": [
+          "Hubei Provincial Committee of the Chinese Communist Party"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "湖北省政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湖北省政协"
+        ],
+        "en": [
+          "Hubei Provincial Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "湖北",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖北"
+        ],
+        "en": [
+          "Hubei"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王生铁",
+      "target": "仙桃市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1942"
+      }
+    },
+    {
+      "source": "王生铁",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治人物",
+          "en": "Politician"
+        }
+      }
+    },
+    {
+      "source": "王生铁",
+      "target": "中共沔阳县委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1966",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "王生铁",
+      "target": "中共荆州地委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983",
+        "position": {
+          "zh-cn": "副书记、书记",
+          "en": "Deputy Secretary, Secretary"
+        }
+      }
+    },
+    {
+      "source": "王生铁",
+      "target": "湖北省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993",
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        }
+      }
+    },
+    {
+      "source": "王生铁",
+      "target": "中共湖北省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993",
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        }
+      }
+    },
+    {
+      "source": "王生铁",
+      "target": "湖北省政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2003",
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        }
+      }
+    }
+  ]
+}

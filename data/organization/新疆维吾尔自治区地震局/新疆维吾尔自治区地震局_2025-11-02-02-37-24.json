@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "新疆维吾尔自治区地震局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新疆维吾尔自治区地震局"
+        ],
+        "en": [
+          "Xinjiang Earthquake Administration"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国地震局和新疆维吾尔自治区人民政府双重领导的事业单位，承担新疆维吾尔自治区行政区域内防震减灾工作的政府行政管理职能。",
+          "en": "A public institution under the dual leadership of the China Earthquake Administration and the People's Government of the Xinjiang Uygur Autonomous Region, responsible for the administrative management of earthquake prevention and disaster reduction within the administrative area of Xinjiang."
+        }
+      }
+    },
+    {
+      "id": "中国地震局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国地震局"
+        ],
+        "en": [
+          "China Earthquake Administration"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国主管全国地震工作的国务院直属事业单位。",
+          "en": "A public institution directly under the State Council of the People's Republic of China, responsible for national earthquake affairs."
+        }
+      }
+    },
+    {
+      "id": "新疆维吾尔自治区人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新疆维吾尔自治区人民政府"
+        ],
+        "en": [
+          "People's Government of Xinjiang Uygur Autonomous Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国新疆维吾尔自治区的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of the Xinjiang Uygur Autonomous Region of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "新疆维吾尔自治区地震局",
+      "target": "中国地震局",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "新疆维吾尔自治区地震局是在中国地震局和新疆维吾尔自治区人民政府双重领导下，以中国地震局领导为主的事业单位。",
+          "en": "The Xinjiang Earthquake Administration is a public institution under the dual leadership of the China Earthquake Administration and the People's Government of the Xinjiang Uygur Autonomous Region, with the China Earthquake Administration taking the primary leadership role."
+        }
+      }
+    },
+    {
+      "source": "新疆维吾尔自治区地震局",
+      "target": "新疆维吾尔自治区人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "新疆维吾尔自治区地震局是在中国地震局和新疆维吾尔自治区人民政府双重领导下的事业单位，并根据新疆维吾尔自治区人民政府授权，依法履行防震减灾主管机构的各项职责。",
+          "en": "The Xinjiang Earthquake Administration is a public institution under the dual leadership of the China Earthquake Administration and the People's Government of the Xinjiang Uygur Autonomous Region, and it performs the duties of the competent authority for earthquake prevention and disaster reduction in accordance with the law as authorized by the People's Government of the Xinjiang Uygur Autonomous Region."
+        }
+      }
+    }
+  ]
+}
