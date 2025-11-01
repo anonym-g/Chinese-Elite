@@ -15,7 +15,12 @@ import time
 import re
 
 # 使用相对路径导入
-from .config import LIST_FILE_PATH, CACHE_DIR, PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, WIKI_API_URL_TPL, PAGEVIEWS_API_BASE, USER_AGENT
+from .config import (
+    LIST_FILE_PATH, CACHE_DIR, 
+    PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, 
+    MAX_PAGEVIEW_CHECKS_LIMIT, 
+    WIKI_API_URL_TPL, PAGEVIEWS_API_BASE, USER_AGENT
+)
 
 # --- 日志记录器初始化 ---
 logger = logging.getLogger(__name__)
@@ -29,7 +34,6 @@ PAGEVIEWS_DATA_START_DATE = datetime(2015, 7, 1) # 维基媒体Pageviews API数�
 PAGEVIEWS_CACHE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
 CREATION_DATE_CACHE_PATH = os.path.join(CACHE_DIR, 'creation_date_cache.json')
 BATCH_SIZE = 120 # 并发处理的批次大小
-MAX_NETWORK_CHECKS = 7000 # 单次运行最大处理规模
 
 # --- 速率与并发控制 ---
 IS_CI = os.getenv('GITHUB_ACTIONS') == 'true'
@@ -310,10 +314,10 @@ async def main():
     
     logger.info(f"预处理完成。共 {len(all_items)} 项，其中 {skipped_count} 项将使用缓存，{len(to_check_this_run)} 项符合网络检查条件。")
 
-    if len(to_check_this_run) > MAX_NETWORK_CHECKS:
-        logger.info(f"需要检查的条目过多({len(to_check_this_run)}), 将随机抽样 {MAX_NETWORK_CHECKS} 项进行处理。")
+    if len(to_check_this_run) > MAX_PAGEVIEW_CHECKS_LIMIT:
+        logger.info(f"需要检查的条目过多({len(to_check_this_run)}), 将随机抽样 {MAX_PAGEVIEW_CHECKS_LIMIT} 项进行处理。")
         random.shuffle(to_check_this_run)
-        items_for_network_check = to_check_this_run[:MAX_NETWORK_CHECKS]
+        items_for_network_check = to_check_this_run[:MAX_PAGEVIEW_CHECKS_LIMIT]
     else: items_for_network_check = to_check_this_run
 
     # --- 步骤 2: 并发执行网络请求 ---

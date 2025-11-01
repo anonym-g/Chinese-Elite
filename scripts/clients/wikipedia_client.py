@@ -40,7 +40,7 @@ class WikipediaClient:
         self.cffi_session = cffi_requests.Session()
 
         # --- 连接池优化 ---
-        adapter = HTTPAdapter(pool_connections=32, pool_maxsize=32)
+        adapter = HTTPAdapter(pool_connections=200, pool_maxsize=200)
         self.session.mount("https://", adapter)
         self.session.mount("http://", adapter)
         
@@ -127,7 +127,14 @@ class WikipediaClient:
             if page.get("missing"): 
                 return None, None
             
-            qcode = page.get("pageprops", {}).get("wikibase_item")
+            page_props = page.get("pageprops", {})
+            
+            # --- 检查页面是否为消歧义页 ---
+            if "disambiguation" in page_props:
+                logger.warning(f"页面 '{article_title}' 被解析为消歧义页，已忽略。")
+                return None, None
+
+            qcode = page_props.get("wikibase_item")
             # 直接从 page 对象获取标题。
             # API在处理 redirects=1 时，page 对象里的 title 字段就是重定向链解析完成后的最终页面标题。
             final_title = page.get("title")
@@ -136,29 +143,85 @@ class WikipediaClient:
         except requests.exceptions.RequestException:
             return None, None
 
-    # @wiki_sync_limiter.limit # 应用维基同步装饰器
-    # def _fetch_title_by_qcode(self, qcode: str, lang: str = 'zh') -> str | None:
-    #     """根据Q-Code反向查询其在指定语言维基中的权威页面标题。"""
-    #     api_url = WIKI_API_URL_TPL.format(lang=lang)
-    #     params = {
-    #         "action": "wbgetentities",
-    #         "ids": qcode,
-    #         "props": "sitelinks",
-    #         "format": "json",
-    #         "formatversion": "2"
-    #     }
-    #     try:
-    #         response = self.session.get(api_url, params=params, timeout=15)
-    #         response.raise_for_status()
-    #         data = response.json()
-    #         sitelinks = data.get("entities", {}).get(qcode, {}).get("sitelinks", {})
-    #         wiki_key = f"{lang}wiki"
-    #         if wiki_key in sitelinks:
-    #             return sitelinks[wiki_key].get("title")
-    #     except requests.exceptions.RequestException:
-    #         # 发生网络错误时，静默失败并返回None
-    #         pass
-    #     return None
+    @wiki_sync_limiter.limit # 应用维基同步装饰器
+    def get_authoritative_title_by_qcode(self, qcode: str, lang: str = 'zh') -> dict:
+        """
+        根据Q-Code反向查询其在指定语言维基中的正确页面标题，并检查是否为消歧义页。
+        返回一个字典: {'title': str | None, 'status': 'OK'|'DISAMBIG'|'NOT_FOUND'|'ERROR'}
+        """
+        # 步骤1: 从Wikidata获取sitelink
+        wikidata_api_url = "https://www.wikidata.org/w/api.php"
+        params_wd = {
+            "action": "wbgetentities", "ids": qcode, "props": "sitelinks",
+            "format": "json", "formatversion": "2"
+        }
+        try:
+            response_wd = self.session.get(wikidata_api_url, params=params_wd, timeout=15)
+            response_wd.raise_for_status()
+            data_wd = response_wd.json()
+            sitelinks = data_wd.get("entities", {}).get(qcode, {}).get("sitelinks", {})
+            wiki_key = f"{lang}wiki"
+            
+            if wiki_key not in sitelinks:
+                return {'title': None, 'status': 'NOT_FOUND'}
+            article_title = sitelinks[wiki_key].get("title")
+            if not article_title:
+                 return {'title': None, 'status': 'NOT_FOUND'}
+        except requests.exceptions.RequestException:
+            return {'title': None, 'status': 'ERROR'}
+
+        # 步骤2: 验证维基百科页面的状态（处理重定向和消歧义）
+        api_url = WIKI_API_URL_TPL.format(lang=lang)
+        params_wiki = {
+            "action": "query", "prop": "pageprops", "ppprop": "disambiguation",
+            "titles": article_title, "format": "json", "formatversion": "2", "redirects": "1",
+        }
+        try:
+            response_wiki = self.session.get(api_url, params=params_wiki, timeout=15)
+            response_wiki.raise_for_status()
+            data_wiki = response_wiki.json()
+            page = data_wiki.get("query", {}).get("pages", [{}])[0]
+
+            if page.get("missing"): return {'title': None, 'status': 'NOT_FOUND'}
+
+            final_title = page.get("title")
+            is_disambiguation = "disambiguation" in page.get("pageprops", {})
+            status = "DISAMBIG" if is_disambiguation else "OK"
+            return {'title': final_title, 'status': status}
+        except (requests.exceptions.RequestException, IndexError, KeyError):
+            return {'title': None, 'status': 'ERROR'}
+    
+    @wiki_sync_limiter.limit # 应用维基同步装饰器
+    def get_authoritative_title_and_status(self, article_title: str, lang: str = 'zh') -> dict:
+        """
+        在指定语言维基中获取正确页面标题，并检查其是否为消歧义页。
+        返回: {'title': str | None, 'status': 'OK'|'DISAMBIG'|'NOT_FOUND'|'ERROR'}
+        """
+        api_url = WIKI_API_URL_TPL.format(lang=lang)
+        params = {
+            "action": "query",
+            "prop": "pageprops",
+            "ppprop": "disambiguation",
+            "titles": article_title,
+            "format": "json",
+            "formatversion": "2",
+            "redirects": "1",
+        }
+        try:
+            response = self.session.get(api_url, params=params, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+            page = data.get("query", {}).get("pages", [{}])[0]
+
+            if page.get("missing"):
+                return {'title': None, 'status': 'NOT_FOUND'}
+
+            final_title = page.get("title")
+            is_disambiguation = "disambiguation" in page.get("pageprops", {})
+            status = "DISAMBIG" if is_disambiguation else "OK"
+            return {'title': final_title, 'status': status}
+        except (requests.exceptions.RequestException, IndexError, KeyError):
+            return {'title': None, 'status': 'ERROR'}
 
     def get_qcode(self, article_title: str, lang: str = 'zh', force_refresh: bool = False) -> tuple[str | None, str | None]:
         """

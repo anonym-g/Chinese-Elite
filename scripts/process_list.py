@@ -10,7 +10,13 @@ import logging
 import concurrent.futures
 
 # 使用相对路径导入
-from .config import DATA_DIR, LIST_FILE_PATH, PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, TIMEZONE
+from .config import (
+    DATA_DIR, LIST_FILE_PATH, 
+    PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, 
+    MAX_LIST_ITEMS_TO_CHECK, MAX_WORKERS_LIST_SCREENING, 
+    MAX_LIST_ITEMS_PER_RUN, MAX_WORKERS_LIST_PROCESSING, 
+    TIMEZONE
+)
 from .clients.wikipedia_client import WikipediaClient
 from .services.llm_service import LLMService
 from .utils import sanitize_filename
@@ -163,12 +169,6 @@ class ListProcessor:
         if not self._parse_list_file():
             logger.info("列表文件为空或不存在，任务结束。")
             return
-        
-        # 常量
-        MAX_ITEMS_TO_CHECK = 2000
-        MAX_SCREENING_WORKERS = 32
-        MAX_ITEMS_PER_RUN = 400
-        MAX_WORKERS = 8
 
         logger.info("--- 步骤 1/3: 并行筛选本轮需要处理的条目 ---")
         items_for_this_run = []
@@ -180,13 +180,13 @@ class ListProcessor:
         ]
 
         # --- 随机抽样，以控制单次运行检查量 ---
-        if len(all_potential_items) > MAX_ITEMS_TO_CHECK:
-            logger.info(f"列表过大 ({len(all_potential_items)}项)，将随机抽样 {MAX_ITEMS_TO_CHECK} 项进行检查。")
-            items_to_check_this_run = random.sample(all_potential_items, MAX_ITEMS_TO_CHECK)
+        if len(all_potential_items) > MAX_LIST_ITEMS_TO_CHECK:
+            logger.info(f"列表过大 ({len(all_potential_items)}项)，将随机抽样 {MAX_LIST_ITEMS_TO_CHECK} 项进行检查。")
+            items_to_check_this_run = random.sample(all_potential_items, MAX_LIST_ITEMS_TO_CHECK)
         else:
             items_to_check_this_run = all_potential_items
         
-        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_SCREENING_WORKERS) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS_LIST_SCREENING) as executor:
             # 为抽样后的每个条目提交一个检查任务
             future_to_item = {
                 executor.submit(self._should_process_item, item_tuple, category): (item_tuple, category)
@@ -212,12 +212,12 @@ class ListProcessor:
         random.shuffle(items_for_this_run)
 
         # 为避免单次运行时间过长，设定一个处理上限
-        if len(items_for_this_run) > MAX_ITEMS_PER_RUN:
-            logger.info(f"待处理条目过多 ({len(items_for_this_run)}个)，将截取前 {MAX_ITEMS_PER_RUN} 个进行处理。")
-            items_for_this_run = items_for_this_run[:MAX_ITEMS_PER_RUN]
+        if len(items_for_this_run) > MAX_LIST_ITEMS_PER_RUN:
+            logger.info(f"待处理条目过多 ({len(items_for_this_run)}个)，将截取前 {MAX_LIST_ITEMS_PER_RUN} 个进行处理。")
+            items_for_this_run = items_for_this_run[:MAX_LIST_ITEMS_PER_RUN]
 
         logger.info("--- 步骤 3/3: 开始并行处理 ---")
-        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS_LIST_PROCESSING) as executor:
             # 使用 executor.submit 来分派任务
             futures = [executor.submit(self._process_item, item_tuple, category) for item_tuple, category in items_for_this_run]
             
