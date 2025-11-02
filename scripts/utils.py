@@ -5,6 +5,7 @@ import re
 import logging
 import threading
 from opencc import OpenCC
+from typing import List
 
 # 使用相对路径导入
 from .config import LIST_FILE_PATH
@@ -79,6 +80,79 @@ def add_title_to_list(title_to_add: str):
         except Exception as e:
             logger.error(f"严重错误: 向 LIST.md 添加标题时发生错误: {e}")
 
+def add_titles_to_list(titles_to_add: List[str]):
+    """
+    将一个标题列表批量添加到 LIST.md 文件的 'new' 类别下。
+    此函数会进行内存去重，然后一次性写入文件。
+
+    Args:
+        titles_to_add (List[str]): 一个包含所有待添加标题字符串的列表。
+    """
+    if not titles_to_add:
+        logger.info("  - 待添加的标题列表为空，无需操作。")
+        return
+
+    with LIST_MD_LOCK:
+        try:
+            # --- 步骤 1: 内存去重 ---
+            with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+                # 创建现有标题的简体中文集合，用于O(1)复杂度的快速查找
+                existing_simplified_entries = {
+                    t2s_converter.convert(re.sub(r'\([a-z]{2}\)\s*', '', line.strip()))
+                    for line in lines if line.strip() and not line.strip().startswith(('##', '//'))
+                }
+            
+            new_unique_titles = []
+            for title in titles_to_add:
+                # 规范化待添加的标题以进行比较 (移除语言前缀并转为简体)
+                simplified_title = t2s_converter.convert(re.sub(r'\([a-z]{2}\)\s*', '', title))
+                if simplified_title not in existing_simplified_entries:
+                    new_unique_titles.append(title)
+                    # 将新添加的标题也加入集合，以处理输入列表自身的重复情况
+                    existing_simplified_entries.add(simplified_title)
+            
+            if not new_unique_titles:
+                logger.info("  - 所有待添加的标题均已存在于 LIST.md 中，无需操作。")
+                return
+
+            # --- 步骤 2: 将所有新标题写入文件 ---
+            # 定位或创建 '## new' 插入点
+            new_section_index = -1
+            for i, line in enumerate(lines):
+                if line.strip() == '## new':
+                    new_section_index = i
+                    break
+
+            insert_pos = len(lines)
+            if new_section_index != -1:
+                # 从 '## new' 标题后开始寻找下一个 '## ' 标题，以确定插入点
+                for i in range(new_section_index + 1, len(lines)):
+                    if lines[i].strip().startswith('## '):
+                        insert_pos = i
+                        break
+            else:
+                # 如果文件中没有 '## new' 区域，则在文件末尾创建它
+                if lines and not lines[-1].endswith('\n'): lines.append('\n')
+                lines.append("\n## new\n")
+                insert_pos = len(lines)
+            
+            # 准备好要插入的行，并进行排序以保持文件整洁
+            new_lines_to_insert = [f"{title}\n" for title in sorted(new_unique_titles)]
+            # 在内存中构建最终的文件内容
+            final_content = lines[:insert_pos] + new_lines_to_insert + lines[insert_pos:]
+            
+            # 使用 'w' 模式一次性覆写整个文件
+            with open(LIST_FILE_PATH, 'w', encoding='utf-8') as f:
+                f.writelines(final_content)
+            
+            logger.info(f"  - 成功向 LIST.md 批量同步 {len(new_unique_titles)} 个新标题。")
+
+        except FileNotFoundError:
+            logger.error(f"严重错误: LIST.md 文件未找到于 '{LIST_FILE_PATH}'")
+        except Exception as e:
+            logger.error(f"严重错误: 批量同步 LIST.md 时发生错误: {e}")
+
 def update_title_in_list(old_title: str, new_title: str):
     """
     在 LIST.md 文件中查找一个旧标题并将其替换为新标题。
@@ -104,7 +178,7 @@ def update_title_in_list(old_title: str, new_title: str):
             with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
 
-            # 创建一个包含所有现有条目（已处理）的集合，用于查重
+            # 创建一个包含所有现有标题（已处理）的集合，用于查重
             existing_entries = {line.strip() for line in lines if line.strip() and not line.strip().startswith(('##', '//'))}
             existing_simplified_entries = {t2s_converter.convert(entry) for entry in existing_entries}
             
@@ -131,7 +205,7 @@ def update_title_in_list(old_title: str, new_title: str):
             # --- 步骤 4: 写回文件并提供明确的日志 ---
             if was_updated:
                 if is_duplicate:
-                    logger.info(f"检测到重定向: '{old_title_processed}' -> '{new_title_processed}'。因目标已存在，将删除旧条目。")
+                    logger.info(f"检测到重定向: '{old_title_processed}' -> '{new_title_processed}'。因目标已存在，将删除旧标题。")
                 else:
                     logger.info(f"正在 LIST.md 中将 '{old_title_processed}' 更新为 '{new_title_processed}'...")
                 
