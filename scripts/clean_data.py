@@ -24,7 +24,7 @@ from .config import (
     MAX_UPDATE_WORKERS,
     LIST_UPDATE_LIMIT, MASTER_GRAPH_UPDATE_LIMIT
 )
-from .utils import add_title_to_list
+from .utils import add_titles_to_list
 from .clients.wikipedia_client import WikipediaClient
 from .services.llm_service import LLMService
 from .services import graph_io
@@ -600,72 +600,17 @@ class GraphCleaner:
         
         logger.info(f"  - 共更新了 {nodes_updated_count} 个节点的名称列表。")
 
-        # 步骤 5: 将所有确认有效的正确标题批量同步至 LIST.md
+        # 步骤 5: 将所有确认有效的标题批量同步至 LIST.md
         logger.info("  - 正在将正确标题批量同步至 LIST.md...")
         titles_to_add = set()
         for (qcode, lang), title in auth_title_map.items():
             if title:
+                # 格式化标题，例如为非中文标题添加 (en) 前缀
                 formatted_title = f"({lang}) {title}" if lang != 'zh' else title
                 titles_to_add.add(formatted_title)
         
-        if not titles_to_add:
-            logger.info("  - 无需向 LIST.md 同步新标题。")
-        else:
-            try:
-                # --- 在内存中进行查重 ---
-                with open(LIST_FILE_PATH, 'r', encoding='utf-8') as f:
-                    # 创建现有条目的简体中文集合，用于O(1)复杂度的快速查找
-                    existing_simplified_entries = {
-                        self.t2s_converter.convert(re.sub(r'\([a-z]{2}\)\s*', '', line.strip()))
-                        for line in f if line.strip() and not line.strip().startswith(('##', '//'))
-                    }
-                
-                new_unique_titles = []
-                for title in titles_to_add:
-                    simplified_title = self.t2s_converter.convert(re.sub(r'\([a-z]{2}\)\s*', '', title))
-                    if simplified_title not in existing_simplified_entries:
-                        new_unique_titles.append(title)
-                        # 防止批次内部重复
-                        existing_simplified_entries.add(simplified_title)
-                
-                if not new_unique_titles:
-                    logger.info("  - 所有权威标题均已存在于 LIST.md 中，无需添加。")
-                else:
-                    # --- 一次性批量写入文件 ---
-                    with open(LIST_FILE_PATH, 'r+', encoding='utf-8') as f:
-                        lines = f.readlines()
-                        
-                        # 定位或创建 '## new' 部分的插入点
-                        new_section_index = -1
-                        for i, line in enumerate(lines):
-                            if line.strip() == '## new':
-                                new_section_index = i
-                                break
-
-                        insert_pos = len(lines)
-                        if new_section_index != -1:
-                            for i in range(new_section_index + 1, len(lines)):
-                                if lines[i].strip().startswith('## '):
-                                    insert_pos = i
-                                    break
-                        else:
-                            if lines and not lines[-1].endswith('\n'): lines.append('\n')
-                            lines.append("\n## new\n")
-                            insert_pos = len(lines)
-                        
-                        # 将新标题格式化并插入
-                        new_lines_to_insert = [f"{title}\n" for title in sorted(new_unique_titles)]
-                        final_content = lines[:insert_pos] + new_lines_to_insert + lines[insert_pos:]
-                        
-                        f.seek(0)
-                        f.truncate()
-                        f.writelines(final_content)
-                    
-                    logger.info(f"  - 成功向 LIST.md 批量同步 {len(new_unique_titles)} 个新的权威标题。")
-            except Exception as e:
-                logger.error(f"  - 批量同步 LIST.md 时发生错误: {e}")
-
-        logger.info(f"  - 共更新了 {nodes_updated_count} 个节点的名称列表。")
+        # 批量添加
+        add_titles_to_list(list(titles_to_add))
 
         return nodes, relationships
     
@@ -752,8 +697,8 @@ class GraphCleaner:
                 # 当页面是重定向页时，记录其重定向关系
                 if result['status'] == 'OK' and result['original'] != result['final']:
                      raw_redirects[result['original']] = result['final']
-                # 当页面是消歧义页时，将其加入“坏名”列表准备移除
-                elif result['status'] == 'DISAMBIG':
+                # 将状态为消歧义/404的条目添加至“坏名”
+                elif result['status'] in ['DISAMBIG', 'NOT_FOUND']:
                     bad_names.add(result['original'])
                     if result['final']:
                         bad_names.add(result['final'])
@@ -791,7 +736,7 @@ class GraphCleaner:
                 seen_entries.add(simplified_unprocessed)
                 continue
             
-            # 移除被标记为“坏名”（消歧义页）的条目
+            # 移除被标记为“坏名”的条目
             if stripped in bad_names:
                 removals_count += 1
                 continue

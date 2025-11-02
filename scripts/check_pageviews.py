@@ -146,7 +146,7 @@ async def get_article_creation_date_async(session: aiohttp.ClientSession, articl
     # 1. 检查缓存
     if article_title in creation_date_cache and creation_date_cache[article_title]:
         try:
-            return datetime.fromisoformat(creation_date_cache[article_title])
+            return datetime.fromisoformat(creation_date_cache[article_title]).replace(tzinfo=None)
         except (ValueError, TypeError):
             pass # 缓存格式错误，将继续进行API查询
 
@@ -162,9 +162,11 @@ async def get_article_creation_date_async(session: aiohttp.ClientSession, articl
         if page.get("missing"): return None
         if "revisions" in page and page["revisions"]:
             timestamp_str = page["revisions"][0]["timestamp"]
-            # 3. 查询成功，将结果存入缓存
-            creation_date_cache[article_title] = timestamp_str
-            return datetime.fromisoformat(timestamp_str.replace('Z', '+00:00')).replace(tzinfo=None)
+            # 3. 查询成功，转换为naive datetime对象后存入缓存
+            dt_aware = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+            dt_naive = dt_aware.replace(tzinfo=None)
+            creation_date_cache[article_title] = dt_naive.isoformat()
+            return dt_naive
     except (KeyError, IndexError):
         return None
     return None
@@ -218,7 +220,7 @@ async def get_pageviews_stats_async(session: aiohttp.ClientSession, item_obj: di
     
     stats = await _fetch_stats_for_title_async(session, article_title, lang, creation_date_cache)
     if 'error' not in stats:
-        stats['check_timestamp'] = datetime.now(timezone.utc).isoformat()
+        stats['check_timestamp'] = datetime.now(timezone.utc).replace(tzinfo=None).isoformat()
         return article_title, stats
 
     # 后备查询逻辑 (仅对中文)
@@ -228,14 +230,14 @@ async def get_pageviews_stats_async(session: aiohttp.ClientSession, item_obj: di
                 logger.info(f"  ...原始查询失败，尝试备用标题: '{candidate}'")
                 stats = await _fetch_stats_for_title_async(session, candidate, lang, creation_date_cache)
                 if 'error' not in stats:
-                    stats['check_timestamp'] = datetime.now(timezone.utc).isoformat()
+                    stats['check_timestamp'] = datetime.now(timezone.utc).replace(tzinfo=None).isoformat()
                     return article_title, stats
 
     return article_title, {
         'error': 'API and fallback failed', 
         'total_views': -1, 
         'avg_daily_views': 0, 
-        'check_timestamp': datetime.now(timezone.utc).isoformat()
+        'check_timestamp': datetime.now(timezone.utc).replace(tzinfo=None).isoformat()
     }
 
 def rewrite_list_file(sorted_results: dict):
@@ -292,7 +294,7 @@ async def main():
     pageviews_cache = load_json_cache(PAGEVIEWS_CACHE_PATH)
     creation_date_cache = load_json_cache(CREATION_DATE_CACHE_PATH)
     
-    to_check_this_run, now, skipped_count = [], datetime.now(timezone.utc), 0
+    to_check_this_run, now, skipped_count = [], datetime.now(timezone.utc).replace(tzinfo=None), 0
 
     # --- 步骤 1: 预处理，决策哪些条目需要检查 ---
     logger.info("\n--- 步骤 1/3: 筛选需要网络检查的条目 ---")
@@ -353,6 +355,8 @@ async def main():
             # 提取 original_line 用于文件重写
             sorted_results[category] = [res['item']['original_line'] for res in sorted_items]
 
+    # 对两个缓存字典进行排序
+    # 按日均浏览量降序排序 pageviews_cache
     sorted_cache_items = sorted(
         pageviews_cache.items(),
         key=lambda item: item[1].get('avg_daily_views', 0),
@@ -360,9 +364,25 @@ async def main():
     )
     sorted_pageviews_cache = dict(sorted_cache_items)
 
+    # 随机删除1000条创建日期缓存
+    if len(creation_date_cache) > 1000:
+        keys_to_delete = random.sample(list(creation_date_cache.keys()), 1000)
+        for key in keys_to_delete:
+            del creation_date_cache[key]
+        logger.info(f"已从 creation_date_cache 中随机删除 {len(keys_to_delete)} 条记录。")
+
+    # 按文章创建日期 (value) 降序排序 creation_date_cache
+    # ISO 8601格式的日期字符串可以直接按字典序比较，结果与时间顺序一致
+    sorted_creation_items = sorted(
+        creation_date_cache.items(),
+        key=lambda item: item[1] or '0000', # 使用 '0000' 作为None或空字符串的后备，确保排序稳定
+        reverse=True
+    )
+    sorted_creation_date_cache = dict(sorted_creation_items)
+
     # 保存两个缓存文件
     save_json_cache(PAGEVIEWS_CACHE_PATH, sorted_pageviews_cache)
-    save_json_cache(CREATION_DATE_CACHE_PATH, creation_date_cache)
+    save_json_cache(CREATION_DATE_CACHE_PATH, sorted_creation_date_cache)
     
     rewrite_list_file(sorted_results)
     logger.info("\n--- 全部任务完成 ---")
