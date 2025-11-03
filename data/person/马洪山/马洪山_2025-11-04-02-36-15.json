@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "马洪山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马洪山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1918 - 2010",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "陕西省延长县",
+          "en": "Yanchang County, Shaanxi"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国军事人物，中国人民解放军少将，曾任陕西省军区顾问。",
+          "en": "A military figure of the People's Republic of China, a major general in the People's Liberation Army, and a former consultant to the Shaanxi Military Region."
+        }
+      }
+    },
+    {
+      "id": "延长县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "延长县",
+          "延长"
+        ],
+        "en": [
+          "Yanchang County"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国陕西省",
+          "en": "Shaanxi, People's Republic of China"
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军少将"
+        ],
+        "en": [
+          "Major General of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的军衔等级。",
+          "en": "A military rank of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "陕西省军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "陕西省军区"
+        ],
+        "en": [
+          "Shaanxi Military Region"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国工农红军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工农红军"
+        ],
+        "en": [
+          "Chinese Workers' and Peasants' Red Army"
+        ]
+      },
+      "properties": {
+        "period": "1927 - 1937"
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军大校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军大校"
+        ],
+        "en": [
+          "Senior Colonel of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的军衔等级。",
+          "en": "A military rank of the People's Liberation Army."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "马洪山",
+      "target": "延长县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "马洪山",
+      "target": "陕西省军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "顾问",
+          "en": "Consultant"
+        },
+        "description": {
+          "zh-cn": "文本明确提及马洪山曾任陕西省军区顾问。",
+          "en": "The text explicitly states that Ma Hongshan served as a consultant for the Shaanxi Military Region."
+        }
+      }
+    },
+    {
+      "source": "马洪山",
+      "target": "中国人民解放军少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "少将",
+          "en": "Major General"
+        },
+        "description": {
+          "zh-cn": "文本明确提及马洪山为中国人民解放军少将。",
+          "en": "The text explicitly states that Ma Hongshan was a Major General of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "马洪山",
+      "target": "中国工农红军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据页面分类“中国工农红军人物”推断。",
+          "en": "Inferred from the page category 'Figures of the Chinese Workers' and Peasants' Red Army'."
+        }
+      }
+    },
+    {
+      "source": "马洪山",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“中国共产党党员”推断。",
+          "en": "Inferred from the page category 'Communist Party of China members'."
+        }
+      }
+    },
+    {
+      "source": "马洪山",
+      "target": "中国人民解放军大校",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "开国大校",
+          "en": "Founding Senior Colonel"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“中国人民解放军开国大校”推断。",
+          "en": "Inferred from the page category 'Founding Senior Colonels of the People's Liberation Army'."
+        }
+      }
+    },
+    {
+      "source": "马洪山",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "马洪山是中华人民共和国的军事人物。",
+          "en": "Ma Hongshan was a military figure of the People's Republic of China."
+        }
+      }
+    }
+  ]
+}

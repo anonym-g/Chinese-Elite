@@ -1,0 +1,503 @@
+{
+  "nodes": [
+    {
+      "id": "文心一言",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "文心一言",
+          "文小言"
+        ],
+        "en": [
+          "ERNIE Bot"
+        ]
+      },
+      "properties": {
+        "period": "2023-03-16 - ",
+        "description": {
+          "zh-cn": "由百度公司开发的聊天机器人，能够与人互动、回答问题及协作创作。",
+          "en": "A chatbot developed by Baidu Inc., capable of interacting with people, answering questions, and collaborating on creative tasks."
+        }
+      }
+    },
+    {
+      "id": "百度公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "百度公司",
+          "百度"
+        ],
+        "en": [
+          "Baidu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家总部位于北京的中国跨国科技公司，专注于互联网相关服务和产品以及人工智能。",
+          "en": "A Chinese multinational technology company headquartered in Beijing, specializing in Internet-related services and products, and artificial intelligence."
+        }
+      }
+    },
+    {
+      "id": "ChatGPT",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "ChatGPT"
+        ],
+        "en": [
+          "ChatGPT"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由OpenAI开发的人工智能聊天机器人。",
+          "en": "An artificial intelligence chatbot developed by OpenAI."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，常简称为中国。",
+          "en": "A country in East Asia, often referred to as China."
+        }
+      }
+    },
+    {
+      "id": "GPT-4",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "GPT-4"
+        ],
+        "en": [
+          "GPT-4"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由OpenAI开发的多模态大型语言模型。",
+          "en": "A multimodal large language model developed by OpenAI."
+        }
+      }
+    },
+    {
+      "id": "苹果公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苹果公司"
+        ],
+        "en": [
+          "Apple Inc."
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国跨国科技公司，设计、开发和销售消费电子产品、计算机软件和在线服务。",
+          "en": "An American multinational technology company that designs, develops, and sells consumer electronics, computer software, and online services."
+        }
+      }
+    },
+    {
+      "id": "App Store (iOS/iPadOS)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "App Store (iOS/iPadOS)",
+          "App Store"
+        ],
+        "en": [
+          "App Store (iOS/iPadOS)",
+          "App Store"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由苹果公司为其iOS和iPadOS操作系统创建的移动应用程序数字发行平台。",
+          "en": "A mobile app digital distribution platform created by Apple Inc. for its iOS and iPadOS operating systems."
+        }
+      }
+    },
+    {
+      "id": "路透社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "路透社"
+        ],
+        "en": [
+          "Reuters"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国际新闻通讯社。",
+          "en": "An international news agency."
+        }
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": [
+          "Xi Jinping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，现任中共中央总书记、中华人民共和国主席、中央军委主席。",
+          "en": "Chinese politician, serving as General Secretary of the Chinese Communist Party, President of the People's Republic of China, and Chairman of the Central Military Commission."
+        }
+      }
+    },
+    {
+      "id": "六四事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "六四事件",
+          "六四天安门民运"
+        ],
+        "en": [
+          "1989 Tiananmen Square protests and massacre"
+        ]
+      },
+      "properties": {
+        "period": "1989-04-15 - 1989-06-04",
+        "description": {
+          "zh-cn": "1989年在中国发生的一系列由学生领导的民主示威活动，最终以武力清场告终。",
+          "en": "A series of student-led pro-democracy demonstrations in China in 1989, which ended with a violent crackdown."
+        }
+      }
+    },
+    {
+      "id": "新疆人权问题",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "新疆人权问题"
+        ],
+        "en": [
+          "Xinjiang human rights issue"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指围绕中国政府在新疆对维吾尔族及其他穆斯林少数民族的政策所引发的一系列人权争议。",
+          "en": "Refers to a series of human rights controversies surrounding the Chinese government's policies towards Uyghurs and other Muslim ethnic minorities in Xinjiang."
+        }
+      }
+    },
+    {
+      "id": "乔·拜登",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔·拜登"
+        ],
+        "en": [
+          "Joe Biden"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1942-11-20 - ",
+        "description": {
+          "zh-cn": "美国政治人物，第46任暨现任美国总统。",
+          "en": "American politician serving as the 46th and current president of the United States."
+        }
+      }
+    },
+    {
+      "id": "唐纳·川普",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐纳·川普"
+        ],
+        "en": [
+          "Donald Trump"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1946-06-14 - ",
+        "description": {
+          "zh-cn": "美国政治人物、商人和媒体名人，曾任美国第45任总统。",
+          "en": "American politician, businessman, and media personality who served as the 45th president of the United States."
+        }
+      }
+    },
+    {
+      "id": "解放台湾",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "解放台湾",
+          "武统台湾"
+        ],
+        "en": [
+          "Liberation of Taiwan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国提出的关于通过军事手段统一台湾的政治概念。",
+          "en": "A political concept proposed by the People's Republic of China regarding the unification of Taiwan by military means."
+        }
+      }
+    },
+    {
+      "id": "国家互联网信息办公室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家互联网信息办公室",
+          "网信办"
+        ],
+        "en": [
+          "Cyberspace Administration of China",
+          "CAC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国中央网络安全和信息化委员会办公室，负责中国互联网内容审查和监管。",
+          "en": "The Office of the Central Cyberspace Affairs Commission of the People's Republic of China, responsible for internet content censorship and regulation in China."
+        }
+      }
+    },
+    {
+      "id": "社会主义核心价值观",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "社会主义核心价值观"
+        ],
+        "en": [
+          "Core Socialist Values"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国官方倡导的一套价值观。",
+          "en": "A set of values promoted by the government of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "Stable Diffusion",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Stable Diffusion"
+        ],
+        "en": [
+          "Stable Diffusion"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个文本到图像的深度学习模型。",
+          "en": "A deep learning, text-to-image model."
+        }
+      }
+    },
+    {
+      "id": "Microsoft Bing",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Microsoft Bing",
+          "New Bing"
+        ],
+        "en": [
+          "Microsoft Bing",
+          "New Bing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由微软公司推出的网络搜索引擎，后集成人工智能聊天功能。",
+          "en": "A web search engine owned and operated by Microsoft, later integrated with AI chat features."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "百度公司",
+      "target": "文心一言",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2023-03-16",
+        "description": {
+          "zh-cn": "百度公司开发并于2023年3月16日发布了聊天机器人“文心一言”。",
+          "en": "Baidu developed and released the chatbot 'ERNIE Bot' on March 16, 2023."
+        }
+      }
+    },
+    {
+      "source": "文心一言",
+      "target": "ChatGPT",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2023-03",
+        "description": {
+          "zh-cn": "文心一言被媒体视为ChatGPT在中国市场的竞争对手。",
+          "en": "ERNIE Bot is considered by the media as a competitor to ChatGPT in the Chinese market."
+        }
+      }
+    },
+    {
+      "source": "文心一言",
+      "target": "GPT-4",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2023-06-27",
+        "description": {
+          "zh-cn": "百度公司声称，其最新版本的文心一言模型在多个中文功能方面表现优于GPT-4。",
+          "en": "Baidu claimed that the latest version of its ERNIE Bot model outperformed GPT-4 in several Chinese language capabilities."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "文心一言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2023-08",
+        "description": {
+          "zh-cn": "中华人民共和国政府批准百度公司向公众开放其生成式人工智能产品文心一言，使其成为首批获批的同类产品之一。",
+          "en": "The government of the People's Republic of China approved Baidu to open its generative AI product ERNIE Bot to the public, making it one of the first such products to receive approval."
+        }
+      }
+    },
+    {
+      "source": "文心一言",
+      "target": "路透社",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2023-03-20",
+        "description": {
+          "zh-cn": "在路透社的测试中，文心一言通过答非所问或建议更换主题的方式，回避了关于中国政治的敏感问题。",
+          "en": "In tests conducted by Reuters, ERNIE Bot evaded sensitive questions about Chinese politics by giving non-sequitur answers or suggesting changing the topic."
+        }
+      }
+    },
+    {
+      "source": "文心一言",
+      "target": "习近平",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2023-03",
+        "description": {
+          "zh-cn": "因内置的审查机制，文心一言会回避或过滤关于习近平的敏感提问。",
+          "en": "Due to its built-in censorship mechanism, ERNIE Bot evades or filters sensitive questions about Xi Jinping."
+        }
+      }
+    },
+    {
+      "source": "文心一言",
+      "target": "六四事件",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2023-03",
+        "description": {
+          "zh-cn": "因内置的审查机制，文心一言会回避或过滤关于六四事件的敏感提问。",
+          "en": "Due to its built-in censorship mechanism, ERNIE Bot evades or filters sensitive questions about the 1989 Tiananmen Square protests and massacre."
+        }
+      }
+    },
+    {
+      "source": "文心一言",
+      "target": "新疆人权问题",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2023-03",
+        "description": {
+          "zh-cn": "因内置的审查机制，文心一言会回避或过滤关于新疆维吾尔人待遇的敏感提问。",
+          "en": "Due to its built-in censorship mechanism, ERNIE Bot evades or filters sensitive questions regarding the treatment of Uyghurs in Xinjiang."
+        }
+      }
+    },
+    {
+      "source": "国家互联网信息办公室",
+      "target": "文心一言",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2023-08",
+        "description": {
+          "zh-cn": "国家互联网信息办公室规定生成式人工智能服务应“体现社会主义核心价值观”，此规定影响了文心一言的内容生成策略。",
+          "en": "The Cyberspace Administration of China stipulates that generative AI services should 'embody core socialist values', a regulation that influences ERNIE Bot's content generation strategy."
+        }
+      }
+    },
+    {
+      "source": "社会主义核心价值观",
+      "target": "文心一言",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2023-08",
+        "description": {
+          "zh-cn": "根据国家互联网信息办公室的规定，文心一言的服务需体现社会主义核心价值观。",
+          "en": "According to regulations from the Cyberspace Administration of China, ERNIE Bot's services are required to embody the Core Socialist Values."
+        }
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "Stable Diffusion",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2023-03-23",
+        "description": {
+          "zh-cn": "针对外界关于文心一言AI作画功能调用Stable Diffusion的质疑，百度公司予以否认，并声明其技术完全自研。",
+          "en": "In response to external speculation that ERNIE Bot's AI image generation feature uses Stable Diffusion, Baidu denied the claim and stated its technology is entirely self-developed."
+        }
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "文心一言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2023-07-04",
+        "description": {
+          "zh-cn": "百度公司将文心一言app在苹果公司的App Store上架。",
+          "en": "Baidu launched the ERNIE Bot app on Apple's App Store."
+        }
+      }
+    },
+    {
+      "source": "App Store (iOS/iPadOS)",
+      "target": "苹果公司",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "App Store是苹果公司为其操作系统创建和维护的移动应用程序数字发行平台。",
+          "en": "The App Store is a mobile application digital distribution platform created and maintained by Apple Inc. for its operating systems."
+        }
+      }
+    }
+  ]
+}

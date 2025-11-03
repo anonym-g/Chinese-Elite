@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "程建军",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "程建军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1956-08 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "襄城县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国民间文艺家，中国共产党党员。现任中国民间文艺家协会副主席，河南省文学艺术界联合会副主席，河南省民间文艺家协会主席。",
+          "en": "A Chinese folk artist and a member of the Communist Party of China. He currently serves as the Vice Chairman of the China Folk Literature and Art Association, Vice Chairman of the Henan Federation of Literary and Art Circles, and Chairman of the Henan Folk Literature and Art Association."
+        }
+      }
+    },
+    {
+      "id": "襄城县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "襄城县",
+          "襄城"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国民间文艺家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民间文艺家协会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "河南省文学艺术界联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南省文学艺术界联合会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "河南省民间文艺家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河南省民间文艺家协会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "程建军",
+      "target": "襄城县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "程建军",
+      "target": "中国民间文艺家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "根据文本描述为“现任”。",
+          "en": "Described as \"currently serving\" in the text."
+        }
+      }
+    },
+    {
+      "source": "程建军",
+      "target": "河南省文学艺术界联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        }
+      }
+    },
+    {
+      "source": "程建军",
+      "target": "河南省民间文艺家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "程建军",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "此信息来源于页面的分类“中国共产党党员”。",
+          "en": "This information comes from the page category \"Communist Party of China members\"."
+        }
+      }
+    }
+  ]
+}

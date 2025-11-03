@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "id": "宋关昶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋关昶"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1964-07 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "绍兴市",
+          "en": "Shaoxing"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员。曾任第十三届全国人民代表大会甘肃省代表。",
+          "en": "A politician of the People's Republic of China and a member of the Communist Party of China. He served as a delegate from Gansu Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "绍兴市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "绍兴市",
+          "绍兴"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2018-03-05 - 2023-03-10"
+      }
+    },
+    {
+      "id": "全国人大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人大代表"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全国人民代表大会代表是中华人民共和国最高国家权力机关的组成人员。",
+          "en": "Deputies to the National People's Congress are members of the highest state power organ of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "浙江省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江省",
+          "浙江"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "甘肃省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "甘肃省"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "汉族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉族"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的主体民族，也是世界上人口最多的民族。",
+          "en": "The majority ethnic group in China and the most populous ethnic group in the world."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "宋关昶",
+      "target": "绍兴市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "宋关昶籍贯为浙江绍兴，是绍兴人。",
+          "en": "Song Guanchang's ancestral home is Shaoxing, Zhejiang, and he is a native of Shaoxing."
+        }
+      }
+    },
+    {
+      "source": "宋关昶",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "宋关昶是中国共产党党员。",
+          "en": "Song Guanchang is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "宋关昶",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治人物",
+          "en": "Political figure"
+        },
+        "description": {
+          "zh-cn": "宋关昶是中华人民共和国的政治人物。",
+          "en": "Song Guanchang is a political figure in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "宋关昶",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "甘肃省代表",
+          "en": "Deputy from Gansu Province"
+        },
+        "description": {
+          "zh-cn": "2018年，宋关昶被选为甘肃省出席第十三届全国人民代表大会的代表。",
+          "en": "In 2018, Song Guanchang was elected as a deputy from Gansu Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "宋关昶",
+      "target": "全国人大代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "全国人大代表",
+          "en": "Deputy to the National People's Congress"
+        },
+        "description": {
+          "zh-cn": "宋关昶的职务为全国人大代表。",
+          "en": "Song Guanchang's title is Deputy to the National People's Congress."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "nodes": [
+    {
+      "id": "刘晓连",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘晓连"
+        ],
+        "en": [
+          "Liu Xiaolian"
+        ]
+      },
+      "properties": {
+        "lifetime": "1949-11-01 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "大连",
+          "en": "Dalian"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国飞行员、政治人物，曾任中国人民解放军空军指挥学院副院长、中华全国妇女联合会副主席，拥有中国人民解放军空军少将军衔。",
+          "en": "A Chinese pilot and politician, she formerly served as the Deputy Dean of the PLA Air Force Command College and Vice Chairperson of the All-China Women's Federation, holding the rank of Major General in the PLA Air Force."
+        }
+      }
+    },
+    {
+      "id": "大连市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "大连市",
+          "大连"
+        ],
+        "en": [
+          "Dalian"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国辽宁省的城市。",
+          "en": "A city in Liaoning Province, China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，是中国共产党领导的社会主义国家。",
+          "en": "A country in East Asia, it is a socialist state led by the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军空军指挥学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军空军指挥学院"
+        ],
+        "en": [
+          "PLA Air Force Command College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军空军的中级指挥院校，隶属中国人民解放军空军。",
+          "en": "An intermediate command academy of the People's Liberation Army Air Force, subordinate to the PLA Air Force."
+        }
+      }
+    },
+    {
+      "id": "中华全国妇女联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国妇女联合会",
+          "全国妇联"
+        ],
+        "en": [
+          "All-China Women's Federation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党领导下的中国各族各界妇女的全国性群众组织。",
+          "en": "A national mass organization for women of all ethnic groups and from all walks of life in China, under the leadership of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "id": "张家口机场空中相撞事故",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "张家口机场空中相撞事故"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1982",
+        "description": {
+          "zh-cn": "1982年发生于河北张家口机场的一次空中撞机事故。",
+          "en": "A mid-air collision incident that occurred at Zhangjiakou Airport in Hebei in 1982."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军空军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军空军"
+        ],
+        "en": [
+          "People's Liberation Army Air Force"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的空军武装力量。",
+          "en": "The aerial warfare service branch of the People's Liberation Army of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会",
+          "全国人大"
+        ],
+        "en": [
+          "National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的最高国家权力机关。",
+          "en": "The highest state authority of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘晓连",
+      "target": "大连市",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "刘晓连",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "飞行员",
+          "en": "Pilot"
+        },
+        "description": {
+          "zh-cn": "刘晓连是中华人民共和国的飞行员。",
+          "en": "Liu Xiaolian is a pilot of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "刘晓连",
+      "target": "中国人民解放军空军指挥学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副院长",
+          "en": "Deputy Dean"
+        },
+        "description": {
+          "zh-cn": "刘晓连担任中国人民解放军空军指挥学院副院长。",
+          "en": "Liu Xiaolian served as the Deputy Dean of the PLA Air Force Command College."
+        }
+      }
+    },
+    {
+      "source": "刘晓连",
+      "target": "中华全国妇女联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairperson"
+        },
+        "description": {
+          "zh-cn": "刘晓连曾担任中华全国妇女联合会副主席。",
+          "en": "Liu Xiaolian previously served as the Vice Chairperson of the All-China Women's Federation."
+        }
+      }
+    },
+    {
+      "source": "张家口机场空中相撞事故",
+      "target": "刘晓连",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "刘晓连在该事故中成功应对突发状况。",
+          "en": "Liu Xiaolian successfully handled the emergency situation during this incident."
+        }
+      }
+    },
+    {
+      "source": "刘晓连",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        }
+      }
+    },
+    {
+      "source": "刘晓连",
+      "target": "中国人民解放军空军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "少将",
+          "en": "Major General"
+        }
+      }
+    },
+    {
+      "source": "刘晓连",
+      "target": "全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "period": [
+          "1983 - 1988",
+          "1988 - 1993"
+        ],
+        "description": {
+          "zh-cn": "刘晓连是第六届和第七届全国人民代表大会代表。",
+          "en": "Liu Xiaolian was a deputy to the 6th and 7th National People's Congress."
+        }
+      }
+    }
+  ]
+}

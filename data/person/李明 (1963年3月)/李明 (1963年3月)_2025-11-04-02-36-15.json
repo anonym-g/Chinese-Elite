@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "李明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1963-03 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "成都市",
+          "en": "Chengdu"
+        },
+        "description": {
+          "zh-cn": "中国政治人物，中国共产党党员，第十三届全国人民代表大会解放军和武警部队代表。",
+          "en": "A Chinese politician, member of the Communist Party of China, and a delegate of the People's Liberation Army and Armed Police Force to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "成都市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "成都市",
+          "成都"
+        ],
+        "en": [
+          "Chengdu"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "四川省",
+          "en": "Sichuan Province"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国四川省的省会。",
+          "en": "The capital of Sichuan Province in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通称中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018 - 2023",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届最高国家权力机关。",
+          "en": "The 13th term of the highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "解放军和武警部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "解放军和武警部队"
+        ],
+        "en": [
+          "People's Liberation Army and People's Armed Police Force"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军和中国人民武装警察部队在全国人民代表大会的联合代表团。",
+          "en": "The joint delegation of the People's Liberation Army and the People's Armed Police Force to the National People's Congress."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李明",
+      "target": "成都市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据资料，李明是四川成都人。",
+          "en": "According to the information, Li Ming is from Chengdu, Sichuan."
+        }
+      }
+    },
+    {
+      "source": "李明",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "李明是中国共产党党员。",
+          "en": "Li Ming is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "李明",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "公民",
+          "en": "Citizen"
+        },
+        "description": {
+          "zh-cn": "李明是中华人民共和国公民。",
+          "en": "Li Ming is a citizen of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "李明",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "解放军和武警部队代表",
+          "en": "Delegate of the People's Liberation Army and People's Armed Police Force"
+        },
+        "description": {
+          "zh-cn": "2018年，李明被选为解放军和武警部队出席第十三届全国人民代表大会代表。",
+          "en": "In 2018, Li Ming was elected as a delegate of the People's Liberation Army and Armed Police Force to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

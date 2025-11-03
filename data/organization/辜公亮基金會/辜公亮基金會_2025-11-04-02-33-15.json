@@ -1,0 +1,407 @@
+{
+  "nodes": [
+    {
+      "id": "医疗财团法人辜公亮基金会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "医疗财团法人辜公亮基金会",
+          "财团法人辜公亮基金会孙逸仙治癌中心医院",
+          "财团法人辜公亮基金会和信治癌中心医院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1989-08-11 - ",
+        "location": {
+          "zh-cn": "台北市",
+          "en": "Taipei"
+        },
+        "description": {
+          "zh-cn": "以癌症之整体性治疗、研究以及有关医事人员之培育为宗旨的医疗财团法人。",
+          "en": "A medical foundation aimed at the holistic treatment and research of cancer, as well as the training of medical personnel."
+        }
+      }
+    },
+    {
+      "id": "台湾水泥",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台湾水泥",
+          "台湾水泥股份有限公司"
+        ],
+        "en": [
+          "Taiwan Cement Corporation"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "和信治癌中心医院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "和信治癌中心医院",
+          "医疗财团法人辜公亮基金会和信治癌中心医院"
+        ],
+        "en": [
+          "Koo Foundation Sun Yat-Sen Cancer Center"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "医疗财团法人辜公亮基金会的所属医疗机构。",
+          "en": "The affiliated medical institution of the Koo Foundation."
+        }
+      }
+    },
+    {
+      "id": "和信集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "和信集团"
+        ],
+        "en": [
+          "Koos Group"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "林奏延",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林奏延"
+        ],
+        "en": [
+          "Lin Tzou-yien"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "辜怀箴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "辜怀箴"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "林瑞慧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林瑞慧"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "黄达夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄达夫"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "严长寿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "严长寿"
+        ],
+        "en": [
+          "Stanley Yen"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "陈垣崇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈垣崇"
+        ],
+        "en": [
+          "Chen Yuan-tsong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "蔡继志",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡继志"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "周行一",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周行一"
+        ],
+        "en": [
+          "Chou Hsing-I"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "童子贤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "童子贤"
+        ],
+        "en": [
+          "Tung Tzu-hsien"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "李家庆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李家庆"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "龙应台",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "龙应台"
+        ],
+        "en": [
+          "Lung Ying-tai"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "王智弘 (1971年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王智弘 (1971年)",
+          "王智弘"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "郭旭崧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭旭崧"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "台湾水泥",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "台湾水泥股份有限公司是捐助成立医疗财团法人辜公亮基金会的法人之一。",
+          "en": "Taiwan Cement Corporation is one of the corporate donors that established the Koo Foundation."
+        }
+      }
+    },
+    {
+      "source": "和信治癌中心医院",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "和信治癌中心医院是医疗财团法人辜公亮基金会的所属医疗机构。",
+          "en": "Koo Foundation Sun Yat-Sen Cancer Center is the affiliated medical institution of the Koo Foundation."
+        }
+      }
+    },
+    {
+      "source": "医疗财团法人辜公亮基金会",
+      "target": "和信集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，医疗财团法人辜公亮基金会属于和信集团。",
+          "en": "According to its Wikipedia category, the Koo Foundation is part of the Koos Group."
+        }
+      }
+    },
+    {
+      "source": "林奏延",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事长",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "辜怀箴",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "林瑞慧",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "黄达夫",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "严长寿",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "陈垣崇",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "蔡继志",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "周行一",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "童子贤",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "李家庆",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "龙应台",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "王智弘 (1971年)",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "郭旭崧",
+      "target": "医疗财团法人辜公亮基金会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        }
+      }
+    }
+  ]
+}
