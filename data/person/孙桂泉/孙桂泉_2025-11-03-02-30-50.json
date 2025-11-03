@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "孙桂泉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙桂泉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1964-01 - ",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国"
+        },
+        "birth_place": {
+          "zh-cn": "如东县"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员，第十三届全国人民代表大会江苏地区代表。",
+          "en": "A politician of the People's Republic of China, a member of the Communist Party of China, and a delegate from the Jiangsu region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "江苏省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江苏省",
+          "江苏"
+        ],
+        "en": [
+          "Jiangsu"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "如东县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "如东县",
+          "如东"
+        ],
+        "en": [
+          "Rudong County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "汉族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉族"
+        ],
+        "en": [
+          "Han Chinese"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会",
+          "第十三届全国人大"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03"
+      }
+    },
+    {
+      "id": "全国人民代表大会代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会代表",
+          "全国人大代表"
+        ],
+        "en": [
+          "Deputy to the National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国全国人民代表大会的组成人员，是中华人民共和国最高国家权力机关的成员。",
+          "en": "A component member of the National People's Congress of the People's Republic of China, and a member of the highest state power organ of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "孙桂泉",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "孙桂泉是中国共产党党员。",
+          "en": "Sun Guiquan is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "孙桂泉",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "江苏地区代表",
+          "en": "Delegate from Jiangsu area"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，孙桂泉当选为第十三届全国人民代表大会江苏地区代表。",
+          "en": "On February 24, 2018, Sun Guiquan was elected as a delegate from the Jiangsu area to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "孙桂泉",
+      "target": "全国人民代表大会代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "description": {
+          "zh-cn": "孙桂泉的职务是全国人大代表。",
+          "en": "Sun Guiquan holds the position of Deputy to the National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "孙桂泉",
+      "target": "如东县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1964-01",
+        "description": {
+          "zh-cn": "孙桂泉出生于江苏省如东县。",
+          "en": "Sun Guiquan was born in Rudong County, Jiangsu Province."
+        }
+      }
+    },
+    {
+      "source": "孙桂泉",
+      "target": "汉族",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "孙桂泉是汉族。",
+          "en": "Sun Guiquan is of Han ethnicity."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,821 @@
+{
+  "nodes": [
+    {
+      "id": "休克疗法",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "休克疗法"
+        ],
+        "en": [
+          "shock therapy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种国家主动、突然性地放松价格与货币管制，减少国家补助，并快速进行贸易自由化和大规模私有化的总体经济学方案。",
+          "en": "A macroeconomic program involving the sudden liberalization of prices and currency controls, withdrawal of state subsidies, and rapid trade liberalization, often accompanied by large-scale privatization of state-owned assets."
+        }
+      }
+    },
+    {
+      "id": "密尔顿·弗里德曼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "密尔顿·弗里德曼"
+        ],
+        "en": [
+          "Milton Friedman"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国经济学家，休克疗法的思想来源。",
+          "en": "American economist, considered the intellectual source of shock therapy."
+        }
+      }
+    },
+    {
+      "id": "杰佛瑞·萨克斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杰佛瑞·萨克斯"
+        ],
+        "en": [
+          "Jeffrey Sachs"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国哈佛大学经济学教授，将相关经济方案改称为“休克疗法”，并在多个国家推广。",
+          "en": "An American economics professor at Harvard University who renamed the economic program 'shock therapy' and promoted it in several countries."
+        }
+      }
+    },
+    {
+      "id": "哈佛大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "哈佛大学"
+        ],
+        "en": [
+          "Harvard University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于美国马萨诸塞州剑桥市的私立研究型大学。",
+          "en": "A private research university in Cambridge, Massachusetts, USA."
+        }
+      }
+    },
+    {
+      "id": "私有化",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "私有化"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "将公有资产所有权移转给私人部门的经济过程。",
+          "en": "The economic process of transferring ownership of state-owned assets to the private sector."
+        }
+      }
+    },
+    {
+      "id": "贸易自由化",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "贸易自由化"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "减少或消除国家之间商品和服务贸易壁垒的政策。",
+          "en": "The policy of reducing or eliminating barriers to trade in goods and services between countries."
+        }
+      }
+    },
+    {
+      "id": "计划经济",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "计划经济"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种由中央政府决定生产和分配的经济体制。",
+          "en": "An economic system in which production and distribution are determined by a central government."
+        }
+      }
+    },
+    {
+      "id": "社会主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "社会主义"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种主张生产资料由社会所有、控制和管理的政治经济理论。",
+          "en": "A political and economic theory advocating for social ownership, control, and regulation of the means of production."
+        }
+      }
+    },
+    {
+      "id": "恶性通货膨胀",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "恶性通货膨胀",
+          "严重通货膨胀"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指通货膨胀率极高且加速的经济现象，休克疗法常被用于应对此问题。",
+          "en": "An economic phenomenon of extremely high and accelerating inflation, which shock therapy is often used to address."
+        }
+      }
+    },
+    {
+      "id": "娜欧米·克莱因",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "娜欧米·克莱因"
+        ],
+        "en": [
+          "Naomi Klein"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "加拿大作家、社会活动家，在其著作《休克主义》中推广了“休克疗法”这一术语。",
+          "en": "Canadian author and social activist who popularized the term 'shock therapy' in her book 'The Shock Doctrine'."
+        }
+      }
+    },
+    {
+      "id": "休克主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "休克主义"
+        ]
+      },
+      "properties": {
+        "period": "2007",
+        "description": {
+          "zh-cn": "娜欧米·克莱因于2007年出版的著作，推广了“休克疗法”一词。",
+          "en": "A book published by Naomi Klein in 2007 which popularized the term 'shock therapy'."
+        }
+      }
+    },
+    {
+      "id": "贡萨洛·桑切斯·德洛萨达",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贡萨洛·桑切斯·德洛萨达"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "玻利维亚政治家，在担任财政计划部长期间，制定政策采纳了休克疗法。",
+          "en": "A Bolivian politician who, as Minister of Planning, formulated policies adopting shock therapy."
+        }
+      }
+    },
+    {
+      "id": "1948年西德改革",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "1948年西德改革"
+        ]
+      },
+      "properties": {
+        "period": "1948",
+        "location": {
+          "zh-cn": "西德"
+        },
+        "description": {
+          "zh-cn": "1948年西德进行的经济改革，其经验影响了贡萨洛·桑切斯·德洛萨达和杰佛瑞·萨克斯。",
+          "en": "The 1948 economic reforms in West Germany, whose experiences influenced Gonzalo Sánchez de Lozada and Jeffrey Sachs."
+        }
+      }
+    },
+    {
+      "id": "智利奇迹",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "智利奇迹"
+        ]
+      },
+      "properties": {
+        "period": "1975",
+        "location": {
+          "zh-cn": "智利"
+        },
+        "description": {
+          "zh-cn": "指1975年智利在采纳休克疗法后经济恢复正常的事件，被认为是休克疗法首次成功的案例。",
+          "en": "Refers to the economic recovery of Chile in 1975 after adopting shock therapy, considered its first successful case."
+        }
+      }
+    },
+    {
+      "id": "芝加哥男孩",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "芝加哥男孩"
+        ],
+        "en": [
+          "Chicago Boys"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一群曾在芝加哥大学留学的智利财经官员，他们根据密尔顿·弗里德曼的理念在智利推行了经济改革。",
+          "en": "A group of Chilean finance officials who studied at the University of Chicago and implemented economic reforms in Chile based on Milton Friedman's ideas."
+        }
+      }
+    },
+    {
+      "id": "芝加哥大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "芝加哥大学"
+        ],
+        "en": [
+          "University of Chicago"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于美国伊利诺伊州芝加哥的私立研究型大学，以其经济学院闻名。",
+          "en": "A private research university in Chicago, Illinois, USA, known for its school of economics."
+        }
+      }
+    },
+    {
+      "id": "智利",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "智利"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "南美洲国家，是首个成功实施休克疗法的国家。",
+          "en": "A country in South America, the first to successfully implement shock therapy."
+        }
+      }
+    },
+    {
+      "id": "玻利维亚",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "玻利维亚"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "南美洲国家，于1985年采用休克疗法以应对恶性通货膨胀。",
+          "en": "A country in South America that adopted shock therapy in 1985 to combat hyperinflation."
+        }
+      }
+    },
+    {
+      "id": "东欧剧变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "东欧剧变"
+        ]
+      },
+      "properties": {
+        "period": "1989 - 1991",
+        "description": {
+          "zh-cn": "指在1990年前后东欧及中欧的社会主义国家发生民众推翻共产党统治的急剧政治变化，为休克疗法的广泛应用创造了条件。",
+          "en": "Refers to the rapid political changes in Eastern and Central European socialist countries around 1990 where communist rule was overthrown, creating conditions for the widespread application of shock therapy."
+        }
+      }
+    },
+    {
+      "id": "苏联解体",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "苏联解体"
+        ]
+      },
+      "properties": {
+        "period": "1991-12-25 - 1991-12-25",
+        "description": {
+          "zh-cn": "1991年苏联的解体事件，之后多个前加盟共和国进行了经济转型，部分采用了休克疗法。",
+          "en": "The dissolution of the Soviet Union in 1991, after which several former republics underwent economic transitions, some adopting shock therapy."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "前社会主义国家，在转型期间采用了休克疗法。",
+          "en": "A former socialist state that adopted shock therapy during its transition period."
+        }
+      }
+    },
+    {
+      "id": "波兰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "波兰"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东欧国家，在90年代采纳了杰佛瑞·萨克斯建议的休克疗法方案。",
+          "en": "An Eastern European country that adopted the shock therapy program suggested by Jeffrey Sachs in the 1990s."
+        }
+      }
+    },
+    {
+      "id": "捷克",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "捷克"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中欧国家，在90年代采用了休克疗法方案。",
+          "en": "A Central European country that adopted a shock therapy program in the 1990s."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北美洲国家，在苏联实施休克疗法后，未按杰佛瑞·萨克斯的建议给予资金支持。",
+          "en": "A North American country that did not provide financial support to the Soviet Union as advised by Jeffrey Sachs after its implementation of shock therapy."
+        }
+      }
+    },
+    {
+      "id": "新自由主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "新自由主义"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种经济和政治哲学，休克疗法是其重要的经济政策方向之一。",
+          "en": "An economic and political philosophy for which shock therapy is one of its key economic policy directions."
+        }
+      }
+    },
+    {
+      "id": "亚洲金融危机",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "亚洲金融危机"
+        ]
+      },
+      "properties": {
+        "period": "1997",
+        "description": {
+          "zh-cn": "1997年爆发于亚洲的金融危机，期间国际货币基金组织在亚洲推动了休克疗法。",
+          "en": "A financial crisis that broke out in Asia in 1997, during which the IMF promoted shock therapy in the region."
+        }
+      }
+    },
+    {
+      "id": "国际货币基金组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际货币基金组织",
+          "IMF"
+        ],
+        "en": [
+          "International Monetary Fund",
+          "IMF"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国际金融组织，曾在1997年亚洲金融危机时在亚洲推动休克疗法。",
+          "en": "An international financial organization that promoted shock therapy in Asia during the 1997 Asian financial crisis."
+        }
+      }
+    },
+    {
+      "id": "约瑟夫·斯蒂格利茨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约瑟夫·斯蒂格利茨"
+        ],
+        "en": [
+          "Joseph Stiglitz"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国经济学家，对休克疗法的有效性提出质疑，认为其可能加剧经济危机。",
+          "en": "An American economist who questioned the effectiveness of shock therapy, arguing it could exacerbate economic crises."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯联邦",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯联邦"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苏联解体后的主要继承国，在叶利钦领导下实施了休克疗法，但导致了经济衰落。",
+          "en": "The primary successor state to the Soviet Union, which implemented shock therapy under Boris Yeltsin, leading to economic decline."
+        }
+      }
+    },
+    {
+      "id": "叶利钦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶利钦"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯联邦首任总统，在俄罗斯推行了休克疗法。",
+          "en": "The first President of the Russian Federation, who implemented shock therapy in Russia."
+        }
+      }
+    },
+    {
+      "id": "资本主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "资本主义"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种以私有制为基础的经济体系。",
+          "en": "An economic system based on private ownership."
+        }
+      }
+    },
+    {
+      "id": "市场经济",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "市场经济"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种由市场供需力量决定资源配置的经济体系。",
+          "en": "An economic system where resource allocation is determined by market forces of supply and demand."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "密尔顿·弗里德曼",
+      "target": "休克疗法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "密尔顿·弗里德曼被认为是休克疗法这种经济方案最早的思想来源。",
+          "en": "Milton Friedman is considered the earliest intellectual source of the economic program known as shock therapy."
+        }
+      }
+    },
+    {
+      "source": "杰佛瑞·萨克斯",
+      "target": "休克疗法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "杰佛瑞·萨克斯将此经济方案改称为“休克疗法”，并作为经济顾问在多个国家推行。",
+          "en": "Jeffrey Sachs renamed this economic program 'shock therapy' and promoted it in several countries as an economic advisor."
+        }
+      }
+    },
+    {
+      "source": "杰佛瑞·萨克斯",
+      "target": "哈佛大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "经济学教授",
+          "en": "Professor of Economics"
+        },
+        "description": {
+          "zh-cn": "杰佛瑞·萨克斯是哈佛大学的经济学教授。",
+          "en": "Jeffrey Sachs is a professor of economics at Harvard University."
+        }
+      }
+    },
+    {
+      "source": "休克疗法",
+      "target": "私有化",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "休克疗法通常伴随大规模的私有化措施。",
+          "en": "Shock therapy is commonly accompanied by large-scale privatization measures."
+        }
+      }
+    },
+    {
+      "source": "休克疗法",
+      "target": "贸易自由化",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "休克疗法包含快速进行贸易自由化的措施。",
+          "en": "Shock therapy includes measures for rapid trade liberalization."
+        }
+      }
+    },
+    {
+      "source": "休克疗法",
+      "target": "计划经济",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "休克疗法适用于原本采用计划经济的国家，旨在将其转型。",
+          "en": "Shock therapy is applied to countries originally using a planned economy, with the aim of transforming it."
+        }
+      }
+    },
+    {
+      "source": "休克疗法",
+      "target": "恶性通货膨胀",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "休克疗法的一个主要目标是强行弥合总供给与总需求之间的缺口，以在短时间内遏制恶性通货膨胀。",
+          "en": "A primary goal of shock therapy is to forcibly close the gap between aggregate supply and demand to curb hyperinflation in a short period."
+        }
+      }
+    },
+    {
+      "source": "娜欧米·克莱因",
+      "target": "休克主义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2007",
+        "description": {
+          "zh-cn": "娜欧米·克莱因于2007年出版了著作《休克主义》。",
+          "en": "Naomi Klein published the book 'The Shock Doctrine' in 2007."
+        }
+      }
+    },
+    {
+      "source": "休克主义",
+      "target": "休克疗法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2007",
+        "description": {
+          "zh-cn": "娜欧米·克莱因的著作《休克主义》推广了“休克疗法”这一术语。",
+          "en": "Naomi Klein's book 'The Shock Doctrine' popularized the term 'shock therapy'."
+        }
+      }
+    },
+    {
+      "source": "1948年西德改革",
+      "target": "杰佛瑞·萨克斯",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "杰佛瑞·萨克斯受到了1948年西德改革的影响。",
+          "en": "Jeffrey Sachs was influenced by the 1948 reforms in West Germany."
+        }
+      }
+    },
+    {
+      "source": "休克疗法",
+      "target": "智利奇迹",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1975",
+        "description": {
+          "zh-cn": "1975年的智利奇迹被认为是休克疗法首次成功的案例。",
+          "en": "The 1975 Miracle of Chile is considered the first successful case of shock therapy."
+        }
+      }
+    },
+    {
+      "source": "芝加哥男孩",
+      "target": "智利奇迹",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1975",
+        "description": {
+          "zh-cn": "芝加哥男孩在智利拟定并推行了带来“智利奇迹”的经济政策。",
+          "en": "The Chicago Boys formulated and implemented the economic policies in Chile that led to the 'Miracle of Chile'."
+        }
+      }
+    },
+    {
+      "source": "密尔顿·弗里德曼",
+      "target": "芝加哥男孩",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "“芝加哥男孩”根据密尔顿·弗里德曼的理念来拟定经济政策。",
+          "en": "The 'Chicago Boys' formulated economic policies based on the ideas of Milton Friedman."
+        }
+      }
+    },
+    {
+      "source": "芝加哥大学",
+      "target": "芝加哥男孩",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "“芝加哥男孩”是一群有留学芝加哥大学背景的财经官员。",
+          "en": "The 'Chicago Boys' were a group of finance officials with a background of studying at the University of Chicago."
+        }
+      }
+    },
+    {
+      "source": "贡萨洛·桑切斯·德洛萨达",
+      "target": "休克疗法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1985",
+        "description": {
+          "zh-cn": "1985年，时任玻利维亚财政计划部长的贡萨洛·桑切斯·德洛萨达采用杰佛瑞·萨克斯的建议，在玻利维亚实施了休克疗法。",
+          "en": "In 1985, as Bolivia's Minister of Planning, Gonzalo Sánchez de Lozada adopted Jeffrey Sachs's advice and implemented shock therapy in Bolivia."
+        }
+      }
+    },
+    {
+      "source": "杰佛瑞·萨克斯",
+      "target": "贡萨洛·桑切斯·德洛萨达",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1985",
+        "description": {
+          "zh-cn": "贡萨洛·桑切斯·德洛萨达采纳了杰佛瑞·萨克斯的建议来应对玻利维亚的恶性通货膨胀问题。",
+          "en": "Gonzalo Sánchez de Lozada adopted the advice of Jeffrey Sachs to address Bolivia's hyperinflation problem."
+        }
+      }
+    },
+    {
+      "source": "东欧剧变",
+      "target": "休克疗法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "东欧剧变后，诸多原华约成员国在经济转型时广泛应用了休克疗法。",
+          "en": "After the Revolutions of 1989, many former Warsaw Pact member states widely applied shock therapy during their economic transitions."
+        }
+      }
+    },
+    {
+      "source": "苏联解体",
+      "target": "休克疗法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "苏联解体后，部分原苏联加盟共和国在经济转型时采用了休克疗法。",
+          "en": "After the dissolution of the Soviet Union, some former Soviet republics adopted shock therapy during their economic transitions."
+        }
+      }
+    },
+    {
+      "source": "新自由主义",
+      "target": "休克疗法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "休克疗法成为新自由主义的重要经济政策方向之一。",
+          "en": "Shock therapy became one of the key economic policy directions of neoliberalism."
+        }
+      }
+    },
+    {
+      "source": "国际货币基金组织",
+      "target": "休克疗法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1997",
+        "description": {
+          "zh-cn": "1997年亚洲金融危机时，国际货币基金组织（IMF）在亚洲推动了休克疗法。",
+          "en": "During the 1997 Asian financial crisis, the International Monetary Fund (IMF) promoted shock therapy in Asia."
+        }
+      }
+    },
+    {
+      "source": "约瑟夫·斯蒂格利茨",
+      "target": "休克疗法",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "约瑟夫·斯蒂格利茨等经济学者对休克疗法提出质疑，认为这种做法反而可能使经济危机加剧。",
+          "en": "Economists such as Joseph Stiglitz questioned shock therapy, arguing that this approach could instead exacerbate economic crises."
+        }
+      }
+    },
+    {
+      "source": "叶利钦",
+      "target": "休克疗法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "苏联解体后，俄罗斯联邦总统叶利钦对该国实行了休克疗法。",
+          "en": "After the dissolution of the Soviet Union, Russian Federation President Boris Yeltsin implemented shock therapy in the country."
+        }
+      }
+    },
+    {
+      "source": "休克疗法",
+      "target": "俄罗斯联邦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1991-12-25",
+        "description": {
+          "zh-cn": "在俄罗斯联邦实施的休克疗法由于操作不当导致了该国经济衰落和贫困率高增。",
+          "en": "The implementation of shock therapy in the Russian Federation, due to improper operation, led to the country's economic decline and a high increase in the poverty rate."
+        }
+      }
+    },
+    {
+      "source": "休克疗法",
+      "target": "资本主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "休克疗法被用于将经济体制转型为资本主义市场经济。",
+          "en": "Shock therapy was used to transition economic systems to a capitalist market economy."
+        }
+      }
+    },
+    {
+      "source": "休克疗法",
+      "target": "市场经济",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "休克疗法被用于将经济体制转型为资本主义市场经济。",
+          "en": "Shock therapy was used to transition economic systems to a capitalist market economy."
+        }
+      }
+    }
+  ]
+}

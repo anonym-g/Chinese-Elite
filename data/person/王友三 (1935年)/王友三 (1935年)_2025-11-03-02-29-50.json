@@ -1,0 +1,193 @@
+{
+  "nodes": [
+    {
+      "id": "王友三",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王友三"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1935-07 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "韩城",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任新疆维吾尔自治区人民政府副主席，新疆维吾尔自治区政协副主席。",
+          "en": "A political figure of the People's Republic of China, who served as Vice Chairman of the People's Government of Xinjiang Uygur Autonomous Region and Vice Chairman of the Political Consultative Conference of Xinjiang Uygur Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "韩城市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "韩城市",
+          "韩城"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国陕西省下辖的县级市，王友三的出生地。",
+          "en": "A county-level city in Shaanxi Province, People's Republic of China, and the birthplace of Wang Yousan."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，通常简称为中国。",
+          "en": "A country in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "新疆维吾尔自治区人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新疆维吾尔自治区人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国新疆维吾尔自治区的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of the Xinjiang Uygur Autonomous Region of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议新疆维吾尔自治区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议新疆维吾尔自治区委员会",
+          "新疆维吾尔自治区政协"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议在新疆维吾尔自治区的地方组织。",
+          "en": "The local organization of the Chinese People's Political Consultative Conference in the Xinjiang Uygur Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王友三",
+      "target": "韩城市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1935-07",
+        "end_date": "1935-07",
+        "description": {
+          "zh-cn": "王友三是陕西韩城人。",
+          "en": "Wang Yousan is from Hancheng, Shaanxi."
+        }
+      }
+    },
+    {
+      "source": "王友三",
+      "target": "新疆维吾尔自治区人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "王友三曾担任新疆维吾尔自治区人民政府副主席。",
+          "en": "Wang Yousan served as the Vice Chairman of the People's Government of Xinjiang Uygur Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "王友三",
+      "target": "中国人民政治协商会议新疆维吾尔自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "王友三曾担任新疆维吾尔自治区政协副主席。",
+          "en": "Wang Yousan served as the Vice Chairman of the Political Consultative Conference of Xinjiang Uygur Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "王友三",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "政治人物",
+          "en": "Political figure"
+        },
+        "description": {
+          "zh-cn": "王友三是中华人民共和国的一名政治人物。",
+          "en": "Wang Yousan is a political figure in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "王友三",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，王友三是中国共产党党员。",
+          "en": "According to Wikipedia categories, Wang Yousan is a member of the Chinese Communist Party."
+        }
+      }
+    }
+  ]
+}

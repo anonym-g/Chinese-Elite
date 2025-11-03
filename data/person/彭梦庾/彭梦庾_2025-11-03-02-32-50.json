@@ -1,0 +1,198 @@
+[
+  {
+    "nodes": [
+      {
+        "id": "彭梦庾",
+        "type": "Person",
+        "name": {
+          "zh-cn": [
+            "彭梦庾"
+          ],
+          "en": []
+        },
+        "properties": {
+          "gender": "Male",
+          "description": {
+            "zh-cn": "中华人民共和国政治人物。",
+            "en": "A political figure of the People's Republic of China."
+          }
+        }
+      },
+      {
+        "id": "中华人民共和国",
+        "type": "Organization",
+        "name": {
+          "zh-cn": [
+            "中华人民共和国"
+          ],
+          "en": [
+            "People's Republic of China"
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "id": "江西省人民委员会",
+        "type": "Organization",
+        "name": {
+          "zh-cn": [
+            "江西省人民委员会"
+          ],
+          "en": []
+        },
+        "properties": {}
+      },
+      {
+        "id": "内蒙古自治区革命委员会",
+        "type": "Organization",
+        "name": {
+          "zh-cn": [
+            "内蒙古自治区革命委员会"
+          ],
+          "en": []
+        },
+        "properties": {}
+      },
+      {
+        "id": "内蒙古自治区人民政府",
+        "type": "Organization",
+        "name": {
+          "zh-cn": [
+            "内蒙古自治区人民政府"
+          ],
+          "en": []
+        },
+        "properties": {}
+      },
+      {
+        "id": "中国共产党",
+        "type": "Organization",
+        "name": {
+          "zh-cn": [
+            "中国共产党"
+          ],
+          "en": [
+            "Communist Party of China"
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "id": "江西省革命委员会",
+        "type": "Organization",
+        "name": {
+          "zh-cn": [
+            "江西省革命委员会"
+          ],
+          "en": []
+        },
+        "properties": {}
+      },
+      {
+        "id": "全国人民代表大会",
+        "type": "Organization",
+        "name": {
+          "zh-cn": [
+            "全国人民代表大会"
+          ],
+          "en": [
+            "National People's Congress"
+          ]
+        },
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "彭梦庾",
+        "target": "江西省人民委员会",
+        "type": "MEMBER_OF",
+        "properties": {
+          "position": {
+            "zh-cn": "副省长",
+            "en": "Vice Governor"
+          },
+          "description": {
+            "zh-cn": "曾任江西省人民委员会副省长。",
+            "en": "Served as Vice Governor of the Jiangxi Provincial People's Committee."
+          }
+        }
+      },
+      {
+        "source": "彭梦庾",
+        "target": "内蒙古自治区革命委员会",
+        "type": "MEMBER_OF",
+        "properties": {
+          "position": {
+            "zh-cn": "副主任",
+            "en": "Vice Chairman"
+          },
+          "description": {
+            "zh-cn": "曾任内蒙古自治区革命委员会副主任。",
+            "en": "Served as Vice Chairman of the Inner Mongolia Autonomous Region Revolutionary Committee."
+          }
+        }
+      },
+      {
+        "source": "彭梦庾",
+        "target": "内蒙古自治区人民政府",
+        "type": "MEMBER_OF",
+        "properties": {
+          "position": {
+            "zh-cn": "副主席",
+            "en": "Vice Chairman"
+          },
+          "description": {
+            "zh-cn": "曾任内蒙古自治区人民政府副主席。",
+            "en": "Served as Vice Chairman of the Inner Mongolia Autonomous Region People's Government."
+          }
+        }
+      },
+      {
+        "source": "彭梦庾",
+        "target": "中国共产党",
+        "type": "MEMBER_OF",
+        "properties": {
+          "position": {
+            "zh-cn": "党员",
+            "en": "Member"
+          },
+          "description": {
+            "zh-cn": "根据维基百科分类，彭梦庾是中国共产党党员。",
+            "en": "According to Wikipedia categories, Peng Mengyu is a member of the Communist Party of China."
+          }
+        }
+      },
+      {
+        "source": "彭梦庾",
+        "target": "江西省革命委员会",
+        "type": "MEMBER_OF",
+        "properties": {
+          "position": {
+            "zh-cn": "副主任",
+            "en": "Vice Chairman"
+          },
+          "description": {
+            "zh-cn": "根据维基百科分类，彭梦庾曾任江西省革命委员会副主任。",
+            "en": "According to Wikipedia categories, Peng Mengyu served as Vice Chairman of the Jiangxi Provincial Revolutionary Committee."
+          }
+        }
+      },
+      {
+        "source": "彭梦庾",
+        "target": "全国人民代表大会",
+        "type": "MEMBER_OF",
+        "properties": {
+          "position": {
+            "zh-cn": "第五届代表",
+            "en": "Deputy to the 5th Congress"
+          },
+          "description": {
+            "zh-cn": "根据维基百科分类，彭梦庾为第五届全国人大代表。",
+            "en": "According to Wikipedia categories, Peng Mengyu was a deputy to the 5th National People's Congress."
+          }
+        }
+      }
+    ]
+  }
+]

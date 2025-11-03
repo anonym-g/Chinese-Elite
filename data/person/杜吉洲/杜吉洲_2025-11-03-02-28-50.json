@@ -1,0 +1,208 @@
+{
+  "nodes": [
+    {
+      "id": "杜吉洲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杜吉洲"
+        ],
+        "en": [
+          "Du Jizhou"
+        ]
+      },
+      "properties": {
+        "lifetime": "1963 - ",
+        "birth_place": {
+          "zh-cn": "大连市",
+          "en": "Dalian"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，毕业于北京石油化工科学研究院，曾任呼和浩特石化公司总经理，第十二届全国人民代表大会内蒙古地区代表。",
+          "en": "A political figure of the People's Republic of China, graduated from the Beijing Petrochemical Science Research Institute, served as the general manager of Hohhot Petrochemical Company, and was a delegate from the Inner Mongolia region to the 12th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "大连市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "大连市",
+          "辽宁大连市"
+        ],
+        "en": [
+          "Dalian"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国辽宁省的一座城市，杜吉洲的家乡。",
+          "en": "A city in Liaoning Province, China, the hometown of Du Jizhou."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚的一个社会主义国家，通称中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "第十二届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国人民代表大会"
+        ],
+        "en": [
+          "12th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2013-03 - 2018-03",
+        "description": {
+          "zh-cn": "中华人民共和国的第十二届国家最高权力机关。",
+          "en": "The 12th session of the highest state organ of power in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "北京石油化工科学研究院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京石油化工科学研究院"
+        ],
+        "en": [
+          "Beijing Research Institute of Petrochemical Technology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "杜吉洲的毕业院校。",
+          "en": "The alma mater of Du Jizhou."
+        }
+      }
+    },
+    {
+      "id": "呼和浩特石化公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "呼和浩特石化公司"
+        ],
+        "en": [
+          "Hohhot Petrochemical Company"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "杜吉洲曾担任总经理的公司。",
+          "en": "The company where Du Jizhou served as general manager."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杜吉洲",
+      "target": "大连市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "杜吉洲是辽宁大连市人。",
+          "en": "Du Jizhou is from Dalian, Liaoning."
+        }
+      }
+    },
+    {
+      "source": "杜吉洲",
+      "target": "北京石油化工科学研究院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "应用化学专业",
+          "en": "Applied Chemistry"
+        },
+        "description": {
+          "zh-cn": "毕业于北京石油化工科学研究院应用化学专业。",
+          "en": "Graduated from Beijing Research Institute of Petrochemical Technology with a major in Applied Chemistry."
+        }
+      }
+    },
+    {
+      "source": "杜吉洲",
+      "target": "呼和浩特石化公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总经理",
+          "en": "General Manager"
+        },
+        "description": {
+          "zh-cn": "杜吉洲曾任呼和浩特石化公司总经理。",
+          "en": "Du Jizhou served as the General Manager of Hohhot Petrochemical Company."
+        }
+      }
+    },
+    {
+      "source": "杜吉洲",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杜吉洲是中国共产党的党员。",
+          "en": "Du Jizhou is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "杜吉洲",
+      "target": "第十二届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013",
+        "end_date": "2018",
+        "position": {
+          "zh-cn": "内蒙古地区代表",
+          "en": "Delegate from Inner Mongolia region"
+        },
+        "description": {
+          "zh-cn": "2013年，杜吉洲被选为第十二届全国人民代表大会内蒙古地区代表。",
+          "en": "In 2013, Du Jizhou was elected as a delegate from the Inner Mongolia region to the 12th National People's Congress."
+        }
+      }
+    }
+  ]
+}

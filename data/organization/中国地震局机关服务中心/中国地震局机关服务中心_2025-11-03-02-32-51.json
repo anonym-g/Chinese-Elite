@@ -1,0 +1,313 @@
+{
+  "nodes": [
+    {
+      "id": "中国地震局机关服务中心",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国地震局机关服务中心",
+          "中国地震局机关服务局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1999 - ",
+        "location": {
+          "zh-cn": "北京市海淀区复兴路63号",
+          "en": "63 Fuxing Road, Haidian District, Beijing"
+        },
+        "description": {
+          "zh-cn": "中国地震局的直属事业单位，负责承担局机关应急工作场所管理、财务监督及交通、通信、安全保卫、饮食和住宿等机关事务和后勤保障任务。",
+          "en": "A directly affiliated public institution of the China Earthquake Administration, responsible for administrative affairs and logistical support for the agency's headquarters, including emergency workplace management, financial supervision, transportation, communication, security, catering, and accommodation."
+        }
+      }
+    },
+    {
+      "id": "张敏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张敏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国地震局机关服务中心主任。",
+          "en": "Director of the Service Center of the China Earthquake Administration."
+        }
+      }
+    },
+    {
+      "id": "中国地震局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国地震局"
+        ],
+        "en": [
+          "China Earthquake Administration"
+        ]
+      },
+      "properties": {
+        "period": "1999 - ",
+        "description": {
+          "zh-cn": "原名国家地震局，是中华人民共和国国务院直属事业单位，主管全国防震减灾工作。",
+          "en": "Formerly known as the State Seismological Bureau, it is a public institution directly under the State Council of the People's Republic of China, in charge of nationwide earthquake prevention and disaster reduction."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院",
+          "国务院"
+        ],
+        "en": [
+          "State Council of the People's Republic of China",
+          "State Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的最高国家行政机关。",
+          "en": "The chief administrative authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国科学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院"
+        ],
+        "en": [
+          "Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国家科学技术方面最高学术机构和全国自然科学与高新技术综合研究发展中心。",
+          "en": "The national academy for natural sciences of the People's Republic of China and a comprehensive research and development center for natural sciences and high technology."
+        }
+      }
+    },
+    {
+      "id": "国家地震局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家地震局"
+        ],
+        "en": [
+          "State Seismological Bureau"
+        ]
+      },
+      "properties": {
+        "period": "1971-08-02 - 1999",
+        "description": {
+          "zh-cn": "中国地震局的前身，于1971年至1999年间作为国务院直属事业单位领导全国地震工作。",
+          "en": "The predecessor of the China Earthquake Administration, which led national earthquake work as a public institution directly under the State Council from 1971 to 1999."
+        }
+      }
+    },
+    {
+      "id": "国务院办公厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院办公厅"
+        ],
+        "en": [
+          "General Office of the State Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院的办事机构。",
+          "en": "An administrative agency of the State Council of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国政法大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国政法大学"
+        ],
+        "en": [
+          "China University of Political Science and Law"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京市",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "位于中国北京市的一所著名高等院校。",
+          "en": "A renowned institution of higher learning located in Beijing, China."
+        }
+      }
+    },
+    {
+      "id": "何兵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何兵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政法大学法学院副院长，曾对中国地震局的经费使用提出批评。",
+          "en": "Vice Dean of the Law School at China University of Political Science and Law, who has criticized the budget allocation of the China Earthquake Administration."
+        }
+      }
+    },
+    {
+      "id": "朱列玉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱列玉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全国人大代表，曾建议裁撤中国地震局。",
+          "en": "A deputy to the National People's Congress who once suggested abolishing the China Earthquake Administration."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国地震局机关服务中心",
+      "target": "中国地震局",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1999",
+        "position": {
+          "zh-cn": "直属事业单位",
+          "en": "Directly affiliated public institution"
+        },
+        "description": {
+          "zh-cn": "中国地震局机关服务中心是中国地震局的直属事业单位。",
+          "en": "The Service Center of the China Earthquake Administration is a directly affiliated public institution of the China Earthquake Administration."
+        }
+      }
+    },
+    {
+      "source": "张敏",
+      "target": "中国地震局机关服务中心",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "张敏担任中国地震局机关服务中心主任。",
+          "en": "Zhang Min serves as the Director of the Service Center of the China Earthquake Administration."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国国务院",
+      "target": "国家地震局",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1971-08-02",
+        "description": {
+          "zh-cn": "1971年8月2日，中华人民共和国国务院经审议决定，调整中国科学院机构设置，新设立国家地震局。",
+          "en": "On August 2, 1971, the State Council of the People's Republic of China decided to adjust the organizational structure of the Chinese Academy of Sciences and establish the new State Seismological Bureau."
+        }
+      }
+    },
+    {
+      "source": "国家地震局",
+      "target": "中华人民共和国国务院",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1971-08-02",
+        "end_date": "1999",
+        "position": {
+          "zh-cn": "国务院直属事业单位",
+          "en": "Public institution directly under the State Council"
+        },
+        "description": {
+          "zh-cn": "国家地震局作为副部级国务院直属事业单位，领导全国地震工作。",
+          "en": "As a vice-ministerial level public institution directly under the State Council, the State Seismological Bureau led national earthquake-related work."
+        }
+      }
+    },
+    {
+      "source": "国家地震局",
+      "target": "中国地震局",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1999",
+        "description": {
+          "zh-cn": "1999年，国家地震局被改组为中国地震局。",
+          "en": "In 1999, the State Seismological Bureau was reorganized into the China Earthquake Administration."
+        }
+      }
+    },
+    {
+      "source": "国务院办公厅",
+      "target": "中国地震局",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1999",
+        "description": {
+          "zh-cn": "1999年，国务院办公厅在其印发的三定方案中，决定将国家地震局改组为中国地震局。",
+          "en": "In 1999, the General Office of the State Council, in its issued 'Three-Determinations' plan, decided to reorganize the State Seismological Bureau into the China Earthquake Administration."
+        }
+      }
+    },
+    {
+      "source": "何兵",
+      "target": "中国地震局",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "批评指中国地震局表面上虽是事业单位，但实际上已行政化，导致大量资源被用于行政而不是地震监测预报事务。",
+          "en": "Criticized that the China Earthquake Administration, although nominally a public institution, had become bureaucratized, leading to a large amount of resources being used for administration rather than for earthquake monitoring and forecasting."
+        }
+      }
+    },
+    {
+      "source": "何兵",
+      "target": "中国政法大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "法学院副院长",
+          "en": "Vice Dean of the Law School"
+        },
+        "description": {
+          "zh-cn": "何兵是中国政法大学法学院副院长。",
+          "en": "He Bing is the Vice Dean of the Law School at China University of Political Science and Law."
+        }
+      }
+    },
+    {
+      "source": "朱列玉",
+      "target": "中国地震局",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为全国人大代表，朱列玉认为中国地震局缺乏存在的必要性，应当裁撤，并建议参考日本气象厅和美国地质调查局的机构设置。",
+          "en": "As a deputy to the National People's Congress, Zhu Lieyu argued that the China Earthquake Administration lacked the necessity for its existence and should be abolished, suggesting referencing the organizational structures of the Japan Meteorological Agency and the United States Geological Survey."
+        }
+      }
+    }
+  ]
+}

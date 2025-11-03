@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "鲁肃",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鲁肃",
+          "子敬"
+        ],
+        "en": [
+          "Lu Su"
+        ]
+      },
+      "properties": {
+        "lifetime": "172 - 217",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "临淮郡东城县",
+          "en": "Dongcheng County, Linhuai Commandery"
+        },
+        "description": {
+          "zh-cn": "东汉末年孙吴势力的将领、战略家及外交家，为孙权策划了“榻上策”，并接替周瑜掌管军队，积极主张并维护孙刘联盟以共同对抗曹操。",
+          "en": "A general, strategist, and diplomat serving under Sun Quan in the late Eastern Han dynasty. He devised the 'Tashang Ce' strategy for Sun Quan, succeeded Zhou Yu as a military commander, and was a key advocate for the Sun-Liu alliance against Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "孙权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙权"
+        ],
+        "en": [
+          "Sun Quan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀，三国时期东吴的建立者。",
+          "en": "A warlord in the late Eastern Han dynasty and the founding emperor of the state of Eastern Wu during the Three Kingdoms period."
+        }
+      }
+    },
+    {
+      "id": "周瑜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周瑜"
+        ],
+        "en": [
+          "Zhou Yu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年孙吴势力的重要将领，赤壁之战的主要指挥官之一。",
+          "en": "A key general serving the warlord Sun Ce and his successor Sun Quan in the late Eastern Han dynasty, and one of the main commanders at the Battle of Red Cliffs."
+        }
+      }
+    },
+    {
+      "id": "吕蒙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕蒙"
+        ],
+        "en": [
+          "Lü Meng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年孙吴势力的将领，接替鲁肃的职务。",
+          "en": "A general serving under Sun Quan in the late Eastern Han dynasty who succeeded Lu Su."
+        }
+      }
+    },
+    {
+      "id": "孙策",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙策"
+        ],
+        "en": [
+          "Sun Ce"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀，孙权之兄，为孙吴政权的建立奠定了基础。",
+          "en": "A warlord in the late Eastern Han dynasty and the elder brother of Sun Quan, who laid the foundation for the state of Eastern Wu."
+        }
+      }
+    },
+    {
+      "id": "袁术",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁术"
+        ],
+        "en": [
+          "Yuan Shu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀，鲁肃与周瑜曾短暂为其效力。",
+          "en": "A warlord in the late Eastern Han dynasty, whom Lu Su and Zhou Yu briefly served."
+        }
+      }
+    },
+    {
+      "id": "刘备",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘备"
+        ],
+        "en": [
+          "Liu Bei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀，三国时期蜀汉的建立者。",
+          "en": "A warlord in the late Eastern Han dynasty and the founding emperor of the state of Shu Han during the Three Kingdoms period."
+        }
+      }
+    },
+    {
+      "id": "诸葛亮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诸葛亮"
+        ],
+        "en": [
+          "Zhuge Liang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉丞相，杰出的政治家、军事家。",
+          "en": "The chancellor of the state of Shu Han during the Three Kingdoms period, and a brilliant statesman and military strategist."
+        }
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操"
+        ],
+        "en": [
+          "Cao Cao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年权臣，曹魏政权的奠基者，孙刘联盟的主要对抗目标。",
+          "en": "A powerful minister of the late Eastern Han dynasty and the founder of the state of Cao Wei, who was the primary adversary of the Sun-Liu alliance."
+        }
+      }
+    },
+    {
+      "id": "关羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "关羽"
+        ],
+        "en": [
+          "Guan Yu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉将领，刘备的主要部将之一，曾与鲁肃就荆州问题进行谈判。",
+          "en": "A general of Shu Han during the Three Kingdoms period, one of Liu Bei's key commanders, who negotiated with Lu Su over the Jing Province issue."
+        }
+      }
+    },
+    {
+      "id": "张昭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张昭"
+        ],
+        "en": [
+          "Zhang Zhao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东吴重臣，曾因鲁肃不够谦逊而加以非议，不建议孙权启用。",
+          "en": "A key minister of Eastern Wu who criticized Lu Su for not being humble enough and advised Sun Quan against appointing him."
+        }
+      }
+    },
+    {
+      "id": "刘表",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘表"
+        ],
+        "en": [
+          "Liu Biao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年荆州牧，其去世引发了曹操南下及赤壁之战。",
+          "en": "The governor of Jing Province in the late Eastern Han dynasty, whose death triggered Cao Cao's southern campaign and the Battle of Red Cliffs."
+        }
+      }
+    },
+    {
+      "id": "榻上策",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "榻上策"
+        ],
+        "en": [
+          "Tashang Ce"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "鲁肃向孙权提出的战略蓝图，核心思想是鼎足江东，观察天下形势变化，最终建立帝业、夺取天下。",
+          "en": "A strategic blueprint presented by Lu Su to Sun Quan, with the core idea of establishing a tripartite balance by securing Jiangdong, observing the changing political landscape, and ultimately founding an imperial dynasty to conquer the realm."
+        }
+      }
+    },
+    {
+      "id": "赤壁之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "赤壁之战"
+        ],
+        "en": [
+          "Battle of Red Cliffs"
+        ]
+      },
+      "properties": {
+        "period": "208 - 208",
+        "description": {
+          "zh-cn": "发生于公元208年，孙权与刘备联军在长江赤壁一带大败曹操军队的决定性战役。",
+          "en": "A decisive battle in 208 AD where the allied forces of Sun Quan and Liu Bei decisively defeated Cao Cao's army near the Red Cliffs on the Yangtze River."
+        }
+      }
+    },
+    {
+      "id": "单刀赴会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "单刀赴会"
+        ],
+        "en": [
+          "Meeting with a single broadsword"
+        ]
+      },
+      "properties": {
+        "period": "215 - 215",
+        "description": {
+          "zh-cn": "指公元215年鲁肃为解决荆州归属问题与关羽进行的一次重要谈判。",
+          "en": "Refers to a significant negotiation in 215 AD between Lu Su and Guan Yu to resolve the dispute over the ownership of Jing Province."
+        }
+      }
+    },
+    {
+      "id": "湘水之盟",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "湘水之盟"
+        ],
+        "en": [
+          "Xiang River Agreement"
+        ]
+      },
+      "properties": {
+        "period": "215 - 215",
+        "description": {
+          "zh-cn": "孙权与刘备于公元215年达成的协议，以湘水为界重新划分了双方在荆州的势力范围，暂时平息了争端。",
+          "en": "An agreement reached in 215 AD between Sun Quan and Liu Bei that re-divided their spheres of influence in Jing Province with the Xiang River as the border, temporarily settling their dispute."
+        }
+      }
+    },
+    {
+      "id": "刘琮 (刘表之子)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘琮 (刘表之子)",
+          "刘琮"
+        ],
+        "en": [
+          "Liu Cong (son of Liu Biao)",
+          "Liu Cong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘表次子，在刘表去世后继承职位，并向南下的曹操投降。",
+          "en": "The younger son of Liu Biao, who succeeded his father and later surrendered to Cao Cao during his southern campaign."
+        }
+      }
+    },
+    {
+      "id": "鲁淑",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鲁淑"
+        ],
+        "en": [
+          "Lu Shu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "鲁肃之子。",
+          "en": "Son of Lu Su."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "鲁肃",
+      "target": "袁术",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "东城长",
+          "en": "Chief of Dongcheng"
+        },
+        "description": {
+          "zh-cn": "袁术听闻鲁肃的名声，任命他为东城长，但鲁肃认为袁术难成大事，不久后便离开。",
+          "en": "Yuan Shu appointed Lu Su as the Chief of Dongcheng after hearing of his reputation, but Lu Su soon left, believing Yuan Shu could not achieve greatness."
+        }
+      }
+    },
+    {
+      "source": "鲁肃",
+      "target": "孙权",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "200",
+        "end_date": "217",
+        "position": {
+          "zh-cn": "赞军校尉、汉昌太守、偏将军、横江将军",
+          "en": "Colonel of Military Aid, Grand Administrator of Hanchang, General of the Standard, General Who Crosses the River"
+        },
+        "description": {
+          "zh-cn": "在周瑜推荐下，鲁肃开始为孙权效力，成为其重要的战略顾问和军事将领，直至去世。",
+          "en": "Recommended by Zhou Yu, Lu Su began serving Sun Quan, becoming his key strategic advisor and military general until his death."
+        }
+      }
+    },
+    {
+      "source": "鲁肃",
+      "target": "周瑜",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "周瑜因缺少军粮而拜访鲁肃，鲁肃将家中一半的粮食赠予周瑜，二人因此结下深厚友谊，史称“指囷相赠”。",
+          "en": "When Zhou Yu was short on supplies, he visited Lu Su, who gave him half of his family's grain. They formed a deep friendship from this event, known as 'pointing to the granary and giving'."
+        }
+      }
+    },
+    {
+      "source": "周瑜",
+      "target": "鲁肃",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "周瑜向孙策和孙权多次引荐鲁肃，认为其才堪当大任，是成就功业不可或缺的人才。",
+          "en": "Zhou Yu repeatedly recommended Lu Su to Sun Ce and Sun Quan, believing his talents were crucial for their great cause and that he was an indispensable figure."
+        }
+      }
+    },
+    {
+      "source": "鲁肃",
+      "target": "周瑜",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "210",
+        "description": {
+          "zh-cn": "周瑜病逝后，鲁肃根据其遗言推荐，接替了他的兵权和职务。",
+          "en": "After Zhou Yu's death from illness, Lu Su took over his military command and duties as per Zhou Yu's dying recommendation."
+        }
+      }
+    },
+    {
+      "source": "吕蒙",
+      "target": "鲁肃",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "217",
+        "description": {
+          "zh-cn": "鲁肃去世后，吕蒙接替了他的职务。",
+          "en": "After Lu Su's death, Lü Meng succeeded him in his position."
+        }
+      }
+    },
+    {
+      "source": "鲁肃",
+      "target": "榻上策",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "200",
+        "description": {
+          "zh-cn": "鲁肃在与孙权首次密谈时，便提出了“榻上策”这一长远战略构想。",
+          "en": "During his first private meeting with Sun Quan, Lu Su proposed the long-term strategic vision known as 'Tashang Ce'."
+        }
+      }
+    },
+    {
+      "source": "榻上策",
+      "target": "孙权",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "200",
+        "description": {
+          "zh-cn": "榻上策为孙权规划了鼎足江东、称帝图取天下的战略蓝图，对其后续决策产生了深远影响。",
+          "en": "The 'Tashang Ce' provided Sun Quan with a strategic blueprint to secure Jiangdong and eventually vie for the empire, profoundly influencing his subsequent decisions."
+        }
+      }
+    },
+    {
+      "source": "张昭",
+      "target": "鲁肃",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "张昭曾向孙权非议鲁肃，认为他年少粗疏，不可任用，但孙权并未采纳其意见。",
+          "en": "Zhang Zhao spoke ill of Lu Su to Sun Quan, claiming he was young and crude and should not be appointed. However, Sun Quan did not accept this advice."
+        }
+      }
+    },
+    {
+      "source": "孙权",
+      "target": "曹操",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "孙权与曹操是三国时期的主要竞争对手，双方在赤壁、合肥、濡须等地多次交战。",
+          "en": "Sun Quan and Cao Cao were major rivals during the Three Kingdoms period, engaging in numerous battles at locations like Red Cliffs, Hefei, and Ruxu."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "曹操",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘备与曹操有私怨，并且是其政治和军事上的主要对手之一。",
+          "en": "Liu Bei held a personal grudge against Cao Cao and was one of his main political and military adversaries."
+        }
+      }
+    },
+    {
+      "source": "孙权",
+      "target": "刘备",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "208",
+        "end_date": "215",
+        "description": {
+          "zh-cn": "为共同对抗曹操，孙权和刘备结成联盟，并在赤壁之战中联手获胜。后因荆州问题失和。",
+          "en": "To jointly resist Cao Cao, Sun Quan and Liu Bei formed an alliance and achieved victory together at the Battle of Red Cliffs. Their relationship later soured due to the Jing Province dispute."
+        }
+      }
+    },
+    {
+      "source": "孙权",
+      "target": "刘备",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "215",
+        "description": {
+          "zh-cn": "刘备取得益州后，孙权索要荆州部分郡县未果，双方关系破裂，爆发军事对峙。",
+          "en": "After Liu Bei conquered Yi Province, Sun Quan's demand for the return of several commanderies in Jing Province was rejected, leading to a breakdown in relations and military confrontation."
+        }
+      }
+    },
+    {
+      "source": "鲁肃",
+      "target": "诸葛亮",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "鲁肃在与刘备会面时结识了诸葛亮，二人因共同促成孙刘联盟的目标而结为好友。",
+          "en": "Lu Su met Zhuge Liang during his meeting with Liu Bei, and the two became good friends due to their shared goal of forging the Sun-Liu alliance."
+        }
+      }
+    },
+    {
+      "source": "赤壁之战",
+      "target": "曹操",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "208",
+        "description": {
+          "zh-cn": "孙刘联军在赤壁之战中大破曹军，阻止了曹操统一南方的企图，奠定了三国鼎立的基础。",
+          "en": "The allied forces of Sun and Liu decisively defeated Cao Cao's army at the Battle of Red Cliffs, thwarting his attempt to unify southern China and laying the foundation for the tripartite division of the Three Kingdoms."
+        }
+      }
+    },
+    {
+      "source": "孙权",
+      "target": "刘备",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在鲁肃的劝说下，孙权将南郡等地借给刘备，为刘备提供了发展的基地。",
+          "en": "Persuaded by Lu Su, Sun Quan lent Nan Commandery and other territories to Liu Bei, providing him with a base for development."
+        }
+      }
+    },
+    {
+      "source": "鲁肃",
+      "target": "关羽",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "215",
+        "description": {
+          "zh-cn": "为解决荆州归属争端，鲁肃邀请关羽进行“单刀赴会”谈判。",
+          "en": "To resolve the dispute over the ownership of Jing Province, Lu Su invited Guan Yu to a negotiation known as the 'Meeting with a single broadsword'."
+        }
+      }
+    },
+    {
+      "source": "刘琮 (刘表之子)",
+      "target": "曹操",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "208",
+        "description": {
+          "zh-cn": "在曹操大军南下荆州时，刘琮选择投降，将荆州让与曹操。",
+          "en": "When Cao Cao's army marched south to Jing Province, Liu Cong chose to surrender, ceding the province to Cao Cao."
+        }
+      }
+    },
+    {
+      "source": "鲁淑",
+      "target": "鲁肃",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "鲁淑是鲁肃的儿子。",
+          "en": "Lu Shu was the son of Lu Su."
+        }
+      }
+    },
+    {
+      "source": "单刀赴会",
+      "target": "湘水之盟",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "215",
+        "description": {
+          "zh-cn": "鲁肃与关羽的紧张谈判，加上曹操即将进攻汉中的外部压力，共同促成了孙刘双方达成“湘水之盟”，暂时解决了荆州争端。",
+          "en": "The tense negotiations between Lu Su and Guan Yu, combined with the external pressure of Cao Cao's impending attack on Hanzhong, pushed both Sun and Liu to reach the 'Xiang River Agreement', temporarily resolving the Jing Province dispute."
+        }
+      }
+    }
+  ]
+}

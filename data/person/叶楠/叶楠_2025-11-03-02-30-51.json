@@ -1,0 +1,184 @@
+{
+  "nodes": [
+    {
+      "id": "叶楠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶楠",
+          "陈佐华",
+          "峦枬"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1930-11-20 - 2003-04-05",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "信阳",
+          "en": "Xinyang"
+        },
+        "description": {
+          "zh-cn": "中国剧作家，曾获中国电影金鸡奖最佳编剧。",
+          "en": "Chinese playwright, winner of the Golden Rooster Award for Best Screenplay."
+        }
+      }
+    },
+    {
+      "id": "白桦 (作家)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白桦 (作家)",
+          "白桦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "叶楠的孪生兄弟。",
+          "en": "Ye Nan's twin brother."
+        }
+      }
+    },
+    {
+      "id": "信阳",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "信阳"
+        ],
+        "en": [
+          "Xinyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "叶楠的出生地，位于河南省。",
+          "en": "Ye Nan's birthplace, located in Henan Province."
+        }
+      }
+    },
+    {
+      "id": "河南",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河南"
+        ],
+        "en": [
+          "Henan"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国电影家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国电影家协会"
+        ],
+        "en": [
+          "China Film Association"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": [
+          "China Writers Association"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "叶楠",
+      "target": "白桦 (作家)",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "叶楠与白桦是孪生兄弟。",
+          "en": "Ye Nan and Bai Hua are twin brothers."
+        }
+      }
+    },
+    {
+      "source": "叶楠",
+      "target": "信阳",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "叶楠出生于河南信阳。",
+          "en": "Ye Nan was born in Xinyang, Henan."
+        }
+      }
+    },
+    {
+      "source": "叶楠",
+      "target": "中国电影家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "理事",
+          "en": "Council Member"
+        },
+        "description": {
+          "zh-cn": "叶楠曾任中国电影家协会理事，包括第四届及第五届理事会。",
+          "en": "Ye Nan served as a council member of the China Film Association, including for the 4th and 5th councils."
+        }
+      }
+    },
+    {
+      "source": "叶楠",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "名誉委员",
+          "en": "Honorary Committee Member"
+        },
+        "description": {
+          "zh-cn": "叶楠是中国作家协会会员，曾任第四届理事会理事和第六届全国委员会名誉委员。",
+          "en": "Ye Nan was a member of the China Writers Association, serving as a council member of the 4th Council and an honorary committee member of the 6th National Committee."
+        }
+      }
+    },
+    {
+      "source": "叶楠",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，叶楠是中国共产党党员。",
+          "en": "According to the page's category information, Ye Nan was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

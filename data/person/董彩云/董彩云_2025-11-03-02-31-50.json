@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "id": "董彩云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "董彩云"
+        ],
+        "en": [
+          "Dong Caiyun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1970-05 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "积石山保安族东乡族撒拉族自治县",
+          "en": "Jishishan Bonan, Dongxiang and Salar Autonomous County"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，保安族，中国共产党党员。曾任第十三届全国人民代表大会甘肃省代表。",
+          "en": "A politician of the People's Republic of China, of Bonan ethnicity, and a member of the Communist Party of China. She served as a delegate from Gansu Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "积石山保安族东乡族撒拉族自治县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "积石山保安族东乡族撒拉族自治县",
+          "积石山"
+        ],
+        "en": [
+          "Jishishan Bonan, Dongxiang and Salar Autonomous County",
+          "Jishishan"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "甘肃省",
+          "en": "Gansu Province"
+        },
+        "description": {
+          "zh-cn": "位于中国甘肃省的一个自治县，是董彩云的家乡。",
+          "en": "An autonomous county in Gansu Province, China, and the hometown of Dong Caiyun."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018 - 2023",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届国家最高权力机关。",
+          "en": "The 13th term of the highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，是中国共产党的执政地。",
+          "en": "A socialist state in East Asia, governed by the Communist Party of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "董彩云",
+      "target": "积石山保安族东乡族撒拉族自治县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "董彩云是甘肃积石山人。",
+          "en": "Dong Caiyun is from Jishishan, Gansu."
+        }
+      }
+    },
+    {
+      "source": "董彩云",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "董彩云是中国共产党党员。",
+          "en": "Dong Caiyun is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "董彩云",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "甘肃省代表",
+          "en": "Delegate from Gansu Province"
+        },
+        "description": {
+          "zh-cn": "2018年，董彩云被选为甘肃省出席第十三届全国人民代表大会代表。",
+          "en": "In 2018, Dong Caiyun was elected as a delegate representing Gansu Province to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

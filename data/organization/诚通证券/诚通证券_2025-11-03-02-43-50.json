@@ -1,0 +1,344 @@
+{
+  "nodes": [
+    {
+      "id": "诚通证券股份有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "诚通证券股份有限公司",
+          "新时代证券股份有限公司",
+          "新时代证券",
+          "新时代证券有限责任公司"
+        ],
+        "en": [
+          "Chengtong Securities Co.,Ltd."
+        ]
+      },
+      "properties": {
+        "period": "2003-06 - ",
+        "location": {
+          "zh-cn": "北京市"
+        },
+        "description": {
+          "zh-cn": "一家注册于北京市的全国性综合类证券公司。"
+        }
+      }
+    },
+    {
+      "id": "北京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京市",
+          "北京"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "上海远东证券有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海远东证券有限公司"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "罗向阳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗向阳"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "罗杨颖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗杨颖"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "中国证券监督管理委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国证券监督管理委员会",
+          "证监会",
+          "中国证监会"
+        ],
+        "en": [
+          "China Securities Regulatory Commission"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院直属的证券监督管理机构。"
+        }
+      }
+    },
+    {
+      "id": "全国中小企业股份转让系统",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国中小企业股份转让系统"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "经中国国务院批准设立的中国第一家公司制证券交易场所。"
+        }
+      }
+    },
+    {
+      "id": "登云股份",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "登云股份"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "泰达控股",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "泰达控股"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "明天系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明天系"
+        ],
+        "en": [
+          "Tomorrow Group"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "上海",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "上海"
+        ],
+        "en": [
+          "Shanghai"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "深圳",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "深圳"
+        ],
+        "en": [
+          "Shenzhen"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "诚通证券股份有限公司",
+      "target": "上海远东证券有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2009-02",
+        "description": {
+          "zh-cn": "作为新时代证券，完成了对上海远东证券有限公司的并购交易，后者被吸收合并。"
+        }
+      }
+    },
+    {
+      "source": "罗向阳",
+      "target": "诚通证券股份有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2016-07-12",
+        "position": {
+          "zh-cn": "总经理助理"
+        },
+        "description": {
+          "zh-cn": "在2013年11月至2015年2月期间，担任新时代证券公司总经理助理。"
+        }
+      }
+    },
+    {
+      "source": "罗杨颖",
+      "target": "诚通证券股份有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2016-07-12",
+        "position": {
+          "zh-cn": "许昌智慧大道营业部营销总监"
+        },
+        "description": {
+          "zh-cn": "在2013年11月至2015年2月期间，担任新时代证券许昌智慧大道营业部任营销总监。"
+        }
+      }
+    },
+    {
+      "source": "罗杨颖",
+      "target": "罗向阳",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "罗杨颖是罗向阳的胞弟。"
+        }
+      }
+    },
+    {
+      "source": "中国证券监督管理委员会",
+      "target": "罗向阳",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2016-07-12",
+        "description": {
+          "zh-cn": "因内幕交易，证监会决定没收罗向阳违法所得，处以罚款，并给予终身禁止进入证券市场处罚。"
+        }
+      }
+    },
+    {
+      "source": "中国证券监督管理委员会",
+      "target": "罗杨颖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2016-07-12",
+        "description": {
+          "zh-cn": "因内幕交易，证监会决定没收罗杨颖违法所得，处以罚款，并给予终身禁止进入证券市场处罚。"
+        }
+      }
+    },
+    {
+      "source": "全国中小企业股份转让系统",
+      "target": "诚通证券股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2016-11",
+        "description": {
+          "zh-cn": "因新三板做市交易违规，被全国中小企业股份转让系统采取出具警示函的自律监管措施。"
+        }
+      }
+    },
+    {
+      "source": "中国证券监督管理委员会",
+      "target": "诚通证券股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2016-12",
+        "description": {
+          "zh-cn": "因投行类业务问题，被证监会责令限期改正并出具警示函。"
+        }
+      }
+    },
+    {
+      "source": "诚通证券股份有限公司",
+      "target": "登云股份",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "2017-05",
+        "description": {
+          "zh-cn": "在为登云股份首次公开发行股票并上市提供服务过程中未勤勉尽责，出具含有虚假记载的文件。"
+        }
+      }
+    },
+    {
+      "source": "中国证券监督管理委员会",
+      "target": "诚通证券股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2017-05",
+        "description": {
+          "zh-cn": "因在为登云股份提供上市服务过程中未勤勉尽责，被证监会责令改正、给予警告、没收业务收入并罚款。"
+        }
+      }
+    },
+    {
+      "source": "诚通证券股份有限公司",
+      "target": "泰达控股",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "2017-11",
+        "description": {
+          "zh-cn": "作为“17 泰达债”牵头主承销商，其募集说明书未披露对其他公司的重大担保事项，未履行勤勉义务。"
+        }
+      }
+    },
+    {
+      "source": "中国证券监督管理委员会",
+      "target": "诚通证券股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2017-11",
+        "description": {
+          "zh-cn": "因未认真履行债券主承销商勤勉义务，遭到中国证监会天津监管局出具警示函监管。"
+        }
+      }
+    },
+    {
+      "source": "中国证券监督管理委员会",
+      "target": "诚通证券股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2017",
+        "description": {
+          "zh-cn": "在证监会公布的2017年证券公司分类结果中，被降级为CC级。"
+        }
+      }
+    },
+    {
+      "source": "诚通证券股份有限公司",
+      "target": "明天系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2020-07",
+        "description": {
+          "zh-cn": "曾是明天系成员企业之一，直至2020年7月被中国证监会接管。"
+        }
+      }
+    },
+    {
+      "source": "中国证券监督管理委员会",
+      "target": "诚通证券股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-07",
+        "description": {
+          "zh-cn": "因隐瞒实际控制人或持股比例、公司治理失衡，被中国证监会接管。"
+        }
+      }
+    }
+  ]
+}
