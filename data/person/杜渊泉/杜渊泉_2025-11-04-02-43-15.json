@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "杜渊泉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杜渊泉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1956-05 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "桦甸",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，汉族，曾任国有重点大型企业监事会主席。",
+          "en": "A political figure in the People's Republic of China, of Han ethnicity. He formerly served as the Chairman of the Supervisory Board for Key Large State-owned Enterprises."
+        }
+      }
+    },
+    {
+      "id": "桦甸",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "桦甸"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国吉林省下辖的县级市。",
+          "en": "A county-level city under the jurisdiction of Jilin Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "国有重点大型企业监事会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国有重点大型企业监事会"
+        ],
+        "en": [
+          "Supervisory Board for Key Large State-owned Enterprises"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院派出的国有企业监事机构。",
+          "en": "A supervisory body for state-owned enterprises dispatched by the State Council of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杜渊泉",
+      "target": "桦甸",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1956-05",
+        "description": {
+          "zh-cn": "杜渊泉是吉林桦甸人。",
+          "en": "Du Yuanquan is from Huadian, Jilin."
+        }
+      }
+    },
+    {
+      "source": "杜渊泉",
+      "target": "国有重点大型企业监事会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "杜渊泉曾任国有重点大型企业监事会主席。",
+          "en": "Du Yuanquan formerly served as the Chairman of the Supervisory Board for Key Large State-owned Enterprises."
+        }
+      }
+    },
+    {
+      "source": "杜渊泉",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，杜渊泉是中国共产党党员。",
+          "en": "According to Wikipedia categories, Du Yuanquan is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

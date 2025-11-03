@@ -1,0 +1,215 @@
+{
+  "nodes": [
+    {
+      "id": "黄连珍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄连珍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1968-08 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "临安县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，汉族，中国共产党党员。曾任空军95851部队研究员，第十三届全国人民代表大会解放军和武警部队代表。",
+          "en": "A Chinese politician of Han ethnicity and a member of the Communist Party of China. She served as a researcher for PLA Air Force Unit 95851 and was a deputy of the People's Liberation Army and People's Armed Police Force delegation to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "临安县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "临安县",
+          "临安"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "浙江省",
+          "en": "Zhejiang Province"
+        },
+        "description": {
+          "zh-cn": "浙江省历史上的一个县，现为杭州市临安区。",
+          "en": "A former county in Zhejiang Province, now Lin'an District of Hangzhou."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018 - 2023"
+      }
+    },
+    {
+      "id": "解放军和武警部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "解放军和武警部队"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国全国人民代表大会的代表团之一，由中国人民解放军和中国人民武装警察部队的代表组成。",
+          "en": "One of the delegations to the National People's Congress of the People's Republic of China, composed of deputies from the People's Liberation Army and the People's Armed Police Force."
+        }
+      }
+    },
+    {
+      "id": "空军95851部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "空军95851部队"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "南京",
+          "en": "Nanjing"
+        },
+        "description": {
+          "zh-cn": "驻扎于南京的中国人民解放军空军部队。",
+          "en": "A People's Liberation Army Air Force unit stationed in Nanjing."
+        }
+      }
+    },
+    {
+      "id": "浙江省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江省",
+          "浙江"
+        ],
+        "en": [
+          "Zhejiang"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "黄连珍",
+      "target": "临安县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1968-08",
+        "description": {
+          "zh-cn": "黄连珍出生于浙江省临安县。",
+          "en": "Huang Lianzhen was born in Lin'an County, Zhejiang Province."
+        }
+      }
+    },
+    {
+      "source": "黄连珍",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "黄连珍是中国共产党党员。",
+          "en": "Huang Lianzhen is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "黄连珍",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "end_date": "2023",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "description": {
+          "zh-cn": "2018年，黄连珍被选为第十三届全国人民代表大会代表。",
+          "en": "In 2018, Huang Lianzhen was elected as a deputy to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "黄连珍",
+      "target": "解放军和武警部队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "description": {
+          "zh-cn": "黄连珍作为解放军和武警部队代表团成员出席第十三届全国人民代表大会。",
+          "en": "Huang Lianzhen attended the 13th National People's Congress as a member of the People's Liberation Army and People's Armed Police Force delegation."
+        }
+      }
+    },
+    {
+      "source": "黄连珍",
+      "target": "空军95851部队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "研究员",
+          "en": "Researcher"
+        },
+        "description": {
+          "zh-cn": "根据2019年的信息，黄连珍担任空军95851部队研究员。",
+          "en": "According to information from 2019, Huang Lianzhen served as a researcher at the PLA Air Force Unit 95851."
+        }
+      }
+    }
+  ]
+}

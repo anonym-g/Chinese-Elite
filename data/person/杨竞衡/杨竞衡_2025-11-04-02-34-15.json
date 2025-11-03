@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "杨竞衡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨竞衡"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1930 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "广东",
+          "en": "Guangdong"
+        },
+        "description": {
+          "zh-cn": "中国电气自动化专家，曾任中共天津市委常委、第八届全国人大代表、常委会委员。",
+          "en": "A Chinese expert in electrical automation, who served as a member of the Standing Committee of the CPC Tianjin Municipal Committee, a delegate to the 8th National People's Congress, and a member of its Standing Committee."
+        }
+      }
+    },
+    {
+      "id": "广东",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广东"
+        ],
+        "en": [
+          "Guangdong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国省份，杨竞衡的出生地。",
+          "en": "A province in China, the birthplace of Yang Jingheng."
+        }
+      }
+    },
+    {
+      "id": "中共天津市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共天津市委"
+        ],
+        "en": [
+          "Tianjin Municipal Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会",
+          "全国人大"
+        ],
+        "en": [
+          "National People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "全国人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会常务委员会",
+          "全国人大常委会"
+        ],
+        "en": [
+          "Standing Committee of the National People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国自动化学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国自动化学会"
+        ],
+        "en": [
+          "Chinese Association of Automation"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "浙江大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "浙江大学"
+        ],
+        "en": [
+          "Zhejiang University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杨竞衡",
+      "target": "广东",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1930",
+        "description": {
+          "zh-cn": "杨竞衡是广东人。",
+          "en": "Yang Jingheng is from Guangdong."
+        }
+      }
+    },
+    {
+      "source": "杨竞衡",
+      "target": "中共天津市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        },
+        "description": {
+          "zh-cn": "杨竞衡曾任中共天津市委常委。",
+          "en": "Yang Jingheng once served as a member of the Standing Committee of the CPC Tianjin Municipal Committee."
+        }
+      }
+    },
+    {
+      "source": "杨竞衡",
+      "target": "全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993-03-15",
+        "end_date": "1998-03-05",
+        "position": {
+          "zh-cn": "第八届全国人大代表",
+          "en": "Delegate to the 8th National People's Congress"
+        },
+        "description": {
+          "zh-cn": "杨竞衡是第八届全国人大代表。",
+          "en": "Yang Jingheng was a delegate to the 8th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "杨竞衡",
+      "target": "全国人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993-03",
+        "end_date": "1998-03",
+        "position": {
+          "zh-cn": "第八届常委会委员",
+          "en": "Member of the 8th Standing Committee"
+        },
+        "description": {
+          "zh-cn": "杨竞衡是第八届全国人大常委会委员。",
+          "en": "Yang Jingheng was a member of the Standing Committee of the 8th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "杨竞衡",
+      "target": "浙江大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据分类，杨竞衡是浙江大学校友。",
+          "en": "According to the category, Yang Jingheng is an alumnus of Zhejiang University."
+        }
+      }
+    },
+    {
+      "source": "杨竞衡",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据分类，杨竞衡是中国共产党党员。",
+          "en": "According to the category, Yang Jingheng is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "杨竞衡",
+      "target": "中国自动化学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务理事",
+          "en": "Executive Director"
+        },
+        "description": {
+          "zh-cn": "根据分类，杨竞衡是中国自动化学会常务理事，并曾任第四届、第五届、第六届理事会成员。",
+          "en": "According to the category, Yang Jingheng was an executive director of the Chinese Association of Automation, and served as a member of its 4th, 5th, and 6th councils."
+        }
+      }
+    }
+  ]
+}

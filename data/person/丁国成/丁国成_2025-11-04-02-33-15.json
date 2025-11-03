@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "丁国成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丁国成",
+          "国成",
+          "成平",
+          "丁巴",
+          "彭宁宁",
+          "陈群"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1939 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "肇东",
+          "en": "Zhaodong"
+        },
+        "description": {
+          "zh-cn": "中国文学编审、评论家，中华诗词学会副会长，中国作家协会名誉委员。",
+          "en": "Chinese literary editor and critic, Vice President of the Chinese Poetry Society, and Honorary Member of the China Writers Association."
+        }
+      }
+    },
+    {
+      "id": "肇东市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "肇东市",
+          "肇东"
+        ],
+        "en": [
+          "Zhaodong"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国黑龙江省",
+          "en": "Heilongjiang, China"
+        },
+        "description": {
+          "zh-cn": "丁国成的出生地。",
+          "en": "Birthplace of Ding Guocheng."
+        }
+      }
+    },
+    {
+      "id": "中华诗词学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华诗词学会"
+        ],
+        "en": [
+          "Chinese Poetry Society"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的全国性诗词学术社会团体。",
+          "en": "A national academic social organization for poetry in China."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": [
+          "China Writers Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党领导的中国各民族作家自愿结合的专业性人民团体。",
+          "en": "A professional people's organization voluntarily formed by writers of all ethnic groups in China under the leadership of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "吉林大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吉林大学"
+        ],
+        "en": [
+          "Jilin University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "丁国成",
+      "target": "肇东市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "丁国成是黑龙江肇东人。",
+          "en": "Ding Guocheng is from Zhaodong, Heilongjiang."
+        }
+      }
+    },
+    {
+      "source": "丁国成",
+      "target": "中华诗词学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副会长",
+          "en": "Vice President"
+        },
+        "description": {
+          "zh-cn": "丁国成担任中华诗词学会副会长，并曾任第一届、第二届、第三届、第四届理事会成员。他也被列为该学会的顾问。",
+          "en": "Ding Guocheng serves as the Vice President of the Chinese Poetry Society and was a member of its first, second, third, and fourth councils. He is also listed as a consultant for the society."
+        }
+      }
+    },
+    {
+      "source": "丁国成",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "名誉委员",
+          "en": "Honorary Member"
+        },
+        "description": {
+          "zh-cn": "丁国成是中国作家协会会员，曾任第六届、第七届、第八届、第九届全国委员会委员，后成为名誉委员。",
+          "en": "Ding Guocheng is a member of the China Writers Association. He served as a member of the 6th, 7th, 8th, and 9th National Committees, and later became an Honorary Member."
+        }
+      }
+    },
+    {
+      "source": "丁国成",
+      "target": "吉林大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据分类信息，丁国成是吉林大学的校友。",
+          "en": "According to category information, Ding Guocheng is an alumnus of Jilin University."
+        }
+      }
+    },
+    {
+      "source": "丁国成",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据分类信息，丁国成是中国共产党党员。",
+          "en": "According to category information, Ding Guocheng is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

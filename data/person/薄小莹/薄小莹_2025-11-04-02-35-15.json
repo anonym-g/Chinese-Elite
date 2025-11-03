@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "薄小莹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "薄小莹"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1950 - ",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国历史学者，薄一波与胡明的三女。曾任北京大学历史系副教授，研究方向为隋唐考古、石窟艺术等。",
+          "en": "A Chinese historian, the third daughter of Bo Yibo and Hu Ming. She was an associate professor in the History Department of Peking University, specializing in Sui and Tang archaeology, grotto art, etc."
+        }
+      }
+    },
+    {
+      "id": "薄一波",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "薄一波"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，薄小莹的父亲。",
+          "en": "A Chinese politician and the father of Bo Xiaoying."
+        }
+      }
+    },
+    {
+      "id": "胡明 (李琼英)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡明 (李琼英)",
+          "胡明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "薄一波的妻子，薄小莹的母亲。",
+          "en": "Wife of Bo Yibo and mother of Bo Xiaoying."
+        }
+      }
+    },
+    {
+      "id": "北京大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京大学"
+        ],
+        "en": [
+          "Peking University"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国北京市",
+          "en": "Beijing, China"
+        },
+        "description": {
+          "zh-cn": "位于中国北京市的一所综合性研究型大学。",
+          "en": "A comprehensive and research-oriented university located in Beijing, China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "薄小莹",
+      "target": "薄一波",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "薄小莹是薄一波的三女。",
+          "en": "Bo Xiaoying is the third daughter of Bo Yibo."
+        }
+      }
+    },
+    {
+      "source": "薄小莹",
+      "target": "胡明 (李琼英)",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "薄小莹是胡明的三女。",
+          "en": "Bo Xiaoying is the third daughter of Hu Ming."
+        }
+      }
+    },
+    {
+      "source": "薄小莹",
+      "target": "北京大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "薄小莹早年毕业于北京大学历史系。",
+          "en": "Bo Xiaoying graduated from the History Department of Peking University in her early years."
+        }
+      }
+    },
+    {
+      "source": "薄小莹",
+      "target": "北京大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "历史系副教授",
+          "en": "Associate Professor, Department of History"
+        },
+        "description": {
+          "zh-cn": "薄小莹曾担任北京大学历史系副教授，现已退休。",
+          "en": "Bo Xiaoying served as an associate professor in the History Department of Peking University and has since retired."
+        }
+      }
+    }
+  ]
+}

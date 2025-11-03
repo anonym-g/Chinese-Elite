@@ -1,0 +1,338 @@
+{
+  "nodes": [
+    {
+      "id": "杨新华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨新华"
+        ],
+        "en": [
+          "Yang Xinhua"
+        ]
+      },
+      "properties": {
+        "lifetime": "1943-02 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "辽宁辽中",
+          "en": "Liaozhong, Liaoning"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A politician of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "辽中区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "辽中区",
+          "辽中"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国辽宁省沈阳市下辖的市辖区。",
+          "en": "A municipal district of Shenyang, Liaoning province, China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "辽宁省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辽宁省人民政府"
+        ],
+        "en": [
+          "Liaoning Provincial People's Government"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "辽宁省人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辽宁省人民代表大会常务委员会",
+          "辽宁省人大常委会"
+        ],
+        "en": [
+          "Standing Committee of the Liaoning Provincial People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第七届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第七届全国人民代表大会",
+          "第七届全国人大"
+        ],
+        "en": [
+          "7th National People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "沈阳农业大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沈阳农业大学",
+          "沈阳农学院"
+        ],
+        "en": [
+          "Shenyang Agricultural University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党铁岭市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党铁岭市委员会",
+          "中共铁岭市委"
+        ],
+        "en": [
+          "Tieling Municipal Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "铁岭市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "铁岭市人民政府"
+        ],
+        "en": [
+          "Tieling Municipal People's Government"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "辽宁省农牧业厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辽宁省农牧业厅"
+        ],
+        "en": [
+          "Liaoning Provincial Department of Agriculture and Animal Husbandry"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "辽宁省农业厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辽宁省农业厅"
+        ],
+        "en": [
+          "Liaoning Provincial Department of Agriculture"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杨新华",
+      "target": "辽中区",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "杨新华是辽宁辽中人。",
+          "en": "Yang Xinhua is from Liaozhong, Liaoning."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "辽宁省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext，杨新华曾任辽宁省人民政府副省长。",
+          "en": "According to the Wikitext, Yang Xinhua previously served as the Vice Governor of the Liaoning Provincial People's Government."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "辽宁省人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext，杨新华曾任辽宁省人大常委会副主任。",
+          "en": "According to the Wikitext, Yang Xinhua previously served as the Vice Chairman of the Standing Committee of the Liaoning Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "第七届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext，杨新华为第七届全国人大代表。",
+          "en": "According to the Wikitext, Yang Xinhua was a delegate to the 7th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "沈阳农业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据Wikitext分类“沈阳农学院校友”推断。",
+          "en": "Inferred from the Wikitext category 'Alumni of Shenyang Agricultural College'."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext分类“中国共产党党员”推断。",
+          "en": "Inferred from the Wikitext category 'Communist Party of China members'."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "中国共产党铁岭市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext分类“中共铁岭市委副书记”推断。",
+          "en": "Inferred from the Wikitext category 'Deputy Secretaries of the Tieling Municipal Committee of the Communist Party of China'."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "铁岭市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副市长",
+          "en": "Vice Mayor"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext分类“铁岭市人民政府副市长”推断。",
+          "en": "Inferred from the Wikitext category 'Vice Mayors of Tieling Municipal People's Government'."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "铁岭市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext分类“铁岭市人民政府市长”推断。",
+          "en": "Inferred from the Wikitext category 'Mayors of Tieling Municipal People's Government'."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "辽宁省农牧业厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "厅长",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext分类“辽宁省农牧业厅厅长”推断。",
+          "en": "Inferred from the Wikitext category 'Directors of the Liaoning Provincial Department of Agriculture and Animal Husbandry'."
+        }
+      }
+    },
+    {
+      "source": "杨新华",
+      "target": "辽宁省农业厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "厅长",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext分类“辽宁省农业厅厅长”推断。",
+          "en": "Inferred from the Wikitext category 'Directors of the Liaoning Provincial Department of Agriculture'."
+        }
+      }
+    }
+  ]
+}

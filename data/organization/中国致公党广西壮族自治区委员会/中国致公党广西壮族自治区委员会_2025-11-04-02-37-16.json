@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "中国致公党广西壮族自治区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国致公党广西壮族自治区委员会",
+          "致公党广西区委会",
+          "广西致公党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2022-06 - 2027",
+        "location": {
+          "zh-cn": "广西壮族自治区",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国致公党在广西壮族自治区的地方组织。",
+          "en": "The local organization of the China Zhi Gong Party in the Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "欧余军",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "欧余军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国致公党广西壮族自治区第十四届委员会主任委员。",
+          "en": "Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "谭汝新",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谭汝新"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "蒋晓筠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋晓筠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "李永政",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李永政"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "薛丽容",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "薛丽容"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "叶妍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶妍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "中国致公党中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国致公党中央委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国致公党的中央领导机构。",
+          "en": "The central leading body of the China Zhi Gong Party."
+        }
+      }
+    },
+    {
+      "id": "中国致公党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国致公党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的八个民主党派之一。",
+          "en": "One of the eight democratic parties in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "广西壮族自治区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广西壮族自治区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的五个自治区之一。",
+          "en": "One of the five autonomous regions of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国致公党广西壮族自治区委员会",
+      "target": "中国致公党中央委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国致公党广西壮族自治区委员会是中国致公党中央委员会的下级机构。",
+          "en": "The China Zhi Gong Party Guangxi Zhuang Autonomous Region Committee is a subordinate body of the Central Committee of the China Zhi Gong Party."
+        }
+      }
+    },
+    {
+      "source": "中国致公党广西壮族自治区委员会",
+      "target": "中国致公党",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国致公党广西壮族自治区委员会是中国致公党在广西壮族自治区的地方组织。",
+          "en": "The China Zhi Gong Party Guangxi Zhuang Autonomous Region Committee is the local organization of the China Zhi Gong Party in the Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "欧余军",
+      "target": "中国致公党广西壮族自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-06",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "主任委员",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "欧余军于2022年6月至2027年期间担任中国致公党广西壮族自治区第十四届委员会主任委员。",
+          "en": "Ou Yujun serves as the Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region from June 2022 to 2027."
+        }
+      }
+    },
+    {
+      "source": "谭汝新",
+      "target": "中国致公党广西壮族自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-06",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "谭汝新于2022年6月至2027年期间担任中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Tan Ruxin serves as a Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region from June 2022 to 2027."
+        }
+      }
+    },
+    {
+      "source": "蒋晓筠",
+      "target": "中国致公党广西壮族自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-06",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "蒋晓筠于2022年6月至2027年期间担任中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Jiang Xiaoyun serves as a Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region from June 2022 to 2027."
+        }
+      }
+    },
+    {
+      "source": "李永政",
+      "target": "中国致公党广西壮族自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-06",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "李永政于2022年6月至2027年期间担任中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Li Yongzheng serves as a Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region from June 2022 to 2027."
+        }
+      }
+    },
+    {
+      "source": "薛丽容",
+      "target": "中国致公党广西壮族自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-06",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "薛丽容于2022年6月至2027年期间担任中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Xue Lirong serves as a Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region from June 2022 to 2027."
+        }
+      }
+    },
+    {
+      "source": "叶妍",
+      "target": "中国致公党广西壮族自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-06",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "叶妍于2022年6月至2027年期间担任中国致公党广西壮族自治区第十四届委员会副主任委员。",
+          "en": "Ye Yan serves as a Vice Chairman of the 14th Committee of the China Zhi Gong Party in Guangxi Zhuang Autonomous Region from June 2022 to 2027."
+        }
+      }
+    }
+  ]
+}

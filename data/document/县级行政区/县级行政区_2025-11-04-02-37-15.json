@@ -1,0 +1,469 @@
+{
+  "nodes": [
+    {
+      "id": "县级行政区",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "县级行政区"
+        ],
+        "en": [
+          "County-level administrative division"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的行政区划单位，其行政地位与“县”相同，管辖乡级行政区。",
+          "en": "An administrative division unit in the People's Republic of China with an administrative status equivalent to a county, which administers township-level divisions."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，实行独特的行政区划体系。",
+          "en": "A country in East Asia with a unique system of administrative divisions."
+        }
+      }
+    },
+    {
+      "id": "乡级行政区",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "乡级行政区"
+        ],
+        "en": [
+          "Township-level administrative division"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国行政区划中位于县级行政区之下的行政层级，包括乡、镇等。",
+          "en": "The administrative level below the county-level division in the People's Republic of China, including townships and towns."
+        }
+      }
+    },
+    {
+      "id": "地级行政区",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "地级行政区"
+        ],
+        "en": [
+          "Prefecture-level administrative division"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国行政区划中介于省级和县级之间的行政层级。",
+          "en": "The administrative level between the provincial and county levels in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "省级行政区",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "省级行政区"
+        ],
+        "en": [
+          "Provincial-level administrative division"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国最高层级的地方行政区划，包括省、自治区、直辖市等。",
+          "en": "The highest level of local administrative divisions in the People's Republic of China, including provinces, autonomous regions, and direct-administered municipalities."
+        }
+      }
+    },
+    {
+      "id": "直辖市",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "直辖市"
+        ],
+        "en": [
+          "Direct-administered municipality"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的一种省级行政区，直接由中央政府管辖，其下级行政区划单位为县级行政区。",
+          "en": "A type of provincial-level administrative division in the People's Republic of China, directly administered by the central government, with county-level divisions as its subordinate units."
+        }
+      }
+    },
+    {
+      "id": "市领导县的体制",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "市领导县的体制",
+          "市带县",
+          "市管县"
+        ],
+        "en": [
+          "City-led county system"
+        ]
+      },
+      "properties": {
+        "period": "1982 - ",
+        "description": {
+          "zh-cn": "1982年以后在中国大陆推广的一项行政管理制度，旨在发挥城市对地区经济发展的带动作用，将多数县置于地级市的管辖之下。",
+          "en": "An administrative management system promoted in mainland China after 1982, aimed at leveraging cities to drive regional economic development by placing most counties under the jurisdiction of prefecture-level cities."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国宪法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国宪法"
+        ],
+        "en": [
+          "Constitution of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的根本大法，对国家行政区划层级有原则性规定。",
+          "en": "The fundamental law of the People's Republic of China, which provides principled regulations on the hierarchy of the country's administrative divisions."
+        }
+      }
+    },
+    {
+      "id": "县人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "县人民政府"
+        ],
+        "en": [
+          "County People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国县级行政区的行政管理机构。",
+          "en": "The administrative management body of a county-level division in China."
+        }
+      }
+    },
+    {
+      "id": "公安局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "公安局"
+        ],
+        "en": [
+          "Public Security Bureau"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "县人民政府的常设组成部门，负责公共安全事务。",
+          "en": "A permanent component department of the County People's Government, responsible for public security affairs."
+        }
+      }
+    },
+    {
+      "id": "教育局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "教育局"
+        ],
+        "en": [
+          "Education Bureau"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "县人民政府的常设组成部门，负责教育事务。",
+          "en": "A permanent component department of the County People's Government, responsible for educational affairs."
+        }
+      }
+    },
+    {
+      "id": "农业农村局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "农业农村局"
+        ],
+        "en": [
+          "Agriculture and Rural Affairs Bureau"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "县人民政府的常设组成部门，负责农业与农村事务。",
+          "en": "A permanent component department of the County People's Government, responsible for agriculture and rural affairs."
+        }
+      }
+    },
+    {
+      "id": "司法局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "司法局"
+        ],
+        "en": [
+          "Justice Bureau"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "县人民政府的常设组成部门，负责司法行政事务。",
+          "en": "A permanent component department of the County People's Government, responsible for judicial administrative affairs."
+        }
+      }
+    },
+    {
+      "id": "县政法委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "县政法委"
+        ],
+        "en": [
+          "County Political and Legal Affairs Commission"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在县一级负责领导和管理政法工作的机构。",
+          "en": "The agency of the Communist Party of China at the county level responsible for leading and managing political and legal affairs."
+        }
+      }
+    },
+    {
+      "id": "县委农村工作委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "县委农村工作委员会",
+          "农工委"
+        ],
+        "en": [
+          "County Party Committee Rural Work Committee"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在县一级领导农村工作的机构。",
+          "en": "The agency of the Communist Party of China at the county level that leads rural work."
+        }
+      }
+    },
+    {
+      "id": "县委宣传部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "县委宣传部"
+        ],
+        "en": [
+          "County Party Committee Propaganda Department"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在县一级负责宣传、思想和文化工作的机构。",
+          "en": "The agency of the Communist Party of China at the county level responsible for propaganda, ideological, and cultural work."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "乡级行政区",
+      "target": "县级行政区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "县级行政区是乡级行政区的上一级行政区划单位，对其进行管辖。",
+          "en": "County-level divisions are the next higher administrative level above township-level divisions and have jurisdiction over them."
+        }
+      }
+    },
+    {
+      "source": "县级行政区",
+      "target": "地级行政区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在四级行政区划制度下，县级行政区通常隶属于地级行政区。",
+          "en": "Under the four-tier administrative division system, county-level divisions are generally subordinate to prefecture-level divisions."
+        }
+      }
+    },
+    {
+      "source": "县级行政区",
+      "target": "直辖市",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在直辖市内，县级行政区直接受直辖市的管辖，属于第二级地方行政单位。",
+          "en": "Within a direct-administered municipality, county-level divisions are directly under the jurisdiction of the municipality, functioning as second-level local administrative units."
+        }
+      }
+    },
+    {
+      "source": "县级行政区",
+      "target": "省级行政区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在三级行政区划制度或省直管县模式下，县级行政区直接隶属于省级行政区。",
+          "en": "Under the three-tier administrative division system or the model of provincially-administered counties, county-level divisions are directly subordinate to provincial-level divisions."
+        }
+      }
+    },
+    {
+      "source": "市领导县的体制",
+      "target": "县级行政区",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "1982年后推广的“市领导县的体制”将大多数县级行政区划归地级市管辖，改变了其行政隶属关系。",
+          "en": "The 'city-led county system', promoted after 1982, placed most county-level divisions under the jurisdiction of prefecture-level cities, changing their administrative subordination."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国宪法",
+      "target": "县级行政区",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《中华人民共和国宪法》规定县为直属省级政府管辖的“第二级地方行政单位”，奠定了县级行政区划的法律地位。",
+          "en": "The Constitution of the People's Republic of China stipulates that counties are 'second-level local administrative units' directly under the jurisdiction of provincial governments, establishing the legal status of county-level divisions."
+        }
+      }
+    },
+    {
+      "source": "公安局",
+      "target": "县人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常设组成部门",
+          "en": "Permanent component department"
+        },
+        "description": {
+          "zh-cn": "公安局是县人民政府的常设组成部门之一。",
+          "en": "The Public Security Bureau is one of the permanent component departments of the County People's Government."
+        }
+      }
+    },
+    {
+      "source": "教育局",
+      "target": "县人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常设组成部门",
+          "en": "Permanent component department"
+        },
+        "description": {
+          "zh-cn": "教育局是县人民政府的常设组成部门之一。",
+          "en": "The Education Bureau is one of the permanent component departments of the County People's Government."
+        }
+      }
+    },
+    {
+      "source": "农业农村局",
+      "target": "县人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常设组成部门",
+          "en": "Permanent component department"
+        },
+        "description": {
+          "zh-cn": "农业农村局是县人民政府的常设组成部门之一。",
+          "en": "The Agriculture and Rural Affairs Bureau is one of the permanent component departments of the County People's Government."
+        }
+      }
+    },
+    {
+      "source": "司法局",
+      "target": "县人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常设组成部门",
+          "en": "Permanent component department"
+        },
+        "description": {
+          "zh-cn": "司法局是县人民政府的常设组成部门之一。",
+          "en": "The Justice Bureau is one of the permanent component departments of the County People's Government."
+        }
+      }
+    },
+    {
+      "source": "公安局",
+      "target": "县政法委",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在“归口管理”体制下，公安局属于“政法口”，由县政法委领导。",
+          "en": "Under the 'guikou management' system, the Public Security Bureau belongs to the 'political and legal affairs section' and is led by the County Political and Legal Affairs Commission."
+        }
+      }
+    },
+    {
+      "source": "司法局",
+      "target": "县政法委",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在“归口管理”体制下，司法局属于“政法口”，由县政法委领导。",
+          "en": "Under the 'guikou management' system, the Justice Bureau belongs to the 'political and legal affairs section' and is led by the County Political and Legal Affairs Commission."
+        }
+      }
+    },
+    {
+      "source": "农业农村局",
+      "target": "县委农村工作委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在“归口管理”体制下，农业农村局属于“农口”，由县委农村工作委员会领导。",
+          "en": "Under the 'guikou management' system, the Agriculture and Rural Affairs Bureau belongs to the 'agriculture section' and is led by the County Party Committee Rural Work Committee."
+        }
+      }
+    },
+    {
+      "source": "县委宣传部",
+      "target": "教育局",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "在“归口管理”体制下，教育局属于“文教口”，其领导干部的人事任免需征得县委宣传部的同意。",
+          "en": "Under the 'guikou management' system, the Education Bureau belongs to the 'culture and education section', and the appointment and removal of its leading cadres require the consent of the County Party Committee Propaganda Department."
+        }
+      }
+    }
+  ]
+}
