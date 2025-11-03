@@ -1,0 +1,236 @@
+{
+  "nodes": [
+    {
+      "id": "无锡市公安局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "无锡市公安局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-05-20 - ",
+        "location": {
+          "zh-cn": "无锡市",
+          "en": "Wuxi"
+        },
+        "description": {
+          "zh-cn": "无锡市人民政府主管无锡市全市公共安全工作的职能部门，是无锡市区域内人民警察的领导和指挥机关。",
+          "en": "The functional department of the Wuxi Municipal People's Government in charge of public security throughout Wuxi city, and the leadership and command organ for the people's police within the Wuxi area."
+        }
+      }
+    },
+    {
+      "id": "无锡市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "无锡市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "无锡市",
+          "en": "Wuxi"
+        },
+        "description": {
+          "zh-cn": "江苏省无锡市的市级国家行政机关。",
+          "en": "The municipal-level state administrative organ of Wuxi City, Jiangsu Province."
+        }
+      }
+    },
+    {
+      "id": "江苏省公安厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "江苏省公安厅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "江苏省人民政府下设主管全省公安工作的职能部门，是江苏省内人民警察的领导和指挥机关。",
+          "en": "The functional department under the Jiangsu Provincial People's Government in charge of public security work throughout the province, and the leadership and command organ for the people's police in Jiangsu."
+        }
+      }
+    },
+    {
+      "id": "中国共产党无锡市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党无锡市委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在无锡市的领导机关。",
+          "en": "The leading body of the Chinese Communist Party in Wuxi City."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的主要武装力量。",
+          "en": "The principal military force of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "无锡县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "无锡县"
+        ],
+        "en": [
+          "Wuxi County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国江苏省历史上的一个县，现已撤销。",
+          "en": "A former county in Jiangsu Province, China, which has since been abolished."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "1966年至1976年在中国发生的一场重大政治运动。",
+          "en": "A major political movement that took place in China from 1966 to 1976."
+        }
+      }
+    },
+    {
+      "id": "无锡市公检法军事管制委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "无锡市公检法军事管制委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1967-02 - 1973-03",
+        "description": {
+          "zh-cn": "文化大革命期间在无锡市成立的临时权力机构，负责接管公安、检察、法院的职能。",
+          "en": "A temporary power organ established in Wuxi City during the Cultural Revolution, responsible for taking over the functions of the public security, procuratorate, and court."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "无锡市公安局",
+      "target": "无锡市人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1949-05-20",
+        "description": {
+          "zh-cn": "无锡市公安局是无锡市人民政府的组成部门，在组织上受其领导。",
+          "en": "The Wuxi Public Security Bureau is a constituent department of the Wuxi Municipal People's Government and is organizationally subordinate to it."
+        }
+      }
+    },
+    {
+      "source": "无锡市公安局",
+      "target": "江苏省公安厅",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1949-05-20",
+        "description": {
+          "zh-cn": "无锡市公安局在业务上接受江苏省公安厅的领导，构成双重领导关系的一部分。",
+          "en": "The Wuxi Public Security Bureau is operationally subordinate to the Jiangsu Provincial Public Security Department, forming part of a dual leadership relationship."
+        }
+      }
+    },
+    {
+      "source": "无锡市公安局",
+      "target": "中国共产党无锡市委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1949-05-20",
+        "description": {
+          "zh-cn": "在党组织关系上，无锡市公安局接受中国共产党无锡市委员会的领导。",
+          "en": "In terms of Party organization, the Wuxi Public Security Bureau is under the leadership of the Wuxi Municipal Committee of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "无锡市人民政府",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-04-23",
+        "description": {
+          "zh-cn": "中国人民解放军于1949年4月23日攻占无锡，为无锡市人民政府的成立和正式运作创造了条件。",
+          "en": "The People's Liberation Army captured Wuxi on April 23, 1949, creating the conditions for the establishment and official operation of the Wuxi Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "无锡市人民政府",
+      "target": "无锡市公安局",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1949-05-20",
+        "description": {
+          "zh-cn": "1949年5月20日，在无锡市人民政府的运作下，无锡市公安局正式建立。",
+          "en": "On May 20, 1949, under the operation of the Wuxi Municipal People's Government, the Wuxi Public Security Bureau was formally established."
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "无锡市公安局",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1967-02",
+        "end_date": "1973-03",
+        "description": {
+          "zh-cn": "在文化大革命期间，无锡市公安局被实行军事管制，组织陷入混乱与瘫痪，其职能由新成立的无锡市公检法军事管制委员会接管，直至1973年3月恢复。",
+          "en": "During the Cultural Revolution, the Wuxi Public Security Bureau was placed under military control, its organization fell into chaos and paralysis, and its functions were taken over by the newly established Wuxi Municipal Public Security, Procuratorate, and Court Military Control Committee until it was restored in March 1973."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "无锡县",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1949-04-23",
+        "description": {
+          "zh-cn": "中国人民解放军于1949年4月23日攻占无锡县。",
+          "en": "The People's Liberation Army captured Wuxi County on April 23, 1949."
+        }
+      }
+    }
+  ]
+}

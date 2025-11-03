@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "id": "方守恩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "方守恩"
+        ],
+        "en": [
+          "Fang Shou'en"
+        ]
+      },
+      "properties": {
+        "lifetime": "1961-12 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "上海",
+          "en": "Shanghai"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国学者、政治人物，籍贯浙江慈溪。历任同济大学教授、党委副书记，并于2017年7月至2025年4月担任同济大学党委书记。",
+          "en": "A scholar and political figure of the People's Republic of China, with his ancestral home in Cixi, Zhejiang. He has served as a professor and Deputy Party Secretary at Tongji University, and was the Party Secretary of Tongji University from July 2017 to April 2025."
+        }
+      }
+    },
+    {
+      "id": "浙江",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江"
+        ],
+        "en": [
+          "Zhejiang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "慈溪",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "慈溪"
+        ],
+        "en": [
+          "Cixi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "上海",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "上海"
+        ],
+        "en": [
+          "Shanghai"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "同济大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "同济大学"
+        ],
+        "en": [
+          "Tongji University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "意大利",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "意大利"
+        ],
+        "en": [
+          "Italy"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "杨贤金",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨贤金"
+        ],
+        "en": [
+          "Yang Xianjin"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "郑庆华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑庆华"
+        ],
+        "en": [
+          "Zheng Qinghua"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "方守恩",
+      "target": "上海",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "方守恩",
+      "target": "同济大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017-07",
+        "end_date": "2025-04",
+        "position": {
+          "zh-cn": "中国共产党同济大学委员会书记",
+          "en": "Secretary of the Tongji University Committee of the Communist Party of China"
+        }
+      }
+    },
+    {
+      "source": "意大利",
+      "target": "方守恩",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-20",
+        "description": {
+          "zh-cn": "授予方守恩意大利之星指挥官勋章。",
+          "en": "Awarded Fang Shou'en the Order of the Star of Italy (Commander)."
+        }
+      }
+    },
+    {
+      "source": "方守恩",
+      "target": "杨贤金",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2017-07",
+        "description": {
+          "zh-cn": "接替杨贤金出任中国共产党同济大学委员会书记。",
+          "en": "Succeeded Yang Xianjin as the Secretary of the Tongji University Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "郑庆华",
+      "target": "方守恩",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2025-04",
+        "description": {
+          "zh-cn": "接替方守恩出任中国共产党同济大学委员会书记。",
+          "en": "Succeeded Fang Shou'en as the Secretary of the Tongji University Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "方守恩",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        }
+      }
+    },
+    {
+      "source": "方守恩",
+      "target": "同济大学",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "方守恩",
+      "target": "同济大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授",
+          "en": "Professor"
+        }
+      }
+    },
+    {
+      "source": "方守恩",
+      "target": "同济大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委副书记",
+          "en": "Deputy Secretary of the Party Committee"
+        }
+      }
+    }
+  ]
+}

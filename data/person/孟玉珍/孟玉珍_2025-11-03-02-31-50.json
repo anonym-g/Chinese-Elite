@@ -1,0 +1,234 @@
+{
+  "nodes": [
+    {
+      "id": "孟玉珍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孟玉珍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1973 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "鄂伦春自治旗",
+          "en": "Oroqen Autonomous Banner"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国鄂伦春族政治人物，曾任第十一届全国人民代表大会内蒙古地区代表、鄂伦春自治旗古里乡乡长。",
+          "en": "A politician of the Oroqen ethnic group in the People's Republic of China. She served as a deputy from the Inner Mongolia region to the 11th National People's Congress and as the head of Guli Township in the Oroqen Autonomous Banner."
+        }
+      }
+    },
+    {
+      "id": "鄂伦春自治旗",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "鄂伦春自治旗",
+          "鄂伦春旗"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国内蒙古自治区",
+          "en": "Inner Mongolia Autonomous Region, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国内蒙古自治区呼伦贝尔市下辖的自治旗，是孟玉珍的出生地。",
+          "en": "An autonomous banner under the administration of Hulunbuir City, Inner Mongolia Autonomous Region, People's Republic of China. It is the birthplace of Meng Yuzhen."
+        }
+      }
+    },
+    {
+      "id": "鄂伦春族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "鄂伦春族"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国东北部地区人口最少的民族之一，是中华人民共和国官方认定的56个民族之一。",
+          "en": "One of the smallest ethnic groups in Northeast China, and one of the 56 officially recognized ethnic groups in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，简称中国，是孟玉珍的国籍国。",
+          "en": "A socialist state in East Asia, commonly known as China. It is Meng Yuzhen's country of nationality."
+        }
+      }
+    },
+    {
+      "id": "第十一届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十一届全国人民代表大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2008-03 - 2013-03",
+        "description": {
+          "zh-cn": "中华人民共和国的第十一届国家最高权力机关，任期从2008年3月至2013年3月。",
+          "en": "The 11th term of the highest state organ of power of the People's Republic of China, serving from March 2008 to March 2013."
+        }
+      }
+    },
+    {
+      "id": "中国青年政治学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国青年政治学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1985 - 2017",
+        "description": {
+          "zh-cn": "曾存在于中国北京市的一所高等院校，2017年与中国社会科学院研究生院合并组建为中国社会科学院大学。",
+          "en": "A former institution of higher education in Beijing, China, which merged with the Graduate School of the Chinese Academy of Social Sciences in 2017 to form the University of Chinese Academy of Social Sciences."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "period": "1921-07-23 - ",
+        "description": {
+          "zh-cn": "中华人民共和国的创立者和唯一执政党。",
+          "en": "The founder and sole ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "古里乡",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "古里乡"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国内蒙古自治区呼伦贝尔市鄂伦春自治旗下的一个乡镇级行政单位的政府机关。",
+          "en": "The governmental body of a township-level administrative unit under the Oroqen Autonomous Banner, Hulunbuir, Inner Mongolia Autonomous Region, China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "孟玉珍",
+      "target": "鄂伦春自治旗",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1973",
+        "description": {
+          "zh-cn": "孟玉珍是内蒙古鄂伦春旗人。",
+          "en": "Meng Yuzhen is from Oroqen Banner, Inner Mongolia."
+        }
+      }
+    },
+    {
+      "source": "孟玉珍",
+      "target": "鄂伦春族",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "孟玉珍是鄂伦春族。",
+          "en": "Meng Yuzhen belongs to the Oroqen ethnic group."
+        }
+      }
+    },
+    {
+      "source": "孟玉珍",
+      "target": "第十一届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "end_date": "2013",
+        "position": {
+          "zh-cn": "内蒙古地区代表",
+          "en": "Deputy from Inner Mongolia region"
+        },
+        "description": {
+          "zh-cn": "2008年起担任第十一届全国人民代表大会内蒙古地区代表。",
+          "en": "Starting from 2008, she served as a deputy from the Inner Mongolia region to the 11th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "孟玉珍",
+      "target": "中国青年政治学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "毕业于中国青年政治学院思想政治教育专业。",
+          "en": "Graduated from China Youth University of Political Studies with a major in Ideological and Political Education."
+        }
+      }
+    },
+    {
+      "source": "孟玉珍",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "孟玉珍是中国共产党党员。",
+          "en": "Meng Yuzhen is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "孟玉珍",
+      "target": "古里乡",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "乡长",
+          "en": "Township Head"
+        },
+        "description": {
+          "zh-cn": "孟玉珍担任鄂伦春自治旗古里乡乡长。",
+          "en": "Meng Yuzhen served as the head of Guli Township in the Oroqen Autonomous Banner."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "id": "德吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "德吉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物、全国脱贫攻坚先进个人。",
+          "en": "A Chinese political figure and a National Advanced Individual in Poverty Alleviation."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为“中国”。",
+          "en": "A socialist state in East Asia, commonly known as 'China'."
+        }
+      }
+    },
+    {
+      "id": "全国脱贫攻坚先进个人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国脱贫攻坚先进个人"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国授予在脱贫攻坚战中作出突出贡献的个人的荣誉称号。",
+          "en": "An honorary title awarded by the People's Republic of China to individuals who have made outstanding contributions in the fight against poverty."
+        }
+      }
+    },
+    {
+      "id": "尼木县自然资源局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "尼木县自然资源局",
+          "拉萨市尼木县自然资源局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "拉萨市尼木县",
+          "en": "Nyingmo County, Lhasa"
+        },
+        "description": {
+          "zh-cn": "西藏自治区拉萨市尼木县的地方政府部门。",
+          "en": "A local government department in Nyingmo County, Lhasa, Tibet Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "尼木吞弥现代农业产业园区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "尼木吞弥现代农业产业园区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "拉萨市尼木县",
+          "en": "Nyingmo County, Lhasa"
+        },
+        "description": {
+          "zh-cn": "位于西藏自治区拉萨市尼木县的现代农业园区。",
+          "en": "A modern agricultural industrial park located in Nyingmo County, Lhasa, Tibet Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "脱贫攻坚战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "脱贫攻坚战"
+        ],
+        "en": [
+          "Poverty Alleviation Battle"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府自2015年起在全国范围内开展的旨在消除绝对贫困的运动。",
+          "en": "A nationwide campaign launched by the Chinese government since 2015 to eliminate absolute poverty."
+        }
+      }
+    },
+    {
+      "id": "全国脱贫攻坚总结表彰大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "全国脱贫攻坚总结表彰大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2021-02-25",
+        "description": {
+          "zh-cn": "为表彰在脱贫攻坚战中作出突出贡献的个人和集体而举行的全国性会议。",
+          "en": "A national conference held to commend individuals and groups who made outstanding contributions in the fight against poverty."
+        }
+      }
+    },
+    {
+      "id": "西北农林科技大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西北农林科技大学"
+        ],
+        "en": [
+          "Northwest A&F University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国陕西省咸阳市杨陵区的全国重点大学。",
+          "en": "A national key university located in Yangling, Xianyang, Shaanxi Province, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1921-07 - ",
+        "description": {
+          "zh-cn": "中华人民共和国的创立者和唯一执政党。",
+          "en": "The founder and sole ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "德吉",
+      "target": "尼木县自然资源局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "派驻尼木吞弥现代农业产业园区车厘子种植负责人",
+          "en": "Person in charge of cherry cultivation, dispatched to Nimu Tunmi Modern Agricultural Industrial Park"
+        },
+        "description": {
+          "zh-cn": "德吉任拉萨市尼木县自然资源局派驻尼木吞弥现代农业产业园区车厘子种植负责人。",
+          "en": "Deji serves as the person in charge of cherry cultivation at the Nimu Tunmi Modern Agricultural Industrial Park, dispatched by the Nimu County Natural Resources Bureau."
+        }
+      }
+    },
+    {
+      "source": "全国脱贫攻坚总结表彰大会",
+      "target": "德吉",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2021-02-25",
+        "description": {
+          "zh-cn": "在2021年2月25日举行的全国脱贫攻坚总结表彰大会上，德吉被授予“全国脱贫攻坚先进个人”荣誉称号。",
+          "en": "At the National Poverty Alleviation Summary and Commendation Conference held on February 25, 2021, Deji was awarded the honorary title of 'National Advanced Individual in Poverty Alleviation'."
+        }
+      }
+    },
+    {
+      "source": "脱贫攻坚战",
+      "target": "德吉",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "2021-02-25",
+        "description": {
+          "zh-cn": "德吉因在脱贫攻坚战中作出突出贡献，被授予“全国脱贫攻坚先进个人”荣誉称号。",
+          "en": "Deji was awarded the honorary title of 'National Advanced Individual in Poverty Alleviation' for her outstanding contributions in the Poverty Alleviation Battle."
+        }
+      }
+    },
+    {
+      "source": "德吉",
+      "target": "全国脱贫攻坚先进个人",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-02-25",
+        "description": {
+          "zh-cn": "于2021年2月25日被授予“全国脱贫攻坚先进个人”荣誉称号。",
+          "en": "Was awarded the honorary title of 'National Advanced Individual in Poverty Alleviation' on February 25, 2021."
+        }
+      }
+    },
+    {
+      "source": "德吉",
+      "target": "西北农林科技大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据页面分类信息，德吉是西北农林科技大学的校友。",
+          "en": "According to the page category information, Deji is an alumna of Northwest A&F University."
+        }
+      }
+    },
+    {
+      "source": "德吉",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，德吉是中国共产党党员。",
+          "en": "According to the page category information, Deji is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

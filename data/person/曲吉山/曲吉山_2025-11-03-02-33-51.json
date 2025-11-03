@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "id": "曲吉山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曲吉山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1965-10 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "Political figure of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中央纪律检查委员会国家监察委员会第四监督检查室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央纪律检查委员会国家监察委员会第四监督检查室",
+          "中央纪委国家监委第四监督检查室"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央纪律检查委员会与中华人民共和国国家监察委员会的内设机构。",
+          "en": "An internal department of the Central Commission for Discipline Inspection of the Communist Party of China and the National Supervisory Commission of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民银行",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民银行"
+        ],
+        "en": [
+          "People's Bank of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的中央银行。",
+          "en": "The central bank of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党第二十届中央纪律检查委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党第二十届中央纪律检查委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2022-10 - ",
+        "description": {
+          "zh-cn": "中国共产党第二十次全国代表大会选举产生的中央纪律检查委员会。",
+          "en": "The Central Commission for Discipline Inspection elected at the 20th National Congress of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "徐加爱",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐加爱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "Political figure of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央纪律检查委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央纪律检查委员会",
+          "中央纪委"
+        ],
+        "en": [
+          "Central Commission for Discipline Inspection"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的最高纪律检查机关。",
+          "en": "The highest internal control institution of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国家监察委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国家监察委员会",
+          "国家监委"
+        ],
+        "en": [
+          "National Supervisory Commission"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的最高监察机关。",
+          "en": "The highest supervisory organ of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "曲吉山",
+      "target": "中央纪律检查委员会国家监察委员会第四监督检查室",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2022-09",
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "曾任中央纪委国家监委第四监督检查室主任。",
+          "en": "Served as Director of the Fourth Supervision and Inspection Office of the CCDI-NSC."
+        }
+      }
+    },
+    {
+      "source": "曲吉山",
+      "target": "中国人民银行",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-09",
+        "position": {
+          "zh-cn": "中央纪委国家监委驻中国人民银行纪检监察组组长",
+          "en": "Head of the CCDI-NSC Discipline Inspection and Supervision Group stationed at the People's Bank of China"
+        },
+        "description": {
+          "zh-cn": "自2022年9月起，担任中央纪委国家监委驻中国人民银行纪检监察组组长。",
+          "en": "Since September 2022, has served as the Head of the CCDI-NSC Discipline Inspection and Supervision Group stationed at the People's Bank of China."
+        }
+      }
+    },
+    {
+      "source": "曲吉山",
+      "target": "中国人民银行",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-09",
+        "position": {
+          "zh-cn": "党委委员",
+          "en": "Member of the Party Committee"
+        },
+        "description": {
+          "zh-cn": "担任中国人民银行党委委员。",
+          "en": "Serves as a member of the Party Committee of the People's Bank of China."
+        }
+      }
+    },
+    {
+      "source": "曲吉山",
+      "target": "中国共产党第二十届中央纪律检查委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-10-22",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "当选为中国共产党第二十届中央纪律检查委员会委员。",
+          "en": "Elected as a member of the 20th Central Commission for Discipline Inspection of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "曲吉山",
+      "target": "徐加爱",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-09",
+        "description": {
+          "zh-cn": "曲吉山接替徐加爱，担任中央纪委国家监委驻中国人民银行纪检监察组组长职务。",
+          "en": "Qu Jishan succeeded Xu Jia'ai as the Head of the CCDI-NSC Discipline Inspection and Supervision Group stationed at the People's Bank of China."
+        }
+      }
+    },
+    {
+      "source": "中央纪律检查委员会国家监察委员会第四监督检查室",
+      "target": "中国共产党中央纪律检查委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "第四监督检查室是中央纪委的内设机构之一。",
+          "en": "The Fourth Supervision and Inspection Office is one of the internal departments of the Central Commission for Discipline Inspection."
+        }
+      }
+    },
+    {
+      "source": "中央纪律检查委员会国家监察委员会第四监督检查室",
+      "target": "中华人民共和国国家监察委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "第四监督检查室是国家监委的内设机构之一。",
+          "en": "The Fourth Supervision and Inspection Office is one of the internal departments of the National Supervisory Commission."
+        }
+      }
+    }
+  ]
+}

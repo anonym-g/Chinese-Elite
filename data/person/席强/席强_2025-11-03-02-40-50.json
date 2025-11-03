@@ -1,0 +1,221 @@
+{
+  "nodes": [
+    {
+      "id": "席强",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "席强"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1960 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国汉族弓弦乐演奏家、民族音乐理论家。曾任中央民族乐团团长、党委副书记，是中国共产党和中国音乐家协会的成员，并担任多届全国政协委员。",
+          "en": "A Chinese bow string instrumentalist and national music theorist of Han ethnicity. He served as the director and deputy party secretary of the China National Traditional Orchestra, is a member of the Communist Party of China and the Chinese Musicians' Association, and has served as a member of multiple sessions of the National Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "id": "中央民族乐团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央民族乐团"
+        ],
+        "en": [
+          "China National Traditional Orchestra"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国家级民族管弦乐团。",
+          "en": "A national-level traditional orchestra in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "第十一届全国政协委员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十一届全国政协委员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2008-03 - 2013-03",
+        "description": {
+          "zh-cn": "中国人民政治协商会议第十一届全国委员会的委员群体。",
+          "en": "The group of members of the 11th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "第十二届全国政协委员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国政协委员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2013-03 - 2018-03",
+        "description": {
+          "zh-cn": "中国人民政治协商会议第十二届全国委员会的委员群体。",
+          "en": "The group of members of the 12th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国政协委员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国政协委员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03",
+        "description": {
+          "zh-cn": "中国人民政治协商会议第十三届全国委员会的委员群体。",
+          "en": "The group of members of the 13th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "中国音乐家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国音乐家协会"
+        ],
+        "en": [
+          "Chinese Musicians' Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国音乐家组成的群众性团体，是中国文学艺术界联合会的团体会员。",
+          "en": "A mass organization composed of Chinese musicians, and a group member of the China Federation of Literary and Art Circles."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "席强",
+      "target": "中央民族乐团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "团长、党委副书记",
+          "en": "Director, Deputy Party Secretary"
+        },
+        "description": {
+          "zh-cn": "席强担任中央民族乐团团长、党委副书记。",
+          "en": "Xi Qiang served as the Director and Deputy Party Secretary of the China National Traditional Orchestra."
+        }
+      }
+    },
+    {
+      "source": "席强",
+      "target": "第十一届全国政协委员",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008-01-25",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "2008年当选第十一届全国政协委员，代表文化艺术界，分入第二十八组。",
+          "en": "Elected as a member of the 11th National Committee of the CPPCC in 2008, representing the culture and arts sector and assigned to Group 28."
+        }
+      }
+    },
+    {
+      "source": "席强",
+      "target": "第十二届全国政协委员",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "席强是第十二届全国政协委员，此信息来源于页面分类。",
+          "en": "Xi Qiang was a member of the 12th National Committee of the CPPCC, as indicated by the page category."
+        }
+      }
+    },
+    {
+      "source": "席强",
+      "target": "第十三届全国政协委员",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-01",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "2018年1月当选第十三届全国政协委员。",
+          "en": "Elected as a member of the 13th National Committee of the CPPCC in January 2018."
+        }
+      }
+    },
+    {
+      "source": "席强",
+      "target": "中国音乐家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会员、理事会理事",
+          "en": "Member, Council Member"
+        },
+        "description": {
+          "zh-cn": "席强是中国音乐家协会会员，并曾担任其第七届和第八届理事会理事。",
+          "en": "Xi Qiang is a member of the Chinese Musicians' Association and served as a council member for its 7th and 8th councils."
+        }
+      }
+    },
+    {
+      "source": "席强",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "席强是中国共产党党员，此信息来源于页面分类。",
+          "en": "Xi Qiang is a member of the Communist Party of China, as indicated by the page category."
+        }
+      }
+    }
+  ]
+}

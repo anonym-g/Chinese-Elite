@@ -1,0 +1,309 @@
+{
+  "nodes": [
+    {
+      "id": "药害爱滋事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "药害爱滋事件"
+        ],
+        "en": [
+          "HIV-tainted blood scandal (Japan)"
+        ]
+      },
+      "properties": {
+        "period": "1980 - 1999",
+        "location": {
+          "zh-cn": "日本",
+          "en": "Japan"
+        },
+        "description": {
+          "zh-cn": "日本在1980至1990年代发生的医学事件，因使用受HIV污染的血液制品，导致约1800名血友病患者感染艾滋病毒，其中约600人死亡。",
+          "en": "A medical scandal in Japan during the 1980s and 1990s where approximately 1,800 hemophiliacs were infected with HIV, and about 600 died, due to the use of HIV-contaminated blood products."
+        }
+      }
+    },
+    {
+      "id": "HIV",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "HIV",
+          "人类免疫缺陷病毒"
+        ],
+        "en": [
+          "HIV",
+          "Human Immunodeficiency Virus"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种能攻击人体免疫系统的病毒，可导致获得性免疫缺陷综合症（艾滋病）。",
+          "en": "A virus that attacks the body's immune system and can lead to Acquired Immunodeficiency Syndrome (AIDS)."
+        }
+      }
+    },
+    {
+      "id": "血液制品",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "血液制品"
+        ],
+        "en": [
+          "Blood products"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "从血液中提取的医疗产品，在此事件中成为HIV病毒的传播媒介。",
+          "en": "Medical products derived from human blood, which became the vector for HIV transmission in this incident."
+        }
+      }
+    },
+    {
+      "id": "厚生劳动省",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "厚生劳动省",
+          "厚生省"
+        ],
+        "en": [
+          "Ministry of Health, Labour and Welfare"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "日本",
+          "en": "Japan"
+        },
+        "description": {
+          "zh-cn": "日本负责医疗卫生和社会保障的中央政府部门。因在该事件中推迟批准安全的加热处理血液制品而受到批评。",
+          "en": "The central government ministry of Japan responsible for health, labour, and welfare. It was criticized for delaying the approval of safe, heat-treated blood products during this incident."
+        }
+      }
+    },
+    {
+      "id": "百特国际",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "百特国际"
+        ],
+        "en": [
+          "Baxter International"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "美国",
+          "en": "United States"
+        },
+        "description": {
+          "zh-cn": "一家美国医疗健康公司，于1983年开发出可杀死HIV病毒的热处理血液制品并向日本申请销售许可。",
+          "en": "An American healthcare company that developed heat-treated blood products capable of killing the HIV virus in 1983 and applied for sales approval in Japan."
+        }
+      }
+    },
+    {
+      "id": "绿十字公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "绿十字公司"
+        ],
+        "en": [
+          "Green Cross Corporation"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "日本",
+          "en": "Japan"
+        },
+        "description": {
+          "zh-cn": "日本主要的血液制品供应商，在药害爱滋事件中因自身尚未掌握热处理技术而抗议引进国外安全产品，从而影响了日本政府的决策。",
+          "en": "A major Japanese blood product supplier that, lacking its own heat treatment technology, protested the introduction of safer foreign products, thereby influencing the Japanese government's decision-making during the scandal."
+        }
+      }
+    },
+    {
+      "id": "川田龙平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "川田龙平"
+        ],
+        "en": [
+          "Ryuhei Kawada"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "第一位因血液制品受污染而感染艾滋病毒、并选择公开姓名的日本血友病患者，后当选为参议员。",
+          "en": "The first Japanese hemophiliac infected with HIV from contaminated blood products to publicly disclose his name; he was later elected as a member of the House of Councillors."
+        }
+      }
+    },
+    {
+      "id": "樱井良子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "樱井良子"
+        ],
+        "en": [
+          "Yoshiko Sakurai"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "批判厚生省在药害爱滋事件中不作为的日本记者。",
+          "en": "A Japanese journalist who criticized the Ministry of Health for its inaction in the HIV-tainted blood scandal."
+        }
+      }
+    },
+    {
+      "id": "血友病患者",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "血友病患者"
+        ],
+        "en": [
+          "Hemophiliacs"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "因遗传性凝血功能障碍而需要定期输注血液制品的群体，是日本药害爱滋事件的主要受害者。",
+          "en": "A group of people with a hereditary bleeding disorder requiring regular infusions of blood products, who were the main victims of the HIV-tainted blood scandal in Japan."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，是药害爱滋事件的发生地。",
+          "en": "An East Asian country where the HIV-tainted blood scandal occurred."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "HIV",
+      "target": "药害爱滋事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "HIV病毒污染了用于治疗的血液制品，是引发药害爱滋事件的根本原因。",
+          "en": "The HIV virus contaminated blood products used for treatment, which was the root cause of the HIV-tainted blood scandal."
+        }
+      }
+    },
+    {
+      "source": "血液制品",
+      "target": "药害爱滋事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "未经热处理的受污染血液制品被广泛使用，直接导致了HIV病毒的大规模传播和事件的发生。",
+          "en": "The widespread use of untreated, contaminated blood products directly led to the mass transmission of HIV and the occurrence of the scandal."
+        }
+      }
+    },
+    {
+      "source": "药害爱滋事件",
+      "target": "血友病患者",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "该事件导致日本约1800名血友病患者感染了HIV，其中约600人因此死亡。",
+          "en": "The event resulted in approximately 1,800 hemophiliacs in Japan being infected with HIV, with about 600 of them dying as a result."
+        }
+      }
+    },
+    {
+      "source": "药害爱滋事件",
+      "target": "川田龙平",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "川田龙平因使用了受污染的血液制品而感染了艾滋病毒，是该事件的受害者之一。",
+          "en": "Ryuhei Kawada was infected with HIV from using contaminated blood products, making him one of the victims of the event."
+        }
+      }
+    },
+    {
+      "source": "绿十字公司",
+      "target": "百特国际",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1983",
+        "description": {
+          "zh-cn": "绿十字公司因自身尚未掌握热处理技术，向厚生劳动省抗议引进百特国际的安全产品会造成不公平竞争，客观上阻碍了安全产品在日本的及时应用。",
+          "en": "Because it had not yet mastered heat treatment technology, Green Cross Corporation protested to the Ministry of Health that introducing Baxter International's safer product would create unfair competition, objectively hindering the timely application of the safe product in Japan."
+        }
+      }
+    },
+    {
+      "source": "百特国际",
+      "target": "厚生劳动省",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1983",
+        "description": {
+          "zh-cn": "1983年，百特国际向日本厚生劳动省申请销售其经过热处理、可杀死HIV病毒的新血液制品。",
+          "en": "In 1983, Baxter International applied to the Japanese Ministry of Health, Labour and Welfare to sell its new heat-treated blood product that could kill the HIV virus."
+        }
+      }
+    },
+    {
+      "source": "樱井良子",
+      "target": "厚生劳动省",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为记者，樱井良子公开批判厚生省在药害爱滋事件中的不作为。",
+          "en": "As a journalist, Yoshiko Sakurai publicly criticized the Ministry of Health for its inaction in the HIV-tainted blood scandal."
+        }
+      }
+    },
+    {
+      "source": "川田龙平",
+      "target": "厚生劳动省",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为受害者代表，川田龙平通过公开身份、社会活动及后来作为参议员的身份，持续对厚生劳动省及政府的责任进行追究和批判。",
+          "en": "As a representative of the victims, Ryuhei Kawada continuously pursued and criticized the responsibility of the Ministry of Health and the government through his public identity, social activities, and later as a member of the House of Councillors."
+        }
+      }
+    },
+    {
+      "source": "厚生劳动省",
+      "target": "日本",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "厚生劳动省是日本的中央政府部门之一。",
+          "en": "The Ministry of Health, Labour and Welfare is one of the central government ministries of Japan."
+        }
+      }
+    }
+  ]
+}

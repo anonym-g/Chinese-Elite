@@ -1,0 +1,254 @@
+{
+  "nodes": [
+    {
+      "id": "佘孟孝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "佘孟孝"
+        ],
+        "en": [
+          "She Mengxiao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1931 - 2023-01-22",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "苏州",
+          "en": "Suzhou"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任新华社香港分社副社长，中华人民共和国司法部副部长，中国法学会常务副会长、党组书记。",
+          "en": "A politician from the People's Republic of China, who served as the deputy director of the Hong Kong Branch of Xinhua News Agency, Vice Minister of Justice of the People's Republic of China, and the executive vice president and party group secretary of the China Law Society."
+        }
+      }
+    },
+    {
+      "id": "苏州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "苏州"
+        ],
+        "en": [
+          "Suzhou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "江苏省下辖的地级市，佘孟孝的出生地。",
+          "en": "A prefecture-level city in Jiangsu Province, birthplace of She Mengxiao."
+        }
+      }
+    },
+    {
+      "id": "新华社香港分社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新华社香港分社"
+        ],
+        "en": [
+          "Hong Kong Branch of Xinhua News Agency"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府派驻香港的官方新闻机构，在香港回归前实质上是北京在港的最高代表机构。佘孟孝曾在此任副社长。",
+          "en": "The official news agency of the People's Republic of China government stationed in Hong Kong, which effectively served as Beijing's highest representative body in the territory before its handover. She Mengxiao served as its deputy director."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国司法部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国司法部"
+        ],
+        "en": [
+          "Ministry of Justice of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院组成部门，主管全国司法行政工作。佘孟孝曾在此任副部长。",
+          "en": "A constituent department of the State Council of the People's Republic of China, responsible for national judicial administration. She Mengxiao served as its Vice Minister."
+        }
+      }
+    },
+    {
+      "id": "中国法学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国法学会"
+        ],
+        "en": [
+          "China Law Society"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国法学界、法律界人士组成的群众性学术团体，是中国共产党领导下的人民团体。佘孟孝曾在此任常务副会长、党组书记。",
+          "en": "A mass academic organization composed of individuals from China's legal and academic circles, operating as a people's organization under the leadership of the Communist Party of China. She Mengxiao served as its executive vice president and party group secretary."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。佘孟孝是其党员。",
+          "en": "The ruling political party of the People's Republic of China. She Mengxiao was a member."
+        }
+      }
+    },
+    {
+      "id": "江苏省苏州中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "江苏省苏州中学"
+        ],
+        "en": [
+          "Suzhou High School of Jiangsu Province"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于江苏省苏州市的著名中学，佘孟孝的母校。",
+          "en": "A renowned high school located in Suzhou, Jiangsu Province, and the alma mater of She Mengxiao."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央政法委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央政法委员会",
+          "中共中央政法委员会"
+        ],
+        "en": [
+          "Central Political and Legal Affairs Commission of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央委员会的直属机构，负责领导和管理全国政法工作。佘孟孝曾在此任副秘书长。",
+          "en": "A department directly under the Central Committee of the Communist Party of China, responsible for leading and managing the country's political and legal affairs. She Mengxiao served as its Deputy Secretary-General."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "佘孟孝",
+      "target": "苏州",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "佘孟孝是江苏苏州人。",
+          "en": "She Mengxiao was a native of Suzhou, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "佘孟孝",
+      "target": "新华社香港分社",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副社长",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "曾任新华社香港分社副社长。",
+          "en": "Served as the deputy director of the Hong Kong Branch of Xinhua News Agency."
+        }
+      }
+    },
+    {
+      "source": "佘孟孝",
+      "target": "中华人民共和国司法部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Vice Minister"
+        },
+        "description": {
+          "zh-cn": "曾任中华人民共和国司法部副部长。",
+          "en": "Served as the Vice Minister of Justice of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "佘孟孝",
+      "target": "中国法学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务副会长、党组书记",
+          "en": "Executive Vice President, Party Group Secretary"
+        },
+        "description": {
+          "zh-cn": "曾任中国法学会常务副会长、党组书记。",
+          "en": "Served as the executive vice president and party group secretary of the China Law Society."
+        }
+      }
+    },
+    {
+      "source": "佘孟孝",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，佘孟孝是中国共产党党员。",
+          "en": "According to the Wikipedia category, She Mengxiao was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "佘孟孝",
+      "target": "江苏省苏州中学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，佘孟孝是江苏省苏州中学校友。",
+          "en": "According to the Wikipedia category, She Mengxiao was an alumnus of Suzhou High School of Jiangsu Province."
+        }
+      }
+    },
+    {
+      "source": "佘孟孝",
+      "target": "中国共产党中央政法委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副秘书长",
+          "en": "Deputy Secretary-General"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，佘孟孝曾任中共中央政法委员会副秘书长。",
+          "en": "According to the Wikipedia category, She Mengxiao served as the Deputy Secretary-General of the Central Political and Legal Affairs Commission of the CCP."
+        }
+      }
+    }
+  ]
+}
