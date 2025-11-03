@@ -337,6 +337,11 @@ async def main():
                         logger.error(f"一个查询任务在执行中发生异常: {str(result)}")
                     elif isinstance(result, tuple): 
                         pageviews_cache[result[0]] = result[1]
+
+                # 如果当前处理的不是最后一个批次，暂停5秒
+                if i < total_batches - 1:
+                    logger.info(f"批次 {i+1} 处理完毕，暂停 5 秒以降低API请求频率...")
+                    await asyncio.sleep(5)
     else:
         logger.info("\n--- 步骤 2/3: 无需网络检查，跳过此步骤 ---")
 
