@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "id": "谢坚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢坚"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1967-12 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "湛江",
+          "en": "Zhanjiang"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，汉族，中国共产党党员。",
+          "en": "A politician of the People's Republic of China, of Han ethnicity, and a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "广东",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广东"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "湛江",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湛江"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国广东省下辖的地级市。",
+          "en": "A prefecture-level city in Guangdong province, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通称中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2018-03-05 - 2023-03-13",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届最高国家权力机关。",
+          "en": "The 13th National People's Congress of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "谢坚",
+      "target": "湛江",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "谢坚是广东湛江人。",
+          "en": "Xie Jian is from Zhanjiang, Guangdong."
+        }
+      }
+    },
+    {
+      "source": "谢坚",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "谢坚是中国共产党党员。",
+          "en": "Xie Jian is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "谢坚",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "广东地区代表",
+          "en": "Delegate for the Guangdong region"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，谢坚当选为第十三届全国人民代表大会广东地区代表。",
+          "en": "On February 24, 2018, Xie Jian was elected as a delegate representing the Guangdong region to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

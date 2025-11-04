@@ -1,0 +1,670 @@
+{
+  "nodes": [
+    {
+      "id": "安史之乱",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "安史之乱"
+        ],
+        "en": [
+          "An Lushan Rebellion"
+        ]
+      },
+      "properties": {
+        "period": "755-12-16 - 763-02-17",
+        "location": {
+          "zh-cn": "中国北方"
+        },
+        "description": {
+          "zh-cn": "中国唐朝中期爆发的一场大规模内战，被视为唐朝由盛转衰的关键事件。",
+          "en": "A large-scale civil war that broke out in the mid-Tang Dynasty of China, considered a key event marking the dynasty's decline from its peak."
+        }
+      }
+    },
+    {
+      "id": "安禄山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安禄山"
+        ],
+        "en": [
+          "An Lushan"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 757-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝三镇节度使，安史之乱的发动者，建立大燕政权。",
+          "en": "A military governor of three regions in the Tang Dynasty, initiator of the An Lushan Rebellion, and founder of the Yan state."
+        }
+      }
+    },
+    {
+      "id": "史思明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "史思明"
+        ],
+        "en": [
+          "Shi Siming"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 761-03",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "安禄山部将，安史之乱主要领导人之一，后称大燕皇帝。",
+          "en": "A general under An Lushan and a key leader of the An Lushan Rebellion, later proclaimed himself emperor of Yan."
+        }
+      }
+    },
+    {
+      "id": "唐朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "唐朝"
+        ],
+        "en": [
+          "Tang dynasty"
+        ]
+      },
+      "properties": {
+        "period": "618 - 907",
+        "location": {
+          "zh-cn": "中国"
+        },
+        "description": {
+          "zh-cn": "中国历史上的朝代，安史之乱导致其国力由盛转衰。",
+          "en": "A dynasty in Chinese history whose power declined from its peak due to the An Lushan Rebellion."
+        }
+      }
+    },
+    {
+      "id": "杨国忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨国忠"
+        ],
+        "en": [
+          "Yang Guozhong"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 756",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝宰相，杨贵妃的堂兄。与安禄山不和，是安史之乱的导火索之一，后在马嵬驿兵变中被杀。",
+          "en": "Chancellor of the Tang Dynasty and cousin of Imperial Consort Yang. His conflict with An Lushan was a major catalyst for the rebellion, and he was killed during the Mawei Mutiny."
+        }
+      }
+    },
+    {
+      "id": "藩镇割据",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "藩镇割据"
+        ],
+        "en": [
+          "Fanzhen"
+        ]
+      },
+      "properties": {
+        "period": "763 - 907",
+        "location": {
+          "zh-cn": "中国"
+        },
+        "description": {
+          "zh-cn": "唐朝中晚期，地方节度使拥兵自重，不受中央政府控制的政治局面，是安史之乱的直接后果。",
+          "en": "A political situation in the mid-to-late Tang Dynasty where regional military governors (jiedushi) held autonomous power, a direct consequence of the An Lushan Rebellion."
+        }
+      }
+    },
+    {
+      "id": "开元盛世",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "开元盛世"
+        ],
+        "en": [
+          "Kaiyuan era"
+        ]
+      },
+      "properties": {
+        "period": "713 - 741",
+        "location": {
+          "zh-cn": "唐朝"
+        },
+        "description": {
+          "zh-cn": "唐玄宗统治前期唐朝的鼎盛时期，因安史之乱而终结。",
+          "en": "The golden age of the Tang Dynasty during the early reign of Emperor Xuanzong, which came to an end with the An Lushan Rebellion."
+        }
+      }
+    },
+    {
+      "id": "吐蕃",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吐蕃"
+        ],
+        "en": [
+          "Tibetan Empire"
+        ]
+      },
+      "properties": {
+        "period": "618 - 842",
+        "description": {
+          "zh-cn": "与唐朝同时期的帝国，趁安史之乱占领了唐朝的西域和河西走廊。",
+          "en": "An empire contemporary with the Tang Dynasty, which took advantage of the An Lushan Rebellion to occupy the Western Regions and the Hexi Corridor from Tang."
+        }
+      }
+    },
+    {
+      "id": "大燕 (安史之乱)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大燕 (安史之乱)",
+          "大燕"
+        ],
+        "en": [
+          "Yan (An–Shi)"
+        ]
+      },
+      "properties": {
+        "period": "756 - 763",
+        "description": {
+          "zh-cn": "由安禄山建立的叛乱政权，与唐朝对抗。",
+          "en": "A rebel state established by An Lushan that fought against the Tang Dynasty."
+        }
+      }
+    },
+    {
+      "id": "回鹘汗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "回鹘汗国",
+          "回纥"
+        ],
+        "en": [
+          "Uyghur Khaganate"
+        ]
+      },
+      "properties": {
+        "period": "744 - 840",
+        "description": {
+          "zh-cn": "唐朝的盟友，曾出兵协助唐朝平定安史之乱。",
+          "en": "An ally of the Tang Dynasty that dispatched troops to help quell the An Lushan Rebellion."
+        }
+      }
+    },
+    {
+      "id": "安庆绪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安庆绪"
+        ],
+        "en": [
+          "An Qingxu"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 759",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "安禄山之子，弑父称帝，后被史思明所杀。",
+          "en": "Son of An Lushan, who assassinated his father to usurp the throne and was later killed by Shi Siming."
+        }
+      }
+    },
+    {
+      "id": "史朝义",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "史朝义"
+        ],
+        "en": [
+          "Shi Chaoyi"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 763",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "史思明之子，弑父称帝，后兵败自尽，安史之乱结束。",
+          "en": "Son of Shi Siming, who assassinated his father to usurp the throne. His defeat and suicide marked the end of the An Lushan Rebellion."
+        }
+      }
+    },
+    {
+      "id": "马嵬驿兵变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "马嵬驿兵变"
+        ],
+        "en": [
+          "Mawei Mutiny"
+        ]
+      },
+      "properties": {
+        "period": "756-07-15 - 756-07-15",
+        "location": {
+          "zh-cn": "马嵬坡"
+        },
+        "description": {
+          "zh-cn": "唐玄宗逃亡途中，禁军将领陈玄礼率兵发动的兵变，处死了杨国忠和杨贵妃。",
+          "en": "A mutiny launched by imperial guard general Chen Xuanli during Emperor Xuanzong's flight, resulting in the executions of Yang Guozhong and Imperial Consort Yang."
+        }
+      }
+    },
+    {
+      "id": "杨贵妃",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨贵妃"
+        ],
+        "en": [
+          "Yang Guifei"
+        ]
+      },
+      "properties": {
+        "lifetime": "719 - 756",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "唐玄宗的宠妃，在马嵬驿兵变中被赐死。",
+          "en": "The beloved consort of Emperor Xuanzong of Tang, who was forced to commit suicide during the Mawei Mutiny."
+        }
+      }
+    },
+    {
+      "id": "陈玄礼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈玄礼"
+        ],
+        "en": [
+          "Chen Xuanli"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝龙武大将军，在马嵬坡发动兵变，处死杨国忠。",
+          "en": "A general of the Tang Dynasty who initiated the mutiny at Mawei Post, leading to the execution of Yang Guozhong."
+        }
+      }
+    },
+    {
+      "id": "唐玄宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐玄宗",
+          "李隆基"
+        ],
+        "en": [
+          "Emperor Xuanzong of Tang"
+        ]
+      },
+      "properties": {
+        "lifetime": "685 - 762",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝在位时间最长的皇帝，前期开创开元盛世，后期因怠政导致安史之乱爆发，并在乱中退位。",
+          "en": "The longest-reigning emperor of the Tang Dynasty. He presided over the golden age of Kaiyuan in his early reign, but his later neglect of governance led to the An Lushan Rebellion, during which he abdicated."
+        }
+      }
+    },
+    {
+      "id": "郭子仪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭子仪"
+        ],
+        "en": [
+          "Guo Ziyi"
+        ]
+      },
+      "properties": {
+        "lifetime": "697 - 781",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝名将，在平定安史之乱中起到关键作用。",
+          "en": "A famous general of the Tang Dynasty who played a crucial role in suppressing the An Lushan Rebellion."
+        }
+      }
+    },
+    {
+      "id": "鱼朝恩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鱼朝恩"
+        ],
+        "en": [
+          "Yu Chao'en"
+        ]
+      },
+      "properties": {
+        "lifetime": "722 - 770",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝宦官，曾谗毁郭子仪，导致其被解除兵权。",
+          "en": "A Tang Dynasty eunuch who slandered Guo Ziyi, leading to the general being stripped of his military command."
+        }
+      }
+    },
+    {
+      "id": "李林甫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李林甫"
+        ],
+        "en": [
+          "Li Linfu"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 753",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐玄宗时期宰相，为巩固权位建议重用胡人将领，间接为安禄山坐大提供了条件。",
+          "en": "A chancellor during Emperor Xuanzong's reign. To consolidate his power, he advocated for the use of non-Han generals, which indirectly contributed to An Lushan's rise."
+        }
+      }
+    },
+    {
+      "id": "西域",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "西域"
+        ],
+        "en": [
+          "Western Regions"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国历史地理名词，指玉门关、阳关以西的地区。安史之乱后，唐朝失去对此地的控制。",
+          "en": "A historical-geographical term in China referring to the areas west of Yumen Pass and Yang Pass. The Tang Dynasty lost control over this region after the An Lushan Rebellion."
+        }
+      }
+    },
+    {
+      "id": "河西走廊",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河西走廊"
+        ],
+        "en": [
+          "Hexi Corridor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国甘肃省西北部的狭长走廊地带。安史之乱后，唐朝失去对此地的控制。",
+          "en": "A narrow corridor in the northwestern part of China's Gansu Province. The Tang Dynasty lost control over this region after the An Lushan Rebellion."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "安禄山",
+      "target": "安史之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "755-12-16",
+        "description": {
+          "zh-cn": "安禄山以讨伐杨国忠为名，于755年12月16日在范阳起兵，发动了安史之乱。",
+          "en": "Under the pretext of crusading against Yang Guozhong, An Lushan launched the An Lushan Rebellion from Fanyang on December 16, 755."
+        }
+      }
+    },
+    {
+      "source": "史思明",
+      "target": "安史之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "755-12-16",
+        "description": {
+          "zh-cn": "史思明作为安禄山的主要部将，共同发动了安史之乱。",
+          "en": "As one of An Lushan's key generals, Shi Siming co-initiated the An Lushan Rebellion."
+        }
+      }
+    },
+    {
+      "source": "安禄山",
+      "target": "杨国忠",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杨国忠忌恨安禄山并多次向玄宗揭发其谋反，安禄山则以讨伐杨国忠为名起兵，二人矛盾是叛乱的直接导火索。",
+          "en": "Yang Guozhong resented An Lushan and repeatedly accused him of treason to the emperor. In turn, An Lushan launched his rebellion under the pretext of removing Yang. Their conflict was a direct catalyst for the rebellion."
+        }
+      }
+    },
+    {
+      "source": "李林甫",
+      "target": "安禄山",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "宰相李林甫为杜绝边将入相，建议唐玄宗任用胡人为节度使，使得安禄山得以掌握重兵，为其叛乱创造了条件。",
+          "en": "To prevent border generals from becoming chancellors, Li Linfu advised Emperor Xuanzong to appoint non-Han individuals as military governors, which allowed An Lushan to command a large army and created the conditions for his rebellion."
+        }
+      }
+    },
+    {
+      "source": "安史之乱",
+      "target": "唐朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "755-12-16",
+        "end_date": "763-02-17",
+        "description": {
+          "zh-cn": "安史之乱对唐朝国力造成了毁灭性削弱，是唐朝由盛转衰的关键转折点。",
+          "en": "The An Lushan Rebellion devastatingly weakened the Tang Dynasty's national strength and was the key turning point from its peak to its decline."
+        }
+      }
+    },
+    {
+      "source": "安史之乱",
+      "target": "开元盛世",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "755-12-16",
+        "description": {
+          "zh-cn": "安史之乱的爆发终结了唐玄宗前期开创的开元盛世。",
+          "en": "The outbreak of the An Lushan Rebellion brought an end to the Kaiyuan Era of prosperity established during the early reign of Emperor Xuanzong."
+        }
+      }
+    },
+    {
+      "source": "安史之乱",
+      "target": "藩镇割据",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "763",
+        "description": {
+          "zh-cn": "战后，唐朝为招降叛将而分封节度使，导致了地方势力拥兵自重、不受中央控制的藩镇割据局面。",
+          "en": "After the rebellion, the Tang court enfeoffed surrendered rebel generals as military governors to bring a swift end to the war, which led to the Fanzhen system where regional powers became militarily autonomous and beyond central control."
+        }
+      }
+    },
+    {
+      "source": "安史之乱",
+      "target": "吐蕃",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "755",
+        "description": {
+          "zh-cn": "安史之乱导致唐朝边防空虚，吐蕃帝国乘机出兵占领了原属唐朝的西域和河西走廊。",
+          "en": "The An Lushan Rebellion left the Tang Dynasty's borders vulnerable, allowing the Tibetan Empire to seize the opportunity to invade and occupy the Western Regions and Hexi Corridor, which were previously under Tang control."
+        }
+      }
+    },
+    {
+      "source": "吐蕃",
+      "target": "西域",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "755",
+        "description": {
+          "zh-cn": "趁安史之乱，吐蕃占领了西域地区。",
+          "en": "Taking advantage of the An Lushan Rebellion, the Tibetan Empire occupied the Western Regions."
+        }
+      }
+    },
+    {
+      "source": "吐蕃",
+      "target": "河西走廊",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "755",
+        "description": {
+          "zh-cn": "趁安史之乱，吐蕃占领了河西走廊。",
+          "en": "Taking advantage of the An Lushan Rebellion, the Tibetan Empire occupied the Hexi Corridor."
+        }
+      }
+    },
+    {
+      "source": "唐朝",
+      "target": "大燕 (安史之乱)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "755-12-16",
+        "end_date": "763-02-17",
+        "description": {
+          "zh-cn": "安史之乱期间，唐朝与安禄山建立的大燕政权是主要交战双方。",
+          "en": "During the An Lushan Rebellion, the Tang Dynasty and the Yan state founded by An Lushan were the main belligerents."
+        }
+      }
+    },
+    {
+      "source": "回鹘汗国",
+      "target": "唐朝",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "作为唐朝的盟友，回鹘汗国曾出兵协助唐军平定安史之乱，收复两京。",
+          "en": "As an ally of the Tang Dynasty, the Uyghur Khaganate dispatched troops to assist the Tang army in quelling the An Lushan Rebellion and recapturing the two capitals."
+        }
+      }
+    },
+    {
+      "source": "安禄山",
+      "target": "大燕 (安史之乱)",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "756-01",
+        "description": {
+          "zh-cn": "756年正月初一，安禄山在洛阳称帝，国号“大燕”。",
+          "en": "On the first day of the first lunar month in 756, An Lushan proclaimed himself emperor in Luoyang, establishing the state of 'Great Yan'."
+        }
+      }
+    },
+    {
+      "source": "安庆绪",
+      "target": "安禄山",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "757-01",
+        "description": {
+          "zh-cn": "757年正月，安庆绪杀害其父安禄山，自立为帝。",
+          "en": "In the first lunar month of 757, An Qingxu assassinated his father An Lushan and declared himself emperor."
+        }
+      }
+    },
+    {
+      "source": "史思明",
+      "target": "安庆绪",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "759",
+        "description": {
+          "zh-cn": "史思明于759年杀死安庆绪，并接收了其部队。",
+          "en": "Shi Siming killed An Qingxu in 759 and took control of his forces."
+        }
+      }
+    },
+    {
+      "source": "史朝义",
+      "target": "史思明",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "761-03",
+        "description": {
+          "zh-cn": "761年三月，史朝义发动兵变，杀死了其父史思明。",
+          "en": "In the third lunar month of 761, Shi Chaoyi launched a coup and killed his father, Shi Siming."
+        }
+      }
+    },
+    {
+      "source": "陈玄礼",
+      "target": "马嵬驿兵变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "756-07-15",
+        "description": {
+          "zh-cn": "在马嵬坡，龙武大将军陈玄礼率兵逼宫，请求处死杨国忠和杨贵妃，从而发动了兵变。",
+          "en": "At Mawei Post, General Chen Xuanli led his troops to surround the imperial entourage, demanding the execution of Yang Guozhong and Imperial Consort Yang, thereby initiating the mutiny."
+        }
+      }
+    },
+    {
+      "source": "马嵬驿兵变",
+      "target": "杨国忠",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "756-07-15",
+        "description": {
+          "zh-cn": "在马嵬驿兵变中，哗变的士兵将宰相杨国忠乱刀砍死。",
+          "en": "During the Mawei Mutiny, mutinous soldiers hacked Chancellor Yang Guozhong to death."
+        }
+      }
+    },
+    {
+      "source": "马嵬驿兵变",
+      "target": "杨贵妃",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "756-07-15",
+        "description": {
+          "zh-cn": "在马嵬驿兵变中，为平息军心，唐玄宗被迫下诏缢死杨贵妃。",
+          "en": "During the Mawei Mutiny, to appease the troops, Emperor Xuanzong was forced to order the strangulation of Imperial Consort Yang."
+        }
+      }
+    },
+    {
+      "source": "鱼朝恩",
+      "target": "郭子仪",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "759",
+        "description": {
+          "zh-cn": "在邺城之战后，宦官鱼朝恩向皇帝谗毁郭子仪，导致郭子仪被召回长安并解除兵权。",
+          "en": "After the Battle of Yecheng, the eunuch Yu Chao'en slandered Guo Ziyi to the emperor, which led to Guo Ziyi being recalled to Chang'an and stripped of his military command."
+        }
+      }
+    }
+  ]
+}

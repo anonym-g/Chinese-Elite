@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "吕德康",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕德康"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1933 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "运城",
+          "en": "Yuncheng"
+        },
+        "description": {
+          "zh-cn": "中国舞美设计师，一级舞美设计，曾任中国青年艺术剧院党委书记。",
+          "en": "Chinese stage designer, first-class stage designer, and former Party Secretary of the China Youth Art Theatre."
+        }
+      }
+    },
+    {
+      "id": "运城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "运城"
+        ],
+        "en": [
+          "Yuncheng"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国青年艺术剧院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国青年艺术剧院"
+        ],
+        "en": [
+          "China Youth Art Theatre"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中央戏剧学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央戏剧学院"
+        ],
+        "en": [
+          "Central Academy of Drama"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "山西",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山西"
+        ],
+        "en": [
+          "Shanxi"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "吕德康",
+      "target": "运城",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "吕德康",
+      "target": "中国青年艺术剧院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委书记",
+          "en": "Party Secretary"
+        },
+        "description": {
+          "zh-cn": "吕德康曾担任中国青年艺术剧院的党委书记。",
+          "en": "Lü Dekang once served as the Party Secretary of the China Youth Art Theatre."
+        }
+      }
+    },
+    {
+      "source": "吕德康",
+      "target": "中央戏剧学院",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "吕德康",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        }
+      }
+    }
+  ]
+}

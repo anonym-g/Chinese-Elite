@@ -1,0 +1,688 @@
+{
+  "nodes": [
+    {
+      "id": "聂曦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "聂曦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1917-09-06 - 1950-06-10",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "闽清县",
+          "en": "Minqing County"
+        },
+        "death_place": {
+          "zh-cn": "马场町纪念公园",
+          "en": "Machangding Memorial Park"
+        },
+        "description": {
+          "zh-cn": "中华民国国军上校，实际为中国共产党地下党员，长期担任吴石的副官。因卷入“吴石、朱谌之间谍案”而被处决。",
+          "en": "A colonel in the Republic of China Armed Forces who was actually an underground member of the Communist Party of China and served as a long-term aide-de-camp to Wu Shi. He was executed for his involvement in the 'Wu Shi and Zhu Feng espionage case'."
+        }
+      }
+    },
+    {
+      "id": "吴石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴石"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国国防部参谋次长，中将。他秘密加入中国共产党，在台湾为中共搜集军事情报，事败后在“吴石、朱谌之间谍案”中被处决。",
+          "en": "Deputy Chief of Staff of the Ministry of National Defense of the Republic of China, with the rank of Lieutenant General. He secretly joined the Communist Party of China and collected military intelligence for the CCP in Taiwan. He was executed in the 'Wu Shi and Zhu Feng espionage case' after his activities were exposed."
+        }
+      }
+    },
+    {
+      "id": "吴石、朱谌之间谍案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "吴石、朱谌之间谍案",
+          "吴石共谍案",
+          "吴石案"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1950",
+        "location": {
+          "zh-cn": "台湾",
+          "en": "Taiwan"
+        },
+        "description": {
+          "zh-cn": "1950年代台湾白色恐怖时期的一起著名间谍案，导致时任中华民国国防部参谋次长吴石中将及聂曦、朱枫、陈宝仓等人被处决。",
+          "en": "A famous espionage case during Taiwan's White Terror period in the 1950s, which led to the execution of Lieutenant General Wu Shi, then Deputy Chief of Staff of the Ministry of National Defense of the Republic of China, as well as Nie Xi, Zhu Feng, Chen Baocang, and others."
+        }
+      }
+    },
+    {
+      "id": "马场町纪念公园",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "马场町纪念公园",
+          "马场町"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "台北市",
+          "en": "Taipei City"
+        },
+        "description": {
+          "zh-cn": "位于台北市的公园，在台湾白色恐怖时期曾是国民党政府用来枪决政治犯的刑场。",
+          "en": "A park in Taipei City that was used as an execution ground for political prisoners by the KMT government during Taiwan's White Terror period."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "国防部政务办公室史政编译处",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国防部政务办公室史政编译处",
+          "国防部史政局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国国防部的下属机构，负责史料和政治文件的编译工作。",
+          "en": "A subordinate agency of the Ministry of National Defense of the Republic of China, responsible for compiling historical materials and political documents."
+        }
+      }
+    },
+    {
+      "id": "东南军政长官公署",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东南军政长官公署"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1949年至1950年间中华民国政府在台湾设立的最高军政指挥机构。",
+          "en": "The highest military and political command institution established by the government of the Republic of China in Taiwan between 1949 and 1950."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "PRC"
+        ],
+        "en": [
+          "People's Republic of China",
+          "PRC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国共产党领导的社会主义国家，成立于1949年。",
+          "en": "A socialist state led by the Communist Party of China, founded in 1949."
+        }
+      }
+    },
+    {
+      "id": "闽清县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "闽清县"
+        ],
+        "en": [
+          "Minqing County"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "福建省福州市",
+          "en": "Fuzhou, Fujian"
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的主要武装力量。",
+          "en": "The principal military force of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "王正均",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王正均"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中共地下党员，聂曦在福州的邻居。经聂曦介绍接替其职位，担任国防部参谋次长办公室少校副官。",
+          "en": "An underground member of the CCP and Nie Xi's neighbor in Fuzhou. He was introduced by Nie Xi to take over his position as a Major aide-de-camp in the office of the Deputy Chief of Staff of the Ministry of National Defense."
+        }
+      }
+    },
+    {
+      "id": "朱枫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱枫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中共华东局派遣的交通员，负责与吴石接触传递情报。在“吴石、朱谌之间谍案”中被捕并被处决。",
+          "en": "A courier dispatched by the East China Bureau of the CCP, responsible for contacting Wu Shi and transmitting intelligence. She was arrested and executed in the 'Wu Shi and Zhu Feng espionage case'."
+        }
+      }
+    },
+    {
+      "id": "蔡孝干",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡孝干"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中国共产党台湾省工作委员会书记。其被捕是“吴石、朱谌之间谍案”爆发的导火索。",
+          "en": "Then-secretary of the Taiwan Provincial Work Committee of the Communist Party of China. His arrest was the trigger for the 'Wu Shi and Zhu Feng espionage case'."
+        }
+      }
+    },
+    {
+      "id": "光明报事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "光明报事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1949年发生的一起政治案件，导致中国共产党在台湾的地下组织遭到严重破坏，并间接引发了“吴石、朱谌之间谍案”。",
+          "en": "A political case that occurred in 1949, which severely damaged the CCP's underground organization in Taiwan and indirectly triggered the 'Wu Shi and Zhu Feng espionage case'."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中华民国总统与国民党总裁。在“吴石、朱谌之间谍案”中，他驳回了为吴石等人求情的请求，下令将其处决。",
+          "en": "Then-President of the Republic of China and Director-General of the Kuomintang. In the 'Wu Shi and Zhu Feng espionage case', he rejected pleas for clemency for Wu Shi and others and ordered their execution."
+        }
+      }
+    },
+    {
+      "id": "蒋鼎文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋鼎文"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军上将，被蒋中正指派负责审判吴石案。他曾联名向蒋中正求情，希望宽大处理吴石等人，但未被采纳。",
+          "en": "A general of the Republic of China Army, appointed by Chiang Kai-shek to preside over the trial of the Wu Shi case. He jointly pleaded with Chiang Kai-shek for leniency for Wu Shi and others, but his plea was rejected."
+        }
+      }
+    },
+    {
+      "id": "韩德勤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩德勤"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军上将，被指派负责审判吴石案。他曾联名向蒋中正求情，希望宽大处理吴石等人，但未被采纳。",
+          "en": "A general of the Republic of China Army, appointed to preside over the trial of the Wu Shi case. He jointly pleaded with Chiang Kai-shek for leniency for Wu Shi and others, but his plea was rejected."
+        }
+      }
+    },
+    {
+      "id": "刘咏尧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘咏尧"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军上将，被指派负责审判吴石案。他曾联名向蒋中正求情，希望宽大处理吴石等人，但未被采纳。",
+          "en": "A general of the Republic of China Army, appointed to preside over the trial of the Wu Shi case. He jointly pleaded with Chiang Kai-shek for leniency for Wu Shi and others, but his plea was rejected."
+        }
+      }
+    },
+    {
+      "id": "陈宝仓",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈宝仓"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国国军中将，因卷入“吴石、朱谌之间谍案”而被处决。",
+          "en": "A Lieutenant General in the Republic of China Armed Forces who was executed for his involvement in the 'Wu Shi and Zhu Feng espionage case'."
+        }
+      }
+    },
+    {
+      "id": "无名英雄广场",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "无名英雄广场"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京西山国家森林公园",
+          "en": "Beijing Xishan National Forest Park"
+        },
+        "description": {
+          "zh-cn": "为纪念1950年代在台湾被处决的中国共产党“隐蔽战线烈士”而设立，聂曦的名字被铭刻在纪念碑上。",
+          "en": "Established to commemorate the CCP's 'hidden front martyrs' executed in Taiwan in the 1950s. Nie Xi's name is inscribed on the monument."
+        }
+      }
+    },
+    {
+      "id": "中华民国陆军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国陆军"
+        ],
+        "en": [
+          "Republic of China Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的陆上武装部队。",
+          "en": "The ground branch of the Republic of China Armed Forces."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "聂曦",
+      "target": "吴石",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1941",
+        "position": {
+          "zh-cn": "副官",
+          "en": "Aide-de-camp"
+        },
+        "description": {
+          "zh-cn": "聂曦自1941年起长期担任吴石的副官。",
+          "en": "Nie Xi served as Wu Shi's long-term aide-de-camp starting from 1941."
+        }
+      }
+    },
+    {
+      "source": "聂曦",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "地下党员",
+          "en": "Underground member"
+        },
+        "description": {
+          "zh-cn": "聂曦是中国共产党的秘密地下党员。",
+          "en": "Nie Xi was a secret underground member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "聂曦",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "聂曦实际上为中华人民共和国（中共）搜集情报。",
+          "en": "Nie Xi was de facto working for the People's Republic of China (CCP) by gathering intelligence."
+        }
+      }
+    },
+    {
+      "source": "聂曦",
+      "target": "中华民国陆军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "上校",
+          "en": "Colonel"
+        },
+        "description": {
+          "zh-cn": "聂曦在中华民国陆军的军衔为上校。",
+          "en": "Nie Xi held the rank of Colonel in the Republic of China Army."
+        }
+      }
+    },
+    {
+      "source": "聂曦",
+      "target": "国防部政务办公室史政编译处",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总务组组长",
+          "en": "Head of the General Affairs Section"
+        },
+        "description": {
+          "zh-cn": "聂曦曾担任国防部史政局总务组组长。",
+          "en": "Nie Xi once served as the Head of the General Affairs Section of the Historical and Political Compilation Bureau of the Ministry of National Defense."
+        }
+      }
+    },
+    {
+      "source": "聂曦",
+      "target": "东南军政长官公署",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总务处交际科科长",
+          "en": "Chief of the Public Relations Section, General Affairs Department"
+        },
+        "description": {
+          "zh-cn": "聂曦赴台后担任东南军政长官公署总务处交际科上校科长。",
+          "en": "After going to Taiwan, Nie Xi served as the Chief of the Public Relations Section in the General Affairs Department of the Southeast Military and Political Administrator's Office, with the rank of Colonel."
+        }
+      }
+    },
+    {
+      "source": "吴石、朱谌之间谍案",
+      "target": "聂曦",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1950-06-10",
+        "description": {
+          "zh-cn": "因卷入“吴石案”，聂曦被判处死刑，并于1950年6月10日在台北马场町被枪决。",
+          "en": "Due to his involvement in the 'Wu Shi case', Nie Xi was sentenced to death and executed by firing squad at Machangding, Taipei on June 10, 1950."
+        }
+      }
+    },
+    {
+      "source": "聂曦",
+      "target": "闽清县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "聂曦",
+      "target": "王正均",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "聂曦在福州与邻居王正均交好，两人同为中共地下党员。",
+          "en": "Nie Xi was on good terms with his neighbor Wang Zhengjun in Fuzhou; both were underground members of the CCP."
+        }
+      }
+    },
+    {
+      "source": "聂曦",
+      "target": "王正均",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "聂曦介绍王正均接替其职位，担任国防部参谋次长办公室少校副官。",
+          "en": "Nie Xi introduced Wang Zhengjun to take over his position as a Major aide-de-camp in the office of the Deputy Chief of Staff of the Ministry of National Defense."
+        }
+      }
+    },
+    {
+      "source": "吴石",
+      "target": "中国人民解放军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949",
+        "description": {
+          "zh-cn": "在1949年福州战役前夕，吴石安排聂曦等人将机密资料移交给解放军第十兵团司令部。",
+          "en": "On the eve of the Fuzhou Campaign in 1949, Wu Shi arranged for Nie Xi and others to transfer confidential materials to the headquarters of the 10th Corps of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "吴石",
+      "target": "朱枫",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1949-11",
+        "description": {
+          "zh-cn": "1949年11月，中共华东局派遣交通员朱枫赴台，负责与吴石接触以传递情报。",
+          "en": "In November 1949, the East China Bureau of the CCP dispatched courier Zhu Feng to Taiwan to make contact with Wu Shi for intelligence transmission."
+        }
+      }
+    },
+    {
+      "source": "光明报事件",
+      "target": "蔡孝干",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "光明报事件导致时任台湾省工委书记蔡孝干被捕。",
+          "en": "The Guangming Daily incident led to the arrest of Cai Xiaogan, then-secretary of the Taiwan Provincial Work Committee."
+        }
+      }
+    },
+    {
+      "source": "蔡孝干",
+      "target": "吴石、朱谌之间谍案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1950-01",
+        "description": {
+          "zh-cn": "蔡孝干被捕是吴石案的导火索。情治单位通过其随身物品中的线索（朱枫的照片）进行追查，最终导致吴石等人的间谍网络被破获。",
+          "en": "The arrest of Cai Xiaogan triggered the Wu Shi case. Intelligence units followed leads from items found on his person (a photo of Zhu Feng), which ultimately led to the uncovering of the espionage network involving Wu Shi and others."
+        }
+      }
+    },
+    {
+      "source": "吴石、朱谌之间谍案",
+      "target": "吴石",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1950-06-10",
+        "description": {
+          "zh-cn": "作为主犯，吴石被判处死刑，并于1950年6月10日在台北马场町被枪决。",
+          "en": "As the main culprit, Wu Shi was sentenced to death and executed by firing squad at Machangding, Taipei on June 10, 1950."
+        }
+      }
+    },
+    {
+      "source": "吴石、朱谌之间谍案",
+      "target": "朱枫",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1950-06-10",
+        "description": {
+          "zh-cn": "因卷入“吴石案”，朱枫被判处死刑，并于1950年6月10日在台北马场町被枪决。",
+          "en": "Due to her involvement in the 'Wu Shi case', Zhu Feng was sentenced to death and executed by firing squad at Machangding, Taipei on June 10, 1950."
+        }
+      }
+    },
+    {
+      "source": "吴石、朱谌之间谍案",
+      "target": "陈宝仓",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1950-06-10",
+        "description": {
+          "zh-cn": "因卷入“吴石案”，陈宝仓被判处死刑，并于1950年6月10日在台北马场町被枪决。",
+          "en": "Due to his involvement in the 'Wu Shi case', Chen Baocang was sentenced to death and executed by firing squad at Machangding, Taipei on June 10, 1950."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "吴石",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1950-05",
+        "description": {
+          "zh-cn": "蒋中正驳回了蒋鼎文等人为吴石求情的请求，坚持判处其死刑。",
+          "en": "Chiang Kai-shek rejected the plea for clemency for Wu Shi made by Jiang Dingwen and others, insisting on the death penalty."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "蒋鼎文",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1950",
+        "description": {
+          "zh-cn": "因蒋鼎文为吴石等人说情，蒋中正感到震怒，并将其革除原职。",
+          "en": "Chiang Kai-shek was furious that Jiang Dingwen pleaded for Wu Shi and others, and subsequently removed him from his original post."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "韩德勤",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1950",
+        "description": {
+          "zh-cn": "因韩德勤为吴石等人说情，蒋中正感到震怒，并将其革除原职。",
+          "en": "Chiang Kai-shek was furious that Han Deqin pleaded for Wu Shi and others, and subsequently removed him from his original post."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "刘咏尧",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1950",
+        "description": {
+          "zh-cn": "因刘咏尧为吴石等人说情，蒋中正感到震怒，并将其革除原职。",
+          "en": "Chiang Kai-shek was furious that Liu Yongyao pleaded for Wu Shi and others, and subsequently removed him from his original post."
+        }
+      }
+    },
+    {
+      "source": "蒋鼎文",
+      "target": "吴石",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1950-05",
+        "description": {
+          "zh-cn": "作为审理吴石案的负责人之一，联名向蒋中正求情，希望对吴石等人宽大处理。",
+          "en": "As one of the officials in charge of the Wu Shi case trial, he jointly pleaded with Chiang Kai-shek for leniency towards Wu Shi and the others."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "吴石",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1965",
+        "description": {
+          "zh-cn": "1965年，中华人民共和国追认吴石为革命烈士。",
+          "en": "In 1965, the People's Republic of China posthumously recognized Wu Shi as a revolutionary martyr."
+        }
+      }
+    },
+    {
+      "source": "无名英雄广场",
+      "target": "聂曦",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2013-10",
+        "description": {
+          "zh-cn": "聂曦的名字被铭刻于北京西山国家森林公园无名英雄广场的纪念碑上，以示纪念。",
+          "en": "Nie Xi's name is inscribed on the monument at the Unnamed Heroes Square in Beijing Xishan National Forest Park to commemorate him."
+        }
+      }
+    }
+  ]
+}

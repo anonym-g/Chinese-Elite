@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "董学书",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "董学书"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1935-02 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国蚊虫研究专家，曾任云南省寄生虫病防治所研究员。",
+          "en": "A Chinese expert in mosquito research, formerly a researcher at the Yunnan Provincial Institute of Parasitic Diseases Control."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Chinese Communist Party",
+          "CCP"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党。",
+          "en": "The ruling political party of China."
+        }
+      }
+    },
+    {
+      "id": "云南省寄生虫病防治所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "云南省寄生虫病防治所"
+        ],
+        "en": [
+          "Yunnan Provincial Institute of Parasitic Diseases Control"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "云南科技出版社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "云南科技出版社",
+          "云南科学技术出版社"
+        ],
+        "en": [
+          "Yunnan Science and Technology Press"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国按蚊分类检索",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国按蚊分类检索"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由董学书撰写，云南科技出版社于2014年出版的关于中国按蚊分类的著作。",
+          "en": "A work on the classification of Anopheles in China, written by Dong Xueshu and published by Yunnan Science and Technology Press in 2014."
+        }
+      }
+    },
+    {
+      "id": "中国覆蚊属",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国覆蚊属"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由董学书撰写，云南科技出版社于2019年8月出版的关于中国覆蚊属的著作。",
+          "en": "A work on the Aedine mosquitoes of China, written by Dong Xueshu and published by Yunnan Science and Technology Press in August 2019."
+        }
+      }
+    },
+    {
+      "id": "云南按蚊检索图",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "云南按蚊检索图"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "董学书撰写的关于云南按蚊的检索图。",
+          "en": "An identification atlas of Anopheles in Yunnan written by Dong Xueshu."
+        }
+      }
+    },
+    {
+      "id": "中国媒介蚊种图谱及其分类",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国媒介蚊种图谱及其分类"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "董学书撰写的关于中国媒介蚊种的图谱和分类著作。",
+          "en": "An atlas and classification work on Chinese vector mosquitoes written by Dong Xueshu."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "董学书",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "董学书是中国共产党党员。",
+          "en": "Dong Xueshu is a member of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "董学书",
+      "target": "云南省寄生虫病防治所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "研究员",
+          "en": "Researcher"
+        },
+        "description": {
+          "zh-cn": "董学书曾是云南省寄生虫病防治所的研究员。",
+          "en": "Dong Xueshu was formerly a researcher at the Yunnan Provincial Institute of Parasitic Diseases Control."
+        }
+      }
+    },
+    {
+      "source": "董学书",
+      "target": "中国按蚊分类检索",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014",
+        "description": {
+          "zh-cn": "董学书撰写了《中国按蚊分类检索》。",
+          "en": "Dong Xueshu authored 'Classification and Identification of Anopheles in China'."
+        }
+      }
+    },
+    {
+      "source": "云南科技出版社",
+      "target": "中国按蚊分类检索",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014",
+        "description": {
+          "zh-cn": "云南科技出版社于2014年出版了《中国按蚊分类检索》。",
+          "en": "Yunnan Science and Technology Press published 'Classification and Identification of Anopheles in China' in 2014."
+        }
+      }
+    },
+    {
+      "source": "董学书",
+      "target": "中国覆蚊属",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-08",
+        "description": {
+          "zh-cn": "董学书撰写了《中国覆蚊属》。",
+          "en": "Dong Xueshu authored 'Aedine Mosquitoes of China'."
+        }
+      }
+    },
+    {
+      "source": "云南科技出版社",
+      "target": "中国覆蚊属",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-08",
+        "description": {
+          "zh-cn": "云南科技出版社于2019年8月出版了《中国覆蚊属》。",
+          "en": "Yunnan Science and Technology Press published 'Aedine Mosquitoes of China' in August 2019."
+        }
+      }
+    },
+    {
+      "source": "董学书",
+      "target": "云南按蚊检索图",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "董学书撰写了《云南按蚊检索图》。",
+          "en": "Dong Xueshu authored 'Identification Atlas of Anopheles in Yunnan'."
+        }
+      }
+    },
+    {
+      "source": "董学书",
+      "target": "中国媒介蚊种图谱及其分类",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "董学书撰写了《中国媒介蚊种图谱及其分类》。",
+          "en": "Dong Xueshu authored 'Atlas and Classification of Chinese Vector Mosquitoes'."
+        }
+      }
+    }
+  ]
+}

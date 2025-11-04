@@ -1,0 +1,242 @@
+{
+  "nodes": [
+    {
+      "id": "邓鸿森",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓鸿森"
+        ],
+        "en": [
+          "Daren Tang",
+          "Daren Tang Heng Shim"
+        ]
+      },
+      "properties": {
+        "lifetime": "1972 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "新加坡",
+          "en": "Singapore"
+        },
+        "description": {
+          "zh-cn": "新加坡籍律师，现任世界知识产权组织总干事及国际植物新品种保护联盟秘书长。曾任新加坡知识产权局负责人和新加坡政府贸易律师。",
+          "en": "Singaporean lawyer, current Director General of the World Intellectual Property Organization and Secretary-General of the International Union for the Protection of New Varieties of Plants. Formerly served as the head of the Intellectual Property Office of Singapore and a trade lawyer for the Singaporean government."
+        }
+      }
+    },
+    {
+      "id": "新加坡",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新加坡"
+        ],
+        "en": [
+          "Singapore"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "瑞士",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瑞士"
+        ],
+        "en": [
+          "Switzerland"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "日内瓦",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "日内瓦"
+        ],
+        "en": [
+          "Geneva"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "联合国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国"
+        ],
+        "en": [
+          "United Nations"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "世界知识产权组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "世界知识产权组织"
+        ],
+        "en": [
+          "World Intellectual Property Organization"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "日内瓦",
+          "en": "Geneva"
+        },
+        "description": {
+          "zh-cn": "总部位于瑞士日内瓦的联合国组织。",
+          "en": "A United Nations organization headquartered in Geneva, Switzerland."
+        }
+      }
+    },
+    {
+      "id": "国际植物新品种保护联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际植物新品种保护联盟"
+        ],
+        "en": [
+          "International Union for the Protection of New Varieties of Plants"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "新加坡知识产权局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新加坡知识产权局"
+        ],
+        "en": [
+          "Intellectual Property Office of Singapore"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "乔治城大学法律中心",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乔治城大学法律中心"
+        ],
+        "en": [
+          "Georgetown University Law Center"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "新加坡国立大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新加坡国立大学"
+        ],
+        "en": [
+          "National University of Singapore"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "邓鸿森",
+      "target": "新加坡",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "邓鸿森",
+      "target": "世界知识产权组织",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总干事",
+          "en": "Director General"
+        },
+        "description": {
+          "zh-cn": "担任世界知识产权组织第五任总干事。",
+          "en": "Serves as the fifth Director General of the World Intellectual Property Organization."
+        }
+      }
+    },
+    {
+      "source": "邓鸿森",
+      "target": "国际植物新品种保护联盟",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "秘书长",
+          "en": "Secretary-General"
+        }
+      }
+    },
+    {
+      "source": "邓鸿森",
+      "target": "新加坡知识产权局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "负责人",
+          "en": "Head"
+        },
+        "description": {
+          "zh-cn": "曾担任新加坡知识产权局负责人。",
+          "en": "Formerly served as the head of the Intellectual Property Office of Singapore."
+        }
+      }
+    },
+    {
+      "source": "邓鸿森",
+      "target": "新加坡",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "贸易律师、公务员",
+          "en": "Trade Lawyer, Civil Servant"
+        },
+        "description": {
+          "zh-cn": "曾任新加坡政府的贸易律师和公务员。",
+          "en": "Formerly a trade lawyer and civil servant for the Singapore Government."
+        }
+      }
+    },
+    {
+      "source": "邓鸿森",
+      "target": "乔治城大学法律中心",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "邓鸿森",
+      "target": "新加坡国立大学",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "世界知识产权组织",
+      "target": "联合国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "世界知识产权组织是联合国的专门机构之一。",
+          "en": "The World Intellectual Property Organization is one of the specialized agencies of the United Nations."
+        }
+      }
+    }
+  ]
+}

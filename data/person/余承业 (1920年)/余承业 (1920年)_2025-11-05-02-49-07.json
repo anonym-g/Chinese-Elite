@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": "余承业",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "余承业"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1920-11 - 2015-11-17",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "温州",
+          "en": "Wenzhou"
+        },
+        "description": {
+          "zh-cn": "中国机械制造专家，曾任南京航空学院副院长、院长、教授、博士生导师。",
+          "en": "A Chinese expert in mechanical manufacturing, he served as vice president, president, professor, and doctoral supervisor at Nanjing Aeronautical Institute."
+        }
+      }
+    },
+    {
+      "id": "浙江",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江"
+        ],
+        "en": [
+          "Zhejiang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的一个省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "温州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "温州"
+        ],
+        "en": [
+          "Wenzhou"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "浙江",
+          "en": "Zhejiang"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国浙江省下辖的地级市。",
+          "en": "A prefecture-level city in Zhejiang Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "南京航空学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南京航空学院"
+        ],
+        "en": [
+          "Nanjing Aeronautical Institute"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "南京航空航天大学的前身。",
+          "en": "The predecessor of Nanjing University of Aeronautics and Astronautics."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "机械制造",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "机械制造"
+        ],
+        "en": [
+          "Mechanical manufacturing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一门应用工程、物理与材料科学的原理，来设计、分析、制造及维护机械系统的学科。",
+          "en": "A discipline that applies the principles of engineering, physics, and materials science for the design, analysis, manufacturing, and maintenance of mechanical systems."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "余承业",
+      "target": "温州",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "余承业是浙江温州人。",
+          "en": "Yu Chengye was a native of Wenzhou, Zhejiang."
+        }
+      }
+    },
+    {
+      "source": "余承业",
+      "target": "南京航空学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副院长、院长、教授、博士生导师",
+          "en": "Vice President, President, Professor, Doctoral Supervisor"
+        },
+        "description": {
+          "zh-cn": "余承业曾担任南京航空学院的副院长、院长、教授及博士生导师。",
+          "en": "Yu Chengye served as Vice President, President, Professor, and Doctoral Supervisor at Nanjing Aeronautical Institute."
+        }
+      }
+    },
+    {
+      "source": "余承业",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“中国共产党党员”，余承业是中国共产党的成员。",
+          "en": "According to the page category 'Communist Party of China members', Yu Chengye was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}
