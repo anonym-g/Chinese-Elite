@@ -247,9 +247,16 @@ export class DataProcessor {
         });
 
         const nodeById = new Map(visibleNodes.map(node => [node.id, node]));
-        const validRels = visibleRels
-            .map(link => ({ ...link, source: nodeById.get(link.source.id || link.source), target: nodeById.get(link.target.id || link.target) }))
-            .filter(link => link.source && link.target); 
+
+        // 在筛选出的关系对象上更新 source 和 target 引用
+        visibleRels.forEach(link => {
+            const sourceId = link.source.id || link.source;
+            const targetId = link.target.id || link.target;
+            link.source = nodeById.get(sourceId);
+            link.target = nodeById.get(targetId);
+        });
+        const validRels = visibleRels.filter(link => link.source && link.target);
+
         const neighbors = this._buildNeighborMap(validRels);
         return { visibleNodes, validRels, neighbors };
     }
