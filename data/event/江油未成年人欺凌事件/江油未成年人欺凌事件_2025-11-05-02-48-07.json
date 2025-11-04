@@ -1,0 +1,523 @@
+{
+  "nodes": [
+    {
+      "id": "江油未成年人欺凌事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "江油未成年人欺凌事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2025-07-22 - 2025-08-05",
+        "location": {
+          "zh-cn": "中华人民共和国四川省绵阳市江油市",
+          "en": "Jiangyou, Mianyang, Sichuan, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "2025年发生在中国四川省江油市的一起未成年人欺凌案件，及其后续引发的大规模民众抗议与警民冲突事件。",
+          "en": "An underage bullying case that occurred in Jiangyou, Sichuan, China in 2025, and the subsequent large-scale public protests and police-civilian conflicts it triggered."
+        }
+      }
+    },
+    {
+      "id": "江油市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江油市"
+        ],
+        "en": [
+          "Jiangyou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国四川省绵阳市代管的县级市，是江油未成年人欺凌事件的发生地。",
+          "en": "A county-level city under the administration of Mianyang, Sichuan Province, People's Republic of China, and the location of the Jiangyou underage bullying incident."
+        }
+      }
+    },
+    {
+      "id": "江油示威民众",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "江油示威民众",
+          "示威民众"
+        ],
+        "en": [
+          "Jiangyou protestors"
+        ]
+      },
+      "properties": {
+        "period": "2025-08-04 - 2025-08-05",
+        "description": {
+          "zh-cn": "因对江油未成年人欺凌事件及其官方处理方式不满而聚集抗议的民众群体。",
+          "en": "A group of citizens who gathered to protest out of dissatisfaction with the Jiangyou underage bullying incident and the official handling of it."
+        }
+      }
+    },
+    {
+      "id": "江油市公安局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "江油市公安局"
+        ],
+        "en": [
+          "Jiangyou Public Security Bureau"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "江油市"
+        },
+        "description": {
+          "zh-cn": "负责江油市治安的公安机关，因对欺凌事件的处理方式引发民众不满并最终武力驱散示威人群。",
+          "en": "The public security organ responsible for law and order in Jiangyou, whose handling of the bullying incident sparked public discontent and ultimately led to the forcible dispersal of protestors."
+        }
+      }
+    },
+    {
+      "id": "江油市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "江油市人民政府"
+        ],
+        "en": [
+          "Jiangyou Municipal People's Government"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "江油市"
+        },
+        "description": {
+          "zh-cn": "江油市的行政管理机关，是民众抗议的主要对象之一。",
+          "en": "The administrative body of Jiangyou City, which was one of the main targets of the public protests."
+        }
+      }
+    },
+    {
+      "id": "中国人民武装警察部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民武装警察部队",
+          "武警部队"
+        ],
+        "en": [
+          "People's Armed Police Force"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国国家武装力量的组成部分，参与了对江油示威活动的平息。",
+          "en": "A component of the armed forces of the People's Republic of China, which was involved in suppressing the protests in Jiangyou."
+        }
+      }
+    },
+    {
+      "id": "警情通报 (江油市公安局2025年8月4日)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "警情通报 (江油市公安局2025年8月4日)"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2025-08-04",
+        "description": {
+          "zh-cn": "江油市公安局就未成年人欺凌案发布的官方通报，因其内容被民众认为处置过轻且淡化事件严重性，进一步加剧了民愤，成为大规模示威的直接导火索。",
+          "en": "The official police report issued by the Jiangyou Public Security Bureau regarding the underage bullying case. Its contents, perceived by the public as overly lenient and downplaying the severity of the incident, further fueled public anger and became the direct trigger for large-scale protests."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国",
+          "中国大陆"
+        ],
+        "en": [
+          "People's Republic of China",
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "事件发生的国家。事后，中国当局对相关信息进行了审查和封锁。",
+          "en": "The country where the incident occurred. Afterwards, Chinese authorities censored and blocked information related to the event."
+        }
+      }
+    },
+    {
+      "id": "校园欺凌",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "校园欺凌",
+          "欺凌",
+          "校园霸凌",
+          "霸凌"
+        ],
+        "en": [
+          "School bullying"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种在中国未成年学生中普遍存在的社会问题，是江油事件等一系列社会冲突的根源。",
+          "en": "A social problem prevalent among underage students in China, which is the root cause of a series of social conflicts including the Jiangyou incident."
+        }
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": [
+          "Xi Jinping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党中央委员会总书记、中华人民共和国主席。在江油示威活动中，有抗议者喊出“习近平下台”的口号。",
+          "en": "General Secretary of the Central Committee of the Communist Party of China and President of the People's Republic of China. During the Jiangyou protests, some demonstrators chanted slogans calling for him to step down."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。在江油示威活动中，有抗议者喊出“共产党下台”的口号。",
+          "en": "The ruling political party of the People's Republic of China. During the Jiangyou protests, some demonstrators chanted slogans calling for the party to step down."
+        }
+      }
+    },
+    {
+      "id": "南京照相馆",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "南京照相馆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一部讲述南京大屠杀期间揭露日军暴行的电影。中国网民借此电影名代指江油事件，以讽刺政府暴力执法和信息封锁。",
+          "en": "A film about exposing the atrocities of the Japanese army during the Nanjing Massacre. Chinese netizens used the film's title as a codename for the Jiangyou incident to satirize the government's violent law enforcement and information blockade."
+        }
+      }
+    },
+    {
+      "id": "新浪微博",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新浪微博"
+        ],
+        "en": [
+          "Sina Weibo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国社交媒体平台。在江油事件发酵后，该平台屏蔽了相关话题的搜索。",
+          "en": "A Chinese social media platform. After the Jiangyou incident escalated, the platform blocked searches for related topics."
+        }
+      }
+    },
+    {
+      "id": "第十二届世界运动会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第十二届世界运动会"
+        ],
+        "en": [
+          "The World Games 2025"
+        ]
+      },
+      "properties": {
+        "period": "2025-08-07 - 2025-08-17",
+        "location": {
+          "zh-cn": "成都"
+        },
+        "description": {
+          "zh-cn": "在四川成都举办的国际体育赛事。分析认为，由于江油事件发生在该赛事开幕前夕，地方政府为维稳而采取了更强硬的压制措施。",
+          "en": "An international sports event held in Chengdu, Sichuan. Analysis suggests that because the Jiangyou incident occurred just before the opening of this event, local authorities adopted harsher repressive measures to maintain stability."
+        }
+      }
+    },
+    {
+      "id": "台湾事实查核中心",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台湾事实查核中心"
+        ],
+        "en": [
+          "Taiwan FactCheck Center"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "台湾的事实查核机构，指出了部分关于江油示威的网传视频不实。",
+          "en": "A fact-checking organization in Taiwan, which pointed out that some online videos of the Jiangyou protests were false."
+        }
+      }
+    },
+    {
+      "id": "高瑜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "高瑜"
+        ],
+        "en": [
+          "Gao Yu"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国记者，对江油警方的镇压行动及其效率发表了评论。",
+          "en": "A Chinese journalist who commented on the crackdown and its efficiency by the Jiangyou police."
+        }
+      }
+    },
+    {
+      "id": "陈光诚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈光诚"
+        ],
+        "en": [
+          "Chen Guangcheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国维权律师，认为江油事件等抗议反映了民众在共产专制下难以寻求正义的困境。",
+          "en": "A Chinese human rights lawyer who believes that protests like the Jiangyou incident reflect the difficulty for people to seek justice under communist authoritarian rule."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "校园欺凌",
+      "target": "江油未成年人欺凌事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "江油未成年人欺凌事件是中国普遍存在的校园欺凌问题的一个具体案例。",
+          "en": "The Jiangyou underage bullying incident is a specific case of the widespread problem of school bullying in China."
+        }
+      }
+    },
+    {
+      "source": "警情通报 (江油市公安局2025年8月4日)",
+      "target": "江油示威民众",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2025-08-04",
+        "description": {
+          "zh-cn": "江油市公安局发布的警情通报因被认为处罚过轻，内容避重就轻，进一步加剧了民愤，直接引发了大规模民众抗议。",
+          "en": "The police report issued by the Jiangyou Public Security Bureau, perceived as overly lenient and evasive, further fueled public anger and directly triggered large-scale public protests."
+        }
+      }
+    },
+    {
+      "source": "江油市公安局",
+      "target": "江油示威民众",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-08-04",
+        "end_date": "2025-08-05",
+        "description": {
+          "zh-cn": "江油警方及武警部队使用武力手段暴力清场，平息了民众的示威活动，并逮捕了部分示威者。",
+          "en": "The Jiangyou police and Armed Police Force used violent means to clear the site, suppressing the public protests and arresting some demonstrators."
+        }
+      }
+    },
+    {
+      "source": "江油市公安局",
+      "target": "江油示威民众",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2025-08-04",
+        "end_date": "2025-08-05",
+        "description": {
+          "zh-cn": "在示威活动期间，警方与示威民众爆发了武力冲突。",
+          "en": "During the protests, violent clashes broke out between the police and the demonstrators."
+        }
+      }
+    },
+    {
+      "source": "江油市人民政府",
+      "target": "江油示威民众",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2025-08-04",
+        "end_date": "2025-08-05",
+        "description": {
+          "zh-cn": "示威民众聚集在江油市政府周边进行抗议，将其作为主要抗议对象。",
+          "en": "Protestors gathered around the Jiangyou Municipal Government to demonstrate, making it a primary target of the protest."
+        }
+      }
+    },
+    {
+      "source": "中国人民武装警察部队",
+      "target": "江油示威民众",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2025-08-04",
+        "end_date": "2025-08-05",
+        "description": {
+          "zh-cn": "武警部队参与了对江油示威活动的武力平息行动。",
+          "en": "The Armed Police Force participated in the armed suppression of the Jiangyou protests."
+        }
+      }
+    },
+    {
+      "source": "江油示威民众",
+      "target": "习近平",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-08-04",
+        "description": {
+          "zh-cn": "在抗议活动中，有示威者高喊“习近平下台”的口号。",
+          "en": "During the protests, some demonstrators chanted slogans calling for Xi Jinping to step down."
+        }
+      }
+    },
+    {
+      "source": "江油示威民众",
+      "target": "中国共产党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-08-04",
+        "description": {
+          "zh-cn": "在抗议活动中，有示威者高喊“共产党下台”的口号。",
+          "en": "During the protests, some demonstrators chanted slogans calling for the Communist Party to step down."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "江油未成年人欺凌事件",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-08-05",
+        "description": {
+          "zh-cn": "中国当局对江油事件相关信息进行网络审查，封锁通讯并删除相关内容，以阻止信息外传。",
+          "en": "Chinese authorities censored online information related to the Jiangyou incident, blocking communications and deleting related content to prevent its spread."
+        }
+      }
+    },
+    {
+      "source": "新浪微博",
+      "target": "江油未成年人欺凌事件",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-08-05",
+        "description": {
+          "zh-cn": "新浪微博平台将“江油”相关话题从热搜榜移除并屏蔽了搜索结果。",
+          "en": "The Sina Weibo platform removed the topic 'Jiangyou' from its trending list and blocked search results."
+        }
+      }
+    },
+    {
+      "source": "南京照相馆",
+      "target": "江油未成年人欺凌事件",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2025-08",
+        "description": {
+          "zh-cn": "中国网民使用“江油照相馆”作为江油事件的代称，借以讽刺政府的暴力执法与信息封锁。",
+          "en": "Chinese netizens used 'Jiangyou Photo Studio' as a codename for the Jiangyou incident to satirize the government's violent law enforcement and information blockade."
+        }
+      }
+    },
+    {
+      "source": "第十二届世界运动会",
+      "target": "江油市人民政府",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2025-08",
+        "description": {
+          "zh-cn": "分析认为，由于江油事件发生在成都世界运动会开幕前夕，地方政府为维护稳定而采取了更为强硬的压制措施。",
+          "en": "Analysis suggests that because the Jiangyou incident occurred on the eve of the World Games in Chengdu, local authorities adopted harsher repressive measures to maintain stability."
+        }
+      }
+    },
+    {
+      "source": "台湾事实查核中心",
+      "target": "江油未成年人欺凌事件",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-08-15",
+        "description": {
+          "zh-cn": "台湾事实查核中心澄清并指出了部分关于江油示威的网传视频为不实信息，这些视频挪用了其他事件的影像或含有后期配音。",
+          "en": "The Taiwan FactCheck Center clarified and pointed out that some online videos of the Jiangyou protests were misinformation, having misappropriated footage from other events or containing post-production dubbing."
+        }
+      }
+    },
+    {
+      "source": "高瑜",
+      "target": "江油市公安局",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-08-13",
+        "description": {
+          "zh-cn": "高瑜发表评论，认为江油警方的镇压行动漠视民众问责，将加剧社会分裂。",
+          "en": "Gao Yu commented that the Jiangyou police's crackdown ignored public accountability and would exacerbate social division."
+        }
+      }
+    },
+    {
+      "source": "陈光诚",
+      "target": "中国共产党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-08-05",
+        "description": {
+          "zh-cn": "陈光诚指出，由于中国的民众难以向共产专制寻求正义，类似江油事件的抗议行动此起彼伏。",
+          "en": "Chen Guangcheng pointed out that because it is difficult for people in China to seek justice from the communist authoritarian regime, protests similar to the Jiangyou incident occur one after another."
+        }
+      }
+    }
+  ]
+}

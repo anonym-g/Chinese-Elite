@@ -1,0 +1,869 @@
+{
+  "nodes": [
+    {
+      "id": "护国战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "护国战争",
+          "讨袁战争"
+        ],
+        "en": [
+          "National Protection War"
+        ]
+      },
+      "properties": {
+        "period": "1915-12-25 - 1916-07-14",
+        "location": {
+          "zh-cn": "中国西南部、华南、华东"
+        },
+        "description": {
+          "zh-cn": "1915年至1916年间，为反对袁世凯称帝而发生的一场内战。",
+          "en": "A civil war that took place from 1915 to 1916 against Yuan Shikai's proclamation of himself as Emperor."
+        }
+      }
+    },
+    {
+      "id": "袁世凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁世凯"
+        ],
+        "en": [
+          "Yuan Shikai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1859-09-16 - 1916-06-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国第一任正式大总统，后建立中华帝国并称帝，引发护国战争。",
+          "en": "The first formal President of the Republic of China, who later established the Empire of China and proclaimed himself Emperor, triggering the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "中华帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华帝国"
+        ],
+        "en": [
+          "Empire of China (1915–1916)"
+        ]
+      },
+      "properties": {
+        "period": "1915-12-12 - 1916-03-22",
+        "description": {
+          "zh-cn": "由袁世凯建立的君主制国家，国号洪宪。因护国战争而终结。",
+          "en": "A monarchy established by Yuan Shikai with the era name Hongxian. It was ended by the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "护国军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "护国军"
+        ],
+        "en": [
+          "National Protection Army"
+        ]
+      },
+      "properties": {
+        "period": "1915-12-25 - 1916-07-14",
+        "description": {
+          "zh-cn": "由蔡锷、唐继尧等在云南组织的旨在反对袁世凯称帝的军队。",
+          "en": "An army organized in Yunnan by Cai E, Tang Jiyao, and others to oppose Yuan Shikai's ascension to the throne."
+        }
+      }
+    },
+    {
+      "id": "蔡锷",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡锷"
+        ],
+        "en": [
+          "Cai E"
+        ]
+      },
+      "properties": {
+        "lifetime": "1882-12-18 - 1916-11-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代军事家，护国战争的主要组织者和领导者之一。",
+          "en": "A modern Chinese military leader, one of the main organizers and leaders of the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "唐继尧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐继尧"
+        ],
+        "en": [
+          "Tang Jiyao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1883-08-14 - 1927-05-23",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "滇系军阀首领，护国战争的策动者之一。",
+          "en": "Leader of the Yunnan clique, one of the instigators of the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "李烈钧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李烈钧"
+        ],
+        "en": [
+          "Li Liejun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1882-02-23 - 1946-02-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国军事家，参与发起护国战争，并担任护国军第二军军长。",
+          "en": "A Chinese military strategist who participated in launching the National Protection War and served as the commander of the Second Army of the National Protection Army."
+        }
+      }
+    },
+    {
+      "id": "洪宪帝制",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "洪宪帝制"
+        ],
+        "en": [
+          "Hongxian Monarchy"
+        ]
+      },
+      "properties": {
+        "period": "1915-12-12 - 1916-03-22",
+        "description": {
+          "zh-cn": "袁世凯试图恢复君主制并自立为帝的政治事件，直接引发了护国战争。",
+          "en": "The political event in which Yuan Shikai attempted to restore the monarchy and install himself as emperor, which directly triggered the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "黎元洪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黎元洪"
+        ],
+        "en": [
+          "Li Yuanhong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1864-10-19 - 1928-06-03",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国第一任副总统，在袁世凯死后继任大总统。",
+          "en": "The first Vice President of the Republic of China, who succeeded Yuan Shikai as President after his death."
+        }
+      }
+    },
+    {
+      "id": "中华民国临时约法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华民国临时约法"
+        ],
+        "en": [
+          "Provisional Constitution of the Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的第一部宪法性文件，在护国战争后被恢复。",
+          "en": "The first constitutional document of the Republic of China, which was restored after the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "筹安会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "筹安会"
+        ],
+        "en": [
+          "Chouanhui"
+        ]
+      },
+      "properties": {
+        "period": "1915-08 - ",
+        "description": {
+          "zh-cn": "由杨度等人发起的政治团体，主张君主立宪，为袁世凯称帝制造舆论。",
+          "en": "A political group initiated by Yang Du and others, advocating for a constitutional monarchy and creating public opinion for Yuan Shikai's enthronement."
+        }
+      }
+    },
+    {
+      "id": "杨度",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨度"
+        ],
+        "en": [
+          "Yang Du"
+        ]
+      },
+      "properties": {
+        "lifetime": "1875-01-10 - 1931-09-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治活动家，筹安会发起人，积极推动袁世凯称帝。",
+          "en": "A Chinese political activist, founder of the Chouanhui, who actively promoted Yuan Shikai's enthronement."
+        }
+      }
+    },
+    {
+      "id": "梁启超",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁启超"
+        ],
+        "en": [
+          "Liang Qichao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1873-02-23 - 1929-01-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代思想家、政治家，反对袁世凯称帝，并参与组织护国战争。",
+          "en": "A modern Chinese thinker and politician who opposed Yuan Shikai's enthronement and participated in organizing the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "异哉所谓国体问题者",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "异哉所谓国体问题者"
+        ],
+        "en": [
+          "How Strange is the So-called National Polity Problem!"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由梁启超撰写的反对君主立宪制的文章。",
+          "en": "An article written by Liang Qichao opposing the constitutional monarchy system."
+        }
+      }
+    },
+    {
+      "id": "进步党 (中国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "进步党 (中国)",
+          "进步党"
+        ],
+        "en": [
+          "Progressive Party (China)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国初年的政党，在护国战争中支持护国军，反对袁世凯称帝。",
+          "en": "A political party in the early Republic of China that supported the National Protection Army and opposed Yuan Shikai's enthronement during the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "中华革命党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华革命党"
+        ],
+        "en": [
+          "Chinese Revolutionary Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由孙中山创建的革命政党，在护国战争中是反袁力量之一。",
+          "en": "A revolutionary party founded by Sun Yat-sen, which was one of the anti-Yuan forces during the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "北洋军阀",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋军阀"
+        ],
+        "en": [
+          "Beiyang clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "民国初年的重要军事政治集团，是袁世凯称帝及镇压护国军的主要军事力量。",
+          "en": "An important military and political group in the early Republic of China, which was the main military force for Yuan Shikai's enthronement and the suppression of the National Protection Army."
+        }
+      }
+    },
+    {
+      "id": "曹锟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹锟"
+        ],
+        "en": [
+          "Cao Kun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1862-12-12 - 1938-05-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋军阀直系首领之一，在护国战争中担任讨伐护国军的总司令。",
+          "en": "One of the leaders of the Zhili clique of the Beiyang warlords, who served as the commander-in-chief of the expedition against the National Protection Army during the war."
+        }
+      }
+    },
+    {
+      "id": "孙文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙文"
+        ],
+        "en": [
+          "Sun Yat-sen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1866-11-12 - 1925-03-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代民主革命家，中华革命党领袖，在护国战争期间组织中华革命军反袁。",
+          "en": "A modern Chinese democratic revolutionary, leader of the Chinese Revolutionary Party, who organized the Chinese Revolutionary Army against Yuan Shikai during the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "陈其美",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈其美"
+        ],
+        "en": [
+          "Chen Qimei"
+        ]
+      },
+      "properties": {
+        "lifetime": "1878-01-17 - 1916-05-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华革命党的重要成员，在上海组织反袁活动，后被袁世凯派人刺杀。",
+          "en": "An important member of the Chinese Revolutionary Party who organized anti-Yuan activities in Shanghai and was later assassinated by agents of Yuan Shikai."
+        }
+      }
+    },
+    {
+      "id": "郑汝成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑汝成"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1915-11-10",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任上海镇守使，被陈其美派人刺杀。",
+          "en": "Then the Military Governor of Shanghai, assassinated by agents of Chen Qimei."
+        }
+      }
+    },
+    {
+      "id": "军务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "军务院"
+        ],
+        "en": [
+          "Military Affairs Council"
+        ]
+      },
+      "properties": {
+        "period": "1916-05-08 - 1916-07-14",
+        "location": {
+          "zh-cn": "肇庆"
+        },
+        "description": {
+          "zh-cn": "护国战争期间，由滇、黔、桂、粤四省在广东肇庆成立的联合军政府，以统一指挥反袁军事和政治行动。",
+          "en": "During the National Protection War, a joint military government established in Zhaoqing, Guangdong by the four provinces of Yunnan, Guizhou, Guangxi, and Guangdong to unify the command of anti-Yuan military and political actions."
+        }
+      }
+    },
+    {
+      "id": "冯国璋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯国璋"
+        ],
+        "en": [
+          "Feng Guozhang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1859-01-07 - 1919-12-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋三杰之一，时任江苏都督，在护国战争后期通电劝袁世凯退位。",
+          "en": "One of the 'Three Heroes of Beiyang', then Governor of Jiangsu, who telegraphed to persuade Yuan Shikai to abdicate in the late stage of the National Protection War."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家。在护国战争期间，其政府采取了反对袁世凯政权的立场。",
+          "en": "An East Asian country. During the National Protection War, its government adopted a stance against the Yuan Shikai regime."
+        }
+      }
+    },
+    {
+      "id": "大隈重信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "大隈重信"
+        ],
+        "en": [
+          "Ōkuma Shigenobu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1838-03-11 - 1922-01-10",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任日本首相，其内阁决定采取让袁世凯下台的政策。",
+          "en": "Then Prime Minister of Japan, whose cabinet decided to adopt a policy to make Yuan Shikai step down."
+        }
+      }
+    },
+    {
+      "id": "武冈衡阳战斗",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "武冈衡阳战斗"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1916-05-06 - 1916-05-19",
+        "description": {
+          "zh-cn": "护国战争期间的一场关键战斗，旧桂系军队击败北洋军，迫使湖南独立。",
+          "en": "A key battle during the National Protection War, where the Old Guangxi clique's army defeated the Beiyang Army, forcing Hunan to declare independence."
+        }
+      }
+    },
+    {
+      "id": "湖南",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖南"
+        ],
+        "en": [
+          "Hunan"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "洪宪帝制",
+      "target": "护国战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1915-12-25",
+        "description": {
+          "zh-cn": "袁世凯宣布洪宪帝制，直接引发了蔡锷、唐继尧等人在云南起兵，发动护国战争。",
+          "en": "Yuan Shikai's proclamation of the Hongxian Monarchy directly led to Cai E, Tang Jiyao, and others launching an uprising in Yunnan, starting the National Protection War."
+        }
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "洪宪帝制",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1915-12-12",
+        "description": {
+          "zh-cn": "时任中华民国大总统的袁世凯宣布接受推选为皇帝，改国号为“中华帝国”。",
+          "en": "Yuan Shikai, then President of the Republic of China, announced his acceptance of the election as emperor, changing the state's name to the 'Empire of China'."
+        }
+      }
+    },
+    {
+      "source": "筹安会",
+      "target": "洪宪帝制",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1915-08",
+        "description": {
+          "zh-cn": "筹安会由杨度等人发起，旨在鼓动君主立宪制，为袁世凯称帝制造舆论支持。",
+          "en": "The Chouanhui was initiated by Yang Du and others to advocate for a constitutional monarchy, creating public opinion in support of Yuan Shikai's enthronement."
+        }
+      }
+    },
+    {
+      "source": "梁启超",
+      "target": "洪宪帝制",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1915",
+        "description": {
+          "zh-cn": "梁启超撰写《异哉所谓国体问题者》一文，公开表示反对袁世凯恢复帝制。",
+          "en": "Liang Qichao wrote the article 'How Strange is the So-called National Polity Problem!' to publicly oppose Yuan Shikai's restoration of the monarchy."
+        }
+      }
+    },
+    {
+      "source": "异哉所谓国体问题者",
+      "target": "洪宪帝制",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "该文是梁启超所著，旨在反对君主立宪国体，对洪宪帝制形成舆论阻力。",
+          "en": "This article, written by Liang Qichao, aimed to oppose the constitutional monarchical system, creating public opinion resistance to the Hongxian Monarchy."
+        }
+      }
+    },
+    {
+      "source": "护国战争",
+      "target": "袁世凯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1916-03-22",
+        "end_date": "1916-06-06",
+        "description": {
+          "zh-cn": "由于护国战争的军事和政治压力，袁世凯被迫于1916年3月取消帝制，并于同年6月病逝。",
+          "en": "Due to the military and political pressure of the National Protection War, Yuan Shikai was forced to abolish the monarchy in March 1916 and died of illness in June of the same year."
+        }
+      }
+    },
+    {
+      "source": "护国战争",
+      "target": "中华帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1916-03-22",
+        "description": {
+          "zh-cn": "护国战争的最终胜利导致中华帝国解体，袁世凯被迫取消帝制。",
+          "en": "The ultimate victory of the National Protection War led to the dissolution of the Empire of China, as Yuan Shikai was forced to abolish the monarchy."
+        }
+      }
+    },
+    {
+      "source": "护国战争",
+      "target": "黎元洪",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1916-06-07",
+        "description": {
+          "zh-cn": "护国战争导致袁世凯病逝，黎元洪依法继任大总统职务。",
+          "en": "The National Protection War led to the death of Yuan Shikai, and Li Yuanhong succeeded him as President according to the law."
+        }
+      }
+    },
+    {
+      "source": "护国战争",
+      "target": "中华民国临时约法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1916-06-29",
+        "description": {
+          "zh-cn": "护国战争结束后，新任大总统黎元洪宣布恢复《中华民国临时约法》和国会。",
+          "en": "After the end of the National Protection War, the new President Li Yuanhong announced the restoration of the Provisional Constitution of the Republic of China and the National Assembly."
+        }
+      }
+    },
+    {
+      "source": "蔡锷",
+      "target": "护国战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1915-12-25",
+        "description": {
+          "zh-cn": "蔡锷联同唐继尧、李烈钧等人在云南宣布独立，起兵讨袁，揭开了护国战争的序幕。",
+          "en": "Cai E, along with Tang Jiyao, Li Liejun, and others, declared independence in Yunnan and launched an uprising against Yuan, marking the beginning of the National Protection War."
+        }
+      }
+    },
+    {
+      "source": "唐继尧",
+      "target": "护国战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1915-12-25",
+        "description": {
+          "zh-cn": "唐继尧联同蔡锷、李烈钧等人在云南宣布独立，起兵讨袁，是护国战争的发起者之一。",
+          "en": "Tang Jiyao, along with Cai E, Li Liejun, and others, declared independence in Yunnan and launched an uprising against Yuan, being one of the initiators of the National Protection War."
+        }
+      }
+    },
+    {
+      "source": "李烈钧",
+      "target": "护国战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1915-12-25",
+        "description": {
+          "zh-cn": "李烈钧联同蔡锷、唐继尧等人在云南宣布独立，起兵讨袁，是护国战争的发起者之一。",
+          "en": "Li Liejun, along with Cai E, Tang Jiyao, and others, declared independence in Yunnan and launched an uprising against Yuan, being one of the initiators of the National Protection War."
+        }
+      }
+    },
+    {
+      "source": "护国军",
+      "target": "中华帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1915-12-25",
+        "end_date": "1916-07-14",
+        "description": {
+          "zh-cn": "护国军是为反对中华帝国而建立的武装力量，双方在护国战争中是主要交战方。",
+          "en": "The National Protection Army was an armed force established to oppose the Empire of China, and they were the main combatants in the National Protection War."
+        }
+      }
+    },
+    {
+      "source": "进步党 (中国)",
+      "target": "护国军",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "进步党在护国战争中支持护国军，梁启超等进步党人还直接参与策划和领导了战争。",
+          "en": "The Progressive Party supported the National Protection Army during the war, and its members like Liang Qichao were directly involved in planning and leading the war."
+        }
+      }
+    },
+    {
+      "source": "中华革命党",
+      "target": "护国军",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "由孙中山领导的中华革命党在护国战争中组织军队，是反袁的同盟力量。",
+          "en": "The Chinese Revolutionary Party, led by Sun Yat-sen, organized troops during the National Protection War and was an allied force against Yuan."
+        }
+      }
+    },
+    {
+      "source": "蔡锷",
+      "target": "护国军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1916-01-01",
+        "position": {
+          "zh-cn": "第一军军长",
+          "en": "Commander of the First Army"
+        },
+        "description": {
+          "zh-cn": "蔡锷被推举为护国军第一军军长，率部向四川出兵。",
+          "en": "Cai E was appointed as the commander of the First Army of the National Protection Army and led his troops into Sichuan."
+        }
+      }
+    },
+    {
+      "source": "李烈钧",
+      "target": "护国军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1916-01-01",
+        "position": {
+          "zh-cn": "第二军军长",
+          "en": "Commander of the Second Army"
+        },
+        "description": {
+          "zh-cn": "李烈钧被推举为护国军第二军军长。",
+          "en": "Li Liejun was appointed as the commander of the Second Army of the National Protection Army."
+        }
+      }
+    },
+    {
+      "source": "曹锟",
+      "target": "袁世凯",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "征滇军总司令",
+          "en": "Commander-in-Chief of the Yunnan Expeditionary Army"
+        },
+        "description": {
+          "zh-cn": "袁世凯任命曹锟为征滇军总司令，负责镇压云南的护国军。",
+          "en": "Yuan Shikai appointed Cao Kun as the Commander-in-Chief of the Yunnan Expeditionary Army, responsible for suppressing the National Protection Army in Yunnan."
+        }
+      }
+    },
+    {
+      "source": "陈其美",
+      "target": "郑汝成",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1915-11-10",
+        "description": {
+          "zh-cn": "为在上海发动反袁革命，陈其美组织并成功刺杀了时任上海镇守使郑汝成。",
+          "en": "To launch an anti-Yuan revolution in Shanghai, Chen Qimei organized and successfully assassinated Zheng Rucheng, the then Military Governor of Shanghai."
+        }
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "陈其美",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1916-05-18",
+        "description": {
+          "zh-cn": "袁世凯买凶将积极从事反袁活动的中华革命党人陈其美刺杀。",
+          "en": "Yuan Shikai hired assassins to kill Chen Qimei, a member of the Chinese Revolutionary Party who was actively involved in anti-Yuan activities."
+        }
+      }
+    },
+    {
+      "source": "唐继尧",
+      "target": "军务院",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1916-05-08",
+        "description": {
+          "zh-cn": "作为护国运动的主要领导人之一，唐继尧参与在肇庆成立军务院以统一指挥反袁力量。",
+          "en": "As one of the main leaders of the National Protection Movement, Tang Jiyao participated in the establishment of the Military Affairs Council in Zhaoqing to unify the command of anti-Yuan forces."
+        }
+      }
+    },
+    {
+      "source": "梁启超",
+      "target": "军务院",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1916-05-08",
+        "description": {
+          "zh-cn": "梁启超是护国运动的重要策划者，并参与在肇庆成立军务院，担任抚军兼政务委员长。",
+          "en": "Liang Qichao was an important planner of the National Protection Movement and participated in the establishment of the Military Affairs Council in Zhaoqing, serving as Military Governor and Chairman of Political Affairs."
+        }
+      }
+    },
+    {
+      "source": "冯国璋",
+      "target": "袁世凯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1916-04-01",
+        "description": {
+          "zh-cn": "时任江苏都督的冯国璋于1916年4月两次通电，劝说袁世凯退位，对他形成巨大的政治压力。",
+          "en": "Feng Guozhang, then Governor of Jiangsu, sent two telegrams in April 1916 urging Yuan Shikai to abdicate, creating immense political pressure on him."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "袁世凯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1916-03-07",
+        "description": {
+          "zh-cn": "日本大隈重信内阁认为袁世凯政权是其在华利益的障碍，决定采取促使其下台的政策。",
+          "en": "The Ōkuma Shigenobu Cabinet of Japan considered the Yuan Shikai regime an obstacle to its interests in China and decided to adopt a policy to force him to step down."
+        }
+      }
+    },
+    {
+      "source": "大隈重信",
+      "target": "袁世凯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1916-03-07",
+        "description": {
+          "zh-cn": "作为时任日本首相，大隈重信的内阁会议决定采取让袁世凯退出中国权力圈的方针。",
+          "en": "As the then Prime Minister of Japan, Ōkuma Shigenobu's cabinet meeting decided on a policy to have Yuan Shikai withdraw from the circle of power in China."
+        }
+      }
+    },
+    {
+      "source": "蔡锷",
+      "target": "梁启超",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1915-08",
+        "description": {
+          "zh-cn": "梁启超与他的学生蔡锷秘密商议，共同策划了反对袁世凯称帝的行动。",
+          "en": "Liang Qichao and his student Cai E secretly conspired to plan actions against Yuan Shikai's enthronement."
+        }
+      }
+    },
+    {
+      "source": "武冈衡阳战斗",
+      "target": "北洋军阀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1916-05-19",
+        "description": {
+          "zh-cn": "在武冈衡阳战斗中，旧桂系军队决定性地歼灭了当地的北洋军队。",
+          "en": "In the Battle of Wugang-Hengyang, the Old Guangxi clique's army decisively annihilated the local Beiyang army forces."
+        }
+      }
+    },
+    {
+      "source": "武冈衡阳战斗",
+      "target": "湖南",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1916-05-29",
+        "description": {
+          "zh-cn": "武冈衡阳战斗的失败迫使北洋势力撤退，直接导致湖南于1916年5月29日宣布脱离北洋政府统治而独立。",
+          "en": "The defeat in the Battle of Wugang-Hengyang forced Beiyang forces to retreat, directly leading to Hunan declaring independence from the Beiyang government's rule on May 29, 1916."
+        }
+      }
+    }
+  ]
+}

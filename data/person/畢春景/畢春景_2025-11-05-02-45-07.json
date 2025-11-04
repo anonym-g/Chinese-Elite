@@ -1,0 +1,243 @@
+{
+  "nodes": [
+    {
+      "id": "毕春景",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毕春景"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国人民武装警察部队少将，曾任武警黑龙江省总队政委、武警北京市总队政治部副主任及北京市第十五届人民代表大会代表。",
+          "en": "Major General of the Chinese People's Armed Police Force, formerly served as Political Commissar of the Heilongjiang Provincial Corps of the PAP, Deputy Director of the Political Department of the Beijing Municipal Corps of the PAP, and a delegate to the 15th Beijing Municipal People's Congress."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Chinese Communist Party",
+          "CCP"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "武警少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武警少将"
+        ],
+        "en": [
+          "PAP Major General"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民武装警察部队的一种警衔等级。",
+          "en": "A rank in the Chinese People's Armed Police Force."
+        }
+      }
+    },
+    {
+      "id": "武警黑龙江省总队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武警黑龙江省总队"
+        ],
+        "en": [
+          "PAP Heilongjiang Provincial Corps"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "武警北京市总队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武警北京市总队"
+        ],
+        "en": [
+          "PAP Beijing Municipal Corps"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "武警北京市总队政治部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武警北京市总队政治部"
+        ],
+        "en": [
+          "Political Department of the PAP Beijing Municipal Corps"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京市人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市人民代表大会"
+        ],
+        "en": [
+          "Beijing Municipal People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民武装警察部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民武装警察部队",
+          "武警"
+        ],
+        "en": [
+          "Chinese People's Armed Police Force",
+          "PAP"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "毕春景",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据文本，毕春景是一名中共党员。",
+          "en": "According to the text, Bi Chunjing is a member of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "毕春景",
+      "target": "中国人民武装警察部队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框，毕春景在中国人民武装警察部队服役。",
+          "en": "According to the infobox, Bi Chunjing serves in the Chinese People's Armed Police Force."
+        }
+      }
+    },
+    {
+      "source": "毕春景",
+      "target": "武警少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "警衔",
+          "en": "Rank"
+        },
+        "description": {
+          "zh-cn": "毕春景拥有武警少将警衔。",
+          "en": "Bi Chunjing holds the rank of PAP Major General."
+        }
+      }
+    },
+    {
+      "source": "毕春景",
+      "target": "武警黑龙江省总队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2019-04",
+        "position": {
+          "zh-cn": "政委",
+          "en": "Political Commissar"
+        },
+        "description": {
+          "zh-cn": "自2019年4月起，毕春景出任武警黑龙江省总队政委。",
+          "en": "Since April 2019, Bi Chunjing has served as the Political Commissar of the PAP Heilongjiang Provincial Corps."
+        }
+      }
+    },
+    {
+      "source": "毕春景",
+      "target": "武警北京市总队政治部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "毕春景曾历任武警北京市总队政治部副主任。",
+          "en": "Bi Chunjing previously served as the Deputy Director of the Political Department of the PAP Beijing Municipal Corps."
+        }
+      }
+    },
+    {
+      "source": "毕春景",
+      "target": "北京市人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第十五届代表",
+          "en": "Delegate of the 15th Session"
+        },
+        "description": {
+          "zh-cn": "毕春景是北京市第十五届人民代表大会代表。",
+          "en": "Bi Chunjing was a delegate to the 15th Beijing Municipal People's Congress."
+        }
+      }
+    },
+    {
+      "source": "武警黑龙江省总队",
+      "target": "中国人民武装警察部队",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "武警黑龙江省总队是中国人民武装警察部队的下属单位。",
+          "en": "The PAP Heilongjiang Provincial Corps is a subordinate unit of the Chinese People's Armed Police Force."
+        }
+      }
+    },
+    {
+      "source": "武警北京市总队",
+      "target": "中国人民武装警察部队",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "武警北京市总队是中国人民武装警察部队的下属单位。",
+          "en": "The PAP Beijing Municipal Corps is a subordinate unit of the Chinese People's Armed Police Force."
+        }
+      }
+    },
+    {
+      "source": "武警北京市总队政治部",
+      "target": "武警北京市总队",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "武警北京市总队政治部是武警北京市总队的下属部门。",
+          "en": "The Political Department of the PAP Beijing Municipal Corps is a subordinate department of the PAP Beijing Municipal Corps."
+        }
+      }
+    }
+  ]
+}

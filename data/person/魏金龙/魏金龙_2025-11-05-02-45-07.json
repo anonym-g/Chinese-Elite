@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "id": "魏金龙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏金龙"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1977-12 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "云南西盟",
+          "en": "Ximeng, Yunnan"
+        },
+        "description": {
+          "zh-cn": "中国佤族政治人物，中国共产党党员，第十三届全国人民代表大会云南省代表。",
+          "en": "A Chinese politician of Wa ethnicity, a member of the Communist Party of China, and a deputy from Yunnan Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "云南省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "云南省",
+          "云南"
+        ],
+        "en": [
+          "Yunnan Province"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区，魏金龙的籍贯地及政治代表地区。",
+          "en": "A province-level administrative division of the People's Republic of China, the ancestral home and political representation area of Wei Jinlong."
+        }
+      }
+    },
+    {
+      "id": "西盟佤族自治县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "西盟佤族自治县",
+          "西盟"
+        ],
+        "en": [
+          "Ximeng Va Autonomous County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国云南省的自治县，是魏金龙的籍贯地。",
+          "en": "An autonomous county in Yunnan Province, China, and the ancestral home of Wei Jinlong."
+        }
+      }
+    },
+    {
+      "id": "佤族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "佤族"
+        ],
+        "en": [
+          "Wa people"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的少数民族之一，是魏金龙所属的民族。",
+          "en": "One of the ethnic minorities in China, to which Wei Jinlong belongs."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通称“中国”。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018 - 2023",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届最高国家权力机关，任期为2018年至2023年。",
+          "en": "The 13th term of the highest state authority of the People's Republic of China, serving from 2018 to 2023."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会代表名单",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会代表名单"
+        ],
+        "en": [
+          "List of deputies to the 13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "记录了中华人民共和国第十三届全国人民代表大会所有代表的名单。",
+          "en": "A document listing all the deputies to the 13th National People's Congress of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "魏金龙",
+      "target": "西盟佤族自治县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据Wikitext中的“西盟人”，推断其出生或籍贯地为西盟。",
+          "en": "Based on the text \"西盟人\" (person from Ximeng), his place of birth or origin is inferred to be Ximeng."
+        }
+      }
+    },
+    {
+      "source": "魏金龙",
+      "target": "佤族",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "魏金龙是佤族人。",
+          "en": "Wei Jinlong is of the Wa ethnicity."
+        }
+      }
+    },
+    {
+      "source": "魏金龙",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "魏金龙是中国共产党党员。",
+          "en": "Wei Jinlong is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "魏金龙",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "end_date": "2023",
+        "position": {
+          "zh-cn": "云南省代表",
+          "en": "Delegate from Yunnan Province"
+        },
+        "description": {
+          "zh-cn": "2018年，魏金龙被选为云南省出席第十三届全国人民代表大会代表。",
+          "en": "In 2018, Wei Jinlong was elected as a deputy from Yunnan Province to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

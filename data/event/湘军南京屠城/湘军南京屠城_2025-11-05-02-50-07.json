@@ -1,0 +1,810 @@
+{
+  "nodes": [
+    {
+      "id": "湘军南京屠城",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "湘军南京屠城"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1864-07-19 - 1864-07-21",
+        "location": {
+          "zh-cn": "南京城",
+          "en": "Nanjing"
+        },
+        "description": {
+          "zh-cn": "1864年7月，曾国荃率领的湘军在攻克太平天国首都天京（南京）后，对城内军民进行的大规模屠杀、抢掠和焚烧事件。该事件持续三天三夜，造成大量人员死亡，死亡人数有多种说法，从约2.5万至二三十万不等。",
+          "en": "A large-scale massacre, looting, and arson committed by the Xiang Army led by Zeng Guoquan against the soldiers and civilians in Tianjing (Nanjing) after capturing the capital of the Taiping Heavenly Kingdom in July 1864. The event lasted for three days and nights, causing a massive number of deaths, with estimates ranging from about 25,000 to 200,000-300,000."
+        }
+      }
+    },
+    {
+      "id": "天京之役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "天京之役"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - 1864-07-19",
+        "description": {
+          "zh-cn": "清朝军队围攻太平天国首都天京（南京）的战役，是太平天国战争的最后一战，以湘军攻破天京告终。",
+          "en": "The siege of Tianjing (Nanjing), the capital of the Taiping Heavenly Kingdom, by Qing forces. It was the last major battle of the Taiping Rebellion, ending with the city's capture by the Xiang Army."
+        }
+      }
+    },
+    {
+      "id": "湘军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湘军"
+        ],
+        "en": [
+          "Xiang Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝末年由曾国藩组建的地方武装，是镇压太平天国运动的主力。",
+          "en": "A regional army organized by Zeng Guofan in the late Qing Dynasty, which was the main force in suppressing the Taiping Rebellion."
+        }
+      }
+    },
+    {
+      "id": "曾国荃",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曾国荃"
+        ],
+        "en": [
+          "Zeng Guoquan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末湘军重要将领，曾国藩之弟，以在天京之役中指挥湘军攻克南京而闻名。尽管其下达了“禁杀良民、掳妇女”的禁令，但对城破后军队的大规模屠杀和抢掠负有直接责任。关于其在此役中“获资数千万”的传闻广为流传，但有学者考证认为此说不实。",
+          "en": "A key general of the Xiang Army in the late Qing Dynasty and the younger brother of Zeng Guofan, known for commanding the capture of Nanjing in the Battle of Tianjing. Although he issued orders prohibiting the killing of civilians and abduction of women, he bears direct responsibility for the large-scale massacre and looting by his troops after the city fell. Rumors that he amassed a fortune of 'tens of millions' from this campaign are widespread, though some scholars argue this is untrue."
+        }
+      }
+    },
+    {
+      "id": "曾国藩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曾国藩"
+        ],
+        "en": [
+          "Zeng Guofan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末政治家、军事家，湘军的创立者和统帅。其向清廷奏报攻克金陵战果时，称杀敌十万余，有学者认为此为夸大战功。",
+          "en": "A statesman and military general of the late Qing Dynasty, founder and commander of the Xiang Army. In his report to the Qing court on the capture of Jinling, he claimed to have killed over 100,000 enemies, a figure some scholars believe to be an exaggeration."
+        }
+      }
+    },
+    {
+      "id": "太平天国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "太平天国"
+        ],
+        "en": [
+          "Taiping Heavenly Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝后期由洪秀全建立的农民起义政权，与清朝进行了长达14年的战争。",
+          "en": "A rebel state established by Hong Xiuquan during the late Qing Dynasty, which engaged in a 14-year war with the Qing government."
+        }
+      }
+    },
+    {
+      "id": "南京城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "南京城",
+          "天京",
+          "江宁府城",
+          "金陵城",
+          "南京",
+          "金陵"
+        ],
+        "en": [
+          "Nanjing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国历史名城，在太平天国时期作为其首都，名为天京。战前人口约90万，至1864年湘军破城时锐减至约3万人。城破后遭到湘军严重破坏，人口进一步减少，直至光绪帝登基时（1875年）仍未恢复。",
+          "en": "A historic Chinese city, which served as the capital of the Taiping Heavenly Kingdom under the name Tianjing. Its population plummeted from about 900,000 before the war to about 30,000 when the Xiang Army captured it in 1864. The city was severely damaged by the Xiang Army, and its population further declined, remaining desolate even by the time Emperor Guangxu ascended the throne in 1875."
+        }
+      }
+    },
+    {
+      "id": "太平军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "太平军"
+        ],
+        "en": [
+          "Taiping Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "太平天国的军事力量。在天京城破时，城中守军约万余人。",
+          "en": "The military force of the Taiping Heavenly Kingdom. At the time of Tianjing's fall, there were about 10,000 Taiping soldiers defending the city."
+        }
+      }
+    },
+    {
+      "id": "李秀成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李秀成"
+        ],
+        "en": [
+          "Li Xiucheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "太平天国后期重要军事将领，封忠王。在天京被围期间，曾因城内饥荒而释放十余万民众出城。城破后，他带幼主洪天贵福突围，并下令焚烧天王府。",
+          "en": "An important military general in the late Taiping Heavenly Kingdom, titled the Loyal King (Zhong Wang). During the siege of Tianjing, he released over 100,000 civilians from the city due to famine. After the city fell, he led the young monarch Hong Tianguifu in an attempt to break out and ordered the burning of the Heavenly King's Mansion."
+        }
+      }
+    },
+    {
+      "id": "洪天贵福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "洪天贵福"
+        ],
+        "en": [
+          "Hong Tianguifu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "太平天国天王洪秀全之子，末代君主，称幼天王。天京城破时由李秀成带其突围。",
+          "en": "Son of Hong Xiuquan, the Heavenly King of the Taiping Heavenly Kingdom, and its last monarch, known as the Young Monarch. He was led by Li Xiucheng to break out of the siege when Tianjing fell."
+        }
+      }
+    },
+    {
+      "id": "天王府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "天王府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "太平天国天王洪秀全的宫殿，在天京城破时被李秀成下令焚烧。",
+          "en": "The palace of the Heavenly King Hong Xiuquan in the Taiping Heavenly Kingdom, which was ordered to be burned down by Li Xiucheng when Tianjing fell."
+        }
+      }
+    },
+    {
+      "id": "赵烈文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵烈文"
+        ],
+        "en": [
+          "Zhao Liewen"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾国藩、曾国荃的幕僚，其日记《能静居日记》记录了亲眼目睹的湘军入城后的屠杀和抢掠情景，是研究该事件的重要史料。他曾劝说曾国荃制止杀戮并办理善后事宜。",
+          "en": "A staff advisor (Muyou) to Zeng Guofan and Zeng Guoquan. His diary, 'Diary of Nengjing Study,' contains eyewitness accounts of the massacre and looting by the Xiang Army after entering the city, making it a crucial historical source for the event. He advised Zeng Guoquan to stop the killing and manage the aftermath."
+        }
+      }
+    },
+    {
+      "id": "郭廷以",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭廷以"
+        ],
+        "en": [
+          "Kuo Ting-yee"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代史权威学者，其著作《近代中国史纲》引用赵烈文的《能静居日记》来记述湘军南京屠城。",
+          "en": "An authoritative historian of modern Chinese history. His work 'A Modern History of China' cites Zhao Liewen's 'Diary of Nengjing Study' to describe the Nanjing Massacre by the Xiang Army."
+        }
+      }
+    },
+    {
+      "id": "近代中国史纲",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "近代中国史纲"
+        ],
+        "en": [
+          "A Modern History of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由历史学家郭廷以所著的关于中国近代史的著作，其中引用了《能静居日记》描述湘军南京屠城。",
+          "en": "A work on modern Chinese history by historian Kuo Ting-yee, which quotes the 'Diary of Nengjing Study' to describe the Nanjing Massacre by the Xiang Army."
+        }
+      }
+    },
+    {
+      "id": "能静居日记",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "能静居日记"
+        ],
+        "en": [
+          "Diary of Nengjing Study"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "赵烈文所著的日记，是研究湘军南京屠城等晚清事件的重要第一手资料。",
+          "en": "A diary written by Zhao Liewen, which is an important primary source for studying late Qing events such as the Nanjing Massacre by the Xiang Army."
+        }
+      }
+    },
+    {
+      "id": "李臣典",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李臣典"
+        ],
+        "en": [
+          "Li Chendian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "湘军将领，在攻克天京时与曾国荃一同在现场指挥。",
+          "en": "A Xiang Army general who commanded the assault on Tianjing on-site alongside Zeng Guoquan."
+        }
+      }
+    },
+    {
+      "id": "谭嗣同",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谭嗣同"
+        ],
+        "en": [
+          "Tan Sitong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末维新派政治家、思想家。他于屠城三十余年后到访南京，记述了当地父老对湘军暴行“犹深愤恨”的情形。",
+          "en": "A reformist politician and thinker of the late Qing Dynasty. He visited Nanjing more than thirty years after the massacre and recorded that the local elders still held 'deep hatred' for the atrocities of the Xiang Army."
+        }
+      }
+    },
+    {
+      "id": "洪秀全",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "洪秀全"
+        ],
+        "en": [
+          "Hong Xiuquan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "太平天国天王，太平天国运动的领袖。其子为洪天贵福。",
+          "en": "The Heavenly King and leader of the Taiping Rebellion. His son was Hong Tianguifu."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "清廷"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国最后一个帝制王朝，是太平天国运动的主要镇压者。",
+          "en": "The last imperial dynasty of China, which was the main force in suppressing the Taiping Rebellion."
+        }
+      }
+    },
+    {
+      "id": "天京事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "天京事变"
+        ],
+        "en": [
+          "Tianjing incident"
+        ]
+      },
+      "properties": {
+        "period": "1856-08 - ",
+        "location": {
+          "zh-cn": "南京城",
+          "en": "Nanjing"
+        },
+        "description": {
+          "zh-cn": "1856年发生在太平天国首都天京的领导集团内部冲突事件。事件导致大量人员被杀，是太平天国由盛转衰的转折点。",
+          "en": "An internal conflict among the leadership of the Taiping Heavenly Kingdom that occurred in its capital, Tianjing, in 1856. The event resulted in a large number of deaths and marked the turning point from the zenith to the decline of the Taiping Heavenly Kingdom."
+        }
+      }
+    },
+    {
+      "id": "光绪帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "光绪帝"
+        ],
+        "en": [
+          "Guangxu Emperor"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第十一位皇帝。其于1875年登基时，距离湘军南京屠城已过十余年，但南京城仍未从破坏中恢复。",
+          "en": "The eleventh emperor of the Qing Dynasty. When he ascended the throne in 1875, more than a decade after the Nanjing Massacre by the Xiang Army, the city of Nanjing had still not recovered from the destruction."
+        }
+      }
+    },
+    {
+      "id": "彭毓橘",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭毓橘"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "湘军将领，曾国荃麾下统领。在天京城破后，其部队不奉禁令，大肆掠夺。",
+          "en": "A general in the Xiang Army and a commander under Zeng Guoquan. After the fall of Tianjing, his troops disobeyed orders and engaged in widespread looting."
+        }
+      }
+    },
+    {
+      "id": "易良虎",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "易良虎"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "湘军将领，曾国荃麾下统领。在天京城破后，其部队不奉禁令，大肆掠夺。",
+          "en": "A general in the Xiang Army and a commander under Zeng Guoquan. After the fall of Tianjing, his troops disobeyed orders and engaged in widespread looting."
+        }
+      }
+    },
+    {
+      "id": "彭椿年",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭椿年"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "湘军将领，曾国荃麾下统领。在天京城破后，其部队不奉禁令，大肆掠夺。",
+          "en": "A general in the Xiang Army and a commander under Zeng Guoquan. After the fall of Tianjing, his troops disobeyed orders and engaged in widespread looting."
+        }
+      }
+    },
+    {
+      "id": "萧孚泗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萧孚泗"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "湘军将领，曾国荃麾下统领。在天京城破后，其部队不奉禁令，大肆掠夺。",
+          "en": "A general in the Xiang Army and a commander under Zeng Guoquan. After the fall of Tianjing, his troops disobeyed orders and engaged in widespread looting."
+        }
+      }
+    },
+    {
+      "id": "张诗日",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张诗日"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "湘军将领，曾国荃麾下统领。在天京城破后，其部队不奉禁令，大肆掠夺。",
+          "en": "A general in the Xiang Army and a commander under Zeng Guoquan. After the fall of Tianjing, his troops disobeyed orders and engaged in widespread looting."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "湘军南京屠城",
+      "target": "天京之役",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "湘军南京屠城发生于天京之役的尾声。",
+          "en": "The Nanjing Massacre by the Xiang Army occurred at the end of the Battle of Tianjing."
+        }
+      }
+    },
+    {
+      "source": "湘军",
+      "target": "湘军南京屠城",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1864-07-19",
+        "description": {
+          "zh-cn": "湘军是湘军南京屠城的执行者。",
+          "en": "The Xiang Army was the perpetrator of the Nanjing Massacre by the Xiang Army."
+        }
+      }
+    },
+    {
+      "source": "湘军南京屠城",
+      "target": "太平军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1864-07-19",
+        "description": {
+          "zh-cn": "湘军在屠城中杀害了大量太平军官兵、其眷属及城内平民。",
+          "en": "During the massacre, the Xiang Army killed a large number of Taiping Army officers and soldiers, their families, and civilians in the city."
+        }
+      }
+    },
+    {
+      "source": "湘军南京屠城",
+      "target": "南京城",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1864-07-19",
+        "description": {
+          "zh-cn": "屠城事件导致南京城遭到严重破坏，人口锐减，经济和城市面貌在十余年后仍未恢复。",
+          "en": "The massacre caused severe destruction to the city of Nanjing, a sharp decline in population, and its economy and urban landscape did not recover even after more than a decade."
+        }
+      }
+    },
+    {
+      "source": "曾国荃",
+      "target": "湘军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "指挥官",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "曾国荃是湘军攻克天京时的前线总指挥。",
+          "en": "Zeng Guoquan was the frontline commander of the Xiang Army during the capture of Tianjing."
+        }
+      }
+    },
+    {
+      "source": "曾国荃",
+      "target": "曾国藩",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曾国荃是曾国藩的弟弟。",
+          "en": "Zeng Guoquan was the younger brother of Zeng Guofan."
+        }
+      }
+    },
+    {
+      "source": "曾国藩",
+      "target": "曾国荃",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曾国藩是曾国荃的哥哥。",
+          "en": "Zeng Guofan was the elder brother of Zeng Guoquan."
+        }
+      }
+    },
+    {
+      "source": "曾国藩",
+      "target": "湘军",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "曾国藩是湘军的创立者和最高统帅。",
+          "en": "Zeng Guofan was the founder and supreme commander of the Xiang Army."
+        }
+      }
+    },
+    {
+      "source": "湘军",
+      "target": "太平天国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "湘军是镇压太平天国运动的主力军队。",
+          "en": "The Xiang Army was the main force in suppressing the Taiping Rebellion."
+        }
+      }
+    },
+    {
+      "source": "李秀成",
+      "target": "太平天国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "忠王",
+          "en": "Loyal King"
+        },
+        "description": {
+          "zh-cn": "李秀成是太平天国后期的重要将领。",
+          "en": "Li Xiucheng was an important general in the late period of the Taiping Heavenly Kingdom."
+        }
+      }
+    },
+    {
+      "source": "李秀成",
+      "target": "洪天贵福",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1864-07-19",
+        "description": {
+          "zh-cn": "天京城破时，李秀成带领幼主洪天贵福突围。",
+          "en": "When Tianjing fell, Li Xiucheng led the young monarch Hong Tianguifu in an attempt to break out of the siege."
+        }
+      }
+    },
+    {
+      "source": "赵烈文",
+      "target": "曾国荃",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "幕友",
+          "en": "Staff Advisor"
+        },
+        "description": {
+          "zh-cn": "赵烈文是曾国荃的幕僚，随军行动并记录见闻。",
+          "en": "Zhao Liewen was Zeng Guoquan's staff advisor, accompanying the army and documenting events."
+        }
+      }
+    },
+    {
+      "source": "赵烈文",
+      "target": "能静居日记",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "赵烈文是《能静居日记》的作者，记录了其在天京之役中的见闻。",
+          "en": "Zhao Liewen is the author of 'Diary of Nengjing Study,' in which he recorded his experiences during the Battle of Tianjing."
+        }
+      }
+    },
+    {
+      "source": "能静居日记",
+      "target": "近代中国史纲",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "郭廷以的《近代中国史纲》引用了《能静居日记》中关于湘军屠城的记载。",
+          "en": "Kuo Ting-yee's 'A Modern History of China' quotes the accounts of the Xiang Army's massacre from the 'Diary of Nengjing Study'."
+        }
+      }
+    },
+    {
+      "source": "李臣典",
+      "target": "曾国荃",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李臣典是曾国荃的部下，与他一同在现场指挥攻城。",
+          "en": "Li Chendian was a subordinate of Zeng Guoquan and commanded the assault on the city on-site with him."
+        }
+      }
+    },
+    {
+      "source": "洪天贵福",
+      "target": "洪秀全",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "天京事变",
+      "target": "太平天国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1856-08",
+        "description": {
+          "zh-cn": "天京事变是太平天国由盛转衰的转折点，导致其领导集团内耗严重。",
+          "en": "The Tianjing Incident was a turning point for the Taiping Heavenly Kingdom, leading to its decline due to severe internal conflict among its leadership."
+        }
+      }
+    },
+    {
+      "source": "湘军南京屠城",
+      "target": "谭嗣同",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "屠城三十余年后，谭嗣同到访南京，仍能感受到当地人对湘军暴行的深刻愤恨，并记录下相关见闻。",
+          "en": "More than thirty years after the massacre, Tan Sitong visited Nanjing and could still sense the deep resentment of the locals towards the atrocities of the Xiang Army, and he documented his observations."
+        }
+      }
+    },
+    {
+      "source": "李秀成",
+      "target": "天王府",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1864-07-19",
+        "description": {
+          "zh-cn": "天京城破时，李秀成下令纵火焚烧天王府。",
+          "en": "When Tianjing fell, Li Xiucheng ordered the burning of the Heavenly King's Mansion."
+        }
+      }
+    },
+    {
+      "source": "赵烈文",
+      "target": "曾国荃",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1864-07-20",
+        "description": {
+          "zh-cn": "城破后，赵烈文劝说曾国荃采取措施制止杀戮并办理善后事宜。",
+          "en": "After the city fell, Zhao Liewen advised Zeng Guoquan to take measures to stop the killing and handle the aftermath."
+        }
+      }
+    },
+    {
+      "source": "湘军南京屠城",
+      "target": "光绪帝",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "湘军南京屠城对南京造成了长期破坏，以至于十余年后的1875年光绪帝登基时，该城依然萧条。",
+          "en": "The Nanjing Massacre by the Xiang Army caused long-term devastation to Nanjing, such that the city remained desolate when the Guangxu Emperor ascended the throne in 1875, more than a decade later."
+        }
+      }
+    },
+    {
+      "source": "彭毓橘",
+      "target": "曾国荃",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "统领",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "作为曾国荃麾下统领，其部队在天京城破后不奉禁令，大肆掠夺。",
+          "en": "As a commander under Zeng Guoquan, his troops disobeyed orders and engaged in widespread looting after the fall of Tianjing."
+        }
+      }
+    },
+    {
+      "source": "易良虎",
+      "target": "曾国荃",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "统领",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "作为曾国荃麾下统领，其部队在天京城破后不奉禁令，大肆掠夺。",
+          "en": "As a commander under Zeng Guoquan, his troops disobeyed orders and engaged in widespread looting after the fall of Tianjing."
+        }
+      }
+    },
+    {
+      "source": "彭椿年",
+      "target": "曾国荃",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "统领",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "作为曾国荃麾下统领，其部队在天京城破后不奉禁令，大肆掠夺。",
+          "en": "As a commander under Zeng Guoquan, his troops disobeyed orders and engaged in widespread looting after the fall of Tianjing."
+        }
+      }
+    },
+    {
+      "source": "萧孚泗",
+      "target": "曾国荃",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "统领",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "作为曾国荃麾下统领，其部队在天京城破后不奉禁令，大肆掠夺。",
+          "en": "As a commander under Zeng Guoquan, his troops disobeyed orders and engaged in widespread looting after the fall of Tianjing."
+        }
+      }
+    },
+    {
+      "source": "张诗日",
+      "target": "曾国荃",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "统领",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "作为曾国荃麾下统领，其部队在天京城破后不奉禁令，大肆掠夺。",
+          "en": "As a commander under Zeng Guoquan, his troops disobeyed orders and engaged in widespread looting after the fall of Tianjing."
+        }
+      }
+    }
+  ]
+}
