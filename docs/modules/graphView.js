@@ -29,7 +29,10 @@ export class GraphView {
 
         // 定义所有视觉状态的样式
         this.styleStates = {
-            NODE_DEFAULT: { alpha: 1 },
+            NODE_DEFAULT: {
+                alpha: 1, 
+                eventMode: 'static'
+            },
             NODE_FADED: {
                 alpha: 0.1,
                 eventMode: 'none'
@@ -116,6 +119,17 @@ export class GraphView {
         }
     }
 
+    _handleResize() {
+        const newWidth = this.containerEl.getBoundingClientRect().width;
+        const newHeight = this.containerEl.getBoundingClientRect().height;
+        this.width = newWidth;
+        this.height = newHeight;
+        this.app.renderer.resize(newWidth, newHeight);
+        this.simulation.force("x").x(newWidth / 2);
+        this.simulation.force("y").y(newHeight / 2);
+        this.simulation.alpha(0.3).restart();
+    }
+
     render(graphData) {
         // 如果是首次渲染，走同步创建流程以保证动画完整性
         if (this.isInitialRender) {
@@ -132,8 +146,8 @@ export class GraphView {
     _renderSync(graphData) {
         const { visibleNodes, validRels } = graphData;
         
-        validRels.forEach(link => this._createOrUpdateLinkObject(link));
-        visibleNodes.forEach(node => this._createOrUpdateNodeObject(node));
+        validRels.forEach(link => this._createLinkObject(link));
+        visibleNodes.forEach(node => this._createNodeObject(node));
         
         this._updateSimulation(graphData);
     }
@@ -168,35 +182,14 @@ export class GraphView {
                 this.creationQueue.push({ type: 'node_gfx', data: node });
                 this.creationQueue.push({ type: 'node_label', data: node });
             }
+            else {
+                // 对于已存在的节点，更新其视觉属性
+                this._updateNodeObject(node);
+            }
         });
 
         this._startQueueProcessing();
         this._updateSimulation(graphData);
-    }
-    
-    _updateSimulation(graphData) {
-        const { visibleNodes, validRels } = graphData;
-        
-        visibleNodes.forEach(n => n.isAnchor = false);
-        [...visibleNodes].sort((a, b) => b.degree - a.degree).slice(0, 3).forEach(n => n.isAnchor = true);
-        
-        const linkGroups = {};
-        validRels.forEach(link => {
-            const pairId = link.source.id < link.target.id ? `${link.source.id}-${link.target.id}` : `${link.target.id}-${link.source.id}`;
-            if (!linkGroups[pairId]) linkGroups[pairId] = [];
-            linkGroups[pairId].push(link);
-        });
-        validRels.forEach(link => {
-            const pairId = link.source.id < link.target.id ? `${link.source.id}-${link.target.id}` : `${link.target.id}-${link.source.id}`;
-            link.groupSize = linkGroups[pairId].length;
-            link.groupIndex = linkGroups[pairId].indexOf(link);
-        });
-        
-        this.simulation.nodes(visibleNodes);
-        this.simulation.force("link").links(validRels);
-        this.simulation.alpha(this.isInitialRender ? CONFIG.SIMULATION.INITIAL_ALPHA : CONFIG.SIMULATION.REHEAT_ALPHA).restart();
-        
-        this.animationSourceNode = null;
     }
 
     _startQueueProcessing() {
@@ -223,10 +216,10 @@ export class GraphView {
             
             // 确保底层对象已创建
             if (task.type.startsWith('link')) {
-                this._createOrUpdateLinkObject(task.data);
+                this._createLinkObject(task.data);
             }
             else if (task.type.startsWith('node')) {
-                this._createOrUpdateNodeObject(task.data);
+                this._createNodeObject(task.data);
             }
 
             // // 根据任务类型，只显示对应的部分
@@ -298,9 +291,9 @@ export class GraphView {
         // 4. 如果没有任何可用翻译，返回最终回退值
         return (field === 'name') ? dataObject.id : t('tooltip_na');
     }
-    
+
     // 主创建函数，只负责创建不可见对象
-    _createOrUpdateNodeObject(node) {
+    _createNodeObject(node) {
         if (this.nodeObjects.has(node.id)) {
             const nodeObj = this.nodeObjects.get(node.id);
             nodeObj.label.text = node?.name?.['zh-cn']?.[0] || node.id;
@@ -358,14 +351,45 @@ export class GraphView {
         
         this._addNodeEvents(nodeObj);
         
-        const radius = this._getNodeRadius(node);
-        const color = parseInt(rgbToHex(this.colorScale(node.type)).substring(1), 16);
-        nodeObj.gfx.clear()
-            .circle(0, 0, radius)
-            .fill(color)
-            .stroke({ width: 2, color: 0xFFFFFF });
+        this._redrawNodeBorder(node.id, false);
     }
-    
+
+    // 更新节点的视觉样式
+    _updateNodeObject(node) {
+        const nodeObj = this.nodeObjects.get(node.id);
+        if (!nodeObj) return;
+
+        const isSelected = this.highlightedNodeId === node.id;
+        this._redrawNodeBorder(node.id, isSelected);
+
+        // 同时更新标签文本，以备语言切换等场景
+        nodeObj.label.text = this._getLocalizedText(node, 'name');
+    }
+
+    // 绘制节点的圆圈和边框
+    _redrawNodeBorder(nodeId, isSelected, customColor = null) {
+        if (this.nodeObjects.has(nodeId)) {
+            const obj = this.nodeObjects.get(nodeId);
+            const radius = this._getNodeRadius(obj.data);
+            const color = parseInt(rgbToHex(this.colorScale(obj.data.type)).substring(1), 16);
+            
+            const borderColor = customColor !== null ? customColor : (isSelected ? 0xFF0000 : 0xFFFFFF);
+            // 统一边框宽度：特殊状态（选中、路径端点）为3px，默认状态为2px
+            const borderWidth = (isSelected || customColor) ? 3 : 2;
+
+            obj.gfx.clear().circle(0, 0, radius).fill(color).stroke({ width: borderWidth, color: borderColor });
+        }
+    }
+
+    _getNodeCharge(node) {
+        const base = CONFIG.SIMULATION.CHARGE.BASE_STRENGTH;
+        const scale = CONFIG.SIMULATION.CHARGE.DEGREE_SCALE_FACTOR;
+        // 节点的度（连接数）越大，其斥力（负值）就越大
+        // 使用 Math.sqrt 来平滑度的影响，防止超高度产生过强斥力
+        const degree = node.degree || 1;
+        return -(base + Math.sqrt(degree) * scale);
+    }
+
     _removeNodeObject(id, isAsync = false) {
         if (!this.nodeObjects.has(id)) return;
 
@@ -400,7 +424,7 @@ export class GraphView {
         }
     }
 
-    _createOrUpdateLinkObject(link) {
+    _createLinkObject(link) {
         const linkId = this._getLinkId(link);
         if (this.linkObjects.has(linkId)) return;
 
@@ -455,7 +479,72 @@ export class GraphView {
         this.linkLayer.addChild(linkGfx);
         this.linkLabelLayer.addChild(label);
     }
-    
+
+    _drawLink({ gfx, data }) {
+        const source = data.source;
+        const target = data.target;
+
+        if (source.x === undefined || target.x === undefined) {
+            gfx.clear();
+            return;
+        }
+        
+        gfx.clear();
+
+        const dx = target.x - source.x;
+        const dy = target.y - source.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist === 0) return;
+        
+        const targetRadius = this._getNodeRadius(target);
+        const endOffset = targetRadius + 2;
+
+        if (data.groupSize <= 1) {
+            const endX = target.x - (dx / dist) * endOffset;
+            const endY = target.y - (dy / dist) * endOffset;
+            gfx.moveTo(source.x, source.y).lineTo(endX, endY);
+            this._drawArrowhead(gfx, endX, endY, Math.atan2(dy, dx), data.type);
+        }
+        else {
+            const side = (data.groupIndex % 2 === 0) ? 1 : -1;
+            const rank = Math.ceil(data.groupIndex / 2);
+            let curvature = rank * 0.15 * side;
+            if (source.id > target.id) curvature *= -1;
+            
+            const midX = (source.x + target.x) / 2;
+            const midY = (source.y + target.y) / 2;
+            const controlX = midX - curvature * dy;
+            const controlY = midY + curvature * dx;
+
+            const cdx = target.x - controlX;
+            const cdy = target.y - controlY;
+            const cDist = Math.sqrt(cdx*cdx + cdy*cdy);
+            if (cDist === 0) return;
+
+            const endX = target.x - (cdx / cDist) * endOffset;
+            const endY = target.y - (cdy / cDist) * endOffset;
+            
+            gfx.moveTo(source.x, source.y).quadraticCurveTo(controlX, controlY, endX, endY);
+            this._drawArrowhead(gfx, endX, endY, Math.atan2(endY - controlY, endX - controlX), data.type);
+        }
+
+        gfx.stroke({ 
+            width: 1, 
+            color: 0x888888, 
+            alpha: 1.0 
+        });
+    }
+
+    _drawArrowhead(gfx, x, y, angle, type) {
+        if (CONFIG.NON_DIRECTED_LINK_TYPES.has(type)) return;
+        const arrowLength = 8;
+        const arrowAngle = Math.PI / 6;
+        gfx.moveTo(x, y)
+        .lineTo(x - arrowLength * Math.cos(angle - arrowAngle), y - arrowLength * Math.sin(angle - arrowAngle));
+        gfx.moveTo(x, y)
+        .lineTo(x - arrowLength * Math.cos(angle + arrowAngle), y - arrowLength * Math.sin(angle + arrowAngle));
+    }
+
     _removeLinkObject(id, isAsync = false) {
         if (!this.linkObjects.has(id)) return;
         const { gfx, label } = this.linkObjects.get(id);
@@ -569,7 +658,7 @@ export class GraphView {
                 const dx = d.target.x - d.source.x;
                 const dy = d.target.y - d.source.y;
                 const side = (d.groupIndex % 2 === 0) ? 1 : -1;
-                const rank = Math.ceil((d.groupIndex + 1) / 2);
+                const rank = Math.ceil(d.groupIndex / 2);
                 let curvature = rank * 0.15 * side;
                 if (d.source.id > d.target.id) curvature *= -1;
                 const controlX = midX - curvature * dy;
@@ -579,71 +668,6 @@ export class GraphView {
             }
             obj.label.position.set(midX, midY);
         });
-    }
-
-    _drawLink({ gfx, data }) {
-        const source = data.source;
-        const target = data.target;
-
-        if (source.x === undefined || target.x === undefined) {
-            gfx.clear();
-            return;
-        }
-        
-        gfx.clear();
-
-        const dx = target.x - source.x;
-        const dy = target.y - source.y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist === 0) return;
-        
-        const targetRadius = this._getNodeRadius(target);
-        const endOffset = targetRadius + 2;
-
-        if (data.groupSize <= 1) {
-            const endX = target.x - (dx / dist) * endOffset;
-            const endY = target.y - (dy / dist) * endOffset;
-            gfx.moveTo(source.x, source.y).lineTo(endX, endY);
-            this._drawArrowhead(gfx, endX, endY, Math.atan2(dy, dx), data.type);
-        }
-        else {
-            const side = (data.groupIndex % 2 === 0) ? 1 : -1;
-            const rank = Math.ceil((data.groupIndex + 1) / 2);
-            let curvature = rank * 0.15 * side;
-            if (source.id > target.id) curvature *= -1;
-            
-            const midX = (source.x + target.x) / 2;
-            const midY = (source.y + target.y) / 2;
-            const controlX = midX - curvature * dy;
-            const controlY = midY + curvature * dx;
-
-            const cdx = target.x - controlX;
-            const cdy = target.y - controlY;
-            const cDist = Math.sqrt(cdx*cdx + cdy*cdy);
-            if (cDist === 0) return;
-
-            const endX = target.x - (cdx / cDist) * endOffset;
-            const endY = target.y - (cdy / cDist) * endOffset;
-            
-            gfx.moveTo(source.x, source.y).quadraticCurveTo(controlX, controlY, endX, endY);
-            this._drawArrowhead(gfx, endX, endY, Math.atan2(endY - controlY, endX - controlX), data.type);
-        }
-
-        gfx.stroke({ 
-            width: 1, 
-            color: 0x888888, 
-            alpha: 1.0 
-        });
-    }
-
-    _drawArrowhead(gfx, x, y, angle, type) {
-        if (CONFIG.NON_DIRECTED_LINK_TYPES.has(type)) return;
-        const arrowLength = 8;
-        const arrowAngle = Math.PI / 6;
-        gfx.moveTo(x, y)
-        .lineTo(x - arrowLength * Math.cos(angle - arrowAngle), y - arrowLength * Math.sin(angle - arrowAngle));
-        gfx.moveTo(x, y)
-        .lineTo(x - arrowLength * Math.cos(angle + arrowAngle), y - arrowLength * Math.sin(angle + arrowAngle));
     }
 
     _createDragHandler(nodeObj) {
@@ -714,7 +738,7 @@ export class GraphView {
         gfx.on('mouseover', (e) => this._handleNodeMouseover(e, data));
         gfx.on('mouseout', (e) => !this.interactionState.isDown && this._handleMouseout());
     }
-    
+
     _initCameraControls() {
         const canvas = this.app.canvas;
         let hasCameraMoved = false;
@@ -842,7 +866,7 @@ export class GraphView {
             this.camera.animation = null;
         }
     }
-    
+
     centerOnNode(nodeData, scale = 1.5, duration = 750) {
         if (!nodeData?.x || !nodeData?.y) return;
         const targetX = this.width / 2 - nodeData.x * scale;
@@ -853,11 +877,11 @@ export class GraphView {
             startTime: performance.now(), duration: duration
         };
     }
-    
+
     setInitialView() {
         this.centerOnNode({ x: this.width/2, y: this.height/2 }, CONFIG.INITIAL_ZOOM, CONFIG.INITIAL_ZOOM_DURATION);
     }
-    
+
     _animateToTargets(targets) {
         const DURATION = 500;
         const allObjects = [...this.nodeObjects.values(), ...this.linkObjects.values()];
@@ -956,7 +980,7 @@ export class GraphView {
 
         this._animateToTargets(targets);
     }
-    
+
     updateHighlights(selectedNodeId, neighbors) {
         const previousNodeId = this.highlightedNodeId;
         
@@ -968,24 +992,11 @@ export class GraphView {
         this._animateToCurrentHighlightState();
 
         // 3. 处理边框样式的切换
-        const redrawNodeBorder = (nodeId, isSelected, customColor = null) => {
-            if (this.nodeObjects.has(nodeId)) {
-                const obj = this.nodeObjects.get(nodeId);
-                const radius = this._getNodeRadius(obj.data);
-                const color = parseInt(rgbToHex(this.colorScale(obj.data.type)).substring(1), 16);
-                const borderColor = customColor !== null ? customColor : (isSelected ? 0xFF0000 : 0xFFFFFF);
-                const borderWidth = (isSelected || customColor) ? 2 : 1.5;
-                obj.gfx.clear().circle(0, 0, radius).fill(color).stroke({ width: borderWidth, color: borderColor });
-            }
-        };
-        
-        // 恢复旧高亮节点的边框为默认
         if (previousNodeId && previousNodeId !== selectedNodeId) {
-            redrawNodeBorder(previousNodeId, false);
+            this._redrawNodeBorder(previousNodeId, false);
         }
-        // 设置新高亮节点的边框
         if (selectedNodeId) {
-            redrawNodeBorder(selectedNodeId, true);
+            this._redrawNodeBorder(selectedNodeId, true);
         }
     }
 
@@ -1087,18 +1098,8 @@ export class GraphView {
     _redrawPathBorders(sourceId, targetId) {
         const DURATION = 150;
         setTimeout(() => {
-            const tempRedraw = (nodeId, isSelected, customColor = null) => {
-                if (this.nodeObjects.has(nodeId)) {
-                    const obj = this.nodeObjects.get(nodeId);
-                    const radius = this._getNodeRadius(obj.data);
-                    const color = parseInt(rgbToHex(this.colorScale(obj.data.type)).substring(1), 16);
-                    const borderColor = customColor !== null ? customColor : (isSelected ? 0xFF0000 : 0xFFFFFF);
-                    const borderWidth = (isSelected || customColor) ? 3 : 2;
-                    obj.gfx.clear().circle(0, 0, radius).fill(color).stroke({ width: borderWidth, color: borderColor });
-                }
-            };
-            tempRedraw(sourceId, true, 0xffdd00);
-            tempRedraw(targetId, true, 0xff6600);
+            this._redrawNodeBorder(sourceId, true, 0xffdd00);
+            this._redrawNodeBorder(targetId, true, 0xff6600);
         }, DURATION);
     }
 
@@ -1114,12 +1115,7 @@ export class GraphView {
                 alpha: 1, 
                 eventMode: 'static' 
             });
-            const radius = this._getNodeRadius(obj.data);
-            const color = parseInt(rgbToHex(this.colorScale(obj.data.type)).substring(1), 16);
-            obj.gfx.clear().circle(0, 0, radius).fill(color).stroke({ 
-                width: 2, 
-                color: 0xFFFFFF 
-            });
+            this._redrawNodeBorder(obj.data.id, false);
         });
         this.linkObjects.forEach(obj => {
             targets.set(obj, { 
@@ -1193,9 +1189,32 @@ export class GraphView {
     }
 
     _createSimulation() {
+        const getLinkCategory = (link) => {
+            if (CONFIG.RELATIONSHIP_CATEGORIES.CLOSE.has(link.type)) {
+                return 'CLOSE';
+            }
+            if (CONFIG.RELATIONSHIP_CATEGORIES.DISTANT.has(link.type)) {
+                return 'DISTANT';
+            }
+            return 'NORMAL';
+        };
+
         return d3.forceSimulation()
-            .force("link", d3.forceLink().id(d => d.id).distance(CONFIG.SIMULATION.LINK_DISTANCE))
-            .force("charge", d3.forceManyBody().strength(CONFIG.SIMULATION.CHARGE_STRENGTH))
+            .force("link", d3.forceLink().id(d => d.id)
+                // 根据关系类别调整 link distance
+                .distance(link => {
+                    const category = getLinkCategory(link);
+                    const modifier = CONFIG.LINK_MODIFIERS[category].distance;
+                    return CONFIG.SIMULATION.LINK.BASE_DISTANCE + modifier;
+                })
+                // 根据关系类别调整 link strength
+                .strength(link => {
+                    const category = getLinkCategory(link);
+                    const modifier = CONFIG.LINK_MODIFIERS[category].strength;
+                    return CONFIG.SIMULATION.LINK.STRENGTH + modifier;
+                })
+            )
+            .force("charge", d3.forceManyBody().strength(node => this._getNodeCharge(node)))
             .force("x", d3.forceX(this.width / 2).strength(CONFIG.SIMULATION.CENTER_X_STRENGTH))
             .force("y", d3.forceY(this.height / 2).strength(CONFIG.SIMULATION.CENTER_Y_STRENGTH))
             .force("collide", d3.forceCollide().radius(d => {
@@ -1203,14 +1222,41 @@ export class GraphView {
             }).strength(0.3));
     }
 
-    _handleResize() {
-        const newWidth = this.containerEl.getBoundingClientRect().width;
-        const newHeight = this.containerEl.getBoundingClientRect().height;
-        this.width = newWidth;
-        this.height = newHeight;
-        this.app.renderer.resize(newWidth, newHeight);
-        this.simulation.force("x").x(newWidth / 2);
-        this.simulation.force("y").y(newHeight / 2);
-        this.simulation.alpha(0.3).restart();
+    _updateSimulation(graphData) {
+        const { visibleNodes, validRels } = graphData;
+        
+        visibleNodes.forEach(n => n.isAnchor = false);
+        [...visibleNodes].sort((a, b) => b.degree - a.degree).slice(0, 3).forEach(n => n.isAnchor = true);
+        
+        const linkGroups = {};
+        validRels.forEach(link => {
+            const pairId = link.source.id < link.target.id ? `${link.source.id}-${link.target.id}` : `${link.target.id}-${link.source.id}`;
+            if (!linkGroups[pairId]) linkGroups[pairId] = [];
+            linkGroups[pairId].push(link);
+        });
+        
+        // 对每个分组内的链接进行确定性排序，以获得稳定的 groupIndex
+        Object.values(linkGroups).forEach(group => {
+            group.sort((a, b) => {
+                if (a.type < b.type) return -1;
+                if (a.type > b.type) return 1;
+                if (a.source.id < b.source.id) return -1;
+                if (a.source.id > b.source.id) return 1;
+                return 0;
+            });
+        });
+        
+        validRels.forEach(link => {
+            const pairId = link.source.id < link.target.id ? `${link.source.id}-${link.target.id}` : `${link.target.id}-${link.source.id}`;
+            link.groupSize = linkGroups[pairId].length;
+            link.groupIndex = linkGroups[pairId].indexOf(link);
+        });
+        
+        this.simulation.nodes(visibleNodes);
+        this.simulation.force("link").links(validRels);
+        // 设置一个大于0的目标alpha值，以防模拟完全停止
+        this.simulation.alpha(this.isInitialRender ? CONFIG.SIMULATION.INITIAL_ALPHA : CONFIG.SIMULATION.REHEAT_ALPHA).alphaTarget(0.1).restart();
+        
+        this.animationSourceNode = null;
     }
 }

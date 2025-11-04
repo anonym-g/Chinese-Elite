@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             nodeFixTimers.set(d.id, timer);
             
             stateManager.setSelectedNode(d.id);
-            graphView.setAnimationSource(d);
+            graphView.animationSourceNode = d;
             const graphChanged = await dataProcessor.streamAndAddNeighbors(d.id);
 
             if (graphChanged) {

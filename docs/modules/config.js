@@ -17,10 +17,16 @@ const CONFIG = {
     INITIAL_ZOOM_DURATION: 2000, // 初始视图动画的持续时间（毫秒）
 
     SIMULATION: {
-        INITIAL_ALPHA: 0.5, // 首次加载时的初始“能量”，1.0为最大值
-        REHEAT_ALPHA: 0.3,  // 后续更新时的“能量”
-        CHARGE_STRENGTH: -250,
-        LINK_DISTANCE: 100,
+        INITIAL_ALPHA: 1.0, // 首次加载时的初始“能量”，1.0为最大值
+        REHEAT_ALPHA: 0.5,  // 后续更新时的“能量”
+        CHARGE: {
+            BASE_STRENGTH: 240,       // 基础斥力，作用于所有节点
+            DEGREE_SCALE_FACTOR: 50   // 斥力随节点度的增加系数
+        },
+        LINK: {
+            BASE_DISTANCE: 500,
+            STRENGTH: 0.25
+        },
         CENTER_X_STRENGTH: 0.01,
         CENTER_Y_STRENGTH: 0.01,
         ANCHOR_STRENGTH: 0.4 // 锚定力（加给度最高的3个节点）
@@ -55,7 +61,24 @@ const CONFIG = {
         'FRIEND_OF', 
         'ENEMY_OF', 
         'MET_WITH'
-    ])
+    ]),
+
+    // 定义关系类别集合，用于力模拟调整
+    RELATIONSHIP_CATEGORIES: {
+        CLOSE: new Set([
+            'SPOUSE_OF', 'CHILD_OF', 'SIBLING_OF', 'LOVER_OF', 
+            'RELATIVE_OF', 'FRIEND_OF', 'PUSHED'
+        ]),
+        DISTANT: new Set([
+            'ENEMY_OF', 'BLOCKED'
+        ])
+    },
+
+    LINK_MODIFIERS: {
+        CLOSE: { distance: -140, strength: 0.1 },
+        NORMAL: { distance: 0, strength: 0 },
+        DISTANT: { distance: 140, strength: -0.1 }
+    }
 };
 
 export default CONFIG;
