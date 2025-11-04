@@ -8,13 +8,16 @@ from datetime import datetime
 import random
 import logging
 import concurrent.futures
+from typing import List, Dict, Any
 
 # 使用相对路径导入
 from .config import (
-    DATA_DIR, LIST_FILE_PATH, 
-    PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE, 
-    MAX_LIST_ITEMS_TO_CHECK, MAX_WORKERS_LIST_SCREENING, 
-    MAX_LIST_ITEMS_PER_RUN, MAX_WORKERS_LIST_PROCESSING, 
+    DATA_DIR, LIST_FILE_PATH, CACHE_DIR,
+    PROB_START_DAY, PROB_END_DAY, PROB_START_VALUE, PROB_END_VALUE,
+    SAMPLING_MIN_WEIGHT, SAMPLING_MAX_WEIGHT, SAMPLING_EXPONENT,
+    MAX_LIST_ITEMS_TO_CHECK, MAX_WORKERS_LIST_SCREENING,
+    SORTING_MIN_WEIGHT, SORTING_MAX_WEIGHT, SORTING_EXPONENT,
+    MAX_LIST_ITEMS_PER_RUN, MAX_WORKERS_LIST_PROCESSING,
     TIMEZONE
 )
 from .clients.wikipedia_client import WikipediaClient
@@ -39,6 +42,20 @@ class ListProcessor:
         self.wiki_client = wiki_client
         self.llm_service = llm_service
         self.items_to_process = {}
+        self.pageviews_cache = self._load_pageviews_cache()
+
+    def _load_pageviews_cache(self):
+        """加载页面热度缓存文件。"""
+        cache_path = os.path.join(CACHE_DIR, 'pageviews_cache.json')
+        if not os.path.exists(cache_path):
+            logger.warning("页面热度缓存文件 pageviews_cache.json 未找到，将回退至随机筛选模式。")
+            return None
+        try:
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except (IOError, json.JSONDecodeError):
+            logger.warning("读取或解析页面热度缓存失败，将回退至随机筛选模式。")
+            return None
 
     def _parse_list_file(self) -> bool:
         """解析 LIST.md 文件，将待处理条目加载到 self.items_to_process。"""
@@ -164,12 +181,133 @@ class ListProcessor:
         except Exception as e:
             logger.error(f"严重错误：在保存文件时发生异常 - {e}")
 
-    def run(self):
-        """脚本主入口函数。"""
-        if not self._parse_list_file():
-            logger.info("列表文件为空或不存在，任务结束。")
-            return
+    def _perform_weighted_sampling(
+        self,
+        items: List[Dict[str, Any]], 
+        k: int, 
+        min_weight: float, 
+        max_weight: float, 
+        exponent: float
+    ) -> List[Dict[str, Any]]:
+        """
+        对按热度降序排列的条目列表执行加权无放回抽样。
 
+        该函数采用 A-ExpJ 算法，通过随机排序键进行加权抽样。权重曲线由指数函数生成，以实现平滑非线性分布。
+
+        Args:
+            items (List[Dict[str, Any]]): 待抽样的条目列表。必须是已排序的。
+            k (int): 需要抽样的条目数量。
+            min_weight (float): 列表中最末位条目的最小权重。
+            max_weight (float): 列表中首位条目的最大权重。
+            exponent (float): 控制权重曲线形状的指数 (< 1.0 产生凸形曲线)。
+
+        Returns:
+            List[Dict[str, Any]]: 返回一个包含 k 个被选中条目的新列表。
+        """
+        total_items = len(items)
+        if total_items == 0:
+            return []
+
+        # 1. 根据排名计算每个条目的权重
+        weights = []
+        denominator = (total_items - 1) if total_items > 1 else 1
+        for i in range(total_items):
+            rank_ratio = i / denominator
+            weight = min_weight + (max_weight - min_weight) * ((1 - rank_ratio) ** exponent)
+            weights.append(weight)
+
+        # 2. 使用 A-ExpJ 算法生成随机排序键
+        weighted_for_sampling = [
+            {'item': item, 'key': random.random() ** (1.0 / weight)}
+            for item, weight in zip(items, weights)
+        ]
+        
+        # 3. 按随机键降序排序
+        weighted_for_sampling.sort(key=lambda x: x['key'], reverse=True)
+
+        # 4. 截取前 k 个条目作为抽样结果
+        num_to_take = min(k, total_items)
+        return [d['item'] for d in weighted_for_sampling[:num_to_take]]
+    
+    def _run_weighted_selection(self):
+        """基于热度的加权随机筛选与处理。"""
+        logger.info("--- 步骤 1/5: 预筛选 ---")
+        
+        # 按热度降序排序，用于计算权重
+        all_potential_items = []
+        for category, items in self.items_to_process.items():
+            for item_tuple in items:
+                item_name, _ = item_tuple
+                score = self.pageviews_cache.get(item_name, {}).get('avg_daily_views', 0)
+                all_potential_items.append({'data': (item_tuple, category), 'score': score})
+        
+        all_potential_items.sort(key=lambda x: x['score'], reverse=True)
+        
+        # 抽样
+        items_to_check = self._perform_weighted_sampling(
+            items=all_potential_items,
+            k=MAX_LIST_ITEMS_TO_CHECK,
+            min_weight=SAMPLING_MIN_WEIGHT,
+            max_weight=SAMPLING_MAX_WEIGHT,
+            exponent=SAMPLING_EXPONENT
+        )
+        if items_to_check:
+            logger.info(f"通过加权抽样，从 {len(all_potential_items)} 项中筛选出 {len(items_to_check)} 个条目。")
+        else:
+            logger.info("条目列表为空或抽样结果为空，无需筛选。")
+
+        # --- 步骤 2: 并行时间检查 ---
+        logger.info("--- 步骤 2/5: 并行时间检查 ---")
+        eligible_items = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS_LIST_SCREENING) as executor:
+            future_to_item = {
+                executor.submit(self._should_process_item, item['data'][0], item['data'][1]): item
+                for item in items_to_check
+            }
+            for future in concurrent.futures.as_completed(future_to_item):
+                item_data = future_to_item[future]
+                try:
+                    if future.result():
+                        eligible_items.append(item_data)
+                except Exception as exc:
+                    logger.error(f"检查条目 '{item_data['data'][0][0]}' 时发生错误: {exc}")
+
+        if not eligible_items:
+            logger.info("本轮没有需要处理的条目。")
+            return
+            
+        logger.info(f"初筛完成，共有 {len(eligible_items)} 个条目符合处理条件。")
+
+        # --- 步骤 3: 按原始热度排序 ---
+        logger.info("--- 步骤 3/5: 重新排序以确定权重 ---")
+        eligible_items.sort(key=lambda x: x['score'], reverse=True)
+
+        # --- 步骤 4: 加权随机排序
+        logger.info("--- 步骤 4/5: 加权随机排序 ---")
+        sorted_eligible_items = self._perform_weighted_sampling(
+            items=eligible_items,
+            k=MAX_LIST_ITEMS_PER_RUN,
+            min_weight=SORTING_MIN_WEIGHT,
+            max_weight=SORTING_MAX_WEIGHT,
+            exponent=SORTING_EXPONENT
+        )
+        
+        # 通过参数 k，已完成内部截取
+        final_list_to_process = [d['data'] for d in sorted_eligible_items]
+        
+        logger.info(f"--- 步骤 5/5: 已确定 {len(final_list_to_process)} 个待处理条目，开始并行处理 ---")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS_LIST_PROCESSING) as executor:
+            futures = [executor.submit(self._process_item, item_tuple, category) for item_tuple, category in final_list_to_process]
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    future.result()
+                except Exception as exc:
+                    logger.error(f"一个处理任务在执行期间发生意外错误: {exc}", exc_info=True)
+        
+        logger.info("所有条目处理完毕。")
+
+    def _run_random_selection(self):
+        """纯随机筛选和处理，作为热度缓存不存在时的后备方案。"""
         logger.info("--- 步骤 1/3: 并行筛选本轮需要处理的条目 ---")
         items_for_this_run = []
         # 将所有待检查的条目平铺到一个列表中
@@ -221,11 +359,23 @@ class ListProcessor:
             # 使用 executor.submit 来分派任务
             futures = [executor.submit(self._process_item, item_tuple, category) for item_tuple, category in items_for_this_run]
             
-            # 等待所有任务完成 (可选，有助于确保所有日志均已输出)
+            # 等待所有任务完成
             for future in concurrent.futures.as_completed(futures):
                 try:
-                    future.result() # 如果任务中出现异常，这里会重新抛出
+                    future.result()
                 except Exception as exc:
                     logger.error(f"一个处理任务在执行期间发生意外错误: {exc}", exc_info=True)
         
         logger.info("所有条目处理完毕。")
+
+    def run(self):
+        """脚本主入口函数。根据热度缓存是否存在，选择不同的筛选策略。"""
+        if not self._parse_list_file():
+            logger.info("列表文件为空或不存在，任务结束。")
+            return
+
+        if self.pageviews_cache:
+            self._run_weighted_selection()
+        else:
+            logger.warning("热度缓存缺失，回退至纯随机筛选模式。")
+            self._run_random_selection()

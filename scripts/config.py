@@ -25,6 +25,17 @@ DOCS_DIR = os.path.join(ROOT_DIR, 'docs')
 MASTER_GRAPH_PATH = os.path.join(DOCS_DIR, 'master_graph_qcode.json')
 FRONTEND_DATA_DIR = os.path.join(DOCS_DIR, 'data')
 
+# --- 加权抽样与排序参数 ---
+# 抽样
+SAMPLING_MIN_WEIGHT = 0.2
+SAMPLING_MAX_WEIGHT = 1.0
+SAMPLING_EXPONENT = 2.4
+
+# 排序
+SORTING_MIN_WEIGHT = 0.2
+SORTING_MAX_WEIGHT = 1.0
+SORTING_EXPONENT = 2.4
+
 # --- 用于过滤：时间、概率常量 ---
 PROB_START_DAY = 7
 PROB_END_DAY = 30
