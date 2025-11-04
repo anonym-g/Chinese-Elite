@@ -1242,14 +1242,16 @@ export class GraphView {
                 if (a.type > b.type) return 1;
                 if (a.source.id < b.source.id) return -1;
                 if (a.source.id > b.source.id) return 1;
+                if (a.target.id < b.target.id) return -1;
+                if (a.target.id > b.target.id) return 1;
                 return 0;
             });
-        });
         
-        validRels.forEach(link => {
-            const pairId = link.source.id < link.target.id ? `${link.source.id}-${link.target.id}` : `${link.target.id}-${link.source.id}`;
-            link.groupSize = linkGroups[pairId].length;
-            link.groupIndex = linkGroups[pairId].indexOf(link);
+            const groupSize = group.length;
+            group.forEach((link, index) => {
+                link.groupSize = groupSize;
+                link.groupIndex = index;
+            });
         });
         
         this.simulation.nodes(visibleNodes);
