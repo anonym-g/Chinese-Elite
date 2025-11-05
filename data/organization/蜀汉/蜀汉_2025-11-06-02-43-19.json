@@ -1,0 +1,869 @@
+{
+  "nodes": [
+    {
+      "id": "蜀汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蜀汉",
+          "汉",
+          "蜀国",
+          "蜀",
+          "西蜀",
+          "季汉"
+        ],
+        "en": [
+          "Shu Han"
+        ]
+      },
+      "properties": {
+        "period": "221-05-15 - 263-12-23",
+        "location": {
+          "zh-cn": "成都",
+          "en": "Chengdu"
+        },
+        "description": {
+          "zh-cn": "中国历史上三国时期西南方的国家，由刘备建立，国号为“汉”。",
+          "en": "A state in southwestern China during the Three Kingdoms period, founded by Liu Bei with the official state name of 'Han'."
+        }
+      }
+    },
+    {
+      "id": "刘备",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘备",
+          "汉昭烈帝"
+        ],
+        "en": [
+          "Liu Bei"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 223",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "白帝城",
+          "en": "Baidi Cheng"
+        },
+        "description": {
+          "zh-cn": "蜀汉的开国皇帝。",
+          "en": "The founding emperor of Shu Han."
+        }
+      }
+    },
+    {
+      "id": "曹魏",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "曹魏",
+          "魏"
+        ],
+        "en": [
+          "Cao Wei"
+        ]
+      },
+      "properties": {
+        "period": "220 - 266",
+        "description": {
+          "zh-cn": "中国历史上三国时期的国家之一，由曹丕建立。",
+          "en": "One of the states during the Three Kingdoms period of China, founded by Cao Pi."
+        }
+      }
+    },
+    {
+      "id": "东汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东汉"
+        ],
+        "en": [
+          "Eastern Han"
+        ]
+      },
+      "properties": {
+        "period": "25 - 220",
+        "description": {
+          "zh-cn": "中国历史上继西汉之后的统一王朝，为汉朝的延续。",
+          "en": "A unified dynasty in Chinese history following the Western Han, a continuation of the Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "曹丕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹丕"
+        ],
+        "en": [
+          "Cao Pi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏的开国皇帝。",
+          "en": "The founding emperor of Cao Wei."
+        }
+      }
+    },
+    {
+      "id": "汉献帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉献帝"
+        ],
+        "en": [
+          "Emperor Xian of Han"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉的最后一任皇帝。",
+          "en": "The last emperor of the Eastern Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "刘禅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘禅",
+          "汉怀帝"
+        ],
+        "en": [
+          "Liu Shan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉的第二位皇帝，刘备之子。",
+          "en": "The second emperor of Shu Han, son of Liu Bei."
+        }
+      }
+    },
+    {
+      "id": "孙权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙权"
+        ],
+        "en": [
+          "Sun Quan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东吴的建立者。",
+          "en": "The founder of Eastern Wu."
+        }
+      }
+    },
+    {
+      "id": "东吴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东吴",
+          "孙吴"
+        ],
+        "en": [
+          "Eastern Wu"
+        ]
+      },
+      "properties": {
+        "period": "229 - 280",
+        "description": {
+          "zh-cn": "中国历史上三国时期的国家之一，由孙权建立。",
+          "en": "One of the states during the Three Kingdoms period of China, founded by Sun Quan."
+        }
+      }
+    },
+    {
+      "id": "夷陵之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "夷陵之战"
+        ],
+        "en": [
+          "Battle of Yiling"
+        ]
+      },
+      "properties": {
+        "period": "222"
+      }
+    },
+    {
+      "id": "关羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "关羽"
+        ],
+        "en": [
+          "Guan Yu"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 220",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉将领，刘备的结义兄弟。",
+          "en": "A general of Shu Han, sworn brother of Liu Bei."
+        }
+      }
+    },
+    {
+      "id": "陆逊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陆逊"
+        ],
+        "en": [
+          "Lu Xun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东吴将领，夷陵之战的主帅。",
+          "en": "A general of Eastern Wu, commander-in-chief at the Battle of Yiling."
+        }
+      }
+    },
+    {
+      "id": "诸葛亮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诸葛亮"
+        ],
+        "en": [
+          "Zhuge Liang"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 234",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "五丈原",
+          "en": "Wuzhang Plains"
+        },
+        "description": {
+          "zh-cn": "蜀汉丞相，杰出的政治家和军事家。",
+          "en": "Chancellor of Shu Han, an outstanding statesman and military strategist."
+        }
+      }
+    },
+    {
+      "id": "诸葛亮北伐",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "诸葛亮北伐",
+          "北伐 (诸葛亮)"
+        ],
+        "en": [
+          "Zhuge Liang's Northern Expeditions"
+        ]
+      },
+      "properties": {
+        "period": "228 - 234"
+      }
+    },
+    {
+      "id": "姜维",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "姜维"
+        ],
+        "en": [
+          "Jiang Wei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉后期重要将领。",
+          "en": "A prominent general in the late Shu Han period."
+        }
+      }
+    },
+    {
+      "id": "姜维北伐",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "姜维北伐"
+        ],
+        "en": [
+          "Jiang Wei's Northern Expeditions"
+        ]
+      },
+      "properties": {
+        "period": "247 - 262"
+      }
+    },
+    {
+      "id": "魏灭蜀汉之战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "魏灭蜀汉之战",
+          "魏灭蜀之战"
+        ],
+        "en": [
+          "Conquest of Shu by Wei"
+        ]
+      },
+      "properties": {
+        "period": "263"
+      }
+    },
+    {
+      "id": "成都",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "成都"
+        ],
+        "en": [
+          "Chengdu"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "街亭之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "街亭之战"
+        ],
+        "en": [
+          "Battle of Jieting"
+        ]
+      },
+      "properties": {
+        "period": "228"
+      }
+    },
+    {
+      "id": "马谡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马谡"
+        ],
+        "en": [
+          "Ma Su"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 228",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉参军。",
+          "en": "An army advisor of Shu Han."
+        }
+      }
+    },
+    {
+      "id": "黄皓 (宦官)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄皓 (宦官)",
+          "黄皓"
+        ],
+        "en": [
+          "Huang Hao (eunuch)"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉宦官，深得后主刘禅宠信。",
+          "en": "A eunuch of Shu Han, deeply favored by the later emperor Liu Shan."
+        }
+      }
+    },
+    {
+      "id": "诸葛瞻",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诸葛瞻"
+        ],
+        "en": [
+          "Zhuge Zhan"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 263",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉大臣，诸葛亮之子。",
+          "en": "A minister of Shu Han, son of Zhuge Liang."
+        }
+      }
+    },
+    {
+      "id": "董厥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "董厥"
+        ],
+        "en": [
+          "Dong Jue"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉大臣。",
+          "en": "A minister of Shu Han."
+        }
+      }
+    },
+    {
+      "id": "司马昭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马昭"
+        ],
+        "en": [
+          "Sima Zhao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏末期权臣，为西晋的建立奠定基础。",
+          "en": "A powerful regent in the late Cao Wei period who laid the foundation for the Western Jin dynasty."
+        }
+      }
+    },
+    {
+      "id": "邓艾",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓艾"
+        ],
+        "en": [
+          "Deng Ai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏将领，参与了灭蜀之战。",
+          "en": "A general of Cao Wei who participated in the conquest of Shu."
+        }
+      }
+    },
+    {
+      "id": "钟会",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "钟会"
+        ],
+        "en": [
+          "Zhong Hui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏将领，参与了灭蜀之战。",
+          "en": "A general of Cao Wei who participated in the conquest of Shu."
+        }
+      }
+    },
+    {
+      "id": "谯周",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谯周"
+        ],
+        "en": [
+          "Qiao Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉大臣，劝说刘禅投降。",
+          "en": "A minister of Shu Han who persuaded Liu Shan to surrender."
+        }
+      }
+    },
+    {
+      "id": "汉中之战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "汉中之战"
+        ],
+        "en": [
+          "Hanzhong Campaign"
+        ]
+      },
+      "properties": {
+        "period": "217 - 219"
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操"
+        ],
+        "en": [
+          "Cao Cao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年权臣，曹魏的奠基者。",
+          "en": "A warlord who rose to power in the late Eastern Han dynasty and laid the foundation for Cao Wei."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘备",
+      "target": "蜀汉",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "221-05-15",
+        "description": {
+          "zh-cn": "221年，刘备于成都以汉朝宗室身份称帝，建立蜀汉，国号仍为“汉”。",
+          "en": "In 221, Liu Bei, as a member of the Han imperial clan, proclaimed himself emperor in Chengdu and established Shu Han, retaining 'Han' as the state name."
+        }
+      }
+    },
+    {
+      "source": "曹丕",
+      "target": "东汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "220",
+        "description": {
+          "zh-cn": "220年，魏王曹丕迫使汉献帝“禅让”而称帝，东汉正式灭亡。",
+          "en": "In 220, the King of Wei, Cao Pi, forced Emperor Xian of Han to 'abdicate,' proclaimed himself emperor, and officially ended the Eastern Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "曹丕",
+      "target": "汉献帝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "220",
+        "description": {
+          "zh-cn": "220年，曹丕逼迫汉献帝禅让。",
+          "en": "In 220, Cao Pi forced Emperor Xian of Han to abdicate the throne."
+        }
+      }
+    },
+    {
+      "source": "刘禅",
+      "target": "刘备",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "蜀汉",
+      "target": "曹魏",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "221-05-15",
+        "end_date": "263-12-23",
+        "description": {
+          "zh-cn": "蜀汉以承继汉室为名，与篡汉的曹魏分庭抗礼，多次进行北伐。",
+          "en": "Shu Han, claiming to be the legitimate successor to the Han dynasty, rivaled the usurping state of Cao Wei and launched multiple northern expeditions against it."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "夷陵之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "222",
+        "description": {
+          "zh-cn": "为报复孙权偷袭荆州及杀害关羽，刘备于222年发兵讨伐东吴，引发夷陵之战。",
+          "en": "To avenge Sun Quan's surprise attack on Jing Province and the killing of Guan Yu, Liu Bei launched a military campaign against Eastern Wu in 222, leading to the Battle of Yiling."
+        }
+      }
+    },
+    {
+      "source": "夷陵之战",
+      "target": "刘备",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "222",
+        "description": {
+          "zh-cn": "在夷陵之战中，刘备率领的蜀汉军队被陆逊击败，元气大伤，刘备退守白帝城并于次年病逝。",
+          "en": "In the Battle of Yiling, the Shu Han army led by Liu Bei was defeated by Lu Xun, suffering a major blow. Liu Bei retreated to Baidi Cheng and died of illness the following year."
+        }
+      }
+    },
+    {
+      "source": "陆逊",
+      "target": "刘备",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "222",
+        "description": {
+          "zh-cn": "在夷陵之战中，东吴主帅陆逊采用火攻，大败刘备的军队。",
+          "en": "During the Battle of Yiling, the Eastern Wu commander Lu Xun used a fire attack to decisively defeat Liu Bei's army."
+        }
+      }
+    },
+    {
+      "source": "孙权",
+      "target": "关羽",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "220",
+        "description": {
+          "zh-cn": "220年，孙权背弃盟约，派军偷袭荆州，导致关羽兵败被杀。",
+          "en": "In 220, Sun Quan broke the alliance and sent troops to launch a surprise attack on Jing Province, leading to Guan Yu's defeat and death."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "刘禅",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "223",
+        "end_date": "234",
+        "position": {
+          "zh-cn": "丞相",
+          "en": "Chancellor"
+        },
+        "description": {
+          "zh-cn": "刘备去世后，刘禅继位，由丞相诸葛亮作为托孤大臣实际主政。",
+          "en": "After Liu Bei's death, Liu Shan ascended the throne, with Chancellor Zhuge Liang serving as regent and effectively governing the state."
+        }
+      }
+    },
+    {
+      "source": "蜀汉",
+      "target": "东吴",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "223",
+        "end_date": "263",
+        "description": {
+          "zh-cn": "诸葛亮主政后，立即与东吴修复关系，恢复了联吴抗曹的政策。",
+          "en": "After Zhuge Liang took charge, he immediately repaired relations with Eastern Wu, resuming the policy of allying with Wu to resist Cao Wei."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "诸葛亮北伐",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "228",
+        "end_date": "234",
+        "description": {
+          "zh-cn": "诸葛亮继承刘备遗志，于228年至234年间发动了五次北伐，意图克复中原。",
+          "en": "Inheriting Liu Bei's will, Zhuge Liang launched five northern expeditions between 228 and 234, aiming to restore the Central Plains."
+        }
+      }
+    },
+    {
+      "source": "街亭之战",
+      "target": "诸葛亮北伐",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "228",
+        "description": {
+          "zh-cn": "诸葛亮的第一次北伐在街亭之战中因马谡的失误而失败。",
+          "en": "Zhuge Liang's first northern expedition failed due to Ma Su's mistakes at the Battle of Jieting."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "马谡",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "228",
+        "description": {
+          "zh-cn": "街亭之战失败后，诸葛亮依法处斩了负有重大责任的参军马谡。",
+          "en": "After the defeat at the Battle of Jieting, Zhuge Liang lawfully executed his advisor Ma Su, who bore significant responsibility for the failure."
+        }
+      }
+    },
+    {
+      "source": "姜维",
+      "target": "姜维北伐",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "247",
+        "end_date": "262",
+        "description": {
+          "zh-cn": "继诸葛亮之后，大将姜维于247年至262年间发动了十一次北伐。",
+          "en": "Following Zhuge Liang, General Jiang Wei launched eleven northern expeditions between 247 and 262."
+        }
+      }
+    },
+    {
+      "source": "姜维北伐",
+      "target": "蜀汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "253",
+        "end_date": "262",
+        "description": {
+          "zh-cn": "姜维的多次大规模北伐严重消耗了蜀汉国力，导致人民困苦不堪。",
+          "en": "Jiang Wei's numerous large-scale northern expeditions severely drained Shu Han's national strength, causing great hardship for the people."
+        }
+      }
+    },
+    {
+      "source": "魏灭蜀汉之战",
+      "target": "蜀汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "263",
+        "description": {
+          "zh-cn": "公元263年，曹魏发动伐蜀之战，导致蜀汉灭亡。",
+          "en": "In 263 AD, Cao Wei launched a campaign to conquer Shu, which led to the demise of Shu Han."
+        }
+      }
+    },
+    {
+      "source": "司马昭",
+      "target": "魏灭蜀汉之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "263",
+        "description": {
+          "zh-cn": "曹魏的实际掌权者司马昭在得知蜀汉内部状况后，决定发动伐蜀之战。",
+          "en": "Sima Zhao, the de facto ruler of Cao Wei, decided to launch the campaign to conquer Shu after learning about its internal conditions."
+        }
+      }
+    },
+    {
+      "source": "刘禅",
+      "target": "蜀汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "263-11",
+        "description": {
+          "zh-cn": "面对邓艾军队的进攻，刘禅接受投降建议，带领成都文武百官出降，蜀汉正式灭亡。",
+          "en": "Facing the advance of Deng Ai's army, Liu Shan accepted advice to surrender and led the officials of Chengdu to capitulate, formally ending Shu Han."
+        }
+      }
+    },
+    {
+      "source": "邓艾",
+      "target": "诸葛瞻",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "263",
+        "description": {
+          "zh-cn": "邓艾在进攻成都途中，击败并斩杀了负责防守的卫将军诸葛瞻。",
+          "en": "On his way to attack Chengdu, Deng Ai defeated and killed General-in-Chief of the Guards Zhuge Zhan, who was in charge of the defense."
+        }
+      }
+    },
+    {
+      "source": "黄皓 (宦官)",
+      "target": "姜维",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "姜维厌恶宦官黄皓擅权，曾上书刘禅要求处死他，而黄皓得知后也图谋废黜姜维。",
+          "en": "Jiang Wei detested the eunuch Huang Hao's abuse of power and once petitioned Liu Shan to execute him. After learning this, Huang Hao also plotted to depose Jiang Wei."
+        }
+      }
+    },
+    {
+      "source": "诸葛瞻",
+      "target": "姜维",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "诸葛瞻与董厥等大臣因姜维多次北伐无功、耗费国力而感到反感，曾上书要求剥夺其兵权。",
+          "en": "Zhuge Zhan, along with other ministers like Dong Jue, disapproved of Jiang Wei's repeated fruitless northern expeditions that drained national resources, and they once petitioned to have his military command revoked."
+        }
+      }
+    },
+    {
+      "source": "董厥",
+      "target": "姜维",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "董厥与诸葛瞻等大臣因姜维多次北伐无功、耗费国力而感到反感，曾上书要求剥夺其兵权。",
+          "en": "Dong Jue, along with other ministers like Zhuge Zhan, disapproved of Jiang Wei's repeated fruitless northern expeditions that drained national resources, and they once petitioned to have his military command revoked."
+        }
+      }
+    },
+    {
+      "source": "谯周",
+      "target": "刘禅",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "263-11",
+        "description": {
+          "zh-cn": "刘禅接受了大臣谯周的意见，决定投降。",
+          "en": "Liu Shan accepted the advice of his minister Qiao Zhou and decided to surrender."
+        }
+      }
+    },
+    {
+      "source": "汉中之战",
+      "target": "刘备",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "219",
+        "description": {
+          "zh-cn": "刘备通过汉中之战成功从曹操手中夺取了汉中地区，并于同年自封为汉中王。",
+          "en": "Through the Hanzhong Campaign, Liu Bei successfully seized the Hanzhong region from Cao Cao and declared himself King of Hanzhong in the same year."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "曹操",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "219",
+        "description": {
+          "zh-cn": "刘备在汉中之战中击败了曹操，成功夺取了汉中。",
+          "en": "Liu Bei defeated Cao Cao in the Hanzhong Campaign and successfully captured Hanzhong."
+        }
+      }
+    }
+  ]
+}

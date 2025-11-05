@@ -1,0 +1,544 @@
+{
+  "nodes": [
+    {
+      "id": "香港岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "香港岛",
+          "香港",
+          "港岛",
+          "港岛区",
+          "香港区",
+          "泛春洲",
+          "红香炉"
+        ],
+        "en": [
+          "Hong Kong Island",
+          "Hongkong Island",
+          "barren rock",
+          "Fan-chin-chow"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "香港",
+          "en": "Hong Kong"
+        },
+        "description": {
+          "zh-cn": "香港三大地域之一，与九龙和新界并列。它是香港开埠时最早发展的地区，现为香港的政治、经济、金融和商业中心。岛上最高峰为太平山。",
+          "en": "One of the three main regions of Hong Kong, along with Kowloon and the New Territories. It was the earliest developed area during the founding of Hong Kong and is now the city's political, economic, financial, and commercial center. The highest point on the island is Victoria Peak."
+        }
+      }
+    },
+    {
+      "id": "大清帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大清帝国",
+          "清朝",
+          "清廷"
+        ],
+        "en": [
+          "Qing Empire",
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国历史上最后一个封建王朝，在鸦片战争中战败后将香港岛割让给英国。",
+          "en": "The last imperial dynasty in Chinese history, which ceded Hong Kong Island to the United Kingdom after being defeated in the Opium War."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国",
+          "英帝国",
+          "英军"
+        ],
+        "en": [
+          "United Kingdom",
+          "British Empire",
+          "British forces"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在鸦片战争后取得香港岛的主权，并将其发展为殖民地。",
+          "en": "Gained sovereignty over Hong Kong Island after the Opium War and developed it as a colony."
+        }
+      }
+    },
+    {
+      "id": "鸦片战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "鸦片战争"
+        ],
+        "en": [
+          "Opium War"
+        ]
+      },
+      "properties": {
+        "period": "1840 - 1842",
+        "description": {
+          "zh-cn": "大清帝国与英国之间的一场战争，其结果直接导致香港岛被割让。",
+          "en": "A war between the Qing Empire and the United Kingdom, which directly led to the cession of Hong Kong Island."
+        }
+      }
+    },
+    {
+      "id": "南京条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "南京条约"
+        ],
+        "en": [
+          "Treaty of Nanking"
+        ]
+      },
+      "properties": {
+        "period": "1842-08-29",
+        "description": {
+          "zh-cn": "清朝与英国签订的条约，正式将香港岛割让给英国。",
+          "en": "A treaty signed between the Qing dynasty and the United Kingdom, which formally ceded Hong Kong Island to the UK."
+        }
+      }
+    },
+    {
+      "id": "香港割让",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "香港割让"
+        ],
+        "en": [
+          "Cession of Hong Kong"
+        ]
+      },
+      "properties": {
+        "period": "1842",
+        "description": {
+          "zh-cn": "指香港岛由大清帝国转交给英国的历史事件。",
+          "en": "The historical event of the transfer of Hong Kong Island from the Qing Empire to the United Kingdom."
+        }
+      }
+    },
+    {
+      "id": "查理·义律",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查理·义律"
+        ],
+        "en": [
+          "Charles Elliot"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国皇家海军军官，于1841年率军占领香港岛。",
+          "en": "A British Royal Navy officer who led the occupation of Hong Kong Island in 1841."
+        }
+      }
+    },
+    {
+      "id": "香港开埠",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "香港开埠"
+        ],
+        "en": [
+          "The Founding of Hong Kong"
+        ]
+      },
+      "properties": {
+        "period": "1841",
+        "description": {
+          "zh-cn": "指1841年英国占领香港岛并开始进行殖民地发展的历史时期。",
+          "en": "Refers to the historical period starting in 1841 when the British occupied Hong Kong Island and began its development as a colony."
+        }
+      }
+    },
+    {
+      "id": "香港保卫战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "香港保卫战"
+        ],
+        "en": [
+          "Battle of Hong Kong"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-08 - 1941-12-25",
+        "description": {
+          "zh-cn": "第二次世界大战期间，日本为攻占香港而发动的战役，最终英军投降。",
+          "en": "A battle during World War II initiated by Japan to capture Hong Kong, resulting in the surrender of British forces."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日军"
+        ],
+        "en": [
+          "Empire of Japan",
+          "Japanese Army"
+        ]
+      },
+      "properties": {
+        "period": "1868 - 1947",
+        "description": {
+          "zh-cn": "于第二次世界大战期间侵占香港，开始了香港日占时期。",
+          "en": "Invaded and occupied Hong Kong during World War II, beginning the period of Japanese occupation."
+        }
+      }
+    },
+    {
+      "id": "香港日占时期",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "香港日占时期"
+        ],
+        "en": [
+          "Japanese occupation of Hong Kong"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-25 - 1945-08-15",
+        "description": {
+          "zh-cn": "指第二次世界大战期间日本占领香港的三年零八个月。",
+          "en": "Refers to the three years and eight months of Japanese occupation of Hong Kong during World War II."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939 - 1945",
+        "description": {
+          "zh-cn": "全球性的战争，战后香港岛人口剧增，发展加速。",
+          "en": "A global war, after which the population of Hong Kong Island surged and its development accelerated."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949 - ",
+        "description": {
+          "zh-cn": "于1997年7月1日对香港恢复行使主权。",
+          "en": "Resumed the exercise of sovereignty over Hong Kong on July 1, 1997."
+        }
+      }
+    },
+    {
+      "id": "香港主权移交",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "香港主权移交"
+        ],
+        "en": [
+          "Handover of Hong Kong"
+        ]
+      },
+      "properties": {
+        "period": "1997-07-01",
+        "description": {
+          "zh-cn": "指香港的主权由英国移交给中华人民共和国的事件。",
+          "en": "The event of the transfer of sovereignty over Hong Kong from the United Kingdom to the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "宝安县",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宝安县",
+          "新安县"
+        ],
+        "en": [
+          "Bao'an County",
+          "Xin'an County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代行政区划，香港岛自东晋咸和六年后曾长期属其管辖。",
+          "en": "An ancient administrative division in China, which had jurisdiction over Hong Kong Island for a long period after 331 AD."
+        }
+      }
+    },
+    {
+      "id": "迁界令",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "迁界令"
+        ],
+        "en": [
+          "Great Clearance"
+        ]
+      },
+      "properties": {
+        "period": "1661 - 1669",
+        "description": {
+          "zh-cn": "清朝初年的一项政策，导致香港原居民被全数迫迁。",
+          "en": "A policy in the early Qing dynasty that resulted in the forced relocation of all original inhabitants of Hong Kong."
+        }
+      }
+    },
+    {
+      "id": "南丫岛发电厂",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南丫岛发电厂"
+        ],
+        "en": [
+          "Lamma Power Station"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于南丫岛的发电厂，为香港岛供应电力。",
+          "en": "A power station located on Lamma Island that supplies electricity to Hong Kong Island."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "鸦片战争",
+      "target": "大清帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1842",
+        "description": {
+          "zh-cn": "大清帝国在鸦片战争中战败，是导致香港岛被割让的直接原因。",
+          "en": "The Qing Empire was defeated in the Opium War, which was the direct cause of the cession of Hong Kong Island."
+        }
+      }
+    },
+    {
+      "source": "鸦片战争",
+      "target": "英国",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1842",
+        "description": {
+          "zh-cn": "英国在鸦片战争中获胜，为其占领香港岛创造了条件。",
+          "en": "The United Kingdom's victory in the Opium War created the conditions for its occupation of Hong Kong Island."
+        }
+      }
+    },
+    {
+      "source": "南京条约",
+      "target": "香港割让",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "description": {
+          "zh-cn": "《南京条约》的签订正式确定了将香港岛割让给英国。",
+          "en": "The signing of the Treaty of Nanking formally confirmed the cession of Hong Kong Island to the United Kingdom."
+        }
+      }
+    },
+    {
+      "source": "香港割让",
+      "target": "大清帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1842",
+        "description": {
+          "zh-cn": "通过香港割让，大清帝国丧失了对香港岛的主权。",
+          "en": "Through the cession of Hong Kong, the Qing Empire lost its sovereignty over Hong Kong Island."
+        }
+      }
+    },
+    {
+      "source": "香港割让",
+      "target": "英国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1842",
+        "description": {
+          "zh-cn": "通过香港割让，英国获得了对香港岛的主权。",
+          "en": "Through the cession of Hong Kong, the United Kingdom gained sovereignty over Hong Kong Island."
+        }
+      }
+    },
+    {
+      "source": "查理·义律",
+      "target": "香港开埠",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1841-01-26",
+        "description": {
+          "zh-cn": "查理·义律率领英军最先占领香港岛，并举行升旗仪式，标志着香港开埠的开始。",
+          "en": "Charles Elliot led British forces to first occupy Hong Kong Island and held a flag-raising ceremony, marking the beginning of the founding of Hong Kong."
+        }
+      }
+    },
+    {
+      "source": "香港开埠",
+      "target": "香港岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1841",
+        "description": {
+          "zh-cn": "香港开埠后，香港岛成为最早被发展的地区，并逐渐成为行政和商业中心。",
+          "en": "After the founding of Hong Kong, Hong Kong Island became the earliest developed area and gradually became the administrative and commercial center."
+        }
+      }
+    },
+    {
+      "source": "香港保卫战",
+      "target": "英国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1941-12-08",
+        "end_date": "1941-12-25",
+        "description": {
+          "zh-cn": "在香港保卫战中，驻港英军最终向日军投降，结束了英国在香港的统治。",
+          "en": "During the Battle of Hong Kong, the British garrison surrendered to the Japanese army, ending British rule in Hong Kong."
+        }
+      }
+    },
+    {
+      "source": "香港保卫战",
+      "target": "大日本帝国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-08",
+        "end_date": "1941-12-25",
+        "description": {
+          "zh-cn": "日本通过香港保卫战的胜利，成功占领香港，开始了日占时期。",
+          "en": "Through its victory in the Battle of Hong Kong, Japan successfully occupied Hong Kong, beginning the period of Japanese occupation."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "香港日占时期",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-25",
+        "description": {
+          "zh-cn": "日军在香港保卫战胜利后，开始了对香港为期三年零八个月的占领。",
+          "en": "After their victory in the Battle of Hong Kong, the Japanese army began a three-year and eight-month occupation of Hong Kong."
+        }
+      }
+    },
+    {
+      "source": "第二次世界大战",
+      "target": "香港岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "end_date": "1945",
+        "description": {
+          "zh-cn": "第二次世界大战结束后，香港岛人口剧增，岛上不少地方开始发展。",
+          "en": "After the end of World War II, the population of Hong Kong Island surged, and many areas on the island began to develop."
+        }
+      }
+    },
+    {
+      "source": "香港主权移交",
+      "target": "英国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1997-07-01",
+        "description": {
+          "zh-cn": "香港主权移交结束了英国对香港岛长达150多年的殖民统治。",
+          "en": "The handover of Hong Kong ended more than 150 years of British colonial rule over Hong Kong Island."
+        }
+      }
+    },
+    {
+      "source": "香港主权移交",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1997-07-01",
+        "description": {
+          "zh-cn": "通过香港主权移交，中华人民共和国恢复对香港岛行使主权。",
+          "en": "Through the handover of Hong Kong, the People's Republic of China resumed the exercise of sovereignty over Hong Kong Island."
+        }
+      }
+    },
+    {
+      "source": "宝安县",
+      "target": "香港岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "0331",
+        "end_date": "1841",
+        "description": {
+          "zh-cn": "香港岛在被英国割让前，曾长期属于宝安县（后称新安县）管辖。",
+          "en": "Before being ceded to Britain, Hong Kong Island was under the jurisdiction of Bao'an County (later Xin'an County) for a long period."
+        }
+      }
+    },
+    {
+      "source": "迁界令",
+      "target": "香港岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1661",
+        "end_date": "1669",
+        "description": {
+          "zh-cn": "清朝初年的迁界令导致香港岛上的原居民被全数迫迁，严重影响了岛上的人口和社会结构。",
+          "en": "The Great Clearance policy of the early Qing dynasty led to the forced relocation of all original inhabitants from Hong Kong Island, severely impacting the island's population and social structure."
+        }
+      }
+    },
+    {
+      "source": "南丫岛发电厂",
+      "target": "香港岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "南丫岛发电厂为整个香港岛供应电力。",
+          "en": "The Lamma Power Station supplies electricity to the entirety of Hong Kong Island."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+{
+  "nodes": [
+    {
+      "id": "后金",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "后金",
+          "金",
+          "大金",
+          "满洲国",
+          "建州",
+          "女真"
+        ],
+        "en": [
+          "Later Jin"
+        ]
+      },
+      "properties": {
+        "period": "1616-02-17 - 1636-05-15",
+        "location": {
+          "zh-cn": "中国东北",
+          "en": "Northeast China"
+        },
+        "description": {
+          "zh-cn": "由女真族首领努尔哈赤于1616年建立的政权，为清朝的前身。",
+          "en": "A khanate established by the Jurchen leader Nurhaci in 1616, the predecessor to the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "努尔哈赤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "努尔哈赤"
+        ],
+        "en": [
+          "Nurhaci"
+        ]
+      },
+      "properties": {
+        "lifetime": "1559 - 1626-09-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后金的创建者，统一了女真各部，为清朝的建立奠定了基础。",
+          "en": "Founder of the Later Jin, who unified the Jurchen tribes and laid the foundation for the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "皇太极",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "皇太极"
+        ],
+        "en": [
+          "Hong Taiji"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "努尔哈赤第八子，后金第二位汗，后改国号为大清并称帝。",
+          "en": "The eighth son of Nurhaci, the second khan of the Later Jin, who later renamed the state to Great Qing and proclaimed himself emperor."
+        }
+      }
+    },
+    {
+      "id": "明朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明朝",
+          "南朝"
+        ],
+        "en": [
+          "Ming dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国历史上的一个王朝，是后金的主要敌对政权。",
+          "en": "A dynasty in Chinese history and the main adversary of the Later Jin."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "大清"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由后金发展而来的中国最后一个封建王朝。",
+          "en": "The last imperial dynasty of China, which evolved from the Later Jin."
+        }
+      }
+    },
+    {
+      "id": "女真",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "女真",
+          "诸申"
+        ],
+        "en": [
+          "Jurchen"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "居住在中国东北地区的民族，后被皇太极改名为满洲。",
+          "en": "An ethnic group residing in Northeast China, later renamed Manchu by Hong Taiji."
+        }
+      }
+    },
+    {
+      "id": "满族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "满族",
+          "满洲"
+        ],
+        "en": [
+          "Manchu people"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由女真族发展而来的民族，名称由皇太极确定。",
+          "en": "An ethnic group that evolved from the Jurchens, with its name finalized by Hong Taiji."
+        }
+      }
+    },
+    {
+      "id": "八旗",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "八旗"
+        ],
+        "en": [
+          "Eight Banners"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "努尔哈赤创建的军政合一、兵民合一的社会组织形式。",
+          "en": "A system of military and social organization created by Nurhaci, integrating civil and military functions."
+        }
+      }
+    },
+    {
+      "id": "赫图阿拉",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "赫图阿拉",
+          "赫图阿拉城",
+          "兴京"
+        ],
+        "en": [
+          "Hetu Ala"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "后金的第一个都城，位于今辽宁省新宾满族自治县。",
+          "en": "The first capital of the Later Jin, located in modern-day Xinbin Manchu Autonomous County, Liaoning."
+        }
+      }
+    },
+    {
+      "id": "七大恨",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "七大恨"
+        ],
+        "en": [
+          "Seven Grievances"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "努尔哈赤于1618年发布的讨明檄文，标志着对明朝的公开反叛。",
+          "en": "A manifesto issued by Nurhaci in 1618, declaring war against the Ming dynasty."
+        }
+      }
+    },
+    {
+      "id": "萨尔浒之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "萨尔浒之战"
+        ],
+        "en": [
+          "Battle of Sarhu"
+        ]
+      },
+      "properties": {
+        "period": "1619",
+        "description": {
+          "zh-cn": "后金与明朝之间的关键战役，后金以少胜多，改变了辽东的战略格局。",
+          "en": "A key battle between the Later Jin and the Ming dynasty, where the outnumbered Jin forces won a decisive victory, altering the strategic landscape of Liaodong."
+        }
+      }
+    },
+    {
+      "id": "宁远战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "宁远战役",
+          "宁远大捷"
+        ],
+        "en": [
+          "Battle of Ningyuan"
+        ]
+      },
+      "properties": {
+        "period": "1626-02",
+        "description": {
+          "zh-cn": "明朝将领袁崇焕在宁远城击败努尔哈赤的战役，是努尔哈赤首次遭受重大军事挫败。",
+          "en": "A battle where the Ming general Yuan Chonghuan defeated Nurhaci at the city of Ningyuan, marking Nurhaci's first major military defeat."
+        }
+      }
+    },
+    {
+      "id": "袁崇焕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁崇焕"
+        ],
+        "en": [
+          "Yuan Chonghuan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝末年将领，在宁远战役中击败努尔哈赤。",
+          "en": "A general of the late Ming dynasty who defeated Nurhaci in the Battle of Ningyuan."
+        }
+      }
+    },
+    {
+      "id": "漠南蒙古",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "漠南蒙古"
+        ],
+        "en": [
+          "Southern Mongolia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于蒙古高原南部的蒙古部落群体，后被皇太极征服。",
+          "en": "A group of Mongol tribes in the southern part of the Mongolian Plateau, later conquered by Hong Taiji."
+        }
+      }
+    },
+    {
+      "id": "林丹汗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林丹汗"
+        ],
+        "en": [
+          "Ligdan Khan"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1634",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "甘肃省天祝藏族自治县",
+          "en": "Tianzhu Tibetan Autonomous County, Gansu"
+        },
+        "description": {
+          "zh-cn": "蒙古察哈尔部大汗，在与后金的战争中失败，最终病逝。",
+          "en": "The Great Khan of the Chahar Mongols, who was defeated in the war against the Later Jin and eventually died of illness."
+        }
+      }
+    },
+    {
+      "id": "后金征服察哈尔",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "后金征服察哈尔"
+        ],
+        "en": [
+          "Later Jin conquest of the Chahar"
+        ]
+      },
+      "properties": {
+        "period": "1632 - 1635",
+        "description": {
+          "zh-cn": "皇太极领导的一系列军事行动，最终征服了林丹汗的察哈尔部，统一了漠南蒙古。",
+          "en": "A series of military campaigns led by Hong Taiji that resulted in the conquest of Ligdan Khan's Chahar tribe and the unification of Southern Mongolia."
+        }
+      }
+    },
+    {
+      "id": "朝鲜王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜王朝",
+          "李氏朝鲜"
+        ],
+        "en": [
+          "Joseon"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜半岛的王朝，最初亲明，后在丁卯战争中被迫与后金结盟。",
+          "en": "A Korean dynasty that was initially pro-Ming but was forced into an alliance with the Later Jin after the First Manchu invasion of Korea."
+        }
+      }
+    },
+    {
+      "id": "丁卯战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "丁卯战争",
+          "丁卯虏乱"
+        ],
+        "en": [
+          "First Manchu invasion of Korea"
+        ]
+      },
+      "properties": {
+        "period": "1627",
+        "description": {
+          "zh-cn": "皇太极发动的对朝鲜的第一次入侵，迫使朝鲜断绝与明朝的关系并与后金结为兄弟之盟。",
+          "en": "The first invasion of Korea launched by Hong Taiji, which forced Korea to sever ties with the Ming and enter into a fraternal alliance with the Later Jin."
+        }
+      }
+    },
+    {
+      "id": "塔克世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "塔克世"
+        ],
+        "en": [
+          "Taksi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "努尔哈赤的父亲，在明军的一次攻击中与父亲觉昌安一同被杀。",
+          "en": "Father of Nurhaci, killed along with his father Giocangga during an attack by Ming forces."
+        }
+      }
+    },
+    {
+      "id": "觉昌安",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "觉昌安"
+        ],
+        "en": [
+          "Giocangga"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "努尔哈赤的祖父，在明军的一次攻击中与儿子塔克世一同被杀。",
+          "en": "Grandfather of Nurhaci, killed along with his son Taksi during an attack by Ming forces."
+        }
+      }
+    },
+    {
+      "id": "额哲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "额哲"
+        ],
+        "en": [
+          "Ejei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "林丹汗之子，于1635年向后金投降。",
+          "en": "Son of Ligdan Khan, who surrendered to the Later Jin in 1635."
+        }
+      }
+    },
+    {
+      "id": "满文",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "满文",
+          "无圈点满文",
+          "老满文"
+        ],
+        "en": [
+          "Manchu script"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基于蒙古文字创制的文字，于1599年由努尔哈赤下令创制。",
+          "en": "A script based on the Mongolian alphabet, created under the order of Nurhaci in 1599."
+        }
+      }
+    },
+    {
+      "id": "噶盖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "噶盖"
+        ],
+        "en": [
+          "Gagai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后金学者，奉努尔哈赤之命创制满文。",
+          "en": "A Later Jin scholar who was ordered by Nurhaci to create the Manchu script."
+        }
+      }
+    },
+    {
+      "id": "额尔德尼 (满族)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "额尔德尼 (满族)",
+          "额尔德尼"
+        ],
+        "en": [
+          "Erdeni"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后金学者，奉努尔哈赤之命创制满文。",
+          "en": "A Later Jin scholar who was ordered by Nurhaci to create the Manchu script."
+        }
+      }
+    },
+    {
+      "id": "孔有德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔有德"
+        ],
+        "en": [
+          "Kong Youde"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "原明朝将领，于1633年率部投降后金，为后金带来了先进的火炮技术。",
+          "en": "A former Ming general who defected to the Later Jin in 1633, bringing advanced artillery technology with him."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "努尔哈赤",
+      "target": "后金",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1616-02-17",
+        "description": {
+          "zh-cn": "努尔哈赤在赫图阿拉称汗，建立后金政权。",
+          "en": "Nurhaci proclaimed himself Khan in Hetu Ala, establishing the Later Jin regime."
+        }
+      }
+    },
+    {
+      "source": "后金",
+      "target": "明朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1618-03-08",
+        "end_date": "1636-05-15",
+        "description": {
+          "zh-cn": "后金自努尔哈赤发布“七大恨”起，便与明朝进入长期的战争状态。",
+          "en": "Starting from Nurhaci's issuance of the 'Seven Grievances', the Later Jin entered a state of prolonged warfare with the Ming dynasty."
+        }
+      }
+    },
+    {
+      "source": "后金",
+      "target": "清朝",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1636-05-15",
+        "description": {
+          "zh-cn": "后金是清朝的前身，1636年皇太极改国号为大清。",
+          "en": "The Later Jin was the predecessor of the Qing dynasty; Hong Taiji renamed the state to Great Qing in 1636."
+        }
+      }
+    },
+    {
+      "source": "皇太极",
+      "target": "清朝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1636-05-15",
+        "description": {
+          "zh-cn": "皇太极在盛京称帝，改国号为“大清”，建立了清朝。",
+          "en": "Hong Taiji proclaimed himself emperor in Shengjing, changed the state's name to 'Great Qing', and established the Qing dynasty."
+        }
+      }
+    },
+    {
+      "source": "皇太极",
+      "target": "努尔哈赤",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "皇太极是努尔哈赤的第八子。",
+          "en": "Hong Taiji was the eighth son of Nurhaci."
+        }
+      }
+    },
+    {
+      "source": "皇太极",
+      "target": "后金",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1626-10-20",
+        "end_date": "1636-05-15",
+        "position": {
+          "zh-cn": "汗",
+          "en": "Khan"
+        },
+        "description": {
+          "zh-cn": "皇太极继努尔哈赤之后成为后金的第二位，也是最后一位汗。",
+          "en": "Hong Taiji succeeded Nurhaci as the second and last khan of the Later Jin."
+        }
+      }
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "后金",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1616-02-17",
+        "end_date": "1626-09-30",
+        "position": {
+          "zh-cn": "汗",
+          "en": "Khan"
+        },
+        "description": {
+          "zh-cn": "努尔哈赤是后金的开国君主。",
+          "en": "Nurhaci was the founding monarch of the Later Jin."
+        }
+      }
+    },
+    {
+      "source": "七大恨",
+      "target": "后金",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1618-03-08",
+        "description": {
+          "zh-cn": "努尔哈赤公布“七大恨”，以此为由起兵反明，标志着后金与明朝的战争正式开始。",
+          "en": "Nurhaci announced the 'Seven Grievances' as the reason for rebelling against the Ming, marking the official start of the war between the Later Jin and the Ming dynasty."
+        }
+      }
+    },
+    {
+      "source": "萨尔浒之战",
+      "target": "明朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1619",
+        "description": {
+          "zh-cn": "萨尔浒之战是明朝对后金的一次重大军事失败，改变了辽东的战略格局。",
+          "en": "The Battle of Sarhu was a major military defeat for the Ming dynasty against the Later Jin, which altered the strategic landscape of Liaodong."
+        }
+      }
+    },
+    {
+      "source": "宁远战役",
+      "target": "努尔哈赤",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1626-02",
+        "end_date": "1626-09-30",
+        "description": {
+          "zh-cn": "努尔哈赤在宁远战役中被袁崇焕击败，这是他军事生涯中的首次大败，并可能因此役受伤而于数月后去世。",
+          "en": "Nurhaci was defeated by Yuan Chonghuan in the Battle of Ningyuan, his first major defeat, and he may have died several months later from injuries sustained in this battle."
+        }
+      }
+    },
+    {
+      "source": "袁崇焕",
+      "target": "努尔哈赤",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1626-02-20",
+        "description": {
+          "zh-cn": "在宁远战役中，明朝将领袁崇焕成功抵御了努尔哈赤的进攻，并可能使其负伤。",
+          "en": "During the Battle of Ningyuan, Ming general Yuan Chonghuan successfully defended against Nurhaci's attack and possibly wounded him."
+        }
+      }
+    },
+    {
+      "source": "后金征服察哈尔",
+      "target": "林丹汗",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1634",
+        "description": {
+          "zh-cn": "在后金的军事征讨下，林丹汗被迫西逃，最终病逝于甘肃。",
+          "en": "Under the military campaign of the Later Jin, Ligdan Khan was forced to flee west and eventually died of illness in Gansu."
+        }
+      }
+    },
+    {
+      "source": "皇太极",
+      "target": "漠南蒙古",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1632",
+        "end_date": "1635",
+        "description": {
+          "zh-cn": "皇太极通过一系列军事和政治手段，最终征服了漠南蒙古各部。",
+          "en": "Through a series of military and political maneuvers, Hong Taiji eventually conquered the tribes of Southern Mongolia."
+        }
+      }
+    },
+    {
+      "source": "丁卯战争",
+      "target": "朝鲜王朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1627",
+        "description": {
+          "zh-cn": "丁卯战争后，朝鲜王朝被迫与后金缔结不平等的“兄弟之盟”，成为其半臣属国。",
+          "en": "After the Dingmao War, the Joseon dynasty was forced to conclude the unequal 'Brotherly Alliance' with the Later Jin, becoming its semi-vassal state."
+        }
+      }
+    },
+    {
+      "source": "皇太极",
+      "target": "满族",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1635-11-22",
+        "description": {
+          "zh-cn": "皇太极下令废除“女真”旧称，定族名为“满洲”。",
+          "en": "Hong Taiji ordered the abolition of the old name 'Jurchen' and designated the ethnic name as 'Manchu'."
+        }
+      }
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "八旗",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1615",
+        "description": {
+          "zh-cn": "努尔哈赤在1615年创建了八旗制度，作为其政权的军事和社会基础。",
+          "en": "In 1615, Nurhaci created the Eight Banners system as the military and social foundation of his regime."
+        }
+      }
+    },
+    {
+      "source": "塔克世",
+      "target": "觉昌安",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "塔克世是觉昌安的儿子。",
+          "en": "Taksi was the son of Giocangga."
+        }
+      }
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "塔克世",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "努尔哈赤是塔克世的儿子。",
+          "en": "Nurhaci was the son of Taksi."
+        }
+      }
+    },
+    {
+      "source": "明朝",
+      "target": "塔克世",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "努尔哈赤的父亲塔克世在涉及明军的混战中被杀害，这是努尔哈赤反明的原因之一。",
+          "en": "Nurhaci's father, Taksi, was killed in a melee involving Ming forces, which became one of Nurhaci's reasons for rebelling against the Ming."
+        }
+      }
+    },
+    {
+      "source": "明朝",
+      "target": "觉昌安",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "努尔哈赤的祖父觉昌安在涉及明军的混战中被杀害，这是努尔哈赤反明的原因之一。",
+          "en": "Nurhaci's grandfather, Giocangga, was killed in a melee involving Ming forces, which became one of Nurhaci's reasons for rebelling against the Ming."
+        }
+      }
+    },
+    {
+      "source": "额哲",
+      "target": "林丹汗",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "额哲是林丹汗的儿子。",
+          "en": "Ejei was the son of Ligdan Khan."
+        }
+      }
+    },
+    {
+      "source": "额哲",
+      "target": "皇太极",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1635-06-12",
+        "description": {
+          "zh-cn": "林丹汗之子额哲率部向皇太极投降。",
+          "en": "Ejei, son of Ligdan Khan, surrendered with his followers to Hong Taiji."
+        }
+      }
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "满文",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1599-02",
+        "description": {
+          "zh-cn": "努尔哈赤下令学者额尔德尼和噶盖以蒙古文字为基础创制满文。",
+          "en": "Nurhaci ordered the scholars Erdeni and Gagai to create the Manchu script based on the Mongolian alphabet."
+        }
+      }
+    },
+    {
+      "source": "额尔德尼 (满族)",
+      "target": "努尔哈赤",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1599",
+        "position": {
+          "zh-cn": "巴克什",
+          "en": "Bakši"
+        },
+        "description": {
+          "zh-cn": "额尔德尼奉努尔哈赤之命创制满文。",
+          "en": "Erdeni created the Manchu script under Nurhaci's order."
+        }
+      }
+    },
+    {
+      "source": "噶盖",
+      "target": "努尔哈赤",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1599",
+        "position": {
+          "zh-cn": "巴克什",
+          "en": "Bakši"
+        },
+        "description": {
+          "zh-cn": "噶盖奉努尔哈赤之命创制满文。",
+          "en": "Gagai created the Manchu script under Nurhaci's order."
+        }
+      }
+    },
+    {
+      "source": "孔有德",
+      "target": "皇太极",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1633",
+        "description": {
+          "zh-cn": "原明朝将领孔有德于1633年率部投降皇太极。",
+          "en": "The former Ming general Kong Youde defected with his troops to Hong Taiji in 1633."
+        }
+      }
+    }
+  ]
+}

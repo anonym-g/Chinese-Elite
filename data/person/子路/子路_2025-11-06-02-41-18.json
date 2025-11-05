@@ -1,0 +1,896 @@
+{
+  "nodes": [
+    {
+      "id": "子路",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "子路",
+          "仲由",
+          "季路"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-0542 - -0480",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "鲁国卞邑",
+          "en": ""
+        },
+        "death_place": {
+          "zh-cn": "卫国",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "孔子著名弟子，孔门十哲之一。以其勇武、忠诚、信守承诺而著称。曾任卫国蒲邑宰、大夫孔悝的家臣，在卫国内乱中为救孔悝而殉职。",
+          "en": "A prominent disciple of Confucius and one of the Ten Philosophers of the Confucian school. Known for his bravery, loyalty, and trustworthiness. He served as the governor of Pu in the state of Wei and as a retainer to the grand master Kong Kui, and died during a coup in Wei while trying to save his lord."
+        }
+      }
+    },
+    {
+      "id": "孔子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔子"
+        ],
+        "en": [
+          "Confucius"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代思想家、教育家，儒家学派创始人，子路的老师。",
+          "en": "An ancient Chinese philosopher, politician, and teacher, founder of Confucianism, and the teacher of Zi Lu."
+        }
+      }
+    },
+    {
+      "id": "鲁国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "鲁国"
+        ],
+        "en": [
+          "State of Lu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国周代诸侯国，孔子和子路的家乡。",
+          "en": "A vassal state during the Zhou dynasty in ancient China, the homeland of Confucius and Zi Lu."
+        }
+      }
+    },
+    {
+      "id": "泗水县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "泗水县"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国山东省，据传是子路的出生地。",
+          "en": "A county in Shandong Province, China, believed to be the birthplace of Zi Lu."
+        }
+      }
+    },
+    {
+      "id": "卫国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "卫国",
+          "衞国"
+        ],
+        "en": [
+          "State of Wey"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国周代诸侯国，子路在此地为官并最终殉职。",
+          "en": "A vassal state during the Zhou dynasty in ancient China, where Zi Lu served as an official and ultimately died."
+        }
+      }
+    },
+    {
+      "id": "孔门十哲",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "孔门十哲"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孔子门下十位最杰出弟子的合称。",
+          "en": "A collective term for the ten most outstanding disciples of Confucius."
+        }
+      }
+    },
+    {
+      "id": "孔悝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔悝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "卫国大夫，子路的主君。在蒯聩发动的兵变中被劫持。",
+          "en": "A grand master of the state of Wei and the lord of Zi Lu. He was hijacked during the coup initiated by Kuai Kui."
+        }
+      }
+    },
+    {
+      "id": "蒯聩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒯聩",
+          "卫后庄公"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "卫灵公的太子，后为卫后庄公。因权力斗争发动兵变，导致子路死亡。",
+          "en": "The crown prince of Duke Ling of Wei, later known as Duke Zhuang II of Wei. He initiated a coup due to power struggles, which led to the death of Zi Lu."
+        }
+      }
+    },
+    {
+      "id": "蒯聩兵变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "蒯聩兵变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0480",
+        "description": {
+          "zh-cn": "公元前480年，蒯聩为夺取卫国君位而发动的政变，子路在此事件中被杀。",
+          "en": "A coup launched by Kuai Kui in 480 BC to seize the throne of Wei, during which Zi Lu was killed."
+        }
+      }
+    },
+    {
+      "id": "石乞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石乞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "蒯聩手下的勇士，参与杀害子路。",
+          "en": "A warrior under Kuai Kui who participated in the killing of Zi Lu."
+        }
+      }
+    },
+    {
+      "id": "盂黡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "盂黡"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "蒯聩手下的勇士，参与杀害子路。",
+          "en": "A warrior under Kuai Kui who participated in the killing of Zi Lu."
+        }
+      }
+    },
+    {
+      "id": "唐玄宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐玄宗"
+        ],
+        "en": [
+          "Emperor Xuanzong of Tang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "唐朝皇帝，追尊子路为“卫侯”。",
+          "en": "An emperor of the Tang dynasty who posthumously honored Zi Lu as 'Marquis of Wei'."
+        }
+      }
+    },
+    {
+      "id": "宋真宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋真宗"
+        ],
+        "en": [
+          "Emperor Zhenzong of Song"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "宋朝皇帝，加封子路为“河内公”。",
+          "en": "An emperor of the Song dynasty who granted Zi Lu the title 'Duke of Henei'."
+        }
+      }
+    },
+    {
+      "id": "宋度宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋度宗"
+        ],
+        "en": [
+          "Emperor Duzong of Song"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "宋朝皇帝，追尊子路为“卫公”。",
+          "en": "An emperor of the Song dynasty who posthumously honored Zi Lu as 'Duke of Wei'."
+        }
+      }
+    },
+    {
+      "id": "明世宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明世宗"
+        ],
+        "en": [
+          "Jiajing Emperor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝皇帝，改称子路为“先贤仲子”。",
+          "en": "An emperor of the Ming dynasty who changed Zi Lu's title to 'Former Worthy, Master Zhong'."
+        }
+      }
+    },
+    {
+      "id": "周游列国",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "周游列国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孔子及其弟子为宣传其政治主张在各诸侯国间进行的游历活动。",
+          "en": "The travels of Confucius and his disciples among the various vassal states to promote their political ideas."
+        }
+      }
+    },
+    {
+      "id": "蒲邑",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蒲邑"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "春秋时期卫国的一个邑，子路曾在此地担任邑宰。",
+          "en": "A city in the State of Wei during the Spring and Autumn period, where Zi Lu once served as governor."
+        }
+      }
+    },
+    {
+      "id": "子羔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "子羔"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孔子弟子，被子路委派为费邑宰。在蒯聩兵变时从卫国逃出。",
+          "en": "A disciple of Confucius, appointed by Zi Lu as the governor of Fei. He escaped from the State of Wei during Kuai Kui's coup."
+        }
+      }
+    },
+    {
+      "id": "费县",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "费县",
+          "费邑"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "春秋时期的一个邑，子羔曾在此地担任邑宰。",
+          "en": "A city during the Spring and Autumn period, where Zi Gao once served as governor."
+        }
+      }
+    },
+    {
+      "id": "卫出公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卫出公"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "卫国君主，蒯聩之子。其父蒯聩发动兵变意图废黜他。",
+          "en": "The ruler of the State of Wei, son of Kuai Kui. His father launched a coup in an attempt to depose him."
+        }
+      }
+    },
+    {
+      "id": "卫灵公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卫灵公"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "卫国君主，蒯聩之父。",
+          "en": "The ruler of the State of Wei, father of Kuai Kui."
+        }
+      }
+    },
+    {
+      "id": "南子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "南子"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "卫灵公的夫人，蒯聩的嫡母。蒯聩曾因谋害她而获罪。",
+          "en": "The wife of Duke Ling of Wei and the formal mother of Kuai Kui. Kuai Kui was incriminated for plotting against her."
+        }
+      }
+    },
+    {
+      "id": "赵简子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵简子"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "晋国大夫，曾为出逃的蒯聩提供庇护。",
+          "en": "A grand master of the State of Jin who provided refuge to the fugitive Kuai Kui."
+        }
+      }
+    },
+    {
+      "id": "伯姬",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伯姬"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "蒯聩的妹妹，孔悝的母亲。她参与了劫持自己儿子孔悝以协助其兄夺权的计划。",
+          "en": "The younger sister of Kuai Kui and the mother of Kong Kui. She participated in the plan to abduct her own son to help her brother seize power."
+        }
+      }
+    },
+    {
+      "id": "浑良夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "浑良夫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伯姬的情夫，协助蒯聩和伯姬劫持孔悝。",
+          "en": "The lover of Bo Ji, who assisted Kuai Kui and Bo Ji in abducting Kong Kui."
+        }
+      }
+    },
+    {
+      "id": "栾宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "栾宁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孔悝的家臣，在蒯聩兵变时将卫出公护送至鲁国。",
+          "en": "A retainer of Kong Kui who escorted Duke Chu of Wei to the State of Lu during Kuai Kui's coup."
+        }
+      }
+    },
+    {
+      "id": "公孙敢",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "公孙敢"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "卫国兵变时的守城将领，曾试图阻止子路进城。",
+          "en": "A defending general during the coup in Wei who tried to stop Zi Lu from entering the city."
+        }
+      }
+    },
+    {
+      "id": "子贡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "子贡"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孔子著名弟子，孔门十哲之一，与子路是同学。",
+          "en": "A prominent disciple of Confucius and one of the Ten Philosophers, a fellow student of Zi Lu."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "子路",
+      "target": "泗水县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "-0542",
+        "description": {
+          "zh-cn": "子路出生于鲁国卞邑，即今天的山东省泗水县一带。",
+          "en": "Zi Lu was born in Bianyi of Lu State, which is around today's Sishui County, Shandong Province."
+        }
+      }
+    },
+    {
+      "source": "子路",
+      "target": "孔子",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "子路是孔子的著名弟子，也是侍奉孔子最久的学生。",
+          "en": "Zi Lu was a prominent disciple of Confucius and the student who served him the longest."
+        }
+      }
+    },
+    {
+      "source": "子路",
+      "target": "孔子",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "孔子十分信赖子路，曾说若自己理想无法实现，会跟随自己的只有子路。当听闻子路殉职并被处以醢刑后，孔子极为伤心，并誓言此后不再食用肉酱。",
+          "en": "Confucius trusted Zi Lu deeply, once saying that if his ideals failed, only Zi Lu would follow him. Upon hearing of Zi Lu's death and mutilation, Confucius was extremely grieved and vowed never to eat meat paste again."
+        }
+      }
+    },
+    {
+      "source": "子路",
+      "target": "孔门十哲",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "子路名列孔门十哲，是政事科的杰出人才。",
+          "en": "Zi Lu was listed among the Ten Philosophers of the Confucian school, excelling in political affairs."
+        }
+      }
+    },
+    {
+      "source": "子路",
+      "target": "孔悝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "家臣",
+          "en": "Retainer"
+        },
+        "description": {
+          "zh-cn": "子路是卫国大夫孔悝的家臣，并为救他而死。",
+          "en": "Zi Lu was a retainer of Kong Kui, a grand master of the State of Wei, and died trying to save him."
+        }
+      }
+    },
+    {
+      "source": "蒯聩兵变",
+      "target": "子路",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0480",
+        "description": {
+          "zh-cn": "子路在蒯聩发动的兵变中，为营救被劫持的孔悝而战死。",
+          "en": "Zi Lu was killed during the coup initiated by Kuai Kui while fighting to rescue the abducted Kong Kui."
+        }
+      }
+    },
+    {
+      "source": "蒯聩",
+      "target": "子路",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0480",
+        "description": {
+          "zh-cn": "子路在蒯聩发动的兵变中被其手下杀死，死后蒯聩下令将子路遗体施以醢刑（剁成肉酱）。",
+          "en": "Zi Lu was killed by Kuai Kui's men during the coup. After his death, Kuai Kui ordered that his body be mutilated by being made into meat paste (haixing)."
+        }
+      }
+    },
+    {
+      "source": "石乞",
+      "target": "子路",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0480",
+        "description": {
+          "zh-cn": "石乞与盂黡一同围攻并杀死了子路。",
+          "en": "Shi Qi, along with Yu Yan, besieged and killed Zi Lu."
+        }
+      }
+    },
+    {
+      "source": "盂黡",
+      "target": "子路",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0480",
+        "description": {
+          "zh-cn": "盂黡与石乞一同围攻并杀死了子路。",
+          "en": "Yu Yan, along with Shi Qi, besieged and killed Zi Lu."
+        }
+      }
+    },
+    {
+      "source": "唐玄宗",
+      "target": "子路",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "唐玄宗追尊子路为“卫侯”。",
+          "en": "Emperor Xuanzong of Tang posthumously honored Zi Lu as 'Marquis of Wei'."
+        }
+      }
+    },
+    {
+      "source": "宋真宗",
+      "target": "子路",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "宋真宗加封子路为“河内公”。",
+          "en": "Emperor Zhenzong of Song granted Zi Lu the title 'Duke of Henei'."
+        }
+      }
+    },
+    {
+      "source": "宋度宗",
+      "target": "子路",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "宋度宗又追尊子路为“卫公”。",
+          "en": "Emperor Duzong of Song also posthumously honored Zi Lu as 'Duke of Wei'."
+        }
+      }
+    },
+    {
+      "source": "明世宗",
+      "target": "子路",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "明世宗改称子路为“先贤仲子”。",
+          "en": "The Jiajing Emperor of Ming changed Zi Lu's title to 'Former Worthy, Master Zhong'."
+        }
+      }
+    },
+    {
+      "source": "子路",
+      "target": "周游列国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0498",
+        "description": {
+          "zh-cn": "子路随孔子周游列国，是十四年间始终追随孔子服侍左右的弟子。",
+          "en": "Zi Lu accompanied Confucius on his travels through the states and was the disciple who followed and served him throughout the fourteen years."
+        }
+      }
+    },
+    {
+      "source": "子路",
+      "target": "蒲邑",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "宰",
+          "en": "Governor"
+        },
+        "description": {
+          "zh-cn": "子路曾担任卫国蒲邑的邑宰。",
+          "en": "Zi Lu served as the governor of Pu, a city in the State of Wei."
+        }
+      }
+    },
+    {
+      "source": "子路",
+      "target": "子羔",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "子路委派同为孔子弟子的子羔担任费邑的邑宰。",
+          "en": "Zi Lu appointed Zi Gao, also a disciple of Confucius, as the governor of Fei."
+        }
+      }
+    },
+    {
+      "source": "子羔",
+      "target": "费县",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "邑宰",
+          "en": "Governor"
+        },
+        "description": {
+          "zh-cn": "子羔被子路任命为费邑的邑宰。",
+          "en": "Zi Gao was appointed by Zi Lu as the governor of Fei."
+        }
+      }
+    },
+    {
+      "source": "蒯聩",
+      "target": "蒯聩兵变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0480",
+        "description": {
+          "zh-cn": "为从其子卫出公手中夺取君位，蒯聩发动了兵变。",
+          "en": "To seize the throne from his son Duke Chu of Wei, Kuai Kui initiated a coup."
+        }
+      }
+    },
+    {
+      "source": "卫出公",
+      "target": "蒯聩",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "卫出公是蒯聩的儿子。",
+          "en": "Duke Chu of Wei was the son of Kuai Kui."
+        }
+      }
+    },
+    {
+      "source": "蒯聩",
+      "target": "卫出公",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0480",
+        "description": {
+          "zh-cn": "蒯聩意图废黜自己的儿子卫出公，以重夺君位。",
+          "en": "Kuai Kui intended to depose his own son, Duke Chu of Wei, to reclaim the throne."
+        }
+      }
+    },
+    {
+      "source": "蒯聩",
+      "target": "卫灵公",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "蒯聩是卫灵公的太子。",
+          "en": "Kuai Kui was the crown prince of Duke Ling of Wei."
+        }
+      }
+    },
+    {
+      "source": "蒯聩",
+      "target": "南子",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "蒯聩因谋害嫡母南子事败而获罪出逃。",
+          "en": "Kuai Kui was incriminated and fled after his plot to harm his formal mother Nanzi failed."
+        }
+      }
+    },
+    {
+      "source": "蒯聩",
+      "target": "赵简子",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "蒯聩获罪后，出逃并投奔晋国的赵简子。",
+          "en": "After being incriminated, Kuai Kui fled and sought refuge with Zhao Jianzi of the State of Jin."
+        }
+      }
+    },
+    {
+      "source": "伯姬",
+      "target": "蒯聩",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "伯姬是蒯聩的妹妹。",
+          "en": "Bo Ji was the younger sister of Kuai Kui."
+        }
+      }
+    },
+    {
+      "source": "孔悝",
+      "target": "伯姬",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "孔悝是伯姬的儿子。",
+          "en": "Kong Kui was the son of Bo Ji."
+        }
+      }
+    },
+    {
+      "source": "伯姬",
+      "target": "浑良夫",
+      "type": "LOVER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "浑良夫是伯姬的情夫，并与她一同协助蒯聩劫持孔悝。",
+          "en": "Hun Liangfu was the lover of Bo Ji and, together with her, assisted Kuai Kui in abducting Kong Kui."
+        }
+      }
+    },
+    {
+      "source": "伯姬",
+      "target": "孔悝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0480",
+        "description": {
+          "zh-cn": "伯姬与情夫浑良夫、兄长蒯聩联手，劫持了自己的儿子孔悝，以逼迫他协助蒯聩夺权。",
+          "en": "Bo Ji, along with her lover Hun Liangfu and her brother Kuai Kui, abducted her own son Kong Kui to force him to assist Kuai Kui in seizing power."
+        }
+      }
+    },
+    {
+      "source": "栾宁",
+      "target": "孔悝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "家臣",
+          "en": "Retainer"
+        },
+        "description": {
+          "zh-cn": "栾宁是孔悝的家臣。",
+          "en": "Luan Ning was a retainer of Kong Kui."
+        }
+      }
+    },
+    {
+      "source": "栾宁",
+      "target": "卫出公",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0480",
+        "description": {
+          "zh-cn": "在蒯聩兵变期间，栾宁将卫出公送往鲁国避难。",
+          "en": "During Kuai Kui's coup, Luan Ning escorted Duke Chu of Wei to the State of Lu for safety."
+        }
+      }
+    },
+    {
+      "source": "公孙敢",
+      "target": "子路",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0480",
+        "description": {
+          "zh-cn": "在蒯聩兵变时，守将公孙敢关闭城门，试图阻止子路进入城中救助孔悝。",
+          "en": "During Kuai Kui's coup, the defending general Gongsun Gan closed the city gates, attempting to prevent Zi Lu from entering to rescue Kong Kui."
+        }
+      }
+    },
+    {
+      "source": "石乞",
+      "target": "蒯聩",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "勇士",
+          "en": "Warrior"
+        },
+        "description": {
+          "zh-cn": "石乞是蒯聩手下的勇士，奉命阻挡并杀害子路。",
+          "en": "Shi Qi was a warrior under Kuai Kui, ordered to stop and kill Zi Lu."
+        }
+      }
+    },
+    {
+      "source": "盂黡",
+      "target": "蒯聩",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "勇士",
+          "en": "Warrior"
+        },
+        "description": {
+          "zh-cn": "盂黡是蒯聩手下的勇士，奉命阻挡并杀害子路。",
+          "en": "Yu Yan was a warrior under Kuai Kui, ordered to stop and kill Zi Lu."
+        }
+      }
+    },
+    {
+      "source": "子贡",
+      "target": "孔子",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "子贡是孔子的著名弟子，与子路同门。",
+          "en": "Zi Gong was a prominent disciple of Confucius and a fellow student of Zi Lu."
+        }
+      }
+    },
+    {
+      "source": "子羔",
+      "target": "孔子",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "子羔是孔子的弟子。",
+          "en": "Zi Gao was a disciple of Confucius."
+        }
+      }
+    }
+  ]
+}
