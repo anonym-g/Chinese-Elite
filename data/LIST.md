@@ -273,7 +273,6 @@
 波尔布特
 連戰
 杨贵妃
-童子賢
 比尔·盖茨
 同治帝
 邓家贵
@@ -769,7 +768,6 @@
 張幼儀
 黄兴
 耿飚
-柯承發
 陈一新 (1959年)
 林森
 普拉博沃·苏比延多
@@ -781,7 +779,6 @@
 陈光诚
 梅兰芳
 加夫列尔·加西亚·马尔克斯
-柯美蘭
 蔡锷
 鄭運鵬
 安東尼·布林肯
@@ -888,7 +885,6 @@
 陳為廷
 阿沛·阿旺晋美
 陈省身
-邁克·約翰遜 (政治人物)
 查理五世 (神圣罗马帝国)
 铁凝
 劉淵
@@ -1049,7 +1045,6 @@
 蒋孝武
 江宜樺
 容海恩
-朱亞虎
 張瑛
 庇護十二世
 李立三
@@ -1280,7 +1275,6 @@
 馬鶴凌
 江腾蛟
 朱允熥
-馬克·呂特
 郭永鴻
 曾伟 (1968年)
 吴作栋
@@ -1333,7 +1327,6 @@ Papi酱
 尼基塔·赫魯曉夫
 武长顺
 鄭孝胥
-林奐均
 李严 (蜀汉)
 巴特尔 (1955年)
 陈再道
@@ -1352,7 +1345,6 @@ Papi酱
 唐殇帝
 宋子安
 朮赤
-李林麗嬋
 吉星文
 唐一军
 陆定一
@@ -1487,7 +1479,6 @@ Papi酱
 曹嵩
 赵武灵王
 吴桂贤
-楊士奇
 王皓 (乒乓球运动员)
 林美珠
 马寅初
@@ -1574,7 +1565,6 @@ Papi酱
 李明達
 黃義交
 陈丕显
-江鵬堅
 李傕
 周梁淑怡
 汪希苓
@@ -2204,7 +2194,6 @@ JD·萬斯
 黄石公
 孝靖皇太后
 大周后
-劉霞 (作家)
 李琩
 周昆 (军事人物)
 李默庵
@@ -2324,7 +2313,6 @@ JD·萬斯
 郭守敬
 关锋
 鄧通
-張昭雄 (政治人物)
 李仙洲
 雷佳
 陶峙岳
@@ -2570,7 +2558,6 @@ JD·萬斯
 绵恺
 李德全
 范文澜
-陳策 (海軍上將)
 朱四九
 钱正英
 谭铁牛
@@ -2608,7 +2595,6 @@ JD·萬斯
 井上馨
 胡絜青
 薛继军
-陳玉珍 (朱德夫人)
 李义府
 熊克武
 秦宜祿
@@ -3296,7 +3282,6 @@ Kolas Yotaka
 何平 (记者)
 冷少杰
 谢世杰
-張英 (康熙進士)
 廖志高
 张新亮
 趙戴文
@@ -3511,7 +3496,6 @@ Kolas Yotaka
 伊力扎提·艾合买提江
 汪德和
 陈昌盛
-古瑞雲
 鄺埜
 李东冶
 孫文舉
@@ -4031,7 +4015,6 @@ Kolas Yotaka
 朱九思
 孟庆丰
 殷大奎
-瑪爾漢
 楊汪
 冯国勤
 徐萌山
@@ -4781,7 +4764,6 @@ Kolas Yotaka
 李明 (1986年)
 夏克强
 杨正泉
-許健
 朱志刚
 端义宏
 耿世民
@@ -5978,7 +5960,6 @@ Kolas Yotaka
 江浓
 朱广平
 齊鵬飛
-張慶 (1928年)
 朱达人
 甄申
 阎晓宏
@@ -6637,7 +6618,6 @@ Kolas Yotaka
 王永海
 李培根 (1921年)
 李钢钟
-楊立新 (少將)
 潘琦 (作家)
 高伟 (1964年)
 曹保明
@@ -6794,7 +6774,6 @@ Kolas Yotaka
 张磊 (中医学家)
 陈勇 (1945年)
 杨君兴
-黎達
 蔡天心
 李汉金
 刘修文
@@ -7226,7 +7205,6 @@ Kolas Yotaka
 余今晓
 李道明 (1962年)
 李明 (1963年3月)
-國武豐喜
 解宗军
 杨春光 (少将)
 肖念涛
@@ -7857,7 +7835,6 @@ Kolas Yotaka
 黎济武
 蕭維梅
 吴跃 (1961年)
-孫廣英
 刘会成
 严宏谟
 谭祖安
@@ -8060,12 +8037,10 @@ Kolas Yotaka
 胡永生
 王海斗
 曾慎达
-陳博 (少將)
 王秀芝
 方中华
 张家文
 张春园
-張智猛
 陈家宜
 高瑞科
 乌伦赛
@@ -8202,13 +8177,11 @@ Kolas Yotaka
 夏冰流
 赵平 (1974年)
 揭余生
-沃夫岡·米歇爾·財津
 杨先农
 赵江涛 (1946年)
 汪汉卿 (1937年)
 王发荣
 侯湛莹
-楊清淦 (解放軍大校)
 罗成仁
 李秉恒
 魏春
@@ -8902,7 +8875,6 @@ Kolas Yotaka
 张震球
 朱纯良
 强秋
-庄顺皇太妃
 威尔士亲王威廉
 
 ## movement
@@ -8951,7 +8923,6 @@ Kolas Yotaka
 义和团运动
 冷战
 鸦片战争
-雨傘革命
 八六学潮
 印度种姓制度
 中苏交恶
@@ -9010,7 +8981,6 @@ Kolas Yotaka
 三反五反运动
 七年战争
 中法战争
-全民健康保險
 普法戰爭
 中国共产党修改历史的质疑
 中國共產黨相關爭議
@@ -9124,7 +9094,6 @@ Kolas Yotaka
 1975年整顿
 农业学大寨
 中华人民共和国义务教育
-第一次利比亞內戰
 2016年及2017年香港政治制度改革
 攤丁入地
 清查“五·一六反革命集团”运动
@@ -9140,7 +9109,6 @@ Kolas Yotaka
 劳动教养
 863计划
 屯田制
-臺北上海城市論壇
 中華文化復興運動
 平反冤假错案
 文革大屠杀 (云南)
@@ -9154,7 +9122,6 @@ Kolas Yotaka
 独尊儒术
 阿拉伯之冬
 土地改革
-臺灣議會設置請願運動
 消滅異姓王
 全国大串连
 香港民主運動
@@ -9195,13 +9162,11 @@ Kolas Yotaka
 明入越
 一口通商
 郭桓案
-比利時獨立
 白色革命
 拖雷家族內戰
 留法勤工儉學運動
 直皖戰爭
 整風運動
-香港電影新浪潮
 六四事件之後的政治清洗
 叙任权斗争
 耗羡歸公
@@ -9213,13 +9178,11 @@ Kolas Yotaka
 巴黎名媛舞会
 徐达北伐
 统购统销
-新樂府運動
 戊戌变法
 中央苏区反围剿战争
 立委席次減半運動
 地攤經濟
 對中國國民黨的批評與爭議
-香港前途問題
 高等学校院系调整
 五區總辭
 国有企业改革
@@ -9291,7 +9254,6 @@ Kolas Yotaka
 切尔诺贝利核事故
 九一八事變
 薄熙来事件
-彭帥指控張高麗性醜聞事件
 2023年中国火箭军腐败案
 汶川大地震
 粉碎四人帮
@@ -9402,7 +9364,6 @@ Kolas Yotaka
 2014年中華民國直轄市長及縣市長選舉
 嚴重急性呼吸系統綜合症疫情
 八一九事件
-濟州四·三事件
 伊朗人质危机
 中国共产党第二十届中央委员会第三次全体会议
 沙甸事件
@@ -9555,7 +9516,6 @@ Kolas Yotaka
 第75屆柏林影展
 雾月政变
 广州起义 (1927年)
-太原戰役
 一片石之战
 七一五事变
 益州之战
@@ -9601,7 +9561,6 @@ Kolas Yotaka
 2012年香港特別行政區行政長官選舉
 方腊起义
 圓環緝菸事件
-搶救王義川大兵
 2013年厦门公交车纵火案
 火烧圆明园 (电影)
 癸酉之变
@@ -9705,7 +9664,6 @@ HKRIA版權風波
 米棉之战
 赵健民云南特务案
 宋灭南唐之战
-景龍之變
 2023年积石山县地震
 《解放日报》事件
 虹桥机场事件
@@ -10196,7 +10154,6 @@ Alphabet
 武汉大学
 鞑靼人
 法務部調查局
-香港環球唱片
 荷兰东印度公司
 中国人民大学
 中国人民解放军空军与海军航空兵编制序列
@@ -10208,7 +10165,6 @@ Alphabet
 华谊兄弟
 香港特別行政區政府
 中国科学院
-招商局集團
 北洋水師
 國立臺北科技大學
 美国最高法院
@@ -10264,7 +10220,6 @@ Alphabet
 晋国
 中国航空工业集团
 以习近平同志为核心的党中央
-國立東華大學
 国立西南联合大学
 中国人民解放军东部战区海军
 無任所大使
@@ -10294,12 +10249,10 @@ Alphabet
 杜克大学
 中国人民解放军总医院
 臺北榮民總醫院
-兆豐國際商業銀行
 中华人民共和国工业和信息化部
 北京景山学校
 瑪麗醫院
 后周
-第六共和國 (大韓民國)
 中华人民共和国中央军事委员会主席
 中華民國陸軍裝甲第五四二旅
 北京协和医院
@@ -10505,7 +10458,6 @@ Alphabet
 还乡团
 中国第一汽车集团
 科大讯飞
-二七部隊
 中国人民政治协商会议全国委员会主席
 中国人民解放军东部战区陆军
 波士頓動力
@@ -10639,7 +10591,6 @@ M+
 中国电子科技集团
 中國移動香港
 国民革命军第十八集团军第129师
-第二共和國 (大韓民國)
 中国远洋海运集团
 太平道 (宗教)
 中国南方电网
@@ -10696,7 +10647,6 @@ M+
 中華民國總統府秘書長
 重庆大学
 中国红十字会
-香港第七屆立法會
 美国众议院美国与中国共产党战略竞争特设委员会
 清河崔氏
 北京交通大学
@@ -10739,7 +10689,6 @@ M+
 国际关系学院 (北京)
 总警监
 德瑞國際學校
-國立臺南第一高級中學
 郑州大学
 中国共产党内蒙古自治区委员会
 兀良哈三卫
@@ -10897,7 +10846,6 @@ M+
 中央人民广播电台
 國會政黨聯盟
 中国人民解放军南部战区陆军
-臺灣省行政長官公署
 中华全国青年联合会
 国家宗教事务局
 新京报
@@ -11066,7 +11014,6 @@ M+
 東法蘭克王國
 中国共产党青海省委员会
 中华人民共和国文化部
-中國國民黨中央委員會文化傳播委員會
 北京大学医学部
 中华人民共和国国家实验室列表
 云南大学
@@ -11089,7 +11036,6 @@ M+
 中央军事委员会政法委员会
 北京工业大学
 长虹电器
-中國國民黨中央委員會常務委員會
 云南陆军讲武堂
 龙潭三杰
 中国人民解放军广州军区
@@ -11169,7 +11115,6 @@ Google香港
 中国共产党组织
 聯邦委員會 (俄羅斯)
 新疆反共复国军
-桃園市政府警察局
 富力地產
 工部
 中国驻英国大使馆
@@ -11304,7 +11249,6 @@ Google香港
 信義玻璃
 苏联远东方面军独立第88步兵旅
 北京化工大学
-經濟民主連合
 中央科技委员会
 公安部铁路公安局
 開放社會基金會
@@ -11532,7 +11476,6 @@ GreatFire
 中共中央南方局
 四川大学华西医学中心
 中国农业发展银行
-統監府
 中华人民共和国国家监察委员会主任
 中国共产党国务院党组
 东北陆军讲武堂
@@ -11632,7 +11575,6 @@ GreatFire
 中国人民武装警察部队上海市总队
 北京市第一六一中學
 湖北省人民政府
-恒生指數有限公司
 现任中华人民共和国副省级市市长列表
 中华人民共和国交通部
 香港特別行政區候選人資格審查委員會
@@ -11735,7 +11677,6 @@ GreatFire
 中央司法警官学院
 海南省人民政府
 辽宁广播电视台
-楊振寧理論物理研究所
 中国人民解放军海军政治工作部文工团
 中国人民政治协商会议第一届全国委员会
 河北省塞罕坝机械林场
@@ -11938,7 +11879,6 @@ GreatFire
 河北省公安厅
 中国人民政治协商会议深圳市委员会
 大连海关
-四川省公安廳
 中华人民共和国兵器工业部
 海南广播电视总台
 中央人民政府公安部
@@ -13144,7 +13084,6 @@ GreatFire
 中国共产党台湾大学医学院支部委员会
 三沙市公安局
 江苏省无锡师范附属小学
-辜公亮基金會
 甘肃省人民委员会
 中华人民共和国海口海事法院
 成都铁路运输中级法院
@@ -14315,7 +14254,6 @@ Tor
 毛泽东选集
 旺角卡门
 反共主義
-2019年逃犯及刑事事宜相互法律協助法例（修訂）條例草案
 尚书 (书)
 地级市
 诺贝尔文学奖
@@ -14570,7 +14508,6 @@ Microsoft Outlook
 瓦爾那
 中华人民共和国主席继任顺序
 伊犁條約
-老子化胡經
 关于若干历史问题的决议
 和谐社会
 实践论
@@ -14682,7 +14619,6 @@ SoftEther VPN
 林区 (中华人民共和国县级行政区)
 中华人民共和国国家级典型地震遗址列表
 国家重点学科
-獄中札記
 中国人民武装警察部队旗
 刘主席语录
 中华人民共和国国家重大科技基础设施列表
@@ -14722,7 +14658,6 @@ SoftEther VPN
 哲学的贫困
 评陶铸的两本书
 农业六十条
-外交十記
 自由市場
 两个不走
 中国历史文化街区
@@ -14748,7 +14683,6 @@ SoftEther VPN
 关中平原城市群
 中国史稿
 小八路
-閃閃的紅星 (小說)
 中国共产党全国代表大会政治报告
 百年 (音乐专辑)
 楼堂馆所
@@ -14763,7 +14697,6 @@ SoftEther VPN
 六大纪律
 三本书问题
 中国共产党政治运动列表
-2012年香港特別行政區行政長官選舉電視辯論
 国家级生态示范区
 改造中国与世界
 黨外運動
@@ -14997,7 +14930,6 @@ SoftEther VPN
 布莱尼姆宫
 安庆府
 双鸭山市
-二膽島
 临安府 (浙江)
 瑞安市
 下邳
@@ -15012,7 +14944,6 @@ SoftEther VPN
 黄帝陵 (黄陵县)
 关宁锦防线
 东台市
-晉江縣
 涿郡
 长汀县
 永安市
@@ -15335,6 +15266,7 @@ SoftEther VPN
 (en) Hungary
 (en) Woodrow Wilson
 (en) Chuck Schumer
+(en) Bahrain
 (en) Iraq War
 (en) Uzbekistan
 (en) Jawaharlal Nehru
@@ -15381,6 +15313,7 @@ SoftEther VPN
 (en) Vice President of the United States
 (en) German Empire
 (en) Sundar Pichai
+(en) Francisco Franco
 (en) Macau
 (en) Suriname
 (en) William Henry Harrison
@@ -15439,6 +15372,7 @@ SoftEther VPN
 (en) Hundred Years' War
 (en) Charles Darwin
 (en) Sanae Takaichi
+(en) Quebec
 (en) Lee Kuan Yew
 (en) Weimar Republic
 (en) Khmer Rouge
@@ -15517,6 +15451,7 @@ SoftEther VPN
 (en) James Cook
 (en) Kingdom of Prussia
 (en) American Revolution
+(en) Indian Army
 (en) Edinburgh
 (en) Seven Years' War
 (en) Wernher von Braun
@@ -15564,6 +15499,7 @@ SoftEther VPN
 (en) Donald Rumsfeld
 (en) Rudolf, Crown Prince of Austria
 (en) Assassination of Martin Luther King Jr.
+(en) Mike Pompeo
 (en) Black Panther Party
 (en) Ketanji Brown Jackson
 (en) Mohamed bin Zayed Al Nahyan
@@ -15624,6 +15560,7 @@ SoftEther VPN
 (en) James II of England
 (en) Merrick Garland
 (en) Michael Phelps
+(en) Jet Li
 (en) Spiro Agnew
 (en) Kimi Räikkönen
 (en) Church of England
@@ -15645,6 +15582,7 @@ SoftEther VPN
 (en) African Americans
 (en) Barbara Bush
 (en) Slobodan Milošević
+(en) Sun Yat-sen
 (en) Chinese Civil War
 (en) Pacific War
 (en) René Descartes
@@ -15725,6 +15663,7 @@ SoftEther VPN
 (en) Major depressive disorder
 (en) Geneva
 (en) Central Powers
+(en) Adelaide
 (en) Reza Shah
 (en) Kaja Kallas
 (en) Kingdom of England
@@ -15762,6 +15701,7 @@ SoftEther VPN
 (en) October Revolution
 (en) Non-Aligned Movement
 (en) League of Nations
+(en) Korea under Japanese rule
 (en) Hideki Tojo
 (en) Motorola
 (en) Great Leap Forward
@@ -15901,6 +15841,7 @@ ChatGPT
 (en) Ebrahim Raisi
 (en) Cambodian–Vietnamese War
 (en) Stephen A. Schwarzman
+(en) North American Free Trade Agreement
 (en) Qianlong Emperor
 (en) Eric Schmidt
 (en) Friedrich Engels
@@ -15989,6 +15930,7 @@ ChatGPT
 (en) Evolution
 (en) Departments of France
 (en) Joint Comprehensive Plan of Action
+(en) Mary Simon
 (en) Sébastien Lecornu
 (en) Head of state
 (en) Humanism
@@ -16098,7 +16040,9 @@ ChatGPT
 (en) Kangxi Emperor
 (en) Mayerling incident
 (en) George McGovern
+(en) Trotskyism
 (en) War crime
+(en) Jiang Qing
 (en) Whigs (British political party)
 (en) F. W. de Klerk
 (en) Treaty of Waitangi
@@ -16157,6 +16101,7 @@ ChatGPT
 (en) Yasukuni Shrine
 (en) Imperial Japanese Army
 (en) Corruption
+(en) Jeremy Bentham
 (en) Second Spanish Republic
 (en) Qigong
 (en) Academy of Motion Picture Arts and Sciences
@@ -16168,6 +16113,7 @@ ChatGPT
 (en) Leopold I of Belgium
 (en) Omar al-Bashir
 (en) ENIAC
+(en) King's College London
 (en) United States National Security Council
 (en) Pepin the Short
 (en) Muhammad bin Nayef
@@ -16222,6 +16168,7 @@ ChatGPT
 (en) House of Habsburg-Lorraine
 瑞士
 (en) Deutsche Bank
+(en) Columbian exchange
 (en) Bill Gates Sr.
 (en) Proletariat
 (en) Cao Cao
@@ -16456,6 +16403,7 @@ Angelababy
 (en) Börte
 (en) Ai Weiwei
 李宗盛
+台灣日治時期
 2022年中華民國直轄市長及縣市長選舉
 (en) Alger Hiss
 (en) Taiping Heavenly Kingdom
@@ -16491,6 +16439,7 @@ Angelababy
 (en) French Communist Party
 (en) Li Keqiang
 (en) Cossack Hetmanate
+衛蘭
 聯合國大會第2758號決議
 (en) Võ Nguyên Giáp
 郭台銘
@@ -16516,6 +16465,7 @@ Angelababy
 (en) Zhongnanhai
 (en) Kowloon
 (en) Heilongjiang
+酷玩樂團
 (en) Imjin War
 胡適
 (en) Kunming
@@ -16639,7 +16589,6 @@ Angelababy
 (en) University of Tokyo
 (en) Hsieh Su-wei
 朱立倫
-馬可·魯比奧
 (en) Parliament
 (en) Anhui
 (en) Legislative Yuan
@@ -16647,6 +16596,7 @@ Angelababy
 (en) Proclamation of the People's Republic of China
 (en) Junichiro Koizumi
 (en) Sendai
+(en) Gan Kim Yong
 (en) Situationist International
 (en) Peasant
 (en) Prince Yasuhiko Asaka
@@ -16655,6 +16605,7 @@ Angelababy
 (en) Zhang Yimou
 福岡市
 (en) Batu Khan
+(en) Gentry
 (en) Wanrong
 諾瓦克·喬科維奇
 (en) European Economic Community
@@ -16665,6 +16616,7 @@ Angelababy
 (en) Marx's theory of alienation
 (en) Cindy Kiro
 (en) SARS
+吉尔吉斯斯坦
 (en) National University of Singapore
 屈原
 (en) Mikhail Kalinin
@@ -16713,6 +16665,7 @@ Angelababy
 (en) China–Pakistan Economic Corridor
 (en) Autonomous administrative division
 (en) Pietro Badoglio
+(en) Catholic University of America
 維基解密
 (en) Belgian Revolution
 (en) 2008 Chinese milk scandal
@@ -16730,6 +16683,7 @@ Angelababy
 (en) Weibo
 (en) Fall of Maximilien Robespierre
 (en) Raffaella Petrini
+武媚娘传奇
 (en) Aon (company)
 (en) Marco Polo Bridge incident
 李鴻源
@@ -16816,6 +16770,8 @@ Angelababy
 (en) Soviet Armed Forces
 (en) Daoguang Emperor
 爱沙尼亚
+(en) Pope Leo III
+满族
 (en) Pope Gregory VII
 (en) Nationalist faction (Spanish Civil War)
 巴林
@@ -16856,6 +16812,8 @@ Angelababy
 (en) Legalism (Chinese philosophy)
 (en) Lei Jun
 (en) National Intelligence Service (South Korea)
+(en) 2015 European migrant crisis
+香港電影金像獎
 (en) Chicago Tribune
 (en) Shanghai International Settlement
 (en) Imre Nagy
@@ -16872,7 +16830,9 @@ Angelababy
 王貞治
 (en) Harvard Kennedy School
 (en) Jiaqing Emperor
+(en) Nobusuke Kishi
 (en) Relief of Douglas MacArthur
+克里斯托弗·诺兰
 (en) Tongzhi Emperor
 (en) Spinning jenny
 (en) Battle of Red Cliffs
@@ -16890,20 +16850,24 @@ Angelababy
 (en) United States Seventh Fleet
 (en) Politburo Standing Committee of the Chinese Communist Party
 (en) Bernard Boursicot
+(en) Bandung Conference
 (en) American Rescue Plan Act of 2021
 (en) Republic of China Navy
 约翰·F·肯尼迪遇刺案
 蘋果公司
 (en) Li Bai
+(en) Kaifeng
 (en) Joseph Chamberlain
 海湾战争
 (en) People's Liberation Army Rocket Force
 (en) Girondins
+(en) Province-level divisions of China
 (en) French Directory
 (en) Nortel
 (en) Free market
 (en) Parsons School of Design
 (en) Association of American Universities
+許銘春
 (en) Kew Gardens
 翁山蘇姬
 (en) The Rape of Nanking (book)
@@ -16921,6 +16885,7 @@ Angelababy
 (en) Humboldt University of Berlin
 (en) February 26 incident
 (en) Eight Banners
+(en) Chan Buddhism
 (en) Liu Xiaobo
 (en) Institute for Advanced Study
 (en) Lê Duẩn
@@ -16970,6 +16935,7 @@ Angelababy
 香港中文大學
 (en) COVID-19 recession
 (en) Woo Won-shik
+許淑華 (1975年)
 (en) Islamic republic
 (en) Norbert Wiener
 (en) Sayako Kuroda
@@ -16993,6 +16959,7 @@ Angelababy
 孫科
 (en) Nina Li Chi
 (en) Yasunari Kawabata
+(en) Etobicoke
 (en) Chien-Shiung Wu
 (en) Louis Antoine de Saint-Just
 (en) Cabinet (government)
@@ -17099,14 +17066,15 @@ Angelababy
 (en) Wanli Emperor
 (en) Outer Manchuria
 (en) Leiden University
+香港四大才子
 (en) Toyotomi Hideyori
 (en) Yang–Mills theory
 (en) ZTE
+(en) Homosexuality in China
 (en) Liberty Korea Party
 (en) Kara-Khanid Khanate
 (en) Internet censorship in China
 (en) William C. Durant
-吳宗憲 (立法委員)
 (en) Zhuang Zhou
 (en) Zhang Youxia
 六七暴動
@@ -17132,6 +17100,7 @@ Angelababy
 (en) Steamboat
 (en) Asian Infrastructure Investment Bank
 (en) 1963 South Vietnamese coup d'état
+(en) Baxter International
 (en) Robert Fulton
 (en) National Endowment for Democracy
 (en) Kim Min-seok (politician)
@@ -17187,7 +17156,6 @@ Angelababy
 (en) Beijing National Stadium
 (en) Wenxiu
 呂秀蓮
-葉丙成
 美國獨立戰爭
 (en) Kim Jong Chul
 (en) Grand Principality of Moscow
@@ -17225,14 +17193,17 @@ Angelababy
 贝聿铭
 (en) European Coal and Steel Community
 萬曆朝鮮之役
+(en) Free trade
 西雅圖
 (en) Koxinga
 (en) Rebellion
 (en) Karl Kautsky
 (en) Northern Wei
+(en) Penghu
 (en) Gennady Yanayev
 香港回歸
 (en) Transcaucasian Socialist Federative Soviet Republic
+(en) Ben Wallace (politician)
 (en) Chicago Boys
 (en) Korean Armistice Agreement
 (en) Tomáš Masaryk
@@ -17276,9 +17247,11 @@ Microsoft Windows
 (en) Terry Gou
 南希·佩洛西
 安倍晉三遇刺案
+长江
 (en) Zhu De
 (en) Oirats
 中国人民解放军上将
+香港日佔時期
 (en) Chen Duxiu
 (en) Stella Assange
 (en) Sima Yi
@@ -17289,6 +17262,7 @@ Microsoft Windows
 乌鲁木齐市
 (en) First Republic of Korea
 (en) Ruanda-Urundi
+陶渊明
 (en) Georgi Dimitrov
 陈全国
 (en) San Francisco State University
@@ -17300,6 +17274,7 @@ Microsoft Windows
 國民革命軍
 (en) 2020 Hong Kong national security law
 (en) Minister (government)
+陆昊
 (en) Loh Kean Yew
 (en) Empire of Vietnam
 (en) Clark University
@@ -17326,6 +17301,7 @@ Microsoft Windows
 (en) Su Bingtian
 (en) Shijiazhuang
 蘇利南
+高錕
 (en) May 16 coup
 诺贝尔和平奖
 (en) Song Hye-rim
@@ -17366,6 +17342,7 @@ IBM
 (en) Czech and Slovak Federative Republic
 (en) School bullying
 中国南方航空
+宦官
 美国国际开发署
 新馬師曾
 (en) Yesugei
@@ -17377,6 +17354,7 @@ IBM
 謝淑薇
 (en) Ko Yong-hui
 弗朗茨·约瑟夫一世
+(en) Robin Cook
 (en) Carrie Lam
 (en) Theodore von Kármán
 星巴克
@@ -17384,10 +17362,12 @@ IBM
 顾顺章
 平成
 泉州市
+(en) Chu (state)
 (en) Xining
 (en) Zhao Yun
 (en) Armistice of 22 June 1940
 (en) Third Taiwan Strait Crisis
+(en) People's Liberation Army at the 1989 Tiananmen Square protests and massacre
 (en) Yang Shangkun
 (en) Shock therapy (economics)
 (en) Shanghai Sharks
@@ -17403,6 +17383,7 @@ IBM
 (en) Defense of Sihang Warehouse
 林爽文事件
 (en) Claire Lee Chennault
+(en) Quantum chemistry
 香港立法會
 (en) Structural functionalism
 (en) He Zizhen
@@ -17414,6 +17395,7 @@ IBM
 (en) Chen Shui-bian
 (en) Norwegian Nobel Committee
 (en) Jiajing Emperor
+(en) Japanese militarism
 (en) Cushman & Wakefield
 (en) Kim Il Sung University
 (en) Chairman Mao Memorial Hall
@@ -17504,9 +17486,11 @@ IBM
 (en) Handover of Macau
 美國獨立宣言
 (en) Kuala Lumpur–Singapore high-speed rail
+(en) Security Council of Russia
 (en) Cao Pi
 (en) Li Zongren
 鄭裕彤
+林智堅
 (en) Yun Po-sun
 康熙
 (en) Liang dynasty
@@ -17516,6 +17500,7 @@ IBM
 (en) Eric Shinseki
 北京大兴国际机场
 (en) Andy Bechtolsheim
+(en) North York
 (en) First Taiwan Strait Crisis
 八王之乱
 (en) Lockheed bribery scandals
@@ -17586,11 +17571,14 @@ IBM
 (en) Meiji Constitution
 (en) University of Auckland
 (en) Shun dynasty
+(en) University of Malaya
 孫維世
 (en) Norman Bethune
 (en) Lin Biao incident
+女真
 (en) Kantarō Suzuki
 (en) Fourth International
+(en) History of Taiwan (1945–present)
 (en) Mohammad Bagher Ghalibaf
 (en) Jiusan Society
 (en) Emperor Taizu of Song
@@ -17620,6 +17608,7 @@ IBM
 (en) Taiwan Strait
 (en) Empress Xiaoxianchun
 (en) Wang Sicong
+(en) Mitsui & Co.
 (en) Chinese University of Hong Kong
 (en) Ferdinand Lassalle
 (en) Youku
@@ -17654,13 +17643,16 @@ IBM
 (en) Austen Chamberlain
 (en) Mao Anlong
 (en) European Court of Justice
+(en) West Lake
 (en) Scottish Enlightenment
 (en) Emperor Xian of Han
 (en) Indian plate
+(en) People's war
 (en) Unequal treaties
 南京保卫战
 俞建华
 无锡市
+國立臺北大學
 國民大會
 (en) People's Volunteer Army
 (en) Standing Committee of the National People's Congress
@@ -17745,10 +17737,12 @@ IBM
 (en) Reification (Marxism)
 (en) Johor Sultanate
 (en) Yang Yuehua
+香港割讓
 王雪紅
 (en) CGTN (TV channel)
 曼哈顿计划
 布拉格之春
+香港保衛戰
 周玉蔻
 吴小晖
 張角
@@ -17756,7 +17750,6 @@ IBM
 (en) King Zhuangxiang of Qin
 列夫·托爾斯泰
 (en) China National Petroleum Corporation
-林靜儀
 (en) University of Jena
 张国立
 宋英宗
@@ -17819,6 +17812,7 @@ IBM
 (en) Chen dynasty
 国际刑事法院
 (en) Yasuhiro Nakasone
+國立臺灣科技大學
 (en) Xianyang
 江南
 (en) Herbert von Bismarck
@@ -17832,6 +17826,7 @@ IBM
 (en) Run Run Shaw
 鄒文懷
 (en) Eurasian plate
+管中閔
 张继科
 (en) Gulf of Tonkin Resolution
 湛江市
@@ -17910,6 +17905,7 @@ IBM
 (en) Snow Country
 (en) March First Movement
 (en) Colony of New Zealand
+賴佩霞
 (en) First United Front
 (en) Jung Bahadur Rana
 (en) Luc Montagnier
@@ -17968,6 +17964,7 @@ IBM
 (en) 2020 Taiwanese presidential election
 (en) Yantai
 (en) Clifford Geertz
+(en) Bombing of Chongqing
 (en) Taiwan Province, People's Republic of China
 (en) Columbia Law School
 (en) Zhou Yu
@@ -17981,6 +17978,7 @@ UTC+08:00
 (en) Hundred Schools of Thought
 (en) Ruslan Stefanchuk
 (en) Jiangxi Soviet
+瓦格纳集团
 (en) Red Turban Rebellions
 查理一世 (英格蘭)
 (en) Lin Zexu
@@ -17989,6 +17987,7 @@ UTC+08:00
 敦煌市
 邪教
 (en) Yasuhito, Prince Chichibu
+歲月神偷
 (en) East Asia Summit
 绥靖主义
 (en) Maritime Silk Road
@@ -17997,9 +17996,12 @@ UTC+08:00
 (en) Sen no Rikyū
 (en) Martial law in Taiwan
 (en) State Political Directorate
+多哈
 (en) COSCO Shipping
 (en) Tibetan independence movement
 (en) Hundred Regiments Offensive
+湯英伸事件
+安妮长公主
 (en) Cho Jung-tai
 清教徒
 (en) Jin Youzhi
@@ -18033,6 +18035,7 @@ UTC+08:00
 (en) M55 self-propelled howitzer
 冰心
 趙家人
+卡内基·梅隆大学
 (en) Unrestricted submarine warfare
 (en) Hong Kong Polytechnic University
 何志偉
@@ -18040,7 +18043,6 @@ UTC+08:00
 (en) Joseph Lau
 (en) Martin Dempsey
 (en) April Revolution
-南斯拉夫內戰
 (en) 2022 annexation referendums in Russian-occupied Ukraine
 石敬瑭
 (en) University of Science and Technology of China
@@ -18053,6 +18055,7 @@ UTC+08:00
 (en) Expo 2010
 石家庄市
 楊修
+中華民國勞動部
 (en) Ernie Bot
 (en) Communist Refoundation Party
 (en) Li Si
@@ -18102,11 +18105,13 @@ UTC+08:00
 (en) Victoria University of Wellington
 铁
 薩摩藩
+(en) Ministry of Education (Singapore)
 霍守業
 石崇良
 惠普
 (en) Shiing-Shen Chern
 (en) Liu
+西湖
 (en) Government of Hong Kong
 (en) Monetary Authority of Singapore
 (en) Edict of Thessalonica
@@ -18122,6 +18127,7 @@ UTC+08:00
 (en) Irving Fisher
 (en) Wang Jianlin
 (en) Emperor Guangwu of Han
+(en) 1948 South African general election
 (en) Shangri-La Dialogue
 美国国家航空航天局
 (en) Shanhai Pass
@@ -18225,6 +18231,7 @@ Stable Diffusion
 永嘉之乱
 (en) European Communities
 圆明园十二生肖兽首铜像
+(en) Songshan Airport
 羅康瑞
 (en) Battle of the Paracel Islands
 怛罗斯战役
@@ -18247,12 +18254,15 @@ Stable Diffusion
 (en) Gaston Doumergue
 (en) Port Arthur massacre (China)
 第二次工业革命
+杜聰明
 (en) Flying shuttle
 (en) Political power grows out of the barrel of a gun
 陳 (南朝)
 林俊賢
+密西根大学
 (en) Parameswara of Malacca
 韓國陸軍
+帖木儿帝国
 柬越戰爭
 伏爾泰
 (en) Eighth Route Army
@@ -18298,6 +18308,7 @@ Stable Diffusion
 (en) Liu Xiang (hurdler)
 (en) Edgar Snow
 廈門航空
+鍾會
 西北大学 (伊利诺伊州)
 (en) Executive Yuan
 (en) Hugo Rifkind
@@ -18377,6 +18388,7 @@ Stable Diffusion
 北京条约
 卓琳
 (en) Sun Fo
+叶夫根尼·普里戈任
 锂离子电池
 (en) Communist Youth League of China
 (en) Otto Braun (communist)
@@ -18394,8 +18406,10 @@ Stable Diffusion
 (en) Taktser
 (en) Pro-democracy camp (Hong Kong)
 996工作制
+(en) Constitution Act, 1867
 常春藤聯盟
 白族
+2020年中華民國空軍UH-60M黑鷹直升機墜毀事故
 中國時區
 (en) Kang Youwei
 (en) Fitzwilliam College, Cambridge
@@ -18409,6 +18423,7 @@ Stable Diffusion
 明鄭
 (en) Eastern Zhou
 (en) Behter
+阿德莱德
 唐哀帝
 (en) Deputy Prime Minister of Singapore
 (en) Five Principles of Peaceful Coexistence
@@ -18417,6 +18432,7 @@ Stable Diffusion
 (en) Kijūrō Shidehara
 (en) Île d'Yeu
 邯郸市
+唐懿宗
 (en) Wen Ho Lee
 葉菊蘭
 (en) Joseph Needham
@@ -18443,6 +18459,7 @@ Stable Diffusion
 (en) Tung Chee-hwa
 (en) 2016 Taiwanese presidential election
 (en) James Bruce, 8th Earl of Elgin
+(en) Shipwrecking
 (en) Hong Tianguifu
 (en) John L. Thornton
 (en) Ministry of foreign affairs
@@ -18452,6 +18469,7 @@ Stable Diffusion
 (en) Zhao Bing
 (en) Zhili clique
 倫敦大學
+衛斯理系列
 (en) Nantong
 (en) Zhang Guotao
 (en) Upper Canada Rebellion
@@ -18514,6 +18532,7 @@ Stable Diffusion
 (en) Yuan Chonghuan
 鄭榮豐
 (en) China Aerospace Science and Technology Corporation
+臺灣戰後時期
 (en) Tianqi Emperor
 (en) Qufu
 (en) Imperial Universities
@@ -18535,6 +18554,7 @@ Stable Diffusion
 (en) Noboru Takeshita
 (en) Chinese Eastern Railway
 鄒幸彤
+(en) Sibu
 (en) Three Alls policy
 2023年中国高空气球事件
 (en) Robert Nivelle
@@ -18581,11 +18601,13 @@ Stable Diffusion
 (en) Sunflower Student Movement
 (en) Massey University
 (en) Tumu Crisis
+宋度宗
 何晏
 百花齐放、百家争鸣
+伦敦国王学院
 咸阳市
-瑪利諾修院學校
 (en) Katsura Tarō
+罗格斯大学
 紀政
 (en) Baoding
 (en) Marina Mahathir
@@ -18618,12 +18640,13 @@ Stable Diffusion
 (en) Zeng Xueming
 (en) Donald Tsang
 (en) Consulate
+淮南子
 (en) Worker-Peasant-Soldier student
+戴潮春事件
 (en) University of Windsor
 (en) Wei (state)
 (en) Ash Is Purest White
 (en) Wang Yangming
-慶熙大學
 (en) Exploration
 許文龍
 捻军
@@ -18637,7 +18660,6 @@ Stable Diffusion
 (en) Zero-COVID
 (en) Deng Pufang
 (en) Toilet (room)
-張博雅
 苏丹内战 (2023年至今)
 (en) Shigenori Tōgō
 竇文濤
@@ -18646,9 +18668,11 @@ Stable Diffusion
 (en) 2020–2022 Malaysian political crisis
 (en) HongShan
 大卫·休谟
+大公报
 李淑賢
 (en) Zeng Qinghong
 (en) Wesleyan College
+今夜不設防
 李秀成
 蘇卡諾
 柏楊
@@ -18721,6 +18745,7 @@ Stable Diffusion
 伯利恆
 嚴德發
 詹姆斯二世 (英格蘭)
+海禁
 (en) Emperor Gaozong of Song
 第二次中东战争
 宋端宗
@@ -18765,7 +18790,9 @@ Stable Diffusion
 汉元帝
 三七五減租
 反AB團
+朝鲜
 (en) Later Han (Five Dynasties)
+北洋軍
 (en) Young Pioneers of China
 (en) National Council of Provinces
 斯拉沃熱·齊澤克
@@ -18785,6 +18812,7 @@ Stable Diffusion
 (en) Huayi Brothers
 也门内战 (2014年至今)
 (en) Vivian Chow
+(en) Mass line
 (en) 20th National Congress of the Chinese Communist Party
 臺北縣縣長
 (en) Mao Yichang
@@ -18810,10 +18838,12 @@ Stable Diffusion
 (en) 1996 Taiwanese presidential election
 (en) China Radio International
 博雅教育
+(en) United Nations Security Council Resolution 1973
 (en) Henriette Pressburg
 (en) Seres Auto
 (en) Interior ministry
 (en) Provisional Government of the Republic of China (1912)
+约翰·杜威
 第707特殊任務團
 抗美援朝第五次战役
 東西教會大分裂
@@ -18829,6 +18859,7 @@ Stable Diffusion
 (en) New Army
 (en) Sima Zhao
 淮安市
+(en) Babaoshan Revolutionary Cemetery
 (en) Zhang Zetian
 頓涅茨克人民共和國
 (en) 2012 Taiwanese presidential election
@@ -18883,6 +18914,7 @@ Stable Diffusion
 後漢
 历史唯物主义
 (en) Ma Xingrui
+五大訴求，缺一不可
 (en) Beihang University
 (en) Trần Thanh Mẫn
 (en) Zhang Liao
@@ -18938,6 +18970,7 @@ Stable Diffusion
 (en) Bo Yibo
 李磊 (1971年)
 (en) Sino-Soviet relations
+李嗣涔
 (en) Embroidered Uniform Guard
 俄格戰爭
 (en) Titular ruler
@@ -18946,6 +18979,8 @@ Stable Diffusion
 (en) Chen Gongbo
 (en) Provisional Government of the Republic of China (1937–1940)
 海湾阿拉伯国家合作委员会
+(en) Beijing Film Academy
+金龍顯
 (en) Zhang He
 (en) Lady Zhen
 冯友兰
@@ -18963,6 +18998,7 @@ Stable Diffusion
 何俊仁
 (en) Progressive Labor Party (United States)
 许昌市
+密蘇里號戰艦 (BB-63)
 孟良崮戰役
 李·哈維·奧斯瓦爾德
 华尔街日报
@@ -18982,6 +19018,7 @@ Stable Diffusion
 (en) Mukden Palace
 (en) Spark New Zealand
 (en) Azmin Ali
+六部
 關平
 (en) North Korean–Russian Treaty on Comprehensive Strategic Partnership
 (en) Han (Warring States)
@@ -18993,9 +19030,12 @@ Stable Diffusion
 (en) Di Renjie
 (en) Antonín Novotný
 钱镠
+威斯康星大学麦迪逊分校
 唐长安城
 (en) Hosokawa Tadaoki
 魚朝恩
+街亭之戰
+教授
 碧桂園
 张謇
 (en) Project 571
@@ -19008,6 +19048,7 @@ Stable Diffusion
 中將
 孝懿仁皇后
 雷洋事件
+奥古斯托·皮诺切特
 (en) Zhang Juzheng
 香港警務處國家安全處
 (en) Empress Zhangsun
@@ -19123,6 +19164,7 @@ Stable Diffusion
 (en) Tony Zhang
 李玄霸
 侵华日军南京大屠杀遇难同胞纪念馆
+政務委員 (中華民國)
 (en) Fuheng
 (en) Wang Ming
 PChome Online網路家庭
@@ -19139,6 +19181,7 @@ PChome Online網路家庭
 洛克斐勒家族
 開城市
 (en) Miloš Jakeš
+劉志斌
 (en) Alan Tang
 英格兰
 (en) Agnes Smedley
@@ -19147,7 +19190,6 @@ PChome Online網路家庭
 (en) Yao Yecheng
 (en) Joyce Cheng
 (en) 2019 Yuen Long attack
-英格蘭教會
 (en) Scientific Outlook on Development
 (en) Charlie Soong
 (en) Jade Spring Hill
@@ -19230,6 +19272,7 @@ GPT-4
 (en) Jiang Wei
 (en) New-York Tribune
 (en) Third Front (China)
+夏侯嬰
 (en) Regina Ip
 (en) Emperor Shenzong of Song
 (en) Revolutionary Internationalist Movement
@@ -19260,6 +19303,7 @@ GPT-4
 (en) National Cheng Kung University
 (en) Xue Yue
 (en) Qincheng Prison
+瓦格納集團兵變
 簡余晏
 (en) Hanzhong
 (en) Liu Bocheng
@@ -19272,6 +19316,7 @@ GPT-4
 戴爾
 馬鴻逵
 直隶省
+(en) L'Équipe
 勒内·笛卡儿
 國民革命軍第十九路軍
 (en) Emperor Suzong of Tang
@@ -19347,7 +19392,6 @@ GPT-4
 酬恤金進軍事件
 唐繼堯
 (en) Zhuo Lin
-荷蘭的威廉-亞歷山大
 解縉
 (en) Lin Jian
 吳稚暉
@@ -19366,20 +19410,22 @@ GPT-4
 巴丹死亡行军
 (en) All-China Federation of Trade Unions
 外東北
+統一俄羅斯
 張慶忠
 (en) Quanzhen School
 大赦 (基督教)
 (en) Itagaki Taisuke
 中華民國中央選舉委員會
-林奕華 (臺灣)
 (en) Mianyang
 珊瑚海海战
 (en) Zhang Gaoli
 托马斯·霍布斯
+唐季禮
 (en) Malaysian New Economic Policy
 (en) Dong Biwu
 (en) Huang Xing
 (en) Union of Utrecht
+陳真
 亚历山大·索尔仁尼琴
 (en) Jinan incident
 (en) Liu Zhenli (general)
@@ -19407,6 +19453,7 @@ GPT-4
 綏遠省 (中華民國)
 司空
 李菲儿
+2022年3月上海市2019冠状病毒病聚集性疫情
 (en) Constitutional Court of South Africa
 駐日盟軍總司令
 (en) University of Greifswald
@@ -19432,12 +19479,14 @@ GPT-4
 (en) Pearl Consort
 (en) National Development and Reform Commission
 (en) Jacky Wu
+阿尔贝二世 (摩纳哥)
 (en) Ambassador-at-large
 (en) Seven Thousand Cadres Conference
 高雄醫學大學
 泰州市
 (en) 2011 Chinese pro-democracy protests
 (en) Yulon
+(en) 28 Bolsheviks
 (en) Fang Lizhi
 (en) Democracy movements of China
 (en) Produce 101 China
@@ -19466,12 +19515,14 @@ GPT-4
 (en) Southern Han
 (en) Oghul Qaimish
 (en) Guo Guangchang
+刘安
 中国留美幼童
 (en) Lutte Ouvrière
 (en) Sichuan University
 新加坡國會
 板门店事件
 西藏问题
+新加坡政府投资公司
 (en) Xun Yu
 (en) Peng Zhen
 (en) Martyr Saints of China
@@ -19498,6 +19549,7 @@ Microsoft Bing
 香格里拉对话
 加州大學戴維斯分校
 (en) United Tribes of New Zealand
+(en) China Tobacco
 学习院大学
 (en) Bai Juyi
 (en) Empress Zhang (Hongzhi)
@@ -19509,6 +19561,7 @@ Microsoft Bing
 (en) Declaration of independence of the Democratic Republic of Vietnam
 盧植
 黃光裕
+英皇佐治五世學校
 (en) Soochow University (Suzhou)
 喬治·馬歇爾
 (en) Huzhou
@@ -19523,6 +19576,7 @@ Microsoft Bing
 (en) Iran–China 25-year Cooperation Program
 康熙字典
 楊渡
+陳文成
 (en) COFCO Group
 (en) Ferdinand Verbiest
 (en) Wei Fenghe
@@ -19531,6 +19585,7 @@ Microsoft Bing
 (en) Taiwanese nationalism
 (en) China National Nuclear Corporation
 (en) Truth commission
+(en) Akira Yoshino
 (en) Goguryeo–Sui War
 约瑟夫·雷蒙德·麦卡锡
 喷气式
@@ -19547,6 +19602,7 @@ Microsoft Bing
 热地
 李锡铭
 羅家倫
+陳文章 (中華民國學者)
 (en) Dominican University of California
 (en) Duke University School of Law
 政府
@@ -19556,6 +19612,7 @@ Microsoft Bing
 陆军士官学校 (日本)
 一心會
 让-米歇尔·雅尔
+秦宜智
 保罗·艾伦
 (en) Fushun War Criminals Management Centre
 梁言顺
@@ -19583,6 +19640,7 @@ Microsoft Bing
 (en) Liu Biao
 元文宗
 (en) Langfang
+魏滅蜀漢之戰
 宿迁市
 斯洛博丹·米洛舍维奇
 (en) Shadian incident
@@ -19608,6 +19666,7 @@ Microsoft Bing
 李元簇
 (en) 2010 Nobel Peace Prize
 新藝城
+李逸洋
 劉知遠
 (en) Emperor Cheng of Han
 兩個維護
@@ -19641,7 +19700,6 @@ Microsoft Bing
 (en) Zhu Wen
 (en) Mikhail Borodin
 阿爾伯塔大學
-數字化革命
 (en) Kaohsiung Incident
 趙樸初
 致公堂
@@ -19674,6 +19732,7 @@ Microsoft Bing
 哥倫布大交換
 世界經濟論壇
 海峡殖民地
+阿紫 (小說角色)
 (en) Charlie Chin
 中国西北地区
 洪博培
@@ -19684,12 +19743,15 @@ Microsoft Bing
 (en) Chen Yi (marshal)
 侯君集
 (en) Empress Wei (Tang dynasty)
+(en) Thomas Campbell (poet)
 佩斯卡玛号事件
 总理
+(en) Degenerated workers' state
 (en) Three-anti and Five-anti Campaigns
 季布
 倪岳峰
 (en) Resolution on Certain Questions in the History of Our Party since the Founding of the People's Republic of China
+余政憲
 新詩
 优酷
 金融時報 (英國)
@@ -19705,7 +19767,6 @@ Microsoft Bing
 論持久戰
 鄒至蕙
 程小東
-羅伯特·甘迺迪
 虚位元首
 阿什莉·拜登
 (en) Haeju
@@ -19719,8 +19780,10 @@ Microsoft Bing
 马来西亚国会
 (en) Examination Yuan
 习酒
+五七干校
 荷兰王国
 罗氏
+三井物產
 燕城监狱
 (en) Ministry of National Defense (China)
 万庆良
@@ -19756,6 +19819,7 @@ Microsoft Bing
 (en) Chen Quanguo
 先秦
 AUKUS
+金正淑 (朝鮮)
 輝格黨 (英國)
 羅馬教廷
 (en) October Restoration
@@ -19772,13 +19836,14 @@ AUKUS
 高魁元
 (en) Tan Yankai
 (en) Mount Lu
+香港開埠初期歷史
 (en) Lin Huiyin
 (en) Kashag
+臺北帝國大學
 張人龍
 张弼士
 西班牙波旁王朝
 (en) Wen Qimei
-中吉烏鐵路
 计划生育
 太保
 馬里蘭大學學院市分校
@@ -19789,6 +19854,7 @@ AUKUS
 (en) Kunqu
 (en) Old Summer Palace bronze heads
 (en) Chang Cheh
+杰里米·边沁
 (en) Sub-provincial division
 (en) China South Industries Group
 借荆州
@@ -19796,10 +19862,12 @@ AUKUS
 厚生勞動省
 波兰第二共和国
 广场起义
+國民革命軍第五軍
 曹操与张绣的战争
 (en) Henry Scott, 3rd Duke of Buccleuch
 长征 (政治人物)
 海丰县
+吉安市
 項梁
 (en) Jingnan campaign
 陶謙
@@ -19825,6 +19893,7 @@ AUKUS
 (en) The Poverty of Philosophy
 邓州市
 (en) Guo Moruo
+克拉倫斯·托馬斯
 (en) Vice President of the Republic of China
 新疆省 (中華民國)
 (en) Song Binbin
@@ -19861,6 +19930,7 @@ AUKUS
 (en) Taitung County
 工农兵学员
 (en) 863 Program
+劉襄 (齊王)
 约翰·泰勒
 淮南市
 (en) Parti Bumiputera Perkasa Malaysia
@@ -19870,7 +19940,6 @@ AUKUS
 (en) Yŏn Kaesomun
 (en) Xiao He
 (en) New Life Movement
-重慶市 (中華民國)
 新传媒 (新加坡)
 (en) Second Zhili–Fengtian War
 (en) Gong Zheng
@@ -19885,6 +19954,7 @@ AUKUS
 (en) Hengyang
 (en) Ho Chong
 (en) Pingfang, Harbin
+王瑞杰
 (en) March 1960 South Korean presidential election
 張翼 (三國)
 (en) Princess Wencheng
@@ -19963,11 +20033,13 @@ AUKUS
 (en) Robert Tsao
 (en) Industrial Technology Research Institute
 (en) Minister of Foreign Affairs (China)
+瓦列里·格拉西莫夫
 (en) Geneva Graduate Institute
 (en) Jining
 黄建发
 (en) 70th anniversary of the People's Republic of China
 (en) Zhang Guoqing
+(en) King George V School, Hong Kong
 (en) Xu Shichang
 (en) Prefecture-level divisions of China
 周口市
@@ -19978,6 +20050,7 @@ AUKUS
 (en) National Committee of the Chinese People's Political Consultative Conference
 (en) Daozang
 (en) Cabinet of North Korea
+崔順實干政醜聞
 (en) China Three Gorges Corporation
 (en) National Chiao Tung University
 (en) Hanlin Academy
@@ -19993,6 +20066,7 @@ AUKUS
 完顏氏
 美國參謀長聯席會議
 (en) Xuanwu Gate Incident
+(en) Dong Fuxiang
 (en) Chang Dai-chien
 (en) Deferred prosecution
 (en) Ryukyu Disposition
@@ -20021,6 +20095,7 @@ AUKUS
 蒙藏委員會
 (en) Ba Jin
 (en) Juan José Linz
+颜金勇
 (en) Wei Jingsheng
 唐納
 (en) Hong Kong New Wave
@@ -20039,6 +20114,7 @@ AUKUS
 中国人民解放军陆军第八十集团军
 (en) Sheng-yen
 (en) Fuk'anggan
+林智堅論文抄襲案
 2017年香港特別行政區行政長官選舉
 (en) Under the Dome (film)
 (en) University of Electronic Science and Technology of China
@@ -20048,6 +20124,7 @@ AUKUS
 (en) Shao Hua
 (en) Zhu Biao
 (en) Chunghwa Telecom
+(en) Chang An-lo
 行憲
 (en) China Development Bank
 (en) Tang Shengzhi
@@ -20061,6 +20138,7 @@ AUKUS
 (en) Shangguan Wan'er
 (en) The Gate of Heavenly Peace (film)
 鳩山一郎
+汕头大学
 曾子
 臺北市私立延平高級中學
 (en) Liu Bowen
@@ -20074,6 +20152,7 @@ AUKUS
 (en) Yan Hui
 (en) École pratique des hautes études
 冒顿
+大闹天宫
 (en) National Supervisory Commission
 鄱陽湖之戰
 (en) Malin Craig
@@ -20099,9 +20178,11 @@ AUKUS
 明鏡新聞出版集團
 (en) Ruijin
 星球大战计划
+愛思唯爾
 (en) Kenny Ho
 大校
 窩闊台汗國
+(en) Hu Zhongming
 滇西缅北战役
 (en) Xiao Mausoleum
 美国圣公会
@@ -20117,6 +20198,7 @@ AUKUS
 (en) Xie Jinyuan
 (en) China Telecommunications Corporation
 国民革命军东征
+(en) Chen Wenqing
 盧德運動
 渭南市
 (en) People First Party (Taiwan)
@@ -20140,6 +20222,7 @@ AUKUS
 (en) Peking Union Medical College
 公孫淵
 (en) Bian Zhongyun
+一个中国政策
 蜀道難
 李士羣
 唐德剛
@@ -20174,6 +20257,7 @@ AUKUS
 (en) Yuen Ren Chao
 (en) Criticize Lin, Criticize Confucius
 清史 (中华人民共和国)
+林丹汗
 (en) William Massey
 (en) Emperor Xianzong of Tang
 (en) Sima Shi
@@ -20187,8 +20271,10 @@ AUKUS
 (en) Central Committee of the Communist Party of Vietnam
 向雪懷
 蒙毅
+國民黨 (1912年)
 (en) Wan Li
 (en) James Jeans
+柯尔克孜族
 (en) Jinan University
 (en) Lu Su
 (en) Kong Linghui
@@ -20220,7 +20306,9 @@ AUKUS
 (en) Great Rites Controversy
 (en) 2021 Hualien train derailment
 (en) Sanjō Sanetomi
+孔有德
 (en) Princess Rongshou
+和平區 (台灣)
 (en) One institution with two names
 (en) Boao Forum for Asia
 (en) Nuclear power in Taiwan
@@ -20283,7 +20371,9 @@ AUKUS
 (en) Pan Gongsheng
 陳紹寬
 王賁
+上海美术电影制片厂
 瑞士信貸集團
+遷界令
 (en) Hooge, Prince Su
 (en) Zheng Jianbang
 (en) South Sea Fleet
@@ -20297,11 +20387,13 @@ AUKUS
 紧急状态
 資訊工業策進會
 (en) Cao Ren
-冤獄
+三井财阀
+克萊門斯·馮·梅特涅
 (en) Wei Zifu
 (en) Two Sessions
 (en) Lin Liguo
 (en) Freddy Lim
+(en) Alexander Novak
 (en) Constitutional Protection Movement
 捷星亞洲航空
 (en) Five Red Categories
@@ -20341,6 +20433,7 @@ AUKUS
 (en) Economic Cooperation Framework Agreement
 (en) Koichi Wakata
 徐恩曾
+(en) Xu Beihong
 海天味业
 辽太宗
 法蘭克人
@@ -20378,8 +20471,8 @@ Mojang Studios
 (en) Peking Union Medical College Hospital
 新不倫瑞克省
 福田赳夫
-安德烈·別洛烏索夫
 邵力子
+俄羅斯聯邦國歌
 隋滅陳之戰
 (en) Guangzhou Uprising
 (en) Han Yu
@@ -20414,6 +20507,7 @@ Mojang Studios
 老约瑟夫·P·肯尼迪
 (en) Yang You
 (en) Hu Qili
+黃竹坑
 聖訓
 (en) Battle of Yijiangshan Islands
 约翰·梅杰
@@ -20486,6 +20580,7 @@ Mojang Studios
 (en) Embassy of China, London
 馬丁·路德·金恩遇刺案
 張羣
+新法蘭西
 毛伟明
 (en) China Southern Power Grid
 慈圣光献皇后
@@ -20500,6 +20595,7 @@ Mojang Studios
 (en) Zhang Daoling
 (en) Empress Dowager Bian
 (en) Taishi Ci
+(en) Hamaguchi Osachi
 北部湾事件
 (en) Wey (state)
 (en) East Asian foreign policy of the Obama administration
@@ -20522,6 +20618,7 @@ Mojang Studios
 (en) Fifth encirclement campaign against the Jiangxi Soviet
 (en) Moscow Power Engineering Institute
 (en) Yisa Yu
+(en) Maoist Communist Party (Turkey)
 (en) Abdul Ghafar Baba
 随州市
 顧準
@@ -20532,6 +20629,7 @@ Mojang Studios
 中国生物多样性保护与绿色发展基金会
 翦伯赞
 中國工商銀行（亞洲）
+新竹機場
 (en) Ansteel Group
 专利
 (en) 2022 Hong Kong Chief Executive election
@@ -20558,7 +20656,6 @@ Mojang Studios
 (en) Xiangtan
 (en) Kim Kyu-sik
 朱忠明
-奧斯特利茨之戰
 劉長樂
 巴達維亞共和國
 黃少谷 (政治人物)
@@ -20600,6 +20697,7 @@ Mojang Studios
 达飞海运集团
 (en) Imjin River
 王審知
+功夫瑜伽
 (en) Inoue Kaoru
 (en) Three Communiqués
 (en) Janet Lam
@@ -20636,7 +20734,9 @@ MS-DOS
 万家岭战役
 (en) Yuri Malenchenko
 (en) Abdrabbuh Mansour Hadi
+明朝内阁
 张军 (外交官)
+(en) Vice Chairperson of the Standing Committee of the National People's Congress
 (en) Yu Qiangsheng
 (en) Mino Province
 刘青山 (1916年)
@@ -20649,6 +20749,7 @@ MS-DOS
 (en) Xiang River
 (en) China Minmetals
 (en) Sino-Portuguese Joint Declaration
+馬以南
 (en) Central People's Government of the People's Republic of China (1949–1954)
 (en) Charles Moore (architect)
 (en) Wu Bangguo
@@ -20666,9 +20767,11 @@ MS-DOS
 (en) Fukushiro Nukaga
 米哈伊尔·苏斯洛夫
 姜維北伐
+张苍
 铁良
 釜馬民主抗爭
 (en) Hongshi
+魏震五
 中華民國政府
 侍中
 (en) Palace plot of Renyin year
@@ -20720,12 +20823,14 @@ MS-DOS
 (en) Household responsibility system
 史朝義
 立法机关
+(en) Chow Hang-tung
 (en) Sum Sum
 (en) Shigefumi Mori
 (en) Social Democratic Party (Taiwan)
 (en) Yunsi
 (en) Imperial Japanese Army General Staff Office
 委員會制
+亚历山大·格雷厄姆·贝尔
 (en) Canton Operation
 (en) Jinggang Mountains
 钱玄同
@@ -20733,6 +20838,7 @@ MS-DOS
 (en) Saga Rebellion
 (en) Chinese economic stimulus program
 欧内斯特·劳伦斯
+芝加哥經濟學派
 北洋大学
 (en) Losang Jamcan
 (en) Ministry of Finance (China)
@@ -20770,7 +20876,7 @@ MS-DOS
 (en) Dugu Xin
 (en) Xi Jinping faction
 中華民國足球協會
-東亞唱片 (製作)
+王乙康
 (en) 1975 Haicheng earthquake
 (en) Xinjiang Time
 (en) Li Qiaoming
@@ -20779,6 +20885,7 @@ MS-DOS
 戴思聰
 陳豨
 (en) First Ma–Xi meeting
+紳士階級
 贾葭
 (en) Liu Zhang (warlord)
 巴黎和平協約
@@ -20838,6 +20945,7 @@ MS-DOS
 (en) Northeast Counter-Japanese United Army
 (en) Empress Xiaoduanwen
 韶山市
+楊泮池
 (en) St. John's University, Shanghai
 任学锋
 (en) Beijing Municipal Public Security Bureau
@@ -20847,6 +20955,7 @@ MS-DOS
 闾丘露薇
 (en) Hua Luogeng
 蕃薯藤
+(en) Ding Mocun
 越南总理
 司法機關
 (en) Liu Zhijun
@@ -20884,6 +20993,7 @@ MS-DOS
 郭普校
 (en) State councillor
 (en) Fu Kun-chi
+韩山童
 旧五代史
 (en) 2nd Belorussian Front
 (en) Pingjin campaign
@@ -20909,7 +21019,6 @@ MS-DOS
 模擬聯合國
 (en) 1989 Sino-Soviet Summit
 楊行密
-天演論
 东宫三师
 (en) Small Swords Society
 陳某
@@ -20921,6 +21030,7 @@ MS-DOS
 (en) Three Rules of Discipline and Eight Points for Attention
 (en) Luo Ruiqing
 (en) Yao Yilin
+(en) Huangpu, Shanghai
 (en) Yang Wu
 (en) Christopher Wong (singer)
 (en) Jaw Shaw-kong
@@ -20935,6 +21045,7 @@ MS-DOS
 (en) Mona Fong
 (en) Alexander family hostage crisis
 (en) Jia Qinglin
+何東中學
 索尼音樂娛樂香港
 (en) University of London Worldwide
 (en) Late Ming peasant rebellions
@@ -20947,6 +21058,7 @@ MS-DOS
 (en) Huang–Lao
 蒂莫·波尔
 直隶
+美國聯邦儲備銀行
 珍妮纺纱机
 中国电影家协会
 (en) Haicheng, Liaoning
@@ -20954,6 +21066,7 @@ MS-DOS
 (en) Frank Hsieh
 金城戰役
 (en) Suiyuan
+元朝民變
 (en) Beijing University of Posts and Telecommunications
 中国共产党第二十届中央委员会第二次全体会议
 (en) Liu Guozhong
@@ -20999,7 +21112,7 @@ MS-DOS
 周舵
 (en) Intelligence and Security Committee of Parliament
 (en) Benxi
-林政則
+李茂貞
 (en) Fall of Edo
 李璟
 (en) Edmund Ho
@@ -21030,6 +21143,7 @@ MS-DOS
 (en) Chen Qimei
 (en) Yang Lan
 (en) Guang'an
+錢思亮
 (en) Li Ganjie
 王海
 埃爾溫·馮·維茨萊本
@@ -21043,6 +21157,7 @@ MS-DOS
 南非总统
 (en) Yang Zhu
 (en) Song Zuying
+(en) Ji'an
 韓王安
 (en) Wei Lihuang
 奥地利皇帝
@@ -21062,6 +21177,7 @@ MS-DOS
 (en) Stan Shih
 (en) Xuedong Huang
 不断革命论
+察罕帖木儿
 秦征百越
 (en) Soga no Iruka
 (en) Chen Chi-mai
@@ -21084,7 +21200,9 @@ MS-DOS
 國會議事堂 (韓國)
 (en) Pure Consort Xiao
 (en) Pearl River Delta Economic Zone
+上海大轰炸
 (en) Zhang Jun (politician)
+吴宓
 (en) Ludwig von Westphalen
 (en) Battle of Hulao
 板垣退助
@@ -21140,6 +21258,7 @@ MS-DOS
 解放南方统一日
 (en) Vincent Lo
 六張犁亂葬崗
+(en) Communist Party of Ecuador – Red Sun
 越南帝国
 輔仁大學北平時期
 中国人民解放军上海警备区
@@ -21158,6 +21277,7 @@ MS-DOS
 (en) National Chung Hsing University
 商震
 (en) Köke Temür
+(en) Organization Department of the Chinese Communist Party
 (en) Emperor Yi of Chu
 (en) 2024 Taiwanese general election
 宋長志
@@ -21165,6 +21285,7 @@ MS-DOS
 乌云其木格
 (en) Ying Bu
 吕姓
+劉文秀 (明朝)
 天涯·明月·刀
 (en) One Country on Each Side
 (en) Twenty-one Conditions
@@ -21175,6 +21296,7 @@ MS-DOS
 (en) Deputy Chairman of the Government
 (en) Tsinghua Tongfang
 洪子瑜
+天浩盛世
 (en) China Securities Regulatory Commission
 (en) Freiberg University of Mining and Technology
 (en) Shen Buhai
@@ -21201,6 +21323,7 @@ MS-DOS
 王叔銘
 (en) Direct-controlled municipality
 農民起事
+俄罗斯联邦国防部
 (en) Shule Kingdom
 (en) United States–China talks in Alaska
 (en) Emperor Guangzong of Song
@@ -21230,6 +21353,7 @@ MS-DOS
 (en) Great Kantō Earthquake
 第二次贡比涅停战协定
 (en) Tang Na
+孫震 (臺灣學政界人物)
 (en) Hu Henghua
 (en) Japan–China Joint Communiqué
 高翔 (1963年)
@@ -21239,6 +21363,7 @@ MS-DOS
 鄭成功
 新加坡电信
 黄花蒿
+君悅會談
 (en) Danzhou
 (en) Ying Yong
 (en) Dong Chengpeng
@@ -21248,10 +21373,10 @@ MS-DOS
 挺進大別山
 (en) General Staff Department of the Korean People's Army
 (en) Chengjiao (prince)
-郭德潔
 胡底
 (en) William Kelly Harrison Jr.
 毛恩普
+弗朗西斯·克里克
 (en) Guo Xiang
 (en) Literary inquisition
 (en) China Europe International Business School
@@ -21305,6 +21430,7 @@ MS-DOS
 郝平 (官员)
 (en) State Defense Committee
 (en) Liang Wengen
+還珠樓主
 共产党和工人党情报局
 (en) Zhao Erfeng
 部長
@@ -21314,6 +21440,7 @@ MS-DOS
 南北議和
 程砚秋
 马鸿宾
+下關戰爭
 (en) Zhang Zongxun
 (en) Ocean University of China
 (en) People's Liberation Army National Defense University
@@ -21326,6 +21453,7 @@ MS-DOS
 (en) Qu Qiubai
 (en) Battle of Muddy Flat
 (en) International Department of the Chinese Communist Party
+额哲
 刘伶
 (en) Left communism in China
 (en) Gonghe Regency
@@ -21351,16 +21479,19 @@ MS-DOS
 红五类
 (en) Lü Meng's invasion of Jing Province
 (en) Huang Jinrong
+漠南蒙古
 布莱斯·帕斯卡
 (en) Fujian Normal University
 (en) Yelang
 (en) Eunice Lam
+賴清德內閣
 (en) Empress Zhang (Hongxi)
 胡富国
 臺灣新北地方法院
 陶驷驹
 (en) Huanggang
 亞羅號事件
+(en) Chen Zuyi
 (en) Kitarō Nishida
 (en) Guan Xing
 反宗教改革
@@ -21396,6 +21527,7 @@ MS-DOS
 (en) Paula Bennett
 贵州茅台集团
 齊景公
+藩镇
 (en) Wawasan 2020
 瓦西里·布柳赫尔
 (en) Asakura Yoshikage
@@ -21427,6 +21559,7 @@ MS-DOS
 先锋队理论
 (en) Qiushi
 (en) Binhai, Tianjin
+尤睦佳·泽登巴尔
 光復會
 (en) Chi Haotian
 廣西西林教案
@@ -21445,6 +21578,7 @@ MS-DOS
 克拉拉·贝塔西
 (en) Datsu-A Ron
 (en) Zhongshu Sheng
+刘福通
 (en) Army Ministry
 (en) Cross-Strait Service Trade Agreement
 (en) Report on an Investigation of the Peasant Movement in Hunan
@@ -21479,6 +21613,7 @@ MS-DOS
 (en) Ryōji Noyori
 (en) Motoo Kimura
 (en) Eight Trigrams uprising of 1813
+次长
 (en) Peng Yue
 (en) Wu Guanzhong
 (en) University of Science and Technology Beijing
@@ -21492,7 +21627,6 @@ MS-DOS
 (en) Fan Kuai
 (en) Beijing University of Technology
 農民
-單配偶制
 2003年香港七一遊行
 风云儿女
 杨鉴清
@@ -21612,6 +21746,7 @@ TPG資本
 救恩學校
 (en) 5th National People's Congress
 (en) Nansun Shi
+尼古拉·帕特鲁舍夫
 杨斌 (1963年)
 (en) China Movie Channel
 第十三届全国人民代表大会代表名单
@@ -21621,6 +21756,7 @@ TPG資本
 (en) Railway Protection Movement
 埃达·墨索里尼
 (en) Zhou Tong (archer)
+包办婚姻
 老威廉·H·盖茨
 (en) Panjin
 李新良
@@ -21636,7 +21772,6 @@ TPG資本
 駐藏大臣
 (en) Taixu
 廣治省
-田長霖
 (en) Huang Zu
 詹啟賢
 (en) Toshihide Maskawa
@@ -21666,7 +21801,6 @@ TPG資本
 大夫 (官名)
 山田乙三
 定武军
-陳群 (曹魏)
 光祿大夫
 (en) Terry Hu
 (en) Election Committee (Hong Kong)
@@ -21729,7 +21863,6 @@ TPG資本
 张敖
 新经济政策 (马来西亚)
 (en) Viceroy of Zhili
-吳清基
 (en) Refugee wave from the People's Republic of China to British Hong Kong
 新郑市
 (en) Demosisto
@@ -21756,7 +21889,6 @@ TPG資本
 厦门战役 (1949年)
 薛紹
 (en) Zhang Zhao (Eastern Wu)
-儲楓
 (en) Hunan First Normal University
 晏陽初
 (en) Shunyi, Beijing
@@ -21769,6 +21901,7 @@ TPG資本
 (en) Liu Xia (poet)
 (en) Shen Wansan
 李鴻藻
+(en) Central Policy Research Office
 (en) Kim Seong-su
 (en) Xu Shiyou
 (en) Tonghua incident
@@ -21793,6 +21926,7 @@ TPG資本
 杨政道
 (en) Princess Anle
 總體國家安全觀
+(en) Jiangyou
 (en) Korea Independence Party
 舒爾哈齊
 生物戰
@@ -21874,21 +22008,24 @@ TPG資本
 (en) Ministry of Justice (China)
 (en) Yuan Huazhi
 (en) China Everbright Group
+赫图阿拉城
+江聰淵
 自由貿易
 (en) Cho cabinet
 中华人民共和国国民经济和社会发展第十三个五年规划纲要
 苗劉兵變
 (en) Xiahou Ying
 (en) Bloodline theory
+(en) Government-General of Taiwan
 于光遠
 吳朝
 (en) Chai Rong
 (en) Phan Văn Khải
 佩特罗·巴多格里奥
 (en) Imperial Noble Consort
+(en) Wu Xiaohui
 (en) Yan Baihu
 (en) Jiang Wan
-陸軍大學校
 陆建章
 中国人民解放军成都军区
 倚天中文系統
@@ -21898,6 +22035,7 @@ TPG資本
 滚雷行动
 庆祝中华人民共和国成立70周年活动
 (en) Fujian Provincial Government
+(en) National Security Council (Taiwan)
 古典经济学
 (en) Qin Jiwei
 (en) Northwest A&F University
@@ -21915,6 +22053,7 @@ TPG資本
 (en) Zhangsun Wuji
 (en) Huang Ju
 (en) Ministry of Industry and Trade (Russia)
+全盤西化
 上官云相
 (en) Hohai University
 (en) Wu Den-yih
@@ -21923,6 +22062,7 @@ TPG資本
 (en) National Financial Regulatory Administration
 (en) August 1st Building
 欽淑皇后
+(en) Communist Party of Iran (Marxist–Leninist–Maoist)
 中国常驻联合国代表列表
 (en) Liu Qi (politician, born 1957)
 (en) Lin Xiangyang
@@ -21932,6 +22072,7 @@ TPG資本
 (en) Children of Troubled Times
 (en) Secretary of the Central Commission for Discipline Inspection
 李榮保
+(en) Battle of Maling
 (en) National Fire and Rescue Administration
 一国两府
 (en) Hau Lung-pin
@@ -21979,6 +22120,7 @@ TPG資本
 (en) Makiko Tanaka
 (en) Tibet University
 (en) Liu Yuan (Han-Zhao)
+(en) Sa Zhenbing
 中国共产党纪律检查机关
 (en) Kenkichi Ueda
 林副主席第一个号令
@@ -21998,6 +22140,7 @@ TPG資本
 (en) Lin Shuangwen rebellion
 (en) Bing Xin
 (en) Baoding Military Academy
+米哈伊尔·伏龙芝
 陳建仁內閣
 (en) Zhengguo Canal
 朱瞻圻
@@ -22009,6 +22152,7 @@ TPG資本
 (en) 13th National Congress of the Chinese Communist Party
 (en) Lu Rongting
 (en) Shuangyashan
+孔悝
 山西省 (中華民國)
 (en) Mutual Defense Pact of the Southeastern Provinces
 (en) Paul Lam
@@ -22022,7 +22166,6 @@ TPG資本
 劉發
 (en) Taiwan Provincial Government
 (en) King Youmiao
-嚴明 (1949年)
 (en) Son Myung-soon
 北纬38度线
 公共行政学
@@ -22080,6 +22223,8 @@ TPG資本
 疏勒国
 长州五杰
 (en) Puwei
+(en) One Night Surprise
+國防部
 马来西亚协定
 (en) Yu Youren
 (en) ShanghaiTech University
@@ -22118,7 +22263,6 @@ TPG資本
 (en) China at the 2016 Summer Olympics
 (en) Princess Si of Anding
 (en) Foshan Haitian Flavouring & Food Co
-徐州剿匪總司令部
 (en) Gao Zhisheng
 (en) Ministry of Culture and Tourism (China)
 商輅
@@ -22130,6 +22274,7 @@ TPG資本
 (en) Bob Fu
 (en) Hu Weiyong
 (en) Revolutionary committee (China)
+俄羅斯聯邦安全會議
 (en) Cui (surname)
 (en) Arnold Ruge
 (en) Chi Mei Corporation
@@ -22177,7 +22322,6 @@ TPG資本
 (en) Lord Chunshen
 宰因·阿比丁·本·阿里
 (en) China Travel Service
-巴拉克·奧巴馬政府的東亞外交政策
 (en) Wu Xueqian
 (en) National Taipei University of Technology
 北京人民艺术剧院
@@ -22230,6 +22374,7 @@ TPG資本
 黄宗羲定律
 (en) 1st National People's Congress
 (en) Zhang Bao (Shu Han)
+緊急情況規例條例
 (en) Hu Xueyan
 秦德純
 臧幼俠
@@ -22243,6 +22388,7 @@ TPG資本
 (en) East China University of Political Science and Law
 王君
 (en) Overseas Chinese Affairs Office
+臺灣道
 農業革命
 莊順皇貴妃
 (en) Zhu Changxun
@@ -22264,7 +22410,6 @@ TPG資本
 皇太孫
 (en) Li Jinglong
 爱荷华州立大学
-馬克思主義女性主義
 (en) Cui Tiankai
 香港公益金
 五條御誓文
@@ -22290,6 +22435,7 @@ TPG資本
 (en) Tyler Precedent
 辛迪·基罗
 (en) Hui Shi
+最高行政法院 (中華民國)
 深圳北理莫斯科大学
 黄晓薇
 (en) Cheng Nan-jung
@@ -22304,8 +22450,10 @@ TPG資本
 (en) Ministry of Emergency Management
 (en) Meng Xiaodong
 (en) Liang Hongzhi
+嘉義縣政府
 (en) China Academy of Space Technology
 郭志權 (商人)
+衛後莊公
 (en) Wukan protests
 (en) Gao Zongwu
 (en) Lin Yu-chang
@@ -22326,6 +22474,7 @@ TPG資本
 郭廷以
 加拿大联邦化
 苏联国土防空军
+(en) Zhu Baosan
 (en) Qin campaign against the Baiyue
 (en) Peng Chong
 (en) Dai (Warring States period)
@@ -22341,7 +22490,6 @@ TPG資本
 (en) Shanghai Municipal People's Government
 (en) Chen Shaokuan
 (en) Taipei First Girls' High School
-洪武正韻
 (en) Ministry of Ecology and Environment
 丁谓
 (en) June 15th North–South Joint Declaration
@@ -22359,7 +22507,6 @@ TPG資本
 (en) Three Red Banners
 林文兴
 定远县
-应天府
 (en) Li Xiaopeng (politician)
 唐式遵
 (en) Wuzhu
@@ -22370,7 +22517,6 @@ TPG資本
 (en) Li Da (philosopher)
 吴建民 (外交官)
 (en) Beijing Sport University
-美軍撤出阿富汗 (2020年—2021年)
 望夷宫之变
 (en) Feng Zhenghu
 孫家鼐
@@ -22440,6 +22586,7 @@ TPG資本
 贫下中农
 国家禁毒委员会
 (en) Pipa xing
+李𥙿
 克莱门特·哥特瓦尔德
 佟国纲
 张硕辅
@@ -22461,6 +22608,7 @@ TPG資本
 (en) Sichuan Chengdu Shishi High School
 (en) Vietnamese Revolutionary Youth League
 (en) Plasma Economy
+海难
 何占豪
 非暴力
 萨哈罗夫奖
@@ -22469,6 +22617,7 @@ TPG資本
 (en) Wu Zhihui
 (en) China Banking and Insurance Regulatory Commission
 (en) Gu Hongming
+积善太后
 詹姆斯·厄尔·雷
 (en) Ōmandokoro
 林奏延
@@ -22488,6 +22637,7 @@ TPG資本
 兴国县
 淮阳区
 美国文理科学院
+陳維昭
 解放軍報
 (en) Thread of the Silkworm
 顾圣婴
@@ -22535,6 +22685,7 @@ TPG資本
 易县
 (en) Chang'an University
 黑龙江大学
+丁卯戰爭
 (en) Pingjiang County
 (en) Formosa Airlines Flight 7623
 中华人民共和国各级监察委员会
@@ -22573,9 +22724,12 @@ TPG資本
 (en) Crown Prince Zhanghuai (Tang dynasty)
 (en) Princess Ningguo
 (en) Duke Ling of Wey
+宋 (韓林兒)
 梁化之
+(en) Equipment Development Department of the Central Military Commission
 (en) Zhang Jingyao
 (en) The Burning of Imperial Palace
+臺灣總督府醫學校
 首都各界人民庆祝中华人民共和国成立35周年大会
 尚小云
 (en) Noble Consort Zheng
@@ -22636,6 +22790,7 @@ TPG資本
 (en) Frances Yao
 (en) Li Shanchang
 (en) Cao Xiu
+閻振興
 葉九條
 (en) Harbin Institute of Technology, Shenzhen
 (en) Imperial Clan Court
@@ -22646,10 +22801,13 @@ TPG資本
 东北帮叛党投敌反革命集团案
 (en) 9th National Congress of the Chinese Communist Party
 外交部长
+(en) Nanjing incident (1976)
 監察院國家人權委員會
+趙簡子
 (en) Helian Bobo
 (en) Afaqi Khoja revolts
 (en) Deepening the reform of the Party and state institutions
+(en) Oroqen Autonomous Banner
 (en) Zhongnan University of Economics and Law
 弗里德里希·施萊爾馬赫
 南汇区
@@ -22682,8 +22840,10 @@ TPG資本
 (en) Qin Benli
 (en) Konoe Sakihisa
 惠灵顿维多利亚大学
+追龍 (小說)
 计算机协会
 應桂馨
+(en) Yuefu
 (en) Wang Yaqiao
 (en) Cauchy-à-la-Tour
 (en) Wang Shichong
@@ -22696,6 +22856,7 @@ TPG資本
 第八代額爾金伯爵詹姆斯·布魯斯
 (en) Yi Si-yeong
 紹治帝
+吳越文化
 (en) Hengdian Group
 (en) Commercial Press
 (en) Gaomi
@@ -22794,7 +22955,6 @@ TPG資本
 中国卫通
 姜异康
 (en) Wei Yuan
-許明財
 (en) Lü Clan disturbance
 北京市福田公墓
 (en) Immigration Department
@@ -22808,6 +22968,7 @@ TPG資本
 德米特罗·库列巴
 (en) Fuzhou University
 徐夢秋
+(en) Tie Ning
 南京外国语学校
 梁保华
 约瑟夫·富歇
@@ -22823,9 +22984,11 @@ TPG資本
 (en) Emperor Jing of Northern Zhou
 中伊全面合作计划
 (en) Ministry of Health (China)
+蔡玉玲
 美國副國務卿
 (en) Shihezi University
 捷克和斯洛伐克聯邦共和國
+(en) Chen Xilian
 (en) Chen Mingshu
 张宝顺
 北京国际电影节
@@ -22865,12 +23028,13 @@ TPG資本
 (en) Dongbei University of Finance and Economics
 (en) Pamela Peck
 (en) Party and state leaders
-張天欽東廠風波
+(en) All-China Youth Federation
 中国人民解放军陆军合成第十一师
 (en) Xiangshan County, Guangdong
 (en) Ministry of Agriculture and Rural Affairs
 蹇先任
 (en) Korean National Party
+(en) Deng Liqun
 (en) Lin Jiamei
 東學
 白樺 (作家)
@@ -22930,6 +23094,7 @@ TPG資本
 王欽若
 劉雨卿
 (en) Hao Mingjin
+國務院
 张仁蠡
 (en) Sima Liang
 大寨村
@@ -22937,7 +23102,6 @@ TPG資本
 张廷发
 (en) Wang Guowei
 南京农业大学
-天地圖書
 材料力学
 邱晓华
 江阴要塞起义
@@ -23032,6 +23196,7 @@ TPG資本
 临川区
 (en) China Datang Corporation
 中国人民解放军警卫第三师
+西汉列侯列表 (王子侯)
 全港十八區業餘歌唱比賽
 (en) Cheung Kong Graduate School of Business
 (en) China General Technology Group
@@ -23044,7 +23209,6 @@ TPG資本
 陳坤耀
 李元元
 哥达纲领批判
-陳正然
 兖州区
 长春理工大学
 上海对外经贸大学
@@ -23084,7 +23248,9 @@ GoAgent
 重农主义
 大正政變
 歐洲原子能共同體
+劉天華
 共和法西斯党
+彰明縣
 (en) National Equities Exchange and Quotations
 乐少华
 (en) Huairen Hall
@@ -23117,6 +23283,7 @@ GoAgent
 上海政法学院
 菩提達磨大師略辨大乘入道四行觀
 (en) Huang Yongsheng
+對德宣戰案
 (en) Wang Jiaxiang
 建文改制
 馬英九二訪中國大陸
@@ -23176,6 +23343,7 @@ GoAgent
 (en) Chen Qun
 (en) Liling
 辉县市
+(en) Huang Baitao
 周纯全
 文郎
 (en) Yang Yong (Sui dynasty)
@@ -23184,6 +23352,7 @@ GoAgent
 (en) Xiao Qian (diplomat)
 申源湜
 虎门条约
+臺北高等行政法院
 東北民主聯軍航空學校
 佐賀之亂
 (en) Chen Yuan
@@ -23258,7 +23427,6 @@ GoAgent
 (en) Mononobe no Moriya
 (en) Song Tao (diplomat)
 (en) Gaozhou
-尼維爾攻勢
 (en) Tsutsui Junkei
 (en) Ministry of Finance (Taiwan)
 (en) Hongkou Park Incident
@@ -23290,6 +23458,7 @@ GoAgent
 圣西尔军校
 中央应对新型冠状病毒感染疫情工作领导小组
 (en) Dai (surname)
+紀尾井坂之變
 秦邦礼
 岳雷
 张榕
@@ -23312,6 +23481,7 @@ GoAgent
 大同大学 (上海)
 小金县
 桂良
+(en) Office of the Commissioner of the Ministry of Foreign Affairs (Hong Kong)
 宿北战役
 田中静壹
 (en) 17th National Congress of the Chinese Communist Party
@@ -23339,6 +23509,7 @@ GoAgent
 罗清泉
 汪永清
 福建农林大学
+王景弘
 中国共产党第六届中央委员会
 (en) Association of East Asian Research Universities
 (en) Sima Zhou
@@ -23374,7 +23545,6 @@ GoAgent
 裴炎
 张全景
 中國人民政治協商會議全國委員會澳門地區委員
-劉康 (定陶王)
 (en) Fu Lei
 白求恩医科大学
 (en) China Pharmaceutical University
@@ -23401,6 +23571,7 @@ GoAgent
 毛主席给清华附中红卫兵的一封信
 张茜 (政治人物)
 房琯
+始畢可汗
 (en) Du Yu
 二桥
 新潮社
@@ -23432,6 +23603,7 @@ GoAgent
 赵飞
 白藤江之战 (981年)
 (en) He Yan
+(en) K. C. Wu
 百特国际
 (en) Hsu Chen-wei
 別克帖兒
@@ -23440,6 +23612,7 @@ GoAgent
 (en) British concession in Tianjin
 (en) Hong Kong Cable Television
 蔡啸
+許璋瑤
 堕三都
 (en) Ranks of the People's Armed Police
 哈尔滨医科大学
@@ -23497,6 +23670,7 @@ GoAgent
 中书令
 基隆市政府
 宋佳玲
+(en) Y. C. James Yen
 中国中化
 第五個現代化 (魏京生)
 (en) Lady Xiahou
@@ -23549,10 +23723,12 @@ GoAgent
 (en) Huang Shaohong
 (en) Huang Qifan
 潜山市
+陳寧 (明初御史)
 朱至澍
 (en) Yuquan Shenxiu
 宏觀調控
 刘英 (1905年11月)
+蓋瑞·貝克
 (en) Robert Chua
 中国出版集团
 中级人民法院
@@ -23561,10 +23737,12 @@ GoAgent
 李媽兜
 西南石油大学
 上海市浦东新区人民政府
+一夜惊喜
 尤里·勃列日涅夫
 奧蘭治自由邦
 (en) Southern Metropolis Daily
 (en) Shou County
+羅宗洛
 (en) Dick Hubbard
 國際社會主義前進
 谯县
@@ -23586,6 +23764,7 @@ GoAgent
 吴博 (1917年)
 (en) Li Fuchun
 (en) National Cultural Heritage Administration
+陈励耘
 郝吉明
 布朗基主义
 (en) Tokyo Shinbu Gakko
@@ -23639,6 +23818,7 @@ GoAgent
 (en) James Tien (politician)
 陳文治
 西北政法大学
+(en) Meng Jianzhu
 (en) Sean Lien
 (en) Lin Fei-fan
 (en) Zhang Youyi
@@ -23674,6 +23854,7 @@ GoAgent
 (en) Guo Yonghang
 (en) Wang Shiwei
 欧洲各共同体
+陆仲亨
 朝阳大学
 密摺
 鄄城县
@@ -23696,7 +23877,6 @@ GoAgent
 2022年烏克蘭赫爾松反攻
 (en) Claire Wang
 松滋市
-陸軍速成學堂
 (en) Yu Hung-chun
 美国参议院外交委员会
 孝明王皇后
@@ -23708,6 +23888,7 @@ GoAgent
 中国科学院国家授时中心
 邯郸战役
 袁宝华
+俄羅斯聯邦緊急情況部
 裕丰纱厂旧址
 (en) Hui'an County
 平山县
@@ -23759,6 +23940,7 @@ GoAgent
 褚健
 中共中央北方局
 (en) Beijing Municipal People's Congress
+郭芳煜
 臺拉維夫大學
 (en) Wang Chonghui
 童勝男
@@ -23796,6 +23978,7 @@ GoAgent
 (en) Zaicheng
 徐宁
 王涛 (1931年)
+(en) Governor of Moscow Oblast
 和硕敦恪公主
 (en) Guo Songling
 (en) Utopia (internet forum)
@@ -23832,12 +24015,14 @@ GoAgent
 全国过渡委员会
 关广富
 任远征
+瓦格納集團—俄羅斯國防部衝突
 莫扎尼·马哈迪
 雅克·罗格
 (en) Empress Chen (Longqing)
 伦道夫·邱吉尔勋爵
 罗东进
 (en) Xiang Bo
+费县
 (en) Zhao Dezhao
 (en) Li Fuguo
 (en) Yuncheng County
@@ -23873,6 +24058,7 @@ GoAgent
 胡启恒
 钦圣献肃皇后
 玛丽娜·马哈迪
+马西岭-油池集选区
 (en) Wang Fengchao
 (en) Empress Yuanxian
 (en) Tsinghua University High School
@@ -23937,6 +24123,7 @@ IOS 8
 (en) National Development Council (Taiwan)
 示范性高中
 (en) Du Ruhui
+新加坡教育部
 杨至成
 (en) Central Science and Technology Commission
 徐寅生
@@ -23965,10 +24152,10 @@ IOS 8
 李书田
 (en) Zhou Zhengyi
 (en) Battle of Kashgar (1933)
-灣仔區議會
 (en) Alan Leong
 (en) Li Siguang
 (en) Guan Ying
+后金征服察哈尔
 方強
 东北农业大学
 (en) Yuan Geng
@@ -24008,7 +24195,6 @@ IOS 8
 海伦·克拉克
 湖南农业大学
 张越霞
-張子源
 (en) Cinema City Enterprises
 (en) Army Medical University
 (en) Hugo Shong
@@ -24065,6 +24251,7 @@ IOS 8
 (en) Empress Dowager Xiaochun
 赵凤昌
 桑植县
+淮南王
 鄔維庸
 中国共产党第六届中央委员会第六次全体会议
 徐謙
@@ -24126,6 +24313,7 @@ IOS 8
 (en) 6th National People's Congress
 (en) 8th National Congress of the Chinese Communist Party
 抗日战争第五战区
+乌恰县
 加拿大全球事务部
 (en) Fan Ju
 主徒会
@@ -24135,9 +24323,9 @@ IOS 8
 石家庄战役
 孙其信
 福州3820工程
-另類全球化
 苗得雨 (外交官)
 張福興 (政治人物)
+泗水县
 潘承洞
 (en) Kwong Wah Hospital
 季康子
@@ -24149,6 +24337,7 @@ IOS 8
 雅克-勒内·埃贝尔
 宁远县
 (en) Agricultural Development Bank of China
+赵姬 (汉朝)
 尼古拉·波德戈尔内
 葛健豪
 张勃兴
@@ -24171,7 +24360,7 @@ IOS 8
 张育林 (解放军)
 (en) Lu Dingyi
 何鏡堂
-國民政府委員會
+山东农业大学
 利类思
 2024年江西新余店铺火灾事故
 (en) Fourth Field Army
@@ -24193,6 +24382,7 @@ IOS 8
 黃勝
 (en) University of the German Federal Armed Forces
 (en) Tang Fei
+2019冠狀病毒病新加坡疫情
 (en) Shanghai Medical College, Fudan University
 明庆陵
 鲁姓
@@ -24262,7 +24452,6 @@ IOS 8
 (en) State Development and Investment Corporation
 山東巡撫
 (en) You Si-kun
-太閤檢地
 (en) Central Case Examination Group
 户部 (官署)
 阿尔贝·勒布伦
@@ -24322,6 +24511,7 @@ IOS 8
 (en) China Banking Regulatory Commission
 德奧同盟
 (en) PBC School of Finance
+(en) Yongding, Longyan
 (en) Gutian Congress
 周逸群
 董旻
@@ -24335,6 +24525,7 @@ IOS 8
 (en) Wei Xiaodong
 (en) 9th National People's Congress
 (en) Xincheng Rebellion
+學衡派
 (en) Hongcheng Magic Liquid
 (en) Jiangxi Normal University
 加利福尼亞州立大學洛杉磯分校
@@ -24358,6 +24549,7 @@ IOS 8
 (en) Wang Jiong (politician)
 杜善学
 新概念作文大赛
+(en) Hao Peng (PRC)
 (en) General Office of the State Council
 闊闊出 (通天巫)
 (en) Wu Guang
@@ -24392,6 +24584,7 @@ IOS 8
 李伦
 (en) Treaty of Shaoxing
 叶举
+阮氏明開
 孙守刚
 阳翰笙
 (en) Tongwen Guan
@@ -24412,6 +24605,7 @@ IOS 8
 (en) 2014 Taiwanese local elections
 斯坦尼斯拉夫·舒什克维奇
 刘隐
+江苏师范大学
 安文思
 (en) 8th Jäger Division (Wehrmacht)
 吴满有
@@ -24447,7 +24641,6 @@ IOS 8
 张明才
 周鲠生
 肇东市
-李庄
 石门县
 江泽民文选
 (en) C. T. Hsia
@@ -24581,6 +24774,7 @@ IOS 8
 国务院学位委员会
 (en) Margary Affair
 迭部县
+(en) Zuo Quan
 卢建军
 (en) Zaiyuan
 曹利用
@@ -24596,7 +24790,6 @@ IOS 8
 (en) 1954 Constitution of China
 车桥战役
 湘南起义
-吳公儀
 (en) Empress Xiaoke (Jiajing)
 李弘冀
 萍浏醴起义
@@ -24642,6 +24835,7 @@ IOS 8
 (en) Shenzhou City
 张纪南
 (en) Guo Shengkun
+陇川县
 世界和平理事會
 牺牲救国同盟会
 北虜南倭
@@ -24699,6 +24893,7 @@ IOS 8
 戴梓
 张百熙
 (en) Wei Tao-ming
+韩建
 织金县
 (en) Fourth encirclement campaign against the Jiangxi Soviet
 爱德华·霍巴特·西摩尔
@@ -24716,6 +24911,7 @@ IOS 8
 曾廣鈞
 (en) 1946 United States Air Force C-47 Crash at Yan'an
 江夏之战
+(en) Huixian
 沃尔姆斯宗教协定
 陸潤庠
 河北师范大学
@@ -24727,10 +24923,12 @@ IOS 8
 冷水江市
 安福县
 (en) Guo Ningning
+衛出公
 (en) Feng Zicai
 上海美租界
 (en) Xia Meng
 人民代表大會
+(en) Chang Kia-ngau
 维多利亚·勃列日涅娃
 (en) Dengzhou
 陈金山 (1967年)
@@ -24740,6 +24938,7 @@ IOS 8
 (en) Taipei City Government
 (en) Chung Sze-yuen
 国务院直属特设机构
+莊長恭
 (en) Chiu Kuo-cheng
 (en) Yi Huiman
 (en) Shaoxing University
@@ -24806,11 +25005,11 @@ IOS 8
 (en) Li Desheng
 古河財閥
 王钦敏
+(en) John Hines (Australian soldier)
 北京電影製片廠
 1940年浙江细菌战
 李庄镇 (宜宾市)
 慈利县
-2019年金門縣選舉區立法委員缺額補選
 连镇客运专线
 (en) Central Motion Picture Corporation
 域外小說集
@@ -24845,11 +25044,11 @@ IOS 8
 伊达·达尔塞
 黃一歐
 渠县
-葉博文
 堕落的工人国家
 文学社
 齊靈公
 (en) Two Entrances and Four Practices
+幣原坦
 (en) Chinese National Currency
 (en) Luo Changpei
 島田一郎
@@ -24875,7 +25074,6 @@ IOS 8
 魏良卿
 第一届全国人民代表大会代表名单
 (en) Wang Jian (Former Shu)
-呂苦桃
 全国人民代表大会常务委员会关于香港特别行政区立法会议员资格问题的决定
 (en) Ye Shengtao
 吴启迪
@@ -24930,6 +25128,7 @@ IOS 8
 (en) Sima Jiong
 强学会
 (en) Empress Hang
+栾城区
 (en) Tang Wensheng
 哱拜
 中国延安干部学院
@@ -24950,9 +25149,11 @@ IOS 8
 (en) Hu Heping
 鑾儀衛
 (en) Pan Hannian
+馬遠部落遺骨返還案
 邓萍
 (en) Xinchang County
 (en) Encyclopedia of China
+(en) Mei Baojiu
 文化大革命工作组
 楊靜仁
 华北大学
@@ -25005,6 +25206,7 @@ IOS 8
 中国电力科学研究院
 周扬
 艾虎生
+費聚
 中国人民解放军山东省军区
 基礎設施投資和就業法
 孫家正
@@ -25013,9 +25215,11 @@ IOS 8
 于子三惨案
 梁灵光
 (en) Wu'an
+富农
 爱德华·伯内特·泰勒
 浙江政務服務網
 蔡伟 (1971年)
+臺灣鎮總兵
 周志坚
 朱军 (1971年)
 江苏省扬州中学
@@ -25030,6 +25234,7 @@ IOS 8
 洱源县
 黃輝珍
 (en) Sun–Joffe Manifesto
+(en) Kaohsiung Medical University
 (en) Rong Desheng
 钱能训
 (en) Sun He
@@ -25067,6 +25272,7 @@ IOS 8
 恽逸群
 磐石市
 赵声
+內政部民政司
 詹姆斯·弗雷澤
 陳蘭 (東漢)
 里瓦几亚条约
@@ -25102,6 +25308,7 @@ DoubleClick
 黄文虎
 (en) SET News
 (en) Toko University
+(en) Stirling Fessenden
 李敬 (周朝)
 韦玄贞
 (en) Chang Taek-sang
@@ -25140,6 +25347,7 @@ DoubleClick
 王庆祺
 阿尔杰·希斯
 (en) Liu Rong
+(en) Xu Jingcheng
 温妮·马迪基泽拉-曼德拉
 许智宏
 中国工农红军第九军团
@@ -25161,6 +25369,7 @@ DoubleClick
 李崇善
 (en) Wu Xiuquan
 (en) Central Leading Group on Hong Kong and Macau Affairs
+(en) Wu Qian (military officer)
 徐冠华
 天一影片公司
 湖南师范大学附属中学
@@ -25209,6 +25418,7 @@ DoubleClick
 俄罗斯副总理
 朱永
 赫伯特·冯·俾斯麦
+董厥
 王鸿津
 (en) Jiang Jiemin
 (en) Teresa Cheung Tak-lan
@@ -25265,7 +25475,6 @@ DoubleClick
 (en) Zhou Yu (Renming)
 (en) Chu Suiliang
 (en) Li Te
-友聯銀行
 (en) Yang Du
 阿富汗共产党（毛主义）
 濉溪县
@@ -25293,6 +25502,7 @@ DoubleClick
 (en) 18th Politburo of the Chinese Communist Party
 杨伟光
 林彪同志委托江青同志召开的部队文艺工作座谈会纪要
+(en) Changsha County
 (en) Council of Chairpersons of the Standing Committee of the National People's Congress
 饶文敏
 考克斯报告
@@ -25335,7 +25545,6 @@ P5+1
 张文彬
 甘荣坤
 (en) Fujian Agriculture and Forestry University
-上海公共租界工部局警務處
 中国人民解放军陕西省军区
 合肥市第八中学
 刘培善
@@ -25350,6 +25559,7 @@ P5+1
 唐皇贵妃
 杜魯門州立大學
 (en) Li Yuchao
+刘赐 (衡山王)
 (en) Sun Yeli
 文星
 (en) Xu Qiling
@@ -25408,7 +25618,6 @@ P5+1
 安乡县
 (en) Institute for Interdisciplinary Information Sciences
 (en) Wu Yingxiong
-唐英年大宅僭建風波
 (en) China Grain Reserves Group
 三韩征伐
 陕北革命根据地
@@ -25433,6 +25642,7 @@ P5+1
 (en) Lin Mosei
 石瑛
 (en) Empress Wang (Jingtai)
+刘贤
 绍兴文理学院
 木戶松子
 东北大学秦皇岛分校
@@ -25458,16 +25668,19 @@ P5+1
 朱崇实
 (en) Huang Qiang (politician)
 李承燁 (政治人物)
+西蒙·库兹涅茨
 徐新荣
 陈公培
 宇文招
 (en) Peng Qinghua
 宋国权
+王尚荣
 李太白集
 中央選舉管理委員會
 劉麗川
 朝鲜人民军总参谋部
 (en) Lee Hong-yuan
+蒋玄晖
 中华慈善总会
 阿贝尔·塔斯曼
 弘文学院
@@ -25516,6 +25729,7 @@ P5+1
 (en) National Academy of Governance
 芝加哥男孩
 鲁不鲁乞
+贯高
 伊芙琳·梅斯
 昭阳 (楚国)
 临汾战役
@@ -25535,6 +25749,7 @@ P5+1
 许绅
 列宁军事政治学院
 中俄工科大学联盟
+朱友恭
 许士杰
 (en) Shōkasonjuku Academy
 贺英
@@ -25565,7 +25780,6 @@ P5+1
 (en) Xu Kuangdi
 (en) Central Police University
 朱之鑫
-華商銀行 (中國)
 (en) 542nd Armored Brigade (Republic of China)
 交通大学西迁
 刘揆一
@@ -25589,6 +25803,8 @@ P5+1
 (en) Wenhui Bao
 艾知生
 (en) Cai Xiang
+虞兆中
+(en) Empress He (Tang dynasty)
 (en) Yi Lianhong
 (en) Empress Wang (Xin dynasty)
 沙比提大毛拉·阿不都尔巴克
@@ -25600,6 +25816,7 @@ P5+1
 中国特色社会主义先行示范区
 朱家寶
 赵启正
+高柴
 徐运北
 广州国会非常会议
 罗登贤
@@ -25612,9 +25829,11 @@ P5+1
 (en) Huang Chuping (politician)
 剑桥大学丘吉尔学院
 (en) Consulate General of China, San Francisco
+陆志鸿
 1982年加拿大法令
 叶戈尔·盖达尔
 (en) 8th Central Committee of the Chinese Communist Party
+維多利亞·紐蘭
 广西师范大学出版社
 于树德
 2016年中華民國總統副總統及立法委員選舉
@@ -25640,7 +25859,6 @@ P5+1
 (en) Georgia Tech Shenzhen Institute, Tianjin University
 覃振
 高一涵
-梁振英大宅僭建風波
 (en) Shi Ren
 国夫人
 (en) China Welfare Institute
@@ -25650,6 +25868,7 @@ P5+1
 (en) Su Buqing
 渭华起义
 杨伟东 (1964年)
+(en) Liu Futong
 (en) Xinjiang Uygur Autonomous Regional Committee of the Chinese Communist Party
 武城县
 隋仁寿宫唐九成宫遗址
@@ -25674,6 +25893,7 @@ P5+1
 (en) Jin Xiangjun
 钱陈群
 赵太庸
+譚焌釗
 (en) Sun Zhigang
 新闻集团 (1980—2013年)
 穆欣
@@ -25730,6 +25950,7 @@ P5+1
 (en) Simon Moutter
 (en) Zhang Yunyi
 新式整军运动
+(en) Zhang Jian (businessman)
 清议报
 海德尔·阿巴迪
 李長江
@@ -25757,6 +25978,7 @@ P5+1
 青岛第九中学
 立法院人權促進會
 哈什屯
+(en) Beijing Evening News
 華盛頓大學
 (en) 10th National Congress of the Chinese Communist Party
 韓國國民黨
@@ -25794,13 +26016,13 @@ P5+1
 (en) Wu Chaoshu
 政务院财政经济委员会
 荀氏
+(en) Order Number One (Lin Biao)
 (en) Gaoyang County
 (en) Mao Chi-kuo
 中央人民政府情报总署
 黄冈县
 孙友宏
 福敏
-我於青春無悔
 江苏省常州高级中学
 凌青
 罗舜初
@@ -25809,9 +26031,9 @@ P5+1
 賈夫人
 (en) Li Shanlan
 古交市
-劉宮人 (唐高宗)
 (en) Xishan Society
 蘇頲
+山頂小學
 黄学东
 央视反腐风暴
 李言荣
@@ -25867,6 +26089,7 @@ P5+1
 徐冰 (政治人物)
 (en) Jiang Chaoliang
 (en) Congress Party Alliance
+(en) Nine Gates Infantry Commander
 元德皇后
 会稽县
 四條漢子
@@ -25899,6 +26122,7 @@ P5+1
 (en) Li Bin (politician)
 李始榮
 科爾沁次妃
+武乡县
 冯玮
 (en) OCMFA (Hong Kong)
 (en) Cao Zhi (Yungong)
@@ -25925,7 +26149,6 @@ P5+1
 严信厚
 (en) Zhu Fu (Ming dynasty)
 杨明轩
-鉤町
 魏都区
 建宁县
 李金科
@@ -25933,6 +26156,7 @@ P5+1
 (en) Chang Ch'i-yun
 全国人民代表大会常务委员会委员长会议
 (en) Nông Thị Xuân
+警備總司令部
 王重榮
 (en) Qin Shutong
 (en) Li Jianguo
@@ -25981,6 +26205,7 @@ P5+1
 巴黎条约 (1951年)
 梁起鐸
 (en) Pucheng County, Shaanxi
+安陸州
 法治日报
 兗州刺史部
 (en) Maria Tam
@@ -26002,6 +26227,7 @@ P5+1
 (en) 4th National Congress of the Chinese Communist Party
 倉頡系統
 王世廷
+(en) Hong Kong Basic Law Drafting Committee
 弗莱贝格工业大学
 巨金鱼战役
 季方
@@ -26012,11 +26238,11 @@ P5+1
 朱克靖
 中国人民解放军国防科学技术委员会
 张鸿铭
-威爾士親王弗雷德里克
 孙起孟
 (en) Chushiro Hayashi
 曾镜冰
 (en) Mailiao Refinery
+蓝山县
 (en) Chen Tianhua
 (en) Institute of Computing Technology
 (en) Chinggis City
@@ -26033,6 +26259,7 @@ P5+1
 補英達賴
 西北军政委员会
 华东军政委员会
+革新黨 (新加坡)
 杨兴平
 张翔 (中将)
 清华大学法学院
@@ -26047,6 +26274,7 @@ P5+1
 北京市通州区潞河中学
 文豐
 (en) Liu Wu, Prince of Chu
+王飞
 (en) Central Election Commission (Taiwan)
 (en) Eidu
 中苏国防新技术协定
@@ -26066,6 +26294,7 @@ P5+1
 张学智
 (en) Wang Ling's Rebellion
 (en) Sun Ba
+西海岸集选区
 (en) Ningxia Hui Autonomous Regional Committee of the Chinese People's Political Consultative Conference
 昔里吉
 (en) Office for International Military Cooperation of the Central Military Commission
@@ -26080,6 +26309,7 @@ P5+1
 西北军区
 杨承宗
 安庆内军械所
+(en) Ministry of Environment (Taiwan)
 镇江县
 (en) Shanghai-Taipei City Forum
 (en) Yang Tinghe
@@ -26092,18 +26322,23 @@ P5+1
 (en) Liang Siyong
 血品
 全国脱贫攻坚总结表彰大会
+李漸榮
 东北军区
 克里米亞轉交蘇維埃烏克蘭
+氏叔琮
 镇赉县
 俄罗斯总参谋部军事学院
 多罗格格 (觉罗氏)
 (en) Pan Men-an
+張政雄
 望奎县
+(en) 15th National Congress of the Chinese Communist Party
 刘瑶章
 (en) Feicheng
 白涛 (1968年)
 陈俊生 (政治人物)
 (en) Li Xiaolin (politician)
+楊復恭
 焦扬
 河口起义
 姚震
@@ -26132,6 +26367,7 @@ P5+1
 (en) 6th National Congress of the Chinese Communist Party
 (en) Fu Hua
 上海租地章程
+雲奇
 朱英龙
 (en) Wang Ruowang
 罗强 (1963年)
@@ -26192,19 +26428,23 @@ P5+1
 錢永昌
 (en) Ding Kuiling
 联合国安全理事会第84号决议
+杜国庠
 (en) China Atomic Energy Authority
 舒雨
 (en) Longchuan County, Guangdong
 坦皮科
+刘长
 莫建成 (1956年)
 刘开渠
 世界文學
 华东师范大学第一附属中学
 (en) National Nuclear Safety Administration
 (en) Hou Cheng
+新加坡文化、社区及青年部
 凌柱
 (en) 21st Century Business Herald
 丁姬
+吴虞
 卓越大学联盟
 (en) Taifu
 高阳县
@@ -26234,6 +26474,7 @@ P5+1
 李建荣
 (en) Tekijuku
 (en) Deng Zhongxia
+宋慎
 殷鉴
 洪震
 (en) Huang Zicheng
@@ -26261,6 +26502,7 @@ P5+1
 (en) Cheeloo University
 孟用潜
 朱卓文
+格里戈里·彼得罗夫斯基
 贾志杰
 黄家佐
 (en) Liu Bin (Southern Han)
@@ -26309,16 +26551,17 @@ P5+1
 弘一法师舍利塔 (泉州)
 刘明祖
 803基金
+噶盖
 (en) Pan Tianshou
 (en) Wu Chengsi
 (en) Zhang Dingcheng
 林澄秋
 (en) Ministry of Supervision
-襄陽府
 开慧镇
 赵群学
 (en) Zeng Sheng
 墨海书馆
+吕珍
 (en) Chen Yunlin
 维萨里昂·罗明纳兹
 邹瑜
@@ -26326,6 +26569,8 @@ P5+1
 刘弘操
 葛红林
 (en) Kwok Ka-ki
+(en) Huang Shu-kuang
+惠康基金会
 保衛天安門廣場總指揮部
 (en) Fang Guozhen
 张国旺
@@ -26342,6 +26587,7 @@ P5+1
 潘梓年
 (en) Ye Ju
 (en) Empress Xiaohui (Ming dynasty)
+臺灣總督府高等商業學校
 周新城
 (en) Yukawa Institute for Theoretical Physics
 (en) Yin Hong
@@ -26351,6 +26597,7 @@ P5+1
 (en) Liao Hui (politician)
 (en) Zheng Yi (writer)
 (en) Institute for Information Industry
+(en) Wang Gang (politician)
 (en) Macau Liaison Office
 (en) Pasuya Yao
 陶玲
@@ -26365,8 +26612,10 @@ P5+1
 中央军委政治工作部兵员和文职人员局
 (en) Yang Zaixing
 (en) Jiaocheng County
+齐云
 国际主义共产主义倾向
 (en) Zhijin County
+(en) Chen Xiaolu
 陈白尘
 (en) 6th Central Committee of the Chinese Communist Party
 (en) Shulan
@@ -26398,6 +26647,7 @@ P5+1
 易信
 陈敏章
 戴戎光
+(en) Yu Chao'en
 中国共产党第十八届中央委员会第五次全体会议
 史蒂芬·安布羅斯
 任珠峰
@@ -26423,6 +26673,7 @@ P5+1
 考拉海购
 (en) Zhou Yang (politician)
 中华人民共和国公安部边防管理局
+刘勃 (济北王)
 (en) 1975 Constitution of China
 (en) He Zuoxiu
 1981年四川特大洪水
@@ -26455,6 +26706,7 @@ P5+1
 王诚汉
 (en) Sangzhi County
 (en) China Youth University of Political Studies
+陳基裘
 黄平 (1901年)
 (en) Li Wei-ling
 黄鼎臣
@@ -26471,6 +26723,7 @@ P5+1
 (en) Ismail Tiliwaldi
 (en) Eastern Zhou (state)
 (en) 2015 Shenzhen landslide
+都市更新條例
 谢瑶环
 (en) Qianshan, Anhui
 (en) Zou Taofen
@@ -26497,6 +26750,7 @@ P5+1
 被背叛的革命
 (en) Tömür Dawamat
 国家宝藏 (第二季)
+劉季述
 懷德縣
 朱厚煒 (蔚王)
 奥斯汀·张伯伦
@@ -26506,6 +26760,7 @@ P5+1
 韓烈侯
 寄小读者
 德壽 (清朝)
+(en) Li Maozhen
 上海市南洋模范中学
 戴瑞明
 彩虹之國
@@ -26525,12 +26780,14 @@ P5+1
 白贞基
 (en) Xiao Jun
 海因茨·诺伊曼
+阿纳托利·谢尔久科夫
 (en) Yin Mingzhu
 (en) Su Zhenhua
 (en) Yuchi Jiong
 (en) Yuanyang County, Henan
 (en) Huadong Hospital
 (en) Taonan
+丹徒县
 (en) Xu Shiying
 (en) Yen Ching-piao
 (en) Wang Feng (politician)
@@ -26554,6 +26811,7 @@ P5+1
 (en) Zhenning Buyei and Miao Autonomous County
 (en) Geng Huichang
 (en) Tawfiq Bay
+(en) Li Tianyou
 马公 (孝慈高皇后父)
 陳博生
 (en) Kaizhou, Chongqing
@@ -26566,6 +26824,7 @@ P5+1
 (en) Shanghai No. 3 Girls' High School
 (en) Yen Teh-fa
 (en) Tang Yijun
+斗六門戰役
 (en) Fang Yi
 (en) Ichiro Nakagawa
 (en) Liang Xingchu
@@ -26626,7 +26885,6 @@ P5+1
 陈辉光
 (en) Shi Liang
 (en) Vice President of the Legislative Yuan
-張表 (蜀漢)
 (en) 2022 Guizhou bus crash
 深圳大学附属中学
 (en) Liu Menggeng
@@ -26652,10 +26910,10 @@ P5+1
 (en) Liu Qibao
 (en) Bačman
 卡斯帕·温伯格
-柯丁選
 (en) Shusun Tong
 (en) Kou Zhun
 (en) Southern Theater Command Ground Force
+鮑里斯·格羅莫夫
 (en) Jung Kong Lee
 (en) Tong Guowei
 (en) Yang Xiaodu
@@ -26669,14 +26927,15 @@ P5+1
 刘泽民
 中国驻加拿大大使馆
 (en) Tse Chin-wan
-休克療法
 咸平之治
+Morning (衛蘭專輯)
 (en) Erdan Island
 李从军
 (en) 10th Central Committee of the Chinese Communist Party
 (en) Li Jinghao
 (en) General Political Department of the People's Liberation Army
 (en) Zhou Jianren
+石乞
 维克托·祖布科夫
 (en) Liu Tienan
 (en) Zhang Shenfu
@@ -26695,6 +26954,7 @@ P5+1
 (en) August 1 Declaration
 (en) Songzi
 胡锡奎
+额尔德尼 (满族)
 白天 (广东政治人物)
 陈希滔
 东北行政委员会 (1946年—1949年)
@@ -26706,11 +26966,13 @@ P5+1
 (en) Xinhua Daily
 (en) Zhejiang Provincial People's Congress
 (en) Fujian Provincial People's Congress
+(en) Chinese Soviet Republic National Bank
 (en) Lianyuan
 (en) Gao Jixing
 張澤相
 (en) Zheng Yuxiu
 (en) Hsu Shih-hsien
+與元九書
 (en) Tao Chengzhang
 毛如柏
 (en) Richard Worth
@@ -26774,6 +27036,7 @@ P5+1
 (en) Lien Fang Yu
 (en) Workers' Daily
 周绪红
+大衛·佛利民
 (en) China Law Society
 东方海皇航运
 (en) Kuan Bi-ling
@@ -26794,6 +27057,7 @@ P5+1
 (en) Teng Daiyuan
 长治县
 中國美術家協會
+华商报 (香港)
 (en) Ding Guangen
 (en) Chongqing Municipal Committee of the Chinese Communist Party
 吳英昭
@@ -26816,6 +27080,7 @@ P5+1
 (en) Ma Junwu
 (en) Liu You
 (en) Luo Jialun
+伯姬
 (en) Xu Jing (Three Kingdoms)
 陳重信
 成竞业
@@ -26830,10 +27095,12 @@ P5+1
 (en) Wang Enmao
 (en) Wu Xiang (Ming general)
 华智数媒
+(en) Foreign Affairs Committee of the National People's Congress
 (en) Bobai County
 陈中
 (en) Chen Yuan (historian)
 (en) Japan–Manchukuo Protocol
+中国社会科学院经济研究所
 (en) Eighth five-year plan (China)
 林如堉
 南国社
@@ -26885,7 +27152,6 @@ P5+1
 章曙
 (en) Xinmin Evening News
 (en) Xinjiang Agricultural University
-洛陽LYC集團
 (en) Ruisui
 (en) 13th Central Committee of the Chinese Communist Party
 (en) Hu Sheng
@@ -26915,6 +27181,7 @@ P5+1
 (en) Wang Guangyang
 (en) Chung Tung-chin
 华侨博物院
+楊太后 (韓林兒母)
 王英凡
 弗朗西斯·哈奇森
 (en) Li Ying (prince)
@@ -26964,6 +27231,7 @@ P5+1
 (en) Shenzhen Municipal People's Congress
 莱茵报
 中国人民政治协商会议安徽省委员会
+(en) Hubei Provincial Committee of the Chinese People's Political Consultative Conference
 威廉·莱昂·麦肯齐
 (en) Wang Wenquan
 (en) Wu County
@@ -26982,11 +27250,13 @@ P5+1
 (en) Liang Lingguang
 (en) Institute of Archaeology, Chinese Academy of Social Sciences
 迈克尔·霍华德
+棉湖镇
 陳演生
 (en) Beijing People's Art Theatre
 (en) Lin Rong-San
 (en) 7th Politburo of the Chinese Communist Party
 (en) Zhonghang Yue
+沙湾区
 郭东明
 厉无畏
 严希纯
@@ -27027,6 +27297,7 @@ P5+1
 (en) Li Baohua
 郑晓静
 彭学沛
+福寿
 (en) Juye County
 李顺达
 (en) Liu Zhuoming
@@ -27042,11 +27313,13 @@ P5+1
 叶如棠
 东孟加拉无产阶级党
 (en) First Field Army
+恰丹
 (en) Academician of Chinese Academy of Engineering
 (en) Li Chuncheng
 (en) Chang Po-ling
 (en) Gujiao
 中国科学院上海生命科学研究院
+(en) Standing Committee of the Central Committee of the Kuomintang
 (en) Chen Shutong
 昌城郡
 (en) Wang Hsi-ling
@@ -27078,6 +27351,7 @@ P5+1
 (en) Hu Di
 丁文渊
 天津日报
+曾元福
 (en) Qiu Huizuo
 王定南
 (en) Central Integrated Military and Civilian Development Commission
@@ -27110,7 +27384,7 @@ P5+1
 中国布尔什维克列宁主义反对派
 (en) Yugan County
 体育之研究
-蘇格蘭事務大臣
+(en) Crimean Front
 新民主同志會
 (en) Chongqing Municipal People's Government
 (en) Kwok Wai-keung
@@ -27141,6 +27415,7 @@ P5+1
 (en) Ni Zhifu
 杨春元
 (en) Clara Chou
+鲍里斯·格雷兹洛夫
 張景鉞
 (en) September 2013 power struggle
 王怀远
@@ -27180,6 +27455,7 @@ P5+1
 (en) Linnan Campaign
 陳濟強
 (en) Nanhui, Shanghai
+孫德昭
 崔田夫
 (en) Sanlian Lifeweek
 (en) Cheung Yan-lung
@@ -27335,18 +27611,20 @@ P5+1
 新西兰殖民地
 共产国际第二次代表大会
 (en) Lee Hung-chun
-山西省政府 (中華民國)
 (en) Hao Meng
 袁良 (1883年)
 陈增光
 (en) Wang Shengjun
+葉昇
 (en) Jianzhuke Shu
 科隆德国体育学院
+(en) Greater administrative region
 臧世凯
 (en) Zhang Zuoxiang
 (en) Zhu Xiaodan
 (en) Yang Chuantang
 (en) Yang Xiufeng
+(en) Changfeng County
 (en) China Mobile Tietong
 (en) Fan Zhengwei
 (en) 13th National Committee of the Chinese People's Political Consultative Conference
@@ -27369,8 +27647,10 @@ P5+1
 俞国行
 (en) Leung Chun-ying–UGL agreement
 林忠四郎
+耶鲁医学院
 (en) Chonghou
 李锐 (1957年)
+史太
 (en) Bao Xun
 (en) Qu Wu
 杜宜瑾
@@ -27381,6 +27661,7 @@ P5+1
 杨泰芳
 (en) Zou Erjun
 福建省革命委员会
+(en) Xiao Yaqing
 郭良孝
 (en) Cheng Yun-peng
 (en) King Huanhui of Han
@@ -27404,6 +27685,7 @@ P5+1
 金能筹
 (en) Lingui District
 王梦龄
+(en) Têwo County
 (en) Jiang Dingwen
 (en) Si Xinliang
 豐臣秀賴
@@ -27427,6 +27709,7 @@ P5+1
 (en) Kao Kuei-yuan
 (en) Tomihisa Taue
 (en) Kyoichi Katayama
+(en) Edward Chen (politician)
 金陵石化
 (en) Liu Faqing
 (en) Xin County
@@ -27453,11 +27736,13 @@ P5+1
 郑兰荪
 (en) Yiyang County, Jiangxi
 国立北平研究院
+新加坡能源市場管理局
 (en) Tsang Hin-chi
 周玉清
 陈烟桥
 (en) Wang Wen-hsing
 (en) Shuangfeng County
+(en) Xian Hui
 (en) Henan Provincial Committee of the Chinese Communist Party
 (en) Hu Qiheng
 世界图书出版公司
@@ -27467,6 +27752,7 @@ P5+1
 (en) Yu Weiguo
 (en) Li Chong (Tang dynasty)
 山东政法学院
+(en) CCTV-6
 (en) Song County
 (en) Bai Xingjian
 (en) Cheng Zihua
@@ -27476,6 +27762,7 @@ P5+1
 战斗社
 (en) Chen Yannian
 (en) Guidelines for National Unification
+欒甯
 (en) Jiang Xinzhi
 秦仲达
 (en) Hunan Provincial Committee of the Chinese Communist Party
@@ -27525,6 +27812,7 @@ P5+1
 异哉所谓国体问题者
 (en) Reign of Ren and Xuan
 (en) Will the Boat Sink the Water
+臺灣省立法商學院
 (en) Collected Statutes of the Ming Dynasty
 李修仁
 中国共产党第十七届中央纪律检查委员会
@@ -27595,6 +27883,7 @@ P5+1
 (en) Legislation Law of the People's Republic of China
 玉龙答失
 赵朴 (外交官)
+(en) Liu Hongcao
 (en) National Security (Legislative Provisions) Bill
 姜建军
 赵雨亭
@@ -27722,6 +28011,7 @@ P5+1
 任海深
 (en) Gu Binglin
 (en) Lou Zhicen
+(en) Tong Tekong
 雷荣珂
 (en) Nanking Provisional Government cabinet
 (en) Cao Shuo (Cao Cao's son)
@@ -27745,10 +28035,13 @@ P5+1
 (en) Li Chunfang
 赵守钰
 (en) Donghai Commandery
+吴研因
 兴和道
 (en) Hubei Provincial Committee of the Chinese Communist Party
 忠 (疏勒王)
 (en) Wufeng Tujia Autonomous County
+安德烈·尤里耶维奇·沃罗比约夫
+(en) Wang Yongqing
 黄文杰 (1902年)
 王佐书
 刘春 (1918年)
@@ -27847,8 +28140,8 @@ P5+1
 (en) Xu Shaoshi
 (en) National Human Rights Commission (Taiwan)
 (en) Ningxia Hui Autonomous Regional Committee of the Chinese Communist Party
-廣安州
 孙效东
+(en) Yuyang District
 王学萍
 张学东
 (en) Feng Xuefeng
@@ -27865,7 +28158,6 @@ P5+1
 (en) Meiho University
 炎黄职业技术学院
 李元正
-廣東公立法政大學
 (en) Yangling Agricultural Hi-tech Industries Demonstration Zone
 王光宇 (1919年)
 (en) Zhuge Rong
@@ -27902,6 +28194,7 @@ P5+1
 (en) Du Jincai
 刘慈恺
 (en) Jiangsu Provincial People's Government
+温孚江
 (en) Taoyuan Experience
 (en) Xu Jialu
 张莹 (政治人物)
@@ -27949,6 +28242,7 @@ P5+1
 (en) Concubine Xun
 (en) Institutional reform of the State Council
 (en) Lizhuang, Yibin
+瑪麗亞·亞歷山德羅芙娜·烏里揚諾娃
 李雁红
 (en) Wang Lingji
 (en) Anqing Normal University
@@ -27977,6 +28271,7 @@ P5+1
 卢浩然
 赵敏学
 王玺玉
+商暠
 严义埙
 (en) Ningyuan County
 (en) Henan Provincial Committee of the Chinese People's Political Consultative Conference
@@ -27984,6 +28279,7 @@ P5+1
 熊兆仁
 孟富林
 李悦娥
+公孙敢
 (en) Ma Yifu
 金采风
 (en) Hong Chin
@@ -28025,6 +28321,7 @@ P5+1
 (en) Wang Xi (politician)
 (en) St. Stephen's Church College
 (en) Shi Liangcai
+(en) Xiangcheng County, Henan
 王儒贵
 马启新
 (en) Working Committee of Central and State Organs
@@ -28039,6 +28336,7 @@ P5+1
 (en) Chen Jiau-hua
 (en) Yao Guang
 南振中
+亚历山大·切尔维亚科夫
 (en) State-owned Enterprises Commission
 程贻举
 文汇新民联合报业集团
@@ -28058,6 +28356,7 @@ P5+1
 赵江涛 (1962年)
 (en) Fuping County, Hebei
 张伯玉
+(en) Repatriation of Bunun remains at National Taiwan University
 刘明波
 劉致中
 (en) Peking University Libraries
@@ -28088,6 +28387,7 @@ P5+1
 罗炳钦
 杨景宇
 徐力群
+(en) Hao Jianxiu
 (en) Chang Ping
 (en) Zhufu Yan
 (en) Yelü Xiuge
@@ -28115,6 +28415,7 @@ P5+1
 (en) Zhang Ji (revolutionary)
 蔡秉久
 (en) You Xigui
+九州职业技术学院
 (en) Lee Ching-hua
 中华诗词学会
 张小平 (1963年)
@@ -28158,6 +28459,7 @@ P5+1
 奉恒高
 古里乡
 中共中央党校继续教育学院
+(en) Supervisory and Judicial Affairs Committee
 师星三
 彭建文
 邱汉生
@@ -28174,6 +28476,7 @@ P5+1
 (en) Du Runsheng
 (en) Jiang Yizhen
 杨福鹿
+茅店镇
 (en) Liu Peishan
 (en) Yunnan Provincial People's Government
 陈庭元
@@ -28194,7 +28497,9 @@ P5+1
 (en) Tang Aoqing
 彭宏松
 (en) Hu Linyi
+(en) History of Peiyang University
 (en) National Copyright Administration
+(en) Xia Douyin
 (en) Zhang Xiaoqian
 高沟镇 (涟水县)
 黄春棋
@@ -28217,6 +28522,7 @@ P5+1
 (en) Yuan Guiren
 王良漙
 王耀华 (1942年)
+(en) Jaclyn Tsai
 (en) Wang Bingqian
 (en) Xu Lin (politician, born 1963)
 (en) Yangqu County
@@ -28259,6 +28565,7 @@ P5+1
 (en) Chen Qiaonian
 (en) Zhu Rui
 (en) Zhang Yi (politician)
+李家瑞 (1895年)
 (en) Suixi County, Anhui
 (en) All-China Students' Federation
 (en) Yuan Chunqing
@@ -28292,6 +28599,7 @@ P5+1
 (en) Guo Huaruo
 (en) Li Du
 (en) Central Theater Command Ground Force
+司拉山
 (en) Shen Lun
 (en) Chen Hsing-ling
 大膽島
@@ -28314,9 +28622,14 @@ P5+1
 凌大琦
 马秀芬
 (en) Ministry of Post and Telecommunications (China)
+(en) Li Zhimin
 朱卫华
+(en) Seiji Shinkai
 (en) Zhao Erlu
+田村镇
+第一代布魯厄姆和沃克斯男爵亨利·布魯厄姆
 严高
+沙湾镇
 (en) National At-Large Constituency
 黃文煒
 王蕾 (1965年)
@@ -28328,7 +28641,6 @@ P5+1
 (en) Zhang Xiruo
 赵宏
 梁飞彪
-鄭文傑
 (en) Zhu Qingshi
 林植夫
 (en) Linyi County, Shanxi
@@ -28357,6 +28669,7 @@ P5+1
 (en) Wang Enge
 (en) Tao Zhu (Qing dynasty)
 (en) Chen Zhangliang
+湯瑪斯·坎貝爾
 (en) Yolo (prince)
 伦纳德·伍德
 陈元良
@@ -28370,7 +28683,9 @@ P5+1
 泰勒先例
 尤里·马连琴科
 (en) Development and opening up of Pudong
+(en) Zhu Shengling
 李定 (1923年)
+长洛乡
 陈志强 (1949年)
 (en) Huang Fan
 (en) Shu-tien Li
@@ -28420,6 +28735,7 @@ P5+1
 (en) Social Development Affairs Committee
 (en) Central Leading Group for Publicity, Ideological and Cultural Work
 (en) Resolution on Certain Questions in the History of Our Party
+马尔特·拉尔
 (en) Marquess Lie of Han
 国际植物新品种保护联盟
 (en) Lin Mei-chu
@@ -28430,6 +28746,7 @@ P5+1
 袁进琳
 (en) Shao Shiping
 (en) Zhang Jie (physicist)
+维贾雅巴胡六世
 (en) Shen Yinmo
 刘振伟
 (en) Hunan Provincial People's Government
@@ -28464,6 +28781,8 @@ P5+1
 (en) Yu Lizhong
 (en) Jilin Provincial Committee of the Chinese Communist Party
 李慧娟 (法官)
+(en) Zhang Baoshun
+邵連科
 (en) He Bingyan
 (en) Zhang Zhiwan
 郑瑛 (1917年)
@@ -28488,12 +28807,14 @@ P5+1
 (en) Deng Baoshan
 江平 (1920年)
 陳其邁
+(en) Yan Wuyou
 (en) 47th Group Army
 中国人民解放军空军第九航空学校
 (en) Duan Dechang
 (en) 86th Motorized Infantry Division (People's Republic of China)
 北京大學信息管理系
 (en) Guichi, Chizhou
+恭憲皇太后
 涟州
 (en) Sixth plenary session of the 18th Central Committee of the Chinese Communist Party
 (en) Zhejiang Daily Press Group
@@ -28555,11 +28876,13 @@ P5+1
 (en) Zhao Jianmin
 (en) Liaoning Provincial Committee of the Chinese Communist Party
 (en) Zhang Zhenhuan (general)
+龚嘴镇
 (en) Chen Xujing
 印度共产主义起义党
 (en) Jiangsu Military District
 (en) Song Hanliang
 (en) Mao Zuquan
+《群众》周刊
 (en) Chairperson's Council of the National Committee of the Chinese People's Political Consultative Conference
 (en) Shi Shouxin
 (en) Mu Qing (journalist)
@@ -28577,10 +28900,13 @@ P5+1
 (en) Sixth Ministry of Machine Building
 (en) Zhang Xi (chemist)
 中国足球学校
+(en) Chen Minzhang
+米哈伊尔·茨哈卡亚
 (en) Wang Chongrong
 (en) Zhou Chunquan
 涟城街道
 (en) Doje Cering
+(en) 8 Nëntori Publishing House
 (en) Qinghai Provincial Committee of the Chinese Communist Party
 (en) Mavis Ma
 (en) Leading Party Members Group of the Chinese People's Political Consultative Conference
@@ -28590,6 +28916,7 @@ P5+1
 (en) Shenzhou Daily
 (en) China Executive Leadership Academy Yan'an
 (en) Lin Chen-yi
+崔輝
 (en) Zhang Xinqi
 (en) Leading Party Members Group of the Standing Committee of the National People's Congress
 周本立 (安徽)
@@ -28688,7 +29015,6 @@ P5+1
 (en) Ma Hsin-yeh
 (en) You Zheng
 陈家振 (1924年)
-萊寧·莫雷諾
 (en) Zhang Guangjun (politician, born 1965)
 (en) Yang Dongming
 (en) Shao Hong
@@ -28735,10 +29061,12 @@ P5+1
 (en) Departmental Affairs Management Bureaus
 (en) Li Chengyu
 (en) Tuan Yi-kang
+莫斯科州州长
 (en) Liu Zhen (politician)
 (en) Shao Xinyu
 (en) Wu Qidi
 (en) Liu Zhijian
+(en) Shi Guangsheng
 (en) Li Changjiang
 (en) Jiang Zhuping
 (en) Guangxi Military District
@@ -28788,6 +29116,7 @@ P5+1
 (en) Chinese Society of Astronautics
 (en) Zhang Siqing
 (en) Gao Yang (politician)
+(en) Shen Deyong
 (en) Chen Junsheng
 (en) Lü Zushan
 李鳳英
@@ -28835,7 +29164,6 @@ P5+1
 (en) Pei Gang
 (en) Shang Fulin
 (en) Hubei Provincial People's Government
-喬·斯洛沃
 (en) Lei Chunmei
 (en) Ding Laifu
 (en) Yang Xiaochao
@@ -28874,6 +29202,8 @@ P5+1
 荣成市
 (en) Heilongjiang Provincial People's Government
 (en) Wang Xinting
+(en) Ding Xiongjun
+第一次全联盟苏维埃代表大会
 (en) Shen Dingyi
 (en) Zhao Taimou
 (en) Jin Daoming
@@ -28893,6 +29223,7 @@ P5+1
 (en) Wu Xinxiong
 (en) Jiang Zhenghua
 约翰·海因斯
+(en) Institute of Economics, Chinese Academy of Social Sciences
 (en) Documentation Research Office
 杭州越剧院
 (en) Chen Chan-siang
@@ -28929,7 +29260,9 @@ P5+1
 科希阿拉图尔
 (en) Zhu Gaoxu rebellion
 外高加索方面军
+范店乡
 (en) Liu Guangcai
+(en) Hua Shang Daily
 (en) You Haitao
 徐英超
 (en) Chinese National Liberation Vanguard
@@ -28943,6 +29276,7 @@ P5+1
 (en) Oil clique
 (en) Xiandai Wenxue
 (en) Wang Huimin (politician, born 1959)
+(en) Li Chendian
 (en) Li Ligong
 韦家能
 陈芸 (1947年)
@@ -28987,6 +29321,7 @@ P5+1
 (en) Tattler (Chinese periodical)
 (en) Yang Chengzong
 (en) Yu Guangzhou
+(en) Yang Fugong
 (en) Xu Bing (politician)
 (en) Liu Juying
 (en) Mao Kao-wen
@@ -29013,6 +29348,7 @@ P5+1
 (en) Huang Xinchu
 (en) Peter Wong Man-kong
 (en) Chen Zhengren
+(en) Shen Chunyao
 (en) Ji Baocheng
 (en) Jia Zhijie
 (en) All-China Resistance Association of Writers and Artists
@@ -29045,6 +29381,7 @@ P5+1
 (en) Yin Kesheng
 (en) Li Changcai
 (en) Shi Zongyuan
+(en) Zhejiang Military District
 (en) Yuan Liang
 (en) Kong Fei
 (en) Chen Weida
@@ -29074,6 +29411,7 @@ P5+1
 (en) Zhao Huayong
 邱创教
 重庆市巴蜀小学校
+(en) Lü Dong
 中国财政学会
 (en) Zhu Liangcai
 (en) Bao Xuding
@@ -29131,6 +29469,7 @@ P5+1
 (en) Chen Zhifang
 (en) Feng Jixin
 (en) Wu Lie
+(en) Yang Zhensheng
 克里米亚方面军
 (en) Guo Yingqiu
 (en) Zhang Baifa
@@ -29144,16 +29483,17 @@ P5+1
 (en) Zhang Guoying
 (en) Liu Lit-for
 (en) Wang Shuxin
-台灣人權促進會
 (en) Hao Jiming
 (en) Pu Chaozhu
 杰夫·范甘迪
 阎根生
 (en) China Committee on Religion and Peace
+(en) Huang Yu-cheng
 云南科技出版社
 (en) Zhan Dabei
 左权县
 新疆生产建设兵团第十二师二二一团
+铜河街道
 (en) Fan Yuanlian
 (en) Xu Guang (politician, born 1960)
 (en) Quan Shuren
@@ -29168,6 +29508,7 @@ P5+1
 (en) Liu Yongzhong
 内蒙古军政大学
 (en) Ding Lieyun
+(en) Zhang Shu
 (en) Wu Jichuan
 (en) Huang Xinting
 (en) Yuan Rongxiang
@@ -29203,6 +29544,7 @@ P5+1
 (en) Zhou Xing (politician)
 (en) Xing Chongzhi
 (en) Yonghe, Liuyang
+(en) Bai Zhijian
 (en) Xu Liqun
 (en) Lai Jifa
 2012年中華民國總統選舉
@@ -29281,8 +29623,10 @@ P5+1
 (en) Li Bing (writer)
 (en) Huang Huiqun
 辛国良
+(en) Liu Shutian
 (en) Mo Wenxiang
 罗喜闻
+國立臺灣大學法學院
 靳承序
 (en) Liu Xiao (politician)
 十一月八日 (出版社)
@@ -29307,7 +29651,9 @@ P5+1
 (en) Chen Chuankuo
 (en) Gan Rongkun
 (en) Huang Wenhu
+(en) Zhang Hongyuan
 (en) Luo Dongjin
+(en) Gongsun Jie
 (en) Yang Shengshi
 (en) Jiang Xinxiong
 (en) Wei Keliang
@@ -29323,6 +29669,7 @@ P5+1
 羅本立
 张仕儒
 (en) Pan Liangshi
+(en) Heilongjiang Federation of Trade Unions
 (en) Liu Yongjian
 (en) Chen Ruiding
 (en) Dai Linfeng
@@ -29337,4 +29684,3 @@ P5+1
 (en) National Computer Network Emergency Response Technical Team/Coordination Center of China
 App Store (iOS/iPadOS)
 土耳其共产党/马列
-新法蘭西

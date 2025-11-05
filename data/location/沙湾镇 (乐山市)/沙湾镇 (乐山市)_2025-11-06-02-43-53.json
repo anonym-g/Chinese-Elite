@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "沙湾镇",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "沙湾镇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国四川省乐山市沙湾区下辖的一个镇。",
+          "en": "A town under the jurisdiction of Shawan District, Leshan City, Sichuan Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "沙湾区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "沙湾区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国四川省乐山市下辖的市辖区。",
+          "en": "A municipal district under the jurisdiction of Leshan City, Sichuan Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "范店乡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "范店乡"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "曾是中华人民共和国四川省乐山市沙湾区下辖的一个乡，于2019年12月被撤销。",
+          "en": "A former township under the jurisdiction of Shawan District, Leshan City, Sichuan Province, People's Republic of China, which was abolished in December 2019."
+        }
+      }
+    },
+    {
+      "id": "龚嘴镇",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "龚嘴镇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "曾是中华人民共和国四川省乐山市沙湾区下辖的一个镇，于2019年12月被撤销。",
+          "en": "A former town under the jurisdiction of Shawan District, Leshan City, Sichuan Province, People's Republic of China, which was abolished in December 2019."
+        }
+      }
+    },
+    {
+      "id": "铜河街道",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "铜河街道"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国四川省乐山市沙湾区下辖的一个街道。",
+          "en": "A sub-district under the jurisdiction of Shawan District, Leshan City, Sichuan Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "四川省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四川省人民政府"
+        ],
+        "en": [
+          "Sichuan Provincial People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国四川省的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of Sichuan Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "四川省人民政府关于同意乐山市调整市中区等8个县（市、区）部分乡镇行政区划的批复（川府民政〔2019〕20号）",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "四川省人民政府关于同意乐山市调整市中区等8个县（市、区）部分乡镇行政区划的批复（川府民政〔2019〕20号）"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一份由四川省人民政府发布的，关于调整乐山市部分乡镇行政区划的官方文件。",
+          "en": "An official document issued by the Sichuan Provincial People's Government regarding the adjustment of administrative divisions of some townships in Leshan City."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "沙湾镇",
+      "target": "沙湾区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "沙湾镇是沙湾区下辖的一个乡镇级行政单位。",
+          "en": "Shawan Town is a township-level administrative unit under the jurisdiction of Shawan District."
+        }
+      }
+    },
+    {
+      "source": "四川省人民政府",
+      "target": "四川省人民政府关于同意乐山市调整市中区等8个县（市、区）部分乡镇行政区划的批复（川府民政〔2019〕20号）",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-12",
+        "description": {
+          "zh-cn": "四川省人民政府发布了关于同意乐山市调整部分乡镇行政区划的批复。",
+          "en": "The Sichuan Provincial People's Government issued the approval for adjusting the administrative divisions of some townships in Leshan City."
+        }
+      }
+    },
+    {
+      "source": "四川省人民政府关于同意乐山市调整市中区等8个县（市、区）部分乡镇行政区划的批复（川府民政〔2019〕20号）",
+      "target": "范店乡",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2019-12",
+        "description": {
+          "zh-cn": "根据该批复，范店乡被撤销，其原所属行政区域划归沙湾镇管辖。",
+          "en": "According to this approval, Fandian Township was abolished, and its original administrative area was placed under the jurisdiction of Shawan Town."
+        }
+      }
+    },
+    {
+      "source": "四川省人民政府关于同意乐山市调整市中区等8个县（市、区）部分乡镇行政区划的批复（川府民政〔2019〕20号）",
+      "target": "龚嘴镇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2019-12",
+        "description": {
+          "zh-cn": "根据该批复，龚嘴镇被撤销，其原所属部分行政区域划归沙湾镇管辖。",
+          "en": "According to this approval, Gongzui Town was abolished, and part of its original administrative area was placed under the jurisdiction of Shawan Town."
+        }
+      }
+    },
+    {
+      "source": "四川省人民政府关于同意乐山市调整市中区等8个县（市、区）部分乡镇行政区划的批复（川府民政〔2019〕20号）",
+      "target": "沙湾镇",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2019-12",
+        "description": {
+          "zh-cn": "根据该批复，沙湾镇的行政管辖范围发生变更，并入了原范店乡和原龚嘴镇的部分区域，同时划出部分区域至铜河街道。",
+          "en": "According to this approval, the administrative jurisdiction of Shawan Town was changed, incorporating areas from the former Fandian Township and Gongzui Town, while transferring some areas to Tonghe Sub-district."
+        }
+      }
+    },
+    {
+      "source": "四川省人民政府关于同意乐山市调整市中区等8个县（市、区）部分乡镇行政区划的批复（川府民政〔2019〕20号）",
+      "target": "铜河街道",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2019-12",
+        "description": {
+          "zh-cn": "根据该批复，铜河街道的管辖范围确立，包含了原沙湾镇的部分社区和村。",
+          "en": "According to this approval, the jurisdiction of Tonghe Sub-district was established, including some communities and villages from the former Shawan Town."
+        }
+      }
+    }
+  ]
+}

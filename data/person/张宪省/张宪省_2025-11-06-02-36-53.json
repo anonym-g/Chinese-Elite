@@ -1,0 +1,320 @@
+{
+  "nodes": [
+    {
+      "id": "张宪省",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张宪省"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1962-01 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "郓城",
+          "en": "Yuncheng"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物、植物学家。",
+          "en": "A political figure and botanist of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "郓城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "郓城"
+        ],
+        "en": [
+          "Yuncheng County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国民主同盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主同盟"
+        ],
+        "en": [
+          "China Democratic League"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国现有的八个民主党派之一，1941年3月19日在重庆成立。",
+          "en": "One of the eight legally recognized political parties in the People's Republic of China, founded in Chongqing on March 19, 1941."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03"
+      }
+    },
+    {
+      "id": "山东农业大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东农业大学"
+        ],
+        "en": [
+          "Shandong Agricultural University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "温孚江",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温孚江"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "冷畅俭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冷畅俭"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国农业大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国农业大学"
+        ],
+        "en": [
+          "China Agricultural University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华全国青年联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国青年联合会",
+          "全国青联"
+        ],
+        "en": [
+          "All-China Youth Federation"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国遗传学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国遗传学会"
+        ],
+        "en": [
+          "Genetics Society of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院",
+          "国务院"
+        ],
+        "en": [
+          "State Council of the People's Republic of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张宪省",
+      "target": "郓城",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "张宪省",
+      "target": "中国民主同盟",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "盟员",
+          "en": "Member"
+        }
+      }
+    },
+    {
+      "source": "张宪省",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        }
+      }
+    },
+    {
+      "source": "张宪省",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "山东地区代表",
+          "en": "Delegate from Shandong"
+        }
+      }
+    },
+    {
+      "source": "张宪省",
+      "target": "山东农业大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-11",
+        "end_date": "2022-08",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "张宪省",
+      "target": "山东农业大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副校长、党委副书记",
+          "en": "Vice President, Deputy Secretary of the Party Committee"
+        }
+      }
+    },
+    {
+      "source": "张宪省",
+      "target": "温孚江",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "张宪省接替温孚江担任山东农业大学校长。",
+          "en": "Zhang Xiansheng succeeded Wen Fujiang as President of Shandong Agricultural University."
+        }
+      }
+    },
+    {
+      "source": "冷畅俭",
+      "target": "张宪省",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "冷畅俭接替张宪省担任山东农业大学校长。",
+          "en": "Leng Changjian succeeded Zhang Xiansheng as President of Shandong Agricultural University."
+        }
+      }
+    },
+    {
+      "source": "张宪省",
+      "target": "山东农业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "张宪省",
+      "target": "中国农业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "张宪省",
+      "target": "中华全国青年联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Committee Member"
+        }
+      }
+    },
+    {
+      "source": "张宪省",
+      "target": "中国遗传学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "理事",
+          "en": "Council Member"
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国国务院",
+      "target": "张宪省",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "张宪省是享受国务院政府特殊津贴专家。",
+          "en": "Zhang Xiansheng is an expert who enjoys the special government allowances of the State Council."
+        }
+      }
+    }
+  ]
+}

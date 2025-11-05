@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    {
+      "id": "刘贤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘贤",
+          "德明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -0165",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "长安",
+          "en": "Chang'an"
+        },
+        "description": {
+          "zh-cn": "西汉时期吴王刘濞的太子，在与皇太子刘启（后来的汉景帝）下棋时，因争执被后者用棋盘砸死。",
+          "en": "The crown prince of Liu Pi, King of Wu, during the Western Han dynasty. He was killed with a chessboard by Crown Prince Liu Qi (later Emperor Jing of Han) during a dispute while playing a game."
+        }
+      }
+    },
+    {
+      "id": "刘濞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘濞"
+        ],
+        "en": [
+          "Liu Pi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉时期的吴王，刘贤的父亲。因其子被杀及朝廷推行削藩政策，发动了七国之乱。",
+          "en": "King of Wu during the Western Han dynasty and father of Liu Xian. He initiated the Rebellion of the Seven States due to the killing of his son and the imperial court's policy of reducing the power of vassal states."
+        }
+      }
+    },
+    {
+      "id": "汉景帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉景帝",
+          "刘启"
+        ],
+        "en": [
+          "Emperor Jing of Han",
+          "Liu Qi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第六位皇帝。在作为皇太子时，因争执误杀了吴国太子刘贤，成为七国之乱的导火索之一。",
+          "en": "The sixth emperor of the Western Han dynasty. As crown prince, he accidentally killed Liu Xian, the crown prince of Wu, during a dispute, which became one of the triggers for the Rebellion of the Seven States."
+        }
+      }
+    },
+    {
+      "id": "汉文帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉文帝",
+          "刘恒"
+        ],
+        "en": [
+          "Emperor Wen of Han",
+          "Liu Heng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第五位皇帝，汉景帝刘启的父亲。刘贤被杀事件发生在其在位期间。",
+          "en": "The fifth emperor of the Western Han dynasty and the father of Emperor Jing (Liu Qi). The incident of Liu Xian's death occurred during his reign."
+        }
+      }
+    },
+    {
+      "id": "吴国 (西汉)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吴国 (西汉)",
+          "吴国"
+        ],
+        "en": [
+          "State of Wu (Western Han)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉时期由刘濞统治的一个诸侯国。",
+          "en": "A vassal state ruled by Liu Pi during the Western Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "西汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西汉"
+        ],
+        "en": [
+          "Western Han dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国历史上的一个朝代，是刘贤事件发生的时代背景。",
+          "en": "A dynasty in Chinese history, providing the historical context for the Liu Xian incident."
+        }
+      }
+    },
+    {
+      "id": "长安",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "长安"
+        ],
+        "en": [
+          "Chang'an"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉时期的首都，刘贤在此被杀并埋葬。",
+          "en": "The capital of the Western Han dynasty, where Liu Xian was killed and buried."
+        }
+      }
+    },
+    {
+      "id": "七国之乱",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "七国之乱"
+        ],
+        "en": [
+          "Rebellion of the Seven States"
+        ]
+      },
+      "properties": {
+        "period": "-0154 - -0154",
+        "description": {
+          "zh-cn": "汉景帝时期，以吴王刘濞为首的七个刘姓宗室诸侯国发动的叛乱，刘贤之死是其导火索之一。",
+          "en": "A rebellion launched during the reign of Emperor Jing of Han by seven vassal states of the Liu clan, led by Liu Pi, King of Wu. The death of Liu Xian was one of its triggers."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘贤",
+      "target": "刘濞",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘贤是吴王刘濞的儿子和太子。",
+          "en": "Liu Xian was the son and crown prince of Liu Pi, the King of Wu."
+        }
+      }
+    },
+    {
+      "source": "汉景帝",
+      "target": "汉文帝",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘启（汉景帝）是汉文帝的儿子和皇太子。",
+          "en": "Liu Qi (Emperor Jing) was the son and crown prince of Emperor Wen."
+        }
+      }
+    },
+    {
+      "source": "刘贤",
+      "target": "吴国 (西汉)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "-0165",
+        "position": {
+          "zh-cn": "太子",
+          "en": "Crown Prince"
+        },
+        "description": {
+          "zh-cn": "刘贤是吴国的太子，直到前165年被杀。",
+          "en": "Liu Xian was the crown prince of the State of Wu until his death in 165 BC."
+        }
+      }
+    },
+    {
+      "source": "刘濞",
+      "target": "吴国 (西汉)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "吴王",
+          "en": "King of Wu"
+        },
+        "description": {
+          "zh-cn": "刘濞是西汉时期的吴国藩王。",
+          "en": "Liu Pi was the vassal king of the State of Wu during the Western Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "汉景帝",
+      "target": "西汉",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "-0157",
+        "position": {
+          "zh-cn": "皇太子",
+          "en": "Crown Prince"
+        },
+        "description": {
+          "zh-cn": "在汉文帝时期，刘启担任皇太子，后继位为汉景帝。",
+          "en": "During the reign of Emperor Wen, Liu Qi served as the Crown Prince before succeeding to the throne as Emperor Jing."
+        }
+      }
+    },
+    {
+      "source": "刘濞",
+      "target": "汉景帝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0165",
+        "description": {
+          "zh-cn": "因其子刘贤被当时的皇太子刘启（后来的汉景帝）杀死，刘濞心生怨恨，开始不遵守诸侯对天子的礼节，并最终发动叛乱。",
+          "en": "After his son Liu Xian was killed by the then Crown Prince Liu Qi (later Emperor Jing), Liu Pi harbored deep resentment, ceased to observe the proper etiquette of a vassal lord, and eventually launched a rebellion."
+        }
+      }
+    },
+    {
+      "source": "汉景帝",
+      "target": "刘贤",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0165",
+        "description": {
+          "zh-cn": "在与刘贤下六博棋时，因争执用棋盘砸死了刘贤。",
+          "en": "Killed Liu Xian with a chessboard during a dispute while playing Liubo."
+        }
+      }
+    },
+    {
+      "source": "刘濞",
+      "target": "七国之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0154",
+        "description": {
+          "zh-cn": "作为主要领导者发动了七国之乱。",
+          "en": "Launched the Rebellion of the Seven States as its main leader."
+        }
+      }
+    }
+  ]
+}

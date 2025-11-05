@@ -1,0 +1,261 @@
+{
+  "nodes": [
+    {
+      "id": "王昭悠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王昭悠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1947-12 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "江西吉安",
+          "en": "Ji'an, Jiangxi"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员。曾任赣州市人民政府市长、赣州市人大常委会主任及党组书记，并担任第九届与第十届全国人大代表。",
+          "en": "A political figure in the People's Republic of China and a member of the Communist Party of China. He served as the Mayor of the Ganzhou Municipal People's Government, Director and Party Group Secretary of the Standing Committee of the Ganzhou Municipal People's Congress, and was a deputy to the 9th and 10th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "吉安市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "吉安市",
+          "吉安"
+        ],
+        "en": [
+          "Ji'an"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国江西省下辖的地级市，是王昭悠的出生地。",
+          "en": "A prefecture-level city in Jiangxi Province, People's Republic of China, and the birthplace of Wang Zhaoyou."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通称中国。王昭悠是该国的政治人物。",
+          "en": "A socialist state in East Asia, commonly known as China. Wang Zhaoyou is a political figure in this country."
+        }
+      }
+    },
+    {
+      "id": "赣州市人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赣州市人民代表大会常务委员会",
+          "赣州市人大常委会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "江西省赣州市的人民代表大会的常设机关。",
+          "en": "The standing committee of the People's Congress of Ganzhou City, Jiangxi Province."
+        }
+      }
+    },
+    {
+      "id": "第九届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第九届全国人民代表大会"
+        ],
+        "en": [
+          "9th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "1998-03 - 2003-03",
+        "description": {
+          "zh-cn": "中华人民共和国的第九届最高国家权力机关。",
+          "en": "The 9th term of the highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "第十届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十届全国人民代表大会"
+        ],
+        "en": [
+          "10th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2003-03 - 2008-03",
+        "description": {
+          "zh-cn": "中华人民共和国的第十届最高国家权力机关。",
+          "en": "The 10th term of the highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1921-07-23 - ",
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "赣州市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赣州市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "江西省赣州市的地方国家行政机关。",
+          "en": "The local state administrative organ of Ganzhou City, Jiangxi Province."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王昭悠",
+      "target": "吉安市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1947-12",
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "王昭悠是江西吉安人。",
+          "en": "Wang Zhaoyou is from Ji'an, Jiangxi."
+        }
+      }
+    },
+    {
+      "source": "王昭悠",
+      "target": "赣州市人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "主任、党组书记",
+          "en": "Director, Party Group Secretary"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "王昭悠曾任赣州市人大常委会主任、党组书记。",
+          "en": "Wang Zhaoyou served as the Director and Party Group Secretary of the Standing Committee of the Ganzhou Municipal People's Congress."
+        }
+      }
+    },
+    {
+      "source": "王昭悠",
+      "target": "第九届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1998-03",
+        "end_date": "2003-03",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "王昭悠是第九届全国人大代表。",
+          "en": "Wang Zhaoyou was a deputy to the 9th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "王昭悠",
+      "target": "第十届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2003-03",
+        "end_date": "2008-03",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "王昭悠是第十届全国人大代表。",
+          "en": "Wang Zhaoyou was a deputy to the 10th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "王昭悠",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "根据维基百科分类，王昭悠是中国共产党党员。",
+          "en": "According to Wikipedia categories, Wang Zhaoyou is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "王昭悠",
+      "target": "赣州市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "degree": null,
+        "description": {
+          "zh-cn": "根据维基百科分类，王昭悠曾任赣州市人民政府市长。",
+          "en": "According to Wikipedia categories, Wang Zhaoyou served as the Mayor of the Ganzhou Municipal People's Government."
+        }
+      }
+    }
+  ]
+}

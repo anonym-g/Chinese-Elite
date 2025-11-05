@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "顾明亮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "顾明亮"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1963-10 - 2020-05-13",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "无锡",
+          "en": ""
+        },
+        "death_place": {
+          "zh-cn": "苏州市",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国通信与信息处理专家，曾任江苏师范大学教授和九州职业技术学院院长。",
+          "en": "A Chinese expert in communication and information processing, who served as a professor at Jiangsu Normal University and president of Jiuzhou Vocational and Technical College."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "江苏师范大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "江苏师范大学",
+          "徐州师范大学"
+        ],
+        "en": [
+          "Jiangsu Normal University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "东南大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东南大学"
+        ],
+        "en": [
+          "Southeast University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "九州职业技术学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "九州职业技术学院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "教授",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "教授"
+        ],
+        "en": [
+          "Professor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "高等教育体系中的一种职称。",
+          "en": "An academic rank in the higher education system."
+        }
+      }
+    },
+    {
+      "id": "解京选",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "解京选"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "顾明亮的前任九州职业技术学院院长。",
+          "en": "Predecessor of Gu Mingliang as the president of Jiuzhou Vocational and Technical College."
+        }
+      }
+    },
+    {
+      "id": "无锡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "无锡"
+        ],
+        "en": [
+          "Wuxi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "苏州市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "苏州市"
+        ],
+        "en": [
+          "Suzhou"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "顾明亮",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据Wikitext中的“政党”信息框和分类，顾明亮是中国共产党的党员。",
+          "en": "According to the 'political party' infobox and categories in the Wikitext, Gu Mingliang was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "顾明亮",
+      "target": "无锡",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "顾明亮的籍贯是江苏无锡。",
+          "en": "Gu Mingliang's ancestral home is Wuxi, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "顾明亮",
+      "target": "江苏师范大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1985-06",
+        "degree": {
+          "zh-cn": "理学学士",
+          "en": "Bachelor of Science"
+        },
+        "description": {
+          "zh-cn": "1985年6月毕业于徐州师范大学（江苏师范大学前身）物理系，获理学学士学位。",
+          "en": "In June 1985, he graduated from the Department of Physics of Xuzhou Normal University (the predecessor of Jiangsu Normal University) with a Bachelor of Science degree."
+        }
+      }
+    },
+    {
+      "source": "顾明亮",
+      "target": "东南大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1998-06",
+        "degree": {
+          "zh-cn": "工学博士",
+          "en": "Doctor of Engineering"
+        },
+        "description": {
+          "zh-cn": "1998年6月毕业于东南大学通信与信息处理专业，获工学博士学位。",
+          "en": "In June 1998, he graduated from Southeast University with a major in Communication and Information Processing, receiving a Doctor of Engineering degree."
+        }
+      }
+    },
+    {
+      "source": "顾明亮",
+      "target": "江苏师范大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "物理系主任、物理与电子工程学院院长、研究生处处长、研究生院院长、学科办主任、研究生工作部部长、敬文书院院长",
+          "en": "Director of the Physics Department, Dean of the School of Physics and Electronic Engineering, Director of the Graduate Office, Dean of the Graduate School, Director of the Discipline Construction Office, Head of the Graduate Student Affairs Department, Dean of Jingwen College"
+        },
+        "description": {
+          "zh-cn": "历任徐州师范大学（江苏师范大学前身）物理系主任，以及江苏师范大学物理与电子工程学院院长等多个行政与学术职务。",
+          "en": "He successively served as the Director of the Physics Department at Xuzhou Normal University (predecessor of Jiangsu Normal University), and held multiple administrative and academic positions at Jiangsu Normal University, including Dean of the School of Physics and Electronic Engineering."
+        }
+      }
+    },
+    {
+      "source": "顾明亮",
+      "target": "九州职业技术学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02",
+        "end_date": "2020-05-13",
+        "position": {
+          "zh-cn": "副董事长、院长",
+          "en": "Vice Chairman, President"
+        }
+      }
+    },
+    {
+      "source": "顾明亮",
+      "target": "教授",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008-08",
+        "description": {
+          "zh-cn": "2008年8月升任教授。",
+          "en": "He was promoted to professor in August 2008."
+        }
+      }
+    },
+    {
+      "source": "顾明亮",
+      "target": "解京选",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2018-02",
+        "description": {
+          "zh-cn": "顾明亮接替解京选担任九州职业技术学院院长职务。",
+          "en": "Gu Mingliang succeeded Xie Jingxuan as the president of Jiuzhou Vocational and Technical College."
+        }
+      }
+    }
+  ]
+}
