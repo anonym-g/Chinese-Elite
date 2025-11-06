@@ -139,10 +139,10 @@ class APIRateLimiter:
 # RPD 统一乘 112.5%，以容纳网络波动/Token超限等特殊异常导致的请求次数虚高。
 # https://ai.google.dev/gemini-api/docs/rate-limits
 
-# Gemini-2.5-pro, RPM: 5, RPD: 100.
+# Gemini-2.5-pro, RPM: 2, RPD: 50.
 gemini_pro_limiter = APIRateLimiter(
-    max_requests=5, per_seconds=60, 
-    rpd_limit=113, 
+    max_requests=2, per_seconds=60, 
+    rpd_limit=57, 
     counter_name='gemini_pro'
 )
 
