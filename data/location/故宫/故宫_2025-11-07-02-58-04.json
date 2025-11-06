@@ -1,0 +1,743 @@
+{
+  "nodes": [
+    {
+      "id": "故宫",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "故宫",
+          "紫禁城"
+        ],
+        "en": [
+          "Forbidden City"
+        ]
+      },
+      "properties": {
+        "period": "1420 - ",
+        "location": {
+          "zh-cn": "中华人民共和国北京市东城区",
+          "en": "Dongcheng District, Beijing, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "位于北京中轴线中心的宫殿建筑群，是中国明清两代二十四位皇帝的皇宫。始建于1406年，1420年落成，是世界上现存规模最大、最完整的宫殿型建筑。现为故宫博物院所在地。",
+          "en": "A palace complex at the center of the Beijing central axis, serving as the imperial palace for 24 emperors of the Ming and Qing dynasties of China. Construction began in 1406 and was completed in 1420. It is the world's largest and most complete preserved palace complex. It currently houses the Palace Museum."
+        }
+      }
+    },
+    {
+      "id": "明成祖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明成祖",
+          "朱棣"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1360-05-02 - 1424-08-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第三位皇帝，年号永乐。他下令营建并迁都北京，建造了紫禁城。",
+          "en": "The third emperor of the Ming dynasty, reign name Yongle. He ordered the construction of the Forbidden City and moved the capital to Beijing."
+        }
+      }
+    },
+    {
+      "id": "陈珪 (明朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈珪 (明朝)",
+          "陈珪"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝将领，封泰宁侯，曾主持营建北京紫禁城。",
+          "en": "A general of the Ming dynasty, enfeoffed as Marquis of Taining, who oversaw the construction of the Forbidden City in Beijing."
+        }
+      }
+    },
+    {
+      "id": "吴中 (明朝尚书)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴中 (明朝尚书)",
+          "吴中"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝官员，官至工部侍郎，曾主持营建北京紫禁城。",
+          "en": "An official of the Ming dynasty who served as Vice Minister of Works and oversaw the construction of the Forbidden City in Beijing."
+        }
+      }
+    },
+    {
+      "id": "张思恭 (明朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张思恭 (明朝)",
+          "张思恭"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝官员，官至刑部侍郎，曾主持营建北京紫禁城。",
+          "en": "An official of the Ming dynasty who served as Vice Minister of Justice and oversaw the construction of the Forbidden City in Beijing."
+        }
+      }
+    },
+    {
+      "id": "潭柘寺无名和尚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "潭柘寺无名和尚"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "根据记载，是北京紫禁城的设计师。",
+          "en": "According to records, the designer of the Forbidden City in Beijing."
+        }
+      }
+    },
+    {
+      "id": "明朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明朝",
+          "明"
+        ],
+        "en": [
+          "Ming dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1368 - 1644",
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "description": {
+          "zh-cn": "中国历史上的一个朝代，由朱元璋建立。北京故宫是在明成祖时期开始建造并作为其后的主要皇宫。",
+          "en": "A dynasty in Chinese history founded by Zhu Yuanzhang. The Forbidden City in Beijing was built and used as the main imperial palace starting from the reign of the Yongle Emperor."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "清"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "description": {
+          "zh-cn": "中国历史上最后一个封建王朝。继明朝之后，继续以故宫为皇宫。",
+          "en": "The last imperial dynasty in Chinese history. It continued to use the Forbidden City as its imperial palace after the Ming dynasty."
+        }
+      }
+    },
+    {
+      "id": "李自成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李自成"
+        ],
+        "en": [
+          "Li Zicheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1606-09-22 - 1645",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明末农民起义领袖，曾攻陷北京，导致明朝灭亡。撤退前焚毁了紫禁城的大部分建筑。",
+          "en": "Leader of a peasant rebellion in the late Ming dynasty who captured Beijing, leading to the fall of the Ming. He burned down large parts of the Forbidden City before retreating."
+        }
+      }
+    },
+    {
+      "id": "顺治帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "顺治帝"
+        ],
+        "en": [
+          "Shunzhi Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1638-03-15 - 1661-02-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝入关后的第一位皇帝。他在位期间，对李自成焚毁的紫禁城进行了重建。",
+          "en": "The first emperor of the Qing dynasty to rule over China. During his reign, he initiated the reconstruction of the Forbidden City which had been burned by Li Zicheng."
+        }
+      }
+    },
+    {
+      "id": "康熙帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "康熙帝"
+        ],
+        "en": [
+          "Kangxi Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1654-05-04 - 1722-12-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第四位皇帝，在位期间继续对紫禁城进行重建和修缮。",
+          "en": "The fourth emperor of the Qing dynasty. During his reign, reconstruction and renovation of the Forbidden City continued."
+        }
+      }
+    },
+    {
+      "id": "乾隆帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乾隆帝"
+        ],
+        "en": [
+          "Qianlong Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1711-09-25 - 1799-02-07",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第六位皇帝。他在位期间对紫禁城进行了大规模的增建和改建，形成了如今的大部分格局。",
+          "en": "The sixth emperor of the Qing dynasty. During his reign, he undertook large-scale additions and renovations to the Forbidden City, shaping much of its current layout."
+        }
+      }
+    },
+    {
+      "id": "天理教 (中国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "天理教 (中国)"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清代中期由白莲教演化出的一个民间宗教。1813年，其教徒在林清的带领下发动起义并攻打了紫禁城。",
+          "en": "A folk religious sect in the mid-Qing dynasty that evolved from the White Lotus. In 1813, its followers, led by Lin Qing, launched an uprising and attacked the Forbidden City."
+        }
+      }
+    },
+    {
+      "id": "袁世凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁世凯"
+        ],
+        "en": [
+          "Yuan Shikai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1859-09-16 - 1916-06-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国第一任正式大总统。1915年准备称帝时，曾将紫禁城三大殿等建筑改名。",
+          "en": "The first formal President of the Republic of China. When preparing to proclaim himself emperor in 1915, he renamed several buildings in the Forbidden City, including the three great halls."
+        }
+      }
+    },
+    {
+      "id": "北京政变 (1924年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "北京政变 (1924年)",
+          "北京政变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1924",
+        "description": {
+          "zh-cn": "1924年由冯玉祥发动的军事政变，导致清逊帝溥仪被逐出紫禁城。",
+          "en": "A military coup launched by Feng Yuxiang in 1924, which led to the expulsion of the abdicated Qing emperor Puyi from the Forbidden City."
+        }
+      }
+    },
+    {
+      "id": "冯玉祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯玉祥"
+        ],
+        "en": [
+          "Feng Yuxiang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1882-11-06 - 1948-09-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事将领。1924年发动北京政变，驱逐了溥仪。",
+          "en": "A military general of the Republic of China. He launched the Beijing Coup in 1924 and expelled Puyi."
+        }
+      }
+    },
+    {
+      "id": "溥仪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "溥仪"
+        ],
+        "en": [
+          "Puyi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1906-02-07 - 1967-10-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝末代皇帝，也是中国历史上最后一位皇帝。1924年被冯玉祥逐出紫禁城。",
+          "en": "The last emperor of the Qing dynasty and the last emperor of China. He was expelled from the Forbidden City by Feng Yuxiang in 1924."
+        }
+      }
+    },
+    {
+      "id": "国立故宫博物院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国立故宫博物院"
+        ],
+        "en": [
+          "National Palace Museum"
+        ]
+      },
+      "properties": {
+        "period": "1925 - ",
+        "location": {
+          "zh-cn": "中华民国台北市",
+          "en": "Taipei, Republic of China"
+        },
+        "description": {
+          "zh-cn": "原成立于北京，后因国共内战，部分文物随国民政府迁至台湾。现为台湾最具规模的博物馆。",
+          "en": "Originally established in Beijing, a portion of its collection was moved to Taiwan with the Nationalist government due to the Chinese Civil War. It is now the largest museum in Taiwan."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院",
+          "国务院"
+        ],
+        "en": [
+          "State Council of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1954 - ",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的最高国家行政机关。1961年，国务院将故宫列为第一批全国重点文物保护单位。",
+          "en": "The chief administrative authority of the People's Republic of China. In 1961, the State Council listed the Forbidden City as one of the first National Key Cultural Relics Protection Units."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国时期的一场政治运动。期间，故宫作为“四旧”的象征面临被毁的威胁，后在周恩来干预下得以保全。",
+          "en": "A political movement in the People's Republic of China. During this period, the Forbidden City, as a symbol of the 'Four Olds', faced the threat of destruction but was preserved through the intervention of Zhou Enlai."
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": [
+          "Zhou Enlai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-03-05 - 1976-01-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国第一任国务院总理。在文化大革命期间下令保护故宫，使其免遭破坏。",
+          "en": "The first Premier of the People's Republic of China. He ordered the protection of the Forbidden City during the Cultural Revolution, saving it from destruction."
+        }
+      }
+    },
+    {
+      "id": "2019冠状病毒病疫情",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2019冠状病毒病疫情"
+        ],
+        "en": [
+          "COVID-19 pandemic"
+        ]
+      },
+      "properties": {
+        "period": "2019-12 - ",
+        "description": {
+          "zh-cn": "一场全球性的大流行病。受其影响，故宫于2020年初一度关闭。",
+          "en": "A global pandemic. Due to its impact, the Forbidden City was temporarily closed in early 2020."
+        }
+      }
+    },
+    {
+      "id": "元大都",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "元大都"
+        ],
+        "en": [
+          "Khanbaliq"
+        ]
+      },
+      "properties": {
+        "period": "1271 - 1368",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "元朝的首都。明代建造紫禁城时，选址于元大都皇宫的南面，并参考了其城市中轴线。",
+          "en": "The capital of the Yuan dynasty. When the Forbidden City was built during the Ming dynasty, its location was chosen to the south of the Yuan's Dadu palace, referencing its central urban axis."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "明成祖",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1406",
+        "description": {
+          "zh-cn": "明成祖朱棣下令全面建造北京故宫（紫禁城）。",
+          "en": "The Yongle Emperor (Zhu Di) ordered the full-scale construction of the Forbidden City in Beijing."
+        }
+      }
+    },
+    {
+      "source": "陈珪 (明朝)",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1407",
+        "description": {
+          "zh-cn": "作为泰宁候，主持营建紫禁城工程。",
+          "en": "As the Marquis of Taining, he presided over the construction project of the Forbidden City."
+        }
+      }
+    },
+    {
+      "source": "吴中 (明朝尚书)",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1407",
+        "description": {
+          "zh-cn": "作为工部侍郎，主持营建紫禁城工程。",
+          "en": "As the Vice Minister of Works, he presided over the construction project of the Forbidden City."
+        }
+      }
+    },
+    {
+      "source": "张思恭 (明朝)",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1407",
+        "description": {
+          "zh-cn": "作为刑部侍郎，主持营建紫禁城工程。",
+          "en": "As the Vice Minister of Justice, he presided over the construction project of the Forbidden City."
+        }
+      }
+    },
+    {
+      "source": "潭柘寺无名和尚",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1406",
+        "description": {
+          "zh-cn": "担任故宫的设计师。",
+          "en": "Served as the designer of the Forbidden City."
+        }
+      }
+    },
+    {
+      "source": "故宫",
+      "target": "明朝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1420",
+        "end_date": "1644",
+        "description": {
+          "zh-cn": "作为明朝的皇宫。",
+          "en": "Served as the imperial palace of the Ming dynasty."
+        }
+      }
+    },
+    {
+      "source": "故宫",
+      "target": "清朝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1644",
+        "end_date": "1912",
+        "description": {
+          "zh-cn": "作为清朝的皇宫。",
+          "en": "Served as the imperial palace of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "source": "李自成",
+      "target": "故宫",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1644",
+        "description": {
+          "zh-cn": "李自成在撤离北京前下令焚毁紫禁城，导致其建筑遭受严重破坏。",
+          "en": "Before retreating from Beijing, Li Zicheng ordered the burning of the Forbidden City, causing severe damage to its structures."
+        }
+      }
+    },
+    {
+      "source": "顺治帝",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1644",
+        "end_date": "1657",
+        "description": {
+          "zh-cn": "在清朝入关后，下令重建被李自成焚毁的紫禁城主要建筑。",
+          "en": "After the Qing dynasty entered China, he ordered the reconstruction of the main buildings of the Forbidden City that were burned by Li Zicheng."
+        }
+      }
+    },
+    {
+      "source": "康熙帝",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1683",
+        "end_date": "1695",
+        "description": {
+          "zh-cn": "在位期间，开始重建紫禁城其余被毁部分建筑，至康熙三十四年基本完工。",
+          "en": "During his reign, he began rebuilding the remaining destroyed parts of the Forbidden City, which was largely completed by the 34th year of his reign."
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1735",
+        "end_date": "1796",
+        "description": {
+          "zh-cn": "在位期间，对紫禁城进行了大规模的增建和改建，包括修建宁寿宫、乾隆花园等。",
+          "en": "During his reign, he conducted large-scale additions and renovations to the Forbidden City, including the construction of the Palace of Tranquil Longevity (Ningshou Gong) and the Qianlong Garden."
+        }
+      }
+    },
+    {
+      "source": "天理教 (中国)",
+      "target": "故宫",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1813",
+        "description": {
+          "zh-cn": "1813年，天理教徒在林清率领下攻打紫禁城。",
+          "en": "In 1813, followers of the Heavenly Principle Sect, led by Lin Qing, attacked the Forbidden City."
+        }
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "故宫",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1915",
+        "description": {
+          "zh-cn": "为准备称帝，将太和殿、中和殿、保和殿等主要建筑改名。",
+          "en": "In preparation for his enthronement, he renamed major buildings such as the Hall of Supreme Harmony, Hall of Central Harmony, and Hall of Preserving Harmony."
+        }
+      }
+    },
+    {
+      "source": "北京政变 (1924年)",
+      "target": "溥仪",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1924",
+        "description": {
+          "zh-cn": "政变后，冯玉祥的军队将清逊帝溥仪逐出紫禁城。",
+          "en": "After the coup, Feng Yuxiang's troops expelled the abdicated emperor Puyi from the Forbidden City."
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "北京政变 (1924年)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1924",
+        "description": {
+          "zh-cn": "发动了北京政变。",
+          "en": "Launched the Beijing Coup."
+        }
+      }
+    },
+    {
+      "source": "北京政变 (1924年)",
+      "target": "故宫",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1924",
+        "description": {
+          "zh-cn": "此次政变结束了紫禁城作为皇室居所的历史，为次年成立故宫博物院创造了条件。",
+          "en": "This coup ended the history of the Forbidden City as an imperial residence, creating the conditions for the establishment of the Palace Museum the following year."
+        }
+      }
+    },
+    {
+      "source": "故宫",
+      "target": "国立故宫博物院",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1925-10-10",
+        "description": {
+          "zh-cn": "国立故宫博物院在原紫禁城的基础上建立，并以其建筑和宫廷收藏为基础。",
+          "en": "The National Palace Museum was established on the grounds of the former Forbidden City, based on its architecture and imperial collections."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国国务院",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1961",
+        "description": {
+          "zh-cn": "将故宫列为第一批全国重点文物保护单位，为其保护提供了国家级法律和政策支持。",
+          "en": "Designated the Forbidden City as one of the first National Key Cultural Relics Protection Units, providing national legal and policy support for its preservation."
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "故宫",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "description": {
+          "zh-cn": "在文化大革命期间，红卫兵曾计划“火烧紫禁城”，砸烂“旧世界”的象征，对故宫的存续构成严重威胁。",
+          "en": "During the Cultural Revolution, Red Guards planned to 'burn the Forbidden City' and smash the symbol of the 'old world', posing a serious threat to its existence."
+        }
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1966",
+        "description": {
+          "zh-cn": "在文化大革命期间下令保护故宫，使其免遭红卫兵的破坏。",
+          "en": "During the Cultural Revolution, he ordered the protection of the Forbidden City, saving it from destruction by the Red Guards."
+        }
+      }
+    },
+    {
+      "source": "2019冠状病毒病疫情",
+      "target": "故宫",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-01-25",
+        "description": {
+          "zh-cn": "受疫情影响，故宫博物院自2020年1月25日起闭馆，暂停对公众开放。",
+          "en": "Affected by the pandemic, the Palace Museum closed to the public starting from January 25, 2020."
+        }
+      }
+    },
+    {
+      "source": "元大都",
+      "target": "故宫",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1406",
+        "description": {
+          "zh-cn": "明朝在北京建都时，将紫禁城选址于元大都皇宫的南面，并在规划上延续了其城市中轴线的理念。",
+          "en": "When the Ming dynasty established its capital in Beijing, the Forbidden City was located south of the Yuan's Dadu palace, and its planning continued the concept of the city's central axis."
+        }
+      }
+    }
+  ]
+}

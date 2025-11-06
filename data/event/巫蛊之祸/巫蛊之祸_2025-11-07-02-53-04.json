@@ -1,0 +1,948 @@
+{
+  "nodes": [
+    {
+      "id": "巫蛊之祸",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "巫蛊之祸",
+          "巫蛊之狱",
+          "巫蛊之乱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-91",
+        "location": {
+          "zh-cn": "长安",
+          "en": "Chang'an"
+        },
+        "description": {
+          "zh-cn": "西汉征和二年（前91年）发生的一场政治动乱。因太子刘据被江充等人诬陷以巫蛊诅咒汉武帝，被迫起兵诛杀江充，反被汉武帝认为是谋反，派兵镇压，最终导致太子兵败自杀，皇后卫子夫自尽，前后罹难者达数万人，对汉朝政治影响深远。",
+          "en": "A major political turmoil that occurred in 91 BC during the late reign of Emperor Wu of Han. It was triggered by accusations from Jiang Chong that Crown Prince Liu Ju was using witchcraft to curse the emperor, leading to Liu Ju's forced rebellion, defeat, and suicide, the suicide of Empress Wei Zifu, and the deaths of tens of thousands of people."
+        }
+      }
+    },
+    {
+      "id": "汉武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉武帝",
+          "汉武帝刘彻"
+        ],
+        "en": [
+          "Emperor Wu of Han"
+        ]
+      },
+      "properties": {
+        "lifetime": "-156 - -87",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第七位皇帝，在位晚年因多病猜忌，引发巫蛊之祸，错杀太子刘据，逼死皇后卫子夫，后深感后悔。",
+          "en": "The seventh emperor of the Western Han dynasty. In his later years, his paranoia and illness led to the Witchcraft Delusion, in which he wrongly executed his crown prince Liu Ju and forced Empress Wei Zifu to commit suicide, which he later deeply regretted."
+        }
+      }
+    },
+    {
+      "id": "刘据",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘据",
+          "太子",
+          "戾太子"
+        ],
+        "en": [
+          "Liu Ju"
+        ]
+      },
+      "properties": {
+        "lifetime": "-128 - -91",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉武帝长子，卫子夫所生，皇位法定继承人。因被江充等人诬陷，无法自辩而起兵，兵败后自缢而死。",
+          "en": "The eldest son of Emperor Wu of Han and Empress Wei Zifu, and the legal heir to the throne. He was framed by Jiang Chong and others, and after a failed rebellion to defend himself, he committed suicide."
+        }
+      }
+    },
+    {
+      "id": "江充",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江充"
+        ],
+        "en": [
+          "Jiang Chong"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -91",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉武帝宠臣，因得罪太子刘据，担心其继位后对自己不利，遂制造巫蛊之祸，诬陷太子。后被太子起兵所杀。",
+          "en": "A favored official of Emperor Wu of Han. Fearing retaliation after Crown Prince Liu Ju's ascension, he fabricated the witchcraft accusations, instigating the disaster. He was killed by the prince's forces during the uprising."
+        }
+      }
+    },
+    {
+      "id": "卫子夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卫子夫",
+          "卫皇后",
+          "思后"
+        ],
+        "en": [
+          "Wei Zifu"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -91",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "汉武帝的第二任皇后，太子刘据之母。在巫蛊之祸中支持儿子起兵，兵败后交出皇后玉玺自缢身亡。",
+          "en": "The second empress of Emperor Wu of Han and the mother of Crown Prince Liu Ju. She supported her son's rebellion during the Witchcraft Delusion and committed suicide after its failure."
+        }
+      }
+    },
+    {
+      "id": "刘屈牦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘屈牦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -90",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉丞相。在巫蛊之祸中受命带兵镇压太子，后因其妻被指控用巫蛊诅咒武帝而被腰斩，并遭族灭。",
+          "en": "Chancellor of the Western Han. He was ordered to suppress the Crown Prince's forces during the Witchcraft Delusion. He was later executed by being cut in half at the waist and his clan was exterminated after his wife was accused of using witchcraft to curse the emperor."
+        }
+      }
+    },
+    {
+      "id": "苏文 (汉朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "苏文 (汉朝)",
+          "苏文"
+        ],
+        "en": [
+          "Su Wen"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -91",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉武帝时期的宦官，与江充勾结陷害太子刘据。在江充死后向汉武帝谎报太子谋反，事后被汉武帝下令烧死。",
+          "en": "A eunuch serving Emperor Wu of Han who colluded with Jiang Chong to frame Crown Prince Liu Ju. After Jiang Chong's death, he falsely reported to the emperor that the prince was committing treason. He was later burned to death by the emperor's order."
+        }
+      }
+    },
+    {
+      "id": "公孙贺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "公孙贺"
+        ],
+        "en": [
+          "Gongsun He"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -92",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉丞相，卫子夫姐夫。其子公孙敬声被捕后，为赎子罪抓获朱安世，反被朱安世诬告以巫蛊诅咒武帝，导致父子均死于狱中，家族被牵连。",
+          "en": "Chancellor of the Western Han and brother-in-law of Empress Wei Zifu. He was falsely accused of witchcraft by Zhu Anshi, leading to his death in prison and the implication of his family."
+        }
+      }
+    },
+    {
+      "id": "公孙敬声",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "公孙敬声"
+        ],
+        "en": [
+          "Gongsun Jingsheng"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -92",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "公孙贺之子，因贪污被捕，后被朱安世诬告与阳石公主私通并以巫蛊诅咒武帝，死于狱中。",
+          "en": "Son of Gongsun He. He was arrested for corruption and later accused by Zhu Anshi of having an affair with Princess Yangshi and using witchcraft, leading to his death in prison."
+        }
+      }
+    },
+    {
+      "id": "朱安世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱安世"
+        ],
+        "en": [
+          "Zhu Anshi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉阳陵游侠，被公孙贺抓捕后，出于报复上书诬告公孙父子，是巫蛊之祸的导火索之一。",
+          "en": "A vigilante from Yangling. After being captured by Gongsun He, he retaliated by falsely accusing Gongsun and his son, becoming one of the triggers for the Witchcraft Delusion."
+        }
+      }
+    },
+    {
+      "id": "阳石公主",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阳石公主",
+          "石邑公主"
+        ],
+        "en": [
+          "Princess Yangshi"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -92",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "汉武帝之女，在巫蛊之祸中被指控与公孙敬声私通，后被处死。",
+          "en": "Daughter of Emperor Wu of Han. She was accused of having an affair with Gongsun Jingsheng during the Witchcraft Delusion and was executed."
+        }
+      }
+    },
+    {
+      "id": "诸邑公主",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诸邑公主"
+        ],
+        "en": [
+          "Princess Zhuyi"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -92",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "汉武帝与卫子夫之女，在巫蛊之祸中受公孙贺案牵连被处死。",
+          "en": "Daughter of Emperor Wu of Han and Empress Wei Zifu. She was implicated in the Gongsun He case during the Witchcraft Delusion and was executed."
+        }
+      }
+    },
+    {
+      "id": "卫青",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卫青"
+        ],
+        "en": [
+          "Wei Qing"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -106",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉大司马大将军，卫子夫之弟。他在巫蛊之祸前去世，他的死使太子刘据失去了重要的政治支持。",
+          "en": "Grand Marshal of the Western Han, and brother of Empress Wei Zifu. His death before the Witchcraft Delusion deprived Crown Prince Liu Ju of crucial political support."
+        }
+      }
+    },
+    {
+      "id": "卫伉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卫伉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -92",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "卫青长子，长平侯。在巫蛊之祸中受公孙贺案牵连被处死。",
+          "en": "Eldest son of Wei Qing. He was implicated in the Gongsun He case during the Witchcraft Delusion and was executed."
+        }
+      }
+    },
+    {
+      "id": "石德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石德"
+        ],
+        "en": [
+          "Shi De"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "太子少傅。在刘据无法自辩时，劝说其起兵诛杀奸臣。",
+          "en": "Junior Tutor to the Crown Prince. He advised Liu Ju to take up arms against the treacherous officials when the prince had no other way to defend himself."
+        }
+      }
+    },
+    {
+      "id": "任少卿 (西汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "任少卿 (西汉)",
+          "任安"
+        ],
+        "en": [
+          "Ren An"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -91",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "护北军使者。在巫蛊之祸中，他接到太子的调兵符节但选择闭门不出，持观望态度，后被汉武帝以“坐观成败，有二心”为由腰斩。",
+          "en": "Supervisor of the Northern Army. During the Witchcraft Delusion, he received the Crown Prince's orders to mobilize troops but refused, adopting a wait-and-see attitude. He was later executed by Emperor Wu for his inaction and perceived disloyalty."
+        }
+      }
+    },
+    {
+      "id": "田仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "田仁"
+        ],
+        "en": [
+          "Tian Ren"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -91",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "司直。在太子兵败后，放其从城门逃走，后被汉武帝以“坐观成败，有贰心”为由腰斩。",
+          "en": "Director of Justice. After the Crown Prince's defeat, he allowed him to escape through the city gates. He was later executed by Emperor Wu for perceived disloyalty."
+        }
+      }
+    },
+    {
+      "id": "刘弗陵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘弗陵",
+          "汉昭帝"
+        ],
+        "en": [
+          "Liu Fuling",
+          "Emperor Zhao of Han"
+        ]
+      },
+      "properties": {
+        "lifetime": "-94 - -74",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉武帝幼子，巫蛊之祸后，因其他年长皇子或死或不堪，最终被立为太子并继位为汉昭帝。",
+          "en": "The youngest son of Emperor Wu. After the Witchcraft Delusion, with other elder princes either dead or deemed unworthy, he was made Crown Prince and eventually ascended the throne as Emperor Zhao."
+        }
+      }
+    },
+    {
+      "id": "钩弋夫人",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "钩弋夫人"
+        ],
+        "en": [
+          "Lady Gouyi"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -88",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "汉武帝宠妃，刘弗陵之母。汉武帝为防止“子幼母壮”外戚专权，在立刘弗陵为太子后将其赐死。",
+          "en": "A favored consort of Emperor Wu and mother of Liu Fuling. To prevent a powerful maternal clan from dominating a young emperor, Emperor Wu had her executed after making Liu Fuling the crown prince."
+        }
+      }
+    },
+    {
+      "id": "李广利",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李广利"
+        ],
+        "en": [
+          "Li Guangli"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -89",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉贰师将军，其亲家刘屈牦因巫蛊案被杀后，他在前线仓促出击匈奴，兵败投降，后被匈奴所杀。",
+          "en": "A general of the Western Han. After his relative by marriage, Liu Qumao, was executed in a witchcraft case, he hastily attacked the Xiongnu, was defeated, surrendered, and was later killed by the Xiongnu."
+        }
+      }
+    },
+    {
+      "id": "霍光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "霍光"
+        ],
+        "en": [
+          "Huo Guang"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -68",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉权臣，霍去病异母弟。在巫蛊之祸中未受牵连，后成为汉武帝的托孤之臣，辅佐汉昭帝，并在昭帝死后拥立汉宣帝，掌握朝政大权。",
+          "en": "A powerful statesman of the Western Han and half-brother of Huo Qubing. He remained unscathed by the Witchcraft Delusion and became one of the regents appointed by Emperor Wu. He assisted Emperor Zhao and later enthroned Emperor Xuan, holding significant power."
+        }
+      }
+    },
+    {
+      "id": "刘病已",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘病已",
+          "刘询",
+          "汉宣帝"
+        ],
+        "en": [
+          "Liu Bingyi",
+          "Emperor Xuan of Han"
+        ]
+      },
+      "properties": {
+        "lifetime": "-91 - -49",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "太子刘据之孙，刘进之子。巫蛊之祸中唯一的幸存者，尚在襁褓中即下狱，后被霍光等人拥立为帝，是为汉宣帝。",
+          "en": "Grandson of Crown Prince Liu Ju and son of Liu Jin. He was the sole survivor of his family in the Witchcraft Delusion, imprisoned as an infant. He was later enthroned as Emperor Xuan by Huo Guang and others."
+        }
+      }
+    },
+    {
+      "id": "轮台诏",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "轮台诏"
+        ],
+        "en": [
+          "Edict of Luntai"
+        ]
+      },
+      "properties": {
+        "period": "-89",
+        "description": {
+          "zh-cn": "汉武帝晚年颁布的一份重要诏书，反思其过去穷兵黩武的政策，宣布停止对外征伐，转向休养生息，富国安民。",
+          "en": "An important edict issued by Emperor Wu in his later years, reflecting on his past militaristic policies. He announced a shift from foreign conquests to policies focused on recuperation and enriching the populace."
+        }
+      }
+    },
+    {
+      "id": "西汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西汉"
+        ],
+        "en": [
+          "Western Han"
+        ]
+      },
+      "properties": {
+        "period": "-202 - 9",
+        "description": {
+          "zh-cn": "中国历史上继秦朝之后的大一统王朝，巫蛊之祸是其由盛转衰的转折点之一。",
+          "en": "A unified dynasty in Chinese history following the Qin dynasty. The Witchcraft Delusion is considered one of the turning points from its peak to decline."
+        }
+      }
+    },
+    {
+      "id": "刘进",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘进"
+        ],
+        "en": [
+          "Liu Jin"
+        ]
+      },
+      "properties": {
+        "lifetime": "-113 - -91",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "皇太孙，太子刘据长子，在巫蛊之祸中被杀。",
+          "en": "The Imperial Grandson, eldest son of Crown Prince Liu Ju. He was killed during the Witchcraft Delusion."
+        }
+      }
+    },
+    {
+      "id": "史良娣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "史良娣",
+          "戾后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - -91",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "皇太子刘据的妾室，在巫蛊之祸中被处死。",
+          "en": "A consort of Crown Prince Liu Ju, executed during the Witchcraft Delusion."
+        }
+      }
+    },
+    {
+      "id": "王翁须",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王翁须"
+        ],
+        "en": [
+          "Wang Wengxu"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -91",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "皇太孙刘进之妻，汉宣帝刘病已之母，在巫蛊之祸中被处死。",
+          "en": "Wife of Imperial Grandson Liu Jin and mother of Emperor Xuan (Liu Bingyi). She was executed during the Witchcraft Delusion."
+        }
+      }
+    },
+    {
+      "id": "邴吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邴吉",
+          "丙吉"
+        ],
+        "en": [
+          "Bing Ji"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -55",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉官员。巫蛊之祸时任狱吏，暗中保护抚养了尚在襁褓中的刘病已。后向霍光提议立刘病已为帝。",
+          "en": "A Western Han official. As a prison official during the Witchcraft Delusion, he secretly protected and raised the infant Liu Bingyi. He later proposed to Huo Guang that Liu Bingyi should be made emperor."
+        }
+      }
+    },
+    {
+      "id": "长安",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "长安"
+        ],
+        "en": [
+          "Chang'an"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉首都，巫蛊之祸中太子与丞相军队激战的主要地点。",
+          "en": "The capital of the Western Han dynasty and the main site of the fierce battles between the Crown Prince's and the Chancellor's forces during the Witchcraft Delusion."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "江充",
+      "target": "刘据",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-91",
+        "description": {
+          "zh-cn": "江充因与太子刘据有隙，担心其继位后对自己不利，便诬陷太子以巫蛊诅咒汉武帝，直接引发了巫蛊之祸。",
+          "en": "Due to a feud with Crown Prince Liu Ju and fearing for his future, Jiang Chong falsely accused the prince of using witchcraft to curse Emperor Wu, directly triggering the Witchcraft Delusion."
+        }
+      }
+    },
+    {
+      "source": "苏文 (汉朝)",
+      "target": "刘据",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-91",
+        "description": {
+          "zh-cn": "苏文与江充合谋，阻止太子面见汉武帝自辩，并在江充被杀后向武帝谎报太子谋反。",
+          "en": "Su Wen conspired with Jiang Chong, prevented the Crown Prince from seeing Emperor Wu to defend himself, and after Jiang Chong's death, falsely reported to the emperor that the prince was rebelling."
+        }
+      }
+    },
+    {
+      "source": "朱安世",
+      "target": "公孙贺",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-92",
+        "description": {
+          "zh-cn": "朱安世被公孙贺抓捕后，在狱中上书报复，诬告公孙贺父子以巫蛊诅咒汉武帝，导致公孙家族被灭，拉开了巫蛊之祸的序幕。",
+          "en": "After being arrested by Gongsun He, Zhu Anshi retaliated from prison by falsely accusing Gongsun He and his son of using witchcraft to curse Emperor Wu, leading to the extermination of the Gongsun family and marking the prelude to the Witchcraft Delusion."
+        }
+      }
+    },
+    {
+      "source": "刘据",
+      "target": "江充",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-91",
+        "description": {
+          "zh-cn": "在被江充逼得走投无路后，太子刘据以监国身份起兵，以谋反罪名将江充斩首。",
+          "en": "Forced into a corner by Jiang Chong, Crown Prince Liu Ju raised troops in his capacity as regent and had Jiang Chong beheaded on charges of treason."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "刘据",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-91",
+        "description": {
+          "zh-cn": "汉武帝误信太子谋反的谎言，派遣丞相刘屈牦发兵镇压，最终导致太子兵败自杀。",
+          "en": "Emperor Wu mistakenly believed the lie that the Crown Prince was rebelling and dispatched Chancellor Liu Qumao with troops to suppress him, ultimately leading to the prince's defeat and suicide."
+        }
+      }
+    },
+    {
+      "source": "巫蛊之祸",
+      "target": "卫子夫",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-91",
+        "description": {
+          "zh-cn": "在太子刘据兵败后，皇后卫子夫为免受辱，交出皇后玉玺后自缢身亡。",
+          "en": "After the defeat of her son, Crown Prince Liu Ju, Empress Wei Zifu committed suicide to avoid humiliation."
+        }
+      }
+    },
+    {
+      "source": "刘屈牦",
+      "target": "刘据",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-91",
+        "position": {
+          "zh-cn": "丞相",
+          "en": "Chancellor"
+        },
+        "description": {
+          "zh-cn": "刘屈牦奉汉武帝之命，发兵镇压太子刘据的起事。",
+          "en": "Following Emperor Wu's orders, Liu Qumao dispatched troops to suppress the uprising led by Crown Prince Liu Ju."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "苏文 (汉朝)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-91",
+        "description": {
+          "zh-cn": "在巫蛊之祸水落石出后，汉武帝深感后悔，下令将进谗言的宦官苏文在横桥上烧死。",
+          "en": "After the truth of the Witchcraft Delusion came to light, Emperor Wu was filled with regret and ordered the eunuch Su Wen, who had slandered the prince, to be burned to death on the Heng Bridge."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "刘屈牦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-90",
+        "description": {
+          "zh-cn": "征和三年，因其妻被揭发以巫蛊诅咒武帝，刘屈牦被汉武帝下令腰斩，并遭族灭。",
+          "en": "In 90 BC, after his wife was exposed for using witchcraft to curse the emperor, Liu Qumao was ordered by Emperor Wu to be executed by being cut in half at the waist, and his clan was exterminated."
+        }
+      }
+    },
+    {
+      "source": "任少卿 (西汉)",
+      "target": "刘据",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-91",
+        "description": {
+          "zh-cn": "太子刘据派人持节杖命令任安出兵协助，但任安选择闭门不出，拒绝了太子的命令。",
+          "en": "Crown Prince Liu Ju sent an envoy with his credentials to order Ren An to dispatch troops for assistance, but Ren An refused by closing the gates and ignoring the command."
+        }
+      }
+    },
+    {
+      "source": "田仁",
+      "target": "刘据",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-91",
+        "description": {
+          "zh-cn": "在太子刘据兵败逃亡时，时任司直的田仁故意放其从自己驻守的城门逃走。",
+          "en": "When Crown Prince Liu Ju was fleeing after his defeat, Tian Ren, the Director of Justice at the time, intentionally allowed him to escape through the city gate he was guarding."
+        }
+      }
+    },
+    {
+      "source": "巫蛊之祸",
+      "target": "刘弗陵",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-91",
+        "end_date": "-87",
+        "description": {
+          "zh-cn": "巫蛊之祸导致汉武帝失去了培养多年的继承人刘据，使得年幼的刘弗陵最终得以被立为太子并继承皇位。",
+          "en": "The Witchcraft Delusion caused Emperor Wu to lose his long-cultivated heir, Liu Ju, which ultimately allowed the young Liu Fuling to be appointed Crown Prince and inherit the throne."
+        }
+      }
+    },
+    {
+      "source": "巫蛊之祸",
+      "target": "轮台诏",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-91",
+        "end_date": "-89",
+        "description": {
+          "zh-cn": "巫蛊之祸带来的巨大灾难和丧子之痛，促使汉武帝反思其执政生涯，最终颁布轮台诏，转变国策为休养生息。",
+          "en": "The great disaster and the pain of losing his son from the Witchcraft Delusion prompted Emperor Wu to reflect on his reign, ultimately leading to the issuance of the Edict of Luntai, which shifted national policy towards recuperation."
+        }
+      }
+    },
+    {
+      "source": "邴吉",
+      "target": "刘病已",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-91",
+        "description": {
+          "zh-cn": "在巫蛊之祸中，时任狱吏的邴吉暗中保护并抚养了尚在襁褓中的皇曾孙刘病已，使其得以幸存。",
+          "en": "During the Witchcraft Delusion, Bing Ji, then a prison official, secretly protected and raised the infant imperial great-grandson Liu Bingyi, ensuring his survival."
+        }
+      }
+    },
+    {
+      "source": "霍光",
+      "target": "刘病已",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-74",
+        "description": {
+          "zh-cn": "在汉昭帝无子驾崩、刘贺被废后，霍光在邴吉的建议下，拥立刘据唯一幸存的孙子刘病已为帝。",
+          "en": "After Emperor Zhao died without an heir and Liu He was deposed, Huo Guang, on the advice of Bing Ji, enthroned Liu Bingyi, the only surviving grandson of Liu Ju."
+        }
+      }
+    },
+    {
+      "source": "刘据",
+      "target": "汉武帝",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘据是汉武帝的长子。",
+          "en": "Liu Ju was the eldest son of Emperor Wu of Han."
+        }
+      }
+    },
+    {
+      "source": "刘据",
+      "target": "卫子夫",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘据是皇后卫子夫所生之子。",
+          "en": "Liu Ju was the son of Empress Wei Zifu."
+        }
+      }
+    },
+    {
+      "source": "卫子夫",
+      "target": "汉武帝",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "卫子夫是汉武帝的皇后。",
+          "en": "Wei Zifu was the empress of Emperor Wu of Han."
+        }
+      }
+    },
+    {
+      "source": "刘进",
+      "target": "刘据",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘进是皇太子刘据的长子。",
+          "en": "Liu Jin was the eldest son of Crown Prince Liu Ju."
+        }
+      }
+    },
+    {
+      "source": "刘病已",
+      "target": "刘进",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘病已是皇太孙刘进之子。",
+          "en": "Liu Bingyi was the son of Imperial Grandson Liu Jin."
+        }
+      }
+    },
+    {
+      "source": "刘病已",
+      "target": "王翁须",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘病已是王翁须之子。",
+          "en": "Liu Bingyi was the son of Wang Wengxu."
+        }
+      }
+    },
+    {
+      "source": "刘进",
+      "target": "王翁须",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "王翁须是刘进之妻。",
+          "en": "Wang Wengxu was the wife of Liu Jin."
+        }
+      }
+    },
+    {
+      "source": "刘进",
+      "target": "史良娣",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "史良娣是皇太子妃，刘进是她的儿子。",
+          "en": "Lady Shi was the Crown Princess, and Liu Jin was her son."
+        }
+      }
+    },
+    {
+      "source": "史良娣",
+      "target": "刘据",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "娣",
+          "en": "Consort"
+        },
+        "description": {
+          "zh-cn": "史良娣是太子刘据的妾室。",
+          "en": "Lady Shi was a consort of Crown Prince Liu Ju."
+        }
+      }
+    },
+    {
+      "source": "公孙敬声",
+      "target": "公孙贺",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "公孙敬声是公孙贺之子。",
+          "en": "Gongsun Jingsheng was the son of Gongsun He."
+        }
+      }
+    },
+    {
+      "source": "卫青",
+      "target": "卫子夫",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "卫青是皇后卫子夫的弟弟。",
+          "en": "Wei Qing was the younger brother of Empress Wei Zifu."
+        }
+      }
+    },
+    {
+      "source": "卫伉",
+      "target": "卫青",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "卫伉是卫青的长子。",
+          "en": "Wei Kang was the eldest son of Wei Qing."
+        }
+      }
+    },
+    {
+      "source": "刘弗陵",
+      "target": "汉武帝",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘弗陵是汉武帝的幼子。",
+          "en": "Liu Fuling was the youngest son of Emperor Wu of Han."
+        }
+      }
+    },
+    {
+      "source": "刘弗陵",
+      "target": "钩弋夫人",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘弗陵是钩弋夫人所生。",
+          "en": "Liu Fuling was the son of Lady Gouyi."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "钩弋夫人",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-88",
+        "description": {
+          "zh-cn": "汉武帝为防止“子幼母壮”外戚专权，在立刘弗陵为太子后将钩弋夫人赐死。",
+          "en": "To prevent a powerful maternal clan from dominating a young emperor, Emperor Wu had Lady Gouyi executed after making Liu Fuling the crown prince."
+        }
+      }
+    }
+  ]
+}

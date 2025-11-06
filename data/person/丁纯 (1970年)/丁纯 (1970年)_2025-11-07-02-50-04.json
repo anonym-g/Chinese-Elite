@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "丁纯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丁纯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1970-10 - ",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": {
+          "zh-cn": "江苏省江阴市",
+          "en": "Jiangyin, Jiangsu"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任常州市市长、中共铜陵市委书记，现任中共黄山市委书记。",
+          "en": "A politician of the People's Republic of China, who has served as Mayor of Changzhou, Secretary of the CPC Tongling Municipal Committee, and is currently the Secretary of the CPC Huangshan Municipal Committee."
+        }
+      }
+    },
+    {
+      "id": "江阴市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江阴市",
+          "江阴"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会",
+          "第十三届全国人大"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党铜陵市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党铜陵市委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党黄山市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党黄山市委员会",
+          "中共黄山市委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "常州市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "常州市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "李猛 (1967年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李猛 (1967年)",
+          "李猛"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "杨宏星",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨宏星"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "费高云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "费高云"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "陈金虎",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈金虎"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "丁纯",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "丁纯是中国共产党党员。",
+          "en": "Ding Chun is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "丁纯",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "江苏省代表",
+          "en": "Delegate from Jiangsu Province"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，丁纯当选为第十三届全国人民代表大会江苏省代表。",
+          "en": "On February 24, 2018, Ding Chun was elected as a delegate from Jiangsu Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "丁纯",
+      "target": "中国共产党铜陵市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2019-12",
+        "end_date": "2024-12",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "丁纯于2019年12月至2024年12月期间担任中共铜陵市委书记。",
+          "en": "Ding Chun served as the Secretary of the CPC Tongling Municipal Committee from December 2019 to December 2024."
+        }
+      }
+    },
+    {
+      "source": "丁纯",
+      "target": "中国共产党黄山市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2024-12",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "丁纯于2024年12月转任中共黄山市委书记。",
+          "en": "In December 2024, Ding Chun was transferred to the position of Secretary of the CPC Huangshan Municipal Committee."
+        }
+      }
+    },
+    {
+      "source": "丁纯",
+      "target": "常州市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017-02",
+        "end_date": "2019-12",
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "丁纯于2017年2月至2019年12月期间担任常州市人民政府市长。",
+          "en": "Ding Chun served as the Mayor of the Changzhou Municipal People's Government from February 2017 to December 2019."
+        }
+      }
+    },
+    {
+      "source": "丁纯",
+      "target": "江阴市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "丁纯是江苏江阴人。",
+          "en": "Ding Chun is a native of Jiangyin, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "丁纯",
+      "target": "李猛 (1967年)",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2019-12",
+        "description": {
+          "zh-cn": "丁纯接替李猛担任中国共产党铜陵市委员会书记。",
+          "en": "Ding Chun succeeded Li Meng as Secretary of the CPC Tongling Municipal Committee."
+        }
+      }
+    },
+    {
+      "source": "杨宏星",
+      "target": "丁纯",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2024-12",
+        "description": {
+          "zh-cn": "杨宏星接替丁纯担任中国共产党铜陵市委员会书记。",
+          "en": "Yang Hongxing succeeded Ding Chun as Secretary of the CPC Tongling Municipal Committee."
+        }
+      }
+    },
+    {
+      "source": "丁纯",
+      "target": "费高云",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2017-02",
+        "description": {
+          "zh-cn": "丁纯接替费高云担任常州市人民政府市长。",
+          "en": "Ding Chun succeeded Fei Gaoyun as Mayor of the Changzhou Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "陈金虎",
+      "target": "丁纯",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2019-12",
+        "description": {
+          "zh-cn": "陈金虎接替丁纯担任常州市人民政府市长。",
+          "en": "Chen Jinhu succeeded Ding Chun as Mayor of the Changzhou Municipal People's Government."
+        }
+      }
+    }
+  ]
+}

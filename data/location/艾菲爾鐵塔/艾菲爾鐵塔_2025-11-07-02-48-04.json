@@ -1,0 +1,681 @@
+{
+  "nodes": [
+    {
+      "id": "埃菲尔铁塔",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "埃菲尔铁塔",
+          "艾菲尔铁塔",
+          "巴黎铁塔",
+          "三百米塔"
+        ],
+        "en": [
+          "Eiffel Tower",
+          "Tour Eiffel"
+        ]
+      },
+      "properties": {
+        "period": "1887-01-27 - ",
+        "location": {
+          "zh-cn": "法国巴黎战神广场",
+          "en": "Champ de Mars, Paris, France"
+        },
+        "description": {
+          "zh-cn": "位于法国巴黎战神广场的铁制镂空塔，为巴黎城市地标及法国文化象征之一，曾为世界最高人造建筑。",
+          "en": "A wrought-iron lattice tower on the Champ de Mars in Paris, France. It is a cultural icon of France and one of the most recognizable structures in the world. It was the world's tallest man-made structure upon its completion."
+        }
+      }
+    },
+    {
+      "id": "古斯塔夫·艾菲尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "古斯塔夫·艾菲尔",
+          "居斯塔夫·埃菲尔",
+          "亚历山大·古斯塔夫·艾菲尔"
+        ],
+        "en": [
+          "Gustave Eiffel"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国工程师与建筑师，其公司设计并建造了埃菲尔铁塔。",
+          "en": "A French civil engineer and architect whose company designed and built the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "莫里斯·凯什兰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "莫里斯·凯什兰",
+          "莫雷斯·克什兰"
+        ],
+        "en": [
+          "Maurice Koechlin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "瑞士结构工程师，埃菲尔建筑公司的高级工程师，绘制了埃菲尔铁塔的最初草图。",
+          "en": "A Swiss structural engineer and a senior engineer at Compagnie des Établissements Eiffel who drew the first sketches of the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "埃米尔·诺吉耶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "埃米尔·诺吉耶"
+        ],
+        "en": [
+          "Émile Nouguier"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国结构工程师，埃菲尔建筑公司的高级工程师，埃菲尔铁塔的共同设计者。",
+          "en": "A French structural engineer and a senior engineer at Compagnie des Établissements Eiffel who co-designed the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "斯特芬·索维斯特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "斯特芬·索维斯特"
+        ],
+        "en": [
+          "Stephen Sauvestre"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国建筑师，埃菲尔建筑公司建筑部主任，负责埃菲尔铁塔的美学设计。",
+          "en": "A French architect and head of the architecture department at Compagnie des Établissements Eiffel, responsible for the aesthetic design of the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "埃菲尔建筑公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "埃菲尔建筑公司"
+        ],
+        "en": [
+          "Compagnie des Établissements Eiffel"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由古斯塔夫·艾菲尔创办的建筑公司，负责埃菲尔铁塔的设计与建造。",
+          "en": "The construction company founded by Gustave Eiffel that was responsible for the design and construction of the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "1889年世界博览会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1889年世界博览会"
+        ],
+        "en": [
+          "1889 Exposition Universelle",
+          "1889 World's Fair"
+        ]
+      },
+      "properties": {
+        "period": "1889-05-06 - 1889-10-31",
+        "location": {
+          "zh-cn": "巴黎",
+          "en": "Paris"
+        },
+        "description": {
+          "zh-cn": "为纪念法国大革命100周年而举办的世界博览会，埃菲尔铁塔是为此而建的主要建筑。",
+          "en": "A world's fair held in Paris to celebrate the 100th anniversary of the French Revolution, for which the Eiffel Tower was built as the main attraction."
+        }
+      }
+    },
+    {
+      "id": "莱廷观览塔",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "莱廷观览塔"
+        ],
+        "en": [
+          "Latting Observatory"
+        ]
+      },
+      "properties": {
+        "period": "1853 - 1856",
+        "description": {
+          "zh-cn": "1853年纽约万国工业博览会上的木结构观景塔，是埃菲尔铁塔的灵感来源之一。",
+          "en": "A wooden observation tower at the 1853 New York World's Fair, which served as an inspiration for the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "巴黎市",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "巴黎市"
+        ],
+        "en": [
+          "City of Paris"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "巴黎的市政府，埃菲尔铁塔的所有者。",
+          "en": "The municipal government of Paris, which owns the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "艾菲尔铁塔营运管理公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "艾菲尔铁塔营运管理公司",
+          "SETE"
+        ],
+        "en": [
+          "Société d'exploitation de la tour Eiffel"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责埃菲尔铁塔日常运营与管理的公司。",
+          "en": "The company responsible for the daily operations and management of the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "艺术家反对艾菲尔铁塔",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "艺术家反对艾菲尔铁塔"
+        ],
+        "en": [
+          "Artists' Protest Against the Eiffel Tower"
+        ]
+      },
+      "properties": {
+        "period": "1887-02-14",
+        "description": {
+          "zh-cn": "由三百名艺术家（三百米委员会）签署的请愿书，抗议在巴黎市中心建造埃菲尔铁塔。",
+          "en": "A petition signed by 300 artists (the Committee of Three Hundred) protesting the construction of the Eiffel Tower in the heart of Paris."
+        }
+      }
+    },
+    {
+      "id": "查尔斯·加尼叶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查尔斯·加尼叶"
+        ],
+        "en": [
+          "Charles Garnier"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国著名建筑师，领导了反对建造埃菲尔铁塔的艺术家请愿活动。",
+          "en": "A prominent French architect who led the artists' protest against the construction of the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "居伊·德·莫泊桑",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "居伊·德·莫泊桑"
+        ],
+        "en": [
+          "Guy de Maupassant"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国作家，是反对建造埃菲尔铁塔的艺术家之一，据说他每天在塔的餐厅用餐，因为那是巴黎唯一看不到塔的地方。",
+          "en": "A French writer who was among the artists protesting the Eiffel Tower. He is said to have eaten lunch in the tower's restaurant every day because it was the only place in Paris where he could not see it."
+        }
+      }
+    },
+    {
+      "id": "第一次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次世界大战"
+        ],
+        "en": [
+          "World War I"
+        ]
+      },
+      "properties": {
+        "period": "1914-07-28 - 1918-11-11"
+      }
+    },
+    {
+      "id": "马恩河战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "马恩河战役"
+        ],
+        "en": [
+          "Battle of the Marne"
+        ]
+      },
+      "properties": {
+        "period": "1914-09",
+        "description": {
+          "zh-cn": "第一次世界大战中的一场关键战役，埃菲尔铁塔的无线电发射机通过干扰德军通讯，为盟军胜利作出了贡献。",
+          "en": "A pivotal battle of World War I in which the radio transmitter in the Eiffel Tower contributed to the Allied victory by jamming German communications."
+        }
+      }
+    },
+    {
+      "id": "弗兰兹·瑞切特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗兰兹·瑞切特"
+        ],
+        "en": [
+          "Franz Reichelt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": " - 1912-02-04",
+        "description": {
+          "zh-cn": "奥地利裁缝，在测试自制降落伞时从埃菲尔铁塔第一层跳下身亡。",
+          "en": "An Austrian tailor who died after jumping from the first level of the Eiffel Tower to test his homemade parachute design."
+        }
+      }
+    },
+    {
+      "id": "阿道夫·希特勒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿道夫·希特勒"
+        ],
+        "en": [
+          "Adolf Hitler"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "纳粹德国元首，在1944年盟军接近巴黎时下令摧毁埃菲尔铁塔及城市。",
+          "en": "The leader of Nazi Germany who ordered the destruction of the Eiffel Tower and the rest of Paris as the Allies approached in 1944."
+        }
+      }
+    },
+    {
+      "id": "迪特里希·冯·肖尔蒂茨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "迪特里希·冯·肖尔蒂茨"
+        ],
+        "en": [
+          "Dietrich von Choltitz"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "二战期间巴黎的德国军事总督，他违抗了希特勒摧毁巴黎的命令，从而保全了埃菲尔铁塔。",
+          "en": "The German military governor of Paris during World War II, who disobeyed Hitler's order to destroy the city, thereby saving the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "奥的斯电梯公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥的斯电梯公司"
+        ],
+        "en": [
+          "Otis Elevator Company"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国电梯公司，为埃菲尔铁塔安装了通往第二层的具有挑战性的电梯。",
+          "en": "An American elevator company that installed the challenging elevators to the second floor of the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "联合国教科文组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国教科文组织"
+        ],
+        "en": [
+          "UNESCO"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "联合国教育、科学及文化组织。",
+          "en": "United Nations Educational, Scientific and Cultural Organization."
+        }
+      }
+    },
+    {
+      "id": "世界遗产",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "世界遗产"
+        ],
+        "en": [
+          "World Heritage Site"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由联合国教科文组织世界遗产委员会评选出的对全人类具有突出普遍价值的地点。",
+          "en": "A landmark or area selected by the UNESCO World Heritage Committee as having cultural, historical, scientific or other form of significance, which is legally protected by international treaties."
+        }
+      }
+    },
+    {
+      "id": "布莱克浦塔",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "布莱克浦塔"
+        ],
+        "en": [
+          "Blackpool Tower"
+        ]
+      },
+      "properties": {
+        "period": "1894 - ",
+        "location": {
+          "zh-cn": "英国黑潭",
+          "en": "Blackpool, England"
+        },
+        "description": {
+          "zh-cn": "位于英国黑潭的观光塔，其设计灵感来源于埃菲尔铁塔。",
+          "en": "A tourist attraction in Blackpool, England, inspired by the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "id": "沃特金塔",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沃特金塔"
+        ],
+        "en": [
+          "Watkin's Tower"
+        ]
+      },
+      "properties": {
+        "period": "1891 - 1907",
+        "location": {
+          "zh-cn": "英国伦敦温布利公园",
+          "en": "Wembley Park, London, England"
+        },
+        "description": {
+          "zh-cn": "一座未完工的铁塔，旨在超越埃菲尔铁塔，后被拆除。",
+          "en": "An unfinished iron tower designed to surpass the Eiffel Tower, which was later demolished."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "1889年世界博览会",
+      "target": "埃菲尔铁塔",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "埃菲尔铁塔是为了1889年世界博览会而建造的，作为博览会的入口和主要景点。",
+          "en": "The Eiffel Tower was built for the 1889 World's Fair, serving as its entrance arch and main attraction."
+        }
+      }
+    },
+    {
+      "source": "莫里斯·凯什兰",
+      "target": "埃菲尔铁塔",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1884-05",
+        "description": {
+          "zh-cn": "作为埃菲尔建筑公司的高级工程师，与埃米尔·诺吉耶共同构思并绘制了埃菲尔铁塔的最初设计草图。",
+          "en": "As a senior engineer at Compagnie des Établissements Eiffel, he conceived and drew the initial design sketches for the Eiffel Tower with Émile Nouguier."
+        }
+      }
+    },
+    {
+      "source": "埃米尔·诺吉耶",
+      "target": "埃菲尔铁塔",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1884-05",
+        "description": {
+          "zh-cn": "作为埃菲尔建筑公司的高级工程师，与莫里斯·凯什兰共同构思并设计了埃菲尔铁塔。",
+          "en": "As a senior engineer at Compagnie des Établissements Eiffel, he conceived and co-designed the Eiffel Tower with Maurice Koechlin."
+        }
+      }
+    },
+    {
+      "source": "斯特芬·索维斯特",
+      "target": "埃菲尔铁塔",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1884",
+        "description": {
+          "zh-cn": "为埃菲尔铁塔的初步设计增加了装饰性拱门等美学元素，其新图稿说服了古斯塔夫·艾菲尔支持该项目。",
+          "en": "Added aesthetic elements, such as decorative arches, to the preliminary design of the Eiffel Tower, and his new drawings convinced Gustave Eiffel to support the project."
+        }
+      }
+    },
+    {
+      "source": "古斯塔夫·艾菲尔",
+      "target": "埃菲尔铁塔",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1887-01-08",
+        "description": {
+          "zh-cn": "购买了设计专利权，并以自己的名义签署合同，组建公司筹资并监督建造了埃菲尔铁塔。",
+          "en": "Bought the patent for the design, signed the contract in his own name, formed a company to raise funds, and oversaw the construction of the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "source": "埃菲尔铁塔",
+      "target": "巴黎市",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1909",
+        "description": {
+          "zh-cn": "埃菲尔铁塔的所有权属于巴黎市。",
+          "en": "The ownership of the Eiffel Tower belongs to the City of Paris."
+        }
+      }
+    },
+    {
+      "source": "埃菲尔铁塔",
+      "target": "艾菲尔铁塔营运管理公司",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "埃菲尔铁塔由艾菲尔铁塔营运管理公司（SETE）负责管理和运营。",
+          "en": "The Eiffel Tower is managed and operated by the Société d'exploitation de la tour Eiffel (SETE)."
+        }
+      }
+    },
+    {
+      "source": "艺术家反对艾菲尔铁塔",
+      "target": "埃菲尔铁塔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1887-02-14",
+        "description": {
+          "zh-cn": "这份请愿书代表了当时艺术界对建造“无用且可怕的”埃菲尔铁塔的强烈反对。",
+          "en": "This petition represented strong opposition from the artistic community against the construction of the 'useless and monstrous' Eiffel Tower."
+        }
+      }
+    },
+    {
+      "source": "查尔斯·加尼叶",
+      "target": "艺术家反对艾菲尔铁塔",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "领导了由艺术家组成的“三百米委员会”，该委员会发表了《艺术家反对艾菲尔铁塔》的请愿书。",
+          "en": "Led the 'Committee of Three Hundred,' composed of artists, which issued the petition 'Artists' Protest Against the Eiffel Tower'."
+        }
+      }
+    },
+    {
+      "source": "居伊·德·莫泊桑",
+      "target": "艺术家反对艾菲尔铁塔",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为“三百米委员会”的成员，签署了反对建造埃菲尔铁塔的请愿书。",
+          "en": "As a member of the 'Committee of Three Hundred,' he signed the petition protesting the construction of the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "source": "埃菲尔铁塔",
+      "target": "马恩河战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1914-09",
+        "description": {
+          "zh-cn": "在第一次马恩河战役中，埃菲尔铁塔上的无线电发射机通过成功干扰德军无线电通讯，为盟军的胜利做出了贡献。",
+          "en": "During the First Battle of the Marne, the radio transmitter on the Eiffel Tower contributed to the Allied victory by successfully jamming German radio communications."
+        }
+      }
+    },
+    {
+      "source": "阿道夫·希特勒",
+      "target": "埃菲尔铁塔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1944-08",
+        "description": {
+          "zh-cn": "在盟军接近巴黎时，下令巴黎军政长官迪特里希·冯·肖尔蒂茨摧毁埃菲尔铁塔及整个城市。",
+          "en": "As the Allies approached Paris, he ordered the military governor Dietrich von Choltitz to destroy the Eiffel Tower and the entire city."
+        }
+      }
+    },
+    {
+      "source": "迪特里希·冯·肖尔蒂茨",
+      "target": "埃菲尔铁塔",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1944-08",
+        "description": {
+          "zh-cn": "违抗了希特勒的命令，没有摧毁巴黎，从而保全了埃菲尔铁塔。",
+          "en": "Disobeyed Hitler's order and did not destroy Paris, thus saving the Eiffel Tower."
+        }
+      }
+    },
+    {
+      "source": "莱廷观览塔",
+      "target": "埃菲尔铁塔",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "艾菲尔曾表示，1853年纽约世界博览会上的莱廷观览塔是其设计的灵感来源之一。",
+          "en": "Eiffel stated that the Latting Observatory from the 1853 New York World's Fair was one of the inspirations for his design."
+        }
+      }
+    },
+    {
+      "source": "埃菲尔铁塔",
+      "target": "弗兰兹·瑞切特",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1912-02-04",
+        "end_date": "1912-02-04",
+        "description": {
+          "zh-cn": "奥地利裁缝弗兰兹·瑞切特在测试其设计的降落伞时，从埃菲尔铁塔的第一层跳下，不幸身亡。",
+          "en": "The Austrian tailor Franz Reichelt died after jumping from the first level of the Eiffel Tower while testing his parachute design."
+        }
+      }
+    },
+    {
+      "source": "奥的斯电梯公司",
+      "target": "埃菲尔铁塔",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1887-07",
+        "description": {
+          "zh-cn": "为埃菲尔铁塔安装了通往第二层的油压电缆升降机，解决了因塔柱弯曲带来的技术挑战。",
+          "en": "Installed hydraulic cable elevators to the second floor of the Eiffel Tower, solving the technical challenges posed by the curved pillars."
+        }
+      }
+    },
+    {
+      "source": "联合国教科文组织",
+      "target": "埃菲尔铁塔",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1991",
+        "description": {
+          "zh-cn": "将埃菲尔铁塔连同巴黎塞纳河沿岸地区列为世界遗产，确认了其文化价值并提供了保护。",
+          "en": "Listed the Eiffel Tower and the banks of the Seine in Paris as a World Heritage Site, affirming its cultural value and providing it with protection."
+        }
+      }
+    },
+    {
+      "source": "埃菲尔铁塔",
+      "target": "布莱克浦塔",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "埃菲尔铁塔的成功激发了世界范围内的建塔热潮，布莱克浦塔是其中最著名的仿制品之一。",
+          "en": "The success of the Eiffel Tower inspired a wave of tower construction worldwide, with the Blackpool Tower being one of the most famous replicas."
+        }
+      }
+    },
+    {
+      "source": "埃菲尔铁塔",
+      "target": "沃特金塔",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "伦敦的沃特金塔项目旨在模仿并超越埃菲尔铁塔的高度。",
+          "en": "The Watkin's Tower project in London was conceived to imitate and surpass the height of the Eiffel Tower."
+        }
+      }
+    }
+  ]
+}

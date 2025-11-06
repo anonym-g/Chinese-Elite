@@ -1,0 +1,679 @@
+{
+  "nodes": [
+    {
+      "id": "伦敦",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "伦敦",
+          "伦蒂尼恩",
+          "盎格鲁-撒克逊伦敦",
+          "伦敦维克"
+        ],
+        "en": [
+          "London",
+          "Londinium",
+          "Lundenwic"
+        ]
+      },
+      "properties": {
+        "period": "0043 - ",
+        "location": {
+          "zh-cn": "英国英格兰",
+          "en": "England, United Kingdom"
+        },
+        "description": {
+          "zh-cn": "英国首都及最大都市，英格兰首府。由罗马人于公元43年建立，现为世界领先的全球城市之一，在艺术、商业、教育、金融、媒体、旅游和交通方面具有显著地位。",
+          "en": "The capital and largest city of the United Kingdom and England. Founded by the Romans in 43 AD, it is now one of the world's leading global cities, with significant influence in arts, commerce, education, finance, media, tourism, and transport."
+        }
+      }
+    },
+    {
+      "id": "罗马帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗马帝国",
+          "罗马人"
+        ],
+        "en": [
+          "Roman Empire",
+          "Romans"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代欧洲的文明，于公元43年入侵不列颠后建立了伦蒂尼恩（今伦敦）。",
+          "en": "An ancient European civilization that established Londinium (modern-day London) after invading Britain in 43 AD."
+        }
+      }
+    },
+    {
+      "id": "布狄卡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "布狄卡"
+        ],
+        "en": [
+          "Boudica"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "古代不列颠爱西尼部落的女王，曾率领部落反抗罗马帝国的统治，并在公元61年攻陷并焚毁了伦蒂尼恩（伦敦）。",
+          "en": "Queen of the ancient British Iceni tribe, who led an uprising against the occupying forces of the Roman Empire and sacked and burned Londinium (London) in 61 AD."
+        }
+      }
+    },
+    {
+      "id": "阿尔弗雷德大帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿尔弗雷德大帝"
+        ],
+        "en": [
+          "Alfred the Great"
+        ]
+      },
+      "properties": {
+        "lifetime": "0849 - 0899-10-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西撒克逊国王，于886年从维京人手中夺回伦敦并进行了重建。",
+          "en": "King of the West Saxons, who recaptured and rebuilt London from the Vikings in 886 AD."
+        }
+      }
+    },
+    {
+      "id": "威廉一世 (英格兰)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉一世 (英格兰)",
+          "诺曼底公爵威廉"
+        ],
+        "en": [
+          "William the Conqueror"
+        ]
+      },
+      "properties": {
+        "lifetime": "1028 - 1087-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "诺曼底公爵，在1066年征服英格兰后成为英格兰国王。他在伦敦建造了伦敦塔以震慑当地居民。",
+          "en": "Duke of Normandy who became King of England after conquering it in 1066. He built the Tower of London to intimidate the local inhabitants."
+        }
+      }
+    },
+    {
+      "id": "伦敦塔",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "伦敦塔"
+        ],
+        "en": [
+          "Tower of London"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于伦敦市中心泰晤士河北岸的历史城堡，由威廉一世在1066年诺曼征服后开始兴建，是伦敦的世界遗产之一。",
+          "en": "A historic castle located on the north bank of the River Thames in central London. Its construction was initiated by William the Conqueror after the Norman Conquest of 1066. It is one of London's World Heritage Sites."
+        }
+      }
+    },
+    {
+      "id": "威廉二世 (英格兰)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉二世 (英格兰)"
+        ],
+        "en": [
+          "William II of England"
+        ]
+      },
+      "properties": {
+        "lifetime": "1056 - 1100-08-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英格兰国王，于1097年开始兴建威斯敏斯特厅，该建筑后来成为威斯敏斯特宫的基础。",
+          "en": "King of England who began the construction of Westminster Hall in 1097, which became the basis of the Palace of Westminster."
+        }
+      }
+    },
+    {
+      "id": "威斯敏斯特宫",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "威斯敏斯特宫",
+          "威斯敏斯特厅"
+        ],
+        "en": [
+          "Palace of Westminster",
+          "Westminster Hall"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于伦敦泰晤士河畔，是英国国会的所在地。其基础建筑威斯敏斯特厅由威廉二世于1097年开始兴建。",
+          "en": "Located on the banks of the River Thames in London, it is the meeting place of the Parliament of the United Kingdom. Its foundational structure, Westminster Hall, was initiated by William II in 1097."
+        }
+      }
+    },
+    {
+      "id": "伦敦大火",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "伦敦大火"
+        ],
+        "en": [
+          "Great Fire of London"
+        ]
+      },
+      "properties": {
+        "period": "1666-09-02 - 1666-09-06",
+        "location": {
+          "zh-cn": "伦敦",
+          "en": "London"
+        },
+        "description": {
+          "zh-cn": "1666年发生在伦敦的一场大火灾，摧毁了城内大量的木质建筑，之后由罗伯特·胡克等人主导了重建工作。",
+          "en": "A major conflagration that swept through London in 1666, destroying a large number of the city's wooden buildings. Reconstruction was later led by individuals such as Robert Hooke."
+        }
+      }
+    },
+    {
+      "id": "伦敦大瘟疫",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "伦敦大瘟疫",
+          "大瘟疫"
+        ],
+        "en": [
+          "Great Plague of London"
+        ]
+      },
+      "properties": {
+        "period": "1665 - 1666",
+        "location": {
+          "zh-cn": "伦敦",
+          "en": "London"
+        },
+        "description": {
+          "zh-cn": "1665年至1666年间在英国发生的大规模腺鼠疫疫情，导致近10万伦敦人死亡，占当时人口的五分之一。",
+          "en": "A massive outbreak of bubonic plague in England from 1665 to 1666, which killed nearly 100,000 Londoners, a fifth of the city's population at the time."
+        }
+      }
+    },
+    {
+      "id": "罗伯特·胡克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗伯特·胡克"
+        ],
+        "en": [
+          "Robert Hooke"
+        ]
+      },
+      "properties": {
+        "lifetime": "1635-07-28 - 1703-03-03",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国科学家，在1666年伦敦大火后主导了城市的重建工作。",
+          "en": "An English scientist who played a leading role in the reconstruction of London after the Great Fire of 1666."
+        }
+      }
+    },
+    {
+      "id": "1952年伦敦烟雾事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1952年伦敦烟雾事件",
+          "大雾霾"
+        ],
+        "en": [
+          "Great Smog of London"
+        ]
+      },
+      "properties": {
+        "period": "1952-12-05 - 1952-12-09",
+        "location": {
+          "zh-cn": "伦敦",
+          "en": "London"
+        },
+        "description": {
+          "zh-cn": "1952年发生在伦敦的一场严重空气污染事件，最终促使英国议会通过了《1956年空气清净法案》。",
+          "en": "A severe air pollution event that occurred in London in 1952, which ultimately led to the passage of the Clean Air Act 1956."
+        }
+      }
+    },
+    {
+      "id": "1956年空气清净法案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "1956年空气清净法案"
+        ],
+        "en": [
+          "Clean Air Act 1956"
+        ]
+      },
+      "properties": {
+        "period": "1956",
+        "description": {
+          "zh-cn": "英国国会为应对1952年伦敦烟雾事件而通过的一项法案，旨在解决空气污染问题。",
+          "en": "An Act of the Parliament of the United Kingdom passed in response to the Great Smog of London in 1952, aimed at tackling air pollution."
+        }
+      }
+    },
+    {
+      "id": "伦敦大轰炸",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "伦敦大轰炸"
+        ],
+        "en": [
+          "The Blitz"
+        ]
+      },
+      "properties": {
+        "period": "1940-09-07 - 1941-05-11",
+        "location": {
+          "zh-cn": "伦敦",
+          "en": "London"
+        },
+        "description": {
+          "zh-cn": "第二次世界大战期间纳粹德国空军对伦敦进行的一系列大规模轰炸，导致超过3万名伦敦人死亡，并摧毁了大量建筑。",
+          "en": "A sustained strategic bombing campaign against London by Nazi Germany's air force during World War II, resulting in over 30,000 civilian deaths and the destruction of numerous buildings."
+        }
+      }
+    },
+    {
+      "id": "纳粹德国空军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国空军"
+        ],
+        "en": [
+          "Luftwaffe (Wehrmacht)"
+        ]
+      },
+      "properties": {
+        "period": "1935 - 1946",
+        "description": {
+          "zh-cn": "纳粹德国的空军，在第二次世界大战期间对伦敦实施了大规模的轰炸，即“伦敦大轰炸”。",
+          "en": "The aerial warfare branch of Nazi Germany, which carried out a massive bombing campaign against London during World War II, known as 'The Blitz'."
+        }
+      }
+    },
+    {
+      "id": "大伦敦",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大伦敦"
+        ],
+        "en": [
+          "Greater London"
+        ]
+      },
+      "properties": {
+        "period": "1965 - ",
+        "description": {
+          "zh-cn": "英格兰的一个行政区和大区，由32个伦敦自治市镇和伦敦城组成。其行政管理由大伦敦政府负责。",
+          "en": "An administrative area and region of England, consisting of 32 London boroughs and the City of London. Its administration is handled by the Greater London Authority."
+        }
+      }
+    },
+    {
+      "id": "大伦敦政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大伦敦政府"
+        ],
+        "en": [
+          "Greater London Authority"
+        ]
+      },
+      "properties": {
+        "period": "2000 - ",
+        "description": {
+          "zh-cn": "负责大伦敦地区战略性管理的最高层级地方政府，由选举产生的伦敦市长和伦敦议会组成。",
+          "en": "The top-tier local government responsible for the strategic administration of Greater London, composed of the elected Mayor of London and the London Assembly."
+        }
+      }
+    },
+    {
+      "id": "萨迪克·汗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萨迪克·汗",
+          "简世德"
+        ],
+        "en": [
+          "Sadiq Khan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1970-10-08 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国政治家，现任伦敦市长。",
+          "en": "A British politician serving as the current Mayor of London."
+        }
+      }
+    },
+    {
+      "id": "伦敦市长 (大伦敦)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伦敦市长 (大伦敦)"
+        ],
+        "en": [
+          "Mayor of London"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大伦敦政府的行政首长，负责大伦敦地区的战略管理。现任市长是萨迪克·汗。",
+          "en": "The executive head of the Greater London Authority, responsible for the strategic governance of Greater London. The current mayor is Sadiq Khan."
+        }
+      }
+    },
+    {
+      "id": "伦敦议会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伦敦议会"
+        ],
+        "en": [
+          "London Assembly"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大伦敦政府的一部分，负责监督伦敦市长的决策，并有权批准或否决市长的年度预算提案。",
+          "en": "Part of the Greater London Authority that scrutinises the activities of the Mayor of London and has the power to approve or reject the mayor's annual budget proposals."
+        }
+      }
+    },
+    {
+      "id": "伦敦警察厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伦敦警察厅"
+        ],
+        "en": [
+          "Metropolitan Police Service"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责大伦敦地区（除伦敦城外）执法的警察机构，由伦敦市长通过市长警务和犯罪问题办公室进行监督。",
+          "en": "The police force responsible for law enforcement in Greater London, excluding the City of London. It is overseen by the Mayor of London through the Mayor's Office for Policing and Crime."
+        }
+      }
+    },
+    {
+      "id": "查尔斯·狄更斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查尔斯·狄更斯"
+        ],
+        "en": [
+          "Charles Dickens"
+        ]
+      },
+      "properties": {
+        "lifetime": "1812-02-07 - 1870-06-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "维多利亚时代的英国作家，其作品深刻描绘了当时的伦敦社会，塑造了维多利亚时代早期伦敦的经典形象。",
+          "en": "A Victorian-era English writer whose works vividly depicted London society, shaping the classic image of early Victorian London."
+        }
+      }
+    },
+    {
+      "id": "威廉·莎士比亚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·莎士比亚"
+        ],
+        "en": [
+          "William Shakespeare"
+        ]
+      },
+      "properties": {
+        "lifetime": "1564-04 - 1616-04-23",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国剧作家、诗人和演员，被广泛认为是英语世界最伟大的作家和世界上最杰出的戏剧家。他曾在伦敦生活和工作了很长时间。",
+          "en": "An English playwright, poet, and actor, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He lived and worked in London for a significant period."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "罗马帝国",
+      "target": "伦敦",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "0043",
+        "description": {
+          "zh-cn": "罗马人于公元43年建立了伦蒂尼恩定居点，即现代伦敦的前身。",
+          "en": "The Romans founded the settlement of Londinium in 43 AD, which became the precursor to modern London."
+        }
+      }
+    },
+    {
+      "source": "布狄卡",
+      "target": "伦敦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0061",
+        "description": {
+          "zh-cn": "布狄卡率领爱西尼部落攻陷并焚毁了伦蒂尼恩（伦敦）。",
+          "en": "Boudica led the Iceni tribe to sack and burn Londinium (London)."
+        }
+      }
+    },
+    {
+      "source": "阿尔弗雷德大帝",
+      "target": "伦敦",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0886",
+        "description": {
+          "zh-cn": "阿尔弗雷德大帝于886年从维京人手中夺回伦敦并进行了重建。",
+          "en": "Alfred the Great recaptured London from the Vikings in 886 and began its reconstruction."
+        }
+      }
+    },
+    {
+      "source": "威廉一世 (英格兰)",
+      "target": "伦敦塔",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1066",
+        "description": {
+          "zh-cn": "威廉一世在征服英格兰后，于伦敦城东南角建造了伦敦塔，以震慑当地居民。",
+          "en": "After conquering England, William I built the Tower of London in the southeast corner of the city to intimidate the local inhabitants."
+        }
+      }
+    },
+    {
+      "source": "威廉二世 (英格兰)",
+      "target": "威斯敏斯特宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1097",
+        "description": {
+          "zh-cn": "威廉二世于1097年开始兴建威斯敏斯特厅，该建筑成为后来威斯敏斯特宫的基础。",
+          "en": "William II began the construction of Westminster Hall in 1097, which became the foundation for the later Palace of Westminster."
+        }
+      }
+    },
+    {
+      "source": "伦敦大瘟疫",
+      "target": "伦敦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1665",
+        "end_date": "1666",
+        "description": {
+          "zh-cn": "1665年至1666年的大瘟疫导致伦敦近10万人死亡，占当时人口的五分之一。",
+          "en": "The Great Plague from 1665 to 1666 caused the deaths of nearly 100,000 people in London, one-fifth of the population at the time."
+        }
+      }
+    },
+    {
+      "source": "伦敦大火",
+      "target": "伦敦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1666",
+        "description": {
+          "zh-cn": "1666年的伦敦大火摧毁了城内大量的木质建筑。",
+          "en": "The Great Fire of London in 1666 destroyed a large number of the city's wooden buildings."
+        }
+      }
+    },
+    {
+      "source": "罗伯特·胡克",
+      "target": "伦敦",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1666",
+        "description": {
+          "zh-cn": "罗伯特·胡克在1666年伦敦大火后主导了城市的重建工作。",
+          "en": "Robert Hooke led the reconstruction efforts of the city after the Great Fire of London in 1666."
+        }
+      }
+    },
+    {
+      "source": "纳粹德国空军",
+      "target": "伦敦大轰炸",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "纳粹德国空军在第二次世界大战期间对伦敦进行了一系列轰炸，史称“伦敦大轰炸”。",
+          "en": "The Luftwaffe conducted a series of bombings against London during World War II, known as 'The Blitz'."
+        }
+      }
+    },
+    {
+      "source": "伦敦大轰炸",
+      "target": "伦敦",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "第二次世界大战期间的伦敦大轰炸导致超过3万名伦敦人死亡，并摧毁了大量建筑。",
+          "en": "The Blitz during World War II resulted in over 30,000 deaths in London and the destruction of a vast number of buildings."
+        }
+      }
+    },
+    {
+      "source": "1952年伦敦烟雾事件",
+      "target": "1956年空气清净法案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1952",
+        "description": {
+          "zh-cn": "1952年的大雾霾事件最终促使英国议会通过了《1956年空气清净法案》。",
+          "en": "The Great Smog of 1952 ultimately led to the passage of the Clean Air Act 1956 by the UK Parliament."
+        }
+      }
+    },
+    {
+      "source": "大伦敦",
+      "target": "大伦敦政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2000",
+        "description": {
+          "zh-cn": "大伦敦行政区由大伦敦政府进行管理。",
+          "en": "The administrative area of Greater London is governed by the Greater London Authority."
+        }
+      }
+    },
+    {
+      "source": "萨迪克·汗",
+      "target": "伦敦市长 (大伦敦)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "萨迪克·汗是现任伦敦市长。",
+          "en": "Sadiq Khan is the current Mayor of London."
+        }
+      }
+    },
+    {
+      "source": "伦敦议会",
+      "target": "伦敦市长 (大伦敦)",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "伦敦议会负责监督伦敦市长的决策，并有权批准或否决其年度预算提案。",
+          "en": "The London Assembly scrutinises the decisions of the Mayor of London and has the power to approve or reject the mayor's annual budget proposals."
+        }
+      }
+    },
+    {
+      "source": "伦敦警察厅",
+      "target": "伦敦市长 (大伦敦)",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "伦敦警察厅由伦敦市长通过市长警务和犯罪问题办公室进行监督。",
+          "en": "The Metropolitan Police Service is overseen by the Mayor of London through the Mayor's Office for Policing and Crime."
+        }
+      }
+    },
+    {
+      "source": "伦敦",
+      "target": "查尔斯·狄更斯",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "伦敦是查尔斯·狄更斯许多作品的故事背景地，他笔下的伦敦形象对后世影响深远。",
+          "en": "London served as the setting for many of Charles Dickens' works, and his portrayal of the city has had a lasting influence."
+        }
+      }
+    },
+    {
+      "source": "伦敦",
+      "target": "威廉·莎士比亚",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "威廉·莎士比亚曾在伦敦生活和工作了很长一段时间。",
+          "en": "William Shakespeare lived and worked in London for a significant period of his life."
+        }
+      }
+    }
+  ]
+}
