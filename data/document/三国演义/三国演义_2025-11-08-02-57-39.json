@@ -1,0 +1,717 @@
+{
+  "nodes": [
+    {
+      "id": "三国演义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "三国演义",
+          "三国志通俗演义",
+          "三国志演义",
+          "三国志传",
+          "三国传",
+          "三国全传",
+          "三国英雄志传"
+        ],
+        "en": [
+          "Romance of the Three Kingdoms"
+        ]
+      },
+      "properties": {
+        "period": "1368 - 1400",
+        "description": {
+          "zh-cn": "中国文学史上第一部长篇历史演义章回小说，根据《三国志》及《三国志平话》等史书和话本改编，为中国古典小说四大名著之一。",
+          "en": "The first full-length historical episodic novel in Chinese literature, adapted from historical records like 'Records of the Three Kingdoms' and storybooks like 'Sanguozhi Pinghua'. It is one of the Four Great Classical Novels of Chinese literature."
+        }
+      }
+    },
+    {
+      "id": "罗贯中",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗贯中"
+        ],
+        "en": [
+          "Luo Guanzhong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "period": "1330 - 1400",
+        "description": {
+          "zh-cn": "元末明初的小说家，普遍认为是中国古典小说《三国演义》的作者。",
+          "en": "A novelist from the late Yuan and early Ming dynasties, widely considered the author of the classical Chinese novel 'Romance of the Three Kingdoms'."
+        }
+      }
+    },
+    {
+      "id": "施耐庵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "施耐庵"
+        ],
+        "en": [
+          "Shi Nai'an"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "period": "1296 - 1372",
+        "description": {
+          "zh-cn": "元末明初小说家，传说为罗贯中的老师，有说法认为他与罗贯中合著了《三国演义》。",
+          "en": "A novelist from the late Yuan and early Ming dynasties, believed to be Luo Guanzhong's teacher. Some theories suggest he co-authored 'Romance of the Three Kingdoms' with Luo."
+        }
+      }
+    },
+    {
+      "id": "三国志",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "三国志"
+        ],
+        "en": [
+          "Records of the Three Kingdoms"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由西晋陈寿所著的纪传体国别史，是记载中国三国时期历史的官修正史，也是《三国演义》的主要史料来源之一。",
+          "en": "An official historical text on the Three Kingdoms period of China, written by Chen Shou of the Western Jin dynasty. It is one of the primary sources for 'Romance of the Three Kingdoms'."
+        }
+      }
+    },
+    {
+      "id": "三国志平话",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "三国志平话",
+          "全相三国志平话"
+        ],
+        "en": [
+          "Sanguozhi Pinghua"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "元代至治年间刊行的民间话本，是《三国演义》的重要创作来源之一。",
+          "en": "A folk storyteller's script published during the Zhizhi era of the Yuan dynasty, serving as an important source for 'Romance of the Three Kingdoms'."
+        }
+      }
+    },
+    {
+      "id": "毛宗岗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛宗岗"
+        ],
+        "en": [
+          "Mao Zonggang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝学者，与其父毛纶一同评改《三国演义》，形成今日通行的120回“毛本”。",
+          "en": "A Qing dynasty scholar who, along with his father Mao Lun, edited and revised 'Romance of the Three Kingdoms', creating the popular 120-chapter version known as the 'Mao edition'."
+        }
+      }
+    },
+    {
+      "id": "毛纶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛纶"
+        ],
+        "en": [
+          "Mao Lun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝学者，与其子毛宗岗一同评改《三国演义》。",
+          "en": "A Qing dynasty scholar who, along with his son Mao Zonggang, edited and revised 'Romance of the Three Kingdoms'."
+        }
+      }
+    },
+    {
+      "id": "刘备",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘备",
+          "玄德",
+          "刘玄德",
+          "刘皇叔",
+          "先主"
+        ],
+        "en": [
+          "Liu Bei"
+        ]
+      },
+      "properties": {
+        "lifetime": "161 - 223-06-10",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉的开国皇帝。在《三国演义》中被塑造为仁民爱物、礼贤下士的仁君典型。",
+          "en": "The founding emperor of Shu Han during the Three Kingdoms period. In 'Romance of the Three Kingdoms', he is portrayed as a benevolent and virtuous ruler who cherished his people and valued talented individuals."
+        }
+      }
+    },
+    {
+      "id": "关羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "关羽",
+          "关公",
+          "云长",
+          "关云长",
+          "美髯公"
+        ],
+        "en": [
+          "Guan Yu"
+        ]
+      },
+      "properties": {
+        "death_place": {
+          "zh-cn": "麦城"
+        },
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年名将，刘备的义弟。在《三国演义》中被塑造为“威猛刚毅”、“义重如山”的形象。",
+          "en": "A famous general from the late Eastern Han dynasty and the sworn brother of Liu Bei. In 'Romance of the Three Kingdoms', he is depicted as a figure of might, resolution, and unwavering loyalty."
+        }
+      }
+    },
+    {
+      "id": "张飞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张飞",
+          "翼德",
+          "张翼德"
+        ],
+        "en": [
+          "Zhang Fei"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 221",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年名将，刘备的义弟，以勇猛著称。",
+          "en": "A famous general from the late Eastern Han dynasty and the sworn brother of Liu Bei, known for his bravery and fierceness."
+        }
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操",
+          "孟德",
+          "曹孟德",
+          "曹阿瞒"
+        ],
+        "en": [
+          "Cao Cao"
+        ]
+      },
+      "properties": {
+        "lifetime": "155 - 220-03-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年权臣，曹魏的奠基者。在《三国演义》中被塑造成一位“宁教我负天下人，休教天下人负我”的奸雄。",
+          "en": "A powerful warlord of the late Eastern Han dynasty and the founder of the state of Cao Wei. In 'Romance of the Three Kingdoms', he is portrayed as a cunning and ambitious tyrant who famously declared, 'I would rather betray the world than let the world betray me.'"
+        }
+      }
+    },
+    {
+      "id": "孙权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙权",
+          "仲谋",
+          "孙仲谋",
+          "碧眼儿"
+        ],
+        "en": [
+          "Sun Quan"
+        ]
+      },
+      "properties": {
+        "lifetime": "182 - 252-05-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期孙吴的建立者，统治江东地区。",
+          "en": "The founder of the state of Sun Wu (Eastern Wu) during the Three Kingdoms period, ruling over the Jiangdong region."
+        }
+      }
+    },
+    {
+      "id": "诸葛亮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诸葛亮",
+          "孔明",
+          "卧龙"
+        ],
+        "en": [
+          "Zhuge Liang"
+        ]
+      },
+      "properties": {
+        "lifetime": "181 - 234",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "五丈原"
+        },
+        "description": {
+          "zh-cn": "三国时期蜀汉丞相，杰出的政治家和军事家。在《三国演义》中是智慧的化身，被作者塑造为“鞠躬尽瘁，死而后已”的“贤相”典型。",
+          "en": "The chancellor of Shu Han during the Three Kingdoms period, an outstanding statesman and military strategist. In 'Romance of the Three Kingdoms', he is the personification of wisdom, portrayed as the archetypal 'virtuous chancellor' who 'spared no effort and dedicated his life to his cause'."
+        }
+      }
+    },
+    {
+      "id": "蜀汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蜀汉",
+          "蜀"
+        ],
+        "en": [
+          "Shu Han"
+        ]
+      },
+      "properties": {
+        "period": "221 - 263",
+        "description": {
+          "zh-cn": "三国时期由刘备建立的政权。在《三国演义》中，作者以蜀汉为中心，体现了“尊刘反曹”的倾向。",
+          "en": "A state founded by Liu Bei during the Three Kingdoms period. In 'Romance of the Three Kingdoms', the narrative centers on Shu Han, reflecting a pro-Liu, anti-Cao bias."
+        }
+      }
+    },
+    {
+      "id": "曹魏",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "曹魏",
+          "魏"
+        ],
+        "en": [
+          "Cao Wei"
+        ]
+      },
+      "properties": {
+        "period": "220 - 266",
+        "description": {
+          "zh-cn": "三国时期由曹丕建立的政权，其基础由曹操奠定。",
+          "en": "A state founded by Cao Pi during the Three Kingdoms period, with its foundations laid by Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "孙吴 (三国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "孙吴 (三国)",
+          "吴",
+          "孙吴",
+          "东吴"
+        ],
+        "en": [
+          "Sun Wu (Three Kingdoms)",
+          "Eastern Wu"
+        ]
+      },
+      "properties": {
+        "period": "229 - 280",
+        "description": {
+          "zh-cn": "三国时期由孙权建立的政权，位于江东地区。",
+          "en": "A state founded by Sun Quan during the Three Kingdoms period, located in the Jiangdong region."
+        }
+      }
+    },
+    {
+      "id": "西晋",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西晋"
+        ],
+        "en": [
+          "Western Jin"
+        ]
+      },
+      "properties": {
+        "period": "266 - 316",
+        "description": {
+          "zh-cn": "由司马炎建立的朝代，最终统一三国，结束了长期的战乱。",
+          "en": "A dynasty founded by Sima Yan that ultimately unified the Three Kingdoms, ending a long period of warfare."
+        }
+      }
+    },
+    {
+      "id": "赤壁之战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "赤壁之战"
+        ],
+        "en": [
+          "Battle of Red Cliffs"
+        ]
+      },
+      "properties": {
+        "period": "208",
+        "description": {
+          "zh-cn": "孙权、刘备联军在长江赤壁一带大破曹操大军的关键战役，奠定了三国鼎立的基础。",
+          "en": "A decisive battle in which the allied forces of Sun Quan and Liu Bei defeated Cao Cao's large army near the Red Cliffs on the Yangtze River, laying the foundation for the tripartite division of the Three Kingdoms."
+        }
+      }
+    },
+    {
+      "id": "夷陵之战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "夷陵之战"
+        ],
+        "en": [
+          "Battle of Yiling"
+        ]
+      },
+      "properties": {
+        "period": "221 - 222",
+        "description": {
+          "zh-cn": "刘备为关羽复仇而对孙吴发动的战役，蜀汉在此战中惨败。",
+          "en": "A battle initiated by Liu Bei against Sun Wu to avenge the death of Guan Yu, which resulted in a disastrous defeat for Shu Han."
+        }
+      }
+    },
+    {
+      "id": "吕蒙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕蒙"
+        ],
+        "en": [
+          "Lü Meng"
+        ]
+      },
+      "properties": {
+        "lifetime": "179 - 220",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东吴名将，在《三国演义》中设计袭取荆州，并最终导致关羽败亡。",
+          "en": "A famous general of Eastern Wu who, in 'Romance of the Three Kingdoms', devises a plan to seize Jing Province, ultimately leading to Guan Yu's defeat and death."
+        }
+      }
+    },
+    {
+      "id": "陆逊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陆逊"
+        ],
+        "en": [
+          "Lu Xun"
+        ]
+      },
+      "properties": {
+        "lifetime": "183 - 245",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东吴名将，在夷陵之战中担任大都督，以火攻击败刘备大军。",
+          "en": "A famous general of Eastern Wu who served as the commander-in-chief during the Battle of Yiling and defeated Liu Bei's army using a fire attack."
+        }
+      }
+    },
+    {
+      "id": "司马炎",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马炎"
+        ],
+        "en": [
+          "Sima Yan"
+        ]
+      },
+      "properties": {
+        "lifetime": "236 - 290-05-16",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西晋的开国皇帝，篡夺曹魏政权，后灭亡东吴，统一中国。",
+          "en": "The founding emperor of the Western Jin dynasty, who usurped the Cao Wei throne and later conquered Eastern Wu, unifying China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "罗贯中",
+      "target": "三国演义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "罗贯中综合民间传说、戏曲话本及史书，创作了《三国演义》。",
+          "en": "Luo Guanzhong synthesized folk legends, theatrical scripts, storybooks, and historical records to create 'Romance of the Three Kingdoms'."
+        }
+      }
+    },
+    {
+      "source": "施耐庵",
+      "target": "三国演义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "有说法认为《三国演义》是罗贯中和他的老师施耐庵合著，但未有明确考证。",
+          "en": "It is suggested that 'Romance of the Three Kingdoms' was co-authored by Luo Guanzhong and his teacher Shi Nai'an, though this has not been definitively proven."
+        }
+      }
+    },
+    {
+      "source": "罗贯中",
+      "target": "施耐庵",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据传说，施耐庵是罗贯中的老师。",
+          "en": "According to legend, Shi Nai'an was Luo Guanzhong's teacher."
+        }
+      }
+    },
+    {
+      "source": "三国志",
+      "target": "三国演义",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《三国演义》是根据正史《三国志》等史书进行改编和演义的历史小说。",
+          "en": "'Romance of the Three Kingdoms' is a historical novel adapted and dramatized based on official histories such as 'Records of the Three Kingdoms'."
+        }
+      }
+    },
+    {
+      "source": "三国志平话",
+      "target": "三国演义",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "元代话本《三国志平话》是《三国演义》的重要创作来源之一。",
+          "en": "The Yuan dynasty storybook 'Sanguozhi Pinghua' was one of the important sources for the creation of 'Romance of the Three Kingdoms'."
+        }
+      }
+    },
+    {
+      "source": "毛宗岗",
+      "target": "三国演义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "与父亲毛纶一同评改《三国演义》，增删文字，形成了今日流传最广的120回“毛本”。",
+          "en": "Together with his father Mao Lun, he edited and revised 'Romance of the Three Kingdoms', adding and removing text, to form the most widely circulated 120-chapter 'Mao edition' today."
+        }
+      }
+    },
+    {
+      "source": "毛纶",
+      "target": "三国演义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "与儿子毛宗岗一同评改《三国演义》，形成了今日流传最广的“毛本”。",
+          "en": "Together with his son Mao Zonggang, he edited and revised 'Romance of the Three Kingdoms', forming the widely circulated 'Mao edition' today."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "关羽",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在《三国演义》中，刘备、关羽与张飞在桃园结为异姓兄弟，史称“桃园结义”。",
+          "en": "In 'Romance of the Three Kingdoms', Liu Bei, Guan Yu, and Zhang Fei became sworn brothers in the Peach Garden, an event known as the 'Oath of the Peach Garden'."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "张飞",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在《三国演义》中，刘备、张飞与关羽在桃园结为异姓兄弟，史称“桃园结义”。",
+          "en": "In 'Romance of the Three Kingdoms', Liu Bei, Zhang Fei, and Guan Yu became sworn brothers in the Peach Garden, an event known as the 'Oath of the Peach Garden'."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "刘备",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "207",
+        "position": {
+          "zh-cn": "军师、丞相",
+          "en": "Military Advisor, Chancellor"
+        },
+        "description": {
+          "zh-cn": "刘备三顾茅庐请诸葛亮出山辅佐，诸葛亮为蜀汉“鞠躬尽瘁，死而后已”。",
+          "en": "Liu Bei visited Zhuge Liang three times to persuade him to become his advisor. Zhuge Liang served Shu Han with utmost dedication until his death."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "蜀汉",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "221",
+        "description": {
+          "zh-cn": "刘备于221年在成都称帝，国号为汉，史称蜀汉。",
+          "en": "In 221, Liu Bei proclaimed himself emperor in Chengdu, establishing the state of Han, known to history as Shu Han."
+        }
+      }
+    },
+    {
+      "source": "曹操",
+      "target": "曹魏",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "曹操统一了中国北方，为之后其子曹丕建立曹魏政权奠定了坚实的基础。",
+          "en": "Cao Cao unified northern China, laying a solid foundation for his son Cao Pi to establish the state of Cao Wei."
+        }
+      }
+    },
+    {
+      "source": "孙权",
+      "target": "孙吴 (三国)",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "229",
+        "description": {
+          "zh-cn": "孙权于229年称帝，国号为吴，定都建业，史称孙吴或东吴。",
+          "en": "Sun Quan declared himself emperor in 229, establishing the state of Wu with its capital at Jianye, known to history as Sun Wu or Eastern Wu."
+        }
+      }
+    },
+    {
+      "source": "赤壁之战",
+      "target": "曹操",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "208",
+        "description": {
+          "zh-cn": "在赤壁之战中，曹操率领的大军被孙权和刘备的联军用火攻大败，统一天下的计划受挫。",
+          "en": "In the Battle of Red Cliffs, Cao Cao's large army was decisively defeated by the allied forces of Sun Quan and Liu Bei through a fire attack, thwarting his plan to unify China."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "孙权",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "208",
+        "end_date": "219",
+        "description": {
+          "zh-cn": "为抵抗曹操，刘备与孙权结成联盟，并在赤壁之战中联手获胜。联盟因荆州争端和关羽之死而破裂。",
+          "en": "To resist Cao Cao, Liu Bei and Sun Quan formed an alliance and achieved victory together at the Battle of Red Cliffs. The alliance later broke down due to the dispute over Jing Province and the death of Guan Yu."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "孙权",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "221",
+        "end_date": "223",
+        "description": {
+          "zh-cn": "关羽被东吴所杀后，刘备发兵攻打孙权为义弟复仇，引发了夷陵之战。",
+          "en": "After Guan Yu was killed by Eastern Wu, Liu Bei launched a campaign against Sun Quan to avenge his sworn brother, leading to the Battle of Yiling."
+        }
+      }
+    },
+    {
+      "source": "吕蒙",
+      "target": "关羽",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "219",
+        "description": {
+          "zh-cn": "吕蒙以“白衣渡江”之计奇袭荆州，最终俘虏并斩杀了关羽。",
+          "en": "Lü Meng used the tactic of 'crossing the river in civilian clothes' to launch a surprise attack on Jing Province, ultimately capturing and executing Guan Yu."
+        }
+      }
+    },
+    {
+      "source": "陆逊",
+      "target": "刘备",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "222",
+        "description": {
+          "zh-cn": "在夷陵之战中，陆逊指挥吴军以火烧连营之计大破刘备的蜀军，迫使其退守白帝城。",
+          "en": "During the Battle of Yiling, Lu Xun commanded the Wu forces and decisively defeated Liu Bei's Shu army by setting fire to their interconnected camps, forcing him to retreat to Baidicheng."
+        }
+      }
+    },
+    {
+      "source": "司马炎",
+      "target": "西晋",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "266",
+        "description": {
+          "zh-cn": "司马炎接受魏元帝曹奂的禅让，建立晋朝，史称西晋。",
+          "en": "Sima Yan accepted the abdication of Emperor Yuan of Wei, Cao Huan, and established the Jin dynasty, known to history as the Western Jin."
+        }
+      }
+    },
+    {
+      "source": "西晋",
+      "target": "蜀汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "263",
+        "description": {
+          "zh-cn": "魏将邓艾偷渡阴平，兵临成都，后主刘禅投降，蜀汉灭亡。其后司马氏篡魏建晋。",
+          "en": "The Wei general Deng Ai crossed Yinping by a treacherous route and appeared before Chengdu. The Shu emperor Liu Shan surrendered, and Shu Han fell. The Sima clan later usurped Wei and established Jin."
+        }
+      }
+    },
+    {
+      "source": "西晋",
+      "target": "孙吴 (三国)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "280",
+        "description": {
+          "zh-cn": "西晋发兵攻打东吴，吴主孙皓投降，东吴灭亡，三国时代结束。",
+          "en": "The Western Jin launched a campaign against Eastern Wu. The Wu emperor Sun Hao surrendered, marking the end of Eastern Wu and the Three Kingdoms period."
+        }
+      }
+    }
+  ]
+}

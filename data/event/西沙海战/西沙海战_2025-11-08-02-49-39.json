@@ -1,0 +1,791 @@
+{
+  "nodes": [
+    {
+      "id": "西沙海战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "西沙海战",
+          "西沙自卫反击战",
+          "黄沙海战",
+          "癸丑海战"
+        ],
+        "en": [
+          "Battle of the Paracel Islands"
+        ]
+      },
+      "properties": {
+        "period": "1974-01-19 - 1974-01-20",
+        "location": {
+          "zh-cn": "西沙群岛永乐群岛海域"
+        },
+        "description": {
+          "zh-cn": "1974年中国人民解放军与越南共和国军在西沙群岛永乐群岛海域发生的一场战斗。中国人民解放军在此次战斗中获胜，并取得了对整个西沙群岛的实际控制权。",
+          "en": "A battle fought in 1974 between the People's Liberation Army of China and the military of the Republic of Vietnam in the waters of the Crescent Group of the Paracel Islands. The PLA won the battle and gained de facto control over the entire Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "参与西沙海战的一方，最终取得胜利并控制了整个西沙群岛。",
+          "en": "One of the combatants in the Battle of the Paracel Islands, which ultimately won and gained control over the entire Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "越南共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越南共和国",
+          "南越"
+        ],
+        "en": [
+          "Republic of Vietnam",
+          "South Vietnam"
+        ]
+      },
+      "properties": {
+        "period": "1955 - 1975",
+        "description": {
+          "zh-cn": "参与西沙海战的一方，战败后丧失了对西沙部分岛屿的控制权。",
+          "en": "One of the combatants in the Battle of the Paracel Islands, which lost control over parts of the islands after its defeat."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "以军事顾问形式间接参与西沙海战，但在冲突升级后宣布中立，拒绝了南越的干预请求。",
+          "en": "Indirectly involved in the Battle of the Paracel Islands through military advisors, but declared neutrality and refused South Vietnam's request for intervention when the conflict escalated."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军",
+          "解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的武装力量，是西沙海战的中方主要参战部队。",
+          "en": "The armed forces of the People's Republic of China and the main Chinese combatant force in the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "越南共和国军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越南共和国军"
+        ],
+        "en": [
+          "Army of the Republic of Vietnam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "越南共和国的武装力量，是西沙海战的越方主要参战部队。",
+          "en": "The armed forces of the Republic of Vietnam and the main Vietnamese combatant force in the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "魏鸣森",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏鸣森"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中国人民解放军海军榆林基地副司令员，西沙海战中方海上编队指挥员。",
+          "en": "Then Deputy Commander of the PLA Navy's Yulin Base and the commander of the Chinese naval formation during the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "何文锷",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何文锷"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "越南共和国海军上校，西沙海战越方黄沙特遣队指挥官。",
+          "en": "A captain in the Republic of Vietnam Navy and the commander of the Hoang Sa (Paracel) task force during the battle."
+        }
+      }
+    },
+    {
+      "id": "阮文绍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阮文绍"
+        ],
+        "en": [
+          "Nguyễn Văn Thiệu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任越南共和国总统，授权越方军队在西沙冲突中还击。",
+          "en": "Then President of the Republic of Vietnam, who authorized the Vietnamese forces to return fire in the Paracel Islands conflict."
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": [
+          "Zhou Enlai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中华人民共和国国务院总理，指示叶剑英等人组织指挥西沙自卫反击战。",
+          "en": "Then Premier of the State Council of the People's Republic of China, who instructed Ye Jianying and others to organize and command the self-defense counterattack at the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "叶剑英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶剑英"
+        ],
+        "en": [
+          "Ye Jianying"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中共中央军委副主席，受周恩来指示负责组织领导小组指挥西沙海战。",
+          "en": "Then Vice Chairman of the CPC Central Military Commission, who was instructed by Zhou Enlai to lead a group to command the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": [
+          "Deng Xiaoping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中华人民共和国国务院副总理，是参与指挥西沙海战的领导小组成员之一。",
+          "en": "Then Vice Premier of the State Council of the People's Republic of China and a member of the leading group that commanded the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "许世友",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "许世友"
+        ],
+        "en": [
+          "Xu Shiyou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任广州军区司令员，负责统一指挥西沙海战的全部队行动。",
+          "en": "Then Commander of the Guangzhou Military Region, responsible for the unified command of all troops in the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "越南战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "越南战争"
+        ],
+        "en": [
+          "Vietnam War"
+        ]
+      },
+      "properties": {
+        "period": "1955 - 1975",
+        "description": {
+          "zh-cn": "一场发生在东南亚的长期战争，西沙海战是其末期的一部分。",
+          "en": "A long-term war in Southeast Asia, of which the Battle of the Paracel Islands was a part in its later stages."
+        }
+      }
+    },
+    {
+      "id": "中越边境冲突",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中越边境冲突"
+        ],
+        "en": [
+          "Sino-Vietnamese border conflicts"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指中华人民共和国与越南之间的一系列边境武装冲突，西沙海战是其中的海上边界冲突之一。",
+          "en": "A series of armed border conflicts between the People's Republic of China and Vietnam, of which the Battle of the Paracel Islands was one of the maritime border conflicts."
+        }
+      }
+    },
+    {
+      "id": "西沙群岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "西沙群岛",
+          "西沙"
+        ],
+        "en": [
+          "Paracel Islands"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于南海的群岛，是西沙海战的发生地和争夺的核心。战后由中华人民共和国完全控制。",
+          "en": "An archipelago in the South China Sea, the location and central point of contention in the Battle of the Paracel Islands. It came under the full control of the People's Republic of China after the battle."
+        }
+      }
+    },
+    {
+      "id": "冯松柏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯松柏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1974-01-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国人民解放军海军274艇政委，在西沙海战中牺牲。",
+          "en": "Political Commissar of PLA Navy vessel 274, killed in action during the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "魏文他",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏文他"
+        ],
+        "en": [
+          "Ngụy Văn Thà"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1974-01-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "越南共和国海军10号舰舰长，在西沙海战中阵亡。",
+          "en": "Captain of Republic of Vietnam Navy vessel HQ-10, killed in action during the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "范文鸿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "范文鸿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "越南共和国军少校，在西沙海战后的登陆战中被中国人民解放军俘虏。",
+          "en": "A major in the Army of the Republic of Vietnam, captured by the PLA during the landing operations after the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "杰拉尔德·埃米尔·科什",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杰拉尔德·埃米尔·科什"
+        ],
+        "en": [
+          "Gerald Emile Kosh"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国驻岘港领事馆联络官，在西沙海战后的登陆战中被中国人民解放军俘虏。",
+          "en": "A liaison officer from the U.S. Consulate in Da Nang, captured by the PLA during the landing operations after the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军海军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军海军"
+        ],
+        "en": [
+          "People's Liberation Army Navy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的海上武装力量，是执行西沙海战任务的中方主力。",
+          "en": "The naval branch of the People's Liberation Army, which was the main Chinese force executing the mission in the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "越南共和国海军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越南共和国海军"
+        ],
+        "en": [
+          "Republic of Vietnam Navy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "越南共和国军的海上武装力量，是参与西沙海战的越方主力。",
+          "en": "The naval branch of the Army of the Republic of Vietnam, which was the main Vietnamese force participating in the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "日早号扫雷舰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日早号扫雷舰"
+        ],
+        "en": [
+          "RVNS Nhật Tảo (HQ-10)"
+        ]
+      },
+      "properties": {
+        "period": " - 1974-01-19",
+        "description": {
+          "zh-cn": "隶属于越南共和国海军的一艘扫雷舰（舷号HQ-10），在西沙海战中被中国人民解放军海军击沉。",
+          "en": "A minesweeper (hull number HQ-10) of the Republic of Vietnam Navy, which was sunk by the PLA Navy during the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "第七舰队 (美国海军)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第七舰队 (美国海军)"
+        ],
+        "en": [
+          "United States Seventh Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国海军的下属舰队。在西沙海战期间，南越曾请求其干预，但遭到拒绝。",
+          "en": "A numbered fleet of the United States Navy. During the Battle of the Paracel Islands, South Vietnam's request for its intervention was denied."
+        }
+      }
+    },
+    {
+      "id": "东海舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东海舰队"
+        ],
+        "en": [
+          "East Sea Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军海军三大舰队之一。在西沙海战期间曾派舰艇编队通过台湾海峡增援南海舰队。",
+          "en": "One of the three major fleets of the PLA Navy. During the Battle of the Paracel Islands, it dispatched a naval formation to reinforce the South Sea Fleet, passing through the Taiwan Strait."
+        }
+      }
+    },
+    {
+      "id": "中华民国海军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国海军"
+        ],
+        "en": [
+          "Republic of China Navy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的海上武装力量。在西沙海战期间，其对通过台湾海峡的解放军东海舰队进行了全程监控但未作军事反应。",
+          "en": "The maritime branch of the Republic of China Armed Forces. During the Battle of the Paracel Islands, it monitored the PLA East Sea Fleet's passage through the Taiwan Strait without any military reaction."
+        }
+      }
+    },
+    {
+      "id": "广州军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广州军区"
+        ],
+        "en": [
+          "Guangzhou Military Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军原七大军区之一，在西沙海战中负责统一指挥所有参战部队。",
+          "en": "Formerly one of the seven military regions of the People's Liberation Army, it was responsible for the unified command of all participating forces in the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "id": "中共中央军委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央军委",
+          "中央军事委员会"
+        ],
+        "en": [
+          "Central Military Commission (China)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的最高军事领导机构，对西沙海战作出了决策和部署。",
+          "en": "The highest military command authority of the Chinese Communist Party, which made decisions and deployments for the Battle of the Paracel Islands."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "越南战争",
+      "target": "西沙海战",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "西沙海战发生于越南战争末期，美军从越南撤军的背景下，南越海军实力得到增强，是冲突的背景之一。",
+          "en": "The Battle of the Paracel Islands occurred in the final stages of the Vietnam War, against the backdrop of the U.S. withdrawal, which strengthened the South Vietnamese Navy and was one of the contexts for the conflict."
+        }
+      }
+    },
+    {
+      "source": "中越边境冲突",
+      "target": "西沙海战",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "西沙海战是中越海上边界冲突的一部分。",
+          "en": "The Battle of the Paracel Islands was part of the Sino-Vietnamese maritime border conflicts."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "越南共和国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1974-01-19",
+        "end_date": "1974-01-20",
+        "description": {
+          "zh-cn": "两国因西沙群岛主权争议爆发西沙海战。",
+          "en": "The two countries fought the Battle of the Paracel Islands over a sovereignty dispute concerning the islands."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "越南共和国军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1974-01-19",
+        "end_date": "1974-01-20",
+        "description": {
+          "zh-cn": "双方军队在西沙海战中直接交战。",
+          "en": "The two militaries engaged in direct combat during the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "source": "魏鸣森",
+      "target": "中国人民解放军海军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "海军榆林基地副司令员、西沙巡逻海上编队指挥组指挥员",
+          "en": "Deputy Commander of the Yulin Naval Base, Commander of the Xisha Patrol Maritime Formation Command Group"
+        },
+        "description": {
+          "zh-cn": "魏鸣森作为中方海上指挥官，指挥了西沙海战。",
+          "en": "As the Chinese maritime commander, Wei Mingsen commanded the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "source": "何文锷",
+      "target": "越南共和国海军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "黄沙特遣队指挥官",
+          "en": "Commander of the Hoang Sa Task Force"
+        },
+        "description": {
+          "zh-cn": "何文锷作为越方指挥官，指挥了西沙海战。",
+          "en": "As the Vietnamese commander, Ha Van Ngac commanded the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "source": "许世友",
+      "target": "广州军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "许世友作为广州军区司令员，统一指挥所有参与西沙海战的中国部队。",
+          "en": "As the Commander of the Guangzhou Military Region, Xu Shiyou had unified command over all Chinese forces participating in the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "source": "广州军区",
+      "target": "中共中央军委",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1974-01-16",
+        "description": {
+          "zh-cn": "中共中央军委决定，所有参与西沙海战的部队行动统一由广州军区指挥。",
+          "en": "The CPC Central Military Commission decided that all troop movements in the Battle of the Paracel Islands would be under the unified command of the Guangzhou Military Region."
+        }
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "叶剑英",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1974-01-19",
+        "description": {
+          "zh-cn": "周恩来电话指示叶剑英召集领导小组，到总参谋部指挥作战。",
+          "en": "Zhou Enlai instructed Ye Jianying via telephone to convene a leading group to command the battle from the General Staff Department."
+        }
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "西沙海战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1974-01-19",
+        "description": {
+          "zh-cn": "叶剑英负责组织领导小组，直接指挥了西沙海战。",
+          "en": "Ye Jianying was responsible for organizing a leading group that directly commanded the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "西沙海战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1974-01-19",
+        "description": {
+          "zh-cn": "邓小平是叶剑英组织的指挥西沙海战的领导小组成员之一。",
+          "en": "Deng Xiaoping was a member of the leading group organized by Ye Jianying to command the Battle of the Paracel Islands."
+        }
+      }
+    },
+    {
+      "source": "阮文绍",
+      "target": "西沙海战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1974-01-18",
+        "description": {
+          "zh-cn": "阮文绍授权其海军在冲突中可以开火还击，推动了战斗的爆发。",
+          "en": "Nguyễn Văn Thiệu authorized his navy to return fire in the conflict, which pushed towards the outbreak of the battle."
+        }
+      }
+    },
+    {
+      "source": "西沙海战",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1974-01-20",
+        "description": {
+          "zh-cn": "西沙海战以中方胜利告终，使得中华人民共和国取得了对整个西沙群岛及其周边海域的实际控制权。",
+          "en": "The Battle of the Paracel Islands ended in a Chinese victory, allowing the People's Republic of China to gain de facto control over the entire Paracel Islands and its surrounding waters."
+        }
+      }
+    },
+    {
+      "source": "西沙海战",
+      "target": "越南共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1974-01-20",
+        "description": {
+          "zh-cn": "越南共和国在西沙海战中战败，丧失了对西沙部分岛屿的控制权，并遭受了人员和舰艇损失。",
+          "en": "The Republic of Vietnam was defeated in the Battle of the Paracel Islands, losing control over parts of the islands and suffering casualties and naval losses."
+        }
+      }
+    },
+    {
+      "source": "西沙海战",
+      "target": "日早号扫雷舰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-01-19",
+        "description": {
+          "zh-cn": "越南共和国海军10号舰“日早号”在海战中被击沉。",
+          "en": "The Republic of Vietnam Navy vessel HQ-10 \"Nhật Tảo\" was sunk during the naval battle."
+        }
+      }
+    },
+    {
+      "source": "西沙海战",
+      "target": "冯松柏",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1974-01-19",
+        "description": {
+          "zh-cn": "中国人民解放军海军274艇政委冯松柏在战斗中牺牲。",
+          "en": "Feng Songbai, Political Commissar of PLA Navy vessel 274, was killed in action during the battle."
+        }
+      }
+    },
+    {
+      "source": "西沙海战",
+      "target": "魏文他",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1974-01-19",
+        "description": {
+          "zh-cn": "越南共和国海军10号舰舰长魏文他在战斗中阵亡。",
+          "en": "Ngụy Văn Thà, Captain of Republic of Vietnam Navy vessel HQ-10, was killed in action during the battle."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "范文鸿",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-01-20",
+        "description": {
+          "zh-cn": "南越军少校范文鸿在登陆作战中被中国人民解放军俘虏。",
+          "en": "South Vietnamese Army Major Phạm Văn Hồng was captured by the People's Liberation Army during landing operations."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "杰拉尔德·埃米尔·科什",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-01-20",
+        "description": {
+          "zh-cn": "美国联络官杰拉尔德·埃米尔·科什在登陆作战中被中国人民解放军俘虏。",
+          "en": "U.S. liaison officer Gerald Emile Kosh was captured by the People's Liberation Army during landing operations."
+        }
+      }
+    },
+    {
+      "source": "第七舰队 (美国海军)",
+      "target": "越南共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-01",
+        "description": {
+          "zh-cn": "南越方面曾呼吁在附近活动的美国海军第七舰队干预，但请求被拒绝。",
+          "en": "South Vietnam appealed for intervention from the nearby U.S. Navy's Seventh Fleet, but the request was denied."
+        }
+      }
+    },
+    {
+      "source": "中华民国海军",
+      "target": "东海舰队",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1974-01-22",
+        "description": {
+          "zh-cn": "中国人民解放军东海舰队派舰艇编队通过台湾海峡南下增援时，中华民国海军对其进行了全程监控，但未采取军事行动进行阻拦。",
+          "en": "When the PLA's East Sea Fleet dispatched a formation through the Taiwan Strait to reinforce the south, the Republic of China Navy monitored its entire passage but took no military action to obstruct it."
+        }
+      }
+    }
+  ]
+}

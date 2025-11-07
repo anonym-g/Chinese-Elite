@@ -1,0 +1,220 @@
+{
+  "nodes": [
+    {
+      "id": "胡正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡正",
+          "胡振邦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1924-11-21 - 2011-01-17",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "灵石",
+          "en": "Lingshi"
+        },
+        "description": {
+          "zh-cn": "中国作家，山药蛋派成员。曾任山西省文学艺术界联合会副主席、山西省作家协会副主席，为中国作家协会名誉委员。",
+          "en": "Chinese writer and a member of the Shanyaodan School. He formerly served as the vice chairman of the Shanxi Federation of Literary and Art Circles, the vice chairman of the Shanxi Writers Association, and was an honorary member of the China Writers Association."
+        }
+      }
+    },
+    {
+      "id": "山西省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山西省",
+          "山西"
+        ],
+        "en": [
+          "Shanxi"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "灵石县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "灵石县",
+          "灵石"
+        ],
+        "en": [
+          "Lingshi County"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "山西省",
+          "en": "Shanxi Province"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国山西省晋中市下辖的县，胡正的出生地。",
+          "en": "A county under the jurisdiction of Jinzhong City, Shanxi Province, People's Republic of China, and the birthplace of Hu Zheng."
+        }
+      }
+    },
+    {
+      "id": "山药蛋派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山药蛋派"
+        ],
+        "en": [
+          "Shanyaodan School"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国当代文学的一个重要流派，以山西作家群为主体。",
+          "en": "An important school of modern Chinese literature, mainly composed of writers from Shanxi."
+        }
+      }
+    },
+    {
+      "id": "山西省文学艺术界联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山西省文学艺术界联合会"
+        ],
+        "en": [
+          "Shanxi Federation of Literary and Art Circles"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "山西省作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山西省作家协会"
+        ],
+        "en": [
+          "Shanxi Writers Association"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": [
+          "China Writers Association"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "胡正",
+      "target": "灵石县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1924-11-21",
+        "description": {
+          "zh-cn": "胡正出生于山西灵石。",
+          "en": "Hu Zheng was born in Lingshi, Shanxi."
+        }
+      }
+    },
+    {
+      "source": "胡正",
+      "target": "山药蛋派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "胡正是山药蛋派的成员。",
+          "en": "Hu Zheng was a member of the Shanyaodan School."
+        }
+      }
+    },
+    {
+      "source": "胡正",
+      "target": "山西省文学艺术界联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "胡正曾担任山西省文学艺术界联合会副主席。",
+          "en": "Hu Zheng formerly served as the Vice Chairman of the Shanxi Federation of Literary and Art Circles."
+        }
+      }
+    },
+    {
+      "source": "胡正",
+      "target": "山西省作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "胡正曾担任山西省作家协会副主席。",
+          "en": "Hu Zheng formerly served as the Vice Chairman of the Shanxi Writers Association."
+        }
+      }
+    },
+    {
+      "source": "胡正",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "名誉委员",
+          "en": "Honorary Member"
+        },
+        "description": {
+          "zh-cn": "胡正是中国作家协会名誉委员。",
+          "en": "Hu Zheng was an honorary member of the China Writers Association."
+        }
+      }
+    },
+    {
+      "source": "胡正",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，胡正是中国共产党党员。",
+          "en": "According to Wikipedia categories, Hu Zheng was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}
