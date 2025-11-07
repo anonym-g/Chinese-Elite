@@ -1,0 +1,947 @@
+{
+  "nodes": [
+    {
+      "id": "易经",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "易经",
+          "周易"
+        ],
+        "en": [
+          "I Ching",
+          "Book of Changes"
+        ]
+      },
+      "properties": {
+        "period": "西周",
+        "description": {
+          "zh-cn": "中国古典文献之一，古代中国用于推演未来吉凶祸福的卜筮书，自汉代开始被尊奉为“五经”之一。其中心思想是用阴阳符号构成的六十四卦象代表世间万物的运行状态。",
+          "en": "One of the Chinese classic texts, an ancient Chinese divination text used to predict future fortunes. It has been revered as one of the 'Five Classics' since the Han Dynasty. Its central idea is to use the 64 hexagrams, composed of yin and yang symbols, to represent the state of all things in the world."
+        }
+      }
+    },
+    {
+      "id": "西周",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西周"
+        ],
+        "en": [
+          "Western Zhou dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-1046 - -0771",
+        "description": {
+          "zh-cn": "中国历史上继商朝之后的朝代，《周易》据信成书于此期间。",
+          "en": "The dynasty in Chinese history that followed the Shang dynasty, during which the Book of Changes is believed to have been written."
+        }
+      }
+    },
+    {
+      "id": "汉代",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉代"
+        ],
+        "en": [
+          "Han dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-0202 - 0220",
+        "description": {
+          "zh-cn": "中国历史上继秦朝之后的大一统王朝，在此期间，《周易》被尊为“五经”之一。",
+          "en": "A unified dynasty in Chinese history following the Qin dynasty, during which the I Ching was revered as one of the 'Five Classics'."
+        }
+      }
+    },
+    {
+      "id": "五经",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "五经"
+        ],
+        "en": [
+          "Five Classics"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "儒家学派奉为经典的五部著作，包括《诗经》、《尚书》、《礼记》、《周易》、《春秋》。",
+          "en": "The five texts that the Confucian school regards as classics, including the Classic of Poetry, Book of Documents, Book of Rites, I Ching, and Spring and Autumn Annals."
+        }
+      }
+    },
+    {
+      "id": "连山 (筮法)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "连山 (筮法)",
+          "连山"
+        ],
+        "en": [
+          "Lianshan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "传说中的“三易”之一，以艮卦为首，现已失传。",
+          "en": "One of the legendary 'Three Changes' (San Yi), which started with the Gen hexagram and is now lost."
+        }
+      }
+    },
+    {
+      "id": "归藏",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "归藏"
+        ],
+        "en": [
+          "Guicang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "传说中的“三易”之一，以坤卦为首，长期失传，但出土的王家台秦简可能与其有关。",
+          "en": "One of the legendary 'Three Changes' (San Yi), which started with the Kun hexagram. It was long lost, but the excavated Qin slips from Wangjiatai may be related to it."
+        }
+      }
+    },
+    {
+      "id": "三易",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "三易"
+        ],
+        "en": [
+          "San Yi",
+          "Three Changes"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "《连山》、《归藏》和《周易》的合称。",
+          "en": "The collective name for Lianshan, Guicang, and Zhouyi (I Ching)."
+        }
+      }
+    },
+    {
+      "id": "周文王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周文王"
+        ],
+        "en": [
+          "King Wen of Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西周的奠基者，传统上认为他将八卦推演为六十四卦，并为《周易》作卦辞。",
+          "en": "The founder of the Western Zhou dynasty, traditionally credited with expanding the eight trigrams to sixty-four hexagrams and writing the hexagram judgments for the I Ching."
+        }
+      }
+    },
+    {
+      "id": "易传",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "易传",
+          "十翼"
+        ],
+        "en": [
+          "Yizhuan",
+          "Ten Wings"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "对《周易》的解释性著作，共有十篇，传统上认为由孔子及其后学所作，旨在从哲学和道德层面解读《周易》。",
+          "en": "An interpretive work on the I Ching, consisting of ten sections. It is traditionally attributed to Confucius and his followers and aims to interpret the I Ching from philosophical and moral perspectives."
+        }
+      }
+    },
+    {
+      "id": "儒家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "儒家"
+        ],
+        "en": [
+          "Confucianism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由孔子创立的中国古代思想学派，对《周易》进行了系统性的解释和哲学化。",
+          "en": "An ancient Chinese school of thought founded by Confucius, which systematically interpreted and philosophized the I Ching."
+        }
+      }
+    },
+    {
+      "id": "王弼 (三国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王弼 (三国)",
+          "王弼"
+        ],
+        "en": [
+          "Wang Bi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期曹魏的玄学家，为《周易》作注，是义理派易学的代表人物。",
+          "en": "A metaphysician of the Cao Wei state during the Three Kingdoms period who wrote a commentary on the I Ching and is a representative figure of the Yili (Meaning and Principle) school of I Ching studies."
+        }
+      }
+    },
+    {
+      "id": "韩康伯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩康伯"
+        ],
+        "en": [
+          "Han Kangbo"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东晋学者，与王弼共同为《周易》作注。",
+          "en": "A scholar of the Eastern Jin dynasty who, along with Wang Bi, wrote commentaries on the I Ching."
+        }
+      }
+    },
+    {
+      "id": "朱熹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱熹"
+        ],
+        "en": [
+          "Zhu Xi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南宋理学家，其著作《周易本义》是后世研究《周易》的重要版本。",
+          "en": "A Neo-Confucian scholar of the Southern Song dynasty whose work 'Zhouyi benyi' (Original Meaning of the Zhou Changes) is an important version for later studies of the I Ching."
+        }
+      }
+    },
+    {
+      "id": "孔子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔子"
+        ],
+        "en": [
+          "Confucius"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "春秋末期的思想家、教育家，儒家学派的创始人。传统上认为他撰写了《十翼》（易传）来解读《周易》。",
+          "en": "A thinker and educator from the late Spring and Autumn period, and the founder of Confucianism. He is traditionally credited with writing the 'Ten Wings' (Yizhuan) to interpret the I Ching."
+        }
+      }
+    },
+    {
+      "id": "伏羲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伏羲"
+        ],
+        "en": [
+          "Fu Xi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国上古神话中的人类始祖，传说中他创造了八卦。",
+          "en": "A legendary ancestor of humanity in ancient Chinese mythology, credited with the creation of the eight trigrams."
+        }
+      }
+    },
+    {
+      "id": "八卦",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "八卦"
+        ],
+        "en": [
+          "Bagua",
+          "Eight Trigrams"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由三个爻组成的八种符号，是《易经》的基本单位，传说由伏羲所创。",
+          "en": "Eight symbols composed of three yao (lines), which are the basic units of the I Ching, traditionally created by Fu Xi."
+        }
+      }
+    },
+    {
+      "id": "夏禹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "夏禹"
+        ],
+        "en": [
+          "Yu the Great"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国传说中夏朝的建立者，传说他将八卦扩充为六十四卦。",
+          "en": "The legendary founder of the Xia dynasty in China, who is said to have expanded the eight trigrams into sixty-four hexagrams."
+        }
+      }
+    },
+    {
+      "id": "六十四卦",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "六十四卦"
+        ],
+        "en": [
+          "Sixty-four hexagrams"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由两个八卦重叠而成的六十四种符号组合，构成了《周易》的主体内容。",
+          "en": "The sixty-four symbolic combinations formed by stacking two eight trigrams, which constitute the main content of the I Ching."
+        }
+      }
+    },
+    {
+      "id": "周公旦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周公旦",
+          "周公"
+        ],
+        "en": [
+          "Duke of Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西周初年的政治家，周文王之子，传统上认为他为《周易》的每一爻撰写了解释，即“爻辞”。",
+          "en": "A statesman in the early Western Zhou dynasty, son of King Wen of Zhou. He is traditionally credited with writing the explanations for each line of the I Ching, known as the 'line statements' (yaoci)."
+        }
+      }
+    },
+    {
+      "id": "汉武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉武帝"
+        ],
+        "en": [
+          "Emperor Wu of Han"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第七位皇帝，在他的统治下，《周易》被正式尊为儒家“五经”之一，确立了其经典地位。",
+          "en": "The seventh emperor of the Western Han dynasty, under whose reign the I Ching was officially revered as one of the Confucian 'Five Classics', establishing its canonical status."
+        }
+      }
+    },
+    {
+      "id": "李斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李斯"
+        ],
+        "en": [
+          "Li Si"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦朝丞相，在秦始皇焚书坑儒时，将《周易》列为医术占卜之书，使其免于被毁。",
+          "en": "The chancellor of the Qin dynasty. During Emperor Qin Shi Huang's 'burning of books and burying of scholars', he classified the I Ching as a book of medicine and divination, thus sparing it from destruction."
+        }
+      }
+    },
+    {
+      "id": "秦始皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦始皇"
+        ],
+        "en": [
+          "Qin Shi Huang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国首位皇帝，其“焚书坑儒”事件威胁了古代典籍的存续。",
+          "en": "The first emperor of China, whose 'burning of books and burying of scholars' event threatened the survival of ancient texts."
+        }
+      }
+    },
+    {
+      "id": "焚书坑儒",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "焚书坑儒"
+        ],
+        "en": [
+          "Burning of books and burying of scholars"
+        ]
+      },
+      "properties": {
+        "period": "-0213 - -0212",
+        "description": {
+          "zh-cn": "秦始皇时期压制思想、摧残文化的政治运动，《周易》因被视为占卜书籍而幸免。",
+          "en": "A political campaign during the reign of Qin Shi Huang to suppress thought and destroy culture. The I Ching was spared because it was considered a divination book."
+        }
+      }
+    },
+    {
+      "id": "邵雍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邵雍"
+        ],
+        "en": [
+          "Shao Yong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北宋时期的哲学家、易学家，象数派代表人物，其伏羲先天六十四卦图对后世及西方影响深远。",
+          "en": "A philosopher and I Ching scholar of the Northern Song dynasty, a representative figure of the Xiangshu (Image-Number) school. His 'Fuxi's Former Heaven Sixty-Four Hexagrams Chart' had a profound influence on later generations and the West."
+        }
+      }
+    },
+    {
+      "id": "戈特弗里德·莱布尼茨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "戈特弗里德·威廉·莱布尼茨",
+          "莱布尼茨"
+        ],
+        "en": [
+          "Gottfried Wilhelm Leibniz",
+          "Leibniz"
+        ]
+      },
+      "properties": {
+        "lifetime": "1646-07-01 - 1716-11-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国哲学家、数学家，二进制的发明者。他从传教士白晋处了解到《易经》的六十四卦，并认为其与二进制相符。",
+          "en": "A German philosopher and mathematician, and the inventor of the binary system. He learned about the sixty-four hexagrams of the I Ching from the missionary Joachim Bouvet and believed they corresponded to his binary system."
+        }
+      }
+    },
+    {
+      "id": "白晋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白晋",
+          "布维"
+        ],
+        "en": [
+          "Joachim Bouvet"
+        ]
+      },
+      "properties": {
+        "lifetime": "1656-07-18 - 1730-06-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国耶稣会传教士，曾向德国哲学家莱布尼茨介绍《易经》及邵雍的卦图。",
+          "en": "A French Jesuit missionary who introduced the I Ching and Shao Yong's hexagram charts to the German philosopher Leibniz."
+        }
+      }
+    },
+    {
+      "id": "耶稣会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "耶稣会"
+        ],
+        "en": [
+          "Society of Jesus"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "天主教会的主要男修会之一，其传教士在17世纪开始将《易经》引介至欧洲。",
+          "en": "One of the main male religious orders of the Catholic Church. Its missionaries began introducing the I Ching to Europe in the 17th century."
+        }
+      }
+    },
+    {
+      "id": "二进制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "二进制",
+          "二元运算"
+        ],
+        "en": [
+          "Binary system"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由德国数学家莱布尼茨发明的记数系统，仅使用0和1两个符号。莱布尼茨发现其与《易经》的阴阳爻有对应关系。",
+          "en": "A number system invented by the German mathematician Leibniz that uses only two symbols, 0 and 1. Leibniz discovered its correspondence with the yin and yang lines of the I Ching."
+        }
+      }
+    },
+    {
+      "id": "卡尔·荣格",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卡尔·荣格"
+        ],
+        "en": [
+          "Carl Jung"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "瑞士心理学家，认为《易经》作为一种预测未来的方法是极其有效的。",
+          "en": "A Swiss psychologist who considered the I Ching to be an extremely effective method for predicting the future."
+        }
+      }
+    },
+    {
+      "id": "义理派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "义理派"
+        ],
+        "en": [
+          "Yili school"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "研究《周易》的学派之一，强调从卦名、卦爻辞的涵义来解释《易经》，注重其哲学价值。",
+          "en": "A school of I Ching studies that emphasizes interpreting the text based on the meanings of the hexagram names and statements, focusing on its philosophical value."
+        }
+      }
+    },
+    {
+      "id": "象数派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "象数派"
+        ],
+        "en": [
+          "Xiangshu school"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "研究《周易》的学派之一，注重从八卦所象征的物象来解释《易经》，并将其用于占卜。",
+          "en": "A school of I Ching studies that focuses on interpreting the text based on the images symbolized by the trigrams, and uses it for divination."
+        }
+      }
+    },
+    {
+      "id": "京房 (魏郡太守)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "京房 (魏郡太守)",
+          "京房"
+        ],
+        "en": [
+          "Jing Fang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉易学家，象数派代表人物，著有《京氏易传》。",
+          "en": "An I Ching scholar of the Western Han dynasty and a representative of the Xiangshu school, author of the 'Jing shi Yizhuan'."
+        }
+      }
+    },
+    {
+      "id": "程颐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "程颐"
+        ],
+        "en": [
+          "Cheng Yi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北宋理学家，义理派易学代表人物，著有《伊川易传》。",
+          "en": "A Neo-Confucian scholar of the Northern Song dynasty and a representative of the Yili school, author of the 'Yichuan Yizhuan'."
+        }
+      }
+    },
+    {
+      "id": "太极",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "太极"
+        ],
+        "en": [
+          "Taiji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国哲学中的概念，指宇宙最原始的秩序状态，是阴阳两仪的来源。",
+          "en": "A concept in Chinese philosophy referring to the primordial state of the universe, the source of the two polarities (yin and yang)."
+        }
+      }
+    },
+    {
+      "id": "两仪",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "两仪"
+        ],
+        "en": [
+          "Liangyi"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指阴和阳两种对立的势力或状态，由太极产生。",
+          "en": "Refers to the two opposing forces or states of yin and yang, which are generated from Taiji."
+        }
+      }
+    },
+    {
+      "id": "四象",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "四象"
+        ],
+        "en": [
+          "Sixiang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由两仪衍生出的四种现象或图像，分别是太阳、少阳、少阴、太阴。",
+          "en": "The four phenomena or images derived from the Liangyi, namely Greater Yang, Lesser Yang, Lesser Yin, and Greater Yin."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "伏羲",
+      "target": "八卦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据传说，伏羲创造了八卦。",
+          "en": "According to legend, Fu Xi created the Eight Trigrams."
+        }
+      }
+    },
+    {
+      "source": "夏禹",
+      "target": "六十四卦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据传说，夏禹将八卦扩充为六十四卦。",
+          "en": "According to legend, Yu the Great expanded the eight trigrams into the sixty-four hexagrams."
+        }
+      }
+    },
+    {
+      "source": "周文王",
+      "target": "易经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据传统说法，周文王在被囚禁于羑里时推演了《周易》，并为每一卦写下了“卦辞”。",
+          "en": "According to tradition, King Wen of Zhou developed the I Ching while imprisoned in Youli and wrote the 'hexagram judgments' for each hexagram."
+        }
+      }
+    },
+    {
+      "source": "周公旦",
+      "target": "易经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据传统说法，周公旦为《周易》的每一爻撰写了解释，即“爻辞”。",
+          "en": "According to tradition, the Duke of Zhou wrote the explanations for each line of the I Ching, known as the 'line statements' (yaoci)."
+        }
+      }
+    },
+    {
+      "source": "孔子",
+      "target": "易传",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据《史记》等传统文献，孔子晚年喜爱《易经》，并参与编辑了《十翼》（即《易传》）以解释其经文。",
+          "en": "According to traditional texts like the 'Records of the Grand Historian', Confucius developed a fondness for the I Ching in his later years and participated in editing the 'Ten Wings' (Yizhuan) to explain its text."
+        }
+      }
+    },
+    {
+      "source": "儒家",
+      "target": "易传",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《易传》是早期儒家学者对《周易》所作出的系统性解释。",
+          "en": "The Yizhuan is a systematic interpretation of the I Ching made by early Confucian scholars."
+        }
+      }
+    },
+    {
+      "source": "易传",
+      "target": "易经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《易传》作为对《周易》的解释和阐发，极大地丰富和推广了《易经》的哲学思想和道德内涵，使其成为儒家经典。",
+          "en": "As a work of interpretation and elaboration on the I Ching, the Yizhuan greatly enriched and promoted the philosophical ideas and moral connotations of the I Ching, establishing it as a Confucian classic."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "易经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝采纳“罢黜百家，独尊儒术”的政策，将《周易》与《诗》、《书》、《礼》、《春秋》并列为《五经》，确立了其官方经典的地位。",
+          "en": "Emperor Wu of Han adopted the policy of 'dismissing the hundred schools and revering only Confucianism,' elevating the I Ching along with the 'Poetry', 'Documents', 'Rites', and 'Spring and Autumn Annals' to the status of the 'Five Classics', thereby establishing its official canonical status."
+        }
+      }
+    },
+    {
+      "source": "汉代",
+      "target": "易经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "自汉代开始，《易经》被官方尊奉为“五经”之一。",
+          "en": "Since the Han Dynasty, the I Ching has been officially revered as one of the 'Five Classics'."
+        }
+      }
+    },
+    {
+      "source": "李斯",
+      "target": "易经",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0213",
+        "description": {
+          "zh-cn": "在秦始皇“焚书坑儒”期间，时任丞相李斯将《周易》归类为医术占卜之书，从而使其免于被焚毁。",
+          "en": "During Qin Shi Huang's 'burning of books and burying of scholars', Chancellor Li Si classified the I Ching as a book of medicine and divination, thus sparing it from being burned."
+        }
+      }
+    },
+    {
+      "source": "耶稣会",
+      "target": "易经",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1600",
+        "description": {
+          "zh-cn": "自17世纪起，耶稣会的传教士开始将《易经》翻译并介绍到西方世界。",
+          "en": "Starting in the 17th century, Jesuit missionaries began to translate and introduce the I Ching to the Western world."
+        }
+      }
+    },
+    {
+      "source": "白晋",
+      "target": "戈特弗里德·莱布尼茨",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "法国传教士白晋向德国哲学家莱布尼茨介绍了邵雍的伏羲先天六十四卦图，引发了莱布尼茨对《易经》与二进制关系的思考。",
+          "en": "The French missionary Joachim Bouvet introduced Shao Yong's Fuxi's 'Former Heaven Sixty-Four Hexagrams Chart' to the German philosopher Leibniz, sparking Leibniz's thoughts on the relationship between the I Ching and the binary system."
+        }
+      }
+    },
+    {
+      "source": "戈特弗里德·莱布尼茨",
+      "target": "易经",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1701",
+        "description": {
+          "zh-cn": "莱布尼茨认为《易经》的六十四卦图形与他发明的二进制相符合，并对此赞扬备至，促进了《易经》在西方的传播和研究。",
+          "en": "Leibniz believed that the sixty-four hexagram figures of the I Ching corresponded to his invention of the binary system, and he praised it highly, promoting the spread and study of the I Ching in the West."
+        }
+      }
+    },
+    {
+      "source": "戈特弗里德·莱布尼茨",
+      "target": "二进制",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "莱布尼茨是现代二进制记数法的发明者。",
+          "en": "Leibniz was the inventor of the modern binary numeral system."
+        }
+      }
+    },
+    {
+      "source": "王弼 (三国)",
+      "target": "义理派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "王弼是义理派易学的代表人物，他注重从哲学义理层面解释《周易》。",
+          "en": "Wang Bi is a representative figure of the Yili (Meaning and Principle) school of I Ching studies, focusing on interpreting the I Ching from a philosophical perspective."
+        }
+      }
+    },
+    {
+      "source": "程颐",
+      "target": "义理派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "程颐是宋代义理派易学的代表人物。",
+          "en": "Cheng Yi was a representative figure of the Yili school of I Ching studies during the Song dynasty."
+        }
+      }
+    },
+    {
+      "source": "京房 (魏郡太守)",
+      "target": "象数派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "京房是汉代象数派易学的代表人物。",
+          "en": "Jing Fang was a representative figure of the Xiangshu (Image-Number) school of I Ching studies during the Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "邵雍",
+      "target": "象数派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "邵雍是宋代象数派易学的代表人物。",
+          "en": "Shao Yong was a representative figure of the Xiangshu school of I Ching studies during the Song dynasty."
+        }
+      }
+    },
+    {
+      "source": "卡尔·荣格",
+      "target": "易经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "著名心理学家卡尔·荣格认为，《易经》作为一种“预测未来和解析过去”的方法是极其有效的，他的认可提升了《易经》在现代心理学领域的地位。",
+          "en": "The famous psychologist Carl Jung believed that the I Ching is an extremely effective method for 'predicting the future and analyzing the past,' and his endorsement elevated the status of the I Ching in the field of modern psychology."
+        }
+      }
+    },
+    {
+      "source": "太极",
+      "target": "两仪",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在中国哲学体系中，太极产生了两仪（阴和阳）。",
+          "en": "In the Chinese philosophical system, Taiji generates the Liangyi (yin and yang)."
+        }
+      }
+    },
+    {
+      "source": "两仪",
+      "target": "四象",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "两仪（阴阳）的变化和组合产生了四象。",
+          "en": "The changes and combinations of Liangyi (yin and yang) generate the Sixiang (four images)."
+        }
+      }
+    },
+    {
+      "source": "四象",
+      "target": "八卦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "四象进一步组合演化，产生了八卦。",
+          "en": "The further combination and evolution of the Sixiang generate the Bagua (eight trigrams)."
+        }
+      }
+    },
+    {
+      "source": "八卦",
+      "target": "六十四卦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "两个八卦相叠（重卦）构成了六十四卦。",
+          "en": "Two Bagua (trigrams) are stacked to form the sixty-four hexagrams."
+        }
+      }
+    }
+  ]
+}

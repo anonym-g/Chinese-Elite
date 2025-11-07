@@ -1,0 +1,784 @@
+{
+  "nodes": [
+    {
+      "id": "锦衣卫指挥使司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "锦衣卫指挥使司",
+          "锦衣卫",
+          "龙衣卫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1382 - 1661",
+        "location": {
+          "zh-cn": "应天府, 顺天府",
+          "en": "Yingtian Fu, Shuntian Fu"
+        },
+        "description": {
+          "zh-cn": "明朝设立的军政特务机构，直接向皇帝负责，掌管侍卫、巡查、缉捕、刑狱等事宜。其前身为亲军都尉府及仪鸾司，于洪武十五年（1382年）改制而成。清初被改为銮仪卫，南明政权的锦衣卫则延续至1661年咒水之难后才正式终结。",
+          "en": "A military and secret police organization of the Ming Dynasty, directly responsible to the emperor, in charge of bodyguards, patrols, arrests, and prisons. It was reorganized from the Imperial Guard's Commander's Office and the Imperial Standard Guard in 1382. It was renamed the Imperial Guard of Honor (Luan Yi Wei) in the early Qing Dynasty, while the Southern Ming regime's Jinyiwei officially ended after the Cursed Water Incident in 1661."
+        }
+      }
+    },
+    {
+      "id": "明太祖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明太祖",
+          "朱元璋"
+        ],
+        "en": [
+          "Hongwu Emperor",
+          "Zhu Yuanzhang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1328-10-21 - 1398-06-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝的开国皇帝，锦衣卫的设立者。",
+          "en": "The founding emperor of the Ming Dynasty and the founder of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "明成祖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明成祖",
+          "朱棣"
+        ],
+        "en": [
+          "Yongle Emperor",
+          "Zhu Di"
+        ]
+      },
+      "properties": {
+        "lifetime": "1360-05-02 - 1424-08-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第三位皇帝，通过靖难之役夺取皇位后，恢复并加强了锦衣卫的权力。",
+          "en": "The third emperor of the Ming Dynasty who, after seizing the throne through the Jingnan Campaign, restored and strengthened the power of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "咒水之难",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "咒水之难"
+        ],
+        "en": [
+          "Cursed Water Incident"
+        ]
+      },
+      "properties": {
+        "period": "1661",
+        "description": {
+          "zh-cn": "该事件导致南明锦衣卫指挥使马吉翔等人被杀，标志着锦衣卫历史的正式结束。",
+          "en": "This event led to the killing of Ma Jixiang, the commander of the Southern Ming Jinyiwei, and others, marking the official end of the Jinyiwei's history."
+        }
+      }
+    },
+    {
+      "id": "亲军都尉府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "亲军都尉府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝初期的军事机构，是锦衣卫的前身之一。",
+          "en": "A military institution in the early Ming Dynasty, one of the predecessors of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "仪鸾司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "仪鸾司"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝初期的机构，是锦衣卫的前身之一。",
+          "en": "An institution in the early Ming Dynasty, one of the predecessors of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "明朝君主列表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明朝君主列表",
+          "皇帝",
+          "大明皇帝"
+        ],
+        "en": [
+          "Emperor of the Ming dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝历代皇帝的统称，是锦衣卫的直接领导者。",
+          "en": "A collective term for the emperors of the Ming Dynasty, who were the direct leaders of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "宋忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋忠"
+        ],
+        "en": [
+          "Song Zhong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "锦衣卫首任指挥使。",
+          "en": "The first commander of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "骆养性",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "骆养性"
+        ],
+        "en": [
+          "Luo Yangxing"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝末任锦衣卫掌卫事。",
+          "en": "The last commander in charge of the Jinyiwei in the Ming Dynasty."
+        }
+      }
+    },
+    {
+      "id": "胡惟庸案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "胡惟庸案"
+        ],
+        "en": [
+          "Case of Hu Weiyong"
+        ]
+      },
+      "properties": {
+        "period": "1380",
+        "description": {
+          "zh-cn": "明初重大政治案件，事后锦衣卫得到扩充。",
+          "en": "A major political case in the early Ming Dynasty, after which the Jinyiwei was expanded."
+        }
+      }
+    },
+    {
+      "id": "空印案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "空印案"
+        ],
+        "en": [
+          "Case of the Blank Seals"
+        ]
+      },
+      "properties": {
+        "period": "1376",
+        "description": {
+          "zh-cn": "明初重大政治案件，事后锦衣卫得到扩充。",
+          "en": "A major political case in the early Ming Dynasty, after which the Jinyiwei was expanded."
+        }
+      }
+    },
+    {
+      "id": "北镇抚司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北镇抚司"
+        ],
+        "en": [
+          "Northern Pacification Office"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "锦衣卫下属机构，专理诏狱，有独立的侦讯、逮捕、判决、关押权力。",
+          "en": "A subordinate body of the Jinyiwei, specializing in handling cases ordered by imperial decree (zhaoyu), with independent powers of investigation, arrest, judgment, and imprisonment."
+        }
+      }
+    },
+    {
+      "id": "诏狱",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "诏狱"
+        ],
+        "en": [
+          "Imperial Prison"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指由皇帝直接掌管、不经正常司法程序的特殊监狱及相关案件，常由锦衣卫北镇抚司执行。",
+          "en": "Refers to special prisons and related cases directly managed by the emperor, bypassing normal judicial procedures, often handled by the Jinyiwei's Northern Pacification Office."
+        }
+      }
+    },
+    {
+      "id": "三法司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "三法司"
+        ],
+        "en": [
+          "Three Judicial Offices"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝的刑部、都察院与大理寺合称，是国家的最高司法机关。",
+          "en": "The collective name for the Ministry of Justice, the Censorate, and the Grand Court of Revision in the Ming Dynasty, which were the highest judicial bodies of the state."
+        }
+      }
+    },
+    {
+      "id": "靖难之役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "靖难之役"
+        ],
+        "en": [
+          "Jingnan Campaign"
+        ]
+      },
+      "properties": {
+        "period": "1399 - 1402",
+        "description": {
+          "zh-cn": "明朝初年的一场内战，燕王朱棣以此夺取皇位。",
+          "en": "A civil war in the early Ming Dynasty, through which Zhu Di, the Prince of Yan, seized the throne."
+        }
+      }
+    },
+    {
+      "id": "解缙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "解缙"
+        ],
+        "en": [
+          "Xie Jin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1369 - 1415",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "雪地",
+          "en": "In the snow"
+        },
+        "description": {
+          "zh-cn": "明朝大臣，《永乐大典》总裁官，被锦衣卫指挥使纪纲害死。",
+          "en": "A minister of the Ming Dynasty and the chief editor of the Yongle Encyclopedia, who was killed by Ji Gang, the commander of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "纪纲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "纪纲"
+        ],
+        "en": [
+          "Ji Gang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明成祖时期的锦衣卫掌卫事。",
+          "en": "Commander in charge of the Jinyiwei during the reign of the Yongle Emperor."
+        }
+      }
+    },
+    {
+      "id": "李自成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李自成"
+        ],
+        "en": [
+          "Li Zicheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1606-09-22 - 1645-05-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明末农民起义领袖，曾将锦衣卫改名为龙衣卫。",
+          "en": "Leader of the peasant rebellion at the end of the Ming Dynasty, who once renamed the Jinyiwei to Longyiwei (Dragon-Clad Guard)."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国历史上的最后一个皇朝，初期沿用锦衣卫制度，后改为銮仪卫。",
+          "en": "The last imperial dynasty in Chinese history, which initially adopted the Jinyiwei system and later changed it to the Luan Yi Wei (Imperial Guard of Honor)."
+        }
+      }
+    },
+    {
+      "id": "銮仪卫",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "銮仪卫"
+        ],
+        "en": [
+          "Imperial Guard of Honor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝由锦衣卫改名而来的机构，专责皇室仪仗。",
+          "en": "An organization in the Qing Dynasty renamed from the Jinyiwei, responsible exclusively for the imperial ceremonies and guards."
+        }
+      }
+    },
+    {
+      "id": "马吉翔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马吉翔"
+        ],
+        "en": [
+          "Ma Jixiang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南明永历帝时期的锦衣卫指挥使，在咒水之难中被杀。",
+          "en": "The commander of the Jinyiwei during the reign of the Yongli Emperor of the Southern Ming, killed in the Cursed Water Incident."
+        }
+      }
+    },
+    {
+      "id": "任子信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "任子信"
+        ],
+        "en": [
+          "Ren Zixin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南明永历帝时期的锦衣卫掌卫事，在咒水之难中被杀。",
+          "en": "The commander in charge of the Jinyiwei during the reign of the Yongli Emperor of the Southern Ming, killed in the Cursed Water Incident."
+        }
+      }
+    },
+    {
+      "id": "蓝玉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蓝玉"
+        ],
+        "en": [
+          "Lan Yu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝开国将领，其谋反案为锦衣卫办理的著名诏狱之一。",
+          "en": "A founding general of the Ming Dynasty, whose treason case was one of the famous imperial prison cases handled by the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "周延儒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周延儒"
+        ],
+        "en": [
+          "Zhou Yanru"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明末首辅，其案件为锦衣卫办理的著名诏狱之一。",
+          "en": "The Grand Secretary at the end of the Ming Dynasty, whose case was one of the famous imperial prison cases handled by the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "魏忠贤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏忠贤"
+        ],
+        "en": [
+          "Wei Zhongxian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明末宦官，权倾朝野，曾加强锦衣卫权力。",
+          "en": "A powerful eunuch at the end of the Ming Dynasty who enhanced the power of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "id": "西司房",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西司房"
+        ],
+        "en": [
+          "West Office"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "锦衣卫下属机构，负责捕盗，后被魏忠贤用于直接向司礼监汇报。",
+          "en": "A subordinate body of the Jinyiwei, responsible for arresting thieves, later used by Wei Zhongxian to report directly to the Directorate of Ceremonial."
+        }
+      }
+    },
+    {
+      "id": "司礼监",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "司礼监"
+        ],
+        "en": [
+          "Directorate of Ceremonial"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝内廷管理宦官与宫内事务的“十二监”中，首席衙门。",
+          "en": "The chief agency among the 'Twelve Directorates' that managed eunuchs and palace affairs in the inner court of the Ming Dynasty."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "明太祖",
+      "target": "锦衣卫指挥使司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1382",
+        "description": {
+          "zh-cn": "洪武十五年（1382年），明太祖在原亲军都尉府及所属的仪鸾司的基础上改制而成锦衣卫。",
+          "en": "In 1382, the Hongwu Emperor reorganized the former Imperial Guard's Commander's Office and the Imperial Standard Guard to establish the Jinyiwei."
+        }
+      }
+    },
+    {
+      "source": "锦衣卫指挥使司",
+      "target": "明朝君主列表",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1382",
+        "end_date": "1661",
+        "description": {
+          "zh-cn": "锦衣卫是明朝的特务机构，直接向皇帝负责。",
+          "en": "The Jinyiwei was a secret service agency of the Ming Dynasty and was directly responsible to the emperor."
+        }
+      }
+    },
+    {
+      "source": "亲军都尉府",
+      "target": "锦衣卫指挥使司",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1382",
+        "description": {
+          "zh-cn": "锦衣卫是在原亲军都尉府的基础上改制而成的。",
+          "en": "The Jinyiwei was reorganized from the former Imperial Guard's Commander's Office."
+        }
+      }
+    },
+    {
+      "source": "仪鸾司",
+      "target": "锦衣卫指挥使司",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1382",
+        "description": {
+          "zh-cn": "锦衣卫是在原仪鸾司的基础上改制而成的。",
+          "en": "The Jinyiwei was reorganized from the former Imperial Standard Guard."
+        }
+      }
+    },
+    {
+      "source": "咒水之难",
+      "target": "锦衣卫指挥使司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1661",
+        "description": {
+          "zh-cn": "咒水之难中，南明锦衣卫指挥使马吉翔与掌卫事任子信被杀，标志着锦衣卫历史的正式结束。",
+          "en": "In the Cursed Water Incident, the Southern Ming Jinyiwei commander Ma Jixiang and commander in charge Ren Zixin were killed, marking the official end of the Jinyiwei's history."
+        }
+      }
+    },
+    {
+      "source": "咒水之难",
+      "target": "马吉翔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1661",
+        "description": {
+          "zh-cn": "在咒水之难中被杀。",
+          "en": "Was killed in the Cursed Water Incident."
+        }
+      }
+    },
+    {
+      "source": "咒水之难",
+      "target": "任子信",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1661",
+        "description": {
+          "zh-cn": "在咒水之难中被杀。",
+          "en": "Was killed in the Cursed Water Incident."
+        }
+      }
+    },
+    {
+      "source": "胡惟庸案",
+      "target": "锦衣卫指挥使司",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "胡惟庸案结束后，明太祖扩大了锦衣卫的编制。",
+          "en": "After the case of Hu Weiyong, the Hongwu Emperor expanded the establishment of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "source": "空印案",
+      "target": "锦衣卫指挥使司",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "空印案结束后，明太祖扩大了锦衣卫的编制。",
+          "en": "After the Case of the Blank Seals, the Hongwu Emperor expanded the establishment of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "source": "明太祖",
+      "target": "锦衣卫指挥使司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1387",
+        "description": {
+          "zh-cn": "洪武二十年，因锦衣卫多有非法凌虐之举，明太祖下令削减其权力，诏令内外狱咸归三法司。",
+          "en": "In 1387, due to numerous illegal abuses by the Jinyiwei, the Hongwu Emperor ordered the reduction of its power and decreed that all judicial cases be handled by the Three Judicial Offices."
+        }
+      }
+    },
+    {
+      "source": "明成祖",
+      "target": "锦衣卫指挥使司",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1402",
+        "description": {
+          "zh-cn": "靖难之役成功后，为镇压建文旧部，明成祖恢复并加强了锦衣卫的所有权力。",
+          "en": "After the success of the Jingnan Campaign, to suppress the remnants of the Jianwen Emperor's supporters, the Yongle Emperor restored and strengthened all the powers of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "source": "靖难之役",
+      "target": "明成祖",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1399",
+        "end_date": "1402",
+        "description": {
+          "zh-cn": "朱棣通过靖难之役成功夺取皇位。",
+          "en": "Zhu Di successfully seized the throne through the Jingnan Campaign."
+        }
+      }
+    },
+    {
+      "source": "纪纲",
+      "target": "解缙",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1415",
+        "description": {
+          "zh-cn": "永乐十三年（1415年），时任锦衣卫掌卫事的纪纲将《永乐大典》总裁官解缙置于雪地冻死。",
+          "en": "In 1415, Ji Gang, then commander in charge of the Jinyiwei, had Xie Jin, the chief editor of the Yongle Encyclopedia, frozen to death in the snow."
+        }
+      }
+    },
+    {
+      "source": "李自成",
+      "target": "锦衣卫指挥使司",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "将锦衣卫改名为龙衣卫。",
+          "en": "Renamed the Jinyiwei to Longyiwei (Dragon-Clad Guard)."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "锦衣卫指挥使司",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1645",
+        "description": {
+          "zh-cn": "顺治二年，清朝将锦衣卫改名为銮仪卫，并变更其职能，使其专责皇室仪仗。",
+          "en": "In 1645, the Qing dynasty renamed the Jinyiwei to Luan Yi Wei (Imperial Guard of Honor) and changed its function to be solely responsible for imperial ceremonies."
+        }
+      }
+    },
+    {
+      "source": "锦衣卫指挥使司",
+      "target": "蓝玉",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "锦衣卫侦办了蓝玉谋反案，并将其报告给皇帝。此案为著名的诏狱案件之一。",
+          "en": "The Jinyiwei investigated the treason case of Lan Yu and reported it to the emperor. This case is one of the famous imperial prison cases."
+        }
+      }
+    },
+    {
+      "source": "锦衣卫指挥使司",
+      "target": "周延儒",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "锦衣卫侦办了周延儒案，并将其报告给皇帝。此案为著名的诏狱案件之一。",
+          "en": "The Jinyiwei investigated the case of Zhou Yanru and reported it to the emperor. This case is one of the famous imperial prison cases."
+        }
+      }
+    },
+    {
+      "source": "魏忠贤",
+      "target": "西司房",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "魏忠贤给锦衣卫西司房单铸一颗关防大印，使其可跳过锦衣卫指挥使司直接向司礼监汇报。",
+          "en": "Wei Zhongxian had a separate official seal cast for the West Office of the Jinyiwei, allowing it to bypass the Jinyiwei commander and report directly to the Directorate of Ceremonial."
+        }
+      }
+    },
+    {
+      "source": "北镇抚司",
+      "target": "锦衣卫指挥使司",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "北镇抚司是锦衣卫的下属机构。",
+          "en": "The Northern Pacification Office was a subordinate body of the Jinyiwei."
+        }
+      }
+    },
+    {
+      "source": "北镇抚司",
+      "target": "诏狱",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "北镇抚司专理诏狱，负责处理皇帝敕令的案件。",
+          "en": "The Northern Pacification Office specialized in handling imperial prison cases, responsible for cases ordered by the emperor."
+        }
+      }
+    },
+    {
+      "source": "西司房",
+      "target": "司礼监",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在魏忠贤时期，西司房可直接向司礼监汇报，存在事实上的隶属关系。",
+          "en": "During the Wei Zhongxian period, the West Office could report directly to the Directorate of Ceremonial, indicating a de facto subordinate relationship."
+        }
+      }
+    },
+    {
+      "source": "宋忠",
+      "target": "锦衣卫指挥使司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "指挥使",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "首任锦衣卫指挥使。",
+          "en": "The first commander of the Jinyiwei."
+        }
+      }
+    }
+  ]
+}

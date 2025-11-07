@@ -1,0 +1,613 @@
+{
+  "nodes": [
+    {
+      "id": "中原大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中原大战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1930-05-11 - 1930-11-04",
+        "location": {
+          "zh-cn": "河南、山东、安徽",
+          "en": "Henan, Shandong, Anhui"
+        },
+        "description": {
+          "zh-cn": "1930年5月至11月，蒋中正与阎锡山、冯玉祥、李宗仁等军阀，在河南、山东、安徽等地的一场大规模内战。这是北伐统一中国后，中国内最大的内战。",
+          "en": "A large-scale civil war in China from May to November 1930, fought between the forces of Chiang Kai-shek and a coalition of regional military leaders including Yan Xishan, Feng Yuxiang, and Li Zongren. It was the largest civil war in China after the Northern Expedition."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南京国民政府的领导人，中原大战中中央军的总司令。",
+          "en": "Leader of the Nanjing Nationalist Government and commander-in-chief of the Central Army during the Central Plains War."
+        }
+      }
+    },
+    {
+      "id": "阎锡山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阎锡山"
+        ],
+        "en": [
+          "Yan Xishan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "晋系军阀首领，反蒋联军的“中华民国陆海空军总司令”。",
+          "en": "Leader of the Shanxi clique and the commander-in-chief of the anti-Chiang coalition forces."
+        }
+      }
+    },
+    {
+      "id": "冯玉祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯玉祥"
+        ],
+        "en": [
+          "Feng Yuxiang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西北军首领，反蒋联军的副总司令之一。",
+          "en": "Leader of the Northwest Army and one of the deputy commanders-in-chief of the anti-Chiang coalition."
+        }
+      }
+    },
+    {
+      "id": "李宗仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李宗仁"
+        ],
+        "en": [
+          "Li Zongren"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新桂系首领，反蒋联军的副总司令之一。",
+          "en": "Leader of the New Guangxi clique and one of the deputy commanders-in-chief of the anti-Chiang coalition."
+        }
+      }
+    },
+    {
+      "id": "南京国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南京国民政府",
+          "国民政府"
+        ],
+        "en": [
+          "Nanjing Nationalist Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中原大战中由蒋中正领导的中央政府一方。",
+          "en": "The central government side led by Chiang Kai-shek in the Central Plains War."
+        }
+      }
+    },
+    {
+      "id": "北平国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北平国民政府"
+        ],
+        "en": [
+          "Beiping Nationalist Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中原大战期间，由阎锡山、冯玉祥、李宗仁等反蒋势力在北平成立的政府。",
+          "en": "A government established in Beiping by anti-Chiang forces such as Yan Xishan, Feng Yuxiang, and Li Zongren during the Central Plains War."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Zhang Xueliang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东北军领袖，在中原大战后期通电拥蒋，率军入关，影响了战局。",
+          "en": "Leader of the Northeast Army, whose intervention in support of Chiang Kai-shek in the later stages of the Central Plains War was decisive."
+        }
+      }
+    },
+    {
+      "id": "东北军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北军"
+        ],
+        "en": [
+          "Northeast Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由张学良领导的军事集团，驻扎于中国东北地区。",
+          "en": "A military group led by Zhang Xueliang, based in Northeast China."
+        }
+      }
+    },
+    {
+      "id": "西北军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西北军"
+        ],
+        "en": [
+          "Northwest Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由冯玉祥领导的军事集团。",
+          "en": "A military group led by Feng Yuxiang."
+        }
+      }
+    },
+    {
+      "id": "晋系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "晋系"
+        ],
+        "en": [
+          "Shanxi Clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由阎锡山领导的军事集团。",
+          "en": "A military group led by Yan Xishan."
+        }
+      }
+    },
+    {
+      "id": "新桂系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新桂系"
+        ],
+        "en": [
+          "New Guangxi Clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由李宗仁、白崇禧等人领导的军事集团。",
+          "en": "A military group led by Li Zongren, Bai Chongxi, and others."
+        }
+      }
+    },
+    {
+      "id": "国军编遣委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国军编遣委员会"
+        ],
+        "en": [
+          "National Army Reorganization and Disbandment Commission"
+        ]
+      },
+      "properties": {
+        "period": "1929-01-01 - ",
+        "description": {
+          "zh-cn": "1929年成立，旨在商讨国军编遣，减低军费支出，但其裁军方案引发了各地方军阀的疑虑和不满，是中原大战的导火索之一。",
+          "en": "Established in 1929 to discuss the reorganization and disbandment of the national army to reduce military expenditures. Its disarmament plan aroused suspicion and dissatisfaction among regional warlords, becoming one of the triggers for the Central Plains War."
+        }
+      }
+    },
+    {
+      "id": "汪精卫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪精卫"
+        ],
+        "en": [
+          "Wang Jingwei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党左派人物，在中原大战前联合各地方实力派挑战南京国民政府。",
+          "en": "A prominent figure in the left-wing of the Kuomintang, who united with various regional power holders to challenge the Nanjing Nationalist Government before the Central Plains War."
+        }
+      }
+    },
+    {
+      "id": "巧电",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "巧电"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "张学良于1930年9月18日发出的电报，呼吁蒋、联双方停止内战，表明其拥蒋立场。",
+          "en": "A telegram sent by Zhang Xueliang on September 18, 1930, calling for an end to the civil war between Chiang's forces and the coalition, indicating his support for Chiang."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党。中原大战调走了大量准备剿共的国军，使其得以喘息发展。",
+          "en": "The ruling political party of China. The Central Plains War diverted a large number of Nationalist troops intended for anti-communist campaigns, allowing the CCP to recuperate and expand."
+        }
+      }
+    },
+    {
+      "id": "九一八事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "九一八事变"
+        ],
+        "en": [
+          "Mukden Incident"
+        ]
+      },
+      "properties": {
+        "period": "1931-09-18 - ",
+        "description": {
+          "zh-cn": "日本关东军在中国东北发动的军事入侵事件。中原大战后东北军入关导致关外防务空虚，是此事件发生的间接原因之一。",
+          "en": "A military invasion launched by the Japanese Kwantung Army in Northeast China. The Northeast Army's entry into the region south of the Great Wall after the Central Plains War left Manchuria defensively vulnerable, which was an indirect cause of the incident."
+        }
+      }
+    },
+    {
+      "id": "樊钟秀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "樊钟秀"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "许昌",
+          "en": "Xuchang"
+        },
+        "description": {
+          "zh-cn": "反蒋联军将领，任第八方面军指挥官，在许昌前线被国民政府飞机炸死。",
+          "en": "An anti-Chiang coalition general, commander of the 8th Front Army, who was killed by Nationalist government aircraft on the Xuchang front."
+        }
+      }
+    },
+    {
+      "id": "郑大章",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑大章"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西北军第二方面军骑兵集团司令，曾率部奇袭中央军后方的归德机场，险些俘获蒋中正。",
+          "en": "Commander of the Cavalry Group of the Northwest Army's 2nd Front Army, who led a surprise raid on the Guider airfield behind the Central Army's lines and nearly captured Chiang Kai-shek."
+        }
+      }
+    },
+    {
+      "id": "石友三",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石友三"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "军阀，曾为冯玉祥部下，中原大战时加入反蒋联军，任第四方面军指挥官。",
+          "en": "A warlord, formerly a subordinate of Feng Yuxiang, who joined the anti-Chiang coalition during the Central Plains War as the commander of the 4th Front Army."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "南京国民政府",
+      "target": "北平国民政府",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1930-05-11",
+        "end_date": "1930-11-04",
+        "description": {
+          "zh-cn": "在中原大战中，南京国民政府与北平国民政府是敌对的交战双方。",
+          "en": "During the Central Plains War, the Nanjing Nationalist Government and the Beiping Nationalist Government were opposing belligerents."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "南京国民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "领导人、总司令",
+          "en": "Leader, Commander-in-chief"
+        },
+        "description": {
+          "zh-cn": "蒋中正是南京国民政府的领导人，并在中原大战中担任其军队的总司令。",
+          "en": "Chiang Kai-shek was the leader of the Nanjing Nationalist Government and served as the commander-in-chief of its army during the Central Plains War."
+        }
+      }
+    },
+    {
+      "source": "阎锡山",
+      "target": "北平国民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930-04-01",
+        "position": {
+          "zh-cn": "中华民国陆海空军总司令",
+          "en": "Commander-in-chief of the Army, Navy, and Air Force of the Republic of China"
+        },
+        "description": {
+          "zh-cn": "阎锡山被反蒋各派推举为“中华民国陆海空军总司令”，是北平国民政府名义上的最高军事领导人。",
+          "en": "Yan Xishan was acclaimed by the anti-Chiang factions as the Commander-in-chief of the armed forces, making him the nominal supreme military leader of the Beiping Nationalist Government."
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "北平国民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930-04-01",
+        "position": {
+          "zh-cn": "副总司令",
+          "en": "Deputy Commander-in-chief"
+        },
+        "description": {
+          "zh-cn": "冯玉祥担任反蒋联军的副总司令，是北平国民政府的核心人物之一。",
+          "en": "Feng Yuxiang served as the Deputy Commander-in-chief of the anti-Chiang coalition forces and was a key figure in the Beiping Nationalist Government."
+        }
+      }
+    },
+    {
+      "source": "李宗仁",
+      "target": "北平国民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930-04-01",
+        "position": {
+          "zh-cn": "副总司令",
+          "en": "Deputy Commander-in-chief"
+        },
+        "description": {
+          "zh-cn": "李宗仁担任反蒋联军的副总司令，是北平国民政府的核心人物之一。",
+          "en": "Li Zongren served as the Deputy Commander-in-chief of the anti-Chiang coalition forces and was a key figure in the Beiping Nationalist Government."
+        }
+      }
+    },
+    {
+      "source": "国军编遣委员会",
+      "target": "中原大战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "国军编遣委员会推动的军队中央化和裁军计划，因大幅削弱地方军阀实力，引发各派系疑虑和不满，最终导致了中原大战的爆发。",
+          "en": "The military centralization and disarmament plan promoted by the National Army Reorganization and Disbandment Commission significantly weakened the power of regional warlords, causing widespread suspicion and dissatisfaction, which ultimately led to the outbreak of the Central Plains War."
+        }
+      }
+    },
+    {
+      "source": "汪精卫",
+      "target": "北平国民政府",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929",
+        "end_date": "1930",
+        "description": {
+          "zh-cn": "汪精卫联合各地方实力派挑战南京国民政府，并支持阎锡山等人另立中央，促成了北平国民政府的建立。",
+          "en": "Wang Jingwei united with various regional warlords to challenge the Nanjing Nationalist Government and supported Yan Xishan and others in establishing an alternative central government, contributing to the formation of the Beiping Nationalist Government."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "蒋中正",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1930-09-18",
+        "description": {
+          "zh-cn": "张学良于1930年9月18日通电拥蒋，并率领东北军入关，其行动成为蒋中正一方取得中原大战胜利的关键因素。",
+          "en": "On September 18, 1930, Zhang Xueliang declared his support for Chiang Kai-shek and led the Northeast Army into Central China, an action that became a decisive factor for Chiang's victory in the Central Plains War."
+        }
+      }
+    },
+    {
+      "source": "巧电",
+      "target": "蒋中正",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1930-09-18",
+        "description": {
+          "zh-cn": "张学良发出的《巧电》公开表明了其拥蒋立场，极大地鼓舞了南京政府一方的士气，并对反蒋联军造成了沉重打击。",
+          "en": "The 'Qiao Dian' (Clever Telegram) sent by Zhang Xueliang publicly declared his support for Chiang, greatly boosting the morale of the Nanjing government's side and dealing a heavy blow to the anti-Chiang coalition."
+        }
+      }
+    },
+    {
+      "source": "东北军",
+      "target": "北平国民政府",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1930-09",
+        "description": {
+          "zh-cn": "张学良率领东北军入山海关，攻进北平，导致反蒋同盟瓦解。",
+          "en": "Zhang Xueliang led the Northeast Army through the Shanhai Pass and into Beiping, leading to the collapse of the anti-Chiang coalition."
+        }
+      }
+    },
+    {
+      "source": "中原大战",
+      "target": "蒋中正",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1930-11",
+        "description": {
+          "zh-cn": "中原大战的胜利巩固了蒋中正在南京国民政府的最高领导权。",
+          "en": "The victory in the Central Plains War consolidated Chiang Kai-shek's supreme leadership in the Nanjing Nationalist Government."
+        }
+      }
+    },
+    {
+      "source": "中原大战",
+      "target": "冯玉祥",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1930-11-04",
+        "description": {
+          "zh-cn": "中原大战战败后，冯玉祥被迫通电下野，其西北军大部被改编。",
+          "en": "After being defeated in the Central Plains War, Feng Yuxiang was forced to announce his retirement from politics, and most of his Northwest Army was reorganized."
+        }
+      }
+    },
+    {
+      "source": "中原大战",
+      "target": "阎锡山",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1930-11-04",
+        "description": {
+          "zh-cn": "中原大战战败后，阎锡山被迫通电下野，其晋系军队被改编。",
+          "en": "After being defeated in the Central Plains War, Yan Xishan was forced to announce his retirement from politics, and his Shanxi clique army was reorganized."
+        }
+      }
+    },
+    {
+      "source": "中原大战",
+      "target": "李宗仁",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1930-07",
+        "description": {
+          "zh-cn": "在中原大战中，李宗仁指挥的桂军北伐湖南，但最终受挫撤回广西，以战败告终。",
+          "en": "During the Central Plains War, the Guangxi army commanded by Li Zongren marched north to Hunan but was eventually thwarted and retreated to Guangxi, ending in defeat."
+        }
+      }
+    },
+    {
+      "source": "中原大战",
+      "target": "中国共产党",
+      "type": "PUSHED",
+      "properties": {
+        "period": "1930-05 - 1930-11",
+        "description": {
+          "zh-cn": "中原大战调动了大量原计划用于剿共的国民革命军，为中国共产党提供了喘息和发展的机会。",
+          "en": "The Central Plains War diverted a large number of National Revolutionary Army troops originally intended for anti-communist campaigns, providing the Communist Party of China with an opportunity to recuperate and expand."
+        }
+      }
+    },
+    {
+      "source": "中原大战",
+      "target": "九一八事变",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1931-09-18",
+        "description": {
+          "zh-cn": "中原大战后，东北军主力入关，导致中国东北防务空虚，这间接促成了九一八事变的发生。",
+          "en": "After the Central Plains War, the main force of the Northeast Army entered the area south of the Great Wall, leaving Northeast China's defenses vulnerable, which indirectly contributed to the occurrence of the Mukden Incident."
+        }
+      }
+    },
+    {
+      "source": "南京国民政府",
+      "target": "樊钟秀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1930-06-04",
+        "end_date": "1930-06-05",
+        "description": {
+          "zh-cn": "1930年6月4日，南京国民政府的飞机队在许昌前线发动空袭，重创反蒋联军将领樊钟秀，其于次日不治身亡。",
+          "en": "On June 4, 1930, aircraft of the Nanjing Nationalist Government launched an air raid on the Xuchang front, severely wounding anti-Chiang coalition general Fan Zhongxiu, who died the next day."
+        }
+      }
+    },
+    {
+      "source": "郑大章",
+      "target": "蒋中正",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1930-05-31",
+        "end_date": "1930-05-31",
+        "description": {
+          "zh-cn": "1930年5月31日，西北军将领郑大章率骑兵奇袭归德机场，并险些在朱集车站俘获当时在此地的蒋中正。",
+          "en": "On May 31, 1930, Northwest Army general Zheng Dazhang led a cavalry raid on Guider airfield and nearly captured Chiang Kai-shek, who was at the nearby Zhuji station at the time."
+        }
+      }
+    }
+  ]
+}
