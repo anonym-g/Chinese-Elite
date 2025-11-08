@@ -1,0 +1,322 @@
+{
+  "nodes": [
+    {
+      "id": "安定公主",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安定公主"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "654 - 654",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "唐朝公主，唐高宗与武则天的长女。其早夭事件是导致王皇后被废的关键导火索。",
+          "en": "A princess of the Tang dynasty, the eldest daughter of Emperor Gaozong and Wu Zetian. Her early death was a key catalyst for the deposition of Empress Wang."
+        }
+      }
+    },
+    {
+      "id": "唐高宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐高宗",
+          "李治"
+        ],
+        "en": [
+          "Emperor Gaozong of Tang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝第三位皇帝，安定公主的父亲。",
+          "en": "The third emperor of the Tang dynasty, father of Princess Anding."
+        }
+      }
+    },
+    {
+      "id": "武则天",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "武则天",
+          "昭仪",
+          "武昭仪"
+        ],
+        "en": [
+          "Wu Zetian"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国历史上唯一的正统女皇帝，安定公主的母亲。在公主出生时为唐高宗的昭仪。",
+          "en": "The only orthodox female sovereign in Chinese history, mother of Princess Anding. She was Emperor Gaozong's Zhaoyi when the princess was born."
+        }
+      }
+    },
+    {
+      "id": "唐中宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐中宗"
+        ],
+        "en": [
+          "Emperor Zhongzong of Tang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝皇帝，安定公主的同胞弟弟。",
+          "en": "An emperor of the Tang dynasty, a full brother of Princess Anding."
+        }
+      }
+    },
+    {
+      "id": "唐睿宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐睿宗"
+        ],
+        "en": [
+          "Emperor Ruizong of Tang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝皇帝，安定公主的同胞弟弟。",
+          "en": "An emperor of the Tang dynasty, a full brother of Princess Anding."
+        }
+      }
+    },
+    {
+      "id": "太平公主",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "太平公主"
+        ],
+        "en": [
+          "Princess Taiping"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "唐朝公主，安定公主的同胞妹妹。",
+          "en": "A princess of the Tang dynasty, a full sister of Princess Anding."
+        }
+      }
+    },
+    {
+      "id": "王皇后 (唐高宗)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王皇后 (唐高宗)",
+          "王皇后"
+        ],
+        "en": [
+          "Empress Wang (Tang Gaozong)"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "唐高宗的原配皇后，在安定公主死后被诬陷并废黜。",
+          "en": "The first empress consort of Emperor Gaozong, who was framed and deposed after the death of Princess Anding."
+        }
+      }
+    },
+    {
+      "id": "唐朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "唐朝"
+        ],
+        "en": [
+          "Tang dynasty"
+        ]
+      },
+      "properties": {
+        "period": "618 - 907",
+        "description": {
+          "zh-cn": "中国历史上的一个朝代，是安定公主生活的时代背景。",
+          "en": "A Chinese dynasty that was the historical context for Princess Anding's life."
+        }
+      }
+    },
+    {
+      "id": "崇敬寺",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "崇敬寺"
+        ],
+        "en": [
+          "Chongjing Temple"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "安定公主的迁葬地。",
+          "en": "The reburial site of Princess Anding."
+        }
+      }
+    },
+    {
+      "id": "德业寺",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "德业寺"
+        ],
+        "en": [
+          "Deye Temple"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "安定公主迁葬前的所在地。",
+          "en": "The location where Princess Anding was buried before being moved to Chongjing Temple."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "安定公主",
+      "target": "唐高宗",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "安定公主是唐高宗的长女。",
+          "en": "Princess Anding was the eldest daughter of Emperor Gaozong."
+        }
+      }
+    },
+    {
+      "source": "安定公主",
+      "target": "武则天",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "安定公主是武则天的长女。",
+          "en": "Princess Anding was the eldest daughter of Wu Zetian."
+        }
+      }
+    },
+    {
+      "source": "安定公主",
+      "target": "唐中宗",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "安定公主是唐中宗的同胞姐姐。",
+          "en": "Princess Anding was the full sister of Emperor Zhongzong."
+        }
+      }
+    },
+    {
+      "source": "安定公主",
+      "target": "唐睿宗",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "安定公主是唐睿宗的同胞姐姐。",
+          "en": "Princess Anding was the full sister of Emperor Ruizong."
+        }
+      }
+    },
+    {
+      "source": "安定公主",
+      "target": "太平公主",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "安定公主是太平公主的姐姐。",
+          "en": "Princess Anding was the elder sister of Princess Taiping."
+        }
+      }
+    },
+    {
+      "source": "唐高宗",
+      "target": "武则天",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "唐高宗是武则天的丈夫。",
+          "en": "Emperor Gaozong was the husband of Wu Zetian."
+        }
+      }
+    },
+    {
+      "source": "唐高宗",
+      "target": "王皇后 (唐高宗)",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "王皇后是唐高宗的原配妻子。",
+          "en": "Empress Wang was the first wife of Emperor Gaozong."
+        }
+      }
+    },
+    {
+      "source": "唐高宗",
+      "target": "王皇后 (唐高宗)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "654",
+        "description": {
+          "zh-cn": "因认为王皇后杀害了安定公主，唐高宗对其恨之入骨，并最终促成了废后事件。",
+          "en": "Believing Empress Wang had killed Princess Anding, Emperor Gaozong developed a deep hatred for her, which ultimately led to her deposition."
+        }
+      }
+    },
+    {
+      "source": "武则天",
+      "target": "王皇后 (唐高宗)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "654",
+        "description": {
+          "zh-cn": "为争夺后位，武则天将女儿安定公主之死嫁祸于王皇后，是其政治斗争的对手。",
+          "en": "To seize the position of empress, Wu Zetian framed Empress Wang for the death of her daughter, Princess Anding, making them political rivals."
+        }
+      }
+    },
+    {
+      "source": "武则天",
+      "target": "安定公主",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "654",
+        "description": {
+          "zh-cn": "根据《新唐书》和《资治通鉴》的记载，武则天为嫁祸王皇后，亲手将刚出生的女儿（即后来的安定公主）闷死。",
+          "en": "According to the 'New Book of Tang' and 'Zizhi Tongjian', Wu Zetian personally smothered her newborn daughter (later known as Princess Anding) to frame Empress Wang."
+        }
+      }
+    },
+    {
+      "source": "唐高宗",
+      "target": "安定公主",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "664",
+        "description": {
+          "zh-cn": "于664年下诏追封其长女为安定公主，谥号思，并以亲王之礼迁葬。",
+          "en": "In 664, he issued an edict to posthumously honor his eldest daughter as Princess Anding with the posthumous name 'Si', and had her reburied with the honors of a prince."
+        }
+      }
+    }
+  ]
+}

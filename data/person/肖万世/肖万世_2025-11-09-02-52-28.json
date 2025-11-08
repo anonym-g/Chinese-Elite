@@ -1,0 +1,233 @@
+{
+  "nodes": [
+    {
+      "id": "肖万世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "肖万世"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1905-01 - 2009-04-02",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "邢台",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国共产党党员，曾在中国抗日战争时期担任八路军排长，中华人民共和国时期担任四川省凉山州雷波县城区粮站站长。",
+          "en": "A member of the Communist Party of China, who served as a platoon leader in the Eighth Route Army during the Second Sino-Japanese War and as the head of the urban grain station in Leibo County, Liangshan Prefecture, Sichuan Province during the People's Republic of China era."
+        }
+      }
+    },
+    {
+      "id": "邢台",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "邢台"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国河北省的城市，是肖万世的出生地。",
+          "en": "A city in Hebei Province, China, and the birthplace of Xiao Wanshi."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中国抗日战争",
+          "抗日战争"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937 - 1945",
+        "description": {
+          "zh-cn": "20世纪30年代至40年代，中国抵抗大日本帝国侵略的全面战争。",
+          "en": "The full-scale war fought between China and the Empire of Japan from the 1930s to the 1940s."
+        }
+      }
+    },
+    {
+      "id": "八路军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "八路军"
+        ],
+        "en": [
+          "Eighth Route Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国抗日战争时期，由中国共产党实际领导的抗日武装力量。",
+          "en": "An anti-Japanese armed force effectively led by the Communist Party of China during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，由中国共产党领导。",
+          "en": "A socialist state in East Asia led by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "四川省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "四川省"
+        ],
+        "en": [
+          "Sichuan Province"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "凉山州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "凉山州"
+        ],
+        "en": [
+          "Liangshan Prefecture"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "雷波县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "雷波县"
+        ],
+        "en": [
+          "Leibo County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "雷波县城区粮站",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "雷波县城区粮站"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "四川省凉山州雷波县",
+          "en": "Leibo County, Liangshan Prefecture, Sichuan Province"
+        },
+        "description": {
+          "zh-cn": "位于四川省凉山州雷波县的粮食管理机构。",
+          "en": "A grain administration office located in Leibo County, Liangshan Prefecture, Sichuan Province."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "肖万世",
+      "target": "邢台",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本，肖万世是河北邢台人。",
+          "en": "According to the text, Xiao Wanshi was from Xingtai, Hebei."
+        }
+      }
+    },
+    {
+      "source": "肖万世",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本，肖万世是中共党员。",
+          "en": "According to the text, Xiao Wanshi was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "肖万世",
+      "target": "八路军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1937",
+        "end_date": "1945",
+        "position": {
+          "zh-cn": "排长",
+          "en": "Platoon Leader"
+        },
+        "description": {
+          "zh-cn": "肖万世曾在中国抗日战争时期担任八路军排长。",
+          "en": "Xiao Wanshi served as a platoon leader in the Eighth Route Army during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "source": "肖万世",
+      "target": "雷波县城区粮站",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1949",
+        "position": {
+          "zh-cn": "站长",
+          "en": "Station Head"
+        },
+        "description": {
+          "zh-cn": "肖万世在中华人民共和国时期曾任四川省凉山州雷波县城区粮站站长。",
+          "en": "During the era of the People's Republic of China, Xiao Wanshi served as the head of the urban grain station in Leibo County, Liangshan Prefecture, Sichuan Province."
+        }
+      }
+    }
+  ]
+}

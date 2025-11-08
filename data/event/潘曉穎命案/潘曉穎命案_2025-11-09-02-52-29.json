@@ -1,0 +1,794 @@
+{
+  "nodes": [
+    {
+      "id": "潘晓颖命案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "潘晓颖命案"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2018-02-17 - 2018-02-17",
+        "location": {
+          "zh-cn": "台北市",
+          "en": "Taipei"
+        },
+        "description": {
+          "zh-cn": "一宗于2018年2月在台湾台北市发生的谋杀案，受害者为香港居民潘晓颖，嫌犯为其同行男友陈同佳。此案因港台之间缺乏司法互助协议而引发了巨大的政治争议。",
+          "en": "A murder case that occurred in Taipei, Taiwan, in February 2018. The victim was Hong Kong resident Poon Hiu-wing, and the suspect was her boyfriend Chan Tong-kai. The case sparked significant political controversy due to the lack of a judicial assistance agreement between Hong Kong and Taiwan."
+        }
+      }
+    },
+    {
+      "id": "潘晓颖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "潘晓颖"
+        ],
+        "en": [
+          "Poon Hiu-wing"
+        ]
+      },
+      "properties": {
+        "lifetime": "1997-08-05 - 2018-02-17",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "香港",
+          "en": "Hong Kong"
+        },
+        "death_place": {
+          "zh-cn": "台北市",
+          "en": "Taipei"
+        },
+        "description": {
+          "zh-cn": "潘晓颖命案的受害者，香港居民。",
+          "en": "Victim of the Poon Hiu-wing murder case, a resident of Hong Kong."
+        }
+      }
+    },
+    {
+      "id": "陈同佳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈同佳"
+        ],
+        "en": [
+          "Chan Tong-kai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "深圳市",
+          "en": "Shenzhen"
+        },
+        "description": {
+          "zh-cn": "潘晓颖命案的嫌犯，香港居民。",
+          "en": "Suspect in the Poon Hiu-wing murder case, a resident of Hong Kong."
+        }
+      }
+    },
+    {
+      "id": "台北市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台北市"
+        ],
+        "en": [
+          "Taipei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "潘晓颖命案的案发地点。",
+          "en": "The location where the Poon Hiu-wing murder case took place."
+        }
+      }
+    },
+    {
+      "id": "台湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾"
+        ],
+        "en": [
+          "Taiwan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "潘晓颖命案的司法管辖区之一。",
+          "en": "One of the jurisdictions involved in the Poon Hiu-wing murder case."
+        }
+      }
+    },
+    {
+      "id": "香港",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "香港"
+        ],
+        "en": [
+          "Hong Kong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "潘晓颖与陈同佳的居住地，也是潘晓颖命案引发政治争议的中心。",
+          "en": "The place of residence for Poon Hiu-wing and Chan Tong-kai, and the center of the political controversy sparked by the murder case."
+        }
+      }
+    },
+    {
+      "id": "台湾士林地方检察署",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台湾士林地方检察署"
+        ],
+        "en": [
+          "Taiwan Shilin District Prosecutors Office"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责调查潘晓颖命案并对陈同佳发出通缉令的台湾司法机关。",
+          "en": "The Taiwanese judicial body responsible for investigating the Poon Hiu-wing murder case and issuing a warrant for Chan Tong-kai."
+        }
+      }
+    },
+    {
+      "id": "律政司 (香港)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "律政司 (香港)",
+          "香港律政司"
+        ],
+        "en": [
+          "Department of Justice (Hong Kong)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港特别行政区的法律政策及检控部门，曾接收台方的司法互助请求。",
+          "en": "The legal policy and prosecution department of the Hong Kong SAR, which received judicial assistance requests from Taiwan."
+        }
+      }
+    },
+    {
+      "id": "香港特别行政区第五届政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港特别行政区第五届政府",
+          "香港政府",
+          "香港特区政府"
+        ],
+        "en": [
+          "Fifth Administration of the Hong Kong Special Administrative Region"
+        ]
+      },
+      "properties": {
+        "period": "2017-07-01 - 2022-06-30",
+        "description": {
+          "zh-cn": "由行政长官林郑月娥领导的香港政府，因潘晓颖命案提出《逃犯条例》修订草案。",
+          "en": "The Hong Kong government led by Chief Executive Carrie Lam, which proposed the extradition bill amendment in response to the Poon Hiu-wing murder case."
+        }
+      }
+    },
+    {
+      "id": "保安局 (香港)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "保安局 (香港)",
+          "香港保安局"
+        ],
+        "en": [
+          "Security Bureau (Hong Kong)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港特别行政区政府负责纪律部队及内部保安事务的部门，提出了《逃犯条例》修订草案。",
+          "en": "The Hong Kong SAR government department responsible for disciplined services and internal security, which proposed the extradition bill amendment."
+        }
+      }
+    },
+    {
+      "id": "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+          "逃犯条例",
+          "逃犯条例修订草案"
+        ],
+        "en": [
+          "Fugitive Offenders and Mutual Legal Assistance in Criminal Matters Legislation (Amendment) Bill 2019"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由香港政府以潘晓颖命案为由提出的法律修订草案，允许将犯罪嫌疑人移交至中国大陆、澳门和台湾。该草案引发了大规模的反对运动。",
+          "en": "A legislative amendment bill proposed by the Hong Kong government, citing the Poon Hiu-wing murder case, which would allow the transfer of criminal suspects to mainland China, Macau, and Taiwan. The bill triggered massive opposition movements."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央纪律检查委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央纪律检查委员会",
+          "中共中央纪委",
+          "中纪委"
+        ],
+        "en": [
+          "Central Commission for Discipline Inspection"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的最高纪律检查机关。据报道，该机构是推动香港修订《逃犯条例》的真正倡议者。",
+          "en": "The highest internal disciplinary body of the Chinese Communist Party. It was reportedly the true initiator behind Hong Kong's push to amend the extradition law."
+        }
+      }
+    },
+    {
+      "id": "香港立法会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港立法会",
+          "立法会"
+        ],
+        "en": [
+          "Legislative Council of Hong Kong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港的立法机关，负责审议《逃犯条例》修订草案。",
+          "en": "The legislature of Hong Kong, responsible for deliberating the extradition bill amendment."
+        }
+      }
+    },
+    {
+      "id": "非建制派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "非建制派",
+          "泛民主派"
+        ],
+        "en": [
+          "Pro-democracy camp (Hong Kong)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港立法会中的政治派别，反对《逃犯条例》修订草案。",
+          "en": "A political faction in the Hong Kong Legislative Council that opposed the extradition bill amendment."
+        }
+      }
+    },
+    {
+      "id": "蔡英文政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蔡英文政府"
+        ],
+        "en": [
+          "Tsai Ing-wen administration"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "潘晓颖命案发生时执政的台湾政府，反对香港政府以“一个中国”为前提通过《逃犯条例》移交嫌犯。",
+          "en": "The Taiwanese government in power when the Poon Hiu-wing murder case occurred, which opposed the Hong Kong government's plan to transfer the suspect under an extradition bill based on the 'One China' principle."
+        }
+      }
+    },
+    {
+      "id": "大陆委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大陆委员会",
+          "中华民国大陆委员会",
+          "陆委会"
+        ],
+        "en": [
+          "Mainland Affairs Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "台湾负责处理中国大陆、香港及澳门事务的政府机构。",
+          "en": "The government agency in Taiwan responsible for handling affairs related to mainland China, Hong Kong, and Macau."
+        }
+      }
+    },
+    {
+      "id": "反对逃犯条例修订草案运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "反对逃犯条例修订草案运动",
+          "反修例运动",
+          "反送中"
+        ],
+        "en": [
+          "2019–2020 Hong Kong protests"
+        ]
+      },
+      "properties": {
+        "period": "2019 - 2020",
+        "description": {
+          "zh-cn": "因《逃犯条例》修订草案引发的香港大规模社会运动。",
+          "en": "A large-scale social movement in Hong Kong triggered by the proposed amendment to the extradition law."
+        }
+      }
+    },
+    {
+      "id": "圣士提反书院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圣士提反书院"
+        ],
+        "en": [
+          "St. Stephen's College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "潘晓颖曾就读的中学。",
+          "en": "The secondary school that Poon Hiu-wing once attended."
+        }
+      }
+    },
+    {
+      "id": "香港专业教育学院黄克竞分校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港专业教育学院黄克竞分校"
+        ],
+        "en": [
+          "Hong Kong Institute of Vocational Education (Haking Wong)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "潘晓颖曾入读的职业教育机构。",
+          "en": "The vocational education institution that Poon Hiu-wing once attended."
+        }
+      }
+    },
+    {
+      "id": "圣公会圣马利亚堂莫庆尧中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圣公会圣马利亚堂莫庆尧中学"
+        ],
+        "en": [
+          "SKH St. Mary's Church Mok Hing Yiu College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "陈同佳曾就读的中学。",
+          "en": "The secondary school that Chan Tong-kai once attended."
+        }
+      }
+    },
+    {
+      "id": "香港专上学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港专上学院"
+        ],
+        "en": [
+          "Hong Kong Community College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "陈同佳曾修读副学士课程的院校。",
+          "en": "The college where Chan Tong-kai studied for an associate degree."
+        }
+      }
+    },
+    {
+      "id": "深圳市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "深圳市"
+        ],
+        "en": [
+          "Shenzhen"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "陈同佳的出生地。",
+          "en": "The birthplace of Chan Tong-kai."
+        }
+      }
+    },
+    {
+      "id": "管浩鸣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "管浩鸣"
+        ],
+        "en": [
+          "Peter Koon"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "香港圣公会教省秘书长、北京市政协委员。他劝说陈同佳同意赴台自首，并在此事中担任关键协调角色。",
+          "en": "Provincial Secretary General of the Hong Kong Sheng Kung Hui and a member of the Beijing Municipal Committee of the CPPCC. He persuaded Chan Tong-kai to surrender to Taiwan and played a key coordinating role in the matter."
+        }
+      }
+    },
+    {
+      "id": "香港圣公会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港圣公会"
+        ],
+        "en": [
+          "Hong Kong Sheng Kung Hui"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "管浩鸣牧师所属的宗教组织。",
+          "en": "The religious organization to which Reverend Peter Koon belongs."
+        }
+      }
+    },
+    {
+      "id": "北京市政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市政协"
+        ],
+        "en": [
+          "Beijing Municipal Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北京市的政治协商机构，管浩鸣是其委员之一。",
+          "en": "The political advisory body of Beijing, of which Peter Koon is a member."
+        }
+      }
+    },
+    {
+      "id": "林郑月娥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林郑月娥"
+        ],
+        "en": [
+          "Carrie Lam"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "时任香港特别行政区行政长官，领导政府提出《逃犯条例》修订草案。",
+          "en": "The then Chief Executive of the Hong Kong Special Administrative Region, who led the government in proposing the extradition bill amendment."
+        }
+      }
+    },
+    {
+      "id": "萧建华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萧建华"
+        ],
+        "en": [
+          "Xiao Jianhua"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国富商，据报其于2017年从香港被带回中国内地，此事成为中纪委推动香港修订《逃犯条例》的触发点。",
+          "en": "A Chinese billionaire who was reportedly taken from Hong Kong to mainland China in 2017. His case is believed to have been the trigger for the CCDI to push for the amendment of Hong Kong's extradition law."
+        }
+      }
+    },
+    {
+      "id": "陈同佳送台案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "陈同佳送台案"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2019-10 - ",
+        "description": {
+          "zh-cn": "围绕陈同佳是否以及如何前往台湾就潘晓颖命案受审而引发的台港两地政府间的政治与法律争议。",
+          "en": "The political and legal dispute between the governments of Taiwan and Hong Kong concerning whether and how Chan Tong-kai should go to Taiwan to stand trial for the murder of Poon Hiu-wing."
+        }
+      }
+    },
+    {
+      "id": "民主建港协进联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主建港协进联盟",
+          "民建联"
+        ],
+        "en": [
+          "Democratic Alliance for the Betterment and Progress of Hong Kong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港的亲建制派政党。潘晓颖母亲曾向其求助。该党支持港府修订《逃犯条例》。",
+          "en": "A pro-establishment political party in Hong Kong. Poon Hiu-wing's mother sought its assistance. The party supported the government's amendment of the extradition law."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "陈同佳",
+      "target": "潘晓颖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018-02-17",
+        "description": {
+          "zh-cn": "在台北市的旅店内杀害了其女友潘晓颖。",
+          "en": "Murdered his girlfriend Poon Hiu-wing in a hotel in Taipei."
+        }
+      }
+    },
+    {
+      "source": "陈同佳",
+      "target": "潘晓颖",
+      "type": "LOVER_OF",
+      "properties": {
+        "end_date": "2018-02-17",
+        "description": {
+          "zh-cn": "两人为情侣关系，并一同赴台旅游。",
+          "en": "The two were in a romantic relationship and traveled to Taiwan together."
+        }
+      }
+    },
+    {
+      "source": "潘晓颖命案",
+      "target": "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-02",
+        "description": {
+          "zh-cn": "香港政府以此案为由，提出修订《逃犯条例》，以建立将嫌犯移交至台湾等地的法律基础。",
+          "en": "The Hong Kong government cited this case as the reason for proposing the amendment to the Fugitive Offenders Ordinance to establish a legal basis for extraditing suspects to places like Taiwan."
+        }
+      }
+    },
+    {
+      "source": "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+      "target": "反对逃犯条例修订草案运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-03",
+        "description": {
+          "zh-cn": "该修订草案的争议性内容引发了香港大规模的反对示威活动。",
+          "en": "The controversial content of this amendment bill triggered large-scale opposition protests in Hong Kong."
+        }
+      }
+    },
+    {
+      "source": "台湾士林地方检察署",
+      "target": "律政司 (香港)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2018-03",
+        "description": {
+          "zh-cn": "先后三次向香港律政司提出司法互助请求，希望港府遣送陈同佳到台湾受审。",
+          "en": "Made three judicial assistance requests to the Hong Kong Department of Justice, hoping the Hong Kong government would extradite Chan Tong-kai to Taiwan for trial."
+        }
+      }
+    },
+    {
+      "source": "香港特别行政区第五届政府",
+      "target": "台湾士林地方检察署",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018-03",
+        "description": {
+          "zh-cn": "以港台两地之间并无移交疑犯的机制为由，未理会台湾士林地方检察署的三度司法互助请求。",
+          "en": "Citing the lack of an extradition mechanism between Hong Kong and Taiwan, the government ignored three requests for judicial assistance from the Taiwan Shilin District Prosecutors Office."
+        }
+      }
+    },
+    {
+      "source": "台湾士林地方检察署",
+      "target": "陈同佳",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018-12-03",
+        "description": {
+          "zh-cn": "正式对陈同佳发出时效长达37年6个月的通缉令。",
+          "en": "Officially issued a warrant for the arrest of Chan Tong-kai with a statute of limitations of 37 years and 6 months."
+        }
+      }
+    },
+    {
+      "source": "中国共产党中央纪律检查委员会",
+      "target": "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "据路透社报道，中纪委是推动香港政府修订《逃犯条例》的倡议者。",
+          "en": "According to Reuters, the CCDI was the initiator that pushed the Hong Kong government to amend the Fugitive Offenders Ordinance."
+        }
+      }
+    },
+    {
+      "source": "非建制派",
+      "target": "2019年逃犯及刑事事宜相互法律协助法例（修订）条例草案",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在香港立法会中反对该修订草案。",
+          "en": "Opposed the amendment bill in the Hong Kong Legislative Council."
+        }
+      }
+    },
+    {
+      "source": "蔡英文政府",
+      "target": "陈同佳送台案",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2019-05",
+        "description": {
+          "zh-cn": "表示不接纳香港政府利用修法以“一个中国”为前提移交陈同佳，并拒绝根据该修订条例接收他，形成了政治僵局。",
+          "en": "Stated it would not accept the transfer of Chan Tong-kai under the premise of 'One China' through the bill amendment and refused to receive him under the proposed ordinance, leading to a political stalemate."
+        }
+      }
+    },
+    {
+      "source": "潘晓颖",
+      "target": "圣士提反书院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曾就读于圣士提反书院。",
+          "en": "Formerly studied at St. Stephen's College."
+        }
+      }
+    },
+    {
+      "source": "潘晓颖",
+      "target": "香港专业教育学院黄克竞分校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "2017-09",
+        "description": {
+          "zh-cn": "曾入读银行及金融高级文凭课程，后退学。",
+          "en": "Was enrolled in the Higher Diploma in Banking and Finance program, but later dropped out."
+        }
+      }
+    },
+    {
+      "source": "陈同佳",
+      "target": "圣公会圣马利亚堂莫庆尧中学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曾就读于圣公会圣马利亚堂莫庆尧中学。",
+          "en": "Formerly studied at SKH St. Mary's Church Mok Hing Yiu College."
+        }
+      }
+    },
+    {
+      "source": "陈同佳",
+      "target": "香港专上学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曾修读商科副学士课程，后退学。",
+          "en": "Studied for an associate degree in business, but later dropped out."
+        }
+      }
+    },
+    {
+      "source": "陈同佳",
+      "target": "深圳市",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "管浩鸣",
+      "target": "陈同佳",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "劝说陈同佳同意赴台自首，并在其出狱后提供协助。",
+          "en": "Persuaded Chan Tong-kai to agree to surrender in Taiwan and provided assistance after his release from prison."
+        }
+      }
+    },
+    {
+      "source": "管浩鸣",
+      "target": "香港圣公会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教省秘书长",
+          "en": "Provincial Secretary General"
+        }
+      }
+    },
+    {
+      "source": "管浩鸣",
+      "target": "北京市政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        }
+      }
+    },
+    {
+      "source": "林郑月娥",
+      "target": "香港特别行政区第五届政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "行政长官",
+          "en": "Chief Executive"
+        },
+        "description": {
+          "zh-cn": "担任香港特别行政区第五届政府的行政长官。",
+          "en": "Served as the Chief Executive of the Fifth Administration of the Hong Kong Special Administrative Region."
+        }
+      }
+    },
+    {
+      "source": "萧建华",
+      "target": "中国共产党中央纪律检查委员会",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2017-01",
+        "description": {
+          "zh-cn": "萧建华于2017年在香港被带走，此事成为中纪委要求港府修例以建立合法引渡渠道的触发点。",
+          "en": "Xiao Jianhua was taken from Hong Kong in 2017, an incident that became the trigger for the CCDI to demand that the Hong Kong government amend its laws to establish a legal extradition channel."
+        }
+      }
+    }
+  ]
+}
