@@ -1,0 +1,822 @@
+{
+  "nodes": [
+    {
+      "id": "开罗宣言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "开罗宣言"
+        ],
+        "en": [
+          "Cairo Declaration"
+        ]
+      },
+      "properties": {
+        "period": "1943-12-01 - ",
+        "description": {
+          "zh-cn": "由中美英三国在1943年12月1日发表的对日作战新闻公报，规定了日本战败后须归还窃取的中国领土、朝鲜应获独立等条款。",
+          "en": "A press communiqué issued by China, the United States, and the United Kingdom on December 1, 1943, outlining the Allied position against Japan during World War II, stipulating the return of territories such as Manchuria, Taiwan, and the Pescadores to China, and the independence of Korea."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国大陆时期国民政府军事委员会委员长，开罗会议的与会者之一。",
+          "en": "Chairman of the National Military Council of the Nationalist Government of the Republic of China during the mainland period, one of the attendees of the Cairo Conference."
+        }
+      }
+    },
+    {
+      "id": "富兰克林·德拉诺·罗斯福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "富兰克林·德拉诺·罗斯福",
+          "罗斯福"
+        ],
+        "en": [
+          "Franklin D. Roosevelt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任美国总统，开罗会议的与会者之一。",
+          "en": "Then President of the United States, one of the attendees of the Cairo Conference."
+        }
+      }
+    },
+    {
+      "id": "温斯顿·丘吉尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温斯顿·丘吉尔",
+          "丘吉尔",
+          "邱吉尔"
+        ],
+        "en": [
+          "Winston Churchill"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任英国首相，开罗会议的与会者之一。",
+          "en": "Then Prime Minister of the United Kingdom, one of the attendees of the Cairo Conference."
+        }
+      }
+    },
+    {
+      "id": "开罗会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "开罗会议"
+        ],
+        "en": [
+          "Cairo Conference"
+        ]
+      },
+      "properties": {
+        "period": "1943-11-23 - 1943-11-27",
+        "location": {
+          "zh-cn": "开罗"
+        },
+        "description": {
+          "zh-cn": "1943年由中美英三国首脑在埃及开罗举行的会议，旨在协调对日作战及战后安排，会后发表了《开罗宣言》。",
+          "en": "A conference held in Cairo, Egypt, in 1943, attended by the leaders of China, the United States, and the United Kingdom to coordinate strategy against Japan and discuss post-war arrangements, which resulted in the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "id": "中华民国大陆时期",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国大陆时期",
+          "中国",
+          "中"
+        ],
+        "en": [
+          "Republic of China (1912–1949)"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1949",
+        "description": {
+          "zh-cn": "指1912年至1949年间中华民国在大陆的时期。在二战期间，其国民政府是同盟国之一，参与了开罗会议。",
+          "en": "Refers to the period of the Republic of China on the mainland from 1912 to 1949. During World War II, its Nationalist Government was one of the Allied powers and participated in the Cairo Conference."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国",
+          "美"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次世界大战同盟国主要成员之一，参与了开罗会议。",
+          "en": "One of the major Allied powers of World War II, a participant in the Cairo Conference."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次世界大战同盟国主要成员之一，参与了开罗会议。",
+          "en": "One of the major Allied powers of World War II, a participant in the Cairo Conference."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868 - 1947",
+        "description": {
+          "zh-cn": "第二次世界大战轴心国成员，是《开罗宣言》针对的主要对象。",
+          "en": "A member of the Axis powers during World War II and the primary subject of the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "id": "开罗",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "开罗"
+        ],
+        "en": [
+          "Cairo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "埃及首都，1943年开罗会议的举办地。",
+          "en": "Capital of Egypt, host city of the 1943 Cairo Conference."
+        }
+      }
+    },
+    {
+      "id": "台湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾",
+          "福尔摩沙"
+        ],
+        "en": [
+          "Taiwan",
+          "Formosa"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "《开罗宣言》中规定日本应归还给中华民国的领土之一。",
+          "en": "One of the territories that Japan was required to return to the Republic of China according to the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "id": "澎湖群岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "澎湖群岛"
+        ],
+        "en": [
+          "Pescadores Islands"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "《开罗宣言》中规定日本应归还给中华民国的领土之一。",
+          "en": "One of the territories that Japan was required to return to the Republic of China according to the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "id": "满洲",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "满洲"
+        ],
+        "en": [
+          "Manchuria"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "《开罗宣言》中规定日本应归还给中华民国的领土之一。",
+          "en": "One of the territories that Japan was required to return to the Republic of China according to the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "id": "朝鲜半岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "朝鲜半岛",
+          "朝鲜"
+        ],
+        "en": [
+          "Korean Peninsula"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "《开罗宣言》规定应使其获得自由与独立。",
+          "en": "Stipulated to be made free and independent according to the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "id": "斯大林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "斯大林",
+          "史达林"
+        ],
+        "en": [
+          "Joseph Stalin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任苏联领导人，虽未参加开罗会议，但在德黑兰会议上对《开罗宣言》内容表示完全赞成。",
+          "en": "Then leader of the Soviet Union. Although he did not attend the Cairo Conference, he expressed full approval of the contents of the Cairo Declaration at the Tehran Conference."
+        }
+      }
+    },
+    {
+      "id": "哈里·霍普金斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈里·霍普金斯",
+          "霍普金斯"
+        ],
+        "en": [
+          "Harry Hopkins"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国总统特别助理，起草了《开罗宣言》的初稿。",
+          "en": "Special Assistant to the U.S. President, who drafted the initial version of the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "id": "王宠惠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王宠惠"
+        ],
+        "en": [
+          "Wang Ch'ung-hui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国代表，以外交部长名义出席开罗会议，在宣言文本的讨论中据理力争。",
+          "en": "Representative of the Republic of China who attended the Cairo Conference as Minister of Foreign Affairs and argued for China's position during the discussion of the declaration's text."
+        }
+      }
+    },
+    {
+      "id": "波茨坦公告",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "波茨坦公告"
+        ],
+        "en": [
+          "Potsdam Declaration"
+        ]
+      },
+      "properties": {
+        "period": "1945-07-26 - ",
+        "description": {
+          "zh-cn": "1945年由中美英三国（后有苏联加入）发布的公告，敦促日本无条件投降，其第八条规定《开罗宣言》之条件必须实施。",
+          "en": "A proclamation issued in 1945 by China, the United States, and the United Kingdom (later joined by the Soviet Union) urging the unconditional surrender of Japan. Its eighth article stipulated that the terms of the Cairo Declaration shall be carried out."
+        }
+      }
+    },
+    {
+      "id": "降伏文书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "降伏文书"
+        ],
+        "en": [
+          "Japanese Instrument of Surrender"
+        ]
+      },
+      "properties": {
+        "period": "1945-09-02 - ",
+        "description": {
+          "zh-cn": "日本于1945年9月2日签署的投降文件，其中宣示接受《波茨坦公告》。",
+          "en": "The surrender document signed by Japan on September 2, 1945, in which it proclaimed its acceptance of the Potsdam Declaration."
+        }
+      }
+    },
+    {
+      "id": "旧金山和约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "旧金山和约"
+        ],
+        "en": [
+          "Treaty of San Francisco"
+        ]
+      },
+      "properties": {
+        "period": "1952-04-28 - ",
+        "description": {
+          "zh-cn": "同盟国与日本在1951年签订的和平条约，其中日本放弃了对台湾、澎湖等领土的主权。其法律地位高于《开罗宣言》等战时文件。",
+          "en": "A peace treaty signed between the Allied Powers and Japan in 1951, in which Japan renounced sovereignty over territories including Taiwan and the Pescadores. Its legal status is considered higher than wartime documents like the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "id": "中日和约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中日和约"
+        ],
+        "en": [
+          "Treaty of Taipei"
+        ]
+      },
+      "properties": {
+        "period": "1952-08-05 - 1972-09-29",
+        "description": {
+          "zh-cn": "中华民国与日本国于1952年签订的和平条约，确认日本已根据《旧金山和约》放弃台湾、澎湖等。该条约于1972年因中日邦交正常化而被日本宣布废止。",
+          "en": "A peace treaty signed between the Republic of China and Japan in 1952, confirming Japan's renunciation of Taiwan, the Pescadores, etc., under the Treaty of San Francisco. It was abrogated by Japan in 1972 upon the normalization of relations with the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "马英九",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马英九"
+        ],
+        "en": [
+          "Ma Ying-jeou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国前总统，主张《开罗宣言》具有法律约束力，是中华民国光复台湾的法律基础之一。",
+          "en": "Former President of the Republic of China who maintains that the Cairo Declaration is legally binding and constitutes one of the legal bases for the retrocession of Taiwan to the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "杜正胜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杜正胜"
+        ],
+        "en": [
+          "Tu Cheng-sheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "台湾历史学家及政治人物，认为《开罗宣言》只是一项新闻公报，并非正式宣言。",
+          "en": "A Taiwanese historian and politician who argues that the Cairo Declaration was merely a press communiqué, not a formal declaration."
+        }
+      }
+    },
+    {
+      "id": "美国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国国务院"
+        ],
+        "en": [
+          "United States Department of State"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国联邦政府负责外交事务的部门。曾于1971年表示，《开罗宣言》是同盟国的意向声明，从未正式执行。",
+          "en": "The department of the U.S. federal government responsible for foreign affairs. Stated in 1971 that the Cairo Declaration was a statement of Allied intention and was never formally executed."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1949年成立。1972年与日本实现邦交正常化。",
+          "en": "Founded in 1949. Normalized diplomatic relations with Japan in 1972."
+        }
+      }
+    },
+    {
+      "id": "中日邦交正常化",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中日邦交正常化"
+        ],
+        "en": [
+          "Normalization of relations between Japan and China"
+        ]
+      },
+      "properties": {
+        "period": "1972-09-29 - ",
+        "description": {
+          "zh-cn": "指中华人民共和国与日本国建立正式外交关系的历史事件，此事导致日本废止了与中华民国签订的《中日和约》。",
+          "en": "The historical event of the establishment of formal diplomatic relations between the People's Republic of China and Japan, which led to Japan's abrogation of the Treaty of Taipei with the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "二战战败国，在战后与多国签订和约处理领土及主权问题。",
+          "en": "A defeated nation in World War II that signed peace treaties with multiple countries to address territorial and sovereignty issues."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联",
+          "苏"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次世界大战同盟国主要成员之一。虽未参与开罗会议，但领导人斯大林对会议结果表示赞成。",
+          "en": "One of the major Allied powers of World War II. Although not a participant in the Cairo Conference, its leader Stalin approved of the conference's outcome."
+        }
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国"
+        ],
+        "en": [
+          "Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "《开罗宣言》中规定日本应归还领土的对象。1949年后政府迁至台湾。1952年与日本签订《中日和约》。",
+          "en": "The entity to which Japan was to return territories according to the Cairo Declaration. Its government relocated to Taiwan after 1949. Signed the Treaty of Taipei with Japan in 1952."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "开罗会议",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-12-01",
+        "description": {
+          "zh-cn": "开罗会议结束后，于1943年12月1日发表了作为会议结果的新闻公报，此公报后被称为《开罗宣言》。",
+          "en": "After the Cairo Conference concluded, a press communiqué summarizing its results was issued on December 1, 1943, which later became known as the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "开罗会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11-23",
+        "end_date": "1943-11-27",
+        "description": {
+          "zh-cn": "作为中华民国国民政府军事委员会委员长，与罗斯福、丘吉尔一同出席了开罗会议。",
+          "en": "As Chairman of the National Military Council of the Nationalist Government of the Republic of China, attended the Cairo Conference with Roosevelt and Churchill."
+        }
+      }
+    },
+    {
+      "source": "富兰克林·德拉诺·罗斯福",
+      "target": "开罗会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11-23",
+        "end_date": "1943-11-27",
+        "description": {
+          "zh-cn": "作为美国总统，与蒋中正、丘吉尔一同出席了开罗会议。",
+          "en": "As President of the United States, attended the Cairo Conference with Chiang Kai-shek and Churchill."
+        }
+      }
+    },
+    {
+      "source": "温斯顿·丘吉尔",
+      "target": "开罗会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11-23",
+        "end_date": "1943-11-27",
+        "description": {
+          "zh-cn": "作为英国首相，与蒋中正、罗斯福一同出席了开罗会议。",
+          "en": "As Prime Minister of the United Kingdom, attended the Cairo Conference with Chiang Kai-shek and Roosevelt."
+        }
+      }
+    },
+    {
+      "source": "哈里·霍普金斯",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为美国总统特别助理，在三巨头会谈的基础上起草了《开罗宣言》的初稿。",
+          "en": "As Special Assistant to the U.S. President, he drafted the initial version of the Cairo Declaration based on the talks between the three leaders."
+        }
+      }
+    },
+    {
+      "source": "王宠惠",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为中华民国代表，在《开罗宣言》草案讨论中据理力争，促成了“归还中华民国”相关条文的最终表述。",
+          "en": "As the representative of the Republic of China, he argued forcefully during the drafting of the Cairo Declaration, contributing to the final wording of the clause concerning the return of territory to the Republic of China."
+        }
+      }
+    },
+    {
+      "source": "温斯顿·丘吉尔",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "对《开罗宣言》的公报草案文字作了修改，加入了“澎湖”。",
+          "en": "He personally revised the draft of the communiqué for the Cairo Declaration, adding the 'Pescadores'."
+        }
+      }
+    },
+    {
+      "source": "斯大林",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-11-30",
+        "description": {
+          "zh-cn": "在德黑兰会议上对罗斯福和丘吉尔表示，他“完全”赞成《开罗宣言》“公报及其全部内容”。",
+          "en": "At the Tehran Conference, he told Roosevelt and Churchill that he 'fully' approved of the Cairo Declaration's 'communiqué and all its contents'."
+        }
+      }
+    },
+    {
+      "source": "中华民国大陆时期",
+      "target": "大日本帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "1937 - 1945",
+        "description": {
+          "zh-cn": "在第二次世界大战期间，作为同盟国与日本作战。",
+          "en": "As one of the Allied powers, fought against Japan during World War II."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "大日本帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "1941 - 1945",
+        "description": {
+          "zh-cn": "在第二次世界大战期间，作为同盟国与日本作战。",
+          "en": "As one of the Allied powers, fought against Japan during World War II."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "大日本帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "1941 - 1945",
+        "description": {
+          "zh-cn": "在第二次世界大战期间，作为同盟国与日本作战。",
+          "en": "As one of the Allied powers, fought against Japan during World War II."
+        }
+      }
+    },
+    {
+      "source": "开罗宣言",
+      "target": "中华民国",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "宣言规定，日本自中国人所窃取的所有领土，比如满洲、台湾及澎湖群岛，应该归还给中华民国。",
+          "en": "The declaration stipulated that all the territories Japan has stolen from the Chinese, such as Manchuria, Formosa, and The Pescadores, shall be restored to the Republic of China."
+        }
+      }
+    },
+    {
+      "source": "开罗宣言",
+      "target": "朝鲜半岛",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "宣言决定在相当时期，使朝鲜自由与独立。",
+          "en": "The declaration stated the determination that in due course Korea shall become free and independent."
+        }
+      }
+    },
+    {
+      "source": "波茨坦公告",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-07-26",
+        "description": {
+          "zh-cn": "《波茨坦公告》第八条明确规定“《开罗宣言》的条件，必须实施”。",
+          "en": "Article 8 of the Potsdam Declaration explicitly states that 'The terms of the Cairo Declaration shall be carried out'."
+        }
+      }
+    },
+    {
+      "source": "降伏文书",
+      "target": "波茨坦公告",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-09-02",
+        "description": {
+          "zh-cn": "日本签署的《降伏文书》中，明白宣示接受《波茨坦公告》。",
+          "en": "In the Japanese Instrument of Surrender, Japan clearly proclaimed its acceptance of the Potsdam Declaration."
+        }
+      }
+    },
+    {
+      "source": "旧金山和约",
+      "target": "日本",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1952-04-28",
+        "description": {
+          "zh-cn": "根据《旧金山和约》第二条，日本放弃对台湾、澎湖等岛屿的一切权利、权利名义与要求。",
+          "en": "According to Article 2 of the Treaty of San Francisco, Japan renounced all right, title and claim to Formosa and the Pescadores."
+        }
+      }
+    },
+    {
+      "source": "中日和约",
+      "target": "日本",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1952-08-05",
+        "description": {
+          "zh-cn": "《中日和约》第二条承认，日本国业已放弃对于台湾及澎湖群岛以及南沙群岛及西沙群岛之一切权利、权利名义与要求。",
+          "en": "Article 2 of the Treaty of Taipei acknowledges that Japan has renounced all right, title and claim to Formosa and the Pescadores as well as the Spratly Islands and the Paracel Islands."
+        }
+      }
+    },
+    {
+      "source": "马英九",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "主张《开罗宣言》具有法律约束力，是构成中华民国光复台湾的法律基础。",
+          "en": "Argued that the Cairo Declaration is legally binding and constitutes the legal basis for the retrocession of Taiwan to the Republic of China."
+        }
+      }
+    },
+    {
+      "source": "杜正胜",
+      "target": "开罗宣言",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "认为俗称为“开罗宣言”的文件只是一项新闻公报，并非正式宣言，对其存在性或法律效力提出质疑。",
+          "en": "Argued that the document commonly known as the 'Cairo Declaration' is only a press communiqué, not a formal declaration, questioning its existence or legal validity."
+        }
+      }
+    },
+    {
+      "source": "温斯顿·丘吉尔",
+      "target": "开罗宣言",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1955-02-01",
+        "description": {
+          "zh-cn": "在1955年表示《开罗宣言》仅是一份共同目的声明，并且已经过时。",
+          "en": "Stated in 1955 that the Cairo Declaration was merely a statement of common purpose and was out of date."
+        }
+      }
+    },
+    {
+      "source": "美国国务院",
+      "target": "开罗宣言",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1971-04-28",
+        "description": {
+          "zh-cn": "在1971年表示，《开罗宣言》是同盟国的意向声明，从未正式执行，并认为台湾地位未定。",
+          "en": "Stated in 1971 that the Cairo Declaration and the Potsdam Declaration were statements of Allied intention and had never been formally executed, and that the status of Taiwan was unsettled."
+        }
+      }
+    },
+    {
+      "source": "中日邦交正常化",
+      "target": "中日和约",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1972-09-29",
+        "description": {
+          "zh-cn": "随着中华人民共和国与日本建立外交关系，日本方面宣布废止与中华民国签订的《中日和约》。",
+          "en": "Following the establishment of diplomatic relations between the People's Republic of China and Japan, Japan announced the abrogation of the Treaty of Taipei signed with the Republic of China."
+        }
+      }
+    }
+  ]
+}

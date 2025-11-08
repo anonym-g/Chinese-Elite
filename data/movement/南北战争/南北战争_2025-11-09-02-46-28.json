@@ -1,0 +1,669 @@
+{
+  "nodes": [
+    {
+      "id": "美国内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "美国内战",
+          "南北战争"
+        ],
+        "en": [
+          "American Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1861-04-12 - 1865-05-09",
+        "location": {
+          "zh-cn": "美国、大西洋",
+          "en": "United States, Atlantic Ocean"
+        },
+        "description": {
+          "zh-cn": "美国于1861年至1865年发生的内战，交战双方为北方的联邦阵营与南方的邦联阵营，最终以联邦获胜、奴隶制度被废除告终。",
+          "en": "A civil war in the United States from 1861 to 1865, fought between the northern Union and the southern Confederacy, which ended in a Union victory and the abolition of slavery."
+        }
+      }
+    },
+    {
+      "id": "联邦 (南北战争)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联邦 (南北战争)",
+          "联邦",
+          "北方",
+          "the Union"
+        ],
+        "en": [
+          "Union (American Civil War)",
+          "the Union",
+          "the North"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国内战中的北方阵营，由坚持维护联邦统一的各州组成。",
+          "en": "The northern faction in the American Civil War, composed of states that remained loyal to the federal union."
+        }
+      }
+    },
+    {
+      "id": "美利坚联盟国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美利坚联盟国",
+          "邦联",
+          "南方",
+          "the Confederacy"
+        ],
+        "en": [
+          "Confederate States of America",
+          "the Confederacy",
+          "the South"
+        ]
+      },
+      "properties": {
+        "period": "1861-02-09 - 1865-05-09",
+        "description": {
+          "zh-cn": "由美国南部11个蓄奴州为维护奴隶制度而脱离联邦后建立的国家。",
+          "en": "A nation established by 11 southern slave states that seceded from the Union to preserve the institution of slavery."
+        }
+      }
+    },
+    {
+      "id": "亚伯拉罕·林肯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亚伯拉罕·林肯"
+        ],
+        "en": [
+          "Abraham Lincoln"
+        ]
+      },
+      "properties": {
+        "lifetime": "1809-02-12 - 1865-04-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第16任总统，在美国内战期间领导联邦取得胜利，并颁布《解放黑人奴隶宣言》。",
+          "en": "The 16th President of the United States, who led the Union to victory in the American Civil War and issued the Emancipation Proclamation."
+        }
+      }
+    },
+    {
+      "id": "杰佛逊·戴维斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杰佛逊·戴维斯"
+        ],
+        "en": [
+          "Jefferson Davis"
+        ]
+      },
+      "properties": {
+        "lifetime": "1808-06-03 - 1889-12-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美利坚联盟国唯一一任总统。",
+          "en": "The only President of the Confederate States of America."
+        }
+      }
+    },
+    {
+      "id": "罗伯特·E·李",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗伯特·E·李",
+          "罗伯特·李"
+        ],
+        "en": [
+          "Robert E. Lee"
+        ]
+      },
+      "properties": {
+        "lifetime": "1807-01-19 - 1870-10-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美利坚联盟国军队总司令，被认为是美国历史上最杰出的将领之一。",
+          "en": "Commander of the Confederate States Army, considered one of the most brilliant generals in American history."
+        }
+      }
+    },
+    {
+      "id": "尤利西斯·S·格兰特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "尤利西斯·S·格兰特",
+          "尤里西斯·格兰特"
+        ],
+        "en": [
+          "Ulysses S. Grant"
+        ]
+      },
+      "properties": {
+        "lifetime": "1822-04-27 - 1885-07-23",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国内战后期联邦军总司令，领导联邦取得最终胜利，后成为美国第18任总统。",
+          "en": "Commanding General of the Union Army during the later part of the American Civil War, leading the Union to ultimate victory, and later became the 18th President of the United States."
+        }
+      }
+    },
+    {
+      "id": "桑特堡战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "桑特堡战役",
+          "萨姆特堡战役"
+        ],
+        "en": [
+          "Battle of Fort Sumter"
+        ]
+      },
+      "properties": {
+        "period": "1861-04-12 - 1861-04-13",
+        "description": {
+          "zh-cn": "邦联军队炮击南卡罗来纳州查尔斯顿港的萨姆特堡，迫使其投降，此事件标志着美国内战的爆发。",
+          "en": "The bombardment of Fort Sumter in Charleston, South Carolina, by Confederate forces, which forced its surrender and marked the beginning of the American Civil War."
+        }
+      }
+    },
+    {
+      "id": "P·G·T·博雷加德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "P·G·T·博雷加德",
+          "皮埃尔·博雷加德"
+        ],
+        "en": [
+          "P. G. T. Beauregard"
+        ]
+      },
+      "properties": {
+        "lifetime": "1818-05-28 - 1893-02-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美利坚联盟国陆军将军，指挥了萨姆特堡战役，打响了内战第一枪。",
+          "en": "A general in the Confederate States Army who commanded the attack on Fort Sumter, firing the first shots of the Civil War."
+        }
+      }
+    },
+    {
+      "id": "南卡罗莱纳州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "南卡罗莱纳州"
+        ],
+        "en": [
+          "South Carolina"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国东南部的一个州，是第一个宣布脱离联邦的州。",
+          "en": "A state in the southeastern United States, it was the first state to secede from the Union."
+        }
+      }
+    },
+    {
+      "id": "安提耶坦之役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "安提耶坦之役"
+        ],
+        "en": [
+          "Battle of Antietam"
+        ]
+      },
+      "properties": {
+        "period": "1862-09-17 - 1862-09-17",
+        "description": {
+          "zh-cn": "发生于马里兰州夏普斯堡附近，是美国历史上最血腥的单日战斗。联邦军的战略性胜利阻止了李将军的北侵，并为林肯发布《解放黑人奴隶宣言》创造了条件。",
+          "en": "Fought near Sharpsburg, Maryland, it was the bloodiest single-day battle in American history. The Union's strategic victory halted Lee's northern invasion and provided the opportunity for Lincoln to issue the Emancipation Proclamation."
+        }
+      }
+    },
+    {
+      "id": "解放黑人奴隶宣言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "解放黑人奴隶宣言"
+        ],
+        "en": [
+          "Emancipation Proclamation"
+        ]
+      },
+      "properties": {
+        "period": "1863-01-01 - ",
+        "description": {
+          "zh-cn": "由美国总统林肯颁布的行政命令，宣布解放邦联控制下的所有奴隶。",
+          "en": "An executive order issued by President Abraham Lincoln that proclaimed the freedom of all slaves in Confederate-held territory."
+        }
+      }
+    },
+    {
+      "id": "乔治·B·麦克莱伦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·B·麦克莱伦"
+        ],
+        "en": [
+          "George B. McClellan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1826-12-03 - 1885-10-29",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国内战期间联邦军的主要将领之一，曾任波托马克军团司令。",
+          "en": "A major general for the Union during the American Civil War and served as commander of the Army of the Potomac."
+        }
+      }
+    },
+    {
+      "id": "盖茨堡之役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "盖茨堡之役"
+        ],
+        "en": [
+          "Battle of Gettysburg"
+        ]
+      },
+      "properties": {
+        "period": "1863-07-01 - 1863-07-03",
+        "description": {
+          "zh-cn": "被认为是美国内战的转折点，联邦军在此次战役中击败了李将军的北侵部队，造成邦联军重大伤亡。",
+          "en": "Considered the turning point of the American Civil War, the Union army defeated General Lee's invading forces in this battle, inflicting heavy casualties on the Confederacy."
+        }
+      }
+    },
+    {
+      "id": "乔治·米德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·米德"
+        ],
+        "en": [
+          "George Meade"
+        ]
+      },
+      "properties": {
+        "lifetime": "1815-12-31 - 1872-11-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国内战期间的联邦军将领，在盖茨堡战役中指挥波托马克军团取得决定性胜利。",
+          "en": "A Union general during the American Civil War, best known for commanding the Army of the Potomac to a decisive victory at the Battle of Gettysburg."
+        }
+      }
+    },
+    {
+      "id": "威廉·T·舍曼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·T·舍曼",
+          "威廉·特库姆塞·舍曼"
+        ],
+        "en": [
+          "William Tecumseh Sherman"
+        ]
+      },
+      "properties": {
+        "lifetime": "1820-02-08 - 1891-02-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国内战期间的联邦军将领，以实施“全面战争”战略和“向大海进军”而闻名。",
+          "en": "A Union general during the American Civil War, known for implementing the strategy of 'total war' and for his 'March to the Sea'."
+        }
+      }
+    },
+    {
+      "id": "谢尔曼向大海进军",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "谢尔曼向大海进军",
+          "向大海进军"
+        ],
+        "en": [
+          "Sherman's March to the Sea"
+        ]
+      },
+      "properties": {
+        "period": "1864-11-15 - 1864-12-21",
+        "description": {
+          "zh-cn": "由威廉·T·舍曼将军率领的联邦军从亚特兰大进军至萨凡纳的军事行动，旨在摧毁南方的经济和后勤能力。",
+          "en": "A military campaign led by General William T. Sherman, in which Union forces marched from Atlanta to Savannah, aiming to destroy the South's economic and logistical capabilities."
+        }
+      }
+    },
+    {
+      "id": "林肯遇刺案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "林肯遇刺案"
+        ],
+        "en": [
+          "Assassination of Abraham Lincoln"
+        ]
+      },
+      "properties": {
+        "period": "1865-04-14 - 1865-04-15",
+        "description": {
+          "zh-cn": "在美国内战结束五天后，总统亚伯拉罕·林肯被同情邦联的演员约翰·威尔克斯·布斯刺杀。",
+          "en": "Five days after the end of the American Civil War, President Abraham Lincoln was assassinated by John Wilkes Booth, a Confederate sympathizer."
+        }
+      }
+    },
+    {
+      "id": "美国重建时期",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "美国重建时期"
+        ],
+        "en": [
+          "Reconstruction era"
+        ]
+      },
+      "properties": {
+        "period": "1865 - 1877",
+        "description": {
+          "zh-cn": "美国内战结束后，解决南方各州重返联邦、前邦联领导人的地位以及非裔美国人自由民的法律地位等问题的时期。",
+          "en": "The period after the American Civil War that addressed the reintegration of Southern states into the Union, the status of former Confederate leaders, and the legal status of African American freedmen."
+        }
+      }
+    },
+    {
+      "id": "温菲尔德·史考特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温菲尔德·史考特"
+        ],
+        "en": [
+          "Winfield Scott"
+        ]
+      },
+      "properties": {
+        "lifetime": "1786-06-13 - 1866-05-29",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国陆军将领，在内战初期担任联邦军总司令，并制定了“蟒蛇计划”。",
+          "en": "A United States Army general who served as Commanding General of the Union Army at the start of the Civil War and devised the Anaconda Plan."
+        }
+      }
+    },
+    {
+      "id": "蟒蛇计划",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "蟒蛇计划"
+        ],
+        "en": [
+          "Anaconda Plan"
+        ]
+      },
+      "properties": {
+        "period": "1861 - ",
+        "description": {
+          "zh-cn": "由温菲尔德·史考特将军制定的联邦军战略计划，旨在通过封锁南方港口和控制密西西比河来削弱邦联经济，从而以最小的流血代价赢得战争。",
+          "en": "A strategic plan for the Union Army devised by General Winfield Scott, aiming to weaken the Confederacy's economy through a blockade of Southern ports and control of the Mississippi River to win the war with minimal bloodshed."
+        }
+      }
+    },
+    {
+      "id": "联邦封锁",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "联邦封锁"
+        ],
+        "en": [
+          "Union blockade"
+        ]
+      },
+      "properties": {
+        "period": "1861-05 - 1865-01",
+        "description": {
+          "zh-cn": "作为“蟒蛇计划”的一部分，联邦海军对所有南方港口实施的封锁，旨在切断邦联的国际贸易。",
+          "en": "As part of the Anaconda Plan, a naval blockade of all Southern ports implemented by the Union Navy to cut off the Confederacy's international trade."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "桑特堡战役",
+      "target": "美国内战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1861-04-12",
+        "description": {
+          "zh-cn": "邦联军队炮击萨姆特堡，迫使其投降，此事件是美国内战的导火索。",
+          "en": "The bombardment of Fort Sumter by Confederate forces, forcing its surrender, served as the trigger for the American Civil War."
+        }
+      }
+    },
+    {
+      "source": "P·G·T·博雷加德",
+      "target": "桑特堡战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1861-04-12",
+        "description": {
+          "zh-cn": "在邦联总统杰佛逊·戴维斯的命令下，皮埃尔·博雷加德指挥部队炮击萨姆特堡。",
+          "en": "Under orders from Confederate President Jefferson Davis, P.G.T. Beauregard commanded the forces that bombarded Fort Sumter."
+        }
+      }
+    },
+    {
+      "source": "联邦 (南北战争)",
+      "target": "美利坚联盟国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1865-04-09",
+        "description": {
+          "zh-cn": "联邦在美国内战中最终战胜邦联，维护了国家统一。",
+          "en": "The Union ultimately defeated the Confederacy in the American Civil War, preserving the nation's unity."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕·林肯",
+      "target": "联邦 (南北战争)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1861-03-04",
+        "end_date": "1865-04-15",
+        "position": {
+          "zh-cn": "总统兼总司令",
+          "en": "President and Commander-in-Chief"
+        },
+        "description": {
+          "zh-cn": "亚伯拉罕·林肯在美国内战期间担任美国总统，领导联邦。",
+          "en": "Abraham Lincoln served as the President of the United States and led the Union during the Civil War."
+        }
+      }
+    },
+    {
+      "source": "杰佛逊·戴维斯",
+      "target": "美利坚联盟国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1861-02-09",
+        "end_date": "1865-05-10",
+        "position": {
+          "zh-cn": "总统",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "杰佛逊·戴维斯是美利坚联盟国的唯一一任总统。",
+          "en": "Jefferson Davis was the only president of the Confederate States of America."
+        }
+      }
+    },
+    {
+      "source": "南卡罗莱纳州",
+      "target": "美利坚联盟国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1860-12-21",
+        "description": {
+          "zh-cn": "南卡罗来纳州是第一个宣布脱离联邦并参与组建美利坚联盟国的州。",
+          "en": "South Carolina was the first state to secede from the Union and participate in the formation of the Confederate States of America."
+        }
+      }
+    },
+    {
+      "source": "安提耶坦之役",
+      "target": "解放黑人奴隶宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1862-09-17",
+        "description": {
+          "zh-cn": "联邦军在安提耶坦之役取得战略性胜利，阻止了邦联的北侵，为林肯总统宣布《解放黑人奴隶宣言》创造了政治和军事上的有利时机。",
+          "en": "The Union's strategic victory at the Battle of Antietam halted the Confederate invasion of the North, creating a favorable political and military opportunity for President Lincoln to issue the Emancipation Proclamation."
+        }
+      }
+    },
+    {
+      "source": "乔治·B·麦克莱伦",
+      "target": "罗伯特·E·李",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1862-09-17",
+        "end_date": "1862-09-17",
+        "description": {
+          "zh-cn": "在安提耶坦之役中，麦克莱伦指挥的联邦军阻止了李将军率领的邦联军的北侵。",
+          "en": "At the Battle of Antietam, Union forces under McClellan halted the northern invasion by Confederate forces led by General Lee."
+        }
+      }
+    },
+    {
+      "source": "乔治·米德",
+      "target": "罗伯特·E·李",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1863-07-01",
+        "end_date": "1863-07-03",
+        "description": {
+          "zh-cn": "在盖茨堡之役中，米德指挥的联邦军击败了李将军的军队，结束了其第二次北侵。",
+          "en": "At the Battle of Gettysburg, Union forces commanded by Meade defeated General Lee's army, ending his second invasion of the North."
+        }
+      }
+    },
+    {
+      "source": "盖茨堡之役",
+      "target": "美利坚联盟国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1863-07-03",
+        "description": {
+          "zh-cn": "盖茨堡之役的失败对邦联造成了重大打击，被广泛认为是战争的转折点。",
+          "en": "The defeat at the Battle of Gettysburg was a major blow to the Confederacy and is widely considered the turning point of the war."
+        }
+      }
+    },
+    {
+      "source": "尤利西斯·S·格兰特",
+      "target": "罗伯特·E·李",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1865-04-09",
+        "description": {
+          "zh-cn": "在阿波马托克斯法院，罗伯特·E·李将军向尤利西斯·S·格兰特将军投降，标志着美国内战主要军事冲突的结束。",
+          "en": "At Appomattox Court House, General Robert E. Lee surrendered to General Ulysses S. Grant, marking the end of major military conflict in the American Civil War."
+        }
+      }
+    },
+    {
+      "source": "威廉·T·舍曼",
+      "target": "谢尔曼向大海进军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1864-11-15",
+        "description": {
+          "zh-cn": "威廉·T·舍曼将军率领联邦军进行了“向大海进军”行动，旨在摧毁南方的战争潜力。",
+          "en": "General William T. Sherman led the Union army on the 'March to the Sea' campaign to destroy the South's war-making potential."
+        }
+      }
+    },
+    {
+      "source": "谢尔曼向大海进军",
+      "target": "美利坚联盟国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1864-11-15",
+        "end_date": "1864-12-21",
+        "description": {
+          "zh-cn": "这次军事行动摧毁了乔治亚州大量的农场、铁路和基础设施，严重打击了邦联的经济和士气。",
+          "en": "This military campaign destroyed numerous farms, railways, and infrastructure in Georgia, severely damaging the Confederacy's economy and morale."
+        }
+      }
+    },
+    {
+      "source": "美国内战",
+      "target": "美国重建时期",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1865-05-09",
+        "description": {
+          "zh-cn": "美国内战的结束开启了美国重建时期，以解决南方各州重返联邦及非裔美国人权利等问题。",
+          "en": "The end of the American Civil War initiated the Reconstruction era to address the reintegration of the southern states into the Union and the rights of African Americans."
+        }
+      }
+    },
+    {
+      "source": "林肯遇刺案",
+      "target": "亚伯拉罕·林肯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1865-04-15",
+        "description": {
+          "zh-cn": "林肯总统在内战结束后不久遇刺身亡。",
+          "en": "President Lincoln was assassinated shortly after the end of the Civil War, leading to his death."
+        }
+      }
+    },
+    {
+      "source": "温菲尔德·史考特",
+      "target": "蟒蛇计划",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1861",
+        "description": {
+          "zh-cn": "温菲尔德·史考特将军制定了旨在通过经济手段扼杀邦联的“蟒蛇计划”。",
+          "en": "General Winfield Scott devised the 'Anaconda Plan' aimed at strangling the Confederacy through economic means."
+        }
+      }
+    },
+    {
+      "source": "蟒蛇计划",
+      "target": "联邦封锁",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1861-05",
+        "description": {
+          "zh-cn": "“蟒蛇计划”的核心组成部分是对所有南方港口实施联邦封锁。",
+          "en": "A core component of the Anaconda Plan was the implementation of a Union blockade on all Southern ports."
+        }
+      }
+    }
+  ]
+}

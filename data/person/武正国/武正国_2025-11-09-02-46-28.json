@@ -1,0 +1,369 @@
+{
+  "nodes": [
+    {
+      "id": "武正国",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "武正国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1940 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "交城县",
+          "en": "Jiaocheng County"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A politician of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "交城县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "交城县",
+          "交城"
+        ],
+        "en": [
+          "Jiaocheng County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国山西省吕梁市下辖的一个县。",
+          "en": "A county under the administration of Lüliang, Shanxi, China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于亚洲东部的社会主义国家。",
+          "en": "A socialist state in East Asia."
+        }
+      }
+    },
+    {
+      "id": "山西化工学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山西化工学院"
+        ],
+        "en": [
+          "Shanxi Institute of Chemical Technology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于山西省的一所高等教育机构。",
+          "en": "An institution of higher education located in Shanxi Province."
+        }
+      }
+    },
+    {
+      "id": "中共山西省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共山西省委"
+        ],
+        "en": [
+          "Shanxi Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在山西省的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Shanxi Province."
+        }
+      }
+    },
+    {
+      "id": "山西省人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山西省人民代表大会常务委员会",
+          "山西省人大常委会"
+        ],
+        "en": [
+          "Standing Committee of the Shanxi Provincial People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "山西省人民代表大会的常设机关。",
+          "en": "The permanent body of the Shanxi Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": [
+          "China Writers Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国各民族作家自愿结合的专业性人民团体。",
+          "en": "A professional people's organization formed voluntarily by writers of all ethnic groups in China."
+        }
+      }
+    },
+    {
+      "id": "中华诗词学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华诗词学会"
+        ],
+        "en": [
+          "China National Association of Poetry"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国诗词爱好者组成的全国性社会学术团体。",
+          "en": "A national social and academic organization composed of Chinese poetry enthusiasts."
+        }
+      }
+    },
+    {
+      "id": "中国政治学会 (中华人民共和国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国政治学会 (中华人民共和国)",
+          "中国政治学会"
+        ],
+        "en": [
+          "Chinese Association of Political Science"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国全国性的政治学学术团体。",
+          "en": "The national academic association for political science in the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "武正国",
+      "target": "交城县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "武正国是山西交城人。",
+          "en": "Wu Zhengguo is from Jiaocheng, Shanxi."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "山西化工学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "武正国早年供职于山西化工学院。",
+          "en": "Wu Zhengguo worked at the Shanxi Institute of Chemical Technology in his early years."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "中共山西省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1982",
+        "position": {
+          "zh-cn": "办公厅主任",
+          "en": "Director of the General Office"
+        },
+        "description": {
+          "zh-cn": "1982年，武正国担任中共山西省委办公厅主任。",
+          "en": "In 1982, Wu Zhengguo served as the Director of the General Office of the CPC Shanxi Provincial Committee."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "中共山西省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1995",
+        "position": {
+          "zh-cn": "秘书长",
+          "en": "Secretary-General"
+        },
+        "description": {
+          "zh-cn": "1995年，武正国任中共山西省委秘书长。",
+          "en": "In 1995, Wu Zhengguo was appointed as the Secretary-General of the CPC Shanxi Provincial Committee."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "中共山西省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1996",
+        "position": {
+          "zh-cn": "省委常委",
+          "en": "Member of the Standing Committee of the Provincial Committee"
+        },
+        "description": {
+          "zh-cn": "1996年，武正国任山西省省委常委。",
+          "en": "In 1996, Wu Zhengguo became a member of the Standing Committee of the Shanxi Provincial Party Committee."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "山西省人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2000",
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "2000年，武正国改任山西省人大常委会副主任。",
+          "en": "In 2000, Wu Zhengguo was reassigned to the position of Vice Chairman of the Standing Committee of the Shanxi Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "武正国是中国共产党党员。",
+          "en": "Wu Zhengguo is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "武正国是中国作家协会会员。",
+          "en": "Wu Zhengguo is a member of the China Writers Association."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "中华诗词学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副会长",
+          "en": "Vice President"
+        },
+        "description": {
+          "zh-cn": "武正国曾担任中华诗词学会副会长。",
+          "en": "Wu Zhengguo served as the Vice President of the China National Association of Poetry."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "中华诗词学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "顾问",
+          "en": "Consultant"
+        },
+        "description": {
+          "zh-cn": "武正国曾担任中华诗词学会顾问。",
+          "en": "Wu Zhengguo served as a consultant for the China National Association of Poetry."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "中国政治学会 (中华人民共和国)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副会长",
+          "en": "Vice President"
+        },
+        "description": {
+          "zh-cn": "武正国曾担任中国政治学会副会长。",
+          "en": "Wu Zhengguo served as the Vice President of the Chinese Association of Political Science."
+        }
+      }
+    },
+    {
+      "source": "武正国",
+      "target": "中国政治学会 (中华人民共和国)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "理事",
+          "en": "Council Member"
+        },
+        "description": {
+          "zh-cn": "武正国曾担任中国政治学会理事。",
+          "en": "Wu Zhengguo served as a council member of the Chinese Association of Political Science."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "nodes": [
+    {
+      "id": "科大讯飞股份有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "科大讯飞股份有限公司",
+          "科大讯飞"
+        ],
+        "en": [
+          "Iflytek Co.,Ltd"
+        ]
+      },
+      "properties": {
+        "period": "1999-12-30 - ",
+        "location": {
+          "zh-cn": "合肥市",
+          "en": "Hefei"
+        },
+        "description": {
+          "zh-cn": "一家在深圳证券交易所上市的中国公司，主营业务范围包括语音支撑软件、行业应用产品/系统、信息工程和运维服务。",
+          "en": "A Chinese company listed on the Shenzhen Stock Exchange, whose main business scope includes voice support software, industry application products/systems, information engineering, and operation and maintenance services."
+        }
+      }
+    },
+    {
+      "id": "刘庆峰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘庆峰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "科大讯飞的董事长，曾兼任公司总裁直至2021年2月。",
+          "en": "Chairman of iFlytek, who also served as the company's president until February 2021."
+        }
+      }
+    },
+    {
+      "id": "吴晓如",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴晓如"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "科大讯飞总裁，于2021年2月接替刘庆峰担任此职。此前曾任公司董事、执行总裁。",
+          "en": "President of iFlytek, who took over from Liu Qingfeng in February 2021. He previously served as a director and executive president of the company."
+        }
+      }
+    },
+    {
+      "id": "中国科学技术大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学技术大学"
+        ],
+        "en": [
+          "University of Science and Technology of China"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "合肥市",
+          "en": "Hefei"
+        },
+        "description": {
+          "zh-cn": "位于中国安徽省合肥市的一所研究型大学。科大讯飞由该校背景的“讯飞信息科技有限公司”整体变更设立。",
+          "en": "A research university located in Hefei, Anhui Province, China. iFlytek was established through the overall transformation of 'Xunfei Information Technology Co., Ltd.', a company with ties to the university."
+        }
+      }
+    },
+    {
+      "id": "深圳证券交易所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "深圳证券交易所"
+        ],
+        "en": [
+          "Shenzhen Stock Exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的两个主要证券交易所之一。科大讯飞于2008年在此上市。",
+          "en": "One of the two main stock exchanges in the People's Republic of China. iFlytek was listed here in 2008."
+        }
+      }
+    },
+    {
+      "id": "艾欧史密斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "艾欧史密斯"
+        ],
+        "en": [
+          "A. O. Smith Corporation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国公司，与科大讯飞建立了合作伙伴关系。",
+          "en": "An American company that has established a partnership with iFlytek."
+        }
+      }
+    },
+    {
+      "id": "纽约时报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纽约时报"
+        ],
+        "en": [
+          "The New York Times"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国报纸。其在2017年的一篇报道中对科大讯飞的技术提出了潜在的伦理担忧。",
+          "en": "An American newspaper. In a 2017 report, it raised potential ethical concerns about iFlytek's technology."
+        }
+      }
+    },
+    {
+      "id": "美国商务部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国商务部"
+        ],
+        "en": [
+          "United States Department of Commerce"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国联邦政府的行政部门之一，于2019年将科大讯飞列入实体清单。",
+          "en": "One of the executive departments of the U.S. federal government, which added iFlytek to the Entity List in 2019."
+        }
+      }
+    },
+    {
+      "id": "新疆穆斯林人权问题",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "新疆穆斯林人权问题"
+        ],
+        "en": [
+          "Xinjiang Muslim human rights issue"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指在中国新疆地区发生的与穆斯林少数民族人权相关的争议和事件。美国政府以此为由对包括科大讯飞在内的多个中国实体实施制裁。",
+          "en": "Refers to controversies and events related to the human rights of Muslim ethnic minorities in the Xinjiang region of China. The U.S. government has cited this issue as a reason for imposing sanctions on several Chinese entities, including iFlytek."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国科学技术大学",
+      "target": "科大讯飞股份有限公司",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1999-12-30",
+        "description": {
+          "zh-cn": "科大讯飞由中国科学技术大学背景的“讯飞信息科技有限公司”整体变更设立，体现了其与该大学的紧密渊源。",
+          "en": "iFlytek was established through the overall transformation of 'Xunfei Information Technology Co., Ltd.', a company with ties to the University of Science and Technology of China, reflecting its close origins with the university."
+        }
+      }
+    },
+    {
+      "source": "科大讯飞股份有限公司",
+      "target": "深圳证券交易所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008-05-12",
+        "description": {
+          "zh-cn": "科大讯飞在深圳证券交易所中小板挂牌上市，成为其上市公司成员。",
+          "en": "iFlytek was listed on the SME Board of the Shenzhen Stock Exchange, becoming one of its listed company members."
+        }
+      }
+    },
+    {
+      "source": "刘庆峰",
+      "target": "科大讯飞股份有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事长",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "刘庆峰担任科大讯飞的董事长。",
+          "en": "Liu Qingfeng serves as the Chairman of iFlytek."
+        }
+      }
+    },
+    {
+      "source": "刘庆峰",
+      "target": "科大讯飞股份有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2021-02-07",
+        "position": {
+          "zh-cn": "总裁",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "刘庆峰曾兼任科大讯飞总裁，直至2021年2月7日卸任该职务。",
+          "en": "Liu Qingfeng also served as President of iFlytek until he stepped down from the position on February 7, 2021."
+        }
+      }
+    },
+    {
+      "source": "吴晓如",
+      "target": "科大讯飞股份有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-02-07",
+        "position": {
+          "zh-cn": "总裁",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "吴晓如自2021年2月7日起接任科大讯飞总裁职务。",
+          "en": "Wu Xiaoru took over as President of iFlytek starting from February 7, 2021."
+        }
+      }
+    },
+    {
+      "source": "吴晓如",
+      "target": "刘庆峰",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2021-02-07",
+        "description": {
+          "zh-cn": "吴晓如接替刘庆峰，担任科大讯飞公司总裁职务。",
+          "en": "Wu Xiaoru succeeded Liu Qingfeng as the President of iFlytek."
+        }
+      }
+    },
+    {
+      "source": "科大讯飞股份有限公司",
+      "target": "艾欧史密斯",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "科大讯飞与美国公司艾欧史密斯建立了合作伙伴关系。",
+          "en": "iFlytek has established a partnership with the American company A. O. Smith."
+        }
+      }
+    },
+    {
+      "source": "纽约时报",
+      "target": "科大讯飞股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2017-12-05",
+        "description": {
+          "zh-cn": "《纽约时报》于2017年12月5日发文，评价科大讯飞的人工智能技术背后存在反乌托邦可能性，对其公众形象和声誉造成了负面影响。",
+          "en": "On December 5, 2017, The New York Times published an article evaluating the dystopian possibilities behind iFlytek's artificial intelligence technology, negatively impacting its public image and reputation."
+        }
+      }
+    },
+    {
+      "source": "美国商务部",
+      "target": "科大讯飞股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2019-10-08",
+        "description": {
+          "zh-cn": "以新疆穆斯林人权问题为由，美国商务部于2019年10月8日将科大讯飞列入《出口管制条例》的实体清单，从而限制其获取美国技术和产品。",
+          "en": "Citing the Xinjiang Muslim human rights issue, the U.S. Department of Commerce added iFlytek to the Entity List of the Export Administration Regulations on October 8, 2019, thereby restricting its access to U.S. technology and products."
+        }
+      }
+    }
+  ]
+}

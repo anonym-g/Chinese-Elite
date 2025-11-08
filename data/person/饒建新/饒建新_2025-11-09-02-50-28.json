@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "饶建新",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "饶建新"
+        ],
+        "en": [
+          "Rao Jianxin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党党员，中国人民解放军军事人物，拥有少将军衔，曾任中国人民解放军驻香港部队副政委。",
+          "en": "A member of the Communist Party of China, a military figure in the People's Liberation Army with the rank of Major General, who served as the Deputy Political Commissar of the PLA Hong Kong Garrison."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China",
+          "PRC"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军",
+          "解放军"
+        ],
+        "en": [
+          "People's Liberation Army",
+          "PLA"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军驻香港部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军驻香港部队",
+          "解放军驻港部队"
+        ],
+        "en": [
+          "People's Liberation Army Hong Kong Garrison"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "马尼拉人质事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "马尼拉人质事件",
+          "菲律宾人质遇难事件"
+        ],
+        "en": [
+          "Manila hostage crisis"
+        ]
+      },
+      "properties": {
+        "period": "2010-08-23 - 2010-08-23",
+        "description": {
+          "zh-cn": "2010年8月在菲律宾马尼拉发生的一起劫持事件，导致多名香港游客伤亡。",
+          "en": "A hostage crisis that occurred in Manila, Philippines in August 2010, resulting in casualties among several Hong Kong tourists."
+        }
+      }
+    },
+    {
+      "id": "曾荫权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曾荫权"
+        ],
+        "en": [
+          "Donald Tsang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "香港政治人物，曾任香港特别行政区行政长官。",
+          "en": "A Hong Kong politician who served as the Chief Executive of the Hong Kong Special Administrative Region."
+        }
+      }
+    },
+    {
+      "id": "中央人民政府驻香港特别行政区联络办公室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央人民政府驻香港特别行政区联络办公室",
+          "中央人民政府驻港联络办"
+        ],
+        "en": [
+          "Liaison Office of the Central People's Government in the Hong Kong Special Administrative Region"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "彭清华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭清华"
+        ],
+        "en": [
+          "Peng Qinghua"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中央人民政府驻香港特别行政区联络办公室主任。",
+          "en": "A Chinese politician who served as the Director of the Liaison Office of the Central People's Government in the Hong Kong Special Administrative Region."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国外交部驻香港特别行政区特派员公署",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国外交部驻香港特别行政区特派员公署"
+        ],
+        "en": [
+          "Office of the Commissioner of the Ministry of Foreign Affairs of the People's Republic of China in the Hong Kong Special Administrative Region"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "吕新华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕新华"
+        ],
+        "en": [
+          "Lü Xinhua"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国外交官，曾任中华人民共和国外交部驻香港特别行政区特派员。",
+          "en": "A Chinese diplomat who served as the Commissioner of the Ministry of Foreign Affairs of the People's Republic of China in the Hong Kong Special Administrative Region."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "饶建新",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "饶建新",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "陆军少将",
+          "en": "Major General"
+        }
+      }
+    },
+    {
+      "source": "饶建新",
+      "target": "中国人民解放军驻香港部队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010",
+        "position": {
+          "zh-cn": "副政委",
+          "en": "Deputy Political Commissar"
+        }
+      }
+    },
+    {
+      "source": "饶建新",
+      "target": "曾荫权",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2010-08",
+        "description": {
+          "zh-cn": "因马尼拉人质事件一同前往礼顿山社区礼堂追悼遇难者。",
+          "en": "Attended a memorial service for the victims of the Manila hostage crisis at Leighton Hill Community Hall together."
+        }
+      }
+    },
+    {
+      "source": "饶建新",
+      "target": "彭清华",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2010-08",
+        "description": {
+          "zh-cn": "因马尼拉人质事件一同前往礼顿山社区礼堂追悼遇难者。",
+          "en": "Attended a memorial service for the victims of the Manila hostage crisis at Leighton Hill Community Hall together."
+        }
+      }
+    },
+    {
+      "source": "饶建新",
+      "target": "吕新华",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2010-08",
+        "description": {
+          "zh-cn": "因马尼拉人质事件一同前往礼顿山社区礼堂追悼遇难者。",
+          "en": "Attended a memorial service for the victims of the Manila hostage crisis at Leighton Hill Community Hall together."
+        }
+      }
+    },
+    {
+      "source": "彭清华",
+      "target": "中央人民政府驻香港特别行政区联络办公室",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010",
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "吕新华",
+      "target": "中华人民共和国外交部驻香港特别行政区特派员公署",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010",
+        "position": {
+          "zh-cn": "特派员",
+          "en": "Commissioner"
+        }
+      }
+    }
+  ]
+}

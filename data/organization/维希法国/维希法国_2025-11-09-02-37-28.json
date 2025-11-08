@@ -1,0 +1,683 @@
+{
+  "nodes": [
+    {
+      "id": "法兰西国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西国",
+          "维希法国"
+        ],
+        "en": [
+          "French State",
+          "Vichy France",
+          "Régime de Vichy"
+        ]
+      },
+      "properties": {
+        "period": "1940-07-10 - 1945-04-22",
+        "location": {
+          "zh-cn": "维希 (事实), 巴黎 (法定), 西格马林根 (流亡)",
+          "en": "Vichy (de facto), Paris (de jure), Sigmaringen (in exile)"
+        },
+        "description": {
+          "zh-cn": "第二次世界大战期间由菲利普·贝当领导的法国国家政权。该政权虽然名义上中立，但与纳粹德国合作，并在1942年后被德国完全控制。",
+          "en": "The French state headed by Marshal Philippe Pétain during World War II. It was officially neutral but collaborated with Nazi Germany and was fully controlled by Germany after 1942."
+        }
+      }
+    },
+    {
+      "id": "菲利普·贝当",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "菲利普·贝当"
+        ],
+        "en": [
+          "Philippe Pétain"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国元帅，第一次世界大战的战争英雄，维希法国的国家元首。战后因叛国罪被判处死刑，后减为终身监禁。",
+          "en": "A French general officer who attained the position of Marshal of France, a war hero of World War I, and the head of state of Vichy France. After the war, he was sentenced to death for treason, but his sentence was commuted to life imprisonment."
+        }
+      }
+    },
+    {
+      "id": "皮埃尔·赖伐尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "皮埃尔·赖伐尔"
+        ],
+        "en": [
+          "Pierre Laval"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "维希法国的总理，积极推动与纳粹德国的合作。战后被以叛国罪判处死刑并被处决。",
+          "en": "Prime Minister of Vichy France who actively promoted collaboration with Nazi Germany. After the war, he was convicted of treason and executed."
+        }
+      }
+    },
+    {
+      "id": "夏尔·戴高乐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "夏尔·戴高乐",
+          "戴高乐"
+        ],
+        "en": [
+          "Charles de Gaulle"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国将军和政治家，领导了抵抗纳粹德国的自由法国运动，并建立了法兰西共和国临时政府。",
+          "en": "A French general and statesman who led the Free French Forces against Nazi Germany and founded the Provisional Government of the French Republic."
+        }
+      }
+    },
+    {
+      "id": "纳粹德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国",
+          "德国"
+        ],
+        "en": [
+          "Nazi Germany",
+          "Germany"
+        ]
+      },
+      "properties": {
+        "period": "1933 - 1945",
+        "description": {
+          "zh-cn": "第二次世界大战中的轴心国之一，入侵并占领了法国，对维希法国政权具有决定性影响。",
+          "en": "One of the Axis powers in World War II, which invaded and occupied France and had a decisive influence over the Vichy France regime."
+        }
+      }
+    },
+    {
+      "id": "意大利王国 (1861年—1946年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "意大利王国 (1861年—1946年)",
+          "意大利"
+        ],
+        "en": [
+          "Kingdom of Italy (1861–1946)",
+          "Italy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "纳粹德国的盟友，在“安东行动”中与德国一同占领了维希法国的剩余领土。",
+          "en": "An ally of Nazi Germany that, along with Germany, occupied the remaining territory of Vichy France during Operation Anton."
+        }
+      }
+    },
+    {
+      "id": "自由法国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "自由法国"
+        ],
+        "en": [
+          "Free France"
+        ]
+      },
+      "properties": {
+        "period": "1940 - 1944",
+        "description": {
+          "zh-cn": "由夏尔·戴高乐在伦敦建立的流亡政府，致力于抵抗德国占领和维希政权，并在解放法国中发挥了关键作用。",
+          "en": "A government-in-exile established in London by Charles de Gaulle, dedicated to resisting the German occupation and the Vichy regime, and playing a key role in the liberation of France."
+        }
+      }
+    },
+    {
+      "id": "法国抵抗运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "法国抵抗运动"
+        ],
+        "en": [
+          "French Resistance"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在德国占领期间，在法国境内从事抵抗活动的所有运动和网络的集合，反对维希政权和德国占领军。",
+          "en": "A collection of all movements and networks that engaged in resistance activities within France during the German occupation, opposing the Vichy regime and the German occupying forces."
+        }
+      }
+    },
+    {
+      "id": "法兰西第三共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第三共和国"
+        ],
+        "en": [
+          "French Third Republic"
+        ]
+      },
+      "properties": {
+        "period": "1870 - 1940",
+        "description": {
+          "zh-cn": "维希法国的前身政权，在法国战役中被纳粹德国击败后解体。",
+          "en": "The predecessor regime to Vichy France, which collapsed after being defeated by Nazi Germany in the Battle of France."
+        }
+      }
+    },
+    {
+      "id": "法兰西共和国临时政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西共和国临时政府"
+        ],
+        "en": [
+          "Provisional Government of the French Republic"
+        ]
+      },
+      "properties": {
+        "period": "1944 - 1946",
+        "description": {
+          "zh-cn": "在法国解放后由夏尔·戴高乐建立的临时政府，取代了维希政权，并负责战后重建和对合作者进行审判。",
+          "en": "An interim government established by Charles de Gaulle after the liberation of France, which replaced the Vichy regime and was responsible for post-war reconstruction and the trials of collaborators."
+        }
+      }
+    },
+    {
+      "id": "法国战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "法国战役"
+        ],
+        "en": [
+          "Battle of France"
+        ]
+      },
+      "properties": {
+        "period": "1940-05-10 - 1940-06-25",
+        "description": {
+          "zh-cn": "第二次世界大战期间纳粹德国入侵法国及低地国家的军事行动，导致法兰西第三共和国的迅速溃败和维希政权的建立。",
+          "en": "The military campaign during World War II in which Nazi Germany invaded France and the Low Countries, leading to the swift collapse of the French Third Republic and the establishment of the Vichy regime."
+        }
+      }
+    },
+    {
+      "id": "第二次贡比涅停战协定",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次贡比涅停战协定"
+        ],
+        "en": [
+          "Second Armistice at Compiègne"
+        ]
+      },
+      "properties": {
+        "period": "1940-06-22",
+        "description": {
+          "zh-cn": "法国与纳粹德国在法国战役后签订的停战协定，规定了法国被分为占领区和非占领区，为维希政府的成立奠定了基础。",
+          "en": "The armistice signed between France and Nazi Germany after the Battle of France, which stipulated the division of France into an occupied zone and an unoccupied zone, laying the foundation for the establishment of the Vichy government."
+        }
+      }
+    },
+    {
+      "id": "火炬行动",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "火炬行动"
+        ],
+        "en": [
+          "Operation Torch"
+        ]
+      },
+      "properties": {
+        "period": "1942-11-08",
+        "description": {
+          "zh-cn": "第二次世界大战期间盟军在法属北非的登陆行动，该行动直接促使德国和意大利执行“安东行动”。",
+          "en": "The Allied landings in French North Africa during World War II, which directly prompted Germany and Italy to execute Operation Anton."
+        }
+      }
+    },
+    {
+      "id": "安东行动",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "安东行动"
+        ],
+        "en": [
+          "Operation Anton"
+        ]
+      },
+      "properties": {
+        "period": "1942-11-11",
+        "description": {
+          "zh-cn": "德国和意大利为应对“火炬行动”而发起的军事行动，旨在占领维希法国控制的法国南部地区，导致维希政权名存实亡。",
+          "en": "The military operation launched by Germany and Italy in response to Operation Torch to occupy the southern French territory controlled by Vichy France, which rendered the Vichy regime defunct in all but name."
+        }
+      }
+    },
+    {
+      "id": "诺曼底登陆",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "诺曼底登陆"
+        ],
+        "en": [
+          "Normandy landings"
+        ]
+      },
+      "properties": {
+        "period": "1944-06",
+        "description": {
+          "zh-cn": "盟军在法国诺曼底地区进行的大规模登陆行动，是解放法国的开端，直接导致了维希政权的崩溃。",
+          "en": "The large-scale Allied landing operation in the Normandy region of France, which marked the beginning of the liberation of France and directly led to the collapse of the Vichy regime."
+        }
+      }
+    },
+    {
+      "id": "同盟国 (第二次世界大战)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "同盟国 (第二次世界大战)",
+          "盟军"
+        ],
+        "en": [
+          "Allies of World War II",
+          "Allied Powers"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在第二次世界大战中对抗轴心国的国家联盟。通过“火炬行动”和“诺曼底登陆”等军事行动，最终击败了德国并解放了法国。",
+          "en": "The alliance of countries that fought against the Axis powers in World War II. Through military operations such as Operation Torch and the Normandy landings, they ultimately defeated Germany and liberated France."
+        }
+      }
+    },
+    {
+      "id": "保罗·雷诺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "保罗·雷诺"
+        ],
+        "en": [
+          "Paul Reynaud"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法兰西第三共和国末任总理，在法国战役期间因反对停战而辞职，由菲利普·贝当接任。",
+          "en": "The last Prime Minister of the French Third Republic, who resigned during the Battle of France due to his opposition to an armistice and was succeeded by Philippe Pétain."
+        }
+      }
+    },
+    {
+      "id": "法国第一军团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法国第一军团"
+        ],
+        "en": [
+          "First French Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "隶属于自由法国的军队，在1945年4月攻下西格马林根，俘虏了最后一批维希法国的流亡者。",
+          "en": "An army affiliated with the Free French Forces, which captured Sigmaringen in April 1945 and took the last Vichy France exiles prisoner."
+        }
+      }
+    },
+    {
+      "id": "西格马林根飞地",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西格马林根飞地"
+        ],
+        "en": [
+          "Sigmaringen enclave"
+        ]
+      },
+      "properties": {
+        "period": "1944-09 - 1945-04-22",
+        "description": {
+          "zh-cn": "维希法国在法国本土被解放后，于德国西格马林根成立的流亡政府。",
+          "en": "The government-in-exile of Vichy France, established in Sigmaringen, Germany, after the liberation of mainland France."
+        }
+      }
+    },
+    {
+      "id": "犹太人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "犹太人"
+        ],
+        "en": [
+          "Jewish people"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在维希法国时期，成为系统性迫害和围捕的对象，至少有72,500人被杀害。",
+          "en": "During the Vichy France period, they were subject to systematic persecution and roundups, resulting in the murder of at least 72,500 people."
+        }
+      }
+    },
+    {
+      "id": "罗姆人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗姆人",
+          "吉普赛人"
+        ],
+        "en": [
+          "Romani people",
+          "Gypsies"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "与犹太人一样，在维希法国时期被视为“不良分子”并遭到抓捕。",
+          "en": "Like the Jewish people, they were considered 'undesirables' and were arrested during the Vichy France period."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "菲利普·贝当",
+      "target": "法兰西国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": [
+          "1940-07-10",
+          "1940-07-11"
+        ],
+        "end_date": [
+          "1944-08-20",
+          "1942-04-18"
+        ],
+        "position": {
+          "zh-cn": "国家元首, 总理",
+          "en": "Head of State, Prime Minister"
+        },
+        "description": {
+          "zh-cn": "菲利普·贝当于1940年7月10日被授予全权，成为法兰西国的国家元首（1940-1944）和总理（1940-1942）。",
+          "en": "Philippe Pétain was granted full powers on July 10, 1940, becoming the Head of State (1940-1944) and Prime Minister (1940-1942) of the French State."
+        }
+      }
+    },
+    {
+      "source": "皮埃尔·赖伐尔",
+      "target": "法兰西国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1942",
+        "end_date": "1944",
+        "position": {
+          "zh-cn": "总理",
+          "en": "Prime Minister"
+        },
+        "description": {
+          "zh-cn": "皮埃尔·赖伐尔在1942年至1944年期间担任维希法国的总理。",
+          "en": "Pierre Laval served as the Prime Minister of Vichy France from 1942 to 1944."
+        }
+      }
+    },
+    {
+      "source": "法国战役",
+      "target": "法兰西国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1940-05",
+        "end_date": "1940-07-10",
+        "description": {
+          "zh-cn": "法国在法国战役中的军事溃败直接导致了法兰西第三共和国的垮台和寻求停战，为菲利普·贝当上台建立维希政权创造了条件。",
+          "en": "The military defeat of France in the Battle of France directly led to the collapse of the Third Republic and the pursuit of an armistice, creating the conditions for Philippe Pétain to come to power and establish the Vichy regime."
+        }
+      }
+    },
+    {
+      "source": "纳粹德国",
+      "target": "法国战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1940-05-10",
+        "description": {
+          "zh-cn": "纳粹德国于1940年5月10日入侵法国，发动了法国战役。",
+          "en": "Nazi Germany invaded France on May 10, 1940, launching the Battle of France."
+        }
+      }
+    },
+    {
+      "source": "第二次贡比涅停战协定",
+      "target": "法兰西国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1940-06-22",
+        "description": {
+          "zh-cn": "该停战协定是维希法国得以成立的直接法律和政治前提，确立了其与德国的从属关系和法国领土的分割。",
+          "en": "This armistice was the direct legal and political prerequisite for the establishment of Vichy France, defining its subordinate relationship with Germany and the division of French territory."
+        }
+      }
+    },
+    {
+      "source": "法兰西国",
+      "target": "纳粹德国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1942-11-11",
+        "end_date": "1944-08-20",
+        "description": {
+          "zh-cn": "自1942年11月“安东行动”后，德国占领法国全境，维希政府被德国完全控制，失去了军队和实际自主权。",
+          "en": "After Operation Anton in November 1942, Germany occupied all of France, and the Vichy government was completely controlled by Germany, losing its army and effective autonomy."
+        }
+      }
+    },
+    {
+      "source": "自由法国",
+      "target": "法兰西国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1940",
+        "end_date": "1944",
+        "description": {
+          "zh-cn": "由夏尔·戴高乐领导的自由法国在整个维希政权存在期间，始终在政治和军事上对其进行反对，并视其为非法的傀儡政府。",
+          "en": "Led by Charles de Gaulle, Free France consistently opposed the Vichy regime politically and militarily throughout its existence, viewing it as an illegitimate puppet government."
+        }
+      }
+    },
+    {
+      "source": "法国抵抗运动",
+      "target": "法兰西国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1940",
+        "end_date": "1944",
+        "description": {
+          "zh-cn": "法国抵抗运动在法国本土不断通过各种方式反对维希政权及其与德国的合作。",
+          "en": "The French Resistance continuously opposed the Vichy regime and its collaboration with Germany through various means within mainland France."
+        }
+      }
+    },
+    {
+      "source": "夏尔·戴高乐",
+      "target": "自由法国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1940",
+        "position": {
+          "zh-cn": "领导人",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "夏尔·戴高乐是自由法国运动的创始人和领导人。",
+          "en": "Charles de Gaulle was the founder and leader of the Free French movement."
+        }
+      }
+    },
+    {
+      "source": "火炬行动",
+      "target": "安东行动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1942-11-08",
+        "description": {
+          "zh-cn": "盟军在北非的“火炬行动”登陆，直接导致德国与意大利执行“安东行动”以占领维希法国全境，以防其倒向盟军。",
+          "en": "The Allied landings in North Africa during Operation Torch directly led Germany and Italy to execute Operation Anton to occupy all of Vichy France, preventing it from siding with the Allies."
+        }
+      }
+    },
+    {
+      "source": "安东行动",
+      "target": "法兰西国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1942-11-11",
+        "description": {
+          "zh-cn": "在“安东行动”中，德意军队占领了法国南部，彻底摧毁了维希政府的实际管治权、自主性及其武装力量“停战军”。",
+          "en": "During Operation Anton, German and Italian forces occupied southern France, completely destroying the Vichy government's effective administrative power, autonomy, and its armed force, the 'Armistice Army'."
+        }
+      }
+    },
+    {
+      "source": "诺曼底登陆",
+      "target": "法兰西国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1944-06",
+        "description": {
+          "zh-cn": "盟军通过诺曼底登陆攻入法国，开启了解放法国的进程，直接导致了维希政权在法国本土的崩溃。",
+          "en": "The Allies' invasion of France through the Normandy landings initiated the process of liberating France, directly leading to the collapse of the Vichy regime on French soil."
+        }
+      }
+    },
+    {
+      "source": "法兰西共和国临时政府",
+      "target": "菲利普·贝当",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945",
+        "description": {
+          "zh-cn": "战后，菲利普·贝当被法兰西共和国临时政府以叛国罪审判，并被判处死刑。",
+          "en": "After the war, Philippe Pétain was tried for treason by the Provisional Government of the French Republic and sentenced to death."
+        }
+      }
+    },
+    {
+      "source": "法兰西共和国临时政府",
+      "target": "皮埃尔·赖伐尔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-10-09",
+        "end_date": "1945-10-15",
+        "description": {
+          "zh-cn": "战后，皮埃尔·赖伐尔被法兰西共和国临时政府以叛国罪判处死刑，并于1945年10月15日被处决。",
+          "en": "After the war, Pierre Laval was sentenced to death for treason by the Provisional Government of the French Republic and was executed on October 15, 1945."
+        }
+      }
+    },
+    {
+      "source": "夏尔·戴高乐",
+      "target": "菲利普·贝当",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945",
+        "description": {
+          "zh-cn": "夏尔·戴高乐考虑到菲利普·贝当的一战战功，将其死刑判决减为终身监禁。",
+          "en": "Considering Philippe Pétain's military service in World War I, Charles de Gaulle commuted his death sentence to life imprisonment."
+        }
+      }
+    },
+    {
+      "source": "法兰西国",
+      "target": "犹太人",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1940",
+        "end_date": "1944",
+        "description": {
+          "zh-cn": "维希政府协助纳粹德国抓捕犹太人，其警察部队被命令围捕犹太人及其他政治难民，导致至少72,500名犹太人被杀害。",
+          "en": "The Vichy government assisted Nazi Germany in arresting Jewish people; its police forces were ordered to round up Jews and other political refugees, resulting in the murder of at least 72,500 Jews."
+        }
+      }
+    },
+    {
+      "source": "法兰西国",
+      "target": "罗姆人",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1940",
+        "end_date": "1944",
+        "description": {
+          "zh-cn": "维希政府协助抓捕罗姆人（吉普赛人）等被其视为“不良分子”的群体。",
+          "en": "The Vichy government assisted in the arrest of Romani people (Gypsies) and other groups it deemed 'undesirables'."
+        }
+      }
+    },
+    {
+      "source": "保罗·雷诺",
+      "target": "菲利普·贝当",
+      "type": "MET_WITH",
+      "properties": {
+        "end_date": "1940-06",
+        "description": {
+          "zh-cn": "1940年6月，时任法国总理保罗·雷诺因寻求继续抵抗的方案不受支持而辞职，由菲利普·贝当接任其总理职务。",
+          "en": "In June 1940, then-Prime Minister of France Paul Reynaud resigned after his proposal to continue resistance failed to gain support, and was succeeded as prime minister by Philippe Pétain."
+        }
+      }
+    },
+    {
+      "source": "法兰西国",
+      "target": "西格马林根飞地",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1944-09",
+        "end_date": "1945-04",
+        "description": {
+          "zh-cn": "法国解放后，维希政府的核心成员迁至德国西格马林根，组成了流亡政府，即西格马林根飞地。",
+          "en": "After the liberation of France, core members of the Vichy government moved to Sigmaringen, Germany, and formed a government-in-exile, the Sigmaringen enclave."
+        }
+      }
+    },
+    {
+      "source": "法国第一军团",
+      "target": "西格马林根飞地",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-04-22",
+        "description": {
+          "zh-cn": "1945年4月22日，法国第一军团攻下西格马林根，俘虏了维希流亡政府的最后一批成员，标志着其彻底终结。",
+          "en": "On April 22, 1945, the First French Army captured Sigmaringen and took the last members of the Vichy government-in-exile prisoner, marking its complete end."
+        }
+      }
+    }
+  ]
+}
