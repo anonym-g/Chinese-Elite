@@ -1,0 +1,869 @@
+{
+  "nodes": [
+    {
+      "id": "九一八事变",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "九一八事变",
+          "沈阳事变",
+          "奉天事变",
+          "盛京事变",
+          "满洲事变",
+          "柳条湖事件"
+        ],
+        "en": [
+          "Mukden Incident"
+        ]
+      },
+      "properties": {
+        "period": "1931-09-18 - 1932-02-18",
+        "location": {
+          "zh-cn": "中国东北地区",
+          "en": "Northeast China"
+        },
+        "description": {
+          "zh-cn": "1931年日本关东军在中国东北发动的军事侵略行动，最终导致东北全境被日军占领。",
+          "en": "A military aggression launched by the Japanese Kwantung Army in Northeast China in 1931, which ultimately led to the occupation of the entire Northeast by Japanese forces."
+        }
+      }
+    },
+    {
+      "id": "关东军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "关东军"
+        ],
+        "en": [
+          "Kwantung Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国陆军的一支部队，驻扎在中国东北，策划并执行了九一八事变。",
+          "en": "A unit of the Imperial Japanese Army stationed in Northeast China, which planned and executed the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "东北军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北军",
+          "国民革命军东北边防军"
+        ],
+        "en": [
+          "Northeastern Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国时期由张作霖、张学良父子统领的军事力量，九一八事变时为国民革命军东北边防军。",
+          "en": "The military force led by Zhang Zuolin and his son Zhang Xueliang during the Republic of China era, known as the Northeastern Border Defense Army of the National Revolutionary Army at the time of the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Zhang Xueliang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-06-03 - 2001-10-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国将领，奉系军阀张作霖之子，东北军的领导者。在九一八事变中执行不抵抗政策。",
+          "en": "A general of the Republic of China, son of Fengtian clique warlord Zhang Zuolin, and leader of the Northeastern Army. He implemented a policy of non-resistance during the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan",
+          "Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868 - 1947",
+        "description": {
+          "zh-cn": "1868年至1947年间日本的国号，是九一八事变的侵略方。",
+          "en": "The official name for Japan from 1868 to 1947, the aggressor in the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "中华民国 (1912年—1949年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国 (1912年—1949年)",
+          "中国"
+        ],
+        "en": [
+          "Republic of China (1912–1949)"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1949",
+        "description": {
+          "zh-cn": "1912年至1949年间统治中国大陆的政权，九一八事变中的被侵略方。",
+          "en": "The regime that governed mainland China from 1912 to 1949, the victim of aggression in the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国时期的政治及军事领导人，九一八事变时国民政府的实际掌权者，主张“攘外应先安内”政策。",
+          "en": "A political and military leader of the Republic of China, the de facto leader of the Nationalist Government during the Mukden Incident, who advocated the policy of 'first internal pacification, then external resistance'."
+        }
+      }
+    },
+    {
+      "id": "柳条湖事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "柳条湖事件"
+        ],
+        "en": [
+          "Liutiaohu Incident"
+        ]
+      },
+      "properties": {
+        "period": "1931-09-18",
+        "description": {
+          "zh-cn": "日本关东军炸毁南满铁路柳条湖段路轨并诬陷为中国军队所为的事件，是九一八事变的直接导火索。",
+          "en": "The event where the Japanese Kwantung Army blew up a section of the South Manchuria Railway at Liutiaohu and framed the Chinese army for it, serving as the direct trigger for the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "南满铁路",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南满铁路"
+        ],
+        "en": [
+          "South Manchuria Railway"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本在中国东北经营的铁路，关东军以其被破坏为借口发动了九一八事变。",
+          "en": "A railway operated by Japan in Northeast China. The Kwantung Army used its alleged destruction as a pretext to launch the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "满洲国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "满洲国"
+        ],
+        "en": [
+          "Manchukuo"
+        ]
+      },
+      "properties": {
+        "period": "1932-03-01 - 1945-08-18",
+        "location": {
+          "zh-cn": "中国东北地区",
+          "en": "Northeast China"
+        },
+        "description": {
+          "zh-cn": "九一八事变后，由大日本帝国扶植在中国东北建立的傀儡政权。",
+          "en": "A puppet state established by the Empire of Japan in Northeast China following the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "溥仪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "溥仪"
+        ],
+        "en": [
+          "Puyi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1906-02-07 - 1967-10-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝末代皇帝，后被日本扶植为满洲国的执政和皇帝。",
+          "en": "The last emperor of the Qing dynasty, later installed by Japan as the Chief Executive and Emperor of Manchukuo."
+        }
+      }
+    },
+    {
+      "id": "国际联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际联盟"
+        ],
+        "en": [
+          "League of Nations"
+        ]
+      },
+      "properties": {
+        "period": "1920 - 1946",
+        "description": {
+          "zh-cn": "第一次世界大战后成立的国际组织，中国就九一八事变向其提出申诉，但其未能有效制止日本的侵略。",
+          "en": "An international organization formed after World War I. China appealed to it regarding the Mukden Incident, but it failed to effectively stop Japanese aggression."
+        }
+      }
+    },
+    {
+      "id": "李顿报告",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "李顿报告"
+        ],
+        "en": [
+          "Lytton Report"
+        ]
+      },
+      "properties": {
+        "period": "1932-10-02",
+        "description": {
+          "zh-cn": "国际联盟李顿调查团就九一八事变发表的调查报告，谴责了日本的行为，但主张承认日本在东北的特殊地位。",
+          "en": "The investigation report on the Mukden Incident published by the League of Nations' Lytton Commission, which condemned Japan's actions but advocated for recognizing Japan's special status in the Northeast."
+        }
+      }
+    },
+    {
+      "id": "攘外应先安内",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "攘外应先安内"
+        ],
+        "en": [
+          "First internal pacification, then external resistance"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "九一八事变前后蒋介石领导的国民政府所采取的政策，主张在抵抗外来侵略前，应先平定国内的反对势力。",
+          "en": "The policy adopted by the Nationalist Government under Chiang Kai-shek before and after the Mukden Incident, which prioritized quelling internal opposition forces before resisting foreign aggression."
+        }
+      }
+    },
+    {
+      "id": "本庄繁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "本庄繁"
+        ],
+        "en": [
+          "Shigeru Honjō"
+        ]
+      },
+      "properties": {
+        "lifetime": "1876-05-10 - 1945-11-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本陆军大将，九一八事变时任关东军司令官，下令进攻中国军队。",
+          "en": "A general in the Imperial Japanese Army who was the commander of the Kwantung Army during the Mukden Incident and ordered the attack on Chinese forces."
+        }
+      }
+    },
+    {
+      "id": "石原莞尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石原莞尔"
+        ],
+        "en": [
+          "Kanji Ishiwara"
+        ]
+      },
+      "properties": {
+        "lifetime": "1889-01-18 - 1949-08-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本陆军中将，时任关东军作战主任参谋，是九一八事变的主要策划者之一。",
+          "en": "A lieutenant general in the Imperial Japanese Army who was the Operations Staff Officer of the Kwantung Army and one of the chief masterminds of the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "板垣征四郎",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "板垣征四郎"
+        ],
+        "en": [
+          "Seishirō Itagaki"
+        ]
+      },
+      "properties": {
+        "lifetime": "1885-01-21 - 1948-12-23",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本陆军大将，时任关东军高级参谋，是九一八事变的主要策划者之一。",
+          "en": "A general in the Imperial Japanese Army who was a Senior Staff Officer of the Kwantung Army and one of the chief masterminds of the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "皇姑屯事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "皇姑屯事件"
+        ],
+        "en": [
+          "Huanggutun Incident"
+        ]
+      },
+      "properties": {
+        "period": "1928-06-04",
+        "description": {
+          "zh-cn": "1928年日本关东军在沈阳皇姑屯炸死奉系军阀首领张作霖的事件，是九一八事变的重要背景。",
+          "en": "The 1928 incident in which the Japanese Kwantung Army assassinated Fengtian clique warlord leader Zhang Zuolin in Huanggutun, Shenyang. It was a significant precursor to the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "张作霖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张作霖"
+        ],
+        "en": [
+          "Zhang Zuolin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1875-03-19 - 1928-06-04",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国奉系军阀首领，统治中国东北，1928年在皇姑屯事件中被日本关东军炸死。",
+          "en": "Leader of the Fengtian clique of warlords who ruled Northeast China, assassinated by the Japanese Kwantung Army in the Huanggutun Incident in 1928."
+        }
+      }
+    },
+    {
+      "id": "中原大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中原大战"
+        ],
+        "en": [
+          "Central Plains War"
+        ]
+      },
+      "properties": {
+        "period": "1930-05 - 1930-11",
+        "description": {
+          "zh-cn": "1930年发生在中国的一场大规模军阀混战。张学良率东北军主力入关支持蒋介石，导致东北防务空虚，为九一八事变创造了条件。",
+          "en": "A large-scale warlord conflict in China in 1930. Zhang Xueliang led the main force of the Northeastern Army into the Shanhai Pass to support Chiang Kai-shek, leaving the Northeast's defenses vulnerable and creating conditions for the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "东北易帜",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "东北易帜"
+        ],
+        "en": [
+          "Northeast Flag Replacement"
+        ]
+      },
+      "properties": {
+        "period": "1928-12-29",
+        "description": {
+          "zh-cn": "张学良宣布东北服从国民政府，改挂青天白日满地红旗的事件，引起日本不满。",
+          "en": "The event in which Zhang Xueliang announced the Northeast's allegiance to the Nationalist Government and replaced the flag, which caused dissatisfaction in Japan."
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": [
+          "Nationalist Government"
+        ]
+      },
+      "properties": {
+        "period": "1925 - 1948",
+        "description": {
+          "zh-cn": "中华民国训政时期的中央政府与最高行政机关。",
+          "en": "The central government and highest administrative body of the Republic of China during the period of political tutelage."
+        }
+      }
+    },
+    {
+      "id": "第一次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次国共内战"
+        ],
+        "en": [
+          "First Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1927 - 1937",
+        "description": {
+          "zh-cn": "中国国民党与中国共产党之间的第一次武装冲突。九一八事变时，国民政府正忙于此次内战，影响了对日抵抗。",
+          "en": "The first armed conflict between the Kuomintang and the Communist Party of China. At the time of the Mukden Incident, the Nationalist Government was preoccupied with this civil war, which affected its resistance against Japan."
+        }
+      }
+    },
+    {
+      "id": "马占山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马占山"
+        ],
+        "en": [
+          "Ma Zhanshan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1885-11-30 - 1950-11-29",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国将领，时任黑龙江省政府代理主席，在九一八事变后组织了江桥抗战。",
+          "en": "A general of the Republic of China, acting chairman of Heilongjiang Province, who organized the Jiangqiao Resistance after the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "江桥抗战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "江桥抗战"
+        ],
+        "en": [
+          "Jiangqiao Resistance"
+        ]
+      },
+      "properties": {
+        "period": "1931-11-04 - 1931-11-18",
+        "location": {
+          "zh-cn": "嫩江",
+          "en": "Nen River"
+        },
+        "description": {
+          "zh-cn": "九一八事变后，由马占山领导的中国军队在黑龙江嫩江桥地区抵抗日军进攻的战斗。",
+          "en": "A battle after the Mukden Incident where Chinese forces led by Ma Zhanshan resisted the Japanese attack in the Nen River Bridge area of Heilongjiang."
+        }
+      }
+    },
+    {
+      "id": "犬养毅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "犬养毅"
+        ],
+        "en": [
+          "Inukai Tsuyoshi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1855-06-04 - 1932-05-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本首相，在九一八事变后试图通过和平手段解决争端，但于五一五事件中被暗杀。",
+          "en": "Prime Minister of Japan who attempted to resolve the dispute peacefully after the Mukden Incident but was assassinated in the May 15 Incident."
+        }
+      }
+    },
+    {
+      "id": "五一五事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "五一五事件"
+        ],
+        "en": [
+          "May 15 Incident"
+        ]
+      },
+      "properties": {
+        "period": "1932-05-15",
+        "description": {
+          "zh-cn": "1932年日本海军少壮派军官发动的政变，导致首相犬养毅被暗杀。",
+          "en": "A coup d'état in Japan in 1932 launched by young naval officers, which resulted in the assassination of Prime Minister Inukai Tsuyoshi."
+        }
+      }
+    },
+    {
+      "id": "军国主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "军国主义"
+        ],
+        "en": [
+          "Militarism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种将军事力量置于国家首要地位的意识形态。九一八事变加剧了日本的军国主义倾向。",
+          "en": "An ideology that places military power at the forefront of the state. The Mukden Incident intensified militaristic tendencies in Japan."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "关东军",
+      "target": "柳条湖事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": {
+          "zh-cn": "关东军炸毁南满铁路柳条湖段，制造了柳条湖事件作为发动九一八事变的借口。",
+          "en": "The Kwantung Army bombed the Liutiaohu section of the South Manchuria Railway, creating the Liutiaohu Incident as a pretext to launch the Mukden Incident."
+        }
+      }
+    },
+    {
+      "source": "柳条湖事件",
+      "target": "九一八事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": {
+          "zh-cn": "柳条湖事件是九一八事变的直接导火索，关东军以此为借口向中国军队发动全面进攻。",
+          "en": "The Liutiaohu Incident was the direct trigger for the Mukden Incident, with the Kwantung Army using it as a pretext to launch a full-scale attack on Chinese forces."
+        }
+      }
+    },
+    {
+      "source": "关东军",
+      "target": "东北军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1931-09-18",
+        "end_date": "1932-02-18",
+        "description": {
+          "zh-cn": "在九一八事变中，关东军作为侵略方与作为防御方的东北军发生了直接军事冲突。",
+          "en": "During the Mukden Incident, the Kwantung Army, as the aggressor, engaged in direct military conflict with the Northeastern Army, the defending force."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "东北军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": {
+          "zh-cn": "张学良在九一八事变爆发当晚下令东北军“不抵抗”，避免与日军发生正面冲突，导致东北军未能有效组织抵抗。",
+          "en": "On the night of the Mukden Incident, Zhang Xueliang ordered the Northeastern Army 'not to resist' and to avoid direct conflict with the Japanese forces, which prevented the Northeastern Army from organizing an effective defense."
+        }
+      }
+    },
+    {
+      "source": "九一八事变",
+      "target": "满洲国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1932-03-01",
+        "description": {
+          "zh-cn": "九一八事变导致日本占领中国东北全境，为日本扶植傀儡政权满洲国的成立创造了条件。",
+          "en": "The Mukden Incident led to the Japanese occupation of all of Northeast China, creating the conditions for Japan to establish the puppet state of Manchukuo."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "满洲国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1932-03-01",
+        "description": {
+          "zh-cn": "大日本帝国在占领中国东北后，策划并扶植成立了傀儡政权满洲国。",
+          "en": "After occupying Northeast China, the Empire of Japan planned and established the puppet state of Manchukuo."
+        }
+      }
+    },
+    {
+      "source": "满洲国",
+      "target": "大日本帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1932-03-01",
+        "end_date": "1945-08-18",
+        "description": {
+          "zh-cn": "满洲国是日本扶植的傀儡政权，其内政、外交和军事完全受制于日本。",
+          "en": "Manchukuo was a puppet state established by Japan, and its internal affairs, diplomacy, and military were completely controlled by Japan."
+        }
+      }
+    },
+    {
+      "source": "溥仪",
+      "target": "满洲国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1932-03-09",
+        "end_date": "1945-08-18",
+        "position": {
+          "zh-cn": "执政、皇帝",
+          "en": "Chief Executive, Emperor"
+        },
+        "description": {
+          "zh-cn": "在日本的扶植下，溥仪先后担任满洲国的执政和皇帝。",
+          "en": "Under Japanese sponsorship, Puyi served successively as the Chief Executive and Emperor of Manchukuo."
+        }
+      }
+    },
+    {
+      "source": "中华民国 (1912年—1949年)",
+      "target": "国际联盟",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-09-21",
+        "description": {
+          "zh-cn": "九一八事变后，中国政府向国际联盟申诉，请求其主持公道，制止日本的侵略。",
+          "en": "After the Mukden Incident, the Chinese government appealed to the League of Nations, requesting it to uphold justice and stop Japanese aggression."
+        }
+      }
+    },
+    {
+      "source": "国际联盟",
+      "target": "李顿报告",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-12-20",
+        "description": {
+          "zh-cn": "国际联盟决定组织李顿调查团前往中国东北调查九一八事变真相，并最终发表了李顿报告。",
+          "en": "The League of Nations decided to organize the Lytton Commission to investigate the truth of the Mukden Incident in Northeast China, which ultimately resulted in the publication of the Lytton Report."
+        }
+      }
+    },
+    {
+      "source": "李顿报告",
+      "target": "大日本帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1932-10-02",
+        "description": {
+          "zh-cn": "李顿报告强烈谴责日本发动九一八事变是侵略行为，否定了满洲国的合法性。",
+          "en": "The Lytton Report strongly condemned Japan's launching of the Mukden Incident as an act of aggression and denied the legitimacy of Manchukuo."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "国际联盟",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1933-03-27",
+        "description": {
+          "zh-cn": "由于国际联盟不承认满洲国并谴责其侵略行为，日本宣布退出国际联盟。",
+          "en": "Japan announced its withdrawal from the League of Nations because the League did not recognize Manchukuo and condemned its aggressive actions."
+        }
+      }
+    },
+    {
+      "source": "蒋介石",
+      "target": "攘外应先安内",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "蒋介石是“攘外应先安内”政策的主要制定者和推行者。",
+          "en": "Chiang Kai-shek was the main architect and promoter of the policy of 'first internal pacification, then external resistance'."
+        }
+      }
+    },
+    {
+      "source": "攘外应先安内",
+      "target": "中华民国 (1912年—1949年)",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "“攘外应先安内”政策将平定国内共产党等势力置于抵抗日本侵略之上，阻碍了中华民国在九一八事变初期进行有效的全国性抵抗。",
+          "en": "The policy of 'first internal pacification, then external resistance' prioritized suppressing internal forces like the Communist Party over resisting Japanese aggression, hindering the Republic of China from mounting an effective nationwide resistance in the early stages of the Mukden Incident."
+        }
+      }
+    },
+    {
+      "source": "第一次国共内战",
+      "target": "国民政府",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927",
+        "end_date": "1937",
+        "description": {
+          "zh-cn": "九一八事变发生时，国民政府正忙于第一次国共内战，分散了其应对日本侵略的精力和资源。",
+          "en": "When the Mukden Incident occurred, the Nationalist Government was preoccupied with the First Chinese Civil War, which diverted its energy and resources from responding to the Japanese aggression."
+        }
+      }
+    },
+    {
+      "source": "关东军",
+      "target": "皇姑屯事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": {
+          "zh-cn": "日本关东军策划并实施了皇姑屯事件，暗杀了东北军阀张作霖。",
+          "en": "The Japanese Kwantung Army planned and executed the Huanggutun Incident, assassinating the northeastern warlord Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "source": "皇姑屯事件",
+      "target": "张作霖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": {
+          "zh-cn": "张作霖在皇姑屯事件中被关东军预埋的炸药炸死。",
+          "en": "Zhang Zuolin was killed by explosives planted by the Kwantung Army in the Huanggutun Incident."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "张作霖",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张学良是张作霖的儿子。",
+          "en": "Zhang Xueliang is the son of Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "source": "中原大战",
+      "target": "九一八事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1930",
+        "description": {
+          "zh-cn": "张学良率东北军主力入关参与中原大战，导致东北防务空虚，为日本关东军发动九一八事变创造了机会。",
+          "en": "Zhang Xueliang led the main force of the Northeastern Army into the Shanhai Pass to participate in the Central Plains War, leaving the defenses of the Northeast vulnerable and creating an opportunity for the Japanese Kwantung Army to launch the Mukden Incident."
+        }
+      }
+    },
+    {
+      "source": "石原莞尔",
+      "target": "九一八事变",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为关东军作战主任参谋，石原莞尔是九一八事变的主要策划者之一。",
+          "en": "As the Operations Staff Officer of the Kwantung Army, Kanji Ishiwara was one of the chief masterminds of the Mukden Incident."
+        }
+      }
+    },
+    {
+      "source": "板垣征四郎",
+      "target": "九一八事变",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为关东军高级参谋，板垣征四郎是九一八事变的主要策划者之一。",
+          "en": "As a Senior Staff Officer of the Kwantung Army, Seishirō Itagaki was one of the chief masterminds of the Mukden Incident."
+        }
+      }
+    },
+    {
+      "source": "本庄繁",
+      "target": "关东军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "司令官",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "本庄繁在九一八事变期间担任关东军司令官。",
+          "en": "Shigeru Honjō served as the commander of the Kwantung Army during the Mukden Incident."
+        }
+      }
+    },
+    {
+      "source": "马占山",
+      "target": "江桥抗战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-11-04",
+        "description": {
+          "zh-cn": "马占山率领其部队在嫩江桥地区抵抗日军，领导了江桥抗战。",
+          "en": "Ma Zhanshan led his troops to resist the Japanese forces in the Nen River Bridge area, leading the Jiangqiao Resistance."
+        }
+      }
+    },
+    {
+      "source": "五一五事件",
+      "target": "犬养毅",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1932-05-15",
+        "description": {
+          "zh-cn": "日本首相犬养毅在五一五事件中被海军少壮派军官暗杀。",
+          "en": "Japanese Prime Minister Inukai Tsuyoshi was assassinated by young naval officers during the May 15 Incident."
+        }
+      }
+    },
+    {
+      "source": "九一八事变",
+      "target": "军国主义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": {
+          "zh-cn": "九一八事变中关东军的成功行动，使得日本军部主战派地位上升，国家走上军国主义道路。",
+          "en": "The successful operation of the Kwantung Army in the Mukden Incident led to the rise of the pro-war faction in the Japanese military, putting the nation on the path to militarism."
+        }
+      }
+    }
+  ]
+}

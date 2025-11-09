@@ -1,0 +1,187 @@
+{
+  "nodes": [
+    {
+      "id": "贾有权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贾有权"
+        ],
+        "en": [
+          "Jia Youquan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1916 - 2010-07-02",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "昌图",
+          "en": "Changtu"
+        },
+        "description": {
+          "zh-cn": "中国材料力学家、光弹性学家，曾任天津大学教授、博士生导师。",
+          "en": "Chinese material mechanician and photoelasticity expert, formerly a professor and doctoral supervisor at Tianjin University."
+        }
+      }
+    },
+    {
+      "id": "昌图",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "昌图"
+        ],
+        "en": [
+          "Changtu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国辽宁省铁岭市下辖的一个县。",
+          "en": "A county under the administration of Tieling City, in Liaoning province, China."
+        }
+      }
+    },
+    {
+      "id": "天津大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "天津大学"
+        ],
+        "en": [
+          "Tianjin University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一所著名大学，位于天津市。",
+          "en": "A prominent university in China, located in Tianjin."
+        }
+      }
+    },
+    {
+      "id": "中国力学学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国力学学会"
+        ],
+        "en": [
+          "Chinese Society of Theoretical and Applied Mechanics"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的力学领域的学术组织。",
+          "en": "An academic organization in the field of mechanics in China."
+        }
+      }
+    },
+    {
+      "id": "西北工学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西北工学院"
+        ],
+        "en": [
+          "Northwestern Engineering College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西北工业大学的前身之一。",
+          "en": "One of the predecessors of Northwestern Polytechnical University."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "贾有权",
+      "target": "昌图",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "贾有权是奉天（今辽宁）昌图人。",
+          "en": "Jia Youquan was from Changtu, Fengtian (modern-day Liaoning)."
+        }
+      }
+    },
+    {
+      "source": "贾有权",
+      "target": "天津大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授、博士生导师",
+          "en": "Professor, Doctoral Supervisor"
+        },
+        "description": {
+          "zh-cn": "贾有权曾任天津大学教授、博士生导师。",
+          "en": "Jia Youquan served as a professor and doctoral supervisor at Tianjin University."
+        }
+      }
+    },
+    {
+      "source": "贾有权",
+      "target": "中国力学学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "理事",
+          "en": "Council Member"
+        },
+        "description": {
+          "zh-cn": "贾有权曾任中国力学学会理事。",
+          "en": "Jia Youquan served as a council member of the Chinese Society of Theoretical and Applied Mechanics."
+        }
+      }
+    },
+    {
+      "source": "贾有权",
+      "target": "西北工学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据分类信息，贾有权是西北工学院的校友。",
+          "en": "According to category information, Jia Youquan is an alumnus of Northwestern Engineering College."
+        }
+      }
+    },
+    {
+      "source": "贾有权",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据分类信息，贾有权是中国共产党党员。",
+          "en": "According to category information, Jia Youquan was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

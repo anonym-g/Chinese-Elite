@@ -1,0 +1,877 @@
+{
+  "nodes": [
+    {
+      "id": "保路运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "保路运动",
+          "保路风潮"
+        ],
+        "en": [
+          "Railway Protection Movement"
+        ]
+      },
+      "properties": {
+        "period": "1911",
+        "location": {
+          "zh-cn": "四川、湖北、湖南、广东",
+          "en": "Sichuan, Hubei, Hunan, Guangdong"
+        },
+        "description": {
+          "zh-cn": "发生于1911年（清宣统三年），因清政府宣布“铁路干线国有政策”而引发的一场大规模群众运动。其中四川省的运动最为激烈，最终为武昌起义的成功创造了条件，加速了清朝的灭亡。",
+          "en": "A large-scale mass movement that occurred in 1911 (the third year of the Xuantong reign of the Qing dynasty), triggered by the Qing government's announcement of the 'Policy of Nationalizing Trunk Railways'. The movement was most intense in Sichuan Province and ultimately created the conditions for the success of the Wuchang Uprising, accelerating the downfall of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "清",
+          "清廷",
+          "清朝政府"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912-02-12",
+        "description": {
+          "zh-cn": "中国历史上最后一个帝制王朝。其在1911年推行的铁路国有政策直接导致了保路运动的爆发。",
+          "en": "The last imperial dynasty in Chinese history. Its policy of railway nationalization in 1911 directly led to the outbreak of the Railway Protection Movement."
+        }
+      }
+    },
+    {
+      "id": "铁路干线国有政策",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "铁路干线国有政策"
+        ],
+        "en": [
+          "Policy of Nationalizing Trunk Railways"
+        ]
+      },
+      "properties": {
+        "period": "1911-05 - ",
+        "description": {
+          "zh-cn": "1911年5月，由邮传大臣盛宣怀强力推进，旨在将商办的川汉、粤汉铁路强行收归国有的政策。该政策严重损害了地方股东的利益，是保路运动的直接导火索。",
+          "en": "A policy forcefully promoted by Minister of Posts and Communications Sheng Xuanhuai in May 1911, aimed at forcibly nationalizing the commercially-operated Chuanhan and Yuehan railways. The policy severely damaged the interests of local shareholders and was the direct trigger for the Railway Protection Movement."
+        }
+      }
+    },
+    {
+      "id": "盛宣怀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "盛宣怀"
+        ],
+        "en": [
+          "Sheng Xuanhuai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末政治家、企业家。时任邮传大臣，是铁路国有政策的主要策划和推行者，成为保路运动中民众反对的主要目标。",
+          "en": "A late Qing statesman and entrepreneur. As the Minister of Posts and Communications, he was the main planner and implementer of the railway nationalization policy, becoming a primary target of opposition during the Railway Protection Movement."
+        }
+      }
+    },
+    {
+      "id": "武昌起义",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "武昌起义"
+        ],
+        "en": [
+          "Wuchang Uprising"
+        ]
+      },
+      "properties": {
+        "period": "1911-10-10 - 1911-10-10",
+        "description": {
+          "zh-cn": "辛亥革命的开端。保路运动爆发后，清廷调派湖北新军入川镇压，导致武昌防务空虚，为起义的成功提供了决定性因素。",
+          "en": "The beginning of the Xinhai Revolution. After the outbreak of the Railway Protection Movement, the Qing court dispatched the Hubei New Army to Sichuan for suppression, which left Wuchang's defenses vulnerable, providing a decisive factor for the success of the uprising."
+        }
+      }
+    },
+    {
+      "id": "立宪派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "立宪派"
+        ],
+        "en": [
+          "Constitutionalists"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清末主张君主立宪的政治派别。在四川，立宪派发动和领导了保路运动，力图将其控制在和平抗议的范围内。",
+          "en": "A political faction in the late Qing dynasty advocating for a constitutional monarchy. In Sichuan, the Constitutionalists initiated and led the Railway Protection Movement, attempting to keep it within the bounds of peaceful protest."
+        }
+      }
+    },
+    {
+      "id": "同盟会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "同盟会"
+        ],
+        "en": [
+          "Tongmenghui"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清末由孙中山等组织的革命团体。在保路运动中，同盟会采取“借保路之名，行革命之实”的策略，暗中推动运动向武装起义发展。",
+          "en": "A revolutionary organization founded by Sun Yat-sen and others in the late Qing dynasty. During the Railway Protection Movement, the Tongmenghui adopted a strategy of 'using the cause of railway protection to advance the reality of revolution,' secretly pushing the movement towards armed uprising."
+        }
+      }
+    },
+    {
+      "id": "赵尔丰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵尔丰"
+        ],
+        "en": [
+          "Zhao Erfeng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末大臣，时任四川总督。他对保路运动采取强硬镇压手段，于1911年9月7日诱捕保路运动领袖并下令开枪，制造了“成都血案”，激化了矛盾。",
+          "en": "A late Qing official, serving as the Viceroy of Sichuan. He adopted harsh repressive measures against the Railway Protection Movement, arresting its leaders and ordering troops to fire on protesters on September 7, 1911, creating the 'Chengdu Massacre' and escalating the conflict."
+        }
+      }
+    },
+    {
+      "id": "成都血案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "成都血案"
+        ],
+        "en": [
+          "Chengdu Massacre"
+        ]
+      },
+      "properties": {
+        "period": "1911-09-07 - 1911-09-07",
+        "location": {
+          "zh-cn": "成都",
+          "en": "Chengdu"
+        },
+        "description": {
+          "zh-cn": "四川总督赵尔丰下令清兵枪杀前往总督衙门请愿的群众，造成三十二人死亡的惨案。此事成为四川保路运动由和平请愿转向武装斗争的转折点。",
+          "en": "An incident where Viceroy of Sichuan Zhao Erfeng ordered Qing soldiers to shoot at the protesting crowd at the viceroy's yamen, resulting in the death of thirty-two people. This event became the turning point for the Sichuan Railway Protection Movement, shifting it from peaceful petition to armed struggle."
+        }
+      }
+    },
+    {
+      "id": "蒲殿俊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒲殿俊"
+        ],
+        "en": [
+          "Pu Dianjun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末立宪派人士，四川省咨议局议长。被推举为四川保路同志会会长，是保路运动的主要领导人之一。后被赵尔丰诱捕，成都独立后被推举为大汉四川军政府首任都督。",
+          "en": "A Constitutionalist figure in the late Qing dynasty and the speaker of the Sichuan Provincial Consultative Assembly. He was elected as the president of the Sichuan Railway Protection League and was one of the main leaders of the movement. He was later arrested by Zhao Erfeng and, after Chengdu's independence, was elected the first governor-general of the Dahan Sichuan Military Government."
+        }
+      }
+    },
+    {
+      "id": "罗纶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗纶"
+        ],
+        "en": [
+          "Luo Lun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末立宪派人士，四川省咨议局副议长。被推举为四川保路同志会副会长，后与蒲殿俊等人一同被赵尔丰诱捕。",
+          "en": "A Constitutionalist figure in the late Qing dynasty and the deputy speaker of the Sichuan Provincial Consultative Assembly. He was elected as the vice-president of the Sichuan Railway Protection League and was later arrested by Zhao Erfeng along with Pu Dianjun and others."
+        }
+      }
+    },
+    {
+      "id": "颜楷",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "颜楷"
+        ],
+        "en": [
+          "Yan Kai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "保路同志会和股东会的主要人物之一，于1911年9月7日被四川总督赵尔丰诱捕。",
+          "en": "One of the key figures of the Railway Protection League and the shareholders' meeting, who was arrested by Viceroy of Sichuan Zhao Erfeng on September 7, 1911."
+        }
+      }
+    },
+    {
+      "id": "张澜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张澜"
+        ],
+        "en": [
+          "Zhang Lan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "保路同志会和股东会的主要人物之一，于1911年9月7日被四川总督赵尔丰诱捕。",
+          "en": "One of the key figures of the Railway Protection League and the shareholders' meeting, who was arrested by Viceroy of Sichuan Zhao Erfeng on September 7, 1911."
+        }
+      }
+    },
+    {
+      "id": "邓孝可",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓孝可"
+        ],
+        "en": [
+          "Deng Xiaoke"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "保路同志会和股东会的主要人物之一，于1911年9月7日被四川总督赵尔丰诱捕。",
+          "en": "One of the key figures of the Railway Protection League and the shareholders' meeting, who was arrested by Viceroy of Sichuan Zhao Erfeng on September 7, 1911."
+        }
+      }
+    },
+    {
+      "id": "四川保路同志会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四川保路同志会"
+        ],
+        "en": [
+          "Sichuan Railway Protection League"
+        ]
+      },
+      "properties": {
+        "period": "1911-06-17 - ",
+        "description": {
+          "zh-cn": "1911年6月17日在成都成立的组织，旨在反对铁路国有政策，是四川保路运动的核心领导机构。",
+          "en": "An organization established in Chengdu on June 17, 1911, with the aim of opposing the railway nationalization policy. It was the core leading body of the Sichuan Railway Protection Movement."
+        }
+      }
+    },
+    {
+      "id": "同志军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "同志军"
+        ],
+        "en": [
+          "Comrade Army"
+        ]
+      },
+      "properties": {
+        "period": "1911-09 - ",
+        "description": {
+          "zh-cn": "成都血案后，由四川各地的农民、同盟会员和哥老会成员组成的武装起义力量，他们围攻成都及各州县，与清军作战。",
+          "en": "An armed insurgent force formed after the Chengdu Massacre, composed of peasants, Tongmenghui members, and Gelaohui members from various parts of Sichuan. They besieged Chengdu and other prefectures and counties, fighting against Qing troops."
+        }
+      }
+    },
+    {
+      "id": "端方",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "端方"
+        ],
+        "en": [
+          "Duanfang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末大臣。在保路运动激化后，被清廷任命为署理四川总督，率领湖北新军入川镇压。1911年11月27日在资中县被哗变的部下所杀。",
+          "en": "A late Qing official. After the escalation of the Railway Protection Movement, he was appointed acting Viceroy of Sichuan by the Qing court and led the Hubei New Army into Sichuan for suppression. He was killed by his mutinous subordinates in Zizhong County on November 27, 1911."
+        }
+      }
+    },
+    {
+      "id": "吴玉章",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴玉章"
+        ],
+        "en": [
+          "Wu Yuzhang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "同盟会会员。1911年9月25日，他与王天杰共同领导了荣县独立，建立了辛亥革命时期第一个县级革命政权。",
+          "en": "A member of the Tongmenghui. On September 25, 1911, he, along with Wang Tianjie, led the independence of Rong County, establishing the first county-level revolutionary government during the Xinhai Revolution."
+        }
+      }
+    },
+    {
+      "id": "王天杰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王天杰"
+        ],
+        "en": [
+          "Wang Tianjie"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "同盟会会员。1911年9月25日，他与吴玉章共同领导了荣县独立。",
+          "en": "A member of the Tongmenghui. On September 25, 1911, he, along with Wu Yuzhang, led the independence of Rong County."
+        }
+      }
+    },
+    {
+      "id": "荣县独立",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "荣县独立"
+        ],
+        "en": [
+          "Rong County Independence"
+        ]
+      },
+      "properties": {
+        "period": "1911-09-25 - 1911-09-25",
+        "location": {
+          "zh-cn": "荣县",
+          "en": "Rong County"
+        },
+        "description": {
+          "zh-cn": "由同盟会员吴玉章、王天杰领导的事件，建立了辛亥革命时期第一个县级革命政权，是四川保路运动转向武装革命的重要标志。",
+          "en": "An event led by Tongmenghui members Wu Yuzhang and Wang Tianjie, which established the first county-level revolutionary government during the Xinhai Revolution. It was an important symbol of the Sichuan Railway Protection Movement's turn towards armed revolution."
+        }
+      }
+    },
+    {
+      "id": "大汉四川军政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大汉四川军政府"
+        ],
+        "en": [
+          "Dahan Sichuan Military Government"
+        ]
+      },
+      "properties": {
+        "period": "1911-11-27 - ",
+        "description": {
+          "zh-cn": "1911年11月27日成都宣布独立后成立的军政府，由蒲殿俊担任首任都督。它的成立标志着清朝在四川的统治彻底覆灭。",
+          "en": "The military government established after Chengdu declared independence on November 27, 1911, with Pu Dianjun as its first governor-general. Its establishment marked the complete collapse of Qing rule in Sichuan."
+        }
+      }
+    },
+    {
+      "id": "刘怡凤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘怡凤"
+        ],
+        "en": [
+          "Liu Yifeng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "湖北新军军官。1911年11月27日，在率部入川途中于资中县发动哗变，杀死了钦差大臣端方。",
+          "en": "An officer of the Hubei New Army. On November 27, 1911, he initiated a mutiny in Zizhong County while en route to Sichuan and killed the imperial commissioner Duanfang."
+        }
+      }
+    },
+    {
+      "id": "田征葵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "田征葵"
+        ],
+        "en": [
+          "Tian Zhengkui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝巡防军统领，在成都血案中力主武力镇压，并率先下令对民众开枪。",
+          "en": "Commander of the Qing Patrol and Defense Army, who strongly advocated for armed suppression during the Chengdu Massacre and was the first to order troops to fire on the populace."
+        }
+      }
+    },
+    {
+      "id": "四川总督",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四川总督"
+        ],
+        "en": [
+          "Viceroy of Sichuan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝在四川省的最高军政长官职位。保路运动期间，该职位先后由王人文（护理）、赵尔丰、端方（署理）担任。",
+          "en": "The highest military and administrative official position of the Qing Dynasty in Sichuan Province. During the Railway Protection Movement, this post was held successively by Wang Renwen (acting), Zhao Erfeng, and Duanfang (acting)."
+        }
+      }
+    },
+    {
+      "id": "邮传部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "邮传部",
+          "邮传"
+        ],
+        "en": [
+          "Ministry of Posts and Communications"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清末负责邮政、通信和交通事务的中央机构。时任大臣盛宣怀是铁路国有政策的主要推行者。",
+          "en": "The central government agency responsible for postal services, communications, and transportation in the late Qing dynasty. The minister at the time, Sheng Xuanhuai, was the main implementer of the railway nationalization policy."
+        }
+      }
+    },
+    {
+      "id": "川汉铁路",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "川汉铁路"
+        ],
+        "en": [
+          "Chuanhan Railway"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "计划连接四川与湖北的铁路。其资金主要来自四川民众的强制性集资，清廷将其强行收归国有的决定是保路运动的直接导火索。",
+          "en": "A planned railway connecting Sichuan and Hubei. Its funding primarily came from mandatory contributions from the people of Sichuan. The Qing court's decision to forcibly nationalize it was the direct trigger of the Railway Protection Movement."
+        }
+      }
+    },
+    {
+      "id": "粤汉铁路",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "粤汉铁路"
+        ],
+        "en": [
+          "Yuehan Railway"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "计划连接广东与湖北的铁路。与川汉铁路一同被清廷强行收归国有，引发了包括广东在内的多省反对。",
+          "en": "A planned railway connecting Guangdong and Hubei. Along with the Chuanhan Railway, it was forcibly nationalized by the Qing court, sparking opposition in multiple provinces, including Guangdong."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "盛宣怀",
+      "target": "铁路干线国有政策",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911-05",
+        "description": {
+          "zh-cn": "时任邮传大臣盛宣怀强力推进“铁路干线国有政策”，旨在将商办的川汉、粤汉铁路收归国有。",
+          "en": "Sheng Xuanhuai, then Minister of Posts and Communications, forcefully promoted the 'Policy of Nationalizing Trunk Railways' to nationalize the commercially-operated Chuanhan and Yuehan railways."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "铁路干线国有政策",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911-05",
+        "description": {
+          "zh-cn": "1911年5月，清廷宣布“铁路干线国有政策”，强行将川汉、粤汉铁路收为国有。",
+          "en": "In May 1911, the Qing court announced the 'Policy of Nationalizing Trunk Railways', forcibly taking over the Chuanhan and Yuehan railways as state-owned."
+        }
+      }
+    },
+    {
+      "source": "保路运动",
+      "target": "铁路干线国有政策",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911",
+        "description": {
+          "zh-cn": "保路运动是四川、湖北、湖南、广东等省为反对清政府的铁路国有政策而发起的运动。",
+          "en": "The Railway Protection Movement was initiated by provinces such as Sichuan, Hubei, Hunan, and Guangdong to oppose the Qing government's railway nationalization policy."
+        }
+      }
+    },
+    {
+      "source": "立宪派",
+      "target": "保路运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911",
+        "description": {
+          "zh-cn": "四川的保路运动是由立宪派发动和领导的，他们力图将运动控制在和平抗议的范围内。",
+          "en": "The Railway Protection Movement in Sichuan was initiated and led by the Constitutionalists, who sought to keep the movement within the bounds of peaceful protest."
+        }
+      }
+    },
+    {
+      "source": "同盟会",
+      "target": "保路运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911",
+        "description": {
+          "zh-cn": "同盟会执行“借保路之名，行革命之实”的策略，暗中推动保路运动向武装起义方向发展。",
+          "en": "The Tongmenghui implemented a strategy of 'using the cause of railway protection to advance the reality of revolution,' secretly pushing the movement towards armed uprising."
+        }
+      }
+    },
+    {
+      "source": "保路运动",
+      "target": "武昌起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911-09",
+        "description": {
+          "zh-cn": "保路运动使清廷调派湖北新军前往四川镇压，导致武昌防务空虚，为武昌起义的成功创造了决定性的有利条件。",
+          "en": "The Railway Protection Movement prompted the Qing court to dispatch the Hubei New Army to Sichuan for suppression, leaving Wuchang's defenses vulnerable, which created decisively favorable conditions for the success of the Wuchang Uprising."
+        }
+      }
+    },
+    {
+      "source": "赵尔丰",
+      "target": "成都血案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911-09-07",
+        "description": {
+          "zh-cn": "时任四川总督赵尔丰下令清兵枪杀请愿群众，制造了“成都血案”。",
+          "en": "Zhao Erfeng, the Viceroy of Sichuan at the time, ordered Qing soldiers to shoot and kill protesting crowds, creating the 'Chengdu Massacre'."
+        }
+      }
+    },
+    {
+      "source": "田征葵",
+      "target": "成都血案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911-09-07",
+        "description": {
+          "zh-cn": "巡防军统领田征葵力主武力镇压，并率先下令对保路运动的请愿民众开枪，直接引发了“成都血案”。",
+          "en": "Tian Zhengkui, commander of the Patrol and Defense Army, strongly advocated for armed suppression and was the first to order firing on the protesting populace of the Railway Protection Movement, directly causing the 'Chengdu Massacre'."
+        }
+      }
+    },
+    {
+      "source": "成都血案",
+      "target": "同志军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911-09-07",
+        "description": {
+          "zh-cn": "成都血案激化了矛盾，导致保路运动由和平请愿转为武装斗争，成都附近的同志军随即起义。",
+          "en": "The Chengdu Massacre intensified the conflict, causing the Railway Protection Movement to shift from peaceful petitioning to armed struggle, and the Comrade Army near Chengdu promptly rose in revolt."
+        }
+      }
+    },
+    {
+      "source": "赵尔丰",
+      "target": "蒲殿俊",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-09-07",
+        "description": {
+          "zh-cn": "四川总督赵尔丰诱捕了包括蒲殿俊在内的保路同志会和股东会首要人物。",
+          "en": "Viceroy of Sichuan Zhao Erfeng arrested key leaders of the Railway Protection League and the shareholders' meeting, including Pu Dianjun."
+        }
+      }
+    },
+    {
+      "source": "赵尔丰",
+      "target": "罗纶",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-09-07",
+        "description": {
+          "zh-cn": "四川总督赵尔丰诱捕了包括罗纶在内的保路同志会和股东会首要人物。",
+          "en": "Viceroy of Sichuan Zhao Erfeng arrested key leaders of the Railway Protection League and the shareholders' meeting, including Luo Lun."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "赵尔丰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-09-10",
+        "position": {
+          "zh-cn": "四川总督",
+          "en": "Viceroy of Sichuan"
+        },
+        "description": {
+          "zh-cn": "因处理保路运动不力，清廷于1911年9月10日将赵尔丰免职。",
+          "en": "Due to his mismanagement of the Railway Protection Movement, the Qing court dismissed Zhao Erfeng from his post on September 10, 1911."
+        }
+      }
+    },
+    {
+      "source": "端方",
+      "target": "保路运动",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-09-10",
+        "description": {
+          "zh-cn": "清廷任命端方署理四川总督，并率领湖北新军入川镇压保路运动。",
+          "en": "The Qing court appointed Duanfang as acting Viceroy of Sichuan and ordered him to lead the Hubei New Army into Sichuan to suppress the Railway Protection Movement."
+        }
+      }
+    },
+    {
+      "source": "刘怡凤",
+      "target": "端方",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-11-27",
+        "description": {
+          "zh-cn": "入川的湖北新军军官刘怡凤在资中县哗变，杀死了端方。",
+          "en": "Liu Yifeng, an officer of the Hubei New Army entering Sichuan, mutinied in Zizhong County and killed Duanfang."
+        }
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "荣县独立",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911-09-25",
+        "description": {
+          "zh-cn": "同盟会会员吴玉章与王天杰共同领导了荣县独立。",
+          "en": "Tongmenghui member Wu Yuzhang, together with Wang Tianjie, led the independence of Rong County."
+        }
+      }
+    },
+    {
+      "source": "王天杰",
+      "target": "荣县独立",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911-09-25",
+        "description": {
+          "zh-cn": "同盟会会员王天杰与吴玉章共同领导了荣县独立。",
+          "en": "Tongmenghui member Wang Tianjie, together with Wu Yuzhang, led the independence of Rong County."
+        }
+      }
+    },
+    {
+      "source": "大汉四川军政府",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-11-27",
+        "description": {
+          "zh-cn": "大汉四川军政府的成立，标志着清朝在四川的统治彻底覆灭。",
+          "en": "The establishment of the Dahan Sichuan Military Government marked the complete collapse of Qing rule in Sichuan."
+        }
+      }
+    },
+    {
+      "source": "蒲殿俊",
+      "target": "四川保路同志会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1911-06-17",
+        "position": {
+          "zh-cn": "会长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "蒲殿俊被推举为四川保路同志会会长。",
+          "en": "Pu Dianjun was elected as the president of the Sichuan Railway Protection League."
+        }
+      }
+    },
+    {
+      "source": "罗纶",
+      "target": "四川保路同志会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1911-06-17",
+        "position": {
+          "zh-cn": "副会长",
+          "en": "Vice President"
+        },
+        "description": {
+          "zh-cn": "罗纶被推举为四川保路同志会副会长。",
+          "en": "Luo Lun was elected as the vice-president of the Sichuan Railway Protection League."
+        }
+      }
+    },
+    {
+      "source": "蒲殿俊",
+      "target": "大汉四川军政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1911-11-27",
+        "position": {
+          "zh-cn": "都督",
+          "en": "Governor-General"
+        },
+        "description": {
+          "zh-cn": "成都独立后，蒲殿俊被推举为大汉四川军政府的首任都督。",
+          "en": "After Chengdu's independence, Pu Dianjun was elected as the first Governor-General of the Dahan Sichuan Military Government."
+        }
+      }
+    },
+    {
+      "source": "赵尔丰",
+      "target": "四川总督",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1911-08-02",
+        "end_date": "1911-09-10",
+        "position": {
+          "zh-cn": "四川总督",
+          "en": "Viceroy of Sichuan"
+        },
+        "description": {
+          "zh-cn": "1911年8月2日，赵尔丰接任四川总督，直至9月10日被免职。",
+          "en": "On August 2, 1911, Zhao Erfeng took over as Viceroy of Sichuan, until he was dismissed on September 10."
+        }
+      }
+    },
+    {
+      "source": "端方",
+      "target": "四川总督",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1911-09-10",
+        "end_date": "1911-11-27",
+        "position": {
+          "zh-cn": "署理四川总督",
+          "en": "Acting Viceroy of Sichuan"
+        },
+        "description": {
+          "zh-cn": "1911年9月10日，清廷命端方署理四川总督，直至其被杀。",
+          "en": "On September 10, 1911, the Qing court ordered Duanfang to act as Viceroy of Sichuan, a position he held until his death."
+        }
+      }
+    },
+    {
+      "source": "盛宣怀",
+      "target": "邮传部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "邮传大臣",
+          "en": "Minister of Posts and Communications"
+        },
+        "description": {
+          "zh-cn": "在推行铁路国有政策时，盛宣怀担任邮传大臣。",
+          "en": "Sheng Xuanhuai served as the Minister of Posts and Communications while implementing the railway nationalization policy."
+        }
+      }
+    },
+    {
+      "source": "吴玉章",
+      "target": "同盟会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "吴玉章是同盟会会员，参与领导了荣县独立。",
+          "en": "Wu Yuzhang was a member of the Tongmenghui and participated in leading the independence of Rong County."
+        }
+      }
+    },
+    {
+      "source": "王天杰",
+      "target": "同盟会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "王天杰是同盟会会员，参与领导了荣县独立。",
+          "en": "Wang Tianjie was a member of the Tongmenghui and participated in leading the independence of Rong County."
+        }
+      }
+    },
+    {
+      "source": "同志军",
+      "target": "清朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1911-09",
+        "description": {
+          "zh-cn": "成都血案后，同志军在四川各地起义，四面围攻省城，与清军展开激战，公开反对清朝统治。",
+          "en": "After the Chengdu Massacre, the Comrade Army revolted in various parts of Sichuan, besieging the provincial capital and engaging in fierce battles with Qing forces, openly opposing Qing rule."
+        }
+      }
+    }
+  ]
+}
