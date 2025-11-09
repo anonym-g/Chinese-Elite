@@ -1,0 +1,421 @@
+{
+  "nodes": [
+    {
+      "id": "麋夫人",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "麋夫人"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "东海郡朐县",
+          "en": "Qu County, Donghai Commandery"
+        },
+        "description": {
+          "zh-cn": "东汉末年左将军刘备的夫人，麋竺与麋芳之妹。",
+          "en": "The wife of the warlord Liu Bei during the late Eastern Han dynasty, and the sister of Mi Zhu and Mi Fang."
+        }
+      }
+    },
+    {
+      "id": "刘备",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘备"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀，蜀汉开国皇帝。",
+          "en": "A warlord in the late Eastern Han dynasty and the founding emperor of Shu Han."
+        }
+      }
+    },
+    {
+      "id": "麋竺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "麋竺",
+          "糜竺"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年官员，徐州富商，麋夫人的兄长。",
+          "en": "An official and wealthy merchant from Xuzhou during the late Eastern Han dynasty, and the elder brother of Lady Mi."
+        }
+      }
+    },
+    {
+      "id": "麋芳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "麋芳",
+          "糜芳"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年及三国时期蜀汉将领，麋夫人的兄长。",
+          "en": "A general serving under the warlord Liu Bei during the late Eastern Han dynasty and the Three Kingdoms period, and the brother of Lady Mi."
+        }
+      }
+    },
+    {
+      "id": "袁术",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁术"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀。",
+          "en": "A warlord during the late Eastern Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "吕布",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕布"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀。",
+          "en": "A warlord during the late Eastern Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年权臣，曹魏的奠基者。",
+          "en": "A warlord who rose to great power in the late Eastern Han dynasty and was the founder of the state of Cao Wei."
+        }
+      }
+    },
+    {
+      "id": "关羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "关羽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年名将，后追随刘备建立蜀汉。",
+          "en": "A general serving under the warlord Liu Bei in the late Eastern Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "朐县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "朐县"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "今江苏省连云港市",
+          "en": "Modern-day Lianyungang, Jiangsu"
+        },
+        "description": {
+          "zh-cn": "东汉时期东海郡下辖的一个县，为麋夫人的出生地。",
+          "en": "A county under Donghai Commandery during the Eastern Han dynasty, the birthplace of Lady Mi."
+        }
+      }
+    },
+    {
+      "id": "下邳",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "下邳"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东汉时期徐州治下的一个城市，曾被吕布偷袭占领。",
+          "en": "A city in Xuzhou during the Eastern Han dynasty, which was captured by Lü Bu in a surprise attack."
+        }
+      }
+    },
+    {
+      "id": "许都",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "许都"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东汉末年汉献帝时期的都城，由曹操控制。",
+          "en": "The capital during the reign of Emperor Xian of Han in the late Eastern Han dynasty, controlled by Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "徐州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "徐州"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东汉末年的一个州，为袁术、刘备、吕布、曹操等人争夺的战略要地。",
+          "en": "A province in the late Eastern Han dynasty, a strategic location contested by warlords such as Yuan Shu, Liu Bei, Lü Bu, and Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "左将军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "左将军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代武官职，刘备曾任此职。",
+          "en": "An ancient Chinese military title, once held by Liu Bei."
+        }
+      }
+    },
+    {
+      "id": "三国演义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "三国演义"
+        ],
+        "en": [
+          "Romance of the Three Kingdoms"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国四大名著之一，是一部描述三国时期历史的章回体长篇小说。",
+          "en": "One of the Four Great Classical Novels of Chinese literature, a historical novel about the events in the turbulent years near the end of the Eastern Han dynasty and the Three Kingdoms period."
+        }
+      }
+    },
+    {
+      "id": "长阪坡之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "长阪坡之战"
+        ],
+        "en": [
+          "Battle of Changban"
+        ]
+      },
+      "properties": {
+        "period": "208 - 208",
+        "description": {
+          "zh-cn": "东汉末年的一场战役，曹操率军追击刘备。",
+          "en": "A battle fought in the late Eastern Han dynasty between the forces of Cao Cao and Liu Bei."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "麋夫人",
+      "target": "刘备",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "196"
+      }
+    },
+    {
+      "source": "麋夫人",
+      "target": "麋竺",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "麋夫人",
+      "target": "麋芳",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "麋竺",
+      "target": "麋芳",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "麋夫人",
+      "target": "朐县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "麋竺",
+      "target": "刘备",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "196",
+        "description": {
+          "zh-cn": "在刘备部队溃散、极度困窘时，将妹妹嫁给刘备为夫人，并献上僮仆二千及金银货币以助军资，帮助刘备重新振作。",
+          "en": "When Liu Bei's forces were scattered and in dire straits, Mi Zhu married his younger sister to Liu Bei and presented two thousand servants and financial resources to aid his army, helping Liu Bei to recover."
+        }
+      }
+    },
+    {
+      "source": "袁术",
+      "target": "刘备",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "196",
+        "description": {
+          "zh-cn": "与刘备争夺徐州。",
+          "en": "Contended with Liu Bei for control of Xuzhou Province."
+        }
+      }
+    },
+    {
+      "source": "吕布",
+      "target": "刘备",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "196",
+        "description": {
+          "zh-cn": "偷袭下邳，俘虏了刘备的妻子。",
+          "en": "Launched a surprise attack on Xiapi and captured Liu Bei's wife."
+        }
+      }
+    },
+    {
+      "source": "吕布",
+      "target": "麋夫人",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "196",
+        "description": {
+          "zh-cn": "偷袭下邳时俘虏了时为刘备妻子的麋夫人。",
+          "en": "Captured Lady Mi, then Liu Bei's wife, during his surprise attack on Xiapi."
+        }
+      }
+    },
+    {
+      "source": "曹操",
+      "target": "刘备",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "200",
+        "description": {
+          "zh-cn": "率军东征，击败刘备，占领徐州。",
+          "en": "Led an eastern campaign, defeated Liu Bei, and seized Xuzhou."
+        }
+      }
+    },
+    {
+      "source": "曹操",
+      "target": "麋夫人",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "200",
+        "description": {
+          "zh-cn": "在进攻徐州时俘虏了麋夫人，并将其带回许都。",
+          "en": "Captured Lady Mi during the attack on Xuzhou and took her back to Xudu."
+        }
+      }
+    },
+    {
+      "source": "曹操",
+      "target": "关羽",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "200",
+        "description": {
+          "zh-cn": "在进攻徐州时俘虏了关羽，并将其带回许都。",
+          "en": "Captured Guan Yu during the attack on Xuzhou and took him back to Xudu."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "左将军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "196",
+        "end_date": "200",
+        "position": {
+          "zh-cn": "左将军",
+          "en": "General of the Left"
+        }
+      }
+    },
+    {
+      "source": "长阪坡之战",
+      "target": "麋夫人",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "208",
+        "description": {
+          "zh-cn": "根据小说《三国演义》的描述，麋夫人在长阪坡之战中受伤，为保全刘禅，将阿斗托付给赵云后投井自尽。",
+          "en": "According to the novel 'Romance of the Three Kingdoms', Lady Mi was injured during the Battle of Changban. To ensure the safety of Liu Shan (Adou), she entrusted him to Zhao Yun before committing suicide by jumping into a well."
+        }
+      }
+    },
+    {
+      "source": "三国演义",
+      "target": "麋夫人",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "小说《三国演义》详细描绘了麋夫人的形象，特别是她在长阪坡之战中托孤投井的情节，使其忠烈形象深入人心。",
+          "en": "The novel 'Romance of the Three Kingdoms' shaped the popular image of Lady Mi, particularly through the episode at the Battle of Changban where she entrusts her son to a general and commits suicide, establishing her as a loyal and heroic figure."
+        }
+      }
+    }
+  ]
+}

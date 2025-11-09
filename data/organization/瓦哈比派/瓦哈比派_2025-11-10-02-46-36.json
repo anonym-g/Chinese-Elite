@@ -1,0 +1,636 @@
+{
+  "nodes": [
+    {
+      "id": "瓦哈比派",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "瓦哈比派",
+          "瓦哈比派运动",
+          "瓦哈比主义",
+          "华哈比派"
+        ],
+        "en": [
+          "Wahhabism"
+        ]
+      },
+      "properties": {
+        "period": "1744 - ",
+        "location": {
+          "zh-cn": "阿拉伯半岛",
+          "en": "Arabian Peninsula"
+        },
+        "description": {
+          "zh-cn": "逊尼派伊斯兰教内的伊斯兰复兴主义和原教旨主义运动，由穆罕默德·伊本·阿卜杜勒·瓦哈卜发起。其信徒自称“一神论者”，在教义上极端保守，是沙特阿拉伯的国教。",
+          "en": "An Islamic revivalist and fundamentalist movement within Sunni Islam, founded by Muhammad ibn Abd al-Wahhab. Its followers refer to themselves as 'Muwahhidun' (Unitarians). It is known for its ultraconservative doctrines and is the state-sponsored form of Islam in Saudi Arabia."
+        }
+      }
+    },
+    {
+      "id": "穆罕默德·伊本·阿卜杜勒·瓦哈卜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆罕默德·伊本·阿卜杜勒·瓦哈卜",
+          "瓦哈比",
+          "穆罕默德·伊本·阿布杜勒·瓦哈比"
+        ],
+        "en": [
+          "Muhammad ibn Abd al-Wahhab"
+        ]
+      },
+      "properties": {
+        "lifetime": "1703 - 1792",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "阿拉伯伊斯兰教学者，瓦哈比派运动的创始人。",
+          "en": "An Arab Islamic scholar and the founder of the Wahhabi movement."
+        }
+      }
+    },
+    {
+      "id": "罕百里派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罕百里派",
+          "罕百里学派",
+          "汉伯利法学派"
+        ],
+        "en": [
+          "Hanbali school"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "逊尼派伊斯兰教法学的四大主流学派之一，穆罕默德·伊本·阿卜杜勒·瓦哈卜的思想渊源于此。",
+          "en": "One of the four major schools of Islamic jurisprudence within Sunni Islam, from which the thoughts of Muhammad ibn Abd al-Wahhab were derived."
+        }
+      }
+    },
+    {
+      "id": "伊本·泰米叶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊本·泰米叶",
+          "太米叶",
+          "伊玛目伊本·太米叶"
+        ],
+        "en": [
+          "Ibn Taymiyyah"
+        ]
+      },
+      "properties": {
+        "lifetime": "1263 - 1328",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊斯兰学者，其复古主义思想对穆罕默德·伊本·阿卜杜勒·瓦哈卜有重要影响。",
+          "en": "An Islamic scholar whose revivalist thought significantly influenced Muhammad ibn Abd al-Wahhab."
+        }
+      }
+    },
+    {
+      "id": "穆罕默德·本·沙特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆罕默德·本·沙特",
+          "穆罕默德·伊本·绍德"
+        ],
+        "en": [
+          "Muhammad bin Saud"
+        ]
+      },
+      "properties": {
+        "lifetime": "1710 - 1765",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德拉伊耶的部落酋长，绍德家族的领袖，与穆罕默德·伊本·阿卜杜勒·瓦哈卜合作建立了第一个沙特国家。",
+          "en": "The tribal chief of Diriyah and leader of the House of Saud, who collaborated with Muhammad ibn Abd al-Wahhab to establish the first Saudi state."
+        }
+      }
+    },
+    {
+      "id": "绍德家族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "绍德家族"
+        ],
+        "en": [
+          "House of Saud"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "沙特阿拉伯的王室家族，其领袖穆罕默德·本·沙特与瓦哈比派合作，促成了沙特国家的建立。",
+          "en": "The royal family of Saudi Arabia. Its leader, Muhammad bin Saud, cooperated with the Wahhabi movement, which led to the establishment of the Saudi state."
+        }
+      }
+    },
+    {
+      "id": "沙特阿拉伯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沙特阿拉伯",
+          "沙地阿拉伯",
+          "沙乌地阿拉伯",
+          "沙特"
+        ],
+        "en": [
+          "Saudi Arabia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于阿拉伯半岛的国家，由瓦哈比派与绍德家族的联盟促成建立，并将瓦哈比派定为国教。",
+          "en": "A country on the Arabian Peninsula, its establishment was facilitated by the alliance between the Wahhabi movement and the House of Saud, and it has adopted Wahhabism as its state religion."
+        }
+      }
+    },
+    {
+      "id": "逊尼派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "逊尼派"
+        ],
+        "en": [
+          "Sunni Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教的主要教派之一，瓦哈比派是其内部的一个运动。",
+          "en": "One of the main branches of Islam, within which Wahhabism is a movement."
+        }
+      }
+    },
+    {
+      "id": "什叶派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "什叶派"
+        ],
+        "en": [
+          "Shia Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教的第二大教派，被瓦哈比派视为异端。",
+          "en": "The second-largest branch of Islam, considered heretical by Wahhabism."
+        }
+      }
+    },
+    {
+      "id": "苏菲派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏菲派"
+        ],
+        "en": [
+          "Sufism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教的神秘主义派别，被瓦哈比派视为异端。",
+          "en": "The mystical branch of Islam, considered heretical by Wahhabism."
+        }
+      }
+    },
+    {
+      "id": "世俗化",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "世俗化"
+        ],
+        "en": [
+          "Secularization"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "社会从宗教价值观向非宗教价值观转变的过程，受到瓦哈比派的反对。",
+          "en": "The process of a society's transformation from religious values to non-religious values, which is opposed by Wahhabism."
+        }
+      }
+    },
+    {
+      "id": "圣战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "圣战",
+          "吉哈德"
+        ],
+        "en": [
+          "Jihad"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个伊斯兰术语，指穆斯林维护和传播宗教的责任。瓦哈比派主张对所谓的异端和异教徒进行圣战。",
+          "en": "An Islamic term referring to the religious duty of Muslims to maintain and spread the religion. Wahhabism advocates for jihad against so-called heretics and infidels."
+        }
+      }
+    },
+    {
+      "id": "苏联解体",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "苏联解体"
+        ],
+        "en": [
+          "Dissolution of the Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1991-12-26 - 1991-12-26",
+        "description": {
+          "zh-cn": "苏联解体事件为瓦哈比派分子进入俄罗斯车臣地区扩张势力提供了契机。",
+          "en": "The dissolution of the Soviet Union provided an opportunity for Wahhabi elements to expand their influence into the Chechnya region of Russia."
+        }
+      }
+    },
+    {
+      "id": "伊奇克里亚车臣共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伊奇克里亚车臣共和国"
+        ],
+        "en": [
+          "Chechen Republic of Ichkeria"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "车臣的分离主义政府，曾为争取外部援助而与瓦哈比派分子合作。",
+          "en": "A secessionist government of Chechnya that once cooperated with Wahhabi elements to gain external support."
+        }
+      }
+    },
+    {
+      "id": "本·拉登",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "本·拉登"
+        ],
+        "en": [
+          "Osama bin Laden"
+        ]
+      },
+      "properties": {
+        "lifetime": "1957 - 2011",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "基地组织的创始人，被认为是瓦哈比派的信徒。",
+          "en": "The founder of al-Qaeda, considered to be a follower of Wahhabism."
+        }
+      }
+    },
+    {
+      "id": "阿不力克木·买合苏木",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿不力克木·买合苏木"
+        ],
+        "en": [
+          "Ablikim Mahsum"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东突厥斯坦伊斯兰党头目，与瓦哈比派有关系。",
+          "en": "Leader of the Turkistan Islamic Party, who has ties to Wahhabism."
+        }
+      }
+    },
+    {
+      "id": "东突厥斯坦伊斯兰党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东突厥斯坦伊斯兰党"
+        ],
+        "en": [
+          "Turkistan Islamic Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个维吾尔伊斯兰极端组织，其头目被认为是瓦哈比派信徒。",
+          "en": "A Uyghur Islamic extremist organization whose leader is considered a follower of Wahhabism."
+        }
+      }
+    },
+    {
+      "id": "301昆明火车站暴恐事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "301昆明火车站暴恐事件"
+        ],
+        "en": [
+          "2014 Kunming attack"
+        ]
+      },
+      "properties": {
+        "period": "2014-03-01 - 2014-03-01",
+        "description": {
+          "zh-cn": "发生在中国昆明的恐怖袭击事件，其实施者被认为与瓦哈比派思想有关。",
+          "en": "A terrorist attack in Kunming, China, whose perpetrators are believed to be linked to Wahhabi ideology."
+        }
+      }
+    },
+    {
+      "id": "阿不都热依木·库尔班",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿不都热依木·库尔班"
+        ],
+        "en": [
+          "Abdurehim Kurban"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "制造301昆明火车站暴恐事件的恐怖组织头目。",
+          "en": "The leader of the terrorist group that carried out the 2014 Kunming attack."
+        }
+      }
+    },
+    {
+      "id": "基地组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "基地组织"
+        ],
+        "en": [
+          "Al-Qaeda"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个由本·拉登创立的军事伊斯兰跨国组织。",
+          "en": "A militant Islamist multi-national organization founded by Osama bin Laden."
+        }
+      }
+    },
+    {
+      "id": "2015年11月巴黎袭击事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2015年11月巴黎袭击事件"
+        ],
+        "en": [
+          "November 2015 Paris attacks"
+        ]
+      },
+      "properties": {
+        "period": "2015-11-13 - 2015-11-13",
+        "description": {
+          "zh-cn": "在法国巴黎发生的一系列恐怖袭击事件，该事件促使德国副总理要求沙特停止资助极端主义。",
+          "en": "A series of terrorist attacks in Paris, France, which prompted the German Vice Chancellor to call for Saudi Arabia to stop funding extremism."
+        }
+      }
+    },
+    {
+      "id": "西格玛尔·加布里尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "西格玛尔·加布里尔"
+        ],
+        "en": [
+          "Sigmar Gabriel"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国政治家，曾任副总理。在2015年巴黎袭击事件后，他要求沙特阿拉伯停止资助宣扬极端宗教思想的清真寺。",
+          "en": "A German politician and former Vice Chancellor. After the 2015 Paris attacks, he demanded that Saudi Arabia stop funding mosques that promote extremist religious ideology."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "穆罕默德·伊本·阿卜杜勒·瓦哈卜",
+      "target": "瓦哈比派",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "穆罕默德·伊本·阿卜杜勒·瓦哈卜是瓦哈比派的首倡者及领导人。",
+          "en": "Muhammad ibn Abd al-Wahhab was the initiator and leader of the Wahhabi movement."
+        }
+      }
+    },
+    {
+      "source": "伊本·泰米叶",
+      "target": "穆罕默德·伊本·阿卜杜勒·瓦哈卜",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "穆罕默德·伊本·阿卜杜勒·瓦哈卜的思想吸取自伊本·泰米叶的复古主义思想。",
+          "en": "Muhammad ibn Abd al-Wahhab's ideas were drawn from the revivalist thought of Ibn Taymiyyah."
+        }
+      }
+    },
+    {
+      "source": "罕百里派",
+      "target": "穆罕默德·伊本·阿卜杜勒·瓦哈卜",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "穆罕默德·伊本·阿卜杜勒·瓦哈卜的思想吸取自逊尼宗的罕百里学派的教法学说。",
+          "en": "Muhammad ibn Abd al-Wahhab's ideas were drawn from the legal doctrines of the Hanbali school of Sunni Islam."
+        }
+      }
+    },
+    {
+      "source": "穆罕默德·伊本·阿卜杜勒·瓦哈卜",
+      "target": "穆罕默德·本·沙特",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "穆罕默德·伊本·阿卜杜勒·瓦哈卜与沙特家族领袖穆罕默德·本·沙特合作，促成了沙特国家的建立。",
+          "en": "Muhammad ibn Abd al-Wahhab collaborated with the House of Saud leader Muhammad bin Saud, which led to the establishment of the Saudi state."
+        }
+      }
+    },
+    {
+      "source": "瓦哈比派",
+      "target": "沙特阿拉伯",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "瓦哈比派与绍德家族的合作促成了沙特阿拉伯的成立。",
+          "en": "The cooperation between the Wahhabi movement and the House of Saud led to the establishment of Saudi Arabia."
+        }
+      }
+    },
+    {
+      "source": "沙特阿拉伯",
+      "target": "瓦哈比派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1975",
+        "description": {
+          "zh-cn": "沙特阿拉伯将瓦哈比派定为国教，王室成员必须信奉，并且政府在世界各地推广瓦哈比派信仰，包括每年耗资20至30亿美元资助相关清真寺和伊斯兰学校。",
+          "en": "Saudi Arabia has made Wahhabism the state religion, which royal family members must adhere to. The government also promotes the Wahhabi faith worldwide, including spending $2-3 billion annually to fund related mosques and Islamic schools."
+        }
+      }
+    },
+    {
+      "source": "瓦哈比派",
+      "target": "什叶派",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "瓦哈比派反对什叶派等其认定的异端行为。",
+          "en": "Wahhabism opposes what it considers heretical practices, such as Shia Islam."
+        }
+      }
+    },
+    {
+      "source": "瓦哈比派",
+      "target": "苏菲派",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "瓦哈比派反对苏菲派等其认定的异端行为。",
+          "en": "Wahhabism opposes what it considers heretical practices, such as Sufism."
+        }
+      }
+    },
+    {
+      "source": "瓦哈比派",
+      "target": "世俗化",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "瓦哈比派反对世俗化等其认定的异端行为。",
+          "en": "Wahhabism opposes what it considers heretical practices, such as secularization."
+        }
+      }
+    },
+    {
+      "source": "瓦哈比派",
+      "target": "圣战",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "瓦哈比派主张对所谓的异端和异教徒进行圣战。",
+          "en": "Wahhabism advocates for jihad against so-called heretics and infidels."
+        }
+      }
+    },
+    {
+      "source": "苏联解体",
+      "target": "瓦哈比派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1991-12-26",
+        "description": {
+          "zh-cn": "苏联解体后，瓦哈比派分子得以进入俄罗斯的伊奇克里亚车臣共和国扩张势力。",
+          "en": "After the dissolution of the Soviet Union, Wahhabi elements were able to enter the Chechen Republic of Ichkeria in Russia to expand their influence."
+        }
+      }
+    },
+    {
+      "source": "伊奇克里亚车臣共和国",
+      "target": "瓦哈比派",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "车臣分离主义政府为了争取外部援助，与瓦哈比派分子合作，并在其推动下实施伊斯兰教法。",
+          "en": "The Chechen separatist government cooperated with Wahhabi elements to secure external aid and implemented Sharia law under their influence."
+        }
+      }
+    },
+    {
+      "source": "本·拉登",
+      "target": "瓦哈比派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "恐怖分子本·拉登被认为是瓦哈比派的信徒。",
+          "en": "The terrorist Osama bin Laden is considered a follower of Wahhabism."
+        }
+      }
+    },
+    {
+      "source": "阿不力克木·买合苏木",
+      "target": "瓦哈比派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "东突厥斯坦伊斯兰党头目阿不力克木·买合苏木是瓦哈比派信徒。",
+          "en": "Ablikim Mahsum, the leader of the Turkistan Islamic Party, is a follower of Wahhabism."
+        }
+      }
+    },
+    {
+      "source": "瓦哈比派",
+      "target": "301昆明火车站暴恐事件",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "瓦哈比派被认为是宗教极端主义，容易产生恐怖分子，制造301昆明火车站暴恐事件的恐怖组织与瓦哈比派思想有关。",
+          "en": "Wahhabism is considered religious extremism that can easily produce terrorists; the terrorist organization behind the 2014 Kunming attack is linked to Wahhabi ideology."
+        }
+      }
+    },
+    {
+      "source": "阿不都热依木·库尔班",
+      "target": "基地组织",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "制造301昆明火车站暴恐事件的恐怖组织头目阿不都热依木·库尔班和基地组织关系密切。",
+          "en": "Abdurehim Kurban, the leader of the terrorist group behind the 2014 Kunming attack, had close ties with al-Qaeda."
+        }
+      }
+    },
+    {
+      "source": "2015年11月巴黎袭击事件",
+      "target": "西格玛尔·加布里尔",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2015-11",
+        "description": {
+          "zh-cn": "2015年11月巴黎袭击事件发生后，时任德国副总理西格玛尔·加布里尔公开要求沙特政府停止资助宣扬极端宗教思想的清真寺。",
+          "en": "Following the November 2015 Paris attacks, then-German Vice Chancellor Sigmar Gabriel publicly demanded that the Saudi government stop funding mosques that promote extremist religious ideology."
+        }
+      }
+    },
+    {
+      "source": "瓦哈比派",
+      "target": "逊尼派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "瓦哈比派是逊尼派伊斯兰教内部的一个运动。",
+          "en": "Wahhabism is a movement within Sunni Islam."
+        }
+      }
+    }
+  ]
+}
