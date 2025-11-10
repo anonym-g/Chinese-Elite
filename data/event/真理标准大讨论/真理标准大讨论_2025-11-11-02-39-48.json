@@ -1,0 +1,930 @@
+{
+  "nodes": [
+    {
+      "id": "真理标准大讨论",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "真理标准大讨论",
+          "真理标准问题大讨论"
+        ],
+        "en": [
+          "Truth Criterion Discussion"
+        ]
+      },
+      "properties": {
+        "period": "1978",
+        "location": {
+          "zh-cn": "中国大陆",
+          "en": "Mainland China"
+        },
+        "description": {
+          "zh-cn": "1978年在中国大陆发生的一场关于思想路线的大辩论，挑战了“两个凡是”的教条，为改革开放奠定了思想基础。",
+          "en": "A major debate on ideological lines that took place in mainland China in 1978, challenging the dogma of the \"Two Whatevers\" and laying the ideological foundation for the Reform and Opening-up."
+        }
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": [
+          "Deng Xiaoping"
+        ]
+      },
+      "properties": {
+        "lifetime": "1904-08-22 - 1997-02-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治家，“求是派”的领导者，在真理标准大讨论后成为中华人民共和国的实际最高领导人，并主导了拨乱反正与改革开放。",
+          "en": "A Chinese statesman, leader of the \"Pragmatist Faction\", who became the paramount leader of the People's Republic of China after the Truth Criterion Discussion and led the Boluan Fanzheng and Reform and Opening-up."
+        }
+      }
+    },
+    {
+      "id": "华国锋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "华国锋"
+        ],
+        "en": [
+          "Hua Guofeng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1921-02-16 - 2008-08-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治家，“凡是派”的领导者，在文化大革命后接替毛泽东，因坚持“两个凡是”而在真理标准大讨论中失势。",
+          "en": "A Chinese politician, leader of the \"Whatever Faction\", who succeeded Mao Zedong after the Cultural Revolution and lost power during the Truth Criterion Discussion due to his adherence to the \"Two Whatevers\"."
+        }
+      }
+    },
+    {
+      "id": "求是派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "求是派"
+        ],
+        "en": [
+          "Pragmatist Faction"
+        ]
+      },
+      "properties": {
+        "period": "1977 - 1981",
+        "description": {
+          "zh-cn": "文化大革命后，以邓小平为代表的政治派别，主张实事求是、解放思想，推动拨乱反正和改革开放。",
+          "en": "A political faction represented by Deng Xiaoping after the Cultural Revolution, advocating for seeking truth from facts, emancipating the mind, and promoting Boluan Fanzheng and Reform and Opening-up."
+        }
+      }
+    },
+    {
+      "id": "凡是派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "凡是派"
+        ],
+        "en": [
+          "Whatever Faction"
+        ]
+      },
+      "properties": {
+        "period": "1977 - 1981",
+        "description": {
+          "zh-cn": "文化大革命后，以华国锋为代表的政治派别，主张“两个凡是”，即“凡是毛主席作出的决策，我们都坚决维护；凡是毛主席的指示，我们都始终不渝地遵循”。",
+          "en": "A political faction represented by Hua Guofeng after the Cultural Revolution, advocating for the \"Two Whatevers\": \"We will resolutely uphold whatever policy decisions Chairman Mao made, and unswervingly follow whatever instructions Chairman Mao gave.\""
+        }
+      }
+    },
+    {
+      "id": "实践是检验真理的唯一标准",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "实践是检验真理的唯一标准"
+        ],
+        "en": [
+          "Practice is the Sole Criterion for Testing Truth"
+        ]
+      },
+      "properties": {
+        "period": "1978-05-10",
+        "description": {
+          "zh-cn": "由胡福明撰写，于1978年5月发表的文章，引发了全国范围的真理标准大讨论。",
+          "en": "An article written by Hu Fuming and published in May 1978, which triggered the nationwide Truth Criterion Discussion."
+        }
+      }
+    },
+    {
+      "id": "两个凡是",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "两个凡是"
+        ],
+        "en": [
+          "Two Whatevers"
+        ]
+      },
+      "properties": {
+        "period": "1977 - 1978",
+        "description": {
+          "zh-cn": "华国锋等人提出的执政指导思想，主张绝对遵循毛泽东的决策和指示，是真理标准大讨论中被批判的核心观点。",
+          "en": "The governing guiding ideology proposed by Hua Guofeng and others, advocating for absolute adherence to Mao Zedong's decisions and instructions. It was the central point of criticism in the Truth Criterion Discussion."
+        }
+      }
+    },
+    {
+      "id": "胡耀邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡耀邦"
+        ],
+        "en": [
+          "Hu Yaobang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1915-11-20 - 1989-04-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治家，“求是派”的重要成员，审定了《实践是检验真理的唯一标准》一文，并与邓小平共同主导了“拨乱反正”。后接任中共中央主席。",
+          "en": "A Chinese politician, a key member of the \"Pragmatist Faction\", who reviewed and approved the article \"Practice is the Sole Criterion for Testing Truth\" and co-led the \"Boluan Fanzheng\" with Deng Xiaoping. He later became the Chairman of the CCP Central Committee."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1966-05 - 1976-10",
+        "description": {
+          "zh-cn": "1966年至1976年在中国发生的一场政治运动。其错误是真理标准大讨论和拨乱反正试图纠正的核心问题。",
+          "en": "A political movement in China from 1966 to 1976. Its mistakes were the core issues that the Truth Criterion Discussion and Boluan Fanzheng sought to correct."
+        }
+      }
+    },
+    {
+      "id": "改革开放",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "改革开放"
+        ],
+        "en": [
+          "Reform and Opening-up"
+        ]
+      },
+      "properties": {
+        "period": "1978-12 - ",
+        "description": {
+          "zh-cn": "始于1978年中共十一届三中全会的经济改革和社会开放政策。真理标准大讨论为其奠定了思想基础。",
+          "en": "A policy of economic reform and opening up to the outside world that began at the Third Plenary Session of the 11th Central Committee of the CCP in 1978. The Truth Criterion Discussion laid the ideological groundwork for it."
+        }
+      }
+    },
+    {
+      "id": "拨乱反正",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "拨乱反正"
+        ],
+        "en": [
+          "Boluan Fanzheng"
+        ]
+      },
+      "properties": {
+        "period": "1977 - 1982",
+        "description": {
+          "zh-cn": "指纠正文化大革命及其以前“左”倾错误的思想、政治、组织、政策等一系列举措的统称，真理标准大讨论是其重要组成部分。",
+          "en": "A comprehensive term for a series of measures to correct the 'Leftist' errors of the Cultural Revolution and before in ideology, politics, organization, and policy. The Truth Criterion Discussion was a crucial part of it."
+        }
+      }
+    },
+    {
+      "id": "新启蒙运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "新启蒙运动"
+        ],
+        "en": [
+          "New Enlightenment Movement"
+        ]
+      },
+      "properties": {
+        "period": "1978 - 1989",
+        "description": {
+          "zh-cn": "指始于1970年代末，贯穿整个1980年代的中国大陆思想解放运动，被视为继五四运动后的第二次启蒙，以真理标准大讨论为起点。",
+          "en": "Refers to the ideological emancipation movement in mainland China that began in the late 1970s and lasted through the 1980s. It is considered the second enlightenment after the May Fourth Movement and started with the Truth Criterion Discussion."
+        }
+      }
+    },
+    {
+      "id": "胡福明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡福明"
+        ],
+        "en": [
+          "Hu Fuming"
+        ]
+      },
+      "properties": {
+        "lifetime": "1935-07 - 2023-01-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国学者，南京大学教授，《实践是检验真理的唯一标准》一文的主要作者。",
+          "en": "A Chinese scholar and professor at Nanjing University, the main author of the article \"Practice is the Sole Criterion for Testing Truth\"."
+        }
+      }
+    },
+    {
+      "id": "光明日报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "光明日报"
+        ],
+        "en": [
+          "Guangming Daily"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央委员会主办的报纸，于1978年5月11日首次公开发表了《实践是检验真理的唯一标准》一文。",
+          "en": "A newspaper published by the Central Committee of the Communist Party of China, which first publicly published the article \"Practice is the Sole Criterion for Testing Truth\" on May 11, 1978."
+        }
+      }
+    },
+    {
+      "id": "叶剑英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶剑英"
+        ],
+        "en": [
+          "Ye Jianying"
+        ]
+      },
+      "properties": {
+        "lifetime": "1897-04-28 - 1986-10-22",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党元老，支持关于真理标准问题的讨论。",
+          "en": "An elder of the Communist Party of China who supported the discussion on the criterion of truth."
+        }
+      }
+    },
+    {
+      "id": "李先念",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李先念"
+        ],
+        "en": [
+          "Li Xiannian"
+        ]
+      },
+      "properties": {
+        "lifetime": "1909-06-23 - 1992-06-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党元老，支持关于真理标准问题的讨论。",
+          "en": "An elder of the Communist Party of China who supported the discussion on the criterion of truth."
+        }
+      }
+    },
+    {
+      "id": "陈云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈云"
+        ],
+        "en": [
+          "Chen Yun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1905-06-13 - 1995-04-10",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党元老，支持关于真理标准问题的讨论。",
+          "en": "An elder of the Communist Party of China who supported the discussion on the criterion of truth."
+        }
+      }
+    },
+    {
+      "id": "汪东兴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪东兴"
+        ],
+        "en": [
+          "Wang Dongxing"
+        ]
+      },
+      "properties": {
+        "lifetime": "1916-01-09 - 2015-08-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治家，“凡是派”的代表人物之一。",
+          "en": "A Chinese politician and one of the representative figures of the \"Whatever Faction\"."
+        }
+      }
+    },
+    {
+      "id": "西单民主墙",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "西单民主墙"
+        ],
+        "en": [
+          "Xidan Democracy Wall"
+        ]
+      },
+      "properties": {
+        "period": "1978 - 1979",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "1978年至1979年间在北京西单出现的大字报运动，支持“求是派”，要求民主和自由。",
+          "en": "A big-character poster movement that appeared in Xidan, Beijing, from 1978 to 1979, supporting the \"Pragmatist Faction\" and calling for democracy and freedom."
+        }
+      }
+    },
+    {
+      "id": "中共十一届三中全会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中共十一届三中全会",
+          "十一届三中全会"
+        ],
+        "en": [
+          "Third Plenary Session of the 11th Central Committee of the CCP"
+        ]
+      },
+      "properties": {
+        "period": "1978-12-18 - 1978-12-22",
+        "description": {
+          "zh-cn": "中国共产党的一次重要会议，在此次会议上，“求是派”压倒“凡是派”，邓小平确认了其在党内的领导地位，并开启了改革开放。",
+          "en": "A pivotal meeting of the CCP where the \"Pragmatist Faction\" prevailed over the \"Whatever Faction\", Deng Xiaoping's leadership within the party was confirmed, and the era of Reform and Opening-up began."
+        }
+      }
+    },
+    {
+      "id": "《解放思想，实事求是，团结一致向前看》",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "《解放思想，实事求是，团结一致向前看》"
+        ],
+        "en": [
+          "Emancipate the mind, seek truth from facts, and unite as one to look to the future"
+        ]
+      },
+      "properties": {
+        "period": "1978-12-13",
+        "description": {
+          "zh-cn": "邓小平在中共中央工作会议闭幕会上发表的讲话，强调“实践是检验真理的唯一标准”，否定了“两个凡是”的观点，成为思想解放的重要标志。",
+          "en": "A speech delivered by Deng Xiaoping at the closing session of the CCP Central Work Conference, which emphasized that \"practice is the sole criterion for testing truth,\" negated the \"Two Whatevers,\" and became a major symbol of ideological emancipation."
+        }
+      }
+    },
+    {
+      "id": "《关于建国以来党的若干历史问题的决议》",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "《关于建国以来党的若干历史问题的决议》"
+        ],
+        "en": [
+          "Resolution on Certain Questions in the History of Our Party Since the Founding of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1981-06-27",
+        "description": {
+          "zh-cn": "中共十一届六中全会通过的历史决议，全面否定了文化大革命，并标志着真理标准大讨论的结束。",
+          "en": "A historical resolution passed by the 6th Plenary Session of the 11th CCP Central Committee, which completely negated the Cultural Revolution and marked the end of the Truth Criterion Discussion."
+        }
+      }
+    },
+    {
+      "id": "中共十一届六中全会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中共十一届六中全会"
+        ],
+        "en": [
+          "Sixth Plenary Session of the 11th Central Committee of the CCP"
+        ]
+      },
+      "properties": {
+        "period": "1981-06-27 - 1981-06-29",
+        "description": {
+          "zh-cn": "通过了《关于建国以来党的若干历史问题的决议》，华国锋在此次会议上辞去中共中央主席和军委主席职务。",
+          "en": "Passed the \"Resolution on Certain Questions in the History of Our Party Since the Founding of the People's Republic of China.\" Hua Guofeng resigned as Chairman of the CCP Central Committee and Chairman of the Central Military Commission at this session."
+        }
+      }
+    },
+    {
+      "id": "四项基本原则",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "四项基本原则"
+        ],
+        "en": [
+          "Four Cardinal Principles"
+        ]
+      },
+      "properties": {
+        "period": "1979-03-30",
+        "description": {
+          "zh-cn": "由邓小平提出的四项政治原则，成为当时思想解放和言论自由的界限。",
+          "en": "Four political principles proposed by Deng Xiaoping, which became the boundary for ideological emancipation and freedom of speech at the time."
+        }
+      }
+    },
+    {
+      "id": "赵紫阳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵紫阳"
+        ],
+        "en": [
+          "Zhao Ziyang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1919-10-17 - 2005-01-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国改革派领导人，于1980年9月接替华国锋担任国务院总理。",
+          "en": "A Chinese reformist leader who succeeded Hua Guofeng as Premier of the State Council in September 1980."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央委员会主席",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央委员会主席",
+          "中共中央主席"
+        ],
+        "en": [
+          "Chairman of the Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央委员会在1945年至1982年间的最高领导人职务。",
+          "en": "The highest leading position of the Central Committee of the Communist Party of China from 1945 to 1982."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央军事委员会主席",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央军事委员会主席",
+          "中共中央军委主席"
+        ],
+        "en": [
+          "Chairman of the Central Military Commission of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央军事委员会的最高领导人职务。",
+          "en": "The highest leading position of the Central Military Commission of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国务院总理",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院总理",
+          "国务院总理"
+        ],
+        "en": [
+          "Premier of the State Council of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国中央人民政府（国务院）的最高领导人。",
+          "en": "The head of the Central People's Government (State Council) of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "实践是检验真理的唯一标准",
+      "target": "真理标准大讨论",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-05-11",
+        "description": {
+          "zh-cn": "《实践是检验真理的唯一标准》一文的公开发表引发了真理标准大讨论。",
+          "en": "The public release of the article \"Practice is the Sole Criterion for Testing Truth\" triggered the Truth Criterion Discussion."
+        }
+      }
+    },
+    {
+      "source": "真理标准大讨论",
+      "target": "两个凡是",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "真理标准大讨论是对“两个凡是”指导思想的直接挑战和辩论。",
+          "en": "The Truth Criterion Discussion was a direct challenge and debate against the guiding ideology of the \"Two Whatevers\"."
+        }
+      }
+    },
+    {
+      "source": "求是派",
+      "target": "凡是派",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "在真理标准大讨论期间，以邓小平为首的“求是派”与以华国锋为首的“凡是派”展开了激烈的政治和思想交锋。",
+          "en": "During the Truth Criterion Discussion, the \"Pragmatist Faction\" led by Deng Xiaoping engaged in intense political and ideological confrontation with the \"Whatever Faction\" led by Hua Guofeng."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "求是派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "领导者",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "邓小平是“求是派”的领导者。",
+          "en": "Deng Xiaoping was the leader of the \"Pragmatist Faction\"."
+        }
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "求是派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "胡耀邦是“求是派”的代表人物之一。",
+          "en": "Hu Yaobang was one of the representative figures of the \"Pragmatist Faction\"."
+        }
+      }
+    },
+    {
+      "source": "华国锋",
+      "target": "凡是派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "领导者",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "华国锋是“凡是派”的领导者。",
+          "en": "Hua Guofeng was the leader of the \"Whatever Faction\"."
+        }
+      }
+    },
+    {
+      "source": "汪东兴",
+      "target": "凡是派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "汪东兴是“凡是派”的代表人物之一。",
+          "en": "Wang Dongxing was one of the representative figures of the \"Whatever Faction\"."
+        }
+      }
+    },
+    {
+      "source": "真理标准大讨论",
+      "target": "新启蒙运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "真理标准大讨论造就了一场全社会的思想解放运动，成为“新启蒙运动”的起点。",
+          "en": "The Truth Criterion Discussion led to a society-wide ideological emancipation movement, becoming the starting point of the \"New Enlightenment Movement\"."
+        }
+      }
+    },
+    {
+      "source": "真理标准大讨论",
+      "target": "拨乱反正",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "真理标准大讨论是“拨乱反正”运动的重要组成部分，并极大地推动了其进程。",
+          "en": "The Truth Criterion Discussion was a crucial component of the \"Boluan Fanzheng\" movement and greatly advanced its progress."
+        }
+      }
+    },
+    {
+      "source": "胡福明",
+      "target": "实践是检验真理的唯一标准",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "胡福明是《实践是检验真理的唯一标准》一文的撰写者。",
+          "en": "Hu Fuming was the author of the article \"Practice is the Sole Criterion for Testing Truth\"."
+        }
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "实践是检验真理的唯一标准",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "胡耀邦审定了《实践是检验真理的唯一标准》一文，并推动其公开发表。",
+          "en": "Hu Yaobang reviewed and approved the article \"Practice is the Sole Criterion for Testing Truth\" and facilitated its public release."
+        }
+      }
+    },
+    {
+      "source": "光明日报",
+      "target": "实践是检验真理的唯一标准",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-05-11",
+        "description": {
+          "zh-cn": "《光明日报》于1978年5月11日首次公开发表了《实践是检验真理的唯一标准》一文。",
+          "en": "Guangming Daily first publicly published the article \"Practice is the Sole Criterion for Testing Truth\" on May 11, 1978."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "真理标准大讨论",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-05-19",
+        "description": {
+          "zh-cn": "邓小平公开表示支持《实践是检验真理的唯一标准》一文，并支持关于真理标准问题的讨论。",
+          "en": "Deng Xiaoping publicly expressed support for the article \"Practice is the Sole Criterion for Testing Truth\" and endorsed the discussion on the criterion of truth."
+        }
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "真理标准大讨论",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "中共元老叶剑英支持关于真理标准问题的讨论。",
+          "en": "CCP elder Ye Jianying supported the discussion on the criterion of truth."
+        }
+      }
+    },
+    {
+      "source": "李先念",
+      "target": "真理标准大讨论",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "中共元老李先念支持关于真理标准问题的讨论。",
+          "en": "CCP elder Li Xiannian supported the discussion on the criterion of truth."
+        }
+      }
+    },
+    {
+      "source": "陈云",
+      "target": "真理标准大讨论",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "中共元老陈云支持关于真理标准问题的讨论。",
+          "en": "CCP elder Chen Yun supported the discussion on the criterion of truth."
+        }
+      }
+    },
+    {
+      "source": "西单民主墙",
+      "target": "求是派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "北京民间的“西单民主墙”运动支持“求是派”。",
+          "en": "The civic \"Xidan Democracy Wall\" movement in Beijing supported the \"Pragmatist Faction\"."
+        }
+      }
+    },
+    {
+      "source": "中共十一届三中全会",
+      "target": "求是派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-12-22",
+        "description": {
+          "zh-cn": "在中共十一届三中全会上，“求是派”压倒“凡是派”，确立了其主导地位。",
+          "en": "At the Third Plenary Session of the 11th CCP Central Committee, the \"Pragmatist Faction\" prevailed over the \"Whatever Faction\", establishing its dominant position."
+        }
+      }
+    },
+    {
+      "source": "中共十一届三中全会",
+      "target": "邓小平",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-12-22",
+        "description": {
+          "zh-cn": "中共十一届三中全会确认了邓小平在中国共产党内的核心领导地位。",
+          "en": "The Third Plenary Session of the 11th CCP Central Committee confirmed Deng Xiaoping's core leadership position within the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "中共十一届三中全会",
+      "target": "华国锋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1978-12-22",
+        "description": {
+          "zh-cn": "在中共十一届三中全会上，邓小平取代华国锋成为中华人民共和国实际上的最高领导人，标志着华国锋政治权力的削弱。",
+          "en": "At the Third Plenary Session of the 11th CCP Central Committee, Deng Xiaoping replaced Hua Guofeng as the de facto paramount leader of the PRC, marking the decline of Hua's political power."
+        }
+      }
+    },
+    {
+      "source": "《解放思想，实事求是，团结一致向前看》",
+      "target": "两个凡是",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1978-12-13",
+        "description": {
+          "zh-cn": "邓小平的讲话《解放思想，实事求是，团结一致向前看》明确否定了“两个凡是”的观点。",
+          "en": "Deng Xiaoping's speech \"Emancipate the mind, seek truth from facts, and unite as one to look to the future\" explicitly negated the viewpoint of the \"Two Whatevers\"."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "四项基本原则",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1979-03-30",
+        "description": {
+          "zh-cn": "邓小平在理论务虚会上提出了“四项基本原则”。",
+          "en": "Deng Xiaoping proposed the \"Four Cardinal Principles\" at the conference on theoretical work."
+        }
+      }
+    },
+    {
+      "source": "四项基本原则",
+      "target": "新启蒙运动",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1979-03-30",
+        "description": {
+          "zh-cn": "“四项基本原则”的提出，为当时的思想解放运动（新启蒙运动）和言论自由划定了不可逾越的界限（红线）。",
+          "en": "The introduction of the \"Four Cardinal Principles\" set an insurmountable boundary (a red line) for the ideological emancipation movement (New Enlightenment Movement) and freedom of speech at the time."
+        }
+      }
+    },
+    {
+      "source": "新启蒙运动",
+      "target": "改革开放",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "新启蒙运动为改革开放奠定了思想基础。",
+          "en": "The New Enlightenment Movement laid the ideological foundation for the Reform and Opening-up."
+        }
+      }
+    },
+    {
+      "source": "《关于建国以来党的若干历史问题的决议》",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1981-06-27",
+        "description": {
+          "zh-cn": "该决议对文化大革命作出了全面的否定性评价。",
+          "en": "This resolution made a comprehensive negative assessment of the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "source": "《关于建国以来党的若干历史问题的决议》",
+      "target": "真理标准大讨论",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1981-06-27",
+        "description": {
+          "zh-cn": "该决议的通过标志着指导思想上拨乱反正任务的基本完成，也标志着真理标准问题讨论的官方结束。",
+          "en": "The adoption of this resolution marked the basic completion of the task of Boluan Fanzheng in terms of guiding ideology, and also signaled the official end of the Truth Criterion Discussion."
+        }
+      }
+    },
+    {
+      "source": "中共十一届六中全会",
+      "target": "华国锋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1981-06",
+        "description": {
+          "zh-cn": "在中共十一届六中全会上，华国锋辞去中共中央主席和中共中央军委主席的职务。",
+          "en": "At the Sixth Plenary Session of the 11th CCP Central Committee, Hua Guofeng resigned from his positions as Chairman of the CCP Central Committee and Chairman of the CCP Central Military Commission."
+        }
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "中国共产党中央委员会主席",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1981-06",
+        "end_date": "1982-09",
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "胡耀邦在中共十一届六中全会上接替华国锋，担任中共中央主席。",
+          "en": "Hu Yaobang succeeded Hua Guofeng as Chairman of the CCP Central Committee at the Sixth Plenary Session of the 11th CCP Central Committee."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "中国共产党中央军事委员会主席",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1981-06",
+        "end_date": "1989-11",
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "邓小平在中共十一届六中全会上接替华国锋，担任中共中央军委主席。",
+          "en": "Deng Xiaoping succeeded Hua Guofeng as Chairman of the CCP Central Military Commission at the Sixth Plenary Session of the 11th CCP Central Committee."
+        }
+      }
+    },
+    {
+      "source": "赵紫阳",
+      "target": "中华人民共和国国务院总理",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1980-09",
+        "end_date": "1987-11",
+        "position": {
+          "zh-cn": "总理",
+          "en": "Premier"
+        },
+        "description": {
+          "zh-cn": "赵紫阳于1980年9月接替华国锋担任国务院总理。",
+          "en": "Zhao Ziyang succeeded Hua Guofeng as Premier of the State Council in September 1980."
+        }
+      }
+    }
+  ]
+}

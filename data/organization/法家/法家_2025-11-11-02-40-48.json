@@ -1,0 +1,679 @@
+{
+  "nodes": [
+    {
+      "id": "法家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法家",
+          "法家思想",
+          "法家学说"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "东周 - ",
+        "description": {
+          "zh-cn": "中国历史上提倡以法制国的思想学派，起源于春秋战国时期，由韩非集大成。",
+          "en": "A school of thought in Chinese history that advocated for governing by law, originating in the Spring and Autumn and Warring States periods and synthesized by Han Fei."
+        }
+      }
+    },
+    {
+      "id": "商鞅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "商鞅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - -0338",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期法家代表人物，通过在秦国推行变法，使秦国崛起为强国。",
+          "en": "A representative figure of Legalism during the Warring States period, whose reforms in the state of Qin led to its rise as a major power."
+        }
+      }
+    },
+    {
+      "id": "韩非",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩非"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - -0233",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国末期思想家，法家思想的集大成者。",
+          "en": "A philosopher from the late Warring States period, known for synthesizing Legalist thought."
+        }
+      }
+    },
+    {
+      "id": "李斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李斯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - -0208",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦朝大臣，法家代表人物，荀子学生。",
+          "en": "A minister of the Qin Dynasty, a representative of Legalism, and a student of Xunzi."
+        }
+      }
+    },
+    {
+      "id": "荀子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "荀子"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " -0313 - -0238",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期儒家代表人物，提倡性恶论，其学生韩非和李斯成为法家重要人物。",
+          "en": "A representative of Confucianism during the Warring States period who advocated the theory of evil human nature. His students Han Fei and Li Si became important figures in Legalism."
+        }
+      }
+    },
+    {
+      "id": "儒家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "儒家"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由孔子创立的中国古代思想学派，对中国文化产生了深远影响。",
+          "en": "An ancient Chinese school of thought founded by Confucius, which has had a profound impact on Chinese culture."
+        }
+      }
+    },
+    {
+      "id": "秦国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " -0900 - -0221",
+        "description": {
+          "zh-cn": "中国周朝的诸侯国，后通过商鞅变法富国强兵，最终统一六国建立秦朝。",
+          "en": "A vassal state of the Zhou Dynasty, which became wealthy and powerful through Shang Yang's reforms and eventually unified the six states to establish the Qin Dynasty."
+        }
+      }
+    },
+    {
+      "id": "商鞅变法",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "商鞅变法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0360 - -0338",
+        "description": {
+          "zh-cn": "由商鞅在秦国推行的政治和经济改革，是秦国能统一六国的重要原因。",
+          "en": "Political and economic reforms implemented by Shang Yang in the State of Qin, a key reason for Qin's ability to unify the six states."
+        }
+      }
+    },
+    {
+      "id": "司马谈",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马谈"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " -0165 - -0110",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉时期的史学家和思想家，首次将法家思想的流派命名为“法家”。",
+          "en": "A historian and thinker of the Western Han Dynasty who first named the school of Legalist thought as 'Legalism'."
+        }
+      }
+    },
+    {
+      "id": "《论六家要旨》",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "论六家要旨"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "司马谈所著的评论诸子百家思想的著作，其中将一个学派命名为“法家”。",
+          "en": "A work by Sima Tan commenting on the thought of the Hundred Schools of Thought, in which one school was named 'Legalism'."
+        }
+      }
+    },
+    {
+      "id": "管仲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "管仲",
+          "管夷吾"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - -0645",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "春秋时期齐国政治家，辅佐齐桓公，其改革被一些学者认为是法家的起源。",
+          "en": "A statesman of the State of Qi during the Spring and Autumn period who assisted Duke Huan of Qi. His reforms are considered by some scholars to be the origin of Legalism."
+        }
+      }
+    },
+    {
+      "id": "齐桓公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "齐桓公"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - -0643",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "春秋时期齐国国君，春秋五霸之首，在管仲辅佐下称霸。",
+          "en": "The ruler of the State of Qi during the Spring and Autumn period, the first of the Five Hegemons, who achieved hegemony with the assistance of Guan Zhong."
+        }
+      }
+    },
+    {
+      "id": "汉朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉朝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0202 - 0220",
+        "description": {
+          "zh-cn": "继秦朝之后的中国朝代，分为西汉和东汉。汉朝官员对法家学说加以收集、分类、总结，并让这套思想成为治理国家的基础。",
+          "en": "The Chinese dynasty following the Qin Dynasty, divided into the Western Han and Eastern Han. Han officials collected, classified, and summarized Legalist doctrines, making this ideology the foundation for governing the country."
+        }
+      }
+    },
+    {
+      "id": "秦始皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦始皇",
+          "秦王政"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-0259 - -0210",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国首位皇帝，统一六国，建立秦朝。曾极为赞赏韩非的著作。",
+          "en": "The first emperor of China, who unified the six states and established the Qin Dynasty. He greatly admired the writings of Han Fei."
+        }
+      }
+    },
+    {
+      "id": "钱穆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "钱穆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1895-07-30 - 1990-08-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国现代历史学家，认为法家是儒家的正宗。",
+          "en": "A modern Chinese historian who believed that Legalism was the true heir to Confucianism."
+        }
+      }
+    },
+    {
+      "id": "秦晖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦晖"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1953-12 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清华大学历史系教授，对法家持批判态度，认为中国两千多年来的政治格局是“儒表法里”。",
+          "en": "A professor of history at Tsinghua University who is critical of Legalism, arguing that China's political structure for over two millennia has been 'Confucian on the outside, Legalist on the inside'."
+        }
+      }
+    },
+    {
+      "id": "刘泽华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘泽华"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1935-02 - 2018-03-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南开大学历史系教授，认为法家思想与法西斯主义有相通之处。",
+          "en": "A professor of history at Nankai University who believed there were parallels between Legalist thought and fascism."
+        }
+      }
+    },
+    {
+      "id": "朱熹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱熹"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1130-10-18 - 1200-04-23",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南宋理学家，对法家持批判态度，认为其惨核少恩。",
+          "en": "A Neo-Confucian scholar of the Southern Song Dynasty who was critical of Legalism, considering it harsh and lacking in benevolence."
+        }
+      }
+    },
+    {
+      "id": "子夏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "子夏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "春秋末期 - 战国初期",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "孔子弟子，孔门十哲之一，在晋国西河办学，培养出李悝、吴起等法家代表人物。",
+          "en": "A disciple of Confucius and one of the Ten Wise Ones of the Confucian School. He established a school in Xihe of the Jin state, where he educated future Legalist representatives like Li Kui and Wu Qi."
+        }
+      }
+    },
+    {
+      "id": "孔子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔子"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-0551 - -0479",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "春秋末期思想家、教育家，儒家学派的创始人。",
+          "en": "A philosopher and educator of the late Spring and Autumn period, founder of the Confucian school of thought."
+        }
+      }
+    },
+    {
+      "id": "李悝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李悝",
+          "李克"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0455 - -0395",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期魏国政治家，法家代表人物之一，子夏的学生。",
+          "en": "A statesman of the State of Wei during the Warring States period, a representative of Legalism, and a student of Zixia."
+        }
+      }
+    },
+    {
+      "id": "吴起",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴起"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0440 - -0381",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国初期军事家、政治家，法家代表人物，曾师从子夏和曾申。",
+          "en": "A military strategist and statesman of the early Warring States period, a representative of Legalism, who studied under Zixia and Zeng Shen."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "司马谈",
+      "target": "《论六家要旨》",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "司马谈在《论六家要旨》中对诸子百家进行评述。",
+          "en": "Sima Tan commented on the Hundred Schools of Thought in 'On the Essentials of the Six Schools'."
+        }
+      }
+    },
+    {
+      "source": "《论六家要旨》",
+      "target": "法家",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "司马谈在《论六家要旨》中首次将这一学派命名为“法家”。",
+          "en": "Sima Tan first named this school of thought 'Legalism' in his work 'On the Essentials of the Six Schools'."
+        }
+      }
+    },
+    {
+      "source": "管仲",
+      "target": "法家",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "管仲的改革被一些学者视为法家的起源。",
+          "en": "The reforms of Guan Zhong are considered by some scholars to be the origin of Legalism."
+        }
+      }
+    },
+    {
+      "source": "商鞅",
+      "target": "法家",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "商鞅是法家学派的代表人物，大力发展了法家思想。",
+          "en": "Shang Yang was a representative figure of the Legalist school and significantly developed Legalist thought."
+        }
+      }
+    },
+    {
+      "source": "韩非",
+      "target": "法家",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "韩非汇集各家学说，成为法家思想的集大成者。",
+          "en": "Han Fei synthesized various doctrines, becoming the great synthesizer of Legalist thought."
+        }
+      }
+    },
+    {
+      "source": "汉朝",
+      "target": "法家",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉朝官员收集、总结法家学说，并将其作为治理国家的基础。",
+          "en": "Han Dynasty officials collected and summarized Legalist doctrines, making them the foundation for governing the country."
+        }
+      }
+    },
+    {
+      "source": "商鞅",
+      "target": "商鞅变法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0360",
+        "end_date": "-0338",
+        "description": {
+          "zh-cn": "商鞅在秦国执政期间推行了全面的变法改革。",
+          "en": "Shang Yang implemented comprehensive reforms during his administration in the State of Qin."
+        }
+      }
+    },
+    {
+      "source": "商鞅变法",
+      "target": "秦国",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "商鞅变法使秦国崛起，成为战国时期的大国，为其统一六国奠定了基础。",
+          "en": "Shang Yang's reforms led to the rise of Qin, making it a major power during the Warring States period and laying the foundation for its unification of the six states."
+        }
+      }
+    },
+    {
+      "source": "管仲",
+      "target": "齐桓公",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "相",
+          "en": "Chancellor"
+        },
+        "description": {
+          "zh-cn": "管仲辅佐齐桓公进行改革，帮助齐国称霸。",
+          "en": "Guan Zhong assisted Duke Huan of Qi with reforms, helping the state of Qi achieve hegemony."
+        }
+      }
+    },
+    {
+      "source": "荀子",
+      "target": "韩非",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "韩非是荀子的学生，其思想吸收了荀子关于人性的理论。",
+          "en": "Han Fei was a student of Xunzi, and his thought absorbed Xunzi's theories on human nature."
+        }
+      }
+    },
+    {
+      "source": "韩非",
+      "target": "荀子",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "学生",
+          "en": "Student"
+        },
+        "description": {
+          "zh-cn": "韩非曾是儒家大师荀子的学生。",
+          "en": "Han Fei was once a student of the Confucian master Xunzi."
+        }
+      }
+    },
+    {
+      "source": "李斯",
+      "target": "荀子",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "学生",
+          "en": "Student"
+        },
+        "description": {
+          "zh-cn": "李斯曾是儒家大师荀子的学生。",
+          "en": "Li Si was once a student of the Confucian master Xunzi."
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "韩非",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "秦始皇读了《韩非子》后极为赞赏，一心想要见韩非，促使其入秦。",
+          "en": "After reading the 'Han Feizi', Qin Shi Huang greatly admired it and was eager to meet Han Fei, which led to Han Fei's journey to Qin."
+        }
+      }
+    },
+    {
+      "source": "李斯",
+      "target": "韩非",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-0233",
+        "description": {
+          "zh-cn": "李斯设计陷害其同窗韩非，致其死于狱中。",
+          "en": "Li Si framed his fellow student Han Fei, leading to his death in prison."
+        }
+      }
+    },
+    {
+      "source": "李斯",
+      "target": "韩非",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "李斯和韩非曾同为荀子的学生，是同窗。",
+          "en": "Li Si and Han Fei were once fellow students under Xunzi."
+        }
+      }
+    },
+    {
+      "source": "儒家",
+      "target": "法家",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据钱穆的观点，法家是从儒家发展而来的，许多早期法家人物由儒家培养。",
+          "en": "According to Qian Mu, Legalism developed from Confucianism, as many early Legalist figures were educated by Confucians."
+        }
+      }
+    },
+    {
+      "source": "钱穆",
+      "target": "法家",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "钱穆认为，就儒家的本旨而言，法家毋宁算是儒家的正宗。",
+          "en": "Qian Mu argued that in terms of the original purpose of Confucianism, Legalism should be considered its orthodox successor."
+        }
+      }
+    },
+    {
+      "source": "秦晖",
+      "target": "法家",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "秦晖对法家持批判态度，认为它是中国两千多年“儒表法里”政治格局的内核，是新文化运动中被忽略的真正批判对象。",
+          "en": "Qin Hui is critical of Legalism, viewing it as the core of China's 'Confucian exterior, Legalist interior' political structure for over two millennia and the true target missed by the New Culture Movement."
+        }
+      }
+    },
+    {
+      "source": "刘泽华",
+      "target": "法家",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘泽华认为法家思想中包含一系列与法西斯主义相通的因子，如愚民弱民、维护君主独裁等。",
+          "en": "Liu Zehua argued that Legalist thought contains a series of elements comparable to fascism, such as keeping the people ignorant and weak to maintain monarchical absolutism."
+        }
+      }
+    },
+    {
+      "source": "朱熹",
+      "target": "法家",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "朱熹批判法家学说，认为其“惨核少恩”、“刻薄”。",
+          "en": "Zhu Xi criticized Legalist doctrine, describing it as 'harsh and unbenevolent' and 'acrimonious'."
+        }
+      }
+    },
+    {
+      "source": "子夏",
+      "target": "孔子",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "弟子",
+          "en": "Disciple"
+        },
+        "description": {
+          "zh-cn": "子夏是孔子的弟子，位列孔门十哲。",
+          "en": "Zixia was a disciple of Confucius, ranked among the Ten Wise Ones of the Confucian School."
+        }
+      }
+    },
+    {
+      "source": "李悝",
+      "target": "子夏",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "学生",
+          "en": "Student"
+        },
+        "description": {
+          "zh-cn": "法家代表人物李悝是子夏的学生。",
+          "en": "The Legalist representative Li Kui was a student of Zixia."
+        }
+      }
+    },
+    {
+      "source": "吴起",
+      "target": "子夏",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "学生",
+          "en": "Student"
+        },
+        "description": {
+          "zh-cn": "法家代表人物吴起曾师从子夏。",
+          "en": "The Legalist representative Wu Qi once studied under Zixia."
+        }
+      }
+    }
+  ]
+}
