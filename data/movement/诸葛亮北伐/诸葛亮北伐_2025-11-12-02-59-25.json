@@ -1,0 +1,850 @@
+{
+  "nodes": [
+    {
+      "id": "诸葛亮北伐",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "诸葛亮北伐",
+          "武侯北伐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "228 - 234-08",
+        "location": {
+          "zh-cn": "雍州、汉中",
+          "en": "Yong Province, Hanzhong"
+        },
+        "description": {
+          "zh-cn": "三国时期蜀汉在诸葛亮执政期间于228年至234年间发动对曹魏的战争，共五次，最终维持汉魏在汉中对峙的格局。",
+          "en": "A series of five military campaigns launched by the state of Shu Han against the state of Cao Wei between 228 and 234 during the Three Kingdoms period, led by Zhuge Liang. The campaigns ultimately resulted in a stalemate."
+        }
+      }
+    },
+    {
+      "id": "蜀汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蜀汉"
+        ],
+        "en": [
+          "Shu Han"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "三国时期的政权之一，由刘备建立。",
+          "en": "One of the three major states that competed for supremacy over China in the Three Kingdoms period, founded by Liu Bei."
+        }
+      }
+    },
+    {
+      "id": "曹魏",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "曹魏"
+        ],
+        "en": [
+          "Cao Wei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "三国时期的政权之一，由曹丕建立。",
+          "en": "One of the three major states that competed for supremacy over China in the Three Kingdoms period, founded by Cao Pi."
+        }
+      }
+    },
+    {
+      "id": "诸葛亮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诸葛亮"
+        ],
+        "en": [
+          "Zhuge Liang"
+        ]
+      },
+      "properties": {
+        "lifetime": "181 - 234-08",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "五丈原",
+          "en": "Wuzhang Plains"
+        },
+        "description": {
+          "zh-cn": "蜀汉丞相，杰出的政治家、军事家。诸葛亮北伐系列战争的发起者和总指挥。",
+          "en": "Chancellor of Shu Han and a brilliant strategist and statesman. He was the initiator and supreme commander of the Northern Expeditions."
+        }
+      }
+    },
+    {
+      "id": "司马懿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马懿"
+        ],
+        "en": [
+          "Sima Yi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏的军事家、政治家，诸葛亮北伐后期曹魏方的总指挥，成功抵御了蜀汉的进攻。",
+          "en": "A military strategist and politician of Cao Wei. He was the commander of the Cao Wei forces in the later stages of Zhuge Liang's Northern Expeditions and successfully defended against the Shu Han invasion."
+        }
+      }
+    },
+    {
+      "id": "高平陵之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "高平陵之变",
+          "魏晋易代"
+        ],
+        "en": [
+          "Incident at Gaoping Tombs"
+        ]
+      },
+      "properties": {
+        "period": "249-02-05 - ",
+        "description": {
+          "zh-cn": "司马懿发动的政变，最终导致司马氏家族取代曹氏掌握曹魏政权，为西晋的建立奠定基础。",
+          "en": "A coup d'état launched by Sima Yi, which led to the Sima family seizing power from the Cao family in Cao Wei, paving the way for the establishment of the Western Jin dynasty."
+        }
+      }
+    },
+    {
+      "id": "夷陵之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "夷陵之战"
+        ],
+        "en": [
+          "Battle of Yiling"
+        ]
+      },
+      "properties": {
+        "period": "222 - ",
+        "description": {
+          "zh-cn": "蜀汉与东吴之间的一场战役，蜀汉惨败，国力大减。",
+          "en": "A battle between Shu Han and Eastern Wu, resulting in a disastrous defeat for Shu Han and a significant loss of its national strength."
+        }
+      }
+    },
+    {
+      "id": "诸葛亮南征",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "诸葛亮南征"
+        ],
+        "en": [
+          "Zhuge Liang's Southern Campaign"
+        ]
+      },
+      "properties": {
+        "period": "225 - ",
+        "description": {
+          "zh-cn": "诸葛亮为平定蜀汉南方叛乱而发动的军事行动。",
+          "en": "A military campaign launched by Zhuge Liang to quell rebellions in the southern regions of Shu Han."
+        }
+      }
+    },
+    {
+      "id": "出师表",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "出师表"
+        ],
+        "en": [
+          "Chu Shi Biao"
+        ]
+      },
+      "properties": {
+        "period": "227 - ",
+        "description": {
+          "zh-cn": "诸葛亮在北伐前上呈给后主刘禅的奏章，陈述出师的原因和对内政的安排。",
+          "en": "A memorial written by Zhuge Liang and presented to Emperor Liu Shan before the Northern Expeditions, stating his reasons for the campaign and his arrangements for domestic affairs."
+        }
+      }
+    },
+    {
+      "id": "刘禅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘禅"
+        ],
+        "en": [
+          "Liu Shan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉第二位也是最后一位皇帝，通常被称为“后主”。",
+          "en": "The second and last emperor of Shu Han, often referred to as the 'Last Ruler'."
+        }
+      }
+    },
+    {
+      "id": "街亭之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "街亭之战"
+        ],
+        "en": [
+          "Battle of Jieting"
+        ]
+      },
+      "properties": {
+        "period": "228 - ",
+        "description": {
+          "zh-cn": "诸葛亮第一次北伐中的关键战役，因马谡的失误蜀军大败，导致北伐失败。",
+          "en": "A decisive battle during Zhuge Liang's first Northern Expedition, where the Shu forces were defeated due to Ma Su's tactical errors, leading to the failure of the campaign."
+        }
+      }
+    },
+    {
+      "id": "马谡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马谡"
+        ],
+        "en": [
+          "Ma Su"
+        ]
+      },
+      "properties": {
+        "lifetime": "190 - 228",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉参军，因在街亭之战中违背诸葛亮部署导致大败，后被诸葛亮处斩。",
+          "en": "A military advisor of Shu Han who was executed by Zhuge Liang after his defeat at the Battle of Jieting, where he disobeyed orders."
+        }
+      }
+    },
+    {
+      "id": "张郃",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张郃"
+        ],
+        "en": [
+          "Zhang He"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 231",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏“五子良将”之一，在街亭之战中大败马谡，后在第四次北伐中追击蜀军时中埋伏而死。",
+          "en": "One of the Five Great Generals of Cao Wei, he defeated Ma Su at the Battle of Jieting. He was later killed in an ambush while pursuing Shu forces during the fourth Northern Expedition."
+        }
+      }
+    },
+    {
+      "id": "魏延",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏延"
+        ],
+        "en": [
+          "Wei Yan"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 234",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉重要将领，在诸葛亮死后与长史杨仪发生权力斗争，兵败被杀。",
+          "en": "A prominent general of Shu Han. After Zhuge Liang's death, he was involved in a power struggle with chief clerk Yang Yi, which led to his defeat and death."
+        }
+      }
+    },
+    {
+      "id": "杨仪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨仪"
+        ],
+        "en": [
+          "Yang Yi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉长史，在诸葛亮死后负责指挥撤军事宜，与魏延不和并最终导致魏延被杀。",
+          "en": "Chief clerk of Shu Han, responsible for orchestrating the retreat after Zhuge Liang's death. He had a long-standing feud with Wei Yan, which ultimately led to Wei Yan's death."
+        }
+      }
+    },
+    {
+      "id": "马岱",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马岱"
+        ],
+        "en": [
+          "Ma Dai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉将领，在魏延与杨仪的冲突中，奉命斩杀了魏延。",
+          "en": "A general of Shu Han who, during the conflict between Wei Yan and Yang Yi, was ordered to execute Wei Yan."
+        }
+      }
+    },
+    {
+      "id": "姜维",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "姜维"
+        ],
+        "en": [
+          "Jiang Wei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "原为曹魏将领，在第一次北伐时投降蜀汉，深得诸葛亮器重，成为其军事继承人。",
+          "en": "Originally a general of Cao Wei, he surrendered to Shu Han during the first Northern Expedition and was highly regarded by Zhuge Liang, becoming his military successor."
+        }
+      }
+    },
+    {
+      "id": "姜维北伐",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "姜维北伐"
+        ],
+        "en": [
+          "Jiang Wei's Northern Expeditions"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "诸葛亮死后，由姜维继承其遗志主导的对曹魏的一系列军事行动。",
+          "en": "A series of military campaigns against Cao Wei led by Jiang Wei, who inherited Zhuge Liang's ambition after his death."
+        }
+      }
+    },
+    {
+      "id": "费祎",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "费祎"
+        ],
+        "en": [
+          "Fei Yi"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 253",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉重臣，与蒋琬、董允等人同为诸葛亮指定的继承人，共同执政。",
+          "en": "A key minister of Shu Han, designated by Zhuge Liang as a successor along with Jiang Wan and Dong Yun to manage state affairs."
+        }
+      }
+    },
+    {
+      "id": "曹叡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹叡"
+        ],
+        "en": [
+          "Cao Rui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "魏明帝，曹魏第二位皇帝，诸葛亮北伐期间的曹魏君主。",
+          "en": "Emperor Ming of Wei, the second emperor of Cao Wei, who reigned during Zhuge Liang's Northern Expeditions."
+        }
+      }
+    },
+    {
+      "id": "曹真",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹真"
+        ],
+        "en": [
+          "Cao Zhen"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 231",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏大司马、大将军，在诸葛亮北伐前期担任曹魏方的总指挥。",
+          "en": "Grand Marshal and General-in-Chief of Cao Wei, who served as the commander of the Wei forces during the early stages of Zhuge Liang's Northern Expeditions."
+        }
+      }
+    },
+    {
+      "id": "王双 (曹魏)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王双 (曹魏)"
+        ],
+        "en": [
+          "Wang Shuang (Cao Wei)"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 228",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏将领，在追击第二次北伐撤退的蜀军时被斩杀。",
+          "en": "A general of Cao Wei who was killed while pursuing the retreating Shu army during the second Northern Expedition."
+        }
+      }
+    },
+    {
+      "id": "李严 (蜀汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李严 (蜀汉)"
+        ],
+        "en": [
+          "Li Yan (Shu Han)"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉重臣，与诸葛亮同为刘备的托孤大臣。在第四次北伐时因运粮不力，后又试图推卸责任而被废为庶人。",
+          "en": "A high-ranking official of Shu Han, appointed as a regent by Liu Bei along with Zhuge Liang. He was dismissed from office and demoted to a commoner for failing to deliver supplies during the fourth Northern Expedition and attempting to cover up his mistake."
+        }
+      }
+    },
+    {
+      "id": "孙权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙权"
+        ],
+        "en": [
+          "Sun Quan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东吴的建立者，吴大帝。",
+          "en": "The founder of the state of Eastern Wu, Emperor Da of Wu."
+        }
+      }
+    },
+    {
+      "id": "合肥之战#第五次战役（合肥新城之战）",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "合肥之战#第五次战役（合肥新城之战）",
+          "进攻合肥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "234 - ",
+        "description": {
+          "zh-cn": "234年，东吴响应蜀汉第五次北伐而对曹魏合肥新城发动的战役。",
+          "en": "In 234, Eastern Wu launched a campaign against Cao Wei's fortress of Hefei Xincheng in coordination with Shu Han's fifth Northern Expedition."
+        }
+      }
+    },
+    {
+      "id": "郝昭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郝昭"
+        ],
+        "en": [
+          "Hao Zhao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曹魏将领，以在陈仓之围中成功抵御诸葛亮大军的进攻而闻名。",
+          "en": "A general of Cao Wei, famous for successfully defending the fortress of Chencang against Zhuge Liang's army during a siege."
+        }
+      }
+    },
+    {
+      "id": "陈仓之围",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "陈仓之围"
+        ],
+        "en": [
+          "Siege of Chencang"
+        ]
+      },
+      "properties": {
+        "period": "228 - ",
+        "description": {
+          "zh-cn": "诸葛亮第二次北伐时对曹魏陈仓城的围攻战。",
+          "en": "The siege of the Cao Wei fortress of Chencang by Zhuge Liang during his second Northern Expedition."
+        }
+      }
+    },
+    {
+      "id": "五丈原",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "五丈原"
+        ],
+        "en": [
+          "Wuzhang Plains"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于渭水南岸的台地，是诸葛亮第五次北伐与司马懿对峙以及最终病逝的地点。",
+          "en": "A plateau on the south bank of the Wei River, where Zhuge Liang confronted Sima Yi during his fifth Northern Expedition and eventually died of illness."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "蜀汉",
+      "target": "曹魏",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "228 - 234",
+        "description": {
+          "zh-cn": "在诸葛亮北伐期间，蜀汉与曹魏进行了五次大规模的军事对抗。",
+          "en": "During Zhuge Liang's Northern Expeditions, Shu Han and Cao Wei engaged in five major military confrontations."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "诸葛亮北伐",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "228",
+        "end_date": "234",
+        "description": {
+          "zh-cn": "诸葛亮是五次北伐系列战争的发起者和总指挥。",
+          "en": "Zhuge Liang was the initiator and supreme commander of the five Northern Expeditions."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮北伐",
+      "target": "司马懿",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "231",
+        "end_date": "234",
+        "description": {
+          "zh-cn": "因成功抵御诸葛亮北伐，司马懿在曹魏的地位和名望逐渐上升。",
+          "en": "Due to his successful defense against Zhuge Liang's Northern Expeditions, Sima Yi's status and prestige in Cao Wei gradually rose."
+        }
+      }
+    },
+    {
+      "source": "司马懿",
+      "target": "高平陵之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "249-02-05",
+        "description": {
+          "zh-cn": "司马懿在曹魏地位的上升为后来他发动高平陵之变，夺取政权埋下了伏笔。",
+          "en": "Sima Yi's rise in status in Cao Wei set the stage for him to later launch the Incident at Gaoping Tombs and seize power."
+        }
+      }
+    },
+    {
+      "source": "夷陵之战",
+      "target": "蜀汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "222",
+        "description": {
+          "zh-cn": "蜀汉在夷陵之战中被东吴击败，国力大减，影响了其后北伐的实力。",
+          "en": "Shu Han was defeated by Eastern Wu in the Battle of Yiling, which greatly weakened its national strength and affected its capabilities in the subsequent Northern Expeditions."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮南征",
+      "target": "诸葛亮北伐",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "225",
+        "description": {
+          "zh-cn": "平定蜀汉南方为北伐提供了稳定的后方和所需的物资。",
+          "en": "Pacifying the southern regions of Shu Han provided a stable rear and necessary resources for the Northern Expeditions."
+        }
+      }
+    },
+    {
+      "source": "出师表",
+      "target": "诸葛亮北伐",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "227",
+        "description": {
+          "zh-cn": "诸葛亮通过《出师表》向后主刘禅陈述了北伐的理由和决心，获得了出师的批准。",
+          "en": "Through the 'Chu Shi Biao', Zhuge Liang presented his reasons and determination for the Northern Expeditions to Emperor Liu Shan, gaining approval to launch the campaigns."
+        }
+      }
+    },
+    {
+      "source": "刘禅",
+      "target": "诸葛亮北伐",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "227",
+        "description": {
+          "zh-cn": "作为蜀汉皇帝，刘禅下诏批准诸葛亮开始实行北伐。",
+          "en": "As the emperor of Shu Han, Liu Shan issued an edict authorizing Zhuge Liang to commence the Northern Expeditions."
+        }
+      }
+    },
+    {
+      "source": "街亭之战",
+      "target": "诸葛亮北伐",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "228",
+        "description": {
+          "zh-cn": "街亭的失守导致蜀汉第一次北伐的有利形势丧失，最终失败。",
+          "en": "The loss of Jieting resulted in the loss of a favorable position for Shu Han's first Northern Expedition, ultimately leading to its failure."
+        }
+      }
+    },
+    {
+      "source": "马谡",
+      "target": "街亭之战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "228",
+        "description": {
+          "zh-cn": "马谡违背诸葛亮的部署，在街亭舍水上山，导致蜀军被张郃击败。",
+          "en": "Ma Su disobeyed Zhuge Liang's orders at Jieting by camping on a hilltop away from water sources, leading to the defeat of the Shu army by Zhang He."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "马谡",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "228",
+        "description": {
+          "zh-cn": "因街亭之战的重大失误，诸葛亮为严明军纪而将马谡处斩。",
+          "en": "Due to the critical failure at the Battle of Jieting, Zhuge Liang executed Ma Su to enforce military discipline."
+        }
+      }
+    },
+    {
+      "source": "张郃",
+      "target": "街亭之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "228",
+        "description": {
+          "zh-cn": "曹魏将领张郃在街亭之战中率军大破马谡，取得了魏军的胜利。",
+          "en": "The Cao Wei general Zhang He led his forces to a decisive victory over Ma Su at the Battle of Jieting."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "张郃",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "231",
+        "description": {
+          "zh-cn": "在第四次北伐撤退时，诸葛亮在木门道设下埋伏，射杀了追击的张郃。",
+          "en": "During the retreat of the fourth Northern Expedition, Zhuge Liang set an ambush at Mumen Pass and killed the pursuing Zhang He."
+        }
+      }
+    },
+    {
+      "source": "杨仪",
+      "target": "魏延",
+      "type": "ENEMY_OF",
+      "properties": {
+        "end_date": "234",
+        "description": {
+          "zh-cn": "杨仪与魏延积怨已久，在诸葛亮死后矛盾激化，发生武装冲突。",
+          "en": "Yang Yi and Wei Yan had a long-standing feud, which escalated into armed conflict after Zhuge Liang's death."
+        }
+      }
+    },
+    {
+      "source": "马岱",
+      "target": "魏延",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "234",
+        "description": {
+          "zh-cn": "在杨仪与魏延的权力斗争中，马岱奉命斩杀了兵败的魏延。",
+          "en": "In the power struggle between Yang Yi and Wei Yan, Ma Dai was ordered to execute the defeated Wei Yan."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮北伐",
+      "target": "姜维",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "228",
+        "description": {
+          "zh-cn": "在第一次北伐期间，时任曹魏天水郡中郎将的姜维因被太守怀疑而无法归城，最终投降了蜀汉。",
+          "en": "During the first Northern Expedition, Jiang Wei, then a mid-level officer in Cao Wei's Tianshui Commandery, was suspected by his superior and unable to return to his city, ultimately surrendering to Shu Han."
+        }
+      }
+    },
+    {
+      "source": "费祎",
+      "target": "姜维北伐",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "253",
+        "description": {
+          "zh-cn": "费祎生前对姜维的北伐有所节制。在他于253年遇刺身故后，姜维才加大了北伐的攻势。",
+          "en": "While he was alive, Fei Yi restrained Jiang Wei's Northern Expeditions. Only after Fei Yi's assassination in 253 did Jiang Wei intensify his campaigns."
+        }
+      }
+    },
+    {
+      "source": "曹叡",
+      "target": "诸葛亮北伐",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "228 - 234",
+        "description": {
+          "zh-cn": "作为曹魏皇帝，曹叡亲自坐镇长安，调兵遣将，成功抵御了诸葛亮的五次北伐。",
+          "en": "As the emperor of Cao Wei, Cao Rui personally oversaw the defense from Chang'an, dispatching generals and troops to successfully repel all five of Zhuge Liang's Northern Expeditions."
+        }
+      }
+    },
+    {
+      "source": "曹真",
+      "target": "诸葛亮北伐",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "228 - 230",
+        "description": {
+          "zh-cn": "曹真作为曹魏大都督，指挥了对诸葛亮前三次北伐的防御。",
+          "en": "As the grand marshal of Cao Wei, Cao Zhen commanded the defense against Zhuge Liang's first three Northern Expeditions."
+        }
+      }
+    },
+    {
+      "source": "司马懿",
+      "target": "诸葛亮北伐",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "231 - 234",
+        "description": {
+          "zh-cn": "在曹真病逝后，司马懿接任曹魏统帅，主要负责抵御诸葛亮第四、五次北伐，采取坚守不出的策略耗尽了蜀军。",
+          "en": "After Cao Zhen's death, Sima Yi took over as the Cao Wei commander and was primarily responsible for defending against Zhuge Liang's fourth and fifth expeditions, adopting a strategy of attrition by refusing to engage in open battle."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "王双 (曹魏)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "228",
+        "description": {
+          "zh-cn": "在第二次北伐撤退过程中，诸葛亮与追击的魏将王双交战，将其击破并斩杀。",
+          "en": "During the retreat of the second Northern Expedition, Zhuge Liang engaged the pursuing Wei general Wang Shuang, defeated and killed him."
+        }
+      }
+    },
+    {
+      "source": "李严 (蜀汉)",
+      "target": "诸葛亮北伐",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "231",
+        "description": {
+          "zh-cn": "在第四次北伐时，负责督运粮草的李严因大雨延误，导致蜀军粮尽，诸葛亮被迫撤军。",
+          "en": "During the fourth Northern Expedition, Li Yan, who was in charge of logistics, failed to deliver supplies on time due to heavy rains, forcing Zhuge Liang to retreat due to lack of food."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮北伐",
+      "target": "合肥之战#第五次战役（合肥新城之战）",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "234",
+        "description": {
+          "zh-cn": "在第五次北伐时，诸葛亮派使臣与东吴约定，希望孙权能同时攻魏以作呼应，孙权遂发动了对合肥的进攻。",
+          "en": "During the fifth Northern Expedition, Zhuge Liang sent an envoy to coordinate with Eastern Wu, hoping Sun Quan would attack Wei simultaneously. Sun Quan then launched an attack on Hefei."
+        }
+      }
+    },
+    {
+      "source": "郝昭",
+      "target": "陈仓之围",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "228",
+        "description": {
+          "zh-cn": "郝昭以千余兵力坚守陈仓城，成功抵御了诸葛亮数万大军二十余日的围攻，迫使其因粮尽而退。",
+          "en": "With just over a thousand soldiers, Hao Zhao successfully defended the fortress of Chencang against Zhuge Liang's army of tens of thousands for over twenty days, forcing them to retreat due to lack of supplies."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮北伐",
+      "target": "诸葛亮",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "234-08",
+        "description": {
+          "zh-cn": "在第五次北伐与司马懿对峙于五丈原期间，诸葛亮因积劳成疾而病逝于军中，北伐因此终结。",
+          "en": "During the standoff with Sima Yi at the Wuzhang Plains in the fifth Northern Expedition, Zhuge Liang died of illness due to overwork, bringing the campaigns to an end."
+        }
+      }
+    }
+  ]
+}

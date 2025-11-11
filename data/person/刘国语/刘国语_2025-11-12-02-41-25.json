@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "刘国语",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘国语"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1939-09 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "商水",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国军事将领，中国人民解放军少将。曾任中国人民解放军军事科学院军事历史部研究员。",
+          "en": "A military general of the People's Republic of China and a major general in the People's Liberation Army. He once served as a researcher in the Military History Department of the PLA Academy of Military Science."
+        }
+      }
+    },
+    {
+      "id": "商水",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "商水"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军军事科学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军军事科学院",
+          "军事科学院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "少将"
+        ],
+        "en": [
+          "Major general"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "军衔等级。",
+          "en": "A military rank."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军战史",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军战史"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "红一方面军史",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "红一方面军史"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国军事史略",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国军事史略"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "缅怀红军伟业弘扬长征精神",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "缅怀红军伟业弘扬长征精神"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民解放军七十年",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军七十年"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "军旗升起的地方",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "军旗升起的地方"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "第三野战军后勤文献资料选编",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "第三野战军后勤文献资料选编"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘国语",
+      "target": "商水",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "刘国语是河南商水人。",
+          "en": "Liu Guoyu is a native of Shangshui, Henan."
+        }
+      }
+    },
+    {
+      "source": "刘国语",
+      "target": "中国人民解放军军事科学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "军事历史部研究员",
+          "en": "Researcher of the Military History Department"
+        },
+        "description": {
+          "zh-cn": "刘国语担任中国人民解放军军事科学院军事历史部研究员。",
+          "en": "Liu Guoyu served as a researcher in the Military History Department of the PLA Academy of Military Science."
+        }
+      }
+    },
+    {
+      "source": "刘国语",
+      "target": "少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "少将",
+          "en": "Major general"
+        },
+        "description": {
+          "zh-cn": "刘国语被授予少将军衔。",
+          "en": "Liu Guoyu was awarded the rank of major general."
+        }
+      }
+    },
+    {
+      "source": "刘国语",
+      "target": "中国人民解放军战史",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘国语参加组织了《中国人民解放军战史》的编写工作。",
+          "en": "Liu Guoyu participated in organizing the compilation of 'The History of the Chinese People's Liberation Army'."
+        }
+      }
+    },
+    {
+      "source": "刘国语",
+      "target": "红一方面军史",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘国语参加组织了《红一方面军史》的编写工作。",
+          "en": "Liu Guoyu participated in organizing the compilation of 'The History of the First Front Army of the Red Army'."
+        }
+      }
+    },
+    {
+      "source": "刘国语",
+      "target": "中国军事史略",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘国语参加组织了《中国军事史略》的编写工作。",
+          "en": "Liu Guoyu participated in organizing the compilation of 'A Brief History of Chinese Military Affairs'."
+        }
+      }
+    },
+    {
+      "source": "刘国语",
+      "target": "缅怀红军伟业弘扬长征精神",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘国语参加组织了《缅怀红军伟业弘扬长征精神》的编写工作。",
+          "en": "Liu Guoyu participated in organizing the compilation of 'Commemorating the Great Deeds of the Red Army and Promoting the Spirit of the Long March'."
+        }
+      }
+    },
+    {
+      "source": "刘国语",
+      "target": "中国人民解放军七十年",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘国语参加组织了《中国人民解放军七十年》的编写工作。",
+          "en": "Liu Guoyu participated in organizing the compilation of 'Seventy Years of the Chinese People's Liberation Army'."
+        }
+      }
+    },
+    {
+      "source": "刘国语",
+      "target": "军旗升起的地方",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘国语参加组织了《军旗升起的地方》的编写工作。",
+          "en": "Liu Guoyu participated in organizing the compilation of 'The Place Where the Military Flag Was Raised'."
+        }
+      }
+    },
+    {
+      "source": "刘国语",
+      "target": "第三野战军后勤文献资料选编",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘国语参加组织了《第三野战军后勤文献资料选编》的编写工作。",
+          "en": "Liu Guoyu participated in organizing the compilation of 'Selected Logistical Documents of the Third Field Army'."
+        }
+      }
+    }
+  ]
+}
