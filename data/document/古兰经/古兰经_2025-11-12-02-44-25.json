@@ -1,0 +1,908 @@
+{
+  "nodes": [
+    {
+      "id": "古兰经",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "古兰经"
+        ],
+        "en": [
+          "Quran"
+        ]
+      },
+      "properties": {
+        "period": "610 - 632",
+        "description": {
+          "zh-cn": "伊斯兰教中最重要的经典，被认为是真主安拉的启示，通过天使加百列传授给先知穆罕默德。内容涉及伊斯兰教的基本信仰、先知故事、伦理法律、历史事件等。",
+          "en": "The most important scripture in Islam, believed to be a revelation from God (Allah), transmitted through the angel Gabriel to the Prophet Muhammad. Its content covers the fundamental beliefs of Islam, stories of prophets, ethical and legal issues, historical events, and more."
+        }
+      }
+    },
+    {
+      "id": "伊斯兰教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伊斯兰教"
+        ],
+        "en": [
+          "Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种亚伯拉罕一神教，其教义以《古兰经》为中心。",
+          "en": "An Abrahamic monotheistic religion centered on the Quran."
+        }
+      }
+    },
+    {
+      "id": "穆罕默德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆罕默德"
+        ],
+        "en": [
+          "Muhammad"
+        ]
+      },
+      "properties": {
+        "lifetime": "570 - 632",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊斯兰教的中心人物，被穆斯林认为是真主的最后一位先知，接收了《古兰经》的启示。",
+          "en": "The central figure of Islam, considered by Muslims to be the final prophet of God, who received the revelations of the Quran."
+        }
+      }
+    },
+    {
+      "id": "真主",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "真主",
+          "安拉"
+        ],
+        "en": [
+          "Allah",
+          "God in Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教信仰的唯一神，被认为是《古兰经》的启示来源。",
+          "en": "The one and only God in Islam, believed to be the source of the Quran's revelations."
+        }
+      }
+    },
+    {
+      "id": "加百列",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "加百列",
+          "贾布里勒"
+        ],
+        "en": [
+          "Gabriel",
+          "Jibril"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教中的天使，负责将真主的启示传达给先知穆罕默德。",
+          "en": "An angel in Islam who delivered God's revelations to the Prophet Muhammad."
+        }
+      }
+    },
+    {
+      "id": "萨哈巴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "萨哈巴"
+        ],
+        "en": [
+          "Sahabah",
+          "Companions of the Prophet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指伊斯兰教先知穆罕默德的同伴，他们在穆罕默德在世时负责记录启示，并在他逝世后编纂了《古兰经》。",
+          "en": "The companions of the Islamic prophet Muhammad, who were responsible for recording the revelations during his lifetime and compiling the Quran after his death."
+        }
+      }
+    },
+    {
+      "id": "奥斯曼·本·阿凡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奥斯曼·本·阿凡",
+          "奥斯曼"
+        ],
+        "en": [
+          "Uthman ibn Affan",
+          "Uthman"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊斯兰教的第三任哈里发，他下令制订了一个被称为“奥斯曼本”的《古兰经》范本，该范本被认为是当今《古兰经》的原型。",
+          "en": "The third Caliph of Islam, who ordered the creation of a standard version of the Quran known as the 'Uthmanic recension', which is considered the prototype of the Quran today."
+        }
+      }
+    },
+    {
+      "id": "奥斯曼本",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "奥斯曼本"
+        ],
+        "en": [
+          "Uthmanic recension"
+        ]
+      },
+      "properties": {
+        "period": "c. 650",
+        "description": {
+          "zh-cn": "由第三任哈里发奥斯曼下令制订的《古兰经》范本，旨在统一因流传而产生的各种读法差异，被普遍认为是当今《古兰经》的原型。",
+          "en": "The standard codex of the Quran ordered by the third Caliph Uthman to unify various readings that had emerged. It is widely considered the prototype of the Quran in use today."
+        }
+      }
+    },
+    {
+      "id": "圣训",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "圣训"
+        ],
+        "en": [
+          "Hadith"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教中记录先知穆罕默德言行的文献，与《古兰经》同为伊斯兰教法的基础。",
+          "en": "Records of the traditions or sayings of the Prophet Muhammad in Islam, which, along with the Quran, form the basis of Islamic law."
+        }
+      }
+    },
+    {
+      "id": "伊斯兰教法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "伊斯兰教法"
+        ],
+        "en": [
+          "Sharia",
+          "Islamic law"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教的法律体系，其主要法源是《古兰经》和《圣训》。",
+          "en": "The legal system of Islam, with its primary sources being the Quran and the Hadith."
+        }
+      }
+    },
+    {
+      "id": "塔夫细尔",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "塔夫细尔"
+        ],
+        "en": [
+          "Tafsir"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "对《古兰经》的注释和诠释，是伊斯兰教重要的传统学科之一。",
+          "en": "Commentary and exegesis of the Quran, one of the most important traditional Islamic disciplines."
+        }
+      }
+    },
+    {
+      "id": "希拉山洞",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "希拉山洞"
+        ],
+        "en": [
+          "Cave of Hira"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于沙特阿拉伯麦加附近的一个山洞，根据伊斯兰教传说，穆罕默德在此首次获得《古兰经》的启示。",
+          "en": "A cave near Mecca, Saudi Arabia, where according to Islamic tradition, Muhammad received his first revelation of the Quran."
+        }
+      }
+    },
+    {
+      "id": "阿布·伯克尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿布·伯克尔",
+          "伯克尔"
+        ],
+        "en": [
+          "Abu Bakr"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊斯兰教的第一任哈里发，在穆罕默德逝世后下令收集《古兰经》成册。",
+          "en": "The first Caliph of Islam, who ordered the collection of the Quran into a book after the death of Muhammad."
+        }
+      }
+    },
+    {
+      "id": "宰德·伊本·萨比特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宰德·伊本·萨比特",
+          "萨比特"
+        ],
+        "en": [
+          "Zayd ibn Thabit"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "穆罕默德的同伴和书记，受首任哈里发阿布·伯克尔和第三任哈里发奥斯曼的委托，负责领导《古兰经》的收集与编纂工作。",
+          "en": "A companion and scribe of Muhammad, entrusted by the first Caliph Abu Bakr and the third Caliph Uthman to lead the collection and compilation of the Quran."
+        }
+      }
+    },
+    {
+      "id": "阿里·本·阿比·塔利卜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿里·本·阿比·塔利卜",
+          "阿里"
+        ],
+        "en": [
+          "Ali ibn Abi Talib",
+          "Ali"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "穆罕默德的女婿和堂弟，伊斯兰教第四任哈里发。根据什叶派说法，他在穆罕默德逝世后不久编制了一个《古兰经》的完整版本。",
+          "en": "The son-in-law and cousin of Muhammad, and the fourth Caliph of Islam. According to Shia tradition, he compiled a complete version of the Quran shortly after Muhammad's death."
+        }
+      }
+    },
+    {
+      "id": "福阿德一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "福阿德一世"
+        ],
+        "en": [
+          "Fuad I of Egypt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "埃及国王，在1923年要求开罗的学者编制“标准版”的《古兰经》。",
+          "en": "King of Egypt who in 1923 requested scholars in Cairo to compile a 'standard edition' of the Quran."
+        }
+      }
+    },
+    {
+      "id": "艾资哈尔大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "艾资哈尔大学"
+        ],
+        "en": [
+          "Al-Azhar University"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "埃及开罗",
+          "en": "Cairo, Egypt"
+        },
+        "description": {
+          "zh-cn": "位于埃及开罗的一所著名伊斯兰大学，其学者在1924年出版了影响深远的《古兰经》开罗标准版。",
+          "en": "A prestigious Islamic university in Cairo, Egypt, whose scholars published the influential 1924 Cairo standard edition of the Quran."
+        }
+      }
+    },
+    {
+      "id": "萨那手稿",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "萨那手稿"
+        ],
+        "en": [
+          "Sana'a manuscript"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1972年在也门萨那的一所清真寺内发现的古兰经手抄本，被证实是当时现存最古老的《古兰经》文本之一，其底层文字可能早于奥斯曼时期。",
+          "en": "Quranic manuscripts discovered in a mosque in Sana'a, Yemen, in 1972, confirmed to be one of the oldest extant texts of the Quran, with an underlying text that may predate the Uthmanic period."
+        }
+      }
+    },
+    {
+      "id": "伯明翰古兰经手稿",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "伯明翰古兰经手稿"
+        ],
+        "en": [
+          "Birmingham Quran manuscript"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "藏于英国伯明翰大学图书馆的《古兰经》残卷，放射性碳定年法检测显示其年代可能在568年至645年之间，是现存最古老的《古兰经》手稿之一。",
+          "en": "Quran fragments held at the University of Birmingham Library in England. Radiocarbon dating suggests they date from between 568 and 645 AD, making them one of the oldest Quranic manuscripts in existence."
+        }
+      }
+    },
+    {
+      "id": "旧约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "旧约"
+        ],
+        "en": [
+          "Old Testament"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基督教对《塔纳赫》的称呼，是犹太教和基督教的核心经典之一。《古兰经》与其记载的主要故事有相同之处。",
+          "en": "The Christian term for the Tanakh, a core scripture of Judaism and Christianity. The Quran shares some of its main narratives."
+        }
+      }
+    },
+    {
+      "id": "新约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "新约"
+        ],
+        "en": [
+          "New Testament"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基督教的核心经典，记载了耶稣及其门徒的言行。《古兰经》与其记载的主要故事有相同之处。",
+          "en": "The core scripture of Christianity, recording the life and teachings of Jesus and his apostles. The Quran shares some of its main narratives."
+        }
+      }
+    },
+    {
+      "id": "犹太教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "犹太教"
+        ],
+        "en": [
+          "Judaism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种亚伯拉罕一神教，其经典和传统被认为对《古兰经》有所影响。",
+          "en": "An Abrahamic monotheistic religion whose scriptures and traditions are considered to have influenced the Quran."
+        }
+      }
+    },
+    {
+      "id": "基督教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "基督教"
+        ],
+        "en": [
+          "Christianity"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种亚伯拉罕一神教，其经典和传统与《古兰经》有相似之处。",
+          "en": "An Abrahamic monotheistic religion whose scriptures and traditions have similarities with the Quran."
+        }
+      }
+    },
+    {
+      "id": "叶麻默战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "叶麻默战役"
+        ],
+        "en": [
+          "Battle of Yamama"
+        ]
+      },
+      "properties": {
+        "period": "632",
+        "description": {
+          "zh-cn": "在穆罕默德逝世后发生的一场战役，许多熟知《古兰经》的穆斯林在战役中阵亡，这促使首任哈里发阿布·伯克尔下令收集《古兰经》成册。",
+          "en": "A battle that took place after the death of Muhammad, in which many Muslims who had memorized the Quran were killed, prompting the first Caliph Abu Bakr to order the collection of the Quran into a book."
+        }
+      }
+    },
+    {
+      "id": "穆赛利迈",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆赛利迈"
+        ],
+        "en": [
+          "Musaylimah"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "自称先知者，其军队在叶麻默战役中杀害了许多穆罕默德的同伴。",
+          "en": "A self-proclaimed prophet whose forces killed many companions of Muhammad in the Battle of Yamama."
+        }
+      }
+    },
+    {
+      "id": "亚伯拉罕·盖格尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亚伯拉罕·盖格尔"
+        ],
+        "en": [
+          "Abraham Geiger"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "犹太学者，他认为《古兰经》的许多内容参考了犹太教的经典和传统。",
+          "en": "A Jewish scholar who argued that much of the Quran was derived from Jewish scriptures and traditions."
+        }
+      }
+    },
+    {
+      "id": "约翰·万斯伯勒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·万斯伯勒"
+        ],
+        "en": [
+          "John Wansbrough"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "学者，他认为《古兰经》是在7至8世纪通过长期的口述传承编纂而成，而非伊斯兰教初期就已成书。",
+          "en": "A scholar who argued that the Quran was compiled through a long process of oral tradition in the 7th and 8th centuries, rather than being a text from the earliest period of Islam."
+        }
+      }
+    },
+    {
+      "id": "特奥多尔·诺尔迪克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "特奥多尔·诺尔迪克"
+        ],
+        "en": [
+          "Theodor Nöldeke"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西方学者，对《古兰经》的文体和句式提出批评，认为其存在语病。",
+          "en": "A Western scholar who criticized the style and grammar of the Quran, arguing that it contains linguistic errors."
+        }
+      }
+    },
+    {
+      "id": "阿布·伯克尔·伊本·穆贾希德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿布·伯克尔·伊本·穆贾希德",
+          "伊本·穆贾希德"
+        ],
+        "en": [
+          "Abu Bakr ibn Mujāhid",
+          "Ibn Mujāhid"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "10世纪的巴格达穆斯林学者，他研究了各种《古兰经》读法并确立了七种可被接受的读法。",
+          "en": "A 10th-century Muslim scholar from Baghdad who studied various readings of the Quran and established seven canonical readings."
+        }
+      }
+    },
+    {
+      "id": "苏莱米",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "苏莱米"
+        ],
+        "en": [
+          "Al-Sulami"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "12世纪前著名的《古兰经》深度诠释作家，其作品《经注的真谛》汇编了早期苏非派的经注。",
+          "en": "A prominent esoteric interpreter of the Quran before the 12th century, whose work 'Haqā'iq al-tafsir' compiled early Sufi exegeses."
+        }
+      }
+    },
+    {
+      "id": "波斯人萨尔曼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "波斯人萨尔曼"
+        ],
+        "en": [
+          "Salman the Persian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "首位翻译《古兰经》的人，他在7世纪时将《开端章》译成波斯语。",
+          "en": "The first person to translate the Quran, who translated the first chapter (Al-Fatiha) into Persian in the 7th century."
+        }
+      }
+    },
+    {
+      "id": "开端章",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "开端章"
+        ],
+        "en": [
+          "Al-Fatiha"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "《古兰经》的第一章，在日常礼拜及其他场合上会被反复诵读。",
+          "en": "The first chapter of the Quran, which is repeatedly recited in daily prayers and other occasions."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "真主",
+      "target": "古兰经",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "610",
+        "end_date": "632",
+        "description": {
+          "zh-cn": "根据伊斯兰教信仰，《古兰经》是真主通过天使加百列在23年间降示给先知穆罕默德的启示。",
+          "en": "According to Islamic belief, the Quran is the revelation from God (Allah) sent down to the Prophet Muhammad over a period of 23 years through the angel Gabriel."
+        }
+      }
+    },
+    {
+      "source": "加百列",
+      "target": "穆罕默德",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "610",
+        "end_date": "632",
+        "description": {
+          "zh-cn": "加百列作为天使，负责将真主的启示口头传授给穆罕默德。",
+          "en": "As an angel, Gabriel was responsible for orally transmitting God's revelations to Muhammad."
+        }
+      }
+    },
+    {
+      "source": "穆罕默德",
+      "target": "古兰经",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "610",
+        "end_date": "632",
+        "description": {
+          "zh-cn": "穆罕默德作为先知，接收并向世人传达了《古兰经》的启示。",
+          "en": "As the prophet, Muhammad received and conveyed the revelations of the Quran to humanity."
+        }
+      }
+    },
+    {
+      "source": "萨哈巴",
+      "target": "古兰经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "穆罕默德的同伴们在他生前充当书记，记录下启示，并在他逝世后根据记录和记忆进行了编纂。",
+          "en": "The companions of Muhammad acted as scribes during his lifetime, recording the revelations, and compiled them after his death based on these records and their memories."
+        }
+      }
+    },
+    {
+      "source": "阿布·伯克尔",
+      "target": "古兰经",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "632",
+        "description": {
+          "zh-cn": "在穆罕默德逝世后，首任哈里发阿布·伯克尔下令收集《古兰经》的经文并编纂成册。",
+          "en": "After the death of Muhammad, the first Caliph Abu Bakr ordered the collection of the Quranic verses and their compilation into a book."
+        }
+      }
+    },
+    {
+      "source": "宰德·伊本·萨比特",
+      "target": "阿布·伯克尔",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "632",
+        "description": {
+          "zh-cn": "宰德·伊本·萨比特受阿布·伯克尔的委托，负责主持首次《古兰经》的收集编纂工作。",
+          "en": "Zayd ibn Thabit was commissioned by Abu Bakr to oversee the first collection and compilation of the Quran."
+        }
+      }
+    },
+    {
+      "source": "奥斯曼·本·阿凡",
+      "target": "奥斯曼本",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "650",
+        "description": {
+          "zh-cn": "第三任哈里发奥斯曼·本·阿凡下令制订了一个被称为“奥斯曼本”的《古兰经》范本，以统一当时出现的读法差异。",
+          "en": "The third Caliph Uthman ibn Affan ordered the creation of a standard version of the Quran known as the 'Uthmanic recension' to unify the different readings that had emerged."
+        }
+      }
+    },
+    {
+      "source": "奥斯曼本",
+      "target": "古兰经",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "“奥斯曼本”被普遍认为是当今流传的《古兰经》的原型。",
+          "en": "The 'Uthmanic recension' is generally considered to be the prototype of the Quran that is circulated today."
+        }
+      }
+    },
+    {
+      "source": "宰德·伊本·萨比特",
+      "target": "奥斯曼·本·阿凡",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "650",
+        "description": {
+          "zh-cn": "宰德·伊本·萨比特受奥斯曼·本·阿凡的委托，领导了编制《古兰经》官方修订版（奥斯曼本）的团队。",
+          "en": "Zayd ibn Thabit was commissioned by Uthman ibn Affan to lead the team that compiled the official revised version of the Quran (the Uthmanic recension)."
+        }
+      }
+    },
+    {
+      "source": "阿里·本·阿比·塔利卜",
+      "target": "古兰经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据什叶派和一些逊尼派学者的说法，阿里在穆罕默德逝世后不久编制了一个按年代编排的《古兰经》完整版本。",
+          "en": "According to Shia and some Sunni scholars, Ali compiled a complete, chronologically ordered version of the Quran shortly after Muhammad's death."
+        }
+      }
+    },
+    {
+      "source": "古兰经",
+      "target": "伊斯兰教法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《古兰经》是伊斯兰教法最重要和首要的法源。",
+          "en": "The Quran is the most important and primary source of Islamic law (Sharia)."
+        }
+      }
+    },
+    {
+      "source": "圣训",
+      "target": "伊斯兰教法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《圣训》与《古兰经》都是制订伊斯兰教法的依据。",
+          "en": "The Hadith, along with the Quran, serves as a basis for establishing Islamic law (Sharia)."
+        }
+      }
+    },
+    {
+      "source": "旧约",
+      "target": "古兰经",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《古兰经》的内容与《旧约》经典记载的主要故事有相同之处。",
+          "en": "The content of the Quran has similarities with the main stories recorded in the Old Testament."
+        }
+      }
+    },
+    {
+      "source": "新约",
+      "target": "古兰经",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《古兰经》的内容与《新约》经典记载的主要故事有相同之处。",
+          "en": "The content of the Quran has similarities with the main stories recorded in the New Testament."
+        }
+      }
+    },
+    {
+      "source": "古兰经",
+      "target": "塔夫细尔",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《古兰经》引申出大量的评注及诠释，这些诠释被称为“塔夫细尔”。",
+          "en": "The Quran has given rise to a large body of commentary and exegesis, known as 'Tafsir'."
+        }
+      }
+    },
+    {
+      "source": "福阿德一世",
+      "target": "艾资哈尔大学",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1923",
+        "description": {
+          "zh-cn": "埃及国王福阿德一世于1923年要求开罗艾资哈尔大学的学者编制一部标准版的《古兰经》，即后来的1924年开罗版。",
+          "en": "In 1923, King Fuad I of Egypt requested scholars at Al-Azhar University in Cairo to compile a standard edition of the Quran, which became the 1924 Cairo edition."
+        }
+      }
+    },
+    {
+      "source": "艾资哈尔大学",
+      "target": "古兰经",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1924",
+        "description": {
+          "zh-cn": "开罗的艾资哈尔大学学者于1924年编制并出版了《古兰经》标准版，该版本在后来的近一百年内成为权威版本。",
+          "en": "Scholars at Al-Azhar University in Cairo compiled and published a standard edition of the Quran in 1924, which became the authoritative version for nearly the next century."
+        }
+      }
+    },
+    {
+      "source": "穆罕默德",
+      "target": "希拉山洞",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "610",
+        "description": {
+          "zh-cn": "根据伊斯兰教传说，穆罕默德在希拉山洞静修时首次获得《古兰经》的启示。",
+          "en": "According to Islamic tradition, Muhammad received his first revelation of the Quran while meditating in the Cave of Hira."
+        }
+      }
+    },
+    {
+      "source": "叶麻默战役",
+      "target": "古兰经",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "632",
+        "description": {
+          "zh-cn": "叶麻默战役中许多熟知《古兰经》的同伴被杀，这促使首任哈里发阿布·伯克尔下令收集《古兰经》以作保存。",
+          "en": "The death of many companions who had memorized the Quran in the Battle of Yamama prompted the first Caliph Abu Bakr to order the collection of the Quran for its preservation."
+        }
+      }
+    },
+    {
+      "source": "穆赛利迈",
+      "target": "萨哈巴",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "632",
+        "description": {
+          "zh-cn": "在叶麻默战役中，穆赛利迈的军队杀害了许多穆罕默德的同伴。",
+          "en": "In the Battle of Yamama, the forces of Musaylimah killed many of the companions of Muhammad."
+        }
+      }
+    },
+    {
+      "source": "犹太教",
+      "target": "古兰经",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "学者亚伯拉罕·盖格尔认为，《古兰经》的许多用字、概念及典故参考了犹太教。",
+          "en": "The scholar Abraham Geiger argued that many of the words, concepts, and narratives in the Quran were referenced from Judaism."
+        }
+      }
+    },
+    {
+      "source": "约翰·万斯伯勒",
+      "target": "古兰经",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "约翰·万斯伯勒对《古兰经》的传统起源提出批评，认为它是在7至8世纪通过长期口述传承编纂而成。",
+          "en": "John Wansbrough criticized the traditional origin of the Quran, arguing that it was compiled through a long process of oral tradition in the 7th and 8th centuries."
+        }
+      }
+    },
+    {
+      "source": "特奥多尔·诺尔迪克",
+      "target": "古兰经",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "特奥多尔·诺尔迪克批评《古兰经》的句式“粗糙”、“丑陋”且“不当”，认为其存在语病，从而挑战了其不可模仿性。",
+          "en": "Theodor Nöldeke criticized the Quran's style as 'coarse', 'ugly', and 'improper', suggesting it has grammatical errors, thereby challenging its inimitability."
+        }
+      }
+    },
+    {
+      "source": "阿布·伯克尔·伊本·穆贾希德",
+      "target": "古兰经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在10世纪，伊本·穆贾希德研究了各种《古兰经》读法并确立了七种可被接受的读法，对《古兰经》的传承和标准化起到了重要作用。",
+          "en": "In the 10th century, Ibn Mujāhid studied various Quranic readings and established seven canonical readings, playing an important role in the transmission and standardization of the Quran."
+        }
+      }
+    },
+    {
+      "source": "波斯人萨尔曼",
+      "target": "开端章",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "7th century",
+        "description": {
+          "zh-cn": "波斯人萨尔曼在7世纪时将《古兰经》的第一章《开端章》翻译成波斯语，这是已知最早的《古兰经》翻译活动。",
+          "en": "In the 7th century, Salman the Persian translated the first chapter of the Quran, Al-Fatiha, into Persian, which is the earliest known translation activity of the Quran."
+        }
+      }
+    }
+  ]
+}

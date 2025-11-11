@@ -1,0 +1,284 @@
+{
+  "nodes": [
+    {
+      "id": "张宏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张宏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国军事、政治人物，中国人民解放军少将。",
+          "en": "A military and political figure of the People's Republic of China, and a Major General in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "PRC"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，由中国共产党执政。",
+          "en": "A socialist state in East Asia, governed by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军",
+          "PLA"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的主要国家武装力量。",
+          "en": "The principal military force of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军少将",
+          "陆军少将",
+          "少将"
+        ],
+        "en": [
+          "Major General of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的军衔等级，为将官中的最低一级。",
+          "en": "A military rank in the People's Liberation Army, the lowest among general officers."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共",
+          "CPC"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的创立者和唯一执政党。",
+          "en": "The founder and sole ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "北京衞戍区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京衞戍区",
+          "北京卫戍区"
+        ],
+        "en": [
+          "Beijing Garrison"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中国人民解放军负责保卫首都北京的军事单位。",
+          "en": "A military unit of the People's Liberation Army responsible for the defense of the capital, Beijing."
+        }
+      }
+    },
+    {
+      "id": "北京衞戍区参谋长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京衞戍区参谋长",
+          "北京卫戍区参谋长"
+        ],
+        "en": [
+          "Chief of Staff of the Beijing Garrison"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军北京衞戍区的参谋长职位。",
+          "en": "The position of Chief of Staff within the PLA Beijing Garrison."
+        }
+      }
+    },
+    {
+      "id": "北京衞戍区副司令员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京衞戍区副司令员",
+          "北京卫戍区副司令员"
+        ],
+        "en": [
+          "Deputy Commander of the Beijing Garrison"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军北京衞戍区的副司令员职位。",
+          "en": "The position of Deputy Commander within the PLA Beijing Garrison."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张宏",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张宏是中国共产党党员。",
+          "en": "Zhang Hong is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "张宏",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张宏是中国人民解放军的军官。",
+          "en": "Zhang Hong is an officer in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "张宏",
+      "target": "北京衞戍区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张宏曾长期任职于北京衞戍区。",
+          "en": "Zhang Hong has served in the Beijing Garrison for a long period."
+        }
+      }
+    },
+    {
+      "source": "张宏",
+      "target": "中国人民解放军少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017",
+        "position": {
+          "zh-cn": "少将",
+          "en": "Major General"
+        },
+        "description": {
+          "zh-cn": "于2017年升任少将。",
+          "en": "Promoted to the rank of Major General in 2017."
+        }
+      }
+    },
+    {
+      "source": "张宏",
+      "target": "北京衞戍区参谋长",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2016",
+        "position": {
+          "zh-cn": "参谋长",
+          "en": "Chief of Staff"
+        },
+        "description": {
+          "zh-cn": "曾担任北京衞戍区参谋长，后转任副司令员。",
+          "en": "Served as the Chief of Staff of the Beijing Garrison before being transferred to the position of Deputy Commander."
+        }
+      }
+    },
+    {
+      "source": "张宏",
+      "target": "北京衞戍区副司令员",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016",
+        "position": {
+          "zh-cn": "副司令员",
+          "en": "Deputy Commander"
+        },
+        "description": {
+          "zh-cn": "由北京卫戍区参谋长转任副司令员。",
+          "en": "Transferred from the position of Chief of Staff of the Beijing Garrison to become its Deputy Commander."
+        }
+      }
+    },
+    {
+      "source": "北京衞戍区",
+      "target": "中国人民解放军",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "北京衞戍区是中国人民解放军的下属单位。",
+          "en": "The Beijing Garrison is a subordinate unit of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "北京衞戍区参谋长",
+      "target": "北京衞戍区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "北京衞戍区参谋长是北京衞戍区内的职位。",
+          "en": "The Chief of Staff of the Beijing Garrison is a position within the Beijing Garrison."
+        }
+      }
+    },
+    {
+      "source": "北京衞戍区副司令员",
+      "target": "北京衞戍区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "北京衞戍区副司令员是北京衞戍区内的职位。",
+          "en": "The Deputy Commander of the Beijing Garrison is a position within the Beijing Garrison."
+        }
+      }
+    }
+  ]
+}

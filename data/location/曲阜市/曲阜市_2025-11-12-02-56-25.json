@@ -1,0 +1,721 @@
+{
+  "nodes": [
+    {
+      "id": "曲阜市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "曲阜市",
+          "曲阜",
+          "东方圣城"
+        ],
+        "en": [
+          "Qufu",
+          "Oriental Holy City"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国山东省济宁市",
+          "en": "Jining, Shandong, China"
+        },
+        "description": {
+          "zh-cn": "位于中国山东省南部，是济宁市代管的一个县级市，儒家学派创始人孔子的故乡。",
+          "en": "A county-level city in southern Shandong province, China, administered by Jining. It is the hometown of Confucius, the founder of Confucianism."
+        }
+      }
+    },
+    {
+      "id": "孔子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔子"
+        ],
+        "en": [
+          "Confucius"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0551 - -0479",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "曲阜市",
+          "en": "Qufu"
+        },
+        "description": {
+          "zh-cn": "中国春秋末期思想家、政治家、教育家，儒家学派创始人。",
+          "en": "A Chinese teacher, politician, and philosopher of the late Spring and Autumn period, and the founder of Confucianism."
+        }
+      }
+    },
+    {
+      "id": "颜回",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "颜回"
+        ],
+        "en": [
+          "Yan Hui"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0521 - -0481",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "曲阜市",
+          "en": "Qufu"
+        },
+        "description": {
+          "zh-cn": "孔子最得意的弟子，儒家重要人物，被后世尊为“复圣”。",
+          "en": "The favorite disciple of Confucius and a major figure in Confucianism, revered as the \"Sage Second to Confucius\"."
+        }
+      }
+    },
+    {
+      "id": "左丘明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "左丘明"
+        ],
+        "en": [
+          "Zuo Qiuming"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "曲阜市",
+          "en": "Qufu"
+        },
+        "description": {
+          "zh-cn": "中国春秋末期史学家，相传为《左传》作者。",
+          "en": "A historian of the late Spring and Autumn period in China, traditionally credited with authoring the Zuo Zhuan."
+        }
+      }
+    },
+    {
+      "id": "鲁班",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鲁班"
+        ],
+        "en": [
+          "Lu Ban"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0507 - -0444",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "曲阜市",
+          "en": "Qufu"
+        },
+        "description": {
+          "zh-cn": "中国春秋末期工匠和发明家，被尊为中国工匠的始祖。",
+          "en": "A Chinese carpenter and inventor of the late Spring and Autumn period, revered as the patron saint of Chinese builders and contractors."
+        }
+      }
+    },
+    {
+      "id": "儒家",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "儒家",
+          "儒家学派",
+          "儒家文化"
+        ],
+        "en": [
+          "Confucianism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由孔子创立的中国古代思想流派，对东亚文化圈有深远影响。",
+          "en": "A school of thought founded by Confucius in ancient China, with profound influence on the East Asian cultural sphere."
+        }
+      }
+    },
+    {
+      "id": "鲁国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "鲁国"
+        ],
+        "en": [
+          "State of Lu"
+        ]
+      },
+      "properties": {
+        "period": "-1042 - -0256",
+        "description": {
+          "zh-cn": "中国周朝的一个诸侯国，以“礼义之邦”著称，定都曲阜长达八百余年。",
+          "en": "A vassal state during the Zhou dynasty of ancient China, known as the 'State of Rites and Propriety', with its capital at Qufu for over 800 years."
+        }
+      }
+    },
+    {
+      "id": "周武王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周武王"
+        ],
+        "en": [
+          "King Wu of Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "周朝的开国君主。",
+          "en": "The first king of the Zhou dynasty of ancient China."
+        }
+      }
+    },
+    {
+      "id": "周公旦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周公旦",
+          "周公"
+        ],
+        "en": [
+          "Duke of Zhou",
+          "Zhou Gong Dan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "周武王的弟弟，周朝初年杰出的政治家，被封为鲁公。",
+          "en": "Brother of King Wu of Zhou, an outstanding statesman in the early Zhou dynasty, enfeoffed as the Duke of Lu."
+        }
+      }
+    },
+    {
+      "id": "伯禽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伯禽"
+        ],
+        "en": [
+          "Bo Qin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "周公旦之子，鲁国的第一代国君。",
+          "en": "Son of the Duke of Zhou and the first ruler of the State of Lu."
+        }
+      }
+    },
+    {
+      "id": "楚国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "楚国"
+        ],
+        "en": [
+          "State of Chu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国周朝时期位于南方的诸侯国。",
+          "en": "A vassal state in southern China during the Zhou dynasty."
+        }
+      }
+    },
+    {
+      "id": "刘六、刘七民变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "刘六、刘七民变"
+        ],
+        "en": [
+          "Liu Liu and Liu Qi rebellion"
+        ]
+      },
+      "properties": {
+        "period": "1511",
+        "description": {
+          "zh-cn": "明朝正德年间在山东等地爆发的农民起义。",
+          "en": "A peasant rebellion that broke out in Shandong and other areas during the Zhengde era of the Ming dynasty."
+        }
+      }
+    },
+    {
+      "id": "曲阜县",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "曲阜县"
+        ],
+        "en": [
+          "Qufu County"
+        ]
+      },
+      "properties": {
+        "period": "581 - 1986",
+        "description": {
+          "zh-cn": "曲阜在隋代至1986年间的行政区划名称。",
+          "en": "The administrative name for Qufu from the Sui dynasty until 1986."
+        }
+      }
+    },
+    {
+      "id": "曲阜孔庙",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "曲阜孔庙",
+          "孔庙"
+        ],
+        "en": [
+          "Temple of Confucius, Qufu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于曲阜市，是祭祀孔子的庙宇，为中国三大古建筑群之一。",
+          "en": "Located in Qufu, it is a temple for the veneration of Confucius and one of the three great ancient architectural complexes in China."
+        }
+      }
+    },
+    {
+      "id": "孔府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "孔府"
+        ],
+        "en": [
+          "Kong Family Mansion"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孔子嫡系长支世代居住的府第，有“天下第一家”之称。",
+          "en": "The historical residence of the direct descendants of Confucius, known as the \"Number One Family Under Heaven\"."
+        }
+      }
+    },
+    {
+      "id": "孔林",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "孔林"
+        ],
+        "en": [
+          "Cemetery of Confucius"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孔子及其家族的墓地，是世界上延时最久、规模最大的家族墓地。",
+          "en": "The cemetery of Confucius and his descendants, the oldest and largest clan cemetery in the world."
+        }
+      }
+    },
+    {
+      "id": "联合国教科文组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国教科文组织"
+        ],
+        "en": [
+          "UNESCO"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "联合国专门机构之一，旨在通过教育、科学及文化来促进各国合作。",
+          "en": "A specialized agency of the United Nations aimed at promoting world peace and security through international cooperation in education, arts, sciences and culture."
+        }
+      }
+    },
+    {
+      "id": "汉高祖刘邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉高祖刘邦",
+          "汉高祖"
+        ],
+        "en": [
+          "Emperor Gaozu of Han",
+          "Liu Bang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉朝的开国皇帝。",
+          "en": "The founder and first emperor of the Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院"
+        ],
+        "en": [
+          "State Council of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的最高国家行政机关。",
+          "en": "The chief administrative authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "刘余",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘余"
+        ],
+        "en": [
+          "Liu Yu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉景帝之子，西汉鲁国第一代国王，封为鲁恭王。",
+          "en": "Son of Emperor Jing of Han, the first king of the Lu Kingdom of the Western Han dynasty, known as King Gong of Lu."
+        }
+      }
+    },
+    {
+      "id": "孔子旧居",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "孔子旧居"
+        ],
+        "en": [
+          "Confucius's former residence"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "曲阜市",
+          "en": "Qufu"
+        },
+        "description": {
+          "zh-cn": "孔子在世时居住的宅院。",
+          "en": "The residence where Confucius lived."
+        }
+      }
+    },
+    {
+      "id": "石门寺",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "石门寺"
+        ],
+        "en": [
+          "Shimen Temple"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "曲阜市",
+          "en": "Qufu"
+        },
+        "description": {
+          "zh-cn": "位于曲阜石门山上的佛教寺庙。",
+          "en": "A Buddhist temple located on Shimen Mountain in Qufu."
+        }
+      }
+    },
+    {
+      "id": "李白",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李白"
+        ],
+        "en": [
+          "Li Bai"
+        ]
+      },
+      "properties": {
+        "lifetime": "701 - 762",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国唐代伟大的浪漫主义诗人，被后人誉为“诗仙”。",
+          "en": "A Chinese poet acclaimed from his own day to the present as a genius and a romantic figure who took traditional poetic forms to new heights."
+        }
+      }
+    },
+    {
+      "id": "孔尚任",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔尚任"
+        ],
+        "en": [
+          "Kong Shangren"
+        ]
+      },
+      "properties": {
+        "lifetime": "1648 - 1718",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝戏曲家，孔子第六十四代孙，代表作为《桃花扇》。",
+          "en": "A Qing dynasty dramatist and poet, a 64th-generation descendant of Confucius, best known for his play The Peach Blossom Fan."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "孔子",
+      "target": "曲阜市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "曲阜是儒家学派创始人孔子的故乡。",
+          "en": "Qufu is the hometown of Confucius, the founder of Confucianism."
+        }
+      }
+    },
+    {
+      "source": "颜回",
+      "target": "曲阜市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "曲阜是孔子弟子颜回的故乡。",
+          "en": "Qufu is the hometown of Yan Hui, a disciple of Confucius."
+        }
+      }
+    },
+    {
+      "source": "左丘明",
+      "target": "曲阜市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "曲阜是史学家左丘明的故乡。",
+          "en": "Qufu is the hometown of the historian Zuo Qiuming."
+        }
+      }
+    },
+    {
+      "source": "鲁班",
+      "target": "曲阜市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "曲阜是工匠鲁班的故乡。",
+          "en": "Qufu is the hometown of the artisan Lu Ban."
+        }
+      }
+    },
+    {
+      "source": "孔子",
+      "target": "儒家",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "孔子是儒家学派的创始人。",
+          "en": "Confucius is the founder of the Confucian school of thought."
+        }
+      }
+    },
+    {
+      "source": "鲁国",
+      "target": "曲阜市",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "曲阜作为鲁国都城，历经了八百七十三年历史。",
+          "en": "Qufu served as the capital of the State of Lu for 873 years."
+        }
+      }
+    },
+    {
+      "source": "周武王",
+      "target": "鲁国",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "周武王将弟弟周公旦分封于曲阜，建立鲁国。",
+          "en": "King Wu of Zhou enfeoffed his younger brother, the Duke of Zhou, at Qufu, establishing the State of Lu."
+        }
+      }
+    },
+    {
+      "source": "周公旦",
+      "target": "周武王",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "周公旦是周武王的弟弟。",
+          "en": "The Duke of Zhou was the younger brother of King Wu of Zhou."
+        }
+      }
+    },
+    {
+      "source": "伯禽",
+      "target": "周公旦",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "伯禽是周公旦的儿子，替父亲领国。",
+          "en": "Bo Qin was the son of the Duke of Zhou and ruled the state on his father's behalf."
+        }
+      }
+    },
+    {
+      "source": "楚国",
+      "target": "鲁国",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "战国末期，鲁国被楚国灭亡。",
+          "en": "At the end of the Warring States period, the State of Lu was conquered by the State of Chu."
+        }
+      }
+    },
+    {
+      "source": "刘六、刘七民变",
+      "target": "曲阜县",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1511",
+        "description": {
+          "zh-cn": "1511年，刘六、刘七领导的民变攻下曲阜县城。",
+          "en": "In 1511, the rebellion led by Liu Liu and Liu Qi captured Qufu County town."
+        }
+      }
+    },
+    {
+      "source": "刘六、刘七民变",
+      "target": "曲阜孔庙",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1511",
+        "description": {
+          "zh-cn": "民变军队在孔庙内饲马驻军，对孔庙造成破坏。",
+          "en": "The rebel army stationed troops and fed horses inside the Temple of Confucius, causing damage."
+        }
+      }
+    },
+    {
+      "source": "联合国教科文组织",
+      "target": "曲阜孔庙",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1994",
+        "description": {
+          "zh-cn": "1994年，联合国教科文组织将曲阜孔庙列入世界遗产名录。",
+          "en": "In 1994, UNESCO inscribed the Temple of Confucius in Qufu on the World Heritage List."
+        }
+      }
+    },
+    {
+      "source": "联合国教科文组织",
+      "target": "孔府",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1994",
+        "description": {
+          "zh-cn": "1994年，联合国教科文组织将孔府列入世界遗产名录。",
+          "en": "In 1994, UNESCO inscribed the Kong Family Mansion on the World Heritage List."
+        }
+      }
+    },
+    {
+      "source": "联合国教科文组织",
+      "target": "孔林",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1994",
+        "description": {
+          "zh-cn": "1994年，联合国教科文组织将孔林列入世界遗产名录。",
+          "en": "In 1994, UNESCO inscribed the Cemetery of Confucius on the World Heritage List."
+        }
+      }
+    },
+    {
+      "source": "汉高祖刘邦",
+      "target": "孔子",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "西汉时，汉高祖刘邦以祭天的仪式来祭孔子，提升了孔子的地位。",
+          "en": "During the Western Han dynasty, Emperor Gaozu of Han honored Confucius with a ceremony typically reserved for worshipping Heaven, elevating Confucius's status."
+        }
+      }
+    },
+    {
+      "source": "国务院",
+      "target": "曲阜市",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "1982年，曲阜被中国国务院定为国家历史文化名城。",
+          "en": "In 1982, Qufu was designated as a National Famous Historical and Cultural City by the State Council of China."
+        }
+      }
+    },
+    {
+      "source": "刘余",
+      "target": "孔子旧居",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉朝鲁恭王刘余为修建灵光殿，曾拆坏孔子旧居。",
+          "en": "Liu Yu, King Gong of Lu during the Han dynasty, demolished parts of Confucius's former residence to build the Lingguang Palace."
+        }
+      }
+    },
+    {
+      "source": "李白",
+      "target": "石门寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "诗人李白曾到石门寺游览并留下诗句。",
+          "en": "The poet Li Bai visited Shimen Temple and left behind poems."
+        }
+      }
+    },
+    {
+      "source": "孔尚任",
+      "target": "石门寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "清朝戏曲家孔尚任曾经一度居住在石门寺。",
+          "en": "The Qing dynasty dramatist Kong Shangren once resided in Shimen Temple."
+        }
+      }
+    }
+  ]
+}
