@@ -1,0 +1,735 @@
+{
+  "nodes": [
+    {
+      "id": "谷歌信息技术（中国）有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "谷歌信息技术（中国）有限公司",
+          "谷歌中国",
+          "谷歌"
+        ],
+        "en": [
+          "Google China"
+        ]
+      },
+      "properties": {
+        "period": "2006-04-12 - ",
+        "location": {
+          "zh-cn": "中华人民共和国北京市海淀区中关村",
+          "en": "Zhongguancun, Haidian District, Beijing, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "谷歌公司在中国大陆的分公司，成立于2006年4月。2010年3月后，其核心的搜索引擎等业务因内容审查问题不再于中国大陆提供服务，但公司实体及部分业务（如广告、开发者支持）得以保留。",
+          "en": "The subsidiary of Google in mainland China, established in April 2006. After March 2010, its core services such as the search engine were no longer offered in mainland China due to content censorship issues, but the corporate entity and some business operations (e.g., advertising, developer support) have been retained."
+        }
+      }
+    },
+    {
+      "id": "Google",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google",
+          "谷歌公司"
+        ],
+        "en": [
+          "Google"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国的跨国科技公司，专注于互联网相关服务和产品，包括在线广告技术、搜索、云计算、软件和硬件。是谷歌中国的母公司。",
+          "en": "An American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search, cloud computing, software, and hardware. It is the parent company of Google China."
+        }
+      }
+    },
+    {
+      "id": "李开复",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李开复"
+        ],
+        "en": [
+          "Kai-Fu Lee"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "计算机科学家，于2005年至2009年担任谷歌全球副总裁兼大中华区总裁。",
+          "en": "A computer scientist who served as the Vice President of Google and President of Google Greater China from 2005 to 2009."
+        }
+      }
+    },
+    {
+      "id": "防火长城",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "防火长城",
+          "GFW"
+        ],
+        "en": [
+          "Great Firewall",
+          "GFW"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府在其管辖互联网内部建立的多套网络审查系统的总称，用于监控和过滤互联网内容。该系统多次对Google的服务进行屏蔽。",
+          "en": "The combination of legislative actions and technologies enforced by the People's Republic of China to regulate the Internet domestically. The system has blocked Google's services on multiple occasions."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国政府"
+        ],
+        "en": [
+          "Government of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的最高国家行政机关。其对互联网内容的审查要求与谷歌公司产生冲突，并对谷歌中国进行了多次执法行动。",
+          "en": "The highest state administrative organ of the People's Republic of China. Its internet content censorship requirements conflicted with Google, and it took multiple enforcement actions against Google China."
+        }
+      }
+    },
+    {
+      "id": "谷歌退出中国事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "谷歌退出中国事件",
+          "谷歌退出中国"
+        ],
+        "en": [
+          "Google's withdrawal from China"
+        ]
+      },
+      "properties": {
+        "period": "2010-01-12 - 2010-03-23",
+        "description": {
+          "zh-cn": "指2010年谷歌公司因内容审查问题，宣布停止在中国大陆过滤搜索结果，并将搜索服务由中国内地转至香港的事件。",
+          "en": "Refers to the 2010 event where Google, due to content censorship issues, announced it would stop filtering search results in mainland China and relocated its search services from mainland China to Hong Kong."
+        }
+      }
+    },
+    {
+      "id": "百度",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "百度"
+        ],
+        "en": [
+          "Baidu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一家互联网公司，提供搜索引擎等服务，是谷歌在中国市场的主要竞争对手。",
+          "en": "A Chinese internet company providing services including a search engine, and was Google's main competitor in the Chinese market."
+        }
+      }
+    },
+    {
+      "id": "Google香港",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google香港"
+        ],
+        "en": [
+          "Google Hong Kong"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "香港",
+          "en": "Hong Kong"
+        },
+        "description": {
+          "zh-cn": "谷歌在香港的分支机构。2010年，谷歌中国将其网页搜索等服务重定向至Google香港。",
+          "en": "Google's branch in Hong Kong. In 2010, Google China redirected its web search and other services to Google Hong Kong."
+        }
+      }
+    },
+    {
+      "id": "谷歌涉黄事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "谷歌涉黄事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2009-06",
+        "description": {
+          "zh-cn": "2009年6月，中国官方媒体和监管机构谴责谷歌中国传播淫秽色情信息，并对其进行处罚的事件。",
+          "en": "In June 2009, Chinese state media and regulatory bodies condemned Google China for disseminating obscene and pornographic information and penalized the company."
+        }
+      }
+    },
+    {
+      "id": "中国中央电视台",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国中央电视台",
+          "央视"
+        ],
+        "en": [
+          "China Central Television",
+          "CCTV"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的国家电视台。其在2009年播出的节目引发了“谷歌涉黄事件”。",
+          "en": "The national broadcaster of the People's Republic of China. Its programs in 2009 triggered the 'Google pornography scandal'."
+        }
+      }
+    },
+    {
+      "id": "蜻蜓计划",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "蜻蜓计划"
+        ],
+        "en": [
+          "Project Dragonfly"
+        ]
+      },
+      "properties": {
+        "period": "2018-08 - 2018-12",
+        "description": {
+          "zh-cn": "谷歌公司一个秘密项目的代号，旨在为中国大陆开发一个经过审查的搜索引擎。该项目后被放弃。",
+          "en": "The codename for a secret Google project to develop a censored search engine for mainland China. The project was later abandoned."
+        }
+      }
+    },
+    {
+      "id": "2014年中国大陆屏蔽谷歌服务事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2014年中国大陆屏蔽谷歌服务事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2014-05-31 - ",
+        "description": {
+          "zh-cn": "自2014年5月31日起，Google的所有服务在中国大陆遭到大规模、持续性的干扰和封锁。",
+          "en": "Starting from May 31, 2014, all of Google's services have been subjected to large-scale and continuous interference and blockage in mainland China."
+        }
+      }
+    },
+    {
+      "id": "埃里克·施密特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "埃里克·施密特",
+          "埃里克·施密特"
+        ],
+        "en": [
+          "Eric Schmidt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任谷歌公司CEO，于2006年在北京宣布Google的中文名称“谷歌”。",
+          "en": "Former CEO of Google, who announced Google's Chinese name '谷歌' in Beijing in 2006."
+        }
+      }
+    },
+    {
+      "id": "网易",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "网易"
+        ],
+        "en": [
+          "NetEase"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国领先的互联网技术公司，在2000年与Google签署协议，使用Google作为其默认网络搜索结果提供商。",
+          "en": "A leading Chinese internet technology company that signed an agreement with Google in 2000 to use Google as its default provider for web search results."
+        }
+      }
+    },
+    {
+      "id": "赶集网",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赶集网"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国分类信息网站。谷歌中国曾与其组建合资公司“北京谷翔信息技术有限公司”以获得ICP牌照。",
+          "en": "A Chinese classifieds website. Google China formed a joint venture with it, 'Beijing Guxiang Information Technology Co., Ltd.', to obtain an ICP license."
+        }
+      }
+    },
+    {
+      "id": "北京谷翔信息技术有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京谷翔信息技术有限公司"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2007 - ",
+        "description": {
+          "zh-cn": "由谷歌与赶集网于2007年组建的合资公司，负责Google.cn网站的运营，并持有其ICP牌照。",
+          "en": "A joint venture formed by Google and Ganji.com in 2007, responsible for operating the Google.cn website and holding its ICP license."
+        }
+      }
+    },
+    {
+      "id": "中国移动",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国移动",
+          "中国移动通信有限公司"
+        ],
+        "en": [
+          "China Mobile"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的电信运营商。2007年与谷歌达成合作，在其WAP门户“移动梦网”使用谷歌的移动搜索技术。",
+          "en": "A telecommunications operator in China. In 2007, it partnered with Google to use Google's mobile search technology on its WAP portal 'Monternet'."
+        }
+      }
+    },
+    {
+      "id": "天涯社区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "天涯社区"
+        ],
+        "en": [
+          "Tianya Club"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的网络社区。曾与谷歌合作推出“天涯问答”和“天涯来吧”。",
+          "en": "A Chinese online community. It once collaborated with Google to launch 'Tianya Q&A' and 'Tianya Laiba'."
+        }
+      }
+    },
+    {
+      "id": "新浪",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新浪"
+        ],
+        "en": [
+          "Sina Corp"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的互联网公司。2007年与谷歌达成战略合作关系。",
+          "en": "A Chinese internet company. It formed a strategic partnership with Google in 2007."
+        }
+      }
+    },
+    {
+      "id": "金山软件公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "金山软件公司"
+        ],
+        "en": [
+          "Kingsoft"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的软件公司。2008年与谷歌联合发布免费的《谷歌金山词霸合作版》。",
+          "en": "A Chinese software company. In 2008, it jointly released the free 'Google-Kingsoft PowerWord Cooperative Edition' with Google."
+        }
+      }
+    },
+    {
+      "id": "巨鲸音乐网",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "巨鲸音乐网"
+        ],
+        "en": [
+          "Top100.cn"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的在线音乐网站。2008年与谷歌联合发布谷歌音乐搜索。",
+          "en": "A Chinese online music website. In 2008, it jointly launched Google Music Search with Google."
+        }
+      }
+    },
+    {
+      "id": "国家市场监督管理总局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家市场监督管理总局"
+        ],
+        "en": [
+          "State Administration for Market Regulation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院主管市场监督管理和综合执法的直属机构。于2025年对谷歌发起反垄断立案调查。",
+          "en": "A direct agency under the State Council of the People's Republic of China responsible for market supervision and comprehensive law enforcement. It launched an antitrust investigation into Google in 2025."
+        }
+      }
+    },
+    {
+      "id": "谷歌AI中国中心",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "谷歌AI中国中心"
+        ],
+        "en": [
+          "Google AI China Center"
+        ]
+      },
+      "properties": {
+        "period": "2017-12-13 - ",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "谷歌于2017年在中国北京成立的人工智能研究中心。",
+          "en": "An artificial intelligence research center established by Google in Beijing, China, in 2017."
+        }
+      }
+    },
+    {
+      "id": "李飞飞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李飞飞"
+        ],
+        "en": [
+          "Fei-Fei Li"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "人工智能领域的专家，与李佳共同领导谷歌AI中国中心。",
+          "en": "An expert in artificial intelligence who co-leads the Google AI China Center with Dr. Jia Li."
+        }
+      }
+    },
+    {
+      "id": "李佳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李佳"
+        ],
+        "en": [
+          "Jia Li"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "Google Cloud研发负责人，与李飞飞共同领导谷歌AI中国中心。",
+          "en": "Head of R&D at Google Cloud, who co-leads the Google AI China Center with Dr. Fei-Fei Li."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "谷歌信息技术（中国）有限公司",
+      "target": "Google",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "谷歌信息技术（中国）有限公司是Google公司在中国大陆设立的子公司。",
+          "en": "Google China is a subsidiary of Google established in mainland China."
+        }
+      }
+    },
+    {
+      "source": "Google",
+      "target": "谷歌信息技术（中国）有限公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2006-04-12",
+        "description": {
+          "zh-cn": "Google公司于2006年4月12日正式成立其中国分公司“谷歌信息技术（中国）有限公司”。",
+          "en": "Google officially established its Chinese subsidiary, Google China, on April 12, 2006."
+        }
+      }
+    },
+    {
+      "source": "李开复",
+      "target": "谷歌信息技术（中国）有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2005-07-19",
+        "end_date": "2009-09-04",
+        "position": {
+          "zh-cn": "副总裁兼大中华区总裁",
+          "en": "Vice President and President of Greater China"
+        },
+        "description": {
+          "zh-cn": "李开复于2005年7月加入Google，担任谷歌中国区总裁，直至2009年9月离职。",
+          "en": "Kai-Fu Lee joined Google in July 2005 as the President of Google China and left in September 2009."
+        }
+      }
+    },
+    {
+      "source": "防火长城",
+      "target": "Google",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2002-08-31",
+        "description": {
+          "zh-cn": "自2002年起，防火长城多次对Google的各类服务进行封锁和干扰，最终在2014年导致其绝大部分服务在中国大陆无法正常访问。",
+          "en": "Since 2002, the Great Firewall has repeatedly blocked and interfered with various Google services, eventually leading to the inaccessibility of most of its services in mainland China in 2014."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国政府",
+      "target": "谷歌信息技术（中国）有限公司",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2006",
+        "end_date": "2010",
+        "description": {
+          "zh-cn": "由于在互联网内容审查方面的根本分歧，中华人民共和国政府与谷歌中国的关系持续紧张，最终导致谷歌搜索业务于2010年撤出中国大陆市场。",
+          "en": "Due to fundamental disagreements on internet content censorship, the relationship between the Chinese government and Google China remained tense, ultimately leading to the withdrawal of Google's search business from the mainland Chinese market in 2010."
+        }
+      }
+    },
+    {
+      "source": "Google",
+      "target": "谷歌退出中国事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2010-01-12",
+        "description": {
+          "zh-cn": "2010年1月12日，Google公司宣布可能退出中国，并于3月23日正式将搜索服务由中国内地转至香港，标志着该事件的发生。",
+          "en": "On January 12, 2010, Google announced its potential withdrawal from China, and on March 23, it officially redirected its search services from mainland China to Hong Kong, marking the event."
+        }
+      }
+    },
+    {
+      "source": "谷歌退出中国事件",
+      "target": "谷歌信息技术（中国）有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2010-03-23",
+        "description": {
+          "zh-cn": "谷歌退出中国事件导致谷歌中国的网页搜索、图片搜索和资讯搜索等核心业务停止在中国大陆运营。",
+          "en": "The withdrawal event led to the cessation of Google China's core business operations in mainland China, including web search, image search, and news search."
+        }
+      }
+    },
+    {
+      "source": "谷歌信息技术（中国）有限公司",
+      "target": "Google香港",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2010-03-23",
+        "description": {
+          "zh-cn": "停止在中国大陆的搜索服务审查后，谷歌中国将原有域名(google.cn和g.cn)的网页搜索、图片搜索和资讯搜索重定向至Google香港。",
+          "en": "After ceasing censorship of its search services in mainland China, Google China redirected web search, image search, and news search from its original domains (google.cn and g.cn) to Google Hong Kong."
+        }
+      }
+    },
+    {
+      "source": "中国中央电视台",
+      "target": "谷歌信息技术（中国）有限公司",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2009-06-18",
+        "description": {
+          "zh-cn": "2009年6月18日，中国中央电视台在《新闻联播》和《焦点访谈》中播报了强烈谴责谷歌传播淫秽色情和低俗信息的内容，引发了“谷歌涉黄事件”。",
+          "en": "On June 18, 2009, China Central Television (CCTV) broadcasted content on 'Xinwen Lianbo' and 'Focus Report' strongly condemning Google for spreading obscene, pornographic, and vulgar information, triggering the 'Google pornography scandal'."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国政府",
+      "target": "谷歌信息技术（中国）有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2009-06-18",
+        "description": {
+          "zh-cn": "在“谷歌涉黄事件”后，中国政府有关部门对谷歌中国网站进行处罚，暂停其境外网页搜索业务和联想词搜索业务。",
+          "en": "Following the 'Google pornography scandal,' relevant Chinese government departments penalized the Google China website, suspending its overseas web search services and suggestive search features."
+        }
+      }
+    },
+    {
+      "source": "百度",
+      "target": "谷歌信息技术（中国）有限公司",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "百度是谷歌在中国搜索引擎市场的主要竞争对手。",
+          "en": "Baidu was the main competitor to Google in the Chinese search engine market."
+        }
+      }
+    },
+    {
+      "source": "Google",
+      "target": "蜻蜓计划",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2018-08",
+        "end_date": "2018-12",
+        "description": {
+          "zh-cn": "Google公司内部启动了“蜻蜓计划”，旨在为中国大陆开发一个审查版的搜索引擎，但该计划在内外压力下于同年12月被放弃。",
+          "en": "Google initiated 'Project Dragonfly' internally to develop a censored search engine for mainland China, but the project was abandoned in December of the same year due to internal and external pressure."
+        }
+      }
+    },
+    {
+      "source": "谷歌信息技术（中国）有限公司",
+      "target": "谷歌AI中国中心",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2017-12-13",
+        "description": {
+          "zh-cn": "谷歌于2017年12月13日在北京成立了谷歌AI中国中心。",
+          "en": "Google established the Google AI China Center in Beijing on December 13, 2017."
+        }
+      }
+    },
+    {
+      "source": "李飞飞",
+      "target": "谷歌AI中国中心",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017-12-13",
+        "position": {
+          "zh-cn": "负责人",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "李飞飞与李佳共同领导谷歌AI中国中心的工作。",
+          "en": "Fei-Fei Li and Jia Li jointly lead the work of the Google AI China Center."
+        }
+      }
+    },
+    {
+      "source": "李佳",
+      "target": "谷歌AI中国中心",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017-12-13",
+        "position": {
+          "zh-cn": "负责人",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "李佳与李飞飞共同领导谷歌AI中国中心的工作。",
+          "en": "Jia Li and Fei-Fei Li jointly lead the work of the Google AI China Center."
+        }
+      }
+    },
+    {
+      "source": "国家市场监督管理总局",
+      "target": "Google",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-02-04",
+        "description": {
+          "zh-cn": "因谷歌涉嫌违反《中华人民共和国反垄断法》，国家市场监督管理总局决定对其发起立案调查。",
+          "en": "Due to suspected violations of the Anti-Monopoly Law of the People's Republic of China, the State Administration for Market Regulation decided to launch an investigation into Google."
+        }
+      }
+    },
+    {
+      "source": "Google",
+      "target": "网易",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2000-08",
+        "description": {
+          "zh-cn": "2000年8月，Google宣布与中国门户网站网易签署协议，为其提供默认网络搜索结果。",
+          "en": "In August 2000, Google announced an agreement with Chinese portal NetEase to provide it with default web search results."
+        }
+      }
+    },
+    {
+      "source": "谷歌信息技术（中国）有限公司",
+      "target": "北京谷翔信息技术有限公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2007",
+        "description": {
+          "zh-cn": "为了获得ICP牌照，谷歌与赶集网组建了合资公司“北京谷翔信息技术有限公司”，负责Google.cn的运营。",
+          "en": "To obtain an ICP license, Google formed a joint venture with Ganji.com named 'Beijing Guxiang Information Technology Co., Ltd.' to operate Google.cn."
+        }
+      }
+    },
+    {
+      "source": "赶集网",
+      "target": "北京谷翔信息技术有限公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2007",
+        "description": {
+          "zh-cn": "赶集网与谷歌共同组建了合资公司“北京谷翔信息技术有限公司”。",
+          "en": "Ganji.com co-founded the joint venture 'Beijing Guxiang Information Technology Co., Ltd.' with Google."
+        }
+      }
+    },
+    {
+      "source": "谷歌信息技术（中国）有限公司",
+      "target": "巨鲸音乐网",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2008-08-05",
+        "end_date": "2012-09-21",
+        "description": {
+          "zh-cn": "谷歌中国与巨鲸音乐网联合发布了谷歌音乐搜索服务，该服务于2012年9月关闭。",
+          "en": "Google China and Top100.cn jointly launched the Google Music Search service, which was shut down in September 2012."
+        }
+      }
+    }
+  ]
+}
