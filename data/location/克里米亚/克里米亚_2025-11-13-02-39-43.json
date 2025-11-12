@@ -1,0 +1,959 @@
+{
+  "nodes": [
+    {
+      "id": "克里米亚半岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "克里米亚半岛",
+          "克里米亚",
+          "克里木"
+        ],
+        "en": [
+          "Crimean Peninsula"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "东欧",
+          "en": "Eastern Europe"
+        },
+        "description": {
+          "zh-cn": "黑海北岸的一个半岛，地理位置具有重要的战略价值。其主权归属在乌克兰和俄罗斯之间存在争议。",
+          "en": "A peninsula on the northern coast of the Black Sea with significant strategic value. Its sovereignty is disputed between Ukraine and Russia."
+        }
+      }
+    },
+    {
+      "id": "乌克兰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰"
+        ],
+        "en": [
+          "Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东欧国家，根据国际法对克里米亚半岛拥有主权。",
+          "en": "An Eastern European country that holds de jure sovereignty over the Crimean Peninsula under international law."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯联邦",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯联邦",
+          "俄罗斯"
+        ],
+        "en": [
+          "Russian Federation",
+          "Russia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "横跨欧亚的联邦共和国，自2014年起实际控制并声称对克里米亚拥有主权。",
+          "en": "A transcontinental federal republic that has de facto controlled and claimed sovereignty over Crimea since 2014."
+        }
+      }
+    },
+    {
+      "id": "2014年克里米亚危机",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2014年克里米亚危机"
+        ],
+        "en": [
+          "2014 Crimean crisis"
+        ]
+      },
+      "properties": {
+        "period": "2014-02 - 2014-03",
+        "location": {
+          "zh-cn": "克里米亚半岛"
+        },
+        "description": {
+          "zh-cn": "指2014年乌克兰革命后，在克里米亚半岛发生的一系列政治与军事冲突事件，最终导致俄罗斯吞并克里米亚。",
+          "en": "A series of political and military conflict events that occurred on the Crimean Peninsula after the 2014 Ukrainian revolution, ultimately leading to the annexation of Crimea by Russia."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯联邦并吞克里米亚",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "俄罗斯联邦并吞克里米亚"
+        ],
+        "en": [
+          "Annexation of Crimea by the Russian Federation"
+        ]
+      },
+      "properties": {
+        "period": "2014-03-18 - ",
+        "location": {
+          "zh-cn": "克里米亚半岛"
+        },
+        "description": {
+          "zh-cn": "2014年俄罗斯联邦通过军事干预和公投，将原属乌克兰的克里米亚半岛并入其领土的事件。",
+          "en": "The event in 2014 where the Russian Federation incorporated the Crimean Peninsula, formerly part of Ukraine, into its territory through military intervention and a referendum."
+        }
+      }
+    },
+    {
+      "id": "小绿人 (俄乌战争)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "小绿人 (俄乌战争)",
+          "无国籍标识的俄军部队",
+          "没有徽章的俄罗斯蒙面部队"
+        ],
+        "en": [
+          "Little green men (Russo-Ukrainian War)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指在2014年克里米亚危机期间占领克里米亚战略要地的无标识俄罗斯武装部队。",
+          "en": "Refers to the unmarked Russian armed forces that occupied strategic locations in Crimea during the 2014 crisis."
+        }
+      }
+    },
+    {
+      "id": "克里米亚自治共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "克里米亚自治共和国"
+        ],
+        "en": [
+          "Autonomous Republic of Crimea"
+        ]
+      },
+      "properties": {
+        "period": "1991 - 2014-03-11",
+        "description": {
+          "zh-cn": "苏联解体后在乌克兰宪法框架内成立的自治共和国，涵盖克里米亚半岛大部分地区。",
+          "en": "An autonomous republic established within the constitutional framework of Ukraine after the dissolution of the Soviet Union, covering most of the Crimean Peninsula."
+        }
+      }
+    },
+    {
+      "id": "塞瓦斯托波尔",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "塞瓦斯托波尔",
+          "塞瓦斯托波尔市",
+          "塞瓦斯托波尔直辖市"
+        ],
+        "en": [
+          "Sevastopol"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于克里米亚半岛西南部的港口城市，在乌克兰和俄罗斯的行政体系中均拥有特殊的直辖市地位。",
+          "en": "A port city in the southwestern part of the Crimean Peninsula, holding a special status as a city of state significance in both Ukrainian and Russian administrative systems."
+        }
+      }
+    },
+    {
+      "id": "2014年克里米亚归属公投",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2014年克里米亚归属公投"
+        ],
+        "en": [
+          "2014 Crimean status referendum"
+        ]
+      },
+      "properties": {
+        "period": "2014-03-16",
+        "location": {
+          "zh-cn": "克里米亚半岛"
+        },
+        "description": {
+          "zh-cn": "由俄罗斯支持的克里米亚当局举办的公投，以决定克里米亚是否脱离乌克兰并加入俄罗斯联邦。该公投未获国际普遍承认。",
+          "en": "A referendum organized by the Russian-backed Crimean authorities to decide whether Crimea should secede from Ukraine and join the Russian Federation. The referendum is not internationally recognized."
+        }
+      }
+    },
+    {
+      "id": "克里米亚共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "克里米亚共和国"
+        ],
+        "en": [
+          "Republic of Crimea"
+        ]
+      },
+      "properties": {
+        "period": "2014-03-11 - ",
+        "description": {
+          "zh-cn": "由克里米亚自治共和国和塞瓦斯托波尔市单方面宣布成立的国家，随后作为联邦主体加入俄罗斯联邦。",
+          "en": "A state unilaterally declared by the Autonomous Republic of Crimea and the city of Sevastopol, which subsequently joined the Russian Federation as a federal subject."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·普京",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·普京",
+          "普京"
+        ],
+        "en": [
+          "Vladimir Putin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯联邦总统，批准并签署了接纳克里米亚加入俄罗斯的条约。",
+          "en": "President of the Russian Federation, who approved and signed the treaty to admit Crimea into Russia."
+        }
+      }
+    },
+    {
+      "id": "联合国大会第68/262号决议",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "联合国大会第68/262号决议"
+        ],
+        "en": [
+          "United Nations General Assembly Resolution 68/262"
+        ]
+      },
+      "properties": {
+        "period": "2014-03-27",
+        "description": {
+          "zh-cn": "联合国大会通过的决议，确认了乌克兰在其国际公认边界内的主权和领土完整，并强调2014年克里米亚公投无效。",
+          "en": "A resolution adopted by the UN General Assembly which affirmed the sovereignty and territorial integrity of Ukraine within its internationally recognized borders, and underscored the invalidity of the 2014 Crimean referendum."
+        }
+      }
+    },
+    {
+      "id": "克里米亚联邦管区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "克里米亚联邦管区"
+        ],
+        "en": [
+          "Crimean Federal District"
+        ]
+      },
+      "properties": {
+        "period": "2014-03-21 - 2016-07-28",
+        "description": {
+          "zh-cn": "俄罗斯联邦于2014年至2016年间设立的联邦管区，管辖范围包括克里米亚共和国和塞瓦斯托波尔联邦直辖市。",
+          "en": "A federal district of the Russian Federation that existed from 2014 to 2016, encompassing the Republic of Crimea and the federal city of Sevastopol."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "前社会主义国家，克里米亚曾在其不同加盟共和国之间转移管辖权。",
+          "en": "A former socialist state, during which Crimea's jurisdiction was transferred between its constituent republics."
+        }
+      }
+    },
+    {
+      "id": "尼基塔·赫鲁晓夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "尼基塔·赫鲁晓夫",
+          "赫鲁晓夫"
+        ],
+        "en": [
+          "Nikita Khrushchev"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前苏共中央第一书记，在1954年主导将克里米亚州从俄罗斯苏维埃联邦社会主义共和国划归乌克兰苏维埃社会主义共和国。",
+          "en": "Former First Secretary of the Communist Party of the Soviet Union, who led the 1954 transfer of the Crimean Oblast from the Russian SFSR to the Ukrainian SSR."
+        }
+      }
+    },
+    {
+      "id": "克里米亚州",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "克里米亚州"
+        ],
+        "en": [
+          "Crimean Oblast"
+        ]
+      },
+      "properties": {
+        "period": "1945 - 1991",
+        "description": {
+          "zh-cn": "苏联时期的一个州级行政单位。1954年其管辖权从俄罗斯苏维埃联邦社会主义共和国移交至乌克兰苏维埃社会主义共和国。",
+          "en": "An oblast-level administrative unit during the Soviet period. Its jurisdiction was transferred from the Russian SFSR to the Ukrainian SSR in 1954."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯苏维埃联邦社会主义共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯苏维埃联邦社会主义共和国"
+        ],
+        "en": [
+          "Russian Soviet Federative Socialist Republic"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苏联的加盟共和国之一，在1954年前管辖克里米亚州。",
+          "en": "One of the constituent republics of the Soviet Union, which administered the Crimean Oblast before 1954."
+        }
+      }
+    },
+    {
+      "id": "乌克兰苏维埃社会主义共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰苏维埃社会主义共和国"
+        ],
+        "en": [
+          "Ukrainian Soviet Socialist Republic"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苏联的加盟共和国之一，自1954年起管辖克里米亚州。",
+          "en": "One of the constituent republics of the Soviet Union, which administered the Crimean Oblast from 1954 onwards."
+        }
+      }
+    },
+    {
+      "id": "乌克兰亲欧盟示威运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "乌克兰亲欧盟示威运动"
+        ],
+        "en": [
+          "Euromaidan"
+        ]
+      },
+      "properties": {
+        "period": "2013-11 - 2014-02",
+        "description": {
+          "zh-cn": "乌克兰发生的一系列大规模亲欧洲示威和公民骚乱，其导致的政局动荡成为2014年克里米亚危机的直接诱因。",
+          "en": "A series of large-scale pro-European demonstrations and civil unrest in Ukraine, the resulting political instability was a direct trigger for the 2014 Crimean crisis."
+        }
+      }
+    },
+    {
+      "id": "谢尔盖·阿克肖诺夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢尔盖·阿克肖诺夫",
+          "阿克肖诺夫"
+        ],
+        "en": [
+          "Sergey Aksyonov"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "在2014年克里米亚危机期间被选为克里米亚自治共和国总理，并向俄罗斯寻求军事援助，是推动克里米亚并入俄罗斯的关键人物。",
+          "en": "Elected Prime Minister of the Autonomous Republic of Crimea during the 2014 crisis, he requested military assistance from Russia and was a key figure in pushing for Crimea's accession to Russia."
+        }
+      }
+    },
+    {
+      "id": "黑海舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "黑海舰队"
+        ],
+        "en": [
+          "Black Sea Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "俄罗斯海军的一支舰队，其在塞瓦斯托波尔的基地是俄罗斯在克里米亚拥有重要军事存在的关键。在2014年危机中，该舰队采取行动封锁了乌克兰海军。",
+          "en": "A fleet of the Russian Navy. Its base in Sevastopol is key to Russia's significant military presence in Crimea. During the 2014 crisis, the fleet took action to blockade the Ukrainian Navy."
+        }
+      }
+    },
+    {
+      "id": "七国集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "七国集团"
+        ],
+        "en": [
+          "Group of Seven"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由世界主要已开发经济体组成的国际组织，不承认2014年克里米亚公投的合法性。",
+          "en": "An international organization of the world's major advanced economies, which does not recognize the legitimacy of the 2014 Crimean referendum."
+        }
+      }
+    },
+    {
+      "id": "欧洲理事会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "欧洲理事会"
+        ],
+        "en": [
+          "European Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "欧盟的机构之一，负责制定欧盟的总体政治方向和优先事项。该机构宣布2014年克里米亚公投非法。",
+          "en": "An EU institution that defines the overall political direction and priorities of the European Union. It declared the 2014 Crimean referendum illegal."
+        }
+      }
+    },
+    {
+      "id": "克里米亚汗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "克里米亚汗国"
+        ],
+        "en": [
+          "Crimean Khanate"
+        ]
+      },
+      "properties": {
+        "period": "1430 - 1783",
+        "description": {
+          "zh-cn": "一个由克里米亚鞑靼人建立的汗国，曾在历史上长期统治克里米亚半岛及周边地区。",
+          "en": "A khanate established by the Crimean Tatars that historically ruled the Crimean Peninsula and surrounding regions for a long period."
+        }
+      }
+    },
+    {
+      "id": "奥斯曼帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥斯曼帝国",
+          "鄂图曼帝国"
+        ],
+        "en": [
+          "Ottoman Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个曾横跨欧亚非的帝国，克里米亚汗国曾是其附庸国。",
+          "en": "A former empire spanning Europe, Asia, and Africa, to which the Crimean Khanate was a vassal state."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国"
+        ],
+        "en": [
+          "Russian Empire"
+        ]
+      },
+      "properties": {
+        "period": "1721 - 1917",
+        "description": {
+          "zh-cn": "俄罗斯历史上的一个帝国，于1783年吞并克里米亚汗国，并参与了克里米亚战争。",
+          "en": "An empire in Russian history that annexed the Crimean Khanate in 1783 and participated in the Crimean War."
+        }
+      }
+    },
+    {
+      "id": "克里米亚战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "克里米亚战争"
+        ],
+        "en": [
+          "Crimean War"
+        ]
+      },
+      "properties": {
+        "period": "1853 - 1856",
+        "location": {
+          "zh-cn": "克里米亚半岛、巴尔干半岛"
+        },
+        "description": {
+          "zh-cn": "19世纪在奥斯曼帝国、俄罗斯帝国、法兰西第二帝国、大英帝国、萨丁尼亚王国之间爆发的战争，主要战场在克里米亚半岛。",
+          "en": "A 19th-century war fought between the Ottoman Empire, the Russian Empire, the Second French Empire, the British Empire, and the Kingdom of Sardinia, with the main theater of operations on the Crimean Peninsula."
+        }
+      }
+    },
+    {
+      "id": "塔夫里苏维埃社会主义共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "塔夫里苏维埃社会主义共和国"
+        ],
+        "en": [
+          "Taurida Soviet Socialist Republic"
+        ]
+      },
+      "properties": {
+        "period": "1918-03 - 1918-04",
+        "description": {
+          "zh-cn": "第一次世界大战期间由苏俄在克里米亚建立的短暂的苏维埃政权。",
+          "en": "A short-lived Soviet republic established in Crimea by Soviet Russia during World War I."
+        }
+      }
+    },
+    {
+      "id": "德意志帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德意志帝国"
+        ],
+        "en": [
+          "German Empire"
+        ]
+      },
+      "properties": {
+        "period": "1871 - 1918",
+        "description": {
+          "zh-cn": "一战中的同盟国之一，曾在1918年发动克里米亚行动占领半岛。",
+          "en": "One of the Central Powers in World War I, which launched the Crimean Operation in 1918 to occupy the peninsula."
+        }
+      }
+    },
+    {
+      "id": "克里米亚行动 (1918年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "克里米亚行动 (1918年)"
+        ],
+        "en": [
+          "Crimean Operation (1918)"
+        ]
+      },
+      "properties": {
+        "period": "1918-04",
+        "location": {
+          "zh-cn": "克里米亚半岛"
+        },
+        "description": {
+          "zh-cn": "第一次世界大战期间，德意志帝国为占领克里米亚而发动的军事行动，推翻了塔夫里苏维埃政权。",
+          "en": "A military operation launched by the German Empire during World War I to occupy Crimea, which overthrew the Taurida Soviet regime."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·列宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·列宁",
+          "列宁"
+        ],
+        "en": [
+          "Vladimir Lenin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏俄的建立者，其领导下的红军曾在克里米亚建立塔夫里苏维埃社会主义共和国。",
+          "en": "Founder of Soviet Russia, whose Red Army established the Taurida Soviet Socialist Republic in Crimea."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "乌克兰亲欧盟示威运动",
+      "target": "2014年克里米亚危机",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02",
+        "description": {
+          "zh-cn": "乌克兰亲欧盟示威运动导致的政局动荡，为俄罗斯干预克里米亚创造了条件，从而引发了克里米亚危机。",
+          "en": "The political instability resulting from the Euromaidan movement created conditions for Russian intervention in Crimea, thus triggering the Crimean crisis."
+        }
+      }
+    },
+    {
+      "source": "2014年克里米亚危机",
+      "target": "俄罗斯联邦并吞克里米亚",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-27",
+        "description": {
+          "zh-cn": "克里米亚危机是俄罗斯联邦并吞克里米亚的前奏和过程，危机期间俄罗斯逐步控制了半岛。",
+          "en": "The Crimean crisis was the prelude to and process of the annexation of Crimea by the Russian Federation, during which Russia gradually took control of the peninsula."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯联邦",
+      "target": "俄罗斯联邦并吞克里米亚",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-27",
+        "description": {
+          "zh-cn": "俄罗斯联邦策划并执行了军事占领和政治合并行动，最终完成了对克里米亚的吞并。",
+          "en": "The Russian Federation planned and executed the military occupation and political annexation, ultimately completing the annexation of Crimea."
+        }
+      }
+    },
+    {
+      "source": "小绿人 (俄乌战争)",
+      "target": "俄罗斯联邦并吞克里米亚",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-27",
+        "description": {
+          "zh-cn": "无标识的俄罗斯部队迅速占领了克里米亚的各个战略要点，为后续的公投和吞并铺平了道路。",
+          "en": "Unmarked Russian forces quickly occupied various strategic points in Crimea, paving the way for the subsequent referendum and annexation."
+        }
+      }
+    },
+    {
+      "source": "2014年克里米亚归属公投",
+      "target": "俄罗斯联邦并吞克里米亚",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-03-16",
+        "description": {
+          "zh-cn": "公投结果被俄罗斯作为其吞并克里米亚的法律和民意基础。",
+          "en": "The results of the referendum were used by Russia as the legal and popular basis for its annexation of Crimea."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·普京",
+      "target": "俄罗斯联邦并吞克里米亚",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-03-18",
+        "description": {
+          "zh-cn": "作为俄罗斯总统，普京批准并签署了接纳克里米亚共和国加入俄罗斯的条约，完成了吞并的法律程序。",
+          "en": "As President of Russia, Putin approved and signed the treaty to admit the Republic of Crimea into Russia, completing the legal process of annexation."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯联邦并吞克里米亚",
+      "target": "乌克兰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-03-18",
+        "description": {
+          "zh-cn": "俄罗斯吞并克里米亚的行为剥夺了乌克兰对该半岛的主权和领土完整。",
+          "en": "Russia's annexation of Crimea deprived Ukraine of its sovereignty and territorial integrity over the peninsula."
+        }
+      }
+    },
+    {
+      "source": "联合国大会第68/262号决议",
+      "target": "俄罗斯联邦并吞克里米亚",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-03-27",
+        "description": {
+          "zh-cn": "该决议申明2014年克里米亚公投无效，并呼吁各国不承认因该公投而导致的克里米亚地位改变。",
+          "en": "The resolution affirmed the invalidity of the 2014 Crimean referendum and called on all states not to recognize any alteration of the status of Crimea on the basis of the referendum."
+        }
+      }
+    },
+    {
+      "source": "七国集团",
+      "target": "2014年克里米亚归属公投",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-03",
+        "description": {
+          "zh-cn": "七国集团发表声明，称克里米亚公投没有“法律效力”，将不承认公决结果。",
+          "en": "The G7 issued a statement declaring that the Crimean referendum had no 'legal effect' and that they would not recognize its results."
+        }
+      }
+    },
+    {
+      "source": "谢尔盖·阿克肖诺夫",
+      "target": "俄罗斯联邦",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2014-03-01",
+        "description": {
+          "zh-cn": "作为克里米亚总理，阿克肖诺夫向俄罗斯寻求财政及军事援助，与俄方合作推动克里米亚加入俄罗斯。",
+          "en": "As Prime Minister of Crimea, Aksyonov requested financial and military aid from Russia and cooperated with the Russian side to facilitate Crimea's accession to Russia."
+        }
+      }
+    },
+    {
+      "source": "克里米亚自治共和国",
+      "target": "克里米亚共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2014-03-11",
+        "description": {
+          "zh-cn": "克里米亚自治共和国议会投票通过“宣告克里米亚自治共和国和塞瓦斯托波尔市独立”，成立了新的克里米亚共和国。",
+          "en": "The parliament of the Autonomous Republic of Crimea voted to 'declare the independence of the Autonomous Republic of Crimea and the city of Sevastopol', establishing the new Republic of Crimea."
+        }
+      }
+    },
+    {
+      "source": "塞瓦斯托波尔",
+      "target": "克里米亚共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2014-03-11",
+        "description": {
+          "zh-cn": "塞瓦斯托波尔市与克里米亚自治共和国一同宣告独立，共同组建了新的克里米亚共和国。",
+          "en": "The city of Sevastopol, together with the Autonomous Republic of Crimea, declared independence and jointly formed the new Republic of Crimea."
+        }
+      }
+    },
+    {
+      "source": "克里米亚共和国",
+      "target": "俄罗斯联邦",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-03-18",
+        "position": {
+          "zh-cn": "联邦主体",
+          "en": "Federal subject"
+        },
+        "description": {
+          "zh-cn": "克里米亚共和国在宣布独立后，作为联邦主体加入了俄罗斯联邦。",
+          "en": "After declaring independence, the Republic of Crimea joined the Russian Federation as a federal subject."
+        }
+      }
+    },
+    {
+      "source": "塞瓦斯托波尔",
+      "target": "俄罗斯联邦",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-03-18",
+        "position": {
+          "zh-cn": "联邦直辖市",
+          "en": "Federal city"
+        },
+        "description": {
+          "zh-cn": "塞瓦斯托波尔作为联邦直辖市加入了俄罗斯联邦。",
+          "en": "Sevastopol joined the Russian Federation as a federal city."
+        }
+      }
+    },
+    {
+      "source": "克里米亚共和国",
+      "target": "克里米亚联邦管区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2014-03-21",
+        "end_date": "2016-07-28",
+        "description": {
+          "zh-cn": "克里米亚共和国是克里米亚联邦管区内的两个联邦主体之一。",
+          "en": "The Republic of Crimea was one of the two federal subjects within the Crimean Federal District."
+        }
+      }
+    },
+    {
+      "source": "塞瓦斯托波尔",
+      "target": "克里米亚联邦管区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2014-03-21",
+        "end_date": "2016-07-28",
+        "description": {
+          "zh-cn": "塞瓦斯托波尔是克里米亚联邦管区内的两个联邦主体之一。",
+          "en": "Sevastopol was one of the two federal subjects within the Crimean Federal District."
+        }
+      }
+    },
+    {
+      "source": "黑海舰队",
+      "target": "乌克兰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-03-05",
+        "description": {
+          "zh-cn": "俄罗斯黑海舰队凿沉一艘反潜舰以封锁克里米亚港口的乌克兰舰队。",
+          "en": "The Russian Black Sea Fleet scuttled an anti-submarine ship to blockade the Ukrainian fleet in Crimean ports."
+        }
+      }
+    },
+    {
+      "source": "克里米亚州",
+      "target": "俄罗斯苏维埃联邦社会主义共和国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1945-06-30",
+        "end_date": "1954-02-19",
+        "description": {
+          "zh-cn": "从1945年到1954年，克里米亚州是俄罗斯苏维埃联邦社会主义共和国的一部分。",
+          "en": "From 1945 to 1954, the Crimean Oblast was part of the Russian Soviet Federative Socialist Republic."
+        }
+      }
+    },
+    {
+      "source": "克里米亚州",
+      "target": "乌克兰苏维埃社会主义共和国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1954-02-19",
+        "end_date": "1991-02-12",
+        "description": {
+          "zh-cn": "自1954年起，克里米亚州被划入乌克兰苏维埃社会主义共和国管辖。",
+          "en": "From 1954, the Crimean Oblast was transferred to the jurisdiction of the Ukrainian Soviet Socialist Republic."
+        }
+      }
+    },
+    {
+      "source": "尼基塔·赫鲁晓夫",
+      "target": "克里米亚州",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1954-02-19",
+        "description": {
+          "zh-cn": "主导了1954年将克里米亚州从俄罗斯苏维埃联邦社会主义共和国划归乌克兰苏维埃社会主义共和国的决议。",
+          "en": "Led the 1954 decision to transfer the Crimean Oblast from the Russian Soviet Federative Socialist Republic to the Ukrainian Soviet Socialist Republic."
+        }
+      }
+    },
+    {
+      "source": "克里米亚自治共和国",
+      "target": "乌克兰",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1991",
+        "end_date": "2014-03-11",
+        "description": {
+          "zh-cn": "苏联解体后，克里米亚成为乌克兰的一个自治共和国。",
+          "en": "After the dissolution of the Soviet Union, Crimea became an autonomous republic within Ukraine."
+        }
+      }
+    },
+    {
+      "source": "克里米亚汗国",
+      "target": "奥斯曼帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1478",
+        "end_date": "1700",
+        "position": {
+          "zh-cn": "附庸国",
+          "en": "Vassal state"
+        },
+        "description": {
+          "zh-cn": "从1478年到1700年，克里米亚汗国是奥斯曼帝国的一个附庸国。",
+          "en": "From 1478 to 1700, the Crimean Khanate was a vassal state of the Ottoman Empire."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯帝国",
+      "target": "克里米亚汗国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1783",
+        "description": {
+          "zh-cn": "俄罗斯帝国于1783年正式将整个克里米亚半岛纳入版图，终结了克里米亚汗国的统治。",
+          "en": "The Russian Empire formally annexed the entire Crimean Peninsula in 1783, ending the rule of the Crimean Khanate."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯帝国",
+      "target": "奥斯曼帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1853",
+        "end_date": "1856",
+        "description": {
+          "zh-cn": "在1854年至1856年的克里米亚战争中，俄罗斯帝国与奥斯曼帝国（及其盟友）是敌对关系。",
+          "en": "In the Crimean War from 1854 to 1856, the Russian Empire was an enemy of the Ottoman Empire (and its allies)."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·列宁",
+      "target": "塔夫里苏维埃社会主义共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1918-03",
+        "description": {
+          "zh-cn": "列宁领导的红军于1918年3月消灭了克里米亚人民共和国，建立了塔夫里苏维埃社会主义共和国。",
+          "en": "The Red Army, led by Lenin, eliminated the Crimean People's Republic in March 1918 and established the Taurida Soviet Socialist Republic."
+        }
+      }
+    },
+    {
+      "source": "克里米亚行动 (1918年)",
+      "target": "塔夫里苏维埃社会主义共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918-04",
+        "description": {
+          "zh-cn": "德国发动的克里米亚行动攻占了克里米亚全境，推翻了塔夫里苏维埃政权。",
+          "en": "The German-launched Crimean Operation captured the entire territory of Crimea, overthrowing the Taurida Soviet regime."
+        }
+      }
+    },
+    {
+      "source": "德意志帝国",
+      "target": "克里米亚行动 (1918年)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1918-04",
+        "description": {
+          "zh-cn": "德意志帝国为占领克里米亚而发动了克里米亚行动。",
+          "en": "The German Empire launched the Crimean Operation to occupy Crimea."
+        }
+      }
+    }
+  ]
+}

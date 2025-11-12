@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": "曾天节",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曾天节"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1906 - 1995",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "五华县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国军事人物、政治人物。",
+          "en": "A military and political figure of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "广东",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广东"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "五华县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "五华县",
+          "五华"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "广东",
+          "en": "Guangdong"
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "广东省政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广东省政协"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议广东省委员会的简称。",
+          "en": "The abbreviation for the Guangdong Provincial Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "第五届全国政协委员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第五届全国政协委员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指代中国人民政治协商会议第五届全国委员会或其委员群体。",
+          "en": "Refers to the Fifth National Committee of the Chinese People's Political Consultative Conference or its members."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "曾天节",
+      "target": "五华县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "曾天节",
+      "target": "广东省政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "曾天节曾任广东省政协副主席。",
+          "en": "Zeng Tianjie once served as the Vice Chairman of the Guangdong Provincial Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "曾天节",
+      "target": "第五届全国政协委员",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "曾天节是第五届全国政协委员。",
+          "en": "Zeng Tianjie was a member of the 5th National Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "曾天节",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据其维基百科页面分类，曾天节是中国共产党党员。",
+          "en": "According to the categories on his Wikipedia page, Zeng Tianjie was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

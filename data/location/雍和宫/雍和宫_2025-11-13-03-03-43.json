@@ -1,0 +1,952 @@
+{
+  "nodes": [
+    {
+      "id": "雍和宫",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "雍和宫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1694 - ",
+        "location": {
+          "zh-cn": "北京市东城区雍和宫大街",
+          "en": "Yonghegong Street, Dongcheng District, Beijing"
+        },
+        "description": {
+          "zh-cn": "位于北京的藏传佛教格鲁派寺院，最初为清朝雍正皇帝的府邸，后改为寺院。占地66000平方米，是北京最大的藏传佛教寺院。",
+          "en": "A Tibetan Buddhist monastery of the Gelug school in Beijing. It was originally the residence of the Yongzheng Emperor of the Qing Dynasty and was later converted into a monastery. Covering an area of 66,000 square meters, it is the largest Tibetan Buddhist monastery in Beijing."
+        }
+      }
+    },
+    {
+      "id": "康熙帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "康熙帝",
+          "康熙皇帝"
+        ],
+        "en": [
+          "Kangxi Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1654-05-04 - 1722-12-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第四位皇帝，为皇四子胤禛（后来的雍正帝）修建了府邸，即雍和宫的前身。",
+          "en": "The fourth emperor of the Qing Dynasty, who built a residence for his fourth son, Yinzhen (the future Yongzheng Emperor), which would become the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "雍正帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雍正帝",
+          "胤禛",
+          "雍正皇帝",
+          "雍亲王胤禛"
+        ],
+        "en": [
+          "Yongzheng Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1678-12-13 - 1735-10-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第五位皇帝，雍和宫曾是其登基前的府邸。",
+          "en": "The fifth emperor of the Qing Dynasty. The Yonghe Temple was his residence before he ascended the throne."
+        }
+      }
+    },
+    {
+      "id": "乾隆帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乾隆帝",
+          "弘历"
+        ],
+        "en": [
+          "Qianlong Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1711-09-25 - 1799-02-07",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第六位皇帝，雍正帝之子，出生于雍和宫，后将其正式改为藏传佛教寺院。",
+          "en": "The sixth emperor of the Qing Dynasty, son of the Yongzheng Emperor. He was born in the Yonghe Temple and later officially converted it into a Tibetan Buddhist monastery."
+        }
+      }
+    },
+    {
+      "id": "格鲁派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "格鲁派",
+          "黄教"
+        ],
+        "en": [
+          "Gelug"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "藏传佛教的一个主要派别，雍和宫是其重要的寺院之一。",
+          "en": "A major school of Tibetan Buddhism, of which the Yonghe Temple is an important monastery."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "清"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国历史上最后一个封建王朝，雍和宫的建立和改建均在此朝代完成。",
+          "en": "The last imperial dynasty in Chinese history, during which the Yonghe Temple was built and converted."
+        }
+      }
+    },
+    {
+      "id": "紫禁城",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "紫禁城"
+        ],
+        "en": [
+          "Forbidden City"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "明清两代的皇家宫殿，雍正帝即位后从雍和宫迁入此地。",
+          "en": "The imperial palace for the Ming and Qing dynasties. The Yongzheng Emperor moved here from the Yonghe Temple after ascending the throne."
+        }
+      }
+    },
+    {
+      "id": "章嘉呼图克图",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "章嘉呼图克图"
+        ],
+        "en": [
+          "Jangkya Khutukhtu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "藏传佛教格鲁派的重要活佛之一，曾在雍正年间居住于雍和宫。",
+          "en": "One of the important living Buddhas (Khutukhtus) of the Gelug school of Tibetan Buddhism, who resided in the Yonghe Temple during the Yongzheng era."
+        }
+      }
+    },
+    {
+      "id": "内务府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "内务府"
+        ],
+        "en": [
+          "Imperial Household Department"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝管理皇家事务的机构，曾负责雍和宫的改建工程。",
+          "en": "The Qing dynasty agency responsible for managing the imperial household's affairs, which oversaw the reconstruction of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院",
+          "中国国务院"
+        ],
+        "en": [
+          "State Council of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的最高国家行政机关，于1961年批准雍和宫为全国重点文物保护单位。",
+          "en": "The highest state administrative organ of the People's Republic of China, which approved the Yonghe Temple as a Major Historical and Cultural Site Protected at the National Level in 1961."
+        }
+      }
+    },
+    {
+      "id": "十世班禅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "十世班禅"
+        ],
+        "en": [
+          "10th Panchen Lama"
+        ]
+      },
+      "properties": {
+        "lifetime": "1938-02-19 - 1989-01-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "藏传佛教格鲁派的重要领袖，曾于1954年在雍和宫法轮殿讲经。",
+          "en": "An important leader of the Gelug school of Tibetan Buddhism, who preached in the Hall of the Wheel of the Law at Yonghe Temple in 1954."
+        }
+      }
+    },
+    {
+      "id": "十四世达赖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "十四世达赖"
+        ],
+        "en": [
+          "14th Dalai Lama"
+        ]
+      },
+      "properties": {
+        "lifetime": "1935-07-06 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "藏传佛教格鲁派的重要领袖，曾于1954年在雍和宫法轮殿讲经。",
+          "en": "An important leader of the Gelug school of Tibetan Buddhism, who preached in the Hall of the Wheel of the Law at Yonghe Temple in 1954."
+        }
+      }
+    },
+    {
+      "id": "七世达赖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "七世达赖"
+        ],
+        "en": [
+          "7th Dalai Lama"
+        ]
+      },
+      "properties": {
+        "lifetime": "1708 - 1757",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "藏传佛教格鲁派领袖，曾向清廷进贡用于雕刻雍和宫弥勒佛站像的白檀木。",
+          "en": "A leader of the Gelug school of Tibetan Buddhism, who presented the white sandalwood used to carve the Maitreya Buddha statue in Yonghe Temple as tribute to the Qing court."
+        }
+      }
+    },
+    {
+      "id": "北京市文物局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市文物局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北京市负责文物保护工作的政府机构，于1995年将雍和宫注册为博物馆。",
+          "en": "The government agency responsible for cultural heritage protection in Beijing, which registered the Yonghe Temple as a museum in 1995."
+        }
+      }
+    },
+    {
+      "id": "理藩院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "理藩院"
+        ],
+        "en": [
+          "Lifan Yuan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝管理边疆民族事务的中央机构，曾兼管雍和宫的具体事务。",
+          "en": "The central government agency of the Qing Dynasty responsible for managing affairs of frontier ethnic groups, which also oversaw the specific affairs of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "蒙藏院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蒙藏院"
+        ],
+        "en": [
+          "Bureau of Mongolian and Tibetan Affairs"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1929",
+        "description": {
+          "zh-cn": "北洋政府时期管理蒙藏事务的机构，负责雍和宫的行政管理。",
+          "en": "The agency responsible for Mongolian and Tibetan affairs during the Beiyang government period, which was in charge of the administration of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "蒙藏委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蒙藏委员会"
+        ],
+        "en": [
+          "Mongolian and Tibetan Affairs Commission"
+        ]
+      },
+      "properties": {
+        "period": "1928 - 2017",
+        "description": {
+          "zh-cn": "南京国民政府及之后中华民国政府管理蒙藏事务的机构，北伐后接管雍和宫的管理。",
+          "en": "The agency of the Nationalist Government and subsequent ROC government responsible for Mongolian and Tibetan affairs, which took over the management of the Yonghe Temple after the Northern Expedition."
+        }
+      }
+    },
+    {
+      "id": "北京市民族事务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市民族事务委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北京市负责民族和宗教事务的政府机构，雍和宫管理处是其下属单位。",
+          "en": "The Beijing municipal government agency responsible for ethnic and religious affairs, under which the Yonghe Temple Management Office operates."
+        }
+      }
+    },
+    {
+      "id": "常少如",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "常少如"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任雍和宫管理处主任。",
+          "en": "Former director of the Yonghe Temple Management Office."
+        }
+      }
+    },
+    {
+      "id": "鲍洪飞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鲍洪飞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任雍和宫管理处主任。",
+          "en": "Former director of the Yonghe Temple Management Office."
+        }
+      }
+    },
+    {
+      "id": "总管驻京喇嘛印务处",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "总管驻京喇嘛印务处"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝管理京城及周边地区藏传佛教寺院的机构，雍和宫的宗教事务受其领导。",
+          "en": "The Qing dynasty agency for managing Tibetan Buddhist monasteries in and around the capital, which supervised the religious affairs of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "中国佛教协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国佛教协会"
+        ],
+        "en": [
+          "Buddhist Association of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的全国性佛教组织，曾于1956年任命噶拉藏为雍和宫住持。",
+          "en": "The national Buddhist organization of China, which appointed Galatsang as the abbot of Yonghe Temple in 1956."
+        }
+      }
+    },
+    {
+      "id": "江赞桑布",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江赞桑布"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任雍和宫扎萨克喇嘛。",
+          "en": "Former Jassak Lama of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "罗桑策殿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗桑策殿",
+          "罗桑策垫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任雍和宫扎萨克喇嘛。",
+          "en": "Former Jassak Lama of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "贡觉仲尼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贡觉仲尼",
+          "棍却仲尼"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任雍和宫扎萨克喇嘛。",
+          "en": "Former Jassak Lama of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "丹巴达扎",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丹巴达扎"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任雍和宫扎萨克喇嘛及北平喇嘛寺庙整理委员会主任委员。",
+          "en": "Former Jassak Lama of the Yonghe Temple and chairman of the Beiping Lama Temples Reorganization Committee."
+        }
+      }
+    },
+    {
+      "id": "伊什噶瓦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊什噶瓦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新中国成立后雍和宫首任代理住持。",
+          "en": "The first acting abbot of the Yonghe Temple after the founding of the PRC."
+        }
+      }
+    },
+    {
+      "id": "噶喇藏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "噶喇藏",
+          "噶拉藏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任雍和宫住持。",
+          "en": "Former abbot of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "伯云乌力吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伯云乌力吉",
+          "高全寿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任雍和宫住持。",
+          "en": "Former abbot of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "嘉木扬·图布丹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "嘉木扬·图布丹"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任雍和宫住持。",
+          "en": "Former abbot of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "id": "胡雪峰 (喇嘛)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡雪峰 (喇嘛)",
+          "罗布桑·散木丹",
+          "胡雪峰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "现任雍和宫住持。",
+          "en": "The current abbot of the Yonghe Temple."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "雍和宫",
+      "target": "格鲁派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1744",
+        "description": {
+          "zh-cn": "雍和宫于1744年被乾隆皇帝正式改为藏传佛教格鲁派（黄教）寺院。",
+          "en": "In 1744, the Yonghe Temple was officially converted by the Qianlong Emperor into a Tibetan Buddhist monastery of the Gelug (Yellow Hat) school."
+        }
+      }
+    },
+    {
+      "source": "雍正帝",
+      "target": "康熙帝",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "雍正帝（胤禛）是康熙帝的皇四子。",
+          "en": "The Yongzheng Emperor (Yinzhen) was the fourth son of the Kangxi Emperor."
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "雍正帝",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "乾隆帝（弘历）是雍正帝的儿子。",
+          "en": "The Qianlong Emperor (Hongli) was the son of the Yongzheng Emperor."
+        }
+      }
+    },
+    {
+      "source": "康熙帝",
+      "target": "雍和宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1694",
+        "description": {
+          "zh-cn": "康熙三十三年（1694年），康熙帝为皇四子胤禛修建了府邸，此为雍和宫的前身。",
+          "en": "In the 33rd year of the Kangxi reign (1694), the Kangxi Emperor built a residence for his fourth son, Yinzhen, which was the predecessor of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "source": "雍正帝",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1723",
+        "position": {
+          "zh-cn": "府邸主人（雍亲王）",
+          "en": "Resident (Prince Yong)"
+        },
+        "description": {
+          "zh-cn": "雍正帝登基前作为雍亲王居住于此府邸。",
+          "en": "Before ascending the throne, the Yongzheng Emperor lived in this residence as Prince Yong."
+        }
+      }
+    },
+    {
+      "source": "雍正帝",
+      "target": "雍和宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1725",
+        "description": {
+          "zh-cn": "雍正三年（1725年），雍正帝将原雍王府潜邸升格为宫殿，并改名为雍和宫。",
+          "en": "In the third year of the Yongzheng reign (1725), the Yongzheng Emperor upgraded his former residence, the Prince Yong Mansion, to a palace and renamed it Yonghegong (Palace of Harmony and Peace)."
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "雍和宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1744",
+        "description": {
+          "zh-cn": "乾隆九年（1744年），乾隆帝将雍和宫正式改为藏传佛教寺庙。",
+          "en": "In the ninth year of the Qianlong reign (1744), the Qianlong Emperor officially converted the Yonghe Palace into a Tibetan Buddhist monastery."
+        }
+      }
+    },
+    {
+      "source": "章嘉呼图克图",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "雍正帝在位时期，章嘉呼图克图活佛居住于雍和宫。",
+          "en": "During the reign of the Yongzheng Emperor, the Jangkya Khutukhtu resided in the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国国务院",
+      "target": "雍和宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1961",
+        "description": {
+          "zh-cn": "1961年，中华人民共和国国务院批准雍和宫为第一批全国重点文物保护单位。",
+          "en": "In 1961, the State Council of the People's Republic of China approved the Yonghe Temple as one of the first Major Historical and Cultural Sites Protected at the National Level."
+        }
+      }
+    },
+    {
+      "source": "十世班禅",
+      "target": "雍和宫",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1954",
+        "description": {
+          "zh-cn": "1954年，十世班禅到北京时在雍和宫法轮殿讲经布道。",
+          "en": "In 1954, when the 10th Panchen Lama visited Beijing, he preached at the Hall of the Wheel of the Law in the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "source": "十四世达赖",
+      "target": "雍和宫",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1954",
+        "description": {
+          "zh-cn": "1954年，十四世达赖到北京时在雍和宫法轮殿讲经布道。",
+          "en": "In 1954, when the 14th Dalai Lama visited Beijing, he preached at the Hall of the Wheel of the Law in the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "source": "七世达赖",
+      "target": "雍和宫",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "雍和宫万福阁内的弥勒佛站像是由七世达赖进贡的白檀木雕刻而成。",
+          "en": "The standing Maitreya Buddha statue in the Wanfu Pavilion of the Yonghe Temple was carved from white sandalwood presented as tribute by the 7th Dalai Lama."
+        }
+      }
+    },
+    {
+      "source": "北京市文物局",
+      "target": "雍和宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1995",
+        "description": {
+          "zh-cn": "1995年，雍和宫获北京市文物局以“雍和宫藏传佛教艺术博物馆”名称登记注册为博物馆。",
+          "en": "In 1995, the Yonghe Temple was registered as a museum by the Beijing Municipal Cultural Heritage Bureau under the name 'Yonghegong Tibetan Buddhist Art Museum'."
+        }
+      }
+    },
+    {
+      "source": "雍和宫",
+      "target": "理藩院",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "清朝时期，雍和宫的具体事务由理藩院兼管。",
+          "en": "During the Qing Dynasty, the specific affairs of the Yonghe Temple were co-managed by the Lifan Yuan."
+        }
+      }
+    },
+    {
+      "source": "雍和宫",
+      "target": "蒙藏院",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1914",
+        "description": {
+          "zh-cn": "1914年后，北洋政府时期雍和宫的行政管理由蒙藏院负责。",
+          "en": "After 1914, during the Beiyang government period, the administration of the Yonghe Temple was under the responsibility of the Bureau of Mongolian and Tibetan Affairs."
+        }
+      }
+    },
+    {
+      "source": "雍和宫",
+      "target": "蒙藏委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "北伐成功后，南京国民政府蒙藏委员会负责管理雍和宫。",
+          "en": "After the success of the Northern Expedition, the Mongolian and Tibetan Affairs Commission of the Nationalist Government was responsible for managing the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "source": "雍和宫",
+      "target": "北京市民族事务委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国成立后，雍和宫管理处成为北京市民族事务委员会（北京市宗教事务局）下属的事业单位。",
+          "en": "After the founding of the People's Republic of China, the Yonghe Temple Management Office became a public institution subordinate to the Beijing Municipal Ethnic Affairs Commission (Beijing Municipal Bureau of Religious Affairs)."
+        }
+      }
+    },
+    {
+      "source": "雍和宫",
+      "target": "总管驻京喇嘛印务处",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "清朝时期，雍和宫的宗教事务由总管驻京喇嘛印务处领导。",
+          "en": "During the Qing Dynasty, the religious affairs of the Yonghe Temple were supervised by the Office for the Administration of Lamas Stationed in the Capital."
+        }
+      }
+    },
+    {
+      "source": "中国佛教协会",
+      "target": "噶喇藏",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1956-01",
+        "description": {
+          "zh-cn": "1956年1月，中国佛教协会任命噶拉藏为雍和宫住持。",
+          "en": "In January 1956, the Buddhist Association of China appointed Galatsang as the abbot of the Yonghe Temple."
+        }
+      }
+    },
+    {
+      "source": "常少如",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1992",
+        "position": {
+          "zh-cn": "雍和宫管理处主任",
+          "en": "Director of Yonghe Temple Management Office"
+        }
+      }
+    },
+    {
+      "source": "鲍洪飞",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2001",
+        "end_date": "2017-03-24",
+        "position": {
+          "zh-cn": "雍和宫管理处主任",
+          "en": "Director of Yonghe Temple Management Office"
+        }
+      }
+    },
+    {
+      "source": "江赞桑布",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1908",
+        "end_date": "1914",
+        "position": {
+          "zh-cn": "扎萨克喇嘛",
+          "en": "Jassak Lama"
+        }
+      }
+    },
+    {
+      "source": "罗桑策殿",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1919-02",
+        "end_date": "1923-08",
+        "position": {
+          "zh-cn": "扎萨克喇嘛",
+          "en": "Jassak Lama"
+        }
+      }
+    },
+    {
+      "source": "贡觉仲尼",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1924",
+        "end_date": "1935",
+        "position": {
+          "zh-cn": "扎萨克喇嘛",
+          "en": "Jassak Lama"
+        }
+      }
+    },
+    {
+      "source": "丹巴达扎",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1936",
+        "position": {
+          "zh-cn": "扎萨克喇嘛",
+          "en": "Jassak Lama"
+        }
+      }
+    },
+    {
+      "source": "伊什噶瓦",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1950-06",
+        "end_date": "1956-09",
+        "position": {
+          "zh-cn": "代理住持",
+          "en": "Acting Abbot"
+        }
+      }
+    },
+    {
+      "source": "噶喇藏",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956-09",
+        "end_date": "1965-08",
+        "position": {
+          "zh-cn": "住持",
+          "en": "Abbot"
+        }
+      }
+    },
+    {
+      "source": "伯云乌力吉",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1987",
+        "end_date": "1993-10",
+        "position": {
+          "zh-cn": "住持",
+          "en": "Abbot"
+        },
+        "description": {
+          "zh-cn": "于1987年至1988年2月任代理住持，1988年2月起正式担任住持。",
+          "en": "Served as Acting Abbot from 1987 to February 1988, and officially became Abbot from February 1988."
+        }
+      }
+    },
+    {
+      "source": "嘉木扬·图布丹",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993-10",
+        "end_date": "2010-01",
+        "position": {
+          "zh-cn": "住持",
+          "en": "Abbot"
+        }
+      }
+    },
+    {
+      "source": "胡雪峰 (喇嘛)",
+      "target": "雍和宫",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010-01",
+        "position": {
+          "zh-cn": "住持",
+          "en": "Abbot"
+        }
+      }
+    }
+  ]
+}
