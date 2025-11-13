@@ -1,0 +1,824 @@
+{
+  "nodes": [
+    {
+      "id": "阿拉斯加州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "阿拉斯加州",
+          "阿拉斯加",
+          "亚拉士加"
+        ],
+        "en": [
+          "State of Alaska",
+          "Alaska"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国位于北美洲最西北端的联邦州，是美国面积最大的州，也是人口第3少和最稀疏的州。",
+          "en": "A U.S. state situated in the northwest extremity of the North American continent, it is the largest U.S. state by area and the 3rd least populous and the most sparsely populated of the 50 United States."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美利坚合众国，于1867年从俄罗斯帝国购买了阿拉斯加。",
+          "en": "The United States of America, which purchased Alaska from the Russian Empire in 1867."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国",
+          "俄国"
+        ],
+        "en": [
+          "Russian Empire"
+        ]
+      },
+      "properties": {
+        "period": " - 1867",
+        "description": {
+          "zh-cn": "1917年以前的俄罗斯国家，曾在北美拥有殖民地（俄属北美），后于1867年将阿拉斯加出售给美国。",
+          "en": "The Russian state prior to 1917, which held colonies in North America (Russian America) and sold Alaska to the United States in 1867."
+        }
+      }
+    },
+    {
+      "id": "阿拉斯加易手",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "阿拉斯加易手",
+          "购买阿拉斯加"
+        ],
+        "en": [
+          "Alaska Purchase"
+        ]
+      },
+      "properties": {
+        "period": "1867",
+        "description": {
+          "zh-cn": "美国以720万美元从俄罗斯帝国购买阿拉斯加的交易。此次收购最初被一些美国人批评为“西华德的蠢事”。",
+          "en": "The transaction in which the United States acquired Alaska from the Russian Empire for $7.2 million. The acquisition was initially criticized by some Americans as 'Seward's Folly'."
+        }
+      }
+    },
+    {
+      "id": "克里米亚战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "克里米亚战争"
+        ],
+        "en": [
+          "Crimean War"
+        ]
+      },
+      "properties": {
+        "period": "1853 - 1856",
+        "description": {
+          "zh-cn": "1853年在欧洲爆发的战争，促使俄国因担心阿拉斯加被英国夺取而考虑将其出售。",
+          "en": "A war that broke out in Europe in 1853, which led Russia to consider selling Alaska due to fears of it being seized by Great Britain."
+        }
+      }
+    },
+    {
+      "id": "威廉·西华德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·西华德"
+        ],
+        "en": [
+          "William H. Seward"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任美国国务卿，主导并完成了阿拉斯加的购买交易。",
+          "en": "The U.S. Secretary of State at the time, who led and completed the Alaska Purchase."
+        }
+      }
+    },
+    {
+      "id": "俄属北美",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "俄属北美"
+        ],
+        "en": [
+          "Russian America"
+        ]
+      },
+      "properties": {
+        "period": "1733 - 1867",
+        "description": {
+          "zh-cn": "俄罗斯帝国在北美洲的殖民地，其统治随着阿拉斯加被出售给美国而结束。",
+          "en": "The colonial possessions of the Russian Empire in North America, whose rule ended with the sale of Alaska to the United States."
+        }
+      }
+    },
+    {
+      "id": "格里戈里·舍利霍夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "格里戈里·舍利霍夫"
+        ],
+        "en": [
+          "Grigory Shelikhov"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯帝国海事毛皮贸易家，参与创办俄美公司，并与阿瓦乌克大屠杀有关。",
+          "en": "A Russian maritime fur trader who was involved in founding the Russian-American Company and was connected to the Awa'uq Massacre."
+        }
+      }
+    },
+    {
+      "id": "尼古拉·列扎诺夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "尼古拉·列扎诺夫"
+        ],
+        "en": [
+          "Nikolai Rezanov"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "与格里戈里·舍利霍夫共同创办了俄美公司。",
+          "en": "Co-founded the Russian-American Company with Grigory Shelikhov."
+        }
+      }
+    },
+    {
+      "id": "俄美公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄美公司"
+        ],
+        "en": [
+          "Russian-American Company"
+        ]
+      },
+      "properties": {
+        "period": "1799 - 1881",
+        "description": {
+          "zh-cn": "由格里戈里·舍利霍夫和尼古拉·列扎诺夫创办的半官方性质的殖民贸易公司，在俄属北美进行贸易活动。",
+          "en": "A semi-official colonial trading company founded by Grigory Shelikhov and Nikolai Rezanov, which conducted trade activities in Russian America."
+        }
+      }
+    },
+    {
+      "id": "阿瓦乌克大屠杀",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "阿瓦乌克大屠杀"
+        ],
+        "en": [
+          "Awa'uq Massacre"
+        ]
+      },
+      "properties": {
+        "period": "1784-08-14",
+        "location": {
+          "zh-cn": "锡特卡利达克岛",
+          "en": "Sitkalidak Island"
+        },
+        "description": {
+          "zh-cn": "俄罗斯殖民者对科迪亚克岛地区原住民（阿鲁提克人）的一次屠杀事件。",
+          "en": "A massacre of native Alutiiq people in the Kodiak Island region by Russian colonizers."
+        }
+      }
+    },
+    {
+      "id": "阿鲁提克人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿鲁提克人"
+        ],
+        "en": [
+          "Alutiiq people"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "居住在阿拉斯加科迪亚克岛地区的原住民族群，在1784年的阿瓦乌克大屠杀中遭受严重伤亡。",
+          "en": "An indigenous people of the Kodiak Island region in Alaska who suffered heavy casualties in the Awa'uq Massacre of 1784."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国，在第二次世界大战的阿留申群岛战役中入侵并占领了阿拉斯加的部分岛屿。",
+          "en": "The Empire of Japan, which invaded and occupied parts of Alaska's Aleutian Islands during the Aleutian Islands Campaign in World War II."
+        }
+      }
+    },
+    {
+      "id": "阿留申群岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "阿留申群岛"
+        ],
+        "en": [
+          "Aleutian Islands"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由超过300座火山岛屿组成的群岛链，在二战期间部分岛屿曾被日军占领。",
+          "en": "A chain of more than 300 volcanic islands, some of which were occupied by Japanese forces during World War II."
+        }
+      }
+    },
+    {
+      "id": "阿拉斯加领地",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿拉斯加领地"
+        ],
+        "en": [
+          "Territory of Alaska"
+        ]
+      },
+      "properties": {
+        "period": "1912-05-11 - 1959-01-03",
+        "description": {
+          "zh-cn": "阿拉斯加在1912年至1959年间作为美国建制领地的政治实体，直到其正式成为一个州。",
+          "en": "The political entity of Alaska as an incorporated territory of the United States from 1912 to 1959, until it was admitted to the Union as a state."
+        }
+      }
+    },
+    {
+      "id": "德怀特·艾森豪威尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "德怀特·艾森豪威尔"
+        ],
+        "en": [
+          "Dwight D. Eisenhower"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第34任总统，于1958年签署了阿拉斯加建州法令。",
+          "en": "The 34th President of the United States, who signed the Alaska Statehood Act in 1958."
+        }
+      }
+    },
+    {
+      "id": "Alaska Statehood Act",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "阿拉斯加建州法令"
+        ],
+        "en": [
+          "Alaska Statehood Act"
+        ]
+      },
+      "properties": {
+        "period": "1958-07-07",
+        "description": {
+          "zh-cn": "由美国国会批准、艾森豪威尔总统签署的法案，使阿拉斯加于1959年1月3日正式成为美国第49个州。",
+          "en": "An act passed by the U.S. Congress and signed by President Eisenhower, which admitted Alaska as the 49th state of the U.S. on January 3, 1959."
+        }
+      }
+    },
+    {
+      "id": "耶稣受难日地震",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "耶稣受难日地震"
+        ],
+        "en": [
+          "Good Friday earthquake"
+        ]
+      },
+      "properties": {
+        "period": "1964-03-27",
+        "location": {
+          "zh-cn": "威廉王子湾",
+          "en": "Prince William Sound"
+        },
+        "description": {
+          "zh-cn": "1964年发生在阿拉斯加的一场矩震级达9.2的强烈地震，造成133人死亡，并对沿海地区造成严重破坏。",
+          "en": "A powerful earthquake with a moment magnitude of 9.2 that occurred in Alaska in 1964, causing 133 deaths and severe damage to coastal areas."
+        }
+      }
+    },
+    {
+      "id": "普拉德霍湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "普拉德霍湾"
+        ],
+        "en": [
+          "Prudhoe Bay"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于阿拉斯加北坡的地区，拥有北美最大的常规油田，其1968年的发现极大地推动了阿拉斯加的石油工业。",
+          "en": "An area on the North Slope of Alaska, home to the largest conventional oil field in North America, whose discovery in 1968 greatly boosted Alaska's oil industry."
+        }
+      }
+    },
+    {
+      "id": "纵贯阿拉斯加管道",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纵贯阿拉斯加管道"
+        ],
+        "en": [
+          "Trans-Alaska Pipeline System"
+        ]
+      },
+      "properties": {
+        "period": "1977 - ",
+        "description": {
+          "zh-cn": "为应对1968年普拉德霍湾油田的发现而修建的输油管道系统，于1977年完工，成为阿拉斯加经济的重要支柱。",
+          "en": "An oil transportation system built in response to the 1968 discovery of oil in Prudhoe Bay, completed in 1977, which became a vital pillar of Alaska's economy."
+        }
+      }
+    },
+    {
+      "id": "迈克·邓利维 (政治人物)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "迈克·邓利维 (政治人物)",
+          "迈克·邓利维"
+        ],
+        "en": [
+          "Mike Dunleavy"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "现任阿拉斯加州州长，共和党成员。",
+          "en": "The current Governor of Alaska, a member of the Republican Party."
+        }
+      }
+    },
+    {
+      "id": "共和党 (美国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "共和党 (美国)",
+          "共和党"
+        ],
+        "en": [
+          "Republican Party (United States)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国两大主要政党之一。",
+          "en": "One of the two major political parties in the United States."
+        }
+      }
+    },
+    {
+      "id": "丽莎·穆尔科斯基",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丽莎·穆尔科斯基"
+        ],
+        "en": [
+          "Lisa Murkowski"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "代表阿拉斯加州的美国参议员，共和党成员。",
+          "en": "A United States Senator representing Alaska, a member of the Republican Party."
+        }
+      }
+    },
+    {
+      "id": "美国参议院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国参议院",
+          "参议院"
+        ],
+        "en": [
+          "United States Senate"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国国会的两院之一。",
+          "en": "One of the two chambers of the United States Congress."
+        }
+      }
+    },
+    {
+      "id": "丹·沙利文 (美国政治人物)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丹·沙利文 (美国政治人物)",
+          "丹·沙利文"
+        ],
+        "en": [
+          "Dan Sullivan (U.S. politician)"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "代表阿拉斯加州的美国参议员，共和党成员。",
+          "en": "A United States Senator representing Alaska, a member of the Republican Party."
+        }
+      }
+    },
+    {
+      "id": "玛丽·佩尔托拉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "玛丽·佩尔托拉"
+        ],
+        "en": [
+          "Mary Peltola"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "代表阿拉斯加州单一国会选区的美国众议员，民主党成员。",
+          "en": "The U.S. Representative for Alaska's at-large congressional district, a member of the Democratic Party."
+        }
+      }
+    },
+    {
+      "id": "美国众议院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国众议院",
+          "众议院"
+        ],
+        "en": [
+          "United States House of Representatives"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国国会的两院之一。",
+          "en": "One of the two chambers of the United States Congress."
+        }
+      }
+    },
+    {
+      "id": "民主党 (美国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主党 (美国)",
+          "民主党"
+        ],
+        "en": [
+          "Democratic Party (United States)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国两大主要政党之一。",
+          "en": "One of the two major political parties in the United States."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "克里米亚战争",
+      "target": "阿拉斯加易手",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1853",
+        "description": {
+          "zh-cn": "克里米亚战争的爆发使俄国担心阿拉斯加殖民地被英国夺走，从而促使其考虑并最终向美国提议出售该地区。",
+          "en": "The outbreak of the Crimean War made Russia fear that its Alaskan colony would be seized by Great Britain, prompting it to consider and eventually propose the sale of the territory to the United States."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯帝国",
+      "target": "阿拉斯加易手",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1867-03-30",
+        "description": {
+          "zh-cn": "俄罗斯帝国向美国提议出售阿拉斯加，并最终以720万美元的价格成交。",
+          "en": "The Russian Empire proposed the sale of Alaska to the United States and eventually completed the transaction for $7.2 million."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "阿拉斯加易手",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1867-03-30",
+        "description": {
+          "zh-cn": "美国同意并完成了从俄罗斯帝国购买阿拉斯加的交易。",
+          "en": "The United States agreed to and completed the purchase of Alaska from the Russian Empire."
+        }
+      }
+    },
+    {
+      "source": "威廉·西华德",
+      "target": "阿拉斯加易手",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1867",
+        "description": {
+          "zh-cn": "作为时任美国国务卿，威廉·西华德是购买阿拉斯加的主要推动者和谈判者。",
+          "en": "As the U.S. Secretary of State at the time, William H. Seward was the primary advocate and negotiator for the Alaska Purchase."
+        }
+      }
+    },
+    {
+      "source": "阿拉斯加易手",
+      "target": "俄属北美",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1867-10-18",
+        "description": {
+          "zh-cn": "阿拉斯加的出售标志着俄罗斯帝国在北美殖民统治的结束。",
+          "en": "The sale of Alaska marked the end of the Russian Empire's colonial rule in North America."
+        }
+      }
+    },
+    {
+      "source": "格里戈里·舍利霍夫",
+      "target": "俄美公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1799",
+        "description": {
+          "zh-cn": "格里戈里·舍利霍夫与尼古拉·列扎诺夫共同创办了俄美公司。",
+          "en": "Grigory Shelikhov co-founded the Russian-American Company with Nikolai Rezanov."
+        }
+      }
+    },
+    {
+      "source": "尼古拉·列扎诺夫",
+      "target": "俄美公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1799",
+        "description": {
+          "zh-cn": "尼古拉·列扎诺夫与格里戈里·舍利霍夫共同创办了俄美公司。",
+          "en": "Nikolai Rezanov co-founded the Russian-American Company with Grigory Shelikhov."
+        }
+      }
+    },
+    {
+      "source": "格里戈里·舍利霍夫",
+      "target": "阿瓦乌克大屠杀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1784-08-14",
+        "description": {
+          "zh-cn": "俄罗斯殖民者在格里戈里·舍利霍夫的指引下，对当地原住民制造了阿瓦乌克大屠杀。",
+          "en": "Under the guidance of Grigory Shelikhov, Russian colonizers carried out the Awa'uq Massacre against the local indigenous people."
+        }
+      }
+    },
+    {
+      "source": "阿瓦乌克大屠杀",
+      "target": "阿鲁提克人",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1784-08-14",
+        "description": {
+          "zh-cn": "这场屠杀导致了500至3000名阿鲁提克人死亡，并使他们从此受俄罗斯贸易家控制。",
+          "en": "This massacre resulted in the deaths of 500 to 3,000 Alutiiq people and brought them under the control of Russian traders thereafter."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "阿留申群岛",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1942",
+        "end_date": "1943",
+        "description": {
+          "zh-cn": "在第二次世界大战期间，日军入侵并短暂占领了阿留申群岛的阿图岛、阿加图岛和基斯卡岛。",
+          "en": "During World War II, Japanese forces invaded and briefly occupied the Aleutian islands of Attu, Agattu, and Kiska."
+        }
+      }
+    },
+    {
+      "source": "德怀特·艾森豪威尔",
+      "target": "Alaska Statehood Act",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1958-07-07",
+        "description": {
+          "zh-cn": "作为美国总统，德怀特·艾森豪威尔签署了《阿拉斯加建州法令》，批准阿拉斯加建州。",
+          "en": "As President of the United States, Dwight D. Eisenhower signed the Alaska Statehood Act, approving Alaska's admission to the Union."
+        }
+      }
+    },
+    {
+      "source": "Alaska Statehood Act",
+      "target": "阿拉斯加州",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1959-01-03",
+        "description": {
+          "zh-cn": "该法案的生效使阿拉斯加正式成为美国的第49个州。",
+          "en": "The enactment of this act officially made Alaska the 49th state of the United States."
+        }
+      }
+    },
+    {
+      "source": "阿拉斯加州",
+      "target": "阿拉斯加领地",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1959-01-03",
+        "description": {
+          "zh-cn": "阿拉斯加正式建州，从而结束了其作为美国建制领地的地位。",
+          "en": "Alaska's official statehood ended its status as an incorporated territory of the United States."
+        }
+      }
+    },
+    {
+      "source": "耶稣受难日地震",
+      "target": "阿拉斯加州",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1964-03-27",
+        "description": {
+          "zh-cn": "这场强烈的地震及其引发的海啸和山体滑坡摧毁了阿拉斯加多个村庄和沿海聚居区，造成重大人员伤亡和财产损失。",
+          "en": "This powerful earthquake and its resulting tsunamis and landslides destroyed several villages and coastal communities in Alaska, causing significant casualties and property damage."
+        }
+      }
+    },
+    {
+      "source": "普拉德霍湾",
+      "target": "纵贯阿拉斯加管道",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1968",
+        "description": {
+          "zh-cn": "1968年在普拉德霍湾发现大量石油，直接促成了纵贯阿拉斯加管道的规划和修建。",
+          "en": "The discovery of a large oil field in Prudhoe Bay in 1968 directly led to the planning and construction of the Trans-Alaska Pipeline System."
+        }
+      }
+    },
+    {
+      "source": "纵贯阿拉斯加管道",
+      "target": "阿拉斯加州",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1977",
+        "description": {
+          "zh-cn": "管道于1977年建成后，极大地促进了阿拉斯加石油业的发展，成为州财政和经济的重要支柱。",
+          "en": "After its completion in 1977, the pipeline greatly boosted Alaska's oil industry, becoming a crucial pillar of the state's finances and economy."
+        }
+      }
+    },
+    {
+      "source": "迈克·邓利维 (政治人物)",
+      "target": "阿拉斯加州",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "州长",
+          "en": "Governor"
+        },
+        "description": {
+          "zh-cn": "迈克·邓利维是阿拉斯加州现任州长。",
+          "en": "Mike Dunleavy is the current Governor of the State of Alaska."
+        }
+      }
+    },
+    {
+      "source": "迈克·邓利维 (政治人物)",
+      "target": "共和党 (美国)",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "丽莎·穆尔科斯基",
+      "target": "美国参议院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "参议员",
+          "en": "Senator"
+        },
+        "description": {
+          "zh-cn": "丽莎·穆尔科斯基是代表阿拉斯加州的美国参议员之一。",
+          "en": "Lisa Murkowski is one of the U.S. Senators representing Alaska."
+        }
+      }
+    },
+    {
+      "source": "丽莎·穆尔科斯基",
+      "target": "共和党 (美国)",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "丹·沙利文 (美国政治人物)",
+      "target": "美国参议院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "参议员",
+          "en": "Senator"
+        },
+        "description": {
+          "zh-cn": "丹·沙利文是代表阿拉斯加州的美国参议员之一。",
+          "en": "Dan Sullivan is one of the U.S. Senators representing Alaska."
+        }
+      }
+    },
+    {
+      "source": "丹·沙利文 (美国政治人物)",
+      "target": "共和党 (美国)",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "玛丽·佩尔托拉",
+      "target": "美国众议院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "众议员",
+          "en": "Representative"
+        },
+        "description": {
+          "zh-cn": "玛丽·佩尔托拉是代表阿拉斯加州单一国会选区的美国众议员。",
+          "en": "Mary Peltola is the U.S. Representative for Alaska's at-large congressional district."
+        }
+      }
+    },
+    {
+      "source": "玛丽·佩尔托拉",
+      "target": "民主党 (美国)",
+      "type": "MEMBER_OF",
+      "properties": {}
+    }
+  ]
+}

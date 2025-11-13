@@ -1,0 +1,328 @@
+{
+  "nodes": [
+    {
+      "id": "顾慰连",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "顾慰连"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1931 - 1990",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "无锡",
+          "en": "Wuxi"
+        },
+        "description": {
+          "zh-cn": "中国作物栽培学与耕作学家、农业教育家，曾任沈阳农业大学校长、教授、博士生导师，以及中国农学会理事。",
+          "en": "A Chinese expert in crop cultivation and tillage, and an agricultural educator. He served as president, professor, and doctoral supervisor at Shenyang Agricultural University, and was a council member of the Chinese Association of Agricultural Science Societies."
+        }
+      }
+    },
+    {
+      "id": "顾毓琇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "顾毓琇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "顾慰连之父。",
+          "en": "Father of Gu Weilian."
+        }
+      }
+    },
+    {
+      "id": "沈阳农业大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沈阳农业大学"
+        ],
+        "en": [
+          "Shenyang Agricultural University"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "沈阳",
+          "en": "Shenyang"
+        },
+        "description": {
+          "zh-cn": "位于中国辽宁省沈阳市的一所高等农业院校。",
+          "en": "An institution of higher agricultural education located in Shenyang, Liaoning Province, China."
+        }
+      }
+    },
+    {
+      "id": "中国农学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国农学会"
+        ],
+        "en": [
+          "Chinese Association of Agricultural Science Societies"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国农业科学技术工作者组成的全国性、学术性、非营利性的社会组织。",
+          "en": "A national, academic, non-profit social organization composed of Chinese agricultural science and technology workers."
+        }
+      }
+    },
+    {
+      "id": "无锡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "无锡"
+        ],
+        "en": [
+          "Wuxi"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国江苏省下辖的地级市。",
+          "en": "A prefecture-level city in Jiangsu Province, China."
+        }
+      }
+    },
+    {
+      "id": "复旦大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "复旦大学"
+        ],
+        "en": [
+          "Fudan University"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "上海",
+          "en": "Shanghai"
+        },
+        "description": {
+          "zh-cn": "位于中国上海市的一所综合性研究型大学。",
+          "en": "A comprehensive research university located in Shanghai, China."
+        }
+      }
+    },
+    {
+      "id": "沈阳农学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沈阳农学院"
+        ],
+        "en": [
+          "Shenyang Agricultural College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "沈阳农业大学的前身。",
+          "en": "The predecessor of Shenyang Agricultural University."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "国务院学位委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院学位委员会"
+        ],
+        "en": [
+          "Academic Degrees Committee of the State Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院设立的领导全国学位工作的机构。",
+          "en": "An organization established by the State Council of the People's Republic of China to lead the work on academic degrees nationwide."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "顾慰连",
+      "target": "顾毓琇",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "顾慰连是顾毓琇的儿子。",
+          "en": "Gu Weilian is the son of Gu Yuxiu."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "无锡",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "顾慰连是江苏无锡人。",
+          "en": "Gu Weilian was a native of Wuxi, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "沈阳农业大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "曾任沈阳农业大学校长。",
+          "en": "Served as the President of Shenyang Agricultural University."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "沈阳农业大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副校长",
+          "en": "Vice President"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“沈阳农业大学副校长”可知，顾慰连曾任该校副校长。",
+          "en": "According to the page category 'Vice Presidents of Shenyang Agricultural University', Gu Weilian served as the vice president of the university."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "沈阳农业大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授、博士生导师",
+          "en": "Professor, Doctoral Supervisor"
+        },
+        "description": {
+          "zh-cn": "曾任沈阳农业大学教授、博士生导师。",
+          "en": "Served as a professor and doctoral supervisor at Shenyang Agricultural University."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "中国农学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "理事",
+          "en": "Council Member"
+        },
+        "description": {
+          "zh-cn": "曾任中国农学会理事。",
+          "en": "Served as a council member of the Chinese Association of Agricultural Science Societies."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "中国农学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副会长",
+          "en": "Vice President"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“中国农学会副会长”可知，顾慰连曾任该会副会长。",
+          "en": "According to the page category 'Vice Presidents of the Chinese Association of Agricultural Science Societies', Gu Weilian served as the vice president of the association."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "复旦大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据页面分类“复旦大学校友”可知，顾慰连是复旦大学的校友。",
+          "en": "According to the page category 'Fudan University alumni', Gu Weilian was an alumnus of Fudan University."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "沈阳农学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据页面分类“沈阳农学院校友”可知，顾慰连是沈阳农学院的校友。",
+          "en": "According to the page category 'Shenyang Agricultural College alumni', Gu Weilian was an alumnus of Shenyang Agricultural College."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“中国共产党党员”可知，顾慰连是中国共产党员。",
+          "en": "According to the page category 'Communist Party of China members', Gu Weilian was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "顾慰连",
+      "target": "国务院学位委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第二届学科评议组成员",
+          "en": "Member of the 2nd Academic Appraisal Group"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“国务院学位委员会第二届学科评议组成员”可知，顾慰连是该评议组成员。",
+          "en": "According to the page category 'Members of the 2nd Academic Appraisal Group of the State Council Academic Degrees Committee', Gu Weilian was a member of this appraisal group."
+        }
+      }
+    }
+  ]
+}
