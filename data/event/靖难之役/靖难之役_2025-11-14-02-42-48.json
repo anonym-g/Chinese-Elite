@@ -1,0 +1,780 @@
+{
+  "nodes": [
+    {
+      "id": "靖难之役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "靖难之役",
+          "靖难之变"
+        ],
+        "en": [
+          "Jingnan Campaign"
+        ]
+      },
+      "properties": {
+        "period": "1399-08-06 - 1402-07-13",
+        "location": {
+          "zh-cn": "中国华北、华东地区",
+          "en": "North and East China"
+        },
+        "description": {
+          "zh-cn": "明朝初年建文帝在位时发生的一场因削藩政策及争夺皇位引发的内战。最终燕王朱棣获胜，夺取皇位，是为明成祖。",
+          "en": "A civil war in the early Ming Dynasty during the reign of the Jianwen Emperor, sparked by the policy of reducing the power of imperial princes and a struggle for the throne. It ended with the victory of Zhu Di, the Prince of Yan, who then became the Yongle Emperor."
+        }
+      }
+    },
+    {
+      "id": "建文帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "建文帝",
+          "朱允炆",
+          "明惠帝"
+        ],
+        "en": [
+          "Jianwen Emperor",
+          "Zhu Yunwen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1377-12-05 - 1402",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第二位皇帝，明太祖朱元璋之孙。其推行的削藩政策直接引发了靖难之役，最终在燕军攻破南京后下落不明。",
+          "en": "The second emperor of the Ming Dynasty, grandson of the Hongwu Emperor. His policy of reducing the power of vassal princes directly triggered the Jingnan Campaign, and he disappeared after the Prince of Yan's forces captured Nanjing."
+        }
+      }
+    },
+    {
+      "id": "明成祖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明成祖",
+          "朱棣",
+          "燕王"
+        ],
+        "en": [
+          "Yongle Emperor",
+          "Zhu Di"
+        ]
+      },
+      "properties": {
+        "lifetime": "1360-05-02 - 1424-08-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第三位皇帝，明太祖朱元璋第四子。初封燕王，驻守北平。因不满建文帝的削藩政策，发动靖难之役并成功夺取皇位。",
+          "en": "The third emperor of the Ming Dynasty, the fourth son of the Hongwu Emperor. Initially enfeoffed as the Prince of Yan based in Beiping. Dissatisfied with the Jianwen Emperor's policies, he launched the Jingnan Campaign and successfully seized the throne."
+        }
+      }
+    },
+    {
+      "id": "削藩政策",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "削藩政策",
+          "削藩"
+        ],
+        "en": [
+          "Policy of reducing feudatories"
+        ]
+      },
+      "properties": {
+        "period": "1398 - 1399",
+        "description": {
+          "zh-cn": "建文帝采纳齐泰、黄子澄等大臣的建议，旨在削弱各地藩王势力的国策。此政策操之过急，激化了中央与藩王的矛盾，成为靖难之役的直接导火索。",
+          "en": "A state policy adopted by the Jianwen Emperor, on the advice of ministers like Qi Tai and Huang Zicheng, aimed at weakening the power of regional princes. Its hasty implementation intensified conflicts between the central government and the princes, directly triggering the Jingnan Campaign."
+        }
+      }
+    },
+    {
+      "id": "李景隆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李景隆"
+        ],
+        "en": [
+          "Li Jinglong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1369 - 1422",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝将领，曹国公。在靖难之役中接替耿炳文担任总帅，指挥中央军主力，但屡战屡败。最终在燕军兵临城下时，打开金川门投降。",
+          "en": "A general of the Ming Dynasty and Duke of Cao. During the Jingnan Campaign, he took over command from Geng Bingwen but suffered repeated defeats. He ultimately surrendered by opening the Jinchan Gate when the Yan army reached the capital."
+        }
+      }
+    },
+    {
+      "id": "壬午之难",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "壬午之难"
+        ],
+        "en": [
+          "Renwu Purge"
+        ]
+      },
+      "properties": {
+        "period": "1402",
+        "location": {
+          "zh-cn": "应天府 (明朝)",
+          "en": "Yingtian Fu (Ming dynasty)"
+        },
+        "description": {
+          "zh-cn": "靖难之役结束后，明成祖对忠于建文帝的臣子进行的大规模政治清洗和屠杀事件，其中方孝孺被诛十族最为惨烈。",
+          "en": "A large-scale political purge and massacre of officials loyal to the Jianwen Emperor, carried out by the Yongle Emperor after the Jingnan Campaign. The execution of Fang Xiaoru and the alleged extermination of his ten degrees of kinship is the most notorious case."
+        }
+      }
+    },
+    {
+      "id": "方孝孺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "方孝孺"
+        ],
+        "en": [
+          "Fang Xiaoru"
+        ]
+      },
+      "properties": {
+        "lifetime": "1357 - 1402-07-25",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明代大臣、学者、文学家，建文帝的重臣。因在靖难之役后拒绝为朱棣草拟即位诏书，被处以极刑，并据传遭诛十族。",
+          "en": "A Ming dynasty minister, scholar, and writer, and a key advisor to the Jianwen Emperor. After the Jingnan Campaign, he refused to draft the enthronement edict for Zhu Di and was executed, allegedly with his ten degrees of kinship."
+        }
+      }
+    },
+    {
+      "id": "齐泰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "齐泰"
+        ],
+        "en": [
+          "Qi Tai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1351 - 1402",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "建文帝时期的兵部尚书，削藩政策的主要倡议者之一。靖难之役后被朱棣视为“奸臣”之首并处死。",
+          "en": "Minister of War during the Jianwen Emperor's reign and one of the main proponents of the policy to reduce the power of princes. He was labeled a 'treacherous official' by Zhu Di and executed after the Jingnan Campaign."
+        }
+      }
+    },
+    {
+      "id": "黄子澄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄子澄"
+        ],
+        "en": [
+          "Huang Zicheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1350 - 1402",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "建文帝的太常寺卿，与齐泰同为削藩政策的主要倡议者。靖难之役后被朱棣视为“奸臣”之首并处死。",
+          "en": "Minister of the Court of Imperial Sacrifices and a key advisor to the Jianwen Emperor. Along with Qi Tai, he was a major advocate for the policy of reducing princely power. He was labeled a 'treacherous official' by Zhu Di and executed after the Jingnan Campaign."
+        }
+      }
+    },
+    {
+      "id": "朱元璋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱元璋",
+          "明太祖"
+        ],
+        "en": [
+          "Hongwu Emperor",
+          "Zhu Yuanzhang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1328-10-21 - 1398-06-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝开国皇帝。其建立的分封藩王制度，虽意在巩固朱氏统治，却为日后的靖难之役埋下了伏笔。",
+          "en": "The founding emperor of the Ming Dynasty. The system of enfeoffing princes he established, intended to consolidate the Zhu family's rule, inadvertently set the stage for the later Jingnan Campaign."
+        }
+      }
+    },
+    {
+      "id": "耿炳文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "耿炳文"
+        ],
+        "en": [
+          "Geng Bingwen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1334 - 1403",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝开国将领，宿将。在靖难之役初期被建文帝任命为征虏大将军，率军北伐，但在真定被燕军击败。",
+          "en": "A founding general of the Ming Dynasty and a veteran commander. At the beginning of the Jingnan Campaign, he was appointed by the Jianwen Emperor to lead the northern expedition but was defeated by the Yan army at Zhending."
+        }
+      }
+    },
+    {
+      "id": "盛庸",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "盛庸"
+        ],
+        "en": [
+          "Sheng Yong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝将领。在靖难之役中，于济南和东昌等地多次击败燕军，是建文帝麾下战功卓著的将领之一。最终兵败降燕。",
+          "en": "A general of the Ming Dynasty. During the Jingnan Campaign, he repeatedly defeated the Yan army at places like Jinan and Dongchang, becoming one of the most accomplished commanders under the Jianwen Emperor. He eventually surrendered after his forces were defeated."
+        }
+      }
+    },
+    {
+      "id": "铁铉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "铁铉"
+        ],
+        "en": [
+          "Tie Xuan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1366 - 1402",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝大臣。在靖难之役期间坚守济南，多次击退燕军围攻，智勇双全。兵败被俘后，因忠于建文帝、不屈于朱棣而被处死。",
+          "en": "A minister of the Ming Dynasty. During the Jingnan Campaign, he staunchly defended Jinan and repelled several sieges by the Yan army. After being captured, he remained loyal to the Jianwen Emperor and was executed for his defiance of Zhu Di."
+        }
+      }
+    },
+    {
+      "id": "朱权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱权",
+          "宁献王"
+        ],
+        "en": [
+          "Zhu Quan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1378-05-27 - 1448-10-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明太祖第十七子，初封宁王，藩地大宁，拥有精锐的朵颜三卫骑兵。在靖难之役中被朱棣胁迫，其军队被吞并。",
+          "en": "The 17th son of the Hongwu Emperor, initially the Prince of Ning with his fief at Daning. He commanded the elite Doyan Guard cavalry. During the Jingnan Campaign, he was coerced by Zhu Di, and his forces were absorbed."
+        }
+      }
+    },
+    {
+      "id": "张玉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张玉"
+        ],
+        "en": [
+          "Zhang Yu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1343 - 1401",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明成祖朱棣的重要将领，被朱棣视为“良将”。在靖难之役的东昌之战中为救朱棣而战死。",
+          "en": "A key general under Zhu Di, regarded by him as a 'great general'. He was killed in action during the Battle of Dongchang while rescuing Zhu Di."
+        }
+      }
+    },
+    {
+      "id": "朱能 (明朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱能 (明朝)",
+          "朱能"
+        ],
+        "en": [
+          "Zhu Neng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1370 - 1406",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明成祖朱棣的得力将领，在靖难之役中战功卓著，多次解救朱棣于危难之中。后封成国公。",
+          "en": "An effective general under Zhu Di who achieved outstanding military merit during the Jingnan Campaign, rescuing Zhu Di from peril on multiple occasions. He was later enfeoffed as the Duke of Cheng."
+        }
+      }
+    },
+    {
+      "id": "姚广孝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "姚广孝",
+          "道衍"
+        ],
+        "en": [
+          "Yao Guangxiao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1335 - 1418",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝政治家、僧人，法名道衍。他是朱棣发动靖难之役的主要策划者和谋士。",
+          "en": "A Ming dynasty statesman and Buddhist monk, also known by his dharma name Daoyan. He was the chief strategist and advisor who planned the Jingnan Campaign for Zhu Di."
+        }
+      }
+    },
+    {
+      "id": "皇明祖训",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "皇明祖训"
+        ],
+        "en": [
+          "Huang-Ming Zuxun"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明太祖朱元璋为其后世子孙所制定的家法。其中“朝无正臣，内有奸恶，则亲王训兵待命”的条文，被朱棣用作发动靖难之役的法理依据。",
+          "en": "The ancestral instructions established by the Hongwu Emperor for his descendants. A clause stating that a prince could raise troops if there were treacherous officials at court was used by Zhu Di as the legal justification for launching the Jingnan Campaign."
+        }
+      }
+    },
+    {
+      "id": "金川门之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "金川门之变"
+        ],
+        "en": [
+          "Jinchanmen Incident"
+        ]
+      },
+      "properties": {
+        "period": "1402-07-13",
+        "location": {
+          "zh-cn": "应天府 (明朝)",
+          "en": "Yingtian Fu (Ming dynasty)"
+        },
+        "description": {
+          "zh-cn": "靖难之役末期，负责守卫南京金川门的李景隆和谷王朱橞开门投降，导致燕军兵不血刃进入京城，建文帝政权覆亡。",
+          "en": "At the end of the Jingnan Campaign, Li Jinglong and Prince of Gu Zhu Hui, who were defending Nanjing's Jinchan Gate, opened the gates and surrendered. This allowed the Yan army to enter the capital without a fight, leading to the collapse of the Jianwen Emperor's regime."
+        }
+      }
+    },
+    {
+      "id": "明朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明朝",
+          "大明"
+        ],
+        "en": [
+          "Ming dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1368 - 1644",
+        "description": {
+          "zh-cn": "中国历史上的一个朝代。靖难之役是其皇室内的一次大规模权力斗争。",
+          "en": "A dynasty in Chinese history. The Jingnan Campaign was a major internal power struggle within its imperial family."
+        }
+      }
+    },
+    {
+      "id": "东昌之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "东昌之战"
+        ]
+      },
+      "properties": {
+        "period": "1400-12",
+        "location": {
+          "zh-cn": "东昌",
+          "en": "Dongchang"
+        },
+        "description": {
+          "zh-cn": "靖难之役中的一场重要战役。建文帝的将领盛庸在此大败燕军，是中央军取得的首次大捷，燕军大将张玉在此战中阵亡。",
+          "en": "A major battle during the Jingnan Campaign. The Jianwen Emperor's general Sheng Yong inflicted a major defeat on the Yan army, marking the first significant victory for the imperial forces. The Yan general Zhang Yu was killed in this battle."
+        }
+      }
+    },
+    {
+      "id": "应天府 (明朝)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "应天府 (明朝)",
+          "应天府",
+          "帝都",
+          "金陵",
+          "南京"
+        ],
+        "en": [
+          "Yingtian Fu (Ming dynasty)",
+          "Nanjing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝初年的首都。在靖难之役最后阶段被燕军攻陷。",
+          "en": "The capital of the early Ming Dynasty. It was captured by the Yan army in the final stage of the Jingnan Campaign."
+        }
+      }
+    },
+    {
+      "id": "朱标",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱标",
+          "懿文太子"
+        ],
+        "en": [
+          "Zhu Biao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1355-10-10 - 1392-05-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明太祖朱元璋长子，被立为皇太子。其早逝导致朱元璋立其子朱允炆为皇太孙，间接引发了后来的皇位继承纷争。",
+          "en": "The eldest son of the Hongwu Emperor and the crown prince. His early death led to his son, Zhu Yunwen, being named crown grandson, which indirectly contributed to the subsequent succession dispute."
+        }
+      }
+    },
+    {
+      "id": "朱橞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱橞",
+          "谷王"
+        ],
+        "en": [
+          "Zhu Hui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明太祖第十九子，封谷王。靖难之役末期，与李景隆一同开金川门投降燕军。",
+          "en": "The 19th son of the Hongwu Emperor, the Prince of Gu. At the end of the Jingnan Campaign, he surrendered to the Yan army along with Li Jinglong by opening the Jinchan Gate."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "建文帝",
+      "target": "削藩政策",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1398",
+        "description": {
+          "zh-cn": "建文帝即位后，与齐泰、黄子澄等大臣商议，开始实行削藩政策，以削弱各地藩王的势力。",
+          "en": "After ascending the throne, the Jianwen Emperor, in consultation with ministers like Qi Tai and Huang Zicheng, began implementing a policy to reduce the power of the princes."
+        }
+      }
+    },
+    {
+      "source": "削藩政策",
+      "target": "靖难之役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1399-08-06",
+        "description": {
+          "zh-cn": "建文帝急于求成的削藩政策激化了中央与藩王的矛盾，是靖难之役爆发的直接导火索。",
+          "en": "The Jianwen Emperor's hasty policy to reduce the power of princes intensified conflicts with the central government and was the direct trigger for the Jingnan Campaign."
+        }
+      }
+    },
+    {
+      "source": "削藩政策",
+      "target": "明成祖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1399",
+        "description": {
+          "zh-cn": "削藩政策对势力最强的燕王朱棣构成了直接威胁，促使其下定决心起兵反抗。",
+          "en": "The policy of reducing feudatories posed a direct threat to Zhu Di, the most powerful prince, prompting him to launch an armed rebellion."
+        }
+      }
+    },
+    {
+      "source": "明成祖",
+      "target": "靖难之役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1399-08-06",
+        "description": {
+          "zh-cn": "燕王朱棣以“清君侧”为名，在北平起兵，发动了靖难之役，公开反叛建文帝。",
+          "en": "Zhu Di, the Prince of Yan, launched the Jingnan Campaign from Beiping under the pretext of 'clearing the court of evil ministers', openly rebelling against the Jianwen Emperor."
+        }
+      }
+    },
+    {
+      "source": "靖难之役",
+      "target": "明成祖",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1402-07-17",
+        "description": {
+          "zh-cn": "朱棣通过靖难之役成功推翻建文帝，夺取了皇位，登基为明成祖。",
+          "en": "Through the Jingnan Campaign, Zhu Di successfully overthrew the Jianwen Emperor, seized the throne, and became the Yongle Emperor."
+        }
+      }
+    },
+    {
+      "source": "靖难之役",
+      "target": "建文帝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1402-07-13",
+        "description": {
+          "zh-cn": "在靖难之役的最后阶段，燕军攻破南京，建文帝在宫中纵火后下落不明，其统治终结。",
+          "en": "In the final stage of the Jingnan Campaign, the Yan army captured Nanjing. The Jianwen Emperor disappeared after setting fire to the palace, ending his reign."
+        }
+      }
+    },
+    {
+      "source": "靖难之役",
+      "target": "壬午之难",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1402",
+        "description": {
+          "zh-cn": "靖难之役结束后，明成祖为了巩固统治，对忠于建文帝的旧臣进行了大规模清洗，史称壬午之难。",
+          "en": "After the Jingnan Campaign, the Yongle Emperor conducted a large-scale purge of officials loyal to the Jianwen Emperor to consolidate his rule, an event known as the Renwu Purge."
+        }
+      }
+    },
+    {
+      "source": "明成祖",
+      "target": "方孝孺",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1402-07-25",
+        "description": {
+          "zh-cn": "朱棣在占领南京后，要求方孝孺草拟即位诏书，方孝孺严词拒绝，最终被朱棣下令处死并诛灭多族。",
+          "en": "After conquering Nanjing, Zhu Di ordered Fang Xiaoru to draft his enthronement edict. Fang Xiaoru vehemently refused and was subsequently executed by Zhu Di, with his lineage extensively purged."
+        }
+      }
+    },
+    {
+      "source": "明成祖",
+      "target": "齐泰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1402",
+        "description": {
+          "zh-cn": "朱棣将齐泰列为“奸臣”之首，在靖难之役成功后将其捕杀并灭族。",
+          "en": "Zhu Di labeled Qi Tai as the chief 'treacherous minister' and, after succeeding in the Jingnan Campaign, had him executed and his clan exterminated."
+        }
+      }
+    },
+    {
+      "source": "明成祖",
+      "target": "黄子澄",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1402",
+        "description": {
+          "zh-cn": "朱棣将黄子澄列为“奸臣”之首，在靖难之役成功后将其捕杀并灭族。",
+          "en": "Zhu Di labeled Huang Zicheng as the chief 'treacherous minister' and, after succeeding in the Jingnan Campaign, had him executed and his clan exterminated."
+        }
+      }
+    },
+    {
+      "source": "金川门之变",
+      "target": "靖难之役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1402-07-13",
+        "description": {
+          "zh-cn": "金川门守将李景隆和朱橞的投降，使得燕军兵不血刃地进入南京，标志着靖难之役以燕王朱棣的彻底胜利而告终。",
+          "en": "The surrender of Jinchan Gate's defenders, Li Jinglong and Zhu Hui, allowed the Yan army to enter Nanjing without resistance, marking the definitive end of the Jingnan Campaign with Zhu Di's complete victory."
+        }
+      }
+    },
+    {
+      "source": "李景隆",
+      "target": "金川门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1402-07-13",
+        "description": {
+          "zh-cn": "李景隆作为南京金川门的守将，在燕军兵临城下时开门投降，直接导致了建文帝政权的覆灭。",
+          "en": "As the defender of Nanjing's Jinchan Gate, Li Jinglong opened the gates and surrendered when the Yan army arrived, directly causing the collapse of the Jianwen Emperor's regime."
+        }
+      }
+    },
+    {
+      "source": "朱橞",
+      "target": "金川门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1402-07-13",
+        "description": {
+          "zh-cn": "谷王朱橞作为南京金川门的守将之一，与李景隆一同开门迎降燕军。",
+          "en": "Zhu Hui, Prince of Gu, as one of the defenders of Nanjing's Jinchan Gate, opened the gates along with Li Jinglong to welcome the surrendering Yan army."
+        }
+      }
+    },
+    {
+      "source": "姚广孝",
+      "target": "明成祖",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1399",
+        "description": {
+          "zh-cn": "姚广孝是朱棣发动靖难之役的主要谋士，极力劝说并协助朱棣起兵，并为其制定了“疾趋京师”的核心战略。",
+          "en": "Yao Guangxiao was the chief advisor who planned the Jingnan Campaign for Zhu Di, strongly persuading and assisting him in launching the rebellion, and devising the core strategy of a rapid march on the capital."
+        }
+      }
+    },
+    {
+      "source": "皇明祖训",
+      "target": "明成祖",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "朱棣援引《皇明祖训》中“朝无正臣，内有奸恶，则亲王训兵待命”的条款，为其起兵“清君侧”提供了法理依据。",
+          "en": "Zhu Di cited the clause in the 'Huang-Ming Zuxun' that allowed a prince to raise troops against 'treacherous ministers at court' to provide a legal basis for his campaign to 'cleanse the emperor's surroundings'."
+        }
+      }
+    },
+    {
+      "source": "盛庸",
+      "target": "明成祖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1400-12",
+        "description": {
+          "zh-cn": "在东昌之战中，盛庸指挥中央军大败燕军，是建文帝军队在正面战场上取得的首次重大胜利。",
+          "en": "In the Battle of Dongchang, Sheng Yong commanded the imperial forces to a major victory over the Yan army, marking the first significant success for the Jianwen Emperor's forces in a frontal engagement."
+        }
+      }
+    },
+    {
+      "source": "铁铉",
+      "target": "明成祖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1400-05",
+        "end_date": "1400-08",
+        "description": {
+          "zh-cn": "在济南之战中，铁铉率军民坚守城池达三个月之久，多次击退朱棣的进攻，迫使燕军最终撤围。",
+          "en": "During the Battle of Jinan, Tie Xuan led the defense of the city for three months, repelling multiple attacks from Zhu Di and ultimately forcing the Yan army to lift the siege."
+        }
+      }
+    },
+    {
+      "source": "东昌之战",
+      "target": "张玉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1401",
+        "description": {
+          "zh-cn": "燕军大将张玉在东昌之战中为救援被围的朱棣而力战身亡。",
+          "en": "The Yan army's general Zhang Yu was killed in action at the Battle of Dongchang while fighting to rescue the besieged Zhu Di."
+        }
+      }
+    },
+    {
+      "source": "建文帝",
+      "target": "朱标",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "建文帝朱允炆是懿文太子朱标的次子。",
+          "en": "The Jianwen Emperor, Zhu Yunwen, was the second son of Crown Prince Yiwen, Zhu Biao."
+        }
+      }
+    },
+    {
+      "source": "朱标",
+      "target": "朱元璋",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "朱标是明太祖朱元璋的长子。",
+          "en": "Zhu Biao was the eldest son of the Hongwu Emperor, Zhu Yuanzhang."
+        }
+      }
+    },
+    {
+      "source": "明成祖",
+      "target": "朱元璋",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "明成祖朱棣是明太祖朱元璋的第四子。",
+          "en": "The Yongle Emperor, Zhu Di, was the fourth son of the Hongwu Emperor, Zhu Yuanzhang."
+        }
+      }
+    },
+    {
+      "source": "朱权",
+      "target": "朱元璋",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "宁王朱权是明太祖朱元璋的第十七子。",
+          "en": "Zhu Quan, the Prince of Ning, was the seventeenth son of the Hongwu Emperor, Zhu Yuanzhang."
+        }
+      }
+    },
+    {
+      "source": "明成祖",
+      "target": "朱权",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1399-10",
+        "description": {
+          "zh-cn": "朱棣在靖难之役初期突袭大宁，胁迫宁王朱权加入其军队，并收编了其精锐的朵颜三卫骑兵，极大地增强了自身实力。",
+          "en": "In the early stages of the Jingnan Campaign, Zhu Di raided Daning and coerced Zhu Quan, the Prince of Ning, to join his forces. He also incorporated Zhu Quan's elite Doyan Guard cavalry, significantly strengthening his own army."
+        }
+      }
+    }
+  ]
+}
