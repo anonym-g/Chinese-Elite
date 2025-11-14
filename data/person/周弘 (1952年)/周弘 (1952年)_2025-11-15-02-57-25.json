@@ -1,0 +1,304 @@
+{
+  "nodes": [
+    {
+      "id": "周弘",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周弘"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1952-10 - ",
+        "gender": "Female",
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "birth_place": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中国社会科学院欧洲研究所所长、研究员、学部委员，汉族，祖籍山东曲阜。",
+          "en": "Director, researcher, and academician of the Institute of European Studies at the Chinese Academy of Social Sciences. She is of Han ethnicity with ancestral roots in Qufu, Shandong."
+        }
+      }
+    },
+    {
+      "id": "北京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京"
+        ],
+        "en": [
+          "Beijing"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国社会科学院欧洲研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国社会科学院欧洲研究所"
+        ],
+        "en": [
+          "Institute of European Studies, Chinese Academy of Social Sciences"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "布兰代斯大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "布兰代斯大学"
+        ],
+        "en": [
+          "Brandeis University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人大代表"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国第十三届全国人民代表大会的代表身份或群体。",
+          "en": "The status or group of deputies to the 13th National People's Congress of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "南京大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南京大学"
+        ],
+        "en": [
+          "Nanjing University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国社会科学院研究生院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国社会科学院研究生院"
+        ],
+        "en": [
+          "Graduate School of Chinese Academy of Social Sciences"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国社会科学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国社会科学院"
+        ],
+        "en": [
+          "Chinese Academy of Social Sciences"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共十五大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共十五大代表"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党第十五次全国代表大会的代表身份或群体。",
+          "en": "The status or group of delegates to the 15th National Congress of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "第十二届全国人大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国人大代表"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国第十二届全国人民代表大会的代表身份或群体。",
+          "en": "The status or group of deputies to the 12th National People's Congress of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "全国人民代表大会外事委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会外事委员会"
+        ],
+        "en": [
+          "Foreign Affairs Committee of the National People's Congress"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "周弘",
+      "target": "北京",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "周弘",
+      "target": "中国社会科学院欧洲研究所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "所长",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "周弘担任中国社会科学院欧洲研究所所长。",
+          "en": "Zhou Hong serves as the Director of the Institute of European Studies at the Chinese Academy of Social Sciences."
+        }
+      }
+    },
+    {
+      "source": "周弘",
+      "target": "中国社会科学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "研究员、学部委员",
+          "en": "Researcher, Academician"
+        },
+        "description": {
+          "zh-cn": "周弘是中国社会科学院的研究员和学部委员。",
+          "en": "Zhou Hong is a researcher and academician at the Chinese Academy of Social Sciences."
+        }
+      }
+    },
+    {
+      "source": "周弘",
+      "target": "布兰代斯大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1992",
+        "degree": {
+          "zh-cn": "博士",
+          "en": "PhD"
+        },
+        "description": {
+          "zh-cn": "1992年毕业于美国布兰代斯大学比较历史学系，获博士学位。",
+          "en": "Graduated from the Department of Comparative History at Brandeis University, USA, with a PhD in 1992."
+        }
+      }
+    },
+    {
+      "source": "周弘",
+      "target": "第十三届全国人大代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        }
+      }
+    },
+    {
+      "source": "周弘",
+      "target": "南京大学",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "周弘",
+      "target": "中国社会科学院研究生院",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "周弘",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        }
+      }
+    },
+    {
+      "source": "周弘",
+      "target": "中共十五大代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        }
+      }
+    },
+    {
+      "source": "周弘",
+      "target": "第十二届全国人大代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        }
+      }
+    },
+    {
+      "source": "周弘",
+      "target": "全国人民代表大会外事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        }
+      }
+    }
+  ]
+}
