@@ -1,0 +1,840 @@
+{
+  "nodes": [
+    {
+      "id": "新朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新朝",
+          "新莽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "9-01-10 - 23-10-06",
+        "description": {
+          "zh-cn": "中国历史上介于西汉与东汉之间的朝代，由外戚王莽篡夺西汉政权后建立。因其推行不切实际的复古改革，最终引发大规模民变而亡国，仅历一代。",
+          "en": "A short-lived dynasty in Chinese history between the Western and Eastern Han dynasties, founded by the regent Wang Mang who usurped the throne. Its unrealistic reforms based on ancient texts led to widespread rebellions and its eventual collapse after only one generation."
+        }
+      }
+    },
+    {
+      "id": "王莽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王莽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新朝的建立者和唯一一位皇帝。他作为西汉外戚，通过篡位上台，并推行一系列基于《周礼》等古籍的改革（王莽改制）。然而，改革因脱离实际而失败，激起全国范围的民变，最终导致新朝覆亡，其本人亦在战乱中被杀。",
+          "en": "The founder and only emperor of the Xin dynasty. As a relative of the Western Han imperial family by marriage, he seized power and implemented a series of reforms based on ancient texts like the Rites of Zhou. However, these reforms were impractical and failed, sparking nationwide rebellions that led to the dynasty's downfall and his own death in the ensuing chaos."
+        }
+      }
+    },
+    {
+      "id": "西汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西汉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - 9-01-10",
+        "description": {
+          "zh-cn": "中国历史上的一个朝代，在新朝之前，共历211年。",
+          "en": "A dynasty in Chinese history that preceded the Xin dynasty, lasting for 211 years."
+        }
+      }
+    },
+    {
+      "id": "孺子婴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孺子婴",
+          "刘婴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉最后一位皇太子，被王莽废黜，标志着西汉的终结。",
+          "en": "The last crown prince of the Western Han dynasty, who was deposed by Wang Mang, marking the end of the Western Han."
+        }
+      }
+    },
+    {
+      "id": "王莽改制",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "王莽改制"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "9 - 23",
+        "description": {
+          "zh-cn": "王莽称帝后推行的一系列社会经济改革。这些改革大多遵循《周礼》等古制，内容涵盖官制、地名、土地制度（王田制）、经济政策（五均六筦）及币制等，但因其过于理想化、脱离现实且朝令夕改，最终失败并激化了社会矛盾。",
+          "en": "A series of socio-economic reforms implemented by Wang Mang after he became emperor. These reforms were largely based on ancient texts like the Rites of Zhou and covered official systems, place names, land systems (Wangtian system), economic policies (Five Equalizations and Six Monopolies), and currency. However, they failed due to being overly idealistic, detached from reality, and inconsistently implemented, which intensified social conflicts."
+        }
+      }
+    },
+    {
+      "id": "周礼",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "周礼"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "儒家经典之一，记述了周朝的官僚系统和社会制度，是王莽改制的主要思想来源和理论依据。",
+          "en": "One of the Confucian classics, which describes the bureaucratic system and social structure of the Zhou dynasty. It served as the main ideological source and theoretical basis for Wang Mang's reforms."
+        }
+      }
+    },
+    {
+      "id": "绿林军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "绿林军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "17 - 25",
+        "description": {
+          "zh-cn": "新朝末年因天灾和苛政在荆北地区爆发的起义军。他们拥立刘玄为更始帝，建立了玄汉政权，并最终攻陷新朝首都长安，导致新朝灭亡。",
+          "en": "A rebel army that rose up in the northern Jing province during the late Xin dynasty due to natural disasters and harsh governance. They enthroned Liu Xuan as the Gengshi Emperor, established the Xuan Han regime, and eventually captured the Xin capital of Chang'an, leading to the dynasty's collapse."
+        }
+      }
+    },
+    {
+      "id": "昆阳之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "昆阳之战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "23-06 - 23-06",
+        "description": {
+          "zh-cn": "新朝末年的一场决定性战役，刘秀率领的绿林军以少胜多，击溃了王邑、王寻率领的新朝主力军队，此战从根本上动摇了新朝的统治。",
+          "en": "A decisive battle in the late Xin dynasty where the Lülin army, led by Liu Xiu, achieved a victory against overwhelming odds, defeating the main force of the Xin dynasty led by Wang Yi and Wang Xun. This battle fundamentally shattered the rule of the Xin dynasty."
+        }
+      }
+    },
+    {
+      "id": "刘玄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘玄",
+          "更始帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉皇族后裔，在新朝末年被绿林军拥立为皇帝，建立更始政权（玄汉）。后因统治无能，其政权被赤眉军推翻并被杀。",
+          "en": "A descendant of the Western Han imperial family who was installed as emperor by the Lülin army during the late Xin dynasty, establishing the Gengshi regime (Xuan Han). His regime was later overthrown by the Chimei (Red Eyebrows) army, and he was killed, due to his incompetent rule."
+        }
+      }
+    },
+    {
+      "id": "更始政权",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "更始政权",
+          "玄汉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "23 - 25",
+        "description": {
+          "zh-cn": "新朝灭亡后，由绿林军拥立刘玄建立的政权。该政权未能稳定局势，最终被赤眉军所灭。",
+          "en": "A regime established by the Lülin army with Liu Xuan as emperor after the fall of the Xin dynasty. It failed to stabilize the situation and was eventually destroyed by the Chimei (Red Eyebrows) army."
+        }
+      }
+    },
+    {
+      "id": "刘秀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘秀",
+          "光武帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉王朝的开国皇帝。他早年加入绿林军，在昆阳之战中大败新朝主力。后在河北建立自己的势力，并最终统一天下，开创了东汉。",
+          "en": "The founding emperor of the Eastern Han dynasty. He joined the Lülin army in his early years and decisively defeated the main Xin forces at the Battle of Kunyang. He later established his own power base in Hebei and eventually unified the country, founding the Eastern Han."
+        }
+      }
+    },
+    {
+      "id": "王寻",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王寻"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新朝大司徒，与王邑共同率领新朝主力军队参与昆阳之战，并在战败后身亡。",
+          "en": "Grand Minister over the Masses of the Xin dynasty. He co-commanded the main Xin army with Wang Yi in the Battle of Kunyang and was killed in action after their defeat."
+        }
+      }
+    },
+    {
+      "id": "王邑 (新朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王邑 (新朝)"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新朝大司空，王莽的心腹之一。他作为统帅之一参与了昆阳之战，战败后逃脱，但最终在长安城破时与王莽一同战死。",
+          "en": "Grand Minister of Works and a close confidant of Wang Mang. He was one of the commanders in the Battle of Kunyang. After the defeat, he escaped but was ultimately killed alongside Wang Mang when Chang'an fell."
+        }
+      }
+    },
+    {
+      "id": "东汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东汉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "25 - ",
+        "description": {
+          "zh-cn": "中国历史上的一个朝代，由光武帝刘秀在新朝覆灭后的乱世中建立，恢复了汉朝的统治。",
+          "en": "A dynasty in Chinese history established by Emperor Guangwu (Liu Xiu) amidst the chaos following the collapse of the Xin dynasty, restoring Han rule."
+        }
+      }
+    },
+    {
+      "id": "赤眉军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赤眉军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "18 - 27",
+        "description": {
+          "zh-cn": "新朝末年在青徐地区爆发的另一支大规模农民起义军，因士卒皆将眉毛染红而得名。他们推翻了更始政权，拥立刘盆子为帝，但最终被刘秀击败。",
+          "en": "Another major peasant rebel army that emerged in the Qing-Xu region during the late Xin dynasty, named for the red paint they used on their eyebrows. They overthrew the Gengshi regime and installed Liu Penzi as emperor, but were ultimately defeated by Liu Xiu."
+        }
+      }
+    },
+    {
+      "id": "樊崇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "樊崇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新朝末年赤眉军的建立者和主要领导人。",
+          "en": "The founder and main leader of the Chimei (Red Eyebrows) army during the late Xin dynasty."
+        }
+      }
+    },
+    {
+      "id": "刘盆子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘盆子"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉皇族后裔，被赤眉军拥立为傀儡皇帝。在赤眉军被刘秀击败后投降。",
+          "en": "A descendant of the Western Han imperial family who was installed as a puppet emperor by the Chimei (Red Eyebrows) army. He surrendered after the Chimei army was defeated by Liu Xiu."
+        }
+      }
+    },
+    {
+      "id": "谶纬",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "谶纬",
+          "谶纬学说"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉代一种将儒家经学与神学、阴阳五行学说相结合的思潮，认为天命会转移，王朝应当禅让。王莽利用谶纬学说制造舆论，为其篡汉提供了理论依据和合法性支持。",
+          "en": "An ideology during the Han dynasty that combined Confucian classics with theology and the theory of Yin-Yang and the Five Elements. It held that the Mandate of Heaven could be transferred and that dynasties should abdicate to the worthy. Wang Mang used Chenwei to create public opinion, providing a theoretical basis and legitimacy for his usurpation."
+        }
+      }
+    },
+    {
+      "id": "王政君",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王政君"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "西汉末年的皇太后，王莽的姑母。她在汉哀帝去世后，将外戚王氏重新召回朝廷，任命王莽为大司马，客观上为王莽篡位铺平了道路。",
+          "en": "The Grand Empress Dowager of the late Western Han dynasty and Wang Mang's paternal aunt. After the death of Emperor Ai, she recalled the Wang clan to the court and appointed Wang Mang as Grand Marshal, which objectively paved the way for his usurpation of the throne."
+        }
+      }
+    },
+    {
+      "id": "刘𬙂",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘𬙂"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘秀的兄长，新朝末年舂陵兵的领导人之一。因在攻克宛城和昆阳之战中功高震主，引起更始帝刘玄的猜忌而被杀害。",
+          "en": "The elder brother of Liu Xiu and one of the leaders of the Chongling troops in the late Xin dynasty. He was killed by Emperor Gengshi (Liu Xuan) out of jealousy for his great achievements in capturing Wancheng and in the Battle of Kunyang."
+        }
+      }
+    },
+    {
+      "id": "匈奴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "匈奴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代北方的游牧民族及其建立的政权。王莽的外交失策导致其与新朝关系破裂，重新成为边患。",
+          "en": "A nomadic people and their state in ancient northern China. Wang Mang's diplomatic blunders led to a breakdown in relations, turning them into a border threat again."
+        }
+      }
+    },
+    {
+      "id": "高句丽",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高句丽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国东北及朝鲜半岛北部的古代政权。因王莽贬其王号并强令出兵而反叛新朝。",
+          "en": "An ancient kingdom located in northeastern China and the northern Korean Peninsula. It rebelled against the Xin dynasty after Wang Mang demoted its king's title and forcibly tried to conscript its troops."
+        }
+      }
+    },
+    {
+      "id": "公孙述",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "公孙述"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新朝末年的地方官员，后在蜀地（今四川）割据称帝，国号“成家”，最终被东汉光武帝刘秀所灭。",
+          "en": "A local official in the late Xin dynasty who later established a secessionist state in Shu (modern Sichuan), declaring himself emperor of the 'Chengjia' dynasty. He was eventually defeated and killed by Emperor Guangwu of the Eastern Han, Liu Xiu."
+        }
+      }
+    },
+    {
+      "id": "成家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "成家"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "25 - 36",
+        "description": {
+          "zh-cn": "新朝末年由公孙述在蜀地建立的割据政权。",
+          "en": "A secessionist state established by Gongsun Shu in the Shu region during the late Xin dynasty."
+        }
+      }
+    },
+    {
+      "id": "古文经",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "古文经"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指用秦统一前的战国文字书写的儒家经典。王莽和刘歆等人大力提倡，并为之设立博士官，使其在学术上得以和今文经抗衡。",
+          "en": "Refers to the Confucian classics written in the pre-Qin Warring States script. Wang Mang, Liu Xin, and others vigorously promoted them, establishing official academic positions for their study, allowing them to rival the New Text Classics."
+        }
+      }
+    },
+    {
+      "id": "刘歆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘歆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉末年至新朝的儒学大师和目录学家，古文经学派的主要倡导者，也是王莽的重要参谋之一。",
+          "en": "A Confucian scholar and bibliographer from the late Western Han to the Xin dynasty. He was a leading advocate for the Old Text School of Confucianism and a key advisor to Wang Mang."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王莽",
+      "target": "新朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "9-01-10",
+        "description": {
+          "zh-cn": "王莽通过篡位的方式取代西汉，建立了国号为“新”的王朝。",
+          "en": "Wang Mang replaced the Western Han dynasty through usurpation and established a new dynasty with the title 'Xin'."
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "西汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "9-01-10",
+        "description": {
+          "zh-cn": "王莽废黜孺子婴并篡位称帝，终结了西汉211年的统治。",
+          "en": "Wang Mang deposed Ruzi Ying and usurped the throne, ending the 211-year rule of the Western Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "孺子婴",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "9-01-10",
+        "description": {
+          "zh-cn": "王莽废黜了西汉最后的皇太子孺子婴，自己登基为帝。",
+          "en": "Wang Mang deposed Ruzi Ying, the last crown prince of the Western Han, and ascended the throne himself."
+        }
+      }
+    },
+    {
+      "source": "谶纬",
+      "target": "王莽",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "王莽利用当时盛行的谶纬学说，制造符瑞和祥瑞，为其篡汉称帝提供了理论依据和合法性。",
+          "en": "Wang Mang utilized the prevalent Chenwei theories to fabricate auspicious signs and omens, providing a theoretical basis and legitimacy for his usurpation of the Han throne."
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "王莽改制",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "9",
+        "description": {
+          "zh-cn": "王莽称帝后，主导并推行了一系列全面的社会改革，史称“王莽改制”。",
+          "en": "After becoming emperor, Wang Mang led and implemented a series of comprehensive social reforms, historically known as 'Wang Mang's reforms'."
+        }
+      }
+    },
+    {
+      "source": "周礼",
+      "target": "王莽改制",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "王莽的改革措施，如官制、土地制度等，大多是依据儒家经典《周礼》中的记载来制定的。",
+          "en": "Most of Wang Mang's reform measures, such as the official system and land system, were formulated based on the records in the Confucian classic, the Rites of Zhou."
+        }
+      }
+    },
+    {
+      "source": "王莽改制",
+      "target": "新朝",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "王莽改制的失败激化了社会矛盾，导致经济崩溃和民变四起，是新朝迅速灭亡的主要原因。",
+          "en": "The failure of Wang Mang's reforms intensified social conflicts, leading to economic collapse and widespread rebellions, which was the main reason for the rapid demise of the Xin dynasty."
+        }
+      }
+    },
+    {
+      "source": "绿林军",
+      "target": "新朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "17",
+        "description": {
+          "zh-cn": "绿林军起义反抗新朝统治，并于23年攻入首都长安，直接导致了新朝的灭亡。",
+          "en": "The Lülin army rebelled against the rule of the Xin dynasty and captured the capital Chang'an in 23 AD, directly causing the dynasty's collapse."
+        }
+      }
+    },
+    {
+      "source": "绿林军",
+      "target": "王莽",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "23-10-06",
+        "description": {
+          "zh-cn": "23年10月6日，绿林军攻入长安，王莽在宫中混乱中被商人杜吴所杀。",
+          "en": "On October 6, 23 AD, the Lülin army broke into Chang'an, and Wang Mang was killed by a merchant named Du Wu amidst the chaos in the palace."
+        }
+      }
+    },
+    {
+      "source": "昆阳之战",
+      "target": "新朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "23-06",
+        "description": {
+          "zh-cn": "昆阳之战的惨败使新朝丧失了军事主力，从根本上动摇了其统治，加速了其灭亡的进程。",
+          "en": "The disastrous defeat at the Battle of Kunyang caused the Xin dynasty to lose its main military force, fundamentally shaking its rule and accelerating its downfall."
+        }
+      }
+    },
+    {
+      "source": "刘秀",
+      "target": "昆阳之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "23-06",
+        "description": {
+          "zh-cn": "刘秀在昆阳之战中担任指挥，率领少量军队击溃了数十万新朝大军，取得了决定性的胜利。",
+          "en": "Liu Xiu served as a commander in the Battle of Kunyang, leading a small force to defeat a Xin dynasty army of several hundred thousand, achieving a decisive victory."
+        }
+      }
+    },
+    {
+      "source": "昆阳之战",
+      "target": "王寻",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "23-06",
+        "description": {
+          "zh-cn": "新朝统帅之一王寻在昆阳之战中战败身亡。",
+          "en": "Wang Xun, one of the commanders of the Xin dynasty, was defeated and killed in the Battle of Kunyang."
+        }
+      }
+    },
+    {
+      "source": "昆阳之战",
+      "target": "王邑 (新朝)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "23-06",
+        "description": {
+          "zh-cn": "新朝统帅之一王邑在昆阳之战中惨败，仅率少数人逃回洛阳。",
+          "en": "Wang Yi, another commander of the Xin dynasty, suffered a crushing defeat at the Battle of Kunyang and fled back to Luoyang with only a few men."
+        }
+      }
+    },
+    {
+      "source": "绿林军",
+      "target": "刘玄",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "23",
+        "description": {
+          "zh-cn": "绿林军诸将共同拥立刘氏宗族的刘玄为皇帝，以“复兴汉室”为号召，建立更始政权。",
+          "en": "The generals of the Lülin army jointly installed Liu Xuan, a member of the Liu clan, as emperor under the banner of 'reviving the Han dynasty', establishing the Gengshi regime."
+        }
+      }
+    },
+    {
+      "source": "刘玄",
+      "target": "更始政权",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "23",
+        "description": {
+          "zh-cn": "刘玄被绿林军拥立为帝，建元更始，史称更始帝或玄汉。",
+          "en": "Liu Xuan was enthroned by the Lülin army, establishing the Gengshi era. He is known as Emperor Gengshi or his regime as Xuan Han."
+        }
+      }
+    },
+    {
+      "source": "赤眉军",
+      "target": "更始政权",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "25-09",
+        "description": {
+          "zh-cn": "25年9月，赤眉军攻陷长安，更始帝投降后不久被杀，更始政权灭亡。",
+          "en": "In September of 25 AD, the Chimei army captured Chang'an. Emperor Gengshi surrendered and was killed shortly after, marking the end of the Gengshi regime."
+        }
+      }
+    },
+    {
+      "source": "樊崇",
+      "target": "赤眉军",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "18",
+        "description": {
+          "zh-cn": "樊崇于18年在莒县率领饥民起事，建立了赤眉军。",
+          "en": "Fan Chong led starving peasants to rise up in Ju County in 18 AD, establishing the Chimei army."
+        }
+      }
+    },
+    {
+      "source": "赤眉军",
+      "target": "刘盆子",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "25",
+        "description": {
+          "zh-cn": "赤眉军为获取政治合法性，拥立汉室后裔刘盆子为皇帝。",
+          "en": "To gain political legitimacy, the Chimei army installed Liu Penzi, a descendant of the Han imperial house, as emperor."
+        }
+      }
+    },
+    {
+      "source": "刘秀",
+      "target": "东汉",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "25-06",
+        "description": {
+          "zh-cn": "25年6月，在河北站稳脚跟的刘秀于鄗城即皇帝位，国号仍为汉，史称东汉。",
+          "en": "In June of 25 AD, after securing his base in Hebei, Liu Xiu ascended the throne in Hao city, retaining the dynastic title of Han, historically known as the Eastern Han."
+        }
+      }
+    },
+    {
+      "source": "刘秀",
+      "target": "赤眉军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "27",
+        "description": {
+          "zh-cn": "27年，光武帝刘秀率军在华阴击败东归的赤眉军，接受其首领樊崇和皇帝刘盆子的投降。",
+          "en": "In 27 AD, Emperor Guangwu (Liu Xiu) led his forces to defeat the eastward-returning Chimei army at Huayin, accepting the surrender of its leader Fan Chong and emperor Liu Penzi."
+        }
+      }
+    },
+    {
+      "source": "王政君",
+      "target": "王莽",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-1",
+        "description": {
+          "zh-cn": "汉哀帝于公元前1年去世后，王莽奉皇太后王政君之命，重返朝廷担任大司马，掌握了核心权力。",
+          "en": "After Emperor Ai's death in 1 BC, Wang Mang, on the order of Grand Empress Dowager Wang Zhengjun, returned to the court to serve as Grand Marshal, seizing core power."
+        }
+      }
+    },
+    {
+      "source": "刘玄",
+      "target": "刘𬙂",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "23",
+        "description": {
+          "zh-cn": "更始帝刘玄因猜忌刘𬙂在昆阳之战后功高震主，以违抗命令为由将其处死。",
+          "en": "Emperor Gengshi (Liu Xuan), jealous of Liu Yan's great prestige after the Battle of Kunyang, executed him on the pretext of disobeying orders."
+        }
+      }
+    },
+    {
+      "source": "刘秀",
+      "target": "刘𬙂",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘𬙂是刘秀的兄长。",
+          "en": "Liu Yan was Liu Xiu's elder brother."
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "匈奴",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "王莽将“匈奴单于”的称号贬为“降奴服于”，并试图分裂匈奴，这些外交失策导致匈奴与新朝关系破裂并发动叛乱。",
+          "en": "Wang Mang demoted the title of the Xiongnu Chanyu to 'Xiangnu Fuyu' (Surrendered Slave) and attempted to divide the Xiongnu, these diplomatic blunders led to a breakdown in relations and a rebellion."
+        }
+      }
+    },
+    {
+      "source": "匈奴",
+      "target": "新朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "11",
+        "description": {
+          "zh-cn": "因王莽的挑衅政策，匈奴与新朝爆发了连年战争，导致边境地区民生凋敝。",
+          "en": "Due to Wang Mang's provocative policies, the Xiongnu and the Xin dynasty engaged in years of warfare, devastating the border regions."
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "高句丽",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "王莽将高句丽国王贬为侯，并改其国名为“下句丽”，引起高句丽不满并最终反叛。",
+          "en": "Wang Mang demoted the king of Goguryeo to a marquis and renamed the country 'Xiagouli' (Lower Goguryeo), causing resentment and eventual rebellion."
+        }
+      }
+    },
+    {
+      "source": "高句丽",
+      "target": "新朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "12",
+        "description": {
+          "zh-cn": "王莽强令高句丽出兵讨伐匈奴，导致其反叛，并屡次侵扰新朝东北边境。",
+          "en": "Wang Mang's forcible conscription of Goguryeo troops to attack the Xiongnu led to its rebellion, and it repeatedly raided the northeastern border of the Xin dynasty."
+        }
+      }
+    },
+    {
+      "source": "公孙述",
+      "target": "成家",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "25",
+        "description": {
+          "zh-cn": "25年，公孙述在蜀地称帝，建立国号为“成家”的割据政权。",
+          "en": "In 25 AD, Gongsun Shu declared himself emperor in the Shu region, establishing a secessionist state with the title 'Chengjia'."
+        }
+      }
+    },
+    {
+      "source": "刘秀",
+      "target": "公孙述",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "36",
+        "description": {
+          "zh-cn": "36年，东汉光武帝刘秀派兵攻克成都，灭亡了公孙述的成家政权，公孙述在战乱中死去。",
+          "en": "In 36 AD, Emperor Guangwu of the Eastern Han, Liu Xiu, dispatched troops to capture Chengdu, destroying Gongsun Shu's Chengjia regime. Gongsun Shu died in the battle."
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "古文经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "新朝建立后，王莽大力提倡古文经学，并设立了相关博士官职，使古文经地位得到提升。",
+          "en": "After establishing the Xin dynasty, Wang Mang vigorously promoted the Old Text Classics and established related academic positions, elevating their status."
+        }
+      }
+    },
+    {
+      "source": "刘歆",
+      "target": "古文经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘歆是西汉末年至新朝时期古文经学派的巨儒，他大力提倡古文经，并建议朝廷为之设立学官。",
+          "en": "Liu Xin was a leading scholar of the Old Text School from the late Western Han to the Xin dynasty. He strongly advocated for the Old Text Classics and recommended the court to establish official positions for their study."
+        }
+      }
+    },
+    {
+      "source": "刘歆",
+      "target": "王莽",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "参谋",
+          "en": "Advisor"
+        },
+        "description": {
+          "zh-cn": "刘歆是王莽的重要参谋之一，为其篡汉和改制提供了学术和理论支持。",
+          "en": "Liu Xin was one of Wang Mang's key advisors, providing academic and theoretical support for his usurpation and reforms."
+        }
+      }
+    }
+  ]
+}

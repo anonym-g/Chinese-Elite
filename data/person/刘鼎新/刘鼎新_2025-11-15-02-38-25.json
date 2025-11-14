@@ -1,0 +1,319 @@
+{
+  "nodes": [
+    {
+      "id": "刘鼎新",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘鼎新",
+          "刘鼎兴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1952-08 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "攸县",
+          "en": "You County"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国人民解放军少将，中国共产党党员。曾任海南省军区政治委员、中共海南省委常委，是第十一届全国人民代表大会解放军代表。",
+          "en": "A political figure of the People's Republic of China, a major general in the People's Liberation Army, and a member of the Communist Party of China. He served as the political commissar of the Hainan Military District, a member of the Standing Committee of the Hainan Provincial Committee of the CCP, and was a delegate of the PLA to the 11th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "攸县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "攸县"
+        ],
+        "en": [
+          "You County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国湖南省的一个县，是刘鼎新的出生地。",
+          "en": "A county in Hunan Province, China, and the birthplace of Liu Dingxin."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的主要武装力量。",
+          "en": "The principal military force of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中山大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中山大学"
+        ],
+        "en": [
+          "Sun Yat-sen University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国广东省的综合性研究型大学。",
+          "en": "A comprehensive research university located in Guangdong Province, China."
+        }
+      }
+    },
+    {
+      "id": "海南省军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "海南省军区"
+        ],
+        "en": [
+          "Hainan Military District"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "海南省",
+          "en": "Hainan Province"
+        },
+        "description": {
+          "zh-cn": "中国人民解放军在中国海南省设立的军区。",
+          "en": "A military district of the People's Liberation Army established in Hainan Province, China."
+        }
+      }
+    },
+    {
+      "id": "中共海南省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共海南省委"
+        ],
+        "en": [
+          "Hainan Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "海南省",
+          "en": "Hainan Province"
+        },
+        "description": {
+          "zh-cn": "中国共产党在海南省的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Hainan Province."
+        }
+      }
+    },
+    {
+      "id": "第十一届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十一届全国人民代表大会"
+        ],
+        "en": [
+          "11th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2008 - 2013",
+        "description": {
+          "zh-cn": "中华人民共和国的第六届国家最高权力机关。",
+          "en": "The sixth session of the highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军少将"
+        ],
+        "en": [
+          "Major General of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的一种军衔等级。",
+          "en": "A military rank in the People's Liberation Army."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘鼎新",
+      "target": "攸县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1952-08",
+        "description": {
+          "zh-cn": "刘鼎新出生于攸县鸾山镇江冲村。",
+          "en": "Liu Dingxin was born in Jiangchong Village, Luanshan Town, You County."
+        }
+      }
+    },
+    {
+      "source": "刘鼎新",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1972",
+        "description": {
+          "zh-cn": "刘鼎新于1972年加入中国人民解放军。",
+          "en": "Liu Dingxin joined the People's Liberation Army in 1972."
+        }
+      }
+    },
+    {
+      "source": "刘鼎新",
+      "target": "中山大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "行政管理专业",
+          "en": "Public Administration"
+        },
+        "description": {
+          "zh-cn": "刘鼎新毕业于中山大学行政管理专业。",
+          "en": "Liu Dingxin graduated from Sun Yat-sen University with a degree in Public Administration."
+        }
+      }
+    },
+    {
+      "source": "刘鼎新",
+      "target": "海南省军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2007-08",
+        "position": {
+          "zh-cn": "政治部主任",
+          "en": "Director of the Political Department"
+        },
+        "description": {
+          "zh-cn": "刘鼎新曾担任海南军区政治部主任，直至2007年8月。",
+          "en": "Liu Dingxin served as the Director of the Political Department of the Hainan Military District until August 2007."
+        }
+      }
+    },
+    {
+      "source": "刘鼎新",
+      "target": "海南省军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2007-08",
+        "position": {
+          "zh-cn": "政治委员",
+          "en": "Political Commissar"
+        },
+        "description": {
+          "zh-cn": "2007年8月，刘鼎新任海南省军区政治委员。",
+          "en": "In August 2007, Liu Dingxin was appointed as the Political Commissar of the Hainan Military District."
+        }
+      }
+    },
+    {
+      "source": "刘鼎新",
+      "target": "中共海南省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008-06",
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        },
+        "description": {
+          "zh-cn": "2008年6月，刘鼎新任中共海南省委常委。",
+          "en": "In June 2008, Liu Dingxin became a member of the Standing Committee of the Hainan Provincial Committee of the CCP."
+        }
+      }
+    },
+    {
+      "source": "刘鼎新",
+      "target": "第十一届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "position": {
+          "zh-cn": "解放军代表",
+          "en": "PLA Delegate"
+        },
+        "description": {
+          "zh-cn": "2008年起，刘鼎新担任第十一届全国人民代表大会解放军代表，任期5年。",
+          "en": "Starting in 2008, Liu Dingxin served as a PLA delegate to the 11th National People's Congress for a five-year term."
+        }
+      }
+    },
+    {
+      "source": "刘鼎新",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "刘鼎新是中国共产党党员。",
+          "en": "Liu Dingxin is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "刘鼎新",
+      "target": "中国人民解放军少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘鼎新拥有中国人民解放军少将军衔。",
+          "en": "Liu Dingxin holds the rank of Major General in the People's Liberation Army."
+        }
+      }
+    }
+  ]
+}

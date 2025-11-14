@@ -1,0 +1,935 @@
+{
+  "nodes": [
+    {
+      "id": "大乘佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "大乘佛教",
+          "大乘"
+        ],
+        "en": [
+          "Mahayana Buddhism",
+          "Mahāyāna"
+        ]
+      },
+      "properties": {
+        "period": "100 - ",
+        "description": {
+          "zh-cn": "指以成佛为目标而修行的菩萨乘，与声闻乘、缘觉乘合称三乘。其思想根源可追溯至更早，约在公元1世纪开始在印度流行，后成为北传佛教的主体。",
+          "en": "A broad group of Buddhist traditions, texts, philosophies, and practices. Mahāyāna is considered one of the three main existing branches of Buddhism (the others being Theravāda and Vajrayāna). It emerged in India around the 1st century CE."
+        }
+      }
+    },
+    {
+      "id": "菩萨道",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "菩萨道",
+          "菩萨乘"
+        ],
+        "en": [
+          "Bodhisattvayāna",
+          "Bodhisattva Path"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教中以成佛救度无量众生为目标的修行方式。",
+          "en": "The path of a bodhisattva in Mahayana Buddhism, which aims for enlightenment to benefit all sentient beings."
+        }
+      }
+    },
+    {
+      "id": "释迦牟尼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "释迦牟尼",
+          "释迦牟尼佛"
+        ],
+        "en": [
+          "Gautama Buddha",
+          "Shakyamuni Buddha"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "佛教的创始人，被佛教徒尊为佛陀。",
+          "en": "The founder of Buddhism, revered by Buddhists as a Buddha."
+        }
+      }
+    },
+    {
+      "id": "部派佛教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "部派佛教"
+        ],
+        "en": [
+          "Early Buddhist schools",
+          "Nikāya Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指佛教在佛陀灭度后至大乘佛教兴起前，因教义和戒律上的分歧而分裂成的各个部派。",
+          "en": "The various schools into which the Buddhist monastic sangha split in the centuries following the Buddha's death, due to disagreements on points of doctrine and vinaya."
+        }
+      }
+    },
+    {
+      "id": "空性",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "空性",
+          "空"
+        ],
+        "en": [
+          "Śūnyatā",
+          "Emptiness"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教核心概念，指一切现象（法）都没有独立的、永恒的实体或自性。大乘佛教对此有特有观点。",
+          "en": "A key Buddhist concept referring to the absence of an independent, permanent entity or self-nature in all phenomena (dharmas). Mahayana Buddhism has a specific perspective on this."
+        }
+      }
+    },
+    {
+      "id": "声闻乘",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "声闻乘",
+          "声闻"
+        ],
+        "en": [
+          "Śrāvakayāna",
+          "Vehicle of the Hearers"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教三乘之一，指通过听闻佛法、修行四圣谛而证得阿罗汉果、了脱生死的修行道路。",
+          "en": "One of the three yānas in Buddhism. It is the path that meets the goals of an Arhat, who achieves liberation after listening to the teachings of a Buddha."
+        }
+      }
+    },
+    {
+      "id": "缘觉乘",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "缘觉乘",
+          "缘觉"
+        ],
+        "en": [
+          "Pratyekabuddhayāna",
+          "Vehicle of the Solitary Buddhas"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教三乘之一，指在无佛出世的时代，通过独自观察十二因缘等法而悟道，证得辟支佛果的修行道路。",
+          "en": "One of the three yānas in Buddhism. It is the path of those who attain enlightenment on their own, without teachers, in an age where the Buddhist teachings are lost."
+        }
+      }
+    },
+    {
+      "id": "小乘佛教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "小乘佛教",
+          "小乘"
+        ],
+        "en": [
+          "Hīnayāna",
+          "Hinayana Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教对声闻乘和缘觉乘的称呼，有时被认为带有贬义。现代学术界及佛教界多使用“上座部佛教”或“尼柯耶佛教”等称呼。",
+          "en": "A term coined by Mahāyāna Buddhists to classify the path of the Śrāvakas and Pratyekabuddhas. It is sometimes considered pejorative. Modern scholarship and the Buddhist community often use terms like 'Theravada Buddhism' or 'Nikāya Buddhism' instead."
+        }
+      }
+    },
+    {
+      "id": "金刚乘",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "金刚乘",
+          "密乘",
+          "秘密大乘佛教"
+        ],
+        "en": [
+          "Vajrayāna",
+          "Tantric Buddhism",
+          "Secret Mahayana"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教的一个分支，接受密续作为主要修行内容，流行于西藏、蒙古等地。",
+          "en": "A branch of Mahayana Buddhism that incorporates tantric practices as its main method of cultivation, prevalent in Tibet, Mongolia, and other regions."
+        }
+      }
+    },
+    {
+      "id": "密续",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "密续"
+        ],
+        "en": [
+          "Tantra"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "金刚乘佛教所依据的一类文献，包含特定的修行方法和仪轨。",
+          "en": "A class of literature on which Vajrayana Buddhism is based, containing specific practices and rituals."
+        }
+      }
+    },
+    {
+      "id": "北传佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "北传佛教"
+        ],
+        "en": [
+          "Northern Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教传播路线之一，主要指经由中亚传播至中国、朝鲜半岛、日本、越南等地的佛教，以大乘教法为主。",
+          "en": "One of the transmission routes of Buddhism, primarily referring to the Buddhism that spread through Central Asia to China, the Korean Peninsula, Japan, Vietnam, etc., mainly consisting of Mahayana teachings."
+        }
+      }
+    },
+    {
+      "id": "汉传佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "汉传佛教"
+        ],
+        "en": [
+          "Chinese Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北传佛教的一个主要分支，在东亚文化圈具有深远影响。",
+          "en": "A major branch of Northern Buddhism with profound influence in the East Asian cultural sphere."
+        }
+      }
+    },
+    {
+      "id": "藏传佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "藏传佛教"
+        ],
+        "en": [
+          "Tibetan Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "形成于西藏的佛教流派，是北传佛教和金刚乘的重要组成部分。",
+          "en": "A school of Buddhism that formed in Tibet, an important component of Northern Buddhism and Vajrayana."
+        }
+      }
+    },
+    {
+      "id": "印度佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "印度佛教"
+        ],
+        "en": [
+          "Indian Buddhism"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "印度",
+          "en": "India"
+        },
+        "description": {
+          "zh-cn": "起源于并曾在印度次大陆发展的佛教。",
+          "en": "Buddhism that originated and developed on the Indian subcontinent."
+        }
+      }
+    },
+    {
+      "id": "南传佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "南传佛教"
+        ],
+        "en": [
+          "Southern Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "佛教传播路线之一，主要指流传于斯里兰卡和东南亚地区的上座部佛教。",
+          "en": "One of the transmission routes of Buddhism, primarily referring to the Theravada Buddhism practiced in Sri Lanka and Southeast Asia."
+        }
+      }
+    },
+    {
+      "id": "世界佛教徒联谊会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "世界佛教徒联谊会"
+        ],
+        "en": [
+          "World Fellowship of Buddhists"
+        ]
+      },
+      "properties": {
+        "period": "1950 - ",
+        "description": {
+          "zh-cn": "一个国际性的佛教组织，旨在促进佛教徒之间的团结与合作。",
+          "en": "An international Buddhist organization aimed at promoting unity and cooperation among Buddhists."
+        }
+      }
+    },
+    {
+      "id": "上座部佛教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上座部佛教"
+        ],
+        "en": [
+          "Theravada Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "现存最古老的佛教宗派，主要流传于斯里兰卡和东南亚地区，其教义以巴利三藏为基础。",
+          "en": "The oldest surviving Buddhist school, primarily practiced in Sri Lanka and Southeast Asia, with its teachings based on the Pāli Canon."
+        }
+      }
+    },
+    {
+      "id": "达赖喇嘛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "达赖喇嘛",
+          "达赖"
+        ],
+        "en": [
+          "Dalai Lama"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "藏传佛教格鲁派的最高精神领袖之一，传统上被认为是观世音菩萨的化身。",
+          "en": "One of the supreme spiritual leaders of the Gelug school of Tibetan Buddhism, traditionally considered an emanation of Avalokiteśvara."
+        }
+      }
+    },
+    {
+      "id": "阿含经",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "阿含经"
+        ],
+        "en": [
+          "Āgama"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "早期佛教经典的集合，相当于南传佛教的《尼柯耶》。汉译本分为《杂阿含经》、《中阿含经》、《长阿含经》和《增一阿含经》。",
+          "en": "A collection of early Buddhist scriptures, corresponding to the Nikāyas of the Pāli Canon. The Chinese translations are divided into the Saṃyukta, Madhyama, Dīrgha, and Ekottara Āgamas."
+        }
+      }
+    },
+    {
+      "id": "巴利三藏",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "巴利三藏"
+        ],
+        "en": [
+          "Pāli Canon",
+          "Tipiṭaka"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "上座部佛教的标准圣典集，以巴利语写成。",
+          "en": "The standard collection of scriptures in the Theravada Buddhist tradition, as preserved in the Pāli language."
+        }
+      }
+    },
+    {
+      "id": "印顺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "印顺"
+        ],
+        "en": [
+          "Yin Shun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1906-04-05 - 2005-06-04",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "近现代台湾佛教思想家、学者，对汉传佛教及印度佛教历史有深入研究。",
+          "en": "A modern Taiwanese Buddhist thinker and scholar known for his in-depth research on the history of Chinese and Indian Buddhism."
+        }
+      }
+    },
+    {
+      "id": "龙树",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "龙树",
+          "龙猛"
+        ],
+        "en": [
+          "Nāgārjuna"
+        ]
+      },
+      "properties": {
+        "period": "150 - 250",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "印度大乘佛教哲学家，中观学派的创始人，被誉为“第二佛陀”。",
+          "en": "An Indian Mahāyāna Buddhist philosopher and founder of the Madhyamaka school, often referred to as the 'Second Buddha'."
+        }
+      }
+    },
+    {
+      "id": "中观学派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中观学派"
+        ],
+        "en": [
+          "Madhyamaka"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由龙树创立的大乘佛教哲学流派，核心思想是“中道”和“空性”。",
+          "en": "A Mahāyāna Buddhist school of philosophy founded by Nāgārjuna, centered on the concepts of the 'Middle Way' and 'emptiness' (śūnyatā)."
+        }
+      }
+    },
+    {
+      "id": "大众部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大众部"
+        ],
+        "en": [
+          "Mahāsāṃghika"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "早期佛教根本分裂后的两大部派之一，与上座部相对。一些学者认为其思想与大乘佛教的兴起有关。",
+          "en": "One of the two primary schools resulting from the first schism in early Buddhism, opposing the Sthavira nikāya. Some scholars link its doctrines to the rise of Mahāyāna."
+        }
+      }
+    },
+    {
+      "id": "说一切有部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "说一切有部"
+        ],
+        "en": [
+          "Sarvāstivāda"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "部派佛教时期从上座部分化出的一大部派，主张“三世实有，法体恒存”。",
+          "en": "A major school that branched off from the Sthavira nikāya during the period of Nikāya Buddhism, known for its doctrine that 'all dharmas exist in the past, present, and future'."
+        }
+      }
+    },
+    {
+      "id": "分别说部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "分别说部"
+        ],
+        "en": [
+          "Vibhajyavāda"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "部派佛教时期的一个重要部派，主张对法进行分别、辨析。南传上座部佛教是其分支之一。",
+          "en": "An important school during the period of Nikāya Buddhism that emphasized analysis (vibhajja) of dharmas. The Southern Theravada school is one of its descendants."
+        }
+      }
+    },
+    {
+      "id": "经量部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "经量部"
+        ],
+        "en": [
+          "Sautrāntika"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "从说一切有部分化出的部派，主张“唯经是量”，不承认论藏的权威性。",
+          "en": "A school that split from the Sarvāstivāda, holding that the sūtras alone were the authoritative source of doctrine, rejecting the authority of the Abhidharma."
+        }
+      }
+    },
+    {
+      "id": "无著",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "无著"
+        ],
+        "en": [
+          "Asaṅga"
+        ]
+      },
+      "properties": {
+        "period": "300 - 399",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "印度大乘佛教高僧，与其弟世亲共同创立了瑜伽行唯识学派。",
+          "en": "An eminent Indian Mahāyāna Buddhist monk who, along with his brother Vasubandhu, founded the Yogācāra school."
+        }
+      }
+    },
+    {
+      "id": "世亲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "世亲"
+        ],
+        "en": [
+          "Vasubandhu"
+        ]
+      },
+      "properties": {
+        "period": "300 - 399",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "印度大乘佛教高僧，与其兄无著共同创立了瑜伽行唯识学派。",
+          "en": "An eminent Indian Mahāyāna Buddhist monk who, along with his brother Asanga, founded the Yogācāra school."
+        }
+      }
+    },
+    {
+      "id": "瑜伽行唯识学派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瑜伽行唯识学派",
+          "唯识论"
+        ],
+        "en": [
+          "Yogācāra",
+          "Vijñānavāda"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由无著、世亲创立的大乘佛教哲学流派，核心思想是“万法唯识”和“阿赖耶识”。",
+          "en": "A Mahāyāna Buddhist school of philosophy founded by Asanga and Vasubandhu, centered on the concepts of 'consciousness-only' (cittamātra) and the 'storehouse consciousness' (ālayavijñāna)."
+        }
+      }
+    },
+    {
+      "id": "瑜伽师地论",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "瑜伽师地论"
+        ],
+        "en": [
+          "Yogācārabhūmi-śāstra"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "瑜伽行唯识学派的核心论典，系统地阐述了瑜伽行的修行次第和境界。",
+          "en": "The foundational text of the Yogācāra school, systematically explaining the stages and realms of yogic practice."
+        }
+      }
+    },
+    {
+      "id": "阿育王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿育王"
+        ],
+        "en": [
+          "Ashoka"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -0232",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "古代印度孔雀王朝的君主，在位期间大力推广佛教，对佛教的传播有巨大贡献。",
+          "en": "A monarch of the Mauryan Empire in ancient India who actively promoted Buddhism during his reign, making significant contributions to its spread."
+        }
+      }
+    },
+    {
+      "id": "婆罗门教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "婆罗门教"
+        ],
+        "en": [
+          "Brahmanism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古印度的一种宗教，为印度教的前身，强调吠陀天启、祭祀万能和婆罗门至上。",
+          "en": "An ancient Indian religion, the predecessor of Hinduism, which emphasized the divine revelation of the Vedas, the power of sacrifice, and the supremacy of the Brahmin caste."
+        }
+      }
+    },
+    {
+      "id": "法藏部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法藏部"
+        ],
+        "en": [
+          "Dharmaguptaka"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "部派佛教时期从上座部分化出的部派之一，其戒律对汉传佛教影响深远。",
+          "en": "One of the schools that branched off from the Sthavira nikāya during the Nikāya period; its Vinaya had a profound influence on Chinese Buddhism."
+        }
+      }
+    },
+    {
+      "id": "贵霜帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "贵霜帝国"
+        ],
+        "en": [
+          "Kushan Empire"
+        ]
+      },
+      "properties": {
+        "period": "30 - 375",
+        "location": {
+          "zh-cn": "中亚",
+          "en": "Central Asia"
+        },
+        "description": {
+          "zh-cn": "古代中亚的帝国，在其统治时期，佛教特别是大乘佛教得到发展和传播。",
+          "en": "An ancient empire in Central Asia, during whose rule Buddhism, especially Mahayana Buddhism, developed and spread."
+        }
+      }
+    },
+    {
+      "id": "怛特罗密教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "怛特罗密教",
+          "怛特罗"
+        ],
+        "en": [
+          "Tantrism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "印度的一种宗教思潮和实践体系，强调通过特定的仪式、咒语和瑜伽来获得解脱，对后期的印度佛教（密宗）产生影响。",
+          "en": "An Indian religious trend and system of practice that emphasizes achieving liberation through specific rituals, mantras, and yoga, influencing later Indian Buddhism (Tantrayana)."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "菩萨道",
+      "target": "大乘佛教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教是指以成佛为目标而修行的菩萨乘。",
+          "en": "Mahayana Buddhism refers to the Bodhisattva Path, which aims to achieve Buddhahood."
+        }
+      }
+    },
+    {
+      "source": "大乘佛教",
+      "target": "小乘佛教",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教将非以成佛为修行方向的声闻乘和缘觉乘称为“小乘”。",
+          "en": "Mahayana Buddhism termed the Śrāvakayāna and Pratyekabuddhayāna, which are not oriented towards Buddhahood, as 'Hīnayāna' (Small Vehicle)."
+        }
+      }
+    },
+    {
+      "source": "密续",
+      "target": "金刚乘",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在大乘佛教当中，接受密续作为主要修行内容的佛教派别，称为金刚乘。",
+          "en": "Within Mahayana Buddhism, the school that accepts the Tantras as its main practice is called Vajrayāna."
+        }
+      }
+    },
+    {
+      "source": "大乘佛教",
+      "target": "金刚乘",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "金刚乘可视为是大乘佛教的一个分支。",
+          "en": "Vajrayāna can be regarded as a branch of Mahayana Buddhism."
+        }
+      }
+    },
+    {
+      "source": "大乘佛教",
+      "target": "北传佛教",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教的主要传承者，若依照佛教史上的佛法不同的传播路线来命名，是属于北传佛教这一支路线为主。",
+          "en": "The main inheritors of Mahayana Buddhism, named according to the different transmission routes of Dharma in Buddhist history, primarily belong to the Northern Transmission route."
+        }
+      }
+    },
+    {
+      "source": "北传佛教",
+      "target": "汉传佛教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "北传这条传播路线若再细分，其中的汉传佛教流传于中国大陆、香港、澳门、台湾、日本、朝鲜半岛、新加坡、马来西亚、越南等地。",
+          "en": "If the Northern Transmission route is further subdivided, Chinese Buddhism spread to Mainland China, Hong Kong, Macau, Taiwan, Japan, the Korean Peninsula, Singapore, Malaysia, Vietnam, and other places."
+        }
+      }
+    },
+    {
+      "source": "秘密大乘佛教",
+      "target": "藏传佛教",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "在印度佛教思想史晚期形成的秘密大乘佛教教义，则传入西藏、蒙古和俄罗斯部分地区，成为藏传佛教中的主要元素。",
+          "en": "The doctrines of Secret Mahayana Buddhism, which formed in the late period of Indian Buddhist history, were transmitted to Tibet, Mongolia, and parts of Russia, becoming a major element in Tibetan Buddhism."
+        }
+      }
+    },
+    {
+      "source": "世界佛教徒联谊会",
+      "target": "小乘佛教",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1950",
+        "description": {
+          "zh-cn": "1950年召开的世界佛教徒联谊会达成共识，对南传佛教的正确称呼应当一律使用上座部佛教，而非“小乘”。",
+          "en": "In 1950, the World Fellowship of Buddhists reached a consensus that the correct term for Southern Buddhism should be Theravada Buddhism, not 'Hīnayāna'."
+        }
+      }
+    },
+    {
+      "source": "达赖喇嘛",
+      "target": "小乘佛教",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "十四世达赖喇嘛倡议使用「基础乘」（Foundational Vehicle）一词代替「小乘」来称呼南传佛教。",
+          "en": "The 14th Dalai Lama advocated for using the term 'Foundational Vehicle' to replace 'Hīnayāna' when referring to Southern Buddhism."
+        }
+      }
+    },
+    {
+      "source": "龙树",
+      "target": "大乘佛教",
+      "type": "PUSHED",
+      "properties": {
+        "period": "150 - 250",
+        "description": {
+          "zh-cn": "一般认为是在龙树的时代（公元150-250年左右）以前成立大乘佛教。",
+          "en": "It is generally believed that Mahayana Buddhism was established before the time of Nāgārjuna (around 150-250 CE)."
+        }
+      }
+    },
+    {
+      "source": "部派佛教",
+      "target": "大乘佛教",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教起初在部派佛教之中发展，其教理学说与大众部、说一切有部、分别说部及经量部都有著很深的关系。",
+          "en": "Mahayana Buddhism initially developed within Nikāya Buddhism, and its doctrines have deep connections with the Mahāsāṃghika, Sarvāstivāda, Vibhajyavāda, and Sautrāntika schools."
+        }
+      }
+    },
+    {
+      "source": "大众部",
+      "target": "大乘佛教",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "大众部起源论认为大乘佛教是在大众部传统中发展起来的。",
+          "en": "The Mahāsāṃghika origin theory posits that Mahayana Buddhism developed within the Mahāsāṃghika tradition."
+        }
+      }
+    },
+    {
+      "source": "阿育王",
+      "target": "大乘佛教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "阿育王本人在归依佛教后，其教化行动可视为带有大乘菩萨道行者的风范，大乘教法可能在阿育王时代就已有所流行。",
+          "en": "After converting to Buddhism, King Ashoka's actions can be seen as exemplifying the conduct of a Mahayana bodhisattva, suggesting that Mahayana teachings may have been popular during his era."
+        }
+      }
+    },
+    {
+      "source": "大乘佛教",
+      "target": "婆罗门教",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教教义中很重要的一个思想是众生平等，慈悲普度的理念，以反对婆罗门教森严的隔离的等级种姓制度。",
+          "en": "A key tenet of Mahayana Buddhism is the concept of equality and universal compassion for all beings, in opposition to the strict, segregated caste system of Brahmanism."
+        }
+      }
+    },
+    {
+      "source": "龙树",
+      "target": "中观学派",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "龙树著《中论》等，建立了般若中观学派。",
+          "en": "Nāgārjuna authored the Mūlamadhyamakakārikā and other works, establishing the Madhyamaka school of Prajñā."
+        }
+      }
+    },
+    {
+      "source": "无著",
+      "target": "瑜伽行唯识学派",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "印度僧人无著、世亲，依据《瑜伽师地论》创立“唯识论”，形成瑜伽行唯识学派。",
+          "en": "The Indian monks Asanga and Vasubandhu founded the 'Consciousness-Only' theory based on the Yogācārabhūmi-śāstra, thus forming the Yogācāra school."
+        }
+      }
+    },
+    {
+      "source": "世亲",
+      "target": "瑜伽行唯识学派",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "印度僧人无著、世亲，依据《瑜伽师地论》创立“唯识论”，形成瑜伽行唯识学派。",
+          "en": "The Indian monks Asanga and Vasubandhu founded the 'Consciousness-Only' theory based on the Yogācārabhūmi-śāstra, thus forming the Yogācāra school."
+        }
+      }
+    },
+    {
+      "source": "大乘佛教",
+      "target": "密宗",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在笈多王朝时期，大乘佛教在吸收婆罗门教和当时新兴的怛特罗密教咒语、手印、宗教仪规和瑜伽术身体训练方法的基础上，创造了一套极富神秘主义色彩的宗教实践方式，就是密宗。",
+          "en": "During the Gupta dynasty, Mahayana Buddhism, by absorbing mantras, mudras, rituals, and yogic practices from Brahmanism and the emerging Tantrism, created a highly mystical system of religious practice known as Tantra (Mizong)."
+        }
+      }
+    },
+    {
+      "source": "婆罗门教",
+      "target": "密宗",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教吸收婆罗门教的咒语、手印等元素，发展出密宗。",
+          "en": "Mahayana Buddhism absorbed elements such as mantras and mudras from Brahmanism to develop Tantra."
+        }
+      }
+    },
+    {
+      "source": "怛特罗密教",
+      "target": "密宗",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教吸收怛特罗密教的咒语、手印等元素，发展出密宗。",
+          "en": "Mahayana Buddhism absorbed elements such as mantras and mudras from Tantrism to develop Tantra."
+        }
+      }
+    },
+    {
+      "source": "部派佛教",
+      "target": "大乘佛教",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教兴起初期，部派佛教教内的部份部派不认可绝大部份大乘佛教的来源传承，认为这些经典非释迦牟尼佛所说。",
+          "en": "In the early stages of Mahayana Buddhism's emergence, some schools within Nikāya Buddhism did not recognize the transmission sources of most Mahayana teachings, believing these scriptures were not spoken by Shakyamuni Buddha."
+        }
+      }
+    }
+  ]
+}
