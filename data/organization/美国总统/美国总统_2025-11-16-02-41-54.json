@@ -1,0 +1,783 @@
+{
+  "nodes": [
+    {
+      "id": "美利坚合众国总统",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美利坚合众国总统",
+          "美国总统"
+        ],
+        "en": [
+          "President of the United States",
+          "POTUS"
+        ]
+      },
+      "properties": {
+        "period": "1789-04-30 - ",
+        "location": {
+          "zh-cn": "华盛顿哥伦比亚特区",
+          "en": "Washington, D.C."
+        },
+        "description": {
+          "zh-cn": "美国的国家元首、政府首脑和三军统帅。根据1787年通过的《美国宪法》而设立，行使宪法赋予的行政权。",
+          "en": "The head of state, head of government, and commander-in-chief of the United States Armed Forces. The office was established by the U.S. Constitution in 1787, exercising executive power."
+        }
+      }
+    },
+    {
+      "id": "唐纳·川普",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐纳·川普",
+          "唐纳德·特朗普",
+          "特朗普"
+        ],
+        "en": [
+          "Donald Trump"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第45任及第47任总统。首位从未担任过文武官职的总统，也是美国历史上就职时年龄最大的总统。他也是唯一被刑事起诉定罪的前总统、总统参选人及当选人，以及唯一被弹劾两次的总统。",
+          "en": "The 45th and 47th President of the United States. He is the first president to have held no prior military or government office and the oldest president at the time of inauguration. He is also the only former president, presidential candidate, and president-elect to be criminally prosecuted and convicted, and the only president to be impeached twice."
+        }
+      }
+    },
+    {
+      "id": "美国宪法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "美国宪法"
+        ],
+        "en": [
+          "United States Constitution"
+        ]
+      },
+      "properties": {
+        "period": "1787 - ",
+        "description": {
+          "zh-cn": "美国的根本大法，设立了美国总统职位并规定了其职权。",
+          "en": "The supreme law of the United States of America, which established the office of the President and defines its powers."
+        }
+      }
+    },
+    {
+      "id": "乔治·华盛顿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·华盛顿"
+        ],
+        "en": [
+          "George Washington"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国首任总统，于1789年4月30日就职，是美国历史上唯一全票当选的总统。",
+          "en": "The first President of the United States, inaugurated on April 30, 1789, and the only president in U.S. history to be elected unanimously."
+        }
+      }
+    },
+    {
+      "id": "美国宪法第二十二修正案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "美国宪法第二十二修正案"
+        ],
+        "en": [
+          "Twenty-second Amendment to the United States Constitution"
+        ]
+      },
+      "properties": {
+        "period": "1951 - ",
+        "description": {
+          "zh-cn": "规定总统每届任期4年，连选连任不得多于2次。",
+          "en": "Limits the president to two four-year terms in office."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国",
+          "美利坚合众国"
+        ],
+        "en": [
+          "United States",
+          "United States of America"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于北美洲的联邦共和国，世界唯一的超级大国。",
+          "en": "A federal republic in North America, the world's sole superpower."
+        }
+      }
+    },
+    {
+      "id": "美国总统选举",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "美国总统选举",
+          "总统选举"
+        ],
+        "en": [
+          "United States presidential election"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "选举美国总统和副总统的程序，每四年举行一次。",
+          "en": "The process for electing the President and Vice President of the United States, held every four years."
+        }
+      }
+    },
+    {
+      "id": "选举人团 (美国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "选举人团 (美国)",
+          "选举人团"
+        ],
+        "en": [
+          "United States Electoral College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "根据美国宪法设立，负责选举美国总统和副总统的机构。",
+          "en": "The body established by the U.S. Constitution for the purpose of electing the president and vice president of the United States."
+        }
+      }
+    },
+    {
+      "id": "美国众议院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国众议院",
+          "众议院"
+        ],
+        "en": [
+          "United States House of Representatives"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国国会的两院之一，与美国参议院共同组成美国国会。",
+          "en": "One of the two chambers of the United States Congress, alongside the Senate."
+        }
+      }
+    },
+    {
+      "id": "美国国会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国国会"
+        ],
+        "en": [
+          "United States Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的立法机构，由参议院和众议院组成。",
+          "en": "The legislature of the United States, composed of the Senate and the House of Representatives."
+        }
+      }
+    },
+    {
+      "id": "戴维营",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "戴维营",
+          "大卫营"
+        ],
+        "en": [
+          "Camp David"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国总统的休假地。",
+          "en": "A country retreat for the President of the United States."
+        }
+      }
+    },
+    {
+      "id": "美国国家安全委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国国家安全委员会",
+          "国家安全委员会"
+        ],
+        "en": [
+          "United States National Security Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国总统处理外交及国安事务并制定相关政策的议事协调机构。",
+          "en": "The principal forum used by the President of the United States for consideration of national security and foreign policy matters."
+        }
+      }
+    },
+    {
+      "id": "美国内阁",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国内阁",
+          "内阁"
+        ],
+        "en": [
+          "Cabinet of the United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由美国副总统和联邦行政部门负责人组成的美国总统的咨询机构。",
+          "en": "An advisory body to the President of the United States, composed of the Vice President and the heads of the federal executive departments."
+        }
+      }
+    },
+    {
+      "id": "理查德·尼克松",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "理查德·尼克松",
+          "理察·尼克森"
+        ],
+        "en": [
+          "Richard Nixon"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第37任总统，是唯一在任内辞职的美国总统。",
+          "en": "The 37th President of the United States, and the only president to resign from office."
+        }
+      }
+    },
+    {
+      "id": "杰拉尔德·福特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杰拉尔德·福特",
+          "杰拉德·福特"
+        ],
+        "en": [
+          "Gerald Ford"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第38任总统，是美国历史上唯一没有经过选举而产生的总统。",
+          "en": "The 38th President of the United States, and the only person to have served as president without being elected."
+        }
+      }
+    },
+    {
+      "id": "乔治·沃克·布什",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·沃克·布什"
+        ],
+        "en": [
+          "George W. Bush"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第43任总统，其父乔治·赫伯特·沃克·布什也曾担任总统。他在九一一袭击事件后获得了创纪录的90%支持率。",
+          "en": "The 43rd President of the United States, whose father George H. W. Bush also served as president. He achieved a record 90% approval rating following the September 11 attacks."
+        }
+      }
+    },
+    {
+      "id": "九一一袭击事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "九一一袭击事件",
+          "911事件"
+        ],
+        "en": [
+          "September 11 attacks"
+        ]
+      },
+      "properties": {
+        "period": "2001-09-11 - 2001-09-11",
+        "description": {
+          "zh-cn": "2001年9月11日发生在美国本土的一系列自杀式恐怖袭击事件。",
+          "en": "A series of suicide terrorist attacks that occurred in the United States on September 11, 2001."
+        }
+      }
+    },
+    {
+      "id": "乔治·赫伯特·沃克·布什",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·赫伯特·沃克·布什"
+        ],
+        "en": [
+          "George H. W. Bush"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第41任总统，其子乔治·沃克·布什后来也担任总统。",
+          "en": "The 41st President of the United States, whose son George W. Bush later also served as president."
+        }
+      }
+    },
+    {
+      "id": "约翰·昆西·亚当斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·昆西·亚当斯"
+        ],
+        "en": [
+          "John Quincy Adams"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第6任总统，其父约翰·亚当斯是美国第2任总统。",
+          "en": "The 6th President of the United States, son of the 2nd President, John Adams."
+        }
+      }
+    },
+    {
+      "id": "约翰·亚当斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·亚当斯"
+        ],
+        "en": [
+          "John Adams"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第2任总统，其子约翰·昆西·亚当斯后来担任总统。",
+          "en": "The 2nd President of the United States, whose son John Quincy Adams later served as president."
+        }
+      }
+    },
+    {
+      "id": "本杰明·哈里森",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "本杰明·哈里森",
+          "班杰明·哈瑞森"
+        ],
+        "en": [
+          "Benjamin Harrison"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第23任总统，其祖父是第9任总统威廉·亨利·哈里森。",
+          "en": "The 23rd President of the United States, and the grandson of the 9th President, William Henry Harrison."
+        }
+      }
+    },
+    {
+      "id": "威廉·亨利·哈里森",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·亨利·哈里森"
+        ],
+        "en": [
+          "William Henry Harrison"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第9任总统，在任时间最短，其孙本杰明·哈里森后来也担任总统。",
+          "en": "The 9th President of the United States, who served the shortest term. His grandson, Benjamin Harrison, later also served as president."
+        }
+      }
+    },
+    {
+      "id": "富兰克林·德拉诺·罗斯福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "富兰克林·德拉诺·罗斯福",
+          "富兰克林·罗斯福"
+        ],
+        "en": [
+          "Franklin D. Roosevelt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第32任总统，是美国历史上唯一连任超过两届的总统。他与西奥多·罗斯福是堂兄弟。",
+          "en": "The 32nd President of the United States, and the only president to serve more than two terms. He was a fifth cousin of Theodore Roosevelt."
+        }
+      }
+    },
+    {
+      "id": "西奥多·罗斯福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "西奥多·罗斯福",
+          "狄奥多·罗斯福"
+        ],
+        "en": [
+          "Theodore Roosevelt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第26任总统，就任时是美国历史上最年轻的总统。他与富兰克林·德拉诺·罗斯福是堂兄弟。",
+          "en": "The 26th President of the United States, and the youngest person to become president. He was a fifth cousin of Franklin D. Roosevelt."
+        }
+      }
+    },
+    {
+      "id": "安德鲁·约翰逊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安德鲁·约翰逊"
+        ],
+        "en": [
+          "Andrew Johnson"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第17任总统，是美国历史上首位被众议院弹劾的总统。",
+          "en": "The 17th President of the United States, and the first to be impeached by the House of Representatives."
+        }
+      }
+    },
+    {
+      "id": "比尔·克林顿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "比尔·克林顿"
+        ],
+        "en": [
+          "Bill Clinton"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第42任总统，是美国历史上第二位被众议院弹劾的总统。",
+          "en": "The 42nd President of the United States, and the second to be impeached by the House of Representatives."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "美国宪法",
+      "target": "美利坚合众国总统",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1787",
+        "description": {
+          "zh-cn": "美国总统职位是根据1787年通过的《美国宪法》而设立的。",
+          "en": "The office of the President of the United States was established by the U.S. Constitution, which was adopted in 1787."
+        }
+      }
+    },
+    {
+      "source": "美国总统选举",
+      "target": "美利坚合众国总统",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "美国总统通过每四年举行一次的总统选举产生。",
+          "en": "The President of the United States is chosen through the presidential election held every four years."
+        }
+      }
+    },
+    {
+      "source": "选举人团 (美国)",
+      "target": "美利坚合众国总统",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "美国总统由选举人团的投票结果决定，候选人需获得至少270张选举人票才能当选。",
+          "en": "The President of the United States is determined by the votes of the Electoral College; a candidate must receive at least 270 electoral votes to win."
+        }
+      }
+    },
+    {
+      "source": "美国众议院",
+      "target": "美利坚合众国总统",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "当所有总统候选人均未能获得过半数选举人票时，由美国众议院选出总统。",
+          "en": "When no presidential candidate wins a majority of electoral votes, the U.S. House of Representatives elects the president."
+        }
+      }
+    },
+    {
+      "source": "美利坚合众国总统",
+      "target": "美国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "国家元首、政府首脑、三军统帅",
+          "en": "Head of State, Head of Government, Commander-in-Chief"
+        },
+        "description": {
+          "zh-cn": "美国总统是美国的国家元首、政府首脑及三军统帅。",
+          "en": "The President of the United States is the country's head of state, head of government, and commander-in-chief of the armed forces."
+        }
+      }
+    },
+    {
+      "source": "乔治·华盛顿",
+      "target": "美利坚合众国总统",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1789-04-30",
+        "position": {
+          "zh-cn": "第1任总统",
+          "en": "1st President"
+        },
+        "description": {
+          "zh-cn": "乔治·华盛顿是美国首任总统，于1789年4月30日就职。",
+          "en": "George Washington was the first President of the United States, inaugurated on April 30, 1789."
+        }
+      }
+    },
+    {
+      "source": "唐纳·川普",
+      "target": "美利坚合众国总统",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": [
+          "2017-01-20",
+          "2025-01-20"
+        ],
+        "end_date": [
+          "2021-01-20"
+        ],
+        "position": {
+          "zh-cn": "第45任及第47任总统",
+          "en": "45th and 47th President"
+        },
+        "description": {
+          "zh-cn": "唐纳·川普担任美国第45任总统，并于2025年1月20日开始其第二个任期，成为第47任总统。",
+          "en": "Donald Trump served as the 45th President of the United States and will begin his second term on January 20, 2025, as the 47th President."
+        }
+      }
+    },
+    {
+      "source": "美国宪法第二十二修正案",
+      "target": "美利坚合众国总统",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1951",
+        "description": {
+          "zh-cn": "该修正案于1951年生效，规定总统连选连任不得多于两次。",
+          "en": "This amendment, effective in 1951, stipulates that a president cannot be elected to more than two terms."
+        }
+      }
+    },
+    {
+      "source": "美利坚合众国总统",
+      "target": "美国国会",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "总统可以行使否决权，否决任何获国会通过的法案。",
+          "en": "The president can exercise the power of veto to reject any bill passed by Congress."
+        }
+      }
+    },
+    {
+      "source": "美利坚合众国总统",
+      "target": "戴维营",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "美国总统每年都会前往戴维营休假。",
+          "en": "The President of the United States vacations annually at Camp David."
+        }
+      }
+    },
+    {
+      "source": "美利坚合众国总统",
+      "target": "美国国家安全委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "总统是国家安全委员会的主席。",
+          "en": "The president is the chairman of the National Security Council."
+        }
+      }
+    },
+    {
+      "source": "美利坚合众国总统",
+      "target": "美国内阁",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "美国总统是内阁的成员。",
+          "en": "The President of the United States is a member of the Cabinet."
+        }
+      }
+    },
+    {
+      "source": "理查德·尼克松",
+      "target": "美利坚合众国总统",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "理查德·尼克松是唯一在任内辞职的美国总统。",
+          "en": "Richard Nixon is the only U.S. president to resign from office."
+        }
+      }
+    },
+    {
+      "source": "杰拉尔德·福特",
+      "target": "美利坚合众国总统",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杰拉尔德·福特是美国历史上唯一没有经过选举而产生的总统。",
+          "en": "Gerald Ford is the only person to have served as U.S. president without being elected."
+        }
+      }
+    },
+    {
+      "source": "九一一袭击事件",
+      "target": "乔治·沃克·布什",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-09-11",
+        "description": {
+          "zh-cn": "在九一一袭击事件后，时任总统乔治·沃克·布什的支持率一度高达90%。",
+          "en": "Following the September 11 attacks, the approval rating of then-President George W. Bush surged to a high of 90%."
+        }
+      }
+    },
+    {
+      "source": "乔治·沃克·布什",
+      "target": "乔治·赫伯特·沃克·布什",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "乔治·沃克·布什是乔治·赫伯特·沃克·布什的儿子，他们是美国历史上第二对父子总统。",
+          "en": "George W. Bush is the son of George H. W. Bush, making them the second father-son pair of presidents in U.S. history."
+        }
+      }
+    },
+    {
+      "source": "约翰·昆西·亚当斯",
+      "target": "约翰·亚当斯",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "约翰·昆西·亚当斯是约翰·亚当斯的儿子，他们是美国历史上第一对父子总统。",
+          "en": "John Quincy Adams is the son of John Adams, making them the first father-son pair of presidents in U.S. history."
+        }
+      }
+    },
+    {
+      "source": "本杰明·哈里森",
+      "target": "威廉·亨利·哈里森",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "本杰明·哈里森是威廉·亨利·哈里森的孙子，他们是美国历史上唯一一对祖孙总统。",
+          "en": "Benjamin Harrison is the grandson of William Henry Harrison, making them the only grandfather-grandson pair of presidents in U.S. history."
+        }
+      }
+    },
+    {
+      "source": "富兰克林·德拉诺·罗斯福",
+      "target": "西奥多·罗斯福",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "富兰克林·德拉诺·罗斯福与西奥多·罗斯福是堂兄弟关系，二人都曾担任美国总统。",
+          "en": "Franklin D. Roosevelt and Theodore Roosevelt were fifth cousins who both served as President of the United States."
+        }
+      }
+    },
+    {
+      "source": "美国众议院",
+      "target": "安德鲁·约翰逊",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "安德鲁·约翰逊是美国历史上被众议院弹劾的三位总统之一。",
+          "en": "Andrew Johnson is one of the three presidents in U.S. history to have been impeached by the House of Representatives."
+        }
+      }
+    },
+    {
+      "source": "美国众议院",
+      "target": "比尔·克林顿",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "比尔·克林顿是美国历史上被众议院弹劾的三位总统之一。",
+          "en": "Bill Clinton is one of the three presidents in U.S. history to have been impeached by the House of Representatives."
+        }
+      }
+    },
+    {
+      "source": "美国众议院",
+      "target": "唐纳·川普",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "唐纳·川普是美国历史上唯一被众议院弹劾两次的总统。",
+          "en": "Donald Trump is the only president in U.S. history to have been impeached twice by the House of Representatives."
+        }
+      }
+    }
+  ]
+}

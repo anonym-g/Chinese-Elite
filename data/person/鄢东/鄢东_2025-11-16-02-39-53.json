@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "鄢东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鄢东"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1967-12 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，现任中华人民共和国商务部党组成员、副部长。",
+          "en": "A political figure in the People's Republic of China, currently serving as a member of the Party Leadership Group and Vice Minister of the Ministry of Commerce."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and sole ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国商务部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国商务部",
+          "商务部"
+        ],
+        "en": [
+          "Ministry of Commerce of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院主管商业经济和贸易的组成部门。",
+          "en": "A constituent department of the State Council of the People's Republic of China responsible for commercial economy and trade."
+        }
+      }
+    },
+    {
+      "id": "中国国际经济技术交流中心",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国际经济技术交流中心"
+        ],
+        "en": [
+          "China International Center for Economic and Technical Exchanges"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国商务部直属事业单位。",
+          "en": "A public institution directly under the Ministry of Commerce of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民对外友好协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民对外友好协会"
+        ],
+        "en": [
+          "Chinese People's Association for Friendship with Foreign Countries"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国从事民间外交工作的全国性人民团体。",
+          "en": "A national people's organization of the People's Republic of China engaged in people-to-people diplomacy."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "鄢东",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "鄢东是中国共产党党员。",
+          "en": "Yan Dong is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "鄢东",
+      "target": "中华人民共和国商务部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "人事司副司长",
+          "en": "Deputy Director-General of the Department of Personnel"
+        },
+        "description": {
+          "zh-cn": "鄢东曾担任中华人民共和国商务部人事司副司长。",
+          "en": "Yan Dong previously served as the Deputy Director-General of the Department of Personnel of the Ministry of Commerce of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "鄢东",
+      "target": "中国国际经济技术交流中心",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "鄢东曾担任中国国际经济技术交流中心主任。",
+          "en": "Yan Dong previously served as the Director of the China International Center for Economic and Technical Exchanges."
+        }
+      }
+    },
+    {
+      "source": "鄢东",
+      "target": "中华人民共和国商务部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2022-05",
+        "position": {
+          "zh-cn": "世界贸易组织司司长",
+          "en": "Director-General of the Department of WTO Affairs"
+        },
+        "description": {
+          "zh-cn": "鄢东曾担任中华人民共和国商务部世界贸易组织司司长，直至2022年5月。",
+          "en": "Yan Dong previously served as the Director-General of the Department of WTO Affairs of the Ministry of Commerce of the People's Republic of China until May 2022."
+        }
+      }
+    },
+    {
+      "source": "鄢东",
+      "target": "中国人民对外友好协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-05",
+        "end_date": "2025-02",
+        "position": {
+          "zh-cn": "副会长",
+          "en": "Vice President"
+        },
+        "description": {
+          "zh-cn": "2022年5月至2025年2月，鄢东担任中国人民对外友好协会副会长。",
+          "en": "From May 2022 to February 2025, Yan Dong served as the Vice President of the Chinese People's Association for Friendship with Foreign Countries."
+        }
+      }
+    },
+    {
+      "source": "鄢东",
+      "target": "中华人民共和国商务部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2025-02",
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Vice Minister"
+        },
+        "description": {
+          "zh-cn": "2025年2月，鄢东出任中华人民共和国商务部副部长。",
+          "en": "In February 2025, Yan Dong was appointed as the Vice Minister of the Ministry of Commerce of the People's Republic of China."
+        }
+      }
+    }
+  ]
+}

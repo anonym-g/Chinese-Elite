@@ -1,0 +1,892 @@
+{
+  "nodes": [
+    {
+      "id": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "杭州深度求索人工智能基础技术研究有限公司",
+          "深度求索",
+          "DeepSeek"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2023-07-17 - ",
+        "location": {
+          "zh-cn": "中华人民共和国浙江省杭州市拱墅区",
+          "en": "Gongshu District, Hangzhou, Zhejiang, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的一家人工智能与大型语言模型公司，由幻方量化创立。",
+          "en": "An artificial intelligence and large language model company in the People's Republic of China, founded by High-Flyer Quant."
+        }
+      }
+    },
+    {
+      "id": "梁文锋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁文锋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国企业家，幻方量化和深度求索的创始人及首席执行官。",
+          "en": "Chinese entrepreneur, founder and CEO of High-Flyer Quant and DeepSeek."
+        }
+      }
+    },
+    {
+      "id": "幻方量化",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "幻方量化"
+        ],
+        "en": [
+          "High-Flyer Quant"
+        ]
+      },
+      "properties": {
+        "period": "2015 - ",
+        "description": {
+          "zh-cn": "一家由梁文锋等人于2015年创办的中资对冲基金，也是深度求索的母公司。",
+          "en": "A Chinese hedge fund founded by Liang Wenfeng and others in 2015, and the parent company of DeepSeek."
+        }
+      }
+    },
+    {
+      "id": "浙江大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "浙江大学"
+        ],
+        "en": [
+          "Zhejiang University"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国浙江省杭州市",
+          "en": "Hangzhou, Zhejiang, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "位于中国杭州市的一所顶尖公立研究型大学。幻方量化的创始成员多毕业于此。",
+          "en": "A top public research university located in Hangzhou, China. Many founding members of High-Flyer Quant graduated from this university."
+        }
+      }
+    },
+    {
+      "id": "OpenAI",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "OpenAI"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "美国加利福尼亚州旧金山",
+          "en": "San Francisco, California, United States"
+        },
+        "description": {
+          "zh-cn": "美国人工智能研究实验室，开发了ChatGPT和GPT-4等著名模型。",
+          "en": "An American artificial intelligence research laboratory that developed famous models such as ChatGPT and GPT-4."
+        }
+      }
+    },
+    {
+      "id": "2025年DeepSeek网络攻击事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2025年DeepSeek网络攻击事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2025-01-03 - 2025-01-28",
+        "description": {
+          "zh-cn": "一起针对深度求索公司的大规模网络攻击事件，包括DDoS攻击和暴力破解攻击，导致许多用户无法使用其服务。",
+          "en": "A large-scale cyberattack event against DeepSeek, including DDoS and brute-force attacks, which prevented many users from accessing its services."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北美洲的国家。其多个政府部门及州政府禁止使用DeepSeek，并对其展开国家安全审查。同时，有分析指针对DeepSeek的网络攻击IP地址来自美国。",
+          "en": "A country in North America. Several of its government departments and state governments have banned the use of DeepSeek and launched national security reviews. Meanwhile, analysis suggests that the IP addresses of cyberattacks against DeepSeek originated from the US."
+        }
+      }
+    },
+    {
+      "id": "奇安信",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奇安信"
+        ],
+        "en": [
+          "Qi An Xin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国网络安全公司，曾分析针对DeepSeek的网络攻击事件。",
+          "en": "A Chinese cybersecurity company that analyzed the cyberattack event against DeepSeek."
+        }
+      }
+    },
+    {
+      "id": "Wiz (公司)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Wiz (公司)",
+          "Wiz"
+        ],
+        "en": [
+          "Wiz (company)"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "美国纽约",
+          "en": "New York, USA"
+        },
+        "description": {
+          "zh-cn": "总部位于纽约的网络安全公司，曾发现与DeepSeek相关的数据库存在安全漏洞。",
+          "en": "A New York-based cybersecurity company that discovered a security vulnerability in a database related to DeepSeek."
+        }
+      }
+    },
+    {
+      "id": "Delson Group Inc.",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Delson Group Inc."
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "特拉华州",
+          "en": "Delaware"
+        },
+        "description": {
+          "zh-cn": "一家位于美国特拉华州的公司，因抢先申请“DeepSeek”商标而与深度求索产生争议。",
+          "en": "A company based in Delaware, USA, which is in a trademark dispute with DeepSeek after filing for the 'DeepSeek' trademark first."
+        }
+      }
+    },
+    {
+      "id": "Willie Lu",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "Willie Lu"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "Delson Group公司的创办人，毕业于浙江大学。",
+          "en": "Founder of Delson Group Inc., graduated from Zhejiang University."
+        }
+      }
+    },
+    {
+      "id": "萨姆·阿尔特曼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萨姆·阿尔特曼",
+          "萨姆·奥尔特曼"
+        ],
+        "en": [
+          "Sam Altman"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国企业家，OpenAI的首席执行官。",
+          "en": "American entrepreneur, CEO of OpenAI."
+        }
+      }
+    },
+    {
+      "id": "微软",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "微软"
+        ],
+        "en": [
+          "Microsoft"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国跨国科技公司，OpenAI的主要投资者。",
+          "en": "An American multinational technology company and a major investor in OpenAI."
+        }
+      }
+    },
+    {
+      "id": "埃隆·马斯克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "埃隆·马斯克"
+        ],
+        "en": [
+          "Elon Musk"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国企业家，对DeepSeek的能力和可持续性持怀疑态度。",
+          "en": "An American entrepreneur who has expressed skepticism about DeepSeek's capabilities and sustainability."
+        }
+      }
+    },
+    {
+      "id": "文心一言",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "文心一言"
+        ],
+        "en": [
+          "Ernie Bot"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由百度公司开发的人工智能聊天机器人。",
+          "en": "An AI chatbot developed by Baidu."
+        }
+      }
+    },
+    {
+      "id": "DeepSeek-R1",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "DeepSeek-R1"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2025-01-20 - ",
+        "description": {
+          "zh-cn": "由深度求索于2025年1月20日发布的开源推理模型，其性能被认为可与OpenAI o1正式版相当。",
+          "en": "An open-source reasoning model released by DeepSeek on January 20, 2025, with performance considered comparable to the official version of OpenAI o1."
+        }
+      }
+    },
+    {
+      "id": "腾讯元宝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "腾讯元宝"
+        ],
+        "en": [
+          "Tencent Yuanbao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由腾讯公司开发的聊天机器人应用。",
+          "en": "A chatbot application developed by Tencent."
+        }
+      }
+    },
+    {
+      "id": "深圳市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "深圳市"
+        ],
+        "en": [
+          "Shenzhen"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "广东省",
+          "en": "Guangdong Province"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国广东省下辖的副省级市。该市政府部门已将DeepSeek接入政务服务系统。",
+          "en": "A sub-provincial city under the jurisdiction of Guangdong Province, People's Republic of China. Its government departments have integrated DeepSeek into their public service systems."
+        }
+      }
+    },
+    {
+      "id": "中华民国数位发展部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国数位发展部",
+          "数位发展部"
+        ],
+        "en": [
+          "Ministry of Digital Affairs (Taiwan)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国（台湾）负责数位发展的政府部门。",
+          "en": "The government ministry of the Republic of China (Taiwan) responsible for digital affairs."
+        }
+      }
+    },
+    {
+      "id": "韩国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "韩国"
+        ],
+        "en": [
+          "South Korea"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家。其多个政府部门、学校及应用商店已屏蔽或下架DeepSeek。",
+          "en": "A country in East Asia. Several of its government departments, schools, and app stores have blocked or removed DeepSeek."
+        }
+      }
+    },
+    {
+      "id": "Scale AI",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Scale AI"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国人工智能公司，其首席执行官对DeepSeek获取芯片的合规性提出质疑。",
+          "en": "An American AI company whose CEO questioned the compliance of DeepSeek's chip acquisition."
+        }
+      }
+    },
+    {
+      "id": "汪滔 (程式设计师)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪滔 (程式设计师)",
+          "亚历山大·汪"
+        ],
+        "en": [
+          "Alexandr Wang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "Scale AI的首席执行官，曾公开批评DeepSeek可能违反了美国芯片出口管制规定。",
+          "en": "CEO of Scale AI, who publicly criticized DeepSeek for potentially violating US chip export control regulations."
+        }
+      }
+    },
+    {
+      "id": "英伟达",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英伟达"
+        ],
+        "en": [
+          "NVIDIA"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国跨国科技公司，全球领先的图形处理器和人工智能芯片制造商。",
+          "en": "An American multinational technology company and a leading global manufacturer of graphics processing units and artificial intelligence chips."
+        }
+      }
+    },
+    {
+      "id": "DeepSeek-V3",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "DeepSeek-V3"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2024-12-26 - ",
+        "description": {
+          "zh-cn": "由深度求索于2024年12月26日发布的开源模型。",
+          "en": "An open-source model released by DeepSeek on December 26, 2024."
+        }
+      }
+    },
+    {
+      "id": "唐凤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐凤"
+        ],
+        "en": [
+          "Audrey Tang"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "台湾政治人物，曾任中华民国数位发展部部长。",
+          "en": "A Taiwanese politician who formerly served as the Minister of Digital Affairs of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "六四事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "六四事件",
+          "六四天安门事件"
+        ],
+        "en": [
+          "Tiananmen Square protests of 1989"
+        ]
+      },
+      "properties": {
+        "period": "1989-04-15 - 1989-06-04",
+        "description": {
+          "zh-cn": "1989年发生在中国北京的政治事件，在中国大陆是高度敏感议题。",
+          "en": "A political event that took place in Beijing, China in 1989, which is a highly sensitive topic in mainland China."
+        }
+      }
+    },
+    {
+      "id": "黄仁勋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄仁勋"
+        ],
+        "en": [
+          "Jensen Huang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国企业家，英伟达公司（NVIDIA）的共同创办人暨首席执行官。",
+          "en": "American entrepreneur, co-founder and CEO of NVIDIA."
+        }
+      }
+    },
+    {
+      "id": "自然 (期刊)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "自然 (期刊)",
+          "自然"
+        ],
+        "en": [
+          "Nature (journal)",
+          "Nature"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一份全球知名的跨学科科学期刊。",
+          "en": "A world-renowned interdisciplinary scientific journal."
+        }
+      }
+    },
+    {
+      "id": "美国国防部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国国防部"
+        ],
+        "en": [
+          "United States Department of Defense"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国联邦政府行政部门之一，负责国防事务。",
+          "en": "An executive department of the U.S. federal government responsible for national defense."
+        }
+      }
+    },
+    {
+      "id": "美国海军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国海军"
+        ],
+        "en": [
+          "United States Navy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国武装力量的海上军种。",
+          "en": "The maritime service branch of the United States Armed Forces."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "梁文锋",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2023-07-17",
+        "description": {
+          "zh-cn": "梁文锋是杭州深度求索人工智能基础技术研究有限公司的创始人。",
+          "en": "Liang Wenfeng is the founder of Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd."
+        }
+      }
+    },
+    {
+      "source": "梁文锋",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-07-17",
+        "position": {
+          "zh-cn": "行政总裁",
+          "en": "Chief Executive Officer"
+        },
+        "description": {
+          "zh-cn": "梁文锋担任深度求索的行政总裁。",
+          "en": "Liang Wenfeng serves as the CEO of DeepSeek."
+        }
+      }
+    },
+    {
+      "source": "幻方量化",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2023-07-17",
+        "description": {
+          "zh-cn": "深度求索由幻方量化创立。",
+          "en": "DeepSeek was founded by High-Flyer Quant."
+        }
+      }
+    },
+    {
+      "source": "杭州深度求索人工智能基础技术研究有限公司",
+      "target": "幻方量化",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "深度求索是幻方量化创立的子公司，其财务、法务、行政等均由幻方量化支持。",
+          "en": "DeepSeek is a subsidiary founded by High-Flyer Quant, and its finance, legal, and administrative functions are supported by High-Flyer Quant."
+        }
+      }
+    },
+    {
+      "source": "梁文锋",
+      "target": "幻方量化",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2015",
+        "description": {
+          "zh-cn": "梁文锋是幻方量化的创始人之一。",
+          "en": "Liang Wenfeng is one of the founders of High-Flyer Quant."
+        }
+      }
+    },
+    {
+      "source": "幻方量化",
+      "target": "浙江大学",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "幻方量化的创始成员多来自浙江大学。",
+          "en": "Many of the founding members of High-Flyer Quant are from Zhejiang University."
+        }
+      }
+    },
+    {
+      "source": "Willie Lu",
+      "target": "浙江大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "Delson Group的创办人Willie Lu毕业于浙江大学。",
+          "en": "Willie Lu, the founder of Delson Group, graduated from Zhejiang University."
+        }
+      }
+    },
+    {
+      "source": "2025年DeepSeek网络攻击事件",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-01-03",
+        "end_date": "2025-01-28",
+        "description": {
+          "zh-cn": "该网络攻击事件导致许多深度求索的用户无法登录、注册或进行对话。",
+          "en": "This cyberattack event caused many DeepSeek users to be unable to log in, register, or conduct conversations."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "2025年DeepSeek网络攻击事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2025-01",
+        "description": {
+          "zh-cn": "根据中国网络安全公司奇安信的分析，暴力破解攻击的IP地址全部来自美国。",
+          "en": "According to analysis by Chinese cybersecurity firm Qi An Xin, all IP addresses involved in the brute-force attacks originated from the United States."
+        }
+      }
+    },
+    {
+      "source": "奇安信",
+      "target": "2025年DeepSeek网络攻击事件",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "奇安信分析了此次网络攻击，并指出暴力破解攻击的IP地址全部来自美国。",
+          "en": "Qi An Xin analyzed this cyberattack and pointed out that all IP addresses of the brute-force attacks came from the United States."
+        }
+      }
+    },
+    {
+      "source": "Wiz (公司)",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "Wiz公司发现了一个与DeepSeek相关的数据库存在安全漏洞，并在发出警报后，DeepSeek在一个小时内保护了数据。",
+          "en": "Wiz discovered a security vulnerability in a database related to DeepSeek, and after being alerted, DeepSeek secured the data within an hour."
+        }
+      }
+    },
+    {
+      "source": "Delson Group Inc.",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2025-01-28",
+        "description": {
+          "zh-cn": "Delson Group Inc.在深度求索提交商标申请的36小时前率先申请了“DeepSeek”商标，引发了商标权争议。",
+          "en": "Delson Group Inc. filed an application for the 'DeepSeek' trademark 36 hours before DeepSeek, leading to a trademark dispute."
+        }
+      }
+    },
+    {
+      "source": "OpenAI",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-01-28",
+        "description": {
+          "zh-cn": "OpenAI指控DeepSeek使用知识蒸馏技术复制其模型进行开发，违反了OpenAI的服务条款。",
+          "en": "OpenAI accused DeepSeek of using knowledge distillation to replicate its models for development, which violates OpenAI's terms of service."
+        }
+      }
+    },
+    {
+      "source": "汪滔 (程式设计师)",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "Scale AI的首席执行官亚历山大·汪批评称DeepSeek在训练时获得了比他们透露的更多的NVIDIA H100芯片，违反了美国实施的出口管制规定。",
+          "en": "Alexandr Wang, CEO of Scale AI, criticized DeepSeek for allegedly obtaining more NVIDIA H100 chips than disclosed during training, violating US export control regulations."
+        }
+      }
+    },
+    {
+      "source": "微软",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2025-01-29",
+        "description": {
+          "zh-cn": "作为OpenAI的大股东，微软就DeepSeek被指控使用知识蒸馏技术复制OpenAI模型一事展开调查。",
+          "en": "As a major shareholder of OpenAI, Microsoft launched an investigation into allegations that DeepSeek used knowledge distillation to replicate OpenAI's models."
+        }
+      }
+    },
+    {
+      "source": "埃隆·马斯克",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "对DeepSeek的能力或是DeepSeek爆火的可持续性持怀疑态度。",
+          "en": "Expressed skepticism about DeepSeek's capabilities and the sustainability of its popularity."
+        }
+      }
+    },
+    {
+      "source": "萨姆·阿尔特曼",
+      "target": "DeepSeek-R1",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "OpenAI首席执行官萨姆·阿尔特曼称DeepSeek-R1是一款令人印象深刻的模型。",
+          "en": "OpenAI CEO Sam Altman called DeepSeek-R1 an impressive model."
+        }
+      }
+    },
+    {
+      "source": "文心一言",
+      "target": "DeepSeek-R1",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2025-02",
+        "description": {
+          "zh-cn": "文心一言于2025年2月宣布接入DeepSeek-R1模型。",
+          "en": "Ernie Bot announced in February 2025 that it would integrate the DeepSeek-R1 model."
+        }
+      }
+    },
+    {
+      "source": "腾讯元宝",
+      "target": "DeepSeek-R1",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2025-02",
+        "description": {
+          "zh-cn": "腾讯元宝于2025年2月宣布接入DeepSeek-R1模型。",
+          "en": "Tencent Yuanbao announced in February 2025 that it would integrate the DeepSeek-R1 model."
+        }
+      }
+    },
+    {
+      "source": "深圳市",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2025-02-16",
+        "description": {
+          "zh-cn": "深圳市于2025年2月16日正式为全市各区及各部门提供DeepSeek模型应用服务，用于公文写作、政策解读等方面。",
+          "en": "On February 16, 2025, the city of Shenzhen officially began providing DeepSeek model application services to all its districts and departments for tasks such as official document writing and policy interpretation."
+        }
+      }
+    },
+    {
+      "source": "中华民国数位发展部",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-01-31",
+        "description": {
+          "zh-cn": "以“防范资安风险”为由，要求在中华民国（台湾）公务机关中不得使用DeepSeek。",
+          "en": "Citing 'cybersecurity risks,' it required that DeepSeek not be used in government agencies of the Republic of China (Taiwan)."
+        }
+      }
+    },
+    {
+      "source": "韩国",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2025-02-05",
+        "description": {
+          "zh-cn": "自2025年2月起，韩国多个政府部门、学校及应用商店以数据安全为由，相继屏蔽或下架DeepSeek。",
+          "en": "Starting from February 2025, several South Korean government departments, schools, and app stores successively blocked or removed DeepSeek, citing data security concerns."
+        }
+      }
+    },
+    {
+      "source": "美国国防部",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "禁止在政府官方设备上使用DeepSeek。",
+          "en": "Banned the use of DeepSeek on official government devices."
+        }
+      }
+    },
+    {
+      "source": "美国海军",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "基于安全和道德考量，禁止使用DeepSeek。",
+          "en": "Banned the use of DeepSeek based on security and ethical considerations."
+        }
+      }
+    },
+    {
+      "source": "唐凤",
+      "target": "六四事件",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "前任中华民国数位发展部部长唐凤曾通过下载DeepSeek离线版本，并透过诱导方式使其说出关于六四事件的内容。",
+          "en": "Audrey Tang, the former Minister of Digital Affairs of the Republic of China, was able to induce DeepSeek to generate content about the Tiananmen Square protests by downloading an offline version and using specific prompts."
+        }
+      }
+    },
+    {
+      "source": "黄仁勋",
+      "target": "杭州深度求索人工智能基础技术研究有限公司",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2025-07-17",
+        "description": {
+          "zh-cn": "英伟达CEO黄仁勋表示，DeepSeek“绝对是 A+级的科学和 A+级的工程质量”，并对DeepSeek表示赞赏。",
+          "en": "NVIDIA CEO Jensen Huang stated that DeepSeek is 'definitely A+ grade science and A+ grade engineering quality,' and expressed his appreciation for DeepSeek."
+        }
+      }
+    },
+    {
+      "source": "梁文锋",
+      "target": "自然 (期刊)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2025-09-17",
+        "description": {
+          "zh-cn": "作为通讯作者，与DeepSeek团队共同在《自然》杂志上发表了题为《DeepSeek-R1透过强化学习激励大型语言模型推理》的论文，并登上该杂志封面。",
+          "en": "As the corresponding author, along with the DeepSeek team, published a paper titled 'DeepSeek-R1: Activating Large Language Model Reasoning through Reinforcement Learning' in the journal Nature, which was featured on the cover."
+        }
+      }
+    }
+  ]
+}

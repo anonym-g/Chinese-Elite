@@ -1,0 +1,338 @@
+{
+  "nodes": [
+    {
+      "id": "张荣茂",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张荣茂"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1937 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "湖南省桃源县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任辽宁省人民政府副省长、沈阳市人民政府市长、沈阳市人大常委会主任。",
+          "en": "A political figure of the People's Republic of China, who served as Vice Governor of Liaoning Province, Mayor of Shenyang Municipal People's Government, and Director of the Standing Committee of the Shenyang Municipal People's Congress."
+        }
+      }
+    },
+    {
+      "id": "桃源县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "桃源县",
+          "桃源"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国湖南省",
+          "en": "Hunan Province, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "湖南省的一个县，是张荣茂的家乡。",
+          "en": "A county in Hunan Province, the hometown of Zhang Rongmao."
+        }
+      }
+    },
+    {
+      "id": "辽宁省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辽宁省人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "辽宁省",
+          "en": "Liaoning Province"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国辽宁省的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of Liaoning Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "沈阳市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沈阳市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "沈阳市",
+          "en": "Shenyang City"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国沈阳市的地方国家行政机关。",
+          "en": "The local state administrative organ of Shenyang City, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会",
+          "全国人大"
+        ],
+        "en": [
+          "National People's Congress"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的最高国家权力机关。",
+          "en": "The highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "大连工学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大连工学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "大连市",
+          "en": "Dalian City"
+        },
+        "description": {
+          "zh-cn": "大连理工大学的前身，位于中国辽宁省大连市的一所高等学府。",
+          "en": "The predecessor of Dalian University of Technology, an institution of higher learning located in Dalian, Liaoning Province, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党沈阳市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党沈阳市委员会",
+          "中共沈阳市委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "沈阳市",
+          "en": "Shenyang City"
+        },
+        "description": {
+          "zh-cn": "中国共产党在沈阳市的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Shenyang City."
+        }
+      }
+    },
+    {
+      "id": "沈阳市人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沈阳市人民代表大会常务委员会",
+          "沈阳市人大常委会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "沈阳市",
+          "en": "Shenyang City"
+        },
+        "description": {
+          "zh-cn": "沈阳市人民代表大会的常设机关。",
+          "en": "The standing body of the Shenyang Municipal People's Congress."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张荣茂",
+      "target": "桃源县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "张荣茂是湖南桃源人。",
+          "en": "Zhang Rongmao is from Taoyuan, Hunan."
+        }
+      }
+    },
+    {
+      "source": "张荣茂",
+      "target": "辽宁省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        },
+        "description": {
+          "zh-cn": "张荣茂曾担任辽宁省人民政府副省长。",
+          "en": "Zhang Rongmao served as Vice Governor of the Liaoning Provincial People's Government."
+        }
+      }
+    },
+    {
+      "source": "张荣茂",
+      "target": "沈阳市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "张荣茂曾担任沈阳市人民政府市长。",
+          "en": "Zhang Rongmao served as Mayor of the Shenyang Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "张荣茂",
+      "target": "沈阳市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副市长",
+          "en": "Vice Mayor"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，张荣茂曾担任沈阳市人民政府副市长。",
+          "en": "According to the Wikipedia category, Zhang Rongmao served as Vice Mayor of the Shenyang Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "张荣茂",
+      "target": "全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第八届代表",
+          "en": "8th term Deputy"
+        },
+        "description": {
+          "zh-cn": "张荣茂曾是第八届全国人大代表。",
+          "en": "Zhang Rongmao was a deputy to the 8th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "张荣茂",
+      "target": "全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第九届代表",
+          "en": "9th term Deputy"
+        },
+        "description": {
+          "zh-cn": "张荣茂曾是第九届全国人大代表。",
+          "en": "Zhang Rongmao was a deputy to the 9th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "张荣茂",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，张荣茂是中国共产党党员。",
+          "en": "According to the Wikipedia category, Zhang Rongmao is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "张荣茂",
+      "target": "大连工学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，张荣茂是大连工学院的校友。",
+          "en": "According to the Wikipedia category, Zhang Rongmao is an alumnus of Dalian Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "张荣茂",
+      "target": "中国共产党沈阳市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常委",
+          "en": "Member of the Standing Committee"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，张荣茂曾担任中共沈阳市委常委。",
+          "en": "According to the Wikipedia category, Zhang Rongmao served as a member of the Standing Committee of the Shenyang Municipal Committee of the CPC."
+        }
+      }
+    },
+    {
+      "source": "张荣茂",
+      "target": "沈阳市人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，张荣茂曾担任沈阳市人大常委会主任。",
+          "en": "According to the Wikipedia category, Zhang Rongmao served as Director of the Standing Committee of the Shenyang Municipal People's Congress."
+        }
+      }
+    }
+  ]
+}

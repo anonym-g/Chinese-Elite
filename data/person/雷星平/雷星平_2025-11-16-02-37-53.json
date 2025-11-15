@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "雷星平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雷星平"
+        ],
+        "en": [
+          "Lei Xingping"
+        ]
+      },
+      "properties": {
+        "lifetime": "1942 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "邵阳市",
+          "en": "Shaoyang City"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国军事人物，中国人民解放军少将，曾任陕西省军区政治委员、第八届全国人大代表。",
+          "en": "A military figure of the People's Republic of China, a major general of the People's Liberation Army, former political commissar of the Shaanxi Military District, and a delegate to the 8th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "湖南",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖南"
+        ],
+        "en": [
+          "Hunan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国省份。",
+          "en": "A province of China."
+        }
+      }
+    },
+    {
+      "id": "邵阳市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "邵阳市",
+          "邵阳"
+        ],
+        "en": [
+          "Shaoyang City",
+          "Shaoyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "湖南省下辖的地级市。",
+          "en": "A prefecture-level city in Hunan Province."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于亚洲的社会主义国家，简称中国。",
+          "en": "A socialist state in Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军少将"
+        ],
+        "en": [
+          "Major general of the Chinese People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的将级军官军衔。",
+          "en": "A general officer rank in the Chinese People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "陕西省军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "陕西省军区"
+        ],
+        "en": [
+          "Shaanxi Military District"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军在中国陕西省设立的军队一级组织。",
+          "en": "A primary-level military organization of the People's Liberation Army established in Shaanxi Province, China."
+        }
+      }
+    },
+    {
+      "id": "第八届全国人大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第八届全国人大代表"
+        ],
+        "en": [
+          "Delegate to the 8th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "1993 - 1998",
+        "description": {
+          "zh-cn": "在1993年至1998年期间，作为中华人民共和国最高国家权力机关成员的代表群体。",
+          "en": "The group of representatives who were members of the highest state power organ of the People's Republic of China from 1993 to 1998."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1921-07-23 - ",
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "雷星平",
+      "target": "邵阳市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "雷星平是湖南邵阳人。",
+          "en": "Lei Xingping is a native of Shaoyang, Hunan."
+        }
+      }
+    },
+    {
+      "source": "雷星平",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "雷星平是中华人民共和国的军事人物。",
+          "en": "Lei Xingping is a military figure of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "雷星平",
+      "target": "中国人民解放军少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "雷星平拥有中国人民解放军少将军衔。",
+          "en": "Lei Xingping holds the rank of Major General in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "雷星平",
+      "target": "陕西省军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治委员",
+          "en": "Political Commissar"
+        },
+        "description": {
+          "zh-cn": "雷星平曾任陕西省军区政治委员。",
+          "en": "Lei Xingping formerly served as the Political Commissar of the Shaanxi Military District."
+        }
+      }
+    },
+    {
+      "source": "雷星平",
+      "target": "第八届全国人大代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993-03",
+        "end_date": "1998-03",
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "雷星平是第八届全国人民代表大会的代表。",
+          "en": "Lei Xingping was a delegate to the 8th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "雷星平",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据其维基百科分类，雷星平是中国共产党党员。",
+          "en": "According to his Wikipedia category, Lei Xingping is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

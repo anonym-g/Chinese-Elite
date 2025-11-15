@@ -1,0 +1,929 @@
+{
+  "nodes": [
+    {
+      "id": "傅斯年",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "傅斯年",
+          "孟真",
+          "傅大炮"
+        ],
+        "en": [
+          "Fu Ssu-nien"
+        ]
+      },
+      "properties": {
+        "lifetime": "1896-03-26 - 1950-12-20",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "东昌府",
+          "en": "Dongchangfu"
+        },
+        "death_place": {
+          "zh-cn": "台北市",
+          "en": "Taipei"
+        },
+        "description": {
+          "zh-cn": "中国历史学家、学术领导人、五四运动学生领袖之一。曾任国立北京大学代理校长、中央研究院历史语言研究所所长及国立台湾大学校长。",
+          "en": "A Chinese historian, academic leader, and a student leader in the May Fourth Movement. He served as the acting president of Peking University, director of the Institute of History and Philology at Academia Sinica, and president of National Taiwan University."
+        }
+      }
+    },
+    {
+      "id": "国立北京大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国立北京大学",
+          "北京大学",
+          "北大"
+        ],
+        "en": [
+          "Peking University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国近代第一所国立综合性大学。",
+          "en": "The first national comprehensive university in modern China."
+        }
+      }
+    },
+    {
+      "id": "爱丁堡大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "爱丁堡大学"
+        ],
+        "en": [
+          "University of Edinburgh"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于英国苏格兰首府爱丁堡的世界著名公立综合研究型大学。",
+          "en": "A world-renowned public comprehensive research university located in Edinburgh, the capital of Scotland, UK."
+        }
+      }
+    },
+    {
+      "id": "伦敦大学学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伦敦大学学院"
+        ],
+        "en": [
+          "University College London"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于英国伦敦的顶尖公立研究型大学。",
+          "en": "A leading public research university located in London, UK."
+        }
+      }
+    },
+    {
+      "id": "柏林洪堡大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柏林洪堡大学",
+          "柏林大学"
+        ],
+        "en": [
+          "Humboldt University of Berlin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于德国首都柏林的公立大学。",
+          "en": "A public university located in Berlin, the capital of Germany."
+        }
+      }
+    },
+    {
+      "id": "国立中山大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国立中山大学",
+          "中山大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由孙中山创立的大学，傅斯年曾在此任教。",
+          "en": "A university founded by Sun Yat-sen where Fu Ssu-nien once taught."
+        }
+      }
+    },
+    {
+      "id": "中央研究院历史语言研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央研究院历史语言研究所",
+          "历史语言研究所",
+          "史语所"
+        ],
+        "en": [
+          "Institute of History and Philology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国中央研究院下属历史学、语言学、考古学、人类学学术研究机构。",
+          "en": "An academic research institution for history, linguistics, archaeology, and anthropology under the Academia Sinica of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "国民参政会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民参政会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1938 - 1948",
+        "description": {
+          "zh-cn": "中华民国抗日战争时期至行宪前夕存在的全国最高民意咨询机关。",
+          "en": "The highest national public opinion advisory body in the Republic of China from the Second Sino-Japanese War until the eve of the implementation of the Constitution."
+        }
+      }
+    },
+    {
+      "id": "中央研究院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央研究院",
+          "中研院"
+        ],
+        "en": [
+          "Academia Sinica"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国最高的学术研究机关。",
+          "en": "The highest academic research institution of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "国立台湾大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国立台湾大学",
+          "台湾大学",
+          "台大"
+        ],
+        "en": [
+          "National Taiwan University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于台湾台北市的综合性研究型公立大学。",
+          "en": "A comprehensive public research university located in Taipei, Taiwan."
+        }
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党",
+          "国民党"
+        ],
+        "en": [
+          "Kuomintang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的创建政党之一。",
+          "en": "One of the founding political parties of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "五四运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "五四运动"
+        ],
+        "en": [
+          "May Fourth Movement"
+        ]
+      },
+      "properties": {
+        "period": "1919-05-04 - ",
+        "description": {
+          "zh-cn": "1919年发生于中国北京的一场以青年学生为主，广大群众、市民、工商人士等阶层共同参与的，通过示威游行、请愿、罢工、暴力对抗政府等多种形式进行的爱国运动。",
+          "en": "An anti-imperialist, cultural, and political movement growing out of student participants in Beijing on May 4, 1919."
+        }
+      }
+    },
+    {
+      "id": "孔祥熙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔祥熙"
+        ],
+        "en": [
+          "H. H. Kung"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治家、银行家，曾任行政院院长、财政部部长。",
+          "en": "A politician and banker in the Republic of China who served as Premier and Minister of Finance."
+        }
+      }
+    },
+    {
+      "id": "宋子文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋子文"
+        ],
+        "en": [
+          "T. V. Soong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治家、外交家、金融家，曾任行政院院长。",
+          "en": "A politician, diplomat, and financier in the Republic of China who served as Premier."
+        }
+      }
+    },
+    {
+      "id": "丁馥翠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丁馥翠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "傅斯年元配妻子。",
+          "en": "Fu Ssu-nien's first wife."
+        }
+      }
+    },
+    {
+      "id": "俞大彩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "俞大彩"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1907 - 1990-08-20",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "傅斯年妻子，曾任台湾大学外文系教授。",
+          "en": "Fu Ssu-nien's wife, a former professor in the Department of Foreign Languages and Literatures at National Taiwan University."
+        }
+      }
+    },
+    {
+      "id": "罗家伦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗家伦"
+        ],
+        "en": [
+          "Luo Jialun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代教育家、历史学家，五四运动学生领袖之一。",
+          "en": "A modern Chinese educator, historian, and a student leader in the May Fourth Movement."
+        }
+      }
+    },
+    {
+      "id": "胡适",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡适"
+        ],
+        "en": [
+          "Hu Shih"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代著名学者、诗人、历史家、文学家、哲学家，曾任国立北京大学校长。",
+          "en": "A renowned modern Chinese scholar, poet, historian, writer, and philosopher, who served as the president of Peking University."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党、中华人民共和国、中国人民解放军的主要缔造者和领导人。",
+          "en": "The main founder and leader of the Communist Party of China, the People's Republic of China, and the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "一个存在于1922年至1991年的欧亚大陆北部的社会主义联邦制国家。",
+          "en": "A socialist federal state in northern Eurasia that existed from 1922 to 1991."
+        }
+      }
+    },
+    {
+      "id": "傅以渐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "傅以渐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第一位状元，曾官至兵部尚书、武英殿大学士。",
+          "en": "The first Zhuangyuan (top scholar) of the Qing Dynasty, who served as Minister of War and Grand Secretary of the Wuying Hall."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国历史上最后一个帝制王朝。",
+          "en": "The last imperial dynasty in Chinese history."
+        }
+      }
+    },
+    {
+      "id": "陈诚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈诚"
+        ],
+        "en": [
+          "Chen Cheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军一级上将，曾任台湾省政府主席、行政院院长、副总统。",
+          "en": "A General of the Army in the Republic of China who served as Governor of Taiwan Province, Premier of the Executive Yuan, and Vice President."
+        }
+      }
+    },
+    {
+      "id": "四六事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "四六事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-04-06",
+        "description": {
+          "zh-cn": "发生于台湾大学和台湾省立师范学院的学生运动，遭到国民政府镇压。",
+          "en": "A student movement at National Taiwan University and Taiwan Provincial Normal College that was suppressed by the Nationalist government."
+        }
+      }
+    },
+    {
+      "id": "彭孟缉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭孟缉"
+        ],
+        "en": [
+          "Peng Meng-chi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军一级上将，曾任台湾警备总司令。",
+          "en": "A General of the Army in the Republic of China who served as the commander of the Taiwan Garrison Command."
+        }
+      }
+    },
+    {
+      "id": "蔡元培",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡元培"
+        ],
+        "en": [
+          "Cai Yuanpei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代革命家、教育家、政治家，曾任国立北京大学校长、中央研究院院长。",
+          "en": "A modern Chinese revolutionary, educator, and politician who served as the president of Peking University and the first president of Academia Sinica."
+        }
+      }
+    },
+    {
+      "id": "东昌府",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "东昌府"
+        ],
+        "en": [
+          "Dongchangfu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国山东省的一个历史行政区划，傅斯年出生地。",
+          "en": "A historical administrative division in Shandong Province, China, and the birthplace of Fu Ssu-nien."
+        }
+      }
+    },
+    {
+      "id": "台北市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台北市",
+          "台北"
+        ],
+        "en": [
+          "Taipei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国首都及直辖市，傅斯年逝世地。",
+          "en": "The capital and a special municipality of the Republic of China, and the place of Fu Ssu-nien's death."
+        }
+      }
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋介石",
+          "蒋中正"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治家及军事家，曾任中华民国总统。",
+          "en": "A Chinese politician and military leader who served as the leader of the Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "傅斯年",
+      "target": "东昌府",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1896-03-26",
+        "end_date": "1896-03-26"
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "国立北京大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1919"
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "爱丁堡大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1920"
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "伦敦大学学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1921",
+        "end_date": "1923"
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "柏林洪堡大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1923",
+        "end_date": "1926"
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "国立中山大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1926",
+        "end_date": "1950",
+        "position": {
+          "zh-cn": "教授、文科学长",
+          "en": "Professor, Dean of the Faculty of Arts"
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "中央研究院历史语言研究所",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1928",
+        "description": {
+          "zh-cn": "傅斯年积极筹划并负责创建了中央研究院历史语言研究所。",
+          "en": "Fu Ssu-nien actively planned and was responsible for the establishment of the Institute of History and Philology at Academia Sinica."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "中央研究院历史语言研究所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1928-11",
+        "end_date": "1950",
+        "position": {
+          "zh-cn": "所长",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "国民参政会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1938",
+        "end_date": "1950",
+        "position": {
+          "zh-cn": "参政员",
+          "en": "Councilor"
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "中央研究院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": [
+          "1937",
+          "1948"
+        ],
+        "end_date": [
+          "1948",
+          "1950-12-20"
+        ],
+        "position": {
+          "zh-cn": "总干事、院士",
+          "en": "General Secretary, Academician"
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "国立北京大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1946",
+        "position": {
+          "zh-cn": "代理校长",
+          "en": "Acting President"
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "国立台湾大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1949-01-20",
+        "end_date": "1950-12-20",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "中国国民党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "傅斯年",
+      "target": "五四运动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1919-05-04",
+        "description": {
+          "zh-cn": "傅斯年担任五四运动中学生游行队伍的总指挥。",
+          "en": "Fu Ssu-nien served as the general commander of the student parade during the May Fourth Movement."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "孔祥熙",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1944",
+        "description": {
+          "zh-cn": "在国民参政会向时任行政院院长孔祥熙发难，揭发其贪污舞弊，最终迫使其下台。",
+          "en": "At the People's Political Council, he challenged then-Premier H. H. Kung, exposing his corruption and malfeasance, ultimately forcing him to step down."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "宋子文",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1947",
+        "description": {
+          "zh-cn": "发表《这个样子的宋子文非走开不可》等文章，痛批时任行政院长宋子文发国难财，将其逼下台。",
+          "en": "He published articles such as 'This kind of T.V. Soong must go', criticizing then-Premier T. V. Soong for war profiteering and forcing him to resign."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "丁馥翠",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1911",
+        "end_date": "1934",
+        "description": {
+          "zh-cn": "傅斯年于1911年与丁馥翠结婚，1934年离婚。",
+          "en": "Fu Ssu-nien married Ding Fucui in 1911 and they divorced in 1934."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "俞大彩",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1934-08-05"
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "罗家伦",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "与罗家伦、毛子水等人一同组织新潮社，是五四运动时期的著名学生领袖。",
+          "en": "Together with Luo Jialun, Mao Zishui, and others, he organized the Xinchao She (New Tide Society) and was a prominent student leader during the May Fourth Movement."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "胡适",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "胡适称傅斯年为其“最好的诤友和保护人”。",
+          "en": "Hu Shih called Fu Ssu-nien his 'best critic and protector'."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "毛泽东",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1945-07",
+        "description": {
+          "zh-cn": "访问延安期间，傅斯年与毛泽东进行了一次单独的长谈。",
+          "en": "During his visit to Yan'an, Fu Ssu-nien had a long, private conversation with Mao Zedong."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "傅斯年",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1945-07",
+        "description": {
+          "zh-cn": "在延安与毛泽东长谈后，傅斯年认为毛的作风纯粹是专制愚民，是“宋江”之流，这坚定了他反共的立场。",
+          "en": "After a long conversation with Mao Zedong in Yan'an, Fu Ssu-nien concluded that Mao's style was purely autocratic and aimed at keeping the people ignorant, likening him to 'Song Jiang'. This solidified his anti-communist stance."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "中国共产党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "傅斯年是民国时期著名的反共学者，认为中共是“祖传的流寇”，其作风反自由、反民主，并发表多篇文章阐述反共立场。",
+          "en": "Fu Ssu-nien was a well-known anti-communist scholar during the Republican era. He considered the CCP to be 'hereditary roving bandits' with an anti-liberal and anti-democratic style, and he published numerous articles explaining his anti-communist position."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "苏联",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "傅斯年同样反对苏联，认为苏联既没有自由也没有平等，是集人类文明罪恶之大成的国家，主张反共必反苏。",
+          "en": "Fu Ssu-nien also opposed the Soviet Union, believing it lacked both freedom and equality and was the epitome of the evils of human civilization. He advocated that anti-communism must also be anti-Soviet."
+        }
+      }
+    },
+    {
+      "source": "傅以渐",
+      "target": "清朝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "兵部尚书、武英殿大学士",
+          "en": "Minister of War, Grand Secretary of the Wuying Hall"
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "傅以渐",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "傅以渐是傅斯年的七世祖。",
+          "en": "Fu Yijian was Fu Ssu-nien's seventh-generation ancestor."
+        }
+      }
+    },
+    {
+      "source": "陈诚",
+      "target": "傅斯年",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-01-05",
+        "description": {
+          "zh-cn": "时任台湾省政府主席陈诚致电傅斯年，敦促其速来台湾出任国立台湾大学校长，共负巨艰。",
+          "en": "Then-Governor of Taiwan Province Chen Cheng telegraphed Fu Ssu-nien, urging him to come to Taiwan quickly to take up the presidency of National Taiwan University and share the great difficulties."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "四六事件",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1949-04-05",
+        "description": {
+          "zh-cn": "在与陈诚商讨后，傅斯年同意肃清台大和师范学院的“匪谍”，但提出了“不能流血”等三个条件，影响了事件的处理方式。",
+          "en": "After discussions with Chen Cheng, Fu Ssu-nien agreed to purge the 'communist spies' from NTU and the Normal College but stipulated three conditions, including 'no bloodshed', which influenced how the incident was handled."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "彭孟缉",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1949-04-06",
+        "description": {
+          "zh-cn": "在四六事件期间，傅斯年向时任台湾警备总司令彭孟缉提出请求，在驱离学生时不能流血，否则要与其拚命。",
+          "en": "During the April Sixth Incident, Fu Ssu-nien made a request to then-commander of the Taiwan Garrison Command, Peng Meng-chi, stating that there should be no bloodshed when dispersing the students, or he would 'fight him to the death'."
+        }
+      }
+    },
+    {
+      "source": "蔡元培",
+      "target": "傅斯年",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1920",
+        "description": {
+          "zh-cn": "受蔡元培推荐，傅斯年于1920年出洋留学。",
+          "en": "On the recommendation of Cai Yuanpei, Fu Ssu-nien went abroad to study in 1920."
+        }
+      }
+    },
+    {
+      "source": "傅斯年",
+      "target": "蒋介石",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1944-11",
+        "description": {
+          "zh-cn": "傅斯年曾因美金公债案之事写信给蒋介石，事后蒋介石亲自请他吃饭进行讨论。",
+          "en": "Fu Ssu-nien wrote a letter to Chiang Kai-shek regarding the US Dollar Bond case, after which Chiang personally invited him to a meal for discussion."
+        }
+      }
+    }
+  ]
+}
