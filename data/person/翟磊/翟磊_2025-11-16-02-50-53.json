@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": "翟磊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "翟磊"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1980-02 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "潍坊市",
+          "en": "Weifang"
+        },
+        "description": {
+          "zh-cn": "中国政治人物，法学博士，中国共产党党员。曾任上海长宁区委常委、副区长，现任中共上海市静安区委副书记、区长。",
+          "en": "Chinese politician, Doctor of Law, and a member of the Communist Party of China. He formerly served as a member of the Standing Committee of the Changning District Committee and Deputy District Mayor in Shanghai. He is currently the Deputy Secretary of the Jing'an District Committee and District Mayor of Shanghai."
+        }
+      }
+    },
+    {
+      "id": "潍坊市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "潍坊市",
+          "潍坊"
+        ],
+        "en": [
+          "Weifang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党上海市长宁区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党上海市长宁区委员会",
+          "上海长宁区委"
+        ],
+        "en": [
+          "Changning District Committee of the Communist Party of China, Shanghai"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "上海市长宁区人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海市长宁区人民政府"
+        ],
+        "en": [
+          "Changning District People's Government of Shanghai Municipality"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党上海市静安区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党上海市静安区委员会",
+          "中共上海市静安区委"
+        ],
+        "en": [
+          "Jing'an District Committee of the Communist Party of China, Shanghai"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "上海市静安区人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海市静安区人民政府"
+        ],
+        "en": [
+          "Jing'an District People's Government of Shanghai Municipality"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "王华 (1974年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王华 (1974年)",
+          "王华"
+        ],
+        "en": [
+          "Wang Hua (born 1974)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，翟磊的前任上海市静安区人民政府区长。",
+          "en": "Chinese politician, predecessor of Zhai Lei as the District Mayor of the Jing'an District People's Government of Shanghai."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "翟磊",
+      "target": "潍坊市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "翟磊是山东潍坊人。",
+          "en": "Zhai Lei is a native of Weifang, Shandong."
+        }
+      }
+    },
+    {
+      "source": "翟磊",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "翟磊是中国共产党党员。",
+          "en": "Zhai Lei is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "翟磊",
+      "target": "中国共产党上海市长宁区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常委",
+          "en": "Member of the Standing Committee"
+        },
+        "description": {
+          "zh-cn": "翟磊曾任上海长宁区委常委。",
+          "en": "Zhai Lei formerly served as a member of the Standing Committee of the CPC Changning District Committee in Shanghai."
+        }
+      }
+    },
+    {
+      "source": "翟磊",
+      "target": "上海市长宁区人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党组副书记、副区长",
+          "en": "Deputy Secretary of the Party Leadership Group, Deputy District Mayor"
+        },
+        "description": {
+          "zh-cn": "翟磊曾任上海市长宁区人民政府党组副书记、副区长。",
+          "en": "Zhai Lei formerly served as Deputy Secretary of the Party Leadership Group and Deputy District Mayor of the Changning District People's Government of Shanghai."
+        }
+      }
+    },
+    {
+      "source": "翟磊",
+      "target": "中国共产党上海市静安区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2024",
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        },
+        "description": {
+          "zh-cn": "翟磊现任中共上海市静安区委副书记。",
+          "en": "Zhai Lei is the current Deputy Secretary of the CPC Jing'an District Committee in Shanghai."
+        }
+      }
+    },
+    {
+      "source": "翟磊",
+      "target": "上海市静安区人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2024-07",
+        "position": {
+          "zh-cn": "区长",
+          "en": "District Mayor"
+        },
+        "description": {
+          "zh-cn": "翟磊自2024年7月起担任上海市静安区人民政府区长。",
+          "en": "Zhai Lei has been serving as the District Mayor of the Jing'an District People's Government of Shanghai since July 2024."
+        }
+      }
+    },
+    {
+      "source": "翟磊",
+      "target": "王华 (1974年)",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2024-07",
+        "description": {
+          "zh-cn": "翟磊接替王华担任上海市静安区人民政府区长职务。",
+          "en": "Zhai Lei succeeded Wang Hua as the District Mayor of the Jing'an District People's Government of Shanghai."
+        }
+      }
+    }
+  ]
+}

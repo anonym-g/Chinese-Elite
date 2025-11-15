@@ -1,0 +1,298 @@
+{
+  "nodes": [
+    {
+      "id": "彭建兵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭建兵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1953-04 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "麻城",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国工程地质与灾害地质专家，长安大学教授。2019年当选为中国科学院院士。",
+          "en": "An expert in engineering geology and disaster geology, a professor at Chang'an University. Elected as an academician of the Chinese Academy of Sciences in 2019."
+        }
+      }
+    },
+    {
+      "id": "麻城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "麻城"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "湖北",
+          "en": "Hubei"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国湖北省黄冈市下辖的县级市，是彭建兵的出生地。",
+          "en": "A county-level city under the administration of Huanggang City, Hubei Province, People's Republic of China, and the birthplace of Peng Jianbing."
+        }
+      }
+    },
+    {
+      "id": "长安大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "长安大学"
+        ],
+        "en": [
+          "Chang'an University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国陕西省西安市的大学。",
+          "en": "A university located in Xi'an, Shaanxi Province, China."
+        }
+      }
+    },
+    {
+      "id": "中国科学院院士",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院院士"
+        ],
+        "en": [
+          "Academician of the Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国设立的科学技术方面的最高学术称号，为终身荣誉。",
+          "en": "The highest academic title in science and technology established by the People's Republic of China, a lifelong honor."
+        }
+      }
+    },
+    {
+      "id": "武汉地质学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武汉地质学院"
+        ],
+        "en": [
+          "Wuhan College of Geology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国地质大学（武汉）的前身。",
+          "en": "The predecessor of China University of Geosciences (Wuhan)."
+        }
+      }
+    },
+    {
+      "id": "西安工程学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西安工程学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西安工程大学的前身之一。",
+          "en": "One of the predecessors of Xi'an Polytechnic University."
+        }
+      }
+    },
+    {
+      "id": "李四光地质科学奖",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "李四光地质科学奖"
+        ],
+        "en": [
+          "Li Siguang Geological Science Award"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国地质学领域的最高荣誉奖项。",
+          "en": "The highest honor award in the field of geology in China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国科学院地学部院士",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院地学部院士"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国科学院地学部的院士群体。",
+          "en": "The body of academicians in the Division of Earth Sciences of the Chinese Academy of Sciences."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "彭建兵",
+      "target": "麻城",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1953-04",
+        "description": {
+          "zh-cn": "彭建兵是湖北麻城人。",
+          "en": "Peng Jianbing is from Macheng, Hubei."
+        }
+      }
+    },
+    {
+      "source": "彭建兵",
+      "target": "武汉地质学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1978",
+        "degree": {
+          "zh-cn": "工学学士",
+          "en": "Bachelor of Engineering"
+        },
+        "description": {
+          "zh-cn": "彭建兵于1978年毕业于武汉地质学院，获工学学士学位。",
+          "en": "Peng Jianbing graduated from Wuhan College of Geology in 1978 with a Bachelor of Engineering degree."
+        }
+      }
+    },
+    {
+      "source": "彭建兵",
+      "target": "西安工程学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1999",
+        "degree": {
+          "zh-cn": "博士",
+          "en": "Doctorate"
+        },
+        "description": {
+          "zh-cn": "彭建兵于1999年毕业于西安工程学院，获博士学位。",
+          "en": "Peng Jianbing graduated from Xi'an Engineering College in 1999 with a doctoral degree."
+        }
+      }
+    },
+    {
+      "source": "彭建兵",
+      "target": "长安大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授",
+          "en": "Professor"
+        },
+        "description": {
+          "zh-cn": "彭建兵是长安大学的教授。",
+          "en": "Peng Jianbing is a professor at Chang'an University."
+        }
+      }
+    },
+    {
+      "source": "彭建兵",
+      "target": "中国科学院院士",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2019",
+        "position": {
+          "zh-cn": "院士",
+          "en": "Academician"
+        },
+        "description": {
+          "zh-cn": "彭建兵于2019年当选为中国科学院院士。",
+          "en": "Peng Jianbing was elected as an academician of the Chinese Academy of Sciences in 2019."
+        }
+      }
+    },
+    {
+      "source": "李四光地质科学奖",
+      "target": "彭建兵",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2015",
+        "description": {
+          "zh-cn": "彭建兵于2015年获第十四届李四光地质科学奖教师奖。",
+          "en": "In 2015, Peng Jianbing received the Teacher Award of the 14th Li Siguang Geological Science Award."
+        }
+      }
+    },
+    {
+      "source": "彭建兵",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，彭建兵是中国共产党党员。",
+          "en": "According to the page category information, Peng Jianbing is a member of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "彭建兵",
+      "target": "中国科学院地学部院士",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "院士",
+          "en": "Academician"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，彭建兵是中国科学院地学部院士。",
+          "en": "According to the page category information, Peng Jianbing is an academician of the Division of Earth Sciences, Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "source": "中国科学院地学部院士",
+      "target": "中国科学院院士",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国科学院地学部院士是中国科学院院士的一部分，按学科领域划分。",
+          "en": "Academicians of the Division of Earth Sciences are part of the Academicians of the Chinese Academy of Sciences, categorized by academic field."
+        }
+      }
+    }
+  ]
+}

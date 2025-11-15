@@ -1,0 +1,783 @@
+{
+  "nodes": [
+    {
+      "id": "顿巴斯战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "顿巴斯战争",
+          "东乌克兰战争",
+          "俄罗斯入侵顿巴斯"
+        ],
+        "en": [
+          "War in Donbas"
+        ]
+      },
+      "properties": {
+        "period": "2014-02-23 - 2022-02-24",
+        "location": {
+          "zh-cn": "乌克兰东部顿巴斯地区",
+          "en": "Donbas region, Eastern Ukraine"
+        },
+        "description": {
+          "zh-cn": "2014年至2022年间，在乌克兰东南部顿巴斯地区发生的混合战争。由俄罗斯支持的亲俄势力与乌克兰政府军交战，最终升级为2022年俄罗斯对乌克兰的全面入侵。",
+          "en": "A hybrid war that took place in the Donbas region of southeastern Ukraine from 2014 to 2022. It involved clashes between Russian-backed pro-Russian forces and the Ukrainian government, eventually escalating into the 2022 full-scale Russian invasion of Ukraine."
+        }
+      }
+    },
+    {
+      "id": "乌克兰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰"
+        ],
+        "en": [
+          "Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东欧国家，顿巴斯战争的主要参战方之一。",
+          "en": "A country in Eastern Europe, one of the main combatants in the War in Donbas."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯",
+          "俄罗斯联邦"
+        ],
+        "en": [
+          "Russia",
+          "Russian Federation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "欧亚大陆北部的联邦共和国，通过支持亲俄武装深度介入顿巴斯战争。",
+          "en": "A federal republic in northern Eurasia that was deeply involved in the War in Donbas by supporting pro-Russian forces."
+        }
+      }
+    },
+    {
+      "id": "顿涅茨克人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "顿涅茨克人民共和国"
+        ],
+        "en": [
+          "Donetsk People's Republic"
+        ]
+      },
+      "properties": {
+        "period": "2014-04-07 - ",
+        "description": {
+          "zh-cn": "于2014年在乌克兰顿涅茨克州宣布成立的亲俄割据政权。",
+          "en": "A pro-Russian breakaway state declared in Ukraine's Donetsk Oblast in 2014."
+        }
+      }
+    },
+    {
+      "id": "卢甘斯克人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "卢甘斯克人民共和国"
+        ],
+        "en": [
+          "Luhansk People's Republic"
+        ]
+      },
+      "properties": {
+        "period": "2014-04-27 - ",
+        "description": {
+          "zh-cn": "于2014年在乌克兰卢甘斯克州宣布成立的亲俄割据政权。",
+          "en": "A pro-Russian breakaway state declared in Ukraine's Luhansk Oblast in 2014."
+        }
+      }
+    },
+    {
+      "id": "顿巴斯亲俄武装",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "顿巴斯亲俄武装",
+          "乌克兰东部亲俄武装",
+          "亲俄势力"
+        ],
+        "en": [
+          "Pro-Russian forces in Donbas"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在顿巴斯战争中与乌克兰政府军作战的、由俄罗斯支持的武装力量，包括顿涅茨克人民共和国和卢甘斯克人民共和国的部队。",
+          "en": "Russian-backed armed forces that fought against the Ukrainian government in the War in Donbas, including troops from the Donetsk People's Republic and the Luhansk People's Republic."
+        }
+      }
+    },
+    {
+      "id": "广场起义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "广场起义",
+          "乌克兰亲欧盟示威运动"
+        ],
+        "en": [
+          "Euromaidan"
+        ]
+      },
+      "properties": {
+        "period": "2013-11 - 2014-02",
+        "description": {
+          "zh-cn": "2014年在乌克兰爆发的亲欧洲示威运动，导致时任总统亚努科维奇下台，并成为后续乌克兰危机和顿巴斯战争的导火索。",
+          "en": "A pro-European protest movement in Ukraine in 2014 that led to the ousting of then-President Yanukovych and became a trigger for the subsequent Ukrainian crisis and the War in Donbas."
+        }
+      }
+    },
+    {
+      "id": "维克多·费奥多罗维奇·亚努科维奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "维克多·费奥多罗维奇·亚努科维奇",
+          "亚努科维奇"
+        ],
+        "en": [
+          "Viktor Yanukovych"
+        ]
+      },
+      "properties": {
+        "lifetime": "1950-07-09 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "乌克兰前总统，在2014年广场起义后被罢免并逃往俄罗斯。",
+          "en": "Former President of Ukraine who was ousted and fled to Russia after the 2014 Euromaidan revolution."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯联邦并吞克里米亚",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "俄罗斯联邦并吞克里米亚",
+          "2014年克里米亚危机"
+        ],
+        "en": [
+          "Annexation of Crimea by the Russian Federation"
+        ]
+      },
+      "properties": {
+        "period": "2014-02 - 2014-03",
+        "description": {
+          "zh-cn": "2014年2月至3月，俄罗斯军事介入并随后吞并了原属乌克兰的克里米亚半岛。",
+          "en": "From February to March 2014, Russia intervened militarily and subsequently annexed the Crimean Peninsula, which was previously part of Ukraine."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·普京",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·普京",
+          "普京"
+        ],
+        "en": [
+          "Vladimir Putin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1952-10-07 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯政治家，现任俄罗斯总统。在顿巴斯战争及后续的全面入侵中扮演关键决策角色。",
+          "en": "Russian politician and current President of Russia. He played a key decision-making role in the War in Donbas and the subsequent full-scale invasion."
+        }
+      }
+    },
+    {
+      "id": "彼得·波罗申科",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彼得·波罗申科",
+          "波罗申科"
+        ],
+        "en": [
+          "Petro Poroshenko"
+        ]
+      },
+      "properties": {
+        "lifetime": "1965-09-26 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "乌克兰商人和政治家，在顿巴斯战争初期担任乌克兰总统。",
+          "en": "Ukrainian businessman and politician who served as President of Ukraine during the initial phase of the War in Donbas."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·泽连斯基",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·泽连斯基",
+          "泽连斯基"
+        ],
+        "en": [
+          "Volodymyr Zelenskyy"
+        ]
+      },
+      "properties": {
+        "lifetime": "1978-01-25 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "乌克兰政治家，现任乌克兰总统，领导乌克兰抵抗2022年俄罗斯的全面入侵。",
+          "en": "Ukrainian politician and current President of Ukraine, leading the country's defense against the 2022 full-scale Russian invasion."
+        }
+      }
+    },
+    {
+      "id": "明斯克协议",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "明斯克协议"
+        ],
+        "en": [
+          "Minsk Protocol"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "2014年9月签署的旨在停止顿巴斯战争的协议，但未能完全实现停火。",
+          "en": "An agreement signed in September 2014 to halt the war in Donbas, which failed to achieve a complete ceasefire."
+        }
+      }
+    },
+    {
+      "id": "新明斯克协议",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "新明斯克协议",
+          "明斯克协议 II"
+        ],
+        "en": [
+          "Minsk II"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "2015年2月签署的旨在执行明斯克协议的一系列措施，但冲突仍持续不断。",
+          "en": "A package of measures signed in February 2015 to implement the Minsk Protocol, but the conflict continued."
+        }
+      }
+    },
+    {
+      "id": "2022年俄罗斯入侵乌克兰",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "2022年俄罗斯入侵乌克兰",
+          "俄罗斯全面入侵乌克兰"
+        ],
+        "en": [
+          "2022 Russian invasion of Ukraine"
+        ]
+      },
+      "properties": {
+        "period": "2022-02-24 - ",
+        "description": {
+          "zh-cn": "2022年2月24日开始，俄罗斯对乌克兰发动的全面军事入侵，是顿巴斯战争的重大升级。",
+          "en": "A full-scale military invasion of Ukraine launched by Russia on February 24, 2022, representing a major escalation of the War in Donbas."
+        }
+      }
+    },
+    {
+      "id": "乌克兰东部攻势",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "乌克兰东部攻势",
+          "东乌克兰攻势"
+        ],
+        "en": [
+          "Eastern Ukraine offensive"
+        ]
+      },
+      "properties": {
+        "period": "2022-02-24 - ",
+        "description": {
+          "zh-cn": "2022年俄罗斯全面入侵乌克兰期间，在乌克兰东部地区展开的军事攻势。",
+          "en": "The military offensive in the eastern region of Ukraine during the 2022 full-scale Russian invasion of Ukraine."
+        }
+      }
+    },
+    {
+      "id": "亚历山大·弗拉基米罗维奇·扎哈尔琴科",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亚历山大·弗拉基米罗维奇·扎哈尔琴科",
+          "亚历山大·扎哈尔琴科",
+          "扎哈尔琴科"
+        ],
+        "en": [
+          "Alexander Zakharchenko"
+        ]
+      },
+      "properties": {
+        "lifetime": "1976-06-26 - 2018-08-31",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "顿涅茨克人民共和国前领导人，2018年被暗杀。",
+          "en": "Former leader of the Donetsk People's Republic, assassinated in 2018."
+        }
+      }
+    },
+    {
+      "id": "亚历山大·扎哈尔琴科遇刺案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "亚历山大·扎哈尔琴科遇刺案"
+        ],
+        "en": [
+          "Assassination of Alexander Zakharchenko"
+        ]
+      },
+      "properties": {
+        "period": "2018-08-31 - 2018-08-31",
+        "description": {
+          "zh-cn": "2018年8月31日，顿涅茨克人民共和国领导人扎哈尔琴科在顿涅茨克市中心的咖啡馆被炸弹袭击身亡的事件。",
+          "en": "The event on August 31, 2018, in which Alexander Zakharchenko, leader of the Donetsk People's Republic, was killed by a bomb attack at a café in central Donetsk."
+        }
+      }
+    },
+    {
+      "id": "伊戈尔·普洛特尼茨基",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊戈尔·普洛特尼茨基"
+        ],
+        "en": [
+          "Igor Plotnitsky"
+        ]
+      },
+      "properties": {
+        "lifetime": "1964-06-24 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "卢甘斯克人民共和国前领导人，2017年因内斗辞职。",
+          "en": "Former leader of the Luhansk People's Republic, who resigned in 2017 due to internal power struggles."
+        }
+      }
+    },
+    {
+      "id": "2017年卢甘斯克政变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2017年卢甘斯克政变"
+        ],
+        "en": [
+          "2017 Luhansk coup"
+        ]
+      },
+      "properties": {
+        "period": "2017-11-21 - 2017-11-24",
+        "description": {
+          "zh-cn": "2017年11月卢甘斯克人民共和国发生权力斗争，导致领导人伊戈尔·普洛特尼茨基辞职并由列昂尼德·帕谢奇尼克接任。",
+          "en": "A power struggle in the Luhansk People's Republic in November 2017, which resulted in the resignation of leader Igor Plotnitsky and his replacement by Leonid Pasechnik."
+        }
+      }
+    },
+    {
+      "id": "列昂尼德·帕谢奇尼克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "列昂尼德·帕谢奇尼克",
+          "帕谢奇尼克"
+        ],
+        "en": [
+          "Leonid Pasechnik"
+        ]
+      },
+      "properties": {
+        "lifetime": "1970-03-15 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "卢甘斯克人民共和国领导人，在2017年政变后上台。",
+          "en": "Leader of the Luhansk People's Republic, who came to power after the 2017 coup."
+        }
+      }
+    },
+    {
+      "id": "鲍里斯·涅姆佐夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鲍里斯·涅姆佐夫"
+        ],
+        "en": [
+          "Boris Nemtsov"
+        ]
+      },
+      "properties": {
+        "lifetime": "1959-10-09 - 2015-02-27",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯政治家，普京的著名批评者。在准备一份关于俄罗斯参与顿巴斯战争的报告时被暗杀。",
+          "en": "Russian politician and a prominent critic of Vladimir Putin. He was assassinated while preparing a report on Russia's involvement in the War in Donbas."
+        }
+      }
+    },
+    {
+      "id": "涅姆佐夫遇刺案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "涅姆佐夫遇刺案"
+        ],
+        "en": [
+          "Assassination of Boris Nemtsov"
+        ]
+      },
+      "properties": {
+        "period": "2015-02-27 - 2015-02-27",
+        "description": {
+          "zh-cn": "2015年2月27日，俄罗斯政治家鲍里斯·涅姆佐夫在莫斯科市中心被枪杀的事件。",
+          "en": "The event on February 27, 2015, in which Russian politician Boris Nemtsov was shot and killed in central Moscow."
+        }
+      }
+    },
+    {
+      "id": "乌克兰危机",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "乌克兰危机"
+        ],
+        "en": [
+          "Ukrainian crisis"
+        ]
+      },
+      "properties": {
+        "period": "2013-11 - ",
+        "description": {
+          "zh-cn": "始于2013年底的乌克兰长期政治、社会和军事危机，包括广场起义、克里米亚被吞并和顿巴斯战争。",
+          "en": "A prolonged political, social, and military crisis in Ukraine that began in late 2013, encompassing the Euromaidan, the annexation of Crimea, and the War in Donbas."
+        }
+      }
+    },
+    {
+      "id": "乌克兰大饥荒",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "乌克兰大饥荒"
+        ],
+        "en": [
+          "Holodomor"
+        ]
+      },
+      "properties": {
+        "period": "1932 - 1933",
+        "description": {
+          "zh-cn": "1932年至1933年间在苏联乌克兰苏维埃社会主义共和国发生的大规模饥荒，造成数百万乌克兰人死亡，被许多国家认为是种族清洗。",
+          "en": "A man-made famine in the Ukrainian Soviet Socialist Republic from 1932 to 1933 that killed millions of Ukrainians, considered a genocide by many countries."
+        }
+      }
+    },
+    {
+      "id": "斯大林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "斯大林",
+          "约瑟夫·史达林"
+        ],
+        "en": [
+          "Joseph Stalin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1878-12-18 - 1953-03-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联政治家，长期担任苏联共产党总书记和苏联部长会议主席。他主导的政策被认为是乌克兰大饥荒的直接原因。",
+          "en": "Soviet politician who served as General Secretary of the Communist Party and Chairman of the Council of Ministers of the Soviet Union. His policies are considered the direct cause of the Holodomor in Ukraine."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "乌克兰",
+      "target": "俄罗斯",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2014-02-23",
+        "end_date": "2022-02-24",
+        "description": {
+          "zh-cn": "在顿巴斯战争期间，乌克兰政府军与俄罗斯支持的亲俄武装处于敌对状态。",
+          "en": "During the War in Donbas, the Ukrainian government forces were in a state of hostility with Russian-backed pro-Russian armed groups."
+        }
+      }
+    },
+    {
+      "source": "乌克兰",
+      "target": "顿巴斯亲俄武装",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2014-02-23",
+        "end_date": "2022-02-24",
+        "description": {
+          "zh-cn": "在顿巴斯战争期间，乌克兰政府军与顿巴斯地区的亲俄武装力量直接交战。",
+          "en": "During the War in Donbas, Ukrainian government forces were in direct combat with pro-Russian armed forces in the Donbas region."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "顿巴斯亲俄武装",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014",
+        "description": {
+          "zh-cn": "俄罗斯为顿巴斯地区的亲俄武装提供了军事、物资和政治支持。",
+          "en": "Russia provided military, logistical, and political support to the pro-Russian armed forces in the Donbas region."
+        }
+      }
+    },
+    {
+      "source": "乌克兰危机",
+      "target": "顿巴斯战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-23",
+        "description": {
+          "zh-cn": "始于2013年底的乌克兰政治危机是顿巴斯战争爆发的直接背景和原因。",
+          "en": "The Ukrainian political crisis that began in late 2013 was the direct context and cause for the outbreak of the War in Donbas."
+        }
+      }
+    },
+    {
+      "source": "广场起义",
+      "target": "维克多·费奥多罗维奇·亚努科维奇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-02-22",
+        "description": {
+          "zh-cn": "广场起义导致时任乌克兰总统亚努科维奇被议会解除职务并逃离乌克兰。",
+          "en": "The Euromaidan revolution led to the ousting of then-President of Ukraine Viktor Yanukovych by the parliament and his flight from Ukraine."
+        }
+      }
+    },
+    {
+      "source": "广场起义",
+      "target": "俄罗斯联邦并吞克里米亚",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-23",
+        "description": {
+          "zh-cn": "乌克兰亲欧运动导致亲俄总统亚努科维奇下台，成为俄罗斯介入并吞并克里米亚的直接诱因。",
+          "en": "The pro-European movement in Ukraine led to the ousting of pro-Russian President Yanukovych, which became a direct trigger for Russia's intervention and annexation of Crimea."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯联邦并吞克里米亚",
+      "target": "顿巴斯战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-04",
+        "description": {
+          "zh-cn": "在俄罗斯吞并克里米亚之后，乌克兰东部的顿巴斯地区爆发了亲俄抗议活动，并迅速演变为武装冲突。",
+          "en": "Following the Russian annexation of Crimea, pro-Russian protests erupted in the Donbas region of eastern Ukraine, which quickly escalated into armed conflict."
+        }
+      }
+    },
+    {
+      "source": "顿巴斯亲俄武装",
+      "target": "顿涅茨克人民共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2014-04-07",
+        "description": {
+          "zh-cn": "亲俄武装分子占领顿涅茨克的政府建筑后，宣布成立“顿涅茨克人民共和国”。",
+          "en": "After occupying government buildings in Donetsk, pro-Russian militants announced the establishment of the 'Donetsk People's Republic'."
+        }
+      }
+    },
+    {
+      "source": "顿巴斯亲俄武装",
+      "target": "卢甘斯克人民共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2014-04-27",
+        "description": {
+          "zh-cn": "亲俄武装分子占领卢甘斯克的安全部门大楼后，宣布成立“卢甘斯克人民共和国”。",
+          "en": "After occupying the security service building in Luhansk, pro-Russian militants announced the establishment of the 'Luhansk People's Republic'."
+        }
+      }
+    },
+    {
+      "source": "顿巴斯战争",
+      "target": "2022年俄罗斯入侵乌克兰",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-02-24",
+        "description": {
+          "zh-cn": "长达八年的顿巴斯战争最终升级为俄罗斯对乌克兰的全面入侵。",
+          "en": "The eight-year-long War in Donbas ultimately escalated into a full-scale Russian invasion of Ukraine."
+        }
+      }
+    },
+    {
+      "source": "明斯克协议",
+      "target": "顿巴斯战争",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-09-05",
+        "description": {
+          "zh-cn": "2014年9月签署的《明斯克协议》旨在实现停火，暂时缓和了顿巴斯地区的武装冲突。",
+          "en": "The Minsk Protocol, signed in September 2014, aimed to establish a ceasefire, temporarily de-escalating the armed conflict in the Donbas region."
+        }
+      }
+    },
+    {
+      "source": "新明斯克协议",
+      "target": "顿巴斯战争",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2015-02-12",
+        "description": {
+          "zh-cn": "2015年2月签署的《新明斯克协议》是为执行停火的又一次努力，但未能完全制止冲突。",
+          "en": "The Minsk II agreement, signed in February 2015, was another effort to implement a ceasefire but failed to completely halt the conflict."
+        }
+      }
+    },
+    {
+      "source": "彼得·波罗申科",
+      "target": "乌克兰",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-06-07",
+        "end_date": "2019-05-20",
+        "position": {
+          "zh-cn": "总统",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "在顿巴斯战争初期担任乌克兰总统。",
+          "en": "Served as the President of Ukraine during the initial phase of the War in Donbas."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·泽连斯基",
+      "target": "乌克兰",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2019-05-20",
+        "position": {
+          "zh-cn": "总统",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "自2019年起担任乌克兰总统，领导乌克兰应对顿巴斯战争的后期阶段及2022年的全面入侵。",
+          "en": "Serving as President of Ukraine since 2019, leading the country through the later stages of the War in Donbas and the 2022 full-scale invasion."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·普京",
+      "target": "俄罗斯",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总统",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "长期担任俄罗斯总统，是顿巴斯战争及后续全面入侵的关键决策者。",
+          "en": "Long-serving President of Russia and the key decision-maker in the War in Donbas and the subsequent full-scale invasion."
+        }
+      }
+    },
+    {
+      "source": "亚历山大·扎哈尔琴科遇刺案",
+      "target": "亚历山大·弗拉基米罗维奇·扎哈尔琴科",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018-08-31",
+        "description": {
+          "zh-cn": "亚历山大·扎哈尔琴科在顿涅茨克的一场炸弹袭击中身亡。",
+          "en": "Alexander Zakharchenko was killed in a bomb attack in Donetsk."
+        }
+      }
+    },
+    {
+      "source": "2017年卢甘斯克政变",
+      "target": "伊戈尔·普洛特尼茨基",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2017-11-24",
+        "description": {
+          "zh-cn": "因卢甘斯克人民共和国内部的权力斗争，伊戈尔·普洛特尼茨基被迫辞去领导人职务。",
+          "en": "Due to an internal power struggle in the Luhansk People's Republic, Igor Plotnitsky was forced to resign from his position as leader."
+        }
+      }
+    },
+    {
+      "source": "涅姆佐夫遇刺案",
+      "target": "鲍里斯·涅姆佐夫",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2015-02-27",
+        "description": {
+          "zh-cn": "鲍里斯·涅姆佐夫在莫斯科市中心被枪杀身亡。",
+          "en": "Boris Nemtsov was shot and killed in central Moscow."
+        }
+      }
+    },
+    {
+      "source": "斯大林",
+      "target": "乌克兰大饥荒",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1932",
+        "end_date": "1933",
+        "description": {
+          "zh-cn": "苏联领导人斯大林为了打压乌克兰民族思想而主导了乌克兰大饥荒。",
+          "en": "Soviet leader Stalin orchestrated the Holodomor to suppress Ukrainian national sentiment."
+        }
+      }
+    },
+    {
+      "source": "乌克兰大饥荒",
+      "target": "乌克兰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1932",
+        "end_date": "1933",
+        "description": {
+          "zh-cn": "乌克兰大饥荒导致估计400万名乌克兰人被饿死。",
+          "en": "The Holodomor resulted in the deaths of an estimated 4 million Ukrainians."
+        }
+      }
+    }
+  ]
+}

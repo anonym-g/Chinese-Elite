@@ -1,0 +1,838 @@
+{
+  "nodes": [
+    {
+      "id": "柬埔寨",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柬埔寨",
+          "柬埔寨王国"
+        ],
+        "en": [
+          "Cambodia",
+          "Kingdom of Cambodia"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "东南亚",
+          "en": "Southeast Asia"
+        },
+        "description": {
+          "zh-cn": "位于东南亚中南半岛的君主立宪制国家，首都为金边。",
+          "en": "A constitutional monarchy in Southeast Asia on the Indochinese Peninsula, with its capital in Phnom Penh."
+        }
+      }
+    },
+    {
+      "id": "诺罗敦·西哈莫尼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诺罗敦·西哈莫尼"
+        ],
+        "en": [
+          "Norodom Sihamoni"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "现任柬埔寨国王。",
+          "en": "The current King of Cambodia."
+        }
+      }
+    },
+    {
+      "id": "洪玛奈",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "洪玛奈"
+        ],
+        "en": [
+          "Hun Manet"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "现任柬埔寨首相，洪森之子。",
+          "en": "The current Prime Minister of Cambodia, son of Hun Sen."
+        }
+      }
+    },
+    {
+      "id": "洪森",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "洪森"
+        ],
+        "en": [
+          "Hun Sen"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "柬埔寨政治家，曾长期担任柬埔寨首相，现任柬埔寨参议院议长。",
+          "en": "A Cambodian politician who served for a long time as the Prime Minister of Cambodia and is the current President of the Cambodian Senate."
+        }
+      }
+    },
+    {
+      "id": "库恩·索达里",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "库恩·索达里",
+          "昆·索达里"
+        ],
+        "en": [
+          "Khuon Sodary"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "现任柬埔寨国民议会主席。",
+          "en": "The current President of the National Assembly of Cambodia."
+        }
+      }
+    },
+    {
+      "id": "柬埔寨参议院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柬埔寨参议院",
+          "参议院"
+        ],
+        "en": [
+          "Senate of Cambodia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "柬埔寨国会的上议院。",
+          "en": "The upper house of the Parliament of Cambodia."
+        }
+      }
+    },
+    {
+      "id": "柬埔寨国民议会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柬埔寨国民议会",
+          "国民议会"
+        ],
+        "en": [
+          "National Assembly of Cambodia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "柬埔寨国会的下议院，是柬埔寨全国最高权力机构和立法机构。",
+          "en": "The lower house of the Parliament of Cambodia, it is the country's supreme power and legislative body."
+        }
+      }
+    },
+    {
+      "id": "柬埔寨国会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柬埔寨国会"
+        ],
+        "en": [
+          "Parliament of Cambodia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "柬埔寨的立法机关。",
+          "en": "The legislative body of Cambodia."
+        }
+      }
+    },
+    {
+      "id": "柬埔寨人民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柬埔寨人民党"
+        ],
+        "en": [
+          "Cambodian People's Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "柬埔寨的执政党，长期主导该国政坛。",
+          "en": "The ruling party of Cambodia, which has long dominated the country's political scene."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": [
+          "People's Republic of China",
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，是柬埔寨的最大援助国。",
+          "en": "An East Asian country and Cambodia's largest aid provider."
+        }
+      }
+    },
+    {
+      "id": "泰国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "泰国",
+          "暹罗"
+        ],
+        "en": [
+          "Thailand",
+          "Siam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "柬埔寨的邻国，历史上曾多次侵略柬埔寨，并存在领土争议。",
+          "en": "A neighboring country of Cambodia, which has historically invaded Cambodia multiple times and has ongoing territorial disputes."
+        }
+      }
+    },
+    {
+      "id": "越南",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "越南"
+        ],
+        "en": [
+          "Vietnam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "柬埔寨的邻国，历史上曾侵略柬埔寨，并在1978年出兵推翻红色高棉政权。",
+          "en": "A neighboring country of Cambodia, which historically invaded Cambodia and sent troops in 1978 to overthrow the Khmer Rouge regime."
+        }
+      }
+    },
+    {
+      "id": "法属印度支那",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法属印度支那"
+        ],
+        "en": [
+          "French Indochina"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国在东南亚的殖民地联邦，柬埔寨曾是其一部分。",
+          "en": "A colonial federation of France in Southeast Asia, of which Cambodia was a part."
+        }
+      }
+    },
+    {
+      "id": "柬埔寨王国 (1953年—1970年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柬埔寨王国 (1953年—1970年)",
+          "柬埔寨第一王国"
+        ],
+        "en": [
+          "Kingdom of Cambodia (1953–1970)"
+        ]
+      },
+      "properties": {
+        "period": "1953-11-09 - 1970-03-18",
+        "description": {
+          "zh-cn": "柬埔寨在1953年独立后建立的君主制国家，于1970年被政变推翻。",
+          "en": "The monarchy established in Cambodia after its independence in 1953, which was overthrown by a coup in 1970."
+        }
+      }
+    },
+    {
+      "id": "龙诺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "龙诺"
+        ],
+        "en": [
+          "Lon Nol"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "柬埔寨将军，于1970年发动政变，成立高棉共和国。",
+          "en": "A Cambodian general who launched a coup in 1970 and established the Khmer Republic."
+        }
+      }
+    },
+    {
+      "id": "1970年柬埔寨政变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1970年柬埔寨政变"
+        ],
+        "en": [
+          "1970 Cambodian coup d'état"
+        ]
+      },
+      "properties": {
+        "period": "1970-03-18",
+        "description": {
+          "zh-cn": "由龙诺将军发动的政变，废黜了西哈努克亲王，结束了君主制，建立了高棉共和国。",
+          "en": "A coup launched by General Lon Nol, which deposed Prince Sihanouk, ended the monarchy, and established the Khmer Republic."
+        }
+      }
+    },
+    {
+      "id": "高棉共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高棉共和国"
+        ],
+        "en": [
+          "Khmer Republic"
+        ]
+      },
+      "properties": {
+        "period": "1970 - 1975",
+        "description": {
+          "zh-cn": "1970年政变后成立的亲美政权，于1975年被红色高棉推翻。",
+          "en": "A pro-American regime established after the 1970 coup, which was overthrown by the Khmer Rouge in 1975."
+        }
+      }
+    },
+    {
+      "id": "红色高棉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "红色高棉",
+          "赤柬"
+        ],
+        "en": [
+          "Khmer Rouge"
+        ]
+      },
+      "properties": {
+        "period": " - 1998-12",
+        "description": {
+          "zh-cn": "柬埔寨共产党及其追随者的通称。在其统治期间，发动了红色高棉大屠杀，造成了大规模的人道主义灾难。",
+          "en": "A common name for the Communist Party of Kampuchea and its followers. During its rule, it initiated the Cambodian genocide, causing a massive humanitarian disaster."
+        }
+      }
+    },
+    {
+      "id": "波尔布特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "波尔布特",
+          "波布"
+        ],
+        "en": [
+          "Pol Pot"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "柬埔寨共产党总书记，红色高棉运动的领导人，民主柬埔寨政府总理。",
+          "en": "General Secretary of the Communist Party of Kampuchea, leader of the Khmer Rouge movement, and Prime Minister of Democratic Kampuchea."
+        }
+      }
+    },
+    {
+      "id": "民主柬埔寨",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主柬埔寨"
+        ],
+        "en": [
+          "Democratic Kampuchea"
+        ]
+      },
+      "properties": {
+        "period": "1975 - 1979",
+        "description": {
+          "zh-cn": "由红色高棉建立的政权。",
+          "en": "The regime established by the Khmer Rouge."
+        }
+      }
+    },
+    {
+      "id": "诺罗敦·施汉诺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诺罗敦·施汉诺",
+          "西哈努克"
+        ],
+        "en": [
+          "Norodom Sihanouk"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "柬埔寨政治家，曾两次担任国王。在1970年政变后流亡，后在红色高棉掌权后回国但遭软禁。",
+          "en": "A Cambodian statesman who served as king twice. He went into exile after the 1970 coup and later returned after the Khmer Rouge came to power, only to be placed under house arrest."
+        }
+      }
+    },
+    {
+      "id": "柬越战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "柬越战争"
+        ],
+        "en": [
+          "Cambodian–Vietnamese War"
+        ]
+      },
+      "properties": {
+        "period": "1978-12 - 1989-01-06",
+        "description": {
+          "zh-cn": "越南出兵柬埔寨，推翻了红色高棉政权的战争。",
+          "en": "A war in which Vietnam sent troops to Cambodia and overthrew the Khmer Rouge regime."
+        }
+      }
+    },
+    {
+      "id": "柬埔寨人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柬埔寨人民共和国"
+        ],
+        "en": [
+          "People's Republic of Kampuchea"
+        ]
+      },
+      "properties": {
+        "period": "1979 - 1989",
+        "description": {
+          "zh-cn": "越南在推翻红色高棉后建立的政权，被视为越南的卫星国。",
+          "en": "The regime established by Vietnam after overthrowing the Khmer Rouge, considered a Vietnamese satellite state."
+        }
+      }
+    },
+    {
+      "id": "柬埔寨救国党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柬埔寨救国党",
+          "救国党"
+        ],
+        "en": [
+          "Cambodia National Rescue Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "柬埔寨的主要反对党，于2017年被最高法院解散。",
+          "en": "The main opposition party in Cambodia, which was dissolved by the Supreme Court in 2017."
+        }
+      }
+    },
+    {
+      "id": "塔信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "塔信"
+        ],
+        "en": [
+          "Thaksin Shinawatra"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前泰国首相，与洪森关系密切。",
+          "en": "Former Prime Minister of Thailand, who has a close relationship with Hun Sen."
+        }
+      }
+    },
+    {
+      "id": "东南亚国家联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东南亚国家联盟"
+        ],
+        "en": [
+          "Association of Southeast Asian Nations"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东南亚地区的政府间组织，柬埔寨是其成员国之一。",
+          "en": "An intergovernmental organization in Southeast Asia, of which Cambodia is a member state."
+        }
+      }
+    },
+    {
+      "id": "红色高棉大屠杀",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "红色高棉大屠杀"
+        ],
+        "en": [
+          "Cambodian genocide"
+        ]
+      },
+      "properties": {
+        "period": "1975 - 1979",
+        "description": {
+          "zh-cn": "红色高棉当政期间实行的恐怖统治，导致全国五分之一以上人口死于饥荒、劳役、疾病或迫害。",
+          "en": "The reign of terror carried out by the Khmer Rouge, which resulted in the deaths of more than one-fifth of the country's population from starvation, forced labor, disease, or persecution."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "洪玛奈",
+      "target": "洪森",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "洪玛奈是洪森的儿子，其接任首相被视为“家族独裁”的延续。",
+          "en": "Hun Manet is the son of Hun Sen, and his succession as prime minister is seen as a continuation of a 'family dictatorship'."
+        }
+      }
+    },
+    {
+      "source": "诺罗敦·西哈莫尼",
+      "target": "柬埔寨",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "国王",
+          "en": "King"
+        },
+        "description": {
+          "zh-cn": "诺罗敦·西哈莫尼是柬埔寨现任国王和终身国家元首。",
+          "en": "Norodom Sihamoni is the current King and lifetime head of state of Cambodia."
+        }
+      }
+    },
+    {
+      "source": "洪玛奈",
+      "target": "柬埔寨",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "首相",
+          "en": "Prime Minister"
+        },
+        "description": {
+          "zh-cn": "洪玛奈是柬埔寨现任政府首脑（首相）。",
+          "en": "Hun Manet is the current head of government (Prime Minister) of Cambodia."
+        }
+      }
+    },
+    {
+      "source": "洪森",
+      "target": "柬埔寨参议院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "议长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "洪森是柬埔寨参议院现任议长。",
+          "en": "Hun Sen is the current President of the Senate of Cambodia."
+        }
+      }
+    },
+    {
+      "source": "库恩·索达里",
+      "target": "柬埔寨国民议会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主席",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "库恩·索达里是柬埔寨国民议会现任主席。",
+          "en": "Khuon Sodary is the current President of the National Assembly of Cambodia."
+        }
+      }
+    },
+    {
+      "source": "柬埔寨参议院",
+      "target": "柬埔寨国会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "参议院是柬埔寨国会的上议院。",
+          "en": "The Senate is the upper house of the Parliament of Cambodia."
+        }
+      }
+    },
+    {
+      "source": "柬埔寨国民议会",
+      "target": "柬埔寨国会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "国民议会是柬埔寨国会的下议院。",
+          "en": "The National Assembly is the lower house of the Parliament of Cambodia."
+        }
+      }
+    },
+    {
+      "source": "柬埔寨",
+      "target": "中华人民共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "柬埔寨与中国关系密切，奉行亲中外交政策，中国是其最大援助国。",
+          "en": "Cambodia maintains close relations with China, pursues a pro-China foreign policy, and China is its largest aid provider."
+        }
+      }
+    },
+    {
+      "source": "洪森",
+      "target": "中华人民共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "洪森奉行亲中的外交政策。",
+          "en": "Hun Sen pursues a pro-China foreign policy."
+        }
+      }
+    },
+    {
+      "source": "柬埔寨",
+      "target": "泰国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "因柏威夏寺主权争议等问题，柬埔寨与泰国的关系紧张，并曾多次爆发小规模战事。",
+          "en": "Due to issues such as the sovereignty dispute over the Preah Vihear Temple, relations between Cambodia and Thailand are tense, and small-scale military conflicts have broken out multiple times."
+        }
+      }
+    },
+    {
+      "source": "柬埔寨",
+      "target": "东南亚国家联盟",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "柬埔寨是东南亚国家联盟的成员国。",
+          "en": "Cambodia is a member state of the Association of Southeast Asian Nations."
+        }
+      }
+    },
+    {
+      "source": "柬埔寨王国 (1953年—1970年)",
+      "target": "法属印度支那",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1953-11-09",
+        "description": {
+          "zh-cn": "1953年11月9日，柬埔寨脱离法属印度支那独立，建立了柬埔寨第一王国，结束了法国的殖民统治。",
+          "en": "On November 9, 1953, Cambodia gained independence from French Indochina, establishing the first Kingdom of Cambodia and ending French colonial rule."
+        }
+      }
+    },
+    {
+      "source": "龙诺",
+      "target": "1970年柬埔寨政变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1970-03-18",
+        "description": {
+          "zh-cn": "龙诺于1970年3月18日发动政变。",
+          "en": "Lon Nol launched a coup d'état on March 18, 1970."
+        }
+      }
+    },
+    {
+      "source": "1970年柬埔寨政变",
+      "target": "柬埔寨王国 (1953年—1970年)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1970-03-18",
+        "description": {
+          "zh-cn": "1970年政变废止了君主制，推翻了柬埔寨第一王国。",
+          "en": "The 1970 coup abolished the monarchy, overthrowing the first Kingdom of Cambodia."
+        }
+      }
+    },
+    {
+      "source": "1970年柬埔寨政变",
+      "target": "高棉共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1970-03-18",
+        "description": {
+          "zh-cn": "1970年政变后成立了高棉共和国。",
+          "en": "The Khmer Republic was established after the 1970 coup."
+        }
+      }
+    },
+    {
+      "source": "红色高棉",
+      "target": "高棉共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1975-04-17",
+        "description": {
+          "zh-cn": "1975年4月17日，红色高棉攻占金边，推翻了高棉共和国。",
+          "en": "On April 17, 1975, the Khmer Rouge captured Phnom Penh, overthrowing the Khmer Republic."
+        }
+      }
+    },
+    {
+      "source": "红色高棉",
+      "target": "民主柬埔寨",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1975-04-17",
+        "description": {
+          "zh-cn": "红色高棉在1975年建立了民主柬埔寨政权。",
+          "en": "The Khmer Rouge established the Democratic Kampuchea regime in 1975."
+        }
+      }
+    },
+    {
+      "source": "波尔布特",
+      "target": "红色高棉",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总书记",
+          "en": "General Secretary"
+        },
+        "description": {
+          "zh-cn": "波尔布特是柬埔寨共产党总书记，领导红色高棉。",
+          "en": "Pol Pot was the General Secretary of the Communist Party of Kampuchea and led the Khmer Rouge."
+        }
+      }
+    },
+    {
+      "source": "红色高棉",
+      "target": "红色高棉大屠杀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1975",
+        "end_date": "1979",
+        "description": {
+          "zh-cn": "红色高棉在其当政期间实行恐怖统治，引发了红色高棉大屠杀。",
+          "en": "The Khmer Rouge implemented a reign of terror during its time in power, initiating the Cambodian genocide."
+        }
+      }
+    },
+    {
+      "source": "红色高棉",
+      "target": "诺罗敦·施汉诺",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1975",
+        "description": {
+          "zh-cn": "诺罗敦·施汉诺在红色高棉掌权后归国，但迅速遭到软禁。",
+          "en": "Norodom Sihanouk returned to the country after the Khmer Rouge took power but was quickly placed under house arrest."
+        }
+      }
+    },
+    {
+      "source": "越南",
+      "target": "柬越战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-12",
+        "description": {
+          "zh-cn": "1978年12月，越南出兵柬埔寨，发动了柬越战争。",
+          "en": "In December 1978, Vietnam sent troops into Cambodia, launching the Cambodian-Vietnamese War."
+        }
+      }
+    },
+    {
+      "source": "柬越战争",
+      "target": "民主柬埔寨",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1978-12",
+        "end_date": "1979-01-07",
+        "description": {
+          "zh-cn": "柬越战争最终于1979年1月7日攻陷金边，终结了红色高棉政权。",
+          "en": "The Cambodian-Vietnamese War culminated in the capture of Phnom Penh on January 7, 1979, ending the Khmer Rouge regime."
+        }
+      }
+    },
+    {
+      "source": "柬埔寨人民共和国",
+      "target": "越南",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1979",
+        "end_date": "1989-01-06",
+        "description": {
+          "zh-cn": "柬埔寨人民共和国被视为越南的卫星国，直至1989年越南撤军。",
+          "en": "The People's Republic of Kampuchea was considered a satellite state of Vietnam until the Vietnamese withdrawal in 1989."
+        }
+      }
+    },
+    {
+      "source": "柬埔寨",
+      "target": "柬埔寨救国党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2017-11",
+        "description": {
+          "zh-cn": "2017年11月，柬埔寨最高法院裁定解散主要反对党柬埔寨救国党。",
+          "en": "In November 2017, the Supreme Court of Cambodia ruled to dissolve the main opposition party, the Cambodia National Rescue Party."
+        }
+      }
+    },
+    {
+      "source": "洪森",
+      "target": "塔信",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2009",
+        "end_date": "2010",
+        "description": {
+          "zh-cn": "洪森与前泰国首相塔信关系密切，并曾于2009至2010年间聘任其为经济顾问。",
+          "en": "Hun Sen had a close relationship with former Thai Prime Minister Thaksin Shinawatra and appointed him as an economic advisor between 2009 and 2010."
+        }
+      }
+    }
+  ]
+}

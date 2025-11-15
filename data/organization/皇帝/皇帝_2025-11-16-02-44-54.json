@@ -1,0 +1,697 @@
+{
+  "nodes": [
+    {
+      "id": "皇帝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "皇帝"
+        ],
+        "en": [
+          "Emperor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "帝国的国家元首，是在东西方各帝国的统治者元首中占据最高位置的君主头衔。该称号由秦始皇创造，近代亦用来对译西方语言中的“Emperor”等来自罗马皇帝称号的词语。",
+          "en": "The head of state of an empire, a monarchical title holding the highest position among the rulers of various empires in both the East and West. The title was created by Qin Shi Huang and is also used in modern times to translate Western terms such as 'Emperor', which derive from the titles of Roman emperors."
+        }
+      }
+    },
+    {
+      "id": "秦始皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦始皇",
+          "嬴政"
+        ],
+        "en": [
+          "Qin Shi Huang"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0259 - -0210",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国历史上首位完成华夏大一统的政治人物，也是中国第一个称皇帝的君主。他统一天下后，认为自己“德兼三皇、功盖五帝”，创造了“皇帝”的尊号。",
+          "en": "The first political figure to unify China and the first monarch to adopt the title of Emperor. After unifying the country, he considered his virtues to have surpassed the Three Sovereigns and his achievements to have exceeded the Five Emperors, thus creating the title 'Huangdi' (Emperor)."
+        }
+      }
+    },
+    {
+      "id": "三皇",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "三皇"
+        ],
+        "en": [
+          "Three Sovereigns"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国神话传说中“三皇五帝”的“三皇”，是夏朝以前的传说帝王。秦始皇在创造“皇帝”称号时，声称自己的德行兼备三皇。",
+          "en": "The 'Three Sovereigns' of the 'Three Sovereigns and Five Emperors' in Chinese mythology, legendary rulers before the Xia Dynasty. When creating the title 'Emperor', Qin Shi Huang claimed his virtues encompassed those of the Three Sovereigns."
+        }
+      }
+    },
+    {
+      "id": "五帝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "五帝"
+        ],
+        "en": [
+          "Five Emperors"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国神话传说中“三皇五帝”的“五帝”，是夏朝以前的传说帝王。秦始皇在创造“皇帝”称号时，声称自己的功绩超过五帝。",
+          "en": "The 'Five Emperors' of the 'Three Sovereigns and Five Emperors' in Chinese mythology, legendary rulers before the Xia Dynasty. When creating the title 'Emperor', Qin Shi Huang claimed his achievements surpassed those of the Five Emperors."
+        }
+      }
+    },
+    {
+      "id": "罗马皇帝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗马皇帝"
+        ],
+        "en": [
+          "Roman Emperor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "罗马帝国的统治者。其头衔如“Imperator”和“Caesar”是西方“皇帝”一词的词源，近代汉语中的“皇帝”也用以对译这些称号。",
+          "en": "The rulers of the Roman Empire. Their titles, such as 'Imperator' and 'Caesar', are the etymological sources of the Western word 'Emperor', and the modern Chinese term '皇帝' is used to translate these titles."
+        }
+      }
+    },
+    {
+      "id": "神圣罗马帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "神圣罗马帝国"
+        ],
+        "en": [
+          "Holy Roman Empire"
+        ]
+      },
+      "properties": {
+        "period": "962 - 1806",
+        "description": {
+          "zh-cn": "位于中欧的封建军事帝国，自视为罗马帝国的继承者。其君主拥有“罗马皇帝”头衔，直到1806年被拿破仑解散。",
+          "en": "A feudal military empire in Central Europe that considered itself the successor to the Roman Empire. Its monarch held the title of 'Roman Emperor' until it was dissolved by Napoleon in 1806."
+        }
+      }
+    },
+    {
+      "id": "拿破仑一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "拿破仑一世",
+          "拿破仑"
+        ],
+        "en": [
+          "Napoleon I"
+        ]
+      },
+      "properties": {
+        "lifetime": "1769-08-15 - 1821-05-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法兰西第一帝国皇帝。他击败了反法联盟，并最终导致了神圣罗马帝国的解体。",
+          "en": "Emperor of the First French Empire. He defeated the anti-French coalitions and ultimately brought about the dissolution of the Holy Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "法兰西第一帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第一帝国"
+        ],
+        "en": [
+          "First French Empire"
+        ]
+      },
+      "properties": {
+        "period": "1804 - 1815",
+        "description": {
+          "zh-cn": "由拿破仑一世建立的君主制国家。",
+          "en": "A monarchical state established by Napoleon I."
+        }
+      }
+    },
+    {
+      "id": "拜占庭帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "拜占庭帝国",
+          "东罗马帝国"
+        ],
+        "en": [
+          "Byzantine Empire",
+          "Eastern Roman Empire"
+        ]
+      },
+      "properties": {
+        "period": "395 - 1453",
+        "description": {
+          "zh-cn": "罗马帝国分裂后的东部帝国，其君主一直自视为罗马皇帝的合法继承者，直到1453年被奥斯曼帝国所灭。",
+          "en": "The eastern part of the Roman Empire after its division, whose monarchs always considered themselves the legitimate successors of the Roman emperors until its conquest by the Ottoman Empire in 1453."
+        }
+      }
+    },
+    {
+      "id": "奥斯曼帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥斯曼帝国",
+          "鄂图曼土其帝国"
+        ],
+        "en": [
+          "Ottoman Empire"
+        ]
+      },
+      "properties": {
+        "period": "1299 - 1922",
+        "description": {
+          "zh-cn": "土耳其人建立的帝国，于1453年攻陷君士坦丁堡，灭亡了拜占庭帝国。",
+          "en": "An empire founded by the Turks, which conquered Constantinople in 1453, bringing an end to the Byzantine Empire."
+        }
+      }
+    },
+    {
+      "id": "天皇",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "天皇"
+        ],
+        "en": [
+          "Emperor of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本君主的称号，是现今世界唯一仍使用“皇帝”称号的君主。在历史上，其权力曾被幕府将军架空。",
+          "en": "The title of the monarch of Japan, who is the only monarch in the world today who still uses the title of 'Emperor'. Historically, their power was usurped by the Shogun."
+        }
+      }
+    },
+    {
+      "id": "征夷大将军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "征夷大将军",
+          "幕府将军"
+        ],
+        "en": [
+          "Shogun"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本幕府时期的实际军事和政治统治者，其权力在天皇之上，使天皇成为名义上的君主。",
+          "en": "The de facto military and political ruler of Japan during the shogunate period, whose authority surpassed that of the Emperor, reducing the Emperor to a nominal monarch."
+        }
+      }
+    },
+    {
+      "id": "大政奉还",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "大政奉还"
+        ],
+        "en": [
+          "Restoration of Imperial Rule"
+        ]
+      },
+      "properties": {
+        "period": "1867",
+        "description": {
+          "zh-cn": "日本江户时代末期，德川幕府第15代将军德川庆喜将政权交还给明治天皇的政治事件，标志着幕府统治的结束和天皇权力的复兴。",
+          "en": "A political event in the late Edo period of Japan where the 15th Shogun of the Tokugawa Shogunate, Tokugawa Yoshinobu, returned political power to Emperor Meiji, marking the end of the shogunate's rule and the revival of imperial authority."
+        }
+      }
+    },
+    {
+      "id": "中国皇帝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国皇帝"
+        ],
+        "en": [
+          "Emperor of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国帝制时期中央政权的最高统治者，自秦始皇始，至1912年溥仪退位终。",
+          "en": "The supreme ruler of the central government during China's imperial period, from the first emperor Qin Shi Huang until the abdication of Puyi in 1912."
+        }
+      }
+    },
+    {
+      "id": "溥仪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "溥仪"
+        ],
+        "en": [
+          "Puyi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1906-02-07 - 1967-10-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝末代皇帝，也是中国历史上最后一位皇帝。他的退位标志着中国帝制的结束。",
+          "en": "The last emperor of the Qing dynasty and the last emperor in Chinese history. His abdication marked the end of the Chinese imperial system."
+        }
+      }
+    },
+    {
+      "id": "查理曼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查理曼",
+          "查理一世",
+          "查理大帝"
+        ],
+        "en": [
+          "Charlemagne"
+        ]
+      },
+      "properties": {
+        "lifetime": "742 - 814-01-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法兰克国王，后于800年由教宗良三世加冕为“罗马人的皇帝”，成为神圣罗马帝国的前身——加洛林帝国的第一位皇帝。",
+          "en": "King of the Franks, later crowned 'Emperor of the Romans' by Pope Leo III in 800, becoming the first emperor of the Carolingian Empire, the predecessor of the Holy Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "教宗良三世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "教宗良三世",
+          "利奥三世"
+        ],
+        "en": [
+          "Pope Leo III"
+        ]
+      },
+      "properties": {
+        "lifetime": "750 - 816-06-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马教宗，在公元800年为法兰克国王查理曼加冕为罗马皇帝。",
+          "en": "Pope of Rome who crowned the Frankish king Charlemagne as Roman Emperor in 800 AD."
+        }
+      }
+    },
+    {
+      "id": "神圣罗马皇帝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "神圣罗马皇帝",
+          "罗马人的皇帝"
+        ],
+        "en": [
+          "Holy Roman Emperor"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "神圣罗马帝国的统治者头衔，理论上是欧洲世俗统治者中的最高领袖。",
+          "en": "The title of the ruler of the Holy Roman Empire, theoretically the supreme leader among secular rulers in Europe."
+        }
+      }
+    },
+    {
+      "id": "弗朗茨二世 (神圣罗马帝国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗朗茨二世 (神圣罗马帝国)",
+          "弗朗茨二世"
+        ],
+        "en": [
+          "Francis II, Holy Roman Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1768-02-12 - 1835-03-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "末代神圣罗马皇帝。在拿破仑的压力下，他于1806年解散神圣罗马帝国，此前他已于1804年建立奥地利帝国并成为首任奥地利皇帝。",
+          "en": "The last Holy Roman Emperor. Under pressure from Napoleon, he dissolved the Holy Roman Empire in 1806, having already established the Austrian Empire in 1804 and become its first emperor."
+        }
+      }
+    },
+    {
+      "id": "奥地利帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥地利帝国"
+        ],
+        "en": [
+          "Austrian Empire"
+        ]
+      },
+      "properties": {
+        "period": "1804 - 1867",
+        "description": {
+          "zh-cn": "由神圣罗马皇帝弗朗茨二世在其世袭领土上建立的帝国，以应对拿破仑称帝。",
+          "en": "An empire established by Holy Roman Emperor Francis II on his hereditary lands in response to Napoleon's proclamation as emperor."
+        }
+      }
+    },
+    {
+      "id": "印度皇帝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "印度皇帝",
+          "印度女皇"
+        ],
+        "en": [
+          "Emperor of India",
+          "Empress of India"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "英国君主在印度殖民统治时期使用的头衔，始于维多利亚女王，终于乔治六世，因印度独立而废除。",
+          "en": "A title used by the British monarch during the colonial rule of India, starting with Queen Victoria and ending with George VI, abolished upon India's independence."
+        }
+      }
+    },
+    {
+      "id": "维多利亚 (英国女王)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "维多利亚 (英国女王)",
+          "维多利亚女王"
+        ],
+        "en": [
+          "Victoria (Queen of the United Kingdom)"
+        ]
+      },
+      "properties": {
+        "lifetime": "1819-05-24 - 1901-01-22",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "大不列颠及爱尔兰联合王国女王，1877年加冕为首任印度女皇。",
+          "en": "Queen of the United Kingdom of Great Britain and Ireland, crowned as the first Empress of India in 1877."
+        }
+      }
+    },
+    {
+      "id": "印度独立运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "印度独立运动"
+        ],
+        "en": [
+          "Indian independence movement"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "旨在结束英国在印度统治的一系列活动。其最终成功导致了“印度皇帝”头衔的废除。",
+          "en": "A series of activities with the aim of ending British rule in India. Its ultimate success led to the abolition of the 'Emperor of India' title."
+        }
+      }
+    },
+    {
+      "id": "雅典的伊琳娜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雅典的伊琳娜",
+          "伊琳娜"
+        ],
+        "en": [
+          "Irene of Athens"
+        ]
+      },
+      "properties": {
+        "lifetime": "752 - 803",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "拜占庭帝国女皇帝，通过废黜其子君士坦丁六世而掌权。她的统治被西欧视为皇位空缺，成为教宗为查理曼加冕的理由之一。",
+          "en": "Byzantine empress who came to power by deposing her son Constantine VI. Her rule was seen in Western Europe as a vacancy on the imperial throne, providing one of the justifications for the Pope to crown Charlemagne."
+        }
+      }
+    },
+    {
+      "id": "君士坦丁六世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "君士坦丁六世"
+        ],
+        "en": [
+          "Constantine VI"
+        ]
+      },
+      "properties": {
+        "lifetime": "771 - 797",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "拜占庭皇帝，被其母伊琳娜废黜并致盲。",
+          "en": "Byzantine emperor, who was deposed and blinded by his mother, Irene."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "秦始皇",
+      "target": "皇帝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-0221",
+        "description": {
+          "zh-cn": "秦始皇在统一中国后，创造了“皇帝”这一称号，自称“始皇帝”。",
+          "en": "After unifying China, Qin Shi Huang created the title of 'Emperor' and called himself the 'First Emperor'."
+        }
+      }
+    },
+    {
+      "source": "三皇",
+      "target": "皇帝",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "秦始皇认为自己“德兼三皇”，因此将“皇”字纳入新的君主称号中。",
+          "en": "Qin Shi Huang believed his virtues encompassed those of the 'Three Sovereigns' (San Huang), and thus incorporated the character 'Huang' into the new monarchical title."
+        }
+      }
+    },
+    {
+      "source": "五帝",
+      "target": "皇帝",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "秦始皇认为自己“功盖五帝”，因此将“帝”字纳入新的君主称号中。",
+          "en": "Qin Shi Huang believed his achievements surpassed those of the 'Five Emperors' (Wu Di), and thus incorporated the character 'Di' into the new monarchical title."
+        }
+      }
+    },
+    {
+      "source": "罗马皇帝",
+      "target": "皇帝",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "近代汉语中，“皇帝”一词被用来对译欧洲语言中源自罗马皇帝称号的词语，如“Emperor”。",
+          "en": "In modern Chinese, the word '皇帝' is used to translate terms in European languages derived from the titles of Roman emperors, such as 'Emperor'."
+        }
+      }
+    },
+    {
+      "source": "拿破仑一世",
+      "target": "神圣罗马帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1806",
+        "description": {
+          "zh-cn": "拿破仑在取得一系列军事胜利后，迫使神圣罗马皇帝弗朗茨二世于1806年解散了神圣罗马帝国。",
+          "en": "After a series of military victories, Napoleon forced the Holy Roman Emperor Francis II to dissolve the Holy Roman Empire in 1806."
+        }
+      }
+    },
+    {
+      "source": "拿破仑一世",
+      "target": "法兰西第一帝国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1804",
+        "description": {
+          "zh-cn": "拿破仑于1804年称帝，建立了法兰西第一帝国。",
+          "en": "Napoleon proclaimed himself emperor in 1804, establishing the First French Empire."
+        }
+      }
+    },
+    {
+      "source": "奥斯曼帝国",
+      "target": "拜占庭帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1453",
+        "description": {
+          "zh-cn": "1453年，奥斯曼帝国攻陷君士坦丁堡，灭亡了拜占庭帝国。",
+          "en": "In 1453, the Ottoman Empire conquered Constantinople, bringing an end to the Byzantine Empire."
+        }
+      }
+    },
+    {
+      "source": "征夷大将军",
+      "target": "天皇",
+      "type": "BLOCKED",
+      "properties": {
+        "period": [
+          "1185 - 1867"
+        ],
+        "description": {
+          "zh-cn": "从12世纪到19世纪中叶，日本的实际统治权掌握在征夷大将军（幕府将军）手中，天皇沦为名义上的君主。",
+          "en": "From the 12th century to the mid-19th century, de facto ruling power in Japan was held by the Shogun, reducing the Emperor to a nominal monarch."
+        }
+      }
+    },
+    {
+      "source": "大政奉还",
+      "target": "天皇",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1867",
+        "description": {
+          "zh-cn": "大政奉还事件标志着幕府统治的结束，使天皇重新掌握国家实际权力，势力得以复兴。",
+          "en": "The Restoration of Imperial Rule marked the end of the shogunate's rule, allowing the Emperor to regain actual state power and reviving imperial authority."
+        }
+      }
+    },
+    {
+      "source": "溥仪",
+      "target": "中国皇帝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1908-12-02",
+        "end_date": "1912-02-12",
+        "position": {
+          "zh-cn": "宣统皇帝",
+          "en": "Xuantong Emperor"
+        },
+        "description": {
+          "zh-cn": "溥仪是中国最后一位皇帝，他的退位结束了中国的帝制。",
+          "en": "Puyi was the last emperor of China, and his abdication ended the Chinese imperial system."
+        }
+      }
+    },
+    {
+      "source": "教宗良三世",
+      "target": "查理曼",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "800-12-25",
+        "description": {
+          "zh-cn": "教宗良三世在罗马为查理曼加冕，授予他“罗马人的皇帝”称号。",
+          "en": "Pope Leo III crowned Charlemagne in Rome, bestowing upon him the title 'Emperor of the Romans'."
+        }
+      }
+    },
+    {
+      "source": "查理曼",
+      "target": "神圣罗马皇帝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "800-12-25",
+        "end_date": "814-01-28",
+        "description": {
+          "zh-cn": "查理曼是首位获得“罗马人的皇帝”称号的西欧君主，被视为神圣罗马皇帝的前身。",
+          "en": "Charlemagne was the first Western European monarch to receive the title 'Emperor of the Romans' and is considered a predecessor to the Holy Roman Emperors."
+        }
+      }
+    },
+    {
+      "source": "弗朗茨二世 (神圣罗马帝国)",
+      "target": "奥地利帝国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1804",
+        "description": {
+          "zh-cn": "为应对拿破仑称帝，神圣罗马皇帝弗朗茨二世宣布其哈布斯堡家族领地为奥地利帝国。",
+          "en": "In response to Napoleon's proclamation as emperor, Holy Roman Emperor Francis II declared his Habsburg hereditary lands to be the Austrian Empire."
+        }
+      }
+    },
+    {
+      "source": "维多利亚 (英国女王)",
+      "target": "印度皇帝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1877",
+        "end_date": "1901-01-22",
+        "position": {
+          "zh-cn": "印度女皇",
+          "en": "Empress of India"
+        },
+        "description": {
+          "zh-cn": "维多利亚女王是第一位获得“印度女皇”头衔的英国君主。",
+          "en": "Queen Victoria was the first British monarch to hold the title 'Empress of India'."
+        }
+      }
+    },
+    {
+      "source": "印度独立运动",
+      "target": "印度皇帝",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1948-06",
+        "description": {
+          "zh-cn": "印度于1947年独立后，英国君主的“印度皇帝”头衔于1948年被正式废除。",
+          "en": "After India gained independence in 1947, the British monarch's title 'Emperor of India' was formally abolished in 1948."
+        }
+      }
+    },
+    {
+      "source": "雅典的伊琳娜",
+      "target": "君士坦丁六世",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "797",
+        "description": {
+          "zh-cn": "伊琳娜篡夺了其子君士坦丁六世的皇位，并将其废黜。",
+          "en": "Irene usurped the throne from her son Constantine VI and deposed him."
+        }
+      }
+    }
+  ]
+}
