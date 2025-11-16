@@ -1,0 +1,220 @@
+{
+  "nodes": [
+    {
+      "id": "刘思扬",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘思扬"
+        ],
+        "en": [
+          "Liu Siyang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1963-06 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "宿州",
+          "en": "Suzhou"
+        },
+        "description": {
+          "zh-cn": "中国新闻工作者，现任中华全国新闻工作者协会党组书记、副主席，曾任新华通讯社副社长、党组成员。",
+          "en": "Chinese journalist, current Party Group Secretary and Vice Chairman of the All-China Journalists Association, and former Vice President and Party Group member of Xinhua News Agency."
+        }
+      }
+    },
+    {
+      "id": "宿州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "宿州"
+        ],
+        "en": [
+          "Suzhou"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "新华通讯社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新华通讯社"
+        ],
+        "en": [
+          "Xinhua News Agency"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的国家通讯社，法定新闻监管机构。",
+          "en": "The state news agency of the People's Republic of China and a statutory news regulation body."
+        }
+      }
+    },
+    {
+      "id": "中华全国新闻工作者协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国新闻工作者协会"
+        ],
+        "en": [
+          "All-China Journalists Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国共产党领导的、中国新闻界唯一的全国性人民团体。",
+          "en": "The sole national people's organization in the Chinese journalism industry, led by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "刘正荣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘正荣"
+        ],
+        "en": [
+          "Liu Zhengrong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，曾任中华全国新闻工作者协会党组书记。",
+          "en": "Chinese political figure, former Party Group Secretary of the All-China Journalists Association."
+        }
+      }
+    },
+    {
+      "id": "安徽大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安徽大学"
+        ],
+        "en": [
+          "Anhui University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国安徽省合肥市的一所高等教育机构。",
+          "en": "An institution of higher education located in Hefei, Anhui province, China."
+        }
+      }
+    },
+    {
+      "id": "中国新闻学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国新闻学院"
+        ],
+        "en": [
+          "China School of Journalism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一所新闻专业高等教育机构。",
+          "en": "An institution of higher education for journalism in China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘思扬",
+      "target": "宿州",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "刘思扬",
+      "target": "新华通讯社",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2022-07-08",
+        "position": {
+          "zh-cn": "副社长、党组成员",
+          "en": "Vice President, Party Group Member"
+        },
+        "description": {
+          "zh-cn": "根据中国政府网2022年7月8日发布的国务院任免国家工作人员通知，刘思扬被免去新华通讯社副社长职务。",
+          "en": "According to the State Council's notice on appointments and removals of state staff issued on the official website of the Chinese government on July 8, 2022, Liu Siyang was removed from the position of Vice President of Xinhua News Agency."
+        }
+      }
+    },
+    {
+      "source": "刘思扬",
+      "target": "中华全国新闻工作者协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-06",
+        "position": {
+          "zh-cn": "党组书记、副主席",
+          "en": "Party Group Secretary, Vice Chairman"
+        }
+      }
+    },
+    {
+      "source": "刘思扬",
+      "target": "刘正荣",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-06",
+        "description": {
+          "zh-cn": "刘思扬接替刘正荣出任中华全国新闻工作者协会党组书记。",
+          "en": "Liu Siyang succeeded Liu Zhengrong as the Party Group Secretary of the All-China Journalists Association."
+        }
+      }
+    },
+    {
+      "source": "刘思扬",
+      "target": "安徽大学",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "刘思扬",
+      "target": "中国新闻学院",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "刘思扬",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "nodes": [
+    {
+      "id": "京都",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "京都",
+          "平安京",
+          "京之都",
+          "京",
+          "北京",
+          "北都",
+          "京洛"
+        ],
+        "en": [
+          "Kyoto"
+        ]
+      },
+      "properties": {
+        "period": "794 - ",
+        "description": {
+          "zh-cn": "位于日本近畿地方的都市，自794年至1869年为日本首都。其历史始于平安京，是日本中古及近世重要的政治与文化中心。",
+          "en": "A city in the Kinki region of Japan, which served as the capital of Japan from 794 to 1869. Its history began as Heian-kyō, and it was a major political and cultural center in medieval and early modern Japan."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的岛屿国家。",
+          "en": "An island country in East Asia."
+        }
+      }
+    },
+    {
+      "id": "桓武天皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "桓武天皇"
+        ],
+        "en": [
+          "Emperor Kanmu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本第50代天皇，将首都从长冈京迁至平安京（京都）。",
+          "en": "The 50th emperor of Japan, who moved the capital from Nagaoka-kyō to Heian-kyō (Kyoto)."
+        }
+      }
+    },
+    {
+      "id": "长安城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "长安城",
+          "长安"
+        ],
+        "en": [
+          "Chang'an"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国唐代的都城之一，其布局是平安京（京都）的仿照对象。",
+          "en": "One of the capitals of the Tang Dynasty in China, whose layout was a model for Heian-kyō (Kyoto)."
+        }
+      }
+    },
+    {
+      "id": "洛阳城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "洛阳城",
+          "洛阳"
+        ],
+        "en": [
+          "Luoyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国唐代的都城之一，其布局是平安京（京都）的仿照对象。平安京的东半部亦被称为“洛阳”，并成为京都的代名词。",
+          "en": "One of the capitals of the Tang Dynasty in China, whose layout was a model for Heian-kyō (Kyoto). The eastern half of Heian-kyō was also called 'Luoyang', which became a synonym for Kyoto."
+        }
+      }
+    },
+    {
+      "id": "室町幕府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "室町幕府"
+        ],
+        "en": [
+          "Muromachi shogunate"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本历史上的一个武家政权。因其设在京都，使得京都的政治色彩一度复苏。",
+          "en": "A feudal military government in the history of Japan. Because it was based in Kyoto, the city's political character was revived."
+        }
+      }
+    },
+    {
+      "id": "应仁之乱",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "应仁之乱"
+        ],
+        "en": [
+          "Ōnin War"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一场开启了日本战国时代的内战，期间京都几乎被完全烧毁。",
+          "en": "A civil war that initiated the Sengoku period in Japan, during which Kyoto was almost completely destroyed by fire."
+        }
+      }
+    },
+    {
+      "id": "战国时代 (日本)",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "战国时代 (日本)",
+          "战国时代"
+        ],
+        "en": [
+          "Sengoku period"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本历史上的一个时期，始于应仁之乱。",
+          "en": "A period in Japanese history that began with the Ōnin War."
+        }
+      }
+    },
+    {
+      "id": "织田信长",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "织田信长"
+        ],
+        "en": [
+          "Oda Nobunaga"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本战国时代的大名，曾保护并支持京都的复兴。",
+          "en": "A daimyō of the Sengoku period in Japan who protected and supported the revival of Kyoto."
+        }
+      }
+    },
+    {
+      "id": "丰臣秀吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丰臣秀吉"
+        ],
+        "en": [
+          "Toyotomi Hideyoshi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本战国时代的政治家，继织田信长后统一日本。他曾保护并支持京都的复兴，并对城市进行了大规模改造。",
+          "en": "A politician of the Sengoku period who unified Japan after Oda Nobunaga. He protected and supported the revival of Kyoto and carried out large-scale renovations of the city."
+        }
+      }
+    },
+    {
+      "id": "明治维新",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "明治维新"
+        ],
+        "en": [
+          "Meiji Restoration"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "19世纪日本的一系列政治和社会改革事件，期间设立了京都府，并将首都迁至东京。",
+          "en": "A series of political and social reform events in 19th-century Japan, during which Kyoto Prefecture was established and the capital was moved to Tokyo."
+        }
+      }
+    },
+    {
+      "id": "东京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "东京",
+          "江户"
+        ],
+        "en": [
+          "Tokyo",
+          "Edo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的现任首都。17世纪后成为日本的政治中心，并于1869年正式取代京都成为首都。",
+          "en": "The current capital of Japan. It became the political center of Japan after the 17th century and officially replaced Kyoto as the capital in 1869."
+        }
+      }
+    },
+    {
+      "id": "京都府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "京都府"
+        ],
+        "en": [
+          "Kyoto Prefecture"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的一个地方行政区，于明治维新后设立，管辖京都市。",
+          "en": "A local administrative division of Japan, established after the Meiji Restoration, which has jurisdiction over Kyoto City."
+        }
+      }
+    },
+    {
+      "id": "京都市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "京都市"
+        ],
+        "en": [
+          "Kyoto City"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本京都府管辖下的现代城市，于1889年由上京区和下京区合并而成。",
+          "en": "The modern city under the jurisdiction of Kyoto Prefecture, Japan, formed in 1889 by the merger of Kamigyō-ku and Shimogyō-ku."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "京都",
+      "target": "日本",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "794",
+        "end_date": "1869",
+        "position": {
+          "zh-cn": "首都",
+          "en": "Capital"
+        },
+        "description": {
+          "zh-cn": "京都（平安京）于794年被定为日本首都，直到1869年迁都东京为止。",
+          "en": "Kyoto (Heian-kyō) was established as the capital of Japan in 794 and remained so until the capital was moved to Tokyo in 1869."
+        }
+      }
+    },
+    {
+      "source": "长安城",
+      "target": "京都",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "794",
+        "description": {
+          "zh-cn": "平安京（京都）在建设时仿照了中国唐代西京长安城的布局。",
+          "en": "The city of Heian-kyō (Kyoto) was laid out modeled on the capital of Tang China, Chang'an."
+        }
+      }
+    },
+    {
+      "source": "洛阳城",
+      "target": "京都",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "794",
+        "description": {
+          "zh-cn": "平安京（京都）在建设时仿照了中国唐代东都洛阳城的布局。后来，平安京的东半部（左京）因繁荣发展而被称为“洛阳”，并成为京都的代名词。",
+          "en": "The city of Heian-kyō (Kyoto) was laid out modeled on the eastern capital of Tang China, Luoyang. Later, the prosperous eastern half of the city (Sakyō) became known as 'Luoyang', which became a synonym for Kyoto."
+        }
+      }
+    },
+    {
+      "source": "桓武天皇",
+      "target": "京都",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "794",
+        "description": {
+          "zh-cn": "桓武天皇时期，日本首都从长冈京迁至平安京，开启了京都作为都城的发展历史。",
+          "en": "During the reign of Emperor Kanmu, the capital of Japan was moved from Nagaoka-kyō to Heian-kyō, initiating Kyoto's development as the capital city."
+        }
+      }
+    },
+    {
+      "source": "室町幕府",
+      "target": "京都",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "室町幕府位于京都，使其政治色彩再度复苏。",
+          "en": "The Muromachi shogunate was located in Kyoto, which revived the city's political significance."
+        }
+      }
+    },
+    {
+      "source": "应仁之乱",
+      "target": "京都",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在应仁之乱中，京都几乎被完全烧毁，导致城市一度衰落。",
+          "en": "During the Ōnin War, Kyoto was almost completely burned down, leading to the city's temporary decline."
+        }
+      }
+    },
+    {
+      "source": "应仁之乱",
+      "target": "战国时代 (日本)",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "应仁之乱的爆发开启了日本的战国时代。",
+          "en": "The outbreak of the Ōnin War marked the beginning of the Sengoku period in Japan."
+        }
+      }
+    },
+    {
+      "source": "织田信长",
+      "target": "京都",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在应仁之乱后，织田信长保护并支持了京都的复兴。",
+          "en": "After the Ōnin War, Oda Nobunaga protected and supported the revival of Kyoto."
+        }
+      }
+    },
+    {
+      "source": "丰臣秀吉",
+      "target": "京都",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在应仁之乱后，丰臣秀吉保护并支持了京都的复兴，并对城市进行了大规模改造。",
+          "en": "After the Ōnin War, Toyotomi Hideyoshi protected and supported the revival of Kyoto, and carried out large-scale renovations of the city."
+        }
+      }
+    },
+    {
+      "source": "明治维新",
+      "target": "京都",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1869",
+        "description": {
+          "zh-cn": "作为明治维新的一部分，日本首都于1869年由京都迁往东京，结束了京都作为首都的地位。",
+          "en": "As part of the Meiji Restoration, the capital of Japan was moved from Kyoto to Tokyo in 1869, ending Kyoto's status as the capital."
+        }
+      }
+    },
+    {
+      "source": "明治维新",
+      "target": "东京",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1869",
+        "description": {
+          "zh-cn": "作为明治维新的一部分，日本首都于1869年由京都迁往东京，使其成为日本新的政治中心。",
+          "en": "As part of the Meiji Restoration, the capital of Japan was moved from Kyoto to Tokyo in 1869, making it the new political center of Japan."
+        }
+      }
+    },
+    {
+      "source": "明治维新",
+      "target": "京都府",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "明治维新以后，日本政府设立了京都府作为地方行政区。",
+          "en": "After the Meiji Restoration, the Japanese government established Kyoto Prefecture as a local administrative division."
+        }
+      }
+    },
+    {
+      "source": "京都市",
+      "target": "京都府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1889",
+        "description": {
+          "zh-cn": "京都市是京都府管辖下的城市。",
+          "en": "Kyoto City is a city under the jurisdiction of Kyoto Prefecture."
+        }
+      }
+    }
+  ]
+}

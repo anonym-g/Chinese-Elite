@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "张向善",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张向善"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1917 - 1998",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "鄄城",
+          "en": "Juancheng"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国军事人物，中国人民解放军少将。曾任中华人民共和国化学工业部政治部主任，中国科学院行政管理局党委书记、局长。",
+          "en": "A military figure of the People's Republic of China and a major general of the People's Liberation Army. He served as the Director of the Political Department of the Ministry of Chemical Industry and as the Party Secretary and Director of the Administrative Bureau of the Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "id": "鄄城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "鄄城"
+        ],
+        "en": [
+          "Juancheng"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "山东",
+          "en": "Shandong"
+        },
+        "description": {
+          "zh-cn": "中国山东省菏泽市下辖县，为张向善的出生地。",
+          "en": "A county under the jurisdiction of Heze City, Shandong Province, China. It is the birthplace of Zhang Xiangshan."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，通常简称为中国。",
+          "en": "A country in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的主要国家武装力量。",
+          "en": "The principal military force of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国化学工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国化学工业部",
+          "化学工业部"
+        ],
+        "en": [
+          "Ministry of Chemical Industry of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院曾经存在的部门，负责管理全国化学工业。",
+          "en": "A former ministry of the State Council of the People's Republic of China, responsible for managing the national chemical industry."
+        }
+      }
+    },
+    {
+      "id": "中国科学院行政管理局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院行政管理局"
+        ],
+        "en": [
+          "Administrative Bureau of the Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国科学院的下属行政管理机构。",
+          "en": "The subordinate administrative body of the Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张向善",
+      "target": "鄄城",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1917",
+        "description": {
+          "zh-cn": "张向善出生于山东鄄城。",
+          "en": "Zhang Xiangshan was born in Juancheng, Shandong."
+        }
+      }
+    },
+    {
+      "source": "张向善",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "军事人物",
+          "en": "Military Figure"
+        },
+        "description": {
+          "zh-cn": "张向善是中华人民共和国的一位军事人物。",
+          "en": "Zhang Xiangshan was a military figure in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "张向善",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "少将",
+          "en": "Major General"
+        },
+        "description": {
+          "zh-cn": "张向善是中国人民解放军的少将。",
+          "en": "Zhang Xiangshan was a Major General in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "张向善",
+      "target": "中华人民共和国化学工业部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治部主任",
+          "en": "Director of the Political Department"
+        },
+        "description": {
+          "zh-cn": "张向善曾任中华人民共和国化学工业部政治部主任。",
+          "en": "Zhang Xiangshan once served as the Director of the Political Department of the Ministry of Chemical Industry of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "张向善",
+      "target": "中国科学院行政管理局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委书记、局长",
+          "en": "Party Secretary and Director"
+        },
+        "description": {
+          "zh-cn": "张向善曾任中国科学院行政管理局党委书记、局长。",
+          "en": "Zhang Xiangshan once served as the Party Secretary and Director of the Administrative Bureau of the Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "source": "张向善",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科页面分类，张向善是中国共产党党员。",
+          "en": "According to the Wikipedia page categories, Zhang Xiangshan was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

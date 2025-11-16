@@ -1,0 +1,844 @@
+{
+  "nodes": [
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "大清",
+          "大清国",
+          "大清帝国",
+          "中华大清国",
+          "满清",
+          "皇清",
+          "中国"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": [
+          "1636-05-15 - 1912-02-12",
+          "1917-07-01 - 1917-07-12"
+        ],
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "description": {
+          "zh-cn": "中国历史上由满族建立的大一统朝代，亦为中国历史上最后一个帝制王朝。",
+          "en": "The last imperial dynasty of China, established by the Manchu people."
+        }
+      }
+    },
+    {
+      "id": "皇太极",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "皇太极"
+        ],
+        "en": [
+          "Hong Taiji"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后金第二位大汗、清朝开国皇帝。",
+          "en": "The second khan of the Later Jin and the founding emperor of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "努尔哈赤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "努尔哈赤"
+        ],
+        "en": [
+          "Nurhaci"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后金开国之君，统一女真各部。",
+          "en": "Founder of the Later Jin dynasty, unified the Jurchen tribes."
+        }
+      }
+    },
+    {
+      "id": "后金",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "后金"
+        ],
+        "en": [
+          "Later Jin"
+        ]
+      },
+      "properties": {
+        "period": "1616 - 1636",
+        "description": {
+          "zh-cn": "由女真族人努尔哈赤建立的政权，为清朝的前身。",
+          "en": "A regime established by the Jurchen leader Nurhaci, the predecessor of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "明朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明朝"
+        ],
+        "en": [
+          "Ming dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1368 - 1644",
+        "description": {
+          "zh-cn": "中国历史上由汉族建立的大一统王朝，被清朝取代。",
+          "en": "An imperial dynasty of China established by the Han people, which was succeeded by the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "李自成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李自成"
+        ],
+        "en": [
+          "Li Zicheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明末民变领袖，建立大顺政权，后被清军击败。",
+          "en": "A peasant rebellion leader at the end of the Ming dynasty who founded the Dashun regime and was later defeated by the Qing army."
+        }
+      }
+    },
+    {
+      "id": "吴三桂",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴三桂"
+        ],
+        "en": [
+          "Wu Sangui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明末辽东总兵，后降清，引清兵入关。康熙年间发动三藩之乱反清。",
+          "en": "A military general in the late Ming dynasty who defected to the Qing and let their army through the Shanhai Pass. He later led the Revolt of the Three Feudatories against the Qing during the Kangxi era."
+        }
+      }
+    },
+    {
+      "id": "大顺 (政权)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大顺 (政权)",
+          "大顺"
+        ],
+        "en": [
+          "Dashun"
+        ]
+      },
+      "properties": {
+        "period": "1644 - 1645",
+        "description": {
+          "zh-cn": "由李自成在明末建立的农民政权。",
+          "en": "A peasant regime established by Li Zicheng at the end of the Ming dynasty."
+        }
+      }
+    },
+    {
+      "id": "南明",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南明"
+        ],
+        "en": [
+          "Southern Ming"
+        ]
+      },
+      "properties": {
+        "period": "1644 - 1662",
+        "description": {
+          "zh-cn": "明朝灭亡后，由明朝宗室在南方建立的政权，后被清朝所灭。",
+          "en": "Regimes established by Ming imperial family members in southern China after the fall of the Ming dynasty, eventually conquered by the Qing."
+        }
+      }
+    },
+    {
+      "id": "明郑",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明郑"
+        ],
+        "en": [
+          "Kingdom of Tungning"
+        ]
+      },
+      "properties": {
+        "period": "1661 - 1683",
+        "location": {
+          "zh-cn": "台湾",
+          "en": "Taiwan"
+        },
+        "description": {
+          "zh-cn": "郑成功在台湾建立的奉明朝为正朔的政权，后被清朝所灭。",
+          "en": "A regime established by Koxinga in Taiwan that recognized the legitimacy of the Ming dynasty, later conquered by the Qing."
+        }
+      }
+    },
+    {
+      "id": "三藩之乱",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "三藩之乱"
+        ],
+        "en": [
+          "Revolt of the Three Feudatories"
+        ]
+      },
+      "properties": {
+        "period": "1673 - 1681",
+        "description": {
+          "zh-cn": "清初由吴三桂、耿精忠、尚之信三位藩王发动的反清叛乱，最终被康熙帝平定。",
+          "en": "An anti-Qing rebellion led by three feudatory princes, Wu Sangui, Geng Jingzhong, and Shang Zhixin, during the early Qing dynasty, which was eventually suppressed by the Kangxi Emperor."
+        }
+      }
+    },
+    {
+      "id": "玄烨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "玄烨",
+          "康熙帝"
+        ],
+        "en": [
+          "Kangxi Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1654-05-04 - 1722-12-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第四位皇帝，清朝入关后的第二位皇帝。在位期间平定三藩、攻取台湾、驱逐沙俄，开启康雍乾盛世。",
+          "en": "The fourth emperor of the Qing dynasty and the second to rule over China proper. During his reign, he suppressed the Revolt of the Three Feudatories, conquered Taiwan, expelled Tsarist Russia, and initiated the High Qing era."
+        }
+      }
+    },
+    {
+      "id": "康雍乾盛世",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "康雍乾盛世"
+        ],
+        "en": [
+          "High Qing era"
+        ]
+      },
+      "properties": {
+        "period": "1681 - 1799",
+        "description": {
+          "zh-cn": "清朝前期的一段盛世，历经康熙、雍正、乾隆三代皇帝，是清朝发展的顶峰。",
+          "en": "A period of prosperity in the early Qing dynasty spanning the reigns of the Kangxi, Yongzheng, and Qianlong emperors, considered the peak of the dynasty's development."
+        }
+      }
+    },
+    {
+      "id": "雍正帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雍正帝"
+        ],
+        "en": [
+          "Yongzheng Emperor"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第五位皇帝，清朝入关后的第三位皇帝。在位期间加强皇权，整顿吏治，延续了康雍乾盛世。",
+          "en": "The fifth emperor of the Qing dynasty and the third to rule over China proper. He strengthened imperial power, reformed the bureaucracy, and continued the High Qing era."
+        }
+      }
+    },
+    {
+      "id": "乾隆帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乾隆帝"
+        ],
+        "en": [
+          "Qianlong Emperor"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第六位皇帝，清朝入关后的第四位皇帝。在位期间清朝国力达到顶峰，但晚期吏治腐败，国势由盛转衰。",
+          "en": "The sixth emperor of the Qing dynasty and the fourth to rule over China proper. During his reign, the Qing dynasty reached its zenith, but in his later years, corruption became rampant, and the dynasty began to decline."
+        }
+      }
+    },
+    {
+      "id": "鸦片战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "鸦片战争",
+          "第一次鸦片战争"
+        ],
+        "en": [
+          "Opium Wars",
+          "First Opium War"
+        ]
+      },
+      "properties": {
+        "period": "1840 - 1842",
+        "description": {
+          "zh-cn": "19世纪中英之间因鸦片贸易引发的战争，清朝战败，被迫签订《南京条约》，开启了中国近代史。",
+          "en": "A war between Britain and China in the mid-19th century triggered by the opium trade. The Qing dynasty's defeat led to the signing of the Treaty of Nanking and the beginning of modern Chinese history."
+        }
+      }
+    },
+    {
+      "id": "南京条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "南京条约"
+        ],
+        "en": [
+          "Treaty of Nanking"
+        ]
+      },
+      "properties": {
+        "period": "1842-08-29",
+        "description": {
+          "zh-cn": "清朝在第一次鸦片战争中战败后与英国签订的中国近代史上第一个不平等条约。",
+          "en": "The first of the unequal treaties signed between Qing China and Great Britain after the First Opium War."
+        }
+      }
+    },
+    {
+      "id": "太平天国运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "太平天国运动",
+          "太平天国"
+        ],
+        "en": [
+          "Taiping Rebellion"
+        ]
+      },
+      "properties": {
+        "period": "1851 - 1864",
+        "description": {
+          "zh-cn": "清朝晚期由洪秀全领导的大规模反清运动，严重动摇了清朝的统治。",
+          "en": "A massive anti-Qing rebellion in the late Qing dynasty led by Hong Xiuquan, which severely weakened the Qing government's rule."
+        }
+      }
+    },
+    {
+      "id": "曾国藩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曾国藩"
+        ],
+        "en": [
+          "Zeng Guofan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "晚清重臣，湘军的创立者和统帅，在平定太平天国运动中起到了决定性作用。",
+          "en": "An influential statesman in the late Qing dynasty, founder and commander of the Xiang Army, who played a decisive role in suppressing the Taiping Rebellion."
+        }
+      }
+    },
+    {
+      "id": "甲午战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "甲午战争"
+        ],
+        "en": [
+          "First Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1894 - 1895",
+        "description": {
+          "zh-cn": "清朝与日本之间为争夺朝鲜半岛控制权而爆发的战争，清朝战败，洋务运动的成果付诸东流。",
+          "en": "A war between the Qing dynasty and Japan over control of the Korean Peninsula. The Qing's defeat nullified the achievements of the Self-Strengthening Movement."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1868年至1947年间日本的国号。在甲午战争中击败清朝，并割占台湾、澎湖。",
+          "en": "The official name of Japan from 1868 to 1947. It defeated the Qing dynasty in the First Sino-Japanese War and took control of Taiwan and Penghu."
+        }
+      }
+    },
+    {
+      "id": "马关条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "马关条约"
+        ],
+        "en": [
+          "Treaty of Shimonoseki"
+        ]
+      },
+      "properties": {
+        "period": "1895-04-17",
+        "description": {
+          "zh-cn": "清朝在甲午战争中战败后与日本签订的不平等条约，割让台湾、澎湖等地。",
+          "en": "An unequal treaty signed between the Qing dynasty and Japan after the First Sino-Japanese War, ceding Taiwan, Penghu, and other territories."
+        }
+      }
+    },
+    {
+      "id": "八国联军之役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "八国联军之役",
+          "八国联军"
+        ],
+        "en": [
+          "Eight-Nation Alliance"
+        ]
+      },
+      "properties": {
+        "period": "1900 - 1901",
+        "description": {
+          "zh-cn": "因义和团运动而引发的八个国家对清朝的武装侵略。清朝战败，被迫签订《辛丑条约》。",
+          "en": "An armed invasion of the Qing dynasty by eight nations in response to the Boxer Rebellion. The Qing's defeat led to the signing of the Boxer Protocol."
+        }
+      }
+    },
+    {
+      "id": "辛亥革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "辛亥革命"
+        ],
+        "en": [
+          "Xinhai Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1911-10-10 - 1912-02-12",
+        "description": {
+          "zh-cn": "推翻清朝、结束中国帝制的革命运动。",
+          "en": "A revolutionary movement that overthrew the Qing dynasty and ended imperial rule in China."
+        }
+      }
+    },
+    {
+      "id": "武昌起义",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "武昌起义"
+        ],
+        "en": [
+          "Wuchang Uprising"
+        ]
+      },
+      "properties": {
+        "period": "1911-10-10",
+        "description": {
+          "zh-cn": "辛亥革命的开端，直接导致清朝的覆灭。",
+          "en": "The beginning of the Xinhai Revolution, which directly led to the downfall of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "袁世凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁世凯"
+        ],
+        "en": [
+          "Yuan Shikai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "晚清重臣，北洋军的创始人。在辛亥革命中，他一方面压迫革命军，另一方面与革命党谈判，最终促成清帝退位。",
+          "en": "An influential statesman in the late Qing dynasty and the founder of the Beiyang Army. During the Xinhai Revolution, he suppressed the revolutionaries while negotiating with them, ultimately facilitating the abdication of the Qing emperor."
+        }
+      }
+    },
+    {
+      "id": "溥仪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "溥仪",
+          "宣统帝"
+        ],
+        "en": [
+          "Puyi",
+          "Xuantong Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1906-02-07 - 1967-10-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝末代皇帝，也是中国历史上最后一位皇帝。",
+          "en": "The last emperor of the Qing dynasty and the last emperor of China."
+        }
+      }
+    },
+    {
+      "id": "宣统帝退位诏书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "宣统帝退位诏书"
+        ],
+        "en": [
+          "Imperial Edict of the Abdication of the Qing Emperor"
+        ]
+      },
+      "properties": {
+        "period": "1912-02-12",
+        "description": {
+          "zh-cn": "由隆裕太后代表宣统帝溥仪颁布，标志着清朝的正式灭亡和中国帝制的结束。",
+          "en": "Issued by Empress Dowager Longyu on behalf of the Xuantong Emperor Puyi, marking the official end of the Qing dynasty and imperial rule in China."
+        }
+      }
+    },
+    {
+      "id": "张勋复辟",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "张勋复辟"
+        ],
+        "en": [
+          "Manchu Restoration (1917)"
+        ]
+      },
+      "properties": {
+        "period": "1917-07-01 - 1917-07-12",
+        "description": {
+          "zh-cn": "1917年张勋拥立宣统帝溥仪在北京复辟的事件，但仅持续12天便失败。",
+          "en": "An attempt in 1917 by general Zhang Xun to restore the Qing dynasty by reinstalling Puyi as emperor in Beijing, which failed after only 12 days."
+        }
+      }
+    },
+    {
+      "id": "张勋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张勋"
+        ],
+        "en": [
+          "Zhang Xun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末民初的将领，1917年发起复辟清朝的政变。",
+          "en": "A general in the late Qing and early Republican era who launched a coup in 1917 to restore the Qing dynasty."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "努尔哈赤",
+      "target": "后金",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1616",
+        "description": {
+          "zh-cn": "1616年，努尔哈赤在赫图阿拉称汗立国，建立后金。",
+          "en": "In 1616, Nurhaci established the Later Jin dynasty in Hetu Ala."
+        }
+      }
+    },
+    {
+      "source": "皇太极",
+      "target": "清朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1636",
+        "description": {
+          "zh-cn": "1636年，皇太极在盛京称帝，改国号为大清。",
+          "en": "In 1636, Hong Taiji proclaimed himself emperor in Shengjing and changed the state's name to Great Qing."
+        }
+      }
+    },
+    {
+      "source": "李自成",
+      "target": "明朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1644",
+        "description": {
+          "zh-cn": "1644年，李自成率军攻陷北京，导致明思宗自杀，明朝灭亡。",
+          "en": "In 1644, Li Zicheng's army captured Beijing, leading to the suicide of the Chongzhen Emperor and the fall of the Ming dynasty."
+        }
+      }
+    },
+    {
+      "source": "吴三桂",
+      "target": "清朝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1644",
+        "description": {
+          "zh-cn": "吴三桂为对抗李自成而归降清军，引清兵入山海关，使清朝得以入主中原。",
+          "en": "To resist Li Zicheng, Wu Sangui surrendered to the Qing army and allowed them through the Shanhai Pass, enabling the Qing to conquer central China."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "大顺 (政权)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1644",
+        "description": {
+          "zh-cn": "清军入关后，于一片石战役击败李自成的大顺军，并最终将其剿灭。",
+          "en": "After entering the Shanhai Pass, the Qing army defeated Li Zicheng's Dashun forces at the Battle of Shanhai Pass and eventually destroyed the regime."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "南明",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1662",
+        "description": {
+          "zh-cn": "清军在入关后数十年间，陆续击败南明各个政权，最终统一中国。",
+          "en": "In the decades following their entry into China proper, Qing forces defeated the various Southern Ming regimes one by one, ultimately unifying China."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "明郑",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1683",
+        "description": {
+          "zh-cn": "1683年，清朝派施琅率水师攻占台湾，明郑灭亡。",
+          "en": "In 1683, the Qing dynasty dispatched Shi Lang with a naval force to conquer Taiwan, leading to the fall of the Kingdom of Tungning."
+        }
+      }
+    },
+    {
+      "source": "玄烨",
+      "target": "三藩之乱",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1681",
+        "description": {
+          "zh-cn": "康熙帝在位期间，坚决主张撤藩，并最终历时九年平定了三藩之乱。",
+          "en": "During his reign, the Kangxi Emperor resolutely pushed for the abolition of the feudatories and, after a nine-year war, successfully suppressed the Revolt of the Three Feudatories."
+        }
+      }
+    },
+    {
+      "source": "鸦片战争",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1840",
+        "end_date": "1842",
+        "description": {
+          "zh-cn": "鸦片战争中清朝战败，被迫签订《南京条约》，开启了中国近代史，国力开始衰退。",
+          "en": "The Qing dynasty's defeat in the Opium War forced it to sign the Treaty of Nanking, marking the beginning of modern Chinese history and the start of its decline."
+        }
+      }
+    },
+    {
+      "source": "太平天国运动",
+      "target": "清朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1851",
+        "end_date": "1864",
+        "description": {
+          "zh-cn": "太平天国运动是一场大规模的反清运动，严重动摇了清朝的统治。",
+          "en": "The Taiping Rebellion was a large-scale anti-Qing movement that severely shook the dynasty's rule."
+        }
+      }
+    },
+    {
+      "source": "曾国藩",
+      "target": "太平天国运动",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1864",
+        "description": {
+          "zh-cn": "曾国藩创建和统帅的湘军是平定太平天国运动的主要军事力量。",
+          "en": "The Xiang Army, created and commanded by Zeng Guofan, was the main military force that suppressed the Taiping Rebellion."
+        }
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1894",
+        "end_date": "1895",
+        "description": {
+          "zh-cn": "甲午战争的失败使清朝国际地位大为降低，并被迫签订《马关条约》，割让台湾及澎湖。",
+          "en": "The defeat in the First Sino-Japanese War greatly diminished the Qing dynasty's international standing and forced it to sign the Treaty of Shimonoseki, ceding Taiwan and Penghu."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "清朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1894",
+        "end_date": "1895",
+        "description": {
+          "zh-cn": "在甲午战争中击败清朝，并通过《马关条约》割占台湾、澎湖，并迫使清朝放弃对朝鲜的宗主权。",
+          "en": "Defeated the Qing dynasty in the First Sino-Japanese War and, through the Treaty of Shimonoseki, took control of Taiwan and Penghu, and forced the Qing to renounce its suzerainty over Korea."
+        }
+      }
+    },
+    {
+      "source": "八国联军之役",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1900",
+        "end_date": "1901",
+        "description": {
+          "zh-cn": "八国联军占领北京，迫使清廷签订《辛丑条约》，加深了中国的半殖民地化。",
+          "en": "The Eight-Nation Alliance occupied Beijing, forcing the Qing court to sign the Boxer Protocol, which deepened China's semi-colonial status."
+        }
+      }
+    },
+    {
+      "source": "武昌起义",
+      "target": "辛亥革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1911-10-10",
+        "description": {
+          "zh-cn": "武昌起义的爆发标志着辛亥革命的开始。",
+          "en": "The outbreak of the Wuchang Uprising marked the beginning of the Xinhai Revolution."
+        }
+      }
+    },
+    {
+      "source": "辛亥革命",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-10-10",
+        "end_date": "1912-02-12",
+        "description": {
+          "zh-cn": "辛亥革命导致南方各省纷纷宣布独立，最终推翻了清朝的统治。",
+          "en": "The Xinhai Revolution led to declarations of independence by southern provinces and ultimately overthrew the rule of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911",
+        "end_date": "1912-02-12",
+        "description": {
+          "zh-cn": "袁世凯在辛亥革命期间，利用其军事和政治影响力，通过与革命党人谈判和向清廷施压，最终促成宣统帝退位。",
+          "en": "During the Xinhai Revolution, Yuan Shikai used his military and political influence, negotiating with revolutionaries and pressuring the Qing court, to ultimately bring about the abdication of the Xuantong Emperor."
+        }
+      }
+    },
+    {
+      "source": "宣统帝退位诏书",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1912-02-12",
+        "description": {
+          "zh-cn": "《宣统帝退位诏书》的颁布，正式宣告了清朝的灭亡和中国两千多年帝制的终结。",
+          "en": "The issuance of the Imperial Edict of the Abdication of the Qing Emperor officially announced the fall of the Qing dynasty and the end of over two thousand years of imperial rule in China."
+        }
+      }
+    },
+    {
+      "source": "张勋",
+      "target": "清朝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917-07-01",
+        "end_date": "1917-07-12",
+        "position": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "张勋于1917年发动政变，拥立溥仪复辟，试图恢复清朝统治，但以失败告终。",
+          "en": "In 1917, Zhang Xun launched a coup to restore Puyi to the throne in an attempt to revive the Qing dynasty, but it ultimately failed."
+        }
+      }
+    }
+  ]
+}

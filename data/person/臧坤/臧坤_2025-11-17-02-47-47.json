@@ -1,0 +1,381 @@
+{
+  "nodes": [
+    {
+      "id": "臧坤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "臧坤"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1928 - 2013-01-10",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "五莲县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A political figure of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "五莲县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "五莲县",
+          "五莲"
+        ],
+        "en": [
+          "Wulian County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国山东省日照市下辖的一个县。",
+          "en": "A county under the jurisdiction of Rizhao City, Shandong Province, China."
+        }
+      }
+    },
+    {
+      "id": "中共潍坊市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共潍坊市委"
+        ],
+        "en": [
+          "Weifang Municipal Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在潍坊市的领导机关。",
+          "en": "The leading body of the Communist Party of China in Weifang City."
+        }
+      }
+    },
+    {
+      "id": "昌潍地区行政公署",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "昌潍地区行政公署",
+          "昌潍地区行署"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国山东省已撤销的地区级行政单位。",
+          "en": "A defunct prefecture-level administrative unit in Shandong Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "青岛市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "青岛市人民政府"
+        ],
+        "en": [
+          "Qingdao Municipal People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国青岛市地方国家行政机关。",
+          "en": "The local state administrative organ of Qingdao City, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "山东省人民检察院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省人民检察院"
+        ],
+        "en": [
+          "Shandong Provincial People's Procuratorate"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国山东省的国家法律监督机关。",
+          "en": "The state's legal supervisory organ in Shandong Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "臧爱民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "臧爱民"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国政治人物，臧坤之女。",
+          "en": "Chinese political figure, daughter of Zang Kun."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "李秉政",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李秉政"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，曾任青岛市市长。",
+          "en": "Chinese political figure, former mayor of Qingdao."
+        }
+      }
+    },
+    {
+      "id": "郭松年",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭松年"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，曾任青岛市市长。",
+          "en": "Chinese political figure, former mayor of Qingdao."
+        }
+      }
+    },
+    {
+      "id": "李惠民 (1921年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李惠民 (1921年)",
+          "李惠民"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，曾任山东省人民检察院检察长。",
+          "en": "Chinese political figure, former Procurator-General of Shandong Provincial People's Procuratorate."
+        }
+      }
+    },
+    {
+      "id": "赵长风",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵长风"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，曾任山东省人民检察院检察长。",
+          "en": "Chinese political figure, former Procurator-General of Shandong Provincial People's Procuratorate."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "臧坤",
+      "target": "五莲县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1928",
+        "description": {
+          "zh-cn": "臧坤是山东五莲人。",
+          "en": "Zang Kun was a native of Wulian, Shandong."
+        }
+      }
+    },
+    {
+      "source": "臧坤",
+      "target": "中共潍坊市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "臧坤早年曾担任中共潍坊市委书记。",
+          "en": "In his early years, Zang Kun served as the Secretary of the Weifang Municipal Committee of the CPC."
+        }
+      }
+    },
+    {
+      "source": "臧坤",
+      "target": "昌潍地区行政公署",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副专员",
+          "en": "Deputy Commissioner"
+        },
+        "description": {
+          "zh-cn": "臧坤早年曾担任昌潍地区行署副专员。",
+          "en": "In his early years, Zang Kun served as the Deputy Commissioner of the Changwei Prefecture Administrative Office."
+        }
+      }
+    },
+    {
+      "source": "臧坤",
+      "target": "青岛市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1981-12",
+        "end_date": "1983-04",
+        "position": {
+          "zh-cn": "副市长",
+          "en": "Deputy Mayor"
+        },
+        "description": {
+          "zh-cn": "臧坤于1981年12月至1983年4月期间担任青岛市人民政府副市长。",
+          "en": "Zang Kun served as the Deputy Mayor of the Qingdao Municipal People's Government from December 1981 to April 1983."
+        }
+      }
+    },
+    {
+      "source": "臧坤",
+      "target": "青岛市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983-04",
+        "end_date": "1986-06",
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "臧坤于1983年4月至1986年6月期间担任青岛市人民政府市长。",
+          "en": "Zang Kun served as the Mayor of the Qingdao Municipal People's Government from April 1983 to June 1986."
+        }
+      }
+    },
+    {
+      "source": "臧坤",
+      "target": "山东省人民检察院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1986-06",
+        "end_date": "1993-07",
+        "position": {
+          "zh-cn": "检察长",
+          "en": "Procurator-General"
+        },
+        "description": {
+          "zh-cn": "臧坤于1986年6月至1993年7月期间担任山东省人民检察院检察长。",
+          "en": "Zang Kun served as the Procurator-General of the Shandong Provincial People's Procuratorate from June 1986 to July 1993."
+        }
+      }
+    },
+    {
+      "source": "臧爱民",
+      "target": "臧坤",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "臧爱民是臧坤的女儿。",
+          "en": "Zang Aimin is the daughter of Zang Kun."
+        }
+      }
+    },
+    {
+      "source": "臧坤",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "臧坤是中国共产党党员。",
+          "en": "Zang Kun was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "臧坤",
+      "target": "李秉政",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1983-04",
+        "description": {
+          "zh-cn": "臧坤接替李秉政出任青岛市人民政府市长。",
+          "en": "Zang Kun succeeded Li Bingzheng as the Mayor of Qingdao Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "郭松年",
+      "target": "臧坤",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1986-06",
+        "description": {
+          "zh-cn": "郭松年接替臧坤出任青岛市人民政府市长。",
+          "en": "Guo Songnian succeeded Zang Kun as the Mayor of Qingdao Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "臧坤",
+      "target": "李惠民 (1921年)",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1986-06",
+        "description": {
+          "zh-cn": "臧坤接替李惠民出任山东省人民检察院检察长。",
+          "en": "Zang Kun succeeded Li Huimin as the Procurator-General of Shandong Provincial People's Procuratorate."
+        }
+      }
+    },
+    {
+      "source": "赵长风",
+      "target": "臧坤",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1993-07",
+        "description": {
+          "zh-cn": "赵长风接替臧坤出任山东省人民检察院检察长。",
+          "en": "Zhao Changfeng succeeded Zang Kun as the Procurator-General of Shandong Provincial People's Procuratorate."
+        }
+      }
+    }
+  ]
+}

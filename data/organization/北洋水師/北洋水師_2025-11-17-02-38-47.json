@@ -1,0 +1,836 @@
+{
+  "nodes": [
+    {
+      "id": "北洋水师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋水师",
+          "北洋舰队"
+        ],
+        "en": [
+          "Beiyang Fleet"
+        ]
+      },
+      "properties": {
+        "period": "1875-05-30 - 1909",
+        "location": {
+          "zh-cn": "威海卫刘公岛"
+        },
+        "description": {
+          "zh-cn": "清朝建立的现代化海军舰队，于1888年12月17日在威海卫刘公岛正式成立。作为清朝新式海军四支舰队中规模最大、投资最巨者，其实力曾号称亚洲第一。然而，由于多种原因，这支舰队在1894年的甲午战争中全军覆没。",
+          "en": "A modernized naval fleet of the Qing dynasty, officially established on December 17, 1888, at Liugong Island, Weihaiwei. It was the largest and most invested of the four modern fleets of the Qing Navy, once acclaimed as the most powerful in Asia. However, due to various reasons, the fleet was annihilated in the First Sino-Japanese War in 1894."
+        }
+      }
+    },
+    {
+      "id": "李鸿章",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李鸿章"
+        ],
+        "en": [
+          "Li Hongzhang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝末期重臣，洋务运动的主要领导人之一，北洋水师的创始者和主要负责人。曾任北洋大臣和直隶总督。",
+          "en": "An influential statesman of the late Qing dynasty, a key leader of the Self-Strengthening Movement, and the founder and primary director of the Beiyang Fleet. He served as the Minister of Beiyang and Viceroy of Zhili."
+        }
+      }
+    },
+    {
+      "id": "丁汝昌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丁汝昌"
+        ],
+        "en": [
+          "Ding Ruchang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝海军将领，北洋水师提督。在甲午战争威海卫之战中，兵败后服鸦片自尽。",
+          "en": "A naval officer of the Qing dynasty and the Admiral of the Beiyang Fleet. After being defeated in the Battle of Weihaiwei during the First Sino-Japanese War, he committed suicide by taking opium."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "大清帝国"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国历史上最后一个帝制王朝，在洋务运动期间筹建了包括北洋水师在内的现代化海军。",
+          "en": "The last imperial dynasty in Chinese history, which established a modern navy, including the Beiyang Fleet, during the Self-Strengthening Movement."
+        }
+      }
+    },
+    {
+      "id": "甲午战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "甲午战争",
+          "甲午海战"
+        ],
+        "en": [
+          "First Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1894 - 1895",
+        "description": {
+          "zh-cn": "清朝与日本之间的一场战争，以清朝失败告终。此战中，北洋水师全军覆没。",
+          "en": "A war between the Qing dynasty and Japan, which ended in Qing's defeat. The Beiyang Fleet was annihilated during this war."
+        }
+      }
+    },
+    {
+      "id": "翁同龢",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "翁同龢"
+        ],
+        "en": [
+          "Weng Tonghe"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末重臣，官至户部尚书、军机大臣，光绪帝的师傅。被认为是李鸿章的政敌，曾阻挠北洋水师的经费拨款。",
+          "en": "A prominent statesman in the late Qing dynasty, who served as Minister of Revenue and Grand Councilor, and was a tutor to the Guangxu Emperor. He was considered a political rival of Li Hongzhang and obstructed funding for the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "id": "户部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "户部"
+        ],
+        "en": [
+          "Ministry of Revenue"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝掌管全国财政的中央机构。在翁同龢主持下，曾停止对北洋水师的拨款。",
+          "en": "The central government agency of the Qing dynasty responsible for national finance. Under the leadership of Weng Tonghe, it ceased funding for the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "id": "日本海军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本海军"
+        ],
+        "en": [
+          "Imperial Japanese Navy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本帝国时期的海军，在甲午战争中击败了北洋水师。",
+          "en": "The navy of the Empire of Japan, which defeated the Beiyang Fleet in the First Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "总理海军事务衙门",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "总理海军事务衙门",
+          "海军衙门"
+        ],
+        "en": [
+          "Admiralty"
+        ]
+      },
+      "properties": {
+        "period": "1885 - 1895",
+        "description": {
+          "zh-cn": "清政府于1885年成立的中央海军领导机构，负责统筹全国海军事务，由醇亲王奕𫍽主管。",
+          "en": "A central naval leadership body established by the Qing government in 1885 to coordinate national naval affairs, headed by Prince Chun (Yixuan)."
+        }
+      }
+    },
+    {
+      "id": "醇亲王奕𫍽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奕𫍽",
+          "醇亲王"
+        ],
+        "en": [
+          "Yixuan, Prince Chun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末皇族，光绪帝生父。曾任总理海军大臣，主管海军衙门。",
+          "en": "A member of the imperial family in the late Qing dynasty and the biological father of the Guangxu Emperor. He served as the head of the Admiralty."
+        }
+      }
+    },
+    {
+      "id": "庆亲王奕劻",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奕劻",
+          "庆亲王"
+        ],
+        "en": [
+          "Yikuang, Prince Qing"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末皇族、重臣，曾任总理海军事务衙门会办大臣。",
+          "en": "A member of the imperial family and an influential statesman in the late Qing dynasty. He served as a co-administrator of the Admiralty."
+        }
+      }
+    },
+    {
+      "id": "邓世昌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓世昌"
+        ],
+        "en": [
+          "Deng Shichang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋水师将领，致远号巡洋舰管带。在1894年黄海海战中，率舰冲向敌舰时，不幸被鱼雷击中，与全舰官兵一同壮烈殉国。",
+          "en": "An officer of the Beiyang Fleet and captain of the cruiser Zhiyuan. In the Battle of the Yalu River in 1894, he was killed in action along with his crew when his ship was struck by a torpedo while charging at an enemy vessel."
+        }
+      }
+    },
+    {
+      "id": "黄海海战 (1894年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "黄海海战 (1894年)"
+        ],
+        "en": [
+          "Battle of the Yalu River (1894)"
+        ]
+      },
+      "properties": {
+        "period": "1894-09-17",
+        "description": {
+          "zh-cn": "甲午战争期间，清朝北洋水师与日本联合舰队在黄海大东沟海域发生的一次大规模海战。北洋水师在此战中损失惨重。",
+          "en": "A major naval battle during the First Sino-Japanese War between the Qing's Beiyang Fleet and the Japanese Combined Fleet in the Yellow Sea off the mouth of the Yalu River. The Beiyang Fleet suffered heavy losses in this battle."
+        }
+      }
+    },
+    {
+      "id": "林永升",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林永升"
+        ],
+        "en": [
+          "Lin Yongsheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋水师将领，经远号装甲巡洋舰管带。在1894年黄海海战中阵亡。",
+          "en": "An officer of the Beiyang Fleet and captain of the armored cruiser Jingyuan. He was killed in action during the Battle of the Yalu River in 1894."
+        }
+      }
+    },
+    {
+      "id": "慈禧太后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慈禧太后"
+        ],
+        "en": [
+          "Empress Dowager Cixi"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "清朝末期实际掌权者。1875年下令李鸿章创设北洋水师。",
+          "en": "The de facto ruler of China in the late Qing dynasty. In 1875, she ordered Li Hongzhang to establish the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "id": "光绪帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "光绪帝"
+        ],
+        "en": [
+          "Guangxu Emperor"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第十一位皇帝。甲午战争失败后，他下旨撤销了海军衙门和北洋水师的编制。",
+          "en": "The eleventh emperor of the Qing dynasty. After the defeat in the First Sino-Japanese War, he issued an edict to abolish the Admiralty and the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "id": "船政学堂",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "船政学堂"
+        ],
+        "en": [
+          "Fuzhou Naval College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于福州的中国近代第一所海军学校，为北洋水师培养了大量核心指挥官。",
+          "en": "Located in Fuzhou, it was the first modern naval academy in China and trained a large number of core commanders for the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "id": "刘步蟾",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘步蟾"
+        ],
+        "en": [
+          "Liu Buchan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋水师右翼总兵，定远号管带。在威海卫之战中自尽。",
+          "en": "Right Wing Commander of the Beiyang Fleet and captain of the Dingyuan. He committed suicide during the Battle of Weihaiwei."
+        }
+      }
+    },
+    {
+      "id": "方伯谦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "方伯谦"
+        ],
+        "en": [
+          "Fang Boqian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋水师中军左副将，济远号管带。在黄海海战中被指控临阵脱逃而被处死。",
+          "en": "An officer of the Beiyang Fleet and captain of the Jiyuan. He was executed for allegedly deserting during the Battle of the Yalu River."
+        }
+      }
+    },
+    {
+      "id": "格林威治皇家海军学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "格林威治皇家海军学院"
+        ],
+        "en": [
+          "Royal Naval College, Greenwich"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "英国皇家海军的一所历史悠久的军官培训机构，多位北洋水师高级军官曾在此留学或实习。",
+          "en": "A historic officer training establishment of the Royal Navy in the United Kingdom, where several senior officers of the Beiyang Fleet studied or interned."
+        }
+      }
+    },
+    {
+      "id": "萨镇冰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萨镇冰"
+        ],
+        "en": [
+          "Sa Zhenbing"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋水师将领，康济号练习舰管带。甲午战后参与海军重建工作。",
+          "en": "An officer of the Beiyang Fleet and captain of the training ship Kangji. He participated in the reconstruction of the navy after the First Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "叶祖珪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶祖珪"
+        ],
+        "en": [
+          "Ye Zugui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北洋水师中军右副将，靖远号管带。甲午战后参与海军重建工作。",
+          "en": "An officer of the Beiyang Fleet and captain of the Jingyuan. He participated in the reconstruction of the navy after the First Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "颐和园",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "颐和园"
+        ],
+        "en": [
+          "Summer Palace"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于北京的清代皇家园林。其修缮工程曾挪用了海军衙门的部分经费。",
+          "en": "A royal garden of the Qing dynasty located in Beijing. Part of the funds from the Admiralty was diverted for its renovation."
+        }
+      }
+    },
+    {
+      "id": "巡洋舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "巡洋舰队"
+        ],
+        "en": [
+          "Cruiser Fleet"
+        ]
+      },
+      "properties": {
+        "period": "1909 - ",
+        "description": {
+          "zh-cn": "1909年清末海军改革后，由原北洋、南洋、福建、广东四支水师合并重组而成的两支主力舰队之一。",
+          "en": "One of the two main fleets formed after the late Qing naval reforms in 1909, created by merging and reorganizing the former Beiyang, Nanyang, Fujian, and Guangdong fleets."
+        }
+      }
+    },
+    {
+      "id": "巡江舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "巡江舰队"
+        ],
+        "en": [
+          "River Patrol Fleet"
+        ]
+      },
+      "properties": {
+        "period": "1909 - ",
+        "description": {
+          "zh-cn": "1909年清末海军改革后，由原北洋、南洋、福建、广东四支水师合并重组而成的两支主力舰队之一。",
+          "en": "One of the two main fleets formed after the late Qing naval reforms in 1909, created by merging and reorganizing the former Beiyang, Nanyang, Fujian, and Guangdong fleets."
+        }
+      }
+    },
+    {
+      "id": "南洋水师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南洋水师"
+        ],
+        "en": [
+          "Nanyang Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝建立的四支现代化海军之一，1909年并入巡洋舰队和巡江舰队。",
+          "en": "One of the four modern fleets established by the Qing dynasty, merged into the Cruiser Fleet and River Patrol Fleet in 1909."
+        }
+      }
+    },
+    {
+      "id": "福建水师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "福建水师"
+        ],
+        "en": [
+          "Fujian Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝建立的四支现代化海军之一，1909年并入巡洋舰队和巡江舰队。",
+          "en": "One of the four modern fleets established by the Qing dynasty, merged into the Cruiser Fleet and River Patrol Fleet in 1909."
+        }
+      }
+    },
+    {
+      "id": "广东水师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广东水师"
+        ],
+        "en": [
+          "Guangdong Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝建立的四支现代化海军之一，1909年并入巡洋舰队和巡江舰队。",
+          "en": "One of the four modern fleets established by the Qing dynasty, merged into the Cruiser Fleet and River Patrol Fleet in 1909."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "慈禧太后",
+      "target": "李鸿章",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1875-05-30",
+        "description": {
+          "zh-cn": "谕令李鸿章创设北洋水师。",
+          "en": "Ordered Li Hongzhang to establish the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "source": "李鸿章",
+      "target": "北洋水师",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1875-05-30",
+        "description": {
+          "zh-cn": "奉慈禧太后之命，负责创设和督办北洋水师。",
+          "en": "Under the order of Empress Dowager Cixi, he was responsible for the creation and supervision of the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "source": "北洋水师",
+      "target": "清朝",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "北洋水师是清朝的国家海军力量。",
+          "en": "The Beiyang Fleet was the state naval force of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "source": "丁汝昌",
+      "target": "北洋水师",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "提督",
+          "en": "Admiral"
+        },
+        "description": {
+          "zh-cn": "丁汝昌是北洋水师的最高指挥官。",
+          "en": "Ding Ruchang was the commander-in-chief of the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "source": "丁汝昌",
+      "target": "李鸿章",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "丁汝昌由李鸿章任命为北洋水师统领。",
+          "en": "Ding Ruchang was appointed by Li Hongzhang to command the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "source": "翁同龢",
+      "target": "李鸿章",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "翁同龢是李鸿章的政敌。",
+          "en": "Weng Tonghe was a political rival of Li Hongzhang."
+        }
+      }
+    },
+    {
+      "source": "翁同龢",
+      "target": "北洋水师",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为户部尚书，翁同龢不给北洋舰队拨款购买新舰与砲弹，导致其装备更新停滞。",
+          "en": "As Minister of Revenue, Weng Tonghe refused to allocate funds for the Beiyang Fleet to purchase new ships and ammunition, leading to the stagnation of its equipment upgrades."
+        }
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "北洋水师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1894",
+        "end_date": "1895",
+        "description": {
+          "zh-cn": "北洋水师在甲午战争中全军覆没。",
+          "en": "The Beiyang Fleet was annihilated in the First Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "source": "日本海军",
+      "target": "北洋水师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1894",
+        "end_date": "1895",
+        "description": {
+          "zh-cn": "在甲午战争中，日本海军重创并最终击败了北洋水师。",
+          "en": "During the First Sino-Japanese War, the Imperial Japanese Navy severely damaged and ultimately defeated the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "source": "黄海海战 (1894年)",
+      "target": "邓世昌",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1894-09-17",
+        "description": {
+          "zh-cn": "邓世昌在黄海海战中壮烈殉国。",
+          "en": "Deng Shichang died heroically in the Battle of the Yalu River."
+        }
+      }
+    },
+    {
+      "source": "黄海海战 (1894年)",
+      "target": "林永升",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1894-09-17",
+        "description": {
+          "zh-cn": "林永升在黄海海战中阵亡。",
+          "en": "Lin Yongsheng was killed in action during the Battle of the Yalu River."
+        }
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "丁汝昌",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1895-02-12",
+        "description": {
+          "zh-cn": "丁汝昌在威海卫之战兵败后自尽。",
+          "en": "Ding Ruchang committed suicide after the defeat in the Battle of Weihaiwei."
+        }
+      }
+    },
+    {
+      "source": "总理海军事务衙门",
+      "target": "北洋水师",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1885",
+        "description": {
+          "zh-cn": "总理海军事务衙门成立后，着力建设海军，推动了北洋水师的发展。",
+          "en": "After its establishment, the Admiralty focused on naval construction, promoting the development of the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "source": "醇亲王奕𫍽",
+      "target": "总理海军事务衙门",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总理海军大臣",
+          "en": "Controller of the Admiralty"
+        }
+      }
+    },
+    {
+      "source": "庆亲王奕劻",
+      "target": "总理海军事务衙门",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会办大臣",
+          "en": "Co-administrator"
+        }
+      }
+    },
+    {
+      "source": "李鸿章",
+      "target": "总理海军事务衙门",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会办大臣",
+          "en": "Co-administrator"
+        }
+      }
+    },
+    {
+      "source": "光绪帝",
+      "target": "北洋水师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1895",
+        "description": {
+          "zh-cn": "甲午战争失败后，光绪帝下旨撤销北洋海军的编制。",
+          "en": "After the defeat in the First Sino-Japanese War, the Guangxu Emperor issued an edict to abolish the Beiyang Fleet."
+        }
+      }
+    },
+    {
+      "source": "光绪帝",
+      "target": "总理海军事务衙门",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1895",
+        "description": {
+          "zh-cn": "甲午战争失败后，光绪帝下旨撤销海军衙门。",
+          "en": "After the defeat in the First Sino-Japanese War, the Guangxu Emperor issued an edict to abolish the Admiralty."
+        }
+      }
+    },
+    {
+      "source": "刘步蟾",
+      "target": "船政学堂",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "邓世昌",
+      "target": "船政学堂",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "方伯谦",
+      "target": "船政学堂",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "方伯谦",
+      "target": "格林威治皇家海军学院",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "林永升",
+      "target": "船政学堂",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "林永升",
+      "target": "格林威治皇家海军学院",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "萨镇冰",
+      "target": "格林威治皇家海军学院",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "叶祖珪",
+      "target": "格林威治皇家海军学院",
+      "type": "ALUMNUS_OF",
+      "properties": {}
+    },
+    {
+      "source": "总理海军事务衙门",
+      "target": "颐和园",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "其部分经费被醇亲王奕𫍽挪用于修建颐和园。",
+          "en": "Part of its funds was diverted by Prince Chun (Yixuan) to renovate the Summer Palace."
+        }
+      }
+    },
+    {
+      "source": "北洋水师",
+      "target": "巡洋舰队",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1909",
+        "description": {
+          "zh-cn": "1909年，北洋水师与其他水师合并重组为巡洋舰队。",
+          "en": "In 1909, the Beiyang Fleet was merged with other fleets to form the Cruiser Fleet."
+        }
+      }
+    },
+    {
+      "source": "北洋水师",
+      "target": "巡江舰队",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1909",
+        "description": {
+          "zh-cn": "1909年，北洋水师与其他水师合并重组为巡江舰队。",
+          "en": "In 1909, the Beiyang Fleet was merged with other fleets to form the River Patrol Fleet."
+        }
+      }
+    }
+  ]
+}

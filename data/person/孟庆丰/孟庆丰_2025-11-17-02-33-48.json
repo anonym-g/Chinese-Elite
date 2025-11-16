@@ -1,0 +1,382 @@
+{
+  "nodes": [
+    {
+      "id": "孟庆丰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孟庆丰"
+        ],
+        "en": [
+          "Meng Qingfeng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1957-06-06 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "山东省沂南县"
+        },
+        "description": {
+          "zh-cn": "中国政治人物，汉族。曾任中华人民共和国公安部副部长，在任内负责打击经济犯罪并担任猎狐行动小组组长。",
+          "en": "Chinese politician of Han ethnicity. He served as the Vice Minister of the Ministry of Public Security of the People's Republic of China, where he was responsible for combating economic crimes and led the \"Fox Hunt\" operation."
+        }
+      }
+    },
+    {
+      "id": "沂南县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "沂南县",
+          "沂南"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "杭州大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "杭州大学"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "鄞县公安局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "鄞县公安局"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "宁波市公安局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁波市公安局"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党宁波市江东区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党宁波市江东区委员会",
+          "宁波市江东区委"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "舟山市公安局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "舟山市公安局"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党舟山市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党舟山市委员会",
+          "舟山市委"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党舟山市委员会政法委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党舟山市委员会政法委员会",
+          "舟山市委政法委"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "浙江省公安厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "浙江省公安厅"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国公安部经济犯罪侦查局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公安部经济犯罪侦查局",
+          "公安部经济犯罪侦查局"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国公安部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公安部",
+          "公安部"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议第十三届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十三届全国委员会"
+        ]
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03"
+      }
+    },
+    {
+      "id": "猎狐行动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "猎狐行动"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中华人民共和国公安部执行的追捕逃亡到海外的华人经济犯罪嫌疑人、腐败官员的专项行动。",
+          "en": "A special operation carried out by the Ministry of Public Security of the People's Republic of China to hunt down Chinese economic crime suspects and corrupt officials who have fled overseas."
+        }
+      }
+    },
+    {
+      "id": "副总警监",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "副总警监"
+        ],
+        "en": [
+          "Deputy Commissioner-General"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国人民警察警衔，是人民警察的最高警衔，由国务院总理授予省部级副职警官。",
+          "en": "The police rank of the People's Republic of China, it is the highest police rank for People's Police, awarded by the Premier of the State Council to police officers at the provincial and ministerial deputy level."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "孟庆丰",
+      "target": "沂南县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "孟庆丰",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1980-01"
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "杭州大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1983-09",
+        "end_date": "1985-09",
+        "degree": {
+          "zh-cn": "公安专修科法律专业",
+          "en": "Public Security Specialized Program in Law"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "鄞县公安局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1985-09",
+        "end_date": "1986-07",
+        "position": {
+          "zh-cn": "副局长",
+          "en": "Deputy Director"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "宁波市公安局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1986-07",
+        "end_date": "1996-01",
+        "position": {
+          "zh-cn": "党委委员、局政治部副主任、主任",
+          "en": "Member of the Party Committee, Deputy Director and Director of the Political Department"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "中国共产党宁波市江东区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1996-01",
+        "end_date": "2000-06",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "舟山市公安局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2000-06",
+        "end_date": "2005-08",
+        "position": {
+          "zh-cn": "党委书记、局长",
+          "en": "Party Secretary, Director"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "中国共产党舟山市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2000-06",
+        "end_date": "2005-08",
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "中国共产党舟山市委员会政法委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2000-06",
+        "end_date": "2005-08",
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "浙江省公安厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2005-08",
+        "end_date": "2009-05",
+        "position": {
+          "zh-cn": "党委委员、副厅长、巡视员",
+          "en": "Member of the Party Committee, Deputy Director, Inspector"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "中华人民共和国公安部经济犯罪侦查局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2009-05",
+        "end_date": "2014-10",
+        "position": {
+          "zh-cn": "局长、党委书记",
+          "en": "Director, Party Secretary"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "中华人民共和国公安部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-10",
+        "end_date": "2020-06",
+        "position": {
+          "zh-cn": "党委委员、部长助理、副部长",
+          "en": "Member of the Party Committee, Assistant Minister, Vice Minister"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "中国人民政治协商会议第十三届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-01",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "猎狐行动",
+      "type": "PUSHED",
+      "properties": {
+        "position": {
+          "zh-cn": "小组组长",
+          "en": "Group Leader"
+        },
+        "description": {
+          "zh-cn": "孟庆丰在担任中华人民共和国公安部副部长期间担任猎狐行动小组组长。",
+          "en": "Meng Qingfeng served as the leader of the Fox Hunt operation team while he was the Vice Minister of the Ministry of Public Security of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "孟庆丰",
+      "target": "副总警监",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副总警监",
+          "en": "Deputy Commissioner-General"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "nodes": [
+    {
+      "id": "大英帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大英帝国",
+          "日不落帝国"
+        ],
+        "en": [
+          "British Empire",
+          "the empire on which the sun never sets"
+        ]
+      },
+      "properties": {
+        "period": "1497 - 1997-07-01",
+        "description": {
+          "zh-cn": "由英格兰王国及后继的英国所统治的殖民帝国，是历史上领土面积最大的帝国，其语言、法律、文化和制度对世界产生了深远影响。",
+          "en": "A colonial empire ruled by the Kingdom of England and its successor, the United Kingdom. It was the largest empire in history and had a profound impact on the world through its language, law, culture, and institutions."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国",
+          "英格兰王国",
+          "大不列颠王国",
+          "联合王国",
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "en": [
+          "United Kingdom",
+          "Kingdom of England",
+          "Kingdom of Great Britain",
+          "UK"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由英格兰、苏格兰、威尔士和北爱尔兰组成的联合王国，是大英帝国的宗主国。",
+          "en": "The United Kingdom, composed of England, Scotland, Wales, and Northern Ireland, which served as the metropole of the British Empire."
+        }
+      }
+    },
+    {
+      "id": "亨利七世 (英格兰)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亨利七世 (英格兰)",
+          "亨利七世"
+        ],
+        "en": [
+          "Henry VII of England",
+          "Henry VII"
+        ]
+      },
+      "properties": {
+        "lifetime": "1457-01-28 - 1509-04-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英格兰国王，其在1497年派遣的探险队标志着大英帝国海外扩张的开端。",
+          "en": "King of England, whose commissioning of an expedition in 1497 marked the beginning of the British Empire's overseas expansion."
+        }
+      }
+    },
+    {
+      "id": "乔瓦尼·卡博托",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔瓦尼·卡博托"
+        ],
+        "en": [
+          "John Cabot"
+        ]
+      },
+      "properties": {
+        "lifetime": "1450 - 1500",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "意大利航海家，受英格兰国王亨利七世委托，于1497年抵达北美洲，其航行为大英帝国的建立奠定了基础。",
+          "en": "An Italian navigator who, under the commission of King Henry VII of England, reached North America in 1497, laying the groundwork for the British Empire."
+        }
+      }
+    },
+    {
+      "id": "七年战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "七年战争"
+        ],
+        "en": [
+          "Seven Years' War"
+        ]
+      },
+      "properties": {
+        "period": "1756 - 1763",
+        "description": {
+          "zh-cn": "一场全球性的军事冲突。英国在战争中击败法国，夺取了其在加拿大和印度的殖民地，从而取代法国成为世界第一强国。",
+          "en": "A global military conflict. Britain defeated France in the war, seizing its colonies in Canada and India, thus replacing France as the world's foremost power."
+        }
+      }
+    },
+    {
+      "id": "美国独立战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "美国独立战争"
+        ],
+        "en": [
+          "American Revolutionary War"
+        ]
+      },
+      "properties": {
+        "period": "1775 - 1783",
+        "description": {
+          "zh-cn": "一场导致英国失去其在北美十三州殖民地的战争，标志着“第一英帝国”的终结。",
+          "en": "A war that resulted in Great Britain losing its Thirteen Colonies in North America, marking the end of the 'First British Empire'."
+        }
+      }
+    },
+    {
+      "id": "拿破仑战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "拿破仑战争"
+        ],
+        "en": [
+          "Napoleonic Wars"
+        ]
+      },
+      "properties": {
+        "period": "1803 - 1815",
+        "description": {
+          "zh-cn": "19世纪初由拿破仑发动的系列战争。英国在战后的胜利确立了其无可置疑的世界霸权地位。",
+          "en": "A series of wars initiated by Napoleon in the early 19th century. Britain's victory after the wars established its undisputed global hegemony."
+        }
+      }
+    },
+    {
+      "id": "维多利亚女王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "维多利亚女王",
+          "维多利亚 (英国女王)"
+        ],
+        "en": [
+          "Queen Victoria"
+        ]
+      },
+      "properties": {
+        "lifetime": "1819-05-24 - 1901-01-22",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "英国女王和首位印度女皇，其在位期间是大英帝国的鼎盛时期，被称为“维多利亚时代”。",
+          "en": "Queen of the United Kingdom and the first Empress of India, whose reign marked the zenith of the British Empire, known as the 'Victorian era'."
+        }
+      }
+    },
+    {
+      "id": "第一次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次世界大战",
+          "一战"
+        ],
+        "en": [
+          "World War I"
+        ]
+      },
+      "properties": {
+        "period": "1914 - 1918",
+        "description": {
+          "zh-cn": "一场全球性战争。英国虽是战胜国并获得了新的殖民地，但战争的巨大开销严重损害了其经济，动摇了帝国的根基。",
+          "en": "A global war. Although Britain was a victor and acquired new colonies, the immense cost of the war severely damaged its economy and shook the foundations of the empire."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战",
+          "二战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939 - 1945",
+        "description": {
+          "zh-cn": "一场全球性战争，导致英国国力严重衰退，加速了全球去殖民化浪潮和大英帝国的瓦解。",
+          "en": "A global war that led to a severe decline in British national power, accelerating the global wave of decolonization and the dissolution of the British Empire."
+        }
+      }
+    },
+    {
+      "id": "印度独立运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "印度独立运动"
+        ],
+        "en": [
+          "Indian independence movement"
+        ]
+      },
+      "properties": {
+        "period": "1857 - 1947",
+        "description": {
+          "zh-cn": "旨在结束英国在印度统治的政治运动，于1947年成功实现印度独立，并引发了大英帝国的瓦解。",
+          "en": "A political movement aimed at ending British rule in India, which successfully achieved Indian independence in 1947 and triggered the dissolution of the British Empire."
+        }
+      }
+    },
+    {
+      "id": "苏伊士运河危机",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "苏伊士运河危机"
+        ],
+        "en": [
+          "Suez Crisis"
+        ]
+      },
+      "properties": {
+        "period": "1956",
+        "description": {
+          "zh-cn": "英法为夺取苏伊士运河控制权而入侵埃及的军事行动。在美国和苏联的压力下，行动以失败告终，标志着美国正式取代英国成为世界霸主，并沉重打击了英国的国际地位。",
+          "en": "A military operation by Britain and France to seize control of the Suez Canal by invading Egypt. The operation failed under pressure from the United States and the Soviet Union, marking the formal replacement of Britain by the US as the world's hegemon and dealing a severe blow to Britain's international standing."
+        }
+      }
+    },
+    {
+      "id": "香港回归",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "香港回归"
+        ],
+        "en": [
+          "Handover of Hong Kong"
+        ]
+      },
+      "properties": {
+        "period": "1997-07-01",
+        "description": {
+          "zh-cn": "英国将香港主权移交中华人民共和国的事件，被广泛视为大英帝国历史的终结。",
+          "en": "The event in which the United Kingdom transferred the sovereignty of Hong Kong to the People's Republic of China, widely regarded as the end of the British Empire's history."
+        }
+      }
+    },
+    {
+      "id": "法兰西王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西王国"
+        ],
+        "en": [
+          "Kingdom of France"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "欧洲的主要强国之一，在17至18世纪与英国为争夺全球殖民霸权而长期对抗。",
+          "en": "A major European power that engaged in a long-standing rivalry with Great Britain for global colonial hegemony during the 17th and 18th centuries."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国",
+          "美利坚合众国"
+        ],
+        "en": [
+          "United States",
+          "USA"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "前身为英国在北美的十三殖民地，独立后在20世纪取代英国成为世界霸主。",
+          "en": "Formerly Britain's Thirteen Colonies in North America, which, after gaining independence, replaced Britain as the world's hegemonic power in the 20th century."
+        }
+      }
+    },
+    {
+      "id": "伊丽莎白二世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊丽莎白二世"
+        ],
+        "en": [
+          "Elizabeth II"
+        ]
+      },
+      "properties": {
+        "lifetime": "1926-04-21 - 2022-09-08",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "英国女王，她见证了大英帝国的解体和向英联邦的转变，是大英帝国存续期间的末代君主。",
+          "en": "Queen of the United Kingdom, who witnessed the dissolution of the British Empire and its transformation into the Commonwealth of Nations. She was the final monarch during the empire's existence."
+        }
+      }
+    },
+    {
+      "id": "十三殖民地",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "十三殖民地",
+          "英属北美十三州"
+        ],
+        "en": [
+          "Thirteen Colonies"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "英国在北美洲的殖民地，通过美国独立战争脱离英国统治，成为美国的基础。",
+          "en": "British colonies in North America that separated from British rule through the American Revolutionary War and formed the basis of the United States."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "亨利七世 (英格兰)",
+      "target": "乔瓦尼·卡博托",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1496",
+        "description": {
+          "zh-cn": "委托乔瓦尼·卡博特率领探险队，发现一条经北大西洋通往亚洲的航线。",
+          "en": "Commissioned John Cabot to lead an expedition to find a route to Asia via the North Atlantic."
+        }
+      }
+    },
+    {
+      "source": "乔瓦尼·卡博托",
+      "target": "大英帝国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1497",
+        "description": {
+          "zh-cn": "于1497年抵达纽芬兰海岸，其航行标志着大英帝国的开端。",
+          "en": "His arrival on the coast of Newfoundland in 1497 marked the beginning of the British Empire."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "法兰西王国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1689",
+        "end_date": "1815",
+        "description": {
+          "zh-cn": "在第二次百年战争期间，英国与法国为争夺欧洲及海外霸权进行了长期的斗争。",
+          "en": "During the Second Hundred Years' War, Britain and France engaged in a prolonged struggle for European and overseas hegemony."
+        }
+      }
+    },
+    {
+      "source": "七年战争",
+      "target": "大英帝国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1763",
+        "description": {
+          "zh-cn": "七年战争的胜利使英国从法国手中夺取了加拿大和印度，成为世界上最强大的海上势力。",
+          "en": "Victory in the Seven Years' War allowed Britain to seize Canada and India from France, becoming the world's most powerful maritime force."
+        }
+      }
+    },
+    {
+      "source": "美国独立战争",
+      "target": "大英帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1775",
+        "end_date": "1783",
+        "description": {
+          "zh-cn": "美国独立战争导致英国丧失了其在北美的十三殖民地。",
+          "en": "The American Revolutionary War resulted in the loss of Britain's Thirteen Colonies in North America."
+        }
+      }
+    },
+    {
+      "source": "拿破仑战争",
+      "target": "大英帝国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1815",
+        "description": {
+          "zh-cn": "英国在拿破仑战争中最终获胜，确立了其作为无可置疑的世界第一强国的地位。",
+          "en": "Britain's ultimate victory in the Napoleonic Wars established its status as the undisputed world's leading power."
+        }
+      }
+    },
+    {
+      "source": "第一次世界大战",
+      "target": "大英帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918",
+        "description": {
+          "zh-cn": "第一次世界大战的巨大开销严重削弱了英国的经济实力，动摇了其维持庞大帝国的财政基础。",
+          "en": "The immense financial cost of World War I severely weakened Britain's economy, undermining the fiscal foundation for maintaining its vast empire."
+        }
+      }
+    },
+    {
+      "source": "第二次世界大战",
+      "target": "大英帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945",
+        "description": {
+          "zh-cn": "第二次世界大战导致英国国力严重衰退，加速了大英帝国的瓦解。",
+          "en": "World War II caused a severe decline in British national power, accelerating the dissolution of the British Empire."
+        }
+      }
+    },
+    {
+      "source": "印度独立运动",
+      "target": "大英帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1947-08-15",
+        "description": {
+          "zh-cn": "印度于1947年独立，使大英帝国失去了其最重要的殖民地，并引发了全球范围内的去殖民化浪潮。",
+          "en": "India's independence in 1947 caused the British Empire to lose its most important colony and triggered a global wave of decolonization."
+        }
+      }
+    },
+    {
+      "source": "苏伊士运河危机",
+      "target": "大英帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1956",
+        "description": {
+          "zh-cn": "苏伊士运河危机中的外交失败，标志着大英帝国作为世界超级大国地位的终结。",
+          "en": "The diplomatic failure in the Suez Crisis marked the end of the British Empire's status as a world superpower."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "大英帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1956",
+        "description": {
+          "zh-cn": "在苏伊士运河危机期间，美国通过经济制裁等手段施压，迫使英法撤军，正式取代英国成为新的世界霸主。",
+          "en": "During the Suez Crisis, the United States exerted pressure through economic sanctions and other means, forcing British and French withdrawal and formally replacing Britain as the new world hegemon."
+        }
+      }
+    },
+    {
+      "source": "香港回归",
+      "target": "大英帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1997-07-01",
+        "description": {
+          "zh-cn": "英国将香港主权移交中国，此事件被广泛视为大英帝国历史的最终结局。",
+          "en": "The handover of Hong Kong's sovereignty to China is widely regarded as the final end of the British Empire."
+        }
+      }
+    },
+    {
+      "source": "十三殖民地",
+      "target": "大英帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1783",
+        "description": {
+          "zh-cn": "在1783年美国独立战争结束前，十三殖民地是大英帝国在北美的主要领土。",
+          "en": "Before the end of the American Revolutionary War in 1783, the Thirteen Colonies were a major territory of the British Empire in North America."
+        }
+      }
+    },
+    {
+      "source": "维多利亚女王",
+      "target": "大英帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1837-06-20",
+        "end_date": "1901-01-22",
+        "position": {
+          "zh-cn": "君主",
+          "en": "Monarch"
+        },
+        "description": {
+          "zh-cn": "维多利亚女王在位期间是大英帝国的鼎盛时期。",
+          "en": "The reign of Queen Victoria was the zenith of the British Empire."
+        }
+      }
+    },
+    {
+      "source": "伊丽莎白二世",
+      "target": "大英帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1952-02-06",
+        "end_date": "1997-07-01",
+        "position": {
+          "zh-cn": "君主",
+          "en": "Monarch"
+        },
+        "description": {
+          "zh-cn": "伊丽莎白二世是大英帝国存续期间的末代君主，见证了帝国的解体。",
+          "en": "Elizabeth II was the last reigning monarch during the existence of the British Empire and witnessed its dissolution."
+        }
+      }
+    }
+  ]
+}

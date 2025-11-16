@@ -1,0 +1,624 @@
+{
+  "nodes": [
+    {
+      "id": "什叶派",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "什叶派",
+          "十叶派",
+          "阿里派",
+          "世袭派",
+          "阿里党"
+        ],
+        "en": [
+          "Shia Islam",
+          "Shi'ism",
+          "Shīʿah"
+        ]
+      },
+      "properties": {
+        "period": "632 - ",
+        "description": {
+          "zh-cn": "伊斯兰教的第二大教派，与逊尼派并称。其追随者认为穆罕默德的女婿阿里·本·阿比·塔利卜是其正统继承人。",
+          "en": "The second largest branch of Islam, alongside Sunni Islam. Its adherents believe that Prophet Muhammad's son-in-law, Ali ibn Abi Talib, was his rightful successor."
+        }
+      }
+    },
+    {
+      "id": "逊尼派",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "逊尼派"
+        ],
+        "en": [
+          "Sunni Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教的最大教派，与什叶派并称。他们认为穆罕默德的同伴阿布·伯克尔是其正统继承人。",
+          "en": "The largest branch of Islam, alongside Shia Islam. They consider Prophet Muhammad's companion, Abu Bakr, to be his rightful successor."
+        }
+      }
+    },
+    {
+      "id": "穆罕默德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆罕默德"
+        ],
+        "en": [
+          "Muhammad"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 632",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊斯兰教的先知，被穆斯林认为是“众先知的封印”。",
+          "en": "The prophet of Islam, considered by Muslims to be the 'Seal of the Prophets'."
+        }
+      }
+    },
+    {
+      "id": "阿里·本·阿比·塔利卜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿里·本·阿比·塔利卜",
+          "阿里"
+        ],
+        "en": [
+          "Ali ibn Abi Talib",
+          "Ali"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "麦加"
+        },
+        "description": {
+          "zh-cn": "穆罕默德的堂弟和女婿，被什叶派认为是第一代伊玛目和穆罕默德的正统继承人，也是正统哈里发时期的第四位哈里发。",
+          "en": "Cousin and son-in-law of Muhammad, considered by Shia Muslims as the first Imam and the rightful successor to Muhammad, and the fourth of the Rashidun Caliphs."
+        }
+      }
+    },
+    {
+      "id": "法蒂玛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "法蒂玛"
+        ],
+        "en": [
+          "Fatimah"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "穆罕默德的女儿，阿里·本·阿比·塔利卜的妻子。",
+          "en": "Daughter of Muhammad and wife of Ali ibn Abi Talib."
+        }
+      }
+    },
+    {
+      "id": "阿布·伯克尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿布·伯克尔"
+        ],
+        "en": [
+          "Abu Bakr"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "穆罕默德的同伴和岳父，伊斯兰教的第一任正统哈里发。",
+          "en": "A companion and father-in-law of Muhammad, and the first of the Rashidun Caliphs."
+        }
+      }
+    },
+    {
+      "id": "欧麦尔·本·赫塔卜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "欧麦尔·本·赫塔卜",
+          "欧麦尔"
+        ],
+        "en": [
+          "Umar ibn al-Khattab",
+          "Umar"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊斯兰教的第二任正统哈里发。",
+          "en": "The second of the Rashidun Caliphs."
+        }
+      }
+    },
+    {
+      "id": "奥斯曼·本·阿凡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奥斯曼·本·阿凡",
+          "奥斯曼"
+        ],
+        "en": [
+          "Uthman ibn Affan",
+          "Uthman"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 656",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "麦地那"
+        },
+        "description": {
+          "zh-cn": "伊斯兰教的第三任正统哈里发，于656年被暴徒杀害。",
+          "en": "The third of the Rashidun Caliphs, who was assassinated in 656."
+        }
+      }
+    },
+    {
+      "id": "侯赛因·本·阿里·本·阿比·塔利卜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "侯赛因·本·阿里·本·阿比·塔利卜",
+          "侯赛因"
+        ],
+        "en": [
+          "Husayn ibn Ali",
+          "Husayn"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "阿里·本·阿比·塔利卜的次子，什叶派的第三代伊玛目。他在卡尔巴拉战役中殉难，成为什叶派信仰中的核心人物。",
+          "en": "The second son of Ali ibn Abi Talib and the third Shia Imam. His martyrdom at the Battle of Karbala is a central event in Shia Islam."
+        }
+      }
+    },
+    {
+      "id": "哈桑·本·阿里",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈桑·本·阿里",
+          "哈桑"
+        ],
+        "en": [
+          "Hasan ibn Ali",
+          "Hasan"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 669",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "阿里·本·阿比·塔利卜的长子，什叶派的第二代伊玛目。",
+          "en": "The eldest son of Ali ibn Abi Talib and the second Shia Imam."
+        }
+      }
+    },
+    {
+      "id": "倭马亚王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "倭马亚王朝"
+        ],
+        "en": [
+          "Umayyad Caliphate"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教历史上的第一个世袭王朝，由穆阿维叶一世建立。",
+          "en": "The first hereditary dynasty in Islamic history, founded by Mu'awiya I."
+        }
+      }
+    },
+    {
+      "id": "卡尔巴拉战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "卡尔巴拉战役"
+        ],
+        "en": [
+          "Battle of Karbala"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一场发生在倭马亚王朝与侯赛因·本·阿里·本·阿比·塔利卜之间的战役，侯赛因及其追随者在此战中阵亡，成为什叶派历史上的重大悲剧。",
+          "en": "A battle between the Umayyad Caliphate and Husayn ibn Ali, in which Husayn and his followers were killed. It is a major tragic event in Shia history."
+        }
+      }
+    },
+    {
+      "id": "阿卜杜·拉赫曼·伊本·穆尔贾姆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿卜杜·拉赫曼·伊本·穆尔贾姆",
+          "伊本·穆尔贾姆"
+        ],
+        "en": [
+          "Abd al-Rahman ibn Muljam"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "哈瓦利吉派成员，因刺杀阿里·本·阿比·塔利卜而闻名。",
+          "en": "A member of the Kharijites, known for assassinating Ali ibn Abi Talib."
+        }
+      }
+    },
+    {
+      "id": "萨非王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "萨非王朝"
+        ],
+        "en": [
+          "Safavid dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1501 - 1722",
+        "description": {
+          "zh-cn": "由伊斯玛仪一世建立的伊朗王朝，将什叶派十二伊玛目派定为国教，对伊朗的什叶派化起到了决定性作用。",
+          "en": "An Iranian dynasty founded by Ismail I, which established Twelver Shi'ism as the state religion and played a decisive role in the Shi'ification of Iran."
+        }
+      }
+    },
+    {
+      "id": "伊斯玛仪一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊斯玛仪一世"
+        ],
+        "en": [
+          "Ismail I"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "萨非王朝的创始人，于1501年自称沙阿。",
+          "en": "Founder of the Safavid dynasty, who declared himself Shah in 1501."
+        }
+      }
+    },
+    {
+      "id": "伊朗伊斯兰革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "伊朗伊斯兰革命"
+        ],
+        "en": [
+          "Iranian Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1979",
+        "location": {
+          "zh-cn": "伊朗"
+        },
+        "description": {
+          "zh-cn": "1979年在伊朗发生的一场推翻巴列维王朝的革命，由什叶派教士领导，最终建立了伊朗伊斯兰共和国。",
+          "en": "A 1979 revolution in Iran that overthrew the Pahlavi dynasty, led by Shia clerics, and resulted in the establishment of the Islamic Republic of Iran."
+        }
+      }
+    },
+    {
+      "id": "鲁霍拉·穆萨维·霍梅尼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鲁霍拉·穆萨维·霍梅尼",
+          "霍梅尼"
+        ],
+        "en": [
+          "Ruhollah Khomeini"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊朗什叶派革命领袖，伊朗伊斯兰革命的领导者和伊朗伊斯兰共和国的创始人。",
+          "en": "An Iranian Shia revolutionary leader, the leader of the Iranian Revolution and the founder of the Islamic Republic of Iran."
+        }
+      }
+    },
+    {
+      "id": "伊拉克战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "伊拉克战争"
+        ],
+        "en": [
+          "Iraq War"
+        ]
+      },
+      "properties": {
+        "period": "2003 - ",
+        "location": {
+          "zh-cn": "伊拉克"
+        },
+        "description": {
+          "zh-cn": "2003年开始的伊拉克冲突，此战后伊拉克什叶派的地位持续上升。",
+          "en": "A conflict in Iraq starting in 2003, after which the status of Shia Muslims in Iraq continued to rise."
+        }
+      }
+    },
+    {
+      "id": "乔治·沃克·布什",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·沃克·布什",
+          "布什"
+        ],
+        "en": [
+          "George W. Bush"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第43任总统。有学者认为其政府解放了伊拉克的什叶派多数，促成了什叶派的复兴。",
+          "en": "The 43rd President of the United States. Some scholars believe his administration liberated the Shia majority in Iraq, contributing to a Shia revival."
+        }
+      }
+    },
+    {
+      "id": "法蒂玛王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法蒂玛王朝"
+        ],
+        "en": [
+          "Fatimid Caliphate"
+        ]
+      },
+      "properties": {
+        "period": "969 - ",
+        "location": {
+          "zh-cn": "埃及"
+        },
+        "description": {
+          "zh-cn": "一个于969年占领埃及后建立的什叶派王朝，信奉伊斯玛仪派。",
+          "en": "A Shia caliphate, of the Isma'ili branch, that was established after conquering Egypt in 969."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "什叶派",
+      "target": "逊尼派",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "什叶派与逊尼派是伊斯兰教两大主要教派，但他们之间不时爆发严重的暴力冲突。什叶派在历史上屡受多数派的逊尼派打压。",
+          "en": "Shia and Sunni are the two main branches of Islam, but severe violent conflicts often erupt between them. Historically, the Shia have been frequently suppressed by the majority Sunni."
+        }
+      }
+    },
+    {
+      "source": "法蒂玛",
+      "target": "穆罕默德",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "法蒂玛是先知穆罕默德的女儿。",
+          "en": "Fatimah is the daughter of the Prophet Muhammad."
+        }
+      }
+    },
+    {
+      "source": "阿里·本·阿比·塔利卜",
+      "target": "法蒂玛",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "阿里·本·阿比·塔利卜迎娶了穆罕默德的女儿法蒂玛。",
+          "en": "Ali ibn Abi Talib married Muhammad's daughter, Fatimah."
+        }
+      }
+    },
+    {
+      "source": "什叶派",
+      "target": "阿里·本·阿比·塔利卜",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "什叶派认为穆罕默德的女婿阿里·本·阿比·塔利卜才是正统继承人。",
+          "en": "Shia Islam holds that Muhammad's son-in-law, Ali ibn Abi Talib, is the rightful successor."
+        }
+      }
+    },
+    {
+      "source": "什叶派",
+      "target": "阿布·伯克尔",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "什叶派拒绝承认阿里之前第一位哈里发阿布·伯克尔的合法统治地位。",
+          "en": "Shia Islam rejects the legitimate rule of the first Caliph, Abu Bakr, who preceded Ali."
+        }
+      }
+    },
+    {
+      "source": "什叶派",
+      "target": "欧麦尔·本·赫塔卜",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "什叶派拒绝承认阿里之前第二位哈里发欧麦尔·本·赫塔卜的合法统治地位。",
+          "en": "Shia Islam rejects the legitimate rule of the second Caliph, Umar ibn al-Khattab, who preceded Ali."
+        }
+      }
+    },
+    {
+      "source": "什叶派",
+      "target": "奥斯曼·本·阿凡",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "什叶派拒绝承认阿里之前第三位哈里发奥斯曼·本·阿凡的合法统治地位。",
+          "en": "Shia Islam rejects the legitimate rule of the third Caliph, Uthman ibn Affan, who preceded Ali."
+        }
+      }
+    },
+    {
+      "source": "哈桑·本·阿里",
+      "target": "阿里·本·阿比·塔利卜",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "哈桑是阿里的儿子。",
+          "en": "Hasan is the son of Ali."
+        }
+      }
+    },
+    {
+      "source": "侯赛因·本·阿里·本·阿比·塔利卜",
+      "target": "阿里·本·阿比·塔利卜",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "侯赛因是阿里的儿子。",
+          "en": "Husayn is the son of Ali."
+        }
+      }
+    },
+    {
+      "source": "侯赛因·本·阿里·本·阿比·塔利卜",
+      "target": "哈桑·本·阿里",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "侯赛因是哈桑的弟弟。",
+          "en": "Husayn is the younger brother of Hasan."
+        }
+      }
+    },
+    {
+      "source": "阿卜杜·拉赫曼·伊本·穆尔贾姆",
+      "target": "阿里·本·阿比·塔利卜",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "哈瓦利吉派的伊本·穆尔贾姆刺杀了阿里。",
+          "en": "Ibn Muljam of the Kharijites assassinated Ali."
+        }
+      }
+    },
+    {
+      "source": "卡尔巴拉战役",
+      "target": "侯赛因·本·阿里·本·阿比·塔利卜",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "侯赛因·本·阿里·本·阿比·塔利卜在卡尔巴拉战役中被杀害，成为什叶派的殉道者。",
+          "en": "Husayn ibn Ali was killed in the Battle of Karbala, becoming a martyr for the Shia."
+        }
+      }
+    },
+    {
+      "source": "伊斯玛仪一世",
+      "target": "萨非王朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1501",
+        "description": {
+          "zh-cn": "伊斯玛仪一世在1501年自称为沙阿，创立了萨非王朝。",
+          "en": "Ismail I declared himself Shah in 1501 and founded the Safavid dynasty."
+        }
+      }
+    },
+    {
+      "source": "萨非王朝",
+      "target": "什叶派",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "萨非王朝通过强迫民众改信等手段，把伊朗变成以什叶派穆斯林为多数的地区。",
+          "en": "The Safavid dynasty transformed Iran into a predominantly Shia Muslim region through means such as forced conversion."
+        }
+      }
+    },
+    {
+      "source": "什叶派",
+      "target": "法蒂玛王朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "969",
+        "description": {
+          "zh-cn": "什叶派于969年占领埃及，建立了法蒂玛王朝。",
+          "en": "Shia forces conquered Egypt in 969 and established the Fatimid dynasty."
+        }
+      }
+    },
+    {
+      "source": "鲁霍拉·穆萨维·霍梅尼",
+      "target": "伊朗伊斯兰革命",
+      "type": "PUSHED",
+      "properties": {
+        "position": {
+          "zh-cn": "革命领袖"
+        },
+        "description": {
+          "zh-cn": "作为革命领袖，霍梅尼领导了1979年的伊朗伊斯兰革命。",
+          "en": "As the revolutionary leader, Khomeini led the 1979 Iranian Islamic Revolution."
+        }
+      }
+    },
+    {
+      "source": "伊拉克战争",
+      "target": "什叶派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003",
+        "description": {
+          "zh-cn": "自伊拉克战争后，逊尼派国家忧虑什叶派有崛起的迹象，什叶派的地位持续上升。",
+          "en": "Since the Iraq War, Sunni states have been concerned about the rise of Shia influence, and the status of the Shia has continued to rise."
+        }
+      }
+    },
+    {
+      "source": "乔治·沃克·布什",
+      "target": "什叶派",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "学者瓦利·纳斯尔认为，布什政府解放了伊拉克的什叶派多数，襄助什叶派强势复兴。",
+          "en": "Scholar Vali Nasr argues that the Bush administration liberated the Shia majority in Iraq, aiding a powerful Shia revival."
+        }
+      }
+    }
+  ]
+}

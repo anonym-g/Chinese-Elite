@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "id": "宗福先",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宗福先"
+        ],
+        "en": [
+          "Zong Fuxian"
+        ]
+      },
+      "properties": {
+        "lifetime": "1947-02-15 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "常熟",
+          "en": "Changshu"
+        },
+        "description": {
+          "zh-cn": "中国剧作家，中国戏剧家协会理事，中国作家协会全国委员会委员，曾获中国电影金鸡奖最佳编剧。",
+          "en": "Chinese playwright, council member of the China Theatre Association, member of the National Committee of the China Writers Association, and winner of the Golden Rooster Award for Best Screenplay."
+        }
+      }
+    },
+    {
+      "id": "常熟",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "常熟"
+        ],
+        "en": [
+          "Changshu"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国戏剧家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国戏剧家协会"
+        ],
+        "en": [
+          "China Theatre Association"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": [
+          "China Writers Association"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "宗福先",
+      "target": "常熟",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "宗福先是江苏常熟人。",
+          "en": "Zong Fuxian is from Changshu, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "宗福先",
+      "target": "中国戏剧家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "理事",
+          "en": "Council Member"
+        },
+        "description": {
+          "zh-cn": "宗福先是中国戏剧家协会理事，并曾任第四届理事会理事。",
+          "en": "Zong Fuxian is a council member of the China Theatre Association and served on its 4th Council."
+        }
+      }
+    },
+    {
+      "source": "宗福先",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "全国委员会委员",
+          "en": "Member of the National Committee"
+        },
+        "description": {
+          "zh-cn": "宗福先是中国作家协会全国委员会委员，并曾任第四、六、七、八、九届全国委员会委员。",
+          "en": "Zong Fuxian is a member of the National Committee of the China Writers Association and served on the 4th, 6th, 7th, 8th, and 9th National Committees."
+        }
+      }
+    },
+    {
+      "source": "宗福先",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，宗福先是中国共产党党员。",
+          "en": "According to page category information, Zong Fuxian is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}
