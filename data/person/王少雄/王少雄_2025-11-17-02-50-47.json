@@ -1,0 +1,367 @@
+{
+  "nodes": [
+    {
+      "id": "王少雄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王少雄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1950-12 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "重庆武隆",
+          "en": "Wulong, Chongqing"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A political figure in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "武隆区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "武隆区",
+          "武隆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国重庆市下的一个市辖区。",
+          "en": "A district under the jurisdiction of Chongqing, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "成都理工大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "成都理工大学",
+          "成都地质学院"
+        ],
+        "en": [
+          "Chengdu University of Technology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国四川省成都市的大学。",
+          "en": "A university located in Chengdu, Sichuan, China."
+        }
+      }
+    },
+    {
+      "id": "中共中央党校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央党校"
+        ],
+        "en": [
+          "Central Party School of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央委员会直属的机构。",
+          "en": "An institution directly under the Central Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党成都市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党成都市委员会",
+          "中共四川省成都市委",
+          "成都市委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "成都市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "成都市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党四川省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党四川省委员会",
+          "四川省委",
+          "中共四川省委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "四川省国有资产监督管理委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四川省国有资产监督管理委员会",
+          "省国资委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "四川省人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四川省人民代表大会常务委员会",
+          "四川省人大会常委会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "柳斌杰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "柳斌杰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，王少雄的前任中共四川省委宣传部部长。",
+          "en": "A political figure in the People's Republic of China, Wang Shaoxiong's predecessor as Minister of the Propaganda Department of the Sichuan Provincial Committee of the CPC."
+        }
+      }
+    },
+    {
+      "id": "中国共产党四川省委员会宣传部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党四川省委员会宣传部",
+          "四川省委宣传部"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "黄新初",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄新初"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，王少雄的继任中共四川省委宣传部部长。",
+          "en": "A political figure in the People's Republic of China, Wang Shaoxiong's successor as Minister of the Propaganda Department of the Sichuan Provincial Committee of the CPC."
+        }
+      }
+    },
+    {
+      "id": "第十二届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十二届全国人民代表大会",
+          "第十二届全国人大"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王少雄",
+      "target": "武隆区",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "王少雄",
+      "target": "成都理工大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "毕业于水文系水文地质及工程地质专业。",
+          "en": "Graduated with a major in Hydrogeology and Engineering Geology from the Department of Hydrology."
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "中共中央党校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "在职研究生",
+          "en": "On-the-job postgraduate"
+        },
+        "description": {
+          "zh-cn": "毕业于世界经济专业。",
+          "en": "Graduated with a major in World Economy."
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1973"
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "中国共产党成都市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "宣传部副部长、部长、市委常委、市委副书记",
+          "en": "Deputy Head and Head of the Propaganda Department, Member of the Standing Committee of the Municipal Committee, Deputy Secretary of the Municipal Committee"
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "成都市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副市长",
+          "en": "Vice Mayor"
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "中国共产党四川省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常委",
+          "en": "Member of the Standing Committee"
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "中国共产党四川省委员会宣传部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2002-03",
+        "end_date": "2007-05",
+        "position": {
+          "zh-cn": "部长",
+          "en": "Minister"
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "四川省国有资产监督管理委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委书记",
+          "en": "Party Committee Secretary"
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "四川省人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2011-01",
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Vice Chairman"
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "第十二届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "柳斌杰",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "王少雄接替柳斌杰担任中国共产党四川省委员会宣传部部长职务。",
+          "en": "Wang Shaoxiong succeeded Liu Binjie as the Minister of the Propaganda Department of the Sichuan Provincial Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "王少雄",
+      "target": "黄新初",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "王少雄在担任中国共产党四川省委员会宣传部部长后，由黄新初接任其职务。",
+          "en": "After Wang Shaoxiong served as the Minister of the Propaganda Department of the Sichuan Provincial Committee of the Communist Party of China, he was succeeded by Huang Xinchu."
+        }
+      }
+    }
+  ]
+}

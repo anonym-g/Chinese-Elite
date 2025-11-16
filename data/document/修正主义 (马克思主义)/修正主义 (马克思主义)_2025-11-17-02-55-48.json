@@ -1,0 +1,688 @@
+{
+  "nodes": [
+    {
+      "id": "修正主义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "修正主义"
+        ],
+        "en": [
+          "revisionism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在马克思主义内部，指对卡尔·马克思提出的一系列理论做出“修正”的一种思潮和流派，通常被正统马克思主义者认为违背了基本原则。",
+          "en": "Within Marxism, refers to a trend of thought and school that 'revises' the theories proposed by Karl Marx, often considered by orthodox Marxists as a betrayal of fundamental principles."
+        }
+      }
+    },
+    {
+      "id": "马克思主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "马克思主义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由德国思想家卡尔·马克思和弗里德里希·恩格斯共同创立的理论体系，涵盖哲学、政治经济学和科学社会主义。",
+          "en": "A theoretical system co-founded by German thinkers Karl Marx and Friedrich Engels, encompassing philosophy, political economy, and scientific socialism."
+        }
+      }
+    },
+    {
+      "id": "爱德华·伯恩施坦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "爱德华·伯恩施坦"
+        ],
+        "en": [
+          "Eduard Bernstein"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国修正主义理论家，德国社会民主党领袖，第一批修正马克思主义基本原则的社会主义者。",
+          "en": "German revisionist theorist, leader of the Social Democratic Party of Germany, and one of the first socialists to revise the fundamental principles of Marxism."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·列宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·列宁",
+          "列宁"
+        ],
+        "en": [
+          "Vladimir Lenin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "布尔什维克党领袖，列宁主义的创建者，坚决反对修正主义。",
+          "en": "Leader of the Bolshevik Party, founder of Leninism, and a staunch opponent of revisionism."
+        }
+      }
+    },
+    {
+      "id": "中苏交恶",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中苏交恶"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1960 - 1989",
+        "description": {
+          "zh-cn": "指20世纪60年代至80年代末，中华人民共和国与苏联之间的一段政治、意识形态对立时期。期间中国共产党批判苏联共产党为“修正主义”。",
+          "en": "Refers to a period of political and ideological confrontation between the People's Republic of China and the Soviet Union from the 1960s to the late 1980s. During this time, the Communist Party of China criticized the Communist Party of the Soviet Union as 'revisionist'."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "苏联共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苏联的执政党。",
+          "en": "The founding and ruling political party of the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要领导人，领导了反对苏联修正主义的斗争。",
+          "en": "A key leader of the Communist Party of China and the People's Republic of China, who led the struggle against Soviet revisionism."
+        }
+      }
+    },
+    {
+      "id": "赫鲁晓夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赫鲁晓夫"
+        ],
+        "en": [
+          "Nikita Khrushchev"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "斯大林去世后的苏联领导人，其去斯大林化政策被中国共产党视为修正主义，并引发中苏交恶。",
+          "en": "Leader of the Soviet Union after Stalin's death, whose De-Stalinization policy was considered revisionist by the Communist Party of China and led to the Sino-Soviet split."
+        }
+      }
+    },
+    {
+      "id": "去斯大林化",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "去斯大林化"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "赫鲁晓夫时期苏联推行的政治运动，旨在否定和清除斯大林时期的政策和个人崇拜影响。",
+          "en": "A political movement in the Soviet Union during the Khrushchev era, aimed at negating and eliminating the policies and cult of personality of the Stalin period."
+        }
+      }
+    },
+    {
+      "id": "恩维尔·霍查",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "恩维尔·霍查"
+        ],
+        "en": [
+          "Enver Hoxha"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "阿尔巴尼亚劳动党和阿尔巴尼亚社会主义人民共和国的最高领导人，在毛泽东去世后指控毛泽东思想为修正主义。",
+          "en": "The paramount leader of the Party of Labour of Albania and the Socialist People's Republic of Albania, who accused Mao Zedong Thought of being revisionist after Mao's death."
+        }
+      }
+    },
+    {
+      "id": "毛泽东思想",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "毛泽东思想"
+        ],
+        "en": [
+          "Mao Zedong Thought"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党官方指导思想之一，被认为是马克思列宁主义在中国的运用和发展。",
+          "en": "One of the official guiding ideologies of the Communist Party of China, considered the application and development of Marxism-Leninism in China."
+        }
+      }
+    },
+    {
+      "id": "中阿决裂",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中阿决裂"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1972 - 1978",
+        "description": {
+          "zh-cn": "指中华人民共和国与阿尔巴尼亚社会主义人民共和国关系恶化并最终破裂的事件，导火索之一是中国与美国改善关系。",
+          "en": "Refers to the deterioration and eventual breakdown of relations between the People's Republic of China and the Socialist People's Republic of Albania, one of the triggers being the improvement of Sino-US relations."
+        }
+      }
+    },
+    {
+      "id": "阿尔巴尼亚劳动党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿尔巴尼亚劳动党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "阿尔巴尼亚社会主义人民共和国的执政党。",
+          "en": "The ruling and sole legal party of the Socialist People's Republic of Albania."
+        }
+      }
+    },
+    {
+      "id": "改革开放",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "改革开放"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1978-12 - ",
+        "description": {
+          "zh-cn": "1978年起中华人民共和国推行的以经济改革和对外开放为核心的政策，被一些毛主义者认为是修正主义道路。",
+          "en": "A policy centered on economic reform and opening up to the outside world pursued by the People's Republic of China since 1978, which some Maoists consider a revisionist path."
+        }
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": [
+          "Deng Xiaoping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国第二代主要领导人，“改革开放”的总设计师。",
+          "en": "The paramount leader of the second generation of leadership in the People's Republic of China and the chief architect of 'Reform and Opening-up'."
+        }
+      }
+    },
+    {
+      "id": "苏南交恶",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "苏南冲突",
+          "苏南交恶"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1948 - 1955",
+        "description": {
+          "zh-cn": "苏联与南斯拉夫之间的冲突，期间苏联共产党指责南斯拉夫为“现代修正主义”。",
+          "en": "A conflict between the Soviet Union and Yugoslavia, during which the Communist Party of the Soviet Union accused Yugoslavia of 'modern revisionism'."
+        }
+      }
+    },
+    {
+      "id": "南斯拉夫社会主义联邦共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南斯拉夫社会主义联邦共和国",
+          "南斯拉夫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由铁托领导的社会主义国家，因其独特的社会主义自治制度而被苏联和中国指责为修正主义。",
+          "en": "A socialist state led by Tito, accused of revisionism by the Soviet Union and China for its unique system of socialist self-management."
+        }
+      }
+    },
+    {
+      "id": "约瑟普·布罗兹·铁托",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约瑟普·布罗兹·铁托",
+          "铁托"
+        ],
+        "en": [
+          "Josip Broz Tito"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南斯拉夫社会主义联邦共和国的最高领导人，其领导下的南斯拉夫被苏联和中国指责为“现代修正主义”。",
+          "en": "The paramount leader of the Socialist Federal Republic of Yugoslavia, under whose leadership Yugoslavia was accused of 'modern revisionism' by the Soviet Union and China."
+        }
+      }
+    },
+    {
+      "id": "厄尔·白劳德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "厄尔·白劳德"
+        ],
+        "en": [
+          "Earl Browder"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前美国共产党总书记，因宣扬“进步资本主义”思想（白劳德主义）并解散美国共产党而被开除出党。",
+          "en": "Former General Secretary of the Communist Party USA, who was expelled for promoting the idea of 'progressive capitalism' (Browderism) and dissolving the party."
+        }
+      }
+    },
+    {
+      "id": "美国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的共产主义政党。1944年曾被其总书记厄尔·白劳德解散，后于1945年重建。",
+          "en": "A communist political party in the United States. It was dissolved in 1944 by its General Secretary Earl Browder and re-established in 1945."
+        }
+      }
+    },
+    {
+      "id": "威廉·Z·福斯特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·Z·福斯特"
+        ],
+        "en": [
+          "William Z. Foster"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国共产党领导人，激烈反对白劳德主义，并领导重建了美国共产党。",
+          "en": "A leader of the Communist Party USA, who vehemently opposed Browderism and led the re-establishment of the party."
+        }
+      }
+    },
+    {
+      "id": "勃列日涅夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "勃列日涅夫"
+        ],
+        "en": [
+          "Leonid Brezhnev"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "1964年取代赫鲁晓夫成为苏联最高领导人。其统治时期被毛泽东和霍查认为是“没有赫鲁晓夫的赫鲁晓夫主义”。",
+          "en": "Became the paramount leader of the Soviet Union in 1964, replacing Khrushchev. His rule was considered 'Khrushchevism without Khrushchev' by Mao Zedong and Enver Hoxha."
+        }
+      }
+    },
+    {
+      "id": "理查德·尼克松",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "理查德·尼克松"
+        ],
+        "en": [
+          "Richard Nixon"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国总统，其与毛泽东的会晤改善了中美关系，但导致了中阿关系的破裂。",
+          "en": "President of the United States, whose meeting with Mao Zedong improved Sino-US relations but led to the breakdown of Sino-Albanian relations."
+        }
+      }
+    },
+    {
+      "id": "四人帮",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四人帮"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国文化大革命后期形成的政治集团，成员包括江青、张春桥、姚文元、王洪文。在毛泽东去世后被粉碎，并被批判为推行“反革命的修正主义路线”。",
+          "en": "A political faction formed in the later stages of China's Cultural Revolution, consisting of Jiang Qing, Zhang Chunqiao, Yao Wenyuan, and Wang Hongwen. They were overthrown after Mao Zedong's death and criticized for pushing a 'counter-revolutionary revisionist line'."
+        }
+      }
+    },
+    {
+      "id": "粉碎四人帮",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "粉碎四人帮"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1976-10-06 - 1976-10-06",
+        "description": {
+          "zh-cn": "指1976年10月6日，以华国锋、叶剑英、汪东兴等人为首的中共中央，通过政变方式拘捕“四人帮”及其主要成员的事件，标志着文化大革命的结束。",
+          "en": "Refers to the event on October 6, 1976, when the CPC Central Committee, led by Hua Guofeng, Ye Jianying, and Wang Dongxing, arrested the 'Gang of Four' and their main associates through a coup, marking the end of the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "华国锋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "华国锋"
+        ],
+        "en": [
+          "Hua Guofeng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "毛泽东去世后的中国最高领导人，领导了粉碎“四人帮”的行动。",
+          "en": "The paramount leader of China after Mao Zedong's death, who led the action to overthrow the 'Gang of Four'."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "修正主义",
+      "target": "马克思主义",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "修正主义通过修改马克思主义的基础原理，被其反对者认为是对马克思主义的违背。",
+          "en": "By modifying the fundamental principles of Marxism, revisionism is considered a betrayal of Marxism by its opponents."
+        }
+      }
+    },
+    {
+      "source": "爱德华·伯恩施坦",
+      "target": "修正主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "爱德华·伯恩施坦是早期修正主义的主要理论家和代表人物。",
+          "en": "Eduard Bernstein was a leading theorist and representative figure of early revisionism."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·列宁",
+      "target": "修正主义",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "列宁是第二国际中反对修正主义的代表人物之一，领导了对修正主义的理论斗争。",
+          "en": "Lenin was one of the key figures in the Second International who opposed revisionism and led the theoretical struggle against it."
+        }
+      }
+    },
+    {
+      "source": "去斯大林化",
+      "target": "中苏交恶",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "赫鲁晓夫推行的去斯大林化政策是中国共产党批判苏联走上修正主义道路并与之交恶的主要原因之一。",
+          "en": "The De-Stalinization policy promoted by Khrushchev was one of the main reasons for the Communist Party of China to criticize the Soviet Union for taking a revisionist path, leading to the Sino-Soviet split."
+        }
+      }
+    },
+    {
+      "source": "赫鲁晓夫",
+      "target": "去斯大林化",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "赫鲁晓夫在其任内发起了去斯大林化运动。",
+          "en": "Khrushchev initiated the De-Stalinization campaign during his tenure."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "苏联共产党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1960",
+        "end_date": "1989",
+        "description": {
+          "zh-cn": "在中苏交恶期间，中国共产党强烈批判赫鲁晓夫改革后的苏联共产党走上了“现代修正主义”道路，称其为“苏修”。",
+          "en": "During the Sino-Soviet split, the Communist Party of China strongly criticized the post-Khrushchev reform Communist Party of the Soviet Union for taking the path of 'modern revisionism', referring to it as 'Soviet revisionism'."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "赫鲁晓夫",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "毛泽东领导下的中国共产党对赫鲁晓夫及其修正主义政策进行了猛烈批判。",
+          "en": "The Communist Party of China under Mao Zedong's leadership fiercely criticized Khrushchev and his revisionist policies."
+        }
+      }
+    },
+    {
+      "source": "恩维尔·霍查",
+      "target": "毛泽东思想",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "在1978年发表的《帝国主义与革命》中，恩维尔·霍查公开强烈批评毛主义是“修正主义的变种”。",
+          "en": "In his 1978 work 'Imperialism and the Revolution', Enver Hoxha publicly and strongly criticized Maoism as a 'variant of revisionism'."
+        }
+      }
+    },
+    {
+      "source": "阿尔巴尼亚劳动党",
+      "target": "中国共产党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1972",
+        "description": {
+          "zh-cn": "随着中阿决裂，原先的盟友关系破裂，阿尔巴尼亚劳动党开始批判中国共产党和毛泽东思想为修正主义。",
+          "en": "Following the Sino-Albanian split, the former alliance broke down, and the Party of Labour of Albania began to criticize the Communist Party of China and Mao Zedong Thought as revisionist."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "改革开放",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-12",
+        "description": {
+          "zh-cn": "邓小平是中华人民共和国“改革开放”政策的总设计师。",
+          "en": "Deng Xiaoping was the chief architect of the People's Republic of China's 'Reform and Opening-up' policy."
+        }
+      }
+    },
+    {
+      "source": "苏联共产党",
+      "target": "南斯拉夫社会主义联邦共和国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1948",
+        "description": {
+          "zh-cn": "自1948年苏南交恶开始，斯大林领导下的苏共强烈批判铁托领导下的南斯拉夫为“现代修正主义”。",
+          "en": "Beginning with the Soviet-Yugoslav split in 1948, the CPSU under Stalin's leadership strongly criticized Tito's Yugoslavia as 'modern revisionism'."
+        }
+      }
+    },
+    {
+      "source": "厄尔·白劳德",
+      "target": "美国共产党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1944",
+        "end_date": "1944",
+        "description": {
+          "zh-cn": "1944年，美国共产党总书记厄尔·白劳德宣布解散美国共产党。",
+          "en": "In 1944, Earl Browder, General Secretary of the Communist Party USA, announced the dissolution of the party."
+        }
+      }
+    },
+    {
+      "source": "威廉·Z·福斯特",
+      "target": "厄尔·白劳德",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945",
+        "end_date": "1946-02",
+        "description": {
+          "zh-cn": "威廉·Z·福斯特激烈反对白劳德的举动，并领导重建了美国共产党，解除了白劳德的职务并于1946年将其开除出党。",
+          "en": "William Z. Foster vehemently opposed Browder's actions, led the re-establishment of the Communist Party USA, removed Browder from his position, and expelled him from the party in 1946."
+        }
+      }
+    },
+    {
+      "source": "勃列日涅夫",
+      "target": "赫鲁晓夫",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1964",
+        "description": {
+          "zh-cn": "1964年，勃列日涅夫通过政变将赫鲁晓夫赶下台。",
+          "en": "In 1964, Brezhnev ousted Khrushchev from power through a coup."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "理查德·尼克松",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1972-02",
+        "description": {
+          "zh-cn": "毛泽东在1970年代初会见美国总统理查德·尼克松，此举改善了中美关系，但引发了阿尔巴尼亚领导人霍查的批评，并导致中阿决裂。",
+          "en": "Mao Zedong met with US President Richard Nixon in the early 1970s. This move improved Sino-US relations but drew criticism from Albanian leader Enver Hoxha and led to the Sino-Albanian split."
+        }
+      }
+    },
+    {
+      "source": "华国锋",
+      "target": "粉碎四人帮",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "description": {
+          "zh-cn": "华国锋在毛泽东去世后，领导并实施了抓捕“四人帮”的行动。",
+          "en": "After Mao Zedong's death, Hua Guofeng led and carried out the operation to arrest the 'Gang of Four'."
+        }
+      }
+    },
+    {
+      "source": "粉碎四人帮",
+      "target": "四人帮",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "description": {
+          "zh-cn": "“粉碎四人帮”事件结束了该政治集团的活动，其成员被逮捕并受到审判。",
+          "en": "The event of 'smashing the Gang of Four' ended the political activities of the faction, and its members were arrested and put on trial."
+        }
+      }
+    }
+  ]
+}

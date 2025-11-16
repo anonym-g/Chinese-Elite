@@ -1,0 +1,630 @@
+{
+  "nodes": [
+    {
+      "id": "古巴导弹危机",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "古巴导弹危机",
+          "古巴危机",
+          "加勒比海导弹危机",
+          "加勒比海危机"
+        ],
+        "en": [
+          "Cuban Missile Crisis"
+        ]
+      },
+      "properties": {
+        "period": "1962-10-16 - 1962-10-28",
+        "location": {
+          "zh-cn": "古巴、加勒比海",
+          "en": "Cuba, Caribbean Sea"
+        },
+        "description": {
+          "zh-cn": "1962年冷战时期在美国、苏联与古巴之间爆发的严重政治、军事危机。事件起因是苏联为应对美国在意大利和土耳其部署弹道导弹，而在古巴部署了类似导弹，导致对抗升级，被认为是冷战中最接近全面核战争的时刻。",
+          "en": "A major political and military crisis during the Cold War in 1962 involving the United States, the Soviet Union, and Cuba. The crisis was triggered by the Soviet deployment of ballistic missiles in Cuba in response to the US deployment of missiles in Italy and Turkey, leading to an escalated confrontation widely considered the closest the Cold War came to a full-scale nuclear war."
+        }
+      }
+    },
+    {
+      "id": "冷战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "冷战"
+        ],
+        "en": [
+          "Cold War"
+        ]
+      },
+      "properties": {
+        "period": "1947 - 1991",
+        "description": {
+          "zh-cn": "第二次世界大战后，以美国为首的资本主义阵营与以苏联为首的社会主义阵营之间的全球性政治、经济和军事对抗。",
+          "en": "A period of global political, economic, and military confrontation after World War II between two blocs: the Western Bloc, led by the United States, and the Eastern Bloc, led by the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "冷战时期与苏联对峙的超级大国之一，在古巴导弹危机中扮演核心角色。",
+          "en": "One of the two superpowers during the Cold War, a central party in the Cuban Missile Crisis."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "冷战时期与美国对峙的超级大国之一，通过在古巴部署导弹引发了此次危机。",
+          "en": "One of the two superpowers during the Cold War, which initiated the crisis by deploying missiles in Cuba."
+        }
+      }
+    },
+    {
+      "id": "古巴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "古巴"
+        ],
+        "en": [
+          "Cuba"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苏联部署核导弹的地点，是危机的地理中心。",
+          "en": "The location where the Soviet Union deployed nuclear missiles, serving as the geographical center of the crisis."
+        }
+      }
+    },
+    {
+      "id": "约翰·F·肯尼迪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·F·肯尼迪"
+        ],
+        "en": [
+          "John F. Kennedy"
+        ]
+      },
+      "properties": {
+        "lifetime": "1917-05-29 - 1963-11-22",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任美国总统，在古巴导弹危机期间领导美国政府应对危机。",
+          "en": "The President of the United States at the time, who led the U.S. government's response during the Cuban Missile Crisis."
+        }
+      }
+    },
+    {
+      "id": "尼基塔·赫鲁晓夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "尼基塔·赫鲁晓夫",
+          "赫鲁晓夫"
+        ],
+        "en": [
+          "Nikita Khrushchev"
+        ]
+      },
+      "properties": {
+        "lifetime": "1894-04-15 - 1971-09-11",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任苏联共产党中央委员会第一书记，决定在古巴部署导弹并最终同意撤出。",
+          "en": "The First Secretary of the Central Committee of the Communist Party of the Soviet Union at the time, who decided to deploy missiles in Cuba and ultimately agreed to withdraw them."
+        }
+      }
+    },
+    {
+      "id": "菲德尔·卡斯特罗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "菲德尔·卡斯特罗",
+          "卡斯特罗"
+        ],
+        "en": [
+          "Fidel Castro"
+        ]
+      },
+      "properties": {
+        "lifetime": "1926-08-13 - 2016-11-25",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任古巴总理和革命领袖，同意苏联在其境内部署核导弹。",
+          "en": "The Prime Minister and revolutionary leader of Cuba at the time, who agreed to the deployment of Soviet nuclear missiles on Cuban territory."
+        }
+      }
+    },
+    {
+      "id": "猪猡湾事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "猪猡湾事件"
+        ],
+        "en": [
+          "Bay of Pigs Invasion"
+        ]
+      },
+      "properties": {
+        "period": "1961-04",
+        "description": {
+          "zh-cn": "由美国中央情报局支持的古巴流亡分子对古巴的一次失败的军事入侵，该事件加剧了美古敌对关系，并促使古巴向苏联寻求军事援助。",
+          "en": "A failed military invasion of Cuba by CIA-sponsored Cuban exiles, which intensified US-Cuban hostility and prompted Cuba to seek military aid from the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "阿纳德尔行动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "阿纳德尔行动"
+        ],
+        "en": [
+          "Operation Anadyr"
+        ]
+      },
+      "properties": {
+        "period": "1962",
+        "description": {
+          "zh-cn": "苏联为在古巴秘密部署弹道导弹、中型轰炸机和地面部队而制定的军事行动代号。",
+          "en": "The code name for the Soviet military operation to secretly deploy ballistic missiles, medium-range bombers, and ground troops in Cuba."
+        }
+      }
+    },
+    {
+      "id": "U-2侦察机",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "U-2侦察机"
+        ],
+        "en": [
+          "U-2"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国高空侦察机。其在古巴上空拍摄的照片首次证实了苏联导弹基地的存在，从而引发了危机的公开阶段。",
+          "en": "A high-altitude American reconnaissance aircraft. Photographs taken by a U-2 over Cuba provided the first confirmation of Soviet missile sites, thereby triggering the public phase of the crisis."
+        }
+      }
+    },
+    {
+      "id": "鲁道夫·安德森",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鲁道夫·安德森"
+        ],
+        "en": [
+          "Rudolf Anderson"
+        ]
+      },
+      "properties": {
+        "lifetime": "1927-09-15 - 1962-10-27",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国空军少校飞行员，在古巴导弹危机期间驾驶U-2侦察机在古巴上空执行任务时被击落身亡，是危机中唯一因敌对火力而丧生的人员。",
+          "en": "A U.S. Air Force Major and pilot who was shot down and killed while flying a U-2 reconnaissance mission over Cuba during the crisis, being the only combat casualty of the event."
+        }
+      }
+    },
+    {
+      "id": "瓦西里·阿尔希波夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "瓦西里·阿尔希波夫"
+        ],
+        "en": [
+          "Vasili Arkhipov"
+        ]
+      },
+      "properties": {
+        "lifetime": "1926-01-30 - 1998-08-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联海军军官，在古巴导弹危机期间作为B-59潜艇上的舰队参谋长，否决了发射核鱼雷的决定，从而避免了可能的核战争。",
+          "en": "A Soviet Navy officer who, as chief of staff of the flotilla and second-in-command of submarine B-59 during the crisis, refused to authorize the launch of a nuclear torpedo, thereby preventing a likely nuclear war."
+        }
+      }
+    },
+    {
+      "id": "罗伯特·法兰西斯·甘迺迪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗伯特·法兰西斯·甘迺迪",
+          "罗伯特·肯尼迪"
+        ],
+        "en": [
+          "Robert F. Kennedy"
+        ]
+      },
+      "properties": {
+        "lifetime": "1925-11-20 - 1968-06-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任美国司法部长，是其兄长约翰·肯尼迪总统的核心顾问。他在与苏联大使的秘密谈判中发挥了关键作用，促成了危机的和平解决。",
+          "en": "The U.S. Attorney General at the time and a key advisor to his brother, President John F. Kennedy. He played a crucial role in the secret negotiations with the Soviet ambassador that led to the peaceful resolution of the crisis."
+        }
+      }
+    },
+    {
+      "id": "阿纳托利·费奥多罗维奇·多勃雷宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿纳托利·费奥多罗维奇·多勃雷宁",
+          "多勃雷宁"
+        ],
+        "en": [
+          "Anatoly Dobrynin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1919-11-16 - 2010-04-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任苏联驻美国大使，在危机期间作为与罗伯特·肯尼迪进行秘密谈判的关键渠道。",
+          "en": "The Soviet Ambassador to the United States at the time, who served as a critical channel for secret negotiations with Robert F. Kennedy during the crisis."
+        }
+      }
+    },
+    {
+      "id": "柯蒂斯·勒迈",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "柯蒂斯·勒迈",
+          "寇第斯·艾莫森·李梅"
+        ],
+        "en": [
+          "Curtis LeMay"
+        ]
+      },
+      "properties": {
+        "lifetime": "1906-11-15 - 1990-10-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任美国空军参谋长，是危机期间军方鹰派的代表人物，主张对古巴采取强硬的军事行动，包括空袭和入侵。",
+          "en": "The Chief of Staff of the U.S. Air Force at the time, a prominent military hawk during the crisis who advocated for aggressive military action against Cuba, including airstrikes and an invasion."
+        }
+      }
+    },
+    {
+      "id": "奥列格·潘科夫斯基",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奥列格·潘科夫斯基"
+        ],
+        "en": [
+          "Oleg Penkovsky"
+        ]
+      },
+      "properties": {
+        "lifetime": "1919-04-23 - 1963-05-16",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联总参谋部军官，同时为美国和英国提供情报。他泄露的关于“阿纳德尔行动”的情报对肯尼迪政府的决策起到了关键作用。",
+          "en": "A Soviet GRU officer who served as a double agent for the United States and the United Kingdom. His intelligence on Operation Anadyr was crucial to the Kennedy administration's decision-making."
+        }
+      }
+    },
+    {
+      "id": "美苏热线",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美苏热线"
+        ],
+        "en": [
+          "Moscow–Washington hotline"
+        ]
+      },
+      "properties": {
+        "period": "1963-08-30 - ",
+        "description": {
+          "zh-cn": "为避免类似古巴导弹危机的事件再次升级失控，在华盛顿和莫斯科之间建立的直接通讯线路。",
+          "en": "A direct communication link established between Washington D.C. and Moscow to prevent future crises like the Cuban Missile Crisis from escalating out of control."
+        }
+      }
+    },
+    {
+      "id": "PGM-19朱庇特弹道导弹",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "PGM-19朱庇特弹道导弹",
+          "PGM-19朱庇特弹道飞弹"
+        ],
+        "en": [
+          "PGM-19 Jupiter"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国部署在意大利和土耳其的中程弹道导弹。此次部署被苏联视为重大威胁，是其决定在古巴部署导弹的直接导火索。",
+          "en": "An American medium-range ballistic missile deployed in Italy and Turkey. This deployment was seen by the Soviet Union as a major threat and was the direct catalyst for its decision to place missiles in Cuba."
+        }
+      }
+    },
+    {
+      "id": "中央情报局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央情报局"
+        ],
+        "en": [
+          "Central Intelligence Agency"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国主要的情报机构之一。在古巴导弹危机前策划了猪猡湾事件，并在危机期间通过U-2侦察机提供了关键情报。",
+          "en": "One of the principal intelligence agencies of the United States. It planned the Bay of Pigs Invasion before the Cuban Missile Crisis and provided crucial intelligence via U-2 reconnaissance aircraft during the crisis."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "冷战",
+      "target": "古巴导弹危机",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "古巴导弹危机是冷战期间美苏两个超级大国全球对抗的直接产物和高潮。",
+          "en": "The Cuban Missile Crisis was a direct result and climax of the global confrontation between the two superpowers, the US and the USSR, during the Cold War."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "苏联",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1962-10-16",
+        "end_date": "1962-10-28",
+        "description": {
+          "zh-cn": "在古巴导弹危机期间，美国和苏联作为对立双方，陷入了濒临核战争的军事和政治对峙。",
+          "en": "During the Cuban Missile Crisis, the United States and the Soviet Union were adversaries in a military and political standoff that brought them to the brink of nuclear war."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "古巴",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1960",
+        "description": {
+          "zh-cn": "在美国对古巴实施禁运后，苏联成为古巴的主要经济和军事盟友，并应古巴请求部署了核导弹。",
+          "en": "After the United States imposed an embargo on Cuba, the Soviet Union became its main economic and military ally, deploying nuclear missiles at Cuba's request."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "古巴",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1961-01",
+        "description": {
+          "zh-cn": "自卡斯特罗政府倒向苏联阵营并与美国断交后，两国关系持续敌对，美国策划了猪猡湾事件并对古巴实施封锁。",
+          "en": "Since the Castro government aligned with the Soviet bloc and broke diplomatic ties with the US, the relationship has been hostile, with the US planning the Bay of Pigs Invasion and imposing a blockade on Cuba."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "苏联",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1959",
+        "description": {
+          "zh-cn": "美国在土耳其和意大利部署PGM-19朱庇特弹道导弹，对苏联构成了严重的核威慑，直接促使赫鲁晓夫采取在古巴部署导弹的反制措施。",
+          "en": "The U.S. deployment of PGM-19 Jupiter ballistic missiles in Turkey and Italy posed a significant nuclear threat to the Soviet Union, directly prompting Khrushchev to take countervailing measures by deploying missiles in Cuba."
+        }
+      }
+    },
+    {
+      "source": "猪猡湾事件",
+      "target": "古巴",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1961-04",
+        "description": {
+          "zh-cn": "失败的猪猡湾事件使卡斯特罗政权感到美国的严重威胁，从而促使其完全倒向并向苏联寻求军事保护。",
+          "en": "The failed Bay of Pigs Invasion made the Castro regime feel severely threatened by the United States, pushing it to fully align with and seek military protection from the Soviet Union."
+        }
+      }
+    },
+    {
+      "source": "尼基塔·赫鲁晓夫",
+      "target": "阿纳德尔行动",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1962-05",
+        "description": {
+          "zh-cn": "为反制美国在土耳其的导弹部署，赫鲁晓夫构思并批准了在古巴秘密部署核导弹的“阿纳德尔行动”。",
+          "en": "To counter the U.S. missile deployment in Turkey, Khrushchev conceived and approved \"Operation Anadyr\" to secretly deploy nuclear missiles in Cuba."
+        }
+      }
+    },
+    {
+      "source": "阿纳德尔行动",
+      "target": "古巴导弹危机",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "苏联执行“阿纳德尔行动”，在古巴部署核导弹的行为，是古巴导弹危机的直接起因。",
+          "en": "The Soviet execution of \"Operation Anadyr\" to deploy nuclear missiles in Cuba was the direct cause of the Cuban Missile Crisis."
+        }
+      }
+    },
+    {
+      "source": "U-2侦察机",
+      "target": "古巴导弹危机",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1962-10-14",
+        "description": {
+          "zh-cn": "1962年10月14日，美国U-2侦察机拍摄到苏联在古巴部署中程导弹的照片，证实了导弹的存在，从而触发了为期13天的危机对峙阶段。",
+          "en": "On October 14, 1962, a U.S. U-2 reconnaissance aircraft captured photographic evidence of Soviet medium-range missiles in Cuba, confirming their presence and triggering the 13-day crisis standoff."
+        }
+      }
+    },
+    {
+      "source": "约翰·F·肯尼迪",
+      "target": "苏联",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1962-10-22",
+        "end_date": "1962-11-20",
+        "description": {
+          "zh-cn": "肯尼迪总统于1962年10月22日宣布对古巴实行海军“隔离”（即封锁），以阻止苏联向古巴运送更多进攻性武器。",
+          "en": "President Kennedy announced a naval \"quarantine\" (blockade) of Cuba on October 22, 1962, to prevent the Soviet Union from delivering more offensive weapons to the island."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "鲁道夫·安德森",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1962-10-27",
+        "description": {
+          "zh-cn": "1962年10月27日，在古巴的苏联防空部队发射导弹击落了鲁道夫·安德森少校驾驶的U-2侦察机，导致其死亡。",
+          "en": "On October 27, 1962, Soviet air defense units in Cuba fired a surface-to-air missile that shot down the U-2 reconnaissance plane piloted by Major Rudolf Anderson, killing him."
+        }
+      }
+    },
+    {
+      "source": "瓦西里·阿尔希波夫",
+      "target": "古巴导弹危机",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1962-10-27",
+        "description": {
+          "zh-cn": "在美军使用深水炸弹逼迫苏联B-59潜艇上浮时，阿尔希波夫作为艇上高级军官否决了发射核鱼雷的提议，避免了危机急剧升级为核战争。",
+          "en": "When U.S. forces used depth charges to force the Soviet submarine B-59 to surface, Arkhipov, as a senior officer on board, vetoed the proposal to launch a nuclear torpedo, preventing the crisis from escalating into a nuclear war."
+        }
+      }
+    },
+    {
+      "source": "罗伯特·法兰西斯·甘迺迪",
+      "target": "阿纳托利·费奥多罗维奇·多勃雷宁",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1962-10-27",
+        "description": {
+          "zh-cn": "在危机最紧张的时刻，罗伯特·肯尼迪与苏联大使多勃雷宁进行了秘密会谈，传达了美方愿意秘密撤除土耳其导弹以换取苏联撤出古巴导弹的协议，为危机的和平解决铺平了道路。",
+          "en": "At the height of the crisis, Robert F. Kennedy held a secret meeting with Soviet Ambassador Dobrynin, conveying the U.S. proposal to secretly remove missiles from Turkey in exchange for the Soviet withdrawal of missiles from Cuba, paving the way for a peaceful resolution."
+        }
+      }
+    },
+    {
+      "source": "尼基塔·赫鲁晓夫",
+      "target": "古巴导弹危机",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1962-10-28",
+        "description": {
+          "zh-cn": "1962年10月28日，赫鲁晓夫通过莫斯科电台宣布，同意拆除在古巴的导弹并将其运回苏联，从而结束了这场危机。",
+          "en": "On October 28, 1962, Khrushchev announced via Radio Moscow that he had agreed to dismantle the missiles in Cuba and return them to the Soviet Union, thus ending the crisis."
+        }
+      }
+    },
+    {
+      "source": "古巴导弹危机",
+      "target": "美苏热线",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1963-08-30",
+        "description": {
+          "zh-cn": "危机凸显了超级大国之间直接、快速沟通渠道的缺失。作为其后果之一，美苏两国于1963年建立了“热线”，以在未来危机中进行直接沟通。",
+          "en": "The crisis highlighted the lack of a direct and rapid communication channel between the superpowers. As a result, the Moscow–Washington hotline was established in 1963 to facilitate direct communication in future crises."
+        }
+      }
+    },
+    {
+      "source": "古巴导弹危机",
+      "target": "菲德尔·卡斯特罗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1962-10-28",
+        "description": {
+          "zh-cn": "作为危机解决方案的一部分，美国承诺不再入侵古巴。这一保证加强了菲德尔·卡斯特罗政权的地位和安全。",
+          "en": "As part of the resolution to the crisis, the United States pledged not to invade Cuba. This guarantee strengthened the position and security of Fidel Castro's regime."
+        }
+      }
+    },
+    {
+      "source": "奥列格·潘科夫斯基",
+      "target": "阿纳德尔行动",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "潘科夫斯基向西方情报机构泄露了苏联在古巴部署导弹的计划（“阿纳德尔行动”）的细节，使美国得以提前了解苏联的意图和武器参数，破坏了该行动的机密性。",
+          "en": "Penkovsky leaked details of the Soviet plan to deploy missiles in Cuba (\"Operation Anadyr\") to Western intelligence, allowing the U.S. to understand Soviet intentions and weapon parameters in advance, thus compromising the operation's secrecy."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "奥列格·潘科夫斯基",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1962-10-22",
+        "description": {
+          "zh-cn": "由于其间谍活动暴露，奥列格·潘科夫斯基于1962年10月22日被克格勃逮捕，后被判处死刑并于1963年执行。",
+          "en": "Due to the exposure of his espionage activities, Oleg Penkovsky was arrested by the KGB on October 22, 1962, and was later sentenced to death and executed in 1963."
+        }
+      }
+    },
+    {
+      "source": "柯蒂斯·勒迈",
+      "target": "约翰·F·肯尼迪",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "1962-10",
+        "description": {
+          "zh-cn": "在危机讨论中，空军上将柯蒂斯·勒迈等军方强硬派主张立即对古巴进行空袭和军事入侵，反对肯尼迪总统倾向的封锁和外交谈判方案。",
+          "en": "During the crisis deliberations, military hawks like Air Force General Curtis LeMay advocated for immediate airstrikes and a military invasion of Cuba, opposing President Kennedy's preferred options of a blockade and diplomatic negotiations."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "nodes": [
+    {
+      "id": "中央警察大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央警察大学",
+          "中央警官学校",
+          "中央警大",
+          "警察大学",
+          "警大",
+          "CPU"
+        ],
+        "en": [
+          "Central Police University"
+        ]
+      },
+      "properties": {
+        "period": [
+          "1936-09-01 - 1950-01",
+          "1954-05 - "
+        ],
+        "location": {
+          "zh-cn": "中华民国桃园市龟山区",
+          "en": "Guishan District, Taoyuan City, Republic of China (Taiwan)"
+        },
+        "description": {
+          "zh-cn": "中华民国警察、移民、消防、海巡、矫治及情报机关教育、培植警政干部的最高学府，是中华民国内政部所属的中央三级机构。其前身为1936年成立于南京市的中央警官学校。",
+          "en": "The highest educational institution for cultivating cadres in police administration, immigration, firefighting, coast guard, corrections, and intelligence agencies of the Republic of China. It is a third-level central agency under the Ministry of the Interior. Its predecessor was the Central Police Officer Academy, established in Nanjing in 1936."
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": [
+          "Nationalist Government"
+        ]
+      },
+      "properties": {
+        "period": "1925 - 1948",
+        "description": {
+          "zh-cn": "中华民国训政时期的中央政府与最高行政机关，于1936年为统一全国警官教育而成立中央警官学校。",
+          "en": "The central government and highest administrative body of the Republic of China during the Tutelage Period, which established the Central Police Officer Academy in 1936 to unify police officer education nationwide."
+        }
+      }
+    },
+    {
+      "id": "浙江省警官学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "浙江省警官学校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - 1936",
+        "description": {
+          "zh-cn": "1936年与内政部警官高等学校合并，组成中央警官学校。",
+          "en": "In 1936, it was merged with the Ministry of the Interior's Police Officer High School to form the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "id": "内政部警官高等学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "内政部警官高等学校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": " - 1936",
+        "description": {
+          "zh-cn": "1936年与浙江省警官学校合并，组成中央警官学校。",
+          "en": "In 1936, it was merged with the Zhejiang Provincial Police Officer School to form the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "id": "中华民国内政部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国内政部",
+          "内政部"
+        ],
+        "en": [
+          "Ministry of the Interior of the Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国掌管民政、户政、地政、役政、警政、消防、移民、建筑、国土地理资讯等全国性内政事务的最高主管机关，中央警察大学为其下属机构。",
+          "en": "The highest authority in the Republic of China responsible for national internal affairs such as civil affairs, household registration, land administration, conscription, police administration, firefighting, immigration, construction, and national geographic information. The Central Police University is one of its subordinate agencies."
+        }
+      }
+    },
+    {
+      "id": "抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "抗日战争"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937 - 1945",
+        "description": {
+          "zh-cn": "中华民国与大日本帝国之间发生的战争。战争爆发后，中央警官学校随中央政府西迁重庆。",
+          "en": "A war between the Republic of China and the Empire of Japan. After the outbreak of the war, the Central Police Officer Academy moved west to Chongqing with the central government."
+        }
+      }
+    },
+    {
+      "id": "重庆市 (中华民国)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "重庆市 (中华民国)",
+          "重庆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的直辖市，在抗日战争期间为国民政府的战时首都，中央警官学校于此期间迁至此地。",
+          "en": "A direct-administered municipality of the Republic of China, which served as the wartime capital of the Nationalist Government during the Second Sino-Japanese War. The Central Police Officer Academy relocated here during this period."
+        }
+      }
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战"
+        ],
+        "en": [
+          "Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1945 - 1950",
+        "description": {
+          "zh-cn": "国民政府在第二次国共内战中失利后，中央警官学校辗转迁台并于1950年奉令停办。",
+          "en": "After the Nationalist Government's defeat in the second phase of the Chinese Civil War, the Central Police Officer Academy relocated to Taiwan and was ordered to suspend operations in 1950."
+        }
+      }
+    },
+    {
+      "id": "在台复校",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "在台复校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949 - ",
+        "description": {
+          "zh-cn": "指1949年后，原在中国大陆的学校随中华民国政府迁台后重新建立的过程。中央警官学校于1954年在台湾复校。",
+          "en": "Refers to the process of re-establishing schools in Taiwan after they relocated with the government of the Republic of China from mainland China after 1949. The Central Police Officer Academy was re-established in Taiwan in 1954."
+        }
+      }
+    },
+    {
+      "id": "中央警察大学组织条例",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中央警察大学组织条例"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1995-12-20 - ",
+        "description": {
+          "zh-cn": "由立法院三读通过、总统公布的法律，该条例使中央警官学校正式更名为中央警察大学。",
+          "en": "A law passed by the Legislative Yuan and promulgated by the President, which officially renamed the Central Police Officer Academy to Central Police University."
+        }
+      }
+    },
+    {
+      "id": "李登辉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李登辉"
+        ],
+        "en": [
+          "Lee Teng-hui"
+        ]
+      },
+      "properties": {
+        "lifetime": "1923-01-15 - 2020-07-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物，曾任中华民国总统。于1995年12月20日明令公布《中央警察大学组织条例》。",
+          "en": "A politician of the Republic of China who served as President. He promulgated the 'Central Police University Organization Act' on December 20, 1995."
+        }
+      }
+    },
+    {
+      "id": "立法院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "立法院"
+        ],
+        "en": [
+          "Legislative Yuan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的最高立法机关。于1995年12月12日三读通过《中央警察大学组织条例》。",
+          "en": "The unicameral legislature of the Republic of China. It passed the 'Central Police University Organization Act' on its third reading on December 12, 1995."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事家、政治家，曾任国民政府军事委员会委员长，并兼任中央警官学校首任校长。",
+          "en": "A Chinese military and political leader who served as the Chairman of the National Military Council of the Nationalist Government and concurrently as the first President of the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "id": "李士珍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李士珍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军中将，黄埔军校2期毕业，曾任中央警官学校第二任校长。",
+          "en": "A lieutenant general of the Republic of China Army, a graduate of the 2nd class of the Whampoa Military Academy, and served as the second President of the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "id": "侯友宜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "侯友宜"
+        ],
+        "en": [
+          "Hou Yu-ih"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治人物与警官，中央警官学校正科45期毕业，曾任中央警察大学第十七任校长及新北市市长。",
+          "en": "A politician and police officer of the Republic of China, a graduate of the 45th class of the Central Police Officer Academy. He served as the 17th President of Central Police University and later as the Mayor of New Taipei City."
+        }
+      }
+    },
+    {
+      "id": "黄明昭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄明昭"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国警官，中央警官学校正科51期毕业，现任中央警察大学校长。",
+          "en": "A police officer of the Republic of China, a graduate of the 51st class of the Central Police Officer Academy, and the current President of Central Police University."
+        }
+      }
+    },
+    {
+      "id": "南京市 (中华民国)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "南京市 (中华民国)",
+          "南京市",
+          "南京"
+        ],
+        "en": [
+          "Nanking"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的首都，中央警官学校于1936年在此地创立。",
+          "en": "The capital of the Republic of China, where the Central Police Officer Academy was founded in 1936."
+        }
+      }
+    },
+    {
+      "id": "桃园市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "桃园市"
+        ],
+        "en": [
+          "Taoyuan City"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国直辖市，中央警察大学于1977年迁校至此，为现今校址所在地。",
+          "en": "A special municipality in the Republic of China. Central Police University relocated its campus here in 1977, where it is currently located."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "国民政府",
+      "target": "中央警察大学",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1936-09-01",
+        "description": {
+          "zh-cn": "国民政府为统一全国警官教育，合并内政部警官高等学校及浙江省警官学校，成立中央警官学校（中央警察大学前身）。",
+          "en": "The Nationalist Government founded the Central Police Officer Academy (predecessor of Central Police University) by merging the Police Officer High School of the Ministry of the Interior and the Zhejiang Provincial Police Officer School to unify police officer education nationwide."
+        }
+      }
+    },
+    {
+      "source": "浙江省警官学校",
+      "target": "中央警察大学",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-09-01",
+        "description": {
+          "zh-cn": "浙江省警官学校与内政部警官高等学校合并，组建成为中央警官学校。",
+          "en": "Zhejiang Provincial Police Officer School was merged with the Police Officer High School of the Ministry of the Interior to form the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "source": "内政部警官高等学校",
+      "target": "中央警察大学",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-09-01",
+        "description": {
+          "zh-cn": "内政部警官高等学校与浙江省警官学校合并，组建成为中央警官学校。",
+          "en": "The Police Officer High School of the Ministry of the Interior was merged with the Zhejiang Provincial Police Officer School to form the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "source": "中央警察大学",
+      "target": "中华民国内政部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中央警察大学是中华民国内政部所属的中央三级机构。",
+          "en": "Central Police University is a third-level central agency subordinate to the Ministry of the Interior of the Republic of China."
+        }
+      }
+    },
+    {
+      "source": "抗日战争",
+      "target": "中央警察大学",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1937",
+        "description": {
+          "zh-cn": "抗日战争全面爆发后，中央警官学校校本部随中央政府西迁至重庆。",
+          "en": "After the full-scale outbreak of the Second Sino-Japanese War, the main campus of the Central Police Officer Academy moved west to Chongqing with the central government."
+        }
+      }
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "中央警察大学",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1949",
+        "end_date": "1950-01",
+        "description": {
+          "zh-cn": "由于国民政府在第二次国共内战中失利，中央警官学校迁台后于1950年1月奉令停办。",
+          "en": "Due to the defeat of the Nationalist Government in the Chinese Civil War, the Central Police Officer Academy was ordered to cease operations in January 1950 after relocating to Taiwan."
+        }
+      }
+    },
+    {
+      "source": "在台复校",
+      "target": "中央警察大学",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1954-05",
+        "description": {
+          "zh-cn": "中央警官学校于1954年5月奉准在台复校。",
+          "en": "The Central Police Officer Academy was approved to be re-established in Taiwan in May 1954."
+        }
+      }
+    },
+    {
+      "source": "立法院",
+      "target": "中央警察大学组织条例",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1995-12-12",
+        "description": {
+          "zh-cn": "立法院三读通过《中央警察大学组织条例》。",
+          "en": "The Legislative Yuan passed the 'Central Police University Organization Act' on its third reading."
+        }
+      }
+    },
+    {
+      "source": "李登辉",
+      "target": "中央警察大学组织条例",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1995-12-20",
+        "description": {
+          "zh-cn": "时任总统李登辉明令公布《中央警察大学组织条例》。",
+          "en": "Then-President Lee Teng-hui promulgated the 'Central Police University Organization Act'."
+        }
+      }
+    },
+    {
+      "source": "中央警察大学组织条例",
+      "target": "中央警察大学",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1995-12-20",
+        "description": {
+          "zh-cn": "该条例的公布使学校正式由“中央警官学校”更名为“中央警察大学”。",
+          "en": "The promulgation of this act officially changed the school's name from 'Central Police Officer Academy' to 'Central Police University'."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "中央警察大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1936-09-01",
+        "end_date": "1947-09-30",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "担任中央警官学校首任校长。",
+          "en": "Served as the first President of the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "source": "李士珍",
+      "target": "中央警察大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1947-10-01",
+        "end_date": "1949-02-04",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "担任中央警官学校校长。",
+          "en": "Served as the President of the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "source": "侯友宜",
+      "target": "中央警察大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008-06-21",
+        "end_date": "2010-12-24",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "担任中央警察大学第十七任校长。",
+          "en": "Served as the 17th President of Central Police University."
+        }
+      }
+    },
+    {
+      "source": "侯友宜",
+      "target": "中央警察大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "正科45期",
+          "en": "Regular Class 45"
+        },
+        "description": {
+          "zh-cn": "毕业于中央警官学校正科45期。",
+          "en": "Graduated from the 45th regular class of the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "source": "黄明昭",
+      "target": "中央警察大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2025-08-01",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "担任中央警察大学现任校长。",
+          "en": "Serves as the current President of Central Police University."
+        }
+      }
+    },
+    {
+      "source": "黄明昭",
+      "target": "中央警察大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "正科51期",
+          "en": "Regular Class 51"
+        },
+        "description": {
+          "zh-cn": "毕业于中央警官学校正科51期。",
+          "en": "Graduated from the 51st regular class of the Central Police Officer Academy."
+        }
+      }
+    },
+    {
+      "source": "中央警察大学",
+      "target": "南京市 (中华民国)",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1936",
+        "end_date": "1949",
+        "description": {
+          "zh-cn": "中央警官学校于1936年在南京创立，并在抗战胜利后于1945年迁回南京，直至1949年。",
+          "en": "The Central Police Officer Academy was founded in Nanjing in 1936, moved back to Nanjing after the victory of the war in 1945, and remained there until 1949."
+        }
+      }
+    },
+    {
+      "source": "中央警察大学",
+      "target": "重庆市 (中华民国)",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1937",
+        "end_date": "1945",
+        "description": {
+          "zh-cn": "抗日战争期间，中央警官学校西迁至重庆。",
+          "en": "During the Second Sino-Japanese War, the Central Police Officer Academy relocated west to Chongqing."
+        }
+      }
+    },
+    {
+      "source": "中央警察大学",
+      "target": "桃园市",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1977-08",
+        "description": {
+          "zh-cn": "中央警官学校于1977年8月迁校至桃园校区现址。",
+          "en": "The Central Police Officer Academy relocated to its current campus in Taoyuan in August 1977."
+        }
+      }
+    }
+  ]
+}
