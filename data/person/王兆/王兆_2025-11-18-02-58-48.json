@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "id": "王兆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王兆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1973-07 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "自贡",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，汉族，中国共产党党员。曾任第十三届全国人民代表大会四川地区代表。",
+          "en": "A political figure in the People's Republic of China, of Han ethnicity, and a member of the Chinese Communist Party. She served as a deputy from the Sichuan region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "自贡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "自贡"
+        ],
+        "en": [
+          "Zigong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国四川省下辖的地级市。",
+          "en": "A prefecture-level city in Sichuan Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03-05 - 2023-03-13",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届国家最高权力机关。",
+          "en": "The 13th term of the highest state authority in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "四川",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "四川"
+        ],
+        "en": [
+          "Sichuan"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王兆",
+      "target": "自贡",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本信息，王兆是四川自贡人。",
+          "en": "According to the text, Wang Zhao is a native of Zigong, Sichuan."
+        }
+      }
+    },
+    {
+      "source": "王兆",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "王兆是中国共产党党员。",
+          "en": "Wang Zhao is a member of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "王兆",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "四川地区代表",
+          "en": "Deputy from the Sichuan region"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，王兆当选为第十三届全国人民代表大会四川地区代表。",
+          "en": "On February 24, 2018, Wang Zhao was elected as a deputy from the Sichuan region to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

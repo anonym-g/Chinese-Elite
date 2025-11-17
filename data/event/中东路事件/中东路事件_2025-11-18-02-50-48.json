@@ -1,0 +1,641 @@
+{
+  "nodes": [
+    {
+      "id": "中东路事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中东路事件",
+          "1929年中苏冲突",
+          "中国东方铁路冲突",
+          "远东冲突"
+        ],
+        "en": [
+          "Sino-Soviet conflict (1929)"
+        ]
+      },
+      "properties": {
+        "period": "1929-07 - 1929-12",
+        "location": {
+          "zh-cn": "中国东北、俄罗斯远东",
+          "en": "Northeast China, Russian Far East"
+        },
+        "description": {
+          "zh-cn": "1929年中华民国与苏联因中东铁路权益问题爆发的武装冲突。",
+          "en": "An armed conflict in 1929 between the Republic of China and the Soviet Union over the control of the Chinese Eastern Railway."
+        }
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国",
+          "中国",
+          "南京国民政府",
+          "国民政府"
+        ],
+        "en": [
+          "Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1949",
+        "description": {
+          "zh-cn": "1912年至1949年间统治中国大陆的政权，中东路事件中的一方。",
+          "en": "The government that ruled mainland China from 1912 to 1949, a combatant in the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922-12 - 1991-12",
+        "description": {
+          "zh-cn": "苏维埃社会主义共和国联盟，中东路事件中的一方。",
+          "en": "The Union of Soviet Socialist Republics, a combatant in the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "俄国白军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄国白军"
+        ],
+        "en": [
+          "White movement"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "俄国内战中反对布尔什维克政府的松散政治军事力量，其残余部队在中东路事件中协助中华民国作战。",
+          "en": "A loose confederation of anti-communist forces that fought the Bolsheviks in the Russian Civil War. Remnant forces assisted the Republic of China in the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党，在中东路事件中支持苏联。",
+          "en": "The ruling party of China, which supported the Soviet Union during the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Chang Hsueh-liang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-06-03 - 2001-10-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军一级上将，奉系军阀首领，主政中国东北并下令武力收回中东铁路，引发中东路事件。",
+          "en": "A Marshal of the Republic of China, leader of the Fengtian clique, who controlled Northeast China and ordered the forceful takeover of the Chinese Eastern Railway, triggering the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中华民国国民政府主席，支持张学良对苏联采取强硬立场。",
+          "en": "Then Chairman of the Nationalist Government of the Republic of China, who supported Zhang Xueliang's hardline stance against the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "约瑟夫·斯大林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约瑟夫·斯大林"
+        ],
+        "en": [
+          "Joseph Stalin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1878-12-18 - 1953-03-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联领导人，在中东路事件期间下令成立红旗远东特别集团军进行反击。",
+          "en": "Leader of the Soviet Union, who ordered the formation of the Special Red Banner Far Eastern Army to counterattack during the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "瓦西里·康斯坦丁诺维奇·布柳赫尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "瓦西里·康斯坦丁诺维奇·布柳赫尔",
+          "瓦西里·布柳赫尔"
+        ],
+        "en": [
+          "Vasily Blyukher"
+        ]
+      },
+      "properties": {
+        "lifetime": "1889-11-19 - 1938-11-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联元帅，时任红旗远东特别集团军司令，指挥苏军在中东路事件中作战。",
+          "en": "Marshal of the Soviet Union, commander of the Special Red Banner Far Eastern Army, who led Soviet forces in the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "中东铁路",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中东铁路",
+          "中国东方铁路",
+          "大清东省铁路"
+        ],
+        "en": [
+          "Chinese Eastern Railway"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "横贯中国东北的铁路，其权益归属是中东路事件的直接导火索。",
+          "en": "A railway running through Northeast China, the dispute over its control was the direct cause of the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "东北军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北军",
+          "东北边防军",
+          "防俄军"
+        ],
+        "en": [
+          "Northeastern Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由张学良领导的地方军队，是中东路事件中与苏军作战的主力。",
+          "en": "The regional army led by Zhang Xueliang, which was the main force fighting the Soviet army in the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "红旗远东特别集团军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "红旗远东特别集团军"
+        ],
+        "en": [
+          "Special Red Banner Far Eastern Army"
+        ]
+      },
+      "properties": {
+        "period": "1929-08-06 - ",
+        "description": {
+          "zh-cn": "苏联为应对中东路事件而专门成立的集团军，由瓦西里·布柳赫尔指挥。",
+          "en": "An army group specially formed by the Soviet Union to deal with the Sino-Soviet conflict of 1929, commanded by Vasily Blyukher."
+        }
+      }
+    },
+    {
+      "id": "杨宇霆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨宇霆"
+        ],
+        "en": [
+          "Yang Yuting"
+        ]
+      },
+      "properties": {
+        "lifetime": "1885 - 1929-01-11",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东北军高级将领，因与张学良不和而被其处决。",
+          "en": "A senior general of the Northeastern Army, executed by Zhang Xueliang due to disagreements."
+        }
+      }
+    },
+    {
+      "id": "常荫槐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "常荫槐"
+        ],
+        "en": [
+          "Chang Yinhuai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1888 - 1929-01-11",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东北军高级官员，与杨宇霆一同被张学良处决。",
+          "en": "A senior official of the Northeastern Army, executed along with Yang Yuting by Zhang Xueliang."
+        }
+      }
+    },
+    {
+      "id": "韩光第",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩光第"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1892 - 1929-11-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东北军第17旅旅长，在扎赉诺尔战役中阵亡。",
+          "en": "Commander of the 17th Brigade of the Northeastern Army, killed in action during the Battle of Zhalainuoer."
+        }
+      }
+    },
+    {
+      "id": "梁忠甲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁忠甲"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1894 - 1948",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东北军第15旅旅长，在满洲里战斗中被苏军包围后投降。",
+          "en": "Commander of the 15th Brigade of the Northeastern Army, who surrendered after being surrounded by Soviet forces in the Battle of Manzhouli."
+        }
+      }
+    },
+    {
+      "id": "中苏伯力会议议定书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中苏伯力会议议定书"
+        ],
+        "en": [
+          "Protocol of Khabarovsk"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1929年12月20日由中苏代表签订的议定书，结束了中东路事件，恢复了苏联在中东路的权益。",
+          "en": "A protocol signed by Chinese and Soviet representatives on December 20, 1929, which ended the Sino-Soviet conflict and restored Soviet rights on the Chinese Eastern Railway."
+        }
+      }
+    },
+    {
+      "id": "黑瞎子岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "黑瞎子岛"
+        ],
+        "en": [
+          "Bolshoy Ussuriysky Island"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于黑龙江和乌苏里江交汇处的岛屿，在中东路事件后被苏联完全占领。",
+          "en": "An island at the confluence of the Heilongjiang and Ussuri rivers, which was fully occupied by the Soviet Union after the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "九一八事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "九一八事变"
+        ],
+        "en": [
+          "Mukden Incident"
+        ]
+      },
+      "properties": {
+        "period": "1931-09-18 - ",
+        "description": {
+          "zh-cn": "1931年日本关东军在中国东北发动的侵略事件，中东路事件中东北军的溃败在一定程度上促成了此事件的发生。",
+          "en": "An invasion incident launched by the Japanese Kwantung Army in Northeast China in 1931. The defeat of the Northeastern Army in the Sino-Soviet conflict partly contributed to its occurrence."
+        }
+      }
+    },
+    {
+      "id": "日本关东军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本关东军"
+        ],
+        "en": [
+          "Kwantung Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本帝国陆军的一支重要部队，驻扎在中国东北，发动了九一八事变。",
+          "en": "An important unit of the Imperial Japanese Army stationed in Northeast China, which launched the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "陈独秀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈独秀"
+        ],
+        "en": [
+          "Chen Duxiu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1879-10-09 - 1942-05-27",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期主要领导人，因反对中共在中东路事件中“武装保卫苏联”的口号而被开除党籍。",
+          "en": "An early principal leader of the Chinese Communist Party, who was expelled for opposing the CCP's slogan of 'Arming to defend the Soviet Union' during the Sino-Soviet conflict of 1929."
+        }
+      }
+    },
+    {
+      "id": "武装保卫苏联",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "武装保卫苏联"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1929",
+        "description": {
+          "zh-cn": "中东路事件期间，中国共产党提出的支持苏联的政治运动和口号。",
+          "en": "A political movement and slogan proposed by the Chinese Communist Party to support the Soviet Union during the Sino-Soviet conflict of 1929."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张学良",
+      "target": "中东路事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-07-10",
+        "description": {
+          "zh-cn": "张学良下令以武力强行收回中东铁路，直接引发了中东路事件。",
+          "en": "Zhang Xueliang ordered the forceful takeover of the Chinese Eastern Railway, directly triggering the Sino-Soviet conflict."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "张学良",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-07-07",
+        "description": {
+          "zh-cn": "蒋中正支持张学良对苏联采取强硬立场，并承诺中央政府将提供军事和财政援助。",
+          "en": "Chiang Kai-shek supported Zhang Xueliang's hardline stance against the Soviet Union and promised military and financial aid from the central government."
+        }
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "苏联",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1929-07",
+        "end_date": "1929-12-20",
+        "description": {
+          "zh-cn": "因中东铁路权益问题爆发武装冲突，并一度断绝外交关系。",
+          "en": "Engaged in an armed conflict over the rights of the Chinese Eastern Railway and temporarily severed diplomatic relations."
+        }
+      }
+    },
+    {
+      "source": "俄国白军",
+      "target": "中华民国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1929-07",
+        "end_date": "1929-12",
+        "description": {
+          "zh-cn": "作为中华民国的盟友，俄国白军参与了对抗苏联的战斗。",
+          "en": "As an ally of the Republic of China, the White Russian Army participated in the fighting against the Soviet Union."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "苏联",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1929-07",
+        "description": {
+          "zh-cn": "中国共产党在中东路事件中支持苏联，并提出“武装保卫苏联”的口号。",
+          "en": "The Chinese Communist Party supported the Soviet Union during the Sino-Soviet conflict and put forward the slogan 'Arming to defend the Soviet Union'."
+        }
+      }
+    },
+    {
+      "source": "东北军",
+      "target": "张学良",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "东北军是由张学良统帅的地方军队。",
+          "en": "The Northeastern Army was the regional military force commanded by Zhang Xueliang."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "杨宇霆",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1929-01-11",
+        "description": {
+          "zh-cn": "张学良在1929年初处决了东北军重臣杨宇霆，以巩固自己的权力。",
+          "en": "In early 1929, Zhang Xueliang executed Yang Yuting, a senior official in the Northeastern Army, to consolidate his power."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "常荫槐",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1929-01-11",
+        "description": {
+          "zh-cn": "张学良在1929年初处决了东北军重臣常荫槐，以巩固自己的权力。",
+          "en": "In early 1929, Zhang Xueliang executed Chang Yinhuai, a senior official in the Northeastern Army, to consolidate his power."
+        }
+      }
+    },
+    {
+      "source": "中东路事件",
+      "target": "东北军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1929-08",
+        "end_date": "1929-11",
+        "description": {
+          "zh-cn": "东北军在与苏联红旗远东特别集团军的战斗中遭遇惨败，损失惨重。",
+          "en": "The Northeastern Army suffered a crushing defeat with heavy casualties in battles against the Soviet Special Red Banner Far Eastern Army."
+        }
+      }
+    },
+    {
+      "source": "中东路事件",
+      "target": "韩光第",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1929-11-18",
+        "description": {
+          "zh-cn": "东北军旅长韩光第在扎赉诺尔战役中阵亡。",
+          "en": "Northeastern Army brigade commander Han Guangdi was killed in action during the Battle of Zhalainuoer."
+        }
+      }
+    },
+    {
+      "source": "中东路事件",
+      "target": "梁忠甲",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1929-11-20",
+        "description": {
+          "zh-cn": "东北军旅长梁忠甲在满洲里战斗中兵败被俘。",
+          "en": "Northeastern Army brigade commander Liang Zhongjia was defeated and captured during the Battle of Manzhouli."
+        }
+      }
+    },
+    {
+      "source": "中苏伯力会议议定书",
+      "target": "苏联",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-12-20",
+        "description": {
+          "zh-cn": "该议定书的签订恢复了苏联在中东铁路的全部权益。",
+          "en": "The signing of this protocol restored all of the Soviet Union's rights and interests on the Chinese Eastern Railway."
+        }
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "中苏伯力会议议定书",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1929-12-20",
+        "description": {
+          "zh-cn": "南京国民政府不承认由地方代表蔡运升签署的《伯力议定书》，认为其超越权限。",
+          "en": "The Nanjing Nationalist Government refused to recognize the Khabarovsk Protocol signed by local representative Cai Yunsheng, deeming it to have exceeded his authority."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "黑瞎子岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1929-12",
+        "description": {
+          "zh-cn": "中东路事件后，苏联军队继续占领了整个黑瞎子岛。",
+          "en": "After the Sino-Soviet conflict, Soviet troops continued to occupy the entire Bolshoy Ussuriysky Island (Heixiazi Island)."
+        }
+      }
+    },
+    {
+      "source": "中东路事件",
+      "target": "九一八事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-12",
+        "description": {
+          "zh-cn": "东北军在中东路事件中的迅速溃败，暴露了其军事上的虚弱，坚定了日本关东军发动侵略的决心。",
+          "en": "The rapid collapse of the Northeastern Army in the Sino-Soviet conflict exposed its military weakness, strengthening the Japanese Kwantung Army's resolve to launch an invasion."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "武装保卫苏联",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-07",
+        "description": {
+          "zh-cn": "中东路事件爆发后，中国共产党发起了“武装保卫苏联”的运动以支持苏联。",
+          "en": "After the outbreak of the Sino-Soviet conflict, the Chinese Communist Party launched the 'Arming to defend the Soviet Union' movement to support the USSR."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "陈独秀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "因陈独秀反对“武装保卫苏联”的口号，中国共产党将其开除党籍。",
+          "en": "The Chinese Communist Party expelled Chen Duxiu for his opposition to the 'Arming to defend the Soviet Union' slogan."
+        }
+      }
+    }
+  ]
+}
