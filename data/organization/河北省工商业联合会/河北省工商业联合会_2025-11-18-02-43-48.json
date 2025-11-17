@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "河北省工商业联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河北省工商业联合会",
+          "河北省工商联",
+          "河北省总商会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党领导的、河北省工商界组成的统战性、经济性、民间性的人民团体和商会组织。",
+          "en": "A united front, economic, and non-governmental people's organization and chamber of commerce composed of members from Hebei's industrial and commercial circles, under the leadership of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中华全国工商业联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国工商业联合会"
+        ],
+        "en": [
+          "All-China Federation of Industry and Commerce"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "河北省工商业联合会的上级机构。",
+          "en": "The superior organization of the Hebei Federation of Industry and Commerce."
+        }
+      }
+    },
+    {
+      "id": "中国共产党河北省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党河北省委员会"
+        ],
+        "en": [
+          "Hebei Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "河北省工商业联合会的上级中共党组织。",
+          "en": "The superior CPC party organization of the Hebei Federation of Industry and Commerce."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党，对河北省工商业联合会等组织进行领导。",
+          "en": "The ruling party of the People's Republic of China, which leads organizations such as the Hebei Federation of Industry and Commerce."
+        }
+      }
+    },
+    {
+      "id": "河北省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河北省"
+        ],
+        "en": [
+          "Hebei Province"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区，河北省工商业联合会的活动范围所在地。",
+          "en": "A provincial-level administrative region of the People's Republic of China, where the Hebei Federation of Industry and Commerce operates."
+        }
+      }
+    },
+    {
+      "id": "人民团体",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "人民团体"
+        ],
+        "en": [
+          "People's organization"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种组织分类，河北省工商业联合会属于此类组织。",
+          "en": "A classification of organization to which the Hebei Federation of Industry and Commerce belongs."
+        }
+      }
+    },
+    {
+      "id": "商会组织",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "商会组织"
+        ],
+        "en": [
+          "Chamber of commerce organization"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种组织分类，河北省工商业联合会属于此类组织。",
+          "en": "A classification of organization to which the Hebei Federation of Industry and Commerce belongs."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "河北省工商业联合会",
+      "target": "中华全国工商业联合会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框内容，中华全国工商业联合会是河北省工商业联合会的上级机构。",
+          "en": "According to the infobox, the All-China Federation of Industry and Commerce is the superior organization of the Hebei Federation of Industry and Commerce."
+        }
+      }
+    },
+    {
+      "source": "河北省工商业联合会",
+      "target": "中国共产党河北省委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框内容，中国共产党河北省委员会是河北省工商业联合会的中共上级单位。",
+          "en": "According to the infobox, the Hebei Provincial Committee of the Communist Party of China is the superior CPC unit of the Hebei Federation of Industry and Commerce."
+        }
+      }
+    },
+    {
+      "source": "河北省工商业联合会",
+      "target": "中国共产党",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "河北省工商业联合会是由中国共产党领导的组织。",
+          "en": "The Hebei Federation of Industry and Commerce is an organization led by the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

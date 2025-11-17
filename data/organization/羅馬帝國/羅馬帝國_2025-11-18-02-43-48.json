@@ -1,0 +1,1186 @@
+{
+  "nodes": [
+    {
+      "id": "罗马帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗马帝国",
+          "大秦",
+          "海西国"
+        ],
+        "en": [
+          "Roman Empire"
+        ]
+      },
+      "properties": {
+        "period": "-0027 - 1453",
+        "description": {
+          "zh-cn": "历史上的一个文明帝国，承接着先前的罗马共和国。中国史书称为“大秦”或“海西国”。",
+          "en": "A historical empire that succeeded the earlier Roman Republic. It was referred to as 'Daqin' or 'Haixiguo' in Chinese historical records."
+        }
+      }
+    },
+    {
+      "id": "凯撒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "凯撒"
+        ],
+        "en": [
+          "Julius Caesar"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0100 - -0044",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马共和国末期的军事统帅、政治家，被元老院封为终身独裁官，其权力集中象征着共和制的结束。",
+          "en": "A Roman general and statesman in the late Roman Republic. He was appointed perpetual dictator by the Senate, and his concentration of power symbolized the end of the Republican system."
+        }
+      }
+    },
+    {
+      "id": "罗马共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗马共和国"
+        ],
+        "en": [
+          "Roman Republic"
+        ]
+      },
+      "properties": {
+        "period": "-0509 - -0027",
+        "description": {
+          "zh-cn": "古罗马在前509年到前27年之间的政体，其结束以罗马帝国的建立为标志。",
+          "en": "The political entity of ancient Rome from 509 BC to 27 BC, its end marked by the establishment of the Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "屋大维",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "屋大维",
+          "奥古斯都"
+        ],
+        "en": [
+          "Octavian",
+          "Augustus"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0063-01-23 - 0014-08-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马帝国的第一位皇帝，于公元前27年获得“奥古斯都”称号，标志着罗马帝国的开端。",
+          "en": "The first Roman emperor, who was granted the title 'Augustus' in 27 BC, marking the beginning of the Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "亚克兴角战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "亚克兴角战役"
+        ],
+        "en": [
+          "Battle of Actium"
+        ]
+      },
+      "properties": {
+        "period": "-0031",
+        "description": {
+          "zh-cn": "罗马共和国内战的决定性战役，屋大维在此击败了马克·安东尼和克娄巴特拉七世的联军。",
+          "en": "The decisive confrontation of the Final War of the Roman Republic, where Octavian defeated the combined forces of Mark Antony and Cleopatra VII."
+        }
+      }
+    },
+    {
+      "id": "马克·安东尼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马克·安东尼"
+        ],
+        "en": [
+          "Mark Antony"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0083 - -0030",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马共和国末期的政治家和将军，在亚克兴角战役中被屋大维击败。",
+          "en": "A Roman politician and general during the end of the Roman Republic, defeated by Octavian at the Battle of Actium."
+        }
+      }
+    },
+    {
+      "id": "克娄巴特拉七世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "克娄巴特拉七世"
+        ],
+        "en": [
+          "Cleopatra VII"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0069 - -0030",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "埃及托勒密王国的最后一任女王，在亚克兴角战役中与马克·安东尼一同被屋大维击败。",
+          "en": "The last active ruler of the Ptolemaic Kingdom of Egypt, defeated alongside Mark Antony by Octavian at the Battle of Actium."
+        }
+      }
+    },
+    {
+      "id": "托勒密王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "托勒密王国"
+        ],
+        "en": [
+          "Ptolemaic Kingdom"
+        ]
+      },
+      "properties": {
+        "period": "-0305 - -0030",
+        "description": {
+          "zh-cn": "位于埃及的古希腊王国，在屋大维击败克娄巴特拉七世后被罗马吞并。",
+          "en": "A Hellenistic kingdom based in ancient Egypt, which was annexed by Rome after Octavian's victory over Cleopatra VII."
+        }
+      }
+    },
+    {
+      "id": "元老院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "元老院",
+          "罗马元老院"
+        ],
+        "en": [
+          "Roman Senate"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古罗马的审议机构。在帝国初期，它授予屋大维“奥古斯都”称号，象征着帝国的开始。",
+          "en": "The deliberative body of ancient Rome. In the early empire, it granted Octavian the title 'Augustus', symbolizing the beginning of the empire."
+        }
+      }
+    },
+    {
+      "id": "罗马禁卫军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗马禁卫军"
+        ],
+        "en": [
+          "Praetorian Guard"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "罗马皇帝的护卫部队，在公元41年拥立克劳狄一世为帝，对皇位继承有重要影响力。",
+          "en": "The personal bodyguards of the Roman emperors, who played a significant role in imperial succession, such as proclaiming Claudius as emperor in 41 AD."
+        }
+      }
+    },
+    {
+      "id": "克劳狄一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "克劳狄一世",
+          "克劳狄乌斯"
+        ],
+        "en": [
+          "Claudius"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0010-08-01 - 0054-10-13",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马帝国第四位皇帝，在卡利古拉被刺后由罗马禁卫军拥立。",
+          "en": "The fourth Roman emperor, proclaimed emperor by the Praetorian Guard after the assassination of Caligula."
+        }
+      }
+    },
+    {
+      "id": "提图斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "提图斯"
+        ],
+        "en": [
+          "Titus"
+        ]
+      },
+      "properties": {
+        "lifetime": "0039-12-30 - 0081-09-13",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马帝国弗拉维王朝的第二位皇帝，是维斯帕先的继位者，图密善的兄长。",
+          "en": "The second Roman emperor of the Flavian dynasty, successor to Vespasian and elder brother of Domitian."
+        }
+      }
+    },
+    {
+      "id": "图密善",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "图密善"
+        ],
+        "en": [
+          "Domitian"
+        ]
+      },
+      "properties": {
+        "lifetime": "0051-10-24 - 0096-09-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马帝国弗拉维王朝的最后一位皇帝，继其兄提图斯之后即位。",
+          "en": "The last Roman emperor of the Flavian dynasty, who succeeded his elder brother Titus."
+        }
+      }
+    },
+    {
+      "id": "涅尔瓦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "涅尔瓦"
+        ],
+        "en": [
+          "Nerva"
+        ]
+      },
+      "properties": {
+        "lifetime": "0030-11-08 - 0098-01-27",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马帝国“五贤帝”之首，由元老院推举为皇帝。",
+          "en": "The first of the 'Five Good Emperors' of the Roman Empire, chosen by the Senate."
+        }
+      }
+    },
+    {
+      "id": "亚历山大·塞维鲁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亚历山大·塞维鲁"
+        ],
+        "en": [
+          "Alexander Severus"
+        ]
+      },
+      "properties": {
+        "lifetime": "0208-10-01 - 0235-03-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马帝国塞维鲁王朝的最后一位皇帝，其于公元235年被刺杀身亡导致了三世纪危机。",
+          "en": "The last Roman emperor of the Severan dynasty. His assassination in 235 AD led to the Crisis of the Third Century."
+        }
+      }
+    },
+    {
+      "id": "三世纪危机",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "三世纪危机"
+        ],
+        "en": [
+          "Crisis of the Third Century"
+        ]
+      },
+      "properties": {
+        "period": "0235 - 0284",
+        "description": {
+          "zh-cn": "罗马帝国的一段时期，其特点是持续的内战、外族入侵、经济崩溃和瘟疫，始于皇帝亚历山大·塞维鲁被刺。",
+          "en": "A period in the Roman Empire characterized by constant civil wars, foreign invasions, economic collapse, and plague, beginning with the assassination of Emperor Alexander Severus."
+        }
+      }
+    },
+    {
+      "id": "戴克里先",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "戴克里先"
+        ],
+        "en": [
+          "Diocletian"
+        ]
+      },
+      "properties": {
+        "lifetime": "0244 - 0311",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马皇帝，他的统治结束了三世纪危机，并创立了四帝共治制度。",
+          "en": "A Roman emperor whose reign brought an end to the Crisis of the Third Century and who established the Tetrarchy."
+        }
+      }
+    },
+    {
+      "id": "四帝共治",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "四帝共治",
+          "四帝共治制"
+        ],
+        "en": [
+          "Tetrarchy"
+        ]
+      },
+      "properties": {
+        "period": "0293 - 0313",
+        "description": {
+          "zh-cn": "由戴克里先创立的罗马帝国政府制度，将帝国分为由四位皇帝共同统治的区域。",
+          "en": "A system of government in the Roman Empire established by Diocletian, dividing the empire into territories ruled by four co-emperors."
+        }
+      }
+    },
+    {
+      "id": "君士坦丁一世 (罗马帝国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "君士坦丁一世 (罗马帝国)",
+          "君士坦丁一世",
+          "君士坦丁大帝"
+        ],
+        "en": [
+          "Constantine the Great"
+        ]
+      },
+      "properties": {
+        "lifetime": "0272 - 0337-05-22",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马皇帝，他在内战中胜出，结束了四帝共治，并迁都君士坦丁堡，同时通过《米兰敕令》使基督教合法化。",
+          "en": "A Roman emperor who emerged victorious in the civil wars, ending the Tetrarchy. He moved the capital to Constantinople and legalized Christianity with the Edict of Milan."
+        }
+      }
+    },
+    {
+      "id": "君士坦丁堡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "君士坦丁堡",
+          "新罗马"
+        ],
+        "en": [
+          "Constantinople",
+          "New Rome"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由君士坦丁大帝在古城拜占庭的基础上建立，自330年起成为罗马帝国（后来的东罗马帝国）的首都。",
+          "en": "Founded by Constantine the Great on the site of the ancient city of Byzantium, it became the capital of the Roman Empire (and later the Eastern Roman Empire) from 330 AD."
+        }
+      }
+    },
+    {
+      "id": "米兰敕令 (君士坦丁)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "米兰敕令 (君士坦丁)",
+          "米兰敕令"
+        ],
+        "en": [
+          "Edict of Milan"
+        ]
+      },
+      "properties": {
+        "period": "0313",
+        "description": {
+          "zh-cn": "由君士坦丁一世颁布，宣布对基督教的宽容政策，使其在罗马帝国内合法化。",
+          "en": "Issued by Constantine the Great, it proclaimed a policy of religious tolerance for Christianity, legalizing it within the Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "基督教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "基督教"
+        ],
+        "en": [
+          "Christianity"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种一神论宗教。在罗马帝国，它从受迫害的信仰转变为313年通过《米兰敕令》合法化，并于380年通过《萨洛尼卡敕令》成为国教。",
+          "en": "A monotheistic religion. In the Roman Empire, it transitioned from a persecuted faith to being legalized by the Edict of Milan in 313 and becoming the state religion with the Edict of Thessalonica in 380."
+        }
+      }
+    },
+    {
+      "id": "狄奥多西一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "狄奥多西一世"
+        ],
+        "en": [
+          "Theodosius I"
+        ]
+      },
+      "properties": {
+        "lifetime": "0347-01-11 - 0395-01-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "最后一位统治统一罗马帝国的皇帝。他将基督教定为国教，其去世后帝国最终分裂为东西两部分。",
+          "en": "The last emperor to rule over a unified Roman Empire. He made Christianity the state religion, and after his death, the empire was permanently divided into eastern and western halves."
+        }
+      }
+    },
+    {
+      "id": "萨洛尼卡敕令",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "萨洛尼卡敕令"
+        ],
+        "en": [
+          "Edict of Thessalonica"
+        ]
+      },
+      "properties": {
+        "period": "0380",
+        "description": {
+          "zh-cn": "由狄奥多西一世颁布，将尼西亚基督教定为罗马帝国的国教。",
+          "en": "Issued by Theodosius I, it made Nicene Christianity the state religion of the Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "萨珊王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "萨珊王朝",
+          "波斯第二帝国"
+        ],
+        "en": [
+          "Sasanian Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代波斯的帝国，长期与罗马帝国在东部边境抗衡。",
+          "en": "An ancient Persian empire that was a long-standing rival to the Roman Empire on its eastern frontier."
+        }
+      }
+    },
+    {
+      "id": "弗拉维乌斯·奥古斯都·霍诺留",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉维乌斯·奥古斯都·霍诺留",
+          "霍诺留"
+        ],
+        "en": [
+          "Honorius (emperor)"
+        ]
+      },
+      "properties": {
+        "lifetime": "0384-09-09 - 0423-08-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "狄奥多西一世之子，395年帝国分裂后成为西罗马帝国的第一位皇帝。",
+          "en": "Son of Theodosius I, who became the first emperor of the Western Roman Empire after the division of the empire in 395."
+        }
+      }
+    },
+    {
+      "id": "阿卡狄奥斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿卡狄奥斯"
+        ],
+        "en": [
+          "Arcadius"
+        ]
+      },
+      "properties": {
+        "lifetime": "0377 - 0408-05-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "狄奥多西一世之子，395年帝国分裂后成为东罗马帝国的第一位皇帝。",
+          "en": "Son of Theodosius I, who became the first emperor of the Eastern Roman Empire after the division of the empire in 395."
+        }
+      }
+    },
+    {
+      "id": "西罗马帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西罗马帝国"
+        ],
+        "en": [
+          "Western Roman Empire"
+        ]
+      },
+      "properties": {
+        "period": "0395 - 0476",
+        "description": {
+          "zh-cn": "罗马帝国在395年分裂后西部的一半，其灭亡通常以476年最后一位皇帝被废黜为标志。",
+          "en": "The western half of the Roman Empire after its division in 395, its fall is conventionally dated to 476 with the deposition of its last emperor."
+        }
+      }
+    },
+    {
+      "id": "东罗马帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东罗马帝国",
+          "拜占庭帝国"
+        ],
+        "en": [
+          "Eastern Roman Empire",
+          "Byzantine Empire"
+        ]
+      },
+      "properties": {
+        "period": "0395 - 1453",
+        "description": {
+          "zh-cn": "罗马帝国在395年分裂后东部的一半，通常被称为拜占庭帝国，一直延续到1453年君士坦丁堡陷落。",
+          "en": "The eastern half of the Roman Empire after its division in 395, commonly known as the Byzantine Empire, which survived until the Fall of Constantinople in 1453."
+        }
+      }
+    },
+    {
+      "id": "奥多亚塞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奥多亚塞"
+        ],
+        "en": [
+          "Odoacer"
+        ]
+      },
+      "properties": {
+        "lifetime": "0433 - 0493-03-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日耳曼军事领袖，于476年废黜了西罗马帝国最后一位皇帝罗慕路斯·奥古斯都。",
+          "en": "A Germanic military leader who deposed the last Western Roman Emperor, Romulus Augustulus, in 476."
+        }
+      }
+    },
+    {
+      "id": "罗慕路斯·奥古斯都",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗慕路斯·奥古斯都"
+        ],
+        "en": [
+          "Romulus Augustulus"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西罗马帝国的最后一位皇帝，于476年被奥多亚塞废黜。",
+          "en": "The last emperor of the Western Roman Empire, who was deposed by Odoacer in 476."
+        }
+      }
+    },
+    {
+      "id": "君士坦丁堡的陷落",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "君士坦丁堡的陷落"
+        ],
+        "en": [
+          "Fall of Constantinople"
+        ]
+      },
+      "properties": {
+        "period": "1453-05-29",
+        "description": {
+          "zh-cn": "奥斯曼帝国攻陷东罗马帝国首都君士坦丁堡的事件，标志着东罗马帝国的灭亡。",
+          "en": "The capture of the capital of the Eastern Roman Empire by the Ottoman Empire, marking the end of the Byzantine Empire."
+        }
+      }
+    },
+    {
+      "id": "奥斯曼帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥斯曼帝国"
+        ],
+        "en": [
+          "Ottoman Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由土耳其人建立的帝国，于1453年攻陷君士坦丁堡，灭亡了东罗马帝国。",
+          "en": "An empire founded by the Turks that conquered Constantinople in 1453, bringing an end to the Eastern Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "君士坦丁十一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "君士坦丁十一世"
+        ],
+        "en": [
+          "Constantine XI Palaiologos"
+        ]
+      },
+      "properties": {
+        "lifetime": "1405-02-08 - 1453-05-29",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东罗马帝国的最后一位皇帝，在1453年君士坦丁堡陷落时战死。",
+          "en": "The last emperor of the Eastern Roman Empire, who died in battle during the Fall of Constantinople in 1453."
+        }
+      }
+    },
+    {
+      "id": "第四次十字军东征",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第四次十字军东征"
+        ],
+        "en": [
+          "Fourth Crusade"
+        ]
+      },
+      "properties": {
+        "period": "1202 - 1204",
+        "description": {
+          "zh-cn": "一次由西欧封建主和威尼斯组织的军事行动，最终导致1204年对君士坦丁堡的洗劫，严重削弱了东罗马帝国。",
+          "en": "A military expedition organized by Western European feudal lords and Venice, which culminated in the sack of Constantinople in 1204, severely weakening the Eastern Roman Empire."
+        }
+      }
+    },
+    {
+      "id": "奥维德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奥维德"
+        ],
+        "en": [
+          "Ovid"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0043 - 0014",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马诗人，因其作品《爱的艺术》违反了屋大维的政策而被流放。",
+          "en": "A Roman poet who was exiled for his work 'Ars Amatoria', which conflicted with the policies of Augustus."
+        }
+      }
+    },
+    {
+      "id": "塞涅卡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "塞涅卡"
+        ],
+        "en": [
+          "Seneca the Younger"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0004 - 0065",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马斯多葛派哲学家、政治家和剧作家，曾担任皇帝尼禄的老师。",
+          "en": "A Roman Stoic philosopher, statesman, and dramatist who served as a tutor to Emperor Nero."
+        }
+      }
+    },
+    {
+      "id": "尼禄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "尼禄"
+        ],
+        "en": [
+          "Nero"
+        ]
+      },
+      "properties": {
+        "lifetime": "0037-12-15 - 0068-06-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马帝国朱里亚·克劳狄王朝的最后一位皇帝，其老师是哲学家塞涅卡。",
+          "en": "The last Roman emperor of the Julio-Claudian dynasty, whose tutor was the philosopher Seneca."
+        }
+      }
+    },
+    {
+      "id": "西哥德人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西哥德人"
+        ],
+        "en": [
+          "Visigoths"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日耳曼部落之一，于公元410年入侵并洗劫了罗马城。",
+          "en": "A Germanic tribe that invaded and sacked the city of Rome in 410 AD."
+        }
+      }
+    },
+    {
+      "id": "汪达尔人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汪达尔人"
+        ],
+        "en": [
+          "Vandals"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日耳曼部落之一，于公元455年入侵并洗劫了罗马城。",
+          "en": "A Germanic tribe that invaded and sacked the city of Rome in 455 AD."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "凯撒",
+      "target": "罗马共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0044",
+        "description": {
+          "zh-cn": "凯撒成为终身独裁官，象征着共和制的结束。",
+          "en": "Caesar becoming dictator for life symbolized the end of the Republican system."
+        }
+      }
+    },
+    {
+      "source": "屋大维",
+      "target": "罗马帝国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0027",
+        "description": {
+          "zh-cn": "屋大维成为奥古斯都，象征着罗马帝国的开端。",
+          "en": "Octavian becoming Augustus symbolized the beginning of the Roman Empire."
+        }
+      }
+    },
+    {
+      "source": "亚克兴角战役",
+      "target": "屋大维",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0031",
+        "description": {
+          "zh-cn": "屋大维在亚克兴角战役中击败对手，为他掌握最高权力铺平了道路。",
+          "en": "Octavian's victory at the Battle of Actium over his rivals paved the way for him to assume supreme power."
+        }
+      }
+    },
+    {
+      "source": "屋大维",
+      "target": "马克·安东尼",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0031",
+        "description": {
+          "zh-cn": "在亚克兴角战役中击败马克·安东尼。",
+          "en": "Defeated Mark Antony at the Battle of Actium."
+        }
+      }
+    },
+    {
+      "source": "屋大维",
+      "target": "克娄巴特拉七世",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0031",
+        "description": {
+          "zh-cn": "在亚克兴角战役中击败克娄巴特拉七世。",
+          "en": "Defeated Cleopatra VII at the Battle of Actium."
+        }
+      }
+    },
+    {
+      "source": "屋大维",
+      "target": "托勒密王国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0030",
+        "description": {
+          "zh-cn": "在亚克兴角战役胜利后，吞并了埃及的托勒密王国。",
+          "en": "Annexed the Ptolemaic Kingdom of Egypt after the victory at the Battle of Actium."
+        }
+      }
+    },
+    {
+      "source": "元老院",
+      "target": "屋大维",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0027",
+        "description": {
+          "zh-cn": "授予屋大维君权及“奥古斯都”头衔。",
+          "en": "Granted Octavian imperial power and the title of 'Augustus'."
+        }
+      }
+    },
+    {
+      "source": "罗马禁卫军",
+      "target": "克劳狄一世",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0041",
+        "description": {
+          "zh-cn": "在卡利古拉被刺杀后，架空元老院，拥立克劳狄一世为帝。",
+          "en": "After the assassination of Caligula, they bypassed the Senate and proclaimed Claudius as emperor."
+        }
+      }
+    },
+    {
+      "source": "图密善",
+      "target": "提图斯",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "图密善是提图斯的弟弟，并继其兄之位成为皇帝。",
+          "en": "Domitian was the younger brother of Titus and succeeded him as emperor."
+        }
+      }
+    },
+    {
+      "source": "元老院",
+      "target": "涅尔瓦",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0096",
+        "description": {
+          "zh-cn": "在图密善被刺杀后，元老院推举涅尔瓦为皇帝。",
+          "en": "After the assassination of Domitian, the Senate chose Nerva as emperor."
+        }
+      }
+    },
+    {
+      "source": "亚历山大·塞维鲁",
+      "target": "三世纪危机",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "0235",
+        "description": {
+          "zh-cn": "亚历山大·塞维鲁于公元235年被刺杀身亡，这一事件导致了三世纪危机的爆发。",
+          "en": "The assassination of Alexander Severus in 235 AD led to the outbreak of the Crisis of the Third Century."
+        }
+      }
+    },
+    {
+      "source": "戴克里先",
+      "target": "四帝共治",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "0293",
+        "description": {
+          "zh-cn": "创立了四帝共治的政治制度以稳定帝国。",
+          "en": "Established the political system of the Tetrarchy to stabilize the empire."
+        }
+      }
+    },
+    {
+      "source": "戴克里先",
+      "target": "三世纪危机",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0284",
+        "description": {
+          "zh-cn": "戴克里先的统治使帝国全面恢复稳定，从而结束了三世纪危机。",
+          "en": "The reign of Diocletian brought full stability back to the empire, thus ending the Crisis of the Third Century."
+        }
+      }
+    },
+    {
+      "source": "君士坦丁一世 (罗马帝国)",
+      "target": "四帝共治",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "0324",
+        "description": {
+          "zh-cn": "在内战中击败其他共治皇帝，成为帝国的唯一统治者，从而结束了四帝共治制度。",
+          "en": "Defeated the other co-emperors in civil wars to become the sole ruler of the empire, thereby ending the Tetrarchy system."
+        }
+      }
+    },
+    {
+      "source": "君士坦丁一世 (罗马帝国)",
+      "target": "君士坦丁堡",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "0330",
+        "description": {
+          "zh-cn": "迁都至拜占庭，并以自己的名字将其命名为君士坦丁堡。",
+          "en": "Moved the capital to Byzantium and renamed it Constantinople after himself."
+        }
+      }
+    },
+    {
+      "source": "米兰敕令 (君士坦丁)",
+      "target": "基督教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0313",
+        "description": {
+          "zh-cn": "该敕令使基督教在罗马帝国内合法化。",
+          "en": "This edict legalized Christianity within the Roman Empire."
+        }
+      }
+    },
+    {
+      "source": "狄奥多西一世",
+      "target": "基督教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0380",
+        "description": {
+          "zh-cn": "通过颁布《萨洛尼卡敕令》，将基督教定为罗马帝国国教。",
+          "en": "Made Christianity the state religion of the Roman Empire by issuing the Edict of Thessalonica."
+        }
+      }
+    },
+    {
+      "source": "萨洛尼卡敕令",
+      "target": "基督教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0380",
+        "description": {
+          "zh-cn": "该敕令将基督教定为罗马帝国国教。",
+          "en": "This edict established Christianity as the state religion of the Roman Empire."
+        }
+      }
+    },
+    {
+      "source": "罗马帝国",
+      "target": "萨珊王朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "罗马帝国与其东面的萨珊王朝长期互相抗衡，纷争持续了一个世纪。",
+          "en": "The Roman Empire and the Sasanian Empire to its east were long-standing rivals, with conflicts lasting for a century."
+        }
+      }
+    },
+    {
+      "source": "狄奥多西一世",
+      "target": "罗马帝国",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "0395",
+        "description": {
+          "zh-cn": "作为最后一位统治统一罗马帝国的皇帝，他去世后，帝国最终分裂为西罗马帝国和东罗马帝国。",
+          "en": "As the last emperor to rule a unified Roman Empire, after his death, the empire was permanently divided into the Western and Eastern Roman Empires."
+        }
+      }
+    },
+    {
+      "source": "弗拉维乌斯·奥古斯都·霍诺留",
+      "target": "狄奥多西一世",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "弗拉维乌斯·奥古斯都·霍诺留是狄奥多西一世的儿子。",
+          "en": "Flavius Augustus Honorius was the son of Theodosius I."
+        }
+      }
+    },
+    {
+      "source": "阿卡狄奥斯",
+      "target": "狄奥多西一世",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "阿卡狄奥斯是狄奥多西一世的儿子。",
+          "en": "Arcadius was the son of Theodosius I."
+        }
+      }
+    },
+    {
+      "source": "弗拉维乌斯·奥古斯都·霍诺留",
+      "target": "阿卡狄奥斯",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "弗拉维乌斯·奥古斯都·霍诺留与阿卡狄奥斯是兄弟。",
+          "en": "Flavius Augustus Honorius and Arcadius were brothers."
+        }
+      }
+    },
+    {
+      "source": "西哥德人",
+      "target": "西罗马帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0410",
+        "description": {
+          "zh-cn": "于公元410年入侵并洗劫了帝国首都罗马城。",
+          "en": "Invaded and sacked the imperial capital, the city of Rome, in 410 AD."
+        }
+      }
+    },
+    {
+      "source": "汪达尔人",
+      "target": "西罗马帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0455",
+        "description": {
+          "zh-cn": "于公元455年入侵并洗劫了帝国首都罗马城。",
+          "en": "Invaded and sacked the imperial capital, the city of Rome, in 455 AD."
+        }
+      }
+    },
+    {
+      "source": "奥多亚塞",
+      "target": "罗慕路斯·奥古斯都",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0476",
+        "description": {
+          "zh-cn": "废黜了西罗马帝国最后一位皇帝罗慕路斯·奥古斯都。",
+          "en": "Deposed Romulus Augustulus, the last emperor of the Western Roman Empire."
+        }
+      }
+    },
+    {
+      "source": "奥多亚塞",
+      "target": "西罗马帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0476",
+        "description": {
+          "zh-cn": "其废黜末代皇帝的行为象征着西罗马帝国的终结。",
+          "en": "His deposition of the last emperor symbolized the end of the Western Roman Empire."
+        }
+      }
+    },
+    {
+      "source": "君士坦丁堡的陷落",
+      "target": "东罗马帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1453-05-29",
+        "description": {
+          "zh-cn": "该事件标志着东罗马帝国的灭亡。",
+          "en": "This event marked the end of the Eastern Roman Empire."
+        }
+      }
+    },
+    {
+      "source": "君士坦丁堡的陷落",
+      "target": "君士坦丁十一世",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1453-05-29",
+        "description": {
+          "zh-cn": "东罗马帝国末代皇帝君士坦丁十一世在此事件中战死。",
+          "en": "The last emperor of the Eastern Roman Empire, Constantine XI, was killed in battle during this event."
+        }
+      }
+    },
+    {
+      "source": "奥斯曼帝国",
+      "target": "君士坦丁堡的陷落",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1453",
+        "description": {
+          "zh-cn": "奥斯曼帝国军队攻陷了君士坦丁堡。",
+          "en": "The army of the Ottoman Empire captured Constantinople."
+        }
+      }
+    },
+    {
+      "source": "第四次十字军东征",
+      "target": "东罗马帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1204",
+        "description": {
+          "zh-cn": "十字军占领并洗劫了君士坦丁堡，并瓜分了帝国领土，导致帝国力量再也未能恢复。",
+          "en": "The Crusaders captured and sacked Constantinople, and partitioned the empire's territory, after which the empire never recovered its former strength."
+        }
+      }
+    },
+    {
+      "source": "屋大维",
+      "target": "奥维德",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "因奥维德的作品违反了其“澄清风俗”的政策，而将其判处流放。",
+          "en": "Exiled Ovid because his work violated his policy of 'purifying customs'."
+        }
+      }
+    },
+    {
+      "source": "塞涅卡",
+      "target": "尼禄",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "老师",
+          "en": "Tutor"
+        },
+        "description": {
+          "zh-cn": "塞涅卡曾担任皇帝尼禄的老师。",
+          "en": "Seneca served as a tutor to Emperor Nero."
+        }
+      }
+    }
+  ]
+}

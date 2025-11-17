@@ -1,0 +1,737 @@
+{
+  "nodes": [
+    {
+      "id": "瑞典",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瑞典",
+          "瑞典王国"
+        ],
+        "en": [
+          "Sweden",
+          "Kingdom of Sweden"
+        ]
+      },
+      "properties": {
+        "period": "12世纪初 - ",
+        "location": {
+          "zh-cn": "斯堪的纳维亚半岛",
+          "en": "Scandinavian Peninsula"
+        },
+        "description": {
+          "zh-cn": "位于斯堪的纳维亚半岛的北欧国家，首都为斯德哥尔摩。",
+          "en": "A Nordic country on the Scandinavian Peninsula, with its capital in Stockholm."
+        }
+      }
+    },
+    {
+      "id": "卡尔十六世·古斯塔夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卡尔十六世·古斯塔夫"
+        ],
+        "en": [
+          "Carl XVI Gustaf"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "现任瑞典国王。",
+          "en": "The current King of Sweden."
+        }
+      }
+    },
+    {
+      "id": "乌尔夫·克里斯特松",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乌尔夫·克里斯特松"
+        ],
+        "en": [
+          "Ulf Kristersson"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "瑞典首相。",
+          "en": "Prime Minister of Sweden."
+        }
+      }
+    },
+    {
+      "id": "安德烈亚斯·诺伦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安德烈亚斯·诺伦"
+        ],
+        "en": [
+          "Andreas Norlén"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "瑞典议会议长。",
+          "en": "Speaker of the Riksdag."
+        }
+      }
+    },
+    {
+      "id": "瑞典议会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瑞典议会"
+        ],
+        "en": [
+          "Riksdag"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "瑞典的国家立法机构。",
+          "en": "The national legislature of Sweden."
+        }
+      }
+    },
+    {
+      "id": "欧洲联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "欧洲联盟",
+          "欧盟"
+        ],
+        "en": [
+          "European Union",
+          "EU"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个位于欧洲的政治和经济联盟。",
+          "en": "A political and economic union of member states that are located primarily in Europe."
+        }
+      }
+    },
+    {
+      "id": "北大西洋公约组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北大西洋公约组织",
+          "北约"
+        ],
+        "en": [
+          "North Atlantic Treaty Organization",
+          "NATO"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个实现欧洲和北美国家间集体防御的政府间军事联盟。",
+          "en": "An intergovernmental military alliance between countries from Europe and North America, implementing a system of collective defence."
+        }
+      }
+    },
+    {
+      "id": "卡尔马联合",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "卡尔马联合"
+        ],
+        "en": [
+          "Kalmar Union"
+        ]
+      },
+      "properties": {
+        "period": "1397 - 1523",
+        "description": {
+          "zh-cn": "1397年至1523年间由丹麦、瑞典（包括芬兰）和挪威（包括冰岛、格陵兰、法罗群岛和设得兰）组成的共主邦联。",
+          "en": "A personal union in Scandinavia, agreed at Kalmar in Sweden, that from 1397 to 1523 joined under a single monarch the three kingdoms of Denmark, Sweden (then including Finland), and Norway (then including Iceland, Greenland, the Faroe Islands and Shetland)."
+        }
+      }
+    },
+    {
+      "id": "瑞典-挪威联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瑞典-挪威联盟",
+          "瑞典-挪威联合王国"
+        ],
+        "en": [
+          "Union between Sweden and Norway",
+          "United Kingdoms of Sweden and Norway"
+        ]
+      },
+      "properties": {
+        "period": "1814-11-04 - 1905-08",
+        "description": {
+          "zh-cn": "1814年至1905年间瑞典和挪威组成的共主邦联。",
+          "en": "A personal union of the separate kingdoms of Sweden and Norway under a common monarch and common foreign policy from 1814 to 1905."
+        }
+      }
+    },
+    {
+      "id": "古斯塔夫一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "古斯塔夫一世"
+        ],
+        "en": [
+          "Gustav I of Sweden"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "瑞典国王，领导瑞典脱离卡尔马联合。",
+          "en": "King of Sweden, who led the Swedish secession from the Kalmar Union."
+        }
+      }
+    },
+    {
+      "id": "大北方战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "大北方战争"
+        ],
+        "en": [
+          "Great Northern War"
+        ]
+      },
+      "properties": {
+        "period": "1700 - 1721",
+        "description": {
+          "zh-cn": "18世纪初，瑞典与俄罗斯等国之间的一场战争，导致瑞典丧失欧洲强国地位。",
+          "en": "A conflict in the early 18th century between Sweden and a coalition led by Russia, which resulted in Sweden losing its status as a great power in Europe."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国",
+          "俄国"
+        ],
+        "en": [
+          "Russian Empire"
+        ]
+      },
+      "properties": {
+        "period": "1721 - 1917",
+        "description": {
+          "zh-cn": "1721年至1917年间存在的一个历史国家，在大北方战争后取代瑞典成为欧洲强国。",
+          "en": "A historical state that existed from 1721 until 1917, which replaced Sweden as a European great power after the Great Northern War."
+        }
+      }
+    },
+    {
+      "id": "芬兰战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "芬兰战争"
+        ],
+        "en": [
+          "Finnish War"
+        ]
+      },
+      "properties": {
+        "period": "1809",
+        "description": {
+          "zh-cn": "1809年瑞典与俄罗斯帝国之间的战争，导致瑞典将芬兰割让给俄国。",
+          "en": "A war in 1809 between Sweden and the Russian Empire, which resulted in Sweden ceding Finland to Russia."
+        }
+      }
+    },
+    {
+      "id": "基尔条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "基尔条约"
+        ],
+        "en": [
+          "Treaty of Kiel"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "拿破仑战争后签订的条约，丹麦将挪威割让给瑞典。",
+          "en": "A treaty signed after the Napoleonic Wars, under which Denmark ceded Norway to Sweden."
+        }
+      }
+    },
+    {
+      "id": "纳粹德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国",
+          "德国"
+        ],
+        "en": [
+          "Nazi Germany",
+          "Germany"
+        ]
+      },
+      "properties": {
+        "period": "1933 - 1945",
+        "description": {
+          "zh-cn": "1933年至1945年间由阿道夫·希特勒和纳粹党统治的德国。",
+          "en": "Germany between 1933 and 1945, when Adolf Hitler and the Nazi Party controlled the country."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战",
+          "二战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939 - 1945",
+        "description": {
+          "zh-cn": "一场全球性的军事冲突，瑞典在战争中保持中立。",
+          "en": "A global military conflict during which Sweden remained neutral."
+        }
+      }
+    },
+    {
+      "id": "1912年夏季奥林匹克运动会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1912年夏季奥林匹克运动会"
+        ],
+        "en": [
+          "1912 Summer Olympics"
+        ]
+      },
+      "properties": {
+        "period": "1912",
+        "location": {
+          "zh-cn": "斯德哥尔摩",
+          "en": "Stockholm"
+        }
+      }
+    },
+    {
+      "id": "1958年世界杯足球赛",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1958年世界杯足球赛"
+        ],
+        "en": [
+          "1958 FIFA World Cup"
+        ]
+      },
+      "properties": {
+        "period": "1958",
+        "location": {
+          "zh-cn": "瑞典",
+          "en": "Sweden"
+        }
+      }
+    },
+    {
+      "id": "卡尔十三世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卡尔十三世"
+        ],
+        "en": [
+          "Charles XIII of Sweden"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "瑞典国王，收养了法国元帅贝尔纳多特为养子。",
+          "en": "King of Sweden who adopted the French Marshal Bernadotte as his son."
+        }
+      }
+    },
+    {
+      "id": "卡尔十四世·约翰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卡尔十四世·约翰",
+          "伯纳多特"
+        ],
+        "en": [
+          "Charles XIV John of Sweden",
+          "Jean Bernadotte"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "原法国元帅，后成为瑞典国王。",
+          "en": "Former French Marshal who later became King of Sweden."
+        }
+      }
+    },
+    {
+      "id": "三十年战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "三十年战争"
+        ],
+        "en": [
+          "Thirty Years' War"
+        ]
+      },
+      "properties": {
+        "period": "1618 - 1648",
+        "description": {
+          "zh-cn": "17世纪欧洲的一场大规模战争，瑞典在其中扮演了重要角色并扩张了领土。",
+          "en": "A major European conflict in the 17th century, in which Sweden played a significant role and expanded its territory."
+        }
+      }
+    },
+    {
+      "id": "芬兰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "芬兰"
+        ],
+        "en": [
+          "Finland"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "与瑞典东北接壤的北欧国家。",
+          "en": "A Nordic country bordering Sweden to the northeast."
+        }
+      }
+    },
+    {
+      "id": "丹麦",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "丹麦"
+        ],
+        "en": [
+          "Denmark"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "与瑞典隔海相望并由厄勒海峡大桥连接的北欧国家。",
+          "en": "A Nordic country across the sea from Sweden, connected by the Öresund Bridge."
+        }
+      }
+    },
+    {
+      "id": "挪威",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "挪威"
+        ],
+        "en": [
+          "Norway"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "与瑞典西部接壤的北欧国家。",
+          "en": "A Nordic country bordering Sweden to the west."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "卡尔十六世·古斯塔夫",
+      "target": "瑞典",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "国王",
+          "en": "King"
+        },
+        "description": {
+          "zh-cn": "卡尔十六世·古斯塔夫是现任瑞典国王。",
+          "en": "Carl XVI Gustaf is the current King of Sweden."
+        }
+      }
+    },
+    {
+      "source": "乌尔夫·克里斯特松",
+      "target": "瑞典",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "首相",
+          "en": "Prime Minister"
+        },
+        "description": {
+          "zh-cn": "乌尔夫·克里斯特松是瑞典的现任首相。",
+          "en": "Ulf Kristersson is the current Prime Minister of Sweden."
+        }
+      }
+    },
+    {
+      "source": "安德烈亚斯·诺伦",
+      "target": "瑞典议会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "议长",
+          "en": "Speaker"
+        },
+        "description": {
+          "zh-cn": "安德烈亚斯·诺伦是瑞典议会的议长。",
+          "en": "Andreas Norlén is the Speaker of the Riksdag."
+        }
+      }
+    },
+    {
+      "source": "瑞典",
+      "target": "欧洲联盟",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1995-01-01",
+        "description": {
+          "zh-cn": "瑞典于1995年1月1日加入欧洲联盟。",
+          "en": "Sweden joined the European Union on January 1, 1995."
+        }
+      }
+    },
+    {
+      "source": "瑞典",
+      "target": "北大西洋公约组织",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2024-03-07",
+        "description": {
+          "zh-cn": "瑞典于2024年3月7日正式加入北大西洋公约组织。",
+          "en": "Sweden officially joined the North Atlantic Treaty Organization on March 7, 2024."
+        }
+      }
+    },
+    {
+      "source": "瑞典",
+      "target": "卡尔马联合",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1397",
+        "end_date": "1523",
+        "description": {
+          "zh-cn": "瑞典是卡尔马联合的成员国之一，该联合还包括丹麦和挪威。",
+          "en": "Sweden was one of the member states of the Kalmar Union, which also included Denmark and Norway."
+        }
+      }
+    },
+    {
+      "source": "丹麦",
+      "target": "卡尔马联合",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1397",
+        "end_date": "1523",
+        "description": {
+          "zh-cn": "丹麦是卡尔马联合的成员国之一。",
+          "en": "Denmark was one of the member states of the Kalmar Union."
+        }
+      }
+    },
+    {
+      "source": "挪威",
+      "target": "卡尔马联合",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1397",
+        "end_date": "1523",
+        "description": {
+          "zh-cn": "挪威是卡尔马联合的成员国之一。",
+          "en": "Norway was one of the member states of the Kalmar Union."
+        }
+      }
+    },
+    {
+      "source": "瑞典",
+      "target": "瑞典-挪威联盟",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1814-11-04",
+        "end_date": "1905-08",
+        "description": {
+          "zh-cn": "瑞典与挪威组成由瑞典主导的瑞典-挪威联合王国。",
+          "en": "Sweden and Norway formed the United Kingdoms of Sweden and Norway, led by Sweden."
+        }
+      }
+    },
+    {
+      "source": "挪威",
+      "target": "瑞典-挪威联盟",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1814-11-04",
+        "end_date": "1905-08",
+        "description": {
+          "zh-cn": "根据基尔条约，挪威被割让给瑞典，两国组成瑞典-挪威联合王国。",
+          "en": "According to the Treaty of Kiel, Norway was ceded to Sweden, and the two countries formed the United Kingdoms of Sweden and Norway."
+        }
+      }
+    },
+    {
+      "source": "古斯塔夫一世",
+      "target": "卡尔马联合",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1521",
+        "description": {
+          "zh-cn": "1521年，瑞典国王古斯塔夫一世再次建立王权，领导瑞典从卡尔马联合中独立。",
+          "en": "In 1521, King Gustav I of Sweden re-established royal power and led Sweden's independence from the Kalmar Union."
+        }
+      }
+    },
+    {
+      "source": "大北方战争",
+      "target": "瑞典",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1700",
+        "end_date": "1721",
+        "description": {
+          "zh-cn": "瑞典在大北方战争中战败，被俄罗斯帝国取代其在欧洲的强国地位。",
+          "en": "Sweden was defeated in the Great Northern War and was replaced by the Russian Empire as a great power in Europe."
+        }
+      }
+    },
+    {
+      "source": "芬兰战争",
+      "target": "瑞典",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1809",
+        "description": {
+          "zh-cn": "1809年芬兰战争中瑞典战败，被迫将芬兰割让给俄国。",
+          "en": "In the Finnish War of 1809, Sweden was defeated and forced to cede Finland to Russia."
+        }
+      }
+    },
+    {
+      "source": "基尔条约",
+      "target": "瑞典-挪威联盟",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "拿破仑战争结束后，根据基尔条约丹麦将挪威割予瑞典，促成了瑞典-挪威联合王国的建立。",
+          "en": "After the Napoleonic Wars, Denmark ceded Norway to Sweden according to the Treaty of Kiel, which led to the formation of the United Kingdoms of Sweden and Norway."
+        }
+      }
+    },
+    {
+      "source": "瑞典",
+      "target": "纳粹德国",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "第二次世界大战期间，瑞典在纳粹德国占领挪威后，给予德国军事通行权以及铁矿资源。",
+          "en": "During World War II, after Nazi Germany occupied Norway, Sweden granted Germany military passage rights and provided iron ore resources."
+        }
+      }
+    },
+    {
+      "source": "瑞典",
+      "target": "1912年夏季奥林匹克运动会",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "瑞典是1912年夏季奥林匹克运动会的主办国。",
+          "en": "Sweden was the host country for the 1912 Summer Olympics."
+        }
+      }
+    },
+    {
+      "source": "瑞典",
+      "target": "1958年世界杯足球赛",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "瑞典是1958年世界杯足球赛的主办国。",
+          "en": "Sweden was the host country for the 1958 FIFA World Cup."
+        }
+      }
+    },
+    {
+      "source": "卡尔十四世·约翰",
+      "target": "卡尔十三世",
+      "type": "CHILD_OF",
+      "properties": {
+        "start_date": "1810",
+        "description": {
+          "zh-cn": "1810年，卡尔十三世收法国元帅伯纳多特（即后来的卡尔十四世·约翰）为养子。",
+          "en": "In 1810, Charles XIII adopted French Marshal Bernadotte (later Charles XIV John) as his son."
+        }
+      }
+    },
+    {
+      "source": "三十年战争",
+      "target": "瑞典",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1618",
+        "end_date": "1648",
+        "description": {
+          "zh-cn": "17世纪时瑞典在三十年战争中获得许多欧陆领土，使其跃升成为欧洲强国。",
+          "en": "In the 17th century, Sweden gained many continental territories in the Thirty Years' War, which elevated it to the status of a European great power."
+        }
+      }
+    },
+    {
+      "source": "芬兰",
+      "target": "瑞典",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1150",
+        "end_date": "1809",
+        "description": {
+          "zh-cn": "从1150年代起，瑞典占领芬兰，芬兰成为瑞典本土一部分，直到1809年芬兰战争后被割让给俄国。",
+          "en": "From the 1150s, Sweden occupied Finland, and Finland became part of Sweden proper until it was ceded to Russia after the Finnish War in 1809."
+        }
+      }
+    },
+    {
+      "source": "基尔条约",
+      "target": "丹麦",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据基尔条约，丹麦被迫将挪威割让给瑞典，从而失去了对挪威的统治。",
+          "en": "According to the Treaty of Kiel, Denmark was forced to cede Norway to Sweden, thereby losing its rule over Norway."
+        }
+      }
+    }
+  ]
+}

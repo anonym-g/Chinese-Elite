@@ -1,0 +1,640 @@
+{
+  "nodes": [
+    {
+      "id": "西汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西汉",
+          "汉",
+          "前汉",
+          "先汉",
+          "西京"
+        ],
+        "en": [
+          "Western Han"
+        ]
+      },
+      "properties": {
+        "period": "-0202-02-28 - 0009-01-10",
+        "location": {
+          "zh-cn": "长安",
+          "en": "Chang'an"
+        },
+        "description": {
+          "zh-cn": "中国历史上的一个朝代，与东汉合称两汉。由汉高祖刘邦建立，历经210年，最终被王莽篡位所取代。",
+          "en": "A dynasty in Chinese history, collectively known with the Eastern Han as the Han dynasty. Founded by Emperor Gaozu of Han (Liu Bang), it lasted for 210 years before being usurped by Wang Mang."
+        }
+      }
+    },
+    {
+      "id": "刘邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘邦",
+          "汉太祖"
+        ],
+        "en": [
+          "Liu Bang"
+        ]
+      },
+      "properties": {
+        "period": "-0202 - -0195",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉开国皇帝，史称汉太祖。在楚汉战争中击败项羽，统一天下并建立汉朝。",
+          "en": "The founding emperor of the Western Han dynasty, historically known as Emperor Gaozu of Han. He defeated Xiang Yu in the Chu-Han Contention, unified China, and established the Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "项羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项羽",
+          "西楚霸王"
+        ],
+        "en": [
+          "Xiang Yu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦末时期楚国贵族后裔，反秦领袖之一，后与刘邦争夺天下，史称“西楚霸王”。",
+          "en": "A descendant of Chu nobility during the late Qin dynasty, one of the leaders of the anti-Qin rebellion. He later contended with Liu Bang for supremacy, known as the 'Hegemon-King of Western Chu'."
+        }
+      }
+    },
+    {
+      "id": "楚汉战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "楚汉战争"
+        ],
+        "en": [
+          "Chu–Han Contention"
+        ]
+      },
+      "properties": {
+        "period": "-0206 - -0202",
+        "description": {
+          "zh-cn": "秦朝灭亡后，项羽和刘邦为争夺统治权而进行的一场大规模战争，最终以刘邦胜利告终。",
+          "en": "A large-scale war between Xiang Yu and Liu Bang for supremacy after the fall of the Qin dynasty, which ended with Liu Bang's victory."
+        }
+      }
+    },
+    {
+      "id": "垓下之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "垓下之战"
+        ],
+        "en": [
+          "Battle of Gaixia"
+        ]
+      },
+      "properties": {
+        "period": "-0202",
+        "description": {
+          "zh-cn": "楚汉战争的最后一场决定性战役，刘邦在此战中击败项羽，奠定了汉朝建立的基础。",
+          "en": "The final and decisive battle of the Chu-Han Contention, where Liu Bang defeated Xiang Yu, laying the foundation for the establishment of the Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "王莽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王莽"
+        ],
+        "en": [
+          "Wang Mang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉末年外戚，后篡夺皇位，建立新朝，导致西汉灭亡。",
+          "en": "A consort kin of the imperial family in the late Western Han dynasty who later usurped the throne, establishing the Xin dynasty and bringing the Western Han to an end."
+        }
+      }
+    },
+    {
+      "id": "新朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新朝",
+          "新"
+        ],
+        "en": [
+          "Xin dynasty"
+        ]
+      },
+      "properties": {
+        "period": "0009-01-10 - 0023",
+        "description": {
+          "zh-cn": "由王莽建立的朝代，取代了西汉。因其改革失败和天灾人祸，最终被农民起义推翻。",
+          "en": "A dynasty established by Wang Mang that replaced the Western Han. It was eventually overthrown by peasant uprisings due to failed reforms and natural disasters."
+        }
+      }
+    },
+    {
+      "id": "汉武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉武帝",
+          "武帝",
+          "刘彻"
+        ],
+        "en": [
+          "Emperor Wu of Han"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第七位皇帝，在位期间是西汉的鼎盛时期。他推行了一系列加强中央集权、对外扩张和文化统一的政策。",
+          "en": "The seventh emperor of the Western Han dynasty, whose reign marked the zenith of its power. He implemented a series of policies to strengthen central authority, expand territory, and unify culture."
+        }
+      }
+    },
+    {
+      "id": "罢黜百家独尊儒术",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "罢黜百家独尊儒术"
+        ],
+        "en": [
+          "Dismiss the Hundred Schools of Thought, Revere only Confucianism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝时期采纳的一项文化政策，确立了儒家思想在中国社会中的主导地位。",
+          "en": "A cultural policy adopted during the reign of Emperor Wu of Han, which established the dominant position of Confucianism in Chinese society."
+        }
+      }
+    },
+    {
+      "id": "董仲舒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "董仲舒"
+        ],
+        "en": [
+          "Dong Zhongshu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉时期儒家学者，向汉武帝建议“罢黜百家，独尊儒术”。",
+          "en": "A Confucian scholar of the Western Han dynasty who suggested to Emperor Wu to 'Dismiss the Hundred Schools of Thought, Revere only Confucianism'."
+        }
+      }
+    },
+    {
+      "id": "匈奴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "匈奴"
+        ],
+        "en": [
+          "Xiongnu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代北亚的游牧民族，长期以来是汉朝北方的边患。",
+          "en": "An ancient nomadic people in North Asia who were a long-term threat to the northern borders of the Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "汉匈战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "汉匈战争"
+        ],
+        "en": [
+          "Han–Xiongnu War"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉与匈奴之间发生的一系列军事冲突，尤以汉武帝时期规模最大。",
+          "en": "A series of military conflicts between the Western Han dynasty and the Xiongnu, with the largest scale occurring during the reign of Emperor Wu of Han."
+        }
+      }
+    },
+    {
+      "id": "张骞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张骞"
+        ],
+        "en": [
+          "Zhang Qian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉时期的外交家和探险家，奉汉武帝之命出使西域，开辟了丝绸之路。",
+          "en": "A diplomat and explorer of the Western Han dynasty who was dispatched by Emperor Wu to the Western Regions, opening up the Silk Road."
+        }
+      }
+    },
+    {
+      "id": "丝绸之路",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "丝绸之路"
+        ],
+        "en": [
+          "Silk Road"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代连接东西方的贸易和文化交流通道，由张骞出使西域后逐步开辟。",
+          "en": "An ancient network of trade and cultural exchange routes connecting the East and West, gradually established after Zhang Qian's mission to the Western Regions."
+        }
+      }
+    },
+    {
+      "id": "司马迁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马迁"
+        ],
+        "en": [
+          "Sima Qian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉时期的史学家和文学家，撰写了中国第一部纪传体通史《史记》。",
+          "en": "A historian and writer of the Western Han dynasty who authored the 'Records of the Grand Historian' (Shiji), the first comprehensive history of China in a series of biographies."
+        }
+      }
+    },
+    {
+      "id": "史记",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "史记"
+        ],
+        "en": [
+          "Records of the Grand Historian"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由司马迁撰写的中国第一部纪传体通史，对后世史学和文学影响深远。",
+          "en": "China's first comprehensive history written in a series of biographies by Sima Qian, with profound influence on later historiography and literature."
+        }
+      }
+    },
+    {
+      "id": "吕雉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕雉",
+          "吕太后"
+        ],
+        "en": [
+          "Empress Lü Zhi"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "汉高祖刘邦的皇后。刘邦死后，她临朝称制，掌握汉朝政权长达八年。",
+          "en": "The empress of Emperor Gaozu of Han (Liu Bang). After his death, she ruled as regent, controlling the Han government for eight years."
+        }
+      }
+    },
+    {
+      "id": "韩信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩信"
+        ],
+        "en": [
+          "Han Xin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉初杰出的军事家，楚汉战争中的重要将领，后因功高震主被猜忌并被吕后处死。",
+          "en": "An outstanding military strategist in the early Han dynasty and a key general during the Chu-Han Contention. He was later executed by Empress Lü due to suspicion arising from his great achievements."
+        }
+      }
+    },
+    {
+      "id": "汉景帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉景帝",
+          "景帝"
+        ],
+        "en": [
+          "Emperor Jing of Han"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第六位皇帝，与其父汉文帝共同开创了“文景之治”。在位期间平定了“七国之乱”。",
+          "en": "The sixth emperor of the Western Han dynasty, who, along with his father Emperor Wen, presided over the 'Rule of Wen and Jing'. He suppressed the 'Rebellion of the Seven States' during his reign."
+        }
+      }
+    },
+    {
+      "id": "七国之乱",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "七国之乱"
+        ],
+        "en": [
+          "Rebellion of the Seven States"
+        ]
+      },
+      "properties": {
+        "period": "-0154",
+        "description": {
+          "zh-cn": "汉景帝时期，以吴王刘濞为首的七个刘姓诸侯王发动的武装叛乱，旨在反对中央的削藩政策。",
+          "en": "An armed rebellion during the reign of Emperor Jing of Han, led by Liu Pi, the King of Wu, and six other vassal kings of the Liu clan, in opposition to the central government's policy of reducing the size of fiefdoms."
+        }
+      }
+    },
+    {
+      "id": "晁错",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "晁错"
+        ],
+        "en": [
+          "Chao Cuo"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉政治家，向汉景帝提议削藩，是七国之乱的导火索之一。",
+          "en": "A statesman of the Western Han dynasty who proposed the reduction of vassal states to Emperor Jing, which was one of the triggers for the Rebellion of the Seven States."
+        }
+      }
+    },
+    {
+      "id": "推恩令",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "推恩令"
+        ],
+        "en": [
+          "Tui'en Ling"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝采纳主父偃建议颁布的一项法令，要求诸侯王将封地分给除嫡长子外的其他子弟，从而削弱诸侯国势力。",
+          "en": "An edict issued by Emperor Wu of Han based on the suggestion of Zhu Fuyan, requiring vassal kings to divide their fiefs among all their sons, not just the eldest, thereby weakening the power of the vassal states."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘邦",
+      "target": "西汉",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-0202-02-28",
+        "description": {
+          "zh-cn": "在楚汉战争中获胜后，刘邦于前202年2月28日称帝，建立汉朝。",
+          "en": "After winning the Chu-Han Contention, Liu Bang proclaimed himself emperor on February 28, 202 BCE, and established the Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "项羽",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "-0206 - -0202",
+        "description": {
+          "zh-cn": "刘邦与项羽在楚汉战争中为争夺天下而相互对抗。",
+          "en": "Liu Bang and Xiang Yu were adversaries during the Chu-Han Contention, fighting for control over China."
+        }
+      }
+    },
+    {
+      "source": "垓下之战",
+      "target": "项羽",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0202",
+        "description": {
+          "zh-cn": "项羽在垓下之战中被刘邦的联军击败，最终在乌江自刎。",
+          "en": "Xiang Yu was defeated by Liu Bang's coalition forces at the Battle of Gaixia, ultimately leading to his suicide at the Wu River."
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "垓下之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0202",
+        "description": {
+          "zh-cn": "刘邦联合其他诸侯发动了垓下之战，并取得了最终胜利。",
+          "en": "Liu Bang initiated the Battle of Gaixia in coalition with other feudal lords and achieved the final victory."
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "西汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0009-01-10",
+        "description": {
+          "zh-cn": "王莽篡夺了西汉皇位，废孺子婴，自立为帝，导致西汉灭亡。",
+          "en": "Wang Mang usurped the throne of the Western Han, deposed Emperor Ruzi Ying, established himself as emperor, and brought about the end of the Western Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "王莽",
+      "target": "新朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "0009-01-10",
+        "description": {
+          "zh-cn": "王莽在篡夺西汉政权后，建立了国号为“新”的朝代。",
+          "en": "After usurping the Western Han regime, Wang Mang established a new dynasty with the title 'Xin'."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "罢黜百家独尊儒术",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝采纳了董仲舒的建议，推行“罢黜百家，独尊儒术”的政策，确立了儒学在中国思想文化中的主导地位。",
+          "en": "Emperor Wu of Han adopted Dong Zhongshu's suggestion and implemented the policy of 'Dismissing the Hundred Schools of Thought and exclusively revering Confucianism', establishing the dominance of Confucianism in Chinese thought and culture."
+        }
+      }
+    },
+    {
+      "source": "董仲舒",
+      "target": "罢黜百家独尊儒术",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "董仲舒向汉武帝建议实行“罢黜百家，独尊儒术”的政策。",
+          "en": "Dong Zhongshu advised Emperor Wu of Han to implement the policy of 'Dismissing the Hundred Schools of Thought and exclusively revering Confucianism'."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "汉匈战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝改变了汉初对匈奴的和亲政策，发动了一系列大规模军事战役打击匈奴。",
+          "en": "Emperor Wu of Han changed the early Han policy of appeasement towards the Xiongnu and launched a series of large-scale military campaigns against them."
+        }
+      }
+    },
+    {
+      "source": "汉匈战争",
+      "target": "匈奴",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝时期的汉匈战争使匈奴遭受重创，远徙漠北，保障了汉朝北方的安全。",
+          "en": "The Han-Xiongnu War during Emperor Wu's reign inflicted heavy losses on the Xiongnu, forcing them to migrate far north of the Gobi Desert and securing the northern frontier of the Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "张骞",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝派遣张骞出使西域，以寻求联合西域各国夹击匈奴。",
+          "en": "Emperor Wu of Han dispatched Zhang Qian on a mission to the Western Regions to seek alliances with various states to jointly attack the Xiongnu."
+        }
+      }
+    },
+    {
+      "source": "张骞",
+      "target": "丝绸之路",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "张骞出使西域打通了汉朝与中亚的贸易通道，从而开辟了丝绸之路。",
+          "en": "Zhang Qian's mission to the Western Regions opened up trade routes between the Han dynasty and Central Asia, thereby establishing the Silk Road."
+        }
+      }
+    },
+    {
+      "source": "吕雉",
+      "target": "韩信",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉初，吕雉（吕后）用计处死了功高震主的异姓王韩信。",
+          "en": "In the early Han dynasty, Empress Lü Zhi (Lü Hou) had Han Xin, a powerful vassal king of a different surname, executed through a stratagem."
+        }
+      }
+    },
+    {
+      "source": "晁错",
+      "target": "七国之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0154",
+        "description": {
+          "zh-cn": "晁错向汉景帝建议削减诸侯王的封地，直接引发了吴楚等七国的武装叛乱。",
+          "en": "Chao Cuo's proposal to Emperor Jing to reduce the fiefs of the vassal kings directly triggered the armed rebellion of the Seven States, including Wu and Chu."
+        }
+      }
+    },
+    {
+      "source": "汉景帝",
+      "target": "七国之乱",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0154",
+        "description": {
+          "zh-cn": "汉景帝派遣太尉周亚夫率领大军成功讨平了七国之乱，巩固了中央集权。",
+          "en": "Emperor Jing dispatched Grand Marshal Zhou Yafu with a large army to successfully suppress the Rebellion of the Seven States, consolidating central authority."
+        }
+      }
+    },
+    {
+      "source": "司马迁",
+      "target": "史记",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "司马迁撰写了中国第一部纪传体通史《史记》。",
+          "en": "Sima Qian authored the 'Records of the Grand Historian' (Shiji), the first comprehensive history of China written in a biographical style."
+        }
+      }
+    },
+    {
+      "source": "推恩令",
+      "target": "诸侯王",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝时期颁布的推恩令通过分割封国来削弱诸侯王的势力，加强了中央集权。",
+          "en": "The Tui'en Ling edict, issued during Emperor Wu's reign, weakened the power of the vassal kings by dividing their fiefdoms, thereby strengthening central authority."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "推恩令",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "汉武帝采纳主父偃的建议，颁布推恩令以削弱地方诸侯国的势力。",
+          "en": "Emperor Wu of Han adopted Zhu Fuyan's suggestion and issued the Tui'en Ling edict to weaken the power of local vassal states."
+        }
+      }
+    }
+  ]
+}
