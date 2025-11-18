@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "张德仁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张德仁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1942 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "海口",
+          "en": "Haikou"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国人民解放军少将。",
+          "en": "A political figure of the People's Republic of China and a major general in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "海口",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "海口"
+        ],
+        "en": [
+          "Haikou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国海南省的省会，张德仁的出生地。",
+          "en": "The capital of Hainan Province, People's Republic of China, and the birthplace of Zhang Deren."
+        }
+      }
+    },
+    {
+      "id": "中共湖南省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共湖南省委"
+        ],
+        "en": [
+          "Hunan Provincial Committee of the Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在湖南省的领导机关。",
+          "en": "The leading organ of the Chinese Communist Party in Hunan Province."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军湖南省军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军湖南省军区"
+        ],
+        "en": [
+          "Hunan Provincial Military District of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军在湖南省设立的军事组织。",
+          "en": "The military organization established by the People's Liberation Army in Hunan Province."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军少将"
+        ],
+        "en": [
+          "Major General of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的将官军衔之一。",
+          "en": "One of the general officer ranks of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Chinese Communist Party",
+          "Communist Party of China",
+          "CCP"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张德仁",
+      "target": "海口",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "张德仁出生于广东海口（今属海南省）。",
+          "en": "Zhang Deren was born in Haikou, Guangdong (now part of Hainan Province)."
+        }
+      }
+    },
+    {
+      "source": "张德仁",
+      "target": "中共湖南省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常委",
+          "en": "Member of the Standing Committee"
+        },
+        "description": {
+          "zh-cn": "张德仁曾任中共湖南省委常委。",
+          "en": "Zhang Deren once served as a member of the Standing Committee of the CCP Hunan Provincial Committee."
+        }
+      }
+    },
+    {
+      "source": "张德仁",
+      "target": "中国人民解放军湖南省军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "张德仁曾任中国人民解放军湖南省军区司令员。",
+          "en": "Zhang Deren once served as the Commander of the PLA Hunan Military District."
+        }
+      }
+    },
+    {
+      "source": "张德仁",
+      "target": "中国人民解放军少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "少将",
+          "en": "Major General"
+        },
+        "description": {
+          "zh-cn": "张德仁拥有中国人民解放军少将军衔。",
+          "en": "Zhang Deren held the rank of Major General in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "张德仁",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，张德仁是中国共产党党员。",
+          "en": "According to the Wikipedia category, Zhang Deren is a member of the Chinese Communist Party."
+        }
+      }
+    }
+  ]
+}
