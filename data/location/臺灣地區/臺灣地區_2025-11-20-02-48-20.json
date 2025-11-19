@@ -1,0 +1,663 @@
+{
+  "nodes": [
+    {
+      "id": "台湾地区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾地区",
+          "台澎金马",
+          "台闽地区",
+          "自由地区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指台湾、澎湖、金门、马祖及中华民国政府现行统治权所及之其他地区，为海峡两岸关系中的常用法律与政治术语。",
+          "en": "Refers to Taiwan, Penghu, Kinmen, Matsu, and other areas under the effective control of the Government of the Republic of China; a common legal and political term in Cross-Strait relations."
+        }
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国"
+        ],
+        "en": [
+          "Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1912-01-01 - ",
+        "description": {
+          "zh-cn": "1912年成立的亚洲共和制国家。1949年，其政府在第二次国共内战失利后迁至台湾，其实际统治区域通常被称为“台湾地区”或“自由地区”。",
+          "en": "A republican state in Asia founded in 1912. After losing the second Chinese Civil War, its government relocated to Taiwan in 1949. Its effective jurisdiction is commonly referred to as the 'Taiwan Area' or 'Free Area'."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国大陆"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "1949年成立的社会主义国家，由中国共产党领导，实际统治中国大陆、香港和澳门。",
+          "en": "A socialist state founded in 1949, led by the Communist Party of China, with effective control over Mainland China, Hong Kong, and Macau."
+        }
+      }
+    },
+    {
+      "id": "中华民国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国政府"
+        ],
+        "en": [
+          "Government of the Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的中央政府，于1949年因在第二次国共内战中失利而将其所在地迁至台湾。",
+          "en": "The central government of the Republic of China, which relocated to Taiwan in 1949 after its defeat in the second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国政府",
+          "中央人民政府"
+        ],
+        "en": [
+          "Government of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的中央政府。",
+          "en": "The central government of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党",
+          "泛蓝"
+        ],
+        "en": [
+          "Kuomintang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的主要政党之一，通常被称为泛蓝阵营，在两岸关系上强调《中华民国宪法》框架并坚持使用“中华民国”正式国号。",
+          "en": "One of the major political parties in the Republic of China, often referred to as the Pan-Blue Coalition, which emphasizes the framework of the ROC Constitution in cross-strait relations and insists on using the official name 'Republic of China'."
+        }
+      }
+    },
+    {
+      "id": "民主进步党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主进步党",
+          "泛绿"
+        ],
+        "en": [
+          "Democratic Progressive Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的主要政党之一，通常被称为泛绿阵营，主张台湾与中华人民共和国互不隶属，并常使用“台湾”作为国家通称。",
+          "en": "One of the major political parties in the Republic of China, often referred to as the Pan-Green Coalition, which asserts that Taiwan and the People's Republic of China are not subordinate to each other and frequently uses 'Taiwan' as the common name for the country."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的创始者和唯一执政党。",
+          "en": "The founding and sole ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "美国联邦政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国联邦政府",
+          "美国"
+        ],
+        "en": [
+          "Federal government of the United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的中央政府。其对台政策以《台湾关系法》、《中美三个联合公报》和《六项保证》等文件为基础，实行“一中政策”。",
+          "en": "The central government of the United States. Its Taiwan policy is based on documents such as the Taiwan Relations Act, the Three Joint Communiqués, and the Six Assurances, implementing a 'One China Policy'."
+        }
+      }
+    },
+    {
+      "id": "日本国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本国政府",
+          "日本"
+        ],
+        "en": [
+          "Government of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的中央政府。其对台立场受《旧金山和约》及《中日联合声明》影响。",
+          "en": "The central government of Japan. Its stance on Taiwan is influenced by the Treaty of San Francisco and the Japan-China Joint Communiqué."
+        }
+      }
+    },
+    {
+      "id": "联合国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国"
+        ],
+        "en": [
+          "United Nations"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全球性的政府间国际组织。自1971年联合国大会第2758号决议通过后，由中华人民共和国政府代表“中国”席位。",
+          "en": "A global intergovernmental organization. Since the passage of UN General Assembly Resolution 2758 in 1971, the 'China' seat has been represented by the government of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战"
+        ],
+        "en": [
+          "Second Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1945 - 1949",
+        "description": {
+          "zh-cn": "中国国民党与中国共产党之间第二次大规模内战，以国民党政府战败并迁往台湾告终。",
+          "en": "The second major civil war between the Kuomintang and the Communist Party of China, which ended with the defeat of the KMT government and its relocation to Taiwan."
+        }
+      }
+    },
+    {
+      "id": "中华民国政府迁台",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中华民国政府迁台"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-12",
+        "description": {
+          "zh-cn": "1949年12月，中华民国政府因在第二次国共内战中失利而将其中央政府迁移至台湾台北市的事件。",
+          "en": "The event in December 1949 where the government of the Republic of China relocated its central government to Taipei, Taiwan, due to its defeat in the second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "台湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾"
+        ],
+        "en": [
+          "Taiwan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于太平洋西部的岛屿，是中华民国政府当前的主要统治地区。",
+          "en": "An island in the Western Pacific that is the main territory under the current administration of the Republic of China government."
+        }
+      }
+    },
+    {
+      "id": "中华民国宪法增修条文",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华民国宪法增修条文"
+        ],
+        "en": [
+          "Additional Articles of the Constitution of the Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "为应对两岸分治现实而对《中华民国宪法》进行的增修，在法律上定义了“自由地区”与“大陆地区”的概念。",
+          "en": "Amendments to the Constitution of the Republic of China made to address the reality of cross-strait division, legally defining the concepts of 'Free Area' and 'Mainland Area'."
+        }
+      }
+    },
+    {
+      "id": "台湾地区与大陆地区人民关系条例",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "台湾地区与大陆地区人民关系条例",
+          "两岸关系条例"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "规范台湾地区与大陆地区人民往来及处理衍生法律事件的中华民国法律。",
+          "en": "A law of the Republic of China that governs the interactions between people of the Taiwan Area and the Mainland Area and handles related legal matters."
+        }
+      }
+    },
+    {
+      "id": "一个中国 (中华人民共和国)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "一个中国 (中华人民共和国)",
+          "一中原则"
+        ],
+        "en": [
+          "One China principle"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的政治原则，主张世界上只有一个中国，中华人民共和国政府是唯一合法政府，台湾是中国的一部分。",
+          "en": "The political principle of the People's Republic of China, which asserts that there is only one China in the world, the PRC government is the sole legal government, and Taiwan is part of China."
+        }
+      }
+    },
+    {
+      "id": "台湾关系法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "台湾关系法"
+        ],
+        "en": [
+          "Taiwan Relations Act"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国国内法，自1979年起规范美国与台湾之间的非官方关系。",
+          "en": "A U.S. domestic law that has governed the unofficial relations between the United States and Taiwan since 1979."
+        }
+      }
+    },
+    {
+      "id": "中美三个联合公报",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中美三个联合公报"
+        ],
+        "en": [
+          "Three Joint Communiqués"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国与美国之间签署的三份联合公报，是两国关系的基础性文件。",
+          "en": "Three joint statements signed by the People's Republic of China and the United States, which serve as foundational documents for the relationship between the two countries."
+        }
+      }
+    },
+    {
+      "id": "六项保证",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "六项保证"
+        ],
+        "en": [
+          "Six Assurances"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1982年美国对中华民国提出的六点承诺，作为对《八一七公报》的补充说明。",
+          "en": "Six points of commitment made by the United States to the Republic of China in 1982, serving as a supplement to the August 17 Communiqué."
+        }
+      }
+    },
+    {
+      "id": "联合国大会第2758号决议",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "联合国大会第2758号决议"
+        ],
+        "en": [
+          "United Nations General Assembly Resolution 2758"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1971年联合国大会通过的决议，承认中华人民共和国政府为中国在联合国的唯一合法代表，并驱逐了中华民国的代表。",
+          "en": "A resolution passed by the UN General Assembly in 1971 that recognized the government of the People's Republic of China as the only legitimate representative of China to the United Nations and expelled the representatives of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "旧金山和约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "旧金山和约"
+        ],
+        "en": [
+          "Treaty of San Francisco"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次世界大战后同盟国与日本签订的和平条约，其中日本放弃对台湾及澎湖等岛屿的主权。",
+          "en": "A post-World War II peace treaty between the Allied Powers and Japan, in which Japan renounced its sovereignty over Taiwan, the Pescadores, and other islands."
+        }
+      }
+    },
+    {
+      "id": "中日联合声明",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中日联合声明"
+        ],
+        "en": [
+          "Japan-China Joint Communiqué"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1972年中华人民共和国与日本国为建立外交关系而签署的联合声明。",
+          "en": "The joint communiqué signed by the People's Republic of China and Japan in 1972 to establish diplomatic relations."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "第二次国共内战",
+      "target": "中华民国政府",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1949",
+        "description": {
+          "zh-cn": "中华民国政府在第二次国共内战中失利。",
+          "en": "The government of the Republic of China was defeated in the second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "中华民国政府迁台",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949",
+        "description": {
+          "zh-cn": "由于在第二次国共内战中失利，中华民国政府被迫迁往台湾。",
+          "en": "Due to its defeat in the second Chinese Civil War, the government of the Republic of China was forced to relocate to Taiwan."
+        }
+      }
+    },
+    {
+      "source": "中华民国政府迁台",
+      "target": "台湾",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1949-12",
+        "description": {
+          "zh-cn": "中华民国政府于1949年12月将其所在地迁至台湾，开启了两岸分治的格局。",
+          "en": "The government of the Republic of China relocated to Taiwan in December 1949, initiating the era of cross-strait division."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-10-01",
+        "description": {
+          "zh-cn": "中国共产党是中华人民共和国的创立者和唯一执政党。",
+          "en": "The Communist Party of China is the founder and sole ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "中国国民党",
+      "target": "中华民国",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "中国国民党是中华民国的创建政党，并在1949年后长期在台湾执政。在当代政治中，以其为首的泛蓝阵营坚持使用“中华民国”的正式国号。",
+          "en": "The Kuomintang is the founding party of the Republic of China and was the long-term ruling party in Taiwan after 1949. In contemporary politics, the Pan-Blue Coalition, led by the KMT, insists on using the official name 'Republic of China'."
+        }
+      }
+    },
+    {
+      "source": "中华民国",
+      "target": "中华人民共和国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1949",
+        "description": {
+          "zh-cn": "自1949年两岸分治以来，中华民国与中华人民共和国长期处于政治、军事对峙状态。",
+          "en": "Since the cross-strait division in 1949, the Republic of China and the People's Republic of China have been in a long-term state of political and military confrontation."
+        }
+      }
+    },
+    {
+      "source": "台湾地区与大陆地区人民关系条例",
+      "target": "台湾地区",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1992",
+        "description": {
+          "zh-cn": "该条例以法律形式明确定义了“台湾地区”的范围，包含台湾、澎湖、金门、马祖及政府统治权所及之其他地区。",
+          "en": "This act legally defines the scope of the 'Taiwan Area' to include Taiwan, Penghu, Kinmen, Matsu, and other areas under the government's effective jurisdiction."
+        }
+      }
+    },
+    {
+      "source": "中华民国宪法增修条文",
+      "target": "台湾地区",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1991",
+        "description": {
+          "zh-cn": "该宪法增修条文将中华民国有效统治领土定义为“自由地区”，与“台湾地区”概念在法律上趋同，并与“大陆地区”相对应。",
+          "en": "These constitutional amendments define the effective territory of the ROC as the 'Free Area', which legally converges with the concept of 'Taiwan Area' and is contrasted with the 'Mainland Area'."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国政府",
+      "target": "一个中国 (中华人民共和国)",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府提出并坚持“一个中国原则”作为其处理台湾问题的基本方针。",
+          "en": "The government of the People's Republic of China proposes and adheres to the 'One China Principle' as its fundamental policy for handling the Taiwan issue."
+        }
+      }
+    },
+    {
+      "source": "一个中国 (中华人民共和国)",
+      "target": "中华民国",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的“一个中国原则”否认中华民国作为一个主权国家的地位。",
+          "en": "The 'One China Principle' of the People's Republic of China denies the status of the Republic of China as a sovereign state."
+        }
+      }
+    },
+    {
+      "source": "民主进步党",
+      "target": "台湾",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "以民主进步党为首的泛绿阵营常直接使用“台湾”作为中华民国的通称，以强调其主体性。",
+          "en": "The Pan-Green Coalition, led by the Democratic Progressive Party, often uses 'Taiwan' as the common name for the Republic of China to emphasize its sovereignty."
+        }
+      }
+    },
+    {
+      "source": "台湾关系法",
+      "target": "美国联邦政府",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1979",
+        "description": {
+          "zh-cn": "美国联邦政府依照《台湾关系法》来处理与台湾的非官方关系事务。",
+          "en": "The U.S. federal government handles its unofficial relations with Taiwan in accordance with the Taiwan Relations Act."
+        }
+      }
+    },
+    {
+      "source": "中美三个联合公报",
+      "target": "美国联邦政府",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《中美三个联合公报》是构成美国对华及对台政策的重要基础文件。",
+          "en": "The Three Joint Communiqués are important foundational documents that shape U.S. policy towards China and Taiwan."
+        }
+      }
+    },
+    {
+      "source": "六项保证",
+      "target": "美国联邦政府",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "《六项保证》是美国对台政策的重要准则之一。",
+          "en": "The Six Assurances are one of the key guidelines for U.S. policy towards Taiwan."
+        }
+      }
+    },
+    {
+      "source": "美国联邦政府",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1979-01-01",
+        "description": {
+          "zh-cn": "美国政府承认中华人民共和国是代表“中国”的唯一合法政府。",
+          "en": "The U.S. government recognizes the People's Republic of China as the sole legal government representing 'China'."
+        }
+      }
+    },
+    {
+      "source": "美国联邦政府",
+      "target": "台湾",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "美国联邦政府的政策不承认台湾是主权独立国家，认为其地位未定。",
+          "en": "The policy of the U.S. federal government does not recognize Taiwan as a sovereign independent state, considering its status to be unsettled."
+        }
+      }
+    },
+    {
+      "source": "旧金山和约",
+      "target": "日本国政府",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1951-09-08",
+        "description": {
+          "zh-cn": "日本国政府在《旧金山和约》中放弃对台湾及澎湖等岛屿的一切权利，此条约影响了其战后对台立场。",
+          "en": "In the Treaty of San Francisco, the Government of Japan renounced all rights to Taiwan and the Pescadores, which has influenced its post-war stance on Taiwan."
+        }
+      }
+    },
+    {
+      "source": "中日联合声明",
+      "target": "日本国政府",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1972-09-29",
+        "description": {
+          "zh-cn": "日本国政府在《中日联合声明》中对中华人民共和国宣称台湾是其领土的立场表示理解和尊重。",
+          "en": "In the Japan-China Joint Communiqué, the Government of Japan expressed its understanding and respect for the PRC's position that Taiwan is a territory of the PRC."
+        }
+      }
+    },
+    {
+      "source": "联合国大会第2758号决议",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1971-10-25",
+        "description": {
+          "zh-cn": "该决议恢复了中华人民共和国在联合国的一切合法权利，并承认其政府为中国在联合国的唯一合法代表。",
+          "en": "This resolution restored all legitimate rights of the People's Republic of China in the United Nations and recognized its government as the sole legal representative of China in the UN."
+        }
+      }
+    },
+    {
+      "source": "联合国大会第2758号决议",
+      "target": "中华民国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1971-10-25",
+        "description": {
+          "zh-cn": "该决议导致中华民国的代表被逐出联合国，使其失去了在联合国的“中国”席位。",
+          "en": "This resolution led to the expulsion of the representatives of the Republic of China from the United Nations, causing it to lose the 'China' seat in the organization."
+        }
+      }
+    }
+  ]
+}

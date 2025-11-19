@@ -1,0 +1,273 @@
+{
+  "nodes": [
+    {
+      "id": "钟书樵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "钟书樵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1933 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "湖北孝南",
+          "en": "Xiaonan, Hubei"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中共湖北省委常委、组织部部长，湖北省政协副主席。",
+          "en": "Politician of the People's Republic of China, former member of the Standing Committee and Director of the Organization Department of the Hubei Provincial Committee of the Communist Party of China, and former Vice Chairman of the Hubei Provincial Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "湖北省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖北省",
+          "湖北"
+        ],
+        "en": [
+          "Hubei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区。",
+          "en": "A provincial-level administrative division of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "孝南区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "孝南区",
+          "孝南"
+        ],
+        "en": [
+          "Xiaonan District"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国湖北省孝感市下辖的市辖区。",
+          "en": "A district under the administration of Xiaogan City, Hubei Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为“中国”。",
+          "en": "A socialist state in East Asia, commonly known as 'China'."
+        }
+      }
+    },
+    {
+      "id": "中国共产党湖北省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党湖北省委员会",
+          "中共湖北省委"
+        ],
+        "en": [
+          "Hubei Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "湖北省",
+          "en": "Hubei"
+        },
+        "description": {
+          "zh-cn": "中国共产党在湖北省的领导机关。",
+          "en": "The leading body of the Communist Party of China in Hubei Province."
+        }
+      }
+    },
+    {
+      "id": "中国共产党湖北省委员会组织部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党湖北省委员会组织部",
+          "中共湖北省委组织部",
+          "组织部"
+        ],
+        "en": [
+          "Organization Department of the Hubei Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党湖北省委员会负责组织工作和干部工作的职能部门。",
+          "en": "The functional department of the CPC Hubei Provincial Committee responsible for organizational work and cadre management."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议湖北省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议湖北省委员会",
+          "湖北省政协"
+        ],
+        "en": [
+          "Hubei Provincial Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "湖北省",
+          "en": "Hubei"
+        },
+        "description": {
+          "zh-cn": "中国人民政治协商会议在湖北省的地方组织。",
+          "en": "The local organization of the Chinese People's Political Consultative Conference in Hubei Province."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党湖北省委员会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党湖北省委员会常务委员会",
+          "中共湖北省委常委"
+        ],
+        "en": [
+          "Standing Committee of the Hubei Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党湖北省委员会的常设机构，由省委全体会议选举产生，在省委全体会议闭会期间行使其职权。",
+          "en": "The standing body of the Hubei Provincial Committee of the Communist Party of China, elected by the plenary session of the Provincial Committee, which exercises its powers and functions when the plenary session is not in session."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "钟书樵",
+      "target": "孝南区",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1933"
+      }
+    },
+    {
+      "source": "钟书樵",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据“中国共产党党员”分类，钟书樵是中国共产党党员。",
+          "en": "According to the category 'Communist Party of China members', Zhong Shuqiao is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "钟书樵",
+      "target": "中国共产党湖北省委员会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        },
+        "description": {
+          "zh-cn": "曾任中共湖北省委常委。",
+          "en": "Served as a member of the Standing Committee of the CPC Hubei Provincial Committee."
+        }
+      }
+    },
+    {
+      "source": "钟书樵",
+      "target": "中国共产党湖北省委员会组织部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "部长",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "曾任中共湖北省委组织部部长。",
+          "en": "Served as Director of the Organization Department of the CPC Hubei Provincial Committee."
+        }
+      }
+    },
+    {
+      "source": "钟书樵",
+      "target": "中国人民政治协商会议湖北省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "曾任湖北省政协副主席。",
+          "en": "Served as Vice Chairman of the Hubei Provincial Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "中国共产党湖北省委员会组织部",
+      "target": "中国共产党湖北省委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中共湖北省委组织部是中共湖北省委的职能部门。",
+          "en": "The Organization Department of the CPC Hubei Provincial Committee is a functional department of the CPC Hubei Provincial Committee."
+        }
+      }
+    },
+    {
+      "source": "中国共产党湖北省委员会常务委员会",
+      "target": "中国共产党湖北省委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中共湖北省委常委会是中共湖北省委的常设领导机构。",
+          "en": "The Standing Committee of the CPC Hubei Provincial Committee is the permanent leading body of the CPC Hubei Provincial Committee."
+        }
+      }
+    }
+  ]
+}

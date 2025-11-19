@@ -1,0 +1,374 @@
+{
+  "nodes": [
+    {
+      "id": "王立平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王立平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1967-07 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "河北乐亭",
+          "en": "Leting, Hebei"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员，曾任辽源市市长、中共辽源市委书记。",
+          "en": "A politician of the People's Republic of China, a member of the Communist Party of China, who served as Mayor of Liaoyuan and Secretary of the CPC Liaoyuan Municipal Committee."
+        }
+      }
+    },
+    {
+      "id": "河北",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河北"
+        ],
+        "en": [
+          "Hebei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一个省级行政区。",
+          "en": "A province-level administrative division of China."
+        }
+      }
+    },
+    {
+      "id": "乐亭",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "乐亭"
+        ],
+        "en": [
+          "Leting"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "河北省唐山市辖县。",
+          "en": "A county under the jurisdiction of Tangshan, Hebei."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03",
+        "description": {
+          "zh-cn": "中华人民共和国的最高国家权力机关。",
+          "en": "The highest state authority of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "吉林省政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吉林省政协"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议吉林省委员会。",
+          "en": "Jilin Provincial Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "中共通化市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共通化市委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在通化市的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Tonghua City."
+        }
+      }
+    },
+    {
+      "id": "中共辽源市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共辽源市委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在辽源市的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Liaoyuan City."
+        }
+      }
+    },
+    {
+      "id": "辽源市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辽源市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "辽源市的国家行政机关。",
+          "en": "The state administrative organ of Liaoyuan City."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国生态环境部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国生态环境部",
+          "生态环境部"
+        ],
+        "en": [
+          "Ministry of Ecology and Environment of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院组成部门，主管生态环境工作。",
+          "en": "A constituent department of the State Council of the People's Republic of China, responsible for ecological and environmental work."
+        }
+      }
+    },
+    {
+      "id": "中共吉林省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共吉林省委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在吉林省的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Jilin Province."
+        }
+      }
+    },
+    {
+      "id": "中共吉林省委军民融合办",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共吉林省委军民融合办"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中共吉林省委军民融合发展委员会办公室。",
+          "en": "Office of the Jilin Provincial Committee for Integrated Military and Civilian Development."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王立平",
+      "target": "乐亭",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "王立平是河北乐亭人。",
+          "en": "Wang Liping is from Leting, Hebei."
+        }
+      }
+    },
+    {
+      "source": "王立平",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "王立平是中国共产党党员。",
+          "en": "Wang Liping is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "王立平",
+      "target": "吉林省政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "研究室副主任、主任，副秘书长兼研究室主任",
+          "en": "Deputy Director and Director of the Research Office, Deputy Secretary-General and Director of the Research Office"
+        },
+        "description": {
+          "zh-cn": "王立平曾先后担任吉林省政协研究室副主任、主任，以及吉林省政协副秘书长兼研究室主任。",
+          "en": "Wang Liping successively served as Deputy Director and Director of the Research Office of the Jilin Provincial CPPCC, and Deputy Secretary-General and Director of the Research Office of the Jilin Provincial CPPCC."
+        }
+      }
+    },
+    {
+      "source": "王立平",
+      "target": "中共通化市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        },
+        "description": {
+          "zh-cn": "王立平曾担任中共通化市委副书记。",
+          "en": "Wang Liping served as Deputy Secretary of the CPC Tonghua Municipal Committee."
+        }
+      }
+    },
+    {
+      "source": "王立平",
+      "target": "辽源市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015",
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "2015年，王立平出任辽源市市长。",
+          "en": "In 2015, Wang Liping became the Mayor of Liaoyuan."
+        }
+      }
+    },
+    {
+      "source": "王立平",
+      "target": "中共辽源市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015",
+        "end_date": "2018-03",
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        },
+        "description": {
+          "zh-cn": "2015年，王立平出任中共辽源市委副书记。",
+          "en": "In 2015, Wang Liping became the Deputy Secretary of the CPC Liaoyuan Municipal Committee."
+        }
+      }
+    },
+    {
+      "source": "王立平",
+      "target": "中共辽源市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-03",
+        "end_date": "2018-11",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "2018年3月，王立平升任中共辽源市委书记。",
+          "en": "In March 2018, Wang Liping was promoted to Secretary of the CPC Liaoyuan Municipal Committee."
+        }
+      }
+    },
+    {
+      "source": "王立平",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "吉林地区代表",
+          "en": "Delegate from Jilin region"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，王立平当选为第十三届全国人大代表。",
+          "en": "On February 24, 2018, Wang Liping was elected as a delegate to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国生态环境部",
+      "target": "王立平",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018-11",
+        "description": {
+          "zh-cn": "因王立平在辽源市任职期间对辽河污染防治工作重视不够、推进不力，中华人民共和国生态环境部对其进行通报，此事导致其被免职。",
+          "en": "The Ministry of Ecology and Environment reported Wang Liping for his lack of attention and ineffective promotion of Liao River pollution prevention and control during his tenure in Liaoyuan, which led to his dismissal."
+        }
+      }
+    },
+    {
+      "source": "中共吉林省委",
+      "target": "王立平",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018-11",
+        "description": {
+          "zh-cn": "因辽河污染问题，中共吉林省委于2018年11月免去王立平的中共辽源市委书记职务。",
+          "en": "Due to the Liao River pollution issue, the CPC Jilin Provincial Committee removed Wang Liping from his position as Secretary of the CPC Liaoyuan Municipal Committee in November 2018."
+        }
+      }
+    },
+    {
+      "source": "王立平",
+      "target": "中共吉林省委军民融合办",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2019",
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "2019年，王立平改任中共吉林省委军民融合办副主任。",
+          "en": "In 2019, Wang Liping was reassigned to the position of Deputy Director of the Office of the Jilin Provincial Committee for Integrated Military and Civilian Development."
+        }
+      }
+    }
+  ]
+}
