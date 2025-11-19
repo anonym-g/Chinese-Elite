@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "易耀彩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "易耀彩"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1917 - 1990",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "泰和",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国人民解放军将领，开国少将。曾任军事调处执行部中共代表、北海舰队政治委员。",
+          "en": "A general of the Chinese People's Liberation Army and a founding major general. He served as a CCP representative in the Military Mediation Executive Department and as the Political Commissar of the North Sea Fleet."
+        }
+      }
+    },
+    {
+      "id": "泰和",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "泰和"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "江西",
+          "en": "Jiangxi"
+        },
+        "description": {
+          "zh-cn": "中国江西省的一个县，是易耀彩的出生地。",
+          "en": "A county in Jiangxi Province, China, the birthplace of Yi Yaocai."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的武装力量。",
+          "en": "The armed forces of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军少将"
+        ],
+        "en": [
+          "Major General of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的军衔等级之一。",
+          "en": "One of the military ranks of the Chinese People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战"
+        ],
+        "en": [
+          "Second Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1945 - 1949",
+        "description": {
+          "zh-cn": "指1945年至1949年间，中国国民党与中国共产党之间发生的第二次武装冲突。",
+          "en": "Refers to the second armed conflict between the Kuomintang and the Communist Party of China from 1945 to 1949."
+        }
+      }
+    },
+    {
+      "id": "军事调处执行部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "军事调处执行部"
+        ],
+        "en": [
+          "Military Mediation Executive Department"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次国共内战初期，由国民党、共产党和美国三方代表组成的军事调停机构。",
+          "en": "A military mediation body composed of representatives from the Kuomintang, the Communist Party, and the United States during the early stages of the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "张家口",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "张家口"
+        ],
+        "en": [
+          "Zhangjiakou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国河北省下辖的地级市。",
+          "en": "A prefecture-level city in Hebei Province, China."
+        }
+      }
+    },
+    {
+      "id": "卢仁灿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卢仁灿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军将领，在北海舰队政治委员职务上由易耀彩接任。",
+          "en": "A general of the Chinese People's Liberation Army, succeeded by Yi Yaocai as the Political Commissar of the North Sea Fleet."
+        }
+      }
+    },
+    {
+      "id": "北海舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北海舰队"
+        ],
+        "en": [
+          "North Sea Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军海军三大舰队之一。",
+          "en": "One of the three major fleets of the People's Liberation Army Navy."
+        }
+      }
+    },
+    {
+      "id": "郭炳坤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭炳坤"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军将领，接替易耀彩担任北海舰队政治委员。",
+          "en": "A general of the Chinese People's Liberation Army, who succeeded Yi Yaocai as the Political Commissar of the North Sea Fleet."
+        }
+      }
+    },
+    {
+      "id": "江西",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江西"
+        ],
+        "en": [
+          "Jiangxi"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国省级行政区。",
+          "en": "A provincial-level administrative division of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "易耀彩",
+      "target": "泰和",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "易耀彩",
+      "target": "中国人民解放军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "将领",
+          "en": "General"
+        },
+        "description": {
+          "zh-cn": "易耀彩是中国人民解放军的将领。",
+          "en": "Yi Yaocai was a general in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "易耀彩",
+      "target": "中国人民解放军少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1955",
+        "description": {
+          "zh-cn": "1955年，易耀彩被授予中国人民解放军少将军衔。",
+          "en": "In 1955, Yi Yaocai was awarded the military rank of Major General of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "易耀彩",
+      "target": "军事调处执行部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "period": "第二次国共内战初期",
+        "position": {
+          "zh-cn": "第5执行小组驻张家口中共代表",
+          "en": "CCP Representative of the 5th Executive Group in Zhangjiakou"
+        },
+        "description": {
+          "zh-cn": "在第二次国共内战初期，易耀彩担任军事调处执行部第5执行小组驻张家口中共代表。",
+          "en": "During the early stages of the Second Chinese Civil War, Yi Yaocai served as the CCP Representative of the 5th Executive Group of the Military Mediation Executive Department in Zhangjiakou."
+        }
+      }
+    },
+    {
+      "source": "易耀彩",
+      "target": "北海舰队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1969-08",
+        "end_date": "1972-01",
+        "position": {
+          "zh-cn": "政治委员",
+          "en": "Political Commissar"
+        },
+        "description": {
+          "zh-cn": "易耀彩于1969年8月至1972年1月期间担任北海舰队政治委员。",
+          "en": "Yi Yaocai served as the Political Commissar of the North Sea Fleet from August 1969 to January 1972."
+        }
+      }
+    },
+    {
+      "source": "易耀彩",
+      "target": "卢仁灿",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1969-08",
+        "description": {
+          "zh-cn": "易耀彩接替卢仁灿担任北海舰队政治委员。",
+          "en": "Yi Yaocai succeeded Lu Rencan as the Political Commissar of the North Sea Fleet."
+        }
+      }
+    },
+    {
+      "source": "郭炳坤",
+      "target": "易耀彩",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1972-01",
+        "description": {
+          "zh-cn": "郭炳坤接任易耀彩的北海舰队政治委员职务。",
+          "en": "Guo Bingkun succeeded Yi Yaocai as the Political Commissar of the North Sea Fleet."
+        }
+      }
+    }
+  ]
+}

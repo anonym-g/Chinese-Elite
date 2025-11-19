@@ -1,0 +1,841 @@
+{
+  "nodes": [
+    {
+      "id": "百年战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "百年战争"
+        ],
+        "en": [
+          "Hundred Years' War"
+        ]
+      },
+      "properties": {
+        "period": "1337 - 1453",
+        "location": {
+          "zh-cn": "西欧",
+          "en": "Western Europe"
+        },
+        "description": {
+          "zh-cn": "1337年至1453年间英格兰王国与法兰西王国发生的一系列军事冲突，最终以法国胜利告终，英格兰丧失除加来外的大陆领土。",
+          "en": "A series of military conflicts between the Kingdom of England and the Kingdom of France from 1337 to 1453. It resulted in a French victory, with England losing its continental territories except for Calais."
+        }
+      }
+    },
+    {
+      "id": "英格兰王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英格兰王国"
+        ],
+        "en": [
+          "Kingdom of England"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "百年战争中的主要参战方之一，由金雀花王朝及后来的兰开斯特王朝统治。",
+          "en": "One of the main belligerents in the Hundred Years' War, ruled by the House of Plantagenet and later the House of Lancaster."
+        }
+      }
+    },
+    {
+      "id": "法兰西王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西王国"
+        ],
+        "en": [
+          "Kingdom of France"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "百年战争中的主要参战方之一，由瓦卢瓦王朝统治。",
+          "en": "One of the main belligerents in the Hundred Years' War, ruled by the House of Valois."
+        }
+      }
+    },
+    {
+      "id": "爱德华三世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "爱德华三世",
+          "爱德华三世 (英格兰)"
+        ],
+        "en": [
+          "Edward III",
+          "Edward III of England"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英格兰国王，金雀花王朝成员。因对法兰西王位的继承权主张而引发了百年战争。",
+          "en": "King of England and a member of the House of Plantagenet. His claim to the French throne triggered the Hundred Years' War."
+        }
+      }
+    },
+    {
+      "id": "腓力六世 (法兰西)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "腓力六世 (法兰西)",
+          "腓力六世"
+        ],
+        "en": [
+          "Philip VI of France",
+          "Philip VI"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法兰西国王，瓦卢瓦王朝的开创者。他继承王位导致了与英王爱德华三世的冲突。",
+          "en": "King of France and the founder of the House of Valois. His accession to the throne led to conflict with King Edward III of England."
+        }
+      }
+    },
+    {
+      "id": "查理四世 (法兰西)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查理四世 (法兰西)",
+          "查理四世"
+        ],
+        "en": [
+          "Charles IV of France",
+          "Charles IV"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1328-02-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "卡佩王朝最后一位国王，他的去世且无男性直系继承人，引发了法兰西的王位继承危机，成为百年战争的导火索。",
+          "en": "The last king of the direct House of Capet. His death without a direct male heir caused a succession crisis in France, which became a catalyst for the Hundred Years' War."
+        }
+      }
+    },
+    {
+      "id": "约翰二世 (法兰西)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰二世 (法兰西)",
+          "约翰二世",
+          "好人约翰"
+        ],
+        "en": [
+          "John II of France",
+          "John II",
+          "John the Good"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法兰西国王，在普瓦捷战役中被英军俘虏。",
+          "en": "King of France, captured by the English at the Battle of Poitiers."
+        }
+      }
+    },
+    {
+      "id": "查理五世 (法兰西)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查理五世 (法兰西)",
+          "查理五世",
+          "智者查理"
+        ],
+        "en": [
+          "Charles V of France",
+          "Charles V",
+          "Charles the Wise"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法兰西国王，以其战略才能著称，在位期间收复了大量被英格兰占领的领土。",
+          "en": "King of France, known for his strategic abilities, who recovered much of the territory lost to England during his reign."
+        }
+      }
+    },
+    {
+      "id": "查理六世 (法兰西)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查理六世 (法兰西)",
+          "查理六世"
+        ],
+        "en": [
+          "Charles VI of France",
+          "Charles VI"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法兰西国王，因患有精神疾病导致其统治期间法国陷入内战，并被迫签订《特鲁瓦条约》。",
+          "en": "King of France, whose mental illness led to civil war in France during his reign and forced him to sign the Treaty of Troyes."
+        }
+      }
+    },
+    {
+      "id": "查理七世 (法兰西)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查理七世 (法兰西)",
+          "查理七世",
+          "王太子查理"
+        ],
+        "en": [
+          "Charles VII of France",
+          "Charles VII",
+          "Dauphin Charles"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法兰西国王，在贞德的帮助下加冕并最终领导法国赢得百年战争的胜利。",
+          "en": "King of France, who, with the help of Joan of Arc, was crowned and ultimately led France to victory in the Hundred Years' War."
+        }
+      }
+    },
+    {
+      "id": "贞德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贞德",
+          "圣女贞德"
+        ],
+        "en": [
+          "Joan of Arc"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1431-05-30",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "法兰西民族英雄，在百年战争后期带领法军取得关键胜利，扭转了战局，后被英格兰方面以异端罪名处死。",
+          "en": "A national heroine of France who led the French army to key victories in the later stages of the Hundred Years' War, turning the tide of the conflict, before being executed for heresy by the English."
+        }
+      }
+    },
+    {
+      "id": "亨利五世 (英格兰)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亨利五世 (英格兰)",
+          "亨利五世"
+        ],
+        "en": [
+          "Henry V of England",
+          "Henry V"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英格兰兰开斯特王朝国王，在阿金库尔战役中取得决定性胜利，并通过《特鲁瓦条约》成为法国王位继承人。",
+          "en": "King of England of the House of Lancaster, who won a decisive victory at the Battle of Agincourt and became heir to the French throne through the Treaty of Troyes."
+        }
+      }
+    },
+    {
+      "id": "亨利六世 (英格兰)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亨利六世 (英格兰)",
+          "亨利六世"
+        ],
+        "en": [
+          "Henry VI of England",
+          "Henry VI"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英格兰国王，亨利五世之子，在其统治期间，英格兰在百年战争中最终战败。",
+          "en": "King of England, son of Henry V, during whose reign England was ultimately defeated in the Hundred Years' War."
+        }
+      }
+    },
+    {
+      "id": "黑太子爱德华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黑太子爱德华",
+          "黑太子"
+        ],
+        "en": [
+          "Edward the Black Prince"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英王爱德华三世的长子，杰出的军事指挥官，在普瓦捷战役中大败法军并俘虏法王约翰二世。",
+          "en": "The eldest son of King Edward III of England, an outstanding military commander who defeated the French army and captured King John II at the Battle of Poitiers."
+        }
+      }
+    },
+    {
+      "id": "勃艮第公国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "勃艮第公国"
+        ],
+        "en": [
+          "Duchy of Burgundy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法兰西的强大封国，在百年战争中曾是英格兰的重要盟友，后于1435年转向支持法兰西。",
+          "en": "A powerful vassal state of France, which was an important ally of England during the Hundred Years' War before switching its allegiance to France in 1435."
+        }
+      }
+    },
+    {
+      "id": "阿金库尔战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "阿金库尔战役"
+        ],
+        "en": [
+          "Battle of Agincourt"
+        ]
+      },
+      "properties": {
+        "period": "1415-10-25",
+        "description": {
+          "zh-cn": "百年战争中的关键战役，英王亨利五世率领的英军以少胜多，重创法军。",
+          "en": "A key battle in the Hundred Years' War where the English army, led by King Henry V, achieved a major victory against a numerically superior French army."
+        }
+      }
+    },
+    {
+      "id": "普瓦捷战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "普瓦捷战役"
+        ],
+        "en": [
+          "Battle of Poitiers"
+        ]
+      },
+      "properties": {
+        "period": "1356-09-19",
+        "description": {
+          "zh-cn": "百年战争早期英军的重大胜利，由黑太子爱德华指挥，法王约翰二世在此战中被俘。",
+          "en": "A major English victory in the early phase of the Hundred Years' War, commanded by Edward the Black Prince, where King John II of France was captured."
+        }
+      }
+    },
+    {
+      "id": "克雷西会战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "克雷西会战"
+        ],
+        "en": [
+          "Battle of Crécy"
+        ]
+      },
+      "properties": {
+        "period": "1346-08-26",
+        "description": {
+          "zh-cn": "百年战争中的一场重要战役，英格兰长弓手在此战中展现了巨大优势，击败了法军。",
+          "en": "An important battle in the Hundred Years' War where English longbowmen demonstrated their significant advantage, defeating the French army."
+        }
+      }
+    },
+    {
+      "id": "奥尔良围城战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "奥尔良围城战",
+          "奥尔良之围"
+        ],
+        "en": [
+          "Siege of Orléans"
+        ]
+      },
+      "properties": {
+        "period": "1428 - 1429",
+        "description": {
+          "zh-cn": "百年战争的转折点，圣女贞德率领法军成功解除英军对奥尔良的包围。",
+          "en": "The turning point of the Hundred Years' War, where Joan of Arc led the French army to successfully lift the English siege of Orléans."
+        }
+      }
+    },
+    {
+      "id": "卡斯蒂永战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "卡斯蒂永战役"
+        ],
+        "en": [
+          "Battle of Castillon"
+        ]
+      },
+      "properties": {
+        "period": "1453-07-17",
+        "description": {
+          "zh-cn": "百年战争的最后一场主要战役，法军凭借火炮优势取得决定性胜利，标志着战争的结束。",
+          "en": "The final major battle of the Hundred Years' War, where the French army achieved a decisive victory with its artillery superiority, marking the end of the war."
+        }
+      }
+    },
+    {
+      "id": "特鲁瓦条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "特鲁瓦条约"
+        ],
+        "en": [
+          "Treaty of Troyes"
+        ]
+      },
+      "properties": {
+        "period": "1420",
+        "description": {
+          "zh-cn": "英格兰与法兰西签订的条约，剥夺了王太子查理的继承权，并立英王亨利五世为法国王位继承人。",
+          "en": "A treaty signed between England and France that disinherited the Dauphin Charles and made King Henry V of England the heir to the French throne."
+        }
+      }
+    },
+    {
+      "id": "布勒丁尼条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "布勒丁尼条约"
+        ],
+        "en": [
+          "Treaty of Brétigny"
+        ]
+      },
+      "properties": {
+        "period": "1360",
+        "description": {
+          "zh-cn": "百年战争第一阶段结束后签订的和平条约，英格兰获得法兰西西南部大片领土的合法统治权。",
+          "en": "A peace treaty signed after the first phase of the Hundred Years' War, granting England legal sovereignty over large areas in southwestern France."
+        }
+      }
+    },
+    {
+      "id": "贝特朗·杜·盖克兰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贝特朗·杜·盖克兰",
+          "盖克兰"
+        ],
+        "en": [
+          "Bertrand du Guesclin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法兰西杰出的军事指挥官，在查理五世时期通过游击战术为法国收复了大量失地。",
+          "en": "An outstanding French military commander who, during the reign of Charles V, recovered vast amounts of lost territory for France through guerrilla tactics."
+        }
+      }
+    },
+    {
+      "id": "无畏的约翰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "无畏的约翰",
+          "约翰 (勃艮第公爵)"
+        ],
+        "en": [
+          "John the Fearless",
+          "John, Duke of Burgundy"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1419-09-10",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "勃艮第公爵，因密谋刺杀奥尔良公爵路易而引发了法国的内战，后与英格兰结盟。",
+          "en": "Duke of Burgundy, who triggered a civil war in France by orchestrating the assassination of Louis, Duke of Orléans, and later allied with England."
+        }
+      }
+    },
+    {
+      "id": "路易一世 (奥尔良公爵)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "路易一世 (奥尔良公爵)",
+          "奥尔良的路易"
+        ],
+        "en": [
+          "Louis I, Duke of Orléans"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1407",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法王查理六世之弟，在与勃艮第公爵的权力斗争中被刺杀，引发了阿马尼亚克派与勃艮第派内战。",
+          "en": "Brother of King Charles VI of France, who was assassinated during a power struggle with the Duke of Burgundy, sparking the Armagnac–Burgundian Civil War."
+        }
+      }
+    },
+    {
+      "id": "阿马尼亚克派与勃艮第派内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "阿马尼亚克派与勃艮第派内战"
+        ],
+        "en": [
+          "Armagnac–Burgundian Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1407 - 1435",
+        "description": {
+          "zh-cn": "法兰西王国的一场内战，发生在奥尔良派（后称阿马尼亚克派）与勃艮第派之间，严重削弱了法国的实力，为英格兰的入侵创造了条件。",
+          "en": "A civil war in the Kingdom of France between the Orléanist (later Armagnac) and Burgundian factions, which severely weakened France and created an opportunity for the English invasion."
+        }
+      }
+    },
+    {
+      "id": "瓦卢瓦的凯瑟琳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "瓦卢瓦的凯瑟琳",
+          "凯瑟琳"
+        ],
+        "en": [
+          "Catherine of Valois"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "法王查理六世的女儿，根据《特鲁瓦条约》嫁给英王亨利五世，是亨利六世的母亲。",
+          "en": "Daughter of King Charles VI of France, who married King Henry V of England according to the Treaty of Troyes and was the mother of Henry VI."
+        }
+      }
+    },
+    {
+      "id": "第一代什鲁斯伯里伯爵约翰·塔尔博特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "第一代什鲁斯伯里伯爵约翰·塔尔博特",
+          "约翰·塔尔博特"
+        ],
+        "en": [
+          "John Talbot, 1st Earl of Shrewsbury",
+          "John Talbot"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1453-07-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "百年战争末期著名的英格兰军事将领，在卡斯蒂永战役中战死。",
+          "en": "A renowned English military commander in the later stages of the Hundred Years' War, who was killed at the Battle of Castillon."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "英格兰王国",
+      "target": "法兰西王国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1337",
+        "end_date": "1453",
+        "description": {
+          "zh-cn": "英格兰王国与法兰西王国在百年战争中是主要敌对国家。",
+          "en": "The Kingdom of England and the Kingdom of France were the main adversaries in the Hundred Years' War."
+        }
+      }
+    },
+    {
+      "source": "爱德华三世",
+      "target": "百年战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1337",
+        "description": {
+          "zh-cn": "英王爱德华三世主张拥有法兰西王位继承权，并以此为由向法国开战，引发了百年战争。",
+          "en": "King Edward III of England claimed the right to the French throne and declared war on France on this pretext, triggering the Hundred Years' War."
+        }
+      }
+    },
+    {
+      "source": "腓力六世 (法兰西)",
+      "target": "爱德华三世",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1337",
+        "description": {
+          "zh-cn": "腓力六世宣布收回爱德华三世在法国的所有领地，成为英法两国全面开战的直接原因。",
+          "en": "Philip VI's declaration to confiscate all of Edward III's territories in France was the direct cause for the full-scale war between England and France."
+        }
+      }
+    },
+    {
+      "source": "普瓦捷战役",
+      "target": "约翰二世 (法兰西)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1356-09-19",
+        "description": {
+          "zh-cn": "在普瓦捷战役中，法王约翰二世被黑太子爱德华率领的英军俘虏。",
+          "en": "In the Battle of Poitiers, King John II of France was captured by the English army led by Edward the Black Prince."
+        }
+      }
+    },
+    {
+      "source": "黑太子爱德华",
+      "target": "普瓦捷战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1356-09-19",
+        "description": {
+          "zh-cn": "黑太子爱德华指挥英军在普瓦捷战役中取得决定性胜利。",
+          "en": "Edward the Black Prince commanded the English forces to a decisive victory in the Battle of Poitiers."
+        }
+      }
+    },
+    {
+      "source": "亨利五世 (英格兰)",
+      "target": "阿金库尔战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1415-10-25",
+        "description": {
+          "zh-cn": "英王亨利五世率领英军在阿金库尔战役中大败法军，取得了英军在百年战争中的第三次大捷。",
+          "en": "King Henry V led the English army to a great victory over the French at the Battle of Agincourt, marking the third major English victory in the Hundred Years' War."
+        }
+      }
+    },
+    {
+      "source": "贞德",
+      "target": "奥尔良围城战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1429-05",
+        "description": {
+          "zh-cn": "1429年5月，圣女贞德率领法军成功解除了英军对奥尔良的包围，扭转了战争局势。",
+          "en": "In May 1429, Joan of Arc led the French army to successfully lift the English siege of Orléans, turning the tide of the war."
+        }
+      }
+    },
+    {
+      "source": "贞德",
+      "target": "查理七世 (法兰西)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1429-07",
+        "description": {
+          "zh-cn": "圣女贞德取得一系列军事胜利后，带领王太子查理前往兰斯完成加冕，使其成为合法的法兰西国王查理七世。",
+          "en": "After a series of military victories, Joan of Arc led the Dauphin Charles to Reims for his coronation, making him the legitimate King of France, Charles VII."
+        }
+      }
+    },
+    {
+      "source": "勃艮第公国",
+      "target": "贞德",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1430-05",
+        "description": {
+          "zh-cn": "1430年5月，贞德在康白尼之围中被勃艮第派俘虏，后被转交给英格兰。",
+          "en": "In May 1430, Joan of Arc was captured by Burgundian forces during the Siege of Compiègne and was subsequently handed over to the English."
+        }
+      }
+    },
+    {
+      "source": "特鲁瓦条约",
+      "target": "查理七世 (法兰西)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1420",
+        "description": {
+          "zh-cn": "《特鲁瓦条约》剥夺了王太子查理（后来的查理七世）的法兰西王位继承权。",
+          "en": "The Treaty of Troyes disinherited the Dauphin Charles (later Charles VII) from his right to the French throne."
+        }
+      }
+    },
+    {
+      "source": "特鲁瓦条约",
+      "target": "亨利五世 (英格兰)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1420",
+        "description": {
+          "zh-cn": "根据《特鲁瓦条约》，英王亨利五世被立为法兰西王位继承人。",
+          "en": "According to the Treaty of Troyes, King Henry V of England was made the heir to the French throne."
+        }
+      }
+    },
+    {
+      "source": "亨利五世 (英格兰)",
+      "target": "瓦卢瓦的凯瑟琳",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1420",
+        "description": {
+          "zh-cn": "为了确保《特鲁瓦条约》的效力，亨利五世与法王查理六世的女儿凯瑟琳结婚。",
+          "en": "To secure the Treaty of Troyes, Henry V married Catherine, the daughter of King Charles VI of France."
+        }
+      }
+    },
+    {
+      "source": "瓦卢瓦的凯瑟琳",
+      "target": "查理六世 (法兰西)",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "亨利六世 (英格兰)",
+      "target": "亨利五世 (英格兰)",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "亨利六世 (英格兰)",
+      "target": "瓦卢瓦的凯瑟琳",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "无畏的约翰",
+      "target": "路易一世 (奥尔良公爵)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1407",
+        "description": {
+          "zh-cn": "1407年，勃艮第公爵无畏的约翰密谋刺杀了法王之弟奥尔良公爵路易。",
+          "en": "In 1407, John the Fearless, Duke of Burgundy, orchestrated the assassination of Louis, Duke of Orléans, the king's brother."
+        }
+      }
+    },
+    {
+      "source": "无畏的约翰",
+      "target": "阿马尼亚克派与勃艮第派内战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1407",
+        "description": {
+          "zh-cn": "对奥尔良公爵路易的刺杀直接导致了法国内部阿马尼亚克派与勃艮第派的内战爆发。",
+          "en": "The assassination of Louis, Duke of Orléans, directly led to the outbreak of the Armagnac–Burgundian Civil War within France."
+        }
+      }
+    },
+    {
+      "source": "勃艮第公国",
+      "target": "英格兰王国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1418",
+        "end_date": "1435",
+        "description": {
+          "zh-cn": "在阿金库尔战役后，勃艮第公国与英格兰组成同盟，共同对抗法国王太子查理的势力。这一同盟关系在1435年的阿拉斯会议后结束。",
+          "en": "After the Battle of Agincourt, the Duchy of Burgundy formed an alliance with England against the forces of the Dauphin Charles. This alliance ended after the Congress of Arras in 1435."
+        }
+      }
+    },
+    {
+      "source": "勃艮第公国",
+      "target": "法兰西王国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1435",
+        "description": {
+          "zh-cn": "1435年，在阿拉斯会议上，勃艮第公国与法兰西王国和解，转向支持查理七世，瓦解了英格兰-勃艮第同盟。",
+          "en": "In 1435, at the Congress of Arras, the Duchy of Burgundy reconciled with the Kingdom of France and switched its support to Charles VII, dissolving the Anglo-Burgundian alliance."
+        }
+      }
+    },
+    {
+      "source": "贝特朗·杜·盖克兰",
+      "target": "查理五世 (法兰西)",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "法军统帅",
+          "en": "Commander of the French Army"
+        },
+        "description": {
+          "zh-cn": "在查理五世的任命下，贝特朗·杜·盖克兰作为法军统帅，通过游击战术收复了大量失地。",
+          "en": "Under the appointment of Charles V, Bertrand du Guesclin, as commander of the French army, recovered vast amounts of lost territory using guerrilla tactics."
+        }
+      }
+    },
+    {
+      "source": "卡斯蒂永战役",
+      "target": "第一代什鲁斯伯里伯爵约翰·塔尔博特",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1453-07-17",
+        "description": {
+          "zh-cn": "英军将领约翰·塔尔博特在卡斯蒂永战役中被法军的火炮击败并战死。",
+          "en": "The English commander John Talbot was defeated by French artillery and killed at the Battle of Castillon."
+        }
+      }
+    },
+    {
+      "source": "百年战争",
+      "target": "英格兰王国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1453",
+        "description": {
+          "zh-cn": "百年战争以英格兰的失败告终，导致其丧失了除加来以外的所有法国大陆领土。",
+          "en": "The Hundred Years' War ended in an English defeat, leading to the loss of all its continental French territories except for Calais."
+        }
+      }
+    },
+    {
+      "source": "百年战争",
+      "target": "法兰西王国",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1453",
+        "description": {
+          "zh-cn": "法兰西王国在百年战争中取得最终胜利，强化了王权，并为国家的统一奠定了基础。",
+          "en": "The Kingdom of France achieved final victory in the Hundred Years' War, which strengthened royal authority and laid the foundation for national unification."
+        }
+      }
+    }
+  ]
+}

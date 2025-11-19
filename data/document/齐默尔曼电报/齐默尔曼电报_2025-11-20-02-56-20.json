@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "齐默尔曼电报",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "齐默尔曼电报"
+        ],
+        "en": [
+          "Zimmermann Telegram"
+        ]
+      },
+      "properties": {
+        "period": "1917-01-17",
+        "description": {
+          "zh-cn": "德国外交部于1917年1月17日发出的秘密外交通信，提议德意志帝国与墨西哥在美国对德宣战的情况下结成军事同盟。该电报被英国情报机关截获并破译，其内容的曝光是促使美国加入第一次世界大战的关键因素之一。",
+          "en": "A secret diplomatic communication issued by the German Foreign Office on January 17, 1917, proposing a military alliance between the German Empire and Mexico in the event that the United States entered World War I against Germany. The telegram was intercepted and deciphered by British intelligence, and its public disclosure was one of the key factors that led to the United States' entry into the war."
+        }
+      }
+    },
+    {
+      "id": "德意志帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德意志帝国"
+        ],
+        "en": [
+          "German Empire"
+        ]
+      },
+      "properties": {
+        "period": "1871-01-18 - 1918-11-09",
+        "description": {
+          "zh-cn": "第一次世界大战中的同盟国成员，通过齐默尔曼电报试图与墨西哥结盟对抗美国。",
+          "en": "A member of the Central Powers in World War I, which attempted to form an alliance with Mexico against the United States via the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "id": "墨西哥",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "墨西哥"
+        ],
+        "en": [
+          "Mexico"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "齐默尔曼电报中德国提议的军事同盟对象。时任总统卡兰萨最终拒绝了该提议。",
+          "en": "The proposed military ally of Germany in the Zimmermann Telegram. Then-President Carranza ultimately rejected the proposal."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "齐默尔曼电报旨在建立一个针对美国的军事同盟。电报被披露后，美国公众情绪被激怒，最终于1917年4月对德宣战。",
+          "en": "The target of the proposed military alliance in the Zimmermann Telegram. After the telegram was revealed, American public opinion was outraged, leading to a declaration of war on Germany in April 1917."
+        }
+      }
+    },
+    {
+      "id": "第一次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次世界大战"
+        ],
+        "en": [
+          "World War I"
+        ]
+      },
+      "properties": {
+        "period": "1914-07-28 - 1918-11-11",
+        "description": {
+          "zh-cn": "齐默尔曼电报是这场战争期间的一次重大外交事件，其曝光直接导致了美国参战。",
+          "en": "The Zimmermann Telegram was a major diplomatic event during this war, and its disclosure directly led to the United States' entry into the conflict."
+        }
+      }
+    },
+    {
+      "id": "德国外交部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德国外交部"
+        ],
+        "en": [
+          "Foreign Office (Germany)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1917年1月17日发出齐默尔曼电报的德国政府机构。",
+          "en": "The German government agency that issued the Zimmermann Telegram on January 17, 1917."
+        }
+      }
+    },
+    {
+      "id": "阿图尔·齐默尔曼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿图尔·齐默尔曼"
+        ],
+        "en": [
+          "Arthur Zimmermann"
+        ]
+      },
+      "properties": {
+        "lifetime": "1864-10-05 - 1940-06-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任德国外交国务秘书，齐默尔曼电报的发出者。他在1917年3月3日公开承认电报的真实性。",
+          "en": "The German State Secretary for Foreign Affairs at the time and the issuer of the Zimmermann Telegram. He publicly admitted the telegram's authenticity on March 3, 1917."
+        }
+      }
+    },
+    {
+      "id": "40号室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "40号室"
+        ],
+        "en": [
+          "Room 40"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "英国海军部的情报机关，成功截获并破译了齐默尔曼电报。",
+          "en": "An intelligence agency of the British Admiralty that successfully intercepted and deciphered the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第一次世界大战中的协约国成员。其情报机构40号室破译了齐默尔曼电报。",
+          "en": "A member of the Allied Powers in World War I. Its intelligence agency, Room 40, deciphered the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "id": "美国加入第一次世界大战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "美国加入第一次世界大战"
+        ],
+        "en": [
+          "American entry into World War I"
+        ]
+      },
+      "properties": {
+        "period": "1917-04-06",
+        "description": {
+          "zh-cn": "齐默尔曼电报的曝光是促使美国公众支持参战并最终对德宣战的关键事件。",
+          "en": "The disclosure of the Zimmermann Telegram was a key event that prompted American public support for entering the war and ultimately declaring war on Germany."
+        }
+      }
+    },
+    {
+      "id": "海因里希·冯·埃卡特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "海因里希·冯·埃卡特"
+        ],
+        "en": [
+          "Heinrich von Eckardt"
+        ]
+      },
+      "properties": {
+        "lifetime": "1861-07-20 - 1944-03-03",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任德国驻墨西哥大使，齐默尔曼电报的接收者。",
+          "en": "The German Ambassador to Mexico at the time and the recipient of the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "id": "华盛顿哥伦比亚特区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "华盛顿哥伦比亚特区"
+        ],
+        "en": [
+          "Washington, D.C."
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "齐默尔曼电报发往墨西哥的发出地点。",
+          "en": "The location from which the Zimmermann Telegram was dispatched to Mexico."
+        }
+      }
+    },
+    {
+      "id": "得克萨斯州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "得克萨斯州",
+          "Texas"
+        ],
+        "en": [
+          "Texas"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "德国在齐默尔曼电报中承诺帮助墨西哥收复的美国领土之一。",
+          "en": "One of the U.S. territories that Germany promised to help Mexico reconquer in the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "id": "亚利桑那州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "亚利桑那州",
+          "Arizona"
+        ],
+        "en": [
+          "Arizona"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "德国在齐默尔曼电报中承诺帮助墨西哥收复的美国领土之一。",
+          "en": "One of the U.S. territories that Germany promised to help Mexico reconquer in the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "id": "新墨西哥州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "新墨西哥州",
+          "Neu Mexico"
+        ],
+        "en": [
+          "New Mexico"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "德国在齐默尔曼电报中承诺帮助墨西哥收复的美国领土之一。",
+          "en": "One of the U.S. territories that Germany promised to help Mexico reconquer in the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "id": "无限制潜艇战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "无限制潜艇战"
+        ],
+        "en": [
+          "Unrestricted submarine warfare"
+        ]
+      },
+      "properties": {
+        "period": "1917-02-01 - ",
+        "description": {
+          "zh-cn": "德国计划于1917年2月1日开始实施的军事策略。齐默尔曼电报是在此背景下发出的，旨在应对美国可能因此参战的情况。",
+          "en": "A military strategy Germany planned to implement starting February 1, 1917. The Zimmermann Telegram was sent in this context to prepare for the possibility of the U.S. entering the war as a result."
+        }
+      }
+    },
+    {
+      "id": "尼德迈尔-亨蒂格探险队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "尼德迈尔-亨蒂格探险队"
+        ],
+        "en": [
+          "Niedermayer–Hentig Expedition"
+        ]
+      },
+      "properties": {
+        "period": "1915 - 1916",
+        "description": {
+          "zh-cn": "一次前往阿富汗的德国任务，其失败导致成员威廉·瓦斯穆斯遗弃了密码本，使得英国能够破译齐默尔曼电报。",
+          "en": "A German mission to Afghanistan whose failure led to member Wilhelm Wassmuss abandoning a codebook, which enabled the British to decipher the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "id": "威廉·瓦斯穆斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·瓦斯穆斯"
+        ],
+        "en": [
+          "Wilhelm Wassmuss"
+        ]
+      },
+      "properties": {
+        "lifetime": "1880 - 1931",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "尼德迈尔-亨蒂格探险队成员，在探险失败后遗弃了德国的密码本，间接导致了齐默尔曼电报被破译。",
+          "en": "A member of the Niedermayer–Hentig Expedition who abandoned a German codebook after the mission failed, indirectly leading to the deciphering of the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "id": "贝努斯蒂亚诺·卡兰萨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贝努斯蒂亚诺·卡兰萨"
+        ],
+        "en": [
+          "Venustiano Carranza"
+        ]
+      },
+      "properties": {
+        "lifetime": "1859-12-29 - 1920-05-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任墨西哥总统，在评估了德国的提议后，于1917年4月14日正式拒绝了齐默尔曼电报中的结盟计划。",
+          "en": "The President of Mexico at the time, who, after evaluating Germany's proposal, formally rejected the alliance plan in the Zimmermann Telegram on April 14, 1917."
+        }
+      }
+    },
+    {
+      "id": "墨西哥革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "墨西哥革命"
+        ],
+        "en": [
+          "Mexican Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1910 - 1920",
+        "description": {
+          "zh-cn": "墨西哥当时正陷入的内战，导致政局不稳，是墨西哥拒绝德国提议的重要原因之一。",
+          "en": "The civil war in which Mexico was embroiled at the time, which led to political instability and was a significant reason for Mexico's rejection of the German proposal."
+        }
+      }
+    },
+    {
+      "id": "英国皇家海军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国皇家海军"
+        ],
+        "en": [
+          "Royal Navy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "其对跨大西洋航线的控制使得德国无法向墨西哥提供有效的军事援助，这是墨西哥拒绝结盟提议的考量之一。",
+          "en": "Its control of the transatlantic shipping routes made it impossible for Germany to provide effective military aid to Mexico, which was a consideration in Mexico's rejection of the alliance proposal."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "齐默尔曼电报中建议墨西哥邀请其加入反美同盟的国家。",
+          "en": "A country that Mexico was advised to invite to join the anti-American alliance in the Zimmermann Telegram."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "德国外交部",
+      "target": "齐默尔曼电报",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917-01-17",
+        "description": {
+          "zh-cn": "德国外交部于1917年1月17日发出了齐默尔曼电报。",
+          "en": "The German Foreign Office issued the Zimmermann Telegram on January 17, 1917."
+        }
+      }
+    },
+    {
+      "source": "阿图尔·齐默尔曼",
+      "target": "德国外交部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "外交国务秘书",
+          "en": "State Secretary for Foreign Affairs"
+        },
+        "description": {
+          "zh-cn": "阿图尔·齐默尔曼是齐默尔曼电报发出时的德国外交国务秘书。",
+          "en": "Arthur Zimmermann was the German State Secretary for Foreign Affairs when the Zimmermann Telegram was sent."
+        }
+      }
+    },
+    {
+      "source": "齐默尔曼电报",
+      "target": "海因里希·冯·埃卡特",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917-01-17",
+        "description": {
+          "zh-cn": "电报被发送给时任德国驻墨西哥大使海因里希·冯·埃卡特，指示他向墨西哥总统提出结盟建议。",
+          "en": "The telegram was sent to Heinrich von Eckardt, the German Ambassador to Mexico at the time, instructing him to propose an alliance to the Mexican President."
+        }
+      }
+    },
+    {
+      "source": "40号室",
+      "target": "齐默尔曼电报",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "英国情报机关40号室截获并成功破译了齐默尔曼电报，使其秘密外交意图曝光。",
+          "en": "The British intelligence agency Room 40 intercepted and successfully deciphered the Zimmermann Telegram, exposing its secret diplomatic intentions."
+        }
+      }
+    },
+    {
+      "source": "40号室",
+      "target": "英国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本“英国情报机关[[40号室]]”，40号室是英国的一个情报机构。",
+          "en": "According to the text 'British intelligence agency [[Room 40]]', Room 40 was an intelligence agency of the United Kingdom."
+        }
+      }
+    },
+    {
+      "source": "齐默尔曼电报",
+      "target": "美国加入第一次世界大战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917-03",
+        "description": {
+          "zh-cn": "电报内容被揭露后激怒了美国民众，尤其在齐默尔曼承认其真实性后，成为促使美国于1917年4月对德宣战的关键因素。",
+          "en": "The revelation of the telegram's contents outraged the American public, especially after Zimmermann admitted its authenticity, becoming a key factor that prompted the U.S. to declare war on Germany in April 1917."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "德意志帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1917-04-06",
+        "description": {
+          "zh-cn": "在齐默尔曼电报事件等因素的推动下，美国于1917年4月6日向德意志帝国宣战。",
+          "en": "Driven by factors including the Zimmermann Telegram affair, the United States declared war on the German Empire on April 6, 1917."
+        }
+      }
+    },
+    {
+      "source": "威廉·瓦斯穆斯",
+      "target": "40号室",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在尼德迈尔-亨蒂格探险队任务失败后，威廉·瓦斯穆斯遗弃了德军密码本，这使得英国40号室能够成功破译齐默尔曼电报。",
+          "en": "After the failure of the Niedermayer–Hentig Expedition, Wilhelm Wassmuss abandoned a German codebook, which enabled the British Room 40 to successfully decipher the Zimmermann Telegram."
+        }
+      }
+    },
+    {
+      "source": "威廉·瓦斯穆斯",
+      "target": "尼德迈尔-亨蒂格探险队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "威廉·瓦斯穆斯是尼德迈尔-亨蒂格探险队的一员。",
+          "en": "Wilhelm Wassmuss was a member of the Niedermayer–Hentig Expedition."
+        }
+      }
+    },
+    {
+      "source": "贝努斯蒂亚诺·卡兰萨",
+      "target": "齐默尔曼电报",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1917-04-14",
+        "description": {
+          "zh-cn": "时任墨西哥总统卡兰萨在评估后认为与德国结盟对抗美国不可行，并于1917年4月14日正式回绝了电报中的提议。",
+          "en": "Then-President of Mexico, Carranza, after evaluation, deemed an alliance with Germany against the U.S. unfeasible and formally rejected the proposal in the telegram on April 14, 1917."
+        }
+      }
+    },
+    {
+      "source": "贝努斯蒂亚诺·卡兰萨",
+      "target": "墨西哥",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总统",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "墨西哥革命",
+      "target": "齐默尔曼电报",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "墨西哥当时正陷入内战（墨西哥革命），政局不稳，这是其无法接受德国提议、最终拒绝结盟计划的一个重要原因。",
+          "en": "Mexico was embroiled in a civil war (the Mexican Revolution) at the time, leading to political instability, which was a significant reason it could not accept Germany's proposal and ultimately rejected the alliance plan."
+        }
+      }
+    },
+    {
+      "source": "英国皇家海军",
+      "target": "齐默尔曼电报",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "英国皇家海军对大西洋航线的控制使得德国无法向墨西哥提供所承诺的武器和援助，这是墨西哥方面认为该提议不可行的原因之一，从而阻碍了计划的实现。",
+          "en": "The Royal Navy's control over the Atlantic sea lanes made it impossible for Germany to provide the promised weapons and aid to Mexico, which was one of the reasons Mexico considered the proposal unfeasible, thus blocking the plan's implementation."
+        }
+      }
+    },
+    {
+      "source": "无限制潜艇战",
+      "target": "齐默尔曼电报",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917-02-01",
+        "description": {
+          "zh-cn": "德国计划于1917年2月1日开始实施无限制潜艇战，并预料到此举可能导致美国参战。齐默尔曼电报正是在此背景下发出，作为应对该情况的预案。",
+          "en": "Germany planned to begin unrestricted submarine warfare on February 1, 1917, and anticipated that this could lead to U.S. entry into the war. The Zimmermann Telegram was sent in this context as a contingency plan."
+        }
+      }
+    },
+    {
+      "source": "齐默尔曼电报",
+      "target": "墨西哥",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917-01-17",
+        "description": {
+          "zh-cn": "电报提议墨西哥与德意志帝国结成军事同盟，并承诺助其收复曾割让给美国的领土。",
+          "en": "The telegram proposed a military alliance between Mexico and the German Empire, promising to help it reconquer territories previously ceded to the United States."
+        }
+      }
+    }
+  ]
+}

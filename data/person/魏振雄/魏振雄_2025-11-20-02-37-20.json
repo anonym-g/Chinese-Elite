@@ -1,0 +1,235 @@
+{
+  "nodes": [
+    {
+      "id": "魏振雄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏振雄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1931-12-07 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "惠安",
+          "en": "Huian"
+        },
+        "description": {
+          "zh-cn": "中国会计学家，曾任中央财政金融学院教授，中国会计学会顾问。",
+          "en": "Chinese accountant, former professor at the Central Institute of Finance and Banking, and advisor to the Accounting Society of China."
+        }
+      }
+    },
+    {
+      "id": "惠安",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "惠安"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中央财政金融学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央财政金融学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一所高等教育机构，后发展为中央财经大学。",
+          "en": "An institution of higher education in China, which later developed into the Central University of Finance and Economics."
+        }
+      }
+    },
+    {
+      "id": "中国会计学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国会计学会"
+        ],
+        "en": [
+          "Accounting Society of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的全国性会计学术团体。",
+          "en": "A national academic accounting organization in China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国会计学会第三届理事会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国会计学会第三届理事会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国会计学会的第三届领导机构。",
+          "en": "The 3rd Council of the Accounting Society of China."
+        }
+      }
+    },
+    {
+      "id": "中国会计学会第四届理事会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国会计学会第四届理事会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国会计学会的第四届领导机构。",
+          "en": "The 4th Council of the Accounting Society of China."
+        }
+      }
+    },
+    {
+      "id": "中国会计学会第五届理事会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国会计学会第五届理事会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国会计学会的第五届领导机构。",
+          "en": "The 5th Council of the Accounting Society of China."
+        }
+      }
+    },
+    {
+      "id": "中国会计学会第六届理事会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国会计学会第六届理事会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国会计学会的第六届领导机构。",
+          "en": "The 6th Council of the Accounting Society of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "魏振雄",
+      "target": "惠安",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1931-12-07"
+      }
+    },
+    {
+      "source": "魏振雄",
+      "target": "中央财政金融学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授",
+          "en": "Professor"
+        }
+      }
+    },
+    {
+      "source": "魏振雄",
+      "target": "中国会计学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "顾问",
+          "en": "Advisor"
+        }
+      }
+    },
+    {
+      "source": "魏振雄",
+      "target": "中国会计学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务理事",
+          "en": "Standing Council Member"
+        },
+        "description": {
+          "zh-cn": "信息来源于页面分类“中国会计学会常务理事”。",
+          "en": "Information from page category 'Standing Council Members of the Accounting Society of China'."
+        }
+      }
+    },
+    {
+      "source": "魏振雄",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "信息来源于页面分类“中国共产党党员”。",
+          "en": "Information from page category 'Chinese Communist Party members'."
+        }
+      }
+    },
+    {
+      "source": "魏振雄",
+      "target": "中国会计学会第三届理事会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "魏振雄",
+      "target": "中国会计学会第四届理事会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "魏振雄",
+      "target": "中国会计学会第五届理事会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "魏振雄",
+      "target": "中国会计学会第六届理事会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    }
+  ]
+}

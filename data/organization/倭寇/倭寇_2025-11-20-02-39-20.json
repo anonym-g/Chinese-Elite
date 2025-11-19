@@ -1,0 +1,1233 @@
+{
+  "nodes": [
+    {
+      "id": "倭寇",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "倭寇",
+          "八幡"
+        ],
+        "en": [
+          "Wokou",
+          "Wakō"
+        ]
+      },
+      "properties": {
+        "period": "1200 - 1599",
+        "description": {
+          "zh-cn": "指13世纪到16世纪左右侵略朝鲜、中国沿海及南洋的武装海商集团的泛称。前期以日本人为主，后期（又称“假倭”）则以汉人为主，亦包含朝鲜人、马来人、暹罗人、葡萄牙人、西班牙人及非洲人等，成员构成多元。",
+          "en": "A general term for armed maritime merchant groups that raided the coasts of Korea, China, and the South China Sea from the 13th to the 16th century. The early Wokou were predominantly Japanese, while the later Wokou (also known as 'Jiawo' or 'fake Wokou') were mainly Han Chinese, with a diverse composition that also included Koreans, Malays, Siamese, Portuguese, Spanish, and Africans."
+        }
+      }
+    },
+    {
+      "id": "中国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国"
+        ],
+        "en": [
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，在本文中主要指元朝和明朝时期的中国。",
+          "en": "A country in East Asia, primarily referring to China during the Yuan and Ming dynasties in this context."
+        }
+      }
+    },
+    {
+      "id": "海禁",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "海禁"
+        ],
+        "en": [
+          "Haijin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明朝及清朝前期实行的一系列禁止私人海上贸易的政策。",
+          "en": "A series of policies during the Ming and early Qing dynasties that banned private maritime trade."
+        }
+      }
+    },
+    {
+      "id": "隆庆开关",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "隆庆开关"
+        ],
+        "en": [
+          "Longqing Switch"
+        ]
+      },
+      "properties": {
+        "period": "1567",
+        "description": {
+          "zh-cn": "明朝隆庆年间，穆宗皇帝调整海禁政策，允许民间私人远贩东西二洋的事件。",
+          "en": "An event during the Longqing reign of the Ming Dynasty, when Emperor Muzong adjusted the Haijin policy to allow private trade with the East and West Oceans."
+        }
+      }
+    },
+    {
+      "id": "汪直 (海商)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪直 (海商)",
+          "王直"
+        ],
+        "en": [
+          "Wang Zhi (merchant)"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝时期著名的海商与海盗，后期倭寇集团的重要人物。",
+          "en": "A famous sea merchant and pirate during the Ming Dynasty, and a key figure in the later Wokou groups."
+        }
+      }
+    },
+    {
+      "id": "大名 (称谓)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大名 (称谓)"
+        ],
+        "en": [
+          "Daimyo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本封建时代对一个较大地域领主的称谓。",
+          "en": "A title for powerful Japanese feudal lords who ruled most of Japan from their vast, hereditary land holdings."
+        }
+      }
+    },
+    {
+      "id": "元日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "元日战争"
+        ],
+        "en": [
+          "Mongol invasions of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1274 - 1281",
+        "description": {
+          "zh-cn": "元朝皇帝忽必烈对日本发动的两次侵略战争。",
+          "en": "Two invasions of Japan launched by Kublai Khan of the Yuan dynasty."
+        }
+      }
+    },
+    {
+      "id": "高丽 (918年－1392年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高丽 (918年－1392年)",
+          "高丽"
+        ],
+        "en": [
+          "Goryeo"
+        ]
+      },
+      "properties": {
+        "period": "0918 - 1392",
+        "location": {
+          "zh-cn": "朝鲜半岛"
+        },
+        "description": {
+          "zh-cn": "存在于10世纪至14世纪的朝鲜半岛王朝。",
+          "en": "A Korean dynasty that existed from the 10th to the 14th century on the Korean Peninsula."
+        }
+      }
+    },
+    {
+      "id": "女真",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "女真"
+        ],
+        "en": [
+          "Jurchen"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "生活在中国东北地区的古代民族，建立了金朝和后金（清朝前身）。",
+          "en": "An ancient people who inhabited the northeastern region of China and founded the Jin and Later Jin (predecessor of the Qing) dynasties."
+        }
+      }
+    },
+    {
+      "id": "元朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "元朝"
+        ],
+        "en": [
+          "Yuan dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1271 - 1368",
+        "location": {
+          "zh-cn": "中国"
+        },
+        "description": {
+          "zh-cn": "由蒙古族建立的统治中国的王朝。",
+          "en": "A dynasty that ruled China, established by the Mongols."
+        }
+      }
+    },
+    {
+      "id": "忽必烈",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "忽必烈"
+        ],
+        "en": [
+          "Kublai Khan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1215-09-23 - 1294-02-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蒙古帝国第五代大汗，元朝的创建者。",
+          "en": "The fifth Great Khan of the Mongol Empire and the founder of the Yuan dynasty."
+        }
+      }
+    },
+    {
+      "id": "松浦家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "松浦家"
+        ],
+        "en": [
+          "Matsuura clan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的一个武家氏族，是前期倭寇的核心之一。",
+          "en": "A Japanese samurai clan, one of the cores of the early Wokou."
+        }
+      }
+    },
+    {
+      "id": "平户藩",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "平户藩"
+        ],
+        "en": [
+          "Hirado Domain"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "日本九州"
+        },
+        "description": {
+          "zh-cn": "日本江户时代的一个藩，位于现在的长崎县。",
+          "en": "A feudal domain in Japan during the Edo period, located in modern-day Nagasaki Prefecture."
+        }
+      }
+    },
+    {
+      "id": "南北朝时代 (日本)",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "南北朝时代 (日本)"
+        ],
+        "en": [
+          "Nanboku-chō period"
+        ]
+      },
+      "properties": {
+        "period": "1336 - 1392",
+        "description": {
+          "zh-cn": "日本历史上介于镰仓时代与室町时代之间的战乱时期。",
+          "en": "A period of civil war in Japanese history between the Kamakura and Muromachi periods."
+        }
+      }
+    },
+    {
+      "id": "明朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明朝"
+        ],
+        "en": [
+          "Ming dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1368 - 1644",
+        "location": {
+          "zh-cn": "中国"
+        },
+        "description": {
+          "zh-cn": "由汉族建立的统治中国的最后一个大一统中原王朝。",
+          "en": "The last great unified Central Plains dynasty that ruled China, established by the Han Chinese."
+        }
+      }
+    },
+    {
+      "id": "怀良亲王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "怀良亲王"
+        ],
+        "en": [
+          "Prince Kaneyoshi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本南北朝时代的南朝皇族，后醍醐天皇之子，曾因讨伐倭寇有功而被明朝封为“日本国王”。",
+          "en": "A prince of the Southern Court during Japan's Nanboku-chō period, son of Emperor Go-Daigo. He was enfeoffed as 'King of Japan' by the Ming Dynasty for his merits in suppressing the Wokou."
+        }
+      }
+    },
+    {
+      "id": "后醍醐天皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "后醍醐天皇"
+        ],
+        "en": [
+          "Emperor Go-Daigo"
+        ]
+      },
+      "properties": {
+        "lifetime": "1288-11-26 - 1339-09-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本第96代天皇，南北朝时代南朝的开创者。",
+          "en": "The 96th emperor of Japan and the founder of the Southern Court during the Nanboku-chō period."
+        }
+      }
+    },
+    {
+      "id": "足利义满",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "足利义满"
+        ],
+        "en": [
+          "Ashikaga Yoshimitsu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1358-09-25 - 1408-05-31",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本室町幕府第三代将军，曾讨伐倭寇并受明朝册封为“日本国王”。",
+          "en": "The third shogun of the Ashikaga shogunate of Japan, who suppressed the Wokou and was enfeoffed as 'King of Japan' by the Ming Dynasty."
+        }
+      }
+    },
+    {
+      "id": "李成桂",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李成桂"
+        ],
+        "en": [
+          "Yi Seong-gye"
+        ]
+      },
+      "properties": {
+        "lifetime": "1335-10-27 - 1408-06-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "朝鲜王朝的开国君主，因讨伐倭寇有功而获得巨大声望和势力。",
+          "en": "The founding monarch of the Joseon Dynasty, who gained great prestige and power for his merits in suppressing the Wokou."
+        }
+      }
+    },
+    {
+      "id": "朝鲜王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜王朝"
+        ],
+        "en": [
+          "Joseon"
+        ]
+      },
+      "properties": {
+        "period": "1392 - 1897",
+        "location": {
+          "zh-cn": "朝鲜半岛"
+        },
+        "description": {
+          "zh-cn": "由李成桂建立的朝鲜半岛最后一个统一王朝。",
+          "en": "The last unified dynasty of the Korean Peninsula, founded by Yi Seong-gye."
+        }
+      }
+    },
+    {
+      "id": "明日贸易",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "明日贸易",
+          "勘合贸易"
+        ],
+        "en": [
+          "Japan–China trade in the Muromachi period"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本室町时代与中国明朝之间进行的官方贸易，其盛行是前期倭寇式微的原因之一。",
+          "en": "The official trade conducted between Japan's Muromachi period and China's Ming Dynasty, the prevalence of which was one of the reasons for the decline of the early Wokou."
+        }
+      }
+    },
+    {
+      "id": "朱元璋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱元璋"
+        ],
+        "en": [
+          "Hongwu Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1328-10-21 - 1398-06-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝的开国皇帝，推行了海禁政策。",
+          "en": "The founding emperor of the Ming Dynasty, who implemented the Haijin policy."
+        }
+      }
+    },
+    {
+      "id": "宁波之乱",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "宁波之乱"
+        ],
+        "en": [
+          "Ningbo incident"
+        ]
+      },
+      "properties": {
+        "period": "1523",
+        "location": {
+          "zh-cn": "中国浙江宁波"
+        },
+        "description": {
+          "zh-cn": "明朝嘉靖二年，日本两个朝贡使团在宁波为争夺贸易勘合的合法性而引发的武装冲突事件，此后明朝中断了一切贸易。",
+          "en": "An armed conflict in Ningbo in 1523 during the Ming Dynasty, sparked by two Japanese tribute missions vying for the legitimacy of trade tallies. Afterward, the Ming court suspended all trade."
+        }
+      }
+    },
+    {
+      "id": "大友宗麟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "大友宗麟"
+        ],
+        "en": [
+          "Ōtomo Sōrin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1530-01-31 - 1587-06-11",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本战国时代九州的大名，被认为是16世纪后期倭寇行动的实质总指挥。",
+          "en": "A daimyō in Kyushu during Japan's Warring States period, considered the de facto commander of Wokou activities in the late 16th century."
+        }
+      }
+    },
+    {
+      "id": "靖难之变",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "靖难之变"
+        ],
+        "en": [
+          "Jingnan campaign"
+        ]
+      },
+      "properties": {
+        "period": "1399 - 1402",
+        "description": {
+          "zh-cn": "明朝初年的一场内战，由燕王朱棣（后来的明成祖）发动。",
+          "en": "A civil war in the early Ming Dynasty, launched by Zhu Di, the Prince of Yan (later the Yongle Emperor)."
+        }
+      }
+    },
+    {
+      "id": "明成祖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明成祖"
+        ],
+        "en": [
+          "Yongle Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1360-05-02 - 1424-08-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第三位皇帝，通过靖难之变夺取皇位。",
+          "en": "The third emperor of the Ming Dynasty, who seized the throne through the Jingnan campaign."
+        }
+      }
+    },
+    {
+      "id": "戚继光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "戚继光"
+        ],
+        "en": [
+          "Qi Jiguang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1528-11-12 - 1588-01-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝著名将领，曾参与讨伐倭寇的军事行动。",
+          "en": "A famous general of the Ming Dynasty who participated in military actions against the Wokou."
+        }
+      }
+    },
+    {
+      "id": "胡宗宪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡宗宪"
+        ],
+        "en": [
+          "Hu Zongxian"
+        ]
+      },
+      "properties": {
+        "lifetime": "1512-11-04 - 1565-11-25",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝官员，曾总督数省军务，主持抗倭战争。",
+          "en": "An official of the Ming Dynasty who served as supreme commander of several provinces and directed the war against the Wokou."
+        }
+      }
+    },
+    {
+      "id": "俞大猷",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "俞大猷"
+        ],
+        "en": [
+          "Yu Dayou"
+        ]
+      },
+      "properties": {
+        "lifetime": "1503 - 1579",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝著名将领，与戚继光齐名，曾参与讨伐倭寇。",
+          "en": "A famous general of the Ming Dynasty, as renowned as Qi Jiguang, who participated in suppressing the Wokou."
+        }
+      }
+    },
+    {
+      "id": "朱纨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱纨"
+        ],
+        "en": [
+          "Zhu Wan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1494 - 1550",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝官员，曾任浙江巡抚，力主严行海禁以杜绝倭寇。",
+          "en": "An official of the Ming Dynasty who served as the governor of Zhejiang and strongly advocated for the strict enforcement of the Haijin to eliminate the Wokou threat."
+        }
+      }
+    },
+    {
+      "id": "应永外寇",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "应永外寇"
+        ],
+        "en": [
+          "Ōei Invasion"
+        ]
+      },
+      "properties": {
+        "period": "1419",
+        "description": {
+          "zh-cn": "朝鲜王朝对日本对马岛的军事远征，旨在清剿作为倭寇基地的岛屿。",
+          "en": "A military expedition by the Joseon Dynasty against Japan's Tsushima Island, aimed at clearing the island which served as a Wokou base."
+        }
+      }
+    },
+    {
+      "id": "纪效新书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "纪效新书"
+        ],
+        "en": [
+          "Jixiao Xinshu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由明代将领戚继光所著的兵书，详细描述了倭寇的装备、战法等。",
+          "en": "A military manual written by the Ming Dynasty general Qi Jiguang, which details the equipment, tactics, and other aspects of the Wokou."
+        }
+      }
+    },
+    {
+      "id": "曾一本",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曾一本"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝后期著名的倭寇头领之一。",
+          "en": "One of the famous Wokou leaders in the late Ming Dynasty."
+        }
+      }
+    },
+    {
+      "id": "林道干",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林道干"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝时期著名的海盗，被视为倭寇的一员。",
+          "en": "A famous pirate during the Ming Dynasty, considered a member of the Wokou."
+        }
+      }
+    },
+    {
+      "id": "颜思齐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "颜思齐",
+          "Pedro China"
+        ],
+        "en": [
+          "Yan Siqi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝末年海盗，被视为倭寇的一员，曾为开发台湾的先驱。",
+          "en": "A pirate in the late Ming Dynasty, considered a member of the Wokou, and a pioneer in the development of Taiwan."
+        }
+      }
+    },
+    {
+      "id": "林凤 (海盗)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林凤 (海盗)",
+          "林凤"
+        ],
+        "en": [
+          "Lin Feng (pirate)"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝时期著名的海盗，被视为倭寇的一员。",
+          "en": "A famous pirate during the Ming Dynasty, considered a member of the Wokou."
+        }
+      }
+    },
+    {
+      "id": "郑芝龙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑芝龙",
+          "Nicholas Iquan"
+        ],
+        "en": [
+          "Zheng Zhilong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝末年著名的海商、军事家和政治人物，早期曾为海盗，被视为倭寇的一员。",
+          "en": "A famous sea merchant, military strategist, and politician in the late Ming Dynasty. In his early years, he was a pirate and considered a member of the Wokou."
+        }
+      }
+    },
+    {
+      "id": "阿只拔都",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿只拔都"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "倭寇头目，在朝鲜半岛活动。",
+          "en": "A Wokou leader active on the Korean Peninsula."
+        }
+      }
+    },
+    {
+      "id": "松浦隆信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "松浦隆信"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本战国时代平户的大名，与倭寇活动有关。",
+          "en": "A daimyō of Hirado during Japan's Warring States period, associated with Wokou activities."
+        }
+      }
+    },
+    {
+      "id": "许栋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "许栋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝时期的倭寇头领之一。",
+          "en": "One of the Wokou leaders during the Ming Dynasty."
+        }
+      }
+    },
+    {
+      "id": "李旦 (海盗)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李旦 (海盗)",
+          "Captain China",
+          "China Captain",
+          "李旦"
+        ],
+        "en": [
+          "Li Dan (pirate)"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝末年著名的海商与海盗，被视为倭寇的一员。",
+          "en": "A famous sea merchant and pirate in the late Ming Dynasty, considered a member of the Wokou."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "倭寇",
+      "target": "中国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "倭寇在13至16世纪期间，持续侵扰中国沿海地区。",
+          "en": "The Wokou continuously raided the coastal areas of China from the 13th to the 16th century."
+        }
+      }
+    },
+    {
+      "source": "倭寇",
+      "target": "高丽 (918年－1392年)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "前期倭寇的主要攻击范围包括当时臣服于元朝的高丽。",
+          "en": "The main targets of the early Wokou included Goryeo, which was then a tributary state of the Yuan Dynasty."
+        }
+      }
+    },
+    {
+      "source": "海禁",
+      "target": "倭寇",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "明朝的海禁政策导致沿海民众不得从事海上经商，是后期倭寇（假倭）形成的重要起因。",
+          "en": "The Ming Dynasty's Haijin policy, which banned private maritime trade, was a significant cause for the formation of the later Wokou ('Jiawo')."
+        }
+      }
+    },
+    {
+      "source": "隆庆开关",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1567",
+        "description": {
+          "zh-cn": "隆庆开关使海上贸易合法化，减少了民众因走私而成为倭寇的动机，导致倭寇活动减少。",
+          "en": "The Longqing Switch legalized maritime trade, reducing the incentive for people to become Wokou through smuggling and leading to a decrease in their activities."
+        }
+      }
+    },
+    {
+      "source": "汪直 (海商)",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "汪直是后期倭寇中一个庞大知名的海商集团的首领。",
+          "en": "Wang Zhi was the leader of a large and well-known merchant-pirate group among the later Wokou."
+        }
+      }
+    },
+    {
+      "source": "曾一本",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "曾一本是倭寇中较有名的人物之一。",
+          "en": "Zeng Yiben was one of the more famous figures among the Wokou."
+        }
+      }
+    },
+    {
+      "source": "林道干",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "林道干是倭寇中较有名的人物之一。",
+          "en": "Lin Daoqian was one of the more famous figures among the Wokou."
+        }
+      }
+    },
+    {
+      "source": "颜思齐",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "颜思齐是倭寇中较有名的人物之一。",
+          "en": "Yan Siqi was one of the more famous figures among the Wokou."
+        }
+      }
+    },
+    {
+      "source": "林凤 (海盗)",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "林凤是倭寇中较有名的人物之一。",
+          "en": "Lin Feng was one of the more famous figures among the Wokou."
+        }
+      }
+    },
+    {
+      "source": "郑芝龙",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "郑芝龙是倭寇中较有名的人物之一。",
+          "en": "Zheng Zhilong was one of the more famous figures among the Wokou."
+        }
+      }
+    },
+    {
+      "source": "倭寇",
+      "target": "大名 (称谓)",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "海军佣兵",
+          "en": "Naval mercenary"
+        },
+        "description": {
+          "zh-cn": "部分倭寇队伍成为日本大名的海军佣兵。",
+          "en": "Some Wokou groups served as naval mercenaries for Japanese daimyō."
+        }
+      }
+    },
+    {
+      "source": "元日战争",
+      "target": "倭寇",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "前期倭寇的活动目的之一是为了报复蒙朝联军（元日战争）对日本的侵略。",
+          "en": "One of the motivations for the activities of the early Wokou was retaliation for the Mongol-Goryeo invasions of Japan (Yuan-Japan Wars)."
+        }
+      }
+    },
+    {
+      "source": "女真",
+      "target": "倭寇",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "前期倭寇的活动目的之一是为了报复女真海盗的掳掠。",
+          "en": "One of the motivations for the activities of the early Wokou was retaliation for the raids by Jurchen pirates."
+        }
+      }
+    },
+    {
+      "source": "高丽 (918年－1392年)",
+      "target": "元朝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在元日战争时期，高丽臣服于元朝。",
+          "en": "During the period of the Mongol invasions of Japan, Goryeo was a tributary state of the Yuan dynasty."
+        }
+      }
+    },
+    {
+      "source": "忽必烈",
+      "target": "元日战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "元世祖忽必烈两度下令侵略日本，引发了元日战争。",
+          "en": "The Yuan emperor Kublai Khan ordered the invasion of Japan twice, triggering the Yuan-Japan Wars."
+        }
+      }
+    },
+    {
+      "source": "松浦家",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "松浦家是前期“三岛倭寇”的核心势力。",
+          "en": "The Matsuura clan was the core force of the early 'Three Islands Wokou'."
+        }
+      }
+    },
+    {
+      "source": "南北朝时代 (日本)",
+      "target": "倭寇",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "日本进入南北朝分裂状态，政府管制力减弱，导致倭寇活动加剧。",
+          "en": "Japan's entry into the divided Nanboku-chō period weakened government control, leading to an intensification of Wokou activities."
+        }
+      }
+    },
+    {
+      "source": "明朝",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "明朝政府曾对日本南朝发出讨伐倭寇的要求。",
+          "en": "The Ming government issued a demand to Japan's Southern Court to suppress the Wokou."
+        }
+      }
+    },
+    {
+      "source": "怀良亲王",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "怀良亲王因讨伐倭寇有功而受明朝册封。",
+          "en": "Prince Kaneyoshi was enfeoffed by the Ming court for his merits in suppressing the Wokou."
+        }
+      }
+    },
+    {
+      "source": "怀良亲王",
+      "target": "后醍醐天皇",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "怀良亲王是后醍醐天皇的儿子。",
+          "en": "Prince Kaneyoshi was the son of Emperor Go-Daigo."
+        }
+      }
+    },
+    {
+      "source": "足利义满",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "室町幕府将军足利义满曾进行讨伐倭寇的行动。",
+          "en": "The Ashikaga shogunate's shogun Ashikaga Yoshimitsu conducted campaigns to suppress the Wokou."
+        }
+      }
+    },
+    {
+      "source": "李成桂",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "李成桂因讨伐倭寇有功而获得巨大声望和势力。",
+          "en": "Yi Seong-gye gained great prestige and power for his merits in suppressing the Wokou."
+        }
+      }
+    },
+    {
+      "source": "李成桂",
+      "target": "朝鲜王朝",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "李成桂在取代高丽王朝后建立了朝鲜王朝。",
+          "en": "Yi Seong-gye founded the Joseon Dynasty after replacing the Goryeo Dynasty."
+        }
+      }
+    },
+    {
+      "source": "明日贸易",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "明日贸易的盛行是导致前期倭寇逐渐式微的原因之一。",
+          "en": "The prevalence of the Japan-Ming trade was one of the reasons for the gradual decline of the early Wokou."
+        }
+      }
+    },
+    {
+      "source": "朱元璋",
+      "target": "海禁",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "明太祖朱元璋实行了海禁政策。",
+          "en": "The Hongwu Emperor, Zhu Yuanzhang, implemented the Haijin policy."
+        }
+      }
+    },
+    {
+      "source": "宁波之乱",
+      "target": "海禁",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1523",
+        "description": {
+          "zh-cn": "宁波之乱发生后，明朝中断了一切贸易，加强了海禁政策。",
+          "en": "After the Ningbo incident, the Ming court suspended all trade, strengthening the Haijin policy."
+        }
+      }
+    },
+    {
+      "source": "大友宗麟",
+      "target": "倭寇",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1550",
+        "description": {
+          "zh-cn": "据研究，大友宗麟是16世纪后期倭寇行动的实质总指挥，并为其提供物质和武器。",
+          "en": "According to research, Ōtomo Sōrin was the de facto commander of Wokou activities in the late 16th century, providing them with materials and weapons."
+        }
+      }
+    },
+    {
+      "source": "明成祖",
+      "target": "靖难之变",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "明成祖（时为燕王朱棣）发动了靖难之变夺取皇位。",
+          "en": "The Yongle Emperor (then Zhu Di, Prince of Yan) launched the Jingnan campaign to seize the throne."
+        }
+      }
+    },
+    {
+      "source": "戚继光",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "戚继光曾参与讨伐倭寇的军事行动。",
+          "en": "Qi Jiguang participated in military campaigns to suppress the Wokou."
+        }
+      }
+    },
+    {
+      "source": "胡宗宪",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "胡宗宪曾参与讨伐倭寇的军事行动。",
+          "en": "Hu Zongxian participated in military campaigns to suppress the Wokou."
+        }
+      }
+    },
+    {
+      "source": "俞大猷",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "俞大猷曾参与讨伐倭寇的军事行动。",
+          "en": "Yu Dayou participated in military campaigns to suppress the Wokou."
+        }
+      }
+    },
+    {
+      "source": "朱纨",
+      "target": "海禁",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "朱纨为杜绝倭寇祸本，主张并严格执行海禁。",
+          "en": "In order to eliminate the root cause of the Wokou threat, Zhu Wan advocated for and strictly enforced the Haijin policy."
+        }
+      }
+    },
+    {
+      "source": "朝鲜王朝",
+      "target": "应永外寇",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1419",
+        "description": {
+          "zh-cn": "朝鲜王朝对作为倭寇根据地的对马岛发动了军事进攻，即应永外寇。",
+          "en": "The Joseon Dynasty launched a military attack, the Ōei Invasion, against Tsushima Island, which served as a Wokou base."
+        }
+      }
+    },
+    {
+      "source": "戚继光",
+      "target": "纪效新书",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "戚继光撰写了《纪效新书》。",
+          "en": "Qi Jiguang authored the 'Jixiao Xinshu'."
+        }
+      }
+    },
+    {
+      "source": "阿只拔都",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "阿只拔都是知名的倭寇人物之一。",
+          "en": "Ajibaldo was one of the known Wokou figures."
+        }
+      }
+    },
+    {
+      "source": "松浦隆信",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "松浦隆信是知名的倭寇人物之一。",
+          "en": "Matsuura Takanobu was one of the known figures associated with the Wokou."
+        }
+      }
+    },
+    {
+      "source": "许栋",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "许栋是知名的倭寇人物之一。",
+          "en": "Xu Dong was one of the known Wokou figures."
+        }
+      }
+    },
+    {
+      "source": "李旦 (海盗)",
+      "target": "倭寇",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李旦是知名的倭寇人物之一。",
+          "en": "Li Dan was one of the known Wokou figures."
+        }
+      }
+    }
+  ]
+}

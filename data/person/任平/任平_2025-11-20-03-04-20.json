@@ -1,0 +1,292 @@
+{
+  "nodes": [
+    {
+      "id": "任平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "任平",
+          "孟平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1975-10 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "四川成都",
+          "en": "Chengdu, Sichuan"
+        },
+        "description": {
+          "zh-cn": "中国企业家，华为创始人任正非之子，毕业于中国科学技术大学，现任华为下属的慧通公司总经理。",
+          "en": "Chinese entrepreneur, son of Huawei founder Ren Zhengfei, graduated from the University of Science and Technology of China, and currently serves as the general manager of Huitong Company, a subsidiary of Huawei."
+        }
+      }
+    },
+    {
+      "id": "孟军",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孟军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "任正非的前妻，任平和孟晚舟的母亲。",
+          "en": "Ren Zhengfei's ex-wife, mother of Ren Ping and Meng Wanzhou."
+        }
+      }
+    },
+    {
+      "id": "任正非",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "任正非"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国企业家，华为技术有限公司的创始人兼总裁。",
+          "en": "Chinese entrepreneur, founder and president of Huawei Technologies Co., Ltd."
+        }
+      }
+    },
+    {
+      "id": "孟晚舟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孟晚舟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国企业家，任正非之女，任平的胞姊。",
+          "en": "Chinese entrepreneur, daughter of Ren Zhengfei and elder sister of Ren Ping."
+        }
+      }
+    },
+    {
+      "id": "中国科学技术大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学技术大学"
+        ],
+        "en": [
+          "University of Science and Technology of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国安徽省合肥市的一所著名公立研究型大学。",
+          "en": "A prominent public research university in Hefei, Anhui, China."
+        }
+      }
+    },
+    {
+      "id": "华为",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华为",
+          "华为公司"
+        ],
+        "en": [
+          "Huawei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家提供信息与通信技术基础设施和智能终端的中国跨国科技公司。",
+          "en": "A Chinese multinational technology corporation that provides information and communications technology infrastructure and smart devices."
+        }
+      }
+    },
+    {
+      "id": "慧通公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "慧通公司"
+        ],
+        "en": [
+          "Huitong Company"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "华为技术有限公司下属的全资子公司。",
+          "en": "A wholly-owned subsidiary of Huawei Technologies Co., Ltd."
+        }
+      }
+    },
+    {
+      "id": "成都市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "成都市",
+          "成都"
+        ],
+        "en": [
+          "Chengdu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国四川省的省会。",
+          "en": "The provincial capital of Sichuan province in China."
+        }
+      }
+    },
+    {
+      "id": "浦江县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浦江县",
+          "浦江"
+        ],
+        "en": [
+          "Pujiang County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国浙江省金华市下辖的一个县。",
+          "en": "A county under the administration of Jinhua City, in Zhejiang Province, China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "任平",
+      "target": "孟军",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "任平是孟军的儿子，16岁前跟随母亲姓孟。",
+          "en": "Ren Ping is the son of Meng Jun and used his mother's surname, Meng, until he was 16."
+        }
+      }
+    },
+    {
+      "source": "任平",
+      "target": "任正非",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "任平是华为公司创始人兼总裁任正非的儿子。",
+          "en": "Ren Ping is the son of Ren Zhengfei, the founder and president of Huawei."
+        }
+      }
+    },
+    {
+      "source": "任平",
+      "target": "孟晚舟",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "任平是孟晚舟的胞弟。",
+          "en": "Ren Ping is the younger brother of Meng Wanzhou."
+        }
+      }
+    },
+    {
+      "source": "任平",
+      "target": "中国科学技术大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "任平毕业于中国科学技术大学。",
+          "en": "Ren Ping graduated from the University of Science and Technology of China."
+        }
+      }
+    },
+    {
+      "source": "任平",
+      "target": "慧通公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总经理",
+          "en": "General Manager"
+        },
+        "description": {
+          "zh-cn": "任平担任华为下属的慧通公司总经理。",
+          "en": "Ren Ping serves as the General Manager of Huitong Company, a subsidiary of Huawei."
+        }
+      }
+    },
+    {
+      "source": "慧通公司",
+      "target": "华为",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "慧通公司是华为的下属公司。",
+          "en": "Huitong Company is a subsidiary of Huawei."
+        }
+      }
+    },
+    {
+      "source": "任正非",
+      "target": "华为",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "任正非是华为公司的创始人。",
+          "en": "Ren Zhengfei is the founder of Huawei."
+        }
+      }
+    },
+    {
+      "source": "任正非",
+      "target": "华为",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总裁",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "任正非担任华为公司的总裁。",
+          "en": "Ren Zhengfei serves as the President of Huawei."
+        }
+      }
+    },
+    {
+      "source": "任平",
+      "target": "成都市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1975-10",
+        "description": {
+          "zh-cn": "任平1975年10月出生于四川成都。",
+          "en": "Ren Ping was born in Chengdu, Sichuan in October 1975."
+        }
+      }
+    },
+    {
+      "source": "任平",
+      "target": "浦江县",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "任平的籍贯是浙江浦江县。",
+          "en": "Ren Ping's ancestral home is Pujiang County, Zhejiang."
+        }
+      }
+    }
+  ]
+}

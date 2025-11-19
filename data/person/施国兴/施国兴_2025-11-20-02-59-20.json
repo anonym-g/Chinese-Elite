@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "施国兴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "施国兴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1937-11 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "如东",
+          "en": "Rudong"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任扬州市人民政府市长、扬州市政协主席。",
+          "en": "A politician of the People's Republic of China, former Mayor of the Yangzhou Municipal People's Government and former Chairman of the Yangzhou CPPCC."
+        }
+      }
+    },
+    {
+      "id": "如东县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "如东县",
+          "如东"
+        ],
+        "en": [
+          "Rudong County",
+          "Rudong"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "江苏",
+          "en": "Jiangsu"
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "扬州市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "扬州市人民政府"
+        ],
+        "en": [
+          "Yangzhou Municipal People's Government"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议扬州市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议扬州市委员会",
+          "扬州市政协"
+        ],
+        "en": [
+          "Yangzhou Municipal Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "扬州师范学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "扬州师范学院"
+        ],
+        "en": [
+          "Yangzhou Normal University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "江苏省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江苏省",
+          "江苏"
+        ],
+        "en": [
+          "Jiangsu Province",
+          "Jiangsu"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "施国兴",
+      "target": "如东县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "施国兴是江苏如东人。",
+          "en": "Shi Guoxing is from Rudong, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "施国兴",
+      "target": "扬州师范学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1960",
+        "description": {
+          "zh-cn": "1960年毕业于扬州师范学院。",
+          "en": "Graduated from Yangzhou Normal University in 1960."
+        }
+      }
+    },
+    {
+      "source": "施国兴",
+      "target": "扬州市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993",
+        "end_date": "1997",
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "1993年至1997年任扬州市人民政府市长。",
+          "en": "Served as Mayor of the Yangzhou Municipal People's Government from 1993 to 1997."
+        }
+      }
+    },
+    {
+      "source": "施国兴",
+      "target": "中国人民政治协商会议扬州市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "曾任扬州市政协主席。",
+          "en": "Served as Chairman of the Yangzhou CPPCC."
+        }
+      }
+    },
+    {
+      "source": "施国兴",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "施国兴是中国共产党党员。",
+          "en": "Shi Guoxing is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}
