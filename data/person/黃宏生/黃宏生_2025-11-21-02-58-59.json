@@ -1,0 +1,322 @@
+{
+  "nodes": [
+    {
+      "id": "黄宏生",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄宏生"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1956 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "海南岛",
+          "en": "Hainan Island"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国企业家，创维数码创始人兼前主席、主要股东、房地产开发商。曾任第十届全国政协委员、第八届广东省政协委员、第三届深圳市政协常委。",
+          "en": "An entrepreneur from the People's Republic of China, founder and former chairman, major shareholder of Skyworth Digital, and a real estate developer. He served as a member of the 10th National Committee of the CPPCC, a member of the 8th Guangdong Provincial Committee of the CPPCC, and a member of the Standing Committee of the 3rd Shenzhen Municipal Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "id": "创维数码",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "创维数码"
+        ],
+        "en": [
+          "Skyworth Digital"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由黄宏生创立的消费电子产品公司。",
+          "en": "A consumer electronics company founded by Huang Hongsheng."
+        }
+      }
+    },
+    {
+      "id": "第十届全国政协委员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十届全国政协委员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议第十届全国委员会委员的统称。",
+          "en": "A collective term for the members of the 10th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "广东省政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广东省政协"
+        ],
+        "en": [
+          "Guangdong Provincial Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议广东省委员会。",
+          "en": "The Guangdong Provincial Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "深圳市政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "深圳市政协"
+        ],
+        "en": [
+          "Shenzhen Municipal Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议深圳市委员会。",
+          "en": "The Shenzhen Municipal Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "海南岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "海南岛"
+        ],
+        "en": [
+          "Hainan Island"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "华南理工大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华南理工大学"
+        ],
+        "en": [
+          "South China University of Technology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国广州市的一所公立研究型大学。",
+          "en": "A public research university located in Guangzhou, China."
+        }
+      }
+    },
+    {
+      "id": "华南电子进出口公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华南电子进出口公司"
+        ],
+        "en": [
+          "South China Electronics Import and Export Company"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "香港交易所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港交易所"
+        ],
+        "en": [
+          "Hong Kong Stock Exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港的证券交易所。",
+          "en": "The stock exchange of Hong Kong."
+        }
+      }
+    },
+    {
+      "id": "黄培升",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄培升"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "黄宏生胞弟，创维数码前执行董事。",
+          "en": "Younger brother of Huang Hongsheng and former executive director of Skyworth Digital."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "黄宏生",
+      "target": "创维数码",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1988",
+        "description": {
+          "zh-cn": "1988年，黄宏生移居香港后创业，成立了创维数码。",
+          "en": "In 1988, after moving to Hong Kong, Huang Hongsheng started his own business and founded Skyworth Digital."
+        }
+      }
+    },
+    {
+      "source": "黄宏生",
+      "target": "创维数码",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "前主席",
+          "en": "Former Chairman"
+        },
+        "description": {
+          "zh-cn": "黄宏生是创维数码的创始人兼前主席。",
+          "en": "Huang Hongsheng is the founder and former chairman of Skyworth Digital."
+        }
+      }
+    },
+    {
+      "source": "黄宏生",
+      "target": "创维数码",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "2006-07-13",
+        "description": {
+          "zh-cn": "黄宏生因串谋盗窃及串谋诈骗创维数码5000多万港元，于2006年7月13日被判监禁6年。",
+          "en": "On July 13, 2006, Huang Hongsheng was sentenced to 6 years in prison for conspiracy to steal and defraud Skyworth Digital of over 50 million Hong Kong dollars."
+        }
+      }
+    },
+    {
+      "source": "黄宏生",
+      "target": "第十届全国政协委员",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "黄宏生",
+      "target": "广东省政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第八届委员",
+          "en": "Member of the 8th Committee"
+        }
+      }
+    },
+    {
+      "source": "黄宏生",
+      "target": "深圳市政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第三届常委",
+          "en": "Standing Committee Member of the 3rd Committee"
+        }
+      }
+    },
+    {
+      "source": "黄宏生",
+      "target": "海南岛",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "黄宏生",
+      "target": "华南理工大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "毕业于无线电工程专业。",
+          "en": "Graduated with a major in Radio Engineering."
+        }
+      }
+    },
+    {
+      "source": "黄宏生",
+      "target": "华南电子进出口公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "助理工程师、常务副总经理",
+          "en": "Assistant Engineer, Executive Deputy General Manager"
+        },
+        "description": {
+          "zh-cn": "黄宏生曾在华南电子进出口公司任职，从助理工程师晋升为常务副总经理。",
+          "en": "Huang Hongsheng worked at South China Electronics Import and Export Company, where he was promoted from Assistant Engineer to Executive Deputy General Manager."
+        }
+      }
+    },
+    {
+      "source": "创维数码",
+      "target": "香港交易所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2000",
+        "description": {
+          "zh-cn": "2000年，创维数码在香港交易所上市。",
+          "en": "In 2000, Skyworth Digital was listed on the Hong Kong Stock Exchange."
+        }
+      }
+    },
+    {
+      "source": "黄培升",
+      "target": "黄宏生",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "黄培升是黄宏生的胞弟。",
+          "en": "Huang Peisheng is the younger brother of Huang Hongsheng."
+        }
+      }
+    },
+    {
+      "source": "黄培升",
+      "target": "创维数码",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "前执行董事",
+          "en": "Former Executive Director"
+        }
+      }
+    },
+    {
+      "source": "黄培升",
+      "target": "创维数码",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "2006-07-13",
+        "description": {
+          "zh-cn": "黄培升因串谋盗窃及串谋诈骗创维数码5000多万港元，于2006年7月13日被判监禁6年。",
+          "en": "On July 13, 2006, Huang Peisheng was sentenced to 6 years in prison for conspiracy to steal and defraud Skyworth Digital of over 50 million Hong Kong dollars."
+        }
+      }
+    }
+  ]
+}

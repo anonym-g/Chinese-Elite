@@ -1,0 +1,646 @@
+{
+  "nodes": [
+    {
+      "id": "牡丹社事件",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "牡丹社事件",
+          "台湾出兵",
+          "征台之役",
+          "台湾事件"
+        ],
+        "en": [
+          "Mudan incident",
+          "Taiwan Expedition of 1874"
+        ]
+      },
+      "properties": {
+        "period": "1874-05 - 1874-10-31",
+        "location": {
+          "zh-cn": "台湾瑯峤牡丹乡石门"
+        },
+        "description": {
+          "zh-cn": "1874年日本以琉球漂流民在台湾被原住民杀害为由，出兵攻打台湾南部原住民部落的军事行动，以及随后清日两方的外交折冲。这是日本自明治维新以来首次对外用兵。",
+          "en": "A Japanese punitive military expedition to Taiwan in 1874 in retaliation for the murder of shipwrecked Ryukyuan sailors by indigenous Paiwan people in 1871, and the subsequent diplomatic negotiations between Qing China and Japan. It was Japan's first overseas deployment of its new military since the Meiji Restoration."
+        }
+      }
+    },
+    {
+      "id": "八瑶湾事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "八瑶湾事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1871-10",
+        "location": {
+          "zh-cn": "台湾八瑶湾"
+        },
+        "description": {
+          "zh-cn": "琉球国宫古岛一艘上缴年贡的回航船只因台风漂流至台湾，船上66人登陆后与排湾族高士佛社原住民发生冲突，其中54人被斩首杀害。此事件成为牡丹社事件的导火索。",
+          "en": "An incident in 1871 where 54 of 66 shipwrecked Ryukyuan sailors from Miyako Island were killed by Paiwan aboriginals in southeastern Taiwan after a conflict. This event became the casus belli for the Mudan Incident."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868-01-03 - 1947-05-03",
+        "description": {
+          "zh-cn": "19世纪末至20世纪中叶的日本。在明治维新后，为解决国内士族问题并扩张势力，发动了牡丹社事件。",
+          "en": "Japan from the late 19th century to the mid-20th century. After the Meiji Restoration, it launched the Taiwan Expedition to resolve domestic issues with the samurai class and to expand its influence."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "大清政府",
+          "清廷",
+          "中国"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国最后一个帝制王朝。在牡丹社事件中，其对台湾的主权受到日本挑战，事件后开始积极治理台湾。",
+          "en": "The last imperial dynasty of China. Its sovereignty over Taiwan was challenged by Japan during the Mudan Incident, which prompted it to adopt a more active policy of governing Taiwan."
+        }
+      }
+    },
+    {
+      "id": "牡丹社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "牡丹社"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "台湾"
+        },
+        "description": {
+          "zh-cn": "台湾原住民排湾族部落之一，在牡丹社事件中抵抗日军的主要力量。",
+          "en": "One of the Paiwan indigenous tribes in Taiwan, which was the main force resisting the Japanese army during the Mudan Incident."
+        }
+      }
+    },
+    {
+      "id": "高士佛社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高士佛社"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "台湾"
+        },
+        "description": {
+          "zh-cn": "台湾原住民排湾族部落之一，涉及八瑶湾事件，并在牡丹社事件中遭日军扫荡。",
+          "en": "A Paiwan indigenous tribe in Taiwan, involved in the Bayao Bay Incident and later attacked by Japanese forces during the Mudan Incident."
+        }
+      }
+    },
+    {
+      "id": "射不力社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "射不力社"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "台湾"
+        },
+        "description": {
+          "zh-cn": "台湾原住民排湾族部落之一，在牡丹社事件中遭日军扫荡。",
+          "en": "A Paiwan indigenous tribe in Taiwan, attacked by Japanese forces during the Mudan Incident."
+        }
+      }
+    },
+    {
+      "id": "西乡从道",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "西乡从道"
+        ],
+        "en": [
+          "Saigō Tsugumichi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1843-06-01 - 1902-07-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本陆军中将，在牡丹社事件中担任“蕃地事务局都督”，率军攻打台湾。",
+          "en": "A Lieutenant General in the Imperial Japanese Army, who served as the 'Commissioner for the Aboriginal Territory' and commanded the expeditionary force to Taiwan during the Mudan Incident."
+        }
+      }
+    },
+    {
+      "id": "阿禄古",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿禄古"
+        ],
+        "en": [
+          "Aruqu"
+        ]
+      },
+      "properties": {
+        "death_place": {
+          "zh-cn": "石门"
+        },
+        "gender": "Male",
+        "description": {
+          "zh-cn": "牡丹社头目，在石门战役中率领族人抵抗日军，最终与其子一同战死。",
+          "en": "The chief of the Mudan tribe, who led his people to resist the Japanese army in the Battle of Stone Gate and was killed in action along with his son."
+        }
+      }
+    },
+    {
+      "id": "北京专约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "北京专约",
+          "中日北京专条"
+        ],
+        "en": [
+          "Sino-Japanese Peking Agreement of 1874"
+        ]
+      },
+      "properties": {
+        "period": "1874-10-31",
+        "description": {
+          "zh-cn": "清朝与日本为解决牡丹社事件而签订的条约。清朝向日本支付抚恤银和补偿款，并承认日本出兵为“保民义举”，为日本后续吞并琉球提供了口实。",
+          "en": "A treaty signed between the Qing dynasty and Japan to resolve the Mudan Incident. The Qing paid reparations and compensation, and acknowledged Japan's expedition as a 'justifiable act to protect its subjects,' which provided a pretext for Japan's subsequent annexation of Ryukyu."
+        }
+      }
+    },
+    {
+      "id": "沈葆桢",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "沈葆桢"
+        ],
+        "en": [
+          "Shen Baozhen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1820 - 1879",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝船政大臣。在牡丹社事件期间被任命为钦差大臣，负责处理台湾海防及对日外交事务。",
+          "en": "Qing dynasty's Minister of Shipping. During the Mudan Incident, he was appointed as the Imperial Commissioner to manage Taiwan's coastal defense and diplomatic affairs with Japan."
+        }
+      }
+    },
+    {
+      "id": "大久保利通",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "大久保利通"
+        ],
+        "en": [
+          "Ōkubo Toshimichi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1830-09-26 - 1878-05-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本明治政府内务卿，作为全权大臣前往清朝进行交涉，最终签订了《北京专约》。",
+          "en": "Home Minister of the Meiji government of Japan. He acted as the plenipotentiary ambassador to the Qing court for negotiations, which resulted in the signing of the Peking Agreement."
+        }
+      }
+    },
+    {
+      "id": "毛昶熙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛昶熙"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝总理衙门大臣。他关于台湾“生番”是“化外之民”的言论，被日本作为出兵的借口。",
+          "en": "A minister of the Qing's Zongli Yamen. His statement that Taiwan's 'raw barbarians' were 'people beyond civilization' was used by Japan as a pretext for the expedition."
+        }
+      }
+    },
+    {
+      "id": "琉球处分",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "琉球处分"
+        ],
+        "en": [
+          "Ryukyu Disposition"
+        ]
+      },
+      "properties": {
+        "period": "1872 - 1879",
+        "description": {
+          "zh-cn": "日本明治政府逐步吞并琉球王国，并将其改为冲绳县的过程。",
+          "en": "The process by which the Meiji government of Japan gradually annexed the Ryukyu Kingdom, incorporating it as Okinawa Prefecture."
+        }
+      }
+    },
+    {
+      "id": "士族_(日本)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "士族_(日本)",
+          "士族",
+          "武士"
+        ],
+        "en": [
+          "Shizoku"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本明治维新后的前武士阶层。因大量失业造成社会问题，日本政府为安抚其情绪，策划了出兵台湾的行动。",
+          "en": "The former samurai class in Japan after the Meiji Restoration. Their widespread unemployment caused social problems, and the Japanese government planned the Taiwan expedition partly to placate their discontent."
+        }
+      }
+    },
+    {
+      "id": "开山抚番",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "开山抚番"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1875 - ",
+        "description": {
+          "zh-cn": "牡丹社事件后，清朝政府改变对台湾的消极治理政策，转为积极开发后山及管理原住民地区的政策。",
+          "en": "After the Mudan Incident, the Qing government changed its passive governance policy in Taiwan to one of actively developing the eastern mountains and managing aboriginal areas."
+        }
+      }
+    },
+    {
+      "id": "福建台湾省",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "福建台湾省"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1885 - 1895",
+        "description": {
+          "zh-cn": "清朝在牡丹社事件后，为加强对台湾的统治而设立的行省。",
+          "en": "A province established by the Qing dynasty after the Mudan Incident to strengthen its rule over Taiwan."
+        }
+      }
+    },
+    {
+      "id": "二鲲鯓砲台",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "二鲲鯓砲台",
+          "亿载金城",
+          "安平大砲台"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1874 - ",
+        "location": {
+          "zh-cn": "台南市"
+        },
+        "description": {
+          "zh-cn": "又称亿载金城。牡丹社事件后，沈葆桢为加强台湾海防而奏请建造的西式炮台。",
+          "en": "Also known as Eternal Golden Castle. It is a Western-style fort whose construction was proposed by Shen Baozhen to strengthen Taiwan's coastal defense after the Mudan Incident."
+        }
+      }
+    },
+    {
+      "id": "威妥玛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威妥玛"
+        ],
+        "en": [
+          "Thomas Wade"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任英国公使，在牡丹社事件的后期谈判中担任调停人。",
+          "en": "The British minister at the time, who acted as a mediator in the later stages of the negotiations for the Mudan Incident."
+        }
+      }
+    },
+    {
+      "id": "李仙得",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李仙得",
+          "李让礼"
+        ],
+        "en": [
+          "Charles Le Gendre"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国军事顾问，在牡丹社事件中被日本雇用，协助策划对台出兵。",
+          "en": "An American military advisor who was hired by Japan during the Mudan Incident to help plan the expedition to Taiwan."
+        }
+      }
+    },
+    {
+      "id": "爱丁堡大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "爱丁堡大学"
+        ],
+        "en": [
+          "University of Edinburgh"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苏格兰的一所大学，其解剖学博物馆收藏了四具在牡丹社事件中被日军带走的排湾族勇士头骨，并于2023年将其归还台湾。",
+          "en": "A Scottish university whose anatomy museum housed the skulls of four Paiwan warriors taken by the Japanese army during the Mudan Incident. The university returned the remains to Taiwan in 2023."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "八瑶湾事件",
+      "target": "牡丹社事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1871",
+        "end_date": "1874",
+        "description": {
+          "zh-cn": "1871年的八瑶湾事件是日本在1874年发动牡丹社事件的直接借口。",
+          "en": "The Bayao Bay Incident of 1871 was the direct pretext for Japan to launch the Mudan Incident in 1874."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "牡丹社",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1874-05-22",
+        "description": {
+          "zh-cn": "在牡丹社事件中，西乡从道率领的日军与阿禄古领导的牡丹社原住民在石门等地发生激烈战斗。",
+          "en": "During the Mudan Incident, Japanese forces led by Saigō Tsugumichi engaged in fierce battles with the Mudan tribe aboriginals led by Aruqu at locations such as Stone Gate."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "高士佛社",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1874-06-01",
+        "description": {
+          "zh-cn": "1874年6月1日起，日军分路扫荡了包括高士佛社在内的原住民部落。",
+          "en": "Starting from June 1, 1874, the Japanese army launched raids on indigenous tribes, including the Kuskus tribe."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "射不力社",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1874-06-01",
+        "description": {
+          "zh-cn": "1874年6月1日起，日军分路扫荡了包括射不力社在内的原住民部落。",
+          "en": "Starting from June 1, 1874, the Japanese army launched raids on indigenous tribes, including the Tjagarus tribe."
+        }
+      }
+    },
+    {
+      "source": "牡丹社事件",
+      "target": "阿禄古",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1874-05-22",
+        "description": {
+          "zh-cn": "牡丹社头目阿禄古在石门战役中抵抗日军时战死。",
+          "en": "Aruqu, the chief of the Mudan tribe, was killed in action while resisting the Japanese army during the Battle of Stone Gate."
+        }
+      }
+    },
+    {
+      "source": "士族_(日本)",
+      "target": "牡丹社事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "明治维新后大量武士（士族）失业造成社会问题，日本政府为安抚士族情绪，策划了出兵台湾的行动。",
+          "en": "After the Meiji Restoration, widespread unemployment among samurai (shizoku) caused social problems. To placate the shizoku, the Japanese government planned the military expedition to Taiwan."
+        }
+      }
+    },
+    {
+      "source": "毛昶熙",
+      "target": "牡丹社事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1873",
+        "description": {
+          "zh-cn": "清朝总理衙门大臣毛昶熙称台湾“生番”为“化外之民”，日本政府以此为借口，声称清朝对该地区无管辖权，从而为出兵台湾提供了理由。",
+          "en": "The Qing Zongli Yamen minister Mao Changxi's statement that Taiwan's 'raw barbarians' were 'people beyond civilization' was used by the Japanese government as a pretext to claim the Qing had no jurisdiction, thereby justifying the expedition."
+        }
+      }
+    },
+    {
+      "source": "牡丹社事件",
+      "target": "北京专约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1874-10-31",
+        "description": {
+          "zh-cn": "为解决牡丹社事件引发的冲突，清日两国进行谈判，最终签订了《北京专约》。",
+          "en": "To resolve the conflict arising from the Mudan Incident, Qing China and Japan entered into negotiations, which culminated in the signing of the Peking Agreement."
+        }
+      }
+    },
+    {
+      "source": "北京专约",
+      "target": "琉球处分",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1874-10-31",
+        "description": {
+          "zh-cn": "条约中“保民义举”的措辞被日本解释为清朝承认琉球人为日本属民，为日本后续正式吞并琉球（即“琉球处分”）提供了外交口实。",
+          "en": "The treaty's wording describing the expedition as a 'justifiable act to protect its subjects' was interpreted by Japan as Qing's recognition of Ryukyuans as Japanese subjects, providing a diplomatic pretext for Japan's subsequent annexation of Ryukyu (the 'Ryukyu Disposition')."
+        }
+      }
+    },
+    {
+      "source": "牡丹社事件",
+      "target": "开山抚番",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1874",
+        "description": {
+          "zh-cn": "牡丹社事件暴露了清朝对台湾后山地区控制的薄弱，促使清廷改变消极政策，推行“开山抚番”以加强对全台的实际统治。",
+          "en": "The Mudan Incident exposed the weakness of Qing control over eastern Taiwan, prompting the Qing court to abandon its passive policy and implement the 'Open the Mountains and Pacify the Savages' policy to strengthen its actual rule over the entire island."
+        }
+      }
+    },
+    {
+      "source": "开山抚番",
+      "target": "福建台湾省",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1885",
+        "description": {
+          "zh-cn": "“开山抚番”等积极治理台湾的政策，最终促成了1885年台湾正式建省，成为福建台湾省。",
+          "en": "Active governance policies in Taiwan, such as 'Open the Mountains and Pacify the Savages,' eventually led to the official establishment of Taiwan as a province in 1885, known as Fujian-Taiwan Province."
+        }
+      }
+    },
+    {
+      "source": "牡丹社事件",
+      "target": "沈葆桢",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1874-05",
+        "description": {
+          "zh-cn": "牡丹社事件爆发后，清廷派遣船政大臣沈葆桢为钦差大臣，赴台处理海防及外交事务。",
+          "en": "After the outbreak of the Mudan Incident, the Qing court dispatched Minister of Shipping Shen Baozhen as Imperial Commissioner to Taiwan to handle coastal defense and diplomatic affairs."
+        }
+      }
+    },
+    {
+      "source": "沈葆桢",
+      "target": "二鲲鯓砲台",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1874",
+        "description": {
+          "zh-cn": "为应对牡丹社事件所暴露出的海防弱点，沈葆桢奏请建造了包括二鲲鯓砲台（亿载金城）在内的一系列西式炮台。",
+          "en": "To address the coastal defense vulnerabilities exposed by the Mudan Incident, Shen Baozhen proposed the construction of a series of Western-style forts, including the Erkunshen Fort (Eternal Golden Castle)."
+        }
+      }
+    },
+    {
+      "source": "大久保利通",
+      "target": "清朝",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1874",
+        "description": {
+          "zh-cn": "大久保利通作为日方全权大臣，赴清廷与总理衙门等官员进行交涉，以解决牡丹社事件。",
+          "en": "As Japan's plenipotentiary minister, Ōkubo Toshimichi traveled to the Qing court to negotiate with officials from the Zongli Yamen to resolve the Mudan Incident."
+        }
+      }
+    },
+    {
+      "source": "威妥玛",
+      "target": "北京专约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1874-10",
+        "description": {
+          "zh-cn": "在清日谈判陷入僵局时，英国公使威妥玛介入调停，促成了《北京专约》的签订。",
+          "en": "When the Sino-Japanese negotiations reached a stalemate, British Minister Thomas Wade intervened as a mediator, facilitating the signing of the Peking Agreement."
+        }
+      }
+    },
+    {
+      "source": "西乡从道",
+      "target": "大日本帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1874",
+        "position": {
+          "zh-cn": "蕃地事务局都督",
+          "en": "Commissioner for the Aboriginal Territory"
+        },
+        "description": {
+          "zh-cn": "在牡丹社事件中担任日军侵台部队总指挥。",
+          "en": "Served as the commander-in-chief of the Japanese expeditionary force to Taiwan during the Mudan Incident."
+        }
+      }
+    },
+    {
+      "source": "李仙得",
+      "target": "大日本帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1874",
+        "position": {
+          "zh-cn": "军事顾问",
+          "en": "Military Advisor"
+        },
+        "description": {
+          "zh-cn": "在牡丹社事件中被日本政府雇用，为出兵台湾提供建议和策划。",
+          "en": "Was hired by the Japanese government during the Mudan Incident to provide advice and planning for the expedition to Taiwan."
+        }
+      }
+    },
+    {
+      "source": "爱丁堡大学",
+      "target": "牡丹社",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2023-11-03",
+        "description": {
+          "zh-cn": "爱丁堡大学将其收藏的四具在牡丹社事件中阵亡的排湾族勇士遗骨正式归还给台湾牡丹乡的部落代表。",
+          "en": "The University of Edinburgh officially returned the remains of four Paiwan warriors killed in the Mudan Incident to representatives of the tribes in Mudan Township, Taiwan."
+        }
+      }
+    }
+  ]
+}

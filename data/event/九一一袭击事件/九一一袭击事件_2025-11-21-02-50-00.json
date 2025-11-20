@@ -1,0 +1,724 @@
+{
+  "nodes": [
+    {
+      "id": "9·11袭击事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "9·11袭击事件",
+          "九一一袭击事件",
+          "“9·11”恐怖袭击事件",
+          "九一一恐怖攻击事件",
+          "9·11事件",
+          "九一一事件",
+          "9月11日攻击"
+        ],
+        "en": [
+          "September 11 attacks",
+          "9/11"
+        ]
+      },
+      "properties": {
+        "period": "2001-09-11",
+        "location": {
+          "zh-cn": "纽约市曼哈顿、弗吉尼亚州阿灵顿县、宾夕法尼亚州尚克斯维尔",
+          "en": "Manhattan, New York City; Arlington County, Virginia; Shanksville, Pennsylvania"
+        },
+        "description": {
+          "zh-cn": "2001年9月11日，基地组织恐怖分子在美国境内发动的一系列自杀式恐怖袭击，劫持四架民航客机撞向世界贸易中心、五角大楼等目标，造成近3000人死亡，并引发了全球性的反恐战争。",
+          "en": "A series of suicide terrorist attacks carried out by Al-Qaeda terrorists within the United States on September 11, 2001. Four commercial airliners were hijacked to strike targets including the World Trade Center and the Pentagon, resulting in nearly 3,000 deaths and triggering the global War on Terror."
+        }
+      }
+    },
+    {
+      "id": "基地组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "基地组织",
+          "阿尔盖达组织",
+          "盖达组织"
+        ],
+        "en": [
+          "Al-Qaeda"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个伊斯兰军事组织，由本·拉登在苏联入侵阿富汗期间创立，策划并实施了9·11袭击事件。",
+          "en": "An Islamist military organization founded by Osama bin Laden during the Soviet invasion of Afghanistan, which planned and executed the September 11 attacks."
+        }
+      }
+    },
+    {
+      "id": "本·拉登",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "本·拉登",
+          "宾·拉登",
+          "宾拉登",
+          "奥萨马·本·拉登"
+        ],
+        "en": [
+          "Osama bin Laden"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "巴基斯坦阿伯塔巴德",
+          "en": "Abbottabad, Pakistan"
+        },
+        "description": {
+          "zh-cn": "基地组织的首领，被认为是9·11袭击事件的幕后主使。他将美国对以色列的支持、美军在中东的存在等列为袭击动机。2011年被美军击毙。",
+          "en": "The leader of Al-Qaeda, considered the mastermind behind the September 11 attacks. He cited US support for Israel and the presence of US troops in the Middle East as motivations for the attacks. He was killed by US forces in 2011."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "9·11袭击事件的攻击目标国家。袭击后，美国发动了全球反恐战争。",
+          "en": "The target country of the September 11 attacks. After the attacks, the U.S. launched the global War on Terror."
+        }
+      }
+    },
+    {
+      "id": "世界贸易中心 (1973年至2001年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "世界贸易中心 (1973年至2001年)",
+          "世贸",
+          "世界贸易中心"
+        ],
+        "en": [
+          "World Trade Center (1973–2001)"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "纽约市曼哈顿",
+          "en": "Manhattan, New York City"
+        },
+        "description": {
+          "zh-cn": "位于纽约市的建筑群，其双子塔在9·11袭击事件中被飞机撞击后倒塌。",
+          "en": "A complex of buildings in New York City whose Twin Towers collapsed after being struck by aircraft during the September 11 attacks."
+        }
+      }
+    },
+    {
+      "id": "五角大楼",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "五角大楼",
+          "五角大厦"
+        ],
+        "en": [
+          "The Pentagon"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "弗吉尼亚州阿灵顿县",
+          "en": "Arlington County, Virginia"
+        },
+        "description": {
+          "zh-cn": "美国国防部总部，是9·11袭击事件的目标之一，被一架被劫持的飞机撞击。",
+          "en": "The headquarters of the United States Department of Defense, one of the targets in the September 11 attacks, struck by a hijacked airliner."
+        }
+      }
+    },
+    {
+      "id": "反恐战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "反恐战争"
+        ],
+        "en": [
+          "War on Terror"
+        ]
+      },
+      "properties": {
+        "period": "2001-09 - ",
+        "description": {
+          "zh-cn": "由美国及其盟友为应对9·11袭击事件而发起的一场全球性军事、政治、法律和意识形态斗争，旨在打击国际恐怖主义。",
+          "en": "A global military, political, legal, and ideological struggle launched by the United States and its allies in response to the 9/11 attacks, aimed at combating international terrorism."
+        }
+      }
+    },
+    {
+      "id": "塔利班",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "塔利班"
+        ],
+        "en": [
+          "Taliban"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "阿富汗",
+          "en": "Afghanistan"
+        },
+        "description": {
+          "zh-cn": "阿富汗的伊斯兰原教旨主义政治和军事组织。在9·11事件时为阿富汗执政当局，因庇护基地组织而成为美国军事打击的目标。",
+          "en": "An Islamic fundamentalist political and military organization in Afghanistan. It was the ruling authority in Afghanistan at the time of 9/11 and became a target of U.S. military action for harboring Al-Qaeda."
+        }
+      }
+    },
+    {
+      "id": "乔治·W·布什",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·W·布什",
+          "布什",
+          "布殊",
+          "布希"
+        ],
+        "en": [
+          "George W. Bush"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第43任总统。在9·11袭击事件发生后，他宣布发动反恐战争。",
+          "en": "The 43rd President of the United States. He declared the War on Terror following the September 11 attacks."
+        }
+      }
+    },
+    {
+      "id": "美国爱国者法案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "美国爱国者法案"
+        ],
+        "en": [
+          "USA Patriot Act"
+        ]
+      },
+      "properties": {
+        "period": "2001-10-26 - ",
+        "description": {
+          "zh-cn": "9·11袭击事件后由美国国会通过的一项法案，旨在扩大执法部门在监控和调查方面的权力以打击恐怖主义。",
+          "en": "An act passed by the U.S. Congress after the 9/11 attacks, aimed at expanding the powers of law enforcement agencies in surveillance and investigation to combat terrorism."
+        }
+      }
+    },
+    {
+      "id": "苏联入侵阿富汗",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "苏联入侵阿富汗"
+        ],
+        "en": [
+          "Soviet–Afghan War"
+        ]
+      },
+      "properties": {
+        "period": "1979-12 - 1989-02",
+        "description": {
+          "zh-cn": "1979年苏联对阿富汗的军事入侵，此事件被认为是基地组织和本·拉登崛起的历史背景。",
+          "en": "The Soviet Union's military invasion of Afghanistan in 1979, an event considered the historical backdrop for the rise of Al-Qaeda and Osama bin Laden."
+        }
+      }
+    },
+    {
+      "id": "第五次中东战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第五次中东战争"
+        ],
+        "en": [
+          "1982 Lebanon War"
+        ]
+      },
+      "properties": {
+        "period": "1982",
+        "description": {
+          "zh-cn": "1982年以色列入侵黎巴嫩的战争。本·拉登称，美国在该战争中对以色列的支持直接促使他产生袭击美国的想法。",
+          "en": "The 1982 war in which Israel invaded Lebanon. Bin Laden claimed that U.S. support for Israel in this war directly motivated him to conceive the idea of attacking the United States."
+        }
+      }
+    },
+    {
+      "id": "以色列",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "以色列"
+        ],
+        "en": [
+          "Israel"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中东国家。美国对其的长期支持是本·拉登发动9·11袭击的主要动机之一。",
+          "en": "A country in the Middle East. Long-standing U.S. support for Israel was one of the main motivations for bin Laden to launch the 9/11 attacks."
+        }
+      }
+    },
+    {
+      "id": "哈立德·谢赫·穆罕默德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈立德·谢赫·穆罕默德"
+        ],
+        "en": [
+          "Khalid Sheikh Mohammed"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "基地组织高级成员，被认为是9·11袭击事件的主要策划者。他于2003年在巴基斯坦被捕。",
+          "en": "A high-ranking member of Al-Qaeda, considered the principal architect of the September 11 attacks. He was captured in Pakistan in 2003."
+        }
+      }
+    },
+    {
+      "id": "美国国会大厦",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国国会大厦"
+        ],
+        "en": [
+          "United States Capitol"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国国会的所在地，被认为是联合航空93号班机的袭击目标之一。",
+          "en": "The seat of the United States Congress, believed to be one of the intended targets of United Airlines Flight 93."
+        }
+      }
+    },
+    {
+      "id": "白宫",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "白宫"
+        ],
+        "en": [
+          "White House"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国总统的官邸和主要工作场所，是9·11袭击中被劫持飞机的未遂目标之一。",
+          "en": "The official residence and principal workplace of the President of the United States, one of the unfulfilled targets of the hijacked planes in the 9/11 attacks."
+        }
+      }
+    },
+    {
+      "id": "尚克斯维尔 (宾夕法尼亚州)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "尚克斯维尔 (宾夕法尼亚州)",
+          "尚克斯维尔"
+        ],
+        "en": [
+          "Shanksville, Pennsylvania"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国宾夕法尼亚州的一个乡村地区，联合航空93号班机在此坠毁。",
+          "en": "A rural area in Pennsylvania, USA, where United Airlines Flight 93 crashed."
+        }
+      }
+    },
+    {
+      "id": "阿富汗战争 (2001年—2021年)",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "阿富汗战争 (2001年—2021年)"
+        ],
+        "en": [
+          "War in Afghanistan (2001–2021)"
+        ]
+      },
+      "properties": {
+        "period": "2001-10-07 - 2021-08-30",
+        "description": {
+          "zh-cn": "作为反恐战争的一部分，由美国领导的联军为推翻塔利班政权和打击基地组织而在阿富汗发动的战争。",
+          "en": "As part of the War on Terror, a war launched by a US-led coalition in Afghanistan to overthrow the Taliban regime and combat Al-Qaeda."
+        }
+      }
+    },
+    {
+      "id": "伊拉克战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "伊拉克战争"
+        ],
+        "en": [
+          "Iraq War"
+        ]
+      },
+      "properties": {
+        "period": "2003-03-20 - 2011-12-18",
+        "description": {
+          "zh-cn": "由美国领导的联军在9·11事件后发动的战争，是反恐战争的一部分，推翻了萨达姆·侯赛因政权。",
+          "en": "A war launched by a US-led coalition after the 9/11 attacks, as part of the War on Terror, which overthrew the regime of Saddam Hussein."
+        }
+      }
+    },
+    {
+      "id": "全球监控",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "全球监控"
+        ],
+        "en": [
+          "Global surveillance"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指在9·11事件后，以美国国家安全局为首的情报机构在全球范围内进行的大规模监视活动。",
+          "en": "Refers to the large-scale surveillance activities conducted globally by intelligence agencies led by the U.S. National Security Agency after the 9/11 attacks."
+        }
+      }
+    },
+    {
+      "id": "棱镜计划",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "棱镜计划"
+        ],
+        "en": [
+          "PRISM (surveillance program)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由美国国家安全局进行的一项秘密电子监控计划，是9·11事件后全球监控行动的一部分。",
+          "en": "A clandestine electronic surveillance program conducted by the U.S. National Security Agency, part of the global surveillance operations following the 9/11 attacks."
+        }
+      }
+    },
+    {
+      "id": "对恐怖主义资助者实行法律制裁法案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "对恐怖主义资助者实行法律制裁法案",
+          "911法案"
+        ],
+        "en": [
+          "Justice Against Sponsors of Terrorism Act",
+          "JASTA"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一项美国法律，允许9·11袭击事件的受害者家属起诉被指控资助恐怖主义的外国政府，如沙特阿拉伯。",
+          "en": "A U.S. law that allows families of 9/11 victims to sue foreign governments, such as Saudi Arabia, accused of financing terrorism."
+        }
+      }
+    },
+    {
+      "id": "美国国会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国国会"
+        ],
+        "en": [
+          "United States Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的立法机构，在9·11事件后通过了多项法案，包括《美国爱国者法案》和《对恐怖主义资助者实行法律制裁法案》。",
+          "en": "The legislative branch of the U.S. government, which passed several acts after 9/11, including the USA Patriot Act and the Justice Against Sponsors of Terrorism Act."
+        }
+      }
+    },
+    {
+      "id": "贝拉克·奥巴马",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贝拉克·奥巴马",
+          "奥巴马"
+        ],
+        "en": [
+          "Barack Obama"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第44任总统，任内美军击毙了本·拉登，并曾否决《对恐怖主义资助者实行法律制裁法案》。",
+          "en": "The 44th President of the United States, during whose term U.S. forces killed Osama bin Laden. He also vetoed the Justice Against Sponsors of Terrorism Act."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "基地组织",
+      "target": "9·11袭击事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-09-11",
+        "description": {
+          "zh-cn": "基地组织是策划并实施2001年对美国发动九一一袭击事件的恐怖组织。",
+          "en": "Al-Qaeda is the terrorist organization that planned and executed the September 11 attacks against the United States in 2001."
+        }
+      }
+    },
+    {
+      "source": "本·拉登",
+      "target": "基地组织",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "首领",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "本·拉登是基地组织的首领。",
+          "en": "Osama bin Laden was the leader of Al-Qaeda."
+        }
+      }
+    },
+    {
+      "source": "本·拉登",
+      "target": "9·11袭击事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-09-11",
+        "description": {
+          "zh-cn": "本·拉登在2004年通过录像承认是他本人下令发起9·11袭击行动。",
+          "en": "In a 2004 video, Osama bin Laden admitted that he personally ordered the 9/11 attacks."
+        }
+      }
+    },
+    {
+      "source": "哈立德·谢赫·穆罕默德",
+      "target": "基地组织",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "海外军事活动首领",
+          "en": "Chief of foreign military operations"
+        },
+        "description": {
+          "zh-cn": "哈立德·谢赫·穆罕默德是基地组织的高级成员，担任海外军事活动首领。",
+          "en": "Khalid Sheikh Mohammed was a high-ranking member of Al-Qaeda, serving as the chief of its foreign military operations."
+        }
+      }
+    },
+    {
+      "source": "哈立德·谢赫·穆罕默德",
+      "target": "9·11袭击事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-09-11",
+        "description": {
+          "zh-cn": "哈立德·谢赫·穆罕默德在2007年的听证法庭上招认，九一一行动从头到尾都由他负责主导。",
+          "en": "At a hearing in 2007, Khalid Sheikh Mohammed confessed that he was responsible for the 9/11 operation from A to Z."
+        }
+      }
+    },
+    {
+      "source": "9·11袭击事件",
+      "target": "世界贸易中心 (1973年至2001年)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2001-09-11",
+        "description": {
+          "zh-cn": "在9·11袭击事件中，两架被劫持的飞机分别撞向世界贸易中心的双子塔，导致其倒塌被毁。",
+          "en": "During the 9/11 attacks, two hijacked planes struck the Twin Towers of the World Trade Center, causing them to collapse and be destroyed."
+        }
+      }
+    },
+    {
+      "source": "9·11袭击事件",
+      "target": "五角大楼",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2001-09-11",
+        "description": {
+          "zh-cn": "在9·11袭击事件中，一架被劫持的飞机撞入五角大楼，造成其部分建筑损毁和人员伤亡。",
+          "en": "During the 9/11 attacks, a hijacked plane crashed into the Pentagon, causing partial destruction of the building and casualties."
+        }
+      }
+    },
+    {
+      "source": "9·11袭击事件",
+      "target": "反恐战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-09-11",
+        "description": {
+          "zh-cn": "作为对9·11袭击事件的回应，美国发动了全球性的反恐战争。",
+          "en": "In response to the 9/11 attacks, the United States launched the global War on Terror."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "阿富汗战争 (2001年—2021年)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-10-07",
+        "description": {
+          "zh-cn": "为打击庇护基地组织的塔利班政权，美国领导联军于2001年10月7日对阿富汗发动了军事攻击。",
+          "en": "To combat the Taliban regime which harbored Al-Qaeda, the United States led a coalition to launch a military attack on Afghanistan on October 7, 2001."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "塔利班",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2001-10-07",
+        "description": {
+          "zh-cn": "因塔利班政权庇护基地组织，美国发动阿富汗战争对其进行军事打击，推翻了其政权。",
+          "en": "Because the Taliban regime harbored Al-Qaeda, the United States launched the War in Afghanistan to militarily strike and overthrow its regime."
+        }
+      }
+    },
+    {
+      "source": "塔利班",
+      "target": "基地组织",
+      "type": "FRIEND_OF",
+      "properties": {
+        "period": " - 2001-10-07",
+        "description": {
+          "zh-cn": "塔利班政权与基地组织关系密切，并在阿富汗为本·拉登等基地组织头目提供庇护，拒绝引渡他们。",
+          "en": "The Taliban regime had close ties with Al-Qaeda, providing refuge in Afghanistan for its leaders like Osama bin Laden and refusing to extradite them."
+        }
+      }
+    },
+    {
+      "source": "9·11袭击事件",
+      "target": "美国爱国者法案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-09-11",
+        "description": {
+          "zh-cn": "9·11袭击事件直接促使美国国会通过《美国爱国者法案》，以加强国内反恐能力。",
+          "en": "The September 11 attacks directly prompted the U.S. Congress to pass the USA Patriot Act to strengthen domestic counter-terrorism capabilities."
+        }
+      }
+    },
+    {
+      "source": "苏联入侵阿富汗",
+      "target": "本·拉登",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1979",
+        "description": {
+          "zh-cn": "1979年苏联入侵阿富汗后，本·拉登前往阿富汗参与抵抗运动，这成为其组织“阿富汗阿拉伯人”并最终建立基地组织的起点。",
+          "en": "After the Soviet invasion of Afghanistan in 1979, Osama bin Laden went to Afghanistan to participate in the resistance, which became the starting point for him to organize the 'Afghan Arabs' and eventually establish Al-Qaeda."
+        }
+      }
+    },
+    {
+      "source": "本·拉登",
+      "target": "基地组织",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "本·拉登在阿富汗组织了抵抗苏联的阿拉伯圣战者，这成为基地组织的前身和核心力量。",
+          "en": "Osama bin Laden organized Arab mujahideen to resist the Soviets in Afghanistan, which became the precursor and core force of Al-Qaeda."
+        }
+      }
+    },
+    {
+      "source": "第五次中东战争",
+      "target": "本·拉登",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "本·拉登在自述中称，1982年以色列入侵黎巴嫩的战争及其画面直接震撼了他，使他产生了摧毁美国高楼以示惩罚的想法。",
+          "en": "Bin Laden stated that the 1982 Israeli invasion of Lebanon and its imagery directly shocked him, leading him to the idea of destroying American tall buildings as a form of punishment."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "以色列",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "本·拉登将美国对以色列的长期外交和军事支持列为发动9·11袭击的核心动机之一。",
+          "en": "Osama bin Laden cited the long-standing U.S. diplomatic and military support for Israel as one of the core motivations for launching the 9/11 attacks."
+        }
+      }
+    },
+    {
+      "source": "9·11袭击事件",
+      "target": "全球监控",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001",
+        "description": {
+          "zh-cn": "9·11袭击事件后，美国以国家安全为由，通过多项法案，极大地扩大了其在全球范围内的监控活动。",
+          "en": "After the 9/11 attacks, the United States, citing national security, passed several laws that vastly expanded its surveillance activities on a global scale."
+        }
+      }
+    },
+    {
+      "source": "美国国会",
+      "target": "对恐怖主义资助者实行法律制裁法案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2016-09-28",
+        "description": {
+          "zh-cn": "美国国会投票通过了《对恐怖主义资助者实行法律制裁法案》，并推翻了总统的否决，使其成为法律。",
+          "en": "The U.S. Congress passed the Justice Against Sponsors of Terrorism Act and overrode a presidential veto, making it law."
+        }
+      }
+    },
+    {
+      "source": "贝拉克·奥巴马",
+      "target": "对恐怖主义资助者实行法律制裁法案",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2016-09",
+        "end_date": "2016-09-28",
+        "description": {
+          "zh-cn": "美国总统贝拉克·奥巴马否决了《对恐怖主义资助者实行法律制裁法案》，但其否决随后被国会推翻。",
+          "en": "U.S. President Barack Obama vetoed the Justice Against Sponsors of Terrorism Act, but his veto was subsequently overridden by Congress."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,886 @@
+{
+  "nodes": [
+    {
+      "id": "反奉战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "反奉战争",
+          "国奉战争",
+          "浙奉战争",
+          "第三次直奉战争"
+        ],
+        "en": [
+          "Anti-Fengtian War"
+        ]
+      },
+      "properties": {
+        "period": "1925-10 - ",
+        "description": {
+          "zh-cn": "1925年10月至1926年4月期间，中国直系、国民军、奉系等军阀势力之间爆发的内战。",
+          "en": "A civil war in China between October 1925 and April 1926, involving warlord factions such as the Zhili clique, the Guominjun, and the Fengtian clique."
+        }
+      }
+    },
+    {
+      "id": "吴佩孚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴佩孚"
+        ],
+        "en": [
+          "Wu Peifu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国北洋政府时期的直系军阀首领之一，在第二次直奉战争失败后发动反奉战争，后与张作霖联合讨伐冯玉祥。",
+          "en": "A leader of the Zhili clique during the Beiyang government era of the Republic of China. He initiated the Anti-Fengtian War after being defeated in the Second Zhili-Fengtian War, and later allied with Zhang Zuolin to attack Feng Yuxiang."
+        }
+      }
+    },
+    {
+      "id": "直系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "直系"
+        ],
+        "en": [
+          "Zhili clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国北洋政府时期的军阀派系之一，由吴佩孚和孙传芳等人领导。",
+          "en": "A warlord faction during the Beiyang government era of the Republic of China, led by figures like Wu Peifu and Sun Chuanfang."
+        }
+      }
+    },
+    {
+      "id": "第二次直奉战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次直奉战争"
+        ],
+        "en": [
+          "Second Zhili–Fengtian War"
+        ]
+      },
+      "properties": {
+        "period": "1924",
+        "description": {
+          "zh-cn": "1924年发生在中国直系军阀和奉系军阀之间的战争，以直系失败告终。",
+          "en": "A war in 1924 between the Zhili and Fengtian warlord cliques in China, which ended in the defeat of the Zhili clique."
+        }
+      }
+    },
+    {
+      "id": "奉系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奉系"
+        ],
+        "en": [
+          "Fengtian clique"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国北洋政府时期的军阀派系之一，由张作霖领导，控制中国东北地区。",
+          "en": "A warlord faction during the Beiyang government era of the Republic of China, led by Zhang Zuolin and controlling Northeast China."
+        }
+      }
+    },
+    {
+      "id": "张作霖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张作霖"
+        ],
+        "en": [
+          "Zhang Zuolin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1875-03-19 - 1928-06-04",
+        "description": {
+          "zh-cn": "奉系军阀首领，统治中国东北。在反奉战争中，他联合吴佩孚对抗冯玉祥，并最终控制北京政府，后在皇姑屯事件中被炸死。",
+          "en": "Leader of the Fengtian clique, ruling Northeast China. During the Anti-Fengtian War, he allied with Wu Peifu against Feng Yuxiang, eventually controlled the Beijing government, and was later assassinated in the Huanggutun Incident."
+        }
+      }
+    },
+    {
+      "id": "冯玉祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯玉祥"
+        ],
+        "en": [
+          "Feng Yuxiang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军阀，国民军的创建者。他在第二次直奉战争中发动甲子政变，导致直系失败。在反奉战争中成为奉系和直系联合讨伐的目标。",
+          "en": "A Chinese warlord and the founder of the Guominjun. He launched the Beijing Coup during the Second Zhili-Fengtian War, leading to the defeat of the Zhili clique. He became the target of a joint campaign by the Fengtian and Zhili cliques during the Anti-Fengtian War."
+        }
+      }
+    },
+    {
+      "id": "甲子政变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "甲子政变",
+          "北京政变"
+        ],
+        "en": [
+          "Beijing Coup"
+        ]
+      },
+      "properties": {
+        "period": "1924-10-23 - 1924-10-23",
+        "description": {
+          "zh-cn": "1924年10月23日，冯玉祥在第二次直奉战争期间发动的军事政变，导致直系迅速战败。",
+          "en": "A military coup launched by Feng Yuxiang on October 23, 1924, during the Second Zhili-Fengtian War, which led to the swift defeat of the Zhili clique."
+        }
+      }
+    },
+    {
+      "id": "国民军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民军"
+        ],
+        "en": [
+          "Guominjun"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由冯玉祥在甲子政变后建立的军事力量。",
+          "en": "A military force established by Feng Yuxiang after the Beijing Coup."
+        }
+      }
+    },
+    {
+      "id": "曹锟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹锟"
+        ],
+        "en": [
+          "Cao Kun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "直系军阀首领之一，中华民国大总统。在甲子政变中被冯玉祥软禁。",
+          "en": "A leader of the Zhili clique and President of the Republic of China. He was imprisoned by Feng Yuxiang during the Beijing Coup."
+        }
+      }
+    },
+    {
+      "id": "段祺瑞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "段祺瑞"
+        ],
+        "en": [
+          "Duan Qirui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "皖系军阀首领。在甲子政变后，被张作霖和冯玉祥推举为中华民国临时执政。",
+          "en": "Leader of the Anhui clique. After the Beijing Coup, he was installed as the Provisional Chief Executive of the Republic of China by Zhang Zuolin and Feng Yuxiang."
+        }
+      }
+    },
+    {
+      "id": "郭松龄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭松龄"
+        ],
+        "en": [
+          "Guo Songling"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奉系将领，张学良的部下。1925年11月在冯玉祥支持下发动叛乱反对张作霖，兵败后被处决。",
+          "en": "A Fengtian clique general and subordinate of Zhang Xueliang. In November 1925, with Feng Yuxiang's support, he launched a rebellion against Zhang Zuolin but was defeated and executed."
+        }
+      }
+    },
+    {
+      "id": "孙传芳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙传芳"
+        ],
+        "en": [
+          "Sun Chuanfang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "直系军阀将领。1925年11月在南京成立五省联军，起兵反奉，是反奉战争的发起者之一。",
+          "en": "A Zhili clique warlord. In November 1925, he formed the Five-Province Allied Army in Nanjing and rose against the Fengtian clique, being one of the initiators of the Anti-Fengtian War."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在反奉战争期间对中国局势进行干预的国家，曾阻止郭松龄部队前进，并在皇姑屯事件中刺杀张作霖。",
+          "en": "A country that intervened in the situation in China during the Anti-Fengtian War. It blocked Guo Songling's advance and assassinated Zhang Zuolin in the Huanggutun Incident."
+        }
+      }
+    },
+    {
+      "id": "讨赤联军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "讨赤联军",
+          "反赤联军"
+        ],
+        "en": [
+          "Anti-Red Allied Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由直系吴佩孚和奉系张作霖联合组成的军事联盟，旨在讨伐被他们视为“赤化”的冯玉祥国民军。",
+          "en": "A military alliance formed by Wu Peifu of the Zhili clique and Zhang Zuolin of the Fengtian clique, aimed at attacking Feng Yuxiang's Guominjun, which they deemed as 'Red' or 'Bolshevized'."
+        }
+      }
+    },
+    {
+      "id": "八国最后通牒",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "八国最后通牒"
+        ],
+        "en": [
+          "Eight-Nation Ultimatum"
+        ]
+      },
+      "properties": {
+        "period": "1926-03 - 1926-03",
+        "description": {
+          "zh-cn": "1926年3月，因冯玉祥国民军在大沽口布雷，英、美、日等八国援引《辛丑和约》向北洋政府提出的最后通牒，要求撤除防御工事。",
+          "en": "In March 1926, after Feng Yuxiang's Guominjun mined the Dagu Forts, eight powers including Britain, the US, and Japan issued an ultimatum to the Beiyang government, citing the Boxer Protocol and demanding the removal of defenses."
+        }
+      }
+    },
+    {
+      "id": "三一八惨案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "三一八惨案"
+        ],
+        "en": [
+          "March 18 Massacre"
+        ]
+      },
+      "properties": {
+        "period": "1926-03-18 - 1926-03-18",
+        "description": {
+          "zh-cn": "1926年3月18日，北京学生和市民在抗议八国最后通牒的示威活动中，遭段祺瑞政府卫队开枪镇压的事件。",
+          "en": "An incident on March 18, 1926, where guards of Duan Qirui's government fired upon and suppressed demonstrators in Beijing who were protesting the Eight-Nation Ultimatum."
+        }
+      }
+    },
+    {
+      "id": "鹿钟麟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鹿钟麟"
+        ],
+        "en": [
+          "Lu Zhonglin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "冯玉祥国民军将领。1926年4月9日派兵包围执政府，将段祺瑞赶走。",
+          "en": "A general in Feng Yuxiang's Guominjun. On April 9, 1926, he dispatched troops to surround the executive government and drove out Duan Qirui."
+        }
+      }
+    },
+    {
+      "id": "国民革命军北伐",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "国民革命军北伐",
+          "北伐"
+        ],
+        "en": [
+          "Northern Expedition"
+        ]
+      },
+      "properties": {
+        "period": "1926-07-09 - 1928-12-29",
+        "description": {
+          "zh-cn": "由广州国民政府发动的统一中国的军事行动。反奉战争削弱了吴佩孚在华中的力量，为北伐创造了有利条件。",
+          "en": "A military campaign launched by the Guangzhou Nationalist Government to unify China. The Anti-Fengtian War weakened Wu Peifu's forces in Central China, creating favorable conditions for the expedition."
+        }
+      }
+    },
+    {
+      "id": "安国军政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安国军政府",
+          "中华民国军政府"
+        ],
+        "en": [
+          "Anguojun Military Government"
+        ]
+      },
+      "properties": {
+        "period": "1927-06-18 - 1928-06-04",
+        "description": {
+          "zh-cn": "1927年6月18日由张作霖在北京成立的军政府，张作霖自任海陆军大元帅。",
+          "en": "A military government established in Beijing by Zhang Zuolin on June 18, 1927, with Zhang assuming the title of Grand Marshal of the Army and Navy."
+        }
+      }
+    },
+    {
+      "id": "李大钊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李大钊"
+        ],
+        "en": [
+          "Li Dazhao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期领导人之一。1927年4月，张作霖搜查苏联驻华大使馆后将其逮捕，并处以绞刑。",
+          "en": "An early leader of the Communist Party of China. In April 1927, he was arrested by Zhang Zuolin after a raid on the Soviet embassy and was subsequently executed by hanging."
+        }
+      }
+    },
+    {
+      "id": "皇姑屯事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "皇姑屯事件"
+        ],
+        "en": [
+          "Huanggutun incident"
+        ]
+      },
+      "properties": {
+        "period": "1928-06-04 - 1928-06-04",
+        "description": {
+          "zh-cn": "1928年6月4日，日本关东军在沈阳附近的皇姑屯火车站制造爆炸，暗杀了奉系军阀首领张作霖的事件。",
+          "en": "An event on June 4, 1928, where the Japanese Kwantung Army assassinated the Fengtian clique leader Zhang Zuolin by bombing his train at Huanggutun railway station near Shenyang."
+        }
+      }
+    },
+    {
+      "id": "邵飘萍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邵飘萍"
+        ],
+        "en": [
+          "Shao Piaoping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "《京报》社长。1926年4月，张作霖以“宣传赤化”为名将其枪杀。",
+          "en": "President of the newspaper 'Jingbao'. In April 1926, he was executed by Zhang Zuolin under the pretext of 'propagating Bolshevism'."
+        }
+      }
+    },
+    {
+      "id": "张宗昌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张宗昌"
+        ],
+        "en": [
+          "Zhang Zongchang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奉系军阀将领，以“赤化”罪名处死了《社会日报》主笔林白水。",
+          "en": "A Fengtian clique warlord who executed Lin Baishui, the editor-in-chief of 'Social Daily', on charges of 'Bolshevization'."
+        }
+      }
+    },
+    {
+      "id": "林白水",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林白水"
+        ],
+        "en": [
+          "Lin Baishui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "《社会日报》主笔，被张宗昌以“赤化”罪名处死。",
+          "en": "Editor-in-chief of 'Social Daily', executed by Zhang Zongchang on charges of 'Bolshevization'."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Zhang Xueliang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1901-06-03 - 2001-10-14",
+        "description": {
+          "zh-cn": "张作霖之子，奉系军阀的重要将领。",
+          "en": "Son of Zhang Zuolin and a key general of the Fengtian clique."
+        }
+      }
+    },
+    {
+      "id": "辛丑和约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "辛丑和约"
+        ],
+        "en": [
+          "Boxer Protocol"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清政府与十一国于1901年签订的不平等条约，其条款被八国在1926年用作向北洋政府提出最后通牒的依据。",
+          "en": "An unequal treaty signed in 1901 between the Qing government and eleven nations. Its terms were used as the basis for the ultimatum issued by eight powers to the Beiyang government in 1926."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "吴佩孚",
+      "target": "直系",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "首领",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "吴佩孚是直系军阀的首领之一。",
+          "en": "Wu Peifu was one of the leaders of the Zhili clique."
+        }
+      }
+    },
+    {
+      "source": "吴佩孚",
+      "target": "反奉战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1925-10",
+        "description": {
+          "zh-cn": "吴佩孚就任十四省讨贼联军总司令，发动反奉战争。",
+          "en": "Wu Peifu assumed the post of commander-in-chief of the fourteen-province allied army and launched the Anti-Fengtian War."
+        }
+      }
+    },
+    {
+      "source": "孙传芳",
+      "target": "反奉战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1925-11",
+        "description": {
+          "zh-cn": "孙传芳在南京宣布成立五省联军，起兵响应反奉战争。",
+          "en": "Sun Chuanfang announced the formation of the Five-Province Allied Army in Nanjing and joined the Anti-Fengtian War."
+        }
+      }
+    },
+    {
+      "source": "第二次直奉战争",
+      "target": "吴佩孚",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1924-10",
+        "description": {
+          "zh-cn": "吴佩孚在第二次直奉战争中被击败，率残部浮海遁走。",
+          "en": "Wu Peifu was defeated in the Second Zhili-Fengtian War and fled by sea with his remaining troops."
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "甲子政变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1924-10-23",
+        "description": {
+          "zh-cn": "在张作霖的重赂下，冯玉祥于1924年10月23日发动甲子政变。",
+          "en": "Heavily bribed by Zhang Zuolin, Feng Yuxiang launched the Beijing Coup on October 23, 1924."
+        }
+      }
+    },
+    {
+      "source": "甲子政变",
+      "target": "直系",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1924-10-23",
+        "description": {
+          "zh-cn": "冯玉祥的甲子政变导致了直系军阀的迅速失败。",
+          "en": "Feng Yuxiang's Beijing Coup led to the rapid defeat of the Zhili clique."
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "曹锟",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1924-10",
+        "description": {
+          "zh-cn": "冯玉祥在甲子政变后软禁了时任大总统曹锟。",
+          "en": "After the Beijing Coup, Feng Yuxiang placed then-President Cao Kun under house arrest."
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "国民军",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1924-10",
+        "description": {
+          "zh-cn": "冯玉祥在甲子政变后，将其部队自立为国民军。",
+          "en": "After the Beijing Coup, Feng Yuxiang established his troops as the Guominjun (Nationalist Army)."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "段祺瑞",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1924-11",
+        "description": {
+          "zh-cn": "张作霖与冯玉祥会晤后，共同推举段祺瑞担任中华民国临时执政。",
+          "en": "After meeting with Feng Yuxiang, Zhang Zuolin jointly recommended Duan Qirui to serve as the Provisional Chief Executive of the Republic of China."
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "段祺瑞",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1924-11",
+        "description": {
+          "zh-cn": "冯玉祥与张作霖会晤后，共同推举段祺瑞担任中华民国临时执政。",
+          "en": "After meeting with Zhang Zuolin, Feng Yuxiang jointly recommended Duan Qirui to serve as the Provisional Chief Executive of the Republic of China."
+        }
+      }
+    },
+    {
+      "source": "郭松龄",
+      "target": "张作霖",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1925-11-22",
+        "end_date": "1925-12-25",
+        "description": {
+          "zh-cn": "奉系将领郭松龄于1925年11月22日发动叛乱，反对张作霖。",
+          "en": "Guo Songling, a Fengtian clique general, launched a rebellion against Zhang Zuolin on November 22, 1925."
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "郭松龄",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1925-11",
+        "description": {
+          "zh-cn": "郭松龄的叛乱得到了冯玉祥的支持。",
+          "en": "Guo Songling's rebellion was supported by Feng Yuxiang."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "郭松龄",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1925-12",
+        "description": {
+          "zh-cn": "日本方面决定不允许郭松龄的部队穿过南满铁路，阻碍了其军事行动。",
+          "en": "The Japanese side decided not to allow Guo Songling's troops to cross the South Manchuria Railway, hindering his military actions."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "郭松龄",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1925-12-25",
+        "description": {
+          "zh-cn": "张作霖率部反攻，郭松龄兵败被捕，并于次日被杀害。",
+          "en": "Zhang Zuolin launched a counterattack, leading to Guo Songling's defeat, capture, and execution the next day."
+        }
+      }
+    },
+    {
+      "source": "吴佩孚",
+      "target": "张作霖",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1926",
+        "description": {
+          "zh-cn": "在“讨赤”的背景下，吴佩孚与宿敌张作霖释嫌修好，联合对抗冯玉祥。",
+          "en": "Under the banner of 'anti-Bolshevism', Wu Peifu reconciled with his old adversary Zhang Zuolin to jointly confront Feng Yuxiang."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "讨赤联军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1926",
+        "description": {
+          "zh-cn": "张作霖与吴佩孚联合，共同组建了“讨赤联军”以合围冯玉祥国民军。",
+          "en": "Zhang Zuolin and Wu Peifu jointly formed the 'Anti-Red Allied Army' to encircle Feng Yuxiang's Guominjun."
+        }
+      }
+    },
+    {
+      "source": "吴佩孚",
+      "target": "讨赤联军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1926",
+        "description": {
+          "zh-cn": "吴佩孚与张作霖联合，共同组建了“讨赤联军”以合围冯玉祥国民军。",
+          "en": "Wu Peifu and Zhang Zuolin jointly formed the 'Anti-Red Allied Army' to encircle Feng Yuxiang's Guominjun."
+        }
+      }
+    },
+    {
+      "source": "讨赤联军",
+      "target": "冯玉祥",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1926",
+        "description": {
+          "zh-cn": "讨赤联军的目标是合围并消灭冯玉祥的国民军。",
+          "en": "The objective of the Anti-Red Allied Army was to encircle and eliminate Feng Yuxiang's Guominjun."
+        }
+      }
+    },
+    {
+      "source": "辛丑和约",
+      "target": "八国最后通牒",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1926-03",
+        "description": {
+          "zh-cn": "英、美等八国联合援引《辛丑和约》中海口不得设防的条款，向北洋政府提出最后通牒。",
+          "en": "Citing the Boxer Protocol's clause against fortifying harbor entrances, eight powers including Britain and the US issued an ultimatum to the Beiyang government."
+        }
+      }
+    },
+    {
+      "source": "八国最后通牒",
+      "target": "三一八惨案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1926-03-18",
+        "description": {
+          "zh-cn": "针对八国最后通牒的抗议示威活动，最终导致了段祺瑞政府镇压学生市民的三一八惨案。",
+          "en": "Protests against the Eight-Nation Ultimatum eventually led to the March 18 Massacre, where Duan Qirui's government suppressed students and citizens."
+        }
+      }
+    },
+    {
+      "source": "鹿钟麟",
+      "target": "段祺瑞",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1926-04-09",
+        "description": {
+          "zh-cn": "冯玉祥部将鹿钟麟派兵包围执政府，将临时执政段祺瑞赶入东交民巷，结束了其统治。",
+          "en": "Lu Zhonglin, a general under Feng Yuxiang, surrounded the executive government with troops, forcing Provisional Chief Executive Duan Qirui into the Legation Quarter and ending his rule."
+        }
+      }
+    },
+    {
+      "source": "反奉战争",
+      "target": "国民革命军北伐",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "反奉战争期间，直系在华北投入精锐部队，导致湖北等中部省份兵力空虚，为国民革命军北伐创造了有利时机。",
+          "en": "During the Anti-Fengtian War, the Zhili clique deployed its elite forces in North China, leaving a power vacuum in central provinces like Hubei, which created a favorable opportunity for the Northern Expedition."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "安国军政府",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1927-06-18",
+        "description": {
+          "zh-cn": "张作霖在北京成立中华民国军政府（又称安国军政府），并出任海陆军大元帅。",
+          "en": "Zhang Zuolin established the Military Government of the Republic of China (also known as the Anguojun Military Government) in Beijing and assumed the post of Grand Marshal of the Army and Navy."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "李大钊",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-04",
+        "description": {
+          "zh-cn": "张作霖派兵搜查苏联驻华大使馆，逮捕了李大钊等共产党人，并将其处决。",
+          "en": "Zhang Zuolin dispatched troops to raid the Soviet Embassy, arrested Communist leader Li Dazhao among others, and had him executed."
+        }
+      }
+    },
+    {
+      "source": "皇姑屯事件",
+      "target": "张作霖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": {
+          "zh-cn": "张作霖在皇姑屯事件中被日本关东军预埋的炸药炸死。",
+          "en": "Zhang Zuolin was killed in the Huanggutun Incident by explosives planted by the Japanese Kwantung Army."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "皇姑屯事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": {
+          "zh-cn": "日本关东驻屯军在皇姑屯策划并实施了针对张作霖的暗杀行动。",
+          "en": "The Japanese Kwantung Army planned and executed the assassination of Zhang Zuolin at Huanggutun."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "邵飘萍",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1926-04",
+        "description": {
+          "zh-cn": "张作霖进入北京后，以“宣传赤化”为名查封《京报》并枪杀社长邵飘萍。",
+          "en": "After entering Beijing, Zhang Zuolin shut down the 'Jingbao' newspaper and executed its president, Shao Piaoping, for 'propagating Bolshevism'."
+        }
+      }
+    },
+    {
+      "source": "张宗昌",
+      "target": "林白水",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "山东督办张宗昌以“赤化”罪名处死《社会日报》主笔林白水。",
+          "en": "Zhang Zongchang, the military governor of Shandong, executed Lin Baishui, editor-in-chief of 'Social Daily', on charges of 'Bolshevization'."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "张作霖",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张学良是张作霖的儿子。",
+          "en": "Zhang Xueliang is the son of Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "source": "郭松龄",
+      "target": "张学良",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副司令",
+          "en": "Deputy Commander"
+        },
+        "description": {
+          "zh-cn": "郭松龄曾任张学良为司令的一三联军副司令。",
+          "en": "Guo Songling served as the deputy commander of the 1st-3rd Combined Army, of which Zhang Xueliang was the commander."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "nodes": [
+    {
+      "id": "白起",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白起",
+          "公孙起",
+          "武安君"
+        ],
+        "en": [
+          "Bai Qi"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0332 - -0257-11",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "郿县",
+          "en": "Mei County"
+        },
+        "death_place": {
+          "zh-cn": "杜邮",
+          "en": "Duyou"
+        },
+        "description": {
+          "zh-cn": "战国时代秦国名将、军事家及兵家代表人物。因战功卓著被封为武安君。其最著名的战役为长平之战，他在此战中坑杀数十万赵国降卒，此举备受争议。后因与秦昭襄王和丞相范雎产生矛盾，被赐死于杜邮。",
+          "en": "A prominent military general of the State of Qin during the Warring States period, a military strategist, and a representative of the School of the Military. He was enfeoffed as Lord Wu'an for his outstanding military achievements. His most famous campaign is the Battle of Changping, where he controversially buried alive hundreds of thousands of surrendered Zhao soldiers. He was later forced to commit suicide at Duyou due to conflicts with King Zhaoxiang of Qin and Prime Minister Fan Sui."
+        }
+      }
+    },
+    {
+      "id": "秦昭襄王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦昭襄王"
+        ],
+        "en": [
+          "King Zhaoxiang of Qin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期秦国君主，在位期间任用白起等将领，极大地扩展了秦国版图。晚年与白起、范雎等人产生矛盾。",
+          "en": "King of the State of Qin during the Warring States period. During his reign, he appointed generals like Bai Qi, significantly expanding Qin's territory. In his later years, he had conflicts with figures such as Bai Qi and Fan Sui."
+        }
+      }
+    },
+    {
+      "id": "范雎",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "范雎",
+          "应侯"
+        ],
+        "en": [
+          "Fan Sui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国丞相，向秦昭襄王提出“远交近攻”策略。因担心白起功高震主，劝说秦王在长平之战后止战并与白起结怨，最终进谗言导致白起被赐死。",
+          "en": "Prime Minister of the State of Qin who proposed the 'ally with distant states and attack nearby ones' strategy to King Zhaoxiang. Fearing Bai Qi's growing influence, he persuaded the king to halt the campaign after the Battle of Changping, which led to a feud with Bai Qi, and ultimately his slander resulted in Bai Qi's forced suicide."
+        }
+      }
+    },
+    {
+      "id": "长平之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "长平之战"
+        ],
+        "en": [
+          "Battle of Changping"
+        ]
+      },
+      "properties": {
+        "period": "-0262 - -0260",
+        "description": {
+          "zh-cn": "秦国与赵国之间的一场决定性战役，秦将白起率军大败赵军，并坑杀约四十万赵国降卒，重创赵国。",
+          "en": "A decisive battle between the states of Qin and Zhao. The Qin general Bai Qi led his army to a major victory and buried alive approximately 400,000 surrendered Zhao soldiers, crippling the state of Zhao."
+        }
+      }
+    },
+    {
+      "id": "赵国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赵国"
+        ],
+        "en": [
+          "State of Zhao"
+        ]
+      },
+      "properties": {
+        "period": "-0403 - -0222",
+        "description": {
+          "zh-cn": "战国七雄之一，在长平之战中被秦国重创。",
+          "en": "One of the Seven Warring States, severely weakened by the State of Qin in the Battle of Changping."
+        }
+      }
+    },
+    {
+      "id": "赵括",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵括",
+          "马服子"
+        ],
+        "en": [
+          "Zhao Kuo"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -0260",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期赵国将领，赵奢之子。在长平之战中替代廉颇为主将，被白起率领的秦军击败并射杀。",
+          "en": "A general of the State of Zhao during the Warring States period, son of Zhao She. He replaced Lian Po as commander in the Battle of Changping, where he was defeated and killed by the Qin army led by Bai Qi."
+        }
+      }
+    },
+    {
+      "id": "秦国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦国"
+        ],
+        "en": [
+          "State of Qin"
+        ]
+      },
+      "properties": {
+        "period": "-0770 - -0207",
+        "description": {
+          "zh-cn": "周朝诸侯国，战国七雄之一，后统一中国建立秦朝。",
+          "en": "A vassal state of the Zhou Dynasty and one of the Seven Warring States, which later unified China and established the Qin Dynasty."
+        }
+      }
+    },
+    {
+      "id": "白仲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白仲"
+        ],
+        "en": [
+          "Bai Zhong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦将白起之子。秦始皇追念白起战功，封白仲于太原。",
+          "en": "Son of the Qin general Bai Qi. Qin Shi Huang, in memory of Bai Qi's military achievements, enfeoffed Bai Zhong in Taiyuan."
+        }
+      }
+    },
+    {
+      "id": "司马靳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马靳"
+        ],
+        "en": [
+          "Sima Jin"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -0257",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "司马错之孙，白起的副将，在杜邮与白起一同被赐死。",
+          "en": "Grandson of Sima Cuo and Bai Qi's deputy commander. He was forced to commit suicide along with Bai Qi at Duyou."
+        }
+      }
+    },
+    {
+      "id": "郿县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "郿县"
+        ],
+        "en": [
+          "Mei County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦国地名，位于今陕西省眉县，为白起的出生地。",
+          "en": "A location in the State of Qin, located in modern Mei County, Shaanxi province. It is the birthplace of Bai Qi."
+        }
+      }
+    },
+    {
+      "id": "魏冉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏冉",
+          "穰侯"
+        ],
+        "en": [
+          "Wei Ran"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦昭襄王的舅舅，秦国丞相。与白起关系密切，曾举荐白起为将。",
+          "en": "Uncle of King Zhaoxiang of Qin and Prime Minister of the State of Qin. He had a close relationship with Bai Qi and once recommended him for a generalship."
+        }
+      }
+    },
+    {
+      "id": "伊阙之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "伊阙之战"
+        ],
+        "en": [
+          "Battle of Yique"
+        ]
+      },
+      "properties": {
+        "period": "-0293 - -0293",
+        "description": {
+          "zh-cn": "秦国与韩、魏联军在伊阙的一场战役。秦将白起率军大败联军，斩首二十四万，为秦国东进扫清了障碍。",
+          "en": "A battle between the State of Qin and the allied forces of Han and Wei at Yique. The Qin general Bai Qi led his army to a decisive victory, killing 240,000 enemy soldiers and clearing the way for Qin's eastward expansion."
+        }
+      }
+    },
+    {
+      "id": "鄢郢之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "鄢郢之战"
+        ],
+        "en": [
+          "Battle of Yan-Ying"
+        ]
+      },
+      "properties": {
+        "period": "-0279 - -0278",
+        "description": {
+          "zh-cn": "秦国攻打楚国的一系列战役，白起率军攻陷楚国重镇鄢和都城郢，极大削弱了楚国国力。",
+          "en": "A series of battles where the State of Qin attacked the State of Chu. Bai Qi led his forces to capture the key city of Yan and the capital Ying, greatly weakening Chu's power."
+        }
+      }
+    },
+    {
+      "id": "楚国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "楚国"
+        ],
+        "en": [
+          "State of Chu"
+        ]
+      },
+      "properties": {
+        "period": " - -0223",
+        "description": {
+          "zh-cn": "周朝诸侯国，战国七雄之一。在鄢郢之战中被秦国重创，被迫迁都。",
+          "en": "A vassal state of the Zhou Dynasty and one of the Seven Warring States. It was severely defeated by the State of Qin in the Battle of Yan-Ying and was forced to move its capital."
+        }
+      }
+    },
+    {
+      "id": "廉颇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "廉颇"
+        ],
+        "en": [
+          "Lian Po"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期赵国名将，战国四名将之一。在长平之战前期采取坚守策略，后被赵王用赵括替换。",
+          "en": "A famous general of the State of Zhao during the Warring States period, one of the Four Great Generals of the Warring States. He adopted a defensive strategy in the early stages of the Battle of Changping before being replaced by Zhao Kuo by the king."
+        }
+      }
+    },
+    {
+      "id": "秦始皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦始皇"
+        ],
+        "en": [
+          "Qin Shi Huang"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0259 - -0210",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国历史上首位完成华夏大一统的政治人物，也是中国第一个称皇帝的君主。他追念白起的战功，封其子白仲于太原。",
+          "en": "The political figure who first unified China and the first monarch to be called Emperor in Chinese history. He commemorated Bai Qi's military achievements by enfeoffing his son Bai Zhong in Taiyuan."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "白起",
+      "target": "秦国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "将领 (左庶长、左更、国尉、大良造、上将军)",
+          "en": "General (Zuo Shuzhang, Zuo Geng, Guowei, Da Liangzao, Shang Jiangjun)"
+        },
+        "description": {
+          "zh-cn": "白起是秦国将领，为秦国效力三十余年。",
+          "en": "Bai Qi was a general of the State of Qin, serving for over 30 years."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "秦昭襄王",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "-0294",
+        "end_date": "-0257",
+        "description": {
+          "zh-cn": "白起在秦昭襄王麾下担任将领，为其效力三十余年。",
+          "en": "Bai Qi served as a general under King Zhaoxiang of Qin for over 30 years."
+        }
+      }
+    },
+    {
+      "source": "秦昭襄王",
+      "target": "白起",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0257-11",
+        "description": {
+          "zh-cn": "秦昭襄王因白起不愿领兵攻打邯郸并口出怨言，派使者赐剑命其自尽。",
+          "en": "King Zhaoxiang of Qin, angered by Bai Qi's refusal to lead the army to attack Handan and his resentful words, sent an emissary to order him to commit suicide with a sword."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "范雎",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0259",
+        "description": {
+          "zh-cn": "因范雎劝说秦王接受韩赵割地求和，错失灭赵良机，白起与范雎产生矛盾。",
+          "en": "Bai Qi developed a conflict with Fan Sui because Fan Sui persuaded the King of Qin to accept a peace treaty with Han and Zhao in exchange for territory, thereby missing the opportunity to annihilate Zhao."
+        }
+      }
+    },
+    {
+      "source": "范雎",
+      "target": "白起",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0257-11",
+        "description": {
+          "zh-cn": "范雎向秦昭襄王进谗言，称白起被流放后口出怨言，导致秦昭襄王派人赐死白起。",
+          "en": "Fan Sui slandered Bai Qi to King Zhaoxiang of Qin, claiming that Bai Qi was resentful and spoke ill after being exiled, which led the king to send someone to order Bai Qi's death."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "长平之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0260",
+        "description": {
+          "zh-cn": "白起在长平之战中接替王龁担任秦军主将，设计包围并歼灭了赵国主力部队，并坑杀了数十万降卒。",
+          "en": "During the Battle of Changping, Bai Qi took over command from Wang He, devised a plan to encircle and annihilate the main force of the Zhao army, and subsequently buried alive hundreds of thousands of surrendered soldiers."
+        }
+      }
+    },
+    {
+      "source": "长平之战",
+      "target": "赵国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0260",
+        "description": {
+          "zh-cn": "长平之战中，赵国主力被歼灭，约四十万降卒被坑杀，国力受到毁灭性打击。",
+          "en": "In the Battle of Changping, the main force of Zhao was annihilated, and approximately 400,000 surrendered soldiers were buried alive, dealing a devastating blow to the state's power."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "赵括",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0260-09",
+        "description": {
+          "zh-cn": "在长平之战中，白起率秦军将赵括及其军队包围，最终射杀赵括，坑杀其降卒。",
+          "en": "In the Battle of Changping, Bai Qi led the Qin army to surround Zhao Kuo and his forces, ultimately killing Zhao Kuo by arrow and burying his surrendered soldiers alive."
+        }
+      }
+    },
+    {
+      "source": "白仲",
+      "target": "白起",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "白仲是白起的儿子。",
+          "en": "Bai Zhong is the son of Bai Qi."
+        }
+      }
+    },
+    {
+      "source": "司马靳",
+      "target": "白起",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "-0257",
+        "description": {
+          "zh-cn": "司马靳是白起的副将，在杜邮与白起一同被赐死。",
+          "en": "Sima Jin was Bai Qi's deputy commander and was forced to commit suicide along with Bai Qi at Duyou."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "郿县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "魏冉",
+      "target": "白起",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0293",
+        "description": {
+          "zh-cn": "秦昭襄王十四年，魏冉举荐白起，使其代替向寿领兵攻打韩、魏联军。",
+          "en": "In the 14th year of King Zhaoxiang of Qin's reign, Wei Ran recommended Bai Qi to replace Xiang Shou in leading the army against the allied forces of Han and Wei."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "魏冉",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "文本记载白起与秦昭襄王的舅舅穰侯魏冉关系密切。",
+          "en": "The text states that Bai Qi had a close relationship with Wei Ran, Marquis Rang, who was the uncle of King Zhaoxiang of Qin."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "伊阙之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0293",
+        "description": {
+          "zh-cn": "白起率领秦军在伊阙之战中击败韩魏联军，斩首二十四万。",
+          "en": "Bai Qi led the Qin army to defeat the allied forces of Han and Wei in the Battle of Yique, beheading 240,000 enemy soldiers."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "鄢郢之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0279",
+        "end_date": "-0278",
+        "description": {
+          "zh-cn": "白起率领秦军主力南下攻楚，先后攻陷鄢、郢，重创楚国。",
+          "en": "Bai Qi led the main force of the Qin army south to attack Chu, successively capturing Yan and Ying and severely weakening the state of Chu."
+        }
+      }
+    },
+    {
+      "source": "鄢郢之战",
+      "target": "白起",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0278",
+        "description": {
+          "zh-cn": "因在鄢郢之战中攻克楚国都城郢的战功，白起被封为武安君。",
+          "en": "For his military achievement of capturing Ying, the capital of Chu, in the Battle of Yan-Ying, Bai Qi was enfeoffed as Lord Wu'an."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "楚国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-0279",
+        "end_date": "-0278",
+        "description": {
+          "zh-cn": "在鄢郢之战中，白起率军攻陷楚国鄢城和都城郢，焚毁其王陵，迫使其迁都。",
+          "en": "In the Battle of Yan-Ying, Bai Qi led his army to capture the Chu city of Yan and its capital Ying, burned down its royal tombs, and forced it to relocate its capital."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "廉颇",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "-0260",
+        "description": {
+          "zh-cn": "在长平之战中，白起与廉颇作为秦赵两军的统帅相互对峙。",
+          "en": "In the Battle of Changping, Bai Qi and Lian Po faced each other as the commanders of the Qin and Zhao armies, respectively."
+        }
+      }
+    },
+    {
+      "source": "秦始皇",
+      "target": "白仲",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "秦始皇追念白起的战功，封其子白仲于太原。",
+          "en": "Qin Shi Huang, in memory of Bai Qi's military achievements, enfeoffed his son Bai Zhong in Taiyuan."
+        }
+      }
+    }
+  ]
+}
