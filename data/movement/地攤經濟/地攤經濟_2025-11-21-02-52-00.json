@@ -1,0 +1,660 @@
+{
+  "nodes": [
+    {
+      "id": "地摊经济",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "地摊经济"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2020 - ",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "2020年由中国国务院总理李克强提出的经济政策，旨在通过放开路边摊来缓解因中美贸易战和新冠疫情带来的失业问题。",
+          "en": "An economic policy proposed by Chinese Premier Li Keqiang in 2020, aimed at alleviating unemployment caused by the Sino-US trade war and the COVID-19 pandemic by easing restrictions on street stalls."
+        }
+      }
+    },
+    {
+      "id": "李克强",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李克强"
+        ],
+        "en": [
+          "Li Keqiang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1955-07-01 - 2023-10-27",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中华人民共和国国务院总理，在2020年积极倡导“地摊经济”。",
+          "en": "A Chinese politician who served as the Premier of the State Council of the People's Republic of China and actively promoted the 'stall economy' in 2020."
+        }
+      }
+    },
+    {
+      "id": "2018－2020年中美贸易战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "2018－2020年中美贸易战",
+          "中美贸易战"
+        ],
+        "en": [
+          "China–United States trade war (2018–2020)"
+        ]
+      },
+      "properties": {
+        "period": "2018 - 2020",
+        "description": {
+          "zh-cn": "中国与美国之间的一场持续的经济冲突，对中国经济造成压力，是催生“地摊经济”政策的背景之一。",
+          "en": "An ongoing economic conflict between China and the United States, which put pressure on the Chinese economy and was one of the background factors leading to the 'stall economy' policy."
+        }
+      }
+    },
+    {
+      "id": "2019冠状病毒病疫情",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2019冠状病毒病疫情"
+        ],
+        "en": [
+          "COVID-19 pandemic"
+        ]
+      },
+      "properties": {
+        "period": "2019 - ",
+        "description": {
+          "zh-cn": "全球性的大流行病，其对中国经济的冲击和后续的防疫政策是催生“地摊经济”的直接原因之一。",
+          "en": "A global pandemic whose impact on the Chinese economy and subsequent epidemic prevention policies were direct reasons for the emergence of the 'stall economy' policy."
+        }
+      }
+    },
+    {
+      "id": "清零政策",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "清零政策"
+        ],
+        "en": [
+          "Zero-COVID policy"
+        ]
+      },
+      "properties": {
+        "period": "2020 - 2022",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中国大陆为应对2019冠状病毒病疫情所采取的严厉防疫政策，其封锁措施对经济和就业造成严重影响。",
+          "en": "A strict anti-epidemic policy adopted by mainland China in response to the COVID-19 pandemic, whose lockdown measures severely impacted the economy and employment."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国务院办公厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院办公厅",
+          "国务院办公厅"
+        ],
+        "en": [
+          "General Office of the State Council of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院的办事机构，曾发文支持包括摊贩在内的多渠道灵活就业。",
+          "en": "The administrative office of the State Council of the People's Republic of China, which issued documents supporting multi-channel flexible employment, including street vendors."
+        }
+      }
+    },
+    {
+      "id": "杨宝玲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨宝玲"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中华人民共和国全国人大代表，在两会期间建议释放“地摊经济”的活力。",
+          "en": "A deputy to the National People's Congress of the People's Republic of China who suggested unleashing the vitality of the 'stall economy' during the Two Sessions."
+        }
+      }
+    },
+    {
+      "id": "中央精神文明建设指导委员会办公室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央精神文明建设指导委员会办公室"
+        ],
+        "en": [
+          "Office of the Central Spiritual Civilization Construction Steering Commission"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中共中央的办事机构之一，在2020年宣布全国文明城市测评不再将占道经营、流动商贩等列为考核内容。",
+          "en": "An administrative office of the Central Committee of the CCP, which announced in 2020 that assessments for the National Civilized City award would no longer penalize street vending and mobile vendors."
+        }
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": [
+          "Xi Jinping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1953-06-15 - ",
+        "description": {
+          "zh-cn": "中国共产党中央委员会总书记，其主导的“清零政策”对中国经济造成影响。他所推动的城市治理方向与李克强倡导的“地摊经济”存在差异，被外界解读为高层路线分歧。",
+          "en": "General Secretary of the Central Committee of the Communist Party of China, whose 'Zero-COVID policy' impacted the Chinese economy. His approach to urban governance differed from the 'stall economy' promoted by Li Keqiang, which was interpreted by outsiders as a high-level policy disagreement."
+        }
+      }
+    },
+    {
+      "id": "京东集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "京东集团",
+          "京东"
+        ],
+        "en": [
+          "JD.com"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国电子商务公司，响应号召推出“星星之火”地摊经济扶持计划。",
+          "en": "A Chinese e-commerce company that responded to the call by launching the 'Spark' support program for the stall economy."
+        }
+      }
+    },
+    {
+      "id": "微信支付",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "微信支付"
+        ],
+        "en": [
+          "WeChat Pay"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "腾讯公司旗下的支付平台，推出“全国小店烟火计划”支持地摊经济。",
+          "en": "A payment platform under Tencent that launched the 'National Small Store Fireworks Plan' to support the stall economy."
+        }
+      }
+    },
+    {
+      "id": "美团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美团"
+        ],
+        "en": [
+          "Meituan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国生活服务电子商务平台，推出“春风行动”百万小店计划支持地摊经济。",
+          "en": "A Chinese e-commerce platform for services that launched the 'Spring Breeze Action' million small store plan to support the stall economy."
+        }
+      }
+    },
+    {
+      "id": "苏宁易购",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏宁易购",
+          "苏宁"
+        ],
+        "en": [
+          "Suning.com"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国零售企业，推出“夜逛合伙人”计划支持地摊经济。",
+          "en": "A Chinese retail company that launched the 'Night Market Partner' program to support the stall economy."
+        }
+      }
+    },
+    {
+      "id": "阿里巴巴集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿里巴巴集团",
+          "阿里"
+        ],
+        "en": [
+          "Alibaba Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国跨国科技公司，旗下1688平台推出“地摊经济”帮扶计划。",
+          "en": "A Chinese multinational technology company whose 1688 platform launched a support plan for the 'stall economy'."
+        }
+      }
+    },
+    {
+      "id": "北京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京市"
+        ],
+        "en": [
+          "Beijing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国首都。其市政府及官方媒体在2020年对“地摊经济”持明确的反对和限制态度，与中央政府的倡导形成对比。",
+          "en": "The capital of the People's Republic of China. Its municipal government and official media took a clear opposing and restrictive stance on the 'stall economy' in 2020, in contrast to the central government's advocacy."
+        }
+      }
+    },
+    {
+      "id": "蔡奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡奇"
+        ],
+        "en": [
+          "Cai Qi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1955-12-05 - ",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，时任中共北京市委书记。在其任内，北京市对不符合城市秩序的经营活动（包括路边摊贩）进行了清理整顿。",
+          "en": "A politician of the People's Republic of China, then-serving as the Party Secretary of Beijing. During his tenure, Beijing carried out a cleanup and rectification of business activities that did not conform to urban order, including street vendors."
+        }
+      }
+    },
+    {
+      "id": "北京日报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京日报"
+        ],
+        "en": [
+          "Beijing Daily"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党北京市委员会的机关报，曾发表社论明确指出“地摊经济不适合北京”。",
+          "en": "The official newspaper of the Beijing Municipal Committee of the Communist Party of China, which published an editorial explicitly stating that the 'stall economy is not suitable for Beijing'."
+        }
+      }
+    },
+    {
+      "id": "中国中央电视台",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国中央电视台"
+        ],
+        "en": [
+          "China Central Television"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的国家电视台，曾发表评论支持《北京日报》观点，认为“地摊经济”不能一哄而起。",
+          "en": "The national broadcaster of the People's Republic of China, which published commentary supporting the Beijing Daily's view that the 'stall economy' should not be rushed into."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": [
+          "People's Republic of China",
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家。“地摊经济”政策在该国引发了关于经济发展模式和城市治理的广泛讨论与实践。",
+          "en": "A socialist state in East Asia. The 'stall economy' policy triggered widespread discussion and practice regarding economic development models and urban governance in the country."
+        }
+      }
+    },
+    {
+      "id": "上海市人大常委会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海市人大常委会"
+        ],
+        "en": [
+          "Standing Committee of the Shanghai Municipal People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "上海市人民代表大会的常设机关。于2022年修订条例，容许摆地摊。",
+          "en": "The standing body of the Shanghai Municipal People's Congress. It amended regulations in 2022 to permit street stalls."
+        }
+      }
+    },
+    {
+      "id": "深圳市人大常委会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "深圳市人大常委会"
+        ],
+        "en": [
+          "Standing Committee of the Shenzhen Municipal People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "深圳市人民代表大会的常设机关。于2023年修订条例，不再全面禁止“摆地摊”。",
+          "en": "The standing body of the Shenzhen Municipal People's Congress. It amended regulations in 2023 to no longer completely ban 'street stalls'."
+        }
+      }
+    },
+    {
+      "id": "成都市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "成都市"
+        ],
+        "en": [
+          "Chengdu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国四川省省会，是2020年率先放松对地摊经济管制的城市之一。",
+          "en": "The capital of China's Sichuan Province, one of the first cities to relax regulations on the stall economy in 2020."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李克强",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020",
+        "description": {
+          "zh-cn": "在2020年全国两会及后续考察中多次提出并称赞“地摊经济”，视其为保就业、保民生的重要举措。",
+          "en": "Repeatedly proposed and praised the 'stall economy' during the 2020 Two Sessions and subsequent inspections, viewing it as a crucial measure to protect employment and people's livelihoods."
+        }
+      }
+    },
+    {
+      "source": "2018－2020年中美贸易战",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "中美贸易战对中国经济造成压力，导致失业问题加剧，为“地摊经济”这类旨在促进灵活就业的政策提供了背景。",
+          "en": "The Sino-US trade war put pressure on the Chinese economy, exacerbating unemployment and providing the context for policies like the 'stall economy' aimed at promoting flexible employment."
+        }
+      }
+    },
+    {
+      "source": "清零政策",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "清零政策带来的经济停滞和失业潮，使得政府需要寻找快速见效的就业渠道，“地摊经济”因此被提上议程。",
+          "en": "The economic stagnation and wave of unemployment caused by the Zero-COVID policy necessitated the government's search for quick employment channels, leading to the 'stall economy' being put on the agenda."
+        }
+      }
+    },
+    {
+      "source": "成都市",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-03-14",
+        "description": {
+          "zh-cn": "率先出台“五允许一坚持”措施，允许设置临时占道摊点，成为推动地摊经济的先行城市。",
+          "en": "Took the lead in introducing the 'Five Allows, One Persist' measures, permitting temporary street stalls and becoming a pioneering city in promoting the stall economy."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国国务院办公厅",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-03-20",
+        "description": {
+          "zh-cn": "发布《关于应对新冠肺炎疫情影响强化稳就业举措的实施意见》，提出合理设定无固定经营场所摊贩管理模式，为地摊经济提供政策支持。",
+          "en": "Issued the 'Implementation Opinions on Strengthening Measures to Stabilize Employment in Response to the Impact of the COVID-19 Pandemic,' proposing the reasonable establishment of management models for vendors without fixed business premises, providing policy support for the stall economy."
+        }
+      }
+    },
+    {
+      "source": "杨宝玲",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-05-23",
+        "description": {
+          "zh-cn": "在全国两会上建议，因地制宜释放“地摊经济”的最大活力，并给予从业者合法地位。",
+          "en": "Suggested at the National People's Congress's Two Sessions to unleash the full vitality of the 'stall economy' according to local conditions and grant legal status to its practitioners."
+        }
+      }
+    },
+    {
+      "source": "中央精神文明建设指导委员会办公室",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020-05-27",
+        "description": {
+          "zh-cn": "明确在当年的全国文明城市测评指标中，不将占道经营、流动商贩等列为考核内容，为地摊经济的发展清除了一个重要障碍。",
+          "en": "Clarified that indicators for the National Civilized City assessment that year would not include street vending and mobile vendors, removing a significant obstacle to the development of the stall economy."
+        }
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "清零政策",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为中共中央总书记，习近平主导并坚持实施动态清零政策以应对新冠疫情。",
+          "en": "As the General Secretary of the CCP Central Committee, Xi Jinping led and insisted on implementing the dynamic Zero-COVID policy to combat the COVID-19 pandemic."
+        }
+      }
+    },
+    {
+      "source": "清零政策",
+      "target": "中华人民共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "2020 - 2022",
+        "description": {
+          "zh-cn": "清零政策及其伴随的封锁措施严重影响了中华人民共和国的经济发展，导致经济衰退和失业率上升。",
+          "en": "The Zero-COVID policy and its accompanying lockdown measures severely impacted the economic development of the People's Republic of China, leading to economic recession and rising unemployment."
+        }
+      }
+    },
+    {
+      "source": "蔡奇",
+      "target": "地摊经济",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在其担任北京市委书记期间，主导了对包括路边摊贩在内的“低端人口”和不符合城市秩序经营活动的清理整顿行动。",
+          "en": "During his tenure as Beijing's Party Secretary, he led crackdowns and rectification campaigns against the 'low-end population' and business activities not conforming to urban order, including street vendors."
+        }
+      }
+    },
+    {
+      "source": "北京市",
+      "target": "地摊经济",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-06",
+        "description": {
+          "zh-cn": "城管部门在2020年6月表示，会依法严格查处占道摆摊等违法行为，与李克强倡导的政策方向相反。",
+          "en": "In June 2020, the city's urban management department stated it would strictly investigate and prosecute illegal activities such as occupying roads for stalls, running counter to the policy direction advocated by Li Keqiang."
+        }
+      }
+    },
+    {
+      "source": "北京日报",
+      "target": "地摊经济",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-06-07",
+        "description": {
+          "zh-cn": "发表社论《地摊经济不适合北京》，明确反对在北京发展地摊经济，此举被外界解读为反映了中共高层在经济政策上的分歧。",
+          "en": "Published an editorial titled 'The Stall Economy is Not Suitable for Beijing', explicitly opposing the development of the stall economy in Beijing, a move interpreted by outsiders as reflecting high-level disagreements on economic policy within the CCP."
+        }
+      }
+    },
+    {
+      "source": "中国中央电视台",
+      "target": "地摊经济",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-06-07",
+        "description": {
+          "zh-cn": "发表社论《“地摊经济”不能一哄而起》，支持《北京日报》的观点，为正在升温的地摊经济舆论降温。",
+          "en": "Published an editorial titled 'The Stall Economy Cannot Be Rushed Into', supporting the view of the Beijing Daily and cooling down the heating public opinion on the stall economy."
+        }
+      }
+    },
+    {
+      "source": "上海市人大常委会",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2022-09-22",
+        "description": {
+          "zh-cn": "通过修订《上海市市容环境卫生管理条例》，容许摆地摊以应对清零政策对经济的冲击。",
+          "en": "Promoted the stall economy by amending the 'Shanghai Municipal Regulations on City Appearance and Environmental Sanitation' to allow street stalls in response to the economic impact of the Zero-COVID policy."
+        }
+      }
+    },
+    {
+      "source": "深圳市人大常委会",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2023-05",
+        "description": {
+          "zh-cn": "通过修订《深圳经济特区市容和环境卫生管理条例》，不再全面禁止“摆地摊”。",
+          "en": "Promoted the stall economy by amending the 'Regulations of the Shenzhen Special Economic Zone on City Appearance and Environmental Sanitation' to no longer completely ban 'street stalls'."
+        }
+      }
+    },
+    {
+      "source": "京东集团",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020",
+        "description": {
+          "zh-cn": "推出“星星之火”地摊经济扶持计划，为从业者提供支持。",
+          "en": "Launched the 'Spark' support program for the stall economy to provide assistance to practitioners."
+        }
+      }
+    },
+    {
+      "source": "微信支付",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020",
+        "description": {
+          "zh-cn": "推出“全国小店烟火计划”，支持地摊经济。",
+          "en": "Launched the 'National Small Store Fireworks Plan' to support the stall economy."
+        }
+      }
+    },
+    {
+      "source": "美团",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020",
+        "description": {
+          "zh-cn": "推出“春风行动”百万小店计划，支持地摊经济。",
+          "en": "Launched the 'Spring Breeze Action' million small store plan to support the stall economy."
+        }
+      }
+    },
+    {
+      "source": "苏宁易购",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020",
+        "description": {
+          "zh-cn": "推出“夜逛合伙人”计划，支持地摊经济。",
+          "en": "Launched the 'Night Market Partner' program to support the stall economy."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "地摊经济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2020",
+        "description": {
+          "zh-cn": "旗下1688平台推出“地摊经济”帮扶计划。",
+          "en": "Its 1688 platform launched a support plan for the 'stall economy'."
+        }
+      }
+    }
+  ]
+}

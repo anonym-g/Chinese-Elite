@@ -1,0 +1,903 @@
+{
+  "nodes": [
+    {
+      "id": "协约国 (第一次世界大战)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "协约国 (第一次世界大战)",
+          "协约国",
+          "条约国",
+          "同盟国"
+        ],
+        "en": [
+          "Entente Powers",
+          "Allies"
+        ]
+      },
+      "properties": {
+        "period": "1914 - 1918",
+        "description": {
+          "zh-cn": "第一次世界大战期间，由法国、大英帝国、俄罗斯帝国等国组成的军事同盟，与同盟国对敌并最终获胜。",
+          "en": "A military alliance during World War I, consisting of countries such as France, the British Empire, and the Russian Empire, which opposed the Central Powers and ultimately emerged victorious."
+        }
+      }
+    },
+    {
+      "id": "同盟国 (第一次世界大战)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "同盟国 (第一次世界大战)",
+          "同盟国"
+        ],
+        "en": [
+          "Central Powers"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第一次世界大战期间与协约国对敌的军事同盟。",
+          "en": "A military alliance that fought against the Entente Powers during World War I."
+        }
+      }
+    },
+    {
+      "id": "第一次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次世界大战"
+        ],
+        "en": [
+          "World War I"
+        ]
+      },
+      "properties": {
+        "period": "1914 - 1918"
+      }
+    },
+    {
+      "id": "三国协约",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "三国协约"
+        ],
+        "en": [
+          "Triple Entente"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第一次世界大战前由法国、英国和俄罗斯组成的军事同盟，是协约国的前身。",
+          "en": "A military alliance formed by France, Britain, and Russia before World War I, which was the predecessor to the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "乔治·克列孟梭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·克列孟梭",
+          "克列孟梭"
+        ],
+        "en": [
+          "Georges Clemenceau"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国政治家，曾任法国总理，是协约国“四大巨头”之一。",
+          "en": "French politician who served as Prime Minister of France and was one of the 'Big Four' of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "大卫·劳合乔治",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "大卫·劳合乔治",
+          "劳合乔治"
+        ],
+        "en": [
+          "David Lloyd George"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国政治家，曾任英国首相，是协约国“四大巨头”之一。",
+          "en": "British politician who served as Prime Minister of the United Kingdom and was one of the 'Big Four' of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "维托里奥·埃曼努尔·奥兰多",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "维托里奥·埃曼努尔·奥兰多",
+          "奥兰多"
+        ],
+        "en": [
+          "Vittorio Emanuele Orlando"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "意大利政治家，曾任意大利总理，是协约国“四大巨头”之一。",
+          "en": "Italian politician who served as Prime Minister of Italy and was one of the 'Big Four' of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "伍德罗·威尔逊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伍德罗·威尔逊",
+          "威尔逊"
+        ],
+        "en": [
+          "Woodrow Wilson"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国政治家，曾任美国总统，是协约国“四大巨头”之一。",
+          "en": "American politician who served as President of the United States and was one of the 'Big Four' of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "法兰西第三共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第三共和国",
+          "法兰西共和国",
+          "法国"
+        ],
+        "en": [
+          "French Third Republic"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国的主要成员国之一。",
+          "en": "One of the main member states of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "大英帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大英帝国",
+          "英国"
+        ],
+        "en": [
+          "British Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国的主要成员国之一。",
+          "en": "One of the main member states of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国",
+          "俄罗斯"
+        ],
+        "en": [
+          "Russian Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国的主要成员国之一，于1917年退出战争。",
+          "en": "One of the main member states of the Entente Powers, withdrew from the war in 1917."
+        }
+      }
+    },
+    {
+      "id": "义大利王国 (1861年－1946年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "义大利王国 (1861年－1946年)",
+          "意大利王国",
+          "义大利"
+        ],
+        "en": [
+          "Kingdom of Italy (1861–1946)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国的主要成员国之一，于1915年加入。",
+          "en": "One of the main member states of the Entente Powers, joined in 1915."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国",
+          "美利坚合众国"
+        ],
+        "en": [
+          "United States",
+          "United States of America"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国的主要成员国之一，于1917年加入。",
+          "en": "One of the main member states of the Entente Powers, joined in 1917."
+        }
+      }
+    },
+    {
+      "id": "巴黎和会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "巴黎和会"
+        ],
+        "en": [
+          "Paris Peace Conference, 1919"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第一次世界大战结束后，由获胜的协约国召开的和平会议。",
+          "en": "A peace conference convened by the victorious Entente Powers after the end of World War I."
+        }
+      }
+    },
+    {
+      "id": "国际联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际联盟"
+        ],
+        "en": [
+          "League of Nations"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第一次世界大战后成立的国际组织，协约国是其主要前身。",
+          "en": "An international organization established after World War I, for which the Entente Powers were the main predecessor."
+        }
+      }
+    },
+    {
+      "id": "德意志帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德意志帝国"
+        ],
+        "en": [
+          "German Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "同盟国的核心成员国。",
+          "en": "The core member state of the Central Powers."
+        }
+      }
+    },
+    {
+      "id": "奥匈帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥匈帝国"
+        ],
+        "en": [
+          "Austria-Hungary"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "同盟国的主要成员国之一。",
+          "en": "One of the main member states of the Central Powers."
+        }
+      }
+    },
+    {
+      "id": "鄂图曼土耳其帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "鄂图曼土耳其帝国"
+        ],
+        "en": [
+          "Ottoman Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "同盟国的主要成员国之一。",
+          "en": "One of the main member states of the Central Powers."
+        }
+      }
+    },
+    {
+      "id": "保加利亚王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "保加利亚王国"
+        ],
+        "en": [
+          "Kingdom of Bulgaria"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "同盟国的主要成员国之一。",
+          "en": "One of the main member states of the Central Powers."
+        }
+      }
+    },
+    {
+      "id": "大不列颠及爱尔兰联合王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大不列颠及爱尔兰联合王国"
+        ],
+        "en": [
+          "United Kingdom of Great Britain and Ireland"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大英帝国的核心组成部分。",
+          "en": "The core component of the British Empire."
+        }
+      }
+    },
+    {
+      "id": "塞尔维亚王国 (近代)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "塞尔维亚王国 (近代)",
+          "塞尔维亚王国"
+        ],
+        "en": [
+          "Kingdom of Serbia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国成员国之一。",
+          "en": "A member state of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "中华民国北京政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国北京政府",
+          "北洋政府",
+          "中国北京政府"
+        ],
+        "en": [
+          "Beiyang government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国成员国之一。",
+          "en": "A member state of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "罗马尼亚王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗马尼亚王国"
+        ],
+        "en": [
+          "Kingdom of Romania"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国成员国之一。",
+          "en": "A member state of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "比利时",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "比利时",
+          "比利时王国"
+        ],
+        "en": [
+          "Belgium",
+          "Kingdom of Belgium"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国成员国之一。",
+          "en": "A member state of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国成员国之一。",
+          "en": "A member state of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "希腊王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "希腊王国"
+        ],
+        "en": [
+          "Kingdom of Greece"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国成员国之一。",
+          "en": "A member state of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "蒙特内哥罗王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蒙特内哥罗王国"
+        ],
+        "en": [
+          "Kingdom of Montenegro"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国成员国之一。",
+          "en": "A member state of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "葡萄牙第一共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "葡萄牙第一共和国",
+          "葡萄牙共和国"
+        ],
+        "en": [
+          "First Portuguese Republic"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国成员国之一。",
+          "en": "A member state of the Entente Powers."
+        }
+      }
+    },
+    {
+      "id": "汉志王国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉志王国"
+        ],
+        "en": [
+          "Kingdom of Hejaz"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "协约国成员国之一。",
+          "en": "A member state of the Entente Powers."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "协约国 (第一次世界大战)",
+      "target": "同盟国 (第一次世界大战)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1914",
+        "end_date": "1918",
+        "description": {
+          "zh-cn": "在第一次世界大战中互为敌对的军事同盟。",
+          "en": "Opposing military alliances during World War I."
+        }
+      }
+    },
+    {
+      "source": "三国协约",
+      "target": "协约国 (第一次世界大战)",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "三国协约是协约国军事同盟的前身和核心基础。",
+          "en": "The Triple Entente was the predecessor and core foundation of the Entente Powers military alliance."
+        }
+      }
+    },
+    {
+      "source": "协约国 (第一次世界大战)",
+      "target": "巴黎和会",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "协约国在第一次世界大战胜利后召开了巴黎和会。",
+          "en": "The Entente Powers convened the Paris Peace Conference after their victory in World War I."
+        }
+      }
+    },
+    {
+      "source": "协约国 (第一次世界大战)",
+      "target": "国际联盟",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "协约国是国际联盟的主要前身。",
+          "en": "The Entente Powers were the main predecessor to the League of Nations."
+        }
+      }
+    },
+    {
+      "source": "法兰西第三共和国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1914-08",
+        "description": {
+          "zh-cn": "作为主要协约国之一参战。",
+          "en": "Participated in the war as one of the main Entente Powers."
+        }
+      }
+    },
+    {
+      "source": "大英帝国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1914-08",
+        "description": {
+          "zh-cn": "作为主要协约国之一参战。",
+          "en": "Participated in the war as one of the main Entente Powers."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯帝国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1914-07",
+        "end_date": "1917-02",
+        "description": {
+          "zh-cn": "作为主要协约国之一参战，于1917年2月退出。",
+          "en": "Participated in the war as one of the main Entente Powers, withdrawing in February 1917."
+        }
+      }
+    },
+    {
+      "source": "义大利王国 (1861年－1946年)",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1915-05",
+        "description": {
+          "zh-cn": "于1915年加入协约国参战。",
+          "en": "Joined the Entente Powers to participate in the war in 1915."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1917-04",
+        "description": {
+          "zh-cn": "于1917年加入协约国参战。",
+          "en": "Joined the Entente Powers to participate in the war in 1917."
+        }
+      }
+    },
+    {
+      "source": "塞尔维亚王国 (近代)",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1914-07"
+      }
+    },
+    {
+      "source": "中华民国北京政府",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1917-08-14"
+      }
+    },
+    {
+      "source": "罗马尼亚王国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1916-08-27"
+      }
+    },
+    {
+      "source": "比利时",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1914-08"
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1914-08-23"
+      }
+    },
+    {
+      "source": "希腊王国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1917-07-02"
+      }
+    },
+    {
+      "source": "蒙特内哥罗王国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1914"
+      }
+    },
+    {
+      "source": "葡萄牙第一共和国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1916-03-09"
+      }
+    },
+    {
+      "source": "汉志王国",
+      "target": "协约国 (第一次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1916",
+        "end_date": "1918"
+      }
+    },
+    {
+      "source": "乔治·克列孟梭",
+      "target": "法兰西第三共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总理",
+          "en": "Prime Minister"
+        }
+      }
+    },
+    {
+      "source": "大卫·劳合乔治",
+      "target": "大不列颠及爱尔兰联合王国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "首相",
+          "en": "Prime Minister"
+        }
+      }
+    },
+    {
+      "source": "维托里奥·埃曼努尔·奥兰多",
+      "target": "义大利王国 (1861年－1946年)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总理",
+          "en": "Prime Minister"
+        }
+      }
+    },
+    {
+      "source": "伍德罗·威尔逊",
+      "target": "美国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总统",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "乔治·克列孟梭",
+      "target": "大卫·劳合乔治",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "作为协约国领导人（“四大巨头”及“三大领袖”），共同主导第一次世界大战及战后巴黎和会。",
+          "en": "As leaders of the Entente Powers (the 'Big Four' and 'Big Three'), they jointly led during World War I and at the subsequent Paris Peace Conference."
+        }
+      }
+    },
+    {
+      "source": "乔治·克列孟梭",
+      "target": "维托里奥·埃曼努尔·奥兰多",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "作为协约国领导人（“四大巨头”），共同主导第一次世界大战及战后巴黎和会。",
+          "en": "As leaders of the Entente Powers (the 'Big Four'), they jointly led during World War I and at the subsequent Paris Peace Conference."
+        }
+      }
+    },
+    {
+      "source": "乔治·克列孟梭",
+      "target": "伍德罗·威尔逊",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "作为协约国领导人（“四大巨头”及“三大领袖”），共同主导第一次世界大战及战后巴黎和会。",
+          "en": "As leaders of the Entente Powers (the 'Big Four' and 'Big Three'), they jointly led during World War I and at the subsequent Paris Peace Conference."
+        }
+      }
+    },
+    {
+      "source": "大卫·劳合乔治",
+      "target": "维托里奥·埃曼努尔·奥兰多",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "作为协约国领导人（“四大巨头”），共同主导第一次世界大战及战后巴黎和会。",
+          "en": "As leaders of the Entente Powers (the 'Big Four'), they jointly led during World War I and at the subsequent Paris Peace Conference."
+        }
+      }
+    },
+    {
+      "source": "大卫·劳合乔治",
+      "target": "伍德罗·威尔逊",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "作为协约国领导人（“四大巨头”及“三大领袖”），共同主导第一次世界大战及战后巴黎和会。",
+          "en": "As leaders of the Entente Powers (the 'Big Four' and 'Big Three'), they jointly led during World War I and at the subsequent Paris Peace Conference."
+        }
+      }
+    },
+    {
+      "source": "维托里奥·埃曼努尔·奥兰多",
+      "target": "伍德罗·威尔逊",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "作为协约国领导人（“四大巨头”），共同主导第一次世界大战及战后巴黎和会。",
+          "en": "As leaders of the Entente Powers (the 'Big Four'), they jointly led during World War I and at the subsequent Paris Peace Conference."
+        }
+      }
+    },
+    {
+      "source": "德意志帝国",
+      "target": "法兰西第三共和国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1914-08-03",
+        "description": {
+          "zh-cn": "德意志帝国对法兰西第三共和国宣战。",
+          "en": "The German Empire declared war on the French Third Republic."
+        }
+      }
+    },
+    {
+      "source": "德意志帝国",
+      "target": "大英帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1914-08-04",
+        "description": {
+          "zh-cn": "德意志帝国对大英帝国宣战。",
+          "en": "The German Empire declared war on the British Empire."
+        }
+      }
+    },
+    {
+      "source": "德意志帝国",
+      "target": "俄罗斯帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1914-08-01",
+        "description": {
+          "zh-cn": "德意志帝国对俄罗斯帝国宣战。",
+          "en": "The German Empire declared war on the Russian Empire."
+        }
+      }
+    },
+    {
+      "source": "德意志帝国",
+      "target": "比利时",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1914-08-04",
+        "description": {
+          "zh-cn": "德意志帝国入侵比利时。",
+          "en": "The German Empire invaded Belgium."
+        }
+      }
+    },
+    {
+      "source": "奥匈帝国",
+      "target": "塞尔维亚王国 (近代)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1914-07-28",
+        "description": {
+          "zh-cn": "奥匈帝国对塞尔维亚王国宣战，引发第一次世界大战。",
+          "en": "Austria-Hungary declared war on the Kingdom of Serbia, triggering World War I."
+        }
+      }
+    }
+  ]
+}

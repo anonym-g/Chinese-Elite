@@ -1,0 +1,815 @@
+{
+  "nodes": [
+    {
+      "id": "戴晴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "戴晴",
+          "傅小庆",
+          "傅凝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1941-01-08 - ",
+        "gender": "Female",
+        "location": {
+          "zh-cn": "清迈",
+          "en": "Chiang Mai"
+        },
+        "birth_place": {
+          "zh-cn": "重庆市 (中华民国)",
+          "en": "Chongqing (Republic of China)"
+        },
+        "description": {
+          "zh-cn": "中国自由作家、记者。生父为革命烈士傅大庆，后成为中共元老叶剑英的养女。曾因在六四天安门事件中支持不同政见者而被捕入狱。",
+          "en": "Chinese liberal writer and journalist. Her biological father was the revolutionary martyr Fu Daqing, and she later became the adopted daughter of CCP elder Ye Jianying. She was imprisoned for supporting dissidents during the 1989 Tiananmen Square protests."
+        }
+      }
+    },
+    {
+      "id": "傅大庆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "傅大庆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 1944",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "北平",
+          "en": "Beiping"
+        },
+        "description": {
+          "zh-cn": "戴晴的生父，中国革命烈士，曾为第三国际从事对日情报工作。",
+          "en": "Dai Qing's biological father, a Chinese revolutionary martyr who conducted intelligence work against Japan for the Comintern."
+        }
+      }
+    },
+    {
+      "id": "叶剑英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶剑英"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的元勋和主要领导人之一，戴晴的养父。",
+          "en": "One of the founders and main leaders of the Communist Party of China and the People's Republic of China, and Dai Qing's adoptive father."
+        }
+      }
+    },
+    {
+      "id": "杨洁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨洁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "戴晴的母亲，傅大庆的妻子。",
+          "en": "Dai Qing's mother and wife of Fu Daqing."
+        }
+      }
+    },
+    {
+      "id": "哈尔滨军事工程学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "哈尔滨军事工程学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国哈尔滨的一所军事工程技术院校，现已改制并南迁长沙，为国防科技大学的前身。",
+          "en": "A military engineering and technical college located in Harbin, China. It has since been restructured and relocated to Changsha, becoming the predecessor of the National University of Defense Technology."
+        }
+      }
+    },
+    {
+      "id": "光明日报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "光明日报"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央委员会主办的官方报纸，主要面向知识分子。",
+          "en": "An official newspaper published by the Central Committee of the Communist Party of China, primarily targeting intellectuals."
+        }
+      }
+    },
+    {
+      "id": "六四天安门事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "六四天安门事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1989",
+        "description": {
+          "zh-cn": "1989年发生在中国北京的政治风波，以政府清场告终。",
+          "en": "A political turmoil that occurred in Beijing, China in 1989, ending with a government crackdown."
+        }
+      }
+    },
+    {
+      "id": "秦城监狱",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦城监狱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国北京市昌平区的监狱，以关押高级别政治犯而闻名。",
+          "en": "A prison located in Changping District, Beijing, China, known for housing high-level political prisoners."
+        }
+      }
+    },
+    {
+      "id": "日本宪兵",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本宪兵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "旧日本帝国陆军的宪兵，在二战期间活动。",
+          "en": "The military police of the former Imperial Japanese Army, active during World War II."
+        }
+      }
+    },
+    {
+      "id": "陈独秀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈独秀"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期主要领导人之一。",
+          "en": "One of the early main leaders of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "社会主义青年团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "社会主义青年团"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产主义青年团的前身。",
+          "en": "The predecessor of the Communist Youth League of China."
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要领导人之一，曾任中华人民共和国国务院总理。",
+          "en": "One of the main leaders of the Communist Party of China and the People's Republic of China, who served as the Premier of the State Council of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "南昌武装起义",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南昌武装起义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1927-08-01",
+        "description": {
+          "zh-cn": "中国共产党为反击国民党而发动的武装起义，被认为是中共独立领导武装斗争和创建军队的开始。",
+          "en": "An armed uprising launched by the Communist Party of China against the Kuomintang, considered the beginning of the CPC's independent leadership of armed struggle and army creation."
+        }
+      }
+    },
+    {
+      "id": "第三国际",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第三国际"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "即共产国际，是一个共产党的国际联合组织。",
+          "en": "Also known as the Comintern, it was an international association of communist parties."
+        }
+      }
+    },
+    {
+      "id": "重庆市 (中华民国)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "重庆市 (中华民国)",
+          "重庆市"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国时期的直辖市，战时首都。",
+          "en": "A direct-controlled municipality and the wartime capital during the Republic of China period."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国航空工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国航空工业部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国曾经存在的负责航空工业的政府部门。",
+          "en": "A former government ministry of the People's Republic of China responsible for the aviation industry."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国公安部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公安部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院主管全国公安工作的组成部门。",
+          "en": "The constituent department of the State Council of the People's Republic of China in charge of nationwide public security work."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军总参谋部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军总参谋部",
+          "总参一局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "曾是中国人民解放军的最高军事指挥机关，负责组织领导全国武装力量的军事建设和组织指挥全国武装力量的军事行动。",
+          "en": "Formerly the highest military command organ of the Chinese People's Liberation Army, responsible for organizing and leading the military construction and commanding the military operations of the nation's armed forces."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国各民族作家自愿结合的专业性人民团体。",
+          "en": "A professional people's organization voluntarily formed by writers of all ethnic groups in China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军外国语学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军外国语学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "曾是中国人民解放军的一所高等外语院校。",
+          "en": "A former higher education institution for foreign languages within the Chinese People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "方励之",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "方励之"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国天体物理学家、持不同政见者。",
+          "en": "Chinese astrophysicist and dissident."
+        }
+      }
+    },
+    {
+      "id": "严家其",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "严家其"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治学家、持不同政见者。",
+          "en": "Chinese political scientist and dissident."
+        }
+      }
+    },
+    {
+      "id": "金观涛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "金观涛"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国学者、历史学家。",
+          "en": "Chinese scholar and historian."
+        }
+      }
+    },
+    {
+      "id": "三峡水电站",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "三峡水电站"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国长江上的大型水利工程项目，引发了广泛的社会和环境争议。",
+          "en": "A large-scale hydraulic engineering project on the Yangtze River in China, which has caused widespread social and environmental controversy."
+        }
+      }
+    },
+    {
+      "id": "国际报业联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际报业联合会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个代表世界各地报纸和新闻出版商的非政府组织。",
+          "en": "A non-governmental organization representing newspapers and news publishers worldwide."
+        }
+      }
+    },
+    {
+      "id": "天安门 (纪录片)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "天安门 (纪录片)",
+          "天安门"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一部关于1989年天安门事件的美国纪录片。",
+          "en": "An American documentary film about the 1989 Tiananmen Square protests."
+        }
+      }
+    },
+    {
+      "id": "野夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "野夫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国作家，本名郑世平。",
+          "en": "Chinese writer, real name Zheng Shiping."
+        }
+      }
+    },
+    {
+      "id": "李承鹏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李承鹏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国作家、社会评论家。",
+          "en": "Chinese writer and social critic."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "戴晴",
+      "target": "傅大庆",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "戴晴是傅大庆的亲生女儿。",
+          "en": "Dai Qing is the biological daughter of Fu Daqing."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "杨洁",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "戴晴是杨洁的亲生女儿。",
+          "en": "Dai Qing is the biological daughter of Yang Jie."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "叶剑英",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "戴晴是叶剑英的养女。",
+          "en": "Dai Qing is the adopted daughter of Ye Jianying."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "重庆市 (中华民国)",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1941-01-08"
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "哈尔滨军事工程学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1960",
+        "degree": {
+          "zh-cn": "导弹自动控制专业",
+          "en": "Missile Automatic Control"
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "中华人民共和国航空工业部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "技术员",
+          "en": "Technician"
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "中华人民共和国公安部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "技术员",
+          "en": "Technician"
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "中国人民解放军总参谋部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "参谋",
+          "en": "Staff Officer"
+        },
+        "description": {
+          "zh-cn": "在总参三所从事情报翻译工作。",
+          "en": "Worked as an intelligence translator at the Third Department of the General Staff."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "中国人民解放军外国语学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在文化大革命结束后，进修英语两年。",
+          "en": "Studied English for two years after the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "戴晴",
+      "target": "光明日报",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1982",
+        "end_date": "1989",
+        "position": {
+          "zh-cn": "记者",
+          "en": "Journalist"
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "三峡水电站",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1989",
+        "description": {
+          "zh-cn": "公开对三峡水电站的环境影响、移民政策等方面提出异议。",
+          "en": "Publicly raised objections to the environmental impact and resettlement policies of the Three Gorges Dam project."
+        }
+      }
+    },
+    {
+      "source": "六四天安门事件",
+      "target": "戴晴",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1989-07-14",
+        "description": {
+          "zh-cn": "因在六四天安门事件中支持不同政见者，戴晴被捕入狱。",
+          "en": "Dai Qing was arrested and imprisoned for supporting dissidents during the Tiananmen Square protests."
+        }
+      }
+    },
+    {
+      "source": "秦城监狱",
+      "target": "戴晴",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1989-07-14",
+        "end_date": "1990-01-21",
+        "description": {
+          "zh-cn": "戴晴于1989年7月14日至1990年1月21日被关押在秦城监狱。",
+          "en": "Dai Qing was imprisoned in Qincheng Prison from July 14, 1989, to January 21, 1990."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "天安门 (纪录片)",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "戴晴出现在纪录片《天安门》中，讲述对共产主义理想的思维变迁。",
+          "en": "Dai Qing appeared in the documentary 'The Gate of Heavenly Peace', discussing her changing views on communist ideals."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "方励之",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1982",
+        "end_date": "1989",
+        "description": {
+          "zh-cn": "在《光明日报》任记者期间，戴晴采访过方励之。",
+          "en": "During her time as a journalist at Guangming Daily, Dai Qing interviewed Fang Lizhi."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "严家其",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1982",
+        "end_date": "1989",
+        "description": {
+          "zh-cn": "在《光明日报》任记者期间，戴晴采访过严家其。",
+          "en": "During her time as a journalist at Guangming Daily, Dai Qing interviewed Yan Jiaqi."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "金观涛",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1982",
+        "end_date": "1989",
+        "description": {
+          "zh-cn": "在《光明日报》任记者期间，戴晴采访过金观涛。",
+          "en": "During her time as a journalist at Guangming Daily, Dai Qing interviewed Jin Guantao."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "野夫",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2020",
+        "description": {
+          "zh-cn": "戴晴参与了野夫在清迈发起的购房计划，共同生活于被称为“作家村”和“知交小聚落”的社区。",
+          "en": "Dai Qing participated in a housing project initiated by Ye Fu in Chiang Mai, living together in a community known as a 'writer's village' and an 'intimate friends' settlement'."
+        }
+      }
+    },
+    {
+      "source": "戴晴",
+      "target": "李承鹏",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2020",
+        "description": {
+          "zh-cn": "戴晴与李承鹏等人共同参与了在清迈的购房计划，生活于被称为“作家村”和“知交小聚落”的社区。",
+          "en": "Dai Qing, along with Li Chengpeng and others, participated in a housing project in Chiang Mai, living in a community known as a 'writer's village' and an 'intimate friends' settlement'."
+        }
+      }
+    },
+    {
+      "source": "国际报业联合会",
+      "target": "戴晴",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1992",
+        "description": {
+          "zh-cn": "国际报业联合会授予戴晴自由金笔奖。",
+          "en": "The International Federation of Newspaper Publishers awarded Dai Qing the Golden Pen of Freedom Award."
+        }
+      }
+    },
+    {
+      "source": "傅大庆",
+      "target": "杨洁",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1941"
+      }
+    },
+    {
+      "source": "傅大庆",
+      "target": "社会主义青年团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1920"
+      }
+    },
+    {
+      "source": "傅大庆",
+      "target": "南昌武装起义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "傅大庆参加了南昌武装起义。",
+          "en": "Fu Daqing participated in the Nanchang Uprising."
+        }
+      }
+    },
+    {
+      "source": "傅大庆",
+      "target": "第三国际",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1941",
+        "description": {
+          "zh-cn": "被派往北平敌占区搞情报工作，直接与第三国际联系。",
+          "en": "Was sent to the enemy-occupied area of Beiping to conduct intelligence work, maintaining direct contact with the Comintern."
+        }
+      }
+    },
+    {
+      "source": "叶剑英",
+      "target": "傅大庆",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1941",
+        "description": {
+          "zh-cn": "叶剑英担任傅大庆与杨洁婚礼的证婚人。",
+          "en": "Ye Jianying served as the witness at the wedding of Fu Daqing and Yang Jie."
+        }
+      }
+    },
+    {
+      "source": "陈独秀",
+      "target": "傅大庆",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1920",
+        "description": {
+          "zh-cn": "经陈独秀介绍，傅大庆参加了社会主义青年团。",
+          "en": "Through Chen Duxiu's introduction, Fu Daqing joined the Socialist Youth League."
+        }
+      }
+    },
+    {
+      "source": "傅大庆",
+      "target": "周恩来",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "傅大庆随周恩来参加了南昌武装起义。",
+          "en": "Fu Daqing followed Zhou Enlai to participate in the Nanchang Uprising."
+        }
+      }
+    },
+    {
+      "source": "日本宪兵",
+      "target": "傅大庆",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1944",
+        "description": {
+          "zh-cn": "傅大庆于1944年遭日本宪兵队逮捕并被杀害。",
+          "en": "Fu Daqing was arrested and killed by the Japanese Kenpeitai in 1944."
+        }
+      }
+    }
+  ]
+}
