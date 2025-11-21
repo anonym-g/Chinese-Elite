@@ -1,0 +1,723 @@
+{
+  "nodes": [
+    {
+      "id": "珍珠港事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "珍珠港事件",
+          "偷袭珍珠港",
+          "珍珠港事变",
+          "真珠湾攻击",
+          "布哇比海战",
+          "布哇比作战"
+        ],
+        "en": [
+          "Attack on Pearl Harbor"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-07 - 1941-12-07",
+        "location": {
+          "zh-cn": "珍珠港海军基地",
+          "en": "Naval Station Pearl Harbor"
+        },
+        "description": {
+          "zh-cn": "1941年12月7日大日本帝国海军对美国夏威夷领地珍珠港海军基地的一次偷袭军事行动，该事件标志着太平洋战争的爆发，是第二次世界大战的重要转折点。",
+          "en": "A surprise military strike by the Imperial Japanese Navy Air Service upon the United States against the naval base at Pearl Harbor in Honolulu, Territory of Hawaii, on December 7, 1941. The attack marked the beginning of the Pacific War and was a major turning point of World War II."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国海军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国海军",
+          "日本海军"
+        ],
+        "en": [
+          "Imperial Japanese Navy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国的海军武装力量，策划并执行了偷袭珍珠港的行动。",
+          "en": "The navy of the Empire of Japan, which planned and executed the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "山本五十六",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "山本五十六"
+        ],
+        "en": [
+          "Isoroku Yamamoto"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本海军将领，时任联合舰队司令长官，是偷袭珍珠港计划的核心策划者。",
+          "en": "A Japanese Marshal Admiral of the Navy and the commander-in-chief of the Combined Fleet, who was the mastermind behind the plan to attack Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "南云忠一",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "南云忠一"
+        ],
+        "en": [
+          "Chūichi Nagumo"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本海军中将，在偷袭珍珠港行动中担任第一航空舰队司令长官，负责指挥攻击舰队。",
+          "en": "A Japanese admiral in the Imperial Japanese Navy who served as commander of the First Air Fleet, leading the fleet that attacked Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在珍珠港事件中遭受攻击的国家，事件后对日宣战，正式加入第二次世界大战。",
+          "en": "The country attacked during the Pearl Harbor incident. It declared war on Japan afterward and officially entered World War II."
+        }
+      }
+    },
+    {
+      "id": "美国太平洋舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国太平洋舰队",
+          "太平洋舰队"
+        ],
+        "en": [
+          "United States Pacific Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国海军在太平洋的舰队，是日本偷袭珍珠港的主要目标。",
+          "en": "The United States Navy's fleet in the Pacific Ocean, which was the main target of the Japanese attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "富兰克林·德拉诺·罗斯福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "富兰克林·德拉诺·罗斯福",
+          "罗斯福"
+        ],
+        "en": [
+          "Franklin D. Roosevelt"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任美国总统，在珍珠港事件后发表了著名的《国耻演说》，并领导美国对日宣战。",
+          "en": "The President of the United States at the time, who delivered the famous \"Day of Infamy\" speech after the attack and led the U.S. to declare war on Japan."
+        }
+      }
+    },
+    {
+      "id": "太平洋战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "太平洋战争"
+        ],
+        "en": [
+          "Pacific War"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-07 - 1945-09-02",
+        "description": {
+          "zh-cn": "第二次世界大战中，以日本为首的轴心国和以美国为首的同盟国于太平洋及其岛屿、东亚和东南亚地区爆发的战争。",
+          "en": "The theater of World War II that was fought in the Pacific and its islands, East Asia, and Southeast Asia between the Axis powers led by Japan and the Allied powers led by the United States."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一场全球性的军事冲突，珍珠港事件是其重要的转折点，标志着太平洋战争的全面爆发。",
+          "en": "A global military conflict. The attack on Pearl Harbor was a major turning point, marking the full-scale outbreak of the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "ABCD包围网",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "ABCD包围网"
+        ],
+        "en": [
+          "ABCD line"
+        ]
+      },
+      "properties": {
+        "period": "1941 - 1941",
+        "description": {
+          "zh-cn": "指1941年美国、英国、中国、荷兰对日本采取的经济制裁，特别是石油禁运，是促使日本发动太平洋战争的重要原因。",
+          "en": "Refers to the economic sanctions, particularly the oil embargo, imposed on Japan by America, Britain, China, and the Dutch in 1941, which was a significant factor leading Japan to initiate the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "中国抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中国抗日战争",
+          "侵华"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937 - 1945",
+        "description": {
+          "zh-cn": "日本自1937年起对中国的长期战争。这场战争消耗了日本大量资源，是其为夺取资源而发动太平洋战争的背景之一。",
+          "en": "Japan's long-term war against China starting in 1937. This war consumed a large amount of Japan's resources and was part of the background leading to the launch of the Pacific War to seize more resources."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "偷袭珍珠港的行动方，第二次世界大战轴心国成员。",
+          "en": "The attacking power in the Attack on Pearl Harbor, a member of the Axis powers in World War II."
+        }
+      }
+    },
+    {
+      "id": "亚利桑纳号战舰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "亚利桑纳号战舰",
+          "亚利桑纳号"
+        ],
+        "en": [
+          "USS Arizona (BB-39)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国海军宾夕法尼亚级战舰，在珍珠港事件中被击沉，造成大量人员伤亡，其残骸成为战争纪念馆。",
+          "en": "A Pennsylvania-class battleship of the United States Navy, sunk during the attack on Pearl Harbor with immense loss of life. Its wreck is now a war memorial."
+        }
+      }
+    },
+    {
+      "id": "纳粹德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国",
+          "德国"
+        ],
+        "en": [
+          "Nazi Germany"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的盟友，作为轴心国成员，在珍珠港事件后于1941年12月11日对美国宣战。",
+          "en": "An ally of Japan and a member of the Axis powers, which declared war on the United States on December 11, 1941, following the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "意大利王国 (1861年－1946年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "意大利王国 (1861年－1946年)",
+          "意大利王国 (1861年–1946年)",
+          "意大利"
+        ],
+        "en": [
+          "Kingdom of Italy (1861–1946)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的盟友，作为轴心国成员，在珍珠港事件后于1941年12月11日对美国宣战。",
+          "en": "An ally of Japan and a member of the Axis powers, which declared war on the United States on December 11, 1941, following the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "国耻演说",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "国耻演说"
+        ],
+        "en": [
+          "Day of Infamy speech"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-08 - 1941-12-08",
+        "description": {
+          "zh-cn": "美国总统富兰克林·罗斯福在珍珠港事件次日向国会发表的演说，请求对日宣战。",
+          "en": "A speech delivered by U.S. President Franklin D. Roosevelt to Congress the day after the attack on Pearl Harbor, asking for a declaration of war against Japan."
+        }
+      }
+    },
+    {
+      "id": "哈斯本·金梅尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈斯本·金梅尔"
+        ],
+        "en": [
+          "Husband E. Kimmel"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国海军上将，在珍珠港事件时担任美国太平洋舰队总司令，事后因防守不力被解职降阶。",
+          "en": "A U.S. Navy admiral who served as the commander-in-chief of the U.S. Pacific Fleet at the time of the attack. He was subsequently relieved of command and demoted for being unprepared."
+        }
+      }
+    },
+    {
+      "id": "沃尔特·肖特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "沃尔特·肖特"
+        ],
+        "en": [
+          "Walter Short"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国陆军中将，在珍珠港事件时担任夏威夷军区司令，事后因防守不力被解职降阶。",
+          "en": "A U.S. Army lieutenant general who served as the commander of the Hawaiian Department at the time of the attack. He was subsequently relieved of command and demoted for being unprepared."
+        }
+      }
+    },
+    {
+      "id": "塔兰托战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "塔兰托战役"
+        ],
+        "en": [
+          "Battle of Taranto"
+        ]
+      },
+      "properties": {
+        "period": "1940-11-11 - 1940-11-12",
+        "description": {
+          "zh-cn": "1940年英国皇家海军以舰载机空袭意大利塔兰托港的战役，其成功战例对山本五十六策划偷袭珍珠港的计划产生了重要影响。",
+          "en": "A 1940 battle where the British Royal Navy launched an aerial attack with carrier-based aircraft on the Italian fleet at Taranto. Its success significantly influenced Isoroku Yamamoto's planning for the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "联合舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合舰队"
+        ],
+        "en": [
+          "Combined Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国海军的主力作战部队，由山本五十六指挥，其下属的第一航空舰队执行了偷袭珍珠港任务。",
+          "en": "The main operational component of the Imperial Japanese Navy, commanded by Isoroku Yamamoto. Its subordinate First Air Fleet carried out the mission to attack Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "日裔美国人拘留",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "日裔美国人拘留"
+        ],
+        "en": [
+          "Internment of Japanese Americans"
+        ]
+      },
+      "properties": {
+        "period": "1942 - 1946",
+        "description": {
+          "zh-cn": "珍珠港事件后，美国政府针对居住在美国的日裔美国人进行的强制迁移和监禁。",
+          "en": "The forced relocation and incarceration in concentration camps in the western interior of the country of people of Japanese ancestry who lived on the Pacific coast, which occurred after the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "第9066号行政命令",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "第9066号行政命令"
+        ],
+        "en": [
+          "Executive Order 9066"
+        ]
+      },
+      "properties": {
+        "period": "1942-02-19 - 1942-02-19",
+        "description": {
+          "zh-cn": "由美国总统富兰克林·罗斯福签署的行政命令，授权战争部长划定军事区，并最终导致了日裔美国人的大规模拘留。",
+          "en": "An executive order signed by U.S. President Franklin D. Roosevelt that authorized the Secretary of War to prescribe certain areas as military zones, ultimately leading to the mass incarceration of Japanese Americans."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "大日本帝国海军",
+      "target": "珍珠港事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-07",
+        "end_date": "1941-12-07",
+        "description": {
+          "zh-cn": "大日本帝国海军策划并执行了对美国珍珠港海军基地的偷袭行动。",
+          "en": "The Imperial Japanese Navy planned and executed the surprise attack on the U.S. naval base at Pearl Harbor."
+        }
+      }
+    },
+    {
+      "source": "山本五十六",
+      "target": "珍珠港事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为联合舰队司令长官，山本五十六是偷袭珍珠港计划的核心策划者，他认为必须在战争初期就摧毁美国太平洋舰队。",
+          "en": "As the Commander-in-Chief of the Combined Fleet, Isoroku Yamamoto was the mastermind behind the plan to attack Pearl Harbor, believing it was necessary to destroy the U.S. Pacific Fleet at the outset of the war."
+        }
+      }
+    },
+    {
+      "source": "南云忠一",
+      "target": "珍珠港事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-07",
+        "end_date": "1941-12-07",
+        "description": {
+          "zh-cn": "南云忠一中将指挥了执行偷袭任务的日本第一航空舰队。但他决定不发动第三波攻击，这被一些历史学家认为限制了对美军的战略打击。",
+          "en": "Vice Admiral Chūichi Nagumo commanded the Japanese First Air Fleet that carried out the attack. His decision not to launch a third wave is considered by some historians to have limited the strategic damage to U.S. forces."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "太平洋战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-07",
+        "description": {
+          "zh-cn": "珍珠港事件标志着太平洋战争的全面爆发。",
+          "en": "The Attack on Pearl Harbor marked the full-scale outbreak of the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "太平洋战争",
+      "target": "第二次世界大战",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1941-12-07",
+        "description": {
+          "zh-cn": "太平洋战争的爆发使得第二次世界大战的欧洲战场和亚洲战场合流，成为一场真正的全球性战争。",
+          "en": "The outbreak of the Pacific War merged the European and Asian theaters of World War II, turning it into a truly global conflict."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "美国太平洋舰队",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1941-12-07",
+        "description": {
+          "zh-cn": "袭击重创了美国太平洋舰队，击沉或损坏了8艘战舰及多艘其他舰船，摧毁了188架飞机。",
+          "en": "The attack crippled the U.S. Pacific Fleet, sinking or damaging 8 battleships and numerous other vessels, and destroying 188 aircraft."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "亚利桑纳号战舰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1941-12-07",
+        "description": {
+          "zh-cn": "在袭击中，亚利桑纳号战舰被一枚穿甲弹击中弹药库，引发剧烈爆炸后沉没，造成舰上1177人死亡。",
+          "en": "During the attack, the USS Arizona was hit by an armor-piercing bomb that detonated its magazine, causing a massive explosion and sinking the ship with 1,177 crewmen killed."
+        }
+      }
+    },
+    {
+      "source": "ABCD包围网",
+      "target": "珍珠港事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-07-26",
+        "description": {
+          "zh-cn": "美国、英国、荷兰等国对日本实施的石油禁运（ABCD包围网）是促使日本决定发动战争并袭击珍珠港的直接原因。",
+          "en": "The oil embargo imposed on Japan by the United States, Britain, the Netherlands, and others (the ABCD line) was the direct cause that pushed Japan to decide to go to war and attack Pearl Harbor."
+        }
+      }
+    },
+    {
+      "source": "中国抗日战争",
+      "target": "珍珠港事件",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "日本因深陷中国战场、资源日益枯竭，为夺取东南亚的战略资源（特别是石油）以支持对华战争，最终选择与英美开战，从而引发了珍珠港事件。",
+          "en": "Bogged down in the war in China and with its resources dwindling, Japan chose to go to war with Britain and the U.S. to seize strategic resources (especially oil) in Southeast Asia to support the war against China, which ultimately led to the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "source": "塔兰托战役",
+      "target": "山本五十六",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1940-11",
+        "description": {
+          "zh-cn": "英国皇家海军在塔兰托战役中以少量舰载机瘫痪意大利海军基地的成功战例，给山本五十六策划使用航空母舰偷袭珍珠港的计划带来了重要启发。",
+          "en": "The success of the Royal Navy in the Battle of Taranto, where a small number of carrier aircraft crippled the Italian naval base, provided significant inspiration for Isoroku Yamamoto's plan to use aircraft carriers for a surprise attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "美国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-08",
+        "description": {
+          "zh-cn": "该事件使美国公众舆论从孤立主义迅速转向支持参战，次日美国国会即对日本宣战。",
+          "en": "The event swiftly shifted U.S. public opinion from isolationism to support for war, and the U.S. Congress declared war on Japan the following day."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "大日本帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1941-12-08",
+        "description": {
+          "zh-cn": "在珍珠港事件发生后的第二天，美国对大日本帝国宣战。",
+          "en": "The day after the attack on Pearl Harbor, the United States declared war on the Empire of Japan."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "纳粹德国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-11",
+        "description": {
+          "zh-cn": "作为日本的盟友，纳粹德国在珍珠港事件后于1941年12月11日履行三国同盟条约，对美国宣战。",
+          "en": "As an ally of Japan, Nazi Germany honored the Tripartite Pact and declared war on the United States on December 11, 1941, following the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "意大利王国 (1861年－1946年)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-11",
+        "description": {
+          "zh-cn": "作为日本的盟友，意大利王国在珍珠港事件后于1941年12月11日履行三国同盟条约，对美国宣战。",
+          "en": "As an ally of Japan, the Kingdom of Italy honored the Tripartite Pact and declared war on the United States on December 11, 1941, following the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "source": "纳粹德国",
+      "target": "美国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1941-12-11",
+        "description": {
+          "zh-cn": "1941年12月11日，纳粹德国对美国宣战。",
+          "en": "On December 11, 1941, Nazi Germany declared war on the United States."
+        }
+      }
+    },
+    {
+      "source": "意大利王国 (1861年－1946年)",
+      "target": "美国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1941-12-11",
+        "description": {
+          "zh-cn": "1941年12月11日，意大利王国对美国宣战。",
+          "en": "On December 11, 1941, the Kingdom of Italy declared war on the United States."
+        }
+      }
+    },
+    {
+      "source": "富兰克林·德拉诺·罗斯福",
+      "target": "国耻演说",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-08",
+        "description": {
+          "zh-cn": "美国总统罗斯福在珍珠港事件次日向国会发表了《国耻演说》。",
+          "en": "U.S. President Roosevelt delivered the \"Day of Infamy\" speech to Congress the day after the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "哈斯本·金梅尔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1941-12-17",
+        "description": {
+          "zh-cn": "由于未能预见并有效防御日本的袭击，时任太平洋舰队总司令的金梅尔上将被解除职务并被降阶。",
+          "en": "Due to the failure to anticipate and effectively defend against the Japanese attack, Admiral Kimmel, then commander-in-chief of the Pacific Fleet, was relieved of his command and demoted."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "沃尔特·肖特",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1941-12-17",
+        "description": {
+          "zh-cn": "由于未能有效防御珍珠港的陆基设施，时任夏威夷军区司令的肖特中将被解除职务并被降阶。",
+          "en": "Due to the failure to effectively defend the land-based installations at Pearl Harbor, Lieutenant General Short, then commander of the Hawaiian Department, was relieved of his command and demoted."
+        }
+      }
+    },
+    {
+      "source": "联合舰队",
+      "target": "大日本帝国海军",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "联合舰队是大日本帝国海军的主力作战部队。",
+          "en": "The Combined Fleet was the main operational component of the Imperial Japanese Navy."
+        }
+      }
+    },
+    {
+      "source": "山本五十六",
+      "target": "联合舰队",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "司令长官",
+          "en": "Commander-in-Chief"
+        },
+        "description": {
+          "zh-cn": "山本五十六在偷袭珍珠港期间担任日本海军联合舰队司令长官。",
+          "en": "Isoroku Yamamoto served as the Commander-in-Chief of the IJN's Combined Fleet during the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "日裔美国人拘留",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1942-02-19",
+        "description": {
+          "zh-cn": "珍珠港袭击事件在美国国内引发了对日裔美国人的普遍不信任和恐惧，是导致美国政府后续实施大规模强制拘留政策的直接原因。",
+          "en": "The attack on Pearl Harbor triggered widespread distrust and fear of Japanese Americans within the U.S., becoming the direct cause for the subsequent implementation of the government's policy of mass forced internment."
+        }
+      }
+    },
+    {
+      "source": "第9066号行政命令",
+      "target": "日裔美国人拘留",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1942-02-19",
+        "description": {
+          "zh-cn": "该行政命令授权美国军事部门划定军事区并对特定人群进行管制，为日裔美国人的大规模强制迁移和拘留提供了法律依据。",
+          "en": "This executive order authorized the U.S. military to designate military areas and regulate certain populations, providing the legal basis for the mass forced relocation and internment of Japanese Americans."
+        }
+      }
+    },
+    {
+      "source": "富兰克林·德拉诺·罗斯福",
+      "target": "第9066号行政命令",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1942-02-19",
+        "description": {
+          "zh-cn": "富兰克林·罗斯福总统签署了第9066号行政命令。",
+          "en": "President Franklin D. Roosevelt signed Executive Order 9066."
+        }
+      }
+    }
+  ]
+}

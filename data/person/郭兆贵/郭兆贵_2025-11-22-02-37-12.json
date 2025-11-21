@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "郭兆贵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭兆贵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1929 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "广西壮族自治区北海市",
+          "en": "Beihai, Guangxi"
+        },
+        "description": {
+          "zh-cn": "中国药理学家，曾任湖南医学院教授、博士生导师。",
+          "en": "Chinese pharmacologist, who served as a professor and doctoral supervisor at Hunan Medical College."
+        }
+      }
+    },
+    {
+      "id": "北海市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北海市",
+          "北海"
+        ],
+        "en": [
+          "Beihai"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国广西壮族自治区下辖的地级市，是郭兆贵的出生地。",
+          "en": "A prefecture-level city in Guangxi Zhuang Autonomous Region, People's Republic of China, and the birthplace of Guo Zhaogui."
+        }
+      }
+    },
+    {
+      "id": "湖南医学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湖南医学院"
+        ],
+        "en": [
+          "Hunan Medical College"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一所高等医学院校，郭兆贵曾在此担任教授和博士生导师。",
+          "en": "A higher medical college in China where Guo Zhaogui once served as a professor and doctoral supervisor."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "湘雅医学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湘雅医学院"
+        ],
+        "en": [
+          "Xiangya School of Medicine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中南大学下属的医学院，是郭兆贵的母校。",
+          "en": "The medical school affiliated with Central South University, and the alma mater of Guo Zhaogui."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "郭兆贵",
+      "target": "北海市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1929",
+        "description": {
+          "zh-cn": "郭兆贵是广西省北海市人。",
+          "en": "Guo Zhaogui is from Beihai, Guangxi."
+        }
+      }
+    },
+    {
+      "source": "郭兆贵",
+      "target": "湖南医学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授、博士生导师",
+          "en": "Professor, Doctoral Supervisor"
+        },
+        "description": {
+          "zh-cn": "郭兆贵曾任湖南医学院教授、博士生导师。",
+          "en": "Guo Zhaogui served as a professor and doctoral supervisor at Hunan Medical College."
+        }
+      }
+    },
+    {
+      "source": "郭兆贵",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，郭兆贵是中国共产党党员。",
+          "en": "According to Wikipedia categories, Guo Zhaogui is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "郭兆贵",
+      "target": "湘雅医学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，郭兆贵是湘雅医学院的校友。",
+          "en": "According to Wikipedia categories, Guo Zhaogui is an alumnus of Xiangya School of Medicine."
+        }
+      }
+    }
+  ]
+}

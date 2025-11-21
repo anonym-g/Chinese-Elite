@@ -1,0 +1,678 @@
+{
+  "nodes": [
+    {
+      "id": "萧何",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萧何"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "前257-10-12 - 前193-08-16",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "丰县",
+          "en": "Feng County"
+        },
+        "location": {
+          "zh-cn": "沛县",
+          "en": "Pei County"
+        },
+        "description": {
+          "zh-cn": "西汉初年政治家、丞相，汉初三杰之一。辅助汉高祖刘邦建立汉朝。",
+          "en": "A statesman and chancellor of the early Western Han dynasty, and one of the 'Three Heroes of the early Han dynasty'. He assisted Emperor Gaozu of Han, Liu Bang, in establishing the Han dynasty."
+        }
+      }
+    },
+    {
+      "id": "刘邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘邦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉朝的开国皇帝，史称“汉高祖”。",
+          "en": "The founding emperor of the Han dynasty, known historically as 'Emperor Gaozu of Han'."
+        }
+      }
+    },
+    {
+      "id": "西汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西汉",
+          "汉朝",
+          "汉"
+        ],
+        "en": [
+          "Western Han"
+        ]
+      },
+      "properties": {
+        "period": "前202 - 9",
+        "description": {
+          "zh-cn": "中国历史上继秦朝后的大一统王朝，由刘邦建立。",
+          "en": "A unified dynasty in Chinese history that followed the Qin dynasty, founded by Liu Bang."
+        }
+      }
+    },
+    {
+      "id": "曹参",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹参"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉开国功臣，继萧何后为汉朝丞相。",
+          "en": "A founding contributor of the Western Han dynasty, who succeeded Xiao He as chancellor."
+        }
+      }
+    },
+    {
+      "id": "樊哙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "樊哙"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉开国元勋，以骁勇善战著称。",
+          "en": "A founding father of the Western Han dynasty, known for his bravery and skill in battle."
+        }
+      }
+    },
+    {
+      "id": "亭长",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "亭长"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦汉时期的基层官吏，负责地方治安。",
+          "en": "A low-level official during the Qin and Han dynasties, responsible for local security."
+        }
+      }
+    },
+    {
+      "id": "秦朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦朝",
+          "秦",
+          "秦国"
+        ],
+        "en": [
+          "Qin dynasty"
+        ]
+      },
+      "properties": {
+        "period": "前221 - 前207",
+        "description": {
+          "zh-cn": "中国历史上第一个大一统封建王朝。",
+          "en": "The first unified feudal dynasty in Chinese history."
+        }
+      }
+    },
+    {
+      "id": "陈胜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈胜"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦末农民起义领袖之一，与吴广共同发动大泽起义。",
+          "en": "One of the leaders of the peasant uprising at the end of the Qin dynasty, who launched the Dazexiang Uprising with Wu Guang."
+        }
+      }
+    },
+    {
+      "id": "吴广",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴广"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦末农民起义领袖之一，与陈胜共同发动大泽起义。",
+          "en": "One of the leaders of the peasant uprising at the end of the Qin dynasty, who launched the Dazexiang Uprising with Chen Sheng."
+        }
+      }
+    },
+    {
+      "id": "大泽起义",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "大泽起义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "前209",
+        "description": {
+          "zh-cn": "由陈胜、吴广发动的反抗秦朝的农民起义，揭开了秦末民变的序幕。",
+          "en": "A peasant uprising against the Qin dynasty launched by Chen Sheng and Wu Guang, which marked the beginning of the rebellions at the end of the Qin."
+        }
+      }
+    },
+    {
+      "id": "咸阳",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "咸阳"
+        ],
+        "en": [
+          "Xianyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦朝的首都。",
+          "en": "The capital of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "项羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项羽"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦末汉初的军事家、政治家，西楚霸王，刘邦在楚汉战争中的主要对手。",
+          "en": "A military leader and statesman during the late Qin and early Han period, known as the Hegemon-King of Western Chu, and Liu Bang's main rival in the Chu–Han Contention."
+        }
+      }
+    },
+    {
+      "id": "韩信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩信",
+          "淮阴",
+          "淮阴侯"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉开国功臣，中国历史上杰出的军事家，汉初三杰之一。",
+          "en": "A founding contributor of the Western Han dynasty, an outstanding military strategist in Chinese history, and one of the 'Three Heroes of the early Han dynasty'."
+        }
+      }
+    },
+    {
+      "id": "汉惠帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉惠帝",
+          "刘盈",
+          "太子盈"
+        ],
+        "en": [
+          "Emperor Hui of Han"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉第二位皇帝，刘邦之子。",
+          "en": "The second emperor of the Western Han dynasty, son of Liu Bang."
+        }
+      }
+    },
+    {
+      "id": "楚汉战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "楚汉战争",
+          "楚汉相争"
+        ],
+        "en": [
+          "Chu–Han Contention"
+        ]
+      },
+      "properties": {
+        "period": "前206 - 前202",
+        "description": {
+          "zh-cn": "秦朝灭亡后，项羽和刘邦为争夺统治权而进行的一场大规模战争。",
+          "en": "A large-scale war between Xiang Yu and Liu Bang for supremacy over China following the collapse of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "汉初三杰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉初三杰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "对汉高祖刘邦的三个功臣张良、萧何、韩信的合称。",
+          "en": "A collective term for three of Emperor Gaozu of Han Liu Bang's key contributors: Zhang Liang, Xiao He, and Han Xin."
+        }
+      }
+    },
+    {
+      "id": "鄂秋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鄂秋",
+          "鄂君"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西汉关内侯，曾在刘邦面前力证萧何功劳第一。",
+          "en": "A Marquis of the Interior of the Western Han dynasty who argued before Liu Bang that Xiao He's contributions were the greatest."
+        }
+      }
+    },
+    {
+      "id": "九章律",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "九章律"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由萧何在秦律基础上制定的汉朝主要法律。",
+          "en": "The primary law of the Han dynasty, formulated by Xiao He based on Qin law."
+        }
+      }
+    },
+    {
+      "id": "秦六法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "秦六法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦朝的主要法律条文。",
+          "en": "The main legal statutes of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "吕雉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕雉",
+          "吕后"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "汉高祖刘邦的皇后。",
+          "en": "The empress of Emperor Gaozu of Han, Liu Bang."
+        }
+      }
+    },
+    {
+      "id": "召平 (东陵侯)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "召平 (东陵侯)",
+          "召平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦朝东陵侯，后归附汉朝。曾劝谏萧何自污以避刘邦猜忌。",
+          "en": "Marquis of Dongling during the Qin dynasty who later submitted to the Han. He once advised Xiao He to tarnish his own reputation to avoid Liu Bang's suspicion."
+        }
+      }
+    },
+    {
+      "id": "萧禄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萧禄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "萧何之子，袭封酂侯。",
+          "en": "Son of Xiao He, who inherited the title of Marquis of Zan."
+        }
+      }
+    },
+    {
+      "id": "萧延",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "萧延"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "萧何之子。",
+          "en": "Son of Xiao He."
+        }
+      }
+    },
+    {
+      "id": "丞相",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "丞相"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代辅佐君主处理国家政务的最高行政官职。",
+          "en": "The highest administrative office in ancient China, assisting the monarch in managing state affairs."
+        }
+      }
+    },
+    {
+      "id": "相国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "相国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代最高官职之一，地位高于丞相。",
+          "en": "One of the highest official positions in ancient China, with a status higher than that of the chancellor."
+        }
+      }
+    },
+    {
+      "id": "上林苑",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "上林苑"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦汉时期的皇家园林。",
+          "en": "A royal garden during the Qin and Han dynasties."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘邦",
+      "target": "萧何",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "亭长",
+          "en": "Pavilion Chief"
+        },
+        "description": {
+          "zh-cn": "在沛县反秦起义前，萧何任主吏，刘邦任亭长，是其下属。",
+          "en": "Before the anti-Qin uprising in Pei County, Xiao He served as a chief clerk, and Liu Bang, as a Pavilion Chief, was his subordinate."
+        }
+      }
+    },
+    {
+      "source": "萧何",
+      "target": "刘邦",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘邦在沛县任亭长期间，萧何多次利用职权袒护和包庇他。",
+          "en": "During Liu Bang's tenure as Pavilion Chief in Pei County, Xiao He repeatedly used his authority to shield and cover for him."
+        }
+      }
+    },
+    {
+      "source": "萧何",
+      "target": "刘邦",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "前209",
+        "description": {
+          "zh-cn": "自刘邦被推举为沛县反抗军首领后，萧何便成为其重要部下。",
+          "en": "After Liu Bang was chosen as the leader of the rebel army in Pei County, Xiao He became his important subordinate."
+        }
+      }
+    },
+    {
+      "source": "萧何",
+      "target": "西汉",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "萧何辅助刘邦建立汉朝。他接收了秦国府库的律令图书，掌握了全国户口、地理等重要信息，并在楚汉战争期间镇守关中，为刘邦提供稳固的后方和源源不断的兵员粮饷，对汉朝的建立起到了决定性作用。",
+          "en": "Xiao He assisted Liu Bang in establishing the Han dynasty. He took control of the Qin government's legal codes and archives, mastering crucial information on national household registration and geography. During the Chu-Han Contention, he defended the Guanzhong region, providing a stable rear base and a continuous supply of troops and provisions for Liu Bang, playing a decisive role in the founding of the Han dynasty."
+        }
+      }
+    },
+    {
+      "source": "陈胜",
+      "target": "大泽起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "前209",
+        "description": {
+          "zh-cn": "陈胜与吴广共同发动了大泽起义，反抗秦朝统治。",
+          "en": "Chen Sheng, along with Wu Guang, launched the Dazexiang Uprising to resist the rule of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "source": "吴广",
+      "target": "大泽起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "前209",
+        "description": {
+          "zh-cn": "吴广与陈胜共同发动了大泽起义，反抗秦朝统治。",
+          "en": "Wu Guang, along with Chen Sheng, launched the Dazexiang Uprising to resist the rule of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "source": "项羽",
+      "target": "咸阳",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "项羽在进入秦都咸阳后，屠城并焚烧了城池与宫殿。",
+          "en": "After entering the Qin capital of Xianyang, Xiang Yu massacred the city's inhabitants and burned its buildings and palaces."
+        }
+      }
+    },
+    {
+      "source": "萧何",
+      "target": "韩信",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "萧何认为韩信是杰出人才，在其逃离后亲自“月下追韩信”，并极力向刘邦举荐，使韩信被拜为大将军。此事是“成也萧何”典故的来源。",
+          "en": "Recognizing Han Xin as an outstanding talent, Xiao He personally pursued him under the moonlight after he fled. He then strongly recommended Han Xin to Liu Bang, leading to Han Xin's appointment as Grand General. This incident is the origin of the saying 'success is due to Xiao He'."
+        }
+      }
+    },
+    {
+      "source": "萧何",
+      "target": "韩信",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "前196",
+        "description": {
+          "zh-cn": "汉高祖十一年，吕后采纳萧何的计谋，将韩信诱入宫中并处死。此事是“败也萧何”典故的来源。",
+          "en": "In the eleventh year of Emperor Gaozu of Han's reign (196 BC), Empress Lü adopted Xiao He's strategy to lure Han Xin into the palace and have him executed. This incident is the origin of the saying 'failure is also due to Xiao He'."
+        }
+      }
+    },
+    {
+      "source": "吕雉",
+      "target": "韩信",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "前196",
+        "description": {
+          "zh-cn": "汉高祖十一年，吕后采用萧何的计谋，以谋反罪名在长乐宫内诛杀韩信。",
+          "en": "In the eleventh year of Emperor Gaozu of Han's reign (196 BC), Empress Lü used Xiao He's strategy to execute Han Xin in Changle Palace on charges of treason."
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "萧何",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "前195",
+        "description": {
+          "zh-cn": "汉高祖十二年，刘邦因猜忌萧何收买民心，以其为民请愿开放上林苑为由，将萧何下狱问罪。后经他人劝谏而释放。",
+          "en": "In the twelfth year of Emperor Gaozu of Han's reign (195 BC), Liu Bang, suspicious that Xiao He was winning over the populace, imprisoned and charged him for petitioning to open the imperial Shanglin Park to the common people. Xiao He was later released after others interceded on his behalf."
+        }
+      }
+    },
+    {
+      "source": "萧何",
+      "target": "汉惠帝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "前195",
+        "end_date": "前193",
+        "position": {
+          "zh-cn": "相国",
+          "en": "Chancellor of State"
+        },
+        "description": {
+          "zh-cn": "刘邦去世后，萧何作为相国辅佐汉惠帝。",
+          "en": "After Liu Bang's death, Xiao He served as Chancellor of State, assisting Emperor Hui of Han."
+        }
+      }
+    },
+    {
+      "source": "萧何",
+      "target": "曹参",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "前193",
+        "description": {
+          "zh-cn": "在病危时，萧何向汉惠帝推荐曹参继任相国之位。",
+          "en": "On his deathbed, Xiao He recommended Cao Shen to Emperor Hui of Han as his successor to the position of Chancellor of State."
+        }
+      }
+    },
+    {
+      "source": "召平 (东陵侯)",
+      "target": "萧何",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "前196",
+        "description": {
+          "zh-cn": "在刘邦加封并派兵“保护”萧何时，召平提醒他此举意在监视，并劝其辞让封赏、捐出家产以自保，萧何听从了他的建议，使刘邦大悦。",
+          "en": "When Liu Bang granted Xiao He a larger fief and sent troops to 'protect' him, Shao Ping warned him that this was a sign of surveillance. He advised Xiao He to refuse the rewards and donate his family fortune to protect himself. Xiao He followed this advice, which greatly pleased Liu Bang."
+        }
+      }
+    },
+    {
+      "source": "萧何",
+      "target": "九章律",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "萧何在秦朝法律基础上，主持制定了汉朝的根本大法《九章律》。",
+          "en": "Xiao He presided over the creation of the 'Nine-Chapter Law', the fundamental law of the Han dynasty, based on the legal code of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "source": "秦六法",
+      "target": "九章律",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "萧何在制定《九章律》时，采纳和参考了《秦六法》的内容。",
+          "en": "When formulating the 'Nine-Chapter Law', Xiao He adopted and referenced the content of the 'Six Laws of Qin'."
+        }
+      }
+    },
+    {
+      "source": "萧禄",
+      "target": "萧何",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "萧延",
+      "target": "萧何",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "鄂秋",
+      "target": "萧何",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在汉初论功行赏时，群臣多认为曹参应为第一。鄂秋力排众议，向刘邦阐明萧何的“万世之功”远超曹参的“一时之事”，其观点最终被刘邦采纳，确立了萧何功臣第一的位次。",
+          "en": "During the awarding of honors in the early Han, many officials believed Cao Shen should be first. E Qiu argued against the consensus, explaining to Liu Bang that Xiao He's 'eternal contributions' far outweighed Cao Shen's 'temporary achievements'. His view was ultimately accepted by Liu Bang, establishing Xiao He as the foremost of the meritorious officials."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "nodes": [
+    {
+      "id": "俄罗斯联邦",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯联邦",
+          "俄罗斯",
+          "俄国",
+          "罗西亚",
+          "斡罗思",
+          "罗刹国",
+          "鄂罗斯",
+          "罗宋"
+        ],
+        "en": [
+          "Russian Federation"
+        ]
+      },
+      "properties": {
+        "period": "1991-12-25 - ",
+        "location": {
+          "zh-cn": "欧亚大陆北部"
+        },
+        "description": {
+          "zh-cn": "位于欧亚大陆北部的联邦共和国，是目前世界上领土最大的国家。作为原苏联最大的加盟共和国，俄罗斯联邦是原苏联的唯一法理继承国家。",
+          "en": "A federal republic in northern Eurasia, it is the largest country in the world by area. As the largest constituent republic of the former Soviet Union, the Russian Federation is the sole legal successor state of the USSR."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·普京",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·普京"
+        ],
+        "en": [
+          "Vladimir Putin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯政治人物，现任俄罗斯联邦总统。",
+          "en": "Russian politician, current President of the Russian Federation."
+        }
+      }
+    },
+    {
+      "id": "米哈伊尔·米舒斯京",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "米哈伊尔·米舒斯京"
+        ],
+        "en": [
+          "Mikhail Mishustin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯政治人物，现任俄罗斯总理。",
+          "en": "Russian politician, current Prime Minister of Russia."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联",
+          "苏维埃社会主义共和国联盟"
+        ],
+        "en": [
+          "Soviet Union",
+          "Union of Soviet Socialist Republics"
+        ]
+      },
+      "properties": {
+        "period": "1922-12-30 - 1991-12-26",
+        "description": {
+          "zh-cn": "由俄罗斯苏维埃联邦社会主义共和国等加盟共和国组成的社会主义国家，曾是与美国并立的超级大国。",
+          "en": "A socialist state composed of the Russian Soviet Federative Socialist Republic and other constituent republics, it was a superpower alongside the United States."
+        }
+      }
+    },
+    {
+      "id": "苏联解体",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "苏联解体"
+        ],
+        "en": [
+          "Dissolution of the Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1991-12-26",
+        "description": {
+          "zh-cn": "1991年发生的一系列事件，导致苏维埃社会主义共和国联盟解体，并产生了15个独立的共和国。",
+          "en": "A series of events in 1991 that resulted in the dissolution of the Union of Soviet Socialist Republics and the creation of 15 independent republics."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯苏维埃联邦社会主义共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯苏维埃联邦社会主义共和国",
+          "苏维埃俄国"
+        ],
+        "en": [
+          "Russian Soviet Federative Socialist Republic"
+        ]
+      },
+      "properties": {
+        "period": "1917-11-07 - 1991-12-25",
+        "description": {
+          "zh-cn": "世界上第一个宪法意义上的社会主义国家，苏联的主要创始国和最大加盟共和国。",
+          "en": "The world's first constitutionally socialist state, and the main founding state and largest constituent republic of the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国"
+        ],
+        "en": [
+          "Russian Empire"
+        ]
+      },
+      "properties": {
+        "period": "1721-10-22 - 1917-03-15",
+        "description": {
+          "zh-cn": "由彼得大帝于1721年成立的帝国，是历史上领土第三大的帝国，但在1917年二月革命中灭亡。",
+          "en": "An empire founded by Peter the Great in 1721, it was the third-largest empire in history by territory, but fell in the February Revolution of 1917."
+        }
+      }
+    },
+    {
+      "id": "二月革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "二月革命",
+          "俄国二月革命"
+        ],
+        "en": [
+          "February Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1917-03",
+        "description": {
+          "zh-cn": "1917年俄国革命的第一个阶段，导致沙皇尼古拉二世退位和俄罗斯帝国的灭亡。",
+          "en": "The first stage of the Russian Revolution of 1917, which led to the abdication of Tsar Nicholas II and the end of the Russian Empire."
+        }
+      }
+    },
+    {
+      "id": "乌克兰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰"
+        ],
+        "en": [
+          "Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东欧国家，与俄罗斯有复杂的历史关系，并在苏联解体后独立。近年来与俄罗斯发生严重冲突。",
+          "en": "An Eastern European country with complex historical ties to Russia, which became independent after the dissolution of the Soviet Union. It has been in severe conflict with Russia in recent years."
+        }
+      }
+    },
+    {
+      "id": "2022年俄罗斯入侵乌克兰",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "2022年俄罗斯入侵乌克兰",
+          "俄罗斯入侵乌克兰"
+        ],
+        "en": [
+          "2022 Russian invasion of Ukraine"
+        ]
+      },
+      "properties": {
+        "period": "2022-02-24 - ",
+        "description": {
+          "zh-cn": "俄罗斯于2022年对乌克兰发动的全面军事入侵，引发了自二战以来欧洲最大规模的战争。",
+          "en": "A full-scale military invasion of Ukraine launched by Russia in 2022, sparking the largest war in Europe since World War II."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯联邦并吞克里米亚",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "俄罗斯联邦并吞克里米亚",
+          "2014年吞并克里米亚"
+        ],
+        "en": [
+          "Annexation of Crimea by the Russian Federation"
+        ]
+      },
+      "properties": {
+        "period": "2014-03",
+        "description": {
+          "zh-cn": "2014年，俄罗斯在乌克兰广场革命后入侵并吞并了原属乌克兰的克里米亚半岛。",
+          "en": "In 2014, following the Euromaidan revolution in Ukraine, Russia invaded and annexed the Crimean Peninsula, which formerly belonged to Ukraine."
+        }
+      }
+    },
+    {
+      "id": "八大工业国组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "八大工业国组织"
+        ],
+        "en": [
+          "Group of Eight"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由世界八个主要工业化国家组成的国际组织，俄罗斯的成员资格自2014年起被暂停。",
+          "en": "An international organization consisting of eight major industrialized countries in the world. Russia's membership has been suspended since 2014."
+        }
+      }
+    },
+    {
+      "id": "欧洲委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "欧洲委员会"
+        ],
+        "en": [
+          "Council of Europe"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个旨在维护欧洲人权、民主和法治的国际组织。",
+          "en": "An international organisation whose stated aim is to uphold human rights, democracy and the rule of law in Europe."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，与俄罗斯有漫长的陆地边界，两国关系在苏联解体后得到巩固和发展。",
+          "en": "An East Asian country with a long land border with Russia. Relations between the two countries have consolidated and developed since the dissolution of the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "白俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "白俄罗斯"
+        ],
+        "en": [
+          "Belarus"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东欧国家，与俄罗斯关系密切，共同组建了俄白联盟国。",
+          "en": "An Eastern European country with close ties to Russia, jointly forming the Union State."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚岛国，与俄罗斯因南千岛群岛（日称北方四岛）问题存在领土争端。",
+          "en": "An East Asian island country that has a territorial dispute with Russia over the Southern Kuril Islands (known as the Northern Territories in Japan)."
+        }
+      }
+    },
+    {
+      "id": "南千岛群岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "南千岛群岛",
+          "北方四岛"
+        ],
+        "en": [
+          "Kuril Islands"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于太平洋西北部的群岛，二战后由苏联（现俄罗斯）实际控制，但日本声称对其拥有主权，是日俄两国主要的领土争端。",
+          "en": "An archipelago in the northwestern Pacific Ocean, under the effective control of the Soviet Union (now Russia) after World War II, but claimed by Japan, representing a major territorial dispute between the two countries."
+        }
+      }
+    },
+    {
+      "id": "彼得大帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彼得大帝"
+        ],
+        "en": [
+          "Peter the Great"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯沙皇国沙皇，俄罗斯帝国首位皇帝。他推行西化改革，并在大北方战争后建立了俄罗斯帝国。",
+          "en": "Tsar of the Tsardom of Russia and the first Emperor of the Russian Empire. He implemented westernizing reforms and founded the Russian Empire after the Great Northern War."
+        }
+      }
+    },
+    {
+      "id": "伊凡四世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊凡四世"
+        ],
+        "en": [
+          "Ivan the Terrible"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "莫斯科大公国末代大公，俄罗斯沙皇国首位沙皇。",
+          "en": "The last Grand Prince of Moscow and the first Tsar of the Tsardom of Russia."
+        }
+      }
+    },
+    {
+      "id": "基辅罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "基辅罗斯"
+        ],
+        "en": [
+          "Kievan Rus'"
+        ]
+      },
+      "properties": {
+        "period": "882 - 1240",
+        "description": {
+          "zh-cn": "中世纪东斯拉夫人的国家，被认为是现代俄罗斯、乌克兰和白俄罗斯的前身。",
+          "en": "A medieval East Slavic state, considered the predecessor to modern Russia, Ukraine, and Belarus."
+        }
+      }
+    },
+    {
+      "id": "蒙古入侵欧洲",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "蒙古入侵欧洲"
+        ],
+        "en": [
+          "Mongol invasion of Europe"
+        ]
+      },
+      "properties": {
+        "period": "13th century",
+        "description": {
+          "zh-cn": "13世纪蒙古帝国对欧洲的入侵，导致基辅罗斯分化并被征服。",
+          "en": "The 13th-century invasion of Europe by the Mongol Empire, which led to the fragmentation and conquest of Kievan Rus'."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "弗拉基米尔·普京",
+      "target": "俄罗斯联邦",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总统",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "弗拉基米尔·普京是俄罗斯联邦的现任总统，同时也是俄罗斯联邦武装力量的最高统帅。",
+          "en": "Vladimir Putin is the current President of the Russian Federation and the Supreme Commander-in-Chief of the Russian Armed Forces."
+        }
+      }
+    },
+    {
+      "source": "米哈伊尔·米舒斯京",
+      "target": "俄罗斯联邦",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总理",
+          "en": "Prime Minister"
+        },
+        "description": {
+          "zh-cn": "米哈伊尔·米舒斯京是俄罗斯联邦的现任总理。",
+          "en": "Mikhail Mishustin is the current Prime Minister of the Russian Federation."
+        }
+      }
+    },
+    {
+      "source": "苏联解体",
+      "target": "俄罗斯联邦",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1991-12-25",
+        "description": {
+          "zh-cn": "苏联解体后，身为原苏联最大的加盟共和国，俄罗斯苏维埃联邦社会主义共和国改制成为俄罗斯联邦。",
+          "en": "After the dissolution of the Soviet Union, the Russian Soviet Federative Socialist Republic, as the largest constituent republic, was reformed into the Russian Federation."
+        }
+      }
+    },
+    {
+      "source": "苏联解体",
+      "target": "苏联",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1991-12-26",
+        "description": {
+          "zh-cn": "苏联于1991年12月26日正式解体。",
+          "en": "The Soviet Union officially dissolved on December 26, 1991."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯苏维埃联邦社会主义共和国",
+      "target": "苏联",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1922-12-30",
+        "description": {
+          "zh-cn": "俄罗斯苏维埃联邦社会主义共和国是1922年成立的苏维埃社会主义共和国联盟的主体和最大的加盟共和国。",
+          "en": "The Russian Soviet Federative Socialist Republic was the core and largest constituent republic of the Union of Soviet Socialist Republics, founded in 1922."
+        }
+      }
+    },
+    {
+      "source": "二月革命",
+      "target": "俄罗斯帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1917-03-15",
+        "description": {
+          "zh-cn": "1917年的二月革命推翻了俄罗斯帝国，导致沙皇尼古拉二世退位。",
+          "en": "The February Revolution of 1917 overthrew the Russian Empire, leading to the abdication of Tsar Nicholas II."
+        }
+      }
+    },
+    {
+      "source": "2022年俄罗斯入侵乌克兰",
+      "target": "俄罗斯联邦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022",
+        "description": {
+          "zh-cn": "由于2022年起全面入侵乌克兰，俄罗斯联邦失去了其在欧洲委员会的成员地位。",
+          "en": "Due to the full-scale invasion of Ukraine starting in 2022, the Russian Federation lost its membership in the Council of Europe."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯联邦并吞克里米亚",
+      "target": "俄罗斯联邦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014",
+        "description": {
+          "zh-cn": "因2014年吞并克里米亚，俄罗斯联邦被暂停其在八大工业国组织的成员身份。",
+          "en": "Due to the annexation of Crimea in 2014, the Russian Federation's membership in the G8 was suspended."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯联邦",
+      "target": "乌克兰",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2014",
+        "description": {
+          "zh-cn": "自2014年吞并克里米亚和2022年发动全面入侵以来，俄罗斯与乌克兰处于战争状态。",
+          "en": "Russia and Ukraine have been in a state of war since the annexation of Crimea in 2014 and the full-scale invasion in 2022."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯联邦",
+      "target": "日本",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "俄罗斯与日本因南千岛群岛（日称北方四岛）的主权问题存在长期领土争端，导致两国至今未签署正式的和平协议。",
+          "en": "Russia and Japan have a long-standing territorial dispute over the sovereignty of the Southern Kuril Islands (known as the Northern Territories in Japan), which has prevented the two countries from signing a formal peace treaty."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯联邦",
+      "target": "白俄罗斯",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1997",
+        "description": {
+          "zh-cn": "俄罗斯和白俄罗斯于1997年签订《俄罗斯和白俄罗斯联盟条约》，建立了俄白联盟国，两国关系密切。",
+          "en": "Russia and Belarus signed the Treaty on the Union between Belarus and Russia in 1997, establishing the Union State and maintaining close relations."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯联邦",
+      "target": "中华人民共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1991",
+        "description": {
+          "zh-cn": "苏联解体后，俄罗斯和中国的关系继续巩固和发展。",
+          "en": "After the dissolution of the Soviet Union, relations between Russia and China continued to consolidate and develop."
+        }
+      }
+    },
+    {
+      "source": "蒙古入侵欧洲",
+      "target": "基辅罗斯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1240",
+        "description": {
+          "zh-cn": "在13世纪的蒙古入侵中，基辅罗斯被蒙古人征服，最终导致其灭亡。",
+          "en": "During the Mongol invasion in the 13th century, Kievan Rus' was conquered by the Mongols, which ultimately led to its demise."
+        }
+      }
+    },
+    {
+      "source": "彼得大帝",
+      "target": "俄罗斯帝国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1721-10-22",
+        "description": {
+          "zh-cn": "在大北方战争胜利后，彼得大帝于1721年称帝并成立俄罗斯帝国。",
+          "en": "After the victory in the Great Northern War, Peter the Great proclaimed himself Emperor and founded the Russian Empire in 1721."
+        }
+      }
+    },
+    {
+      "source": "伊凡四世",
+      "target": "俄罗斯沙皇国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1547-01-16",
+        "description": {
+          "zh-cn": "1547年，莫斯科大公伊凡四世加冕为沙皇，建立了俄罗斯沙皇国。",
+          "en": "In 1547, Grand Prince of Moscow Ivan IV was crowned Tsar, establishing the Tsardom of Russia."
+        }
+      }
+    }
+  ]
+}

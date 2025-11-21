@@ -1,0 +1,656 @@
+{
+  "nodes": [
+    {
+      "id": "西班牙内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "西班牙内战"
+        ],
+        "en": [
+          "Spanish Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1936-07-17 - 1939-04-01",
+        "location": {
+          "zh-cn": "西班牙",
+          "en": "Spain"
+        },
+        "description": {
+          "zh-cn": "在西班牙第二共和国时期发生的一场内战，由共和派对抗以弗朗西斯科·佛朗哥为核心的国民派。这场战争被认为是第二次世界大战的前奏。",
+          "en": "A civil war in Spain fought from 1936 to 1939 between the Republicans, who were loyal to the democratic, left-leaning Second Spanish Republic, and the Nationalists, a fascist-aligned falangist group led by General Francisco Franco. It is often regarded as a prelude to World War II."
+        }
+      }
+    },
+    {
+      "id": "国民军 (西班牙内战)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民军 (西班牙内战)",
+          "国民派"
+        ],
+        "en": [
+          "Nationalist faction (Spanish Civil War)"
+        ]
+      },
+      "properties": {
+        "period": "1936 - 1939",
+        "description": {
+          "zh-cn": "西班牙内战中由弗朗西斯科·佛朗哥领导的右翼军事联盟，获得纳粹德国和意大利王国的支持，并最终赢得战争。",
+          "en": "The right-wing military coalition in the Spanish Civil War, led by Francisco Franco. It was supported by Nazi Germany and the Kingdom of Italy and ultimately won the war."
+        }
+      }
+    },
+    {
+      "id": "共和派 (西班牙内战)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "共和派 (西班牙内战)",
+          "共和派"
+        ],
+        "en": [
+          "Republican faction (Spanish Civil War)"
+        ]
+      },
+      "properties": {
+        "period": "1936 - 1939",
+        "description": {
+          "zh-cn": "西班牙内战中支持西班牙第二共和国的派系，由多样化的左翼团体组成，包括人民阵线、共产党和社会主义者，获得了苏联和墨西哥的援助。",
+          "en": "The faction in the Spanish Civil War that supported the Second Spanish Republic, composed of diverse left-wing groups including the Popular Front, communists, and socialists. It received aid from the Soviet Union and Mexico."
+        }
+      }
+    },
+    {
+      "id": "弗朗西斯科·佛朗哥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗朗西斯科·佛朗哥"
+        ],
+        "en": [
+          "Francisco Franco"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西班牙国民军的总指挥，在内战胜利后成为西班牙的独裁统治者，建立了佛朗哥政权。",
+          "en": "The commander-in-chief of the Nationalist forces in the Spanish Civil War, who became the dictator of Spain after winning the war and establishing the Francoist regime."
+        }
+      }
+    },
+    {
+      "id": "纳粹德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国",
+          "德国"
+        ],
+        "en": [
+          "Nazi Germany"
+        ]
+      },
+      "properties": {
+        "period": "1933 - 1945",
+        "description": {
+          "zh-cn": "由阿道夫·希特勒领导的德国政权，是国民军在西班牙内战中的主要支持者之一。",
+          "en": "The German regime led by Adolf Hitler, one of the main supporters of the Nationalist faction in the Spanish Civil War."
+        }
+      }
+    },
+    {
+      "id": "义大利王国 (1861年－1946年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "义大利王国 (1861年－1946年)",
+          "意大利"
+        ],
+        "en": [
+          "Kingdom of Italy (1861–1946)"
+        ]
+      },
+      "properties": {
+        "period": "1861 - 1946",
+        "description": {
+          "zh-cn": "由贝尼托·墨索里尼领导的法西斯意大利政权，是国民军在西班牙内战中的主要支持者之一。",
+          "en": "The fascist Italian regime led by Benito Mussolini, one of the main supporters of the Nationalist faction in the Spanish Civil War."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "由约瑟夫·斯大林领导的共产主义国家，是共和派在西班牙内战中的主要军事援助来源。",
+          "en": "The communist state led by Joseph Stalin, which was the main source of military aid for the Republican faction in the Spanish Civil War."
+        }
+      }
+    },
+    {
+      "id": "国际纵队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际纵队"
+        ],
+        "en": [
+          "International Brigades"
+        ]
+      },
+      "properties": {
+        "period": "1936 - 1938",
+        "description": {
+          "zh-cn": "由共产国际组织，来自世界各国的志愿者组成的军事单位，为共和派作战。",
+          "en": "Military units organized by the Comintern, made up of volunteers from various countries who fought for the Republican faction."
+        }
+      }
+    },
+    {
+      "id": "西班牙第二共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西班牙第二共和国"
+        ],
+        "en": [
+          "Second Spanish Republic"
+        ]
+      },
+      "properties": {
+        "period": "1931 - 1939",
+        "description": {
+          "zh-cn": "西班牙在君主制被推翻后建立的共和制政府，在西班牙内战中被国民军击败后解体。",
+          "en": "The republican government established in Spain after the overthrow of the monarchy, which was dissolved after its defeat by the Nationalist forces in the Spanish Civil War."
+        }
+      }
+    },
+    {
+      "id": "佛朗哥时期",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "佛朗哥时期",
+          "佛朗哥政权"
+        ],
+        "en": [
+          "Francoist Spain"
+        ]
+      },
+      "properties": {
+        "period": "1939-04-01 - 1975-11-20",
+        "description": {
+          "zh-cn": "西班牙内战后由弗朗西斯科·佛朗哥建立的独裁政权。",
+          "en": "The authoritarian regime established by Francisco Franco after the Spanish Civil War."
+        }
+      }
+    },
+    {
+      "id": "格尔尼卡大轰炸",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "格尔尼卡大轰炸"
+        ],
+        "en": [
+          "Bombing of Guernica"
+        ]
+      },
+      "properties": {
+        "period": "1937-04-26",
+        "location": {
+          "zh-cn": "格尔尼卡",
+          "en": "Guernica"
+        },
+        "description": {
+          "zh-cn": "纳粹德国兀鹰军团对西班牙巴斯克地区城市格尔尼卡进行的一次地毯式轰炸，被认为是现代战争史上首次对不设防城市的大规模空袭。",
+          "en": "An aerial bombing of the Basque town of Guernica during the Spanish Civil War carried out by Nazi Germany's Condor Legion. It is considered one of the first raids in modern military history on a defenseless civilian population."
+        }
+      }
+    },
+    {
+      "id": "兀鹰军团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "兀鹰军团"
+        ],
+        "en": [
+          "Condor Legion"
+        ]
+      },
+      "properties": {
+        "period": "1936-11 - 1939-04",
+        "description": {
+          "zh-cn": "由纳粹德国空军和陆军人员组成的军事单位，被派往西班牙支持国民军。",
+          "en": "A military unit composed of personnel from the German Air Force and Army, sent to support the Nationalists in Spain."
+        }
+      }
+    },
+    {
+      "id": "希特勒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "希特勒"
+        ],
+        "en": [
+          "Adolf Hitler"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "纳粹德国的元首，决定军事介入西班牙内战以支持佛朗哥的国民军。",
+          "en": "The leader of Nazi Germany who decided to militarily intervene in the Spanish Civil War to support Franco's Nationalist forces."
+        }
+      }
+    },
+    {
+      "id": "墨索里尼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "墨索里尼"
+        ],
+        "en": [
+          "Benito Mussolini"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "意大利王国的法西斯独裁者，向佛朗哥的国民军提供了大量军事援助。",
+          "en": "The fascist dictator of the Kingdom of Italy who provided substantial military aid to Franco's Nationalist forces."
+        }
+      }
+    },
+    {
+      "id": "史达林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "史达林"
+        ],
+        "en": [
+          "Joseph Stalin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联的领导人，尽管签署了不干涉协议，但秘密向共和派提供了军事援助。",
+          "en": "The leader of the Soviet Union who, despite signing a non-intervention agreement, secretly provided military aid to the Republican faction."
+        }
+      }
+    },
+    {
+      "id": "何塞·卡尔沃·索特洛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何塞·卡尔沃·索特洛"
+        ],
+        "en": [
+          "José Calvo Sotelo"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西班牙右翼政治领袖和财政部长，他的遇刺事件成为西班牙内战爆发的导火线。",
+          "en": "A Spanish right-wing political leader and finance minister whose assassination served as a catalyst for the outbreak of the Spanish Civil War."
+        }
+      }
+    },
+    {
+      "id": "突击卫队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "突击卫队"
+        ],
+        "en": [
+          "Assault Guard"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "西班牙第二共和国时期的一支警察部队，其成员参与了对何塞·卡尔沃·索特洛的绑架和杀害。",
+          "en": "A police force during the Second Spanish Republic, whose members were involved in the kidnapping and murder of José Calvo Sotelo."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939 - 1945",
+        "description": {
+          "zh-cn": "一场全球性的军事冲突，西班牙内战被广泛认为是其前奏。",
+          "en": "A global military conflict for which the Spanish Civil War is widely considered a prelude."
+        }
+      }
+    },
+    {
+      "id": "人民阵线 (西班牙)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "人民阵线 (西班牙)"
+        ],
+        "en": [
+          "Popular Front (Spain)"
+        ]
+      },
+      "properties": {
+        "period": "1935 - 1939",
+        "description": {
+          "zh-cn": "由西班牙共产党、马克思主义统一工人党等左翼党派组成的选举联盟，在1936年选举中获胜，是共和派的核心力量。",
+          "en": "An electoral coalition formed by left-wing parties including the Communist Party of Spain and the Workers' Party of Marxist Unification, which won the 1936 elections and was a core force of the Republican faction."
+        }
+      }
+    },
+    {
+      "id": "共产国际",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "共产国际",
+          "第三国际"
+        ],
+        "en": [
+          "Comintern"
+        ]
+      },
+      "properties": {
+        "period": "1919 - 1943",
+        "description": {
+          "zh-cn": "一个国际共产主义组织，在西班牙内战期间组织了国际纵队以支持共和派。",
+          "en": "An international communist organization that organized the International Brigades to support the Republicans during the Spanish Civil War."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "欧洲主要大国之一，在西班牙内战中采取不干涉政策，对交战双方实施武器禁运，这在实际上对共和派造成了更大的损害。",
+          "en": "A major European power that adopted a policy of non-intervention during the Spanish Civil War, imposing an arms embargo on both sides, which in practice was more detrimental to the Republican faction."
+        }
+      }
+    },
+    {
+      "id": "法兰西第三共和",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第三共和",
+          "法国"
+        ],
+        "en": [
+          "French Third Republic"
+        ]
+      },
+      "properties": {
+        "period": "1870 - 1940",
+        "description": {
+          "zh-cn": "当时的法国政府，在英国的压力下，对西班牙内战采取了不干涉政策，终止了对共和派的援助。",
+          "en": "The government of France at the time which, under pressure from the United Kingdom, adopted a non-intervention policy and ceased its aid to the Republican faction."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "共和派 (西班牙内战)",
+      "target": "国民军 (西班牙内战)",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1936-07-17",
+        "end_date": "1939-04-01",
+        "description": {
+          "zh-cn": "西班牙内战是在西班牙第二共和国的共和派与弗朗西斯科·佛朗哥领导的国民派之间进行的。",
+          "en": "The Spanish Civil War was fought between the Republicans of the Second Spanish Republic and the Nationalists led by Francisco Franco."
+        }
+      }
+    },
+    {
+      "source": "弗朗西斯科·佛朗哥",
+      "target": "国民军 (西班牙内战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1936-09-21",
+        "position": {
+          "zh-cn": "总指挥",
+          "en": "Commander-in-Chief"
+        },
+        "description": {
+          "zh-cn": "弗朗西斯科·佛朗哥被选为国民军总指挥，成为该派系的最高领袖。",
+          "en": "Francisco Franco was elected as the Commander-in-Chief of the Nationalist forces, becoming the supreme leader of the faction."
+        }
+      }
+    },
+    {
+      "source": "纳粹德国",
+      "target": "国民军 (西班牙内战)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-07",
+        "description": {
+          "zh-cn": "纳粹德国向国民军提供了大量的财政与军事援助，包括派遣“兀鹰军团”直接参战。",
+          "en": "Nazi Germany provided substantial financial and military aid to the Nationalists, including dispatching the 'Condor Legion' to participate directly in the conflict."
+        }
+      }
+    },
+    {
+      "source": "义大利王国 (1861年－1946年)",
+      "target": "国民军 (西班牙内战)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-07",
+        "description": {
+          "zh-cn": "意大利向国民军提供了大量军事援助，包括派遣飞机、坦克和数万名士兵组成的“志愿军团”。",
+          "en": "Italy provided substantial military aid to the Nationalists, including aircraft, tanks, and tens of thousands of soldiers in the 'Corpo Truppe Volontarie'."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "共和派 (西班牙内战)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-10",
+        "description": {
+          "zh-cn": "苏联是共和政府主要的军事援助者，秘密提供了约806架飞机、362辆坦克和1555门大炮。",
+          "en": "The Soviet Union was the main military supporter of the Republican government, secretly providing approximately 806 aircraft, 362 tanks, and 1,555 artillery pieces."
+        }
+      }
+    },
+    {
+      "source": "国际纵队",
+      "target": "共和派 (西班牙内战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1936-11",
+        "description": {
+          "zh-cn": "国际纵队作为一支由外国志愿者组成的部队，为共和派作战，成为其倚重的主力之一。",
+          "en": "The International Brigades, as a force of foreign volunteers, fought for the Republican faction and became one of its most reliable main forces."
+        }
+      }
+    },
+    {
+      "source": "共产国际",
+      "target": "国际纵队",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1936",
+        "description": {
+          "zh-cn": "在内战爆发后，苏联共产国际组织全球50多个国家的志愿者，编为国际纵队。",
+          "en": "After the outbreak of the civil war, the Soviet Comintern organized volunteers from over 50 countries into the International Brigades."
+        }
+      }
+    },
+    {
+      "source": "国民军 (西班牙内战)",
+      "target": "西班牙第二共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1939-04-01",
+        "description": {
+          "zh-cn": "国民军在西班牙内战中获得胜利，导致西班牙第二共和国解体。",
+          "en": "The victory of the Nationalist forces in the Spanish Civil War led to the dissolution of the Second Spanish Republic."
+        }
+      }
+    },
+    {
+      "source": "国民军 (西班牙内战)",
+      "target": "佛朗哥时期",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1939-04-01",
+        "description": {
+          "zh-cn": "国民军的胜利确立了弗朗西斯科·佛朗哥的独裁统治，开启了佛朗哥时期。",
+          "en": "The victory of the Nationalists established the dictatorship of Francisco Franco, beginning the Francoist period."
+        }
+      }
+    },
+    {
+      "source": "兀鹰军团",
+      "target": "格尔尼卡大轰炸",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937-04-26",
+        "description": {
+          "zh-cn": "纳粹德国的兀鹰军团对西班牙巴斯克地区城市格尔尼卡进行了地毯式轰炸。",
+          "en": "Nazi Germany's Condor Legion carried out a carpet bombing of the Basque city of Guernica."
+        }
+      }
+    },
+    {
+      "source": "希特勒",
+      "target": "国民军 (西班牙内战)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-07-26",
+        "description": {
+          "zh-cn": "希特勒决定军事介入西班牙内战，向佛朗哥的国民军提供军事援助。",
+          "en": "Hitler decided to intervene militarily in the Spanish Civil War, providing military assistance to Franco's Nationalist forces."
+        }
+      }
+    },
+    {
+      "source": "墨索里尼",
+      "target": "国民军 (西班牙内战)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-07-24",
+        "description": {
+          "zh-cn": "墨索里尼决定介入西班牙内战，向佛朗哥的国民军提供大量军事援助。",
+          "en": "Mussolini decided to intervene in the Spanish Civil War, providing substantial military aid to Franco's Nationalist forces."
+        }
+      }
+    },
+    {
+      "source": "史达林",
+      "target": "共和派 (西班牙内战)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-10",
+        "description": {
+          "zh-cn": "斯大林领导的苏联秘密向共和派提供军事装备和顾问，成为其主要支持者。",
+          "en": "The Soviet Union under Stalin secretly supplied military equipment and advisors to the Republicans, becoming their main supporter."
+        }
+      }
+    },
+    {
+      "source": "突击卫队",
+      "target": "何塞·卡尔沃·索特洛",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-07-13",
+        "description": {
+          "zh-cn": "突击卫队成员绑架并杀害了右翼领袖何塞·卡尔沃·索特洛，此事件成为西班牙内战爆发的导火线。",
+          "en": "Members of the Assault Guard kidnapped and murdered right-wing leader José Calvo Sotelo, an event that became the catalyst for the Spanish Civil War."
+        }
+      }
+    },
+    {
+      "source": "西班牙内战",
+      "target": "第二次世界大战",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "西班牙内战被普遍认为是第二次世界大战的前奏，德、意、苏等国在此战场上测试了新的武器和战术。",
+          "en": "The Spanish Civil War is widely considered a prelude to World War II, where countries like Germany, Italy, and the Soviet Union tested new weapons and tactics."
+        }
+      }
+    },
+    {
+      "source": "人民阵线 (西班牙)",
+      "target": "共和派 (西班牙内战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "人民阵线是共和派的核心政治力量，其在1936年选举中获胜后组建了政府。",
+          "en": "The Popular Front was the core political force of the Republicans, forming the government after winning the 1936 election."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "共和派 (西班牙内战)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-08",
+        "description": {
+          "zh-cn": "英国推行不干涉政策，对交战双方实施武器禁运，阻止了共和政府从民主国家获得武器。",
+          "en": "The United Kingdom pursued a non-intervention policy and imposed an arms embargo on both sides, preventing the Republican government from obtaining weapons from democratic countries."
+        }
+      }
+    },
+    {
+      "source": "法兰西第三共和",
+      "target": "共和派 (西班牙内战)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-08",
+        "description": {
+          "zh-cn": "在英国的压力下，法国政府终止了对共和派的支援，并参与了不干涉协议。",
+          "en": "Under pressure from the UK, the French government ceased its support for the Republicans and participated in the non-intervention agreement."
+        }
+      }
+    }
+  ]
+}
