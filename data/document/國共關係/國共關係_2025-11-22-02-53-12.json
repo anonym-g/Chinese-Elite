@@ -1,0 +1,905 @@
+{
+  "nodes": [
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党",
+          "国民党"
+        ],
+        "en": [
+          "Kuomintang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的政党，由孙中山创立。在国共关系中扮演重要角色，曾与中国共产党两次合作，也进行过两次内战。",
+          "en": "A Chinese political party founded by Sun Yat-sen. It plays a significant role in KMT-CCP relations, having cooperated with the Chinese Communist Party twice and engaged in two civil wars."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Chinese Communist Party",
+          "CCP"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的政党，成立于1921年。在国共关系中扮演重要角色，曾与中国国民党两次合作，也进行过两次内战，并于1949年在中国大陆建立中华人民共和国。",
+          "en": "A Chinese political party founded in 1921. It plays a significant role in KMT-CCP relations, having cooperated with the Kuomintang twice and engaged in two civil wars, and established the People's Republic of China on the mainland in 1949."
+        }
+      }
+    },
+    {
+      "id": "孙中山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙中山"
+        ],
+        "en": [
+          "Sun Yat-sen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1866-11-12 - 1925-03-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党的创始人，推动了第一次国共合作。",
+          "en": "Founder of the Kuomintang, who promoted the First KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "在国共关系早期扮演重要角色，通过共产国际推动了第一次国共合作。",
+          "en": "Played a significant role in the early KMT-CCP relations, promoting the First KMT-CCP Cooperation through the Comintern."
+        }
+      }
+    },
+    {
+      "id": "越飞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "越飞"
+        ],
+        "en": [
+          "Adolph Joffe"
+        ]
+      },
+      "properties": {
+        "lifetime": "1883 - 1927",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联外交家，与孙中山会谈并发表《孙文越飞宣言》，促成了第一次国共合作。",
+          "en": "Soviet diplomat who held talks with Sun Yat-sen and issued the 'Sun-Joffe Manifesto', which led to the First KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "id": "孙文越飞宣言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "孙文越飞宣言",
+          "孙越联合宣言"
+        ],
+        "en": [
+          "Sun–Joffe Manifesto"
+        ]
+      },
+      "properties": {
+        "period": "1923-01",
+        "description": {
+          "zh-cn": "由孙中山和苏联代表越飞于1923年1月在上海发表的联合宣言，为第一次国共合作奠定了基础。",
+          "en": "A joint manifesto issued by Sun Yat-sen and Soviet representative Adolph Joffe in Shanghai in January 1923, which laid the foundation for the First KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "id": "第三国际",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第三国际",
+          "共产国际"
+        ],
+        "en": [
+          "Comintern"
+        ]
+      },
+      "properties": {
+        "period": "1919 - 1943",
+        "description": {
+          "zh-cn": "由苏联控制的国际共产主义组织，要求中国共产党与中国国民党进行第一次国共合作。",
+          "en": "An international communist organization controlled by the Soviet Union, which demanded that the Chinese Communist Party cooperate with the Kuomintang in the First KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "id": "第一次国共合作",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次国共合作"
+        ],
+        "en": [
+          "First United Front"
+        ]
+      },
+      "properties": {
+        "period": "1923 - 1927",
+        "description": {
+          "zh-cn": "中国国民党与中国共产党在1923年至1927年间的合作时期，旨在统一中国并反对军阀割据。",
+          "en": "The period of cooperation between the Kuomintang and the Chinese Communist Party from 1923 to 1927, aimed at unifying China and opposing warlordism."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党的主要领导人，在第一次国共合作破裂后长期领导国民党与共产党进行武装对抗。",
+          "en": "A major leader of the Kuomintang who led the party in armed conflict against the Communist Party for a long period after the breakdown of the First KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "id": "四一二事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "四一二事件",
+          "清党",
+          "中国国民党清党"
+        ],
+        "en": [
+          "Shanghai massacre of 1927"
+        ]
+      },
+      "properties": {
+        "period": "1927-04-12",
+        "description": {
+          "zh-cn": "1927年由中国国民党右派发动的针对中国共产党员的搜捕和屠杀事件，标志着第一次国共合作的彻底破裂。",
+          "en": "An event in 1927 initiated by the right-wing of the Kuomintang involving the arrest and killing of Chinese Communist Party members, marking the complete breakdown of the First KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "id": "汪精卫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪精卫",
+          "汪兆铭"
+        ],
+        "en": [
+          "Wang Jingwei"
+        ]
+      },
+      "properties": {
+        "lifetime": "1883-05-04 - 1944-11-10",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党早期领导人之一，在国共分裂时期领导武汉国民政府，后在抗日战争期间投靠日本。",
+          "en": "An early leader of the Kuomintang who led the Wuhan Nationalist Government during the KMT-CCP split, and later collaborated with Japan during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "第一次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次国共内战",
+          "剿共"
+        ],
+        "en": [
+          "First Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1927 - 1936",
+        "description": {
+          "zh-cn": "1927年至1936年间，中国国民党领导的国民政府与中国共产党领导的革命根据地之间的武装冲突。",
+          "en": "The armed conflict between the Nationalist Government led by the Kuomintang and the revolutionary base areas led by the Chinese Communist Party from 1927 to 1936."
+        }
+      }
+    },
+    {
+      "id": "南昌暴动",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南昌暴动",
+          "南昌起义"
+        ],
+        "en": [
+          "Nanchang Uprising"
+        ]
+      },
+      "properties": {
+        "period": "1927-08-01",
+        "description": {
+          "zh-cn": "中国共产党针对中国国民党发动的武装起义，被认为是中共武装反抗国民党的开始。",
+          "en": "An armed uprising launched by the Chinese Communist Party against the Kuomintang, considered the beginning of the CCP's armed resistance against the KMT."
+        }
+      }
+    },
+    {
+      "id": "西安事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "西安事变"
+        ],
+        "en": [
+          "Xi'an Incident"
+        ]
+      },
+      "properties": {
+        "period": "1936-12-12",
+        "description": {
+          "zh-cn": "由张学良和杨虎城发动的兵谏事件，迫使蒋中正停止内战，促成了第二次国共合作。",
+          "en": "A mutiny launched by Zhang Xueliang and Yang Hucheng, which forced Chiang Kai-shek to cease the civil war and led to the Second KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Chang Hsüeh-liang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-06-03 - 2001-10-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东北军将领，与杨虎城共同发动西安事变，促成国共第二次合作抗日。",
+          "en": "A general of the Northeastern Army who, along with Yang Hucheng, initiated the Xi'an Incident, which led to the second KMT-CCP cooperation to resist Japan."
+        }
+      }
+    },
+    {
+      "id": "杨虎城",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨虎城"
+        ],
+        "en": [
+          "Yang Hucheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-11-26 - 1949-09-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西北军将领，与张学良共同发动西安事变，促成国共第二次合作抗日。",
+          "en": "A general of the Northwestern Army who, along with Zhang Xueliang, initiated the Xi'an Incident, which led to the second KMT-CCP cooperation to resist Japan."
+        }
+      }
+    },
+    {
+      "id": "第二次国共合作",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次国共合作"
+        ],
+        "en": [
+          "Second United Front"
+        ]
+      },
+      "properties": {
+        "period": "1937 - 1945",
+        "description": {
+          "zh-cn": "在抗日战争期间，中国国民党与中国共产党之间的第二次合作。",
+          "en": "The second period of cooperation between the Kuomintang and the Chinese Communist Party during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "中国抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中国抗日战争"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937-07-07 - 1945-09-02",
+        "description": {
+          "zh-cn": "20世纪中期中国抵抗大日本帝国侵略的战争，是第二次国共合作的背景。",
+          "en": "A war in the mid-20th century where China resisted the invasion of the Empire of Japan, serving as the backdrop for the Second KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战",
+          "戡乱战争"
+        ],
+        "en": [
+          "Second Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1946 - 1949",
+        "description": {
+          "zh-cn": "抗日战争结束后，中国国民党与中国共产党之间爆发的全面内战，最终导致国民党政府迁往台湾。",
+          "en": "A full-scale civil war between the Kuomintang and the Chinese Communist Party after the end of the Second Sino-Japanese War, which ultimately led to the KMT government relocating to Taiwan."
+        }
+      }
+    },
+    {
+      "id": "中华民国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国政府",
+          "国民政府"
+        ],
+        "en": [
+          "Government of the Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国国民党建立的中国政府，1949年后迁往台湾。",
+          "en": "The government of China established by the Kuomintang, which relocated to Taiwan after 1949."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国政府"
+        ],
+        "en": [
+          "Government of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "由中国共产党于1949年在中国大陆建立的政府。",
+          "en": "The government established on mainland China in 1949 by the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "id": "中华民国政府迁台",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中华民国政府迁台"
+        ],
+        "en": [
+          "Retreat of the Republic of China to Taiwan"
+        ]
+      },
+      "properties": {
+        "period": "1949",
+        "description": {
+          "zh-cn": "第二次国共内战后，中国国民党领导的中华民国政府将中央政府迁移至台湾的事件。",
+          "en": "The event after the Second Chinese Civil War where the Republic of China government, led by the Kuomintang, relocated its central government to Taiwan."
+        }
+      }
+    },
+    {
+      "id": "连战",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "连战"
+        ],
+        "en": [
+          "Lien Chan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1936-08-27 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党前主席，于2005年访问中国大陆，开启了国共两党高层交流的新阶段。",
+          "en": "Former Chairman of the Kuomintang, who visited mainland China in 2005, opening a new phase of high-level exchanges between the KMT and the CCP."
+        }
+      }
+    },
+    {
+      "id": "胡锦涛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡锦涛"
+        ],
+        "en": [
+          "Hu Jintao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1942-12-21 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前中共中央总书记，于2005年与时任国民党主席连战会面，是国共两党领导人60年来的首次会谈。",
+          "en": "Former General Secretary of the CCP Central Committee, who met with then-KMT Chairman Lien Chan in 2005, marking the first talks between the leaders of the two parties in 60 years."
+        }
+      }
+    },
+    {
+      "id": "2005年中国国民党和平之旅",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2005年中国国民党和平之旅",
+          "第一次连胡会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2005-04-26 - 2005-05-03",
+        "description": {
+          "zh-cn": "2005年，时任中国国民党主席连战率团访问中国大陆，与中共中央总书记胡锦涛会面，是国共两党领导人时隔60年的首次会谈。",
+          "en": "In 2005, then-KMT Chairman Lien Chan led a delegation to mainland China and met with CCP General Secretary Hu Jintao, marking the first talks between the leaders of the two parties in 60 years."
+        }
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": [
+          "Xi Jinping"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "马英九",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马英九"
+        ],
+        "en": [
+          "Ma Ying-jeou"
+        ]
+      },
+      "properties": {
+        "lifetime": "1950-07-13 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党前主席，前中华民国总统。2015年与习近平在新加坡会面，是两岸分治66年来双方最高领导人的首次会谈。",
+          "en": "Former Chairman of the Kuomintang and former President of the Republic of China. He met with Xi Jinping in Singapore in 2015, which was the first meeting between the top leaders of both sides in the 66 years since their separation."
+        }
+      }
+    },
+    {
+      "id": "两岸领导人会面",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "两岸领导人会面",
+          "马习会"
+        ],
+        "en": [
+          "Ma–Xi meeting"
+        ]
+      },
+      "properties": {
+        "period": "2015-11-07",
+        "description": {
+          "zh-cn": "2015年11月7日，时任两岸领导人马英九与习近平在新加坡举行的会面，是1949年后两岸最高领导人的首次会晤。",
+          "en": "A meeting held on November 7, 2015, in Singapore between the then-leaders of both sides of the strait, Ma Ying-jeou and Xi Jinping. It was the first meeting between the top leaders of both sides since 1949."
+        }
+      }
+    },
+    {
+      "id": "朱立伦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱立伦"
+        ],
+        "en": [
+          "Eric Chu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1961-06-07 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党现任主席。",
+          "en": "Current Chairman of the Kuomintang."
+        }
+      }
+    },
+    {
+      "id": "朱习会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "朱习会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2015-05-04",
+        "description": {
+          "zh-cn": "2015年5月4日，时任中国国民党主席朱立伦与中共中央总书记习近平在北京的会面。",
+          "en": "A meeting on May 4, 2015, in Beijing between then-KMT Chairman Eric Chu and CCP General Secretary Xi Jinping."
+        }
+      }
+    },
+    {
+      "id": "吴伯雄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴伯雄"
+        ],
+        "en": [
+          "Wu Po-hsiung"
+        ]
+      },
+      "properties": {
+        "lifetime": "1939-06-19 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党前主席，曾多次与中共领导人会面。",
+          "en": "Former Chairman of the Kuomintang, who has met with CCP leaders on multiple occasions."
+        }
+      }
+    },
+    {
+      "id": "洪秀柱",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "洪秀柱"
+        ],
+        "en": [
+          "Hung Hsiu-chu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1948-04-07 - ",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国国民党前主席，曾与中共中央总书记习近平会面。",
+          "en": "Former Chairwoman of the Kuomintang, who has met with CCP General Secretary Xi Jinping."
+        }
+      }
+    },
+    {
+      "id": "吴敦义",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴敦义"
+        ],
+        "en": [
+          "Wu Den-yih"
+        ]
+      },
+      "properties": {
+        "lifetime": "1948-01-30 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党前主席。",
+          "en": "Former Chairman of the Kuomintang."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "孙中山",
+      "target": "越飞",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1923-01",
+        "description": {
+          "zh-cn": "孙中山与苏联代表越飞在上海会谈，随后发表《孙文越飞宣言》。",
+          "en": "Sun Yat-sen met with Soviet representative Adolph Joffe in Shanghai, and they subsequently issued the 'Sun-Joffe Manifesto'."
+        }
+      }
+    },
+    {
+      "source": "孙文越飞宣言",
+      "target": "第一次国共合作",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1923-01",
+        "description": {
+          "zh-cn": "《孙文越飞宣言》的签订，开启了联俄容共政策，为第一次国共合作奠定了基础。",
+          "en": "The signing of the 'Sun-Joffe Manifesto' initiated the policy of 'allying with Russia and tolerating Communists', laying the foundation for the First KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "source": "第三国际",
+      "target": "第一次国共合作",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在苏联控制的共产国际的要求下，中国共产党党员以个人身份加入国民党，促成了第一次国共合作。",
+          "en": "At the request of the Comintern, controlled by the Soviet Union, members of the Chinese Communist Party joined the Kuomintang as individuals, facilitating the First KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "source": "中国国民党",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1923",
+        "end_date": "1927",
+        "description": {
+          "zh-cn": "第一次国共合作期间，两党组成革命统一战线，共同进行国民革命。",
+          "en": "During the First KMT-CCP Cooperation, the two parties formed a revolutionary united front to jointly carry out the National Revolution."
+        }
+      }
+    },
+    {
+      "source": "四一二事件",
+      "target": "第一次国共合作",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1927-04-12",
+        "description": {
+          "zh-cn": "国民党发动的“清党”行动，导致国共关系破裂，第一次国共合作结束。",
+          "en": "The 'party purge' initiated by the Kuomintang led to the breakdown of KMT-CCP relations and the end of the First KMT-CCP Cooperation."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "四一二事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-04-12",
+        "description": {
+          "zh-cn": "蒋中正与国民党右派正式与中国共产党决裂，发动“清党”。",
+          "en": "Chiang Kai-shek and the right-wing of the Kuomintang officially broke with the Chinese Communist Party and launched the 'party purge'."
+        }
+      }
+    },
+    {
+      "source": "中国国民党",
+      "target": "中国共产党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1927",
+        "end_date": "1936",
+        "description": {
+          "zh-cn": "第一次国共内战期间，国民党对共产党进行武装“围剿”。",
+          "en": "During the First Chinese Civil War, the Kuomintang conducted armed 'encirclement and suppression' campaigns against the Communist Party."
+        }
+      }
+    },
+    {
+      "source": "南昌暴动",
+      "target": "第一次国共内战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-08-01",
+        "description": {
+          "zh-cn": "中国共产党举行南昌起义，打响了武装反抗国民党的第一枪，标志着第一次国共内战的开始。",
+          "en": "The Chinese Communist Party launched the Nanchang Uprising, firing the first shot of armed resistance against the Kuomintang, marking the beginning of the First Chinese Civil War."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "description": {
+          "zh-cn": "张学良与杨虎城共同发动西安事变，对蒋中正实行“兵谏”。",
+          "en": "Zhang Xueliang and Yang Hucheng jointly launched the Xi'an Incident, carrying out a 'remonstrance by force' against Chiang Kai-shek."
+        }
+      }
+    },
+    {
+      "source": "杨虎城",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "description": {
+          "zh-cn": "杨虎城与张学良共同发动西安事变，对蒋中正实行“兵谏”。",
+          "en": "Yang Hucheng and Zhang Xueliang jointly launched the Xi'an Incident, carrying out a 'remonstrance by force' against Chiang Kai-shek."
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "第二次国共合作",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12",
+        "description": {
+          "zh-cn": "西安事变迫使国民政府放弃“攘外必先安内”的政策，促成了国共两党第二次合作，共同抗日。",
+          "en": "The Xi'an Incident forced the Nationalist Government to abandon its policy of 'internal pacification before external resistance' and led to the second cooperation between the KMT and the CCP to jointly resist Japan."
+        }
+      }
+    },
+    {
+      "source": "中国抗日战争",
+      "target": "第二次国共合作",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937",
+        "description": {
+          "zh-cn": "日本的全面侵华为第二次国共合作提供了直接背景和动力，两党建立抗日民族统一战线。",
+          "en": "Japan's full-scale invasion of China provided the direct context and impetus for the Second KMT-CCP Cooperation, leading the two parties to establish a national united front against Japan."
+        }
+      }
+    },
+    {
+      "source": "中国国民党",
+      "target": "中国共产党",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1937",
+        "end_date": "1945",
+        "description": {
+          "zh-cn": "第二次国共合作期间，两党在名义上联合抗日。",
+          "en": "During the Second KMT-CCP Cooperation, the two parties nominally united to resist Japan."
+        }
+      }
+    },
+    {
+      "source": "中国国民党",
+      "target": "中国共产党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1946",
+        "end_date": "1949",
+        "description": {
+          "zh-cn": "第二次国共内战期间，两党为争夺国家统治权展开全面战争。",
+          "en": "During the Second Chinese Civil War, the two parties engaged in a full-scale war for control of the country."
+        }
+      }
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "中华民国政府迁台",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949",
+        "description": {
+          "zh-cn": "中国共产党在第二次国共内战中取得胜利，导致中国国民党领导的中华民国政府迁往台湾。",
+          "en": "The Chinese Communist Party's victory in the Second Chinese Civil War led to the relocation of the Republic of China government, led by the Kuomintang, to Taiwan."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "中华人民共和国政府",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1949-10-01",
+        "description": {
+          "zh-cn": "中国共产党在中国大陆建立了中华人民共和国政府。",
+          "en": "The Chinese Communist Party established the Government of the People's Republic of China in mainland China."
+        }
+      }
+    },
+    {
+      "source": "连战",
+      "target": "2005年中国国民党和平之旅",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2005-04-26",
+        "description": {
+          "zh-cn": "时任中国国民党主席连战率领代表团访问大陆，开启“和平之旅”。",
+          "en": "Then-KMT Chairman Lien Chan led a delegation to visit the mainland, initiating the 'Journey of Peace'."
+        }
+      }
+    },
+    {
+      "source": "连战",
+      "target": "胡锦涛",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2005-04-29",
+        "description": {
+          "zh-cn": "时任国民党主席连战与中共中央总书记胡锦涛在北京会面，是60年来国共两党领导人首次会谈。",
+          "en": "Then-KMT Chairman Lien Chan met with CCP General Secretary Hu Jintao in Beijing, marking the first talks between the leaders of the two parties in 60 years."
+        }
+      }
+    },
+    {
+      "source": "马英九",
+      "target": "习近平",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2015-11-07",
+        "description": {
+          "zh-cn": "时任台湾领导人马英九与大陆领导人习近平在新加坡会面，是两岸分治66年来两岸最高领导人的首次会谈，史称“马习会”。",
+          "en": "Then-Taiwan leader Ma Ying-jeou met with mainland leader Xi Jinping in Singapore, marking the first meeting between the top leaders of both sides in the 66 years since their separation, known as the 'Ma-Xi meeting'."
+        }
+      }
+    },
+    {
+      "source": "朱立伦",
+      "target": "习近平",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2015-05-04",
+        "description": {
+          "zh-cn": "时任国民党主席朱立伦与中共中央总书记习近平在北京会面，史称“朱习会”。",
+          "en": "Then-KMT Chairman Eric Chu met with CCP General Secretary Xi Jinping in Beijing, known as the 'Chu-Xi meeting'."
+        }
+      }
+    },
+    {
+      "source": "洪秀柱",
+      "target": "习近平",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2016-11-02",
+        "description": {
+          "zh-cn": "时任国民党主席洪秀柱与中共中央总书记习近平会面。",
+          "en": "Then-KMT Chairwoman Hung Hsiu-chu met with CCP General Secretary Xi Jinping."
+        }
+      }
+    }
+  ]
+}

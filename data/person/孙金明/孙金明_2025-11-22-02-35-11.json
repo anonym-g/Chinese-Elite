@@ -1,0 +1,356 @@
+{
+  "nodes": [
+    {
+      "id": "孙金明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙金明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1965-03 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "泰州",
+          "en": "Taizhou"
+        },
+        "description": {
+          "zh-cn": "中国人民解放军火箭军中将，曾任火箭军参谋长，后因严重违纪违法被开除中国共产党党籍。",
+          "en": "A lieutenant general of the People's Liberation Army Rocket Force, formerly served as the Chief of Staff of the Rocket Force, and was later expelled from the Communist Party of China for serious violations of discipline and law."
+        }
+      }
+    },
+    {
+      "id": "泰州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "泰州"
+        ],
+        "en": [
+          "Taizhou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国江苏省下辖的地级市，孙金明的出生地。",
+          "en": "A prefecture-level city in Jiangsu Province, China, and the birthplace of Sun Jinming."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军火箭军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军火箭军",
+          "火箭军",
+          "第二炮兵"
+        ],
+        "en": [
+          "People's Liberation Army Rocket Force"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的战略导弹部队，前身为中国人民解放军第二炮兵部队。",
+          "en": "The strategic missile force of the People's Liberation Army, formerly known as the PLA Second Artillery Force."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军火箭军第六十九基地",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军火箭军第六十九基地",
+          "第二炮兵合同战术训练基地",
+          "火箭军69基地"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军火箭军下属的基地单位。",
+          "en": "A base unit subordinate to the PLA Rocket Force."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军火箭军第六十一基地",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军火箭军第六十一基地",
+          "第二炮兵52基地"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军火箭军下属的基地单位。",
+          "en": "A base unit subordinate to the PLA Rocket Force."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军火箭军第六十四基地",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军火箭军第六十四基地",
+          "火箭军64基地"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军火箭军下属的基地单位。",
+          "en": "A base unit subordinate to the PLA Rocket Force."
+        }
+      }
+    },
+    {
+      "id": "少将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "少将"
+        ],
+        "en": [
+          "Major general"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的军衔等级之一。",
+          "en": "A military rank in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军中将",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军中将",
+          "中国人民解放军火箭军中将",
+          "中将"
+        ],
+        "en": [
+          "Lieutenant general (China)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的军衔等级之一，位于上将之下、少将之上。",
+          "en": "A military rank in the People's Liberation Army, ranking below general and above major general."
+        }
+      }
+    },
+    {
+      "id": "李玉超",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李玉超"
+        ],
+        "en": [
+          "Li Yuchao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国人民解放军上将，孙金明的前任中国人民解放军火箭军参谋长。",
+          "en": "A general of the People's Liberation Army, and Sun Jinming's predecessor as Chief of Staff of the PLA Rocket Force."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "孙金明",
+      "target": "泰州",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "孙金明",
+      "target": "中国人民解放军火箭军第六十九基地",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2015",
+        "position": {
+          "zh-cn": "副司令员",
+          "en": "Deputy Commander"
+        },
+        "description": {
+          "zh-cn": "孙金明曾任第二炮兵合同战术训练基地（即火箭军69基地）副司令员。",
+          "en": "Sun Jinming served as Deputy Commander of the Second Artillery Corps Tactical Training Base (now Rocket Force Base 69)."
+        }
+      }
+    },
+    {
+      "source": "孙金明",
+      "target": "中国人民解放军火箭军第六十一基地",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015",
+        "end_date": "2017",
+        "position": {
+          "zh-cn": "副司令员",
+          "en": "Deputy Commander"
+        },
+        "description": {
+          "zh-cn": "2015年，孙金明任第二炮兵52基地（即火箭军61基地）副司令员。",
+          "en": "In 2015, Sun Jinming was appointed Deputy Commander of the Second Artillery Corps Base 52 (now Rocket Force Base 61)."
+        }
+      }
+    },
+    {
+      "source": "孙金明",
+      "target": "少将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-08",
+        "end_date": "2022-03",
+        "position": {
+          "zh-cn": "少将",
+          "en": "Major general"
+        },
+        "description": {
+          "zh-cn": "孙金明于2016年8月晋升为少将军衔。",
+          "en": "Sun Jinming was promoted to the rank of major general in August 2016."
+        }
+      }
+    },
+    {
+      "source": "孙金明",
+      "target": "中国人民解放军火箭军第六十九基地",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017",
+        "end_date": "2018",
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "2017年，孙金明任火箭军69基地司令员。",
+          "en": "In 2017, Sun Jinming became the Commander of Rocket Force Base 69."
+        }
+      }
+    },
+    {
+      "source": "孙金明",
+      "target": "中国人民解放军火箭军第六十四基地",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "end_date": "2022-03",
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "2018年，孙金明任火箭军64基地司令员。",
+          "en": "In 2018, Sun Jinming became the Commander of Rocket Force Base 64."
+        }
+      }
+    },
+    {
+      "source": "孙金明",
+      "target": "中国人民解放军火箭军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-03",
+        "position": {
+          "zh-cn": "参谋长",
+          "en": "Chief of Staff"
+        },
+        "description": {
+          "zh-cn": "2022年3月，孙金明升任火箭军参谋长。",
+          "en": "In March 2022, Sun Jinming was promoted to Chief of Staff of the Rocket Force."
+        }
+      }
+    },
+    {
+      "source": "孙金明",
+      "target": "中国人民解放军中将",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-03",
+        "position": {
+          "zh-cn": "中将",
+          "en": "Lieutenant general"
+        },
+        "description": {
+          "zh-cn": "孙金明于2022年3月晋升为中将军衔。",
+          "en": "Sun Jinming was promoted to the rank of lieutenant general in March 2022."
+        }
+      }
+    },
+    {
+      "source": "孙金明",
+      "target": "李玉超",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-03",
+        "description": {
+          "zh-cn": "孙金明接替李玉超担任中国人民解放军火箭军参谋长职务。",
+          "en": "Sun Jinming succeeded Li Yuchao as the Chief of Staff of the PLA Rocket Force."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "孙金明",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2024-07",
+        "description": {
+          "zh-cn": "因严重违纪违法，孙金明被开除中国共产党党籍。",
+          "en": "Sun Jinming was expelled from the Communist Party of China for serious violations of discipline and law."
+        }
+      }
+    },
+    {
+      "source": "孙金明",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2024-07",
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "孙金明曾为中国共产党党员，于2024年7月被开除党籍。",
+          "en": "Sun Jinming was a member of the Communist Party of China and was expelled in July 2024."
+        }
+      }
+    }
+  ]
+}

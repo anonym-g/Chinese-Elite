@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "山东省地震局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省地震局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1979-12 - ",
+        "location": {
+          "zh-cn": "山东省",
+          "en": "Shandong Province"
+        },
+        "description": {
+          "zh-cn": "中国地震局和山东省人民政府双重领导，以中国地震局为主的事业单位，承担山东省行政区域内防震减灾工作政府行政管理职能。",
+          "en": "A public institution under the dual leadership of the China Earthquake Administration and the Shandong Provincial People's Government, with the former taking the primary role. It undertakes the governmental and administrative functions of earthquake prevention and disaster reduction within the administrative region of Shandong Province."
+        }
+      }
+    },
+    {
+      "id": "中国地震局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国地震局"
+        ],
+        "en": [
+          "China Earthquake Administration"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院直属事业单位，是全国防震减灾工作的主管部门。",
+          "en": "An institution directly under the State Council of the People's Republic of China, and the competent authority for earthquake prevention and disaster reduction nationwide."
+        }
+      }
+    },
+    {
+      "id": "山东省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省人民政府"
+        ],
+        "en": [
+          "Shandong Provincial People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国山东省的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of Shandong Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "姜金卫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "姜金卫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "山东省地震局局长。",
+          "en": "Director of the Shandong Earthquake Administration."
+        }
+      }
+    },
+    {
+      "id": "李远志",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李远志"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "山东省地震局副局长。",
+          "en": "Deputy Director of the Shandong Earthquake Administration."
+        }
+      }
+    },
+    {
+      "id": "刘希强",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘希强"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "山东省地震局副局长。",
+          "en": "Deputy Director of the Shandong Earthquake Administration."
+        }
+      }
+    },
+    {
+      "id": "1969年渤海地震",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1969年渤海地震",
+          "渤海发生7.4级地震"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1969-07-18 - 1969-07-18",
+        "description": {
+          "zh-cn": "1969年7月18日在渤海发生的7.4级地震，该事件直接推动了山东省地震工作机构的建立。",
+          "en": "A 7.4 magnitude earthquake that occurred in the Bohai Sea on July 18, 1969. This event directly led to the establishment of earthquake-related work organizations in Shandong Province."
+        }
+      }
+    },
+    {
+      "id": "中央地震工作领导小组",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央地震工作领导小组"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "为应对地震灾害而设立的中央级别领导机构。",
+          "en": "A central-level leading group established to respond to earthquake disasters."
+        }
+      }
+    },
+    {
+      "id": "山东省革命委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省革命委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1967-02-03 - 1979-12",
+        "description": {
+          "zh-cn": "文化大革命期间山东省的权力机构，是山东省人民政府的前身。",
+          "en": "The organ of power in Shandong Province during the Cultural Revolution, and the predecessor to the Shandong Provincial People's Government."
+        }
+      }
+    },
+    {
+      "id": "山东省革命委员会地震局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省革命委员会地震局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1975-05-05 - 1979-12",
+        "description": {
+          "zh-cn": "山东省地震局的前身，于1975年5月正式建立。",
+          "en": "The predecessor of the Shandong Earthquake Administration, formally established in May 1975."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "山东省地震局",
+      "target": "中国地震局",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "山东省地震局是在中国地震局和山东省人民政府双重领导下，以中国地震局为主的事业单位。",
+          "en": "The Shandong Earthquake Administration is a public institution under the dual leadership of the China Earthquake Administration and the Shandong Provincial People's Government, with the China Earthquake Administration taking the primary role."
+        }
+      }
+    },
+    {
+      "source": "山东省地震局",
+      "target": "山东省人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "山东省地震局是在中国地震局和山东省人民政府双重领导下的事业单位。",
+          "en": "The Shandong Earthquake Administration is a public institution under the dual leadership of the China Earthquake Administration and the Shandong Provincial People's Government."
+        }
+      }
+    },
+    {
+      "source": "姜金卫",
+      "target": "山东省地震局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "局长",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "李远志",
+      "target": "山东省地震局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副局长",
+          "en": "Deputy Director"
+        }
+      }
+    },
+    {
+      "source": "刘希强",
+      "target": "山东省地震局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副局长",
+          "en": "Deputy Director"
+        }
+      }
+    },
+    {
+      "source": "1969年渤海地震",
+      "target": "山东省革命委员会地震局",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1969-07-18",
+        "description": {
+          "zh-cn": "1969年渤海地震的发生促使山东省建立了一系列地震工作机构，并最终于1975年正式成立了山东省革命委员会地震局。",
+          "en": "The occurrence of the 1969 Bohai earthquake prompted Shandong Province to establish a series of earthquake-related work organizations, culminating in the formal establishment of the Shandong Provincial Revolutionary Committee Earthquake Bureau in 1975."
+        }
+      }
+    },
+    {
+      "source": "中央地震工作领导小组",
+      "target": "山东省革命委员会地震局",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1969-08-18",
+        "description": {
+          "zh-cn": "1969年渤海地震后，中央地震工作领导小组在潍坊建立了山东地震工作中心站，是山东省革命委员会地震局的前身机构之一，推动了其最终建立。",
+          "en": "After the 1969 Bohai earthquake, the Central Earthquake Work Leading Group established the Shandong Earthquake Work Center Station in Weifang, which was one of the predecessor organizations of the Shandong Provincial Revolutionary Committee Earthquake Bureau and pushed for its eventual establishment."
+        }
+      }
+    },
+    {
+      "source": "山东省革命委员会",
+      "target": "山东省革命委员会地震局",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1975-05-05",
+        "description": {
+          "zh-cn": "山东省革命委员会于1975年5月5日正式建立山东省革命委员会地震局。",
+          "en": "The Shandong Provincial Revolutionary Committee formally established the Shandong Provincial Revolutionary Committee Earthquake Bureau on May 5, 1975."
+        }
+      }
+    },
+    {
+      "source": "山东省革命委员会地震局",
+      "target": "山东省地震局",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1979-12",
+        "description": {
+          "zh-cn": "1979年12月，山东省革命委员会地震局更名为山东省地震局。",
+          "en": "In December 1979, the Shandong Provincial Revolutionary Committee Earthquake Bureau was renamed the Shandong Earthquake Administration."
+        }
+      }
+    }
+  ]
+}

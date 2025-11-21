@@ -1,0 +1,290 @@
+{
+  "nodes": [
+    {
+      "id": "黄树槐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄树槐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1930 - 2007-10-11",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "湖南省宁远县",
+          "en": ""
+        },
+        "death_place": {
+          "zh-cn": "武汉市",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国机械学家、教育家、材料加工专家，曾任华中工学院院长及华中理工大学校长。",
+          "en": "A Chinese mechanical scientist, educator, and expert in material processing. He served as the President of Huazhong Institute of Technology and Huazhong University of Science and Technology."
+        }
+      }
+    },
+    {
+      "id": "宁远县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "宁远县",
+          "宁远"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "黄树槐的出生地。",
+          "en": "The birthplace of Huang Shuhuai."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "武汉大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "武汉大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一所综合性大学，黄树槐的母校。",
+          "en": "A comprehensive university in China, the alma mater of Huang Shuhuai."
+        }
+      }
+    },
+    {
+      "id": "华中工学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华中工学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "华中科技大学的前身之一，黄树槐曾在此任教并担任院长。",
+          "en": "One of the predecessors of Huazhong University of Science and Technology, where Huang Shuhuai taught and served as president."
+        }
+      }
+    },
+    {
+      "id": "华中理工大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华中理工大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "华中科技大学的前身之一，由华中工学院更名而来，黄树槐曾担任其校长。",
+          "en": "One of the predecessors of Huazhong University of Science and Technology, renamed from Huazhong Institute of Technology. Huang Shuhuai served as its president."
+        }
+      }
+    },
+    {
+      "id": "武汉市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "武汉市",
+          "武汉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "黄树槐的逝世地。",
+          "en": "The place of death of Huang Shuhuai."
+        }
+      }
+    },
+    {
+      "id": "华中科技大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华中科技大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一所综合性研究型大学，由华中理工大学等校合并而成。",
+          "en": "A comprehensive research university in China, formed by the merger of Huazhong University of Science and Technology and other institutions."
+        }
+      }
+    },
+    {
+      "id": "国务院学位委员会第二届学科评议组",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院学位委员会第二届学科评议组"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院学位委员会的第二届学科评议组。",
+          "en": "The second subject appraisal group of the Academic Degrees Committee of the State Council of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "黄树槐",
+      "target": "宁远县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1930",
+        "description": {
+          "zh-cn": "黄树槐是湖南宁远人。",
+          "en": "Huang Shuhuai was a native of Ningyuan, Hunan."
+        }
+      }
+    },
+    {
+      "source": "黄树槐",
+      "target": "武汉大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1952",
+        "degree": {
+          "zh-cn": "学士",
+          "en": "Bachelor"
+        },
+        "description": {
+          "zh-cn": "1952年毕业于武汉大学机械系。",
+          "en": "Graduated from the Department of Mechanical Engineering of Wuhan University in 1952."
+        }
+      }
+    },
+    {
+      "source": "黄树槐",
+      "target": "华中工学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1952",
+        "position": {
+          "zh-cn": "讲师、教授、机械工程一系主任、教务处处长",
+          "en": "Lecturer, Professor, Head of the First Department of Mechanical Engineering, Director of the Academic Affairs Office"
+        },
+        "description": {
+          "zh-cn": "自1952年起，历任华中工学院讲师、教授、机械工程一系主任、教务处处长。",
+          "en": "Since 1952, he successively served as Lecturer, Professor, Head of the First Department of Mechanical Engineering, and Director of the Academic Affairs Office at Huazhong Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "黄树槐",
+      "target": "华中工学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1984-12",
+        "end_date": "1993-01",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "1984年12月至1993年1月，任华中工学院院长。",
+          "en": "From December 1984 to January 1993, he served as the President of Huazhong Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "黄树槐",
+      "target": "华中理工大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1984-12",
+        "end_date": "1993-01",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "1984年12月至1993年1月，任华中理工大学校长。华中工学院在其任内更名为华中理工大学。",
+          "en": "From December 1984 to January 1993, he served as the President of Huazhong University of Science and Technology. Huazhong Institute of Technology was renamed Huazhong University of Science and Technology during his tenure."
+        }
+      }
+    },
+    {
+      "source": "黄树槐",
+      "target": "华中理工大学",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1984-12",
+        "end_date": "1993-01",
+        "description": {
+          "zh-cn": "在黄树槐的校长任期内，他主导了学校由单纯工科院校向文、理、工、管综合性大学的转变。",
+          "en": "During his presidency, Huang Shuhuai led the university's transformation from a purely engineering-focused institution to a comprehensive university with disciplines in liberal arts, science, engineering, and management."
+        }
+      }
+    },
+    {
+      "source": "黄树槐",
+      "target": "国务院学位委员会第二届学科评议组",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "成员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，黄树槐是国务院学位委员会第二届学科评议组成员。",
+          "en": "According to the page category information, Huang Shuhuai was a member of the Second Subject Appraisal Group of the Academic Degrees Committee of the State Council."
+        }
+      }
+    },
+    {
+      "source": "黄树槐",
+      "target": "华中科技大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据页面分类信息，黄树槐是华中科技大学校友。",
+          "en": "According to the page category information, Huang Shuhuai is an alumnus of Huazhong University of Science and Technology."
+        }
+      }
+    },
+    {
+      "source": "黄树槐",
+      "target": "华中科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，黄树槐是华中科技大学校长。",
+          "en": "According to the page category information, Huang Shuhuai was the president of Huazhong University of Science and Technology."
+        }
+      }
+    }
+  ]
+}
