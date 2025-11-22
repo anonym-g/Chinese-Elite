@@ -1,0 +1,904 @@
+{
+  "nodes": [
+    {
+      "id": "禅宗",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "禅宗",
+          "禅",
+          "达摩宗",
+          "佛心宗"
+        ],
+        "en": [
+          "Zen"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教流传于东亚的一支佛教宗派，由菩提达摩传至中国。其要旨为“教外别传，不立文字；直指人心，见性成佛”。在中国佛教各宗派中流传时间最长，影响甚广。",
+          "en": "A school of Mahāyāna Buddhism that originated in China and subsequently spread throughout East Asia. It was transmitted to China by Bodhidharma. Its central tenet is 'a special transmission outside the scriptures, not founded upon words and letters; by pointing directly to one's mind, it lets one see into one's true nature and attain Buddhahood.' It has the longest history of transmission among Chinese Buddhist schools and has had a profound influence."
+        }
+      }
+    },
+    {
+      "id": "菩提达摩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "菩提达摩",
+          "达磨"
+        ],
+        "en": [
+          "Bodhidharma"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "印度佛教僧侣，被尊为中国禅宗的初祖。他将禅宗传入中国，并以《楞伽经》教授弟子。",
+          "en": "An Indian Buddhist monk, revered as the first patriarch of Zen in China. He brought Zen to China and taught his disciples based on the Laṅkāvatāra Sūtra."
+        }
+      }
+    },
+    {
+      "id": "慧可",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慧可"
+        ],
+        "en": [
+          "Huike"
+        ]
+      },
+      "properties": {
+        "lifetime": "0487 - 0593",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国禅宗二祖，菩提达摩的弟子。",
+          "en": "The second patriarch of Zen in China, a disciple of Bodhidharma."
+        }
+      }
+    },
+    {
+      "id": "僧璨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "僧璨"
+        ],
+        "en": [
+          "Sengcan"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 0606",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国禅宗三祖，慧可的弟子。",
+          "en": "The third patriarch of Zen in China, a disciple of Huike."
+        }
+      }
+    },
+    {
+      "id": "道信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "道信"
+        ],
+        "en": [
+          "Daoxin"
+        ]
+      },
+      "properties": {
+        "lifetime": "0580 - 0651",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国禅宗四祖，僧璨的弟子。他开始以佛寺为中心传法，使禅宗大振。",
+          "en": "The fourth patriarch of Zen in China, a disciple of Sengcan. He began to teach Zen centered around monasteries, which greatly popularized the school."
+        }
+      }
+    },
+    {
+      "id": "弘忍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弘忍"
+        ],
+        "en": [
+          "Hongren"
+        ]
+      },
+      "properties": {
+        "lifetime": "0602 - 0675",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国禅宗五祖，道信的弟子，东山法门的开创者。",
+          "en": "The fifth patriarch of Zen in China, a disciple of Daoxin, and the founder of the East Mountain Teaching."
+        }
+      }
+    },
+    {
+      "id": "惠能",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "惠能"
+        ],
+        "en": [
+          "Huineng"
+        ]
+      },
+      "properties": {
+        "lifetime": "0638 - 0713",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国禅宗六祖，弘忍的弟子。他主张“顿悟”，被尊为南宗的始祖。其思想记录在《六祖坛经》中。",
+          "en": "The sixth patriarch of Zen in China, a disciple of Hongren. He advocated for 'sudden enlightenment' and is revered as the founder of the Southern School. His teachings are recorded in the Platform Sutra."
+        }
+      }
+    },
+    {
+      "id": "神秀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "神秀",
+          "大通禅师"
+        ],
+        "en": [
+          "Shenxiu"
+        ]
+      },
+      "properties": {
+        "lifetime": "0606 - 0706",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国禅宗北宗的始祖，弘忍的弟子。他主张“渐悟”，与惠能的南宗并称“南能北秀”。",
+          "en": "The founder of the Northern School of Zen in China, a disciple of Hongren. He advocated for 'gradual enlightenment' and his school, along with Huineng's Southern School, was known as 'Huineng of the South, Shenxiu of the North'."
+        }
+      }
+    },
+    {
+      "id": "牛头法融",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "牛头法融"
+        ],
+        "en": [
+          "Niutou Farong"
+        ]
+      },
+      "properties": {
+        "lifetime": "0594 - 0657",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "牛头宗的创始人。传统上认为他是禅宗四祖道信的弟子，但此说法存疑。",
+          "en": "Founder of the Niutou school. Traditionally considered a disciple of the fourth Zen patriarch Daoxin, but this claim is disputed."
+        }
+      }
+    },
+    {
+      "id": "牛头宗",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "牛头宗"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由牛头法融开创的禅宗分支，重视中观之学，在中国南方独立发展，后与禅宗主流融合。",
+          "en": "A branch of Zen founded by Niutou Farong, which emphasized Madhyamaka philosophy. It developed independently in southern China before merging with the Zen mainstream."
+        }
+      }
+    },
+    {
+      "id": "南宗 (禅宗)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南宗 (禅宗)",
+          "南宗"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由六祖惠能开创的禅宗流派，主张顿悟，后发展为五宗七派，成为禅宗正统。",
+          "en": "The school of Zen founded by the Sixth Patriarch Huineng, which advocated for sudden enlightenment. It later developed into the 'Five Houses and Seven Schools' and became the orthodox lineage of Zen."
+        }
+      }
+    },
+    {
+      "id": "北宗 (禅宗)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北宗 (禅宗)",
+          "北宗"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由神秀开创的禅宗流派，主张渐悟。在唐朝初期盛极一时，后因神会的辩论而衰落。",
+          "en": "The school of Zen founded by Shenxiu, which advocated for gradual enlightenment. It flourished in the early Tang Dynasty but declined after the debates initiated by Shenhui."
+        }
+      }
+    },
+    {
+      "id": "菏泽神会",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "菏泽神会",
+          "神会"
+        ],
+        "en": [
+          "Heze Shenhui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "惠能的弟子，在洛阳的明定南北总是非大会上辩倒北宗，确立了南宗的正统地位。",
+          "en": "A disciple of Huineng who defeated the Northern School in a debate at the Great Dharma Assembly in Luoyang, establishing the orthodoxy of the Southern School."
+        }
+      }
+    },
+    {
+      "id": "中国",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中国"
+        ],
+        "en": [
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "禅宗的主要发展和传播地区。",
+          "en": "The primary region for the development and spread of Zen Buddhism."
+        }
+      }
+    },
+    {
+      "id": "少林寺",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "少林寺"
+        ],
+        "en": [
+          "Shaolin Temple"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "河南嵩山"
+        },
+        "description": {
+          "zh-cn": "中国禅宗的祖庭。传说菩提达摩在此面壁九年。",
+          "en": "The ancestral monastery of Zen in China. According to legend, Bodhidharma meditated here facing a wall for nine years."
+        }
+      }
+    },
+    {
+      "id": "梁武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁武帝"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南朝梁的开国皇帝，信奉佛教。曾与菩提达摩会面，但两人话不投机。",
+          "en": "The founding emperor of the Liang Dynasty in Southern China, a devout Buddhist. He met with Bodhidharma, but their conversation was not fruitful."
+        }
+      }
+    },
+    {
+      "id": "楞伽经",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "楞伽经",
+          "楞伽阿跋多罗宝经"
+        ],
+        "en": [
+          "Laṅkāvatāra Sūtra"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教经典，早期禅宗（楞伽宗）的核心教典，由菩提达摩传授。",
+          "en": "A Mahāyāna Buddhist sūtra that was the core scripture for early Zen (the Laṅkā school), transmitted by Bodhidharma."
+        }
+      }
+    },
+    {
+      "id": "金刚经",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "金刚经",
+          "金刚般若波罗蜜经"
+        ],
+        "en": [
+          "Diamond Sutra"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教般若部重要经典。自禅宗五祖弘忍起，此经成为禅宗传法的核心。",
+          "en": "An important Mahāyāna Buddhist sūtra from the Prajñāpāramitā literature. From the fifth Zen patriarch Hongren onwards, this sutra became central to the transmission of Zen."
+        }
+      }
+    },
+    {
+      "id": "临济宗",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "临济宗"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "禅宗五家之一，由临济义玄创立。以机锋峻烈、棒喝齐施的宗风著称。",
+          "en": "One of the Five Houses of Zen, founded by Linji Yixuan. It is known for its harsh and abrupt teaching methods, including shouts and blows."
+        }
+      }
+    },
+    {
+      "id": "曹洞宗",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "曹洞宗"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "禅宗五家之一，由洞山良价及其弟子曹山本寂创立。以“默照禅”为主要修行方法。",
+          "en": "One of the Five Houses of Zen, founded by Dongshan Liangjie and his disciple Caoshan Benji. Its primary practice method is 'silent illumination meditation'."
+        }
+      }
+    },
+    {
+      "id": "大慧宗杲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "大慧宗杲"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南宋临济宗杨岐派僧人，大力提倡“话头禅”，并批评曹洞宗的“默照禅”。",
+          "en": "A monk of the Yangqi branch of the Linji school during the Southern Song Dynasty. He strongly advocated for 'kōan-introspecting Zen' (huatou chan) and criticized the Caodong school's 'silent illumination Zen'."
+        }
+      }
+    },
+    {
+      "id": "宏智正觉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宏智正觉"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南宋曹洞宗僧人，提倡以静坐为主的“默照禅”。",
+          "en": "A monk of the Caodong school during the Southern Song Dynasty who advocated for 'silent illumination Zen' (mozhao chan), which emphasizes seated meditation."
+        }
+      }
+    },
+    {
+      "id": "话头禅",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "话头禅",
+          "看话禅"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由大慧宗杲提倡的禅修方法，要求修行者参究一个“话头”（如“无”字公案），以产生疑情并最终破疑开悟。",
+          "en": "A method of Zen meditation advocated by Dahui Zonggao, which requires practitioners to investigate a 'huatou' (the critical phrase of a kōan, such as the 'mu' kōan) to generate great doubt and ultimately achieve enlightenment by breaking through it."
+        }
+      }
+    },
+    {
+      "id": "默照禅",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "默照禅"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由宏智正觉提倡的曹洞宗禅修方法，强调静坐中保持内心的静默与觉照。",
+          "en": "A method of Caodong Zen meditation advocated by Hongzhi Zhengjue, emphasizing the maintenance of inner silence and clear awareness during seated meditation."
+        }
+      }
+    },
+    {
+      "id": "顿渐之争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "顿渐之争"
+        ]
+      },
+      "properties": {
+        "period": "8世纪后期",
+        "location": {
+          "zh-cn": "西藏"
+        },
+        "description": {
+          "zh-cn": "8世纪后期在西藏举行的一场关于成佛之道的辩论，辩论双方为代表汉传禅宗顿悟法门的摩诃衍和代表印度中观学派渐修法门的莲花戒。最终摩诃衍被判为败方并被驱逐出藏。",
+          "en": "A debate on the path to Buddhahood held in Tibet in the late 8th century. The two main participants were Moheyan, representing the Chinese Zen teaching of sudden enlightenment, and Kamalaśīla, representing the Indian Madhyamaka school's teaching of gradual cultivation. Moheyan was ultimately declared the loser and expelled from Tibet."
+        }
+      }
+    },
+    {
+      "id": "摩诃衍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "摩诃衍",
+          "大乘禅师",
+          "大乘和尚"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝禅师，北宗神秀门下普寂的传人。曾到西藏传扬禅宗顿悟法门，后在“顿渐之争”中被判为败方。",
+          "en": "A Tang dynasty Chan master, a successor in the lineage of Puji of Shenxiu's Northern School. He traveled to Tibet to spread the Zen teaching of sudden enlightenment but was defeated in the 'Samye Debate'."
+        }
+      }
+    },
+    {
+      "id": "莲花戒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "莲花戒"
+        ],
+        "en": [
+          "Kamalaśīla"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "印度佛教僧人，中观学派学者。在西藏的“顿渐之争”中，他代表渐修法门，最终战胜了代表顿悟法门的摩诃衍。",
+          "en": "An Indian Buddhist monk and scholar of the Madhyamaka school. In the 'Samye Debate' in Tibet, he represented the gradual path to enlightenment and ultimately defeated Moheyan, who represented the sudden enlightenment approach."
+        }
+      }
+    },
+    {
+      "id": "赤松德赞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赤松德赞"
+        ],
+        "en": [
+          "Trisong Detsen"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "吐蕃赞普，主持了“顿渐之争”辩论会，并在会后下令禁止修习顿门法。",
+          "en": "An emperor of the Tibetan Empire who presided over the 'Samye Debate' and subsequently decreed that the practice of the 'sudden' path was to be discontinued."
+        }
+      }
+    },
+    {
+      "id": "虚云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "虚云"
+        ],
+        "en": [
+          "Xuyun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "近代禅宗中兴之祖，以一身兼承禅宗五家法脉，对近代中国佛教的复兴有巨大贡献。",
+          "en": "A modern patriarch credited with the revival of Zen. He held lineages from all five houses of Zen and made significant contributions to the revitalization of Chinese Buddhism in the modern era."
+        }
+      }
+    },
+    {
+      "id": "铃木大拙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "铃木大拙"
+        ],
+        "en": [
+          "D. T. Suzuki"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本佛教学者，20世纪初向西方传播禅宗思想，对禅宗在欧美的普及有重要影响。",
+          "en": "A Japanese Buddhist scholar who introduced Zen thought to the West in the early 20th century, playing a crucial role in its popularization in Europe and America."
+        }
+      }
+    },
+    {
+      "id": "西藏",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "西藏"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉传佛教曾传入此地，并与印度佛教发生了著名的“顿渐之争”。",
+          "en": "A region where Chinese Buddhism was introduced, leading to the famous 'Samye Debate' with Indian Buddhism."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "禅宗的重要传播地，形成了独特的日本禅宗文化，对武士道、茶道、花道等有深远影响。",
+          "en": "An important center for the transmission of Zen, where a unique Japanese Zen culture developed, profoundly influencing Bushido, the tea ceremony, flower arrangement, and more."
+        }
+      }
+    },
+    {
+      "id": "临济义玄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "临济义玄"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐代禅宗高僧，临济宗的创始人。",
+          "en": "A prominent Chan master of the Tang dynasty and the founder of the Linji school."
+        }
+      }
+    },
+    {
+      "id": "洞山良价",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "洞山良价"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐代禅宗高僧，曹洞宗的创始人之一。",
+          "en": "A prominent Chan master of the Tang dynasty and one of the founders of the Caodong school."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "菩提达摩",
+      "target": "禅宗",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "菩提达摩被尊为将禅宗由印度传入中国的第一位祖师。",
+          "en": "Bodhidharma is revered as the first patriarch who transmitted Zen from India to China."
+        }
+      }
+    },
+    {
+      "source": "菩提达摩",
+      "target": "中国",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "菩提达摩于刘宋时期抵达中国广州，开始传授禅法。",
+          "en": "Bodhidharma arrived in Guangzhou, China, during the Liu Song dynasty and began teaching Zen."
+        }
+      }
+    },
+    {
+      "source": "慧可",
+      "target": "菩提达摩",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "慧可是菩提达摩的弟子，被尊为禅宗二祖。",
+          "en": "Huike was a disciple of Bodhidharma and is revered as the second patriarch of Zen."
+        }
+      }
+    },
+    {
+      "source": "僧璨",
+      "target": "慧可",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "僧璨是慧可的弟子，被尊为禅宗三祖。",
+          "en": "Sengcan was a disciple of Huike and is revered as the third patriarch of Zen."
+        }
+      }
+    },
+    {
+      "source": "道信",
+      "target": "僧璨",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "道信是僧璨的弟子，被尊为禅宗四祖。",
+          "en": "Daoxin was a disciple of Sengcan and is revered as the fourth patriarch of Zen."
+        }
+      }
+    },
+    {
+      "source": "弘忍",
+      "target": "道信",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "弘忍是道信的弟子，被尊为禅宗五祖。",
+          "en": "Hongren was a disciple of Daoxin and is revered as the fifth patriarch of Zen."
+        }
+      }
+    },
+    {
+      "source": "惠能",
+      "target": "弘忍",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "惠能是弘忍的弟子，被其密传衣钵，成为禅宗六祖。",
+          "en": "Huineng was a disciple of Hongren, who secretly transmitted the robe and bowl to him, making him the sixth patriarch of Zen."
+        }
+      }
+    },
+    {
+      "source": "神秀",
+      "target": "弘忍",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "神秀是弘忍的弟子，为当时的上座，后成为北宗的创始人。",
+          "en": "Shenxiu was a disciple of Hongren and the head monk at the time. He later became the founder of the Northern School."
+        }
+      }
+    },
+    {
+      "source": "惠能",
+      "target": "神秀",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "惠能的南宗顿悟与神秀的北宗渐悟形成对立，史称“南能北秀”，相互分庭抗礼。",
+          "en": "Huineng's Southern School of sudden enlightenment and Shenxiu's Northern School of gradual enlightenment formed opposing factions, historically known as 'Huineng of the South, Shenxiu of the North', standing as rivals."
+        }
+      }
+    },
+    {
+      "source": "菏泽神会",
+      "target": "北宗 (禅宗)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0730",
+        "description": {
+          "zh-cn": "在洛阳的明定南北总是非大会上，惠能弟子神会辩倒北宗，导致北宗衰落。",
+          "en": "At the Great Dharma Assembly in Luoyang, Huineng's disciple Shenhui defeated the Northern School in debate, leading to its decline."
+        }
+      }
+    },
+    {
+      "source": "菏泽神会",
+      "target": "南宗 (禅宗)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0730",
+        "description": {
+          "zh-cn": "神会通过辩论，为惠能的南宗争取到了正统地位，使其得以在全国范围内弘扬。",
+          "en": "Through debate, Shenhui secured the orthodox status for Huineng's Southern School, enabling its nationwide propagation."
+        }
+      }
+    },
+    {
+      "source": "菩提达摩",
+      "target": "梁武帝",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "菩提达摩初到中国时曾与梁武帝会面，但因对佛法功德的见解不同而话不投机。",
+          "en": "Upon arriving in China, Bodhidharma met with Emperor Wu of Liang, but they had a disagreement over the understanding of Buddhist merit, and the meeting was not fruitful."
+        }
+      }
+    },
+    {
+      "source": "菩提达摩",
+      "target": "少林寺",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "与梁武帝会面不契后，菩提达摩前往嵩山少林寺，并在那里长期面壁修行。",
+          "en": "After his unproductive meeting with Emperor Wu of Liang, Bodhidharma traveled to the Shaolin Temple on Mount Song, where he engaged in wall-gazing meditation for a long period."
+        }
+      }
+    },
+    {
+      "source": "楞伽经",
+      "target": "禅宗",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "早期禅宗以《楞伽经》为印心经典，因此也被称为楞伽宗。",
+          "en": "Early Zen used the Laṅkāvatāra Sūtra as its key scripture for mind-to-mind transmission, and was thus also known as the Laṅkā school."
+        }
+      }
+    },
+    {
+      "source": "金刚经",
+      "target": "禅宗",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "自五祖弘忍开始，禅宗改以《金刚经》代替《楞伽经》作为传法的核心经典。",
+          "en": "Starting from the Fifth Patriarch Hongren, Zen replaced the Laṅkāvatāra Sūtra with the Diamond Sutra as the core scripture for Dharma transmission."
+        }
+      }
+    },
+    {
+      "source": "临济义玄",
+      "target": "临济宗",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "临济义玄创立了临济宗，为禅宗五家之一。",
+          "en": "Linji Yixuan founded the Linji school, one of the Five Houses of Zen."
+        }
+      }
+    },
+    {
+      "source": "洞山良价",
+      "target": "曹洞宗",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "洞山良价与弟子曹山本寂共同创立了曹洞宗，为禅宗五家之一。",
+          "en": "Dongshan Liangjie and his disciple Caoshan Benji co-founded the Caodong school, one of the Five Houses of Zen."
+        }
+      }
+    },
+    {
+      "source": "牛头法融",
+      "target": "牛头宗",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "牛头法融开创了牛头宗。",
+          "en": "Niutou Farong founded the Niutou school."
+        }
+      }
+    },
+    {
+      "source": "大慧宗杲",
+      "target": "话头禅",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "大慧宗杲大力提倡话头禅，使其成为宋代以后禅宗的主流修行方法。",
+          "en": "Dahui Zonggao strongly advocated for huatou chan, making it the mainstream Zen practice method after the Song Dynasty."
+        }
+      }
+    },
+    {
+      "source": "大慧宗杲",
+      "target": "默照禅",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "大慧宗杲批评宏智正觉的默照禅为“默照邪禅”，认为其只教人静坐，不求妙悟。",
+          "en": "Dahui Zonggao criticized Hongzhi Zhengjue's mozhao chan as 'silent illumination heresy,' arguing that it only taught people to sit quietly without seeking profound enlightenment."
+        }
+      }
+    },
+    {
+      "source": "宏智正觉",
+      "target": "默照禅",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "宏智正觉倡导以静坐为主的默照禅。",
+          "en": "Hongzhi Zhengjue advocated for mozhao chan, which is centered on seated meditation."
+        }
+      }
+    },
+    {
+      "source": "莲花戒",
+      "target": "摩诃衍",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在西藏的“顿渐之争”辩论中，莲花戒代表的渐修派战胜了摩诃衍代表的顿悟派。",
+          "en": "In the 'Samye Debate' in Tibet, the gradualist school represented by Kamalaśīla defeated the sudden enlightenment school represented by Moheyan."
+        }
+      }
+    },
+    {
+      "source": "顿渐之争",
+      "target": "摩诃衍",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "“顿渐之争”事件最终导致摩诃衍被判为败方，其顿悟法门在西藏被禁止。",
+          "en": "The 'Samye Debate' event resulted in Moheyan being declared the loser, and his sudden enlightenment teachings were banned in Tibet."
+        }
+      }
+    },
+    {
+      "source": "赤松德赞",
+      "target": "摩诃衍",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为辩论的主持者，吐蕃赞普赤松德赞在“顿渐之争”后下令禁止修习摩诃衍所传的顿门法。",
+          "en": "As the presider of the debate, Tibetan Emperor Trisong Detsen ordered the prohibition of the 'sudden' teachings transmitted by Moheyan after the 'Samye Debate'."
+        }
+      }
+    },
+    {
+      "source": "虚云",
+      "target": "禅宗",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "鉴于清末民初佛教的衰微，虚云大师极力复兴禅宗，被誉为近代禅宗中兴之祖。",
+          "en": "In view of the decline of Buddhism in the late Qing and early Republican era, Master Xuyun worked tirelessly to revive Zen and is honored as the patriarch of its modern revival."
+        }
+      }
+    },
+    {
+      "source": "铃木大拙",
+      "target": "禅宗",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "铃木大拙在20世纪初将禅宗思想传播到西方，极大地推动了禅宗在世界范围内的影响。",
+          "en": "In the early 20th century, D. T. Suzuki spread Zen thought to the West, greatly promoting Zen's influence worldwide."
+        }
+      }
+    }
+  ]
+}

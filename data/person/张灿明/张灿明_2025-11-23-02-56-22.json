@@ -1,0 +1,437 @@
+{
+  "nodes": [
+    {
+      "id": "张灿明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张灿明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1914 - 2010-07-29",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "达县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物、外交官，曾任中华人民共和国外交部副部长、最高人民检察院副检察长。",
+          "en": "A politician and diplomat of the People's Republic of China, who served as Vice Minister of Foreign Affairs and Deputy Procurator-General of the Supreme People's Procuratorate."
+        }
+      }
+    },
+    {
+      "id": "达县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "达县"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "四川",
+          "en": "Sichuan"
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国外交部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国外交部",
+          "外交部"
+        ],
+        "en": [
+          "Ministry of Foreign Affairs of the People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国最高人民检察院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国最高人民检察院"
+        ],
+        "en": [
+          "Supreme People's Procuratorate of the People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "张爱萍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张爱萍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国开国上将，张灿明的兄长。",
+          "en": "A founding general of the People's Republic of China and the elder brother of Zhang Canming."
+        }
+      }
+    },
+    {
+      "id": "谢克西",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢克西"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国外交官。",
+          "en": "A diplomat of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "谢甫生",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢甫生"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国外交官。",
+          "en": "A diplomat of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "史梓铭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "史梓铭"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国外交官。",
+          "en": "A diplomat of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "谢邦治",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢邦治"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国外交官。",
+          "en": "A diplomat of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "王若杰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王若杰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国外交官。",
+          "en": "A diplomat of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "赵禁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵禁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国外交官。",
+          "en": "A diplomat of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "许文益",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "许文益"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国外交官。",
+          "en": "A diplomat of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "四川",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "四川"
+        ],
+        "en": [
+          "Sichuan"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张灿明",
+      "target": "张爱萍",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张灿明是张爱萍的弟弟。",
+          "en": "Zhang Canming is the younger brother of Zhang Aiping."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "达县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "张灿明出生于四川达县。",
+          "en": "Zhang Canming was born in Da County, Sichuan."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "中华人民共和国外交部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Vice Minister"
+        },
+        "description": {
+          "zh-cn": "张灿明曾担任中华人民共和国外交部副部长。",
+          "en": "Zhang Canming served as the Vice Minister of the Ministry of Foreign Affairs of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "中华人民共和国最高人民检察院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副检察长",
+          "en": "Deputy Procurator-General"
+        },
+        "description": {
+          "zh-cn": "张灿明曾担任中华人民共和国最高人民检察院副检察长。",
+          "en": "Zhang Canming served as the Deputy Procurator-General of the Supreme People's Procuratorate of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1957-06",
+        "end_date": "1962-08",
+        "position": {
+          "zh-cn": "驻锡兰大使",
+          "en": "Ambassador to Ceylon"
+        },
+        "description": {
+          "zh-cn": "张灿明于1957年6月至1962年8月担任首任中华人民共和国驻锡兰大使。",
+          "en": "Zhang Canming served as the first Ambassador of the People's Republic of China to Ceylon from June 1957 to August 1962."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "谢克西",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1962",
+        "description": {
+          "zh-cn": "1962年，张灿明的中华人民共和国驻锡兰大使职务由谢克西接任。",
+          "en": "In 1962, Zhang Canming's position as Ambassador of the People's Republic of China to Ceylon was succeeded by Xie Kexi."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1963-09",
+        "end_date": "1967-01",
+        "position": {
+          "zh-cn": "驻蒙古大使",
+          "en": "Ambassador to Mongolia"
+        },
+        "description": {
+          "zh-cn": "张灿明于1963年9月至1967年1月担任中华人民共和国驻蒙古大使。",
+          "en": "Zhang Canming served as the Ambassador of the People's Republic of China to Mongolia from September 1963 to January 1967."
+        }
+      }
+    },
+    {
+      "source": "谢甫生",
+      "target": "张灿明",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1963",
+        "description": {
+          "zh-cn": "1963年，张灿明接替谢甫生担任中华人民共和国驻蒙古大使。",
+          "en": "In 1963, Zhang Canming succeeded Xie Fusheng as the Ambassador of the People's Republic of China to Mongolia."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "许文益",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1967",
+        "description": {
+          "zh-cn": "张灿明的中华人民共和国驻蒙古大使职务由许文益接任。",
+          "en": "Zhang Canming's position as Ambassador of the People's Republic of China to Mongolia was succeeded by Xu Wenyi."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1975-09",
+        "end_date": "1978-11",
+        "position": {
+          "zh-cn": "驻芬兰大使",
+          "en": "Ambassador to Finland"
+        },
+        "description": {
+          "zh-cn": "张灿明于1975年9月至1978年11月担任中华人民共和国驻芬兰大使。",
+          "en": "Zhang Canming served as the Ambassador of the People's Republic of China to Finland from September 1975 to November 1978."
+        }
+      }
+    },
+    {
+      "source": "史梓铭",
+      "target": "张灿明",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1975-09",
+        "description": {
+          "zh-cn": "张灿明接替史梓铭担任中华人民共和国驻芬兰大使。",
+          "en": "Zhang Canming succeeded Shi Ziming as the Ambassador of the People's Republic of China to Finland."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "谢邦治",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1978-11",
+        "description": {
+          "zh-cn": "张灿明的中华人民共和国驻芬兰大使职务由谢邦治接任。",
+          "en": "Zhang Canming's position as Ambassador of the People's Republic of China to Finland was succeeded by Xie Bangzhi."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1973-03",
+        "end_date": "1975-07",
+        "position": {
+          "zh-cn": "驻阿拉伯也门大使",
+          "en": "Ambassador to the Arab Republic of Yemen"
+        },
+        "description": {
+          "zh-cn": "张灿明于1973年3月至1975年7月担任中华人民共和国驻阿拉伯也门大使。",
+          "en": "Zhang Canming served as the Ambassador of the People's Republic of China to the Arab Republic of Yemen from March 1973 to July 1975."
+        }
+      }
+    },
+    {
+      "source": "王若杰",
+      "target": "张灿明",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1973-03",
+        "description": {
+          "zh-cn": "张灿明接替王若杰担任中华人民共和国驻阿拉伯也门大使。",
+          "en": "Zhang Canming succeeded Wang Ruojie as the Ambassador of the People's Republic of China to the Arab Republic of Yemen."
+        }
+      }
+    },
+    {
+      "source": "张灿明",
+      "target": "赵禁",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1975-07",
+        "description": {
+          "zh-cn": "张灿明的中华人民共和国驻阿拉伯也门大使职务由赵禁接任。",
+          "en": "Zhang Canming's position as Ambassador of the People's Republic of China to the Arab Republic of Yemen was succeeded by Zhao Jin."
+        }
+      }
+    }
+  ]
+}

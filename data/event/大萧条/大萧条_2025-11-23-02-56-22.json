@@ -1,0 +1,594 @@
+{
+  "nodes": [
+    {
+      "id": "大萧条",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "大萧条",
+          "经济大危机",
+          "经济大恐慌",
+          "经济大萧条"
+        ],
+        "en": [
+          "Great Depression"
+        ]
+      },
+      "properties": {
+        "period": "1929-10-29 - 1939",
+        "description": {
+          "zh-cn": "指1929年至1933年之间全球经济大衰退，是第二次世界大战前最严重的全球经济衰退。它是二十世纪持续时间最长、影响最广、强度最大的经济衰退。",
+          "en": "The Great Depression was a severe worldwide economic depression that took place mostly during the 1930s, beginning in the United States. It was the longest, deepest, and most widespread depression of the 20th century."
+        }
+      }
+    },
+    {
+      "id": "1929年华尔街股灾",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1929年华尔街股灾"
+        ],
+        "en": [
+          "Wall Street Crash of 1929"
+        ]
+      },
+      "properties": {
+        "period": "1929-10-24 - 1929-10-29",
+        "description": {
+          "zh-cn": "1929年10月下旬在美国发生的股票市场崩溃事件，其中10月29日被称为“黑色星期二”，该事件普遍被认为是引发全球性大萧条的开端。",
+          "en": "A major American stock market crash that occurred in the autumn of 1929. The crash, which included Black Tuesday on October 29, is widely considered the start of the Great Depression."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战",
+          "二战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939-09-01 - 1945-09-02",
+        "description": {
+          "zh-cn": "一场全球性的军事冲突，经济史学家的普遍看法认为，大萧条以二战的爆发而终结。",
+          "en": "A global war, the start of which is widely considered by economic historians to have ended the Great Depression."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大萧条的起源国，失业率曾飙升至25%。",
+          "en": "The country where the Great Depression originated, with its unemployment rate soaring to 25%."
+        }
+      }
+    },
+    {
+      "id": "罗斯福新政",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "罗斯福新政"
+        ],
+        "en": [
+          "New Deal"
+        ]
+      },
+      "properties": {
+        "period": "1933 - 1939",
+        "description": {
+          "zh-cn": "美国总统富兰克林·德拉诺·罗斯福为应对大萧条而实施的一系列经济政策，扩大了联邦政府对国民经济的影响力。",
+          "en": "A series of programs, public work projects, financial reforms, and regulations enacted by President Franklin D. Roosevelt in the United States in response to the Great Depression, which expanded the federal government's role in the national economy."
+        }
+      }
+    },
+    {
+      "id": "富兰克林·德拉诺·罗斯福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "富兰克林·德拉诺·罗斯福"
+        ],
+        "en": [
+          "Franklin Delano Roosevelt"
+        ]
+      },
+      "properties": {
+        "lifetime": "1882-01-30 - 1945-04-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第32任总统，在大萧条期间推行“罗斯福新政”以重振美国经济。",
+          "en": "The 32nd U.S. President, who implemented the New Deal to combat the Great Depression."
+        }
+      }
+    },
+    {
+      "id": "凯恩斯主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "凯恩斯主义"
+        ],
+        "en": [
+          "Keynesian economics"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种经济理论，认为大萧条源自总需求的减少，主张政府应采取扩张性财政政策以刺激需求。",
+          "en": "An economic theory which argues that the Great Depression originated from a drop in aggregate demand and advocates for expansionary fiscal policy by the government to stimulate demand."
+        }
+      }
+    },
+    {
+      "id": "货币主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "货币主义"
+        ],
+        "en": [
+          "Monetarism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种经济理论，认为大萧条的主要是由于货币供给紧缩，并将责任归咎于美联储的失策。",
+          "en": "An economic theory that posits the Great Depression was primarily caused by monetary contraction, blaming the policy failures of the Federal Reserve."
+        }
+      }
+    },
+    {
+      "id": "美国联邦贮备系统",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国联邦贮备系统",
+          "美联储"
+        ],
+        "en": [
+          "Federal Reserve System"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的中央银行系统。货币主义者认为其失策是大萧条的主要原因。",
+          "en": "The central banking system of the United States. Monetarists consider its policy failures to be the main cause of the Great Depression."
+        }
+      }
+    },
+    {
+      "id": "金本位制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "金本位制",
+          "金本位"
+        ],
+        "en": [
+          "Gold standard"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种货币制度，其中货币的价值直接与特定重量的黄金挂钩。其僵化被认为是导致大萧条在全球蔓延的原因之一，而放弃该制度则促进了经济复苏。",
+          "en": "A monetary system in which the standard economic unit of account is based on a fixed quantity of gold. Its rigidity is seen as a reason for the global spread of the Great Depression, and abandoning it was crucial for recovery."
+        }
+      }
+    },
+    {
+      "id": "阿道夫·希特勒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿道夫·希特勒",
+          "希特勒"
+        ],
+        "en": [
+          "Adolf Hitler"
+        ]
+      },
+      "properties": {
+        "lifetime": "1889-04-20 - 1945-04-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国政治人物，纳粹党领袖。大萧条造成的经济困境是其在德国崛起的重要原因之一。",
+          "en": "A German politician and leader of the Nazi Party. The economic hardship caused by the Great Depression was a significant factor in his rise to power in Germany."
+        }
+      }
+    },
+    {
+      "id": "纳粹党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹党"
+        ],
+        "en": [
+          "Nazi Party"
+        ]
+      },
+      "properties": {
+        "period": "1920-02-24 - 1945-05-08",
+        "description": {
+          "zh-cn": "德国的极右翼政党，利用大萧条带来的社会不满情绪上台执政。",
+          "en": "A far-right political party in Germany that rose to power by exploiting social discontent caused by the Great Depression."
+        }
+      }
+    },
+    {
+      "id": "威玛共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "威玛共和国"
+        ],
+        "en": [
+          "Weimar Republic"
+        ]
+      },
+      "properties": {
+        "period": "1918 - 1933",
+        "location": {
+          "zh-cn": "德国",
+          "en": "Germany"
+        },
+        "description": {
+          "zh-cn": "德国在1918年至1933年间的共和政体，因大萧条的严重冲击而最终崩溃，被纳粹德国取代。",
+          "en": "The German republic from 1918 to 1933, which collapsed under the severe impact of the Great Depression and was succeeded by Nazi Germany."
+        }
+      }
+    },
+    {
+      "id": "高桥是清",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "高桥是清"
+        ],
+        "en": [
+          "Takahashi Korekiyo"
+        ]
+      },
+      "properties": {
+        "lifetime": "1854-07-27 - 1936-02-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本政治家，曾任大藏大臣。他采取的凯恩斯主义财政和货币政策帮助日本摆脱了大萧条。",
+          "en": "A Japanese politician who served as Minister of Finance. His Keynesian fiscal and monetary policies helped Japan recover from the Great Depression."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在大萧条期间经济衰退了8%，但在高桥是清的政策下于1933年摆脱了萧条。",
+          "en": "Its economy shrank by 8% during the Great Depression but recovered by 1933 under the policies of Takahashi Korekiyo."
+        }
+      }
+    },
+    {
+      "id": "二二六事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "二二六事件"
+        ],
+        "en": [
+          "February 26 Incident"
+        ]
+      },
+      "properties": {
+        "period": "1936-02-26 - 1936-02-29",
+        "description": {
+          "zh-cn": "1936年发生在日本的一场未遂军事政变，大藏大臣高桥是清在此事件中被刺杀。",
+          "en": "An attempted military coup d'état in Japan in 1936, during which Minister of Finance Takahashi Korekiyo was assassinated."
+        }
+      }
+    },
+    {
+      "id": "赫伯特·胡佛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赫伯特·胡佛",
+          "胡佛"
+        ],
+        "en": [
+          "Herbert Hoover"
+        ]
+      },
+      "properties": {
+        "lifetime": "1874-08-10 - 1964-10-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第31任总统，大萧条在其任内开始。由于未能有效应对危机，其声望严重受损，“胡佛村”等词语成为大萧条贫困现象的代名词。",
+          "en": "The 31st U.S. President, during whose term the Great Depression began. His failure to effectively handle the crisis severely damaged his reputation, with terms like 'Hooverville' becoming synonymous with the poverty of the era."
+        }
+      }
+    },
+    {
+      "id": "斯姆特-霍利关税法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "斯姆特-霍利关税法"
+        ],
+        "en": [
+          "Smoot–Hawley Tariff Act"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1930年美国通过的一项贸易保护主义法案，通过提高关税来寻求自保，但引发了其他国家的报复性关税，加剧了全球贸易的崩溃。",
+          "en": "A protectionist trade act passed by the U.S. in 1930. It sought to protect the domestic economy by raising tariffs, but it triggered retaliatory tariffs from other countries, exacerbating the collapse of global trade."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "欧洲国家，在1931年率先放弃金本位制，这被认为是其能够较早从大萧条中复苏的原因之一。",
+          "en": "A European country that was a pioneer in abandoning the gold standard in 1931, which is considered a reason for its earlier recovery from the Great Depression."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "1929年华尔街股灾",
+      "target": "大萧条",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929-10-29",
+        "description": {
+          "zh-cn": "1929年10月29日（黑色星期二）的股市崩盘被广泛认为是引发全球性大萧条的开端。",
+          "en": "The stock market crash on October 29, 1929 (Black Tuesday) is widely considered to have triggered the start of the worldwide Great Depression."
+        }
+      }
+    },
+    {
+      "source": "斯姆特-霍利关税法",
+      "target": "大萧条",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1930",
+        "description": {
+          "zh-cn": "该法案的贸易保护主义措施引发了全球性的报复性关税，加剧了全球贸易的崩溃，从而恶化了大萧条。",
+          "en": "The protectionist measures of this act led to global retaliatory tariffs, exacerbating the collapse of world trade and thus worsening the Great Depression."
+        }
+      }
+    },
+    {
+      "source": "美国联邦贮备系统",
+      "target": "大萧条",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1929",
+        "end_date": "1933",
+        "description": {
+          "zh-cn": "根据货币主义观点，美联储的失策，特别是其不作为导致货币供给缩减了三分之一，将一场普通的衰退推向了大萧条。",
+          "en": "According to the monetarist view, the Federal Reserve's policy failures, particularly its inaction that led to a one-third contraction in the money supply, pushed a regular recession into the Great Depression."
+        }
+      }
+    },
+    {
+      "source": "金本位制",
+      "target": "大萧条",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "许多经济研究认为，金本位制的僵化是导致经济衰退在全球蔓延的重要原因。",
+          "en": "Many economic studies suggest that the rigidity of the gold standard was a key reason for the global spread of the economic recession."
+        }
+      }
+    },
+    {
+      "source": "第二次世界大战",
+      "target": "大萧条",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1939",
+        "description": {
+          "zh-cn": "经济史学家的普遍看法是，大萧条以第二次世界大战的爆发而终结，战争相关的政府支出刺激了经济复苏。",
+          "en": "The consensus among economic historians is that the Great Depression ended with the outbreak of World War II, as government spending related to the war stimulated economic recovery."
+        }
+      }
+    },
+    {
+      "source": "罗斯福新政",
+      "target": "大萧条",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1933",
+        "description": {
+          "zh-cn": "罗斯福新政通过一系列政府干预措施，旨在缓解大萧条的影响并促进经济复苏。",
+          "en": "The New Deal, through a series of government interventions, aimed to mitigate the effects of the Great Depression and promote economic recovery."
+        }
+      }
+    },
+    {
+      "source": "富兰克林·德拉诺·罗斯福",
+      "target": "罗斯福新政",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1933",
+        "description": {
+          "zh-cn": "作为美国总统，罗斯福发起并领导了罗斯福新政以应对大萧条。",
+          "en": "As President of the United States, Roosevelt initiated and led the New Deal to combat the Great Depression."
+        }
+      }
+    },
+    {
+      "source": "大萧条",
+      "target": "罗斯福新政",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1933",
+        "description": {
+          "zh-cn": "严重的经济危机促使美国政府实施了罗斯福新政这一系列前所未有的干预措施。",
+          "en": "The severe economic crisis prompted the U.S. government to implement the New Deal, a series of unprecedented interventionist measures."
+        }
+      }
+    },
+    {
+      "source": "大萧条",
+      "target": "纳粹党",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "大萧条对德国威玛共和国造成了毁灭性打击，失业率飙升，社会动荡，为纳粹党等极端主义势力崛起并最终上台创造了条件。",
+          "en": "The Great Depression dealt a devastating blow to Germany's Weimar Republic, causing soaring unemployment and social unrest, which created the conditions for extremist forces like the Nazi Party to rise and eventually take power."
+        }
+      }
+    },
+    {
+      "source": "阿道夫·希特勒",
+      "target": "纳粹党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "元首",
+          "en": "Führer"
+        },
+        "description": {
+          "zh-cn": "阿道夫·希特勒是纳粹党的领袖。",
+          "en": "Adolf Hitler was the leader of the Nazi Party."
+        }
+      }
+    },
+    {
+      "source": "大萧条",
+      "target": "威玛共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1929",
+        "end_date": "1933",
+        "description": {
+          "zh-cn": "大萧条对德国经济造成了沉重打击，导致失业率飙升和政治极端化，最终导致威玛共和国的崩溃。",
+          "en": "The Great Depression severely impacted the German economy, leading to soaring unemployment and political polarization, which ultimately resulted in the collapse of the Weimar Republic."
+        }
+      }
+    },
+    {
+      "source": "高桥是清",
+      "target": "大萧条",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "通过实施赤字支出和日元贬值等凯恩斯主义政策，高桥是清帮助日本经济在1933年摆脱了大萧条。",
+          "en": "By implementing Keynesian policies such as deficit spending and devaluing the yen, Takahashi Korekiyo helped Japan's economy recover from the Great Depression by 1933."
+        }
+      }
+    },
+    {
+      "source": "二二六事件",
+      "target": "高桥是清",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-02-26",
+        "end_date": "1936-02-26",
+        "description": {
+          "zh-cn": "高桥是清因其削减军费开支的政策，在二二六事件中被持不同意见的军官刺杀身亡。",
+          "en": "Due to his policy of cutting military spending, Takahashi Korekiyo was assassinated by dissenting military officers during the February 26 Incident."
+        }
+      }
+    },
+    {
+      "source": "大萧条",
+      "target": "赫伯特·胡佛",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "大萧条发生在其总统任内，由于他未能有效应对危机，其政治声望受到严重打击，并导致了民众的广泛不满。",
+          "en": "The Great Depression began during his presidency, and his failure to effectively address the crisis severely damaged his political reputation and led to widespread public discontent."
+        }
+      }
+    },
+    {
+      "source": "大萧条",
+      "target": "凯恩斯主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "大萧条的发生及其对传统经济理论的挑战，催生了以政府干预为核心的凯恩斯主义经济学。",
+          "en": "The occurrence of the Great Depression and its challenge to classical economic theories spurred the development of Keynesian economics, which centers on government intervention."
+        }
+      }
+    },
+    {
+      "source": "大萧条",
+      "target": "货币主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "对大萧条成因的分析和辩论，特别是对货币政策作用的重新审视，是货币主义理论发展的重要背景。",
+          "en": "The analysis and debate over the causes of the Great Depression, especially the re-examination of the role of monetary policy, formed an important backdrop for the development of monetarist theory."
+        }
+      }
+    },
+    {
+      "source": "高桥是清",
+      "target": "日本",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "大藏大臣",
+          "en": "Minister of Finance"
+        },
+        "description": {
+          "zh-cn": "高桥是清曾担任日本的大藏大臣（财政部长）。",
+          "en": "Takahashi Korekiyo served as Japan's Minister of Finance."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "金本位制",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-09",
+        "description": {
+          "zh-cn": "1931年9月，英国率先放弃了金本位制，使其货币得以贬值，这被认为是其经济较早复苏的关键一步。",
+          "en": "In September 1931, the United Kingdom pioneered the abandonment of the gold standard, allowing its currency to devalue, which is considered a key step in its earlier economic recovery."
+        }
+      }
+    }
+  ]
+}

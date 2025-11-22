@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "中国民主促进会吉林省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主促进会吉林省委员会",
+          "民进吉林省委",
+          "吉林民进"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "吉林省",
+          "en": "Jilin Province"
+        },
+        "description": {
+          "zh-cn": "中国民主促进会在吉林省的地方组织，行政级别为正厅级。",
+          "en": "The local organization of the China Association for Promoting Democracy in Jilin Province, with a director-general level administrative ranking."
+        }
+      }
+    },
+    {
+      "id": "中国民主促进会中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主促进会中央委员会"
+        ],
+        "en": [
+          "Central Committee of the China Association for Promoting Democracy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国民主促进会的中央领导机构。",
+          "en": "The central leading body of the China Association for Promoting Democracy."
+        }
+      }
+    },
+    {
+      "id": "中国民主促进会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主促进会"
+        ],
+        "en": [
+          "China Association for Promoting Democracy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的民主党派之一。",
+          "en": "One of the democratic parties in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "吉林省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "吉林省"
+        ],
+        "en": [
+          "Jilin Province"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的一个省级行政区。",
+          "en": "A provincial-level administrative region of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "民主党派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主党派"
+        ],
+        "en": [
+          "Democratic parties"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政治制度中，对除执政党中国共产党以外的八个参政党的统称。",
+          "en": "In the political system of the People's Republic of China, a collective term for the eight participating political parties other than the ruling Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "委员会"
+        ],
+        "en": [
+          "Committee"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种组织形式，通常由一组人组成，负责执行特定任务或做出决策。",
+          "en": "A type of organization, usually consisting of a group of people, responsible for carrying out specific tasks or making decisions."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国民主促进会吉林省委员会",
+      "target": "中国民主促进会中央委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框内容，中国民主促进会吉林省委员会的上级机构是中国民主促进会中央委员会。",
+          "en": "According to the infobox, the superior body of the Jilin Provincial Committee of the China Association for Promoting Democracy is the Central Committee of the China Association for Promoting Democracy."
+        }
+      }
+    },
+    {
+      "source": "中国民主促进会吉林省委员会",
+      "target": "中国民主促进会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国民主促进会吉林省委员会是中国民主促进会在吉林省的地方组织。",
+          "en": "The Jilin Provincial Committee of the China Association for Promoting Democracy is the local organization of the China Association for Promoting Democracy in Jilin Province."
+        }
+      }
+    },
+    {
+      "source": "中国民主促进会吉林省委员会",
+      "target": "民主党派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框内容，中国民主促进会吉林省委员会的机构类型是民主党派。",
+          "en": "According to the infobox, the organization type of the Jilin Provincial Committee of the China Association for Promoting Democracy is a democratic party."
+        }
+      }
+    },
+    {
+      "source": "中国民主促进会吉林省委员会",
+      "target": "委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框内容，中国民主促进会吉林省委员会的机构类型是委员会。",
+          "en": "According to the infobox, the organization type of the Jilin Provincial Committee of the China Association for Promoting Democracy is a committee."
+        }
+      }
+    },
+    {
+      "source": "中国民主促进会中央委员会",
+      "target": "中国民主促进会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国民主促进会中央委员会是中国民主促进会的中央领导机构。",
+          "en": "The Central Committee of the China Association for Promoting Democracy is the central leading body of the China Association for Promoting Democracy."
+        }
+      }
+    }
+  ]
+}
