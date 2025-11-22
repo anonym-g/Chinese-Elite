@@ -1,0 +1,405 @@
+{
+  "nodes": [
+    {
+      "id": "赵承",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵承"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1967-10 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "镇平县",
+          "en": "Zhenping County"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，高级记者。",
+          "en": "A political figure of the People's Republic of China and a senior reporter."
+        }
+      }
+    },
+    {
+      "id": "中国人民大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民大学"
+        ],
+        "en": [
+          "Renmin University of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "新华通讯社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新华通讯社"
+        ],
+        "en": [
+          "Xinhua News Agency"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共浙江省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共浙江省委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党浙江省委员会宣传部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党浙江省委员会宣传部",
+          "中共浙江省委宣传部"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "王纲 (1972年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王纲 (1972年)",
+          "王纲"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "张宿堂",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张宿堂"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "新华通讯社国内新闻编辑部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新华通讯社国内新闻编辑部"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "霍小光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "霍小光"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "马义 (1958年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马义 (1958年)",
+          "马义"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "新华社辽宁分社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新华社辽宁分社"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "王振宏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王振宏"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "镇平县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "镇平县"
+        ],
+        "en": [
+          "Zhenping County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民大学新闻学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民大学新闻学院",
+          "新闻系"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "赵承",
+      "target": "镇平县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "赵承",
+      "target": "中国人民大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "毕业于中国人民大学新闻系。",
+          "en": "Graduated from the Department of Journalism, Renmin University of China."
+        }
+      }
+    },
+    {
+      "source": "赵承",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        }
+      }
+    },
+    {
+      "source": "赵承",
+      "target": "新华通讯社",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2023-06",
+        "position": {
+          "zh-cn": "副社长",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "曾任新华通讯社党组成员、副社长。",
+          "en": "Formerly served as a member of the Party Leadership Group and Deputy Director of Xinhua News Agency."
+        }
+      }
+    },
+    {
+      "source": "赵承",
+      "target": "中共浙江省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-06",
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        }
+      }
+    },
+    {
+      "source": "赵承",
+      "target": "中国共产党浙江省委员会宣传部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-06",
+        "position": {
+          "zh-cn": "部长",
+          "en": "Minister"
+        }
+      }
+    },
+    {
+      "source": "赵承",
+      "target": "王纲 (1972年)",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2023-06",
+        "description": {
+          "zh-cn": "赵承接替王纲担任中国共产党浙江省委员会宣传部部长。",
+          "en": "Zhao Cheng succeeded Wang Gang as Minister of the Propaganda Department of the Zhejiang Provincial Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "赵承",
+      "target": "新华通讯社国内新闻编辑部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-12",
+        "end_date": "2022-12",
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "赵承",
+      "target": "张宿堂",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2016-12",
+        "description": {
+          "zh-cn": "赵承接替张宿堂担任新华通讯社国内新闻编辑部主任。",
+          "en": "Zhao Cheng succeeded Zhang Sutang as Director of the Domestic News Department of Xinhua News Agency."
+        }
+      }
+    },
+    {
+      "source": "霍小光",
+      "target": "赵承",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-12",
+        "description": {
+          "zh-cn": "霍小光接替赵承担任新华通讯社国内新闻编辑部主任。",
+          "en": "Huo Xiaoguang succeeded Zhao Cheng as Director of the Domestic News Department of Xinhua News Agency."
+        }
+      }
+    },
+    {
+      "source": "赵承",
+      "target": "新华社辽宁分社",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-08",
+        "end_date": "2016-12",
+        "position": {
+          "zh-cn": "社长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "赵承",
+      "target": "马义 (1958年)",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2015-08",
+        "description": {
+          "zh-cn": "赵承接替马义担任新华社辽宁分社社长。",
+          "en": "Zhao Cheng succeeded Ma Yi as President of the Liaoning Branch of Xinhua News Agency."
+        }
+      }
+    },
+    {
+      "source": "王振宏",
+      "target": "赵承",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2016-12",
+        "description": {
+          "zh-cn": "王振宏接替赵承担任新华社辽宁分社社长。",
+          "en": "Wang Zhenhong succeeded Zhao Cheng as President of the Liaoning Branch of Xinhua News Agency."
+        }
+      }
+    },
+    {
+      "source": "中国人民大学新闻学院",
+      "target": "中国人民大学",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民大学新闻学院是中国人民大学下属的学院。",
+          "en": "The School of Journalism of Renmin University of China is a school under Renmin University of China."
+        }
+      }
+    },
+    {
+      "source": "中国共产党浙江省委员会宣传部",
+      "target": "中共浙江省委",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党浙江省委员会宣传部是中共浙江省委的下属部门。",
+          "en": "The Propaganda Department of the Zhejiang Provincial Committee of the Communist Party of China is a subordinate department of the Zhejiang Provincial Committee of the CPC."
+        }
+      }
+    },
+    {
+      "source": "新华通讯社国内新闻编辑部",
+      "target": "新华通讯社",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "新华通讯社国内新闻编辑部是新华通讯社的下属部门。",
+          "en": "The Domestic News Department of Xinhua News Agency is a subordinate department of Xinhua News Agency."
+        }
+      }
+    },
+    {
+      "source": "新华社辽宁分社",
+      "target": "新华通讯社",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "新华社辽宁分社是新华通讯社的分支机构。",
+          "en": "The Liaoning Branch of Xinhua News Agency is a branch of Xinhua News Agency."
+        }
+      }
+    }
+  ]
+}

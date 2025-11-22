@@ -1,0 +1,729 @@
+{
+  "nodes": [
+    {
+      "id": "国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "国共内战",
+          "中国内战"
+        ],
+        "en": [
+          "Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": [
+          "1927 - 1937",
+          "1945 - 1950"
+        ],
+        "location": {
+          "zh-cn": "中国大陆"
+        },
+        "description": {
+          "zh-cn": "20世纪中国爆发的规模最大、影响最深远的内战，主要由中国国民党与中国共产党之间展开，分为两个阶段。",
+          "en": "The largest and most influential civil war in 20th-century China, fought between the Kuomintang (KMT) and the Communist Party of China (CPC), divided into two main phases."
+        }
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党",
+          "国民党"
+        ],
+        "en": [
+          "Kuomintang",
+          "KMT",
+          "Chinese Nationalist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国共内战的一方，领导中华民国政府。",
+          "en": "One of the belligerents in the Chinese Civil War, leading the government of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国共内战的一方，最终取得中国大陆的统治权并建立中华人民共和国。",
+          "en": "One of the belligerents in the Chinese Civil War, which eventually won control of mainland China and established the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国国民党及中华民国的主要领导人，国共内战期间国民党方的最高指挥官。",
+          "en": "The main leader of the Kuomintang and the Republic of China, and the supreme commander of the Nationalist side during the Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党及中华人民共和国的主要领导人，国共内战期间共产党方的最高指挥官。",
+          "en": "The main leader of the Communist Party of China and the People's Republic of China, and the supreme commander of the Communist side during the Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "第一次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次国共内战"
+        ],
+        "en": [
+          "First Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1927 - 1937",
+        "description": {
+          "zh-cn": "国共内战的第一个阶段，始于国民党清党，终于西安事变后的第二次国共合作。",
+          "en": "The first phase of the Chinese Civil War, which began with the KMT's party purge and ended with the Second United Front after the Xi'an Incident."
+        }
+      }
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战",
+          "解放战争"
+        ],
+        "en": [
+          "Second Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1945 - 1950",
+        "description": {
+          "zh-cn": "国共内战的第二个阶段，始于抗日战争结束，终于中华人民共和国成立和中华民国政府迁台。",
+          "en": "The second phase of the Chinese Civil War, beginning after the end of the Second Sino-Japanese War and concluding with the establishment of the PRC and the ROC government's retreat to Taiwan."
+        }
+      }
+    },
+    {
+      "id": "四·一二事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "四·一二事件",
+          "中国国民党清党"
+        ],
+        "en": [
+          "Shanghai massacre of 1927"
+        ]
+      },
+      "properties": {
+        "period": "1927-04-12 - 1927-04-12",
+        "description": {
+          "zh-cn": "1927年4月12日，蒋中正在上海发动的针对中国共产党员的武力清除行动，标志着第一次国共合作的破裂。",
+          "en": "On April 12, 1927, Chiang Kai-shek launched a violent purge against communists in Shanghai, marking the breakdown of the First United Front."
+        }
+      }
+    },
+    {
+      "id": "南昌起义",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南昌起义",
+          "南昌起事"
+        ],
+        "en": [
+          "Nanchang uprising"
+        ]
+      },
+      "properties": {
+        "period": "1927-08-01 - 1927-08-01",
+        "description": {
+          "zh-cn": "1927年8月1日，中国共产党为反击国民党清党而发动的武装起义，标志着中共独立领导武装斗争和创建军队的开始。",
+          "en": "On August 1, 1927, the Communist Party of China launched an armed uprising in response to the KMT's purge, marking the beginning of the CPC's independent armed struggle and the creation of its army."
+        }
+      }
+    },
+    {
+      "id": "西安事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "西安事变"
+        ],
+        "en": [
+          "Xi'an Incident"
+        ]
+      },
+      "properties": {
+        "period": "1936-12-12 - 1936-12-25",
+        "description": {
+          "zh-cn": "1936年12月12日，张学良和杨虎城在西安发动的“兵谏”，扣押蒋介石，要求停止内战、一致抗日。事件的和平解决促成了第二次国共合作。",
+          "en": "On December 12, 1936, Zhang Xueliang and Yang Hucheng launched a 'remonstrance by force' in Xi'an, detaining Chiang Kai-shek to demand an end to the civil war and a united front against Japan. Its peaceful resolution led to the Second United Front."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Zhang Xueliang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东北军将领，与杨虎城共同发动西安事变。",
+          "en": "Leader of the Northeastern Army who, along with Yang Hucheng, initiated the Xi'an Incident."
+        }
+      }
+    },
+    {
+      "id": "杨虎城",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨虎城"
+        ],
+        "en": [
+          "Yang Hucheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西北军将领，与张学良共同发动西安事变。",
+          "en": "Leader of the Northwestern Army who, along with Zhang Xueliang, initiated the Xi'an Incident."
+        }
+      }
+    },
+    {
+      "id": "第二次国共合作",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共合作"
+        ],
+        "en": [
+          "Second United Front"
+        ]
+      },
+      "properties": {
+        "period": "1937 - 1945",
+        "description": {
+          "zh-cn": "在西安事变后形成，国共双方停止内战，共同抵抗日本侵略的政治联盟。",
+          "en": "A political alliance formed after the Xi'an Incident, in which the KMT and CPC agreed to suspend the civil war and jointly resist the Japanese invasion."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China",
+          "PRC"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "由中国共产党在国共内战胜利后于1949年10月1日在中国大陆成立的国家。",
+          "en": "The state established on mainland China on October 1, 1949, by the Communist Party of China after its victory in the Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "中华民国政府迁台",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中华民国政府迁台"
+        ],
+        "en": [
+          "Retreat of the government of the Republic of China to Taiwan"
+        ]
+      },
+      "properties": {
+        "period": "1949-12",
+        "description": {
+          "zh-cn": "1949年，中华民国政府在国共内战中失利后，将其中央政府迁移至台湾。",
+          "en": "In 1949, after its defeat in the Chinese Civil War, the government of the Republic of China relocated its central government to Taiwan."
+        }
+      }
+    },
+    {
+      "id": "三大会战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "三大会战"
+        ],
+        "en": [
+          "Three Great Campaigns"
+        ]
+      },
+      "properties": {
+        "period": "1948-09 - 1949-01",
+        "description": {
+          "zh-cn": "第二次国共内战后期，中国人民解放军发动的包括辽沈战役、淮海战役、平津战役在内的三次决定性战役。",
+          "en": "Three decisive campaigns launched by the People's Liberation Army in the late stage of the Second Chinese Civil War, including the Liaoshen, Huaihai, and Pingjin Campaigns."
+        }
+      }
+    },
+    {
+      "id": "国民革命军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军"
+        ],
+        "en": [
+          "National Revolutionary Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国国民党在1947年行宪前的主要武装力量。",
+          "en": "The main military force of the Kuomintang before the implementation of the constitution in 1947."
+        }
+      }
+    },
+    {
+      "id": "中华民国国军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国国军"
+        ],
+        "en": [
+          "Republic of China Armed Forces"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1947年中华民国行宪后，由国民革命军改组而成的国家军队。",
+          "en": "The national army of the Republic of China, reorganized from the National Revolutionary Army after the implementation of the constitution in 1947."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army",
+          "PLA"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的武装力量，在第二次国共内战后期由多个部队改称而来。",
+          "en": "The armed forces of the Communist Party of China, renamed from various units in the later stages of the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "中国工农红军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工农红军"
+        ],
+        "en": [
+          "Chinese Workers' and Peasants' Red Army"
+        ]
+      },
+      "properties": {
+        "period": "1927 - 1937",
+        "description": {
+          "zh-cn": "中国共产党在第一次国共内战时期的主要武装力量。",
+          "en": "The primary military force of the Communist Party of China during the First Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "对早期中国共产党和国共关系有重要影响的社会主义国家。",
+          "en": "A socialist state that had a significant influence on the early Communist Party of China and KMT-CPC relations."
+        }
+      }
+    },
+    {
+      "id": "朝鲜战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "朝鲜战争"
+        ],
+        "en": [
+          "Korean War"
+        ]
+      },
+      "properties": {
+        "period": "1950 - 1953",
+        "description": {
+          "zh-cn": "发生在朝鲜半岛的战争，其爆发导致美国介入台湾海峡，深刻影响了国共内战的后续局势。",
+          "en": "A war on the Korean Peninsula whose outbreak led to U.S. intervention in the Taiwan Strait, profoundly affecting the subsequent situation of the Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在国共内战后期及之后对中华民国政府提供支持，并派遣第七舰队介入台湾海峡。",
+          "en": "Provided support to the Republic of China government during the late stages of and after the Chinese Civil War, and intervened in the Taiwan Strait by dispatching the Seventh Fleet."
+        }
+      }
+    },
+    {
+      "id": "告台湾同胞书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "告台湾同胞书"
+        ],
+        "en": [
+          "Message to Compatriots in Taiwan"
+        ]
+      },
+      "properties": {
+        "period": "1979-01-01",
+        "description": {
+          "zh-cn": "1979年由全国人大常委会发表，呼吁和平统一并宣布停止对金门等岛屿的炮击，标志着国共军事冲突的缓和。",
+          "en": "A message issued by the Standing Committee of the National People's Congress in 1979, calling for peaceful reunification and announcing the cessation of shelling of islands like Kinmen, marking a de-escalation of military conflict."
+        }
+      }
+    },
+    {
+      "id": "动员戡乱时期临时条款",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "动员戡乱时期临时条款"
+        ],
+        "en": [
+          "Temporary Provisions against the Communist Rebellion"
+        ]
+      },
+      "properties": {
+        "period": "1948 - 1991",
+        "description": {
+          "zh-cn": "中华民国政府为应对国共内战而颁布的宪法附加条款，赋予总统紧急权力。",
+          "en": "Additional constitutional articles enacted by the ROC government in response to the Chinese Civil War, granting the president emergency powers."
+        }
+      }
+    },
+    {
+      "id": "李登辉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李登辉"
+        ],
+        "en": [
+          "Lee Teng-hui"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国总统，于1991年宣布废止《动员戡乱时期临时条款》，结束动员戡乱时期。",
+          "en": "President of the Republic of China who, in 1991, announced the repeal of the Temporary Provisions, ending the Period of Mobilization for the Suppression of the Communist Rebellion."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国国民党",
+      "target": "中国共产党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1927-04-12",
+        "description": {
+          "zh-cn": "自1927年国民党清党开始，国共两党成为主要敌对势力，进行了长期的武装斗争。",
+          "en": "Since the KMT's party purge in 1927, the KMT and the CPC became primary adversaries, engaged in a long-term armed struggle."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "四·一二事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-04-12",
+        "description": {
+          "zh-cn": "1927年4月12日，国民革命军总司令蒋中正在上海发动清党，捕杀共产党员。",
+          "en": "On April 12, 1927, Chiang Kai-shek, Commander-in-Chief of the National Revolutionary Army, initiated a purge in Shanghai, arresting and killing communists."
+        }
+      }
+    },
+    {
+      "source": "四·一二事件",
+      "target": "第一次国共内战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-04-12",
+        "description": {
+          "zh-cn": "四一二事件标志着第一次国共合作破裂，国共两党正式决裂，内战爆发。",
+          "en": "The Shanghai massacre marked the rupture of the First United Front, the formal split between the KMT and CPC, and the outbreak of the civil war."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "南昌起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1927-08-01",
+        "description": {
+          "zh-cn": "为反击国民党清党，中国共产党于1927年8月1日发动南昌起义，开始武装夺权。",
+          "en": "To counter the KMT's purge, the Communist Party of China launched the Nanchang Uprising on August 1, 1927, to begin its armed struggle for power."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "中国工农红军",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1927-08-01",
+        "description": {
+          "zh-cn": "中国共产党通过南昌起义及后续的起义，建立了其武装力量——中国工农红军。",
+          "en": "Through the Nanchang Uprising and subsequent revolts, the Communist Party of China established its armed forces, the Chinese Workers' and Peasants' Red Army."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "description": {
+          "zh-cn": "张学良与杨虎城共同策划并发动了西安事变，扣押了蒋介石。",
+          "en": "Zhang Xueliang, along with Yang Hucheng, planned and launched the Xi'an Incident, detaining Chiang Kai-shek."
+        }
+      }
+    },
+    {
+      "source": "杨虎城",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "description": {
+          "zh-cn": "杨虎城与张学良共同策划并发动了西安事变，扣押了蒋介石。",
+          "en": "Yang Hucheng, along with Zhang Xueliang, planned and launched the Xi'an Incident, detaining Chiang Kai-shek."
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "第一次国共内战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1936-12",
+        "description": {
+          "zh-cn": "西安事变的和平解决导致国民党基本停止与共产党作战，结束了第一次国共内战。",
+          "en": "The peaceful resolution of the Xi'an Incident led the KMT to largely cease military operations against the CPC, ending the First Chinese Civil War."
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "第二次国共合作",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937",
+        "description": {
+          "zh-cn": "西安事变的和平解决促成了国共双方停止内战，同意共同抗日，形成了第二次国共合作。",
+          "en": "The peaceful resolution of the Xi'an Incident prompted both the KMT and CPC to cease the civil war, agree to jointly resist Japan, and form the Second United Front."
+        }
+      }
+    },
+    {
+      "source": "三大会战",
+      "target": "中国人民解放军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1948-09",
+        "end_date": "1949-01",
+        "description": {
+          "zh-cn": "在三大会战中，解放军击败国军主力，在东北与华北取得军事上绝对优势。",
+          "en": "During the Three Great Campaigns, the PLA defeated the main forces of the Nationalist army, gaining an absolute military advantage in Northeast and North China."
+        }
+      }
+    },
+    {
+      "source": "三大会战",
+      "target": "中华民国国军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1948-09",
+        "end_date": "1949-01",
+        "description": {
+          "zh-cn": "在三大会战中，国军主力被解放军击败，精锐兵团几乎全军覆没。",
+          "en": "During the Three Great Campaigns, the main forces of the Nationalist army were defeated by the PLA, and its elite corps were almost completely annihilated."
+        }
+      }
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-10-01",
+        "description": {
+          "zh-cn": "中国共产党在第二次国共内战中取得决定性胜利，直接导致了中华人民共和国的成立。",
+          "en": "The decisive victory of the Communist Party of China in the Second Chinese Civil War directly led to the establishment of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "第二次国共内战",
+      "target": "中华民国政府迁台",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949-12",
+        "description": {
+          "zh-cn": "由于在第二次国共内战中的军事失利，中华民国政府于1949年12月撤退至台湾。",
+          "en": "Due to military defeat in the Second Chinese Civil War, the government of the Republic of China retreated to Taiwan in December 1949."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "中国共产党",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1946",
+        "description": {
+          "zh-cn": "苏军于1946年在撤离东北回国之前，为中共抢占东北提供了便利，并将部分缴获的日本关东军武器移交给中共军队。",
+          "en": "Before withdrawing from Northeast China in 1946, the Soviet Army facilitated the CPC's occupation of the region and transferred some captured Japanese Kwantung Army weapons to CPC forces."
+        }
+      }
+    },
+    {
+      "source": "朝鲜战争",
+      "target": "美国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1950-06",
+        "description": {
+          "zh-cn": "朝鲜战争的爆发促使美国派遣第七舰队进入台湾海峡，以防止国共冲突扩大。",
+          "en": "The outbreak of the Korean War prompted the United States to dispatch the Seventh Fleet into the Taiwan Strait to prevent the expansion of the KMT-CPC conflict."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "中国人民解放军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1950-06",
+        "description": {
+          "zh-cn": "美国第七舰队进入台湾海峡，实施“台湾海峡中立化”，阻止了中国人民解放军渡海攻台的计划。",
+          "en": "The entry of the U.S. Seventh Fleet into the Taiwan Strait, implementing the 'neutralization of the Taiwan Strait', thwarted the PLA's plan to invade Taiwan by sea."
+        }
+      }
+    },
+    {
+      "source": "告台湾同胞书",
+      "target": "国共内战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1979-01-01",
+        "description": {
+          "zh-cn": "《告台湾同胞书》的发表及中华人民共和国停止炮击金门等岛屿的声明，标志着国共内战大规模军事冲突的结束。",
+          "en": "The issuance of the 'Message to Compatriots in Taiwan' and the PRC's announcement to cease shelling islands like Kinmen marked the end of large-scale military conflict in the Chinese Civil War."
+        }
+      }
+    },
+    {
+      "source": "李登辉",
+      "target": "动员戡乱时期临时条款",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1991-05-01",
+        "description": {
+          "zh-cn": "1991年5月1日，时任中华民国总统李登辉宣布废止《动员戡乱时期临时条款》，从法理上结束了与中国共产党的战争状态。",
+          "en": "On May 1, 1991, then-ROC President Lee Teng-hui announced the repeal of the 'Temporary Provisions against the Communist Rebellion', legally ending the state of war with the Chinese Communist Party."
+        }
+      }
+    }
+  ]
+}

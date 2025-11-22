@@ -1,0 +1,877 @@
+{
+  "nodes": [
+    {
+      "id": "东京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "东京市"
+        ],
+        "en": [
+          "Tokyo City"
+        ]
+      },
+      "properties": {
+        "period": "1889-05-01 - 1943-07-01",
+        "description": {
+          "zh-cn": "大日本帝国东京府东部的一个市，成立于1889年，1943年与东京府合并改制为东京都。其辖区范围相当于现今的东京都区部。",
+          "en": "A city in the eastern part of Tokyo Prefecture, Empire of Japan. It was established in 1889 and merged with Tokyo Prefecture to form Tokyo Metropolis in 1943. Its administrative area is equivalent to the present-day special wards of Tokyo."
+        }
+      }
+    },
+    {
+      "id": "东京府",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "东京府"
+        ],
+        "en": [
+          "Tokyo Prefecture"
+        ]
+      },
+      "properties": {
+        "period": "1868-09-03 - 1943-07-01",
+        "description": {
+          "zh-cn": "日本曾存在的一级行政区，是东京市的上级地方行政区，于1943年与东京市合并改制为东京都。",
+          "en": "A former first-level administrative division of Japan and the superior local government of Tokyo City. It merged with Tokyo City in 1943 to form Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "东京都",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "东京都"
+        ],
+        "en": [
+          "Tokyo Metropolis"
+        ]
+      },
+      "properties": {
+        "period": "1943-07-01 - ",
+        "description": {
+          "zh-cn": "日本的都道府县之一，由原东京府与东京市于1943年合并改制而成。",
+          "en": "One of the prefectures of Japan, formed in 1943 by the merger of the former Tokyo Prefecture and Tokyo City."
+        }
+      }
+    },
+    {
+      "id": "东京都制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "东京都制"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本于1943年实施的一项法律，该法废除了东京府和东京市，并设立了东京都。",
+          "en": "A Japanese law enacted in 1943, which abolished Tokyo Prefecture and Tokyo City and established Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "市制 (日本)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "市制 (日本)",
+          "市制"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本于1888年实施的关于市级行政区划的法律。",
+          "en": "A Japanese law concerning municipal administrative divisions enacted in 1888."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868-01-03 - 1947-05-03",
+        "description": {
+          "zh-cn": "1868年至1947年间日本的国号，东京市是其首都。",
+          "en": "The official name of Japan from 1868 to 1947, during which Tokyo City was its capital."
+        }
+      }
+    },
+    {
+      "id": "东京都区部",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "东京都区部",
+          "东京23区"
+        ],
+        "en": [
+          "Special wards of Tokyo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本东京都的特别区，其范围与1943年被废除前的东京市辖区范围相同。",
+          "en": "The special wards of Tokyo Metropolis, Japan. Their area corresponds to the administrative area of the former Tokyo City before its abolition in 1943."
+        }
+      }
+    },
+    {
+      "id": "日本国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本国政府",
+          "日本政府"
+        ],
+        "en": [
+          "Government of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的中央政府。",
+          "en": "The central government of Japan."
+        }
+      }
+    },
+    {
+      "id": "关东大地震",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "关东大地震",
+          "关东大震灾"
+        ],
+        "en": [
+          "Great Kantō earthquake"
+        ]
+      },
+      "properties": {
+        "period": "1923-09-01 - 1923-09-01",
+        "description": {
+          "zh-cn": "1923年9月1日发生于日本关东平原的强烈地震，对东京市造成了毁灭性破坏。",
+          "en": "A severe earthquake that struck the Kantō Plain of Japan on September 1, 1923, causing devastating damage to Tokyo City."
+        }
+      }
+    },
+    {
+      "id": "后藤新平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "后藤新平"
+        ],
+        "en": [
+          "Gotō Shinpei"
+        ]
+      },
+      "properties": {
+        "lifetime": "1857-07-24 - 1929-04-13",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本政治家，曾任东京市长。在关东大地震后出任内务大臣，并主导东京的重建工作。",
+          "en": "A Japanese politician who served as Mayor of Tokyo. After the Great Kantō earthquake, he became Minister of Home Affairs and led the reconstruction of Tokyo."
+        }
+      }
+    },
+    {
+      "id": "帝都复兴院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "帝都复兴院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由后藤新平在关东大地震后设立，负责东京重建工作的机构。",
+          "en": "An agency established by Gotō Shinpei after the Great Kantō earthquake to oversee the reconstruction of Tokyo."
+        }
+      }
+    },
+    {
+      "id": "东京复兴计划",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "东京复兴计划"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由后藤新平在关东大地震后提出的全面都市改造计划。",
+          "en": "A comprehensive urban redevelopment plan proposed by Gotō Shinpei after the Great Kantō earthquake."
+        }
+      }
+    },
+    {
+      "id": "太平洋战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "太平洋战争"
+        ],
+        "en": [
+          "Pacific War"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-07 - 1945-09-02",
+        "description": {
+          "zh-cn": "第二次世界大战中，以日本为首的轴心国和以美国为首的同盟国于太平洋及其周边地区爆发的战争。战争期间日本政府加强了对地方的管制，促成了《东京都制》的实施。",
+          "en": "The theater of World War II that was fought in the Pacific and its surrounding areas. During the war, the Japanese government increased its control over local autonomy, which contributed to the implementation of the Tokyo Metropolis System."
+        }
+      }
+    },
+    {
+      "id": "1940年夏季奥林匹克运动会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1940年夏季奥林匹克运动会"
+        ],
+        "en": [
+          "1940 Summer Olympics"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "原定于东京市举办的夏季奥林匹克运动会，后因中国抗日战争爆发而由日本方面放弃主办权。",
+          "en": "The Summer Olympics originally scheduled to be held in Tokyo City, which Japan later relinquished the right to host due to the outbreak of the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "中国抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中国抗日战争",
+          "日本对华战事"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937-07-07 - 1945-09-09",
+        "description": {
+          "zh-cn": "1937年至1945年间，中华民国与大日本帝国之间发生的战争。该战争是日本放弃1940年东京奥运会主办权的主要原因。",
+          "en": "The war fought between the Republic of China and the Empire of Japan from 1937 to 1945. This war was the primary reason Japan relinquished its right to host the 1940 Tokyo Olympics."
+        }
+      }
+    },
+    {
+      "id": "大日本体育协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本体育协会",
+          "日本奥林匹克委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本当时的国家奥林匹克委员会，于1938年7月正式放弃1940年东京奥运会的主办权。",
+          "en": "Japan's National Olympic Committee at the time, which formally relinquished the right to host the 1940 Tokyo Olympics in July 1938."
+        }
+      }
+    },
+    {
+      "id": "东京大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东京大学",
+          "东京帝国大学"
+        ],
+        "en": [
+          "The University of Tokyo",
+          "Tokyo Imperial University"
+        ]
+      },
+      "properties": {
+        "period": "1877 - ",
+        "description": {
+          "zh-cn": "日本的第一所近代大学，也是日本的最高学府。",
+          "en": "The first modern university in Japan and the country's most prestigious academic institution."
+        }
+      }
+    },
+    {
+      "id": "夏目漱石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "夏目漱石"
+        ],
+        "en": [
+          "Natsume Sōseki"
+        ]
+      },
+      "properties": {
+        "lifetime": "1867-02-09 - 1916-12-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本著名作家，出生于东京牛込区，曾在东京帝国大学担任英文学讲师。",
+          "en": "A renowned Japanese novelist, born in Ushigome-ku, Tokyo, who once served as an English literature lecturer at Tokyo Imperial University."
+        }
+      }
+    },
+    {
+      "id": "芥川龙之介",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "芥川龙之介"
+        ],
+        "en": [
+          "Ryūnosuke Akutagawa"
+        ]
+      },
+      "properties": {
+        "lifetime": "1892-03-01 - 1927-07-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本著名短篇小说家，毕业于东京帝国大学英文科。",
+          "en": "A famous Japanese short story writer who graduated from the English Department of Tokyo Imperial University."
+        }
+      }
+    },
+    {
+      "id": "川端康成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "川端康成"
+        ],
+        "en": [
+          "Yasunari Kawabata"
+        ]
+      },
+      "properties": {
+        "lifetime": "1899-06-11 - 1972-04-16",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本小说家，诺贝尔文学奖得主，毕业于东京帝国大学。",
+          "en": "A Japanese novelist and Nobel laureate in Literature, who graduated from Tokyo Imperial University."
+        }
+      }
+    },
+    {
+      "id": "佐藤荣作",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "佐藤荣作"
+        ],
+        "en": [
+          "Eisaku Satō"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-03-27 - 1975-06-03",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本政治家，曾任内阁总理大臣，诺贝尔和平奖得主，毕业于东京帝国大学。",
+          "en": "A Japanese politician who served as Prime Minister, Nobel Peace Prize laureate, and graduated from Tokyo Imperial University."
+        }
+      }
+    },
+    {
+      "id": "大隈重信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "大隈重信"
+        ],
+        "en": [
+          "Ōkuma Shigenobu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1838-03-11 - 1922-01-10",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本政治家，曾两度出任内阁总理大臣，是早稻田大学的创始人。",
+          "en": "A Japanese politician who served as Prime Minister twice and was the founder of Waseda University."
+        }
+      }
+    },
+    {
+      "id": "早稻田大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "早稻田大学"
+        ],
+        "en": [
+          "Waseda University"
+        ]
+      },
+      "properties": {
+        "period": "1882 - ",
+        "description": {
+          "zh-cn": "位于东京的日本顶尖私立大学，由大隈重信创立。",
+          "en": "A top private university in Japan located in Tokyo, founded by Ōkuma Shigenobu."
+        }
+      }
+    },
+    {
+      "id": "福泽谕吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "福泽谕吉"
+        ],
+        "en": [
+          "Fukuzawa Yukichi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1835-01-10 - 1901-02-03",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本近代重要的启蒙思想家、教育家，庆应义塾大学的创始人。",
+          "en": "An influential enlightenment thinker and educator in modern Japan, and the founder of Keio University."
+        }
+      }
+    },
+    {
+      "id": "庆应义塾大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "庆应义塾大学"
+        ],
+        "en": [
+          "Keio University"
+        ]
+      },
+      "properties": {
+        "period": "1858 - ",
+        "description": {
+          "zh-cn": "位于东京的日本顶尖私立大学，由福泽谕吉创立。",
+          "en": "A top private university in Japan located in Tokyo, founded by Fukuzawa Yukichi."
+        }
+      }
+    },
+    {
+      "id": "东京地下铁道",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东京地下铁道"
+        ],
+        "en": [
+          "Tokyo Underground Railway"
+        ]
+      },
+      "properties": {
+        "period": "1920 - 1941",
+        "description": {
+          "zh-cn": "日本的民营铁路公司，营运了东亚第一条地铁，后与东京高速铁道合并为帝都高速度交通营团。",
+          "en": "A private Japanese railway company that operated the first subway in East Asia. It later merged with Tokyo Rapid Transit to form the Teito Rapid Transit Authority."
+        }
+      }
+    },
+    {
+      "id": "东京高速铁道",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东京高速铁道"
+        ],
+        "en": [
+          "Tokyo Rapid Transit"
+        ]
+      },
+      "properties": {
+        "period": "1934 - 1941",
+        "description": {
+          "zh-cn": "日本的民营铁路公司，后与东京地下铁道合并为帝都高速度交通营团。",
+          "en": "A private Japanese railway company that later merged with Tokyo Underground Railway to form the Teito Rapid Transit Authority."
+        }
+      }
+    },
+    {
+      "id": "帝都高速度交通营团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "帝都高速度交通营团"
+        ],
+        "en": [
+          "Teito Rapid Transit Authority"
+        ]
+      },
+      "properties": {
+        "period": "1941-07-04 - 2004-04-01",
+        "description": {
+          "zh-cn": "营运东京市内地铁的机构，由东京地下铁道与东京高速铁道于1941年合并而成。",
+          "en": "The authority that operated the subway system in Tokyo City, formed by the merger of Tokyo Underground Railway and Tokyo Rapid Transit in 1941."
+        }
+      }
+    },
+    {
+      "id": "明治",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "明治",
+          "明治政府"
+        ],
+        "en": [
+          "Meiji",
+          "Meiji Government"
+        ]
+      },
+      "properties": {
+        "period": "1868 - 1912",
+        "description": {
+          "zh-cn": "日本明治天皇在位期间（1868-1912）的政府，推行了一系列现代化改革。",
+          "en": "The government of Japan during the reign of Emperor Meiji (1868-1912), which implemented a series of modernization reforms."
+        }
+      }
+    },
+    {
+      "id": "江户",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江户"
+        ],
+        "en": [
+          "Edo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东京的旧称，德川幕府的所在地。",
+          "en": "The former name of Tokyo and the seat of the Tokugawa shogunate."
+        }
+      }
+    },
+    {
+      "id": "牛込区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "牛込区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东京市曾经存在的一个区，作家夏目漱石出生于此。",
+          "en": "A former ward of Tokyo City where the novelist Natsume Sōseki was born."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "市制 (日本)",
+      "target": "东京市",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1889-05-01",
+        "description": {
+          "zh-cn": "东京市依据1888年实施的《市制》于1889年5月1日成立。",
+          "en": "Tokyo City was established on May 1, 1889, in accordance with the City System law enacted in 1888."
+        }
+      }
+    },
+    {
+      "source": "东京都制",
+      "target": "东京市",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1943-07-01",
+        "description": {
+          "zh-cn": "根据1943年7月1日实施的《东京都制》，东京市被废除。",
+          "en": "According to the Tokyo Metropolis System enacted on July 1, 1943, Tokyo City was abolished."
+        }
+      }
+    },
+    {
+      "source": "东京都制",
+      "target": "东京府",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1943-07-01",
+        "description": {
+          "zh-cn": "根据1943年7月1日实施的《东京都制》，东京府被废除。",
+          "en": "According to the Tokyo Metropolis System enacted on July 1, 1943, Tokyo Prefecture was abolished."
+        }
+      }
+    },
+    {
+      "source": "东京都制",
+      "target": "东京都",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-07-01",
+        "description": {
+          "zh-cn": "根据1943年7月1日实施的《东京都制》，设立了东京都。",
+          "en": "According to the Tokyo Metropolis System enacted on July 1, 1943, Tokyo Metropolis was established."
+        }
+      }
+    },
+    {
+      "source": "日本国政府",
+      "target": "东京都制",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-06",
+        "description": {
+          "zh-cn": "1943年6月，日本政府公布了《东京都制》。",
+          "en": "In June 1943, the Japanese government promulgated the Tokyo Metropolis System."
+        }
+      }
+    },
+    {
+      "source": "东京市",
+      "target": "东京府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1889-05-01",
+        "end_date": "1943-07-01",
+        "description": {
+          "zh-cn": "东京市是东京府东部的一个市，在行政上隶属于东京府。",
+          "en": "Tokyo City was a city in the eastern part of Tokyo Prefecture and was administratively subordinate to it."
+        }
+      }
+    },
+    {
+      "source": "东京市",
+      "target": "东京都区部",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "东京市的辖区范围在1936年后即相当于现今的东京都区部。",
+          "en": "The administrative area of Tokyo City after 1936 is equivalent to the present-day special wards of Tokyo."
+        }
+      }
+    },
+    {
+      "source": "明治",
+      "target": "江户",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1868",
+        "description": {
+          "zh-cn": "1868年，明治政府宣布将江户改名为东京。",
+          "en": "In 1868, the Meiji government announced the renaming of Edo to Tokyo."
+        }
+      }
+    },
+    {
+      "source": "关东大地震",
+      "target": "东京市",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1923-09-01",
+        "description": {
+          "zh-cn": "1923年的关东大地震导致东京市城市机能陷入瘫痪。",
+          "en": "The Great Kantō earthquake of 1923 paralyzed the urban functions of Tokyo City."
+        }
+      }
+    },
+    {
+      "source": "关东大地震",
+      "target": "东京复兴计划",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1923",
+        "description": {
+          "zh-cn": "关东大地震是东京复兴计划提出的直接原因。",
+          "en": "The Great Kantō earthquake was the direct cause for the proposal of the Tokyo Reconstruction Plan."
+        }
+      }
+    },
+    {
+      "source": "后藤新平",
+      "target": "帝都复兴院",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1923",
+        "description": {
+          "zh-cn": "关东大地震后，时任内务大臣的后藤新平设立了帝都复兴院以主导重建工作。",
+          "en": "After the Great Kantō earthquake, Gotō Shinpei, then Minister of Home Affairs, established the Imperial Capital Reconstruction Agency to lead the reconstruction efforts."
+        }
+      }
+    },
+    {
+      "source": "后藤新平",
+      "target": "东京复兴计划",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1923",
+        "description": {
+          "zh-cn": "后藤新平提出了《东京复兴计划》，对东京进行全面的都市改造。",
+          "en": "Gotō Shinpei proposed the Tokyo Reconstruction Plan for the comprehensive urban redevelopment of Tokyo."
+        }
+      }
+    },
+    {
+      "source": "太平洋战争",
+      "target": "东京都制",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "太平洋战争爆发后，日本政府对地方自治的管制加剧，这促成了《东京都制》的实施。",
+          "en": "After the outbreak of the Pacific War, the Japanese government's increased control over local autonomy led to the implementation of the Tokyo Metropolis System."
+        }
+      }
+    },
+    {
+      "source": "中国抗日战争",
+      "target": "1940年夏季奥林匹克运动会",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "由于中国抗日战争的持续，日本放弃了1940年夏季奥林匹克运动会的主办权。",
+          "en": "Due to the ongoing Second Sino-Japanese War, Japan relinquished its right to host the 1940 Summer Olympics."
+        }
+      }
+    },
+    {
+      "source": "大日本体育协会",
+      "target": "1940年夏季奥林匹克运动会",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1938-07",
+        "description": {
+          "zh-cn": "1938年7月，大日本体育协会正式宣布放弃1940年夏季奥林匹克运动会的主办权。",
+          "en": "In July 1938, the Japan Amateur Athletic Association officially announced the relinquishment of the hosting rights for the 1940 Summer Olympics."
+        }
+      }
+    },
+    {
+      "source": "夏目漱石",
+      "target": "牛込区",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "夏目漱石出生在东京市牛込区马场下横町。",
+          "en": "Natsume Sōseki was born in Babashita-yokocho, Ushigome-ku, Tokyo City."
+        }
+      }
+    },
+    {
+      "source": "夏目漱石",
+      "target": "东京大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "英文学讲师",
+          "en": "English Literature Lecturer"
+        },
+        "description": {
+          "zh-cn": "夏目漱石曾在东京帝国大学担任英文学讲师。",
+          "en": "Natsume Sōseki once served as an English literature lecturer at Tokyo Imperial University."
+        }
+      }
+    },
+    {
+      "source": "芥川龙之介",
+      "target": "东京大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "英文科",
+          "en": "English Department"
+        },
+        "description": {
+          "zh-cn": "芥川龙之介毕业于东京帝国大学英文科。",
+          "en": "Ryūnosuke Akutagawa graduated from the English Department of Tokyo Imperial University."
+        }
+      }
+    },
+    {
+      "source": "川端康成",
+      "target": "东京大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "川端康成毕业于东京帝国大学。",
+          "en": "Yasunari Kawabata graduated from Tokyo Imperial University."
+        }
+      }
+    },
+    {
+      "source": "佐藤荣作",
+      "target": "东京大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "佐藤荣作毕业于东京帝国大学。",
+          "en": "Eisaku Satō graduated from Tokyo Imperial University."
+        }
+      }
+    },
+    {
+      "source": "大隈重信",
+      "target": "早稻田大学",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "早稻田大学由大隈重信创建。",
+          "en": "Waseda University was founded by Ōkuma Shigenobu."
+        }
+      }
+    },
+    {
+      "source": "福泽谕吉",
+      "target": "庆应义塾大学",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "庆应义塾大学由福泽谕吉创建。",
+          "en": "Keio University was founded by Fukuzawa Yukichi."
+        }
+      }
+    },
+    {
+      "source": "东京地下铁道",
+      "target": "帝都高速度交通营团",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1941-07-04",
+        "description": {
+          "zh-cn": "1941年7月4日，东京地下铁道与东京高速铁道合并，成立了帝都高速度交通营团。",
+          "en": "On July 4, 1941, Tokyo Underground Railway and Tokyo Rapid Transit merged to form the Teito Rapid Transit Authority."
+        }
+      }
+    },
+    {
+      "source": "东京高速铁道",
+      "target": "帝都高速度交通营团",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1941-07-04",
+        "description": {
+          "zh-cn": "1941年7月4日，东京高速铁道与东京地下铁道合并，成立了帝都高速度交通营团。",
+          "en": "On July 4, 1941, Tokyo Rapid Transit and Tokyo Underground Railway merged to form the Teito Rapid Transit Authority."
+        }
+      }
+    }
+  ]
+}

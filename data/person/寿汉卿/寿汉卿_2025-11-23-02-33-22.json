@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "id": "寿汉卿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "寿汉卿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1915 - 1991",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "诸暨",
+          "en": "Zhuji"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中华人民共和国纺织工业部副部长，中国丝绸公司副董事长。",
+          "en": "A political figure of the People's Republic of China, who served as the Vice Minister of the Ministry of Textile Industry of the People's Republic of China and Vice Chairman of the China Silk Corporation."
+        }
+      }
+    },
+    {
+      "id": "浙江",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江"
+        ],
+        "en": [
+          "Zhejiang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "诸暨",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "诸暨"
+        ],
+        "en": [
+          "Zhuji"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国纺织工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国纺织工业部"
+        ],
+        "en": [
+          "Ministry of Textile Industry of the People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国丝绸公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国丝绸公司"
+        ],
+        "en": [
+          "China Silk Corporation"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中国共产党党员"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "寿汉卿",
+      "target": "诸暨",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "寿汉卿",
+      "target": "中华人民共和国纺织工业部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Vice Minister"
+        },
+        "description": {
+          "zh-cn": "寿汉卿曾任中华人民共和国纺织工业部副部长。",
+          "en": "Shou Hanqing served as the Vice Minister of the Ministry of Textile Industry of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "寿汉卿",
+      "target": "中国丝绸公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副董事长",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "寿汉卿曾任中国丝绸公司副董事长。",
+          "en": "Shou Hanqing served as the Vice Chairman of the China Silk Corporation."
+        }
+      }
+    },
+    {
+      "source": "寿汉卿",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "寿汉卿是中国共产党党员。",
+          "en": "Shou Hanqing was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "诸暨",
+      "target": "浙江",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "诸暨是浙江省的一个县级市。",
+          "en": "Zhuji is a county-level city in Zhejiang Province."
+        }
+      }
+    }
+  ]
+}

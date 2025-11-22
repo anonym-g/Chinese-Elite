@@ -1,0 +1,664 @@
+{
+  "nodes": [
+    {
+      "id": "蚂蚁科技集团股份有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蚂蚁科技集团股份有限公司",
+          "蚂蚁集团",
+          "蚂蚁金服",
+          "浙江蚂蚁小微金融服务集团股份有限公司"
+        ],
+        "en": [
+          "Ant Group Co., Ltd.",
+          "Ant Group",
+          "Ant Financial"
+        ]
+      },
+      "properties": {
+        "period": "2014-10-16 - ",
+        "location": {
+          "zh-cn": "中国浙江省杭州市西湖区",
+          "en": "Xihu District, Hangzhou, Zhejiang, China"
+        },
+        "description": {
+          "zh-cn": "中国的互联网金融服务公司，起步于淘宝网的第三方支付平台“支付宝”。2020年末，其首次公开募股计划被中国政府叫停，并受到一系列强力整顿。",
+          "en": "A Chinese internet financial services company that originated from 'Alipay', the third-party payment platform of Taobao. In late 2020, its initial public offering (IPO) was halted by the Chinese government, and it has since undergone a series of intense rectifications."
+        }
+      }
+    },
+    {
+      "id": "马云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马云"
+        ],
+        "en": [
+          "Jack Ma"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国企业家，阿里巴巴集团及蚂蚁集团的创始人。在2020年外滩金融峰会上的演讲被认为是其公司受到政府强力整顿的导火索。后不再是蚂蚁集团的实际控制人。",
+          "en": "Chinese entrepreneur, founder of Alibaba Group and Ant Group. His speech at the 2020 Bund Summit is considered the trigger for the government's crackdown on his company. He is no longer the actual controller of Ant Group."
+        }
+      }
+    },
+    {
+      "id": "阿里巴巴集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿里巴巴集团"
+        ],
+        "en": [
+          "Alibaba Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国大型跨国控股公司，专于电子商务、零售、互联网、人工智能和技术。蚂蚁集团由其金融业务分拆而来。",
+          "en": "A large Chinese multinational holding company specializing in e-commerce, retail, Internet, AI, and technology. Ant Group was spun off from its financial services business."
+        }
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": [
+          "Xi Jinping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党中央委员会总书记、中华人民共和国主席、中央军事委员会主席。据报道，他亲自下令阻止了蚂蚁集团的首次公开募股。",
+          "en": "General Secretary of the Central Committee of the Communist Party of China, President of the People's Republic of China, and Chairman of the Central Military Commission. He reportedly personally ordered the halt of Ant Group's IPO."
+        }
+      }
+    },
+    {
+      "id": "蚂蚁集团首次公开募股",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "蚂蚁集团首次公开募股"
+        ],
+        "en": [
+          "Ant Group IPO"
+        ]
+      },
+      "properties": {
+        "period": "2020-10 - 2020-11",
+        "description": {
+          "zh-cn": "蚂蚁集团原计划于2020年11月在上海和香港同步上市，预计成为全球史上最大规模的IPO，但在上市前夕被中国监管机构紧急叫停。",
+          "en": "Ant Group had planned a concurrent listing in Shanghai and Hong Kong in November 2020, which was expected to be the largest IPO in global history. However, it was abruptly halted by Chinese regulators on the eve of its debut."
+        }
+      }
+    },
+    {
+      "id": "上海证券交易所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海证券交易所"
+        ],
+        "en": [
+          "Shanghai Stock Exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的证券交易所之一。该机构于2020年11月3日发布决定，暂缓蚂蚁集团的科创板上市。",
+          "en": "One of the stock exchanges in China. On November 3, 2020, it issued a decision to suspend Ant Group's STAR Market listing."
+        }
+      }
+    },
+    {
+      "id": "香港交易所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港交易所"
+        ],
+        "en": [
+          "Hong Kong Stock Exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港的证券交易所。该机构于2020年11月3日宣布暂缓蚂蚁集团的H股上市。",
+          "en": "The stock exchange of Hong Kong. On November 3, 2020, it announced the suspension of Ant Group's H-share listing."
+        }
+      }
+    },
+    {
+      "id": "中国人民银行",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民银行"
+        ],
+        "en": [
+          "People's Bank of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的中央银行，参与了对蚂蚁集团的监管约谈和整顿。",
+          "en": "The central bank of the People's Republic of China, which participated in the regulatory talks and rectification of Ant Group."
+        }
+      }
+    },
+    {
+      "id": "中国银保监会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国银保监会"
+        ],
+        "en": [
+          "China Banking and Insurance Regulatory Commission"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的银行和保险业监督管理机构，参与了对蚂蚁集团的监管约谈和整顿。",
+          "en": "The banking and insurance industry regulator of the People's Republic of China, which participated in the regulatory talks and rectification of Ant Group."
+        }
+      }
+    },
+    {
+      "id": "中国证监会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国证监会"
+        ],
+        "en": [
+          "China Securities Regulatory Commission"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的证券监督管理机构，参与了对蚂蚁集团的监管约谈和整顿，并对其处以罚款。",
+          "en": "The securities regulator of the People's Republic of China, which participated in the regulatory talks and rectification of Ant Group, and imposed a fine on it."
+        }
+      }
+    },
+    {
+      "id": "国家外汇管理局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家外汇管理局"
+        ],
+        "en": [
+          "State Administration of Foreign Exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的外汇管理机构，参与了对蚂蚁集团的监管约谈和整顿。",
+          "en": "The foreign exchange regulator of the People's Republic of China, which participated in the regulatory talks and rectification of Ant Group."
+        }
+      }
+    },
+    {
+      "id": "支付宝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "支付宝"
+        ],
+        "en": [
+          "Alipay"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "蚂蚁集团旗下的第三方支付平台，也是蚂蚁集团业务的起点。",
+          "en": "A third-party payment platform under Ant Group, and the starting point of Ant Group's business."
+        }
+      }
+    },
+    {
+      "id": "淘宝网",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "淘宝网"
+        ],
+        "en": [
+          "Taobao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国网上购物网站，最早于2003年推出支付宝服务。",
+          "en": "A Chinese online shopping website that first launched the Alipay service in 2003."
+        }
+      }
+    },
+    {
+      "id": "江志成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江志成"
+        ],
+        "en": [
+          "Alvin Jiang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前中共中央总书记江泽民之孙，据报道是蚂蚁集团的参股人之一。",
+          "en": "Grandson of former CCP General Secretary Jiang Zemin, reportedly one of the shareholders of Ant Group."
+        }
+      }
+    },
+    {
+      "id": "江泽民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江泽民"
+        ],
+        "en": [
+          "Jiang Zemin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1926-08-17 - 2022-11-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任中国共产党中央委员会总书记、中华人民共和国主席等职务。",
+          "en": "Former General Secretary of the Central Committee of the Communist Party of China and President of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "李伯潭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李伯潭"
+        ],
+        "en": [
+          "Li Botan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前中共中央政治局常委贾庆林的女婿，据报道是蚂蚁集团的参股人之一。",
+          "en": "Son-in-law of former Politburo Standing Committee member Jia Qinglin, reportedly one of the shareholders of Ant Group."
+        }
+      }
+    },
+    {
+      "id": "贾庆林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贾庆林"
+        ],
+        "en": [
+          "Jia Qinglin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任中国共产党中央政治局常务委员会委员、中国人民政治协商会议全国委员会主席等职务。",
+          "en": "Former member of the Standing Committee of the Political Bureau of the CPC Central Committee and Chairman of the National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "井贤栋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "井贤栋"
+        ],
+        "en": [
+          "Eric Jing"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蚂蚁集团董事长。",
+          "en": "Chairman of Ant Group."
+        }
+      }
+    },
+    {
+      "id": "美国外资审议委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国外资审议委员会"
+        ],
+        "en": [
+          "Committee on Foreign Investment in the United States",
+          "CFIUS"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国联邦政府委员会，负责审查外国投资者收购美国企业的交易对国家安全的影响。该机构否决了蚂蚁集团对速汇金的收购。",
+          "en": "A U.S. federal government committee that reviews the national security implications of foreign investments in U.S. companies. It rejected Ant Group's acquisition of MoneyGram."
+        }
+      }
+    },
+    {
+      "id": "速汇金",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "速汇金"
+        ],
+        "en": [
+          "MoneyGram"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国汇款服务公司，蚂蚁集团曾试图收购该公司但未获批准。",
+          "en": "An American money transfer company that Ant Group attempted to acquire but was not approved."
+        }
+      }
+    },
+    {
+      "id": "杭州市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "杭州市",
+          "杭州"
+        ],
+        "en": [
+          "Hangzhou City",
+          "Hangzhou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国浙江省的省会。蚂蚁集团的全球总部所在地。",
+          "en": "The capital of Zhejiang Province, China. It is the location of Ant Group's global headquarters."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "马云",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2014-10-16",
+        "description": {
+          "zh-cn": "马云是蚂蚁集团的创始人。",
+          "en": "Ma Yun is the founder of Ant Group."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014",
+        "description": {
+          "zh-cn": "2014年，阿里巴巴集团分拆旗下支付金融业务，正式成立独立的蚂蚁金服（蚂蚁集团前身）。",
+          "en": "In 2014, Alibaba Group spun off its payment and financial services business to formally establish the independent Ant Financial (the predecessor of Ant Group)."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-01",
+        "description": {
+          "zh-cn": "阿里巴巴通过一家中国子公司入股并获得蚂蚁金服33%的股权。",
+          "en": "Alibaba acquired a 33% stake in Ant Financial through a Chinese subsidiary."
+        }
+      }
+    },
+    {
+      "source": "支付宝",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "蚂蚁集团起步于第三方支付平台“支付宝”。",
+          "en": "Ant Group originated from the third-party payment platform 'Alipay'."
+        }
+      }
+    },
+    {
+      "source": "支付宝",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "支付宝是蚂蚁集团旗下的第三方支付平台。",
+          "en": "Alipay is a third-party payment platform under Ant Group."
+        }
+      }
+    },
+    {
+      "source": "淘宝网",
+      "target": "支付宝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003-10",
+        "description": {
+          "zh-cn": "2003年10月，淘宝网首次推出名为“支付宝”的担保交易服务。",
+          "en": "In October 2003, Taobao first launched a guaranteed transaction service called 'Alipay'."
+        }
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "蚂蚁集团首次公开募股",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11",
+        "description": {
+          "zh-cn": "据《华尔街日报》报道，在马云于外滩金融峰会发言后，中共中央总书记习近平亲自下令阻止蚂蚁集团的IPO。",
+          "en": "According to The Wall Street Journal, after Jack Ma's speech at the Bund Summit, CCP General Secretary Xi Jinping personally ordered the halt of Ant Group's IPO."
+        }
+      }
+    },
+    {
+      "source": "马云",
+      "target": "蚂蚁集团首次公开募股",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-10-24",
+        "description": {
+          "zh-cn": "马云于2020年10月24日在第二届外滩金融峰会上的演讲，批评中国金融监管体系，此举被认为激怒了中共高层，是导致蚂蚁集团IPO被叫停的直接原因。",
+          "en": "Jack Ma's speech at the Second Bund Summit on October 24, 2020, criticizing China's financial regulatory system, is believed to have angered high-level CCP officials and was the direct cause for the suspension of Ant Group's IPO."
+        }
+      }
+    },
+    {
+      "source": "上海证券交易所",
+      "target": "蚂蚁集团首次公开募股",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11-03",
+        "description": {
+          "zh-cn": "上海证券交易所发布公告，决定暂缓蚂蚁集团的科创板上市。",
+          "en": "The Shanghai Stock Exchange announced its decision to suspend Ant Group's STAR Market listing."
+        }
+      }
+    },
+    {
+      "source": "香港交易所",
+      "target": "蚂蚁集团首次公开募股",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11-03",
+        "description": {
+          "zh-cn": "香港交易所发表声明，暂缓蚂蚁集团H股上市。",
+          "en": "The Hong Kong Stock Exchange issued a statement suspending Ant Group's H-share listing."
+        }
+      }
+    },
+    {
+      "source": "中国人民银行",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11-02",
+        "description": {
+          "zh-cn": "中国人民银行联合其他金融管理部门对蚂蚁集团进行了多次监管约谈，并督促其进行整改。",
+          "en": "The People's Bank of China, along with other financial regulatory authorities, conducted multiple regulatory talks with Ant Group and urged it to carry out rectification."
+        }
+      }
+    },
+    {
+      "source": "中国银保监会",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11-02",
+        "description": {
+          "zh-cn": "中国银保监会联合其他金融管理部门对蚂蚁集团进行了多次监管约谈，并督促其进行整改。",
+          "en": "The China Banking and Insurance Regulatory Commission, along with other financial regulatory authorities, conducted multiple regulatory talks with Ant Group and urged it to carry out rectification."
+        }
+      }
+    },
+    {
+      "source": "中国证监会",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11-02",
+        "end_date": "2023-07-07",
+        "description": {
+          "zh-cn": "中国证监会联合其他金融管理部门对蚂蚁集团进行了多次监管约谈和整改，并于2023年7月7日对其处以71.23亿元人民币的罚款。",
+          "en": "The China Securities Regulatory Commission, along with other financial regulatory authorities, conducted multiple regulatory talks and rectification with Ant Group, and imposed a fine of 7.123 billion RMB on it on July 7, 2023."
+        }
+      }
+    },
+    {
+      "source": "国家外汇管理局",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11-02",
+        "description": {
+          "zh-cn": "国家外汇管理局联合其他金融管理部门对蚂蚁集团进行了多次监管约谈，并督促其进行整改。",
+          "en": "The State Administration of Foreign Exchange, along with other financial regulatory authorities, conducted multiple regulatory talks with Ant Group and urged it to carry out rectification."
+        }
+      }
+    },
+    {
+      "source": "井贤栋",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事长",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "江志成",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "据《华尔街日报》报道，江泽民之孙江志成是蚂蚁集团的参股人之一。",
+          "en": "According to The Wall Street Journal, Jiang Zhicheng, grandson of Jiang Zemin, is one of the shareholders of Ant Group."
+        }
+      }
+    },
+    {
+      "source": "江志成",
+      "target": "江泽民",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "江志成是江泽民的孙子。",
+          "en": "Jiang Zhicheng is the grandson of Jiang Zemin."
+        }
+      }
+    },
+    {
+      "source": "李伯潭",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "据《华尔街日报》报道，贾庆林女婿李伯潭是蚂蚁集团的参股人之一。",
+          "en": "According to The Wall Street Journal, Li Botan, son-in-law of Jia Qinglin, is one of the shareholders of Ant Group."
+        }
+      }
+    },
+    {
+      "source": "李伯潭",
+      "target": "贾庆林",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李伯潭是贾庆林的女婿。",
+          "en": "Li Botan is the son-in-law of Jia Qinglin."
+        }
+      }
+    },
+    {
+      "source": "美国外资审议委员会",
+      "target": "蚂蚁科技集团股份有限公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2018-01-02",
+        "description": {
+          "zh-cn": "美国外资审议委员会以国家安全为由，否决了蚂蚁金服收购美国汇款服务公司速汇金的交易。",
+          "en": "The Committee on Foreign Investment in the United States (CFIUS) rejected Ant Financial's acquisition of the American money transfer company MoneyGram on national security grounds."
+        }
+      }
+    },
+    {
+      "source": "蚂蚁科技集团股份有限公司",
+      "target": "马云",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2023-01-07",
+        "description": {
+          "zh-cn": "通过调整股东上层结构，蚂蚁集团宣布不再存在任何直接或间接股东单一或共同控制公司的情形，马云因此失去了对公司的实际控制权，投票权降至6.2%。",
+          "en": "By adjusting its upper-level shareholder structure, Ant Group announced that no single or joint direct or indirect shareholder controls the company, resulting in Jack Ma losing actual control and his voting rights being reduced to 6.2%."
+        }
+      }
+    },
+    {
+      "source": "蚂蚁科技集团股份有限公司",
+      "target": "杭州市",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2020-10-14",
+        "description": {
+          "zh-cn": "杭州市人民政府与蚂蚁集团签订战略合作协议，蚂蚁集团全球总部正式落户杭州。",
+          "en": "The Hangzhou Municipal People's Government signed a strategic cooperation agreement with Ant Group, officially establishing Ant Group's global headquarters in Hangzhou."
+        }
+      }
+    }
+  ]
+}
