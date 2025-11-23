@@ -1,0 +1,274 @@
+{
+  "nodes": [
+    {
+      "id": "平房区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "平房区",
+          "新曙光区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国黑龙江省哈尔滨市",
+          "en": "Harbin, Heilongjiang, China"
+        },
+        "description": {
+          "zh-cn": "黑龙江省哈尔滨市下辖的一个市辖区，旧称新曙光区。在第二次世界大战中，这里曾是日本731部队的总部所在地。",
+          "en": "A municipal district of Harbin, Heilongjiang Province, formerly known as Xishuguang District. During World War II, it was the headquarters of the Japanese Unit 731."
+        }
+      }
+    },
+    {
+      "id": "哈尔滨市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "哈尔滨市",
+          "哈尔滨"
+        ],
+        "en": [
+          "Harbin"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国黑龙江省",
+          "en": "Heilongjiang, China"
+        },
+        "description": {
+          "zh-cn": "中国黑龙江省的省会。",
+          "en": "The capital city of Heilongjiang Province, China."
+        }
+      }
+    },
+    {
+      "id": "黑龙江省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "黑龙江省"
+        ],
+        "en": [
+          "Heilongjiang"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "市辖区",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "市辖区"
+        ],
+        "en": [
+          "Municipal district"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一种县级行政区划。",
+          "en": "A type of county-level administrative division in China."
+        }
+      }
+    },
+    {
+      "id": "731部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "731部队"
+        ],
+        "en": [
+          "Unit 731"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国陆军在第二次世界大战期间设立的生物战研究单位。",
+          "en": "A covert biological and chemical warfare research and development unit of the Imperial Japanese Army during World War II."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家。",
+          "en": "An East Asian country."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战",
+          "二次大战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939 - 1945",
+        "description": {
+          "zh-cn": "一场全球性的战争。",
+          "en": "A global war."
+        }
+      }
+    },
+    {
+      "id": "生物战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "生物战争"
+        ],
+        "en": [
+          "Biological warfare"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种利用生物毒素或细菌、病毒等致病微生物作为武器的战争形式。",
+          "en": "A form of warfare that uses biological toxins or infectious agents such as bacteria, viruses, and fungi as weapons."
+        }
+      }
+    },
+    {
+      "id": "侵华日军第七三一部队罪证陈列馆",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "侵华日军第七三一部队罪证陈列馆"
+        ],
+        "en": [
+          "Exhibition Hall of Evidence of War Crimes by Unit 731 of the Japanese Army of Aggression"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国黑龙江省哈尔滨市平房区",
+          "en": "Pingfang District, Harbin, Heilongjiang, China"
+        },
+        "description": {
+          "zh-cn": "位于731部队总部原址的战争罪行博物馆。",
+          "en": "A museum on the former site of the headquarters of Unit 731, documenting its war crimes."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "平房区",
+      "target": "哈尔滨市",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "平房区是哈尔滨市下辖的一个市辖区。",
+          "en": "Pingfang District is a municipal district under the jurisdiction of Harbin."
+        }
+      }
+    },
+    {
+      "source": "哈尔滨市",
+      "target": "黑龙江省",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "哈尔滨市是黑龙江省的省会城市。",
+          "en": "Harbin is the capital city of Heilongjiang Province."
+        }
+      }
+    },
+    {
+      "source": "731部队",
+      "target": "平房区",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "731部队的总部曾设于平房区。",
+          "en": "The headquarters of Unit 731 was located in Pingfang District."
+        }
+      }
+    },
+    {
+      "source": "第二次世界大战",
+      "target": "731部队",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "731部队在第二次世界大战期间活动。",
+          "en": "Unit 731 was active during World War II."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "731部队",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "731部队是日本在第二次世界大战期间的生物战部队。",
+          "en": "Unit 731 was a biological warfare unit of Japan during World War II."
+        }
+      }
+    },
+    {
+      "source": "731部队",
+      "target": "生物战争",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "731部队是进行生物战争的部队。",
+          "en": "Unit 731 was a unit that conducted biological warfare."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "平房区",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "日本在销毁证据时烧毁了平房区的绝大部分建筑。",
+          "en": "Japan burned down the vast majority of buildings in Pingfang District to destroy evidence."
+        }
+      }
+    },
+    {
+      "source": "侵华日军第七三一部队罪证陈列馆",
+      "target": "平房区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "侵华日军第七三一部队罪证陈列馆位于平房区。",
+          "en": "The Exhibition Hall of Evidence of War Crimes by Unit 731 is located in Pingfang District."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "nodes": [
+    {
+      "id": "台湾民主自治同盟浙江省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台湾民主自治同盟浙江省委员会",
+          "台盟浙江省委",
+          "浙江台盟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2022-05 - 2027",
+        "location": {
+          "zh-cn": "浙江省",
+          "en": "Zhejiang Province"
+        },
+        "description": {
+          "zh-cn": "台湾民主自治同盟在浙江省的地方组织。",
+          "en": "The local organization of the Taiwan Democratic Self-Government League in Zhejiang Province."
+        }
+      }
+    },
+    {
+      "id": "陈清莉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈清莉"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "陶骏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陶骏"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "林平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林平"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "薛箴言",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "薛箴言"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "台湾民主自治同盟中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台湾民主自治同盟中央委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "台湾民主自治同盟的中央领导机构。",
+          "en": "The central leading body of the Taiwan Democratic Self-Government League."
+        }
+      }
+    },
+    {
+      "id": "台湾民主自治同盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "台湾民主自治同盟"
+        ],
+        "en": [
+          "Taiwan Democratic Self-Government League"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的八个民主党派之一。",
+          "en": "One of the eight democratic parties in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "民主党派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主党派"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国现有的八个合法参政的非中国共产党党派的统称。",
+          "en": "A collective term for the eight legally recognized non-Communist political parties in the People's Republic of China that participate in the government."
+        }
+      }
+    },
+    {
+      "id": "委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "委员会"
+        ],
+        "en": [
+          "Committee"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种组织形式，由一群人组成，负责执行特定任务或管理事务。",
+          "en": "A type of organization, composed of a group of people, responsible for carrying out specific tasks or managing affairs."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "陈清莉",
+      "target": "台湾民主自治同盟浙江省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-05",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "主任委员",
+          "en": "Chairperson"
+        },
+        "description": {
+          "zh-cn": "担任台湾民主自治同盟浙江省第六届委员会主任委员。",
+          "en": "Serves as the Chairperson of the 6th Zhejiang Provincial Committee of the Taiwan Democratic Self-Government League."
+        }
+      }
+    },
+    {
+      "source": "陶骏",
+      "target": "台湾民主自治同盟浙江省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-05",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairperson"
+        },
+        "description": {
+          "zh-cn": "担任台湾民主自治同盟浙江省第六届委员会副主任委员。",
+          "en": "Serves as a Vice Chairperson of the 6th Zhejiang Provincial Committee of the Taiwan Democratic Self-Government League."
+        }
+      }
+    },
+    {
+      "source": "林平",
+      "target": "台湾民主自治同盟浙江省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-05",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairperson"
+        },
+        "description": {
+          "zh-cn": "担任台湾民主自治同盟浙江省第六届委员会副主任委员。",
+          "en": "Serves as a Vice Chairperson of the 6th Zhejiang Provincial Committee of the Taiwan Democratic Self-Government League."
+        }
+      }
+    },
+    {
+      "source": "薛箴言",
+      "target": "台湾民主自治同盟浙江省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-05",
+        "end_date": "2027",
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairperson"
+        },
+        "description": {
+          "zh-cn": "担任台湾民主自治同盟浙江省第六届委员会副主任委员。",
+          "en": "Serves as a Vice Chairperson of the 6th Zhejiang Provincial Committee of the Taiwan Democratic Self-Government League."
+        }
+      }
+    },
+    {
+      "source": "台湾民主自治同盟浙江省委员会",
+      "target": "台湾民主自治同盟中央委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "台湾民主自治同盟浙江省委员会是台湾民主自治同盟中央委员会的下级组织。",
+          "en": "The Zhejiang Provincial Committee of the Taiwan Democratic Self-Government League is a subordinate organization to the Central Committee of the Taiwan Democratic Self-Government League."
+        }
+      }
+    },
+    {
+      "source": "台湾民主自治同盟浙江省委员会",
+      "target": "台湾民主自治同盟",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "台湾民主自治同盟浙江省委员会是台湾民主自治同盟的地方组织。",
+          "en": "The Zhejiang Provincial Committee of the Taiwan Democratic Self-Government League is a local organization of the Taiwan Democratic Self-Government League."
+        }
+      }
+    },
+    {
+      "source": "台湾民主自治同盟浙江省委员会",
+      "target": "民主党派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "台湾民主自治同盟浙江省委员会属于民主党派的地方组织。",
+          "en": "The Zhejiang Provincial Committee of the Taiwan Democratic Self-Government League is a local organization belonging to the category of democratic parties."
+        }
+      }
+    },
+    {
+      "source": "台湾民主自治同盟浙江省委员会",
+      "target": "委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "台湾民主自治同盟浙江省委员会是一个省级委员会组织。",
+          "en": "The Zhejiang Provincial Committee of the Taiwan Democratic Self-Government League is a provincial-level committee organization."
+        }
+      }
+    }
+  ]
+}
