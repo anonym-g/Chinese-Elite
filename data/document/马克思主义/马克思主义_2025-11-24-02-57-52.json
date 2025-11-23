@@ -1,0 +1,875 @@
+{
+  "nodes": [
+    {
+      "id": "马克思主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "马克思主义"
+        ],
+        "en": [
+          "Marxism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种以历史唯物主义、辩证法和对资本主义的批判为基础，发展而出的经济、政治和社会世界观。由卡尔·马克思和弗里德里希·恩格斯在19世纪中后期构建。",
+          "en": "An economic, political, and social worldview based on historical materialism, dialectics, and a critique of capitalism, constructed by Karl Marx and Friedrich Engels in the mid-to-late 19th century."
+        }
+      }
+    },
+    {
+      "id": "卡尔·马克思",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卡尔·马克思"
+        ],
+        "en": [
+          "Karl Marx"
+        ]
+      },
+      "properties": {
+        "lifetime": "1818-05-05 - 1883-03-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国哲学家、政治经济学家和社会主义者，马克思主义的创始人之一。",
+          "en": "A German philosopher, political economist, and socialist, one of the founders of Marxism."
+        }
+      }
+    },
+    {
+      "id": "弗里德里希·恩格斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗里德里希·恩格斯"
+        ],
+        "en": [
+          "Friedrich Engels"
+        ]
+      },
+      "properties": {
+        "lifetime": "1820-11-28 - 1895-08-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国政治思想家，与马克思共同发展了共产主义理论。",
+          "en": "A German political thinker who co-developed communist theory with Karl Marx."
+        }
+      }
+    },
+    {
+      "id": "历史唯物主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "历史唯物主义"
+        ],
+        "en": [
+          "Historical materialism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "马克思主义的哲学思想，认为人类社会是架构在其赖以为生的经济活动上。",
+          "en": "A philosophical concept in Marxism which holds that human society is structured upon its economic activities."
+        }
+      }
+    },
+    {
+      "id": "资本主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "资本主义"
+        ],
+        "en": [
+          "Capitalism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种以生产工具私有制为基础的经济体系，马克思主义对其进行了系统性的批判。",
+          "en": "An economic system based on private ownership of the means of production, which is systematically critiqued by Marxism."
+        }
+      }
+    },
+    {
+      "id": "阶级斗争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "阶级斗争"
+        ],
+        "en": [
+          "Class struggle"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "马克思主义认为，在阶级社会中，不同阶级之间的利益冲突是推动历史发展的主要动力。",
+          "en": "Marxism posits that in class-based societies, the conflict of interests between different classes is the main driver of historical development."
+        }
+      }
+    },
+    {
+      "id": "无产阶级",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "无产阶级",
+          "劳动阶级",
+          "劳动者"
+        ],
+        "en": [
+          "Proletariat"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在马克思主义理论中，指靠出卖自身劳动力为生，且不拥有生产工具的社会阶级。",
+          "en": "In Marxist theory, the social class that subsists by selling its labor power and does not own the means of production."
+        }
+      }
+    },
+    {
+      "id": "资产阶级",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "资产阶级",
+          "资本家"
+        ],
+        "en": [
+          "Bourgeoisie"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在马克思主义理论中，指拥有生产工具并购买无产阶级劳动力的社会阶级。",
+          "en": "In Marxist theory, the social class that owns the means of production and purchases labor power from the proletariat."
+        }
+      }
+    },
+    {
+      "id": "社会主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "社会主义",
+          "社会主义社会"
+        ],
+        "en": [
+          "Socialism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "马克思主义预言在资本主义之后、共产主义之前的一个社会阶段，生产工具由社会集体掌握。",
+          "en": "A societal stage predicted by Marxism to follow capitalism and precede communism, where the means of production are collectively owned by society."
+        }
+      }
+    },
+    {
+      "id": "共产主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "共产主义",
+          "共产主义社会"
+        ],
+        "en": [
+          "Communism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "马克思主义理论中的终极社会形态，一个无阶级、无国界、无货币、无私有产权的社会。",
+          "en": "The ultimate societal form in Marxist theory, a classless, stateless, moneyless, and non-private property society."
+        }
+      }
+    },
+    {
+      "id": "朱尔斯·盖德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱尔斯·盖德"
+        ],
+        "en": [
+          "Jules Guesde"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国工运人士，曾被马克思指控歪曲马克思主义理论。",
+          "en": "A French labor activist who was accused by Marx of distorting Marxist theory."
+        }
+      }
+    },
+    {
+      "id": "保罗·拉法格",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "保罗·拉法格"
+        ],
+        "en": [
+          "Paul Lafargue"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "卡尔·马克思的女婿，曾被马克思指控歪曲马克思主义理论。",
+          "en": "Karl Marx's son-in-law, who was accused by Marx of distorting Marxist theory."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·列宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·列宁",
+          "列宁"
+        ],
+        "en": [
+          "Vladimir Lenin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄国马克思主义理论家和革命者，1917年俄国革命的领导人。",
+          "en": "A Russian Marxist theorist and revolutionary, leader of the 1917 Russian Revolution."
+        }
+      }
+    },
+    {
+      "id": "劳动价值理论",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "劳动价值理论"
+        ],
+        "en": [
+          "Labor theory of value"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "马克思主义经济学理论，认为一个产品的价值等同于生产这个产品所需要的社会劳动时间。",
+          "en": "An economic theory in Marxism which posits that the value of a product is equivalent to the 'socially necessary labor time' required to produce it."
+        }
+      }
+    },
+    {
+      "id": "共产党宣言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "共产党宣言"
+        ],
+        "en": [
+          "The Communist Manifesto"
+        ]
+      },
+      "properties": {
+        "period": "1848-02 - "
+      }
+    },
+    {
+      "id": "1917年俄国革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1917年俄国革命"
+        ],
+        "en": [
+          "1917 Russian Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1917 - 1917",
+        "description": {
+          "zh-cn": "第一起以马克思主义的工人国家理念为基础的政治革命，导致了共产政府在俄国的建立。",
+          "en": "The first political revolution based on the Marxist concept of a workers' state, which led to the establishment of a communist government in Russia."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联",
+          "苏维埃社会主义共和国联盟"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "由1917年俄国革命后建立的世界上第一个社会主义国家。",
+          "en": "The world's first socialist state, established after the 1917 Russian Revolution."
+        }
+      }
+    },
+    {
+      "id": "约瑟夫·史达林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约瑟夫·史达林",
+          "史达林"
+        ],
+        "en": [
+          "Joseph Stalin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "列宁去世后苏联的领导人，推行“一国之内的社会主义”并巩固了极权统治。",
+          "en": "The leader of the Soviet Union after Lenin's death, who implemented 'Socialism in One Country' and consolidated totalitarian rule."
+        }
+      }
+    },
+    {
+      "id": "列夫·托洛茨基",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "列夫·托洛茨基",
+          "托洛斯基"
+        ],
+        "en": [
+          "Leon Trotsky"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联早期领导人之一，斯大林的政敌。",
+          "en": "One of the early leaders of the Soviet Union and a political opponent of Stalin."
+        }
+      }
+    },
+    {
+      "id": "一国之内的社会主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "一国之内的社会主义"
+        ],
+        "en": [
+          "Socialism in One Country"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由斯大林提出的理论，主张社会主义可以在一个国家内部建成，与托洛茨基的世界革命理论相对立。",
+          "en": "A theory put forward by Stalin, arguing that socialism could be built within a single country, in opposition to Trotsky's theory of world revolution."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "由中国共产党领导的社会主义国家，曾与苏联发生冲突。",
+          "en": "A socialist state led by the Communist Party of China, which had conflicts with the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "由毛泽东发动的政治运动，旨在清除党内的“资本主义道路的当权派”。",
+          "en": "A political movement launched by Mao Zedong, aimed at purging 'capitalist-roaders' from the Party."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "description": {
+          "zh-cn": "中华人民共和国的主要缔造者和第一代最高领导人，发动了文化大革命。",
+          "en": "The main founder and first paramount leader of the People's Republic of China, who launched the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "刘少奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘少奇"
+        ],
+        "en": [
+          "Liu Shaoqi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1898-11-24 - 1969-11-12",
+        "description": {
+          "zh-cn": "曾任中华人民共和国主席，在文化大革命中被打倒。",
+          "en": "Former Chairman of the People's Republic of China, who was overthrown during the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": [
+          "Deng Xiaoping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1904-08-22 - 1997-02-19",
+        "description": {
+          "zh-cn": "毛泽东去世后的中国最高领导人，开启了改革开放政策。",
+          "en": "The paramount leader of China after Mao Zedong's death, who initiated the policy of Reform and Opening Up."
+        }
+      }
+    },
+    {
+      "id": "改革开放",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "改革开放",
+          "市场经济改革"
+        ],
+        "en": [
+          "Reform and Opening-up"
+        ]
+      },
+      "properties": {
+        "period": "1978 - ",
+        "description": {
+          "zh-cn": "由邓小平领导的中国经济改革政策，引入了市场经济元素。",
+          "en": "An economic reform policy in China led by Deng Xiaoping, which introduced market economy elements."
+        }
+      }
+    },
+    {
+      "id": "卡尔·波普尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卡尔·波普尔"
+        ],
+        "en": [
+          "Karl Popper"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奥地利裔英国哲学家，对马克思的历史唯物主义提出强烈批判。",
+          "en": "An Austrian-British philosopher who strongly criticized Marx's historical materialism."
+        }
+      }
+    },
+    {
+      "id": "弗里德里希·哈耶克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗里德里希·哈耶克",
+          "弗里德里希·海耶克"
+        ],
+        "en": [
+          "Friedrich Hayek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奥地利经济学派的代表人物，批评马克思主义忽略了市场在资源分配中的作用。",
+          "en": "A leading figure of the Austrian School of economics who criticized Marxism for ignoring the role of the market in resource allocation."
+        }
+      }
+    },
+    {
+      "id": "欧根·博姆-巴维克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "欧根·博姆-巴维克"
+        ],
+        "en": [
+          "Eugen Böhm von Bawerk"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奥地利经济学派经济学家，对马克思的劳动价值理论提出了批判。",
+          "en": "An Austrian School economist who criticized Marx's labor theory of value."
+        }
+      }
+    },
+    {
+      "id": "路德维希·冯·米塞斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "路德维希·冯·米塞斯"
+        ],
+        "en": [
+          "Ludwig von Mises"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奥地利经济学派经济学家，提出了经济核算问题以批判社会主义经济。",
+          "en": "An Austrian School economist who proposed the economic calculation problem to critique socialist economies."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "卡尔·马克思",
+      "target": "马克思主义",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "在19世纪中后期与弗里德里希·恩格斯共同构建了马克思主义的理论架构。",
+          "en": "Co-constructed the theoretical framework of Marxism with Friedrich Engels in the mid-to-late 19th century."
+        }
+      }
+    },
+    {
+      "source": "弗里德里希·恩格斯",
+      "target": "马克思主义",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "在19世纪中后期与卡尔·马克思共同构建了马克思主义的理论架构。",
+          "en": "Co-constructed the theoretical framework of Marxism with Karl Marx in the mid-to-late 19th century."
+        }
+      }
+    },
+    {
+      "source": "卡尔·马克思",
+      "target": "弗里德里希·恩格斯",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1844-09",
+        "description": {
+          "zh-cn": "两人于1844年9月相遇，发现彼此观点相同，从此成为毕生的挚友和思想上的合作伙伴。",
+          "en": "They met in September 1844, discovered they shared similar views, and became lifelong friends and intellectual partners."
+        }
+      }
+    },
+    {
+      "source": "历史唯物主义",
+      "target": "马克思主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "历史唯物主义是马克思主义理论的基石之一。",
+          "en": "Historical materialism is one of the cornerstones of Marxist theory."
+        }
+      }
+    },
+    {
+      "source": "马克思主义",
+      "target": "资本主义",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "马克思主义理论体系建立在对资本主义的批判之上，分析其内在矛盾并预言其最终会被社会主义取代。",
+          "en": "The theoretical system of Marxism is built upon a critique of capitalism, analyzing its internal contradictions and predicting its eventual replacement by socialism."
+        }
+      }
+    },
+    {
+      "source": "资本主义",
+      "target": "阶级斗争",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据马克思主义分析，资本主义生产方式中的剥削关系必然导致资产阶级和无产阶级之间的阶级斗争。",
+          "en": "According to Marxist analysis, the exploitative relations within the capitalist mode of production inevitably lead to class struggle between the bourgeoisie and the proletariat."
+        }
+      }
+    },
+    {
+      "source": "资产阶级",
+      "target": "无产阶级",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在资本主义制度下，资产阶级通过占有生产工具来剥削无产阶级的剩余价值。",
+          "en": "Under capitalism, the bourgeoisie exploits the surplus value of the proletariat by owning the means of production."
+        }
+      }
+    },
+    {
+      "source": "阶级斗争",
+      "target": "社会主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "马克思主义认为，无产阶级通过阶级斗争（革命）推翻资本主义，从而建立社会主义社会。",
+          "en": "Marxism holds that the proletariat, through class struggle (revolution), overthrows capitalism to establish a socialist society."
+        }
+      }
+    },
+    {
+      "source": "社会主义",
+      "target": "共产主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在马克思主义理论中，社会主义是向共产主义过渡的阶段。",
+          "en": "In Marxist theory, socialism is the transitional stage towards communism."
+        }
+      }
+    },
+    {
+      "source": "卡尔·马克思",
+      "target": "朱尔斯·盖德",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1883",
+        "description": {
+          "zh-cn": "马克思在1883年写信指控朱尔斯·盖德歪曲马克思主义理论，并说“如果他们那一套是马克思主义，我自己就不是马克思主义者”。",
+          "en": "In an 1883 letter, Marx accused Jules Guesde of distorting Marxist theory, stating, 'If that is Marxism, then I myself am not a Marxist.'"
+        }
+      }
+    },
+    {
+      "source": "卡尔·马克思",
+      "target": "保罗·拉法格",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1883",
+        "description": {
+          "zh-cn": "马克思在1883年写信指控自己的女婿保罗·拉法格歪曲马克思主义理论。",
+          "en": "In an 1883 letter, Marx accused his son-in-law Paul Lafargue of distorting Marxist theory."
+        }
+      }
+    },
+    {
+      "source": "卡尔·马克思",
+      "target": "共产党宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1848-02",
+        "description": {
+          "zh-cn": "与恩格斯共同撰写了《共产党宣言》。",
+          "en": "Co-authored 'The Communist Manifesto' with Engels."
+        }
+      }
+    },
+    {
+      "source": "弗里德里希·恩格斯",
+      "target": "共产党宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1848-02",
+        "description": {
+          "zh-cn": "与马克思共同撰写了《共产党宣言》。",
+          "en": "Co-authored 'The Communist Manifesto' with Marx."
+        }
+      }
+    },
+    {
+      "source": "马克思主义",
+      "target": "1917年俄国革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917",
+        "description": {
+          "zh-cn": "1917年的俄国革命是第一起以马克思主义的工人国家理念作为基础的政治革命。",
+          "en": "The 1917 Russian Revolution was the first political revolution based on the Marxist concept of a workers' state."
+        }
+      }
+    },
+    {
+      "source": "1917年俄国革命",
+      "target": "苏联",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1917",
+        "description": {
+          "zh-cn": "俄国革命的胜利直接导致了苏维埃政权的建立，并最终形成了苏联。",
+          "en": "The victory of the Russian Revolution directly led to the establishment of the Soviet government, which eventually formed the Soviet Union."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·列宁",
+      "target": "1917年俄国革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1917",
+        "description": {
+          "zh-cn": "列宁是1917年俄国革命的主要领导人。",
+          "en": "Lenin was the primary leader of the 1917 Russian Revolution."
+        }
+      }
+    },
+    {
+      "source": "约瑟夫·史达林",
+      "target": "列夫·托洛茨基",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在列宁去世后，斯大林在权力斗争中消灭了包括托洛茨基在内的政敌。",
+          "en": "After Lenin's death, Stalin eliminated his political opponents, including Trotsky, in a power struggle."
+        }
+      }
+    },
+    {
+      "source": "约瑟夫·史达林",
+      "target": "一国之内的社会主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "斯大林强力推行“一国之内的社会主义”理论，并将其作为苏联的国家政策。",
+          "en": "Stalin vigorously promoted the theory of 'Socialism in One Country' and made it the state policy of the Soviet Union."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "中华人民共和国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中苏两国曾因意识形态和国家利益分歧而发生冲突，即中苏交恶。",
+          "en": "China and the Soviet Union experienced conflicts due to ideological and national interest differences, known as the Sino-Soviet split."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "文化大革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1966",
+        "end_date": "1976",
+        "description": {
+          "zh-cn": "毛泽东于1966年发动了文化大革命。",
+          "en": "Mao Zedong launched the Cultural Revolution in 1966."
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "刘少奇",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在文化大革命期间，时任国家主席刘少奇被打倒并遭受迫害致死。",
+          "en": "During the Cultural Revolution, then-Chairman Liu Shaoqi was overthrown and persecuted to death."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "改革开放",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "在毛泽东去世后，邓小平掌权并开启了中国的改革开放。",
+          "en": "After Mao Zedong's death, Deng Xiaoping came to power and initiated China's Reform and Opening-up."
+        }
+      }
+    },
+    {
+      "source": "卡尔·波普尔",
+      "target": "历史唯物主义",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "卡尔·波普尔批判历史唯物主义，认为其缺乏可证伪性，是一种“历史定论主义”，而非科学。",
+          "en": "Karl Popper criticized historical materialism, arguing it lacks falsifiability and is a form of 'historicism' rather than a science."
+        }
+      }
+    },
+    {
+      "source": "弗里德里希·哈耶克",
+      "target": "马克思主义",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "哈耶克等自由市场经济学家批评马克思主义忽略了市场在分配资源和协调生产上的关键角色。",
+          "en": "Free-market economists like Hayek criticized Marxism for ignoring the crucial role of the market in allocating resources and coordinating production."
+        }
+      }
+    },
+    {
+      "source": "欧根·博姆-巴维克",
+      "target": "劳动价值理论",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "博姆-巴维克进一步批判劳动价值理论，指出马克思对于价值和劳动的定义是自相矛盾的。",
+          "en": "Böhm-Bawerk further criticized the labor theory of value, pointing out that Marx's definitions of value and labor were self-contradictory."
+        }
+      }
+    },
+    {
+      "source": "路德维希·冯·米塞斯",
+      "target": "社会主义",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "米塞斯在经济核算问题的辩论中主张，由于缺乏自由价格信号，社会主义国家不可能进行理性的经济行为。",
+          "en": "In the economic calculation problem debate, Mises argued that a socialist state could not perform rational economic actions due to the absence of free price signals."
+        }
+      }
+    }
+  ]
+}

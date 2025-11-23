@@ -1,0 +1,958 @@
+{
+  "nodes": [
+    {
+      "id": "伊斯兰教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "伊斯兰教",
+          "回教",
+          "回回教",
+          "清真教",
+          "天方教"
+        ],
+        "en": [
+          "Islam"
+        ]
+      },
+      "properties": {
+        "period": "610 - ",
+        "description": {
+          "zh-cn": "以《古兰经》为基础，圣训为辅助的一神教宗教，世界三大宗教之一。",
+          "en": "A monotheistic religion based on the Quran, supplemented by the Hadith, and one of the three major world religions."
+        }
+      }
+    },
+    {
+      "id": "古兰经",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "古兰经"
+        ],
+        "en": [
+          "Quran"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教的根本经典，穆斯林相信其为造物主逐字逐句的启示。",
+          "en": "The foundational scripture of Islam, believed by Muslims to be a word-for-word revelation from God."
+        }
+      }
+    },
+    {
+      "id": "圣训",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "圣训"
+        ],
+        "en": [
+          "Hadith"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教先知穆罕默德的言行录，是伊斯兰教教义、律例、礼仪的第二重要渊源。",
+          "en": "The records of the sayings and actions of the Islamic prophet Muhammad, serving as the second most important source of Islamic doctrine, law, and practice."
+        }
+      }
+    },
+    {
+      "id": "穆罕默德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆罕默德"
+        ],
+        "en": [
+          "Muhammad"
+        ]
+      },
+      "properties": {
+        "lifetime": "570 - 632-06-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊斯兰教的最后一位先知，被穆斯林认为是“众先知的封印”。",
+          "en": "The final prophet of Islam, considered by Muslims to be the 'Seal of the Prophets'."
+        }
+      }
+    },
+    {
+      "id": "安拉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安拉",
+          "真主"
+        ],
+        "en": [
+          "Allah",
+          "God in Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教信仰的独一且无与伦比的造物主。",
+          "en": "The one and incomparable Creator believed in by Islam."
+        }
+      }
+    },
+    {
+      "id": "加百列",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "加百列",
+          "吉布里勒"
+        ],
+        "en": [
+          "Gabriel",
+          "Jibrīl"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教中的天使，负责向先知穆罕默德传达真主的启示。",
+          "en": "An angel in Islam responsible for delivering God's revelations to the prophet Muhammad."
+        }
+      }
+    },
+    {
+      "id": "哈里发制度",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "哈里发制度",
+          "哈里发国"
+        ],
+        "en": [
+          "Caliphate"
+        ]
+      },
+      "properties": {
+        "period": "632 - 1924",
+        "description": {
+          "zh-cn": "穆罕默德去世后由其继承人（哈里发）领导的伊斯兰政教合一的政治实体。",
+          "en": "The politico-religious state comprising the Muslim community and its lands and subjects, ruled by a caliph after Muhammad's death."
+        }
+      }
+    },
+    {
+      "id": "奥斯曼帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥斯曼帝国",
+          "鄂图曼帝国"
+        ],
+        "en": [
+          "Ottoman Empire"
+        ]
+      },
+      "properties": {
+        "period": "1299 - 1922",
+        "description": {
+          "zh-cn": "一个由土耳其人建立的帝国，其扩张促进了伊斯兰教的传播，也是最后一个哈里发国。",
+          "en": "An empire founded by Turkish tribes whose expansion facilitated the spread of Islam and which was the last caliphate."
+        }
+      }
+    },
+    {
+      "id": "逊尼派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "逊尼派",
+          "顺尼派"
+        ],
+        "en": [
+          "Sunni Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教最大的教派，占穆斯林总数的75%至90%。",
+          "en": "The largest denomination of Islam, comprising 75% to 90% of all Muslims."
+        }
+      }
+    },
+    {
+      "id": "什叶派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "什叶派"
+        ],
+        "en": [
+          "Shia Islam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教第二大宗派，占穆斯林总数的10%至20%。",
+          "en": "The second largest denomination of Islam, comprising 10% to 20% of all Muslims."
+        }
+      }
+    },
+    {
+      "id": "苏非主义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "苏非主义",
+          "伊斯兰神秘主义"
+        ],
+        "en": [
+          "Sufism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教的神秘主义、苦修层面，通过个人体验寻求对真主的爱戴和认识。",
+          "en": "The mystical, ascetic dimension of Islam, which seeks to find the love and knowledge of God through direct personal experience."
+        }
+      }
+    },
+    {
+      "id": "阿布·伯克尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿布·伯克尔"
+        ],
+        "en": [
+          "Abu Bakr"
+        ]
+      },
+      "properties": {
+        "lifetime": "573 - 634",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊斯兰教的首任哈里发，四大哈里发之一。",
+          "en": "The first Caliph of Islam and one of the Four Rightly Guided Caliphs."
+        }
+      }
+    },
+    {
+      "id": "第一次穆斯林内战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次穆斯林内战"
+        ],
+        "en": [
+          "First Fitna"
+        ]
+      },
+      "properties": {
+        "period": "656 - 661",
+        "description": {
+          "zh-cn": "奥斯曼·本·阿凡遇刺后爆发的内战，导致了伊斯兰教逊尼派和什叶派的分裂。",
+          "en": "A civil war that broke out after the assassination of Uthman ibn Affan, leading to the split between Sunni and Shia Islam."
+        }
+      }
+    },
+    {
+      "id": "阿里·本·阿比·塔利卜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿里·本·阿比·塔利卜",
+          "阿里"
+        ],
+        "en": [
+          "Ali ibn Abi Talib"
+        ]
+      },
+      "properties": {
+        "lifetime": "601 - 661",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "穆罕默德的堂弟和女婿，第四任哈里发，被什叶派尊为第一任伊玛目。",
+          "en": "Muhammad's cousin and son-in-law, the fourth Caliph, revered by Shia Muslims as the first Imam."
+        }
+      }
+    },
+    {
+      "id": "穆阿威叶一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆阿威叶一世",
+          "穆阿威叶"
+        ],
+        "en": [
+          "Muawiyah I"
+        ]
+      },
+      "properties": {
+        "lifetime": "602 - 680",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "倭马亚王朝的创建者和第一任哈里发。",
+          "en": "The founder and first caliph of the Umayyad Caliphate."
+        }
+      }
+    },
+    {
+      "id": "倭马亚王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "倭马亚王朝"
+        ],
+        "en": [
+          "Umayyad Caliphate"
+        ]
+      },
+      "properties": {
+        "period": "661 - 750",
+        "description": {
+          "zh-cn": "第一个世袭的伊斯兰哈里发王朝。",
+          "en": "The first hereditary Islamic caliphate."
+        }
+      }
+    },
+    {
+      "id": "哈瓦立及派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "哈瓦立及派"
+        ],
+        "en": [
+          "Kharijites"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教早期出现的教派，因反对阿里·本·阿比·塔利卜的统治而分裂出来。",
+          "en": "An early Islamic sect that emerged by splitting from the rule of Ali ibn Abi Talib."
+        }
+      }
+    },
+    {
+      "id": "阿拔斯王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿拔斯王朝"
+        ],
+        "en": [
+          "Abbasid Caliphate"
+        ]
+      },
+      "properties": {
+        "period": "750 - 1258",
+        "description": {
+          "zh-cn": "推翻倭马亚王朝后建立的第二个伊斯兰哈里发王朝。",
+          "en": "The second Islamic caliphate, established after overthrowing the Umayyad Caliphate."
+        }
+      }
+    },
+    {
+      "id": "蒙古帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蒙古帝国"
+        ],
+        "en": [
+          "Mongol Empire"
+        ]
+      },
+      "properties": {
+        "period": "1206 - 1368",
+        "description": {
+          "zh-cn": "13世纪由成吉思汗建立的帝国，其西征灭亡了阿拔斯王朝。",
+          "en": "An empire founded by Genghis Khan in the 13th century, whose westward expansion led to the fall of the Abbasid Caliphate."
+        }
+      }
+    },
+    {
+      "id": "第一次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次世界大战"
+        ],
+        "en": [
+          "World War I"
+        ]
+      },
+      "properties": {
+        "period": "1914 - 1918",
+        "description": {
+          "zh-cn": "一场全球性的战争，导致了奥斯曼帝国的瓦解。",
+          "en": "A global war that led to the collapse of the Ottoman Empire."
+        }
+      }
+    },
+    {
+      "id": "穆罕默德·伊本·阿卜杜·瓦哈布",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆罕默德·伊本·阿卜杜·瓦哈布"
+        ],
+        "en": [
+          "Muhammad ibn Abd al-Wahhab"
+        ]
+      },
+      "properties": {
+        "lifetime": "1703 - 1792",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "18世纪在沙特阿拉伯推动赛莱菲复兴运动的伊斯兰学者，瓦哈比派的创始人。",
+          "en": "An 18th-century Islamic scholar in Saudi Arabia who promoted the Salafi revival movement; the founder of Wahhabism."
+        }
+      }
+    },
+    {
+      "id": "瓦哈比派",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "瓦哈比派",
+          "赛莱菲"
+        ],
+        "en": [
+          "Wahhabism",
+          "Salafism"
+        ]
+      },
+      "properties": {
+        "period": "1700s - ",
+        "description": {
+          "zh-cn": "逊尼派的一种极端保守改革运动，致力于净化伊斯兰教，革除后世的创新。",
+          "en": "An ultra-conservative reform movement within Sunni Islam dedicated to purifying Islam by eliminating later innovations."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "location": {
+          "zh-cn": "中国",
+          "en": "China"
+        },
+        "description": {
+          "zh-cn": "中国的一场政治运动，期间许多清真寺被关闭，宗教活动被禁止。",
+          "en": "A political movement in China during which many mosques were closed and religious activities were banned."
+        }
+      }
+    },
+    {
+      "id": "红色高棉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "红色高棉"
+        ],
+        "en": [
+          "Khmer Rouge"
+        ]
+      },
+      "properties": {
+        "period": "1975 - 1979",
+        "location": {
+          "zh-cn": "柬埔寨",
+          "en": "Cambodia"
+        },
+        "description": {
+          "zh-cn": "柬埔寨的共产主义政权，因其仇视宗教的政策而杀害了大量占族穆斯林。",
+          "en": "The communist regime in Cambodia, which killed a large number of Cham Muslims due to its policy of hostility towards all religions."
+        }
+      }
+    },
+    {
+      "id": "占族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "占族"
+        ],
+        "en": [
+          "Cham people"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "分布于柬埔寨和越南的一个民族，其中许多人信奉伊斯兰教。",
+          "en": "An ethnic group distributed in Cambodia and Vietnam, many of whom practice Islam."
+        }
+      }
+    },
+    {
+      "id": "奥萨玛·宾·拉登",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奥萨玛·宾·拉登"
+        ],
+        "en": [
+          "Osama bin Laden"
+        ]
+      },
+      "properties": {
+        "lifetime": "1957 - 2011",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "基地组织的创始人和领导人。",
+          "en": "Founder and leader of Al-Qaeda."
+        }
+      }
+    },
+    {
+      "id": "基地组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "基地组织"
+        ],
+        "en": [
+          "Al-Qaeda"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个跨国的伊斯兰极端主义组织，诉诸恐怖主义以反抗西方影响。",
+          "en": "A transnational militant Islamist organization that resorts to terrorism to resist Western influence."
+        }
+      }
+    },
+    {
+      "id": "九一一袭击事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "九一一袭击事件"
+        ],
+        "en": [
+          "September 11 attacks"
+        ]
+      },
+      "properties": {
+        "period": "2001-09-11",
+        "description": {
+          "zh-cn": "由基地组织发动的系列恐怖袭击事件，导致了伊斯兰恐惧症的弥漫。",
+          "en": "A series of terrorist attacks launched by Al-Qaeda, which led to the spread of Islamophobia."
+        }
+      }
+    },
+    {
+      "id": "伊斯兰恐惧症",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "伊斯兰恐惧症"
+        ],
+        "en": [
+          "Islamophobia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "对伊斯兰教或穆斯林的恐惧、憎恨或偏见，是一种社会现象。",
+          "en": "Fear, hatred of, or prejudice against the religion of Islam or Muslims in general, a social phenomenon."
+        }
+      }
+    },
+    {
+      "id": "伊斯兰合作组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伊斯兰合作组织"
+        ],
+        "en": [
+          "Organisation of Islamic Cooperation"
+        ]
+      },
+      "properties": {
+        "period": "1969 - ",
+        "description": {
+          "zh-cn": "一个致力于促进穆斯林国家之间全面合作的国际组织。",
+          "en": "An international organization dedicated to promoting comprehensive cooperation among Muslim countries."
+        }
+      }
+    },
+    {
+      "id": "阿克萨清真寺纵火事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "阿克萨清真寺纵火事件"
+        ],
+        "en": [
+          "Al-Aqsa Mosque arson attack"
+        ]
+      },
+      "properties": {
+        "period": "1969",
+        "location": {
+          "zh-cn": "耶路撒冷",
+          "en": "Jerusalem"
+        },
+        "description": {
+          "zh-cn": "1969年发生在耶路撒冷阿克萨清真寺的纵火事件，促成了伊斯兰合作组织的成立。",
+          "en": "An arson attack that occurred at the Al-Aqsa Mosque in Jerusalem in 1969, which prompted the establishment of the Organisation of Islamic Cooperation."
+        }
+      }
+    },
+    {
+      "id": "大马士革的圣约翰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "大马士革的圣约翰"
+        ],
+        "en": [
+          "John of Damascus"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "c. 676 - 749-12-04",
+        "description": {
+          "zh-cn": "一位早期的基督教神学家，曾撰文从神学角度批判伊斯兰教。",
+          "en": "An early Christian theologian who wrote theological critiques of Islam."
+        }
+      }
+    },
+    {
+      "id": "马丁·路德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马丁·路德"
+        ],
+        "en": [
+          "Martin Luther"
+        ]
+      },
+      "properties": {
+        "lifetime": "1483-11-10 - 1546-02-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国神学家和宗教改革家，曾批判《古兰经》。",
+          "en": "A German theologian and religious reformer who criticized the Quran."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "安拉",
+      "target": "古兰经",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "穆斯林相信《古兰经》是安拉（真主）通过天使加百列向穆罕默德逐字逐句传达的启示。",
+          "en": "Muslims believe the Quran is the literal word of Allah (God) as revealed to Muhammad through the angel Gabriel."
+        }
+      }
+    },
+    {
+      "source": "加百列",
+      "target": "穆罕默德",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "610",
+        "end_date": "632",
+        "description": {
+          "zh-cn": "天使加百列向穆罕默德传达了真主的启示，这些启示后来被编纂成《古兰经》。",
+          "en": "The angel Gabriel delivered God's revelations to Muhammad, which were later compiled into the Quran."
+        }
+      }
+    },
+    {
+      "source": "古兰经",
+      "target": "伊斯兰教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教是以《古兰经》为根本基础的宗教。",
+          "en": "Islam is a religion fundamentally based on the Quran."
+        }
+      }
+    },
+    {
+      "source": "圣训",
+      "target": "伊斯兰教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "圣训是伊斯兰教教义、律例和礼仪的重要辅助渊源。",
+          "en": "The Hadith serves as an important supplementary source for Islamic doctrine, law, and practice."
+        }
+      }
+    },
+    {
+      "source": "穆罕默德",
+      "target": "伊斯兰教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "610",
+        "description": {
+          "zh-cn": "穆罕默德作为最后一位先知，向人们传道，恳请他们崇拜唯一的真主，从而传播了伊斯兰教。",
+          "en": "As the final prophet, Muhammad preached to people, urging them to worship the one God, thereby spreading Islam."
+        }
+      }
+    },
+    {
+      "source": "奥斯曼帝国",
+      "target": "伊斯兰教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "奥斯曼帝国的扩张使伊斯兰教从麦加向大西洋及太平洋的方向扩散。",
+          "en": "The expansion of the Ottoman Empire caused Islam to spread from Mecca towards the Atlantic and Pacific Oceans."
+        }
+      }
+    },
+    {
+      "source": "第一次穆斯林内战",
+      "target": "逊尼派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "656",
+        "end_date": "661",
+        "description": {
+          "zh-cn": "关于宗教及政治领导权的争端引发了第一次穆斯林内战，并最终导致了逊尼派的形成。",
+          "en": "Disputes over religious and political leadership triggered the First Fitna, which ultimately led to the formation of Sunni Islam."
+        }
+      }
+    },
+    {
+      "source": "第一次穆斯林内战",
+      "target": "什叶派",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "656",
+        "end_date": "661",
+        "description": {
+          "zh-cn": "关于宗教及政治领导权的争端引发了第一次穆斯林内战，并最终导致了什叶派的形成。",
+          "en": "Disputes over religious and political leadership triggered the First Fitna, which ultimately led to the formation of Shia Islam."
+        }
+      }
+    },
+    {
+      "source": "哈瓦立及派",
+      "target": "阿里·本·阿比·塔利卜",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "661",
+        "description": {
+          "zh-cn": "阿里·本·阿比·塔利卜在661年被哈瓦立及派刺杀。",
+          "en": "Ali ibn Abi Talib was assassinated by the Kharijites in 661."
+        }
+      }
+    },
+    {
+      "source": "穆阿威叶一世",
+      "target": "倭马亚王朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "661",
+        "description": {
+          "zh-cn": "在阿里被刺杀后，穆阿威叶一世掌权并创建了倭马亚王朝。",
+          "en": "After Ali's assassination, Muawiyah I took power and founded the Umayyad dynasty."
+        }
+      }
+    },
+    {
+      "source": "阿拔斯王朝",
+      "target": "倭马亚王朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "750",
+        "description": {
+          "zh-cn": "阿拔斯王朝在750年推翻了倭马亚王朝的统治。",
+          "en": "The Abbasid Caliphate overthrew the Umayyad Caliphate in 750."
+        }
+      }
+    },
+    {
+      "source": "蒙古帝国",
+      "target": "阿拔斯王朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1258",
+        "description": {
+          "zh-cn": "蒙古帝国在1258年攻陷巴格达，灭亡了阿拔斯王朝。",
+          "en": "The Mongol Empire destroyed the Abbasid Caliphate by sacking Baghdad in 1258."
+        }
+      }
+    },
+    {
+      "source": "第一次世界大战",
+      "target": "奥斯曼帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1922",
+        "description": {
+          "zh-cn": "奥斯曼帝国在第一次世界大战后瓦解。",
+          "en": "The Ottoman Empire collapsed after World War I."
+        }
+      }
+    },
+    {
+      "source": "奥斯曼帝国",
+      "target": "哈里发制度",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1924",
+        "description": {
+          "zh-cn": "随着奥斯曼帝国的瓦解，哈里发制度在1924年被废除。",
+          "en": "With the collapse of the Ottoman Empire, the Caliphate was abolished in 1924."
+        }
+      }
+    },
+    {
+      "source": "穆罕默德·伊本·阿卜杜·瓦哈布",
+      "target": "瓦哈比派",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "穆罕默德·伊本·阿卜杜·瓦哈布推动了赛莱菲（瓦哈比）复兴运动。",
+          "en": "Muhammad ibn Abd al-Wahhab promoted the Salafi (Wahhabi) revival movement."
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "伊斯兰教",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "end_date": "1976",
+        "description": {
+          "zh-cn": "在中国文化大革命期间，许多清真寺被关闭，伊斯兰教的宗教活动被禁止。",
+          "en": "During the Cultural Revolution in China, many mosques were closed and Islamic religious activities were banned."
+        }
+      }
+    },
+    {
+      "source": "红色高棉",
+      "target": "占族",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1975",
+        "end_date": "1979",
+        "description": {
+          "zh-cn": "红色高棉政权在其统治期间杀害了约15万占族穆斯林。",
+          "en": "The Khmer Rouge regime killed approximately 150,000 Cham Muslims during its rule."
+        }
+      }
+    },
+    {
+      "source": "奥萨玛·宾·拉登",
+      "target": "基地组织",
+      "type": "FOUNDED",
+      "properties": {
+        "position": {
+          "zh-cn": "创始人",
+          "en": "Founder"
+        },
+        "description": {
+          "zh-cn": "奥萨玛·宾·拉登是基地组织的创始人。",
+          "en": "Osama bin Laden was the founder of Al-Qaeda."
+        }
+      }
+    },
+    {
+      "source": "九一一袭击事件",
+      "target": "伊斯兰恐惧症",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-09-11",
+        "description": {
+          "zh-cn": "九一一袭击事件导致了全球范围内伊斯兰恐惧症的弥漫和加剧。",
+          "en": "The September 11 attacks led to the spread and intensification of Islamophobia worldwide."
+        }
+      }
+    },
+    {
+      "source": "阿克萨清真寺纵火事件",
+      "target": "伊斯兰合作组织",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1969",
+        "description": {
+          "zh-cn": "1969年耶路撒冷阿克萨清真寺的纵火事件促使伊斯兰合作组织的成立。",
+          "en": "The 1969 arson attack on the Al-Aqsa Mosque in Jerusalem prompted the establishment of the Organisation of Islamic Cooperation."
+        }
+      }
+    },
+    {
+      "source": "大马士革的圣约翰",
+      "target": "伊斯兰教",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "大马士革的圣约翰从神学角度批判伊斯兰教，认为其不合理且先知穆罕默德的声称是疯狂和胡言。",
+          "en": "John of Damascus criticized Islam from a theological perspective, viewing it as irrational and the claims of the prophet Muhammad as madness and nonsense."
+        }
+      }
+    },
+    {
+      "source": "马丁·路德",
+      "target": "古兰经",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "马丁·路德形容穆斯林深信“《古兰经》的谎话连篇”。",
+          "en": "Martin Luther described Muslims as deeply believing in the 'pack of lies in the Quran'."
+        }
+      }
+    },
+    {
+      "source": "阿里·本·阿比·塔利卜",
+      "target": "穆阿威叶一世",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "656",
+        "end_date": "661",
+        "description": {
+          "zh-cn": "在第一次穆斯林内战期间，阿里·本·阿比·塔利卜与穆阿威叶一世是敌对势力的领导人。",
+          "en": "During the First Fitna, Ali ibn Abi Talib and Muawiyah I were leaders of opposing forces."
+        }
+      }
+    },
+    {
+      "source": "逊尼派",
+      "target": "阿布·伯克尔",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "逊尼派认为首四任哈里发（以阿布·伯克尔为首）是穆罕默德的正统继任人。",
+          "en": "Sunnis consider the first four caliphs, starting with Abu Bakr, to be the rightful successors to Muhammad."
+        }
+      }
+    },
+    {
+      "source": "什叶派",
+      "target": "阿里·本·阿比·塔利卜",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "什叶派相信穆罕默德指定了他的女婿阿里·本·阿比·塔利卜作为他的继承人，并认为只有阿里的后裔才能成为伊玛目。",
+          "en": "Shias believe that Muhammad appointed his son-in-law Ali ibn Abi Talib as his successor and that only Ali's descendants can be Imams."
+        }
+      }
+    }
+  ]
+}

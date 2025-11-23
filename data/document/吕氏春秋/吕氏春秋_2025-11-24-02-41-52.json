@@ -1,0 +1,511 @@
+{
+  "nodes": [
+    {
+      "id": "吕氏春秋",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "吕氏春秋",
+          "吕览"
+        ],
+        "en": [
+          "Lüshi Chunqiu",
+          "Master Lü's Spring and Autumn Annals",
+          "The Annals of Lü Buwei"
+        ]
+      },
+      "properties": {
+        "period": "-0241 - ",
+        "description": {
+          "zh-cn": "战国时代末期的一部政治理论散文汇编，为秦国相国吕不韦主持编纂。该书以道家思想为主，兼收儒、法、墨等诸子百家言论，是杂家的代表作，也是中国古代类书的起源。",
+          "en": "An encyclopedic Chinese classic text compiled around 241 BC under the patronage of Chancellor Lü Buwei of the Qin state. It is a compendium of the ideas of the Hundred Schools of Thought, primarily based on Daoism, and is a representative work of the Syncretist school. It is also considered the origin of Chinese encyclopedias (Leishu)."
+        }
+      }
+    },
+    {
+      "id": "吕不韦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕不韦"
+        ],
+        "en": [
+          "Lü Buwei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国末期秦国相国、商人，主持编纂了《吕氏春秋》。",
+          "en": "A merchant and Chancellor of the Qin state during the late Warring States period who commissioned the compilation of the Lüshi Chunqiu."
+        }
+      }
+    },
+    {
+      "id": "秦国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦国"
+        ],
+        "en": [
+          "State of Qin"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "咸阳"
+        },
+        "description": {
+          "zh-cn": "中国战国时代的一个诸侯国，后统一六国建立秦朝。",
+          "en": "A vassal state during the Warring States period of ancient China, which later unified the other states to establish the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "秦始皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦始皇",
+          "秦王政"
+        ],
+        "en": [
+          "Qin Shi Huang",
+          "King Zheng of Qin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国历史上首位完成华夏大一统的政治人物，也是中国第一个称皇帝的君主。《吕氏春秋》完成于其亲政初期。",
+          "en": "The first emperor of a unified China. The Lüshi Chunqiu was completed during the early years of his reign as King of Qin."
+        }
+      }
+    },
+    {
+      "id": "杂家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "杂家"
+        ],
+        "en": [
+          "Syncretist School"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国先秦时期诸子百家之一，其特点是“兼儒墨，合名法”，思想体系庞杂。",
+          "en": "One of the Hundred Schools of Thought during the pre-Qin period, characterized by integrating teachings from various schools such as Confucianism, Mohism, and Legalism."
+        }
+      }
+    },
+    {
+      "id": "道家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "道家",
+          "道家黄老"
+        ],
+        "en": [
+          "Taoism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国先秦时期诸子百家之一，以老子、庄子为主要代表，主张道法自然。",
+          "en": "A school of Chinese philosophy based on the writings of Laozi and Zhuangzi, advocating for following the Tao (the Way)."
+        }
+      }
+    },
+    {
+      "id": "儒家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "儒家",
+          "儒"
+        ],
+        "en": [
+          "Confucianism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由孔子创立的中国古代思想流派，强调仁、义、礼、智、信。",
+          "en": "A school of thought in ancient China founded by Confucius, emphasizing virtues such as benevolence, righteousness, and propriety."
+        }
+      }
+    },
+    {
+      "id": "墨家",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "墨家",
+          "墨"
+        ],
+        "en": [
+          "Mohism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由墨子创立的中国古代思想流派，主张兼爱、非攻、尚贤等。",
+          "en": "A school of thought in ancient China founded by Mozi, known for concepts like 'impartial care' and 'anti-war'."
+        }
+      }
+    },
+    {
+      "id": "诸子百家",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "诸子百家"
+        ],
+        "en": [
+          "Hundred Schools of Thought"
+        ]
+      },
+      "properties": {
+        "period": "-0770 - -0221",
+        "description": {
+          "zh-cn": "指中国东周春秋战国时期学术思想蓬勃发展的局面。",
+          "en": "Refers to a period of great cultural and intellectual expansion in China during the Spring and Autumn and Warring States periods."
+        }
+      }
+    },
+    {
+      "id": "高诱",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "高诱"
+        ],
+        "en": [
+          "Gao You"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年学者，为《吕氏春秋》、《淮南子》和《战国策》作注。",
+          "en": "A scholar of the late Eastern Han dynasty who wrote commentaries on the Lüshi Chunqiu, Huainanzi, and Zhan Guo Ce."
+        }
+      }
+    },
+    {
+      "id": "咸阳",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "咸阳"
+        ],
+        "en": [
+          "Xianyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦国在战国时期的首都，《吕氏春秋》在此地公布。",
+          "en": "The capital city of the State of Qin during the Warring States period, where the Lüshi Chunqiu was publicly displayed."
+        }
+      }
+    },
+    {
+      "id": "四库全书总目",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "四库全书总目"
+        ],
+        "en": [
+          "Siku Quanshu Zongmu Tiyao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由清代纪昀等人编纂的《四库全书》的解题目录，对中国古代典籍有重要评价。",
+          "en": "An annotated catalog of the Siku Quanshu, compiled during the Qing dynasty, which provides important evaluations of ancient Chinese texts."
+        }
+      }
+    },
+    {
+      "id": "李慈铭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李慈铭"
+        ],
+        "en": [
+          "Li Ciming"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国清代学者，对《吕氏春秋》有所评价。",
+          "en": "A scholar from the Qing dynasty in China who commented on the Lüshi Chunqiu."
+        }
+      }
+    },
+    {
+      "id": "熊培云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "熊培云"
+        ],
+        "en": [
+          "Xiong Peiyun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国当代作家、评论家，在其著作《自由在高处》中评价了《吕氏春秋》。",
+          "en": "A contemporary Chinese writer and commentator who evaluated the Lüshi Chunqiu in his book 'Freedom is on High'."
+        }
+      }
+    },
+    {
+      "id": "自由在高处",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "自由在高处"
+        ],
+        "en": [
+          "Freedom is on High"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "熊培云所著的一本书籍，其中包含了对《吕氏春秋》的评价。",
+          "en": "A book written by Xiong Peiyun, which contains an evaluation of the Lüshi Chunqiu."
+        }
+      }
+    },
+    {
+      "id": "老子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "老子"
+        ],
+        "en": [
+          "Laozi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国古代哲学家，道家学派的创始人。《吕氏春秋》中的“天道”思想与其有所对比。",
+          "en": "An ancient Chinese philosopher and the founder of Taoism. The concept of 'Tao' in the Lüshi Chunqiu is contrasted with his ideas."
+        }
+      }
+    },
+    {
+      "id": "吕氏春秋注",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "吕氏春秋注"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由东汉高诱为《吕氏春秋》所作的注释。",
+          "en": "A commentary on the Lüshi Chunqiu written by Gao You of the Eastern Han dynasty."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "吕不韦",
+      "target": "吕氏春秋",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "-0241",
+        "description": {
+          "zh-cn": "作为秦国相国，主持并召集门客学者编纂了《吕氏春秋》，并在完成后公布于咸阳城门，悬赏千金求人增删一字，以彰显其内容之完备与自身之权威。",
+          "en": "As the Chancellor of Qin, he presided over and gathered scholars to compile the Lüshi Chunqiu. After its completion, he had it displayed at the gates of Xianyang, offering a thousand pieces of gold to anyone who could add or remove a single character, to demonstrate its perfection and his own authority."
+        }
+      }
+    },
+    {
+      "source": "吕不韦",
+      "target": "秦国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "相国",
+          "en": "Chancellor"
+        },
+        "description": {
+          "zh-cn": "吕不韦担任秦国相国。",
+          "en": "Lü Buwei served as the Chancellor of the State of Qin."
+        }
+      }
+    },
+    {
+      "source": "诸子百家",
+      "target": "吕氏春秋",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《吕氏春秋》汇集了先秦诸子百家的言论，是杂家的代表作。",
+          "en": "The Lüshi Chunqiu is a compendium of the ideas of the Hundred Schools of Thought and is a representative work of the Syncretist school."
+        }
+      }
+    },
+    {
+      "source": "道家",
+      "target": "吕氏春秋",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《吕氏春秋》的内容以道家黄老思想为主。",
+          "en": "The content of the Lüshi Chunqiu is primarily based on the Huang-Lao school of Taoism."
+        }
+      }
+    },
+    {
+      "source": "儒家",
+      "target": "吕氏春秋",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《吕氏春秋》兼收儒家言论，并认同其仁义思想。",
+          "en": "The Lüshi Chunqiu incorporates Confucian teachings and agrees with its ideas of benevolence and righteousness."
+        }
+      }
+    },
+    {
+      "source": "墨家",
+      "target": "吕氏春秋",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《吕氏春秋》兼收并评论了墨家思想。",
+          "en": "The Lüshi Chunqiu incorporated and commented on Mohist thought."
+        }
+      }
+    },
+    {
+      "source": "吕氏春秋",
+      "target": "墨家",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "《吕氏春秋》反对墨家的偃兵观，认为军队是必不可少的。",
+          "en": "The Lüshi Chunqiu opposed the Mohist view of pacifism, arguing that military forces are indispensable."
+        }
+      }
+    },
+    {
+      "source": "老子",
+      "target": "吕氏春秋",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《吕氏春秋》中关于“天道”的思想与老子所说的“不可捉摸”的道形成对比，显示了其思想受到老子理论的影响并有所发展。",
+          "en": "The concept of the 'Way of Heaven' in Lüshi Chunqiu is contrasted with Laozi's idea of an 'elusive' Tao, showing that its philosophy was influenced by and developed from Laozi's theories."
+        }
+      }
+    },
+    {
+      "source": "吕氏春秋",
+      "target": "杂家",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《吕氏春秋》是杂家的代表作。",
+          "en": "The Lüshi Chunqiu is the representative work of the Syncretist School."
+        }
+      }
+    },
+    {
+      "source": "高诱",
+      "target": "吕氏春秋注",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "高诱为《吕氏春秋》作注，撰写了《吕氏春秋注》。",
+          "en": "Gao You wrote the 'Lüshi Chunqiu Zhu', a commentary on the Lüshi Chunqiu."
+        }
+      }
+    },
+    {
+      "source": "高诱",
+      "target": "吕不韦",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "高诱评论指出，当时无人敢于修改《吕氏春秋》的一个字，是因为人们畏惧相国吕不韦的权势。",
+          "en": "Gao You commented that no one at the time dared to alter a single word of the Lüshi Chunqiu because they feared the power and influence of Chancellor Lü Buwei."
+        }
+      }
+    },
+    {
+      "source": "四库全书总目",
+      "target": "吕氏春秋",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《四库全书总目》评价《吕氏春秋》的思想较诸子之言“独为醇正”。",
+          "en": "The 'Siku Quanshu Zongmu' evaluated the Lüshi Chunqiu as being 'uniquely pure and proper' compared to the words of other philosophers."
+        }
+      }
+    },
+    {
+      "source": "李慈铭",
+      "target": "吕氏春秋",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "清代学者李慈铭评价《吕氏春秋》没有新思想，但其贡献在于保存了“殷周佚说”。",
+          "en": "The Qing dynasty scholar Li Ciming commented that the Lüshi Chunqiu offered no new ideas but its contribution was in preserving 'lost sayings from the Yin and Zhou dynasties'."
+        }
+      }
+    },
+    {
+      "source": "熊培云",
+      "target": "自由在高处",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "熊培云是《自由在高处》的作者。",
+          "en": "Xiong Peiyun is the author of 'Freedom is on High'."
+        }
+      }
+    },
+    {
+      "source": "熊培云",
+      "target": "吕氏春秋",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "熊培云在其著作《自由在高处》中高度评价《吕氏春秋》，认为其蕴含丰富的现代性，从而在当代语境下推广了该书的思想。",
+          "en": "In his book 'Freedom is on High', Xiong Peiyun highly praised the Lüshi Chunqiu, believing it contains rich modern values, thereby promoting its ideas in a contemporary context."
+        }
+      }
+    },
+    {
+      "source": "吕氏春秋",
+      "target": "秦始皇",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0241",
+        "description": {
+          "zh-cn": "《吕氏春秋》的编纂目的在于为秦统一天下、治理国家提供思想和理论参考，旨在影响当时的秦王政（后来的秦始皇）。",
+          "en": "The purpose of compiling the Lüshi Chunqiu was to provide ideological and theoretical reference for Qin's unification and governance of the realm, aiming to influence the reigning King Zheng of Qin (later Qin Shi Huang)."
+        }
+      }
+    }
+  ]
+}

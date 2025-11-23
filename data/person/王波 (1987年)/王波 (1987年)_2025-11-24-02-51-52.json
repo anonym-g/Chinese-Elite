@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "王波",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王波"
+        ]
+      },
+      "properties": {
+        "lifetime": "1987-05 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "涟水县"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，现任龙岩市人民政府副市长。",
+          "en": "A political figure in the People's Republic of China, currently serving as the Vice Mayor of the Longyan Municipal People's Government."
+        }
+      }
+    },
+    {
+      "id": "涟水县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "涟水县",
+          "涟水"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "江苏省"
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "东南大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东南大学"
+        ],
+        "en": [
+          "Southeast University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "清华大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清华大学"
+        ],
+        "en": [
+          "Tsinghua University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "永丰新区管理委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "永丰新区管理委员会",
+          "永丰新区管委会"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "龙岩市"
+        }
+      }
+    },
+    {
+      "id": "中国共产党高陂镇(龙岩市)委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党高陂镇(龙岩市)委员会",
+          "高陂镇党委"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "高陂镇 (龙岩市)"
+        }
+      }
+    },
+    {
+      "id": "龙岩经济技术开发区管理委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "龙岩经济技术开发区管理委员会",
+          "龙岩经济技术开发区管委会"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "龙岩市"
+        }
+      }
+    },
+    {
+      "id": "中国共产党上杭县委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党上杭县委员会",
+          "上杭县委"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "上杭县"
+        }
+      }
+    },
+    {
+      "id": "上杭县人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上杭县人民政府"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "上杭县"
+        }
+      }
+    },
+    {
+      "id": "龙岩市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "龙岩市人民政府"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "龙岩市"
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王波",
+      "target": "涟水县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "王波是江苏涟水人。",
+          "en": "Wang Bo is a native of Lianshui, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "东南大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "2008",
+        "degree": {
+          "zh-cn": "工学学士"
+        },
+        "description": {
+          "zh-cn": "2008年从东南大学机械工程学院机械设计制造及其自动化专业毕业，获工学学士学位。",
+          "en": "Graduated from the School of Mechanical Engineering at Southeast University in 2008 with a bachelor's degree in engineering, majoring in Mechanical Design, Manufacturing and Automation."
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "清华大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "2008",
+        "end_date": "2013-07",
+        "degree": {
+          "zh-cn": "博士"
+        },
+        "description": {
+          "zh-cn": "进入清华大学汽车工程系机械工程专业攻读博士研究生，并于2013年7月毕业。",
+          "en": "Entered the Department of Automotive Engineering at Tsinghua University to pursue a doctoral degree in Mechanical Engineering, and graduated in July 2013."
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据其担任的党委职务和页面分类“中国共产党党员”可知其为中共党员。",
+          "en": "His membership in the Communist Party of China is inferred from his positions in party committees and the page category 'Communist Party of China members'."
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "永丰新区管理委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013-07",
+        "position": {
+          "zh-cn": "科技副主任"
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "中国共产党高陂镇(龙岩市)委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-09",
+        "end_date": "2015-03",
+        "position": {
+          "zh-cn": "党委委员、第一书记"
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "龙岩经济技术开发区管理委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-09",
+        "position": {
+          "zh-cn": "党工委委员、管委会副主任"
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "中国共产党上杭县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-06",
+        "end_date": "2021-01",
+        "position": {
+          "zh-cn": "县委副书记"
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "上杭县人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-07",
+        "end_date": "2021-01",
+        "position": {
+          "zh-cn": "代县长、县长"
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "中国共产党上杭县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-01",
+        "end_date": "2023-06",
+        "position": {
+          "zh-cn": "县委书记"
+        }
+      }
+    },
+    {
+      "source": "王波",
+      "target": "龙岩市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-06",
+        "position": {
+          "zh-cn": "副市长"
+        }
+      }
+    }
+  ]
+}

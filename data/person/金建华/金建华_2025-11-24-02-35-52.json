@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "金建华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "金建华"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1956- - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国企业家、政治人物。",
+          "en": "A Chinese entrepreneur and politician."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通称中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1921-07-23 - ",
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "上海新世界有限公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海新世界有限公司"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于上海的一家公司。",
+          "en": "A company based in Shanghai."
+        }
+      }
+    },
+    {
+      "id": "上海培罗蒙西服公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海培罗蒙西服公司"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于上海的一家西服公司。",
+          "en": "A suit company based in Shanghai."
+        }
+      }
+    },
+    {
+      "id": "第十一届全国政协委员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十一届全国政协委员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2008 - 2013",
+        "description": {
+          "zh-cn": "中国人民政治协商会议第十一届全国委员会的委员群体。",
+          "en": "The group of members of the 11th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "金建华",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "金建华是中国共产党党员。",
+          "en": "Jin Jianhua is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "金建华",
+      "target": "上海新世界有限公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "董事",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "金建华担任上海新世界有限公司董事。",
+          "en": "Jin Jianhua serves as a director of Shanghai New World Co., Ltd."
+        }
+      }
+    },
+    {
+      "source": "金建华",
+      "target": "上海培罗蒙西服公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委书记",
+          "en": "Party Committee Secretary"
+        },
+        "description": {
+          "zh-cn": "金建华担任上海培罗蒙西服公司党委书记。",
+          "en": "Jin Jianhua serves as the Party Committee Secretary of Shanghai Pelermon Suit Company."
+        }
+      }
+    },
+    {
+      "source": "金建华",
+      "target": "第十一届全国政协委员",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "end_date": "2013",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "2008年，金建华当选第十一届全国政协委员，代表经济界，分入第三十五组。",
+          "en": "In 2008, Jin Jianhua was elected as a member of the 11th National Committee of the Chinese People's Political Consultative Conference, representing the economic sector in group 35."
+        }
+      }
+    }
+  ]
+}

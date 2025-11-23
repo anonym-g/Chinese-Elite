@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "张汉夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张汉夫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1930-01 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "绥德",
+          "en": "Suide"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中华人民共和国人事部副部长，以及第八届、第九届全国政协委员。",
+          "en": "A political figure of the People's Republic of China, who served as Vice Minister of the Ministry of Personnel and was a member of the 8th and 9th National Committees of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "绥德",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "绥德"
+        ],
+        "en": [
+          "Suide"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "陕西",
+          "en": "Shaanxi"
+        },
+        "description": {
+          "zh-cn": "中国陕西省下辖的一个县，是张汉夫的出生地。",
+          "en": "A county in Shaanxi Province, China, and the birthplace of Zhang Hanfu."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，张汉夫是其政治人物。",
+          "en": "A socialist state in East Asia where Zhang Hanfu is a political figure."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国人事部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国人事部",
+          "人事部"
+        ],
+        "en": [
+          "Ministry of Personnel of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院曾经的组成部门，负责管理国家的人事工作。张汉夫曾在此担任副部长。",
+          "en": "A former constituent department of the State Council of the People's Republic of China, responsible for managing the state's personnel affairs. Zhang Hanfu served as its Vice Minister."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议全国委员会",
+          "全国政协"
+        ],
+        "en": [
+          "National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议的全国组织。张汉夫曾是其第八届和第九届委员。",
+          "en": "The national organization of the Chinese People's Political Consultative Conference. Zhang Hanfu was a member of its 8th and 9th committees."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。张汉夫是其党员。",
+          "en": "The ruling party of the People's Republic of China. Zhang Hanfu is a member."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张汉夫",
+      "target": "绥德",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本，张汉夫是陕西绥德人。",
+          "en": "According to the text, Zhang Hanfu is from Suide, Shaanxi."
+        }
+      }
+    },
+    {
+      "source": "张汉夫",
+      "target": "中华人民共和国人事部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Vice Minister"
+        },
+        "description": {
+          "zh-cn": "张汉夫曾担任中华人民共和国人事部副部长。",
+          "en": "Zhang Hanfu served as Vice Minister of the Ministry of Personnel of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "张汉夫",
+      "target": "中国人民政治协商会议全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "张汉夫曾任第八届、第九届全国政协委员。",
+          "en": "Zhang Hanfu was a member of the 8th and 9th National Committees of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "张汉夫",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，张汉夫是中国共产党党员。",
+          "en": "According to the page's category information, Zhang Hanfu is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

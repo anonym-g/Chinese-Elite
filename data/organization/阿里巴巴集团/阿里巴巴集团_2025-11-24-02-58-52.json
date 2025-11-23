@@ -1,0 +1,778 @@
+{
+  "nodes": [
+    {
+      "id": "阿里巴巴集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿里巴巴集团",
+          "阿里巴巴集团控股"
+        ],
+        "en": [
+          "Alibaba Group",
+          "Alibaba Group Holding Limited"
+        ]
+      },
+      "properties": {
+        "period": "1999-06-28 - ",
+        "location": {
+          "zh-cn": "杭州市",
+          "en": "Hangzhou"
+        },
+        "description": {
+          "zh-cn": "中国大陆一家以提供互联网服务为主的综合企业集团，服务范围包括B2B贸易、网上零售、购物搜索引擎、第三方支付和云计算服务。实行位于杭州、上海与北京的双总部制度。",
+          "en": "A Chinese multinational conglomerate holding company specializing in e-commerce, retail, Internet, and technology. It provides B2B trade, online retail, shopping search engines, third-party payment, and cloud computing services. It operates a dual headquarters system in Hangzhou, Shanghai, and Beijing."
+        }
+      }
+    },
+    {
+      "id": "马云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马云"
+        ],
+        "en": [
+          "Jack Ma"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国企业家，阿里巴巴集团的主要创始人，曾任董事局主席。",
+          "en": "A Chinese business magnate, investor, and philanthropist. He is the co-founder and former executive chairman of Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "蔡崇信",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡崇信"
+        ],
+        "en": [
+          "Joseph Tsai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "阿里巴巴集团的创始人之一，现任董事局主席。",
+          "en": "A co-founder of Alibaba Group and its current Chairman."
+        }
+      }
+    },
+    {
+      "id": "吴泳铭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴泳铭"
+        ],
+        "en": [
+          "Eddie Wu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "阿里巴巴集团的创始人之一，现任首席执行官（CEO）。",
+          "en": "A co-founder of Alibaba Group and its current Chief Executive Officer (CEO)."
+        }
+      }
+    },
+    {
+      "id": "张勇 (上海企业家)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张勇 (上海企业家)",
+          "张勇"
+        ],
+        "en": [
+          "Daniel Zhang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国企业家，2019年至2023年期间担任阿里巴巴集团董事局主席兼首席执行官。",
+          "en": "A Chinese business executive who served as the executive chairman and CEO of Alibaba Group from 2019 to 2023."
+        }
+      }
+    },
+    {
+      "id": "软银集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "软银集团",
+          "软银"
+        ],
+        "en": [
+          "SoftBank Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本跨国综合企业控股公司，是阿里巴巴集团的早期及主要投资者之一。",
+          "en": "A Japanese multinational conglomerate holding company that was an early and major investor in Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "雅虎",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "雅虎"
+        ],
+        "en": [
+          "Yahoo!"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国互联网公司，曾是阿里巴巴集团的重要股东。",
+          "en": "An American web services provider that was a significant shareholder in Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "蚂蚁集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蚂蚁集团",
+          "蚂蚁金服",
+          "浙江蚂蚁小微金融服务集团有限公司"
+        ],
+        "en": [
+          "Ant Group"
+        ]
+      },
+      "properties": {
+        "period": "2013-03-07 - ",
+        "description": {
+          "zh-cn": "源于2004年成立的支付宝，是一家中国的金融科技公司，为阿里巴巴集团的关联公司。",
+          "en": "Originating from Alipay which was founded in 2004, it is a Chinese fintech company and an affiliate of Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "淘宝网",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "淘宝网",
+          "淘宝"
+        ],
+        "en": [
+          "Taobao"
+        ]
+      },
+      "properties": {
+        "period": "2003-05 - ",
+        "description": {
+          "zh-cn": "阿里巴巴集团旗下的中国网上购物平台。",
+          "en": "A Chinese online shopping platform under Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "天猫",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "天猫",
+          "淘宝商城"
+        ],
+        "en": [
+          "Tmall"
+        ]
+      },
+      "properties": {
+        "period": "2011-06 - ",
+        "description": {
+          "zh-cn": "原名淘宝商城，是从淘宝网分拆出来的B2C平台。",
+          "en": "Formerly Taobao Mall, it is a B2C platform spun off from Taobao."
+        }
+      }
+    },
+    {
+      "id": "阿里云",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿里云",
+          "阿里云计算"
+        ],
+        "en": [
+          "Alibaba Cloud"
+        ]
+      },
+      "properties": {
+        "period": "2009-09 - ",
+        "description": {
+          "zh-cn": "阿里巴巴集团旗下的云计算公司。",
+          "en": "The cloud computing subsidiary of Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "菜鸟网络",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "菜鸟网络",
+          "菜鸟网络科技有限公司"
+        ],
+        "en": [
+          "Cainiao"
+        ]
+      },
+      "properties": {
+        "period": "2013 - ",
+        "description": {
+          "zh-cn": "阿里巴巴集团旗下的物流公司。",
+          "en": "The logistics arm of Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "国家市场监督管理总局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家市场监督管理总局",
+          "中国市场监管总局"
+        ],
+        "en": [
+          "State Administration for Market Regulation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院主管市场监督管理和综合执法的直属机构。",
+          "en": "A direct agency under the State Council of the People's Republic of China responsible for market supervision and comprehensive law enforcement."
+        }
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": [
+          "Xi Jinping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "现任中国共产党中央委员会总书记、中华人民共和国主席、中央军事委员会主席。",
+          "en": "The current General Secretary of the Central Committee of the Communist Party of China, President of the People's Republic of China, and Chairman of the Central Military Commission."
+        }
+      }
+    },
+    {
+      "id": "上海证券交易所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海证券交易所"
+        ],
+        "en": [
+          "Shanghai Stock Exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国上海的证券交易所。",
+          "en": "A stock exchange based in the city of Shanghai, China."
+        }
+      }
+    },
+    {
+      "id": "香港交易所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港交易所",
+          "港交所"
+        ],
+        "en": [
+          "Hong Kong Stock Exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港的证券交易所。",
+          "en": "The stock exchange of Hong Kong."
+        }
+      }
+    },
+    {
+      "id": "纽约证券交易所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纽约证券交易所"
+        ],
+        "en": [
+          "New York Stock Exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于美国纽约市的证券交易所。",
+          "en": "An American stock exchange in New York City."
+        }
+      }
+    },
+    {
+      "id": "优酷土豆",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "优酷土豆",
+          "合一集团",
+          "优酷"
+        ],
+        "en": [
+          "Youku Tudou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的影片分享网站，现为阿里巴巴集团旗下子公司。",
+          "en": "A video hosting service in China, now a subsidiary of Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "高德软件",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高德软件",
+          "高德地图"
+        ],
+        "en": [
+          "AutoNavi",
+          "Gaode"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的导航电子地图内容和位置服务解决方案提供商，现为阿里巴巴集团旗下子公司。",
+          "en": "A Chinese provider of digital map content and location-based solutions, now a subsidiary of Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "饿了么",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "饿了么"
+        ],
+        "en": [
+          "Ele.me"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的在线外卖订餐平台，现为阿里巴巴集团旗下子公司。",
+          "en": "A Chinese online food delivery platform, now a subsidiary of Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "Lazada",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Lazada"
+        ],
+        "en": [
+          "Lazada Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东南亚的电子商务平台，为阿里巴巴集团的子公司。",
+          "en": "A Southeast Asian e-commerce platform, a subsidiary of Alibaba Group."
+        }
+      }
+    },
+    {
+      "id": "南华早报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南华早报",
+          "南华早报集团"
+        ],
+        "en": [
+          "South China Morning Post"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港的英文报纸，自2015年起为阿里巴巴集团所拥有。",
+          "en": "A Hong Kong English-language newspaper owned by Alibaba Group since 2015."
+        }
+      }
+    },
+    {
+      "id": "996工作制",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "996工作制"
+        ],
+        "en": [
+          "996 working hour system"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指一种“早上9点上班，晚上9点下班，每周工作6天”的工作制度，在中国大陆引发广泛争议。",
+          "en": "Refers to a work schedule of '9 am to 9 pm, 6 days a week', which has sparked widespread controversy in mainland China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "马云",
+      "target": "阿里巴巴集团",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1999-06-28",
+        "description": {
+          "zh-cn": "马云是阿里巴巴集团的主要创始人之一，被称为“十八罗汉”之首。",
+          "en": "Jack Ma is one of the main co-founders of Alibaba Group, leading the '18 Arhats'."
+        }
+      }
+    },
+    {
+      "source": "蔡崇信",
+      "target": "阿里巴巴集团",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1999-06-28",
+        "description": {
+          "zh-cn": "蔡崇信是阿里巴巴集团的创始人之一。",
+          "en": "Joseph Tsai is one of the co-founders of Alibaba Group."
+        }
+      }
+    },
+    {
+      "source": "吴泳铭",
+      "target": "阿里巴巴集团",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1999-06-28",
+        "description": {
+          "zh-cn": "吴泳铭是阿里巴巴集团的创始人之一。",
+          "en": "Eddie Wu is one of the co-founders of Alibaba Group."
+        }
+      }
+    },
+    {
+      "source": "吴泳铭",
+      "target": "阿里巴巴集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-09-11",
+        "position": {
+          "zh-cn": "首席执行官",
+          "en": "Chief Executive Officer"
+        },
+        "description": {
+          "zh-cn": "吴泳铭于2023年9月正式履新阿里巴巴集团首席执行官。",
+          "en": "Eddie Wu formally took office as the CEO of Alibaba Group in September 2023."
+        }
+      }
+    },
+    {
+      "source": "蔡崇信",
+      "target": "阿里巴巴集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-09-11",
+        "position": {
+          "zh-cn": "董事局主席",
+          "en": "Chairman of the Board"
+        },
+        "description": {
+          "zh-cn": "蔡崇信于2023年9月正式履新阿里巴巴集团董事局主席。",
+          "en": "Joseph Tsai formally took office as the Chairman of the Board of Alibaba Group in September 2023."
+        }
+      }
+    },
+    {
+      "source": "张勇 (上海企业家)",
+      "target": "阿里巴巴集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2019-09-10",
+        "end_date": "2023-09-11",
+        "position": {
+          "zh-cn": "董事局主席",
+          "en": "Chairman of the Board"
+        },
+        "description": {
+          "zh-cn": "张勇接替马云担任阿里巴巴集团董事局主席。",
+          "en": "Daniel Zhang succeeded Jack Ma as the Chairman of the Board of Alibaba Group."
+        }
+      }
+    },
+    {
+      "source": "马云",
+      "target": "阿里巴巴集团",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2019-09-10",
+        "description": {
+          "zh-cn": "马云于2019年9月10日卸任阿里巴巴集团董事局主席职务。",
+          "en": "Jack Ma stepped down as the Chairman of the Board of Alibaba Group on September 10, 2019."
+        }
+      }
+    },
+    {
+      "source": "软银集团",
+      "target": "阿里巴巴集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "软银集团是阿里巴巴集团的早期主要投资者和长期大股东。",
+          "en": "SoftBank Group is an early major investor and long-term large shareholder of Alibaba Group."
+        }
+      }
+    },
+    {
+      "source": "雅虎",
+      "target": "阿里巴巴集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2005-08",
+        "end_date": "2012-09",
+        "description": {
+          "zh-cn": "2005年，雅虎通过收购雅虎中国资产获得阿里巴巴集团40%的股份。2012年，阿里巴巴回购了其中一半的股份。",
+          "en": "In 2005, Yahoo acquired a 40% stake in Alibaba Group through the acquisition of Yahoo China's assets. In 2012, Alibaba repurchased half of that stake."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "淘宝网",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2003-05",
+        "description": {
+          "zh-cn": "阿里巴巴集团于2003年5月投资1亿元人民币建立网上购物平台淘宝网。",
+          "en": "Alibaba Group invested 100 million RMB in May 2003 to establish the online shopping platform Taobao."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "天猫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2011-06",
+        "description": {
+          "zh-cn": "2011年6月，阿里巴巴集团将淘宝网分拆为三个独立公司，其中包括淘宝商城，后更名为天猫。",
+          "en": "In June 2011, Alibaba Group split Taobao into three independent companies, including Taobao Mall, which was later renamed Tmall."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "蚂蚁集团",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2013-03-07",
+        "description": {
+          "zh-cn": "阿里巴巴集团于2013年3月宣布筹备成立阿里小微金融服务集团，后更名为蚂蚁集团。",
+          "en": "Alibaba Group announced in March 2013 the preparation for the establishment of Ali Small and Micro Financial Services Group, which was later renamed Ant Group."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "阿里云",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2009-09",
+        "description": {
+          "zh-cn": "阿里巴巴集团于2009年9月成立子公司阿里云计算。",
+          "en": "Alibaba Group established its subsidiary Alibaba Cloud Computing in September 2009."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "菜鸟网络",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2013",
+        "description": {
+          "zh-cn": "菜鸟网络于2013年由阿里巴巴集团牵头成立。",
+          "en": "Cainiao Network was founded in 2013, led by Alibaba Group."
+        }
+      }
+    },
+    {
+      "source": "国家市场监督管理总局",
+      "target": "阿里巴巴集团",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-12-24",
+        "end_date": "2024-08-30",
+        "description": {
+          "zh-cn": "因实施“二选一”等涉嫌垄断行为，国家市场监管总局对阿里巴巴集团进行立案调查，并于2021年4月处以182.28亿元人民币罚款。整改工作于2024年8月宣布完成。",
+          "en": "Due to monopolistic behaviors such as 'choose one of two', the State Administration for Market Regulation launched an investigation into Alibaba Group, and imposed a fine of 18.228 billion RMB in April 2021. The rectification was announced as complete in August 2024."
+        }
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "蚂蚁集团",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11",
+        "description": {
+          "zh-cn": "据《华尔街日报》报道，中共中央总书记习近平亲自下令阻止蚂蚁集团的首次公开募股。",
+          "en": "According to The Wall Street Journal, CCP General Secretary Xi Jinping personally ordered the suspension of Ant Group's IPO."
+        }
+      }
+    },
+    {
+      "source": "上海证券交易所",
+      "target": "蚂蚁集团",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11-03",
+        "description": {
+          "zh-cn": "上海证券交易所发布决定，暂缓蚂蚁集团在科创板的上市。",
+          "en": "The Shanghai Stock Exchange issued a decision to suspend Ant Group's listing on the STAR Market."
+        }
+      }
+    },
+    {
+      "source": "香港交易所",
+      "target": "蚂蚁集团",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-11-03",
+        "description": {
+          "zh-cn": "香港交易所发表声明，暂缓蚂蚁集团H股上市。",
+          "en": "The Hong Kong Stock Exchange issued a statement to suspend the H-share listing of Ant Group."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "纽约证券交易所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-09-19",
+        "description": {
+          "zh-cn": "阿里巴巴集团于2014年9月19日在纽约证券交易所挂牌上市。",
+          "en": "Alibaba Group was listed on the New York Stock Exchange on September 19, 2014."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "香港交易所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2019-11-26",
+        "description": {
+          "zh-cn": "阿里巴巴集团于2019年11月26日在香港交易所二次上市，并于2024年8月转为双重主要上市。",
+          "en": "Alibaba Group completed a secondary listing on the Hong Kong Stock Exchange on November 26, 2019, and converted to a dual primary listing in August 2024."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "优酷土豆",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2015-11-06",
+        "description": {
+          "zh-cn": "阿里巴巴集团全资收购合一集团（原优酷土豆集团）。此前已于2014年4月入股。",
+          "en": "Alibaba Group fully acquired HeYi Group (formerly Youku Tudou Group). It had previously invested in the company in April 2014."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "高德软件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-10",
+        "description": {
+          "zh-cn": "阿里巴巴集团全面收购高德软件并将其私有化。此前已于2013年5月入股。",
+          "en": "Alibaba Group fully acquired AutoNavi (Gaode Software) and privatized it. It had previously invested in the company in May 2013."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "饿了么",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2018-04-02",
+        "description": {
+          "zh-cn": "阿里巴巴联合蚂蚁金服以95亿美元全资收购饿了么。",
+          "en": "Alibaba, together with Ant Financial, fully acquired Ele.me for US$9.5 billion."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "Lazada",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2016-04-12",
+        "description": {
+          "zh-cn": "阿里巴巴集团于2016年入股Lazada成为最大股东，并于2017年增持股份至83%。",
+          "en": "Alibaba Group invested in Lazada in 2016 to become its largest shareholder and increased its stake to 83% in 2017."
+        }
+      }
+    },
+    {
+      "source": "阿里巴巴集团",
+      "target": "南华早报",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2015-12-13",
+        "description": {
+          "zh-cn": "阿里巴巴集团收购南华早报集团的媒体资产。",
+          "en": "Alibaba Group acquired the media assets of the South China Morning Post Group."
+        }
+      }
+    },
+    {
+      "source": "马云",
+      "target": "996工作制",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-04-11",
+        "description": {
+          "zh-cn": "马云在公司内部交流中发表言论，称能做996是一种“福报”，公开支持996工作制，引发舆论争议。",
+          "en": "In an internal company meeting, Jack Ma made remarks supporting the 996 working hour system, calling it a 'blessing', which sparked public controversy."
+        }
+      }
+    }
+  ]
+}

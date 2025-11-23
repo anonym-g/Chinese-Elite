@@ -1,0 +1,818 @@
+{
+  "nodes": [
+    {
+      "id": "尊严革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "尊严革命",
+          "广场革命",
+          "迈丹革命",
+          "乌克兰革命"
+        ],
+        "en": [
+          "Revolution of Dignity"
+        ]
+      },
+      "properties": {
+        "period": "2014-02-18 - 2014-02-23",
+        "location": {
+          "zh-cn": "乌克兰",
+          "en": "Ukraine"
+        },
+        "description": {
+          "zh-cn": "于2014年2月在乌克兰爆发的革命，导致时任总统维克多·亚努科维奇被罢免，并重组新政府。此事件也是广场起义的最终阶段，并直接引发了后续的俄乌战争。",
+          "en": "A revolution that took place in Ukraine in February 2014, leading to the ousting of then-President Viktor Yanukovych and the formation of a new government. This event was the final phase of the Euromaidan protests and directly triggered the subsequent Russo-Ukrainian War."
+        }
+      }
+    },
+    {
+      "id": "维克多·费奥多罗维奇·亚努科维奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "维克多·费奥多罗维奇·亚努科维奇",
+          "维克多·亚努科维奇"
+        ],
+        "en": [
+          "Viktor Fedorovych Yanukovych",
+          "Viktor Yanukovych"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "乌克兰政治人物，曾任乌克兰总统。他在2014年的尊严革命中被罢免，随后逃往俄罗斯。",
+          "en": "A Ukrainian politician who served as the President of Ukraine. He was ousted during the Revolution of Dignity in 2014 and subsequently fled to Russia."
+        }
+      }
+    },
+    {
+      "id": "乌克兰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰"
+        ],
+        "en": [
+          "Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东欧的国家。",
+          "en": "A country in Eastern Europe."
+        }
+      }
+    },
+    {
+      "id": "基辅",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "基辅"
+        ],
+        "en": [
+          "Kyiv"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "乌克兰的首都和最大城市。",
+          "en": "The capital and largest city of Ukraine."
+        }
+      }
+    },
+    {
+      "id": "广场起义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "广场起义"
+        ],
+        "en": [
+          "Euromaidan"
+        ]
+      },
+      "properties": {
+        "period": "2013-11 - 2014-02",
+        "description": {
+          "zh-cn": "2013年底在乌克兰爆发的一系列大规模抗议活动，起因是时任总统亚努科维奇政府暂停与欧盟签署联合协议。抗议活动最终升级为尊严革命。",
+          "en": "A series of large-scale protests in Ukraine that began in late 2013, triggered by the Yanukovych government's decision to suspend the signing of an association agreement with the European Union. The protests ultimately escalated into the Revolution of Dignity."
+        }
+      }
+    },
+    {
+      "id": "2004年乌克兰宪法修正案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "2004年乌克兰宪法修正案"
+        ],
+        "en": [
+          "2004 Amendments to the Constitution of Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "乌克兰宪法的一项修正案，将国家政体由总统-议会制改为议会-总统制。该修正案在尊严革命后被恢复。",
+          "en": "An amendment to the Constitution of Ukraine that changed the state's political system from a presidential-parliamentary system to a parliamentary-presidential one. The amendment was restored after the Revolution of Dignity."
+        }
+      }
+    },
+    {
+      "id": "第一届亚采纽克政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第一届亚采纽克政府",
+          "临时政府"
+        ],
+        "en": [
+          "First Yatsenyuk government"
+        ]
+      },
+      "properties": {
+        "period": "2014-02-27 - 2014-11-27",
+        "description": {
+          "zh-cn": "在2014年乌克兰尊严革命后成立的临时政府，由阿尔谢尼·亚采纽克领导。",
+          "en": "The interim government formed after the 2014 Ukrainian Revolution of Dignity, led by Arseniy Yatsenyuk."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯"
+        ],
+        "en": [
+          "Russia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "横跨东欧和北亚的联邦国家。",
+          "en": "A federal state spanning Eastern Europe and Northern Asia."
+        }
+      }
+    },
+    {
+      "id": "乌俄战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "乌俄战争"
+        ],
+        "en": [
+          "Russo-Ukrainian War"
+        ]
+      },
+      "properties": {
+        "period": "2014-02-20 - ",
+        "description": {
+          "zh-cn": "始于2014年2月的俄罗斯与乌克兰之间的长期武装冲突。起初俄罗斯否认介入，后于2022年全面入侵乌克兰。",
+          "en": "A long-term armed conflict between Russia and Ukraine that began in February 2014. Initially, Russia denied its involvement, but later launched a full-scale invasion of Ukraine in 2022."
+        }
+      }
+    },
+    {
+      "id": "尤莉娅·弗拉基米罗芙娜·季莫申科",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "尤莉娅·弗拉基米罗芙娜·季莫申科",
+          "尤莉娅·季莫申科",
+          "尤莉亚·提摩申科"
+        ],
+        "en": [
+          "Yulia Volodymyrivna Tymoshenko"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "乌克兰政治人物，曾任乌克兰总理。在尊严革命后从监狱获释。",
+          "en": "A Ukrainian politician who served as Prime Minister of Ukraine. She was released from prison after the Revolution of Dignity."
+        }
+      }
+    },
+    {
+      "id": "金雕特种部队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "金雕特种部队"
+        ],
+        "en": [
+          "Berkut"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "乌克兰内政部下属的特种警察部队。因在尊严革命期间镇压抗议者而备受争议，革命后被解散。",
+          "en": "A special police force under the Ministry of Internal Affairs of Ukraine. It became controversial for its suppression of protesters during the Revolution of Dignity and was disbanded after the revolution."
+        }
+      }
+    },
+    {
+      "id": "Maidan People's Union",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Maidan People's Union",
+          "广场人民联盟"
+        ],
+        "en": [
+          "Maidan People's Union"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在广场起义期间由反政府抗议者和议会反对党组成的政治联盟。",
+          "en": "A political alliance formed by anti-government protesters and parliamentary opposition parties during the Euromaidan."
+        }
+      }
+    },
+    {
+      "id": "Second Azarov Government",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Second Azarov Government",
+          "第二届阿扎罗夫政府",
+          "乌克兰政府",
+          "阿扎罗夫政府"
+        ],
+        "en": [
+          "Second Azarov Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由米克拉·阿扎罗夫领导的乌克兰政府，在尊严革命期间被推翻。",
+          "en": "The government of Ukraine led by Mykola Azarov, which was overthrown during the Revolution of Dignity."
+        }
+      }
+    },
+    {
+      "id": "欧洲联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "欧洲联盟"
+        ],
+        "en": [
+          "European Union"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个由27个欧洲成员国组成的政治和经济联盟。",
+          "en": "A political and economic union of 27 European member states."
+        }
+      }
+    },
+    {
+      "id": "乌克兰－欧洲联盟联合协议",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "乌克兰－欧洲联盟联合协议"
+        ],
+        "en": [
+          "Ukraine–European Union Association Agreement"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "乌克兰与欧盟之间旨在深化政治和经济关系的协议。亚努科维奇政府暂停签署此协议是广场起义的直接导火索。",
+          "en": "An agreement between Ukraine and the European Union aimed at deepening political and economic relations. The Yanukovych government's suspension of the signing of this agreement was the direct trigger for the Euromaidan protests."
+        }
+      }
+    },
+    {
+      "id": "乌克兰最高拉达",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰最高拉达"
+        ],
+        "en": [
+          "Verkhovna Rada"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "乌克兰的最高立法机关，即一院制议会。",
+          "en": "The supreme legislative body of Ukraine, its unicameral parliament."
+        }
+      }
+    },
+    {
+      "id": "乌克兰反示威法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "乌克兰反示威法",
+          "反示威法"
+        ],
+        "en": [
+          "Anti-protest laws in Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "2014年1月16日由乌克兰最高拉达通过的一系列旨在限制抗议活动的法律，此举进一步激化了社会矛盾。",
+          "en": "A series of laws passed by the Verkhovna Rada on January 16, 2014, aimed at restricting protests, which further exacerbated social conflicts."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·普京",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·普京",
+          "普京",
+          "普丁"
+        ],
+        "en": [
+          "Vladimir Putin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯政治人物，现任俄罗斯总统。在尊严革命期间，他决定军事干预乌克兰事务。",
+          "en": "A Russian politician and the current President of Russia. During the Revolution of Dignity, he decided to militarily intervene in Ukrainian affairs."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯联邦并吞克里米亚",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "俄罗斯联邦并吞克里米亚"
+        ],
+        "en": [
+          "Annexation of Crimea by the Russian Federation"
+        ]
+      },
+      "properties": {
+        "period": "2014-02 - 2014-03",
+        "description": {
+          "zh-cn": "2014年乌克兰尊严革命后，俄罗斯出兵占领并随后宣布吞并原属乌克兰的克里米亚半岛。",
+          "en": "Following the 2014 Revolution of Dignity in Ukraine, Russia deployed troops to occupy and subsequently announced the annexation of the Crimean Peninsula, which was previously part of Ukraine."
+        }
+      }
+    },
+    {
+      "id": "2014年乌克兰亲俄动乱",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "2014年乌克兰亲俄动乱",
+          "亲俄的反革命动乱"
+        ],
+        "en": [
+          "2014 pro-Russian unrest in Ukraine"
+        ]
+      },
+      "properties": {
+        "period": "2014-02 - 2014-04",
+        "description": {
+          "zh-cn": "尊严革命后，在乌克兰南部和东部地区爆发的一系列由亲俄分裂分子发起的示威和骚乱。",
+          "en": "A series of demonstrations and riots initiated by pro-Russian separatists in the southern and eastern regions of Ukraine following the Revolution of Dignity."
+        }
+      }
+    },
+    {
+      "id": "顿巴斯战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "顿巴斯战争"
+        ],
+        "en": [
+          "War in Donbas"
+        ]
+      },
+      "properties": {
+        "period": "2014-04-06 - 2022-02-24",
+        "description": {
+          "zh-cn": "乌克兰东部顿巴斯地区爆发的武装冲突，交战双方为乌克兰政府军和由俄罗斯支持的顿涅茨克、卢甘斯克亲俄武装。",
+          "en": "An armed conflict in the Donbas region of eastern Ukraine between the Ukrainian armed forces and Russian-backed separatists of Donetsk and Luhansk."
+        }
+      }
+    },
+    {
+      "id": "彼得·波罗申科",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彼得·波罗申科"
+        ],
+        "en": [
+          "Petro Poroshenko"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "乌克兰政治人物和商人，在2014年总统选举中获胜，成为尊严革命后的第一任民选总统。",
+          "en": "A Ukrainian politician and businessman who won the 2014 presidential election, becoming the first popularly elected president after the Revolution of Dignity."
+        }
+      }
+    },
+    {
+      "id": "2014年乌克兰总统选举",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2014年乌克兰总统选举"
+        ],
+        "en": [
+          "2014 Ukrainian presidential election"
+        ]
+      },
+      "properties": {
+        "period": "2014-05-25",
+        "description": {
+          "zh-cn": "在尊严革命后举行的乌克兰总统选举，彼得·波罗申科在第一轮投票中即获胜。",
+          "en": "The presidential election held in Ukraine after the Revolution of Dignity, which Petro Poroshenko won in the first round."
+        }
+      }
+    },
+    {
+      "id": "阿尔谢尼·亚采纽克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿尔谢尼·亚采纽克"
+        ],
+        "en": [
+          "Arseniy Yatsenyuk"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "乌克兰政治人物，尊严革命期间的反对派领袖之一，革命后成为乌克兰临时政府的总理。",
+          "en": "A Ukrainian politician, one of the opposition leaders during the Revolution of Dignity, who became the Prime Minister of the interim government of Ukraine after the revolution."
+        }
+      }
+    },
+    {
+      "id": "乌克兰内政部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰内政部"
+        ],
+        "en": [
+          "Ministry of Internal Affairs of Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责乌克兰内部安全和执法的中央政府机构。",
+          "en": "The central government agency responsible for internal security and law enforcement in Ukraine."
+        }
+      }
+    },
+    {
+      "id": "乌克兰国家安全局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰国家安全局",
+          "国家安全局"
+        ],
+        "en": [
+          "Security Service of Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "乌克兰的国家情报和安全机构。",
+          "en": "The national intelligence and security agency of Ukraine."
+        }
+      }
+    },
+    {
+      "id": "阿尔法小组 (乌克兰)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿尔法小组 (乌克兰)",
+          "阿尔法小组"
+        ],
+        "en": [
+          "Alpha Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "乌克兰国家安全局下属的精锐特种部队。",
+          "en": "An elite special forces unit under the Security Service of Ukraine."
+        }
+      }
+    },
+    {
+      "id": "顿涅茨克人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "顿涅茨克人民共和国"
+        ],
+        "en": [
+          "Donetsk People's Republic"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "2014年在乌克兰顿涅茨克州由亲俄分裂分子宣布成立的政治实体，引发了顿巴斯战争。",
+          "en": "A political entity declared by pro-Russian separatists in Donetsk Oblast, Ukraine, in 2014, which triggered the War in Donbas."
+        }
+      }
+    },
+    {
+      "id": "卢甘斯克人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "卢甘斯克人民共和国"
+        ],
+        "en": [
+          "Luhansk People's Republic"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "2014年在乌克兰卢甘斯克州由亲俄分裂分子宣布成立的政治实体，引发了顿巴斯战争。",
+          "en": "A political entity declared by pro-Russian separatists in Luhansk Oblast, Ukraine, in 2014, which triggered the War in Donbas."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "广场起义",
+      "target": "尊严革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-18",
+        "description": {
+          "zh-cn": "尊严革命是广场起义抗议活动的最终阶段和高潮，导致了政权更迭。",
+          "en": "The Revolution of Dignity was the final stage and climax of the Euromaidan protests, leading to a change of government."
+        }
+      }
+    },
+    {
+      "source": "尊严革命",
+      "target": "维克多·费奥多罗维奇·亚努科维奇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-02-22",
+        "description": {
+          "zh-cn": "尊严革命导致时任总统维克多·亚努科维奇被乌克兰最高拉达投票罢免，并叛逃至俄罗斯。",
+          "en": "The Revolution of Dignity led to the ousting of then-President Viktor Yanukovych by a vote in the Verkhovna Rada, after which he fled to Russia."
+        }
+      }
+    },
+    {
+      "source": "尊严革命",
+      "target": "2004年乌克兰宪法修正案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-22",
+        "description": {
+          "zh-cn": "尊严革命成功后，乌克兰最高拉达恢复了2004年宪法修正案的效力。",
+          "en": "After the success of the Revolution of Dignity, the Verkhovna Rada restored the 2004 constitutional amendments."
+        }
+      }
+    },
+    {
+      "source": "尊严革命",
+      "target": "第一届亚采纽克政府",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-27",
+        "description": {
+          "zh-cn": "尊严革命推翻了阿扎罗夫政府，随后成立了由阿尔谢尼·亚采纽克领导的临时政府。",
+          "en": "The Revolution of Dignity overthrew the Azarov government, leading to the formation of an interim government led by Arseniy Yatsenyuk."
+        }
+      }
+    },
+    {
+      "source": "尊严革命",
+      "target": "乌俄战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-20",
+        "description": {
+          "zh-cn": "尊严革命期间，俄罗斯开始军事干预乌克兰，并最终导致了全面的俄乌战争。",
+          "en": "During the Revolution of Dignity, Russia began its military intervention in Ukraine, which eventually led to the full-scale Russo-Ukrainian War."
+        }
+      }
+    },
+    {
+      "source": "尊严革命",
+      "target": "尤莉娅·弗拉基米罗芙娜·季莫申科",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-22",
+        "description": {
+          "zh-cn": "尊严革命的结果之一是前总理尤莉娅·季莫申科从监狱中获释。",
+          "en": "One of the outcomes of the Revolution of Dignity was the release of former Prime Minister Yulia Tymoshenko from prison."
+        }
+      }
+    },
+    {
+      "source": "尊严革命",
+      "target": "金雕特种部队",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-02-25",
+        "description": {
+          "zh-cn": "由于在革命期间对抗议者使用暴力，金雕特种部队在革命后被临时政府解散。",
+          "en": "Due to its use of violence against protesters during the revolution, the Berkut special police force was disbanded by the interim government afterward."
+        }
+      }
+    },
+    {
+      "source": "维克多·费奥多罗维奇·亚努科维奇",
+      "target": "乌克兰－欧洲联盟联合协议",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2013-11-21",
+        "description": {
+          "zh-cn": "2013年11月，总统亚努科维奇政府决定暂停与欧盟签署《联合协议》，此举是广场起义爆发的直接导火索。",
+          "en": "In November 2013, President Yanukovych's government decided to suspend the signing of the Association Agreement with the EU, an act that directly triggered the Euromaidan protests."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "乌克兰－欧洲联盟联合协议",
+      "type": "BLOCKED",
+      "properties": {
+        "period": " - 2013-11",
+        "description": {
+          "zh-cn": "俄罗斯向乌克兰施加经济和政治压力，要求其拒绝与欧盟签署《联合协议》，转而与俄罗斯建立更紧密的关系。",
+          "en": "Russia exerted economic and political pressure on Ukraine to reject the Association Agreement with the EU and instead build closer ties with Russia."
+        }
+      }
+    },
+    {
+      "source": "乌克兰最高拉达",
+      "target": "乌克兰反示威法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-01-16",
+        "description": {
+          "zh-cn": "2014年1月16日，乌克兰最高拉达通过了旨在压制抗议活动的“反示威法”，进一步激化了局势。",
+          "en": "On January 16, 2014, the Verkhovna Rada passed the 'anti-protest laws' aimed at suppressing the protests, which further escalated the situation."
+        }
+      }
+    },
+    {
+      "source": "乌克兰反示威法",
+      "target": "广场起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-01-16",
+        "description": {
+          "zh-cn": "“反示威法”的通过激起了民众的强烈愤慨，导致抗议活动升级为更激烈的冲突。",
+          "en": "The passing of the 'anti-protest laws' provoked strong public outrage, causing the protests to escalate into more violent clashes."
+        }
+      }
+    },
+    {
+      "source": "Maidan People's Union",
+      "target": "Second Azarov Government",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "2013-11 - 2014-02",
+        "description": {
+          "zh-cn": "在广场起义和尊严革命期间，由抗议者组成的广场人民联盟与亚努科维奇总统领导的第二届阿扎罗夫政府处于敌对状态。",
+          "en": "During the Euromaidan and the Revolution of Dignity, the Maidan People's Union, composed of protesters, was in a state of hostility with the Second Azarov Government led by President Yanukovych."
+        }
+      }
+    },
+    {
+      "source": "乌克兰最高拉达",
+      "target": "维克多·费奥多罗维奇·亚努科维奇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-02-22",
+        "description": {
+          "zh-cn": "在总统亚努科维奇逃离基辅后，乌克兰最高拉达于2014年2月22日以328票对0票通过弹劾案，罢免其总统职务。",
+          "en": "After President Yanukovych fled Kyiv, the Verkhovna Rada voted 328-0 on February 22, 2014, to impeach him and remove him from the presidency."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯",
+      "target": "尊严革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2014-02-22",
+        "description": {
+          "zh-cn": "俄罗斯谴责乌克兰最高拉达罢免亚努科维奇的投票为一场“政变”，并拒绝承认新成立的临时政府。",
+          "en": "Russia condemned the Verkhovna Rada's vote to oust Yanukovych as a 'coup' and refused to recognize the newly formed interim government."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·普京",
+      "target": "乌俄战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-02-20",
+        "description": {
+          "zh-cn": "在尊严革命期间，俄罗斯总统普京决定军事干预乌克兰事务，派遣军队入侵乌克兰，从而引发了俄乌战争。",
+          "en": "During the Revolution of Dignity, Russian President Vladimir Putin decided to militarily intervene in Ukrainian affairs, sending troops to invade Ukraine, thus triggering the Russo-Ukrainian War."
+        }
+      }
+    },
+    {
+      "source": "2014年乌克兰总统选举",
+      "target": "彼得·波罗申科",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-05-25",
+        "description": {
+          "zh-cn": "彼得·波罗申科在2014年5月25日举行的总统选举中获胜，成为尊严革命后的新任乌克兰总统。",
+          "en": "Petro Poroshenko won the presidential election held on May 25, 2014, becoming the new President of Ukraine after the Revolution of Dignity."
+        }
+      }
+    },
+    {
+      "source": "阿尔谢尼·亚采纽克",
+      "target": "第一届亚采纽克政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2014-02-27",
+        "end_date": "2014-11-27",
+        "position": {
+          "zh-cn": "总理",
+          "en": "Prime Minister"
+        },
+        "description": {
+          "zh-cn": "阿尔谢尼·亚采纽克在尊严革命后被任命为临时政府总理。",
+          "en": "Arseniy Yatsenyuk was appointed Prime Minister of the interim government after the Revolution of Dignity."
+        }
+      }
+    },
+    {
+      "source": "金雕特种部队",
+      "target": "乌克兰内政部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "金雕特种部队是乌克兰内政部下属的特种警察单位。",
+          "en": "The Berkut was a special police unit subordinate to the Ministry of Internal Affairs of Ukraine."
+        }
+      }
+    },
+    {
+      "source": "阿尔法小组 (乌克兰)",
+      "target": "乌克兰国家安全局",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "阿尔法小组是乌克兰国家安全局下属的特种部队。",
+          "en": "The Alpha Group is a special forces unit subordinate to the Security Service of Ukraine."
+        }
+      }
+    },
+    {
+      "source": "顿涅茨克人民共和国",
+      "target": "顿巴斯战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-04",
+        "description": {
+          "zh-cn": "亲俄武装宣布成立“顿涅茨克人民共和国”并占领政府大楼，与乌克兰中央政府爆发武装冲突，引发顿巴斯战争。",
+          "en": "Pro-Russian forces declared the 'Donetsk People's Republic' and seized government buildings, leading to armed conflict with the central government of Ukraine and sparking the War in Donbas."
+        }
+      }
+    },
+    {
+      "source": "卢甘斯克人民共和国",
+      "target": "顿巴斯战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-04",
+        "description": {
+          "zh-cn": "亲俄武装宣布成立“卢甘斯克人民共和国”并占领政府大楼，与乌克兰中央政府爆发武装冲突，引发顿巴斯战争。",
+          "en": "Pro-Russian forces declared the 'Luhansk People's Republic' and seized government buildings, leading to armed conflict with the central government of Ukraine and sparking the War in Donbas."
+        }
+      }
+    }
+  ]
+}

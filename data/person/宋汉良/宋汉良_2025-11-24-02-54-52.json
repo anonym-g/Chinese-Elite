@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "id": "宋汉良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋汉良"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1934 - 2000",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "绍兴",
+          "en": "Shaoxing"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中共新疆维吾尔自治区党委书记。",
+          "en": "A politician of the People's Republic of China, who served as the Party Committee Secretary of Xinjiang Uygur Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "王乐泉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王乐泉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，接替宋汉良代理中共新疆维吾尔自治区党委书记。",
+          "en": "A politician of the People's Republic of China, who succeeded Song Hanliang as the acting Party Committee Secretary of Xinjiang Uygur Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "绍兴",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "绍兴"
+        ],
+        "en": [
+          "Shaoxing"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "新疆中苏石油公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新疆中苏石油公司"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "新疆石油管理局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新疆石油管理局"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "新疆维吾尔自治区人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新疆维吾尔自治区人民政府"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "新疆维吾尔自治区党委书记",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新疆维吾尔自治区党委书记"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党新疆维吾尔自治区委员会的主要负责人职务。",
+          "en": "The position of the primary person in charge of the Xinjiang Uygur Autonomous Region Committee of the Communist Party of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "宋汉良",
+      "target": "绍兴",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "宋汉良",
+      "target": "新疆中苏石油公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "宋汉良早年在新疆中苏石油公司工作。",
+          "en": "Song Hanliang worked at Xinjiang Sino-Soviet Petroleum Company in his early years."
+        }
+      }
+    },
+    {
+      "source": "宋汉良",
+      "target": "新疆石油管理局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1983",
+        "position": {
+          "zh-cn": "油田研究所代党委书记兼政治处主任, 副局长",
+          "en": "Acting Party Secretary and Director of the Political Department of the Oilfield Research Institute, Deputy Director"
+        },
+        "description": {
+          "zh-cn": "宋汉良曾担任新疆石油管理局油田研究所代党委书记兼政治处主任，并于1980年升任副局长。",
+          "en": "Song Hanliang served as the Acting Party Secretary and Director of the Political Department of the Oilfield Research Institute of the Xinjiang Petroleum Administration Bureau, and was promoted to Deputy Director in 1980."
+        }
+      }
+    },
+    {
+      "source": "宋汉良",
+      "target": "新疆维吾尔自治区人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983",
+        "end_date": "1985-10",
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        }
+      }
+    },
+    {
+      "source": "宋汉良",
+      "target": "新疆维吾尔自治区党委书记",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1985-10",
+        "end_date": "1994-09-24",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "王乐泉",
+      "target": "宋汉良",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1994-09-24",
+        "description": {
+          "zh-cn": "王乐泉于1994年9月24日接替宋汉良，代理新疆维吾尔自治区党委书记一职。",
+          "en": "Wang Lequan succeeded Song Hanliang on September 24, 1994, as the acting Party Committee Secretary of the Xinjiang Uygur Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "王乐泉",
+      "target": "新疆维吾尔自治区党委书记",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1994-09-24",
+        "position": {
+          "zh-cn": "代理书记",
+          "en": "Acting Secretary"
+        }
+      }
+    }
+  ]
+}
