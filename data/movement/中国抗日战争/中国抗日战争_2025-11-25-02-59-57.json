@@ -1,0 +1,898 @@
+{
+  "nodes": [
+    {
+      "id": "中国抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中国抗日战争",
+          "抗战",
+          "抗日",
+          "日本侵华战争",
+          "中国人民抗日战争",
+          "第二次中日战争",
+          "八年抗战",
+          "十四年抗战",
+          "抗日卫国战争",
+          "中华民国抗日战争"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": [
+          "1931-09-18 - 1937-07-07",
+          "1937-07-07 - 1945-09-09"
+        ],
+        "description": {
+          "zh-cn": "1930年代至1945年中华民国与大日本帝国之间发生的战争，战场主要位于中国境内，是第二次世界大战的一部分。",
+          "en": "A military conflict fought primarily between the Republic of China and the Empire of Japan from 1937 to 1945. It was the largest Asian war in the 20th century and made up the Chinese theater of the wider Pacific Theatre of the Second World War."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868 - 1947",
+        "description": {
+          "zh-cn": "1868年至1947年间日本的国号，为第二次世界大战轴心国之一，发动了对中国的侵略战争。",
+          "en": "The historical nation-state of Japan that existed from 1868 to 1947. It was one of the Axis powers during World War II and launched the war of aggression against China."
+        }
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国",
+          "中国"
+        ],
+        "en": [
+          "Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1912 - ",
+        "description": {
+          "zh-cn": "亚洲的共和制国家，于1912年在中国大陆成立。在抗日战争期间，其国民政府领导了正面战场的抵抗。",
+          "en": "A republic in Asia, founded in 1912 on the mainland. During the Second Sino-Japanese War, its Nationalist Government led the resistance in the front-line battlefields."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "period": "1921-07 - ",
+        "description": {
+          "zh-cn": "中国的执政党。在抗日战争期间，与中国国民党组成抗日民族统一战线，领导了敌后战场的游击战。",
+          "en": "The founding and ruling political party of the People's Republic of China. During the Second Sino-Japanese War, it formed a united front with the Kuomintang and led guerrilla warfare in the rear areas."
+        }
+      }
+    },
+    {
+      "id": "卢沟桥事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "卢沟桥事变",
+          "七七事变"
+        ],
+        "en": [
+          "Marco Polo Bridge Incident"
+        ]
+      },
+      "properties": {
+        "period": "1937-07-07 - 1937-07-31",
+        "location": {
+          "zh-cn": "北平市宛平县卢沟桥"
+        },
+        "description": {
+          "zh-cn": "1937年7月7日发生于中国北平的军事冲突，标志着中国抗日战争的全面爆发。",
+          "en": "A battle in July 1937 between China's National Revolutionary Army and the Imperial Japanese Army, often used as the marker for the start of the Second Sino-Japanese War (1937–1945)."
+        }
+      }
+    },
+    {
+      "id": "九一八事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "九一八事变"
+        ],
+        "en": [
+          "Mukden Incident"
+        ]
+      },
+      "properties": {
+        "period": "1931-09-18 - ",
+        "location": {
+          "zh-cn": "沈阳"
+        },
+        "description": {
+          "zh-cn": "1931年9月18日，日本关东军在中国东北发动的军事入侵，被视为中国抗日战争的开端。",
+          "en": "A staged event engineered by Japanese military personnel as a pretext for the Japanese invasion in 1931 of northeastern China, known as Manchuria. It is considered the beginning of the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战",
+          "二战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939-09-01 - 1945-09-02",
+        "description": {
+          "zh-cn": "一场全球性的战争，中国抗日战争是其亚洲战场的重要组成部分。",
+          "en": "A global war that lasted from 1939 to 1945. The Second Sino-Japanese War was a major part of its Asian theatre."
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": [
+          "Nationalist Government"
+        ]
+      },
+      "properties": {
+        "period": "1925 - 1948",
+        "description": {
+          "zh-cn": "中华民国在1925年至1948年间的中央政府与最高行政机关，在抗日战争期间领导了中国的正面战场。",
+          "en": "The central government and highest administrative body of the Republic of China from 1925 to 1948, which led the front-line battlefields of China during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋介石",
+          "蒋中正"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治家和军事领袖，抗日战争期间担任国民政府军事委员会委员长及中国战区最高统帅。",
+          "en": "A Chinese politician and military leader who served as the leader of the Republic of China. During the Second Sino-Japanese War, he was the Chairman of the Nationalist Government's Military Affairs Commission and the Supreme Commander of the China Theatre."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国革命家、政治家、军事家，抗日战争期间是中国共产党和其领导的军事力量（如八路军、新四军）的主要领导人。",
+          "en": "A Chinese communist revolutionary who was the founding father of the People's Republic of China. During the Second Sino-Japanese War, he was the main leader of the Chinese Communist Party and its military forces, such as the Eighth Route Army and the New Fourth Army."
+        }
+      }
+    },
+    {
+      "id": "汪兆铭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪兆铭",
+          "汪精卫"
+        ],
+        "en": [
+          "Wang Jingwei"
+        ]
+      },
+      "properties": {
+        "lifetime": "1883-05-04 - 1944-11-10",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，中国国民党早期主要领导人之一。抗日战争期间投靠日本，在南京成立了汪精卫国民政府，被国民政府定为汉奸。",
+          "en": "A Chinese politician and one of the early leaders of the Kuomintang. During the Second Sino-Japanese War, he collaborated with Japan, establishing the Reorganized National Government of China in Nanjing, and was declared a traitor by the Nationalist Government."
+        }
+      }
+    },
+    {
+      "id": "汪精卫国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汪精卫国民政府",
+          "汪精卫政权"
+        ],
+        "en": [
+          "Reorganized National Government of China"
+        ]
+      },
+      "properties": {
+        "period": "1940-03-30 - 1945-08-16",
+        "location": {
+          "zh-cn": "南京"
+        },
+        "description": {
+          "zh-cn": "抗日战争期间由汪精卫等投靠日本的中国国民党党员在南京成立的傀儡政权。",
+          "en": "A puppet state of the Empire of Japan, established in Nanjing by Wang Jingwei and other Kuomintang members who collaborated with Japan during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "满洲国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "满洲国",
+          "满洲帝国"
+        ],
+        "en": [
+          "Manchukuo"
+        ]
+      },
+      "properties": {
+        "period": "1932-03-01 - 1945-08-18",
+        "location": {
+          "zh-cn": "中国东北地区"
+        },
+        "description": {
+          "zh-cn": "1932年由大日本帝国在中国东北地区扶植的傀儡政权，以清朝末代皇帝溥仪为国家元首。",
+          "en": "A puppet state of the Empire of Japan in Northeast China and Inner Mongolia from 1932 until 1945. Its head of state was Puyi, the last emperor of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "溥仪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "溥仪"
+        ],
+        "en": [
+          "Puyi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1906-02-07 - 1967-10-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝最后一位皇帝。在日本的扶植下，担任满洲国的执政，后称皇帝。",
+          "en": "The last emperor of the Qing dynasty. Under the support of Japan, he served as the head of state of Manchukuo, initially as Chief Executive and later as Emperor."
+        }
+      }
+    },
+    {
+      "id": "淞沪会战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "淞沪会战",
+          "八一三战役"
+        ],
+        "en": [
+          "Battle of Shanghai"
+        ]
+      },
+      "properties": {
+        "period": "1937-08-13 - 1937-11-26",
+        "location": {
+          "zh-cn": "上海"
+        },
+        "description": {
+          "zh-cn": "中国抗日战争中首场大型会战，也是规模最大、战斗最惨烈的战役之一。此战役粉碎了日军“三个月灭亡中国”的计划。",
+          "en": "The first of the twenty-two major engagements fought between the National Revolutionary Army of the Republic of China and the Imperial Japanese Army of the Empire of Japan during the Second Sino-Japanese War. It shattered Japan's plan to conquer China within three months."
+        }
+      }
+    },
+    {
+      "id": "南京大屠杀",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南京大屠杀"
+        ],
+        "en": [
+          "Nanjing Massacre"
+        ]
+      },
+      "properties": {
+        "period": "1937-12-13 - 1938-01",
+        "location": {
+          "zh-cn": "南京"
+        },
+        "description": {
+          "zh-cn": "日军于1937年12月13日攻陷中国首都南京后，在南京及周边地区进行的长达六周的有组织、有计划、有预谋的大屠杀和奸淫、放火、抢劫等战争罪行与反人类罪行。",
+          "en": "An episode of mass murder and mass rape committed by Imperial Japanese troops against the residents of Nanjing, then the capital of the Republic of China, during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "台儿庄战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "台儿庄战役",
+          "台儿庄大战"
+        ],
+        "en": [
+          "Battle of Taierzhuang"
+        ]
+      },
+      "properties": {
+        "period": "1938-03-16 - 1938-04-15",
+        "location": {
+          "zh-cn": "徐州台儿庄"
+        },
+        "description": {
+          "zh-cn": "徐州会战的一部分，是中国军队在抗日战争正面战场取得的一次重大胜利，重振了因南京失守而低落的士气。",
+          "en": "Part of the Battle of Xuzhou, it was a major victory for the Chinese army in the front-line battlefield of the Second Sino-Japanese War, boosting morale after the fall of Nanjing."
+        }
+      }
+    },
+    {
+      "id": "武汉会战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "武汉会战"
+        ],
+        "en": [
+          "Battle of Wuhan"
+        ]
+      },
+      "properties": {
+        "period": "1938-06 - 1938-10",
+        "location": {
+          "zh-cn": "武汉"
+        },
+        "description": {
+          "zh-cn": "中国抗日战争战略防御阶段规模最大、时间最长、歼敌最多的一次战役。此战后，中国抗日战争进入战略相持阶段。",
+          "en": "A large-scale battle of the Second Sino-Japanese War. It was the longest, largest and one of the most significant battles in the entire war. After this battle, the war entered a phase of strategic stalemate."
+        }
+      }
+    },
+    {
+      "id": "花园口决堤",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "花园口决堤"
+        ],
+        "en": [
+          "1938 Yellow River flood"
+        ]
+      },
+      "properties": {
+        "period": "1938-06-09 - ",
+        "location": {
+          "zh-cn": "郑州花园口"
+        },
+        "description": {
+          "zh-cn": "1938年国民政府为阻止日军沿黄河南下，在河南郑州附近的花园口炸开黄河大堤，造成大面积洪水，有效迟滞了日军的进攻，但也给当地民众带来了巨大灾难。",
+          "en": "A flood created by the Nationalist Government in central China in 1938 during the early stage of the Second Sino-Japanese War in an attempt to halt the rapid advance of Japanese forces."
+        }
+      }
+    },
+    {
+      "id": "张自忠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张自忠"
+        ],
+        "en": [
+          "Zhang Zizhong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1891-08-11 - 1940-05-16",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军上将，原属西北军。抗日战争期间，任国民革命军第三十三集团军总司令，在枣宜会战中阵亡，是同盟国在二战中阵亡的最高级别将领之一。",
+          "en": "A general of the National Revolutionary Army of the Republic of China. He was the highest-ranking Allied officer to be killed in action in World War II, dying during the Battle of Zaoyang-Yichang."
+        }
+      }
+    },
+    {
+      "id": "枣宜会战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "枣宜会战"
+        ],
+        "en": [
+          "Battle of Zaoyang–Yichang"
+        ]
+      },
+      "properties": {
+        "period": "1940-05 - 1940-06",
+        "description": {
+          "zh-cn": "1940年5月至6月，日军为解除国军对武汉的威胁并发动的一场战役。中国第三十三集团军总司令张自忠在此战役中阵亡。",
+          "en": "A battle in 1940 launched by the Japanese to relieve the threat to Wuhan from Chinese forces. General Zhang Zizhong was killed in this battle."
+        }
+      }
+    },
+    {
+      "id": "太平洋战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "太平洋战争"
+        ],
+        "en": [
+          "Pacific War"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-07 - 1945-09-02",
+        "description": {
+          "zh-cn": "第二次世界大战中，以日本为首的轴心国和以美国为首的同盟国于太平洋、印度洋、东亚及东南亚等地区爆发的战争。其爆发使中国抗日战争成为第二次世界大战的重要组成部分。",
+          "en": "The theater of World War II that was fought in Asia, the Pacific Ocean, the Indian Ocean, and Oceania. Its outbreak made the Second Sino-Japanese War an integral part of WWII."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北美洲国家。在太平洋战争爆发后，成为中国的主要盟友，提供了大量军事和经济援助，并组建飞虎队等力量支援中国抗战。",
+          "en": "A country in North America. After the outbreak of the Pacific War, it became a major ally of China, providing significant military and economic aid, and organizing forces like the Flying Tigers to support China's war effort."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "欧亚大陆的社会主义国家。在抗战初期向中国提供了军事援助，包括派遣苏联航空志愿队。战争末期对日宣战，出兵中国东北。",
+          "en": "A socialist state that spanned Eurasia. It provided military assistance to China in the early stages of the war, including dispatching the Soviet Volunteer Group. At the end of the war, it declared war on Japan and sent troops to Northeast China."
+        }
+      }
+    },
+    {
+      "id": "日本投降",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "日本投降"
+        ],
+        "en": [
+          "Surrender of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1945-08-15 - 1945-09-09",
+        "description": {
+          "zh-cn": "1945年8月15日，日本天皇宣布接受《波茨坦公告》，无条件投降，标志着第二次世界大战和中国抗日战争的结束。",
+          "en": "On August 15, 1945, the Emperor of Japan announced the acceptance of the Potsdam Declaration, leading to the unconditional surrender of Japan, which marked the end of World War II and the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "冈村宁次",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冈村宁次"
+        ],
+        "en": [
+          "Yasuji Okamura"
+        ]
+      },
+      "properties": {
+        "lifetime": "1884-05-15 - 1966-09-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本陆军大将，曾任华北方面军司令官、中国派遣军总司令官。1945年9月9日，在南京向中国政府投降。",
+          "en": "A general of the Imperial Japanese Army, who served as the commander of the North China Area Army and the commander-in-chief of the China Expeditionary Army. On September 9, 1945, he surrendered to the Chinese government in Nanjing."
+        }
+      }
+    },
+    {
+      "id": "何应钦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何应钦"
+        ],
+        "en": [
+          "He Yingqin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1890-04-02 - 1987-10-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国陆军一级上将，抗战期间担任军政部长、中国陆军总司令等要职。1945年9月9日，在南京代表中国战区接受日本投降。",
+          "en": "A general of the National Revolutionary Army of the Republic of China who held key positions such as Minister of Military Affairs and Commander-in-Chief of the Chinese Army during the war. On September 9, 1945, he accepted the surrender of Japan in Nanjing on behalf of the China Theatre."
+        }
+      }
+    },
+    {
+      "id": "广岛与长崎原子弹爆炸",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "广岛与长崎原子弹爆炸"
+        ],
+        "en": [
+          "Atomic bombings of Hiroshima and Nagasaki"
+        ]
+      },
+      "properties": {
+        "period": [
+          "1945-08-06",
+          "1945-08-09"
+        ],
+        "location": {
+          "zh-cn": "广岛市、长崎市"
+        },
+        "description": {
+          "zh-cn": "第二次世界大战末期，美国在日本广岛和长崎投下两枚原子弹，是历史上唯一在战争中使用的核武器。此事件极大促使了日本的投降。",
+          "en": "The two atomic bombings of Hiroshima and Nagasaki by the United States during the final stage of World War II were the only use of nuclear weapons in armed conflict. This event significantly contributed to the surrender of Japan."
+        }
+      }
+    },
+    {
+      "id": "第二次国共合作",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次国共合作"
+        ],
+        "en": [
+          "Second United Front"
+        ]
+      },
+      "properties": {
+        "period": "1937-09-22 - 1945-08",
+        "description": {
+          "zh-cn": "中国抗日战争时期，中国国民党和中国共产党第二次建立的合作关系，形成了抗日民族统一战线。",
+          "en": "The alliance between the Kuomintang (KMT) and the Chinese Communist Party (CCP) to resist the Japanese invasion of China during the Second Sino-Japanese War, which suspended the Chinese Civil War from 1937 to 1946."
+        }
+      }
+    },
+    {
+      "id": "西安事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "西安事变"
+        ],
+        "en": [
+          "Xi'an Incident"
+        ]
+      },
+      "properties": {
+        "period": "1936-12-12 - 1936-12-25",
+        "location": {
+          "zh-cn": "西安"
+        },
+        "description": {
+          "zh-cn": "1936年12月12日，张学良和杨虎城在西安发动的“兵谏”，扣留了蒋介石，要求停止内战、一致抗日。事变的和平解决成为扭转时局的关键，促成了第二次国共合作。",
+          "en": "A political crisis that took place in Xi'an in December 1936, where Zhang Xueliang and Yang Hucheng detained Chiang Kai-shek to force him to change his policy of fighting the Chinese Communists and instead form a united front against Japan. Its peaceful resolution was a turning point for the CCP and is credited with leading to the Second United Front."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Zhang Xueliang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-06-03 - 2001-10-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国将领，奉系军阀首领张作霖之子。主导了1928年的东北易帜，1936年与杨虎城共同发动了西安事变。",
+          "en": "A warlord of the Republic of China and the son of Zhang Zuolin. He oversaw the Northeast Flag Replacement in 1928 and co-initiated the Xi'an Incident in 1936 with Yang Hucheng."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中华民国",
+      "target": "大日本帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1931-09-18",
+        "end_date": "1945-09-09",
+        "description": {
+          "zh-cn": "自九一八事变起，中华民国与大日本帝国进行了长达十四年的战争。",
+          "en": "Starting from the Mukden Incident, the Republic of China and the Empire of Japan were engaged in a fourteen-year-long war."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "大日本帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1931-09-18",
+        "end_date": "1945-09-09",
+        "description": {
+          "zh-cn": "中国共产党领导的武装力量在敌后战场对日军展开了广泛的游击战。",
+          "en": "The armed forces led by the Chinese Communist Party launched extensive guerrilla warfare against the Japanese army in the rear battlefields."
+        }
+      }
+    },
+    {
+      "source": "九一八事变",
+      "target": "中国抗日战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": {
+          "zh-cn": "九一八事变被视为中国抗日战争（十四年抗战）的开端。",
+          "en": "The Mukden Incident is regarded as the beginning of the Chinese War of Resistance Against Japan (the 14-year version)."
+        }
+      }
+    },
+    {
+      "source": "卢沟桥事变",
+      "target": "中国抗日战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937-07-07",
+        "description": {
+          "zh-cn": "卢沟桥事变标志着中日全面战争（八年抗战）的爆发。",
+          "en": "The Marco Polo Bridge Incident marked the outbreak of the full-scale war between China and Japan (the 8-year version)."
+        }
+      }
+    },
+    {
+      "source": "中国抗日战争",
+      "target": "第二次世界大战",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1941-12-09",
+        "description": {
+          "zh-cn": "太平洋战争爆发后，中国正式对日宣战，抗日战争遂成为第二次世界大战的一部分，构成其中国战区。",
+          "en": "After the outbreak of the Pacific War, China officially declared war on Japan, and the Second Sino-Japanese War became a part of World War II, constituting its China Theatre."
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "第二次国共合作",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12",
+        "description": {
+          "zh-cn": "西安事变的和平解决成为扭转时局的关键，直接促成了以共同抗日为目标的第二次国共合作。",
+          "en": "The peaceful resolution of the Xi'an Incident was a key turning point that directly led to the Second United Front, aimed at jointly resisting Japan."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "description": {
+          "zh-cn": "张学良与杨虎城共同发动了西安事变，对蒋介石实行兵谏。",
+          "en": "Zhang Xueliang, together with Yang Hucheng, launched the Xi'an Incident, detaining Chiang Kai-shek in a 'remonstrance by force'."
+        }
+      }
+    },
+    {
+      "source": "第二次国共合作",
+      "target": "中国抗日战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937-09-22",
+        "description": {
+          "zh-cn": "第二次国共合作形成了抗日民族统一战线，确立了中国国民党和中国共产党共同抗击日本侵略者的战略态势。",
+          "en": "The Second United Front formed the Anti-Japanese National United Front, establishing a strategic posture of joint resistance against Japanese invaders by the KMT and the CCP."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "满洲国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1932-03-01",
+        "description": {
+          "zh-cn": "九一八事变后，大日本帝国在中国东北地区扶植建立了傀儡政权“满洲国”。",
+          "en": "After the Mukden Incident, the Empire of Japan established the puppet state of Manchukuo in Northeast China."
+        }
+      }
+    },
+    {
+      "source": "溥仪",
+      "target": "满洲国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1932-03-09",
+        "end_date": "1945-08-18",
+        "position": {
+          "zh-cn": "执政；皇帝",
+          "en": "Chief Executive; Emperor"
+        },
+        "description": {
+          "zh-cn": "溥仪在日本扶植下，担任满洲国的执政，后改称皇帝。",
+          "en": "Under Japanese support, Puyi served as the Chief Executive of Manchukuo, later becoming its Emperor."
+        }
+      }
+    },
+    {
+      "source": "汪兆铭",
+      "target": "汪精卫国民政府",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1940-03-30",
+        "description": {
+          "zh-cn": "汪精卫在南京成立了日本的傀儡政权“汪精卫国民政府”。",
+          "en": "Wang Jingwei established the Japanese puppet regime, the Reorganized National Government of China, in Nanjing."
+        }
+      }
+    },
+    {
+      "source": "汪精卫国民政府",
+      "target": "大日本帝国",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1940-03-30",
+        "end_date": "1945-08-16",
+        "description": {
+          "zh-cn": "汪精卫国民政府是在日本扶植下成立的傀儡政权，与重庆国民政府对立。",
+          "en": "The Reorganized National Government of China was a puppet state established with Japanese support, opposing the Nationalist Government in Chongqing."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "南京大屠杀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937-12-13",
+        "description": {
+          "zh-cn": "日本军队在攻陷南京后，对中国军民进行了长达六周的大规模屠杀。",
+          "en": "After capturing Nanjing, the Japanese army carried out a six-week-long massacre of Chinese soldiers and civilians."
+        }
+      }
+    },
+    {
+      "source": "台儿庄战役",
+      "target": "大日本帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1938-04-07",
+        "description": {
+          "zh-cn": "台儿庄战役是中国军队取得的重大胜利，日军在此次战役中遭到重创并后撤，打破了其不可战胜的神话，振奋了全国军民的士气。",
+          "en": "The Battle of Taierzhuang was a major victory for the Chinese army. The Japanese army was severely defeated and retreated, shattering the myth of its invincibility and boosting the morale of the entire nation."
+        }
+      }
+    },
+    {
+      "source": "枣宜会战",
+      "target": "张自忠",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1940-05-16",
+        "description": {
+          "zh-cn": "国民革命军第三十三集团军总司令张自忠在枣宜会战中与日军激战，不幸阵亡。",
+          "en": "General Zhang Zizhong, commander of the 33rd Army Group of the National Revolutionary Army, was killed in action during a fierce battle with the Japanese army in the Battle of Zaoyang–Yichang."
+        }
+      }
+    },
+    {
+      "source": "广岛与长崎原子弹爆炸",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08-06",
+        "description": {
+          "zh-cn": "美国对日本广岛和长崎投下原子弹，对日本造成巨大冲击，极大程度上促使其最终决定无条件投降。",
+          "en": "The United States' atomic bombings of Hiroshima and Nagasaki had a profound impact on Japan, significantly pushing it towards the final decision of unconditional surrender."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "大日本帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-08-08",
+        "description": {
+          "zh-cn": "1945年8月8日，苏联对日宣战，并出兵中国东北，迅速击溃了日本关东军，加速了日本的投降。",
+          "en": "On August 8, 1945, the Soviet Union declared war on Japan and dispatched troops to Northeast China, quickly defeating the Kwantung Army and accelerating Japan's surrender."
+        }
+      }
+    },
+    {
+      "source": "冈村宁次",
+      "target": "何应钦",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1945-09-09",
+        "description": {
+          "zh-cn": "1945年9月9日，日本中国派遣军总司令官冈村宁次在南京向中国陆军总司令何应钦递交投降书，标志着中国战区抗日战争的正式结束。",
+          "en": "On September 9, 1945, Yasuji Okamura, Commander-in-Chief of the Japanese China Expeditionary Army, presented the instrument of surrender to He Yingqin, Commander-in-Chief of the Chinese Army, in Nanjing, marking the official end of the Second Sino-Japanese War in the China Theatre."
+        }
+      }
+    },
+    {
+      "source": "湘西会战",
+      "target": "大日本帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-04",
+        "end_date": "1945-06",
+        "description": {
+          "zh-cn": "湘西会战是中国抗日战争最后一场大型会战，中国军队在此次会战中取得大捷，歼敌3万余人，标志着正面战场由防御转入反攻阶段。",
+          "en": "The Battle of West Hunan was the last major battle of the Second Sino-Japanese War. The Chinese army achieved a great victory, annihilating over 30,000 enemy troops, and marking the transition of the front-line battlefield from defense to counter-offensive."
+        }
+      }
+    }
+  ]
+}

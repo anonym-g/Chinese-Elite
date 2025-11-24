@@ -1,0 +1,656 @@
+{
+  "nodes": [
+    {
+      "id": "萨拉热窝事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "萨拉热窝事件",
+          "弗朗茨·斐迪南大公及其妻子苏菲·霍特科遇刺案"
+        ],
+        "en": [
+          "Assassination of Archduke Franz Ferdinand of Austria and Sophie, Duchess of Hohenberg"
+        ]
+      },
+      "properties": {
+        "period": "1914-06-28 - 1914-06-28",
+        "location": {
+          "zh-cn": "萨拉热窝",
+          "en": "Sarajevo"
+        },
+        "description": {
+          "zh-cn": "1914年6月28日，奥匈帝国皇储弗朗茨·斐迪南大公夫妇在萨拉热窝被塞尔维亚民族主义者刺杀的事件。此事件最终引发了第一次世界大战。",
+          "en": "The assassination of Archduke Franz Ferdinand of Austria-Hungary and his wife Sophie in Sarajevo on June 28, 1914, by a Serbian nationalist. This event ultimately triggered the First World War."
+        }
+      }
+    },
+    {
+      "id": "弗朗茨·斐迪南大公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗朗茨·斐迪南大公",
+          "弗朗茨·斐迪南"
+        ],
+        "en": [
+          "Archduke Franz Ferdinand of Austria"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1914-06-28",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "萨拉热窝",
+          "en": "Sarajevo"
+        },
+        "description": {
+          "zh-cn": "奥匈帝国皇位继承人，在萨拉热窝事件中遇刺身亡。他支持将奥匈帝国改革为联邦制的“大奥地利合众国”，因此被塞尔维亚民族主义者视为威胁。",
+          "en": "Heir to the Austro-Hungarian throne, assassinated in the Sarajevo incident. He was a proponent of reforming Austria-Hungary into a federal state known as the 'United States of Greater Austria', and was therefore seen as a threat by Serbian nationalists."
+        }
+      }
+    },
+    {
+      "id": "霍恩贝格女公爵苏菲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "霍恩贝格女公爵苏菲",
+          "苏菲·霍特科",
+          "霍恩贝格公爵苏菲"
+        ],
+        "en": [
+          "Sophie, Duchess of Hohenberg"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1914-06-28",
+        "gender": "Female",
+        "death_place": {
+          "zh-cn": "萨拉热窝",
+          "en": "Sarajevo"
+        },
+        "description": {
+          "zh-cn": "弗朗茨·斐迪南大公的妻子，与丈夫在萨拉热窝事件中一同遇刺身亡。",
+          "en": "Wife of Archduke Franz Ferdinand, assassinated alongside her husband in the Sarajevo incident."
+        }
+      }
+    },
+    {
+      "id": "加夫里洛·普林齐普",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "加夫里洛·普林齐普",
+          "普林齐普"
+        ],
+        "en": [
+          "Gavrilo Princip"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "塞尔维亚民族主义者，黑手会成员，在萨拉热窝事件中开枪射杀了弗朗茨·斐迪南大公夫妇。",
+          "en": "A Serbian nationalist and member of the Black Hand who assassinated Archduke Franz Ferdinand and his wife in the Sarajevo incident."
+        }
+      }
+    },
+    {
+      "id": "奥匈帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥匈帝国"
+        ],
+        "en": [
+          "Austria-Hungary"
+        ]
+      },
+      "properties": {
+        "period": "1867 - 1918",
+        "description": {
+          "zh-cn": "存在于1867年至1918年的中欧共主邦联国家。萨拉热窝事件后向塞尔维亚宣战，引发第一次世界大战。",
+          "en": "A dual monarchy in Central Europe from 1867 to 1918. It declared war on Serbia after the Sarajevo incident, triggering World War I."
+        }
+      }
+    },
+    {
+      "id": "塞尔维亚王国 (近代)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "塞尔维亚王国 (近代)",
+          "塞尔维亚王国",
+          "塞尔维亚公国"
+        ],
+        "en": [
+          "Kingdom of Serbia"
+        ]
+      },
+      "properties": {
+        "period": "1882 - 1918",
+        "description": {
+          "zh-cn": "1882年至1918年存在于巴尔干半岛的国家。萨拉热窝事件后，奥匈帝国对其宣战。",
+          "en": "A country in the Balkans that existed from 1882 to 1918. Austria-Hungary declared war on it after the Sarajevo incident."
+        }
+      }
+    },
+    {
+      "id": "第一次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次世界大战"
+        ],
+        "en": [
+          "World War I"
+        ]
+      },
+      "properties": {
+        "period": "1914-07-28 - 1918-11-11",
+        "description": {
+          "zh-cn": "一场始于欧洲的全球性战争，萨拉热窝事件是其直接导火索。",
+          "en": "A global war originating in Europe, directly triggered by the Sarajevo incident."
+        }
+      }
+    },
+    {
+      "id": "黑手会 (塞尔维亚)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "黑手会 (塞尔维亚)",
+          "黑手会"
+        ],
+        "en": [
+          "Black Hand (Serbia)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "塞尔维亚的秘密民族主义组织，策划了萨拉热窝事件。",
+          "en": "A secret Serbian nationalist organization that planned the Sarajevo assassination."
+        }
+      }
+    },
+    {
+      "id": "七月危机",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "七月危机"
+        ],
+        "en": [
+          "July Crisis"
+        ]
+      },
+      "properties": {
+        "period": "1914-06-28 - 1914-08-04",
+        "description": {
+          "zh-cn": "萨拉热窝事件后，欧洲主要列强之间发生的一系列外交和军事升级事件，最终导致第一次世界大战爆发。核心是奥匈帝国向塞尔维亚发出最后通牒。",
+          "en": "A series of diplomatic and military escalations among major European powers following the Sarajevo incident, which ultimately led to the outbreak of World War I. At its core was the ultimatum issued by Austria-Hungary to Serbia."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯帝国"
+        ],
+        "en": [
+          "Russian Empire"
+        ]
+      },
+      "properties": {
+        "period": "1721 - 1917",
+        "description": {
+          "zh-cn": "18世纪至20世纪初的俄罗斯国家。作为塞尔维亚的盟友，在七月危机中介入，加入了第一次世界大战。",
+          "en": "The Russian state from the 18th to the early 20th century. As an ally of Serbia, it intervened during the July Crisis and entered World War I."
+        }
+      }
+    },
+    {
+      "id": "德意志帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德意志帝国",
+          "德国"
+        ],
+        "en": [
+          "German Empire"
+        ]
+      },
+      "properties": {
+        "period": "1871 - 1918",
+        "description": {
+          "zh-cn": "1871年至1918年的德国。作为奥匈帝国的盟友，支持其对塞尔维亚宣战，并加入了第一次世界大战。",
+          "en": "Germany from 1871 to 1918. As an ally of Austria-Hungary, it supported the declaration of war on Serbia and joined World War I."
+        }
+      }
+    },
+    {
+      "id": "法兰西第三共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第三共和国",
+          "法国"
+        ],
+        "en": [
+          "French Third Republic"
+        ]
+      },
+      "properties": {
+        "period": "1870 - 1940",
+        "description": {
+          "zh-cn": "1870年至1940年的法国。作为俄罗斯帝国的盟友，加入了第一次世界大战。",
+          "en": "France from 1870 to 1940. As an ally of the Russian Empire, it joined World War I."
+        }
+      }
+    },
+    {
+      "id": "大英帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大英帝国",
+          "英国"
+        ],
+        "en": [
+          "British Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由英国统治的全球帝国。作为俄罗斯帝国的盟友，加入了第一次世界大战。",
+          "en": "A global empire ruled by the United Kingdom. As an ally of the Russian Empire, it joined World War I."
+        }
+      }
+    },
+    {
+      "id": "萨拉热窝",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "萨拉热窝"
+        ],
+        "en": [
+          "Sarajevo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "波斯尼亚和黑塞哥维那的首都，萨拉热窝事件的发生地。",
+          "en": "The capital city of Bosnia and Herzegovina, where the Sarajevo incident took place."
+        }
+      }
+    },
+    {
+      "id": "达尼洛·伊利奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "达尼洛·伊利奇"
+        ],
+        "en": [
+          "Danilo Ilić"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "波斯尼亚塞尔维亚人，黑手会成员，领导了执行萨拉热窝事件的刺客小组。",
+          "en": "A Bosnian Serb and member of the Black Hand who led the assassin group that carried out the Sarajevo incident."
+        }
+      }
+    },
+    {
+      "id": "青年波斯尼亚",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "青年波斯尼亚"
+        ],
+        "en": [
+          "Young Bosnia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个寻求将波斯尼亚和黑塞哥维那从奥匈帝国统治下解放出来，并与塞尔维亚统一的革命青年运动。萨拉热窝事件刺客的动机与该组织目标一致。",
+          "en": "A revolutionary youth movement seeking to liberate Bosnia and Herzegovina from Austro-Hungarian rule and unite with Serbia. The motives of the Sarajevo assassins were consistent with the goals of this organization."
+        }
+      }
+    },
+    {
+      "id": "内德利科·查布林诺维奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "内德利科·查布林诺维奇"
+        ],
+        "en": [
+          "Nedeljko Čabrinović"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "参与萨拉热窝事件的刺客之一，他向斐迪南大公的车队投掷了手榴弹，但未能成功。",
+          "en": "One of the assassins involved in the Sarajevo incident, he threw a grenade at Archduke Ferdinand's motorcade but was unsuccessful."
+        }
+      }
+    },
+    {
+      "id": "波格丹·泽拉伊奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "波格丹·泽拉伊奇"
+        ],
+        "en": [
+          "Bogdan Žerajić"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1910",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "一名塞尔维亚民族主义者，1910年试图刺杀波黑总督马里扬·瓦雷萨宁未遂后自杀。他的行为启发了加夫里洛·普林齐普。",
+          "en": "A Serbian nationalist who attempted to assassinate Marijan Varešanin, the governor of Bosnia and Herzegovina, in 1910 and subsequently committed suicide. His actions inspired Gavrilo Princip."
+        }
+      }
+    },
+    {
+      "id": "马里扬·瓦雷萨宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马里扬·瓦雷萨宁"
+        ],
+        "en": [
+          "Marijan Varešanin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奥匈帝国官员，曾任波斯尼亚和黑塞哥维那总督，是波格丹·泽拉伊奇的刺杀目标。",
+          "en": "An Austro-Hungarian official who served as the governor of Bosnia and Herzegovina and was the assassination target of Bogdan Žerajić."
+        }
+      }
+    },
+    {
+      "id": "弗朗茨·约瑟夫一世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗朗茨·约瑟夫一世"
+        ],
+        "en": [
+          "Franz Joseph I of Austria"
+        ]
+      },
+      "properties": {
+        "lifetime": "1830 - 1916",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奥匈帝国皇帝，指示弗朗茨·斐迪南大公视察波斯尼亚。",
+          "en": "Emperor of Austria-Hungary who instructed Archduke Franz Ferdinand to inspect Bosnia."
+        }
+      }
+    },
+    {
+      "id": "大奥地利合众国",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "大奥地利合众国"
+        ],
+        "en": [
+          "United States of Greater Austria"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一项将奥匈帝国改造为联邦国家的政治构想，得到了弗朗茨·斐迪南大公的支持。",
+          "en": "A political proposal to transform Austria-Hungary into a federal state, supported by Archduke Franz Ferdinand."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "加夫里洛·普林齐普",
+      "target": "弗朗茨·斐迪南大公",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1914-06-28",
+        "description": {
+          "zh-cn": "在萨拉热窝事件中，加夫里洛·普林齐普开枪射杀了弗朗茨·斐迪南大公。",
+          "en": "During the Sarajevo incident, Gavrilo Princip shot and killed Archduke Franz Ferdinand."
+        }
+      }
+    },
+    {
+      "source": "加夫里洛·普林齐普",
+      "target": "霍恩贝格女公爵苏菲",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1914-06-28",
+        "description": {
+          "zh-cn": "在萨拉热窝事件中，加夫里洛·普林齐普开枪射杀了霍恩贝格女公爵苏菲。",
+          "en": "During the Sarajevo incident, Gavrilo Princip shot and killed Sophie, Duchess of Hohenberg."
+        }
+      }
+    },
+    {
+      "source": "内德利科·查布林诺维奇",
+      "target": "弗朗茨·斐迪南大公",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1914-06-28",
+        "description": {
+          "zh-cn": "在萨拉热窝事件中，内德利科·查布林诺维奇向斐迪南大公的车队投掷手榴弹，但未能成功。",
+          "en": "During the Sarajevo incident, Nedeljko Čabrinović threw a grenade at Archduke Ferdinand's motorcade but was unsuccessful."
+        }
+      }
+    },
+    {
+      "source": "萨拉热窝事件",
+      "target": "七月危机",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1914-06-28",
+        "description": {
+          "zh-cn": "萨拉热窝事件直接导致奥匈帝国和塞尔维亚王国关系紧张，引发了七月危机，奥匈帝国向塞尔维亚发出最后通牒。",
+          "en": "The Sarajevo incident directly led to heightened tensions between Austria-Hungary and the Kingdom of Serbia, triggering the July Crisis, during which Austria-Hungary issued an ultimatum to Serbia."
+        }
+      }
+    },
+    {
+      "source": "七月危机",
+      "target": "第一次世界大战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1914-07-28",
+        "description": {
+          "zh-cn": "七月危机期间，奥匈帝国对塞尔维亚宣战，随后各列强相继卷入，最终导致了第一次世界大战的爆发。",
+          "en": "During the July Crisis, Austria-Hungary's declaration of war on Serbia, followed by the involvement of other major powers, ultimately led to the outbreak of World War I."
+        }
+      }
+    },
+    {
+      "source": "黑手会 (塞尔维亚)",
+      "target": "萨拉热窝事件",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "黑手会是策划萨拉热窝事件的幕后组织，刺客均为其成员或受其领导。",
+          "en": "The Black Hand was the organization behind the planning of the Sarajevo incident, and the assassins were its members or led by them."
+        }
+      }
+    },
+    {
+      "source": "加夫里洛·普林齐普",
+      "target": "黑手会 (塞尔维亚)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "骨干成员",
+          "en": "Core member"
+        },
+        "description": {
+          "zh-cn": "加夫里洛·普林齐普是黑手会的骨干成员。",
+          "en": "Gavrilo Princip was a core member of the Black Hand."
+        }
+      }
+    },
+    {
+      "source": "加夫里洛·普林齐普",
+      "target": "青年波斯尼亚",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "加夫里洛·普林齐普的刺杀动机与青年波斯尼亚组织的目标一致。",
+          "en": "Gavrilo Princip's motive for the assassination was consistent with the goals of the Young Bosnia organization."
+        }
+      }
+    },
+    {
+      "source": "达尼洛·伊利奇",
+      "target": "黑手会 (塞尔维亚)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "成员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "达尼洛·伊利奇是黑手会成员，并领导了刺杀小组。",
+          "en": "Danilo Ilić was a member of the Black Hand and led the assassination team."
+        }
+      }
+    },
+    {
+      "source": "加夫里洛·普林齐普",
+      "target": "达尼洛·伊利奇",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "加夫里洛·普林齐普所属的刺客小组由达尼洛·伊利奇领导。",
+          "en": "The assassin group to which Gavrilo Princip belonged was led by Danilo Ilić."
+        }
+      }
+    },
+    {
+      "source": "奥匈帝国",
+      "target": "塞尔维亚王国 (近代)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1914-07-28",
+        "description": {
+          "zh-cn": "萨拉热窝事件后，奥匈帝国于1914年7月28日对塞尔维亚王国宣战。",
+          "en": "Following the Sarajevo incident, Austria-Hungary declared war on the Kingdom of Serbia on July 28, 1914."
+        }
+      }
+    },
+    {
+      "source": "弗朗茨·斐迪南大公",
+      "target": "霍恩贝格女公爵苏菲",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "end_date": "1914-06-28",
+        "description": {
+          "zh-cn": "霍恩贝格女公爵苏菲是弗朗茨·斐迪南大公的妻子。",
+          "en": "Sophie, Duchess of Hohenberg was the wife of Archduke Franz Ferdinand."
+        }
+      }
+    },
+    {
+      "source": "俄罗斯帝国",
+      "target": "塞尔维亚王国 (近代)",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "俄罗斯帝国支持塞尔维亚王国，在奥匈帝国对其宣战后卷入战争。",
+          "en": "The Russian Empire supported the Kingdom of Serbia and became involved in the war after Austria-Hungary declared war on it."
+        }
+      }
+    },
+    {
+      "source": "德意志帝国",
+      "target": "奥匈帝国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "德意志帝国是奥匈帝国的盟友，在七月危机中坚定支持奥匈帝国。",
+          "en": "The German Empire was an ally of Austria-Hungary and firmly supported it during the July Crisis."
+        }
+      }
+    },
+    {
+      "source": "法兰西第三共和国",
+      "target": "俄罗斯帝国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "法兰西第三共和国是俄罗斯帝国的盟友，在俄国参战后也加入了战争。",
+          "en": "The French Third Republic was an ally of the Russian Empire and joined the war after Russia's entry."
+        }
+      }
+    },
+    {
+      "source": "波格丹·泽拉伊奇",
+      "target": "加夫里洛·普林齐普",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "普林齐普表示，波格丹·泽拉伊奇是他的榜样，其行为启发了他采取行动。",
+          "en": "Princip stated that Bogdan Žerajić was his role model and that his actions inspired him to take action."
+        }
+      }
+    },
+    {
+      "source": "波格丹·泽拉伊奇",
+      "target": "马里扬·瓦雷萨宁",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1910-06-15",
+        "description": {
+          "zh-cn": "1910年6月15日，波格丹·泽拉伊奇试图谋杀时任波黑总督马里扬·瓦雷萨宁，但未遂。",
+          "en": "On June 15, 1910, Bogdan Žerajić attempted to assassinate Marijan Varešanin, the governor of Bosnia and Herzegovina at the time, but was unsuccessful."
+        }
+      }
+    },
+    {
+      "source": "弗朗茨·斐迪南大公",
+      "target": "弗朗茨·约瑟夫一世",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "皇位继承人",
+          "en": "Heir to the throne"
+        },
+        "description": {
+          "zh-cn": "弗朗茨·斐迪南大公是奥皇弗朗茨·约瑟夫一世的皇位继承人，并奉其指示视察波斯尼亚。",
+          "en": "Archduke Franz Ferdinand was the heir to Emperor Franz Joseph I and inspected Bosnia under his instructions."
+        }
+      }
+    },
+    {
+      "source": "弗朗茨·斐迪南大公",
+      "target": "大奥地利合众国",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "弗朗茨·斐迪南是联邦制的支持者，大致倾向于将奥匈帝国重组为大奥地利合众国。",
+          "en": "Franz Ferdinand was a supporter of federalism and generally favored reorganizing Austria-Hungary into the United States of Greater Austria."
+        }
+      }
+    }
+  ]
+}

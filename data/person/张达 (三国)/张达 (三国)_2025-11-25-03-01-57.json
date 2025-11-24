@@ -1,0 +1,452 @@
+{
+  "nodes": [
+    {
+      "id": "张达",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张达"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉将领张飞的部下，后与范彊一同刺杀张飞并投奔东吴。",
+          "en": "An officer under the Shu Han general Zhang Fei during the Three Kingdoms period. He, along with Fan Qiang, assassinated Zhang Fei and defected to Eastern Wu."
+        }
+      }
+    },
+    {
+      "id": "范彊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "范彊"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉将领张飞的部下，后与张达一同刺杀张飞并投奔东吴。",
+          "en": "An officer under the Shu Han general Zhang Fei during the Three Kingdoms period. He, along with Zhang Da, assassinated Zhang Fei and defected to Eastern Wu."
+        }
+      }
+    },
+    {
+      "id": "张飞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张飞"
+        ],
+        "en": [
+          "Zhang Fei"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 0221-07",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉名将，因对部下过于严苛，在刘备伐吴前夕被部将张达、范彊刺杀。",
+          "en": "A famous general of Shu Han during the Three Kingdoms period. Known for being overly harsh with his subordinates, he was assassinated by his officers Zhang Da and Fan Qiang on the eve of Liu Bei's campaign against Eastern Wu."
+        }
+      }
+    },
+    {
+      "id": "东吴",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东吴",
+          "孙吴"
+        ],
+        "en": [
+          "Eastern Wu",
+          "Sun Wu"
+        ]
+      },
+      "properties": {
+        "period": "229 - 280",
+        "description": {
+          "zh-cn": "三国时期的政权之一，由孙权建立。张达与范彊在刺杀张飞后投奔该国。",
+          "en": "One of the three major states during the Three Kingdoms period, founded by Sun Quan. Zhang Da and Fan Qiang defected to this state after assassinating Zhang Fei."
+        }
+      }
+    },
+    {
+      "id": "刘备",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘备",
+          "先主"
+        ],
+        "en": [
+          "Liu Bei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉的开国皇帝。曾劝诫张飞对待下属的方式，后为关羽报仇而讨伐东吴。",
+          "en": "The founding emperor of Shu Han during the Three Kingdoms period. He had warned Zhang Fei about his treatment of subordinates and later launched a campaign against Eastern Wu to avenge Guan Yu."
+        }
+      }
+    },
+    {
+      "id": "孙权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙权"
+        ],
+        "en": [
+          "Sun Quan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期东吴的建立者。张达、范彊在刺杀张飞后向其投诚。",
+          "en": "The founder of the state of Eastern Wu during the Three Kingdoms period. Zhang Da and Fan Qiang surrendered to him after assassinating Zhang Fei."
+        }
+      }
+    },
+    {
+      "id": "蜀汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蜀汉"
+        ],
+        "en": [
+          "Shu Han"
+        ]
+      },
+      "properties": {
+        "period": "221 - 263",
+        "description": {
+          "zh-cn": "三国时期的政权之一，由刘备建立。",
+          "en": "One of the three major states during the Three Kingdoms period, founded by Liu Bei."
+        }
+      }
+    },
+    {
+      "id": "关羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "关羽"
+        ],
+        "en": [
+          "Guan Yu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉名将。兵败麦城后被东吴俘杀，其死是张飞意图伐吴的直接原因。",
+          "en": "A famous general of Shu Han during the Three Kingdoms period. He was captured and executed by Eastern Wu after his defeat at Maicheng, and his death was the direct cause for Zhang Fei's intention to attack Wu."
+        }
+      }
+    },
+    {
+      "id": "张苞 (蜀汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张苞 (蜀汉)",
+          "张苞"
+        ],
+        "en": [
+          "Zhang Bao (Shu Han)",
+          "Zhang Bao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉将领张飞之子。在历史小说《三国演义》中，他将张达、范彊二人凌迟处死，为父报仇。",
+          "en": "Son of the Shu Han general Zhang Fei. In the historical novel 'Romance of the Three Kingdoms', he avenges his father by executing Zhang Da and Fan Qiang by slow slicing."
+        }
+      }
+    },
+    {
+      "id": "三国",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "三国"
+        ],
+        "en": [
+          "Three Kingdoms"
+        ]
+      },
+      "properties": {
+        "period": "220 - 280",
+        "description": {
+          "zh-cn": "中国历史上介于东汉与西晋之间的一段时期，主要有曹魏、蜀汉、东吴三个政权。",
+          "en": "A period in Chinese history between the Eastern Han and Western Jin dynasties, featuring the three rival states of Cao Wei, Shu Han, and Eastern Wu."
+        }
+      }
+    },
+    {
+      "id": "阆中郡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "阆中郡",
+          "阆中"
+        ],
+        "en": [
+          "Langzhong Commandery"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代地名，张飞曾于此地率军准备出发伐吴。",
+          "en": "An ancient commandery from where Zhang Fei was preparing to lead his troops for the campaign against Wu."
+        }
+      }
+    },
+    {
+      "id": "江州 (西晋)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江州 (西晋)",
+          "江州"
+        ],
+        "en": [
+          "Jiangzhou (Western Jin)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代地名，张飞原计划率军于此地与刘备会合。",
+          "en": "An ancient location where Zhang Fei planned to rendezvous with Liu Bei's main army."
+        }
+      }
+    },
+    {
+      "id": "三国演义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "三国演义"
+        ],
+        "en": [
+          "Romance of the Three Kingdoms"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国四大名著之一，描述了三国时期历史的章回体长篇小说，其中对张达、范彊刺杀张飞及后续之事有详细描述。",
+          "en": "One of the Four Great Classical Novels of Chinese literature, a historical novel that romanticizes the events of the Three Kingdoms period. It provides a detailed account of the assassination of Zhang Fei by Zhang Da and Fan Qiang and its aftermath."
+        }
+      }
+    },
+    {
+      "id": "麦城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "麦城"
+        ],
+        "en": [
+          "Maicheng"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代城池名，关羽兵败被俘之处。",
+          "en": "Name of an ancient castle where Guan Yu was defeated and captured."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张达",
+      "target": "张飞",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "0221-07",
+        "position": {
+          "zh-cn": "帐下将",
+          "en": "Subordinate Officer"
+        },
+        "description": {
+          "zh-cn": "张达原为张飞的部下。",
+          "en": "Zhang Da was originally a subordinate of Zhang Fei."
+        }
+      }
+    },
+    {
+      "source": "范彊",
+      "target": "张飞",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "0221-07",
+        "position": {
+          "zh-cn": "帐下将",
+          "en": "Subordinate Officer"
+        },
+        "description": {
+          "zh-cn": "范彊原为张飞的部下。",
+          "en": "Fan Qiang was originally a subordinate of Zhang Fei."
+        }
+      }
+    },
+    {
+      "source": "张达",
+      "target": "张飞",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0221-07",
+        "description": {
+          "zh-cn": "因张飞刑罚过严，与范彊一同趁张飞醉酒酣睡时将其刺杀。",
+          "en": "Due to Zhang Fei's excessive punishments, he and Fan Qiang assassinated Zhang Fei while he was drunk and asleep."
+        }
+      }
+    },
+    {
+      "source": "范彊",
+      "target": "张飞",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0221-07",
+        "description": {
+          "zh-cn": "因张飞刑罚过严，与张达一同趁张飞醉酒酣睡时将其刺杀。",
+          "en": "Due to Zhang Fei's excessive punishments, he and Zhang Da assassinated Zhang Fei while he was drunk and asleep."
+        }
+      }
+    },
+    {
+      "source": "张达",
+      "target": "东吴",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "0221-07",
+        "description": {
+          "zh-cn": "刺杀张飞后，带着张飞的首级顺流而下投奔孙权。",
+          "en": "After assassinating Zhang Fei, he took Zhang Fei's head and went downstream to defect to Sun Quan."
+        }
+      }
+    },
+    {
+      "source": "范彊",
+      "target": "东吴",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "0221-07",
+        "description": {
+          "zh-cn": "刺杀张飞后，带着张飞的首级顺流而下投奔孙权。",
+          "en": "After assassinating Zhang Fei, he took Zhang Fei's head and went downstream to defect to Sun Quan."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "东吴",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "0221",
+        "description": {
+          "zh-cn": "章武元年（221年），为替关羽报仇，起兵讨伐东吴。",
+          "en": "In the first year of Zhangwu (221 AD), he launched a punitive expedition against Eastern Wu to avenge Guan Yu."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "张飞",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "曾多次劝诫张飞，指出其刑罚过当、鞭打士卒后却将他们留在身边的行事方式是取祸之道。",
+          "en": "He had repeatedly warned Zhang Fei that his practice of excessively punishing and flogging soldiers, yet keeping them by his side, was a path to disaster."
+        }
+      }
+    },
+    {
+      "source": "孙权",
+      "target": "关羽",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "俘杀败走麦城的关羽。",
+          "en": "Captured and executed Guan Yu after his defeat at Maicheng."
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "关羽",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "听闻关羽被孙权所害，为替其报仇，准备出征讨伐东吴。",
+          "en": "Upon hearing that Guan Yu was killed by Sun Quan, he prepared to launch an expedition against Eastern Wu to avenge him."
+        }
+      }
+    },
+    {
+      "source": "张苞 (蜀汉)",
+      "target": "张飞",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张苞是张飞的儿子。",
+          "en": "Zhang Bao is the son of Zhang Fei."
+        }
+      }
+    },
+    {
+      "source": "张苞 (蜀汉)",
+      "target": "张达",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据《三国演义》的描述，张达被孙权送回蜀汉后，张苞将其万剐凌迟以为父报仇。",
+          "en": "According to the 'Romance of the Three Kingdoms', after Zhang Da was sent back to Shu Han by Sun Quan, Zhang Bao executed him by slow slicing to avenge his father."
+        }
+      }
+    },
+    {
+      "source": "张苞 (蜀汉)",
+      "target": "范彊",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据《三国演义》的描述，范彊被孙权送回蜀汉后，张苞将其万剐凌迟以为父报仇。",
+          "en": "According to the 'Romance of the Three Kingdoms', after Fan Qiang was sent back to Shu Han by Sun Quan, Zhang Bao executed him by slow slicing to avenge his father."
+        }
+      }
+    },
+    {
+      "source": "张飞",
+      "target": "蜀汉",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "将领",
+          "en": "General"
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "蜀汉",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "君主",
+          "en": "Emperor"
+        }
+      }
+    }
+  ]
+}

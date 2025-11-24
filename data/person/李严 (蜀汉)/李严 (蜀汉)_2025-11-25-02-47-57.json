@@ -1,0 +1,580 @@
+{
+  "nodes": [
+    {
+      "id": "李严",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李严",
+          "李平",
+          "正方"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 234",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "荆州南阳郡",
+          "en": "Nanyang Commandery, Jing Province"
+        },
+        "death_place": {
+          "zh-cn": "梓潼郡 (东汉)",
+          "en": "Zitong Commandery (Eastern Han)"
+        },
+        "description": {
+          "zh-cn": "蜀汉重臣，以才干著称。与诸葛亮同为刘备的托孤大臣。后因在第四次北伐中运粮失利并试图推卸责任，被诸葛亮弹劾废为庶民，最终抑郁而终。",
+          "en": "A high-ranking minister of Shu Han, known for his administrative talents. He was a co-regent with Zhuge Liang, entrusted by Liu Bei on his deathbed. He was later impeached by Zhuge Liang and stripped of his titles for failing to supply the army during the Fourth Northern Expedition and attempting to shift the blame, and eventually died in depression."
+        }
+      }
+    },
+    {
+      "id": "诸葛亮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诸葛亮",
+          "孔明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "181 - 234",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉丞相，杰出的政治家、军事家。刘备的托孤大臣之一，与李严共同辅佐后主刘禅。",
+          "en": "Chancellor of Shu Han, an outstanding statesman and strategist. One of the regents entrusted by Liu Bei, he co-ruled with Li Yan to assist the young emperor Liu Shan."
+        }
+      }
+    },
+    {
+      "id": "刘备",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘备"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "161 - 223",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉开国皇帝。临终前将后主刘禅托孤于诸葛亮和李严。",
+          "en": "The founding emperor of Shu Han. Before his death, he entrusted his son and successor Liu Shan to the care of Zhuge Liang and Li Yan."
+        }
+      }
+    },
+    {
+      "id": "刘禅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘禅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "207 - 271",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉第二位皇帝，刘备之子。由托孤大臣诸葛亮和李严辅佐。",
+          "en": "The second emperor of Shu Han, son of Liu Bei. He was assisted by the regents Zhuge Liang and Li Yan."
+        }
+      }
+    },
+    {
+      "id": "蜀汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蜀汉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "221 - 263",
+        "description": {
+          "zh-cn": "三国时期由刘备在中国西南部建立的政权。",
+          "en": "A state established by Liu Bei in southwestern China during the Three Kingdoms period."
+        }
+      }
+    },
+    {
+      "id": "刘表",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘表"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "142 - 208",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年荆州牧，李严的早期主君。",
+          "en": "Governor of Jing Province during the late Eastern Han dynasty and an early lord of Li Yan."
+        }
+      }
+    },
+    {
+      "id": "刘璋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘璋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年益州牧，在刘备入蜀前曾任用李严。",
+          "en": "Governor of Yi Province during the late Eastern Han dynasty, who employed Li Yan before Liu Bei's conquest of the province."
+        }
+      }
+    },
+    {
+      "id": "祁山之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "祁山之战",
+          "第四次北伐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "231 - 231",
+        "description": {
+          "zh-cn": "诸葛亮于建兴九年（231年）发动的第四次北伐。因李严负责的粮运不继，蜀军被迫撤退。",
+          "en": "The fourth northern expedition launched by Zhuge Liang in 231. The Shu army was forced to retreat due to a failure in logistics managed by Li Yan."
+        }
+      }
+    },
+    {
+      "id": "五丈原之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "五丈原之战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "234 - 234",
+        "description": {
+          "zh-cn": "诸葛亮于建兴十二年（234年）进行的最后一次北伐，最终病逝于五丈原军中。",
+          "en": "Zhuge Liang's final northern expedition in 234, during which he fell ill and died at the Wuzhang Plains."
+        }
+      }
+    },
+    {
+      "id": "费观",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "费观"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉将领，曾与李严一同在绵竹抵抗刘备，后共同投降。与李严私交甚笃。",
+          "en": "A general of Shu Han. He initially resisted Liu Bei at Mianzhu alongside Li Yan before they surrendered together. He had a close personal relationship with Li Yan."
+        }
+      }
+    },
+    {
+      "id": "李丰 (蜀汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李丰 (蜀汉)",
+          "李丰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李严之子，蜀汉官员，官至朱提太守。",
+          "en": "Son of Li Yan, an official of Shu Han who served as the Grand Administrator of Zhuti."
+        }
+      }
+    },
+    {
+      "id": "陈震 (三国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈震 (三国)",
+          "陈震"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉官员，曾私下提醒诸葛亮，李严心术不正，不可亲近。",
+          "en": "An official of Shu Han who privately warned Zhuge Liang that Li Yan was untrustworthy and should not be approached."
+        }
+      }
+    },
+    {
+      "id": "蜀科",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "蜀科"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "蜀汉的法律。由诸葛亮、法正、伊籍、刘巴和李严五人共同制定，成为蜀汉法律体系的基础。",
+          "en": "The law code of Shu Han. It was jointly drafted by Zhuge Liang, Fa Zheng, Yi Ji, Liu Ba, and Li Yan, forming the foundation of the Shu Han legal system."
+        }
+      }
+    },
+    {
+      "id": "法正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "法正"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "176 - 220",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉重要谋士，与李严等人共同制定《蜀科》。",
+          "en": "An important advisor to Shu Han, who co-authored the 'Code of Shu' with Li Yan and others."
+        }
+      }
+    },
+    {
+      "id": "伊籍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊籍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉官员，与李严等人共同制定《蜀科》。",
+          "en": "An official of Shu Han, who co-authored the 'Code of Shu' with Li Yan and others."
+        }
+      }
+    },
+    {
+      "id": "刘巴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘巴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "186 - 222",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蜀汉官员，与李严等人共同制定《蜀科》。",
+          "en": "An official of Shu Han, who co-authored the 'Code of Shu' with Li Yan and others."
+        }
+      }
+    },
+    {
+      "id": "曹魏",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "曹魏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "220 - 266",
+        "description": {
+          "zh-cn": "三国时期由曹丕建立的政权，是蜀汉的主要敌对国。",
+          "en": "A state established by Cao Pi during the Three Kingdoms period, and the main rival of Shu Han."
+        }
+      }
+    },
+    {
+      "id": "王冲 (三国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王冲 (三国)",
+          "王冲"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李严的属下，因惧怕被李严诬陷而叛逃至曹魏。",
+          "en": "A subordinate of Li Yan who defected to Cao Wei out of fear of being framed by him."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李严",
+      "target": "刘表",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": "208",
+        "position": {
+          "zh-cn": "郡职吏、秭归县令",
+          "en": "Commandery official, Prefect of Zigui"
+        },
+        "description": {
+          "zh-cn": "李严早年任职于荆州牧刘表麾下。",
+          "en": "In his early years, Li Yan served under Liu Biao, the governor of Jing Province."
+        }
+      }
+    },
+    {
+      "source": "李严",
+      "target": "刘璋",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "208",
+        "end_date": "213",
+        "position": {
+          "zh-cn": "成都令、护军",
+          "en": "Prefect of Chengdu, Protector of the Army"
+        },
+        "description": {
+          "zh-cn": "曹操南下荆州后，李严入蜀，被刘璋任命为成都令，后于刘备伐蜀时任护军。",
+          "en": "After Cao Cao's invasion of Jing Province, Li Yan entered Shu and was appointed Prefect of Chengdu by Liu Zhang. He later served as Protector of the Army during Liu Bei's invasion of Shu."
+        }
+      }
+    },
+    {
+      "source": "李严",
+      "target": "刘备",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "213",
+        "end_date": "223",
+        "position": null,
+        "description": {
+          "zh-cn": "李严在绵竹阵前倒戈，率众投降刘备，后成为蜀汉重臣。",
+          "en": "Li Yan switched allegiance on the battlefield at Mianzhu, leading his troops to surrender to Liu Bei, and subsequently became a key minister of Shu Han."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "李严",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "223-04",
+        "end_date": "223-04",
+        "position": null,
+        "description": {
+          "zh-cn": "刘备临终前，将后主刘禅托孤于诸葛亮，并任命李严为副手，共同辅政。",
+          "en": "On his deathbed, Liu Bei entrusted his heir Liu Shan to the care of Zhuge Liang, appointing Li Yan as his deputy to co-administer the state."
+        }
+      }
+    },
+    {
+      "source": "李严",
+      "target": "刘禅",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "223",
+        "end_date": "231",
+        "position": null,
+        "description": {
+          "zh-cn": "作为托孤大臣，李严与诸葛亮共同辅佐后主刘禅。",
+          "en": "As a regent, Li Yan, along with Zhuge Liang, assisted the young emperor Liu Shan."
+        }
+      }
+    },
+    {
+      "source": "李严",
+      "target": "蜀汉",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "213",
+        "end_date": "231",
+        "position": {
+          "zh-cn": "尚书令、中都护、骠骑将军等",
+          "en": "Head of the Secretariat, Central Protector, General of Cavalry, etc."
+        },
+        "description": {
+          "zh-cn": "李严在蜀汉担任多个高级军政职位，是蜀汉重臣。",
+          "en": "Li Yan held several high-ranking military and civil positions in Shu Han, making him a key minister of the state."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "李严",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "231-08",
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "诸葛亮上奏弹劾李严在第四次北伐中运粮失职、欺上瞒下等罪行，导致李严被免官，贬为庶民。",
+          "en": "Zhuge Liang impeached Li Yan for his dereliction of duty in logistics, deceit, and other offenses during the Fourth Northern Expedition, leading to Li Yan's dismissal and demotion to a commoner."
+        }
+      }
+    },
+    {
+      "source": "李严",
+      "target": "祁山之战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "231",
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "李严负责第四次北伐的粮草运输，因调度失利、运粮不继，并建议诸葛亮撤军，最终导致该次北伐失败。",
+          "en": "Li Yan was in charge of logistics for the Fourth Northern Expedition. His failure to manage supplies and his subsequent advice for Zhuge Liang to retreat ultimately led to the failure of the campaign."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "李严",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "231",
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "在第四次北伐撤军后，李严试图推卸责任并构陷诸葛亮，两人关系彻底破裂。",
+          "en": "After the retreat from the Fourth Northern Expedition, Li Yan attempted to evade responsibility and frame Zhuge Liang, leading to a complete breakdown in their relationship."
+        }
+      }
+    },
+    {
+      "source": "五丈原之战",
+      "target": "诸葛亮",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "234",
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "诸葛亮在五丈原之战中病逝。",
+          "en": "Zhuge Liang died of illness during the Battle of Wuzhang Plains."
+        }
+      }
+    },
+    {
+      "source": "诸葛亮",
+      "target": "李严",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "234",
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "诸葛亮去世的消息传来后，李严认为自己再无被起用的可能，悲愤而亡。",
+          "en": "Upon hearing the news of Zhuge Liang's death, Li Yan believed he had no chance of being reinstated, and subsequently died of grief and indignation."
+        }
+      }
+    },
+    {
+      "source": "李丰 (蜀汉)",
+      "target": "李严",
+      "type": "CHILD_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "李丰是李严的儿子。",
+          "en": "Li Feng was the son of Li Yan."
+        }
+      }
+    },
+    {
+      "source": "李严",
+      "target": "费观",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "李严与比自己年轻二十余岁的费观如同辈般亲交。",
+          "en": "Li Yan had a close, peer-like friendship with Fei Guan, who was more than 20 years his junior."
+        }
+      }
+    },
+    {
+      "source": "陈震 (三国)",
+      "target": "诸葛亮",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "225",
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "陈震在出使东吴前，私下告诫诸葛亮，说李严“腹中有鳞甲”，暗示其心术不正，不可亲近。",
+          "en": "Before his diplomatic mission to Eastern Wu, Chen Zhen privately warned Zhuge Liang that Li Yan had 'scales on his belly,' implying he was treacherous and should not be trusted."
+        }
+      }
+    },
+    {
+      "source": "李严",
+      "target": "蜀科",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "李严与诸葛亮、法正、伊籍、刘巴共同制定了《蜀科》，奠定了蜀汉的法律基础。",
+          "en": "Li Yan, along with Zhuge Liang, Fa Zheng, Yi Ji, and Liu Ba, jointly drafted the 'Code of Shu', which laid the legal foundation for the state of Shu Han."
+        }
+      }
+    },
+    {
+      "source": "王冲 (三国)",
+      "target": "李严",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "王冲是李严的下属，因自知被李严忌恨，害怕被其诬陷，最终叛逃至曹魏。",
+          "en": "Wang Chong was a subordinate of Li Yan. Aware of Li Yan's animosity towards him and fearing being framed, he defected to Cao Wei."
+        }
+      }
+    },
+    {
+      "source": "王冲 (三国)",
+      "target": "曹魏",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "description": {
+          "zh-cn": "王冲因惧怕李严而叛逃并投降曹魏。",
+          "en": "Wang Chong defected and surrendered to Cao Wei out of fear of Li Yan."
+        }
+      }
+    }
+  ]
+}
