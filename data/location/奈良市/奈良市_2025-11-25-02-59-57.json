@@ -1,0 +1,974 @@
+{
+  "nodes": [
+    {
+      "id": "奈良市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "奈良市",
+          "奈良"
+        ],
+        "en": [
+          "Nara (city)",
+          "Nara"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "日本奈良县",
+          "en": "Nara Prefecture, Japan"
+        },
+        "description": {
+          "zh-cn": "位于日本奈良县北部的城市，是奈良县最大的城市和县政府所在地。在8世纪奈良时代曾是日本的首都平城京，保留了众多文化遗产，是著名的国际观光城市。",
+          "en": "A city in the northern part of Nara Prefecture, Japan, serving as the prefectural capital and largest city. It was the capital of Japan during the Nara period in the 8th century, known as Heijō-kyō, and retains numerous cultural heritage sites, making it a famous international tourist city."
+        }
+      }
+    },
+    {
+      "id": "安倍晋三",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安倍晋三"
+        ],
+        "en": [
+          "Shinzo Abe"
+        ]
+      },
+      "properties": {
+        "lifetime": "1954-09-21 - 2022-07-08",
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "奈良市",
+          "en": "Nara"
+        },
+        "description": {
+          "zh-cn": "日本前首相，2022年7月8日在奈良市大和西大寺站进行选举演讲时遭遇枪击身亡。",
+          "en": "Former Prime Minister of Japan, who was assassinated on July 8, 2022, while delivering a campaign speech at Yamato-Saidaiji Station in Nara."
+        }
+      }
+    },
+    {
+      "id": "安倍晋三遇刺案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "安倍晋三遇刺案"
+        ],
+        "en": [
+          "Assassination of Shinzo Abe"
+        ]
+      },
+      "properties": {
+        "period": "2022-07-08",
+        "location": {
+          "zh-cn": "奈良市大和西大寺站",
+          "en": "Yamato-Saidaiji Station, Nara"
+        },
+        "description": {
+          "zh-cn": "2022年7月8日，日本前首相安倍晋三在奈良市发表演讲时遭枪击身亡的事件。",
+          "en": "The event on July 8, 2022, in which former Japanese Prime Minister Shinzo Abe was shot and killed while giving a speech in Nara."
+        }
+      }
+    },
+    {
+      "id": "平城京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "平城京"
+        ],
+        "en": [
+          "Heijō-kyō"
+        ]
+      },
+      "properties": {
+        "period": "0710 - 0784",
+        "description": {
+          "zh-cn": "日本奈良时代的首都，位于现今奈良市市区。由元明天皇于710年自藤原京迁都于此。",
+          "en": "The capital city of Japan during the Nara period, located in modern-day Nara. The capital was moved here from Fujiwara-kyō in 710 by Empress Genmei."
+        }
+      }
+    },
+    {
+      "id": "元明天皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "元明天皇"
+        ],
+        "en": [
+          "Empress Genmei"
+        ]
+      },
+      "properties": {
+        "lifetime": "0660 - 0721-12-29",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "日本第43代天皇，于710年下令将首都从藤原京迁至平城京。",
+          "en": "The 43rd monarch of Japan, who ordered the move of the capital from Fujiwara-kyō to Heijō-kyō in 710."
+        }
+      }
+    },
+    {
+      "id": "奈良时代",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "奈良时代"
+        ],
+        "en": [
+          "Nara period"
+        ]
+      },
+      "properties": {
+        "period": "0710 - 0794",
+        "description": {
+          "zh-cn": "日本历史上以奈良（平城京）为首都的时代，始于元明天皇迁都至平城京的710年，终于桓武天皇迁都至平安京的794年。此期间日本深受唐朝文化影响，发展出天平文化。",
+          "en": "A period of Japanese history centered on the capital at Nara (Heijō-kyō), beginning in 710 when Empress Genmei moved the capital to Heijō-kyō and ending in 794 when Emperor Kanmu moved it to Heian-kyō. During this period, Japan was heavily influenced by Tang dynasty China, leading to the development of Tenpyō culture."
+        }
+      }
+    },
+    {
+      "id": "天平文化",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "天平文化"
+        ],
+        "en": [
+          "Tenpyō culture"
+        ]
+      },
+      "properties": {
+        "period": "8世纪",
+        "description": {
+          "zh-cn": "奈良时代的一种文化，受到唐朝文化强烈影响，并在佛教艺术与建筑方面达到高峰。",
+          "en": "A culture of the Nara period, strongly influenced by the Tang dynasty, which reached a peak in Buddhist art and architecture."
+        }
+      }
+    },
+    {
+      "id": "遣唐使",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "遣唐使"
+        ],
+        "en": [
+          "Japanese missions to Tang China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本在奈良时代等时期向唐朝派出的官方使团，对日本文化，特别是天平文化的形成产生了重要影响。",
+          "en": "Official diplomatic missions sent from Japan to Tang China during periods like the Nara period, which had a significant impact on Japanese culture, particularly the formation of Tenpyō culture."
+        }
+      }
+    },
+    {
+      "id": "唐朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "唐朝",
+          "唐"
+        ],
+        "en": [
+          "Tang dynasty"
+        ]
+      },
+      "properties": {
+        "period": "0618 - 0907",
+        "description": {
+          "zh-cn": "中国的朝代，其文化对奈良时代的日本产生了深远影响。",
+          "en": "A Chinese dynasty whose culture profoundly influenced Japan during the Nara period."
+        }
+      }
+    },
+    {
+      "id": "东大寺",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东大寺"
+        ],
+        "en": [
+          "Tōdai-ji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的佛教寺院，是南都七大寺之一，也是“古都奈良的文化财”的一部分。",
+          "en": "A Buddhist temple complex in Nara, one of the Nanto Shichi Daiji, and part of the 'Historic Monuments of Ancient Nara' UNESCO World Heritage Site."
+        }
+      }
+    },
+    {
+      "id": "东大寺大佛殿之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "东大寺大佛殿之战"
+        ],
+        "en": [
+          "Battle of the Great Buddha Hall of Tōdai-ji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代在奈良地区，武士势力与寺院间发生的战争之一。",
+          "en": "One of the battles that occurred between samurai forces and temple powers in the Nara region in ancient times."
+        }
+      }
+    },
+    {
+      "id": "松永久秀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "松永久秀"
+        ],
+        "en": [
+          "Matsunaga Hisahide"
+        ]
+      },
+      "properties": {
+        "lifetime": "1508 - 1577-11-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本战国时代的大名，曾在奈良建立多闻山城以控制周边区域。",
+          "en": "A daimyō of the Sengoku period in Japan, who once built Tamon Castle in Nara to control the surrounding area."
+        }
+      }
+    },
+    {
+      "id": "多闻山城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "多闻山城"
+        ],
+        "en": [
+          "Tamon Castle"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由松永久秀在奈良建立的城堡，后被废弃。",
+          "en": "A castle built in Nara by Matsunaga Hisahide, later abandoned."
+        }
+      }
+    },
+    {
+      "id": "幕府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "幕府"
+        ],
+        "en": [
+          "Shogunate"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指日本的武家政权。江户时代的幕府曾在奈良设立奈良奉行。",
+          "en": "Refers to the military government in Japan. The Edo period shogunate established the Nara bugyō in Nara."
+        }
+      }
+    },
+    {
+      "id": "远国奉行#奈良奉行",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "远国奉行#奈良奉行",
+          "奈良奉行"
+        ],
+        "en": [
+          "Nara bugyō"
+        ]
+      },
+      "properties": {
+        "period": " - 1868",
+        "description": {
+          "zh-cn": "江户时代幕府在奈良设置的直属地方行政官职。",
+          "en": "A local administrative post directly under the shogunate established in Nara during the Edo period."
+        }
+      }
+    },
+    {
+      "id": "联合国教科文组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国教科文组织"
+        ],
+        "en": [
+          "UNESCO"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "联合国专门机构之一，于1998年将奈良市的一系列历史遗迹登录为世界遗产。",
+          "en": "A specialized agency of the United Nations, which designated a series of historic monuments in Nara as a World Heritage Site in 1998."
+        }
+      }
+    },
+    {
+      "id": "古都奈良的文化财",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "古都奈良的文化财"
+        ],
+        "en": [
+          "Historic Monuments of Ancient Nara"
+        ]
+      },
+      "properties": {
+        "period": "1998",
+        "description": {
+          "zh-cn": "联合国教科文组织登录的世界遗产项目，包含奈良市内的东大寺、兴福寺、春日大社、春日山原始林、元兴寺、药师寺、唐招提寺、平城宫遗迹。",
+          "en": "A UNESCO World Heritage Site designation that includes Tōdai-ji, Kōfuku-ji, Kasuga-taisha, Kasugayama Primeval Forest, Gangō-ji, Yakushi-ji, Tōshōdai-ji, and the Heijō Palace Site in Nara."
+        }
+      }
+    },
+    {
+      "id": "鉴真",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "鉴真"
+        ],
+        "en": [
+          "Jianzhen"
+        ]
+      },
+      "properties": {
+        "lifetime": "0688 - 0763-06-25",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝赴日弘法的著名僧人，在日本建立了唐招提寺。",
+          "en": "A renowned Chinese monk from the Tang dynasty who traveled to Japan to propagate Buddhism and founded Tōshōdai-ji temple."
+        }
+      }
+    },
+    {
+      "id": "唐招提寺",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "唐招提寺"
+        ],
+        "en": [
+          "Tōshōdai-ji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的佛教寺院，由唐朝僧人鉴真建立，是“古都奈良的文化财”的一部分。",
+          "en": "A Buddhist temple in Nara founded by the Tang dynasty monk Jianzhen, and part of the 'Historic Monuments of Ancient Nara' UNESCO World Heritage Site."
+        }
+      }
+    },
+    {
+      "id": "朝廷",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝廷"
+        ],
+        "en": [
+          "Imperial Court"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指日本的中央政府或天皇政权。在奈良时代，朝廷保护了南都七大寺。",
+          "en": "Refers to the central government or imperial authority of Japan. During the Nara period, the court protected the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "id": "南都七大寺",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南都七大寺"
+        ],
+        "en": [
+          "Nanto Shichi Daiji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在奈良时代，位于首都平城京及周边地区，受到朝廷保护的七座大型佛教寺院的总称。",
+          "en": "A collective term for the seven great Buddhist temples in and around the capital Heijō-kyō during the Nara period that were under the protection of the Imperial Court."
+        }
+      }
+    },
+    {
+      "id": "兴福寺 (奈良市)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "兴福寺 (奈良市)",
+          "兴福寺"
+        ],
+        "en": [
+          "Kōfuku-ji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的佛教寺院，是南都七大寺之一，也是“古都奈良的文化财”的一部分。",
+          "en": "A Buddhist temple in Nara, one of the Nanto Shichi Daiji, and part of the 'Historic Monuments of Ancient Nara' UNESCO World Heritage Site."
+        }
+      }
+    },
+    {
+      "id": "元兴寺",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "元兴寺"
+        ],
+        "en": [
+          "Gangō-ji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的佛教寺院，是南都七大寺之一，也是“古都奈良的文化财”的一部分。",
+          "en": "A Buddhist temple in Nara, one of the Nanto Shichi Daiji, and part of the 'Historic Monuments of Ancient Nara' UNESCO World Heritage Site."
+        }
+      }
+    },
+    {
+      "id": "大安寺 (奈良市)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大安寺 (奈良市)",
+          "大安寺"
+        ],
+        "en": [
+          "Daian-ji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的佛教寺院，是南都七大寺之一。",
+          "en": "A Buddhist temple in Nara, one of the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "id": "西大寺 (奈良市)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西大寺 (奈良市)",
+          "西大寺"
+        ],
+        "en": [
+          "Saidai-ji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的佛教寺院，是南都七大寺之一。",
+          "en": "A Buddhist temple in Nara, one of the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "id": "药师寺",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "药师寺"
+        ],
+        "en": [
+          "Yakushi-ji"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的佛教寺院，是南都七大寺之一，也是“古都奈良的文化财”的一部分。",
+          "en": "A Buddhist temple in Nara, one of the Nanto Shichi Daiji, and part of the 'Historic Monuments of Ancient Nara' UNESCO World Heritage Site."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，奈良市所在地。其政府在历史上对奈良的发展有重要影响。",
+          "en": "An East Asian country where Nara is located. Its government has historically had a significant impact on Nara's development."
+        }
+      }
+    },
+    {
+      "id": "奈良公园",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "奈良公园"
+        ],
+        "en": [
+          "Nara Park"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的大型公园，于1880年由日本政府规划设立，以其野生鹿群和历史遗迹而闻名。",
+          "en": "A large public park in Nara, established in 1880 by the Japanese government, famous for its wild deer and historical sites."
+        }
+      }
+    },
+    {
+      "id": "奈良师范学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奈良师范学校"
+        ],
+        "en": [
+          "Nara Normal School"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "19世纪末成立的教育机构，是奈良教育大学的前身之一，并于1905年分拆出奈良女子高等师范学校。",
+          "en": "An educational institution established in the late 19th century, a predecessor to Nara University of Education, from which Nara Women's Higher Normal School was spun off in 1905."
+        }
+      }
+    },
+    {
+      "id": "奈良女子高等师范学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奈良女子高等师范学校"
+        ],
+        "en": [
+          "Nara Women's Higher Normal School"
+        ]
+      },
+      "properties": {
+        "period": "1905 - ",
+        "description": {
+          "zh-cn": "1905年由奈良师范学校的女子部独立而成，后来发展成为奈良女子大学。",
+          "en": "Established in 1905 from the women's division of Nara Normal School, it later developed into Nara Women's University."
+        }
+      }
+    },
+    {
+      "id": "奈良女子大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奈良女子大学"
+        ],
+        "en": [
+          "Nara Women's University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的国立女子大学，前身为奈良女子高等师范学校。",
+          "en": "A national women's university in Nara, formerly known as Nara Women's Higher Normal School."
+        }
+      }
+    },
+    {
+      "id": "春日大社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "春日大社"
+        ],
+        "en": [
+          "Kasuga-taisha"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于奈良市的神社，建于8世纪奈良时代，是“古都奈良的文化财”的一部分。",
+          "en": "A Shinto shrine in Nara, established during the Nara period in the 8th century, and part of the 'Historic Monuments of Ancient Nara' UNESCO World Heritage Site."
+        }
+      }
+    },
+    {
+      "id": "春日山原始林",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "春日山原始林"
+        ],
+        "en": [
+          "Kasugayama Primeval Forest"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "紧邻奈良市区的原始森林，被视为春日大社的神域，是“古都奈良的文化财”的一部分。",
+          "en": "A primeval forest adjacent to urban Nara, considered a sacred domain of Kasuga-taisha, and part of the 'Historic Monuments of Ancient Nara' UNESCO World Heritage Site."
+        }
+      }
+    },
+    {
+      "id": "平城宫",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "平城宫"
+        ],
+        "en": [
+          "Heijō Palace"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "平城京中的天皇居所和政府官厅所在地，现为其遗址，是“古都奈良的文化财”的一部分。",
+          "en": "The site of the imperial residence and government offices in the capital city of Heijō-kyō. Its ruins are part of the 'Historic Monuments of Ancient Nara' UNESCO World Heritage Site."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "元明天皇",
+      "target": "平城京",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "0710",
+        "description": {
+          "zh-cn": "于710年下令将日本首都自藤原京迁至平城京。",
+          "en": "In 710, ordered the capital of Japan to be moved from Fujiwara-kyō to Heijō-kyō."
+        }
+      }
+    },
+    {
+      "source": "奈良时代",
+      "target": "天平文化",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "奈良时代是天平文化发展的时期。",
+          "en": "The Nara period was the era in which Tenpyō culture developed."
+        }
+      }
+    },
+    {
+      "source": "遣唐使",
+      "target": "天平文化",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "从唐朝带来了各种文物，促进了融合唐文化的天平文化的形成。",
+          "en": "Brought various cultural artifacts from the Tang dynasty, promoting the formation of Tenpyō culture which integrated elements of Tang culture."
+        }
+      }
+    },
+    {
+      "source": "唐朝",
+      "target": "天平文化",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "天平文化融合了唐文化的特色。",
+          "en": "Tenpyō culture incorporated features of Tang culture."
+        }
+      }
+    },
+    {
+      "source": "东大寺大佛殿之战",
+      "target": "东大寺",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "武士势力与寺院间发生的战争，对东大寺造成了影响。",
+          "en": "A battle between samurai forces and temple powers that affected Tōdai-ji."
+        }
+      }
+    },
+    {
+      "source": "松永久秀",
+      "target": "多闻山城",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "建立了多闻山城作为其控制周边区域的据点。",
+          "en": "Established Tamon Castle as a stronghold to control the surrounding area."
+        }
+      }
+    },
+    {
+      "source": "幕府",
+      "target": "远国奉行#奈良奉行",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "江户时代的幕府在奈良设立了奈良奉行这一官职。",
+          "en": "The shogunate of the Edo period established the administrative post of Nara bugyō in Nara."
+        }
+      }
+    },
+    {
+      "source": "安倍晋三遇刺案",
+      "target": "安倍晋三",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2022-07-08",
+        "description": {
+          "zh-cn": "安倍晋三在此事件中身亡。",
+          "en": "Shinzo Abe died in this incident."
+        }
+      }
+    },
+    {
+      "source": "联合国教科文组织",
+      "target": "古都奈良的文化财",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "于1998年将“古都奈良的文化财”登录为世界遗产项目。",
+          "en": "In 1998, designated the 'Historic Monuments of Ancient Nara' as a World Heritage Site."
+        }
+      }
+    },
+    {
+      "source": "古都奈良的文化财",
+      "target": "东大寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "东大寺是“古都奈良的文化财”世界遗产的组成部分。",
+          "en": "Tōdai-ji is a component of the 'Historic Monuments of Ancient Nara' World Heritage Site."
+        }
+      }
+    },
+    {
+      "source": "古都奈良的文化财",
+      "target": "兴福寺 (奈良市)",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "兴福寺是“古都奈良的文化财”世界遗产的组成部分。",
+          "en": "Kōfuku-ji is a component of the 'Historic Monuments of Ancient Nara' World Heritage Site."
+        }
+      }
+    },
+    {
+      "source": "古都奈良的文化财",
+      "target": "春日大社",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "春日大社是“古都奈良的文化财”世界遗产的组成部分。",
+          "en": "Kasuga-taisha is a component of the 'Historic Monuments of Ancient Nara' World Heritage Site."
+        }
+      }
+    },
+    {
+      "source": "古都奈良的文化财",
+      "target": "春日山原始林",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "春日山原始林是“古都奈良的文化财”世界遗产的组成部分。",
+          "en": "Kasugayama Primeval Forest is a component of the 'Historic Monuments of Ancient Nara' World Heritage Site."
+        }
+      }
+    },
+    {
+      "source": "古都奈良的文化财",
+      "target": "元兴寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "元兴寺是“古都奈良的文化财”世界遗产的组成部分。",
+          "en": "Gangō-ji is a component of the 'Historic Monuments of Ancient Nara' World Heritage Site."
+        }
+      }
+    },
+    {
+      "source": "古都奈良的文化财",
+      "target": "药师寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "药师寺是“古都奈良的文化财”世界遗产的组成部分。",
+          "en": "Yakushi-ji is a component of the 'Historic Monuments of Ancient Nara' World Heritage Site."
+        }
+      }
+    },
+    {
+      "source": "古都奈良的文化财",
+      "target": "唐招提寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "唐招提寺是“古都奈良的文化财”世界遗产的组成部分。",
+          "en": "Tōshōdai-ji is a component of the 'Historic Monuments of Ancient Nara' World Heritage Site."
+        }
+      }
+    },
+    {
+      "source": "古都奈良的文化财",
+      "target": "平城宫",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1998",
+        "description": {
+          "zh-cn": "平城宫遗迹是“古都奈良的文化财”世界遗产的组成部分。",
+          "en": "The Heijō Palace site is a component of the 'Historic Monuments of Ancient Nara' World Heritage Site."
+        }
+      }
+    },
+    {
+      "source": "鉴真",
+      "target": "唐招提寺",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "唐朝僧人鉴真建立了唐招提寺。",
+          "en": "The Tang dynasty monk Jianzhen founded Tōshōdai-ji temple."
+        }
+      }
+    },
+    {
+      "source": "朝廷",
+      "target": "南都七大寺",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在奈良时代，朝廷保护了被称为南都七大寺的七座寺庙。",
+          "en": "During the Nara period, the Imperial Court protected the seven temples known as the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "source": "东大寺",
+      "target": "南都七大寺",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "东大寺是南都七大寺之一。",
+          "en": "Tōdai-ji is one of the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "source": "兴福寺 (奈良市)",
+      "target": "南都七大寺",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "兴福寺是南都七大寺之一。",
+          "en": "Kōfuku-ji is one of the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "source": "元兴寺",
+      "target": "南都七大寺",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "元兴寺是南都七大寺之一。",
+          "en": "Gangō-ji is one of the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "source": "大安寺 (奈良市)",
+      "target": "南都七大寺",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "大安寺是南都七大寺之一。",
+          "en": "Daian-ji is one of the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "source": "西大寺 (奈良市)",
+      "target": "南都七大寺",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "西大寺是南都七大寺之一。",
+          "en": "Saidai-ji is one of the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "source": "药师寺",
+      "target": "南都七大寺",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "药师寺是南都七大寺之一。",
+          "en": "Yakushi-ji is one of the Nanto Shichi Daiji."
+        }
+      }
+    },
+    {
+      "source": "日本",
+      "target": "奈良公园",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1880",
+        "description": {
+          "zh-cn": "日本政府于1880年规划设立了奈良公园。",
+          "en": "The Japanese government planned and established Nara Park in 1880."
+        }
+      }
+    },
+    {
+      "source": "奈良师范学校",
+      "target": "奈良女子高等师范学校",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1905",
+        "description": {
+          "zh-cn": "1905年，奈良师范学校的女子部独立出来，设置为奈良女子高等师范学校。",
+          "en": "In 1905, the women's division of Nara Normal School was separated to become Nara Women's Higher Normal School."
+        }
+      }
+    },
+    {
+      "source": "奈良女子高等师范学校",
+      "target": "奈良女子大学",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "奈良女子高等师范学校后来发展成为现在的奈良女子大学。",
+          "en": "Nara Women's Higher Normal School later developed into the present-day Nara Women's University."
+        }
+      }
+    }
+  ]
+}

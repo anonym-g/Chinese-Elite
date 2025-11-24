@@ -1,0 +1,986 @@
+{
+  "nodes": [
+    {
+      "id": "中华苏维埃共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华苏维埃共和国",
+          "中华苏维埃人民共和国",
+          "中华苏维埃"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1931-11-07 - 1937-09-22",
+        "location": {
+          "zh-cn": "瑞金 (1931-1936); 保安 (1936-1937); 延安 (1937)",
+          "en": "Ruijin (1931-1936); Bao'an (1936-1937); Yan'an (1937)"
+        },
+        "description": {
+          "zh-cn": "中国共产党在苏联和共产国际的支持下，于中华民国大陆时期建立的苏维埃政权。该政权主张推翻国民政府，实现社会主义和共产主义。",
+          "en": "A soviet regime established by the Communist Party of China during the Republican era with the support of the Soviet Union and the Comintern. The regime advocated for overthrowing the Nationalist Government to achieve socialism and communism."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共中央"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华苏维埃共和国的创建者和执政党。",
+          "en": "The founder and ruling party of the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "支持中国共产党建立中华苏维埃共和国的国家。",
+          "en": "The state that supported the Communist Party of China in establishing the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "第三国际",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第三国际",
+          "共产国际"
+        ],
+        "en": [
+          "Third International",
+          "Comintern"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "支持中国共产党建立中华苏维埃共和国的国际共产主义组织。",
+          "en": "An international communist organization that supported the Communist Party of China in establishing the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": [
+          "Nationalist Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国时期的中央政府，视中华苏维埃共和国为武装叛乱政权并对其进行军事围剿。",
+          "en": "The central government of the Republic of China, which regarded the Chinese Soviet Republic as an armed rebellion and launched military encirclement campaigns against it."
+        }
+      }
+    },
+    {
+      "id": "中国国民党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党"
+        ],
+        "en": [
+          "Kuomintang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国时期的执政党，主导了对中华苏维埃共和国的军事行动。",
+          "en": "The ruling party of the Republic of China, which led military actions against the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国革命家、政治家，中华苏维埃共和国主要领导人之一，曾任中央执行委员会主席和人民委员会主席。",
+          "en": "Chinese revolutionary and statesman, one of the main leaders of the Chinese Soviet Republic, served as Chairman of the Central Executive Committee and Chairman of the People's Committee."
+        }
+      }
+    },
+    {
+      "id": "项英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项英"
+        ],
+        "en": [
+          "Xiang Ying"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-05 - 1941-03-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期领导人，中华苏维埃共和国中央执行委员会副主席。",
+          "en": "An early leader of the Communist Party of China, Vice Chairman of the Central Executive Committee of the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "张国焘",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张国焘"
+        ],
+        "en": [
+          "Zhang Guotao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1897-11-26 - 1979-12-03",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党创始人之一和早期领导人，曾任中华苏维埃共和国中央执行委员会副主席，后与中共中央分裂。",
+          "en": "A founding member and early leader of the Communist Party of China, served as Vice Chairman of the Central Executive Committee of the Chinese Soviet Republic, and later split with the CPC Central Committee."
+        }
+      }
+    },
+    {
+      "id": "朱德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱德"
+        ],
+        "en": [
+          "Zhu De"
+        ]
+      },
+      "properties": {
+        "lifetime": "1886-12-01 - 1976-07-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要领导人之一，曾任中华苏维埃中央革命军事委员会主席。",
+          "en": "One of the main leaders of the Communist Party of China and the People's Republic of China, served as Chairman of the Central Revolutionary Military Committee of the Chinese Soviet."
+        }
+      }
+    },
+    {
+      "id": "秦邦宪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦邦宪",
+          "博古"
+        ],
+        "en": [
+          "Qin Bangxian",
+          "Bo Gu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1907-05-14 - 1946-04-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期领导人，在中华苏维埃共和国前期担任中共临时中央政治局总负责人。",
+          "en": "An early leader of the Communist Party of China, served as the General Secretary of the provisional Politburo of the CPC during the early period of the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "张闻天",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张闻天",
+          "洛甫"
+        ],
+        "en": [
+          "Zhang Wentian",
+          "Luo Fu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1900-08-30 - 1976-07-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党早期领导人，在中华苏维埃共和国后期担任中共中央总书记，并曾任中央人民委员会主席。",
+          "en": "An early leader of the Communist Party of China, served as the General Secretary of the CPC Central Committee during the later period of the Chinese Soviet Republic, and also served as Chairman of the Central People's Committee."
+        }
+      }
+    },
+    {
+      "id": "中华工农兵苏维埃第一次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中华工农兵苏维埃第一次全国代表大会",
+          "一苏大"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1931-11-07 - 1931-11-20",
+        "location": {
+          "zh-cn": "江西瑞金叶坪村",
+          "en": "Yeping Village, Ruijin, Jiangxi"
+        },
+        "description": {
+          "zh-cn": "宣告中华苏维埃共和国临时中央政府成立的代表大会，通过了《中华苏维埃共和国宪法大纲》等重要文件。",
+          "en": "The congress that declared the establishment of the Provisional Central Government of the Chinese Soviet Republic and passed important documents such as the Outline of the Constitution of the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "中华苏维埃共和国临时中央政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华苏维埃共和国临时中央政府",
+          "中央工农民主政府",
+          "中华苏维埃政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1931-11-07 - ",
+        "description": {
+          "zh-cn": "中华苏维埃共和国的中央行政机关，成立于中华工农兵苏维埃第一次全国代表大会。",
+          "en": "The central administrative body of the Chinese Soviet Republic, established at the First National Congress of Chinese Workers, Peasants and Soldiers Soviets."
+        }
+      }
+    },
+    {
+      "id": "中华苏维埃共和国宪法大纲",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华苏维埃共和国宪法大纲"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1931-11",
+        "description": {
+          "zh-cn": "中华苏维埃共和国的根本法，规定了其国家性质、政体和公民基本权利与义务。",
+          "en": "The fundamental law of the Chinese Soviet Republic, which stipulated its state nature, political system, and the basic rights and obligations of its citizens."
+        }
+      }
+    },
+    {
+      "id": "第一次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次国共内战",
+          "土地革命战争",
+          "反“围剿”战争"
+        ],
+        "en": [
+          "First Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1927-08-01 - 1937-07-07",
+        "description": {
+          "zh-cn": "中国国民党与中国共产党之间的一场长期内战。中华苏维埃共和国的建立、发展和消亡均在此历史背景下。",
+          "en": "A long-term civil war between the Kuomintang and the Communist Party of China. The establishment, development, and demise of the Chinese Soviet Republic all occurred against this historical backdrop."
+        }
+      }
+    },
+    {
+      "id": "长征",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "长征"
+        ],
+        "en": [
+          "Long March"
+        ]
+      },
+      "properties": {
+        "period": "1934-10 - 1936-10",
+        "description": {
+          "zh-cn": "在第五次反围剿战争失败后，中国工农红军进行的战略大转移，导致中华苏维埃共和国中央政府迁往陕北。",
+          "en": "A major strategic retreat undertaken by the Chinese Workers' and Peasants' Red Army after the failure of the Fifth Encirclement Campaign, which led to the relocation of the central government of the Chinese Soviet Republic to northern Shaanxi."
+        }
+      }
+    },
+    {
+      "id": "西安事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "西安事变"
+        ],
+        "en": [
+          "Xi'an Incident"
+        ]
+      },
+      "properties": {
+        "period": "1936-12-12 - 1936-12-25",
+        "description": {
+          "zh-cn": "一场导致国民政府停止剿共、促成国共第二次合作的军事政变。该事件直接促成了中华民国与中华苏维埃共和国的停战。",
+          "en": "A military coup that led the Nationalist Government to cease its campaign against the Communists and facilitated the Second United Front. The incident directly led to a truce between the Republic of China and the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "共赴国难宣言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "共赴国难宣言"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937-09-22",
+        "description": {
+          "zh-cn": "中国共产党为建立抗日民族统一战线向全国发表的宣言，其中宣告“取消现在的苏维埃政府”，标志着中华苏维埃共和国的正式终结。",
+          "en": "A declaration issued by the Communist Party of China to the nation to establish a united anti-Japanese front, which announced the 'abolition of the current Soviet government,' marking the official end of the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": [
+          "Zhou Enlai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-03-05 - 1976-01-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要领导人之一，曾提议成立“苏域会”筹委会，并在第五次反围剿失败后成为筹划红军长征的“三人团”成员。",
+          "en": "One of the main leaders of the Communist Party of China and the People's Republic of China. He proposed the establishment of the preparatory committee for the Soviet Area Congress and was a member of the 'Trio' that planned the Long March after the failure of the Fifth Encirclement Campaign."
+        }
+      }
+    },
+    {
+      "id": "三人团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "三人团"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1934",
+        "description": {
+          "zh-cn": "由博古、李德和周恩来组成的，负责筹划红军在第五次反围剿失败后进行战略转移（长征）的核心决策小组。",
+          "en": "A core decision-making group consisting of Bo Gu, Otto Braun (Li De), and Zhou Enlai, responsible for planning the strategic retreat (Long March) of the Red Army after the failure of the Fifth Encirclement Campaign."
+        }
+      }
+    },
+    {
+      "id": "李德 (1900年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李德 (1900年)"
+        ],
+        "en": [
+          "Otto Braun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1900-09-28 - 1974-08-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国共产党员，共产国际派往中国的军事顾问，长征前“三人团”成员之一。",
+          "en": "A German communist and military advisor sent by the Comintern to China, a member of the 'Trio' before the Long March."
+        }
+      }
+    },
+    {
+      "id": "中华苏维埃中央革命军事委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华苏维埃中央革命军事委员会",
+          "中央革命军事委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1931-11-25 - 1937-08",
+        "description": {
+          "zh-cn": "中华苏维埃共和国的最高军事领导机关。",
+          "en": "The supreme military leadership body of the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "人民委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "人民委员会"
+        ],
+        "en": [
+          "People's Committee"
+        ]
+      },
+      "properties": {
+        "period": "1931 - 1934",
+        "description": {
+          "zh-cn": "中华苏维埃共和国中央执行委员会的行政机关，负责处理日常政务。",
+          "en": "The administrative body of the Central Executive Committee of the Chinese Soviet Republic, responsible for handling daily government affairs."
+        }
+      }
+    },
+    {
+      "id": "中华苏维埃共和国中央执行委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华苏维埃共和国中央执行委员会",
+          "中央执行委员会"
+        ],
+        "en": [
+          "Central Executive Committee of the Chinese Soviet Republic"
+        ]
+      },
+      "properties": {
+        "period": "1931 - 1937",
+        "description": {
+          "zh-cn": "中华苏维埃共和国在全国苏维埃代表大会闭会期间的最高政权机关。",
+          "en": "The highest organ of state power of the Chinese Soviet Republic when the National Soviet Congress was not in session."
+        }
+      }
+    },
+    {
+      "id": "陕甘宁边区政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "陕甘宁边区政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1937-09-06 - ",
+        "description": {
+          "zh-cn": "根据国共协议，由中华苏维埃共和国中央政府西北办事处改制而成的行政机构，隶属于国民政府行政院。",
+          "en": "An administrative body reorganized from the Northwest Office of the Central Government of the Chinese Soviet Republic according to the KMT-CPC agreement, subordinate to the Executive Yuan of the Nationalist Government."
+        }
+      }
+    },
+    {
+      "id": "国民政府行政院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府行政院"
+        ],
+        "en": [
+          "Executive Yuan of the Nationalist Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国国民政府的最高行政机关。",
+          "en": "The highest administrative organ of the Nationalist Government of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华共和国"
+        ],
+        "en": [
+          "Chinese Republic"
+        ]
+      },
+      "properties": {
+        "period": "1933-11-22 - 1934-01-13",
+        "description": {
+          "zh-cn": "由十九路军在福建发动的“闽变”后建立的短暂政权，曾与中华苏维埃共和国签订边界和交通条约。",
+          "en": "A short-lived regime established after the 'Fujian Rebellion' launched by the 19th Route Army in Fujian, which signed a border and transportation treaty with the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "中华苏维埃共和国西北联邦",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华苏维埃共和国西北联邦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1935-05-30 - 1936",
+        "description": {
+          "zh-cn": "由张国焘在长征途中另立的政权，象征着当时中共的内部分裂。",
+          "en": "A regime established separately by Zhang Guotao during the Long March, symbolizing the internal split within the CPC at the time."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华苏维埃共和国临时中央政府曾于1932年4月15日正式对日宣战。",
+          "en": "The Provisional Central Government of the Chinese Soviet Republic officially declared war on Japan on April 15, 1932."
+        }
+      }
+    },
+    {
+      "id": "刘少奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘少奇"
+        ],
+        "en": [
+          "Liu Shaoqi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-11-24 - 1969-11-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要领导人之一。在苏区时期，他提出了灵活执行《劳动法》的措施。",
+          "en": "One of the main leaders of the Communist Party of China and the People's Republic of China. During the Soviet period, he proposed measures for the flexible implementation of the Labor Law."
+        }
+      }
+    },
+    {
+      "id": "中华苏维埃共和国劳动法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中华苏维埃共和国劳动法"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1931-12",
+        "description": {
+          "zh-cn": "中华苏维埃共和国颁布的关于劳动制度的法律，后经刘少奇建议于1933年10月修改。",
+          "en": "A law concerning the labor system promulgated by the Chinese Soviet Republic, later amended in October 1933 following Liu Shaoqi's suggestions."
+        }
+      }
+    },
+    {
+      "id": "毛泽民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽民"
+        ],
+        "en": [
+          "Mao Zemin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1896-04-03 - 1943-09-27",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "毛泽东的弟弟，中华苏维埃共和国国家银行首任行长。",
+          "en": "Mao Zedong's younger brother, the first president of the National Bank of the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "id": "中华苏维埃共和国国家银行",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华苏维埃共和国国家银行"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1932-02-01 - ",
+        "description": {
+          "zh-cn": "中华苏维埃共和国的中央银行，负责发行货币、公债等金融业务。",
+          "en": "The central bank of the Chinese Soviet Republic, responsible for issuing currency, government bonds, and other financial services."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国共产党",
+      "target": "中华苏维埃共和国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1931-11-07",
+        "description": {
+          "zh-cn": "中华苏维埃共和国是在中国共产党的领导和组织下建立的。",
+          "en": "The Chinese Soviet Republic was established under the leadership and organization of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "中华苏维埃共和国",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "苏联支持中国共产党建立中华苏维埃共和国。",
+          "en": "The Soviet Union supported the Communist Party of China in establishing the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "source": "第三国际",
+      "target": "中华苏维埃共和国",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "第三国际（共产国际）支持中国共产党建立中华苏维埃共和国。",
+          "en": "The Third International (Comintern) supported the Communist Party of China in establishing the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "source": "中华苏维埃共和国",
+      "target": "国民政府",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "1931-11-07 - 1937-09-22",
+        "description": {
+          "zh-cn": "中华苏维埃共和国主张暴力推翻国民政府的统治，而国民政府则视其为武装叛乱政权并进行军事围剿。",
+          "en": "The Chinese Soviet Republic advocated for the violent overthrow of the Nationalist Government's rule, while the Nationalist Government regarded it as an armed rebellion and launched military encirclement campaigns against it."
+        }
+      }
+    },
+    {
+      "source": "中华苏维埃共和国",
+      "target": "中国国民党",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "1931-11-07 - 1937-09-22",
+        "description": {
+          "zh-cn": "中华苏维埃共和国旨在推翻中国国民党的统治。",
+          "en": "The Chinese Soviet Republic aimed to overthrow the rule of the Kuomintang."
+        }
+      }
+    },
+    {
+      "source": "中华苏维埃共和国",
+      "target": "日本",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1932-04-15",
+        "description": {
+          "zh-cn": "1932年4月15日，中华苏维埃共和国临时中央政府正式宣布对日作战。",
+          "en": "On April 15, 1932, the Provisional Central Government of the Chinese Soviet Republic officially declared war on Japan."
+        }
+      }
+    },
+    {
+      "source": "中华工农兵苏维埃第一次全国代表大会",
+      "target": "中华苏维埃共和国临时中央政府",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-11-07",
+        "description": {
+          "zh-cn": "中华苏维埃共和国临时中央政府在中华工农兵苏维埃第一次全国代表大会上宣告成立。",
+          "en": "The Provisional Central Government of the Chinese Soviet Republic was proclaimed at the First National Congress of Chinese Workers, Peasants and Soldiers Soviets."
+        }
+      }
+    },
+    {
+      "source": "中华工农兵苏维埃第一次全国代表大会",
+      "target": "中华苏维埃共和国宪法大纲",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-11",
+        "description": {
+          "zh-cn": "《中华苏维埃共和国宪法大纲》在中华工农兵苏维埃第一次全国代表大会上获得通过。",
+          "en": "The Outline of the Constitution of the Chinese Soviet Republic was adopted at the First National Congress of Chinese Workers, Peasants and Soldiers Soviets."
+        }
+      }
+    },
+    {
+      "source": "共赴国难宣言",
+      "target": "中华苏维埃共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1937-09-22",
+        "description": {
+          "zh-cn": "中共发表《共赴国难宣言》，宣告“取消现在的苏维埃政府”，导致中华苏维埃共和国灭亡。",
+          "en": "The CPC issued the 'Declaration of Jointly Facing National Difficulties,' announcing the 'abolition of the current Soviet government,' which led to the demise of the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中华苏维埃共和国中央执行委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931",
+        "end_date": "1937",
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "项英",
+      "target": "中华苏维埃共和国中央执行委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931",
+        "end_date": "1937",
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        }
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "中华苏维埃共和国中央执行委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931",
+        "end_date": "1937",
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "人民委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931",
+        "end_date": "1934",
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "张闻天",
+      "target": "人民委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1934",
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "朱德",
+      "target": "中华苏维埃中央革命军事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931",
+        "end_date": "1936",
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "中华苏维埃中央革命军事委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1936",
+        "end_date": "1937",
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "第一次国共内战",
+      "target": "长征",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1934-10",
+        "description": {
+          "zh-cn": "第五次反“围剿”战争的失败是红军进行长征的直接原因。",
+          "en": "The failure of the Fifth Encirclement Campaign was the direct cause for the Red Army to undertake the Long March."
+        }
+      }
+    },
+    {
+      "source": "三人团",
+      "target": "长征",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1934",
+        "description": {
+          "zh-cn": "由博古、李德和周恩来组成的“三人团”负责筹划了红军的战略转移（长征）。",
+          "en": "The 'Trio' consisting of Bo Gu, Otto Braun (Li De), and Zhou Enlai was responsible for planning the strategic retreat (Long March) of the Red Army."
+        }
+      }
+    },
+    {
+      "source": "秦邦宪",
+      "target": "三人团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1934"
+      }
+    },
+    {
+      "source": "李德 (1900年)",
+      "target": "三人团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1934"
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "三人团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1934"
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "中华苏维埃共和国",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1936-12",
+        "description": {
+          "zh-cn": "西安事变后，中华民国与中华苏维埃共和国停战，为后续国共合作抗日奠定了基础。",
+          "en": "After the Xi'an Incident, the Republic of China and the Chinese Soviet Republic ceased hostilities, laying the foundation for the subsequent KMT-CPC cooperation against Japan."
+        }
+      }
+    },
+    {
+      "source": "陕甘宁边区政府",
+      "target": "国民政府行政院",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1937-09-06",
+        "description": {
+          "zh-cn": "中华苏维埃共和国中央政府西北办事处改制为陕甘宁边区政府后，成为隶属于国民政府行政院直辖行政区域下的一个特别行政区政府。",
+          "en": "After the Northwest Office of the Central Government of the Chinese Soviet Republic was reorganized into the Shaanxi-Gansu-Ningxia Border Region Government, it became a special administrative region government directly under the Executive Yuan of the Nationalist Government."
+        }
+      }
+    },
+    {
+      "source": "中华苏维埃共和国",
+      "target": "中华共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1933-11-27",
+        "description": {
+          "zh-cn": "中华苏维埃共和国与中华共和国签订了《闽西边界及交通条约具体规定》，确定了双方边界、交通和贸易等事项。",
+          "en": "The Chinese Soviet Republic and the Chinese Republic signed the 'Specific Provisions of the Minxi Border and Transportation Treaty,' which defined their borders, transportation, and trade matters."
+        }
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "中华苏维埃共和国西北联邦",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1935-05-30",
+        "description": {
+          "zh-cn": "张国焘在长征途中另立中央，成立了中华苏维埃共和国西北联邦。",
+          "en": "During the Long March, Zhang Guotao established a separate central committee and founded the Northwest Federation of the Chinese Soviet Republic."
+        }
+      }
+    },
+    {
+      "source": "张国焘",
+      "target": "毛泽东",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1935-10-05",
+        "description": {
+          "zh-cn": "张国焘在分裂期间，决议开除毛泽东等人的党籍。",
+          "en": "During the split, Zhang Guotao resolved to expel Mao Zedong and others from the party."
+        }
+      }
+    },
+    {
+      "source": "刘少奇",
+      "target": "中华苏维埃共和国劳动法",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1933-10",
+        "description": {
+          "zh-cn": "刘少奇认为《劳动法》存在左倾错误，提出了灵活执行的措施，促使其在1933年10月进行了修改。",
+          "en": "Liu Shaoqi believed the 'Labor Law' had left-leaning errors and proposed flexible implementation measures, which led to its amendment in October 1933."
+        }
+      }
+    },
+    {
+      "source": "毛泽民",
+      "target": "中华苏维埃共和国国家银行",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1932-02-01",
+        "position": {
+          "zh-cn": "行长",
+          "en": "President"
+        }
+      }
+    }
+  ]
+}

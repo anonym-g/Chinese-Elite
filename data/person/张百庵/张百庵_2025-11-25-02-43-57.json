@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": "张百庵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张百庵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1908 - 1993",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": {
+          "zh-cn": "永济",
+          "en": "Yongji"
+        },
+        "death_place": {},
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任青海师范学院副院长，青海省政协副主席。",
+          "en": "A politician of the People's Republic of China, who served as Vice President of Qinghai Normal College and Vice Chairman of the Qinghai Provincial Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "永济",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "永济"
+        ],
+        "en": [
+          "Yongji"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {
+          "zh-cn": "山西",
+          "en": "Shanxi"
+        },
+        "description": {
+          "zh-cn": "山西省下辖的县级市，是张百庵的出生地。",
+          "en": "A county-level city in Shanxi Province, and the birthplace of Zhang Bai'an."
+        }
+      }
+    },
+    {
+      "id": "青海师范学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "青海师范学院"
+        ],
+        "en": [
+          "Qinghai Normal College"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {
+          "zh-cn": "青海",
+          "en": "Qinghai"
+        },
+        "description": {
+          "zh-cn": "位于中国青海省的一所师范类高等院校。",
+          "en": "A normal university located in Qinghai Province, China."
+        }
+      }
+    },
+    {
+      "id": "青海省政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "青海省政协",
+          "中国人民政治协商会议青海省委员会"
+        ],
+        "en": [
+          "Qinghai Provincial Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {
+          "zh-cn": "青海",
+          "en": "Qinghai"
+        },
+        "description": {
+          "zh-cn": "中国人民政治协商会议在青海省的地方组织。",
+          "en": "The local organization of the Chinese People's Political Consultative Conference in Qinghai Province."
+        }
+      }
+    },
+    {
+      "id": "国立北京大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国立北京大学"
+        ],
+        "en": [
+          "National Peking University"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "北京大学在中华民国时期的名称，是中国近代第一所国立综合性大学。",
+          "en": "The name of Peking University during the Republic of China period, it was the first national comprehensive university in modern China."
+        }
+      }
+    },
+    {
+      "id": "中国民主同盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主同盟"
+        ],
+        "en": [
+          "China Democratic League"
+        ]
+      },
+      "properties": {
+        "period": "1941-03-19 - ",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国现有的八个民主党派之一，简称“民盟”。",
+          "en": "One of the eight existing democratic parties in the People's Republic of China, abbreviated as 'CDL'."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1921-07-23 - ",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张百庵",
+      "target": "永济",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1908",
+        "end_date": null,
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "张百庵出生于山西永济。",
+          "en": "Zhang Bai'an was born in Yongji, Shanxi."
+        }
+      }
+    },
+    {
+      "source": "张百庵",
+      "target": "青海师范学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "副院长",
+          "en": "Vice President"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "张百庵曾任青海师范学院副院长。",
+          "en": "Zhang Bai'an served as Vice President of Qinghai Normal College."
+        }
+      }
+    },
+    {
+      "source": "张百庵",
+      "target": "青海省政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "张百庵曾任青海省政协副主席。",
+          "en": "Zhang Bai'an served as Vice Chairman of the Qinghai Provincial Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "source": "张百庵",
+      "target": "国立北京大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "张百庵是国立北京大学的校友。",
+          "en": "Zhang Bai'an is an alumnus of National Peking University."
+        }
+      }
+    },
+    {
+      "source": "张百庵",
+      "target": "中国民主同盟",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "盟员",
+          "en": "Member"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "张百庵是中国民主同盟的盟员。",
+          "en": "Zhang Bai'an was a member of the China Democratic League."
+        }
+      }
+    },
+    {
+      "source": "张百庵",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "张百庵是中国共产党的党员。",
+          "en": "Zhang Bai'an was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "nodes": [
+    {
+      "id": "波兰战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "波兰战役",
+          "德波战争",
+          "1939年保卫战",
+          "1939年九月战役",
+          "白色方案"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1939-09-01 - 1939-10-06",
+        "description": {
+          "zh-cn": "德国、斯洛伐克与苏联军队于1939年9月入侵波兰的行动，被普遍认为是第二次世界大战的开始。",
+          "en": "The invasion of Poland by Germany, Slovakia, and the Soviet Union in September 1939, widely considered the beginning of World War II."
+        }
+      }
+    },
+    {
+      "id": "纳粹德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国",
+          "德国"
+        ],
+        "en": [
+          "Nazi Germany"
+        ]
+      },
+      "properties": {
+        "period": "1933 - 1945",
+        "description": {
+          "zh-cn": "1933年至1945年期间由阿道夫·希特勒和纳粹党统治的德国，是发动波兰战役的主要国家。",
+          "en": "Germany under the rule of Adolf Hitler and the Nazi Party from 1933 to 1945, the main country that initiated the Invasion of Poland."
+        }
+      }
+    },
+    {
+      "id": "斯洛伐克共和国 (1939年－1945年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "斯洛伐克共和国 (1939年－1945年)",
+          "斯洛伐克"
+        ],
+        "en": [
+          "Slovak Republic (1939–1945)"
+        ]
+      },
+      "properties": {
+        "period": "1939 - 1945",
+        "description": {
+          "zh-cn": "纳粹德国的傀儡国，作为轴心国成员参与了对波兰的入侵。",
+          "en": "A client state of Nazi Germany that participated in the invasion of Poland as a member of the Axis powers."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "苏维埃社会主义共和国联盟，根据《德苏互不侵犯条约》的秘密协议，于1939年9月17日从东面入侵波兰。",
+          "en": "The Union of Soviet Socialist Republics, which invaded Poland from the east on September 17, 1939, according to the secret protocol of the Molotov–Ribbentrop Pact."
+        }
+      }
+    },
+    {
+      "id": "波兰第二共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "波兰第二共和国",
+          "波兰"
+        ],
+        "en": [
+          "Second Polish Republic"
+        ]
+      },
+      "properties": {
+        "period": "1918 - 1939",
+        "description": {
+          "zh-cn": "1918年至1939年期间的波兰共和国，是波兰战役中的主要防御方。",
+          "en": "The Republic of Poland between 1918 and 1939, the main defending side in the Invasion of Poland."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939-09-01 - 1945-09-02",
+        "description": {
+          "zh-cn": "一场全球性的军事冲突，波兰战役被普遍认为是其开端。",
+          "en": "A global military conflict, the beginning of which is generally considered to be the Invasion of Poland."
+        }
+      }
+    },
+    {
+      "id": "德苏互不侵犯条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "德苏互不侵犯条约",
+          "莫洛托夫-里宾特洛甫条约"
+        ],
+        "en": [
+          "Molotov–Ribbentrop Pact"
+        ]
+      },
+      "properties": {
+        "period": "1939-08-23",
+        "description": {
+          "zh-cn": "德国与苏联签订的互不侵犯条约，其秘密议定书内容包括瓜分东欧（含波兰），为两国入侵波兰的行动铺平了道路。",
+          "en": "A non-aggression pact signed between Germany and the Soviet Union, whose secret protocol included the division of Eastern Europe (including Poland), paving the way for the invasion by both countries."
+        }
+      }
+    },
+    {
+      "id": "阿道夫·希特勒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿道夫·希特勒",
+          "希特勒"
+        ],
+        "en": [
+          "Adolf Hitler"
+        ]
+      },
+      "properties": {
+        "lifetime": "1889-04-20 - 1945-04-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "纳粹德国的元首，下令策划并批准了入侵波兰的《白色方案》。",
+          "en": "The Führer of Nazi Germany, who ordered the planning and approved 'Case White', the invasion of Poland."
+        }
+      }
+    },
+    {
+      "id": "约瑟夫·斯大林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约瑟夫·斯大林",
+          "史达林"
+        ],
+        "en": [
+          "Joseph Stalin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1878-12-18 - 1953-03-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联最高领导人，依据《德苏互不侵犯条约》批准了入侵波兰的行动。",
+          "en": "The paramount leader of the Soviet Union, who approved the invasion of Poland in accordance with the Molotov–Ribbentrop Pact."
+        }
+      }
+    },
+    {
+      "id": "苏联入侵波兰",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "苏联入侵波兰"
+        ],
+        "en": [
+          "Soviet invasion of Poland"
+        ]
+      },
+      "properties": {
+        "period": "1939-09-17",
+        "description": {
+          "zh-cn": "苏联根据《德苏互不侵犯条约》的秘密协议，从东面入侵波兰，对波兰的最终战败起到了决定性作用。",
+          "en": "The Soviet Union's invasion of Poland from the east, based on the secret protocol of the Molotov-Ribbentrop Pact, which played a decisive role in Poland's final defeat."
+        }
+      }
+    },
+    {
+      "id": "假战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "假战",
+          "静坐战"
+        ],
+        "en": [
+          "Phoney War"
+        ]
+      },
+      "properties": {
+        "period": "1939-09 - 1940-05",
+        "description": {
+          "zh-cn": "英法对德宣战后，在西线并未发动大规模军事进攻的时期。这导致波兰未能获得其盟友有效的军事援助，被迫独自抵抗德苏两国的入侵。",
+          "en": "The period after Britain and France declared war on Germany, during which no major military offensives were launched on the Western Front. This resulted in Poland not receiving effective military assistance from its allies, forcing it to resist the invasions from Germany and the Soviet Union alone."
+        }
+      }
+    },
+    {
+      "id": "布楚拉战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "布楚拉战役"
+        ],
+        "en": [
+          "Battle of the Bzura"
+        ]
+      },
+      "properties": {
+        "period": "1939-09-09 - 1939-09-21",
+        "description": {
+          "zh-cn": "波兰军队在战役中发动的唯一一次大规模反击，由塔德乌斯·库特雷兹巴指挥。尽管初期取得成功，但最终被德军包围歼灭，导致波军主力毁灭。",
+          "en": "The only major counter-offensive launched by the Polish army during the campaign, commanded by Tadeusz Kutrzeba. Despite initial success, it was eventually encircled and annihilated by German forces, leading to the destruction of the main Polish forces."
+        }
+      }
+    },
+    {
+      "id": "凡尔赛条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "凡尔赛条约"
+        ],
+        "en": [
+          "Treaty of Versailles"
+        ]
+      },
+      "properties": {
+        "period": "1919-06-28",
+        "description": {
+          "zh-cn": "第一次世界大战后的和平条约，其对德国的领土划分（如设立波兰走廊和但泽自由市）成为德波关系紧张和战争爆发的背景原因之一。",
+          "en": "The peace treaty after World War I, whose territorial provisions regarding Germany (such as the creation of the Polish Corridor and the Free City of Danzig) became one of the background causes for the tense German-Polish relations and the outbreak of the war."
+        }
+      }
+    },
+    {
+      "id": "瓦尔特·冯·布劳齐区",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "瓦尔特·冯·布劳齐区",
+          "瓦尔特·冯·布劳希奇"
+        ],
+        "en": [
+          "Walther von Brauchitsch"
+        ]
+      },
+      "properties": {
+        "lifetime": "1881-10-04 - 1948-10-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国陆军总司令，作为作战总指挥官负责指挥入侵波兰的军事行动。",
+          "en": "Commander-in-Chief of the German Army, who was responsible for commanding the military operations during the invasion of Poland."
+        }
+      }
+    },
+    {
+      "id": "格尔德·冯·伦德施泰特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "格尔德·冯·伦德施泰特",
+          "伦德施泰特",
+          "格特·冯·伦德斯特"
+        ],
+        "en": [
+          "Gerd von Rundstedt"
+        ]
+      },
+      "properties": {
+        "lifetime": "1875-12-12 - 1953-02-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国南方集团军司令，在波兰战役中担任主攻任务。",
+          "en": "Commander of the German Army Group South, which served as the main attack force during the Invasion of Poland."
+        }
+      }
+    },
+    {
+      "id": "费多尔·冯·博克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "费多尔·冯·博克",
+          "费多尔·冯·波克",
+          "波克"
+        ],
+        "en": [
+          "Fedor von Bock"
+        ]
+      },
+      "properties": {
+        "lifetime": "1880-12-03 - 1945-05-04",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国北方集团军司令，在波兰战役中担任助攻任务。",
+          "en": "Commander of the German Army Group North, which served as the supporting attack force during the Invasion of Poland."
+        }
+      }
+    },
+    {
+      "id": "爱德华·雷兹-希米格维",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "爱德华·雷兹-希米格维",
+          "雷兹-希米格维",
+          "雷兹"
+        ],
+        "en": [
+          "Edward Rydz-Śmigły"
+        ]
+      },
+      "properties": {
+        "lifetime": "1886-03-11 - 1941-12-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "波兰元帅，在波兰战役期间担任波兰军队总司令。",
+          "en": "Marshal of Poland and Commander-in-Chief of the Polish Armed Forces during the Invasion of Poland."
+        }
+      }
+    },
+    {
+      "id": "塔德乌斯·库特雷兹巴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "塔德乌斯·库特雷兹巴",
+          "库特雷兹巴"
+        ],
+        "en": [
+          "Tadeusz Kutrzeba"
+        ]
+      },
+      "properties": {
+        "lifetime": "1885-04-15 - 1947-01-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "波兰将军，时任波兹南军团司令，指挥了布楚拉战役中的波军反击。",
+          "en": "A Polish general, then commander of the Poznań Army, who commanded the Polish counter-attack in the Battle of the Bzura."
+        }
+      }
+    },
+    {
+      "id": "埃里希·冯·曼施坦因",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "埃里希·冯·曼施坦因",
+          "曼斯坦"
+        ],
+        "en": [
+          "Erich von Manstein"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-11-24 - 1973-06-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任德国南方集团军参谋长，参与了《白色方案》的策划，并在布楚拉战役期间与伦德施泰特共同制定了应对策略。",
+          "en": "Chief of Staff of the German Army Group South at the time, involved in the planning of 'Case White' and co-developed the response strategy with von Rundstedt during the Battle of the Bzura."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "向波兰提供安全保证，并在德国入侵后对德宣战，但未采取足以改变战局的大规模军事行动。",
+          "en": "Provided a security guarantee to Poland and declared war on Germany after the invasion, but did not take large-scale military action sufficient to alter the course of the battle."
+        }
+      }
+    },
+    {
+      "id": "法兰西第三共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第三共和国",
+          "法国"
+        ],
+        "en": [
+          "French Third Republic"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "波兰的盟国，在德国入侵后对德宣战，但仅发动了象征性的萨尔攻势，未能提供有效援助。",
+          "en": "An ally of Poland that declared war on Germany after the invasion but only launched the symbolic Saar Offensive, failing to provide effective assistance."
+        }
+      }
+    },
+    {
+      "id": "约阿希姆·冯·里宾特洛甫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约阿希姆·冯·里宾特洛甫",
+          "里宾特洛甫"
+        ],
+        "en": [
+          "Joachim von Ribbentrop"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-04-30 - 1946-10-16",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "纳粹德国外交部长，代表德国与苏联签署了《德苏互不侵犯条约》。",
+          "en": "Minister for Foreign Affairs of Nazi Germany, who signed the Molotov–Ribbentrop Pact on behalf of Germany."
+        }
+      }
+    },
+    {
+      "id": "维亚切斯拉夫·米哈伊洛维奇·莫洛托夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "维亚切斯拉夫·米哈伊洛维奇·莫洛托夫",
+          "米哈伊洛维奇·莫洛托夫"
+        ],
+        "en": [
+          "Vyacheslav Molotov"
+        ]
+      },
+      "properties": {
+        "lifetime": "1890-03-09 - 1986-11-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "苏联外交部长，代表苏联与德国签署了《德苏互不侵犯条约》。",
+          "en": "Minister of Foreign Affairs of the Soviet Union, who signed the Molotov–Ribbentrop Pact on behalf of the Soviet Union."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "德苏互不侵犯条约",
+      "target": "波兰战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1939-08-23",
+        "description": {
+          "zh-cn": "《德苏互不侵犯条约》中的秘密协定瓜分了波兰，为德国和苏联的入侵行动消除了障碍并提供了合作基础。",
+          "en": "The secret protocol of the Molotov-Ribbentrop Pact, which partitioned Poland, removed obstacles and provided a basis for cooperation for the German and Soviet invasions."
+        }
+      }
+    },
+    {
+      "source": "阿道夫·希特勒",
+      "target": "波兰战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1939-04-03",
+        "description": {
+          "zh-cn": "作为纳粹德国元首，阿道夫·希特勒于1939年4月3日批准了入侵波兰的军事计划《白色方案》，并最终下令执行。",
+          "en": "As Führer of Nazi Germany, Adolf Hitler approved the military plan 'Case White' for the invasion of Poland on April 3, 1939, and ultimately ordered its execution."
+        }
+      }
+    },
+    {
+      "source": "纳粹德国",
+      "target": "波兰战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1939-09-01",
+        "description": {
+          "zh-cn": "纳粹德国是发动波兰战役的主要侵略国，于1939年9月1日从西、南、北三面发起攻击。",
+          "en": "Nazi Germany was the main aggressor nation that launched the Invasion of Poland, attacking from the west, south, and north on September 1, 1939."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "波兰战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1939-09-17",
+        "description": {
+          "zh-cn": "苏联作为参与国，于1939年9月17日从东面入侵波兰，开辟了第二战场，加速了波兰的战败。",
+          "en": "The Soviet Union, as a participating nation, invaded Poland from the east on September 17, 1939, opening a second front and accelerating Poland's defeat."
+        }
+      }
+    },
+    {
+      "source": "波兰战役",
+      "target": "第二次世界大战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1939-09-01",
+        "description": {
+          "zh-cn": "德国入侵波兰被普遍认为是第二次世界大战在欧洲战场的开端。",
+          "en": "The German invasion of Poland is widely considered the beginning of World War II in the European theatre."
+        }
+      }
+    },
+    {
+      "source": "纳粹德国",
+      "target": "波兰第二共和国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1939-09-01",
+        "end_date": "1939-10-06",
+        "description": {
+          "zh-cn": "在波兰战役期间，纳粹德国与波兰第二共和国是主要交战方。",
+          "en": "During the Invasion of Poland, Nazi Germany and the Second Polish Republic were the main belligerents."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "波兰第二共和国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1939-09-17",
+        "end_date": "1939-10-06",
+        "description": {
+          "zh-cn": "在波兰战役期间，苏联入侵并与波兰第二共和国交战。",
+          "en": "During the Invasion of Poland, the Soviet Union invaded and engaged in combat with the Second Polish Republic."
+        }
+      }
+    },
+    {
+      "source": "苏联入侵波兰",
+      "target": "波兰第二共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1939-09-17",
+        "description": {
+          "zh-cn": "苏联从东面入侵，使波兰在东部腹地重组防线的最后希望破灭，对其最终战败起到了决定性作用。",
+          "en": "The Soviet invasion from the east shattered Poland's last hope of reorganizing its defense in the eastern heartland, playing a decisive role in its final defeat."
+        }
+      }
+    },
+    {
+      "source": "假战",
+      "target": "波兰第二共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1939-09-03",
+        "description": {
+          "zh-cn": "英法宣战后在西线按兵不动，导致波兰未能获得其盟友有效的军事援助，被迫独自抵抗。",
+          "en": "After declaring war, Britain and France remained inactive on the Western Front, which meant Poland did not receive effective military assistance from its allies and was forced to resist alone."
+        }
+      }
+    },
+    {
+      "source": "布楚拉战役",
+      "target": "波兰第二共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1939-09-21",
+        "description": {
+          "zh-cn": "波军在布楚拉战役中的反击失败，其主力部队被德军包围歼灭，严重削弱了波兰的抵抗能力。",
+          "en": "The failure of the Polish counter-attack in the Battle of the Bzura led to the encirclement and annihilation of its main forces by the German army, severely weakening Poland's ability to resist."
+        }
+      }
+    },
+    {
+      "source": "瓦尔特·冯·布劳齐区",
+      "target": "阿道夫·希特勒",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "陆军总司令",
+          "en": "Commander-in-Chief of the Army"
+        },
+        "description": {
+          "zh-cn": "瓦尔特·冯·布劳齐区作为德国陆军总司令，向作为国家元首和武装部队最高统帅的希特勒负责。",
+          "en": "As Commander-in-Chief of the German Army, Walther von Brauchitsch was responsible to Hitler, the head of state and supreme commander of the armed forces."
+        }
+      }
+    },
+    {
+      "source": "格尔德·冯·伦德施泰特",
+      "target": "瓦尔特·冯·布劳齐区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "南方集团军司令",
+          "en": "Commander of Army Group South"
+        },
+        "description": {
+          "zh-cn": "在波兰战役的指挥链中，南方集团军司令伦德施泰特隶属于陆军总司令布劳齐区。",
+          "en": "In the chain of command for the Invasion of Poland, Gerd von Rundstedt, as commander of Army Group South, was subordinate to the Army Commander-in-Chief Walther von Brauchitsch."
+        }
+      }
+    },
+    {
+      "source": "费多尔·冯·博克",
+      "target": "瓦尔特·冯·布劳齐区",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "北方集团军司令",
+          "en": "Commander of Army Group North"
+        },
+        "description": {
+          "zh-cn": "在波兰战役的指挥链中，北方集团军司令冯·博克隶属于陆军总司令布劳齐区。",
+          "en": "In the chain of command for the Invasion of Poland, Fedor von Bock, as commander of Army Group North, was subordinate to the Army Commander-in-Chief Walther von Brauchitsch."
+        }
+      }
+    },
+    {
+      "source": "埃里希·冯·曼施坦因",
+      "target": "格尔德·冯·伦德施泰特",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "南方集团军参谋长",
+          "en": "Chief of Staff of Army Group South"
+        },
+        "description": {
+          "zh-cn": "埃里希·冯·曼施坦因在波兰战役期间担任南方集团军司令伦德施泰特的参谋长。",
+          "en": "During the Invasion of Poland, Erich von Manstein served as Chief of Staff to Gerd von Rundstedt, the commander of Army Group South."
+        }
+      }
+    },
+    {
+      "source": "塔德乌斯·库特雷兹巴",
+      "target": "布楚拉战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1939-09-09",
+        "description": {
+          "zh-cn": "作为波兹南军团司令，塔德乌斯·库特雷兹巴策划并指挥了波军在布楚拉河发动的反击攻势。",
+          "en": "As commander of the Poznań Army, Tadeusz Kutrzeba planned and commanded the Polish counter-offensive launched at the Bzura River."
+        }
+      }
+    },
+    {
+      "source": "凡尔赛条约",
+      "target": "波兰战役",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《凡尔赛条约》对德国领土的处置，特别是设立波兰走廊和但泽自由市，加剧了德波矛盾，成为德国发动战争的借口和背景原因之一。",
+          "en": "The territorial settlements of the Treaty of Versailles regarding Germany, particularly the creation of the Polish Corridor and the Free City of Danzig, exacerbated German-Polish tensions and served as a pretext and background cause for Germany to launch the war."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "波兰第二共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1939-03-31",
+        "description": {
+          "zh-cn": "英国于1939年3月31日向波兰提供安全保证，维护其领土完整，并于4月签署了《英波安全保证条约》，形成军事同盟关系。",
+          "en": "The United Kingdom provided a security guarantee to Poland on March 31, 1939, to defend its territorial integrity, and signed the Anglo-Polish military alliance in April, forming a military alliance."
+        }
+      }
+    },
+    {
+      "source": "法兰西第三共和国",
+      "target": "波兰第二共和国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1921",
+        "description": {
+          "zh-cn": "法国是波兰的传统盟国，两国自1921年起便有同盟条约，并在1939年5月重申了军事互助承诺。",
+          "en": "France was a traditional ally of Poland, with the two countries having a treaty of alliance since 1921 and reaffirming their mutual military assistance commitments in May 1939."
+        }
+      }
+    },
+    {
+      "source": "约阿希姆·冯·里宾特洛甫",
+      "target": "维亚切斯拉夫·米哈伊洛维奇·莫洛托夫",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1939-08-23",
+        "description": {
+          "zh-cn": "1939年8月23日，德国外长里宾特洛甫与苏联外长莫洛托夫在莫斯科会面并共同签署了《德苏互不侵犯条约》。",
+          "en": "On August 23, 1939, German Foreign Minister Ribbentrop and Soviet Foreign Minister Molotov met in Moscow and jointly signed the German-Soviet Non-Aggression Pact."
+        }
+      }
+    }
+  ]
+}

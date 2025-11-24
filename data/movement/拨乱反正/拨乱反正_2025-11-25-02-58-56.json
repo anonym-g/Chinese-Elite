@@ -1,0 +1,932 @@
+{
+  "nodes": [
+    {
+      "id": "拨乱反正",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "拨乱反正"
+        ],
+        "en": [
+          "Boluan Fanzheng"
+        ]
+      },
+      "properties": {
+        "period": "1977 - 1980s",
+        "description": {
+          "zh-cn": "指文化大革命结束后，由邓小平等人主导的，为纠正文革错误、平反冤假错案、使国内局势趋于稳定而进行的一系列社会改革，为改革开放奠定了基础。",
+          "en": "Refers to a series of social reforms led by Deng Xiaoping and others after the Cultural Revolution to correct its mistakes, rehabilitate victims of wrongful cases, and stabilize the country, laying the foundation for the Reform and Opening Up."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1966-05 - 1976-10",
+        "description": {
+          "zh-cn": "由毛泽东发动和领导的一场政治运动，对中国的政治、经济、文化、社会造成了严重破坏和巨大损失。",
+          "en": "A political movement initiated and led by Mao Zedong, which caused severe damage and immense losses to China's politics, economy, culture, and society."
+        }
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": [
+          "Deng Xiaoping"
+        ]
+      },
+      "properties": {
+        "lifetime": "1904-08-22 - 1997-02-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党第二代中央领导集体的核心人物，拨乱反正和改革开放的总设计师。他在文革后取代华国锋成为中国的实际最高领导人。",
+          "en": "The core figure of the second generation of central leadership of the Chinese Communist Party and the chief architect of Boluan Fanzheng and the Reform and Opening Up. He replaced Hua Guofeng to become the paramount leader of China after the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "改革开放",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "改革开放"
+        ],
+        "en": [
+          "Reform and Opening Up"
+        ]
+      },
+      "properties": {
+        "period": "1978-12 - ",
+        "description": {
+          "zh-cn": "始于1978年中共十一届三中全会的一项重大国策，旨在对内改革经济和政治体制，对外实行开放政策。",
+          "en": "A major national policy that began at the Third Plenary Session of the 11th Central Committee of the CCP in 1978, aimed at reforming the economic and political systems domestically and implementing an opening-up policy internationally."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党、中华人民共和国的主要缔造者。他发动并领导了文化大革命，晚年错误被认为是拨乱反正需要纠正的主要问题。",
+          "en": "The main founder of the Chinese Communist Party and the People's Republic of China. He initiated and led the Cultural Revolution, and his mistakes in his later years are considered the main issues to be corrected during the Boluan Fanzheng period."
+        }
+      }
+    },
+    {
+      "id": "粉碎四人帮",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "粉碎四人帮"
+        ],
+        "en": [
+          "Smashing of the Gang of Four"
+        ]
+      },
+      "properties": {
+        "period": "1976-10-06",
+        "description": {
+          "zh-cn": "1976年10月6日，华国锋、叶剑英、汪东兴等人采取行动，逮捕了江青、张春桥等“四人帮”成员，此事件标志着文化大革命的结束。",
+          "en": "On October 6, 1976, Hua Guofeng, Ye Jianying, Wang Dongxing, and others took action to arrest members of the \"Gang of Four,\" including Jiang Qing and Zhang Chunqiao. This event marked the end of the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "华国锋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "华国锋"
+        ],
+        "en": [
+          "Hua Guofeng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1921-02-16 - 2008-08-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "毛泽东逝世后的中国最高领导人，曾任中共中央主席。他领导了粉碎四人帮的行动，但因坚持“两个凡是”方针而在之后的权力斗争中被邓小平取代。",
+          "en": "The paramount leader of China after Mao Zedong's death, who served as Chairman of the CCP Central Committee. He led the action to smash the Gang of Four but was later replaced by Deng Xiaoping in a power struggle due to his adherence to the \"Two Whatevers\" policy."
+        }
+      }
+    },
+    {
+      "id": "两个凡是",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "两个凡是"
+        ],
+        "en": [
+          "Two Whatevers"
+        ]
+      },
+      "properties": {
+        "period": "1977 - 1978",
+        "description": {
+          "zh-cn": "指“凡是毛主席作出的决策，我们都坚决维护；凡是毛主席的指示，我们都始终不渝地遵循”。这是华国锋在文革后延续毛泽东时代路线的指导方针，后在真理标准大讨论中受到批判。",
+          "en": "Refers to \"We will resolutely uphold whatever policy decisions Chairman Mao made, and we will unswervingly follow whatever instructions Chairman Mao gave.\" This was Hua Guofeng's guiding principle to continue Mao's line after the Cultural Revolution, which was later criticized during the Great Discussion on the Criterion of Truth."
+        }
+      }
+    },
+    {
+      "id": "胡耀邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡耀邦"
+        ],
+        "en": [
+          "Hu Yaobang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1915-11-20 - 1989-04-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "曾任中共中央主席和中共中央总书记，是邓小平在拨乱反正时期的重要政治盟友，积极推动了真理标准大讨论和平反冤假错案的工作。",
+          "en": "Former Chairman and General Secretary of the CCP Central Committee, an important political ally of Deng Xiaoping during the Boluan Fanzheng period. He actively promoted the Great Discussion on the Criterion of Truth and the rehabilitation of victims of wrongful cases."
+        }
+      }
+    },
+    {
+      "id": "真理标准大讨论",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "真理标准大讨论"
+        ],
+        "en": [
+          "Great Discussion on the Criterion of Truth"
+        ]
+      },
+      "properties": {
+        "period": "1978-05 - ",
+        "description": {
+          "zh-cn": "一场由邓小平、胡耀邦等人推动的思想解放运动，旨在批判“两个凡是”，提倡“实践是检验真理的唯一标准”，为中共十一届三中全会的召开和拨乱反正的全面展开奠定了思想基础。",
+          "en": "An ideological emancipation movement promoted by Deng Xiaoping, Hu Yaobang, and others, aimed at criticizing the \"Two Whatevers\" and advocating that \"practice is the sole criterion for testing truth.\" It laid the ideological foundation for the Third Plenary Session of the 11th CCP Central Committee and the full implementation of Boluan Fanzheng."
+        }
+      }
+    },
+    {
+      "id": "中国共产党第十一届中央委员会第三次全体会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十一届中央委员会第三次全体会议",
+          "中共十一届三中全会"
+        ],
+        "en": [
+          "Third Plenary Session of the 11th Central Committee of the Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "period": "1978-12-18 - 1978-12-22",
+        "description": {
+          "zh-cn": "中国共产党历史上具有深远意义的转折点。会议上，邓小平取代华国锋成为中国的实际最高领导人，会议否定了“以阶级斗争为纲”的路线，确立了“以经济建设为中心”的指导方针，开启了改革开放。",
+          "en": "A turning point of profound significance in the history of the Chinese Communist Party. At the meeting, Deng Xiaoping replaced Hua Guofeng as the paramount leader of China. The session negated the line of \"taking class struggle as the key link,\" established the guiding principle of \"focusing on economic construction,\" and initiated the Reform and Opening Up."
+        }
+      }
+    },
+    {
+      "id": "刘少奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘少奇"
+        ],
+        "en": [
+          "Liu Shaoqi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-11-24 - 1969-11-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前中华人民共和国主席，在文化大革命期间被视为“走资派”并被迫害致死。拨乱反正时期，中共中央为其全面平反并恢复名誉。",
+          "en": "Former President of the People's Republic of China, who was deemed a \"capitalist roader\" and persecuted to death during the Cultural Revolution. During the Boluan Fanzheng period, the CCP Central Committee fully rehabilitated him and restored his reputation."
+        }
+      }
+    },
+    {
+      "id": "彭德怀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭德怀"
+        ],
+        "en": [
+          "Peng Dehuai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-10-24 - 1974-11-29",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国元帅，在文化大革命期间遭到残酷迫害致死。1978年12月，中共中央为其平反并恢复名誉。",
+          "en": "Marshal of the People's Republic of China, who was brutally persecuted to death during the Cultural Revolution. In December 1978, the CCP Central Committee rehabilitated him and restored his reputation."
+        }
+      }
+    },
+    {
+      "id": "陶铸",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陶铸"
+        ],
+        "en": [
+          "Tao Zhu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1908-01-16 - 1969-11-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和国家领导人之一，在文化大革命中被迫害致死。1978年12月，中共十一届三中全会为其平反。",
+          "en": "One of the leaders of the CCP and the state, who was persecuted to death during the Cultural Revolution. In December 1978, the Third Plenary Session of the 11th CCP Central Committee rehabilitated him."
+        }
+      }
+    },
+    {
+      "id": "关于建国以来党的若干历史问题的决议",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "关于建国以来党的若干历史问题的决议"
+        ],
+        "en": [
+          "Resolution on Certain Questions in the History of Our Party Since the Founding of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1981-06-27",
+        "description": {
+          "zh-cn": "由中共十一届六中全会通过的历史决议，全面否定了文化大革命，并对毛泽东的历史地位和毛泽东思想作出了评价。它的通过标志着中共在指导思想上的拨乱反正基本完成。",
+          "en": "A historical resolution passed by the Sixth Plenary Session of the 11th CCP Central Committee, which comprehensively negated the Cultural Revolution and evaluated the historical role of Mao Zedong and Mao Zedong Thought. Its adoption marked the basic completion of Boluan Fanzheng in the party's guiding ideology."
+        }
+      }
+    },
+    {
+      "id": "八二宪法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "八二宪法",
+          "中华人民共和国宪法"
+        ],
+        "en": [
+          "1982 Constitution of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1982-12-04",
+        "description": {
+          "zh-cn": "中华人民共和国的第四部宪法，在邓小平等人的主持下修订。该宪法突出了宪政主义精神，删除了文革语言，并对国家领导人任期作出了限制，为改革开放奠定了法制基础。",
+          "en": "The fourth constitution of the People's Republic of China, revised under the leadership of Deng Xiaoping and others. This constitution emphasized the spirit of constitutionalism, removed Cultural Revolution-era language, imposed term limits on state leaders, and laid the legal foundation for the Reform and Opening Up."
+        }
+      }
+    },
+    {
+      "id": "普通高等学校招生全国统一考试",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "普通高等学校招生全国统一考试",
+          "高考"
+        ],
+        "en": [
+          "National College Entrance Examination",
+          "Gaokao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的大学入学考试制度。该制度在文化大革命期间中断了十年，于1977年在邓小平的决策下恢复。",
+          "en": "The university entrance examination system in China. The system was suspended for ten years during the Cultural Revolution and was restored in 1977 under a decision by Deng Xiaoping."
+        }
+      }
+    },
+    {
+      "id": "知识分子",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "知识分子"
+        ],
+        "en": [
+          "Intellectuals"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在文化大革命期间被视为“反动学术权威”和“臭老九”，受到广泛批判和迫害。拨乱反正时期，邓小平为其恢复名誉，并称其为“工人阶级自己的一部分”。",
+          "en": "During the Cultural Revolution, they were regarded as \"reactionary academic authorities\" and the \"Stinking Ninth Category,\" and were widely criticized and persecuted. During the Boluan Fanzheng period, Deng Xiaoping restored their reputation, calling them \"a part of the working class itself.\""
+        }
+      }
+    },
+    {
+      "id": "姚桐斌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "姚桐斌"
+        ],
+        "en": [
+          "Yao Tongbin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1922-09-03 - 1968-06-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "“两弹一星”元勋之一，在文化大革命期间被造反派毒打致死。拨乱反正时期获得平反，并被追认为烈士。",
+          "en": "One of the key contributors to the \"Two Bombs, One Satellite\" project, who was beaten to death by rebels during the Cultural Revolution. He was posthumously rehabilitated and recognized as a martyr during the Boluan Fanzheng period."
+        }
+      }
+    },
+    {
+      "id": "赵九章",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵九章"
+        ],
+        "en": [
+          "Zhao Jiuzhang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1907-10-15 - 1968-10-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "“两弹一星”元勋之一，在文化大革命期间遭迫害自杀身亡。拨乱反正时期获得平反。",
+          "en": "One of the key contributors to the \"Two Bombs, One Satellite\" project, who committed suicide after being persecuted during the Cultural Revolution. He was posthumously rehabilitated during the Boluan Fanzheng period."
+        }
+      }
+    },
+    {
+      "id": "四项基本原则",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "四项基本原则"
+        ],
+        "en": [
+          "Four Cardinal Principles"
+        ]
+      },
+      "properties": {
+        "period": "1979-03",
+        "description": {
+          "zh-cn": "由邓小平提出的政治原则，要求必须坚持社会主义道路、坚持无产阶级专政（后改为人民民主专政）、坚持中国共产党的领导、坚持马克思列宁主义毛泽东思想。后被写入《八二宪法》。",
+          "en": "Political principles proposed by Deng Xiaoping, requiring adherence to the socialist path, the dictatorship of the proletariat (later changed to the people's democratic dictatorship), the leadership of the Communist Party of China, and Marxism-Leninism-Mao Zedong Thought. They were later written into the 1982 Constitution."
+        }
+      }
+    },
+    {
+      "id": "林彪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林彪"
+        ],
+        "en": [
+          "Lin Biao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1907-12-05 - 1971-09-13",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国元帅，曾被定为毛泽东的接班人。后与毛泽东关系破裂，出逃时坠机身亡。《关于建国以来党的若干历史问题的决议》将文化大革命的责任部分归咎于其反革命集团。",
+          "en": "Marshal of the People's Republic of China, once designated as Mao Zedong's successor. His relationship with Mao later deteriorated, and he died in a plane crash while fleeing. The \"Resolution on Certain Questions in the History of Our Party\" attributed part of the responsibility for the Cultural Revolution to his counter-revolutionary clique."
+        }
+      }
+    },
+    {
+      "id": "四人帮",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四人帮"
+        ],
+        "en": [
+          "Gang of Four"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "指江青、张春桥、姚文元、王洪文四人在文化大革命期间所形成的政治集团。《关于建国以来党的若干历史问题的决议》将文化大革命的责任部分归咎于其反革命集团。",
+          "en": "Refers to the political clique formed by Jiang Qing, Zhang Chunqiao, Yao Wenyuan, and Wang Hongwen during the Cultural Revolution. The \"Resolution on Certain Questions in the History of Our Party\" attributed part of the responsibility for the Cultural Revolution to their counter-revolutionary clique."
+        }
+      }
+    },
+    {
+      "id": "批邓、反击右倾翻案风",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "批邓、反击右倾翻案风"
+        ],
+        "en": [
+          "Criticize Deng, Counter the Right-Deviationist Verdict-Reversing Wind"
+        ]
+      },
+      "properties": {
+        "period": "1975-11 - 1976-10",
+        "description": {
+          "zh-cn": "文化大革命末期由毛泽东、四人帮等人发动的政治运动，旨在批判邓小平在1975年整顿中的举措，并直接导致邓小平第三次下台。",
+          "en": "A political movement launched by Mao Zedong, the Gang of Four, and others in the late Cultural Revolution. It aimed to criticize Deng Xiaoping's actions during the 1975 rectification and directly led to his third downfall."
+        }
+      }
+    },
+    {
+      "id": "平反冤假错案",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "平反冤假错案"
+        ],
+        "en": [
+          "Reversing Unjust, False, and Wrongful Verdicts"
+        ]
+      },
+      "properties": {
+        "period": "1978 - 1982",
+        "description": {
+          "zh-cn": "拨乱反正时期的重要组成部分，指对文化大革命及此前历次政治运动中的冤案、假案、错案进行重新审查和纠正。全国有数百万案件获得平反。",
+          "en": "An important part of the Boluan Fanzheng period, referring to the re-examination and correction of unjust, false, and wrongful cases from the Cultural Revolution and previous political movements. Millions of cases were rehabilitated nationwide."
+        }
+      }
+    },
+    {
+      "id": "新启蒙运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "新启蒙运动",
+          "新启蒙"
+        ],
+        "en": [
+          "New Enlightenment"
+        ]
+      },
+      "properties": {
+        "period": "1980s",
+        "description": {
+          "zh-cn": "指1980年代在中国出现的一场思想解放运动，由真理标准大讨论促成，提倡民主、科学、人道主义和普世价值，被认为是继“五四运动”后的第二次启蒙。",
+          "en": "Refers to an ideological emancipation movement in China in the 1980s, spurred by the Great Discussion on the Criterion of Truth. It advocated for democracy, science, humanism, and universal values, and is considered the second enlightenment after the May Fourth Movement."
+        }
+      }
+    },
+    {
+      "id": "清除精神污染",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "清除精神污染"
+        ],
+        "en": [
+          "Anti-Spiritual Pollution Campaign"
+        ]
+      },
+      "properties": {
+        "period": "1983",
+        "description": {
+          "zh-cn": "1983年由中共左派保守势力发起的政治运动，旨在批判新启蒙运动中倡导的人道主义和自由主义思想。在胡耀邦、赵紫阳等人的干预下迅速结束。",
+          "en": "A political campaign initiated by CCP left-wing conservatives in 1983, aimed at criticizing the humanistic and liberal ideas advocated in the New Enlightenment movement. It was quickly ended through the intervention of Hu Yaobang, Zhao Ziyang, and others."
+        }
+      }
+    },
+    {
+      "id": "反对资产阶级自由化",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "反对资产阶级自由化"
+        ],
+        "en": [
+          "Campaign against Bourgeois Liberalization"
+        ]
+      },
+      "properties": {
+        "period": "1986 - 1987",
+        "description": {
+          "zh-cn": "1986年底至1987年初发起的政治运动，旨在反对被认为是资产阶级自由化的思想和行为。在胡耀邦、赵紫阳等人的干预下迅速结束。",
+          "en": "A political campaign launched in late 1986 and early 1987 to oppose ideas and behaviors considered to be bourgeois liberalization. It was quickly ended through the intervention of Hu Yaobang, Zhao Ziyang, and others."
+        }
+      }
+    },
+    {
+      "id": "胡平 (作家)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡平 (作家)"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国持不同政见者，作家。",
+          "en": "Chinese dissident and writer."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "毛泽东",
+      "target": "文化大革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1966-05",
+        "end_date": "1976-10",
+        "description": {
+          "zh-cn": "毛泽东发动并领导了文化大革命，其出发点是防止资本主义复辟、维护党的纯洁性和寻求中国自己的建设社会主义的道路。",
+          "en": "Mao Zedong initiated and led the Cultural Revolution with the stated goals of preventing capitalist restoration, maintaining the purity of the Party, and finding China's own path to building socialism."
+        }
+      }
+    },
+    {
+      "source": "粉碎四人帮",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "description": {
+          "zh-cn": "1976年10月6日“四人帮”被粉碎，标志着持续十年的文化大革命结束。",
+          "en": "The smashing of the \"Gang of Four\" on October 6, 1976, marked the end of the ten-year Cultural Revolution."
+        }
+      }
+    },
+    {
+      "source": "华国锋",
+      "target": "粉碎四人帮",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1976-10-06",
+        "description": {
+          "zh-cn": "时任中共中央第一副主席的华国锋与叶剑英、汪东兴等人联手，一举粉碎了“四人帮”。",
+          "en": "As the First Vice Chairman of the CCP Central Committee, Hua Guofeng, along with Ye Jianying, Wang Dongxing and others, led the effort to smash the \"Gang of Four.\""
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "拨乱反正",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1977-09",
+        "description": {
+          "zh-cn": "邓小平是拨乱反正的核心人物，他于1977年9月首次公开提出要进行“拨乱反正”，并主导了整个过程。",
+          "en": "Deng Xiaoping was the central figure of Boluan Fanzheng. He first publicly proposed the need for \"Boluan Fanzheng\" in September 1977 and led the entire process."
+        }
+      }
+    },
+    {
+      "source": "拨乱反正",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1977",
+        "description": {
+          "zh-cn": "拨乱反正旨在纠正文化大革命的错误，否定了文革的理论和实践。",
+          "en": "Boluan Fanzheng was aimed at correcting the mistakes of the Cultural Revolution, negating its theories and practices."
+        }
+      }
+    },
+    {
+      "source": "拨乱反正",
+      "target": "改革开放",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-12",
+        "description": {
+          "zh-cn": "拨乱反正时期的思想解放和政治路线调整，为改革开放的全面展开奠定了基础。",
+          "en": "The ideological emancipation and political line adjustments during the Boluan Fanzheng period laid the foundation for the full implementation of the Reform and Opening Up."
+        }
+      }
+    },
+    {
+      "source": "华国锋",
+      "target": "两个凡是",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1977",
+        "description": {
+          "zh-cn": "作为毛泽东的继任者，华国锋坚持“两个凡是”方针，以延续毛泽东时代的路线。",
+          "en": "As Mao Zedong's successor, Hua Guofeng adhered to the \"Two Whatevers\" policy to continue the line of the Mao era."
+        }
+      }
+    },
+    {
+      "source": "真理标准大讨论",
+      "target": "两个凡是",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1978-05",
+        "description": {
+          "zh-cn": "真理标准大讨论通过提倡“实践是检验真理的唯一标准”，批判并最终否定了“两个凡是”的错误方针。",
+          "en": "The Great Discussion on the Criterion of Truth criticized and ultimately negated the erroneous \"Two Whatevers\" policy by advocating that \"practice is the sole criterion for testing truth.\""
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "真理标准大讨论",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-05",
+        "description": {
+          "zh-cn": "邓小平支持并发动了真理标准大讨论，将其作为推动思想解放、反对“两个凡是”的关键举措。",
+          "en": "Deng Xiaoping supported and launched the Great Discussion on the Criterion of Truth as a key measure to promote ideological emancipation and oppose the \"Two Whatevers.\""
+        }
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "真理标准大讨论",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-05",
+        "description": {
+          "zh-cn": "胡耀邦是真理标准大讨论的重要推动者，与邓小平一同领导了这场思想解放运动。",
+          "en": "Hu Yaobang was a key promoter of the Great Discussion on the Criterion of Truth, leading this ideological emancipation movement alongside Deng Xiaoping."
+        }
+      }
+    },
+    {
+      "source": "中国共产党第十一届中央委员会第三次全体会议",
+      "target": "邓小平",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-12",
+        "description": {
+          "zh-cn": "在中共十一届三中全会上，邓小平取代华国锋成为中国的实际最高领导人，确立了其在党内的核心领导地位。",
+          "en": "At the Third Plenary Session of the 11th CCP Central Committee, Deng Xiaoping replaced Hua Guofeng as the paramount leader of China, establishing his core leadership position within the Party."
+        }
+      }
+    },
+    {
+      "source": "中国共产党第十一届中央委员会第三次全体会议",
+      "target": "华国锋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1978-12",
+        "description": {
+          "zh-cn": "中共十一届三中全会确立了邓小平的领导地位，实际上终结了华国锋作为最高领导人的时期。",
+          "en": "The Third Plenary Session of the 11th CCP Central Committee established Deng Xiaoping's leadership, effectively ending Hua Guofeng's tenure as the paramount leader."
+        }
+      }
+    },
+    {
+      "source": "拨乱反正",
+      "target": "平反冤假错案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "大规模平反冤假错案是拨乱反正的重要组成部分，全国有数百万件案件得到纠正。",
+          "en": "The large-scale rehabilitation of wrongful, false, and unjust cases was a crucial component of Boluan Fanzheng, with millions of cases being redressed nationwide."
+        }
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "平反冤假错案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "胡耀邦主持了大量的平反工作，为众多在文革及此前政治运动中受迫害的人士恢复了名誉。",
+          "en": "Hu Yaobang presided over a vast amount of rehabilitation work, restoring the reputations of many who were persecuted during the Cultural Revolution and previous political movements."
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "刘少奇",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1969-11-12",
+        "description": {
+          "zh-cn": "时任国家主席刘少奇在文革期间被批判为“叛徒、内奸、工贼”，并被迫害致死。",
+          "en": "Then-President Liu Shaoqi was criticized as a \"traitor, renegade, and scab\" during the Cultural Revolution and was persecuted to death."
+        }
+      }
+    },
+    {
+      "source": "平反冤假错案",
+      "target": "刘少奇",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1980-02",
+        "description": {
+          "zh-cn": "1980年，中共十一届五中全会为刘少奇全面平反，并恢复其作为党和国家领导人的一切名誉。",
+          "en": "In 1980, the Fifth Plenary Session of the 11th CCP Central Committee fully rehabilitated Liu Shaoqi and restored all his honors as a leader of the Party and the state."
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "彭德怀",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1974-11-29",
+        "description": {
+          "zh-cn": "元帅彭德怀在文革期间遭到残酷迫害，最终致死。",
+          "en": "Marshal Peng Dehuai was brutally persecuted during the Cultural Revolution, which ultimately led to his death."
+        }
+      }
+    },
+    {
+      "source": "平反冤假错案",
+      "target": "彭德怀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978-12",
+        "description": {
+          "zh-cn": "1978年12月，中共中央为彭德怀举行追悼会，为其平反并恢复名誉。",
+          "en": "In December 1978, the CCP Central Committee held a memorial service for Peng Dehuai, posthumously rehabilitating him and restoring his reputation."
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "姚桐斌",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1968-06-08",
+        "description": {
+          "zh-cn": "“两弹一星”元勋姚桐斌在文革期间被造反派用钢棍毒打致死。",
+          "en": "\"Two Bombs, One Satellite\" contributor Yao Tongbin was beaten to death with steel bars by rebels during the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "source": "拨乱反正",
+      "target": "姚桐斌",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "在拨乱反正期间，中共中央为姚桐斌平反，并追认其为“烈士”。",
+          "en": "During the Boluan Fanzheng period, the CCP Central Committee posthumously rehabilitated Yao Tongbin and recognized him as a \"martyr.\""
+        }
+      }
+    },
+    {
+      "source": "关于建国以来党的若干历史问题的决议",
+      "target": "文化大革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1981-06-27",
+        "description": {
+          "zh-cn": "该决议正式和全面地否定了文化大革命，将其定性为一场给党、国家和各族人民带来严重灾难的内乱。",
+          "en": "This resolution formally and comprehensively negated the Cultural Revolution, defining it as an internal turmoil that brought serious disasters to the Party, the state, and the people of all ethnic groups."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "八二宪法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1980-08",
+        "end_date": "1982-12",
+        "description": {
+          "zh-cn": "邓小平在“8.18讲话”中提出全面修宪建议，并亲自指导了1982年宪法的起草工作。",
+          "en": "Deng Xiaoping proposed a comprehensive constitutional revision in his \"August 18 Speech\" and personally supervised the drafting of the 1982 Constitution."
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "普通高等学校招生全国统一考试",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "end_date": "1976",
+        "description": {
+          "zh-cn": "高考制度因文化大革命而中断了十年。",
+          "en": "The Gaokao system was suspended for ten years due to the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "普通高等学校招生全国统一考试",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1977-08",
+        "description": {
+          "zh-cn": "1977年，邓小平采纳专家建议，决定恢复因文革而中断了十年的高考制度。",
+          "en": "In 1977, Deng Xiaoping adopted the advice of experts and decided to restore the Gaokao system, which had been suspended for a decade due to the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "source": "批邓、反击右倾翻案风",
+      "target": "邓小平",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1975-11",
+        "end_date": "1976-10",
+        "description": {
+          "zh-cn": "由毛泽东等人发动的“批邓、反击右倾翻案风”运动，导致邓小平第三次被打倒。",
+          "en": "The \"Criticize Deng, Counter the Right-Deviationist Verdict-Reversing Wind\" campaign, initiated by Mao Zedong and others, led to Deng Xiaoping's third political downfall."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "批邓、反击右倾翻案风",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1975-11",
+        "description": {
+          "zh-cn": "因邓小平拒绝作出肯定文化大革命的决议，毛泽东对此大失所望，并推动了“批邓、反击右倾翻案风”运动。",
+          "en": "Because Deng Xiaoping refused to issue a resolution affirming the Cultural Revolution, Mao Zedong was greatly disappointed and promoted the \"Criticize Deng, Counter the Right-Deviationist Verdict-Reversing Wind\" campaign."
+        }
+      }
+    },
+    {
+      "source": "四人帮",
+      "target": "批邓、反击右倾翻案风",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1975-11",
+        "description": {
+          "zh-cn": "“四人帮”在毛泽东的支持下，积极推动了“批邓、反击右倾翻案风”运动。",
+          "en": "With the support of Mao Zedong, the \"Gang of Four\" actively promoted the \"Criticize Deng, Counter the Right-Deviationist Verdict-Reversing Wind\" campaign."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "知识分子",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1977",
+        "description": {
+          "zh-cn": "邓小平主导了对文革期间受迫害知识分子的平反，提出“知识分子已经是工人阶级自己的一部分”，并强调要“尊重知识，尊重人才”。",
+          "en": "Deng Xiaoping led the rehabilitation of intellectuals persecuted during the Cultural Revolution, proposed that \"intellectuals are already a part of the working class itself,\" and emphasized the need to \"respect knowledge and respect talent.\""
+        }
+      }
+    },
+    {
+      "source": "清除精神污染",
+      "target": "新启蒙运动",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1983",
+        "description": {
+          "zh-cn": "“清除精神污染”运动批判了“新启蒙运动”中倡导的人道主义和自由主义思想。",
+          "en": "The \"Anti-Spiritual Pollution Campaign\" criticized the humanistic and liberal ideas advocated in the \"New Enlightenment\" movement."
+        }
+      }
+    },
+    {
+      "source": "胡耀邦",
+      "target": "清除精神污染",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1984",
+        "description": {
+          "zh-cn": "时任中共中央总书记胡耀邦对“清除精神污染”运动的扩大化进行了干预，使其迅速结束。",
+          "en": "Then CCP General Secretary Hu Yaobang intervened to curb the expansion of the \"Anti-Spiritual Pollution Campaign,\" bringing it to a swift end."
+        }
+      }
+    }
+  ]
+}

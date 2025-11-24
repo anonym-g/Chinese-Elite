@@ -1,0 +1,843 @@
+{
+  "nodes": [
+    {
+      "id": "新罗",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新罗",
+          "徐罗伐",
+          "徐耶伐",
+          "徐那伐",
+          "斯罗",
+          "薛罗",
+          "斯卢",
+          "新卢",
+          "鸡林"
+        ],
+        "en": [
+          "Silla"
+        ]
+      },
+      "properties": {
+        "period": "-0057 - 0935",
+        "location": {
+          "zh-cn": "朝鲜半岛"
+        },
+        "description": {
+          "zh-cn": "朝鲜历史上的国家之一，起初与高句丽、百济形成三国鼎立，后统一朝鲜半岛大部。",
+          "en": "One of the kingdoms in the history of Korea. Initially, it formed a tripartite rivalry with Goguryeo and Baekje, and later unified most of the Korean Peninsula."
+        }
+      }
+    },
+    {
+      "id": "朴赫居世居西干",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朴赫居世居西干"
+        ],
+        "en": [
+          "Hyeokgeose of Silla"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0057 - 0004",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "根据《三国史记》记载，新罗的创建者，被奉为始祖。",
+          "en": "According to the Samguk Sagi, the founder of Silla, revered as its progenitor."
+        }
+      }
+    },
+    {
+      "id": "辰韩",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辰韩"
+        ],
+        "en": [
+          "Jinhan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜半岛南部的部落联盟，新罗的前身是其十二部落之一的斯卢。",
+          "en": "A loose confederacy of chiefdoms in the southern Korean Peninsula, from which Silla originated as the Saro state, one of its twelve member states."
+        }
+      }
+    },
+    {
+      "id": "伽倻",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伽倻"
+        ],
+        "en": [
+          "Gaya"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于朝鲜半岛南部的部落联盟，后被新罗兼并。",
+          "en": "A confederacy of territorial polities in the southern Korean Peninsula, later annexed by Silla."
+        }
+      }
+    },
+    {
+      "id": "高句丽",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高句丽"
+        ],
+        "en": [
+          "Goguryeo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜三国之一，与新罗、百济长期对峙，后被唐与新罗联军所灭。",
+          "en": "One of the Three Kingdoms of Korea, which was in a long-standing confrontation with Silla and Baekje, and was eventually conquered by the allied forces of Tang and Silla."
+        }
+      }
+    },
+    {
+      "id": "百济",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "百济"
+        ],
+        "en": [
+          "Baekje"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜三国之一，与新罗、高句丽长期对峙，后被唐与新罗联军所灭。",
+          "en": "One of the Three Kingdoms of Korea, which was in a long-standing confrontation with Silla and Goguryeo, and was eventually conquered by the allied forces of Tang and Silla."
+        }
+      }
+    },
+    {
+      "id": "唐朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "唐朝",
+          "唐"
+        ],
+        "en": [
+          "Tang dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国朝代，曾与新罗结盟灭亡百济和高句丽，后为争夺半岛控制权与新罗交战。",
+          "en": "A Chinese dynasty that allied with Silla to conquer Baekje and Goguryeo, and later fought against Silla for control of the peninsula."
+        }
+      }
+    },
+    {
+      "id": "罗唐战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "罗唐战争"
+        ],
+        "en": [
+          "Silla–Tang War"
+        ]
+      },
+      "properties": {
+        "period": "0670 - 0676",
+        "description": {
+          "zh-cn": "新罗与唐朝为争夺朝鲜半岛控制权而进行的战争。",
+          "en": "A war fought between Silla and the Tang dynasty over the control of the Korean Peninsula."
+        }
+      }
+    },
+    {
+      "id": "统一新罗",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "统一新罗"
+        ],
+        "en": [
+          "Unified Silla"
+        ]
+      },
+      "properties": {
+        "period": "0676 - 0935",
+        "description": {
+          "zh-cn": "新罗统一朝鲜半岛大同江以南地区后的历史时期，社会经济繁荣发展。",
+          "en": "The historical period after Silla unified the regions south of the Taedong River on the Korean Peninsula, characterized by prosperous social and economic development."
+        }
+      }
+    },
+    {
+      "id": "后三国",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "后三国"
+        ],
+        "en": [
+          "Later Three Kingdoms"
+        ]
+      },
+      "properties": {
+        "period": "0892 - 0935",
+        "description": {
+          "zh-cn": "新罗末期，朝鲜半岛分裂为新罗、后百济、后高句丽（后被高丽取代）三个国家的时期。",
+          "en": "A period in the late Silla era when the Korean Peninsula was divided into three states: Silla, Later Baekje, and Later Goguryeo (later replaced by Goryeo)."
+        }
+      }
+    },
+    {
+      "id": "高丽",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高丽"
+        ],
+        "en": [
+          "Goryeo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由王建建立的朝鲜王朝，最终统一了后三国，取代了新罗。",
+          "en": "A Korean dynasty founded by Wang Geon, which eventually unified the Later Three Kingdoms and succeeded Silla."
+        }
+      }
+    },
+    {
+      "id": "王建",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王建",
+          "高丽太祖"
+        ],
+        "en": [
+          "Wang Geon",
+          "Taejo of Goryeo"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "高丽王朝的建立者。",
+          "en": "The founder of the Goryeo dynasty."
+        }
+      }
+    },
+    {
+      "id": "佛教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "佛教"
+        ],
+        "en": [
+          "Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "新罗的国教，对国家文化和社会有深远影响。",
+          "en": "The state religion of Silla, which had a profound influence on the country's culture and society."
+        }
+      }
+    },
+    {
+      "id": "奈勿尼师今",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奈勿尼师今"
+        ],
+        "en": [
+          "Naemul of Silla"
+        ]
+      },
+      "properties": {
+        "lifetime": "0356 - 0402",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新罗第17代君主，巩固了金氏家族对王权的控制，使王位由金氏独占。",
+          "en": "The 17th monarch of Silla, who consolidated the Kim clan's control over the throne, making the kingship exclusive to the Kim family."
+        }
+      }
+    },
+    {
+      "id": "法兴王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "法兴王"
+        ],
+        "en": [
+          "Beopheung of Silla"
+        ]
+      },
+      "properties": {
+        "lifetime": "0514 - 0540",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新罗第23代君主，正式确认佛教为国教，并建立骨品制。",
+          "en": "The 23rd monarch of Silla, who officially recognized Buddhism as the state religion and established the bone-rank system."
+        }
+      }
+    },
+    {
+      "id": "骨品制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "骨品制"
+        ],
+        "en": [
+          "Bone-rank system"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "新罗时期特有的社会阶级制度，以血缘决定个人的社会地位和官职。",
+          "en": "A unique social class system in Silla, where an individual's social status and official position were determined by their lineage."
+        }
+      }
+    },
+    {
+      "id": "金春秋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "金春秋"
+        ],
+        "en": [
+          "Kim Chunchu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新罗真骨出身的君主，即武烈王。他的即位打破了只有圣骨才能继承王位的惯例。",
+          "en": "A monarch of Silla from the true-bone rank, also known as King Muyeol. His ascension broke the tradition that only those of the sacred-bone rank could inherit the throne."
+        }
+      }
+    },
+    {
+      "id": "国学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国学"
+        ],
+        "en": [
+          "Gukhak"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "新罗于682年设立的儒学教育机构，用于教育贵族子弟。",
+          "en": "A Confucian educational institution established by Silla in 682 to educate the children of aristocrats."
+        }
+      }
+    },
+    {
+      "id": "神文王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "神文王"
+        ],
+        "en": [
+          "Sinmun of Silla"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "统一新罗时期的君主，设立国学，加强中央集权。",
+          "en": "A monarch of Unified Silla who established the Gukhak (national academy) and strengthened centralized power."
+        }
+      }
+    },
+    {
+      "id": "崔致远",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "崔致远"
+        ],
+        "en": [
+          "Choe Chiwon"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新罗末期的著名学者、文学家，曾在唐朝为官，著有《桂苑笔耕集》。",
+          "en": "A prominent scholar and writer of late Silla, who served as an official in the Tang dynasty and authored the 'Gwon Pilgyeongjip'."
+        }
+      }
+    },
+    {
+      "id": "黄巢",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄巢"
+        ],
+        "en": [
+          "Huang Chao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国唐朝末年民变领袖。",
+          "en": "Leader of a major rebellion in late Tang dynasty China."
+        }
+      }
+    },
+    {
+      "id": "檄黄巢书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "檄黄巢书"
+        ],
+        "en": [
+          "Declaration Against Huang Chao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由崔致远撰写的讨伐黄巢的檄文，文辞犀利。",
+          "en": "A powerful declaration written by Choe Chiwon to denounce Huang Chao."
+        }
+      }
+    },
+    {
+      "id": "甄萱",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "甄萱"
+        ],
+        "en": [
+          "Gyeon Hwon"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后百济的建立者。",
+          "en": "The founder of Later Baekje."
+        }
+      }
+    },
+    {
+      "id": "后百济",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "后百济"
+        ],
+        "en": [
+          "Later Baekje"
+        ]
+      },
+      "properties": {
+        "period": "0900 - 0936",
+        "description": {
+          "zh-cn": "后三国之一，由甄萱在原百济故地建立。",
+          "en": "One of the Later Three Kingdoms, founded by Gyeon Hwon in the former territory of Baekje."
+        }
+      }
+    },
+    {
+      "id": "弓裔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弓裔"
+        ],
+        "en": [
+          "Gung Ye"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后高句丽的建立者。",
+          "en": "The founder of Later Goguryeo."
+        }
+      }
+    },
+    {
+      "id": "后高句丽",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "后高句丽"
+        ],
+        "en": [
+          "Later Goguryeo"
+        ]
+      },
+      "properties": {
+        "period": "0901 - 0918",
+        "description": {
+          "zh-cn": "后三国之一，由弓裔在原高句丽故地建立，后被王建的高丽所取代。",
+          "en": "One of the Later Three Kingdoms, founded by Gung Ye in the former territory of Goguryeo, later replaced by Wang Geon's Goryeo."
+        }
+      }
+    },
+    {
+      "id": "真兴王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "真兴王"
+        ],
+        "en": [
+          "Jinheung of Silla"
+        ]
+      },
+      "properties": {
+        "lifetime": "0540 - 0576",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新罗第24代君主，在位期间新罗国力得到很大提高，疆土大幅扩张。",
+          "en": "The 24th monarch of Silla, during whose reign Silla's power greatly increased and its territory expanded significantly."
+        }
+      }
+    },
+    {
+      "id": "汉江 (韩国)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "汉江 (韩国)",
+          "汉江"
+        ],
+        "en": [
+          "Han River (Korea)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜半岛上的主要河流，真兴王时期新罗夺取了其流域，获得了与中国直接交通的门户。",
+          "en": "A major river on the Korean Peninsula. Silla seized control of its basin during the reign of King Jinheung, gaining a direct gateway to China."
+        }
+      }
+    },
+    {
+      "id": "鸡林州都督府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "鸡林州都督府"
+        ],
+        "en": [
+          "Area Command of Jilin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "唐朝在新罗设立的羁縻统治机构。",
+          "en": "A 'loose-rein' administrative body established by the Tang dynasty in Silla."
+        }
+      }
+    },
+    {
+      "id": "异次顿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "异次顿"
+        ],
+        "en": [
+          "Ichadon"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "新罗法兴王时期的官员，为弘扬佛法而殉教，促使佛教在新罗被正式承认。",
+          "en": "An official during the reign of King Beopheung of Silla whose martyrdom for the propagation of Buddhism led to its official recognition in Silla."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "朴赫居世居西干",
+      "target": "新罗",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-0057",
+        "description": {
+          "zh-cn": "根据《三国史记》记载，朴赫居世居西干于公元前57年创建了新罗。",
+          "en": "According to the Samguk Sagi, Hyeokgeose of Silla founded Silla in 57 BCE."
+        }
+      }
+    },
+    {
+      "source": "辰韩",
+      "target": "新罗",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "新罗始于辰韩十二部落之一的斯卢，是其前身。",
+          "en": "Silla originated from Saro, one of the twelve tribes of the Jinhan confederacy, making Jinhan its predecessor."
+        }
+      }
+    },
+    {
+      "source": "新罗",
+      "target": "伽倻",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0532",
+        "description": {
+          "zh-cn": "532年，新罗兼并了伽倻联盟。",
+          "en": "In 532, Silla annexed the Gaya confederacy."
+        }
+      }
+    },
+    {
+      "source": "新罗",
+      "target": "百济",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "0551",
+        "description": {
+          "zh-cn": "551年，新罗与百济联合出兵，从高句丽手中夺回汉江流域。",
+          "en": "In 551, Silla and Baekje formed an alliance and launched a joint military campaign to reclaim the Han River basin from Goguryeo."
+        }
+      }
+    },
+    {
+      "source": "新罗",
+      "target": "百济",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "0553",
+        "description": {
+          "zh-cn": "新罗攻占百济夺回的汉江下游地区后，两国结仇。",
+          "en": "After Silla seized the lower Han River basin, which Baekje had reclaimed, the two kingdoms became enemies."
+        }
+      }
+    },
+    {
+      "source": "新罗",
+      "target": "唐朝",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "0660",
+        "end_date": "0668",
+        "description": {
+          "zh-cn": "新罗与唐朝结成军事同盟，先后于660年灭亡百济，668年灭亡高句丽。",
+          "en": "Silla and the Tang dynasty formed a military alliance, conquering Baekje in 660 and Goguryeo in 668."
+        }
+      }
+    },
+    {
+      "source": "新罗",
+      "target": "唐朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "0670",
+        "end_date": "0676",
+        "description": {
+          "zh-cn": "为争夺朝鲜半岛的控制权，新罗与唐朝爆发了罗唐战争。",
+          "en": "Silla and the Tang dynasty went to war (the Silla-Tang War) for control over the Korean Peninsula."
+        }
+      }
+    },
+    {
+      "source": "罗唐战争",
+      "target": "统一新罗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0676",
+        "description": {
+          "zh-cn": "罗唐战争结束后，新罗完全控制大同江以南地区，开启了统一新罗时代。",
+          "en": "After the Silla-Tang War, Silla gained full control of the territory south of the Taedong River, marking the beginning of the Unified Silla period."
+        }
+      }
+    },
+    {
+      "source": "高丽",
+      "target": "新罗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0935",
+        "description": {
+          "zh-cn": "公元935年，新罗向高丽投降，新罗灭亡。",
+          "en": "In 935 CE, Silla surrendered to Goryeo, leading to the fall of Silla."
+        }
+      }
+    },
+    {
+      "source": "法兴王",
+      "target": "骨品制",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "法兴王统治期间，新罗建立起骨品制和以此为基础的官制。",
+          "en": "During the reign of King Beopheung, Silla established the bone-rank system and its associated bureaucracy."
+        }
+      }
+    },
+    {
+      "source": "神文王",
+      "target": "国学",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "0682",
+        "description": {
+          "zh-cn": "682年，神文王设立了专门研究儒家思想的国学。",
+          "en": "In 682, King Sinmun established the Gukhak, a national academy for the study of Confucianism."
+        }
+      }
+    },
+    {
+      "source": "崔致远",
+      "target": "檄黄巢书",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "崔致远在唐朝为官时撰写了著名的《檄黄巢书》。",
+          "en": "While serving as an official in the Tang dynasty, Choe Chiwon wrote the famous 'Declaration Against Huang Chao'."
+        }
+      }
+    },
+    {
+      "source": "檄黄巢书",
+      "target": "黄巢",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "该檄文条理清晰，措辞犀利，据传黄巢读到时大惊，不觉从床上掉了下来。",
+          "en": "The declaration was clear and sharply worded; it is said that upon reading it, Huang Chao was so startled that he fell out of his bed."
+        }
+      }
+    },
+    {
+      "source": "甄萱",
+      "target": "后百济",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "0900",
+        "description": {
+          "zh-cn": "900年，甄萱在原百济故地建立后百济。",
+          "en": "In 900, Gyeon Hwon founded Later Baekje in the former territory of Baekje."
+        }
+      }
+    },
+    {
+      "source": "弓裔",
+      "target": "后高句丽",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "0901",
+        "description": {
+          "zh-cn": "901年，弓裔在原高句丽故地建立后高句丽。",
+          "en": "In 901, Gung Ye founded Later Goguryeo in the former territory of Goguryeo."
+        }
+      }
+    },
+    {
+      "source": "王建",
+      "target": "高丽",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "0918",
+        "description": {
+          "zh-cn": "918年，王建起兵反对弓裔，建立了高丽。",
+          "en": "In 918, Wang Geon led a coup against Gung Ye and established Goryeo."
+        }
+      }
+    },
+    {
+      "source": "王建",
+      "target": "弓裔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0918",
+        "description": {
+          "zh-cn": "王建推翻了弓裔的统治，取而代之建立了高丽。",
+          "en": "Wang Geon overthrew the rule of Gung Ye and established Goryeo in its place."
+        }
+      }
+    },
+    {
+      "source": "真兴王",
+      "target": "汉江 (韩国)",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "真兴王统治期间，新罗吞并整个汉江流域，控制了与唐朝经贸文化往来的门户。",
+          "en": "During the reign of King Jinheung, Silla conquered the entire Han River basin, gaining control of the gateway for trade and cultural exchange with the Tang dynasty."
+        }
+      }
+    },
+    {
+      "source": "后三国",
+      "target": "新罗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0892",
+        "description": {
+          "zh-cn": "新罗末期分裂成后三国，标志着其统一政权的瓦解。",
+          "en": "The division of late Silla into the Later Three Kingdoms marked the collapse of its unified rule."
+        }
+      }
+    },
+    {
+      "source": "唐朝",
+      "target": "鸡林州都督府",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "唐朝在新罗设置鸡林州都督府，作为对新罗进行羁縻统治的机构。",
+          "en": "The Tang dynasty established the Area Command of Jilin in Silla as a mechanism for its 'loose-rein' rule."
+        }
+      }
+    },
+    {
+      "source": "新罗",
+      "target": "唐朝",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "0663",
+        "description": {
+          "zh-cn": "唐朝设置鸡林州都督府，名义上将新罗纳入其管辖体系，进行羁縻统治。",
+          "en": "The Tang dynasty established the Area Command of Jilin, nominally incorporating Silla into its administrative system under a 'loose-rein' policy."
+        }
+      }
+    },
+    {
+      "source": "异次顿",
+      "target": "佛教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0528",
+        "description": {
+          "zh-cn": "异次顿为助法兴王弘法而殉教，促使佛教在新罗开始得到官方接受。",
+          "en": "Ichadon's martyrdom to help King Beopheung promote Buddhism led to its official acceptance in Silla."
+        }
+      }
+    }
+  ]
+}
