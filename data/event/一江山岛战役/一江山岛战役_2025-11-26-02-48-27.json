@@ -1,0 +1,658 @@
+{
+  "nodes": [
+    {
+      "id": "一江山岛战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "一江山岛战役"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1955-01-18 - 1955-01-19",
+        "location": {
+          "zh-cn": "一江山岛",
+          "en": "Yijiangshan Islands"
+        },
+        "description": {
+          "zh-cn": "1955年1月，中国人民解放军与中华民国国军在浙江省一江山岛进行的战役。此役是中国人民解放军首次陆海空三军协同作战，并以胜利告终，直接导致了后续的大陈岛撤退。",
+          "en": "A battle fought in January 1955 between the People's Liberation Army (PLA) and the Republic of China Armed Forces on the Yijiangshan Islands, Zhejiang province. This was the PLA's first-ever joint-service amphibious operation, which resulted in a PLA victory and directly led to the subsequent evacuation of the Dachen Islands."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军",
+          "解放军"
+        ],
+        "en": [
+          "People's Liberation Army",
+          "PLA"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的武装力量，一江山岛战役的进攻方。",
+          "en": "The armed forces of the People's Republic of China, the attacking force in the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "中华民国国军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国国军",
+          "国军"
+        ],
+        "en": [
+          "Republic of China Armed Forces"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华民国",
+          "en": "Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华民国的武装力量，一江山岛战役的防守方。",
+          "en": "The armed forces of the Republic of China, the defending force in the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "张爱萍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张爱萍"
+        ],
+        "en": [
+          "Zhang Aiping"
+        ]
+      },
+      "properties": {
+        "lifetime": "1910-01-09 - 2003-07-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国人民解放军高级将领，时任华东军区参谋长，担任一江山岛战役的浙东前线指挥部司令员兼政治委员。",
+          "en": "A senior general of the People's Liberation Army, then Chief of Staff of the East China Military Region, who served as the commander and political commissar of the Zhejiang-East Front Command during the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "王生明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王生明"
+        ],
+        "en": [
+          "Wang Shengming"
+        ]
+      },
+      "properties": {
+        "lifetime": "1910-03-16 - 1955-01-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国国军将领，一江山地区司令，在一江山岛战役中阵亡。",
+          "en": "A general of the Republic of China Armed Forces and commander of the Yijiangshan area. He was killed in action during the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "王辅弼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王辅弼"
+        ],
+        "en": [
+          "Wang Fubi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国国军军官，一江山地区副指挥官，在一江山岛战役中被俘。",
+          "en": "An officer of the Republic of China Armed Forces and deputy commander of the Yijiangshan area. He was captured during the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战"
+        ],
+        "en": [
+          "Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1945-08 - 1949-12",
+        "description": {
+          "zh-cn": "中国国民党与中国共产党之间爆发的第二次内战，一江山岛战役是其延续。 ",
+          "en": "The second civil war between the Kuomintang and the Communist Party of China. The Battle of Yijiangshan Islands was a continuation of this conflict."
+        }
+      }
+    },
+    {
+      "id": "第一次台湾海峡危机",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次台湾海峡危机"
+        ],
+        "en": [
+          "First Taiwan Strait Crisis"
+        ]
+      },
+      "properties": {
+        "period": "1954-08 - 1955-05",
+        "description": {
+          "zh-cn": "1954年至1955年间发生于台湾海峡的军事冲突，一江山岛战役是其中的关键战役。",
+          "en": "A military conflict in the Taiwan Strait from 1954 to 1955. The Battle of Yijiangshan Islands was a key battle in this crisis."
+        }
+      }
+    },
+    {
+      "id": "一江山岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "一江山岛"
+        ],
+        "en": [
+          "Yijiangshan Islands"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "浙江省台州市椒江区",
+          "en": "Jiaojiang District, Taizhou, Zhejiang"
+        },
+        "description": {
+          "zh-cn": "位于浙江省沿海的岛屿，是1955年一江山岛战役的发生地。",
+          "en": "An island off the coast of Zhejiang province, the site of the Battle of Yijiangshan Islands in 1955."
+        }
+      }
+    },
+    {
+      "id": "大陈岛撤退",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "大陈岛撤退"
+        ],
+        "en": [
+          "Evacuation of the Dachen Islands"
+        ]
+      },
+      "properties": {
+        "period": "1955-02",
+        "description": {
+          "zh-cn": "一江山岛战役后，在美国第七舰队协助下，中华民国国军将其在大陈岛的军民全部撤退至台湾的行动。",
+          "en": "Following the Battle of Yijiangshan Islands, it was an operation in which the Republic of China Armed Forces, with the assistance of the U.S. Seventh Fleet, evacuated all military personnel and civilians from the Dachen Islands to Taiwan."
+        }
+      }
+    },
+    {
+      "id": "浙东前线指挥部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "浙东前线指挥部",
+          "华东军区前指"
+        ],
+        "en": [
+          "Zhejiang-East Front Command"
+        ]
+      },
+      "properties": {
+        "period": "1954-08-31 - 1955-02-24",
+        "description": {
+          "zh-cn": "由华东军区设立，归中央军委直接指挥的联合指挥机构，负责统一指挥解放军陆海空三军进行一江山岛战役。",
+          "en": "A joint command established by the East China Military Region and under the direct command of the Central Military Commission, responsible for the unified command of the PLA's army, navy, and air force during the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "华东军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华东军区"
+        ],
+        "en": [
+          "East China Military Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的大军区之一，一江山岛战役的主要策划和执行单位。",
+          "en": "One of the major military regions of the People's Liberation Army, the main planning and executing unit for the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央军事委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央军事委员会",
+          "中央军委"
+        ],
+        "en": [
+          "Central Military Commission of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的最高军事领导机构，决策并指导了一江山岛战役。",
+          "en": "The highest military leading body of the Communist Party of China, which made decisions and directed the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要领导人，批准并推动了一江山岛战役。",
+          "en": "The main leader of the Communist Party of China and the People's Republic of China, who approved and promoted the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中华民国总统，为国军最高统帅。",
+          "en": "Then President of the Republic of China and commander-in-chief of the armed forces."
+        }
+      }
+    },
+    {
+      "id": "中美共同防御条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中美共同防御条约"
+        ],
+        "en": [
+          "Sino-American Mutual Defense Treaty"
+        ]
+      },
+      "properties": {
+        "period": "1954-12-02",
+        "description": {
+          "zh-cn": "美国与中华民国在1954年签订的军事协防条约，在一江山岛战役前夕签订。",
+          "en": "A military mutual defense treaty signed between the United States and the Republic of China in 1954, just before the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在第一次台湾海峡危机期间支持中华民国，并协助其进行了大陈岛撤退。",
+          "en": "Supported the Republic of China during the First Taiwan Strait Crisis and assisted in its evacuation of the Dachen Islands."
+        }
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国"
+        ],
+        "en": [
+          "Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "当时控制着包括一江山岛、大陈岛在内的浙东沿海岛屿。",
+          "en": "Controlled the coastal islands of eastern Zhejiang, including the Yijiangshan and Dachen Islands, at the time."
+        }
+      }
+    },
+    {
+      "id": "福尔摩沙决议案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "福尔摩沙决议案",
+          "1955年台湾决议案"
+        ],
+        "en": [
+          "Formosa Resolution of 1955"
+        ]
+      },
+      "properties": {
+        "period": "1955-01-29",
+        "description": {
+          "zh-cn": "一江山岛战役后由美国国会通过的法案，授权美国总统使用武力保护台湾。",
+          "en": "A resolution passed by the U.S. Congress after the Battle of Yijiangshan Islands, authorizing the U.S. President to use force to protect Taiwan."
+        }
+      }
+    },
+    {
+      "id": "美国国会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国国会"
+        ],
+        "en": [
+          "United States Congress"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "美国",
+          "en": "United States"
+        },
+        "description": {
+          "zh-cn": "美国的立法机构，在一江山岛战役后通过了《福尔摩沙决议案》。",
+          "en": "The legislative branch of the U.S. government, which passed the Formosa Resolution after the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "美国第7舰队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国第7舰队"
+        ],
+        "en": [
+          "United States Seventh Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国海军的舰队之一，在朝鲜战争爆发后进入台湾海峡，并在一江山岛战役后协助国军进行大陈岛撤退。",
+          "en": "A fleet of the United States Navy that entered the Taiwan Strait after the outbreak of the Korean War and assisted the ROC forces in the evacuation of the Dachen Islands after the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "太平号护航驱逐舰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "太平号护航驱逐舰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国海军的护航驱逐舰，在一江山岛战役前夕被解放军海军鱼雷艇击沉。",
+          "en": "A destroyer escort of the Republic of China Navy, sunk by PLA Navy torpedo boats on the eve of the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军海军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军海军"
+        ],
+        "en": [
+          "People's Liberation Army Navy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的海上武装力量，参与了一江山岛战役。",
+          "en": "The naval branch of the People's Liberation Army, which participated in the Battle of Yijiangshan Islands."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "一江山岛战役",
+      "target": "第二次国共内战",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "一江山岛战役是第二次国共内战的延续性战役之一。",
+          "en": "The Battle of Yijiangshan Islands was one of the continuing battles of the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "source": "一江山岛战役",
+      "target": "第一次台湾海峡危机",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "一江山岛战役是第一次台湾海峡危机中的关键性武装冲突。",
+          "en": "The Battle of Yijiangshan Islands was a key armed conflict during the First Taiwan Strait Crisis."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "中华民国国军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1955-01-18",
+        "end_date": "1955-01-19",
+        "description": {
+          "zh-cn": "在一江山岛战役中，中国人民解放军作为进攻方，与作为防守方的中华民国国军展开战斗。",
+          "en": "In the Battle of Yijiangshan Islands, the People's Liberation Army, as the attacking force, engaged in combat with the defending Republic of China Armed Forces."
+        }
+      }
+    },
+    {
+      "source": "张爱萍",
+      "target": "浙东前线指挥部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1954-08-31",
+        "end_date": "1955-02-24",
+        "position": {
+          "zh-cn": "司令员兼政治委员",
+          "en": "Commander and Political Commissar"
+        },
+        "description": {
+          "zh-cn": "张爱萍被任命为浙东前线指挥部司令员兼政治委员，负责统一指挥一江山岛战役。",
+          "en": "Zhang Aiping was appointed as the commander and political commissar of the Zhejiang-East Front Command, responsible for the unified command of the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "source": "王生明",
+      "target": "中华民国国军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "一江山地区司令",
+          "en": "Commander of the Yijiangshan Area"
+        },
+        "description": {
+          "zh-cn": "王生明上校担任国军一江山地区司令，负责岛屿的防守。",
+          "en": "Colonel Wang Shengming served as the commander of the ROC forces in the Yijiangshan area, responsible for the island's defense."
+        }
+      }
+    },
+    {
+      "source": "华东军区",
+      "target": "浙东前线指挥部",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1954-08-31",
+        "description": {
+          "zh-cn": "1954年8月31日，华东军区根据中央军委批准，在宁波成立了浙东前线指挥部，以统一指挥即将进行的战役。",
+          "en": "On August 31, 1954, with the approval of the Central Military Commission, the East China Military Region established the Zhejiang-East Front Command in Ningbo to unify command for the upcoming campaign."
+        }
+      }
+    },
+    {
+      "source": "浙东前线指挥部",
+      "target": "中国共产党中央军事委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1954-08",
+        "description": {
+          "zh-cn": "中央军委决定，为及时指导和总结解放军首次三军协同作战经验，将浙东前线指挥部归中央军委直接指挥。",
+          "en": "The Central Military Commission decided to place the Zhejiang-East Front Command under its direct command to promptly guide and summarize the PLA's first joint-service combat experience."
+        }
+      }
+    },
+    {
+      "source": "一江山岛战役",
+      "target": "王生明",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1955-01-19",
+        "description": {
+          "zh-cn": "国军一江山地区司令王生明在战斗中阵亡。",
+          "en": "ROC Commander of the Yijiangshan Area, Wang Shengming, was killed in action during the battle."
+        }
+      }
+    },
+    {
+      "source": "一江山岛战役",
+      "target": "王辅弼",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1955-01-19",
+        "description": {
+          "zh-cn": "国军一江山地区副指挥官王辅弼在战斗后被俘。",
+          "en": "ROC Deputy Commander of the Yijiangshan Area, Wang Fubi, was captured after the battle."
+        }
+      }
+    },
+    {
+      "source": "一江山岛战役",
+      "target": "大陈岛撤退",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1955-01-19",
+        "description": {
+          "zh-cn": "解放军攻占一江山岛后，大陈岛的防御门户洞开，直接导致国军决定并实施大陈岛撤退。",
+          "en": "After the PLA captured the Yijiangshan Islands, the defensive gateway to the Dachen Islands was breached, directly leading to the ROC's decision and implementation of the evacuation of Dachen."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "一江山岛战役",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1953",
+        "description": {
+          "zh-cn": "毛泽东在1953年底提出解决台湾问题，并于1954年指示准备攻打大陈，先解决浙江沿海岛屿，从而推动了一江山岛战役的筹备与发动。",
+          "en": "At the end of 1953, Mao Zedong proposed to solve the Taiwan issue and in 1954 instructed to prepare for an attack on Dachen, starting with the coastal islands of Zhejiang, thus promoting the preparation and launch of the Battle of Yijiangshan Islands."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "中华民国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1954-12-02",
+        "description": {
+          "zh-cn": "美国与中华民国签订《中美共同防御条约》，形成军事同盟关系以对抗中华人民共和国。",
+          "en": "The United States and the Republic of China signed the Sino-American Mutual Defense Treaty, forming a military alliance against the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军海军",
+      "target": "太平号护航驱逐舰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1954-11-14",
+        "description": {
+          "zh-cn": "在一江山岛战役前夕，解放军海军鱼雷艇部队击沉了国军海军的太平号护航驱逐舰。",
+          "en": "On the eve of the Battle of Yijiangshan Islands, PLA Navy torpedo boat units sank the ROC Navy's destroyer escort Tai Ping."
+        }
+      }
+    },
+    {
+      "source": "一江山岛战役",
+      "target": "福尔摩沙决议案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1955-01-29",
+        "description": {
+          "zh-cn": "一江山岛的失陷促使美国国会迅速通过了《福尔摩沙决议案》，以明确美国协防台湾的决心。",
+          "en": "The fall of the Yijiangshan Islands prompted the U.S. Congress to quickly pass the Formosa Resolution to clarify America's determination to assist in the defense of Taiwan."
+        }
+      }
+    },
+    {
+      "source": "美国国会",
+      "target": "福尔摩沙决议案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1955-01-29",
+        "description": {
+          "zh-cn": "美国国会于1955年1月29日通过了《福尔摩沙决议案》。",
+          "en": "The U.S. Congress passed the Formosa Resolution on January 29, 1955."
+        }
+      }
+    },
+    {
+      "source": "美国第7舰队",
+      "target": "大陈岛撤退",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1955-02",
+        "description": {
+          "zh-cn": "美国第七舰队出动132艘舰艇和400架飞机，协助中华民国国军撤离大陈岛的军民。",
+          "en": "The U.S. Seventh Fleet dispatched 132 ships and 400 aircraft to assist the ROC Armed Forces in evacuating military personnel and civilians from the Dachen Islands."
+        }
+      }
+    }
+  ]
+}

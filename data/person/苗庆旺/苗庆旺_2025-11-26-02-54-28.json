@@ -1,0 +1,333 @@
+{
+  "nodes": [
+    {
+      "id": "苗庆旺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "苗庆旺"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1970-02 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "男，汉族，中国政治人物。曾任中共中央纪委副秘书长、广西壮族自治区人民政府副主席，现任中共广西壮族自治区党委常委、政法委书记，自治区法学会会长。",
+          "en": "Male, Han ethnicity, a Chinese political figure. He previously served as Deputy Secretary-General of the Central Commission for Discipline Inspection, Vice Chairman of the People's Government of Guangxi Zhuang Autonomous Region. He currently serves as a Standing Committee Member of the CPC Guangxi Zhuang Autonomous Region Committee, Secretary of the Political and Legal Affairs Commission, and President of the Guangxi Law Society."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央纪律检查委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央纪律检查委员会",
+          "中共中央纪委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的最高纪律检查机关。",
+          "en": "The highest internal disciplinary body of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "广西壮族自治区人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广西壮族自治区人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国广西壮族自治区的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of the Guangxi Zhuang Autonomous Region in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "广西壮族自治区国有资产监督管理委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广西壮族自治区国有资产监督管理委员会",
+          "自治区国资委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "广西壮族自治区人民政府特设直属机构，代表自治区政府履行出资人职责。",
+          "en": "A special directly-affiliated institution of the People's Government of Guangxi Zhuang Autonomous Region, which performs the duties of an investor on behalf of the regional government."
+        }
+      }
+    },
+    {
+      "id": "中国共产党广西壮族自治区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党广西壮族自治区委员会",
+          "中共广西壮族自治区党委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在广西壮族自治区的领导机关。",
+          "en": "The leading body of the Communist Party of China in the Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "中国共产党广西壮族自治区委员会政法委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党广西壮族自治区委员会政法委员会",
+          "广西壮族自治区党委政法委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党广西壮族自治区委员会领导和管理政法工作的职能部门。",
+          "en": "The functional department of the CPC Guangxi Zhuang Autonomous Region Committee that leads and manages political and legal affairs."
+        }
+      }
+    },
+    {
+      "id": "广西壮族自治区法学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广西壮族自治区法学会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "广西壮族自治区法学界、法律界的群众团体和学术团体。",
+          "en": "A public and academic association for the legal and law communities in the Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "凌志峰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "凌志峰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，广西壮族自治区人民政府副主席。",
+          "en": "A Chinese political figure, Vice Chairman of the People's Government of Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "周成方",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周成方"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任广西壮族自治区人民政府副主席。",
+          "en": "A Chinese political figure, former Vice Chairman of the People's Government of Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "何文浩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "何文浩"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中共广西壮族自治区党委常委。",
+          "en": "A Chinese political figure, former Standing Committee Member of the CPC Guangxi Zhuang Autonomous Region Committee."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "苗庆旺",
+      "target": "中国共产党中央纪律检查委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "副秘书长、研究室主任",
+          "en": "Deputy Secretary-General, Director of the Research Office"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext，苗庆旺曾任中共中央纪委副秘书长，及中共中央纪委研究室主任。",
+          "en": "According to the Wikitext, Miao Qingwang served as Deputy Secretary-General of the CPC Central Commission for Discipline Inspection and Director of its Research Office."
+        }
+      }
+    },
+    {
+      "source": "苗庆旺",
+      "target": "广西壮族自治区人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-07",
+        "end_date": null,
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "曾任广西壮族自治区人民政府副主席。",
+          "en": "Served as Vice Chairman of the People's Government of Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "苗庆旺",
+      "target": "广西壮族自治区国有资产监督管理委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "党委书记",
+          "en": "Party Committee Secretary"
+        },
+        "description": {
+          "zh-cn": "曾任广西壮族自治区国资委党委书记。",
+          "en": "Served as Party Committee Secretary of the State-owned Assets Supervision and Administration Commission of Guangxi Zhuang Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "苗庆旺",
+      "target": "中国共产党广西壮族自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2024-07",
+        "end_date": null,
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        },
+        "description": {
+          "zh-cn": "现任中共广西壮族自治区党委常委。",
+          "en": "Currently serves as a Standing Committee Member of the CPC Guangxi Zhuang Autonomous Region Committee."
+        }
+      }
+    },
+    {
+      "source": "苗庆旺",
+      "target": "中国共产党广西壮族自治区委员会政法委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "现任中共广西壮族自治区党委政法委书记。",
+          "en": "Currently serves as Secretary of the Political and Legal Affairs Commission of the CPC Guangxi Zhuang Autonomous Region Committee."
+        }
+      }
+    },
+    {
+      "source": "苗庆旺",
+      "target": "广西壮族自治区法学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "会长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "现任广西壮族自治区法学会会长。",
+          "en": "Currently serves as President of the Guangxi Law Society."
+        }
+      }
+    },
+    {
+      "source": "中国共产党广西壮族自治区委员会政法委员会",
+      "target": "中国共产党广西壮族自治区委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {},
+        "description": {
+          "zh-cn": "政法委是党委领导和管理政法工作的职能部门。",
+          "en": "The Political and Legal Affairs Commission is a functional department under the leadership and management of the Party Committee for political and legal affairs."
+        }
+      }
+    },
+    {
+      "source": "苗庆旺",
+      "target": "何文浩",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2024-07",
+        "end_date": null,
+        "position": {},
+        "description": {
+          "zh-cn": "2024年7月，苗庆旺接替何文浩担任中共广西壮族自治区党委常委职务。",
+          "en": "In July 2024, Miao Qingwang succeeded He Wenhao as a Standing Committee Member of the CPC Guangxi Zhuang Autonomous Region Committee."
+        }
+      }
+    },
+    {
+      "source": "苗庆旺",
+      "target": "凌志峰",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-07",
+        "end_date": null,
+        "position": {},
+        "description": {
+          "zh-cn": "2022年7月，苗庆旺与凌志峰一同被任命为广西壮族自治区人民政府副主席。",
+          "en": "In July 2022, Miao Qingwang was appointed Vice Chairman of the People's Government of Guangxi Zhuang Autonomous Region along with Ling Zhifeng."
+        }
+      }
+    },
+    {
+      "source": "苗庆旺",
+      "target": "周成方",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-07",
+        "end_date": null,
+        "position": {},
+        "description": {
+          "zh-cn": "2022年7月，苗庆旺被任命为广西壮族自治区政府副主席，与此同时周成方不再担任此职务。",
+          "en": "In July 2022, Miao Qingwang was appointed Vice Chairman of the People's Government of Guangxi Zhuang Autonomous Region, while Zhou Chengfang ceased to hold this position."
+        }
+      }
+    }
+  ]
+}
