@@ -1,0 +1,908 @@
+{
+  "nodes": [
+    {
+      "id": "台湾问题",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "台湾问题",
+          "两岸问题",
+          "统独议题",
+          "台湾议题",
+          "台湾政治地位问题",
+          "中华民国问题",
+          "中国问题"
+        ],
+        "en": [
+          "Taiwan issue"
+        ]
+      },
+      "properties": {
+        "period": "1945 - ",
+        "description": {
+          "zh-cn": "指第二次世界大战及第二次国共内战后，关于台湾政权及主权归属的争议，是海峡两岸关系的核心问题。",
+          "en": "Refers to the dispute over the sovereignty and governing authority of Taiwan after World War II and the Second Chinese Civil War, a core element of Cross-Strait relations."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "location": {
+          "zh-cn": "中国大陆",
+          "en": "Mainland China"
+        },
+        "description": {
+          "zh-cn": "1949年在中国大陆成立的社会主义国家，主张拥有对台湾的主权，并谋求中国统一。",
+          "en": "A socialist state established in mainland China in 1949, which claims sovereignty over Taiwan and seeks Chinese unification."
+        }
+      }
+    },
+    {
+      "id": "中华民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国"
+        ],
+        "en": [
+          "Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1912-01-01 - ",
+        "location": {
+          "zh-cn": "台湾",
+          "en": "Taiwan"
+        },
+        "description": {
+          "zh-cn": "1912年在中国大陆成立的共和国，其政府于1949年迁至台湾。现实际管辖台湾、澎湖、金门、马祖等地区。",
+          "en": "A republic founded in mainland China in 1912, whose government relocated to Taiwan in 1949. It currently administers Taiwan, Penghu, Kinmen, Matsu, and other areas."
+        }
+      }
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战"
+        ],
+        "en": [
+          "Second Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "period": "1945 - 1949",
+        "description": {
+          "zh-cn": "中国国民党与中国共产党之间在中国境内爆发的内战。其结果是中国共产党取得中国大陆的控制权并建立中华人民共和国，中华民国政府则迁至台湾。",
+          "en": "A civil war in China fought between the Kuomintang and the Communist Party of China. It resulted in the Communist Party gaining control of mainland China and establishing the People's Republic of China, while the government of the Republic of China retreated to Taiwan."
+        }
+      }
+    },
+    {
+      "id": "中华民国政府迁台",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中华民国政府迁台",
+          "国府迁台"
+        ],
+        "en": [
+          "Relocation of the government of the Republic of China to Taiwan"
+        ]
+      },
+      "properties": {
+        "period": "1949-12-07",
+        "location": {
+          "zh-cn": "台北市",
+          "en": "Taipei"
+        },
+        "description": {
+          "zh-cn": "第二次国共内战后，中华民国政府将其中央政府机构迁移至台湾台北市的事件。",
+          "en": "The event where the government of the Republic of China relocated its central government agencies to Taipei, Taiwan, after the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "开罗宣言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "开罗宣言"
+        ],
+        "en": [
+          "Cairo Declaration"
+        ]
+      },
+      "properties": {
+        "period": "1943-12-01",
+        "description": {
+          "zh-cn": "由中华民国、美国、英国三国首脑发表的对日作战宣言，其中声明日本所窃取于中国之领土，如台湾、澎湖群岛等，应归还中华民国。",
+          "en": "A declaration issued by the leaders of the Republic of China, the United States, and the United Kingdom, which stated that all the territories Japan had stolen from the Chinese, such as Taiwan and the Pescadores, shall be restored to the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "波茨坦公告",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "波茨坦公告",
+          "波茨坦宣言"
+        ],
+        "en": [
+          "Potsdam Declaration"
+        ]
+      },
+      "properties": {
+        "period": "1945-07-26",
+        "description": {
+          "zh-cn": "由中美英三国（后有苏联加入）发表的对日最后通牒，其第八条重申《开罗宣言》之条件必须实施。",
+          "en": "An ultimatum issued by the United States, China, and the United Kingdom (later joined by the Soviet Union) to Japan, which reaffirmed in its eighth article that the terms of the Cairo Declaration shall be carried out."
+        }
+      }
+    },
+    {
+      "id": "旧金山和约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "旧金山和约",
+          "旧金山对日和平条约"
+        ],
+        "en": [
+          "Treaty of San Francisco"
+        ]
+      },
+      "properties": {
+        "period": "1951-09-08",
+        "description": {
+          "zh-cn": "二战同盟国与日本签订的和平条约，其中日本放弃对台湾及澎湖列岛的一切权利，但未明确指定接收国，成为“台湾地位未定论”的法理基础之一。",
+          "en": "A peace treaty signed between the Allied Powers and Japan, in which Japan renounced all rights to Taiwan and the Pescadores but did not specify a recipient state, becoming one of the legal bases for the 'Theory of the Undetermined Status of Taiwan'."
+        }
+      }
+    },
+    {
+      "id": "联合国大会第2758号决议",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "联合国大会第2758号决议"
+        ],
+        "en": [
+          "United Nations General Assembly Resolution 2758"
+        ]
+      },
+      "properties": {
+        "period": "1971-10-25",
+        "description": {
+          "zh-cn": "联合国大会通过的决议，决定恢复中华人民共和国在联合国的一切权利，并承认其政府的代表为中国在联合国组织的唯一合法代表，同时驱逐“蒋介石的代表”。",
+          "en": "A resolution passed by the UN General Assembly that decided to restore all rights of the People's Republic of China and to recognize the representatives of its Government as the only legitimate representatives of China to the United Nations, and to expel forthwith the representatives of 'Chiang Kai-shek'."
+        }
+      }
+    },
+    {
+      "id": "朝鲜战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "朝鲜战争",
+          "韩战"
+        ],
+        "en": [
+          "Korean War"
+        ]
+      },
+      "properties": {
+        "period": "1950-06-25 - 1953-07-27",
+        "description": {
+          "zh-cn": "朝鲜半岛上的一场战争，其爆发促使美国改变对台政策，派遣第七舰队巡弋台湾海峡，客观上阻止了中华人民共和国攻台计划。",
+          "en": "A war on the Korean Peninsula, the outbreak of which prompted the United States to change its policy towards Taiwan, dispatching the Seventh Fleet to patrol the Taiwan Strait, which objectively prevented the PRC's plan to attack Taiwan."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国",
+          "美利坚合众国"
+        ],
+        "en": [
+          "United States",
+          "United States of America"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在台湾问题中扮演关键角色的世界大国。曾在冷战期间与中华民国签订《中美共同防御条约》，断交后制定《台湾关系法》，持续对台军售并奉行“一个中国政策”。",
+          "en": "A world power that plays a crucial role in the Taiwan issue. It signed the Sino-American Mutual Defense Treaty with the Republic of China during the Cold War. After severing diplomatic relations, it enacted the Taiwan Relations Act, continuing arms sales to Taiwan and pursuing a 'One-China policy'."
+        }
+      }
+    },
+    {
+      "id": "哈瑞·S·杜鲁门",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈瑞·S·杜鲁门",
+          "杜鲁门"
+        ],
+        "en": [
+          "Harry S. Truman"
+        ]
+      },
+      "properties": {
+        "lifetime": "1884-05-08 - 1972-12-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第33任总统。朝鲜战争爆发后，他改变了对台“袖手旁观”的政策，派遣第七舰队巡弋台湾海峡，并提出“台湾地位未定论”。",
+          "en": "The 33rd President of the United States. After the outbreak of the Korean War, he changed his 'hands-off' policy towards Taiwan, dispatched the Seventh Fleet to patrol the Taiwan Strait, and proposed the 'Theory of the Undetermined Status of Taiwan'."
+        }
+      }
+    },
+    {
+      "id": "第七舰队 (美国海军)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第七舰队 (美国海军)",
+          "第七舰队"
+        ],
+        "en": [
+          "United States Seventh Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国海军的编号舰队，隶属于美国印太司令部。朝鲜战争爆发后，受杜鲁门总统命令进驻台湾海峡，阻止两岸发生军事冲突。",
+          "en": "A numbered fleet of the U.S. Navy, under the command of the U.S. Indo-Pacific Command. After the Korean War broke out, it was ordered by President Truman to enter the Taiwan Strait to prevent military conflict between the two sides."
+        }
+      }
+    },
+    {
+      "id": "台湾地位未定论",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "台湾地位未定论"
+        ],
+        "en": [
+          "Theory of the Undetermined Status of Taiwan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种关于台湾主权归属的观点，认为在《旧金山和约》中日本仅放弃对台湾的主权，并未指明其归属，因此台湾的法律地位尚未确定。",
+          "en": "A perspective on Taiwan's sovereignty, arguing that since Japan only renounced sovereignty over Taiwan in the Treaty of San Francisco without specifying its transfer, Taiwan's legal status remains undetermined."
+        }
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": [
+          "Deng Xiaoping"
+        ]
+      },
+      "properties": {
+        "lifetime": "1904-08-22 - 1997-02-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国第二代中央领导集体核心，改革开放的总设计师。他提出了“和平统一、一国两制”的构想来解决台湾问题。",
+          "en": "The core of the second generation of central leadership of the People's Republic of China and the chief architect of the reform and opening-up policy. He proposed the 'peaceful reunification, one country, two systems' concept to resolve the Taiwan issue."
+        }
+      }
+    },
+    {
+      "id": "一国两制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "一国两制"
+        ],
+        "en": [
+          "One country, two systems"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由邓小平提出的解决台湾、香港和澳门问题的构想，主张在中华人民共和国境内，大陆实行社会主义制度，而台湾、香港、澳门可保留原有的资本主义制度。",
+          "en": "A concept proposed by Deng Xiaoping for resolving the issues of Taiwan, Hong Kong, and Macau, advocating that within the People's Republic of China, the mainland would practice socialism while Taiwan, Hong Kong, and Macau could retain their existing capitalist systems."
+        }
+      }
+    },
+    {
+      "id": "李登辉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李登辉"
+        ],
+        "en": [
+          "Lee Teng-hui"
+        ]
+      },
+      "properties": {
+        "lifetime": "1923-01-15 - 2020-07-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国第八、九任总统，任内推动台湾民主化，后期提出“特殊的国与国关系”（两国论）。",
+          "en": "The 8th and 9th President of the Republic of China. During his tenure, he promoted Taiwan's democratization and later proposed the 'special state-to-state relationship' (Two-states theory)."
+        }
+      }
+    },
+    {
+      "id": "特殊的国与国关系",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "特殊的国与国关系",
+          "两国论"
+        ],
+        "en": [
+          "Special state-to-state relations",
+          "Two-states theory"
+        ]
+      },
+      "properties": {
+        "period": "1999-07-09",
+        "description": {
+          "zh-cn": "由时任中华民国总统李登辉提出的关于海峡两岸关系的论述，认为台湾和中国大陆的关系是“国与国的关系，至少是特殊的国与国关系”。",
+          "en": "A discourse on cross-strait relations proposed by then-ROC President Lee Teng-hui, positing that the relationship between Taiwan and mainland China is a 'state-to-state relationship, or at least a special state-to-state relationship'."
+        }
+      }
+    },
+    {
+      "id": "陈水扁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈水扁"
+        ],
+        "en": [
+          "Chen Shui-bian"
+        ]
+      },
+      "properties": {
+        "lifetime": "1950-10-12 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国第十、十一任总统，民主进步党籍。任内曾提出“一边一国”论述。",
+          "en": "The 10th and 11th President of the Republic of China, a member of the Democratic Progressive Party. During his tenure, he proposed the 'One Country on Each Side' theory."
+        }
+      }
+    },
+    {
+      "id": "一边一国",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "一边一国"
+        ],
+        "en": [
+          "One Country on Each Side"
+        ]
+      },
+      "properties": {
+        "period": "2002-08-02",
+        "description": {
+          "zh-cn": "由时任中华民国总统陈水扁提出的两岸关系论述，强调“台湾、中国，一边一国，要分清楚”。",
+          "en": "A discourse on cross-strait relations proposed by then-ROC President Chen Shui-bian, emphasizing that 'Taiwan and China, one country on each side, must be clearly distinguished'."
+        }
+      }
+    },
+    {
+      "id": "马英九",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马英九"
+        ],
+        "en": [
+          "Ma Ying-jeou"
+        ]
+      },
+      "properties": {
+        "lifetime": "1950-07-13 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国第十二、十三任总统，中国国民党籍。任内主张“不统、不独、不武”的立场，并接受“九二共识”。",
+          "en": "The 12th and 13th President of the Republic of China, a member of the Kuomintang. During his tenure, he advocated a stance of 'no unification, no independence, and no use of force' and accepted the '1992 Consensus'."
+        }
+      }
+    },
+    {
+      "id": "九二共识",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "九二共识"
+        ],
+        "en": [
+          "1992 Consensus"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指海峡两岸于1992年就“一个中国”原则达成的共识，但双方对其具体内涵的表述存在差异。中华人民共和国方面认为其核心是“海峡两岸均坚持一个中国原则”，中国国民党方面则强调“一中各表”。",
+          "en": "Refers to a consensus reached between the two sides of the Taiwan Strait in 1992 regarding the 'One-China Principle', though there are differences in their interpretations of its specific content. The PRC considers its core to be 'both sides of the strait adhere to the One-China Principle', while the KMT emphasizes 'One China, different interpretations'."
+        }
+      }
+    },
+    {
+      "id": "蔡英文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蔡英文"
+        ],
+        "en": [
+          "Tsai Ing-wen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1956-08-31 - ",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中华民国第十四、十五任总统，民主进步党籍。任内不承认“九二共识”，并强调“海峡两岸互不隶属”。",
+          "en": "The 14th and 15th President of the Republic of China, a member of the Democratic Progressive Party. During her tenure, she did not recognize the '1992 Consensus' and emphasized that 'neither side of the Taiwan Strait is subordinate to the other'."
+        }
+      }
+    },
+    {
+      "id": "海峡两岸互不隶属",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "海峡两岸互不隶属"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国总统蔡英文及赖清德政府时期对海峡两岸关系的论述，强调中华民国与中华人民共和国互不隶属。",
+          "en": "A discourse on cross-strait relations during the administrations of ROC Presidents Tsai Ing-wen and Lai Ching-te, emphasizing that the Republic of China and the People's Republic of China are not subordinate to each other."
+        }
+      }
+    },
+    {
+      "id": "赖清德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赖清德"
+        ],
+        "en": [
+          "Lai Ching-te"
+        ]
+      },
+      "properties": {
+        "lifetime": "1959-10-06 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国第十六任总统，民主进步党籍。延续蔡英文政府的立场，主张台湾与中华人民共和国互不隶属。",
+          "en": "The 16th President of the Republic of China, a member of the Democratic Progressive Party. Continuing the stance of the Tsai Ing-wen administration, he advocates that Taiwan and the People's Republic of China are not subordinate to each other."
+        }
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": [
+          "Xi Jinping"
+        ]
+      },
+      "properties": {
+        "lifetime": "1953-06-15 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "现任中国共产党中央委员会总书记、中华人民共和国主席。执政时期明确提出“一国两制台湾方案”。",
+          "en": "The current General Secretary of the Central Committee of the Communist Party of China and President of the People's Republic of China. During his rule, he explicitly proposed the 'Taiwan plan for one country, two systems'."
+        }
+      }
+    },
+    {
+      "id": "一国两制台湾方案",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "一国两制台湾方案"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中共中央总书记习近平提出的，探索“两制”台湾方案，以实现和平统一目标的方针。",
+          "en": "A policy proposed by CPC General Secretary Xi Jinping to explore a 'two systems' plan for Taiwan to achieve the goal of peaceful unification."
+        }
+      }
+    },
+    {
+      "id": "台湾独立运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "台湾独立运动",
+          "台独"
+        ],
+        "en": [
+          "Taiwan independence movement"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "主张台湾成为一个独立主权国家的政治运动，其诉求包括建立“台湾共和国”或使“中华民国”成为一个仅代表台湾的独立国家。",
+          "en": "A political movement advocating for Taiwan to become an independent sovereign state. Its goals include establishing a 'Republic of Taiwan' or making the 'Republic of China' an independent state representing only Taiwan."
+        }
+      }
+    },
+    {
+      "id": "反分裂国家法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "反分裂国家法"
+        ],
+        "en": [
+          "Anti-Secession Law"
+        ]
+      },
+      "properties": {
+        "period": "2005-03-14",
+        "description": {
+          "zh-cn": "中华人民共和国制定的法律，旨在反对和遏制“台独”分裂势力，其中规定了在特定条件下可采取非和平方式解决台湾问题。",
+          "en": "A law enacted by the People's Republic of China aimed at opposing and containing 'Taiwan independence' secessionist forces, which stipulates that non-peaceful means may be used to resolve the Taiwan issue under certain conditions."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "前台湾殖民统治者。在《旧金山和约》中放弃对台湾的主权。1972年与中华人民共和国建交，并承认中华人民共和国为中国唯一合法政府，同时废止《中日和约》。",
+          "en": "The former colonial ruler of Taiwan. It renounced sovereignty over Taiwan in the Treaty of San Francisco. In 1972, it established diplomatic relations with the People's Republic of China, recognized the PRC as the sole legal government of China, and abrogated the Treaty of Peace with the ROC."
+        }
+      }
+    },
+    {
+      "id": "甲午战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "甲午战争"
+        ],
+        "en": [
+          "First Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1894 - 1895",
+        "description": {
+          "zh-cn": "清朝与日本之间因朝鲜问题爆发的战争。清朝战败后，签订《马关条约》，将台湾割让给日本。",
+          "en": "A war between the Qing dynasty and Japan over the issue of Korea. After its defeat, the Qing dynasty signed the Treaty of Shimonoseki, ceding Taiwan to Japan."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1644 - 1912",
+        "description": {
+          "zh-cn": "中国最后一个封建王朝，在甲午战争战败后将台湾割让给日本。",
+          "en": "The last imperial dynasty of China, which ceded Taiwan to Japan after its defeat in the First Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "马关条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "马关条约"
+        ],
+        "en": [
+          "Treaty of Shimonoseki"
+        ]
+      },
+      "properties": {
+        "period": "1895-04-17",
+        "description": {
+          "zh-cn": "甲午战争后清朝与日本签订的不平等条约，其中规定清政府将台湾全岛及澎湖列岛割让给日本。",
+          "en": "An unequal treaty signed between the Qing dynasty and Japan after the First Sino-Japanese War, which stipulated that the Qing government cede the island of Taiwan and the Pescadores to Japan."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "第二次国共内战",
+      "target": "台湾问题",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "第二次国共内战造成中国共产党在中国大陆建立中华人民共和国，中华民国政府迁往台湾，从而引发了关于台湾主权和政权归属的台湾问题。",
+          "en": "The Second Chinese Civil War led to the establishment of the People's Republic of China on the mainland by the CCP and the retreat of the ROC government to Taiwan, thereby giving rise to the Taiwan issue concerning Taiwan's sovereignty and governing authority."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "中华民国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1949-10-01",
+        "description": {
+          "zh-cn": "自1949年以来，中华人民共和国与退守台湾的中华民国在政治、军事、外交等方面长期对立，双方互不承认对方主权，并争夺中国的合法代表权。",
+          "en": "Since 1949, the People's Republic of China and the Republic of China, which retreated to Taiwan, have been in a long-term state of political, military, and diplomatic confrontation, with neither side recognizing the other's sovereignty and both competing for the legitimate representation of China."
+        }
+      }
+    },
+    {
+      "source": "开罗宣言",
+      "target": "中华民国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1943-12-01",
+        "description": {
+          "zh-cn": "《开罗宣言》明确表示，日本所窃取的如台湾、澎湖群岛等领土应归还中华民国，为战后中华民国接收台湾提供了法理依据。",
+          "en": "The Cairo Declaration explicitly stated that territories stolen by Japan, such as Taiwan and the Pescadores, should be restored to the Republic of China, providing a legal basis for the ROC's post-war takeover of Taiwan."
+        }
+      }
+    },
+    {
+      "source": "波茨坦公告",
+      "target": "开罗宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-07-26",
+        "description": {
+          "zh-cn": "《波茨坦公告》第八条重申“《开罗宣言》之条件必须实施”，确认并加强了《开罗宣言》的效力。",
+          "en": "Article 8 of the Potsdam Declaration reaffirmed that 'The terms of the Cairo Declaration shall be carried out,' thus confirming and strengthening the validity of the Cairo Declaration."
+        }
+      }
+    },
+    {
+      "source": "旧金山和约",
+      "target": "台湾地位未定论",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1951-09-08",
+        "description": {
+          "zh-cn": "《旧金山和约》中日本仅声明放弃对台湾的主权，但未明确将其移交给任何国家，这一模糊性成为“台湾地位未定论”的主要法理依据。",
+          "en": "In the Treaty of San Francisco, Japan only renounced its sovereignty over Taiwan without explicitly transferring it to any country. This ambiguity became the main legal basis for the 'Theory of the Undetermined Status of Taiwan'."
+        }
+      }
+    },
+    {
+      "source": "朝鲜战争",
+      "target": "美国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1950-06-25",
+        "description": {
+          "zh-cn": "朝鲜战争的爆发促使美国总统杜鲁门改变对台海局势的“袖手旁观”政策，转为积极介入，以防止共产主义扩张。",
+          "en": "The outbreak of the Korean War prompted U.S. President Truman to change his 'hands-off' policy regarding the Taiwan Strait situation, shifting to active intervention to prevent communist expansion."
+        }
+      }
+    },
+    {
+      "source": "哈瑞·S·杜鲁门",
+      "target": "第七舰队 (美国海军)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1950-06-27",
+        "description": {
+          "zh-cn": "1950年6月27日，美国总统杜鲁门命令第七舰队进驻台湾海峡，以阻止任何对台湾的进攻，并确保台湾中立化。",
+          "en": "On June 27, 1950, U.S. President Truman ordered the Seventh Fleet into the Taiwan Strait to prevent any attack on Taiwan and to ensure its neutralization."
+        }
+      }
+    },
+    {
+      "source": "第七舰队 (美国海军)",
+      "target": "中华人民共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1950-06-27",
+        "description": {
+          "zh-cn": "第七舰队巡弋台湾海峡，有效阻止了中华人民共和国在当时武力攻占台湾的计划。",
+          "en": "The patrolling of the Taiwan Strait by the Seventh Fleet effectively blocked the People's Republic of China's plan to take Taiwan by force at that time."
+        }
+      }
+    },
+    {
+      "source": "联合国大会第2758号决议",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1971-10-25",
+        "description": {
+          "zh-cn": "该决议承认中华人民共和国政府的代表为中国在联合国的唯一合法代表，使其取得了原由中华民国拥有的联合国“中国”席位。",
+          "en": "This resolution recognized the representatives of the Government of the People's Republic of China as the only lawful representatives of China to the United Nations, allowing it to take over the 'China' seat in the UN previously held by the Republic of China."
+        }
+      }
+    },
+    {
+      "source": "联合国大会第2758号决议",
+      "target": "中华民国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1971-10-25",
+        "description": {
+          "zh-cn": "该决议将“蒋介石的代表”从联合国及其所属一切机构中驱逐出去，导致中华民国退出联合国，在国际上陷入孤立。",
+          "en": "The resolution expelled the 'representatives of Chiang Kai-shek' from the United Nations and all the organizations related to it, leading to the Republic of China's withdrawal from the UN and its subsequent international isolation."
+        }
+      }
+    },
+    {
+      "source": "邓小平",
+      "target": "一国两制",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "邓小平是“一国两制”构想的主要提出者，以此作为解决台湾、香港和澳门问题的基本方针。",
+          "en": "Deng Xiaoping was the main proponent of the 'one country, two systems' concept, proposing it as a fundamental policy for resolving the issues of Taiwan, Hong Kong, and Macau."
+        }
+      }
+    },
+    {
+      "source": "李登辉",
+      "target": "特殊的国与国关系",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1999-07-09",
+        "description": {
+          "zh-cn": "时任中华民国总统李登辉在接受德国之声专访时，首次提出海峡两岸为“特殊的国与国关系”，即“两国论”。",
+          "en": "Then-ROC President Lee Teng-hui first proposed that the cross-strait relationship was a 'special state-to-state relationship,' also known as the 'two-states theory,' during an interview with Deutsche Welle."
+        }
+      }
+    },
+    {
+      "source": "陈水扁",
+      "target": "一边一国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2002-08-02",
+        "description": {
+          "zh-cn": "时任中华民国总统陈水扁在世界台湾人大会上提出“台湾、中国，一边一国”的论述，主张台湾与中国是两个不同的国家。",
+          "en": "Then-ROC President Chen Shui-bian proposed the 'One Country on Each Side' discourse at a World Federation of Taiwanese Associations conference, advocating that Taiwan and China are two different countries."
+        }
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "一国两制台湾方案",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-01-02",
+        "description": {
+          "zh-cn": "中共中央总书记习近平在《告台湾同胞书》发表40周年纪念会上，明确提出探索“两制”台湾方案，丰富和平统一实践。",
+          "en": "CPC General Secretary Xi Jinping, at the 40th anniversary of the 'Message to Compatriots in Taiwan', explicitly proposed exploring a 'two systems' Taiwan plan to enrich the practice of peaceful unification."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国",
+      "target": "反分裂国家法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2005-03-14",
+        "description": {
+          "zh-cn": "为反对和遏制“台独”分裂势力，中华人民共和国第十届全国人民代表大会通过了《反分裂国家法》。",
+          "en": "To oppose and curb 'Taiwan independence' secessionist forces, the 10th National People's Congress of the People's Republic of China passed the Anti-Secession Law."
+        }
+      }
+    },
+    {
+      "source": "反分裂国家法",
+      "target": "台湾独立运动",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2005-03-14",
+        "description": {
+          "zh-cn": "该法旨在从法律层面遏制台湾独立运动，并为采取非和平方式解决台湾问题提供了法律依据。",
+          "en": "This law aims to legally curb the Taiwan independence movement and provides a legal basis for using non-peaceful means to resolve the Taiwan issue."
+        }
+      }
+    },
+    {
+      "source": "甲午战争",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1895-04-17",
+        "description": {
+          "zh-cn": "清朝在甲午战争中战败，被迫与日本签订《马关条约》，割让台湾及澎湖列岛。",
+          "en": "The Qing dynasty was defeated in the First Sino-Japanese War and was forced to sign the Treaty of Shimonoseki with Japan, ceding Taiwan and the Pescadores."
+        }
+      }
+    },
+    {
+      "source": "马关条约",
+      "target": "日本",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1895-04-17",
+        "description": {
+          "zh-cn": "根据《马关条约》，清朝将台湾全岛、澎湖列岛割让给日本，开启了日本对台湾的殖民统治时期。",
+          "en": "According to the Treaty of Shimonoseki, the Qing dynasty ceded the entire island of Taiwan and the Pescadores to Japan, beginning the period of Japanese colonial rule over Taiwan."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "中华民国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1954-12-02",
+        "end_date": "1979-12-31",
+        "description": {
+          "zh-cn": "美国与中华民国于1954年签订《中美共同防御条约》，形成军事同盟关系。断交后，美国国会通过《台湾关系法》，继续维持与台湾的非官方关系并提供防御性武器。",
+          "en": "The United States and the Republic of China signed the Sino-American Mutual Defense Treaty in 1954, forming a military alliance. After the severance of diplomatic relations, the U.S. Congress passed the Taiwan Relations Act to continue maintaining unofficial relations with Taiwan and providing defensive weapons."
+        }
+      }
+    },
+    {
+      "source": "赖清德",
+      "target": "海峡两岸互不隶属",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2024-05-20",
+        "description": {
+          "zh-cn": "赖清德在总统就职典礼上发表了台湾与中华人民共和国互不隶属的观点，延续并明确了其政府的两岸关系立场。",
+          "en": "In his presidential inauguration speech, Lai Ching-te stated the view that Taiwan and the People's Republic of China are not subordinate to each other, continuing and clarifying his administration's stance on cross-strait relations."
+        }
+      }
+    },
+    {
+      "source": "蔡英文",
+      "target": "海峡两岸互不隶属",
+      "type": "PUSHED",
+      "properties": {
+        "period": "[2016-05-20, 2024-05-20]",
+        "description": {
+          "zh-cn": "蔡英文在总统任内不承认九二共识，并转为强调“海峡两岸互不隶属”的立场。",
+          "en": "During her presidency, Tsai Ing-wen did not recognize the 1992 Consensus and shifted to emphasizing the stance that 'neither side of the Taiwan Strait is subordinate to the other'."
+        }
+      }
+    }
+  ]
+}

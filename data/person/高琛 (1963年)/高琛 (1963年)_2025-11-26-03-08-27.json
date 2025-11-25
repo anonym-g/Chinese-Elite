@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "id": "高琛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "高琛"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1963-11 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "义县",
+          "en": "Yixian"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员，第十三届全国人民代表大会辽宁省代表。",
+          "en": "A politician of the People's Republic of China, a member of the Communist Party of China, and a deputy from Liaoning Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "义县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "义县"
+        ],
+        "en": [
+          "Yixian"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03-05 - 2023-03-13"
+      }
+    },
+    {
+      "id": "辽宁省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "辽宁省",
+          "辽宁"
+        ],
+        "en": [
+          "Liaoning"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "全国人民代表大会代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人民代表大会代表",
+          "全国人大代表"
+        ],
+        "en": [
+          "Deputy to the National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国最高国家权力机关全国人民代表大会的组成人员。",
+          "en": "A member of the National People's Congress, the highest state authority of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "高琛",
+      "target": "义县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "高琛是辽宁义县人。",
+          "en": "Gao Chen is from Yixian, Liaoning."
+        }
+      }
+    },
+    {
+      "source": "高琛",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "高琛是中国共产党党员。",
+          "en": "Gao Chen is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "高琛",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "辽宁省代表",
+          "en": "Deputy from Liaoning Province"
+        },
+        "description": {
+          "zh-cn": "2018年，高琛被选为辽宁省出席第十三届全国人民代表大会代表。",
+          "en": "In 2018, Gao Chen was elected as a deputy from Liaoning Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "高琛",
+      "target": "全国人民代表大会代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "description": {
+          "zh-cn": "高琛担任第十三届全国人民代表大会代表。",
+          "en": "Gao Chen serves as a deputy to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "nodes": [
+    {
+      "id": "十一月革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "十一月革命",
+          "1918年—1919年德国革命"
+        ],
+        "en": [
+          "German Revolution of 1918–1919",
+          "November Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1918-11-03 - 1919-08-11",
+        "location": {
+          "zh-cn": "德国",
+          "en": "Germany"
+        },
+        "description": {
+          "zh-cn": "德意志帝国在第一次世界大战末期发生的一系列事件，导致霍亨索伦王朝被推翻，并建立了魏玛共和国。",
+          "en": "A series of events in the German Empire at the end of World War I, which resulted in the overthrow of the House of Hohenzollern and the establishment of the Weimar Republic."
+        }
+      }
+    },
+    {
+      "id": "第一次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次世界大战"
+        ],
+        "en": [
+          "World War I"
+        ]
+      },
+      "properties": {
+        "period": "1914-07-28 - 1918-11-11",
+        "description": {
+          "zh-cn": "一场主要发生在欧洲的全球性战争，其导致的民生灾难是德国十一月革命的诱因之一。",
+          "en": "A global war primarily centered in Europe. The resulting social and economic hardships were a major cause of the German November Revolution."
+        }
+      }
+    },
+    {
+      "id": "威廉二世 (德国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉二世 (德国)",
+          "威廉二世"
+        ],
+        "en": [
+          "Wilhelm II, German Emperor",
+          "Wilhelm II"
+        ]
+      },
+      "properties": {
+        "lifetime": "1859-01-27 - 1941-06-04",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德意志帝国末代皇帝和普鲁士王国末代国王，在十一月革命期间被迫退位。",
+          "en": "The last German Emperor and King of Prussia, who was forced to abdicate during the November Revolution."
+        }
+      }
+    },
+    {
+      "id": "德意志帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德意志帝国"
+        ],
+        "en": [
+          "German Empire"
+        ]
+      },
+      "properties": {
+        "period": "1871-01-18 - 1918-11-09",
+        "description": {
+          "zh-cn": "1871年至1918年间存在的德意志民族国家，在十一月革命后灭亡。",
+          "en": "The German nation-state that existed from 1871 to 1918, which fell after the November Revolution."
+        }
+      }
+    },
+    {
+      "id": "威玛共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "威玛共和国",
+          "魏玛共和国",
+          "德意志共和国"
+        ],
+        "en": [
+          "Weimar Republic"
+        ]
+      },
+      "properties": {
+        "period": "1918-11-09 - 1933-03-23",
+        "description": {
+          "zh-cn": "德国在1918年至1933年间采用共和制的国号，是在十一月革命后建立的。",
+          "en": "The German state from 1918 to 1933, which adopted a republican form of government and was established following the November Revolution."
+        }
+      }
+    },
+    {
+      "id": "康边停战协定",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "康边停战协定"
+        ],
+        "en": [
+          "Armistice of 11 November 1918"
+        ]
+      },
+      "properties": {
+        "period": "1918-11-11",
+        "description": {
+          "zh-cn": "标志第一次世界大战结束的停战协定。由于国内爆发革命，德国被迫接受严苛的停火条件。",
+          "en": "The armistice that marked the end of World War I. Germany was forced to accept harsh ceasefire terms due to the revolution within the country."
+        }
+      }
+    },
+    {
+      "id": "斯巴达克同盟起义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "斯巴达克同盟起义"
+        ],
+        "en": [
+          "Spartacist uprising"
+        ]
+      },
+      "properties": {
+        "period": "1919-01-05 - 1919-01-12",
+        "location": {
+          "zh-cn": "柏林",
+          "en": "Berlin"
+        },
+        "description": {
+          "zh-cn": "由斯巴达克同盟等左翼组织在柏林发动的一次武装起义，最终被魏玛政府镇压。",
+          "en": "An armed uprising in Berlin launched by the Spartacus League and other left-wing organizations, which was ultimately suppressed by the Weimar government."
+        }
+      }
+    },
+    {
+      "id": "德国社会民主党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德国社会民主党",
+          "社会民主党"
+        ],
+        "en": [
+          "Social Democratic Party of Germany"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "德国政党。在十一月革命后成为执政党，领导了魏玛共和国的建立，并镇压了更激进的左翼起义。",
+          "en": "A German political party. It became the ruling party after the November Revolution, led the establishment of the Weimar Republic, and suppressed more radical left-wing uprisings."
+        }
+      }
+    },
+    {
+      "id": "自由军团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "自由军团"
+        ],
+        "en": [
+          "Freikorps"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "德国右翼准军事组织，在一战后被魏玛共和国政府用来镇压左翼革命，如斯巴达克同盟起义。",
+          "en": "Right-wing German paramilitary units that were used by the Weimar Republic government after WWI to suppress left-wing revolutions, such as the Spartacist uprising."
+        }
+      }
+    },
+    {
+      "id": "斯巴达克同盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "斯巴达克同盟",
+          "斯巴达克派"
+        ],
+        "en": [
+          "Spartacus League"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "德国马克思主义革命组织，在十一月革命后期发动了斯巴达克同盟起义，试图建立社会主义共和国。",
+          "en": "A German Marxist revolutionary organization that launched the Spartacist uprising in the later stages of the November Revolution in an attempt to establish a socialist republic."
+        }
+      }
+    },
+    {
+      "id": "基尔水兵兵变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "基尔水兵兵变",
+          "基尔起义"
+        ],
+        "en": [
+          "Kiel mutiny"
+        ]
+      },
+      "properties": {
+        "period": "1918-10-29 - 1918-11-03",
+        "location": {
+          "zh-cn": "基尔",
+          "en": "Kiel"
+        },
+        "description": {
+          "zh-cn": "德国海军水兵因拒绝出战而发动的兵变，被视为十一月革命的开端。",
+          "en": "A mutiny by German sailors who refused to go into battle, considered the starting point of the November Revolution."
+        }
+      }
+    },
+    {
+      "id": "霍亨索伦王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "霍亨索伦王朝"
+        ],
+        "en": [
+          "House of Hohenzollern"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "曾统治普鲁士和德意志帝国的王朝，在十一月革命中被推翻。",
+          "en": "The dynasty that once ruled Prussia and the German Empire, overthrown during the November Revolution."
+        }
+      }
+    },
+    {
+      "id": "卡尔·李卜克内西",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卡尔·李卜克内西"
+        ],
+        "en": [
+          "Karl Liebknecht"
+        ]
+      },
+      "properties": {
+        "lifetime": "1871-08-13 - 1919-01-15",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国社会主义者，斯巴达克同盟和德国共产党的领导人之一。在斯巴达克同盟起义被镇压后遇害。",
+          "en": "A German socialist, one of the leaders of the Spartacus League and the Communist Party of Germany. He was killed after the Spartacist uprising was suppressed."
+        }
+      }
+    },
+    {
+      "id": "罗莎·卢森堡",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗莎·卢森堡"
+        ],
+        "en": [
+          "Rosa Luxemburg"
+        ]
+      },
+      "properties": {
+        "lifetime": "1871-03-05 - 1919-01-15",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "马克思主义理论家和革命家，斯巴达克同盟和德国共产党的领导人之一。在斯巴达克同盟起义被镇压后遇害。",
+          "en": "A Marxist theorist and revolutionary, one of the leaders of the Spartacus League and the Communist Party of Germany. She was killed after the Spartacist uprising was suppressed."
+        }
+      }
+    },
+    {
+      "id": "近卫骑兵步兵师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "近卫骑兵步兵师"
+        ],
+        "en": [
+          "Garde-Kavallerie-Schützen-Division"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一支参与镇压斯巴达克同盟起义的自由军团部队，其成员杀害了卡尔·李卜克内西和罗莎·卢森堡。",
+          "en": "A Freikorps unit involved in suppressing the Spartacist uprising, whose members killed Karl Liebknecht and Rosa Luxemburg."
+        }
+      }
+    },
+    {
+      "id": "1917年俄国革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "1917年俄国革命"
+        ],
+        "en": [
+          "Russian Revolution of 1917"
+        ]
+      },
+      "properties": {
+        "period": "1917",
+        "description": {
+          "zh-cn": "导致俄罗斯帝国覆灭和苏维埃政权建立的革命。其起因与德国革命相似，对德国的革命者产生了影响。",
+          "en": "The revolution that led to the collapse of the Russian Empire and the establishment of Soviet power. Its causes were similar to the German Revolution and it influenced German revolutionaries."
+        }
+      }
+    },
+    {
+      "id": "古斯塔夫·诺斯克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "古斯塔夫·诺斯克"
+        ],
+        "en": [
+          "Gustav Noske"
+        ]
+      },
+      "properties": {
+        "lifetime": "1868-07-09 - 1946-11-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国社会民主党政治家，魏玛共和国首任国防部长，他聘用自由军团镇压了斯巴达克同盟起义。",
+          "en": "A German Social Democratic politician and the first Minister of Defence of the Weimar Republic. He hired the Freikorps to suppress the Spartacist uprising."
+        }
+      }
+    },
+    {
+      "id": "巴伐利亚苏维埃共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "巴伐利亚苏维埃共和国"
+        ],
+        "en": [
+          "Bavarian Soviet Republic"
+        ]
+      },
+      "properties": {
+        "period": "1919-04-06 - 1919-05-03",
+        "description": {
+          "zh-cn": "十一月革命期间在德国巴伐利亚建立的一个短暂的社会主义国家，后被魏玛政府军队和自由军团镇压。",
+          "en": "A short-lived socialist state established in Bavaria, Germany, during the November Revolution, which was later suppressed by Weimar government troops and the Freikorps."
+        }
+      }
+    },
+    {
+      "id": "魏玛宪法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "魏玛宪法"
+        ],
+        "en": [
+          "Weimar Constitution"
+        ]
+      },
+      "properties": {
+        "period": "1919-08-11",
+        "description": {
+          "zh-cn": "魏玛共和国的宪法，它的通过和生效标志着魏玛共和国的正式成立。",
+          "en": "The constitution of the Weimar Republic. Its adoption and entry into force marked the formal establishment of the republic."
+        }
+      }
+    },
+    {
+      "id": "大萧条",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "大萧条"
+        ],
+        "en": [
+          "Great Depression"
+        ]
+      },
+      "properties": {
+        "period": "1929 - 1939",
+        "description": {
+          "zh-cn": "一场严重的全球性经济衰退，对德国造成了尤其深重的危机，为纳粹主义的兴起创造了条件。",
+          "en": "A severe worldwide economic depression that created a particularly deep crisis in Germany, setting the stage for the rise of Nazism."
+        }
+      }
+    },
+    {
+      "id": "纳粹主义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "纳粹主义"
+        ],
+        "en": [
+          "Nazism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "德国纳粹党的意识形态，在大萧条和复仇主义情绪的推动下兴起，最终导致了魏玛共和国的倒台。",
+          "en": "The ideology of the Nazi Party in Germany, which rose to prominence fueled by the Great Depression and revanchist sentiments, ultimately leading to the downfall of the Weimar Republic."
+        }
+      }
+    },
+    {
+      "id": "复仇主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "复仇主义"
+        ],
+        "en": [
+          "Revanchism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种旨在收复失地的政治思想。德国因一战战败而产生的复仇主义情绪是纳粹主义兴起的原因之一。",
+          "en": "A political ideology aimed at reclaiming lost territory. Revanchist sentiments in Germany after its defeat in WWI were one of the reasons for the rise of Nazism."
+        }
+      }
+    },
+    {
+      "id": "民族主义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "民族主义"
+        ],
+        "en": [
+          "Nationalism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种强调民族利益和统一的意识形态。战后德国的狂热民族主义情绪助长了纳粹主义的兴起。",
+          "en": "An ideology that emphasizes national interest and unity. Fervent nationalism in post-war Germany contributed to the rise of Nazism."
+        }
+      }
+    },
+    {
+      "id": "弗里德里希·艾伯特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗里德里希·艾伯特"
+        ],
+        "en": [
+          "Friedrich Ebert"
+        ]
+      },
+      "properties": {
+        "lifetime": "1871-02-04 - 1925-02-28",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国社会民主党政治家，魏玛共和国首任总统。",
+          "en": "A German Social Democratic politician who served as the first President of the Weimar Republic."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "第一次世界大战",
+      "target": "十一月革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "第一次世界大战导致的民生灾难是引发德国十一月革命的诱因之一。",
+          "en": "The social and economic hardships caused by World War I were one of the triggers for the German November Revolution."
+        }
+      }
+    },
+    {
+      "source": "基尔水兵兵变",
+      "target": "十一月革命",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1918-10-29",
+        "description": {
+          "zh-cn": "基尔水兵的起义引发了一系列事件，最终演变为遍及全德国的十一月革命。",
+          "en": "The mutiny of sailors in Kiel triggered a series of events that evolved into the nationwide November Revolution."
+        }
+      }
+    },
+    {
+      "source": "1917年俄国革命",
+      "target": "十一月革命",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "与俄国二月革命类似，德国革命并非由一个政党领导，其起因也与战争造成的民生灾难有关。",
+          "en": "Similar to the Russian February Revolution, the German Revolution was not led by a single party and its causes were also related to the social hardships caused by the war."
+        }
+      }
+    },
+    {
+      "source": "十一月革命",
+      "target": "威玛共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1918-11-09",
+        "description": {
+          "zh-cn": "十一月革命推翻了德意志帝国，促成了魏玛共和国的建立。",
+          "en": "The November Revolution overthrew the German Empire and led to the establishment of the Weimar Republic."
+        }
+      }
+    },
+    {
+      "source": "十一月革命",
+      "target": "威廉二世 (德国)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918-11-09",
+        "description": {
+          "zh-cn": "在十一月革命的压力下，德皇威廉二世于1918年11月9日被迫退位。",
+          "en": "Under the pressure of the November Revolution, Kaiser Wilhelm II was forced to abdicate on November 9, 1918."
+        }
+      }
+    },
+    {
+      "source": "十一月革命",
+      "target": "德意志帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918-11-09",
+        "description": {
+          "zh-cn": "随着皇帝退位和共和国的宣布，十一月革命导致了德意志帝国的灭亡。",
+          "en": "With the abdication of the emperor and the declaration of a republic, the November Revolution led to the demise of the German Empire."
+        }
+      }
+    },
+    {
+      "source": "十一月革命",
+      "target": "霍亨索伦王朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918-11-09",
+        "description": {
+          "zh-cn": "十一月革命推翻了统治德意志帝国的霍亨索伦王朝。",
+          "en": "The November Revolution overthrew the House of Hohenzollern, which had ruled the German Empire."
+        }
+      }
+    },
+    {
+      "source": "十一月革命",
+      "target": "康边停战协定",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1918-11-11",
+        "description": {
+          "zh-cn": "由于国内多个城市爆发革命，德国新政府被迫接受协约国严苛的条件，签署了停战协定。",
+          "en": "Due to revolutions breaking out in multiple cities, the new German government was forced to accept the harsh terms of the Allies and sign the armistice."
+        }
+      }
+    },
+    {
+      "source": "康边停战协定",
+      "target": "第一次世界大战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1918-11-11",
+        "description": {
+          "zh-cn": "康边停战协定的签署标志着第一次世界大战的结束。",
+          "en": "The signing of the Armistice of Compiègne marked the end of World War I."
+        }
+      }
+    },
+    {
+      "source": "古斯塔夫·诺斯克",
+      "target": "自由军团",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1919-01",
+        "description": {
+          "zh-cn": "时任国防部长的古斯塔夫·诺斯克代表社会民主党政府，聘用自由军团镇压斯巴达克同盟等左翼起义。",
+          "en": "As Minister of Defence, Gustav Noske, on behalf of the Social Democratic government, hired the Freikorps to suppress the Spartacist uprising and other left-wing revolts."
+        }
+      }
+    },
+    {
+      "source": "自由军团",
+      "target": "斯巴达克同盟起义",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1919-01",
+        "description": {
+          "zh-cn": "自由军团受魏玛政府之命，以武力镇压了斯巴达克同盟起义。",
+          "en": "Under the orders of the Weimar government, the Freikorps violently suppressed the Spartacist uprising."
+        }
+      }
+    },
+    {
+      "source": "德国社会民主党",
+      "target": "巴伐利亚苏维埃共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1919-05",
+        "description": {
+          "zh-cn": "由社会民主党领导的魏玛共和国政府派兵镇压了巴伐利亚苏维埃共和国。",
+          "en": "The Weimar Republic government, led by the Social Democratic Party, sent troops to suppress the Bavarian Soviet Republic."
+        }
+      }
+    },
+    {
+      "source": "近卫骑兵步兵师",
+      "target": "罗莎·卢森堡",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1919-01-15",
+        "description": {
+          "zh-cn": "作为镇压行动的一部分，隶属于自由军团的近卫骑兵步兵师成员杀害了斯巴达克同盟领导人罗莎·卢森堡。",
+          "en": "As part of the suppression, members of the Garde-Kavallerie-Schützen-Division, a Freikorps unit, murdered Spartacus League leader Rosa Luxemburg."
+        }
+      }
+    },
+    {
+      "source": "近卫骑兵步兵师",
+      "target": "卡尔·李卜克内西",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1919-01-15",
+        "description": {
+          "zh-cn": "作为镇压行动的一部分，隶属于自由军团的近卫骑兵步兵师成员杀害了斯巴达克同盟领导人卡尔·李卜克内西。",
+          "en": "As part of the suppression, members of the Garde-Kavallerie-Schützen-Division, a Freikorps unit, murdered Spartacus League leader Karl Liebknecht."
+        }
+      }
+    },
+    {
+      "source": "魏玛宪法",
+      "target": "威玛共和国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1919-08-11",
+        "description": {
+          "zh-cn": "魏玛宪法的正式生效，标志着魏玛共和国的宪法日和正式成立。",
+          "en": "The official entry into force of the Weimar Constitution marked the Constitution Day and formal establishment of the Weimar Republic."
+        }
+      }
+    },
+    {
+      "source": "大萧条",
+      "target": "纳粹主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "大萧条对德国造成了深重的经济危机，为纳粹主义的兴起提供了社会土壤。",
+          "en": "The Great Depression caused a profound economic crisis in Germany, providing fertile social ground for the rise of Nazism."
+        }
+      }
+    },
+    {
+      "source": "复仇主义",
+      "target": "纳粹主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "第一次世界大战战败后德国国内的复仇主义情绪被纳粹党利用，成为其崛起的重要推动力。",
+          "en": "Revanchist sentiments in Germany after its defeat in World War I were exploited by the Nazi Party, becoming a major driving force for its rise."
+        }
+      }
+    },
+    {
+      "source": "民族主义",
+      "target": "纳粹主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "战后德国的狂热民族主义情绪为纳粹主义的极端意识形态传播提供了便利。",
+          "en": "Fervent nationalism in post-war Germany facilitated the spread of Nazism's extremist ideology."
+        }
+      }
+    },
+    {
+      "source": "纳粹主义",
+      "target": "威玛共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1933-03-23",
+        "description": {
+          "zh-cn": "纳粹主义的兴起及其领导人希特勒上台，最终导致了魏玛共和国民主制度的倒台。",
+          "en": "The rise of Nazism and its leader Adolf Hitler coming to power ultimately led to the downfall of the Weimar Republic's democratic system."
+        }
+      }
+    }
+  ]
+}

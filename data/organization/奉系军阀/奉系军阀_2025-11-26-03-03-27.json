@@ -1,0 +1,884 @@
+{
+  "nodes": [
+    {
+      "id": "奉系军阀",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奉系军阀"
+        ]
+      },
+      "properties": {
+        "period": "1911 - 1937",
+        "description": {
+          "zh-cn": "民国军阀的一个主要派系，属于北洋军阀系统，以张作霖及其子张学良为首，长期控制中国东北地区。1928年东北易帜后改称东北军。",
+          "en": "A major faction of the warlords of the Republic of China, belonging to the Beiyang warlord system, led by Zhang Zuolin and his son Zhang Xueliang, which controlled Northeast China for a long period. It was renamed the Northeastern Army after the Northeast Flag Replacement in 1928."
+        }
+      }
+    },
+    {
+      "id": "张作霖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张作霖"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奉系军阀的创始人和首领，曾任东三省巡阅使。1928年在皇姑屯事件中被炸死。",
+          "en": "The founder and leader of the Fengtian clique, who once served as the Inspector-General of the Three Eastern Provinces. He was assassinated in the Huanggutun Incident in 1928."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良",
+          "少帅"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "张作霖之子，奉系军阀及后来的东北军领袖。1928年宣布东北易帜，1936年与杨虎城共同发动西安事变。",
+          "en": "Son of Zhang Zuolin, leader of the Fengtian clique and later the Northeastern Army. He announced the Northeast Flag Replacement in 1928 and co-initiated the Xi'an Incident with Yang Hucheng in 1936."
+        }
+      }
+    },
+    {
+      "id": "北洋军阀",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北洋军阀",
+          "北洋系统"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国初期控制北京中央政府的军阀集团，奉系军阀是其主要派系之一。",
+          "en": "A group of warlords who controlled the central government in Beijing during the early Republic of China. The Fengtian clique was one of its main factions."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "19世纪末至20世纪中叶的日本。长期支持奉系军阀，但亦有冲突，其关东军在1931年发动九一八事变占领中国东北。",
+          "en": "Japan from the late 19th century to the mid-20th century. It provided long-term support to the Fengtian clique but also had conflicts with it. Its Kwantung Army launched the Mukden Incident in 1931 to occupy Northeast China."
+        }
+      }
+    },
+    {
+      "id": "第一次直奉战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第一次直奉战争"
+        ]
+      },
+      "properties": {
+        "period": "1922-05",
+        "description": {
+          "zh-cn": "1922年5月，奉系军阀与直系军阀之间爆发的战争，奉系战败。",
+          "en": "A war between the Fengtian clique and the Zhili clique in May 1922, which resulted in the defeat of the Fengtian clique."
+        }
+      }
+    },
+    {
+      "id": "第二次直奉战争",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次直奉战争"
+        ]
+      },
+      "properties": {
+        "period": "1924",
+        "description": {
+          "zh-cn": "1924年秋，奉系军阀与直系军阀之间的第二次战争，因冯玉祥倒戈，奉系取得全胜。",
+          "en": "The second war between the Fengtian clique and the Zhili clique in the autumn of 1924. Due to Feng Yuxiang's defection, the Fengtian clique achieved a complete victory."
+        }
+      }
+    },
+    {
+      "id": "中原大战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中原大战"
+        ]
+      },
+      "properties": {
+        "period": "1930",
+        "description": {
+          "zh-cn": "1930年国民政府内部爆发的规模最大的军阀战争。东北军在后期入关支持蒋介石，结束了战争。",
+          "en": "The largest-scale warlord war within the Nationalist Government, which broke out in 1930. The Northeastern Army entered the Shanhai Pass in the later stages to support Chiang Kai-shek, ending the war."
+        }
+      }
+    },
+    {
+      "id": "东北军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北军",
+          "东北边防军"
+        ]
+      },
+      "properties": {
+        "period": "1929 - 1937",
+        "description": {
+          "zh-cn": "1928年东北易帜后，原奉系军队被国民政府改编后的名称。九一八事变后退入关内，在西安事变后被分化瓦解。",
+          "en": "The name of the former Fengtian clique army after its reorganization by the Nationalist Government following the Northeast Flag Replacement in 1928. It withdrew inside the Shanhai Pass after the Mukden Incident and was disintegrated after the Xi'an Incident."
+        }
+      }
+    },
+    {
+      "id": "九一八事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "九一八事变"
+        ]
+      },
+      "properties": {
+        "period": "1931-09-18",
+        "description": {
+          "zh-cn": "1931年9月18日，日本关东军在中国东北发动的侵略事件，导致东北军不战而退，东北沦陷。",
+          "en": "An invasion incident launched by the Japanese Kwantung Army in Northeast China on September 18, 1931, which led to the retreat of the Northeastern Army without a fight and the fall of Northeast China."
+        }
+      }
+    },
+    {
+      "id": "西安事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "西安事变"
+        ]
+      },
+      "properties": {
+        "period": "1936-12-12",
+        "description": {
+          "zh-cn": "1936年12月12日，张学良和杨虎城在西安发动的“兵谏”，扣押蒋介石，要求停止内战、一致抗日。事件和平解决后，张学良被长期扣押，东北军被分化。",
+          "en": "A 'remonstrance by military force' launched by Zhang Xueliang and Yang Hucheng in Xi'an on December 12, 1936, in which they detained Chiang Kai-shek to demand an end to the civil war and a united front against Japan. After the incident was peacefully resolved, Zhang Xueliang was detained for a long time, and the Northeastern Army was disintegrated."
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1925年至1948年间中华民国的中央政府。在东北易帜后将奉系军阀改编为东北军。",
+          "en": "The central government of the Republic of China from 1925 to 1948. It reorganized the Fengtian clique into the Northeastern Army after the Northeast Flag Replacement."
+        }
+      }
+    },
+    {
+      "id": "冯玉祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯玉祥"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "民国军阀，直系将领。在第二次直奉战争中接受奉系重赂，倒戈发动甲子政变，导致直系战败。",
+          "en": "A warlord of the Republic of China and a general of the Zhili clique. During the Second Zhili-Fengtian War, he accepted a heavy bribe from the Fengtian clique and defected, launching the Beijing Coup, which led to the defeat of the Zhili clique."
+        }
+      }
+    },
+    {
+      "id": "甲子政变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "甲子政变"
+        ]
+      },
+      "properties": {
+        "period": "1924",
+        "description": {
+          "zh-cn": "1924年第二次直奉战争期间，冯玉祥发动的政变，囚禁了总统曹锟，导致直系军队总崩溃。",
+          "en": "A coup launched by Feng Yuxiang during the Second Zhili-Fengtian War in 1924. He imprisoned President Cao Kun, leading to the total collapse of the Zhili clique's army."
+        }
+      }
+    },
+    {
+      "id": "曹锟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹锟"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "民国军阀，直系首领，曾任中华民国大总统。在甲子政变中被冯玉祥囚禁。",
+          "en": "A warlord of the Republic of China, leader of the Zhili clique, and former President of the Republic of China. He was imprisoned by Feng Yuxiang during the Beijing Coup."
+        }
+      }
+    },
+    {
+      "id": "吴佩孚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴佩孚"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "民国军阀，直系将领。在第二次直奉战争中，其主力被张学良指挥的奉军包围击溃。",
+          "en": "A warlord of the Republic of China and a general of the Zhili clique. In the Second Zhili-Fengtian War, his main force was surrounded and defeated by the Fengtian army commanded by Zhang Xueliang."
+        }
+      }
+    },
+    {
+      "id": "郭松龄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭松龄"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "奉系新派将领，张学良的老师，深受其倚重。后因故反叛奉系。",
+          "en": "A general of the new faction in the Fengtian clique and Zhang Xueliang's teacher, who was heavily relied upon by him. He later rebelled against the Fengtian clique for certain reasons."
+        }
+      }
+    },
+    {
+      "id": "段祺瑞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "段祺瑞"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "皖系军阀首领。第二次直奉战争后，被张作霖和冯玉祥公推担任中华民国临时执政。",
+          "en": "Leader of the Anhui clique. After the Second Zhili-Fengtian War, he was jointly endorsed by Zhang Zuolin and Feng Yuxiang to serve as the Provisional Chief Executive of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "孙中山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙中山"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代民主革命家，曾与奉系、皖系组成反直三角同盟。与张作霖为旧识。",
+          "en": "A modern Chinese democratic revolutionary who once formed an anti-Zhili triangular alliance with the Fengtian and Anhui cliques. He was an old acquaintance of Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "id": "皇姑屯事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "皇姑屯事件"
+        ]
+      },
+      "properties": {
+        "period": "1928",
+        "description": {
+          "zh-cn": "1928年，日本关东军在沈阳皇姑屯策划的针对奉系首领张作霖的暗杀事件，导致张作霖重伤不治身亡。",
+          "en": "An assassination plot against Fengtian clique leader Zhang Zuolin, planned by the Japanese Kwantung Army at Huanggutun, Shenyang, in 1928, which resulted in Zhang Zuolin's death from severe injuries."
+        }
+      }
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋介石"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "国民政府军事委员会委员长及国民党总裁。西安事变中被张学良、杨虎城扣押，事后长期软禁张学良并分化东北军。",
+          "en": "Chairman of the Military Affairs Commission of the Nationalist Government and Director-General of the Kuomintang. He was detained by Zhang Xueliang and Yang Hucheng during the Xi'an Incident and subsequently placed Zhang Xueliang under long-term house arrest and disintegrated the Northeastern Army."
+        }
+      }
+    },
+    {
+      "id": "中国工农红军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工农红军",
+          "红军"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在1927年至1937年间领导的武装力量。东北军曾被调往陕甘一带围剿红军，并遭受重大损失。",
+          "en": "The armed forces led by the Communist Party of China from 1927 to 1937. The Northeastern Army was once deployed to the Shaanxi-Gansu area to suppress the Red Army and suffered heavy losses."
+        }
+      }
+    },
+    {
+      "id": "杨虎城",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨虎城"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西北军将领，与张学良共同发动西安事变。",
+          "en": "A general of the Northwestern Army who co-initiated the Xi'an Incident with Zhang Xueliang."
+        }
+      }
+    },
+    {
+      "id": "王以哲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王以哲"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东北军元老派将领，任第六十七军军长。在西安事变后的“二二”事件中被东北军少壮派杀害。",
+          "en": "A veteran general of the Northeastern Army and commander of the 67th Army. He was assassinated by the young officers faction of the Northeastern Army during the 'February 2nd Incident' following the Xi'an Incident."
+        }
+      }
+    },
+    {
+      "id": "二二事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "二二事件"
+        ]
+      },
+      "properties": {
+        "period": "1937-02-02",
+        "description": {
+          "zh-cn": "西安事变后，东北军内部少壮派与元老派发生冲突，导致元老派将领王以哲等人被杀害的事件。",
+          "en": "An incident after the Xi'an Incident where conflict between the young officers and veteran factions within the Northeastern Army led to the assassination of veteran general Wang Yizhe and others."
+        }
+      }
+    },
+    {
+      "id": "吕正操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕正操"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "原东北军将领，后加入八路军，成为中国人民解放军上将。",
+          "en": "A former general of the Northeastern Army who later joined the Eighth Route Army and became a General in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "八路军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "八路军"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "抗日战争期间，由中国工农红军主力改编的国民革命军部队，由中国共产党领导。",
+          "en": "A unit of the National Revolutionary Army during the Second Sino-Japanese War, adapted from the main force of the Chinese Workers' and Peasants' Red Army and led by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "张学思",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学思"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "张学良胞弟，早年即参加中国共产党，后成为中国人民解放军少将。",
+          "en": "Younger brother of Zhang Xueliang, who joined the Communist Party of China in his early years and later became a Major General in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党。西安事变促使其与国民党达成第二次国共合作。",
+          "en": "The ruling political party of China. The Xi'an Incident prompted it to reach the Second United Front with the Kuomintang."
+        }
+      }
+    },
+    {
+      "id": "直系",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "直系"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "民国军阀派系之一，北洋军阀的主要分支，曾与奉系军阀爆发两次直奉战争。",
+          "en": "One of the warlord cliques during the Republic of China, a major branch of the Beiyang warlords. It fought two wars against the Fengtian clique."
+        }
+      }
+    },
+    {
+      "id": "关东军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "关东军"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国陆军的一个重要组成部分，曾驻扎在中国东北。策划了皇姑屯事件和九一八事变。",
+          "en": "An important component of the Imperial Japanese Army, once stationed in Northeast China. It planned the Huanggutun Incident and the Mukden Incident."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "奉系军阀",
+      "target": "北洋军阀",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "奉系军阀是北洋军阀系统的一个主要派系。",
+          "en": "The Fengtian clique was a major faction within the Beiyang warlord system."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "奉系军阀",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "张作霖是奉系军阀的创始人。",
+          "en": "Zhang Zuolin was the founder of the Fengtian clique."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "奉系军阀",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "首领",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "张作霖是奉系军阀的首领。",
+          "en": "Zhang Zuolin was the leader of the Fengtian clique."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "奉系军阀",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "首领",
+          "en": "Leader"
+        },
+        "description": {
+          "zh-cn": "张学良在张作霖死后成为奉系军阀的首领。",
+          "en": "Zhang Xueliang became the leader of the Fengtian clique after the death of Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "张作霖",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张学良是张作霖的儿子。",
+          "en": "Zhang Xueliang is the son of Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "source": "奉系军阀",
+      "target": "大日本帝国",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "奉系长期受日本支持。",
+          "en": "The Fengtian clique received long-term support from Japan."
+        }
+      }
+    },
+    {
+      "source": "奉系军阀",
+      "target": "大日本帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "奉系与日本之间也存在冲突。",
+          "en": "There were also conflicts between the Fengtian clique and Japan."
+        }
+      }
+    },
+    {
+      "source": "第一次直奉战争",
+      "target": "奉系军阀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1922-05",
+        "description": {
+          "zh-cn": "奉系在第一次直奉战争中失败。",
+          "en": "The Fengtian clique was defeated in the First Zhili-Fengtian War."
+        }
+      }
+    },
+    {
+      "source": "第二次直奉战争",
+      "target": "奉系军阀",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1924",
+        "description": {
+          "zh-cn": "奉系在第二次直奉战争中取得全胜。",
+          "en": "The Fengtian clique achieved a complete victory in the Second Zhili-Fengtian War."
+        }
+      }
+    },
+    {
+      "source": "奉系军阀",
+      "target": "冯玉祥",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1924",
+        "description": {
+          "zh-cn": "在第二次直奉战争中，奉系以五十万大洋重赂冯玉祥，使其倒戈直系。",
+          "en": "During the Second Zhili-Fengtian War, the Fengtian clique heavily bribed Feng Yuxiang with 500,000 silver dollars, causing him to defect from the Zhili clique."
+        }
+      }
+    },
+    {
+      "source": "冯玉祥",
+      "target": "甲子政变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1924",
+        "description": {
+          "zh-cn": "冯玉祥倒戈后发动甲子政变。",
+          "en": "After defecting, Feng Yuxiang launched the Beijing Coup."
+        }
+      }
+    },
+    {
+      "source": "甲子政变",
+      "target": "曹锟",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1924",
+        "description": {
+          "zh-cn": "甲子政变攻入北京，幽禁了时任大总统曹锟。",
+          "en": "The Beijing Coup resulted in the capture of Beijing and the imprisonment of then-President Cao Kun."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "吴佩孚",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1924",
+        "description": {
+          "zh-cn": "在第二次直奉战争中，张学良指挥奉军包围吴佩孚主力，缴械纳降3万余人。",
+          "en": "During the Second Zhili-Fengtian War, Zhang Xueliang commanded the Fengtian army to surround Wu Peifu's main force, disarming and accepting the surrender of over 30,000 troops."
+        }
+      }
+    },
+    {
+      "source": "张作霖",
+      "target": "段祺瑞",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1924-11",
+        "description": {
+          "zh-cn": "第二次直奉战争后，张作霖与冯玉祥共同推举段祺瑞担任中华民国临时执政。",
+          "en": "After the Second Zhili-Fengtian War, Zhang Zuolin and Feng Yuxiang jointly endorsed Duan Qirui to serve as the Provisional Chief Executive of the Republic of China."
+        }
+      }
+    },
+    {
+      "source": "郭松龄",
+      "target": "奉系军阀",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "郭松龄作为奉系大学派的代表，后来反叛奉系。",
+          "en": "Guo Songling, as a representative of the 'university faction' within the Fengtian clique, later rebelled against the clique."
+        }
+      }
+    },
+    {
+      "source": "皇姑屯事件",
+      "target": "张作霖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": {
+          "zh-cn": "张作霖在皇姑屯事件中被炸死。",
+          "en": "Zhang Zuolin was killed in the Huanggutun Incident."
+        }
+      }
+    },
+    {
+      "source": "关东军",
+      "target": "皇姑屯事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": {
+          "zh-cn": "日本关东军策划并执行了皇姑屯事件，暗杀了张作霖。",
+          "en": "The Japanese Kwantung Army planned and executed the Huanggutun Incident, assassinating Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "东北军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1928",
+        "description": {
+          "zh-cn": "张作霖死后，张学良掌握兵权，宣布东北易帜，奉系改编为东北边防军（东北军）。",
+          "en": "After Zhang Zuolin's death, Zhang Xueliang took control of the military, announced the Northeast Flag Replacement, and the Fengtian clique was reorganized into the Northeastern Border Defense Army (Northeastern Army)."
+        }
+      }
+    },
+    {
+      "source": "东北军",
+      "target": "蒋介石",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1930-09-18",
+        "description": {
+          "zh-cn": "在中原大战中，东北军宣布支持蒋介石，派主力入关，从而结束了战争。",
+          "en": "During the Central Plains War, the Northeastern Army announced its support for Chiang Kai-shek and sent its main forces into the Shanhai Pass, thus ending the war."
+        }
+      }
+    },
+    {
+      "source": "关东军",
+      "target": "九一八事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": {
+          "zh-cn": "日本关东军发动了九一八事变。",
+          "en": "The Japanese Kwantung Army launched the Mukden Incident."
+        }
+      }
+    },
+    {
+      "source": "九一八事变",
+      "target": "东北军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": {
+          "zh-cn": "九一八事变中，因张学良的不抵抗政策，东北军主力不战而退，撤出东北。",
+          "en": "During the Mukden Incident, due to Zhang Xueliang's non-resistance policy, the main force of the Northeastern Army retreated without a fight and withdrew from the Northeast."
+        }
+      }
+    },
+    {
+      "source": "中国工农红军",
+      "target": "东北军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1935",
+        "description": {
+          "zh-cn": "1935年，被调至陕甘围剿红军的东北军在劳山、榆林桥、直罗镇三次战役中损失近三个师。",
+          "en": "In 1935, the Northeastern Army, which had been transferred to Shaanxi-Gansu to suppress the Red Army, lost nearly three divisions in the battles of Laoshan, Yulinqiao, and Zhiluozhen."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "description": {
+          "zh-cn": "张学良和杨虎城共同发动了西安事变。",
+          "en": "Zhang Xueliang and Yang Hucheng jointly launched the Xi'an Incident."
+        }
+      }
+    },
+    {
+      "source": "杨虎城",
+      "target": "西安事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "description": {
+          "zh-cn": "杨虎城和张学良共同发动了西安事变。",
+          "en": "Yang Hucheng and Zhang Xueliang jointly launched the Xi'an Incident."
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "蒋介石",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1936-12-12",
+        "description": {
+          "zh-cn": "西安事变迫使蒋介石与中国共产党合作抗日。",
+          "en": "The Xi'an Incident forced Chiang Kai-shek to cooperate with the Communist Party of China to resist Japan."
+        }
+      }
+    },
+    {
+      "source": "蒋介石",
+      "target": "张学良",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1937-01",
+        "description": {
+          "zh-cn": "西安事变后，蒋介石返回南京后便扣留了张学良。",
+          "en": "After the Xi'an Incident, Chiang Kai-shek returned to Nanjing and detained Zhang Xueliang."
+        }
+      }
+    },
+    {
+      "source": "二二事件",
+      "target": "王以哲",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1937-02-02",
+        "description": {
+          "zh-cn": "在东北军内部的“二二”事件中，元老派将领王以哲被少壮派杀害。",
+          "en": "During the 'February 2nd Incident' within the Northeastern Army, veteran general Wang Yizhe was assassinated by the young officers faction."
+        }
+      }
+    },
+    {
+      "source": "西安事变",
+      "target": "东北军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1937",
+        "description": {
+          "zh-cn": "西安事变后，东北军群龙无首，发生内讧（二二事件），并最终被南京政府整训、缩编，导致其作为一个独立军事政治实体的瓦解。",
+          "en": "After the Xi'an Incident, the Northeastern Army was leaderless, experienced internal strife (the 'February 2nd Incident'), and was eventually reorganized and downsized by the Nanjing government, leading to its dissolution as an independent military and political entity."
+        }
+      }
+    },
+    {
+      "source": "吕正操",
+      "target": "八路军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "原东北军将领吕正操的部队被编入八路军。",
+          "en": "The troops of former Northeastern Army general Lü Zhengcao were incorporated into the Eighth Route Army."
+        }
+      }
+    },
+    {
+      "source": "张学思",
+      "target": "张学良",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张学思是张学良的胞弟。",
+          "en": "Zhang Xuesi was the younger brother of Zhang Xueliang."
+        }
+      }
+    },
+    {
+      "source": "张学思",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张学思早年即参加中国共产党。",
+          "en": "Zhang Xuesi joined the Communist Party of China in his early years."
+        }
+      }
+    },
+    {
+      "source": "奉系军阀",
+      "target": "直系",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": [
+          "1922-05",
+          "1924"
+        ],
+        "description": {
+          "zh-cn": "奉系军阀与直系军阀之间爆发了两次大规模战争，即第一次和第二次直奉战争。",
+          "en": "The Fengtian clique and the Zhili clique fought two large-scale wars, namely the First and Second Zhili-Fengtian Wars."
+        }
+      }
+    }
+  ]
+}

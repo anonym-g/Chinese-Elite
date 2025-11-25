@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    {
+      "id": "宋张骏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋张骏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1968-10 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "西安",
+          "en": "Xi'an"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员，第十三届全国人民代表大会陕西省代表。",
+          "en": "A politician of the People's Republic of China, a member of the Communist Party of China, and a deputy from Shaanxi Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "西安",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "西安"
+        ],
+        "en": [
+          "Xi'an"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "汉族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "汉族"
+        ],
+        "en": [
+          "Han Chinese"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "陕西省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "陕西省",
+          "陕西"
+        ],
+        "en": [
+          "Shaanxi"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "宋张骏",
+      "target": "西安",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "宋张骏是陕西西安人。",
+          "en": "Song Zhangjun is from Xi'an, Shaanxi."
+        }
+      }
+    },
+    {
+      "source": "宋张骏",
+      "target": "汉族",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "宋张骏是汉族。",
+          "en": "Song Zhangjun is of Han ethnicity."
+        }
+      }
+    },
+    {
+      "source": "宋张骏",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "宋张骏是中国共产党党员。",
+          "en": "Song Zhangjun is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "宋张骏",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "陕西省代表",
+          "en": "Deputy from Shaanxi Province"
+        },
+        "description": {
+          "zh-cn": "2018年，宋张骏被选为陕西省出席第十三届全国人民代表大会代表。",
+          "en": "In 2018, Song Zhangjun was elected as a deputy representing Shaanxi Province to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

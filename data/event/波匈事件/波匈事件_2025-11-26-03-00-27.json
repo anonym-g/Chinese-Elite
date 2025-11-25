@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "id": "波匈事件",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "波匈事件"
+        ],
+        "en": [
+          "Polish and Hungarian incidents"
+        ]
+      },
+      "properties": {
+        "period": "1956-06 - 1956-10",
+        "description": {
+          "zh-cn": "中国共产党对1956年发生在东欧社会主义国家波兰人民共和国和匈牙利人民共和国的一系列反苏抗议和革命事件的总称。",
+          "en": "A collective term used by the Communist Party of China to refer to a series of anti-Soviet protests and revolutionary events that occurred in the Polish People's Republic and the Hungarian People's Republic in 1956."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "波兰人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "波兰人民共和国"
+        ],
+        "en": [
+          "Polish People's Republic"
+        ]
+      },
+      "properties": {
+        "period": "1952 - 1989",
+        "location": {
+          "zh-cn": "波兰",
+          "en": "Poland"
+        },
+        "description": {
+          "zh-cn": "1952年至1989年间存在的中欧社会主义国家，是苏联的一个卫星国。",
+          "en": "A socialist state in Central Europe that existed from 1952 to 1989, and was a satellite state of the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "匈牙利人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "匈牙利人民共和国"
+        ],
+        "en": [
+          "Hungarian People's Republic"
+        ]
+      },
+      "properties": {
+        "period": "1949 - 1989",
+        "location": {
+          "zh-cn": "匈牙利",
+          "en": "Hungary"
+        },
+        "description": {
+          "zh-cn": "1949年至1989年间存在的中欧社会主义国家，是苏联的一个卫星国。",
+          "en": "A socialist state in Central Europe that existed from 1949 to 1989, and was a satellite state of the Soviet Union."
+        }
+      }
+    },
+    {
+      "id": "波兹南事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "波兹南事件"
+        ],
+        "en": [
+          "Poznań protests of 1956"
+        ]
+      },
+      "properties": {
+        "period": "1956-06",
+        "location": {
+          "zh-cn": "波兹南",
+          "en": "Poznań"
+        },
+        "description": {
+          "zh-cn": "1956年6月在波兰波兹南市发生的民众大规模罢工和反政府示威活动，是波匈事件的组成部分之一。",
+          "en": "Massive strikes and anti-government demonstrations by the public in the Polish city of Poznań in June 1956, which were part of the Polish and Hungarian incidents."
+        }
+      }
+    },
+    {
+      "id": "波兰十月事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "波兰十月事件"
+        ],
+        "en": [
+          "Polish October"
+        ]
+      },
+      "properties": {
+        "period": "1956-10",
+        "location": {
+          "zh-cn": "波兰",
+          "en": "Poland"
+        },
+        "description": {
+          "zh-cn": "1956年10月在波兰人民共和国发生的标志着“去斯大林化”的政治变革，是波匈事件的组成部分之一。",
+          "en": "A political change in the Polish People's Republic in October 1956 that marked the beginning of de-Stalinization, and was part of the Polish and Hungarian incidents."
+        }
+      }
+    },
+    {
+      "id": "1956年匈牙利革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "1956年匈牙利革命"
+        ],
+        "en": [
+          "Hungarian Revolution of 1956"
+        ]
+      },
+      "properties": {
+        "period": "1956-10-23 - 1956-11-10",
+        "location": {
+          "zh-cn": "匈牙利",
+          "en": "Hungary"
+        },
+        "description": {
+          "zh-cn": "1956年10月在匈牙利人民共和国爆发的全国性反苏革命，是波匈事件的组成部分之一。",
+          "en": "A nationwide anti-Soviet revolution that broke out in the Hungarian People's Republic in October 1956, which was part of the Polish and Hungarian incidents."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国共产党",
+      "target": "波匈事件",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "“波匈事件”是中国共产党对1956年发生在波兰和匈牙利的一系列反苏事件的官方总称。",
+          "en": "The term 'Polish and Hungarian incidents' is the official collective name used by the Communist Party of China to refer to a series of anti-Soviet events that occurred in Poland and Hungary in 1956."
+        }
+      }
+    },
+    {
+      "source": "波兹南事件",
+      "target": "波匈事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1956-06",
+        "description": {
+          "zh-cn": "波兹南事件是构成“波匈事件”这一系列政治动荡的事件之一。",
+          "en": "The Poznań protests of 1956 were one of the events that constituted the series of political upheavals known as the 'Polish and Hungarian incidents'."
+        }
+      }
+    },
+    {
+      "source": "波兰十月事件",
+      "target": "波匈事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1956-10",
+        "description": {
+          "zh-cn": "波兰十月事件是构成“波匈事件”这一系列政治动荡的事件之一。",
+          "en": "The Polish October was one of the events that constituted the series of political upheavals known as the 'Polish and Hungarian incidents'."
+        }
+      }
+    },
+    {
+      "source": "1956年匈牙利革命",
+      "target": "波匈事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1956-10",
+        "description": {
+          "zh-cn": "1956年匈牙利革命是构成“波匈事件”这一系列政治动荡的事件之一。",
+          "en": "The Hungarian Revolution of 1956 was one of the events that constituted the series of political upheavals known as the 'Polish and Hungarian incidents'."
+        }
+      }
+    },
+    {
+      "source": "波兹南事件",
+      "target": "波兰人民共和国",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1956-06",
+        "description": {
+          "zh-cn": "波兹南事件是发生在波兰人民共和国的一次大规模民众抗议活动。",
+          "en": "The Poznań protests of 1956 were a large-scale public protest that took place in the Polish People's Republic."
+        }
+      }
+    },
+    {
+      "source": "波兰十月事件",
+      "target": "波兰人民共和国",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1956-10",
+        "description": {
+          "zh-cn": "波兰十月事件是发生在波兰人民共和国的一次重大政治变革。",
+          "en": "The Polish October was a major political change that took place in the Polish People's Republic."
+        }
+      }
+    },
+    {
+      "source": "1956年匈牙利革命",
+      "target": "匈牙利人民共和国",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1956-10",
+        "description": {
+          "zh-cn": "1956年匈牙利革命是发生在匈牙利人民共和国的一次全国性革命。",
+          "en": "The Hungarian Revolution of 1956 was a nationwide revolution that took place in the Hungarian People's Republic."
+        }
+      }
+    }
+  ]
+}

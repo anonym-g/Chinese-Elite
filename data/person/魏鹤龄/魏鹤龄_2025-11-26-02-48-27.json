@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "id": "魏鹤龄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏鹤龄",
+          "季年",
+          "季燕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1907-01-14 - 1979-10-02",
+        "gender": "Male",
+        "location": null,
+        "birth_place": {
+          "zh-cn": "天津",
+          "en": "Tianjin"
+        },
+        "death_place": null,
+        "description": {
+          "zh-cn": "中国电影表演艺术家。2005年被中国电影表演艺术学会评为中国电影百年百位优秀演员之一。",
+          "en": "A Chinese film performing artist. In 2005, he was named one of the 100 Excellent Actors in 100 Years of Chinese Cinema by the China Film Performance Art Academy."
+        }
+      }
+    },
+    {
+      "id": "天津",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "天津"
+        ],
+        "en": [
+          "Tianjin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国直辖市，魏鹤龄的出生地。",
+          "en": "A municipality in China, the birthplace of Wei Heling."
+        }
+      }
+    },
+    {
+      "id": "中国电影表演艺术学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国电影表演艺术学会"
+        ],
+        "en": [
+          "China Film Performance Art Academy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的一个专业组织，于2005年评选了“中国电影百年百位优秀演员”，魏鹤龄名列其中。",
+          "en": "A professional organization in China that selected the '100 Excellent Actors in 100 Years of Chinese Cinema' in 2005, including Wei Heling."
+        }
+      }
+    },
+    {
+      "id": "中国电影百年百位优秀演员",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国电影百年百位优秀演员"
+        ],
+        "en": [
+          "100 Excellent Actors in 100 Years of Chinese Cinema"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国电影表演艺术学会于2005年为纪念中国电影诞生百年而评选的荣誉称号名单。",
+          "en": "An honorary title list selected by the China Film Performance Art Academy in 2005 to commemorate the centenary of Chinese cinema."
+        }
+      }
+    },
+    {
+      "id": "中国戏剧家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国戏剧家协会"
+        ],
+        "en": [
+          "China Theatre Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国戏剧家组成的全国性人民团体，魏鹤龄是其会员。",
+          "en": "A national-level people's organization composed of dramatists in the People's Republic of China, of which Wei Heling was a member."
+        }
+      }
+    },
+    {
+      "id": "中国电影家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国电影家协会"
+        ],
+        "en": [
+          "China Film Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国电影家组成的全国性人民团体，魏鹤龄是其会员。",
+          "en": "A national-level people's organization composed of filmmakers in the People's Republic of China, of which Wei Heling was a member."
+        }
+      }
+    },
+    {
+      "id": "中华全国戏剧工作者协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国戏剧工作者协会"
+        ],
+        "en": [
+          "All-China Association of Drama Workers"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国戏剧家协会的前身，魏鹤龄曾是其第一届全国委员会的成员。",
+          "en": "The predecessor of the China Theatre Association, of which Wei Heling was a member of its first national committee."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "魏鹤龄",
+      "target": "天津",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1907-01-14",
+        "description": {
+          "zh-cn": "魏鹤龄是天津人。",
+          "en": "Wei Heling was a native of Tianjin."
+        }
+      }
+    },
+    {
+      "source": "中国电影表演艺术学会",
+      "target": "魏鹤龄",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2005",
+        "end_date": "2005",
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "2005年，中国电影表演艺术学会将魏鹤龄评为“中国电影百年百位优秀演员”之一。",
+          "en": "In 2005, the China Film Performance Art Academy named Wei Heling as one of the '100 Excellent Actors in 100 Years of Chinese Cinema'."
+        }
+      }
+    },
+    {
+      "source": "魏鹤龄",
+      "target": "中国戏剧家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "魏鹤龄是中国戏剧家协会会员。",
+          "en": "Wei Heling was a member of the China Theatre Association."
+        }
+      }
+    },
+    {
+      "source": "魏鹤龄",
+      "target": "中国电影家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "魏鹤龄是中国电影家协会会员。",
+          "en": "Wei Heling was a member of the China Film Association."
+        }
+      }
+    },
+    {
+      "source": "魏鹤龄",
+      "target": "中华全国戏剧工作者协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第一届全国委员会委员",
+          "en": "Member of the 1st National Committee"
+        },
+        "description": {
+          "zh-cn": "魏鹤龄是中华全国戏剧工作者协会第一届全国委员会的成员。",
+          "en": "Wei Heling was a member of the first national committee of the All-China Association of Drama Workers."
+        }
+      }
+    }
+  ]
+}
