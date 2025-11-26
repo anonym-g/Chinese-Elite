@@ -1,0 +1,460 @@
+{
+  "nodes": [
+    {
+      "id": "新界",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "新界"
+        ],
+        "en": [
+          "New Territories"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "香港",
+          "en": "Hong Kong"
+        },
+        "description": {
+          "zh-cn": "香港三大地域之一，与中国大陆深圳市接壤，占香港陆地总面积接近90%。根据1898年《展拓香港界址专条》由英国向清朝租借，为期99年。",
+          "en": "One of the three main regions of Hong Kong, bordering mainland China's Shenzhen, and accounting for nearly 90% of Hong Kong's total land area. It was leased by Britain from the Qing dynasty for 99 years under the 1898 Convention for the Extension of Hong Kong Territory."
+        }
+      }
+    },
+    {
+      "id": "香港",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港"
+        ],
+        "en": [
+          "Hong Kong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的特别行政区，位于中国南部、珠江口以东，由香港岛、九龙和新界组成。",
+          "en": "A Special Administrative Region of the People's Republic of China, located in southern China, east of the Pearl River estuary, consisting of Hong Kong Island, Kowloon, and the New Territories."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国",
+          "英国政府"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于欧洲的岛屿国家，曾在1898年至1997年间管治新界。",
+          "en": "An island country in Europe that governed the New Territories from 1898 to 1997."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "清政府"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中国最后一个帝制王朝，于1898年将新界租借予英国。",
+          "en": "The last imperial dynasty of China, which leased the New Territories to Great Britain in 1898."
+        }
+      }
+    },
+    {
+      "id": "展拓香港界址专条",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "展拓香港界址专条"
+        ],
+        "en": [
+          "The Convention for the Extension of Hong Kong Territory"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1898年由英国与清朝在北京签订的条约，内容为租借新界99年。",
+          "en": "A treaty signed in Beijing in 1898 between the United Kingdom and the Qing dynasty, leasing the New Territories for 99 years."
+        }
+      }
+    },
+    {
+      "id": "麦理浩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "麦理浩",
+          "麦理浩勋爵"
+        ],
+        "en": [
+          "Crawford Murray MacLehose"
+        ]
+      },
+      "properties": {
+        "lifetime": "1917-10-16 - 2000-05-27",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "第25任香港总督，任内推行十年建屋计划等重要政策，促成了新界的大规模发展。",
+          "en": "The 25th Governor of Hong Kong, who implemented major policies such as the Ten-year Housing Programme, leading to the large-scale development of the New Territories."
+        }
+      }
+    },
+    {
+      "id": "十年建屋计划",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "十年建屋计划"
+        ],
+        "en": [
+          "Ten-year Housing Programme"
+        ]
+      },
+      "properties": {
+        "period": "1972 - 1982",
+        "description": {
+          "zh-cn": "由港督麦理浩于1972年提出的公共房屋计划，旨在解决香港市民的居住问题，并直接推动了新界新市镇的发展。",
+          "en": "A public housing program proposed by Governor MacLehose in 1972 to address the housing needs of Hong Kong's population, which directly drove the development of new towns in the New Territories."
+        }
+      }
+    },
+    {
+      "id": "土木工程拓展署",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "土木工程拓展署",
+          "新界拓展署"
+        ],
+        "en": [
+          "Civil Engineering and Development Department"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港特别行政区政府发展局辖下的部门。其前身新界拓展署于1973年成立，负责执行新界的大规模发展计划。",
+          "en": "A department under the Development Bureau of the Hong Kong SAR Government. Its predecessor, the New Territories Development Department, was established in 1973 to implement large-scale development plans in the New Territories."
+        }
+      }
+    },
+    {
+      "id": "日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868 - 1947",
+        "description": {
+          "zh-cn": "19世纪末至二战期间的日本，曾于1941年至1945年占领香港。",
+          "en": "Japan from the late 19th century until the end of World War II, which occupied Hong Kong from 1941 to 1945."
+        }
+      }
+    },
+    {
+      "id": "香港日据时期",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "香港日据时期",
+          "日据时期"
+        ],
+        "en": [
+          "Japanese occupation of Hong Kong"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-25 - 1945-08-15",
+        "description": {
+          "zh-cn": "第二次世界大战期间，大日本帝国军事占领香港的时期，共计三年零八个月。",
+          "en": "The period during World War II when Hong Kong was under military occupation by the Empire of Japan, lasting for three years and eight months."
+        }
+      }
+    },
+    {
+      "id": "卜力",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卜力"
+        ],
+        "en": [
+          "Henry Arthur Blake"
+        ]
+      },
+      "properties": {
+        "lifetime": "1840-01-08 - 1918-02-23",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "第12任香港总督，负责接管新界，并决定了对新界的间接管治方针。",
+          "en": "The 12th Governor of Hong Kong, who was responsible for taking over the New Territories and decided on the policy of indirect rule for the area."
+        }
+      }
+    },
+    {
+      "id": "骆克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "骆克"
+        ],
+        "en": [
+          "James Stewart Lockhart"
+        ]
+      },
+      "properties": {
+        "lifetime": "1858-05-25 - 1937-02-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "香港辅政司，其关于新界的报告影响了英国对该地区的早期管治政策。",
+          "en": "Colonial Secretary of Hong Kong, whose report on the New Territories influenced early British governance policies in the region."
+        }
+      }
+    },
+    {
+      "id": "深圳市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "深圳市",
+          "深圳"
+        ],
+        "en": [
+          "Shenzhen"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国大陆",
+          "en": "Mainland China"
+        },
+        "description": {
+          "zh-cn": "位于中国广东省的副省级市，与香港新界接壤。",
+          "en": "A sub-provincial city in Guangdong Province, China, bordering the New Territories of Hong Kong."
+        }
+      }
+    },
+    {
+      "id": "秦朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦朝"
+        ],
+        "en": [
+          "Qin dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-0221 - -0206",
+        "description": {
+          "zh-cn": "中国历史上第一个大一统的封建王朝。秦朝平定百越之后，今天的新界被纳入其版图。",
+          "en": "The first unified imperial dynasty in Chinese history. After the Qin conquered the Baiyue peoples, the area of the modern New Territories was incorporated into its territory."
+        }
+      }
+    },
+    {
+      "id": "番禺县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "番禺县"
+        ],
+        "en": [
+          "Panyu County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代行政区划，秦朝时管辖范围包括今天的新界地区。",
+          "en": "An ancient administrative division in China. During the Qin dynasty, its jurisdiction included the area of the modern New Territories."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "展拓香港界址专条",
+      "target": "新界",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1898-06-09",
+        "description": {
+          "zh-cn": "该条约的签订确立了英国租借新界99年的事实，并界定了新界的地理范围。",
+          "en": "The signing of this treaty established the 99-year lease of the New Territories to Britain and defined its geographical scope."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "新界",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1898-07-01",
+        "end_date": "1997-06-30",
+        "description": {
+          "zh-cn": "通过《展拓香港界址专条》租借并管治新界，直至1997年主权移交。",
+          "en": "Leased and governed the New Territories through the Convention for the Extension of Hong Kong Territory until the 1997 handover."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "新界",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1898-06-09",
+        "description": {
+          "zh-cn": "通过《展拓香港界址专条》将新界地区租借予英国，失去对该地区的管治权。",
+          "en": "Lost sovereignty over the New Territories by leasing the area to Britain through the Convention for the Extension of Hong Kong Territory."
+        }
+      }
+    },
+    {
+      "source": "骆克",
+      "target": "卜力",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1898",
+        "description": {
+          "zh-cn": "港督卜力基于骆克的报告及建议，决定对新界采用间接管治的方针。",
+          "en": "Governor Henry Blake decided to adopt a policy of indirect rule over the New Territories based on James Stewart Lockhart's report and recommendations."
+        }
+      }
+    },
+    {
+      "source": "卜力",
+      "target": "新界",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1898",
+        "description": {
+          "zh-cn": "作为港督，决定对新界采用间接管治方针，维持其原有的土地财产制度和民间风俗习惯。",
+          "en": "As Governor, he decided on a policy of indirect rule for the New Territories, maintaining its original land ownership system and local customs."
+        }
+      }
+    },
+    {
+      "source": "麦理浩",
+      "target": "十年建屋计划",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1972",
+        "description": {
+          "zh-cn": "时任港督麦理浩于1972年提出十年建屋计划，以解决房屋问题。",
+          "en": "Then-Governor Crawford Murray MacLehose proposed the Ten-year Housing Programme in 1972 to solve the housing problem."
+        }
+      }
+    },
+    {
+      "source": "十年建屋计划",
+      "target": "新界",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1973",
+        "description": {
+          "zh-cn": "为配合该计划，香港政府大举发展新界，开拓了多个新市镇，极大地改变了新界的面貌并使其人口剧增。",
+          "en": "To facilitate this programme, the Hong Kong government extensively developed the New Territories, creating several new towns, which dramatically changed its landscape and led to a rapid population increase."
+        }
+      }
+    },
+    {
+      "source": "土木工程拓展署",
+      "target": "新界",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1973",
+        "description": {
+          "zh-cn": "其前身新界拓展署于1973年成立，专门负责执行新界的发展计划，包括开拓新市镇。",
+          "en": "Its predecessor, the New Territories Development Department, was established in 1973 to specifically carry out development plans in the New Territories, including the creation of new towns."
+        }
+      }
+    },
+    {
+      "source": "日本帝国",
+      "target": "香港日据时期",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-25",
+        "end_date": "1945-08-15",
+        "description": {
+          "zh-cn": "于1941年12月军事占领香港，开启了为期三年零八个月的统治。",
+          "en": "Militarily occupied Hong Kong in December 1941, beginning a three-year and eight-month period of rule."
+        }
+      }
+    },
+    {
+      "source": "香港日据时期",
+      "target": "新界",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1943-07",
+        "end_date": "1945-08-15",
+        "description": {
+          "zh-cn": "日本占领期间，香港占领地政府于1943年7月起将新界分成7个区进行管辖，改变了原有的行政区划。",
+          "en": "During the Japanese occupation, the Hong Kong Occupied Territory Government divided the New Territories into 7 districts for administration starting from July 1943, altering the original administrative divisions."
+        }
+      }
+    },
+    {
+      "source": "新界",
+      "target": "番禺县",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "-0221",
+        "end_date": "-0206",
+        "description": {
+          "zh-cn": "秦朝平定百越之后，今天的新界被纳入为秦境，属番禺县管辖。",
+          "en": "After the Qin dynasty conquered the Baiyue, the area of the modern New Territories was incorporated into Qin territory under the jurisdiction of Panyu County."
+        }
+      }
+    },
+    {
+      "source": "香港",
+      "target": "新界",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "新界是构成香港的三大地域之一。",
+          "en": "The New Territories is one of the three main regions that constitute Hong Kong."
+        }
+      }
+    },
+    {
+      "source": "新界",
+      "target": "深圳市",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "新界与中国大陆的深圳市陆地接壤。",
+          "en": "The New Territories shares a land border with the city of Shenzhen in Mainland China."
+        }
+      }
+    }
+  ]
+}

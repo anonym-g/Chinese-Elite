@@ -1,0 +1,606 @@
+{
+  "nodes": [
+    {
+      "id": "SoftEther VPN",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "SoftEther VPN"
+        ],
+        "en": [
+          "SoftEther VPN"
+        ]
+      },
+      "properties": {
+        "period": "2014-01-04 - ",
+        "description": {
+          "zh-cn": "一个开源、跨平台、多重协定之虚拟私人网路方案，由日本程序员登大游在筑波大学就读硕士期间开发。",
+          "en": "An open-source, cross-platform, multi-protocol VPN solution developed by Japanese programmer Daiyuu Nobori during his master's studies at the University of Tsukuba."
+        }
+      }
+    },
+    {
+      "id": "登大游",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "登大游"
+        ],
+        "en": [
+          "Daiyuu Nobori"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本程式设计师，SoftEther VPN的主要开发者。",
+          "en": "Japanese programmer, the main developer of SoftEther VPN."
+        }
+      }
+    },
+    {
+      "id": "筑波大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "筑波大学"
+        ],
+        "en": [
+          "University of Tsukuba"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "日本",
+          "en": "Japan"
+        },
+        "description": {
+          "zh-cn": "日本的一所国立大学，SoftEther VPN项目在此进行，并赞助了VPN Gate。",
+          "en": "A national university in Japan where the SoftEther VPN project was conducted and which sponsors VPN Gate."
+        }
+      }
+    },
+    {
+      "id": "SoftEther VPN 项目",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "SoftEther VPN 项目"
+        ],
+        "en": [
+          "SoftEther VPN Project"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在筑波大学内进行SoftEther VPN开发的项目组。",
+          "en": "The project group at the University of Tsukuba responsible for developing SoftEther VPN."
+        }
+      }
+    },
+    {
+      "id": "虚拟私人网路",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "虚拟私人网路",
+          "VPN"
+        ],
+        "en": [
+          "Virtual Private Network",
+          "VPN"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种在公共网络上建立加密连接的技术。",
+          "en": "A technology that creates an encrypted connection over a public network."
+        }
+      }
+    },
+    {
+      "id": "GNU通用公共授权条款",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "GNU通用公共授权条款",
+          "GPL v2"
+        ],
+        "en": [
+          "GNU General Public License",
+          "GPLv2"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种广泛使用的自由软件许可证。SoftEther VPN在2014年至2019年初使用此许可证。",
+          "en": "A widely used free software license. SoftEther VPN used this license from 2014 to early 2019."
+        }
+      }
+    },
+    {
+      "id": "Apache许可证",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "Apache许可证",
+          "Apache License 2.0"
+        ],
+        "en": [
+          "Apache License",
+          "Apache License 2.0"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个由Apache软件基金会发布的自由软件许可证。SoftEther VPN自2019年1月起转为使用此许可证。",
+          "en": "A free software license released by the Apache Software Foundation. SoftEther VPN switched to this license in January 2019."
+        }
+      }
+    },
+    {
+      "id": "NAT穿透",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "NAT穿透"
+        ],
+        "en": [
+          "NAT traversal"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在使用了网络地址转换（NAT）的IP网络中建立和维持网络连接的技术。",
+          "en": "A computer networking technique of establishing and maintaining Internet protocol connections across network address translators (NATs)."
+        }
+      }
+    },
+    {
+      "id": "互联网审查",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "互联网审查",
+          "网络审查"
+        ],
+        "en": [
+          "Internet censorship"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "对互联网内容的控制或压制。",
+          "en": "The control or suppression of what can be accessed, published, or viewed on the Internet."
+        }
+      }
+    },
+    {
+      "id": "突破网络封锁",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "突破网络封锁",
+          "翻墙"
+        ],
+        "en": [
+          "Circumventing internet censorship"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "绕过互联网审查，访问在特定地区被限制访问的网站或服务的行为。",
+          "en": "The act of bypassing internet censorship to access websites or services that are restricted in a specific region."
+        }
+      }
+    },
+    {
+      "id": "深度封包检测",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "深度封包检测"
+        ],
+        "en": [
+          "Deep packet inspection",
+          "DPI"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种网络数据包过滤技术，用于检查通过检查点的数据包的数据部分（也可能是头部），以定位、识别、分类、重新路由或阻止具有特定数据或代码有效负载的数据包。",
+          "en": "A type of data processing that inspects in detail the data being sent over a computer network, and may take actions such as blocking, re-routing, or logging it accordingly."
+        }
+      }
+    },
+    {
+      "id": "防火长城",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "防火长城"
+        ],
+        "en": [
+          "Great Firewall",
+          "GFW"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府在其管辖互联网内部建立的多套网络审查系统的总称，用于审查和封锁网络内容。",
+          "en": "The combination of legislative actions and technologies enforced by the People's Republic of China to regulate the Internet domestically."
+        }
+      }
+    },
+    {
+      "id": "VPN Gate",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "VPN Gate"
+        ],
+        "en": [
+          "VPN Gate"
+        ]
+      },
+      "properties": {
+        "period": "2013-03 - ",
+        "description": {
+          "zh-cn": "SoftEther VPN的一个插件，提供由志愿者运营的公共VPN中继服务器列表，以帮助用户绕过互联网审查。",
+          "en": "A plugin for SoftEther VPN that provides a list of public VPN relay servers, run by volunteers, to help users bypass internet censorship."
+        }
+      }
+    },
+    {
+      "id": "C语言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "C语言"
+        ],
+        "en": [
+          "C (programming language)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种通用的计算机编程语言，用于开发SoftEther VPN。",
+          "en": "A general-purpose computer programming language used to develop SoftEther VPN."
+        }
+      }
+    },
+    {
+      "id": "C++",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "C++"
+        ],
+        "en": [
+          "C++"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种通用的计算机编程语言，用于开发SoftEther VPN。",
+          "en": "A general-purpose computer programming language used to develop SoftEther VPN."
+        }
+      }
+    },
+    {
+      "id": "SSL VPN",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "SSL VPN"
+        ],
+        "en": [
+          "SSL VPN"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种使用安全套接层协议（SSL）的虚拟私人网络（VPN）形式，SoftEther VPN支持此协议。",
+          "en": "A form of virtual private network (VPN) that uses the Secure Sockets Layer (SSL) protocol, which is supported by SoftEther VPN."
+        }
+      }
+    },
+    {
+      "id": "L2TP",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "L2TP"
+        ],
+        "en": [
+          "Layer 2 Tunneling Protocol"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二层隧道协议，一种用于支持虚拟私人网络的隧道协议，SoftEther VPN支持此协议。",
+          "en": "Layer 2 Tunneling Protocol, a tunneling protocol used to support virtual private networks, which is supported by SoftEther VPN."
+        }
+      }
+    },
+    {
+      "id": "IPsec",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "IPsec"
+        ],
+        "en": [
+          "Internet Protocol Security"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "互联网协议安全，一个用于保护IP网络通信的协议套件，SoftEther VPN支持此协议。",
+          "en": "A secure network protocol suite that authenticates and encrypts the packets of data sent over an Internet Protocol network, which is supported by SoftEther VPN."
+        }
+      }
+    },
+    {
+      "id": "OpenVPN",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "OpenVPN"
+        ],
+        "en": [
+          "OpenVPN"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个用于创建加密点对点或站点到站点连接的开源虚拟私人网络（VPN）方案，SoftEther VPN支持此协议。",
+          "en": "An open-source commercial software that implements virtual private network (VPN) techniques for creating secure point-to-point or site-to-site connections, which is supported by SoftEther VPN."
+        }
+      }
+    },
+    {
+      "id": "SSTP",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "SSTP",
+          "微软SSTP"
+        ],
+        "en": [
+          "Secure Socket Tunneling Protocol",
+          "SSTP"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "安全套接字隧道协议，一种VPN隧道形式，SoftEther VPN支持此协议。",
+          "en": "A form of VPN tunnel that provides a mechanism to transport PPP traffic through an SSL/TLS channel, which is supported by SoftEther VPN."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "SoftEther VPN 项目",
+      "target": "SoftEther VPN",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2014-01-04",
+        "description": {
+          "zh-cn": "SoftEther VPN由筑波大学的SoftEther VPN项目开发，并于2014年1月4日以开源软件形式发布。",
+          "en": "SoftEther VPN was developed by the SoftEther VPN Project at the University of Tsukuba and released as open-source software on January 4, 2014."
+        }
+      }
+    },
+    {
+      "source": "登大游",
+      "target": "SoftEther VPN 项目",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主导开发者",
+          "en": "Lead Developer"
+        },
+        "description": {
+          "zh-cn": "登大游是SoftEther VPN项目的核心人物和主要开发者。",
+          "en": "Daiyuu Nobori is the central figure and main developer of the SoftEther VPN Project."
+        }
+      }
+    },
+    {
+      "source": "登大游",
+      "target": "筑波大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "硕士",
+          "en": "Master's degree"
+        },
+        "description": {
+          "zh-cn": "登大游在筑波大学攻读硕士学位期间，其论文研究主题促成了SoftEther VPN的开发。",
+          "en": "During his master's degree studies at the University of Tsukuba, Daiyuu Nobori's thesis research topic led to the development of SoftEther VPN."
+        }
+      }
+    },
+    {
+      "source": "SoftEther VPN 项目",
+      "target": "筑波大学",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN项目是在筑波大学内进行的研究项目。",
+          "en": "The SoftEther VPN Project is a research project conducted at the University of Tsukuba."
+        }
+      }
+    },
+    {
+      "source": "SoftEther VPN",
+      "target": "突破网络封锁",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN被设计用来穿透防火墙，其VPN Gate插件旨在简化高强度网络审查地区用户的突破网络封锁操作。",
+          "en": "SoftEther VPN is designed to penetrate firewalls, and its VPN Gate plugin aims to simplify circumvention operations for users in areas with high-intensity network censorship."
+        }
+      }
+    },
+    {
+      "source": "SoftEther VPN",
+      "target": "互联网审查",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN通过其技术特性帮助用户绕过政府或组织的防火墙和网络审查。",
+          "en": "SoftEther VPN helps users bypass government or organizational firewalls and internet censorship through its technical features."
+        }
+      }
+    },
+    {
+      "source": "SoftEther VPN",
+      "target": "深度封包检测",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN使用HTTPS来伪装连接，使得防火墙的深度封包检测无法侦测到其VPN传送封包。",
+          "en": "SoftEther VPN uses HTTPS to disguise its connections, making it undetectable by firewalls' deep packet inspection."
+        }
+      }
+    },
+    {
+      "source": "防火长城",
+      "target": "SoftEther VPN",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "尽管SoftEther VPN具有抗封锁设计，其SSL VPN协议在中国大陆的部分地区仍然被防火长城封锁。",
+          "en": "Despite its anti-blocking design, SoftEther VPN's SSL VPN protocol is still blocked in some areas of mainland China by the Great Firewall."
+        }
+      }
+    },
+    {
+      "source": "GNU通用公共授权条款",
+      "target": "SoftEther VPN",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2014-01-04",
+        "end_date": "2019-01-21",
+        "description": {
+          "zh-cn": "SoftEther VPN最初于2014年1月4日以GNU通用公共授权条款（GPL v2）的方式转变为开源软件。",
+          "en": "SoftEther VPN was initially transitioned to open-source software under the GNU General Public License (GPL v2) on January 4, 2014."
+        }
+      }
+    },
+    {
+      "source": "Apache许可证",
+      "target": "SoftEther VPN",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2019-01-21",
+        "description": {
+          "zh-cn": "自2019年1月21日起，SoftEther VPN的授权协议从GPLv2转变为Apache License 2.0。",
+          "en": "Since January 21, 2019, SoftEther VPN's license was switched from GPLv2 to Apache License 2.0."
+        }
+      }
+    },
+    {
+      "source": "筑波大学",
+      "target": "VPN Gate",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "VPN Gate项目由日本筑波大学赞助。",
+          "en": "The VPN Gate project is sponsored by the University of Tsukuba, Japan."
+        }
+      }
+    },
+    {
+      "source": "VPN Gate",
+      "target": "突破网络封锁",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "VPN Gate通过提供公共VPN中继服务器列表，帮助用户绕过政府的互联网审查，实现网络封锁突破。",
+          "en": "VPN Gate facilitates circumventing internet censorship by providing a list of public VPN relay servers to help users bypass government internet censorship."
+        }
+      }
+    },
+    {
+      "source": "C语言",
+      "target": "SoftEther VPN",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN使用C语言进行编程开发。",
+          "en": "SoftEther VPN is developed using the C programming language."
+        }
+      }
+    },
+    {
+      "source": "C++",
+      "target": "SoftEther VPN",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN使用C++语言进行编程开发。",
+          "en": "SoftEther VPN is developed using the C++ programming language."
+        }
+      }
+    },
+    {
+      "source": "SoftEther VPN",
+      "target": "SSL VPN",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN服务器支持并提供SSL VPN协议服务。",
+          "en": "The SoftEther VPN server supports and provides services for the SSL VPN protocol."
+        }
+      }
+    },
+    {
+      "source": "SoftEther VPN",
+      "target": "L2TP",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN服务器支持并提供L2TP协议服务。",
+          "en": "The SoftEther VPN server supports and provides services for the L2TP protocol."
+        }
+      }
+    },
+    {
+      "source": "SoftEther VPN",
+      "target": "IPsec",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN服务器支持并提供IPsec协议服务。",
+          "en": "The SoftEther VPN server supports and provides services for the IPsec protocol."
+        }
+      }
+    },
+    {
+      "source": "SoftEther VPN",
+      "target": "OpenVPN",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN服务器支持并提供OpenVPN协议服务。",
+          "en": "The SoftEther VPN server supports and provides services for the OpenVPN protocol."
+        }
+      }
+    },
+    {
+      "source": "SoftEther VPN",
+      "target": "SSTP",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "SoftEther VPN服务器支持并提供微软SSTP协议服务。",
+          "en": "The SoftEther VPN server supports and provides services for the Microsoft SSTP protocol."
+        }
+      }
+    }
+  ]
+}

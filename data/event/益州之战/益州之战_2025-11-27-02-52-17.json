@@ -1,0 +1,729 @@
+{
+  "nodes": [
+    {
+      "id": "益州之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "益州之战"
+        ],
+        "en": [
+          "Battle of Yizhou"
+        ]
+      },
+      "properties": {
+        "period": "213-01 - 214-07",
+        "location": {
+          "zh-cn": "益州"
+        },
+        "description": {
+          "zh-cn": "东汉末年，刘备与益州牧刘璋为争夺益州而爆发的战争，最终刘备获胜，占据益州。",
+          "en": "A war in the late Eastern Han dynasty between Liu Bei and the governor of Yizhou, Liu Zhang, for control of the province. Liu Bei was victorious and occupied Yizhou."
+        }
+      }
+    },
+    {
+      "id": "刘备",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘备"
+        ],
+        "en": [
+          "Liu Bei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期蜀汉的开国皇帝。在益州之战中击败刘璋，夺取益州。",
+          "en": "Founding emperor of Shu Han during the Three Kingdoms period. He defeated Liu Zhang in the Battle of Yizhou to seize the province."
+        }
+      }
+    },
+    {
+      "id": "刘璋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘璋"
+        ],
+        "en": [
+          "Liu Zhang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年的益州牧，刘焉之子。在益州之战中被刘备击败并投降。",
+          "en": "Governor of Yizhou during the late Eastern Han dynasty, son of Liu Yan. He was defeated by and surrendered to Liu Bei in the Battle of Yizhou."
+        }
+      }
+    },
+    {
+      "id": "诸葛亮",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "诸葛亮"
+        ],
+        "en": [
+          "Zhuge Liang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘备的主要谋士，蜀汉丞相。在益州之战后期率军入蜀支援刘备。",
+          "en": "Liu Bei's chief advisor and chancellor of Shu Han. He led forces into Shu to support Liu Bei in the later stages of the Battle of Yizhou."
+        }
+      }
+    },
+    {
+      "id": "张鲁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张鲁"
+        ],
+        "en": [
+          "Zhang Lu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年盘踞汉中的军阀。他对刘璋的威胁是刘璋邀请刘备入蜀的起因之一。",
+          "en": "A warlord who occupied Hanzhong during the late Eastern Han dynasty. His threat to Liu Zhang was one of the reasons Liu Zhang invited Liu Bei into Shu."
+        }
+      }
+    },
+    {
+      "id": "庞统",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "庞统"
+        ],
+        "en": [
+          "Pang Tong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘备的重要谋士。在益州之战中献上、中、下三策，后在围攻雒城时中流矢阵亡。",
+          "en": "An important advisor to Liu Bei. He proposed three plans (upper, middle, lower) during the Battle of Yizhou and was later killed by a stray arrow during the siege of Luocheng."
+        }
+      }
+    },
+    {
+      "id": "张松 (东汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张松 (东汉)",
+          "张松"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘璋的属下，担任别驾。因不满刘璋而密谋迎接刘备入蜀，事败后被刘璋所杀。",
+          "en": "An aide to Liu Zhang. Dissatisfied with his lord, he secretly plotted to welcome Liu Bei into Shu. He was executed by Liu Zhang after the plot was discovered."
+        }
+      }
+    },
+    {
+      "id": "法正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "法正"
+        ],
+        "en": [
+          "Fa Zheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "原为刘璋属下，后与张松共同密谋迎接刘备入蜀，成为刘备的重要谋士。",
+          "en": "Originally a subordinate of Liu Zhang, he later conspired with Zhang Song to welcome Liu Bei into Shu and became an important advisor to Liu Bei."
+        }
+      }
+    },
+    {
+      "id": "张飞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张飞"
+        ],
+        "en": [
+          "Zhang Fei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘备的义弟和重要将领。在益州之战后期与诸葛亮、赵云一同率军入蜀。",
+          "en": "Liu Bei's sworn brother and a key general. He, along with Zhuge Liang and Zhao Yun, led forces into Shu during the later stages of the Battle of Yizhou."
+        }
+      }
+    },
+    {
+      "id": "赵云",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵云"
+        ],
+        "en": [
+          "Zhao Yun"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘备的重要将领。在益州之战后期与诸葛亮、张飞一同率军入蜀。",
+          "en": "A key general under Liu Bei. He, along with Zhuge Liang and Zhang Fei, led forces into Shu during the later stages of the Battle of Yizhou."
+        }
+      }
+    },
+    {
+      "id": "张任",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张任"
+        ],
+        "en": [
+          "Zhang Ren"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘璋的将领，以忠勇著称。在益州之战中抵抗刘备，兵败被俘后因不肯投降而被杀。",
+          "en": "A general under Liu Zhang, known for his loyalty and bravery. He resisted Liu Bei during the Battle of Yizhou, was captured after being defeated, and executed for refusing to surrender."
+        }
+      }
+    },
+    {
+      "id": "刘循",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘循"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘璋的儿子，在益州之战中据守雒城抵抗刘备近一年。",
+          "en": "Son of Liu Zhang. He defended Luocheng against Liu Bei for nearly a year during the Battle of Yizhou."
+        }
+      }
+    },
+    {
+      "id": "李严 (蜀汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李严 (蜀汉)",
+          "李严"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "原为刘璋将领，负责督管绵竹诸军，后率众投降刘备。",
+          "en": "Originally a general under Liu Zhang, responsible for overseeing the armies at Mianzhu. He later surrendered to Liu Bei with his troops."
+        }
+      }
+    },
+    {
+      "id": "杨怀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨怀"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘璋的将领，白水军督。在益州之战初期被刘备设计斩杀。",
+          "en": "A general under Liu Zhang and commander of the Baishui Army. He was tricked and executed by Liu Bei at the beginning of the Battle of Yizhou."
+        }
+      }
+    },
+    {
+      "id": "高沛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "高沛"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘璋的将领，白水军督。在益州之战初期被刘备设计斩杀。",
+          "en": "A general under Liu Zhang and commander of the Baishui Army. He was tricked and executed by Liu Bei at the beginning of the Battle of Yizhou."
+        }
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操"
+        ],
+        "en": [
+          "Cao Cao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年的权臣，曹魏的奠基者。他意图攻取汉中的行动间接促使了刘璋邀请刘备入蜀。",
+          "en": "A powerful minister of the late Eastern Han dynasty and the founder of Cao Wei. His intention to attack Hanzhong indirectly prompted Liu Zhang to invite Liu Bei into Shu."
+        }
+      }
+    },
+    {
+      "id": "孙权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙权"
+        ],
+        "en": [
+          "Sun Quan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期东吴的建立者。在益州之战后因荆州归属问题与刘备产生摩擦。",
+          "en": "Founder of Eastern Wu during the Three Kingdoms period. After the Battle of Yizhou, he had friction with Liu Bei over the ownership of Jingzhou."
+        }
+      }
+    },
+    {
+      "id": "隆中对",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "隆中对"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "诸葛亮向刘备提出的战略规划，其核心思想是“跨有荆、益”。益州之战是实现该规划的关键一步。",
+          "en": "A strategic plan proposed by Zhuge Liang to Liu Bei, with its core idea being to control both Jing and Yi provinces. The Battle of Yizhou was a crucial step in realizing this plan."
+        }
+      }
+    },
+    {
+      "id": "益州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "益州"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东汉时期的一个州，大致范围包括今天的四川盆地和汉中盆地，是益州之战争夺的核心地区。",
+          "en": "A province during the Eastern Han dynasty, roughly corresponding to modern-day Sichuan Basin and Hanzhong Basin. It was the central region contested in the Battle of Yizhou."
+        }
+      }
+    },
+    {
+      "id": "汉中",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "汉中"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "益州的门户，战略要地。在益州之战前后，是曹操、张鲁、刘备三方势力争夺的焦点。",
+          "en": "The gateway to Yizhou and a strategic location. Around the time of the Battle of Yizhou, it was a focal point of contention among the forces of Cao Cao, Zhang Lu, and Liu Bei."
+        }
+      }
+    },
+    {
+      "id": "赤壁之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "赤壁之战"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孙刘联军击败曹操的关键战役，战后刘备得以占据荆州，为进图益州奠定了基础。",
+          "en": "A decisive battle where the allied forces of Sun Quan and Liu Bei defeated Cao Cao. After the battle, Liu Bei was able to occupy Jingzhou, laying the foundation for his advance into Yizhou."
+        }
+      }
+    },
+    {
+      "id": "张肃 (东汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张肃 (东汉)",
+          "张肃"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘璋的属下，张松的兄长。因担心弟弟的密谋连累自己而向刘璋告发。",
+          "en": "A subordinate of Liu Zhang and the elder brother of Zhang Song. He reported his brother's conspiracy to Liu Zhang out of fear of being implicated."
+        }
+      }
+    },
+    {
+      "id": "刘焉 (益州牧)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘焉 (益州牧)",
+          "刘焉"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年的益州牧，刘璋的父亲。",
+          "en": "Governor of Yizhou during the late Eastern Han dynasty and the father of Liu Zhang."
+        }
+      }
+    },
+    {
+      "id": "马超",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马超"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "原为一方军阀，后投靠张鲁。在益州之战末期转投刘备，其兵临成都城下对刘璋的投降起到了重要作用。",
+          "en": "Originally a warlord, he later sought refuge with Zhang Lu. In the final stages of the Battle of Yizhou, he switched allegiance to Liu Bei. His arrival with troops at the gates of Chengdu played a significant role in Liu Zhang's decision to surrender."
+        }
+      }
+    },
+    {
+      "id": "孙刘联盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "孙刘联盟"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孙权与刘备为对抗曹操而建立的军事政治同盟。在刘备夺取益州后，双方因荆州归属问题产生裂痕。",
+          "en": "A military and political alliance formed by Sun Quan and Liu Bei to resist Cao Cao. After Liu Bei seized Yizhou, the alliance was strained by disputes over the ownership of Jingzhou."
+        }
+      }
+    },
+    {
+      "id": "汉中之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "汉中之战"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "刘备为夺取汉中而与曹操展开的战役。曹操在益州之战后占据汉中，对蜀地构成威胁，是此战爆发的直接原因。",
+          "en": "A campaign launched by Liu Bei to seize Hanzhong from Cao Cao. Cao Cao's occupation of Hanzhong after the Battle of Yizhou, which posed a threat to Shu, was the direct cause of this war."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "隆中对",
+      "target": "益州之战",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "益州之战是刘备实现《隆中对》中“跨有荆、益”战略规划的关键步骤。",
+          "en": "The Battle of Yizhou was a crucial step for Liu Bei to realize the strategic plan of \"controlling both Jing and Yi provinces\" as outlined in the Longzhong Dui."
+        }
+      }
+    },
+    {
+      "source": "赤壁之战",
+      "target": "刘备",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "赤壁之战后，刘备得以占据荆州，为后续进攻益州创造了条件。",
+          "en": "After the Battle of Red Cliffs, Liu Bei was able to occupy Jingzhou, creating the conditions for the subsequent attack on Yizhou."
+        }
+      }
+    },
+    {
+      "source": "张鲁",
+      "target": "刘璋",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘璋因受到盘踞汉中的张鲁势力的威胁，才决定邀请刘备入蜀以求自保。",
+          "en": "Threatened by Zhang Lu's forces in Hanzhong, Liu Zhang decided to invite Liu Bei into Shu for self-preservation."
+        }
+      }
+    },
+    {
+      "source": "曹操",
+      "target": "刘璋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "211",
+        "description": {
+          "zh-cn": "曹操意图攻取汉中，对蜀地构成潜在威胁，加剧了刘璋的恐惧，促使其邀请刘备入蜀。",
+          "en": "Cao Cao's intention to attack Hanzhong posed a potential threat to the Shu region, intensifying Liu Zhang's fear and prompting him to invite Liu Bei into Shu."
+        }
+      }
+    },
+    {
+      "source": "张松 (东汉)",
+      "target": "刘璋",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为刘璋的属下，张松秘密策划并劝说刘璋迎接刘备入蜀，意图帮助刘备夺取益州。",
+          "en": "As a subordinate of Liu Zhang, Zhang Song secretly planned and persuaded Liu Zhang to welcome Liu Bei into Shu, intending to help Liu Bei seize Yizhou."
+        }
+      }
+    },
+    {
+      "source": "法正",
+      "target": "刘璋",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "作为刘璋的属下，法正与张松合谋，主动向刘备献策，帮助其夺取益州。",
+          "en": "As a subordinate of Liu Zhang, Fa Zheng conspired with Zhang Song and took the initiative to offer strategies to Liu Bei to help him seize Yizhou."
+        }
+      }
+    },
+    {
+      "source": "刘璋",
+      "target": "刘备",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "211",
+        "end_date": "212-12",
+        "description": {
+          "zh-cn": "刘璋邀请刘备入蜀对抗张鲁，初期双方关系良好。",
+          "en": "Liu Zhang invited Liu Bei into Shu to counter Zhang Lu, and their relationship was initially good."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "刘璋",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "212-12",
+        "end_date": "214-05",
+        "description": {
+          "zh-cn": "刘备与刘璋决裂，发动益州之战，最终迫使刘璋投降。",
+          "en": "Liu Bei broke with Liu Zhang, launched the Battle of Yizhou, and ultimately forced Liu Zhang to surrender."
+        }
+      }
+    },
+    {
+      "source": "庞统",
+      "target": "刘备",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "军师中郎将",
+          "en": "Military Advisor General"
+        },
+        "description": {
+          "zh-cn": "庞统是刘备的重要谋士，在益州之战中为其献策。",
+          "en": "Pang Tong was an important advisor to Liu Bei and offered him strategies during the Battle of Yizhou."
+        }
+      }
+    },
+    {
+      "source": "益州之战",
+      "target": "庞统",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在围攻雒城时，庞统率众攻城，被流矢射中而阵亡。",
+          "en": "During the siege of Luocheng, Pang Tong was leading the assault when he was struck by a stray arrow and died."
+        }
+      }
+    },
+    {
+      "source": "张肃 (东汉)",
+      "target": "张松 (东汉)",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张肃是张松的兄长。",
+          "en": "Zhang Su was the elder brother of Zhang Song."
+        }
+      }
+    },
+    {
+      "source": "张肃 (东汉)",
+      "target": "张松 (东汉)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "212",
+        "description": {
+          "zh-cn": "张肃发现弟弟张松的叛变意图后，向刘璋告发，导致张松被杀。",
+          "en": "After discovering his younger brother Zhang Song's rebellious intentions, Zhang Su reported him to Liu Zhang, leading to Zhang Song's execution."
+        }
+      }
+    },
+    {
+      "source": "刘璋",
+      "target": "张松 (东汉)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "212",
+        "description": {
+          "zh-cn": "在得知张松的密谋后，刘璋下令将其处死。",
+          "en": "After learning of Zhang Song's conspiracy, Liu Zhang ordered his execution."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "杨怀",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "212-12",
+        "description": {
+          "zh-cn": "刘备在与刘璋决裂后，设计斩杀了刘璋的将领杨怀，吞并了其军队。",
+          "en": "After breaking with Liu Zhang, Liu Bei plotted and executed Liu Zhang's general Yang Huai, annexing his troops."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "高沛",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "212-12",
+        "description": {
+          "zh-cn": "刘备在与刘璋决裂后，设计斩杀了刘璋的将领高沛，吞并了其军队。",
+          "en": "After breaking with Liu Zhang, Liu Bei plotted and executed Liu Zhang's general Gao Pei, annexing his troops."
+        }
+      }
+    },
+    {
+      "source": "刘备",
+      "target": "张任",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘备在金雁桥击败并俘虏了张任，因其坚决不降而下令将其处死。",
+          "en": "Liu Bei defeated and captured Zhang Ren at Jinyan Bridge, and ordered his execution due to his resolute refusal to surrender."
+        }
+      }
+    },
+    {
+      "source": "刘循",
+      "target": "刘璋",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘循是刘璋的儿子。",
+          "en": "Liu Xun was the son of Liu Zhang."
+        }
+      }
+    },
+    {
+      "source": "刘璋",
+      "target": "刘焉 (益州牧)",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘璋是刘焉的儿子，继承其益州牧的职位。",
+          "en": "Liu Zhang was the son of Liu Yan and inherited his position as the governor of Yizhou."
+        }
+      }
+    },
+    {
+      "source": "马超",
+      "target": "刘备",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "214",
+        "description": {
+          "zh-cn": "在益州之战末期，原属张鲁麾下的马超投靠刘备，并领兵进驻成都城北，加速了刘璋的投降。",
+          "en": "In the late stages of the Battle of Yizhou, Ma Chao, who was under Zhang Lu, defected to Liu Bei and stationed his troops north of Chengdu, accelerating Liu Zhang's surrender."
+        }
+      }
+    },
+    {
+      "source": "李严 (蜀汉)",
+      "target": "刘备",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "原为刘璋将领，后在绵竹率众向刘备投降。",
+          "en": "Originally a general under Liu Zhang, he later surrendered to Liu Bei with his troops at Mianzhu."
+        }
+      }
+    },
+    {
+      "source": "益州之战",
+      "target": "孙刘联盟",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "214",
+        "description": {
+          "zh-cn": "刘备夺取益州后，孙权向其索要荆州未果，导致双方关系恶化，损害了孙刘联盟。",
+          "en": "After Liu Bei seized Yizhou, Sun Quan's demand for Jingzhou was rejected, causing their relationship to deteriorate and damaging the Sun-Liu alliance."
+        }
+      }
+    },
+    {
+      "source": "益州之战",
+      "target": "汉中之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "215",
+        "description": {
+          "zh-cn": "刘备夺取益州后，曹操于次年（215年）占领汉中，直接威胁蜀地安全，从而引发了刘备为争夺汉中而发动的汉中之战。",
+          "en": "After Liu Bei seized Yizhou, Cao Cao occupied Hanzhong the following year (215), directly threatening the security of the Shu region, which led to the Hanzhong Campaign launched by Liu Bei to contest control of Hanzhong."
+        }
+      }
+    },
+    {
+      "source": "刘璋",
+      "target": "刘备",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "214-05",
+        "description": {
+          "zh-cn": "在成都城被围后，刘璋开城向刘备投降。",
+          "en": "After the city of Chengdu was besieged, Liu Zhang opened the gates and surrendered to Liu Bei."
+        }
+      }
+    }
+  ]
+}

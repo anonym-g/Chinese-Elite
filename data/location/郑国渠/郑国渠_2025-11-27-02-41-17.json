@@ -1,0 +1,433 @@
+{
+  "nodes": [
+    {
+      "id": "郑国渠",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "郑国渠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0246 - ",
+        "location": {
+          "zh-cn": "陕西省泾阳县",
+          "en": "Jingyang County, Shaanxi Province"
+        },
+        "description": {
+          "zh-cn": "中国战国时期由水利学家郑国为秦国修筑的大型灌溉渠，位于今陕西省。该工程极大促进了秦国农业发展，为其统一六国奠定了基础。",
+          "en": "A large irrigation canal built for the State of Qin by the hydraulic engineer Zheng Guo during the Warring States period of China, located in modern-day Shaanxi Province. The project greatly promoted the agricultural development of Qin and laid the foundation for its unification of the six states."
+        }
+      }
+    },
+    {
+      "id": "郑国 (水工)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑国 (水工)",
+          "郑国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国战国时期的韩国水利工程师。他受韩国派遣，作为间谍前往秦国，劝说秦王修建郑国渠以消耗秦国国力，但该工程最终反而使秦国更加富强。",
+          "en": "A hydraulic engineer from the State of Han during the Warring States period of China. He was sent by Han as a spy to the State of Qin to persuade its king to build the Zheng Guo Canal to drain Qin's resources. However, the project ultimately made Qin even more prosperous and powerful."
+        }
+      }
+    },
+    {
+      "id": "秦国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦国"
+        ],
+        "en": [
+          "State of Qin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国战国时期的诸侯国，后统一六国建立秦朝。",
+          "en": "A vassal state during the Warring States period of China, which later unified the six states and established the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "秦王政",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦王政"
+        ],
+        "en": [
+          "King Zheng of Qin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国君主，即后来的秦始皇。他在位期间识破郑国的疲秦之计后，依然决定继续并完成了郑国渠的修建。",
+          "en": "The king of the State of Qin, later known as Qin Shi Huang. During his reign, after seeing through the plot by the State of Han, he nevertheless decided to continue and complete the construction of the Zheng Guo Canal."
+        }
+      }
+    },
+    {
+      "id": "韩国 (战国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "韩国 (战国)",
+          "韩国"
+        ],
+        "en": [
+          "State of Han"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国战国时期的诸侯国之一。为消耗秦国国力，延缓其东征步伐，派遣水工郑国赴秦游说修建水渠。",
+          "en": "One of the vassal states during the Warring States period of China. In an attempt to drain the resources of the State of Qin and slow its eastward expansion, it dispatched the hydraulic engineer Zheng Guo to persuade Qin to build a canal."
+        }
+      }
+    },
+    {
+      "id": "关中平原",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "关中平原",
+          "关中"
+        ],
+        "en": [
+          "Guanzhong Plain"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "陕西省",
+          "en": "Shaanxi Province"
+        },
+        "description": {
+          "zh-cn": "位于中国陕西省中部的平原，是郑国渠和白渠的主要灌溉区域。",
+          "en": "A plain in the central part of Shaanxi Province, China, and the main irrigation area for the Zheng Guo Canal and Bai Canal."
+        }
+      }
+    },
+    {
+      "id": "秦灭六国",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "秦灭六国",
+          "吞并诸侯"
+        ],
+        "en": [
+          "Qin's wars of unification"
+        ]
+      },
+      "properties": {
+        "period": "-0230 - -0221",
+        "description": {
+          "zh-cn": "指战国末期秦国陆续兼并韩、赵、魏、楚、燕、齐六国的过程。郑国渠的修建为秦国提供了强大的经济和后勤支持。",
+          "en": "Refers to the process in the late Warring States period where the State of Qin successively annexed the other six major states: Han, Zhao, Wei, Chu, Yan, and Qi. The construction of the Zheng Guo Canal provided strong economic and logistical support for Qin."
+        }
+      }
+    },
+    {
+      "id": "泾河",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "泾河",
+          "泾水"
+        ],
+        "en": [
+          "Jing River"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "渭河的最大支流，郑国渠和白渠的水源。",
+          "en": "The largest tributary of the Wei River, and the water source for the Zheng Guo Canal and Bai Canal."
+        }
+      }
+    },
+    {
+      "id": "渭水",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "渭水"
+        ],
+        "en": [
+          "Wei River"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "黄河的最大支流，郑国渠引泾水最终注入的河流。",
+          "en": "The largest tributary of the Yellow River, where the water diverted by the Zheng Guo Canal from the Jing River eventually flows into."
+        }
+      }
+    },
+    {
+      "id": "陕西省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "陕西省"
+        ],
+        "en": [
+          "Shaanxi"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "泾阳县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "泾阳县"
+        ],
+        "en": [
+          "Jingyang County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "白渠",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "白渠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "-0095 - ",
+        "description": {
+          "zh-cn": "西汉时期，在汉武帝治下由白公提议修建的灌溉渠道，位于郑国渠之南，引泾水灌溉农田。",
+          "en": "An irrigation canal built during the Western Han Dynasty under Emperor Wu, proposed by Bai Gong. It is located south of the Zheng Guo Canal and diverts water from the Jing River to irrigate farmland."
+        }
+      }
+    },
+    {
+      "id": "白公 (西汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白公 (西汉)",
+          "白公"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉赵国中大夫，向汉武帝提议修建白渠。",
+          "en": "A Grand Master of the Household from the state of Zhao during the Western Han Dynasty, who proposed the construction of the Bai Canal to Emperor Wu."
+        }
+      }
+    },
+    {
+      "id": "汉武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉武帝"
+        ],
+        "en": [
+          "Emperor Wu of Han"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉第七位皇帝，在他统治期间批准修建了白渠。",
+          "en": "The seventh emperor of the Western Han Dynasty, during whose reign the construction of the Bai Canal was approved."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "郑国 (水工)",
+      "target": "郑国渠",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-0246",
+        "description": {
+          "zh-cn": "郑国主持修建了郑国渠。",
+          "en": "Zheng Guo supervised the construction of the Zheng Guo Canal."
+        }
+      }
+    },
+    {
+      "source": "秦王政",
+      "target": "郑国渠",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0246",
+        "description": {
+          "zh-cn": "秦王政在识破韩国的计谋后，认为郑国渠对秦国有利，因而批准并命令继续修建该工程。",
+          "en": "After seeing through the plot of the State of Han, King Zheng of Qin believed the canal would benefit his state and thus approved and ordered the continuation of the project."
+        }
+      }
+    },
+    {
+      "source": "韩国 (战国)",
+      "target": "郑国渠",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0246",
+        "description": {
+          "zh-cn": "韩国派遣水工郑国游说秦国兴修水利，企图以此消耗秦国的人力与财力，以延缓其东征步伐，这一行为客观上推动了郑国渠的修建。",
+          "en": "The State of Han dispatched engineer Zheng Guo to persuade Qin to build the canal, intending to drain Qin's resources and slow its expansion. This action objectively pushed forward the construction of the Zheng Guo Canal."
+        }
+      }
+    },
+    {
+      "source": "郑国 (水工)",
+      "target": "秦王政",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "-0246",
+        "position": {
+          "zh-cn": "水工",
+          "en": "Hydraulic Engineer"
+        },
+        "description": {
+          "zh-cn": "郑国作为水利工程师，为秦王政主持修建郑国渠工程。",
+          "en": "As a hydraulic engineer, Zheng Guo supervised the construction of the Zheng Guo Canal for King Zheng of Qin."
+        }
+      }
+    },
+    {
+      "source": "郑国 (水工)",
+      "target": "韩国 (战国)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "细作",
+          "en": "Spy"
+        },
+        "description": {
+          "zh-cn": "郑国原为韩国派往秦国的间谍，任务是劝说秦国兴修水利以消耗其国力。",
+          "en": "Zheng Guo was originally a spy sent by the State of Han to Qin, tasked with persuading Qin to undertake a major hydraulic project to deplete its resources."
+        }
+      }
+    },
+    {
+      "source": "韩国 (战国)",
+      "target": "秦国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在战国时期，韩国与秦国是敌对国家，韩国试图通过“疲秦之计”来削弱秦国。",
+          "en": "During the Warring States period, the State of Han and the State of Qin were rival states. Han attempted to weaken Qin through a plot to drain its resources."
+        }
+      }
+    },
+    {
+      "source": "郑国渠",
+      "target": "关中平原",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "-0246",
+        "description": {
+          "zh-cn": "郑国渠的建成有效灌溉了关中平原四万余顷的农田，使其成为沃野。",
+          "en": "The completion of the Zheng Guo Canal effectively irrigated over 40,000 qing of farmland in the Guanzhong Plain, turning it into fertile land."
+        }
+      }
+    },
+    {
+      "source": "郑国渠",
+      "target": "秦国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0246",
+        "description": {
+          "zh-cn": "郑国渠使秦国农业大盛，粮食丰收，国力因此变得富强。",
+          "en": "The Zheng Guo Canal led to a great agricultural boom in the State of Qin, resulting in bountiful harvests and making the state prosperous and powerful."
+        }
+      }
+    },
+    {
+      "source": "郑国渠",
+      "target": "秦灭六国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0246",
+        "description": {
+          "zh-cn": "郑国渠为秦国提供了强大的经济基础和后勤保障，为其最终吞并六国创造了重要条件。",
+          "en": "The Zheng Guo Canal provided a strong economic foundation and logistical support for the State of Qin, creating crucial conditions for its eventual conquest of the other six states."
+        }
+      }
+    },
+    {
+      "source": "郑国渠",
+      "target": "泾河",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "郑国渠从泾河引水用于灌溉。",
+          "en": "The Zheng Guo Canal diverted water from the Jing River for irrigation."
+        }
+      }
+    },
+    {
+      "source": "郑国渠",
+      "target": "渭水",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "郑国渠将泾水引入栎阳附近的渭水。",
+          "en": "The Zheng Guo Canal channeled water from the Jing River into the Wei River near Liyang."
+        }
+      }
+    },
+    {
+      "source": "汉武帝",
+      "target": "白渠",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0095",
+        "description": {
+          "zh-cn": "汉武帝采纳了白公的建议，下令修建白渠。",
+          "en": "Emperor Wu of Han adopted Bai Gong's proposal and ordered the construction of the Bai Canal."
+        }
+      }
+    },
+    {
+      "source": "白公 (西汉)",
+      "target": "白渠",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-0095",
+        "description": {
+          "zh-cn": "白公向汉武帝提议修建白渠。",
+          "en": "Bai Gong proposed the construction of the Bai Canal to Emperor Wu of Han."
+        }
+      }
+    },
+    {
+      "source": "郑国渠",
+      "target": "白渠",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "-0095",
+        "description": {
+          "zh-cn": "白渠修建于郑国渠之南，二者并称为“郑白渠”，共同构成泾水灌溉体系。",
+          "en": "The Bai Canal was built to the south of the Zheng Guo Canal, and together they are known as the 'Zheng-Bai Canal', forming a comprehensive irrigation system from the Jing River."
+        }
+      }
+    }
+  ]
+}

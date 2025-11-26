@@ -1,0 +1,648 @@
+{
+  "nodes": [
+    {
+      "id": "夺门之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "夺门之变",
+          "夺门复辟",
+          "南宫复辟",
+          "南宫之变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1457-02-11",
+        "location": {
+          "zh-cn": "北京紫禁城",
+          "en": "Forbidden City, Beijing"
+        },
+        "description": {
+          "zh-cn": "明景泰八年（1457年）发生的一场政变，太上皇朱祁镇成功复辟，夺回皇位。",
+          "en": "A palace coup that took place in 1457 during the Ming dynasty, where the retired Emperor Zhu Qizhen successfully retook the throne."
+        }
+      }
+    },
+    {
+      "id": "朱祁镇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱祁镇",
+          "明英宗",
+          "太上皇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第六、八任皇帝。在土木堡之变被俘，释放后被尊为太上皇并遭软禁，后通过夺门之变复辟。",
+          "en": "The sixth and eighth emperor of the Ming dynasty. He was captured in the Tumu Crisis, and after his release, he was put under house arrest as the Emperor Emeritus. He later regained the throne through the Duomen Incident."
+        }
+      }
+    },
+    {
+      "id": "朱祁钰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱祁钰",
+          "明景帝",
+          "景泰帝",
+          "郕王"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝第七任皇帝，在兄长朱祁镇被俘后登基。夺门之变后被废黜。",
+          "en": "The seventh emperor of the Ming dynasty, who ascended the throne after his elder brother Zhu Qizhen was captured. He was deposed after the Duomen Incident."
+        }
+      }
+    },
+    {
+      "id": "石亨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石亨"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝将领，夺门之变的主要策划者和领导者之一。",
+          "en": "A general of the Ming dynasty, one of the main planners and leaders of the Duomen Incident."
+        }
+      }
+    },
+    {
+      "id": "曹吉祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹吉祥"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝太监，夺门之变的主要策划者之一，后发动曹石之变失败被杀。",
+          "en": "A eunuch of the Ming dynasty, one of the main planners of the Duomen Incident. He later initiated the Cao-Shi Rebellion, failed, and was executed."
+        }
+      }
+    },
+    {
+      "id": "徐有贞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐有贞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝官员，时任左副都御史，夺门之变的主要策划者之一。",
+          "en": "An official of the Ming dynasty, serving as the Left Vice Censor-in-Chief at the time, and one of the main planners of the Duomen Incident."
+        }
+      }
+    },
+    {
+      "id": "于谦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "于谦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝名臣、军事家，景泰朝兵部尚书，北京保卫战的功臣。因反对复辟，在夺门之变后被处死。",
+          "en": "A famous minister and military strategist of the Ming dynasty, Minister of War during the Jingtai era, and a hero of the Defense of Beijing. He was executed after the Duomen Incident for opposing the restoration."
+        }
+      }
+    },
+    {
+      "id": "王文 (永乐进士)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王文 (永乐进士)",
+          "王文"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝景泰朝内阁大学士，因反对复辟，在夺门之变后被处死。",
+          "en": "A Grand Secretary of the Cabinet during the Jingtai era of the Ming dynasty. He was executed after the Duomen Incident for opposing the restoration."
+        }
+      }
+    },
+    {
+      "id": "陈循",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈循"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝景泰朝内阁首辅，在夺门之变中投降，后被罢官充军。",
+          "en": "The Senior Grand Secretary of the Cabinet during the Jingtai era of the Ming dynasty. He surrendered during the Duomen Incident and was later dismissed and exiled."
+        }
+      }
+    },
+    {
+      "id": "陈循内阁",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "陈循内阁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "明景帝朱祁钰时期的内阁，由陈循担任首辅。",
+          "en": "The cabinet during the reign of the Jingtai Emperor Zhu Qiyu, led by Chen Xun as the Senior Grand Secretary."
+        }
+      }
+    },
+    {
+      "id": "高谷临时内阁",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "高谷临时内阁"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1457 - ",
+        "description": {
+          "zh-cn": "夺门之变后建立的临时内阁。",
+          "en": "The interim cabinet established after the Duomen Incident."
+        }
+      }
+    },
+    {
+      "id": "土木堡之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "土木堡之变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1449",
+        "description": {
+          "zh-cn": "明朝正统十四年发生于土木堡的战役，明英宗朱祁镇被瓦剌俘虏。",
+          "en": "A battle that occurred in 1449 at Tumu Fortress, where Emperor Yingzong of Ming, Zhu Qizhen, was captured by the Oirats."
+        }
+      }
+    },
+    {
+      "id": "瓦剌",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瓦剌"
+        ],
+        "en": [
+          "Oirats"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "蒙古族的一支，在土木堡之变中俘虏了明英宗。",
+          "en": "A branch of the Mongol people who captured Emperor Yingzong of Ming in the Tumu Crisis."
+        }
+      }
+    },
+    {
+      "id": "朱见深",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱见深"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明英宗朱祁镇的长子，曾被立为太子，后被景泰帝废黜。",
+          "en": "The eldest son of Emperor Yingzong of Ming, Zhu Qizhen. He was once the crown prince but was later deposed by the Jingtai Emperor."
+        }
+      }
+    },
+    {
+      "id": "朱见济",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱见济"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明景帝朱祁钰的独子，曾被立为太子，但早夭。",
+          "en": "The only son of the Jingtai Emperor Zhu Qiyu. He was made crown prince but died young."
+        }
+      }
+    },
+    {
+      "id": "京师保卫战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "京师保卫战"
+        ],
+        "en": [
+          "Defense of Beijing"
+        ]
+      },
+      "properties": {
+        "period": "1449 - 1450",
+        "description": {
+          "zh-cn": "在土木堡之变后，由于谦领导的明军成功抵御瓦剌对北京的进攻。",
+          "en": "After the Tumu Crisis, the Ming army, led by Yu Qian, successfully defended Beijing against the Oirat attack."
+        }
+      }
+    },
+    {
+      "id": "天顺 (明朝)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "天顺 (明朝)",
+          "天顺"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1457 - 1464",
+        "description": {
+          "zh-cn": "明英宗朱祁镇复辟后使用的年号。",
+          "en": "The era name used by Emperor Yingzong of Ming, Zhu Qizhen, after his restoration."
+        }
+      }
+    },
+    {
+      "id": "曹石之变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "曹石之变"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由曹吉祥和石亨策划的旨在刺杀明英宗的未遂政变。",
+          "en": "An attempted coup planned by Cao Jixiang and Shi Heng to assassinate Emperor Yingzong of Ming."
+        }
+      }
+    },
+    {
+      "id": "张𫐄 (太平侯)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张𫐄 (太平侯)",
+          "张𫐄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝都督，夺门之变的主要参与者之一。",
+          "en": "A Commander of the Ming dynasty, one of the main participants in the Duomen Incident."
+        }
+      }
+    },
+    {
+      "id": "许彬 (明朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "许彬 (明朝)",
+          "许彬"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝太常卿，夺门之变的主要参与者之一。",
+          "en": "The Minister of the Court of Imperial Sacrifices of the Ming dynasty, one of the main participants in the Duomen Incident."
+        }
+      }
+    },
+    {
+      "id": "杨善",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨善"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝左都御史，夺门之变的主要参与者之一。此前曾作为使臣斡旋使瓦剌放回英宗。",
+          "en": "The Left Censor-in-Chief of the Ming dynasty, one of the main participants in the Duomen Incident. He had previously negotiated the release of Emperor Yingzong from the Oirats as an envoy."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "石亨",
+      "target": "夺门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-01-20",
+        "end_date": "1457-02-11",
+        "description": {
+          "zh-cn": "作为主要策划和领导者，率兵发动政变，拥立朱祁镇复辟。",
+          "en": "As a main planner and leader, he led troops to launch the coup and supported the restoration of Zhu Qizhen."
+        }
+      }
+    },
+    {
+      "source": "徐有贞",
+      "target": "夺门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-01-20",
+        "end_date": "1457-02-11",
+        "description": {
+          "zh-cn": "作为主要策划者之一，参与发动政变，拥立朱祁镇复辟。",
+          "en": "As one of the main planners, he participated in launching the coup and supported the restoration of Zhu Qizhen."
+        }
+      }
+    },
+    {
+      "source": "曹吉祥",
+      "target": "夺门之变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-01-20",
+        "end_date": "1457-02-11",
+        "description": {
+          "zh-cn": "作为主要策划者之一，参与发动政变，拥立朱祁镇复辟。",
+          "en": "As one of the main planners, he participated in launching the coup and supported the restoration of Zhu Qizhen."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "朱祁镇",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-02-11",
+        "description": {
+          "zh-cn": "通过夺门之变，朱祁镇成功复辟，夺回皇位。",
+          "en": "Through the Duomen Incident, Zhu Qizhen successfully restored his reign and retook the imperial throne."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "朱祁钰",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1457-02-11",
+        "description": {
+          "zh-cn": "在夺门之变中，朱祁钰被废黜，复封为郕王，不久后去世。",
+          "en": "In the Duomen Incident, Zhu Qiyu was deposed, re-entitled as the Prince of Cheng, and died shortly after."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "于谦",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1457-02",
+        "description": {
+          "zh-cn": "政变后，作为景泰帝的忠臣，于谦以谋逆罪被处死。",
+          "en": "After the coup, as a loyal minister to the Jingtai Emperor, Yu Qian was executed on charges of treason."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "王文 (永乐进士)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1457-02",
+        "description": {
+          "zh-cn": "政变后，作为景泰帝的忠臣，王文以谋逆罪被处死。",
+          "en": "After the coup, as a loyal minister to the Jingtai Emperor, Wang Wen was executed on charges of treason."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "陈循内阁",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1457-02-11",
+        "description": {
+          "zh-cn": "政变直接导致了陈循内阁的瓦解。",
+          "en": "The coup directly led to the collapse of the Chen Xun Cabinet."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "高谷临时内阁",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-02-11",
+        "description": {
+          "zh-cn": "政变成功后，高谷临时内阁随即建立。",
+          "en": "After the success of the coup, the Gao Gu Interim Cabinet was immediately established."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "天顺 (明朝)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1457-02",
+        "description": {
+          "zh-cn": "朱祁镇在夺门之变复辟后，改景泰八年为天顺元年。",
+          "en": "After Zhu Qizhen was restored to power in the Duomen Incident, he changed the eighth year of the Jingtai era to the first year of the Tianshun era."
+        }
+      }
+    },
+    {
+      "source": "夺门之变",
+      "target": "曹石之变",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "夺门之变的功臣曹吉祥和石亨等人因政变获得巨大权力，为后来的曹石之变埋下伏笔。",
+          "en": "The功臣 of the Duomen Incident, such as Cao Jixiang and Shi Heng, gained immense power from the coup, setting the stage for the later Cao-Shi Rebellion."
+        }
+      }
+    },
+    {
+      "source": "土木堡之变",
+      "target": "朱祁镇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1449",
+        "description": {
+          "zh-cn": "在土木堡之变中被瓦剌俘虏，从而失去了皇位。",
+          "en": "He was captured by the Oirats in the Tumu Crisis, thereby losing his throne."
+        }
+      }
+    },
+    {
+      "source": "土木堡之变",
+      "target": "朱祁钰",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1449",
+        "description": {
+          "zh-cn": "因兄长朱祁镇在土木堡之变中被俘，朱祁钰被众大臣推举为皇帝。",
+          "en": "Because his elder brother Zhu Qizhen was captured in the Tumu Crisis, Zhu Qiyu was elected emperor by the court officials."
+        }
+      }
+    },
+    {
+      "source": "朱祁镇",
+      "target": "朱祁钰",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1450",
+        "end_date": "1457-03",
+        "description": {
+          "zh-cn": "朱祁钰在朱祁镇被俘期间登基，并在其回国后将其软禁；朱祁镇则通过夺门之变复辟并废黜了朱祁钰，两人是皇位的主要竞争者。",
+          "en": "Zhu Qiyu ascended the throne while Zhu Qizhen was captive and placed him under house arrest upon his return; Zhu Qizhen then staged the Duomen Incident to restore his reign and depose Zhu Qiyu, making them primary rivals for the throne."
+        }
+      }
+    },
+    {
+      "source": "于谦",
+      "target": "朱祁钰",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "1457-02",
+        "position": {
+          "zh-cn": "兵部尚书",
+          "en": "Minister of War"
+        },
+        "description": {
+          "zh-cn": "于谦在景泰年间担任兵部尚书，是朱祁钰倚重的大臣，并在夺门之变后因其忠诚而被杀害。",
+          "en": "Yu Qian served as the Minister of War during the Jingtai era, was a trusted minister of Zhu Qiyu, and was killed for his loyalty after the Duomen Incident."
+        }
+      }
+    },
+    {
+      "source": "于谦",
+      "target": "京师保卫战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1449",
+        "description": {
+          "zh-cn": "作为兵部尚书，于谦领导并成功指挥了京师保卫战，击退了瓦剌的进攻。",
+          "en": "As the Minister of War, Yu Qian led and successfully commanded the Defense of Beijing, repelling the Oirat invasion."
+        }
+      }
+    },
+    {
+      "source": "朱祁钰",
+      "target": "朱见深",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1452",
+        "description": {
+          "zh-cn": "景泰三年，景泰帝废黜了原为太子的侄子朱见深。",
+          "en": "In the third year of the Jingtai era (1452), the Jingtai Emperor deposed his nephew Zhu Jianshen, who was the original crown prince."
+        }
+      }
+    },
+    {
+      "source": "朱祁钰",
+      "target": "朱见济",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1452",
+        "end_date": "1454",
+        "description": {
+          "zh-cn": "景泰三年，景泰帝立自己的独子朱见济为新太子。",
+          "en": "In the third year of the Jingtai era (1452), the Jingtai Emperor installed his own son, Zhu Jianji, as the new crown prince."
+        }
+      }
+    },
+    {
+      "source": "朱见深",
+      "target": "朱祁镇",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "朱见深是朱祁镇的儿子。",
+          "en": "Zhu Jianshen is the son of Zhu Qizhen."
+        }
+      }
+    },
+    {
+      "source": "朱见济",
+      "target": "朱祁钰",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "朱见济是朱祁钰的独子。",
+          "en": "Zhu Jianji is the only son of Zhu Qiyu."
+        }
+      }
+    },
+    {
+      "source": "曹吉祥",
+      "target": "曹石之变",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "与石亨共同策划并发动了旨在刺杀明英宗的曹石之变。",
+          "en": "Together with Shi Heng, he planned and launched the Cao-Shi Rebellion, which aimed to assassinate Emperor Yingzong of Ming."
+        }
+      }
+    },
+    {
+      "source": "石亨",
+      "target": "曹石之变",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "与曹吉祥共同策划并发动了旨在刺杀明英宗的曹石之变。",
+          "en": "Together with Cao Jixiang, he planned and launched the Cao-Shi Rebellion, which aimed to assassinate Emperor Yingzong of Ming."
+        }
+      }
+    }
+  ]
+}
