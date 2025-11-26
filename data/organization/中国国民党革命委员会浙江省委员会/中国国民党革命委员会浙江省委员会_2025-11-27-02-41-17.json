@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "中国国民党革命委员会浙江省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党革命委员会浙江省委员会",
+          "民革浙江省委",
+          "浙江民革"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "location": {
+          "zh-cn": "浙江省",
+          "en": "Zhejiang Province"
+        },
+        "description": {
+          "zh-cn": "中国国民党革命委员会在浙江省的地方组织。",
+          "en": "The local organization of the Revolutionary Committee of the Chinese Kuomintang in Zhejiang Province."
+        }
+      }
+    },
+    {
+      "id": "中国国民党革命委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党革命委员会"
+        ],
+        "en": [
+          "Revolutionary Committee of the Chinese Kuomintang"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国现有八个民主党派之一。",
+          "en": "One of the eight legally recognized democratic parties in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "浙江省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江省"
+        ],
+        "en": [
+          "Zhejiang Province"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区。",
+          "en": "A provincial-level administrative division of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国国民党革命委员会中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国国民党革命委员会中央委员会"
+        ],
+        "en": [
+          "Central Committee of the Revolutionary Committee of the Chinese Kuomintang"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中国国民党革命委员会的中央领导机构。",
+          "en": "The central leading body of the Revolutionary Committee of the Chinese Kuomintang."
+        }
+      }
+    },
+    {
+      "id": "民主党派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "民主党派"
+        ],
+        "en": [
+          "Democratic parties"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国除中国共产党之外的八个参政党的统称。",
+          "en": "A collective term for the eight legally recognized political parties in the People's Republic of China besides the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "委员会"
+        ],
+        "en": [
+          "Committee"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "一种由多人组成的负责特定事务的合议性团体。",
+          "en": "A deliberative body composed of multiple people responsible for specific affairs."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国国民党革命委员会浙江省委员会",
+      "target": "中国国民党革命委员会中央委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "根据信息框，中国国民党革命委员会浙江省委员会的上级机构是中国国民党革命委员会中央委员会。",
+          "en": "According to the infobox, the superior body of the Zhejiang Provincial Committee of the Revolutionary Committee of the Chinese Kuomintang is the Central Committee of the Revolutionary Committee of the Chinese Kuomintang."
+        }
+      }
+    },
+    {
+      "source": "中国国民党革命委员会浙江省委员会",
+      "target": "中国国民党革命委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "中国国民党革命委员会浙江省委员会是中国国民党革命委员会在浙江省的地方组织。",
+          "en": "The Zhejiang Provincial Committee of the Revolutionary Committee of the Chinese Kuomintang is the local organization of the Revolutionary Committee of the Chinese Kuomintang in Zhejiang Province."
+        }
+      }
+    },
+    {
+      "source": "中国国民党革命委员会浙江省委员会",
+      "target": "民主党派",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "根据信息框，中国国民党革命委员会浙江省委员会的机构类型属于民主党派。",
+          "en": "According to the infobox, the institutional type of the Zhejiang Provincial Committee of the Revolutionary Committee of the Chinese Kuomintang is a democratic party."
+        }
+      }
+    },
+    {
+      "source": "中国国民党革命委员会浙江省委员会",
+      "target": "委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "根据信息框，中国国民党革命委员会浙江省委员会的机构类型是委员会。",
+          "en": "According to the infobox, the institutional type of the Zhejiang Provincial Committee of the Revolutionary Committee of the Chinese Kuomintang is a committee."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "张正德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张正德"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1918 - 1993",
+        "gender": "Male",
+        "location": {},
+        "birth_place": {
+          "zh-cn": "寿县",
+          "en": ""
+        },
+        "death_place": {},
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A political figure of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "寿县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "寿县"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "安徽省下辖的县，是张正德的出生地。",
+          "en": "A county under the jurisdiction of Anhui Province, and the birthplace of Zhang Zhengde."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "寿县中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "寿县中学"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中央党校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央党校"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "乌丹县",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌丹县"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "热河省下辖的县级行政单位。在政治语境中，指其政府机构。",
+          "en": "A county-level administrative unit under Rehe Province. In a political context, it refers to its government body."
+        }
+      }
+    },
+    {
+      "id": "热河省",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "热河省",
+          "热河省政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国和中华人民共和国初期的省份。在政治语境中，指其政府机构。",
+          "en": "A province during the Republic of China and the early People's Republic of China. In a political context, it refers to its government body."
+        }
+      }
+    },
+    {
+      "id": "辽宁省人民委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辽宁省人民委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共锦州市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共锦州市委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共辽宁省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共辽宁省委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "辽宁省人大常委会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "辽宁省人大常委会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华诗词学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华诗词学会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张正德",
+      "target": "寿县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "张正德",
+      "target": "寿县中学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张正德早年毕业于寿县中学。",
+          "en": "Zhang Zhengde graduated from Shou County Middle School in his early years."
+        }
+      }
+    },
+    {
+      "source": "张正德",
+      "target": "中央党校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张正德曾入学延安中央党校。",
+          "en": "Zhang Zhengde enrolled in the Central Party School in Yan'an."
+        }
+      }
+    },
+    {
+      "source": "张正德",
+      "target": "乌丹县",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "县长",
+          "en": "County Magistrate"
+        },
+        "description": {
+          "zh-cn": "张正德在第二次国共内战期间担任热河省乌丹县县长。",
+          "en": "Zhang Zhengde served as the magistrate of Wudan County, Rehe Province, during the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "source": "张正德",
+      "target": "热河省",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "民政厅厅长",
+          "en": "Director of the Civil Affairs Department"
+        },
+        "description": {
+          "zh-cn": "张正德在第二次国共内战期间担任热河省民政厅厅长。",
+          "en": "Zhang Zhengde served as the Director of the Civil Affairs Department of Rehe Province during the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "source": "张正德",
+      "target": "热河省",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席兼副省长",
+          "en": "Vice Chairman and Vice Governor"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国成立后，张正德历任热河省政府副主席兼副省长。",
+          "en": "After the founding of the People's Republic of China, Zhang Zhengde served as Vice Chairman and Vice Governor of the Rehe Provincial Government."
+        }
+      }
+    },
+    {
+      "source": "张正德",
+      "target": "辽宁省人民委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        }
+      }
+    },
+    {
+      "source": "张正德",
+      "target": "中共锦州市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "张正德",
+      "target": "中共辽宁省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1979",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "张正德",
+      "target": "辽宁省人大常委会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983",
+        "position": {
+          "zh-cn": "主任",
+          "en": "Chairman"
+        }
+      }
+    },
+    {
+      "source": "张正德",
+      "target": "中华诗词学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "顾问",
+          "en": "Advisor"
+        },
+        "description": {
+          "zh-cn": "根据页面分类信息，张正德曾担任中华诗词学会顾问。",
+          "en": "According to the page's category information, Zhang Zhengde served as an advisor to the Chinese Poetry Society."
+        }
+      }
+    }
+  ]
+}

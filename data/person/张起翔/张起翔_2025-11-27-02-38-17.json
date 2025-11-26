@@ -1,0 +1,289 @@
+{
+  "nodes": [
+    {
+      "id": "张起翔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张起翔"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1970-04 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，经济学博士。",
+          "en": "A political figure in the People's Republic of China, holding a Ph.D. in Economics."
+        }
+      }
+    },
+    {
+      "id": "黑龙江省建设投资集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "黑龙江省建设投资集团"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国黑龙江省的国有投资集团。",
+          "en": "A state-owned investment group located in Heilongjiang Province, China."
+        }
+      }
+    },
+    {
+      "id": "中共哈尔滨市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共哈尔滨市委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在哈尔滨市的领导机关。",
+          "en": "The leading body of the Communist Party of China in Harbin City."
+        }
+      }
+    },
+    {
+      "id": "哈尔滨市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "哈尔滨市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国黑龙江省哈尔滨市的地方国家行政机关。",
+          "en": "The local state administrative organ of Harbin City, Heilongjiang Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "黑龙江省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "黑龙江省人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国黑龙江省的国家行政机关。",
+          "en": "The state administrative organ of Heilongjiang Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "孙喆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙喆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任哈尔滨市人民政府市长。",
+          "en": "A political figure in the People's Republic of China, who previously served as the Mayor of the Harbin Municipal People's Government."
+        }
+      }
+    },
+    {
+      "id": "王合生",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王合生"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，现任哈尔滨市人民政府市长。",
+          "en": "A political figure in the People's Republic of China, currently serving as the Mayor of the Harbin Municipal People's Government."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚的一个社会主义国家，是中国共产党领导的政权。",
+          "en": "A socialist state in East Asia, ruled by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "东北林业大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北林业大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国黑龙江省哈尔滨市的一所大学，是中华人民共和国教育部直属的全国重点大学。",
+          "en": "A university located in Harbin, Heilongjiang Province, China. It is a national key university directly under the Ministry of Education of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张起翔",
+      "target": "黑龙江省建设投资集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委书记、董事长",
+          "en": "Party Secretary and Chairman"
+        },
+        "description": {
+          "zh-cn": "张起翔曾任黑龙江省建设投资集团党委书记、董事长。",
+          "en": "Zhang Qixiang previously served as the Party Secretary and Chairman of Heilongjiang Construction Investment Group."
+        }
+      }
+    },
+    {
+      "source": "张起翔",
+      "target": "中共哈尔滨市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        },
+        "description": {
+          "zh-cn": "张起翔曾任中共哈尔滨市委副书记。",
+          "en": "Zhang Qixiang previously served as the Deputy Secretary of the Harbin Municipal Committee of the CPC."
+        }
+      }
+    },
+    {
+      "source": "张起翔",
+      "target": "哈尔滨市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-04",
+        "end_date": "2024-05",
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "张起翔于2022年4月至2024年5月期间担任哈尔滨市人民政府市长。",
+          "en": "Zhang Qixiang served as the Mayor of the Harbin Municipal People's Government from April 2022 to May 2024."
+        }
+      }
+    },
+    {
+      "source": "张起翔",
+      "target": "黑龙江省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2024-05",
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        },
+        "description": {
+          "zh-cn": "张起翔自2024年5月起出任黑龙江省人民政府副省长。",
+          "en": "Zhang Qixiang has been serving as the Vice Governor of the Heilongjiang Provincial People's Government since May 2024."
+        }
+      }
+    },
+    {
+      "source": "孙喆",
+      "target": "张起翔",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-04",
+        "description": {
+          "zh-cn": "张起翔接替孙喆出任哈尔滨市人民政府市长。",
+          "en": "Zhang Qixiang succeeded Sun Zhe as the Mayor of the Harbin Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "张起翔",
+      "target": "王合生",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2024-05",
+        "description": {
+          "zh-cn": "王合生接替张起翔出任哈尔滨市人民政府市长。",
+          "en": "Wang Hesheng succeeded Zhang Qixiang as the Mayor of the Harbin Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "张起翔",
+      "target": "东北林业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张起翔是东北林业大学的校友。",
+          "en": "Zhang Qixiang is an alumnus of Northeast Forestry University."
+        }
+      }
+    },
+    {
+      "source": "张起翔",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "张起翔是中国共产党党员。",
+          "en": "Zhang Qixiang is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

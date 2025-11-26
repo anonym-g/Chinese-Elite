@@ -1,0 +1,769 @@
+{
+  "nodes": [
+    {
+      "id": "庄子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "庄子",
+          "庄周",
+          "子休",
+          "南华真人",
+          "微妙元通真君"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "-0369 - -0286",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "宋国蒙",
+          "en": "Meng, State of Song"
+        },
+        "description": {
+          "zh-cn": "中国战国中期思想家、哲学家、文学家，道家学派的代表人物，老子思想的继承和发展者。",
+          "en": "A Chinese philosopher, thinker, and writer of the mid-Warring States period. He is a representative figure of the Taoist school and a successor and developer of Laozi's thought."
+        }
+      }
+    },
+    {
+      "id": "老子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "老子",
+          "老聃"
+        ],
+        "en": [
+          "Laozi"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代思想家，道家学派的创始人，其思想对庄子产生了深远影响。",
+          "en": "An ancient Chinese philosopher and the founder of the Taoist school of thought, whose ideas profoundly influenced Zhuangzi."
+        }
+      }
+    },
+    {
+      "id": "道家",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "道家"
+        ],
+        "en": [
+          "Taoism (philosophy)"
+        ]
+      },
+      "properties": {
+        "period": "战国时代",
+        "description": {
+          "zh-cn": "中国春秋战国时期的一种思想流派，以老子、庄子为主要代表。",
+          "en": "A school of thought in China during the Spring and Autumn and Warring States periods, with Laozi and Zhuangzi as its main representatives."
+        }
+      }
+    },
+    {
+      "id": "道教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "道教"
+        ],
+        "en": [
+          "Taoism (religion)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "起源于中国古代道家思想的传统宗教，其思想体系受到庄子的影响。",
+          "en": "A traditional religion originating from the ancient Chinese philosophical school of Taoism, whose ideological system was influenced by Zhuangzi."
+        }
+      }
+    },
+    {
+      "id": "唐玄宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐玄宗"
+        ],
+        "en": [
+          "Emperor Xuanzong of Tang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝皇帝，于天宝初年下诏册封庄子为“南华真人”，并将其著作《庄子》称为《南华经》。",
+          "en": "An emperor of the Tang Dynasty who, in the early Tianbao era, issued an edict to ennoble Zhuangzi as the 'True Man of Southern Hua' and named his work 'Zhuangzi' as the 'Nanhua Jing'."
+        }
+      }
+    },
+    {
+      "id": "庄子 (书)",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "庄子 (书)",
+          "庄子",
+          "南华经"
+        ],
+        "en": [
+          "Zhuangzi (book)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "道家经典，为庄子及其后学所著。唐代时，唐玄宗将其称为《南华经》。",
+          "en": "A Taoist classic written by Zhuangzi and his followers. During the Tang Dynasty, Emperor Xuanzong named it the 'Nanhua Jing' (Nanhua Scripture)."
+        }
+      }
+    },
+    {
+      "id": "宋徽宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋徽宗"
+        ],
+        "en": [
+          "Emperor Huizong of Song"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋朝皇帝，曾追封庄子为“微妙元通真君”。",
+          "en": "An emperor of the Song Dynasty who posthumously ennobled Zhuangzi as 'Subtle and Pervasive True Lord'."
+        }
+      }
+    },
+    {
+      "id": "宋国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宋国"
+        ],
+        "en": [
+          "State of Song"
+        ]
+      },
+      "properties": {
+        "period": " - -0286",
+        "description": {
+          "zh-cn": "中国周朝的诸侯国，是庄子的出生地和其短暂担任漆园吏的地方。",
+          "en": "A vassal state of the Zhou Dynasty in China, it was the birthplace of Zhuangzi and the place where he briefly served as the Clerk of the Lacquer Garden."
+        }
+      }
+    },
+    {
+      "id": "司马迁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马迁"
+        ],
+        "en": [
+          "Sima Qian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西汉时期的史学家，其著作《史记》中记载了庄子的生平。",
+          "en": "A historian of the Western Han Dynasty whose work, 'Records of the Grand Historian', contains an account of Zhuangzi's life."
+        }
+      }
+    },
+    {
+      "id": "史记",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "史记"
+        ],
+        "en": [
+          "Records of the Grand Historian"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由司马迁撰写的中国第一部纪传体通史，其中《老庄申韩列传》记载了庄子的事迹。",
+          "en": "The first biographical general history of China, written by Sima Qian. The 'Biographies of Laozi, Zhuangzi, Shen Buhai, and Han Fei' section records the deeds of Zhuangzi."
+        }
+      }
+    },
+    {
+      "id": "孟子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孟子"
+        ],
+        "en": [
+          "Mencius"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期的儒家代表人物，与庄子大约生活在同一时代。",
+          "en": "A representative figure of Confucianism during the Warring States period, who lived around the same time as Zhuangzi."
+        }
+      }
+    },
+    {
+      "id": "魏惠王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏惠王",
+          "梁惠王"
+        ],
+        "en": [
+          "King Hui of Liang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期魏国君主，与庄子同时代。",
+          "en": "A monarch of the State of Wei during the Warring States period, a contemporary of Zhuangzi."
+        }
+      }
+    },
+    {
+      "id": "齐宣王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "齐宣王"
+        ],
+        "en": [
+          "King Xuan of Qi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期齐国君主，与庄子同时代。",
+          "en": "A monarch of the State of Qi during the Warring States period, a contemporary of Zhuangzi."
+        }
+      }
+    },
+    {
+      "id": "惠施",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "惠施"
+        ],
+        "en": [
+          "Hui Shi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期名家思想的代表人物，与庄子交好。",
+          "en": "A representative figure of the School of Names during the Warring States period and a friend of Zhuangzi."
+        }
+      }
+    },
+    {
+      "id": "楚威王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "楚威王"
+        ],
+        "en": [
+          "King Wei of Chu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期楚国君主，曾派人邀请庄子出任楚国宰相，但遭到拒绝。",
+          "en": "A monarch of the State of Chu during the Warring States period, who once sent envoys to invite Zhuangzi to be the prime minister of Chu, but was rejected."
+        }
+      }
+    },
+    {
+      "id": "儒家",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "儒家"
+        ],
+        "en": [
+          "Confucianism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由孔子创立的思想流派，庄子对其“以仁义撄人之心”的观点持批评态度。",
+          "en": "A school of thought founded by Confucius. Zhuangzi was critical of its concept of 'binding people's hearts with benevolence and righteousness'."
+        }
+      }
+    },
+    {
+      "id": "孔子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孔子"
+        ],
+        "en": [
+          "Confucius"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "儒家学派的创始人，庄子在著作中曾借盗跖之口批评其为“鲁之巧伪人”。",
+          "en": "The founder of the Confucian school. In his writings, Zhuangzi criticized him through the mouth of Robber Zhi as a 'cunning and hypocritical man of Lu'."
+        }
+      }
+    },
+    {
+      "id": "法家",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "法家"
+        ],
+        "en": [
+          "Legalism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国战国时期的思想学派，庄子反对其以法律治国的主张。",
+          "en": "A school of thought in China during the Warring States period. Zhuangzi opposed its advocacy of governing by law."
+        }
+      }
+    },
+    {
+      "id": "韩非",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩非"
+        ],
+        "en": [
+          "Han Fei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法家代表人物，曾援引《老子》的思想，但庄子抛弃了法家援引老子思想中讲权术的一面。",
+          "en": "A representative figure of Legalism who cited the ideas of Laozi. However, Zhuangzi rejected the Legalist interpretation of Laozi's thought that focused on political tactics."
+        }
+      }
+    },
+    {
+      "id": "田和",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "田和",
+          "田成子"
+        ],
+        "en": [
+          "Tian He"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国初期田氏代齐的建立者，庄子以其“杀其君而盗其国”为例，论证圣人学说可被窃国大盗利用。",
+          "en": "The founder of the Tian Qi state at the beginning of the Warring States period. Zhuangzi used his act of 'killing his lord and stealing his state' as an example to argue that the teachings of sages could be exploited by great usurpers."
+        }
+      }
+    },
+    {
+      "id": "齐国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "齐国"
+        ],
+        "en": [
+          "State of Qi"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国周朝的诸侯国，其政权后被田和篡夺。",
+          "en": "A vassal state of the Zhou Dynasty in China, whose political power was later usurped by Tian He."
+        }
+      }
+    },
+    {
+      "id": "郭象",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭象"
+        ],
+        "en": [
+          "Guo Xiang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "晋代学者，曾为《庄子》作注，并可能对篇目进行了删减。",
+          "en": "A scholar of the Jin Dynasty who wrote commentaries on the 'Zhuangzi' and may have abridged its chapters."
+        }
+      }
+    },
+    {
+      "id": "道",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "道"
+        ],
+        "en": [
+          "Tao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "道家思想的核心概念，是庄子哲学的本体。庄子认为“道”是宇宙的本源，无所不在。",
+          "en": "The core concept of Taoist thought and the ontological basis of Zhuangzi's philosophy. Zhuangzi believed that the 'Tao' is the origin of the universe and is omnipresent."
+        }
+      }
+    },
+    {
+      "id": "南华老仙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "南华老仙"
+        ],
+        "en": [
+          "Old Immortal of Southern Hua"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古典小说《三国演义》中的虚构人物，其形象源于被道教神化的庄子（南华真人）。他将《太平要术》传授给张角。",
+          "en": "A fictional character in the classic novel 'Romance of the Three Kingdoms', whose image is derived from the deified Taoist figure of Zhuangzi (True Man of Southern Hua). He bestowed the 'Essential Techniques for the Age of Great Peace' upon Zhang Jiao."
+        }
+      }
+    },
+    {
+      "id": "张角",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张角"
+        ],
+        "en": [
+          "Zhang Jiao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年黄巾起义的首领，在《三国演义》中被描绘为从南华老仙处获得《太平要术》。",
+          "en": "The leader of the Yellow Turban Rebellion at the end of the Eastern Han Dynasty. In 'Romance of the Three Kingdoms', he is depicted as having received the 'Essential Techniques for the Age of Great Peace' from the Old Immortal of Southern Hua."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "老子",
+      "target": "庄子",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子是老子思想的继承和发展者，其哲学思想的要点归于老子之言。",
+          "en": "Zhuangzi was a successor and developer of Laozi's thought, and the main points of his philosophy are rooted in Laozi's words."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "道家",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表人物",
+          "en": "Representative Figure"
+        },
+        "description": {
+          "zh-cn": "庄子是道家学派的代表人物。",
+          "en": "Zhuangzi is a representative figure of the Taoist school."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "道教",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子的思想对后世道教的形成和发展产生了影响。在道教中，庄子被尊为南华仙人。",
+          "en": "Zhuangzi's thought influenced the formation and development of later Taoism. In Taoism, Zhuangzi is revered as the Immortal of Southern Hua."
+        }
+      }
+    },
+    {
+      "source": "唐玄宗",
+      "target": "庄子",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0742",
+        "description": {
+          "zh-cn": "唐玄宗于天宝初年（约公元742年）下诏，册封庄子为“南华真人”。",
+          "en": "In the early Tianbao era (around 742 AD), Emperor Xuanzong of Tang issued an edict ennobling Zhuangzi as the 'True Man of Southern Hua'."
+        }
+      }
+    },
+    {
+      "source": "唐玄宗",
+      "target": "庄子 (书)",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "0742",
+        "description": {
+          "zh-cn": "唐玄宗于天宝初年（约公元742年）将庄子的著作《庄子》命名为《南华经》。",
+          "en": "In the early Tianbao era (around 742 AD), Emperor Xuanzong of Tang named Zhuangzi's work 'Zhuangzi' as the 'Nanhua Jing' (Nanhua Scripture)."
+        }
+      }
+    },
+    {
+      "source": "宋徽宗",
+      "target": "庄子",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "宋徽宗追封庄子为“微妙元通真君”。",
+          "en": "Emperor Huizong of Song posthumously ennobled Zhuangzi as the 'Subtle and Pervasive True Lord'."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "宋国",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据《史记》记载，庄子是宋国蒙人。",
+          "en": "According to the 'Records of the Grand Historian', Zhuangzi was a native of Meng in the State of Song."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "宋国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "漆园吏",
+          "en": "Clerk of the Lacquer Garden"
+        },
+        "description": {
+          "zh-cn": "庄子曾在宋国蒙地担任管理漆园的小官。",
+          "en": "Zhuangzi once served as a minor official in charge of the lacquer garden in Meng, State of Song."
+        }
+      }
+    },
+    {
+      "source": "司马迁",
+      "target": "史记",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "司马迁撰写了《史记》，其中包括了关于庄子的传记。",
+          "en": "Sima Qian wrote the 'Records of the Grand Historian', which includes a biography of Zhuangzi."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "孟子",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子与儒家代表人物孟子大约生活在同一时期。",
+          "en": "Zhuangzi lived around the same period as Mencius, a representative figure of Confucianism."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "魏惠王",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子与魏惠王（梁惠王）生活在同一时代。",
+          "en": "Zhuangzi was a contemporary of King Hui of Wei (also known as King Hui of Liang)."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "齐宣王",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子与齐宣王生活在同一时代。",
+          "en": "Zhuangzi was a contemporary of King Xuan of Qi."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "惠施",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子与名家代表人物惠施是好友。",
+          "en": "Zhuangzi was a good friend of Hui Shi, a representative of the School of Names."
+        }
+      }
+    },
+    {
+      "source": "楚威王",
+      "target": "庄子",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "楚威王曾派遣使者，携带重金聘请庄子担任楚国的宰相。",
+          "en": "King Wei of Chu once sent messengers with generous gifts to invite Zhuangzi to serve as the prime minister of Chu."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "楚威王",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子以“宁为泥中嬉戏的活乌龟，也不愿为庙堂之上的死龟壳”为由，拒绝了楚威王的出仕邀请。",
+          "en": "Zhuangzi refused King Wei of Chu's offer of office, stating he would rather be a live tortoise dragging its tail in the mud than a dead tortoise shell revered in the ancestral temple."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "儒家",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子批评儒家“以仁义撄人之心”，认为这会违背人性，导致天下大乱。",
+          "en": "Zhuangzi criticized Confucianism for 'binding people's hearts with benevolence and righteousness', believing it went against human nature and would lead to great chaos in the world."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "孔子",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子借盗跖之口批评孔子为“鲁之巧伪人”。",
+          "en": "Zhuangzi, speaking through the character of Robber Zhi, criticized Confucius as a 'cunning and hypocritical man of Lu'."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "法家",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "庄子反对法家以严刑峻法治国的理念。",
+          "en": "Zhuangzi opposed the Legalist philosophy of governing the state through harsh laws and punishments."
+        }
+      }
+    },
+    {
+      "source": "老子",
+      "target": "韩非",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "法家代表人物韩非曾援引《老子》的思想来阐述其理论。",
+          "en": "Han Fei, a representative of the Legalist school, cited the ideas of 'Laozi' to elaborate his theories."
+        }
+      }
+    },
+    {
+      "source": "田和",
+      "target": "齐国",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "田和（田成子）杀害齐国君主并篡夺了其政权。",
+          "en": "Tian He (Tian Chengzi) killed the ruler of the State of Qi and usurped his political power."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "庄子 (书)",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《庄子》是庄子及其后学所著的道家典籍。",
+          "en": "'Zhuangzi' is a Taoist classic written by Zhuangzi and his followers."
+        }
+      }
+    },
+    {
+      "source": "郭象",
+      "target": "庄子 (书)",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "晋代学者郭象为《庄子》作注，并可能对原书的篇目进行了删减，形成了现今流传的33篇版本。",
+          "en": "The Jin Dynasty scholar Guo Xiang wrote a commentary on the 'Zhuangzi' and may have abridged the original text, resulting in the 33-chapter version that is extant today."
+        }
+      }
+    },
+    {
+      "source": "道",
+      "target": "庄子",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "“道”是庄子哲学的核心与本体，庄子的思想围绕对“道”的体悟而展开。",
+          "en": "The 'Tao' is the core and ontological basis of Zhuangzi's philosophy; his thought revolves around the comprehension of the 'Tao'."
+        }
+      }
+    },
+    {
+      "source": "庄子",
+      "target": "南华老仙",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "小说《三国演义》中的角色“南华老仙”是基于庄子被神化后的形象“南华真人”创作的。",
+          "en": "The character 'Old Immortal of Southern Hua' in the novel 'Romance of the Three Kingdoms' is based on the deified image of Zhuangzi, the 'True Man of Southern Hua'."
+        }
+      }
+    },
+    {
+      "source": "南华老仙",
+      "target": "张角",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在《三国演义》中，南华老仙将《太平要术》传授给张角，助其“代天宣化”。",
+          "en": "In 'Romance of the Three Kingdoms', the Old Immortal of Southern Hua bestowed the 'Essential Techniques for the Age of Great Peace' upon Zhang Jiao, assisting him to 'propagate the transformation on behalf of Heaven'."
+        }
+      }
+    }
+  ]
+}
