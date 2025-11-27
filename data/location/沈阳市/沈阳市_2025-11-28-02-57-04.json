@@ -1,0 +1,812 @@
+{
+  "nodes": [
+    {
+      "id": "沈阳市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "沈阳市",
+          "沈阳",
+          "盛京",
+          "奉天",
+          "沈州",
+          "沈阳路",
+          "天眷盛京",
+          "奉天府",
+          "奉天市"
+        ],
+        "en": [
+          "Shenyang",
+          "Mukden",
+          "Feng-tien",
+          "Fong-tien"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国辽宁省的省会、副省级市、国家区域中心城市。位于辽河平原南缘，是东北地区的政治、经济、金融、文化中心，也是重要的重工业基地。",
+          "en": "The capital city of Liaoning Province, People's Republic of China, a sub-provincial city, and a national central city. Located on the southern edge of the Liaohe Plain, it is the political, economic, financial, and cultural center of Northeast China, as well as an important heavy industry base."
+        },
+        "location": {
+          "zh-cn": "中国辽宁省",
+          "en": "Liaoning Province, China"
+        }
+      }
+    },
+    {
+      "id": "努尔哈赤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "努尔哈赤",
+          "清太祖"
+        ],
+        "en": [
+          "Nurhaci"
+        ]
+      },
+      "properties": {
+        "lifetime": "1559-02-21 - 1626-09-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后金开国大汗，清朝的奠基者。1625年迁都沈阳。",
+          "en": "The founding khan of the Later Jin dynasty and the founder of the Qing dynasty. He moved the capital to Shenyang in 1625."
+        }
+      }
+    },
+    {
+      "id": "后金",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "后金"
+        ],
+        "en": [
+          "Later Jin"
+        ]
+      },
+      "properties": {
+        "period": "1616 - 1636",
+        "description": {
+          "zh-cn": "由女真首领努尔哈赤建立的政权，清朝的前身。",
+          "en": "A regime established by the Jurchen leader Nurhaci, the predecessor of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "皇太极",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "皇太极",
+          "清太宗"
+        ],
+        "en": [
+          "Hong Taiji"
+        ]
+      },
+      "properties": {
+        "lifetime": "1592-11-28 - 1643-09-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "后金第二位大汗，清朝的开国皇帝。将沈阳改名为盛京，并在此称帝。",
+          "en": "The second khan of the Later Jin dynasty and the founding emperor of the Qing dynasty. He renamed Shenyang to Shengjing and proclaimed himself emperor there."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "由满族建立的中国历史上最后一个封建王朝。迁都北京后将沈阳设为陪都。",
+          "en": "The last feudal dynasty in Chinese history, established by the Manchus. After moving the capital to Beijing, Shenyang was established as a secondary capital."
+        }
+      }
+    },
+    {
+      "id": "张作霖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张作霖"
+        ],
+        "en": [
+          "Zhang Zuolin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1875-03-19 - 1928-06-04",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国大陆时期奉系军阀首领，统治东北地区。后在皇姑屯事件中被日本关东军炸死。",
+          "en": "The leader of the Fengtian clique during the Republic of China era, who ruled Northeast China. He was assassinated by the Japanese Kwantung Army in the Huanggutun Incident."
+        }
+      }
+    },
+    {
+      "id": "张学良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学良"
+        ],
+        "en": [
+          "Zhang Xueliang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-06-03 - 2001-10-14",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "张作霖之子，奉系军阀领袖。他将奉天市改名为沈阳市，并在九一八事变时下令不抵抗。",
+          "en": "Son of Zhang Zuolin and leader of the Fengtian clique. He renamed Fengtian to Shenyang and ordered non-resistance during the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "奉系军阀",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奉系军阀",
+          "奉系"
+        ],
+        "en": [
+          "Fengtian clique"
+        ]
+      },
+      "properties": {
+        "period": "1916 - 1931",
+        "description": {
+          "zh-cn": "中华民国大陆时期北洋军阀派系之一，以张作霖为首，统治中心为沈阳。",
+          "en": "One of the factions of the Beiyang warlords during the Republic of China era, led by Zhang Zuolin, with its center of power in Shenyang."
+        }
+      }
+    },
+    {
+      "id": "皇姑屯事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "皇姑屯事件"
+        ],
+        "en": [
+          "Huanggutun incident"
+        ]
+      },
+      "properties": {
+        "period": "1928-06-04 - 1928-06-04",
+        "location": {
+          "zh-cn": "沈阳",
+          "en": "Shenyang"
+        },
+        "description": {
+          "zh-cn": "日本关东军在沈阳皇姑屯策划的、针对奉系军阀首领张作霖的暗杀事件。",
+          "en": "An assassination plot against Fengtian clique leader Zhang Zuolin, planned by the Japanese Kwantung Army in Huanggutun, Shenyang."
+        }
+      }
+    },
+    {
+      "id": "关东军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "关东军",
+          "日本关东军"
+        ],
+        "en": [
+          "Kwantung Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本帝国陆军驻扎在中国东北的一支军队，策划了皇姑屯事件和九一八事变。",
+          "en": "A unit of the Imperial Japanese Army stationed in Northeast China, responsible for planning the Huanggutun Incident and the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "九一八事变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "九一八事变"
+        ],
+        "en": [
+          "Mukden Incident"
+        ]
+      },
+      "properties": {
+        "period": "1931-09-18 - 1931-09-18",
+        "description": {
+          "zh-cn": "日本关东军以柳条湖事件为借口，对沈阳及中国东北地区发动的侵略战争，导致东北沦陷。",
+          "en": "An invasion of Shenyang and Northeast China launched by the Japanese Kwantung Army using the Liutiao Lake Incident as a pretext, which led to the occupation of Northeast China."
+        }
+      }
+    },
+    {
+      "id": "东北军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北军"
+        ],
+        "en": [
+          "Northeastern Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国大陆时期由奉系军阀部队改编而成的军队，九一八事变时奉张学良命令不作抵抗。",
+          "en": "An army of the Republic of China formed from the troops of the Fengtian clique. It followed Zhang Xueliang's orders of non-resistance during the Mukden Incident."
+        }
+      }
+    },
+    {
+      "id": "满洲国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "满洲国"
+        ],
+        "en": [
+          "Manchukuo"
+        ]
+      },
+      "properties": {
+        "period": "1932 - 1945",
+        "description": {
+          "zh-cn": "日本在中国东北建立的傀儡政权。在其统治期间，沈阳被改名为奉天市。",
+          "en": "A puppet state established by Japan in Northeast China. During its rule, Shenyang was renamed Fengtian."
+        }
+      }
+    },
+    {
+      "id": "苏联红军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联红军"
+        ],
+        "en": [
+          "Soviet Red Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "苏维埃社会主义共和国联盟的武装力量。1945年进攻满洲，结束了满洲国的统治，但也拆卸了沈阳的工业设备。",
+          "en": "The armed forces of the Union of Soviet Socialist Republics. In 1945, it attacked Manchuria, ending the rule of Manchukuo, but also dismantled industrial equipment in Shenyang."
+        }
+      }
+    },
+    {
+      "id": "辽沈战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "辽沈战役"
+        ],
+        "en": [
+          "Liaoshen Campaign"
+        ]
+      },
+      "properties": {
+        "period": "1948-09-12 - 1948-11-02",
+        "description": {
+          "zh-cn": "第二次国共内战“三大战役”之一，中国人民解放军在此战役后控制了沈阳及东北全境。",
+          "en": "One of the 'Three Great Campaigns' of the second Chinese Civil War, after which the People's Liberation Army took control of Shenyang and the entire Northeast."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的武装力量。在辽沈战役后控制了沈阳。",
+          "en": "The armed forces of the People's Republic of China. Took control of Shenyang after the Liaoshen Campaign."
+        }
+      }
+    },
+    {
+      "id": "中华民国国军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国国军",
+          "国军"
+        ],
+        "en": [
+          "National Revolutionary Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国的国家武装力量。在辽沈战役中战败，失去了对沈阳的控制。",
+          "en": "The national armed forces of the Republic of China. Defeated in the Liaoshen Campaign and lost control of Shenyang."
+        }
+      }
+    },
+    {
+      "id": "改革开放",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "改革开放"
+        ],
+        "en": [
+          "Reform and Opening-up"
+        ]
+      },
+      "properties": {
+        "period": "1978 - ",
+        "description": {
+          "zh-cn": "中国的经济改革政策。该政策初期，由于国家区域经济倾斜发展战略，沈阳的国有企业经济受到冲击。",
+          "en": "China's economic reform policy. In its early stages, due to the national strategy of tilted regional economic development, Shenyang's state-owned enterprises were negatively impacted."
+        }
+      }
+    },
+    {
+      "id": "沈大高速公路",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沈大高速公路"
+        ],
+        "en": [
+          "Shenda Expressway"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "连接沈阳和大连的高速公路，是中华人民共和国第一条高速公路。",
+          "en": "The expressway connecting Shenyang and Dalian, which was the first expressway in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "振兴东北老工业基地",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "振兴东北老工业基地"
+        ],
+        "en": [
+          "Revitalize Northeast China"
+        ]
+      },
+      "properties": {
+        "period": "2003 - ",
+        "description": {
+          "zh-cn": "中华人民共和国国务院为振兴东北地区经济而提出的国家战略。",
+          "en": "A national strategy proposed by the State Council of the People's Republic of China to revitalize the economy of the Northeast region."
+        }
+      }
+    },
+    {
+      "id": "胡锦涛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡锦涛"
+        ],
+        "en": [
+          "Hu Jintao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1942-12-21 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前中华人民共和国最高领导人，在其任内推动了“振兴东北老工业基地”战略。",
+          "en": "Former paramount leader of the People's Republic of China, who promoted the 'Revitalize Northeast China' strategy during his tenure."
+        }
+      }
+    },
+    {
+      "id": "温家宝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温家宝"
+        ],
+        "en": [
+          "Wen Jiabao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1942-09-15 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前中华人民共和国国务院总理，在其任内推动了“振兴东北老工业基地”战略。",
+          "en": "Former Premier of the State Council of the People's Republic of China, who promoted the 'Revitalize Northeast China' strategy during his tenure."
+        }
+      }
+    },
+    {
+      "id": "刘长春",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘长春"
+        ],
+        "en": [
+          "Liu Changchun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1909-11-25 - 1983-03-21",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国短跑运动员，首位代表中国参加奥林匹克运动会的运动员，曾为东北大学学生。",
+          "en": "A Chinese sprinter, the first athlete to represent China at the Olympic Games, and a former student of Northeastern University."
+        }
+      }
+    },
+    {
+      "id": "东北大学 (中国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北大学 (中国)",
+          "东北大学"
+        ],
+        "en": [
+          "Northeastern University (China)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于沈阳市的著名高等学府，中国奥运第一人刘长春的母校。",
+          "en": "A renowned institution of higher learning located in Shenyang, the alma mater of Liu Changchun, the first Chinese Olympian."
+        }
+      }
+    },
+    {
+      "id": "沈阳故宫",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "沈阳故宫",
+          "盛京皇宫"
+        ],
+        "en": [
+          "Mukden Palace"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于沈阳市中心，是后金入关前的皇宫和清朝迁都北京后的行宫，为世界文化遗产。",
+          "en": "Located in the center of Shenyang, it was the imperial palace of the Later Jin before they entered the Shanhai Pass and a secondary palace after the Qing dynasty moved its capital to Beijing. It is a UNESCO World Heritage Site."
+        }
+      }
+    },
+    {
+      "id": "乾隆帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乾隆帝"
+        ],
+        "en": [
+          "Qianlong Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1711-09-25 - 1799-02-07",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第六位皇帝。在其统治期间，对沈阳故宫进行了大规模的扩建与增修。",
+          "en": "The sixth emperor of the Qing dynasty. During his reign, he carried out large-scale expansion and renovation of the Mukden Palace."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "努尔哈赤",
+      "target": "后金",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1616",
+        "description": {
+          "zh-cn": "努尔哈赤统一女真各部后建立后金政权。",
+          "en": "Nurhaci established the Later Jin regime after unifying the Jurchen tribes."
+        }
+      }
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "沈阳市",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1625",
+        "description": {
+          "zh-cn": "1625年，后金汗努尔哈赤迁都于沈阳，提升了其政治地位。",
+          "en": "In 1625, Nurhaci, the khan of the Later Jin, moved the capital to Shenyang, enhancing its political status."
+        }
+      }
+    },
+    {
+      "source": "皇太极",
+      "target": "沈阳市",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1634",
+        "description": {
+          "zh-cn": "皇太极将沈阳大规模扩建，并赐名“天眷盛京”，进一步确立了其作为都城的规模与地位。",
+          "en": "Hong Taiji extensively expanded Shenyang and renamed it 'Tianjuan Shengjing', further establishing its scale and status as a capital city."
+        }
+      }
+    },
+    {
+      "source": "皇太极",
+      "target": "清朝",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1636",
+        "description": {
+          "zh-cn": "皇太极改国号为“大清”，在沈阳称帝，正式建立清朝。",
+          "en": "Hong Taiji changed the state's name to 'Great Qing' and proclaimed himself emperor in Shenyang, officially establishing the Qing dynasty."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "沈阳市",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1644",
+        "description": {
+          "zh-cn": "清朝迁都北京后，将沈阳（盛京）设为陪都。",
+          "en": "After the Qing dynasty moved its capital to Beijing, it established Shenyang (Shengjing) as a secondary capital."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "张作霖",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张学良是奉系军阀首领张作霖的长子。",
+          "en": "Zhang Xueliang was the eldest son of Zhang Zuolin, the leader of the Fengtian clique."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "沈阳市",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1929-02-05",
+        "description": {
+          "zh-cn": "张学良将奉天市改名为沈阳市。",
+          "en": "Zhang Xueliang renamed Fengtian City to Shenyang City."
+        }
+      }
+    },
+    {
+      "source": "张学良",
+      "target": "东北军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": {
+          "zh-cn": "在九一八事变时，东北军司令张学良下令“不作抵抗”，导致东北军未能阻止日军占领。",
+          "en": "During the Mukden Incident, Northeastern Army commander Zhang Xueliang ordered 'no resistance', which prevented the army from stopping the Japanese occupation."
+        }
+      }
+    },
+    {
+      "source": "关东军",
+      "target": "皇姑屯事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "description": {
+          "zh-cn": "日本关东军策划并实施了皇姑屯事件，暗杀了张作霖。",
+          "en": "The Japanese Kwantung Army planned and executed the Huanggutun Incident, assassinating Zhang Zuolin."
+        }
+      }
+    },
+    {
+      "source": "皇姑屯事件",
+      "target": "张作霖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1928-06-04",
+        "end_date": "1928-06-04",
+        "description": {
+          "zh-cn": "张作霖在皇姑屯事件中被炸身亡。",
+          "en": "Zhang Zuolin was killed in the explosion during the Huanggutun Incident."
+        }
+      }
+    },
+    {
+      "source": "关东军",
+      "target": "九一八事变",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1931-09-18",
+        "description": {
+          "zh-cn": "日本关东军以柳条湖事件为借口，发动了九一八事变。",
+          "en": "The Japanese Kwantung Army initiated the Mukden Incident, using the Liutiao Lake Incident as a pretext."
+        }
+      }
+    },
+    {
+      "source": "关东军",
+      "target": "满洲国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1932",
+        "description": {
+          "zh-cn": "九一八事变后，关东军控制了东北并扶植建立了满洲国傀儡政权。",
+          "en": "After the Mukden Incident, the Kwantung Army controlled Northeast China and established the puppet state of Manchukuo."
+        }
+      }
+    },
+    {
+      "source": "满洲国",
+      "target": "沈阳市",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1932",
+        "description": {
+          "zh-cn": "满洲国政权将沈阳市改回奉天市的旧称。",
+          "en": "The Manchukuo regime reverted the name of Shenyang City to its former name, Fengtian."
+        }
+      }
+    },
+    {
+      "source": "苏联红军",
+      "target": "满洲国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-08",
+        "description": {
+          "zh-cn": "1945年8月，苏联红军进攻满洲，导致满洲国政权灭亡。",
+          "en": "In August 1945, the Soviet Red Army attacked Manchuria, leading to the collapse of the Manchukuo regime."
+        }
+      }
+    },
+    {
+      "source": "苏联红军",
+      "target": "沈阳市",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945",
+        "description": {
+          "zh-cn": "抗日战争结束后，苏联红军将沈阳主要工业装备作为战利品拆卸运回国，使沈阳工业基本失去生产能力。",
+          "en": "After the end of the Second Sino-Japanese War, the Soviet Red Army dismantled and transported major industrial equipment from Shenyang back to the Soviet Union as war trophies, effectively crippling Shenyang's industrial production capacity."
+        }
+      }
+    },
+    {
+      "source": "辽沈战役",
+      "target": "中国人民解放军",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1948-11-02",
+        "description": {
+          "zh-cn": "辽沈战役的胜利使中国人民解放军控制了沈阳及东北全境。",
+          "en": "The victory in the Liaoshen Campaign allowed the People's Liberation Army to control Shenyang and the entire Northeast."
+        }
+      }
+    },
+    {
+      "source": "辽沈战役",
+      "target": "中华民国国军",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "1948-09-12 - 1948-11-02",
+        "description": {
+          "zh-cn": "辽沈战役导致中华民国国军在东北战场的失败。",
+          "en": "The Liaoshen Campaign resulted in the defeat of the National Revolutionary Army in the Northeast theater."
+        }
+      }
+    },
+    {
+      "source": "改革开放",
+      "target": "沈阳市",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1978",
+        "description": {
+          "zh-cn": "改革开放初期，由于国家经济发展战略向东南沿海倾斜，沈阳的基本建设投资下降，国有企业面临困难，经济受到冲击。",
+          "en": "In the early stages of the Reform and Opening-up, due to the national economic development strategy favoring the southeastern coastal areas, investment in Shenyang's basic construction decreased, state-owned enterprises faced difficulties, and the economy was impacted."
+        }
+      }
+    },
+    {
+      "source": "振兴东北老工业基地",
+      "target": "沈阳市",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003",
+        "description": {
+          "zh-cn": "“振兴东北老工业基地”国家战略旨在解决以沈阳为中心的辽宁省在发展上遇到的困难，促进其经济发展。",
+          "en": "The national strategy of 'Revitalizing Northeast China's Old Industrial Base' aims to address the developmental difficulties faced by Liaoning Province, centered around Shenyang, and to promote its economic development."
+        }
+      }
+    },
+    {
+      "source": "胡锦涛",
+      "target": "振兴东北老工业基地",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003",
+        "description": {
+          "zh-cn": "在胡锦涛和温家宝的推动下，国务院成立了东北振兴办公室，实施振兴东北战略。",
+          "en": "Under the promotion of Hu Jintao and Wen Jiabao, the State Council established the Northeast Revitalization Office to implement the strategy of revitalizing the Northeast."
+        }
+      }
+    },
+    {
+      "source": "温家宝",
+      "target": "振兴东北老工业基地",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2003",
+        "description": {
+          "zh-cn": "在胡锦涛和温家宝的推动下，国务院成立了东北振兴办公室，实施振兴东北战略。",
+          "en": "Under the promotion of Hu Jintao and Wen Jiabao, the State Council established the Northeast Revitalization Office to implement the strategy of revitalizing the Northeast."
+        }
+      }
+    },
+    {
+      "source": "刘长春",
+      "target": "东北大学 (中国)",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1932年洛杉矶奥运会前，中国奥运第一人刘长春是东北大学的学生。",
+          "en": "Before the 1932 Los Angeles Olympics, Liu Changchun, the first Chinese Olympian, was a student at Northeastern University."
+        }
+      }
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "沈阳故宫",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1625",
+        "description": {
+          "zh-cn": "沈阳故宫始建于1625年，是努尔哈赤定都沈阳后开始修建的皇宫。",
+          "en": "The Mukden Palace was first built in 1625 as the imperial palace after Nurhaci made Shenyang the capital."
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "沈阳故宫",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1743",
+        "description": {
+          "zh-cn": "乾隆帝东巡后，下令对沈阳故宫进行大规模的改建与增修。",
+          "en": "After his eastern tour, the Qianlong Emperor ordered a large-scale reconstruction and expansion of the Mukden Palace."
+        }
+      }
+    }
+  ]
+}

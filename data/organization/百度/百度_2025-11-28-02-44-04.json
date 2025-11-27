@@ -1,0 +1,805 @@
+{
+  "nodes": [
+    {
+      "id": "百度公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "百度公司",
+          "百度"
+        ],
+        "en": [
+          "Baidu"
+        ]
+      },
+      "properties": {
+        "period": "2000-01-01 - ",
+        "location": {
+          "zh-cn": "北京市",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "一家主要经营互联网搜索引擎、人工智能与相关技术服务的中国北京市互联网的跨国科技企业，于2000年1月1日由李彦宏、徐勇两人创立于北京中关村。",
+          "en": "A Chinese multinational technology company based in Beijing, specializing in Internet-related services, products, and artificial intelligence, founded on January 1, 2000, by Robin Li and Eric Xu in Zhongguancun, Beijing."
+        }
+      }
+    },
+    {
+      "id": "李彦宏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李彦宏"
+        ],
+        "en": [
+          "Robin Li"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "百度公司的联合创始人、董事长兼首席执行官。",
+          "en": "Co-founder, chairman, and CEO of Baidu."
+        }
+      }
+    },
+    {
+      "id": "徐勇 (企业家)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐勇 (企业家)",
+          "徐勇"
+        ],
+        "en": [
+          "Eric Xu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "百度公司的联合创始人。",
+          "en": "Co-founder of Baidu."
+        }
+      }
+    },
+    {
+      "id": "中关村",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "中关村"
+        ],
+        "en": [
+          "Zhongguancun"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国北京市海淀区的科技中心，百度公司在此创立。",
+          "en": "A technology hub in Haidian District, Beijing, China, where Baidu was founded."
+        }
+      }
+    },
+    {
+      "id": "青玉案·元夕",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "青玉案·元夕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "南宋词人辛弃疾创作的一首词，百度公司的名称来源于其中的“众里寻他千百度”。",
+          "en": "A ci poetry piece by the Southern Song dynasty poet Xin Qiji, from which the name of the company Baidu is derived from the line 'having searched for him hundreds and thousands of times in the crowd'."
+        }
+      }
+    },
+    {
+      "id": "辛弃疾",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "辛弃疾"
+        ],
+        "en": [
+          "Xin Qiji"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "lifetime": "1140 - 1207",
+        "description": {
+          "zh-cn": "南宋词人，其作品《青玉案·元夕》是百度公司名称的来源。",
+          "en": "A poet of the Southern Song dynasty whose work \"Green Jade Table, Lantern Festival\" was the source for Baidu's name."
+        }
+      }
+    },
+    {
+      "id": "谷歌退出中国大陆事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "谷歌退出中国大陆事件"
+        ],
+        "en": [
+          "Withdrawal of Google from mainland China"
+        ]
+      },
+      "properties": {
+        "period": "2009",
+        "description": {
+          "zh-cn": "指谷歌公司在2009年至2010年间将其搜索引擎服务撤出中国大陆市场的事件，此事件使百度在中国搜索引擎市场占据了主导地位。",
+          "en": "The event where Google withdrew its search engine services from the mainland Chinese market between 2009 and 2010, which allowed Baidu to dominate the search engine market in China."
+        }
+      }
+    },
+    {
+      "id": "纳斯达克",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳斯达克"
+        ],
+        "en": [
+          "NASDAQ"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的一家电子证券交易所，百度公司于2005年在此上市。",
+          "en": "An American electronic stock exchange where Baidu was listed in 2005."
+        }
+      }
+    },
+    {
+      "id": "香港联合交易所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港联合交易所"
+        ],
+        "en": [
+          "Hong Kong Stock Exchange"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港的证券交易所，百度公司于2021年在此二次上市。",
+          "en": "The stock exchange of Hong Kong, where Baidu had its secondary listing in 2021."
+        }
+      }
+    },
+    {
+      "id": "中国中央电视台",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国中央电视台",
+          "央视"
+        ],
+        "en": [
+          "China Central Television",
+          "CCTV"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国国家级电视台，曾曝光百度竞价排名黑幕。",
+          "en": "China's state broadcaster, which exposed scandals related to Baidu's paid search ranking system."
+        }
+      }
+    },
+    {
+      "id": "2010年百度域名被劫持事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2010年百度域名被劫持事件"
+        ],
+        "en": [
+          "2010 Baidu domain name hijacking incident"
+        ]
+      },
+      "properties": {
+        "period": "2010-01-12",
+        "description": {
+          "zh-cn": "百度公司于2010年1月12日遭受的严重黑客攻击，导致网站长时间无法访问。",
+          "en": "A severe hacker attack on Baidu on January 12, 2010, which resulted in a prolonged service outage."
+        }
+      }
+    },
+    {
+      "id": "去哪儿网",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "去哪儿网"
+        ],
+        "en": [
+          "Qunar.com"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的在线旅游信息网站，曾获百度投资，后与携程网合并。",
+          "en": "A Chinese online travel information website that received investment from Baidu and later merged with Ctrip."
+        }
+      }
+    },
+    {
+      "id": "携程旅行网",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "携程旅行网",
+          "携程网",
+          "携程"
+        ],
+        "en": [
+          "Ctrip"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的在线旅游服务公司，与百度旗下的去哪儿网合并。",
+          "en": "A Chinese online travel services company that merged with Baidu's subsidiary Qunar.com."
+        }
+      }
+    },
+    {
+      "id": "吉利控股集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吉利控股集团"
+        ],
+        "en": [
+          "Geely Holding Group"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的汽车制造商，与百度合作组建智能汽车公司。",
+          "en": "A Chinese automotive manufacturer that partnered with Baidu to form a smart car company."
+        }
+      }
+    },
+    {
+      "id": "集度",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "集度"
+        ],
+        "en": [
+          "Jidu Auto"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由百度和吉利控股集团共同投资成立的智能汽车公司。",
+          "en": "A smart car company jointly invested in by Baidu and Geely Holding Group."
+        }
+      }
+    },
+    {
+      "id": "百度日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "百度日本"
+        ],
+        "en": [
+          "Baidu Japan"
+        ]
+      },
+      "properties": {
+        "period": "2006 - ",
+        "location": {
+          "zh-cn": "日本",
+          "en": "Japan"
+        },
+        "description": {
+          "zh-cn": "百度公司在日本设立的子公司，于2015年停止了在日本的搜索业务。",
+          "en": "Baidu's subsidiary in Japan, which ceased its search engine operations in Japan in 2015."
+        }
+      }
+    },
+    {
+      "id": "出井伸之",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "出井伸之"
+        ],
+        "en": [
+          "Nobuyuki Idei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前索尼董事长，曾任百度独立董事。",
+          "en": "Former chairman of Sony, who served as an independent director at Baidu."
+        }
+      }
+    },
+    {
+      "id": "王湛生",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王湛生"
+        ],
+        "en": [
+          "Shawn Wang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "death_date": "2007-12-29",
+        "description": {
+          "zh-cn": "百度公司前首席财务官，于2007年12月在休假期间去世。",
+          "en": "Former CFO of Baidu, who passed away during a vacation in December 2007."
+        }
+      }
+    },
+    {
+      "id": "李昕晢",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李昕晢"
+        ],
+        "en": [
+          "Jennifer Li"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "百度公司前财务总监，于2008年3月上任。",
+          "en": "Former CFO of Baidu, who took office in March 2008."
+        }
+      }
+    },
+    {
+      "id": "习近平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "习近平"
+        ],
+        "en": [
+          "Xi Jinping"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任中共中央总书记兼国家主席，曾见证百度巴西葡语搜索引擎上线，并好评百度在埃及的国际化发展。",
+          "en": "Then General Secretary of the CCP Central Committee and President of China, who witnessed the launch of Baidu's Portuguese search engine in Brazil and praised Baidu's internationalization efforts in Egypt."
+        }
+      }
+    },
+    {
+      "id": "迪尔玛·罗塞夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "迪尔玛·罗塞夫"
+        ],
+        "en": [
+          "Dilma Rousseff"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "时任巴西总统，与习近平共同见证了百度巴西葡语搜索引擎的上线。",
+          "en": "Then President of Brazil, who, along with Xi Jinping, witnessed the launch of Baidu's Portuguese search engine in Brazil."
+        }
+      }
+    },
+    {
+      "id": "韩寒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩寒"
+        ],
+        "en": [
+          "Han Han"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国作家，曾就百度文库侵权一事起诉百度并胜诉。",
+          "en": "A Chinese writer who sued Baidu for copyright infringement on Baidu Wenku and won the case."
+        }
+      }
+    },
+    {
+      "id": "璩静",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "璩静"
+        ],
+        "en": [
+          "Qu Jing"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "百度公司前公关副总裁，因其在社交媒体上发布的争议性言论引发公关危机并离职。",
+          "en": "Former Vice President of Public Relations at Baidu, who resigned after a PR crisis caused by her controversial statements on social media."
+        }
+      }
+    },
+    {
+      "id": "百度空间",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "百度空间"
+        ],
+        "en": [
+          "Baidu Space"
+        ]
+      },
+      "properties": {
+        "period": "2006-07-13 - 2015-04-21",
+        "description": {
+          "zh-cn": "百度公司推出的社交网络服务，于2015年4月21日正式关闭。",
+          "en": "A social networking service launched by Baidu, which was officially shut down on April 21, 2015."
+        }
+      }
+    },
+    {
+      "id": "奇虎360",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奇虎360"
+        ],
+        "en": [
+          "Qihoo 360"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国互联网安全公司，曾被百度起诉并在一审中胜诉。",
+          "en": "A Chinese internet security company that was sued by Baidu and won the case in the first instance."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李彦宏",
+      "target": "百度公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2000-01-01",
+        "description": {
+          "zh-cn": "李彦宏与徐勇于2000年1月1日在北京中关村共同创立了百度公司。",
+          "en": "Robin Li and Eric Xu co-founded Baidu in Zhongguancun, Beijing on January 1, 2000."
+        }
+      }
+    },
+    {
+      "source": "徐勇 (企业家)",
+      "target": "百度公司",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2000-01-01",
+        "description": {
+          "zh-cn": "徐勇与李彦宏于2000年1月1日在北京中关村共同创立了百度公司。",
+          "en": "Eric Xu and Robin Li co-founded Baidu in Zhongguancun, Beijing on January 1, 2000."
+        }
+      }
+    },
+    {
+      "source": "李彦宏",
+      "target": "百度公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2000-01-01",
+        "position": {
+          "zh-cn": "董事长兼首席执行官",
+          "en": "Chairman and CEO"
+        },
+        "description": {
+          "zh-cn": "李彦宏担任百度公司的董事长兼首席执行官。",
+          "en": "Robin Li serves as the Chairman and CEO of Baidu."
+        }
+      }
+    },
+    {
+      "source": "青玉案·元夕",
+      "target": "百度公司",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "百度公司的名称“百度”来源于辛弃疾的词《青玉案·元夕》中的一句：“众里寻他千百度”。",
+          "en": "The name of the company, Baidu, was inspired by a line from Xin Qiji's poem \"Green Jade Table, Lantern Festival\": \"having searched for him hundreds and thousands of times in the crowd\"."
+        }
+      }
+    },
+    {
+      "source": "谷歌退出中国大陆事件",
+      "target": "百度公司",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2009",
+        "description": {
+          "zh-cn": "谷歌退出中国大陆后，百度在中国搜索引擎市场占据了主导地位。",
+          "en": "After Google withdrew from mainland China, Baidu came to dominate the Chinese search engine market."
+        }
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "纳斯达克",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2005-08-05",
+        "description": {
+          "zh-cn": "百度公司于2005年8月5日在美国纳斯达克证券交易所上市。",
+          "en": "Baidu was listed on the NASDAQ stock exchange in the United States on August 5, 2005."
+        }
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "香港联合交易所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021",
+        "description": {
+          "zh-cn": "百度公司于2021年在香港联合交易所完成二次上市。",
+          "en": "Baidu completed its secondary listing on the Hong Kong Stock Exchange in 2021."
+        }
+      }
+    },
+    {
+      "source": "中国中央电视台",
+      "target": "百度公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2008-11-15",
+        "description": {
+          "zh-cn": "中国中央电视台于2008年11月15日曝光百度竞价排名黑幕，导致百度股价遭受重挫。",
+          "en": "On November 15, 2008, China Central Television exposed scandals related to Baidu's paid search ranking system, causing a sharp decline in Baidu's stock price."
+        }
+      }
+    },
+    {
+      "source": "2010年百度域名被劫持事件",
+      "target": "百度公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2010-01-12",
+        "end_date": "2010-01-12",
+        "description": {
+          "zh-cn": "此次黑客攻击事件导致百度网站长达6小时无法访问，预估损失达700万元人民币。",
+          "en": "This hacking incident caused Baidu's website to be inaccessible for six hours, with estimated losses of 7 million RMB."
+        }
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "去哪儿网",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2011-06-24",
+        "description": {
+          "zh-cn": "百度以3.06亿美元投资去哪儿网，成为其第一大机构股东。",
+          "en": "Baidu invested US$306 million in Qunar.com, becoming its largest institutional shareholder."
+        }
+      }
+    },
+    {
+      "source": "携程旅行网",
+      "target": "去哪儿网",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2015-10-26",
+        "description": {
+          "zh-cn": "去哪儿网与携程网以换股方式合并。",
+          "en": "Qunar.com merged with Ctrip through a share swap."
+        }
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "携程旅行网",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-10-26",
+        "description": {
+          "zh-cn": "通过去哪儿网与携程网的合并，百度获得了携程25%的股权。",
+          "en": "Through the merger of Qunar.com and Ctrip, Baidu acquired a 25% stake in Ctrip."
+        }
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "集度",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2021-01-11",
+        "description": {
+          "zh-cn": "百度宣布组建智能汽车公司，并与吉利控股集团合作。",
+          "en": "Baidu announced the formation of a smart car company in partnership with Geely Holding Group."
+        }
+      }
+    },
+    {
+      "source": "吉利控股集团",
+      "target": "集度",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2021-01-11",
+        "description": {
+          "zh-cn": "吉利控股集团成为百度新组建的智能汽车公司的战略合作伙伴。",
+          "en": "Geely Holding Group became the strategic partner for Baidu's newly formed smart car company."
+        }
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "百度日本",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2006"
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "百度日本",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2015-03",
+        "description": {
+          "zh-cn": "百度日本正式停止在日本的搜索业务。",
+          "en": "Baidu Japan officially ceased its search operations in Japan."
+        }
+      }
+    },
+    {
+      "source": "出井伸之",
+      "target": "百度公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2007-06",
+        "position": {
+          "zh-cn": "独立董事",
+          "en": "Independent Director"
+        }
+      }
+    },
+    {
+      "source": "王湛生",
+      "target": "百度公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "2007-12-29",
+        "position": {
+          "zh-cn": "首席财务官",
+          "en": "Chief Financial Officer"
+        }
+      }
+    },
+    {
+      "source": "李昕晢",
+      "target": "百度公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008-03-31",
+        "position": {
+          "zh-cn": "财务总监",
+          "en": "Chief Financial Officer"
+        }
+      }
+    },
+    {
+      "source": "习近平",
+      "target": "李彦宏",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2014-07-17",
+        "description": {
+          "zh-cn": "在习近平和巴西总统迪尔玛·罗塞夫的见证下，百度董事长兼CEO李彦宏宣告巴西葡语搜索引擎正式上线。",
+          "en": "In the presence of Xi Jinping and Brazilian President Dilma Rousseff, Baidu Chairman and CEO Robin Li announced the official launch of Baidu's Portuguese search engine in Brazil."
+        }
+      }
+    },
+    {
+      "source": "迪尔玛·罗塞夫",
+      "target": "李彦宏",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2014-07-17",
+        "description": {
+          "zh-cn": "在习近平和巴西总统迪尔玛·罗塞夫的见证下，百度董事长兼CEO李彦宏宣告巴西葡语搜索引擎正式上线。",
+          "en": "In the presence of Xi Jinping and Brazilian President Dilma Rousseff, Baidu Chairman and CEO Robin Li announced the official launch of Baidu's Portuguese search engine in Brazil."
+        }
+      }
+    },
+    {
+      "source": "韩寒",
+      "target": "百度公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2012-09-18",
+        "description": {
+          "zh-cn": "韩寒就百度文库侵权一事起诉百度，法院判决百度败诉，赔偿韩寒近10万元。",
+          "en": "Han Han sued Baidu for copyright infringement on Baidu Wenku; the court ruled in favor of Han Han, ordering Baidu to pay nearly 100,000 RMB in compensation."
+        }
+      }
+    },
+    {
+      "source": "璩静",
+      "target": "百度公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2024-05",
+        "description": {
+          "zh-cn": "百度公关副总裁璩静因其在抖音发布的争议性言论，导致百度股价下跌，市值蒸发逾120亿元人民币，随后其本人离职。",
+          "en": "Baidu's VP of PR, Qu Jing, caused a drop in Baidu's stock price and a market value evaporation of over 12 billion RMB due to her controversial remarks on Douyin, after which she resigned."
+        }
+      }
+    },
+    {
+      "source": "李彦宏",
+      "target": "璩静",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2024-05",
+        "description": {
+          "zh-cn": "在璩静事件发酵后，李彦宏在小范围员工沟通会上对事件进行点评，随后璩静离职。",
+          "en": "After the controversy surrounding Qu Jing escalated, Li Yanhong commented on the incident in a small-scale employee meeting, and Qu Jing subsequently resigned."
+        }
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "百度空间",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2006-07-13"
+      }
+    },
+    {
+      "source": "百度公司",
+      "target": "百度空间",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2015-04-21",
+        "description": {
+          "zh-cn": "百度空间于2015年4月21日正式关闭。",
+          "en": "Baidu Space was officially shut down on April 21, 2015."
+        }
+      }
+    },
+    {
+      "source": "奇虎360",
+      "target": "百度公司",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2013-09-25",
+        "description": {
+          "zh-cn": "在百度诉360搜索抄袭一案中，法院一审驳回了百度的诉讼请求，百度败诉。",
+          "en": "In the case of Baidu suing Qihoo 360 for plagiarism, the court rejected Baidu's claims in the first instance, resulting in a loss for Baidu."
+        }
+      }
+    }
+  ]
+}

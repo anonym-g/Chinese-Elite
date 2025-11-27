@@ -1,0 +1,876 @@
+{
+  "nodes": [
+    {
+      "id": "少林寺",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "少林寺"
+        ],
+        "en": [
+          "Shaolin Temple"
+        ]
+      },
+      "properties": {
+        "period": "495 - ",
+        "location": {
+          "zh-cn": "中华人民共和国河南省郑州市登封市嵩山"
+        },
+        "description": {
+          "zh-cn": "位于中国河南省嵩山的一座佛教寺庙，是汉传佛教的禅宗祖庭，因其历代武僧研创的少林功夫而闻名于世。现为世界文化遗产、国家5A级旅游景区。",
+          "en": "A Buddhist monastery in Mount Song, Henan Province, China. It is the main temple of the Zen school of Chinese Buddhism and is world-renowned for its connection to Shaolin Kung Fu. It is a World Heritage Site and a National 5A-level tourist attraction."
+        }
+      }
+    },
+    {
+      "id": "北魏孝文帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "北魏孝文帝",
+          "孝文帝元宏"
+        ],
+        "en": [
+          "Emperor Xiaowen of Northern Wei"
+        ]
+      },
+      "properties": {
+        "lifetime": "467 - 499",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北魏皇帝，为了安顿印度僧人跋陀而下令修建少林寺。",
+          "en": "An emperor of the Northern Wei dynasty who ordered the construction of the Shaolin Temple to accommodate the Indian monk Batuo."
+        }
+      }
+    },
+    {
+      "id": "跋陀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "跋陀"
+        ],
+        "en": [
+          "Batuo"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "印度"
+        },
+        "description": {
+          "zh-cn": "印度僧人，少林寺的创始住持，由北魏孝文帝为其在嵩山建寺。",
+          "en": "An Indian monk and the founding abbot of the Shaolin Temple, for whom Emperor Xiaowen of Northern Wei built the monastery at Mount Song."
+        }
+      }
+    },
+    {
+      "id": "菩提达摩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "菩提达摩",
+          "达摩"
+        ],
+        "en": [
+          "Bodhidharma"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "被尊为禅宗西天二十八祖，在少林寺传授禅修，使少林寺成为禅宗祖庭。",
+          "en": "Revered as the First Patriarch of Zen in China, he taught Zen meditation at the Shaolin Temple, establishing it as the ancestral temple of Zen."
+        }
+      }
+    },
+    {
+      "id": "慧可",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慧可"
+        ],
+        "en": [
+          "Huike"
+        ]
+      },
+      "properties": {
+        "lifetime": "487 - 593",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "禅宗二祖，从菩提达摩处继承禅法。",
+          "en": "The Second Patriarch of Zen, who inherited the Dharma from Bodhidharma."
+        }
+      }
+    },
+    {
+      "id": "建德毁佛",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "建德毁佛"
+        ],
+        "en": [
+          "Emperor Wu of Northern Zhou's persecution of Buddhism"
+        ]
+      },
+      "properties": {
+        "period": "574 - 578",
+        "description": {
+          "zh-cn": "北周武帝发起的废佛运动，少林寺在此期间被严重毁坏。",
+          "en": "The anti-Buddhist campaign launched by Emperor Wu of Northern Zhou, during which the Shaolin Temple was severely damaged."
+        }
+      }
+    },
+    {
+      "id": "北周武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "北周武帝"
+        ],
+        "en": [
+          "Emperor Wu of Northern Zhou"
+        ]
+      },
+      "properties": {
+        "lifetime": "543 - 578",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北周皇帝，下令禁止佛教传播，即“建德毁佛”。",
+          "en": "An emperor of the Northern Zhou dynasty who ordered the proscription of Buddhism, known as the Jiande Persecution of Buddhism."
+        }
+      }
+    },
+    {
+      "id": "隋文帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "隋文帝"
+        ],
+        "en": [
+          "Emperor Wen of Sui"
+        ]
+      },
+      "properties": {
+        "lifetime": "541 - 604",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "隋朝开国皇帝，恢复少林寺并赐予土地，使其发展壮大。",
+          "en": "The founding emperor of the Sui dynasty, who restored the Shaolin Temple and granted it land, contributing to its growth."
+        }
+      }
+    },
+    {
+      "id": "唐太宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐太宗"
+        ],
+        "en": [
+          "Emperor Taizong of Tang"
+        ]
+      },
+      "properties": {
+        "lifetime": "598 - 649",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝第二位皇帝，因少林寺十三棍僧助唐有功而对其进行封赏。",
+          "en": "The second emperor of the Tang dynasty, who rewarded the Shaolin Temple after its thirteen cudgel monks assisted him."
+        }
+      }
+    },
+    {
+      "id": "元世祖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "元世祖"
+        ],
+        "en": [
+          "Kublai Khan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1215 - 1294",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "元朝开国皇帝，命令福裕住持少林寺。",
+          "en": "The founding emperor of the Yuan dynasty, who appointed Fuyu as the abbot of the Shaolin Temple."
+        }
+      }
+    },
+    {
+      "id": "福裕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "福裕"
+        ],
+        "en": [
+          "Fuyu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1203 - 1275",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "元代曹洞宗禅师，被元世祖任命为少林寺住持，开创了少林寺的辉煌时代。",
+          "en": "A Caodong school Zen master of the Yuan dynasty who was appointed abbot of the Shaolin Temple by Kublai Khan, ushering in a glorious era for the monastery."
+        }
+      }
+    },
+    {
+      "id": "戚继光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "戚继光"
+        ],
+        "en": [
+          "Qi Jiguang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1528 - 1588",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "明朝将领，曾与少林僧人研究武术以对抗倭寇。",
+          "en": "A general of the Ming dynasty who collaborated with Shaolin monks to study martial arts to fight against Wokou pirates."
+        }
+      }
+    },
+    {
+      "id": "倭寇",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "倭寇"
+        ],
+        "en": [
+          "Wokou"
+        ]
+      },
+      "properties": {
+        "period": "1300 - 1600",
+        "description": {
+          "zh-cn": "指在13至16世纪期间，劫掠朝鲜和中国沿海地区的日本海盗。少林僧人曾参与对抗倭寇的战斗。",
+          "en": "Pirates who raided the coastlines of Korea and China from the 13th to the 16th centuries. Shaolin monks participated in battles against them."
+        }
+      }
+    },
+    {
+      "id": "康熙帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "康熙帝",
+          "康熙皇帝"
+        ],
+        "en": [
+          "Kangxi Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1654 - 1722",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝皇帝，曾为少林寺亲书匾额。",
+          "en": "An emperor of the Qing dynasty who personally wrote calligraphic plaques for the Shaolin Temple."
+        }
+      }
+    },
+    {
+      "id": "雍正帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雍正帝",
+          "雍正皇帝"
+        ],
+        "en": [
+          "Yongzheng Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1678 - 1735",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝皇帝，曾下令重建少林寺山门、重修千佛殿。",
+          "en": "An emperor of the Qing dynasty who ordered the rebuilding of the Shaolin Temple's mountain gate and the renovation of the Thousand Buddha Hall."
+        }
+      }
+    },
+    {
+      "id": "乾隆帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乾隆帝",
+          "乾隆皇帝"
+        ],
+        "en": [
+          "Qianlong Emperor"
+        ]
+      },
+      "properties": {
+        "lifetime": "1711 - 1799",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝皇帝，曾亲临少林寺并留下诗词匾额。",
+          "en": "An emperor of the Qing dynasty who visited the Shaolin Temple and left behind poems and calligraphic plaques."
+        }
+      }
+    },
+    {
+      "id": "释妙兴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "释妙兴",
+          "妙兴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1890 - 1927-03-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "民国时期接替释恒林领导少林寺保卫团，后投奔直系军阀吴佩孚，在交战中阵亡。",
+          "en": "During the Republic of China era, he took over leadership of the Shaolin Temple's defense corps from Shi Henglin. He later joined the warlord Wu Peifu's faction and was killed in battle."
+        }
+      }
+    },
+    {
+      "id": "吴佩孚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴佩孚"
+        ],
+        "en": [
+          "Wu Peifu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1874 - 1939",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国北洋军阀直系首领，释妙兴曾投奔于他。",
+          "en": "A leader of the Zhili clique of the Beiyang warlords in the Republic of China, whom Shi Miaoxing once joined."
+        }
+      }
+    },
+    {
+      "id": "冯玉祥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯玉祥"
+        ],
+        "en": [
+          "Feng Yuxiang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1882 - 1948",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事家、政治家，其部下石友三火烧少林寺。",
+          "en": "A military leader and politician in the Republic of China, whose subordinate Shi Yousan set fire to the Shaolin Temple."
+        }
+      }
+    },
+    {
+      "id": "石友三",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石友三"
+        ],
+        "en": [
+          "Shi Yousan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1891 - 1940",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "民国时期军阀，1928年纵火焚烧少林寺，造成严重破坏。",
+          "en": "A warlord during the Republic of China era who set fire to the Shaolin Temple in 1928, causing severe damage."
+        }
+      }
+    },
+    {
+      "id": "文化大革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "文化大革命",
+          "文革"
+        ],
+        "en": [
+          "Cultural Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "中华人民共和国时期的一场政治运动，期间少林寺遭到严重破坏。",
+          "en": "A political movement in the People's Republic of China during which the Shaolin Temple was severely damaged."
+        }
+      }
+    },
+    {
+      "id": "红卫兵",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "红卫兵"
+        ],
+        "en": [
+          "Red Guards"
+        ]
+      },
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "文化大革命时期的青年组织，曾冲击少林寺并进行破坏。",
+          "en": "A youth organization during the Cultural Revolution that stormed the Shaolin Temple and carried out destruction."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔·普京",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔·普京",
+          "普京"
+        ],
+        "en": [
+          "Vladimir Putin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1952-10-07 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "俄罗斯总统，是首位拜访少林寺的外国元首。",
+          "en": "President of Russia, who was the first foreign head of state to visit the Shaolin Temple."
+        }
+      }
+    },
+    {
+      "id": "亨利·基辛格",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亨利·基辛格",
+          "基辛格"
+        ],
+        "en": [
+          "Henry Kissinger"
+        ]
+      },
+      "properties": {
+        "lifetime": "1923-05-27 - 2023-11-29",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国前国务卿，曾拜访少林寺。",
+          "en": "Former U.S. Secretary of State who visited the Shaolin Temple."
+        }
+      }
+    },
+    {
+      "id": "释印乐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "释印乐"
+        ],
+        "en": [
+          "Shi Yinle"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "少林寺现任住持。",
+          "en": "The current abbot of the Shaolin Temple."
+        }
+      }
+    },
+    {
+      "id": "曹洞宗",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "曹洞宗"
+        ],
+        "en": [
+          "Caodong school"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "禅宗的五个主要流派之一，少林寺现属曹洞宗。",
+          "en": "One of the five main schools of Zen Buddhism, to which the Shaolin Temple currently belongs."
+        }
+      }
+    },
+    {
+      "id": "少林功夫",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "少林功夫"
+        ],
+        "en": [
+          "Shaolin Kung Fu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由少林寺武僧研创和发展的武术体系。",
+          "en": "A system of martial arts developed and refined by the warrior monks of the Shaolin Temple."
+        }
+      }
+    },
+    {
+      "id": "登封“天地之中”历史建筑群",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "登封“天地之中”历史建筑群",
+          "天地之中建筑群"
+        ],
+        "en": [
+          "Historic Monuments of Dengfeng in 'The Centre of Heaven and Earth'"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于河南省登封市的一系列历史建筑，被联合国教科文组织列为世界文化遗产，少林寺是其中的一部分。",
+          "en": "A collection of historical monuments in Dengfeng, Henan Province, designated as a UNESCO World Heritage Site, which includes the Shaolin Temple."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "北魏孝文帝",
+      "target": "少林寺",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "495",
+        "description": {
+          "zh-cn": "北魏孝文帝为安顿印度僧人跋陀，在嵩山少室山下令修建了少林寺。",
+          "en": "Emperor Xiaowen of Northern Wei ordered the construction of the Shaolin Temple at Mount Song to accommodate the Indian monk Batuo."
+        }
+      }
+    },
+    {
+      "source": "菩提达摩",
+      "target": "少林寺",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "527",
+        "description": {
+          "zh-cn": "菩提达摩来到少林寺传授禅修，使少林寺逐渐成为禅宗祖庭。",
+          "en": "Bodhidharma came to the Shaolin Temple to teach Zen meditation, gradually establishing it as the ancestral temple of Zen."
+        }
+      }
+    },
+    {
+      "source": "慧可",
+      "target": "菩提达摩",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "536",
+        "description": {
+          "zh-cn": "菩提达摩于东魏天平三年（536年）将禅法传授给慧可，慧可成为其弟子和继承人。",
+          "en": "In 536 (the third year of the Tianping era of the Eastern Wei), Bodhidharma transmitted the Zen Dharma to Huike, who became his disciple and successor."
+        }
+      }
+    },
+    {
+      "source": "建德毁佛",
+      "target": "少林寺",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "574",
+        "description": {
+          "zh-cn": "在北周武帝发动的“建德毁佛”运动中，少林寺遭到了严重毁坏。",
+          "en": "During the 'Jiande Persecution of Buddhism' launched by Emperor Wu of Northern Zhou, the Shaolin Temple was severely damaged."
+        }
+      }
+    },
+    {
+      "source": "北周武帝",
+      "target": "建德毁佛",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "574",
+        "description": {
+          "zh-cn": "北周武帝下令禁止佛教传播，发起了“建德毁佛”运动。",
+          "en": "Emperor Wu of Northern Zhou ordered the proscription of Buddhism, launching the 'Jiande Persecution of Buddhism' campaign."
+        }
+      }
+    },
+    {
+      "source": "隋文帝",
+      "target": "少林寺",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "隋文帝恢复了少林寺的名称，并赐予其大量土地和财产，支持了其发展。",
+          "en": "Emperor Wen of Sui restored the name of the Shaolin Temple and supported its development by granting it large amounts of land and property."
+        }
+      }
+    },
+    {
+      "source": "少林寺",
+      "target": "唐太宗",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "唐朝初年，少林寺十三名武僧因帮助李世民（后来的唐太宗）立下战功而闻名。",
+          "en": "In the early Tang dynasty, thirteen warrior monks from the Shaolin Temple became famous for their military service in helping Li Shimin (later Emperor Taizong)."
+        }
+      }
+    },
+    {
+      "source": "唐太宗",
+      "target": "少林寺",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "因少林寺僧人助唐有功，唐太宗对少林寺大加封赏，赐予田地，并允许其拥有僧兵。",
+          "en": "Due to the monks' contribution to the Tang cause, Emperor Taizong greatly rewarded the Shaolin Temple with land grants and permitted it to maintain a force of monk soldiers."
+        }
+      }
+    },
+    {
+      "source": "元世祖",
+      "target": "福裕",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "元世祖任命禅师福裕住持少林寺，并统领嵩山一带所有禅寺。",
+          "en": "Kublai Khan appointed Zen master Fuyu as the abbot of the Shaolin Temple, giving him authority over all Zen monasteries in the Mount Song area."
+        }
+      }
+    },
+    {
+      "source": "福裕",
+      "target": "少林寺",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "住持",
+          "en": "Abbot"
+        },
+        "description": {
+          "zh-cn": "元代初，福裕被元世祖任命为少林寺住持，开启了少林寺的一个辉煌时代。",
+          "en": "In the early Yuan dynasty, Fuyu was appointed by Kublai Khan as the abbot of the Shaolin Temple, ushering in a glorious era for the monastery."
+        }
+      }
+    },
+    {
+      "source": "戚继光",
+      "target": "少林功夫",
+      "type": "PUSHED",
+      "properties": {
+        "period": "1522 - 1566",
+        "description": {
+          "zh-cn": "明朝嘉靖年间，戚继光召集少林僧人等武术家共同研究拳法及棍法以对抗倭寇。",
+          "en": "During the Jiajing reign of the Ming dynasty, Qi Jiguang gathered Shaolin monks and other martial artists to collaboratively develop fist and staff techniques to fight Wokou pirates."
+        }
+      }
+    },
+    {
+      "source": "少林寺",
+      "target": "倭寇",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "1522 - 1566",
+        "description": {
+          "zh-cn": "明朝嘉靖年间，少林僧人因抗击倭寇有功而受到政府表彰。",
+          "en": "During the Jiajing reign of the Ming dynasty, Shaolin monks were commended by the government for their meritorious service in fighting against Wokou pirates."
+        }
+      }
+    },
+    {
+      "source": "康熙帝",
+      "target": "少林寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1704",
+        "description": {
+          "zh-cn": "康熙帝于1704年为少林寺亲书“少林寺”和“宝树芳莲”两方匾额。",
+          "en": "In 1704, the Kangxi Emperor personally wrote two calligraphic plaques, 'Shaolin Temple' and 'Bao Shu Fang Lian', for the monastery."
+        }
+      }
+    },
+    {
+      "source": "雍正帝",
+      "target": "少林寺",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1735",
+        "description": {
+          "zh-cn": "雍正帝于1735年批准了少林寺的规划图，并下令重建山门、重修千佛殿。",
+          "en": "In 1735, the Yongzheng Emperor approved the architectural plans for the Shaolin Temple and ordered the rebuilding of its mountain gate and the renovation of the Thousand Buddha Hall."
+        }
+      }
+    },
+    {
+      "source": "乾隆帝",
+      "target": "少林寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1750",
+        "description": {
+          "zh-cn": "乾隆帝于1750年亲临少林寺，夜宿方丈室，并写下众多诗词与匾额。",
+          "en": "In 1750, the Qianlong Emperor personally visited the Shaolin Temple, stayed overnight in the abbot's quarters, and composed numerous poems and calligraphic plaques."
+        }
+      }
+    },
+    {
+      "source": "释妙兴",
+      "target": "吴佩孚",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "民国时期，释妙兴带领少林寺保卫团投奔了直系军阀吴佩孚。",
+          "en": "During the Republican era, Shi Miaoxing led the Shaolin Temple's defense corps to join the warlord Wu Peifu."
+        }
+      }
+    },
+    {
+      "source": "石友三",
+      "target": "少林寺",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1928-03-15",
+        "description": {
+          "zh-cn": "1928年3月，石友三纵火焚烧少林寺，导致寺内众多殿宇和珍贵文物被毁。",
+          "en": "In March 1928, Shi Yousan set fire to the Shaolin Temple, resulting in the destruction of many halls and precious cultural relics within the monastery."
+        }
+      }
+    },
+    {
+      "source": "石友三",
+      "target": "冯玉祥",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "石友三是冯玉祥的部下。",
+          "en": "Shi Yousan was a subordinate of Feng Yuxiang."
+        }
+      }
+    },
+    {
+      "source": "文化大革命",
+      "target": "少林寺",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1966",
+        "end_date": "1976",
+        "description": {
+          "zh-cn": "在文化大革命期间，少林寺遭到严重破坏，僧人被逼还俗，佛像被毁，殿宇坍塌。",
+          "en": "During the Cultural Revolution, the Shaolin Temple was severely damaged; monks were forced to return to secular life, statues were destroyed, and temple halls collapsed."
+        }
+      }
+    },
+    {
+      "source": "红卫兵",
+      "target": "少林寺",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "1966 - 1976",
+        "description": {
+          "zh-cn": "文化大革命期间，上百名红卫兵冲进少林寺，毁坏佛像和寺庙建筑。",
+          "en": "During the Cultural Revolution, over a hundred Red Guards stormed the Shaolin Temple, destroying Buddhist statues and temple buildings."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔·普京",
+      "target": "少林寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2006-03-22",
+        "description": {
+          "zh-cn": "2006年3月22日，时任俄罗斯总统普京拜访少林寺，成为历史上第一位拜访该寺的外国元首。",
+          "en": "On March 22, 2006, then-Russian President Vladimir Putin visited the Shaolin Temple, becoming the first foreign head of state in history to visit the monastery."
+        }
+      }
+    },
+    {
+      "source": "亨利·基辛格",
+      "target": "少林寺",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2005-05-13",
+        "description": {
+          "zh-cn": "2005年5月13日，美国前国务卿基辛格拜访少林寺。",
+          "en": "On May 13, 2005, former U.S. Secretary of State Henry Kissinger visited the Shaolin Temple."
+        }
+      }
+    },
+    {
+      "source": "释印乐",
+      "target": "少林寺",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "住持",
+          "en": "Abbot"
+        },
+        "description": {
+          "zh-cn": "释印乐是少林寺的现任住持。",
+          "en": "Shi Yinle is the current abbot of the Shaolin Temple."
+        }
+      }
+    },
+    {
+      "source": "少林寺",
+      "target": "曹洞宗",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "少林寺现属禅宗下的曹洞宗法脉。",
+          "en": "The Shaolin Temple currently belongs to the Caodong school lineage of Zen Buddhism."
+        }
+      }
+    },
+    {
+      "source": "少林寺",
+      "target": "少林功夫",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "少林寺是少林功夫的发源地，其历代武僧潜心研创和不断发展了这一武术体系。",
+          "en": "The Shaolin Temple is the birthplace of Shaolin Kung Fu; its warrior monks have dedicatedly created and continuously developed this martial arts system through generations."
+        }
+      }
+    },
+    {
+      "source": "少林寺",
+      "target": "登封“天地之中”历史建筑群",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "少林寺的常住院、塔林和初祖庵是“登封‘天地之中’历史建筑群”的一部分，该建筑群被列为世界文化遗产。",
+          "en": "The Shaolin Temple's permanent resident compound, Pagoda Forest, and Chuzu Temple are part of the 'Historic Monuments of Dengfeng in The Centre of Heaven and Earth', which is listed as a World Heritage Site."
+        }
+      }
+    }
+  ]
+}

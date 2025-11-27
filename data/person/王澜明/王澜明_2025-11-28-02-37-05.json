@@ -1,0 +1,303 @@
+{
+  "nodes": [
+    {
+      "id": "王澜明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王澜明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1948 - ",
+        "birth_place": {
+          "zh-cn": "扶风",
+          "en": "Fufeng"
+        },
+        "description": {
+          "zh-cn": "中国共产党及中华人民共和国官员，曾任中共中央办公厅秘书局局长、中央机构编制委员会办公室副主任、第十一届全国人民代表大会代表等职。",
+          "en": "An official of the Communist Party of China and the People's Republic of China, who served as Director of the Secretariat of the General Office of the CPC Central Committee, Deputy Director of the State Commission Office for Public Sector Reform, and a delegate to the 11th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "扶风",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "扶风"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "陕西省的一个县，王澜明的家乡。",
+          "en": "A county in Shaanxi Province, hometown of Wang Lanming."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党。",
+          "en": "The ruling political party of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，通常简称为中国。",
+          "en": "A country in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "四川大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "四川大学"
+        ],
+        "en": [
+          "Sichuan University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国四川省成都市的综合性大学。",
+          "en": "A comprehensive university in Chengdu, Sichuan, China."
+        }
+      }
+    },
+    {
+      "id": "中共中央办公厅秘书局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央办公厅秘书局"
+        ],
+        "en": [
+          "Secretariat of the General Office of the CPC Central Committee"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央委员会办公厅内设机构。",
+          "en": "An internal department of the General Office of the Central Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中央机构编制委员会办公室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央机构编制委员会办公室"
+        ],
+        "en": [
+          "State Commission Office for Public Sector Reform"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中央机构编制委员会的常设办事机构。",
+          "en": "The permanent working body of the State Commission for Public Sector Reform."
+        }
+      }
+    },
+    {
+      "id": "中国行政管理学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国行政管理学会"
+        ],
+        "en": [
+          "Chinese Public Administration Society"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国行政管理学领域的全国性学术团体。",
+          "en": "A national academic association in the field of public administration in China."
+        }
+      }
+    },
+    {
+      "id": "第十一届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十一届全国人民代表大会"
+        ],
+        "en": [
+          "11th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2008 - 2013",
+        "description": {
+          "zh-cn": "中华人民共和国的第十一届全国人民代表大会，任期为2008年至2013年。",
+          "en": "The 11th National People's Congress of the People's Republic of China, with a term from 2008 to 2013."
+        }
+      }
+    },
+    {
+      "id": "全国人大内务司法委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人大内务司法委员会"
+        ],
+        "en": [
+          "National People's Congress Internal and Judicial Affairs Committee"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全国人民代表大会的专门委员会之一。",
+          "en": "One of the special committees of the National People's Congress."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王澜明",
+      "target": "扶风",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "王澜明是陕西扶风人。",
+          "en": "Wang Lanming is from Fufeng, Shaanxi."
+        }
+      }
+    },
+    {
+      "source": "王澜明",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        }
+      }
+    },
+    {
+      "source": "王澜明",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "官员",
+          "en": "Official"
+        }
+      }
+    },
+    {
+      "source": "王澜明",
+      "target": "四川大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "历史系历史专业本科",
+          "en": "Bachelor's degree in History from the Department of History"
+        }
+      }
+    },
+    {
+      "source": "王澜明",
+      "target": "中共中央办公厅秘书局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1987",
+        "end_date": "2001",
+        "position": {
+          "zh-cn": "法规室主任、常务副局长、局长",
+          "en": "Director of the Regulations Office, Executive Deputy Director, Director"
+        },
+        "description": {
+          "zh-cn": "1987年至2001年，王澜明在中共中央办公厅秘书局工作，历任法规室主任、秘书局常务副局长、局长等职。",
+          "en": "From 1987 to 2001, Wang Lanming worked at the Secretariat of the General Office of the CPC Central Committee, successively serving as Director of the Regulations Office, Executive Deputy Director of the Secretariat, and Director."
+        }
+      }
+    },
+    {
+      "source": "王澜明",
+      "target": "中央机构编制委员会办公室",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2001",
+        "end_date": "2010",
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Deputy Director"
+        }
+      }
+    },
+    {
+      "source": "王澜明",
+      "target": "中国行政管理学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "在担任中央机构编制委员会办公室副主任期间及卸任后，王澜明兼任中国行政管理学会会长。",
+          "en": "During his tenure as Deputy Director of the State Commission Office for Public Sector Reform and after leaving the post, Wang Lanming served concurrently as President of the Chinese Public Administration Society."
+        }
+      }
+    },
+    {
+      "source": "王澜明",
+      "target": "第十一届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "position": {
+          "zh-cn": "陕西地区代表",
+          "en": "Delegate from the Shaanxi region"
+        }
+      }
+    },
+    {
+      "source": "王澜明",
+      "target": "全国人大内务司法委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        }
+      }
+    }
+  ]
+}

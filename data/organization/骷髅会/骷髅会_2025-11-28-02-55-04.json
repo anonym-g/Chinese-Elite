@@ -1,0 +1,911 @@
+{
+  "nodes": [
+    {
+      "id": "骷髅会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "骷髅会"
+        ],
+        "en": [
+          "Skull and Bones"
+        ]
+      },
+      "properties": {
+        "period": "1832 - ",
+        "location": {
+          "zh-cn": "纽哈芬市",
+          "en": "New Haven"
+        },
+        "description": {
+          "zh-cn": "美国耶鲁大学的一个兄弟会秘密社团，成立于1832年，在美国社会上层拥有巨大的影响力。",
+          "en": "A secret society and brotherhood at Yale University in the United States, founded in 1832, which holds significant influence within the American upper class."
+        }
+      }
+    },
+    {
+      "id": "耶鲁大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "耶鲁大学"
+        ],
+        "en": [
+          "Yale University"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "美国康乃狄克州纽哈芬市",
+          "en": "New Haven, Connecticut, United States"
+        },
+        "description": {
+          "zh-cn": "美国的一所著名私立研究型大学，骷髅会的总部所在地。",
+          "en": "A renowned private research university in the United States, where the headquarters of Skull and Bones is located."
+        }
+      }
+    },
+    {
+      "id": "威廉·拉塞尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·拉塞尔"
+        ],
+        "en": [
+          "William Huntington Russell"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "耶鲁大学毕业生，骷髅会的创始人。",
+          "en": "A graduate of Yale University and the founder of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "德国"
+        ],
+        "en": [
+          "Germany"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中欧国家，威廉·拉塞尔曾在此游学并可能接触了当地的秘密组织，从而获得了创立骷髅会的灵感。",
+          "en": "A country in Central Europe where William Russell studied abroad and may have come into contact with local secret societies, which inspired the founding of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "阿方索·塔夫脱",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿方索·塔夫脱"
+        ],
+        "en": [
+          "Alfonso Taft"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "骷髅会首批成员之一，曾任美国司法部长，是美国总统威廉·塔夫脱的父亲。",
+          "en": "One of the first members of Skull and Bones, who served as the U.S. Attorney General and was the father of U.S. President William Howard Taft."
+        }
+      }
+    },
+    {
+      "id": "威廉·塔夫脱",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·塔夫脱"
+        ],
+        "en": [
+          "William Howard Taft"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "第27任美国总统，骷髅会成员，阿方索·塔夫脱之子。",
+          "en": "The 27th President of the United States, a member of Skull and Bones, and the son of Alfonso Taft."
+        }
+      }
+    },
+    {
+      "id": "丹尼尔·科伊特·吉尔曼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丹尼尔·科伊特·吉尔曼"
+        ],
+        "en": [
+          "Daniel Coit Gilman"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "骷髅会成员，约翰·霍普金斯大学首任校长。",
+          "en": "A member of Skull and Bones and the first president of Johns Hopkins University."
+        }
+      }
+    },
+    {
+      "id": "约翰·霍普金斯大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "约翰·霍普金斯大学"
+        ],
+        "en": [
+          "Johns Hopkins University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的一所私立研究型大学，其首任校长是骷髅会成员丹尼尔·科伊特·吉尔曼。",
+          "en": "A private research university in the United States whose first president was Daniel Coit Gilman, a member of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "鹿岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "鹿岛"
+        ],
+        "en": [
+          "Deer Island"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "纽约州北部圣劳伦斯河",
+          "en": "St. Lawrence River, Northern New York"
+        },
+        "description": {
+          "zh-cn": "由骷髅会成员捐赠给协会的一座小岛，用作会员休闲度假的地点。",
+          "en": "A small island donated to the society by a Skull and Bones member, used as a recreational retreat for members."
+        }
+      }
+    },
+    {
+      "id": "塔夫脱家族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "塔夫脱家族"
+        ],
+        "en": [
+          "Taft family"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "与骷髅会关系密切的美国政治世家。",
+          "en": "An American political family with close ties to Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "布什家族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "布什家族"
+        ],
+        "en": [
+          "Bush family"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "与骷髅会关系密切的美国政治世家，是美国石油和军火商集团的代言人。",
+          "en": "An American political family with close ties to Skull and Bones, representing the interests of American oil and arms dealer groups."
+        }
+      }
+    },
+    {
+      "id": "哈里曼家族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "哈里曼家族"
+        ],
+        "en": [
+          "Harriman family"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "与骷髅会关系密切的美国铁路和金融大亨家族。",
+          "en": "An American railroad and financial tycoon family with close ties to Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "洛克菲勒家族",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "洛克菲勒家族"
+        ],
+        "en": [
+          "Rockefeller family"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "与骷髅会关系密切的美国老牌金融巨头家族。",
+          "en": "A prominent and established American financial dynasty with close ties to Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "乔治·沃克·布什",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·沃克·布什",
+          "小布什",
+          "乔治·W·布什"
+        ],
+        "en": [
+          "George W. Bush"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "第43任美国总统，骷髅会成员，乔治·H·W·布什之子。",
+          "en": "The 43rd President of the United States, a member of Skull and Bones, and son of George H. W. Bush."
+        }
+      }
+    },
+    {
+      "id": "约翰·福布斯·克里",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·福布斯·克里",
+          "约翰·克里",
+          "约翰·福布斯·凯瑞"
+        ],
+        "en": [
+          "John Kerry",
+          "John Forbes Kerry"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国参议员、前国务卿，2004年美国总统选举民主党候选人，骷髅会成员。",
+          "en": "A U.S. Senator and former Secretary of State, the Democratic candidate in the 2004 U.S. presidential election, and a member of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "亨利·卢斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亨利·卢斯"
+        ],
+        "en": [
+          "Henry Luce"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国著名出版家，《生活》与《时代》杂志的创办人，骷髅会成员。",
+          "en": "A prominent American publisher, founder of Life and Time magazines, and a member of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "时代 (杂志)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "时代 (杂志)",
+          "时代"
+        ],
+        "en": [
+          "Time (magazine)",
+          "Time"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国著名新闻周刊，由骷髅会成员亨利·卢斯和布雷顿·哈登创办。",
+          "en": "A famous American newsweekly magazine founded by Skull and Bones members Henry Luce and Briton Hadden."
+        }
+      }
+    },
+    {
+      "id": "布雷顿·哈登",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "布雷顿·哈登"
+        ],
+        "en": [
+          "Briton Hadden"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "《时代》杂志的共同创办人，骷髅会成员。",
+          "en": "Co-founder of Time magazine and a member of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "中央情报局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央情报局"
+        ],
+        "en": [
+          "Central Intelligence Agency",
+          "CIA"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国主要的情报机构之一，成立之初其成员中包含了大量的骷髅会成员。",
+          "en": "One of the primary intelligence agencies of the United States. In its early days, its ranks included a large number of Skull and Bones members."
+        }
+      }
+    },
+    {
+      "id": "美国总统",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国总统"
+        ],
+        "en": [
+          "President of the United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国的国家元首和政府首脑。有多位骷髅会成员担任此职务。",
+          "en": "The head of state and head of government of the United States. Several members of Skull and Bones have held this office."
+        }
+      }
+    },
+    {
+      "id": "乔治·H·W·布什",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乔治·H·W·布什",
+          "老布什"
+        ],
+        "en": [
+          "George H. W. Bush"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "第41任美国总统，骷髅会成员。",
+          "en": "The 41st President of the United States and a member of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "哈罗德·斯坦利",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈罗德·斯坦利"
+        ],
+        "en": [
+          "Harold Stanley"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "摩根斯坦利的创办人之一，骷髅会成员。",
+          "en": "One of the founders of Morgan Stanley and a member of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "摩根斯坦利",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "摩根斯坦利"
+        ],
+        "en": [
+          "Morgan Stanley"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国著名投资银行，由骷髅会成员哈罗德·斯坦利等人创办。",
+          "en": "A famous American investment bank co-founded by Skull and Bones member Harold Stanley."
+        }
+      }
+    },
+    {
+      "id": "查尔斯·西摩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查尔斯·西摩"
+        ],
+        "en": [
+          "Charles Seymour"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国历史学家，前耶鲁大学校长，骷髅会成员。",
+          "en": "An American historian, former president of Yale University, and a member of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "埃夫里尔·哈里曼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "埃夫里尔·哈里曼"
+        ],
+        "en": [
+          "W. Averell Harriman"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前美国驻苏联大使、前纽约州州长，骷髅会成员。",
+          "en": "A former U.S. Ambassador to the Soviet Union, former Governor of New York, and a member of Skull and Bones."
+        }
+      }
+    },
+    {
+      "id": "生活 (杂志)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "生活 (杂志)",
+          "生活"
+        ],
+        "en": [
+          "Life (magazine)",
+          "Life"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国著名杂志，由骷髅会成员亨利·卢斯创办。",
+          "en": "A famous American magazine founded by Skull and Bones member Henry Luce."
+        }
+      }
+    },
+    {
+      "id": "温斯顿·洛德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温斯顿·洛德"
+        ],
+        "en": [
+          "Winston Lord"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前美国驻华大使、助理国务卿，骷髅会成员。",
+          "en": "A former U.S. Ambassador to China, Assistant Secretary of State, and a member of Skull and Bones."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "威廉·拉塞尔",
+      "target": "骷髅会",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1832",
+        "description": {
+          "zh-cn": "威廉·拉塞尔于1832年创立了骷髅会。",
+          "en": "William Russell founded Skull and Bones in 1832."
+        }
+      }
+    },
+    {
+      "source": "德国",
+      "target": "骷髅会",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "骷髅会创始人在德国游学时受当地秘密组织启发，并将骷髅会视为德国某组织的第二个分支机构。",
+          "en": "The founder of Skull and Bones was inspired by a local secret society while studying in Germany, and considered Skull and Bones to be the second branch of a German organization."
+        }
+      }
+    },
+    {
+      "source": "阿方索·塔夫脱",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1832",
+        "description": {
+          "zh-cn": "阿方索·塔夫脱是骷髅会的首批成员之一。",
+          "en": "Alfonso Taft was one of the first members of Skull and Bones."
+        }
+      }
+    },
+    {
+      "source": "威廉·塔夫脱",
+      "target": "阿方索·塔夫脱",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "威廉·塔夫脱是阿方索·塔夫脱的儿子。",
+          "en": "William Howard Taft was the son of Alfonso Taft."
+        }
+      }
+    },
+    {
+      "source": "丹尼尔·科伊特·吉尔曼",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "丹尼尔·科伊特·吉尔曼是骷髅会的成员。",
+          "en": "Daniel Coit Gilman was a member of Skull and Bones."
+        }
+      }
+    },
+    {
+      "source": "丹尼尔·科伊特·吉尔曼",
+      "target": "约翰·霍普金斯大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "首任校长",
+          "en": "First President"
+        },
+        "description": {
+          "zh-cn": "丹尼尔·科伊特·吉尔曼是约翰·霍普金斯大学的首任校长。",
+          "en": "Daniel Coit Gilman was the first president of Johns Hopkins University."
+        }
+      }
+    },
+    {
+      "source": "骷髅会",
+      "target": "鹿岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "骷髅会拥有一座名为鹿岛的小岛，作为其成员的休闲度假地点。",
+          "en": "Skull and Bones owns a small island called Deer Island, which serves as a recreational retreat for its members."
+        }
+      }
+    },
+    {
+      "source": "塔夫脱家族",
+      "target": "骷髅会",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "塔夫脱家族在骷髅会中成员比例很高，关系密切。",
+          "en": "The Taft family has a high proportion of members in Skull and Bones, indicating a close relationship."
+        }
+      }
+    },
+    {
+      "source": "布什家族",
+      "target": "骷髅会",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "布什家族在骷髅会中成员比例很高，关系密切。",
+          "en": "The Bush family has a high proportion of members in Skull and Bones, indicating a close relationship."
+        }
+      }
+    },
+    {
+      "source": "哈里曼家族",
+      "target": "骷髅会",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "哈里曼家族在骷髅会中成员比例很高，关系密切。",
+          "en": "The Harriman family has a high proportion of members in Skull and Bones, indicating a close relationship."
+        }
+      }
+    },
+    {
+      "source": "洛克菲勒家族",
+      "target": "骷髅会",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "洛克菲勒家族有多名成员加入了骷髅会，关系密切。",
+          "en": "Multiple members of the Rockefeller family joined Skull and Bones, indicating a close relationship."
+        }
+      }
+    },
+    {
+      "source": "乔治·沃克·布什",
+      "target": "约翰·福布斯·克里",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "2004",
+        "description": {
+          "zh-cn": "在2004年美国总统选举中，同为骷髅会成员的乔治·沃克·布什和约翰·克里分别代表共和党和民主党，互为竞争对手。",
+          "en": "In the 2004 U.S. presidential election, fellow Skull and Bones members George W. Bush and John Kerry were opponents, representing the Republican and Democratic parties, respectively."
+        }
+      }
+    },
+    {
+      "source": "亨利·卢斯",
+      "target": "时代 (杂志)",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "亨利·卢斯是《时代》杂志的共同创办人。",
+          "en": "Henry Luce was a co-founder of Time magazine."
+        }
+      }
+    },
+    {
+      "source": "布雷顿·哈登",
+      "target": "时代 (杂志)",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "布雷顿·哈登是《时代》杂志的共同创办人。",
+          "en": "Briton Hadden was a co-founder of Time magazine."
+        }
+      }
+    },
+    {
+      "source": "骷髅会",
+      "target": "时代 (杂志)",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "据称，《时代》杂志的创办想法源于其创办人卢斯和哈登在一次骷髅会的聚会上的讨论。",
+          "en": "It is said that the idea to found Time magazine originated from a discussion between its founders, Luce and Hadden, during a Skull and Bones meeting."
+        }
+      }
+    },
+    {
+      "source": "骷髅会",
+      "target": "中央情报局",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中央情报局成立之初，其成员中包含了大量的骷髅会成员，影响力巨大。",
+          "en": "In the early days of the Central Intelligence Agency, its ranks included a large number of Skull and Bones members, who wielded significant influence."
+        }
+      }
+    },
+    {
+      "source": "骷髅会",
+      "target": "耶鲁大学",
+      "type": "FRIEND_OF",
+      "properties": {
+        "period": "1886 - 1985",
+        "description": {
+          "zh-cn": "骷髅会的总部设在耶鲁大学，其成员在耶鲁大学的教职员工和领导层中长期占据极高比例。",
+          "en": "The headquarters of Skull and Bones is located at Yale University, and its members have long constituted a very high proportion of the university's faculty and leadership."
+        }
+      }
+    },
+    {
+      "source": "威廉·塔夫脱",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1878届会员。",
+          "en": "Member of the class of 1878."
+        }
+      }
+    },
+    {
+      "source": "哈罗德·斯坦利",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1908届会员。",
+          "en": "Member of the class of 1908."
+        }
+      }
+    },
+    {
+      "source": "查尔斯·西摩",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1908届会员。",
+          "en": "Member of the class of 1908."
+        }
+      }
+    },
+    {
+      "source": "埃夫里尔·哈里曼",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1913届会员。",
+          "en": "Member of the class of 1913."
+        }
+      }
+    },
+    {
+      "source": "亨利·卢斯",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1920届会员。",
+          "en": "Member of the class of 1920."
+        }
+      }
+    },
+    {
+      "source": "布雷顿·哈登",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1920届会员。",
+          "en": "Member of the class of 1920."
+        }
+      }
+    },
+    {
+      "source": "乔治·H·W·布什",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1948届会员。",
+          "en": "Member of the class of 1948."
+        }
+      }
+    },
+    {
+      "source": "温斯顿·洛德",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1959届会员。",
+          "en": "Member of the class of 1959."
+        }
+      }
+    },
+    {
+      "source": "约翰·福布斯·克里",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1966届会员。",
+          "en": "Member of the class of 1966."
+        }
+      }
+    },
+    {
+      "source": "乔治·沃克·布什",
+      "target": "骷髅会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "1968届会员。",
+          "en": "Member of the class of 1968."
+        }
+      }
+    },
+    {
+      "source": "威廉·塔夫脱",
+      "target": "美国总统",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第27任总统",
+          "en": "27th President"
+        }
+      }
+    },
+    {
+      "source": "乔治·H·W·布什",
+      "target": "美国总统",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第41任总统",
+          "en": "41st President"
+        }
+      }
+    },
+    {
+      "source": "乔治·沃克·布什",
+      "target": "美国总统",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第43任总统",
+          "en": "43rd President"
+        }
+      }
+    },
+    {
+      "source": "哈罗德·斯坦利",
+      "target": "摩根斯坦利",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "哈罗德·斯坦利是摩根斯坦利的创办人之一。",
+          "en": "Harold Stanley was one of the founders of Morgan Stanley."
+        }
+      }
+    },
+    {
+      "source": "亨利·卢斯",
+      "target": "生活 (杂志)",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "亨利·卢斯是《生活》杂志的创办人。",
+          "en": "Henry Luce was the founder of Life magazine."
+        }
+      }
+    },
+    {
+      "source": "乔治·沃克·布什",
+      "target": "乔治·H·W·布什",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "乔治·沃克·布什（小布什）是乔治·H·W·布什（老布什）的儿子。",
+          "en": "George W. Bush (Jr.) is the son of George H. W. Bush (Sr.)."
+        }
+      }
+    },
+    {
+      "source": "查尔斯·西摩",
+      "target": "耶鲁大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "前校长",
+          "en": "Former President"
+        }
+      }
+    }
+  ]
+}
