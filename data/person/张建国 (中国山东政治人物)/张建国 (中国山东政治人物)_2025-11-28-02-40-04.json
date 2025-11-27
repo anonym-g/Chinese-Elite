@@ -1,0 +1,323 @@
+{
+  "nodes": [
+    {
+      "id": "张建国",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张建国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1954-01 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "山东沾化",
+          "en": "Zhanhua, Shandong"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任山东省人民政府副省长。",
+          "en": "A political figure in the People's Republic of China, formerly serving as the Vice Governor of the Shandong Provincial People's Government."
+        }
+      }
+    },
+    {
+      "id": "山东省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国山东省的省级人民政府。",
+          "en": "The provincial people's government of Shandong Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "枣庄市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "枣庄市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国山东省枣庄市的人民政府。",
+          "en": "The people's government of Zaozhuang City, Shandong Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "山东省机械工业厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省机械工业厅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "曾是山东省人民政府负责机械工业事务的组成部门。",
+          "en": "A former department of the Shandong Provincial People's Government responsible for machinery industry affairs."
+        }
+      }
+    },
+    {
+      "id": "中共淄博市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共淄博市委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在山东省淄博市的市级委员会。",
+          "en": "The municipal committee of the Communist Party of China in Zibo City, Shandong Province."
+        }
+      }
+    },
+    {
+      "id": "中共济南市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共济南市委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在山东省济南市的市级委员会。",
+          "en": "The municipal committee of the Communist Party of China in Jinan City, Shandong Province."
+        }
+      }
+    },
+    {
+      "id": "济南市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "济南市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国山东省济南市的人民政府。",
+          "en": "The people's government of Jinan City, Shandong Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "沾化",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "沾化"
+        ],
+        "en": [
+          "Zhanhua"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "山东省滨州市下辖的市辖区。",
+          "en": "A district under the administration of Binzhou City, Shandong Province."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张建国",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1973-09",
+        "end_date": null,
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "于1973年9月加入中国共产党。",
+          "en": "Joined the Communist Party of China in September 1973."
+        }
+      }
+    },
+    {
+      "source": "张建国",
+      "target": "枣庄市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "副市长",
+          "en": "Vice Mayor"
+        },
+        "description": {
+          "zh-cn": "曾任枣庄市副市长。",
+          "en": "Served as Vice Mayor of Zaozhuang."
+        }
+      }
+    },
+    {
+      "source": "张建国",
+      "target": "山东省机械工业厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "厅长",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "曾任山东省机械工业厅厅长。",
+          "en": "Served as Director of the Shandong Provincial Department of Machinery Industry."
+        }
+      }
+    },
+    {
+      "source": "张建国",
+      "target": "中共淄博市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "曾任中共淄博市委书记。",
+          "en": "Served as Secretary of the Zibo Municipal Committee of the CPC."
+        }
+      }
+    },
+    {
+      "source": "张建国",
+      "target": "中共济南市委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        },
+        "description": {
+          "zh-cn": "曾任中共济南市委副书记。",
+          "en": "Served as Deputy Secretary of the Jinan Municipal Committee of the CPC."
+        }
+      }
+    },
+    {
+      "source": "张建国",
+      "target": "济南市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "市长, 市政府党组书记",
+          "en": "Mayor, Secretary of the Municipal Government's Party Leadership Group"
+        },
+        "description": {
+          "zh-cn": "曾任济南市市长、市政府党组书记。",
+          "en": "Served as Mayor of Jinan and Secretary of the Municipal Government's Party Leadership Group."
+        }
+      }
+    },
+    {
+      "source": "张建国",
+      "target": "山东省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2011-11-25",
+        "end_date": "2013-02",
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        },
+        "description": {
+          "zh-cn": "于2011年11月25日被任命为山东省副省长。",
+          "en": "Was appointed as Vice Governor of Shandong Province on November 25, 2011."
+        }
+      }
+    },
+    {
+      "source": "张建国",
+      "target": "山东省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013-02",
+        "end_date": null,
+        "position": {
+          "zh-cn": "省政府特邀咨询",
+          "en": "Specially Invited Consultant for the Provincial Government"
+        },
+        "description": {
+          "zh-cn": "自2013年2月起任山东省政府特邀咨询。",
+          "en": "Served as a specially invited consultant for the Shandong Provincial Government since February 2013."
+        }
+      }
+    },
+    {
+      "source": "张建国",
+      "target": "沾化",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {},
+        "description": {
+          "zh-cn": "张建国是山东沾化人。",
+          "en": "Zhang Jianguo is from Zhanhua, Shandong."
+        }
+      }
+    }
+  ]
+}

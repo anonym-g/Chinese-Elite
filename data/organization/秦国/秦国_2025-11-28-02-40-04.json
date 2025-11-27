@@ -1,0 +1,999 @@
+{
+  "nodes": [
+    {
+      "id": "秦国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦国",
+          "秦"
+        ],
+        "en": [
+          "State of Qin"
+        ]
+      },
+      "properties": {
+        "period": "-905 - -207",
+        "description": {
+          "zh-cn": "周朝时期的诸侯国，公室为嬴姓。于春秋战国时期崛起，最终在前221年统一六国，建立了秦朝。",
+          "en": "A vassal state during the Zhou dynasty with the royal house of Ying. It rose to prominence during the Spring and Autumn and Warring States periods, eventually unifying the Six States in 221 BC and establishing the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "秦朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "秦朝"
+        ],
+        "en": [
+          "Qin dynasty"
+        ]
+      },
+      "properties": {
+        "period": "-221 - -207",
+        "description": {
+          "zh-cn": "中国历史上第一个中央集权的大一统王朝，由秦始皇建立。",
+          "en": "The first centralized, unified dynasty in Chinese history, established by Qin Shi Huang."
+        }
+      }
+    },
+    {
+      "id": "周孝王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周孝王"
+        ],
+        "en": [
+          "King Xiao of Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "周朝第八位君主。因秦国先祖非子善于养马，将其封于秦地，成为秦国的开端。",
+          "en": "The eighth king of the Zhou dynasty. He enfeoffed Feizi, an ancestor of the Qin state, in the land of Qin due to his skill in horse breeding, marking the beginning of the Qin state."
+        }
+      }
+    },
+    {
+      "id": "秦非子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦非子",
+          "非子",
+          "秦嬴"
+        ],
+        "en": [
+          "Feizi of Qin"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -858",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国始祖，因善于养马被周孝王封为附庸。",
+          "en": "The founder of the state of Qin, who was made a vassal by King Xiao of Zhou for his expertise in horse breeding."
+        }
+      }
+    },
+    {
+      "id": "秦襄公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦襄公"
+        ],
+        "en": [
+          "Duke Xiang of Qin"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -766",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国君主，因护送周平王东迁有功，被正式册封为诸侯。",
+          "en": "A ruler of Qin who was formally granted the rank of a feudal lord for his meritorious service in escorting King Ping of Zhou eastward."
+        }
+      }
+    },
+    {
+      "id": "周平王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周平王"
+        ],
+        "en": [
+          "King Ping of Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东周第一位君主，为躲避犬戎侵扰而将都城东迁洛邑，开启了东周时代。",
+          "en": "The first king of the Eastern Zhou dynasty, who moved the capital east to Luoyi to escape the Quanrong invasion, thus beginning the Eastern Zhou period."
+        }
+      }
+    },
+    {
+      "id": "平王东迁",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "平王东迁"
+        ],
+        "en": [
+          "King Ping's eastward move"
+        ]
+      },
+      "properties": {
+        "period": "-770",
+        "description": {
+          "zh-cn": "周平王将都城从镐京迁至雒邑的重大历史事件，标志着西周的结束和东周的开始。",
+          "en": "The major historical event in which King Ping of Zhou moved the capital from Haojing to Luoyi, marking the end of the Western Zhou and the beginning of the Eastern Zhou."
+        }
+      }
+    },
+    {
+      "id": "秦穆公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦穆公",
+          "任好"
+        ],
+        "en": [
+          "Duke Mu of Qin"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -621",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "春秋时期秦国君主，称霸西戎，奠定了秦国作为春秋四大强国的基础。",
+          "en": "A ruler of Qin during the Spring and Autumn period who dominated the Xirong tribes and laid the foundation for Qin to become one of the four major powers of the era."
+        }
+      }
+    },
+    {
+      "id": "西戎",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西戎"
+        ],
+        "en": [
+          "Xirong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代居于中国西部的民族部落统称，与秦国长期进行战争与交流。",
+          "en": "A collective term for various ethnic tribes residing in the western regions of ancient China, who engaged in long-term warfare and exchange with the state of Qin."
+        }
+      }
+    },
+    {
+      "id": "秦孝公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦孝公",
+          "渠梁"
+        ],
+        "en": [
+          "Duke Xiao of Qin"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -338",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期秦国国君，任用商鞅实行变法，使秦国国力大增，为日后统一六国奠定坚实基础。",
+          "en": "A ruler of Qin during the Warring States period who appointed Shang Yang to carry out reforms, which greatly strengthened the state and laid a solid foundation for the future unification of the Six States."
+        }
+      }
+    },
+    {
+      "id": "商鞅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "商鞅",
+          "卫鞅",
+          "商君"
+        ],
+        "en": [
+          "Shang Yang"
+        ]
+      },
+      "properties": {
+        "lifetime": "-390 - -338",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期政治家、改革家，法家代表人物。在秦国推行变法，帮助秦国富国强兵。",
+          "en": "A statesman and reformer of the Warring States period, and a key representative of the Legalist school. He implemented reforms in the state of Qin, helping it to become rich and powerful."
+        }
+      }
+    },
+    {
+      "id": "商鞅变法",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "商鞅变法"
+        ],
+        "en": [
+          "Shang Yang's reforms"
+        ]
+      },
+      "properties": {
+        "period": "-356 - -350",
+        "description": {
+          "zh-cn": "商鞅在秦孝公支持下进行的两次变法，以“重农抑商”和“奖励军功”为核心，极大地增强了秦国的国力。",
+          "en": "Two sets of reforms carried out by Shang Yang with the support of Duke Xiao of Qin, centered on 'promoting agriculture and suppressing commerce' and 'rewarding military merit,' which greatly enhanced the national power of Qin."
+        }
+      }
+    },
+    {
+      "id": "咸阳",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "咸阳",
+          "咸阳城"
+        ],
+        "en": [
+          "Xianyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "秦国后期的都城，秦朝建立后成为其首都。",
+          "en": "The capital of the state of Qin in its later period, which became the capital of the Qin dynasty after its establishment."
+        }
+      }
+    },
+    {
+      "id": "秦王政",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦王政",
+          "政",
+          "秦始皇"
+        ],
+        "en": [
+          "Qin Wang Zheng",
+          "Qin Shi Huang"
+        ]
+      },
+      "properties": {
+        "lifetime": "-259 - -210",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国末代君主，后统一六国，成为中国历史上第一位皇帝，称“始皇帝”。",
+          "en": "The last ruler of the state of Qin, who later unified the Six States and became the first emperor in Chinese history, known as 'Shi Huangdi'."
+        }
+      }
+    },
+    {
+      "id": "山东六国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东六国",
+          "六国"
+        ],
+        "en": [
+          "Six states east of the mountain"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "战国时期位于崤山以东的六个主要诸侯国（韩、赵、魏、楚、燕、齐）的统称，最终均被秦国所灭。",
+          "en": "A collective term for the six major vassal states (Han, Zhao, Wei, Chu, Yan, Qi) located east of Mount Xiao during the Warring States period, all of which were eventually conquered by the state of Qin."
+        }
+      }
+    },
+    {
+      "id": "秦灭六国之战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "秦灭六国之战"
+        ],
+        "en": [
+          "Qin's wars of unification"
+        ]
+      },
+      "properties": {
+        "period": "-230 - -221",
+        "description": {
+          "zh-cn": "秦王政领导下，秦国发动的一系列旨在消灭东方六国、统一中国的战争。",
+          "en": "A series of wars launched by the state of Qin under the leadership of King Zheng aimed at conquering the six eastern states and unifying China."
+        }
+      }
+    },
+    {
+      "id": "子婴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "子婴",
+          "秦王子婴"
+        ],
+        "en": [
+          "Ziying"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -206",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦朝最后一位统治者，在刘邦军队进入关中后投降，标志着秦朝的灭亡。",
+          "en": "The last ruler of the Qin dynasty, who surrendered to Liu Bang's army after it entered the Guanzhong region, marking the fall of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "id": "刘邦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘邦"
+        ],
+        "en": [
+          "Liu Bang"
+        ]
+      },
+      "properties": {
+        "lifetime": "-256 - -195",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉朝的开国皇帝。他率军攻入关中，接受了秦王子婴的投降。",
+          "en": "The founding emperor of the Han dynasty. He led his army into the Guanzhong region and accepted the surrender of Prince Ziying of Qin."
+        }
+      }
+    },
+    {
+      "id": "蜚廉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蜚廉"
+        ],
+        "en": [
+          "Fei Lian"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "商朝末年帝辛的宠臣，秦国的先祖之一。在周初三监之乱后被周成王所杀。",
+          "en": "A favored minister of King Di Xin at the end of the Shang dynasty and an ancestor of the Qin state. He was killed by King Cheng of Zhou after the Rebellion of the Three Guards."
+        }
+      }
+    },
+    {
+      "id": "周成王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周成王",
+          "成王"
+        ],
+        "en": [
+          "King Cheng of Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西周第二代君主，平定了三监之乱，并在此过程中诛杀了蜚廉。",
+          "en": "The second king of the Western Zhou dynasty, who suppressed the Rebellion of the Three Guards and executed Fei Lian in the process."
+        }
+      }
+    },
+    {
+      "id": "白起",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白起"
+        ],
+        "en": [
+          "Bai Qi"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -257",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "战国时期秦国著名将领，战国四名将之一。指挥了长平之战等多次重要战役。",
+          "en": "A famous general of the state of Qin during the Warring States period, one of the Four Great Generals of the Warring States. He commanded several major battles, including the Battle of Changping."
+        }
+      }
+    },
+    {
+      "id": "楚国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "楚国"
+        ],
+        "en": [
+          "State of Chu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "春秋战国时期的主要诸侯国之一，长期与秦国争霸。",
+          "en": "One of the major vassal states during the Spring and Autumn and Warring States periods, which contended with the state of Qin for hegemony for a long time."
+        }
+      }
+    },
+    {
+      "id": "赵国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "赵国"
+        ],
+        "en": [
+          "State of Zhao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "战国七雄之一，在长平之战中被秦国重创。",
+          "en": "One of the Seven Warring States, which was severely defeated by the state of Qin in the Battle of Changping."
+        }
+      }
+    },
+    {
+      "id": "长平之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "长平之战"
+        ],
+        "en": [
+          "Battle of Changping"
+        ]
+      },
+      "properties": {
+        "period": "-262-04 - -260-09",
+        "description": {
+          "zh-cn": "秦国与赵国之间的一场决定性战役，秦国取得大胜，极大地削弱了赵国。",
+          "en": "A decisive battle between the states of Qin and Zhao, in which Qin won a great victory, significantly weakening Zhao."
+        }
+      }
+    },
+    {
+      "id": "西周国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西周国"
+        ],
+        "en": [
+          "State of Western Zhou"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "战国时期周王室分裂出的小国，是周天子名义上的统治中心，后被秦国所灭。",
+          "en": "A small state that split from the Zhou royal house during the Warring States period, serving as the nominal center of the Son of Heaven's rule, later conquered by the state of Qin."
+        }
+      }
+    },
+    {
+      "id": "项羽",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "项羽"
+        ],
+        "en": [
+          "Xiang Yu"
+        ]
+      },
+      "properties": {
+        "lifetime": "-232 - -202",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦末著名军事领袖，西楚霸王。秦朝灭亡后，焚毁了秦都咸阳。",
+          "en": "A famous military leader at the end of the Qin dynasty, the Hegemon-King of Western Chu. After the fall of the Qin dynasty, he burned down the Qin capital, Xianyang."
+        }
+      }
+    },
+    {
+      "id": "秦仲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦仲"
+        ],
+        "en": [
+          "Zhong of Qin"
+        ]
+      },
+      "properties": {
+        "lifetime": " - -822",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "秦国早期君主，受周宣王之命讨伐西戎，但在战争中战死。",
+          "en": "An early ruler of Qin who was ordered by King Xuan of Zhou to attack the Xirong but was killed in battle."
+        }
+      }
+    },
+    {
+      "id": "周宣王",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周宣王"
+        ],
+        "en": [
+          "King Xuan of Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "西周第十一代君主，曾命令秦仲讨伐西戎。",
+          "en": "The eleventh king of the Western Zhou dynasty, who once ordered Zhong of Qin to attack the Xirong."
+        }
+      }
+    },
+    {
+      "id": "晋襄公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "晋襄公"
+        ],
+        "en": [
+          "Duke Xiang of Jin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "晋国君主，在殽之战中大败秦军。",
+          "en": "A ruler of the State of Jin who inflicted a major defeat on the Qin army at the Battle of Yao."
+        }
+      }
+    },
+    {
+      "id": "魏国 (战国)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "魏国 (战国)",
+          "魏国"
+        ],
+        "en": [
+          "State of Wei (Warring States)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "战国七雄之一。战国初期，魏国大举进攻秦国，夺取了河西之地。",
+          "en": "One of the Seven Warring States. In the early Warring States period, Wei launched a major offensive against Qin and seized the Hexi region."
+        }
+      }
+    },
+    {
+      "id": "宣太后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宣太后"
+        ],
+        "en": [
+          "Queen Dowager Xuan"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "秦昭襄王之母，楚国人。曾与义渠戎王私通，后设计将其诱杀，并吞并了义渠。",
+          "en": "The mother of King Zhaoxiang of Qin, originally from the state of Chu. She had an affair with the king of the Yiqu Rong, later luring him into a trap to be killed and annexing the Yiqu territory."
+        }
+      }
+    },
+    {
+      "id": "义渠",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "义渠"
+        ],
+        "en": [
+          "Yiqu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代位于中国西北的戎狄部落国家，其王被宣太后诱杀，领土被秦国吞并。",
+          "en": "An ancient Rong-Di tribal state in northwestern China whose king was lured to his death by Queen Dowager Xuan, after which its territory was annexed by Qin."
+        }
+      }
+    },
+    {
+      "id": "晋惠公",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "晋惠公",
+          "夷吾"
+        ],
+        "en": [
+          "Duke Hui of Jin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "晋国君主，在秦穆公的帮助下回国即位，但后来与秦国交恶，被秦军俘虏。",
+          "en": "A ruler of the State of Jin who returned to his state and ascended the throne with the help of Duke Mu of Qin, but later had a falling out with Qin and was captured by the Qin army."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "周孝王",
+      "target": "秦非子",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-905",
+        "description": {
+          "zh-cn": "因秦非子善于养马，周孝王将其封于“秦邑”，作为周朝的附庸，并赐号“秦嬴”。",
+          "en": "Due to Feizi's skill in horse breeding, King Xiao of Zhou enfeoffed him at 'Qin Yi' as a vassal of the Zhou dynasty and granted him the title 'Qin Ying'."
+        }
+      }
+    },
+    {
+      "source": "秦非子",
+      "target": "秦国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-905",
+        "description": {
+          "zh-cn": "秦非子被周孝王封于秦地，标志着秦国的开端。",
+          "en": "Feizi was enfeoffed in the land of Qin by King Xiao of Zhou, marking the beginning of the state of Qin."
+        }
+      }
+    },
+    {
+      "source": "秦襄公",
+      "target": "周平王",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-770",
+        "description": {
+          "zh-cn": "秦襄公率军护送周平王东迁洛邑，立下战功。",
+          "en": "Duke Xiang of Qin led his army to escort King Ping of Zhou eastward to Luoyi, performing meritorious service."
+        }
+      }
+    },
+    {
+      "source": "周平王",
+      "target": "秦襄公",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-770",
+        "description": {
+          "zh-cn": "为表彰秦襄公护送东迁的功劳，周平王将其封为伯爵，使秦国正式成为诸侯国。",
+          "en": "To reward Duke Xiang of Qin for escorting the eastward move, King Ping of Zhou enfeoffed him as a Count, formally making Qin a feudal state."
+        }
+      }
+    },
+    {
+      "source": "秦襄公",
+      "target": "平王东迁",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-770",
+        "description": {
+          "zh-cn": "秦襄公率军护送周平王东迁，是该事件成功的关键之一。",
+          "en": "Duke Xiang of Qin's escort of King Ping of Zhou was a key factor in the success of the eastward move."
+        }
+      }
+    },
+    {
+      "source": "秦国",
+      "target": "西戎",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "秦国在发展早期与西戎进行了长期而残酷的斗争。",
+          "en": "In its early development, the state of Qin engaged in a long and brutal struggle with the Xirong tribes."
+        }
+      }
+    },
+    {
+      "source": "秦穆公",
+      "target": "西戎",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "秦穆公时期，秦国降服了西戎八国，称霸西戎。",
+          "en": "During the reign of Duke Mu of Qin, the state of Qin subjugated eight Xirong states and became the hegemon of the western regions."
+        }
+      }
+    },
+    {
+      "source": "秦孝公",
+      "target": "商鞅",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-356",
+        "position": {
+          "zh-cn": "左庶长",
+          "en": "Left Shuzhang"
+        },
+        "description": {
+          "zh-cn": "秦孝公任命商鞅为左庶长，支持其在秦国进行变法。",
+          "en": "Duke Xiao of Qin appointed Shang Yang as Left Shuzhang and supported his implementation of reforms in the state of Qin."
+        }
+      }
+    },
+    {
+      "source": "商鞅",
+      "target": "商鞅变法",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-356",
+        "description": {
+          "zh-cn": "商鞅在秦孝公的支持下，先后两次在秦国推行了全面的变法改革。",
+          "en": "With the support of Duke Xiao of Qin, Shang Yang carried out two comprehensive reforms in the state of Qin."
+        }
+      }
+    },
+    {
+      "source": "商鞅变法",
+      "target": "秦国",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-356",
+        "description": {
+          "zh-cn": "商鞅变法使秦国经济得到发展，军队战斗力不断加强，成为战国后期最强盛的诸侯国。",
+          "en": "Shang Yang's reforms developed Qin's economy and strengthened its military, making it the most powerful state in the late Warring States period."
+        }
+      }
+    },
+    {
+      "source": "秦孝公",
+      "target": "咸阳",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "-350",
+        "description": {
+          "zh-cn": "前350年，秦孝公将秦国都城迁至咸阳。",
+          "en": "In 350 BC, Duke Xiao of Qin moved the capital of the Qin state to Xianyang."
+        }
+      }
+    },
+    {
+      "source": "秦王政",
+      "target": "秦灭六国之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-230",
+        "end_date": "-221",
+        "description": {
+          "zh-cn": "秦王政亲自主导并完成了消灭山东六国的统一战争。",
+          "en": "King Zheng of Qin personally led and completed the wars of unification that conquered the six eastern states."
+        }
+      }
+    },
+    {
+      "source": "秦灭六国之战",
+      "target": "山东六国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-230",
+        "end_date": "-221",
+        "description": {
+          "zh-cn": "通过秦灭六国之战，秦国消灭了所有东方的主要对手。",
+          "en": "Through the wars of unification, the state of Qin eliminated all its major rivals in the east."
+        }
+      }
+    },
+    {
+      "source": "秦王政",
+      "target": "秦朝",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "-221",
+        "description": {
+          "zh-cn": "秦王政在统一六国后，建立了中国第一个大一统的中央集权王朝——秦朝。",
+          "en": "After unifying the Six States, King Zheng of Qin established China's first unified, centralized dynasty, the Qin dynasty."
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "子婴",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-207",
+        "description": {
+          "zh-cn": "刘邦率军攻入关中，秦王子婴开城献降。",
+          "en": "Liu Bang led his army into the Guanzhong region, and Prince Ziying of Qin surrendered the city."
+        }
+      }
+    },
+    {
+      "source": "子婴",
+      "target": "刘邦",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "-207",
+        "description": {
+          "zh-cn": "面对刘邦大军，秦王子婴选择开城投降。",
+          "en": "Facing Liu Bang's army, Prince Ziying of Qin chose to surrender the city."
+        }
+      }
+    },
+    {
+      "source": "刘邦",
+      "target": "秦朝",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-207",
+        "description": {
+          "zh-cn": "刘邦接受子婴的投降，标志着秦朝的正式灭亡。",
+          "en": "Liu Bang's acceptance of Ziying's surrender marked the official end of the Qin dynasty."
+        }
+      }
+    },
+    {
+      "source": "周成王",
+      "target": "蜚廉",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "周初三监之乱平定后，周成王在商奄诛杀了逃亡至此的蜚廉。",
+          "en": "After suppressing the Rebellion of the Three Guards in the early Zhou dynasty, King Cheng of Zhou executed Fei Lian, who had fled to Shangyan."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "楚国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-278",
+        "description": {
+          "zh-cn": "在鄢郢之战中，白起率领秦军攻陷了楚国国都郢，迫使楚国迁都。",
+          "en": "In the Battle of Yan-Ying, Bai Qi led the Qin army to capture Ying, the capital of Chu, forcing Chu to relocate its capital."
+        }
+      }
+    },
+    {
+      "source": "白起",
+      "target": "赵国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-260",
+        "description": {
+          "zh-cn": "在长平之战中，白起指挥秦军大败赵军，并坑杀赵国降卒，重创了赵国。",
+          "en": "In the Battle of Changping, Bai Qi commanded the Qin army to a decisive victory over the Zhao army and buried the surrendered Zhao soldiers alive, severely crippling the state of Zhao."
+        }
+      }
+    },
+    {
+      "source": "长平之战",
+      "target": "赵国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-260-09",
+        "description": {
+          "zh-cn": "长平之战是战国时期的一次决定性战役，赵国在此战中惨败，从此一蹶不振。",
+          "en": "The Battle of Changping was a decisive battle of the Warring States period, in which the state of Zhao suffered a crushing defeat and never recovered."
+        }
+      }
+    },
+    {
+      "source": "秦国",
+      "target": "西周国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-256",
+        "description": {
+          "zh-cn": "公元前256年，秦国攻灭西周国，周王朝统治的最后象征被消灭。",
+          "en": "In 256 BC, the state of Qin conquered the state of Western Zhou, eliminating the last symbol of Zhou dynasty rule."
+        }
+      }
+    },
+    {
+      "source": "项羽",
+      "target": "咸阳",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "-206",
+        "description": {
+          "zh-cn": "秦朝灭亡后，项羽进入咸阳，焚毁了秦朝的宫殿。",
+          "en": "After the fall of the Qin dynasty, Xiang Yu entered Xianyang and burned down the Qin palaces."
+        }
+      }
+    },
+    {
+      "source": "西戎",
+      "target": "秦仲",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "-822",
+        "description": {
+          "zh-cn": "公元前822年，秦仲在与西戎的战争中战死。",
+          "en": "In 822 BC, Zhong of Qin was killed in a battle against the Xirong."
+        }
+      }
+    },
+    {
+      "source": "周宣王",
+      "target": "秦仲",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "-824",
+        "description": {
+          "zh-cn": "公元前824年，周宣王任命秦仲为大夫，命令他率军讨伐西戎。",
+          "en": "In 824 BC, King Xuan of Zhou appointed Zhong of Qin as a grand master and ordered him to lead an army to attack the Xirong."
+        }
+      }
+    },
+    {
+      "source": "晋襄公",
+      "target": "秦国",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "晋襄公在殽之战中指挥晋军伏击并大败秦军，导致秦军全军覆没。",
+          "en": "Duke Xiang of Jin commanded the Jin forces to ambush and decisively defeat the Qin army at the Battle of Yao, resulting in the annihilation of the Qin forces."
+        }
+      }
+    },
+    {
+      "source": "魏国 (战国)",
+      "target": "秦国",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "战国初期，魏国连年进攻秦国，夺取了其河西之地，迫使秦国退守洛水以西。",
+          "en": "In the early Warring States period, the state of Wei repeatedly attacked Qin, seizing its Hexi region and forcing Qin to retreat west of the Luo River."
+        }
+      }
+    },
+    {
+      "source": "宣太后",
+      "target": "义渠",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "宣太后设计诱杀了与其私通的义渠戎王，并趁机发兵攻灭了义渠国。",
+          "en": "Queen Dowager Xuan devised a plot to lure and kill the Yiqu Rong king, with whom she had an affair, and then took the opportunity to send troops to conquer the Yiqu state."
+        }
+      }
+    },
+    {
+      "source": "秦穆公",
+      "target": "晋惠公",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "因晋惠公背信弃义，秦穆公大怒伐晋，在韩原之战中俘虏了晋惠公。",
+          "en": "Angered by Duke Hui of Jin's breach of faith, Duke Mu of Qin attacked Jin and captured Duke Hui at the Battle of Hanyuan."
+        }
+      }
+    }
+  ]
+}

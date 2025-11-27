@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "思科系统",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "思科系统"
+        ],
+        "en": [
+          "Cisco Systems, Inc."
+        ]
+      },
+      "properties": {
+        "period": "1984-12-10 - ",
+        "location": {
+          "zh-cn": "圣荷西 (加利福尼亚州)",
+          "en": "San Jose, California"
+        },
+        "description": {
+          "zh-cn": "一家跨国综合技术企业，总部设于加州硅谷，主要业务为开发、制作和售卖网络硬件、软件、通讯装置等高科技产品及服务。",
+          "en": "A multinational technology conglomerate corporation headquartered in San Jose, California, that develops, manufactures, and sells networking hardware, software, telecommunications equipment and other high-technology services and products."
+        }
+      }
+    },
+    {
+      "id": "Leonard Bosack",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "列昂纳德·波萨克"
+        ],
+        "en": [
+          "Leonard Bosack"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国计算机科学家，思科系统的联合创始人。",
+          "en": "American computer scientist and co-founder of Cisco Systems."
+        }
+      }
+    },
+    {
+      "id": "Sandy Lerner",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "桑德·勒纳"
+        ],
+        "en": [
+          "Sandy Lerner"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "美国计算机科学家，思科系统的联合创始人。",
+          "en": "American computer scientist and co-founder of Cisco Systems."
+        }
+      }
+    },
+    {
+      "id": "斯坦福大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "斯坦福大学"
+        ],
+        "en": [
+          "Stanford University"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "美国加利福尼亚州",
+          "en": "California, USA"
+        },
+        "description": {
+          "zh-cn": "位于美国加州的一所私立研究型大学，思科系统的创始人曾在此担任计算机科学家。",
+          "en": "A private research university in California, USA, where the founders of Cisco Systems worked as computer scientists."
+        }
+      }
+    },
+    {
+      "id": "Chuck Robbins",
+      "type": "Person",
+      "name": {
+        "zh-cn": [],
+        "en": [
+          "Chuck Robbins"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "思科系统的首席执行官兼董事长。",
+          "en": "CEO and Chairman of Cisco Systems."
+        }
+      }
+    },
+    {
+      "id": "Linksys",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Linksys"
+        ],
+        "en": [
+          "Linksys"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个专门制造家用网络设备的品牌，曾于2003年被思科收购，后于2013年被出售给Belkin。",
+          "en": "A brand of home networking equipment, which was acquired by Cisco in 2003 and later sold to Belkin in 2013."
+        }
+      }
+    },
+    {
+      "id": "网讯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "网讯",
+          "Webex"
+        ],
+        "en": [
+          "Webex"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全球商用网络视频会议系统提供商，于2007年被思科收购。",
+          "en": "A global provider of commercial web conferencing systems, acquired by Cisco in 2007."
+        }
+      }
+    },
+    {
+      "id": "Splunk",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Splunk"
+        ],
+        "en": [
+          "Splunk"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国资安公司，于2023年被思科收购。",
+          "en": "An American cybersecurity company, acquired by Cisco in 2023."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国互联网审查",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国互联网审查"
+        ],
+        "en": [
+          "Internet censorship in the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政府对互联网内容进行的审查和监控机制。思科被批评向中国政府提供了用于此目的的设备。",
+          "en": "The mechanism of internet content censorship and surveillance by the government of the People's Republic of China. Cisco has been criticized for providing equipment to the Chinese government for this purpose."
+        }
+      }
+    },
+    {
+      "id": "金盾工程",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "金盾工程"
+        ],
+        "en": [
+          "Golden Shield Project"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国的一个网络安全监控系统，思科被指控与其有商业合作。",
+          "en": "A network security surveillance system in the People's Republic of China, with which Cisco is accused of having commercial cooperation."
+        }
+      }
+    },
+    {
+      "id": "棱镜计划",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "棱镜计划"
+        ],
+        "en": [
+          "PRISM (surveillance program)"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "美国",
+          "en": "United States"
+        },
+        "description": {
+          "zh-cn": "由美国国家安全局自2007年起开始实施的绝密级网络监控计划。思科被曝参与其中。",
+          "en": "A top-secret electronic surveillance program operated by the U.S. National Security Agency since 2007. Cisco was reported to be a participant."
+        }
+      }
+    },
+    {
+      "id": "爱德华·史诺登",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "爱德华·史诺登"
+        ],
+        "en": [
+          "Edward Snowden"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国前中央情报局雇员，因在2013年泄露了美国国家安全局的棱镜计划等机密而闻名。",
+          "en": "A former Central Intelligence Agency employee, known for leaking classified information from the National Security Agency in 2013, including details of the PRISM surveillance program."
+        }
+      }
+    },
+    {
+      "id": "美国国家安全局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国国家安全局"
+        ],
+        "en": [
+          "National Security Agency"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "美国",
+          "en": "United States"
+        },
+        "description": {
+          "zh-cn": "美国政府机构，隶属于美国国防部，是美国情报体系的中枢。该机构被揭露通过思科路由器监控中华人民共和国的网络和电脑。",
+          "en": "A U.S. government agency under the Department of Defense, central to the U.S. Intelligence Community. The agency was revealed to have monitored networks and computers in the People's Republic of China through Cisco routers."
+        }
+      }
+    },
+    {
+      "id": "旧金山",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "旧金山"
+        ],
+        "en": [
+          "San Francisco"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国加利福尼亚州的一座城市，思科公司的名称（Cisco）来源于此城市名（San Francisco）的词尾。",
+          "en": "A city in California, USA. The name of Cisco Systems is derived from the end of the city's name, 'San Francisco'."
+        }
+      }
+    },
+    {
+      "id": "OpenFog Consortium",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [],
+        "en": [
+          "OpenFog Consortium"
+        ]
+      },
+      "properties": {
+        "period": "2015-11-19 - ",
+        "description": {
+          "zh-cn": "一个旨在促进雾计算兴趣和发展的联盟，由思科等公司和机构共同创立。",
+          "en": "A consortium founded to promote interest and development in fog computing, co-founded by companies and institutions including Cisco."
+        }
+      }
+    },
+    {
+      "id": "安谋",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安谋"
+        ],
+        "en": [
+          "Arm Ltd."
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家英国半导体和软件设计公司，OpenFog Consortium的创始成员之一。",
+          "en": "A British semiconductor and software design company, one of the founding members of the OpenFog Consortium."
+        }
+      }
+    },
+    {
+      "id": "戴尔",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "戴尔"
+        ],
+        "en": [
+          "Dell"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国跨国电脑技术公司，OpenFog Consortium的创始成员之一。",
+          "en": "An American multinational computer technology company, one of the founding members of the OpenFog Consortium."
+        }
+      }
+    },
+    {
+      "id": "英特尔",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英特尔"
+        ],
+        "en": [
+          "Intel"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国跨国公司和技术公司，OpenFog Consortium的创始成员之一。",
+          "en": "An American multinational corporation and technology company, one of the founding members of the OpenFog Consortium."
+        }
+      }
+    },
+    {
+      "id": "微软",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "微软"
+        ],
+        "en": [
+          "Microsoft"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国跨国科技公司，OpenFog Consortium的创始成员之一。",
+          "en": "An American multinational technology corporation, one of the founding members of the OpenFog Consortium."
+        }
+      }
+    },
+    {
+      "id": "普林斯顿大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "普林斯顿大学"
+        ],
+        "en": [
+          "Princeton University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一所美国私立研究型大学，OpenFog Consortium的创始成员之一。",
+          "en": "An American private research university, one of the founding members of the OpenFog Consortium."
+        }
+      }
+    },
+    {
+      "id": "Belkin International Inc",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [],
+        "en": [
+          "Belkin International Inc"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国消费电子和网络公司，于2013年从思科手中收购了Linksys品牌。",
+          "en": "An American consumer electronics and networking company that acquired the Linksys brand from Cisco in 2013."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Leonard Bosack",
+      "target": "思科系统",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1984-12-10",
+        "description": {
+          "zh-cn": "Leonard Bosack与Sandy Lerner共同创立了思科系统公司。",
+          "en": "Leonard Bosack co-founded Cisco Systems, Inc. with Sandy Lerner."
+        }
+      }
+    },
+    {
+      "source": "Sandy Lerner",
+      "target": "思科系统",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1984-12-10",
+        "description": {
+          "zh-cn": "Sandy Lerner与Leonard Bosack共同创立了思科系统公司。",
+          "en": "Sandy Lerner co-founded Cisco Systems, Inc. with Leonard Bosack."
+        }
+      }
+    },
+    {
+      "source": "Leonard Bosack",
+      "target": "斯坦福大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "计算机科学家",
+          "en": "Computer Scientist"
+        },
+        "description": {
+          "zh-cn": "在创立思科系统之前，Leonard Bosack是斯坦福大学的一名计算机科学家。",
+          "en": "Before founding Cisco Systems, Leonard Bosack was a computer scientist at Stanford University."
+        }
+      }
+    },
+    {
+      "source": "Sandy Lerner",
+      "target": "斯坦福大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "计算机科学家",
+          "en": "Computer Scientist"
+        },
+        "description": {
+          "zh-cn": "在创立思科系统之前，Sandy Lerner是斯坦福大学的一名计算机科学家。",
+          "en": "Before founding Cisco Systems, Sandy Lerner was a computer scientist at Stanford University."
+        }
+      }
+    },
+    {
+      "source": "Chuck Robbins",
+      "target": "思科系统",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "首席执行官兼董事长",
+          "en": "CEO & Chairman"
+        },
+        "description": {
+          "zh-cn": "Chuck Robbins担任思科系统的首席执行官兼董事长。",
+          "en": "Chuck Robbins serves as the CEO & Chairman of Cisco Systems."
+        }
+      }
+    },
+    {
+      "source": "Linksys",
+      "target": "思科系统",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2003-03",
+        "end_date": "2013-01-24",
+        "description": {
+          "zh-cn": "思科于2003年3月收购了Linksys，使其成为旗下子公司，后于2013年1月将其出售。",
+          "en": "Cisco acquired Linksys in March 2003, making it a subsidiary, and later sold it in January 2013."
+        }
+      }
+    },
+    {
+      "source": "Linksys",
+      "target": "Belkin International Inc",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2013-01-24",
+        "description": {
+          "zh-cn": "2013年1月24日，思科将旗下Linksys品牌出售给Belkin International Inc。",
+          "en": "On January 24, 2013, Cisco sold its Linksys brand to Belkin International Inc."
+        }
+      }
+    },
+    {
+      "source": "网讯",
+      "target": "思科系统",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2007",
+        "description": {
+          "zh-cn": "思科于2007年以32亿美元收购了全球商用网络视频会议系统提供商网讯（Webex）。",
+          "en": "Cisco acquired Webex, a global provider of commercial web conferencing systems, for $3.2 billion in 2007."
+        }
+      }
+    },
+    {
+      "source": "Splunk",
+      "target": "思科系统",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2023-09",
+        "description": {
+          "zh-cn": "思科于2023年9月以280亿美元收购了资安公司Splunk。",
+          "en": "Cisco acquired the cybersecurity company Splunk for $28 billion in September 2023."
+        }
+      }
+    },
+    {
+      "source": "思科系统",
+      "target": "中华人民共和国互联网审查",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "思科被批评参与了中华人民共和国的互联网审查机制，向中国政府提供了具有流量监控和过滤功能的互联网设备。",
+          "en": "Cisco has been criticized for participating in the People's Republic of China's internet censorship mechanism by providing the Chinese government with internet equipment featuring traffic monitoring and filtering capabilities."
+        }
+      }
+    },
+    {
+      "source": "思科系统",
+      "target": "金盾工程",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "一份泄露的思科机密文档显示，思科和中国政府在金盾工程上具有商业性质的合作。",
+          "en": "A leaked confidential Cisco document revealed that Cisco and the Chinese government had commercial cooperation on the Golden Shield Project."
+        }
+      }
+    },
+    {
+      "source": "思科系统",
+      "target": "棱镜计划",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013-06",
+        "description": {
+          "zh-cn": "2013年6月，思科被爱德华·史诺登揭露参与了美国的棱镜计划。",
+          "en": "In June 2013, Cisco was revealed by Edward Snowden to be a participant in the US PRISM program."
+        }
+      }
+    },
+    {
+      "source": "爱德华·史诺登",
+      "target": "棱镜计划",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2013-06",
+        "description": {
+          "zh-cn": "爱德华·史诺登于2013年6月向媒体泄露了棱镜计划的机密信息，从而揭露了该计划的存在。",
+          "en": "Edward Snowden leaked classified information about the PRISM program to the media in June 2013, thereby exposing its existence."
+        }
+      }
+    },
+    {
+      "source": "旧金山",
+      "target": "思科系统",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "思科公司的名称“Cisco”取自其发源地附近城市“San Francisco”（旧金山）的词尾。",
+          "en": "The name of Cisco Systems, 'Cisco', is derived from the end of the name of the nearby city where it originated, 'San Francisco'."
+        }
+      }
+    },
+    {
+      "source": "思科系统",
+      "target": "OpenFog Consortium",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2015-11-19",
+        "description": {
+          "zh-cn": "2015年11月，思科与安谋、戴尔、英特尔、微软和普林斯顿大学共同成立了OpenFog Consortium，以促进雾计算的发展。",
+          "en": "In November 2015, Cisco, along with Arm, Dell, Intel, Microsoft, and Princeton University, co-founded the OpenFog Consortium to promote the development of fog computing."
+        }
+      }
+    }
+  ]
+}
