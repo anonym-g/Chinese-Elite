@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "沈阳 (政治人物)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "沈阳 (政治人物)",
+          "沈阳"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1967-06 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "中国山东省莱芜",
+          "en": "Laiwu, Shandong, China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员。现任中共甘孜藏族自治州委员会书记。",
+          "en": "A political figure in the People's Republic of China and a member of the Communist Party of China. He is the current Secretary of the CPC Garzê Tibetan Autonomous Prefecture Committee."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党甘孜藏族自治州委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党甘孜藏族自治州委员会",
+          "中共甘孜藏族自治州委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "甘孜藏族自治州",
+          "en": "Garzê Tibetan Autonomous Prefecture"
+        },
+        "description": {
+          "zh-cn": "中国共产党在甘孜藏族自治州的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Garzê Tibetan Autonomous Prefecture."
+        }
+      }
+    },
+    {
+      "id": "刘成鸣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘成鸣"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中国共产党甘孜藏族自治州委员会书记。",
+          "en": "Chinese politician who served as the Secretary of the CPC Garzê Tibetan Autonomous Prefecture Committee."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称“中国”。",
+          "en": "A socialist state in East Asia, commonly known as 'China'."
+        }
+      }
+    },
+    {
+      "id": "莱芜区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "莱芜区",
+          "莱芜"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国山东省济南市的市辖区。",
+          "en": "A municipal district of Jinan, Shandong Province, People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "沈阳 (政治人物)",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "沈阳是中国共产党党员。",
+          "en": "Shen Yang is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "沈阳 (政治人物)",
+      "target": "中国共产党甘孜藏族自治州委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-04",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "2021年4月起，沈阳担任中国共产党甘孜藏族自治州委员会书记。",
+          "en": "Since April 2021, Shen Yang has served as the Secretary of the CPC Garzê Tibetan Autonomous Prefecture Committee."
+        }
+      }
+    },
+    {
+      "source": "沈阳 (政治人物)",
+      "target": "刘成鸣",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2021-04",
+        "description": {
+          "zh-cn": "沈阳接替刘成鸣担任中国共产党甘孜藏族自治州委员会书记。",
+          "en": "Shen Yang succeeded Liu Chengming as the Secretary of the CPC Garzê Tibetan Autonomous Prefecture Committee."
+        }
+      }
+    },
+    {
+      "source": "沈阳 (政治人物)",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "公民",
+          "en": "Citizen"
+        },
+        "description": {
+          "zh-cn": "沈阳是中华人民共和国公民。",
+          "en": "Shen Yang is a citizen of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "沈阳 (政治人物)",
+      "target": "莱芜区",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "沈阳是山东莱芜人。",
+          "en": "Shen Yang is from Laiwu, Shandong."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,932 @@
+{
+  "nodes": [
+    {
+      "id": "太平洋战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "太平洋战争",
+          "亚太战争",
+          "太平洋战区",
+          "大东亚战争"
+        ],
+        "en": [
+          "Pacific War",
+          "Asia-Pacific War"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-07 - 1945-09-02",
+        "location": {
+          "zh-cn": "东亚、东南亚、太平洋、印度洋与阿拉斯加",
+          "en": "East Asia, Southeast Asia, Pacific Ocean, Indian Ocean, and Alaska"
+        },
+        "description": {
+          "zh-cn": "第二次世界大战的战区之一，是二战中地理上规模最大的战场。普遍认为始于1941年12月7日日本袭击珍珠港，终于1945年9月2日日本签署投降书。",
+          "en": "One of the theaters of World War II, it was the largest theater of the war in terms of geographical area. It is generally considered to have begun on December 7, 1941, with the Japanese attack on Pearl Harbor, and ended on September 2, 1945, with the signing of the Japanese Instrument of Surrender."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939-09-01 - 1945-09-02",
+        "description": {
+          "zh-cn": "一场全球性的军事冲突，太平洋战争是其主要战区之一。",
+          "en": "A global military conflict, of which the Pacific War was a major theatre."
+        }
+      }
+    },
+    {
+      "id": "同盟国 (第二次世界大战)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "同盟国 (第二次世界大战)",
+          "同盟国"
+        ],
+        "en": [
+          "Allies of World War II",
+          "Allies"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在第二次世界大战中对抗轴心国的国家联盟，在太平洋战争中的主要成员包括美国、中华民国、英国及其英联邦成员国、荷兰等。",
+          "en": "A coalition of countries that opposed the Axis powers in World War II. Key members in the Pacific War included the United States, the Republic of China, the United Kingdom and its Commonwealth nations, and the Netherlands."
+        }
+      }
+    },
+    {
+      "id": "轴心国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "轴心国"
+        ],
+        "en": [
+          "Axis powers"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在第二次世界大战中对抗同盟国的国家联盟，在太平洋战争中的主要成员为大日本帝国及其支持和傀儡政权。",
+          "en": "A coalition of countries that opposed the Allied powers in World War II. Its primary member in the Pacific War was the Empire of Japan, along with its supporters and puppet states."
+        }
+      }
+    },
+    {
+      "id": "大日本帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大日本帝国",
+          "日本"
+        ],
+        "en": [
+          "Empire of Japan",
+          "Japan"
+        ]
+      },
+      "properties": {
+        "period": "1868-01-03 - 1947-05-03",
+        "description": {
+          "zh-cn": "指1868年至1947年间的日本，是太平洋战争中轴心国的主要成员。",
+          "en": "Refers to Japan from 1868 to 1947, a principal member of the Axis powers in the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "太平洋战争中同盟国的主要成员国，在珍珠港事件后对日宣战。",
+          "en": "A principal member of the Allies in the Pacific War, declaring war on Japan after the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "id": "中华民国大陆时期",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华民国大陆时期",
+          "中国",
+          "中华民国"
+        ],
+        "en": [
+          "Republic of China (1912–1949)",
+          "China"
+        ]
+      },
+      "properties": {
+        "period": "1912 - 1949",
+        "description": {
+          "zh-cn": "太平洋战争中同盟国的主要成员国，自1937年起与日本全面交战。",
+          "en": "A principal member of the Allies in the Pacific War, engaged in a full-scale war with Japan since 1937."
+        }
+      }
+    },
+    {
+      "id": "英国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国"
+        ],
+        "en": [
+          "United Kingdom"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "太平洋战争中同盟国的主要成员国，其在亚洲的殖民地遭到日本攻击。",
+          "en": "A principal member of the Allies in the Pacific War, whose colonies in Asia were attacked by Japan."
+        }
+      }
+    },
+    {
+      "id": "苏联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "苏联"
+        ],
+        "en": [
+          "Soviet Union"
+        ]
+      },
+      "properties": {
+        "period": "1922 - 1991",
+        "description": {
+          "zh-cn": "第二次世界大战同盟国成员。在太平洋战争大部分时间保持中立，于1945年8月对日宣战。",
+          "en": "A member of the Allies in World War II. Remained neutral for most of the Pacific War, declaring war on Japan in August 1945."
+        }
+      }
+    },
+    {
+      "id": "珍珠港事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "珍珠港事件",
+          "珍珠港展开攻击"
+        ],
+        "en": [
+          "Attack on Pearl Harbor"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-07",
+        "location": {
+          "zh-cn": "夏威夷",
+          "en": "Hawaii"
+        },
+        "description": {
+          "zh-cn": "日本对美国珍珠港海军基地发动的突然军事袭击，是太平洋战争全面爆发的标志。",
+          "en": "A surprise military strike by Japan on the United States naval base at Pearl Harbor, marking the full outbreak of the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "日本投降",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "日本投降"
+        ],
+        "en": [
+          "Surrender of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1945-08-15 - 1945-09-02",
+        "description": {
+          "zh-cn": "日本于1945年8月15日宣布无条件投降，并于9月2日签署投降书，标志着第二次世界大战的结束。",
+          "en": "Japan announced its unconditional surrender on August 15, 1945, and signed the instrument of surrender on September 2, marking the end of World War II."
+        }
+      }
+    },
+    {
+      "id": "中国抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中国抗日战争",
+          "抗日战争",
+          "八年抗战"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937-07-07 - 1945-09-09",
+        "description": {
+          "zh-cn": "1937年至1945年间中华民国与大日本帝国之间发生的战争，是太平洋战争的重要组成部分。",
+          "en": "The war fought between the Republic of China and the Empire of Japan from 1937 to 1945, a major component of the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "苏日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "苏日战争"
+        ],
+        "en": [
+          "Soviet–Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1945-08-09 - 1945-09-02",
+        "description": {
+          "zh-cn": "1945年苏联对日本发动的军事行动，是太平洋战争最后阶段的战役。",
+          "en": "The military campaign launched by the Soviet Union against Japan in 1945, being the final campaign of the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "广岛与长崎原子弹爆炸",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "广岛与长崎原子弹爆炸",
+          "广岛和长崎的原子弹袭击"
+        ],
+        "en": [
+          "Atomic bombings of Hiroshima and Nagasaki"
+        ]
+      },
+      "properties": {
+        "period": "1945-08-06 - 1945-08-09",
+        "location": {
+          "zh-cn": "广岛市、长崎市",
+          "en": "Hiroshima, Nagasaki"
+        },
+        "description": {
+          "zh-cn": "美国在二战末期对日本城市广岛和长崎进行的两次原子弹轰炸，加速了日本的投降。",
+          "en": "Two atomic bombings conducted by the United States against the Japanese cities of Hiroshima and Nagasaki during the final stages of World War II, which accelerated Japan's surrender."
+        }
+      }
+    },
+    {
+      "id": "日本殖民帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本殖民帝国",
+          "日本殖民地"
+        ],
+        "en": [
+          "Japanese colonial empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国在东亚及太平洋地区建立的殖民统治体系，在战后瓦解。",
+          "en": "The colonial rule system established by the Empire of Japan in East Asia and the Pacific, which collapsed after the war."
+        }
+      }
+    },
+    {
+      "id": "非殖民化",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "非殖民化"
+        ],
+        "en": [
+          "Decolonization"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "殖民地摆脱宗主国统治并获得独立的过程。太平洋战争重创了欧洲在亚洲的殖民势力，加速了这一进程。",
+          "en": "The process by which colonies become independent of the colonizing country. The Pacific War severely weakened European colonial powers in Asia, accelerating this process."
+        }
+      }
+    },
+    {
+      "id": "富兰克林·罗斯福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "富兰克林·罗斯福"
+        ],
+        "en": [
+          "Franklin D. Roosevelt"
+        ]
+      },
+      "properties": {
+        "lifetime": "1882-01-30 - 1945-04-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第32任总统，在太平洋战争期间领导美国，是同盟国主要领导人之一。",
+          "en": "The 32nd President of the United States, who led the country during the Pacific War and was one of the principal leaders of the Allied powers."
+        }
+      }
+    },
+    {
+      "id": "哈瑞·S·杜鲁门",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈瑞·S·杜鲁门"
+        ],
+        "en": [
+          "Harry S. Truman"
+        ]
+      },
+      "properties": {
+        "lifetime": "1884-05-08 - 1972-12-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国第33任总统，在罗斯福逝世后接任，领导美国赢得太平洋战争，并下令使用原子弹。",
+          "en": "The 33rd President of the United States, who took office after Roosevelt's death, led the US to victory in the Pacific War, and ordered the use of atomic bombs."
+        }
+      }
+    },
+    {
+      "id": "蒋中正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋中正",
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国军事及政治领导人，在太平洋战争期间领导中国抵抗日本侵略，是同盟国主要领导人之一。",
+          "en": "Military and political leader of the Republic of China, who led China's resistance against Japanese invasion during the Pacific War and was one of the principal leaders of the Allied powers."
+        }
+      }
+    },
+    {
+      "id": "温斯顿·邱吉尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "温斯顿·邱吉尔"
+        ],
+        "en": [
+          "Winston Churchill"
+        ]
+      },
+      "properties": {
+        "lifetime": "1874-11-30 - 1965-01-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国首相，在太平洋战争期间领导英国，是同盟国主要领导人之一。",
+          "en": "Prime Minister of the United Kingdom, who led the country during the Pacific War and was one of the principal leaders of the Allied powers."
+        }
+      }
+    },
+    {
+      "id": "昭和天皇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "昭和天皇",
+          "裕仁"
+        ],
+        "en": [
+          "Hirohito"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-04-29 - 1989-01-07",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本第124代天皇，是太平洋战争期间日本的国家元首。",
+          "en": "The 124th Emperor of Japan, who was the head of state of Japan during the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "东条英机",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "东条英机"
+        ],
+        "en": [
+          "Hideki Tojo"
+        ]
+      },
+      "properties": {
+        "lifetime": "1884-12-30 - 1948-12-23",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本帝国陆军将领及政治家，在太平洋战争大部分时间担任日本首相。",
+          "en": "A general of the Imperial Japanese Army and politician who served as Prime Minister of Japan for most of the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "泰国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "泰国"
+        ],
+        "en": [
+          "Thailand"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在太平洋战争中与日本结盟的国家。",
+          "en": "A country that allied with Japan during the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "纳粹德国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纳粹德国",
+          "德国"
+        ],
+        "en": [
+          "Nazi Germany",
+          "Germany"
+        ]
+      },
+      "properties": {
+        "period": "1933 - 1945",
+        "description": {
+          "zh-cn": "欧洲的轴心国成员，在太平洋战争中为日本提供了小规模援助。",
+          "en": "An Axis member in Europe that provided minor assistance to Japan in the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "意大利王国 (1861年－1946年)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "意大利王国 (1861年－1946年)",
+          "意大利"
+        ],
+        "en": [
+          "Kingdom of Italy (1861–1946)",
+          "Italy"
+        ]
+      },
+      "properties": {
+        "period": "1861 - 1946",
+        "description": {
+          "zh-cn": "欧洲的轴心国成员，在太平洋战争中为日本提供了小规模援助。",
+          "en": "An Axis member in Europe that provided minor assistance to Japan in the Pacific War."
+        }
+      }
+    },
+    {
+      "id": "苏日中立条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "苏日中立条约"
+        ],
+        "en": [
+          "Soviet–Japanese Neutrality Pact"
+        ]
+      },
+      "properties": {
+        "period": "1941-04-13 - 1945-08-09",
+        "description": {
+          "zh-cn": "苏联与日本于1941年签署的互不侵犯条约，苏联于1945年对日宣战时撕毁该条约。",
+          "en": "A non-aggression pact signed between the Soviet Union and Japan in 1941, which was broken by the Soviet Union when it declared war on Japan in 1945."
+        }
+      }
+    },
+    {
+      "id": "硫磺岛战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "硫磺岛战役"
+        ],
+        "en": [
+          "Battle of Iwo Jima"
+        ]
+      },
+      "properties": {
+        "period": "1945-02-19 - 1945-03-26",
+        "location": {
+          "zh-cn": "硫磺岛",
+          "en": "Iwo Jima"
+        },
+        "description": {
+          "zh-cn": "太平洋战争中美军和日军之间爆发的一场激烈战斗，是太平洋战争中最血腥的战役之一。",
+          "en": "An intense battle fought between U.S. and Japanese forces during the Pacific War, one of the bloodiest in the conflict."
+        }
+      }
+    },
+    {
+      "id": "冲绳岛战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "冲绳岛战役",
+          "冲绳战役"
+        ],
+        "en": [
+          "Battle of Okinawa"
+        ]
+      },
+      "properties": {
+        "period": "1945-04-01 - 1945-07-02",
+        "location": {
+          "zh-cn": "冲绳",
+          "en": "Okinawa"
+        },
+        "description": {
+          "zh-cn": "太平洋战争中规模最大、最血腥的战斗之一，是盟军入侵日本本土前的最后一场主要战役。",
+          "en": "One of the largest and bloodiest battles of the Pacific War, and the last major battle before the planned invasion of mainland Japan by Allied forces."
+        }
+      }
+    },
+    {
+      "id": "没落行动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "没落行动"
+        ],
+        "en": [
+          "Operation Downfall"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "盟军制定的入侵日本本土的计划，因日本投降而未执行。",
+          "en": "The Allied plan for the invasion of the Japanese home islands, which was not executed due to Japan's surrender."
+        }
+      }
+    },
+    {
+      "id": "道格拉斯·麦克阿瑟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "道格拉斯·麦克阿瑟"
+        ],
+        "en": [
+          "Douglas MacArthur"
+        ]
+      },
+      "properties": {
+        "lifetime": "1880-01-26 - 1964-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国陆军五星上将，太平洋战争期间担任西南太平洋地区盟军最高司令，并代表同盟国接受日本投降。",
+          "en": "An American five-star general who served as Supreme Commander, Southwest Pacific Area during the Pacific War and accepted Japan's surrender on behalf of the Allies."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "太平洋战争",
+      "target": "第二次世界大战",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "太平洋战争是第二次世界大战的战区之一。",
+          "en": "The Pacific War was one of the theatres of World War II."
+        }
+      }
+    },
+    {
+      "source": "同盟国 (第二次世界大战)",
+      "target": "轴心国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1941-12-07",
+        "end_date": "1945-09-02",
+        "description": {
+          "zh-cn": "在太平洋战争中，同盟国与轴心国展开了全面对抗。",
+          "en": "During the Pacific War, the Allies and the Axis powers were engaged in a full-scale conflict."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "轴心国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "大日本帝国是轴心国在太平洋战争中的主要成员。",
+          "en": "The Empire of Japan was the principal member of the Axis powers in the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "美国",
+      "target": "同盟国 (第二次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "美国是同盟国在太平洋战争中的主要成员。",
+          "en": "The United States was a principal member of the Allied powers in the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "中华民国大陆时期",
+      "target": "同盟国 (第二次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国是同盟国在太平洋战争中的主要成员。",
+          "en": "The Republic of China was a principal member of the Allied powers in the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "英国",
+      "target": "同盟国 (第二次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "英国是同盟国在太平洋战争中的主要成员。",
+          "en": "The United Kingdom was a principal member of the Allied powers in the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "同盟国 (第二次世界大战)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945-08-09",
+        "description": {
+          "zh-cn": "苏联于1945年8月撕毁与日本的中立条约，加入同盟国对日作战。",
+          "en": "The Soviet Union broke its neutrality pact with Japan in August 1945 and joined the Allies in the war against Japan."
+        }
+      }
+    },
+    {
+      "source": "中国抗日战争",
+      "target": "太平洋战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937-07-07",
+        "description": {
+          "zh-cn": "始于1937年的中日战争是太平洋战争的前奏和重要组成部分。",
+          "en": "The Sino-Japanese War, which began in 1937, was a prelude to and an integral part of the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "珍珠港事件",
+      "target": "太平洋战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-07",
+        "description": {
+          "zh-cn": "普遍认为，日本袭击珍珠港标志着太平洋战争的全面爆发。",
+          "en": "It is widely considered that the Japanese attack on Pearl Harbor marked the full outbreak of the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "大日本帝国",
+      "target": "珍珠港事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1941-12-07",
+        "description": {
+          "zh-cn": "大日本帝国策划并执行了对美国珍珠港的袭击。",
+          "en": "The Empire of Japan planned and executed the attack on Pearl Harbor."
+        }
+      }
+    },
+    {
+      "source": "太平洋战争",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1945-08-15",
+        "description": {
+          "zh-cn": "太平洋战争中盟军的胜利最终导致了日本的无条件投降。",
+          "en": "The Allied victory in the Pacific War ultimately led to the unconditional surrender of Japan."
+        }
+      }
+    },
+    {
+      "source": "日本投降",
+      "target": "第二次世界大战",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-09-02",
+        "description": {
+          "zh-cn": "日本签署投降书，标志着第二次世界大战的结束。",
+          "en": "Japan's signing of the instrument of surrender marked the end of World War II."
+        }
+      }
+    },
+    {
+      "source": "日本投降",
+      "target": "日本殖民帝国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-08-15",
+        "description": {
+          "zh-cn": "日本的投降导致了其殖民帝国的灭亡。",
+          "en": "The surrender of Japan led to the demise of its colonial empire."
+        }
+      }
+    },
+    {
+      "source": "太平洋战争",
+      "target": "非殖民化",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "太平洋战争重创了欧洲在亚洲的殖民势力，加速了亚洲的非殖民化进程。",
+          "en": "The Pacific War dealt a heavy blow to European colonial powers in Asia, accelerating the process of decolonization in the region."
+        }
+      }
+    },
+    {
+      "source": "广岛与长崎原子弹爆炸",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08",
+        "description": {
+          "zh-cn": "美国对广岛和长崎的原子弹袭击是促使日本投降的关键因素之一。",
+          "en": "The U.S. atomic bombings of Hiroshima and Nagasaki were one of the key factors that prompted Japan's surrender."
+        }
+      }
+    },
+    {
+      "source": "苏日战争",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-08-09",
+        "description": {
+          "zh-cn": "苏联对日宣战并入侵满洲，是促使日本决定投降的一个重要因素。",
+          "en": "The Soviet declaration of war and invasion of Manchuria was a significant factor in Japan's decision to surrender."
+        }
+      }
+    },
+    {
+      "source": "富兰克林·罗斯福",
+      "target": "美国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1945-04-12",
+        "position": {
+          "zh-cn": "美国总统",
+          "en": "President of the United States"
+        },
+        "description": {
+          "zh-cn": "富兰克林·罗斯福在太平洋战争期间担任美国总统，直至1945年4月12日病逝。",
+          "en": "Franklin D. Roosevelt served as the President of the United States during the Pacific War until his death on April 12, 1945."
+        }
+      }
+    },
+    {
+      "source": "哈瑞·S·杜鲁门",
+      "target": "美国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1945-04-12",
+        "position": {
+          "zh-cn": "美国总统",
+          "en": "President of the United States"
+        },
+        "description": {
+          "zh-cn": "哈瑞·S·杜鲁门在罗斯福逝世后接任总统，并领导美国直至战争结束。",
+          "en": "Harry S. Truman succeeded Roosevelt as President and led the United States until the end of the war."
+        }
+      }
+    },
+    {
+      "source": "蒋中正",
+      "target": "中华民国大陆时期",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "国民政府军事委员会委员长",
+          "en": "Chairman of the National Military Council"
+        },
+        "description": {
+          "zh-cn": "蒋中正在太平洋战争期间担任中华民国最高军事领导人。",
+          "en": "Chiang Kai-shek served as the supreme military leader of the Republic of China during the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "温斯顿·邱吉尔",
+      "target": "英国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "英国首相",
+          "en": "Prime Minister of the United Kingdom"
+        },
+        "description": {
+          "zh-cn": "温斯顿·邱吉尔在太平洋战争期间担任英国首相。",
+          "en": "Winston Churchill served as the Prime Minister of the United Kingdom during the Pacific War."
+        }
+      }
+    },
+    {
+      "source": "昭和天皇",
+      "target": "大日本帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "天皇",
+          "en": "Emperor"
+        },
+        "description": {
+          "zh-cn": "裕仁（昭和天皇）是太平洋战争期间日本的国家元首，并最终广播了终战诏书。",
+          "en": "Hirohito (Emperor Shōwa) was the head of state of Japan during the Pacific War and ultimately broadcast the Imperial Rescript on the Termination of the War."
+        }
+      }
+    },
+    {
+      "source": "东条英机",
+      "target": "大日本帝国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "内阁总理大臣",
+          "en": "Prime Minister"
+        },
+        "description": {
+          "zh-cn": "东条英机在太平洋战争初期至中期担任日本首相，是战争的主要决策者之一。",
+          "en": "Hideki Tojo served as Prime Minister of Japan during the early to middle stages of the Pacific War and was one of the key decision-makers."
+        }
+      }
+    },
+    {
+      "source": "苏联",
+      "target": "苏日中立条约",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-08-09",
+        "description": {
+          "zh-cn": "苏联于1945年8月对日宣战，撕毁了《苏日中立条约》。",
+          "en": "The Soviet Union declared war on Japan in August 1945, thereby breaking the Soviet–Japanese Neutrality Pact."
+        }
+      }
+    },
+    {
+      "source": "广岛与长崎原子弹爆炸",
+      "target": "没落行动",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "原子弹的使用被认为是避免实施伤亡惨重的日本本土入侵计划“没落行动”的一种手段。",
+          "en": "The use of atomic bombs is considered a means to avoid implementing Operation Downfall, the costly planned invasion of the Japanese home islands."
+        }
+      }
+    },
+    {
+      "source": "道格拉斯·麦克阿瑟",
+      "target": "日本投降",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1945-09-02",
+        "description": {
+          "zh-cn": "作为盟军最高司令，道格拉斯·麦克阿瑟在密苏里号战列舰上接受了日本的正式投降。",
+          "en": "As Supreme Commander for the Allied Powers, Douglas MacArthur accepted the formal surrender of Japan aboard the USS Missouri."
+        }
+      }
+    }
+  ]
+}

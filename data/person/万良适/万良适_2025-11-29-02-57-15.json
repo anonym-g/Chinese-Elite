@@ -1,0 +1,272 @@
+{
+  "nodes": [
+    {
+      "id": "万良适",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "万良适"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1935-11 - 2012-08-04",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "随州市",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A politician of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "随州市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "随州市",
+          "随州"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "山西省轻工业厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山西省轻工业厅"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党太原市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党太原市委员会",
+          "中共太原市委",
+          "太原市委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "太原市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "太原市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党山西省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党山西省委员会",
+          "中共山西省委",
+          "省委"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议山西省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议山西省委员会",
+          "山西省政协"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "杨崇春",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨崇春"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "孟立正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孟立正"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "万良适",
+      "target": "随州市",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "万良适",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "万良适是中国共产党党员。",
+          "en": "Wan Liangshi is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "山西省轻工业厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983-05",
+        "position": {
+          "zh-cn": "副厅长",
+          "en": "Deputy Director"
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "中国共产党太原市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1985-12",
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "太原市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1985-12",
+        "position": {
+          "zh-cn": "副市长",
+          "en": "Vice Mayor"
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "中国共产党太原市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1988-02",
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "太原市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1988-02",
+        "end_date": "1991-04",
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "中国共产党山西省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1991-03",
+        "position": {
+          "zh-cn": "秘书长",
+          "en": "Secretary-General"
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "中国共产党山西省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1992-02",
+        "end_date": "1996-02",
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "中国人民政治协商会议山西省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1998",
+        "position": {
+          "zh-cn": "第八届副主席",
+          "en": "Vice Chairman of the 8th Committee"
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "杨崇春",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1988-02",
+        "description": {
+          "zh-cn": "万良适接替杨崇春出任太原市人民政府市长。",
+          "en": "Wan Liangshi succeeded Yang Chongchun as Mayor of Taiyuan Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "万良适",
+      "target": "孟立正",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1991-04",
+        "description": {
+          "zh-cn": "万良适卸任太原市人民政府市长后，由孟立正接任。",
+          "en": "After Wan Liangshi stepped down as Mayor of Taiyuan Municipal People's Government, he was succeeded by Meng Lizheng."
+        }
+      }
+    }
+  ]
+}

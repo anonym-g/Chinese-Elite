@@ -1,0 +1,804 @@
+{
+  "nodes": [
+    {
+      "id": "东京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "东京",
+          "江户"
+        ],
+        "en": [
+          "Tokyo",
+          "Edo"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "日本关东地方",
+          "en": "Kantō region, Japan"
+        },
+        "description": {
+          "zh-cn": "位于日本关东地方的都市，狭义上指东京都区部，亦可指东京都或东京都会区。自明治维新后成为日本事实上的首都，是全球规模最大的都会区之一。",
+          "en": "A city in the Kantō region of Japan. In a narrow sense, it refers to the special wards of Tokyo, but can also refer to the Tokyo Metropolis or the Greater Tokyo Area. It has been the de facto capital of Japan since the Meiji Restoration and is one of the largest metropolitan areas in the world."
+        }
+      }
+    },
+    {
+      "id": "江户",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江户"
+        ],
+        "en": [
+          "Edo"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东京的旧称，自17世纪初至19世纪后半期作为德川幕府的政治中心而繁荣。",
+          "en": "The former name of Tokyo, which flourished as the political center of the Tokugawa shogunate from the early 17th century to the late 19th century."
+        }
+      }
+    },
+    {
+      "id": "明治维新",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "明治维新"
+        ],
+        "en": [
+          "Meiji Restoration"
+        ]
+      },
+      "properties": {
+        "period": "1868 - ",
+        "description": {
+          "zh-cn": "19世纪后期日本的政治和社会革命，导致幕府体制瓦解，日本开始现代化进程。",
+          "en": "A political and social revolution in Japan in the late 19th century that led to the collapse of the shogunate system and the beginning of Japan's modernization."
+        }
+      }
+    },
+    {
+      "id": "京都",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "京都"
+        ],
+        "en": [
+          "Kyoto"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本城市，在明治维新前曾长期作为日本的首都。",
+          "en": "A city in Japan that served as the country's capital for a long period before the Meiji Restoration."
+        }
+      }
+    },
+    {
+      "id": "太田道灌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "太田道灌"
+        ],
+        "en": [
+          "Ōta Dōkan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1432 - 1486-08-25",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本室町时代后期的武将，以修筑江户城而闻名。",
+          "en": "A Japanese samurai warrior-poet, military tactician, and Buddhist monk of the late Muromachi period, known for the construction of Edo Castle."
+        }
+      }
+    },
+    {
+      "id": "江户城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "江户城"
+        ],
+        "en": [
+          "Edo Castle"
+        ]
+      },
+      "properties": {
+        "period": "1457 - ",
+        "description": {
+          "zh-cn": "位于武藏国丰岛郡的城堡，是江户幕府的统治中心。明治维新后成为天皇的居所，即现在的皇居。",
+          "en": "A castle in Toshima District, Musashi Province, which served as the center of the Edo shogunate. After the Meiji Restoration, it became the residence of the Emperor, now the Imperial Palace."
+        }
+      }
+    },
+    {
+      "id": "德川家康",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "德川家康"
+        ],
+        "en": [
+          "Tokugawa Ieyasu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1543-01-31 - 1616-06-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本战国时代末期、安土桃山时代的武将、战国大名，江户幕府第一代征夷大将军。",
+          "en": "A warlord and daimyō of the late Sengoku and Azuchi-Momoyama periods of Japan, and the first shōgun of the Edo shogunate."
+        }
+      }
+    },
+    {
+      "id": "江户幕府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "江户幕府",
+          "德川幕府"
+        ],
+        "en": [
+          "Edo shogunate",
+          "Tokugawa shogunate"
+        ]
+      },
+      "properties": {
+        "period": "1603 - 1868",
+        "description": {
+          "zh-cn": "由德川家康建立的日本最后一个幕府，统治中心位于江户。",
+          "en": "The last shogunate of Japan, founded by Tokugawa Ieyasu, with its center of power in Edo."
+        }
+      }
+    },
+    {
+      "id": "关原之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "关原之战"
+        ],
+        "en": [
+          "Battle of Sekigahara"
+        ]
+      },
+      "properties": {
+        "period": "1600-10-21 - 1600-10-21",
+        "description": {
+          "zh-cn": "日本战国时期的一场关键性战役，德川家康在此战中取得胜利，为建立江户幕府奠定了基础。",
+          "en": "A decisive battle in the Sengoku period of Japan, where Tokugawa Ieyasu's victory laid the foundation for the establishment of the Edo shogunate."
+        }
+      }
+    },
+    {
+      "id": "关东大地震",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "关东大地震"
+        ],
+        "en": [
+          "Great Kantō earthquake"
+        ]
+      },
+      "properties": {
+        "period": "1923-09-01 - 1923-09-01",
+        "description": {
+          "zh-cn": "1923年发生在日本关东地方的一场强烈地震，对东京及周边地区造成了毁灭性破坏。",
+          "en": "A powerful earthquake that struck the Kantō region of Japan in 1923, causing devastating damage to Tokyo and surrounding areas."
+        }
+      }
+    },
+    {
+      "id": "东京大轰炸",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "东京大轰炸"
+        ],
+        "en": [
+          "Bombing of Tokyo"
+        ]
+      },
+      "properties": {
+        "period": "1942 - 1945",
+        "description": {
+          "zh-cn": "第二次世界大战末期由美军对东京进行的一系列大规模战略轰炸，对城市造成了严重破坏。",
+          "en": "A series of large-scale strategic bombings of Tokyo by the United States military during the late stages of World War II, causing severe destruction to the city."
+        }
+      }
+    },
+    {
+      "id": "第二次世界大战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次世界大战",
+          "二战"
+        ],
+        "en": [
+          "World War II"
+        ]
+      },
+      "properties": {
+        "period": "1939 - 1945",
+        "description": {
+          "zh-cn": "一场全球性的军事冲突，东京在战争末期遭受了大规模轰炸。",
+          "en": "A global military conflict during which Tokyo suffered extensive bombing in its final stages."
+        }
+      }
+    },
+    {
+      "id": "1964年夏季奥林匹克运动会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1964年夏季奥林匹克运动会"
+        ],
+        "en": [
+          "1964 Summer Olympics"
+        ]
+      },
+      "properties": {
+        "period": "1964 - 1964",
+        "description": {
+          "zh-cn": "在东京举办的第18届夏季奥林匹克运动会，是亚洲城市首次举办奥运会。",
+          "en": "The 18th Summer Olympic Games held in Tokyo, marking the first time the Olympics were held in Asia."
+        }
+      }
+    },
+    {
+      "id": "2020年夏季奥林匹克运动会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2020年夏季奥林匹克运动会"
+        ],
+        "en": [
+          "2020 Summer Olympics"
+        ]
+      },
+      "properties": {
+        "period": "2021 - 2021",
+        "description": {
+          "zh-cn": "在东京举办的第32届夏季奥林匹克运动会，因疫情延期至2021年举行。",
+          "en": "The 32nd Summer Olympic Games held in Tokyo, postponed to 2021 due to the COVID-19 pandemic."
+        }
+      }
+    },
+    {
+      "id": "东京都",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东京都"
+        ],
+        "en": [
+          "Tokyo Metropolis"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的一级行政区，是日本唯一的“都”。其政府机构负责管辖东京的行政事务。",
+          "en": "A first-level administrative division of Japan, and the country's only 'metropolis'. Its government is responsible for the administration of Tokyo."
+        }
+      }
+    },
+    {
+      "id": "纽约市",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "纽约市",
+          "纽约"
+        ],
+        "en": [
+          "New York City"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于美国纽约州的城市，是东京都的姊妹友好都市。",
+          "en": "A city in the U.S. state of New York, and a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "北京市",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市",
+          "北京"
+        ],
+        "en": [
+          "Beijing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的首都，是东京都的姊妹友好都市。",
+          "en": "The capital of the People's Republic of China, and a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "巴黎",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "巴黎"
+        ],
+        "en": [
+          "Paris"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国的首都，是东京都的姊妹友好都市。",
+          "en": "The capital of France, and a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "新南威尔士州",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新南威尔士州"
+        ],
+        "en": [
+          "New South Wales"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "澳大利亚的州，是东京都的姊妹友好州。",
+          "en": "A state of Australia, and a sister state of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "首尔",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "首尔"
+        ],
+        "en": [
+          "Seoul"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大韩民国的首都，是东京都的姊妹友好都市。",
+          "en": "The capital of the Republic of Korea, and a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "雅加达",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "雅加达"
+        ],
+        "en": [
+          "Jakarta"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "印度尼西亚的首都，是东京都的姊妹友好都市。",
+          "en": "The capital of Indonesia, and a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "圣保罗州",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圣保罗州"
+        ],
+        "en": [
+          "São Paulo State"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "巴西的州，是东京都的姊妹友好州。",
+          "en": "A state of Brazil, and a sister state of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "开罗省",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "开罗省"
+        ],
+        "en": [
+          "Cairo Governorate"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "埃及的省，是东京都的姊妹友好省。",
+          "en": "A governorate of Egypt, and a sister governorate of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "莫斯科",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "莫斯科"
+        ],
+        "en": [
+          "Moscow"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "俄罗斯的首都，是东京都的姊妹友好都市。",
+          "en": "The capital of Russia, and a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "柏林",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "柏林"
+        ],
+        "en": [
+          "Berlin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "德国的首都，是东京都的姊妹友好都市。",
+          "en": "The capital of Germany, and a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "罗马",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗马"
+        ],
+        "en": [
+          "Rome"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "意大利的首都，是东京都的姊妹友好都市。",
+          "en": "The capital of Italy, and a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "id": "伦敦",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伦敦"
+        ],
+        "en": [
+          "London"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "英国的首都，是东京都的姊妹友好都市。",
+          "en": "The capital of the United Kingdom, and a sister city of Tokyo Metropolis."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "太田道灌",
+      "target": "江户城",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1457",
+        "description": {
+          "zh-cn": "太田道灌于1457年奉命修筑了江户城。",
+          "en": "Ōta Dōkan was ordered to build Edo Castle in 1457."
+        }
+      }
+    },
+    {
+      "source": "关原之战",
+      "target": "德川家康",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1600-10-21",
+        "description": {
+          "zh-cn": "德川家康在关原之战中取得胜利，为其建立江户幕府奠定了决定性基础。",
+          "en": "Tokugawa Ieyasu's victory in the Battle of Sekigahara provided the decisive foundation for him to establish the Edo shogunate."
+        }
+      }
+    },
+    {
+      "source": "德川家康",
+      "target": "江户幕府",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1603",
+        "description": {
+          "zh-cn": "德川家康在关原之战胜利后，于1603年开创了江户幕府。",
+          "en": "After his victory at the Battle of Sekigahara, Tokugawa Ieyasu founded the Edo shogunate in 1603."
+        }
+      }
+    },
+    {
+      "source": "江户幕府",
+      "target": "江户",
+      "type": "PUSHED",
+      "properties": {
+        "period": "1603 - 1868",
+        "description": {
+          "zh-cn": "江户幕府以江户城为据点，使江户发展成为日本的政治中心和主要都市。",
+          "en": "The Edo shogunate, based in Edo Castle, developed Edo into Japan's political center and a major city."
+        }
+      }
+    },
+    {
+      "source": "明治维新",
+      "target": "江户",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1868",
+        "description": {
+          "zh-cn": "在明治维新期间，江户被更名为东京。",
+          "en": "During the Meiji Restoration, Edo was renamed Tokyo."
+        }
+      }
+    },
+    {
+      "source": "明治维新",
+      "target": "东京",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1868",
+        "description": {
+          "zh-cn": "明治维新期间，日本皇室从京都迁至东京，使东京成为日本新的首都。",
+          "en": "During the Meiji Restoration, the Japanese Imperial Court moved from Kyoto to Tokyo, making Tokyo the new capital of Japan."
+        }
+      }
+    },
+    {
+      "source": "明治维新",
+      "target": "京都",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1868",
+        "description": {
+          "zh-cn": "随着明治维新及迁都东京，京都失去了作为日本首都的地位。",
+          "en": "With the Meiji Restoration and the relocation of the capital to Tokyo, Kyoto lost its status as the capital of Japan."
+        }
+      }
+    },
+    {
+      "source": "关东大地震",
+      "target": "东京",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1923-09-01",
+        "description": {
+          "zh-cn": "1923年的关东大地震对东京造成了毁灭性的破坏。",
+          "en": "The Great Kantō earthquake of 1923 caused devastating damage to Tokyo."
+        }
+      }
+    },
+    {
+      "source": "第二次世界大战",
+      "target": "东京大轰炸",
+      "type": "PUSHED",
+      "properties": {
+        "period": "1942 - 1945",
+        "description": {
+          "zh-cn": "第二次世界大战是东京大轰炸发生的背景。",
+          "en": "World War II was the context in which the Bombing of Tokyo occurred."
+        }
+      }
+    },
+    {
+      "source": "东京大轰炸",
+      "target": "东京",
+      "type": "BLOCKED",
+      "properties": {
+        "period": "1942 - 1945",
+        "description": {
+          "zh-cn": "第二次世界大战末期的东京大轰炸对东京造成了毁灭性的破坏。",
+          "en": "The Bombing of Tokyo during the final stages of World War II caused devastating destruction to the city."
+        }
+      }
+    },
+    {
+      "source": "东京",
+      "target": "1964年夏季奥林匹克运动会",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1964",
+        "description": {
+          "zh-cn": "东京主办了1964年夏季奥林匹克运动会，这是奥运会首次在亚洲举办，促进了东京的城市发展和国际地位提升。",
+          "en": "Tokyo hosted the 1964 Summer Olympics, the first to be held in Asia, which spurred the city's urban development and enhanced its international standing."
+        }
+      }
+    },
+    {
+      "source": "东京",
+      "target": "2020年夏季奥林匹克运动会",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2021",
+        "description": {
+          "zh-cn": "东京成功申办并主办了2020年夏季奥林匹克运动会，成为第一个两度举办夏季奥运会的亚洲城市。",
+          "en": "Tokyo successfully bid for and hosted the 2020 Summer Olympics, becoming the first Asian city to host the Summer Olympics twice."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "纽约市",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1960-02-29",
+        "description": {
+          "zh-cn": "纽约市是东京都的姊妹友好都市。",
+          "en": "New York City is a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "北京市",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1979-03-14",
+        "description": {
+          "zh-cn": "北京市是东京都的姊妹友好都市。",
+          "en": "Beijing is a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "巴黎",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1982-07-14",
+        "description": {
+          "zh-cn": "巴黎是东京都的姊妹友好都市。",
+          "en": "Paris is a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "新南威尔士州",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1984-05-09",
+        "description": {
+          "zh-cn": "新南威尔士州是东京都的姊妹友好州。",
+          "en": "New South Wales is a sister state of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "首尔",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1988-09-03",
+        "description": {
+          "zh-cn": "首尔是东京都的姊妹友好都市。",
+          "en": "Seoul is a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "雅加达",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1989-10-23",
+        "description": {
+          "zh-cn": "雅加达是东京都的姊妹友好都市。",
+          "en": "Jakarta is a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "圣保罗州",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1990-06-13",
+        "description": {
+          "zh-cn": "圣保罗州是东京都的姊妹友好州。",
+          "en": "São Paulo State is a sister state of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "开罗省",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1990-10-23",
+        "description": {
+          "zh-cn": "开罗省是东京都的姊妹友好省。",
+          "en": "Cairo Governorate is a sister governorate of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "莫斯科",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1991-07-16",
+        "description": {
+          "zh-cn": "莫斯科是东京都的姊妹友好都市。",
+          "en": "Moscow is a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "柏林",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1994-05-14",
+        "description": {
+          "zh-cn": "柏林是东京都的姊妹友好都市。",
+          "en": "Berlin is a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "罗马",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1996-07-05",
+        "description": {
+          "zh-cn": "罗马是东京都的姊妹友好都市。",
+          "en": "Rome is a sister city of Tokyo Metropolis."
+        }
+      }
+    },
+    {
+      "source": "东京都",
+      "target": "伦敦",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "2015-10-14",
+        "description": {
+          "zh-cn": "伦敦是东京都的姊妹友好都市。",
+          "en": "London is a sister city of Tokyo Metropolis."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": "徐亦尤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐亦尤"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1932 - 2015-03-11",
+        "gender": "Male",
+        "location": {},
+        "birth_place": {},
+        "death_place": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中国共产党党员，曾任原国家语言文字工作委员会机关党委书记、1986年全国语言文字工作会议副秘书长。退休后专注撰写政论，批判否定中国特色社会主义的舆论。",
+          "en": "A member of the Chinese Communist Party, he served as the Party Committee Secretary of the former State Language Commission and the Deputy Secretary-General of the 1986 National Conference on Language and Script Work. After retirement, he focused on writing political treatises, criticizing opinions that negated Socialism with Chinese characteristics."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国教育部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国教育部",
+          "中国教育部"
+        ],
+        "en": [
+          "Ministry of Education of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国国务院主管教育事业和语言文字工作的组成部门。",
+          "en": "A constituent department of the State Council of the People's Republic of China that oversees education and language-related work."
+        }
+      }
+    },
+    {
+      "id": "国家语言文字工作委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家语言文字工作委员会",
+          "国家语委"
+        ],
+        "en": [
+          "State Language Commission"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国主管语言文字工作的机构，与中华人民共和国教育部合署办公。",
+          "en": "An agency of the People's Republic of China responsible for language and script work, which operates jointly with the Ministry of Education."
+        }
+      }
+    },
+    {
+      "id": "推广普通话办公室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "推广普通话办公室"
+        ],
+        "en": [
+          "Department for Popularizing Putonghua"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "国家语言文字工作委员会的内设机构之一。",
+          "en": "An internal department of the State Language Commission."
+        }
+      }
+    },
+    {
+      "id": "全国语言文字工作会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "全国语言文字工作会议"
+        ],
+        "en": [
+          "National Conference on Language and Script Work"
+        ]
+      },
+      "properties": {
+        "period": "1986",
+        "location": {},
+        "description": {
+          "zh-cn": "1986年举行的关于中国语言文字工作的全国性会议。",
+          "en": "A national conference on China's language and script work held in 1986."
+        }
+      }
+    },
+    {
+      "id": "中国特色社会主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中国特色社会主义"
+        ],
+        "en": [
+          "Socialism with Chinese characteristics"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "由中国共产党提出的一套政治理论，是马克思列宁主义与中国具体实际相结合的产物。",
+          "en": "A set of political theories formulated by the Chinese Communist Party, representing the product of combining Marxism-Leninism with China's specific conditions."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "period": "1921-07-23 - ",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "北京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京"
+        ],
+        "en": [
+          "Beijing"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "location": {},
+        "description": {
+          "zh-cn": "中华人民共和国的首都。",
+          "en": "The capital of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "徐亦尤",
+      "target": "推广普通话办公室",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {
+          "zh-cn": "机关党委书记",
+          "en": "Party Committee Secretary of the Organ"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "徐亦尤曾任原国家语言文字工作委员会推广普通话办公室机关党委书记。",
+          "en": "Xu Yiyou served as the Party Committee Secretary of the Department for Popularizing Putonghua of the former State Language Commission."
+        }
+      }
+    },
+    {
+      "source": "徐亦尤",
+      "target": "全国语言文字工作会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1986",
+        "end_date": "1986",
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "徐亦尤在1986年担任全国语言文字工作会议的副秘书长。",
+          "en": "Xu Yiyou served as the Deputy Secretary-General of the National Conference on Language and Script Work in 1986."
+        }
+      }
+    },
+    {
+      "source": "徐亦尤",
+      "target": "中国特色社会主义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "",
+        "end_date": "2015-03-11",
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "徐亦尤退休后，撰写了超过20万字的政论文章，旨在批判否定中国特色社会主义的舆论，以维护该理论体系。",
+          "en": "After his retirement, Xu Yiyou wrote over 200,000 words of political commentary aimed at criticizing opinions that negated Socialism with Chinese characteristics, in order to defend the theoretical system."
+        }
+      }
+    },
+    {
+      "source": "徐亦尤",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "2015-03-11",
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "degree": {},
+        "description": {
+          "zh-cn": "徐亦尤是中国共产党党员。",
+          "en": "Xu Yiyou was a member of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "推广普通话办公室",
+      "target": "国家语言文字工作委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "推广普通话办公室是国家语言文字工作委员会的内设机构。",
+          "en": "The Department for Popularizing Putonghua is an internal department of the State Language Commission."
+        }
+      }
+    },
+    {
+      "source": "国家语言文字工作委员会",
+      "target": "中华人民共和国教育部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "",
+        "end_date": "",
+        "position": {},
+        "degree": {},
+        "description": {
+          "zh-cn": "国家语言文字工作委员会与中华人民共和国教育部合署办公，接受其管理。",
+          "en": "The State Language Commission operates jointly with and is administered by the Ministry of Education of the People's Republic of China."
+        }
+      }
+    }
+  ]
+}
