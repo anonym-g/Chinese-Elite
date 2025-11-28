@@ -1,0 +1,902 @@
+{
+  "nodes": [
+    {
+      "id": "朝韩非军事区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "朝韩非军事区",
+          "朝鲜半岛非武装地带",
+          "韩半岛非武装地带",
+          "韩国非军事区",
+          "朝鲜非军事区",
+          "三八线"
+        ],
+        "en": [
+          "Korean Demilitarized Zone",
+          "Korean DMZ"
+        ]
+      },
+      "properties": {
+        "period": "1953-07-27 - ",
+        "location": {
+          "zh-cn": "朝鲜半岛",
+          "en": "Korean Peninsula"
+        },
+        "description": {
+          "zh-cn": "横越朝鲜半岛、作为朝鲜民主主义人民共和国和大韩民国边界的缓冲区，在1953年朝鲜战争结束后依据《朝鲜停战协定》设立。",
+          "en": "A strip of land running across the Korean Peninsula, established by the Korean Armistice Agreement in 1953 to serve as a buffer zone between North Korea and South Korea."
+        }
+      }
+    },
+    {
+      "id": "朝鲜战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "朝鲜战争",
+          "韩战"
+        ],
+        "en": [
+          "Korean War"
+        ]
+      },
+      "properties": {
+        "period": "1950-06-25 - 1953-07-27",
+        "description": {
+          "zh-cn": "1950年代早期在朝鲜半岛爆发的军事冲突，最终导致了《朝鲜停战协定》的签署和朝韩非军事区的建立。",
+          "en": "A military conflict in the early 1950s on the Korean Peninsula, which ultimately led to the signing of the Korean Armistice Agreement and the establishment of the DMZ."
+        }
+      }
+    },
+    {
+      "id": "朝鲜停战协定",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "朝鲜停战协定",
+          "朝鲜停战协定"
+        ],
+        "en": [
+          "Korean Armistice Agreement"
+        ]
+      },
+      "properties": {
+        "period": "1953-07-27",
+        "description": {
+          "zh-cn": "结束朝鲜战争战斗的协定，由中国人民志愿军、朝鲜人民军和联合国军签署，并据此建立了朝韩非军事区。",
+          "en": "The agreement that ended the fighting of the Korean War, signed by the Chinese People's Volunteer Army, the Korean People's Army, and the United Nations Command, which established the Korean Demilitarized Zone."
+        }
+      }
+    },
+    {
+      "id": "中国人民志愿军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民志愿军"
+        ],
+        "en": [
+          "Chinese People's Volunteer Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国在朝鲜战争中派遣的武装力量，是《朝鲜停战协定》的签署方之一。",
+          "en": "The armed forces deployed by the People's Republic of China in the Korean War, and one of the signatories of the Korean Armistice Agreement."
+        }
+      }
+    },
+    {
+      "id": "朝鲜人民军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜人民军"
+        ],
+        "en": [
+          "Korean People's Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜民主主义人民共和国的武装力量，是《朝鲜停战协定》的签署方之一，并在非军事区北部驻军。",
+          "en": "The armed forces of the Democratic People's Republic of Korea, a signatory of the Korean Armistice Agreement, and garrisoned in the northern part of the DMZ."
+        }
+      }
+    },
+    {
+      "id": "联合国军 (朝鲜战争)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国军 (朝鲜战争)",
+          "联合国军"
+        ],
+        "en": [
+          "United Nations Command"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在朝鲜战争中支援韩国的多国部队，是《朝鲜停战协定》的签署方之一，并在非军事区南部驻军。",
+          "en": "The multinational military force that supported South Korea in the Korean War, a signatory of the Korean Armistice Agreement, and garrisoned in the southern part of the DMZ."
+        }
+      }
+    },
+    {
+      "id": "朝鲜民主主义人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜民主主义人民共和国",
+          "朝鲜"
+        ],
+        "en": [
+          "Democratic People's Republic of Korea",
+          "North Korea"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于朝鲜半岛北部的国家，控制着非军事区的北部地区。",
+          "en": "A country in the northern part of the Korean Peninsula that controls the northern area of the DMZ."
+        }
+      }
+    },
+    {
+      "id": "大韩民国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大韩民国",
+          "韩国"
+        ],
+        "en": [
+          "Republic of Korea",
+          "South Korea"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于朝鲜半岛南部的国家，控制着非军事区的南部地区。",
+          "en": "A country in the southern part of the Korean Peninsula that controls the southern area of the DMZ."
+        }
+      }
+    },
+    {
+      "id": "美国陆军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "美国陆军"
+        ],
+        "en": [
+          "United States Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国武装力量的地面部队，是联合国军的重要组成部分，并在非军事区南部驻扎。",
+          "en": "The land service branch of the United States Armed Forces, a major component of the UN Command, and stationed in the southern part of the DMZ."
+        }
+      }
+    },
+    {
+      "id": "大韩民国国军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大韩民国国军",
+          "韩国国军"
+        ],
+        "en": [
+          "Republic of Korea Armed Forces"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大韩民国的武装力量，在非军事区南部驻扎。",
+          "en": "The armed forces of the Republic of Korea, stationed in the southern part of the DMZ."
+        }
+      }
+    },
+    {
+      "id": "板门店宣言",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "板门店宣言"
+        ],
+        "en": [
+          "Panmunjom Declaration"
+        ]
+      },
+      "properties": {
+        "period": "2018-04-27",
+        "description": {
+          "zh-cn": "2018年朝韩首脑会晤签署的共同宣言，提议将非军事区转换为和平地带。",
+          "en": "A joint declaration signed during the 2018 Inter-Korean Summit, which proposed converting the DMZ into a peace zone."
+        }
+      }
+    },
+    {
+      "id": "2018年4月朝韩首脑会晤",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2018年4月朝韩首脑会晤",
+          "南北韩高峰会"
+        ],
+        "en": [
+          "April 2018 inter-Korean summit"
+        ]
+      },
+      "properties": {
+        "period": "2018-04-27",
+        "description": {
+          "zh-cn": "朝鲜和韩国领导人举行的会晤，签署了《板门店宣言》。",
+          "en": "A meeting between the leaders of North and South Korea, which resulted in the signing of the Panmunjom Declaration."
+        }
+      }
+    },
+    {
+      "id": "朝鲜人民军总参谋部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "朝鲜人民军总参谋部"
+        ],
+        "en": [
+          "General Staff Department of the Korean People's Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜人民军的最高军事指挥机关。",
+          "en": "The supreme military command organ of the Korean People's Army."
+        }
+      }
+    },
+    {
+      "id": "青瓦台事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "青瓦台事件"
+        ],
+        "en": [
+          "Blue House raid"
+        ]
+      },
+      "properties": {
+        "period": "1968-01-17",
+        "description": {
+          "zh-cn": "1968年朝鲜特种部队人员企图潜入青瓦台暗杀韩国总统朴正熙的事件。",
+          "en": "An incident in 1968 where North Korean special forces commandos attempted to infiltrate the Blue House to assassinate South Korean President Park Chung-hee."
+        }
+      }
+    },
+    {
+      "id": "朴正熙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朴正熙"
+        ],
+        "en": [
+          "Park Chung-hee"
+        ]
+      },
+      "properties": {
+        "lifetime": "1917-11-14 - 1979-10-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "大韩民国前总统，是1968年青瓦台事件的暗杀目标。",
+          "en": "Former President of the Republic of Korea, who was the target of the assassination attempt in the 1968 Blue House raid."
+        }
+      }
+    },
+    {
+      "id": "板门店事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "板门店事件",
+          "斧头杀人事件",
+          "杨树事件"
+        ],
+        "en": [
+          "Axe murder incident"
+        ]
+      },
+      "properties": {
+        "period": "1976-08-18",
+        "description": {
+          "zh-cn": "在共同警备区内，美军人员在砍伐杨树时遭到朝鲜军人攻击，导致两名美军军官死亡的冲突事件。",
+          "en": "A conflict in the Joint Security Area where U.S. military personnel were attacked by North Korean soldiers while trimming a poplar tree, resulting in the deaths of two U.S. officers."
+        }
+      }
+    },
+    {
+      "id": "阿瑟·柏尼法斯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿瑟·柏尼法斯"
+        ],
+        "en": [
+          "Arthur Bonifas"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国陆军上尉，在1976年板门店事件中被朝鲜士兵杀害。",
+          "en": "A captain in the United States Army who was killed by North Korean soldiers in the 1976 axe murder incident."
+        }
+      }
+    },
+    {
+      "id": "马克·巴雷特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马克·巴雷特"
+        ],
+        "en": [
+          "Mark Barrett"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国陆军军官，在1976年板门店事件中与阿瑟·柏尼法斯一同被朝鲜士兵杀害。",
+          "en": "A United States Army officer who was killed along with Arthur Bonifas by North Korean soldiers in the 1976 axe murder incident."
+        }
+      }
+    },
+    {
+      "id": "柏尼法斯营",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "柏尼法斯营"
+        ],
+        "en": [
+          "Camp Bonifas"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于朝韩非军事区南部边界附近的联合国军军事基地，以在板门店事件中牺牲的阿瑟·柏尼法斯上尉命名。",
+          "en": "A United Nations Command military post located near the southern boundary of the DMZ, named in honor of Captain Arthur Bonifas who was killed in the axe murder incident."
+        }
+      }
+    },
+    {
+      "id": "朝鲜第一地道",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "朝鲜第一地道"
+        ],
+        "en": [
+          "First Tunnel of Aggression"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1974年发现的第一条由朝鲜挖掘穿过非军事区的渗透隧道。",
+          "en": "The first infiltration tunnel dug by North Korea under the DMZ, discovered in 1974."
+        }
+      }
+    },
+    {
+      "id": "罗伯特·巴林尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗伯特·巴林尔"
+        ],
+        "en": [
+          "Robert M. Ballinger"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国海军指挥官，在探索朝鲜第一地道时因朝鲜安装的爆裂物而身亡。",
+          "en": "A U.S. Navy commander who was killed by a North Korean explosive device while exploring the First Tunnel of Aggression."
+        }
+      }
+    },
+    {
+      "id": "金河哲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "金河哲"
+        ],
+        "en": [
+          "Kim Ha-chul"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "韩国海军陆战队少将，在探索朝鲜第一地道时因朝鲜安装的爆裂物而身亡。",
+          "en": "A ROK Marine Corps major who was killed by a North Korean explosive device while exploring the First Tunnel of Aggression."
+        }
+      }
+    },
+    {
+      "id": "特拉维斯·金",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "特拉维斯·金"
+        ],
+        "en": [
+          "Travis King"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美军士兵，于2023年在板门店旅游时闯入朝鲜境内并被拘留。",
+          "en": "A U.S. Army soldier who crossed into North Korea during a tour of Panmunjom in 2023 and was detained."
+        }
+      }
+    },
+    {
+      "id": "朴旺子",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朴旺子"
+        ],
+        "en": [
+          "Park Wang-ja"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 2008-07-11",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "韩国女游客，2008年在金刚山观光地区因误入军事区而被朝鲜哨兵射杀。",
+          "en": "A South Korean female tourist who was shot and killed by a North Korean guard in 2008 after straying into a military zone in the Mount Kumgang Tourist Region."
+        }
+      }
+    },
+    {
+      "id": "金刚山观光地区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "金刚山观光地区"
+        ],
+        "en": [
+          "Mount Kumgang Tourist Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于朝鲜的一个特别行政区，曾是朝韩合作的旅游项目地。",
+          "en": "A special administrative region in North Korea, formerly the site of an inter-Korean tourism project."
+        }
+      }
+    },
+    {
+      "id": "机井洞",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "机井洞",
+          "和平村",
+          "宣传村"
+        ],
+        "en": [
+          "Kijong-dong",
+          "Peace Village",
+          "Propaganda Village"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于非军事区北侧的朝鲜村庄，被外界认为是为政治宣传而建的无人居住村庄。",
+          "en": "A village on the northern side of the DMZ, widely believed to be an uninhabited propaganda village built for political purposes."
+        }
+      }
+    },
+    {
+      "id": "台城洞",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台城洞",
+          "自由村"
+        ],
+        "en": [
+          "Daeseong-dong",
+          "Freedom Village"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于非军事区南侧的韩国村庄，是韩方非军事区内唯一有平民居住的聚落。",
+          "en": "A village on the southern side of the DMZ, the only civilian settlement within the South Korean portion of the DMZ."
+        }
+      }
+    },
+    {
+      "id": "卢武铉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卢武铉"
+        ],
+        "en": [
+          "Roh Moo-hyun"
+        ]
+      },
+      "properties": {
+        "lifetime": "1946-09-01 - 2009-05-23",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "大韩民国前总统，于2007年步行穿过军事分界线访问朝鲜。",
+          "en": "Former President of the Republic of Korea, who walked across the Military Demarcation Line in 2007 to visit North Korea."
+        }
+      }
+    },
+    {
+      "id": "金正日",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "金正日"
+        ],
+        "en": [
+          "Kim Jong-il"
+        ]
+      },
+      "properties": {
+        "lifetime": "1941-02-16 - 2011-12-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "朝鲜民主主义人民共和国前最高领导人，朝鲜劳动党总书记，曾与韩国总统卢武铉举行首脑会谈。",
+          "en": "Former supreme leader of the Democratic People's Republic of Korea and General Secretary of the Workers' Party of Korea, who held a summit meeting with South Korean President Roh Moo-hyun."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "朝鲜战争",
+      "target": "朝鲜停战协定",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1953-07-27",
+        "description": {
+          "zh-cn": "历时三年的朝鲜战争最终以签署《朝鲜停战协定》而告终。",
+          "en": "The three-year Korean War concluded with the signing of the Korean Armistice Agreement."
+        }
+      }
+    },
+    {
+      "source": "朝鲜停战协定",
+      "target": "朝韩非军事区",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1953-07-27",
+        "description": {
+          "zh-cn": "《朝鲜停战协定》规定建立一条总宽4公里的非军事区，将朝鲜半岛分隔为南北两部分。",
+          "en": "The Korean Armistice Agreement stipulated the establishment of a 4-kilometer-wide demilitarized zone to separate the Korean Peninsula into northern and southern parts."
+        }
+      }
+    },
+    {
+      "source": "中国人民志愿军",
+      "target": "朝鲜停战协定",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1953-07-27",
+        "description": {
+          "zh-cn": "中国人民志愿军是《朝鲜停战协定》的签署方之一。",
+          "en": "The Chinese People's Volunteer Army was one of the signatories of the Korean Armistice Agreement."
+        }
+      }
+    },
+    {
+      "source": "朝鲜人民军",
+      "target": "朝鲜停战协定",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1953-07-27",
+        "description": {
+          "zh-cn": "朝鲜人民军是《朝鲜停战协定》的签署方之一。",
+          "en": "The Korean People's Army was one of the signatories of the Korean Armistice Agreement."
+        }
+      }
+    },
+    {
+      "source": "联合国军 (朝鲜战争)",
+      "target": "朝鲜停战协定",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1953-07-27",
+        "description": {
+          "zh-cn": "联合国军是《朝鲜停战协定》的签署方之一。",
+          "en": "The United Nations Command was one of the signatories of the Korean Armistice Agreement."
+        }
+      }
+    },
+    {
+      "source": "朝鲜人民军",
+      "target": "朝韩非军事区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1953",
+        "position": {
+          "zh-cn": "驻军",
+          "en": "Garrison"
+        },
+        "description": {
+          "zh-cn": "朝鲜人民军自1953年起在非军事区北侧驻防。",
+          "en": "The Korean People's Army has been garrisoned on the northern side of the DMZ since 1953."
+        }
+      }
+    },
+    {
+      "source": "中国人民志愿军",
+      "target": "朝韩非军事区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1953",
+        "end_date": "1958",
+        "position": {
+          "zh-cn": "作战部队",
+          "en": "Combat troops"
+        },
+        "description": {
+          "zh-cn": "中国人民志愿军作战部队于1953年至1958年间驻扎于非军事区，后撤离朝鲜。",
+          "en": "Combat troops of the Chinese People's Volunteer Army were stationed in the DMZ from 1953 to 1958, before withdrawing from Korea."
+        }
+      }
+    },
+    {
+      "source": "联合国军 (朝鲜战争)",
+      "target": "朝韩非军事区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1953",
+        "position": {
+          "zh-cn": "驻军",
+          "en": "Garrison"
+        },
+        "description": {
+          "zh-cn": "联合国军自1953年起在非军事区南侧驻防。",
+          "en": "The United Nations Command has been garrisoned on the southern side of the DMZ since 1953."
+        }
+      }
+    },
+    {
+      "source": "大韩民国国军",
+      "target": "朝韩非军事区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1953",
+        "position": {
+          "zh-cn": "驻军",
+          "en": "Garrison"
+        },
+        "description": {
+          "zh-cn": "韩国国军自1953年起在非军事区南侧驻防。",
+          "en": "The ROK Armed Forces have been garrisoned on the southern side of the DMZ since 1953."
+        }
+      }
+    },
+    {
+      "source": "2018年4月朝韩首脑会晤",
+      "target": "板门店宣言",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2018-04-27",
+        "description": {
+          "zh-cn": "在2018年4月的朝韩首脑会晤上，双方签署了《板门店宣言》。",
+          "en": "The Panmunjom Declaration was signed during the inter-Korean summit in April 2018."
+        }
+      }
+    },
+    {
+      "source": "板门店宣言",
+      "target": "朝韩非军事区",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2018-05-01",
+        "description": {
+          "zh-cn": "《板门店宣言》提议将南北韩非军事区转换成和平地带。",
+          "en": "The Panmunjom Declaration proposed transforming the inter-Korean DMZ into a peace zone."
+        }
+      }
+    },
+    {
+      "source": "朝鲜人民军总参谋部",
+      "target": "板门店宣言",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020-06-16",
+        "description": {
+          "zh-cn": "为了报复韩国脱北者放飞传单一事，朝鲜人民军总参谋部警告会再次在非军事区内驻军，与《板门店宣言》的目标相悖。",
+          "en": "In retaliation for North Korean defectors in South Korea sending leaflets, the KPA General Staff Department warned it would re-garrison troops in the DMZ, contradicting the goals of the Panmunjom Declaration."
+        }
+      }
+    },
+    {
+      "source": "朝鲜民主主义人民共和国",
+      "target": "青瓦台事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1968-01-17",
+        "description": {
+          "zh-cn": "朝鲜派遣特种部队人员发动了旨在暗杀韩国总统朴正熙的青瓦台事件。",
+          "en": "North Korea dispatched special forces commandos to carry out the Blue House raid, an attempt to assassinate South Korean President Park Chung-hee."
+        }
+      }
+    },
+    {
+      "source": "青瓦台事件",
+      "target": "朴正熙",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1968-01-17",
+        "description": {
+          "zh-cn": "青瓦台事件是一次针对时任韩国总统朴正熙的未遂暗杀行动。",
+          "en": "The Blue House raid was a failed assassination attempt against the then-President of South Korea, Park Chung-hee."
+        }
+      }
+    },
+    {
+      "source": "板门店事件",
+      "target": "阿瑟·柏尼法斯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-08-18",
+        "description": {
+          "zh-cn": "在板门店事件中，美国陆军上尉阿瑟·柏尼法斯被朝鲜士兵用斧头砍死。",
+          "en": "During the axe murder incident, U.S. Army Captain Arthur Bonifas was killed with an axe by North Korean soldiers."
+        }
+      }
+    },
+    {
+      "source": "板门店事件",
+      "target": "马克·巴雷特",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1976-08-18",
+        "description": {
+          "zh-cn": "在板门店事件中，美国陆军军官马克·巴雷特被朝鲜士兵用斧头砍死。",
+          "en": "During the axe murder incident, U.S. Army officer Mark Barrett was killed with an axe by North Korean soldiers."
+        }
+      }
+    },
+    {
+      "source": "柏尼法斯营",
+      "target": "阿瑟·柏尼法斯",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1986-08-18",
+        "description": {
+          "zh-cn": "该营地于1986年8月18日更名为柏尼法斯营，以纪念在板门店事件中牺牲的阿瑟·柏尼法斯上尉。",
+          "en": "The camp was renamed Camp Bonifas on August 18, 1986, in honor of Captain Arthur Bonifas who was killed in the axe murder incident."
+        }
+      }
+    },
+    {
+      "source": "朝鲜民主主义人民共和国",
+      "target": "朝鲜第一地道",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "朝鲜方面秘密挖掘了多条旨在渗透韩国的地下隧道，第一条于1974年被发现。",
+          "en": "North Korea secretly dug several underground tunnels intended for infiltrating South Korea; the first was discovered in 1974."
+        }
+      }
+    },
+    {
+      "source": "朝鲜第一地道",
+      "target": "罗伯特·巴林尔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-11",
+        "description": {
+          "zh-cn": "美国海军指挥官罗伯特·巴林尔在探索第一条隧道时，因触发朝鲜设置的诡雷而身亡。",
+          "en": "U.S. Navy Commander Robert M. Ballinger was killed while exploring the first tunnel when a North Korean booby trap was triggered."
+        }
+      }
+    },
+    {
+      "source": "朝鲜第一地道",
+      "target": "金河哲",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-11",
+        "description": {
+          "zh-cn": "韩国海军陆战队少将金河哲在探索第一条隧道时，因触发朝鲜设置的诡雷而身亡。",
+          "en": "ROK Marine Corps Major Kim Ha-chul was killed while exploring the first tunnel when a North Korean booby trap was triggered."
+        }
+      }
+    },
+    {
+      "source": "朝鲜民主主义人民共和国",
+      "target": "特拉维斯·金",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2023-07-18",
+        "description": {
+          "zh-cn": "美军士兵特拉维斯·金闯入朝鲜境内后，被朝鲜当局拘留。",
+          "en": "After U.S. soldier Travis King crossed into North Korea, he was detained by North Korean authorities."
+        }
+      }
+    },
+    {
+      "source": "朝鲜人民军",
+      "target": "朴旺子",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2008-07-11",
+        "description": {
+          "zh-cn": "韩国游客朴旺子在金刚山观光地区因误入军事禁区而被朝鲜哨兵射杀。",
+          "en": "South Korean tourist Park Wang-ja was shot and killed by a North Korean guard after straying into a restricted military area in the Mount Kumgang Tourist Region."
+        }
+      }
+    },
+    {
+      "source": "朴旺子",
+      "target": "金刚山观光地区",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2008-07-11",
+        "description": {
+          "zh-cn": "朴旺子被射杀事件发生后，韩国政府立即暂停了所有前往金刚山的旅游项目。",
+          "en": "Following the shooting death of Park Wang-ja, the South Korean government immediately suspended all tours to the Mount Kumgang region."
+        }
+      }
+    },
+    {
+      "source": "朝鲜民主主义人民共和国",
+      "target": "机井洞",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1950s",
+        "description": {
+          "zh-cn": "朝鲜于1950年代在非军事区内建立了机井洞，作为对外宣传的“和平村”。",
+          "en": "North Korea established Kijong-dong in the 1950s within the DMZ as a 'Peace Village' for propaganda purposes."
+        }
+      }
+    },
+    {
+      "source": "大韩民国",
+      "target": "台城洞",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "韩国在停战协定后于非军事区内建立了台城洞，作为其“自由村”。",
+          "en": "After the armistice agreement, South Korea established Daeseong-dong within the DMZ as its 'Freedom Village'."
+        }
+      }
+    },
+    {
+      "source": "卢武铉",
+      "target": "金正日",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2007-10-02",
+        "description": {
+          "zh-cn": "2007年10月2日，时任韩国总统卢武铉访问平壤，与朝鲜劳动党总书记金正日举行了南北韩首脑会谈。",
+          "en": "On October 2, 2007, then-South Korean President Roh Moo-hyun visited Pyongyang and held an inter-Korean summit with Kim Jong-il, General Secretary of the Workers' Party of Korea."
+        }
+      }
+    }
+  ]
+}

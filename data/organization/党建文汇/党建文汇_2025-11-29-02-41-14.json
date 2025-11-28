@@ -1,0 +1,233 @@
+{
+  "nodes": [
+    {
+      "id": "党建文汇",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "党建文汇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1987 - ",
+        "location": {
+          "zh-cn": "沈阳",
+          "en": "Shenyang"
+        },
+        "description": {
+          "zh-cn": "一本与中国共产党“党的建设”理论有关的月刊，1987年创刊于辽宁沈阳。",
+          "en": "A monthly magazine related to the 'party building' theory of the Communist Party of China, founded in Shenyang, Liaoning in 1987."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and sole ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "辽宁",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "辽宁"
+        ],
+        "en": [
+          "Liaoning"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国省级行政区，省会为沈阳市。",
+          "en": "A province of the People's Republic of China, with Shenyang as its capital."
+        }
+      }
+    },
+    {
+      "id": "沈阳",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "沈阳",
+          "沈阳市"
+        ],
+        "en": [
+          "Shenyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "辽宁省省会，《党建文汇》创刊地及编辑部所在地。",
+          "en": "The capital of Liaoning province, and the place where 'Dangjian Wenhui' was founded and its editorial office is located."
+        }
+      }
+    },
+    {
+      "id": "中共辽宁省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共辽宁省委"
+        ],
+        "en": [
+          "Liaoning Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在辽宁省的领导机关。",
+          "en": "The leading body of the Communist Party of China in Liaoning Province."
+        }
+      }
+    },
+    {
+      "id": "共产党员 (杂志)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "共产党员 (杂志)",
+          "共产党员"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "隶属于中共辽宁省委的杂志社，主办《党建文汇》。",
+          "en": "A magazine agency affiliated with the Liaoning Provincial Committee of the CPC, which hosts 'Dangjian Wenhui'."
+        }
+      }
+    },
+    {
+      "id": "和平区 (沈阳市)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "和平区 (沈阳市)",
+          "和平区"
+        ],
+        "en": [
+          "Heping District, Shenyang"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "辽宁省沈阳市的市辖区，《党建文汇》编辑部所在地。",
+          "en": "A district of Shenyang, Liaoning, where the editorial office of 'Dangjian Wenhui' is located."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国革命家、政治家、理论家，中华人民共和国的主要缔造者和第一代最高领导人。",
+          "en": "A Chinese communist revolutionary who was the founder of the People's Republic of China, and ruled as the chairman of the Communist Party of China from its establishment in 1949 until his death in 1976."
+        }
+      }
+    },
+    {
+      "id": "邓小平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邓小平"
+        ],
+        "en": [
+          "Deng Xiaoping"
+        ]
+      },
+      "properties": {
+        "lifetime": "1904-08-22 - 1997-02-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国革命家、政治家，中华人民共和国的第二代最高领导人，改革开放的总设计师。",
+          "en": "A Chinese revolutionary leader, paramount leader of the People's Republic of China from December 1978 to November 1989."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "共产党员 (杂志)",
+      "target": "党建文汇",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1987",
+        "description": {
+          "zh-cn": "《党建文汇》由《共产党员》杂志社主办。",
+          "en": "'Dangjian Wenhui' is hosted by the 'Communist Party Member' magazine agency."
+        }
+      }
+    },
+    {
+      "source": "共产党员 (杂志)",
+      "target": "中共辽宁省委",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "《共产党员》杂志社是中共辽宁省委旗下的机构。",
+          "en": "The 'Communist Party Member' magazine agency is an institution under the Liaoning Provincial Committee of the CPC."
+        }
+      }
+    },
+    {
+      "source": "党建文汇",
+      "target": "中国共产党",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1987",
+        "description": {
+          "zh-cn": "《党建文汇》是一本宣传中国共产党“党的建设”理论的刊物。",
+          "en": "'Dangjian Wenhui' is a publication that promotes the 'party building' theory of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "党建文汇",
+      "target": "毛泽东",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《党建文汇》发表过研究毛泽东的文章，以推广其相关研究。",
+          "en": "'Dangjian Wenhui' has published articles studying Mao Zedong to promote related research."
+        }
+      }
+    },
+    {
+      "source": "党建文汇",
+      "target": "邓小平",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《党建文汇》发表过研究邓小平的文章，以推广其相关研究。",
+          "en": "'Dangjian Wenhui' has published articles studying Deng Xiaoping to promote related research."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "nodes": [
+    {
+      "id": "彭智勇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭智勇"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1963-02-03 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "大足县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，重庆大足人。",
+          "en": "A political figure in the People's Republic of China, from Dazu, Chongqing."
+        }
+      }
+    },
+    {
+      "id": "大足县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "大足县",
+          "大足"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "重庆",
+          "en": "Chongqing"
+        },
+        "description": {
+          "zh-cn": "重庆市下辖县。",
+          "en": "A county under the jurisdiction of Chongqing."
+        }
+      }
+    },
+    {
+      "id": "西南师范学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西南师范学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国高等教育机构，是西南大学的前身之一。",
+          "en": "An institution of higher education in China, one of the predecessors of Southwest University."
+        }
+      }
+    },
+    {
+      "id": "重庆巴蜀中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "重庆巴蜀中学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国重庆市的一所著名中学。",
+          "en": "A well-known middle school located in Chongqing, China."
+        }
+      }
+    },
+    {
+      "id": "重庆市教育委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "重庆市教育委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "负责重庆市教育工作的市政府组成部门。",
+          "en": "A component department of the Chongqing Municipal Government responsible for education."
+        }
+      }
+    },
+    {
+      "id": "中共重庆市九龙坡区委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共重庆市九龙坡区委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在重庆市九龙坡区的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Jiulongpo District, Chongqing."
+        }
+      }
+    },
+    {
+      "id": "2013年重庆官场不雅照事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2013年重庆官场不雅照事件",
+          "重庆官场不雅照事件"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2013-01",
+        "description": {
+          "zh-cn": "2013年1月爆发的涉及多名重庆市官员的政治丑闻事件。",
+          "en": "A political scandal that broke out in January 2013 involving multiple officials in Chongqing."
+        }
+      }
+    },
+    {
+      "id": "中共重庆市委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共重庆市委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在重庆市的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Chongqing."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "彭智勇",
+      "target": "大足县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "彭智勇是重庆大足人。",
+          "en": "Peng Zhiyong is from Dazu, Chongqing."
+        }
+      }
+    },
+    {
+      "source": "彭智勇",
+      "target": "西南师范学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1988",
+        "degree": {
+          "zh-cn": "理学学士",
+          "en": "Bachelor of Science"
+        },
+        "description": {
+          "zh-cn": "1988年毕业于西南师范学院数学系。",
+          "en": "Graduated from the Department of Mathematics at Southwest Normal College in 1988."
+        }
+      }
+    },
+    {
+      "source": "彭智勇",
+      "target": "重庆巴蜀中学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": [
+          "1988",
+          "1994-11"
+        ],
+        "end_date": [],
+        "position": {
+          "zh-cn": "教师, 常务副校长",
+          "en": "Teacher, Executive Vice Principal"
+        },
+        "description": {
+          "zh-cn": "1988年毕业后任教于重庆巴蜀中学，1994年11月起担任该校常务副校长。",
+          "en": "After graduating in 1988, he taught at Chongqing Bashu Middle School, and became the executive vice principal in November 1994."
+        }
+      }
+    },
+    {
+      "source": "彭智勇",
+      "target": "重庆市教育委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2006",
+        "end_date": [],
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "自2006年起担任重庆市教育委员会主任，至2010年时仍担任此职。",
+          "en": "Served as the Director of the Chongqing Municipal Education Commission since 2006, and was still holding this position in 2010."
+        }
+      }
+    },
+    {
+      "source": "彭智勇",
+      "target": "中共重庆市九龙坡区委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010",
+        "end_date": "2013-01",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "2010年至2013年1月，担任中共重庆市九龙坡区委书记。",
+          "en": "From 2010 to January 2013, he served as the Secretary of the CPC Chongqing Jiulongpo District Committee."
+        }
+      }
+    },
+    {
+      "source": "2013年重庆官场不雅照事件",
+      "target": "彭智勇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2013-01",
+        "end_date": "2013-01",
+        "description": {
+          "zh-cn": "因重庆官场不雅照事件，彭智勇被免去九龙坡区委书记职务。",
+          "en": "Peng Zhiyong was dismissed from his post as Secretary of the Jiulongpo District Party Committee due to the Chongqing official sex tape scandal."
+        }
+      }
+    },
+    {
+      "source": "中共重庆市委",
+      "target": "彭智勇",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2013-01",
+        "end_date": "2013-01",
+        "description": {
+          "zh-cn": "中共重庆市委于2013年1月免去了彭智勇的九龙坡区委书记职务。",
+          "en": "The CPC Chongqing Municipal Committee dismissed Peng Zhiyong from his post as Secretary of the Jiulongpo District Party Committee in January 2013."
+        }
+      }
+    },
+    {
+      "source": "彭智勇",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "彭智勇是中国共产党党员。",
+          "en": "Peng Zhiyong is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}
