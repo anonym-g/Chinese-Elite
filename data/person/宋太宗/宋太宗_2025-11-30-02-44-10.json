@@ -1,0 +1,878 @@
+{
+  "nodes": [
+    {
+      "id": "宋太宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋太宗",
+          "赵炅",
+          "赵匡义",
+          "赵光义",
+          "廷宜"
+        ],
+        "en": [
+          "Emperor Taizong of Song",
+          "Zhao Jiong",
+          "Zhao Kuangyi",
+          "Zhao Guangyi"
+        ]
+      },
+      "properties": {
+        "lifetime": "939-11-20 - 997-05-08",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "开封",
+          "en": "Kaifeng"
+        },
+        "death_place": {
+          "zh-cn": "东京",
+          "en": "Dongjing"
+        },
+        "description": {
+          "zh-cn": "北宋的第二位皇帝，宋太祖赵匡胤的胞弟。其继位充满争议，有“烛影斧声”的疑案。在位期间结束了五代十国的分裂局面，但两次伐辽失败。",
+          "en": "The second emperor of the Northern Song dynasty, younger brother of Emperor Taizu of Song. His succession is controversial, marked by the 'shadow of the candle and sound of the axe' incident. During his reign, he ended the fragmentation of the Five Dynasties and Ten Kingdoms period, but failed in two campaigns against the Liao dynasty."
+        }
+      }
+    },
+    {
+      "id": "宋太祖",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋太祖",
+          "赵匡胤"
+        ],
+        "en": [
+          "Emperor Taizu of Song"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北宋开国君主，宋太宗赵光义的胞兄。",
+          "en": "The founding emperor of the Northern Song dynasty and the elder brother of Emperor Taizong, Zhao Guangyi."
+        }
+      }
+    },
+    {
+      "id": "赵弘殷",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵弘殷",
+          "宣祖"
+        ],
+        "en": [
+          "Zhao Hongyin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋太祖赵匡胤与宋太宗赵光义的父亲，被追尊为宣祖昭武皇帝。",
+          "en": "Father of Emperor Taizu (Zhao Kuangyin) and Emperor Taizong (Zhao Guangyi) of Song, posthumously honored as Emperor Xuanzu Zhaowu."
+        }
+      }
+    },
+    {
+      "id": "昭宪太后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "昭宪太后",
+          "杜氏"
+        ],
+        "en": [
+          "Empress Dowager Zhaoxian"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "宋太祖与宋太宗的母亲，据称“金匮之盟”源于她的遗命。",
+          "en": "Mother of Emperor Taizu and Emperor Taizong. The 'Pledge of the Golden Casket' is said to have originated from her deathbed testament."
+        }
+      }
+    },
+    {
+      "id": "宋真宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋真宗",
+          "赵恒",
+          "元侃",
+          "恒"
+        ],
+        "en": [
+          "Emperor Zhenzong of Song"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋太宗第三子，北宋第三位皇帝。",
+          "en": "The third son of Emperor Taizong and the third emperor of the Northern Song dynasty."
+        }
+      }
+    },
+    {
+      "id": "赵德昭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵德昭"
+        ],
+        "en": [
+          "Zhao Dezhao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋太祖赵匡胤之子，在宋太宗继位后被逼自尽。",
+          "en": "Son of Emperor Taizu of Song, Zhao Kuangyin. He was forced to commit suicide after Emperor Taizong ascended the throne."
+        }
+      }
+    },
+    {
+      "id": "赵德芳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵德芳"
+        ],
+        "en": [
+          "Zhao Defang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋太祖赵匡胤之子，在宋太宗继位后离奇病死。",
+          "en": "Son of Emperor Taizu of Song, Zhao Kuangyin. He died mysteriously after Emperor Taizong ascended the throne."
+        }
+      }
+    },
+    {
+      "id": "赵廷美",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵廷美",
+          "光美"
+        ],
+        "en": [
+          "Zhao Tingmei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋太宗的四弟，金匮之盟中预定的皇位继承人之一，后被宋太宗贬黜至死。",
+          "en": "The fourth younger brother of Emperor Taizong, one of the designated successors in the Pledge of the Golden Casket, who was later demoted by Emperor Taizong and died in exile."
+        }
+      }
+    },
+    {
+      "id": "烛影斧声",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "烛影斧声"
+        ],
+        "en": [
+          "Shadow of the candle and sound of the axe"
+        ]
+      },
+      "properties": {
+        "period": "976-11-14 - 976-11-14",
+        "description": {
+          "zh-cn": "指宋太祖赵匡胤驾崩当晚，其弟赵光义（后来的宋太宗）被紧急召入宫中，随后太祖离奇去世的历史疑案。此事引发了宋太宗弑兄篡位的猜测。",
+          "en": "Refers to the historical mystery on the night of Emperor Taizu Zhao Kuangyin's death, when his brother Zhao Guangyi (later Emperor Taizong) was urgently summoned to the palace, after which Taizu died mysteriously. This incident led to speculation that Emperor Taizong murdered his brother to usurp the throne."
+        }
+      }
+    },
+    {
+      "id": "金匮之盟",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "金匮之盟"
+        ],
+        "en": [
+          "Pledge of the Golden Casket"
+        ]
+      },
+      "properties": {
+        "period": "961 - ",
+        "description": {
+          "zh-cn": "据称是宋太祖之母昭宪太后所立的遗命，规定皇位由兄终弟及，为宋太宗的继位提供了合法性依据，但其真实性备受争议。",
+          "en": "An alleged testament made by Empress Dowager Zhaoxian, mother of Emperor Taizu, which stipulated that the throne should be passed from elder brother to younger brother. It provided a basis of legitimacy for Emperor Taizong's succession, but its authenticity is highly disputed."
+        }
+      }
+    },
+    {
+      "id": "北宋",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北宋",
+          "宋朝"
+        ],
+        "en": [
+          "Northern Song Dynasty"
+        ]
+      },
+      "properties": {
+        "period": "960 - 1127",
+        "description": {
+          "zh-cn": "中国历史上继五代十国、下启南宋的朝代，由宋太祖赵匡胤建立。",
+          "en": "A dynasty in Chinese history that followed the Five Dynasties and Ten Kingdoms period and preceded the Southern Song, founded by Emperor Taizu Zhao Kuangyin."
+        }
+      }
+    },
+    {
+      "id": "北汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北汉"
+        ],
+        "en": [
+          "Northern Han"
+        ]
+      },
+      "properties": {
+        "period": "951 - 979",
+        "description": {
+          "zh-cn": "五代十国时期的政权之一，也是最后一个被北宋所灭的割据政权。",
+          "en": "One of the regimes during the Five Dynasties and Ten Kingdoms period, and the last separatist regime to be conquered by the Northern Song."
+        }
+      }
+    },
+    {
+      "id": "北宋统一战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "北宋统一战争"
+        ],
+        "en": [
+          "Wars of the Song unification"
+        ]
+      },
+      "properties": {
+        "period": "960 - 979",
+        "description": {
+          "zh-cn": "北宋为结束五代十国的分裂局面而进行的一系列战争。",
+          "en": "A series of wars waged by the Northern Song dynasty to end the fragmentation of the Five Dynasties and Ten Kingdoms period."
+        }
+      }
+    },
+    {
+      "id": "高粱河之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "高粱河之战"
+        ],
+        "en": [
+          "Battle of Gaoliang River"
+        ]
+      },
+      "properties": {
+        "period": "979 - 979",
+        "description": {
+          "zh-cn": "宋太宗在灭北汉后，意图一举收复燕云十六州而发动的战役，宋军大败。",
+          "en": "A battle initiated by Emperor Taizong of Song after conquering the Northern Han, in an attempt to recover the Sixteen Prefectures in one stroke, which resulted in a major defeat for the Song army."
+        }
+      }
+    },
+    {
+      "id": "耶律休哥",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "耶律休哥"
+        ],
+        "en": [
+          "Yelü Xiuge"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "辽国将领，在高粱河之战中击败宋军并射伤宋太宗。",
+          "en": "A general of the Liao dynasty who defeated the Song army and wounded Emperor Taizong at the Battle of Gaoliang River."
+        }
+      }
+    },
+    {
+      "id": "契丹",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "契丹",
+          "辽"
+        ],
+        "en": [
+          "Khitan",
+          "Liao dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由契丹族建立的朝代，与北宋长期对峙。",
+          "en": "A dynasty established by the Khitan people, which had a long-standing confrontation with the Northern Song."
+        }
+      }
+    },
+    {
+      "id": "白藤江之战 (981年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "白藤江之战 (981年)"
+        ],
+        "en": [
+          "Battle of Bạch Đằng (981)"
+        ]
+      },
+      "properties": {
+        "period": "981 - 981",
+        "description": {
+          "zh-cn": "宋太宗时期，宋军为统一交趾（越南）而发动的战役，最终以失败告终。",
+          "en": "A battle during Emperor Taizong's reign, launched by the Song army to unify Jiaozhi (Vietnam), which ultimately ended in failure."
+        }
+      }
+    },
+    {
+      "id": "潘美",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "潘美"
+        ],
+        "en": [
+          "Pan Mei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北宋将领，曾奉宋太宗之命参与灭北汉和雍熙北伐。",
+          "en": "A general of the Northern Song dynasty, who participated in the conquest of Northern Han and the Yongxi Northern Expedition under the orders of Emperor Taizong."
+        }
+      }
+    },
+    {
+      "id": "杨业",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨业"
+        ],
+        "en": [
+          "Yang Ye"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北宋将领，在雍熙北伐中兵败被俘，绝食而死。",
+          "en": "A general of the Northern Song dynasty who was defeated and captured during the Yongxi Northern Expedition and died on a hunger strike."
+        }
+      }
+    },
+    {
+      "id": "吕端",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕端"
+        ],
+        "en": [
+          "Lü Duan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋太宗时期的宰相，在太宗驾崩后，果断处置，确保了宋真宗顺利即位。",
+          "en": "A chancellor during Emperor Taizong's reign who acted decisively after the emperor's death to ensure the smooth succession of Emperor Zhenzong."
+        }
+      }
+    },
+    {
+      "id": "王继恩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王继恩"
+        ],
+        "en": [
+          "Wang Ji'en"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋太宗时期的宦官，在太宗死后企图拥立长子赵元佐，但被宰相吕端挫败。",
+          "en": "A eunuch during Emperor Taizong's reign who attempted to enthrone the eldest son Zhao Yuanzuo after Taizong's death, but was thwarted by Chancellor Lü Duan."
+        }
+      }
+    },
+    {
+      "id": "赵元佐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵元佐",
+          "元佐"
+        ],
+        "en": [
+          "Zhao Yuanzuo"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "宋太宗长子，因同情赵廷美而被废。太宗死后，王继恩等曾企图立他为帝。",
+          "en": "The eldest son of Emperor Taizong, who was deposed for sympathizing with Zhao Tingmei. After Taizong's death, Wang Ji'en and others attempted to make him emperor."
+        }
+      }
+    },
+    {
+      "id": "明德李皇后 (宋朝)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "明德李皇后 (宋朝)",
+          "明德皇后",
+          "李皇后"
+        ],
+        "en": [
+          "Empress Mingde"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "宋太宗的皇后。太宗死后，与宦官王继恩企图立元佐为帝。",
+          "en": "Empress of Emperor Taizong. After Taizong's death, she conspired with the eunuch Wang Ji'en to enthrone Zhao Yuanzuo."
+        }
+      }
+    },
+    {
+      "id": "清源军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清源军",
+          "平海军"
+        ],
+        "en": [
+          "Qingyuan Jiedushi"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "五代十国时期的割据政权，位于现今福建地区，后归降北宋。",
+          "en": "A separatist regime during the Five Dynasties and Ten Kingdoms period, located in modern-day Fujian, which later surrendered to the Northern Song."
+        }
+      }
+    },
+    {
+      "id": "吴越国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "吴越国",
+          "吴越"
+        ],
+        "en": [
+          "Wuyue"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "五代十国时期的割据政权之一，位于现今江浙地区，后纳土归降北宋。",
+          "en": "One of the separatist regimes during the Five Dynasties and Ten Kingdoms period, located in the modern Jiangsu-Zhejiang area, which later surrendered its territory to the Northern Song."
+        }
+      }
+    },
+    {
+      "id": "宋高宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋高宗",
+          "赵构"
+        ],
+        "en": [
+          "Emperor Gaozong of Song"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南宋开国皇帝，宋太宗后代。因无子，最终将皇位传给宋太祖一脉的宋孝宗。",
+          "en": "The founding emperor of the Southern Song dynasty and a descendant of Emperor Taizong. Having no sons, he eventually passed the throne to Emperor Xiaozong, a descendant of Emperor Taizu's line."
+        }
+      }
+    },
+    {
+      "id": "宋孝宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋孝宗"
+        ],
+        "en": [
+          "Emperor Xiaozong of Song"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南宋第二位皇帝，宋太祖七世孙，由宋高宗选为继承人，使得宋朝皇位重归太祖一脉。",
+          "en": "The second emperor of the Southern Song dynasty, a seventh-generation descendant of Emperor Taizu. He was chosen as successor by Emperor Gaozong, returning the imperial lineage to Taizu's line."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "宋太宗",
+      "target": "赵弘殷",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "宋太宗",
+      "target": "昭宪太后",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "宋太祖",
+      "target": "赵弘殷",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "宋太祖",
+      "target": "昭宪太后",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "赵廷美",
+      "target": "赵弘殷",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "赵廷美",
+      "target": "昭宪太后",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "宋太宗",
+      "target": "宋太祖",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "宋太宗",
+      "target": "赵廷美",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "宋真宗",
+      "target": "宋太宗",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "赵德昭",
+      "target": "宋太祖",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "赵德芳",
+      "target": "宋太祖",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "赵元佐",
+      "target": "宋太宗",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "明德李皇后 (宋朝)",
+      "target": "宋太宗",
+      "type": "SPOUSE_OF",
+      "properties": {}
+    },
+    {
+      "source": "烛影斧声",
+      "target": "宋太祖",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "976-11-14",
+        "description": {
+          "zh-cn": "烛影斧声疑案与宋太祖的突然死亡直接相关，标志着其统治的终结。",
+          "en": "The 'Shadow of the candle and sound of the axe' incident is directly related to the sudden death of Emperor Taizu, marking the end of his reign."
+        }
+      }
+    },
+    {
+      "source": "烛影斧声",
+      "target": "宋太宗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "976-11-14",
+        "description": {
+          "zh-cn": "烛影斧声疑案的直接后果是赵光义得以继承皇位，成为宋太宗。",
+          "en": "The direct consequence of the 'Shadow of the candle and sound of the axe' incident was that Zhao Guangyi was able to succeed to the throne, becoming Emperor Taizong."
+        }
+      }
+    },
+    {
+      "source": "金匮之盟",
+      "target": "宋太宗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "961",
+        "description": {
+          "zh-cn": "金匮之盟为宋太宗的兄终弟及提供了合法性依据。",
+          "en": "The Pledge of the Golden Casket provided a basis of legitimacy for Emperor Taizong's succession through the principle of passing the throne to a younger brother."
+        }
+      }
+    },
+    {
+      "source": "宋太宗",
+      "target": "赵德昭",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "宋太宗继位后，逼迫其侄赵德昭自尽。",
+          "en": "After ascending the throne, Emperor Taizong forced his nephew Zhao Dezhao to commit suicide."
+        }
+      }
+    },
+    {
+      "source": "宋太宗",
+      "target": "赵德芳",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "宋太宗继位后，其侄赵德芳离奇病死。",
+          "en": "After Emperor Taizong ascended the throne, his nephew Zhao Defang died mysteriously."
+        }
+      }
+    },
+    {
+      "source": "宋太宗",
+      "target": "赵廷美",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "宋太宗将其弟赵廷美贬黜至房州，赵廷美后死于谪所。",
+          "en": "Emperor Taizong demoted his younger brother Zhao Tingmei to Fangzhou, where he later died."
+        }
+      }
+    },
+    {
+      "source": "宋太宗",
+      "target": "清源军",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "978",
+        "description": {
+          "zh-cn": "太平兴国三年（978年），宋太宗迫使清源军（平海军）纳土归降。",
+          "en": "In 978, Emperor Taizong forced the Qingyuan Jiedushi (Pinghai Army) to surrender its territory."
+        }
+      }
+    },
+    {
+      "source": "宋太宗",
+      "target": "吴越国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "978",
+        "description": {
+          "zh-cn": "太平兴国三年（978年），宋太宗迫使吴越国纳土归降。",
+          "en": "In 978, Emperor Taizong forced the Wuyue Kingdom to surrender its territory."
+        }
+      }
+    },
+    {
+      "source": "宋太宗",
+      "target": "北汉",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "979",
+        "description": {
+          "zh-cn": "宋太宗率军灭亡北汉，结束了五代十国的分裂局面。",
+          "en": "Emperor Taizong led his army to conquer the Northern Han, ending the fragmentation of the Five Dynasties and Ten Kingdoms period."
+        }
+      }
+    },
+    {
+      "source": "宋太宗",
+      "target": "北宋统一战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "978",
+        "end_date": "979",
+        "description": {
+          "zh-cn": "宋太宗通过迫使平海军和吴越归降，以及灭亡北汉，完成了北宋的统一战争。",
+          "en": "Emperor Taizong completed the unification wars of the Northern Song by forcing the surrender of the Pinghai Jiedushi and Wuyue, and by conquering the Northern Han."
+        }
+      }
+    },
+    {
+      "source": "高粱河之战",
+      "target": "宋太宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "979",
+        "description": {
+          "zh-cn": "在高粱河之战中，宋军大败，宋太宗中箭乘驴车逃走，收复燕云十六州的计划失败。",
+          "en": "In the Battle of Gaoliang River, the Song army was defeated, and Emperor Taizong was wounded by an arrow and fled on a donkey cart, failing the plan to recover the Sixteen Prefectures."
+        }
+      }
+    },
+    {
+      "source": "耶律休哥",
+      "target": "宋太宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "979",
+        "description": {
+          "zh-cn": "在高粱河之战中，耶律休哥射伤宋太宗大腿。",
+          "en": "During the Battle of Gaoliang River, Yelü Xiuge wounded Emperor Taizong in the thigh with an arrow."
+        }
+      }
+    },
+    {
+      "source": "宋太宗",
+      "target": "契丹",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": [
+          "979",
+          "986"
+        ],
+        "description": {
+          "zh-cn": "宋太宗曾两次率军北伐辽国（契丹），均以失败告终。",
+          "en": "Emperor Taizong twice led military campaigns against the Liao dynasty (Khitan), both ending in failure."
+        }
+      }
+    },
+    {
+      "source": "白藤江之战 (981年)",
+      "target": "宋太宗",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "981",
+        "description": {
+          "zh-cn": "在白藤江之战中，宋军先胜后败，统一交趾（越南）的计划失败。",
+          "en": "In the Battle of Bạch Đằng River (981), the Song army initially won but was ultimately defeated, and the plan to unify Jiaozhi (Vietnam) failed."
+        }
+      }
+    },
+    {
+      "source": "潘美",
+      "target": "宋太宗",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "杨业",
+      "target": "宋太宗",
+      "type": "SUBORDINATE_OF",
+      "properties": {}
+    },
+    {
+      "source": "吕端",
+      "target": "宋太宗",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "宰相",
+          "en": "Chancellor"
+        }
+      }
+    },
+    {
+      "source": "吕端",
+      "target": "宋真宗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "997",
+        "description": {
+          "zh-cn": "宋太宗去世后，吕端处置得当，确保了赵恒（宋真宗）顺利即位。",
+          "en": "After Emperor Taizong's death, Lü Duan handled the situation appropriately, ensuring the smooth succession of Zhao Heng (Emperor Zhenzong)."
+        }
+      }
+    },
+    {
+      "source": "吕端",
+      "target": "王继恩",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "997",
+        "description": {
+          "zh-cn": "宋太宗去世后，吕端挫败了宦官王继恩等企图另立新帝的图谋。",
+          "en": "After Emperor Taizong's death, Lü Duan thwarted the plot by the eunuch Wang Ji'en and others to enthrone a different emperor."
+        }
+      }
+    },
+    {
+      "source": "王继恩",
+      "target": "赵元佐",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "997",
+        "description": {
+          "zh-cn": "宋太宗去世后，宦官王继恩与李皇后企图拥立太宗长子赵元佐为帝。",
+          "en": "After Emperor Taizong's death, the eunuch Wang Ji'en and Empress Li attempted to enthrone Emperor Taizong's eldest son, Zhao Yuanzuo."
+        }
+      }
+    },
+    {
+      "source": "明德李皇后 (宋朝)",
+      "target": "赵元佐",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "997",
+        "description": {
+          "zh-cn": "宋太宗去世后，李皇后与宦官王继恩企图拥立太宗长子赵元佐为帝。",
+          "en": "After Emperor Taizong's death, Empress Li and the eunuch Wang Ji'en attempted to enthrone Emperor Taizong's eldest son, Zhao Yuanzuo."
+        }
+      }
+    },
+    {
+      "source": "宋高宗",
+      "target": "宋孝宗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1162",
+        "description": {
+          "zh-cn": "宋高宗无子，最终选择宋太祖后裔宋孝宗为继承人，使宋朝皇位重归太祖一脉。",
+          "en": "As Emperor Gaozong had no sons, he ultimately chose Emperor Xiaozong, a descendant of Emperor Taizu, as his successor, returning the imperial lineage to Taizu's line."
+        }
+      }
+    }
+  ]
+}

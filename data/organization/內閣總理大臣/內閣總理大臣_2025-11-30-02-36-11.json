@@ -1,0 +1,883 @@
+{
+  "nodes": [
+    {
+      "id": "内阁总理大臣",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "内阁总理大臣",
+          "日本首相",
+          "日本总理大臣",
+          "总理大臣",
+          "总理",
+          "首相",
+          "宰相"
+        ],
+        "en": [
+          "Prime Minister of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1885-12-22 - ",
+        "location": {
+          "zh-cn": "日本",
+          "en": "Japan"
+        },
+        "description": {
+          "zh-cn": "日本的最高行政首长，主要职责为领导日本内阁、代表政府、担任自卫队最高指挥官。",
+          "en": "The head of government of Japan, whose main duties are to lead the Cabinet of Japan, represent the government, and serve as the commander-in-chief of the Japan Self-Defense Forces."
+        }
+      }
+    },
+    {
+      "id": "高市早苗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "高市早苗"
+        ],
+        "en": [
+          "Sanae Takaichi"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "日本政治人物，现任内阁总理大臣，是近代以来首位日本女性领导人。",
+          "en": "A Japanese politician, the incumbent Prime Minister of Japan, and the first female leader of Japan in modern history."
+        }
+      }
+    },
+    {
+      "id": "伊藤博文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊藤博文"
+        ],
+        "en": [
+          "Itō Hirobumi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本政治人物，首任内阁总理大臣。",
+          "en": "A Japanese politician and the first Prime Minister of Japan."
+        }
+      }
+    },
+    {
+      "id": "片山哲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "片山哲"
+        ],
+        "en": [
+          "Tetsu Katayama"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本政治人物，首位依据《日本国宪法》就任的内阁总理大臣。",
+          "en": "A Japanese politician and the first Prime Minister to take office under the current Constitution of Japan."
+        }
+      }
+    },
+    {
+      "id": "安倍晋三",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安倍晋三"
+        ],
+        "en": [
+          "Shinzo Abe"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本政治人物，是日本宪政史上在任时间最长的内阁总理大臣。",
+          "en": "A Japanese politician who was the longest-serving Prime Minister in Japanese history."
+        }
+      }
+    },
+    {
+      "id": "日本内阁",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本内阁"
+        ],
+        "en": [
+          "Cabinet of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的行政机关。",
+          "en": "The executive branch of the government of Japan."
+        }
+      }
+    },
+    {
+      "id": "国会 (日本)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国会 (日本)",
+          "国会"
+        ],
+        "en": [
+          "National Diet of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的最高立法机关。",
+          "en": "Japan's bicameral legislature."
+        }
+      }
+    },
+    {
+      "id": "天皇",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "天皇"
+        ],
+        "en": [
+          "Emperor of Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的国家象征和日本国民统一的象征，为虚位君主。",
+          "en": "The head of the Imperial Family and the head of state of Japan, serving as a ceremonial figurehead."
+        }
+      }
+    },
+    {
+      "id": "自卫队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "自卫队"
+        ],
+        "en": [
+          "Japan Self-Defense Forces"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本的国家防卫力量。",
+          "en": "The unified military forces of Japan."
+        }
+      }
+    },
+    {
+      "id": "皇室会议",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "皇室会议"
+        ],
+        "en": [
+          "Imperial Household Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本宫内厅的合议制机关，负责审议皇室重要事项。",
+          "en": "A ten-member body in the Imperial Household Agency of Japan responsible for deliberating on important matters concerning the Imperial House."
+        }
+      }
+    },
+    {
+      "id": "明治维新",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "明治维新"
+        ],
+        "en": [
+          "Meiji Restoration"
+        ]
+      },
+      "properties": {
+        "period": "1868 - 1889",
+        "description": {
+          "zh-cn": "19世纪后期日本的一系列改革运动，旨在使日本现代化并建立中央集权政府。",
+          "en": "A series of reform events in the latter half of the 19th century in Japan, aimed at modernizing the country and establishing a centralized government."
+        }
+      }
+    },
+    {
+      "id": "内阁官制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "内阁官制"
+        ],
+        "en": [
+          "Cabinet System"
+        ]
+      },
+      "properties": {
+        "period": "1889",
+        "description": {
+          "zh-cn": "一部规范日本内阁制度的法律，规定内阁总理大臣为各国务大臣之首领。",
+          "en": "A law that regulated the Japanese cabinet system, stipulating that the Prime Minister is the head of the ministers of state."
+        }
+      }
+    },
+    {
+      "id": "军部大臣现役武官制",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "军部大臣现役武官制"
+        ],
+        "en": [
+          "System of active-duty military ministers"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "规定日本陆军大臣和海军大臣必须由现役大将或中将担任的制度，使得军部能对内阁进行干预。",
+          "en": "A system requiring the Minister of the Army and Minister of the Navy to be active-duty generals or admirals, which allowed the military to exert influence over the cabinet."
+        }
+      }
+    },
+    {
+      "id": "军部 (日本)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "军部 (日本)",
+          "军部"
+        ],
+        "en": [
+          "Military of Japan (pre-1945)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指代1945年以前大日本帝国的军事力量，特别是对政治具有强大影响力的陆军和海军。",
+          "en": "Refers to the military forces of the Empire of Japan before 1945, especially the Army and Navy, which had significant political influence."
+        }
+      }
+    },
+    {
+      "id": "元老 (日本)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "元老 (日本)",
+          "元老"
+        ],
+        "en": [
+          "Genrō"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本明治时代的非官方荣誉职位，由一群退休的资深政治家组成，是天皇的最高顾问，在决定首相人选等重大国事上拥有影响力。",
+          "en": "An unofficial honorary position in Meiji Japan, consisting of a group of retired elder statesmen who served as the emperor's most trusted advisors and held influence over major state affairs, including the selection of the Prime Minister."
+        }
+      }
+    },
+    {
+      "id": "重臣会议（日本）",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "重臣会议（日本）",
+          "重臣会议"
+        ],
+        "en": [
+          "Senior Statesmen Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本昭和时代取代元老功能的会议，由历任首相、枢密院议长等重臣组成，负责向天皇推荐下任首相人选。",
+          "en": "A council in Shōwa-era Japan that replaced the function of the genrō, composed of former prime ministers, presidents of the Privy Council, and other senior statesmen, responsible for recommending the next prime minister to the Emperor."
+        }
+      }
+    },
+    {
+      "id": "日本国宪法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "日本国宪法"
+        ],
+        "en": [
+          "Constitution of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1947-05-03 - ",
+        "description": {
+          "zh-cn": "日本的现行宪法，在第二次世界大战后制定，确立了国民主权、基本人权的尊重以及和平主义的原则。",
+          "en": "The current constitution of Japan, enacted after World War II, establishing the principles of popular sovereignty, respect for fundamental human rights, and pacifism."
+        }
+      }
+    },
+    {
+      "id": "盟军占领日本",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "盟军占领日本"
+        ],
+        "en": [
+          "Occupation of Japan"
+        ]
+      },
+      "properties": {
+        "period": "1945 - 1952",
+        "description": {
+          "zh-cn": "第二次世界大战后，由以美国为首的同盟国对日本进行的军事占领。",
+          "en": "The military occupation of Japan by the Allied Powers, led by the United States, following World War II."
+        }
+      }
+    },
+    {
+      "id": "驻日盟军总司令部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "驻日盟军总司令部"
+        ],
+        "en": [
+          "Supreme Commander for the Allied Powers"
+        ]
+      },
+      "properties": {
+        "period": "1945 - 1952",
+        "description": {
+          "zh-cn": "二战后负责管理日本的同盟国机构，在占领期间对日本的政治、经济和社会改革进行了指导。",
+          "en": "The Allied institution responsible for governing Japan after World War II, which guided the country's political, economic, and social reforms during the occupation."
+        }
+      }
+    },
+    {
+      "id": "国务大臣 (日本)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务大臣 (日本)",
+          "国务大臣"
+        ],
+        "en": [
+          "Minister of State (Japan)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本内阁的成员，由内阁总理大臣任命。",
+          "en": "A member of the Cabinet of Japan, appointed by the Prime Minister."
+        }
+      }
+    },
+    {
+      "id": "木原稔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "木原稔"
+        ],
+        "en": [
+          "Minoru Kihara"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "内阁官房长官",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "内阁官房长官"
+        ],
+        "en": [
+          "Chief Cabinet Secretary"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本内阁中的重要职位，负责领导内阁官房、协调各部门政策，并担任政府主要发言人。",
+          "en": "A key position in the Japanese Cabinet, responsible for leading the Cabinet Secretariat, coordinating policies among ministries, and serving as the chief government spokesperson."
+        }
+      }
+    },
+    {
+      "id": "茂木敏充",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "茂木敏充"
+        ],
+        "en": [
+          "Toshimitsu Motegi"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "外务大臣 (日本)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "外务大臣 (日本)",
+          "外务大臣"
+        ],
+        "en": [
+          "Minister for Foreign Affairs (Japan)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本内阁中负责外交事务的国务大臣。",
+          "en": "The Minister of State in the Japanese Cabinet responsible for foreign affairs."
+        }
+      }
+    },
+    {
+      "id": "林芳正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林芳正"
+        ],
+        "en": [
+          "Yoshimasa Hayashi"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "总务大臣",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "总务大臣"
+        ],
+        "en": [
+          "Minister for Internal Affairs and Communications"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本内阁中负责国家行政组织、地方自治、资讯通信等事务的国务大臣。",
+          "en": "The Minister of State in the Japanese Cabinet responsible for national administrative organization, local autonomy, information and communications, etc."
+        }
+      }
+    },
+    {
+      "id": "金子恭之",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "金子恭之"
+        ],
+        "en": [
+          "Yasushi Kaneko"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "国土交通大臣",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国土交通大臣"
+        ],
+        "en": [
+          "Minister of Land, Infrastructure, Transport and Tourism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本内阁中负责国土规划、交通运输、旅游业等事务的国务大臣。",
+          "en": "The Minister of State in the Japanese Cabinet responsible for national land planning, transport, tourism, etc."
+        }
+      }
+    },
+    {
+      "id": "赤泽亮正",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赤泽亮正"
+        ],
+        "en": [
+          "Ryōsei Akazawa"
+        ]
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "经济产业大臣",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "经济产业大臣"
+        ],
+        "en": [
+          "Minister of Economy, Trade and Industry"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本内阁中负责经济、产业、贸易、能源等事务的国务大臣。",
+          "en": "The Minister of State in the Japanese Cabinet responsible for economy, industry, trade, energy, etc."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "高市早苗",
+      "target": "内阁总理大臣",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2025-10-21",
+        "position": {
+          "zh-cn": "内阁总理大臣",
+          "en": "Prime Minister of Japan"
+        },
+        "description": {
+          "zh-cn": "高市早苗于2025年10月21日就任日本第104任内阁总理大臣，是近代以来首位日本女性领导人。",
+          "en": "Sanae Takaichi took office as the 104th Prime Minister of Japan on October 21, 2025, becoming the first female leader of Japan in modern history."
+        }
+      }
+    },
+    {
+      "source": "伊藤博文",
+      "target": "内阁总理大臣",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1885-12-22",
+        "position": {
+          "zh-cn": "内阁总理大臣",
+          "en": "Prime Minister of Japan"
+        },
+        "description": {
+          "zh-cn": "伊藤博文于1885年12月22日就任首任内阁总理大臣。",
+          "en": "Itō Hirobumi took office as the first Prime Minister of Japan on December 22, 1885."
+        }
+      }
+    },
+    {
+      "source": "片山哲",
+      "target": "内阁总理大臣",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1947-05-24",
+        "position": {
+          "zh-cn": "内阁总理大臣",
+          "en": "Prime Minister of Japan"
+        },
+        "description": {
+          "zh-cn": "片山哲是首位依据《日本国宪法》于1947年5月24日就任的内阁总理大臣。",
+          "en": "Tetsu Katayama was the first Prime Minister to take office under the Constitution of Japan, on May 24, 1947."
+        }
+      }
+    },
+    {
+      "source": "安倍晋三",
+      "target": "内阁总理大臣",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "内阁总理大臣",
+          "en": "Prime Minister of Japan"
+        },
+        "description": {
+          "zh-cn": "安倍晋三是日本宪政史上在任时间最长的内阁总理大臣。",
+          "en": "Shinzo Abe was the longest-serving Prime Minister in the history of constitutional government in Japan."
+        }
+      }
+    },
+    {
+      "source": "明治维新",
+      "target": "内阁总理大臣",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1885",
+        "description": {
+          "zh-cn": "日本内阁总理大臣的职位是在1885年明治维新期间随着内阁制度的创立而设立的。",
+          "en": "The position of Prime Minister of Japan was established in 1885 during the Meiji Restoration with the creation of the cabinet system."
+        }
+      }
+    },
+    {
+      "source": "内阁官制",
+      "target": "内阁总理大臣",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1889",
+        "description": {
+          "zh-cn": "1889年颁布的《内阁官制》为内阁总理大臣职务提供了法源依据，规定其为“各（国务）大臣之首领”。",
+          "en": "The Cabinet System Law, promulgated in 1889, provided a legal basis for the office of Prime Minister, defining the holder as 'the head of each Minister (of State)'."
+        }
+      }
+    },
+    {
+      "source": "日本国宪法",
+      "target": "内阁总理大臣",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1947-05-03",
+        "description": {
+          "zh-cn": "现行《日本国宪法》将内阁总理大臣的职务正式列入宪法，并赋予其包括任免国务大臣在内的实质性行政权力，使其成为真正的国家行政首长。",
+          "en": "The current Constitution of Japan formally incorporated the office of Prime Minister, granting it substantial executive powers, including the appointment and dismissal of Ministers of State, making it the true head of the nation's administration."
+        }
+      }
+    },
+    {
+      "source": "盟军占领日本",
+      "target": "日本国宪法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "第二次世界大战后，在盟军占领日本期间，由驻日盟军总司令部指导制定了新的《日本国宪法》。",
+          "en": "After World War II, during the Allied occupation of Japan, the new Constitution of Japan was drafted under the guidance of the Supreme Commander for the Allied Powers."
+        }
+      }
+    },
+    {
+      "source": "驻日盟军总司令部",
+      "target": "日本国宪法",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在驻日盟军总司令部的训政指导下，日本重新制宪，诞生了现行的《日本国宪法》。",
+          "en": "Under the administrative guidance of the Supreme Commander for the Allied Powers, Japan drafted a new constitution, which is the current Constitution of Japan."
+        }
+      }
+    },
+    {
+      "source": "国会 (日本)",
+      "target": "内阁总理大臣",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "内阁总理大臣由国会全体议员在国会议员中选举产生。",
+          "en": "The Prime Minister is elected by all members of the National Diet from among the Diet members."
+        }
+      }
+    },
+    {
+      "source": "天皇",
+      "target": "内阁总理大臣",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "内阁总理大臣经国会选出后，由天皇进行象征性的任命。",
+          "en": "After being elected by the National Diet, the Prime Minister is ceremonially appointed by the Emperor."
+        }
+      }
+    },
+    {
+      "source": "元老 (日本)",
+      "target": "内阁总理大臣",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在职位设立初期及大正民主之前，内阁总理大臣通常由元老向天皇荐举产生。",
+          "en": "In the early days of the office and before the Taishō Democracy, the Prime Minister was typically chosen through recommendations made to the Emperor by the genrō."
+        }
+      }
+    },
+    {
+      "source": "重臣会议（日本）",
+      "target": "内阁总理大臣",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "昭和时代，在元老逝世后，内阁总理大臣改由内大臣召集的重臣会议举荐。",
+          "en": "In the Shōwa era, after the genrō had passed away, the Prime Minister was recommended by the Senior Statesmen Council convened by the Lord Keeper of the Privy Seal."
+        }
+      }
+    },
+    {
+      "source": "军部大臣现役武官制",
+      "target": "军部 (日本)",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "军部大臣现役武官制增强了军部的政治影响力，使其可以通过控制陆海军大臣的任命来干预甚至推翻内阁。",
+          "en": "The system of active-duty military ministers enhanced the political influence of the military, allowing it to interfere with or even topple cabinets by controlling the appointment of Army and Navy ministers."
+        }
+      }
+    },
+    {
+      "source": "军部 (日本)",
+      "target": "内阁总理大臣",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "在大日本帝国宪法时期，军部可借由军部大臣现役武官制干预内阁总理大臣及内阁的人事权，对国政施加影响。",
+          "en": "During the Meiji Constitution era, the military could influence national policy by interfering with the personnel rights of the Prime Minister and the Cabinet through the system of active-duty military ministers."
+        }
+      }
+    },
+    {
+      "source": "自卫队",
+      "target": "内阁总理大臣",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "内阁总理大臣是自卫队的最高领导，执掌最高指挥监督权。",
+          "en": "The Prime Minister is the commander-in-chief of the Japan Self-Defense Forces and holds the highest command and supervision authority over them."
+        }
+      }
+    },
+    {
+      "source": "内阁总理大臣",
+      "target": "日本内阁",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "内阁总理大臣的主要职责是领导日本内阁。",
+          "en": "The primary responsibility of the Prime Minister is to lead the Cabinet of Japan."
+        }
+      }
+    },
+    {
+      "source": "内阁总理大臣",
+      "target": "国务大臣 (日本)",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据《日本国宪法》第68条，内阁总理大臣有权任命国务大臣。",
+          "en": "According to Article 68 of the Constitution of Japan, the Prime Minister has the authority to appoint Ministers of State."
+        }
+      }
+    },
+    {
+      "source": "内阁总理大臣",
+      "target": "国务大臣 (日本)",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据《日本国宪法》第68条，内阁总理大臣有权任意罢免国务大臣。",
+          "en": "According to Article 68 of the Constitution of Japan, the Prime Minister has the authority to dismiss Ministers of State as he or she chooses."
+        }
+      }
+    },
+    {
+      "source": "内阁总理大臣",
+      "target": "皇室会议",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "议长",
+          "en": "Chairperson"
+        },
+        "description": {
+          "zh-cn": "内阁总理大臣担任皇室会议的议长。",
+          "en": "The Prime Minister serves as the Chairperson of the Imperial Household Council."
+        }
+      }
+    },
+    {
+      "source": "木原稔",
+      "target": "内阁官房长官",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2025-10-21",
+        "position": {
+          "zh-cn": "内阁官房长官",
+          "en": "Chief Cabinet Secretary"
+        },
+        "description": {
+          "zh-cn": "在内阁总理大臣临时代理的指定者中顺位第一。",
+          "en": "First in the order of succession to act as Prime Minister temporarily."
+        }
+      }
+    },
+    {
+      "source": "茂木敏充",
+      "target": "外务大臣 (日本)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2025-10-21",
+        "position": {
+          "zh-cn": "外务大臣",
+          "en": "Minister for Foreign Affairs"
+        },
+        "description": {
+          "zh-cn": "在内阁总理大臣临时代理的指定者中顺位第二。",
+          "en": "Second in the order of succession to act as Prime Minister temporarily."
+        }
+      }
+    },
+    {
+      "source": "林芳正",
+      "target": "总务大臣",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2025-10-21",
+        "position": {
+          "zh-cn": "总务大臣",
+          "en": "Minister for Internal Affairs and Communications"
+        },
+        "description": {
+          "zh-cn": "在内阁总理大臣临时代理的指定者中顺位第三。",
+          "en": "Third in the order of succession to act as Prime Minister temporarily."
+        }
+      }
+    },
+    {
+      "source": "金子恭之",
+      "target": "国土交通大臣",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2025-10-21",
+        "position": {
+          "zh-cn": "国土交通大臣",
+          "en": "Minister of Land, Infrastructure, Transport and Tourism"
+        },
+        "description": {
+          "zh-cn": "在内阁总理大臣临时代理的指定者中顺位第四。",
+          "en": "Fourth in the order of succession to act as Prime Minister temporarily."
+        }
+      }
+    },
+    {
+      "source": "赤泽亮正",
+      "target": "经济产业大臣",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2025-10-21",
+        "position": {
+          "zh-cn": "经济产业大臣",
+          "en": "Minister of Economy, Trade and Industry"
+        },
+        "description": {
+          "zh-cn": "在内阁总理大臣临时代理的指定者中顺位第五。",
+          "en": "Fifth in the order of succession to act as Prime Minister temporarily."
+        }
+      }
+    }
+  ]
+}

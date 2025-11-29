@@ -1,0 +1,867 @@
+{
+  "nodes": [
+    {
+      "id": "鲁南战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "鲁南战役",
+          "鲁南会战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1947-01-02 - 1947-01-20",
+        "location": {
+          "zh-cn": "山东省南部",
+          "en": "Southern Shandong Province"
+        },
+        "description": {
+          "zh-cn": "第二次国共内战期间于1947年1月发生在山东省南部的一场战役，以中国人民解放军的胜利结束。",
+          "en": "A battle that took place in southern Shandong Province in January 1947 during the Second Chinese Civil War, ending in a decisive victory for the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "第二次国共内战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第二次国共内战"
+        ],
+        "en": [
+          "Second Chinese Civil War"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1945年至1950年间，中国共产党与中国国民党领导的中华民国政府之间爆发的内战。",
+          "en": "A civil war fought between the Communist Party of China and the Kuomintang-led government of the Republic of China from 1945 to 1950."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军"
+        ],
+        "en": [
+          "People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的武装力量。",
+          "en": "The armed forces of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "新四军兼山东军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新四军兼山东军区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次国共内战时期中国人民解放军在山东的军事组织。",
+          "en": "A military organization of the People's Liberation Army in Shandong during the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "山东野战军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东野战军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次国共内战时期中国人民解放军的一支重要作战部队。",
+          "en": "A major combat force of the People's Liberation Army during the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "华中野战军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华中野战军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次国共内战时期中国人民解放军的一支重要作战部队。",
+          "en": "A major combat force of the People's Liberation Army during the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": [
+          "Nationalist Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1925年至1948年中华民国的中央政府与最高行政机关。",
+          "en": "The central government and highest administrative body of the Republic of China from 1925 to 1948."
+        }
+      }
+    },
+    {
+      "id": "国民革命军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军"
+        ],
+        "en": [
+          "National Revolutionary Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1925年至1947年间中华民国的国家军队。",
+          "en": "The national army of the Republic of China from 1925 to 1947."
+        }
+      }
+    },
+    {
+      "id": "国民革命军第二十六师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军第二十六师",
+          "第二十六师",
+          "整编第二十六师"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国民革命军下辖部队，在鲁南战役中被歼灭。",
+          "en": "A unit under the National Revolutionary Army, annihilated in the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "国民革命军第五十五师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军第五十五师",
+          "第五十五师"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国民革命军下辖部队，在鲁南战役中被全歼。",
+          "en": "A unit under the National Revolutionary Army, completely annihilated in the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "国民革命军第一快速纵队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军第一快速纵队",
+          "第一快速纵队",
+          "快速纵队"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "国民革命军的机械化部队，号称“国军精华”，在鲁南战役中全军覆没。",
+          "en": "A mechanized unit of the National Revolutionary Army, known as the \"elite of the National Army,\" which was completely wiped out in the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "陈毅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈毅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国人民解放军高级将领，在鲁南战役中担任山东野战军司令员。",
+          "en": "A senior general of the People's Liberation Army who served as the commander of the Shandong Field Army during the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "粟裕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "粟裕"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国人民解放军高级将领，筹划并指挥了鲁南战役，时任华中野战军司令员。",
+          "en": "A senior general of the People's Liberation Army who planned and commanded the Lunan Campaign, serving as the commander of the Central China Field Army at the time."
+        }
+      }
+    },
+    {
+      "id": "马励武",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马励武"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "国民革命军将领，时任整编第二十六师师长，在鲁南战役中被俘。",
+          "en": "A general of the National Revolutionary Army, serving as the commander of the Reorganized 26th Division at the time, captured during the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "周毓英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周毓英"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "国民革命军将领，时任第五十五师师长，在鲁南战役中被俘。",
+          "en": "A general of the National Revolutionary Army, serving as the commander of the 55th Division at the time, captured during the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "山东省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山东省"
+        ],
+        "en": [
+          "Shandong Province"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "宿北战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "宿北战役"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "鲁南战役前夕发生的一场战役，其战后局势促使解放军筹划鲁南战役。",
+          "en": "A battle that occurred on the eve of the Lunan Campaign; its aftermath prompted the PLA to plan the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "张鼎丞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张鼎丞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党军事领导人，鲁南战役时任华中军区司令员。",
+          "en": "A military leader of the Communist Party of China, serving as the commander of the Central China Military Region during the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "张云逸",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张云逸"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党军事领导人，鲁南战役时任山东军区副司令员。",
+          "en": "A military leader of the Communist Party of China, serving as the deputy commander of the Shandong Military Region during the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "华中军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华中军区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次国共内战时期中国人民解放军在华中地区的军事组织。",
+          "en": "A military organization of the People's Liberation Army in the Central China region during the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "山东军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东军区"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次国共内战时期中国人民解放军在山东地区的军事组织。",
+          "en": "A military organization of the People's Liberation Army in the Shandong region during the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "id": "陈诚",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈诚"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "国民党高级将领。其亲信石祖黄、车蕃如曾先后担任第一快速纵队司令。",
+          "en": "A high-ranking Kuomintang general. His confidants, Shi Zuhuang and Che Fanru, successively served as commanders of the First Fast Column."
+        }
+      }
+    },
+    {
+      "id": "石祖黄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石祖黄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "国民革命军将领，陈诚的亲信，曾任第一快速纵队司令官，后弃部队而走。",
+          "en": "A general of the National Revolutionary Army, a confidant of Chen Cheng, who once served as the commander of the First Fast Column and later abandoned his troops."
+        }
+      }
+    },
+    {
+      "id": "车蕃如",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "车蕃如"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "国民革命军将领，陈诚的亲信，曾任第一快速纵队司令，后抛弃部队。",
+          "en": "A general of the National Revolutionary Army, a confidant of Chen Cheng, who once served as the commander of the First Fast Column and later abandoned his troops."
+        }
+      }
+    },
+    {
+      "id": "第三野战军特种兵纵队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第三野战军特种兵纵队",
+          "特种兵纵队"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军华东野战军（后第三野战军）的特种兵部队，其基础为鲁南战役中缴获的装备。",
+          "en": "The special forces unit of the PLA East China Field Army (later the Third Field Army), founded based on equipment captured in the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "id": "莱芜战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "莱芜战役"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "孟良崮战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "孟良崮战役"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "豫东战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "豫东战役"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "济南战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "济南战役"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "淮海战役",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "淮海战役"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "华东野战军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华东野战军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第二次国共内战时期中国人民解放军的主力部队之一，由山东野战军和华中野战军合并而成。",
+          "en": "One of the main forces of the People's Liberation Army during the Second Chinese Civil War, formed by the merger of the Shandong Field Army and the Central China Field Army."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "第二次国共内战",
+      "target": "鲁南战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "鲁南战役是第二次国共内战期间的一场重要战役。",
+          "en": "The Lunan Campaign was a major battle during the Second Chinese Civil War."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军",
+      "target": "国民革命军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1947-01-02",
+        "end_date": "1947-01-20",
+        "description": {
+          "zh-cn": "在鲁南战役中，中国人民解放军与国民革命军为敌对双方。",
+          "en": "In the Lunan Campaign, the People's Liberation Army and the National Revolutionary Army were the opposing sides."
+        }
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "山东野战军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1947-01",
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "在鲁南战役期间，陈毅担任山东野战军司令员。",
+          "en": "During the Lunan Campaign, Chen Yi served as the commander of the Shandong Field Army."
+        }
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "新四军兼山东军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1947-01",
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "在鲁南战役后，陈毅作为新四军兼山东军区司令员留影。",
+          "en": "After the Lunan Campaign, Chen Yi was photographed as the commander of the New Fourth Army and Shandong Military Region."
+        }
+      }
+    },
+    {
+      "source": "粟裕",
+      "target": "华中野战军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1947-01",
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "在鲁南战役期间，粟裕担任华中野战军司令员。",
+          "en": "During the Lunan Campaign, Su Yu served as the commander of the Central China Field Army."
+        }
+      }
+    },
+    {
+      "source": "马励武",
+      "target": "国民革命军第二十六师",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1947-01-04",
+        "position": {
+          "zh-cn": "师长",
+          "en": "Division Commander"
+        },
+        "description": {
+          "zh-cn": "马励武在鲁南战役期间担任国民革命军整编第二十六师师长。",
+          "en": "Ma Liwu served as the commander of the National Revolutionary Army's Reorganized 26th Division during the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "source": "周毓英",
+      "target": "国民革命军第五十五师",
+      "type": "MEMBER_OF",
+      "properties": {
+        "end_date": "1947-01-20",
+        "position": {
+          "zh-cn": "师长",
+          "en": "Division Commander"
+        },
+        "description": {
+          "zh-cn": "周毓英在鲁南战役期间担任国民革命军第五十五师师长。",
+          "en": "Zhou Yuying served as the commander of the National Revolutionary Army's 55th Division during the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "source": "宿北战役",
+      "target": "鲁南战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "宿北战役后，解放军为了进一步摆脱被动局面，筹划并发起了鲁南战役。",
+          "en": "After the North Su Campaign, the People's Liberation Army planned and launched the Lunan Campaign to further break away from a passive situation."
+        }
+      }
+    },
+    {
+      "source": "粟裕",
+      "target": "鲁南战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "粟裕筹划并发起了鲁南战役。",
+          "en": "Su Yu planned and launched the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "国民革命军第二十六师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1947-01-04",
+        "description": {
+          "zh-cn": "在鲁南战役中，国民革命军整编第二十六师师部及两个旅大部被歼灭。",
+          "en": "In the Lunan Campaign, the headquarters of the Reorganized 26th Division of the National Revolutionary Army and the main parts of two of its brigades were annihilated."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "国民革命军第一快速纵队",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1947-01-04",
+        "description": {
+          "zh-cn": "在鲁南战役中，国民革命军第一快速纵队全军覆没。",
+          "en": "In the Lunan Campaign, the First Fast Column of the National Revolutionary Army was completely wiped out."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "国民革命军第五十五师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1947-01-20",
+        "description": {
+          "zh-cn": "在鲁南战役中，国民革命军第五十五师师部及两个团被全歼。",
+          "en": "In the Lunan Campaign, the headquarters of the 55th Division of the National Revolutionary Army and two of its regiments were completely annihilated."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "马励武",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1947-01-11",
+        "description": {
+          "zh-cn": "马励武在鲁南战役中被俘。",
+          "en": "Ma Liwu was captured during the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "周毓英",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1947-01-20",
+        "description": {
+          "zh-cn": "周毓英在鲁南战役中被俘。",
+          "en": "Zhou Yuying was captured during the Lunan Campaign."
+        }
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "张鼎丞",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1947-01",
+        "description": {
+          "zh-cn": "鲁南战役后，陈毅与华中军区司令员张鼎丞等在缴获的坦克前合影。",
+          "en": "After the Lunan Campaign, Chen Yi took a photo with Zhang Dingcheng, commander of the Central China Military Region, and others in front of a captured tank."
+        }
+      }
+    },
+    {
+      "source": "陈毅",
+      "target": "张云逸",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1947-01",
+        "description": {
+          "zh-cn": "鲁南战役后，陈毅与山东军区副司令员张云逸等在缴获的坦克前合影。",
+          "en": "After the Lunan Campaign, Chen Yi took a photo with Zhang Yunyi, deputy commander of the Shandong Military Region, and others in front of a captured tank."
+        }
+      }
+    },
+    {
+      "source": "张鼎丞",
+      "target": "华中军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1947-01",
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "在鲁南战役期间，张鼎丞担任华中军区司令员。",
+          "en": "During the Lunan Campaign, Zhang Dingcheng served as the commander of the Central China Military Region."
+        }
+      }
+    },
+    {
+      "source": "张云逸",
+      "target": "山东军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1947-01",
+        "position": {
+          "zh-cn": "副司令员",
+          "en": "Deputy Commander"
+        },
+        "description": {
+          "zh-cn": "在鲁南战役期间，张云逸担任山东军区副司令员。",
+          "en": "During the Lunan Campaign, Zhang Yunyi served as the deputy commander of the Shandong Military Region."
+        }
+      }
+    },
+    {
+      "source": "石祖黄",
+      "target": "陈诚",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "石祖黄是陈诚的亲信。",
+          "en": "Shi Zuhuang was a confidant of Chen Cheng."
+        }
+      }
+    },
+    {
+      "source": "车蕃如",
+      "target": "陈诚",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "车蕃如是陈诚的亲信。",
+          "en": "Che Fanru was a confidant of Chen Cheng."
+        }
+      }
+    },
+    {
+      "source": "石祖黄",
+      "target": "国民革命军第一快速纵队",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "石祖黄在担任第一快速纵队司令官期间，弃部队而走。",
+          "en": "While serving as the commander of the First Fast Column, Shi Zuhuang abandoned his troops."
+        }
+      }
+    },
+    {
+      "source": "车蕃如",
+      "target": "国民革命军第一快速纵队",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "车蕃如在担任第一快速纵队司令期间，抛弃部队。",
+          "en": "While serving as the commander of the First Fast Column, Che Fanru abandoned his troops."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "第三野战军特种兵纵队",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1947-01",
+        "description": {
+          "zh-cn": "鲁南战役中缴获的装备为华东野战军组建特种兵纵队打下了基础。",
+          "en": "The equipment captured in the Lunan Campaign laid the foundation for the East China Field Army to form a special forces column."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "莱芜战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "鲁南战役的胜利为后续的莱芜战役等打下了基础。",
+          "en": "The victory in the Lunan Campaign laid the foundation for subsequent campaigns such as the Laiwu Campaign."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "孟良崮战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "鲁南战役的胜利为后续的孟良崮战役等打下了基础。",
+          "en": "The victory in the Lunan Campaign laid the foundation for subsequent campaigns such as the Menglianggu Campaign."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "豫东战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "鲁南战役的胜利为后续的豫东战役等打下了基础。",
+          "en": "The victory in the Lunan Campaign laid the foundation for subsequent campaigns such as the East Henan Campaign."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "济南战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "鲁南战役的胜利为后续的济南战役等打下了基础。",
+          "en": "The victory in the Lunan Campaign laid the foundation for subsequent campaigns such as the Jinan Campaign."
+        }
+      }
+    },
+    {
+      "source": "鲁南战役",
+      "target": "淮海战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "鲁南战役的胜利为后续的淮海战役等打下了基础。",
+          "en": "The victory in the Lunan Campaign laid the foundation for subsequent campaigns such as the Huaihai Campaign."
+        }
+      }
+    }
+  ]
+}

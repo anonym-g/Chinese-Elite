@@ -1,0 +1,576 @@
+{
+  "nodes": [
+    {
+      "id": "慧可",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慧可",
+          "惠可",
+          "僧可",
+          "姬光",
+          "神光",
+          "大弘禅师",
+          "正宗普觉大师",
+          "大祖禅师"
+        ],
+        "en": [
+          "Huike"
+        ]
+      },
+      "properties": {
+        "lifetime": "0487 - 0593",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "虎牢",
+          "en": "Hulao"
+        },
+        "death_place": {
+          "zh-cn": "邺都",
+          "en": "Yedu"
+        },
+        "description": {
+          "zh-cn": "中国禅宗二祖，俗名姬光。生于北魏，精通儒学与佛法。师从菩提达摩六年，得其心法，后传法于僧璨。唐德宗时被谥为“大弘禅师”。",
+          "en": "The second patriarch of Chinese Zen Buddhism, with the secular name Ji Guang. Born in the Northern Wei dynasty, he was proficient in both Confucianism and Buddhism. He studied under Bodhidharma for six years, received his mind-seal, and later transmitted the Dharma to Sengcan. He was posthumously honored as 'Grand Master Dahong' by Emperor Dezong of Tang."
+        }
+      }
+    },
+    {
+      "id": "菩提达摩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "菩提达摩",
+          "达摩"
+        ],
+        "en": [
+          "Bodhidharma"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "印度僧人，被尊为中国禅宗的初祖，将禅宗传入中国。慧可的师父。",
+          "en": "An Indian monk, revered as the first patriarch of Chinese Zen Buddhism, who brought Zen to China. He was the master of Huike."
+        }
+      }
+    },
+    {
+      "id": "僧璨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "僧璨"
+        ],
+        "en": [
+          "Sengcan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国禅宗三祖，慧可的弟子和法嗣。",
+          "en": "The third patriarch of Chinese Zen Buddhism, a disciple and dharma heir of Huike."
+        }
+      }
+    },
+    {
+      "id": "禅宗",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "禅宗"
+        ],
+        "en": [
+          "Zen Buddhism",
+          "Chan Buddhism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "汉传佛教的一个主要宗派，始于菩提达摩，盛于唐代。",
+          "en": "A major school of Chinese Buddhism that originated with Bodhidharma and flourished during the Tang dynasty."
+        }
+      }
+    },
+    {
+      "id": "虎牢",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "虎牢"
+        ],
+        "en": [
+          "Hulao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北魏时期的地名，位于今中国河南省荥阳市，是慧可的出生地。",
+          "en": "A place name from the Northern Wei period, located in modern-day Xingyang, Henan Province, China. It is the birthplace of Huike."
+        }
+      }
+    },
+    {
+      "id": "邺都",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "邺都"
+        ],
+        "en": [
+          "Yedu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代都城，位于今河北省临漳县。慧可曾在此传法，后被迫害至死。",
+          "en": "An ancient Chinese capital city, located in modern-day Linzhang County, Hebei Province. Huike taught here and was later persecuted to death."
+        }
+      }
+    },
+    {
+      "id": "宝静禅师",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宝静禅师"
+        ],
+        "en": [
+          "Chan Master Baojing"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南北朝时期洛阳龙门香山的禅师，慧可出家时的剃度师。",
+          "en": "A Chan master at Xiangshan, Longmen, Luoyang during the Northern and Southern dynasties. He ordained Huike as a monk."
+        }
+      }
+    },
+    {
+      "id": "昙林",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "昙林"
+        ],
+        "en": [
+          "Tanlin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "达摩的弟子，与慧可友谊深厚。曾因遇贼被砍一臂，重视经教。",
+          "en": "A disciple of Bodhidharma and a close friend of Huike. He lost an arm in an attack by bandits and emphasized scriptural teachings."
+        }
+      }
+    },
+    {
+      "id": "道恒禅师",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "道恒禅师"
+        ],
+        "en": [
+          "Chan Master Daoheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东魏时期在邺都拥有众多门徒的禅师，因嫉妒而指责慧可的禅法为“魔语”，并联合官府对其进行迫害。",
+          "en": "A Chan master with numerous disciples in Yedu during the Eastern Wei dynasty. Out of jealousy, he accused Huike's Zen teachings of being 'demonic words' and collaborated with authorities to persecute him."
+        }
+      }
+    },
+    {
+      "id": "达摩禅",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "达摩禅",
+          "达摩禅法"
+        ],
+        "en": [
+          "Dharma's Chan",
+          "Bodhidharma's Zen"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由菩提达摩传入中国的禅修法门，早期不为时人所接受，导致其弟子慧可受到责难。",
+          "en": "The Chan meditation method introduced to China by Bodhidharma. It was not widely accepted in its early days, which led to criticism against his disciple Huike."
+        }
+      }
+    },
+    {
+      "id": "北周武帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "北周武帝"
+        ],
+        "en": [
+          "Emperor Wu of Northern Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北周的第三位皇帝，在位期间推行了大规模的灭佛运动。",
+          "en": "The third emperor of the Northern Zhou dynasty, who initiated a large-scale persecution of Buddhism during his reign."
+        }
+      }
+    },
+    {
+      "id": "建德毁佛",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "建德毁佛"
+        ],
+        "en": [
+          "Jiande Persecution of Buddhism"
+        ]
+      },
+      "properties": {
+        "period": "0574 - 0579",
+        "description": {
+          "zh-cn": "由北周武帝在建德年间发动的废黜佛教的政治运动，为“三武一宗”灭佛事件之一。",
+          "en": "A political campaign to abolish Buddhism initiated by Emperor Wu of Northern Zhou during the Jiande era, one of the 'Three Wus and One Zong' persecutions of Buddhism."
+        }
+      }
+    },
+    {
+      "id": "北周宣帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "北周宣帝"
+        ],
+        "en": [
+          "Emperor Xuan of Northern Zhou"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "北周的第四位皇帝，即位后下令复兴佛法，结束了其父北周武帝的毁佛政策。",
+          "en": "The fourth emperor of the Northern Zhou dynasty. After ascending the throne, he ordered the revival of Buddhism, ending the anti-Buddhist policies of his father, Emperor Wu."
+        }
+      }
+    },
+    {
+      "id": "辩和禅师",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "辩和禅师"
+        ],
+        "en": [
+          "Chan Master Bianhe"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "隋代在邺都匡救寺讲经的法师，因嫉妒慧可说法吸引了其听众，而向县令构陷慧可。",
+          "en": "A Dharma master who lectured at Kuangjiu Temple in Yedu during the Sui dynasty. He became jealous of Huike for attracting his audience and framed him to the county magistrate."
+        }
+      }
+    },
+    {
+      "id": "瞿仲偘",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "瞿仲偘"
+        ],
+        "en": [
+          "Qu Zhongkan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "隋代成安县令，在未查明事由的情况下听信辩和禅师的谗言，下令处死慧可。",
+          "en": "The magistrate of Cheng'an County during the Sui dynasty. He believed the slander of Chan Master Bianhe without investigation and ordered the execution of Huike."
+        }
+      }
+    },
+    {
+      "id": "唐德宗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐德宗"
+        ],
+        "en": [
+          "Emperor Dezong of Tang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "唐朝第九位皇帝，追谥慧可为“大弘禅师”。",
+          "en": "The ninth emperor of the Tang dynasty, who posthumously honored Huike with the title 'Grand Master Dahong'."
+        }
+      }
+    },
+    {
+      "id": "石恪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "石恪"
+        ],
+        "en": [
+          "Shi Ke"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国北宋画家，以其描绘禅宗人物的画作而闻名，曾绘制慧可的肖像。",
+          "en": "A Chinese painter of the Northern Song dynasty, known for his paintings of Zen figures. He painted a portrait of Huike."
+        }
+      }
+    },
+    {
+      "id": "《楞伽经》",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "《楞伽经》"
+        ],
+        "en": [
+          "Laṅkāvatāra Sūtra"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大乘佛教的经典之一，早期禅宗非常重视此经。慧可曾用此经教授弟子。",
+          "en": "One of the Mahayana Buddhist sutras, highly regarded by early Zen Buddhism. Huike used this sutra to teach his disciples."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "慧可",
+      "target": "虎牢",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "0487",
+        "description": {
+          "zh-cn": "慧可于487年出生于北魏的虎牢。",
+          "en": "Huike was born in Hulao, Northern Wei, in 487."
+        }
+      }
+    },
+    {
+      "source": "慧可",
+      "target": "宝静禅师",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "0517",
+        "description": {
+          "zh-cn": "慧可三十岁时（约517年）至洛阳龙门香山，依宝静禅师出家。",
+          "en": "At the age of thirty (around 517), Huike went to Xiangshan at Longmen, Luoyang, and became a monk under Chan Master Baojing."
+        }
+      }
+    },
+    {
+      "source": "慧可",
+      "target": "菩提达摩",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "0527",
+        "end_date": "0533",
+        "description": {
+          "zh-cn": "慧可四十岁时（约527年）至嵩山，从学于菩提达摩门下六年。",
+          "en": "At the age of forty (around 527), Huike went to Mount Song and studied under Bodhidharma for six years."
+        }
+      }
+    },
+    {
+      "source": "菩提达摩",
+      "target": "慧可",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "菩提达摩将心法传给慧可，立其为禅宗二祖。",
+          "en": "Bodhidharma transmitted the mind-dharma to Huike, establishing him as the second patriarch of Zen."
+        }
+      }
+    },
+    {
+      "source": "慧可",
+      "target": "昙林",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "慧可与同为达摩弟子的昙林友谊深厚。",
+          "en": "Huike had a deep friendship with Tanlin, who was also a disciple of Bodhidharma."
+        }
+      }
+    },
+    {
+      "source": "慧可",
+      "target": "昙林",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在昙林遇贼被砍断一臂后，慧可救护了他。",
+          "en": "After Tanlin was attacked by bandits and had an arm severed, Huike came to his rescue."
+        }
+      }
+    },
+    {
+      "source": "道恒禅师",
+      "target": "慧可",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "道恒禅师指责慧可所传的达摩禅是“魔语”，并与官府结合对其进行迫害。",
+          "en": "Chan Master Daoheng accused the Dharma's Chan taught by Huike of being 'demonic words' and colluded with the authorities to persecute him."
+        }
+      }
+    },
+    {
+      "source": "达摩禅",
+      "target": "慧可",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "因达摩禅法不为当时人所接受，作为传承者的慧可也因此受到许多责难。",
+          "en": "Because the Dharma's Chan was not accepted by contemporaries, Huike, as its transmitter, faced much criticism."
+        }
+      }
+    },
+    {
+      "source": "北周武帝",
+      "target": "建德毁佛",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0574",
+        "description": {
+          "zh-cn": "北周武帝于574年发动了建德毁佛运动。",
+          "en": "Emperor Wu of Northern Zhou initiated the Jiande Persecution of Buddhism in 574."
+        }
+      }
+    },
+    {
+      "source": "建德毁佛",
+      "target": "慧可",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0574",
+        "end_date": "0579",
+        "description": {
+          "zh-cn": "因北周武帝毁佛，慧可被迫中断在邺都的传法，隐居于舒州皖公山。",
+          "en": "Due to the persecution of Buddhism by Emperor Wu of Northern Zhou, Huike was forced to suspend his teachings in Yedu and went into seclusion on Mount Wangong in Shuzhou."
+        }
+      }
+    },
+    {
+      "source": "慧可",
+      "target": "僧璨",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "0577",
+        "description": {
+          "zh-cn": "慧可于577年在皖公山剃度僧璨出家，并传以心法，立其为禅宗三祖。",
+          "en": "In 577, at Mount Wangong, Huike ordained Sengcan as a monk, transmitted the mind-dharma to him, and established him as the third patriarch of Zen."
+        }
+      }
+    },
+    {
+      "source": "北周宣帝",
+      "target": "建德毁佛",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0579",
+        "description": {
+          "zh-cn": "北周宣帝于579年即位后复兴佛法，结束了建德毁佛运动。",
+          "en": "After ascending the throne in 579, Emperor Xuan of Northern Zhou revived Buddhism, ending the Jiande Persecution."
+        }
+      }
+    },
+    {
+      "source": "辩和禅师",
+      "target": "慧可",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "0593",
+        "description": {
+          "zh-cn": "因嫉妒慧可说法吸引了众多听众，辩和禅师向县令瞿仲偘构陷慧可。",
+          "en": "Out of jealousy that Huike's teachings attracted a large audience, Chan Master Bianhe framed Huike to the county magistrate Qu Zhongkan."
+        }
+      }
+    },
+    {
+      "source": "瞿仲偘",
+      "target": "慧可",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "0593",
+        "description": {
+          "zh-cn": "作为成安县令，瞿仲偘在未查明事由的情况下听信谗言，非理损害慧可，致其于593年圆寂。",
+          "en": "As the magistrate of Cheng'an County, Qu Zhongkan acted on slander without investigation, unjustly harming Huike and causing his death in 593."
+        }
+      }
+    },
+    {
+      "source": "唐德宗",
+      "target": "慧可",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "唐德宗追谥慧可为“大弘禅师”。",
+          "en": "Emperor Dezong of Tang posthumously honored Huike with the title 'Grand Master Dahong'."
+        }
+      }
+    },
+    {
+      "source": "石恪",
+      "target": "慧可",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "北宋画家石恪绘制了慧可的肖像画，促进了其形象的流传。",
+          "en": "The Northern Song painter Shi Ke created a portrait of Huike, which helped to popularize his image."
+        }
+      }
+    },
+    {
+      "source": "慧可",
+      "target": "禅宗",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "二祖",
+          "en": "Second Patriarch"
+        },
+        "description": {
+          "zh-cn": "慧可被尊为中国禅宗的第二代祖师。",
+          "en": "Huike is revered as the second patriarch of Chinese Zen Buddhism."
+        }
+      }
+    },
+    {
+      "source": "慧可",
+      "target": "《楞伽经》",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "慧可虽以《楞伽经》教授门下，但更注重“玄理”而非章节注疏，形成了早期禅宗的教学特点。",
+          "en": "Although Huike used the Laṅkāvatāra Sūtra to teach his disciples, he emphasized its 'profound principles' over textual commentary, shaping the teaching characteristics of early Zen."
+        }
+      }
+    }
+  ]
+}
