@@ -1,0 +1,353 @@
+{
+  "nodes": [
+    {
+      "id": "田国立",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "田国立"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1960-12-10 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "河北",
+          "en": "Hebei"
+        },
+        "description": {
+          "zh-cn": "中国银行家，中国共产党党员，高级经济师。曾任中国建设银行、中国银行、中信银行董事长，现任中国建设银行党委书记、董事长。",
+          "en": "Chinese banker, member of the Communist Party of China, and senior economist. He has served as chairman of China Construction Bank, Bank of China, and China CITIC Bank. He is currently the Party Secretary and Chairman of China Construction Bank."
+        }
+      }
+    },
+    {
+      "id": "河北",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河北"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "湖北财经学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湖北财经学院",
+          "中南财经政法大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "湖北财经学院现名中南财经政法大学。",
+          "en": "Hubei College of Finance and Economics is now known as Zhongnan University of Economics and Law."
+        }
+      }
+    },
+    {
+      "id": "中国建设银行",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国建设银行",
+          "建行"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国银行业协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国银行业协会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民银行货币政策委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民银行货币政策委员会",
+          "央行货币政策委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国信达资产管理公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国信达资产管理公司"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国中信集团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国中信集团",
+          "中信集团"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中信银行",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中信银行"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国银行",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国银行",
+          "中行"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党第十九次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十九次全国代表大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "2017-10"
+      }
+    },
+    {
+      "id": "中国共产党第十九届中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十九届中央委员会"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "田国立",
+      "target": "河北",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "田国立",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "田国立",
+      "target": "湖北财经学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1983",
+        "description": {
+          "zh-cn": "1983年毕业于湖北财经学院基建财务信用系。",
+          "en": "Graduated from the Department of Infrastructure Finance and Credit of Hubei College of Finance and Economics in 1983."
+        }
+      }
+    },
+    {
+      "source": "田国立",
+      "target": "中国建设银行",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983",
+        "end_date": "1999",
+        "position": {
+          "zh-cn": "行长助理",
+          "en": "Assistant to the President"
+        },
+        "description": {
+          "zh-cn": "1983年至1999年在中国建设银行工作，曾任行长助理。",
+          "en": "Worked at China Construction Bank from 1983 to 1999, once serving as Assistant to the President."
+        }
+      }
+    },
+    {
+      "source": "田国立",
+      "target": "中国信达资产管理公司",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2004",
+        "end_date": "2010-12",
+        "position": {
+          "zh-cn": "总裁",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "2004年至2010年12月任中国信达资产管理公司总裁。",
+          "en": "Served as President of China Cinda Asset Management Co., Ltd. from 2004 to December 2010."
+        }
+      }
+    },
+    {
+      "source": "田国立",
+      "target": "中国中信集团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010-12",
+        "end_date": "2013-05",
+        "position": {
+          "zh-cn": "副董事长、总经理",
+          "en": "Vice Chairman & General Manager"
+        },
+        "description": {
+          "zh-cn": "2010年12月至2013年5月任中信集团公司副董事长及总经理。",
+          "en": "Served as Vice Chairman and General Manager of CITIC Group from December 2010 to May 2013."
+        }
+      }
+    },
+    {
+      "source": "田国立",
+      "target": "中信银行",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2011-05",
+        "end_date": "2013-05",
+        "position": {
+          "zh-cn": "董事长",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "2011年5月至2013年5月任中信银行董事长。",
+          "en": "Served as Chairman of China CITIC Bank from May 2011 to May 2013."
+        }
+      }
+    },
+    {
+      "source": "田国立",
+      "target": "中国银行",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2013-05",
+        "end_date": "2017-07-31",
+        "position": {
+          "zh-cn": "董事长",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "2013年5月至2017年7月任中国银行董事长。",
+          "en": "Served as Chairman of Bank of China from May 2013 to July 2017."
+        }
+      }
+    },
+    {
+      "source": "田国立",
+      "target": "中国人民银行货币政策委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-06-15",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "2015年6月15日，被任命为央行货币政策委员会委员。",
+          "en": "On June 15, 2015, he was appointed as a member of the Monetary Policy Committee of the People's Bank of China."
+        }
+      }
+    },
+    {
+      "source": "田国立",
+      "target": "中国建设银行",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017-07-31",
+        "position": {
+          "zh-cn": "党委书记、董事长",
+          "en": "Party Secretary, Chairman"
+        },
+        "description": {
+          "zh-cn": "2017年7月31日重返建行，任党委书记，并于同年10月9日获任命为董事长。",
+          "en": "Returned to China Construction Bank on July 31, 2017, as Party Secretary, and was appointed Chairman on October 9 of the same year."
+        }
+      }
+    },
+    {
+      "source": "中国共产党第十九次全国代表大会",
+      "target": "田国立",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2017-10",
+        "description": {
+          "zh-cn": "在中国共产党第十九次全国代表大会上当选为中国共产党第十九届中央委员会候补委员。",
+          "en": "Was elected as an alternate member of the 19th Central Committee of the Communist Party of China at the 19th National Congress of the CPC."
+        }
+      }
+    },
+    {
+      "source": "田国立",
+      "target": "中国共产党第十九届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017-10",
+        "position": {
+          "zh-cn": "候补委员",
+          "en": "Alternate Member"
+        }
+      }
+    },
+    {
+      "source": "田国立",
+      "target": "中国银行业协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会长",
+          "en": "President"
+        },
+        "description": {
+          "zh-cn": "兼任中国银行业协会会长。",
+          "en": "Concurrently serves as President of the China Banking Association."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "王镇恒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王镇恒"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1930-09-30 - 2021-06-30",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "浙江省温州市",
+          "en": ""
+        },
+        "death_place": {
+          "zh-cn": "",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国茶学家、茶学教育家、茶树栽培专家，曾任安徽农学院党委书记、教授。",
+          "en": "Chinese tea scientist, tea science educator, and tea tree cultivation expert, who served as Party Secretary and professor at Anhui Agricultural College."
+        }
+      }
+    },
+    {
+      "id": "温州",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "温州"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国浙江省下辖的地级市。",
+          "en": "A prefecture-level city in Zhejiang Province, China."
+        }
+      }
+    },
+    {
+      "id": "安徽农学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安徽农学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一所位于中国安徽省的农业高等院校。",
+          "en": "An agricultural college located in Anhui Province, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and sole ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "复旦大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "复旦大学"
+        ],
+        "en": [
+          "Fudan University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国上海市的一所综合性研究型大学。",
+          "en": "A major public research university in Shanghai, China."
+        }
+      }
+    },
+    {
+      "id": "国务院学位委员会第二届学科评议组",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国务院学位委员会第二届学科评议组"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院学位委员会设立的专家组织，负责学位和研究生教育的指导、监督和评估。",
+          "en": "An expert organization established by the Academic Degrees Committee of the State Council of the People's Republic of China, responsible for the guidance, supervision, and evaluation of academic degrees and postgraduate education."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王镇恒",
+      "target": "温州",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "王镇恒是浙江温州人。",
+          "en": "Wang Zhenheng was from Wenzhou, Zhejiang."
+        }
+      }
+    },
+    {
+      "source": "王镇恒",
+      "target": "安徽农学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委书记、教授",
+          "en": "Party Secretary, Professor"
+        },
+        "description": {
+          "zh-cn": "曾任安徽农学院党委书记、教授。",
+          "en": "Served as Party Secretary and professor at Anhui Agricultural College."
+        }
+      }
+    },
+    {
+      "source": "王镇恒",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类“中国共产党党员”可知其党员身份。",
+          "en": "Identified as a party member based on the Wikipedia category 'Communist Party of China members'."
+        }
+      }
+    },
+    {
+      "source": "王镇恒",
+      "target": "复旦大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类“复旦大学校友”可知其校友身份。",
+          "en": "Identified as an alumnus based on the Wikipedia category 'Fudan University alumni'."
+        }
+      }
+    },
+    {
+      "source": "王镇恒",
+      "target": "国务院学位委员会第二届学科评议组",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "成员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类“国务院学位委员会第二届学科评议组成员”可知其成员身份。",
+          "en": "Identified as a member based on the Wikipedia category 'Members of the 2nd Academic Degrees Committee of the State Council'."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "田农",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "田农"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1934 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "肇东",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国舞蹈演员、编导。",
+          "en": "Chinese dance actor and choreographer."
+        }
+      }
+    },
+    {
+      "id": "肇东",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "肇东"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "黑龙江",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "黑龙江"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "东北人民艺术剧院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东北人民艺术剧院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中央歌舞团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央歌舞团"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "东方歌舞团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东方歌舞团"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "田农",
+      "target": "肇东",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "田农是黑龙江肇东人。",
+          "en": "Tian Nong is from Zhaodong, Heilongjiang."
+        }
+      }
+    },
+    {
+      "source": "田农",
+      "target": "东北人民艺术剧院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "演员",
+          "en": "Actor"
+        },
+        "description": {
+          "zh-cn": "田农曾任东北人民艺术剧院演员。",
+          "en": "Tian Nong once served as an actor in the Northeast People's Art Theatre."
+        }
+      }
+    },
+    {
+      "source": "田农",
+      "target": "中央歌舞团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "演员",
+          "en": "Actor"
+        },
+        "description": {
+          "zh-cn": "田农曾任中央歌舞团演员。",
+          "en": "Tian Nong once served as an actor in the Central Song and Dance Troupe."
+        }
+      }
+    },
+    {
+      "source": "田农",
+      "target": "东方歌舞团",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "编导",
+          "en": "Choreographer"
+        },
+        "description": {
+          "zh-cn": "田农曾任东方歌舞团编导。",
+          "en": "Tian Nong once served as a choreographer in the Oriental Song and Dance Troupe."
+        }
+      }
+    },
+    {
+      "source": "田农",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科页面分类，田农是中国共产党党员。",
+          "en": "According to the Wikipedia page category, Tian Nong is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

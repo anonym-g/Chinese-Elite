@@ -1,0 +1,946 @@
+{
+  "nodes": [
+    {
+      "id": "杭州电子科技大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "杭州电子科技大学",
+          "杭电",
+          "杭州电子工业学院"
+        ],
+        "en": [
+          "Hangzhou Dianzi University"
+        ]
+      },
+      "properties": {
+        "period": "1956 - ",
+        "location": {
+          "zh-cn": "中华人民共和国浙江省杭州市",
+          "en": "Hangzhou, Zhejiang, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "位于中国浙江省杭州市的一所教学研究型大学，是浙江省首批重点建设的5所高校之一。其前身为成立于1956年的杭州航空工业财经学校。",
+          "en": "A teaching and research university located in Hangzhou, Zhejiang, China. It is one of the first five key universities in Zhejiang Province. Its predecessor was the Hangzhou Aviation Industry Finance School, established in 1956."
+        }
+      }
+    },
+    {
+      "id": "陈积明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈积明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国学者，杭州电子科技大学现任校长。",
+          "en": "Chinese scholar, current president of Hangzhou Dianzi University."
+        }
+      }
+    },
+    {
+      "id": "吴卿",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴卿"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物，杭州电子科技大学现任党委书记。",
+          "en": "Chinese political figure, current Party Secretary of Hangzhou Dianzi University."
+        }
+      }
+    },
+    {
+      "id": "浙江省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "浙江省人民政府"
+        ],
+        "en": [
+          "The People's Government of Zhejiang Province"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "国家国防科技工业局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国家国防科技工业局"
+        ],
+        "en": [
+          "State Administration for Science, Technology and Industry for National Defence"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国大陆"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "浙江省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江省"
+        ],
+        "en": [
+          "Zhejiang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "杭州市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "杭州市"
+        ],
+        "en": [
+          "Hangzhou"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "杭州航空工业财经学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "杭州航空工业财经学校"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1956-03 - 1958-06",
+        "description": {
+          "zh-cn": "杭州电子科技大学的前身。",
+          "en": "The predecessor of Hangzhou Dianzi University."
+        }
+      }
+    },
+    {
+      "id": "第二机械工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第二机械工业部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府曾经存在的部门，负责核工业。",
+          "en": "A former ministry of the People's Republic of China, responsible for the nuclear industry."
+        }
+      }
+    },
+    {
+      "id": "第一机械工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第一机械工业部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府曾经存在的部门，负责民用机械、电信、船舶工业。",
+          "en": "A former ministry of the People's Republic of China, responsible for civilian machinery, telecommunications, and shipbuilding industries."
+        }
+      }
+    },
+    {
+      "id": "浙江省机械工业厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "浙江省机械工业厅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "浙江省人民政府曾经存在的部门。",
+          "en": "A former department of the Zhejiang Provincial People's Government."
+        }
+      }
+    },
+    {
+      "id": "第三机械工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第三机械工业部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府曾经存在的部门，负责航空工业。",
+          "en": "A former ministry of the People's Republic of China, responsible for the aviation industry."
+        }
+      }
+    },
+    {
+      "id": "第四机械工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第四机械工业部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府曾经存在的部门，负责电子工业。",
+          "en": "A former ministry of the People's Republic of China, responsible for the electronics industry."
+        }
+      }
+    },
+    {
+      "id": "电子工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "电子工业部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府曾经存在的部门，由第四机械工业部改名而来。",
+          "en": "A former ministry of the People's Republic of China, renamed from the Fourth Ministry of Machine Building."
+        }
+      }
+    },
+    {
+      "id": "机械电子工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "机械电子工业部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府曾经存在的部门。",
+          "en": "A former ministry of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "信息产业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "信息产业部"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国政府曾经存在的部门。",
+          "en": "A former ministry of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "杭州出版学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "杭州出版学校"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "杭州电子科技大学信息工程学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "杭州电子科技大学信息工程学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "杭州电子科技大学下设的独立学院。",
+          "en": "An independent college affiliated with Hangzhou Dianzi University."
+        }
+      }
+    },
+    {
+      "id": "刘光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘光"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "李光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李光"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "郑廉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郑廉"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "方乔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "方乔"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "王士英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王士英"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "周行权",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周行权"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "王骏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王骏"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "曹金荣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹金荣"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "方华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "方华"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "费君清",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "费君清"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "王兴杰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王兴杰"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "周晓光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周晓光"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "周锡铭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周锡铭"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "蒋葆增",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋葆增"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "王祖耆",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王祖耆"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "严晓浪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "严晓浪"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "叶明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "叶明"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "薛安克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "薛安克"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "朱泽飞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱泽飞"
+        ],
+        "en": []
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杭州电子科技大学",
+      "target": "浙江省人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "2000-05",
+        "end_date": "",
+        "description": {
+          "zh-cn": "2000年5月起，杭州电子科技大学（时称杭州电子工业学院）实行省部共建、以省管为主的管理体制。",
+          "en": "Since May 2000, Hangzhou Dianzi University (then Hangzhou Institute of Electronic Engineering) has been under a management system of joint construction by the province and the ministry, with the province taking the primary role."
+        }
+      }
+    },
+    {
+      "source": "杭州电子科技大学",
+      "target": "国家国防科技工业局",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杭州电子科技大学是浙江省人民政府与国家国防科技工业局共建高校。",
+          "en": "Hangzhou Dianzi University is jointly constructed by the Zhejiang Provincial People's Government and the State Administration for Science, Technology and Industry for National Defence."
+        }
+      }
+    },
+    {
+      "source": "杭州航空工业财经学校",
+      "target": "杭州电子科技大学",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1956",
+        "description": {
+          "zh-cn": "杭州航空工业财经学校是杭州电子科技大学的前身，于1956年创建。",
+          "en": "Hangzhou Aviation Industry Finance School is the predecessor of Hangzhou Dianzi University, founded in 1956."
+        }
+      }
+    },
+    {
+      "source": "杭州出版学校",
+      "target": "杭州电子科技大学",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "2003-01",
+        "description": {
+          "zh-cn": "于2003年1月并入当时的杭州电子工业学院（现杭州电子科技大学）。",
+          "en": "Merged into the then Hangzhou Institute of Electronic Engineering (now Hangzhou Dianzi University) in January 2003."
+        }
+      }
+    },
+    {
+      "source": "杭州电子科技大学信息工程学院",
+      "target": "杭州电子科技大学",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杭州电子科技大学信息工程学院是杭州电子科技大学举办的独立学院。",
+          "en": "Information Engineering School of Hangzhou Dianzi University is an independent college run by Hangzhou Dianzi University."
+        }
+      }
+    },
+    {
+      "source": "陈积明",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2024-01",
+        "end_date": "",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "吴卿",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2024-01",
+        "end_date": "",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "刘光",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1956-06",
+        "end_date": "1962-12",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "李光",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1963-06",
+        "end_date": "1968-09",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "郑廉",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1973-12",
+        "end_date": "1978-10",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "方乔",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1978-10",
+        "end_date": "1980-05",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "王士英",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1980-05",
+        "end_date": "1985-02",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "周行权",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1985-02",
+        "end_date": "1988-04",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "王骏",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1988-04",
+        "end_date": "1995-08",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "曹金荣",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1995-08",
+        "end_date": "1999-03",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "方华",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1999-03",
+        "end_date": "2011-09",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "费君清",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2011-09",
+        "end_date": "2015-10",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "王兴杰",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2015-10",
+        "end_date": "2024-01",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "周晓光",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1958-01",
+        "end_date": "1961-04",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "周锡铭",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1961-04",
+        "end_date": "1966-02",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "郑廉",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1973-12",
+        "end_date": "1978-10",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "蒋葆增",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1980-05",
+        "end_date": "1982-12",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "王祖耆",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1983-01",
+        "end_date": "1988-04",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "周行权",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1988-04",
+        "end_date": "1993-07",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "严晓浪",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993-07",
+        "end_date": "1999-03",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "叶明",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1999-03",
+        "end_date": "2003-06",
+        "position": {
+          "zh-cn": "院长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "薛安克",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2003-06",
+        "end_date": "2017-04",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "朱泽飞",
+      "target": "杭州电子科技大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017-04",
+        "end_date": "2024-01",
+        "position": {
+          "zh-cn": "校长",
+          "en": "President"
+        }
+      }
+    },
+    {
+      "source": "杭州电子科技大学",
+      "target": "第二机械工业部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1956-03",
+        "end_date": "1958-06"
+      }
+    },
+    {
+      "source": "杭州电子科技大学",
+      "target": "第一机械工业部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1958-06",
+        "end_date": "1958-12"
+      }
+    },
+    {
+      "source": "杭州电子科技大学",
+      "target": "浙江省机械工业厅",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1958-12",
+        "end_date": "1962-11"
+      }
+    },
+    {
+      "source": "杭州电子科技大学",
+      "target": "第三机械工业部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1962-11",
+        "end_date": "1963-03"
+      }
+    },
+    {
+      "source": "杭州电子科技大学",
+      "target": "第四机械工业部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1963-03",
+        "end_date": "1980-04"
+      }
+    },
+    {
+      "source": "杭州电子科技大学",
+      "target": "电子工业部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": [
+          "1980-05",
+          "1993-04"
+        ],
+        "end_date": [
+          "1988-03",
+          "1998-03"
+        ]
+      }
+    },
+    {
+      "source": "杭州电子科技大学",
+      "target": "机械电子工业部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1988-04",
+        "end_date": "1993-03"
+      }
+    },
+    {
+      "source": "杭州电子科技大学",
+      "target": "信息产业部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1998-04",
+        "end_date": "2000-05"
+      }
+    }
+  ]
+}

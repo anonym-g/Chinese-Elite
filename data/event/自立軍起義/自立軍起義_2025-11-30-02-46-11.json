@@ -1,0 +1,772 @@
+{
+  "nodes": [
+    {
+      "id": "自立军起义",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "自立军起义",
+          "唐才常起义"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1900-08-09 - 1900-08-22",
+        "location": {
+          "zh-cn": "中国汉口、汉阳、安徽、江西、湖南等地"
+        },
+        "description": {
+          "zh-cn": "1900年八国联军时期，由唐才常等人发起的旨在推翻慈禧、建立君主立宪政府的武装起事，但因计划泄露及内部资金问题而迅速失败。",
+          "en": "An armed uprising initiated by Tang Caichang and others during the Boxer Rebellion in 1900, aimed at overthrowing Empress Dowager Cixi and establishing a constitutional monarchy. It failed quickly due to leaked plans and internal funding issues."
+        }
+      }
+    },
+    {
+      "id": "清政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清政府",
+          "大清"
+        ],
+        "en": [
+          "Qing government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "自立军起义的目标及镇压方。",
+          "en": "The target and suppressor of the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "id": "自立会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "自立会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由唐才常组织的团体，是自立军起义的核心力量，前身为“正气会”。",
+          "en": "An organization founded by Tang Caichang, which was the core force of the Self-Support Army Uprising. Its predecessor was the 'Zhengqi Hui' (Righteousness Society)."
+        }
+      }
+    },
+    {
+      "id": "维新派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "维新派"
+        ],
+        "en": [
+          "Reformists"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清末主张君主立宪的政治派别，是自立军起义的重要参与力量。",
+          "en": "A political faction in the late Qing Dynasty advocating for constitutional monarchy, and a key participant in the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "id": "哥老会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "哥老会",
+          "袍哥会"
+        ],
+        "en": [
+          "Gelaohui",
+          "Elder Brothers Society"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清代长江流域的民间秘密社团，参与了自立军起义。",
+          "en": "A secret society active in the Yangtze River basin during the Qing Dynasty, which participated in the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "id": "兴中会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "兴中会"
+        ],
+        "en": [
+          "Revive China Society"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由孙中山创立的革命组织，部分成员及力量支持了自立军起义。",
+          "en": "A revolutionary organization founded by Sun Yat-sen, some of whose members and forces supported the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "id": "张之洞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张之洞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任湖广总督，为清政府镇压了自立军起义。",
+          "en": "The Viceroy of Huguang at the time, who suppressed the Self-Support Army Uprising for the Qing government."
+        }
+      }
+    },
+    {
+      "id": "唐才常",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "唐才常"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "death_place": {
+          "zh-cn": "武昌"
+        },
+        "description": {
+          "zh-cn": "自立军起义的主要发起人和总指挥，事败后被张之洞杀害。",
+          "en": "The main initiator and commander-in-chief of the Self-Support Army Uprising, who was executed by Zhang Zhidong after its failure."
+        }
+      }
+    },
+    {
+      "id": "梁启超",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁启超"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "维新派领袖之一，担任自立军副总指挥，负责海外募款。",
+          "en": "A leader of the Reformists, who served as the deputy commander of the Self-Support Army and was responsible for overseas fundraising."
+        }
+      }
+    },
+    {
+      "id": "康有为",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "康有为"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "维新派领袖，负责为自立军起义募集资金，但最终未将款项汇出，导致起义计划受挫。",
+          "en": "A leader of the Reformists responsible for fundraising for the Self-Support Army Uprising, but his ultimate failure to remit the funds thwarted the uprising plan."
+        }
+      }
+    },
+    {
+      "id": "孙中山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙中山",
+          "孙文"
+        ],
+        "en": [
+          "Sun Yat-sen"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "兴中会领袖，对自立军起义表示支持，并提供了部分人员。",
+          "en": "The leader of the Revive China Society, who supported the Self-Support Army Uprising and provided some personnel."
+        }
+      }
+    },
+    {
+      "id": "慈禧",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慈禧",
+          "慈禧太后"
+        ],
+        "en": [
+          "Empress Dowager Cixi"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "清末实际统治者，自立军起义的主要目标。",
+          "en": "The de facto ruler of the late Qing Dynasty and the main target of the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "id": "光绪帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "光绪帝",
+          "光绪"
+        ],
+        "en": [
+          "Guangxu Emperor"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝皇帝，戊戌政变后被慈禧软禁。自立军起义的目标是营救他并建立君主立宪制。",
+          "en": "The Emperor of the Qing Dynasty, placed under house arrest by Cixi after the Wuxu Coup. The Self-Support Army Uprising aimed to rescue him and establish a constitutional monarchy."
+        }
+      }
+    },
+    {
+      "id": "八国联军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "八国联军"
+        ],
+        "en": [
+          "Eight-Nation Alliance"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "为应对义和团运动而组成的国际军队。其入侵华北造成清廷权力真空，为自立军起义提供了时机。",
+          "en": "An international military force formed in response to the Boxer Rebellion. Its invasion of North China created a power vacuum in the Qing court, providing an opportunity for the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "id": "秦力山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦力山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "自立军前军统领，在大通率先发难，但因孤军奋战而失败。",
+          "en": "Commander of the Self-Support Army's vanguard. He initiated the uprising in Datong but failed due to fighting alone."
+        }
+      }
+    },
+    {
+      "id": "吴禄贞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴禄贞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "自立军前军统领，与秦力山一同在大通发难。",
+          "en": "Commander of the Self-Support Army's vanguard, who initiated the uprising in Datong along with Qin Lishan."
+        }
+      }
+    },
+    {
+      "id": "毕永年",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毕永年"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "哥老会龙头，负责联系会党力量支持自立军起义。",
+          "en": "A leader of the Gelaohui, responsible for liaising with secret societies to support the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "id": "容闳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "容闳"
+        ],
+        "en": [
+          "Yung Wing"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国留学生之父，支持维新与革命。在上海“中国议会”上被选为议长，是自立军起义的重要策划者。",
+          "en": "Known as the 'Father of Chinese students studying abroad,' he supported both reform and revolution. He was elected chairman of the 'China Congress' in Shanghai and was a key planner of the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "id": "中国议会 (清朝)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国议会 (清朝)",
+          "中国议会",
+          "中国国会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "1900年7月在上海由维新派、革命党人等召开的会议，决定组织自立军发动起义。",
+          "en": "A meeting held in Shanghai in July 1900 by reformists, revolutionaries, and others, which decided to organize the Self-Support Army to launch an uprising."
+        }
+      }
+    },
+    {
+      "id": "自立军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "自立军"
+        ],
+        "en": [
+          "Self-Support Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由自立会及各方力量组成的武装部队，旨在执行自立军起义计划。",
+          "en": "An armed force composed of the Self-Support Society and other factions, intended to carry out the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "id": "东亚同文会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东亚同文会"
+        ],
+        "en": [
+          "East Asian Common Culture Society"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "日本组织，支持了唐才常组织自立会及后续的起义活动。",
+          "en": "A Japanese organization that supported Tang Caichang in organizing the Self-Support Society and the subsequent uprising."
+        }
+      }
+    },
+    {
+      "id": "正气会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "正气会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "自立会的前身，由唐才常在东亚同文会支持下秘密组织。",
+          "en": "The predecessor of the Self-Support Society, secretly organized by Tang Caichang with the support of the East Asian Common Culture Society."
+        }
+      }
+    },
+    {
+      "id": "戊戌政变",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "戊戌政变"
+        ],
+        "en": [
+          "Wuxu Coup"
+        ]
+      },
+      "properties": {
+        "period": "1898-09-21",
+        "description": {
+          "zh-cn": "慈禧太后发动政变，囚禁光绪帝，终止戊戌维新，导致维新派转向更激进的武装斗争。",
+          "en": "A coup launched by Empress Dowager Cixi, imprisoning the Guangxu Emperor and ending the Hundred Days' Reform, which pushed the reformists towards more radical armed struggle."
+        }
+      }
+    },
+    {
+      "id": "辛亥革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "辛亥革命"
+        ],
+        "en": [
+          "Xinhai Revolution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "推翻清朝统治的革命。自立军起义的失败，促使部分维新派人士转向革命，被视为辛亥革命历史的转捩点之一。",
+          "en": "The revolution that overthrew the Qing Dynasty. The failure of the Self-Support Army Uprising prompted some reformists to turn to revolution, and it is considered one of the turning points in the history of the Xinhai Revolution."
+        }
+      }
+    },
+    {
+      "id": "刘学询",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘学询"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末官员，在维新派与革命派合作期间进行破坏，导致孙文与康有为关系破裂。",
+          "en": "A late Qing official who undermined the cooperation between reformists and revolutionaries, leading to the breakdown of relations between Sun Yat-sen and Kang Youwei."
+        }
+      }
+    },
+    {
+      "id": "宫崎滔天",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宫崎滔天"
+        ],
+        "en": [
+          "Miyazaki Tōten"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本浪人，积极撮合孙文与康有为合作，但因刘学询的计谋而在新加坡入狱。",
+          "en": "A Japanese rōnin who actively tried to broker cooperation between Sun Yat-sen and Kang Youwei, but was imprisoned in Singapore due to Liu Xuexun's scheme."
+        }
+      }
+    },
+    {
+      "id": "袁世凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁世凯"
+        ],
+        "en": [
+          "Yuan Shikai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末重要军事及政治人物，在戊戌政变中向荣禄告密，导致维新派失败。",
+          "en": "An important military and political figure in the late Qing Dynasty. He informed on the reformists to Ronglu during the Wuxu Coup, leading to their failure."
+        }
+      }
+    },
+    {
+      "id": "荣禄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "荣禄"
+        ],
+        "en": [
+          "Ronglu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末重臣，保守派代表，从袁世凯处获悉维新派计划后协助慈禧发动戊戌政变。",
+          "en": "A powerful conservative minister in the late Qing Dynasty who, after learning of the reformists' plans from Yuan Shikai, assisted Empress Dowager Cixi in launching the Wuxu Coup."
+        }
+      }
+    },
+    {
+      "id": "林圭",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林圭"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "自立军中军统领，起义失败后与唐才常一同被捕并被杀害。",
+          "en": "Commander of the Self-Support Army's central column, arrested and executed along with Tang Caichang after the uprising failed."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "唐才常",
+      "target": "自立军起义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "唐才常是自立军起义的主要发起人和总指挥。",
+          "en": "Tang Caichang was the main initiator and commander-in-chief of the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "source": "自立会",
+      "target": "自立军",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1900-07-26",
+        "description": {
+          "zh-cn": "在上海中国议会后，决定以自立会为基础成立自立军。",
+          "en": "After the China Congress in Shanghai, it was decided to establish the Self-Support Army based on the Self-Support Society."
+        }
+      }
+    },
+    {
+      "source": "自立军",
+      "target": "清政府",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "1900-08",
+        "description": {
+          "zh-cn": "自立军起义旨在推翻以慈禧为首的清政府。",
+          "en": "The Self-Support Army Uprising aimed to overthrow the Qing government led by Empress Dowager Cixi."
+        }
+      }
+    },
+    {
+      "source": "张之洞",
+      "target": "自立军起义",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1900-08-21",
+        "description": {
+          "zh-cn": "时任湖广总督张之洞在汉口包围并逮捕了唐才常等起义领导人，并于次日将他们处决，彻底扑灭了起义。",
+          "en": "Zhang Zhidong, then Viceroy of Huguang, surrounded and arrested uprising leaders including Tang Caichang in Hankou, executing them the next day and completely crushing the uprising."
+        }
+      }
+    },
+    {
+      "source": "张之洞",
+      "target": "唐才常",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1900-08-22",
+        "description": {
+          "zh-cn": "张之洞下令将唐才常等起义领袖在武昌紫阳湖畔斩首。",
+          "en": "Zhang Zhidong ordered the execution of Tang Caichang and other uprising leaders by the Ziyang Lake in Wuchang."
+        }
+      }
+    },
+    {
+      "source": "康有为",
+      "target": "自立军起义",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1900-08",
+        "description": {
+          "zh-cn": "康有为承诺的起义款项迟迟未到，导致自立军粮饷不继，被迫推迟起义，最终事败。",
+          "en": "The funds promised by Kang Youwei failed to arrive, causing a lack of supplies for the Self-Support Army, forcing a postponement of the uprising and contributing to its eventual failure."
+        }
+      }
+    },
+    {
+      "source": "八国联军",
+      "target": "自立军起义",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1900-06",
+        "description": {
+          "zh-cn": "八国联军入侵华北，导致清廷权力真空和统治危机，为自立军起义创造了时机。",
+          "en": "The invasion of North China by the Eight-Nation Alliance created a power vacuum and a crisis of governance for the Qing court, providing an opportunity for the Self-Support Army Uprising."
+        }
+      }
+    },
+    {
+      "source": "自立军起义",
+      "target": "慈禧",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "起义的目标是推翻慈禧的统治。",
+          "en": "The uprising aimed to overthrow the rule of Empress Dowager Cixi."
+        }
+      }
+    },
+    {
+      "source": "自立军起义",
+      "target": "光绪帝",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "起义的目标是营救光绪皇帝，并建立君主立宪政府。",
+          "en": "The uprising aimed to rescue the Guangxu Emperor and establish a constitutional monarchy."
+        }
+      }
+    },
+    {
+      "source": "自立军起义",
+      "target": "辛亥革命",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "自立军起义的失败激发了维新党人同情革命，使许多人放弃改良幻想，是革命历史的转捩点之一。",
+          "en": "The failure of the Self-Support Army Uprising inspired sympathy for the revolution among reformists, causing many to abandon illusions of gradual reform, making it a turning point in revolutionary history."
+        }
+      }
+    },
+    {
+      "source": "唐才常",
+      "target": "张之洞",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "唐才常是张之洞的门生，曾就读于张之洞创办的两湖书院。",
+          "en": "Tang Caichang was a protégé (mensheng) of Zhang Zhidong and had studied at the Liang-Hu Academy founded by Zhang."
+        }
+      }
+    },
+    {
+      "source": "唐才常",
+      "target": "谭嗣同",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "唐才常是谭嗣同的生前挚友。",
+          "en": "Tang Caichang was a close friend of Tan Sitong."
+        }
+      }
+    },
+    {
+      "source": "东亚同文会",
+      "target": "唐才常",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1900",
+        "description": {
+          "zh-cn": "东亚同文会支持唐才常秘密组织“正气会”（后改名自立会）。",
+          "en": "The East Asian Common Culture Society supported Tang Caichang in secretly organizing the 'Zhengqi Hui' (later renamed the Self-Support Society)."
+        }
+      }
+    },
+    {
+      "source": "中国议会 (清朝)",
+      "target": "自立军",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1900-07-26",
+        "description": {
+          "zh-cn": "在上海愚园召开的中国议会决定以自立会为基础成立自立军，并发动起义。",
+          "en": "The China Congress, held at Yu Garden in Shanghai, decided to establish the Self-Support Army based on the Self-Support Society and launch an uprising."
+        }
+      }
+    },
+    {
+      "source": "容闳",
+      "target": "中国议会 (清朝)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1900-07-26",
+        "position": {
+          "zh-cn": "议长",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "容闳在上海中国议会上被投票选为议长。",
+          "en": "Yung Wing was elected as the chairman at the China Congress in Shanghai."
+        }
+      }
+    },
+    {
+      "source": "康有为",
+      "target": "孙中山",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1900-07",
+        "description": {
+          "zh-cn": "因刘学询策划的“日本刺客”事件，康有为与孙文反目成仇，不再与革命党人来往。",
+          "en": "Due to the 'Japanese assassin' incident plotted by Liu Xuexun, Kang Youwei became enemies with Sun Yat-sen and ceased contact with the revolutionaries."
+        }
+      }
+    },
+    {
+      "source": "刘学询",
+      "target": "宫崎滔天",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1900-07",
+        "description": {
+          "zh-cn": "刘学询设局陷害宫崎滔天，向新加坡当局放出假消息，导致宫崎滔天被捕入狱。",
+          "en": "Liu Xuexun framed Miyazaki Tōten by spreading false information to the Singapore authorities, leading to Miyazaki's arrest and imprisonment."
+        }
+      }
+    },
+    {
+      "source": "慈禧",
+      "target": "戊戌维新",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1898-09-21",
+        "description": {
+          "zh-cn": "慈禧发动戊戌政变，囚禁光绪帝，终止了戊戌维新运动。",
+          "en": "Cixi launched the Wuxu Coup, imprisoning the Guangxu Emperor and terminating the Hundred Days' Reform movement."
+        }
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "康有为",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1898-09",
+        "description": {
+          "zh-cn": "袁世凯将维新派捕杀慈禧的计划告知荣禄，导致戊戌政变发生，维新派失败。",
+          "en": "Yuan Shikai revealed the reformists' plan to capture Cixi to Ronglu, leading to the Wuxu Coup and the failure of the reformists."
+        }
+      }
+    },
+    {
+      "source": "唐才常",
+      "target": "自立军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "总指挥",
+          "en": "Commander-in-Chief"
+        }
+      }
+    }
+  ]
+}
