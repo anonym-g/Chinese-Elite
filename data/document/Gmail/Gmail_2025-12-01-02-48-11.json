@@ -1,0 +1,470 @@
+{
+  "nodes": [
+    {
+      "id": "Gmail",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Gmail"
+        ],
+        "en": [
+          "Gmail"
+        ]
+      },
+      "properties": {
+        "period": "2004-04-01 - ",
+        "description": {
+          "zh-cn": "由Google公司在2004年4月1日发布的免费电子邮件服务，是世界上最大的电子邮件服务之一。",
+          "en": "A free email service launched by Google on April 1, 2004, and one of the largest email services in the world."
+        }
+      }
+    },
+    {
+      "id": "Google",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google",
+          "Google公司"
+        ],
+        "en": [
+          "Google"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一家美国的跨国科技公司，开发了Gmail等众多互联网相关服务和产品。",
+          "en": "An American multinational technology company that develops numerous Internet-related services and products, including Gmail."
+        }
+      }
+    },
+    {
+      "id": "Yahoo! Mail",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Yahoo! Mail",
+          "雅虎邮箱"
+        ],
+        "en": [
+          "Yahoo! Mail"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "雅虎公司推出的电子邮件服务，是Gmail在推出初期的主要竞争对手之一。",
+          "en": "An email service by Yahoo, one of Gmail's main competitors at the time of its launch."
+        }
+      }
+    },
+    {
+      "id": "Windows Live Hotmail",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Windows Live Hotmail",
+          "Hotmail"
+        ],
+        "en": [
+          "Windows Live Hotmail",
+          "Hotmail"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "微软公司推出的电子邮件服务，是Gmail在推出初期的主要竞争对手之一。",
+          "en": "An email service by Microsoft, one of Gmail's main competitors at the time of its launch."
+        }
+      }
+    },
+    {
+      "id": "Google云端硬碟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google云端硬碟",
+          "Google Drive",
+          "Google云端硬盘"
+        ],
+        "en": [
+          "Google Drive"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "Google推出的一项在线云存储服务，与Gmail共享存储空间并整合了附件功能。",
+          "en": "An online cloud storage service by Google that shares storage space and integrates attachment functionality with Gmail."
+        }
+      }
+    },
+    {
+      "id": "Google文件",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google文件"
+        ],
+        "en": [
+          "Google Docs"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "Google推出的在线文档处理程序，与Gmail整合，可以直接打开邮件附件。",
+          "en": "An online word processor by Google that is integrated with Gmail to open email attachments directly."
+        }
+      }
+    },
+    {
+      "id": "AJAX",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "AJAX"
+        ],
+        "en": [
+          "AJAX"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种创建交互式网页应用的网页开发技术，Gmail的快速用户界面得益于此技术。",
+          "en": "A web development technique for creating interactive web applications, which enabled Gmail's fast user interface."
+        }
+      }
+    },
+    {
+      "id": "Google Talk",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google Talk"
+        ],
+        "en": [
+          "Google Talk"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "Google开发的即时通讯服务，曾与Gmail整合提供网页聊天功能。",
+          "en": "An instant messaging service developed by Google, which was integrated with Gmail to provide web-based chat functionality."
+        }
+      }
+    },
+    {
+      "id": "Google日历",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google日历"
+        ],
+        "en": [
+          "Google Calendar"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "Google推出的时间管理与日程安排日历服务，与Gmail整合，可从邮件内容创建日程。",
+          "en": "A time-management and scheduling calendar service by Google, integrated with Gmail to create events from email content."
+        }
+      }
+    },
+    {
+      "id": "Google Voice",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google Voice"
+        ],
+        "en": [
+          "Google Voice"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "Google推出的电话服务，通过插件与Gmail整合，提供网络电话功能。",
+          "en": "A telephone service by Google that integrates with Gmail via a plugin to provide VoIP features."
+        }
+      }
+    },
+    {
+      "id": "Inbox by Gmail",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Inbox by Gmail"
+        ],
+        "en": [
+          "Inbox by Gmail"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由Gmail团队开发的另一款电子邮件应用程序。",
+          "en": "Another email application developed by the Gmail team."
+        }
+      }
+    },
+    {
+      "id": "伊朗政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "伊朗政府"
+        ],
+        "en": [
+          "Government of Iran"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊朗的执政当局，曾在2010年宣布永久阻挡Gmail服务。",
+          "en": "The governing authority of Iran, which announced in 2010 its intention to permanently block Gmail."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国政府",
+          "中国当局"
+        ],
+        "en": [
+          "Government of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政当局，自2011年起逐步干扰并最终封锁了Gmail在中国大陆的服务。",
+          "en": "The governing authority of China, which has progressively interfered with and eventually blocked Gmail services in mainland China since 2011."
+        }
+      }
+    },
+    {
+      "id": "谷歌退出中国事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "谷歌退出中国事件"
+        ],
+        "en": [
+          "Google's withdrawal from China"
+        ]
+      },
+      "properties": {
+        "period": "2010-03 - 2010-03",
+        "description": {
+          "zh-cn": "指2010年Google公司因不满中国政府的网络审查和黑客攻击，宣布停止在中国大陆的搜索服务审查，并将服务器移出中国大陆的事件。",
+          "en": "Refers to the 2010 event where Google ceased censoring its search services in mainland China and moved its servers out of the mainland, citing dissatisfaction with Chinese government's web censorship and cyberattacks."
+        }
+      }
+    },
+    {
+      "id": "Google相簿",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "Google相簿",
+          "Google相册"
+        ],
+        "en": [
+          "Google Photos"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "Google推出的图片和视频存储服务，与Gmail共享存储空间。",
+          "en": "A photo and video storage service by Google that shares storage space with Gmail."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Google",
+      "target": "Gmail",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "2004-04-01",
+        "description": {
+          "zh-cn": "Google于2004年4月1日发布了免费电子邮件服务Gmail。",
+          "en": "Google launched the free email service Gmail on April 1, 2004."
+        }
+      }
+    },
+    {
+      "source": "Gmail",
+      "target": "Yahoo! Mail",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2004-04-01",
+        "description": {
+          "zh-cn": "Gmail在推出时提供1GB的巨大储存空间，迫使包括雅虎邮箱在内的竞争对手大幅增加其邮箱容量。",
+          "en": "Gmail's launch with a large 1GB storage capacity forced competitors, including Yahoo! Mail, to significantly increase their mailbox storage."
+        }
+      }
+    },
+    {
+      "source": "Gmail",
+      "target": "Windows Live Hotmail",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2004-04-01",
+        "description": {
+          "zh-cn": "Gmail在推出时提供1GB的巨大储存空间，迫使包括Hotmail在内的竞争对手大幅增加其邮箱容量。",
+          "en": "Gmail's launch with a large 1GB storage capacity forced competitors, including Hotmail, to significantly increase their mailbox storage."
+        }
+      }
+    },
+    {
+      "source": "Google云端硬碟",
+      "target": "Gmail",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2012-12",
+        "description": {
+          "zh-cn": "Gmail与Google云端硬盘整合，使用户能够发送高达10GB的附件，增强了Gmail的功能。",
+          "en": "Gmail integrated with Google Drive, enabling users to send attachments up to 10GB, which enhanced Gmail's functionality."
+        }
+      }
+    },
+    {
+      "source": "Google文件",
+      "target": "Gmail",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "Gmail与Google文件整合，允许用户直接在Gmail中打开.doc、.xls等附件，增强了其功能。",
+          "en": "Gmail's integration with Google Docs allows users to directly open attachments like .doc and .xls within Gmail, enhancing its functionality."
+        }
+      }
+    },
+    {
+      "source": "AJAX",
+      "target": "Gmail",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "Gmail运用AJAX技术，创建了比传统Webmail速度更快、用户体验更好的界面。",
+          "en": "Gmail utilized AJAX technology to create a faster and more user-friendly interface than traditional Webmail."
+        }
+      }
+    },
+    {
+      "source": "Google Talk",
+      "target": "Gmail",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2006-02",
+        "description": {
+          "zh-cn": "Gmail整合了Google Talk，为用户提供了内嵌的即时聊天功能。",
+          "en": "Gmail integrated Google Talk, providing users with embedded instant messaging functionality."
+        }
+      }
+    },
+    {
+      "source": "Google日历",
+      "target": "Gmail",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "Gmail与Google日历整合，可以自动识别邮件中的事件信息并让用户方便地添加到日历中。",
+          "en": "Gmail's integration with Google Calendar allows it to automatically identify event information in emails and lets users easily add them to their calendar."
+        }
+      }
+    },
+    {
+      "source": "Google Voice",
+      "target": "Gmail",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "通过浏览器插件，Gmail可以使用Google Voice的功能，提供IP电话服务。",
+          "en": "Through a browser plugin, Gmail can utilize Google Voice features to provide IP telephony services."
+        }
+      }
+    },
+    {
+      "source": "Google",
+      "target": "Inbox by Gmail",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "Inbox by Gmail是由Gmail团队（隶属于Google）推出的另一款电子邮件应用。",
+          "en": "Inbox by Gmail was another email application launched by the Gmail team (part of Google)."
+        }
+      }
+    },
+    {
+      "source": "伊朗政府",
+      "target": "Gmail",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2010-02-11",
+        "description": {
+          "zh-cn": "2010年2月11日，伊朗政府宣布将永久阻挡Gmail服务，声称其被反对派用作联络工具。",
+          "en": "On February 11, 2010, the Iranian government announced it would permanently block Gmail, claiming it was used as a communication tool by opposition activists."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国政府",
+      "target": "Gmail",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2011-03",
+        "description": {
+          "zh-cn": "自2011年3月起，中国当局开始对Gmail进行间歇性干扰，并逐步升级封锁措施，至2014年底导致Gmail在中国大陆几乎完全无法使用。",
+          "en": "Starting in March 2011, Chinese authorities began intermittently disrupting Gmail and gradually escalated blocking measures, leading to the service becoming almost completely inaccessible in mainland China by the end of 2014."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国政府",
+      "target": "谷歌退出中国事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2010-03",
+        "description": {
+          "zh-cn": "中国政府对Google服务（包括Gmail）的攻击和审查，是导致Google最终决定将其搜索服务撤出中国大陆的关键因素。",
+          "en": "The Chinese government's attacks and censorship on Google services, including Gmail, were key factors that led to Google's decision to withdraw its search services from mainland China."
+        }
+      }
+    },
+    {
+      "source": "Gmail",
+      "target": "Google云端硬碟",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "Gmail的15GB免费存储空间与Google云端硬盘共享。",
+          "en": "Gmail's 15GB of free storage is shared with Google Drive."
+        }
+      }
+    },
+    {
+      "source": "Gmail",
+      "target": "Google相簿",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "Gmail的付费存储空间与Google相册共享。",
+          "en": "Gmail's paid storage space is shared with Google Photos."
+        }
+      }
+    },
+    {
+      "source": "Gmail",
+      "target": "Google文件",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "Gmail的付费存储空间与Google文件共享。",
+          "en": "Gmail's paid storage space is shared with Google Docs."
+        }
+      }
+    }
+  ]
+}

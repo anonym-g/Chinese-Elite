@@ -1,0 +1,351 @@
+{
+  "nodes": [
+    {
+      "id": "贾庭三",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贾庭三"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1912 - 1984",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "河北唐县",
+          "en": "Tang County, Hebei"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任北京市副市长、贵州省委书记、北京市人大常委会主任、中顾委委员等职务。",
+          "en": "A political figure of the People's Republic of China, who served as Vice Mayor of Beijing, Secretary of the Guizhou Provincial Party Committee, Chairman of the Standing Committee of the Beijing Municipal People's Congress, and a member of the Central Advisory Commission."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中共中央顾问委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央顾问委员会",
+          "中顾委"
+        ],
+        "en": [
+          "Central Advisory Commission"
+        ]
+      },
+      "properties": {
+        "period": "1982 - 1992",
+        "description": {
+          "zh-cn": "1982年至1992年间中国共产党的中央组织之一，作为废除干部领导职务终身制的过渡性机构。",
+          "en": "One of the central organizations of the Communist Party of China between 1982 and 1992, serving as a transitional body for the abolition of lifelong tenure for leading cadres."
+        }
+      }
+    },
+    {
+      "id": "北平市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北平市人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1949-01-31 - 1949-09-27",
+        "description": {
+          "zh-cn": "北平市在1949年更名为北京市之前的政府机构。",
+          "en": "The governmental body of Beiping City before it was renamed Beijing in 1949."
+        }
+      }
+    },
+    {
+      "id": "北京市工业局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市工业局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北京市人民政府负责工业事务的部门。",
+          "en": "The department of the Beijing Municipal People's Government responsible for industrial affairs."
+        }
+      }
+    },
+    {
+      "id": "北京市公用局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市公用局"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北京市人民政府负责公用事业的部门。",
+          "en": "The department of the Beijing Municipal People's Government responsible for public utilities."
+        }
+      }
+    },
+    {
+      "id": "北京市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市人民政府"
+        ],
+        "en": [
+          "Beijing Municipal People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国北京市的最高地方行政机关。",
+          "en": "The highest local executive organ of Beijing, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党北京市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党北京市委员会",
+          "北京市委"
+        ],
+        "en": [
+          "Beijing Municipal Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在北京市的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Beijing."
+        }
+      }
+    },
+    {
+      "id": "中国共产党贵州省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党贵州省委员会",
+          "贵州省委"
+        ],
+        "en": [
+          "Guizhou Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在贵州省的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Guizhou Province."
+        }
+      }
+    },
+    {
+      "id": "北京市人大常委会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京市人大常委会"
+        ],
+        "en": [
+          "Standing Committee of the Beijing Municipal People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北京市人民代表大会的常设机关。",
+          "en": "The standing body of the Beijing Municipal People's Congress."
+        }
+      }
+    },
+    {
+      "id": "唐县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "唐县"
+        ],
+        "en": [
+          "Tang County"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "河北省保定市",
+          "en": "Baoding, Hebei Province"
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "贾庭三",
+      "target": "唐县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "贾庭三是河北唐县人。",
+          "en": "Jia Tingsan was a native of Tang County, Hebei."
+        }
+      }
+    },
+    {
+      "source": "贾庭三",
+      "target": "中共中央顾问委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "贾庭三曾担任中共中央顾问委员会委员。",
+          "en": "Jia Tingsan served as a member of the Central Advisory Commission."
+        }
+      }
+    },
+    {
+      "source": "贾庭三",
+      "target": "北平市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "企业局副局长",
+          "en": "Deputy Director of the Enterprise Bureau"
+        },
+        "description": {
+          "zh-cn": "贾庭三早年曾担任北平市人民政府企业局副局长。",
+          "en": "In his early years, Jia Tingsan served as the Deputy Director of the Enterprise Bureau of the Beiping Municipal People's Government."
+        }
+      }
+    },
+    {
+      "source": "贾庭三",
+      "target": "北京市工业局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副局长",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "贾庭三曾担任北京市工业局副局长。",
+          "en": "Jia Tingsan served as the Deputy Director of the Beijing Municipal Bureau of Industry."
+        }
+      }
+    },
+    {
+      "source": "贾庭三",
+      "target": "北京市公用局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "局长",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "贾庭三曾担任北京市公用局局长。",
+          "en": "Jia Tingsan served as the Director of the Beijing Municipal Public Utility Bureau."
+        }
+      }
+    },
+    {
+      "source": "贾庭三",
+      "target": "北京市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1955",
+        "position": {
+          "zh-cn": "副市长",
+          "en": "Vice Mayor"
+        },
+        "description": {
+          "zh-cn": "1955年，贾庭三任北京市副市长。",
+          "en": "In 1955, Jia Tingsan became the Vice Mayor of Beijing."
+        }
+      }
+    },
+    {
+      "source": "贾庭三",
+      "target": "中国共产党北京市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": [
+          "1964",
+          "1979"
+        ],
+        "position": {
+          "zh-cn": "书记处书记；第三书记",
+          "en": "Secretary of the Secretariat; Third Secretary"
+        },
+        "description": {
+          "zh-cn": "贾庭三于1964年兼任北京市委书记处书记，1979年任北京市委第三书记。",
+          "en": "Jia Tingsan concurrently served as Secretary of the Secretariat of the CPC Beijing Municipal Committee in 1964, and became the Third Secretary of the CPC Beijing Municipal Committee in 1979."
+        }
+      }
+    },
+    {
+      "source": "贾庭三",
+      "target": "中国共产党贵州省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": [
+          "1971",
+          "1977"
+        ],
+        "end_date": [
+          "1977"
+        ],
+        "position": {
+          "zh-cn": "副书记；书记",
+          "en": "Deputy Secretary; Secretary"
+        },
+        "description": {
+          "zh-cn": "贾庭三于1971年任贵州省委副书记，1977年升任贵州省委书记。",
+          "en": "Jia Tingsan became the Deputy Secretary of the CPC Guizhou Provincial Committee in 1971 and was promoted to Secretary in 1977."
+        }
+      }
+    },
+    {
+      "source": "贾庭三",
+      "target": "北京市人大常委会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1979",
+        "position": {
+          "zh-cn": "主任",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "1979年，贾庭三任北京市人大常委会主任。",
+          "en": "In 1979, Jia Tingsan became the Chairman of the Standing Committee of the Beijing Municipal People's Congress."
+        }
+      }
+    }
+  ]
+}

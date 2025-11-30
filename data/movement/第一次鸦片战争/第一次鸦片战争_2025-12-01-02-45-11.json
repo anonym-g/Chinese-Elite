@@ -1,0 +1,753 @@
+{
+  "nodes": [
+    {
+      "id": "第一次鸦片战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "第一次鸦片战争",
+          "鸦片战争",
+          "中英战争"
+        ],
+        "en": [
+          "First Opium War",
+          "The Anglo-Chinese War"
+        ]
+      },
+      "properties": {
+        "period": "1839 - 1842",
+        "location": {
+          "zh-cn": "中国沿海"
+        },
+        "description": {
+          "zh-cn": "1839年至1842年间，清朝与英国因贸易争端及鸦片问题爆发的战争，被视为中国近代史的开端。"
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "大清帝国"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国最后一个封建王朝，第一次鸦片战争的中方参战国。"
+        }
+      }
+    },
+    {
+      "id": "大英帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大英帝国",
+          "英国"
+        ],
+        "en": [
+          "British Empire",
+          "UK"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "第一次鸦片战争的英方参战国。"
+        }
+      }
+    },
+    {
+      "id": "虎门销烟",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "虎门销烟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1839-06-03 - 1839-06-25",
+        "location": {
+          "zh-cn": "虎门"
+        },
+        "description": {
+          "zh-cn": "林则徐在广东虎门集中销毁鸦片的事件，是第一次鸦片战争的直接导火索。"
+        }
+      }
+    },
+    {
+      "id": "林则徐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林则徐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝官员，钦差大臣，因在广州领导禁烟运动而成为第一次鸦片战争的关键人物。"
+        }
+      }
+    },
+    {
+      "id": "道光",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "道光"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝第八位皇帝，鸦片战争时期的在位君主。"
+        }
+      }
+    },
+    {
+      "id": "查理·义律",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查理·义律"
+        ],
+        "en": [
+          "Charles Elliot"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国驻华商务总监，鸦片战争前及战争初期的英方主要代表人物。"
+        }
+      }
+    },
+    {
+      "id": "南京条约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "南京条约",
+          "江宁条约",
+          "万年和约"
+        ],
+        "en": [
+          "Treaty of Nanking"
+        ]
+      },
+      "properties": {
+        "period": "1842-08-29",
+        "description": {
+          "zh-cn": "第一次鸦片战争后清朝与英国签订的条约，是中国近代史上第一个不平等条约。"
+        }
+      }
+    },
+    {
+      "id": "香港岛",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "香港岛"
+        ],
+        "en": [
+          "Hong Kong Island"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "根据《南京条约》，清朝割让给英国的岛屿。"
+        }
+      }
+    },
+    {
+      "id": "琦善",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "琦善"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝官员，直隶总督，后任钦差大臣，主张与英国议和。"
+        }
+      }
+    },
+    {
+      "id": "巴麦尊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "巴麦尊",
+          "亨利·坦普尔",
+          "第三代巴麦尊子爵亨利·坦普尔"
+        ],
+        "en": [
+          "Lord Palmerston",
+          "Henry John Temple, 3rd Viscount Palmerston"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任英国外交大臣，主张对华采取强硬军事行动。"
+        }
+      }
+    },
+    {
+      "id": "英国东印度公司",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英国东印度公司"
+        ],
+        "en": [
+          "British East India Company"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在鸦片战争前垄断对华贸易，并且是鸦片贸易的主要参与者。"
+        }
+      }
+    },
+    {
+      "id": "穿鼻草约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "穿鼻草约"
+        ],
+        "en": [
+          "Convention of Chuanbi"
+        ]
+      },
+      "properties": {
+        "period": "1841-01-20",
+        "description": {
+          "zh-cn": "由琦善与义律拟定但未被双方政府承认的草拟条约，内容包括割让香港、赔款等。"
+        }
+      }
+    },
+    {
+      "id": "奕山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奕山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝宗室，被道光帝任命为靖逆将军，负责广东军务。"
+        }
+      }
+    },
+    {
+      "id": "关天培",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "关天培"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝广东水师提督，在虎门之战中战死。"
+        }
+      }
+    },
+    {
+      "id": "虎门之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "虎门之战"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1841-02-26",
+        "location": {
+          "zh-cn": "虎门"
+        },
+        "description": {
+          "zh-cn": "1841年英军对虎门炮台发起的总攻，导致炮台陷落，水师提督关天培战死。"
+        }
+      }
+    },
+    {
+      "id": "广州和约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "广州和约"
+        ],
+        "en": [
+          "Ransom of Canton"
+        ]
+      },
+      "properties": {
+        "period": "1841-05-27",
+        "location": {
+          "zh-cn": "广州"
+        },
+        "description": {
+          "zh-cn": "第二次广州之战后，奕山与义律订立的停战协定，内容包括清军撤离广州并支付600万银元赎城费。"
+        }
+      }
+    },
+    {
+      "id": "砵甸乍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "砵甸乍",
+          "璞鼎查",
+          "亨利·璞鼎查"
+        ],
+        "en": [
+          "Henry Pottinger"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "接替义律的英国驻华全权代表，主持了战争后期军事行动并代表英国签订《南京条约》。"
+        }
+      }
+    },
+    {
+      "id": "镇江之战 (1842年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "镇江之战 (1842年)"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1842-07-21",
+        "location": {
+          "zh-cn": "镇江"
+        },
+        "description": {
+          "zh-cn": "英军在长江战役中攻占镇江的战斗，切断了京杭大运河漕运，直接促使清政府求和。"
+        }
+      }
+    },
+    {
+      "id": "耆英",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "耆英"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝宗室、官员，被道光帝任命为钦差大臣，负责与英国议和并签订《南京条约》。"
+        }
+      }
+    },
+    {
+      "id": "伊里布",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊里布"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝官员，曾任两江总督，后协助耆英参与《南京条约》的签订。"
+        }
+      }
+    },
+    {
+      "id": "牛鉴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "牛鉴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝两江总督，在吴淞战役中战败逃跑，后参与《南京条约》的签订。"
+        }
+      }
+    },
+    {
+      "id": "海国图志",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "海国图志"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1843",
+        "description": {
+          "zh-cn": "由魏源编撰的介绍世界史地和西方科技的著作，旨在“师夷长技以制夷”。"
+        }
+      }
+    },
+    {
+      "id": "魏源",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "魏源"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清代思想家，受林则徐委托编撰《海国图志》。"
+        }
+      }
+    },
+    {
+      "id": "四洲志",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "四洲志"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "林则徐主持翻译的介绍世界地理的著作，是《海国图志》的蓝本之一。"
+        }
+      }
+    },
+    {
+      "id": "一口通商",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "一口通商"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1757 - 1842",
+        "description": {
+          "zh-cn": "清朝乾隆时期开始施行的对外贸易政策，限定外国商船只能在广州进行贸易。"
+        }
+      }
+    },
+    {
+      "id": "陈化成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈化成"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝江南提督，在吴淞战役中阵亡。"
+        }
+      }
+    },
+    {
+      "id": "吴淞战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "吴淞战役"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1842-06-16",
+        "location": {
+          "zh-cn": "吴淞"
+        },
+        "description": {
+          "zh-cn": "英军攻占长江门户吴淞炮台的战役，江南提督陈化成在此战中阵亡。"
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "虎门销烟",
+      "target": "第一次鸦片战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1839-06",
+        "description": {
+          "zh-cn": "虎门销烟是第一次鸦片战争的直接导火索。",
+          "en": "The destruction of opium at Humen was the direct cause (casus belli) of the First Opium War."
+        }
+      }
+    },
+    {
+      "source": "林则徐",
+      "target": "虎门销烟",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1839-06-03",
+        "description": {
+          "zh-cn": "林则徐作为钦差大臣，在广东主持了虎门销烟。",
+          "en": "As the Imperial Commissioner, Lin Zexu presided over the destruction of opium at Humen."
+        }
+      }
+    },
+    {
+      "source": "清朝",
+      "target": "大英帝国",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1839",
+        "end_date": "1842",
+        "description": {
+          "zh-cn": "在第一次鸦片战争中，清朝与大英帝国是敌对的交战方。",
+          "en": "The Qing dynasty and the British Empire were opposing belligerents in the First Opium War."
+        }
+      }
+    },
+    {
+      "source": "第一次鸦片战争",
+      "target": "南京条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "description": {
+          "zh-cn": "第一次鸦片战争以清朝战败告终，被迫签订《南京条约》。",
+          "en": "The First Opium War concluded with the defeat of the Qing dynasty, which was forced to sign the Treaty of Nanking."
+        }
+      }
+    },
+    {
+      "source": "南京条约",
+      "target": "香港岛",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "description": {
+          "zh-cn": "根据《南京条约》，清朝将香港岛割让给英国。",
+          "en": "According to the Treaty of Nanking, the Qing dynasty ceded Hong Kong Island to Great Britain."
+        }
+      }
+    },
+    {
+      "source": "耆英",
+      "target": "南京条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "position": {
+          "zh-cn": "钦差大臣",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "作为清朝钦差大臣，代表清政府签订《南京条约》。",
+          "en": "As the Imperial Commissioner of the Qing dynasty, he signed the Treaty of Nanking on behalf of the Qing government."
+        }
+      }
+    },
+    {
+      "source": "砵甸乍",
+      "target": "南京条约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "position": {
+          "zh-cn": "驻华全权代表",
+          "en": "Plenipotentiary in China"
+        },
+        "description": {
+          "zh-cn": "作为英国驻华全权代表，代表英国政府签订《南京条约》。",
+          "en": "As the British Plenipotentiary in China, he signed the Treaty of Nanking on behalf of the British government."
+        }
+      }
+    },
+    {
+      "source": "道光",
+      "target": "林则徐",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1840-09",
+        "description": {
+          "zh-cn": "因英军北上直逼天津，道光帝认为林则徐在广东禁烟“节外生枝”，将其革职。",
+          "en": "After the British fleet sailed north and threatened Tianjin, the Daoguang Emperor blamed Lin Zexu for provoking trouble with his anti-opium campaign in Guangdong and dismissed him from his post."
+        }
+      }
+    },
+    {
+      "source": "道光",
+      "target": "琦善",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1840-09",
+        "position": {
+          "zh-cn": "钦差大臣",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "道光帝任命时任直隶总督琦善为钦差大臣，赴广东与英军谈判。",
+          "en": "The Daoguang Emperor appointed Qishan, then Governor-General of Zhili, as Imperial Commissioner to negotiate with the British forces in Guangdong."
+        }
+      }
+    },
+    {
+      "source": "道光",
+      "target": "琦善",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1841-01-30",
+        "description": {
+          "zh-cn": "因得知琦善擅自与英国签订《穿鼻草约》割让香港，道光帝将其革职锁拿进京。",
+          "en": "Upon learning that Qishan had signed the Convention of Chuanbi and ceded Hong Kong without authorization, the Daoguang Emperor dismissed him and had him arrested and sent to Beijing."
+        }
+      }
+    },
+    {
+      "source": "琦善",
+      "target": "穿鼻草约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1841-01-20",
+        "description": {
+          "zh-cn": "琦善与义律拟定了《穿鼻草约》，同意割让香港并赔款。",
+          "en": "Qishan and Charles Elliot drafted the Convention of Chuanbi, agreeing to cede Hong Kong and pay an indemnity."
+        }
+      }
+    },
+    {
+      "source": "查理·义律",
+      "target": "穿鼻草约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1841-01-20",
+        "description": {
+          "zh-cn": "义律与琦善拟定了《穿鼻草约》，要求割让香港并赔款。",
+          "en": "Charles Elliot and Qishan drafted the Convention of Chuanbi, demanding the cession of Hong Kong and an indemnity."
+        }
+      }
+    },
+    {
+      "source": "虎门之战",
+      "target": "关天培",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1841-02-26",
+        "description": {
+          "zh-cn": "广东水师提督关天培在虎门之战中战死。",
+          "en": "Guan Tianpei, the admiral of the Guangdong naval forces, was killed in action during the Battle of Humen."
+        }
+      }
+    },
+    {
+      "source": "奕山",
+      "target": "广州和约",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1841-05-27",
+        "description": {
+          "zh-cn": "奕山在第二次广州之战战败后，授权广州知府与义律签订《广州和约》，支付赎城费。",
+          "en": "After being defeated in the Second Battle of Canton, Yishan authorized the prefect of Guangzhou to sign the 'Ransom of Canton' with Elliot, agreeing to pay for the city."
+        }
+      }
+    },
+    {
+      "source": "镇江之战 (1842年)",
+      "target": "道光",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1842-07",
+        "description": {
+          "zh-cn": "镇江失守切断了京杭大运河漕运，直接促使道光帝下定决心求和。",
+          "en": "The fall of Zhenjiang cut off the Grand Canal's grain transport, directly compelling the Daoguang Emperor to sue for peace."
+        }
+      }
+    },
+    {
+      "source": "林则徐",
+      "target": "魏源",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1841-07",
+        "description": {
+          "zh-cn": "林则徐在戍边前将自己主持翻译的《四洲志》等资料交给魏源，嘱其编撰一部介绍世界的著作。",
+          "en": "Before his exile, Lin Zexu gave his translated work 'Gazetteer of the Four Continents' and other materials to Wei Yuan, entrusting him to compile a book about the world."
+        }
+      }
+    },
+    {
+      "source": "魏源",
+      "target": "海国图志",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1843",
+        "description": {
+          "zh-cn": "魏源接受林则徐嘱托，编撰了《海国图志》，提出了“师夷长技以制夷”的思想。",
+          "en": "Accepting Lin Zexu's commission, Wei Yuan compiled the 'Illustrated Treatise on the Maritime Kingdoms', proposing the idea of 'learning from the barbarians' long suits to restrain them'."
+        }
+      }
+    },
+    {
+      "source": "林则徐",
+      "target": "四洲志",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1839",
+        "description": {
+          "zh-cn": "林则徐在广东期间，主持翻译了《地理百科全书》，编成《四洲志》。",
+          "en": "During his time in Guangdong, Lin Zexu supervised the translation of 'A Cyclopaedia of Geography', compiling it into the 'Gazetteer of the Four Continents'."
+        }
+      }
+    },
+    {
+      "source": "第一次鸦片战争",
+      "target": "一口通商",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1842-08-29",
+        "description": {
+          "zh-cn": "鸦片战争后签订的《南京条约》开放五个通商口岸，结束了清朝“一口通商”的贸易政策。",
+          "en": "The Treaty of Nanking, signed after the Opium War, opened five treaty ports, ending the Qing dynasty's 'Canton System' trade policy."
+        }
+      }
+    },
+    {
+      "source": "吴淞战役",
+      "target": "陈化成",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1842-06-16",
+        "description": {
+          "zh-cn": "清朝江南提督陈化成在吴淞战役中阵亡。",
+          "en": "Chen Huacheng, the Jiangnan Admiral of the Qing dynasty, was killed in action during the Battle of Wusong."
+        }
+      }
+    }
+  ]
+}
