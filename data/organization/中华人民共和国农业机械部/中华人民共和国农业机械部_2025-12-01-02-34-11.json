@@ -1,0 +1,206 @@
+{
+  "nodes": [
+    {
+      "id": "中华人民共和国农业机械部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国农业机械部",
+          "农机部",
+          "中华人民共和国第八机械工业部",
+          "八机部"
+        ],
+        "en": [
+          "Ministry of Agricultural Machinery of the People's Republic of China",
+          "Eighth Ministry of Machine Building of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1959-08 - 1970-07-01",
+        "description": {
+          "zh-cn": "中华人民共和国国务院原有的一个组成部门，主管农业机械事务。1959年8月组建，1965年1月改称中华人民共和国第八机械工业部，1970年7月并入第一机械工业部。",
+          "en": "A former constituent department of the State Council of the People's Republic of China, in charge of agricultural machinery affairs. It was established in August 1959, renamed the Eighth Ministry of Machine Building in January 1965, and merged into the First Ministry of Machine Building in July 1970."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国务院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院",
+          "国务院"
+        ],
+        "en": [
+          "State Council of the People's Republic of China",
+          "State Council"
+        ]
+      },
+      "properties": {
+        "period": "1954-09 - ",
+        "description": {
+          "zh-cn": "中华人民共和国中央人民政府，是最高国家行政机关。",
+          "en": "The Central People's Government of the People's Republic of China, which is the highest state administrative organ."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国第一机械工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国第一机械工业部",
+          "一机部",
+          "第一机械工业部"
+        ],
+        "en": [
+          "First Ministry of Machine Building of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院原有的一个组成部门，主管机械工业。",
+          "en": "A former constituent department of the State Council of the People's Republic of China, responsible for the machinery industry."
+        }
+      }
+    },
+    {
+      "id": "陈正人",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈正人"
+        ],
+        "en": [
+          "Chen Zhengren"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中华人民共和国农业机械部部长。",
+          "en": "Chinese politician who served as the Minister of Agricultural Machinery of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "周特夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周特夫"
+        ],
+        "en": [
+          "Zhou Tefu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中华人民共和国农业机械部军管会主任。",
+          "en": "Chinese politician who served as the Director of the Military Control Committee of the Ministry of Agricultural Machinery of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "北河沿大街",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北河沿大街",
+          "东安门北街"
+        ],
+        "en": [
+          "Beiheyan Street"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京市",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "位于中国北京市东城区的一条街道，中华人民共和国农业机械部曾在此办公。",
+          "en": "A street in Dongcheng District, Beijing, China, where the Ministry of Agricultural Machinery of the People's Republic of China was once located."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中华人民共和国农业机械部",
+      "target": "中华人民共和国国务院",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1959-08",
+        "end_date": "1970-07-01",
+        "position": {
+          "zh-cn": "组成部门",
+          "en": "Constituent Department"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国农业机械部是中华人民共和国国务院的一个组成部门。",
+          "en": "The Ministry of Agricultural Machinery was a constituent department of the State Council of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国第一机械工业部",
+      "target": "中华人民共和国农业机械部",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1970-07-01",
+        "description": {
+          "zh-cn": "1970年7月1日，中华人民共和国农业机械部被并入中华人民共和国第一机械工业部，成为其下的农机局。",
+          "en": "On July 1, 1970, the Ministry of Agricultural Machinery was merged into the First Ministry of Machine Building, becoming its Bureau of Agricultural Machinery."
+        }
+      }
+    },
+    {
+      "source": "陈正人",
+      "target": "中华人民共和国农业机械部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1959-08",
+        "end_date": "1967-07",
+        "position": {
+          "zh-cn": "部长",
+          "en": "Minister"
+        },
+        "description": {
+          "zh-cn": "陈正人担任中华人民共和国农业机械部部长。",
+          "en": "Chen Zhengren served as the Minister of the Ministry of Agricultural Machinery of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "周特夫",
+      "target": "中华人民共和国农业机械部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1967-07",
+        "end_date": "1970-07",
+        "position": {
+          "zh-cn": "军管会主任",
+          "en": "Director of the Military Control Committee"
+        },
+        "description": {
+          "zh-cn": "周特夫担任中华人民共和国农业机械部军管会主任。",
+          "en": "Zhou Tefu served as the Director of the Military Control Committee of the Ministry of Agricultural Machinery of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "中华人民共和国农业机械部",
+      "target": "北河沿大街",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1963",
+        "description": {
+          "zh-cn": "中华人民共和国农业机械部自1963年起在北河沿大街（当时称东安门北街）147号办公。",
+          "en": "The Ministry of Agricultural Machinery of the People's Republic of China had its offices at No. 147 Beiheyan Street (then called Dong'anmen North Street) starting from 1963."
+        }
+      }
+    }
+  ]
+}

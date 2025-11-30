@@ -1,0 +1,781 @@
+{
+  "nodes": [
+    {
+      "id": "中法战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中法战争",
+          "清法战争"
+        ],
+        "en": [
+          "Sino-French War"
+        ]
+      },
+      "properties": {
+        "period": "1883-12 - 1885-04",
+        "location": {
+          "zh-cn": "越南, 华南, 台湾",
+          "en": "Vietnam, South China, Taiwan"
+        },
+        "description": {
+          "zh-cn": "1883年至1885年间，法兰西第三共和国与清朝因越南主权问题爆发的战争。战争以法国胜利告终，清朝丧失了对越南的宗主权。",
+          "en": "A war fought between the French Third Republic and the Qing dynasty from 1883 to 1885 over the sovereignty of Vietnam. The war ended with a French victory, and the Qing dynasty lost its suzerainty over Vietnam."
+        }
+      }
+    },
+    {
+      "id": "法兰西第三共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法兰西第三共和国",
+          "法国"
+        ],
+        "en": [
+          "French Third Republic",
+          "France"
+        ]
+      },
+      "properties": {
+        "period": "1870 - 1940",
+        "description": {
+          "zh-cn": "中法战争中的一方，旨在扩大其在越南的殖民势力范围。",
+          "en": "One of the belligerents in the Sino-French War, aiming to expand its colonial sphere of influence in Vietnam."
+        }
+      }
+    },
+    {
+      "id": "清朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清朝",
+          "大清"
+        ],
+        "en": [
+          "Qing dynasty"
+        ]
+      },
+      "properties": {
+        "period": "1636 - 1912",
+        "description": {
+          "zh-cn": "中法战争中的一方，试图保护其藩属国越南。",
+          "en": "One of the belligerents in the Sino-French War, attempting to protect its vassal state, Vietnam."
+        }
+      }
+    },
+    {
+      "id": "阮朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阮朝"
+        ],
+        "en": [
+          "Nguyễn dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "越南的最后一个王朝，是中法战争爆发的起因之一，原为清朝的藩属国。",
+          "en": "The last imperial dynasty of Vietnam, one of the causes of the Sino-French War, and formerly a vassal state of the Qing dynasty."
+        }
+      }
+    },
+    {
+      "id": "越南",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "越南"
+        ],
+        "en": [
+          "Vietnam"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中法战争的主要战场。",
+          "en": "The main battlefield of the Sino-French War."
+        }
+      }
+    },
+    {
+      "id": "台湾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "台湾"
+        ],
+        "en": [
+          "Taiwan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中法战争的战场之一，战后清政府在此设立福建台湾省。",
+          "en": "One of the battlefields of the Sino-French War. After the war, the Qing government established Fujian-Taiwan Province here."
+        }
+      }
+    },
+    {
+      "id": "澎湖",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "澎湖"
+        ],
+        "en": [
+          "Penghu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中法战争的战场之一，曾被法军占领。",
+          "en": "One of the battlefields of the Sino-French War, once occupied by French forces."
+        }
+      }
+    },
+    {
+      "id": "黑旗军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "黑旗军"
+        ],
+        "en": [
+          "Black Flag Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由刘永福领导的武装力量，在越南北部协助清军抵抗法军。",
+          "en": "An armed force led by Liu Yongfu that assisted the Qing army in resisting French forces in northern Vietnam."
+        }
+      }
+    },
+    {
+      "id": "慈禧太后",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慈禧太后"
+        ],
+        "en": [
+          "Empress Dowager Cixi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1835-11-29 - 1908-11-15",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "清朝晚期的实际统治者，在中法战争期间主导战和决策。",
+          "en": "The de facto ruler of the late Qing dynasty who dominated war and peace decisions during the Sino-French War."
+        }
+      }
+    },
+    {
+      "id": "奕䜣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奕䜣",
+          "恭亲王奕䜣"
+        ],
+        "en": [
+          "Yixin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1833-01-11 - 1898-05-29",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝宗室、政治家。在中法战争初期因战事失利被慈禧太后罢免军机大臣等职务。",
+          "en": "A prince and statesman of the Qing dynasty. He was dismissed from his posts, including Grand Councilor, by Empress Dowager Cixi due to early setbacks in the Sino-French War."
+        }
+      }
+    },
+    {
+      "id": "冯子材",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冯子材"
+        ],
+        "en": [
+          "Feng Zicai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1818 - 1903",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝将领，在镇南关之役中率军大败法军，取得关键胜利。",
+          "en": "A Qing dynasty general who led his army to a decisive victory over the French forces in the Battle of Zhennan Pass."
+        }
+      }
+    },
+    {
+      "id": "刘铭传",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘铭传"
+        ],
+        "en": [
+          "Liu Mingchuan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1836-09-07 - 1896-01-12",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝将领，淮军重要将领，中法战争期间负责台湾防务，成功击退法军。",
+          "en": "A Qing dynasty general and a key commander of the Huai Army, responsible for the defense of Taiwan during the Sino-French War, where he successfully repelled the French forces."
+        }
+      }
+    },
+    {
+      "id": "刘永福",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘永福"
+        ],
+        "en": [
+          "Liu Yongfu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1837-10-10 - 1917-01-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "黑旗军领袖，在越南抵抗法国侵略。",
+          "en": "Leader of the Black Flag Army, who resisted French aggression in Vietnam."
+        }
+      }
+    },
+    {
+      "id": "茹费理",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "茹费理"
+        ],
+        "en": [
+          "Jules Ferry"
+        ]
+      },
+      "properties": {
+        "lifetime": "1832-04-05 - 1893-03-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "时任法国总理，主导对越南的殖民扩张。因镇南关失利的消息而内阁倒台。",
+          "en": "The Prime Minister of France at the time, who spearheaded colonial expansion in Vietnam. His cabinet fell following the news of the defeat at Zhennan Pass."
+        }
+      }
+    },
+    {
+      "id": "孤拔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孤拔"
+        ],
+        "en": [
+          "Amédée Courbet"
+        ]
+      },
+      "properties": {
+        "lifetime": "1827-06-26 - 1885-06-11",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国海军将领，远东舰队司令。指挥了马江之役并攻占澎湖，后病逝于澎湖。",
+          "en": "A French admiral and commander of the Far East Squadron. He commanded the Battle of Fuzhou and captured the Pescadores, where he later died of illness."
+        }
+      }
+    },
+    {
+      "id": "李威利",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李威利",
+          "李维业"
+        ],
+        "en": [
+          "Henri Rivière"
+        ]
+      },
+      "properties": {
+        "lifetime": "1827-07-12 - 1883-05-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国海军军官，1883年在河内城西的纸桥之役中被黑旗军击毙，此事件是法国扩大战争规模的导火索。",
+          "en": "A French naval officer who was killed by the Black Flag Army in the Battle of Paper Bridge near Hanoi in 1883. This event served as a catalyst for France to escalate the war."
+        }
+      }
+    },
+    {
+      "id": "镇南关之役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "镇南关之役"
+        ]
+      },
+      "properties": {
+        "period": "1885-03-23 - 1885-03-24",
+        "description": {
+          "zh-cn": "中法战争后期的一场关键战役，由冯子材率领的清军在此地大败法军。",
+          "en": "A key battle in the later stages of the Sino-French War, where Qing forces led by Feng Zicai decisively defeated the French army."
+        }
+      }
+    },
+    {
+      "id": "马江之役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "马江之役"
+        ]
+      },
+      "properties": {
+        "period": "1884-08-23",
+        "description": {
+          "zh-cn": "发生于福建马尾的-场海战，孤拔率领的法国远东舰队摧毁了清朝的福建水师。",
+          "en": "A naval battle that took place at Fuzhou, Fujian, where the French Far East Squadron led by Amédée Courbet destroyed the Qing dynasty's Fujian Fleet."
+        }
+      }
+    },
+    {
+      "id": "福建水师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "福建水师",
+          "福建船政水师"
+        ],
+        "en": [
+          "Fujian Fleet"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清朝的现代化海军舰队之一，在马江之役中被法军几乎全歼。",
+          "en": "One of the modern naval fleets of the Qing dynasty, which was almost completely annihilated by the French in the Battle of Fuzhou."
+        }
+      }
+    },
+    {
+      "id": "中法新约",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中法新约",
+          "中法会订越南条约十款"
+        ],
+        "en": [
+          "Treaty of Tientsin (1885)"
+        ]
+      },
+      "properties": {
+        "period": "1885-06-09",
+        "description": {
+          "zh-cn": "中法战争后由李鸿章和巴德诺在天津签订的条约，正式结束了战争，清朝承认法国对越南的保护权。",
+          "en": "The treaty signed by Li Hongzhang and Jules Patenôtre in Tianjin after the Sino-French War, which formally ended the conflict and in which the Qing dynasty recognized the French protectorate over Vietnam."
+        }
+      }
+    },
+    {
+      "id": "李鸿章",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李鸿章"
+        ],
+        "en": [
+          "Li Hongzhang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1823-02-15 - 1901-11-07",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝末期重臣，代表清政府与法国谈判并签订了《中法新约》。",
+          "en": "An influential statesman of the late Qing dynasty who represented the Qing government in negotiations with France and signed the Treaty of Tientsin."
+        }
+      }
+    },
+    {
+      "id": "儒勒·巴德诺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "儒勒·巴德诺",
+          "巴德诺"
+        ],
+        "en": [
+          "Jules Patenôtre des Noyers"
+        ]
+      },
+      "properties": {
+        "lifetime": "1845-04-20 - 1925-12-26",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国外交官，作为法方全权公使与李鸿章签订了《中法新约》。",
+          "en": "A French diplomat who, as the French minister plenipotentiary, signed the Treaty of Tientsin with Li Hongzhang."
+        }
+      }
+    },
+    {
+      "id": "左宗棠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "左宗棠"
+        ],
+        "en": [
+          "Zuo Zongtang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1812-11-10 - 1885-09-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清朝末期重臣，对李鸿章签订《中法新约》持强烈批评态度。",
+          "en": "An influential statesman of the late Qing dynasty who was highly critical of Li Hongzhang's signing of the Treaty of Tientsin."
+        }
+      }
+    },
+    {
+      "id": "福建台湾省",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "福建台湾省"
+        ],
+        "en": [
+          "Fujian-Taiwan Province"
+        ]
+      },
+      "properties": {
+        "period": "1885 - 1895",
+        "description": {
+          "zh-cn": "中法战争后，清政府为加强海防于1885年设立的省份。",
+          "en": "A province established by the Qing government in 1885 to strengthen coastal defense after the Sino-French War."
+        }
+      }
+    },
+    {
+      "id": "海军衙门",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "海军衙门"
+        ],
+        "en": [
+          "Board of Admiralty (Qing dynasty)"
+        ]
+      },
+      "properties": {
+        "period": "1885 - 1895",
+        "description": {
+          "zh-cn": "中法战争后，清政府为统筹全国海军事务而设立的中央机构。",
+          "en": "A central government body established by the Qing government after the Sino-French War to coordinate national naval affairs."
+        }
+      }
+    },
+    {
+      "id": "日本",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "以大日本帝国为代表的政治实体。通过观察中法战争，日本认识到清朝军政的弱点，为其后发动甲午战争提供了参考。",
+          "en": "The political entity represented by the Empire of Japan. By observing the Sino-French War, Japan recognized the weaknesses of the Qing military and government, which informed its later decision to launch the First Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "甲午战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "甲午战争"
+        ],
+        "en": [
+          "First Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1894 - 1895",
+        "description": {
+          "zh-cn": "清朝与日本之间为争夺朝鲜半岛控制权而爆发的战争。日本在中法战争后，更看清了清朝的弱点，是此战的背景之一。",
+          "en": "A war between the Qing dynasty and Japan over control of the Korean Peninsula. After the Sino-French War, Japan's perception of Qing weakness became a background factor for this conflict."
+        }
+      }
+    },
+    {
+      "id": "香港反法大罢工",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "香港反法大罢工"
+        ]
+      },
+      "properties": {
+        "period": "1884",
+        "description": {
+          "zh-cn": "中法战争期间，英属香港的华人为支持清廷而发动的罢工行动。",
+          "en": "A strike initiated by the Chinese population in British Hong Kong during the Sino-French War to support the Qing court."
+        }
+      }
+    },
+    {
+      "id": "澎湖之役 (1885年)",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "澎湖之役 (1885年)",
+          "澎湖战役"
+        ]
+      },
+      "properties": {
+        "period": "1885-03-29 - 1885-03-31",
+        "description": {
+          "zh-cn": "中法战争期间法军攻占澎湖列岛的战役，法军司令孤拔在占领后不久病逝于此。",
+          "en": "The campaign during the Sino-French War in which French forces captured the Penghu Islands. The French commander, Amédée Courbet, died of illness here shortly after the occupation."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "法兰西第三共和国",
+      "target": "清朝",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1883-12",
+        "end_date": "1885-04",
+        "description": {
+          "zh-cn": "在1883年至1885年间，法兰西第三共和国与清朝因越南主权问题爆发了中法战争。",
+          "en": "From 1883 to 1885, the French Third Republic and the Qing dynasty were engaged in the Sino-French War over the issue of sovereignty in Vietnam."
+        }
+      }
+    },
+    {
+      "source": "法兰西第三共和国",
+      "target": "黑旗军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1883-12",
+        "end_date": "1885-04",
+        "description": {
+          "zh-cn": "在中法战争期间，黑旗军在越南协助清军抵抗法军。",
+          "en": "During the Sino-French War, the Black Flag Army assisted the Qing army in Vietnam in resisting the French forces."
+        }
+      }
+    },
+    {
+      "source": "中法战争",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1885-06-09",
+        "description": {
+          "zh-cn": "中法战争以法国胜利告终，清朝被迫签订《中法新约》，丧失了对越南的宗主权。",
+          "en": "The Sino-French War ended in a French victory, forcing the Qing dynasty to sign the Treaty of Tientsin and relinquish its suzerainty over Vietnam."
+        }
+      }
+    },
+    {
+      "source": "法兰西第三共和国",
+      "target": "中法战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1883-12",
+        "description": {
+          "zh-cn": "法国为扩大在越南的殖民势力而发动了中法战争，并最终取得胜利。",
+          "en": "France initiated the Sino-French War to expand its colonial influence in Vietnam and ultimately emerged victorious."
+        }
+      }
+    },
+    {
+      "source": "冯子材",
+      "target": "法兰西第三共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1885-03-24",
+        "description": {
+          "zh-cn": "在镇南关之役中，冯子材率领清军大败法军，取得了中法战争中清军最主要的陆战胜利。",
+          "en": "In the Battle of Zhennan Pass, Feng Zicai led the Qing army to a major victory over the French forces, achieving the most significant land victory for the Qing in the Sino-French War."
+        }
+      }
+    },
+    {
+      "source": "镇南关之役",
+      "target": "茹费理",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1885-03-30",
+        "description": {
+          "zh-cn": "镇南关战败的消息传到巴黎后，法国总理茹费理的内阁因此引咎辞职。",
+          "en": "After the news of the defeat at Zhennan Pass reached Paris, the cabinet of French Prime Minister Jules Ferry resigned."
+        }
+      }
+    },
+    {
+      "source": "孤拔",
+      "target": "福建水师",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1884-08-23",
+        "description": {
+          "zh-cn": "在马江之役中，法国远东舰队司令孤拔率舰全歼了清朝福建水师。",
+          "en": "In the Battle of Fuzhou, the commander of the French Far East Squadron, Amédée Courbet, led his fleet to annihilate the Qing dynasty's Fujian Fleet."
+        }
+      }
+    },
+    {
+      "source": "澎湖之役 (1885年)",
+      "target": "孤拔",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1885-06-11",
+        "description": {
+          "zh-cn": "法军舰队司令孤拔在率军攻占澎湖后不久，因病死于澎湖马公。",
+          "en": "Shortly after leading his forces to capture Penghu, French fleet commander Amédée Courbet died of illness in Magong, Penghu."
+        }
+      }
+    },
+    {
+      "source": "黑旗军",
+      "target": "李威利",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1883-05-19",
+        "description": {
+          "zh-cn": "在纸桥之役中，刘永福领导的黑旗军伏击法军，击毙了法军指挥官李威利。",
+          "en": "In the Battle of Paper Bridge, the Black Flag Army led by Liu Yongfu ambushed the French forces, killing their commander, Henri Rivière."
+        }
+      }
+    },
+    {
+      "source": "刘铭传",
+      "target": "法兰西第三共和国",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1884-10",
+        "description": {
+          "zh-cn": "在中法战争期间，刘铭传率军在台湾成功抵御了法军的进攻。",
+          "en": "During the Sino-French War, Liu Mingchuan led troops to successfully defend Taiwan against French attacks."
+        }
+      }
+    },
+    {
+      "source": "中法战争",
+      "target": "奕䜣",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1884-03",
+        "description": {
+          "zh-cn": "因战争初期在越南战场的接连失利，慈禧太后罢免了恭亲王奕䜣的首席军机大臣等职务。",
+          "en": "Due to successive defeats on the Vietnamese battlefield in the early stages of the war, Empress Dowager Cixi dismissed Prince Gong (Yixin) from his posts, including that of chief Grand Councilor."
+        }
+      }
+    },
+    {
+      "source": "李鸿章",
+      "target": "儒勒·巴德诺",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1885-06-09",
+        "description": {
+          "zh-cn": "李鸿章作为清朝全权代表，与法国公使儒勒·巴德诺在天津会谈并签订了《中法新约》。",
+          "en": "As the plenipotentiary representative of the Qing dynasty, Li Hongzhang met with French minister Jules Patenôtre in Tianjin to negotiate and sign the Treaty of Tientsin."
+        }
+      }
+    },
+    {
+      "source": "左宗棠",
+      "target": "李鸿章",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1885",
+        "description": {
+          "zh-cn": "左宗棠对于李鸿章签订《中法新约》十分不满，并对他作出严厉批评。",
+          "en": "Zuo Zongtang was extremely dissatisfied with Li Hongzhang's signing of the Treaty of Tientsin and severely criticized him for it."
+        }
+      }
+    },
+    {
+      "source": "中法战争",
+      "target": "福建台湾省",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1885",
+        "description": {
+          "zh-cn": "中法战争后，清政府为加强海防，决定在台湾建省，设立福建台湾省。",
+          "en": "After the Sino-French War, the Qing government decided to establish a province in Taiwan, creating Fujian-Taiwan Province, to strengthen coastal defense."
+        }
+      }
+    },
+    {
+      "source": "中法战争",
+      "target": "海军衙门",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1885",
+        "description": {
+          "zh-cn": "中法战争的失利，特别是马江之役的惨败，促使清政府成立海军衙门以统筹海军建设。",
+          "en": "The defeat in the Sino-French War, especially the devastating loss in the Battle of Fuzhou, prompted the Qing government to establish the Board of Admiralty to coordinate naval development."
+        }
+      }
+    },
+    {
+      "source": "中法战争",
+      "target": "日本",
+      "type": "INFLUENCED",
+      "properties": {
+        "end_date": "1885",
+        "description": {
+          "zh-cn": "日本通过观察中法战争，认识到清朝军政体制的弱点，为其后发动甲午战争提供了判断依据。",
+          "en": "By observing the Sino-French War, Japan recognized the weaknesses of the Qing military and political systems, which provided a basis for its decision to launch the First Sino-Japanese War later."
+        }
+      }
+    },
+    {
+      "source": "中法战争",
+      "target": "香港反法大罢工",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1884",
+        "description": {
+          "zh-cn": "中法战争的爆发，引发了香港华人的爱国情绪，从而发动了反法大罢工以支持清廷。",
+          "en": "The outbreak of the Sino-French War ignited patriotic sentiments among the Chinese population in Hong Kong, leading to the anti-French strike in support of the Qing court."
+        }
+      }
+    },
+    {
+      "source": "慈禧太后",
+      "target": "清朝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1885-04-04",
+        "description": {
+          "zh-cn": "在镇南关大捷后，慈禧太后认为清军无法继续扩大战果，应尽快议和，随即下诏停战撤军，放弃了乘胜追击的机会。",
+          "en": "After the major victory at Zhennan Pass, Empress Dowager Cixi believed the Qing army could not expand its gains further and should seek peace quickly. She then issued an edict for a ceasefire and withdrawal, forgoing the opportunity to press the advantage."
+        }
+      }
+    }
+  ]
+}

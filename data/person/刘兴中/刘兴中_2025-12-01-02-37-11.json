@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "id": "刘兴中",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘兴中"
+        ],
+        "en": [
+          "Liu Xingzhong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1941-04 - ",
+        "gender": "Male",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "birth_place": {
+          "zh-cn": "宁夏银川",
+          "en": "Yinchuan, Ningxia"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国回族政治人物，中国共产党党员。曾任宁夏回族自治区人大常委会副主任、党组成员。",
+          "en": "A Chinese politician of Hui ethnicity and a member of the Communist Party of China. He served as the Vice Chairman and a member of the Party Leadership Group of the Standing Committee of the People's Congress of the Ningxia Hui Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "宁夏回族自治区人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁夏回族自治区人民代表大会常务委员会",
+          "宁夏回族自治区人大常委会"
+        ],
+        "en": [
+          "Standing Committee of the People's Congress of Ningxia Hui Autonomous Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "宁夏回族自治区人民代表大会的常设机关。",
+          "en": "The permanent body of the People's Congress of the Ningxia Hui Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "银川市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "银川市",
+          "银川"
+        ],
+        "en": [
+          "Yinchuan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国宁夏回族自治区的首府，刘兴中的出生地。",
+          "en": "The capital of the Ningxia Hui Autonomous Region in the People's Republic of China, and the birthplace of Liu Xingzhong."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东亚国家，是刘兴中进行政治活动的地点。",
+          "en": "A country in East Asia, where Liu Xingzhong conducted his political activities."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and sole ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘兴中",
+      "target": "宁夏回族自治区人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任、党组成员",
+          "en": "Vice Chairman, Member of the Party Leadership Group"
+        },
+        "description": {
+          "zh-cn": "刘兴中曾担任宁夏回族自治区人大常委会副主任、党组成员。",
+          "en": "Liu Xingzhong served as the Vice Chairman and a member of the Party Leadership Group of the Standing Committee of the People's Congress of the Ningxia Hui Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "刘兴中",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，刘兴中是中国共产党党员。",
+          "en": "According to Wikipedia categories, Liu Xingzhong is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "刘兴中",
+      "target": "银川市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "刘兴中是宁夏银川人。",
+          "en": "Liu Xingzhong is from Yinchuan, Ningxia."
+        }
+      }
+    }
+  ]
+}

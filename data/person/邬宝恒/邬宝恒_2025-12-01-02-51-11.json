@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "邬宝恒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邬宝恒"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1946 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "杭锦后旗",
+          "en": "Hanggin Rear Banner"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任内蒙古自治区政协副主席。",
+          "en": "A political figure in the People's Republic of China, former Vice Chairman of the Inner Mongolia Autonomous Region Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "杭锦后旗",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "杭锦后旗"
+        ],
+        "en": [
+          "Hanggin Rear Banner"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国内蒙古自治区巴彦淖尔市下的一个旗。",
+          "en": "A banner under the administration of Bayannur City in Inner Mongolia, China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议内蒙古自治区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议内蒙古自治区委员会",
+          "内蒙古自治区政协"
+        ],
+        "en": [
+          "Inner Mongolia Autonomous Region Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "内蒙古自治区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "内蒙古自治区",
+          "内蒙古"
+        ],
+        "en": [
+          "Inner Mongolia Autonomous Region"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "邬宝恒",
+      "target": "杭锦后旗",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1946",
+        "description": {
+          "zh-cn": "邬宝恒是内蒙古杭锦后旗人。",
+          "en": "Wu Baoheng is a native of Hanggin Rear Banner, Inner Mongolia."
+        }
+      }
+    },
+    {
+      "source": "邬宝恒",
+      "target": "中国人民政治协商会议内蒙古自治区委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "邬宝恒曾任内蒙古自治区政协副主席。",
+          "en": "Wu Baoheng once served as the Vice Chairman of the Inner Mongolia Autonomous Region Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "source": "邬宝恒",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，邬宝恒是中国共产党党员。",
+          "en": "According to Wikipedia categories, Wu Baoheng is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "邬宝恒",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治人物",
+          "en": "Political figure"
+        },
+        "description": {
+          "zh-cn": "邬宝恒是中华人民共和国的政治人物。",
+          "en": "Wu Baoheng is a political figure of the People's Republic of China."
+        }
+      }
+    }
+  ]
+}

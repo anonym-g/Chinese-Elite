@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "胡凡夫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡凡夫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1921 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "镇海县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国科技管理工作者、中国共产党党员。曾任北京图书馆副馆长，中国科学院系统科学研究所党委书记、副所长，中国数学会常务理事，中国系统工程学会常务理事。",
+          "en": "A Chinese science and technology administrator and a member of the Communist Party of China. He served as the Deputy Director of the Beijing Library, Party Secretary and Deputy Director of the Institute of Systems Science of the Chinese Academy of Sciences, and a standing council member of both the Chinese Mathematical Society and the Systems Engineering Society of China."
+        }
+      }
+    },
+    {
+      "id": "镇海县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "镇海县",
+          "镇海"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "浙江",
+          "en": "Zhejiang"
+        },
+        "description": {
+          "zh-cn": "浙江省的一个历史行政区划，是胡凡夫的出生地。",
+          "en": "A historical administrative division in Zhejiang Province, and the birthplace of Hu Fanfu."
+        }
+      }
+    },
+    {
+      "id": "浙江",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "浙江"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的一个省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "北京图书馆",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京图书馆"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国国家图书馆的前身，胡凡夫曾在此担任副馆长。",
+          "en": "The predecessor of the National Library of China, where Hu Fanfu served as Deputy Director."
+        }
+      }
+    },
+    {
+      "id": "中国科学院系统科学研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院系统科学研究所"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国科学院下属的研究所，胡凡夫曾在此担任党委书记和副所长。",
+          "en": "An institute under the Chinese Academy of Sciences, where Hu Fanfu served as Party Secretary and Deputy Director."
+        }
+      }
+    },
+    {
+      "id": "中国数学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国数学会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的全国性数学学术团体，胡凡夫曾是其常务理事。",
+          "en": "A national academic society for mathematics in China, where Hu Fanfu was a standing council member."
+        }
+      }
+    },
+    {
+      "id": "中国系统工程学会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国系统工程学会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的全国性系统工程学术团体，胡凡夫曾是其常务理事。",
+          "en": "A national academic society for systems engineering in China, where Hu Fanfu was a standing council member."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "胡凡夫",
+      "target": "镇海县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本，胡凡夫是浙江镇海人。",
+          "en": "According to the text, Hu Fanfu is a native of Zhenhai, Zhejiang."
+        }
+      }
+    },
+    {
+      "source": "胡凡夫",
+      "target": "北京图书馆",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副馆长",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "胡凡夫曾任北京图书馆副馆长。",
+          "en": "Hu Fanfu once served as the Deputy Director of the Beijing Library."
+        }
+      }
+    },
+    {
+      "source": "胡凡夫",
+      "target": "中国科学院系统科学研究所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党委书记、副所长",
+          "en": "Party Secretary, Deputy Director"
+        },
+        "description": {
+          "zh-cn": "胡凡夫曾任中国科学院系统科学研究所党委书记、副所长。",
+          "en": "Hu Fanfu once served as the Party Secretary and Deputy Director of the Institute of Systems Science, Chinese Academy of Sciences."
+        }
+      }
+    },
+    {
+      "source": "胡凡夫",
+      "target": "中国数学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务理事",
+          "en": "Standing Council Member"
+        },
+        "description": {
+          "zh-cn": "胡凡夫曾任中国数学会常务理事。",
+          "en": "Hu Fanfu once served as a standing council member of the Chinese Mathematical Society."
+        }
+      }
+    },
+    {
+      "source": "胡凡夫",
+      "target": "中国系统工程学会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务理事",
+          "en": "Standing Council Member"
+        },
+        "description": {
+          "zh-cn": "胡凡夫曾任中国系统工程学会常务理事。",
+          "en": "Hu Fanfu once served as a standing council member of the Systems Engineering Society of China."
+        }
+      }
+    },
+    {
+      "source": "胡凡夫",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“中国共产党党员”推断，胡凡夫是中国共产党的党员。",
+          "en": "Inferred from the page category 'Communist Party of China members', Hu Fanfu is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

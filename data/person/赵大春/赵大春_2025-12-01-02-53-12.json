@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "赵大春",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵大春"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1970-10 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "泰州市",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物、第十三届全国人民代表大会代表。曾长期在中国移动任职，现任河北省人民政府党组成员、副省长。",
+          "en": "A political figure in the People's Republic of China and a delegate to the 13th National People's Congress. He had a long career at China Mobile and currently serves as a member of the Party Leadership Group and Vice Governor of the Hebei Provincial People's Government."
+        }
+      }
+    },
+    {
+      "id": "泰州市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "泰州市",
+          "泰州"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国江苏省下辖的地级市，赵大春的家乡。",
+          "en": "A prefecture-level city in Jiangsu Province, China, and the hometown of Zhao Dachun."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家。",
+          "en": "A socialist state in East Asia."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03-05 - 2023-03-05",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届国家最高权力机关。",
+          "en": "The 13th term of the highest state authority in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "河北省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河北省人民政府"
+        ],
+        "en": [
+          "Hebei Provincial People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国河北省的省级国家行政机关。",
+          "en": "The provincial state administrative organ of Hebei Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "东南大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东南大学"
+        ],
+        "en": [
+          "Southeast University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国江苏省南京市的著名高等学府。",
+          "en": "A renowned institution of higher learning located in Nanjing, Jiangsu Province, China."
+        }
+      }
+    },
+    {
+      "id": "中国移动",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国移动",
+          "中国移动通信集团"
+        ],
+        "en": [
+          "China Mobile"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国大陆的电信运营商，赵大春曾长期在此任职。",
+          "en": "A telecommunications operator in mainland China where Zhao Dachun had a long career."
+        }
+      }
+    },
+    {
+      "id": "南京大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南京大学"
+        ],
+        "en": [
+          "Nanjing University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国江苏省南京市的著名高等学府。",
+          "en": "A renowned institution of higher learning located in Nanjing, Jiangsu Province, China."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议陕西省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议陕西省委员会",
+          "政协陕西省"
+        ],
+        "en": [
+          "Shaanxi Provincial Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议在陕西省的地方组织。",
+          "en": "The local organization of the Chinese People's Political Consultative Conference in Shaanxi Province."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "赵大春",
+      "target": "泰州市",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "赵大春是江苏泰州人。",
+          "en": "Zhao Dachun is a native of Taizhou, Jiangsu."
+        }
+      }
+    },
+    {
+      "source": "赵大春",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "赵大春是中国共产党党员。",
+          "en": "Zhao Dachun is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "赵大春",
+      "target": "东南大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1989",
+        "end_date": "1993",
+        "degree": {
+          "zh-cn": "工学学士",
+          "en": "Bachelor of Engineering"
+        },
+        "description": {
+          "zh-cn": "1989年至1993年在东南大学学习，取得工学学士学位。",
+          "en": "From 1989 to 1993, he studied at Southeast University and obtained a Bachelor of Engineering degree."
+        }
+      }
+    },
+    {
+      "source": "赵大春",
+      "target": "南京大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "degree": {
+          "zh-cn": "工商管理专业硕士",
+          "en": "Master of Business Administration"
+        },
+        "description": {
+          "zh-cn": "在江苏移动任职期间，在南京大学学习并获得工商管理专业硕士学位。",
+          "en": "While working at China Mobile Jiangsu, he studied at Nanjing University and obtained a Master of Business Administration degree."
+        }
+      }
+    },
+    {
+      "source": "赵大春",
+      "target": "中国移动",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1993",
+        "end_date": "2023-10",
+        "position": {
+          "zh-cn": "党组成员、副总经理",
+          "en": "Member of the Party Leadership Group, Deputy General Manager"
+        },
+        "description": {
+          "zh-cn": "自1993年大学毕业后即进入中国移动工作，曾历任江苏、陕西、四川分公司及集团总部的多个领导职务，最终于2019年1月升任集团党组成员、副总经理，直至2023年10月调离。",
+          "en": "After graduating from university in 1993, he joined China Mobile and held various leadership positions in Jiangsu, Shaanxi, and Sichuan branches, as well as at the group headquarters. He was eventually promoted to Member of the Party Leadership Group and Deputy General Manager in January 2019, a position he held until his transfer in October 2023."
+        }
+      }
+    },
+    {
+      "source": "赵大春",
+      "target": "中国人民政治协商会议陕西省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2010-02",
+        "end_date": "2015-09",
+        "position": {
+          "zh-cn": "第十一届委员会委员",
+          "en": "Member of the 11th Committee"
+        },
+        "description": {
+          "zh-cn": "在陕西移动任职期间，当选为政协陕西省第十一届委员会委员。",
+          "en": "During his tenure at China Mobile Shaanxi, he was elected as a member of the 11th Shaanxi Provincial Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "source": "赵大春",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "代表 (四川省)",
+          "en": "Delegate (Sichuan Province)"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，赵大春当选为四川省第十三届全国人大代表。",
+          "en": "On February 24, 2018, Zhao Dachun was elected as a delegate from Sichuan Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "赵大春",
+      "target": "河北省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-10",
+        "position": {
+          "zh-cn": "党组成员、副省长",
+          "en": "Member of the Party Leadership Group, Vice Governor"
+        },
+        "description": {
+          "zh-cn": "2023年10月，赵大春调任河北省人民政府，担任党组成员、副省长。",
+          "en": "In October 2023, Zhao Dachun was transferred to the Hebei Provincial People's Government, serving as a member of the Party Leadership Group and Vice Governor."
+        }
+      }
+    }
+  ]
+}

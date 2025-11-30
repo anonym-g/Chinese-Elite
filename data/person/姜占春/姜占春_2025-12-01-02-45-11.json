@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "id": "姜占春",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "姜占春"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1904 - 1995",
+        "gender": "Male",
+        "location": null,
+        "birth_place": {
+          "zh-cn": "平山县",
+          "en": "Pingshan County"
+        },
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任河北省政协副主席，中共七大代表。",
+          "en": "A political figure in the People's Republic of China, who served as the vice chairman of the Hebei Provincial Committee of the Chinese People's Political Consultative Conference and was a delegate to the 7th National Congress of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "平山县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "平山县",
+          "平山"
+        ],
+        "en": [
+          "Pingshan County"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "description": {
+          "zh-cn": "姜占春的出生地。",
+          "en": "The birthplace of Jiang Zhanchun."
+        }
+      }
+    },
+    {
+      "id": "河北省政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "河北省政协",
+          "中国人民政治协商会议河北省委员会"
+        ],
+        "en": [
+          "Hebei Provincial Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "description": {
+          "zh-cn": "中国人民政治协商会议在河北省的地方委员会。",
+          "en": "The local committee of the Chinese People's Political Consultative Conference in Hebei Province."
+        }
+      }
+    },
+    {
+      "id": "中共七大",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中共七大",
+          "中国共产党第七次全国代表大会"
+        ],
+        "en": [
+          "7th National Congress of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "description": {
+          "zh-cn": "中国共产党于1945年在延安召开的一次全国代表大会。",
+          "en": "A national congress held by the Communist Party of China in Yan'an in 1945."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "姜占春",
+      "target": "平山县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1904",
+        "description": {
+          "zh-cn": "姜占春出生于直隶平山县（今河北省平山县）。",
+          "en": "Jiang Zhanchun was born in Pingshan County, Zhili (modern-day Pingshan County, Hebei)."
+        }
+      }
+    },
+    {
+      "source": "姜占春",
+      "target": "河北省政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "姜占春曾担任河北省政协副主席。",
+          "en": "Jiang Zhanchun served as the Vice Chairman of the Hebei Provincial Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "source": "姜占春",
+      "target": "中共七大",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "姜占春是中共七大的代表。",
+          "en": "Jiang Zhanchun was a delegate to the 7th National Congress of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "姜占春",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据“中国共产党党员”分类，姜占春是中国共产党党员。",
+          "en": "Based on the category 'Communist Party of China members', Jiang Zhanchun was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}
