@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "乡科级正职",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乡科级正职",
+          "正乡级",
+          "正科级"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "description": {
+          "zh-cn": "中华人民共和国公务员体系中的基层干部级别，对应公务员级别22级至16级。通常担任乡级行政区或中央单位科室的正职领导。",
+          "en": "A grassroots cadre level in the civil servant system of the People's Republic of China, corresponding to civil service levels 22 to 16. Holders of this rank typically serve as the principal leaders of township-level administrative divisions or sections in central government units."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国公务员",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公务员"
+        ],
+        "en": [
+          "Civil servants of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "description": {
+          "zh-cn": "中华人民共和国的国家行政人员及其管理体系。",
+          "en": "The state administrative personnel and their management system in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "县处级副职",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "县处级副职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "description": {
+          "zh-cn": "中华人民共和国公务员的行政级别之一，是乡科级正职的上一等级。",
+          "en": "An administrative level for civil servants in the People's Republic of China, which is the level above the Principal Section Chief level (乡科级正职)."
+        }
+      }
+    },
+    {
+      "id": "乡科级副职",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乡科级副职"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "",
+        "description": {
+          "zh-cn": "中华人民共和国公务员的行政级别之一，是乡科级正职的下一等级。",
+          "en": "An administrative level for civil servants in the People's Republic of China, which is the level below the Principal Section Chief level (乡科级正职)."
+        }
+      }
+    },
+    {
+      "id": "乡级行政区",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "乡级行政区"
+        ],
+        "en": [
+          "Township-level administrative divisions"
+        ]
+      },
+      "properties": {
+        "period": "",
+        "description": {
+          "zh-cn": "中国内地在县级行政区之下、村级行政区之上的行政区划概念。",
+          "en": "The concept of an administrative division in mainland China that is below the county level and above the village level."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "乡科级正职",
+      "target": "中华人民共和国公务员",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "乡科级正职是中华人民共和国公务员体系中的一个级别。",
+          "en": "The Principal Section Chief level (乡科级正职) is a level within the civil servant system of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "乡科级正职",
+      "target": "县处级副职",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在公务员级别体系中，乡科级正职低于县处级副职。",
+          "en": "In the civil servant ranking system, the Principal Section Chief level (乡科级正职) is subordinate to the Deputy County/Division Director level (县处级副职)."
+        }
+      }
+    },
+    {
+      "source": "乡科级副职",
+      "target": "乡科级正职",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "在公务员级别体系中，乡科级副职低于乡科级正职。",
+          "en": "In the civil servant ranking system, the Deputy Section Chief level (乡科级副职) is subordinate to the Principal Section Chief level (乡科级正职)."
+        }
+      }
+    },
+    {
+      "source": "乡科级正职",
+      "target": "乡级行政区",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "乡科级正职这一级别通常对应大部分乡级行政区的正职领导岗位。",
+          "en": "The Principal Section Chief level (乡科级正职) typically corresponds to the principal leadership positions in most township-level administrative divisions."
+        }
+      }
+    }
+  ]
+}

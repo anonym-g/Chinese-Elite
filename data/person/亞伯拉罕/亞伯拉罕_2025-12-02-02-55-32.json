@@ -1,0 +1,867 @@
+{
+  "nodes": [
+    {
+      "id": "亚伯拉罕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亚伯拉罕",
+          "亚伯兰",
+          "亚巴辣罕",
+          "亚巴郎",
+          "易卜拉欣"
+        ],
+        "en": [
+          "Abraham"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "迦勒底的乌尔"
+        },
+        "death_place": {
+          "zh-cn": "迦南"
+        },
+        "description": {
+          "zh-cn": "亚伯拉罕诸教（犹太教、基督教、伊斯兰教等宗教）的先知，被认为是希伯来人和阿拉伯人等闪米特人的共同祖先。",
+          "en": "A prophet in the Abrahamic religions (Judaism, Christianity, Islam, etc.), considered the common ancestor of the Semitic peoples, including the Hebrews and Arabs."
+        }
+      }
+    },
+    {
+      "id": "撒拉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "撒拉",
+          "撒莱"
+        ],
+        "en": [
+          "Sarah"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "亚伯拉罕的妻子，以撒的母亲。",
+          "en": "Wife of Abraham and mother of Isaac."
+        }
+      }
+    },
+    {
+      "id": "夏甲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "夏甲"
+        ],
+        "en": [
+          "Hagar"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "撒拉的埃及使女，亚伯拉罕的妾，以实玛利的母亲。",
+          "en": "Sarah's Egyptian handmaiden, a concubine of Abraham, and the mother of Ishmael."
+        }
+      }
+    },
+    {
+      "id": "基土拉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "基土拉"
+        ],
+        "en": [
+          "Keturah"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "亚伯拉罕在撒拉去世后的续弦妻子。",
+          "en": "Abraham's wife after the death of Sarah."
+        }
+      }
+    },
+    {
+      "id": "以实玛利",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "以实玛利",
+          "易斯马仪",
+          "易司马仪"
+        ],
+        "en": [
+          "Ishmael"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "亚伯拉罕与夏甲的儿子，被认为是阿拉伯人的祖先。",
+          "en": "Son of Abraham and Hagar, considered the ancestor of the Arabs."
+        }
+      }
+    },
+    {
+      "id": "以撒",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "以撒"
+        ],
+        "en": [
+          "Isaac"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "亚伯拉罕与撒拉的儿子，犹太人的祖先。",
+          "en": "Son of Abraham and Sarah, ancestor of the Jewish people."
+        }
+      }
+    },
+    {
+      "id": "他拉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "他拉"
+        ],
+        "en": [
+          "Terah"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "亚伯拉罕、拿鹤和哈兰的父亲。",
+          "en": "Father of Abraham, Nahor, and Haran."
+        }
+      }
+    },
+    {
+      "id": "罗得",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗得"
+        ],
+        "en": [
+          "Lot"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "哈兰的儿子，亚伯拉罕的侄子。",
+          "en": "Son of Haran and nephew of Abraham."
+        }
+      }
+    },
+    {
+      "id": "拿鹤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "拿鹤"
+        ],
+        "en": [
+          "Nahor"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "他拉的父亲，亚伯拉罕的祖父。",
+          "en": "Father of Terah and grandfather of Abraham."
+        }
+      }
+    },
+    {
+      "id": "哈兰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哈兰"
+        ],
+        "en": [
+          "Haran"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "他拉的儿子，亚伯拉罕的兄弟，罗得的父亲。",
+          "en": "Son of Terah, brother of Abraham, and father of Lot."
+        },
+        "death_place": {
+          "zh-cn": "迦勒底的乌尔"
+        }
+      }
+    },
+    {
+      "id": "拿鹤 (他拉的儿子)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "拿鹤 (他拉的儿子)",
+          "拿鹤"
+        ],
+        "en": [
+          "Nahor, son of Terah"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "他拉的儿子，亚伯拉罕的兄弟。",
+          "en": "Son of Terah and brother of Abraham."
+        }
+      }
+    },
+    {
+      "id": "耶和华",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "耶和华",
+          "上主",
+          "神",
+          "真主",
+          "安拉",
+          "四字神名"
+        ],
+        "en": [
+          "Yahweh",
+          "God",
+          "Allah"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕诸教所信仰的独一神。",
+          "en": "The one God worshiped in the Abrahamic religions."
+        }
+      }
+    },
+    {
+      "id": "迦勒底的乌尔",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "迦勒底的乌尔",
+          "吾珥",
+          "乌尔"
+        ],
+        "en": [
+          "Ur of the Chaldees"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "美索不达米亚"
+        },
+        "description": {
+          "zh-cn": "位于美索不达米亚南部的古代城市，是亚伯拉罕的出生地。",
+          "en": "An ancient city in southern Mesopotamia, the birthplace of Abraham."
+        }
+      }
+    },
+    {
+      "id": "迦南",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "迦南"
+        ],
+        "en": [
+          "Canaan"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古代近东的一个地区，被上主应许给亚伯拉罕及其后裔。",
+          "en": "A region in the ancient Near East, promised by God to Abraham and his descendants."
+        }
+      }
+    },
+    {
+      "id": "埃及",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "埃及"
+        ],
+        "en": [
+          "Egypt"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕因饥荒曾前往避难的国家。",
+          "en": "The country where Abraham took refuge during a famine."
+        }
+      }
+    },
+    {
+      "id": "法老",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法老"
+        ],
+        "en": [
+          "Pharaoh"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "古埃及君主的尊称。一位不知名的法老曾因撒拉而与亚伯拉罕产生交集。",
+          "en": "The title of the ancient Egyptian monarchs. An unnamed pharaoh had an encounter with Abraham over Sarah."
+        }
+      }
+    },
+    {
+      "id": "所多玛与蛾摩拉",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "所多玛与蛾摩拉",
+          "所多玛城和蛾摩拉城",
+          "所多玛",
+          "蛾摩拉"
+        ],
+        "en": [
+          "Sodom and Gomorrah"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "因罪恶滔天而被耶和华用硫磺与火毁灭的两个城市。",
+          "en": "Two cities destroyed by Yahweh with sulfur and fire due to their great wickedness."
+        }
+      }
+    },
+    {
+      "id": "基大老玛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "基大老玛"
+        ],
+        "en": [
+          "Chedorlaomer"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "领导四王联军击败迦南五王并掳走罗得的君主，后被亚伯拉罕击败。",
+          "en": "A monarch who led a coalition of four kings to defeat five Canaanite kings and capture Lot, later defeated by Abraham."
+        }
+      }
+    },
+    {
+      "id": "麦基洗德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "麦基洗德"
+        ],
+        "en": [
+          "Melchizedek"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "撒冷王，在亚伯拉罕击败基大老玛后为他祝福。",
+          "en": "King of Salem, who blessed Abraham after his victory over Chedorlaomer."
+        }
+      }
+    },
+    {
+      "id": "亚伯拉罕诸教",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "亚伯拉罕诸教"
+        ],
+        "en": [
+          "Abrahamic religions"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指以亚伯拉罕为共同先知的一神论宗教，主要包括犹太教、基督教和伊斯兰教。",
+          "en": "Refers to monotheistic religions that recognize Abraham as a common prophet, primarily including Judaism, Christianity, and Islam."
+        }
+      }
+    },
+    {
+      "id": "犹太人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "犹太人",
+          "希伯来人"
+        ],
+        "en": [
+          "Jews",
+          "Hebrews"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个民族和宗教群体，传统上认为其始祖为亚伯拉罕的儿子以撒。",
+          "en": "An ethnoreligious group traditionally considered to have descended from Abraham's son, Isaac."
+        }
+      }
+    },
+    {
+      "id": "阿拉伯人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿拉伯人"
+        ],
+        "en": [
+          "Arabs"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个民族，传统上认为其始祖为亚伯拉罕的儿子以实玛利。",
+          "en": "An ethnic group traditionally considered to have descended from Abraham's son, Ishmael."
+        }
+      }
+    },
+    {
+      "id": "闪米特人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "闪米特人",
+          "闪族人"
+        ],
+        "en": [
+          "Semitic people"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "源于西南亚的族群，包括希伯来人和阿拉伯人，传统上均视亚伯拉罕为共同祖先。",
+          "en": "Ethnic groups originating from Southwest Asia, including Hebrews and Arabs, who traditionally regard Abraham as their common ancestor."
+        }
+      }
+    },
+    {
+      "id": "耶稣基督",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "耶稣基督",
+          "耶稣"
+        ],
+        "en": [
+          "Jesus Christ"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "基督教的核心人物，在肉身上被认为是亚伯拉罕的后裔。",
+          "en": "The central figure of Christianity, considered a descendant of Abraham in his physical lineage."
+        }
+      }
+    },
+    {
+      "id": "穆罕默德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "穆罕默德"
+        ],
+        "en": [
+          "Muhammad"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "伊斯兰教的先知，被认为是亚伯拉罕之子以实玛利的后裔。",
+          "en": "The prophet of Islam, considered a descendant of Abraham's son Ishmael."
+        }
+      }
+    },
+    {
+      "id": "克尔白",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "克尔白"
+        ],
+        "en": [
+          "Kaaba"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "麦加"
+        },
+        "description": {
+          "zh-cn": "位于麦加的立方体建筑，是伊斯兰教最神圣的中心。根据伊斯兰传统，由亚伯拉罕和以实玛利共同修建。",
+          "en": "A cubical building in Mecca, the most sacred center of Islam. According to Islamic tradition, it was built by Abraham and Ishmael."
+        }
+      }
+    },
+    {
+      "id": "古尔邦节",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "古尔邦节"
+        ],
+        "en": [
+          "Eid al-Adha"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "伊斯兰教的重要节日，为纪念先知易卜拉欣（亚伯拉罕）忠实执行真主命令，愿意献祭自己的儿子，而后真主又用羊羔代替的事件。",
+          "en": "An important Islamic holiday commemorating the willingness of the prophet Ibrahim (Abraham) to sacrifice his son in obedience to God's command, before God provided a lamb to sacrifice instead."
+        }
+      }
+    },
+    {
+      "id": "巴哈欧拉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "巴哈欧拉"
+        ],
+        "en": [
+          "Baháʼu'lláh"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "巴哈伊信仰的创始人，声称是亚伯拉罕的后裔。",
+          "en": "The founder of the Baháʼí Faith, who claimed to be a descendant of Abraham."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "亚伯拉罕",
+      "target": "他拉",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕是拿鹤的孙子、他拉的儿子。",
+          "en": "Abraham was the grandson of Nahor and the son of Terah."
+        }
+      }
+    },
+    {
+      "source": "他拉",
+      "target": "拿鹤",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕是拿鹤的孙子、他拉的儿子。",
+          "en": "Abraham was the grandson of Nahor and the son of Terah."
+        }
+      }
+    },
+    {
+      "source": "哈兰",
+      "target": "他拉",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "哈兰是他拉的儿子，亚伯拉罕的兄弟。",
+          "en": "Haran was the son of Terah and the brother of Abraham."
+        }
+      }
+    },
+    {
+      "source": "拿鹤 (他拉的儿子)",
+      "target": "他拉",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "拿鹤是他拉的儿子，亚伯拉罕的兄弟。",
+          "en": "Nahor was the son of Terah and the brother of Abraham."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "哈兰",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "拿鹤 (他拉的儿子)",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "罗得",
+      "target": "哈兰",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "哈兰死在乌尔，留下一个儿子罗得。",
+          "en": "Haran died in Ur, leaving a son, Lot."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "撒拉",
+      "type": "SPOUSE_OF",
+      "properties": {}
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "夏甲",
+      "type": "SPOUSE_OF",
+      "properties": {}
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "基土拉",
+      "type": "SPOUSE_OF",
+      "properties": {}
+    },
+    {
+      "source": "以撒",
+      "target": "亚伯拉罕",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "以撒",
+      "target": "撒拉",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "以实玛利",
+      "target": "亚伯拉罕",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "以实玛利",
+      "target": "夏甲",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "迦勒底的乌尔",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "耶和华",
+      "target": "亚伯拉罕",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "耶和华（上主）拣选亚伯拉罕，召唤他前往迦南，与他立约，并应许其后裔繁多，成为大国。耶和华也通过命其献祭以撒来考验他的信心。",
+          "en": "Yahweh (the Lord) chose Abraham, called him to go to Canaan, made a covenant with him, and promised that his descendants would be numerous and become a great nation. Yahweh also tested his faith by commanding him to sacrifice Isaac."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "法老",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕因饥荒到埃及避难时，因妻子撒拉的美貌与埃及法老发生交集。法老将撒拉带入后宫，但因耶和华降灾而将她归还。",
+          "en": "When Abraham took refuge in Egypt during a famine, he had an encounter with the Egyptian Pharaoh over the beauty of his wife, Sarah. The Pharaoh took Sarah into his harem but returned her after Yahweh sent plagues."
+        }
+      }
+    },
+    {
+      "source": "耶和华",
+      "target": "法老",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "因法老将撒拉带入后宫，耶和华降灾于法老和他的全家。",
+          "en": "Because the Pharaoh took Sarah into his harem, Yahweh sent plagues upon the Pharaoh and his entire household."
+        }
+      }
+    },
+    {
+      "source": "基大老玛",
+      "target": "罗得",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "基大老玛及其盟友在与迦南五王的战争中获胜，并掳走了居住在所多玛的罗得。",
+          "en": "Chedorlaomer and his allies were victorious in the war against the five Canaanite kings and captured Lot, who was living in Sodom."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "基大老玛",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕为救回侄子罗得，率领家丁追击并击败了基大老玛的军队。",
+          "en": "To rescue his nephew Lot, Abraham led his household servants, pursued, and defeated the forces of Chedorlaomer."
+        }
+      }
+    },
+    {
+      "source": "麦基洗德",
+      "target": "亚伯拉罕",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在亚伯拉罕击败基大老玛后，撒冷王麦基洗德为他祝福。",
+          "en": "After Abraham defeated Chedorlaomer, Melchizedek, the king of Salem, blessed him."
+        }
+      }
+    },
+    {
+      "source": "耶和华",
+      "target": "所多玛与蛾摩拉",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "因所多玛与蛾摩拉的罪恶甚重，耶和华降下硫磺与火毁灭了这两座城市。",
+          "en": "Due to the great wickedness of Sodom and Gomorrah, Yahweh rained down sulfur and fire, destroying the two cities."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "克尔白",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据伊斯兰教传统，亚伯拉罕（易卜拉欣）与儿子以实玛利共同在麦加修建了克尔白。",
+          "en": "According to Islamic tradition, Abraham (Ibrahim) and his son Ishmael jointly built the Kaaba in Mecca."
+        }
+      }
+    },
+    {
+      "source": "以实玛利",
+      "target": "克尔白",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据伊斯兰教传统，以实玛利（易斯马仪）与父亲亚伯拉罕共同在麦加修建了克尔白。",
+          "en": "According to Islamic tradition, Ishmael (Isma'il) and his father Abraham jointly built the Kaaba in Mecca."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "亚伯拉罕诸教",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕因其在犹太教、基督教和伊斯兰教中的重要地位，这些宗教被统称为亚伯拉罕诸教。",
+          "en": "Due to his significant position in Judaism, Christianity, and Islam, these religions are collectively known as the Abrahamic religions."
+        }
+      }
+    },
+    {
+      "source": "以撒",
+      "target": "犹太人",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "以撒被认为是犹太人的祖先。",
+          "en": "Isaac is considered the ancestor of the Jewish people."
+        }
+      }
+    },
+    {
+      "source": "以实玛利",
+      "target": "阿拉伯人",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "以实玛利被认为是阿拉伯人的祖先。",
+          "en": "Ishmael is considered the ancestor of the Arab people."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "闪米特人",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "亚伯拉罕被认为是包括希伯来人和阿拉伯人在内的闪米特人的共同祖先。",
+          "en": "Abraham is considered the common ancestor of the Semitic peoples, including the Hebrews and Arabs."
+        }
+      }
+    },
+    {
+      "source": "耶稣基督",
+      "target": "亚伯拉罕",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据基督教圣经记载，耶稣在肉身上是亚伯拉罕的后裔。",
+          "en": "According to the Christian Bible, Jesus is a descendant of Abraham in his physical lineage."
+        }
+      }
+    },
+    {
+      "source": "穆罕默德",
+      "target": "以实玛利",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据伊斯兰教传统，穆罕默德是亚伯拉罕之子以实玛利的后裔。",
+          "en": "According to Islamic tradition, Muhammad is a descendant of Abraham's son, Ishmael."
+        }
+      }
+    },
+    {
+      "source": "亚伯拉罕",
+      "target": "古尔邦节",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "古尔邦节是为了纪念亚伯拉罕（易卜拉欣）愿意献祭其子以服从真主命令的事件而设立的。",
+          "en": "Eid al-Adha was established to commemorate the event of Abraham's (Ibrahim's) willingness to sacrifice his son in obedience to God's command."
+        }
+      }
+    },
+    {
+      "source": "巴哈欧拉",
+      "target": "亚伯拉罕",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "巴哈伊信仰的创始人巴哈欧拉声称是亚伯拉罕的后裔。",
+          "en": "Baháʼu'lláh, the founder of the Baháʼí Faith, claimed to be a descendant of Abraham."
+        }
+      }
+    }
+  ]
+}

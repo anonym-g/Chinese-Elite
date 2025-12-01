@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "宁夏回族自治区工商业联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁夏回族自治区工商业联合会",
+          "宁夏回族自治区工商联",
+          "宁夏民间商会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": {
+          "zh-cn": "宁夏回族自治区",
+          "en": "Ningxia Hui Autonomous Region"
+        },
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中国共产党领导的、宁夏回族自治区工商界组成的统战性、经济性、民间性的人民团体和商会组织。",
+          "en": "A united front, economic, and non-governmental people's organization and chamber of commerce led by the Communist Party of China, composed of members from the industrial and commercial circles of the Ningxia Hui Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "中华全国工商业联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国工商业联合会"
+        ],
+        "en": [
+          "All-China Federation of Industry and Commerce"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中国共产党领导的以非公有制企业和非公有制经济人士为主体的人民团体和商会，是全国性的工商业联合会组织。",
+          "en": "A people's organization and chamber of commerce led by the Communist Party of China, mainly composed of non-public enterprises and individuals from the non-public sector of the economy. It is the national federation of industry and commerce."
+        }
+      }
+    },
+    {
+      "id": "中国共产党宁夏回族自治区委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党宁夏回族自治区委员会"
+        ],
+        "en": [
+          "Ningxia Hui Autonomous Regional Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": {
+          "zh-cn": "宁夏回族自治区",
+          "en": "Ningxia Hui Autonomous Region"
+        },
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中国共产党在宁夏回族自治区的领导机关。",
+          "en": "The leading organ of the Communist Party of China in the Ningxia Hui Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "人民团体",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "人民团体"
+        ],
+        "en": [
+          "People's organization"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中国特有的一种社会组织形式，指由中国公民自愿组成，为实现会员共同意愿，按照其章程开展活动的非营利性社会组织。",
+          "en": "A unique form of social organization in China, referring to non-profit social organizations voluntarily formed by Chinese citizens to carry out activities in accordance with their charters to achieve the common will of their members."
+        }
+      }
+    },
+    {
+      "id": "商会组织",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "商会组织"
+        ],
+        "en": [
+          "Chamber of commerce"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "一种由商人或企业组成的，旨在保护和促进其成员商业利益的社会团体。",
+          "en": "A form of business network whose goal is to further the interests of businesses."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "宁夏回族自治区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "宁夏回族自治区"
+        ],
+        "en": [
+          "Ningxia Hui Autonomous Region"
+        ]
+      },
+      "properties": {
+        "period": null,
+        "lifetime": null,
+        "gender": null,
+        "location": null,
+        "birth_place": null,
+        "death_place": null,
+        "description": {
+          "zh-cn": "中华人民共和国的一个省级行政区。",
+          "en": "A provincial-level administrative region of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "宁夏回族自治区工商业联合会",
+      "target": "中华全国工商业联合会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "根据信息框，宁夏回族自治区工商业联合会的上级机构是中华全国工商业联合会。",
+          "en": "According to the infobox, the superior organization of the Ningxia Hui Autonomous Region Federation of Industry and Commerce is the All-China Federation of Industry and Commerce."
+        }
+      }
+    },
+    {
+      "source": "宁夏回族自治区工商业联合会",
+      "target": "中国共产党宁夏回族自治区委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "根据信息框，宁夏回族自治区工商业联合会的中共上级机构是中国共产党宁夏回族自治区委员会。",
+          "en": "According to the infobox, the superior CCP organization of the Ningxia Hui Autonomous Region Federation of Industry and Commerce is the Ningxia Hui Autonomous Regional Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "宁夏回族自治区工商业联合会",
+      "target": "人民团体",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "宁夏回族自治区工商业联合会被定义为一种人民团体。",
+          "en": "The Ningxia Hui Autonomous Region Federation of Industry and Commerce is defined as a type of people's organization."
+        }
+      }
+    },
+    {
+      "source": "宁夏回族自治区工商业联合会",
+      "target": "商会组织",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": null,
+        "degree": null,
+        "description": {
+          "zh-cn": "宁夏回族自治区工商业联合会被定义为一种商会组织。",
+          "en": "The Ningxia Hui Autonomous Region Federation of Industry and Commerce is defined as a type of chamber of commerce organization."
+        }
+      }
+    }
+  ]
+}

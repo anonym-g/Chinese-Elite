@@ -1,0 +1,971 @@
+{
+  "nodes": [
+    {
+      "id": "基辅罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "基辅罗斯",
+          "罗斯"
+        ],
+        "en": [
+          "Kievan Rus'"
+        ]
+      },
+      "properties": {
+        "period": "882 - 1240",
+        "location": {
+          "zh-cn": "东欧",
+          "en": "Eastern Europe"
+        },
+        "description": {
+          "zh-cn": "中世纪东欧及北欧地带一个由众部落公国组成的联邦，被认为是现代东斯拉夫民族国家（乌克兰、俄罗斯及白俄罗斯）的前身。",
+          "en": "A medieval federation of principalities in Eastern and Northern Europe, considered the predecessor to the modern East Slavic nations of Ukraine, Russia, and Belarus."
+        }
+      }
+    },
+    {
+      "id": "留里克",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "留里克"
+        ],
+        "en": [
+          "Rurik"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 879",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "瓦良格人首领，留里克王朝的奠基人，建立了罗斯汗国。",
+          "en": "A Varangian chieftain who founded the Rurik dynasty and established the Rus' Khaganate."
+        }
+      }
+    },
+    {
+      "id": "奥列格",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "奥列格"
+        ],
+        "en": [
+          "Oleg of Novgorod"
+        ]
+      },
+      "properties": {
+        "period": "c. 882 - 912",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "留里克的继任者，于882年占领基辅并迁都于此，正式建立了基辅罗斯。",
+          "en": "Successor to Rurik, he captured Kyiv in 882 and moved the capital there, formally establishing Kievan Rus'."
+        }
+      }
+    },
+    {
+      "id": "蒙古征服基辅罗斯",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "蒙古征服基辅罗斯",
+          "拔都西征"
+        ],
+        "en": [
+          "Mongol invasion of Kievan Rus'"
+        ]
+      },
+      "properties": {
+        "period": "1237 - 1241",
+        "description": {
+          "zh-cn": "蒙古帝国在拔都的率领下对基辅罗斯诸公国进行的一系列军事征服行动，最终导致基辅罗斯的灭亡。",
+          "en": "A series of military campaigns by the Mongol Empire, led by Batu Khan, against the principalities of Kievan Rus', ultimately leading to its fall."
+        }
+      }
+    },
+    {
+      "id": "蒙古帝国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "蒙古帝国"
+        ],
+        "en": [
+          "Mongol Empire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "13世纪由成吉思汗建立的帝国，其西征行动灭亡了基辅罗斯。",
+          "en": "An empire founded by Genghis Khan in the 13th century, whose western campaigns destroyed Kievan Rus'."
+        }
+      }
+    },
+    {
+      "id": "拔都",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "拔都"
+        ],
+        "en": [
+          "Batu Khan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蒙古帝国将领，成吉思汗之孙。他领导了蒙古对基辅罗斯的征服，并建立了金帐汗国。",
+          "en": "A Mongol general and grandson of Genghis Khan. He led the Mongol invasion of Kievan Rus' and founded the Golden Horde."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔一世·斯维亚托斯拉维奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔一世·斯维亚托斯拉维奇",
+          "弗拉基米尔大帝"
+        ],
+        "en": [
+          "Vladimir the Great"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "基辅罗斯大公，在他的统治下，基辅罗斯迎来了黄金时期，并于988年接受基督教为国教。",
+          "en": "Grand Prince of Kiev, under whose reign Kievan Rus' entered its golden age and adopted Christianity in 988."
+        }
+      }
+    },
+    {
+      "id": "雅罗斯拉夫一世·弗拉基米罗维奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雅罗斯拉夫一世·弗拉基米罗维奇",
+          "雅罗斯拉夫 (智者)",
+          "智者雅罗斯拉夫"
+        ],
+        "en": [
+          "Yaroslav the Wise"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 1054",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "弗拉基米尔大帝之子，基辅罗斯大公。他在位期间创立了东斯拉夫法典（罗斯法典），并维持了国家的统一。",
+          "en": "Son of Vladimir the Great and Grand Prince of Kiev. During his reign, he established the first East Slavic law code (Russkaya Pravda) and maintained the unity of the state."
+        }
+      }
+    },
+    {
+      "id": "基辅罗斯的基督教化",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "基辅罗斯的基督教化"
+        ],
+        "en": [
+          "Christianization of Kievan Rus'"
+        ]
+      },
+      "properties": {
+        "period": "988 - ",
+        "description": {
+          "zh-cn": "由弗拉基米尔大帝于988年开启的，将东正教定为基辅罗斯国教的进程。",
+          "en": "The process initiated by Vladimir the Great in 988 to establish Orthodox Christianity as the state religion of Kievan Rus'."
+        }
+      }
+    },
+    {
+      "id": "罗斯法典",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "罗斯法典",
+          "东斯拉夫法典"
+        ],
+        "en": [
+          "Russkaya Pravda"
+        ]
+      },
+      "properties": {
+        "period": "1050s - ",
+        "description": {
+          "zh-cn": "基辅罗斯在智者雅罗斯拉夫统治时期创立的法典。",
+          "en": "The law code of Kievan Rus' established during the reign of Yaroslav the Wise."
+        }
+      }
+    },
+    {
+      "id": "留里克王朝",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "留里克王朝"
+        ],
+        "en": [
+          "Rurik dynasty"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由瓦良格人留里克建立的，统治基辅罗斯及后续莫斯科公国的王朝。",
+          "en": "A dynasty founded by the Varangian Rurik, which ruled Kievan Rus' and the subsequent Grand Duchy of Moscow."
+        }
+      }
+    },
+    {
+      "id": "基辅",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "基辅"
+        ],
+        "en": [
+          "Kyiv"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基辅罗斯的首都，被誉为“罗斯诸城之母”。",
+          "en": "The capital of Kievan Rus', known as the 'Mother of Rus' cities'."
+        }
+      }
+    },
+    {
+      "id": "罗斯汗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗斯汗国"
+        ],
+        "en": [
+          "Rus' Khaganate"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个位于东欧的9世纪政体，是基辅罗斯的前身之一。",
+          "en": "A 9th-century polity in Eastern Europe, considered a predecessor to Kievan Rus'."
+        }
+      }
+    },
+    {
+      "id": "迦勒迦河之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "迦勒迦河之战"
+        ],
+        "en": [
+          "Battle of the Kalka River"
+        ]
+      },
+      "properties": {
+        "period": "1223",
+        "description": {
+          "zh-cn": "罗斯诸公与钦察人联军首次与蒙古侦察部队交战并被彻底击败的战役。",
+          "en": "The battle where the allied forces of Rus' principalities and the Cumans first encountered and were decisively defeated by a Mongol reconnaissance force."
+        }
+      }
+    },
+    {
+      "id": "金帐汗国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "金帐汗国"
+        ],
+        "en": [
+          "Golden Horde"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由拔都建立的蒙古汗国，在蒙古征服后统治了罗斯地区长达240年。",
+          "en": "A Mongol khanate founded by Batu Khan that ruled over the Rus' territories for 240 years after the Mongol invasion."
+        }
+      }
+    },
+    {
+      "id": "钦察人",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "钦察人",
+          "波洛韦茨人"
+        ],
+        "en": [
+          "Cumans",
+          "Kipchaks",
+          "Polovtsians"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个突厥游牧民族，曾是基辅罗斯的敌人，但在迦勒迦河之战中与其结盟对抗蒙古。",
+          "en": "A Turkic nomadic people, who were sometimes enemies of Kievan Rus' but allied with them against the Mongols at the Battle of the Kalka River."
+        }
+      }
+    },
+    {
+      "id": "成吉思汗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "成吉思汗"
+        ],
+        "en": [
+          "Genghis Khan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蒙古帝国的创始人和第一位大汗。",
+          "en": "The founder and first Great Khan of the Mongol Empire."
+        }
+      }
+    },
+    {
+      "id": "哲别",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "哲别"
+        ],
+        "en": [
+          "Jebe"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蒙古帝国成吉思汗手下的大将之一，参与了对基辅罗斯的早期侦查。",
+          "en": "One of Genghis Khan's leading generals in the Mongol Empire, who participated in the early reconnaissance of Kievan Rus'."
+        }
+      }
+    },
+    {
+      "id": "速不台",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "速不台"
+        ],
+        "en": [
+          "Subutai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "蒙古帝国成吉思汗手下的大将之一，参与了对基辅罗斯的早期侦查。",
+          "en": "One of Genghis Khan's leading generals in the Mongol Empire, who participated in the early reconnaissance of Kievan Rus'."
+        }
+      }
+    },
+    {
+      "id": "雅罗斯拉夫二世·弗谢沃洛多维奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "雅罗斯拉夫二世·弗谢沃洛多维奇",
+          "雅罗斯拉夫二世"
+        ],
+        "en": [
+          "Yaroslav II of Vladimir"
+        ]
+      },
+      "properties": {
+        "period": "1238 - 1240",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "弗拉基米尔大公，在基辅罗斯灭亡后被拔都立为傀儡，用以稳定罗斯诸公。",
+          "en": "Grand Prince of Vladimir, who was made a puppet ruler by Batu Khan after the fall of Kievan Rus' to stabilize the remaining Rus' princes."
+        }
+      }
+    },
+    {
+      "id": "亚历山大·涅夫斯基",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亚历山大·涅夫斯基"
+        ],
+        "en": [
+          "Alexander Nevsky"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "诺夫哥罗德大公，在蒙古入侵时期，通过在涅瓦河之战和楚德湖战役中取得胜利，保卫了罗斯的西北边疆。",
+          "en": "Grand Prince of Novgorod who defended the northwestern frontiers of Rus' during the Mongol invasion by winning the Battle of the Neva and the Battle on the Ice."
+        }
+      }
+    },
+    {
+      "id": "诺夫哥罗德共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "诺夫哥罗德共和国",
+          "诺夫哥罗德大公国"
+        ],
+        "en": [
+          "Novgorod Republic"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基辅罗斯时期的一个重要公国，在蒙古入侵后保持了事实上的独立。",
+          "en": "A prominent principality during the Kievan Rus' period that maintained de facto independence after the Mongol invasion."
+        }
+      }
+    },
+    {
+      "id": "涅瓦河之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "涅瓦河之战"
+        ],
+        "en": [
+          "Battle of the Neva"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由亚历山大·涅夫斯基领导的诺夫哥罗德军队击败瑞典军队的战役。",
+          "en": "A battle where the Novgorodian army led by Alexander Nevsky defeated the Swedish army."
+        }
+      }
+    },
+    {
+      "id": "楚德湖战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "楚德湖战役"
+        ],
+        "en": [
+          "Battle on the Ice"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由亚历山大·涅夫斯基领导的诺夫哥罗德军队击败条顿骑士团的战役。",
+          "en": "A battle where the Novgorodian army led by Alexander Nevsky defeated the Teutonic Knights."
+        }
+      }
+    },
+    {
+      "id": "瑞典",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瑞典"
+        ],
+        "en": [
+          "Sweden"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北欧国家，其军队曾在涅瓦河之战中被亚历山大·涅夫斯基击败。",
+          "en": "A Nordic country whose army was defeated by Alexander Nevsky at the Battle of the Neva."
+        }
+      }
+    },
+    {
+      "id": "条顿骑士团",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "条顿骑士团"
+        ],
+        "en": [
+          "Teutonic Order"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个天主教军事修会，曾在楚德湖战役中被亚历山大·涅夫斯基击败。",
+          "en": "A Catholic military order that was defeated by Alexander Nevsky at the Battle on the Ice."
+        }
+      }
+    },
+    {
+      "id": "波列斯瓦夫大帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "波列斯瓦夫大帝"
+        ],
+        "en": [
+          "Bolesław I the Brave"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "波兰国王，曾以其女婿斯维亚托波尔克一世的名义入侵基辅罗斯。",
+          "en": "King of Poland who invaded Kievan Rus' in the name of his son-in-law, Sviatopolk I."
+        }
+      }
+    },
+    {
+      "id": "斯维亚托波尔克一世·弗拉基米罗维奇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "斯维亚托波尔克一世·弗拉基米罗维奇",
+          "恶棍斯维亚托波尔克"
+        ],
+        "en": [
+          "Sviatopolk I of Kiev"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "基辅罗斯王公，波列斯瓦夫大帝的女婿。",
+          "en": "Prince of Kievan Rus', son-in-law of Bolesław I the Brave."
+        }
+      }
+    },
+    {
+      "id": "亨利二世 (神圣罗马帝国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亨利二世 (神圣罗马帝国)",
+          "亨利二世"
+        ],
+        "en": [
+          "Henry II, Holy Roman Emperor"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "神圣罗马帝国皇帝，曾与智者雅罗斯拉夫联合夹击波兰。",
+          "en": "Holy Roman Emperor who allied with Yaroslav the Wise to attack Poland from two sides."
+        }
+      }
+    },
+    {
+      "id": "安德烈·博戈柳布斯基",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "安德烈·博戈柳布斯基"
+        ],
+        "en": [
+          "Andrey Bogolyubsky"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "基辅罗斯王公，于1169年攻陷基辅，并将首都迁至弗拉基米尔。",
+          "en": "Prince of Kievan Rus' who sacked Kyiv in 1169 and moved the capital to Vladimir."
+        }
+      }
+    },
+    {
+      "id": "弗拉基米尔 (俄罗斯)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "弗拉基米尔 (俄罗斯)",
+          "弗拉基米尔"
+        ],
+        "en": [
+          "Vladimir, Russia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "俄罗斯城市，在安德烈·博戈柳布斯基统治时期曾短暂成为基辅罗斯的首都。",
+          "en": "A city in Russia that briefly became the capital of Kievan Rus' during the reign of Andrey Bogolyubsky."
+        }
+      }
+    },
+    {
+      "id": "乌克兰",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乌克兰"
+        ],
+        "en": [
+          "Ukraine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "现代东斯拉夫民族国家，其历史渊源可追溯至基辅罗斯。",
+          "en": "A modern East Slavic nation whose historical origins trace back to Kievan Rus'."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯"
+        ],
+        "en": [
+          "Russia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "现代东斯拉夫民族国家，其历史渊源可追溯至基辅罗斯。",
+          "en": "A modern East Slavic nation whose historical origins trace back to Kievan Rus'."
+        }
+      }
+    },
+    {
+      "id": "白俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "白俄罗斯"
+        ],
+        "en": [
+          "Belarus"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "现代东斯拉夫民族国家，其历史渊源可追溯至基辅罗斯。",
+          "en": "A modern East Slavic nation whose historical origins trace back to Kievan Rus'."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "留里克",
+      "target": "留里克王朝",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "留里克建立了留里克王朝。",
+          "en": "Rurik founded the Rurik dynasty."
+        }
+      }
+    },
+    {
+      "source": "留里克",
+      "target": "罗斯汗国",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "862",
+        "description": {
+          "zh-cn": "留里克占据诺夫哥罗德后建立了罗斯汗国。",
+          "en": "Rurik founded the Rus' Khaganate after taking control of Novgorod."
+        }
+      }
+    },
+    {
+      "source": "奥列格",
+      "target": "留里克",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "879",
+        "description": {
+          "zh-cn": "奥列格在留里克于879年去世后接替其王公之位。",
+          "en": "Oleg succeeded Rurik as prince after Rurik's death in 879."
+        }
+      }
+    },
+    {
+      "source": "奥列格",
+      "target": "基辅罗斯",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "882",
+        "description": {
+          "zh-cn": "奥列格于882年迁都基辅，正式建立了基辅罗斯公国。",
+          "en": "Oleg moved the capital to Kyiv in 882, formally establishing the principality of Kievan Rus'."
+        }
+      }
+    },
+    {
+      "source": "蒙古征服基辅罗斯",
+      "target": "基辅罗斯",
+      "type": "BLOCKED",
+      "properties": {
+        "end_date": "1240",
+        "description": {
+          "zh-cn": "蒙古帝国的征服导致了基辅罗斯于1240年灭亡。",
+          "en": "The Mongol invasion led to the fall of Kievan Rus' in 1240."
+        }
+      }
+    },
+    {
+      "source": "拔都",
+      "target": "蒙古征服基辅罗斯",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "拔都领导了蒙古帝国对基辅罗斯的征服。",
+          "en": "Batu Khan led the Mongol Empire's invasion of Kievan Rus'."
+        }
+      }
+    },
+    {
+      "source": "蒙古帝国",
+      "target": "蒙古征服基辅罗斯",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "蒙古帝国发动了对基辅罗斯的征服战争。",
+          "en": "The Mongol Empire launched the invasion of Kievan Rus'."
+        }
+      }
+    },
+    {
+      "source": "弗拉基米尔一世·斯维亚托斯拉维奇",
+      "target": "基辅罗斯的基督教化",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "988",
+        "description": {
+          "zh-cn": "弗拉基米尔大帝开启了罗斯的基督教化进程，将东正教定为国教。",
+          "en": "Vladimir the Great initiated the Christianization of Rus', establishing Orthodox Christianity as the state religion."
+        }
+      }
+    },
+    {
+      "source": "雅罗斯拉夫一世·弗拉基米罗维奇",
+      "target": "罗斯法典",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "智者雅罗斯拉夫在位时创立了东斯拉夫法典（罗斯法典）。",
+          "en": "Yaroslav the Wise established the East Slavic law code (Russkaya Pravda) during his reign."
+        }
+      }
+    },
+    {
+      "source": "雅罗斯拉夫一世·弗拉基米罗维奇",
+      "target": "弗拉基米尔一世·斯维亚托斯拉维奇",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "雅罗斯拉夫是弗拉基米尔一世的儿子。",
+          "en": "Yaroslav was the son of Vladimir I."
+        }
+      }
+    },
+    {
+      "source": "迦勒迦河之战",
+      "target": "基辅罗斯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1223",
+        "description": {
+          "zh-cn": "在迦勒迦河之战中，罗斯诸公与钦察人的联军被蒙古军队彻底击败。",
+          "en": "At the Battle of the Kalka River, the allied forces of Rus' principalities and the Cumans were decisively defeated by the Mongol army."
+        }
+      }
+    },
+    {
+      "source": "钦察人",
+      "target": "基辅罗斯",
+      "type": "FRIEND_OF",
+      "properties": {
+        "start_date": "1223",
+        "end_date": "1223",
+        "description": {
+          "zh-cn": "在迦勒迦河之战中，钦察人与罗斯诸公组成联盟以对抗蒙古军队。",
+          "en": "At the Battle of the Kalka River, the Cumans formed an alliance with the Rus' princes to fight the Mongol army."
+        }
+      }
+    },
+    {
+      "source": "哲别",
+      "target": "成吉思汗",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "大将",
+          "en": "General"
+        },
+        "description": {
+          "zh-cn": "哲别是成吉思汗手下的大将。",
+          "en": "Jebe was a general under Genghis Khan."
+        }
+      }
+    },
+    {
+      "source": "速不台",
+      "target": "成吉思汗",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "大将",
+          "en": "General"
+        },
+        "description": {
+          "zh-cn": "速不台是成吉思汗手下的大将。",
+          "en": "Subutai was a general under Genghis Khan."
+        }
+      }
+    },
+    {
+      "source": "雅罗斯拉夫二世·弗谢沃洛多维奇",
+      "target": "拔都",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "傀儡",
+          "en": "Puppet"
+        },
+        "description": {
+          "zh-cn": "基辅罗斯灭亡后，雅罗斯拉夫二世被拔都控制为傀儡统治者。",
+          "en": "After the fall of Kievan Rus', Yaroslav II was controlled by Batu Khan as a puppet ruler."
+        }
+      }
+    },
+    {
+      "source": "涅瓦河之战",
+      "target": "瑞典",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "亚历山大·涅夫斯基在涅瓦河之战中击败了瑞典军队。",
+          "en": "Alexander Nevsky defeated the Swedish army at the Battle of the Neva."
+        }
+      }
+    },
+    {
+      "source": "楚德湖战役",
+      "target": "条顿骑士团",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "亚历山大·涅夫斯基在楚德湖战役中大败条顿骑士团。",
+          "en": "Alexander Nevsky decisively defeated the Teutonic Knights at the Battle on the Ice."
+        }
+      }
+    },
+    {
+      "source": "亚历山大·涅夫斯基",
+      "target": "诺夫哥罗德共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "大公",
+          "en": "Grand Prince"
+        },
+        "description": {
+          "zh-cn": "亚历山大·涅夫斯基是诺夫哥罗德的大公，并率领其军队作战。",
+          "en": "Alexander Nevsky was the Grand Prince of Novgorod and led its armies."
+        }
+      }
+    },
+    {
+      "source": "波列斯瓦夫大帝",
+      "target": "基辅罗斯",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "波兰的波列斯瓦夫大帝曾入侵基辅罗斯。",
+          "en": "Bolesław I the Brave of Poland invaded Kievan Rus'."
+        }
+      }
+    },
+    {
+      "source": "斯维亚托波尔克一世·弗拉基米罗维奇",
+      "target": "波列斯瓦夫大帝",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "斯维亚托波尔克一世是波列斯瓦夫大帝的女婿。",
+          "en": "Sviatopolk I was the son-in-law of Bolesław I the Brave."
+        }
+      }
+    },
+    {
+      "source": "雅罗斯拉夫一世·弗拉基米罗维奇",
+      "target": "亨利二世 (神圣罗马帝国)",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "智者雅罗斯拉夫联合神圣罗马帝国皇帝亨利二世东西夹击波兰。",
+          "en": "Yaroslav the Wise allied with Holy Roman Emperor Henry II for a pincer attack on Poland."
+        }
+      }
+    },
+    {
+      "source": "安德烈·博戈柳布斯基",
+      "target": "基辅",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1169",
+        "description": {
+          "zh-cn": "1169年，安德烈·博戈柳布斯基联合十六个大公国的军队攻陷基辅。",
+          "en": "In 1169, Andrey Bogolyubsky, along with the armies of sixteen principalities, sacked Kyiv."
+        }
+      }
+    },
+    {
+      "source": "安德烈·博戈柳布斯基",
+      "target": "弗拉基米尔 (俄罗斯)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1169",
+        "description": {
+          "zh-cn": "安德烈·博戈柳布斯基攻陷基辅后，将首都迁移至弗拉基米尔。",
+          "en": "After sacking Kyiv, Andrey Bogolyubsky moved the capital to Vladimir."
+        }
+      }
+    },
+    {
+      "source": "基辅罗斯",
+      "target": "乌克兰",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "基辅罗斯是现代乌克兰国家的前身。",
+          "en": "Kievan Rus' is a predecessor to the modern state of Ukraine."
+        }
+      }
+    },
+    {
+      "source": "基辅罗斯",
+      "target": "俄罗斯",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "基辅罗斯是现代俄罗斯国家的前身。",
+          "en": "Kievan Rus' is a predecessor to the modern state of Russia."
+        }
+      }
+    },
+    {
+      "source": "基辅罗斯",
+      "target": "白俄罗斯",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "基辅罗斯是现代白俄罗斯国家的前身。",
+          "en": "Kievan Rus' is a predecessor to the modern state of Belarus."
+        }
+      }
+    }
+  ]
+}
