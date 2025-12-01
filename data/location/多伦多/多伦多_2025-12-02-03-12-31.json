@@ -1,0 +1,531 @@
+{
+  "nodes": [
+    {
+      "id": "多伦多",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "多伦多",
+          "图麟都",
+          "都朗度",
+          "度郎度",
+          "多朗多",
+          "多市"
+        ],
+        "en": [
+          "Toronto"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "加拿大安大略省",
+          "en": "Ontario, Canada"
+        },
+        "description": {
+          "zh-cn": "加拿大安大略省的省会，也是加拿大最大的城市。它位于安大略湖西北岸，是大多伦多地区的核心。",
+          "en": "The capital city of the Canadian province of Ontario and the largest city in Canada. It is located on the northwestern shore of Lake Ontario and is the core of the Greater Toronto Area."
+        }
+      }
+    },
+    {
+      "id": "多伦多市",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "多伦多市"
+        ],
+        "en": [
+          "City of Toronto"
+        ]
+      },
+      "properties": {
+        "period": "1834-03-06 - ",
+        "description": {
+          "zh-cn": "多伦多的市政管理机构。1834年由约克镇升级而成。现今的市政府是在1998年由大多伦多市下属的六个行政区合并而成。",
+          "en": "The municipal government of Toronto. It was incorporated in 1834, succeeding the Town of York. The current city was formed in 1998 through the amalgamation of six municipalities of the former Metropolitan Toronto."
+        }
+      }
+    },
+    {
+      "id": "邹至蕙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "邹至蕙"
+        ],
+        "en": [
+          "Olivia Chow"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "加拿大政治人物，现任多伦多市长。",
+          "en": "Canadian politician, the current mayor of Toronto."
+        }
+      }
+    },
+    {
+      "id": "安大略省",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "安大略省"
+        ],
+        "en": [
+          "Ontario"
+        ]
+      },
+      "properties": {
+        "period": "1867-07-01 - ",
+        "description": {
+          "zh-cn": "加拿大的一个省，也是该国人口最多的省份。多伦多是其省会。",
+          "en": "A province of Canada and the country's most populous province. Its capital is Toronto."
+        }
+      }
+    },
+    {
+      "id": "加拿大",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "加拿大"
+        ],
+        "en": [
+          "Canada"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于北美洲北部的国家。",
+          "en": "A country in the northern part of North America."
+        }
+      }
+    },
+    {
+      "id": "多伦多市议会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "多伦多市议会"
+        ],
+        "en": [
+          "Toronto City Council"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "多伦多市的立法机构。",
+          "en": "The legislative body of the City of Toronto."
+        }
+      }
+    },
+    {
+      "id": "大多伦多地区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "大多伦多地区"
+        ],
+        "en": [
+          "Greater Toronto Area"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "加拿大安大略省南部的一个大型都会区，以多伦多市为中心。",
+          "en": "A large metropolitan area in Southern Ontario, Canada, centered on the City of Toronto."
+        }
+      }
+    },
+    {
+      "id": "约翰·格雷夫·锡姆科",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·格雷夫·锡姆科"
+        ],
+        "en": [
+          "John Graves Simcoe"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "上加拿大第一任副总督，建立了约克镇（即后来的多伦多）。",
+          "en": "The first Lieutenant Governor of Upper Canada, who founded the Town of York, which later became Toronto."
+        }
+      }
+    },
+    {
+      "id": "约克 (上加拿大)",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "约克 (上加拿大)",
+          "约克镇"
+        ],
+        "en": [
+          "York, Upper Canada",
+          "Town of York"
+        ]
+      },
+      "properties": {
+        "period": "1793 - 1834-03-05",
+        "description": {
+          "zh-cn": "多伦多的前身，由约翰·格雷夫·锡姆科于1793年建立，并曾作为上加拿大的首府。",
+          "en": "The predecessor to Toronto, founded in 1793 by John Graves Simcoe and served as the capital of Upper Canada."
+        }
+      }
+    },
+    {
+      "id": "威廉·莱昂·麦肯齐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "威廉·莱昂·麦肯齐"
+        ],
+        "en": [
+          "William Lyon Mackenzie"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "多伦多市首位市长，1837年上加拿大起义的领导人。",
+          "en": "The first mayor of Toronto and a leader of the Upper Canada Rebellion of 1837."
+        }
+      }
+    },
+    {
+      "id": "1904年的多伦多大火",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "1904年的多伦多大火"
+        ],
+        "en": [
+          "Great Toronto Fire of 1904"
+        ]
+      },
+      "properties": {
+        "period": "1904-04-19 - 1904-04-20",
+        "description": {
+          "zh-cn": "一场摧毁了多伦多市中心大部分地区的火灾。",
+          "en": "A fire that destroyed a large section of Downtown Toronto."
+        }
+      }
+    },
+    {
+      "id": "飓风黑素尔",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "飓风黑素尔"
+        ],
+        "en": [
+          "Hurricane Hazel"
+        ]
+      },
+      "properties": {
+        "period": "1954-10 - 1954-10",
+        "description": {
+          "zh-cn": "一场对多伦多造成严重破坏的飓风，导致81人死亡和大规模财产损失。",
+          "en": "A devastating hurricane that caused severe damage in Toronto, resulting in 81 deaths and extensive property damage."
+        }
+      }
+    },
+    {
+      "id": "大多伦多市",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "大多伦多市"
+        ],
+        "en": [
+          "Municipality of Metropolitan Toronto"
+        ]
+      },
+      "properties": {
+        "period": "1954 - 1998-01-01",
+        "description": {
+          "zh-cn": "1954年至1997年间存在的安大略省的一个上层市政当局，负责协调多伦多市及周边市镇的共同事务。于1998年被新的多伦多市取代。",
+          "en": "An upper-tier municipal government in Ontario that existed from 1954 to 1997, coordinating common services for the City of Toronto and its surrounding municipalities. It was replaced by the new City of Toronto in 1998."
+        }
+      }
+    },
+    {
+      "id": "旧多伦多市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "旧多伦多市"
+        ],
+        "en": [
+          "Old Toronto"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "大多伦多市成立前的多伦多市范围，也是1998年合并前的六个行政区之一。",
+          "en": "The area of the City of Toronto before the formation of Metropolitan Toronto, and one of the six municipalities that amalgamated in 1998."
+        }
+      }
+    },
+    {
+      "id": "多伦多猛龙队",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "多伦多猛龙队",
+          "暴龙队",
+          "速龙队",
+          "恐鸟队"
+        ],
+        "en": [
+          "Toronto Raptors"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一支以多伦多为主场的加拿大职业篮球队，隶属于美国国家篮球协会（NBA）。",
+          "en": "A Canadian professional basketball team based in Toronto, competing in the National Basketball Association (NBA)."
+        }
+      }
+    },
+    {
+      "id": "重庆",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "重庆"
+        ],
+        "en": [
+          "Chongqing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国直辖市。",
+          "en": "A municipality directly under the Central Government of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "芝加哥",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "芝加哥"
+        ],
+        "en": [
+          "Chicago"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国伊利诺伊州最大的城市。",
+          "en": "The largest city in the U.S. state of Illinois."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "邹至蕙",
+      "target": "多伦多市",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "市长",
+          "en": "Mayor"
+        },
+        "description": {
+          "zh-cn": "邹至蕙是多伦多市的现任市长。",
+          "en": "Olivia Chow is the current mayor of the City of Toronto."
+        }
+      }
+    },
+    {
+      "source": "多伦多市议会",
+      "target": "多伦多市",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "市议会",
+          "en": "City Council"
+        },
+        "description": {
+          "zh-cn": "多伦多市议会是多伦多市的立法机构。",
+          "en": "The Toronto City Council is the legislative body of the City of Toronto."
+        }
+      }
+    },
+    {
+      "source": "多伦多市",
+      "target": "多伦多",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "多伦多市是多伦多地区的市政管理机构。",
+          "en": "The City of Toronto is the municipal governing body for the location of Toronto."
+        }
+      }
+    },
+    {
+      "source": "安大略省",
+      "target": "加拿大",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "安大略省是加拿大的一个省。",
+          "en": "Ontario is a province of Canada."
+        }
+      }
+    },
+    {
+      "source": "多伦多市",
+      "target": "安大略省",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "作为市政府，多伦多市在法律上隶属于安大略省政府。",
+          "en": "As a municipal government, the City of Toronto is legally subordinate to the provincial government of Ontario."
+        }
+      }
+    },
+    {
+      "source": "安大略省",
+      "target": "多伦多",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1867",
+        "description": {
+          "zh-cn": "安大略省于1867年成立，并定都多伦多。",
+          "en": "Ontario was established in 1867, with Toronto designated as its capital."
+        }
+      }
+    },
+    {
+      "source": "大多伦多地区",
+      "target": "多伦多",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "多伦多是大多伦多地区的核心城市。",
+          "en": "Toronto is the central city of the Greater Toronto Area."
+        }
+      }
+    },
+    {
+      "source": "约翰·格雷夫·锡姆科",
+      "target": "约克 (上加拿大)",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1793",
+        "description": {
+          "zh-cn": "总督约翰·格雷夫·锡姆科建立了约克镇。",
+          "en": "Governor John Graves Simcoe established the Town of York."
+        }
+      }
+    },
+    {
+      "source": "约克 (上加拿大)",
+      "target": "多伦多市",
+      "type": "PUSHED",
+      "properties": {
+        "end_date": "1834-03-06",
+        "description": {
+          "zh-cn": "约克镇于1834年3月6日正式成为多伦多市，为其前身。",
+          "en": "The Town of York was incorporated as the City of Toronto on March 6, 1834, serving as its predecessor."
+        }
+      }
+    },
+    {
+      "source": "威廉·莱昂·麦肯齐",
+      "target": "多伦多市",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1834",
+        "position": {
+          "zh-cn": "首位市长",
+          "en": "First Mayor"
+        },
+        "description": {
+          "zh-cn": "威廉·莱昂·麦肯齐成为多伦多市的第一任市长。",
+          "en": "William Lyon Mackenzie became the first mayor of the City of Toronto."
+        }
+      }
+    },
+    {
+      "source": "1904年的多伦多大火",
+      "target": "多伦多",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1904-04-19",
+        "description": {
+          "zh-cn": "1904年的大火摧毁了多伦多市中心的大部分地段。",
+          "en": "The Great Fire of 1904 destroyed a large portion of downtown Toronto."
+        }
+      }
+    },
+    {
+      "source": "飓风黑素尔",
+      "target": "多伦多",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1954-10",
+        "description": {
+          "zh-cn": "1954年，飓风黑素尔蹂躏多伦多，造成81人死亡和严重破坏。",
+          "en": "In 1954, Hurricane Hazel devastated Toronto, causing 81 deaths and severe damage."
+        }
+      }
+    },
+    {
+      "source": "旧多伦多市",
+      "target": "多伦多市",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1998-01-01",
+        "description": {
+          "zh-cn": "旧多伦多市与其他五个行政区合并，组建了新的多伦多市。",
+          "en": "The Old City of Toronto, along with five other municipalities, amalgamated to form the new City of Toronto."
+        }
+      }
+    },
+    {
+      "source": "多伦多市",
+      "target": "大多伦多市",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1998-01-01",
+        "description": {
+          "zh-cn": "1998年1月1日，随着新的多伦多市的成立，大多伦多市政府被解散。",
+          "en": "On January 1, 1998, with the establishment of the new City of Toronto, the Municipality of Metropolitan Toronto was dissolved."
+        }
+      }
+    },
+    {
+      "source": "多伦多",
+      "target": "重庆",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "多伦多与重庆是友好城市。",
+          "en": "Toronto and Chongqing are sister cities."
+        }
+      }
+    },
+    {
+      "source": "多伦多",
+      "target": "芝加哥",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "多伦多与芝加哥是友好城市。",
+          "en": "Toronto and Chicago are sister cities."
+        }
+      }
+    }
+  ]
+}

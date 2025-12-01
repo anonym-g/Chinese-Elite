@@ -1,0 +1,668 @@
+{
+  "nodes": [
+    {
+      "id": "青蒿素",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "青蒿素",
+          "黄花蒿素"
+        ],
+        "en": [
+          "Artemisinin",
+          "Qinghaosu"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种从黄花蒿中提取的倍半萜内酯化合物，具有高效的抗疟作用。它的发现是20世纪医学的重大突破之一。",
+          "en": "A sesquiterpene lactone compound extracted from the plant Artemisia annua, known for its highly effective antimalarial properties. Its discovery is considered one of the major medical breakthroughs of the 20th century."
+        }
+      }
+    },
+    {
+      "id": "屠呦呦",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "屠呦呦"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1930-12-30 - ",
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国药学家，523项目的核心研究员之一，因在发现和提取青蒿素过程中的关键贡献而获得2011年拉斯克奖和2015年诺贝尔生理学或医学奖。",
+          "en": "A Chinese pharmaceutical chemist and a key researcher in Project 523, she was awarded the 2011 Lasker Award and the 2015 Nobel Prize in Physiology or Medicine for her pivotal contributions to the discovery and extraction of artemisinin."
+        }
+      }
+    },
+    {
+      "id": "523项目",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "523项目",
+          "523课题组"
+        ],
+        "en": [
+          "Project 523"
+        ]
+      },
+      "properties": {
+        "period": "1967-05-23 - ",
+        "description": {
+          "zh-cn": "一项于1967年5月23日启动的中华人民共和国秘密军事科研项目，旨在研发抗疟药物，最终成功发现了青蒿素及其衍生物。",
+          "en": "A secret military scientific research project of the People's Republic of China, launched on May 23, 1967, aimed at developing antimalarial drugs, which ultimately led to the successful discovery of artemisinin and its derivatives."
+        }
+      }
+    },
+    {
+      "id": "黄花蒿",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "黄花蒿"
+        ],
+        "en": [
+          "Artemisia annua"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "菊科蒿属植物，是提取抗疟药物青蒿素的唯一来源。",
+          "en": "A plant in the Asteraceae family, genus Artemisia, which is the sole source for the extraction of the antimalarial drug artemisinin."
+        }
+      }
+    },
+    {
+      "id": "拉斯克临床医学研究奖",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "拉斯克临床医学研究奖",
+          "拉斯克临床医学奖"
+        ],
+        "en": [
+          "Lasker-DeBakey Clinical Medical Research Award"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一项著名的生物医学科学奖项，常被视为诺贝尔奖的“风向标”。",
+          "en": "A prestigious award for biomedical science, often considered a predictor of the Nobel Prize."
+        }
+      }
+    },
+    {
+      "id": "诺贝尔医学奖",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "诺贝尔医学奖"
+        ],
+        "en": [
+          "Nobel Prize in Physiology or Medicine"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "诺贝尔奖的一个奖项，旨在表彰在生理学或医学领域作出重要发现的科学家。",
+          "en": "One of the Nobel Prizes, awarded for outstanding discoveries in the fields of physiology or medicine."
+        }
+      }
+    },
+    {
+      "id": "世界卫生组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "世界卫生组织"
+        ],
+        "en": [
+          "World Health Organization",
+          "WHO"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "联合国属下的专门机构，是国际上最大的政府间卫生组织。",
+          "en": "A specialized agency of the United Nations responsible for international public health."
+        }
+      }
+    },
+    {
+      "id": "疟疾",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "疟疾"
+        ],
+        "en": [
+          "Malaria"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种由疟原虫引起的、通过蚊子传播的寄生虫病，对全球公共卫生构成严重威胁。",
+          "en": "A mosquito-borne infectious disease caused by parasitic protozoans of the Plasmodium type, posing a serious threat to global public health."
+        }
+      }
+    },
+    {
+      "id": "越南战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "越南战争"
+        ],
+        "en": [
+          "Vietnam War"
+        ]
+      },
+      "properties": {
+        "period": "1955 - 1975",
+        "description": {
+          "zh-cn": "发生在东南亚的长期战争，期间北越军队因疟疾困扰向中国求援，促成了523项目的启动。",
+          "en": "A prolonged war in Southeast Asia, during which North Vietnamese forces, plagued by malaria, sought aid from China, leading to the initiation of Project 523."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国革命家、政治家、理论家，时任中国共产党中央委员会主席，下令启动了523项目。",
+          "en": "A Chinese communist revolutionary, politician, and political theorist who, as Chairman of the Central Committee of the Communist Party of China, ordered the launch of Project 523."
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": [
+          "Zhou Enlai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-03-05 - 1976-01-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治家、外交家，时任国务院总理，与毛泽东一同下令启动523项目。",
+          "en": "A Chinese statesman and diplomat who, as Premier of the State Council, jointly ordered the launch of Project 523 with Mao Zedong."
+        }
+      }
+    },
+    {
+      "id": "中医研究院中药研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中医研究院中药研究所",
+          "北京中药所"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "523项目的主要参与单位之一，屠呦呦及其团队在此完成了青蒿素的发现和提取工作。",
+          "en": "One of the main participating institutions in Project 523, where Tu Youyou and her team completed the discovery and extraction of artemisinin."
+        }
+      }
+    },
+    {
+      "id": "葛洪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "葛洪"
+        ],
+        "en": [
+          "Ge Hong"
+        ]
+      },
+      "properties": {
+        "lifetime": "283 - 343",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东晋时期的道教学者、炼丹家和医药学家，其著作《肘后备急方》启发了青蒿素的发现。",
+          "en": "A Daoist scholar, alchemist, and physician of the Eastern Jin dynasty whose work, 'A Handbook of Prescriptions for Emergencies,' inspired the discovery of artemisinin."
+        }
+      }
+    },
+    {
+      "id": "肘后备急方",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "肘后备急方"
+        ],
+        "en": [
+          "A Handbook of Prescriptions for Emergencies"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东晋葛洪编著的古代中医方剂著作，其中关于青蒿“绞汁”抗疟的记载为屠呦呦提供了关键思路。",
+          "en": "An ancient Chinese medical formulary compiled by Ge Hong of the Eastern Jin dynasty, whose description of using 'juice' from qinghao to treat malaria provided a crucial insight for Tu Youyou."
+        }
+      }
+    },
+    {
+      "id": "G.Schmid",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "G.Schmid"
+        ],
+        "en": [
+          "G. Schmid"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗氏公司的研究员，与W.Hofheinz于1982年首次完成了青蒿素的全合成。",
+          "en": "A researcher at Hoffmann-La Roche who, along with W. Hofheinz, first completed the total synthesis of artemisinin in 1982."
+        }
+      }
+    },
+    {
+      "id": "W.Hofheinz",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "W.Hofheinz"
+        ],
+        "en": [
+          "W. Hofheinz"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗氏公司的研究员，与G.Schmid于1982年首次完成了青蒿素的全合成。",
+          "en": "A researcher at Hoffmann-La Roche who, along with G. Schmid, first completed the total synthesis of artemisinin in 1982."
+        }
+      }
+    },
+    {
+      "id": "罗氏",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "罗氏"
+        ],
+        "en": [
+          "Hoffmann-La Roche"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "瑞士跨国医疗保健公司，其研究员于1982年首次完成了青蒿素的全合成。",
+          "en": "A Swiss multinational healthcare company whose researchers first completed the total synthesis of artemisinin in 1982."
+        }
+      }
+    },
+    {
+      "id": "周维善",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周维善"
+        ],
+        "en": [
+          "Zhou Weishan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1923-05-13 - 2012-11-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国有机化学家，中国科学院上海有机化学研究所研究员，参与了青蒿素的结构测定并完成了其全合成。",
+          "en": "A Chinese organic chemist and researcher at the Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, who participated in the structural elucidation of artemisinin and completed its total synthesis."
+        }
+      }
+    },
+    {
+      "id": "中国科学院上海有机化学研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院上海有机化学研究所",
+          "上海有机所"
+        ],
+        "en": [
+          "Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国科学院下属的研究机构，在测定青蒿素化学结构和完成全合成方面发挥了重要作用。",
+          "en": "A research institute under the Chinese Academy of Sciences that played a significant role in determining the chemical structure and completing the total synthesis of artemisinin."
+        }
+      }
+    },
+    {
+      "id": "中国科学院生物物理研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学院生物物理研究所"
+        ],
+        "en": [
+          "Institute of Biophysics, Chinese Academy of Sciences"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国科学院下属的研究机构，通过X射线衍射技术最终确定了青蒿素的晶体结构和绝对构型。",
+          "en": "A research institute under the Chinese Academy of Sciences that definitively determined the crystal structure and absolute configuration of artemisinin using X-ray diffraction techniques."
+        }
+      }
+    },
+    {
+      "id": "山东省中医药研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "山东省中医药研究所"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "523项目的主要研究单位之一，独立分离出有效单体并命名为“黄花蒿素”。",
+          "en": "One of the main research units of Project 523, which independently isolated the active monomer and named it 'Huanghuahaosu'."
+        }
+      }
+    },
+    {
+      "id": "云南省药物研究所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "云南省药物研究所"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "523项目的主要研究单位之一，独立分离出有效单体“苦蒿结晶III”（后称“黄蒿素”）。",
+          "en": "One of the main research units of Project 523, which independently isolated the active monomer 'Kuhao Crystal III' (later known as 'Huanghaosu')."
+        }
+      }
+    },
+    {
+      "id": "广州中医学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广州中医学院"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "523项目的主要研究单位之一，在临床上成功运用青蒿素救治恶性疟和脑型疟患者。",
+          "en": "One of the main research units of Project 523, which successfully used artemisinin to treat patients with malignant and cerebral malaria in clinical settings."
+        }
+      }
+    },
+    {
+      "id": "双氢青蒿素",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "双氢青蒿素",
+          "还原青蒿素"
+        ],
+        "en": [
+          "Dihydroartemisinin"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "青蒿素的还原产物，本身也是一种抗疟药，并且是合成其他高效青蒿素衍生物（如蒿甲醚、青蒿琥酯）的重要中间体。",
+          "en": "A reduction product of artemisinin, which is itself an antimalarial drug and a crucial intermediate for synthesizing other potent artemisinin derivatives like artemether and artesunate."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "黄花蒿",
+      "target": "青蒿素",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "青蒿素是从菊科蒿属植物黄花蒿中分离得到的倍半萜类化合物。",
+          "en": "Artemisinin is a sesquiterpene lactone compound isolated from the plant Artemisia annua of the Asteraceae family."
+        }
+      }
+    },
+    {
+      "source": "523项目",
+      "target": "青蒿素",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1969",
+        "end_date": "1972",
+        "description": {
+          "zh-cn": "在523项目中，包括屠呦呦在内的中国科学家团队发现并从黄花蒿中成功提取了青蒿素。",
+          "en": "During Project 523, a team of Chinese scientists, including Tu Youyou, discovered and successfully extracted artemisinin from Artemisia annua."
+        }
+      }
+    },
+    {
+      "source": "屠呦呦",
+      "target": "青蒿素",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1971-10-04",
+        "description": {
+          "zh-cn": "屠呦呦领导的科研小组在523项目中，从黄花蒿中成功提取了青蒿素，并首次验证了其对鼠疟和猴疟100%的抑制率。",
+          "en": "The research group led by Tu Youyou, as part of Project 523, successfully extracted artemisinin from Artemisia annua and first verified its 100% inhibition rate against rodent and monkey malaria."
+        }
+      }
+    },
+    {
+      "source": "拉斯克临床医学研究奖",
+      "target": "屠呦呦",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2011",
+        "description": {
+          "zh-cn": "因其在发现青蒿素过程中的关键贡献，屠呦呦获得2011年拉斯克临床医学奖。",
+          "en": "For her key contributions in the discovery of artemisinin, Tu Youyou was awarded the 2011 Lasker-DeBakey Clinical Medical Research Award."
+        }
+      }
+    },
+    {
+      "source": "诺贝尔医学奖",
+      "target": "屠呦呦",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2015",
+        "description": {
+          "zh-cn": "因其在发现青蒿素过程中的关键贡献，屠呦呦获得2015年诺贝尔生理学或医学奖。",
+          "en": "For her key contributions in the discovery of artemisinin, Tu Youyou was awarded the 2015 Nobel Prize in Physiology or Medicine."
+        }
+      }
+    },
+    {
+      "source": "青蒿素",
+      "target": "疟疾",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "青蒿素及其衍生物具有高效、速效的抗疟作用，是现今全球范围内治疗恶性疟原虫疟疾的标准方法。",
+          "en": "Artemisinin and its derivatives have potent and rapid antimalarial effects, and are now the standard treatment for Plasmodium falciparum malaria worldwide."
+        }
+      }
+    },
+    {
+      "source": "世界卫生组织",
+      "target": "青蒿素",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2006-01-19",
+        "description": {
+          "zh-cn": "世界卫生组织呼吁停止供应和使用单一青蒿素药物进行治疗，以防止疟原虫对其产生耐药性，并提倡使用青蒿素联合疗法。",
+          "en": "The World Health Organization has called for a halt to the provision and use of single-drug artemisinin for treatment to prevent the development of resistance in malaria parasites, advocating instead for artemisinin-based combination therapies."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "523项目",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1967",
+        "description": {
+          "zh-cn": "为应对越南战争中的疟疾问题，时任中国共产党中央委员会主席毛泽东下令启动抗疟药物研发项目，即523项目。",
+          "en": "To address the malaria problem during the Vietnam War, Mao Zedong, then Chairman of the Central Committee of the Communist Party of China, ordered the launch of the antimalarial drug research and development project, Project 523."
+        }
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "523项目",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1967",
+        "description": {
+          "zh-cn": "为应对越南战争中的疟疾问题，时任国务院总理周恩来与毛泽东一同下令启动抗疟药物研发项目，即523项目。",
+          "en": "To address the malaria problem during the Vietnam War, Zhou Enlai, then Premier of the State Council, along with Mao Zedong, ordered the launch of the antimalarial drug research and development project, Project 523."
+        }
+      }
+    },
+    {
+      "source": "越南战争",
+      "target": "523项目",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1967",
+        "description": {
+          "zh-cn": "由于北越军队在越南战争中受到疟疾的严重困扰并向中国求援，促使中国启动了旨在研发抗疟药物的523项目。",
+          "en": "Due to the severe malaria problem faced by North Vietnamese forces during the Vietnam War and their request for assistance from China, China launched Project 523 to develop antimalarial drugs."
+        }
+      }
+    },
+    {
+      "source": "肘后备急方",
+      "target": "屠呦呦",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1971",
+        "description": {
+          "zh-cn": "《肘后备急方》中关于青蒿“以水二升渍，绞取汁，尽服之”的记载启发了屠呦呦，使其意识到高温可能破坏有效成分，从而改用低温乙醚提取法，取得了突破性进展。",
+          "en": "The description in 'A Handbook of Prescriptions for Emergencies' of using water to soak Qinghao and 'wring out the juice' inspired Tu Youyou to realize that high temperatures might destroy the active components, leading her to switch to a low-temperature ether extraction method, which resulted in a breakthrough."
+        }
+      }
+    },
+    {
+      "source": "屠呦呦",
+      "target": "中医研究院中药研究所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1969-01-21",
+        "position": {
+          "zh-cn": "研究员、科研小组组长",
+          "en": "Researcher, Research Group Leader"
+        },
+        "description": {
+          "zh-cn": "屠呦呦作为中医研究院中药研究所的研究人员，被指派参与523项目，并领导科研小组负责青蒿素的提取和研究工作。",
+          "en": "As a researcher at the Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Tu Youyou was assigned to Project 523 and led the research group responsible for the extraction and study of artemisinin."
+        }
+      }
+    },
+    {
+      "source": "G.Schmid",
+      "target": "青蒿素",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "与W.Hofheinz在罗氏公司首次完成了青蒿素的全合成。",
+          "en": "Along with W. Hofheinz at Hoffmann-La Roche, completed the first total synthesis of artemisinin."
+        }
+      }
+    },
+    {
+      "source": "W.Hofheinz",
+      "target": "青蒿素",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1982",
+        "description": {
+          "zh-cn": "与G.Schmid在罗氏公司首次完成了青蒿素的全合成。",
+          "en": "Along with G. Schmid at Hoffmann-La Roche, completed the first total synthesis of artemisinin."
+        }
+      }
+    },
+    {
+      "source": "周维善",
+      "target": "青蒿素",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在中国科学院上海有机化学研究所，完成了青蒿素的全合成，并参与了其结构测定工作。",
+          "en": "At the Shanghai Institute of Organic Chemistry, completed the total synthesis of artemisinin and participated in its structural elucidation."
+        }
+      }
+    },
+    {
+      "source": "中国科学院上海有机化学研究所",
+      "target": "青蒿素",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1973",
+        "description": {
+          "zh-cn": "协助测定了青蒿素的化学结构，其研究员周维善等人后来完成了青蒿素的全合成。",
+          "en": "Assisted in determining the chemical structure of artemisinin, and its researchers, including Zhou Weishan, later completed its total synthesis."
+        }
+      }
+    },
+    {
+      "source": "中国科学院生物物理研究所",
+      "target": "青蒿素",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1975-12",
+        "description": {
+          "zh-cn": "通过单晶X射线衍射得到了青蒿素的相对构型，并于1979年最终肯定了其绝对构型，为阐明青蒿素结构作出关键贡献。",
+          "en": "Obtained the relative configuration of artemisinin through single-crystal X-ray diffraction and confirmed its absolute configuration in 1979, making a crucial contribution to elucidating its structure."
+        }
+      }
+    },
+    {
+      "source": "青蒿素",
+      "target": "双氢青蒿素",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1975",
+        "description": {
+          "zh-cn": "以硼氢化钠处理青蒿素，其内酯的羰基被还原，生成半缩醛双氢青蒿素。双氢青蒿素是制备其他青蒿素衍生物的重要中间体。",
+          "en": "When artemisinin is treated with sodium borohydride, its lactone carbonyl group is reduced to form the hemiacetal dihydroartemisinin, which is an important intermediate for synthesizing other artemisinin derivatives."
+        }
+      }
+    }
+  ]
+}

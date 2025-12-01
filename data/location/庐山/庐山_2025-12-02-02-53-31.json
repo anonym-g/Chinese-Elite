@@ -1,0 +1,877 @@
+{
+  "nodes": [
+    {
+      "id": "庐山",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "庐山",
+          "匡山",
+          "匡庐"
+        ],
+        "en": [
+          "Mount Lu",
+          "Lushan"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中国江西省九江市",
+          "en": "Jiujiang, Jiangxi, China"
+        },
+        "description": {
+          "zh-cn": "位于中国江西省九江市的著名山脉，是世界文化遗产、世界地质公园和国家5A级旅游景区。以其秀丽的自然风光和深厚的文化、政治历史内涵而闻名，曾是中华民国政府的“夏都”和多次中共中央重要会议的举办地。",
+          "en": "A famous mountain in Jiujiang, Jiangxi, China, designated as a UNESCO World Heritage Site, a Global Geopark, and a National 5A Tourist Attraction. Known for its scenic beauty and profound cultural and political history, it served as the 'summer capital' of the Republic of China and the venue for several important CPC Central Committee meetings."
+        }
+      }
+    },
+    {
+      "id": "司马迁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马迁"
+        ],
+        "en": [
+          "Sima Qian"
+        ]
+      },
+      "properties": {
+        "lifetime": "-0145 - -0086",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国汉代史学家，其著作《史记》中首次记载了“庐山”之名。",
+          "en": "A Chinese historian of the Han dynasty whose work, Records of the Grand Historian, contains the first written record of the name 'Lushan'."
+        }
+      }
+    },
+    {
+      "id": "陶渊明",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陶渊明"
+        ],
+        "en": [
+          "Tao Yuanming"
+        ]
+      },
+      "properties": {
+        "lifetime": "0365 - 0427",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国晋代文学家，曾在庐山隐居，创作了大量田园诗歌。",
+          "en": "A Chinese writer of the Jin dynasty who lived in seclusion on Mount Lu and created a large body of pastoral poetry."
+        }
+      }
+    },
+    {
+      "id": "慧远",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "慧远"
+        ],
+        "en": [
+          "Huiyuan"
+        ]
+      },
+      "properties": {
+        "lifetime": "0334 - 0416",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南北朝时期高僧，在庐山东林寺创立了佛教净土宗。",
+          "en": "An eminent monk of the Southern and Northern Dynasties period who founded the Pure Land school of Buddhism at Donglin Temple on Mount Lu."
+        }
+      }
+    },
+    {
+      "id": "李白",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李白"
+        ],
+        "en": [
+          "Li Bai"
+        ]
+      },
+      "properties": {
+        "lifetime": "0701 - 0762",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国唐代著名诗人，曾多次游览庐山并留下了《望庐山瀑布》等不朽诗篇。",
+          "en": "A famous Tang dynasty poet who visited Mount Lu multiple times and left behind immortal poems such as 'Viewing the Waterfall at Lushan'."
+        }
+      }
+    },
+    {
+      "id": "白居易",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "白居易"
+        ],
+        "en": [
+          "Bai Juyi"
+        ]
+      },
+      "properties": {
+        "lifetime": "0772 - 0846",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国唐代诗人，被贬为江州司马期间在庐山修建草堂，并撰写《庐山草堂记》。",
+          "en": "A Tang dynasty poet who, during his exile as the Sima of Jiangzhou, built a thatched cottage on Mount Lu and wrote the 'Record of the Thatched Cottage on Mount Lu'."
+        }
+      }
+    },
+    {
+      "id": "朱熹",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱熹"
+        ],
+        "en": [
+          "Zhu Xi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1130 - 1200",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国南宋理学家、教育家，重建并主持白鹿洞书院，使其成为理学传播的重要中心。",
+          "en": "A Southern Song dynasty Neo-Confucian philosopher and educator who rebuilt and presided over the White Deer Grotto Academy, making it an important center for the dissemination of Neo-Confucianism."
+        }
+      }
+    },
+    {
+      "id": "白鹿洞书院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "白鹿洞书院"
+        ],
+        "en": [
+          "White Deer Grotto Academy"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "庐山五老峰下",
+          "en": "At the foot of the Five Elder Peaks of Mount Lu"
+        },
+        "description": {
+          "zh-cn": "位于庐山五老峰下的古代教育机构，中国四大书院之首，由南宋理学家朱熹重建后成为理学研究和传播的中心。",
+          "en": "An ancient educational institution located at the foot of Mount Lu's Five Elder Peaks, ranked first among the Four Great Academies of ancient China. It became a center for Neo-Confucian study and dissemination after being rebuilt by the Southern Song scholar Zhu Xi."
+        }
+      }
+    },
+    {
+      "id": "蒋介石",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "蒋介石"
+        ],
+        "en": [
+          "Chiang Kai-shek"
+        ]
+      },
+      "properties": {
+        "lifetime": "1887-10-31 - 1975-04-05",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华民国政治家、军事家，国民政府定庐山为夏都后，常在此处理国事，并于1937年发表抗日演讲。",
+          "en": "A statesman and military leader of the Republic of China who often handled state affairs on Mount Lu after the Nationalist Government designated it as the summer capital, and delivered a speech announcing resistance against Japan there in 1937."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的主要缔造者，曾三次在庐山主持中共中央重要会议，即“庐山会议”。",
+          "en": "The main founder of the Communist Party of China and the People's Republic of China, who presided over three important CPC Central Committee meetings on Mount Lu, known as the 'Lushan Conferences'."
+        }
+      }
+    },
+    {
+      "id": "李德立",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李德立"
+        ],
+        "en": [
+          "Edward Selby Little"
+        ]
+      },
+      "properties": {
+        "lifetime": "1864 - 1939",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国传教士兼商人，于1895年租借庐山牯岭土地，将其开发为西方人的避暑地，对牯岭的现代化建设影响深远。",
+          "en": "A British missionary and businessman who leased land in Guling, Mount Lu, in 1895 and developed it into a summer resort for Westerners, profoundly influencing Guling's modern development."
+        }
+      }
+    },
+    {
+      "id": "牯岭",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "牯岭"
+        ],
+        "en": [
+          "Guling"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "庐山山顶",
+          "en": "On top of Mount Lu"
+        },
+        "description": {
+          "zh-cn": "位于庐山山顶的镇，海拔约1167米，以其西式别墅建筑群和凉爽的气候闻名，是庐山的核心景区和生活区。",
+          "en": "A town located on the summit of Mount Lu at an elevation of about 1167 meters, known for its Western-style villa architecture and cool climate. It is the core scenic and residential area of Lushan."
+        }
+      }
+    },
+    {
+      "id": "国民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民政府"
+        ],
+        "en": [
+          "Nationalist Government"
+        ]
+      },
+      "properties": {
+        "period": "1925 - 1948",
+        "description": {
+          "zh-cn": "中华民国的训政时期政府，定都南京后，将庐山设为“夏都”。",
+          "en": "The government of the Republic of China during the tutelage period. After establishing its capital in Nanjing, it designated Mount Lu as the 'Summer Capital'."
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": [
+          "Zhou Enlai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-03-05 - 1976-01-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国首任国务院总理，曾于1937年代表中国共产党上庐山与蒋介石谈判合作抗日事宜。",
+          "en": "The first Premier of the People's Republic of China, who, on behalf of the Communist Party of China, went to Mount Lu in 1937 to negotiate with Chiang Kai-shek on cooperation in the war against Japan."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党。其领导人周恩来曾在庐山与国民党谈判，毛泽东则在此主持了三次重要的中央会议。",
+          "en": "The ruling political party of China. Its leader Zhou Enlai negotiated with the Kuomintang on Mount Lu, and Mao Zedong presided over three important Central Committee meetings there."
+        }
+      }
+    },
+    {
+      "id": "中国抗日战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "中国抗日战争",
+          "全面抗战"
+        ],
+        "en": [
+          "Second Sino-Japanese War"
+        ]
+      },
+      "properties": {
+        "period": "1937-07-07 - 1945-09-02",
+        "description": {
+          "zh-cn": "20世纪30至40年代中国抵抗日本侵略的全面战争。蒋介石在庐山发表的演讲标志着全面抗战的开始。",
+          "en": "The full-scale war of resistance fought by China against Japanese aggression in the 1930s and 1940s. Chiang Kai-shek's speech at Lushan marked the beginning of full-scale resistance."
+        }
+      }
+    },
+    {
+      "id": "庐山会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "庐山会议"
+        ],
+        "en": [
+          "Lushan Conference"
+        ]
+      },
+      "properties": {
+        "period": [
+          "1959",
+          "1961",
+          "1970"
+        ],
+        "description": {
+          "zh-cn": "指1959年、1961年和1970年由毛泽东在庐山主持的三次中国共产党中央委员会重要会议，对中国现代政治史产生了重大影响。",
+          "en": "Refers to three important meetings of the Central Committee of the Communist Party of China held on Mount Lu in 1959, 1961, and 1970, presided over by Mao Zedong, which had a significant impact on modern Chinese political history."
+        }
+      }
+    },
+    {
+      "id": "王亚樵",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王亚樵"
+        ],
+        "en": [
+          "Wang Yaqiao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1889 - 1936-10-20",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "民国时期著名刺客，1931年在庐山策划并实施了对蒋介石的未遂刺杀行动。",
+          "en": "A famous assassin during the Republican era who planned and executed a failed assassination attempt on Chiang Kai-shek at Mount Lu in 1931."
+        }
+      }
+    },
+    {
+      "id": "日军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日军"
+        ],
+        "en": [
+          "Imperial Japanese Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "旧日本帝国的陆军。在抗日战争期间，于1938年围攻庐山，并于1939年4月占领。",
+          "en": "The army of the former Empire of Japan. During the Second Sino-Japanese War, it besieged Mount Lu in 1938 and occupied it in April 1939."
+        }
+      }
+    },
+    {
+      "id": "冈村宁次",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冈村宁次"
+        ],
+        "en": [
+          "Yasuji Okamura"
+        ]
+      },
+      "properties": {
+        "lifetime": "1884-05-15 - 1966-09-02",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "旧日本帝国陆军大将，曾指挥日军进攻并占领庐山。",
+          "en": "A general in the Imperial Japanese Army who commanded the Japanese forces that attacked and occupied Mount Lu."
+        }
+      }
+    },
+    {
+      "id": "庐山保卫战",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "庐山保卫战"
+        ],
+        "en": [
+          "Defense of Lushan"
+        ]
+      },
+      "properties": {
+        "period": "1938-07 - 1939-04",
+        "description": {
+          "zh-cn": "抗日战争期间，中国军队为保卫庐山与日军进行的长达九个月的战斗。",
+          "en": "A nine-month-long battle fought by Chinese forces against the Japanese army to defend Mount Lu during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "国民革命军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军"
+        ],
+        "en": [
+          "National Revolutionary Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国在1925年至1947年期间的国民军队。其留守部队在庐山与日军进行了长达九个月的保卫战。",
+          "en": "The national army of the Republic of China from 1925 to 1947. Its garrison forces fought a nine-month defensive battle against the Japanese army on Mount Lu."
+        }
+      }
+    },
+    {
+      "id": "庐山恋",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "庐山恋"
+        ],
+        "en": [
+          "Love on Lushan"
+        ]
+      },
+      "properties": {
+        "period": "1980",
+        "description": {
+          "zh-cn": "1980年上映的中国电影，全片在庐山取景。该片极大地提升了庐山的知名度，并促进了其旅游业的迅速发展。",
+          "en": "A Chinese film released in 1980, shot entirely on location at Mount Lu. The film greatly enhanced the fame of Lushan and spurred the rapid development of its tourism industry."
+        }
+      }
+    },
+    {
+      "id": "联合国教科文组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "联合国教科文组织"
+        ],
+        "en": [
+          "UNESCO"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "联合国专门机构之一，于1996年将庐山列为世界文化遗产，并于2002年批准其为首批世界地质公园。",
+          "en": "A specialized agency of the United Nations, which inscribed Mount Lu as a World Heritage Site in 1996 and approved it as one of the first Global Geoparks in 2002."
+        }
+      }
+    },
+    {
+      "id": "胡适",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡适"
+        ],
+        "en": [
+          "Hu Shih"
+        ]
+      },
+      "properties": {
+        "lifetime": "1891-12-17 - 1962-02-24",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国近代著名学者、思想家。他精辟地总结了庐山的三大文化史迹：慧远的东林、朱熹的白鹿洞和西方的牯岭。",
+          "en": "A prominent modern Chinese scholar and thinker. He succinctly summarized the three major cultural historical landmarks of Mount Lu: Huiyuan's Donglin Temple, Zhu Xi's White Deer Grotto Academy, and the Western-influenced Guling."
+        }
+      }
+    },
+    {
+      "id": "陆修静",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陆修静"
+        ],
+        "en": [
+          "Lu Xiujing"
+        ]
+      },
+      "properties": {
+        "lifetime": "0406 - 0477",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "南朝时期著名道士，曾在庐山修道，对庐山道教的发展有重要贡献。",
+          "en": "A famous Taoist of the Southern Dynasties period who practiced on Mount Lu and made significant contributions to the development of Taoism there."
+        }
+      }
+    },
+    {
+      "id": "胡先骕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡先骕"
+        ],
+        "en": [
+          "Hu Hsen-hsu"
+        ]
+      },
+      "properties": {
+        "lifetime": "1894-05-24 - 1968-07-16",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国植物学家，于1934年共同创建了庐山植物园。",
+          "en": "A Chinese botanist who co-founded the Lushan Botanical Garden in 1934."
+        }
+      }
+    },
+    {
+      "id": "秦仁昌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "秦仁昌"
+        ],
+        "en": [
+          "Ching Ren-chang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-02-15 - 1986-07-22",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国植物学家，于1934年共同创建了庐山植物园。",
+          "en": "A Chinese botanist who co-founded the Lushan Botanical Garden in 1934."
+        }
+      }
+    },
+    {
+      "id": "陈封怀",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈封怀"
+        ],
+        "en": [
+          "Chen Fenghuai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1900-06-12 - 1993-08-18",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国植物学家，于1934年共同创建了庐山植物园。",
+          "en": "A Chinese botanist who co-founded the Lushan Botanical Garden in 1934."
+        }
+      }
+    },
+    {
+      "id": "庐山植物园",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "庐山植物园"
+        ],
+        "en": [
+          "Lushan Botanical Garden"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国第一座亚高山植物园，1934年由胡先骕、秦仁昌、陈封怀三位植物学家创建。",
+          "en": "China's first subalpine botanical garden, founded in 1934 by botanists Hu Xiansu, Qin Renchang, and Chen Fenghuai."
+        }
+      }
+    },
+    {
+      "id": "仙人洞",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "仙人洞",
+          "千佛洞"
+        ],
+        "en": [
+          "Xianren Cave",
+          "Immortal's Cave"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "庐山著名岩洞景点，传为道教仙人吕洞宾修炼之所。毛泽东的诗句“天生一个仙人洞”使其名声大噪。",
+          "en": "A famous cave attraction on Mount Lu, legendary as the cultivation site of the Taoist immortal Lü Dongbin. Its fame was greatly enhanced by Mao Zedong's poetic line 'Nature has superbly created an immortal's cave'."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "司马迁",
+      "target": "庐山",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "-0126",
+        "description": {
+          "zh-cn": "公元前126年，司马迁游览庐山，并在其著作《史记》中首次以文字记录“庐山”之名，确立了其历史地位。",
+          "en": "In 126 BC, Sima Qian visited Mount Lu and recorded its name in writing for the first time in his work 'Records of the Grand Historian', establishing its historical name."
+        }
+      }
+    },
+    {
+      "source": "陶渊明",
+      "target": "庐山",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "0405",
+        "description": {
+          "zh-cn": "405年，陶渊明于庐山隐居，创作了大量田园诗，深刻地塑造了庐山的文化形象。",
+          "en": "In 405, Tao Yuanming lived in seclusion on Mount Lu, creating a large body of pastoral poetry that profoundly shaped the cultural image of the mountain."
+        }
+      }
+    },
+    {
+      "source": "慧远",
+      "target": "佛教",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "高僧慧远在庐山东林寺首创净土宗，开创了中国化佛教，代表了佛教“中国化”的大趋势。",
+          "en": "The eminent monk Huiyuan founded the Pure Land school at Donglin Temple on Mount Lu, initiating Chinese Buddhism and representing the major trend of the 'Sinicization' of Buddhism."
+        }
+      }
+    },
+    {
+      "source": "朱熹",
+      "target": "白鹿洞书院",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1179",
+        "description": {
+          "zh-cn": "1179年，时任南康军的朱熹重建并主持白鹿洞书院，制定学规，亲自讲学，使其成为宋明理学的重要传播中心。",
+          "en": "In 1179, Zhu Xi, then prefect of Nankang, rebuilt and presided over the White Deer Grotto Academy, establishing its regulations and teaching personally, making it an important center for the dissemination of Neo-Confucianism."
+        }
+      }
+    },
+    {
+      "source": "李德立",
+      "target": "牯岭",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1895",
+        "description": {
+          "zh-cn": "自1895年起，英国商人李德立通过租借土地，对牯岭进行了大规模的规划和建设，将其开发为西式避暑地，奠定了今日牯岭镇的雏形。",
+          "en": "Starting in 1895, the British businessman Edward Selby Little leased land and carried out large-scale planning and construction in Guling, developing it into a Western-style summer resort and laying the foundation for the modern town of Guling."
+        }
+      }
+    },
+    {
+      "source": "国民政府",
+      "target": "庐山",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1927",
+        "description": {
+          "zh-cn": "国民政府定都南京后将庐山设为“夏都”，使其在夏季成为中国的政治中心之一。",
+          "en": "After establishing its capital in Nanjing, the Nationalist Government designated Mount Lu as the 'Summer Capital', making it one of China's political centers during the summer."
+        }
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "蒋介石",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1937-06",
+        "description": {
+          "zh-cn": "1937年6月，周恩来代表中国共产党上庐山与蒋介石进行谈判，商讨国共合作共同抗日事宜。",
+          "en": "In June 1937, Zhou Enlai, representing the Communist Party of China, went to Mount Lu to negotiate with Chiang Kai-shek regarding Kuomintang-Communist cooperation for resisting Japan."
+        }
+      }
+    },
+    {
+      "source": "蒋介石",
+      "target": "中国抗日战争",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1937-07",
+        "description": {
+          "zh-cn": "1937年7月，蒋介石在庐山发表“对卢沟桥事件之表示”演讲，宣告中国进入全面抗战时期。",
+          "en": "In July 1937, Chiang Kai-shek delivered a speech on the Marco Polo Bridge Incident at Lushan, declaring the beginning of China's full-scale War of Resistance against Japan."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "庐山会议",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": [
+          "1959-07-02",
+          "1961-08",
+          "1970-08"
+        ],
+        "description": {
+          "zh-cn": "毛泽东曾三次在庐山主持中共中央的重要会议（1959年八届八中全会、1961年中央工作会议、1970年九届二中全会），对中国政治走向产生深远影响。",
+          "en": "Mao Zedong presided over three important CPC Central Committee meetings on Mount Lu (the 8th Plenary Session of the 8th Central Committee in 1959, the Central Work Conference in 1961, and the 2nd Plenary Session of the 9th Central Committee in 1970), which had a profound impact on China's political direction."
+        }
+      }
+    },
+    {
+      "source": "王亚樵",
+      "target": "蒋介石",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1931-06",
+        "description": {
+          "zh-cn": "1931年6月，王亚樵策划并派人在庐山行刺蒋介石，但行动失败。",
+          "en": "In June 1931, Wang Yaqiao planned and dispatched agents to assassinate Chiang Kai-shek on Mount Lu, but the attempt failed."
+        }
+      }
+    },
+    {
+      "source": "冈村宁次",
+      "target": "日军",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "冈村宁次作为日军司令官，调集重兵指挥了对庐山的进攻。",
+          "en": "As a Japanese army commander, Yasuji Okamura mobilized substantial forces to direct the attack on Mount Lu."
+        }
+      }
+    },
+    {
+      "source": "日军",
+      "target": "庐山",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1939-04-18",
+        "description": {
+          "zh-cn": "经过长达九个月的围攻，日军于1939年4月18日占领庐山（牯牛岭），中断了其作为中国政治中心的功能。",
+          "en": "After a nine-month siege, the Japanese army occupied Mount Lu (Guniuling) on April 18, 1939, interrupting its function as a Chinese political center."
+        }
+      }
+    },
+    {
+      "source": "国民革命军",
+      "target": "日军",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "1938-07 - 1939-04",
+        "description": {
+          "zh-cn": "在庐山保卫战期间，国民革命军留守部队与进攻的日军进行了长达九个月的激烈战斗。",
+          "en": "During the Defense of Lushan, the garrison troops of the National Revolutionary Army engaged in intense fighting with the invading Japanese forces for nine months."
+        }
+      }
+    },
+    {
+      "source": "庐山恋",
+      "target": "庐山",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1980",
+        "description": {
+          "zh-cn": "1980年电影《庐山恋》的公映，极大地提升了庐山的知名度，迅速推动了当地旅游业的发展。",
+          "en": "The public release of the 1980 film 'Love on Lushan' greatly enhanced the fame of Mount Lu and rapidly promoted the development of its local tourism industry."
+        }
+      }
+    },
+    {
+      "source": "联合国教科文组织",
+      "target": "庐山",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1996-12",
+        "description": {
+          "zh-cn": "1996年12月，联合国教科文组织将庐山核准为“世界文化景观”，列入《世界遗产名录》，极大地提升了其国际地位。",
+          "en": "In December 1996, UNESCO approved Mount Lu as a 'World Cultural Landscape' and inscribed it on the 'World Heritage List', significantly elevating its international status."
+        }
+      }
+    },
+    {
+      "source": "慧远",
+      "target": "陶渊明",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "根据宋代绘画《虎溪三笑图》所描绘的文化传说，佛教大师慧远、道教大师陆修静与文学家陶渊明曾在庐山相会，象征儒、释、道三家的和谐交流。",
+          "en": "According to the cultural legend depicted in the Song dynasty painting 'Three Laughers of the Tiger Stream', the Buddhist master Huiyuan, the Taoist master Lu Xiujing, and the writer Tao Yuanming met on Mount Lu, symbolizing the harmonious exchange between Confucianism, Buddhism, and Taoism."
+        }
+      }
+    },
+    {
+      "source": "慧远",
+      "target": "陆修静",
+      "type": "MET_WITH",
+      "properties": {
+        "description": {
+          "zh-cn": "根据宋代绘画《虎溪三笑图》所描绘的文化传说，佛教大师慧远、道教大师陆修静与文学家陶渊明曾在庐山相会，象征儒、释、道三家的和谐交流。",
+          "en": "According to the cultural legend depicted in the Song dynasty painting 'Three Laughers of the Tiger Stream', the Buddhist master Huiyuan, the Taoist master Lu Xiujing, and the writer Tao Yuanming met on Mount Lu, symbolizing the harmonious exchange between Confucianism, Buddhism, and Taoism."
+        }
+      }
+    },
+    {
+      "source": "胡先骕",
+      "target": "庐山植物园",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1934",
+        "description": {
+          "zh-cn": "1934年，植物学家胡先骕与秦仁昌、陈封怀共同创建了庐山植物园。",
+          "en": "In 1934, botanist Hu Xiansu, along with Qin Renchang and Chen Fenghuai, co-founded the Lushan Botanical Garden."
+        }
+      }
+    },
+    {
+      "source": "秦仁昌",
+      "target": "庐山植物园",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1934",
+        "description": {
+          "zh-cn": "1934年，植物学家秦仁昌与胡先骕、陈封怀共同创建了庐山植物园。",
+          "en": "In 1934, botanist Qin Renchang, along with Hu Xiansu and Chen Fenghuai, co-founded the Lushan Botanical Garden."
+        }
+      }
+    },
+    {
+      "source": "陈封怀",
+      "target": "庐山植物园",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1934",
+        "description": {
+          "zh-cn": "1934年，植物学家陈封怀与胡先骕、秦仁昌共同创建了庐山植物园。",
+          "en": "In 1934, botanist Chen Fenghuai, along with Hu Xiansu and Qin Renchang, co-founded the Lushan Botanical Garden."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "仙人洞",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1961",
+        "description": {
+          "zh-cn": "1961年，毛泽东的诗句“天生一个仙人洞”使得仙人洞的知名度大增。",
+          "en": "In 1961, Mao Zedong's poetic line 'Nature has superbly created an immortal's cave' greatly increased the fame of the Xianren Cave."
+        }
+      }
+    }
+  ]
+}

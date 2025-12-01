@@ -1,0 +1,601 @@
+{
+  "nodes": [
+    {
+      "id": "新教",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "新教",
+          "基督新教",
+          "抗议派",
+          "抗罗宗",
+          "归正教",
+          "复原教",
+          "更正教",
+          "誓反教"
+        ],
+        "en": [
+          "Protestantism"
+        ]
+      },
+      "properties": {
+        "period": "1517 - ",
+        "description": {
+          "zh-cn": "基督新教是西方基督教中天主教会以外之宗派或教会的统称，源于16世纪的宗教改革运动。其核心教义包括“因信称义”、“五个唯独”等，强调《圣经》为信仰唯一权威，与天主教会、东正教会并列为基督宗教三大分支。",
+          "en": "Protestantism is a collective term for Christian denominations or churches in Western Christianity outside the Catholic Church, originating from the 16th-century Protestant Reformation. Its core doctrines include 'justification by faith' and the 'Five solae', emphasizing the Bible as the sole authority of faith. It stands alongside Catholicism and Eastern Orthodoxy as one of the three major branches of Christianity."
+        }
+      }
+    },
+    {
+      "id": "马丁·路德",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马丁·路德"
+        ],
+        "en": [
+          "Martin Luther"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "16世纪神学家、神学教授兼天主教神父，是宗教改革的主要发起人之一。他撰写《九十五条论纲》批判赎罪券，引发了德意志宗教改革运动。",
+          "en": "A 16th-century theologian, professor of theology, and Catholic priest, he was one of the main initiators of the Protestant Reformation. He wrote the 'Ninety-five Theses' criticizing indulgences, which sparked the German Reformation."
+        }
+      }
+    },
+    {
+      "id": "约翰·加尔文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "约翰·加尔文",
+          "加尔文"
+        ],
+        "en": [
+          "John Calvin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "16世纪神学家，宗教改革的领导人之一，其思想对归正宗的形成有深远影响。",
+          "en": "A 16th-century theologian and one of the leaders of the Protestant Reformation, whose ideas had a profound influence on the formation of the Reformed tradition."
+        }
+      }
+    },
+    {
+      "id": "乌利希·慈运理",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "乌利希·慈运理"
+        ],
+        "en": [
+          "Huldrych Zwingli"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "16世纪神学家，宗教改革的领导人之一。",
+          "en": "A 16th-century theologian and one of the leaders of the Protestant Reformation."
+        }
+      }
+    },
+    {
+      "id": "宗教改革",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "宗教改革"
+        ],
+        "en": [
+          "Protestant Reformation"
+        ]
+      },
+      "properties": {
+        "period": "1517 - 1648",
+        "description": {
+          "zh-cn": "16世纪在欧洲爆发的一场基督教改革运动，由马丁·路德等人领导，旨在改革天主教会的教义和实践，最终导致了新教的诞生。",
+          "en": "A Christian reform movement that broke out in Europe in the 16th century, led by figures like Martin Luther, aimed at reforming the doctrines and practices of the Catholic Church, which ultimately led to the birth of Protestantism."
+        }
+      }
+    },
+    {
+      "id": "天主教会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "天主教会",
+          "旧教"
+        ],
+        "en": [
+          "Catholic Church"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "基督宗教的主要分支之一，以教宗为最高领导。宗教改革运动主要针对当时天主教会的腐败和教义问题。",
+          "en": "One of the major branches of Christianity, led by the Pope. The Protestant Reformation primarily targeted the corruption and doctrinal issues of the Catholic Church at that time."
+        }
+      }
+    },
+    {
+      "id": "查理五世 (神圣罗马帝国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "查理五世 (神圣罗马帝国)",
+          "查理五世"
+        ],
+        "en": [
+          "Charles V, Holy Roman Emperor"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "神圣罗马帝国皇帝，在宗教改革期间持反对立场，镇压改革势力并宣布马丁·路德为异端。",
+          "en": "Holy Roman Emperor who opposed the Protestant Reformation, suppressed reformist forces, and declared Martin Luther a heretic."
+        }
+      }
+    },
+    {
+      "id": "第二次施派尔会议",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "第二次施派尔会议"
+        ],
+        "en": [
+          "Diet of Speyer (1529)"
+        ]
+      },
+      "properties": {
+        "period": "1529 - 1529",
+        "location": {
+          "zh-cn": "施派尔",
+          "en": "Speyer"
+        },
+        "description": {
+          "zh-cn": "1529年神圣罗马帝国召开的帝国议会。会上查理五世推翻了对路德宗的容忍政策，引发改革派诸侯和城市代表提出《抗议》，“抗议派”（Protestant）一词便源于此事件。",
+          "en": "An Imperial Diet of the Holy Roman Empire convened in 1529. At the diet, Charles V overturned the policy of tolerance towards Lutheranism, prompting reformist princes and city representatives to issue a Protestation, from which the term 'Protestant' originates."
+        }
+      }
+    },
+    {
+      "id": "九十五条论纲",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "九十五条论纲",
+          "关于赎罪券的意义及效果的见解"
+        ],
+        "en": [
+          "The Ninety-five Theses",
+          "Disputation on the Power and Efficacy of Indulgences"
+        ]
+      },
+      "properties": {
+        "period": "1517-10-31 - ",
+        "description": {
+          "zh-cn": "由马丁·路德撰写的辩论提纲，主要针对当时天主教会滥发赎罪券的问题。该文件的发表被认为是德意志宗教改革的开端。",
+          "en": "A list of propositions for an academic disputation written by Martin Luther, primarily targeting the issue of the sale of indulgences by the Catholic Church. Its publication is considered the beginning of the German Reformation."
+        }
+      }
+    },
+    {
+      "id": "德意志宗教改革",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "德意志宗教改革"
+        ],
+        "en": [
+          "German Reformation"
+        ]
+      },
+      "properties": {
+        "period": "1517 - ",
+        "location": {
+          "zh-cn": "德意志",
+          "en": "Germany"
+        },
+        "description": {
+          "zh-cn": "始于1517年，由马丁·路德在德意志地区发起的宗教改革运动，是整个欧洲宗教改革的核心部分。",
+          "en": "A religious reformation movement initiated by Martin Luther in the German territories starting in 1517, forming the core of the broader European Reformation."
+        }
+      }
+    },
+    {
+      "id": "良十世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "良十世"
+        ],
+        "en": [
+          "Pope Leo X"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "罗马天主教会教宗，在位期间纵容赎罪券的滥发，并于1520年发布上谕宣告马丁·路德为异端，次年将其开除教籍。",
+          "en": "Pope of the Roman Catholic Church, during whose pontificate the sale of indulgences became widespread. He issued a papal bull in 1520 declaring Martin Luther a heretic and excommunicated him the following year."
+        }
+      }
+    },
+    {
+      "id": "沃木斯议会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "沃木斯议会"
+        ],
+        "en": [
+          "Diet of Worms"
+        ]
+      },
+      "properties": {
+        "period": "1521-04 - 1521-04",
+        "location": {
+          "zh-cn": "沃木斯",
+          "en": "Worms"
+        },
+        "description": {
+          "zh-cn": "1521年神圣罗马帝国在沃木斯召开的帝国议会，马丁·路德在此受审并拒绝撤回其主张。",
+          "en": "An imperial diet of the Holy Roman Empire held in Worms in 1521, where Martin Luther was examined and refused to recant his views."
+        }
+      }
+    },
+    {
+      "id": "腓特烈三世 (神圣罗马帝国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "腓特烈三世 (神圣罗马帝国)",
+          "腓特烈三世"
+        ],
+        "en": [
+          "Frederick III, Elector of Saxony"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "萨克森选侯，在沃木斯议会后保护了马丁·路德，安排其在瓦尔特堡的城堡中避难。",
+          "en": "Elector of Saxony who protected Martin Luther after the Diet of Worms, arranging for him to take refuge in Wartburg Castle."
+        }
+      }
+    },
+    {
+      "id": "罗马书",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "罗马书"
+        ],
+        "en": [
+          "Epistle to the Romans"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "《圣经·新约》中的一卷书。马丁·路德在钻研此书时领会到“因信称义”的教义，成为其神学思想的核心。",
+          "en": "A book in the New Testament of the Bible. While studying this book, Martin Luther came to understand the doctrine of 'justification by faith', which became the core of his theological thought."
+        }
+      }
+    },
+    {
+      "id": "亨利八世",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "亨利八世"
+        ],
+        "en": [
+          "Henry VIII"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国国王，于1534年带领当地教会脱离天主教会，发起了英格兰宗教改革。",
+          "en": "King of England who led the local church to break away from the Catholic Church in 1534, initiating the English Reformation."
+        }
+      }
+    },
+    {
+      "id": "英格兰宗教改革",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "英格兰宗教改革"
+        ],
+        "en": [
+          "English Reformation"
+        ]
+      },
+      "properties": {
+        "period": "1534 - ",
+        "location": {
+          "zh-cn": "英格兰",
+          "en": "England"
+        },
+        "description": {
+          "zh-cn": "16世纪英国的宗教改革运动，由国王亨利八世领导，使英格兰教会脱离了罗马教廷的管辖。",
+          "en": "The 16th-century religious reform movement in England, led by King Henry VIII, which resulted in the Church of England breaking away from the authority of the papacy in Rome."
+        }
+      }
+    },
+    {
+      "id": "圣公会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圣公会",
+          "圣公宗"
+        ],
+        "en": [
+          "Anglican Communion"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "源于英格兰宗教改革的基督教宗派，是普世圣公宗的母会。",
+          "en": "A Christian denomination originating from the English Reformation, it is the mother church of the worldwide Anglican Communion."
+        }
+      }
+    },
+    {
+      "id": "威登堡大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "威登堡大学"
+        ],
+        "en": [
+          "University of Wittenberg"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "维滕贝格",
+          "en": "Wittenberg"
+        },
+        "description": {
+          "zh-cn": "德国的一所大学，马丁·路德曾在此担任神学教授。",
+          "en": "A university in Germany where Martin Luther served as a professor of theology."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "宗教改革",
+      "target": "新教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1517",
+        "description": {
+          "zh-cn": "新教是源于16世纪神学家马丁·路德、约翰·加尔文、乌利希·慈运理等人所领导的宗教改革运动。",
+          "en": "Protestantism originated from the 16th-century Reformation led by theologians such as Martin Luther, John Calvin, and Huldrych Zwingli."
+        }
+      }
+    },
+    {
+      "source": "马丁·路德",
+      "target": "宗教改革",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1517",
+        "description": {
+          "zh-cn": "马丁·路德是宗教改革运动的主要领导人之一。",
+          "en": "Martin Luther was one of the main leaders of the Protestant Reformation."
+        }
+      }
+    },
+    {
+      "source": "约翰·加尔文",
+      "target": "宗教改革",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "约翰·加尔文是宗教改革运动的领导人之一。",
+          "en": "John Calvin was one of the leaders of the Protestant Reformation."
+        }
+      }
+    },
+    {
+      "source": "乌利希·慈运理",
+      "target": "宗教改革",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "乌利希·慈运理是宗教改革运动的领导人之一。",
+          "en": "Huldrych Zwingli was one of the leaders of the Protestant Reformation."
+        }
+      }
+    },
+    {
+      "source": "新教",
+      "target": "天主教会",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1517",
+        "description": {
+          "zh-cn": "新教的形成源于对天主教会教义和实践的抗议与改革，其核心教义否定了天主教的教皇制和圣传等权威。",
+          "en": "The formation of Protestantism stemmed from protest and reform against the doctrines and practices of the Catholic Church, with its core tenets rejecting authorities such as the papacy and sacred tradition."
+        }
+      }
+    },
+    {
+      "source": "马丁·路德",
+      "target": "九十五条论纲",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1517-10-31",
+        "description": {
+          "zh-cn": "马丁·路德于1517年10月31日撰写并发表了《九十五条论纲》，批判赎罪券。",
+          "en": "Martin Luther wrote and published the Ninety-five Theses on October 31, 1517, criticizing indulgences."
+        }
+      }
+    },
+    {
+      "source": "九十五条论纲",
+      "target": "德意志宗教改革",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1517-10-31",
+        "description": {
+          "zh-cn": "《九十五条论纲》的发表掀起了影响深远的德意志宗教改革运动。",
+          "en": "The publication of the Ninety-five Theses sparked the far-reaching German Reformation."
+        }
+      }
+    },
+    {
+      "source": "良十世",
+      "target": "马丁·路德",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1520-06-15",
+        "end_date": "1521-01-03",
+        "description": {
+          "zh-cn": "教宗良十世于1520年6月15日发布上谕宣告路德为异端，并于1521年1月3日正式将其处以破门律，开除教籍。",
+          "en": "Pope Leo X issued a papal bull on June 15, 1520, declaring Luther a heretic, and formally excommunicated him on January 3, 1521."
+        }
+      }
+    },
+    {
+      "source": "查理五世 (神圣罗马帝国)",
+      "target": "马丁·路德",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1521-04",
+        "description": {
+          "zh-cn": "在沃木斯议会后，神圣罗马皇帝查理五世宣布马丁·路德为异端，并向其下达通缉令。",
+          "en": "After the Diet of Worms, Holy Roman Emperor Charles V declared Martin Luther a heretic and issued a warrant for his arrest."
+        }
+      }
+    },
+    {
+      "source": "查理五世 (神圣罗马帝国)",
+      "target": "宗教改革",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1529",
+        "description": {
+          "zh-cn": "查理五世在第二次施派尔会议上镇压宗教改革势力。",
+          "en": "Charles V suppressed the forces of the Reformation at the Second Diet of Speyer."
+        }
+      }
+    },
+    {
+      "source": "腓特烈三世 (神圣罗马帝国)",
+      "target": "马丁·路德",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1521-05",
+        "description": {
+          "zh-cn": "萨克森选侯腓特烈三世在沃木斯议会后安排马丁·路德在瓦尔特堡的城堡中避难，对其提供了关键保护。",
+          "en": "Frederick III, Elector of Saxony, provided crucial protection to Martin Luther by arranging for him to take refuge in Wartburg Castle after the Diet of Worms."
+        }
+      }
+    },
+    {
+      "source": "罗马书",
+      "target": "马丁·路德",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1515",
+        "description": {
+          "zh-cn": "马丁·路德在约1515年教授《圣经》时，从钻研《罗马书》中领会到“因信称义”的教义，这成为宗教改革的核心思想。",
+          "en": "Around 1515, while teaching the Bible, Martin Luther came to understand the doctrine of 'justification by faith' from his study of the Epistle to the Romans, which became a core idea of the Reformation."
+        }
+      }
+    },
+    {
+      "source": "第二次施派尔会议",
+      "target": "新教",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1529",
+        "description": {
+          "zh-cn": "在第二次施派尔会议上，改革派因宣读《抗议》文件而被称作“抗议派”（Protestant），此事件直接催生了“新教”这一名称，并强化了其身份认同。",
+          "en": "At the Second Diet of Speyer, the reformers were called 'Protestants' for reading the Protestation, an event that directly gave rise to the name 'Protestantism' and strengthened its identity."
+        }
+      }
+    },
+    {
+      "source": "亨利八世",
+      "target": "英格兰宗教改革",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1534",
+        "description": {
+          "zh-cn": "英国国王亨利八世于1534年领导当地教会脱离天主教会，发起了英格兰宗教改革。",
+          "en": "King Henry VIII of England led the local church to break away from the Catholic Church in 1534, initiating the English Reformation."
+        }
+      }
+    },
+    {
+      "source": "英格兰宗教改革",
+      "target": "圣公会",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1534",
+        "description": {
+          "zh-cn": "英格兰宗教改革导致了英格兰教会（即后来的圣公会）从罗马教廷独立出来。",
+          "en": "The English Reformation led to the independence of the Church of England (later the Anglican Communion) from the See of Rome."
+        }
+      }
+    },
+    {
+      "source": "马丁·路德",
+      "target": "天主教会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1505",
+        "end_date": "1521-01-03",
+        "position": {
+          "zh-cn": "神父",
+          "en": "Priest"
+        },
+        "description": {
+          "zh-cn": "马丁·路德于1505年进入修道院，曾是天主教会的神父，直到1521年被开除教籍。",
+          "en": "Martin Luther entered a monastery in 1505 and was a Catholic priest until he was excommunicated in 1521."
+        }
+      }
+    },
+    {
+      "source": "马丁·路德",
+      "target": "威登堡大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "圣经教授",
+          "en": "Professor of Bible studies"
+        },
+        "description": {
+          "zh-cn": "马丁·路德曾在威登堡大学担任教授，讲授圣经。",
+          "en": "Martin Luther served as a professor at the University of Wittenberg, teaching the Bible."
+        }
+      }
+    },
+    {
+      "source": "沃木斯议会",
+      "target": "马丁·路德",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1521-04",
+        "description": {
+          "zh-cn": "马丁·路德在沃木斯议会中受审，因拒绝撤回其宗教改革主张而被定罪。",
+          "en": "Martin Luther was tried at the Diet of Worms and condemned for refusing to recant his Reformation views."
+        }
+      }
+    }
+  ]
+}

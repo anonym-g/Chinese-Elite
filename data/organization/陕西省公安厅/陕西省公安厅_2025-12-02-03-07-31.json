@@ -1,0 +1,232 @@
+{
+  "nodes": [
+    {
+      "id": "陕西省公安厅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "陕西省公安厅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "陕西省",
+          "en": "Shaanxi Province"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国陕西省人民政府的组成部门，主管全省公安工作。",
+          "en": "A component department of the People's Government of Shaanxi Province, People's Republic of China, responsible for public security work throughout the province."
+        }
+      }
+    },
+    {
+      "id": "戴彬彬",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "戴彬彬"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，现任陕西省公安厅厅长。",
+          "en": "Chinese politician, currently serving as the Director of the Shaanxi Provincial Department of Public Security."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国公安部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公安部"
+        ],
+        "en": [
+          "Ministry of Public Security of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院主管全国公安工作的组成部门。",
+          "en": "A component department of the State Council of the People's Republic of China that oversees public security nationwide."
+        }
+      }
+    },
+    {
+      "id": "陕西省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "陕西省人民政府"
+        ],
+        "en": [
+          "Shaanxi Provincial People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国陕西省的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of Shaanxi Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党陕西省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党陕西省委员会"
+        ],
+        "en": [
+          "Shaanxi Provincial Committee of the Chinese Communist Party"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在陕西省的地方组织。",
+          "en": "The local organization of the Chinese Communist Party in Shaanxi Province."
+        }
+      }
+    },
+    {
+      "id": "杜航伟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杜航伟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任陕西省公安厅厅长。",
+          "en": "Chinese politician, former Director of the Shaanxi Provincial Department of Public Security."
+        }
+      }
+    },
+    {
+      "id": "胡明朗",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡明朗"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任陕西省公安厅厅长。",
+          "en": "Chinese politician, former Director of the Shaanxi Provincial Department of Public Security."
+        }
+      }
+    },
+    {
+      "id": "徐大彤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐大彤"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任陕西省公安厅厅长。",
+          "en": "Chinese politician, former Director of the Shaanxi Provincial Department of Public Security."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "陕西省公安厅",
+      "target": "中华人民共和国公安部",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "陕西省公安厅在业务上接受中华人民共和国公安部的领导。",
+          "en": "The Shaanxi Provincial Department of Public Security is operationally subordinate to the Ministry of Public Security of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "陕西省公安厅",
+      "target": "陕西省人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "陕西省公安厅是陕西省人民政府的组成部门，在组织上接受其领导。",
+          "en": "The Shaanxi Provincial Department of Public Security is a component department of the Shaanxi Provincial People's Government and is organizationally subordinate to it."
+        }
+      }
+    },
+    {
+      "source": "陕西省公安厅",
+      "target": "中国共产党陕西省委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "陕西省公安厅接受中国共产党陕西省委员会的领导。",
+          "en": "The Shaanxi Provincial Department of Public Security is subordinate to the Shaanxi Provincial Committee of the Chinese Communist Party."
+        }
+      }
+    },
+    {
+      "source": "戴彬彬",
+      "target": "陕西省公安厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2023-05",
+        "position": {
+          "zh-cn": "厅长",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "杜航伟",
+      "target": "陕西省公安厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2012-09",
+        "end_date": "2017-07",
+        "position": {
+          "zh-cn": "厅长",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "胡明朗",
+      "target": "陕西省公安厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2017-07",
+        "end_date": "2020-09",
+        "position": {
+          "zh-cn": "厅长",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "徐大彤",
+      "target": "陕西省公安厅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-01",
+        "end_date": "2023-05",
+        "position": {
+          "zh-cn": "厅长",
+          "en": "Director"
+        }
+      }
+    }
+  ]
+}
