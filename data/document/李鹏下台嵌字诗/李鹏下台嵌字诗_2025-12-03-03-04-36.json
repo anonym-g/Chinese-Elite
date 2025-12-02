@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    {
+      "id": "李鹏下台嵌字诗",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "李鹏下台嵌字诗",
+          "七律·元宵"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1991-03-20",
+        "description": {
+          "zh-cn": "一首刊登在1991年3月20日《人民日报》海外版的七律诗，因其通过嵌字方式表达了“李鹏下台平民愤”的政治诉求而广为人知。",
+          "en": "A seven-character regulated verse poem published in the overseas edition of the People's Daily on March 20, 1991, widely known for embedding the political slogan 'Li Peng step down to appease popular anger'."
+        }
+      }
+    },
+    {
+      "id": "人民日报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "人民日报"
+        ],
+        "en": [
+          "People's Daily"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党中央委员会的机关报，其海外版在1991年刊登了《李鹏下台嵌字诗》。",
+          "en": "The official newspaper of the Central Committee of the Communist Party of China. Its overseas edition published the 'Li Peng step down acrostic poem' in 1991."
+        }
+      }
+    },
+    {
+      "id": "李鹏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李鹏"
+        ],
+        "en": [
+          "Li Peng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国前国务院总理，因其在六四天安门事件中的强硬立场而成为《李鹏下台嵌字诗》的攻击目标。",
+          "en": "Former Premier of the State Council of the People's Republic of China, who became the target of the 'Li Peng step down acrostic poem' due to his hardline stance during the Tiananmen Square protests of 1989."
+        }
+      }
+    },
+    {
+      "id": "六四天安门事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "六四天安门事件"
+        ],
+        "en": [
+          "Tiananmen Square protests of 1989"
+        ]
+      },
+      "properties": {
+        "period": "1989-04-15 - 1989-06-04",
+        "description": {
+          "zh-cn": "1989年发生在中国的一系列学生领导的民主示威活动，最终以武力清场告终。该事件是催生《李鹏下台嵌字诗》的直接背景。",
+          "en": "A series of student-led pro-democracy demonstrations in China in 1989, which ended with a military crackdown. The event served as the direct context for the creation of the 'Li Peng step down acrostic poem'."
+        }
+      }
+    },
+    {
+      "id": "朱海洪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱海洪"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "据称为《李鹏下台嵌字诗》的作者，被认为是在美国的中国留学生之一。",
+          "en": "Alleged author of the 'Li Peng step down acrostic poem', believed to be one of the Chinese students in the United States."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国国务院总理",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国国务院总理"
+        ],
+        "en": [
+          "Premier of the State Council of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国中央人民政府（国务院）的最高领导人职务。",
+          "en": "The highest leading position in the Central People's Government (State Council) of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "美国",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "美国"
+        ],
+        "en": [
+          "United States"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "北美洲的国家，据称《李鹏下台嵌字诗》由在此地的中国留学生创作。",
+          "en": "A country in North America where, allegedly, the 'Li Peng step down acrostic poem' was composed by Chinese students."
+        }
+      }
+    },
+    {
+      "id": "菲律宾",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "菲律宾"
+        ],
+        "en": [
+          "Philippines"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东南亚国家。2002年，在李鹏访问前夕，当地华侨曾刊登《李鹏下台嵌字诗》以示“欢迎”。",
+          "en": "A country in Southeast Asia. In 2002, on the eve of Li Peng's visit, local overseas Chinese published the 'Li Peng step down acrostic poem' as a form of 'welcome'."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": [
+          "People's Republic of China",
+          "China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李鹏下台嵌字诗",
+      "target": "李鹏",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": [
+          "1991-03-20",
+          "2002-09"
+        ],
+        "end_date": [],
+        "description": {
+          "zh-cn": "该诗通过嵌入“李鹏下台平民愤”七字，表达了对李鹏的政治攻击。该诗于1991年首次发表，并于2002年在李鹏访问菲律宾前夕被当地华侨再次刊登以示抗议。",
+          "en": "The poem expressed a political attack against Li Peng by embedding the seven characters 'Li Peng step down to appease popular anger'. It was first published in 1991 and was republished in September 2002 by local overseas Chinese in the Philippines as a form of protest on the eve of Li Peng's visit."
+        }
+      }
+    },
+    {
+      "source": "人民日报",
+      "target": "李鹏下台嵌字诗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1991-03-20",
+        "end_date": "1991-03-20",
+        "description": {
+          "zh-cn": "《人民日报》海外版在1991年3月20日的第二版上刊登了《七律·元宵》这首嵌字诗，导致其广泛传播。此事后被定性为“工作失误”。",
+          "en": "The overseas edition of the People's Daily published the acrostic poem 'Qilu·Yuanxiao' on its second page on March 20, 1991, leading to its wide circulation. The incident was later classified as a 'work error'."
+        }
+      }
+    },
+    {
+      "source": "六四天安门事件",
+      "target": "李鹏下台嵌字诗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "description": {
+          "zh-cn": "对李鹏在六四天安门事件中采取强硬立场的不满，是这首诗被创作的直接动机。",
+          "en": "Dissatisfaction with Li Peng's hardline stance during the Tiananmen Square protests of 1989 was the direct motivation for the creation of this poem."
+        }
+      }
+    },
+    {
+      "source": "朱海洪",
+      "target": "李鹏下台嵌字诗",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1990",
+        "end_date": null,
+        "description": {
+          "zh-cn": "据称朱海洪是这首诗的作者，他与其他在美国的中国留学生于1990年共同创作并投稿。",
+          "en": "Zhu Haihong is the alleged author of this poem, which he reportedly co-authored and submitted with other Chinese students in the United States in 1990."
+        }
+      }
+    },
+    {
+      "source": "李鹏",
+      "target": "中华人民共和国国务院总理",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "position": {
+          "zh-cn": "总理",
+          "en": "Premier"
+        },
+        "description": {
+          "zh-cn": "在《李鹏下台嵌字诗》发表时，李鹏正担任中华人民共和国国务院总理职务。",
+          "en": "At the time of the publication of the 'Li Peng step down acrostic poem', Li Peng was serving as the Premier of the State Council of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "李鹏",
+      "target": "六四天安门事件",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": null,
+        "end_date": null,
+        "description": {
+          "zh-cn": "李鹏在六四天安门事件中采取强硬立场，支持并推动了对学生示威活动的武力清场。",
+          "en": "Li Peng adopted a hardline stance during the Tiananmen Square protests of 1989, supporting and promoting the military crackdown on the student demonstrations."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "nodes": [
+    {
+      "id": "王瑞生",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王瑞生"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1928 - 2009-07-23",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "南宫",
+          "en": ""
+        },
+        "death_place": {},
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中共湖北省委常委、湖北省人民政府副省长及湖北省人大常委会副主任。",
+          "en": "A political figure of the People's Republic of China, who served as a member of the Standing Committee of the Hubei Provincial Committee of the CCP, Vice Governor of the Hubei Provincial People's Government, and Vice Chairman of the Standing Committee of the Hubei Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "id": "南宫",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "南宫"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "河北",
+          "en": "Hebei"
+        },
+        "description": {
+          "zh-cn": "河北省下辖的县级市，为王瑞生的出生地。",
+          "en": "A county-level city under the jurisdiction of Hebei Province, and the birthplace of Wang Ruisheng."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党领导的社会主义国家，成立于1949年，通称中国。",
+          "en": "A socialist state led by the Communist Party of China, established in 1949, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中共湖北省委",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共湖北省委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在湖北省的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Hubei Province."
+        }
+      }
+    },
+    {
+      "id": "湖北省人大常委会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湖北省人大常委会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "湖北省人民代表大会的常设机关。",
+          "en": "The standing body of the Hubei Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "湖北省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湖北省人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国湖北省的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of Hubei Province, People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王瑞生",
+      "target": "南宫",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "王瑞生是河北南宫人。",
+          "en": "Wang Ruisheng was from Nangong, Hebei."
+        }
+      }
+    },
+    {
+      "source": "王瑞生",
+      "target": "中共湖北省委",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常委",
+          "en": "Standing Committee Member"
+        },
+        "description": {
+          "zh-cn": "王瑞生曾任中共湖北省委常委。",
+          "en": "Wang Ruisheng served as a member of the Standing Committee of the Hubei Provincial Committee of the CCP."
+        }
+      }
+    },
+    {
+      "source": "王瑞生",
+      "target": "湖北省人大常委会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "王瑞生曾任湖北省人大常委会副主任。",
+          "en": "Wang Ruisheng served as the Vice Chairman of the Standing Committee of the Hubei Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "source": "王瑞生",
+      "target": "湖北省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        },
+        "description": {
+          "zh-cn": "根据分类信息，王瑞生曾任湖北省人民政府副省长。",
+          "en": "According to category information, Wang Ruisheng served as the Vice Governor of the Hubei Provincial People's Government."
+        }
+      }
+    },
+    {
+      "source": "王瑞生",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据分类信息，王瑞生是中国共产党党员。",
+          "en": "According to category information, Wang Ruisheng was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

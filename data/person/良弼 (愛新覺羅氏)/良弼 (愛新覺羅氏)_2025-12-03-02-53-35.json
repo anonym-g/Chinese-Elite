@@ -1,0 +1,760 @@
+{
+  "nodes": [
+    {
+      "id": "良弼",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "良弼",
+          "赉臣"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1877 - 1912-01-29",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "成都府",
+          "en": "Chengdu Prefecture"
+        },
+        "death_place": {
+          "zh-cn": "顺天府",
+          "en": "Shuntian Prefecture"
+        },
+        "description": {
+          "zh-cn": "爱新觉罗宗室，清末立宪派大臣、宗社党首领，积极推动清末军事改革。辛亥革命期间，因组织宗社党反对清帝逊位，被同盟会成员彭家珍刺杀身亡。",
+          "en": "An Aisin-Gioro clan member, a constitutionalist minister and leader of the Royalist Party in the late Qing Dynasty, who actively promoted military reforms. During the Xinhai Revolution, he was assassinated by Peng Jiazhen, a member of the Tongmenghui, for organizing the Royalist Party to oppose the abdication of the Qing emperor."
+        }
+      }
+    },
+    {
+      "id": "彭家珍",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "彭家珍"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "同盟会京津分会成员，辛亥革命期间以自杀式袭击刺杀了宗社党首领良弼。",
+          "en": "A member of the Beijing-Tianjin branch of the Tongmenghui, who assassinated Liangbi, the leader of the Royalist Party, in a suicide attack during the Xinhai Revolution."
+        }
+      }
+    },
+    {
+      "id": "同盟会京津分会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "同盟会京津分会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国同盟会在北京和天津的分支机构，策划并执行了对良弼的刺杀行动。",
+          "en": "The Beijing and Tianjin branch of the Tongmenghui, which planned and executed the assassination of Liangbi."
+        }
+      }
+    },
+    {
+      "id": "宗社党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宗社党",
+          "君主立宪维持会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1912-01 - 1912-02",
+        "description": {
+          "zh-cn": "由清末宗室溥伟、良弼等人组织的政治团体，主张君主立宪，反对清帝逊位。",
+          "en": "A political group organized by late Qing imperial clan members such as Puwei and Liangbi, advocating for constitutional monarchy and opposing the abdication of the Qing emperor."
+        }
+      }
+    },
+    {
+      "id": "辛亥革命",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "辛亥革命"
+        ],
+        "en": [
+          "Xinhai Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1911 - 1912",
+        "description": {
+          "zh-cn": "推翻清朝、建立中华民国的全国性革命。",
+          "en": "A nationwide revolution that overthrew the Qing dynasty and established the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "日本陆军士官学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "日本陆军士官学校"
+        ],
+        "en": [
+          "Imperial Japanese Army Academy"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "日本",
+          "en": "Japan"
+        },
+        "description": {
+          "zh-cn": "日本培养陆军军官的教育机构，良弼曾在此留学。",
+          "en": "An educational institution in Japan for training army officers, where Liangbi studied."
+        }
+      }
+    },
+    {
+      "id": "成城学校",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "成城学校"
+        ],
+        "en": [
+          "Seijo School"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "日本",
+          "en": "Japan"
+        },
+        "description": {
+          "zh-cn": "日本的一所学校，良弼曾在此学习，之后进入日本陆军士官学校。",
+          "en": "A school in Japan where Liangbi studied before entering the Imperial Japanese Army Academy."
+        }
+      }
+    },
+    {
+      "id": "张之洞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张之洞"
+        ],
+        "en": [
+          "Zhang Zhidong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末重臣，洋务派代表人物。良弼曾投其门下。",
+          "en": "An influential official in the late Qing dynasty and a representative of the Self-Strengthening Movement. Liangbi was his protégé."
+        }
+      }
+    },
+    {
+      "id": "袁世凯",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁世凯"
+        ],
+        "en": [
+          "Yuan Shikai"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末民初重要政治人物，中华民国第一任正式大总统。",
+          "en": "An important political figure in the late Qing dynasty and early Republic of China, and the first formal president of the Republic of China."
+        }
+      }
+    },
+    {
+      "id": "溥伟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "溥伟"
+        ],
+        "en": [
+          "Puyi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末宗室，与良弼等人共同组织宗社党。",
+          "en": "A member of the imperial clan in the late Qing dynasty who co-founded the Royalist Party with Liangbi and others."
+        }
+      }
+    },
+    {
+      "id": "铁良",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "铁良"
+        ],
+        "en": [
+          "Tieliang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末大臣，与良弼等人共同组织宗社党，并称为“清季干将”。",
+          "en": "A minister in the late Qing dynasty who co-founded the Royalist Party with Liangbi and others, and was known as a capable general of the late Qing period."
+        }
+      }
+    },
+    {
+      "id": "南北议和",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "南北议和"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1911-12 - 1912-02",
+        "description": {
+          "zh-cn": "辛亥革命期间，南方革命政府与北方清政府之间的停战谈判。",
+          "en": "The truce negotiations between the southern revolutionary government and the northern Qing government during the Xinhai Revolution."
+        }
+      }
+    },
+    {
+      "id": "清帝逊位",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "清帝逊位"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1912-02-12",
+        "description": {
+          "zh-cn": "清朝最后一位皇帝溥仪颁布退位诏书，标志着清朝统治的结束。",
+          "en": "The last emperor of the Qing Dynasty, Puyi, issued an abdication edict, marking the end of Qing rule."
+        }
+      }
+    },
+    {
+      "id": "吴禄贞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴禄贞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末军事将领，良弼在日本留学期间的莫逆之交。",
+          "en": "A military general in the late Qing dynasty and a very close friend of Liangbi from their time studying in Japan."
+        }
+      }
+    },
+    {
+      "id": "禁卫军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "禁卫军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1908 - 1912",
+        "description": {
+          "zh-cn": "清末为拱卫京师而建立的新式军队。",
+          "en": "A modern-style army established in the late Qing dynasty to guard the capital."
+        }
+      }
+    },
+    {
+      "id": "军谘府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "军谘府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "period": "1909 - 1912",
+        "description": {
+          "zh-cn": "清末仿照日本参谋本部设立的最高军事统筹机构。",
+          "en": "The supreme military planning body established in the late Qing Dynasty, modeled after the Japanese General Staff Headquarters."
+        }
+      }
+    },
+    {
+      "id": "载涛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "载涛"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末宗室，曾任军谘大臣、禁卫军训练大臣。",
+          "en": "A member of the imperial clan in the late Qing Dynasty who served as Minister of the Army Advisory Council and Training Minister of the Imperial Guards."
+        }
+      }
+    },
+    {
+      "id": "凯顺",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "凯顺"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "良弼之父。",
+          "en": "Father of Liangbi."
+        }
+      }
+    },
+    {
+      "id": "杭阿坦氏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杭阿坦氏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "良弼之母。",
+          "en": "Mother of Liangbi."
+        }
+      }
+    },
+    {
+      "id": "成都府",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "成都府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清代四川省的行政区划之一，良弼的出生地。",
+          "en": "An administrative division of Sichuan Province during the Qing Dynasty, and the birthplace of Liangbi."
+        }
+      }
+    },
+    {
+      "id": "立宪运动",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "立宪运动",
+          "立宪派"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "清末要求清政府实行君主立宪的政治运动。",
+          "en": "A political movement in the late Qing dynasty demanding the implementation of a constitutional monarchy."
+        }
+      }
+    },
+    {
+      "id": "兴中会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "兴中会"
+        ],
+        "en": [
+          "Revive China Society"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "孙中山于1894年创立的中国第一个资产阶级革命团体，同盟会的前身之一。",
+          "en": "The first bourgeois revolutionary group in China, founded by Sun Yat-sen in 1894, and a predecessor of the Tongmenghui."
+        }
+      }
+    },
+    {
+      "id": "端方",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "端方"
+        ],
+        "en": [
+          "Duanfang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "清末大臣，曾任两江总督，对良弼评价甚高并予以推荐。",
+          "en": "A minister in the late Qing dynasty who served as the Viceroy of Liangjiang. He held Liangbi in high regard and recommended him."
+        }
+      }
+    },
+    {
+      "id": "伊集院彦吉",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伊集院彦吉"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "日本驻清朝公使，曾授予良弼三等旭日勋章。",
+          "en": "Japanese Minister to the Qing dynasty who awarded Liangbi the Order of the Rising Sun, 3rd Class."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "彭家珍",
+      "target": "良弼",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1912-01-26",
+        "end_date": "1912-01-29",
+        "description": {
+          "zh-cn": "彭家珍在良弼家门口向其投掷炸弹，将其刺杀。",
+          "en": "Peng Jiazhen threw a bomb at Liangbi at his doorstep, assassinating him."
+        }
+      }
+    },
+    {
+      "source": "彭家珍",
+      "target": "同盟会京津分会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "彭家珍是同盟会京津分会成员，并执行了刺杀良弼的任务。",
+          "en": "Peng Jiazhen was a member of the Beijing-Tianjin branch of the Tongmenghui and carried out the mission to assassinate Liangbi."
+        }
+      }
+    },
+    {
+      "source": "同盟会京津分会",
+      "target": "良弼",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1912-01-26",
+        "description": {
+          "zh-cn": "派遣成员彭家珍刺杀了被视为满族保皇派代表人物的良弼。",
+          "en": "Dispatched member Peng Jiazhen to assassinate Liangbi, who was considered a representative figure of the Manchu royalists."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "宗社党",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1912-01-12",
+        "description": {
+          "zh-cn": "良弼与溥伟、铁良等人共同组织了宗社党，以反对南北议和与清帝逊位。",
+          "en": "Liangbi, along with Puwei and Tieliang, co-founded the Royalist Party to oppose the North-South peace negotiations and the abdication of the Qing emperor."
+        }
+      }
+    },
+    {
+      "source": "溥伟",
+      "target": "宗社党",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1912-01-12",
+        "description": {
+          "zh-cn": "溥伟与良弼、铁良等人共同组织了宗社党。",
+          "en": "Puwei co-founded the Royalist Party with Liangbi and Tieliang."
+        }
+      }
+    },
+    {
+      "source": "铁良",
+      "target": "宗社党",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1912-01-12",
+        "description": {
+          "zh-cn": "铁良与溥伟、良弼等人共同组织了宗社党。",
+          "en": "Tieliang co-founded the Royalist Party with Puwei and Liangbi."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "辛亥革命",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-10",
+        "end_date": "1912-01-29",
+        "description": {
+          "zh-cn": "良弼反对革命，主张“以立宪弥革命”，并组织宗社党反对南北议和与清帝逊位。",
+          "en": "Liangbi opposed the revolution, advocating to 'use constitutionalism to quell revolution,' and organized the Royalist Party to oppose the North-South peace negotiations and the abdication of the Qing emperor."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "南北议和",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1912-01",
+        "description": {
+          "zh-cn": "良弼组织宗社党，明确表示反对南北议和。",
+          "en": "Liangbi organized the Royalist Party and explicitly opposed the North-South peace negotiations."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "清帝逊位",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1912-01",
+        "description": {
+          "zh-cn": "良弼组织宗社党，明确表示反对清帝逊位。",
+          "en": "Liangbi organized the Royalist Party and explicitly opposed the abdication of the Qing emperor."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "日本陆军士官学校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1903",
+        "degree": {
+          "zh-cn": "步兵科士官生第二期",
+          "en": "Infantry Officer Cadet, 2nd Class"
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "成城学校",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1899",
+        "description": {
+          "zh-cn": "良弼于1899年留学日本，首先进入成城学校学习。",
+          "en": "Liangbi went to study in Japan in 1899, first enrolling in the Seijo School."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "张之洞",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1895",
+        "description": {
+          "zh-cn": "良弼前往湖北，拜于时任湖广总督张之洞门下，成为其门生。",
+          "en": "Liangbi traveled to Hubei and became a protégé of Zhang Zhidong, who was then the Viceroy of Huguang."
+        }
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "良弼",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1905-08",
+        "position": {
+          "zh-cn": "陆军第八标统带官",
+          "en": "Commander of the 8th Army Regiment"
+        },
+        "description": {
+          "zh-cn": "袁世凯延揽良弼担任其麾下陆军第二镇的陆军第八标统带官。",
+          "en": "Yuan Shikai recruited Liangbi to serve as the commander of the 8th Army Regiment within the 2nd Army Division under his command."
+        }
+      }
+    },
+    {
+      "source": "袁世凯",
+      "target": "良弼",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-11",
+        "description": {
+          "zh-cn": "袁世凯出任内阁总理大臣后，调冯国璋任禁卫军统制，夺去了良弼对禁卫军的实际控制权。",
+          "en": "After becoming Prime Minister of the Imperial Cabinet, Yuan Shikai appointed Feng Guozhang as the commander of the Imperial Guards, thereby stripping Liangbi of his actual control over the unit."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "袁世凯",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1911-10",
+        "description": {
+          "zh-cn": "武昌起义后，良弼反对起用袁世凯。",
+          "en": "After the Wuchang Uprising, Liangbi opposed the appointment of Yuan Shikai."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "吴禄贞",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "两人在日本留学期间结识，成为一生的莫逆之交。",
+          "en": "The two met while studying in Japan and became lifelong close friends."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "铁良",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "与铁良等人共同组织宗社党，并被称为清季干将。",
+          "en": "Co-founded the Royalist Party with Tieliang and others, and they were known as capable generals of the late Qing period."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "禁衛軍",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1908-12",
+        "end_date": "1911-11",
+        "position": {
+          "zh-cn": "第一协统领, 训练大臣",
+          "en": "Commander of the 1st Brigade, Training Minister"
+        },
+        "description": {
+          "zh-cn": "1908年底禁卫军成立，良弼授禁卫军第一协统领，实际负责管理；1910年10月升为禁卫军训练大臣。",
+          "en": "When the Imperial Guards were established at the end of 1908, Liangbi was appointed Commander of the 1st Brigade and was its de facto manager; in October 1910, he was promoted to Training Minister of the Imperial Guards."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "军谘府",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1909-07",
+        "description": {
+          "zh-cn": "清廷采纳良弼等人的建议，设立了军谘府以统筹全国陆海军事宜。",
+          "en": "The Qing court adopted the proposal of Liangbi and others to establish the Army Advisory Council to coordinate national army and navy affairs."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "载涛",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1909-07",
+        "description": {
+          "zh-cn": "军谘大臣载涛不谙军事，凡事皆以良弼为“谋主”（首席参谋）。",
+          "en": "The Minister of the Army Advisory Council, Zaitao, was not well-versed in military affairs and relied on Liangbi as his 'chief strategist'."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "凯顺",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "良弼",
+      "target": "杭阿坦氏",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "良弼",
+      "target": "成都府",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1877"
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "立宪运动",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "良弼是清末立宪派大臣，主张“以立宪弥革命”，并在遗折中叮嘱“尊重信条，实行宪政”。",
+          "en": "Liangbi was a constitutionalist minister in the late Qing dynasty who advocated 'using constitutionalism to quell revolution' and urged in his last testament to 'respect the articles and implement constitutional government'."
+        }
+      }
+    },
+    {
+      "source": "良弼",
+      "target": "兴中会",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "留学期间，革命派指其“专司侦察革命党”，显示了敌对关系。",
+          "en": "During his studies abroad, revolutionaries accused him of 'specializing in spying on the revolutionary party,' indicating an adversarial relationship."
+        }
+      }
+    },
+    {
+      "source": "端方",
+      "target": "良弼",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1909-05",
+        "description": {
+          "zh-cn": "时任两江总督的端方上奏称赞良弼“才猷敏练，学术精深”，并推荐其为武学顾问之选。",
+          "en": "Duanfang, then Viceroy of Liangjiang, submitted a memorial praising Liangbi for his 'sharp talent and profound knowledge' and recommended him as a candidate for military advisor."
+        }
+      }
+    },
+    {
+      "source": "伊集院彦吉",
+      "target": "良弼",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1909-06",
+        "description": {
+          "zh-cn": "日本驻清朝公使伊集院彦吉授予良弼三等旭日勋章。",
+          "en": "The Japanese Minister to the Qing Dynasty, Ijūin Hikokichi, awarded Liangbi the Order of the Rising Sun, 3rd Class."
+        }
+      }
+    }
+  ]
+}

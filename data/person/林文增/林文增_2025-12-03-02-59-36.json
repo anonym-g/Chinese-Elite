@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "林文增",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "林文增"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1953 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "汉族，竹笛演奏家，中华人民共和国政治人物。曾任中国歌剧舞剧院院长、党委副书记，是中国共产党党员、中国音乐家协会会员，并当选为第十一届全国政协委员。",
+          "en": "A Chinese dizi performer and political figure of Han ethnicity. He served as the President and Deputy Party Secretary of the China National Opera and Dance Drama Theater, is a member of the Communist Party of China and the Chinese Musicians Association, and was elected as a member of the 11th National Committee of the CPPCC."
+        }
+      }
+    },
+    {
+      "id": "中国歌剧舞剧院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国歌剧舞剧院"
+        ],
+        "en": [
+          "China National Opera and Dance Drama Theater"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的国家级表演艺术团体。",
+          "en": "A national-level performing arts group in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议第十一届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十一届全国委员会"
+        ],
+        "en": [
+          "11th National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "period": "2008 - 2013",
+        "description": {
+          "zh-cn": "中国人民政治协商会议的第十一届全国委员会，任期为2008年至2013年。",
+          "en": "The 11th National Committee of the Chinese People's Political Consultative Conference, with a term from 2008 to 2013."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国音乐家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国音乐家协会"
+        ],
+        "en": [
+          "Chinese Musicians Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国各民族音乐家组成的专业性人民团体。",
+          "en": "A professional people's organization composed of musicians of all ethnic groups in China."
+        }
+      }
+    },
+    {
+      "id": "上海音乐学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海音乐学院"
+        ],
+        "en": [
+          "Shanghai Conservatory of Music"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "上海市",
+          "en": "Shanghai"
+        },
+        "description": {
+          "zh-cn": "位于中国上海市的音乐高等院校。",
+          "en": "An institution of higher education in music located in Shanghai, China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "林文增",
+      "target": "中国歌剧舞剧院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "院长、党委副书记",
+          "en": "President, Deputy Party Secretary"
+        },
+        "description": {
+          "zh-cn": "林文增担任中国歌剧舞剧院院长、党委副书记。",
+          "en": "Lin Wenzeng served as the President and Deputy Party Secretary of the China National Opera and Dance Drama Theater."
+        }
+      }
+    },
+    {
+      "source": "林文增",
+      "target": "中国人民政治协商会议第十一届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2008",
+        "end_date": "2013",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "2008年，林文增当选第十一届全国政协委员，代表文化艺术界，分入第二十七组。",
+          "en": "In 2008, Lin Wenzeng was elected as a member of the 11th National Committee of the CPPCC, representing the Culture and Arts sector in Group 27."
+        }
+      }
+    },
+    {
+      "source": "林文增",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "林文增是中国共产党党员。",
+          "en": "Lin Wenzeng is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "林文增",
+      "target": "中国音乐家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "林文增是中国音乐家协会会员。",
+          "en": "Lin Wenzeng is a member of the Chinese Musicians Association."
+        }
+      }
+    },
+    {
+      "source": "林文增",
+      "target": "上海音乐学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "林文增是上海音乐学院的校友。",
+          "en": "Lin Wenzeng is an alumnus of the Shanghai Conservatory of Music."
+        }
+      }
+    },
+    {
+      "source": "林文增",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治人物",
+          "en": "Political figure"
+        },
+        "description": {
+          "zh-cn": "林文增是中华人民共和国的政治人物。",
+          "en": "Lin Wenzeng is a political figure in the People's Republic of China."
+        }
+      }
+    }
+  ]
+}

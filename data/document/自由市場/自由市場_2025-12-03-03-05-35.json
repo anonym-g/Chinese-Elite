@@ -1,0 +1,967 @@
+{
+  "nodes": [
+    {
+      "id": "自由市场",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "自由市场"
+        ],
+        "en": [
+          "Free market"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种经济体系，其中货物和服务的价格由公开市场和消费者决定，政府不介入控制。",
+          "en": "An economic system in which the prices for goods and services are self-regulated by the open market and by consumers, with no government intervention."
+        }
+      }
+    },
+    {
+      "id": "政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "政府"
+        ],
+        "en": [
+          "Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "在自由市场经济的讨论中，指代对市场进行干预或调控的国家权力机构。",
+          "en": "In the context of free market economics, refers to the state authority that intervenes in or regulates the market."
+        }
+      }
+    },
+    {
+      "id": "市场经济",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "市场经济"
+        ],
+        "en": [
+          "Market economy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种以市场机制作为资源配置基本方式的经济体系。",
+          "en": "An economic system in which the decisions regarding investment, production and distribution are guided by the price signals created by the forces of supply and demand."
+        }
+      }
+    },
+    {
+      "id": "古典自由主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "古典自由主义"
+        ],
+        "en": [
+          "Classical liberalism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种政治意识形态和自由主义的分支，倡导公民自由和政治自由，并以有限政府和自由市场为代表。",
+          "en": "A political ideology and a branch of liberalism that advocates civil liberties under the rule of law with an emphasis on economic freedom."
+        }
+      }
+    },
+    {
+      "id": "供求关系",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "供求关系"
+        ],
+        "en": [
+          "Supply and demand"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "经济学中的一个基本概念，描述市场中商品或服务的可用性（供给）与对其的渴望（需求）之间的关系。",
+          "en": "A fundamental concept in economics that describes the relationship between the availability of a commodity or service (supply) and the desire for it (demand)."
+        }
+      }
+    },
+    {
+      "id": "新古典经济学派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新古典经济学派",
+          "新古典学派"
+        ],
+        "en": [
+          "Neoclassical economics"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个经济学思想流派，主张市场通过供求关系达到均衡，是现代西方经济学中主张自由市场的主要学派之一。",
+          "en": "A school of economic thought that argues markets reach equilibrium through supply and demand, and is one of the main schools advocating for free markets in modern Western economics."
+        }
+      }
+    },
+    {
+      "id": "阿尔弗雷德·马歇尔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "阿尔弗雷德·马歇尔",
+          "马歇尔"
+        ],
+        "en": [
+          "Alfred Marshall"
+        ]
+      },
+      "properties": {
+        "lifetime": "1842-07-26 - 1924-07-13",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "英国经济学家，新古典经济学派的创始人之一，对供求关系理论有重要贡献。",
+          "en": "An English economist, one of the founders of neoclassical economics, who made significant contributions to the theory of supply and demand."
+        }
+      }
+    },
+    {
+      "id": "边际革命",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "边际革命"
+        ],
+        "en": [
+          "Marginal Revolution"
+        ]
+      },
+      "properties": {
+        "period": "1870 - 1880",
+        "description": {
+          "zh-cn": "19世纪70年代经济学思想的一场重要变革，引入了边际效用理论。",
+          "en": "An important paradigm shift in economic thought in the 1870s that introduced the theory of marginal utility."
+        }
+      }
+    },
+    {
+      "id": "市场失灵",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "市场失灵"
+        ],
+        "en": [
+          "Market failure"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指市场无法有效率地分配商品和劳务的情况。",
+          "en": "A situation in which the allocation of goods and services by a free market is not efficient."
+        }
+      }
+    },
+    {
+      "id": "自由放任主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "自由放任主义"
+        ],
+        "en": [
+          "Laissez-faire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种经济学理论，提倡最大限度地限制政府在经济事务中的干预。",
+          "en": "An economic theory that advocates for minimal governmental intervention in economic affairs."
+        }
+      }
+    },
+    {
+      "id": "税收",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "税收"
+        ],
+        "en": [
+          "Taxation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "政府向个人或法人征收的强制性财政贡献。",
+          "en": "A compulsory financial charge or some other type of levy imposed upon a taxpayer by a governmental organization."
+        }
+      }
+    },
+    {
+      "id": "无政府资本主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "无政府资本主义"
+        ],
+        "en": [
+          "Anarcho-capitalism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种政治哲学，主张废除国家，由自由市场提供所有服务，包括法律和国防。",
+          "en": "A political philosophy that advocates the elimination of the state in favor of individual sovereignty in a free market."
+        }
+      }
+    },
+    {
+      "id": "雷根主义",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "雷根主义",
+          "雷根政府"
+        ],
+        "en": [
+          "Reaganism"
+        ]
+      },
+      "properties": {
+        "period": "1981 - 1989",
+        "description": {
+          "zh-cn": "指美国总统罗纳德·里根在1980年代推行的保守主义政治经济政策，其特点是广泛减税、减少政府开支、放松管制等。",
+          "en": "Refers to the conservative political and economic policies promoted by U.S. President Ronald Reagan during the 1980s, characterized by widespread tax cuts, reduced government spending, and deregulation."
+        }
+      }
+    },
+    {
+      "id": "奥地利经济学派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "奥地利经济学派"
+        ],
+        "en": [
+          "Austrian School"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个非主流经济学派，强调方法论个人主义，并主张极端的自由市场。",
+          "en": "A heterodox school of economic thought that emphasizes methodological individualism and advocates for an extremely free market."
+        }
+      }
+    },
+    {
+      "id": "新兴凯恩斯主义经济学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新兴凯恩斯主义经济学",
+          "新兴凯恩斯主义学派"
+        ],
+        "en": [
+          "New Keynesian economics"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个宏观经济学思想流派，寻求为凯恩斯主义经济学提供微观经济学基础，是亲市场的经济学派之一。",
+          "en": "A school of macroeconomic thought that seeks to provide microeconomic foundations for Keynesian economics, and is one of the pro-market schools of economics."
+        }
+      }
+    },
+    {
+      "id": "芝加哥经济学派",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "芝加哥经济学派"
+        ],
+        "en": [
+          "Chicago school of economics"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个经济学派，以其对自由市场和货币主义的倡导而闻名。",
+          "en": "A school of economic thought known for its advocacy of free markets and monetarism."
+        }
+      }
+    },
+    {
+      "id": "市场",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "市场"
+        ],
+        "en": [
+          "Market"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个允许买卖双方进行商品、服务和信息交换的系统、制度、程序、社会关系或基础设施。",
+          "en": "A system, institution, procedure, social relation or infrastructure whereby parties engage in exchange of goods, services, and information."
+        }
+      }
+    },
+    {
+      "id": "欧陆哲学",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "欧陆哲学"
+        ],
+        "en": [
+          "Continental philosophy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指19世纪和20世纪欧洲大陆的一系列哲学传统。",
+          "en": "Refers to a set of 19th- and 20th-century philosophical traditions from mainland Europe."
+        }
+      }
+    },
+    {
+      "id": "形而上学",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "形而上学"
+        ],
+        "en": [
+          "Metaphysics"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "哲学的分支，研究存在、同一性、时空、因果关系等基本概念。",
+          "en": "The branch of philosophy that examines the fundamental nature of reality, including the relationship between mind and matter, between substance and attribute, and between potentiality and actuality."
+        }
+      }
+    },
+    {
+      "id": "卡特尔",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "卡特尔"
+        ],
+        "en": [
+          "Cartel"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指生产者或供应商之间旨在限制竞争、控制价格的正式协议。",
+          "en": "A formal agreement among competing firms to control prices or limit competition."
+        }
+      }
+    },
+    {
+      "id": "资本外逃",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "资本外逃"
+        ],
+        "en": [
+          "Capital flight"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指大量资产和资本由于经济或政治原因从一个国家流出。",
+          "en": "Occurs when assets or money rapidly flow out of a country, due to an event of economic or political consequence."
+        }
+      }
+    },
+    {
+      "id": "计划经济",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "计划经济"
+        ],
+        "en": [
+          "Planned economy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种经济体系，其中生产、投资、价格和收入等由中央经济计划决定。",
+          "en": "An economic system in which decisions regarding production, investment, prices, and incomes are determined by a central economic plan."
+        }
+      }
+    },
+    {
+      "id": "混合经济",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "混合经济"
+        ],
+        "en": [
+          "Mixed economy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种结合了私有制和公有制，既包含市场经济又包含计划经济特征的经济体系。",
+          "en": "An economic system blending elements of market economies with elements of planned economies, free markets with state interventionism, or private enterprise with public enterprise."
+        }
+      }
+    },
+    {
+      "id": "重商主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "重商主义"
+        ],
+        "en": [
+          "Mercantilism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "16至18世纪欧洲的一种经济民族主义，旨在通过正贸易顺差来积累货币储备。",
+          "en": "An economic nationalism for the purpose of building a wealthy and powerful state, prevalent in Europe from the 16th to the 18th century."
+        }
+      }
+    },
+    {
+      "id": "政府干預",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "政府干預",
+          "经济干预主义"
+        ],
+        "en": [
+          "Economic interventionism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种经济政策立场，主张政府干预市场过程以纠正市场失灵和促进普遍福利。",
+          "en": "An economic policy perspective favoring government intervention in the market process to correct market failures and promote the general welfare."
+        }
+      }
+    },
+    {
+      "id": "垄断性竞争",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "垄断性竞争"
+        ],
+        "en": [
+          "Monopolistic competition"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种市场结构，其中许多公司销售相似但不完全相同的产品。",
+          "en": "A type of imperfect competition such that many producers sell products that are differentiated from one another and hence are not perfect substitutes."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，其实行的经济政策被一些经济干预主义者视为国家干预成功的案例。",
+          "en": "A country in East Asia, whose economic policies are cited by some economic interventionists as a successful example of state intervention."
+        }
+      }
+    },
+    {
+      "id": "俄罗斯",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "俄罗斯",
+          "俄国"
+        ],
+        "en": [
+          "Russia"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于欧亚大陆北部的国家，其实行的经济政策被一些经济干预主义者视为国家干预成功的案例。",
+          "en": "A transcontinental country spanning Eastern Europe and Northern Asia, whose economic policies are cited by some economic interventionists as a successful example of state intervention."
+        }
+      }
+    },
+    {
+      "id": "印度",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "印度"
+        ],
+        "en": [
+          "India"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于南亚的国家，其实行的经济政策被一些经济干预主义者视为国家干预成功的案例。",
+          "en": "A country in South Asia, whose economic policies are cited by some economic interventionists as a successful example of state intervention."
+        }
+      }
+    },
+    {
+      "id": "巴西",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "巴西"
+        ],
+        "en": [
+          "Brazil"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于南美洲的国家，其实行的经济政策被一些经济干预主义者视为国家干预成功的案例。",
+          "en": "A country in South America, whose economic policies are cited by some economic interventionists as a successful example of state intervention."
+        }
+      }
+    },
+    {
+      "id": "市场原教旨主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "市场原教旨主义"
+        ],
+        "en": [
+          "Market fundamentalism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种对自由市场能够解决大多数经济和社会问题的强烈信念，常带有贬义。",
+          "en": "A term, often used pejoratively, to describe a strong belief that free markets can solve most economic and social problems."
+        }
+      }
+    },
+    {
+      "id": "贫富差距",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "贫富差距",
+          "不平等问题"
+        ],
+        "en": [
+          "Wealth inequality"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指社会中个人或群体之间财富分配不均的现象。",
+          "en": "The unequal distribution of assets among residents of a society."
+        }
+      }
+    },
+    {
+      "id": "杜威",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杜威"
+        ],
+        "en": [
+          "John Dewey"
+        ]
+      },
+      "properties": {
+        "lifetime": "1859-10-20 - 1952-06-01",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国哲学家、心理学家和教育改革家，对自由放任主义的社会后果提出过批评。",
+          "en": "An American philosopher, psychologist, and educational reformer who criticized the social consequences of laissez-faire."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "自由市场",
+      "target": "政府",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "自由市场的核心定义是政府不介入控制经济活动。",
+          "en": "The core definition of a free market is the absence of government intervention in economic activities."
+        }
+      }
+    },
+    {
+      "source": "市场",
+      "target": "市场经济",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "市场经济是以市场机制作为主导原则的经济体系。",
+          "en": "A market economy is an economic system based on the guiding principle of market mechanisms."
+        }
+      }
+    },
+    {
+      "source": "古典自由主义",
+      "target": "自由市场",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "自由市场是古典自由主义意识形态中的一个核心经济理念。",
+          "en": "The free market is a core economic concept within the ideology of classical liberalism."
+        }
+      }
+    },
+    {
+      "source": "阿尔弗雷德·马歇尔",
+      "target": "新古典经济学派",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "阿尔弗雷德·马歇尔是新古典经济学派的创始人之一。",
+          "en": "Alfred Marshall is one of the founders of the neoclassical school of economics."
+        }
+      }
+    },
+    {
+      "source": "边际革命",
+      "target": "供求关系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "供求关系理论是在边际革命中被系统性地发展起来的。",
+          "en": "The theory of supply and demand was systematically developed during the Marginal Revolution."
+        }
+      }
+    },
+    {
+      "source": "阿尔弗雷德·马歇尔",
+      "target": "供求关系",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "阿尔弗雷德·马歇尔在边际革命期间对供求关系理论做出了重要贡献和发展。",
+          "en": "Alfred Marshall made important contributions to and developed the theory of supply and demand during the Marginal Revolution."
+        }
+      }
+    },
+    {
+      "source": "供求关系",
+      "target": "自由市场",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在自由市场中，价格由供求关系决定，而非由外力强迫。",
+          "en": "In a free market, prices are determined by supply and demand, not by external coercion."
+        }
+      }
+    },
+    {
+      "source": "政府",
+      "target": "市场失灵",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "政府干预被认为是修补市场失灵的一种手段。",
+          "en": "Government intervention is considered a means to correct market failures."
+        }
+      }
+    },
+    {
+      "source": "自由放任主义",
+      "target": "市场经济",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "自由市场经济与自由放任主义经济学理论紧密相关，后者为其提供了理论基础。",
+          "en": "The market economy is closely related to the theory of laissez-faire economics, which provides its theoretical foundation."
+        }
+      }
+    },
+    {
+      "source": "无政府资本主义",
+      "target": "自由市场",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "无政府资本主义是主张用市场完全替代国家功能的极端自由市场理念。",
+          "en": "Anarcho-capitalism is an extreme free-market ideology that advocates for the complete replacement of state functions with the market."
+        }
+      }
+    },
+    {
+      "source": "雷根主义",
+      "target": "自由市场",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "雷根主义通过减税和放松管制等政策来推动自由市场。",
+          "en": "Reaganism promoted the free market through policies such as tax cuts and deregulation."
+        }
+      }
+    },
+    {
+      "source": "新古典经济学派",
+      "target": "自由市场",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "新古典经济学派是现代西方经济学中主张自由市场的主要学派。",
+          "en": "The neoclassical school is a major school in modern Western economics that advocates for the free market."
+        }
+      }
+    },
+    {
+      "source": "奥地利经济学派",
+      "target": "自由市场",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "奥地利经济学派主张一种极端的、不受干预的自由市场。",
+          "en": "The Austrian School advocates for an extreme, non-interventionist form of the free market."
+        }
+      }
+    },
+    {
+      "source": "新兴凯恩斯主义经济学",
+      "target": "市场",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "新兴凯恩斯主义学派是亲市场的经济学派之一，认可市场机制和市场调节。",
+          "en": "New Keynesian economics is one of the pro-market schools, recognizing market mechanisms and regulation."
+        }
+      }
+    },
+    {
+      "source": "芝加哥经济学派",
+      "target": "市场",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "芝加哥经济学派是亲市场的经济学派之一，认可市场机制和市场调节。",
+          "en": "The Chicago school of economics is one of the pro-market schools, recognizing market mechanisms and regulation."
+        }
+      }
+    },
+    {
+      "source": "欧陆哲学",
+      "target": "奥地利经济学派",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "奥地利经济学派以欧陆哲学而非数理逻辑为框架来构建其经济学理论。",
+          "en": "The Austrian School builds its economic framework based on Continental philosophy rather than mathematical logic."
+        }
+      }
+    },
+    {
+      "source": "形而上学",
+      "target": "奥地利经济学派",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "奥地利经济学派以形而上学为框架来构建其经济学理论。",
+          "en": "The Austrian School uses metaphysics as a framework to construct its economic theory."
+        }
+      }
+    },
+    {
+      "source": "政府",
+      "target": "卡特尔",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "政府干预被认为有助于打击卡特尔，以维护市场竞争。",
+          "en": "Government intervention is considered helpful in combating cartels to maintain market competition."
+        }
+      }
+    },
+    {
+      "source": "政府",
+      "target": "资本外逃",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "政府干预被认为有助于打击对本国经济不利的资本外逃。",
+          "en": "Government intervention is considered helpful in combating capital flight that is detrimental to the domestic economy."
+        }
+      }
+    },
+    {
+      "source": "政府",
+      "target": "自由市场",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "一种观点认为，政府通过打击卡特尔和资本外逃等行为的干预，有助于自由市场更好地运行其机制。",
+          "en": "One viewpoint holds that government intervention, by combating cartels and capital flight, helps the free market mechanism to function better."
+        }
+      }
+    },
+    {
+      "source": "市场经济",
+      "target": "计划经济",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "计划经济是与市场经济相对立的经济体系。",
+          "en": "A planned economy is an economic system that is the antithesis of a market economy."
+        }
+      }
+    },
+    {
+      "source": "市场经济",
+      "target": "混合经济",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "混合经济是介于计划经济和市场经济之间，并包含两者特征的一种经济形式。",
+          "en": "A mixed economy is a form of economy between a planned economy and a market economy, incorporating features of both."
+        }
+      }
+    },
+    {
+      "source": "计划经济",
+      "target": "混合经济",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "混合经济是介于计划经济和市场经济之间，并包含两者特征的一种经济形式。",
+          "en": "A mixed economy is a form of economy between a planned economy and a market economy, incorporating features of both."
+        }
+      }
+    },
+    {
+      "source": "自由市场",
+      "target": "重商主义",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1700",
+        "description": {
+          "zh-cn": "自18世纪起，自由经济被其支持者用作与重商主义等早期经济模式相对立的概念。",
+          "en": "Since the 18th century, the concept of a free economy has been used by its proponents in opposition to earlier economic models like mercantilism."
+        }
+      }
+    },
+    {
+      "source": "政府干預",
+      "target": "自由市场",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "经济干预主义者对完美的自由市场持批评态度，并主张政府进行干预。",
+          "en": "Proponents of economic interventionism are critical of a perfect free market and advocate for government intervention."
+        }
+      }
+    },
+    {
+      "source": "政府干預",
+      "target": "中华人民共和国",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "一些观点认为，国家干预主义在中国的经济发展中取得了成功。",
+          "en": "Some viewpoints suggest that state interventionism has achieved success in China's economic development."
+        }
+      }
+    },
+    {
+      "source": "政府干預",
+      "target": "俄罗斯",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "一些观点认为，国家干预主义在俄罗斯的经济发展中取得了成功。",
+          "en": "Some viewpoints suggest that state interventionism has achieved success in Russia's economic development."
+        }
+      }
+    },
+    {
+      "source": "政府干預",
+      "target": "印度",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "一些观点认为，国家干预主义在印度的经济发展中取得了成功。",
+          "en": "Some viewpoints suggest that state interventionism has achieved success in India's economic development."
+        }
+      }
+    },
+    {
+      "source": "政府干預",
+      "target": "巴西",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "一些观点认为，国家干预主义在巴西的经济发展中取得了成功。",
+          "en": "Some viewpoints suggest that state interventionism has achieved success in Brazil's economic development."
+        }
+      }
+    },
+    {
+      "source": "市场原教旨主义",
+      "target": "贫富差距",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "对市场原教旨主义的常见抨击认为，它会导致严重的贫富差距问题。",
+          "en": "A common criticism of market fundamentalism is that it leads to severe wealth inequality."
+        }
+      }
+    },
+    {
+      "source": "杜威",
+      "target": "自由放任主义",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "杜威在其演讲中批评了主张国家放任的个人主义（自由放任主义），指出其忽视了社会中势力不平等的问题。",
+          "en": "In his speech, John Dewey criticized individualism that advocates for state non-intervention (laissez-faire), pointing out its failure to address power inequality in society."
+        }
+      }
+    },
+    {
+      "source": "无政府资本主义",
+      "target": "垄断性竞争",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "一种对无政府资本主义的抨击意见认为，它可能会导致成功的企业形成垄断。",
+          "en": "A criticism of anarcho-capitalism is that it could lead to successful enterprises forming monopolies."
+        }
+      }
+    }
+  ]
+}
