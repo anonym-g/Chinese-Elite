@@ -1,0 +1,200 @@
+{
+  "nodes": [
+    {
+      "id": "常宁市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "常宁市人民政府",
+          "常宁市政府"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "常宁市青阳北路"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国湖南省衡阳市常宁市的行政管理机关，行政级别为正县处级。"
+        }
+      }
+    },
+    {
+      "id": "罗卫华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "罗卫华"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物。"
+        }
+      }
+    },
+    {
+      "id": "吴乐胜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吴乐胜"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物。"
+        }
+      }
+    },
+    {
+      "id": "廖本翔",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "廖本翔"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国政治人物。"
+        }
+      }
+    },
+    {
+      "id": "衡阳市人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "衡阳市人民政府"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "常宁市人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "常宁市人民代表大会"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "常宁市人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "常宁市人民代表大会常务委员会"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "湖南省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湖南省"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "衡阳市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "衡阳市"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "常宁市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "常宁市"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "罗卫华",
+      "target": "常宁市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-06",
+        "position": {
+          "zh-cn": "市长"
+        },
+        "description": {
+          "zh-cn": "罗卫华于2021年6月起担任常宁市人民政府市长。"
+        }
+      }
+    },
+    {
+      "source": "吴乐胜",
+      "target": "常宁市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-07",
+        "end_date": "2021-05",
+        "position": {
+          "zh-cn": "市长"
+        },
+        "description": {
+          "zh-cn": "吴乐胜于2016年7月至2021年5月期间担任常宁市人民政府市长。"
+        }
+      }
+    },
+    {
+      "source": "廖本翔",
+      "target": "常宁市人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1997-01-18",
+        "end_date": "1998",
+        "position": {
+          "zh-cn": "市长"
+        },
+        "description": {
+          "zh-cn": "廖本翔于1997年1月18日至1998年期间担任常宁市人民政府市长。"
+        }
+      }
+    },
+    {
+      "source": "常宁市人民政府",
+      "target": "衡阳市人民政府",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "常宁市人民政府的业务上级机构是衡阳市人民政府。"
+        }
+      }
+    },
+    {
+      "source": "常宁市人民政府",
+      "target": "常宁市人民代表大会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "常宁市人民政府的组织上级机构是常宁市人民代表大会。"
+        }
+      }
+    },
+    {
+      "source": "常宁市人民政府",
+      "target": "常宁市人民代表大会常务委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "常宁市人民政府的组织上级机构是常宁市人民代表大会常务委员会。"
+        }
+      }
+    }
+  ]
+}

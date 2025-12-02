@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "谭斌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谭斌"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1963-01 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "佛山",
+          "en": "Foshan"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，汉族，中国共产党党员，第十三届全国人民代表大会广西壮族自治区代表。",
+          "en": "A political figure of the People's Republic of China, of Han ethnicity, a member of the Communist Party of China, and a deputy from the Guangxi Zhuang Autonomous Region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "广东",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广东"
+        ],
+        "en": [
+          "Guangdong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "佛山",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "佛山"
+        ],
+        "en": [
+          "Foshan"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "全国人大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人大代表"
+        ],
+        "en": [
+          "Deputy to the National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全国人民代表大会的组成人员，是中华人民共和国最高国家权力机关的成员。",
+          "en": "A member of the National People's Congress, which is the highest state authority in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018 - 2023"
+      }
+    },
+    {
+      "id": "广西壮族自治区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广西壮族自治区"
+        ],
+        "en": [
+          "Guangxi Zhuang Autonomous Region"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "谭斌",
+      "target": "佛山",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据籍贯信息，谭斌是广东佛山人。",
+          "en": "According to ancestral home information, Tan Bin is from Foshan, Guangdong."
+        }
+      }
+    },
+    {
+      "source": "谭斌",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "谭斌是中国共产党党员。",
+          "en": "Tan Bin is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "谭斌",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "公民",
+          "en": "Citizen"
+        },
+        "description": {
+          "zh-cn": "谭斌的国籍为中华人民共和国。",
+          "en": "Tan Bin's nationality is the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "谭斌",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "广西壮族自治区代表",
+          "en": "Deputy from Guangxi Zhuang Autonomous Region"
+        },
+        "description": {
+          "zh-cn": "2018年，谭斌被选为广西壮族自治区出席第十三届全国人民代表大会代表。",
+          "en": "In 2018, Tan Bin was elected as a deputy from the Guangxi Zhuang Autonomous Region to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

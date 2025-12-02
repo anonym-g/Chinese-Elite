@@ -1,0 +1,377 @@
+{
+  "nodes": [
+    {
+      "id": "范维唐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "范维唐"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1935-07-18 - 2023-01-01",
+        "gender": "Male",
+        "location": {},
+        "birth_place": {
+          "zh-cn": "北平市",
+          "en": ""
+        },
+        "death_place": {
+          "zh-cn": "北京市",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国采矿工程技术专家，中国工程院院士，原籍湖北鄂城。曾任中华人民共和国煤炭工业部副部长。",
+          "en": "A Chinese expert in mining engineering technology, an academician of the Chinese Academy of Engineering, with ancestral roots in Echeng, Hubei. He formerly served as the Vice Minister of the Ministry of Coal Industry of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "北平市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北平市",
+          "北京"
+        ],
+        "en": [
+          "Beiping"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华民国时期的北京市名称，为范维唐的出生地。",
+          "en": "The name for Beijing during the Republic of China era, and the birthplace of Fan Weitang."
+        }
+      }
+    },
+    {
+      "id": "北京市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京市"
+        ],
+        "en": [
+          "Beijing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国首都，范维唐的逝世地。",
+          "en": "The capital of the People's Republic of China, and the place of death for Fan Weitang."
+        }
+      }
+    },
+    {
+      "id": "范治纶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "范治纶"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "范维唐的父亲。",
+          "en": "Father of Fan Weitang."
+        }
+      }
+    },
+    {
+      "id": "范维澄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "范维澄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "范维唐的弟弟。",
+          "en": "Younger brother of Fan Weitang."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "北京科技大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京科技大学",
+          "北京钢铁学院"
+        ],
+        "en": [
+          "University of Science and Technology Beijing"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "莫斯科国立矿业大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "莫斯科国立矿业大学",
+          "莫斯科矿业学院"
+        ],
+        "en": [
+          "Moscow State Mining University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "煤炭科学研究总院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "煤炭科学研究总院"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中华人民共和国煤炭工业部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国煤炭工业部",
+          "煤炭工业部"
+        ],
+        "en": [
+          "Ministry of Coal Industry of the People's Republic of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国工程院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工程院"
+        ],
+        "en": [
+          "Chinese Academy of Engineering"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "全国科学技术名词审定委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国科学技术名词审定委员会",
+          "全国自然科学名词审定委员会"
+        ],
+        "en": [
+          "China National Committee for Terms in Sciences and Technologies"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议全国委员会"
+        ],
+        "en": [
+          "National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党全国代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党全国代表大会"
+        ],
+        "en": [
+          "National Congress of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "瑞典皇家工程科学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "瑞典皇家工程科学院"
+        ],
+        "en": [
+          "Royal Swedish Academy of Engineering Sciences"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "范维唐",
+      "target": "北平市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1935-07-18"
+      }
+    },
+    {
+      "source": "范维唐",
+      "target": "范治纶",
+      "type": "CHILD_OF",
+      "properties": {}
+    },
+    {
+      "source": "范维唐",
+      "target": "范维澄",
+      "type": "SIBLING_OF",
+      "properties": {}
+    },
+    {
+      "source": "范维唐",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "范维唐",
+      "target": "北京科技大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1956",
+        "description": {
+          "zh-cn": "1956年毕业于北京钢铁学院（现北京科技大学）采矿系。",
+          "en": "Graduated from the Department of Mining Engineering at Beijing Institute of Iron and Steel Technology (now University of Science and Technology Beijing) in 1956."
+        }
+      }
+    },
+    {
+      "source": "范维唐",
+      "target": "莫斯科国立矿业大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1963",
+        "degree": {
+          "zh-cn": "技术科学副博士",
+          "en": "Candidate of Technical Sciences"
+        },
+        "description": {
+          "zh-cn": "1963年获莫斯科矿业学院技术科学副博士学位。",
+          "en": "Received a Candidate of Technical Sciences degree from the Moscow Mining Institute in 1963."
+        }
+      }
+    },
+    {
+      "source": "范维唐",
+      "target": "煤炭科学研究总院",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "source": "范维唐",
+      "target": "中华人民共和国煤炭工业部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Vice Minister"
+        }
+      }
+    },
+    {
+      "source": "范维唐",
+      "target": "中国工程院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1994",
+        "position": {
+          "zh-cn": "院士",
+          "en": "Academician"
+        },
+        "description": {
+          "zh-cn": "1994年当选为中国工程院能源与矿业工程学部院士。",
+          "en": "Elected as an academician of the Division of Energy and Mining Engineering of the Chinese Academy of Engineering in 1994."
+        }
+      }
+    },
+    {
+      "source": "范维唐",
+      "target": "全国科学技术名词审定委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Committee Member"
+        },
+        "description": {
+          "zh-cn": "曾任第二届、第三届、第四届全国科学技术名词审定委员会委员。",
+          "en": "Served as a member of the 2nd, 3rd, and 4th China National Committee for Terms in Sciences and Technologies."
+        }
+      }
+    },
+    {
+      "source": "范维唐",
+      "target": "中国人民政治协商会议全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Committee Member"
+        },
+        "description": {
+          "zh-cn": "曾任第八届、第九届全国政协委员。",
+          "en": "Served as a member of the 8th and 9th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "source": "范维唐",
+      "target": "中国共产党全国代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Delegate"
+        },
+        "description": {
+          "zh-cn": "曾任中共第十次、第十一次、第十二次全国代表大会代表。",
+          "en": "Served as a delegate to the 10th, 11th, and 12th National Congress of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "范维唐",
+      "target": "瑞典皇家工程科学院",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "院士",
+          "en": "Academician"
+        }
+      }
+    }
+  ]
+}

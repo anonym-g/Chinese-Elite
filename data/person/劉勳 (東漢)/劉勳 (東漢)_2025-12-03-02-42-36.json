@@ -1,0 +1,694 @@
+{
+  "nodes": [
+    {
+      "id": "刘勋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘勋",
+          "子台"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "琅邪郡",
+          "en": "Langya Commandery"
+        },
+        "description": {
+          "zh-cn": "东汉末年军阀，曾任庐江太守。与曹操有旧交，后在孙策的打击下转而归降曹操，任平虏将军。因其日渐骄慢，数次犯法，并有诽谤和图谋不轨的行为，最终被李申成检举而伏法。其原配妻子为王宋。",
+          "en": "A warlord in the late Eastern Han dynasty who served as the Grand Administrator of Lujiang. He was an old acquaintance of Cao Cao. After being defeated by Sun Ce, he surrendered to Cao Cao and was appointed General Who Pacifies Caitiffs. Due to his growing arrogance, repeated violations of the law, slander, and plotting treason, he was eventually reported by Li Shencheng and executed."
+        }
+      }
+    },
+    {
+      "id": "琅邪郡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "琅邪郡"
+        ],
+        "en": [
+          "Langya Commandery"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代的郡级行政区划，位于今山东省东南部。",
+          "en": "An ancient commandery-level administrative division in China, located in the southeastern part of modern-day Shandong Province."
+        }
+      }
+    },
+    {
+      "id": "东汉",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "东汉"
+        ],
+        "en": [
+          "Eastern Han"
+        ]
+      },
+      "properties": {
+        "period": "25 - 220",
+        "description": {
+          "zh-cn": "中国历史上继西汉之后的大一统王朝。",
+          "en": "A unified dynasty in Chinese history that followed the Western Han."
+        }
+      }
+    },
+    {
+      "id": "庐江郡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "庐江郡",
+          "庐江"
+        ],
+        "en": [
+          "Lujiang Commandery"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代的郡级行政区划。",
+          "en": "An ancient commandery-level administrative division in China."
+        }
+      }
+    },
+    {
+      "id": "王宋",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王宋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "刘勋的原配妻子，因无子而被刘勋休弃。",
+          "en": "Liu Xun's first wife, who was divorced by him for not bearing a son."
+        }
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操"
+        ],
+        "en": [
+          "Cao Cao"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年杰出的政治家、军事家、文学家，曹魏政权的奠基人。",
+          "en": "An outstanding statesman, strategist, and writer of the late Eastern Han dynasty, and the founder of the state of Cao Wei."
+        }
+      }
+    },
+    {
+      "id": "袁术",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁术"
+        ],
+        "en": [
+          "Yuan Shu"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀之一，曾于寿春称帝。",
+          "en": "One of the warlords in the late Eastern Han dynasty, who once declared himself emperor in Shouchun."
+        }
+      }
+    },
+    {
+      "id": "孙策",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "孙策"
+        ],
+        "en": [
+          "Sun Ce"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年军阀，为孙吴政权的奠基者之一。",
+          "en": "A warlord in the late Eastern Han dynasty and one of the founders of the state of Eastern Wu."
+        }
+      }
+    },
+    {
+      "id": "陆康",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陆康"
+        ],
+        "en": [
+          "Lu Kang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年官员，曾任庐江太守，后被孙策攻打。",
+          "en": "An official in the late Eastern Han dynasty who served as the Grand Administrator of Lujiang and was later attacked by Sun Ce."
+        }
+      }
+    },
+    {
+      "id": "袁胤",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "袁胤"
+        ],
+        "en": [
+          "Yuan Yin"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "袁术的从弟。袁术败亡后，率其部曲投奔刘勋。",
+          "en": "Yuan Shu's younger cousin. After Yuan Shu's defeat and death, he led his troops to seek refuge with Liu Xun."
+        }
+      }
+    },
+    {
+      "id": "寿春郡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "寿春郡",
+          "寿春"
+        ],
+        "en": [
+          "Shouchun Commandery"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代的郡级行政区划。",
+          "en": "An ancient commandery-level administrative division in China."
+        }
+      }
+    },
+    {
+      "id": "皖城",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "皖城"
+        ],
+        "en": [
+          "Wancheng"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东汉时期城池，位于庐江郡。",
+          "en": "A city during the Eastern Han dynasty, located in Lujiang Commandery."
+        }
+      }
+    },
+    {
+      "id": "杨弘 (东汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨弘 (东汉)",
+          "杨弘"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "袁术帐下长史。",
+          "en": "Chief Clerk under the warlord Yuan Shu."
+        }
+      }
+    },
+    {
+      "id": "张勋 (东汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张勋 (东汉)",
+          "张勋"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "袁术帐下大将军。",
+          "en": "Grand General under the warlord Yuan Shu."
+        }
+      }
+    },
+    {
+      "id": "孙策攻刘勋卢江之战",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "孙策攻刘勋卢江之战"
+        ],
+        "en": [
+          "Sun Ce's conquest of Lujiang against Liu Xun"
+        ]
+      },
+      "properties": {
+        "period": "199",
+        "description": {
+          "zh-cn": "建安四年（199年），孙策设计并成功袭击刘勋，夺取庐江郡的战役。",
+          "en": "In 199 AD (the 4th year of Jian'an), it was a battle in which Sun Ce devised a plan and successfully ambushed Liu Xun, seizing control of Lujiang Commandery."
+        }
+      }
+    },
+    {
+      "id": "刘晔 (三国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘晔 (三国)",
+          "刘晔"
+        ],
+        "en": [
+          "Liu Ye"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期曹魏的战略家和政治家。在投奔曹操前，曾短暂在刘勋帐下。",
+          "en": "A strategist and politician of the state of Cao Wei during the Three Kingdoms period. He briefly served under Liu Xun before joining Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "平虏将军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "平虏将军"
+        ],
+        "en": [
+          "General Who Pacifies Caitiffs"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国古代将军名号之一。",
+          "en": "One of the general titles in ancient China."
+        }
+      }
+    },
+    {
+      "id": "司马芝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "司马芝"
+        ],
+        "en": [
+          "Sima Zhi"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期曹魏官员，以不畏豪强著称。",
+          "en": "An official of the state of Cao Wei during the Three Kingdoms period, known for his fearlessness in the face of the powerful."
+        }
+      }
+    },
+    {
+      "id": "杨沛",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨沛"
+        ],
+        "en": [
+          "Yang Pei"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期曹魏官员，以不畏豪强著称。",
+          "en": "An official of the state of Cao Wei during the Three Kingdoms period, known for his fearlessness in the face of the powerful."
+        }
+      }
+    },
+    {
+      "id": "曹洪",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹洪"
+        ],
+        "en": [
+          "Cao Hong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "三国时期曹魏将领，曹操的从弟。",
+          "en": "A general of the state of Cao Wei during the Three Kingdoms period and a younger cousin of Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "李申成",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李申成"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "检举刘勋图谋不轨的人物。",
+          "en": "The person who reported Liu Xun for plotting treason."
+        }
+      }
+    },
+    {
+      "id": "刘威",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘威"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "刘勋的侄子。",
+          "en": "Liu Xun's nephew."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘勋",
+      "target": "琅邪郡",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "刘勋是琅邪郡人。",
+          "en": "Liu Xun was from Langya Commandery."
+        }
+      }
+    },
+    {
+      "source": "刘勋",
+      "target": "王宋",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "王宋是刘勋的原配妻子，结婚二十余年后因无子被刘勋休弃。",
+          "en": "Wang Song was Liu Xun's first wife; she was divorced by him after more than twenty years of marriage because she had not borne a son."
+        }
+      }
+    },
+    {
+      "source": "刘勋",
+      "target": "曹操",
+      "type": "FRIEND_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘勋在中平末年担任沛国建平县长时，便与曹操有旧交。",
+          "en": "Liu Xun had an old acquaintance with Cao Cao when he was the chief of Jianping County in Pei State during the late Zhongping era."
+        }
+      }
+    },
+    {
+      "source": "袁术",
+      "target": "刘勋",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "袁术在孙策攻下庐江后，没有遵守承诺将太守之位授予孙策，而是任命其旧部刘勋为庐江太守。",
+          "en": "After Sun Ce conquered Lujiang, Yuan Shu did not honor his promise to grant the position of Grand Administrator to Sun Ce, instead appointing his former subordinate Liu Xun to the post."
+        }
+      }
+    },
+    {
+      "source": "刘勋",
+      "target": "袁术",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "199",
+        "description": {
+          "zh-cn": "刘勋曾为袁术的部下，并被其任命为庐江太守。袁术败亡后，此关系结束。",
+          "en": "Liu Xun was a subordinate of Yuan Shu and was appointed by him as the Grand Administrator of Lujiang. This relationship ended after Yuan Shu's defeat and death."
+        }
+      }
+    },
+    {
+      "source": "孙策",
+      "target": "陆康",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "194",
+        "description": {
+          "zh-cn": "194年，袁术派孙策攻打时任庐江太守的陆康。",
+          "en": "In 194, Yuan Shu dispatched Sun Ce to attack Lu Kang, who was then the Grand Administrator of Lujiang."
+        }
+      }
+    },
+    {
+      "source": "袁胤",
+      "target": "刘勋",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "199",
+        "description": {
+          "zh-cn": "袁术败亡后，其从弟袁胤率领部曲和袁术的家眷前往皖城投奔刘勋。",
+          "en": "After Yuan Shu's defeat and death, his younger cousin Yuan Yin led his troops and Yuan Shu's family to Wancheng to seek refuge with Liu Xun."
+        }
+      }
+    },
+    {
+      "source": "杨弘 (东汉)",
+      "target": "袁术",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "长史",
+          "en": "Chief Clerk"
+        },
+        "description": {
+          "zh-cn": "杨弘是袁术麾下的长史。",
+          "en": "Yang Hong was the Chief Clerk under Yuan Shu."
+        }
+      }
+    },
+    {
+      "source": "张勋 (东汉)",
+      "target": "袁术",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "大将军",
+          "en": "Grand General"
+        },
+        "description": {
+          "zh-cn": "张勋是袁术麾下的大将军。",
+          "en": "Zhang Xun was the Grand General under Yuan Shu."
+        }
+      }
+    },
+    {
+      "source": "刘勋",
+      "target": "杨弘 (东汉)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "199",
+        "description": {
+          "zh-cn": "杨弘在袁术败亡后，意欲率部投奔孙策，但在途中被刘勋截击并俘虏。",
+          "en": "After Yuan Shu's defeat, Yang Hong intended to lead his troops to join Sun Ce but was intercepted and captured by Liu Xun along the way."
+        }
+      }
+    },
+    {
+      "source": "刘勋",
+      "target": "张勋 (东汉)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "199",
+        "description": {
+          "zh-cn": "张勋在袁术败亡后，意欲率部投奔孙策，但在途中被刘勋截击并俘虏。",
+          "en": "After Yuan Shu's defeat, Zhang Xun intended to lead his troops to join Sun Ce but was intercepted and captured by Liu Xun along the way."
+        }
+      }
+    },
+    {
+      "source": "孙策",
+      "target": "刘勋",
+      "type": "ENEMY_OF",
+      "properties": {
+        "period": "199",
+        "description": {
+          "zh-cn": "孙策忌惮吞并了袁术余部的刘勋，于是设计诱其出兵，乘虚攻占了庐江。",
+          "en": "Sun Ce grew wary of Liu Xun after he absorbed the remnants of Yuan Shu's forces, so he devised a plan to lure him away and seize Lujiang in his absence."
+        }
+      }
+    },
+    {
+      "source": "孙策",
+      "target": "孙策攻刘勋卢江之战",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "199",
+        "description": {
+          "zh-cn": "孙策策划并领导了对刘勋的庐江之战。",
+          "en": "Sun Ce planned and led the battle against Liu Xun for control of Lujiang."
+        }
+      }
+    },
+    {
+      "source": "孙策攻刘勋卢江之战",
+      "target": "刘勋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "199",
+        "description": {
+          "zh-cn": "在孙策攻刘勋卢江之战中，刘勋中计被击败，丧失了庐江郡。",
+          "en": "In the battle for Lujiang, Liu Xun fell into Sun Ce's trap, was defeated, and lost control of Lujiang Commandery."
+        }
+      }
+    },
+    {
+      "source": "刘晔 (三国)",
+      "target": "刘勋",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "199",
+        "description": {
+          "zh-cn": "在孙策诱使刘勋攻打上缭时，刘晔曾劝谏刘勋不要出兵，但刘勋不听其建议。",
+          "en": "When Sun Ce tried to lure Liu Xun into attacking Shangliao, Liu Ye advised Liu Xun against dispatching troops, but Liu Xun did not heed his advice."
+        }
+      }
+    },
+    {
+      "source": "刘晔 (三国)",
+      "target": "刘勋",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "199",
+        "description": {
+          "zh-cn": "在孙策攻取庐江前，刘晔在刘勋帐下任职。",
+          "en": "Before Sun Ce's conquest of Lujiang, Liu Ye served under Liu Xun."
+        }
+      }
+    },
+    {
+      "source": "刘勋",
+      "target": "曹操",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "199",
+        "description": {
+          "zh-cn": "刘勋在被孙策击败后，于建安四年（199年）与弟弟一同投奔旧交曹操。",
+          "en": "After being defeated by Sun Ce, Liu Xun, along with his younger brother, went to seek refuge with his old acquaintance Cao Cao in the fourth year of Jian'an (199 AD)."
+        }
+      }
+    },
+    {
+      "source": "刘勋",
+      "target": "平虏将军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "199",
+        "position": {
+          "zh-cn": "平虏将军",
+          "en": "General Who Pacifies Caitiffs"
+        },
+        "description": {
+          "zh-cn": "刘勋投奔曹操后，被任命为平虏将军。",
+          "en": "After surrendering to Cao Cao, Liu Xun was appointed General Who Pacifies Caitiffs."
+        }
+      }
+    },
+    {
+      "source": "司马芝",
+      "target": "刘勋",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "司马芝任广平县令时，不畏惧受曹操宠信的刘勋，依法处理其宾客子弟的犯法行为，不与其同流合污。",
+          "en": "When Sima Zhi was the magistrate of Guangping County, he was not intimidated by Liu Xun, who was favored by Cao Cao. He handled the illegal activities of Liu Xun's associates according to the law and refused to collude with him."
+        }
+      }
+    },
+    {
+      "source": "杨沛",
+      "target": "刘勋",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "杨沛任邺县令时，执法严明，不畏豪强，刘勋因此畏惧他并告诫其子弟不得犯法。",
+          "en": "When Yang Pei was the magistrate of Ye County, he enforced the law strictly and was not afraid of the powerful. Liu Xun consequently feared him and warned his children and followers not to break the law."
+        }
+      }
+    },
+    {
+      "source": "李申成",
+      "target": "刘勋",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "李申成检举刘勋图谋不轨，导致刘勋被捕并最终被处决。",
+          "en": "Li Shencheng reported Liu Xun for plotting treason, which led to Liu Xun's arrest and eventual execution."
+        }
+      }
+    },
+    {
+      "source": "刘威",
+      "target": "刘勋",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘威是刘勋的侄子。",
+          "en": "Liu Wei was Liu Xun's nephew."
+        }
+      }
+    },
+    {
+      "source": "刘勋",
+      "target": "刘威",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "刘勋被处决后，其侄子刘威也受到牵连而被免官。",
+          "en": "After Liu Xun was executed, his nephew Liu Wei was also implicated and dismissed from his official post."
+        }
+      }
+    }
+  ]
+}

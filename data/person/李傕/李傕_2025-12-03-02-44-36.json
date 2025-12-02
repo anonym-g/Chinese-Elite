@@ -1,0 +1,872 @@
+{
+  "nodes": [
+    {
+      "id": "李傕",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李傕",
+          "稚然"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 198",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "北地郡",
+          "en": "Beidi Commandery"
+        },
+        "description": {
+          "zh-cn": "东汉末年群雄之一，凉州军阀，继董卓之后的权臣。性格勇猛诡谲，善于用兵。官至大司马、车骑将军、司隶校尉，爵位为池阳侯。",
+          "en": "A warlord during the late Eastern Han dynasty. Originally from the Liang Province faction, he became a powerful court official after Dong Zhuo. He was known for being brave, cunning, and skilled in warfare. He held high offices including Grand Marshal, General of Chariots and Cavalry, and Colonel-Director of Retainers, and was ennobled as the Marquis of Chiyang."
+        }
+      }
+    },
+    {
+      "id": "郭汜",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭汜"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": " - 197",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年董卓的部将。董卓死后，与李傕等人合兵攻入长安，把持朝政。后与李傕争权，互相攻击，最终被部将伍习所杀。",
+          "en": "A general under Dong Zhuo in the late Eastern Han dynasty. After Dong Zhuo's death, he joined forces with Li Jue to attack Chang'an and control the imperial court. He later fought with Li Jue for power and was eventually killed by his subordinate Wu Xi."
+        }
+      }
+    },
+    {
+      "id": "贾诩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "贾诩"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年至三国时期曹魏谋士。原为董卓部将，董卓死后，献策李傕、郭汜反攻长安。后先后依附段煨、张绣，最终归顺曹操。",
+          "en": "An advisor who lived during the late Eastern Han dynasty and the Three Kingdoms period, serving the state of Cao Wei. Originally a subordinate of Dong Zhuo, he advised Li Jue and Guo Si to attack Chang'an after Dong Zhuo's death. He later served Duan Wei and Zhang Xiu before eventually joining Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "董卓",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "董卓"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年权臣，官至太师，封郿侯。以拥立汉献帝之名义，挟天子以令诸侯，后被王允和吕布所杀。",
+          "en": "A powerful official in the late Eastern Han dynasty, holding the title of Grand Preceptor and Marquis of Mei. He controlled the emperor and the court until he was assassinated by Wang Yun and Lü Bu."
+        }
+      }
+    },
+    {
+      "id": "吕布",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "吕布"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年名将及割据军阀。以勇武闻名，先后为丁原、董卓的部将，也曾为袁绍效力，后与王允合谋诛杀董卓。后被李傕、郭汜击败，转而割据徐州。",
+          "en": "A famous general and warlord in the late Eastern Han dynasty. Known for his martial prowess, he served under Ding Yuan and Dong Zhuo. He conspired with Wang Yun to assassinate Dong Zhuo but was later defeated by Li Jue and Guo Si, eventually carving out his own territory in Xu Province."
+        }
+      }
+    },
+    {
+      "id": "王允",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王允"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年大臣，官至司徒。策划并联合吕布成功诛杀董卓，但随后被董卓旧部李傕、郭汜等击败，并被杀害。",
+          "en": "A minister in the late Eastern Han dynasty, serving as Minister over the Masses. He plotted with Lü Bu to successfully assassinate Dong Zhuo but was later defeated and killed by Dong Zhuo's former subordinates, Li Jue and Guo Si."
+        }
+      }
+    },
+    {
+      "id": "汉献帝",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汉献帝"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉最后一位皇帝。一生被权臣控制，先后被董卓、李傕、郭汜、曹操等人挟持。",
+          "en": "The last emperor of the Eastern Han dynasty. His reign was dominated by powerful warlords who held him as a figurehead, including Dong Zhuo, Li Jue, Guo Si, and Cao Cao."
+        }
+      }
+    },
+    {
+      "id": "长安",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "长安"
+        ],
+        "en": [
+          "Chang'an"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东汉的都城之一。在董卓死后，被李傕、郭汜率军攻陷并遭到劫掠。",
+          "en": "One of the capitals of the Eastern Han dynasty. After Dong Zhuo's death, it was captured and sacked by the forces of Li Jue and Guo Si."
+        }
+      }
+    },
+    {
+      "id": "李郭之乱",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "李郭之乱"
+        ],
+        "en": [
+          "Rebellion of Li Jue and Guo Si"
+        ]
+      },
+      "properties": {
+        "period": "192 - 195",
+        "description": {
+          "zh-cn": "董卓死后，其旧部李傕、郭汜等人反攻长安，掌控朝廷，挟持汉献帝，导致关中地区长达数年的动乱和饥荒。",
+          "en": "After Dong Zhuo's death, his former subordinates Li Jue and Guo Si counter-attacked Chang'an, controlled the imperial court, and held Emperor Xian hostage, leading to years of turmoil and famine in the Guanzhong region."
+        }
+      }
+    },
+    {
+      "id": "牛辅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "牛辅"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年董卓的女婿。曾派遣李傕与朱俊交战。",
+          "en": "Son-in-law of Dong Zhuo during the late Eastern Han dynasty. He once dispatched Li Jue to fight against Zhu Jun."
+        }
+      }
+    },
+    {
+      "id": "朱俊",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱俊"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年名将，曾参与平定黄巾之乱。后在中牟与李傕交战，兵败。",
+          "en": "A famous general in the late Eastern Han dynasty who participated in suppressing the Yellow Turban Rebellion. He was later defeated by Li Jue in a battle at Zhongmu."
+        }
+      }
+    },
+    {
+      "id": "徐荣 (东汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "徐荣 (东汉)",
+          "徐荣"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年董卓的部将。董卓死后归顺王允，在新丰迎击李傕、郭汜军时战死。",
+          "en": "A general under Dong Zhuo in the late Eastern Han dynasty. After Dong Zhuo's death, he submitted to Wang Yun but was killed in battle at Xinfeng while resisting the forces of Li Jue and Guo Si."
+        }
+      }
+    },
+    {
+      "id": "胡轸",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡轸"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年董卓的部将。董卓死后，在新丰迎击李傕、郭汜军时，率部投降。",
+          "en": "A general under Dong Zhuo in the late Eastern Han dynasty. After Dong Zhuo's death, while resisting the forces of Li Jue and Guo Si at Xinfeng, he led his troops to surrender."
+        }
+      }
+    },
+    {
+      "id": "樊稠",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "樊稠"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年董卓的部将。与李傕、郭汜一同攻占长安，后因被李傕猜忌，在会议上被其外甥胡封刺杀。",
+          "en": "A general under Dong Zhuo in the late Eastern Han dynasty. He captured Chang'an along with Li Jue and Guo Si, but was later assassinated during a meeting by Li Jue's nephew Hu Feng due to Li Jue's suspicion."
+        }
+      }
+    },
+    {
+      "id": "李蒙 (东汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李蒙 (东汉)",
+          "李蒙"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年董卓的部将。与李傕等人一同攻占长安，后被李傕在会议上刺杀。",
+          "en": "A general under Dong Zhuo in the late Eastern Han dynasty. He captured Chang'an along with Li Jue and others, but was later assassinated by Li Jue during a meeting."
+        }
+      }
+    },
+    {
+      "id": "马腾",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马腾"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年西凉军阀。曾与韩遂联合进攻李傕，兵败。",
+          "en": "A warlord from Xiliang during the late Eastern Han dynasty. He once allied with Han Sui to attack Li Jue but was defeated."
+        }
+      }
+    },
+    {
+      "id": "韩遂",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩遂"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年西凉军阀。曾与马腾联合进攻李傕，兵败。",
+          "en": "A warlord from Xiliang during the late Eastern Han dynasty. He once allied with Ma Teng to attack Li Jue but was defeated."
+        }
+      }
+    },
+    {
+      "id": "胡封",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡封"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李傕的外甥，任骑都尉。受李傕之命在会议上刺杀了樊稠和李蒙。",
+          "en": "Li Jue's nephew, who served as a Commandant of Cavalry. Under Li Jue's order, he assassinated Fan Chou and Li Meng during a meeting."
+        }
+      }
+    },
+    {
+      "id": "曹操",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹操"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年权臣，奠定了曹魏的基础。在汉献帝东归后将其迎至许都，后派兵讨伐李傕，并将其诛杀。",
+          "en": "A powerful official in the late Eastern Han dynasty who laid the foundation for the state of Cao Wei. He welcomed Emperor Xian to Xuchang and later dispatched forces to defeat and execute Li Jue."
+        }
+      }
+    },
+    {
+      "id": "梁兴",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "梁兴"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年关中将领。在曹操的命令下，与其他将领一同讨伐李傕，并将其击败斩杀。",
+          "en": "A general in the Guanzhong region during the late Eastern Han dynasty. Under Cao Cao's orders, he, along with other generals, campaigned against and killed Li Jue."
+        }
+      }
+    },
+    {
+      "id": "张横 (东汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张横 (东汉)",
+          "张横"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年关中将领。在曹操的命令下，与其他将领一同讨伐李傕，并将其击败斩杀。",
+          "en": "A general in the Guanzhong region during the late Eastern Han dynasty. Under Cao Cao's orders, he, along with other generals, campaigned against and killed Li Jue."
+        }
+      }
+    },
+    {
+      "id": "段煨",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "段煨"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "东汉末年将领。在曹操的命令下，与其他将领一同讨伐李傕，并将其击败。后将李傕全家押解许都。",
+          "en": "A general during the late Eastern Han dynasty. Under Cao Cao's orders, he, along with other generals, campaigned against and defeated Li Jue. He later escorted Li Jue's entire family to Xuchang."
+        }
+      }
+    },
+    {
+      "id": "李式 (三国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李式 (三国)",
+          "李式"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李傕的儿子。",
+          "en": "Son of Li Jue."
+        }
+      }
+    },
+    {
+      "id": "李氏 (三国)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李氏 (三国)",
+          "李氏"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "李傕的女儿，曾被作为人质与郭汜讲和。",
+          "en": "Daughter of Li Jue, who was once used as a hostage for peace talks with Guo Si."
+        }
+      }
+    },
+    {
+      "id": "宋果",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "宋果"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李傕的军吏。曾与杨奉等人密谋杀害李傕，事败后领兵叛逃。",
+          "en": "An officer in Li Jue's army. He conspired with Yang Feng and others to assassinate Li Jue. After the plot was exposed, he led his troops in rebellion."
+        }
+      }
+    },
+    {
+      "id": "张苞",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张苞"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李傕的中郎将。曾与郭汜密谋诛杀李傕。",
+          "en": "A Commandant in Li Jue's army. He conspired with Guo Si to assassinate Li Jue."
+        }
+      }
+    },
+    {
+      "id": "张龙 (东汉)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张龙 (东汉)",
+          "张龙"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "李傕的中郎将。曾与郭汜密谋诛杀李傕。",
+          "en": "A Commandant in Li Jue's army. He conspired with Guo Si to assassinate Li Jue."
+        }
+      }
+    },
+    {
+      "id": "北地郡",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北地郡"
+        ],
+        "en": [
+          "Beidi Commandery"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "东汉时期的一个郡，是李傕的家乡。",
+          "en": "A commandery during the Eastern Han dynasty, and the hometown of Li Jue."
+        }
+      }
+    },
+    {
+      "id": "伍习",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伍习"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "郭汜的部将，后杀死郭汜。",
+          "en": "A subordinate of Guo Si, whom he later killed."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "贾诩",
+      "target": "李傕",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "192",
+        "description": {
+          "zh-cn": "董卓死后，贾诩向李傕献策“奉国家以正天下”，劝其反攻长安。",
+          "en": "After Dong Zhuo's death, Jia Xu advised Li Jue to 'uphold the state to rectify the world', persuading him to counter-attack Chang'an."
+        }
+      }
+    },
+    {
+      "source": "贾诩",
+      "target": "李傕",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "192",
+        "end_date": "197",
+        "description": {
+          "zh-cn": "贾诩在李傕军中任职，后李傕请贾诩为宣义将军，辅佐自己。建安二年（197年），贾诩离开李傕。",
+          "en": "Jia Xu served in Li Jue's army, and Li Jue later appointed him as General of Proclaimed Righteousness to assist him. In 197 AD, Jia Xu left Li Jue."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "郭汜",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "192",
+        "end_date": "195",
+        "description": {
+          "zh-cn": "与同僚郭汜合作攻进长安，共同把持朝政。",
+          "en": "Collaborated with his colleague Guo Si to attack Chang'an and jointly controlled the imperial court."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "郭汜",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "195",
+        "description": {
+          "zh-cn": "因争权夺利而矛盾激化，率兵相互攻击，交战数月。郭汜的妻子曾从中挑拨，加剧了二人的猜疑。",
+          "en": "Their conflict escalated due to power struggles, leading them to attack each other with their armies for several months. Guo Si's wife sowed discord between them, intensifying their mutual suspicion."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "董卓",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "192-04",
+        "description": {
+          "zh-cn": "李傕是凉州军阀董卓的部下，在董卓死后为其报仇。",
+          "en": "Li Jue was a subordinate of the Liangzhou warlord Dong Zhuo and avenged his death."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "吕布",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "192",
+        "description": {
+          "zh-cn": "与郭汜等人合兵攻入长安，击败吕布，迫使其逃离。",
+          "en": "Joined forces with Guo Si and others to attack Chang'an, defeating Lü Bu and forcing him to flee."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "王允",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "192",
+        "description": {
+          "zh-cn": "攻入长安后，杀死王允，并灭其三族。",
+          "en": "After breaking into Chang'an, he killed Wang Yun and exterminated his clan."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "汉献帝",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "192",
+        "end_date": "195",
+        "description": {
+          "zh-cn": "攻占长安后，挟持汉献帝，掌控东汉朝廷。",
+          "en": "After capturing Chang'an, he held Emperor Xian hostage and controlled the Eastern Han imperial court."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "李郭之乱",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "192",
+        "description": {
+          "zh-cn": "李傕与郭汜反攻长安并专政，是这场动乱的主要发动者。",
+          "en": "Li Jue, along with Guo Si, launched a counter-attack on Chang'an and established a dictatorship, being the main instigators of this turmoil."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "牛辅",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "end_date": "192",
+        "description": {
+          "zh-cn": "曾被董卓女婿牛辅派遣至中牟与朱俊交战。",
+          "en": "Was dispatched by Dong Zhuo's son-in-law Niu Fu to fight Zhu Jun at Zhongmu."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "朱俊",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "191",
+        "description": {
+          "zh-cn": "在中牟与朱俊交战，并将其击破。",
+          "en": "Fought against and defeated Zhu Jun at Zhongmu."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "徐荣 (东汉)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "192",
+        "description": {
+          "zh-cn": "李傕率军攻打长安时，在新丰击败了前来迎击的徐荣，徐荣战死。",
+          "en": "When Li Jue led his army to attack Chang'an, he defeated the defending general Xu Rong at Xinfeng, leading to Xu Rong's death in battle."
+        }
+      }
+    },
+    {
+      "source": "胡轸",
+      "target": "李傕",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "192",
+        "description": {
+          "zh-cn": "在新丰迎击李傕军时，率部投降。",
+          "en": "While resisting Li Jue's army at Xinfeng, he led his troops to surrender."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "樊稠",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "195-02",
+        "description": {
+          "zh-cn": "因猜忌樊稠，命其外甥胡封在会议上将樊稠刺杀。",
+          "en": "Due to his suspicion of Fan Chou, he ordered his nephew Hu Feng to assassinate Fan Chou during a meeting."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "李蒙 (东汉)",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "195-02",
+        "description": {
+          "zh-cn": "在会议上，与樊稠一同被李傕的外甥胡封刺杀。",
+          "en": "Was assassinated along with Fan Chou by Li Jue's nephew Hu Feng during a meeting."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "马腾",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "194-03",
+        "description": {
+          "zh-cn": "派郭汜、樊稠等人与马腾、韩遂的联军在长平观大战，并将其击败。",
+          "en": "Dispatched Guo Si, Fan Chou, and others to fight the allied forces of Ma Teng and Han Sui at Changpingguan, defeating them."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "韩遂",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "194-03",
+        "description": {
+          "zh-cn": "派郭汜、樊稠等人与马腾、韩遂的联军在长平观大战，并将其击败。",
+          "en": "Dispatched Guo Si, Fan Chou, and others to fight the allied forces of Ma Teng and Han Sui at Changpingguan, defeating them."
+        }
+      }
+    },
+    {
+      "source": "曹操",
+      "target": "李傕",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "197-10",
+        "end_date": "198-04",
+        "description": {
+          "zh-cn": "派裴茂率关中诸将讨伐李傕，最终将其击败斩首，并下令夷其三族。",
+          "en": "Dispatched Pei Mao to lead the generals of Guanzhong to campaign against Li Jue, ultimately defeating and beheading him, and ordered the extermination of his three clans."
+        }
+      }
+    },
+    {
+      "source": "梁兴",
+      "target": "李傕",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "198-04",
+        "description": {
+          "zh-cn": "奉曹操之命，与张横、段煨等关中诸将一同讨伐并击败斩杀李傕。",
+          "en": "Under Cao Cao's orders, campaigned against and killed Li Jue along with other Guanzhong generals such as Zhang Heng and Duan Wei."
+        }
+      }
+    },
+    {
+      "source": "张横 (东汉)",
+      "target": "李傕",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "198-04",
+        "description": {
+          "zh-cn": "奉曹操之命，与梁兴、段煨等关中诸将一同讨伐并击败斩杀李傕。",
+          "en": "Under Cao Cao's orders, campaigned against and killed Li Jue along with other Guanzhong generals such as Liang Xing and Duan Wei."
+        }
+      }
+    },
+    {
+      "source": "段煨",
+      "target": "李傕",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "198-04",
+        "description": {
+          "zh-cn": "奉曹操之命，与梁兴、张横等关中诸将一同讨伐并击败李傕。后将其全家老少押解许都。",
+          "en": "Under Cao Cao's orders, campaigned against and defeated Li Jue along with other Guanzhong generals such as Liang Xing and Zhang Heng. He later escorted Li Jue's entire family to Xuchang."
+        }
+      }
+    },
+    {
+      "source": "李式 (三国)",
+      "target": "李傕",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李式是李傕的儿子。",
+          "en": "Li Shi is the son of Li Jue."
+        }
+      }
+    },
+    {
+      "source": "李氏 (三国)",
+      "target": "李傕",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李氏是李傕的女儿。",
+          "en": "Li Shi is the daughter of Li Jue."
+        }
+      }
+    },
+    {
+      "source": "胡封",
+      "target": "李傕",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "胡封是李傕的外甥。",
+          "en": "Hu Feng is Li Jue's nephew."
+        }
+      }
+    },
+    {
+      "source": "胡封",
+      "target": "李傕",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "胡封任骑都尉，受李傕之命行事。",
+          "en": "Hu Feng served as a Commandant of Cavalry and acted under Li Jue's orders."
+        }
+      }
+    },
+    {
+      "source": "宋果",
+      "target": "李傕",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李傕军吏宋果曾密谋杀害李傕，事败后领兵叛逃。",
+          "en": "Song Guo, an officer in Li Jue's army, conspired to assassinate Li Jue. After the plot failed, he led his troops in rebellion."
+        }
+      }
+    },
+    {
+      "source": "张苞",
+      "target": "李傕",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李傕中郎将张苞曾与郭汜密谋诛杀李傕。",
+          "en": "Zhang Bao, a Commandant in Li Jue's army, conspired with Guo Si to assassinate Li Jue."
+        }
+      }
+    },
+    {
+      "source": "张龙 (东汉)",
+      "target": "李傕",
+      "type": "ENEMY_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "李傕中郎将张龙曾与郭汜密谋诛杀李傕。",
+          "en": "Zhang Long, a Commandant in Li Jue's army, conspired with Guo Si to assassinate Li Jue."
+        }
+      }
+    },
+    {
+      "source": "李傕",
+      "target": "北地郡",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "李傕是北地郡人。",
+          "en": "Li Jue was from Beidi Commandery."
+        }
+      }
+    },
+    {
+      "source": "伍习",
+      "target": "郭汜",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "197",
+        "description": {
+          "zh-cn": "郭汜被其部将伍习杀死。",
+          "en": "Guo Si was killed by his subordinate Wu Xi."
+        }
+      }
+    }
+  ]
+}

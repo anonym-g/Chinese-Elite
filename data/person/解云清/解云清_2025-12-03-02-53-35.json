@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "解云清",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "解云清"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1911- - 1986-",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "清苑",
+          "en": "Qingyuan"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物。",
+          "en": "A politician of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "直隶省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "直隶省",
+          "直隶"
+        ],
+        "en": [
+          "Zhili province"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国清代和中华民国初年的一个省份，是今天河北省的前身。",
+          "en": "A province of China during the Qing dynasty and the early Republic of China, the predecessor of modern Hebei province."
+        }
+      }
+    },
+    {
+      "id": "河北省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "河北省",
+          "河北"
+        ],
+        "en": [
+          "Hebei"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国省级行政区。",
+          "en": "A provincial-level administrative division of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "清苑县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "清苑县",
+          "清苑"
+        ],
+        "en": [
+          "Qingyuan County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "解云清的出生地，位于今河北省。",
+          "en": "The birthplace of Xie Yunqing, located in modern-day Hebei Province."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，由中国共产党领导。",
+          "en": "A country in East Asia led by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "黑龙江省革命委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "黑龙江省革命委员会"
+        ],
+        "en": [
+          "Heilongjiang Provincial Revolutionary Committee"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "文化大革命期间黑龙江省的权力机构。",
+          "en": "The governing body of Heilongjiang Province during the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "黑龙江省人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "黑龙江省人民政府"
+        ],
+        "en": [
+          "Heilongjiang Provincial People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国黑龙江省的省级国家行政机关。",
+          "en": "The provincial-level state administrative organ of Heilongjiang Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "解云清",
+      "target": "黑龙江省革命委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "解云清曾担任黑龙江省革命委员会副主任。",
+          "en": "Xie Yunqing once served as the Deputy Director of the Heilongjiang Provincial Revolutionary Committee."
+        }
+      }
+    },
+    {
+      "source": "解云清",
+      "target": "黑龙江省人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副省长",
+          "en": "Vice Governor"
+        },
+        "description": {
+          "zh-cn": "解云清曾担任黑龙江省人民政府副省长。",
+          "en": "Xie Yunqing once served as the Vice Governor of the Heilongjiang Provincial People's Government."
+        }
+      }
+    },
+    {
+      "source": "解云清",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，解云清是中国共产党党员。",
+          "en": "According to the Wikipedia category, Xie Yunqing was a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "解云清",
+      "target": "清苑县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1911",
+        "description": {
+          "zh-cn": "解云清出生于直隶（今河北）清苑。",
+          "en": "Xie Yunqing was born in Qingyuan, Zhili (modern-day Hebei)."
+        }
+      }
+    },
+    {
+      "source": "直隶省",
+      "target": "河北省",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "文本中提及“直隶（今河北）”，表明河北省是直隶省的后继行政区划。",
+          "en": "The text mentions 'Zhili (modern-day Hebei),' indicating that Hebei Province is the successor administrative division to Zhili Province."
+        }
+      }
+    }
+  ]
+}
