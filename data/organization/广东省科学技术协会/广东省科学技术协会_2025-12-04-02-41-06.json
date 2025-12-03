@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "广东省科学技术协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广东省科学技术协会",
+          "广东省科协"
+        ],
+        "en": [
+          "Guangdong Provincial Association for Science and Technology"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "广州市越秀区连新路171号广东科学馆西楼",
+          "en": "West Building, Guangdong Science Hall, No. 171 Lianxin Road, Yuexiu District, Guangzhou"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国广东省科学技术工作者组成的专业性人民团体，是中国科学技术协会的地方组织，受中国共产党广东省委员会的领导。其前身为广东省科普协会和广东省科联。",
+          "en": "A professional people's organization composed of science and technology workers in Guangdong Province, People's Republic of China. It is a local organization of the China Association for Science and Technology and is led by the Guangdong Provincial Committee of the Communist Party of China. Its predecessors were the Guangdong Provincial Popular Science Association and the Guangdong Provincial Federation of Scientific Societies."
+        }
+      }
+    },
+    {
+      "id": "陈勇",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈勇"
+        ],
+        "en": [
+          "Chen Yong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，担任广东省科学技术协会主席。",
+          "en": "A Chinese political figure, serving as the Chairman of the Guangdong Provincial Association for Science and Technology."
+        }
+      }
+    },
+    {
+      "id": "中国科学技术协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国科学技术协会"
+        ],
+        "en": [
+          "China Association for Science and Technology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国科学技术工作者的群众组织，是中国共产党领导下的人民团体。",
+          "en": "A mass organization for science and technology workers in the People's Republic of China, and a people's organization under the leadership of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "人民团体",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "人民团体"
+        ],
+        "en": [
+          "People's organization"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "指中国人民在自愿基础上组织的，为实现会员的共同意愿，按照其章程开展活动的非营利性社会组织。",
+          "en": "Refers to non-profit social organizations organized by the Chinese people on a voluntary basis to realize the common aspirations of their members and carry out activities in accordance with their charters."
+        }
+      }
+    },
+    {
+      "id": "中国共产党广东省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党广东省委员会",
+          "中共广东省委"
+        ],
+        "en": [
+          "Guangdong Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在广东省的地方组织。",
+          "en": "The local organization of the Communist Party of China in Guangdong Province."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的国家，由中国共产党领导。",
+          "en": "A country in East Asia led by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "广东省科普协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广东省科普协会"
+        ],
+        "en": [
+          "Guangdong Provincial Popular Science Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "广东省科学技术协会的前身之一。",
+          "en": "One of the predecessors of the Guangdong Provincial Association for Science and Technology."
+        }
+      }
+    },
+    {
+      "id": "广东省科联",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "广东省科联"
+        ],
+        "en": [
+          "Guangdong Provincial Federation of Scientific Societies"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "广东省科学技术协会的前身之一。",
+          "en": "One of the predecessors of the Guangdong Provincial Association for Science and Technology."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "陈勇",
+      "target": "广东省科学技术协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "根据官网信息，陈勇是广东省科学技术协会的主席。",
+          "en": "According to the official website, Chen Yong is the Chairman of the Guangdong Provincial Association for Science and Technology."
+        }
+      }
+    },
+    {
+      "source": "广东省科学技术协会",
+      "target": "中国科学技术协会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "广东省科学技术协会是中国科学技术协会的地方组织。",
+          "en": "The Guangdong Provincial Association for Science and Technology is a local organization of the China Association for Science and Technology."
+        }
+      }
+    },
+    {
+      "source": "广东省科学技术协会",
+      "target": "中国共产党广东省委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "广东省科学技术协会受中国共产党广东省委员会的领导。",
+          "en": "The Guangdong Provincial Association for Science and Technology is led by the Guangdong Provincial Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "广东省科普协会",
+      "target": "广东省科学技术协会",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "广东省科普协会是广东省科学技术协会的前身之一。",
+          "en": "The Guangdong Provincial Popular Science Association is one of the predecessors of the Guangdong Provincial Association for Science and Technology."
+        }
+      }
+    },
+    {
+      "source": "广东省科联",
+      "target": "广东省科学技术协会",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "广东省科联是广东省科学技术协会的前身之一。",
+          "en": "The Guangdong Provincial Federation of Scientific Societies is one of the predecessors of the Guangdong Provincial Association for Science and Technology."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "nodes": [
+    {
+      "id": "黄名鑫",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄名鑫"
+        ],
+        "en": [
+          "Huang Mingxin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1939-03-16 - 2010-07-13",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "江西广昌",
+          "en": "Guangchang, Jiangxi"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任中共江西省纪委副书记、江西省人大常委会副主任。",
+          "en": "A politician of the People's Republic of China, who served as Deputy Secretary of the Jiangxi Provincial Commission for Discipline Inspection of the CCP and Vice Chairman of the Standing Committee of the Jiangxi Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "id": "广昌县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "广昌县",
+          "广昌"
+        ],
+        "en": [
+          "Guangchang County"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "江西省",
+          "en": "Jiangxi Province"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国江西省抚州市下辖的县。",
+          "en": "A county under the jurisdiction of Fuzhou City, Jiangxi Province, People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为“中国”。",
+          "en": "A socialist state in East Asia, commonly known as 'China'."
+        }
+      }
+    },
+    {
+      "id": "中国共产党江西省纪律检查委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党江西省纪律检查委员会",
+          "中共江西省纪委"
+        ],
+        "en": [
+          "Jiangxi Provincial Commission for Discipline Inspection of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在江西省的纪律检查机关。",
+          "en": "The disciplinary inspection agency of the Communist Party of China in Jiangxi Province."
+        }
+      }
+    },
+    {
+      "id": "江西省人民代表大会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "江西省人民代表大会常务委员会",
+          "江西省人大常委会"
+        ],
+        "en": [
+          "Standing Committee of the Jiangxi Provincial People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "江西省人民代表大会的常设机关。",
+          "en": "The standing body of the Jiangxi Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "id": "江西理工大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "江西理工大学",
+          "江西冶金学院"
+        ],
+        "en": [
+          "Jiangxi University of Science and Technology",
+          "Jiangxi Institute of Metallurgy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于江西省赣州市的大学，前身为江西冶金学院。",
+          "en": "A university located in Ganzhou, Jiangxi Province, formerly known as the Jiangxi Institute of Metallurgy."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的创立者和执政党。",
+          "en": "The founder and ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "黄名鑫",
+      "target": "广昌县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1939-03-16",
+        "description": {
+          "zh-cn": "黄名鑫是江西广昌人。",
+          "en": "Huang Mingxin was a native of Guangchang, Jiangxi."
+        }
+      }
+    },
+    {
+      "source": "黄名鑫",
+      "target": "中国共产党江西省纪律检查委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副书记",
+          "en": "Deputy Secretary"
+        },
+        "description": {
+          "zh-cn": "黄名鑫曾任中共江西省纪委副书记。",
+          "en": "Huang Mingxin served as Deputy Secretary of the Jiangxi Provincial Commission for Discipline Inspection of the CCP."
+        }
+      }
+    },
+    {
+      "source": "黄名鑫",
+      "target": "江西省人民代表大会常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "黄名鑫曾任江西省人大常委会副主任。",
+          "en": "Huang Mingxin served as Vice Chairman of the Standing Committee of the Jiangxi Provincial People's Congress."
+        }
+      }
+    },
+    {
+      "source": "黄名鑫",
+      "target": "江西理工大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "黄名鑫是江西冶金学院（现江西理工大学）的校友。",
+          "en": "Huang Mingxin was an alumnus of Jiangxi Institute of Metallurgy (now Jiangxi University of Science and Technology)."
+        }
+      }
+    },
+    {
+      "source": "黄名鑫",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "黄名鑫是中国共产党党员。",
+          "en": "Huang Mingxin was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}
