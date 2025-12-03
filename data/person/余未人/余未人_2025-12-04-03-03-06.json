@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "余未人",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "余未人"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1942 - ",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "昆明",
+          "en": "Kunming"
+        },
+        "description": {
+          "zh-cn": "中国作家、民间文艺学家，原籍江西铅山。",
+          "en": "Chinese writer and folklorist, with ancestral roots in Qianshan, Jiangxi."
+        }
+      }
+    },
+    {
+      "id": "铅山县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "铅山县",
+          "铅山"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "江西",
+          "en": "Jiangxi"
+        },
+        "description": {
+          "zh-cn": "余未人的原籍。",
+          "en": "Ancestral home of Yu Weiren."
+        }
+      }
+    },
+    {
+      "id": "昆明",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "昆明"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "云南",
+          "en": "Yunnan"
+        },
+        "description": {
+          "zh-cn": "余未人的出生地。",
+          "en": "Birthplace of Yu Weiren."
+        }
+      }
+    },
+    {
+      "id": "中国民间文艺家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民间文艺家协会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由中国各民族民间文艺家组成的专业性人民团体，是中国文学艺术界联合会的团体会员。",
+          "en": "A professional people's organization composed of folk literature and art workers of all ethnic groups in China, and a group member of the China Federation of Literary and Art Circles."
+        }
+      }
+    },
+    {
+      "id": "贵州省文学艺术界联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "贵州省文学艺术界联合会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党贵州省委员会领导下的，由贵州省文学艺术家协会、各市、州文学艺术界联合会和全省性的产业文学艺术工作者联合会组成的人民团体。",
+          "en": "A people's organization under the leadership of the Guizhou Provincial Committee of the Communist Party of China, composed of the Guizhou Provincial Association of Literary and Art Workers, municipal and prefectural federations of literary and art circles, and province-wide industrial federations of literary and art workers."
+        }
+      }
+    },
+    {
+      "id": "贵州大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "贵州大学"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "贵州",
+          "en": "Guizhou"
+        },
+        "description": {
+          "zh-cn": "位于中国贵州省贵阳市的一所综合性大学。",
+          "en": "A comprehensive university located in Guiyang, Guizhou Province, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国作家协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国作家协会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国各民族作家自愿结合的专业性人民团体。",
+          "en": "A professional people's organization formed by the voluntary association of writers of all ethnic groups in China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "余未人",
+      "target": "昆明",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1942",
+        "end_date": "1942",
+        "description": {
+          "zh-cn": "余未人于1942年出生于云南昆明。",
+          "en": "Yu Weiren was born in Kunming, Yunnan in 1942."
+        }
+      }
+    },
+    {
+      "source": "余未人",
+      "target": "中国民间文艺家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席、顾问",
+          "en": "Vice Chairman, Advisor"
+        },
+        "description": {
+          "zh-cn": "根据文本，余未人曾担任中国民间文艺家协会副主席，并是该协会第六、七、八、九届理事会成员。分类信息显示她还担任过顾问。",
+          "en": "According to the text, Yu Weiren served as the Vice Chairman of the China Folk Literature and Art Association and was a member of its 6th, 7th, 8th, and 9th councils. Category information indicates she also served as an advisor."
+        }
+      }
+    },
+    {
+      "source": "余未人",
+      "target": "贵州省文学艺术界联合会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "余未人曾担任贵州省文学艺术界联合会副主席。",
+          "en": "Yu Weiren formerly served as the Vice Chairman of the Guizhou Provincial Federation of Literary and Art Circles."
+        }
+      }
+    },
+    {
+      "source": "余未人",
+      "target": "贵州大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据分类信息，余未人是贵州大学的校友。",
+          "en": "According to category information, Yu Weiren is an alumna of Guizhou University."
+        }
+      }
+    },
+    {
+      "source": "余未人",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据分类信息，余未人是中国共产党党员。",
+          "en": "According to category information, Yu Weiren is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "余未人",
+      "target": "中国作家协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "会员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据分类信息，余未人是中国作家协会会员。",
+          "en": "According to category information, Yu Weiren is a member of the China Writers Association."
+        }
+      }
+    }
+  ]
+}

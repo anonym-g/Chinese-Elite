@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "id": "郭锡兰",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郭锡兰"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1919 - 1985",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "临县",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任西藏自治区革命委员会副主任，西藏自治区人民政府第一副主席。",
+          "en": "A politician of the People's Republic of China, who served as the vice-chairman of the Tibet Autonomous Region Revolutionary Committee and the first vice-chairman of the Tibet Autonomous Region People's Government."
+        }
+      }
+    },
+    {
+      "id": "临县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "临县"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "西藏自治区革命委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西藏自治区革命委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "文化大革命期间西藏自治区的最高权力机构。",
+          "en": "The highest organ of power in the Tibet Autonomous Region during the Cultural Revolution."
+        }
+      }
+    },
+    {
+      "id": "西藏自治区人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "西藏自治区人民政府"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国西藏自治区的省级人民政府。",
+          "en": "The provincial-level people's government of the Tibet Autonomous Region in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "郭锡兰",
+      "target": "临县",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "郭锡兰",
+      "target": "西藏自治区革命委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "郭锡兰曾担任西藏自治区革命委员会副主任。",
+          "en": "Guo Xilan served as the Vice Chairman of the Tibet Autonomous Region Revolutionary Committee."
+        }
+      }
+    },
+    {
+      "source": "郭锡兰",
+      "target": "西藏自治区人民政府",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第一副主席",
+          "en": "First Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "郭锡兰曾担任西藏自治区人民政府第一副主席。",
+          "en": "Guo Xilan served as the First Vice Chairman of the People's Government of the Tibet Autonomous Region."
+        }
+      }
+    },
+    {
+      "source": "郭锡兰",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据分类信息，郭锡兰是中国共产党党员。",
+          "en": "According to category information, Guo Xilan was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

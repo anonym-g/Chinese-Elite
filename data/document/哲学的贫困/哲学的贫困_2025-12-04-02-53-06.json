@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "哲学的贫困",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "哲学的贫困"
+        ],
+        "en": [
+          "The Poverty of Philosophy",
+          "Misère de la philosophie"
+        ]
+      },
+      "properties": {
+        "period": "1847 - ",
+        "description": {
+          "zh-cn": "卡尔·马克思于1847年出版的著作，旨在批判皮埃尔-约瑟夫·蒲鲁东的经济和哲学观点。",
+          "en": "A book written by Karl Marx, published in 1847, as a critique of the economic and philosophical arguments of Pierre-Joseph Proudhon."
+        }
+      }
+    },
+    {
+      "id": "卡尔·马克思",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "卡尔·马克思"
+        ],
+        "en": [
+          "Karl Marx"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "德国哲学家、经济学家、历史学家、政治理论家、社会学家、记者和革命社会主义者。《哲学的贫困》的作者。",
+          "en": "A German philosopher, economist, historian, political theorist, sociologist, journalist, and revolutionary socialist. Author of 'The Poverty of Philosophy'."
+        }
+      }
+    },
+    {
+      "id": "法国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法国"
+        ],
+        "en": [
+          "France"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "西欧",
+          "en": "Western Europe"
+        },
+        "description": {
+          "zh-cn": "欧洲国家。《哲学的贫困》的出版地之一。",
+          "en": "A country in Europe. One of the places where 'The Poverty of Philosophy' was published."
+        }
+      }
+    },
+    {
+      "id": "巴黎",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "巴黎"
+        ],
+        "en": [
+          "Paris"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "法国首都。卡尔·马克思曾在此流亡并出版了《哲学的贫困》。",
+          "en": "The capital of France. Karl Marx lived here in exile and published 'The Poverty of Philosophy'."
+        }
+      }
+    },
+    {
+      "id": "比利时",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "比利时"
+        ],
+        "en": [
+          "Belgium"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "西欧",
+          "en": "Western Europe"
+        },
+        "description": {
+          "zh-cn": "欧洲国家。《哲学的贫困》的出版地之一。",
+          "en": "A country in Europe. One of the places where 'The Poverty of Philosophy' was published."
+        }
+      }
+    },
+    {
+      "id": "布鲁塞尔",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "布鲁塞尔"
+        ],
+        "en": [
+          "Brussels"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "比利时首都。卡尔·马克思曾在此流亡并出版了《哲学的贫困》。",
+          "en": "The capital of Belgium. Karl Marx lived here in exile and published 'The Poverty of Philosophy'."
+        }
+      }
+    },
+    {
+      "id": "无政府主义",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "无政府主义"
+        ],
+        "en": [
+          "Anarchism"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种政治哲学和运动，皮埃尔-约瑟夫·蒲鲁东是其代表人物之一。",
+          "en": "A political philosophy and movement, of which Pierre-Joseph Proudhon was a leading figure."
+        }
+      }
+    },
+    {
+      "id": "皮埃尔-约瑟夫·蒲鲁东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "皮埃尔-约瑟夫·蒲鲁东"
+        ],
+        "en": [
+          "Pierre-Joseph Proudhon"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法国无政府主义者，其经济和哲学观点被卡尔·马克思在《哲学的贫困》中批判。",
+          "en": "A French anarchist whose economic and philosophical views were criticized by Karl Marx in 'The Poverty of Philosophy'."
+        }
+      }
+    },
+    {
+      "id": "经济矛盾的体系，或贫困的哲学",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "经济矛盾的体系，或贫困的哲学"
+        ],
+        "en": [
+          "The System of Economic Contradictions, or The Philosophy of Poverty"
+        ]
+      },
+      "properties": {
+        "period": "1846 - ",
+        "description": {
+          "zh-cn": "皮埃尔-约瑟夫·蒲鲁东于1846年出版的著作，其观点引发了卡尔·马克思的批判性回应《哲学的贫困》。",
+          "en": "A work published by Pierre-Joseph Proudhon in 1846, whose views prompted Karl Marx's critical response, 'The Poverty of Philosophy'."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "卡尔·马克思",
+      "target": "哲学的贫困",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1847",
+        "description": {
+          "zh-cn": "卡尔·马克思于1847年撰写并出版了《哲学的贫困》。",
+          "en": "Karl Marx wrote and published 'The Poverty of Philosophy' in 1847."
+        }
+      }
+    },
+    {
+      "source": "哲学的贫困",
+      "target": "皮埃尔-约瑟夫·蒲鲁东",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1847",
+        "description": {
+          "zh-cn": "《哲学的贫困》旨在批判皮埃尔-约瑟夫·蒲鲁东在其著作中提出的经济和哲学观点。",
+          "en": "'The Poverty of Philosophy' was intended to criticize the economic and philosophical views proposed by Pierre-Joseph Proudhon in his work."
+        }
+      }
+    },
+    {
+      "source": "哲学的贫困",
+      "target": "经济矛盾的体系，或贫困的哲学",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1847",
+        "description": {
+          "zh-cn": "《哲学的贫困》是对《经济矛盾的体系，或贫困的哲学》中提出的经济和哲学观点的批判性回应。",
+          "en": "'The Poverty of Philosophy' is a critical response to the economic and philosophical views presented in 'The System of Economic Contradictions, or The Philosophy of Poverty'."
+        }
+      }
+    },
+    {
+      "source": "卡尔·马克思",
+      "target": "皮埃尔-约瑟夫·蒲鲁东",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1847",
+        "description": {
+          "zh-cn": "卡尔·马克思撰写《哲学的贫困》以批判皮埃尔-约瑟夫·蒲鲁东的观点，标志着两人思想上的对立。",
+          "en": "Karl Marx wrote 'The Poverty of Philosophy' to criticize Pierre-Joseph Proudhon's views, marking their ideological opposition."
+        }
+      }
+    },
+    {
+      "source": "皮埃尔-约瑟夫·蒲鲁东",
+      "target": "经济矛盾的体系，或贫困的哲学",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1846",
+        "description": {
+          "zh-cn": "皮埃尔-约瑟夫·蒲鲁东于1846年出版了著作《经济矛盾的体系，或贫困的哲学》。",
+          "en": "Pierre-Joseph Proudhon published the work 'The System of Economic Contradictions, or The Philosophy of Poverty' in 1846."
+        }
+      }
+    },
+    {
+      "source": "皮埃尔-约瑟夫·蒲鲁东",
+      "target": "无政府主义",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "文本描述皮埃尔-约瑟夫·蒲鲁东为法国无政府主义者。",
+          "en": "The text describes Pierre-Joseph Proudhon as a French anarchist."
+        }
+      }
+    },
+    {
+      "source": "卡尔·马克思",
+      "target": "巴黎",
+      "type": "INFLUENCED",
+      "properties": {
+        "period": "1843 - 1849",
+        "description": {
+          "zh-cn": "卡尔·马克思在1843年至1849年流亡期间，曾居住于巴黎。",
+          "en": "Karl Marx lived in Paris during his exile period from 1843 to 1849."
+        }
+      }
+    },
+    {
+      "source": "卡尔·马克思",
+      "target": "布鲁塞尔",
+      "type": "INFLUENCED",
+      "properties": {
+        "period": "1843 - 1849",
+        "description": {
+          "zh-cn": "卡尔·马克思在1843年至1849年流亡期间，曾居住于布鲁塞尔。",
+          "en": "Karl Marx lived in Brussels during his exile period from 1843 to 1849."
+        }
+      }
+    }
+  ]
+}

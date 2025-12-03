@@ -1,0 +1,920 @@
+{
+  "nodes": [
+    {
+      "id": "王近山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王近山",
+          "王文善",
+          "王疯子"
+        ],
+        "en": [
+          "Wang Jinshan"
+        ]
+      },
+      "properties": {
+        "lifetime": "1915-10-29 - 1978-05-10",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "湖北省黄安县",
+          "en": "Huang'an County, Hubei"
+        },
+        "death_place": {
+          "zh-cn": "南京",
+          "en": "Nanjing"
+        },
+        "description": {
+          "zh-cn": "中国人民解放军中将，因作战勇猛而被称为“王疯子”。他是小说《亮剑》主角李云龙的原型之一。",
+          "en": "A lieutenant general of the Chinese People's Liberation Army, known as 'Madman Wang' for his fierceness in battle. He is one of the prototypes for Li Yunlong, the protagonist of the novel 'Drawing Sword'."
+        }
+      }
+    },
+    {
+      "id": "韩岫岩",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩岫岩"
+        ],
+        "en": [
+          "Han Xiuyan"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "王近山的第一任妻子。",
+          "en": "The first wife of Wang Jinshan."
+        }
+      }
+    },
+    {
+      "id": "黄慎荣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄慎荣"
+        ],
+        "en": [
+          "Huang Shenrong"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "王近山的第二任妻子。",
+          "en": "The second wife of Wang Jinshan."
+        }
+      }
+    },
+    {
+      "id": "韩秀荣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "韩秀荣"
+        ],
+        "en": [
+          "Han Xiurong"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "韩岫岩的妹妹，因与王近山的交往引发了王近山的家庭矛盾和政治风波。",
+          "en": "Sister of Han Xiuyan, whose association with Wang Jinshan led to his marital conflicts and political troubles."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国的执政党。",
+          "en": "The ruling political party of China."
+        }
+      }
+    },
+    {
+      "id": "黄安县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "黄安县",
+          "红安"
+        ],
+        "en": [
+          "Huang'an County",
+          "Hong'an County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国湖北省，是王近山的出生地。",
+          "en": "A county in Hubei province, China, and the birthplace of Wang Jinshan."
+        }
+      }
+    },
+    {
+      "id": "南京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "南京"
+        ],
+        "en": [
+          "Nanjing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国江苏省省会，王近山病逝于此。",
+          "en": "The capital of Jiangsu province, China, where Wang Jinshan passed away."
+        }
+      }
+    },
+    {
+      "id": "亮剑",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "亮剑"
+        ],
+        "en": [
+          "Drawing Sword"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "由都梁所著的长篇小说。",
+          "en": "A novel written by Du Liang."
+        }
+      }
+    },
+    {
+      "id": "李云龙 (亮剑)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李云龙 (亮剑)",
+          "李云龙"
+        ],
+        "en": [
+          "Li Yunlong (Drawing Sword)",
+          "Li Yunlong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "小说《亮剑》中的主角，其人物原型之一是王近山。",
+          "en": "The protagonist of the novel 'Drawing Sword', partially based on Wang Jinshan."
+        }
+      }
+    },
+    {
+      "id": "中国工农红军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国工农红军"
+        ],
+        "en": [
+          "Chinese Workers' and Peasants' Red Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在1927年至1937年间领导的军队。",
+          "en": "The armed forces of the Communist Party of China from 1927 to 1937."
+        }
+      }
+    },
+    {
+      "id": "红四军 (红四方面军)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "红四军 (红四方面军)",
+          "红四军"
+        ],
+        "en": [
+          "Fourth Red Army (Fourth Front Army)"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国工农红军红四方面军的主力部队之一。",
+          "en": "One of the main forces of the Fourth Front Army of the Chinese Workers' and Peasants' Red Army."
+        }
+      }
+    },
+    {
+      "id": "红四方面军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "红四方面军"
+        ],
+        "en": [
+          "Fourth Front Army of the Chinese Red Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国工农红军主力部队之一。",
+          "en": "One of the main forces of the Chinese Workers' and Peasants' Red Army."
+        }
+      }
+    },
+    {
+      "id": "长征",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "长征"
+        ],
+        "en": [
+          "Long March"
+        ]
+      },
+      "properties": {
+        "period": "1934 - 1936",
+        "description": {
+          "zh-cn": "中国工农红军的一次大规模军事战略转移。",
+          "en": "A massive military strategic retreat by the Chinese Workers' and Peasants' Red Army."
+        }
+      }
+    },
+    {
+      "id": "国民革命军第十八集团军第129师",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国民革命军第十八集团军第129师",
+          "一二九师"
+        ],
+        "en": [
+          "129th Division of the Eighth Route Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "八路军在抗日战争时期的主力师之一，由刘伯承担任师长。",
+          "en": "One of the main divisions of the Eighth Route Army during the Second Sino-Japanese War, commanded by Liu Bocheng."
+        }
+      }
+    },
+    {
+      "id": "太岳军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "太岳军区"
+        ],
+        "en": [
+          "Taiyue Military District"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "八路军在抗日战争时期设立的军区。",
+          "en": "A military district established by the Eighth Route Army during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党、中国人民解放军、中华人民共和国的主要缔造者和领导人。",
+          "en": "A founding father of the People's Republic of China, who ruled as the chairman of the Communist Party of China from its establishment in 1949 until his death."
+        }
+      }
+    },
+    {
+      "id": "中原野战军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中原野战军"
+        ],
+        "en": [
+          "Central Plains Field Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军在第二次国共内战时期的主力部队之一，后改编为第二野战军。",
+          "en": "One of the main forces of the People's Liberation Army during the Second Chinese Civil War, later reorganized into the Second Field Army."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军第二野战军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军第二野战军"
+        ],
+        "en": [
+          "Second Field Army of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军在第二次国共内战时期和建国初期的主力部队之一。",
+          "en": "One of the main forces of the People's Liberation Army during the late stages of the Chinese Civil War and the early years of the PRC."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军陆军第十二集团军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军陆军第十二集团军",
+          "第十二军"
+        ],
+        "en": [
+          "12th Army of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军陆军的一个集团军。",
+          "en": "An army corps of the PLA Ground Force."
+        }
+      }
+    },
+    {
+      "id": "抗美援朝战争",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "抗美援朝战争",
+          "朝鲜战争"
+        ],
+        "en": [
+          "Korean War"
+        ]
+      },
+      "properties": {
+        "period": "1950 - 1953",
+        "description": {
+          "zh-cn": "1950年至1953年间在朝鲜半岛发生的战争，中国人民志愿军参与其中。",
+          "en": "A war fought on the Korean Peninsula from 1950 to 1953, in which the Chinese People's Volunteer Army participated."
+        }
+      }
+    },
+    {
+      "id": "上甘岭战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "上甘岭战役"
+        ],
+        "en": [
+          "Battle of Triangle Hill"
+        ]
+      },
+      "properties": {
+        "period": "1952-10-14 - 1952-11-25",
+        "description": {
+          "zh-cn": "抗美援朝战争中的一场著名战役，王近山参与指挥。",
+          "en": "A famous battle during the Korean War, which Wang Jinshan helped command."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军空降兵第十五军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军空降兵第十五军",
+          "第十五军"
+        ],
+        "en": [
+          "15th Airborne Corps of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军空降兵部队的主力。",
+          "en": "The main force of the PLA's airborne troops."
+        }
+      }
+    },
+    {
+      "id": "北京军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京军区"
+        ],
+        "en": [
+          "Beijing Military Region"
+        ]
+      },
+      "properties": {
+        "period": "1955 - 2016",
+        "description": {
+          "zh-cn": "中国人民解放军曾设立的七个大军区之一。",
+          "en": "One of the seven former military regions of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国公安部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国公安部"
+        ],
+        "en": [
+          "Ministry of Public Security of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国国务院主管全国公安工作的组成部门。",
+          "en": "A component department of the State Council of the People's Republic of China responsible for national public security work."
+        }
+      }
+    },
+    {
+      "id": "中华全国妇女联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华全国妇女联合会",
+          "妇联"
+        ],
+        "en": [
+          "All-China Women's Federation"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党领导下的全国性妇女组织。",
+          "en": "A national women's organization under the leadership of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "南京军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "南京军区"
+        ],
+        "en": [
+          "Nanjing Military Region"
+        ]
+      },
+      "properties": {
+        "period": "1955 - 2016",
+        "description": {
+          "zh-cn": "中国人民解放军曾设立的七个大军区之一。",
+          "en": "One of the seven former military regions of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "刘伯承",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘伯承"
+        ],
+        "en": [
+          "Liu Bocheng"
+        ]
+      },
+      "properties": {
+        "lifetime": "1892-12-04 - 1986-10-07",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国元帅，中国人民解放军的缔造者之一。",
+          "en": "A Marshal of the People's Republic of China and one of the founders of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "陈毅",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈毅"
+        ],
+        "en": [
+          "Chen Yi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1901-08-26 - 1972-01-06",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国元帅，曾任上海市市长、国务院副总理兼外交部长。",
+          "en": "A Marshal of the People's Republic of China, who served as Mayor of Shanghai, Vice Premier, and Foreign Minister."
+        }
+      }
+    },
+    {
+      "id": "赵紫阳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵紫阳"
+        ],
+        "en": [
+          "Zhao Ziyang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1919-10-17 - 2005-01-17",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国政治家，曾任国务院总理和中国共产党中央委员会总书记。",
+          "en": "A politician in the People's Republic of China, who served as Premier of the State Council and General Secretary of the Communist Party of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王近山",
+      "target": "韩岫岩",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1938",
+        "end_date": "1964",
+        "description": {
+          "zh-cn": "王近山与韩岫岩是夫妻关系，后于1964年离婚。",
+          "en": "Wang Jinshan and Han Xiuyan were married, and they divorced in 1964."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "黄慎荣",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "start_date": "1964",
+        "end_date": "1978",
+        "description": {
+          "zh-cn": "与韩岫岩离婚后，王近山与黄慎荣结婚。",
+          "en": "After divorcing Han Xiuyan, Wang Jinshan married Huang Shenrong."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "韩岫岩",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1963",
+        "end_date": "1964",
+        "description": {
+          "zh-cn": "因王近山与其妻妹韩秀荣的交往，王近山与妻子韩岫岩发生矛盾，最终导致离婚。",
+          "en": "Due to Wang Jinshan's association with his sister-in-law Han Xiurong, conflicts arose between him and his wife Han Xiuyan, ultimately leading to their divorce."
+        }
+      }
+    },
+    {
+      "source": "韩秀荣",
+      "target": "韩岫岩",
+      "type": "SIBLING_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "韩秀荣是韩岫岩的妹妹。",
+          "en": "Han Xiurong is the younger sister of Han Xiuyan."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": [
+          "1932",
+          "1968"
+        ],
+        "end_date": [
+          "1964",
+          "1978"
+        ],
+        "description": {
+          "zh-cn": "王近山于1932年加入中国共产党。1964年因离婚问题被开除党籍，1968年恢复党籍。",
+          "en": "Wang Jinshan joined the Communist Party of China in 1932. He was expelled from the party in 1964 over his divorce and his membership was restored in 1968."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "黄安县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1915-10-29",
+        "description": {
+          "zh-cn": "王近山出生于湖北省黄安县。",
+          "en": "Wang Jinshan was born in Huang'an County, Hubei Province."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "李云龙 (亮剑)",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "王近山是小说《亮剑》中主角李云龙的人物原型之一。",
+          "en": "Wang Jinshan is one of the real-life prototypes for Li Yunlong, the protagonist in the novel 'Drawing Sword'."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "中国工农红军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1930-03",
+        "description": {
+          "zh-cn": "1930年3月参加中国工农红军。",
+          "en": "Joined the Chinese Workers' and Peasants' Red Army in March 1930."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "红四军 (红四方面军)",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1931-02",
+        "position": {
+          "zh-cn": "第十师副师长",
+          "en": "Deputy Commander of the 10th Division"
+        },
+        "description": {
+          "zh-cn": "曾历任红四军第十师的班长、排长、连长、营长、团长，至1935年9月升任副师长。",
+          "en": "Served successively as squad leader, platoon leader, company commander, battalion commander, and regiment commander in the 10th Division of the Fourth Red Army, rising to Deputy Division Commander by September 1935."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "长征",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1935",
+        "description": {
+          "zh-cn": "随红四方面军参与长征。",
+          "en": "Participated in the Long March with the Fourth Front Army."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "国民革命军第十八集团军第129师",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1937",
+        "position": {
+          "zh-cn": "三八六旅旅长",
+          "en": "Commander of the 386th Brigade"
+        },
+        "description": {
+          "zh-cn": "抗日战争爆发后，在八路军一二九师任职，至1942年5月升任三八六旅旅长。",
+          "en": "After the outbreak of the Second Sino-Japanese War, he served in the 129th Division of the Eighth Route Army, becoming commander of the 386th Brigade in May 1942."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "太岳军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1943-03",
+        "end_date": "1944-10",
+        "position": {
+          "zh-cn": "第二军分区司令员",
+          "en": "Commander of the 2nd Military Sub-district"
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "中原野战军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1948-05",
+        "position": {
+          "zh-cn": "第六纵队司令员",
+          "en": "Commander of the 6th Column"
+        },
+        "description": {
+          "zh-cn": "国共内战期间，先后担任晋冀鲁豫野战军和中原野战军第六纵队司令员。",
+          "en": "During the Chinese Civil War, he served as the commander of the 6th Column in both the Shanxi-Hebei-Shandong-Henan Field Army and the Central Plains Field Army."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "中国人民解放军第二野战军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1949-02",
+        "position": {
+          "zh-cn": "第三兵团副司令员",
+          "en": "Deputy Commander of the 3rd Army Group"
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "抗美援朝战争",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1951",
+        "position": {
+          "zh-cn": "第三兵团代司令员",
+          "en": "Acting Commander of the 3rd Army Group"
+        },
+        "description": {
+          "zh-cn": "1951年率领第三兵团参加抗美援朝战争。",
+          "en": "In 1951, he led the 3rd Army Group to participate in the Korean War."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "上甘岭战役",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1952",
+        "position": {
+          "zh-cn": "指挥员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "1952年指挥第十二军和第十五军参加上甘岭战役。",
+          "en": "In 1952, he commanded the 12th and 15th Armies in the Battle of Triangle Hill."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军陆军第十二集团军",
+      "target": "王近山",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1952",
+        "description": {
+          "zh-cn": "在上甘岭战役中，第十二军由王近山指挥。",
+          "en": "During the Battle of Triangle Hill, the 12th Army was under the command of Wang Jinshan."
+        }
+      }
+    },
+    {
+      "source": "中国人民解放军空降兵第十五军",
+      "target": "王近山",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1952",
+        "description": {
+          "zh-cn": "在上甘岭战役中，第十五军由王近山指挥。",
+          "en": "During the Battle of Triangle Hill, the 15th Army was under the command of Wang Jinshan."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "北京军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1955-04",
+        "position": {
+          "zh-cn": "副司令员",
+          "en": "Deputy Commander"
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "中华人民共和国公安部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1960-07",
+        "end_date": "1964",
+        "position": {
+          "zh-cn": "副部长",
+          "en": "Vice Minister"
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "南京军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1968",
+        "position": {
+          "zh-cn": "副参谋长",
+          "en": "Deputy Chief of Staff"
+        }
+      }
+    },
+    {
+      "source": "中华全国妇女联合会",
+      "target": "韩秀荣",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "在韩岫岩的投诉下，妇联以生活作风问题为由将韩秀荣带走并发配到其他地区。",
+          "en": "Following complaints from Han Xiuyan, the All-China Women's Federation took Han Xiurong away and exiled her to another region on grounds of 'lifestyle issues'."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "王近山",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1964",
+        "description": {
+          "zh-cn": "由于离婚事件被作为典型处理，王近山于1964年被撤销职务，降为大校，并被开除党籍，下放到农场。",
+          "en": "As his divorce case was treated as a negative example, Wang Jinshan was dismissed from his posts, demoted to senior colonel, expelled from the Party, and sent down to a farm in 1964."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "王近山",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1968",
+        "description": {
+          "zh-cn": "在王近山写信承认错误后，毛泽东批示使其恢复副兵团级待遇并重新任职。",
+          "en": "After Wang Jinshan wrote a letter admitting his mistakes, Mao Zedong approved his rehabilitation, restoring his deputy army group commander-level treatment and appointing him to a new post."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "刘伯承",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1948",
+        "description": {
+          "zh-cn": "1948年夏，作为中原野战军领导人一同合影。",
+          "en": "In the summer of 1948, they were photographed together as leaders of the Central Plains Field Army."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "陈毅",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1948",
+        "description": {
+          "zh-cn": "1948年夏，作为中原野战军领导人一同合影。",
+          "en": "In the summer of 1948, they were photographed together as leaders of the Central Plains Field Army."
+        }
+      }
+    },
+    {
+      "source": "王近山",
+      "target": "赵紫阳",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "1948",
+        "description": {
+          "zh-cn": "1948年夏，作为中原野战军领导人一同合影。",
+          "en": "In the summer of 1948, they were photographed together as leaders of the Central Plains Field Army."
+        }
+      }
+    }
+  ]
+}
