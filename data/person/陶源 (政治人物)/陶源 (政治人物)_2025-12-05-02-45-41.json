@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    {
+      "id": "陶源",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陶源"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1952-01 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，曾任宁夏回族自治区总工会主席，宁夏回族自治区政协副主席。",
+          "en": "A politician of the People's Republic of China, who served as the Chairman of the Ningxia Hui Autonomous Region Federation of Trade Unions and Vice Chairman of the Ningxia Hui Autonomous Region Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "北京",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "北京"
+        ],
+        "en": [
+          "Beijing"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的首都和直辖市。",
+          "en": "The capital and a direct-administered municipality of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "宁夏回族自治区总工会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁夏回族自治区总工会"
+        ],
+        "en": [
+          "Ningxia Hui Autonomous Region Federation of Trade Unions"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华全国总工会在宁夏回族自治区的地方组织，是宁夏各地方总工会和各产业工会全国组织的领导机关。",
+          "en": "The local organization of the All-China Federation of Trade Unions in the Ningxia Hui Autonomous Region, serving as the leading body for local trade union councils and national industrial unions in Ningxia."
+        }
+      }
+    },
+    {
+      "id": "宁夏回族自治区政协",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "宁夏回族自治区政协",
+          "中国人民政治协商会议宁夏回族自治区委员会"
+        ],
+        "en": [
+          "Ningxia Hui Autonomous Region Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民政治协商会议在宁夏回族自治区的地方委员会。",
+          "en": "The local committee of the Chinese People's Political Consultative Conference in the Ningxia Hui Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的创立者和唯一执政党。",
+          "en": "The founder and sole ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "陶源",
+      "target": "北京",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "陶源是北京人。",
+          "en": "Tao Yuan is from Beijing."
+        }
+      }
+    },
+    {
+      "source": "陶源",
+      "target": "宁夏回族自治区总工会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "主席",
+          "en": "Chairman"
+        },
+        "description": {
+          "zh-cn": "陶源曾任宁夏回族自治区总工会主席。",
+          "en": "Tao Yuan served as the Chairman of the Ningxia Hui Autonomous Region Federation of Trade Unions."
+        }
+      }
+    },
+    {
+      "source": "陶源",
+      "target": "宁夏回族自治区政协",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "陶源曾任宁夏回族自治区政协副主席。",
+          "en": "Tao Yuan served as the Vice Chairman of the Ningxia Hui Autonomous Region Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "source": "陶源",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "陶源是中国共产党党员。",
+          "en": "Tao Yuan is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}
