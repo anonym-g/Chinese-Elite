@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "黄立军",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄立军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1965-03 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "中华人民共和国安徽省桐城县",
+          "en": "Tongcheng County, Anhui Province, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国政治人物，中国共产党党员，曾任第十三届全国人民代表大会河北地区代表。",
+          "en": "A political figure in the People's Republic of China, a member of the Communist Party of China, and a former deputy for the Hebei region to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "桐城县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "桐城县"
+        ],
+        "en": [
+          "Tongcheng County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国安徽省下的一个县，是黄立军的出生地。",
+          "en": "A county under Anhui Province, People's Republic of China, and the birthplace of Huang Lijun."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会",
+          "第十三届全国人大代表"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03-05 - 2023-03-13",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届最高国家权力机关。",
+          "en": "The 13th national legislature of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "period": "1949-10-01 - ",
+        "description": {
+          "zh-cn": "位于东亚的国家，通常简称为中国。",
+          "en": "A country in East Asia, commonly known as China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "黄立军",
+      "target": "桐城县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1965-03",
+        "description": {
+          "zh-cn": "黄立军出生于安徽省桐城县。",
+          "en": "Huang Lijun was born in Tongcheng County, Anhui Province."
+        }
+      }
+    },
+    {
+      "source": "黄立军",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "黄立军是中国共产党党员。",
+          "en": "Huang Lijun is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "黄立军",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018-02-24",
+        "position": {
+          "zh-cn": "河北地区代表",
+          "en": "Deputy from the Hebei region"
+        },
+        "description": {
+          "zh-cn": "2018年2月24日，黄立军当选为第十三届全国人民代表大会河北地区代表。",
+          "en": "On February 24, 2018, Huang Lijun was elected as a deputy from the Hebei region to the 13th National People's Congress."
+        }
+      }
+    }
+  ]
+}

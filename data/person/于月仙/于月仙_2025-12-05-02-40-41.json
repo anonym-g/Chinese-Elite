@@ -1,0 +1,257 @@
+{
+  "nodes": [
+    {
+      "id": "于月仙",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "于月仙"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1971-04-24 - 2021-08-09",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "赤峰市",
+          "en": "Chifeng"
+        },
+        "death_place": {
+          "zh-cn": "阿拉善右旗",
+          "en": "Alxa Right Banner"
+        },
+        "description": {
+          "zh-cn": "中国女演员，毕业于中央戏剧学院。因在《乡村爱情》系列电视剧中饰演“谢大脚”一角而广为人知。其表姐是马丽娟，表姐夫是赵本山。2021年8月9日，于内蒙古阿拉善右旗因交通事故去世。",
+          "en": "Chinese actress and graduate of the Central Academy of Drama. She was widely known for her role as 'Xie Dajiao' in the 'Country Love Story' television series. Her cousin is Ma Lijuan, and her cousin's husband is Zhao Benshan. On August 9, 2021, she died in a traffic accident in Alxa Right Banner, Inner Mongolia."
+        }
+      }
+    },
+    {
+      "id": "赵本山",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵本山"
+        ],
+        "en": [
+          "Zhao Benshan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国喜剧表演艺术家、演员。他是于月仙的表姐夫，也是电视剧《乡村爱情》系列的主要创作人。",
+          "en": "Chinese comedy artist and actor. He is the husband of Yu Yuexian's cousin and a key creator of the 'Country Love Story' television series."
+        }
+      }
+    },
+    {
+      "id": "马丽娟",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "马丽娟"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "于月仙的表姐，赵本山的妻子。",
+          "en": "Yu Yuexian's cousin and the wife of Zhao Benshan."
+        }
+      }
+    },
+    {
+      "id": "张学松",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张学松"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "于月仙的丈夫。",
+          "en": "The husband of Yu Yuexian."
+        }
+      }
+    },
+    {
+      "id": "中央戏剧学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央戏剧学院"
+        ],
+        "en": [
+          "Central Academy of Drama"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中国顶尖的戏剧艺术高等教育机构，于月仙于1992年考入该校。",
+          "en": "A leading higher education institution for dramatic arts in China, which Yu Yuexian attended starting in 1992."
+        }
+      }
+    },
+    {
+      "id": "赤峰市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "赤峰市",
+          "赤峰",
+          "昭乌达盟"
+        ],
+        "en": [
+          "Chifeng"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国内蒙古自治区的地级市，是演员于月仙的出生地。",
+          "en": "A prefecture-level city in Inner Mongolia, China, and the birthplace of actress Yu Yuexian."
+        }
+      }
+    },
+    {
+      "id": "阿拉善右旗",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "阿拉善右旗"
+        ],
+        "en": [
+          "Alxa Right Banner"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国内蒙古自治区阿拉善盟下辖的一个旗，是演员于月仙因车祸去世的地点。",
+          "en": "A banner under the Alxa League in Inner Mongolia, China. It is the location where actress Yu Yuexian died in a car accident."
+        }
+      }
+    },
+    {
+      "id": "乡村爱情",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乡村爱情"
+        ],
+        "en": [
+          "Country Love Story"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一部由赵本山主导的长篇农村题材电视连续剧。于月仙因在该系列中饰演“谢大脚”一角而闻名。",
+          "en": "A long-running rural-themed television series led by Zhao Benshan. Yu Yuexian became famous for her role as 'Xie Dajiao' in the series."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "于月仙",
+      "target": "张学松",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "张学松是于月仙的丈夫。",
+          "en": "Zhang Xuesong is the husband of Yu Yuexian."
+        }
+      }
+    },
+    {
+      "source": "于月仙",
+      "target": "马丽娟",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "马丽娟是于月仙的表姐。",
+          "en": "Ma Lijuan is Yu Yuexian's cousin."
+        }
+      }
+    },
+    {
+      "source": "于月仙",
+      "target": "赵本山",
+      "type": "RELATIVE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "赵本山是于月仙的表姐夫。",
+          "en": "Zhao Benshan is Yu Yuexian's cousin-in-law (husband of her cousin)."
+        }
+      }
+    },
+    {
+      "source": "马丽娟",
+      "target": "赵本山",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "马丽娟是赵本山的妻子。",
+          "en": "Ma Lijuan is the wife of Zhao Benshan."
+        }
+      }
+    },
+    {
+      "source": "于月仙",
+      "target": "中央戏剧学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1992",
+        "description": {
+          "zh-cn": "1992年，于月仙考取中央戏剧学院。",
+          "en": "In 1992, Yu Yuexian was admitted to the Central Academy of Drama."
+        }
+      }
+    },
+    {
+      "source": "于月仙",
+      "target": "赤峰市",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "source": "于月仙",
+      "target": "乡村爱情",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2006",
+        "end_date": "2021",
+        "position": {
+          "zh-cn": "演员（饰演 谢大脚）",
+          "en": "Actress (as Xie Dajiao)"
+        },
+        "description": {
+          "zh-cn": "于月仙在《乡村爱情》系列中饰演主要角色“谢大脚”，并因此角色而广为人知。",
+          "en": "Yu Yuexian played the main role of 'Xie Dajiao' in the 'Country Love Story' series, for which she became widely known."
+        }
+      }
+    },
+    {
+      "source": "赵本山",
+      "target": "于月仙",
+      "type": "PUSHED",
+      "properties": {
+        "position": {
+          "zh-cn": "演员 (乡村爱情)",
+          "en": "Actress (Country Love Story)"
+        },
+        "description": {
+          "zh-cn": "于月仙曾公开表示，她能够出演《乡村爱情》中的“谢大脚”一角得益于其表姐夫赵本山的帮助和提携。",
+          "en": "Yu Yuexian publicly stated that she was able to play the role of 'Xie Dajiao' in 'Country Love Story' thanks to the help and promotion of her cousin's husband, Zhao Benshan."
+        }
+      }
+    }
+  ]
+}

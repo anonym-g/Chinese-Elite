@@ -1,0 +1,316 @@
+{
+  "nodes": [
+    {
+      "id": "中国共产党湘潭县委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党湘潭县委员会",
+          "中共湘潭县委"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在湖南省湘潭县的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Xiangtan County, Hunan Province."
+        },
+        "location": {
+          "zh-cn": "湘潭县",
+          "en": "Xiangtan County"
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The founding and ruling party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "湘潭县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "湘潭县"
+        ],
+        "en": [
+          "Xiangtan County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党湘潭县代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党湘潭县代表大会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党湘潭县委员会的上级机构。",
+          "en": "The superior body of the CCP Xiangtan County Committee."
+        }
+      }
+    },
+    {
+      "id": "中国共产党湘潭县委员会常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党湘潭县委员会常务委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党湘潭县委员会的常设机构。",
+          "en": "The standing body of the CCP Xiangtan County Committee."
+        }
+      }
+    },
+    {
+      "id": "中国共产党湘潭县纪律检查委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党湘潭县纪律检查委员会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党湘潭县委员会的纪律检查机关。",
+          "en": "The discipline inspection organ of the CCP Xiangtan County Committee."
+        }
+      }
+    },
+    {
+      "id": "湘潭县人民政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湘潭县人民政府"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "伍绍斌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "伍绍斌"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "朱少中",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "朱少中"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "陈忠红",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈忠红"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "谢振华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "谢振华"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "傅国平",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "傅国平"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "黄劲松",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄劲松"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "中国共产党湘潭县委员会",
+      "target": "中国共产党",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党湘潭县委员会是中国共产党在湘潭县的领导机关。",
+          "en": "The CCP Xiangtan County Committee is the leading organ of the Communist Party of China in Xiangtan County."
+        }
+      }
+    },
+    {
+      "source": "中国共产党湘潭县委员会",
+      "target": "中国共产党湘潭县代表大会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框，中国共产党湘潭县代表大会是中国共产党湘潭县委员会的上级机构。",
+          "en": "According to the infobox, the CCP Xiangtan County Congress is the superior body of the CCP Xiangtan County Committee."
+        }
+      }
+    },
+    {
+      "source": "中国共产党湘潭县委员会常务委员会",
+      "target": "中国共产党湘潭县委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框，中国共产党湘潭县委员会常务委员会是中国共产党湘潭县委员会的常设机构。",
+          "en": "According to the infobox, the Standing Committee of the CCP Xiangtan County Committee is the standing body of the CCP Xiangtan County Committee."
+        }
+      }
+    },
+    {
+      "source": "中国共产党湘潭县纪律检查委员会",
+      "target": "中国共产党湘潭县委员会",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据信息框，中国共产党湘潭县纪律检查委员会是中国共产党湘潭县委员会的本级纪检机构。",
+          "en": "According to the infobox, the CCP Xiangtan County Commission for Discipline Inspection is the discipline inspection organ at the same level as the CCP Xiangtan County Committee."
+        }
+      }
+    },
+    {
+      "source": "伍绍斌",
+      "target": "中国共产党湘潭县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1988-07",
+        "end_date": "1991-12",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "朱少中",
+      "target": "中国共产党湘潭县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2006-05",
+        "end_date": "2008-01",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "陈忠红",
+      "target": "中国共产党湘潭县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2009-07",
+        "end_date": "2011-09",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "谢振华",
+      "target": "中国共产党湘潭县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2011-12",
+        "end_date": "2016-07",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "傅国平",
+      "target": "中国共产党湘潭县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-07",
+        "end_date": "2022-01",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    },
+    {
+      "source": "黄劲松",
+      "target": "中国共产党湘潭县委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2021-07",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        }
+      }
+    }
+  ]
+}
