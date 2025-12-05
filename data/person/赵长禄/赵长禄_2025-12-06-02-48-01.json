@@ -1,0 +1,347 @@
+{
+  "nodes": [
+    {
+      "id": "赵长禄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "赵长禄"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1963-01 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "辽宁",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中华人民共和国学者、政治人物，中国共产党党员。",
+          "en": "A Chinese scholar, politician, and member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "辽宁",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "辽宁"
+        ],
+        "en": [
+          "Liaoning"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国省级行政区。",
+          "en": "A provincial-level administrative division of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "北京理工大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京理工大学"
+        ],
+        "en": [
+          "Beijing Institute of Technology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国北京市的一所高等院校。",
+          "en": "An institution of higher education located in Beijing, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党北京理工大学委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党北京理工大学委员会"
+        ],
+        "en": [
+          "Communist Party of China Committee of Beijing Institute of Technology"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在北京理工大学的领导机构。",
+          "en": "The leading body of the Communist Party of China at Beijing Institute of Technology."
+        }
+      }
+    },
+    {
+      "id": "中国人民政治协商会议第十三届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十三届全国委员会",
+          "第十三届全国政协"
+        ],
+        "en": [
+          "13th National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {
+        "period": "2018-03 - 2023-03",
+        "description": {
+          "zh-cn": "中国人民政治协商会议全国委员会的第十三届会议。",
+          "en": "The 13th session of the National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "北京航空航天大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "北京航空航天大学"
+        ],
+        "en": [
+          "Beihang University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国北京市的一所高等院校。",
+          "en": "An institution of higher education located in Beijing, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党北京航空航天大学委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党北京航空航天大学委员会"
+        ],
+        "en": [
+          "Communist Party of China Committee of Beihang University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在北京航空航天大学的领导机构。",
+          "en": "The leading body of the Communist Party of China at Beihang University."
+        }
+      }
+    },
+    {
+      "id": "曹淑敏",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "曹淑敏"
+        ],
+        "en": [
+          "Cao Shumin"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "中国政治人物，曾任北京航空航天大学党委书记。",
+          "en": "A Chinese politician who previously served as the Party Secretary of Beihang University."
+        }
+      }
+    },
+    {
+      "id": "张炜 (1957年)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张炜 (1957年)",
+          "张炜"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任北京理工大学党委书记。",
+          "en": "A Chinese politician who previously served as the Party Secretary of Beijing Institute of Technology."
+        }
+      }
+    },
+    {
+      "id": "张军 (航空交通工程技术专家)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "张军 (航空交通工程技术专家)",
+          "张军"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国航空交通工程技术专家，北京理工大学党委书记。",
+          "en": "A Chinese expert in air traffic engineering technology and the Party Secretary of Beijing Institute of Technology."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "赵长禄",
+      "target": "辽宁",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "赵长禄是辽宁人。",
+          "en": "Zhao Changlu is from Liaoning."
+        }
+      }
+    },
+    {
+      "source": "赵长禄",
+      "target": "北京理工大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据维基百科分类，赵长禄是北京理工大学的校友。",
+          "en": "According to Wikipedia categories, Zhao Changlu is an alumnus of Beijing Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "赵长禄",
+      "target": "北京理工大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授",
+          "en": "Professor"
+        },
+        "description": {
+          "zh-cn": "赵长禄曾任教于北京理工大学机械与车辆学院能源与动力工程系。",
+          "en": "Zhao Changlu once taught at the Department of Energy and Power Engineering, School of Mechanical Engineering, Beijing Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "赵长禄",
+      "target": "中国共产党北京理工大学委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2016-05",
+        "end_date": "2022-04",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "2016年5月至2022年4月，赵长禄担任北京理工大学党委书记。",
+          "en": "From May 2016 to April 2022, Zhao Changlu served as the Party Secretary of Beijing Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "赵长禄",
+      "target": "中国共产党北京航空航天大学委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2022-04",
+        "position": {
+          "zh-cn": "书记",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "2022年4月，赵长禄调任北京航空航天大学党委书记。",
+          "en": "In April 2022, Zhao Changlu was transferred to serve as the Party Secretary of Beihang University."
+        }
+      }
+    },
+    {
+      "source": "赵长禄",
+      "target": "中国人民政治协商会议第十三届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "赵长禄是第十三届全国政协委员。",
+          "en": "Zhao Changlu is a member of the 13th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "source": "赵长禄",
+      "target": "曹淑敏",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-04",
+        "description": {
+          "zh-cn": "2022年4月，赵长禄接替曹淑敏担任北京航空航天大学党委书记。",
+          "en": "In April 2022, Zhao Changlu succeeded Cao Shumin as the Party Secretary of Beihang University."
+        }
+      }
+    },
+    {
+      "source": "赵长禄",
+      "target": "张炜 (1957年)",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2016-05",
+        "description": {
+          "zh-cn": "2016年5月，赵长禄接替张炜担任北京理工大学党委书记。",
+          "en": "In May 2016, Zhao Changlu succeeded Zhang Wei as the Party Secretary of Beijing Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "赵长禄",
+      "target": "张军 (航空交通工程技术专家)",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2022-04",
+        "description": {
+          "zh-cn": "2022年4月，张军接替赵长禄担任北京理工大学党委书记。",
+          "en": "In April 2022, Zhang Jun succeeded Zhao Changlu as the Party Secretary of Beijing Institute of Technology."
+        }
+      }
+    },
+    {
+      "source": "赵长禄",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据维基百科分类，赵长禄是中国共产党党员。",
+          "en": "According to Wikipedia categories, Zhao Changlu is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

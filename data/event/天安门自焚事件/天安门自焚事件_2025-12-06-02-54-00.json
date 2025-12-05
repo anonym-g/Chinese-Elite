@@ -1,0 +1,853 @@
+{
+  "nodes": [
+    {
+      "id": "天安门自焚事件",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "天安门自焚事件"
+        ],
+        "en": [
+          "Tiananmen Square self-immolation incident"
+        ]
+      },
+      "properties": {
+        "period": "2001-01-23",
+        "location": {
+          "zh-cn": "中华人民共和国北京市天安门广场",
+          "en": "Tiananmen Square, Beijing, People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "2001年1月23日（除夕）在北京市天安门广场发生的自焚事件。中国官方媒体称参与者为法轮功学员，但法轮功方面否认并指事件为中共当局策划。该事件成为中国政府加强镇压法轮功的重要转折点。",
+          "en": "A self-immolation incident that occurred on January 23, 2001 (Chinese New Year's Eve) in Tiananmen Square, Beijing. Chinese state media claimed the participants were Falun Gong practitioners, but Falun Gong denied this, alleging the incident was staged by the CCP authorities. The event became a major turning point for the Chinese government to intensify its persecution of Falun Gong."
+        }
+      }
+    },
+    {
+      "id": "法轮功",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "法轮功",
+          "法轮大法"
+        ],
+        "en": [
+          "Falun Gong",
+          "Falun Dafa"
+        ]
+      },
+      "properties": {
+        "period": "1992 - ",
+        "description": {
+          "zh-cn": "由李洪志于1992年在中国长春传出的一个精神修炼及气功法门。自1999年起在中国大陆遭到中国共产党的镇压。",
+          "en": "A spiritual practice and qigong system founded by Li Hongzhi in Changchun, China, in 1992. It has been subject to persecution by the Communist Party of China in mainland China since 1999."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China",
+          "CPC"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党，自1999年起发起并主导了对法轮功的镇压运动。",
+          "en": "The ruling party of the People's Republic of China, which initiated and led the campaign to persecute Falun Gong since 1999."
+        }
+      }
+    },
+    {
+      "id": "打压法轮功",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "打压法轮功",
+          "镇压法轮功"
+        ],
+        "en": [
+          "Persecution of Falun Gong"
+        ]
+      },
+      "properties": {
+        "period": "1999-07 - ",
+        "location": {
+          "zh-cn": "中华人民共和国",
+          "en": "People's Republic of China"
+        },
+        "description": {
+          "zh-cn": "一场由中国共产党发起的旨在根除法轮功的政治运动。该运动涉及大规模宣传、监禁、酷刑和强制思想转化。",
+          "en": "A political campaign initiated by the Communist Party of China with the aim of eradicating Falun Gong. The campaign involves extensive propaganda, imprisonment, torture, and forced ideological conversion."
+        }
+      }
+    },
+    {
+      "id": "江泽民",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "江泽民"
+        ],
+        "en": [
+          "Jiang Zemin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1926-08-17 - 2022-11-30",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，曾任中共中央总书记。据报道，他在1999年决定并发起了对法轮功的镇压。",
+          "en": "A Chinese politician who served as General Secretary of the CPC Central Committee. He is reported to have decided on and initiated the persecution of Falun Gong in 1999."
+        }
+      }
+    },
+    {
+      "id": "610办公室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "610办公室"
+        ],
+        "en": [
+          "610 Office"
+        ]
+      },
+      "properties": {
+        "period": "1999-06-10 - 2018-03",
+        "description": {
+          "zh-cn": "为处理法轮功问题而成立的中共中央领导小组办公室，负责协调各党政机关镇压法轮功。",
+          "en": "An office of a leading group of the CPC Central Committee established to handle the Falun Gong issue, responsible for coordinating various party and state agencies in the persecution of Falun Gong."
+        }
+      }
+    },
+    {
+      "id": "新华社",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新华社"
+        ],
+        "en": [
+          "Xinhua News Agency"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的国家通讯社，在天安门自焚事件后迅速发布官方通稿，将事件定性为法轮功学员所为。",
+          "en": "The state news agency of the People's Republic of China, which quickly released official reports after the Tiananmen self-immolation incident, attributing it to Falun Gong practitioners."
+        }
+      }
+    },
+    {
+      "id": "中国中央电视台",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国中央电视台",
+          "央视"
+        ],
+        "en": [
+          "China Central Television",
+          "CCTV"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的国家电视台。其节目《焦点访谈》播出了关于天安门自焚事件的专题报道，对塑造中国国内公众舆论起到了关键作用。",
+          "en": "The state television broadcaster of the People's Republic of China. Its program 'Focus Talk' aired special reports on the Tiananmen self-immolation incident, playing a key role in shaping public opinion within China."
+        }
+      }
+    },
+    {
+      "id": "华盛顿邮报",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "华盛顿邮报"
+        ],
+        "en": [
+          "The Washington Post"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "美国主要报纸。其记者潘公凯对自焚事件进行了调查，并发表了与中国官方说法存在矛盾的报道。",
+          "en": "A major American newspaper. Its reporter, Philip P. Pan, investigated the self-immolation incident and published a report that contradicted the official Chinese narrative."
+        }
+      }
+    },
+    {
+      "id": "潘公凯 (记者)",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "潘公凯 (记者)",
+          "潘公凯",
+          "菲力普·潘"
+        ],
+        "en": [
+          "Philip P. Pan"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国记者，事发时任《华盛顿邮报》驻北京记者。他对自焚者刘春玲的背景调查对中国官方的说法提出了质疑。",
+          "en": "An American journalist, who was The Washington Post's Beijing correspondent at the time of the incident. His investigation into the background of self-immolator Liu Chunling raised questions about the official Chinese narrative."
+        }
+      }
+    },
+    {
+      "id": "国际教育发展组织",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "国际教育发展组织"
+        ],
+        "en": [
+          "International Educational Development"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一个在联合国具有咨商地位的非政府组织。其代表在联合国会议上声明，天安门自焚事件是中国政府策划导演的。",
+          "en": "A non-governmental organization with consultative status at the United Nations. Its representative stated at a UN session that the Tiananmen self-immolation incident was staged by the Chinese government."
+        }
+      }
+    },
+    {
+      "id": "伪火",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "伪火"
+        ],
+        "en": [
+          "False Fire"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一部由新唐人电视台制作的纪录片，通过分析中国中央电视台的录像，对天安门自焚事件的官方说法提出多项质疑。",
+          "en": "A documentary produced by New Tang Dynasty Television that raises multiple questions about the official narrative of the Tiananmen self-immolation incident by analyzing footage from China Central Television."
+        }
+      }
+    },
+    {
+      "id": "新唐人电视台",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "新唐人电视台"
+        ],
+        "en": [
+          "New Tang Dynasty Television"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "总部位于纽约的华语电视台，由法轮功学员创办，制作了纪录片《伪火》以反驳中国官方对自焚事件的宣传。",
+          "en": "A New York-based Chinese-language television station founded by Falun Gong adherents, which produced the documentary 'False Fire' to counter the official Chinese propaganda about the self-immolation incident."
+        }
+      }
+    },
+    {
+      "id": "丹尼·谢克特",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "丹尼·谢克特"
+        ],
+        "en": [
+          "Danny Schechter"
+        ]
+      },
+      "properties": {
+        "lifetime": "1942-06-27 - 2015-03-19",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "美国独立制片人与专栏作家，他质疑天安门自焚事件的官方报道，并认为事件是中国政府为抹黑法轮功而策划的。",
+          "en": "An American independent filmmaker and columnist who questioned the official reports on the Tiananmen self-immolation incident and suggested it was staged by the Chinese government to discredit Falun Gong."
+        }
+      }
+    },
+    {
+      "id": "立法院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "立法院"
+        ],
+        "en": [
+          "Legislative Yuan"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "中华民国",
+          "en": "Republic of China"
+        },
+        "description": {
+          "zh-cn": "中华民国的最高立法机关。其在2004年通过决议，要求中国共产党停止镇压法轮功，并对天安门自焚事件的真实性提出质疑。",
+          "en": "The unicameral legislature of the Republic of China (Taiwan). In 2004, it passed a resolution demanding the CPC to stop the persecution of Falun Gong and questioned the authenticity of the Tiananmen self-immolation incident."
+        }
+      }
+    },
+    {
+      "id": "王进东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王进东"
+        ],
+        "en": [
+          "Wang Jindong"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "开封市",
+          "en": "Kaifeng"
+        },
+        "description": {
+          "zh-cn": "天安门自焚事件的参与者之一，被中国官方媒体认定为法轮功学员。后被判处15年有期徒刑。",
+          "en": "One of the participants in the Tiananmen Square self-immolation incident, identified by Chinese state media as a Falun Gong practitioner. He was later sentenced to 15 years in prison."
+        }
+      }
+    },
+    {
+      "id": "刘春玲",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘春玲"
+        ],
+        "en": [
+          "Liu Chunling"
+        ]
+      },
+      "properties": {
+        "lifetime": " - 2001-01-23",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "开封市",
+          "en": "Kaifeng"
+        },
+        "death_place": {
+          "zh-cn": "北京市天安门广场",
+          "en": "Tiananmen Square, Beijing"
+        },
+        "description": {
+          "zh-cn": "天安门自焚事件的参与者之一，当场死亡。其法轮功学员身份受到《华盛顿邮报》记者的调查质疑。",
+          "en": "One of the participants in the Tiananmen Square self-immolation incident, who died at the scene. Her identity as a Falun Gong practitioner was questioned by a Washington Post investigation."
+        }
+      }
+    },
+    {
+      "id": "刘思影",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘思影"
+        ],
+        "en": [
+          "Liu Siying"
+        ]
+      },
+      "properties": {
+        "lifetime": "1988-03-27 - 2001-03-17",
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "开封市",
+          "en": "Kaifeng"
+        },
+        "death_place": {
+          "zh-cn": "北京市",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "天安门自焚事件中最年幼的参与者，时年12岁，在事件发生约两个月后于医院去世。",
+          "en": "The youngest participant in the Tiananmen Square self-immolation incident, aged 12, who died in hospital about two months after the event."
+        }
+      }
+    },
+    {
+      "id": "陈果",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈果"
+        ],
+        "en": [
+          "Chen Guo"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "开封市",
+          "en": "Kaifeng"
+        },
+        "description": {
+          "zh-cn": "天安门自焚事件的参与者之一，事发时为中央音乐学院学生，严重烧伤并毁容。",
+          "en": "One of the participants in the Tiananmen Square self-immolation incident, a student at the Central Conservatory of Music at the time, who was severely burned and disfigured."
+        }
+      }
+    },
+    {
+      "id": "郝惠君",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "郝惠君"
+        ],
+        "en": [
+          "Hao Huijun"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "开封市",
+          "en": "Kaifeng"
+        },
+        "description": {
+          "zh-cn": "天安门自焚事件的参与者之一，中学音乐教师，严重烧伤并毁容。",
+          "en": "One of the participants in the Tiananmen Square self-immolation incident, a middle school music teacher, who was severely burned and disfigured."
+        }
+      }
+    },
+    {
+      "id": "刘葆荣",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘葆荣"
+        ],
+        "en": [
+          "Liu Baorong"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "birth_place": {
+          "zh-cn": "开封市",
+          "en": "Kaifeng"
+        },
+        "description": {
+          "zh-cn": "天安门自焚事件的参与者之一，自焚未遂。",
+          "en": "One of the participants in the Tiananmen Square self-immolation incident, who attempted to self-immolate but was stopped."
+        }
+      }
+    },
+    {
+      "id": "刘云芳",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘云芳"
+        ],
+        "en": [
+          "Liu Yunfang"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "开封市",
+          "en": "Kaifeng"
+        },
+        "description": {
+          "zh-cn": "天安门自焚事件的参与者之一，自焚未遂，后被中国官方认定为主谋并判处无期徒刑。",
+          "en": "One of the participants in the Tiananmen Square self-immolation incident, who attempted to self-immolate but was stopped. He was later identified by Chinese officials as the mastermind and sentenced to life imprisonment."
+        }
+      }
+    },
+    {
+      "id": "李洪志",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李洪志"
+        ],
+        "en": [
+          "Li Hongzhi"
+        ]
+      },
+      "properties": {
+        "lifetime": "1951-05-13 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "法轮功的创始人与精神领袖。",
+          "en": "The founder and spiritual leader of Falun Gong."
+        }
+      }
+    },
+    {
+      "id": "中央音乐学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中央音乐学院"
+        ],
+        "en": [
+          "Central Conservatory of Music"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "北京市",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "位于中国北京的音乐学院，天安门自焚事件参与者陈果曾在此就读。",
+          "en": "A conservatory in Beijing, China, where Chen Guo, a participant in the Tiananmen self-immolation incident, was a student."
+        }
+      }
+    },
+    {
+      "id": "陈光标",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陈光标"
+        ],
+        "en": [
+          "Chen Guangbiao"
+        ]
+      },
+      "properties": {
+        "lifetime": "1968-07 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国商人和慈善家。他于2014年宣布将资助郝惠君和陈果在美国接受整形治疗。",
+          "en": "A Chinese businessman and philanthropist. In 2014, he announced he would fund plastic surgery for Hao Huijun and Chen Guo in the United States."
+        }
+      }
+    },
+    {
+      "id": "天安门广场",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "天安门广场"
+        ],
+        "en": [
+          "Tiananmen Square"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于中国北京市中心的城市广场，是2001年自焚事件的发生地。",
+          "en": "A city square in the center of Beijing, China, and the location of the 2001 self-immolation incident."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "天安门自焚事件",
+      "target": "打压法轮功",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-01-23",
+        "description": {
+          "zh-cn": "该事件被中国政府广泛宣传，以证明其镇压法轮功的合理性，并导致公众舆论转向反对法轮功，从而加剧了镇压的力度和广度。",
+          "en": "The incident was widely publicized by the Chinese government to justify its persecution of Falun Gong, leading to a shift in public opinion against the group and escalating the intensity and scope of the crackdown."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "打压法轮功",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1999-07-20",
+        "description": {
+          "zh-cn": "中国共产党发起并全面领导了对法轮功的镇压运动。",
+          "en": "The Communist Party of China initiated and comprehensively led the campaign to persecute Falun Gong."
+        }
+      }
+    },
+    {
+      "source": "中国共产党",
+      "target": "法轮功",
+      "type": "ENEMY_OF",
+      "properties": {
+        "start_date": "1999-07",
+        "description": {
+          "zh-cn": "自1999年7月起，中国共产党将法轮功列为非法组织并进行系统性镇压，双方形成尖锐的敌对关系。",
+          "en": "Since July 1999, the Communist Party of China has banned Falun Gong as an illegal organization and carried out systematic persecution, creating a sharp antagonistic relationship."
+        }
+      }
+    },
+    {
+      "source": "江泽民",
+      "target": "打压法轮功",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1999",
+        "description": {
+          "zh-cn": "据报道，时任中共中央总书记的江泽民亲自决定并发起了对法轮功的镇压运动。",
+          "en": "It is reported that Jiang Zemin, then General Secretary of the CPC Central Committee, personally decided on and initiated the campaign to persecute Falun Gong."
+        }
+      }
+    },
+    {
+      "source": "江泽民",
+      "target": "610办公室",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1999-06-10",
+        "description": {
+          "zh-cn": "在江泽民的指示下，中共中央成立了专门负责处理法轮功问题的“610办公室”。",
+          "en": "Under Jiang Zemin's direction, the CPC Central Committee established the '610 Office' specifically to handle the Falun Gong issue."
+        }
+      }
+    },
+    {
+      "source": "610办公室",
+      "target": "打压法轮功",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1999-06-10",
+        "description": {
+          "zh-cn": "610办公室是执行和协调全国范围内镇压法轮功运动的核心机构。",
+          "en": "The 610 Office was the central agency for implementing and coordinating the nationwide campaign to persecute Falun Gong."
+        }
+      }
+    },
+    {
+      "source": "中国中央电视台",
+      "target": "法轮功",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2001-01-31",
+        "description": {
+          "zh-cn": "通过播出《焦点访谈》等专题节目，将天安门自焚事件归咎于法轮功，并对其进行批判，成功地在中国国内激起了民众对法轮功的负面情绪，为镇压提供了舆论支持。",
+          "en": "By broadcasting special programs like 'Focus Talk' that blamed the Tiananmen self-immolation on Falun Gong and criticized it, CCTV successfully incited negative public sentiment against Falun Gong within China, providing public opinion support for the persecution."
+        }
+      }
+    },
+    {
+      "source": "新华社",
+      "target": "法轮功",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2001-01-23",
+        "description": {
+          "zh-cn": "在事发后迅速发布官方通稿，将事件定性为法轮功学员所为，引导了国内外媒体的初步报道方向，为镇压法轮功制造了舆论基础。",
+          "en": "By quickly releasing official reports after the incident and defining it as an act by Falun Gong practitioners, Xinhua guided the initial reporting direction of both domestic and international media, creating a basis in public opinion for the persecution of Falun Gong."
+        }
+      }
+    },
+    {
+      "source": "法轮功",
+      "target": "中国共产党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2001-01",
+        "description": {
+          "zh-cn": "法轮功方面公开否认自焚者是其学员，并指控事件是中国共产党当局为嫁祸和升级镇压而自导自演的，以此对抗官方的宣传攻势。",
+          "en": "Falun Gong publicly denied that the self-immolators were its practitioners and accused the CPC authorities of staging the incident to frame them and escalate the persecution, thereby countering the official propaganda offensive."
+        }
+      }
+    },
+    {
+      "source": "潘公凯 (记者)",
+      "target": "中国共产党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2001-02-04",
+        "description": {
+          "zh-cn": "其在《华盛顿邮报》发表的调查报道中，对自焚者刘春玲的身份和背景提出了与官方说法不符的信息，从而削弱了中国共产党官方叙事的可信度。",
+          "en": "In his investigative report for The Washington Post, he presented information about self-immolator Liu Chunling's identity and background that contradicted the official account, thereby undermining the credibility of the Communist Party of China's narrative."
+        }
+      }
+    },
+    {
+      "source": "国际教育发展组织",
+      "target": "中国共产党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2001-08-14",
+        "description": {
+          "zh-cn": "在联合国人权会议上发表声明，公开指控天安门自焚事件是由中国政府策划导演的，以此挑战中共对其镇压法轮功行为的合法性辩护。",
+          "en": "At a UN human rights session, it issued a statement publicly accusing the Chinese government of staging the Tiananmen self-immolation incident, thereby challenging the CCP's justification for its persecution of Falun Gong."
+        }
+      }
+    },
+    {
+      "source": "新唐人电视台",
+      "target": "伪火",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "制作并发布了纪录片《伪火》，旨在揭露天安门自焚事件中的疑点。",
+          "en": "Produced and released the documentary 'False Fire' with the aim of exposing inconsistencies in the Tiananmen self-immolation incident."
+        }
+      }
+    },
+    {
+      "source": "伪火",
+      "target": "中国共产党",
+      "type": "BLOCKED",
+      "properties": {
+        "description": {
+          "zh-cn": "该纪录片通过慢镜头分析中国官方电视台的录像，提出多项证据以论证自焚事件是中共当局策划的伪案，旨在对抗官方宣传并揭露其不实之处。",
+          "en": "The documentary uses slow-motion analysis of official Chinese television footage to present evidence arguing that the self-immolation was a staged event by CCP authorities, aiming to counter official propaganda and expose its falsehoods."
+        }
+      }
+    },
+    {
+      "source": "立法院",
+      "target": "中国共产党",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2004",
+        "description": {
+          "zh-cn": "通过决议要求中国共产党停止镇压法轮功，其决议说明文明确质疑中共当局“一手炮制天安门自焚案”，对中共的政治宣传和镇压政策构成反对。",
+          "en": "Passed a resolution demanding that the Communist Party of China stop its persecution of Falun Gong, with the resolution's explanatory text explicitly questioning the CCP's 'staging of the Tiananmen self-immolation case,' thus opposing the CCP's political propaganda and persecution policies."
+        }
+      }
+    },
+    {
+      "source": "李洪志",
+      "target": "法轮功",
+      "type": "FOUNDED",
+      "properties": {
+        "start_date": "1992",
+        "description": {
+          "zh-cn": "李洪志于1992年在中国长春市首次公开传授法轮功。",
+          "en": "Li Hongzhi first publicly taught Falun Gong in Changchun, China, in 1992."
+        }
+      }
+    },
+    {
+      "source": "王进东",
+      "target": "天安门自焚事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-01-23",
+        "description": {
+          "zh-cn": "作为核心参与者之一，实施了自焚行为。",
+          "en": "As one of the core participants, he carried out the act of self-immolation."
+        }
+      }
+    },
+    {
+      "source": "刘春玲",
+      "target": "天安门自焚事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-01-23",
+        "description": {
+          "zh-cn": "作为参与者之一，实施自焚并当场死亡。",
+          "en": "As one of the participants, she self-immolated and died at the scene."
+        }
+      }
+    },
+    {
+      "source": "刘思影",
+      "target": "天安门自焚事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-01-23",
+        "description": {
+          "zh-cn": "作为参与者之一，实施了自焚行为。",
+          "en": "As one of the participants, she carried out the act of self-immolation."
+        }
+      }
+    },
+    {
+      "source": "陈果",
+      "target": "天安门自焚事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-01-23",
+        "description": {
+          "zh-cn": "作为参与者之一，实施了自焚行为。",
+          "en": "As one of the participants, she carried out the act of self-immolation."
+        }
+      }
+    },
+    {
+      "source": "郝惠君",
+      "target": "天安门自焚事件",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2001-01-23",
+        "description": {
+          "zh-cn": "作为参与者之一，实施了自焚行为。",
+          "en": "As one of the participants, she carried out the act of self-immolation."
+        }
+      }
+    },
+    {
+      "source": "刘思影",
+      "target": "刘春玲",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘思影是刘春玲的女儿。",
+          "en": "Liu Siying was the daughter of Liu Chunling."
+        }
+      }
+    },
+    {
+      "source": "陈果",
+      "target": "郝惠君",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "陈果是郝惠君的女儿。",
+          "en": "Chen Guo was the daughter of Hao Huijun."
+        }
+      }
+    },
+    {
+      "source": "陈果",
+      "target": "中央音乐学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "2001-01",
+        "description": {
+          "zh-cn": "在天安门自焚事件发生时，陈果是中央音乐学院的一名19岁学生。",
+          "en": "At the time of the Tiananmen self-immolation incident, Chen Guo was a 19-year-old student at the Central Conservatory of Music."
+        }
+      }
+    },
+    {
+      "source": "陈光标",
+      "target": "郝惠君",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-01-08",
+        "description": {
+          "zh-cn": "宣布将全额资助郝惠君在美国接受整形治疗。",
+          "en": "Announced that he would fully fund plastic surgery for Hao Huijun in the United States."
+        }
+      }
+    },
+    {
+      "source": "陈光标",
+      "target": "陈果",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2014-01-08",
+        "description": {
+          "zh-cn": "宣布将全额资助陈果在美国接受整形治疗。",
+          "en": "Announced that he would fully fund plastic surgery for Chen Guo in the United States."
+        }
+      }
+    }
+  ]
+}

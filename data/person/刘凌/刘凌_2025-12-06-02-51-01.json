@@ -1,0 +1,223 @@
+{
+  "nodes": [
+    {
+      "id": "刘凌",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘凌"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1922 - 1998",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "山东蓬莱县",
+          "en": "Penglai County, Shandong"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国军事人物，曾任兰州军区副政治委员，第五届全国人大代表。",
+          "en": "A military figure of the People's Republic of China, who served as the Deputy Political Commissar of the Lanzhou Military Region and was a deputy to the 5th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "山东省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "山东省",
+          "山东"
+        ],
+        "en": [
+          "Shandong Province",
+          "Shandong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省份。",
+          "en": "A province of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "蓬莱县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "蓬莱县",
+          "蓬莱"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "山东省烟台市的旧县名，刘凌的出生地。",
+          "en": "A former county in Yantai, Shandong Province, and the birthplace of Liu Ling."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为中国。",
+          "en": "A socialist state in East Asia, commonly known as China."
+        }
+      }
+    },
+    {
+      "id": "兰州军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "兰州军区"
+        ],
+        "en": [
+          "Lanzhou Military Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军曾存在的一个大军区。",
+          "en": "A former military region of the Chinese People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "第五届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第五届全国人民代表大会"
+        ],
+        "en": [
+          "5th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "1978-03 - 1983-06",
+        "description": {
+          "zh-cn": "中华人民共和国的第五届最高国家权力机关。",
+          "en": "The fifth session of the highest state authority in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "八路军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "八路军"
+        ],
+        "en": [
+          "Eighth Route Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全称国民革命军第八路军，是中国抗日战争时期，由中国共产党领导的常规军队。",
+          "en": "The Eighth Route Army, officially the Eighth Route Army of the National Revolutionary Army, was a regular army led by the Communist Party of China during the Second Sino-Japanese War."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的创立者和唯一执政党。",
+          "en": "The founder and sole ruling party of the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘凌",
+      "target": "蓬莱县",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "刘凌是山东蓬莱人。",
+          "en": "Liu Ling was from Penglai, Shandong."
+        }
+      }
+    },
+    {
+      "source": "刘凌",
+      "target": "兰州军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副政治委员",
+          "en": "Deputy Political Commissar"
+        },
+        "description": {
+          "zh-cn": "刘凌曾担任兰州军区副政治委员。",
+          "en": "Liu Ling served as the Deputy Political Commissar of the Lanzhou Military Region."
+        }
+      }
+    },
+    {
+      "source": "刘凌",
+      "target": "第五届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "description": {
+          "zh-cn": "刘凌是第五届全国人大代表。",
+          "en": "Liu Ling was a deputy to the 5th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "刘凌",
+      "target": "八路军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据分类“八路军人物”，刘凌是八路军的一员。",
+          "en": "Based on the category 'Eighth Route Army figures', Liu Ling was a member of the Eighth Route Army."
+        }
+      }
+    },
+    {
+      "source": "刘凌",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据分类“中国共产党党员”，刘凌是中国共产党党员。",
+          "en": "Based on the category 'Communist Party of China members', Liu Ling was a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

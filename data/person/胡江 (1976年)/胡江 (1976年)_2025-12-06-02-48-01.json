@@ -1,0 +1,215 @@
+{
+  "nodes": [
+    {
+      "id": "胡江",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "胡江"
+        ],
+        "en": [
+          "Hu Jiang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1976-02 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "齐齐哈尔",
+          "en": "Qiqihar"
+        },
+        "description": {
+          "zh-cn": "中国政治人物，汉族，中国共产党党员。2018年当选为第十三届全国人民代表大会黑龙江省代表。",
+          "en": "A Chinese politician of Han ethnicity and a member of the Chinese Communist Party. In 2018, he was elected as a delegate from Heilongjiang Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "id": "齐齐哈尔",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "齐齐哈尔"
+        ],
+        "en": [
+          "Qiqihar"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "黑龙江省",
+          "en": "Heilongjiang Province"
+        },
+        "description": {
+          "zh-cn": "中国黑龙江省下辖的地级市。",
+          "en": "A prefecture-level city in Heilongjiang province, China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的执政党。",
+          "en": "The ruling political party of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，由中国共产党执政。",
+          "en": "A socialist state in East Asia, governed by the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "第十三届全国人民代表大会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "第十三届全国人民代表大会"
+        ],
+        "en": [
+          "13th National People's Congress"
+        ]
+      },
+      "properties": {
+        "period": "2018-03-05 - 2023-03-13",
+        "description": {
+          "zh-cn": "中华人民共和国的第十三届国家最高权力机关。",
+          "en": "The 13th term of the highest organ of state power in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "黑龙江省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "黑龙江省"
+        ],
+        "en": [
+          "Heilongjiang Province"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的省级行政区，位于中国东北地区。",
+          "en": "A provincial-level administrative division of the People's Republic of China, located in the northeastern region of the country."
+        }
+      }
+    },
+    {
+      "id": "全国人大代表",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "全国人大代表"
+        ],
+        "en": [
+          "Deputy to the National People's Congress"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全国人民代表大会的组成人员，是中华人民共和国最高国家权力机关的成员。",
+          "en": "A member of the National People's Congress, which is the highest organ of state power in the People's Republic of China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "胡江",
+      "target": "齐齐哈尔",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据Wikitext，胡江是黑龙江齐齐哈尔人。",
+          "en": "According to the Wikitext, Hu Jiang is from Qiqihar, Heilongjiang."
+        }
+      }
+    },
+    {
+      "source": "胡江",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext，胡江是中国共产党党员。",
+          "en": "According to the Wikitext, Hu Jiang is a member of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "胡江",
+      "target": "第十三届全国人民代表大会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2018",
+        "position": {
+          "zh-cn": "黑龙江省代表",
+          "en": "Delegate from Heilongjiang Province"
+        },
+        "description": {
+          "zh-cn": "2018年，胡江被选为黑龙江省出席第十三届全国人民代表大会代表。",
+          "en": "In 2018, Hu Jiang was elected as a delegate representing Heilongjiang Province to the 13th National People's Congress."
+        }
+      }
+    },
+    {
+      "source": "胡江",
+      "target": "中华人民共和国",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "政治人物",
+          "en": "Political figure"
+        },
+        "description": {
+          "zh-cn": "胡江是中华人民共和国的政治人物。",
+          "en": "Hu Jiang is a political figure in the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "胡江",
+      "target": "全国人大代表",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "代表",
+          "en": "Deputy"
+        },
+        "description": {
+          "zh-cn": "根据信息框，胡江的头衔是全国人大代表。",
+          "en": "According to the infobox, Hu Jiang's title is Deputy to the National People's Congress."
+        }
+      }
+    }
+  ]
+}

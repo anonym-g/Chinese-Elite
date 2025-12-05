@@ -1,0 +1,599 @@
+{
+  "nodes": [
+    {
+      "id": "香港身份证",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "香港身份证",
+          "香港永久性居民身份证",
+          "香港居民身份证"
+        ],
+        "en": [
+          "Hong Kong Identity Card",
+          "Hong Kong Permanent Identity Card"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港特别行政区的身份证明文件，由入境事务处签发，分为“香港永久性居民身份证”和“香港居民身份证”。该证件经历了从手写、电脑化到智能卡的多个发展阶段。",
+          "en": "An identity document issued by the Immigration Department of the Hong Kong Special Administrative Region. It is divided into 'Hong Kong Permanent Identity Card' and 'Hong Kong Resident Identity Card'. The card has evolved through several stages, from handwritten to computerized to smart cards."
+        }
+      }
+    },
+    {
+      "id": "入境事务处",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "入境事务处",
+          "人民入境事务处"
+        ],
+        "en": [
+          "Immigration Department"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "香港",
+          "en": "Hong Kong"
+        },
+        "description": {
+          "zh-cn": "香港特别行政区政府保安局辖下的纪律部队之一，负责香港的出入境管制及签发身份证、旅行证件等事宜。",
+          "en": "One of the disciplined services under the Security Bureau of the Hong Kong Special Administrative Region Government, responsible for immigration control and the issuance of identity cards, travel documents, etc."
+        }
+      }
+    },
+    {
+      "id": "人事登记条例",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "人事登记条例"
+        ],
+        "en": [
+          "Registration of Persons Ordinance"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港法例第177章，规定了香港居民进行人事登记及领取身份证的法律要求。",
+          "en": "Chapter 177 of the Laws of Hong Kong, which stipulates the legal requirements for Hong Kong residents to register for and obtain identity cards."
+        }
+      }
+    },
+    {
+      "id": "香港特别行政区基本法",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "香港特别行政区基本法",
+          "香港基本法"
+        ],
+        "en": [
+          "Basic Law of the Hong Kong Special Administrative Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港特别行政区的宪制性文件，就香港身份证的中文名称用词有过影响。",
+          "en": "The constitutional document of the Hong Kong Special Administrative Region, which has influenced the Chinese terminology used for the Hong Kong Identity Card."
+        }
+      }
+    },
+    {
+      "id": "香港政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港政府"
+        ],
+        "en": [
+          "Hong Kong Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港的行政机关，在不同时期包括英属香港政府和香港特别行政区政府。在香港身份证的中文名称上作出了决定。",
+          "en": "The executive authorities of Hong Kong, including the British Hong Kong Government and the HKSAR Government at different times. It made a decision on the Chinese name of the Hong Kong Identity Card."
+        }
+      }
+    },
+    {
+      "id": "香港立法会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港立法会"
+        ],
+        "en": [
+          "Legislative Council of Hong Kong"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港特别行政区的立法机关，通过了继续使用“身份”作为香港身份证中文名称的决定。",
+          "en": "The legislature of the Hong Kong Special Administrative Region, which passed the decision to continue using '身份' as the Chinese name for the Hong Kong Identity Card."
+        }
+      }
+    },
+    {
+      "id": "容若",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "容若"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "香港文字研究者，曾就香港身份证的中文名称用字问题表达了强烈意见。",
+          "en": "A Hong Kong researcher of Chinese characters who expressed strong opinions on the terminology for the Hong Kong Identity Card's Chinese name."
+        }
+      }
+    },
+    {
+      "id": "陆离",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "陆离"
+        ],
+        "en": []
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "香港文化界人士，曾与容若等人一同反对更改香港身份证的中文名称用字。",
+          "en": "A Hong Kong cultural figure who, along with Yung Yeuk and others, opposed changing the Chinese characters used in the name of the Hong Kong Identity Card."
+        }
+      }
+    },
+    {
+      "id": "英属香港政府",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "英属香港政府"
+        ],
+        "en": [
+          "British Hong Kong Government"
+        ]
+      },
+      "properties": {
+        "period": "1841 - 1997-06-30",
+        "description": {
+          "zh-cn": "1997年香港主权移交前的香港政府。于1949年因应中国大陆移民涌入而开始实行身份证登记制度。",
+          "en": "The government of Hong Kong before the 1997 handover. It initiated the identity card registration system in 1949 in response to the influx of migrants from mainland China."
+        }
+      }
+    },
+    {
+      "id": "香港日占时期",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "香港日占时期"
+        ],
+        "en": [
+          "Japanese occupation of Hong Kong"
+        ]
+      },
+      "properties": {
+        "period": "1941-12-25 - 1945-08-15",
+        "description": {
+          "zh-cn": "第二次世界大战期间日本占领香港的时期。在此期间，日本军政府为监控人口而推行了“住民证”制度。",
+          "en": "The period during World War II when Hong Kong was occupied by Japan. During this time, the Japanese military government implemented the 'resident certificate' system to monitor the population."
+        }
+      }
+    },
+    {
+      "id": "住民证",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "住民证"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港日占时期由日本军政府强制推行的身份证明文件，用于人口管理和物资配给。",
+          "en": "An identity document mandated by the Japanese military government during the occupation of Hong Kong, used for population control and rationing."
+        }
+      }
+    },
+    {
+      "id": "即捕即解政策",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "即捕即解政策"
+        ],
+        "en": [
+          "Touch Base Policy"
+        ]
+      },
+      "properties": {
+        "period": "1980-10-23 - ",
+        "description": {
+          "zh-cn": "香港政府为阻止非法入境者而实施的政策，该政策的实施使得年满15岁的香港居民必须在公众地方携带身份证。",
+          "en": "A policy implemented by the Hong Kong government to deter illegal immigration, which made it mandatory for residents aged 15 and over to carry their identity cards in public."
+        }
+      }
+    },
+    {
+      "id": "中英联合声明",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "中英联合声明"
+        ],
+        "en": [
+          "Sino-British Joint Declaration"
+        ]
+      },
+      "properties": {
+        "period": "1984-12-19",
+        "description": {
+          "zh-cn": "中英两国就香港前途问题签署的联合声明。该声明的签署促使香港推出没有殖民地徽号的第二代电脑身份证。",
+          "en": "A joint declaration signed by the Chinese and British governments on the future of Hong Kong. Its signing led to the introduction of the second-generation computerized ID card without the colonial emblem."
+        }
+      }
+    },
+    {
+      "id": "全民换证计划",
+      "type": "Movement",
+      "name": {
+        "zh-cn": [
+          "全民换证计划"
+        ],
+        "en": [
+          "Territory-wide Identity Card Replacement Exercise"
+        ]
+      },
+      "properties": {
+        "period": "2018-12-27 - 2023-03-03",
+        "description": {
+          "zh-cn": "香港入境事务处为全港市民更换新一代智能身份证的计划。",
+          "en": "A program by the Hong Kong Immigration Department to replace the identity cards of all Hong Kong residents with a new generation of smart ID cards."
+        }
+      }
+    },
+    {
+      "id": "2019冠状病毒病疫情",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "2019冠状病毒病疫情"
+        ],
+        "en": [
+          "COVID-19 pandemic"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "全球性的大流行病，导致香港的全民换证计划曾三度暂停，延长了完成时间。",
+          "en": "A global pandemic that caused the Territory-wide Identity Card Replacement Exercise in Hong Kong to be suspended three times, extending its completion timeline."
+        }
+      }
+    },
+    {
+      "id": "杨伟雄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "杨伟雄"
+        ],
+        "en": [
+          "Nicholas Yang"
+        ]
+      },
+      "properties": {
+        "lifetime": "1955 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "前香港特别行政区政府创新及科技局局长，曾宣布香港将推出“数码个人身份”。",
+          "en": "Former Secretary for Innovation and Technology of the HKSAR Government, who announced that Hong Kong would launch 'digital personal identity'."
+        }
+      }
+    },
+    {
+      "id": "创新及科技局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "创新及科技局"
+        ],
+        "en": [
+          "Innovation and Technology Bureau"
+        ]
+      },
+      "properties": {
+        "period": "2015-11-20 - 2022-06-30",
+        "description": {
+          "zh-cn": "香港特别行政区政府曾设立的决策局，负责制定创新及科技相关政策。",
+          "en": "A former policy bureau of the HKSAR Government responsible for formulating policies on innovation and technology."
+        }
+      }
+    },
+    {
+      "id": "数码个人身份",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "数码个人身份",
+          "电子身份证"
+        ],
+        "en": [
+          "Digital Personal Identity"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港政府计划推出的电子身份认证系统，旨在为所有香港居民提供免费的数码身份。",
+          "en": "An electronic identity authentication system planned by the Hong Kong government, aiming to provide free digital identity for all Hong Kong residents."
+        }
+      }
+    },
+    {
+      "id": "香港公共图书馆",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "香港公共图书馆"
+        ],
+        "en": [
+          "Hong Kong Public Libraries"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "香港的公共图书馆系统，其图书证功能可以与智能身份证结合。",
+          "en": "The public library system in Hong Kong, whose library card function can be integrated with the smart identity card."
+        }
+      }
+    },
+    {
+      "id": "澳门特别行政区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "澳门特别行政区"
+        ],
+        "en": [
+          "Macao Special Administrative Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的两个特别行政区之一。符合条件的香港身份证持有人可免签证进入澳门。",
+          "en": "One of the two special administrative regions of the People's Republic of China. Eligible Hong Kong Identity Card holders can enter Macau visa-free."
+        }
+      }
+    },
+    {
+      "id": "阿尔巴尼亚",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "阿尔巴尼亚"
+        ],
+        "en": [
+          "Albania"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "欧洲国家，根据其外交部信息，香港身份证可作为入境的有效旅行证件。",
+          "en": "A European country which, according to its Ministry of Foreign Affairs, accepts the Hong Kong Identity Card as a valid travel document for entry."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "入境事务处",
+      "target": "香港身份证",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "入境事务处是香港身份证的签发机构，并负责推行历代身份证的换领计划。",
+          "en": "The Immigration Department is the issuing authority for the Hong Kong Identity Card and is responsible for implementing the replacement exercises for successive generations of the card."
+        }
+      }
+    },
+    {
+      "source": "人事登记条例",
+      "target": "香港身份证",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "《人事登记条例》是签发和管理香港身份证的法律依据，规定了香港居民登记领取身份证的义务。",
+          "en": "The Registration of Persons Ordinance is the legal basis for the issuance and management of the Hong Kong Identity Card, stipulating the obligation for Hong Kong residents to register for it."
+        }
+      }
+    },
+    {
+      "source": "香港特别行政区基本法",
+      "target": "香港身份证",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "《香港特别行政区基本法》中对身份证的中文名称采用了“身份”二字，影响了官方用词。",
+          "en": "The Basic Law of the Hong Kong Special Administrative Region used the characters '身份' for the identity card's Chinese name, influencing the official terminology."
+        }
+      }
+    },
+    {
+      "source": "香港政府",
+      "target": "香港身份证",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1991",
+        "description": {
+          "zh-cn": "香港政府在关于身份证中文名称的争论后，维持使用“身份”为原有写法。",
+          "en": "Following a debate on the Chinese name of the identity card, the Hong Kong Government maintained the original usage of '身份'."
+        }
+      }
+    },
+    {
+      "source": "容若",
+      "target": "香港身份证",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1991",
+        "description": {
+          "zh-cn": "在1991年香港政府计划更改用字时，与陆离等人大力反对，主张维持“身份”的写法。",
+          "en": "In 1991, when the Hong Kong government planned to change the characters, he, along with Lu Li and others, strongly opposed it, advocating to maintain the '身份' writing."
+        }
+      }
+    },
+    {
+      "source": "陆离",
+      "target": "香港身份证",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1991",
+        "description": {
+          "zh-cn": "在1991年香港政府计划更改用字时，与容若等人大力反对，主张维持“身份”的写法。",
+          "en": "In 1991, when the Hong Kong government planned to change the characters, she, along with Yung Yeuk and others, strongly opposed it, advocating to maintain the '身份' writing."
+        }
+      }
+    },
+    {
+      "source": "香港日占时期",
+      "target": "住民证",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "香港日占时期，日本军政府为方便管理及监控香港人口，勒令全香港市民均需要领取住民证。",
+          "en": "During the Japanese occupation of Hong Kong, the Japanese military government ordered all Hong Kong citizens to obtain a resident certificate for ease of management and population monitoring."
+        }
+      }
+    },
+    {
+      "source": "英属香港政府",
+      "target": "香港身份证",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1949",
+        "description": {
+          "zh-cn": "1949年，为控制因中国大陆政权更迭而涌入的人口，英属香港政府开始登记香港居民及发出第一代身份证。",
+          "en": "In 1949, to control the population influx following the change of regime in mainland China, the British Hong Kong Government began registering Hong Kong residents and issuing the first generation of identity cards."
+        }
+      }
+    },
+    {
+      "source": "即捕即解政策",
+      "target": "香港身份证",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1980-10-23",
+        "description": {
+          "zh-cn": "该政策规定所有年满15岁的香港居民必须在公众地方携带身份证，从而强化了身份证的法律地位和日常重要性。",
+          "en": "This policy mandated that all Hong Kong residents aged 15 or over must carry their identity card in public places, thereby strengthening the legal status and daily importance of the ID card."
+        }
+      }
+    },
+    {
+      "source": "中英联合声明",
+      "target": "香港身份证",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1987-06-01",
+        "description": {
+          "zh-cn": "因应《中英联合声明》确认香港主权将移交，入境事务处于1987年推出没有殖民地徽号的第二代电脑身份证。",
+          "en": "In response to the Sino-British Joint Declaration confirming the handover of Hong Kong's sovereignty, the Immigration Department launched the second-generation computerized identity card without the colonial emblem in 1987."
+        }
+      }
+    },
+    {
+      "source": "入境事务处",
+      "target": "全民换证计划",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2018-12-27",
+        "end_date": "2023-03-03",
+        "description": {
+          "zh-cn": "入境事务处策划并执行了2018年至2023年的全民换证计划，为市民更换新一代智能身份证。",
+          "en": "The Immigration Department planned and executed the Territory-wide Identity Card Replacement Exercise from 2018 to 2023 to issue new-generation smart ID cards to the public."
+        }
+      }
+    },
+    {
+      "source": "2019冠状病毒病疫情",
+      "target": "全民换证计划",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "2020",
+        "description": {
+          "zh-cn": "受2019冠状病毒病疫情影响，全民换证计划曾三度暂停办理，导致完成日期延后。",
+          "en": "Affected by the COVID-19 pandemic, the Territory-wide Identity Card Replacement Exercise was suspended three times, leading to a postponement of its completion date."
+        }
+      }
+    },
+    {
+      "source": "杨伟雄",
+      "target": "数码个人身份",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "2019-10",
+        "description": {
+          "zh-cn": "时任创新及科技局局长杨伟雄表示，香港将在2020年为所有香港居民免费提供“数码个人身份”。",
+          "en": "Nicholas Yang, then Secretary for Innovation and Technology, stated that Hong Kong would provide free 'Digital Personal Identity' to all Hong Kong residents in 2020."
+        }
+      }
+    },
+    {
+      "source": "杨伟雄",
+      "target": "创新及科技局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "局长",
+          "en": "Secretary"
+        },
+        "description": {
+          "zh-cn": "杨伟雄曾担任香港特别行政区政府创新及科技局局长。",
+          "en": "Nicholas Yang served as the Secretary for Innovation and Technology of the HKSAR Government."
+        }
+      }
+    },
+    {
+      "source": "香港身份证",
+      "target": "香港公共图书馆",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "智能身份证可以用作香港公共图书馆的图书证。",
+          "en": "The smart identity card can be used as a library card for the Hong Kong Public Libraries."
+        }
+      }
+    },
+    {
+      "source": "香港身份证",
+      "target": "澳门特别行政区",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "符合资格的香港身份证持有人可使用身份证免签证进入澳门特别行政区并逗留。",
+          "en": "Eligible Hong Kong Identity Card holders can use their ID card for visa-free entry and stay in the Macao Special Administrative Region."
+        }
+      }
+    },
+    {
+      "source": "香港身份证",
+      "target": "阿尔巴尼亚",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "根据阿尔巴尼亚外交部信息，香港身份证可作为入境该国的有效旅行证件。",
+          "en": "According to information from the Albanian Ministry of Foreign Affairs, the Hong Kong Identity Card can be used as a valid travel document for entry into the country."
+        }
+      }
+    }
+  ]
+}
