@@ -1,0 +1,421 @@
+{
+  "nodes": [
+    {
+      "id": "滕文生",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "滕文生"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1940-10 - ",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "常宁市",
+          "en": ""
+        },
+        "description": {
+          "zh-cn": "中国政治人物，毛泽东研究专家。中共十五届、十六届中央委员，曾任中共中央政策研究室主任、中共中央文献研究室主任。",
+          "en": "Chinese politician and an expert on Mao Zedong. He was a member of the 15th and 16th Central Committees of the Communist Party of China, and served as Director of the Policy Research Office and the Party Literature Research Center of the CPC Central Committee."
+        }
+      }
+    },
+    {
+      "id": "常宁市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "常宁市"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党",
+          "中共"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党第十五届中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十五届中央委员会",
+          "中共十五届"
+        ],
+        "en": [
+          "15th Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党第十六届中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十六届中央委员会",
+          "中共十六届"
+        ],
+        "en": [
+          "16th Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议第十一届全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议第十一届全国委员会",
+          "第十一届全国政协"
+        ],
+        "en": [
+          "11th National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "湖南省衡阳市第一中学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "湖南省衡阳市第一中学"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民大学"
+        ],
+        "en": [
+          "Renmin University of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共中央书记处研究室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央书记处研究室"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党中央顾问委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央顾问委员会",
+          "中共中央顾问委员会"
+        ],
+        "en": [
+          "Central Advisory Commission"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共中央政策研究室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央政策研究室"
+        ],
+        "en": [
+          "Policy Research Office of the CPC Central Committee"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共中央文献研究室",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央文献研究室"
+        ],
+        "en": [
+          "Party Literature Research Center of the CPC Central Committee"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "逄先知",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "逄先知"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "冷溶",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "冷溶"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "王维澄",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王维澄"
+        ],
+        "en": []
+      },
+      "properties": {}
+    },
+    {
+      "id": "王沪宁",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王沪宁"
+        ],
+        "en": [
+          "Wang Huning"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "滕文生",
+      "target": "常宁市",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1940-10"
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "湖南省衡阳市第一中学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "高中毕业于湖南省衡阳市第一中学。",
+          "en": "Graduated from Hengyang No.1 High School of Hunan Province."
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中国人民大学",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "end_date": "1964",
+        "degree": {
+          "zh-cn": "中共党史系",
+          "en": "Department of the History of the Communist Party of China"
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1965"
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中国共产党第十五届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "中央委员",
+          "en": "Member of the Central Committee"
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中国共产党第十六届中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "中央委员",
+          "en": "Member of the Central Committee"
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中国人民政治协商会议第十一届全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "常务委员",
+          "en": "Member of the Standing Committee"
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中共中央书记处研究室",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副研究员、研究员、理论组组长、副主任",
+          "en": "Associate Researcher, Researcher, Head of the Theory Group, Deputy Director"
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中国共产党中央顾问委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副秘书长",
+          "en": "Deputy Secretary-General"
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中共中央政策研究室",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1989",
+        "end_date": "1997-10",
+        "position": {
+          "zh-cn": "副主任",
+          "en": "Deputy Director"
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中共中央政策研究室",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1997-10",
+        "end_date": "2002-10",
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "中共中央文献研究室",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "2002-10",
+        "end_date": "2007-12",
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "滕文生",
+      "type": "INFLUENCED",
+      "properties": {
+        "description": {
+          "zh-cn": "滕文生是研究毛泽东的专家。",
+          "en": "Teng Wensheng is an expert on Mao Zedong."
+        }
+      }
+    },
+    {
+      "source": "逄先知",
+      "target": "滕文生",
+      "type": "MET_WITH",
+      "properties": {
+        "end_date": "2002-10",
+        "description": {
+          "zh-cn": "滕文生接替逄先知，担任中共中央文献研究室主任。",
+          "en": "Teng Wensheng succeeded Pang Xianzhi as Director of the Party Literature Research Center of the CPC Central Committee."
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "冷溶",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2007-12",
+        "description": {
+          "zh-cn": "冷溶接替滕文生，担任中共中央文献研究室主任。",
+          "en": "Leng Rong succeeded Teng Wensheng as Director of the Party Literature Research Center of the CPC Central Committee."
+        }
+      }
+    },
+    {
+      "source": "王维澄",
+      "target": "滕文生",
+      "type": "MET_WITH",
+      "properties": {
+        "end_date": "1997-10",
+        "description": {
+          "zh-cn": "滕文生接替王维澄，担任中共中央政策研究室主任。",
+          "en": "Teng Wensheng succeeded Wang Weicheng as Director of the Policy Research Office of the CPC Central Committee."
+        }
+      }
+    },
+    {
+      "source": "滕文生",
+      "target": "王沪宁",
+      "type": "MET_WITH",
+      "properties": {
+        "start_date": "2002-10",
+        "description": {
+          "zh-cn": "王沪宁接替滕文生，担任中共中央政策研究室主任。",
+          "en": "Wang Huning succeeded Teng Wensheng as Director of the Policy Research Office of the CPC Central Committee."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "黄铭新",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "黄铭新"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1909 - 2001",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "广东惠阳",
+          "en": "Huiyang, Guangdong"
+        },
+        "death_place": {},
+        "description": {
+          "zh-cn": "中国内科学家，曾任上海第二医科大学教授、博士生导师，第五、六届全国政协委员。",
+          "en": "Chinese physician in internal medicine, former professor and doctoral supervisor at Shanghai Second Medical University, and a member of the 5th and 6th National Committee of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "id": "惠阳",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "惠阳"
+        ],
+        "en": [
+          "Huiyang"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "上海第二医科大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "上海第二医科大学"
+        ],
+        "en": [
+          "Shanghai Second Medical University"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议全国委员会",
+          "全国政协"
+        ],
+        "en": [
+          "National Committee of the Chinese People's Political Consultative Conference",
+          "CPPCC"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "圣约翰大学 (上海市)",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "圣约翰大学 (上海市)"
+        ],
+        "en": [
+          "St. John's University (Shanghai)"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国民主同盟",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主同盟"
+        ],
+        "en": [
+          "China Democratic League"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国民主同盟中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主同盟中央委员会"
+        ],
+        "en": [
+          "Central Committee of the China Democratic League"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国民主同盟上海市委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国民主同盟上海市委员会"
+        ],
+        "en": [
+          "Shanghai Municipal Committee of the China Democratic League"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "黄铭新",
+      "target": "惠阳",
+      "type": "BORN_IN",
+      "properties": {
+        "description": {
+          "zh-cn": "根据文本“广东惠阳人”可知。",
+          "en": "Indicated by the text 'a native of Huiyang, Guangdong'."
+        }
+      }
+    },
+    {
+      "source": "黄铭新",
+      "target": "上海第二医科大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "教授、博士生导师",
+          "en": "Professor, Doctoral Supervisor"
+        },
+        "description": {
+          "zh-cn": "根据文本“曾任上海第二医科大学教授、博士生导师”和分类“上海第二医科大学教授”可知。",
+          "en": "Indicated by the text 'former professor and doctoral supervisor at Shanghai Second Medical University' and the category 'Shanghai Second Medical University professors'."
+        }
+      }
+    },
+    {
+      "source": "黄铭新",
+      "target": "中国人民政治协商会议全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第五届、第六届委员",
+          "en": "Member of the 5th and 6th National Committee"
+        },
+        "description": {
+          "zh-cn": "根据文本“第五、六届全国政协委员”和分类“第五届全国政协委员”、“第六届全国政协委员”可知。",
+          "en": "Indicated by the text 'a member of the 5th and 6th National Committee of the CPPCC' and the categories 'Members of the 5th National Committee of the CPPCC' and 'Members of the 6th National Committee of the CPPCC'."
+        }
+      }
+    },
+    {
+      "source": "黄铭新",
+      "target": "圣约翰大学 (上海市)",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据分类“圣约翰大学校友 (上海市)”可知。",
+          "en": "Indicated by the category 'St. John's University (Shanghai) alumni'."
+        }
+      }
+    },
+    {
+      "source": "黄铭新",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party Member"
+        },
+        "description": {
+          "zh-cn": "根据分类“中国共产党党员”可知。",
+          "en": "Indicated by the category 'Communist Party of China members'."
+        }
+      }
+    },
+    {
+      "source": "黄铭新",
+      "target": "中国民主同盟",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "盟员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "根据分类“中国民主同盟盟员”可知。",
+          "en": "Indicated by the category 'China Democratic League members'."
+        }
+      }
+    },
+    {
+      "source": "黄铭新",
+      "target": "中国民主同盟中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "委员",
+          "en": "Committee Member"
+        },
+        "description": {
+          "zh-cn": "根据分类“中国民主同盟中央委员会委员”可知。",
+          "en": "Indicated by the category 'Members of the Central Committee of the China Democratic League'."
+        }
+      }
+    },
+    {
+      "source": "黄铭新",
+      "target": "中国民主同盟上海市委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副主任委员",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "根据分类“中国民主同盟上海市委员会副主任委员”可知。",
+          "en": "Indicated by the category 'Vice Chairpersons of the Shanghai Municipal Committee of the China Democratic League'."
+        }
+      }
+    }
+  ]
+}

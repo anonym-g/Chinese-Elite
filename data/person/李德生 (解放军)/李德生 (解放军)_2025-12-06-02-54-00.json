@@ -1,0 +1,636 @@
+{
+  "nodes": [
+    {
+      "id": "李德生",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李德生"
+        ],
+        "en": []
+      },
+      "properties": {
+        "lifetime": "1916-04-24 - 2011-05-08",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "河南省光山县",
+          "en": "Guangshan County, Henan Province"
+        },
+        "death_place": {
+          "zh-cn": "北京市",
+          "en": "Beijing"
+        },
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的政治人物及军事将领，无产阶级革命家、军事家。曾任中共中央副主席、中国人民解放军总政治部主任、北京军区司令员、沈阳军区司令员及国防大学政治委员。1955年被授予少将军衔，1988年被授予上将军衔。",
+          "en": "A Chinese politician and military general of the Communist Party of China and the People's Republic of China, a proletarian revolutionary and militarist. He served as Vice Chairman of the CPC Central Committee, Director of the General Political Department of the PLA, Commander of the Beijing Military Region, Commander of the Shenyang Military Region, and Political Commissar of the National Defence University. He was awarded the rank of Major General in 1955 and General in 1988."
+        }
+      }
+    },
+    {
+      "id": "毛泽东",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛泽东"
+        ],
+        "en": [
+          "Mao Zedong"
+        ]
+      },
+      "properties": {
+        "lifetime": "1893-12-26 - 1976-09-09",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党、中华人民共和国、中国人民解放军的主要缔造者和领导人。",
+          "en": "A Chinese communist revolutionary who was the founder of the People's Republic of China (PRC), which he led as the chairman of the Communist Party of China from its establishment in 1949 until his death in 1976."
+        }
+      }
+    },
+    {
+      "id": "周恩来",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "周恩来"
+        ],
+        "en": [
+          "Zhou Enlai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1898-03-05 - 1976-01-08",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国第一代主要领导人之一，曾任中华人民共和国国务院总理。",
+          "en": "One of the first generation of major leaders of the Communist Party of China and the People's Republic of China, served as the first Premier of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "王洪文",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "王洪文"
+        ],
+        "en": [
+          "Wang Hongwen"
+        ]
+      },
+      "properties": {
+        "lifetime": "1935-12 - 1992-08-03",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，“四人帮”成员之一，曾任中国共产党中央委员会副主席。",
+          "en": "A Chinese political figure, a member of the 'Gang of Four', and former Vice Chairman of the Central Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "毛远新",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "毛远新"
+        ],
+        "en": [
+          "Mao Yuanxin"
+        ]
+      },
+      "properties": {
+        "lifetime": "1941-02-14 - ",
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中国政治人物，毛泽东的侄子，曾任沈阳军区政治委员。",
+          "en": "A Chinese political figure, nephew of Mao Zedong, who served as Political Commissar of the Shenyang Military Region."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央委员会",
+          "中共中央"
+        ],
+        "en": [
+          "Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的中央权力机关。",
+          "en": "The central governing body of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党中央政治局常务委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党中央政治局常务委员会",
+          "中央政治局常委"
+        ],
+        "en": [
+          "Politburo Standing Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党和中华人民共和国的最高领导机构。",
+          "en": "The supreme leadership body of the Communist Party of China and the People's Republic of China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军总政治部",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军总政治部"
+        ],
+        "en": [
+          "General Political Department of the People's Liberation Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "原为中国人民解放军负责政治思想工作的最高领导机关。",
+          "en": "Formerly the highest leading organ responsible for political and ideological work in the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军北京军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军北京军区"
+        ],
+        "en": [
+          "Beijing Military Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "原为中国人民解放军七大军区之一，主要负责首都北京及周边地区的防务。",
+          "en": "Formerly one of the seven military regions of the People's Liberation Army, primarily responsible for the defense of the capital, Beijing, and surrounding areas."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军沈阳军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军沈阳军区"
+        ],
+        "en": [
+          "Shenyang Military Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "原为中国人民解放军七大军区之一，主要负责中国东北地区的防务。",
+          "en": "Formerly one of the seven military regions of the People's Liberation Army, primarily responsible for the defense of Northeast China."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军国防大学",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军国防大学"
+        ],
+        "en": [
+          "PLA National Defence University"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军的最高军事学府。",
+          "en": "The highest military academy of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "中国共产党第十次全国代表大会",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "中国共产党第十次全国代表大会"
+        ],
+        "en": [
+          "10th National Congress of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "period": "1973-08-24 - 1973-08-28",
+        "description": {
+          "zh-cn": "于1973年8月24日至28日在北京举行的一次中国共产党全国代表大会。",
+          "en": "A National Congress of the Communist Party of China held in Beijing from August 24 to 28, 1973."
+        }
+      }
+    },
+    {
+      "id": "上甘岭战役",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "上甘岭战役"
+        ],
+        "en": [
+          "Battle of Triangle Hill"
+        ]
+      },
+      "properties": {
+        "period": "1952-10-14 - 1952-11-25",
+        "description": {
+          "zh-cn": "朝鲜战争中一场著名的战役。",
+          "en": "A famous battle during the Korean War."
+        }
+      }
+    },
+    {
+      "id": "中国人民志愿军",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民志愿军"
+        ],
+        "en": [
+          "People's Volunteer Army"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国在朝鲜战争中派遣的武装力量。",
+          "en": "The armed forces deployed by the People's Republic of China during the Korean War."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军高等军事学院",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军高等军事学院",
+          "高等军事学院"
+        ],
+        "en": [
+          "PLA Higher Military Academy"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国人民解放军国防大学的前身之一，负责培训军队高级干部。",
+          "en": "One of the predecessors of the PLA National Defence University, responsible for training senior military cadres."
+        }
+      }
+    },
+    {
+      "id": "中国人民解放军南京军区",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民解放军南京军区"
+        ],
+        "en": [
+          "Nanjing Military Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "原为中国人民解放军七大军区之一，主要负责中国东部地区的防务。",
+          "en": "Formerly one of the seven military regions of the People's Liberation Army, primarily responsible for the defense of Eastern China."
+        }
+      }
+    },
+    {
+      "id": "中国共产党安徽省委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党安徽省委员会"
+        ],
+        "en": [
+          "Anhui Provincial Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党在安徽省的领导机关。",
+          "en": "The leading organ of the Communist Party of China in Anhui Province."
+        }
+      }
+    },
+    {
+      "id": "中华爱国工程联合会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华爱国工程联合会"
+        ],
+        "en": []
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "旨在“宣传爱国精神、组织爱国工程、弘扬中华文化、促进祖国统一”的全国性社团组织。",
+          "en": "A national social organization aimed at 'promoting patriotic spirit, organizing patriotic projects, carrying forward Chinese culture, and promoting the reunification of the motherland'."
+        }
+      }
+    },
+    {
+      "id": "中国武术协会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国武术协会"
+        ],
+        "en": [
+          "Chinese Wushu Association"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "管理中国武术运动的全国性组织。",
+          "en": "The national organization that governs the sport of Wushu in China."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李德生",
+      "target": "中国共产党中央委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1973-08-30",
+        "end_date": "1975-01-10",
+        "position": {
+          "zh-cn": "副主席",
+          "en": "Vice Chairman"
+        },
+        "description": {
+          "zh-cn": "李德生在中国共产党第十届中央委员会担任副主席，后在十届二中全会上辞去该职务。",
+          "en": "Li Desheng served as Vice Chairman of the 10th Central Committee of the Communist Party of China, and later resigned from this position at the Second Plenary Session of the 10th Central Committee."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国共产党中央政治局常务委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1973-08-30",
+        "end_date": "1975-01-10",
+        "position": {
+          "zh-cn": "委员",
+          "en": "Member"
+        },
+        "description": {
+          "zh-cn": "李德生在中国共产党第十届中央委员会担任政治局常务委员会委员。",
+          "en": "Li Desheng served as a member of the Politburo Standing Committee of the 10th Central Committee of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国人民解放军总政治部",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1970-04",
+        "end_date": "1973-12",
+        "position": {
+          "zh-cn": "主任",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "李德生担任中国人民解放军总政治部主任。",
+          "en": "Li Desheng served as the Director of the General Political Department of the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国人民解放军北京军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1971",
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "李德生于1971年被任命为北京军区司令员。",
+          "en": "Li Desheng was appointed Commander of the Beijing Military Region in 1971."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国人民解放军沈阳军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1973-12",
+        "end_date": "1985-06",
+        "position": {
+          "zh-cn": "司令员",
+          "en": "Commander"
+        },
+        "description": {
+          "zh-cn": "李德生于1973年底调任沈阳军区司令员，直至1985年6月。",
+          "en": "Li Desheng was transferred to be the Commander of the Shenyang Military Region at the end of 1973, a position he held until June 1985."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国人民解放军国防大学",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1985-11",
+        "end_date": "1990-04",
+        "position": {
+          "zh-cn": "政治委员",
+          "en": "Political Commissar"
+        },
+        "description": {
+          "zh-cn": "李德生担任中国人民解放军国防大学政治委员，直至1990年离休。",
+          "en": "Li Desheng served as the Political Commissar of the PLA National Defence University until his retirement in 1990."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国人民解放军南京军区",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1968-09",
+        "position": {
+          "zh-cn": "副司令员",
+          "en": "Deputy Commander"
+        },
+        "description": {
+          "zh-cn": "1968年9月，李德生任南京军区副司令员。",
+          "en": "In September 1968, Li Desheng became the Deputy Commander of the Nanjing Military Region."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国共产党安徽省委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1968-09",
+        "end_date": "1975-05",
+        "position": {
+          "zh-cn": "第一书记",
+          "en": "First Secretary"
+        },
+        "description": {
+          "zh-cn": "1968年9月起，李德生任安徽省委第一书记，后于1971年1月正式就任该职，直至1975年5月。",
+          "en": "Starting from September 1968, Li Desheng served as the First Secretary of the Anhui Provincial Party Committee, formally taking office in January 1971 and holding the position until May 1975."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国人民志愿军",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1951",
+        "position": {
+          "zh-cn": "师长、副军长",
+          "en": "Division Commander, Deputy Corps Commander"
+        },
+        "description": {
+          "zh-cn": "李德生于1951年参加抗美援朝，曾任中国人民志愿军师长、副军长。",
+          "en": "Li Desheng participated in the Korean War in 1951, serving as a Division Commander and Deputy Corps Commander in the People's Volunteer Army."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国人民解放军高等军事学院",
+      "type": "ALUMNUS_OF",
+      "properties": {
+        "start_date": "1957",
+        "end_date": "1960",
+        "description": {
+          "zh-cn": "1957年，李德生进入南京高等军事学院学习。",
+          "en": "In 1957, Li Desheng began his studies at the Higher Military Academy in Nanjing."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中华爱国工程联合会",
+      "type": "FOUNDED",
+      "properties": {
+        "description": {
+          "zh-cn": "李德生离休后与他人共同创办了中华爱国工程联合会。",
+          "en": "After his retirement, Li Desheng co-founded the China Patriotic Engineering Federation."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "中国武术协会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1992-12",
+        "end_date": "2005-11",
+        "position": {
+          "zh-cn": "名誉主席",
+          "en": "Honorary Chairman"
+        },
+        "description": {
+          "zh-cn": "李德生兼任中国武术协会名誉主席。",
+          "en": "Li Desheng concurrently served as the Honorary Chairman of the Chinese Wushu Association."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "上甘岭战役",
+      "type": "PUSHED",
+      "properties": {
+        "description": {
+          "zh-cn": "在朝鲜战争期间，李德生曾担任上甘岭战役的第一线总指挥，指挥十二军作战。",
+          "en": "During the Korean War, Li Desheng served as the frontline commander-in-chief of the Battle of Triangle Hill, commanding the 12th Corps."
+        }
+      }
+    },
+    {
+      "source": "毛泽东",
+      "target": "李德生",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1969",
+        "description": {
+          "zh-cn": "李德生在安徽平息武斗、稳定局势的举措受到毛泽东肯定，并于1969年被调到北京担任要职。",
+          "en": "Li Desheng's measures to quell armed conflicts and stabilize the situation in Anhui were affirmed by Mao Zedong, leading to his transfer to key positions in Beijing in 1969."
+        }
+      }
+    },
+    {
+      "source": "周恩来",
+      "target": "李德生",
+      "type": "PUSHED",
+      "properties": {
+        "start_date": "1973",
+        "description": {
+          "zh-cn": "在1973年的中国共产党第十次全国代表大会上，周恩来提名李德生作为“中”的代表进入大会主席团，后李德生当选为中央政治局常委、副主席。",
+          "en": "At the 10th National Congress of the Communist Party of China in 1973, Zhou Enlai nominated Li Desheng to the presidium as a representative of the 'middle-aged' cadre, after which Li was elected to the Politburo Standing Committee and as a Vice Chairman."
+        }
+      }
+    },
+    {
+      "source": "王洪文",
+      "target": "李德生",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-08-26",
+        "end_date": "1974-09-10",
+        "description": {
+          "zh-cn": "王洪文主持会议，将李德生作为“重点的重点”进行批评，列举其问题，导致李德生被迫作检讨并于次年辞去党的副主席职务。",
+          "en": "Wang Hongwen presided over a meeting where Li Desheng was targeted for criticism, listing his alleged problems, which forced Li to make a self-criticism and resign as a Party Vice Chairman the following year."
+        }
+      }
+    },
+    {
+      "source": "毛远新",
+      "target": "李德生",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1974-08-26",
+        "end_date": "1974-09-10",
+        "description": {
+          "zh-cn": "与王洪文一同列举李德生的问题，对其进行批评。",
+          "en": "Together with Wang Hongwen, listed Li Desheng's alleged problems and criticized him."
+        }
+      }
+    },
+    {
+      "source": "李德生",
+      "target": "毛泽东",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "start_date": "1973-08-30",
+        "end_date": "1975-01-10",
+        "position": {
+          "zh-cn": "中央委员会副主席",
+          "en": "Vice Chairman of the Central Committee"
+        },
+        "description": {
+          "zh-cn": "在担任中共中央副主席期间，毛泽东是中共中央主席。",
+          "en": "During his tenure as Vice Chairman of the CPC Central Committee, Mao Zedong was the Chairman."
+        }
+      }
+    }
+  ]
+}

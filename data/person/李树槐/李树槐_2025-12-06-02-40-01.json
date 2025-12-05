@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "李树槐",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "李树槐"
+        ],
+        "en": [
+          "Li Shuhuai"
+        ]
+      },
+      "properties": {
+        "lifetime": "1919 - 1989",
+        "gender": "Male",
+        "birth_place": {
+          "zh-cn": "陕西省子洲县",
+          "en": "Zizhou, Shaanxi"
+        },
+        "description": {
+          "zh-cn": "中国警卫工作者，曾任中共中央办公厅警卫局副局长、公安部八局局长，以及第五、六届全国政协委员。",
+          "en": "A Chinese security professional who served as the Deputy Director of the Security Bureau of the General Office of the CPC Central Committee, Director of the Eighth Bureau of the Ministry of Public Security, and a member of the 5th and 6th National Committees of the CPPCC."
+        }
+      }
+    },
+    {
+      "id": "子洲县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "子洲县",
+          "子洲"
+        ],
+        "en": [
+          "Zizhou County"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "陕西省",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "陕西省",
+          "陕西"
+        ],
+        "en": [
+          "Shaanxi Province"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中共中央办公厅警卫局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央办公厅警卫局"
+        ],
+        "en": [
+          "Central Guard Bureau of the General Office of the CPC Central Committee"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "公安部八局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "公安部八局"
+        ],
+        "en": [
+          "Eighth Bureau of the Ministry of Public Security"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国人民政治协商会议全国委员会",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国人民政治协商会议全国委员会",
+          "全国政协"
+        ],
+        "en": [
+          "National Committee of the Chinese People's Political Consultative Conference"
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "id": "中国共产党",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中国共产党"
+        ],
+        "en": [
+          "Communist Party of China"
+        ]
+      },
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李树槐",
+      "target": "子洲县",
+      "type": "BORN_IN",
+      "properties": {
+        "start_date": "1919",
+        "description": {
+          "zh-cn": "李树槐是陕西子洲人。",
+          "en": "Li Shuhuai was from Zizhou, Shaanxi."
+        }
+      }
+    },
+    {
+      "source": "李树槐",
+      "target": "中共中央办公厅警卫局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "副局长",
+          "en": "Deputy Director"
+        },
+        "description": {
+          "zh-cn": "李树槐曾任中共中央办公厅警卫局副局长。",
+          "en": "Li Shuhuai once served as the Deputy Director of the Security Bureau of the General Office of the CPC Central Committee."
+        }
+      }
+    },
+    {
+      "source": "李树槐",
+      "target": "公安部八局",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "局长",
+          "en": "Director"
+        },
+        "description": {
+          "zh-cn": "李树槐曾任公安部八局局长。",
+          "en": "Li Shuhuai once served as the Director of the Eighth Bureau of the Ministry of Public Security."
+        }
+      }
+    },
+    {
+      "source": "李树槐",
+      "target": "中国人民政治协商会议全国委员会",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "第五、六届全国委员",
+          "en": "Member of the 5th and 6th National Committee"
+        },
+        "description": {
+          "zh-cn": "李树槐是第五、六届全国政协委员。",
+          "en": "Li Shuhuai was a member of the 5th and 6th National Committees of the Chinese People's Political Consultative Conference."
+        }
+      }
+    },
+    {
+      "source": "李树槐",
+      "target": "中国共产党",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "党员",
+          "en": "Party member"
+        },
+        "description": {
+          "zh-cn": "根据页面分类“中国共产党党员”，李树槐是中国共产党的成员。",
+          "en": "According to the page category 'Members of the Communist Party of China', Li Shuhuai is a member of the Communist Party of China."
+        }
+      }
+    }
+  ]
+}

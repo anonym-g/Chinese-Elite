@@ -1,0 +1,254 @@
+{
+  "nodes": [
+    {
+      "id": "刘华北",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘华北"
+        ],
+        "en": [
+          "Liu Huabei"
+        ]
+      },
+      "properties": {
+        "lifetime": "1939 - 1945-08-18",
+        "gender": "Female",
+        "death_place": {
+          "zh-cn": "延安",
+          "en": "Yan'an"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国元帅刘伯承的长女。1945年8月18日晚，在延安洛杉矶托儿所的窑洞中被人杀害，年仅6岁，案件至今未破。",
+          "en": "The eldest daughter of Liu Bocheng, Marshal of the People's Republic of China. On the night of August 18, 1945, she was murdered in a cave dwelling at the Yan'an Los Angeles Nursery at the age of 6. The case remains unsolved."
+        }
+      }
+    },
+    {
+      "id": "刘伯承",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "刘伯承"
+        ],
+        "en": [
+          "Liu Bocheng"
+        ]
+      },
+      "properties": {
+        "gender": "Male",
+        "description": {
+          "zh-cn": "中华人民共和国元帅，刘华北的父亲。",
+          "en": "Marshal of the People's Republic of China, father of Liu Huabei."
+        }
+      }
+    },
+    {
+      "id": "汪荣华",
+      "type": "Person",
+      "name": {
+        "zh-cn": [
+          "汪荣华"
+        ],
+        "en": [
+          "Wang Ronghua"
+        ]
+      },
+      "properties": {
+        "gender": "Female",
+        "description": {
+          "zh-cn": "刘伯承的妻子，刘华北的母亲。",
+          "en": "Wife of Liu Bocheng and mother of Liu Huabei."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国元帅",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国元帅"
+        ],
+        "en": [
+          "Marshal of the People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国于1955年授予在中国人民解放军中作出卓越贡献的十位高级将领的最高军衔。",
+          "en": "The highest military rank of the People's Republic of China, awarded in 1955 to ten senior generals who made outstanding contributions to the People's Liberation Army."
+        }
+      }
+    },
+    {
+      "id": "延安洛杉矶托儿所",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "延安洛杉矶托儿所",
+          "洛杉矶托儿所"
+        ],
+        "en": [
+          "Yan'an Los Angeles Nursery",
+          "Los Angeles Nursery"
+        ]
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "延安",
+          "en": "Yan'an"
+        },
+        "description": {
+          "zh-cn": "位于延安的一所托儿所，刘华北于1945年在此处遇害。",
+          "en": "A nursery in Yan'an where Liu Huabei was murdered in 1945."
+        }
+      }
+    },
+    {
+      "id": "中共中央",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中共中央"
+        ],
+        "en": [
+          "Central Committee of the Communist Party of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国共产党的中央领导机构。",
+          "en": "The central leading body of the Communist Party of China."
+        }
+      }
+    },
+    {
+      "id": "刘华北遇害案",
+      "type": "Event",
+      "name": {
+        "zh-cn": [
+          "刘华北遇害案"
+        ],
+        "en": [
+          "Murder of Liu Huabei"
+        ]
+      },
+      "properties": {
+        "period": "1945-08-18",
+        "location": {
+          "zh-cn": "延安洛杉矶托儿所",
+          "en": "Yan'an Los Angeles Nursery"
+        },
+        "description": {
+          "zh-cn": "1945年8月18日晚，刘伯承长女刘华北在延安洛杉矶托儿所内被不明人士杀害的案件，至今未破。",
+          "en": "The unsolved case of the murder of Liu Bocheng's eldest daughter, Liu Huabei, by an unknown person inside the Yan'an Los Angeles Nursery on the night of August 18, 1945."
+        }
+      }
+    },
+    {
+      "id": "延安",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "延安"
+        ],
+        "en": [
+          "Yan'an"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中国陕西省的一座城市，曾是中国共产党的革命根据地。刘华北在此遇害。",
+          "en": "A city in Shaanxi Province, China, which was the revolutionary base of the Communist Party of China. Liu Huabei was murdered here."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘华北",
+      "target": "刘伯承",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘华北是刘伯承的长女。",
+          "en": "Liu Huabei was the eldest daughter of Liu Bocheng."
+        }
+      }
+    },
+    {
+      "source": "刘华北",
+      "target": "汪荣华",
+      "type": "CHILD_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘华北是汪荣华的女儿。",
+          "en": "Liu Huabei was the daughter of Wang Ronghua."
+        }
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "汪荣华",
+      "type": "SPOUSE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "刘伯承与汪荣华是夫妻关系。",
+          "en": "Liu Bocheng and Wang Ronghua were married."
+        }
+      }
+    },
+    {
+      "source": "刘伯承",
+      "target": "中华人民共和国元帅",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "元帅",
+          "en": "Marshal"
+        },
+        "description": {
+          "zh-cn": "刘伯承拥有中华人民共和国元帅军衔。",
+          "en": "Liu Bocheng held the rank of Marshal of the People's Republic of China."
+        }
+      }
+    },
+    {
+      "source": "刘华北",
+      "target": "延安洛杉矶托儿所",
+      "type": "MEMBER_OF",
+      "properties": {
+        "start_date": "1940",
+        "end_date": "1945-08-18",
+        "description": {
+          "zh-cn": "刘华北自1940年春起被安置在延安的托儿所，直至1945年8月18日晚间在延安洛杉矶托儿所遇害。",
+          "en": "Liu Huabei was placed in a nursery in Yan'an starting from the spring of 1940 until she was murdered at the Yan'an Los Angeles Nursery on the evening of August 18, 1945."
+        }
+      }
+    },
+    {
+      "source": "刘华北遇害案",
+      "target": "刘华北",
+      "type": "BLOCKED",
+      "properties": {
+        "start_date": "1945-08-18",
+        "description": {
+          "zh-cn": "刘华北在此事件中遇害身亡。",
+          "en": "Liu Huabei was killed in this event."
+        }
+      }
+    },
+    {
+      "source": "中共中央",
+      "target": "刘华北遇害案",
+      "type": "INFLUENCED",
+      "properties": {
+        "start_date": "1945-08-19",
+        "description": {
+          "zh-cn": "刘华北遇害案发生后，中共中央对此案展开了严密的调查。",
+          "en": "After the murder of Liu Huabei occurred, the Central Committee of the Communist Party of China launched a rigorous investigation into the case."
+        }
+      }
+    }
+  ]
+}

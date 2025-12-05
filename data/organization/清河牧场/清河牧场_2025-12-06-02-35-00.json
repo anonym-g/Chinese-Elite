@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "清河牧场",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "清河牧场"
+        ],
+        "en": []
+      },
+      "properties": {
+        "location": {
+          "zh-cn": "内蒙古自治区通辽市开鲁县",
+          "en": "Kailu County, Tongliao, Inner Mongolia"
+        },
+        "description": {
+          "zh-cn": "中华人民共和国通辽市开鲁县下辖的一个类似乡级单位，是开鲁县人民政府农牧局所属的公益一类事业单位，机构规格为正科级。其办公地址在开鲁县182乡道东侧开鲁县种畜场场部。",
+          "en": "A township-level equivalent unit under the jurisdiction of Kailu County, Tongliao City, People's Republic of China. It is a public welfare type 1 public institution affiliated with the Agriculture and Animal Husbandry Bureau of the Kailu County People's Government, with an institutional rank equivalent to a chief section level position. Its office is located at the Kailu County Stud Farm headquarters, on the east side of County Road 182 in Kailu County."
+        }
+      }
+    },
+    {
+      "id": "中华人民共和国",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "中华人民共和国",
+          "中国"
+        ],
+        "en": [
+          "People's Republic of China"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "位于东亚的社会主义国家，通常简称为“中国”。",
+          "en": "A socialist state in East Asia, commonly known as 'China'."
+        }
+      }
+    },
+    {
+      "id": "内蒙古自治区",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "内蒙古自治区"
+        ],
+        "en": [
+          "Inner Mongolia Autonomous Region"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的五个自治区之一，位于中国北部边疆。",
+          "en": "One of the five autonomous regions of the People's Republic of China, located in the northern frontier of the country."
+        }
+      }
+    },
+    {
+      "id": "通辽市",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "通辽市"
+        ],
+        "en": [
+          "Tongliao"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "内蒙古自治区下辖的一个地级市。",
+          "en": "A prefecture-level city in the Inner Mongolia Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "开鲁县",
+      "type": "Location",
+      "name": {
+        "zh-cn": [
+          "开鲁县"
+        ],
+        "en": [
+          "Kailu County"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "内蒙古自治区通辽市下辖的一个县。",
+          "en": "A county under the jurisdiction of Tongliao City, Inner Mongolia Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "开鲁县人民政府农牧局",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "开鲁县人民政府农牧局"
+        ],
+        "en": [
+          "Agriculture and Animal Husbandry Bureau of Kailu County People's Government"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "内蒙古自治区通辽市开鲁县人民政府下设的负责农牧业工作的部门。",
+          "en": "The department responsible for agriculture and animal husbandry under the People's Government of Kailu County, Tongliao City, Inner Mongolia Autonomous Region."
+        }
+      }
+    },
+    {
+      "id": "事业单位",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "事业单位"
+        ],
+        "en": [
+          "Public Institution"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "一种由中国政府利用国有资产设立的，从事教育、科技、文化、卫生等活动的社会服务组织。",
+          "en": "A type of social service organization established by the Chinese government using state-owned assets to engage in activities such as education, science and technology, culture, and health."
+        }
+      }
+    },
+    {
+      "id": "类似乡级单位",
+      "type": "Document",
+      "name": {
+        "zh-cn": [
+          "类似乡级单位"
+        ],
+        "en": [
+          "Township-level equivalent unit"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国的一种行政区划单位，与乡、镇在行政级别上相同，但管理方式或功能有所不同。",
+          "en": "A type of administrative division unit in the People's Republic of China, which is at the same administrative level as a township or town but may differ in management style or function."
+        }
+      }
+    },
+    {
+      "id": "乡科级正职",
+      "type": "Organization",
+      "name": {
+        "zh-cn": [
+          "乡科级正职",
+          "正科级"
+        ],
+        "en": [
+          "Township-Section Level Chief Position"
+        ]
+      },
+      "properties": {
+        "description": {
+          "zh-cn": "中华人民共和国公务员的一种职级，通常对应于乡、镇、街道或县级部门内设机构的主要负责人。",
+          "en": "A civil service rank in the People's Republic of China, typically corresponding to the head of a township, town, sub-district, or an internal division of a county-level department."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "清河牧场",
+      "target": "开鲁县人民政府农牧局",
+      "type": "SUBORDINATE_OF",
+      "properties": {
+        "description": {
+          "zh-cn": "根据Wikitext描述，清河牧场是开鲁县人民政府农牧局所属的单位。",
+          "en": "According to the Wikitext, Qinghe Pasture is a unit belonging to the Agriculture and Animal Husbandry Bureau of the Kailu County People's Government."
+        }
+      }
+    },
+    {
+      "source": "清河牧场",
+      "target": "乡科级正职",
+      "type": "MEMBER_OF",
+      "properties": {
+        "position": {
+          "zh-cn": "正科级单位",
+          "en": "Chief Section Level Unit"
+        },
+        "description": {
+          "zh-cn": "根据Wikitext描述，清河牧场的机构规格相当于乡科级正职（正科级）。",
+          "en": "According to the Wikitext, the institutional specification of Qinghe Pasture is equivalent to a Township-Section Level Chief Position (Chief Section Level)."
+        }
+      }
+    }
+  ]
+}
