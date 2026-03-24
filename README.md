@@ -2,13 +2,13 @@
 
 一个实验性项目，基于LLMs (大语言模型) 解析公共数据、并与官方来源交叉引用，自动绘制中国精英的关系网络。
 
-点击 [这里](https://anonym-g.github.io/Chinese-Elite) 开始体验。
+点击 [这里](https://ReproduceCycle.github.io/Chinese-Elite) 开始体验。
 
 Telegram 群组链接: https://t.me/ChineseEliteTeleGroup
 
 An experimental project, that automatically maps the relationship networks of Chinese Elites by parsing public data using LLMs and cross-referencing with official sources.
 
-Click [Here](https://anonym-g.github.io/Chinese-Elite) to begin.
+Click [Here](https://ReproduceCycle.github.io/Chinese-Elite) to begin.
 
 Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 
@@ -158,7 +158,7 @@ Telegram Group Link: https://t.me/ChineseEliteTeleGroup
 
 该界面支持按时间范围筛选节点和关系，通过图例动态显示或隐藏不同类型的节点。
 
-该页面已通过 GitHub Pages 部署，您可以通过[此链接](https://anonym-g.github.io/Chinese-Elite/)进行访问。
+该页面已通过 GitHub Pages 部署，您可以通过[此链接](https://ReproduceCycle.github.io/Chinese-Elite/)进行访问。
 
 ### 如何部署
 
@@ -272,7 +272,7 @@ new
 
 遵循此流程，可以确保您的每一次贡献都是一个独立、干净的单元，从而保证自动化系统能够顺利地进行处理。
 
-您可以进一步参考本项目 Pull Request 页面的历史 PR：[https://github.com/anonym-g/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed](https://github.com/anonym-g/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed)
+您可以进一步参考本项目 Pull Request 页面的历史 PR：[https://github.com/ReproduceCycle/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed](https://github.com/ReproduceCycle/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed)
 
 -----
 
@@ -394,7 +394,7 @@ The project provides an interactive frontend visualization interface in the `doc
 
 The interface supports filtering nodes and relationships by a time range and dynamically showing or hiding different types of nodes through a legend.
 
-The page is deployed via GitHub Pages and can be accessed at [this link](https://anonym-g.github.io/Chinese-Elite/).
+The page is deployed via GitHub Pages and can be accessed at [this link](https://ReproduceCycle.github.io/Chinese-Elite/).
 
 ### How to Deploy
 
@@ -508,4 +508,4 @@ Therefore, we strongly recommend following this robust contribution workflow:
 
 Following this process ensures that each of your contributions is an independent, clean unit, guaranteeing that the automated system can process it smoothly.
 
-You can further refer to the historical PR on the Pull Request page of this project：[https://github.com/anonym-g/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed](https://github.com/anonym-g/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed)
+You can further refer to the historical PR on the Pull Request page of this project：[https://github.com/ReproduceCycle/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed](https://github.com/ReproduceCycle/Chinese-Elite/pulls?q=is%3Apr+is%3Aclosed)

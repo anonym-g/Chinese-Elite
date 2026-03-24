@@ -97,7 +97,7 @@ WIKI_API_URL_TPL = "https://{lang}.wikipedia.org/w/api.php"
 PAGEVIEWS_API_BASE = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"
 BAIDU_BASE_URL = "https://baike.baidu.com/item/"
 CDSPACE_BASE_URL = "https://chinadigitaltimes.net/space/"
-USER_AGENT = 'ChineseEliteExplorer/1.0 (https://github.com/anonym-g/Chinese-Elite)'
+USER_AGENT = 'ChineseEliteExplorer/1.0 (https://github.com/ReproduceCycle/Chinese-Elite)'
 
 # --- 全局配置 ---
 TIMEZONE = pytz.timezone('Asia/Shanghai')

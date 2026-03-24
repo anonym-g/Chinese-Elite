@@ -35,8 +35,8 @@ load_dotenv(os.path.join(ROOT_DIR, '.env'))
 # --- 常量定义 ---
 PAGEVIEWS_CACHE_PATH = os.path.join(CACHE_DIR, 'pageviews_cache.json')
 TOP_N = 7 # 输出前7条
-WEBSITE_URL = "https://anonym-g.github.io/Chinese-Elite"
-REPO_URL = "https://github.com/anonym-g/Chinese-Elite"
+WEBSITE_URL = "https://ReproduceCycle.github.io/Chinese-Elite"
+REPO_URL = "https://github.com/ReproduceCycle/Chinese-Elite"
 
 def setup_arg_parser():
     """设置命令行参数解析器。"""
