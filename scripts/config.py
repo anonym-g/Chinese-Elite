@@ -85,7 +85,7 @@ RELATION_CLEANER_MODEL = "gemini-2.5-flash-lite"
 # 用于验证PR有效性的模型
 VALIDATE_PR_MODEL = "gemini-2.5-flash-preview-09-2025"
 # Telegram Bot调用的模型
-BOT_QA_MODEL = "gemini-2.5-flash-lite-preview-09-2025"
+BOT_QA_MODEL = "gemini-3.1-flash-lite-preview"
 
 # --- LLM 参数配置 ---
 FEW_SHOT_NODE_SAMPLES = 12
